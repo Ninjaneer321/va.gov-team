@@ -142,7 +142,7 @@ Veterans trust and want to connect one-on-one with individuals who know the deta
         * “...there is very little information you can actually view.”<sub>11</sub>
         * Example: Showing name of their representative for VA claims but offering no way to contact them. “Why are you going to show me information but I can’t act on it?”
     * **Uploading a file to a claim was… not cited as a top priority by any participants in co-design**.
-        * [Uploading a file to a claim in the mobile app was perceived as somewhat useful and most useful to send in a few files only, not a lot of files](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/ux-research/prototype-testing/testing-summary.md#uploading-a-file-to-a-claim-is-somewhat-useful-and-its-most-useful-to-send-in-a-few-files-only-not-a-lot-of-files).<sub>1</sub>
+        * [Uploading a file to a claim in the mobile app was perceived as somewhat useful and most useful to send in a few files only, not a lot of files](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/ux/mobile-app-MVP/2020-06-prototype-testing/testing-summary.md#uploading-a-file-to-a-claim-is-somewhat-useful-and-its-most-useful-to-send-in-a-few-files-only-not-a-lot-of-files).<sub>1</sub>
         * Although this feature did not rise to the top in co-design, **it… was seen as a time saver**, especially a time saver **that** **might save additional trips** to a VA facility for document.
     * Participants said **claims support chat in an app** is useful because it would save time from having to track information from VA via phone and bring more transparency to a frustrating process.<sub>1</sub>
 
@@ -151,9 +151,9 @@ Veterans trust and want to connect one-on-one with individuals who know the deta
 
 
 
-1. [VA Mobile App Prototype Testing + Co-design Research Summary](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/ux-research/prototype-testing/testing-summary.md#claims-features-are-highly-useful-checking-a-claims-status-and-direct-access-to-claims-support-through-an-app-are-highly-useful) (2020)
+1. [VA Mobile App Prototype Testing + Co-design Research Summary](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/ux/mobile-app-MVP/2020-06-prototype-testing/testing-summary.md#claims-features-are-highly-useful-checking-a-claims-status-and-direct-access-to-claims-support-through-an-app-are-highly-useful) (2020)
 2. [VA Mobile app - Synthesis of Discovery research](https://app.mural.co/t/adhoccorporateworkspace2583/m/adhoccorporateworkspace2583/1602260690816/5c852613430ef83a077029a4915974194b18a2c3?sender=u28718b63c8993f515e0b2240) (2020)
-3. [VA Mobile app - Sprint 0: Profile fail error handling #4491](https://docs.google.com/document/d/1PhQSuW_cwyVbf-LVO7syg8q7EazKtcOhR-LHXnWkZ4Y/edit) (2023)
+3. [VA Mobile app - Sprint 0: Profile fail error handling #4491](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/features/profile-fail-error-handling.md) (2023)
 4. [VA.gov - CST Initial Research Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2023-03-Initial-Decisions-CST/research-findings.md)</span> (Apr 2023)
 5. [VA.gov - Claims Status readme](https://github.com/department-of-veterans-affairs/va.gov-team/blob/69833737d9fe22b8990bb987e7c50de13205c5d5/products/claim-appeal-status/claims-status/readme.md#has-there-been-any-past-user-research-about-sending-notifications-to-users-when-there-is-a-change-to-the-status-of-a-claim-or-appeal)
 6. [PACT Act / presumptive claims discovery research with veterans](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/abd-vro/2022-06-PACT-Act-presumptive-veterans/PACT-Act-research-report.md) (Jul 2022)
@@ -178,25 +178,25 @@ Veterans trust and want to connect one-on-one with individuals who know the deta
 
 ### Mobile app team
 
-([va.gov-team](https://github.com/department-of-veterans-affairs/va.gov-team)/[products](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products)/va-mobile-app/;  [department-of-veterans-affairs](https://github.com/department-of-veterans-affairs)/[va-mobile-app](https://github.com/department-of-veterans-affairs/va-mobile-app))
+([va.gov-team](https://github.com/department-of-veterans-affairs/va.gov-team)/[products](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/);  [department-of-veterans-affairs](https://github.com/department-of-veterans-affairs)/[va-mobile-app](https://github.com/department-of-veterans-affairs/va-mobile-app))
 
 
 
-#### [**VA Mobile App - Prototype Testing + Co-design Research Summary**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/ux-research/prototype-testing/testing-summary.md#claims-features-are-highly-useful-checking-a-claims-status-and-direct-access-to-claims-support-through-an-app-are-highly-useful) (2020)
-   * [Claims features are highly useful. Checking a claim's status and direct access to claims support through an app are highly useful.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/ux-research/prototype-testing/testing-summary.md#claims-features-are-highly-useful-checking-a-claims-status-and-direct-access-to-claims-support-through-an-app-are-highly-useful)
+#### [**VA Mobile App - Prototype Testing + Co-design Research Summary**](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/ux/mobile-app-MVP/2020-06-prototype-testing/testing-summary.md#claims-features-are-highly-useful-checking-a-claims-status-and-direct-access-to-claims-support-through-an-app-are-highly-useful) (2020)
+   * [Claims features are highly useful. Checking a claim's status and direct access to claims support through an app are highly useful.](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/ux/mobile-app-MVP/2020-06-prototype-testing/testing-summary.md#claims-features-are-highly-useful-checking-a-claims-status-and-direct-access-to-claims-support-through-an-app-are-highly-useful)
       * Participants said keeping tabs on a claim's status in an app is useful because **they frequently check** and would value being able to do it **faster and more easily.**
       * The claims detail view is most valuable when it shows a **comprehensive view of all actions that need to be taken** if there is anything a Veteran needs to do in order for their claim status to move forward
    * **Chatting** with a VA representative in claims
       * Participants said claims **support chat in an app is useful** because it would save time from having to track information from VA via phone and **bring more transparency** to a frustrating process.
-   * [Uploading a file to a claim is somewhat useful and it's most useful to send in a few files only, not a lot of files](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/ux-research/prototype-testing/testing-summary.md#uploading-a-file-to-a-claim-is-somewhat-useful-and-its-most-useful-to-send-in-a-few-files-only-not-a-lot-of-files)
+   * [Uploading a file to a claim is somewhat useful and it's most useful to send in a few files only, not a lot of files](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/ux/mobile-app-MVP/2020-06-prototype-testing/testing-summary.md#uploading-a-file-to-a-claim-is-somewhat-useful-and-its-most-useful-to-send-in-a-few-files-only-not-a-lot-of-files)
       * **Uploading a file to a claim was… not cited as a top priority by any participants in co-design**. Although this feature did not rise to the top in co-design, **it… was seen as a time saver**, especially a time saver **that** **might save additional trips** to a VA facility for document.
-   * **[There’s a desire to see as much transparency as possible with every aspect of the claims features](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/ux-research/prototype-testing/testing-summary.md#aside-from-these-findings-there-are-two-more-points-worth-mentioning-about-claims)**. The app may want to lean into transparency as much as possible with claims, with things like:
+   * **[There’s a desire to see as much transparency as possible with every aspect of the claims features](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/ux/mobile-app-MVP/2020-06-prototype-testing/testing-summary.md#aside-from-these-findings-there-are-two-more-points-worth-mentioning-about-claims)**. The app may want to lean into transparency as much as possible with claims, with things like:
       * Time stamp of the **last time** a claim **status was updated**
       * Time stamp for when a claim detail screen was **last refreshed**
       * **Encouraging** message (e.g. 'You are all caught up, we will notify you as soon as something changes') if the user refreshes the page multiple times in one visit
      * Pending state for any documents uploaded through the app to **clarify that an uploaded file has been received and is being processed**
      * As many **notifications about changes to a claim** that we can provide
-   * **[Claims and health features are both useful, but have different usage patterns](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/ux-research/prototype-testing/testing-summary.md#claims-and-health-features-are-both-useful-but-have-different-usage-patterns)**
+   * **[Claims and health features are both useful, but have different usage patterns](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/ux/mobile-app-MVP/2020-06-prototype-testing/testing-summary.md#claims-and-health-features-are-both-useful-but-have-different-usage-patterns)**
       * **Once a claim is filed and a decision is given, Veterans may stop needing claims features as urgently**, depending on the nature of their claim. 
      * For people who were in the midst of a long or frustrating claims process, claims features were highly useful.
 
@@ -206,11 +206,11 @@ Veterans trust and want to connect one-on-one with individuals who know the deta
 * **Veterans don’t necessarily know in a timely manner when something has changed or is needed with their claim or appeal.**
     * Because there are long real signals from VA about the progress of the claim, **Veterans check the Mobile app frequently for changes**.
 
-#### [**VA Mobile app - Sprint 0: Profile fail error handling #4491**](https://docs.google.com/document/d/1PhQSuW_cwyVbf-LVO7syg8q7EazKtcOhR-LHXnWkZ4Y/edit)
+#### [**VA Mobile app - Sprint 0: Profile fail error handling #4491**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/features/profile-fail-error-handling.md)
    * **The VA mobile app displays one-size fits all error messages that are sometimes inaccurate when it can’t display claims information due to the profile failing or low connectivity.**
       * Claims: “The app can’t be loaded,”<sub> </sub>Disability rating “You do not have a combined disability on record”
 
-#### [**Review of User Research: VA Mobile App Personalization**](https://docs.google.com/presentation/d/1J10VcE7PGN9emVT1vtqO4-5XRYc3Jycm5zJ4QJnc19g/edit#slide=id.p1) (Jul 2022)
+#### [**Review of User Research: VA Mobile App Personalization**](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/ux/personalization/) (Jul 2022)
 * **Insight:** Veterans **want to understand their benefits and how to access them, what VA is doing & needs from them.**
    * **Motivations & Behaviors**
        * Veterans **care about anything they have in flight**, whether that is education or other benefits. 

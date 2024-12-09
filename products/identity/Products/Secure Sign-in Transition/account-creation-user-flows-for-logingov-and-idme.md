@@ -26,22 +26,18 @@ This audit documents the user flow for creating a new Login.gov and ID.me accoun
 ## Gaps in the user flow
 **Summary:** instances where the user needs to manually navigate to another page in order to move forward.
 - Unclear eauth timeout error messages are overly technical and don't contain next steps.
-- The user needs to navigate manually to VA.gov after verifying their email for Login.gov.
+- The user needs to navigate manually to VA.gov after verifying their email for ID.me.
 - [Link to detailed findings](https://www.figma.com/design/kjhHcpanHjaEGPcT7Oe5uC/User-flows-for-modern-CSP-account-creation?node-id=30-471&t=Wh11CihOhFh7Lcxm-4).
 
 ## Unclear UX
 **Summary:** unexpected friction in the user experience, including unclear interactions and content.
 
 - The same phone number I used to set up MFA failed to pass identity verification. Volunteers at in-person signup days confirmed through [Login.gov](http://login.gov/) Help Desk:
-    - User's name and phone # must typically match public records check
+    - User's name and phone number must typically match a public records check.
     - If name on [Login.gov](http://login.gov/) account doesn't match phone accountholder doesn't match, it will likely get denied UNLESS user has had the phone for at a minimum 2 years (but sometimes longer).
         -   Note: in  my case, I've had this phone number for 20 years and it failed to pass.
     - Having multiple lines under varying names can also cause denial in verification.
-- When identity verification isn't successful on Login.gov, users who need to verify in person can do so at their local US Postal Service. To search for USPS locations, users are **required to search with all of the following fields** instead of just address or zip code.
-  - Address
-  - City
-  - State
-  - Zip
+- When identity verification isn't successful on Login.gov, users who need to verify in person can do so at their local US Postal Service. To search for USPS locations, users are **required** to search with a detailed address that includes **all** of the following fields: Street address, City, State, Zip Code. Conversely, [USPS only requires a zip code to search for locations on their website.](https://tools.usps.com/locations/)
 - "Authentication method" language was flagged as unclear during research, but the term is defined and explained in earlier screens within the user flow.
 - When uploading documents for identity verification on ID.me, it's not clear that the user has the option to take a photo (language says "Select" photo).
 - After creating an unverified Login.gov account, the VA mobile app displayed an unclear warning message banner, which says: "Your email address has already been confirmed."
@@ -60,4 +56,4 @@ This audit documents the user flow for creating a new Login.gov and ID.me accoun
 # Next steps
 
 - Content recommendations for improved eauth error messages (collaboration with IAM team)
-- Share UX recommendations with Login.gov
+- Share UX recommendations with support contacts at Login.gov and ID.me.

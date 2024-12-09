@@ -125,6 +125,7 @@ JAWS users had a hard time operating form controls since there were issues such 
 * Both were eventually able to find workarounds, but voiced frustration.
 
 > "Well, there's no edit boxes on this paper. If they were, I would be able to select. [...] Okay, for me, I would hear a popping sound was like that. And it would say edit." P4
+
 > "And when you click one they'll have to click that button.And then, when you move off of the button.it still thinks it's got a button down. For the next time you light on a button. It's going to turn that one on. [...] I guess some people have heard enough complaints about what Jaws does, as the most screen readers do.but they straighten that problem out, and I don't know how to do that, but that it's it's like, say, I didn't catch it until I sat down and went to my cell phone number, and it was automatically checked." P6
 
 ### **Finding 2**
@@ -133,7 +134,7 @@ JAWS users had a hard time operating form controls since there were issues such 
 
 * Two participants mentioned the question felt sudden and out-of-place, and were concerned that it would affect their claim.
 
-> “Here's the problem. VA has showed us that they're not taking care of their veterans. So I maybe it's just for me. I have a problem with fully trusting Va. So I'm not going to believe it… This is probably not the best place to put it. However, if something to the effect of to provide better healthcare services. We're looking to inquire if if you've experienced this, and VA. Is truly trying to help better the healthcare services that we could get for that.” P11
+> “Here's the problem. VA has shown us that they're not taking care of their Veterans, so I maybe it's just for me. I have a problem with fully trusting VA. So I'm not going to believe it […] This is probably not the best place to put it. However, if something to the effect of to provide better healthcare services. We're looking to inquire if if you've experienced this, and VA is truly trying to help better the healthcare services that we could get for that. I mean, look, personally, I just had my provider changed yet again. So I have 3 providers within 3 years. I couldn't get an appointment until 3 months out. They cancelled my appointment that I had back in August.” P11
 
 * One mentioned that they’ve provided details about MST, but haven’t seen any changes to their claim. 
 
@@ -171,7 +172,9 @@ Half of the participants experienced friction with the notice of evidence needed
 
 > “No, I probably would have gone back to the start and done the whole thing over. But here it is. I see it. Yeah, there it is. Okay. Well, that's that makes me feel dumb.” P10
 
-* One mentioned that the Supplemental Claim is being submitted within the year, so they shouldn’t have to verify that they’ve read the notice.
+* Two mentioned that the Supplemental Claim is being submitted within the year, so they shouldn’t have to verify that they’ve read the notice.
+
+> "What what I'm trying to think is is that I need to read that if it's been more than a year, maybe it's been less than a year do I still have to check it or can I just bypass it?" P6
 
 > “Okay, obviously, the I certify that I've reviewed the notice of evidence. This is, it's not matching. Because the 1st one is saying, if you're filing claim. More than one year after you got your decision, you need to review the notice of evidence needed. However, underneath it's requiring you to review the notice of evidence needed.” P11
 
@@ -183,7 +186,9 @@ Half of the participants experienced friction with the notice of evidence needed
 * Veterans would choose Vet Center until they see Vet Healthcare Center, and realize they’re two different types of locations.
 
 > “What is a VA Vet Center?” P6
-> “Department of Defense military treatment facility. I’m not sure what that is. That a base you would go to, and a medical clinic on a base? I’m not sure what that is.” P10  
+
+> “Department of Defense military treatment facility. I’m not sure what that is. That a base you would go to, and a medical clinic on a base? I’m not sure what that is.” P10
+
 > “I think the thing that I learned early when I was applying for it back in the early 2000s was that there was no connection between the Department of Defense and the VA.” P8
 
 ### **Finding 6**
@@ -238,11 +243,7 @@ Out of 11 participants, 8 tested a flow where they made edits to evidence when t
 
      > “Those DoD records were, you know, you had to get them separately. I once took 3 years to get my records, and when I opened up the disk it was somebody else's records with my name on it. So I had to do another 3 years” P8
 
-3. Veterans responded positively to the multiple summary pages, and areas where they can make edits
-
-   > “But I do like how, throughout, by the time you get to this, this page, this page right here your stuff should be on the money, because it gives you so many options so many times to edit.” P2
-
-4. The digital upload process is still a source of friction for digital submissions.
+3. The digital upload process is still a source of friction for digital submissions.
 
    > “I had to learn all this the hard way” P8
 
@@ -250,7 +251,7 @@ Out of 11 participants, 8 tested a flow where they made edits to evidence when t
 
    > “I get the size, but I don’t get the width and the height” P13
 
-5. Veterans that went through the non-VA medical records flow felt inclined to give an answer to the limiting consent page when it was not required.
+4. Veterans that went through the non-VA medical records flow felt inclined to give an answer to the limiting consent page when it was not required.
 
    * One Veteran caught that they were limiting information, and removed it from the evidence summary screen.
 
@@ -264,6 +265,8 @@ Out of 11 participants, 8 tested a flow where they made edits to evidence when t
 
 3. Possibly remove the presumptive conditions alert within the form.
    - It’s clear to Veterans within the introduction of the form that it covers PACT Act. Including the alert mid-form to re-emphasize presumptive conditions causes unnecessary friction, especially for Veterans who use screen readers.
+  
+4. Clarify the language around the Notice of Evidence Needed for claims filed within a year of decision.
 
 5. Adjust the wording around types of facilities to provide more information and clarity.
 
@@ -282,7 +285,7 @@ Make updates based on recommendations, and consider a better evidence collection
 
 We talked to two cohorts of research participants. 1 cohort of 5 Veterans using assitive technology. 1 cohort of 6 Veterans not using assitive technology.
 
-[Supplemental Claims 2024 updates Recruitment tracker.pdf](https://github.com/user-attachments/files/17739301/Supplemental.Claims.2024.updates.Recruitment.tracker.pdf)
+[Supplemental Claims 2024 updates Recruitment tracker.pdf]([https://github.com/user-attachments/files/17739301/Supplemental.Claims.2024.updates.Recruitment.tracker.pdf](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/decision-reviews/Supplemental-Claims/Research/0924-2024-SC-Updates/Supplemental%20Claims%202024%20updates%20Recruitment%20tracker.pdf))
 
 
 ## **Further research needed**

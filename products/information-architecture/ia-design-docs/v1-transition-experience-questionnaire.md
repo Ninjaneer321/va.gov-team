@@ -50,13 +50,13 @@ _Most of the time this is the CTA on a tool static landing page (a sign in widge
   - Link destination: TBD questionnaire static page
 
 
-### Secondary entry points
-_Any additional locations that the page should be navigable from.  This is often an about-a-form page, an R&S page about the feature, or can be left nav or mega menu.   These are secondary, and while they are still very important, are not required for launch._
+### Secondary entry points - BLOCKED
 
 1. **[Service member hub page](https://www.va.gov/service-member-benefits/)** - Add
   - Placement description: Add a new 'Other VA benefits and services' grey box section (like this one in the [disability hub](https://www.va.gov/disability/)), and link to the R+S page from there. 
   - Link label: Getting started with the VA
   - Link destination: https://www.va.gov/resources/getting-started-with-va/
+  - NOTE: the team is still deciding whether they want to put an entry point here, because there is so much more traffic (60k/month according to Gene). So since we aren't doing incremental release, it is riskier to add an entry point here, in case something goes wrong, or we find that info is incorrect. Decision: don't include this entry point at launch, but we could consider adding it in the future. 
 
 
 ## <a name="redirects"></a>Redirects <br>
@@ -64,15 +64,7 @@ No redirects needed since this is a net-new tool
 
 
 ## <a name="bestbets"></a>Best Bets<br>
-We could look into a best bet that might make sense, but unlikely that users are going to be searching for careers-specific explorer tool
+We could look into a best bet that might make sense, but unlikely that users are going to be searching for careers-specific explorer tool. Our current best bet strategy is to keep the best bet on the getting-started-at-VA R+S page, rather than creating an additional one for the questionnaire. 
 
 ## <a name="stagedrollout"></a>Staged Rollout<br>
-*Is the team planning a staged rollout? Pages/sections that can't have a widget: find a form pages, within accordions, hub pages*
-
-**[Which static page has the widget, ie the main entry point?]**
-
-
-
-
-<hr>
-<hr>
+The team is not going to do a staged rollout.

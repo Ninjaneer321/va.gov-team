@@ -90,7 +90,7 @@ We recruited 2 cohorts of participants:
 ## Key Findings
 
 1. Veterans and Caregivers want more clarity on eligibility and benefits before applying.
-2. Veterans and Caregivers had mixed comfortability with and ease of signing the form.
+2. Veterans and Caregivers had mixed levels of comfort and ease when signing the form.
 3. Users said content was “just enough” but called out items that needed more clarification.
 4. The facility search functionality was difficult / confusing for some users.
 5. Veterans and Caregivers differ on facilities confirmation page content clarity.
@@ -98,7 +98,7 @@ We recruited 2 cohorts of participants:
 
 ## Details of Findings 
 
-**Finding 1: Veterans and Caregivers want more clarity on eligibility and benefits before applying.**
+### Finding 1: Veterans and Caregivers want more clarity on eligibility and benefits before applying.
 
 Labels: TREND: Content 
 
@@ -117,7 +117,7 @@ Out of 21 total participants:
 > _P12: "I tell you, they keep that Caregivers program a big secret. Anyone you ask they say 'go see this person, go see that person.'"_ <br>
 
 
-**Finding 2: Veterans and Caregivers had mixed comfortability with and ease of signing the form.**
+### Finding 2: Veterans and Caregivers had mixed levels of comfort and ease when signing the form.
 
 Labels: DSP: Form feedback; DSP: Ask users for signature 
 
@@ -135,7 +135,9 @@ Veterans and Caregivers were somewhat split on whether they feel comfortable sig
 
 **Supporting visual:**
 
-![Screenshot 2024-11-13 at 12 50 04 PM](https://github.com/user-attachments/assets/1dc060ee-3c68-4b05-a909-67c250d9f3be)
+| ![Screenshot 2024-11-13 at 12 50 04 PM](https://github.com/user-attachments/assets/1dc060ee-3c68-4b05-a909-67c250d9f3be) |
+|:--:|
+| *Error message that appeared when a user's entry didn't perfectly match the Primary Caregiver name previously entered in the form* |
 
 **Supporting quotes:**
 
@@ -146,7 +148,7 @@ Veterans and Caregivers were somewhat split on whether they feel comfortable sig
 > _P34: "It's kind of like with government stuff, you wanna be careful that you're not getting yourself in trouble by doing something and swearing that you're the one that did it." "...Here I would've like to have said it's not the Veteran that's filling it out." [Did not have any documents listed to sign as legal rep]_ <br>
 
 
-**Finding 3: Users said content was “just enough” but called out items that needed more clarification.**
+### Finding 3: Users said content was “just enough” but called out items that needed more clarification.
 
 Labels: TREND: Content, SPG: Blind/Visually Impaired
 
@@ -165,7 +167,7 @@ At the end of the study, we asked participants if they felt the amount of inform
 
 > _P22: “I’d be stressed about those two items [facility + secondary caregiver]. It would definitely agitate my stress level. There's no way I'd be submitting this form right now. I'd be clicking the back button and looking for that Need Help thing."_ <br>
 
-**Finding 4: The facility search functionality was difficult and confusing for some users.**
+### Finding 4: The facility search functionality was difficult and confusing for some users.
 
 Labels: DSP: Ask users for a single response, DSP: Show more options, PRDT: Facilities
 
@@ -196,9 +198,16 @@ Both Caregivers and Veterans struggled with the search functionality and results
 
 **Supporting video clip:**
 
-https://github.com/user-attachments/assets/526e3484-7657-4126-97cd-98f8afaee4e7
 
-**Finding 5: Veterans and Caregivers differ on facilities confirmation page content clarity.**
+
+https://github.com/user-attachments/assets/167ea758-fa35-4342-9283-64d074ed938c
+
+
+
+
+_Video of a user entering "Tampa" for a facility and trying to continue onto the next page without realizing they need to search first. They see an error message appear._
+
+### Finding 5: Veterans and Caregivers differ on facilities confirmation page content clarity.
 
 Labels: PRDT: Facilities
 
@@ -236,7 +245,7 @@ About half of Caregivers felt the confirmation page needed more scannable explan
 
 ## Secondary Findings
 
-**Secondary Finding 1: Autofill caused issues on some browsers and devices - noted on Apple/Safari.**
+### Secondary Finding 1: Autofill caused issues on some browsers and devices - noted on Apple/Safari.
 
 Labels: DSC: Address block, DSC: Form controls; DSP: Error messages, DSP: Form feedback
 
@@ -260,8 +269,9 @@ Issues were observed on some browsers/devices with the autofill browser function
 
 **Supporting video:**
 
+TK
 
-**Secondary Finding 2: The county field was answered correctly by most Veterans and Caregivers.**
+### Secondary Finding 2: The county field was answered correctly by most Veterans and Caregivers.
 
 Labels: DSC: Address block, DSP: Ask users for addresses
 
@@ -284,12 +294,18 @@ The _county_ field was mostly answered easily and correctly by users. However, s
 
 **Supporting visuals:**
 
-![Home address](https://github.com/user-attachments/assets/90cb5746-d0b9-400d-8d82-15128e8d9513)
+| ![Home address](https://github.com/user-attachments/assets/90cb5746-d0b9-400d-8d82-15128e8d9513)| 
+|:--:|
+| *County field with additional info expanded* |
 
-![Home address (1)](https://github.com/user-attachments/assets/3a6462c2-846d-48c5-9170-4aadd9fd81bb)
+<br>
+
+| ![Home address (1)](https://github.com/user-attachments/assets/3a6462c2-846d-48c5-9170-4aadd9fd81bb) |
+|:--:|
+| *County field with error message when field is left blank that says "Enter a county"* |
 
 
-**Secondary Finding 3: Not conclusive, but users seemed to be fairly clear on whose information they were entering in the form.**
+### Secondary Finding 3: Not conclusive, but users seemed to be fairly clear on whose information they were entering in the form.
 
 Labels: AUD: Caregivers, AUD: Family member, AUD: Veteran, DSC: Labels, DSP: Ask users for names, TREND: Content
 
@@ -314,10 +330,12 @@ The 10-10CG form requires information from multiple people - the Veteran, the Pr
 
 **Supporting visual:**
 
-![SSN in name](https://github.com/user-attachments/assets/83fc4d0d-586c-42a1-a09d-874bfb6729ef)
+| ![SSN in name](https://github.com/user-attachments/assets/83fc4d0d-586c-42a1-a09d-874bfb6729ef) |
+|:--:|
+| *A user entered their social security number in the first name field by mistake and did not notice it* |
 
 
-**Secondary Finding 4: Automation/prefill was requested by some users unprompted.**
+### Secondary Finding 4: Automation/prefill was requested by some users unprompted.
 
 Labels: DSC: Text input, DSP: Help users know when there info is prefilled
 
@@ -340,27 +358,27 @@ There were a few instances where users suggested unprompted that the information
 > _P24: Mentioned the Veteran Benefit ID number (8 numbers), expects it to be on this form. "It is not, it should be. If you have this number, all of this stuff would be pre-loaded."_ <br>
 
 
-**Secondary Finding 5: VA forms listed under the Sign as Representative step caused some confusion with participants.**
+### Secondary Finding 5: VA forms listed under the Sign as Representative step caused some confusion with participants.
 
 Labels: AUD: Caregivers; AUD: Family members; AUD: VSOs
 
-Caregivers expressed some confusion around the documents or process required to sign as representative - and some of those who had a POA stated it might be easier to select the Veteran sign for themselves as they were with them most of the time anyways. Most Veterans stated they would sign for themselves, but two mentioned going through a VSO or that their spouse would need to upload their document when applying.
+Caregivers expressed some confusion around the documents or process required to sign as representative - and some of those who had a POA stated it might be easier to select the Veteran sign for themselves as they were with them most of the time anyway. Most Veterans stated they would sign for themselves, but two mentioned going through a VSO or that their spouse would need to upload their document when applying.
 
 **Cohort 1 (Caregivers**
-* 7 of 13 Caregivers mentioned some sort of confusion about the Sign as Representative documents needed
-* 7 of 13 Caregivers mentioned the VA forms listed as Sign as Representative documents to upload as a confusion point - they were not familiar with all the VA forms and unsure if they had any of them
-* 6 of 13 Caregivers indicated they have one or more of the documents listed
-* 2 of 13 Caregivers said they would download a VA form and upload at that point in the CG form
-* 2 of 13 Caregivers stated they thought POA was needed to apply for the program
+* 7 of 13 Caregivers mentioned some sort of confusion about the Sign as Representative documents needed.
+* 7 of 13 Caregivers mentioned the VA forms listed as Sign as Representative documents to upload as a confusion point - they were not familiar with all the VA forms and unsure if they had any of them.
+* 6 of 13 Caregivers indicated they have one or more of the documents listed.
+* 2 of 13 Caregivers said they would download a VA form and upload it at that point in the CG form.
+* 2 of 13 Caregivers stated they thought POA was needed to apply for the program.
 
 **Cohort 2 (Veterans)**
-* 6 of 8 Veterans would sign for themselves (not POA)
-* 2 of 8 Veterans would go VSO route, or spouse as POA, and they would sign/upload documents
-* 1 of 8 Veterans was confused if a POA was required or not to even apply
+* 6 of 8 Veterans would sign for themselves (not POA).
+* 2 of 8 Veterans would go VSO route, or spouse as POA, and they would sign/upload documents.
+* 1 of 8 Veterans was confused if a POA was required or not to apply.
 
 **Supporting behavior:**
 
-* P34: Would've looked up the VA forms online and filled them out and signed them and then uploaded that
+* P34: Would've looked up the VA forms online and filled them out and signed them and then uploaded that.
 
 
 **Supporting quotes:**
@@ -377,13 +395,15 @@ Caregivers expressed some confusion around the documents or process required to 
 
 **Supporting visual:**
 
-![Screenshot 2024-11-11 at 11 47 07 AM](https://github.com/user-attachments/assets/2c295531-61b2-46c9-baa1-e7c3c9feae1f)
+| ![Screenshot 2024-11-11 at 11 47 07 AM](https://github.com/user-attachments/assets/2c295531-61b2-46c9-baa1-e7c3c9feae1f)|
+|:--:|
+| *List of VA forms in the Sign as a Representative step that a Caregiver can upload to support their eligibility to be a Caregiver for the specified Veteran* |
 
 
 ## Recommendations
 
-**Recommendation 1: Revisit content and resource link placement within the form around program definition, eligibility and application process.**
-_Related to: Key Finding 1 + Key Finding 3_
+### Recommendation 1: Revisit content and resource link placement within the form around program definition, eligibility and application process.
+_Related to: [Key Finding 1](#Finding-1-Veterans-and-Caregivers-want-more-clarity-on-eligibility-and-benefits-before-applying) + [Key Finding 3](#Finding-3-Users-said-content-was-just-enough-but-called-out-items-that-needed-more-clarification)_
 
 The biggest concern users had in usability testing was around eligibility and general program information, but users said the amount of content in the form was just enough. Therefore, we recommend adding links to further information within the form so users who are confused about topics such as eligibility, stipends, caregiver qualifications, and more can get information specific to their concerns where it is most relevant. Some of this detailed information lives outside of VA.gov on external VA sites.
 
@@ -401,8 +421,8 @@ As a result, we plan to:
     * Call this out in the gather information step: gather people/signers 
 * Break up the Sign as Representative content so it is scannable and addresses that it’s not a requirement - the Veteran can sign for themselves.
 
-**Recommendation 2: Explore updating content to add in clarifying information around secondary caregivers and their benefits.**
-_Related to: Key Finding 1 + Key Finding 2_
+### Recommendation 2: Explore updating content to add in clarifying information around secondary caregivers and their benefits.
+_Related to: [Key Finding 1](#Finding-1-Veterans-and-Caregivers-want-more-clarity-on-eligibility-and-benefits-before-applying) + [Key Finding 2](#Finding-2-Veterans-and-Caregivers-had-mixed-comfortability-with-and-ease-of-signing-the-form)_
 
 Our findings showed general confusion around secondary caregiver definitions and benefits. We would like to explore content updates and explanatory links to provide for users who aren’t familiar with the concept of secondary VA caregivers.
 
@@ -411,8 +431,8 @@ As a result, we plan to:
 * Revisit content and work with CAIA to help clarify on the _Add a Primary and Add a Secondary Caregiver_ questions.
 * Provide additional explanation of the difference between primary and secondary caregivers, placement before and/or within form.
 
-**Recommendation 3: Make updates to facility search functionality and content to help alleviate search errors observed.**
-_Related to: Key Finding 4_
+### Recommendation 3: Make updates to facility search functionality and content to help alleviate search errors observed.
+_Related to: [Key Finding 4](#Finding-4-The-facility-search-functionality-was-difficult-and-confusing-for-some-users)_
 
 Both Caregivers and Veterans struggled with the facility search functionality so we will be making improvements to this step of the form before launching the new facility search updates.
 
@@ -420,13 +440,13 @@ As a result, we plan to:
 * Address process in the content/label of needing to search as step 1 before they are able to choose from a list.
 * Update the search button on mobile to include word "search," not just a magnifying glass icon as it currently is.
 
-**Recommendation 4: Explore auto-recommend options for facility selection flow.**
-_Related to: Key Finding 4 + Secondary Finding 4_
+### Recommendation 4: Explore auto-recommend options for facility selection flow.
+_Related to: [Key Finding 4](#Finding-4-The-facility-search-functionality-was-difficult-and-confusing-for-some-users) + [Secondary Finding 4](#Secondary-Finding-4-Automationprefill-was-requested-by-some-users-unprompted)_
 
 Since users struggled with the usability of the facility search step and some users commented that we should be able to suggest some nearby facilities, we’d like to explore making facility recommendations for the user based on (most likely) the Veteran’s home address. We’ll still need to give the user an easy way to start a new search in case the Veteran receives care somewhere not near their home address.
 
-**Recommendation 5a: Make updates to the statement of truth component of the form to alleviate usability issues with signing the form.**
-_Related to: Key Finding 2_
+### Recommendation 5a: Make updates to the statement of truth component of the form to alleviate usability issues with signing the form.
+_Related to: [Key Finding 2](#Finding-2-Veterans-and-Caregivers-had-mixed-comfortability-with-and-ease-of-signing-the-form)_
 
 Many users struggled to sign the form in the review step because the text input needs to perfectly match the names entered in previous steps of the form. This caused a lot of frustration and confusion for users while not serving the purpose of making sure the form was securely completed and signed. 
 
@@ -436,8 +456,8 @@ Therefore, we plan to:
     * Remove custom statement of truth components and replace with Platform version
     * Utilize auto-fill functionality for all signers except Statement of Representative
 
-**Recommendation 5b: Discuss questions with stakeholders regarding multiple people signing the form.**
-_Related to: Key Finding 2_
+### Recommendation 5b: Discuss questions with stakeholders regarding multiple people signing the form.
+_Related to: [Key Finding 2](#Finding-2-Veterans-and-Caregivers-had-mixed-comfortability-with-and-ease-of-signing-the-form)_
 
 Some participants seemed surprised when they got to the review page and realized others should be present to sign. We’d like to explore a better experience to the form flow for multiple people needing to sign online or have their information included.
 
@@ -448,8 +468,8 @@ Therefore, we plan to:
 * Stay aware of and in support of future component improvements
    * An [experimental ticket](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/3253) has been opened by another team for signing forms by multiple people at different times. We will be watching if this can have future impact on the 10-10CG form.
 
-**Recommendation 6: Research and identify why we saw users have problems with autofill in the form. Implement workarounds as directed by the design system team.**
-_Related to: Secondary Finding 1_
+### Recommendation 6: Research and identify why we saw users have problems with autofill in the form. Implement workarounds as directed by the design system team.
+_Related to: [Secondary Finding 1](#Secondary-Finding-1-Autofill-caused-issues-on-some-browsers-and-devices-noted-on-AppleSafari)_
 
 We saw three users try to use autofill in the form and the form didn’t detect that they had entered anything in the fields. We have asked around to other product teams and found that this issue is likely specifically with Safari browsers and VADS has suggested a workaround that we should implement.
 
@@ -459,8 +479,8 @@ We saw three users try to use autofill in the form and the form didn’t detect 
 
 * [File a request with the VADS design system team](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/new/choose)
 
-**Recommendation 7: Revisit the “County” field content and explore possible autofill functionality.**
-_Related to: Secondary Finding 2_
+### Recommendation 7: Revisit the “County” field content and explore possible autofill functionality.
+_Related to: [Secondary Finding 2](#Secondary-Finding-2-The-county-field-was-answered-correctly-by-most-Veterans-and-Caregivers)_
 
 Most users successfully completed the “county” field but many paused since this is not standard in asking for addresses, and a couple entered a country instead of a county.
 
@@ -469,8 +489,8 @@ Most users successfully completed the “county” field but many paused since t
 * Longer term: Explore what can be prefilled based off of a list or previous home address entered.
 * Don't recommend adding country to the top of the address block at this time.
 
-**Recommendation 8: Make content updates to the Sign as Representative step/page to clarify that no form is required and explain why a Caregiver should upload one of the forms if they already have it on-hand.**
-_Related to: Secondary Finding 5_
+### Recommendation 8: Make content updates to the Sign as Representative step/page to clarify that no form is required and explain why a Caregiver should upload one of the forms if they already have it on-hand.
+_Related to: [Secondary Finding 5](#Secondary-Finding-5-VA-forms-listed-under-the-Sign-as-Representative-step-caused-some-confusion-with-participants)_
 
 There was confusion and concern around signing as a representative for many of our Caregiver participants. Some Caregivers weren’t sure what some of the VA forms in the list were and several were concerned that there would be a problem if they couldn’t upload any of those documents.
 Therefore, we plan to:

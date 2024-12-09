@@ -1,6 +1,75 @@
 # Sprint goals for Benefits Disability Experience Team 1 (DBEX-TREX)
 
-**Sprint 10 Goals**
+## Sprint 12 Goals
+**Dec 4 - Dec 17, 2024**
+
+### Goal 1: Update retryable and non-retyable error handling to prepare for the Rated Disability Migration.
+
+#### We'll know we've achieved the goal when:
+- Lighthouse API retries are attempted for errors that were previously non-retryable in EVSS, increasing primary path submissions.
+
+### Goal 2: Enable BDD claims testing in staging by implementing the Lighthouse Benefits Reference Data staging endpoint integration
+
+#### We'll know we've achieved the goal when:
+- Successful BDD test claim submission from staging.va.gov to Lighthouse staging.
+
+### Goal 3: Complete Staging Review and release New Confirmation Page & Primary Path Received Email
+
+#### We'll know we've achieved the goal when:
+- Daily confirmation page views remain consistent with typical submission volume, ‘submission-taking-too-long' events drop to zero, primary path emails successfully delivering to Veterans, all staging review requirements met.
+
+*Additional hypothesis to monitor:*
+
+*We expect to see a reduction in duplicate submissions as Veterans have clearer confirmation of their claim status. We'll track this trend but note it may be influenced by multiple factors beyond these feature changes.*
+
+### Goal 4: Prepare 5103 and Claim Certification feature for release and complete the necessary Platform touchpoints required to complete Staging Review.
+
+#### We'll know we've achieved the goal when:
+- Name validation risks are documented and addressed, all Platform staging review requirements are met (accessibility, testing, documentation), Platform approves the features for production.
+
+### Goal 5: Conduct AT usability testing sessions
+
+#### We'll know we've achieved the goal when:
+- We share at least one topline summary by sprint end with OCTO stakeholders.
+
+### Goal 6: Design Provide a Copy (PDF) on Confirmation page.
+
+#### We'll know we've achieved the goal when:
+- Figma mocks are approved by the team and OCTO stakeholders.
+
+## Sprint 11 Goals
+Nov 20 - Dec 3, 2024
+
+- [Watch Dog of Watch Dogs](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/benefits/playbooks/526/monitors/%5BZSF%5D%20DBEX%20Teams%20SOP%20(Standard%20Operating%20Procedure)%20for%20monitor%20and%20alert%20response.md): @aurora-a-k-a-lightning 
+
+### Goal 1: Prepare for the Rated Disabilities migration.
+
+#### We'll know we've achieved the goal when:
+- Tests in Staging have been performed and we understand the feasibility of migrating this endpoint and how we'll plan to do it.
+
+### Goal 2: Prepare the New Confirmation Page and Received Email features for release and complete the prep work required to complete Staging Review.
+
+#### We'll know we've achieved the goal when:
+- All required artifacts are prepared for Staging Review and it’s scheduled.
+
+### Goal 3: Prepare for the Toxic Exposure usability research study.
+
+#### We'll know we've achieved the goal when:
+- We are ready for usability sessions starting 12/2. Pilot studies are complete. Research sessions are scheduled and CAIA/observers/notetakers have signed up for sessions. Data management material is ready and HCD is aligned on approach for synthesis. OMB component is updated. Application and GA metrics for 1.1 are shared with OCTO on 11/25.
+
+### Goal 4: Complete development of the 5103 language alerts and Claim Certification / Signature Component to ensure Veterans are notified of any evidence needed to support their disability claim and enable them to sign the 526 form digitally. Both features are tested as working in a local environment.
+
+#### We'll know we've achieved the goal when:
+- OCTO and VBA approve a demo of the working solution.
+
+### Goal 5: Create a plan to bring the 526 into compliance with the 2022 paper form.
+
+#### We'll know we've achieved the goal when:
+- The top three prioritized items are planned on the product roadmap with activities designated for each item.
+
+
+---
+## Sprint 10 Goals
 - [Watch Dog of Watch Dogs](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/benefits/playbooks/526/monitors/%5BZSF%5D%20DBEX%20Teams%20SOP%20(Standard%20Operating%20Procedure)%20for%20monitor%20and%20alert%20response.md): @aurora-a-k-a-lightning 
 
 **Paper Form Sync**

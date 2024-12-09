@@ -2,7 +2,7 @@ Condition information entryÂ 
 
 Research PlanÂ 
 
-Last updated Nov 5, 2024
+Last updated Nov 15, 2024
 
 
 ## **Background**
@@ -161,7 +161,7 @@ Provide a link to any materials you need to run your study, including any materi
 
 For moderated usability tests:
 
-1. \[Link to conversation guide]\(url goes here)
+1. \[Link to conversation guide]\(https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2024-11%20Conditions%20Info%20Entry/2024-11%20Conversation%20Guide%20-%20Conditions%20info%20entry.md)
 
 2. \[Link to mock-ups of what we will test in staging]\(https\://www\.figma.com/design/P6IUm8gN00H3Yi1XzN80fj/(526ez)-Condition-information-entry?node-id=324-9662\&node-type=canvas\&t=GDUqm69UjZoNKgNM-0)
 
@@ -193,7 +193,7 @@ We will recruit 12 Veterans for:
 
 - minimum of 1 session with a screen magnification user
 
-We would like to request a kickoff call with Perigean. Requested date/time: TBDÂ 
+We would like to request a kickoff call with Perigean. Requested date/time: Monday 11/25, after 10AM PSTÂ 
 
 
 ### **Recruitment criteria**
@@ -215,7 +215,7 @@ We would like to request a kickoff call with Perigean. Requested date/time: TBDÂ
 
   - 3 Experienced screen reader users
 
-- Mix of NVDA, JAWS, VoiceOver (Apple), Talkback (Android)
+- Mix of NVDA, JAWS, VoiceOver (Apple), Talkback (Android), Physical magnification tool 
 
 **Cohort 2: Alternative navigation**Â 
 
@@ -389,7 +389,7 @@ We would like to request a kickoff call with Perigean. Requested date/time: TBDÂ
 
 **Cohort 3: Low vision - magnification users**
 
-1. Do you use a screen magnifier or magnification software when using your mobile or desktop device?
+1. Do you use a screen magnifier, magnification software, or physical magnifying glass when using your mobile or desktop device?
 
    1. No \[Remove]
 
@@ -404,10 +404,11 @@ We would like to request a kickoff call with Perigean. Requested date/time: TBDÂ
    3. Windows Magnifier
 
    4. Android Magnification
+   5. Physical magnifying glass
 
-   5. Other screen magnifier (Please specify): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+   6. Other screen magnifier (Please specify): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-   6. I prefer not to answer
+   7. I prefer not to answer
 
 3. If you answered Yes, how frequently do you use screen magnification?
 

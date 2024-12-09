@@ -23,12 +23,12 @@ Only orange circled items are launching in 2A
 ## <a name="url"></a>URLs and breadcrumbs
 
 **1) Spina bifida - New**
-- URL: va.gov/family-and-caregiver-benefits/health-and-disability/spina-bifida-agent-orangeTBD
+- URL: https://www.va.gov/family-and-caregiver-benefits/health-and-disability/spina-bifida-agent-orange/
 - Breadcrumb: VA.gov home > Family and caregiver benefits > Health and disability benefits for family and caregivers > [H1]
 - Notes: URL is TBD finalizing H1
 
 **2) Children of women vietnam veterans - New**
-- URL: va.gov/family-and-caregiver-benefits/health-and-disability/children-of-women-vietnam-veteransTBD
+- URL: https://www.va.gov/family-and-caregiver-benefits/health-and-disability/children-of-women-vietnam-veterans/
 - Breadcrumb: VA.gov home > Family and caregiver benefits > Health and disability benefits for family and caregivers > [H1]
 - Notes: URL is TBD finalizing H1
 
@@ -37,27 +37,23 @@ Only orange circled items are launching in 2A
 - Breadcrumb: NA - determined by Drupal
 
 **4) R+S: File a claim for Champva - New**
-- URL: 
+- URL: https://www.va.gov/resources/how-to-file-a-champva-claim/
 - Breadcrumb: NA - determined by Drupal
 
-**5) R+S: TRICARE  - New**
-- URL: 
+**5) R+S: Getting care for spina bifida and other birth defects - New**
+- URL: https://www.va.gov/resources/getting-care-for-spina-bifida-and-other-birth-defects/
 - Breadcrumb: NA - determined by Drupal
 
-**6) R+S: Getting care for spina bifida and other birth defects - New**
-- URL: 
+**6) R+S: Filing a claim for spina bifida and other birth defects - New**
+- URL: https://www.va.gov/resources/how-to-file-a-claim-for-spina-bifida-or-other-birth-defects/
 - Breadcrumb: NA - determined by Drupal
 
-**7) R+S: Filing a claim for spina bifida and other birth defects - New**
-- URL: 
+**7) R+S: Meds by Mail for CHAMPVA and other family member programs - New**
+- URL: https://www.va.gov/resources/meds-by-mail-for-champva-and-other-family-member-programs/
 - Breadcrumb: NA - determined by Drupal
 
-**8) R+S: Meds by Mail for CHAMPVA and other programs - New**
-- URL: 
-- Breadcrumb: NA - determined by Drupal
-
-**9) R+S: Meds by Mail medication list - New**
-- URL: http://va.gov/resources/prescription-medications-covered-through-meds-by-mail
+**8) R+S: Meds by Mail medication list - New**
+- URL: https://www.va.gov/resources/prescription-medications-covered-through-meds-by-mail/
 - Breadcrumb: NA - determined by Drupal
 
 
@@ -77,11 +73,11 @@ _Most of the time this is the CTA on a tool static landing page (a sign in widge
       - VA Dental Insurance Program: https://www.va.gov/health-care/about-va-health-benefits/dental-care/dental-insurance/
       - PCAFC: https://www.va.gov/family-member-benefits/comprehensive-assistance-for-family-caregivers/
       - Camp Lejeune: https://www.va.gov/disability/eligibility/hazardous-materials-exposure/camp-lejeune-water-contamination/#benefits-for-families-who-live
-      - **Spina Bifida: va.gov/family-and-caregiver-benefits/health-and-disability/spina-bifida-agent-orange**
-      - **Children of women vietnam veterans: va.gov/family-and-caregiver-benefits/health-and-disability/children-of-women-vietnam-veterans (TBD)**
+      - **Spina Bifida: https://www.va.gov/family-and-caregiver-benefits/health-and-disability/spina-bifida-agent-orange/**
+      - **Children of women vietnam veterans: https://www.va.gov/family-and-caregiver-benefits/health-and-disability/children-of-women-vietnam-veterans/**
   - **Get - Additional benefits or services(H3)**
       - Tricare: Not updating in Phase 2A
-      - CITI Program: https://www.va.gov/COMMUNITYCARE/programs/dependents/champva/CITI.asp
+      - **CITI Program: http://va.gov/resources/getting-care-through-champva**
       - Respite care: https://www.caregiver.va.gov/support/Respite.asp
       - Program of general caregiver support services: https://www.caregiver.va.gov/Care_Caregivers.asp
   - **Manage(H2)**
@@ -95,8 +91,9 @@ _Most of the time this is the CTA on a tool static landing page (a sign in widge
       - **R+S: Meds by Mail: http://va.gov/resources/meds-by-mail-for-champva-and-other-programs**
       - Fisher House Program: https://www.socialwork.va.gov/fisher.asp
       - **R+S: Getting care through champva: http://va.gov/resources/getting-care-through-champva**
-      - The PACT Act and your benefits: https://www.va.gov/resources/the-pact-act-and-your-va-benefits/
       - **R+S: Getting care for spina bifida and other birth defects: http://va.gov/resources/getting-care-for-spina-bifida-and-other-birth-defects**
+      - The PACT Act and your benefits: https://www.va.gov/resources/the-pact-act-and-your-va-benefits/
+      
   - **Related Benefits and Services**
       - no changes in phase 2 
 

@@ -12,13 +12,13 @@ Briefly describe the background of your product. Consider:
    
   
 
-[Link to product brief]([https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/digital-dispute/product-outline.md])
+[Link to product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/digital-dispute/product-outline.md)
   
 
 If a Veteran has a VA debt that they would like to dispute there is currently no formalized process for them to follow. Disputes can currently be submitted in a variety of formats (verbal, written, etc.) and the information required is not clearly defined. This experience can be confusing for Veterans and inefficient as additional information may need to be collected from the Veteran for the VA to process the dispute effectively. We will be launching the form for VBA only for this initial launch but it will eventually include both VBA and VHA debt. **(per product brief)**
 
   
-The Veteran filling out the digital dispute form is one aspect of the experience spanning 6 screens per debt disputed. The UI and design patterns will mirror the FSR and Streamlined Waver forms, which are much longer forms and have been enhanced and validated for optimized usability. Another aspect is the Veteran understanding the next steps and what to expect once they submit the form. Finally, the possibility of silent errors raises the necessity of an alternate user flow should there be a form submission error, which will trigger an email alerting the Veteran of an error and what steps to take next.
+The Veteran filling out the digital dispute form is one aspect of the experience spanning 6 screens per debt disputed. The UI and design patterns will mirror the FSR and Streamlined Waver forms, which are much longer forms and have been enhanced and validated for optimized usability. One key difference in the digital dispute form will be the use of a minimal header. Another aspect is the Veteran understanding the next steps and what to expect once they submit the form. Finally, the possibility of silent errors raises the necessity of an alternate user flow should there be a form submission error, which will trigger an email alerting the Veteran of an error and what steps to take next.
 
 Steps are being taken to minimize this possibility, and the team has prepared a different feedback mechanism should a silent error occur, ensuring the Veteran is aware that their submission was not successful and what they need to do next.
 
@@ -89,8 +89,10 @@ Pro tip: Limit 3 goals per study. If you have more than 3 goals, consider how to
  ### 1. To understand the usability of digital dispute.
     
 ### 2. To understand the comprehension of digital dispute, associated confirmation email, and error response email.
-    
-### 3. To surface concerns that Veterans might have with the digital dispute that we are not aware of.
+
+### 3. To understand Veterans’ comprehension of the entire user journey which includes the service design aspect: from completion of the form, receipt of confirmation email, and letters in the mail communicating receipt of form and decision on dispute
+
+### 4. To surface concerns that Veterans might have with the digital dispute that we are not aware of.
     
 
   
@@ -149,18 +151,22 @@ Consider bucketing research questions under research goals. For each question, t
 3.  How understandable are the personal information, contact information, debt selection and reason for disputing the debt(s) pages?
     
 4.  How understandable is the reason for the dispute page?
+
+5. How does the minimal header affect their experience with the form? 
     
-5.  How clear is the submission message? What do they understand to be next steps? How clear is the associated submission email? What concerns do they have, if any?
+6. How clear is the submission message? What do they understand to be the next steps? How clear is the associated submission email? What concerns do they have, if any?
     
-6.  How clear is the error message? What do they understand to be next steps? How clear is the associated error email? What concerns do they have, if any?
-    
+7.  How clear is the error message? What do they understand to be next steps? How clear is the associated error email? What concerns do they have, if any?
+
+### To understand Veterans’ comprehension of the entire user journey which includes the service design aspect: from completion of the form, receipt of email, and letters in the mail
+
+8. What are Veterans feedback on the entire user journey? 
 
 
 ### To surface concerns that Veterans might have with the digital dispute that we are not aware of.
 
   
-
-7.  Can Veterans summarize the takeaways of next steps and what is expected of them after going through the digital dispute?
+9.  Can Veterans summarize the takeaways of next steps and what is expected of them after going through the digital dispute?
     
 
 ### Hypothesis
@@ -172,13 +178,18 @@ What do you intend to learn and measure from this study? Think through these pro
 
 Hypothesis 1
 
--   Based on previous research with forms, including the FSR (both MVP and enhanced), and the Streamlined Waiver, we have iterated on the form design structure and UI. Since we are pulling directly from these valited forms for the digital dispute, we hypothesize that Veterans will be able to easily understand and navigate the digital dispute.
+-   Based on previous research with forms, including the FSR (both MVP and enhanced), and the Streamlined Waiver, we have iterated on the form design structure and UI. Since we are pulling directly from these validated forms for the digital dispute, we hypothesize that Veterans will be able to easily understand and navigate the digital dispute. We hypothesize that the minimal header may enhance participants’ ability to focus on the task at hand and contribute to a frictionless experience. 
+
     
 
 Hypothesis 2
 
 
--   Veterans will receive 2 letters once they submit the digital dispute. The first will inform them of the receipt of the dispute, and the second will inform them of the decision on the dispute. We hypothesize that this information will be clear to Veterans based on their review of the unauthenticated page, the submission confirmation message, and the confirmation email.
+-   The entire user journey from completion of the form, receipt of email, and letters in the mail will be clear. The information on the submission page and email will clearly explain expectations and next steps to the Veteran. 
+
+-   Further context: 
+Veterans will receive 2 letters once they submit the digital dispute. The first will inform them of the receipt of the dispute, and the second will inform them of the decision on the dispute. We hypothesize that this information will be clear to Veterans based on their review of the unauthenticated page, the submission confirmation message, and the confirmation email. 
+
     
 
   
@@ -231,6 +242,13 @@ Before writing your recruitment criteria, be sure to review the following resour
 -   [Refer to the inclusive recruitment strategies](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md) to learn how to be inclusive of underserved Veteran communities.
     
   
+N = 8, Veterans that have or had a VBA overpayment debt and (desirable but optional) have disputed a VA debt or would like to dispute a debt 
+
+
+Additional target user groups: 
+
+Screen reader users: N = 2 of 8
+
   
 
 ### Recruitment approach
@@ -239,24 +257,188 @@ Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs
 
 Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Refer to the resources above to learn more. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and use the [recruitment checker (google sheets)](https://docs.google.com/spreadsheets/d/1pq7TSHZonfpzAQBJj6B2geGHlNUwZEs4DzEvxcRgu0o/edit?usp=sharing) to understand OCTO's targets for inclusivity.
 
-- Diversity and inclusion are prioritized
 - Primary recruitment criteria will be Veterans that have VBA overpayment debt and (desirable but optional) have disputed a VA debt or would like to dispute a debt 
+
+Lean maximum variation strategy and prioritization of diversity and inclusion
+
+Higher quotas: Veterans that have a cognitive consideration
+Inclusion is prioritized. We seek to over-recruit underrepresented groups that are often underrecruited in research. 
+Moreover, since a primary goal of this research is to understand comprehension, we want to talk to Veterans that have cognitive considerations, lower literacy levels, and English as a second language. 
+
 
 ### Recruitment criteria
 
 List the total number and type (Veterans, caregivers, etc.) of participants for this study.
 
-Primary criteria (must-haves) What demographics, experience, and scenarios do you need participants to meet to effectively run your study?
+Total N = 8
 
-Write any recruitment criteria for experience or scenarios as screener questions with qualifying responses. Perigean will use these verbatim to recruit participants. Consider providing links to products and/or clear descriptions to ensure participants understand the question. Example: Have you been to a VA urgent care facility in the last 6 months? [answer should be yes to qualify.]
+We most want to speak to: 
 
-Tip: The more recruitment criteria you have, the less likely that a small sample of participants will be able to meet all criteria. Consider how you could leverage the [lean maximum variation sampling (MVS) approach](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md#lean-mvs-strategy) by breaking up criteria for your study into multiple cohorts that each isolate one primary criteria. Perigean will consider each cohort as a separate recruitment effort, increasing the chances of meeting all criteria for your study. [Go to an example of the multiple cohort approach.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/research/generative-research-study-1/2020-12.research-plan1.md#participants-and-recruitment)
+- Primary recruitment criteria will be Veterans that have VBA overpayment debt and (if possible) feel that they don’t owe this debt or the amount is not correct
 
-Secondary criteria (nice-to-haves) What criteria would strengthen your results?
+**Primary criteria (must-haves)**
+
+- 8 Veterans interviewed, please recruit 12 Veterans
+- All participants must be Veterans
+- All have a computer, tablet, or smartphone and be willing to be complete their session on one of those devices
+- During the session, be willing to share a web browser window on their device
+- Have a working microphone on their device
+- Have Zoom downloaded to their device prior to the session
+- 50% of participants should complete the session on a smartphone.
+- 50% of participants should complete the session on a desktop computer.
+
+- 100% of participants must have experience with a VA overpayment debt now or in the past
+- At least 50% of participants must have experienced financial hardship now or in the past
+- Please confirm participants are comfortable talking about their personal finances. 
+
+- 2 assistive technology users (screen reader users)
+
+**Demographic must-haves**
+Note: The following demographic criteria is our goal, but we understand that historically it's been challenging to recruit participants with VA debt.
+
+At least 2 of 12 people who use a screen reader
+
+At least 6 of 12 people must identify as Black, Hispanic/Latina/Latinx, Asian, or Native American
+
+At least 6 of 12 people must identify as having a cognitive consideration
+
+At least 5 of 12 people must identify as other than male
+
+At least 3 of 12 people are without a degree or professional certificate 
+
+At least 4 of 12 people are under 35
+
+At least 4 of 12 people are over 55
+
+At least 4 of 12 people who identify as gay, lesbian, bisexual, or transgender (LGBTQ+)
+
+At least 3 of 12 non-native English speakers
+
+
+**Secondary criteria (nice-to-haves) What criteria would strengthen your results?**
+
+At least 2 of 12 people who live in a rural or remote area
+
+At least 2 of 12 people who live in a major metropolitan area
+
+### Screener
+
+**1. VA debt**
+
+Please select what applies to you (Check all that apply)
+
+I currently have a fully unpaid or partially unpaid VA benefits overpayment debt (disability compensation, education or pension benefits overpayments)
+
+I had a VA benefits overpayment debt in the last 4 years (disability compensation, education or pension benefits overpayments) and it has been fully repaid
+
+I have not had a VA benefits overpayment debt in the last 4 years (does not qualify)
+
+**2. Amount of debt**
+
+Please select the amount of the debt for the highest VA debt you have had in the last 4 years
+
+	The debt I had or currently have is in the range of $1 - $99
+ 
+	The debt I had or currently have is in the range of $100 - $500
+ 
+	The debt I had or currently have is in the range of $501 - $1,000
+ 
+	The debt I had or currently have is over $1,000
+
+
+**3. What is your perspective on this VA debt**
+
+What is your perspective on this VA benefits overpayment debt? 
+
+Please select what applies to you (Check all that apply)
+
+	I don’t think I owe this debt to VA
+ 
+	I don’t think the amount is correct on this debt
+ 
+	I can’t afford this debt
+ 
+	None of these apply to me
+ 
+	Decline to answer this question
+
+
+**4. Experiences of financial hardship**
+Please select the statement(s) that apply to you: (Check all that apply)
+ 
+I am currently experiencing financial hardship.
+
+I have experienced financial hardship in the past.
+
+I have never experienced financial hardship.  
+
+
+**5. LGBTQ+**
+Do you identify as a member of the LGBTQ+ community?
+We ask this question because we want to make sure the feedback we get from these sessions represents all the people we serve.
+
+Yes
+
+No
+
+Decline to answer
+
+
+**6. Cognitive consideration**
+Has a medical professional ever diagnosed you with a cognitive disorder? Some examples include PTSD, Alzheimer's disease, Attention deficit disorder, Dementia, Parkinson's disease, Traumatic brain injury
+
+Yes
+
+No
+
+Decline to answer
+
+
+**7. What is your annual household income level?**
+
+$0 - $25K
+
+$25K - 49.9K
+
+$50K - 74.9K
+
+$75K - 99.9K
+
+$100K - 149.9K
+
+$150K - $199.9K
+
+Over $200K
+
+
+
+**8. Level of education**
+
+What is the highest degree or level of school you have completed?
+
+Less than a High School diploma
+
+High School diploma or GED
+
+Some College, but no degree
+
+Associates Degree (for example: AA, AS)
+
+Bachelor's Degree (for example: BA, BBA, and BS)
+
+Master's Degree (for example: MA, MS, and MEng)
+
+Professional Degree (for example: MD, DDS, JD)
+
+Doctorate (for example: PhD, EdD)
+
 
 ## Timeline
 
 Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.
+
+The study will take place in January 2025
+
 
 ### Prepare
 
@@ -264,23 +446,26 @@ When will the thing you are testing be finalized? Ideally it's ready a week befo
 
 A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.
 
--   Pilot participant email:
     
--   Date and time of pilot session:
+-   Date and time of pilot session: TBD
     
 
 ### Research sessions
 
 -   Planned dates of research: 
-    
+
+    The study will take place in January 2025
+
 
 ### Length of sessions
 
--   Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)
-    
--   Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)
-    
--   Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)
+
+
+Session length: 60 minutes
+Buffer time between sessions: 1 hour
+Maximum Sessions per day: 2
+
+
     
 
 ### Availability
@@ -289,13 +474,23 @@ When would you like sessions scheduled? Please list exact dates and times in EAS
 
 Please request enough dates and at least double the amount of time slots for the number of requested participants. (e.g. Monday 9-1, 3-6; Tuesday 9-6, etc.; 12 time slots for 6 participants). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
 
+Availability
+Tuesday, Wednesday
+9am PT 
+12pm PT
+Monday, Thursday, Friday
+10am PT 
+1pm PT: 
+*Prefer standard daily interview times (ie every day at 11am)
+
+
 ## Team Roles
 
 Please do not include email addresses in this section. We previously required email addresses. VA's GitHub policy ([see announcement](https://github.com/orgs/department-of-veterans-affairs/discussions/13)) has changed. VA.gov email addresses cannot be in public repositories.
 
 Please list the names of people in each role. In the Slack study channel, send an email and primary phone number for the moderator. Send emails only for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
 
--   Moderator: Charlotte Cesana or Megan Gayle
+-   Moderator: Charlotte Cesana 
     
 -   Research guide writing and task development (usually but not always same as moderator): Charlotte Cesana, Megan Gayle, Joseph Lee
     
@@ -303,7 +498,7 @@ Please list the names of people in each role. In the Slack study channel, send a
     
 -   Project point of contact: Charlotte Cesana, Megan Gayle
     
--   Participant(s) for pilot test:
+-   Participant(s) for pilot test: TBD
     
 -   Accessibility specialist (for sessions where support for assistive technology may be needed):
     
