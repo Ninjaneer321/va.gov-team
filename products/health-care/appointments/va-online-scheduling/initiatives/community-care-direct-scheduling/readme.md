@@ -1,3 +1,4 @@
+[GitHubProjectFiltersforCC.txt](https://github.com/user-attachments/files/18084583/GitHubProjectFiltersforCC.txt) 
 # Veteran Self-Schedule Community Care (VSS CC) Initiative Brief 
 
 - [Artifacts](#artifacts)
@@ -135,5 +136,8 @@ This is TBD.
 
 #### Metrics Dashboards
 - TBD
+
+#### GitHub Project Filters
+[GitHubProjectFiltersforCC.txt](https://github.com/user-attachments/files/18084585/GitHubProjectFiltersforCC.txt)
 
 

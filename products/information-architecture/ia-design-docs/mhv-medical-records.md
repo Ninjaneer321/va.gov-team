@@ -19,15 +19,14 @@ Medical Records has several subdomains that will be launching incrementally to P
 2. Vaccines (December 2023) - DONE
 3. Care summaries & notes, Vitals (March 2024) - DONE
 4. Health conditions (May 2024) - DONE
-5. Lab and test results (October 2024) - DONE
-6. Medical records settings (December 2024) - DONE
-7. Download all (Blue button report) - **In progress**
+5. Lab and test results (October 2024) - DONE 
+6. Medical records settings, Download medical reports, and lab & test result radiology images (December 2024) - NEW
 
 ## <a name="map"></a>Page structure<br>
 Most up-to-date [sitemap can be found here](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1705462711175/25f9ef7b28ee707498d29d4a4d168304a33c0527?sender=uf94a77a19aaf687331c09367)
 
-We are moving toward launching **lab & test images & settings** into Phase 0.5
-<img width="983" alt="Screenshot 2024-12-04 at 10 32 34 AM" src="https://github.com/user-attachments/assets/f2bb71ac-f8bc-41b4-8530-d821e4b71425">
+We are moving toward launching **lab & test images, download medical records reports, and settings** 
+<img width="952" alt="Screenshot 2024-12-11 at 3 05 09 PM" src="https://github.com/user-attachments/assets/1c2a542e-6c43-4a87-96a8-0dd05e60d3e9" />
 
 ## <a name="url"></a>URLs and breadcrumbs
 
@@ -38,20 +37,21 @@ We are moving toward launching **lab & test images & settings** into Phase 0.5
 |---------------------------|----------------------------------------------------------------|------------------------------------------|----------------------------|--------------------------------------------------|--------------------------------------------|
 | Landing page              | /my-health/medical-records/                                    | None                                     | < My HealtheVet            | VA.gov home > My HealtheVet > Medical records | Medical Records \| Veterans Affairs        |
 | Lab and test results list | /my-health/medical-records/labs-and-tests/                     | < Back to Medical records                | < Medical records          | VA.gov home > My HealtheVet > Medical records > Lab and test results  | Lab and test results - Medical Records \| Veterans Affairs |
-| >Test detail              | /my-health/medical-records/labs-and-tests/123456/              | < Back To Lab and Test Results            | < Back To Lab and Test Results    | < Back To Lab and Test Results  | Lab And Test Results Details - Medical Records \| Veterans Affairs |
-| >>Image listing           | /my-health/medical-records/labs-and-tests/123456/images/       | N/A (not in P0)                                | < Back                     | < Back  | Images - Lab And Test Results Details - Medical Records \| Veterans Affairs |
-| >>>Image zoom             | /my-health/medical-records/labs-and-tests/123456/images/67890/ | N/A (not in P0)                                   | < Back                     | < Back | Image [#] - Lab And Test Results - Medical Records \| Veterans Affairs |
-| Care summaries and notes  | /my-health/medical-records/summaries-and-notes/                | < Back to Medical records                | < Medical records          | VA.gov home > My HealtheVet > Medical records > Care summaries and notes  | Care Summaries And Notes - Medical Records \| Veterans Affairs |
-| >Note details             | /my-health/medical-records/summaries-and-notes/1234/           | < Back to Care summaries and notes       | < Back to care summaries and notes | < Back to care summaries and notes | Care Summaries And Notes Details - Medical Records \| Veterans Affairs |
-| Vaccines list             | /my-health/medical-records/vaccines/                           | < Back to Medical records                | < Medical records          | VA.gov > My HealtheVet > Medical records > Vaccines | Vaccines - Medical Records \| Veterans Affairs |
-| >Vaccine detail           | /my-health/medical-records/vaccines/1234/                      | < Back to Vaccines                       | < Back to vaccines                 | < Back to vaccines | Vaccine Details - Medical Records \| Veterans Affairs |
-| Allergy listing           | /my-health/medical-records/allergies/                          | < Back to Medical records                | < Medical records          | VA.gov home > My HealtheVet > Medical records > Allergies and reactions | Allergies And Reactions - Medical Records \| Veterans Affairs |
-| >Allergy detail           | /my-health/medical-records/allergies/1234/                     | < Back to Allergies                      | < Back to allergies                | < Back to allergies | Allergies And Reactions Details - Medical Records \| Veterans Affairs |
-| Health conditions list    | /my-health/medical-records/conditions/                         | < Back to Medical records                | < Medical records          | VA.gov home > My HealtheVet > Medical records > Health conditions | Health Conditions - Medical Records \| Veterans Affairs |
-| > Health conditions detail   | /my-health/medical-records/conditions/1234/                 | < Back to Health conditions              | < Back to health conditions         | < Back to health conditions | Health Condition Details - Medical Records \| Veterans Affairs |
+| >Test detail              | /my-health/medical-records/labs-and-tests/123456/              | < Back To Lab and Test Results            | <- Back    | <- Back  | Lab And Test Results Details - Medical Records \| Veterans Affairs |
+| >>Radiology images            | /my-health/medical-records/labs-and-tests/123456/images/       | N/A (not in P0)                                | <- Back                     | <- Back  | Images - Lab And Test Results Details - Medical Records \| Veterans Affairs |
+| Care summaries and notes  | /my-health/medical-records/summaries-and-notes/                | < Back to Medical records                | <- Medical records          | VA.gov home > My HealtheVet > Medical records > Care summaries and notes  | Care Summaries And Notes - Medical Records \| Veterans Affairs |
+| >Note details             | /my-health/medical-records/summaries-and-notes/1234/           | < Back to Care summaries and notes       | <- Back | <- Back | Care Summaries And Notes Details - Medical Records \| Veterans Affairs |
+| Vaccines list             | /my-health/medical-records/vaccines/                           | < Back to Medical records                | <-Medical records          | VA.gov > My HealtheVet > Medical records > Vaccines | Vaccines - Medical Records \| Veterans Affairs |
+| >Vaccine detail           | /my-health/medical-records/vaccines/1234/                      | < Back to Vaccines                       | <- Back                 | <- Back | Vaccine Details - Medical Records \| Veterans Affairs |
+| Allergy listing           | /my-health/medical-records/allergies/                          | < Back to Medical records                | <- Medical records          | VA.gov home > My HealtheVet > Medical records > Allergies and reactions | Allergies And Reactions - Medical Records \| Veterans Affairs |
+| >Allergy detail           | /my-health/medical-records/allergies/1234/                     | < Back to Allergies                      | <- Back                | <- Back | Allergies And Reactions Details - Medical Records \| Veterans Affairs |
+| Health conditions list    | /my-health/medical-records/conditions/                         | < Back to Medical records                | <- Medical records          | VA.gov home > My HealtheVet > Medical records > Health conditions | Health Conditions - Medical Records \| Veterans Affairs |
+| > Health conditions detail   | /my-health/medical-records/conditions/1234/                 | < Back to Health conditions              | <- Back         | <- Back | Health Condition Details - Medical Records \| Veterans Affairs |
 | Vitals list                | /my-health/medical-records/vitals/                             | < Back to Medical records                | < Medical records          | VA.gov home > My HealtheVet > Medical records > Vitals | Vitals - Medical Records \| Veterans Affairs |
-| >Vital history            | /my-health/medical-records/vitals/[vital-name]-history/      | < Back to Vitals                         | < Back to vitals                   | < Back to vitals  | [Vital name] Details - Medical Records \| Veterans Affairs |
-| Medical records settings  | /my-health/medical-records/settings/                            | < Back to Medical records                | < Medical records          | VA.gov home > My HealtheVet > Medical records > Medical records settings | Medical Records Settings - Medical Records \| Veterans Affairs |
+| >Vital history            | /my-health/medical-records/vitals/[vital-name]-history/      | < Back to Vitals                         | <- Back                   | <- Back  | [Vital name] Details - Medical Records \| Veterans Affairs |
+| Medical records settings  | /my-health/medical-records/settings/                            | N/A                | <- Medical records          | VA.gov home > My HealtheVet > Medical records > Medical records settings | Medical Records Settings - Medical Records \| Veterans Affairs |
+| Download your medical records reports  | /my-health/medical-records/download/                            | N/A                | <- Medical records          | VA.gov home > My HealtheVet > Medical records > Download medical records reports | Download Medical Records Reports - Medical Records \| Veterans Affairs |
+| Form / child pages under Download your medical records reports  | /my-health/medical-records/download/date-range ; /my-health/medical-records/download/record-type ; /my-health/medical-records/download/file-type                            | N/A                | <- Download medical records reports **(first page)** - successive pages of form should use <- Back       | VA.gov home > My HealtheVet > Medical records > Download medical records reports > Select records and download report **(first page)** - successive pages of form should use <- Back | Select Records And Download Report - Medical Records \| Veterans Affairs |
 
 ### Vitals types
 Details pages for historical records of each vital type are linked from the Vitals list view page. Each of these vitals should have a corresponding URL keyword that matches the H1 of the page: 
@@ -64,7 +64,11 @@ Details pages for historical records of each vital type are linked from the Vita
 * Height
 
 ## <a name="nav"></a>Secondary navigation <br>
+As of June 2024, medical records has been included in the secondary navigation bar. However, because the tool is not fully ready for launch, the destination URL under "records" in that navigation bar  is for a temporary page that explains what is coming and provides a link back to the previous version of My HealtheVet for users who want their records.
 
+In December 2024, when medical records is projected to be ready to move to Phase 1, we will update that link to point to the real medical records on VA.gov experience, and update links on the My HealtheVet landing page to do the same. 
+
+**Previous updates:**
 * Phase 0 initial launch (Allergies only) will not have a secondary navigation. Navigation will only be exposed once 2+ subdomains are launched. 
 
 * Full phase 0 secondary/left navigation order below. Secondary navigation will be removed before Medical Records reaches phase 1, and will rely on the landing page to serve as a the navigation means for child domain experiences.

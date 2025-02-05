@@ -33,24 +33,19 @@
     - Product
         - [Lori Pusey](https://dsva.slack.com/team/U035BMZ07PD)
     - Delivery
-        - [Anita Halici](https://dsva.slack.com/archives/D055G32ES79)
-- UX
-    - Research
-      - [Christina Gednalske](https://dsva.slack.com/team/U02KVPC82VA)
-      - [Steven Straily](https://dsva.slack.com/archives/D07VBB5NP2A)
-    - Design
-      - [Zach Park](https://dsva.slack.com/team/U02FQ4X5J8M)  
-- Engineering
-    - Full Stack
+        - [Alex Parker](https://dsva.slack.com/team/U066D61DAEQ)
+    - Full Stack Engineers
       - [Lee DeLarm](https://dsva.slack.com/archives/D05B37XJF8C)
-    - Front End
-      - [Brian Seek](https://dsva.slack.com/team/U02FLCLQ6J2)
+      - [Bill Tran](https://dsva.slack.com/team/U08BFMHL9MF)
+      - Carlos Felix
+      - [Phil DeFraties](https://dsva.slack.com/team/U089MDZ98BZ)
+      - [Devin McCurdy (temporary)](https://dsva.slack.com/team/U06HX72KD7Y)
+    - Front End Engineers
       - [John Woolschlager](https://dsva.slack.com/team/U03LZEZCYAV)  
-    - Back End 
-      - [Gaurav Gupta](https://dsva.slack.com/team/U02DB4BC10F)
-      - [Kanchana Suriyamoorthy](https://dsva.slack.com/team/U02EFEF4ZB2)
+    - Back End Engineers                 
+      - [Corey Ferris (temporary)](https://dsva.slack.com/team/U01F5F6V8QN)
     - Native Mobile App
-        - [Juan Castillo](https://dsva.slack.com/archives/D07QU9YQ7HA)
+      - [Juan Castillo](https://dsva.slack.com/archives/D07QU9YQ7HA)
     - Dev Ops
       - [Nathan Douglas](https://dsva.slack.com/team/U01DADWHLM6)
       - [Eric Oliver](https://dsva.slack.com/archives/D06M78EK1JM)
@@ -83,22 +78,19 @@
     - [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1707427471672/75fb6b9eea27c7b854e8b31c0e9017e2a54bb95a?sender=u37bb983bd3fc3cc00c7d3286)
 
 #### Priorities, Backlog, Sprints
-- [Priorities](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1715270046440/b2cf85a53d09a8caca454415626fecb5bae24a9b?sender=uc584f7fcc9a5090000259578)
-- [Roadmap](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1719321335255/bee29c80ac07f79dda849e071acaa88b17e2f5f6?sender=uc584f7fcc9a5090000259578)
-- [Scrum Board](https://app.zenhub.com/workspaces/check-in-experience-61fc23a2cb8a14001132e102/board?repos=133843125)
+- [Priorities](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1719321335255/e7d232804a586f6ef154aadc508e73c0a45aa895)
+- [Scrum Board](https://github.com/orgs/department-of-veterans-affairs/projects/1323/views/1)
 - [Sprint Goals](https://dsva.slack.com/docs/T03FECE8V/F082QPMJFC1)
-    - [Old Sprint Goals](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/sprints/sprint-goals.md)
 - [Sprint Reviews](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/sprintdemo/readme.md) 
 
 #### Product Releases 
 - [Release Notes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/release-plan/check-in-release-notes.md)
-- [Planned Releases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/release-plan/check-in-planned-releases.md)
 - [Feature Flags](https://api.va.gov/flipper/features)
 
 #### Metrics and Veteran Feedback
 - [Analytics Dashboards](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/analytics#readme)
-- [How to Request and Process VSignals Feedback](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/VSignals)
-- [How to Request and Process Medallia Feedback](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/Medalia/how-to-request-medalia-feedback.md)
+- [How to Request and Process VSignals Feedback](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/VSignals#readme)
+- [How to Request and Process Medallia Feedback](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/Medalia/how-to-request-and-process-medalia-feedback.md)
 - [Medallia URL Exclusion List](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/Medalia/urls-to-exclude-from-intercept-survey.md)
 - [How to Generate an Analytics Report for VA Stakeholders](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/analytics/how-to-generate-analytics-report-for-stakeholders.md)
   

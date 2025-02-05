@@ -1,78 +1,88 @@
-**Ask VA Change Management Plan**
+# Ask VA VA.Gov Change Management Plan
+| Date              | Version               | Author          |
+| ----------------- | --------------------- | --------------- |
+| November 3, 2024  | Initial Draft         | CeeCee O'Conner |
+| December 11, 2024 | Updates from CRM sync | Ariel Martinez  |
 
-11/26/24 notes
-- manage incoming feature requests
-- how we process those requests
-- more flexible release plan moving forward
-- delta: prioritization between the two groups
-- ava CRM has prioritizations already, so we need more flexible planning for releases launches
-- how do we have leaner, smaller releases?
-- teams can go through collab cycle as group of features vs. single feature. single feature faster.
-- could have many front-end changes CRM wouldn't know about ex: 'cosmetic'
-- Unless it changes the data, don't know if CRM would need to be involved
-- example: forecast what we want to release, then we could do a quick to make sure nothing's impacted
-- to do: examples of when we would coordinate vs note
-- AVA CRM/PATSR separation: Ask VA ATO needs to get granted. Submitting in Feb 2025. 90 day timeline to get approved, if there are no changes. Around when portal launches. Once approved and completed all work for separation, shared environment freezes won't be issue
+This plan defines how the Ask VA VA.gov team implements new changes to the Ask VA application on VA.gov. This includes ongoing ways of working between us and the CRM team. 
 
-**Scope:** To define the ongoing ways of working collaborating between Ask.VA.Gov and CRM.
+**On this page:**
+- [Manage feature requests and bugs](#manage-feature-requests-and-bugs)
+- [Prioritize initiatives](#prioritize-initiatives)
+- [Implement initiative](#implement-initiative)
+- [Test before launching](#test-before-launching)
+- [Manage releases](#manage-releases)
+- [Open questions](#open-questions)
 
+## Manage feature requests and bugs
+**If the CRM team receives a feature request from a business line**, they can send it to the VA.gov team's shared email inbox (❓TBD).
 
-**Release Cadence**
+Please include these details in the email:
+- Dscription of the feature or desired change
+   - I.e updates to rules or logic, creation of a new topic, page UI updates, etc
+- Reason for the change
+   - I.e feedback from business lines or other business justification
 
-**For Context**: AskVA.Gov operates in 2 weeks sprints, opening sprint on Tuesdays and closing sprint out 13 days later on Monday. 
+**If the CRM team discovers bugs**, they can send them to the shared email inbox (❓TBD) or the TBD slack channel (❓Why not use an existing Ask VA channel). For issues found via monitoring in the #ask-va-notifications channel, please see TBD (❓What are we trying to say here? If our team finds issues?)).
 
-Post Launch (April ‘25) the Ask VA VA.gov team will be moving forward with a monthly release cadence. _This will be facilitated through the following activities:_
-- **Theme based Roadmapping per sprint** (each sprint shall have defined goals to monitor the progress of a new implementation of a feature or epic.)
-- **Feature Flags and Toggles:** through leveraging feature flags and toggles the team will be able to clearly define the stream of work coming through the Continuous Integration and Deployment pipeline (this will prevent us from promoting potentially unready work up the environments to production.)  
-  - An example of this used by the team has been how the Dashboard Research pilot was made separate from the continuation of development. 
+Please include these details in the message:
+- Description of the issue
+- Steps to reproduce the issue
+- Impact bug has on the system, clients, and/or team
+- Expected behavior
+- Actual behavior
 
-**Documentation + Requirements for Release**
-For each launch the product team (owner and manager) will assess the potential impact of releasing a new feature or epic to Ask.Va.Gov and update the Product Outline. 
-For smaller intiatives the team may leverage a combination of this change management plan and the Initiative Brief Template to act as release notes.  
-**Action:** Update the Product outline for major release (by the product owner)
+**The VA.gov team will** add feature requests and bugs as issues in our GitHub repo and prioritize them against existing stories.
 
-The work shall be documented in the following ways: 
-- Each feature shall be documented in Github Projects 
-- In the intiative brief, provide a description in plain language of the change being made.
-- if possible include designs.
-- if there are additional testing needs outside of what is defined in this document, update the Intiative Brief Template.
+**Both teams will** periodically review feature requests and bugs in the CRM sync or other joint meetings.
 
-**How Feature Requests shall be Created by Business Lines & Acceptance Criteria**
+## Prioritize initiatives
+**The VA.gov team will** create an [initiative brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/product/initiative-brief-template.md) for each new feature. It will contain problems the feature will solve, expected measureable outcomes, tentative release dates, etc.
 
-Goals:
-- Ensure that new features are meeting the needs of the business line
+**The VA.gov team will** review new and existing initiative briefs with the CRM team every 12 weeks. This is because the CRM team conducts PI planning every 12 weeks. We'll jointly 
+identify dependencies, gather feedback, and align priorities. The VA.gov could follow a similar planning cadence. Each brief would encompass 12 weeks of development work.
 
-Process: 
-The requestor should email *shared email inbox* . The request , with the following details, shall be reviewed in CRM Sync:
-- A description of the potential feature or request
-- provide business justification : what is the value or impact of pursuing this change
-- provide acceptance criteria this may include:
-    - impact to rules or logic
-    - creation of a new topic
-    - denoting the page expected to be impacted
-    - steps to execute a manual test
- - the requestor should also identify a tester on their behalf to confirm that the business value is being provided and the experience is being executed as expected
+**The VA.gov team will** submit a collaboration cycle request and schedule a PO sync before development, in case OCTO rejects some items (❓Why the concern). 
 
+**The VA.gov team will** add a link to the initiative brief to the product outline.
 
-**Testing:**
-Each feature shall go through Platform review (required by OCTO) and shall be quality assured
-Our initial expectation is that a new feature may be to manually execute a tes
+## Implement initiative
+**The VA.gov team will** develop epics of work for the initiative. In our GitHub projects view, we'll label epics and their issues with the related release and define sprint goals. We have 2 weeks sprints (Tuesday to Monday).
+  
+## Test before launching
+**The VA.gov team will** define the scope of QA testing before launching.
 
-Moving forward for testing at the feature level, we will:
-- have the product manager or a defined business partner execute a manual test.
-- (future state) as a part of the dev tasks, the expectation is create or add an automated test for new feature
-- run the core test suite ( the 5 test scripts for launch noted in the test plan to start) will be run at the build pipeline level
+For each feature:
+- The product manager or defined business partner executes a manual test
+- Run the core test suite at the build pipeline level. [See test scripts](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/engineering/test-plans/ask-va%20form-dash-testing-plan.md#e2e-automated-testing-cypress) in this GitHub doc.
+- (Future state) Expand our automated test suite by creating at least one new automated test for each new feature
 
 On a batch level: 
-- the Ask.VA.GOV team will run an automated test suite of a larger batch of automated test scripts at a weekly level
--  the goal of this activity is to provide confidence for regression testing without signficantly extending the amount of time in development for a developer to run the test suite in the build pipeline.
+- Run automated test suite of a larger batch of automated test scripts at a weekly level (❓Our goal is to just do this generally at any time?)
+   - We're doing this to provide confidence for regression testing without signficantly extending development time for a developer to run the test suite in the build pipeline.
 
+(❓What is the difference between release level and feature level from your perspective)
 On a release level:
-- the team shall define the a potential number of manually executable test ( while we are burning down the list of potential automated test scripts to be developed from the Form and Dashboard manual test execution list)
+- the team shall define the a potential number of manually executable test (while we are burning down the list of potential automated test scripts to be developed from the Form and Dashboard manual test execution list)
 - the team shall execute the Insomnia tests to confirm the APIs and mapping are running as expected. 
 
-**Questions for us to continue discussing:**
-- How do we handle freezing in shared environments with CRM and Pats R
-    - currently we test in staging while CRM is executing their testing, for our joint testing CRM will freeze at the same time prior to launch (this is established in our test plan)
-- How do we define what is our future joint testing between the Ask VA VA.gov + CRM APIs (ex . testing for rules, update to payload, contract testing etc.)
-- Plan to graduate environments, coordination between environments
+## Manage releases
+**The VA.gov team will** use feature flags and toggles to define the stream of work coming through the Continuous Integration and Deployment pipeline. This prevents us from promoting potentially unready work up the environments to production. For example, we separated dashboard code used during our research study from the continuation of development. 
+
+(❓What's the purpose of include collab cycle info? Who is our audience?)
+
+After the kickoff request and PO sync during the [VA.gov platform Collaboration Cycle](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/), the required touchpoints are:
+- Architecture Intent
+- PRISS/Security Review
+- Staging Review 
+
+The Governance team may recommend additional touchpoints after reviewing the kickoff request. However, given the smaller scope of an initiative, less effort should be ❓
+
+## Open questions
+|Question|Answer|
+|---|---|
+|How do we handle freezing in shared environments with CRM and PATS-R?|AVA CRM/PATS-R separation: CRM currently working on separate Ask VA ATO needs to get granted. Will submit in Feb 2025. 90 day timeline to get approved, if there are no changes. Around when portal launches. Once approved and completed all work for separation, shared environment freezes won't be issue.|
+|How do we define what is our future joint testing between the Ask VA VA.gov + CRM APIs (ex . testing for rules, update to payload, contract testing etc.)?| |
+|Can the architecture intent and other touchpoints cover all releases in an initiative or must they must be done for every release?| |
+|Should we create another Slack channel for people to report bugs?| |
+|Do we want to version releases somehow?<br>Helps with tracking. Can use labels and/or milestones to link epics and issues to releases.<br>Github also has a release management feature that could be used.| |

@@ -7,6 +7,7 @@
 Our team will add a homepage to Comparison Tool (CT) that provides links to the School and Employer, License and Certification (L&C), National Exam (exam) pages to break apart information being added to Comparison Tool by category.
 
 
+
 ## Problem Statement 
 
 *In a couple of sentences, describe the Who, What, Why, and Where of the challenge / pain point you seek to address. [Here's a sample problem statement definition activity you can try on your team to help generate this](https://www.atlassian.com/team-playbook/plays/problem-framing)* 

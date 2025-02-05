@@ -38,7 +38,7 @@ _Originally proposed by Product Manager Lindsay Li-Smith ([Slack Message](https:
   _Path forward communicated by Product Owner Jennifer Bertsch ([Slack Message](https://dsva.slack.com/archives/C06ABHUNBRS/p1725393615800809)) and CorpDB was discussed as "cold storage" in the Accredited Reps Crew Sync ([meeting notes](https://dsva.slack.com/docs/T03FECE8V/F06H1TS0GBZ?focus_section_id=temp:C:IdV48541100debf431580cd3ce4c))._
 - **9/4/2024**: Decided not to require a Veteran phone number, when a non-Veteran claimant is completing the form, as the Veteran may be decesased. \
   _Proposed by Product Manager Lindsay Li-Smith ([Slack Message](https://dsva.slack.com/archives/C05L6HSJLHM/p1725474567167699?thread_ts=1725471067.804769&cid=C05L6HSJLHM))._
-- **9/17/2024**: Decided to resurface the represntativeyquery (and related search results) when a user clicks "Back" in the same session. \
+- **9/17/2024**: Decided to resurface the represntative query (and related search results) when a user clicks "Back" in the same session. \
   _Decided by the core team and summarized by Product Manager Lindsay Li-Smith ([Slack Message](https://dsva.slack.com/archives/C05L6HSJLHM/p1726598932350429?thread_ts=1726581286.045329&cid=C05L6HSJLHM))._
 - **9/26/2024**: In the spirit of "zero silent failures": if there is an issue generating the PDF for download, the experience will not advance to the Download page and instead include an alert on the Review page asking the user to try again. There will be internal monitoring for when the PDF generation fails and when the user re-tries the generation. There will also be internal monitoring for when the VA Notify email notification fails to send, but that error will not be surfaced to the user since the impact is minimal and there are no user expecations set for an email notification. \
   _Decided by the core team and summarized by Product Manager Lindsay Li-Smith ([Slack Message](https://dsva.slack.com/archives/C05L6HSJLHM/p1727385006651819?thread_ts=1727282162.445649&cid=C05L6HSJLHM))._
@@ -47,10 +47,25 @@ _Originally proposed by Product Manager Lindsay Li-Smith ([Slack Message](https:
 - **10/28/2024**: Decided to implement character limits on the form input screens to match the number of boxes on the PDF/paper form, to avoid any issues with automated processing systems downstream. This is something the VA Forms team has bumped up against, and why they have implemented character limits on their form experiences. \
   _Decided by Product Manager Lindsay Li-Smith and confirmed by Product Owner Jennifer Bertsch ([Slack message](https://dsva.slack.com/archives/C05L6HSJLHM/p1730138410652169))._
 - **11/7/2024**: Decided that 21-22 POA requests will be stored only on va.gov for our digital submission pilot, and we will re-evaluate what to do after that this winter/spring.\
-  _Communicated by Product Owner Jennifer Bertsch ([Slack message]([https://dsva.slack.com/archives/C05L6HSJLHM/p1730138410652169](https://dsva.slack.com/archives/C06ABHUNBRS/p1731014665850609))) and [documented in Sharepoint](https://dvagov.sharepoint.com/sites/vaabdvro/_layouts/15/doc.aspx?sourcedoc={452af769-fcc8-4312-8c52-4623360d31a9}&action=edit)._
+  _Communicated by Product Owner Jennifer Bertsch ([Slack message](https://dsva.slack.com/archives/C06ABHUNBRS/p1731014665850609) and [documented in Sharepoint](https://dvagov.sharepoint.com/sites/vaabdvro/_layouts/15/doc.aspx?sourcedoc={452af769-fcc8-4312-8c52-4623360d31a9}&action=edit))._
 - **11/5/2024**: Decided that if Field 19a of the 21-22a form is authorized, we will check the box but leave the open input (to name the organization/firm) blank, for the attorney or claims agent to fill in when they receive the form for signing/submitting. This is because we are unsure of what to fill in and we don't want to enter anything incorrect.\
-  _Decided by Product Manager Lindsay Li-Smith ([Slack message]([https://dsva.slack.com/archives/C05L6HSJLHM/p1731689344772139?thread_ts=1731688117.981769&cid=C05L6HSJLHM))._
+  _Decided by Product Manager Lindsay Li-Smith ([Slack message](https://dsva.slack.com/archives/C05L6HSJLHM/p1731689344772139?thread_ts=1731688117.981769&cid=C05L6HSJLHM))._
 - **12/3/2024**: Decided to hold off on exploring the overflow page for the 21-22 and 21-22a forms and proceed with limiting character input based on what the form fields allow.\
-  _Decided in the ARM Leadership Sync ([Slack message]([https://dsva.slack.com/docs/T03FECE8V/F05SKGFB50Q?focus_section_id=temp:C:VBD1c08ede8f72348308af7c7c30))._
+  _Decided in the ARM Leadership Sync ([Slack message](https://dsva.slack.com/docs/T03FECE8V/F05SKGFB50Q?focus_section_id=temp:C:VBD1c08ede8f72348308af7c7c30))._
 - **12/3/2024**: Decided not to consider refactoring Appoint to make a clear distinction between the 21-22 and 21-22a forms, given the high level of effort.\
-  _Decided in the ARM Leadership Sync ([Slack message]([https://dsva.slack.com/docs/T03FECE8V/F05SKGFB50Q?focus_section_id=temp:C:VBDea62d19cad5b44ccbaa5e0055))._
+  _Decided in the ARM Leadership Sync ([Slack message](https://dsva.slack.com/docs/T03FECE8V/F05SKGFB50Q?focus_section_id=temp:C:VBDea62d19cad5b44ccbaa5e0055))._
+- **12/10/2024**: Decided not to block users from submitting digital POA requests, when there are limitations of consent. This will avoid introducing any persuasion/bias and we aren't too concerned about users limiting consent to medical records.\
+  _Direction from Product Owner Jennifer Bertsch ([Slack message](https://dsva.slack.com/archives/C05L6HSJLHM/p1733853832182779?thread_ts=1733852923.213349&cid=C05L6HSJLHM))._
+- **12/18/2024**: Decided to remove the "Next Steps" cover page from the generated PDF, as it was causing accessibility issues with the pre-filled form.\
+  _Confirmed by Product Owner Jennifer Bertsch ([Slack message](https://dsva.slack.com/archives/C05L6HSJLHM/p1734550746763029?thread_ts=1734541936.131369&cid=C05L6HSJLHM))._
+- **1/14/2025**: Decided to allow digital submission users to download a copy of a completed 21-22, even if it'll be a different version than what Lighthouse will upload to VBMS as part of auto-establishment. As long as the form we're providing is the latest form, that should be acceptable. \
+  _Decided in the ARM Leadership Sync ([meeting notes](https://dsva.slack.com/docs/T03FECE8V/F05SKGFB50Q?focus_section_id=temp:C:VBD6922a943f21249f2ada4477a9))._
+- **1/14/2025**: Decided not to mask the prefilled SSN, so users can see/verify the number without having to interact with the text input field. \
+  _Decided in the ARM Leadership Sync ([meeting notes](https://dsva.slack.com/docs/T03FECE8V/F05SKGFB50Q?focus_section_id=temp:C:VBDfd42152122cd4a1793d8a5e57))._
+- **1/15/2025**: Decided not to include a confirmation number on the Confirmation page, for digital submission users, because it will not provide any real use to Veterans (our use case is different than other forms, in that "submitting" send the request to the representative, not VA for processing).\
+  _Decided in the Accredited Reps Crew Sync ([meeting notes](https://dsva.slack.com/docs/T03FECE8V/F06H1TS0GBZ?focus_section_id=temp:C:IdV200e5a0b60b74fb5bc5018e80))._
+- **1/16/2025**: Confirmed the representative phone number is not required for processing a 21-22a.\
+  _Confirmed by stakeholder Jenny Rosenau (Compensation Services) in email "21-22/21-22a Required Fields?"._
+
+
+  

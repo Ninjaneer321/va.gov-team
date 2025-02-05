@@ -1,6 +1,5 @@
 # Product outline for Contact us page 
-
-Last updated by @beckyphung on October 22, 2024
+Last updated by @beckyphung on December 10, 2024
 
 **Jump to:**
 - [Overview](#overview)
@@ -36,9 +35,9 @@ First, we’ll conduct [usability tests](https://github.com/department-of-vetera
 -	People trust VA more because support channels, especially the website, can provide needed answers.
 
 ## Initiatives
-### Contact us page initial improvements (2024)
-- **Description**: We'll make improvements to Contact us based on: user research, a review of other support experiences on websites/mobile apps, and a review of current analytics and user feedback.
-- **Timing**: FY24 Q4 (Jul to Sep) to FY25 Q1 (Oct to Dec)
+### "Contact us" page initial improvements (2024/2025)
+- **Description**: Update content based on: user research, a review of other support experiences on websites/mobile apps, and a review of current analytics and user feedback.
+- **Timing**: FY24 Q4 (Jul to Sep) to FY25 Q2 (Jan to Mar)
 - **Objective**: Increase customer satisfaction score to 25%.
 - **Key results**:
    - User insights based on Medallia survey responses
@@ -46,20 +45,24 @@ First, we’ll conduct [usability tests](https://github.com/department-of-vetera
    - Review of other support experiences on websites/mobile apps
    - User insights based on user research
    - Recommendations for initial improvements
-   - Initial improvements made on Contact us after identifying available resource(s) who can do the work
+   - Initial improvements made on Contact us
+
+ ### TBD (2025)
+ - **Ideas**: Test/implement simple Contact us design
 
 ## Measuring Success
-See more information in our [Product metrics for ‘Contact us’ page](🟡 need to add link) doc.
+See more information in the [Contact us metrics Excel](https://dvagov.sharepoint.com/:x:/s/OCTODEVeteranSupportCrew/EUlSMhje2WJDk1YoQvdQh6gBQJ_Gd7ATZh6JuaWYWmVgHg?e=cFgjDM).
 
 ### Key Performance Indicators (KPIs)
-Key Performance Indicators (KPIs) help us understand how the Contact us page is meeting expected user outcomes.
-We primarily track the page's experience rating right now. Below is our average experience rating by year compared to VA.gov overall. The experience rating comes from answers to "Please rate your experience with VA.gov today." from the page's intercept survey. See all intercept survey questions on the [VA.gov platform site](https://depo-platform-documentation.scrollhelp.site/analytics-monitoring/accessing-and-utilizing-contact-center-data#AccessingandUtilizingVeteranSupportData-MedalliaInterceptSurveyQuestions).
+Key Performance Indicators (KPIs) help us understand how the Contact us page is meeting expected user outcomes. We primarily track the page's satisfaction rating right now. Below is our average satisfaction rating by year compared to VA.gov overall. 
 
-### Experience rating
-|Year| Contact us page | VA.gov all pages | 
+"Satisfaction" scores are from the VFS survey (feedback button). "Experience" scores are from A11 survey (intercept).﻿
+
+### Satisfaction rating by year
+|Page|2024 (Latest date: 12/8/24)|2023| 
 |----------|-------------| -------------|
-|2024 (as of 10/22/24)|24% (357 responses)|57% (56k responses)|                     
-|2023|18% (518 responses)|52% (71k responses)|
+|Contact us page|16% (1.1K responses)|12% (1.5K responses)|                     
+|All VA.gov pages|30% (103K responses)|22% (96K responses)|
 
 ## Assumptions
 1.	People will prefer different contact channels in different contexts. For example, if people aren't confident they know which phone number to call, then people will prefer online tools for support. If people feel confident that a phone agent will be able to answer their question, then people will prefer phone calls for support. 
@@ -67,4 +70,5 @@ We primarily track the page's experience rating right now. Below is our average 
 3.	People land on Contact us when they're already frustrated with a VA experience.
 
 ## Solution Approach
-🟡 tbd, pending insights from user research
+- Give people multiple ways to contact VA (calling, messaging, etc.)
+- Give people an option to find help on VA.gov through help articles

@@ -1,6 +1,83 @@
 # Ongoing DBEX/VBA Bi-weekly Sync Agenda & Notes
 Goal of the meeting series: addressing policy related or other open questions for ongoing work.
 
+# 2/4/25 Biweekly VBA-DBEX Check-in
+- 0781 and Claims for Increase (CFI)
+  - Submitting a 0781 will not support benefit a cliamant receive an increase for a service connected mental health condition
+  - 0781 will help to establish the service connection of the claim
+  - In the case where new conditions are identified in a claim for increase, these new conditions will be rerouted for development
+  - We may look to explore claim type comprehension (claim for new conditions vs CFI) down the line for now, we will proceed as these processes / forms are intended.
+- 0781 submission process for 20+ traumatic events
+  - Message to inform cliamants the ability to submit additional descriptions of traumatic events in by mail or in person upon hitting the 20 event limit.
+- Team DBEX-TREX Releases:
+  - Today (2/4/2025): Received Email for Backup Path 🎉
+    - We won’t see much activity with this as the Backup Path is rarely used now (🎉), but it is there.
+  - Next Sprint: Submitted Email
+    - Sending Veterans a confirmation email that their application has been submitted
+      - Primary Path: when we have their claim id, we show them the claim id in the confirmation page and submitted email
+      - Backup Path: we do not show them the claim id, as we do not have it, but they receive this email confirming we are processing the claim
+
+
+# 1/21/25 Biweekly VBA-DBEX Check-in
+- 0781 Supporting Document File Types
+  - David knows he still has work to do on this
+
+David's topics for discussion
+- Email on the backup path for submission experience
+  - Is in development this sprint
+  - No staging review, very low risk
+  - Release date to be determined - team to give a best guess estimate to David (by EOD tomorrow) 
+- 5103 signature component
+  - TRex current sprint
+  - Requires a stanging review 
+  - Wed 29th planned launch date 
+
+# 1/7/25 Biweekly VBA-DBEX Check-in
+- 0781 Official Report Filed (Q11).
+- 0781 Supporting Document File Types
+- Toxic Exposure Research Share Out (if there are no other urgent talking points).
+
+# 12/10/24 Biweekly VBA-DBEX Check-in
+Agenda
+1. Separation Location Code Requirements: Should we require separation location codes for Reservists who do not have Title 10 activation status?
+    - it doesn't matter if they have title 10 activation
+   
+   next steps:
+    - look into what in the world this is doing. flow chart, screencapture/video of what fields are mapped to what with these questions
+      
+2. Benefits Delivery at Discharge (BDD) End Date Validation: Should we standardize our approach to active duty end date validation for Reservist claims by either:
+
+    a. Removing end date requirements across all claim types, or
+
+    b. Maintaining the current end date validation specifically for BDD claims?
+
+   - beyond 180 days they can't file a claim
+   - reservists can be way out in the future
+   - "obligation date" instead of "active duty date" for reservists/national guard?
+   - reservists are entering their obligation date at the military history section
+   - ask for two different military histories? one active duty, one not?
+   - list and loop for military service?
+   - david come up with 3 or 4 scenarios that we need to account for while looking at the UX
+   -- current reservist; coming out of active duty; hardest: current;y in reserves, on active duty, filing a claim based on federal orders in 2003
+   --  update language?
+   
+- next steps:
+     1. no change to date validation,
+     2. designs from david,
+     3. shape research project to redesign the UX - address the issue of confusion of language "obligation" versus "active" duty. look to see if new 526 design incorporates this           
+
+4. Provide a Copy, PDF: Is there a legal or policy reason that the 526 PDF we provide to Veteran be the one from the eFolder? Is there a specific part or component of the form that must be the same? If it has to be from the eFolder, this significantly increases the engineering effort, if not we can do this much faster.
+ - no real reason for it to be the exact copy from the eFolder
+ - be careful with date stamps because of timezones
+ - decision reviews teams looking into watermark on generated pdf retrieved from LH
+ -- don't need to care that much, but we'll check into it - LOE
+
+next steps:
+   1. ask DR team about watermark
+   2. research options about eFolder interface
+   3. using generatePDF is a viable option if eFolder is high LOE
+   
+
 ## 10/29/24 Biweekly VBA-DBEX Check-in
 ### Notes
 1. 0781 opt out flow - when veterans opt out of 0781, should we automatically delete the 0781 evidence that they uploaded as well (supporting docs and treatment details)

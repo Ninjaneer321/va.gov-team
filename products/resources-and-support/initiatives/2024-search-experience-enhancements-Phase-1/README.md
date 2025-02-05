@@ -42,6 +42,9 @@ Since then, Resources and support has expanded to include 137 articles (as of Se
 - Options for topic tags are not comprehensive
 - Methods to organize content and support findability rely on manual editorial processes, making them inconsistent and/or absent.
 
+### Current search functionality
+- The current R&S search feature is using custom code and provides limited searching abilities e.g. only searching the titles of articles, etc. to return search results. We will explore other search options (holistically, not just for R&S) as part of this initiative and decide on which one will best accommodate not only R&S, but other VA.gov search featurs as well.
+
 ## Scope
 ### In scope
 Phase 1 focus
@@ -118,12 +121,12 @@ Efforts to inform this iteration with Veteran feedback
 ### Collaboration Cycle
 Milestone | Date | Link to issue |
 ---| :---: | :---: |
-| Collaboration cycle kickoff request | | |
-| PO Sync |October 30, 2024| [#95014](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95014) |
-| Design Intent | | |
+| Collaboration cycle kickoff request | October 15, 2024 | |
+| PO Sync | October 30, 2024| [#95014](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95014) |
+| Design Intent | SKIPPED | |
 | CMS Request| | |
 | Research review| | |
-| Midpoint Review| | |
+| Midpoint Review| November 26, 2024 | |
 | Analytics request| | |
 | Contact center review| | |
 | Staging review| | |
