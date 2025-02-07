@@ -87,7 +87,7 @@ This research will allow us to gauge Veteran satisfaction with current email app
 
 6. Many participants would like **more control over how they receive reminders** and **what information is contained within** them.
 
-7. ***Notification Preferences*** section in the proposed, newly-formated MHV email was **mostly understood to be where Veterans can select the kind and amount of reminders they receive.** However, participants noted that this section is located in the part of the email that they **mostly skim or skip** because they focus only on appointment details.
+7. ***Notification Preferences*** section in the proposed, newly-formatted MHV email was **mostly understood to be where Veterans can select the kind and amount of reminders they receive.** However, participants noted that this section is located in the part of the email that they **mostly skim or skip** because they focus only on appointment details.
 
 8. **Punctuality** fulfills Veterans in several ways including **feeling prepared**, being able to **economize trips to distant VAs** and demonstrating **respect to fellow Veterans**. **Precise and updated content in reminders play a role in facilitating timeliness.**
 
@@ -209,7 +209,7 @@ Two participants **wanted the option to go “paperless”** and cease mailed re
 <br />
 <br />
 
-**7. Notification Preferences section in the proposed, newly-formated MHV email was mostly understood to be where Veterans can select the kind and amount of reminders they receive.**
+**7. Notification Preferences section in the proposed, newly-formatted MHV email was mostly understood to be where Veterans can select the kind and amount of reminders they receive.**
 
 <img width="501" alt="notification preferences" src="https://github.com/user-attachments/assets/417e1dc2-b8a2-4067-8d8c-314df249d254" />
 
@@ -296,7 +296,7 @@ One participant detailed thoughts on why Veterans might no-show to appointments,
 <img width="530" alt="VADS formatted email" src="https://github.com/user-attachments/assets/b8689fa3-f546-4f22-81c8-422ea26a5a39" />
 
 
-5. **Email formatting should be designed with sharability in mind (copy/paste, screen shots, link to share).**
+5. **Email formatting should be designed with shareability in mind (copy/paste, screen shots, link to share).**
     * Some participants noted that the PHI version of the email reminder seemed easier to share. For example, the graphic presentation of the information makes a clearer screenshot that a user could text to their caregiver or spouse. Similarly, participants pointed out that they often copy and pasted information from reminders. One caregiver said that they often share appointment information with other caregivers or other family members when they cannot accompany a Veteran to an appointment. Formatting should lend itself to making that kind of sharing seamless and without friction. 
     * “*The presentation makes it really easy to copy and paste into a text.” -P7*
 <img width="510" alt="Screenshot comparison" src="https://github.com/user-attachments/assets/ca9540ec-4c29-4baa-972d-67b2853f10f5" />
@@ -362,6 +362,8 @@ e.g. user flows, personas, etc.
 [VA Notify Email Content Research](https://github.com/department-of-veterans-affairs/vanotify-team/blob/78b9922e8bda69e7e405414fee9f65f0223445c7/Research/2023-10-Email-Content-Research/Email%20Content%20Research%20Findings.md)
 
 [Notification Settings for Health Appointment Reminders](https://www.figma.com/design/e6JEtrwZCInKk9SjZktx2T/Profile---Notification-Settings?node-id=572-12658&t=ubf1850HW8krNJY9-1)
+
+[Appointment Details Page Redesign Research Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2023-10-appt-details-redesign/research-findings.md)
 
 ## Who we talked to 
 _Complete the demographic info below using information from the Perigean recruitment survey. For those items where you didn't have participants, please mark with "0". You can use "unknown" if you aren't sure if your participants had a characteristic._ 

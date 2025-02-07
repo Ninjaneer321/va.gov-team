@@ -2,8 +2,7 @@
 NEW Sprint 26: 2/05/25 - 2/18/25
 
 ## 📅 Upcoming Dates  & 🏖️ PTO
-  * Brittany PMR 2/4 and 2/5
-  * Presidents Day 2/17
+  * President's Day 2/17
     
 ## 📣 Announcements
 * A6 has changed the cadence of sprint plannings. We closed sprint 26 on 12/31 and to get in sync with other teams we will be starting sprint 24 on 1/2. New cadence will be:
@@ -26,7 +25,7 @@ NEW Sprint 26: 2/05/25 - 2/18/25
 * ⚫️ Community Care - this work is being done by Devin working with the CIE team 
    
 ## 📋 Previous Sprint Summary:
-In Sprint 25 the team provided support for multiple features and initiatives, outlined as follows:  
+In Sprint 24 the team provided support for multiple features and initiatives, outlined as follows:  
 * #### Appointment Requests
   * VetsAPI Patient Gateway updated Cerner appointment source filtering by removing source filters from VaosClient.java and implementing manual filtering of Cerner appointments.
 * #### VetsAPI Logic Integration Support
@@ -40,20 +39,17 @@ In Sprint 25 the team provided support for multiple features and initiatives, ou
 ## 🏆 Sprint Goals and Stories
 🚧 rolled from previous sprint;🐞bug; 🚫 blocked;🧗‍♀️ pulled in after sprint started; ⚠️ Removed from sprint 
 
-🔴 Appointment Cancellation
-🟢 Appointment Requests
-🟤 VetsAPI Logic Integration Support
-   * [VPG-306 VPG: Move any existing logic for when to show join video link to vets-api(https://issues.mobilehealth.va.gov/browse/VPG-306)]
-   * [VPG-307 VPG: Move logic for handling partial api responses and errors to vets-api(https://issues.mobilehealth.va.gov/browse/VPG-307)]
-🟠 Build vetsapi-patient-gateway to extend VAOS with Oracle Health write-back capabilities
-🟡 Build CES infrastructure to extend VAOS module with Oracle Health write-back capabilities
-🔵 Direct Scheduling
-  * [CES-1299 CES: Determine EHR on appointment creation request](https://issues.mobilehealth.va.gov/browse/CES-1299)
-⚫️ Community Care - this work is being done by Devin working with the CIE team
-  * 🚧 [VPG-318 CC: Add request specs for AppointmentsController#create_draftmethod #101428(https://issues.mobilehealth.va.gov/browse/VPG-318)]
-🟣 Testing/Admin/Operational Support
-  * [CES-1509 CES: SQA: Continued CES testing(https://issues.mobilehealth.va.gov/browse/CES-1509)]
-  * [VPG-323 Update VPG to the latest dependency versions(https://issues.mobilehealth.va.gov/browse/VPG-323)]
+* 🟤 VetsAPI Logic Integration Support
+   * [VPG-306 VPG: Move any existing logic for when to show join video link to vets-api](https://issues.mobilehealth.va.gov/browse/VPG-306)
+   * [VPG-307 VPG: Move logic for handling partial api responses and errors to vets-api](https://issues.mobilehealth.va.gov/browse/VPG-307)
+* 🔵 Direct Scheduling
+   * [CES-1299 CES: Determine EHR on appointment creation request](https://issues.mobilehealth.va.gov/browse/CES-1299)
+* ⚫️ Community Care - this work is being done by Devin working with the CIE team
+   * 🚧 [VPG-318 CC: Add request specs for AppointmentsController#create_draftmethod #101428](https://issues.mobilehealth.va.gov/browse/VPG-318)
+   * [VPG-324 CC: Implement GET /appointments/{appointment_id} for a specific EPS appointment](https://issues.mobilehealth.va.gov/browse/VPG-324)
+* 🟣 Testing/Admin/Operational Support
+   * [CES-1509 CES: SQA: Continued CES testing](https://issues.mobilehealth.va.gov/browse/CES-1509)
+   * [VPG-323 Update VPG to the latest dependency versions](https://issues.mobilehealth.va.gov/browse/VPG-323)
 
 
 ## ✈️ Planned Releases
