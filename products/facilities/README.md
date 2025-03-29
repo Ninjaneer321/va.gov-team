@@ -29,7 +29,6 @@ Similar to most other types of search tools, Veterans should be able to begin a 
 
 ## Facilities products
 - [Process for reporting inaccurate data in Facility Locator](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/reporting-inaccurate-data.md#process-for-reporting-inaccurate-data-in-facility-locator)
-- [Product documentation index](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/product-documentation.md)
 
 ### COPY/PASTABLE product list
 <details><summary>List in accordion. Please update with any product ownership changes</summary>
@@ -97,9 +96,10 @@ These products provide detailed information about specific VA facilities to help
 - VHA Vet Center facility product | [product folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/vet-centers) | github label: [Vet Center](https://github.com/department-of-veterans-affairs/va.gov-cms/labels/Vet%20Center)
 
 **Currently being modernized**
-- VBA Regional Office facility system product | [product folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/regional-offices) | github label: [Regional office](https://github.com/department-of-veterans-affairs/va.gov-cms/labels/Regional%20office)
+- VBA Regional Office (RO) facility system product | [product folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/regional-offices) | github label: [Regional office](https://github.com/department-of-veterans-affairs/va.gov-cms/labels/Regional%20office) - Product is launched; RO content is being created / reviewed / published on a rolling basis by VBA editors and leadership
 
 **Future facilities to modernize**
+- Vet Center Satellite locations
 - VAMC VHA Mobile | [Initiative brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/medical-centers/initiatives/2021-vamc-vha-mobile-redesign/initiative-brief.md) | [VSA Mobile Health Clinics UX research and design hub](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/facility-locator/product-transition-doc/feature-docs/mobile-health-clinics.md)
 - NCA National Cemetery facility product | [product folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/cemeteries) | github label: [Cemeteries](https://github.com/department-of-veterans-affairs/va.gov-cms/labels/Cemeteries)
 - VBA non-Regional Office facilities | github label: [VBA](https://github.com/department-of-veterans-affairs/va.gov-cms/labels/VBA)
@@ -125,9 +125,9 @@ Our VA.gov facilities and services products are powered by the VA.gov Drupal CMS
 - [#sitewide-cms-platform](https://dsva.slack.com/channels/cms-team) - Drupal CMS Platform Team slack channel
 - [#cms-support](https://dsva.slack.com/channels/cms-support) - Drupal CMS Support slack channel
 
-**Facilities API**
+**Lighthouse Facilities API**
 
 - [Repo](https://github.com/department-of-veterans-affairs/vets-api)
 - [Documentation](https://developer.va.gov/explore/facilities/docs/facilities?version=current)
 - [Information about the data sources](https://github.com/department-of-veterans-affairs/lighthouse-facilities#readme)
-
+- [#cms-lighthouse](https://app.slack.com/client/T03FECE8V/C02BTJTDFTN) - Communication channel with Lighthouse Facilities API team

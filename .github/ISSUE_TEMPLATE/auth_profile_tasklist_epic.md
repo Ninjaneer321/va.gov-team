@@ -1,93 +1,35 @@
 ---
-name: Authenticated Experience Profile New Epic Template
-about: Epic template for creating Authenticated Experience Profile team issues
-title: EPIC | Profile | [Project]| [Issue Name]
-labels: authenticated-experience, needs-refinement, epic, profile
+name: Authenticated Experience Epic Template
+about: Epic template for creating Authenticated Experience team issues
+title: EPIC | [Project]
+labels: authenticated-experience, needs-refinement, epic
+type: Epic
 assignees: ''
 
 ---
 
-## Background
-Describe the issue background and scope
+## Problem Statement– 
+_What challenge are we addressing? (This is already in a lot of the cards as Veteran problems and possibly business problems to solve._
 
-## Tasks 
+## Why Is This Important?
+_– The significance and impact of solving this problem._
+
+## Solution (Bet)– 
+_What we plan to deliver to address the problem. (this is probably a 2-sentence summary of the bet we're making/what we're going to deliver. Arguably it's "Title of card not in OCTO-speak" but let's not die on that hill on titling because it's often what makes sense to the teams building, but not necessarily our leadership or stakeholders)_
+
+## Results or Impact– 
+_The outcomes, improvements, or key metrics.- What do we expect to happen and how do we expect to measure the success of this bet?- What is the baseline data?- What data sources are we/will we be looking at to determine success/failure_
+
+## What OCTO/DE?Crew OKR does this map to?
 
 
-```[tasklist]
-### Initial Discovery/ Brain Dump
-- [ ] tbd
-```
 
-```[tasklist]
-### Design Intent
-- [ ] review our design decisions/moks/journey
-- [ ] make changes to design post design intent
-``` 
+## Important Artifacts 
+- Product Outline
+- Mural Board Ideation Space
+- Designs
+     - Desktop
+     - Mobile
 
-```[tasklist]
-### Research/Design Midpoint Prep
-- [ ] Usability Research Plan
-- [ ] Usability Convo Guide
-- [ ] Usability Research Logistics
-- [ ] Conduct the Study
-- [ ] Synthesize the Research
-``` 
-
-```[tasklist]
-### BE/FE Development 
-- [ ] This ends with midpoint review
-- [ ] GA ticket for any FE work 
-- [ ] PM | Domo or GA Updates
-- [ ] BE | Data Dog Dashboard Updates
-``` 
-
-```[tasklist]
-### Midpoint Feedback Implementation
-- [ ] implement an midpoint review changes if needed 
-``` 
-
-```[tasklist]
-### QA
-- [ ] QA Spreadsheet 
-- [ ] QA testing plan document  
-- [ ] QA team ticket
-``` 
-
-```[tasklist]
-### UAT
-- [ ] Conversation Guide 
-- [ ] UAT Research Plan 
-- [ ] PM | go/no-go convo
-- [ ] UAT Study Logistics / Kickoff
-- [ ] Conduct UAT
-- [ ] Research Synthesis 
-``` 
-
-```[tasklist]
-### Launch Planning
-- [ ] Release Plan 
-- [ ] Contact Center Guide Updates - submit before staging review 
-- [ ] Staging Review 
-``` 
-
-```[tasklist]
-### Incorporate Staging Review Feedback 
-- [ ] add staging review tickets
-``` 
-
-```[tasklist]
-### Launch
-- [ ] Go/no-go prod convo
-``` 
-
-```[tasklist]
-### Post Launch
-- [ ] Documentation Updates 
-``` 
-
-```[tasklist]
-### Tasks
-- [ ] tasks
-``` 
 
 

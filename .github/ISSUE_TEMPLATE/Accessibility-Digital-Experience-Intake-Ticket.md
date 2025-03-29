@@ -3,7 +3,7 @@ name: "Accessibility Digital Experience (ADE) Intake Form"
 about: Use this ticket to request collaboration on a new initiative with the Accessibility Digital Experience (ADE) team (pronounced /ād/). 
 title: '[ADE Intake]:<Team Name><Product><Requesting>'
 labels: 'ADE, ADE Intake'
-assignees: artsymartha68,sara-amanda,NaomiPMC
+assignees: artsymartha68,sara-amanda,lakper
 
 ---
 
@@ -31,10 +31,17 @@ assignees: artsymartha68,sara-amanda,NaomiPMC
 - `PLACEHOLDER TEXT for your desired outcomes`
   
 ## Collaborate with ADE
-[**Review our menu of services**,](https://github.com/department-of-veterans-affairs/va.gov-team/tree/f12c0655a990044374088eed0d48208e2a120708/teams/CAIA/accessibility) and check all the types of collaboration you're requesting, below:
+[**Review our menu of services**,](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/ADE/readme.md#services-we-offer) and check all the types of collaboration you're requesting, below:
 
 ### How would you like to collaborate with ADE?
-- [ ] Research support
+- [ ] Research support [(if yes, please open an additional research ticket)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/.github/ISSUE_TEMPLATE/ade-accessibility-research.yaml)
+    - [ ] Discuss research plan / conversation guide / recruitment of AT users
+    - [ ] Advise on accessible prototypes
+    - [ ] Schedule a [pilot session](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/ADE/assistive-tech-pilot-guide.md) with an ADE Accessibility Specialist
+    - [ ] Schedule technical support during AT research sessions
+    - [ ] Document accessibility-related issues during AT research sessions
+    - [ ] Conduct research for your team
+- [ ] VA 508 office audit review
 - [ ] Accessibility test planning
 - [ ] Support design discovery
 - [ ] Review wireframes or mockups
@@ -87,20 +94,16 @@ _Select all that apply._
 
 
 
-
-
-```[tasklist]
-### Next Steps for Your Team
+## Next Steps for Your Team
 - [ ] Save and submit this intake ticket.
-- [ ] Start a new thread, and post a link to this ticket in the [accessibility-help](https://dsva.slack.com/archives/C8E985R32) Slack channel by tagging Naomi Eke or Lakwi Perera.
-- [ ] If you're requesting accessibility support for usability research, submit a research support request next: [Open an accessibility research support request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=coforma-terry%2Cangelafowler82&labels=508%2FAccessibility%2C+sitewide+CAIA%2C+sitewide+accessibility%2C+CAIA-a11y-research&template=caia-a11y-research.yaml&title=%5BCAIA+A11y+Research%5D%3A+Team+name%2C+product+name).
+- [ ] Start a new thread, and post a link to this ticket in the [accessibility-help](https://dsva.slack.com/archives/C8E985R32) Slack channel by tagging Lakwi Perera.
+- [ ] If you're requesting accessibility support for user research, submit a research support request next: [Open an accessibility research support request](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/.github/ISSUE_TEMPLATE/ade-accessibility-research.yaml).
 - [ ] If you're creating an experimental design, also contact the design system team: [Read more about experimental designs](https://design.va.gov/about/contributing-to-the-design-system/experimental-components-and-patterns#what-is-an-experimental-component-or-pattern?) 
 - [ ] [Suggest an addition or update to the design system team](https://design.va.gov/about/contributing-to-the-design-system/suggest-an-addition-or-update)
 - [ ] Please don't close this intake when work is complete - ADE will close and track.
-```
 
-```[tasklist]
-## Ticket Updates (ADE Internal)
+## ADE Internal
+### Ticket Updates
 - [ ] Receive new intake ticket
 - [ ] Respond to Slack message sent by VFS team upon submission
 - [ ] Reach out to the VFS team to set up Kickoff (if requested)
@@ -117,12 +120,13 @@ _Select all that apply._
 - [ ] _Update date in `Last Checked` field_
 - [ ] _Label with `Actual` (level of effort it took to complete this ticket)_
 - [ ] _Update date in_ `Closed Date`
-```
 
-```[tasklist]
-## Related Tickets
-- [ ] https://github.com/department-of-veterans-affairs/va.gov-team/issues/102478
-- [ ] #ticketnumbergoeshere1
-- [ ] #ticketnumbergoeshere2
-- [ ] #ticketnumbergoeshere3
-```
+### Related Tickets (ADE Internal)
+> [!IMPORTANT]
+> #### Tasks are Now Sub-Issues
+> - Related tickets are no longer being tracked in task lists, due to the planned depreceiation of tasks by GitHub in April 2025. 
+> - Instead, related tickets will be connected to tickets via sub-issues.
+> ##### Connecting Tickets
+> - **To connect an existing ticket**, choose the drop-down from "create sub-issue" and select "add existing issue"
+> - **To connect a new issue,** choose the drop-down from "create sub-issue" and select "create sub-issue," and select the respective template. 
+

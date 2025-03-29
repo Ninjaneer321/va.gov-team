@@ -2,7 +2,7 @@
 
 Ask VA VA.gov Team
 
-Last updated by @tygindraux: January 30, 2025
+Last updated by @tygindraux: February 18, 2025
 
 ## Moderator logistics
 
@@ -127,8 +127,11 @@ In the Zoom chat, I'm going to send you a link to a prototype. I mentioned earli
 > Send link in Zoom chat.
 
   * [Prototype A: Recommend a category and topic](https://www.figma.com/proto/ifZqIdl3YRZ7rk3riz7MZN/AVA-Phase-2---Exploration?node-id=117-8174&t=zZCiEN70ehoO9Epu-1&scaling=scale-down&content-scaling=fixed&page-id=117%3A7572&starting-point-node-id=117%3A8174)
+      * [bit.ly/concept-A](https://bit.ly/concept-A)
   * [Prototype B: Ask for a more detailed question](https://www.figma.com/proto/ifZqIdl3YRZ7rk3riz7MZN/AVA-Phase-2---Exploration?node-id=139-2957&t=Znc7llXZ2zSJhRXO-0&scaling=min-zoom&content-scaling=fixed&page-id=134%3A4903)
+      * [bit.ly/concept-B](https://bit.ly/concept-B)
   * [Prototype C: Provide helpful links](https://www.figma.com/proto/ifZqIdl3YRZ7rk3riz7MZN/AVA-Phase-2---Exploration?node-id=73-14487&t=Znc7llXZ2zSJhRXO-0&scaling=scale-down&content-scaling=fixed&page-id=73%3A14484&starting-point-node-id=73%3A14487)
+      * [https://bit.ly/concept-C](https://bit.ly/concept-C)
 
 I just sent you a link in the Zoom chat.
 
@@ -145,20 +148,24 @@ Okay, so now let me tell you a little bit about this website.
 
 We're on VA.gov and this is a tool called Ask VA. Ask VA is a form that you can use to ask the VA a question. It can be a question about education, disability compensation, health care. Lots of things.
 
-In a moment, you're going to ask the VA a question. We'll talk about what's happening as we go along, so I can get your thoughts and feedback. 
+I'm going to show you 3 different concepts. In all 3 concepts, you're asking the VA a question. 
 
-Everything sound okay?
+I'll ask you some question as we go through each concept and eventually we'll compare all 3 concepts.
+
+Does this all sound okay?
 
 Jump to:
-- [Concept A: Recommend a category and topic](#concept-A-recommend-a-category-and-topic-10-minutes)
-- [Concept B: Ask for a more detailed question](#concept-B-ask-for-a-more-detailed-question-10-minutes)
-- [Concept C: Provide helpful links](#concept-C-provide-helpful-links-10-minutes)
+- [JUMP TO Concept A: Recommend a category and topic](#concept-A-recommend-a-category-and-topic-10-minutes)
+- [JUMP TO Concept B: Ask for a more detailed question](#concept-B-ask-for-a-more-detailed-question-10-minutes)
+- [JUMP TO Concept C: Provide helpful links](#concept-C-provide-helpful-links-10-minutes)
 
 ## Concept A: Recommend a category and topic (10 minutes)
 
-> Link to [Prototype A: Recommend a category and topic](https://www.figma.com/proto/ifZqIdl3YRZ7rk3riz7MZN/AVA-Phase-2---Exploration?node-id=117-8174&t=zZCiEN70ehoO9Epu-1&scaling=scale-down&content-scaling=fixed&page-id=117%3A7572&starting-point-node-id=117%3A8174)
+> Link to [Prototype A: bit.ly/concept-A](https://bit.ly/concept-A)
 
 > Screen: Question page > Blank.
+
+Okay, great. So let's go through this concept together.
 
 So, first off.
 
@@ -222,10 +229,10 @@ Great. Okay. We'll stop here. I want to hear your thoughts on this tool and what
 Okay, awesome. We're going to move on to the next concept now. You can keep sharing your screen. [Or, jump to cool down.]
 
 Jump to:
-- [Concept A: Recommend a category and topic](#concept-A-recommend-a-category-and-topic-10-minutes)
-- [Concept B: Ask for a more detailed question](#concept-B-ask-for-a-more-detailed-question-10-minutes)
-- [Concept C: Provide helpful links](#concept-C-provide-helpful-links-10-minutes)
-- [Cool down](#cool-down)
+- [JUMP TO Concept A: Recommend a category and topic](#concept-A-recommend-a-category-and-topic-10-minutes)
+- [JUMP TO Concept B: Ask for a more detailed question](#concept-B-ask-for-a-more-detailed-question-10-minutes)
+- [JUMP TO Concept C: Provide helpful links](#concept-C-provide-helpful-links-10-minutes)
+- [JUMP TO Cool down](#cool-down)
 
 <details>
   <summary>Key things to notice</summary>
@@ -241,9 +248,11 @@ Jump to:
 
 ## Concept B: Ask for a more detailed question (10 minutes)
 
-> Link to [Prototype B](https://www.figma.com/proto/ifZqIdl3YRZ7rk3riz7MZN/AVA-Phase-2---Exploration?node-id=139-2957&t=Znc7llXZ2zSJhRXO-0&scaling=min-zoom&content-scaling=fixed&page-id=134%3A4903)
+> Link to [Prototype B: bit.ly/concept-B](https://bit.ly/concept-B)
 
 > Screen: Question page > Blank.
+
+Okay, great. So let's go through this concept together.
 
 So, first off.
 
@@ -336,10 +345,10 @@ Great. Okay. We'll stop here. I want to hear your thoughts on this tool and what
 Okay, awesome. We're going to move on to the next concept now. [Or, jump to cool down.]
 
 Jump to:
-- [Concept A: Recommend a category and topic](#concept-A-recommend-a-category-and-topic-10-minutes)
-- [Concept B: Ask for a more detailed question](#concept-B-ask-for-a-more-detailed-question-10-minutes)
-- [Concept C: Provide helpful links](#concept-C-provide-helpful-links-10-minutes)
-- [Cool down](#cool-down)
+- [JUMP TO Concept A: Recommend a category and topic](#concept-A-recommend-a-category-and-topic-10-minutes)
+- [JUMP TO Concept B: Ask for a more detailed question](#concept-B-ask-for-a-more-detailed-question-10-minutes)
+- [JUMP TO Concept C: Provide helpful links](#concept-C-provide-helpful-links-10-minutes)
+- [JUMP TO Cool down](#cool-down)
 
 <details>
   <summary>Key things to notice</summary>
@@ -356,9 +365,11 @@ Jump to:
 
 ## Concept C: Provide helpful links (10 minutes)
 
-> Link to [Concept C](https://www.figma.com/proto/ifZqIdl3YRZ7rk3riz7MZN/AVA-Phase-2---Exploration?node-id=73-14487&t=Znc7llXZ2zSJhRXO-0&scaling=scale-down&content-scaling=fixed&page-id=73%3A14484&starting-point-node-id=73%3A14487)
+> Link to [Prototype C: bit.ly/concept-C](https://bit.ly/concept-C)
 
 > Screen: Question page > Blank.
+
+Okay, great. So let's go through this concept together.
 
 So, first off.
 
@@ -420,10 +431,10 @@ Great. Okay. We'll stop here. I want to hear your thoughts on this tool and what
 Okay, awesome. We're going to move on to the next concept now. [Or, jump to cool down.]
 
 Jump to:
-- [Concept A: Recommend a category and topic](#concept-A-recommend-a-category-and-topic-10-minutes)
-- [Concept B: Ask for a more detailed question](#concept-B-ask-for-a-more-detailed-question-10-minutes)
-- [Concept C: Provide helpful links](#concept-C-provide-helpful-links-10-minutes)
-- [Cool down](#cool-down)
+- [JUMP TO Concept A: Recommend a category and topic](#concept-A-recommend-a-category-and-topic-10-minutes)
+- [JUMP TO Concept B: Ask for a more detailed question](#concept-B-ask-for-a-more-detailed-question-10-minutes)
+- [JUMP TO Concept C: Provide helpful links](#concept-C-provide-helpful-links-10-minutes)
+- [JUMP TO Cool down](#cool-down)
 
 <details>
   <summary>Key things to notice</summary>
@@ -520,4 +531,4 @@ Thanks for letting me take a break. You didn't do anything wrong, but I'm realiz
 ## Approved by:
 
 - Becky Phung, PO on January 30, 2025
-- Shane Strassberg, VA Research Ops on [TBC]
+- Shane Strassberg, VA Research Ops on February 5, 2025

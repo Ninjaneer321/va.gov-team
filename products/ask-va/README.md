@@ -1,27 +1,31 @@
-# Ask VA VA.gov team
-Ask VA (AVA) is an online portal that allows Veterans, caregivers, and supporting personnel in education, debt, loans, etc. to submit questions to VA and receive a secure message response. Currently, Ask VA  resides within a stand-alone Microsoft portal that is inconsistent with the VA design standards, is not mobile-friendly, and has accessibility issues.
+## Ask VA (VA.gov team)
+Ask VA (AVA) is a digital support channel for Veterans, family members and other submitters. You can use Ask VA to ask a question about education benefits, disability compensation, health care and many other topics. Ask VA should only be used for non-urgent needs.
 
-Ask VA on the modernized VA.gov platform will be a digital support channel that works with other tools and features on VA.gov and VA ecosystem to quickly and accurately answer users' questions. Users should feel it is easy and intuitive to submit their issues and receive adequate updates and information that results in a final resolution. Ultimately, we want Ask VA to feel part of a cohesive and user-centered approach to support.
+You can currently reach Ask VA at [ask.va.gov](https://ask.va.gov/). By end of March 2025, you'll be able to reach Ask VA on VA.gov at [va.gov/contact-us/ask-va](https://va.gov/contact-us/ask-va).
 
-Learn more about the [history of Ask VA](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/background.md).
+## Current initiatives
+|Initiatives|Status|Launch date|
+|:---|:---|:---|
+|[Prefill topic questions with NLP data model](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/prefill-NLP%20June%202025/initiative-brief.md)|In-progress|June 30, 2025|
+|[Move frontend to VA.gov (Phase 1)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/move-frontend%20Mar%202025/initiative-brief.md)|In-progress|March 24, 2025|
 
-## Where to find us 
-
+## Where to find us
 - DSVA Slack: [#ask-va-public](https://dsva.slack.com/archives/C05A2F6DEAE)
-- Github Repository: [department-of-veterans-affairs/ask-va](https://github.com/department-of-veterans-affairs/ask-va)
+- Github repository: [department-of-veterans-affairs/ask-va](https://github.com/department-of-veterans-affairs/ask-va)
+- Figma: [Ask VA team](https://www.figma.com/files/team/1278375444205744118/project/174974739/Ask-VA?fuid=1248985325385082769)
+- Mural: [Ask VA room](https://app.mural.co/t/departmentofveteransaffairs9999/r/1686859097688)
 
-## Who we are
-
+## Our team
 |Role|Assigned|Contact|
 |:---|:---|:---|
-|Product Owner (OCTO), Designer|Becky Phung||
-|Product Owner (VES)|Natalie Morales||
-|Program Manager|Megan Siddle|megan.siddle@oddball.io|
-|Product Manager|Ariel Martinez|ariel.martinez@thoughtworks.com|
-|Lead Engineer|Joseph Hall|joe.hall@thoughtworks.com|
-|Engineer|Eddie Otero|eddie.otero@oddball.io|
-|Engineer|Khoa Nguyen|khoa.nguyen@oddball.io|
-|Engineer|Hemesh Patel|hemesh.patel@docme360.com|
-|Engineer|Jacob Cheriathundam|jacob@docme360.com|
-|UX Designer|Thomas Michaud|thomas.michaud@oddball.io|
-|UX Researcher & Designer|Tyler Gindraux|tyler@bluetiger.digital|
+|Product owner (OCTO), Designer|Becky Phung||
+|Product owner (VES)|Natalie Morales||
+|Program manager|Megan Siddle|megan.siddle@oddball.io|
+|Product manager|Ariel Martinez|ariel.martinez@thoughtworks.com|
+|Lead engineer|Joseph Hall|joe.hall@thoughtworks.com|
+|Frontned engineer|Eddie Otero|eddie.otero@oddball.io|
+|Frontned engineer|Hemesh Patel|hemesh.patel@docme360.com|
+|Backend engineer|Khoa Nguyen|khoa.nguyen@oddball.io|
+|Data engineer (part-time)|Jacob Cheriathundam|jacob@docme360.com|
+|UX designer|Thomas Michaud|thomas.michaud@oddball.io|
+|UX researcher & Designer|Tyler Gindraux|tyler@bluetiger.digital|

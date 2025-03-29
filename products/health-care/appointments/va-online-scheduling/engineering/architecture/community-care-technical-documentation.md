@@ -115,11 +115,11 @@ sequenceDiagram
     EPS-->>vets-api: Returns appointment status
     CCRA-->>vets-api: Returns appointment status
     alt Status is good (not 'booked')
-        vets-api->>vets-website: Returns serialized success response
+        vets-api->>vets-website: Returns serialized referral data with empty appointments array
         vets-website->>Veteran: Display referral card
     else Status is 'booked'
-        vets-api->>vets-website: Returns error message
-        vets-website->>Veteran: Display error notification
+        vets-api->>vets-website: Returns serialized referral data with populated appointments array
+        vets-website->>Veteran: Display already scheduled alert
     end
 ```
 
@@ -202,7 +202,7 @@ Since we already have 'Appointment' resource under VAOS (VA Online Scheduling) s
 
 'Referral' and 'Provider' are going to be a new resources. Endpoints are:
 
-* GET `/vaos/v2/referrals` (new)
+### * GET `/vaos/v2/referrals` (new)
 ```
 [
   {
@@ -213,11 +213,12 @@ Since we already have 'Appointment' resource under VAOS (VA Online Scheduling) s
   }
 ]
 ```
-* GET `/vaos/v2/referrals/{referralNo}`
+### * GET `/vaos/v2/referrals/{referralNo}`
 Response when not booked ie: no appointments have been booked for this referral)
 ```
 {
   "uuid": "1234",
+  "referralDate": "2025-06-02T10:30:00Z",
   "expirationDate": "2024-12-12",
   "referralNumber": "VA0000009880",
   "referringFacility": "Batavia VA Medical Center w/ Dr. Moreen S. Rafa",
@@ -264,12 +265,174 @@ Response when an appointment is found
   ]
 }
 ```
-* GET `/vaos/v2/appointments` (existing)
-* GET `/vaos/v2/appointments/{appointmentId}` (existing)
-* POST `/vaos/v2/appointments` (existing)
-* GET `/vaos/v2/providers` (new)
-* GET `/vaos/v2/providers/{providerId}/slots` (new)
-* GET `/vaos/v2/providers/{providerId}/drivetime` (new)
+### * POST `/vaos/v2/epsApi/draftReferralAppointment` (new?)
+Request:
+```
+{
+  "referralId": "add2f0f4-a1ea-4dea-a504-a54ab57c6800"
+}
+```
+Response:
+```
+{
+  "appointment": {
+    "id": "EEKoGzEf",
+    "state": "draft",
+    "patientId": "care-nav-patient-casey"
+  },
+  "provider": {
+    "id": "9mN718pH",
+    "name": "Dr. Bones @ FHA South Melbourne Medical Complex",
+    "isActive": true,
+    "individualProviders": [
+      {
+        "name": "Dr. Bones",
+        "npi": "91560381x"
+      }
+    ],
+    "providerOrganization": {
+      "name": "Meridian Health (Sandbox 5vuTac8v)"
+    },
+    "location": {
+      "name": "FHA South Melbourne Medical Complex",
+      "address": "1105 Palmetto Ave, Melbourne, FL, 32901, US",
+      "latitude": 28.08061,
+      "longitude": -80.60322,
+      "timezone": "America/New_York"
+    },
+    "networkIds": ["sandboxnetwork-5vuTac8v"],
+    "schedulingNotes": "New patients need to send their previous records to the office prior to their appt.",
+    "appointmentTypes": [
+      {
+        "id": "ov",
+        "name": "Office Visit",
+        "isSelfSchedulable": true
+      }
+    ],
+    "specialties": [
+      {
+        "id": "208800000X",
+        "name": "Urology"
+      }
+    ],
+    "visitMode": "phone",
+    "features": {
+      "isDigital": true,
+      "directBooking": {
+        "isEnabled": true,
+        "requiredFields": ["phone", "address", "name", "birthdate", "gender"]
+      }
+    }
+  },
+  "slots": {
+    "count": 2,
+    "slots": []
+  },
+  "drivetime": {
+    "origin": {
+      "latitude": 40.7128,
+      "longitude": -74.006
+    },
+    "destination": {
+      "distanceInMiles": 313,
+      "driveTimeInSecondsWithoutTraffic": 19096,
+      "driveTimeInSecondsWithTraffic": 19561,
+      "latitude": 44.475883,
+      "longitude": -73.212074
+    }
+  }
+}
+```
+### * GET `/vaos/v2/appointments` (existing)
+### * GET `/vaos/v2/appointments/{appointmentId}` (existing)
+### * GET `/vaos/v2/eps_appointments/{appointmentId}` (new)
+```
+{
+  "data": {
+    "id": "qdm61cJ5",
+    "type": "eps_appointment",
+    "attributes": {
+      "appointment": {
+        "id": "qdm61cJ5",
+        "status": "booked",
+        "patientIcn": "care-nav-patient-casey",
+        "created": "2025-02-10T14:35:44Z",
+        "locationId": "sandbox-network-5vuTac8v",
+        "clinic": "Aq7wgAux",
+        "start": "2024-11-21T18:00:00Z",
+        "referralId": "12345",
+        "referral": {
+          "referralNumber": "12345",
+          "facilityName": "Linda Loma",
+          "facilityPhone": "555-555-5555"
+          "typeOfCare": "Physical Therapy"
+          "modality": "In Person"
+        }
+      },
+      "provider": {
+        "id": "test-provider-id",
+        "name": "Timothy Bob",
+        "isActive": true,
+        "individualProviders": [
+          {
+            "name": "Timothy Bob",
+            "npi": "test-npi"
+          }
+        ],
+        "providerOrganization": {
+          "name": "test-provider-org-name"
+        },
+        "location": {
+          "name": "Test Medical Complex",
+          "address": "207 Davishill Ln",
+          "latitude": 33.058736,
+          "longitude": -80.032819,
+          "timezone": "America/New_York"
+        },
+        "networkIds": [
+          "sandbox-network-test"
+        ],
+        "schedulingNotes": "New patients need to send their previous records to the office prior to their appt.",
+        "appointmentTypes": [
+          {
+            "id": "off",
+            "name": "Office Visit",
+            "isSelfSchedulable": true
+          }
+        ],
+        "specialties": [
+          {
+            "id": "test-id",
+            "name": "Urology"
+          }
+        ],
+        "visitMode": "phone",
+        "features": null
+      } 
+    }
+  }
+}
+```
+### * POST `/vaos/v2/epsApi/appointments` (existing)
+Request:
+```
+{
+  "referralId": "add2f0f4-a1ea-4dea-a504-a54ab57c6800",
+  "slotId": "5vuTac8v-practitioner-1-role-2|e43a19a8-b0cb-4dcf-befa-8cc511c3999b|2025-01-02T15:30:00Z|30m0s|1736636444704|ov1",
+  "draftApppointmentId": "EEKoGzEf"
+}
+```
+Response:
+```
+{
+  "data": {
+    "appointmentId": "EEKoGzEf"
+  }
+}
+```
+### * GET `/vaos/v2/providers` (new)
+### * GET `/vaos/v2/providers/{providerId}/slots` (new)
+### * GET `/vaos/v2/providers/{providerId}/drivetime` (new)
 
 
 ## Removing duplicates and preventing duplicates of referrals

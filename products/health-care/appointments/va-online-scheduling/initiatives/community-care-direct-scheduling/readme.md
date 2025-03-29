@@ -1,8 +1,8 @@
-[GitHubProjectFiltersforCC.txt](https://github.com/user-attachments/files/18084583/GitHubProjectFiltersforCC.txt) 
 # Veteran Self-Schedule Community Care (VSS CC) Initiative Brief 
 
 - [Artifacts](#artifacts)
     - [Requirements Artifacts](#requirements-artifacts)
+    - [Workflow Artifacts](#workflow-artifacts)
     - [Product Artifacts](#product-artifacts)
     - [Design Artifcats](#design-artifcats)
     - [Engineering Artifacts](#engineering-artifacts)
@@ -13,7 +13,7 @@
 - [Testing](#testing)
 - [Releasing](#releasing)
 - [Measuring Success](#measuring-success)
-    - [Key Performance Indicators](#key-performance-indicators}
+    - [Key Performance Indicators](#key-performance-indicators)
     - [Metrics to Capture](#metrics-to-capture)
     - [Metrics Dashboards](#metrics-dashboards)
 
@@ -30,6 +30,10 @@ This initiative allows Veterans to directly schedule a community care appointmen
 - [CC DVSS Process Flow](https://dvagov-my.sharepoint.com/:u:/g/personal/robert_meehan3_va_gov/EZ8ifg_TwetKmevHKDieolABMkHlo2Ovtt4NOrxB5Fb10Q?e=v4nRRy)
 - [Original EPS-VAOS Schedule Overview](https://dvagov.sharepoint.com/:p:/s/HealthApartment/EaymMOj8IRVLgeceh1kS-OQB1K4Cnr39NJHeSSVmOrZ14g?e=zHH3UW)
 
+#### Workflow Artifacts
+- [Veteran Digital Self-Scheduling Process for staff and VEText (VDSS Process 031725.zip)](https://github.com/user-attachments/files/19322031/VDSS.Process.031725.zip)
+- [Referral Coordination Process for staff (FINAL-RCI-Detailed-Process-Flow--June-11-2024-.pdf)](https://github.com/user-attachments/files/19322023/FINAL-RCI-Detailed-Process-Flow--June-11-2024-.pdf)
+
 #### Product Artifacts
 - [Initiative SharePoint Site](https://dvagov.sharepoint.com/:f:/s/HealthApartment/EsTqWKP_0G1PuMla1iiyr9kBfiuSpcQxUodT9n1WLqIj7g?e=p9TaHh)
 - [MVP Scope Slack Canvas](https://dsva.slack.com/docs/T03FECE8V/F07NVM3B9NG)
@@ -39,6 +43,7 @@ This initiative allows Veterans to directly schedule a community care appointmen
 - [MVP Wireframes](https://www.figma.com/design/DsRXEFiYLCFnY5nBkp9Dc4/CC-Referral-%7C-Appointments-FE?node-id=2490-44318&t=4E3sLy8lYzxyOpUL-1)
 - [CC VSS After Consult Approval Workflow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1717007634301/2e9fa61206c18e8cf196e2deb612eb0b577fb458)
 - [CC VSS Referral to VA Notify Workflow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1724857034587/50f5a6735d13d9273970da070a5573385dd7fb2c)
+- [CC VSS VEText/VA Notify template content (in SharePoint)](https://dvagov.sharepoint.com/:w:/r/sites/HealthApartment/Shared%20Documents/Appointments/Projects/2024%20Community%20Care%20Digital%20Self-Scheduling/vetext/CC%20Veteran%20Self-Scheduling%20VeText%20Templates.docx?d=wd132b693833f4a28afedad8ea6a252f0&csf=1&web=1&e=ARQ1Ec)
 
 #### Engineering Artifacts
 - [Care Nav API Endpoints (SharePoint)](https://dvagov.sharepoint.com/:x:/s/HealthApartment/EVXEu66555xIs5UMghBrAvIBjUuwc-AMyLC_YsCmTJfQbg?e=Ec9AuH)

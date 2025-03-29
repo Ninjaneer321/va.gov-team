@@ -7,7 +7,7 @@ To ensure a consistent Veteran experience and reduce cognitive load within the M
 * [Missing MHV Identifier (Account Creation API)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/governance/alert-standardization.md#account-creation-api-error-alerts-ie-missing-mhv-uuid)
 * [Oracle-Health Routing alerts](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/governance/alert-standardization.md#oracle-health--cerner-routing-alerts)
 * [Unauthenticated users](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/health-care/digital-health-modernization/mhv-to-va.gov/governance/alert-standardization.md#unauthenticated-users)
-* [403 access denied component](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/health-care/digital-health-modernization/mhv-to-va.gov/governance/alert-standardization.md#403-access-denied-error-component)
+* [403 access denied component](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/health-care/digital-health-modernization/mhv-to-va.gov/governance/alert-standardization.md#403-access-denied-component)
 * [404 page not found component](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/health-care/digital-health-modernization/mhv-to-va.gov/governance/alert-standardization.md#404-page-not-found-component)
 * [500 internal service error alert](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/health-care/digital-health-modernization/mhv-to-va.gov/governance/alert-standardization.md#500-internal-service-error-component)
 
@@ -35,8 +35,8 @@ flowchart TD
 ### Checks only for applications that rely on the MHV-API backend
 Affected applications: medications, medical records, and secure messages
 
-4. If a facility is in the user's profile, but the application relies on the MHV-API back-end, check for the presence of an MHV-Identifier (MHV UUID). If there is no MHV-Identifier, see the [Account Creation API Overview document](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/governance/mhv-account-creation-api.md) for more information about how to handle this. 
-5. If there is an MHV-Identifier present, render the application. 
+5. If a facility is in the user's profile, but the application relies on the MHV-API back-end, check for the presence of an MHV-Identifier (MHV UUID). If there is no MHV-Identifier, see the [Account Creation API Overview document](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/governance/mhv-account-creation-api.md) for more information about how to handle this. 
+6. If there is an MHV-Identifier present, render the application. 
    
 ## User routing under access-limiting conditions
 
@@ -106,11 +106,38 @@ Benefit hub pages corresponding with these tools currently have more complex ver
 ## Unauthenticated users
 The entire `/my-health` portal sits behind authentication and every application under this namespace must require authentication. Thus, any unauthenticated user who attempts to access a URL within any application in this space should trigger the sign-in modal. Until a user signs in, we cannot determine whether a user has authorization to access the page they are attempting to reach. 
 
-## 403 Access denied error component
-Guidance coming soon. 
+## 403 Access denied component
+The 403 error sends the user to a new page; this error component will only be experienced by users with access to My HealtheVet who attempt to access a url within the /my-health name space that they don't have credentials for (i.e. a records url for a different user). As shown in the screenshot below, the 403 error includes guidance to call the My HealtheVet helpdesk, try other health-related resources, or navigate elsewhere within the portal using the MHV secondary nav.
+
+[Figma file](https://www.figma.com/design/m992k2m1DSl9MXV9hDytsQ/MHV-Account-Security-%26-Access-Standards?node-id=685-14636)
+
+<details><summary>403 error page for MHV users</summary>
+<img src="https://github.com/user-attachments/assets/015ea1f8-4322-4141-888c-76c28433c475" />
+    
+</details>
 
 ## 404 Page not found component
-Guidance coming soon.
+The Cartography team took on designing and building a React 404 error based loosely on the Drupal version for VA.gov. We have not (yet) created a version specific to My HealtheVet, so all My HealtheVet users who change a link under the /my-health namespace to an incorrect / non-existant url will be sent to this same 404. At this point, the React version of the VA.gov 404 is still in experimental design and is therefore subject to changes. [Experimental design ticket](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/2912)
 
-## 500 Internal service error component
-Guidance coming soon.
+[Figma file](https://www.figma.com/design/m992k2m1DSl9MXV9hDytsQ/MHV-Account-Security-%26-Access-Standards?node-id=915-33082)
+
+<details><summary>404 Page not found for VA.gov</summary>
+<img src="https://github.com/user-attachments/assets/f62d1256-f9c9-41ad-9af4-9b62e2baddf1" />
+
+</details>
+
+## 500 Internal service component
+There are two versions of the 500 component copy; one provides basic guidance to users to recover (refresh browser) and can be used in any scenario in which the basic guidance would be the same. The other version is only a template and teams that need to deviate from the basic guidance will need to write their own copy to help users recover from the error. The intention behind creating two versions is to explicitly sanction and encourage teams to write their own copy when specific instructions would be helpful to the user. 
+
+On the question of placement: This error component should appear after the page's H1 and lede text (if applicable) and before any other content on the page.
+
+[Figma file](https://www.figma.com/design/m992k2m1DSl9MXV9hDytsQ/MHV-Account-Security-%26-Access-Standards?node-id=753-3)
+
+<details><summary>Messages' Inbox page: 500 **with** guidance</summary>
+<img width="928" alt="image" src="https://github.com/user-attachments/assets/e2b47c05-510b-4ac8-9e04-1e0f3faf8c68" />
+</details>
+
+<details><summary>Messages' Inbox page: 500: **no** guidance</summary>
+<img width="930" alt="image" src="https://github.com/user-attachments/assets/754d38c3-6356-4d2d-8e04-3045f0547960" />
+</details>
+

@@ -2,29 +2,46 @@
 <br>
 
 ## Pattern Outcome 
-The Data Grid v2.0 pattern enables the product team to customize grid interactions. After interacting with the data, the user is able to synthesize the information and make decisions about next steps.<br/>
+The Data Grid 2.0 pattern will have more interaction capabilities. The consumer of this pattern will be able to customize interactions for their user experience.
 <br>
 
 ## Requirements in scope
-1. exposing list of interactions
-2. sticky column view (aka column stays in view during horizontal scrolling)
-   - [see slack for this priority agreement ](https://dsva.slack.com/archives/C04DMDC3TS8/p1734548335437739)
-   - important for a11y
-3. adding, deleting, and editing rows
-   - https://muhimasri.com/blogs/add-remove-react-table-rows/
-4. cell editor for select
-5. cell editor for date picker (aka date selection affordance)
-6. visual tagging in the table
-7. reordering columns (dragging and dropping columns)
-   - https://tanstack.com/table/latest/docs/guide/column-ordering
-8. quick filter (aka multi-selection filtering) (need to validate the variant)
-   - https://borstch.com/snippet/implementing-multi-select-filters-in-react-tanstack-table
-9. Meets accessibility scores by WCAG 2.1 (Section 508) (update to 2.2)
+- **P1:** prioritized into scope. Must have. 
+- **P2:** not in scope. Can be explored for smaller scope. Can be contributed back by product teams.
+- **P3:** not in scope. Can be contributed back by product teams.
+
+| Affordance  | Requirement | User Story  | Priority Level  | Status  |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+|   | Meets accessibility scores by WCAG 2.2 (Section 508)  | When consuming the Data Grid pattern, I want to enable accessibility affordances so that all user types are able to interact with my product.  | P1  | In Progress  |
+| Table state  | exporting state  | As a Data Grid user, I need to access the current state of the table and return its value so that I can use it.  | P1  | Complete  |
+| Table state  | importing state  | As a Data Grid consumer, i need to restore the grid to a previous state so that I can return to the desired grid state.  | P1  | Complete  |
+| Filter  | Programmatically accessing client side filter  | As a data grid developer, I need to be able to use filters function from the toolbar so that I can interact with the table  | P1  | Complete  |
+| Filter  | programmatic filter options  | As a datagrid developer, I want to select among existing filters so that I can interact with the datagrid data without writing those filters myself  | P1  | In progress  |
+| Row interactions  | custom row IDs  | As a data grid developer, I need to be able to configure the row IDs for my table so that I can more simply interact with the data in my database  | P1  | In progress  |
+| Row interactions  | create a hook on row click (selected row)  | As a data grid developer I need the value of a row that was clicked to be returned to me so that I can use that information  | P1  | In progress  |
+| Row interactions  | return column info with row  | As a data grid developer, I need the onCustomRowModelChange prop to return information about the column as well as about the row  | P1  | Not started  |
+| Row interactions  | programmatically apply selected to a row  | As a data grid developer, pass a rowID and apply a select indicator on the select row  | P2  | Out of scope  |
+| Row interactions  | Programmatically return a row record  | As a data grid developer, I need to able to programmatically select a row so I can interact with it directly  | P2  | Out of scope  |
+| Header row  | sticky header  | As a data grid user, I want the header row to be always sticky so that I can reference it as I scroll vertically  | P1  | Not started  |
+| Managing columns  | making columns sticky  | When a column is pinned, I want that column to stay on the page so that I continue to reference it as I am horizontally scrolling  | P1  | In progress  |
+| Managing columns  | Client side moving column (drag & drop)  | As a user of the data grid, I need to able able to drag and drop columns so I can reorganize columns in a different order  | P1  | In progress  |
+| Managing columns  | column reordering  | As a data grid user, I want to reorder the columns so that I can adjust the context of my information  | P2  | Out of scope  |
+| Column a11y  | accessible column name for pinned columns  | As a screen reader user, I need to know if a pinned column is pinned so that I can navigate in the table header  | P1  | Not started  |
+| Managing errors UI  | Show errors  | As a data grid user that makes an incorrect input or interaction, I want to receive feedback so that I know to make the necessary update  | P1  | In progress  | 
+| Colors for metadata tagging  | Color Status Tag Indicators based on Lung RADS  | As a data grid user, I want to have a reliable color system so that I that the LCS information is easily and consistently conveyed  | P1  | In progress  |
+| Colors for metadata tagging  | Color Status Tag Indicators based on Lung RADS  | (technical spike) Assess if tag component is able to be inside of the table in the data grid  | P1  | Not started  |
+| Colors for metadata tagging  | Tagging & Colors in Data Grid  | As a data grid user, I want to have a reliable color system so that the information is easily and consistently conveyed  | P2  | Out of scope  |
+| A11y for search  | indicate that the search "autocompletes" for Screen Reader  | As a user using a Screen Reader, I need an indication that Search "autocomplete" upon typing so that I know what to expect when using the search field. [part of 508 compliance]  | P1  | Not started  |
+| Delete row  | Client side delete row  | As a user of the data grid, I need to be able to delete a row so that I can remove irrelevant info  | P2  | Out of scope  |
+| Selecting multiple rows  | create a hook on multiple rows click (selected row)  | As a data grid user, I need a hook that returns the row value for each selected rows so that I can reuse that data outside of the data grid  | P2  | Out of scope  |
+| Selecting multiple rows  | Programmatically accessing selected row(s)  | As a data grid developer, I want to getAllSelected  | P3  | Out of scope  |
+| Edit row  | Client side row edit  | As a data grid user, I need to be able to edit an entire row's data so that I can change all fields inside of a given row  | P2  | Out of scope  |
+| Sorting  | sorting  | Ensure the ability to pass custom sorting functions to the colDef  | P2  | Out of scope  |
+| Managing the column definition  | Data Grid onChange logic at the column definition level  | When using the Data Grid, I want to have a function to save data at the cell level so that I can retrieve information about the data that has changed  | P2  | Out of scope  |
+| Managing the column definition  | Grid options changes (changing column definition array on the fly)  | (user story needs refinement)  | P2  | Out of scope  |
+| Add a row  | Client side add row  | As a data grid user, I want to add rows to the table so that I can add new information  | P2  | Out of scope  |
+| Add a row  | Pragmatically insert row in the data set  | As a data grid developer, I want to programmatically add rows to the table so that I can interact with it directly  | P2  | Out of scope  |
 <br>
-
-## Not in Scope
-
-
 
 ## Pilot Partners
 ### 1. Lung Cancer Screening (LCS)

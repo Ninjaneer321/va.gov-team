@@ -7,15 +7,15 @@ April 2024
 ## Background  
 This document is a part of the discovery that took place in Spring 2024, but focuses only on findings from Veteran user research.
 
-Separating it from t[he main discovery document](https://docs.google.com/document/d/15GAoSNIlhfXOkz8dKGUtZU0wVk2VHGMdmMJ_sPKmah4/edit) to improve findability.
+Separating it from [the main discovery document](https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/Shared%20Documents/Disability%20Benefits%20Experience/7%20-%20Projects/2024%20Submission%20Experience/Discovery/UX%20and%20Systems%20Discovery%20-%20526%20Submission%20Experience.docx?d=w5ae740489dd9484f88aebded25eafd46&csf=1&web=1&e=QKCK6J) to improve findability.
 
 ## Relevant links
 
 1.  [Initiative brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/product/feature-briefs/Submission%20Experience.md)
     
-2.  [“Submission Experience” project on Zenhub roadmap](https://app.zenhub.com/workspaces/disability-benefits-experience-team-1-63dbdb0a401c4400119d3a44/roadmap?project=z2lkoi8vcmfwdg9yl1byb2ply3qvodiymty) and epics underneath it
+2.  [“Submission Experience” project on Zenhub (outdated) roadmap](https://app.zenhub.com/workspaces/disability-benefits-experience-team-1-63dbdb0a401c4400119d3a44/roadmap?project=z2lkoi8vcmfwdg9yl1byb2ply3qvodiymty) and epics underneath it
     
-3.  [Spreadsheet of resources used in discovery](https://docs.google.com/spreadsheets/d/1j9hnf0MBEMYxOYkPgev-AgRYPZW25ghICd8gKGtEp8o/edit?gid=0#gid=0)
+3.  [Spreadsheet of resources used in discovery](https://dvagov.sharepoint.com/:x:/r/sites/vaabdvro/Shared%20Documents/Disability%20Benefits%20Experience/7%20-%20Projects/2024%20Submission%20Experience/Discovery/%28Partial%29%20Resource%20List%20-%20526%20Submission%20Experience.xlsx?d=wc0fa90b4ddfd4c4ea5840a39019b590a&csf=1&web=1&e=T0fHbO)
     
 
 ## Key Findings from Past OCTO research

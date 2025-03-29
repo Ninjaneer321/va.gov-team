@@ -13,6 +13,8 @@ If you are new, check out the [Onboarding Checklist](https://github.com/departme
 ## Annotations
 ### Conditions
 - [Conditions - Info Entry flow](https://www.figma.com/design/P6IUm8gN00H3Yi1XzN80fj/(526ez)-Condition-information-entry?node-id=538-16948)
+- [Conditions - Apple Prototype - Full Flow with Updates](https://www.figma.com/design/P6IUm8gN00H3Yi1XzN80fj/(526ez)-Condition-information-entry?node-id=1673-103033&t=x7XRdVo84N7t0w42-0)
+- [Conditions - Recommended Secondary Claims Flow](https://www.figma.com/design/P6IUm8gN00H3Yi1XzN80fj/(526ez)-Condition-information-entry?node-id=1733-22541)
 
 ### Disability Benefits Team 1
 - [Disability Benefits Team 1 - New Confirmation page](https://www.figma.com/design/qyTtKDOTHZPGU59PAfqVhq/(526ez)-New-Confirmation-Page-and-Email-Touchpoints?node-id=8187-81090&t=p3ziITq3Qpe50Ovs-4)
@@ -26,7 +28,8 @@ Internal accessibility training sessions held for DBEX Team 1 & Conditions
 - [12/13/2024 A11y 101: Screenreaders part 1 video](https://dvagov.sharepoint.com/sites/vaabdvro/_layouts/15/stream.aspx?id=%2Fsites%2Fvaab[…]pied%2Eview%2Ed84d7add%2Df31e%2D4340%2D92a9%2De108c05415d8) &  [slides](https://dvagov.sharepoint.com/sites/vaabdvro/_layouts/15/stream.aspx?id=%2Fsites%2Fvaab[…]pied%2Eview%2Ed84d7add%2Df31e%2D4340%2D92a9%2De108c05415d8)
     - 30 minute session on screenreader basics. The recording starts a few minutes/slides in. Led by [@bacitracin](https://github.com/bacitracin)
  
-- Upcoming: 2/7/2025: A11y 101: What's WCAG? The Web Content Accessibility Guidelines
+- [2/7/2025: A11y 101: What's WCAG? The Web Content Accessibility Guidelines video](https://dvagov.sharepoint.com/:v:/s/vaabdvro/Eb05vd2tZbFFvxpT3pTrYTYBfl_H2GWoIAYcZTs5l4dbwA?e=97dEbR) and [slides](https://dvagov.sharepoint.com/:p:/s/vaabdvro/EbtRDiLo8XBIotqUUGZbQecBPdRm_rV1zarA2ybtCzzlNQ?e=sSmTr9)
+    - 30 minute overview of the Web Content Accessibility Guidelines that we use as the standard at the VA. Led by [@bacitracin](https://github.com/bacitracin)
 
 ## Assistive Technology Research
 ### Conditions
@@ -44,4 +47,4 @@ Internal accessibility training sessions held for DBEX Team 1 & Conditions
 ### VA Platform docs
  - [VA Platform Developer docs - Accessibility](https://depo-platform-documentation.scrollhelp.site/developer-docs/accessibility-testing)
  - [What accessibility tools we use](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/shared-support/accessibility/documentation/what-accessibility-tools-we-use.md) - This documentation, created by a previous incarnation of the CAIA team, covers the tools used for testing accessibility, particularly during accessibility audits.
-- [CAIA's Accessibility Cookbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/CAIA/accessibility/accessibility-cookbook.md) - CAIA's record of common accessibility issues and their solutions
+- [ADE's Accessibility Cookbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/ADE/accessibility-cookbook.md) - Record of common accessibility issues and their solutions

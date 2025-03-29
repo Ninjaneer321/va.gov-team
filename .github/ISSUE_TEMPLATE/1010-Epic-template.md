@@ -3,7 +3,7 @@ name: 1010 Epic Template
 about: For the 10-10 Health Enrollment team
 title: "formID - initiative"
 labels: 1010-team
-assignees: hdjustice
+assignees: 
 
 ---
 
@@ -32,27 +32,6 @@ _Which Objective / Key Result does this epic push forward?_
 ---
 ## Acceptance Criteria/Definition of Done
 -  _What will be created or happen as a result of this story?_
-
-
----
-
-```[tasklist]
-### Tasks
-- [ ] Research
-- [ ] Design
-- [ ] Team review & signoff
-- [ ] UI update
-- [ ] Team review & signoff
-- [ ] BE update
-- [ ] QA
-- [ ] Team review & signoff
-- [ ] End to end testing
-- [ ] Release Plan
-- [ ] Cypress test suite
-- [ ] Team review & signoff
-- [ ] Launch to Prod
-- [ ] Update Source of Truth
-```
 
 ---
 ## How to configure this issue

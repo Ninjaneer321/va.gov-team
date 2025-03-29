@@ -1,5 +1,316 @@
 # Running Design and Research Agenda
+## March 24 2025
+ - Attendees: Jamie Fiore, Premal Shah, Jina Ryu, Renata Keck, Andrea Merril, Mike Mooney, Amanda Klaumeiser
+     - ### Agenda Topics
+     	- UX Road Map review
+      	- Review quick win items
+       	- Add design work updated on [roadmap](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1703106781604/56e2a5cb39c72e3faad25bcb94496ecdd92ccb35?wid=0-1741640006712)
+       	- Have we asked engineering if we can pull in direct deposit info for FMP claims?
+       	- Review CHAMPVA Claims update plan for combat early claims submissions
+       	- Review OHI/Claims form (How/when to introduce this to CHAMPVA Partners)
+       	- High level review of Supporting Docs
 
+   - ### Notes
+   	- **UX roadmap review, quick win items**
+
+		-   Team to send over OHI/10-10d merge Figma files in Slack for async review (top item in the NOW column)
+		-   Now larger product roadmap has integrated design/research work
+		-   Low effort/high impact work column in now/next/later board is a product of earlier planning with the team, Premal and Lois, coming out of [post-research impact analysis](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1728573604115/353d2bc111ecf4c0e81e8fa30f9bd232d6e8c379) from a user testing [findings report](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/research/users/2024-04-Usability-Accessibility%20Test/1010d-research-report.md)
+		    -   Reminder that these should only be pulled in if there's a "half day" or less effort involved in these tickets, it's important to stay focus on long-term higher priority initiatives
+   	-   **FMP claims**
+		-   Jina asks about engineering pulling in FMP claims direct deposit. We discussed multiple approaches: one option was a content update, but other options we discussed included whether we could pull in that information from VA Profile
+		    -   Team to demo this after daily standup tomorrow discuss with engineers so it's ready for sprint planning on Wednesday
+		    -   Premal reminds the team that this isn't an authenticated experience so the content will be important to the form experience regardless of which approach we take
+		-   Design is wrapping up ([ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105600)) with [content updates](https://www.figma.com/design/WYZCqWcS2gJWIqLtmQlvl7/FMP-Claim-Cover-Sheet-(10-7959f-2)?node-id=5373-35006&t=H0UrFKfcXXpZ2XP1-1), and engineers will pull that in soon
+		-   Direct deposit for FMP claims goes through the Veteran (the Veteran fills out the form and it's their bank account). More straightforward than CHAMPVA claims
+   	-   **CHAMPVA supporting docs**
+		-   Updates: stakeholder research done, documented questions, [prototypes](https://www.figma.com/design/UmAtr3ULQEInMXfNFwP0g0/Application-for-CHAMPVA) to be reviewed in sync next week and user research planning to start next sprint
+		-   Premal would like to know what added value we will gain from research with users (reconfirm the "who") so we have the right folks from stakeholders on the call
+		-   Previously we spoke with Luke and Scott and got a lot of flexibility to our approach. Now there's more structure in how they want supporting docs submitted digitally (one format/one way).
+		    -   Keep in mind in research planning: how does this rigidity affect the outcome for the Veteran/user? Is there a poorer outcome for them? Are these stakholder preferences or firm requirements?
+   	-   **10-10d form improvements (contact and address content)**
+		-   Moving forward with CAIA on improving hint text content (what users should expect sharing contact and address, and why it's being asked). [Figma mocks](https://www.figma.com/design/UmAtr3ULQEInMXfNFwP0g0/Application-for-CHAMPVA?node-id=4877-110208&t=ZF9MzyNPdWiZytOy-1) 
+   	-   **CHAMPVA claims (standalone) updates**
+
+		-   Context: Based on stakeholder call last week, we know users shouldn't submit claims before they're formally enrolled (but it's possible folks will). Post stakeholder call, UX met to discuss [immediate and short-mid-longterm solutions](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1742221275311/1794184f6793a8f3f1a91a54447817403dc39fec) both for submitting before enrollment, and resubmission. 
+		-   Short-term solution for submitting claims prior to enrollment: [same solution as the standalone OHI form](https://www.figma.com/design/Tfhq5h2LwXEeEEtFBAAFOv/CHAMPVA-Claims-(10-7959a)?node-id=3676-59072): subtask pattern as a gate, plus adding an alert on the static page about when to use this form. Jina/Jamie note that "have you received a CHAMPVA benefits enrollment packet?" question may be a better phrasing than "are you enrolled?" since that's the milestone users need to reach in order to submit claims. Enrollment and 10-10d submission could be misconstrued.
+   		- Feedback to consider:  
+		    -   Consider a reminder to users how long it typically takes before receiving an enrollment packet so we're not directing users to call the the call center
+		    -   Within the mocks, more clearly separate/delineate 1. steps for those who haven't applied and need to, 2. what users who have and are waiting on the enrollment packet should do
+		-   Long-term approaches: use VES to expose an endpoint to confirm enrollment, or using a reporting API from PEGA to match identifying information. The issue with the latter is that they wouldn't have a record of approval, just that someone has submitted an application.
+		    -   FYI: VES isn't going to do this until event bus is complete (ETA November)
+	-   **CHAMPVA claims/OHI merge**
+		-   Premal notes positive feedback from CHAMPVA partners on this initiative, good idea to bring this work in.
+		-   Jamie mocked up an initial user flow [(Mural)](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1742587704512/2f52651158001ead7e9d44738a1b4a6d14a9cd1b)
+		    -   Plan is to present best bets/options to stakeholders after we've gotten past launch and claims resubmission work in now/next
+
+   
+## March 17 2025
+ - Attendees: Jamie Fiore, Premal Shah, Jina Ryu, Rachel Pope, Renata Keck, Andrea Merril, Mike Mooney, Amanda Klaumeiser
+     - ### Agenda Topics
+      	- UX roadmap
+      	- Review the OHI subtask screens for the standalone form
+      	- Review the latest OHI/ 1010 merge changes
+      	- Review FMP direct deposit changes on the Claims forms
+      	- Review the gathered stakeholder research for supporting doc and discuss open questions
+   - ### Notes
+	- UX roadmap
+ 		- Claims Resubmissions
+   			- Are we looking at CHAMPVA Enrollments resubmissions as well?
+      			- Premal has seen Veterans talk about resubmitting the 1010d application in Reddit.
+         		- How often do we see this happening?Want to know the numbers of resubmitted applications (in the past month, 550 people have resubmitted applications online)
+           		- How does this affect the backlog? Let's ask our CHAMPVA partners about this. It might be a simple content change. 
+
+ 		- Action Items:
+   			- Get more numbers on resubmission. Michael has some data on the CHAMPVA duplicate applications.
+      			- Create a ticket for 1010d application resubmission and add to resubmission initiative in UX roadmap \
+
+
+	- CHAMPVA application conversion rates
+ 		- [From numbers from Luis](https://dsva.slack.com/archives/C08EA85SHE2/p1741967208107579): form completion rates are around 30%. What is the industry standard? This sounds low and we could do better (we can ask across OCTO, but healthcare apps is around 50-60%).
+   		- Can we find out which screen they are dropping from? Let's pinpoint where the abandonment is happening so we can determine some quick wins.
+ 
+	- Action Items:
+		- Jina to check DOMO to find top 3-5 exits points
+ 		- Pull work on this issue into next or later column
+- Review the OHI subtask screens for the standalone form
+	-  Jamie had some discussions with CAIA around changes to the static page (follow up meeting 3/18/25) around IA changes
+ 	-  Fast followup is adding subtask logic to make sure users know that this form is for OHI updates and not initial application
+  	-  Content in Figma has not been reviewed by CAIA yet, but a ticket has been opened
+
+	- Action Items:
+ 		- Ask CAIA if we can use an alert for the subtask flow since we want to really make sure that Veterans know they're about to use the wrong form.
+   		- Ask about priorities and how quickly we can get sign off and implement these designs.
+     		- Ask CAIA whether the IA changes are just difficult to implement ASAP
+       		- Map out the screen flow ahead of the CAIA meeting tomorrow, identifying the points of confusion.
+         	- Add a userflow with pain point / points of confusion to help facilitate the conversation
+
+- Review the latest OHI/ 1010 merge changes
+	- Each applicant has to complete the OHI, so it has to fit into a certain place within the form: Need to keep the OHI form in the Applicant stepper
+ 	- Minimal header ([guidance](https://design.va.gov/components/header/header-minimal)) - to update or not update across the entire form?
+  		- The headers are busy with a lot of text, and the H1 can't be changed. Would this be jarring for screen readers?
+    		- A lot of tech/ux debt if we update this, because we would have to update across all of our screens/forms
+      		- Does the user care about the H1/ which form they are filling out?  User research showed that users may not care about this as much.
+        	- H1 area isn't really read by users, as noticed in prior research.
+         	- The Minimal header be consistent within the CHAMPVA application but won’t be consistent across all CHAMPVA forms until we update those.
+          - We should remove the 2nd page in the OHI flow: “Would you like to provide OHI?”
+         	 - It’s not necessary because we aren’t changing the H1 anymore. Also we want users to submit the OHI at the same time as the CHAMPVA application so we shouldn’t present them with the choice at this point.  \
+
+	- Action Items:
+ 		- Check with engineering about the lift to implement the minimal header (for 1010d and OHI) and scope it to see whether it will be part of our initial release or future improvements
+   		- Check PRA guidance on forms labelling. It may require that we need to let users know that they are filling out another form with the form. Consider putting this in the submission page if it makes sense.
+     		- Add feedback on minimal header to research plan
+       		- Create 2 minimals headers versions: 1 for the just the application and 1for the application with OHI
+         	- Remove the 2nd page in the OHI flow “Would you like to provide OHI?”
+
+- Review FMP direct deposit changes on the Claims forms
+	- Reviewed the figma: The Direct Deposit content and experience will show online if logged in.
+ 	- Reviewed an alert pattern that shows with the in-form editing. This alert will clearly let the users know that their bank info will update across all forms.
+  	- Launch date for FMP claims is early May
+  	- Rachel notes that we haven't implemented pushing address updates to VA Profile yet. If we're able to, move in the direction of adding that capability. We confirmed that we can pull the bank info to display in the form \
+
+
+	- Action Items:
+		- Let's make the experience consistent with the 526 and travel pay patterns by adding the prefill alert. If we can't do that immediately, we need a MVP to go out in the initial launch
+ 		- Ask engineers if we can link up to the right API to push that update to all other forms.
+  		- Define MVP design if we can't push out the preferred/optimal version of the alert and update for the initial launch.
+
+- Review the gathered stakeholder research for supporting doc and discuss open questions
+	- Will drop the questions in slack. If we are comfortable with them we can ask stakeholders the open questions in the 3/18 meeting
+
+
+## March 10 2025
+ - Attendees: Jamie Fiore, Premal Shah, Jina Ryu, Rachel Pope, Renata Keck, Andrea Merril, Mike Mooney, Amanda Klaumeiser
+     - ### Agenda Topics
+      	- UX roadmap
+      	- Review the UX roadmap
+      	- Ongoing discussion: OHI interim solutions (update IA + static/intro pages?)
+      	- Rescheduling design sync
+      	- discuss options for direct deposit content in FMP
+      	- Identify any topics for stakeholder meeting with FMP team on Wednesday (this can be done async if we don't have time)
+
+   - ### Notes
+     	- UX roadmap
+     	  - Look through 1010d/OHI integration mocks as a team before declaring it ready for dev
+     	  - Premal: concerned about the length of the form and experience. Wants to make it as streamlined as possible. Jina has experience with unmoderated prototype testing in Optimal Workshop, will follow up with her about possibly running that.
+     	  - Amanda: interested in designing during a claim, having OHI embedded and prefilled with whatever is already in the system
+     	  - Action item: update the now/next/later to be more at the epics level to communicate initiatives in-progress
+     	  - Include the IA work on the OHI. This is important to resolve soon.
+     	- Ongoing discussion: OHI interim solutions (update IA + static/intro pages?)
+     	    - Short term
+     	 		- Mark standalone OHI as for updates only, not initial application (HIGH priority, per Premal) <- Action item: taking to CAIA office hours tomorrow (include Jina on CAIA OH invite). Ask CAIA during office hours about removing the link on the static page and adding a message on the intro page for the form about when to use it 
+     	   	- Long term
+     	   		- Merge and make required with 1010d
+     	   	 	- Merge and make optional in a claims submission
+     	   	  	- And then we might be able to review the link on the static page.
+     	   	  	- Premal to talk to the business to make sure OHI forms are now getting thrown away and the form that are coming in now are just for updates.  
+
+
+     	- Discuss options for direct deposit content in FMP
+     		- Designers will send direct deposit updates for FMP async 
+     	- Rescheduling design sync
+     		- Andrea will reschedule
+     	 	- Premal can be optional after Mike is comfortable with relaying info from these meetings to him. Amanda and Jina will need to attend.
+     	  	- Perhaps set up a Zoom call via A6’s account so it’s easier to share screens
+    - ### Action Items
+    	- Update the links on the tickets and reorganize the UX roadmap to include larger initiatives grouped with individual tickets
+    	 - Discuss the OHI link on the 1010d static page removal with CAIA at office hours.
+    	 - Send direct deposit updates for FMP async to Premal
+    	 - Find a time to reschedule the Design Sync     
+
+     		
+ 
+ 
+     	   
+
+## February 24 2025
+ - Attendees: Jamie Fiore, Lois Lewis, Jina Ryu, Rachel Pope, Luis Simauchi
+     - ### Agenda Topics
+     	- UX roadmap
+     	- Review FMP Blueprints
+     	- Review Updates on the CHAMPVA application and OHI process questions
+     	- Upcoming data analysis needs for research
+     	- Review with the flow of CHAMPVA Claims
+
+     - ### Notes
+     	- UX roadmap
+      		- OHI interim solution. Premal would like to see a progression from the proposed interim to final to decide if we should move forward with an interim solution or pursue the full merge.
+        	- Service Blueprints including the CHAMPVA application revisions are complete. Will review the Service Blueprints with their respective partners in the upcoming weeks:
+         		- 2-26-25: [FMP Registration](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1726509235996/ff111e83b48f92992985959ac9da581b955278b5?wid=0-1739474922274)
+           		- 3-4-25: [CHAMPVA  Application/ OHI](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1723309711950/72864bacb39ee1c8cd48f80735b6f6994a72b6ca?wid=877-1740102312426)
+           		- 3-5-25: [CHAMPA Claims](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1723309711950/72864bacb39ee1c8cd48f80735b6f6994a72b6ca?wid=877-1740102312426)
+           		- 3-12-25 [FMP Claims](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1726509235996/ff111e83b48f92992985959ac9da581b955278b5?wid=0-1739474922274)
+     	- Review FMP Blueprints
+      		- Jamie gave a review of the FMP service blueprint
+        	- The goal is to confirm the processes that are mapped out for accuracy with the FMP partners. The Designer’s questions for the partners are marked in the yellow stickies on the [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1726509235996/ff111e83b48f92992985959ac9da581b955278b5?wid=0-1739474922274).
+         	- On the call, Premal will introduce our goal for creating these blueprints to the partners.
+          	- *Question:* Should we make claims on the call because it's fresh in their minds? We will try to touch on this if time permits. Premal will check if someone from claims will be on the call.
+          	- FMP claims is still not 100% in production so discussing the the claims as a part of the service blueprint calls may derail the conversation
+
+     	- Review Updates on the CHAMPVA application and OHI process questions
+      		- Jamie to work these questions on [the Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1734537770114/c43159bce476eaee8e52f597201223934411963b?wid=0-1738617772074) during the review of the CHAMPVA application service blueprints on 3-4-25
+        	- We discussed each question as a group, revised them and made notes on which to ask.
+ 
+     	- Upcoming data analysis needs for research
+      		- Question: How do we utilize data analysis to discover more insights on OHI to prepare us for the merge and future iterations?
+        	- We have CSAT surveys which Andrea should have.
+         	- We can share via SLACK with PII scrubbed.
+         	- Premal can share CSAT surveys via our VA.gov emails
+          	- We may want to utilize RUM and other analytics that our team has access to do some research on how users upload docs
+          	- We all agree that we need to streamline the document uploads on the 1010d. We all are leaning towards just requiring everything but would like to have some more research to support this.
+          	- There are some basic research questions on the [Research Planning Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1734718276719/2519a072b8fcd048659b4e146c7ba9bf73158871?wid=0-1736971900898). 
+ 
+     	- Review with the flow of CHAMPVA Claims
+      		- Issues that Lois has found while reviewing the form on staging:
+        		- There is something weird happening on the headers for the EOB upload. Designers should take  a look at it. Jamie also mentioned it is difficult at first glance to determine if the EOB upload is different from the billing statement upload. We may want to revisit that at some point.
+          		- *Question:* Why do we have the sponsor first on the claim? We believe it was a carry over from the CHAMVPA Application.
+            		- *Question:* Why are we asking to confirm eligibility for the sponsor? We believe it was a carry over from the CHAMVPA Application as well
+              		- The CHAMPVA member has no place in the form. For the short term we may change it to just capture the SSN. Engineers will need to coordinate with Designers to update the UI.
+                	- CHAMPVA may no longer be using the SSN as the CHAMPVA member number. We will look at this when it changes.  
+ 
+     - ### Action Items
+     	- Rachel to mockup or present the OHI/1010d merge interim solution and compare it to the full merge.
+     	- Designers to coordinate with the engineers on the update to the CHAMPVA member number question on the Claims forms
+      	- Designers look into the issues found on the CHAMPVA staging review and discuss it with the team. It should be documented on the figma file as well.
+       	- Premal to send the CSAT surveys to the designer’s VA emails.
+       	- Designers to work with Luis on the research data needed on Supporting Document Upload
+
+
+## February 18 2025
+ - Attendees: Jamie Fiore, Lois Lewis, Andrea Merrell, Bo Altes, Jina Ryu, Rachel Pope, Luis Simauchi
+     - ### Agenda Topics
+         - UX roadmap
+         - CHAMPVA Application/Claims Blueprints
+         - FMP Blueprints/Thoughts on the meeting with FMP Claims last week
+         - 1010D/OHI merge stakeholder research
+	 - Contact questions for CHAMPVA
+
+     - ### Notes
+         - UX roadmap
+          	- Putting focus on service blueprints work and OHI interim merge solution 
+         - CHAMPVA Application/Claims Blueprints
+          	- Lets revisit the blueprint on a regular basis to make updates and the process evolves. It needs to be a living doc
+          	- We work  in the VES backend mapping on a future blueprint. There is a recording on the demo available to help with this.
+           	- Premal, Lois and Rachel will send their notes to Jamie to compile and determine changes needed. 
+
+         - FMP Blueprints
+         	- We completed the first revision of the FMP application blueprint. We still need to fill in a lot of gaps with the stakeholders
+          	- Jamie to send out the link to the FMP application blueprint to Premal and Lois
+           	- Designers are working on the FMP claims portion of the blueprint this week which will capture a higher level process from Adam’s demo
+          
+	- Thoughts on the meeting with FMP Claims last week
+ 		- Adam stated that they just need one pdf for each claim submission
+   		- Multiple claims seems like it will work but we will need to revisit with the PEGA to see if they can manage the docs appropriatel
+     		- We need to think about how this news might apply to the CHAMPVA Claim. Keep in mind that there is a little more complexity with the EOB and secondary insurance with CHAMPVA Claims to think about. 
+
+         - 1010D/OHI merge stakeholder research
+         	- We need to think about when it is the right timing to have these conversations now that we need to move fast on an interim solution. We can put some of these conversations after OHI is released.
+         	- We may need to have some smaller conservations about the interim solution as well.
+          	- We could use this time to ask about why we collect certain insurance info and if we need all of this info?
+           	- Consider working these questions into the blueprint service conversations with them.
+           	- Consider during the next CHAMPVA meeting we can go over what our merge plans are with them. They seem more concerned with how the data gets over to them rather than the new U
+           	- Build up a user story surrounding this but talk about what they should be prepared for during each phase in terms of enrollment processing and data.
+           	- We should come up with a solid staged plan for the CHAMPVA app/OHI integration. 
+
+	 - Contact questions for CHAMPVA
+  		- Ask more about if we have different applicants (main applicants vs the dependents) who are receiving what.
+    		- Email may be an ineffective way to ask these questions. We should schedule this during our regular meeting with them and walk them through the questions using visuals (the paper form and/or the digital form.paper form and walk them through this.
+      		- Consider adding these improvements while we are working on the OHI interim solution
+   
+
+     - ### Action Items
+     	- Lois will get Luis up to speed on IVC data capture.
+        -  Premal and Bo can introduce Luis to our Datadog
+        -  Jamie to send an agenda to CHAMPVA partners prior to the meetings.
+        -  Set up more automations to cancel meetings with no agenda items.
+        -  Premal, Lois and Rachel will send their notes form teh CHAMPVA service blueprint meeting with the partners to Jamie to compile and determine changes needed.
+        -  Jamie to send out the link to the FMP application blueprint to Premal and Lois. Lois and Premal to review the mural and leave comments. We can talk more during next weeks sync 	
+
+
+## February 10 2025
+ - Attendees: Jamie Fiore, Lois Lewis, Andrea Merrell, Bo Altes, Jina Ryu
+     - ### Agenda Topics
+         - UX roadmap
+         - Entry point decision for OHI launch
+         - What Lois learned re: IA for FMP + OHI
+         - Research Workshop with CHAMPVA partners on OHI/1010d merge
+         - Thoughts on the latest 1010d OHI Merge
+
+
+     - ### Notes
+       - UX roadmap
+           - Included more work on the CHAMPVA/FMP service blueprints in the next column
+           - Jina did some [work on the FMP direct deposit](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1738102756013/35b161555725af4051c763f264312d980eff7e4d) in the next column  so designers need to review her work before pointing our ticket
+           - Supporting Docs stakeholder research in the next column but may move to the later column if the service blueprint works overtakes it. 
+           - Continued work on the 1010d/OHI merge and 1010d improvements
+       - Entry point decision for OHI launch
+           - OHI is now pulling ahead of FMP in terms of priority
+           - No strong feelings on the approach we take on entry points
+           - We may have contact for CAIA (Randi) to work on react widgets
+           - Discussed supported as a standalone form or do we want it on the 1010d but Mikki (CAIA) stated that can’t put a form out there with an orphaned page. The OHI form must link to other relevant forms (meaning the 1010d)
+           - We are considering doing a fast follow to update the 1010d with small tweaks and content updates to accommodate the OHI being live
+           - Create ticket for looking into the interim solution with the least amount of engineering work
+       - What Lois learned re: IA for FMP + OHI
+           - Mikki (CAIA) has correct URLs, redirect and breadcrumbs
+           - The difference between CHAMPVA (family benefits) and FMP (Veteran Healthcare) is that FMP needs to be in a “manage your benefits” area of the site and CHAMPVA is in a “get your benefits/file a claim” are of the site
+           - FMP needs to have an engineering ticket to update the IA on FMP
+           - In the future we need to make sure we have before we need to go into staging review.
+           - Make sure CHAMPVA claims it has the correct IA in place. We should already have in the CHAMPVA family member benefits IA but we should double check.
+           - When we merge OHI or move CHAMPVA to the new authenticated experience we will need to rework IA with CAIA.
+           - Links shared:
+             - [FMP IA Github](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/ia-design-docs/foreign-medical-program-claim.md)
+             - [CHAMPVA IA ]([https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/ia-design-docs/foreign-medical-program-claim.md](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1702677961676/13148d7aadd948a857eaa8fe5e04f6a9b09c3f9e))
+       - Thoughts on the latest 1010d OHI Merge
+           - Designers need to look for a reference on how to format and where to ask yes/no health questions with the form
+           - I think we can remove the Medicare Part A and B with prescription. Medicare Part D would be the same thing
+           - We should clean up the flow at some point so it’s easier to follow. Reference the Healthcare team’s files
+           - Not sure where the HI selector would be based on the current flow. Designer should demonstrate that on the Figma
+           - Need to remove the list and loop for insurances because there are engineering and UX problems when it’s nested in another loop. We can treat it as the current OHI figma does (with no loop but a duplicate of insurance questions to capture data about an applicant's secondary insurance). We do need to represent these extra insurance screens on the figma file
+           - Double check the eyebrow headers. They aren’t consistent with the work done the 0781/526 work.
+           - Shared some more [research on Forms with a Form](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/3712) for designers to review
+       - Research Workshop with CHAMPVA partners on OHI/1010d merge
+           - Discussed briefly on the structure of the workshop Starting with some basic background context, our research and the flow of the current vs merge form process
+     
 
 ## January 27 2025
  - Attendees: Jamie Fiore, Rachel Pope, Lois Lewis, Andrea Merrell, Bo Altes, Premal Shah, Jina Ryu

@@ -1,5 +1,5 @@
 # Flagged Facilities
-Last updated: 5/8/2024
+Last updated: 3/3/2025
 
 The Facilities Team is responsible for ensuring that VA.gov presents the latest correct data available about a Facility. 
 The Drupal CMS Helpdesk is responsible for communicating with Editors about changed Facilities, where relevant. 
@@ -16,7 +16,8 @@ The Facilities team and Drupal CMS Helpdesk work together to process information
   * The [Flagged Content view](https://prod.cms.va.gov/admin/content/facilities/flagged) should be maintained with an "inbox zero" goal. 
 * **Helpdesk**: needs to review that queue and create Github tickets using the appropriate [Runbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/flagged-facilities.md#runbooks) below, based on the type of facility, and type of flag.  
   * If Helpdesk does not have bandwidth, alert Facilities team and ask for help creating Github tickets.
-  * https://github.com/department-of-veterans-affairs/va.gov-cms/issues/13624 will eventually create a Flag to track which Flagged facilities don't have Github tickets. Until then: Helpdesk can keep track of the process for creating Github tickets however they like, using "Stefanie's spreadsheet" or otherwise.
+  * https://github.com/department-of-veterans-affairs/va.gov-cms/issues/13624 will eventually create a Flag to track which Flagged facilities don't have Github tickets. Until then: Helpdesk can keep track of the process for creating Github tickets however they like.
+  * The [Flagged Facilities kanban board (Github Projects)](https://github.com/orgs/department-of-veterans-affairs/projects/1461) tracks the status of related tickets, in terms of addressing flagged changes.
 * Then: **Helpdesk and Facilities** all follow the Github runbook tickets. 
   * Within each runbook ticket, the steps required by Helpdesk (specifically), Drupal engineering, or "Drupal Admin" (which could be either engineers or Helpdesk) are articulated, in order. 
   * Each new sprint, tickets related to flagged facilities will be prioritized, at the discretion of the Facilities PO, relative to other sprint priorities.
@@ -34,7 +35,7 @@ Flags are determined via Drupal CMS config files, e.g.
 The "⏳ Awaiting ..." flags are applied while working the Flagged Facilities in the [Flagged Content view](https://prod.cms.va.gov/admin/content/facilities/flagged). They are secondary and should never be the only flags on a facility.
 * "⏳ Awaiting Editor" should be applied by Help Desk while awaiting approval, confirmation that a new homepage draft is ready for review, or holding off until a specific date when the facility's status can be changed.
 * "⏳ Awaiting Redirect" should be applied by a CMS Engineer, as a step in the URL Redirect workflow in the [URL Change runbook](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/new?assignees=&labels=Facilities%2C+Drupal+engineering%2C+Flagged+Facilities%2C+Redirect+request%2C+URL+Change%2C+User+support&projects=&template=runbook-facility-url-change.md&title=URL+Change+for%3A+%3Cinsert+facility+name%3E).
-* "⏳ Awaiting CSV" should be applied by Help Desk or a CMS Engineer, as described in multiple workflows.
+* "⏳ Awaiting CSV" is no longer a usable flag, and will be removed via [#13624](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/13624)
 
 ## Runbooks 
 When a Facility is flagged, the facility type and the nature of the flag will determine the runbook that should be used to mitigate the flag. 

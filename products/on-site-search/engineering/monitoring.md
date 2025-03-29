@@ -1,11 +1,19 @@
 # VA.gov Site Search Monitoring
 
 ## Table of Contents
-1. [DataDog Monitoring](#datadog-monitoring)
+1. [Search.gov health](#searchgov-health)
+2. [DataDog Monitoring](#datadog-monitoring)
    - [Search.gov is Down](#searchgov-is-down) - Monitors critical errors affecting Search.gov, including forward proxy failures and API issues.
    - [VA.gov Might Be Experiencing Abnormal Usage Patterns](#vagov-might-be-experiencing-abnormal-usage-patterns) - Tracks unusually low usage patterns that may indicate underlying system problems.
    - [VA.gov is Experiencing High Error Rates](#vagov-is-experiencing-high-error-rates) - Ensures the operational status of vets-api and the VA.gov user interface, monitoring for high error rates that might indicate outages.
-2. [Adrian's Triage Video](#adrians-triage-video) - Provides a video walkthrough for triage processes related to these monitors.
+3. [Adrian's Triage Video](#adrians-triage-video) - Provides a video walkthrough for triage processes related to these monitors.
+
+## Search.gov health
+
+Per Search.gov we have 2 ways to check their status: 
+1. https://search.usa.gov/healthcheck - returns `OK` if the API is up
+2. https://search.gov/status.html - Infrequently updated, and not typically updated live during an outage
+
 
 ## DataDog Monitoring
 
@@ -32,8 +40,24 @@
 - Query: ```logs("service:vets-api @message_content:\"BackendServiceException: {:source=>\"Search::Service\", :code=>\"SEARCH_503\"}"").index("*").rollup("count").last("5m") > 1```
 - Timeframe: 5 mins
 
-**Triage:**
-- Contact Search.gov if extended outage, update maintenance banner as needed.
+#### Triage
+1. Check https://search.gov/status.html for any status updates. (They don't maintain it much, not fully accurate, but good to check just in case)
+2. Check if the Search.gov API endpoint is up / responsive by trying to `curl` the endpoint. Access key will be required to get a successful response, but even a validation error of `{"errors":["access_key is invalid"]}%` indicates the endpoint is alive:
+   - Existing endpoint: https://search.usa.gov/api/v2/results/i14y
+   - New endpoint we'll use after [#18736](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/18736) is resolved: https://api.gsa.gov/technology/searchgov/v2/results/i14y
+   - Example curl: 
+```
+curl -G "https://search.usa.gov/api/v2/search/i14y" \
+     --data-urlencode "affiliate=va" \
+     --data-urlencode "access_key=none" \
+     --data-urlencode "query=verteran" \
+     --data-urlencode "offset=0" \
+     --data-urlencode "limit=10"
+```
+3. Check Search APM in datadog for the [SearchController resource](https://vagov.ddog-gov.com/apm/resource/search/rack.request/72b7d62abdbc2323?query=env%3Aeks-prod%20operation_name%3Arack.request%20service%3Asearch&env=eks-prod&summary=qson%3A%28data%3A%28visible%3A%21t%2Cchanges%3A%28%29%2Cerrors%3A%28selected%3Acount%29%2Chits%3A%28selected%3Acount%29%2Clatency%3A%28selected%3Alatency%2Cslot%3A%28agg%3A95%29%2Cdistribution%3A%28isLogScale%3A%21f%29%2CshowTraceOutliers%3A%21t%29%2Csublayer%3A%28slot%3A%28layers%3AserviceAndInferred%29%2Cselected%3Apercentage%29%2ClagMetrics%3A%28selectedMetric%3A%21s%2CselectedGroupBy%3A%21s%29%29%2Cversion%3A%211%29&traces=qson%3A%28data%3A%28%29%2Cversion%3A%210%29&start=1740501980089&end=1740505580089&paused=false). Narrow to the error window, and under "Deployments" check the Error Rate column. If error rate is >40%: 
+    - Enable the Search maintenance flipper: https://api.va.gov/flipper/features/search_gov_maintenance
+    - Contact Search.gov: search@gsa.gov, cc PO / PM / DM. Include timing when outage started, and ask for any details about Search.gov outage or maintenance that might have led to our outage. 
+    
 
 ### VA.gov Might Be Experiencing Abnormal Usage Patterns
 #### VA Search Usage - [composite] - Abnormally Low Usage of VA Search

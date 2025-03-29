@@ -2,7 +2,7 @@
 
 ## Foundational Artifacts
 [Journeys of Veterans Map](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf) (VEO, 2019?) 
-[Disability Compensation Veteran Experience Journey Map](https://drive.google.com/file/d/1mfigVlDd70gKihsY8T6mE60NhLXlk_z-/view?usp=sharing) (VEO, 2023) + [Additional version](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/discovery/2017-discovery-sprint/output/journey-map/veteran-journey-disability-claim-11x17-anonymous-9.4.17.pdf) (2019)
+[Disability Compensation Veteran Experience Journey Map](https://dvagov.sharepoint.com/:b:/r/sites/vaabdvro/Shared%20Documents/Disability%20Benefits%20Experience/0%20-%20Veterans%20%26%20the%20526ez/JourneyMap_V16_20230119.pdf?csf=1&web=1&e=TdKNln) (VEO, 2023) + [Additional version](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/discovery/2017-discovery-sprint/output/journey-map/veteran-journey-disability-claim-11x17-anonymous-9.4.17.pdf) (2019)
 
 **Related to VA employee processing of claims:**
 - [VSR journey map](https://app.mural.co/t/nava4113/m/nava4113/1629127127393/79eff6cd37a254993bb9907aa80a50fcc47716a3?sender=ua6bf216e03489400c6664986) (VRO, 2021) + [Report on Notion](https://www.notion.so/Aug-2021-VSR-Journey-Research-0a94b3a68deb469b992275f6ddab40be) + [Report on Sharepoint](https://dvagov.sharepoint.com/:w:/s/vaabdvro/EWnhesCqQGVOswr_HUKRgMUBJU7dn5g2JMEg_PqV6Isl_w?e=r9jO9h) 
@@ -30,7 +30,7 @@
 - [April 2021](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/archive/research/mar-2021/526_Usability_test(BDD%20enhancements)May21.pdf) (usability for Benefits Delivery at Discharge enhancements)
 - [Aug 2021](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/archive/research/July-2021/Findings%20526%20Usability%20Test%20Aug%202021.pdf) (usability)
 - [Nov 2021](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/archive/research/Nov-2021/Discovery%20Form%20526.pdf) (form length and form abandonment)
-- [2023](https://drive.google.com/file/d/1oaVYAXiTtxYUfQbsjYIwTJmpwUW969wm/view?usp=sharing) (heuristic review)
+- [2023](https://dvagov.sharepoint.com/:i:/r/sites/vaabdvro/Shared%20Documents/Disability%20Benefits%20Experience/5%20-%20Research%20and%20Design/2016-2021%20Research/526%20Disability%20Claims%20Heuristic%20Review%20Board_2023-02-08_17-13-53.png?csf=1&web=1&e=vn0zZw) (heuristic review)
 
 **Research about related forms (not 526)**
 - [0781](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/archive/design/781-781a-ptsd/cm-mvp-usability-readout-0781and0781a.pdf) PTSD - [Oct 2018](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez/archive/research/781-781a), [Dec 2018](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/archive/design/781-781a-ptsd/cm-mvp-usability-readout-0781and0781a.pdf) usability, [Feb 2021](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/archive/research/nov-2020/FindingsForm526PTSD.pdf) 

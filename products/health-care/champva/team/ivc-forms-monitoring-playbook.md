@@ -54,7 +54,7 @@ Resolution
   
 ## Missing Supporting Documents
 
-_In addition to this section, also consult [Resolving Missing PEGA Status Issue](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/resolving-missing-pega-status.md) for more technical details._
+_In addition to this section, also consult [Resolving Missing PEGA Status Issue](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/resolving-missing-pega-status.md) and [On Call Procedures](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/team/on-call-procedures.md) for more technical details._
 
 In the event that one or more supporting document meant to accompany a user's submission does not reach S3, the following steps should be taken (in addition to all other actions listed in the [Steps section](#steps):
 
@@ -62,8 +62,11 @@ Investigation
 - Collect the attachment IDs of all documents associated with the given form submission (via the Production vets-api database)
 - Collect the attachment IDs of documents missing a PEGA status within that batch
   ```ruby
-  # Production console in Argo CD
-  form_and_attachments = IvcChampvaForm.where(pega_status: nil)
+  # Create an instance of the production support helper class (only need to do once per console session)
+  msc = IvcChampva::ProdSupportUtilities::MissingStatusCleanup.new
+
+  # Collect and display any submissions with missing statuses
+  missing = msc.get_missing_statuses
   ```
 - Provide the full list of attachment IDs and their PEGA statuses to the PEGA team for analysis
  - The PEGA team will provide the applicant name and the batchID to the VA.gov team.

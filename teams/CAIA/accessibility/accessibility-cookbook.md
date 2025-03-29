@@ -1,3 +1,10 @@
+> [!CAUTION]
+> ## This information is out of date
+> **2/20/2025:** CAIA accessibility is now the ADE team. This information has moved to our new ADE folder.
+> 
+> New link: [Accessibility cookbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/ADE/accessibility-cookbook.md)
+
+
 # Accessibility cookbook
 
 ![Julia Child with a wooden hammer held aloft, happily grinning as she is about to smash something she is cooking in a TV kitchen.](https://raw.githubusercontent.com/department-of-veterans-affairs/va.gov-team/master/teams/CAIA/accessibility/bin/julia-with-hammer.jpg)
@@ -440,6 +447,7 @@ Sending focus to the legend may cause the heading to be read multiple times depe
 
 ### Further Reading
 
+* [Foundations: grouping forms with `<fieldset>` and `<legend>`](https://tetralogical.com/blog/2025/01/31/foundations-fieldset-and-legend/)
 * [Use legend and fieldset (Adrian Roselli)](https://adrianroselli.com/2022/07/use-legend-and-fieldset.html)
 * [Styling options for labels and fieldsets (Gov.UK)](https://design-system.service.gov.uk/get-started/labels-legends-headings/#styling-options-for-labels-and-legends)
 * [Fieldsets, Legends and Screen Readers again (TPGi)](https://www.tpgi.com/fieldsets-legends-and-screen-readers-again/)
