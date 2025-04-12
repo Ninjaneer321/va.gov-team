@@ -100,16 +100,20 @@ _What are the measurable targets you're aiming for that delivers value for Veter
 
 ## Solution Approach
 
-- *What are you going to build now, and why have you decided to start there?*
-- *Why this solution / approach over other solutions / approaches?*
-- *What have you explicitly decided to not include in this initial set of functionality, and why?*
-- *How will the solution / approach evolve after this initial build (knowing that this will likely change as you learn from users along the way)?*
+- New flow within the 526 disability claim for just the 0781 mental health questions that is available in all claims going forward. Veterans will no longer have to add PTSD as their condition in order to answer mental health questions. 
+- Does not include a new section for requesting medical records speicifically for mental health. The effort was too large of a scope for the MVP. Instead we were able to use the existing supporting evidence questions and added a feature to track if they were related to any mental health conditions. 
+
 
 ### Initiatives
 *Include initiatives (iterations, new features, etc.) to improve this product.
-
-
-
+- Toggle switch that will direct users with new claims only down the new 0781 questions path
+- A list and loop section for traumatic events
+- A separate section for behavioral changes
+- Questions regarding supporting documents related to mental health conditions
+- Questions regarding treatment received for traumatic events and behavioral changes
+- Tracking if traumatic events were treated at either or both VA and private medical providers
+- Destruction action notifications 
+  
 --- 
 
 ## Launch Strategy
@@ -143,8 +147,10 @@ Create a new 0781 online form that will match the newest paper version of the PD
 ## Screenshots
 
 ### Before
+See [526 Form Flow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1686768383603/3f4415dd2ddb71bbd104ebefd92a2c7b553ad792)
 
 ### After
+See [0781 Mental Health Paper Sync](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1742838742470/a65aef904518076608009f57241cfa96874485a8) for screen shots and flow diagrams. 
 
 ---
 
@@ -163,7 +169,9 @@ Create a new 0781 online form that will match the newest paper version of the PD
 #### Team Members
 
 <details>
- 
+
+Release: 
+
 - Prod Manager: Lisa Capaccioli
 - Delivery Lead: Amy Plange
 - Des/Res Lead: Ruben Sun
@@ -173,6 +181,13 @@ Create a new 0781 online form that will match the newest paper version of the PD
 - Full Stack Eng: Alison Jones
 - Full Stack Eng: JR Reed
 - Lead Eng: Kyle Soskin
+
+Previously
+
+- Des/Res: Julie Pedtke
+- Des/Res: Nichole Nicholas
+- Des/Res: Jina Ryu
+- Full Stack Eng: Sam Stuckey
 </details>
  
 #### Stakeholders
@@ -192,8 +207,8 @@ Disability Benefits Crew:
 - [Story Mapping Board](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1718308823134/02c2c9ea74f16b276692af8f31eb65202acc7928?wid=0-1719930043260)
 - [Figma 0781 redesigns](https://www.figma.com/design/r3Aj9FtLFS989mlVeBsgJg/0781-Redesign?node-id=9856-83462&t=us3dJI6ZkhtJ0Wz8-4)
 - [Figma 0781 redesigns-final](https://www.figma.com/design/r3Aj9FtLFS989mlVeBsgJg/0781-Redesign?node-id=8144-135894)
-- [Draft - 0781 Field Mapping Tracker](https://docs.google.com/spreadsheets/d/1pdJ5W-dJ56ysxrtkWl8d6Rsurf2nxXDqb8-7C9oGwcg/edit?gid=354068332#gid=354068332)
 - [Final -0781 PS Field Mapping.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/0781%20Paper%20Sync/0781%20PS%20Field%20Mapping.md)
 - [Final - 0781 PS New SubURL.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/0781%20Paper%20Sync/0781%20PS%20New%20SubURL.md)
 - [0781 Paper Sync Staging Test Plan](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/staging-test-accounts-526EZ-0781-mental-health.md)
-- [0781 Mental Health Paper Sync Screenshots and Flow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1742838742470/a65aef904518076608009f57241cfa96874485a8?showAddTemplatePopup=true)
+- [0781 Mental Health Paper Sync Screenshots and Flows](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1742838742470/a65aef904518076608009f57241cfa96874485a8?showAddTemplatePopup=true)
+- [Architecture](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez/0781%20Paper%20Sync/Diagrams)

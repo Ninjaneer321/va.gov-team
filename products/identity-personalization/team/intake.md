@@ -1,110 +1,75 @@
-**Updated 09/07/2023:** incorporated team feedback
+**Updated 4/3/2025:** cleaned up document, added in informational sections
 
-# Authenticated experience intake form
+# Authenticated Experience Team Intake Process
 
-`2nd DRAFT`
+`3rd DRAFT`
 
 ## Our Team 
 
 Before you submit an intake ticket, we want to make sure you’re in the right place. 
 
-The Authenticated Experience team has two main products My VA and Profile. Profile is the frontend used to allow users to update important information. My VA is a dashboard that seeks to surface relevant, actionable, time sensitive information to veterans about different VA benefits. We’re not VA Profile, the backend system does support us but is a different team. We’re not MyHealtheVet as our products support many different benefits, not exclusively healthcare. 
+### Who we are:
+The Authenticated Experience Team has two main products: My VA and VA.gov Profile.
+- Profile is the frontend used to allow users to update important information.
+- My VA is a dashboard that seeks to surface relevant, actionable, time sensitive information to users about different VA benefits. 
 
-If you’re still here after our little explainer we’d like to know more about your project! 
+We also have two smaller products, Nametag and the Authenticated Menu.
+
+### Who we are not: 
+- We’re not VA Profile, which is a backend system that manages profile information, but is a different team. 
+- We’re not My HealtheVet as our products support many different benefits, not exclusively healthcare. 
 
 
-## Why you're here
+## Common Integration Documentation
 
-### Brief description of the work you'd like to collaborate on
+### For My VA
+- Save in Progress Forms Self Service (COMING SOON!)
+- Form Status Self Service (COMING SOON!)
+- Add or Change Content or Features on My VA (COMING SOON!)
 
+### For Profile
+- Add or Change Content or Features on Profile (COMING SOON!)
+
+
+## Our Intake Process
+1. Review Common Integration Documentation as related to the change you'd like to implement on My VA or Profile.
+   - If there is a task that you are attempting to complete but do not see documented let us know.
+3. Complete the intake ticket.
+4. Reach out to team on the #accountexp-authexp Slack channel for next steps.
+
+--- 
+Ticket! :
+
+Add Title: 
+Change Request: [name of change]
+
+Requestor's Name and Email
+
+PO's Name and Email 
+
+VA Team / slack channel
+
+Please explain what problem you are trying to solve 
+
+Which product will be impacted? 
+
+Which Features are Impacted 
+
+Please explain how this change would work?
+
+
+## Link us to all the relevant things: 
 - Can you share a link to a product/project outline, brief, or description
+- Figma Files
+- Research
 - What is the timeline, and what is driving it?
 - Link to your collab cycle
-- What do you need our team to support/collaborate on? _What are your specific questions_
-
-### What is the business outcome you're trying to achieve?
+- What do you need our team to support/collaborate on?
 
 
-## Relevant links
+Has this change been discussed with Auth Exp PO - Chante? 
 
-Please add links to any additional materials that can provide additional context to your request.
+Has the change been agreed upon by all impacted VA Stakeholders? 
 
-
-## Logistics
-
-- What slack channel do you live in?
-- Who are the stakeholders that need to be included?
-- Who are the partners that need to be included?
-- What is the timeline, and what is driving it?
-
-
-
-
-
----
-
-### Authenticated experience internal use
-
-- [ ] Follow-up with requestor to address any lingering questions/concerns
-- [ ] Schedule kick-off
-- [ ] Create tickets
-
-
-
-
-<details>
-<summary>Original</summary>
-
-# Authenticated experience intake form
-
-`1st DRAFT`
-
-## Who you are
-
-- Team name: *enter name*
-- VA product owner: *enter name*
-- Product manager: *enter name*
-- Product/team Slack channel, or alternative way to contact you: *enter*
-
-## Why you're here 
-
-### Brief description of the work you'd like to collaborate on
-
-### What is the business outcome you're trying to achieve?
-
-### Why is this important to Veterans?
-
-### How does this align with our VA North Star goals?
-
-## Request background
-
-1. Are there VA products or experiences that already address this or provide a similar feature?
-2. What other aspects of the VA digital ecosystem that will be impacted by this work?
-3. How have you validated the need for this work?
-4. If this is a new feature request, what work as been done so far?
-5. If this is a request for an update to an existing feature, which feature? Are there specific changes or updates you're proposing?
-
-## Logistics
-
-1. Who are the stakeholders that need to be included?
-2. Who are the partners that need to be included?
-3. What is the timeline, and what is driving it?
-
-## Relevant links
-
-Please add links to any additional materials that can provide additional context to your request.
-
----
-
-### Authenticated experience internal use
-
-- [ ] Follow-up with requestor to address any lingering questions/concerns
-- [ ] Schedule kick-off
-- [ ] Create tickets
-
-</details> 
-
-
-
-
+ Is there a hard deadline associated with this request? If so, can you please explain why this deadline is selected and potential impacts to the app or other services if this deadline is not met?
 

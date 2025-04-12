@@ -1,6 +1,119 @@
 # Running Design and Research Agenda
+
+## April 8 2025
+Attendees: Jamie Fiore, Jina Ryu, Amanda Klausmeier, Renata Keck, Andrea Merril, Mike Mooney, Rachel Pope
+
+- ### Agenda Topics
+	- UX roadmap review
+ 	- Review updates to 10-10d/OHI integration MVP (short-term UX roadmap, current/in-flight work, collab cycle and next steps)
+	- Supporting docs usability testing - plan and conversation guide are nearly done, a few questions to review with folks before those are wrapped up.
+	- School cert analytics
+	- FMP direct deposit
+ - ### Notes
+ - Roadmap Review
+   - Making progress on integration tickets
+   - Engineering team done with discovery work - will be mostly front end work
+   - Minimal headers will be worked on when list & loop updated for integration
+     -- This is captured in a ticket in the Next column
+   - FMP direct deposit content is being reviewed today -- will add another ticket for revisions if needed
+   - For Next column, work needed on Medicare branching
+   - May need to move 1010d work to the later column -- blocked until Content team reviews and responds
+   - May be helpful to include hard deadlines on the design tickets
+   - Additional UX work may be needed for applicant and signer relationship questions because VES doesn't support freeform fields
+   - * VES goes live in August, so this is not urgent
+     * Should discuss in stakeholder meeting
+     * Freeform fields are not on the paper form, so they can probably be removed
+  
+ - CHAMPVA/OHI Integration Mural
+   - Board had been cleaned up and recommended solution is starred
+   - Question on whether we need to prep anything for a research review and when that would be
+   - Should be shown in midpoint review
+   - * generally, designs are shown in midpoint and intention to do research can be shared at that time
+     * Shane can decide if he comes to the collab cycle meeting
+     * He can also review async
+
+ - Supporting docs research
+   - discussion of progress
+   - Jina would like OCTO design review to be on all design tickets for better tracking
+   - Can tag Jina and she will escalate to Amanda if needed
+     
+ - School Cert analytics
+   - Would like to know if people are dropping off at this step or submitting this with theis application so we can determine if we should require it or not
+   - Per Jina, metrics show a 97% exit rate at this upload (# of users exiting vs. # completing step)
+   - Would be good for UX team to see Medallia feedback
+   - * general frustration with uploads
+     * Jina will follow up with Luis on finding a way to share that info with the UX team
+
+ - FMP direct deposit
+   - Jina would like the Figma file to show only the updated screens to make it easier to read/find the updates
+   - For post-launch iteration, the direct deposit info is not presented consistent with other forms
+   - Jina will provide link to a form that has this design in it since there is no component to use
+  
+ - Other topics
+   - It would be good to have Medallia feedback shared in a way that is accessible to everyone rather than having Luis adding people all the time
+   - Partnership ticket between data and UX where Luis provides the data and the UX team writes a report
+
+## March 31 2025
+Attendees: Jamie Fiore, Premal Shah, Jina Ryu, Renata Keck, Andrea Merril, Mike Mooney, Rachel Pope
+
+- ### Agenda Topics
+	- UX roadmap review
+ 	- FMP
+  		- Content updates for direct deposit
+    		- Service blueprinting followup: registration/Claims pain points
+      	- CHAMPVA claims
+      		- Resubmission screener question
+      	- 10-10d
+      	 	- Supporting docs prototypes
+      	  	- Minimal header updates
+      	   	- OHI integration list&loop discovery
+      	   	  
+- ### Notes
+* Agenda Topics
+    * UX roadmap review
+        * No updates
+    * FMP
+        * Content updates for direct deposit
+            * Everyone agreed with using the [option 1](https://www.figma.com/design/WYZCqWcS2gJWIqLtmQlvl7/FMP-Claim-Cover-Sheet-(10-7959f-2)?node-id=5489-40502&t=dPmG3rcI15Pbh2aS-4) \
+
+            * Should we state “US Treasury check”, or just “check”?
+We all agree that “cover this claim” is too informal. We updated the text on the confirmation page to “If we approve this claim” from “cover this claim”. We will see if Content + IA has any issues with it.
+            * Would users that are not logged in need to know about Direct Deposit? According to the Service Blueprint, FMP will look for a domestic bank account regardless of log in status.  \
+            * Future state: Premal wants to eventually force log in so FMP can send EOB/ statuses via online/mobile. We are not sure how ID proofing via foreign IDs would work yet.
+         * **Action Items:**
+           * Check to see if the VA profile is what VBA is using for the reimbursements. Jina to send over this.
+           * Look in open slack threads about VBA profile content
+           * We need to add language to unlogged experience about direct deposit but consider that if they log in the middle of the form they will have to start over.
+
+        * Service blueprinting followup: registration/Claims pain points
+            * **Action Item:** Jamie to send the mural to group for async feedback
+
+
+        * CHAMPVA claims
+            * Resubmission screener question
+                * The screener question about receiving the enrollment packet is with CAIA We are trying to get this content back by Wednesday. The screener was meant to be a fast follow after launch until we are ready with the UI and PEGA to handle resubmissions online
+                * We cleared it with PEGA that we can to accept the resubmission and will should be a low lift. PEGA wont be ready until May or June.
+                * Premal wants to push them to CHAMPVA to process resubsmissions online quicker
+                * We may want to understand the orphaned form better. How big of an issue would be from CHAMPVA until we get the full resubmission process online.
+         * Action Item
+           * Add language about the resubmits for the form that were already submitted on the paper to discourage duplicates. Go over this with CHAMVPA partners on Wednesday
+        * 10-10d
+            * Supporting docs prototypes
+                * Rachel showed 3 options for handling supporting docs
+                * We will be removing the mail-in option for all
+                * We will need to review with the engineering team for feasibility of the supporting docs upload/summary page and how it would work with the list and loop 
+                * UX team would like to conduct A/B testing on users’ preference to upload their docs throughout the form after each coordinating question is asked or if they would rather like to upload everything at the end of form
+                * Jina may have GA research on supporting docs with dropoffs. We also have some preliminary user research but it’s not extensive.
+        * Action Item:
+          * Check the history of the school certification letter and why we removed it. Premal mentioned that there was an error on the school letter form and CHAMPVA may be adding it back in when it is updated
+          * Review the options with engineers for feasibility
+ * Minimal header updates
+   * Jamie will follow up with Jina async
+* OHI integration list&loop discovery
+  *  Renata to send a video walkthrough of the list and loop exploration user flows to gather feedback
+
 ## March 24 2025
- - Attendees: Jamie Fiore, Premal Shah, Jina Ryu, Renata Keck, Andrea Merril, Mike Mooney, Amanda Klaumeiser
+Attendees: Jamie Fiore, Premal Shah, Jina Ryu, Renata Keck, Andrea Merril, Mike Mooney, Amanda Klaumeiser
      - ### Agenda Topics
      	- UX Road Map review
       	- Review quick win items
@@ -11,7 +124,7 @@
        	- High level review of Supporting Docs
 
    - ### Notes
-   	- **UX roadmap review, quick win items**
+   - **UX roadmap review, quick win items**
 
 		-   Team to send over OHI/10-10d merge Figma files in Slack for async review (top item in the NOW column)
 		-   Now larger product roadmap has integrated design/research work

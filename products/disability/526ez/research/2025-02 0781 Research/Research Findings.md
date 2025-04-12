@@ -4,11 +4,11 @@
 
 Date: 03/27/25
 
-\[Evelyn Hilbrich Davis\] \[evelyn@cityfriends.tech\]
-\[Qian Chen\] \[qian.chen@coforma.io\]
-\[Ruben Sun\] \[ruben.sun@coforma.iol\]
+- [Evelyn Hilbrich Davis](evelyn@cityfriends.tech)
+- [Qian Chen](qian.chen@coforma.io)
+- [Ruben Sun](ruben.sun@coforma.iol)
 
-\[Research readout\](link here)
+Research Findings [PDF](https://github.com/user-attachments/files/19638877/0781.Research.Report.pdf) | [PPTX](https://github.com/user-attachments/files/19638878/0781.Research.Report.pptx)
 
 **Jump to:**
 
@@ -182,9 +182,12 @@ Organizational structure: Findings in this report are organized by goal. For eac
 
 * A few participants were confused by how behavioral changes related to traumatic events and evidence.    
   * P11 interprets behavioral changes as a continuation of traumatic events. She imagined the entire flow was in service of Event \#1.   
-  * Based on the structure of her past C+P exams, P12 thought behavioral changes needed to be linked to traumatic events and supported by evidence. 
+  * Based on the structure of her past C+P exams, P12 thought behavioral changes needed to be linked to traumatic events and supported by evidence.
+ 
+ 
+![Goal 1 - form flow](https://github.com/user-attachments/assets/d93b5710-4cf0-4792-821a-787a9e7feb6a)
 
-## 
+
 
 ### **Finding \#2: Mixed comprehension of 0781 supporting documents complicates overall positive feedback on section placement.**  
 
@@ -202,6 +205,7 @@ Organizational structure: Findings in this report are organized by goal. For eac
 
   * Note: The destructive action does not delete uploaded evidence; only a list of supporting documents types Veterans intent to submit with their claim (e.g. “Statement from family members or roommates,” “Personal diaries or journals”)
 
+![Goal 1_ 0781 flow](https://github.com/user-attachments/assets/dffc9e39-5773-4ae4-9065-33a83dfceecf)
 
   
 
@@ -244,6 +248,8 @@ Organizational structure: Findings in this report are organized by goal. For eac
   * I was going to say, \[because it\] hurt too much." \- P7, MST
 
   * I personally wouldn't, but I can see sometimes they might feel ashamed or vulnerable" \- P3, Combat
+
+![Goal 2_ Resolving the conflicting section validation error](https://github.com/user-attachments/assets/4147959b-47be-4a7a-8af8-3227293d0261)
 
     
 
@@ -299,6 +305,8 @@ Organizational structure: Findings in this report are organized by goal. For eac
 
   * As a result, we recommend collecting feedback on the flow/transition from Step 2 Conditions into Step 3 0781 in future research.
 
+![Goal 2_ optionality about mental health](https://github.com/user-attachments/assets/bd42b21a-5fdf-4bd4-a64a-ef43bce76e7b)
+
 ## 
 
 ### **Finding \#7: Most destructive action modals were clear and reinforced the informed choice Veterans were making.** 
@@ -320,6 +328,8 @@ Organizational structure: Findings in this report are organized by goal. For eac
   * “This is a nice touch. Just to have the pop-up box so you don't remove something and not realize you actually did it.” \-P2
 
   * P9 expressed that he appreciated the modal for cancelling an edit on a traumatic event. "Basically it gives you, ‘Hey, you're getting ready to delete everything–all those changes you made are going to be lost if you basically continue."
+
+![Goal 2_ Destructive action modals](https://github.com/user-attachments/assets/bc79e4bb-c266-4f3b-a767-083818b9160d)
 
 ## 
 
@@ -355,6 +365,8 @@ Organizational structure: Findings in this report are organized by goal. For eac
 
 * Those who did not find the opt out said they would delete each response from the accordion. 
 
+![Goal 2_ Opt opt choice and modal](https://github.com/user-attachments/assets/03705964-b1d2-4dc5-acdc-6ca802996cbf)
+
 
 # **Goal 3 Findings: Multi-response Pattern** 
 
@@ -362,12 +374,17 @@ Organizational structure: Findings in this report are organized by goal. For eac
 
 The checklist-detail pattern features a checklist followed by a detail page for each selected checkbox. Findings are focused on the behavioral changes context, where Veterans interacted with it most.
 
-* **Behavioral Changes:** Veterans select behavioral changes that impacted them, then give a description of each change on its dedicated page.   
+- **Behavioral Changes:** Veterans select behavioral changes that impacted them, then give a description of each change on its dedicated page.   
+  - Add mode: Reviewed by 9 participants  
+  - Edit mode: Reviewed by 6 participants
+
 * **Supporting Documents:** Veterans select supporting documents they have, then upload them on dedicated pages. 
 
 The multi-response pattern appears throughout the flow. Findings are focused on the traumatic events context, where Veterans interacted with it personally.
 
-* **Traumatic events:** Reviewed by Veterans in study  
+* **Traumatic events**  
+  * Add mode: Reviewed by 9 participants  
+  * Edit mode: Reviewed by 6 participants  
 * **VA medical records:** Not reviewed in study  
 * **Non-VA medical records:** Facilitator flythrough 
 
@@ -383,6 +400,9 @@ The multi-response pattern appears throughout the flow. Findings are focused on 
 
 * The structured data entry and hint text on the event detail page helped Veterans break down their thinking. One participant shared that they would take a screenshot of it if they needed to go back to add details later.
 
+  ![Goal 3_ Multi-response example](https://github.com/user-attachments/assets/4445a672-cabc-4c56-addb-d28dda91fa7b)
+
+
 ### 
 
 ### **Finding \#10: When editing, participants struggled to understand the interaction model.**  
@@ -391,23 +411,25 @@ The multi-response pattern appears throughout the flow. Findings are focused on 
 
 #### **Problem space (-)**
 
-* When participants clicked “Edit event” and were navigated back to the event detail page, they assumed  it was the only page within the event, forgetting about the official report flow. 
+* All participants clicked 'Edit Event' and assumed the event detail page was the only page for editing, forgetting the initial multi-page flow.
 
-* In a task to delete the police report they added earlier, participants scroll up and down the event detail page, unsure of where to find it. 
+* Due to this misunderstanding of the interaction model, Veteransthey were unable to find the official report on the next page of the flow when tasked with deleting it.
 
-  * None of the participants were able to locate and delete the police report within the flow. 
+* Participants scrolled through the event detail page but none were unable to locate or delete the police report.
+
 
 #### **Bright spot (+)**
 
-* Veterans easily completed the edit tasks that did not require understanding the pattern as multi-paged. 
+* 6 out of 6 Veterans easily completed other  edit tasks that did not require understanding the pattern as multi-paged. 
 
   * The multi-response card format facilitated easy editing from the summary screen. 
 
-    * Edit and delete actions from summary work as expected.
+    * Edit and delete actions from summary work as expected (6 out of 6 participants completed)
 
-  * The task to cancel an edit in progress was straightforward for users.
+  * The task to cancel an edit in progress was straightforward for users (6 out of 6 participants completed; 1 expressed confusion)
 
-## 
+
+
 
 ### **Finding \#11: The checklist-detail interaction model tripped up Veterans as they added and modified content.** 
 
@@ -415,21 +437,22 @@ The multi-response pattern appears throughout the flow. Findings are focused on 
 
 #### **Problem space (-)**
 
-* The relationship between the checklist and detail pages confused some users.
+* While adding behavioral changes, 5 out of 9 users had mixed understanding of how the detail pages were generated based on their checklist selections.
 
-  * In behavioral changes, 2 participants did not perceive the detail pages and navigated past them. 
+* In behavioral changes, 2 participants did not perceive the detail pages and navigated past them. 
 
   * In supporting documents, a few Veterans did not understand why they were seeing multiple upload screens after the supporting documents checklist
 
     * Note: There was an additional upload screen after the checklist-detail pattern that contributed to confusion. 
 
-* The "Edit behavioral changes" link from the summary screen unexpectedly directed participants back to the checkbox page instead of the detail pages.
-
-  * Despite initial confusion, a majority of users adjusted to the interaction model and were able to make the edit. 
+* All Veterans expected the "Edit behavioral changes" summary page link to direct them to edit detail pages–  not modify checkbox selections (6 out of 6 participants to complete edit tasks).  
+  * Despite initial confusion, a 4 out of 6 of users adjusted to the interaction model and were able to make the edit. 
 
 #### **Bright spot (+)**
 
-* The delete action was intuitive to Veterans. Participants uncheck the checkbox and navigate the destructive action with ease. 
+* 5 out of 6 participants were able to complete the delete action , unchecking the checkbox and navigating through the destructive action.
+
+![Goal 3_ Multi-reponse pattern plus](https://github.com/user-attachments/assets/0f70cefe-c9f7-4b9c-a86a-1e05de53a1b1)
 
 # **Additional Findings**
 
@@ -636,6 +659,7 @@ In the future testing of the 0781, we plan on prioritizing Veterans who are:
 * Captions: 0
 
   ## **Underserved groups we haven’t talked to**
+<img width="483" alt="who we spoke to" src="https://github.com/user-attachments/assets/ff46f9d0-4edc-482d-83b5-08fecce17a9d" />
 
   This research does not include the perspectives of the following marginalized Veteran groups: *List all groups in red from the spreadsheet*
 

@@ -1,6 +1,6 @@
 # Benefits Management Tools 1 Transition Hub
 
-**Updated X**
+**Updated 3.31.2025**
 
 **Note:** These Transition Docs are "point in time" documents, and may not reflect current progress, deployments or upcoming efforts.
 
@@ -41,10 +41,11 @@ The Rated Disabilities tool enables Veterans to view their combined disability r
 - [Staging link](https://staging.va.gov/claim-or-appeal-status/)
 - [Product folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/CST%20Product)
 - [Product outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/CST%20Product/Product%20Outline.md)
-- [Product Guide/Contact Center Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/product-guides/VA%20Claim%20Status%20Tool%20Product%20Guide%20v2.1%20SRT%2006262024.docx)
-- [Things to know](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/10-10EZ%20Form/10-10EZ%20-%20Things%20to%20know.md) 
-- [Stakeholder Meeting Notes](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/product/Bi-weekly%20Stakeholder%20Mtg%20notes)
-- [PM Resources folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/CST%20Product) 
+- [Product Guide/Contact Center Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/product-guides/VA%20Claim%20Status%20Tool%20Product%20Guide%20v2.1%20SRT%2006262024.docx) 
+- [VBA OBA Stakeholder notes](https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/Shared%20Documents/Benefits%20Management%20-%20CST/BMT%20-%20OBA%20Syncs%20-%20recordings%20and%20notes/BMT+OBA%20syncs.docx?d=w26d8a422385446899056f74d0f528db5&csf=1&web=1&e=1SWbi8)
+- [PM Resources folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/CST%20Product)
+- [Gap-Bet Scoring](https://dvagov.sharepoint.com/:x:/r/sites/vaabdvro/Shared%20Documents/Benefits%20Management%20-%20CST/BMT%201%20Gap-Bet%20Scoring%20Framework.xlsx?d=w06da960cab3b433282a414daaeb8fcff&csf=1&web=1&e=UNJbQB)
+- [Sharepoint files and resources](https://dvagov.sharepoint.com/:f:/r/sites/vaabdvro/Shared%20Documents/Benefits%20Management%20-%20CST?csf=1&web=1&e=r44Kqn)
 
 
 
@@ -54,7 +55,6 @@ The Rated Disabilities tool enables Veterans to view their combined disability r
 ### Product artifacts
 - [Claim Status Tool Data Flow Diagram](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1663867462895/b0161ab939bba7d08f6bea07e3663d9d5cea22d4)
 - [Upstream Service Contacts](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/CST%20Product/Service%20Contacts.md)
-- [Page/User flow](https://app.mural.co/t/adhoccorporateworkspace2583/m/adhoccorporateworkspace2583/1632923531828/474bfdde942c22a0df26ad416a0b23e36b834d4a?sender=u6ad375c1c8425e5bfec67027)
 - [Staging users](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/mvi-staging-users.csv)
 
 
@@ -62,21 +62,20 @@ The Rated Disabilities tool enables Veterans to view their combined disability r
 - Analytics dashboard: 
      - [CSAT Domo](https://va-gov.domo.com/page/1545882322) (sort by URL /track-claims)
      - [Google Analytics](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/bMzsgzMCT6yazCs5H-3N_g)
-- [Important Google Analytics Event Labels]
 - [DD CST Tracked Item Stats](https://vagov.ddog-gov.com/dashboard/p2a-9ii-9hz/claim-status-tool-statistics?fromUser=false&refresh_mode=sliding&from_ts=1742736772898&to_ts=1742823172898&live=true)
 - [DD CST Error Monitoring](https://vagov.ddog-gov.com/dashboard/8me-h86-qmb/benefits---claim-status-tool-dashboard?fromUser=false&refresh_mode=sliding&from_ts=1740231301942&to_ts=1742823301942&live=true)
 - [DD BMT Silent Failure Monitoring](https://vagov.ddog-gov.com/dashboard/pps-nf7-ppr/cst-zero-silent-failures-document-uploads?fromUser=false&refresh_mode=sliding&from_ts=1742736972052&to_ts=1742823372052&live=true)
 - [DD Letter's app Monitoring](https://vagov.ddog-gov.com/dashboard/86n-b39-hhn/benefits---management-tools---letters?fromUser=false&refresh_mode=sliding&from_ts=1742737025688&to_ts=1742823425688&live=true)
-- [Real User Monitoring (RUM) Dashboard](https://vagov.ddog-gov.com/rum/application/9d5155fd-8623-4bc9-8580-ad8ec2cdd7fa/overview/browser?from_ts=1676217734085&to_ts=1676304134085&live=true)
+- [Real User Monitoring (RUM) Dashboard](https://vagov.ddog-gov.com/rum/performance-monitoring?query=%40application.id%3A75bb17aa-34f0-4366-b196-eb11eda75425%20%40session.type%3Auser&fromUser=false&tab=overview&from_ts=1742842798052&to_ts=1743447598052&live=true)
 
 
 **Engineering**
-- [High level view of systems](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/engineering/10-10EZ%20High-level%20Architecture.png)
-- [Sequence Diagram](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/engineering/sequence-diagram.md)
-- [Application Diagram](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/engineering/architecture-diagram.md)
-- [Frontend developer README](https://github.com/department-of-veterans-affairs/vets-website/blob/master/src/applications/hca/README.md)
-- [Prefill fields engineering research](https://app.zenhub.com/workspaces/vsa---10-10-team-5fff0cfd1462b6000e320fc7/issues/department-of-veterans-affairs/va.gov-team/27278)
-- [Endpoints consumed and owned](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/engineering/Endpoints%20Information.md)
+- [High level view of systems](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1663867462895/b0161ab939bba7d08f6bea07e3663d9d5cea22d4)
+- [Silent Failures](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/engineering/testing-silent-failures)
+- [Engineering Onboarding Documentation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/claim-appeal-status/engineering/onboarding)
+- [Datadog README](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/engineering/DataDog/README.md)
+- [Engineering README - How to run the benefit management tools team services](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/engineering/README.md)
+
 
 **Design and Research**
 - [CST Design Resources](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/design/resources.md)
@@ -86,9 +85,7 @@ The Rated Disabilities tool enables Veterans to view their combined disability r
 - [CST Mural Room](https://app.mural.co/t/departmentofveteransaffairs9999/r/1613770853903?folderUuid=9e1456d1-4532-434c-b053-f7694afc5795)
 
 **Team resources**
-- [Team charter](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/team.charter.md)
 - [Github Project Board](https://github.com/orgs/department-of-veterans-affairs/projects/1549/views/3?filterQuery=design&visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C149737419%2C149737418%2C149737417%2C%22Labels%22%5D)
-- [Gap-Bet Scoring for Quarterly Planning]
 - [Accessibility documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/decision-reviews/accessibility/readme.md)
 - [Accessibility project board](https://github.com/orgs/department-of-veterans-affairs/projects/1255/views/1)
 
@@ -118,14 +115,18 @@ The Rated Disabilities tool enables Veterans to view their combined disability r
 - Evidence request email notifications
 
 ### Links
-- Outcome-driven roadmap
-- Decision letter notification feature roadmap
+- [Outcome-driven roadmap](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1689972542685/b1908130a4ad3abdaf8fc015052540a4e15d752e)
+- [Decision letter notification feature roadmap](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1738362677134/0bc3847c794b2d4f405723323b6d301323901859)
+
+### Other in-flight priorities
+- [Migrating to new file submission component](https://github.com/orgs/department-of-veterans-affairs/projects/1549/views/3?filterQuery=component&pane=issue&itemId=88731646&issue=department-of-veterans-affairs%7Cva.gov-team%7C87835)
+  
 
 <br>
 
 
-## Features and initiatives we worked on between April 1 2024 and March 31st 2025
-This table includes links to the individual feature directory and the latest iteration (doc or code) in design or development.
+## Features and initiatives we worked on
+This table includes links to the individual feature directory and the latest iteration (doc or code) in design or development for features and initiatives we worked on between April 1, 2024 and March 31, 2025.
 
 | Feature                                      | AKA                                        | Status                                                         |
 |----------------------------------------------|--------------------------------------------|----------------------------------------------------------------|
@@ -139,12 +140,13 @@ This table includes links to the individual feature directory and the latest ite
 <br>
 
 ## Enablement Team
-
-- Amy Lai | amy.lai2@va.gov - Product Owner
-- Julie Strothman | julie.strothman@va.gov - Design Lead
-- Cory Sohrakoff | cory.sohrakoff@va.gov - Engineering Lead
-- Zack Goldfine | zackary.goldfine@va.gov - Deputy CTO, Benefits Lead
-- Steve Albers |steve.albers@va.gov - OCTO Engineering Lead
+| Name            | Email                   | Role                           |
+|-----------------|-------------------------|--------------------------------|
+| Amy Lai         | amy.lai2@va.gov         | Product Owner                  |
+| Julie Strothman | julie.strothman@va.gov  | Design Lead                    |
+| Cory Sohrakoff  | cory.sohrakoff@va.gov   | Engineering Lead               |
+| Zach Goldfine   | zachary.goldfine@va.gov | Deputy CTO, Benefits Lead      |
+| Steve Albers    | steve.albers@va.gov     | OCTO Platform Engineering Lead |
 
 
 

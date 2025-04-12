@@ -15,47 +15,45 @@ Feature toggle
 
 Before enabling your feature toggle in production, you'll need to:
 
-- [x] Follow [best practices for QA](https://depo-platform-documentation.scrollhelp.site/developer-docs/qa-and-accessibility-testing).
-  - [x] [Link to Test cases/Test Rail](https://dsvavsp.testrail.io/index.php?/suites/view/11&group_by=cases:section_id&group_order=asc&display_deleted_cases=0)
-- [x] Have your team perform as much validation in staging as possible. Validation may be challenging for some teams and systems due to downstream requirements, but the staging system should mimic the production system as much as possible.
-- [x] Work any downstream or dependant systems proactively to ensure that the feature is ready for use once it hits production.
-   - [x] Confirm with Joshua Faulkner and team on End to End testing
-   - [x] Link to confirmation of successful transmission/processing
-- [x] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
-  - [x] review the plan with your DEPO/OCTO representative.
-  - [x] review the release plan with your team.
+- [] Follow [best practices for QA](https://depo-platform-documentation.scrollhelp.site/developer-docs/qa-and-accessibility-testing).
+  - [] [Link to Test cases/Test Rail](https://dsvavsp.testrail.io/index.php?/suites/view/11&group_by=cases:section_id&group_order=asc&display_deleted_cases=0)
+- [] Have your team perform as much validation in staging as possible. Validation may be challenging for some teams and systems due to downstream requirements, but the staging system should mimic the production system as much as possible.
+- [] Work any downstream or dependant systems proactively to ensure that the feature is ready for use once it hits production.
+   - [] Confirm with Joshua Faulkner and team on End to End testing
+   - [] Link to confirmation of successful transmission/processing
+- [] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
+  - [] review the plan with your DEPO/OCTO representative.
+  - [] review the release plan with your team.
 
 ## Step 3: Production rollout
 
 ### Define the Rollback process
 
 - PM and Data Analyst will monitor analytics. If they see a spike in errors or unexpected behavior, they will contact the engineering team to disable the toggle and begin triage.
-- We have a content widget for the static page that can be disabled with the feature toggle, in comjunction with the EZR form.
-- Have Content Team (Aliyah Blackmore) revert the Static Page to previous version, removing mention of online EZR
+- We will build out separate monitoring for EC/NoK as it is part of a different API
+- Reversing the toggle would simply remove EC/NoK from the EZR, pressumably eliminating the issue. The team would triage from there.
 
 ### Phase I: moderated production testing (also known as User Acceptance Testing, or UAT)
 
 #### Planning
 
 - Desired date range or test duration:
-     - 1.5 weeks - 11/13/23 - 11/21/23
+     - 1 weeks - DATE RANGE
 - Desired number of users:
-     - 5 participants
+     - ~1-2 participants
 - How you'll recruit the right production test users:
-     - Perigean recruiting
+     - OCTO and "friends and family" recruiting
 - How you'll conduct the testing:
-     - Moderated
+     - Give participants instructions
 - How you'll give the test participants access to the product in production w/o making it live on VA.gov:
-     - Feature Toggle 
+     - Feature Toggle enablement and direct link
 
 #### Results
 
-- Number of users: 10 Participants
-- Number of bugs identified / fixed: 2 bugs found, related to Forms Library. Will address in future iteration.
-  - [#70261](https://github.com/department-of-veterans-affairs/va.gov-team/issues/70261)
-  - [#70258](https://github.com/department-of-veterans-affairs/va.gov-team/issues/70258) 
-- Was any downstream service affected by the change?: NO
-- Any changes necessary based on the logs, feedback on user challenges, or VA challenges? NO
+- Number of users: X Participants
+- Number of bugs identified / fixed: X bugs found
+- Was any downstream service affected by the change?: TBD
+- Any changes necessary based on the logs, feedback on user challenges, or VA challenges? TBD
 
 ### Phase II: Staged Rollout (also known as unmoderated production testing)
 
@@ -64,8 +62,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
 #### Rollout Planning
 
 - Desired date range:
-     - 12/20/23 - 01/11/23
-     - Take two date range: 1/10/24-1/24/24
+     - TBD
 - How will you make the product available in production while limiting the number of users who can find/access it:
      - Feature Toggle limiting % of traffic to the application
 - What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?: 

@@ -8,42 +8,63 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 
 ## Quarterly Priorities for FY25Q3 (Apr, May, Jun 2025)  
 *Quarter Sprints include 5,6, 7, 8, 9, & 10*
-**Primary Goals (May shift based on stretch goal dependencies)**
+</br> **Primary Goals (May shift based on stretch goal dependencies)**
     
 | Priority ID | Description | S.Epic | Relevant Dates |  Notes |  End of Quarter Status |
 |-------------|---------------|-----------------|---------------|  ---------------|   ---------------| 
-| QP1 | **Zero Silent Failure Alignment:** Implement call back functionality and 3 email templates for asynchronous submission pattern|[#106206](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106206)  | Implement ASAP- before April 22, 2025 | Tied to OCTO Silent Failure Initiative  |--|
-| QP2 |  **One VA Debt Letter:** Launch in production| [#84175](https://github.com/department-of-veterans-affairs/va.gov-team/issues/84175) | Launch in Prodution Goal: ~~March~~ Early April 2025 | Legislative Requirement: Veterans Benefit Transition​ Act of 2018 ( year 7) |--|
-| QP3  | **Digital Debt Dispute (VBA):** Target Launch in production| [#82003](https://github.com/department-of-veterans-affairs/va.gov-team/issues/82003) | Target Launch in Production May 28, 25 |  | --|
-| QP4 | **Pay.gov Hosted Collection Page (HCP) for Overpayments:** Discovery & Design Prototyping| [#105733](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105733)  |  |  | --|
-| QP5 | **Mobile App:** Collaborate with IIR team to add overpayment debt information into mobile app experience |  [#106209](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106209) |  |  |--|
-| QP6 | **VBA Hardship Suspension:** Discovery & Design Prototyping | [#106207](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106207) |  |  | --|
-| QP7 | **VHA Repayment Plan (10-323)**:  Discovery & Design Prototyping| [#106208](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106208)|   |   |--|
+| QP1 | **Zero Silent Failure Alignment:** Implement call back functionality and 3 email templates for asynchronous submission pattern|[#106206](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106206)  | Implement ASAP- before April 22, 2025 | **[UX+BE]** Tied to OCTO Silent Failure Initiative  | |
+| QP2 |  **One VA Debt Letter:** Launch in production *| [#84175](https://github.com/department-of-veterans-affairs/va.gov-team/issues/84175) | Launch in Prodution Goal: ~~March~~ Early April 2025 | **[UX+FE+BE]** Legislative Requirement: Veterans Benefit Transition​ Act of 2018 ( year 7) |  |
+| QP3 |  **Update 5655 Wizard to new task flow:** Launch updates in production *| [#48133](https://github.com/orgs/department-of-veterans-affairs/projects/1514/views/6?pane=issue&itemId=88349041&issue=department-of-veterans-affairs%7Cva.gov-team%7C48133)|  | **[UX+FE]**  Dependent on CAIA team collaboration |    ||
+| QP4  | **Digital Debt Dispute (VBA):** Target Launch in production *| [#82003](https://github.com/department-of-veterans-affairs/va.gov-team/issues/82003) | Target Launch in Production May 28, 25 |**[UX+FE+BE]**   | |
+| QP5 | **One Thing Per Page** | [#106610](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106610)| | **[UX+FE]** Plan to extract 1TTP from VHA Payment History work to expedite implementation |  |
+| QP6 | **Pay.gov Hosted Collection Page (HCP) for Overpayments:** Discovery & Design Prototyping *| [#105733](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105733)  |  |**[UX]**  | |
+| QP7 | **Mobile App:** Collaborate with IIR team to add overpayment debt information into mobile app experience |  [#106209](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106209) |  |**[UX]** IIR team responsible for implementation - FM team with expertise in finance space to collaborate closely with IIR |   |
+| QP8 | **Veteran Request for Hardship Suspension (VBA):** Discovery & Design Prototyping * | [#106207](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106207) |  | **[UX]** | |
+
 
 
 **Stretch Goals (Known dependencies may impact)**
 | Priority ID | Description | S.Epic | Relevant Dates |  Notes |  End of Quarter Status |
 |-------------|---------------|-----------------|---------------|  ---------------| ---------------| 
-| QP8| **Payment History (VHA):** Progress development efforts and continue align with Lighthouse | [#18859](https://github.com/department-of-veterans-affairs/va.gov-team/issues/18859) | Goal to launch June 2025 or sooner | Tremendous User Value! Dependent on Lighthouse team collaboration to build API|   |--|
-| QP9 |  **Update 5655 Wizard to new task flow:** Launch updates in production| [#48133](https://github.com/orgs/department-of-veterans-affairs/projects/1514/views/6?pane=issue&itemId=88349041&issue=department-of-veterans-affairs%7Cva.gov-team%7C48133)|  |  Dependent on CAIA team collaboration |    |--|
+| QP9 | **VHA Repayment Plan (10-323)**:  Discovery & Design Prototyping *| [#106208](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106208)|   |**[UX]**   ||
+| QP10| **Payment History (VHA):** Progress development efforts and continue align with Lighthouse * | [#18859](https://github.com/department-of-veterans-affairs/va.gov-team/issues/18859) | Goal to launch June 2025 or sooner | **[UX+FE+BE]** Tremendous User Value! Dependent on Lighthouse team collaboration to build API|   ||
 
 ## Sprint Goals - Sprint: 5 [3/26/25 - 4/8/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
 |UX: Complete the March Medallia Report| QPX |--|--|--|
-|UX: Discovery meeting with Domo Dashboard Users| FY25Q2 QP4 |--|--|--|
-|UX: Finalize Medallia analytics data reports to run to inform satisfaction metrics| FY25Q2 QP4 |--| -- | -- |
-|ENG: Initial PR submitted for VA notify callback | QP1 |--|--|--|
-|ENG: Address the “must” accessibility feedback for the Once VA Debt Letter | QP2 |--|--|--|
-|ENG: Restart Digital Dispute work in preparation for Q3 priorities | QP3 |--|--|--|
-|ENG: Updates to FSR based off veteran feedback such as Removal of $70K limit to retirement funds | QPX |--|--|--|
-|ENG: Continue Josh’s access to critical systems and onboarding tasks | QPX |--|--|--|
+|UX: Discovery meeting with Domo Dashboard Users| FY25Q2 QP4 |--|04/07/25|Completed |
+|UX: Finalize Medallia analytics data reports to run to inform satisfaction metrics| FY25Q2 QP4 |-- | 04/07/25 | Completed |
+|ENG: Initial PR submitted for VA notify callback | QP1 |--|03/28/25|Completed|
+|ENG: Address the “must” accessibility feedback for the One VA Debt Letter | QP2 |--|04/07/2025|Completed|
+|ENG: Restart Digital Dispute work in preparation for Q3 priorities | QP3 |--|03/28/25|Completed|
+|ENG: Updates to FSR based off Veteran feedback such as Removal of $70K limit to retirement funds | QPX |--|03/28/25|Completed|
+|ENG: Continue Josh’s access to critical systems and onboarding tasks | QPX |--|--04/01/25|Completed|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (03/24/25)
  - [X] VA PO & COR sent the Sprint Goals (03/24/25)
  - [X] VA PO approved the Sprint Goals (03/25/25)
  - [X] VA COR approved the Sprint Goals (03/25/25)
+ 
+**_Delivery + Notes:_**
+- [X] All goals have been updated in the sprint chart
+- [ ] Any Additional details about goals **not** completed will be documented here
+
+## Sprint Goals - Sprint: 6 [4/9/25 - 4/22/25]  
+| Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|UX: Refine templates for Zero Silent Failure (Emails 1 & 2)| QP1 |--|--|--|
+|UX: Create prototypes for Wizard & Digital Dispute Usability Study| QP3 QP4 |--|--|--|
+|UX: Complete the Research plan step 1 for Wizard & Digital Dispute (Write guides) | QP3 QP4 |--|--|--|
+|ENG: Complete dev work for One VA debt letter and collaborate with Platform on PR’s| QP2 |--|--|--|
+|ENG: Complete the dev work for the Wizard new flow and be prepared for the release, pending CAIA Pages| QP3 |--|--|--|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [X] Ready to be sent for approvals (04/07/25)
+ - [X] VA PO & COR sent the Sprint Goals (04/07/25)
+ - [X] VA PO approved the Sprint Goals (04/09/25)
+ - [X] VA COR approved the Sprint Goals (04/09/25)
  
 **_Delivery + Notes:_**
 - [ ] All goals have been updated in the sprint chart

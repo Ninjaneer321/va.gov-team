@@ -1,9 +1,10 @@
 ---
 name: VA.gov Platform Infrastructure Team Sprint Plan
 about: Use this template for creating sprint plans.
-title: "Infrastructure Team Sprint [XX] Plan"
-labels: 
-assignees: joetice, kflow85, jwoodman5
+title: Infrastructure Team Sprint [XX] Plan
+labels: ''
+assignees: JoeTice, jwoodman5
+
 ---
 
 ### Infrastructure Team 2025 Vision Roadmap
@@ -26,7 +27,7 @@ Story points planned: [number of points]
 
 Story points completed: [number of points]
 
-###  Support Rotation or PTO
+####  Support Rotation or PTO
 *Note any team member on support or PTO this sprint and note which it is
 
 #### Epics & Issues</span>

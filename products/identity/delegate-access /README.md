@@ -1,6 +1,6 @@
 # Initiative outline: Delegate access MVP
 
-**Last Updated: March 24, 2025 -- Updated risks**
+**Last Updated: April 7, 2025 -- Updated timeline**
      
 ## POCs
 **Slack channel**: [#identity](https://dsva.slack.com/channels/identity); [#sign-in-experience](https://dsva.slack.com/channels/sign-in-experience)
@@ -74,6 +74,14 @@ The hole that seems to be missing is what we anecdotally heard during the MHV us
 - IAM has built a delegate tool, but IAM has a full roadmap and might not be able to develop and update that tool on the timeline we need them to.
 - It is unclear whether we can legally give a caregiver access to their Veteran's information if that Veteran isn't able to provide informed consent.
 
+## Timeline
+
+- August 2024: MHV coordinators have been raising this problem repeatedly, and it is clear that retiring the MHV credential without considering how to support POAs would cause this group to not be able to manage their veterans' benefits.
+- September and October 2024: Oddball team conducted discovery and connected the guardian use case to the production user test case; IAM demo'd the delegate tool they built to OCTO and MHV.
+- November 2024: OCC seems onboard with extending the MHV username and password for guardians, giving us a short-term path to support these users before we have proper delegate access.
+- March 2025: Discovery resumes; Activity log work
+- April 2025: Discover interviews with caregivers
+
 ## Backend
 
 (Add background backend documentation and links to other relevant documentation)
@@ -85,3 +93,4 @@ The hole that seems to be missing is what we anecdotally heard during the MHV us
 ## Design and UX
 
 (Add background design documentation and links to other relevant documentation, like Figma files, UX research, etc)
+- [discovery interviews research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/delegate-access%20/Research/preliminary_caregiver_research_plan.md)
