@@ -1,6 +1,6 @@
 # Field rules
 
-Last updated by @tygindraux: March 25, 2025
+Last updated by @tygindraux: April 15, 2025
 
 This document is for our design team to communicate field rules. This list is alphabetical.
 
@@ -30,8 +30,6 @@ This document is for our design team to communicate field rules. This list is al
 ## Attachments
 
 In the form, this is pulled from the categories endpoint so it's regularly updating. AVA Admins have the ability to change these rules at any point, without being part of a release. Attachments are not allowed for unauthenticated submissions.
-
-In the dashboard, TBC.
 
 ## Authentication required
 
@@ -100,9 +98,7 @@ Review [location of residence and postal code](https://github.com/department-of-
 
 ## Pronouns
 
-|If|Then|Unless|
-|:--|:--|:--|
-|All categories|Optional field for `Pronouns` of the submitter||
+This field has been removed from Ask VA. In February 2025, after an Executive Order.
 
 ## Reason you contacted us
 

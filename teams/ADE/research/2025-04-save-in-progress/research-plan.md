@@ -1,90 +1,35 @@
 
-# Research Plan for 2025-04 Save in Progress research study 
+# Research Plan for 2025-04 SiP research study 
 
 ## Background 🏗️
 <details><summary>Briefly describe the background of your product.</summary>
 	
-When VA.gov users are logged in (authenticated) and filling out a form, the "save in progress" alert flashes on and off with every field entered. Because the alert displays below the Back and Continue buttons, screen readers never read it, which is an accessibility issue.
+When VA.gov users are logged in (authenticated) and filling out a form, the "save in progress" alert flashes on and off with every field entered. Because the alert displays below the Back and Continue buttons, screen readers never announce it, which is an accessibility issue.
 
-**[Enter answer here]**
-  
-`What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?`
-
-**[Enter answer here]**
-
-`Product Brief`
-
-**[Link to product brief](url goes here).**
-
-</details>
+We are testing a modification of the VA Design System [Header - Minimal component](https://design.va.gov/components/header/header-minimal) for the design of new web forms. We have removed the "save in progress" alert, and redesigned the existing "Finish this request later" link that functions like a button. The currently existing text about saving will remain on the authenticated version of the form intro page and the first page of the form.
 
 ### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO-DE%20Priorities%202025.md) 
 
-<details><summary>Which OCTO priorities does this research support? Work with your VA lead and product manager as needed. </summary>
+This research supports the following OCTO priorities:
 
-
-`Objective 1:  VA’s digital experiences are the easiest and most efficient way to access VA health care and benefits.`  
-
-> - **Key Result 1:** Improve satisfaction with our web and mobile products by 5 points.
-> - **Key Result 2:** We have reduced the total time Veterans spend waiting for a response from our digital experiences by 50%, towards a goal of less than 4 seconds per transaction.
-> - **Key Result 3:** 100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error.
-
-`Objective 2: OCTO’s platforms are the fastest, most efficient, and most secure way to deliver products at VA.`
-
-> - **Key Result 1:** 100% of authentications to our systems and tools (both Veteran-facing and internal) occur using a secure credential.
-> - **Key Result 2:** We have reduced the total error rates in our platforms by 50% compared to Q4 2024, towards a goal less than 1% per endpoint.
-> - **Key Result 3:** 100% of VA employees have access to a valuable Generative AI tool to help with their work.
-> - **Key Result 4:** Each of our platforms* and tools increase the number of non-OCTO built capabilities or non-OCTO users by 50%. (*excluding mobile)
-
-`Objective 3: OCTO teammates are empowered with the knowledge and resources they need to make sustained impact.`
-
-> - **Key Result 1:** Team members reporting more than a reasonable amount of stress is 5 points lower for each quarter in 2025 than it was in the corresponding quarter in 2024.
-> - **Key Result 2:** Every OCTO Portfolio identifies 2 or more strategic decisions per quarter that would benefit the larger OCTO team, and documents them publicly in a shared location.
-> - **Key Result 3:** 75% or more team members are confident they have the knowledge needed to make effective decisions.
-
-`Objective 4: OCTO positively influences VA's ability to deliver software products and services faster, safer, and with higher quality.`
-
-> - **Key Result 1:** OCTO has delivered at least 10 impactful artifacts or learning activities (e.g., trainings, guides, COP meetings) focused on improving delivery practices that achieve an NPS score of 30 or higher from the target OIT delivery staff.
-> - **Key Result 2:** OCTO has helped resolve/support at least 10 significant engineering issues or products outside our portfolio.
-> - **Key Result 3:** Five or more non-OCTO teams have used SPRUCE to deliver high quality software.
-
-</details>
-
-> [!TIP]
-> Delete priorities not supported by this research.
+Objective 1:  VA’s digital experiences are the easiest and most efficient way to access VA health care and benefits.
+- Key Result 1: Improve satisfaction with our web and mobile products by 5 points.
 
 ### [Veteran Journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
 
-<details><summary>Where does your product fit into the Veteran journey?
-Are there moments that matter?</summary>
-	
-- `Joining`
-- `Serving`
-- `Getting Out`
-- `Starting Up`
-- `Taking Care of Myself`
-- `Reinventing Myself`
-- `Putting Down Roots`
-- `Retiring`
-- `Aging`
-- `Dying`
-
-</details>
-
-> [!TIP]
-> Delete journeys not supported by this research.
+Veterans and others (caregivers, family members, survivors, and service members) may use web forms on VA.gov throughout ALL stages of the Veteran Journey--Serving and separation, Living civilian life, and Retiring and aging.
 
 ## Research Goals 🥅	
 
 ### Goals
 
 1. (primary) Learn about Veterans' expectations for saving information while filling out an online form before the form is submitted.
-1. (primary) Get user feedback on a proposed design revision for "save in progress" and "finish this request later".
+1. (primary) Get user feedback on design revisions for "save in progress" and "finish this request later" that reduce the redundant messaging around saving.
 1. (secondary) Get user feedback on error messages and the progress bar while filling out online forms.
   
 ### Outcome
 
-Findings and recommendations from this research will inform guidance and documentation for the "save in progress" feature that is present for authenticated users filling out forms on VA.gov. Matt Dingee asked ADE to help with this because some VFS teams are innovating new designs, whereas "save in progress" should be a standard pattern used by all teams.
+Findings and recommendations from this research will **inform guidance and documentation for the "save in progress" feature** that is present for authenticated users filling out forms on VA.gov. Matt Dingee asked ADE to help with this because some VFS teams are innovating new designs, whereas "save in progress" should be a standard pattern used by all teams.
 
 In addition, user feedback collected on "finish this request later", error messages, and the progress bar will be helpful for accessibility specialists advising VFS teams.
 
@@ -92,63 +37,44 @@ In addition, user feedback collected on "finish this request later", error messa
 ### Research questions
 
 Research goal: Learn about Veterans' expectations for saving information while filling out an online form before the form is submitted.
-1. What experiences have Veterans had while filling out VA forms?
-1. Do Veterans expect that information will be saved while filling out an online form? (ask at end of session, not beginning)
+1. What experiences have Veterans had around saving while filling out VA forms?
+1. What expectations do Veterans have about whether information will be saved while filling out an online form?
+     1. What do Veterans expect to happen to their form data if they stop in the middle of filling out a form?
+     1. What do Veterans expect to happen to their form data if they close the form page?
+     1. How do Veterans expect to resume working on a form that they previously started filling out?
 
 Research goal: Get user feedback on a proposed design revision for "save in progress" and "finish this request later".
-3. Are Veterans confident that their form data is being saved?
-1. Are Veterans able to stop working on a form and then go back to it later?
+
+1. Do Veterans think that their form data is being saved? If so, how do they know?
+1. Are Veterans able to stop working on a form and go back to it later? If so, how do they do it?
+1. Do Veterans notice the alert about saving on the form intro page?
+1. Do Veterans notice the text about saving on the first page only of the form below the progress stepper>?
 
 Research goal: Get user feedback on error messages and the progress bar while filling out online forms.
-5. What reactions do Veterans have to error messages?
+
+5. What reactions do Veterans have to error messages? 
+     1. Do they know what the error messages mean, and how to resolve them?
+     1. How do they want to find out about errors?
 1. What reactions do Veterans have to the progress bar? Do they notice it?
 
 ### Hypothesis
-> [!NOTE]
-> Remember to constrain the hypothesis to the goals of your study!
- 
-**Think through these prompts to develop a strong hypothesis:**
-	
-`What do you intend to learn and measure from this study?` 
 
-`What do you already know about this problem space?`
- 
-`What do you think users will do or think about this product? (Identifying our assumptions helps us be aware of biases we may unintentionally bring into the study, so don’t skip this step!)`
-  
-`Write a generalized statement that combines what you know + what you think will happen during the study.`
+1. While filling out online forms, Veterans expect that their form data will be saved.
 
----
+1. With the new design, Veterans are confident that their form data will be saved.
 
-**[Enter hypothesis here]** 
+1. With the new design, Veterans will know how to resume filling out a form that they previously started filling out.
+
+1. When Veterans encounter error messages while filling out online forms, they are able to resolve the errors.
+
+1. While filling out an online form, Veterans will notice the progress bar and find it useful.
 
 ---
   
 ## Methodology  🛠️
-***Describe the method you’re planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.*** 
+We will conduct **remote moderated usability testing** to observe research participants filling out an online form while authenticated so that the information entered will be automatically saved before the form is submitted.   
 
-<details><summary>Examples of common research methods include</summary> 
-	
-- `Semi-structured interviews - appropriate for generative research`
-- `Contextual inquiry - appropriate for generative research`
-- `Card sorts - appropriate for generative and evaluative research; depending on the study design` 
-- `Tree tests - appropriate for evaluative research`
-- `Usability testing - appropriate for evaluative research`
-- `User acceptance testing (UAT) - required before product release`
-
-</details>
-
-**[Enter methodology here]**
-
-<details><summary>Additional resources</summary> 
-	
-- Please review the [PRA primer](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/what-is-paperwork-reduction-act.md) to educate yourself on how PRA impacts the research we do as a government project. 
-- Review the [Perigean recruitment guidance](https://depo-platform-documentation.scrollhelp.site/research-design/Recruiting-Participants.1958773044.html) to understand how Perigean recruits, and what types of research they can support. 
-- If conducting testing on mobile, refer to the [mobile research guidelines.](https://depo-platform-documentation.scrollhelp.site/research-design/Conducting-Research-Sessions.1958773061.html#ConductingResearchSessions-Researchingwithmobileusers)
-- If conducting [unmoderated usability research, refer to the guidance here.](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html) 
-- If conducting [research with disabled Veterans, refer to this checklist](https://depo-platform-documentation.scrollhelp.site/research-design/research-with-assistive-technology-users) and [follow disability etiquette guidelines.](https://depo-platform-documentation.scrollhelp.site/research-design/disability-etiquette)
-- In the rare event of an emergency during research, be prepared by reviewing guidelines for [research safety and emergency exit strategies](https://depo-platform-documentation.scrollhelp.site/research-design/Research-Safety-and-Emergency-Exit-Strategies.2143649793.html).
-
-</details>
+Sessions will be conducted over Zoom with transcripts. 
 
 ### Location
 This is remote research over Zoom. 
@@ -203,6 +129,9 @@ We want to recruit both screen reader users and signed users.
 
 ### Primary criteria (must-haves)
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
+
+AT (screen readers and screen magnifiers) and non-AT users
+people who have filled out VA forms online before, and those who have not
 
 - `[Place primary criteria here between hash marks when in edit mode]`
 - `primary criteria`

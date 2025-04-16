@@ -1,6 +1,6 @@
 # Sign in rules
 
-Last updated by @tygindraux: April 10, 2025
+Last updated by @tygindraux: April 14, 2025
 
 This document describes sign in rules and scenarios for Ask VA. We also plan to include key concerns with the current sign in process and potential remedies.
 
@@ -163,7 +163,7 @@ An authenticated user lands on the home page. From the home page, they choose wh
 |:--|:--|
 |**Some inquiries are not in your dashboard**|This problem will persist but it is unlikely to get worse.|
 |**You feel deceived**|This would solve this problem because they will not be asked to stop and sign in.|
-|**Multiple clicks before you learn the rule**|Although you still have to go through 2-4 pages, you're not answering questions that are part of your submission. You would not need to re-answer any of these questions and/or remember your answers.|
+|**Multiple clicks before you learn the rule**|You still need to go through 2-4 pages and, in some cases, you need to re-answer questions after you sign in.|
 |**Start over**|This would solve this problem because you avoid needing to start over.|
 |**You can choose general question incorrectly**|This problem will persist but it is unlikely to get worse.|
 |**Deciding between personal or general**|This problem will persist in the form but happen up front and we think it is unlikely to get worse.|
@@ -272,4 +272,7 @@ This requires business line approval to only allow authenticated inquiries from 
 
 ### Back up strategy
 
-If it's not feasible to pursue business line approval right now, then we recommend [Idea 1: Sub task pattern](#idea-1-sub-task-pattern) as it's the only option that does not have this constraint. We also think it's worth exploring the technical feasibility of temporarily storing responses so that a submitter doesn't have to repeat steps after sign in. And analyzing production data to understand whether people are consistently choosing the right option for 'Who is your question about?'
+If it's not feasible to pursue business line approval right now, then we recommend [Idea 1: Sub task pattern](#idea-1-sub-task-pattern) as it's the only option that does not have this constraint. We also think it's worth exploring the technical feasibility of temporarily storing responses so that a submitter doesn't have to repeat steps after sign in. And analyzing production data to understand things like:
+- how often people are landing on a 'you need to sign in' interruption page
+- whether people are consistently choosing the right option for 'Who is your question about?'
+- how many people had to resubmit an inquiry due to choosing 'general' question incorrectly
