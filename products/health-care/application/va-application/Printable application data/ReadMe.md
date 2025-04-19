@@ -47,11 +47,17 @@
 
 ### Key Performance Indicators (KPIs)
 
-Data source - Google Analytics - EZ Dashboard (NEW widget/event)
+- Data source
+     - [Datadog action tracking](https://vagov.ddog-gov.com/notebook/12606?cell_id=b043htjf&tpl_var_action.name=%2A)
+#### Objective: Veterans will find that they want to print and/or save their completed application for future reference
+- Result #1: At least 25% of submissions will show the Veteran selecting to print/save their completed form
+- Result #2: There will be zero errors experienced when Veterans select to print/save their completed form
+
 
 | Product KPI | Baseline | Target | Post-Launch 1 week |Post-Launch 1 month|
 |------------- |---------|-------|-------------- |------------- |
-|Print application button |NEW | 25% of submissions |TBD |TBD |
+|Print/save application button |NEW | 25% of submissions |TBD |TBD |
+|Errors when print/save|NEW | 0 errors |TBD |TBD |
 ---
 
 ## Discovery
@@ -157,7 +163,8 @@ Data source - Google Analytics - EZ Dashboard (NEW widget/event)
 
 ### After
 
-TBD
+![image](https://github.com/user-attachments/assets/93ad3f43-3127-4339-b944-159e95941242)
+
 
 ---
 

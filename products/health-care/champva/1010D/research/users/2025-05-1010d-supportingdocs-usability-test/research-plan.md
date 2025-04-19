@@ -1,7 +1,6 @@
-
-	# Research Plan for [Team, Product, Date]
+# Research Plan for IVC Team, 10-10d, 04-2025[Team, Product, Date]
 > [!NOTE]
-> *Questions about how to set up your research study? Reach out in the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel.* 
+> *In-progress* 
 
 ## Background 🏗️
 <details><summary>Briefly describe the background of your product.</summary>
@@ -20,7 +19,7 @@
 
 `Product Brief`
 
-**[Link to product brief](url goes here).**
+**[Link to product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/10-10d-product-outline.md)).**
 
 </details>
 
@@ -28,118 +27,65 @@
 
 <details><summary>Which OCTO priorities does this research support? Work with your VA lead and product manager as needed. </summary>
 
-
 `Objective 1:  VA’s digital experiences are the easiest and most efficient way to access VA health care and benefits.`  
 
 > - **Key Result 1:** Improve satisfaction with our web and mobile products by 5 points.
 > - **Key Result 2:** We have reduced the total time Veterans spend waiting for a response from our digital experiences by 50%, towards a goal of less than 4 seconds per transaction.
 > - **Key Result 3:** 100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error.
 
-`Objective 2: OCTO’s platforms are the fastest, most efficient, and most secure way to deliver products at VA.`
-
-> - **Key Result 1:** 100% of authentications to our systems and tools (both Veteran-facing and internal) occur using a secure credential.
-> - **Key Result 2:** We have reduced the total error rates in our platforms by 50% compared to Q4 2024, towards a goal less than 1% per endpoint.
-> - **Key Result 3:** 100% of VA employees have access to a valuable Generative AI tool to help with their work.
-> - **Key Result 4:** Each of our platforms* and tools increase the number of non-OCTO built capabilities or non-OCTO users by 50%. (*excluding mobile)
-
-`Objective 3: OCTO teammates are empowered with the knowledge and resources they need to make sustained impact.`
-
-> - **Key Result 1:** Team members reporting more than a reasonable amount of stress is 5 points lower for each quarter in 2025 than it was in the corresponding quarter in 2024.
-> - **Key Result 2:** Every OCTO Portfolio identifies 2 or more strategic decisions per quarter that would benefit the larger OCTO team, and documents them publicly in a shared location.
-> - **Key Result 3:** 75% or more team members are confident they have the knowledge needed to make effective decisions.
-
-`Objective 4: OCTO positively influences VA's ability to deliver software products and services faster, safer, and with higher quality.`
-
-> - **Key Result 1:** OCTO has delivered at least 10 impactful artifacts or learning activities (e.g., trainings, guides, COP meetings) focused on improving delivery practices that achieve an NPS score of 30 or higher from the target OIT delivery staff.
-> - **Key Result 2:** OCTO has helped resolve/support at least 10 significant engineering issues or products outside our portfolio.
-> - **Key Result 3:** Five or more non-OCTO teams have used SPRUCE to deliver high quality software.
-
 </details>
-
-> [!TIP]
-> Delete priorities not supported by this research.
 
 ### [Veteran Journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
 
 <details><summary>Where does your product fit into the Veteran journey?
 Are there moments that matter?</summary>
 	
-- `Joining`
-- `Serving`
-- `Getting Out`
 - `Starting Up`
-- `Taking Care of Myself`
-- `Reinventing Myself`
 - `Putting Down Roots`
-- `Retiring`
 - `Aging`
-- `Dying`
 
 </details>
-
-> [!TIP]
-> Delete journeys not supported by this research.
 
 ## Research Goals 🥅	
 `What are you trying to learn from this research?` 
 
-> [!NOTE]
-> Limit 3 goals per study. If you have more than 3 goals, consider how to break up your research into iterative studies.
-
 ### Goals
 
-`1.` **[Enter answer here]**
+`1.` **Understand users’ expectations around what documentation is required to provide when submitting a CHAMPVA application**
 
-`2.` **[Enter answer here]**
+`2.` **Understand where and when users expect to upload supporting documentation for their application**
 
-`3.` **[Enter answer here]** 
+`3.` **Understand how users expect uploading documents supports their CHAMPVA application, and their responsibilities to provide supporting information.** 
   
 ### Outcome
 `How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
 
 ---
 
-**[Enter outcome here]** 
+We will synthesize the data from this study and create a summary report of our learnings. This research will inform decisions around where users upload supporting documentation when completing form 10-10d, application for CHAMPVA benefits. Moreover, the team is currently preparing to [integrate form 10-7959c (Other Health Insurance Certification) into form 10-10d](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/10-10D-OHI-Merge-Product-Outline.md); learnings from this study will inform how additional subsections of the integrated form experience handle and instruct users to upload supporting documentation
 
 ---
 
 ### Research questions
-> [!NOTE]
-> Do not write out all questions you plan to ask participants -- that should go in the` [conversation guide.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/conversation-guide-template.md)
+**`1.`Do users understand what supporting documentation they’ll need to upload with form 10-10d based on the information provided before they start the application? (Goal 1)**
 
-***Consider bucketing research questions under research goals and think about:***
-	
-`What will I do with what I learn from this question?`
-  
-`Does this question serve the goals of my study?`
+**`2.`Does the explanation for why we require some documentation for the CHAMPVA application on the intro page make sense? (Goal 1)**
 
-**`1.`[Enter Q1]**
+**`3.`How do users interpret the content about providing proof of marriage? (Goal 1)**
 
-**`2.`[Enter Q2]**
+**`4.`Do users prefer to upload supporting documents at the time of answering a related question (Prototype Donna), or at the end of the CHAMPVA application (Prototype Rose)? (Goal 2)**
 
-**`3.`[Enter Q3]**
+**`5.`Do users have better recall about supporting documents to provide when uploading supporting documents within the applicant list&loop (Prototype Donna, or at the end of the CHAMPVA application (Prototype Rose?) (Goal 2)**
 
-**`4.`[Enter Q4]**
+**`6.`Does the [v3 file upload component](https://design.va.gov/storybook/?path=/docs/uswds-va-file-input--docs#upload-status) help users understand they need to provide the front and back of Medicare and Private Health Insurance cards? (Goal 3)**
 
-**`5.`[Enter Q5]**
+**`7.`Do users know how to provide additional documentation after submitting their CHAMPVA application? (Goal 3)**
 
-> [!TIP]
->Enter more questions as needed
+**`8.`Would users want any confirmation around uploading files? (Goal 3)**
+
+**`9.`Does the user understand how to fix a faulty document when it fails to upload? (Goal 3)**
 
 ### Hypotheses
-> [!NOTE]
-> Remember to constrain the hypotheses to the goals of your study!
- 
-**Think through these prompts to develop strong hypotheses:**
-	
-`What do you intend to learn and measure from this study?` 
-
-`What do you already know about this problem space?`
- 
-`What do you think users will do or think about this product? (Identifying our assumptions helps us be aware of biases we may unintentionally bring into the study, so don’t skip this step!)`
-  
-`Write a generalized statement that combines what you know + what you think will happen during the study.`
-
 ---
 
 **[Enter hypotheses here]** 
