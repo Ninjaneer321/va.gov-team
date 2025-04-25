@@ -1,54 +1,30 @@
 # Release Plan - Community Care Direct Scheduling
 
 **Important Dates:**
+ - [ ] Staging Review -  May 2, 2025
+ - [ ] Go/no go Meeting - TBD
+ - [ ] Prod Release Pilot - TBD
 
- - [ ] Staging Review -  
- - [ ] Go/no go Meeting - 
- - [ ] Prod Release Pilot - 
-
-
+**Important Links:**
+- [Collaboration Cycle ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/80703)
+- [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling)
+- [Test Cases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/cc-direct-scheduling-test-cases.md)
+- [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2025-01%20Community%20Care%20Self-Scheduling%20-%20Unmoderated%20UAT/research-plan.md)
 
 ## Phase I: Pilot Release 
 
-### Planning:
+### Functionality Delivered
+A Veteran is able to directly schedule their comunity care appointments for **optometry** by:
+- Receiving a push notification text message directing them to schedule an appointment; 
+- Log in to va.gov and access requests and referrals.
 
-- Number of users:
-- Pilot users
+### Rollout Strategy
+[Feature toggles](https://staging-api.va.gov/flipper/features) will be enabled:
+- va_online_scheduling
+- va_online_scheduling_community_care
 
-## Go Live!
 
- - Go/no go meeting 
- -  Go live with 100% of Pilot users with notifications and questionnaire. 
+### Rollback Strategy
+Disable feature toggles.
 
-## Rollback Plan 
-
- - Application is behind feature flags and can be disabled 
-
-### 1-week results:
-- Number of unique users: x
-- Post-launch KPI 1 actual: xx lorem ipsum
-- Post-launch KPI 2 actual: xx lorem ipsum
-- Post-launch KPI 3 actual: xx lorem ipsum
-- Any issues with VA handling/processing?: yes/no, lorem ipsum
-- Types of errors logged: lorem ipsum
-- Any UX changes necessary based on the logs, or feedback on user challenges, or VA challenges? yes/no 
-- If yes, what: lorem ipsum
-
-### 1-month results:
-- Number of unique users: x
-- Post-launch KPI 1 actual: xx lorem ipsum
-- Post-launch KPI 2 actual: xx lorem ipsum
-- Post-launch KPI 3 actual: xx lorem ipsum
-- Any issues with VA handling/processing?: yes/no, lorem ipsum
-- Types of errors logged: lorem ipsum
-- Any UX changes necessary based on the logs, or feedback on user challenges, or VA challenges? yes/no 
-- If yes, what: lorem ipsum
-
-## Post-launch Questions 
-
-_To be completed once you have gathered your initial set of data, as outlined above._ 
-
-1. How do the KPIs you gathered compare to your pre-launch definition(s) of "success"?
-1. What qualitative feedback have you gathered from users or other stakeholders, if any?
-1. Which of the assumptions you listed in your product outline were/were not validated? 
-1. How might your product evolve now or in the future based on these results?
+## Phase II: TBD

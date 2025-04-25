@@ -6,7 +6,6 @@ This folder contains documentation related to fields, options and labels.
 
 |Document|Description|
 |:--|:--|
-|[Attachments](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Fields%2C%20options%20and%20labels/Attachments.md)|Describes when attachments are allowed or not depending on queue|
 |[Category, topic and subtopic labels](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Fields%2C%20options%20and%20labels/Category%2C%20topic%20and%20subtopic%20labels.md)|Lists the agreed names of the categories, topic and subtopics|
 |[Contact options by business line](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Fields,%20options%20and%20labels/Contact%20options%20by%20business%20line.md)|Describes when to enable contact options by category and topic|
 |[Content guidance for Ask VA](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Fields%2C%20options%20and%20labels/Content%20guidance%20for%20Ask%20VA.md)|Describes for Ask VA in our draft designs and current VA.gov pages|
@@ -17,7 +16,6 @@ This folder contains documentation related to fields, options and labels.
 |[How prefill works](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Fields%2C%20options%20and%20labels/How%20prefill%20works.md)|Describes how prefill works in the Ask VA form|
 |[Location and postal code](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Fields%2C%20options%20and%20labels/Location%20and%20postal%20code.md)|Describes location and postal code specific rules|
 |[Pronouns](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Fields%2C%20options%20and%20labels/Pronouns.md)|Describes our recommendation to remove pronouns|
-|[Replies](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Fields%2C%20options%20and%20labels/Replies.md)|Describes when a submitter can or cannot repy back to VA|
 |[Statuses and triggers](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Fields,%20options%20and%20labels/Statuses%20and%20triggers.md)|Describes inquiry statuses and when they are assigned|
 
 ## Questions?

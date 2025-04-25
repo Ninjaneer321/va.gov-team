@@ -7,16 +7,20 @@ The OCTO Identity team manages the authentication integration for VA.gov. We wor
 ## **2025Q2 ROADMAP**
 
 **NOW**
-- Delegate Access MVP
-- OKTA SSOe Pilot
+- [Delegate Access MVP](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/3)
+- OKTA SSO Pilot
+_IAM is replacing the ISAM identity broker with an Okta-based solution and has requested our assistance in piloting the integration._
 - Sign-In Transition: DMDC Federation
+_ON HOLD: Awaiting next steps from leadership._
   
 **NEXT**
-- Sign-In Transition: DS Logon Deprecation
-- Post-MHV Deprecation Work
-- Improving CSAT Metrics
+- [Sign-In Transition: DS Logon Deprecation](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/2)
+_Veterans will have a more streamlined and secure sign in experience via id.me and login.gov._
+- [Post-MHV Deprecation Work](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/4)
+- [Improving CSAT Metrics](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/5)
 - Operational Readiness: Internal Processes
 - MHV & MVH move into VA.gov
+*[Oracle Health Provisioning Expansion](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/1)
 
 **LATER**
 - Fraud Detection -> Prevention

@@ -19,7 +19,7 @@ Objective 1:  VA’s digital experiences are the easiest and most efficient way 
 
 ### [Veteran Journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
 
-Veterans and others (caregivers, family members, survivors, and service members) may use web forms on VA.gov throughout ALL stages of the Veteran Journey--Serving and separation, Living civilian life, and Retiring and aging.
+Veterans may use web forms on VA.gov throughout ALL stages of the Veteran Journey--Serving and separation, Living civilian life, and Retiring and aging.
 
 ## Research Goals 🥅	
 
@@ -101,8 +101,8 @@ We would like Perigean to recruit assistive tech (AT) users and non-AT users.
 
 **List the total number and type (Veterans, caregivers, etc.) of participants for this study:**
 
-- `Veterans:` **[10]** 
-- `Caregivers:` **[2]**
+- `Veterans:` **[12]** 
+- `Caregivers:` **[0]**
 - `Dependents:` **[0]**
 - `Total:` **[12]**
 
@@ -162,7 +162,6 @@ We would like Perigean to recruit assistive tech (AT) users and non-AT users.
 1. For this meeting, you'll need a device with Zoom installed that can screen share and has a working microphone. What kind of device will you be using?
 *(RECORD)*
 
-
     1. Smartphone  *(RECRUIT 5 and ask next question)*
     1. Computer *(RECRUIT 5 and ask next question)*
     1. Tablet *(RECRUIT no more than 2, and ask next question)*
@@ -221,9 +220,8 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - `May 12, Mon, 7 - 8 or 8:30 PM ET`
 - `May 13, Tue, 12 - 1 or 1:30 PM ET`
 - `May 13, Tue, 2 - 3 or 3:30 PM ET`
+- `May 14, Wed, 12 - 1 or 1:30 PM ET`
 - `May 14, Wed, 2 - 3 or 3:30 PM ET` 
-- `May 14, Wed, 5 - 6 or 6:30 PM ET`
-- `May 14, Wed, 7 - 8 or 8:30 PM ET`
 - `May 15, Thu, 12 - 1 or 1:30 PM ET`
 - `May 15, Thu, 2 - 3 or 3:30 PM ET`
 - `May 15, Thu, 5 - 6 or 6:30 PM ET`
@@ -248,5 +246,5 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - `Observers:` Will need to sign up so we can limit the number of observers per session, and Cindy will add them to the invites that she receives from Perigean.
 
 ## Approvals ✅
-- `Reviewed by Martha Wilkes, OCTO Accessibility Strategist/Designer on [MM-DD-2025]`
-- `Reviewed by Shane Strassberg on [MM-DD-2025]`
+- `Reviewed by Martha Wilkes, OCTO Accessibility Strategist/Designer, on 04-22-2025`
+- `Reviewed by Shane Strassberg, Research-Ops Lead, on [MM-DD-2025]`

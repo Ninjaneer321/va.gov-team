@@ -39,7 +39,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 |ENG: Address the “must” accessibility feedback for the One VA Debt Letter | QP2 |--|04/07/2025|Completed|
 |ENG: Restart Digital Dispute work in preparation for Q3 priorities | QP3 |--|03/28/25|Completed|
 |ENG: Updates to FSR based off Veteran feedback such as Removal of $70K limit to retirement funds | QPX |--|03/28/25|Completed|
-|ENG: Continue Josh’s access to critical systems and onboarding tasks | QPX |--|--04/01/25|Completed|
+|ENG: Continue Josh’s access to critical systems and onboarding tasks | QPX |--|04/01/25|Completed|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (03/24/25)
@@ -54,17 +54,41 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 ## Sprint Goals - Sprint: 6 [4/9/25 - 4/22/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Refine templates for Zero Silent Failure (Emails 1 & 2)| QP1 |--|--|--|
-|UX: Create prototypes for Wizard & Digital Dispute Usability Study| QP3 QP4 |--|--|--|
-|UX: Complete the Research plan step 1 for Wizard & Digital Dispute (Write guides) | QP3 QP4 |--|--|--|
-|ENG: Complete dev work for One VA debt letter and collaborate with Platform on PR’s| QP2 |--|--|--|
-|ENG: Complete the dev work for the Wizard new flow and be prepared for the release, pending CAIA Pages| QP3 |--|--|--|
+|UX: Refine templates for Zero Silent Failure (Emails 1 & 2)| QP1 |--|4/22/25|Completed|
+|UX: Create prototypes for Wizard & Digital Dispute Usability Study| QP3 QP4 |--|4/22/25|Completed|
+|UX: Complete the Research plan step 1 for Wizard & Digital Dispute (Write guides) | QP3 QP4 |--|4/22/25|Completed|
+|ENG: Complete dev work for One VA debt letter and collaborate with Platform on PR’s| QP2 |--|04/21/25|Completed|
+|ENG: Complete the dev work for the Wizard new flow and be prepared for the release, pending CAIA Pages| QP3 |High priority bug ticket and new feature feedback work |-04/22/25|Incomplete|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (04/07/25)
  - [X] VA PO & COR sent the Sprint Goals (04/07/25)
  - [X] VA PO approved the Sprint Goals (04/09/25)
  - [X] VA COR approved the Sprint Goals (04/09/25)
+ 
+**_Delivery + Notes:_**
+- [X] All goals have been updated in the sprint chart
+- [X] Any Additional details about goals **not** completed will be documented here
+- ENG: Complete the dev work for the Wizard new flow and be prepared for the release, pending CAIA Pages
+  - Work for a high priority bug fix (adding additional items issue #107612) and feedback from staging review for One Debt Letter took priority over this goal
+  - The work is now scheduled to be completed next sprint
+
+## Sprint Goals - Sprint: 7 [4/23/25 - 5/6/25]  
+| Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|UX: Wizard & Digital Dispute Usability Study is submitted for approval by Platform. | QP3 QP4 |--|--|--|
+|UX: Process of recruiting Veterans with Perigean for Wizard & Digital Dispute Usability Study begins. | QP3 QP4 |--|--|--|
+|UX: Begin discovery process to understand Pay.gov ask, business needs, and constraints. | QP6 |--|--|--|
+|ENG: Coordinate with DMC to meet to discuss zero silent failure email next steps. | QP1 |--|--|--|
+|ENG: Coordinate with Huron to meet to discuss zero silent failure email next steps. | QP1 |--|--|--|
+|ENG: Launch One VA Debt Letter into production | QP2 |--|--|--|
+|ENG: Launch Wizard into production | QP3 |--|--|--|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [X] Ready to be sent for approvals (04/21/25)
+ - [X] VA PO & COR sent the Sprint Goals (04/22/25)
+ - [X] VA PO approved the Sprint Goals (04/22/25)
+ - [X] VA COR approved the Sprint Goals (04/22/25)
  
 **_Delivery + Notes:_**
 - [ ] All goals have been updated in the sprint chart
