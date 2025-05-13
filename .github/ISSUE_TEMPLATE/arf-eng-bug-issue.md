@@ -1,10 +1,10 @@
 ---
 name: ARF Engineering Bug Issue
 about: Bug issues for the ARF Engineering team
-title: ''
+title: 'Bug: '
 labels: accredited-rep-facing, engineering
 assignees: ''
-
+type: Bug
 ---
 
 ### Description

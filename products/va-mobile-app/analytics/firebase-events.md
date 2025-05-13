@@ -1,6 +1,6 @@
 # Data Dictionary: Firebase Events
 
-Last updated: 4/24/2025
+Last updated: 4/29/2025
 
 ## Allergies
 
@@ -26,47 +26,44 @@ Last updated: 4/24/2025
 
 | Event Name | Purpose |
 | -------- | ------- |
-| `vama_claim_call ` | |
-| `vama_claim_cancel_1 ` | |
-| `vama_claim_cancel_2 ` | |
-| `vama_claim_count ` | |
-| `vama_claim_details_exp ` | |
-| `vama_claim_details_open ` | |
-| `vama_claim_details_tab ` | |
-| `vama_claim_details_ttv ` | |
-| `vama_claim_disag ` | |
-| `vama_claim_disag ` | |
-| `vama_claim_eval_cancel ` | |
-| `vama_claim_eval_check ` | |
-| `vama_claim_eval_conf ` | |
-| `vama_claim_eval_submit ` | |
+| `vama_claim_call ` | not used in the app, but present in the data (legacy event) |
+| `vama_claim_cancel_1 ` | callback event associated with vama_evidence_cancel_1 |
+| `vama_claim_cancel_2 ` | callback event associated with vama_evidence_cancel_2 |
+| `vama_claim_details_exp ` | user expands accordion during a claim phase change |
+| `vama_claim_details_open ` | user views a claim details |
+| `vama_claim_details_tab ` | segmented control tab change for claim details (status / files) |
+| `vama_claim_details_ttv ` | tracking how much time a user spends on a claim detail screen |
+| `vama_claim_disag ` | User selects "What to do if you disagree" from a claim detail screen |
+| `vama_claim_eval_cancel ` | Logged when clicked back on the claim evaluation page. |
+| `vama_claim_eval_check ` | Required checkbox for the user to confirm the have uploaded all evidence |
+| `vama_claim_eval_conf ` | On claim submission, possibly duplicative with `vama_claim_eval_submit` |
+| `vama_claim_eval_submit ` | Requesting a claim evaluation on submit of a claim |
 | `vama_claim_file_request ` | User accesses the claim details screen at step 3 & includes a request for file from the VA (so the file upload button is present) |
-| `vama_claim_file_view ` | |
-| `vama_claim_review ` | |
-| `vama_claim_status_tab ` | |
-| `vama_claim_step_three ` | User accesses the claim detials screen when their claim is at step 3 in the process |
-| `vama_claim_submit_ev ` | |
-| `vama_claim_submit_tap ` | |
+| `vama_claim_file_view ` | User selects to view a file |
+| `vama_claim_review ` | User selects "Review file requests" option |
+| `vama_claim_status_tab ` | User toggles the control from details screen |
+| `vama_claim_submit_ev ` | Logged when a user accesses a claim details page with the submit evidence button available. |
+| `vama_claim_submit_tap ` | Navigte to submit evidence subtask screen |
 | `vama_claim_upload_compl ` | API call to upload returns a success for the file uploaded. **Note**: While the user can select more than one photo to upload, they are compiled into a single pdf for upload. |
 | `vama_claim_upload_fail ` | API call to upload returns a fail |
 | `vama_claim_upload_start ` | API call to upload is sent |
-| `vama_claim_why_combine ` | |
-| `vama_request_details ` | |
-| `vama_evidence_conf ` | |
-| `vama_evidence_cont_1 ` | |
-| `vama_evidence_cont_2 ` | |
-| `vama_evidence_cont_3 ` | |
-| `vama_evidence_start ` | |
-| `vama_evidence_type ` | |
+| `vama_claim_why_combine ` | User triggers the "Find out why we sometimes combine claims" sheet |
+| `vama_request_details ` | Viewing file details |
+| `vama_evidence_conf ` | Required checkbox for user confirmation that evidence is related to the active claim |
+| `vama_evidence_cont_1 ` | Open image library on the user's device|
+| `vama_evidence_cont_2 ` | Information about a claim attachment |
+| `vama_evidence_cont_3 ` | File / Photo upload confirmation |
+| `vama_evidence_start ` | Select a file / take a photo button is selected |
+| `vama_evidence_type ` | Logging evidence types photo and/or file |
 
 ## Letters
 
 | Event Name | Purpose |
 | -------- | ------- |
-| `vama_ddl_button_shown ` | |
-| `vama_ddl_landing_click ` | |
-| `vama_ddl_letter_view ` | |
-| `vama_ddl_status_click ` | |
+| `vama_ddl_button_shown ` | not used in the app, but present in the data (legacy event) |
+| `vama_ddl_landing_click ` | User selects "Claim Letters" from the Claims landing screen |
+| `vama_ddl_letter_view ` | User views a letter |
+| `vama_ddl_status_click ` | User selects "Get Claim Letters" from the claim details screen |
 | `vama_letter_download ` | User clicks to download letter |
 
 ## Global / Platform / Homescreen
@@ -77,39 +74,34 @@ Last updated: 4/24/2025
 | -------- | ------- |
 | `vama_login_closed ` | User closes out of login window |
 | `vama_login_fail ` | Login is unsuccessful |
+| `vama_user_call ` | Failed login attempt with error message |
 | `vama_login_start ` | User starts the login process |
 | `vama_login_success ` | Login is successful |
-| `vama_login_token_fetch ` | |
-| `vama_login_token_get ` | |
-| `vama_login_token_refresh ` | |
-| `vama_login_token_store ` | |
-| `vama_sso_cookie_received ` | |
-| `vama_auth_completed ` | |
-| `vama_user_call ` | |
+| `vama_login_token_fetch ` | Debug event, error fetching the login token |
+| `vama_login_token_refresh ` | Debug error attempting to initialize authentication with a refresh token |
+| `vama_login_token_store ` | The success or failure of storing a refresh token |
+| `vama_sso_cookie_received ` | Successful fetching of SSO cookies |
+| `vama_auth_completed ` | User successfully signed into the app |
 
 ### Availability Framework
 
 | Event Name | Purpose |
 | -------- | ------- |
-| `vama_af_shown ` | |
-| `vama_af_updated ` | |
+| `vama_af_shown ` | Availability framework alert is viewed by the user |
+| `vama_af_updated ` | User asked to update the app and does after a critical bug fix release |
 
 ### Components & UI
 
 | Event Name | Purpose |
 | -------- | ------- |
-| `vama_accordion_click ` | |
-| `vama_pagination ` | |
-| `vama_notification_click ` | |
-| `vama_segcontrol_click ` | |
-| `vama_snackbar_null ` | |
-| `vama_toggle ` | |
-| `vama_modalpick_open ` | |
-| `vama_modalpick_sel ` | |
-| `vama_click ` | |
-| `vama_link_click ` | |
-| `vama_link_confirm ` | |
-| `vama_find_location ` | |
+| `vama_pagination ` | Using pagination next / previous actions |
+| `vama_notification_click ` | Logging the registered app URL from a push notification |
+| `vama_toggle ` | Toggle options on the notification screen after allowing device notifications |
+| `vama_click ` | Generic event to capture clicks, text, and screen information |
+| `vama_link_click ` | A link in the app was clicked, reports URL data |
+| `vama_link_confirm ` | A link to leave the app was clicked (not a webview) |
+| `vama_find_location ` | The find a location link was clicked |
+| `vama_select_all ` | user chooses the select all option in a selection list |
 
 ### Encouraged Update
 
@@ -118,32 +110,27 @@ Last updated: 4/24/2025
 | `vama_eu_shown ` | Encouraged update nudge was shown to user |
 | `vama_eu_skipped ` | User clicked to dismiss prompt to update app version |
 | `vama_eu_updated ` | User clicked to update their app version |
-| `vama_eu_updated_success ` | App version was successfully updates at user's click |
 
 ### Feedback Collection
 
 | Event Name | Purpose |
 | -------- | ------- |
-| `vama_review_prompt ` | |
-| `vama_givefb_close ` | |
-| `vama_givefb_open ` | |
-| `vama_feedback_ask ` | |
-| `vama_feedback_closed ` | |
-| `vama_feedback_submitted ` | |
+| `vama_review_prompt ` | Requests user to review the app |
+| `vama_givefb_close ` | User is leaving the webview for in app recruitment |
+| `vama_givefb_open ` | "Learn more about the Veteran Usability Project" link click & webview launch for loading feedback form |
+| `vama_feedback_ask ` | Runs on cancel and OK for in app feedback |
+| `vama_feedback_closed ` | User get the feedback screen, but closes without submitting |
+| `vama_feedback_submitted ` | In app feedback submitted with screen, task, satisfaction |
 
 ### Homescreen
 
 | Event Name | Purpose |
 | -------- | ------- |
-| `vama_hs_appts_count ` | |
-| `vama_hs_appts_load_time ` | |
-| `vama_hs_claims_count ` | |
-| `vama_hs_claims_load_time ` | |
-| `vama_hs_load_time ` | |
-| `vama_hs_rx_count ` | |
-| `vama_hs_rx_load_time ` | |
-| `vama_hs_sm_count ` | |
-| `vama_hs_sm_load_time ` | |
+| `vama_hs_appts_load_time ` | Time from login to loading appointments on the homescreen |
+| `vama_hs_claims_load_time ` | Time from login to loading active claims on the homescreen |
+| `vama_hs_load_time ` | Time from login to all completed API calls on the homescreen |
+| `vama_hs_rx_load_time ` | Time from login to loading refillable prescriptions on the homescreen |
+| `vama_hs_sm_load_time ` | Time from login to loading unread messages on the homescreen |
 
 ### Push Notifications
 
@@ -177,7 +164,7 @@ Last updated: 4/24/2025
 
 | Event Name | Purpose |
 | -------- | ------- |
-| `vama_webview_fail ` | |
+| `vama_webview_fail ` | generic error, webview failed to load |
 | `vama_whatsnew_alert ` | What's new alert displayed to user |
 | `vama_whatsnew_close ` | clicked Close button for a release |
 | `vama_whatsnew_dont_show ` | clicked do not show me again |
@@ -194,63 +181,55 @@ Last updated: 4/24/2025
 | Event Name | Purpose |
 | -------- | ------- |
 | `vama_rx_filter ` | User clicks to open up filter options |
-| `vama_rx_filter_cancel ` | |
+| `vama_rx_filter_cancel ` | cancel button was clicked inside the filter dialog box |
 | `vama_rx_filter_sel ` | User makes selection for how to filter prescriptions |
 | `vama_rx_help ` | Prescription refill help button clicks |
-| `vama_rx_na ` | |
-| `vama_rx_noauth ` | |
-| `vama_rx_pendingtab ` | User presses the Pending tab in prescription history |
-| `vama_rx_refill_cerner ` | |
+| `vama_rx_na ` | Prescription history, no prescriptions |
+| `vama_rx_noauth ` | user is not authorized to view prescriptions |
 | `vama_rx_refill_fail ` | User's refill request failed |
 | `vama_rx_refill_retry ` | User clicked option to retry submission after failed attempt |
 | `vama_rx_refill_success ` | User's refill request went through successfully |
-| `vama_rx_request_confirm ` | |
+| `vama_rx_request_confirm ` | confirm refill request |
 | `vama_rx_request_start ` | User starts a refill request |
 | `vama_rx_sort` | User clicks to open up sort options |
-| `vama_rx_sort_sel` | User makes selection for how to sort prescriptions |
-| `vama_rx_status` | |
-| `vama_rx_trackdet` | |
-| `vama_rx_trackdet_close ` | |
-| `vama_rx_trackingtab ` | User clicks to see tracking information |
-| `vama_cerner_alert ` | |
-| `vama_cerner_alert_exp ` | |
+| `vama_rx_status` | view refill status |
+| `vama_rx_trackdet` | user taps "get presciption tracking" option |
+| `vama_rx_trackdet_close ` | user closes the presciption tracking dialog box |
+| `vama_cerner_alert ` | App alert related to the cerner transition |
+| `vama_cerner_alert_exp ` | Cerner alert expanded |
 
 ## Profile
 
 | Event Name | Purpose |
 | -------- | ------- |
 | `vama_pref_name_fail ` | failed attempts to update preferred name |
-| `vama_perf_name_success ` | User successfully updates preferred name |
 | `vama_prof_update_address ` | User submits new address information |
 | `vama_prof_update_email ` | User submits new email information |
 | `vama_prof_update_phone ` | User submits new phone information |
-| `vama_gender_id_help ` | users select What to know before you decide to share your gender identity |
 
 ## Payments
 
 | Event Name | Purpose |
 | -------- | ------- |
-| `vama_prof_update_dir_dep ` | User adds or edits direct deposit deposit account - Pre Nav Update |
-| `vama_update_dir_dep ` | User adds or edits direct deposit deposit account - Post Nav Update |
+| `vama_update_dir_dep ` | User adds or edits direct deposit deposit account |
 
 ## Secure Messaging
 
 | Event Name | Purpose |
 | -------- | ------- |
-| `vama_select_all ` | |
-| `vama_sm_attach ` | |
-| `vama_sm_attach_outcome ` | |
-| `vama_sm_change_category ` | |
-| `vama_sm_folder_open ` | |
-| `vama_sm_folders ` | |
-| `vama_sm_move ` | |
-| `vama_sm_move_outcome ` | |
-| `vama_sm_nonurgent ` | |
-| `vama_sm_notenrolled ` | |
-| `vama_sm_open ` | |
+| `vama_sm_attach ` | User selectes "Add files" |
+| `vama_sm_attach_outcome ` | Successful file selection |
+| `vama_sm_change_category ` | User changes message category |
+| `vama_sm_folder_open ` | User opens a folder |
+| `vama_sm_folders ` | User views folders list |
+| `vama_sm_move ` | User initiates a message move |
+| `vama_sm_move_outcome ` | User has moved a message |
+| `vama_sm_nonurgent ` | User opens "Reply Help" panel |
+| `vama_sm_notenrolled ` | Error message displayed if a user does not have access to secure messaging |
+| `vama_sm_open ` | User opens a message |
 | `vama_sm_save_draft ` | User saves a message in the portal |
 | `vama_sm_send_message ` | User sends message through portal |
-| `vama_sm_start ` | |
+| `vama_sm_start ` | User starts a new message |
 
 ## Veteran Status
 

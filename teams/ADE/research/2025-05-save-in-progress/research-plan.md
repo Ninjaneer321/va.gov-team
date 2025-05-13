@@ -1,12 +1,24 @@
 
-# Research Plan for 2025-05 SiP research study 
+# Research Plan for 2025-05 Save in Progress research study 
 
 ## Background 🏗️
 <details><summary>Briefly describe the background of your product.</summary>
 	
-When VA.gov users are logged in (authenticated) and filling out a form, the "save in progress" alert flashes on and off with every field entry or edit. Because this alert displays *below* the Back and Continue buttons, screen readers never announce it, which is an accessibility issue.
+OCTO aims to improve VA.gov's digital services for all Veterans. Assessibility specialists at OCTO focus on making these digital services accessible for all, especially those with visual and/or cognitive disabilities. Getting user feedback from Veterans who use assistive technologies helps OCTO understand which digital interactions work well and which need improvements to be accessible.
 
-We are testing a modification of the VA Design System [Header - Minimal component](https://design.va.gov/components/header/header-minimal) for the design of new web forms. We have removed the "save in progress" alert, and redesigned the existing "Finish this request later" link that functions like a button. The currently existing line of text about saving will remain on the authenticated version of the form intro page and the first page of the form.
+Saving in-progress work while filling out an online form is an interaction for which the current implementation on VA.gov has two known accessibility issues. This research is being planned to get user feedback on a revised design that may resolve both issues: 
+
+1. While VA.gov users are signed in (authenticated) and filling out a form, the "save in progress" alert (see below) flashes on and then off with every field entry or edit. Because this alert displays *below* the Continue button, screen readers don't announce it, which is an accessibility issue. All users should have access to the same information about the user interface.
+
+2. There's a "Finish this request later" button that looks like a link (see below), which is another accessibility issue. Links that take you to another page should look like links, and buttons that do actions should look like buttons. 
+
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/ADE/research/2025-05-save-in-progress/images/2-a11y-issues.png" width="50%" height="50%">
+
+We are testing a modification of the VA Design System [Header - Minimal component](https://design.va.gov/components/header/header-minimal), which is recommended for the design of new web forms. To address the above accessibility issues, we have removed the "save in progress" alert, as well as changed the "Finish this request later" button that looks like a link into looking like a button (see below). We believe that removing the "save in progress" alert will be OK because there is already text about saving on the authenticated version of the form intro page and the first page of the form. One goal of this current research is to get user feedback on the revised design.
+
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/ADE/research/2025-05-save-in-progress/images/2-a11y-issues-fix.png" width="50%" height="50%">
+
+Previous research has validated the minimal header component, including its lack of "Back" button (research participants successfully used the "Back to previous page" breadcrumb link at the top of each page). Other research studies have tested various locations for the "Save in progress" alert, and subsequent research studies have documented usability and accessibility issues with those locations. We believe that our new design will work better for Veterans. 
 
 </details>
 
@@ -74,7 +86,7 @@ In addition, user feedback collected on "finish this request later", error messa
 ---
   
 ## Methodology  🛠️
-We will conduct **remote moderated usability testing** to observe research participants filling out an online form while authenticated so that the information entered will be automatically saved before the form is submitted.   
+We will conduct **remote moderated usability testing** to observe research participants filling out an online form. The participants will be logged in so that the information they enter will be automatically saved before the form is submitted. We will be using a **GitHub Codespace** that is accessible to screen readers and screen magnifiers. 
 
 Sessions will be conducted over Zoom with transcripts. 
 
@@ -85,11 +97,8 @@ This is remote research over Zoom.
       
 ## Research materials 📔
 
-> [!NOTE]
-> **Your OCTO/VA lead must review and approve all research materials – including this plan –  prior to submitting a recruitment request.**
-
-- `[Link to conversation guide](url TBD)`
-- `[Link to prototype](url TBD)`
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/ADE/research/2025-05-save-in-progress/conversation-guide.md)
+- [Link to prototype](https://bit.ly/4lXVLTV)
 
 	
 ## Recruitment 🎯	
@@ -146,9 +155,8 @@ We would like Perigean to recruit assistive tech (AT) users and non-AT users.
 
 1. How long have you been using this screen reader or screen magnifier? 
 
-    1. Less than 2 years *(DISQUALIFY)* 
-    1. 2-5 years *(ask next question)*
-    1. More than 5 years *(ask next question)* 
+    1. Less than 1 year *(DISQUALIFY)* 
+    1. At least 1 year *(ask next question)* 
 
 1. What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session? *(open text field--RECORD what they say AND ask the rest of the questions)*
 
@@ -183,20 +191,17 @@ We would like Perigean to recruit assistive tech (AT) users and non-AT users.
 Before recruitment starts, we would like to **request a kickoff call with Perigean** to align on recruitment criteria and terminology for screener questions in the survey and emails that will be sent to Veterans. We would also like to discuss the relative priorities of recruitment criteria.  
 
 Cindy is available for a kickoff call during any of these times: 
-- **DATE TBD** TIME RANGE TBD pm ET
-- **DATE TBD** TIME RANGE TBD pm ET
+- **May 2**: 12-5 pm ET
 
 **Prior to the kickoff call, we would like a link or screenshot of the recruitment survey** for this study to review beforehand.
 
-
-> [!NOTE]
-> **Send pilot participant email in study Slack channel**
-
-- `Pilot participant name:` **TBD**
-- `Date and time of pilot session:` **TBD** 
+- `Dates and times of pilot sessions:` 
+  - **Mon May 5 from 3:30-5 pm ET** with Sarah Koomson
+  - **Tue May 6 from 4-5:30 pm ET** with Maria Mutia
+  - **Wed May 7 from 4-5:30 pm ET** with Evan Burnett
 
 ### Research sessions
-- `Planned dates of research:` **May 8-19**
+- `Planned dates of research:` **May 12-21**
 
 We would like to request that **Perigean calls each participant** to remind them about the session, in addition to emailing them. And please include the session time **in each participant's own time zone** (from their address).
 
@@ -210,11 +215,6 @@ We would like to request that **Perigean calls each participant** to remind them
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
 
-- `May 8, Thu, 12 - 1 or 1:30 PM ET`
-- `May 8, Thu, 2 - 3 or 3:30 PM ET`
-- `May 8, Thu, 5:30 - 6:30 or 7 PM ET`
-- `May 9, Fri, 3:30 - 4:30 or 5 PM ET`
-- `May 9, Fri, 5:30 - 6:30 or 7 PM ET`
 - `May 12, Mon, 12 - 1 or 1:30 PM ET`
 - `May 12, Mon, 5 - 6 or 6:30 PM ET`
 - `May 12, Mon, 7 - 8 or 8:30 PM ET`
@@ -234,7 +234,14 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - `May 19, Mon, 2 - 3 or 3:30 PM ET`
 - `May 19, Mon, 5 - 6 or 6:30 PM ET`
 - `May 19, Mon, 7 - 8 or 8:30 PM ET`
-  
+- `May 20, Mon, 12 - 1 or 1:30 PM ET`
+- `May 20, Mon, 2 - 3 or 3:30 PM ET`
+- `May 20, Mon, 5 - 6 or 6:30 PM ET`
+- `May 20, Mon, 7 - 8 or 8:30 PM ET`
+- `May 21, Mon, 12 - 1 or 1:30 PM ET`
+- `May 21, Mon, 2 - 3 or 3:30 PM ET`
+- `May 21, Mon, 5 - 6 or 6:30 PM ET`
+
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
 - `Moderator:` **Cindy Merrill**	
@@ -247,4 +254,4 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 
 ## Approvals ✅
 - `Reviewed by Martha Wilkes, OCTO Accessibility Strategist/Designer, on 04-22-2025`
-- `Reviewed by Shane Strassberg, Research-Ops Lead, on [MM-DD-2025]`
+- `Reviewed by Shane Strassberg, Research-Ops Lead, on 04-30-2025`

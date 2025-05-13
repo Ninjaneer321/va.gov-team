@@ -1,4 +1,4 @@
-# Conversation Guide for 2025-05 SiP research study 
+# Conversation Guide for 2025-05 Save in Progress research study 
 
 # Moderator logistics 📋✅
 **Before all sessions**:
@@ -10,21 +10,25 @@
 - Check Settings > Meeting > In Meeting (Basic) > Hide participant profile pictures in a meeting ON
 
 **10-15 min before each session**: 
-- Slack Perigean notetaker the link to notes doc in github
+- **START the Codespace**:
+
+  1. Open the stop/start URL in github
+  1. Click on green "<> Code" button
+  1. In the Codespaces tab, click on the ellipsis (...) next to your Codespace (va-public-musical space goggles)
+  1. Select "Open in browser".
+  1. See "Setting up your codespace", and a browser tab w/command window
+  1. Ctrl-Shift-P > view > View Creation Log > see in terminal window at bottom
+  1. Check for all green text, and "Setup complete" (if anything red, slack Alex Taker)
+  1. Open standalone browser window with prototype: **https://bit.ly/4lXVLTV** (https://musical-space-goggles-7wxj74rqgvpfv9v-3001.app.github.dev/records/request-personal-records-form-20-10206/introduction?loggedIn=false) and test it
+- Sign onto Zoom website as Perigean and start Zoom meeting
+- Slack Perigean notetaker a link to the notes doc in GitHub
 - Post p# and "observer instructions" in #feedback-backchannel
   - @mention observers
   - Share brief summary of participant demographic info
   - Mural link for notetaking
-
-**5-10 min before each session:** 
-- Sign onto Zoom website as Perigean and start Zoom meeting
 - Wear HEADPHONES to prevent the user's screen reader from echoing back to them
-
-- Open standalone browser window with prototype: **URL TBD**
-- Paste link into Zoom chat (but don't hit enter)
-
+- Paste prototype link into Zoom chat (but don't hit enter)
 - Do Not Disturb ON so no notifications
-
 - Make sure everyone is muted except me and the participant
 
 When the participant is ready, turn on your camera and begin session with the intro
@@ -41,22 +45,21 @@ I have a colleague with us in this session who will be taking notes.
 *(if applicable)* [accessibility specialist] is also in this meeting to help with any technical issues that may arise with your use of assistive technology during this session. 
 
 There are a few of my teammates who would like to observe this session as well. **Would it be OK with you if I invited them to join us?**
-- *(If participant seems hesitant or unsure or uncomfortable)* Just so you know, my teammates will be muted and off camera and you won't have to interact with them. You also have the option to keep the session just the two of us plus the notetaker.
+- *(If participant seems hesitant or unsure or uncomfortable)* Just so you know, my teammates will be muted and off camera and you won't have to interact with them. You also have the option to keep the session just the two of us plus the notetaker (and the technical support person).
 - *(If yes, let them in--3-4 MAX. If no, post to #feedback-backchannel "Sorry, the participant doesn't want any observers in this session.")*
 
 - *(OBSERVERS JOIN w/cameras ON )* We have a few people from the team listening in today: there's [NAME] *(wave or say "hi")*, [NAME] *(wave or say "hi")*, etc. *(If I don't know the name of one of the observers, ask them to please turn on their camera and say their name aloud)*
 
 Could the observers please turn their cameras off now to save bandwidth? 
 
-Today we're going to talk about filling out VA forms online. I'm going to ask you a few questions, and then I'll ask you to do some specific tasks using a website that I will share with you.
+Today we're going to talk about filling out VA forms online. I'm going to ask you a few questions, and then I'll have you do some specific tasks using a website that I will share with you.
 
 Before we start, I want to go over a few things:
 
-- **This entire session should take about 60 (or 90) minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
+- **This entire session should take about 60 (or 90) minutes.** I want to be sure not to keep you longer, so I may occasionally prompt you with the next question or topic.
   
 - **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. We're testing a website to learn how we can make it easier to use. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
-  
-- **Your participation in this interview is completely voluntary.** You do not have to participate if you don't want to. Whether you choose to participate or not will not affect your benefits in any way with the VA. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Just let me know.
+- **Your participation in this interview is completely voluntary.** Whether or not you choose to participate will not affect your benefits with the VA. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Just let me know.
 
 - I would like to record my screen and audio to confirm that I’ve captured your opinions accurately and sometimes share video clips with our colleagues at the VA to show user feedback. If we do this, we don’t link anything you choose to share in the session to any information that identifies you, and we remove your face and name from any videos that we share.
 **Knowing this, are you comfortable if I record my screen and audio as we talk today?**
@@ -67,11 +70,11 @@ Before we start, I want to go over a few things:
 *(If participant asks you to NOT record)* Are you comfortable if I save the transcript of the session? *(If not, take good notes!)*
 
 - I have started recording. I'd like to confirm: 
-  - **Are you comfortable if I record my screen and the audio as we talk today?** Yes/No
+  - **Are you comfortable if I record my screen and the audio as we talk today?** Yes / No
  
-- **Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners if we remove any information that can be used to identify you?** Yes / No
+  - **Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners as long as we remove any information that can be used to identify you?** Yes / No
 
-In the bottom toolbar of the Zoom window, click the arrow next to **SHOW CAPTIONS** > **View Full Transcript** > Save. (NEED TO DO THIS TO GET TRANSCRIPT)*
+In the bottom toolbar of the Zoom window, click the arrow next to **SHOW CAPTIONS** > **View Full Transcript** > Save (NEED TO DO THIS TO GET TRANSCRIPT)
 
 *After checking that transcription is working, close the Transcript panel by clicking **Close Full Transcript** in the Show Captions menu.*
 
@@ -99,11 +102,15 @@ Let’s start with a few questions...
 
 1. What web browser do you use? *(Chrome / Firefox / Edge / Safari / _______)*
 
+1. I will be sharing a web page link with you during the session. How would you prefer to receive the URL? I could dictate it to you, put it in the Zoom chat, email it to you, or *(for smartphone only)* text it to you. *(RECORD)* 
+
+   - *(If text or email)* Could the notetaker please text/email the link now? (https://bit.ly/4lXVLTV)
+
 ### For only assistive tech users
 
-4. What assistive technology are you using right now? *(screen reader / magnifier _______________________)*
+5. What assistive technology are you using right now? *(screen reader / magnifier _______________________)*
     - *(If **Dolphin** screen reader, won't be able to share screen on Zoom)*
-    - *(if no AT)* Do you sometimes use assistive technology? 
+    - *(if no AT)* Do you sometimes use assistive technology while using VA.gov or filling out a form online? 
       - If so, what do you use and when? 
         - Would you be willing to start using it now in this session? 
         - *(if not, run session w/o AT, or stop and ask Perigean for a replacement participant)*
@@ -119,13 +126,11 @@ Let’s start with a few questions...
 
 ### For everyone
 
-9. I will be sharing a web page link with you during the session. How would you prefer to receive the URL? I could dictate it to you, put it in the Zoom chat, email it to you, or *(for smartphone only)* text it to you. *(RECORD)* 
+10. What VA benefits, if any, do you have experience with? 
+    - *RECORD: health care / education / career services / disability / home loan / pension / life insurance / burial benefits / none / __________*
 
-1. What VA benefits, if any, do you have experience with? 
-    - *RECORD: health care / education / career services / disability / home loan / pension / life insurance / burial benefits / __________*
-
-1. Have you filled out a VA form online before? 
-- If so, can you tell me about your most recent experience? How did it go?
+1. Have you ever filled out a VA form online before? 
+   - If so, can you tell me about your most recent experience? How did it go?
 
 
 # User Tasks
@@ -133,120 +138,156 @@ Let’s start with a few questions...
 ## Task 0: Share screen
 
 I would like you to share your screen with me so that I can see what you do during this session. Before we start, I want to make sure you know that screen share will show me your own screen, so if you'd like to close any apps or turn off notifications that you don't want me to see, you could do that now.
-
 - *(refer to Screen sharing instructions above, if needed)*
-- *STOP TECH TROUBLESHOOTING **< 20 min into session** if want a replacement participant from Perigean b/c not likely to be successful*
+- *STOP TECH TROUBLESHOOTING **< 15 min into session** if want a replacement participant from Perigean b/c not likely to be successful*
 
 We can help guide you through this if you need help. Please say what you're doing out loud so that if there are any issues, we'll know what they are.
-
 1. Make sure that the Zoom application has focus
-
 1. Navigate to the screen share button
-
 1. Check the "share sound" checkbox (so we can hear their screen reader speaking)--may have to tab a LOT to get to this in the right pane
-
 1. Activate the screen share
 
-*(If we can't hear the screen reader)* Since I can't hear your screen reader and don't want to interrupt it, after I ask you to do something, I'll try to not say anything until you say that you're done or need help, OK?
+**(If we can't hear the screen reader)** Since I can't hear your screen reader and don't want to interrupt it, after I ask you to do something, I'll try to not say anything until you say that you're done or need help, OK?
 
 
 ## Task 00: Open prototype
 Now I'd like you to open a website that I'm going to share with you. 
 
-I will *[email/text/dictate/put into the Zoom chat]* the URL: ***bit.ly/TBD***
-- *(If text or email)* Could the notetaker please text/email the link?
+I will *[email/text/dictate/put into the Zoom chat]* the URL: **https://bit.ly/4lXVLTV** -- after 4 is the lower case letter "L"
 - *(If asked, reassure that this is a legitimate link to what I want you to test)*
 - *(Might need to hold tablet horizontally so easier to read)*
+- Alex’s backup codespace: https://bit.ly/3Z3Xc9j
 
 Did you get the link? 
 
 - *If “unsupported browser” error, ask to try a different browser or device, or share my screen (works for anyone) and mouse control (doesn't work w/iPhones)*
 - *If prototype doesn't open, copy the URL and open in a new incognito window (Chrome), private window (Firefox, Safari) or InPrivate (Edge)*
 
-**You'll be interacting with a demo form today.** Since it's a demo, note that none of your actions will affect your VA information or benefits.
+Please click the (green) "Continue" button.
+
+**You'll be interacting with a demo prototype today.** Since it's a demo, note that none of your actions will affect your own VA information or benefits.
 
 
 ## Task 1: Form intro page
+[start on unauthenticated form intro page]
+
 I'd like you to take a look at this page, and then use it to get your military records.
 
-Please **talk aloud** about what you're thinking BEFORE clicking on anything.
+Please **talk aloud** about what you're thinking BEFORE clicking on anything. And please share any **thoughts, reactions, and questions** you have about the current web page.
 
-[Sign in to start your request > Start your request]
+[Sign in to start your request > Start your request; *must use enter, not space*]
 
-### Watch for:
-- [Does participant read the "You can save this request" light blue alert? Y / N]
-- [Does participant read the "We'll save your application on every change" Y / N]
-
-## Task 2: Fill out form
-Please continue filling out this form, but I want you to make up a fake name and other information so you don't share any personal information. 
+[When they get to the form:] Please stop here so I can give you the next instruction.
 
 ### Watch for:
-- [Anything about saving info entered]
-- [Anything about the progress bar]
-- [Anything about error messages]
+- [Notice "You can save this request" light blue alert? Y / N]
 
-## Task 3: > SSN--Short break in filling out form
-Pretend that your doorbell just rang, and you want to jump up to answer it. What will you do about the form that you're filling out?
+## Task 2: Fill out form [never reload the page]
+Please fill out this form to request your own military records, but I want you to use fake details so you don't share your personal information with me. 
 
-[leave open in browser / close browser / Finish later button / __________________]
+[If p is quiet] Please talk aloud about any thoughts, reactions, and questions you have.
 
 ### Watch for:
-- [Anything about saving info entered]
-- [Anything about the "Finish later" button]
+- [Notice "We'll save your application on every change"? Y / N]
+- [Anything re the progress bar? Steps vs. screens?]
+- [Anything re error messages? If so:
+  - Do they know what the error means?
+  - Do they know how to resolve the error?
+  - How do they want to find out about errors?] 
+- [Any issues w/field validation on VA file number?]
+
+[Note: If click on anything that goes outside the codespace (e.g., VA logo), you'll see spinning and get stuck. To fix, go back in your browser.]
+
+## Task 3: (After enter SSN, before Continue) Short break in filling out form
+Pretend that your doorbell just rang, and you want to jump up to answer it. What will you do with the form that you're in the middle of filling out?
+
+- [leave open in browser / close browser / Finish later button / __________________]
+
+### Watch for:
+- [Anything re saving info entered]
+- [Anything re the "Finish later" button]
+  - [Noticed "Your records request has been saved"? Y / N]
+
 
 
 ## Task 4: Resume filling out form
-OK, now you're back from answering the door. Please continue filling out the form that you were working on. 
+OK, now let's say that you're back from answering the door. Please resume filling out the form that you were working on. 
 
-[Record how resume: open browser tab / Link on form intro page / Link on My VA]
+- [Record how resume: open browser tab / "Continue your request" button on form intro page / Link on My VA]
 
-[If needed, tell letter to click on to go to Unauth/Auth/My VA]
+- [If needed, tell what to click to go to **Unauth (Lemon) / Auth (Apple) / My VA (Mango)**]
 
+- [Can also get to My VA from header link and from Chris dropdown menu]
 
-### Watch for:
-- [Anything about saving info entered]
-- [See if they go back to previous page to remember what they were doing]
-- [Anything about the progress bar]
-- [Anything about error messages]
-
-
-## Task 5: > RECORDS REQUESTED--Long break in filling out form
-Say that you're really hungry and need to take a long break to make lunch (or dinner). What will you do about the form?
-
-[leave open in browser / close browser / Finish later button / __________________]
-
-*[If "leave open in browser")*, ASK:
- - What if you were filling out this form in a public place, such as a library?
- - If you leave the browser open and go away, you'll be signed out after 30 minutes. What do you think will happen to the information you entered? 
+[If p is quiet] Please talk aloud about any thoughts, reactions, and questions you have.
 
 ### Watch for:
-- [Anything about saving info entered]
-- [Anything about the "Finish later" button]
+- [Anything re saving info entered]
+- [See if go back to previous page to remember what they were doing]
+- [Anything re the progress bar? Steps vs. screens?]
+- [Anything re error messages? If so:
+  - Do they know what the error means?
+  - Do they know how to resolve the error?
+  - How do they want to find out about errors?] 
 
+
+
+
+## Task 5: (After specify records, after Continue) Long break in filling out form
+Say that you're really hungry and need to take a longer break to make a snack/lunch/dinner. What will you do with the form that you're filling out?
+
+- [leave open in browser / close browser / Finish later button / __________________]
+
+- *[If "leave open in browser"*, ASK:]
+     - What if you were filling out this form in a public place, such as a library?
+     - If you leave the browser open and go away, you'll be signed out after 30 minutes. What do you think will happen to the information you entered? 
+
+### Watch for:
+- [Anything re saving info entered]
+- [Anything re the "Finish later" button]
+  - [Noticed "Your records request has been saved"? Y / N]
+
+*[If see “Uncaught runtime errors”, close with “X” (label “dismiss”) in top right corner, Leave site if prompted. Check my browser window to see if codespace shut down. If so, restart it.
+Then have them click on the Apple button to resume/start over.]*
 
 ## Task 6: Resume filling out form (again)
-OK, pretend that you made lunch (dinner), ate it, and it was good. Now you want to get back to the form you were filling out. How would you do that?
+OK, pretend that you just finished your snack/lunch/dinner. Now you want to get back to the form you were filling out. How would you do that?
 
-[Record how resume: open browser tab / Link on form intro page / Link on My VA]
+[Record how resume: open browser tab / "Continue your request" button on form intro page / Link on My VA]
 
-[If needed, tell letter to click on to go to Unauth/Auth/My VA]
+- [If needed, tell what to click to go to Unauth (Lemon) / Auth (Apple) / My VA (Mango)]
+
+[If p is quiet] Please talk aloud about any thoughts, reactions, and questions you have.
 
 ### Watch for:
-- [Anything about saving info entered]
-- [See if they go back to previous page to remember what they were doing]
-- [Anything about the progress bar]
-- [Anything about error messages]
+- [Anything re saving info entered]
+- [See if go back to previous page to remember what they were doing]
+- [Anything re the progress bar? Steps vs. screens?]
+- [Anything re error messages? If so:
+  - Do they know what the error means?
+  - Do they know how to resolve the error?
+  - How do they want to find out about errors?] 
 
+[If see "can't submit your request" alert, say:] Don't worry! It's not working because this is a prototype, not a real form.
 
 # Post-Task Interview - 5 minutes
 
-*Type into #feedback-backchannel: "Any questions you want me to ask?"*
+[**Type into #feedback-backchannel**: "Any questions you want me to ask?"]
 1. Overall, about everything on the website in this session...What worked *well* for you?
 1. What was *unclear or didn't work well* for you?
+     - [If they say nothing, could ask:] What, if anything, did you find annoying?
 1. What would you like to *change or add*?
-1. *(if haven't already talked about saving)* When do you expect the information you enter into an online form to be saved?
+1. What kinds of online forms have you filled out before?
+     1. health care / education / other government form / online purchase /  _________________? 
+     1. How does the process of filling them out compare to the VA form you just filled out? 
 
-     *1. Before / after submitting?*
+1. When do you expect the information that you enter into an online form to be saved?
+
+     1. [After every field / page / Finish later / Continue button / only after submitting?]
+     1. If you walk away from the web page without clicking anything, what do you think will happen to the information you entered?
+     1. [Do they recognize that their information is being saved all the time? Y / N]
+
+1. If you had a magic wand and could change *anything* about *how we save your information* before you submit a form, what would you want?
 1. Is there anything else that we haven't talked about that you think I should know? 
 
 ## Thank You and Closing - 3 minutes
@@ -267,19 +308,26 @@ Thank you so much again, and I hope that you enjoy the rest of your day!
 
 ## After Session 
 - Click "End" on zoom website
-- Return to form to continue form and click **Start a new request** to remove all info entered
+- Return to form and click **Start a new request** to remove all info entered
 - Download recording and closed caption (.vtt file)
 - Rename and save transcript file from Finder
 - Download notes
 - Debrief to my spreadsheet
+- **STOP the Codespace**:
+  1. Open the stop/start URL in github
+  1. Click on green "<> Code" button
+  1. In the Codespaces tab, see green dot and "active" next to the name of your codespace (va-public-musical space goggles)
+  1. Click on the ellipsis (...) next to your codespace 
+  1. Select "Stop codespace"
+
 
 ## Approvals
-- Martha Wilkes, OCTO Accessibility Strategist/Designer, on [MM-DD-2025]
-- Shane Strassberg, Research-Ops Lead, on [MM-DD-2025]
+- Martha Wilkes, OCTO Accessibility Strategist/Designer, on 4-28-2025
+- Shane Strassberg, Research-Ops Lead, on 04-30-2025
 
 
 # Emergency Exit 🚨
 
-We have covered all the questions I have for you today. Thank you so much for your time and feedback.
+We have covered all the questions I have for you today. Thank you so much for your time and feedback!
 
 

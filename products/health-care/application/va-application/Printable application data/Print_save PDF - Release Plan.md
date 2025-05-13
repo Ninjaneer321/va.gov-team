@@ -21,7 +21,7 @@ Before enabling your feature toggle in production, you'll need to:
 - [x] Work any downstream or dependant systems proactively to ensure that the feature is ready for use once it hits production.
 - [ ] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
   - [ ] review the plan with your DEPO/OCTO representative.
-  - [ ] review the release plan with your team.
+  - [x] review the release plan with your team.
 
 ## Step 3: Production rollout
 
@@ -36,12 +36,15 @@ Before enabling your feature toggle in production, you'll need to:
 
 #### Rollout Planning
 
-- Desired date range: 4/22/2025 - 4/25/2025
+- Desired date range: 4/29/2025 - 5/5/2025
 - How will you make the product available in production while limiting the number of users who can find/access it: We will use the feature toggle to limit the exposure to a percentage of users
 - What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?:
   - Successful link access and actions (printing/saving)
-  - Error rates above zero
-- Links to the dashboard(s) showing "success criteria" metrics: [Datadog action tracking](https://vagov.ddog-gov.com/notebook/12606?cell_id=b043htjf&tpl_var_action.name=%2A) and [Datadog Service tracking](https://vagov.ddog-gov.com/apm/resource/healthcare-application/rack.request/fed2018843dbdd46?query=env%3Aeks-staging%20operation_name%3Arack.request%20resource_name%3A%22V0%3A%3AHealthCareApplicationsController%23download_pdf%22%20service%3Ahealthcare-application&env=eks-prod&fromUser=false&start=1744641831958&end=1745246631958&paused=false)
+  - Error rates (should not be above zero)
+- Links to the dashboard(s) showing "success criteria" metrics:
+  - [Datadog action tracking](https://vagov.ddog-gov.com/notebook/12606?cell_id=b043htjf&tpl_var_action.name=%2A)
+  - [Datadog Service tracking](https://vagov.ddog-gov.com/apm/resource/healthcare-application/rack.request/fed2018843dbdd46?query=env%3Aeks-staging%20operation_name%3Arack.request%20resource_name%3A%22V0%3A%3AHealthCareApplicationsController%23download_pdf%22%20service%3Ahealthcare-application&env=eks-prod&fromUser=false&start=1744641831958&end=1745246631958&paused=false)
+  - [Datadog monitor](https://vagov.ddog-gov.com/monitors/355136)
 - Who is monitoring the dashboard(s)?: Heather Justice - PM, Brandon Cooper - Engineer, Luis Simauchi - Data Analyst
 
 ### Stage A: Canary
@@ -51,13 +54,15 @@ Before enabling your feature toggle in production, you'll need to:
 
 #### Planning
 
-- Length of time: 4/22/2025 - 1 day
+- Length of time: 4/29/2025 - 1 day
 - Percentage of Users (and roughly how many users do you expect this to be): 25% (approximately 35 users per day)
 
 #### Results
 
 - Number of unique users: [FILL_IN]
-- Metrics at this stage (per your "success criteria"): [FILL_IN] a list that includes KPIs listed in the [Rollout Planning](#rollout-planning) section
+- Metrics at this stage (per your "success criteria"):
+  - Successful link access and actions (printing/saving)
+  - Error rates (should not be above zero)
 - Was any downstream service affected by the change?: [PICK_ONE]: yes | no |  N/A
 - Types of errors logged: [FILL_IN]
 - What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? [FILL_IN]
@@ -66,13 +71,15 @@ Before enabling your feature toggle in production, you'll need to:
 
 #### Planning
 
-- Length of time: 4/23/2025-4/24/2025 - 2 days
+- Length of time: 4/30/2025-5/01/2025 - 4 days
 - Percentage of Users (and roughly how many users do you expect this to be): 50% (approximately 70 users per day)
 
 #### Results
 
 - Number of unique users: [FILL_IN]
-- Metrics at this stage (per your "success criteria"): [FILL_IN] a list that includes KPIs listed in the [Rollout Planning](#rollout-planning) section
+- Metrics at this stage (per your "success criteria"): 
+  - Successful link access and actions (printing/saving)
+  - Error rates (should not be above zero)
 - Was any downstream service affected by the change?: [PICK_ONE]: yes | no |  N/A
 - Types of errors logged: [FILL_IN]
 - What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? [FILL_IN]
@@ -84,13 +91,15 @@ Before enabling your feature toggle in production, you'll need to:
 
 #### Planning
 
-- Length of time: 4/25/2025
+- Length of time: 5/05/2025
 - Percentage of Users (and roughly how many users do you expect this to be): 100% (approximately 140 users per day)
 
 #### Results
 
 - Number of unique users: [FILL_IN]
-- Metrics at this stage (per your "success criteria"): [FILL_IN] a list that includes KPIs listed in the [Rollout Planning](#rollout-planning) section
+- Metrics at this stage (per your "success criteria"): 
+  - Successful link access and actions (printing/saving)
+  - Error rates (should not be above zero)
 - Was any downstream service affected by the change?: [PICK_ONE]: yes | no |  N/A
 - Types of errors logged: [FILL_IN]
 - What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? [FILL_IN]
@@ -100,8 +109,9 @@ Before enabling your feature toggle in production, you'll need to:
 ### 1-week results
 
 - Data source
-     - [Datadog action tracking](https://vagov.ddog-gov.com/notebook/12606?cell_id=b043htjf&tpl_var_action.name=%2A)
-     - [Datadog Service tracking](https://vagov.ddog-gov.com/apm/resource/healthcare-application/rack.request/fed2018843dbdd46?query=env%3Aeks-staging%20operation_name%3Arack.request%20resource_name%3A%22V0%3A%3AHealthCareApplicationsController%23download_pdf%22%20service%3Ahealthcare-application&env=eks-prod&fromUser=false&start=1744641831958&end=1745246631958&paused=false)
+  - [Datadog action tracking](https://vagov.ddog-gov.com/notebook/12606?cell_id=b043htjf&tpl_var_action.name=%2A)
+  - [Datadog Service tracking](https://vagov.ddog-gov.com/apm/resource/healthcare-application/rack.request/fed2018843dbdd46?query=env%3Aeks-staging%20operation_name%3Arack.request%20resource_name%3A%22V0%3A%3AHealthCareApplicationsController%23download_pdf%22%20service%3Ahealthcare-application&env=eks-prod&fromUser=false&start=1744641831958&end=1745246631958&paused=false)
+  - [Datadog monitor](https://vagov.ddog-gov.com/monitors/355136)
 #### Objective: Veterans will find that they want to print and/or save their completed application for future reference
 - Result #1: At least 25% of submissions will show the Veteran selecting to print/save their completed form
 - Result #2: There will be zero errors experienced when Veterans select to print/save their completed form
@@ -120,8 +130,9 @@ Before enabling your feature toggle in production, you'll need to:
 ### 1-month results
 
 - Data source
-     - [Datadog action tracking](https://vagov.ddog-gov.com/notebook/12606?cell_id=b043htjf&tpl_var_action.name=%2A)
-     - [Datadog Service tracking](https://vagov.ddog-gov.com/apm/resource/healthcare-application/rack.request/fed2018843dbdd46?query=env%3Aeks-staging%20operation_name%3Arack.request%20resource_name%3A%22V0%3A%3AHealthCareApplicationsController%23download_pdf%22%20service%3Ahealthcare-application&env=eks-prod&fromUser=false&start=1744641831958&end=1745246631958&paused=false)
+  - [Datadog action tracking](https://vagov.ddog-gov.com/notebook/12606?cell_id=b043htjf&tpl_var_action.name=%2A)
+  - [Datadog Service tracking](https://vagov.ddog-gov.com/apm/resource/healthcare-application/rack.request/fed2018843dbdd46?query=env%3Aeks-staging%20operation_name%3Arack.request%20resource_name%3A%22V0%3A%3AHealthCareApplicationsController%23download_pdf%22%20service%3Ahealthcare-application&env=eks-prod&fromUser=false&start=1744641831958&end=1745246631958&paused=false)
+  - [Datadog monitor](https://vagov.ddog-gov.com/monitors/355136)
 #### Objective: Veterans will find that they want to print and/or save their completed application for future reference
 - Result #1: At least 25% of submissions will show the Veteran selecting to print/save their completed form
 - Result #2: There will be zero errors experienced when Veterans select to print/save their completed form

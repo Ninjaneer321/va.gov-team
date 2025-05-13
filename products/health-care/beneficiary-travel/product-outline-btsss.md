@@ -14,8 +14,8 @@ Staff travel clerks often have to take manual steps to fix, validate, and proces
  
 ## Desired User Outcomes
 
-- Able to interact with travel reimbursement functionality directly on VA.gov and VA Flagship mobile app
-- Able to interact travel reimbursement functionality where it is needed by leveraging an API-first approach
+- Able to interact with travel reimbursement functionality directly on VA.gov and VAHB mobile app
+- Able to interact with travel reimbursement functionality where it is needed by leveraging an API-first approach
 - Enjoy a simple, intuitive experience that meets all VA.gov accessibility, design standards, and performance standards
 - Positive feedback through Medallia
  
@@ -83,6 +83,7 @@ Staff travel clerks often have to take manual steps to fix, validate, and proces
 
 - MVP - Status of a Claim: The Travel Pay Status Page, [now viewable](https://staging.va.gov/my-health/travel-pay/claims) to 100% of Veterans
 - Simple, Mileage-Only Claims (SMOC) on VA.gov - [Initiative brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/initiatives/SMOC/smoc_initiative%20brief.md)
+    - [Now Released](https://staging.va.gov/my-health/appointments/past  
 - Claim Details v2 (Appealing a denied claim) - [Initiative brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/initiatives/claim_details_v2/claim_details_v2_initiative_brief.md)
 - Complex Claims - [Initiative brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/initiatives/claim_details_v2/claim_details_v2_initiative_brief.md)
 
@@ -102,9 +103,9 @@ Staff travel clerks often have to take manual steps to fix, validate, and proces
   - March 20, 2025
  
 - *Target Launch Date - SMOC*
-  - December 2024
+  - March 2025
 - *Actual Launch Date* 
-  - April 2025
+  - April 21, 2025
 - *What date will you evaluate impact after launch (and when do you expect to have your Impact Review)?*
   - June 2025
 

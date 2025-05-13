@@ -35,11 +35,20 @@ Our goal with 3.0 is to redesign the logged-in landing page to be dynamic, actio
 Veterans currently land on a My VA page that is not optimized for immediate action or visibility into time-sensitive updates that are relevant to them. The experience for some sections is static, and Veterans often miss important information or fail to complete important service workflows because these tasks are not highlighted prominently.
 
 How might we reimagine the logged-in landing experience to surface timely, relevant, and personalized actions so that Veterans can confidently manage their benefits and services?
-- To start, we plan to remove much of the static links and content that have built up over time, and instead highlight personalized, dynamic information. 
+- To start, we plan to remove many of the static links and content that have built up over time, and instead highlight personalized, dynamic information. 
 - We intend to[ use new components from the design patterns team that emphasize actions](https://www.figma.com/design/UOx5GSKdZW9GVAjy7078hT/AE-Design-Patterns---Critical-Action?node-id=2-129)
 
+### We’re envisioning this work will be completed in 4 stages: 
 
-## User Outcomes 
+- [Phase 1 - Cleanup and overhaul](https://github.com/department-of-veterans-affairs/va.gov-team/issues/108656)   
+  - Remove static links and sections   
+  - Reorganize / restructured IA
+  - Build/Rebuild using our MyVA Governance Documentation 
+- [Phase 2 - Refocus using Notifications Center Build and Authenticated Menu Revamp](https://github.com/department-of-veterans-affairs/va.gov-team/issues/108657)   
+- [Phase 3 - Enhance card components with dynamic contextual alerts](https://github.com/department-of-veterans-affairs/va.gov-team/issues/108658)   
+- [Phase 4 - Incorporate new dynamic components (eg. GI benefits)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/108659)
+
+ ## User Outcomes 
 
 ### Desired 
 - Veterans are able to see what needs their attention right away (e.g., unread messages, pending document uploads, important deadlines, upcoming appointments).
@@ -51,6 +60,7 @@ How might we reimagine the logged-in landing experience to surface timely, relev
 - Veterans overlook important items due to poor prioritization or information hierarchy.
 - Veterans encounter irrelevant or redundant alerts that lead to frustration or distrust.
 - Veterans encounter static information that is not relevant to them.
+- The new design removes reliable paths to information and tools causing confusion for users. (eg. "the website changes too often," is a refrain we've heard)
 
 ## Business Outcomes 
 
@@ -68,7 +78,7 @@ How might we reimagine the logged-in landing experience to surface timely, relev
 
 ### Key Performance Indicators (KPIs)
 
-NEED TO DISCUSS JUST TOSSED RANDOM THINGS IN HERE 
+NEED TO DISCUSS JUST TOSSED IDEAS IN HERE 
 | Category             | KPI                             |
 |----------------------|-----------------------------------|
 | Ease of use          | Task success rate                 | 

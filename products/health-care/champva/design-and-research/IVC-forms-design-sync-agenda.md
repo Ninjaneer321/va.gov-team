@@ -1,5 +1,202 @@
 # Running Design and Research Agenda
 
+## May 12 2025
+Attendees: Jamie Fiore, Renata Keck, Rachel Pope, Premal Shah, Amanda Klausmeier, Andrea Merrill, Mike Mooney
+### Agenda Topics
+* UX Roadmap
+* Roadmapping New PDF form flow for OHI standalone 
+* CHAMPVA claims: review [resubmission user flows](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1742221275311/1794184f6793a8f3f1a91a54447817403dc39fec?wid=0-1746625930021)
+* 10-10d/OHI merge: supporting docs file upload desk research
+* 10-10d/OHI merge: Medicare Part C exploration and [Medicare card sample images](https://www.figma.com/design/UmAtr3ULQEInMXfNFwP0g0/Application-for-CHAMPVA?node-id=6136-198759&t=sZrw4LDo39h6YNvv-4) 
+* Medallia report
+
+ ### Notes
+**Roadmap**
+- Reviewed what is currently in flight (first week of sprint)
+- Premal asked if claims improvements are in production
+    - Content-only changes are
+    - Example image pages are no
+    - Submissions have a 50% sendback rate now, which is similar to the paper form
+
+**OHI Standalone/PDF Update**
+- New PDF is close to being done to changes need to be made to match
+    - No longer collecting carrier name for Parts A&B
+    - Adding Part C info collection
+    - Adding Part D carrier name
+- Want to wait to release until updated form is available
+    - Can work on it and put it behind a feature flag
+    - Premal will see if there are issues with releasing it before the form
+- Merge will have new version of OHI
+- Will review with engineering in refinement to get estimate/tickets
+- UX tickets can be created now to review in refinement
+
+**Medicare Part C**
+- Jamie shared desk research from Reddit about user understanding on Medicare Part C
+    - Changes made to avoid confusion
+        - Radio buttons instead of checkboxes
+        - Explanatory language for Part C so users understand why A and B info is requested
+- Amanda suggested good future state would be to pull the info from the uploaded card instead of making user enter it
+    - Premal (in chat) mentioned pulling in info from CMS via API
+    - Andrea suggested training AI to get info from the image
+- Premal mentioned just asking for info instead of card upload - this would match the 1010ez
+
+**Medicare card images**
+- Part C card and Part D card are different from the A & B card
+    - Is there a sample card for each that we can use so we have examples for all card types?
+    - Can also mock up in image in Figma
+- Per Premal, should only include examples if there is a standard card enforced by CMS. Otherwise cards could look different.
+- Amanda asked about accessibility
+    - This was reviewed by CAIA (previous team) for accessibility and alt text was needed
+    - Current content team would need to review alt text
+- It’s possible the different card images could create more confusion, especially if user’s card doesn’t match
+    - If 1010ez doesn’t have upload or image and there are no issues, do we need this?
+    - We can leave as-is and collect more data to see if there is any confusion around C and D cards
+    - Renata can ask 1010 team why they don’t ask for the card upload
+    - We can ask stakeholders what issues they’re seeing with submissions and see if the cards/card info come up
+- For A and B images, can we get them from CMS somehow?
+    - Probably okay to use if from CMS site and current
+    - No direct connection to ask
+    - Content team possibly could coordinate
+    - Jamie will ask CMS teams at Ad Hoc to see if they have insight/options.
+
+**Claims Resubmission**
+- Third flow shows checkboxes that match the sendback letter
+- We can prototype this flow to show to stakeholders for feedback
+- Premal asked about dependency on PEGA
+    - We can put a feature flag on any work
+    - Angela had mentioned that it could be moved up in PEGA’s backlog so it might happen sooner
+- Premal expressed some concern that flow doesn’t match the benefits flow
+    - They don’t use PEGA for status so unclear if we’d be able to do the same thing
+    - This flow works for unauthenticated users as well
+    - Maybe something we can work towards in the future
+- Can discuss flow with stakeholders, but not implementation
+    - If they’re interested in moving forward after seeing flow, we can discuss PEGA work
+
+**Action Items**
+- Medicare flow
+    - Discard sample images for C and D cards
+    - Get C/IA sign-off before engineering works on it
+    - Team will send email to ask about known issues with OHI/Medicare
+- File upload desk research
+    - Still in progress
+    - Rachel will send out link to Mural when complete
+- Medallia research
+    - Renata will post link to findings when complete
+
+
+## May 5 2025
+Attendees: Jamie Fiore, Premal Shah, Amanda Klausmeier, Renata Keck, Andrea Merril
+### Agenda Topics
+* UX Roadmap
+* Discuss Amanda's role and how we can potentially lean on peer reviews for most items and pull her in on larger initiatives or escalations
+* Quick overview of the research goals and prototype strategy for the 1010d Supporting Docs Research
+* Review the claims supporting doc page mockups for C/IA
+* Get final feedback for 1010d/OHI flows
+* (If time permits) Roadmapping New PDF form flow for OHI standalone [**not covered in meeting, shift to 5/12 agenda**]
+
+ ### Notes
+ **UX roadmap**
+* Claims backlog
+    * How are we getting backlog numbers? Premal has provided backlog, we'll be doing the quick math and providing that to eng to add to the page. 
+    * **AI**: IVC team will wait for green light from Premal for adding backlog numbers to claims pages until the backlog improves a bit
+
+**Amanda's role and IVC UX processes**
+* Amanda will attend the weekly design syncs so we can surface what's in flight, ping Amanda for any escalations and/or tag Amanda for review on UX docs
+	* Amanda to review any artifacts coming out of escalations or for large-scale work, like the 10-10d/OHI merge.
+ 	* For research, make sure we've discussed prototypes, strategy and research methods. Confirm with research ops about what level of review of research plan docs is required
+* **AI**: IVC team to add peer review AC to UX tickets, only tag Amanda for review if work fits the criteria above ^
+
+**Supporting docs vs. 1010d/OHI merge research**
+* Looking at high impact for the remainder of the contract. Supporting doc vs 1010d/merge user research. Should we concentrate on testing the merge and hope that we get insights on supporting docs during the tests?
+	* Are we asking for the right docs that fulfill business requirements? We did that when we did the supporting doc inventory.
+ 		* Main research question on the 1010d/OHI merge: is it helpful or harmful to the users?
+ 		* Main research question on the supporting docs: where do users expect to upload their supporting docs
+* Trying to answer both of these questions in one study may muddy the research/feedback.
+* If time and budget wasn’t a factor how would we run both studies perfectly?
+	* We would do the supporting docs research through Optimal Workshop and then use a full user study to answer is “it helpful or harmful to the users to merge the 2 forms”
+ 	* Might be able to use V0 to create a testable prototype faster for the 1010d/OHI merged form
+  	* For 1010d/OHI merge MVP, we may be able to use some best guesses from past research to support supporting docs
+  		* V3 file upload has been blocked by a bug. No other teams are using V3. It’s not launch blocking at staging review.
+* Amanda prefers doing the 2 studies (optimal workshop / V0 prototyping for the merger)
+	* We feel like the merge research is higher priority than the supporting docs. We already have insights and desk research to lean on the supporting docs.
+ 	* UX can spin up a card sort pretty quickly
+  	* For 10-10d/OHI, UX can run data analysis while still running usability tests for the merge to help analysis go quicker
+* **AI**: UX to look into this for supporting docs
+* **AI**: UX to look into creating the research plan for merge
+
+**Claims supporting docs page (for C/IA review)**
+* Supporting docs alert will use dynamic name/pronouns so the user knows which individual's provider to request a superbill from. 
+    * Should this be a fast-follow, or part of CHAMPVA claims relaunch? Worst case this would delay the redeploy until the end of the week
+* **AI:** turn back on the form today, to 75%, and make this a fast-follow. Monitor sendback rates closely. 
+
+**10-10d/OHI merge mocks**
+* Medicare loop: 
+    * Multi-select to radio buttons on applicant screen for OHI
+    * Updated effective dates for A/B screen (if applicant has Part C) and added context to explain to the user
+* **AI:** Complete internal UX team review of mocks, then ping Amanda for review once completed. 
+
+
+## April 28 2025
+Attendees: Jamie Fiore, Premal Shah, Jina Ryu, Amanda Klausmeier, Renata Keck, Rachel Pope, Andrea Merril
+
+### Agenda Topics
+* UX Roadmap
+* ChampVA Claims supporting docs
+  * content changes
+  * birth/marriage certificate removal
+* 1010d/OHI merge mocks
+* FMP Claims direct deposit view/edit content
+
+ ### Notes
+* UX Roadmap
+  * No questions or updates needed
+* ChampVA Claims supporting docs
+  * content changes
+     * Reviewed updates to the upload page content
+     * From CHAMVPA Partners: SSN is needed on the claims form not on the billing statement. We will remove it from the upload page
+     * We reformatted the content on the upload page with bulleted sections for the requirement and bolded the document that is being asked for.
+     * Updated intro page to call out specifically what we need to ask for
+     * Can we make it clearer that we need all of the code and not just one? Show the content example of the bolded word “and’ on the Medicare card uploads
+     * Should we spell out diagnostic code and procedure code> We don't think it’s necessary
+     * Are we being too restrictive? Can we accept diagnosis and procedure descriptions rather than code?
+     * Jina suggested to move DX higher on the list
+     * Should we move the statement about missing info to the top?
+     * Action items:
+       * Move DX higher on the list
+       * Reformat or add content to make it clearer that DX and CPT codes are both required
+       * Jina to find out what other teams use as requirements on their reimbursements.
+       * Add the term “superbill” to the upload itemized billing statement
+
+  * birth/marriage certificate removal
+     * Do supporting docs eventually get to VBA from the application?
+     * Future state: we may be able to show them a list of dependents that they have in VBA
+     * Premal is leaning towards leaving the docs in the 1010d until we learn more about VBA. Can we (IVC) send it to VBA directly?
+     * Can we add content about why we are asking for it or ask them to add a dependent prior to completing the form?
+     * We should get more understanding about the VBA and what users are expecting. Users expect to upload these docs. It gains trust.
+     * Action items:
+        * Leave the Marriage docs for stepchildren and birth certs for all dependents in as required to eliminate the risk of sendbacks.
+        * Add content to the Marriage doc that informs applicants why we need this doc.   
+
+* 1010d/OHI merge mocks
+   * Jamie did a high level review of the completed Figma file (placement of supporting docs TBD)
+   * Action items:
+      * We need to update the Applicant question in the Medicare loop to radios instead of check boxes. 
+
+* FMP Claims direct deposit view/edit content
+  * Should we require users to add a bank account if they don't have one set up in VA Profile? Premal doesn't want to require it yet because we need to confirm if we are pulling from the VA profile fields.
+  * We need to confirm if the other groups that are using VA profiles are ok with adding/editing the bank accounts.
+  * Which products will be affected by this? There’s a chat in slack channel that includes which products share the bank account info
+  * Premal is ok on this for the next iteration but need to know if we want to force a direct deposit with no opt out.
+  * We will need content updates. Rachel can make sure suggestions on that.
+  * FMP is already forcing direct deposit now for users that already have it set up for other programs but need to ask the business if this is the right move to link everything to one bank account?
+  * We don't want to allow the use of a Mastercard for payments.
+  * Action items:
+     * Ask the business if this is the right move to link everything to one bank account.
+     * Confirm if we are pulling from the VA profile fields.
+     * Confirm if the other groups that are using VA profiles are ok with adding/editing the bank accounts.
+
+
+
 ## April 21 2025
 Attendees: Jamie Fiore, Premal Shah, Jina Ryu, Amanda Klausmeier, Renata Keck, Rachel Pope, Andrea Merril, Mike Mooney
 

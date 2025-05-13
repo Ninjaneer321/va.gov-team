@@ -18,7 +18,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 | QP4  | **Digital Debt Dispute (VBA):** Target Launch in production *| [#82003](https://github.com/department-of-veterans-affairs/va.gov-team/issues/82003) | Target Launch in Production May 28, 25 |**[UX+FE+BE]**   | |
 | QP5 | **One Thing Per Page** | [#106610](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106610)| | **[UX+FE]** Plan to extract 1TTP from VHA Payment History work to expedite implementation |  |
 | QP6 | **Pay.gov Hosted Collection Page (HCP) for Overpayments:** Discovery & Design Prototyping *| [#105733](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105733)  |  |**[UX]**  | |
-| QP7 | **Mobile App:** Collaborate with IIR team to add overpayment debt information into mobile app experience |  [#106209](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106209) |  |**[UX]** IIR team responsible for implementation - FM team with expertise in finance space to collaborate closely with IIR |   |
+| QP7 | **Mobile App:** Collaborate with MFS (Mobile Feature Support) team to add overpayment debt information into mobile app experience |  [#106209](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106209) |  |**[UX]** MFS team responsible for implementation - FM team with expertise in finance space to collaborate closely with MFS |   |
 | QP8 | **Veteran Request for Hardship Suspension (VBA):** Discovery & Design Prototyping * | [#106207](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106207) |  | **[UX]** | |
 
 
@@ -32,7 +32,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 ## Sprint Goals - Sprint: 5 [3/26/25 - 4/8/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Complete the March Medallia Report| QPX |--|--|--|
+|UX: Complete the March Medallia Report| QPX |--|04/08/2025|Completed|
 |UX: Discovery meeting with Domo Dashboard Users| FY25Q2 QP4 |--|04/07/25|Completed |
 |UX: Finalize Medallia analytics data reports to run to inform satisfaction metrics| FY25Q2 QP4 |-- | 04/07/25 | Completed |
 |ENG: Initial PR submitted for VA notify callback | QP1 |--|03/28/25|Completed|
@@ -76,13 +76,13 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 ## Sprint Goals - Sprint: 7 [4/23/25 - 5/6/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Wizard & Digital Dispute Usability Study is submitted for approval by Platform. | QP3 QP4 |--|--|--|
-|UX: Process of recruiting Veterans with Perigean for Wizard & Digital Dispute Usability Study begins. | QP3 QP4 |--|--|--|
-|UX: Begin discovery process to understand Pay.gov ask, business needs, and constraints. | QP6 |--|--|--|
-|ENG: Coordinate with DMC to meet to discuss zero silent failure email next steps. | QP1 |--|--|--|
-|ENG: Coordinate with Huron to meet to discuss zero silent failure email next steps. | QP1 |--|--|--|
-|ENG: Launch One VA Debt Letter into production | QP2 |--|--|--|
-|ENG: Launch Wizard into production | QP3 |--|--|--|
+|UX: Wizard & Digital Dispute Usability Study is submitted for approval by Platform. | QP3 QP4 |--|05/05/25|Completed|
+|UX: Process of recruiting Veterans with Perigean for Wizard & Digital Dispute Usability Study begins. | QP3 QP4 |--|05/06/25|Completed|
+|UX: Begin discovery process to understand Pay.gov ask, business needs, and constraints. | QP6 |--|05/05/25|Completed|
+|ENG: Coordinate with DMC to meet to discuss zero silent failure email next steps. | QP1 |Blocked by DMC|--|Incomplete|
+|ENG: Coordinate with Huron to meet to discuss zero silent failure email next steps. | QP1 |--|04/22/2025|Completed|
+|ENG: Launch One VA Debt Letter into production | QP2 |--|04/28/2025|Completed|
+|ENG: Launch Wizard into production | QP3 |--|05/06/25|Completed|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (04/21/25)
@@ -91,9 +91,33 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
  - [X] VA COR approved the Sprint Goals (04/22/25)
  
 **_Delivery + Notes:_**
+- [X] All goals have been updated in the sprint chart
+- [X] Any Additional details about goals **not** completed will be documented here
+- **ENG: Coordinate with DMC to meet to discuss zero silent failure email next steps.**
+     - The DMC IDT team does not have the capacity to assist the team with this effort.
+     - The Government PO is working with DMC IDT management to determine prioritization of this effort and others.
+
+## Sprint Goals - Sprint: 8 [5/7/25 - 5/20/25]  
+| Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|UX: Complete the monthly Medallia report | QPX |--|--|--|
+|UX: Finish recruiting Veterans with Perigean for Wizard & Digital Dispute Usability Study and for internal pilot sessions | QP3 QP4 |--|--|--|
+|UX: Determine UX limitations on pay.gov | QP6 |--|--|--|
+|UX:  Launch Wizard & Digital Dispute Usability Study | QP3 QP4 |--|--|--|
+|UX: Collaborate with Mobile Feature Support (MFS) Team | QP7 |--|--|--|
+|ENG: Coordinate kickoff call with Pay.gov team to understand scope | QP6|--|--|--|
+|ENG: Continue efforts on Digital Dispute | QP4 |--|--|--|
+|ENG: Define remaining work on One thing per page effort |QP5|--|--|--|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [X] Ready to be sent for approvals (05/05/25)
+ - [X] VA PO & COR sent the Sprint Goals (05/05/25)
+ - [X] VA PO approved the Sprint Goals (05//06/25)
+ - [X] VA COR approved the Sprint Goals (05/07/25)
+ 
+**_Delivery + Notes:_**
 - [ ] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
-
 ---
 
 ## Quarterly Priorities for FY25Q2 (Jan, Feb, Mar 2025)  

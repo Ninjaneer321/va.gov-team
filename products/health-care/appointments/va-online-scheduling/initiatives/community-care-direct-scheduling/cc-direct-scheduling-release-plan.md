@@ -1,9 +1,10 @@
 # Release Plan - Community Care Direct Scheduling
 
 **Important Dates:**
- - [ ] Staging Review -  May 2, 2025
+ - [ ] Staging Review -  05/09/2025
  - [ ] Go/no go Meeting - TBD
- - [ ] Prod Release Pilot - TBD
+ - [ ] Prod Release Pilot (Phase 1) - TBD
+ - [ ] Prod Release Remaining Specialties (Phase 2) - TBD
 
 **Important Links:**
 - [Collaboration Cycle ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/80703)
@@ -19,12 +20,21 @@ A Veteran is able to directly schedule their comunity care appointments for **op
 - Log in to va.gov and access requests and referrals.
 
 ### Rollout Strategy
-[Feature toggles](https://staging-api.va.gov/flipper/features) will be enabled:
-- va_online_scheduling
-- va_online_scheduling_community_care
+[Feature toggle](https://staging-api.va.gov/flipper/features) will be enabled:
+- va_online_scheduling_cc_direct_scheduling
 
+Selection criteria:
+- Veterans with active, non-expired Community Care referrals
+- Specialty: optometry
+
+#### Metrics to Monitor
+**How we will know we were successful**:
+- TBD
+
+**How we will know to roll back**:
+- TBD
 
 ### Rollback Strategy
-Disable feature toggles.
+Disable feature toggle.
 
 ## Phase II: TBD

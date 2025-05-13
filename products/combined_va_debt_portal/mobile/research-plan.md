@@ -1,79 +1,57 @@
-	# Research Plan for Mobile Feature Support Including Military History, Debt Services, April 2025
+	# Research Plan for Mobile Feature Support, Debt Portal: Overpayments and Copayments, May 2025
+
 
 ## Research Goals 🥅	
 
 ### Goals
 
-`1.` **Understand the situations, behaviors, and triggers involved in managing VA debt.**
+`1.` **Understand how users become aware of and locate information about money they owe.**
 
-`2.` **Understand Veterans’ needs for managing their debt.**
+`2.` **Assess how well users understand and interpret their copay and overpayment information.**
 
-`3.` **Determine best organization for debt management.** 
+`3.` **Identify what actions users want to take regarding money owed and evaluate how easily they can find guidance.** 
 
-`4.` **Understand Veterans’ needs for requesting help with debt.**
-  
-### Outcomes
+`4.` **Evaluate the experience of completing actions outside the app.**
 
-Validate whether the following mobile app features will be valuable and usable for Veterans.
-* A Debt Portal displaying both VHA and VBA debt details and statements
-* The ability to make payments toward both VHA and VBA debts
-* A form for disputing debts
-* Access to all available debt letters
+<!-- ### Outcome
+`How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
+- Determine optimal methods and timing for notifications about new debts to guide future design decisions
+- Determine if native app products should be built (or path to external sites will remain) for:
+  - paying copays + overpayment debts
+  - requesting financial help
+  - disputing debts
+- Address and identify accessibility gaps
+- Validate designs for viewing copays + overpayment debts
 
-Assess user interest in the inclusion of:
-* Financial Status Report: full report
-* Financial Status Report: streamlined
-* One VA Debt Letter
+---
 
-Determine how to organize different types of debt: keep them separate (as VBA and VHA currently are on the web), or introduce a combined portal which shows all types together (including any future types of debt added).
+**[Enter outcome here]** 
 
-
-
-
+--- -->
 
 ### Research questions
 
-_Understand the situations, behaviors, and triggers involved in managing VA debt._
-<div style="margin-left: 28px;">
 
-`1.` In what contexts and situations do Veterans manage VA debt?
+**Understand how users become aware of and locate information about money they owe.**
 
-`2.` What tasks are involved in managing their debt?
+`1.` What prompts users to check on or take action regarding money they owe to the VA?  
+`2.` How do users expect to be notified or informed about new debts (e.g., copays, overpayments)?  
+`3.` Can users successfully locate the section of the app with information about money owed?  
 
-`3.` What factors influence when and how they manage their debt?
+**Assess how well users understand and interpret their copay and overpayment information.**
 
-`4.` What makes them take action on their debts?
-</div>
+`4.` Is the overview of money owed (copays and overpayments) clear, complete, and useful?  
+`5.` Can users access and make sense of detailed information for each item?  
+`6.` Do users feel confident they understand what they owe and why?  
+`7.` Do users find access to downloadable PDF copay statements helpful, and would they use this feature?  
 
-_Understand Veterans’ needs for managing their debt._
-<div style="margin-left: 28px;">
+**Identify what actions users want to take regarding money owed and evaluate how easily they can find guidance.** 
 
-`5.` What methods do they use to keep track of and manage their debt?
+`8.` What types of actions (e.g., pay, request financial help, dispute a charge) do users expect to take in the app?  
+`9.` How do users expect to complete each of these actions?  
+`10.` Can users find clear, actionable guidance on how to proceed with each option?  
 
-`6.` What challenges and frustrations do they face with managing debt?
+**Evaluate the experience of completing actions outside the app.**
 
-`7.` What information is most critical for them?
-</div>
-
-_Determine best organization for debt management._
-<div style="margin-left: 28px;">
-
-`8.` How do Veterans conceptualize the different types of debt?
-
-`9.` What is the difference between ways they work with the types of debt? What is similar?
-
-`10.` How would they want their debt to be organized?
-</div>
-
-_Understand Veterans’ needs for requesting help with debt._
-<div style="margin-left: 28px;">
-
-`11.` What information do Veterans require to understand if their debt might be incorrect?
-
-`12.` What sort of support do they need when they believe a debt is incorrect?
-
-`13.` How are they learning about options when they are unable to pay their debt?
-
-`14.` In what contexts are they exploring options for help with their debt?
-</div>
-
+`11.` How do users feel about being redirected to VA.gov to complete actions like requesting help or disputing a debt?  
+`12.` Are users comfortable signing in to a new site and copying/pasting information from the app to complete a payment?  

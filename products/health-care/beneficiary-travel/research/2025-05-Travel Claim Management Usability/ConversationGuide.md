@@ -113,6 +113,7 @@ Just a reminder, we will be using what we call a prototype to accomplish a task 
 
 As we go through this prototype to accomplish the task I'll give you, I'd like you to think aloud. That inner narrative we all have? I'd like to hear it! Again, you are not being tested in any way - the design is being tested. And we want your honest feedback about your experience.
 
+Prototype: https://qr8mnn.csb.app/my-va.html
 
 **Moderator note: Alternate task order**
 
@@ -121,7 +122,7 @@ As we go through this prototype to accomplish the task I'll give you, I'd like y
 
 **From:** My VA landing page
 
-**Task:** Imagine that last week you went to see your PCP at the Cheyenne VA.  After that visit, you submitted a claim request to be reimbursed for the cost of the gas and tolls you incurred going to that visit.  Now, you want to find out what has happened to that claim.  From here, show me where you would look for that information.
+**Task:** Imagine that on May 1 you went to see your PCP at the Cheyenne VA.  After that visit, you submitted a claim request to be reimbursed for the cost of the gas and tolls you incurred going to that visit.  Now, you want to find out what has happened to that claim.  From here, show me where you would look for that information.
 
 Please remember to think aloud and describe what you are looking for.  What are you looking for? 
 
@@ -159,7 +160,7 @@ Please remember to think aloud and describe what you are looking for.
 
 **From:** Denied Claim Details page
 
-**Task:** Now, imagine that several months ago you submitted another claim to be reimbursed for traveling for a visit.  You expected to be reimbursed around $50 for this trip.  However, when you checked your account, you noticed that you were only paid $30.  Now you want to learn more about why you did not receive that $20 gap.  From here, show me where you would look for this information.  
+**Task:** Now, imagine that several months ago you submitted another claim to be reimbursed for traveling for a visit.  You expected to be reimbursed around around $50 for this trip.  However, when you checked your account, you noticed that you were only paid around $20.  Now you want to learn more about why you did not receive that around $30 gap.  From here, show me where you would look for this information.  
 
 Please remember to think aloud and describe what you are looking for.
 
