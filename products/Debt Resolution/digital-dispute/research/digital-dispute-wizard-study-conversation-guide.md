@@ -41,7 +41,7 @@ How are you today?
 
   
 
-I work at VA.gov to help improve access to benefits and services for Veterans like you. This work is meaningful to me because I believe that those who have served have a right to these services. [meaning]
+I work at VA.gov to help improve access to benefits and services for Veterans like you. This work is meaningful to me because I believe that those who have served have a right to these services and benefits. [meaning]
 
   
 
@@ -49,7 +49,7 @@ You’ll notice there are a few people on the call already. They’re my colleag
 
   
 
-My goal today is to learn how easy or difficult it is to use a digital portal we are working on to help you understand how to resolve and resolve your VA bills and debts.
+My goal today is to learn how easy or difficult it is to use a digital portal we are working on to help you understand how to pay or get help with VA overpayment debts.
 
   
 
@@ -61,7 +61,7 @@ Next, I want to explain my role better.
 
   
 
-I am a consultant for the VA and my role is to talk to Veterans like you to understand the challenges you face in the space of VA medical copay billing. I am gathering information to help improve the experience of managing or resolving your VA copay bills.
+I am a consultant for the VA and my role is to talk to Veterans like you to understand the challenges you face in the space of VA overpayment debt. I am gathering information to help improve the experience of addressing or resolving your VA overpayment debt. 
 
   
 
@@ -81,11 +81,9 @@ Your identity will be kept confidential, and any information we take away from t
 
   
 
+I'm going to ask if you are comfortable recordingt his interview - we use recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will be attributed to you directly. 
+
 Are you comfortable if I record my screen and audio as we talk today?
-
-  
-
-We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will be attributed to you directly.
 
   
 
@@ -131,7 +129,7 @@ I want to make sure the next 60 minutes are still good for you today?
 
 -  We like to start off with a lighthearted question to get to know you better.
     
--   What's your favorite thing about Spring?
+-   What’s something you enjoy doing these days—any hobbies or routines? OR What's your favorite thing about Spring?
     
 
 - Thank you for sharing! (personalize response)
@@ -150,6 +148,25 @@ I want to make sure the next 60 minutes are still good for you today?
     
 -   In 1-3 words, what words would you use to describe the process of understanding and resolving your debt in your experience so far?
 
+
+### Prototype (5 minutes)
+
+Let’s go to the next part of the interview where we are going to share a digital experience we’re working on and ask for your feedback. A few things I want you to know:
+
+You'll be interacting with a prototype that may not work exactly the way you expect. 
+Some areas of the prototype will be clickable, and some will not. 
+This is very important to know: since it's a demo, we have used fake, prefilled information, and none of your actions will affect your actual VA information or benefits.
+In this task, we would like to hear your honest feedback. 
+Please comment on what is clear and unclear.
+
+I am going to drop a link in the Zoom chat. When you receive the link, please open the page.
+Send direct link to Debt Portal prototype
+Prototype Link: (https://zyc78g.csb.app/manage-va-debt)
+[Mobile sessions screen share directions]
+[Sharing screen instructions as needed]
+
+
+
 ### Manage your VA debt for benefit overpayments and copay bills [[page](https://zyc78g.csb.app/manage-va-debt)] [2-3 minutes]
 
   
@@ -166,25 +183,18 @@ I want to make sure the next 60 minutes are still good for you today?
 
 -   Take a moment to show me where on the page you would go to get help with your debt [task]
     
-
-  
-
 -   I’d like to bring you attention to the ‘Request financial help’ section. [comprehension]
     
 -   What are your thoughts about this page? Any information missing that you’d like to see?
-    
-
   
-  
+-   Where on this page would you click on if you wanted help with your debt? Can you point out which links, specifically? 
 
 -   Before you click, what do you understand to be the difference between the first link <[Request help with overpayments and copay bills online](https://zyc78g.csb.app/request-help)> and the second <[Learn about other ways to request help with VA debt](https://zyc78g.csb.app/help-options)> [Mental Models]
     
+-   Which link would you most interested in clicking on first? Why?
 
--   Which link are you most interested in clicking on first? Why?
-    
+-   Please click on the Learn about other ways to request help with VA debt link
 
--   Please click into the link you’re interested in
-    
 
   
   
@@ -202,18 +212,23 @@ I want to make sure the next 60 minutes are still good for you today?
 -   What questions do you have after reviewing this page, if any?
     
 -   Which option would you say is relevant to your situation?
-    
--   Can you show me where you might look if you want to see if there is a process to let the VA know that you shouldn’t have this debt [task: finding dispute section]
-    
 
--   If unclear, give a bit more guidance [partial pass]
+- What do you understand to be the difference between the 2 sections, 'appeal the VA decision that resulted in this overpayment' and 'appeal a decision on a waiver request'? (added after interview P2)
+
+- What are the different ways you can appeal a decision on a waiver request based on what you see here? (added after interview P2)
     
+-   Can you show me where you might look if you want to see if there is a process to let the VA know that you shouldn’t have this debt? [task: finding dispute section]
+    
+-   If unclear, give a bit more guidance [partial pass]
+-   Based on what it says here, what is important to know about disputing overpayment debt? 
+-   What could happen after 30 days if you don't make any payments on your debt? [correct answer: could be sent to collections]
+-   Do you have any questions or concerns after reading this paragraph? 
 
 ## Dispute Form
 
 Before we move on to this next section, I have some questions about the pages you just reviewed.
 
-## ‘Wizard’ Post Task Questions (5 minutes)
+## ‘Wizard’  Post Task Questions (5 minutes)
 
 -   What was your overall experience with the pages you reviewed until this point?
 
@@ -224,7 +239,7 @@ Before we move on to this next section, I have some questions about the pages yo
 
 -   We want to know your thoughts on how easy or difficult the experience you reviewed is. When you answer this question, think about how easily you would find information you are most interested in
     
--   On a scale from 1 to 5 with 1 being not easy at all, and 5 being very easy, how easy were the pages you reviewed?
+-   On a scale from 1 to 5 with 1 being not easy at all, and 5 being very easy, how easy were the pages you reviewed? [how easy would it be to find the information you are most interested in?]
     
 -   Why did you rate it a (rating)?
     
@@ -234,21 +249,35 @@ Before we move on to this next section, I have some questions about the pages yo
 -   What are your thoughts on this page?
     
 -   Is anything unclear?
-    
-
+  
+-   Do you have any concerns after reading this paragraph? 
   
 
 ### Prompt
 
   
 
--   Please go ahead and go through this form, imagining you were filling this form out.
+-   Please go ahead and go through this form, imagining you were filling this form out. I want to remind you that the information filled out in this demo is fake information. 
     
 -   Please remember to talk out loud and point out anything that is unclear or confusing
     
 -   I’ll stop you if I have follow up questions
-    
 
+    [Reason for dispute page]
+
+  - Do any of these reasons apply to you? Which one would you select and why? 
+
+    [Reason for dispute page - entry field]
+
+- What type of information would you include in this section?
+
+
+ [ Review and submit page]
+
+ - Do they expand the accordion?
+
+ - Any concerns on this page?
+   
   
 ### DIGITAL DISPUTE MENTAL MODELS
 
@@ -256,7 +285,7 @@ Before we move on to this next section, I have some questions about the pages yo
   
 - How did you feel while completing this form? Were there any moments where you felt frustrated or overwhelmed? If so, why?
 
--   Do you feel confident about what actions you need to take next?
+-   How confident do you feel confident about what actions you need to take next?
   
 -   Did you know this option to resolve your debt existed?
   

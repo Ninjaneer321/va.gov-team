@@ -1,6 +1,6 @@
 # Authenticated Experience Team Intake Process
 
-`Version 3.0` **Updated 4/3/2025:** cleaned up document, added in informational sections
+`Version 3.1` **Updated 5/14/2025**
 
 
 ## Our Team 
@@ -19,7 +19,7 @@ We also have two smaller products, Nametag and the Authenticated Menu.
 - We’re not My HealtheVet as our products support many different benefits, not exclusively healthcare. 
 
 
-## Integration Documentation
+## Implementation Documentation
 
 ### For My VA
 - [Add or Update Features on My VA](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/add-update-features-myva.md)
@@ -31,7 +31,13 @@ We also have two smaller products, Nametag and the Authenticated Menu.
 
 
 ## Our Intake Process
-1. Review Integration Documentation as related to the change you'd like to implement on My VA or Profile.
-   - If there is a task that you are attempting to complete but do not see documented let us know.
-3. [Complete the intake ticket.](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=auth-exp-request.yml)
-4. Reach out to team on the #accountexp-authexp Slack channel for next steps.
+
+An intake form should be completed for **ALL** work being completed on My VA or VA.gov Profile so the Authenticated Experience team can ensure all projects are tracked and documented. This is regardless of what team is adding or updating the feature.
+
+To get started:
+1. Review the implementation documentation linked above that relates to the change you'd like to implement on My VA or Profile.
+   - If there is a change that you are attempting to complete but do not see documented let us know.
+2. [Complete the intake ticket.](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=auth-exp-request.yml)
+3. Reach out to team on the #accountexp-authexp Slack channel for next steps. The team typically responds within 24 - 72 hours.
+
+_Note: Ideally submitting an Intake Ticket should occur before Design Intent but should not occur after Midpoint Review. This allows the Authenticated Experience team time to provide support and knowledge to help reduce deployment timelines._

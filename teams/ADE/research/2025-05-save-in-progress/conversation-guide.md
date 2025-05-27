@@ -33,7 +33,7 @@
 
 When the participant is ready, turn on your camera and begin session with the intro
 
-CHECK SLACK for real-time feedback and questions from observers
+CHECK SLACK for real-time feedback or questions from observers
 
 
 # Intro - 5 minutes
@@ -56,12 +56,12 @@ Today we're going to talk about filling out VA forms online. I'm going to ask yo
 
 Before we start, I want to go over a few things:
 
-- **This entire session should take about 60 (or 90) minutes.** I want to be sure not to keep you longer, so I may occasionally prompt you with the next question or topic.
+- **This entire session may take 60 (or 90) minutes.** I want to be sure not to keep you longer, so I may occasionally prompt you with the next question or topic.
   
 - **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. We're testing a website to learn how we can make it easier to use. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
 - **Your participation in this interview is completely voluntary.** Whether or not you choose to participate will not affect your benefits with the VA. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Just let me know.
 
-- I would like to record my screen and audio to confirm that I’ve captured your opinions accurately and sometimes share video clips with our colleagues at the VA to show user feedback. If we do this, we don’t link anything you choose to share in the session to any information that identifies you, and we remove your face and name from any videos that we share.
+- Finally, I would like to record my screen and audio to confirm that I’ve captured your opinions accurately and sometimes share video clips with our colleagues at the VA to show user feedback. If we do this, we don’t link anything you choose to share in the session to any information that identifies you, and we remove your face and name from any videos that we share.
 **Knowing this, are you comfortable if I record my screen and audio as we talk today?**
   - *(If yes:)* Once I start recording, I am going to confirm once more that you are ok with me recording this session.
 
@@ -87,7 +87,12 @@ In the bottom toolbar of the Zoom window, click the arrow next to **SHOW CAPTION
 - Great, now I can see your screen! Thank you for your patience in figuring this out.
 
 - iPad: **Broadcast screen**
+## Troubleshooting
+- [Avoid **AI Companion**, which is a new option next to “Share” in the Zoom buttons]
 
+- [If see **unpredictable jumping around** behavior and participant is using a browser other than Chrome, ask them to switch to Chrome (this helped with VoiceOver on an iPhone using Safari)]
+
+- [If having **difficulty moving windows around** or opening the prototype, you could request control of the participant’s screen and mouse in Zoom: `<Name>’s screen tab > Request remote control`. Then you can move/resize browser (but not zoom windows/buttons) and type into browser bar. The participant may need to minimize the zoom video view, and drag the zoom buttons to the bottom of the screen so out of the way.]
 
 # Warm-up Questions - 5 minutes
 
@@ -149,6 +154,7 @@ We can help guide you through this if you need help. Please say what you're doin
 
 **(If we can't hear the screen reader)** Since I can't hear your screen reader and don't want to interrupt it, after I ask you to do something, I'll try to not say anything until you say that you're done or need help, OK?
 
+**(If video window is covering up phone screen)** It looks like my zoom video is covering up a lot of your screen. Could you please swipe it off? (Screen reader: swipe right until the video window has focus, and then double tap when you hear "Stash preview".)
 
 ## Task 00: Open prototype
 Now I'd like you to open a website that I'm going to share with you. 
@@ -173,7 +179,7 @@ Please click the (green) "Continue" button.
 
 I'd like you to take a look at this page, and then use it to get your military records.
 
-Please **talk aloud** about what you're thinking BEFORE clicking on anything. And please share any **thoughts, reactions, and questions** you have about the current web page.
+Please **talk aloud** about what you're thinking BEFORE clicking on anything. And please share any **thoughts, reactions, or questions** you have about the current web page.
 
 [Sign in to start your request > Start your request; *must use enter, not space*]
 
@@ -182,10 +188,12 @@ Please **talk aloud** about what you're thinking BEFORE clicking on anything. An
 ### Watch for:
 - [Notice "You can save this request" light blue alert? Y / N]
 
+**(If can’t see zoomed screen)** Is your screen zoomed in? If so, I can’t see that. Could you please tell me how far across the page you can see? And how far down from the top of the page?
+
 ## Task 2: Fill out form [never reload the page]
 Please fill out this form to request your own military records, but I want you to use fake details so you don't share your personal information with me. 
 
-[If p is quiet] Please talk aloud about any thoughts, reactions, and questions you have.
+[If p is quiet] Please talk aloud about any thoughts, reactions, or questions you have.
 
 ### Watch for:
 - [Notice "We'll save your application on every change"? Y / N]
@@ -219,7 +227,7 @@ OK, now let's say that you're back from answering the door. Please resume fillin
 
 - [Can also get to My VA from header link and from Chris dropdown menu]
 
-[If p is quiet] Please talk aloud about any thoughts, reactions, and questions you have.
+[If p is quiet] Please talk aloud about any thoughts, reactions, or questions you have.
 
 ### Watch for:
 - [Anything re saving info entered]
@@ -257,7 +265,7 @@ OK, pretend that you just finished your snack/lunch/dinner. Now you want to get 
 
 - [If needed, tell what to click to go to Unauth (Lemon) / Auth (Apple) / My VA (Mango)]
 
-[If p is quiet] Please talk aloud about any thoughts, reactions, and questions you have.
+[If p is quiet] Please talk aloud about any thoughts, reactions, or questions you have.
 
 ### Watch for:
 - [Anything re saving info entered]

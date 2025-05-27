@@ -1,12 +1,9 @@
-﻿
+﻿# Believe all Domo Workbench jobs have been migrated to v2 at this point
+
 $outputPath = $args[0]
 $queryName = $args[1]
 $pwd = $args[2]
 
-
-# $outputPath = "C:\Users\vacodickss\ETL\1 extracted\IAM SSOe Data\IDme MFA Users" 
-# $queryName = "IDme_Users_By_CSPMethod_And_SECID_2years" 
-# $queryName = "LastUsed by User and CSP"
 
 # ORGANIC (will need to run in splunk to get fresh resultset)
 # pwsh C:\Users\vacodickss\ETL\scripts\ssoe-splunk-client-v1.ps1 "C:\Users\vacodickss\ETL\1 extracted\IAM SSOe Data\IDme MFA Users" "IDme_Users_By_CSPMethod_And_SECID_2years" password
@@ -38,14 +35,7 @@ $uriHistory = "https://vaazviamses100.vha.med.va.gov:8089/servicesNS/apicar/sear
 
 $username = "apicar"
 
-#$pwd = ""
 $password = ConvertTo-SecureString $pwd -AsPlainText -Force
-#$encryptedPassword = ConvertFrom-SecureString -SecureString $password
-#$encryptedPassword
-
-# This doesn't work when run by Domo Workbench
-#$encryptedPassword = "fixme"
-#$password = ConvertTo-SecureString -String $encryptedPassword
 
 if (! $password) {
     "ERROR: ConvertTo-SecureString call failed" >> $logFile

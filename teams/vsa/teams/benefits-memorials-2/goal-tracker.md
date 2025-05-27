@@ -29,6 +29,9 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 | QP9 | **VHA Repayment Plan (10-323)**:  Discovery & Design Prototyping *| [#106208](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106208)|   |**[UX]**   ||
 | QP10| **Payment History (VHA):** Progress development efforts and continue align with Lighthouse * | [#18859](https://github.com/department-of-veterans-affairs/va.gov-team/issues/18859) | Goal to launch June 2025 or sooner | **[UX+FE+BE]** Tremendous User Value! Dependent on Lighthouse team collaboration to build API|   ||
 
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [ ] VA PO approved end of quarter status of Quarterly Goals (0x/xx/25)
+
 ## Sprint Goals - Sprint: 5 [3/26/25 - 4/8/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
@@ -100,20 +103,40 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 ## Sprint Goals - Sprint: 8 [5/7/25 - 5/20/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Complete the monthly Medallia report | QPX |--|--|--|
-|UX: Finish recruiting Veterans with Perigean for Wizard & Digital Dispute Usability Study and for internal pilot sessions | QP3 QP4 |--|--|--|
-|UX: Determine UX limitations on pay.gov | QP6 |--|--|--|
-|UX:  Launch Wizard & Digital Dispute Usability Study | QP3 QP4 |--|--|--|
-|UX: Collaborate with Mobile Feature Support (MFS) Team | QP7 |--|--|--|
-|ENG: Coordinate kickoff call with Pay.gov team to understand scope | QP6|--|--|--|
-|ENG: Continue efforts on Digital Dispute | QP4 |--|--|--|
-|ENG: Define remaining work on One thing per page effort |QP5|--|--|--|
+|UX: Complete the monthly Medallia report | QPX |--|05/20/25|Completed|
+|UX: Finish recruiting Veterans with Perigean for Wizard & Digital Dispute Usability Study and for internal pilot sessions | QP3 QP4 |--|05/13/25|Completed|
+|UX: Determine UX limitations on pay.gov | QP6 |--|05/12/25|Completed|
+|UX:  Launch Wizard & Digital Dispute Usability Study | QP3 QP4 |--|05/14/25|Completed|
+|UX: Collaborate with Mobile Feature Support (MFS) Team | QP7 |--|05/20/25|Completed|
+|ENG: Coordinate kickoff call with Pay.gov team to understand scope | QP6|--|05/12/25|Completed|
+|ENG: Continue efforts on Digital Dispute | QP4 |--|05/20/25|Completed|
+|ENG: Define remaining work on One thing per page effort |QP5|--|05/16/25|Completed|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (05/05/25)
  - [X] VA PO & COR sent the Sprint Goals (05/05/25)
  - [X] VA PO approved the Sprint Goals (05//06/25)
  - [X] VA COR approved the Sprint Goals (05/07/25)
+ 
+**_Delivery + Notes:_**
+- [X] All goals have been updated in the sprint chart
+- [ ] Any Additional details about goals **not** completed will be documented here
+
+## Sprint Goals - Sprint: 9 [5/21/25 - 6/3/25]  
+| Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|UX: Complete R&S (Wizard) and Digital Dispute Study interviews and publish topline summary of early findings (before the full report). | QP3 QP4 |--|--|--|
+|UX: Begin drafting the research plan for pay.gov study. | QP6 |--|--|--|
+|UX: Refine Pay.gov user flows based on stakeholder feedback and tech guidelines. | QP6 |--|--|--|
+|ENG: Implement the ability to use international phone numbers in the portal. | N/A |--|--|--|
+|ENG: Complete at least 5 FE Digital Dispute tickets (66% of the remaining FE tickets for the initiative). | QP4 |--|--|--|
+|ENG: Define, request and begin setup for any provided credentials from pay.gov to be added to the portal environment. |QP6|--|--|--|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [X] Ready to be sent for approvals (05/19/25)
+ - [X] VA PO & COR sent the Sprint Goals (05/20/25)
+ - [X] VA PO approved the Sprint Goals (05//20/25)
+ - [X] VA COR approved the Sprint Goals (05/20/25)
  
 **_Delivery + Notes:_**
 - [ ] All goals have been updated in the sprint chart
@@ -125,10 +148,13 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
   
 | Priority ID | Description | S.Epic |Status | Notes | Launch in Production Goal |   End of Quarter Status |
 |-------------|---------------|-----------------|---------------|  ---------------|  ---------------|    ---------------| 
-| QP1 | Establish One VA Debt Letter PDF in production| [#84175](https://github.com/department-of-veterans-affairs/va.gov-team/issues/84175) | Discovery | Legislative Requirement:Veterans Benefit Transition​ Act of 2018 ( year 7) |  March 2025 |--|
-| QP2 | Launch Wizard updates in production| [#48133](https://github.com/orgs/department-of-veterans-affairs/projects/1514/views/6?pane=issue&itemId=88349041&issue=department-of-veterans-affairs%7Cva.gov-team%7C48133)| In progress |  Dependent on CAIA team collaboration |  March 2025|--|
-| QP3 | Payment History (VHA)  | [#18859](https://github.com/department-of-veterans-affairs/va.gov-team/issues/18859) | TBD |  TBD |  June 2025 or sooner|--|
-| QP4 | CSAT / Medallia Work  | [#102194](https://github.com/department-of-veterans-affairs/va.gov-team/issues/102194) | In Progress |  Collaborating with Contact Center Team |   N/A |--|
+| QP1 | Establish One VA Debt Letter PDF in production| [#84175](https://github.com/department-of-veterans-affairs/va.gov-team/issues/84175) | Discovery | Legislative Requirement:Veterans Benefit Transition​ Act of 2018 ( year 7) |  March 2025 |In Progress - The accessibility requirements for this effort were more complex than expected, requiring additional time and testing to meet required compliance. This work will continue and release in production in Q3.|
+| QP2 | Launch Wizard updates in production| [#48133](https://github.com/orgs/department-of-veterans-affairs/projects/1514/views/6?pane=issue&itemId=88349041&issue=department-of-veterans-affairs%7Cva.gov-team%7C48133)| In progress |  Dependent on CAIA team collaboration |  March 2025|In Progress - CAIA has shifted development implementation plan. This work will continue and release in production in Q3.|
+| QP3 | Payment History (VHA)  | [#18859](https://github.com/department-of-veterans-affairs/va.gov-team/issues/18859) | TBD |  TBD |  June 2025 or sooner|In Progress - Contractual changes with the Lighthouse team caused delays in this work. |
+| QP4 | CSAT / Medallia Work  | [#102194](https://github.com/department-of-veterans-affairs/va.gov-team/issues/102194) | In Progress |  Collaborating with Contact Center Team |   N/A |Completed|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [X] VA PO approved end of quarter status of Quarterly Goals (05/15/25)
 
 ## Sprint Goals - Sprint: 1 [1/24/25 - 2/11/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |

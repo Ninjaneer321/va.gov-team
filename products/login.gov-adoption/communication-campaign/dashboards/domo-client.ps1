@@ -1,4 +1,8 @@
-﻿# example
+﻿# Args are hard-coded until they don't need to be
+# pwsh domo-client.ps1
+
+
+# example
 # pwsh domo-client.ps1 "..\1 extracted\Domo Data\MHV Users with Modern Creds" "mhv-01272025" "68c58f8f-dc38-4634-a3de-41b70991821c"
 
 
@@ -6,11 +10,16 @@ $outputPath = $args[0]
 $fileName = $args[1]
 $datasetId = $args[2]
 
+$clientID = "UPDATE"
+$clientSecret = "UPDATE"
+
+
 $today = (Get-Date).ToString("MMddyyyy")
 
-$fileName = "mhvdata-$($today)"
-$outputPath = "..\1 extracted\Domo Data\MHV Users with Modern Creds" 
-$datasetId = "68c58f8f-dc38-4634-a3de-41b70991821c"
+#$fileName = "mhvdata-$($today)"
+#$outputPath = "..\1 extracted\Domo Data\MHV Users with Modern Creds" 
+#$datasetId = "28736674-a1e7-401d-b26b-ac1fd8e69056"  # test small dataset
+#$datasetId = "0bf90b88-93c7-4b9f-a64f-9324de4561df"
 
 
 
@@ -18,8 +27,6 @@ $outfile = "$($outputPath)\$($fileName).csv"
 $logFile = "$($outputPath)\$($fileName)-log.txt"
 
 
-$clientID = "FIXME"
-$clientSecret = "FIXME"
 $strToEncode = $clientID + ":" + $clientSecret
 $bytes = [System.Text.Encoding]::UTF8.GetBytes($strToEncode)
 $base64authz = [Convert]::ToBase64String($bytes)

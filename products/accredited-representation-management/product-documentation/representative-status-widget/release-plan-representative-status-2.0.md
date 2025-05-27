@@ -6,32 +6,31 @@ Feature Toggle/flag:
 This feature toggle is setup for authenticated users and we can also enable early access in Production to individual users, via email address.
 
 #### Preparing for Release
-- [ ] All "launch blocking" items from Staging Review have been addressed
-- [ ] All "Before release" items have been addressed
-- [ ] Analytics request is submitted, for Domo dashboard updates
-- [ ] Monitoring in Datadog is setup, for Profile
-- [ ] Contact Center Review is submitted 
-- [ ] Privacy, Security, IA Readiness Review is complete
+- [x] All "launch blocking" items from Staging Review have been addressed
+- [x] All "Before release" items have been addressed
+- [x] Analtyics Request for Domo dashboard updates - https://github.com/department-of-veterans-affairs/va.gov-team/issues/107490
+- [x] Monitoring in the [Profile Datadog dashboard](https://vagov.ddog-gov.com/dashboard/86m-u8e-z5x/authenticated-experience-profile?fromUser=false&refresh_mode=sliding&from_ts=1746734846272&to_ts=1747339646272&live=true) is setup
+- [x] Contact Center Review - https://github.com/department-of-veterans-affairs/va.gov-team/issues/109902
+- [x] Privacy, Security, IA Readiness Review - https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/issues/3986
 
-#### Go/No Go Meeting
-- [ ] Test the 2.0 Profile and MyVA experience in Production
-- [ ] Review the release plan
-- [ ] Address any open questions or concerns 
-- [ ] Determine a verdict
+#### Go/No Go Meeting Thursday, 5/22 1:00pm ET
+- [x] Test the 2.0 Profile and MyVA experience in Production
+- [x] Review the release plan
+- [x] Address any open questions or concerns 
+- [x] Determine a verdict
 
-**Verdict:TBD**
+**Verdict:GO!**
 
 # Staged Rollout Details
 
 - Limited production access to the v2 features of Appoint a Representative will be controlled through the frontend feature toggle `representative_status_enable_v2_features`
 - Errors will be tracked in Datadog and will trigger a Slack alert to our team channel #benefits-representation-management-notifications, to initiate our rollback process (detailed below)
 
-#### Rollout dates: TBD
+#### Rollout dates: May 22 - June 2, 2025
 _The Profile page typically has ~130k users per week, but it can climb up to ~150k users per week._
-1. Stage A: 5% of users
-2. Stage B: 25% of users
-3. Stage C: 50% of users
-4. Stage D: 100% of users
+1. Stage A: 25% of users (~4.6k users per day) - Thursday, 5/22 + _inform Platform Support in case any issues arise over the holiday weekend_
+2. Stage B: 50% of users (~9.2k users per day) - Tuesday, 5/27
+4. Stage C: 100% of users (~18.5k users per day) - Monday, 6/2
 
 ***
 

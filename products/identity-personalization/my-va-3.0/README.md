@@ -43,7 +43,7 @@ How might we reimagine the logged-in landing experience to surface timely, relev
 - [Phase 1 - Cleanup and overhaul](https://github.com/department-of-veterans-affairs/va.gov-team/issues/108656)   
   - Remove static links and sections   
   - Reorganize / restructured IA
-  - Build/Rebuild using our MyVA Governance Documentation 
+  - [Build/Rebuild using our MyVA Governance Documentation ](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/team/governance/add-update-features-myva.md)
 - [Phase 2 - Refocus using Notifications Center Build and Authenticated Menu Revamp](https://github.com/department-of-veterans-affairs/va.gov-team/issues/108657)   
 - [Phase 3 - Enhance card components with dynamic contextual alerts](https://github.com/department-of-veterans-affairs/va.gov-team/issues/108658)   
 - [Phase 4 - Incorporate new dynamic components (eg. GI benefits)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/108659)
@@ -157,8 +157,10 @@ THIS IS JUST AN IDEA WE CAN CONSIDER -  TO OPERATIONALIZE IT A BIT
 
 
 ## Frontend
+All changes behind: `my_va_auth_exp_redesign_enabled` (a FE & BE toggle)
 
 ## Backend
+All changes behind: `my_va_auth_exp_redesign_enabled` (a BE & FE toggle)
 
 ## Security 
 

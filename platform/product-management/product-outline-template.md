@@ -135,4 +135,3 @@ _What are the measurable targets you're aiming for that delivers value for Veter
 _What offices/departments are critical to make this initiative successful?_
  
 </details>
-

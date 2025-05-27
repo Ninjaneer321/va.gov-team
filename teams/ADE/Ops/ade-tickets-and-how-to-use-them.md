@@ -1,7 +1,7 @@
 # ADE Tickets and How To Use Them
 > [!CAUTION]
 > - This document is a **WIP**
-> - Last updated: April, 15 2025
+> - Last updated: May, 13 2025
 
 ## Overview
 
@@ -74,22 +74,50 @@ This document details how to create, update, and close an ADE ticket, ensuring a
 <details><summary>Expand to view descriptions of the three main ticket types.</summary>
     
 ### ADE Intake Requests
-- [This is the intake for teams to request collaboration with ADE](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=Accessibility-Digital-Experience-Intake-Ticket.md).
-    - During refinement, ADE will attach new work tickets to capture individual support tasks needed.
+[This is the intake for teams to request collaboration with ADE](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=Accessibility-Digital-Experience-Intake-Ticket.md).
+- During refinement, ADE will attach new work tickets to capture individual support tasks needed.
 - You will use the intake ticket to communicate with the product team/stakeholder and share any deliverables.
     - This intake ticket becomes the container for all the work that takes place, relating to this request. 
 ### ADE Work Ticket
-- These are ticket sub-issues created by ADE.
-    - These are based on an intake or stakeholder request stemming from our "menu" of [services we offer](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/ADE/readme.md#services-we-offer).
-        - Our menu outlines the specific work needed from an individual contributor (we have also called these "child" or "task" tickets).
-    - Product teams can see work tickets attached to their intake, but these work tickets are for you to use.
-    - You can add notes in comments and checklists to help you track your progress and move the ticket wherever in belongs in the status swim lanes described below.
+These are ticket sub-issues created by ADE.
+- These are based on an intake or stakeholder request stemming from our "menu" of [services we offer](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/ADE/readme.md#services-we-offer).
+    - Our menu outlines the specific work needed from an individual contributor (we have also called these "child" or "task" tickets).
+        - Product teams can see work tickets attached to their intake, but these work tickets are for you to use.
+        - You can add notes in comments and checklists to help you track your progress and move the ticket wherever in belongs in the status swim lanes described below.
 ### ADE Research Ticket
-- [This is the initial ticket for teams to request collaboration with ADE on research](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=Accessibility-Digital-Experience-Intake-Ticket.md)
-    - This ticket can be opened as a standalone ticket, or be opened after or during an intake request
+[This is the initial ticket for teams to request collaboration with ADE on research](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=Accessibility-Digital-Experience-Intake-Ticket.md)
+- This ticket can be opened as a standalone ticket, or be opened **after** or **during** an intake request
+- **Refinement**:
     - During refinement, ADE will attach new research work tickets to capture individual support tasks needed, based on the selections made in the research ticket.
-        - If a pilot is requested, ADE will attach a pilot ticket to this research ticket.
-        - If AT research support takes place, a research feedback ticket will be opened by ADE for each issue found, and attached to the main research ticket. 
+        - **Pilots**:
+            - If a pilot is requested, ADE will attach [a research pilot ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=ADE-internal-Research-Pilot-Ticket.md) to this research ticket.
+        - **Support Tasks**:
+            - [Research support child tickets](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=ADE-internal-research-refined-ticket-template.md) will be spun up based on the tasks needed:
+                - Review Research Materials
+                - Provide Technical Support
+                - Help with Research Sessions
+        - **Research Feedback**:
+            - If AT research support takes place, [a research child feedback ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=ADE-internal-research-accessibility-feedback-issue-quantification.md) will be opened by ADE for each issue found, and attached to the main research ticket. This is to quantify issues found.
+            - Refer to the following section on research child tickets aka research "sub-issue(s)" for more information. 
+
+#### Child Ticket Creation Workflow for ADE Research
+The following is the child ticket creation workflow for issues found during pilots and research sessions.
+
+##### 1. Share Feedback:
+- Ensure that you share feedback with the research team during the session via the [Slack Feedback Channel](https://dsva.slack.com/archives/C40B45NJK) or preferred method communicated by the research team (eg. Mural, Google Doc, etc.)
+##### 2. Track Research:
+- Update the [research tracker](https://docs.google.com/spreadsheets/d/1IBt-C2nXK9uDMPvFdQ_SEEx6WNJ8ms3gKVkuEVlns0U/edit?gid=2141787939#gid=2141787939) with:
+    - the details of the study (tech, skill, device, etc.)
+    - the number of accessibility issues identified (columns L-S).
+##### 3. Generate Tickets:
+- If any issues were found, create a child ticket “sub-issue” and connect it to the research intake, for each issue.
+    - Use the [new template provided for ADE Research Feedback](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=ADE-internal-research-accessibility-feedback-issue-quantification.md).
+    - This should have the label `ADE Research Feedback`, by default.
+##### 4. Close Tickets:
+- Close the child tickets after connecting them to the research intake.
+    - Please fill all fields in the GitHub ticket (originator team, closed date, sprint, etc) before closing. [Ref. Closing Tickets Section](#Closing-Tickets)
+##### 5. Track Closed Tickets:
+- Ensure all the tickets you closed and all of the ticket’s relevant information are entered into the closed tickets tracker in the sheet for the appropriate sprint.
 
 </details>
 
@@ -133,11 +161,12 @@ We use templates to make it easier to create tickets for specific kinds of work 
 |------------------|------------------|-------------------------------------|
 | [ADE Research Child Ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=ADE-internal-research-refined-ticket-template.md) | Template for ADE Research Child Tickets - based on the work requested in the research intake ticket. These will be created as sub-issues, under the parent research intake ticket. | [ADE Research]:[Team Name][Product][Researching] - [Type of Support Requested]   |
 | [ADE Pilot Research Ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=ADE-internal-Research-Pilot-Ticket.md) | Template for pilots conducted prior to research, created based on requests made to ADE. | [ADE Research - Pilot]:[Team Name][Product][Researching]- [Device Type](Month Year of Research) |
+| [ADE Research Accessibility Feedback Issue Quantification Ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=ADE-internal-research-accessibility-feedback-issue-quantification.md) |Template to utilize following ADE research support for AT, in order to document and quantify the issues identified. These will be created as sub-issues, under the parent research intake ticket. | [ADE Research - Feedback] - [Team Name]: [Study] (Type of accessibility issue encountered) |
 | [ADE Accessibility Short Ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=ADE-Internal-Short-Ticket.md) | Template for ADE members to utilize, when needing to create a ticket outside the intake process such as a child ticket or an internal ADE work ticket. | [ADE Support]:[Team][Product][Requesting] 
 | [ADE 508 Accessibility Audit Support Ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=ADE-Internal-508-Audit-Support-Ticket.md) | Template for ADE members to utilize, when needing to create a 508 Audit Support Ticket as either a primary parent intake ticket c/o email report received by Martha, or as a child ticket aka sub-issue. | **Parent Ticket:** [ADE 508 Audit]: `TEAM NAME`: `PRODUCT AUDITED`: 508 Audit Report Findings Support <br> <br> **Child ticket (sub-issue)** [ADE Support]: `TEAM NAME`: `PRODUCT AUDITED`: 508 Audit Report Findings -`Name of Specific Finding` Issue | 
 | [ADE CC Work Ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=ADE-Internal-CC-Work-Ticket.md) | Template for ADE members to utilize, when needing to create a ticket oustide the intake process such as a child ticket or a parent/epic for work being done to support the CC. | [ADE CC]:[Team][Product][Requesting][Stage] | 
 | [ADE Accessibility Office Hours Ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=ADE-Internal-Office-Hours-Ticket.md) | Template for ADE members to utilize, when needing to create a ticket to track work done to support office hours. Ex. Prepwork before the call. | [ADE Office Hours][Team Name]: [Product] - [Support Requested] | 
-| [ADE Research Accessibility Feedback Issue Quantification Ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=ADE-internal-research-accessibility-feedback-issue-quantification.md) |Template to utilize following ADE research support for AT, in order to document and quantify the issues identified. These will be created as sub-issues, under the parent research intake ticket. | [ADE Research - Feedback] - [Team Name]: [Study] (Type of accessibility issue encountered) |
+
 
 ## Custom Ticket Fields
 This section contains field data that is important for filtering and tracking issues within the ADE pipeline. [^2] 
@@ -171,6 +200,7 @@ This section contains field data that is important for filtering and tracking is
     - **Medium** - important but not as urgent as high priority
   	- **Normal** - default, regular priority
   	- **Low** - not urgent, does not require immediate work. This can be used for items in backlog without current work or actionable next steps. It can also be used for items that can be worked on slowly as time and capacity allows (formerly known as a "chipper"), i.e. long-term initiatives or items with no fixed deadline.
+- **OKR** - Set by Martha, used to indicate the primary OKR the ticket is supporting. 
 - **Sprint** - (required if being worked on or known)Used for planning when the work in this ticket should be scheduled
 - **Blocked by** - used to indicate which OCTO crew is blocking the work
 - **Reason Blocked** - general text field to  add detail to the reason the ticket is blocked
@@ -190,6 +220,7 @@ Sometimes refered to as tags. These allow for ADE to 'tag' which discipline need
     - **ADE MHV** (any ADE support provided to MHV work)
     - **ADE Research** (required for all ADE research tickets)
         - **ADE Research Feedback** (for tracking feedback/findings provided to VFS teams)
+        - **ADE Internal Research** (research conducted by ADE initiated by OCTO and/or ADE)
     - **ADE Transition** (internal label for transition from CAIA)
 - **Collaboration Cycle ADE Labels**
     - **ADE CC AN** (assistance needed for collab cycle work)
@@ -268,6 +299,7 @@ We want to make sure that all of the GitHub Project fields are updated/completed
 - **Estimate** (estimated work effort needed to complete this ticket)
 - **Actual** (actual work effort utilized to complete this ticket)
 - **Priority** (should be set by Martha)
+- **OKR** (should be selected by Martha)
 - **Sprint** (you are closing the ticket)
 - **Last checked**(update throughout the ticket's lifespan and upon closing)
 The ticket in GitHub proper should reflect as closed as well, in addition to the status in GHP.[^5]

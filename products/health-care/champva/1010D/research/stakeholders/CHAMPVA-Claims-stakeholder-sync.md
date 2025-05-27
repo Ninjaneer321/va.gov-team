@@ -1,6 +1,110 @@
 ## CHAMPVA Claims biweekly stakeholder sync
 Every other Wednesday at 2:35pm ET
 
+## 05/22/25 CHAMPVA Claims
+
+**Attendees:** Andrea, Jamie, Renata, Mike, Angela P, Melissa, Joie
+
+### Notes:
+[Mural board](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1742221275311/1794184f6793a8f3f1a91a54447817403dc39fec) \
+
+IVC identified different types of claims based on past conversations emails: new claim, open claims, existing claim (with missing info), re-opened claim 
+
+A claims submission is a **new claim** 
+
+**Partially processed **claims result in a sendback
+
+
+
+* Once a bene provides missing info is there a different term that is used? From Mellssa: An example would be if a bene sent in 2 documents with dates of services at the same time that would count as 2 claims. If only one of those claims can be processed it would result in a partially processed claim. 
+* It happens a lot that there are multiple claims within one claim submission that the bene sends. Some benes might submit claims on a monthly basis. 
+* It will be considered partially processed if one claim in the packet is missing something.
+* A partially processed claim is when some of the claims in the packet were processed.
+* If a bene sends in 5 pages and only four were able to get processed, page 5 is going to be a sendback. 
+* There are times that they can process a claim with multiple missing items and the system will reject it and create an EOB. 
+* CHAMPVA will create a sendback when a claim has two or more missing pieces
+* It would be entered in the system and there was placeholder information that was entered in because they were missing info they would have to reopen the claim. 
+* Anything complete will be processed, anything incomplete will be sent back (but if user submitted multiple claims, it's not stopping processing for the entire submission)
+
+Renata reviewed current claims form (without online resubmission)
+Is there a better term to use rather than “resubmission”? Melissa noted that the sendback letter calls it a “resubmission”. 
+
+**Reopened claims **occurs when the sendback letter and missing items are received \
+If some of claim info is the system and it is just missing codes CHAMPVA will reopen the claim 
+
+The current online claim forms suggest only submitting one claim (date of service) at a time.
+
+
+
+* Bene are sending multiple claims on the digital form despite it stating to only submit one at a time
+* Just as long as the group of visits (dates of service) has the same provider and DX code it can be put in the system as one claim.  \
+
+* If the date spans across 2 calendar years CHAMPVA will break it into the 2 claims in the system
+* In the case of multiple visits per claim users should enter the first date service if they are asked for it. 
+* If a bene submitted for multiple services each claim will get their own unique ID unless they are all by the same provider and the same DX. 
+* CHAMPVA has seen both RX and Medical claims come through in the same online form submission. 
+
+**A resubmission** is resubmitting or adding additional info to a claim \
+
+
+**Reopen claim** was partially processed and has its own claims number and CHAMPVA EOB
+
+IVC is working on document info verification so it could detect if there is any missing info on the file upload. We would need users to upload each doc separately for this to work properly. 
+CHAMPVA will do a demo of a rebsubmission/Reopen next week 5-28/25 \
+
+We still need to ask: 
+
+* Do they need the address and contact info again for resubmission?
+* How do they match it back to original resubmission? Can we see a demo of a resubmission? Pega may be able to to do most of the heavy lifting on matching up the claims and resubs
+* Does the timeline differ for new claims, resubmits and reopens? 
+* What  we are some things that can be missing be won’t result in a sendback or reopen \
+
+
+## 05/14/25 CHAMPVA Claims
+
+**Attendees:** Andrea, Jamie, Rachel P., Renata, Mike, Katrina, Erick, Angela P., Elizabeth, Arleen, Premal, Amanda
+
+**Agenda**
+* CHAMPVA Claims Resubmissions
+* Backlog queues
+* Any new sendbacks data (not addressed, ask over email)
+
+
+**CHAMPVA Claims Resubmissions**
+
+* Jamie walks through the simple resubmission mocks
+    * Claims folks note that PDI numbers aren't being used anymore, been replaced with the batch number (DATE + an 8 digit code = XX/XX/XXXX-VA111111-001-001)...but as a business rule the letter just includes the VA111111 instead of the rest of the code to make it less complicated
+    * Angela P. notes that CHAMPVA needs to change the language on the letter from PDI to batch number
+* Complex resubmission mock walkthrough
+    * No feedback from CHAMPVA
+* Q: Has CHAMPVA claims noticed multiple sendbacks for a single claim happening regularly?
+    * It depends. As benes get savvier, they get more accurate. The first few claims can be the least accurate. 
+    * Likelihood of multiple sendbacks occurs the more things we're asking them to provide. 
+    * CHAMPVA concerned that this shouldn't be designed in too detailed and become a blocker to resubmission. 
+    * Benes can request Duty to Assist when filing claims, which is an obligation to support beneficiaries. Maybe we need to steer more complex resubs in the direction of DTA rather than through the form. 
+* Q: What information is provided on the sendback? Does it say "DX codes" or an explanation of what that is, where it might be found?
+    * A: Letters, especially for pharmacy stuff, gives users context about where to locate missing information on paperwork
+       * Angela P to show us a sendback letter that's filled out, plus a checklist (double check where that checklist is located)
+* Q: we talked at one point about not requiring the number (PDI or batch) in case people lost the letter. Is that still a possibility?
+    * If no PDI/batch number, we need their name and the date of service that's listed on the claim, and the doctor you saw.
+        * Angela P. notes that if the claim wasn't already open in the system, there'd be nothing to look up and marry the two halves of the claim
+    * It's possible when there's a large batch that some were entered into PEGA and others weren't (the ones that required a sendback letter)
+
+
+**Backlog queues**
+
+* Team is currently trying to understand the backlog queues right now and delays. We've heard some things take 5-7 days and other take 90 days to process. 
+    * **CIPM:** all physical mail received goes through CIPM to be scanned. **This is currently a bottleneck.** 
+        * Backlog of physical mail in a warehouse that hasn't been scanned in - for bene claims (about 10% bene claims, the rest of it is appeals and eligibility), that backlog should be cleared soon. Note that provider claims aren't sent the warehouse, they're submitted differently.
+        * Note that when the backlog of scanning mail gets resolved, CHAMPVA will be temporarily prioritizing processing those claims first and digitally submitted claims processing will slow down for a time, at least until the scanned mail is caught up, and then everything is handled at the same rate (first in/first out)
+    * **PEGA:** where digital submissions go. **No backlog of claims**, they're handled almost as soon as they hit the system (resolved within 2 weeks or less). 
+        * Eligibility backlog is also in PEGA, was scanned in already. It's backlogged because of insufficient eligibility staff. More staff modernizing the flow has reduced 60% of the time to input the eligibility queue. 
+* 10x as many faxes are received than any kind of mail for claims. Since eligibility went live, fax/mail has dropped 60%
+    * Resubmits are expensive in terms of time
+    * CHAMPVA claims says digitizing that checklist from Angela P. would be great as a simpler claims submission form (note to team: let's look at the checklist again and think it through). 
+* FMP works the same way, but it's a different processing group and different backlog (currently has a higher volume of faxes and handwritten forms so it shortens from days/weeks to input information into the databases so they can process faster).
+
+
 ## 04/30/25
 **Attendees:** Premal, Amanda, Arleen, Angela C., Angela P., Melissa, Joie, Andrea, Jamie, Rachel P., Renata
 

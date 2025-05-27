@@ -60,7 +60,7 @@ Step 4
 
 ## **Intro - 5 minutes**
 
-Thanks for joining us today! My name is Raquel and Megan Commons is taking notes. I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them...
+Thanks for joining us today! My name is Raquel and Megan is taking notes. I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them...
 
 I have a few things that I want to go over with you:
 
@@ -107,24 +107,31 @@ Before we look at the website, let’s start with a few warm-up questions.
 
 2) When do you log into your VA.gov account? What prompts you?
 
-3) Can you tell me a little about how you typically receive important forms or communications? (e.g. through physical mail, email, etc.)
+3) Imagine you see a section on VA.gov called notification settings. What would you expect to be able to do in the section?
 
-4) How comfortable are you using digital platforms to access information?
+4) When you hear the terms **paperless**, **paper-free**, and **digital online documents**, what comes to mind? Can you describe how you would define each of them in your own words?
+
+5) Are there other similar terms or labels you you prefer above paperless, paper-free, or digital online documents?
+
+6) Can you tell me a little about how you typically receive important forms or communications? (e.g. through physical mail, email, etc.)
+
 
 
 ## **First Task: Feelings toward Digital Communication - 5 minutes**
 
 - Interest in Digital Communications
 
-  - Are you interested in receiving all or some of your documents like the 1095-B tax document, decision letters, or other communications only digitally on VA.gov and not recieve paper copies by mail? Why or why not?
+- Are you interested in receiving all or some of your documents like the 1095-B tax document, decision letters, or other communications only digitally on VA.gov and not recieve paper copies by mail? Why or why not?
 
-  - What would make you more likely to choose digital communication only and not receive paper mail?
+- What would make you more likely to choose digital communication only and not receive paper mail?
 
 - Hesitation to Digital Forms
 
-  - Are there any VA documents or other communication you would prefer to receive by physical mail vs only digitally on your VA.gov account? Why?
+- Can you tell me about your experiences receiving important documents digitally—for example, from the VA or other government services? What made you feel confident or unsure about those experiences? (e.g. privacy, security, reliability, easy of access)
 
-  - Are there any specific concerns you would have about receiving certain documents or communications digitally? (e.g. privacy, reliability, easy of access)
+- Are there any VA documents or other communication you would prefer to receive by physical mail vs only digitally on your VA.gov account? Why?
+
+- Do you have any concerns about switching to digital communication?
 
 
 ### **Things to watch for:**
@@ -158,27 +165,66 @@ Before we look at the website, let’s start with a few warm-up questions.
 
 - We will now provide a prototype for you to interact with. This prototype has limited functionality so do not expect all buttons to work. As you navigate through the prototype please share any thoughts, frustrations, or points of confusion.
 
-[Link to Mobile prototype](https://www.figma.com/proto/DWOjExui9JzyzwhMBWOFkw/Paperless-delivery-opt-in?page-id=639%3A217763&node-id=639-256763&p=f&viewport=3132%2C12765%2C0.44&t=EKzVANrDrYUsm8KA-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=639%3A256763)
+[Link to Mobile checkbox prototype](https://www.figma.com/proto/DWOjExui9JzyzwhMBWOFkw/Paperless-delivery-opt-in?page-id=639%3A217763&node-id=639-256763&p=f&viewport=3132%2C12765%2C0.44&t=EKzVANrDrYUsm8KA-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=639%3A256763)
 
-[Link to Desktop prototype](https://www.figma.com/proto/DWOjExui9JzyzwhMBWOFkw/Paperless-delivery-opt-in?page-id=639%3A269369&node-id=639-269431&p=f&viewport=288%2C179%2C0.07&t=lvddPVVrS8SYhrX0-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=639%3A269431)
+[Link to Mobile radio button prototype](https://www.figma.com/proto/DWOjExui9JzyzwhMBWOFkw/Paperless-delivery-opt-in?node-id=746-184108&t=jYjywdRA1cTmbUwL-1)
+
+
+[Link to Desktop checkbox prototype](https://www.figma.com/proto/DWOjExui9JzyzwhMBWOFkw/Paperless-delivery-opt-in?page-id=639%3A269369&node-id=639-269431&p=f&viewport=288%2C179%2C0.07&t=lvddPVVrS8SYhrX0-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=639%3A269431)
+
+[Link to Desktop radio button prototype](https://www.figma.com/proto/DWOjExui9JzyzwhMBWOFkw/Paperless-delivery-opt-in?node-id=746-173444&t=jYjywdRA1cTmbUwL-1)
 
 - Navigate to where you would expect to update your delivery preferences.
+
+- Based on what you see here, what delivery settings are selected for this account?
+
+- What documents would these settings apply to?
+  
+- How do you feel about being auto opted in to paperless delivery?
 
 - How would you describe what “paperless” means? (expected response: they will not receive mail but instead will access documents on VA.gov)
 
 - Is there a different word you would prefer to use?
 
-- Talk me through how you would update your delivery preferences.
+- Now, imagine you would like to change your delivery preferences, talk me through how you would expect to do that.
 
-- Now that you updated your preferences what would you expect to happen? Will you continue to receive paper mail?
+- Update the prototype to recieve paper mail.
 
 - After updating your preferences, how confident do you feel that your changes have been saved?
 
+- How would you would confirm that your changes have been saved?
+
+- Optional - If participant expected a confirmation: Can you describe what steps you would take if you did not receive a confirmation?
+
+- Now that you updated your preferences how will you recieve your 1095-B?
+
 - When do you think your updated preferences will start taking effect?
+  
+- How easy or difficult was it to interact with the prototype on your device?
 
-- Would you expect a confirmation or follow-up communication about your update? How would you expect to receive that?
 
-- I will now provide an alternative view (radio or checkbox) of the paperless delivery page for you to opt in to paperless delivery on. Which option did you prefer?
+- I will now provide an alternative view (radio or checkbox) of the paperless delivery page for you to opt in to paperless delivery on.
+
+  [Link to Mobile checkbox prototype](https://www.figma.com/proto/DWOjExui9JzyzwhMBWOFkw/Paperless-delivery-opt-in?page-id=639%3A217763&node-id=639-256763&p=f&viewport=3132%2C12765%2C0.44&t=EKzVANrDrYUsm8KA-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=639%3A256763)
+
+[Link to Mobile radio button prototype](https://www.figma.com/proto/DWOjExui9JzyzwhMBWOFkw/Paperless-delivery-opt-in?node-id=746-184108&t=jYjywdRA1cTmbUwL-1)
+
+
+[Link to Desktop checkbox prototype](https://www.figma.com/proto/DWOjExui9JzyzwhMBWOFkw/Paperless-delivery-opt-in?page-id=639%3A269369&node-id=639-269431&p=f&viewport=288%2C179%2C0.07&t=lvddPVVrS8SYhrX0-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=639%3A269431)
+
+[Link to Desktop radio button prototype](https://www.figma.com/proto/DWOjExui9JzyzwhMBWOFkw/Paperless-delivery-opt-in?node-id=746-173444&t=jYjywdRA1cTmbUwL-1)
+
+- Navigate to where you would expect to update your delivery preferences.
+
+- Based on what you see here, what delivery settings are selected for this account?
+
+- Update the prototype to recieve paper mail.
+
+- How easy or difficult was it to interact with the prototype on your device?
+
+- Did you notice any features that made it easier or harder for you to complete the tasks?
+
+- Which option did you prefer?
 
 
 ### **Things to watch for:**
@@ -203,6 +249,8 @@ Before we look at the website, let’s start with a few warm-up questions.
 
 
 ## **Post-Task Interview - 3 minutes**
+
+- After seeing this prototype, is there anything that might make you hesitate or decide not to sign up for paperless delivery?
 
 - If you had a magic wand and could make any changes to the way the VA communicates with you what would that be?
 
