@@ -4,27 +4,22 @@
 
 The OCTO Identity team manages the authentication integration for VA.gov. We work with identity partners to confirm who’s signing in and provide secure access to VA.gov resources. Our team understands how identity and security works across the entire platform.
 
-## **2025Q2 ROADMAP**
+## **PRIORITIES**
 
-**NOW**
-- [Delegate Access MVP](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/3)
-- OKTA SSO Pilot
-_IAM is replacing the ISAM identity broker with an Okta-based solution and has requested our assistance in piloting the integration._
-- Sign-In Transition: DMDC Federation
-_ON HOLD: Awaiting next steps from leadership._
-  
-**NEXT**
-- [[Sign-In Transition: DS Logon Deprecation](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/2)](https://github.com/department-of-veterans-affairs/identity-documentation/issues/15)
-_Veterans will have a more streamlined and secure sign in experience via id.me and login.gov._
-- [Post-MHV Deprecation Work](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/4)
-- [Improving CSAT Metrics](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/5)
-- Operational Readiness: Internal Processes
-- MHV & MVH move into VA.gov
-*[Oracle Health Provisioning Expansion](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/1)
+| Initiatives | Status | Benefit |
+|--------------|--------|---------|
+| [Sign-In Transition: DS Logon Deprecation](https://github.com/department-of-veterans-affairs/identity-documentation/issues/15?issue=department-of-veterans-affairs%7Cidentity-documentation%7C94) | Now | Improves Veteran sign-in experience and security by consolidating to modern credentials |
+| [Post-MHV Deprecation Work](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/4) | Now | Ensures continuity and secure access for Veterans post-MHV deprecation |
+| [Production Test Account Replacement Recommendations](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/12) | Now | Provides secure testing and training options for internal VA teams and contractors after MHV sunset |
+| [Delegate Access on VA.gov](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/3) | Now | _To be added_ |
+| [Identity Fraud Mitigation & Response](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/8) | Next | _To be added_ |
+| [Improving Identity Metrics](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/5) | Next | _To be added_ |
+| [MHV & MVH move into VA.gov](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/1) | As Time Allows | Streamlines access and experience for Veterans by integrating services into VA.gov |
+| [Oracle Health Provisioning Expansion](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/1) | As Time Allows | Expands secure access to Oracle Health records and tools |
+| [Operational Readiness: Internal Processes](https://github.com/department-of-veterans-affairs/identity-documentation/milestone/10) | Ongoing | Improves team coordination, documentation, and support efficiency |
+| [Identity Dashboard: STS focus](https://github.com/orgs/department-of-veterans-affairs/projects/1646/views/10?pane=issue&itemId=111916085&issue=department-of-veterans-affairs%7Cidentity-documentation%7C323) | In Intake | Provides VA teams with self-service tools for managing STS integrations securely |
 
-**LATER**
-- Fraud Detection -> Prevention
-- Error Reduction on VA.gov
+
 
 ## **How we can help**
 
@@ -47,7 +42,6 @@ Users can sign in on VA.gov using one of our Credential Service Providers (CSPs)
 
 - Login.gov
 - ID.me
-- My HealtheVet
 - DS Logon
 
 Sign-in CTAs for all of our CSPs appear in the upper-right corner of the header for VA.gov pages and products that require a signed in experience. Refer to the [Unified Sign-in Page (USiP)](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/login/unified-sign-in-pages) in our design documentation for implementation details. You can see an [example of one of our health tools here](https://staging.va.gov/health-care/refill-track-prescriptions/).

@@ -1,5 +1,335 @@
 # Running Design and Research Agenda
 
+## June 23 2025
+Attendees: Renata Keck, Rachel Pope, Amanda Klausmeier, Premal Shah, Mike Mooney
+
+### Agenda
+* UX Roadmap
+
+### Roadmap
+- Reviewed tickets currently in progress and upcoming for this sprint
+- **Usability testing**
+    - Pilot sessions ongoing with internal users
+        - Non-AT veteran user
+        - AT users are ADE team members
+    - Slack canvas created for observation signups
+        - No dates yet from Perigean
+- **Claims resubmission testing**
+    - Want to test both existing flow and resubmission flow, with file verification if possible
+        - Amanda has concerns about fitting it all into one session
+        - Rachel working on research plan; can review once done to see if it’s possible
+- **Desk research on claims correspondence**
+    - New ticket added
+    - Amanda has already started gathering info
+        - VHA doesn’t really handle claims, so no examples
+        - Travel pay/benefits may have some correspondence 
+        - Mostly focused on status tools (claims status and application status) to create tool for CHAMPVA
+        - Premal asks if we can add correspondence to the scope since the current correspondence is not ideal
+    - Amanda to prioritize in terms of work for the team
+    - Want to highlight areas of improvement needed
+    - Still doesn’t seem clear when resubmission vs. reopen
+        - Discretion of claims reviewer
+        - Complicated by bulk submissions by users
+    - We can ask questions to expose process issues during our stakeholder meetings, but not the right place to push back on theprocess
+        - Use info to summarize needed improvements
+        - Good time surface issues with upper management
+    - EOB lack of detail
+        - New system allows for less detail than the old system
+        - Technical limitations may be part of the problem
+- **Meetings this week**
+    - Nothing for CHAMPVA enrollment team
+    - Duty to assist for CHAMPVA Claims
+        - Seems like post-MVP work
+        - With digital flow, we can probably provide a phone number instead of flagging it in the system
+            - Find out if call center can route the call
+        - Premal doesn’t want to ask stakeholder about this now
+        - Can investigate phone number outside of call
+    - Both meetings will be canceled
+
+## June 16 2025
+**Attendees:** Jamie Fiore, Renata Keck, Rachel Pope, Amanda Klausmeier, Premal Shah, Mike Mooney
+[Meeting recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%218YiioFY8gEqk6i9mCfRUoeXkny303eBMgVXL-YDMyqGyiy8pYOHqR7Zt8HCfSggF&driveItemId=01ZEHPKQGAKUKRK7CASNEKGDKWU6KSX74A&sitePath=https%3A%2F%2Fdvagov-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fjamie_fiore_va_gov%2FEcBVFRV8QJNIow1Wp5Ur_4ABZQ5vtC6Jmn9FfvFnz6gQ8Q&fileUrl=https%3A%2F%2Fdvagov-my.sharepoint.com%2Fpersonal%2Fjamie_fiore_va_gov%2FDocuments%2FRecordings%2FIVC%2520Forms%2520Design%2520UX%2520Sync-20250616_120839-Meeting%2520Recording.mp4%3Fweb%3D1&iCalUid=040000008200E00074C5B7101A82E00807E90610103E99EBF068DB01000000000000000010000000E6207A803FE5074786ED1AF485FF8A23&masterICalUid=040000008200E00074C5B7101A82E00800000000103E99EBF068DB01000000000000000010000000E6207A803FE5074786ED1AF485FF8A23&threadId=19%3Ameeting_MTYzMGM3MDEtNGEwZi00OGNjLTk0YjItNGEwNDc2NWVlYmI2%40thread.v2&organizerId=f2e26ccf-af5a-40c4-aa60-c21565c97ce7&tenantId=e95f1b23-abaf-45ee-821d-b7ab251ab3bf&callId=096670ae-7353-4965-873d-c19faf202625&threadType=Meeting&meetingType=Recurring&subType=RecapSharingLink_RecapCore)
+### Agenda
+* UX Roadmap
+* Research goals and recommendations for potential LLM research
+* 10-10D/OHI usability testing Updates
+* CHAMPVA Service Blueprint Updates
+
+### Notes
+* Roadmap:
+    * Duty to assist: Started mapping out a potential flow and have documented some questions to answer. 
+    * Claims Resubmissions:
+        * UX went over how we combined the initial user interviews vs usability testing for CHAMPVA claims in August 2024. 
+        * Amanda didn’t see any future Claims Research on the UX roadmap.. Are we planning on conducting research pre or post launch? UX agrees we should do another test.
+        * Should we conduct the usability test now and do the full study of OCR/ file uploads later? 
+        * Can we do usability testing before launch or after launch? TBD. It might be dependent on how fast engineering can build it and how fast Pega can do the feature flag
+        * Content/IA is currently reviewing the claims resubmissions and left comments. Jamie will look at them and answer any questions if needed.
+        * Engineering spike tickets will determine the labor of effort. Michael C already explained that switching around the order of the sections will prolong getting the resub flow in staging but UX may have a simpler solution. UX confirmed with our other frontend engineer that their solution is possible. We still want to confirm with Michael when he comes back from PTO though. Michael confirmed that he can get the resubs in the staging in 2 sprints.  
+        * Premal asked PEGA team if we can get the flag done quicker. Doesn’t want to delay the launch with testing if Pega is ready. 
+        * Usability before launch is always preferred. Would it have a higher impact if we release the MVP without testing to reduce feedback loops or release a near perfect launch?
+        * Renata will create tickets for usability testing in order to prep for testing if we plan to do it before launch. 
+* LLM: 
+    * Rachel created a list of recommendations for research.
+    * UX would like to research how users respond to an error message if we tell them we are scanning with AI. 
+    * AI may cause trust issues. We want to test users' consenting to using AI. 
+    * Premal goals are to display whatever makes sense to users and we persuade them to make the upload corrections if needed. 
+    * Would our users understand OCR vs LLM? Rachel explained that OCR doesn't generate any new content vs LLM generates new content. Users may be more comfortable and familiar with OCR. It's older technology. OCR might be lower risk
+    * Using and telling users that we are using VA’s own LLM might create more trust. Jamie talked through this with OCTO’s trauma-informed practice circle and they agree that the more we can disclose about the product we are using the better. There is a lot of distrust in AI so this will help if it is the better product.  
+    * Maybe we test the resub flow for usability and ask user some LLM questions in the same study. We can build out 2 task flows where we provide a vetted document to test both resub flow with LLM.
+    * Rachel referenced the Find a Form teams research on AI. Not sure if other teams are using it but once she has Co-pilot she can find more. 
+    * Amanda prefers the LLM would be looped into the claims resubs research. We think this is going to be more of a content solution. We need to make sure we are clear with users while not being overly complicated with the explanation. 
+
+* Usability testing
+    * Shane approved the study. 
+    * Kickoff call with Perigean is today
+    * Wednesday is the  Non-AT user pilot study
+    * 2 AT pilot studies on schedule for the following week
+    * ADE will support the AT user sessions
+    * Renata to send out sign up sheets join as observers and note-takers
+* CHAMPVA Service Blueprints
+    * Jamie and Renata walked through some changes on the blueprint: added additional info in a pop up box to define resubmissions reopens and appeals
+    * Added some more markers on the blueprint that help show the resubmissions vs reopens paths  more more easier
+    * Amanda doing some discovery on health enrollment status tools and how that would work. Amanda has a mural with some documentation. 
+    * Premal wants to keep the language on the resubmission more vague to not add more potential confusions on the terminology between a resubmit vs a reopen because CHAMVPA doesn’t define this clearly on their communications to the user. The UX team suggested a future iteration in which we figure out how to communicate the difference better so we can help users with reopens submit their missing paperwork quicker. Reopen would require sending only the missing info while sendbacks/resubmissions require sending everything back including the original docs. 
+    * Discussed future ideas:
+        * Allow digital sendback submissions for CHAMPA Enrollment
+        * Populate OHI the info on the card using OCR/LLM
+        * Create an NPI query to see if sponsor has dependents and populate it on form
+        * We can look into using some sort of eligibility tool that detects ineligible applicants and lets them know that they may not be eligible. We want to make sure users can still complete the form but warn them that they may not be eligible. We can try to  make the case to the business end to allow us to have some more control over this.  We can use their Tri-care eligibility to determine this.
+        * Implement the health status tool to view enrollment status
+
+
+## June 9 2025
+**Attendees:** Jamie Fiore, Renata Keck, Rachel Pope, Amanda Klausmeier, Andrea Merrill, Premal Shah, Marissa Merkt
+
+### Agenda
+* UX Roadmap
+* Resubmissions Service Blueprint
+* Claims resubmissions flow
+
+### Roadmap
+- Reviewed tickets currently in progress and upcoming for this sprint
+
+### Service Blueprint 
+- Amanda asks if we feel we have clarity between reopen and resubmission
+    - We have better clarity than before
+    - We have copies of both the EOB and the sendback letter to know the difference in what’s communicated
+- Users may not have clarity about what the difference is
+    - They generally call in to ask what to resubmit (EOB)
+    - We should be able to help them through this online instead of them feeling they have to call
+    - May need to do additional (future) research into claims status online
+    - We should show how confusing this is within the blueprint
+- Discussion about the opportunity to influence change in the business process right now
+    - Callouts in the blueprint for pain points for users
+    - Amanda would like to be able to bring to leadership meeting to show areas of concern/opportunities for improvement
+    - Jamie will work on this as part of the current blueprint ticket
+- Discussion about the differences in reopen and resubmission and when PDI, batch number, and claim control number are used
+    - Reopen - part of one claim is missing
+    - Resubmission - one claim from batch of claims could not be processed
+- Jamie walks through blueprint
+    - Re calling for information after receiving EOB, Premal mentions 1.5 hour wait time for calls
+    - Correspondence should include what they need to submit instead of users having to call
+    - Jamie will highlight delay on blueprint
+- Amanda mentions we need to look at what we potentially should be doing research on
+- Discussion on changes made to claims and if sendback rate has improved
+    - Content-only changes are live
+    - Content for example pages is almost done per Marissa
+    - Cannot easily check for improvement in sendback rate - manual count each time
+        - Andrea asks if we can query this ourselves
+            - Would require a code change - OIT
+            - Status in PEGA would be easier
+            - Can ask in claims team channel if that is being tracked anywhere
+- [In chat] Discussion about including instructions within the sendback letter for what to online
+    - Digitize letter and include links to where they need to go to resubmit
+
+### Resubmission flow
+- Jamie walks through the flow for resubmissions in Figma
+- We are using generic language for the number since the user can enter either PDI or claims control number
+    - Required for claims team to find the original submission
+    - Amanda suggests dropdown to choose type, then field to enter it
+        - User can select which it is in case it needs to map to something in the back end
+        - User should know which it is based on their letter
+    - Premal asks about showing examples of letters and where to look
+        - Future iteration similar to what we’re doing for Medicare cards
+        - PDI number is small and at the bottom of the letter - should be more prominent if it is being required
+        - We need to change the letter design
+            - Have done this before with PDFs and letters on other teams
+- With dropdown selector for type of number, we could potentially branch the form based on type so we’re asking only the necessary questions
+    - Renata brings up the potential for user error and the risk of having the resubmission rejected if we didn’t ask for the correct info
+    - We can iterate on this if/when the business improves the communication
+    - Andrea asks if this would be recorded in the metadata
+        - PEGA is escalating the flag and claim number for resubmission
+        - Would like to include on list of changes so they can start work
+- Amanda asks if we can prefill the information based on the number (API)
+    - Would need to investigate this
+- Premal asks about potential of having to ask for money back from the veteran
+    - Discussed at start of project
+    - Might need to be a consideration
+    - Not currently in flow
+- Asking for health insurance information
+    - If a mismatch between what’s entered and what’s in the system, they need this
+    - Same as original claim form
+    - If we don’t ask for this and this was the reason the claim was rejected in the first place, it will be rejected again
+    - We should find out if this is flagged somewhere and only ask if we need the information
+    - Amanda says it seems like we are digitizing the current stated and we need to figure out the future state, including backend processes
+    - Premal does not think insurance information should be in the MVP
+    - We should see if we can prefill the insurance information and only ask for additional info if it doesn’t match
+        - EZ team does this for EZR if it was entered for EZ
+        - Pulled from a field in VES
+        - We could use the same API
+- Note that we need to get this out there soon because resubmission rates are bad
+    - If we get fields to PEGA, they can work ahead of us
+
+## 06/02/25 IVC Design Sync
+
+**Attendees:** Amanda, Andrea, Jamie, Renata, Rachel
+
+### Agenda
+
+* UX roadmap
+* Review the latest [Claims resubmission figma](https://www.figma.com/design/Tfhq5h2LwXEeEEtFBAAFOv/CHAMPVA-Claims--10-7959a-?node-id=4578-61533&p=f&t=R4DNUPF1r0yHBYhX-0)
+* 10-10D/OHI merge usability testing:
+  * [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/research/users/2025-05-1010D-OHI-merge-usability/Research-plan.md)
+  * [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/research/users/2025-05-1010D-OHI-merge-usability/Conversation-guide.md)
+ * Review the [discovery work](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1748614056458/794e1a8137cca18b3c527cf190957578e09ba4ba) for OCR/AI scanning of file uploads (in progress).
+
+## **Notes**
+
+### **UX Roadmap**
+
+* On the OHI standalone, we need to look into skipping the Medicare card upload, by asking for MBI number
+    * Team to plan to confirm with Premal what the pattern needs to include and then create tickets for that work
+* For Medallia, can we shift to quarterly reports?
+    * For FMP, yes. 10-10D definitely we’ve seen some bugs reported so we may want to keep those monthly. 
+    * Will include recommendations within the summary of findings report
+
+
+### **CHAMPVA Claims: Resubmission**
+
+* Walk through the resubmission userflow (the difference between the re-open vs. resubmission)
+* There’s still some confusion around types of numbers (PDI/Batch vs. EOB/itemized bill) where we don’t really have enough evidence to support a complex branching logic. 
+    * User research would be needed to help understand users’ claims literacy and where there are break points in the claims journey where we can better support them
+* Team is advocating for a simple user flow, replicating all screens from the initial claim. This will ask users to provide duplicate data, but it will  allow resubmissions and re-opens to go through the same flow. 
+    * Claim identifying number screen = asking for PDI and claim number, and will provide a number to get that ID if you don’t have it
+    * We may need to partner with CHAMPVA to update their sendback letter and EOB to be more directed content about what’s missing and needed
+    * Ideal state would be a version of the benefits decision tracking pattern, where users can digitally monitor their CHAMPVA claims and will be notified what specific information is missing
+
+### **User research for 1010d/OHI merge**
+* Needs Review by Amanda (will look at it today).
+* Next steps:
+	* Open ticket with Shane
+	* Opened ticket with ADE team (5/30/25) for them to do live tech support on AT user test sessions (ADE offers moderation if necessary, and will provide us with an AT user for our pilot session).
+	* We will pilot Non-AT and AT user
+* We will be testing in Staging w/ unauth users (easier for participants)
+	* Can look into getting a logged in test but it can create more tech difficulty then it’s worth.
+	* We want to make it as simple as possible for someone to get into the test.
+* Timing of the study:
+	* Andrea notes that staging may not be ready so we may be doing it in the sandbox environment instead.
+	* Renata pushed the participants to 16th. We can push it a few more days out if we need.
+
+### **LLM OCR file uploads**
+
+* Rachel walks through the file verification Mural
+	* Broke up mural 4 sections:
+	* Tech info
+	* Went over with Kyle (Engineering)
+* Some design considerations:
+	* We can show then specific reasons it failed	
+	* Can take up 20 secs to scan the docs - users in research are willing to wait for something to load longer if they know the AI is working in the background.
+	* If we mention AI there may be trust issues, especially with PII
+ 	* We should be able to let them open up the dosc once scanned
+	* Can group documents and still scan
+	* Possible Workflows/Pro and Cons: Scan individually vs scanning all at end
+* Research Questions - thinks we should test content and design pattern.
+	* Can we do research for this? Should we do Longer vs shorter research methods or maybe do it post launch
+* Tech stack for the upload tool?
+	* Kimberly recommended using either the GPT chatbot or AWS Textract
+		* A6 willing to get IVC Textract (AMS) a license for testing
+	* Amanda asks for a list of the information the OCR needs to verify in each document - references thread from Friday in Slack. 
+    		* Jamie will update GitHub with what was included in that thread (by midday Tuesday, 6/3/25). 
+		* Let Amanda know if more is needed from Kimberly or anyone else
+* **Action item:** We need a ticket to do exploration with AWS Textract in the coming sprint
+* **Action item:** Jamie to add the info that is needed for claims to Supporting Docs GH file
+
+## 05/27/25 IVC Design Sync
+
+**Attendees:** Amanda, Andrea, Jamie, Renata, Mike, Rachel
+
+### Agenda
+
+* UX roadmap
+* Review of [Standalone OHI form revisions](https://www.figma.com/design/sSPoS7R9HE6ZlxRESRy2ms/Other-Health-Insurance-Certification--10-7959c--Form?node-id=4991-3&p=f&t=RrPtgbSms9QwmRUT-0)
+* Review of [Claims Resubmissions](https://www.figma.com/design/Tfhq5h2LwXEeEEtFBAAFOv/CHAMPVA-Claims--10-7959a-?node-id=4578-61533&p=f&t=y08MGPJUGDevRC6i-0)
+
+### Roadmap
+- Reviewed tickets currently in progress
+- Research plan for merge user testing is almost complete. 
+    - Renata will hand off to Jamie and Rachel for review
+    - Next steps are Perigean and ADE ticket to recruit testers
+- OCR ticket is ready to be picked up
+- Will review in greater detail at end of call
+
+### OHI Standalone
+- Reviewed new paper form
+    - Has specific Part C section and a space for Part D information
+    - Schedule of benefits removed (not needed)
+    - Updated Medigap plans
+    - Country code listed
+    - 3rd party signer?
+        - No, just signature on paper form
+        - We ask on the online form so we can collect an email
+- Pages were already done for the merge, so they were moved over to the standalone form
+    - Beneficiary DOB added even though not on paper form so that we can use age to check for medicare eligibility
+    - Language changed to “add or update” for medicare and health insurance since this form can be used to update OHI
+    - Doesn’t need list and loop because standalone is for one applicant only
+- Andrea asked about headings/URLs
+    - Should be the same
+- Amanda asked about C/IA review
+    - The pages are already being reviewed as part of the merge
+    - Jamie will double-check conditional statements to ensure they make sense
+    - Team will run past content in one of our syncs to see if they would want to review again
+- Andrea mentions that we need to check with engineering on the lift to make these changes
+    - May not have time to build within this contract
+    - Design team will prep and have ready for hand-off
+    - If not building within contract, Amanda would like IA to review, especially for headings and URLs
+
+### Resubmissions
+- Jamie walks through the flow for resubmissions in Figma
+- Resubmit and reopen are the same experience for users on the front end (ref # and upload missing docs)
+    - Different process on backend per call 5/22/25
+    - Similar flow can be used for both in UI
+    - Does the user need to know the difference?
+    - Need to check language used on sendback letters for both to see what language to use
+    - Will verify in stakeholder call
+- Would like to simplify the resubmit process to just the necessary info
+    - Remove pages like sponsor info, SSN, etc.
+    - Verify with stakeholders on what they need to match up the claim
+- PDI or claim number will be optional entries
+    - We should ask this and date of service questions upfront before beneficiary info in the form
+    - Renata will update this in the Mural flow also
+- Andrea states PEGA will not display any information that isn’t asked for in the initial claim submission (i.e. PDI, date of service)
+    - Need to verify if the metadata is sufficient to match up claims
+    - Need to know whether PEGA needs to store that information somewhere
+- Renata states the same PDI could be used for multiple claims (everything submitted in the same batch) 
+    - They will need to look up date of service in order to match the right claims
+    - Do we need to design this to accommodate multiple claims?
+    - We still need to ask what they need on the backend
+    - Review of terms/flow from the call
+- Amanda asks if we feel confident we’ll get the info we need on the call
+    - Yes, if we stick to the single claim/basic resubmission
+
+### Roadmap (again)
+- OHI
+    - Need to check if this is feasible before end of contract
+    - Will at least be ready for handoff
+- Research
+    - Need supporting docs and medicare built out
+    - The bulk of the work will be in staging by the end of this sprint so we can start testing next sprint
+- LLM verification
+    - Andrea is concerned that users submitting multiple documents or multiple claims within one document could make this more complex to implement
+- Resubmissions
+    - Update roadmap to reflect that we are working on this through the end of this sprint
+
 
 ## 05/19/25 IVC Design Sync
 

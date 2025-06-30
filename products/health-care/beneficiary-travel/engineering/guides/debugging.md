@@ -33,16 +33,16 @@ First create a fake user class:
 
 ```ruby
 class FakeUser
-  attr_reader :email,:icn,:account_uuid
+  attr_reader :email,:icn,:user_account_uuid
 
-  def initialize(email, icn, account_uuid)
+  def initialize(email, icn, user_account_uuid)
     @email = email
     @icn = icn
-    @account_uuid = account_uuid
+    @user_account_uuid = user_account_uuid
   end
 
    def flipper_id
-     @account_uuid
+     @user_account_uuid
    end
 end
 ```
@@ -96,16 +96,16 @@ First create a fake user class:
 
 ```ruby
 class FakeUser
-  attr_reader :email,:icn,:account_uuid
+  attr_reader :email,:icn,:user_account_uuid
 
-  def initialize(email, icn, account_uuid)
+  def initialize(email, icn, user_account_uuid)
     @email = email
     @icn = icn
-    @account_uuid = account_uuid
+    @user_account_uuid = user_account_uuid
   end
 
    def flipper_id
-     @account_uuid
+     @user_account_uuid
    end
 end
 ```

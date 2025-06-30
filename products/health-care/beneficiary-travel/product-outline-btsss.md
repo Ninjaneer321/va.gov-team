@@ -86,19 +86,20 @@ Staff travel clerks often have to take manual steps to fix, validate, and proces
     - [Now Released](https://staging.va.gov/my-health/appointments/past  
 - Claim Details v2 (Appealing a denied claim) - [Initiative brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/initiatives/claim_details_v2/claim_details_v2_initiative_brief.md)
 - Complex Claims - [Initiative brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/initiatives/claim_details_v2/claim_details_v2_initiative_brief.md)
+- Claim Details Screen on VAHB - [Initiative brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/initiatives/claim-details-mobile/claim-details-mobile-screen.md)
 
 --- 
 
 ## Launch Strategy
--[Travel Pay Status Page Release Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/release-plan-template.md)
+- [Travel Pay Status Page Release Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/release-plan-template.md)
 
--[SMOC Release Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/SMOC%20Rollout%20Plan.md)
+- [SMOC Release Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/SMOC%20Rollout%20Plan.md)
 
 ## Rollout Dates
 - *Target Launch Date - Travel Pay Status Page*
   - May 2024
 - *Actual Launch Date* 
-  - January 2025
+  - January 23, 2025
 - *What date will you evaluate impact after launch (and when do you expect to have your Impact Review)?*
   - March 20, 2025
  
@@ -108,6 +109,8 @@ Staff travel clerks often have to take manual steps to fix, validate, and proces
   - April 21, 2025
 - *What date will you evaluate impact after launch (and when do you expect to have your Impact Review)?*
   - June 2025
+
+
 
 ---
 
@@ -121,17 +124,38 @@ See [Decision Log](./decision-log.md)
 
 Travel Claims Portal - Dashboard
 
-![BTSSS-TCP-Dashboard](https://github.com/laurenernest/va.gov-team/assets/72046525/6d335e38-1139-4986-a754-5bf36e607ee8)
+![BTSSS-TCP-Dashboard](https://github.com/user-attachments/assets/89a4ff2e-5655-45a7-88b2-e00f3f5f2ffb) <br/><br/>
+
+<br>
 
 Travel Claims Portal - Appointments List
 
-![BTSSS-TCP-Appointments List](https://github.com/laurenernest/va.gov-team/assets/72046525/6b139471-c8de-4bce-992a-a91e1671cc9d)
+![BTSSS-TCP-Appointments List](https://github.com/user-attachments/assets/f5dd116a-996b-4a84-8fb6-f4846e120af8)
+
 
 
 ### After
 
+Travel Claims List
+ 
+<img src="https://github.com/user-attachments/assets/817a6f55-9889-4872-9e34-447c2c62bb98" width="546" height="768"><br/><br/>
+
+
+Entry from Past Appointment
+ 
+<img src="https://github.com/user-attachments/assets/251e2ea7-b022-4785-bb9b-e5a22b489b4a" width="546" height="517">
+
+
+---
+
+
+#### Stakeholders
+
 _What offices/departments are critical to make this initiative successful?_
- -VTP
- -VEO
- -OCTO
- -Call Center
+
+ - VTP
+ - VEO
+ - OCTO
+ - Call Center
+ 
+

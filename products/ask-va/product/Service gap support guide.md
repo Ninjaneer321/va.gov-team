@@ -14,11 +14,12 @@ To sustain Ask VA, we primarily need system reliability and availability support
 |Support tasks|Primary responsible person|
 |:--|:--|
 |Monitor #ask-va-notifications channel and Datadog|Watchtower|
-|Investigate error|Watchtower|
+|Investigate errors when:<br>- Status code is 422 or 500 error for `create`, `unauth_create`, and `create_reply` CRM endpoints<br>- When one of these Datadog monitors don't recover in 2 hours ([Datadog](https://vagov.ddog-gov.com/monitors/manage?q=Ask%20VA%20API%20-%20Submit%20status%3Aok&order=asc&sort=status) or #ask-va-notifications)|Watchtower|
 |Assess issue severity|Watchtower|
 |Approve issue severity|Becky|
 |Remediate issue if needed|Watchtower (IIR support if needed)|
 |Monitor Medallia feedback|Becky|
+|Send Datadog report MWF before 10am ET to whole Ask VA team|Becky|
 |Create tickets in [Ask VA repo](https://github.com/department-of-veterans-affairs/ask-va)|Becky|
 
 ## Monitoring
@@ -37,11 +38,11 @@ We primarily use Datadog to monitor Ask VA. We espeically monitor the Ask VA CRM
 ### Other helpful links
 |Link|Description|
 |:--|:--|
-|Ask VA Datadog Dashboard (Datadog)|Displays metrics based on these performance KPIs|
-|Ask VA Monitor Playbook (GitHub)|Outlines required access and high level troubleshooting steps|
-|Datadog Status Codes (GitHub)|Describes main status codes in Datadog|
-|Ask VA Slack Alert Channel (Slack)|Displays Ask VA Datadog error notifications|
-|Ask VA Incident Response Plan|Describes how to handle critical issues|
+|[Ask VA Datadog Dashboard](https://vagov.ddog-gov.com/dashboard/i7e-qkf-zim/ask-va-dashboard-draft?fromUser=false&refresh_mode=sliding&from_ts=1745778860722&to_ts=1748370860722&live=true) (Datadog)|Displays metrics based on [these performance KPIs](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/KPIs.md#performance-kpis)|
+|[Ask VA Monitor Playbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/engineering/ask-va-monitor-playbook.md) (GitHub)|Outlines required access and high level troubleshooting steps|
+|[Datadog Status Codes](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/engineering/datadog_statuscodes.md) (GitHub)|Describes main status codes in Datadog|
+|Ask VA Slack Alert Channel (Slack)|Displays Ask VA Datadog error notifications in #ask-va-notifications|
+|[Ask VA Incident Response Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/engineering/InfoSec/ask-va-incident-response-plan.md)|Describes how to handle critical issues|
 
 ## Incident response
 Follow these steps when someone discovers an issue or when an error comes through Datadog.

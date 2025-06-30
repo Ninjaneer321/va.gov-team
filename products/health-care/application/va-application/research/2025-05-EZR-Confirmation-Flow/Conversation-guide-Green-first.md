@@ -104,7 +104,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 
 **[Marital Status]**
 
-- Okay, lets pause right here.  If you are no longer married, what do you expect to happen when you choose one of the other status?
+- (Optional Question) Okay, lets pause right here.  If you are no longer married, what do you expect to happen when you choose one of the other status?
 
 **[Spouse Information]**
 
@@ -118,13 +118,13 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 
 **[Veteran Income]**
 
-- For this section, I will give you a the financial information that you’ll need.
+- For this section, I will give you the financial information that you’ll need.
 
 - For this scenario, you and your spouse’s work and salary has not changed from 2023 to 2024.
 
 Information to be provided to participant, via chat: 
 
-> For this scenario, you and your spouse’s work and salary has not changed from 2023 to 2024.
+> For this scenario, you and your spouse’s work and salary have not changed from 2023 to 2024.
 >
 > 
 > Here is your financial information:
@@ -163,18 +163,22 @@ Information to be provided to participant, via chat:
 
 **[Deductible Expenses]**
 
-- [After they get to the bottom of the page] Okay lets pause here for a few questions:
+- [After they get to the bottom of the page] Okay, let's pause here for a few questions:
 
 - Was there any part that was confusing to you?
 - On a scale of 1-5 (1 being very easy and 5 being very hard) - how difficult would it be for you to complete this financial information if you were doing this with your real information?
 - Why did you give it that rating?
-- Do you have any suggestions or feedback for making the page and update process better?
+- Do you have any suggestions or feedback for making the page and the update process better?
 
 **[Review]**
 - [Did they catch the error?]
-In this scenario, you realized that one of your expense is incorrect. You had a big out-of-pocket dental operation last year of $3000. How would you fix that error?
+In this scenario, you realized that one of your expenses is incorrect. You had a big out-of-pocket dental operation last year of $3000. How would you fix that error?
 
-- [Instruct them to click ‘End Demo” button to back back to the Start Form screen]
+- On a difficulty scale of 1-5 (1 being very easy and 5 being very hard) - how would you rate the form you just went through? Why did you give it that rating? 
+
+- On an efficiency scale of 1-5 (1 being efficient and 5 being very inefficient) - How would you rate the form you just went through? Why did you give it that rating?
+
+- [Instruct them to click ‘End Demo” button to go back to the Start Form screen]
 
 ## RED SECOND - 7 minutes
 
@@ -211,21 +215,44 @@ In this scenario, you realized that one of your expense is incorrect. You had a 
 
 - Was there any part that was confusing to you?
 - How was this financial section compared to the previous one?
+- When you saw the 2023 financial numbers, did it help you decide what to do next or does it make you second-guess if it's current? 
 - On a scale of 1-5 (1 being very easy and 5 being very hard) - how hard would it be for you to complete this financial information if you were doing this with your real information?
 - Why did you give it that rating? 
 
-- Did you find the gray box referencing the previous financial informational helpful?
+- Did you find the gray box referencing the previous financial information helpful?
 - In this scenario, the expense is also incorrect. Would this screen make it easier to catch?
 
 **[Review]**
 
-# Post-Task Interview - 5 minutes
+- On a difficulty scale of 1-5 (1 being very easy and 5 being very hard) - how would you rate the form you just went through? Why did you give it that rating? 
+- On an efficiency scale of 1-5 (1 being very efficient and 5 being very inefficient) - How would you rate the form you just went through? Why did you give it that rating?
 
-Thank you so much for going through the form with me. I have a couple of last questions before we wrap up.
+# Post-Task Interview - 10 minutes
 
-- What were your overall thoughts about the two prototype we went over? Did you have a preference for one versus the other?
+ I have a couple of last questions before we wrap up.
+
+- What were your overall thoughts about the two prototypes we went over?
+- Which of the two prototypes would you prefer to see on VA.gov? Why [that prototype]?
 - Is there anything you'd change about the whole form if you could?
-- Do you have any questions for me?
+
+- I will now share screens and ask you to talk through a few different options. Figma Link: https://www.figma.com/design/tggcJk382w9yQ0ElwKfh3N/10-10EZR?node-id=9213-207108&t=7lOnW8Z83kMxXTCM-1
+
+**[Personal Info]**
+- Let’s take a look at these three options, each showing your personal information a different way. 
+Can you talk through your thoughts here? 
+Do you have a preference for which one you like best? And why?
+
+**[Marital Status]**
+- Let’s take a look at these two options. Do you have a preference for which one you like better? And why?
+
+**[Marital Status - destructive message]**
+- When you select a different marital status from what you have before, like from “married” to “divorced”, you get this message. 
+Can you explain to me what this message means to you?
+
+**[Financial Info]**
+- [If time permits, asked them to compare the two financial options side-by-side]
+
+- Thank you so much for going through the form with me. Do you have any questions for me?
 
 ## Consent to use video clips
 

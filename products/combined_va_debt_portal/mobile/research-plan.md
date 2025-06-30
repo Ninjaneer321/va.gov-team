@@ -6,8 +6,6 @@
 
 
  ## Background 🏗️
-<details>
-<br>
 	
 `Summary of study`
 <br>
@@ -45,84 +43,80 @@ Veterans currently manage their debt and copayments on VA.gov; this will be a ne
 `Product Brief`
 [Link to product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/Overpayment%20and%20Copayment%20Debts%20Product%20Brief.md)
 
-</details>
 
 
 ### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO-DE%20Priorities%202025.md)
 
-<details>
-<br>
-	
 `Objective 1:  VA’s digital experiences are the easiest and most efficient way to access VA health care and benefits.`  
 
 > - **Key Result 1:** Improve satisfaction with our web and mobile products by 5 points.
 > - **Key Result 3:** 100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error.
-</details>
 
 
 ### [Veteran Journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
 
-<details>
-<br>
-	
 - `Starting Up (Moment: Balancing Finances)`
 - `Taking Care of Myself (Moment: Maintaining my health)`
 - `Putting Down Roots (Moment: Maintaining my financial, social, and emotional health)`
 - `Retiring (Moment: Taking care of my health)`
 - `Aging (Moment that Matters: Managing my declining health)`
-</details>
 
 ## Research Goals 🥅	
 
 ### Goals
 
-`1.` **Understand how users become aware of and locate information about money they owe.**
+`1.` **Understand how users become aware of and locate information about money they owe in the app.**
 
-`2.` **Assess how well users understand and interpret their copay and overpayment information.**
+`2.` **Assess how well users understand and interpret their copay and overpayment information in the app.**
 
-`3.` **Identify what actions users want to take regarding money owed and evaluate how easily they can find guidance.** 
+`3.` **Identify what actions users want to take regarding money owed and evaluate how easily they can find guidance in the app.** 
 
 `4.` **Evaluate the experience of completing actions outside the app.**
 
+`5.` **Prioritize features for the minimum viable product (MVP) that will handle overpayments and copayments in the app.**
+
 ### Outcomes
 
-- Determine optimal methods and timing for notifications about new debts to guide future design decisions
-- Determine if native app products should be built (or path to external sites will remain) for:
-  - paying copays + overpayment debts
-  - requesting financial help
-  - disputing debts
-- Address and identify accessibility gaps (note: Due to prototype limitations, we likely will not identify all accessibility issues)
 - Validate designs for viewing copays + overpayment debts
-
+- Determine when and how to add  functionality that enables Veterans to take action on copays and overpayment and be notified about new debts. 
+- Address and identify accessibility gaps (note: Due to prototype limitations, we likely will not identify all accessibility issues)
 
 
 ### Research questions
 
 
-**Understand how users become aware of and locate information about money they owe.**
+**Understand how users become aware of and locate information about money they owe in the app.**
 
-`1.` What prompts users to check on or take action regarding money they owe to the VA?  
-`2.` How do users expect to be notified or informed about new debts (e.g., copays, overpayments)?  
+`1.` What prompts users to check on or take action regarding money they owe to the VA (in general, not specific to mobile)?  
+`2.` How do users expect to be notified or informed about new bills or debts (in general, not specific to mobile)?  
 `3.` Can users successfully locate the section of the app with information about money owed?  
-`4.` What term most clearly identifies the section they would go to manage money owed?
 
-**Assess how well users understand and interpret their copay and overpayment information.**
+**Assess how well users understand and interpret their copay and overpayment information in the app.**
 
-`5.` Is the overview of money owed (copays and overpayments) clear, complete, and useful?  
-`6.` Can users access and make sense of detailed information for each item?  
-`7.` Do users feel confident they understand what they owe and why?  
-`8.` Do users find access to downloadable PDF copay statements helpful, and would they use this feature?  
+`4.` Is the overview of money owed (copays and overpayments) clear, complete, and useful?  
+`5.` Can users access and make sense of detailed information for each item?  
+`6.` Do users feel confident they understand what they owe and why?  
+`7. ` Do users find access to downloadable PDF copay statements helpful, and would they use this feature?  
 
-**Identify what actions users want to take regarding money owed and evaluate how easily they can find guidance.** 
+**Identify what actions users want to take regarding money owed and evaluate how easily they can find guidance in the app.**
 
-`9.` What types of actions (e.g., pay, request financial help, dispute a charge) do users expect to take in the app?  
-`10.` How do users expect to complete each of these actions?  
-`11.` Can users find clear, actionable guidance on how to proceed with each option?  
+`8.` What types of actions (e.g., pay, request financial help, dispute a charge) do users expect to take in the app?  
+`9.` How do users expect to complete each of these actions?  
+`10.` Can users find clear, actionable guidance on how to proceed with each option?  
 
 **Evaluate the experience of completing actions outside the app.**
 
-`12.` How do users feel about being redirected to VA.gov to complete actions like requesting help or disputing a debt?  
-`13.` Are users comfortable signing in to a new site and copying/pasting information from the app to complete a payment?  
+`11.` How do users feel about having no option to pay their debt or bills through the app?  
+`12.` How do users feel about leaving the app to pay their debt through pay.va.gov?  
+`13.` How do users feel about leaving the app to pay their bills through pay.gov?  
+`14.` Are users comfortable signing in to a new site and copying/pasting information from the app to complete a payment?  
+`15.` How do users feel about being redirected to VA.gov to complete actions like requesting help or disputing a debt?  
+
+**Prioritize features for the minimum viable product (MVP) that will handle overpayments and copayments in the app.**
+
+`16.` Would users prefer the experiences of leaving the app to pay via pay.va.gov / pay.gov OR having no option to pay from the app at all?  
+`17.` Would users prefer the experience of leaving the app to read help documentation OR seeing help documentation directly in the app?  
+
 
 ### Hypotheses
 
@@ -151,17 +145,12 @@ Note on Accessibility: Due to prototype limitations, this study will not include
 - [ ] **In-person**
 
 
-<!--
 ## Research materials 📔
-
-> [!NOTE]
-> **Your OCTO/VA lead must review and approve all research materials – including this plan –  prior to submitting a recruitment request.**
 
 
 **For moderated usability tests:** 
-- [Link to conversation guide](url goes here)
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/conversation_guide.md)
 - [Link to prototype](url goes here)
--->
 
 
 
@@ -172,7 +161,7 @@ Note on Accessibility: Due to prototype limitations, this study will not include
 ### Recruitment approach
 
 We would like Perigean to recruit Veterans, non-AT users, for Zoom sessions on smartphones.
-Two cohorts: those who have experience with benefits overpayment debts, and those who have experience with VA healthcare copayments.
+Two cohorts: those who have experience with benefits overpayment debts, and those who have experience with VA healthcare copayments. Ideally, some participants will have experience with both.
 
 ### Recruitment criteria
 
@@ -184,12 +173,13 @@ Two cohorts: those who have experience with benefits overpayment debts, and thos
 
 ### Primary criteria (must-haves)
 
-- `All participants must meet at least one of the following primary criteria:`
+- `All participants must meet at least one of the following primary criteria, and ideally some will meet both:`
 	- `Cohort 1: 8 had a debt balance from overpayment debt in last three years`
 	- `Cohort 2: 8 received a VA copayment bill in the last year`
 - `Range of debt amount (for Cohort 1)`
 - `Complete session on their smartphone via the Zoom app`
-- `No assistive technology users or accessibility features turned on` (this is due to prototype limitations; we will be testing with assistive technology at a later date)
+- `No assistive technology users or accessibility features turned on`
+    * (this is due to prototype limitations; we will be testing with assistive technology at a later date)
 
 ### Secondary criteria (nice-to-haves)
 
@@ -222,6 +212,51 @@ Two cohorts: those who have experience with benefits overpayment debts, and thos
 	_(please recruit a range of debt amount as much as possible)_
 <br>
 
+3. Have you received a medical copayment bill from VA in the last year?
+	1. Yes
+	2. No 
+<br>
+
+4. Are you able to join the Zoom session from a smartphone such as a Samsung Galaxy or Apple iPhone? Any kind of smartphone will work as long as it connects to the internet.
+	1. Yes
+	2. No _(DISQUALIFY)_
+<br>
+
+5. When interacting with apps on your smartphone, do you usually adjust the standard display and/or use accessibility features? Please select all that apply.
+	1. I mostly use the phone's standard display settings. _(ask next question)_
+	2. I often increase the text size significantly. _(DISQUALIFY)_
+	3. I use screen magnification or zoom features. _(DISQUALIFY)_
+	4. I use a screen reader (such as VoiceOver or TalkBack). _(DISQUALIFY)_
+	5. Other _(DISQUALIFY)_
+	6. Prefer not to say _(DISQUALIFY)_
+<br>
+
+6. Do you identify as a member of the LGBTQ+ community? We ask this question because we want to make sure the feedback we get from these sessions represents all the people we serve.
+	1. Yes
+	2. No
+	3. Decline to answer
+<br>
+
+7. Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.
+	1. Yes _(mark as having a cognitive disability)_
+	2. No
+	3. Decline to answer
+<br>
+
+
+#### Cohort 2: 8 people (medical copays)
+
+1. Have you received a medical copayment bill from VA in the last year?
+	1. Yes
+	2. No _(DISQUALIFY)_
+<br>
+
+2. Please check all that apply
+	1. I currently have an unpaid VA benefits overpayment debt (disability compensation, education, or pension benefits overpayments)
+	2. I previously had a VA benefits overpayment debt in the last 3 years (disability compensation, education, or pension benefits overpayments)
+	3. I have not had a VA benefits overpayment debt in the last 3 years
+<br>
+
 3. Are you able to join the Zoom session from a smartphone such as a Samsung Galaxy or Apple iPhone? Any kind of smartphone will work as long as it connects to the internet.
 	1. Yes
 	2. No _(DISQUALIFY)_
@@ -249,37 +284,83 @@ Two cohorts: those who have experience with benefits overpayment debts, and thos
 <br>
 
 
-#### Cohort 2: 8 people (medical copays)
+<!--
+## Timeline 🗓️
+> [!NOTE]
+> **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.** 
 
-1. Have you received a medical copayment bill from VA in the last year?
-	1. Yes
-	2. No _(DISQUALIFY)_
-<br>
+### Optional Kick-off Call with Perigean
 
-2. Are you able to join the Zoom session from a smartphone such as a Samsung Galaxy or Apple iPhone? Any kind of smartphone will work as long as it connects to the internet.
-	1. Yes
-	2. No _(DISQUALIFY)_
-<br>
+- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
 
-3. When interacting with apps on your smartphone, do you usually adjust the standard display and/or use accessibility features? Please select all that apply.
-	1. I mostly use the phone's standard display settings. _(ask next question)_
-	2. I often increase the text size significantly. _(DISQUALIFY)_
-	3. I use screen magnification or zoom features. _(DISQUALIFY)_
-	4. I use a screen reader (such as VoiceOver or TalkBack). _(DISQUALIFY)_
-	5. Other _(DISQUALIFY)_
-	6. Prefer not to say _(DISQUALIFY)_
-<br>
+### Prepare
+*When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
 
-4. Do you identify as a member of the LGBTQ+ community? We ask this question because we want to make sure the feedback we get from these sessions represents all the people we serve.
-	1. Yes
-	2. No
-	3. Decline to answer
-<br>
+**A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
+> [!NOTE]
+> **Send pilot participant email in study Slack channel**
 
-5. Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.
-	1. Yes _(mark as having a cognitive disability)_
-	2. No
-	3. Decline to answer
-<br>
+- `Pilot participant name:` **[Enter name]**
+- `Date and time of pilot session:` **[Enter time]** 
 
+### Research sessions
+- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
 
+### Length of sessions
+- `Session length:` **1 hour**
+  
+- `Buffer time between sessions:` **30 minutes**
+  
+- `Maximum Sessions per day:` **4**
+
+### Availability
+When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
+
+> [!NOTE]
+> We recommend providing availability outside of work hours, as many Veterans are only available before and after working times, and live across the U.S. 
+
+> [!TIP]
+> Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
+>
+> **Place time slots between `hash marks` when in edit mode.**
+
+- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `Add more slots as needed`
+  
+-->
+
+## Team Roles  🕵️👩‍💻👩‍🔬
+
+> [!NOTE]
+> **Please do not include email addresses in this section.** We previously required email addresses. VA's GitHub policy ([see announcement](https://github.com/orgs/department-of-veterans-affairs/discussions/13)) has changed. VA.gov email addresses cannot be in public repositories.
+>
+> **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
+
+- `Moderator:` **Emily DeWan**	
+- `Research guide writing and task development:` **Emily DeWan**		
+- `Participant recruiting & screening:`	**Perigean**	
+- `Project point of contact:` **Natalie Davied Gibbons**		
+- `Accessibility specialist (for sessions where support for assistive technology may be needed):` **n/a**	
+- `Note-takers:` **Perigean**	
+- `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
+
+	- **Natasha Huckleberry**
+	- **Natalie Davied Gibbons**
+	- **Jason DeHaan**
+	- **Parker Baranowski**
+	- **Michelle Middaugh**
+	- **Denise Coveyduc** 
+	- **Charlotte Cesana**
+	- **Megan Gayle**
+	- **Marcela Rojas**
+	- **Rory Cooper**
+	- **Joni Chan**
+	- **Janelle Finnerty**
+
+## Approvals ✅
+- `Reviewed by Michelle Middaugh, OCTO Product Owner on 06-27-2025`
+- `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`

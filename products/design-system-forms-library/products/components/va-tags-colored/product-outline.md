@@ -1,7 +1,5 @@
 ## va-tag-colored
 
-### [Design Decisions] TBD
-
 ## Design System Team
 - Product Managers: Carol Wong, Tricia Baker
 - Designer: Barb Denney
@@ -10,7 +8,7 @@
   
 ## Artifacts
 - [Semantic color discovery](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/3846#issuecomment-2787713373) 
-- [Figma](NEED LINK)
+- [Figma](https://www.figma.com/design/afurtw4iqQe6y4gXfNfkkk/branch/As3gh7VNu3IcCFQ6hg5nMu/VADS-Component-Library?m=auto)
 - [Experimental Design [Colored tags]](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/2993#top)
 
 ## Summary
@@ -37,18 +35,7 @@ May
 - Sprint 3 (May 12 to 25)
 	- Design: Add colored tag designs in Figma, review with PO, designers and developers and finalized designs for web.
 
-June
-- Sprint 4 (May 26 to June 8)
-	- Update va-tag with colored tags
-- Sprint 5 (June 9 to 22) 
-	- Colored tags accessibility review
-	- Colored tags documentation updates
-	
-July
-- Sprint 6 (June 23 to July 8)
-	- If needed, accessibility issues resolved
-	- Component library, guidance and Figma are published. 
-- Staging review scheduled 
+June - work paused on this for the time being. 
 
 
 
