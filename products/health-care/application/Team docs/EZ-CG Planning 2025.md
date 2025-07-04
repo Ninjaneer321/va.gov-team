@@ -6,25 +6,24 @@
 ### 10-10EZ
 
 #### Obj: EZ [CYOA](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103253)
-- [#111601](https://github.com/department-of-veterans-affairs/va.gov-team/issues/111601) - [Research] Task List A/B submit & study maintenance
+- [#111601](https://github.com/department-of-veterans-affairs/va.gov-team/issues/111601) - [Research] Task List A/B submit & study maintenance [CARRIED - STUDY CONTINUES]
+- [#113041](https://github.com/department-of-veterans-affairs/va.gov-team/issues/113041) - [Research] Synthesis
 
 #### Obj: EZ [Multi-form](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103260)
 - [#111103](https://github.com/department-of-veterans-affairs/va.gov-team/issues/111103) - [BE] Tech exploration of BDS API
 
 #### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
-- [#103446](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103446) - [BE] In-progress Notification failures investigation (CARRIED)
-- [#94276](https://github.com/department-of-veterans-affairs/va.gov-team/issues/94276) - [BE] Ceanup of checkbox for minimum essential coverage on Facility screen
+- [#94276](https://github.com/department-of-veterans-affairs/va.gov-team/issues/94276) - [BE] Cleanup of checkbox for minimum essential coverage on Facility screen [CARRIED - PR]
+- [#111096](https://github.com/department-of-veterans-affairs/va.gov-team/issues/111096) - [FE] Future Discharge Date GA4 event fix
 
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
-- PM working on this - In progress 
+- [#105833](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105833) - [Eng] Discovery on how we can confidently refer "pending" Veterans to EZR
 
 ## 
 ### 10-10CG
 
 #### Obj: CG [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40165)
-- [#99053](https://github.com/department-of-veterans-affairs/va.gov-team/issues/99053) - [FE] va-statement-of-truth web component
 - [#102073](https://github.com/department-of-veterans-affairs/va.gov-team/issues/102073) - [FE] Update signature page
-- [#111870](https://github.com/department-of-veterans-affairs/va.gov-team/issues/111870) - [FE] Update content on Caregivers' contact info pages
 
 ##
 ### Team PTO
@@ -34,6 +33,7 @@
 - Luis: 7/3
 - Jessica: 7/3-7
 - Mitch: 7/8-10
+- Matt: 7/11
 - Josh: 7/8-15
 
 ----
@@ -49,7 +49,7 @@
 
 #### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
 - [#103446](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103446) - [BE] In-progress Notification failures investigation (CARRIED)
-- [#94276](https://github.com/department-of-veterans-affairs/va.gov-team/issues/94276) - [BE] Ceanup of checkbox for minimum essential coverage on Facility screen
+- [#94276](https://github.com/department-of-veterans-affairs/va.gov-team/issues/94276) - [BE] Cleanup of checkbox for minimum essential coverage on Facility screen
 - [#107933](https://github.com/department-of-veterans-affairs/va.gov-team/issues/107933) - [Design] Create separate Figma file for prod screens
 - [#112308](https://github.com/department-of-veterans-affairs/va.gov-team/issues/112308) - [FE] Allow PDF download after PDF download failure
 - [TBD] Logging improvements?

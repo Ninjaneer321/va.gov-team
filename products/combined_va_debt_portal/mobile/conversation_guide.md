@@ -133,9 +133,12 @@ From home screen
         * Are there other names that would be a better description or make things easier to find?
 * Now click into that tab
     * What are your thoughts on the info presented here?
+    * Now that you see what’s in this section: any further thoughts on the name “payments”?
     * Regarding the info below the word "overpayments" – what would be the most helpful to see there?
 
 Overpayment benefits debt 
+
+_(no payment option)_ ❌ 💵 ❌
 
 * Find what you currently owe for overpayment debts
     * How clear was that to find?
@@ -157,6 +160,9 @@ Overpayment benefits debt
     * How would you expect to make payments?
     * What are your thoughts on this new section not having a payment option?
     * If this were to be built in real life, how likely would you be to use it?
+
+_(with payment option)_ ✅ 💵 ✅
+
 * Now I'm going to have you click [location TBD] to view a different version.
     * If you are ready to make a payment on this debt, walk me through how you would do that.
     * Talk to me about that experience of starting to make the payment (e.g. opening .gov, new sign-in, copying payment + account info)
@@ -177,7 +183,35 @@ Overpayment benefits debt
 
 <details><summary>Copayments: time-dependent and if relevant</summary>
 
- _Specific questions to be deteremined_
+ _(no payment option)_ ❌ 💵 ❌
+
+* Find what you currently owe for copayments
+    * How clear was that to find?
+    * What can you tell me about the other copayments on this screen?
+* What do you need to know for each copay due?
+    * How easy/difficult is it to find relevant information?
+* Are you usually visiting different VA locations for your healthcare?
+    * How clearly is everything presented here? (do they know the copays from locations are grouped?)
+* _[point to a specific copay]_ What can you tell me about your activity here?
+    * Is it clear when the payment is due?
+* If you pay off a copay, would you want to see it? 
+    * Here or anywhere else?
+    * Are there any here that you believe are paid off? How clear is it?
+
+_(with payment option)_ ✅ 💵 ✅
+
+* Now I'm going to have you click [location TBD] to view a different version. _(with payment option)_
+    * If you are ready to make a payment on this bill, walk me through how you would do that.
+    * Talk to me about that experience of starting to make the payment (e.g. opening .gov, new sign-in, copying payment + account info)
+    * After you’ve paid this bill, what would you expect to see? When would you expect to see an update?
+    * If this were to be built in real life, how likely would you be to use it?
+    * How would the likelihood of you using this compare to the previous version where you were not able to make payments?
+* _(if user has not brought them up already)_ Talk to me about your monthly statements for copays
+    * Were you aware of them?
+    * Do you read them now? If so, what purpose do they serve? What are you doing with them?
+    * Walk me through exploring them in the prototype here.
+    * What are your thoughts on the PDFs here?
+* Now that we’ve gone through this section, any other thoughts you’d like to share on what is here and how the information is presented?
 
 </details>
 
@@ -260,10 +294,13 @@ From home screen
         * Are there other names that would be a better description or make things easier to find?
 * Now click into that tab
     * What are your thoughts on the info presented here?
+    * Now that you see what’s in this section: any further thoughts on the name “payments”?
     * Regarding the info below the word "copay" – what would be the most helpful to see there?
 
 
 Copayments
+
+_(no payment option)_ ❌ 💵 ❌
 
 * Find what you currently owe for copayments
     * How clear was that to find?
@@ -290,6 +327,9 @@ Copayments
     * How would you expect to make payments?
     * What are your thoughts on this new section not having a payment option?
     * If this were to be built in real life, how likely would you be to use it?
+
+_(with payment option)_ ✅ 💵 ✅
+
 * Now I'm going to have you click [location TBD] to view a different version. _(with payment option)_
     * If you are ready to make a payment on this bill, walk me through how you would do that.
     * Talk to me about that experience of starting to make the payment (e.g. opening .gov, new sign-in, copying payment + account info)
@@ -315,7 +355,28 @@ Copayments
 
 <details><summary>Overpayments: time-dependent and if relevant</summary>
 
-_Specific questions to be deteremined_
+_(no payment option)_ ❌ 💵 ❌
+
+* Find what you currently owe for overpayment debts
+    * How clear was that to find?
+    * What can you tell me about the other debts on this screen?
+* Tell me about the Debt Letter section – what do you assume this is and how useful is it?
+* What do you need to know for each debt?
+    * How easy/difficult is it to find relevant information?
+* [point to a specific debt] What can you tell me about your activity here?
+    * Is it clear when a payment is due?
+* If you pay off a debt, would you want to see it? 
+    * Here or anywhere else?
+
+_(with payment option)_ ✅ 💵 ✅
+
+* Now I'm going to have you click [location TBD] to view a different version.
+    * If you are ready to make a payment on this debt, walk me through how you would do that.
+    * Talk to me about that experience of starting to make the payment (e.g. opening .gov, new sign-in, copying payment + account info)
+    * After you’ve made a payment, what would you expect to see? When would you expect to see an update?
+    * If this were to be built in real life, how likely would you be to use it?
+    * How would the likelihood of you using this compare to the previous version where you were not able to make payments?
+* Now that we’ve gone through this section, do you have any other thoughts about what is here and how the information is presented?
 
 </details>
 
