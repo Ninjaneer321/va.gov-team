@@ -1,4 +1,4 @@
-    # Conversation Guide for 10-10EZR Confirmation Flow
+# Conversation Guide for Veteran Transition Experience, Discover Your Benefits tool generative and evaluative research, July 2025
 
 # Moderator logistics 📋✅
 ### 2-3 days before the session
@@ -8,9 +8,8 @@
 
 `List and complete any project-specific setup tasks for this study below:`
 
-- [ ] Step 1
-- [ ] Step 2
-- [ ] Step 3
+- [ ] Final check of staging environment with Jessica Woodin
+- [ ] Consult with accessibility specialist
 
 ### Day of the session
 
@@ -29,11 +28,10 @@
 
 # Intro - 5 minutes
 
-Thanks for joining us today! My name is **[NAME]** and **[NOTETAKER NAME]** is taking notes.
+Thanks for joining us today! My name is **Anna Higgins** and **[NOTETAKER NAME]** is taking notes.
 I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them... 
 
-Today we're going to talk about making updates to health care information.
-
+Today we're going to talk about your experiences transitioning from active service and understanding VA benefits.
 
 Before we start, I have a few things that I want to go over with you:
 
@@ -78,54 +76,43 @@ Before we start, I have a few things that I want to go over with you:
 
  <mark>**[Record answer here]**</mark>
 
-# Warm-up Questions (Optional) - 5 minutes
+# Semi-structured interview questions - 25 minutes
 
-Before we look at the website, let’s start with a few warm-up questions.
+## Warm up question
+1. Have you used VA.gov before? (If yes: how? If yes: Do you have a login?)
 
-1. Do you have a service-connected disability at VA?
-- If yes: what is your disability rating?
-- If no, skip to question 2.
-2. 
+## Main questions
 
-## First Task: [TASK NAME] - X minutes
+1. For TSMs: Where are you currently in the process of separating from the military?
+   For Veterans: When did you separate from the military?
+2. For TSMs: How is the process going for you?
+   For RSVs: How did the process go for you? 
+3. What are you doing right now/what did you do to keep track of your progress, tasks, and deadlines for separation? (Ask follow up questions about tools, actions and people involved in these processes, who recommended them and how they found them.)
+4. Is anyone/did anyone outside of TAP helping you keep track of what you need to do for your transition? (Follow up questions about who, and how they are helping; for RSVs, what could have made the process go better)
+5. Is there any support you currently need and aren't getting with the transition process? 
+7. For TSMs: What are you most concerned might slip through the cracks during your transition? What keeps you up at night?
+   For RSVs: What were you most concerned might slip through the cracks during your transition? What kept you up at night?
+8. What do you wish you had known during the process? (follow up if they don't mention benefits: What do you wish you had known about VA benefits?)
+9. What do you most want VA to understand about your experience?
 
-- [ ] Step 1
-- [ ] Step 2
+## First Task: [Use Discover Your Benefits Tool - self led] - 15 minutes
 
-> [!NOTE]
-> ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Is the participant aware that they may be sharing personal information on their screen, and are they okay with that? - per question as needed]
-> - [Etc]
-
-## Second Task: [TASK NAME] - X minutes
-
-- [ ] Step 1
-- [ ] Step 2
+- [ ] Complete questionnaire
+- [ ] Interact with results (includes reading results page, filtering results page, printing or screenshotting, redoing questionnaire to understand results, changing answers)
 
 > [!NOTE]
 > ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
+> - Does the participant understand "previous period of service" language?
+> - How does the participant interact with the results page?
+> - Does the participant notice the time sensitive benefits?
+> - Do they use filters, the back button, or other methods for understanding and navigating results?
 
-## Third Task: [TASK NAME] - X minutes
+# Post-Task Interview - 10 minutes
 
-- [ ] Step 1
-- [ ] Step 2
-
-> [!NOTE]
-> ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
-
-# Post-Task Interview - X minutes
-
-- Question 1
-- Question 2
-- Any questions for me? 
+- What support would you like to receive that isn’t included in this tool?
+- After using this tool, what would you do next?
+- What would help you take action using the information in this tool?
+- Is there anything else you think we should know?
 
 ## Consent to use video clips
 
@@ -135,7 +122,7 @@ Before we look at the website, let’s start with a few warm-up questions.
    <mark>**[Record answer here]**</mark>
 
 
-## Thank-You and Closing - X minutes
+## Thank-You and Closing - 5 minutes
 
 Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
 
