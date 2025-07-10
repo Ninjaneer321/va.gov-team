@@ -1,8 +1,4 @@
-# 🔧 A11y Support Request
-
-Use [this link](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=AAAA.md) to create a new blank GitHub issue.
-
-Please copy this template into the issue to request A11y support 😊
+# 🔧 Accessibility Support Request
 
 ## I am requesting...
 

@@ -28,9 +28,8 @@
 <details>
 <summary>Why are there questions about pension income in the VA.gov 686c form that are not on the pdf?</summary>
 
-  - The pension line of business requested that VA.gov add two pension-related income questions to the online form flow, so that RBPS can auto-process some 686c claims that impact pension. A complete outline of the questions and functionality can be found [here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/pension_income_questions.md). Note that the net income limit changes every year and is typically finalized in October and needs to be updated on VA.gov by the end of November each year.
-
-  Source: Jennifer Feuer
+  - The pension line of business requested that VA.gov add two pension-related income questions to the online form flow, so that RBPS can auto-process some 686c claims that impact pension. A complete outline of the questions and functionality can be found [here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/pension_income_questions.md). Note that the net income limit changes every year and is typically finalized in October and needs to be updated on VA.gov by the end of November each year. Source: Jennifer Feuer
+  - In cases where RBPS requires info not currently on the form, VA.gov should put the data in the JSON for RBPS and leave the data off the pdf bc not all forms have a remarks section we can use for this type of info. Source: David Reis (July 2025)
 </details>
 
 <details>
@@ -154,11 +153,12 @@
 </details>
 
 <details>
-<summary>How are dependent parents verified?</summary>
+<summary>How are dependent parents managed?</summary>
  
-  - Removal is usually due to death. The probability of another type of removal was so low, it was not included in the 21-0538.
- 
-  [Source: Kevin Schneider 5/25/25](https://dsva.slack.com/docs/T03FECE8V/F08UBCMQ5GQ?focus_section_id=temp:C:FNHc46b51e2bca243209f09b5fc8)
+  - 18,869 Veterans have dependent parents on their awards, which is 0.30% of the roughly 6.4 million Veteran awards. [Source: David Reis 7/8/25](https://dsva.slack.com/archives/C0547Q0K0LF/p1751922850588639)
+  - Adding a parent: The [21-509 form](https://www.va.gov/find-forms/about-form-21p-509/) is used to add a dependent parent to a Veteran's disability or pension benefit. [Source: David Reis 7/8/25](https://dsva.slack.com/archives/C0547Q0K0LF/p1751922850588639)
+  - Removing a parentt: The 21-686c allows Veterans to remove a parent due to death, but there is not a form-based way to remove a parent for another reason. Veterans need to call the VA. [Source: David Reis 7/8/25](https://dsva.slack.com/archives/C0547Q0K0LF/p1751922850588639)
+  - Verification: There is not a form-based way to verify a dependent parent on a Veteran's pension or disability benefit. Removal is usually due to death. The probability of another type of removal was so low, it was not included in the 21-0538. [Source: Kevin Schneider 5/25/25](https://dsva.slack.com/docs/T03FECE8V/F08UBCMQ5GQ?focus_section_id=temp:C:FNHc46b51e2bca243209f09b5fc8)
 </details>
 
 ## Children

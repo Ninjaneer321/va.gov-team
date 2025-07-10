@@ -4,7 +4,7 @@
 
 ## Outcome Summary
 
-Veterans can independently and confidently identify the most appropriate decision review pathway or next step for their claim when they disagree with VA’s decision.** The initiative aims to reduce burdens on Veterans and their representatives, as well as on call centers**: reduced confusion-driven pathway switching, reduced form abandonment, and improved first-attempt success rates.
+Veterans can independently and confidently identify the most appropriate decision review pathway or next step for their claim when they disagree with VA’s decision. **The initiative aims to reduce burdens on Veterans and their representatives, as well as on call centers**: reduced confusion-driven pathway switching, reduced form abandonment, and improved first-attempt success rates.
 
 ## Problem
 
@@ -63,7 +63,7 @@ The team has established 90-day benchmark metrics:
 
 ### PSR (Pathway Switching Rate)
 * 7.7% (started more than type of DR)
-* 4.8% (submitted more than one type of DR)
+* **4.8%** (submitted more than one type of DR)
 
 ### FAR (Form Abandonment Rate)
 Individual Pathway FAR:
@@ -74,7 +74,7 @@ Individual Pathway FAR:
 
 Aggregate FAR:
 
-* Overall: 43.9% abandonment (75,326 starts → 42,262 completions)
+* Overall: **43.9%** abandonment (75,326 starts → 42,262 completions)
 
 ### FASR (First-Attempt Success Rate)
 Individual Pathway FASR:
@@ -85,7 +85,7 @@ Individual Pathway FASR:
 
 Aggregate FASR:
 
-* Overall: 92% first-attempt success rate (108k submission → 99.8k without switching)
+* Overall: **92%** first-attempt success rate (108k submission → 99.8k without switching)
 
 
 ### Indicative Success Ranges
@@ -105,14 +105,6 @@ Near-term indicators of success might include:
 * **Contextual help** and explanations for complex terms and requirements as well as the legislation that inform the pathways.
 * **Direct link** to the appropriate online form once a pathway is selected
 
-_**Open questions:**_
-Should the user experience incorporate either of the following visual/affordance aids to reduce cognitive load?
-* **Progress indicators** showing where Veterans are in the decision process
-* **Clear visual comparisons** of the three options showing: 
-    * Evidence requirements
-    * Average processing times
-    * What happens after each decision
-    * Who reviews the claim
 
 ### Key Design Principles
 
@@ -136,3 +128,13 @@ Should the user experience incorporate either of the following visual/affordance
 
 * Coordination with CAIA team for content updates
 * Stakeholder alignment on success metrics
+
+### Other Ideas We're Exploring
+
+Should the user experience incorporate either of the following visual/affordance aids to reduce cognitive load?
+* **Progress indicators** showing where Veterans are in the decision process
+* **Clear visual comparisons** of the three options showing: 
+    * Evidence requirements
+    * Average processing times
+    * What happens after each decision
+    * Who reviews the claim
