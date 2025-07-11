@@ -57,7 +57,9 @@ This study aims to evaluate two potential form patterns—"Orange" task list and
 ## Methodology 
 
 **Type:** Unmoderated within-subjects study
+
 **Platform:** Optimal Workshop using Figma prototypes
+
 **Design:** Counterbalanced (each participant sees both prototypes, setup as 2 studies in Optimal Workshop switching the first placement order)
 
 **Cohort Assignment:**
@@ -94,11 +96,11 @@ Participants were shown limited-functionality Figma prototypes and asked to perf
 
 [Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
 
-**1.** Finding one
+**1.** The task list (orange) prototype was slighlty more preferred by participants in the post-task question and ease-of-use rating
 
-**2.** Finding two
+**2.** The traditional flow (green) prototype was preferred for its linear flow and easy of use.
 
-**3.** Finding three
+**3.** 
 
 **4.** Finding four
 
@@ -138,6 +140,7 @@ Brief description
 2. **Recommendation:** [Insert action]  
    - _Supporting evidence: [Insert data]_
 
+
 ## Product User and Business Outcomes
 
 *Explain how findings and recommendations align with the product's goals.*
@@ -150,6 +153,7 @@ Brief description
  
 - **Deisred Business Outcome**
   - This research supports our desired business outcome by....
+
 
 
 ## Key Performance Indicators
@@ -166,6 +170,7 @@ Brief description
 ## Next Steps
 
 *Outline immediate actions based on findings, including owners if applicable.*  
+
 
 
 ## Further research needed
@@ -216,73 +221,85 @@ Brief description
 
 ## Who we talked to 
 _Complete the demographic info below using information from the Perigean recruitment survey. For those items where you didn't have participants, please mark with "0". You can use "unknown" if you aren't sure if your participants had a characteristic._ 
-_[See an example](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#who-we-talked-to)_
 
 **Recruitment criteria**
 
-_If you had specific criteria that you recruited for, use this space to explain what those were along with other information you feel would be important to understanding your participants._
+Recruitment Target: 50 Veterans (25 per cohort/complete 15 per cohort)
+Tool: Perigean
+Device requirement: Desktop/laptop only
 
-We talked to **x participants.**
+Primary Criteria (required):
+- Must be a Veteran
+- Comfortable with online forms and websites
+- Must use desktop or laptop
+- No online 10-10EZ completion in the last 6 months
+
+Secondary Criteria (mix desired)
+
+Screening questions
+Have you completed the 10-10EZ form in order to apply for VA health care in the last 6 months? a. Yes (exclude) b. No
+
+
+
+**42 participants** completed the study. Cohort 1 had 20, cohort 2 had 22. 
 
 Audience segment:
-* Veterans: x 
-* Caregivers: x 
-* Family members of a Veteran: x  
+* Veterans: 42 
+* Caregivers: Unknown
+* Family members of a Veteran: Unknown  
 
 
 Gender:
-* Male: x 
-* Female: x 
+* Male: 33 
+* Female: 9
 
 
-LGBTQ+:
+LGBTQ+: Unknonw, did not recruit for this group
 * Transgender: x 
 * Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: x
 * Gay, lesbian, or bisexual: x
 
 
-Devices used during study: 
-* Desktop: x 
+Devices used during study: Desktop study
+* Desktop: 42
 * Tablet: x 
 * Smart phone: x 
 * Assistive Technology: x
 
 
 Age:
-* 25-34: x
-* 35-44: x
-* 45-54: x
-* 55-64: x
-* 65+: x
-* Unknown: x
+* 25-35: 2
+* 36-54: 12
+* 55+: 25
+* Unknown: 3
 
 
 Education:
-* High school degree or equivalent: x
-* Some college (no degree): x
-* Associate's degree, trade certificate or vocational training: x
-* Bachelor's degree: x
-* Master's degree: x
-* Doctorate degree: x
-* Unknown: x
+* High school degree or equivalent: 3
+* Some college (no degree): 7
+* Associate's degree, trade certificate or vocational training: 2
+* Bachelor's degree: 10
+* Master's degree: 16
+* Doctorate degree: 1
+* Unknown: 1
 
 
 Geographic location:
-* Urban: x
-* Rural: x
-* Unknown: x
+* Urban: 30
+* Rural: 12
 
 
 Race:
-* White: x
-* Black: x
+* White: 28
+* Black: 9
 * Hispanic: x
-* Biracial: x
-* Asian: x
+* Biracial: 1
+* Asian: 3
 * Native: x
+* Unknown: 1
 
 
-Disability and Assistive Technology (AT): None for this study; Figma prototype and Optimal Workshop used.
+Disability and Assistive Technology (AT): None for this study; Figma prototype and Optimal Workshop used and we were not able to test with these groups in this study.
 * Cognitive: x
 * AT beginner: x
 * AT advanced user: x
@@ -301,8 +318,8 @@ _[Complete the VA recruitment checker for marginalized Veteran groups](https://d
 
 This research does not include the perspectives of the following marginalized Veteran groups:
 _List all groups in red from the spreadsheet_
-* Group 1
-* Group 2
+* Disability and Assistive Technology (AT)
+* Mobile
 * Group 3
 
 _[insert screenshot of completed recruitment checker]_
