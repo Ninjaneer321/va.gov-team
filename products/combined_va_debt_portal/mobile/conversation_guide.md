@@ -131,7 +131,7 @@ _(request they share screen)_
 
 Please open up the Figma app, and I’ll be walking you through how to sign in. 
 * _(share test credentials with them)_
-* _(after logging in, send them prototype link over Zoom chat)_
+* _(after logging in, send them [prototype link](https://www.figma.com/proto/kRA7JHbthNrSLxTQHrzH8T/MFS---Overpayments---Copays-%7C-VA-Mobile?page-id=2001%3A429&node-id=7274-61308&p=f&viewport=24600%2C-1348%2C0.59&t=RzEWQo0ZfxtjJRxF-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=7274%3A61308&show-proto-sidebar=1) over Zoom chat)_
 
 
 From home screen
@@ -154,12 +154,12 @@ _(no payment option)_ ❌ 💵 ❌
 * Find what you currently owe for overpayment debts
     * How clear was that to find?
     * What can you tell me about the other debts on this screen?
-* Tell me about the Debt Letter section – what do you assume this is and how useful is it?
 * If a new debt arises, how would you expect to be notified?
 * What do you need to know for each debt?
     * How easy/difficult is it to find relevant information?
 * [point to a specific debt] What can you tell me about your activity here?
     * Is it clear when a payment is due?
+    * Tell me about the Debt Letter section – what do you assume this is and how useful is it?
 * If you pay off a debt, would you want to see it? 
     * Here or anywhere else?
 * Now we’re going to pretend that you don’t believe you’re going to have the money to make a payment on the debt in the next few months. Walk me through what you would do in this situation.
@@ -174,23 +174,30 @@ _(no payment option)_ ❌ 💵 ❌
 
 _(with payment option)_ ✅ 💵 ✅
 
-* Now I'm going to have you click [location TBD] to view a different version.
+* Now I'm going to have you [open another prototype](https://www.figma.com/proto/kRA7JHbthNrSLxTQHrzH8T/MFS---Overpayments---Copays-%7C-VA-Mobile?page-id=2001%3A429&node-id=7372-28070&p=f&viewport=24600%2C-1348%2C0.59&t=RzEWQo0ZfxtjJRxF-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=7372%3A28070&show-proto-sidebar=1) to view a different version.
     * If you are ready to make a payment on this debt, walk me through how you would do that.
     * Talk to me about that experience of starting to make the payment (e.g. opening .gov, new sign-in, copying payment + account info)
     * After you’ve made a payment, what would you expect to see? When would you expect to see an update?
     * If this were to be built in real life, how likely would you be to use it?
     * How would the likelihood of you using this compare to the previous version where you were not able to make payments?
+
+<!--
 * If you knew you also have medical copayments, where would you go to find that?
     * Had you noticed a reference to it on the overpayments debt page?
+-->
+
 * Now that we’ve gone through this section, do you have any other thoughts about what is here and how the information is presented?
 * What are your thoughts on how the sections and pages are labeled?
     * Are there other titles that would make more sense to you?
 * _(if relevant)_ Can you tell me what you think of this experience vs what you have found on va.gov?
+
+<!--
 * Now I’m going to have you click [location TBD] to view a different version. _(home screen with debt/bill shortcuts)_
     * This is the home screen of the app. What are your initial thoughts?
     * Regarding these debts + copays buttons – can you describe a situation where you might use them?
     * Considering how you manage your finances, when would these shortcuts be most useful for you?
     * What do you think about the information presented on the home screen? (e.g. amount, due date)?
+-->
 
 <details><summary>Copayments: time-dependent and if relevant</summary>
 
@@ -297,7 +304,7 @@ _(request they share screen)_
 
 Please open up the Figma app, and I’ll be walking you through how to sign in. 
 * _(share test credentials with them)_
-* _(after logging in, send them prototype link over Zoom chat)_
+* _(after logging in, send them [prototype link](https://www.figma.com/proto/kRA7JHbthNrSLxTQHrzH8T/MFS---Overpayments---Copays-%7C-VA-Mobile?page-id=2001%3A429&node-id=7274-61308&p=f&viewport=24600%2C-1348%2C0.59&t=RzEWQo0ZfxtjJRxF-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=7274%3A61308&show-proto-sidebar=1) over Zoom chat)_
 
 From home screen
 
@@ -345,14 +352,18 @@ _(no payment option)_ ❌ 💵 ❌
 
 _(with payment option)_ ✅ 💵 ✅
 
-* Now I'm going to have you click [location TBD] to view a different version. _(with payment option)_
+* Now I'm going to have you [open another prototype](https://www.figma.com/proto/kRA7JHbthNrSLxTQHrzH8T/MFS---Overpayments---Copays-%7C-VA-Mobile?page-id=2001%3A429&node-id=7372-28070&p=f&viewport=24600%2C-1348%2C0.59&t=RzEWQo0ZfxtjJRxF-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=7372%3A28070&show-proto-sidebar=1) to view a different version. _(with payment option)_
     * If you are ready to make a payment on this bill, walk me through how you would do that.
     * Talk to me about that experience of starting to make the payment (e.g. opening .gov, new sign-in, copying payment + account info)
     * After you’ve paid this bill, what would you expect to see? When would you expect to see an update?
     * If this were to be built in real life, how likely would you be to use it?
     * How would the likelihood of you using this compare to the previous version where you were not able to make payments?
+
+<!--
 * If you knew you also have benefit overpayment debt, where would you go to find that?
     * Had you noticed a reference to it on the copayments page?
+-->
+
 * _(if user has not brought them up already)_ Talk to me about your monthly statements for copays
     * Were you aware of them?
     * Do you read them now? If so, what purpose do they serve? What are you doing with them?
@@ -362,11 +373,14 @@ _(with payment option)_ ✅ 💵 ✅
 * What are your thoughts on how the sections and pages are labeled?
     * Are there other titles that would make more sense to you?
 * _(if relevant)_ Can you tell me what you think of this experience vs what you have found on va.gov?
+
+<!--
 * Now I’m going to have you click [location TBD] to view a different version. _(home screen with debt/bill shortcuts)_
     * This is the home screen of the app. What are your initial thoughts?
     * Regarding these debts + copays buttons – can you describe a situation where you might use them?
     * Considering how you manage your finances, when would these shortcuts be most useful for you?
     * What do you think about the information presented on the home screen? (e.g. amount, due date)?
+-->
 
 <details><summary>Overpayments: time-dependent and if relevant</summary>
 

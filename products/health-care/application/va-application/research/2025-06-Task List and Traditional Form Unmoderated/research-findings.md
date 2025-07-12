@@ -1,7 +1,7 @@
 
 ---
 
-# [2025-07 - CYOA Task List Early Exploration - Unmoderated Prototype A/B Study - #906] Research Findings 
+# DRAFT [2025-07 - CYOA Task List Early Exploration - Unmoderated Prototype A/B Study - #906] Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 10-10EZ Form Health Care Application, Health Enrollment Team**
 
@@ -87,49 +87,80 @@ Participants were shown limited-functionality Figma prototypes and asked to perf
 
 ## Key Findings
 
-*Summarize the 5–10 most impactful findings from your study.* 
+**1. Slight preference for the Task List pattern over the traditional form flow.**
 
-> [!TIP] 
-> Write findings as stand-alone insights that are easy to scan. For example:  
-> - "Most participants used the search field to locate forms, often searching for 'veteran health.'"  
-> - "Participants struggled with the secondary caregiver section on the form."  
+**2.Navigation preferences were mixed between the Task List and traditional form flow patterns.** 
 
-[Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
+**3. Clickable elements in task list were utilized but may have caused some confusion**
 
-**1.** The task list (orange) prototype was slighlty more preferred by participants in the post-task question and ease-of-use rating
+**4. Participants stated there was a lot of information to provide and gathering documents beforehand would be important.**
 
-**2.** The traditional flow (green) prototype was preferred for its linear flow and easy of use.
-
-**3.** 
-
-**4.** Finding four
-
-**5.** Finding five
-
-**6.** Finding six
-
-**7.** Finding seven
 
 
 ## Details of Findings 
 
-*Provide detailed descriptions and supporting evidence for each key finding.*  
+**Finding 1: Slight preference for the Task List pattern over the traditional form flow.**  
 
-**Finding 1:**  
-Brief description  
-- _Supporting data: Quote [add context]_  
-- _Supporting data: ![text](link - add image to github folder and link here with .png)_  
+- 9 out of 43 participants (44.1%) preferred the task list (Orange) prototype, while 17 (39.5%) preferred the traditional (Green) flow; 7 (16.3%) had no preference.
+- Participants liked the clear sections, information, and status labels in the task list.
+	_“I liked that the categories were broken down into the 6 sections. It made it easier to know if you successfully completed the individual sections.”_
+_“Navigation was fairly easy and clearly labeled.”_
 
-**Finding 2:**  
-Brief description  
-- _Supporting data: Quote [add context]_  
+
+**Finding 2: Personal preference - to navigate linear or more freely by section.**  
+Participants exhibited a personal preference for either linear progression or more flexible navigation by section. This variation was evident in post-task comments, with some users favoring a focused, step-by-step approach and others valuing an overview and the ability to maneuver freely through the application.
+
+**Quotes:**
+
+Prefer Task List Flow (Orange Prototype)
+- _The task list, 100%_
+- _I prefer the Orange option because it showed me what I had completed and what was upcoming. However, the Green option had a cleaner look and feel to me._
+- _I liked it, but it did seem more complex that the Green. Both were clear to me and easy. But I think the Orange may be more difficult for some. Both were good._  
+
+  
+Prefer Traditional Flow (Green Prototype)
+- _While I can't quantify it, it just felt less intimidating. It was very straightforward and easy to follow. I would not have any hesitations about completing the process and I think the dropout rate would be low._
+- _I like the one click navigation, it doesn't leave a lot of room for error once you get the section you need, just keep clicking._
+- _The separate sections that haven’t been completed give me anxiety. It’s probably my OcD and seeing the incomplete_
+
+
+
+**Finding 3: The task list pattern tested showed participants had some confusion around the clickable elements - they equally wanted click on the text name or the status tag to navigate.**  
+- Participants were unsure whether to click the section name or the status tag in the task list.
+- Clickmaps showed equal use of both, as well as the navigation bar.
+
+**Clickmap images:**
+
+Orange:
+<img width="4228" height="1928" alt="2025-06-Health Enrollment CYOA PLANNING_2025-07-11_18-06-31" src="https://github.com/user-attachments/assets/7687a7a2-8a74-4ddb-8a19-86d9a31c702d" />
+
+<img width="2092" height="2405" alt="2025-06-Health Enrollment CYOA PLANNING_2025-07-11_18-06-57" src="https://github.com/user-attachments/assets/8cf6c4d9-c7e4-45eb-9235-a21272dc3395" />
+
+Green:
+<img width="6284" height="3387" alt="2025-06-Health Enrollment CYOA PLANNING_2025-07-11_18-09-16" src="https://github.com/user-attachments/assets/cf30c378-2d22-478d-a0d3-92326684bb0c" />
+
+
+
+
+**Finding 4: Participants stated there was a lot of information to provide and gathering documents beforehand would be important.**  
+- 	Participants noted the process required a lot of information and recommended gathering documents before starting.
+
+**Quotes:**
+- _Again, a tedious job that just has to be endured._
+- _It is easy to utilize. Just ensure you have all the required documentation and you should be able to get through it fairly quickly._
+- _If veterans are going to be required to submit that much paperwork for health care many may not even bother to use either one.For me they are relatively easy to use,but I can see that it be difficult for others_
+
+
 
 ---
 
 ## **Additional Insights**
-*Include insights that do not represent patterns but are still valuable.*  
-> **TIP:** These could be powerful user comments or unexpected issues worth noting
+- Participants mentioned saving and returing to the form later and calling out the application save and ID details in the lower green alert.
+- A small theme on cohort 1 only that contradicted normal sentiment heard in studies - this group had positive things to say about the steps in the form progress bar stepper. 
+- Participants did state the instructions were often clear and understandable
+ _One of the easiest to understand that VA has had me fillout_
 
+  
 
 ## Recommendations
 
@@ -143,33 +174,30 @@ Brief description
 
 ## Product User and Business Outcomes
 
-*Explain how findings and recommendations align with the product's goals.*
-
-> [!NOTE] 
-> Refer back to your Product Outline. 
-
-- **Desired User Outcome**
-  - This research supports our desired user outcome by....
- 
-- **Deisred Business Outcome**
-  - This research supports our desired business outcome by....
+**Desired User Outcome**
+  - Improved Application Completion Rate: Users are able to complete the health care application process with fewer errors and less confusion.
+  - Increased User Satisfaction: Users report higher satisfaction with the process, citing clarity and ease of use.
+  - Reduced Abandonment: Fewer users drop out before completing the application due to improved guidance and task clarity. 
+**Deisred Business Outcome**
+  - Higher Application Volume: More veterans successfully submit applications due to streamlined processes.
+  - Faster Processing Times: Applications are submitted with fewer errors, requiring less manual review and correction.
 
 
 
 ## Key Performance Indicators
 
-*Explain how findings will support KPI measurement.*  
-
-> [!NOTE]
-> Refer back to your Product Outline. 
-
-- **KPI 1**
-  -  This research supports measurement of this KPI by....
+- Application Completion Rate (percentage of users who start and successfully submit the application)
+- Time to Complete Application (average duration from start to submission)
+- Drop-off Rate (percentage of users who start but do not finish the application)
+- User Satisfaction Score (from post-application surveys, e.g., CSAT)
 
 
 ## Next Steps
 
 *Outline immediate actions based on findings, including owners if applicable.*  
+
+
+
 
 
 

@@ -2,21 +2,21 @@
 Updated 7/10/2025
 
 ## Table of Contents
-- [Welcome](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams#welcome)
-- [Team Mission](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams#team-mission)
-- [Office of the CTO (OCTO) Team Members](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/teams/health-products/health-portal/health-portal-team.md#office-of-the-cto-octo-team-members)
-- [Product team members](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams#product-team-members)
-- [What we're working on](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams#what-were-working-on)
-- [About OCTO](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams#about-octo)
+- [Welcome](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/health-products/health-portal/health-portal-team.md#welcome)
+- [Team Mission](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/health-products/health-portal/health-portal-team.md#our-mission)
+- [Office of the CTO (OCTO) Team Members](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/health-products/health-portal/health-portal-team.md#office-of-the-cto-octo-team-members)
+- [Product team members](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/health-products/health-portal/health-portal-team.md#product-team-members)
+- [What we're working on](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/health-products/health-portal/health-portal-team.md#what-were-working-on)
+- [About OCTO](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/health-products/health-portal/health-portal-team.md#about-octo)
 
 ## Welcome
 Welcome to the My HealtheVet Health Portal team.  We're glad you're here!  This document gives an overview of the team, our mission, structure, and what we're working on. 
 
-## Our Mission
+## Team Mission
 The My HealtheVet on VA.gov team’s mission is to simplify Veterans’ health experience on the web by consolidating all health things into a single health “home” on VA.gov. As we consolidate the health experience, we will work closely with the "classic" My HealtheVet / Office of Connected Care (OCC) and with teams throughout OCTO.
 
 ## Office of the CTO (OCTO) Team Members
-- Portfolio: Lauren Alexanderson
+- Health Portfolio: Lauren Alexanderson
 - Product - Landing Page/Portal Experience: Marci McGuire
 - Product - Secure Messaging: Patrick Bateman
 - Product - Medical Records: Marci McGuire
@@ -51,9 +51,13 @@ The My HealtheVet on VA.gov team’s mission is to simplify Veterans’ health e
 - TBD
 
 ## What We're Working On
-The My HealtheVet portal team's main focus for the past several years has been rebuilding the standalone My HealtheVet patient health portal (currently referred to as My HealtheVet Classic) and integrating it into VA.gov.   
-
-The My HealtheVet portal team’s mission is to simplify Veterans’ health experience on the web by consolidating all health things into a single health “home” on VA.gov. As we consolidate the health experience, we will work closely with the "classic" My HealtheVet / Office of Connected Care (OCC) and with teams throughout OCTO.
+The My HealtheVet portal team's main focus for the past several years has been rebuilding the standalone My HealtheVet patient health portal (currently referred to as My HealtheVet Classic) and integrating it into VA.gov. 
+[Product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/product/product-brief.md).  My HealtheVet on VA.gov is comprised of several distinct products:
+- Landing page/portal experience
+- Medical records
+- Medical devices and supplies
+- Medications
+- Messaging
 
 ## About OCTO
 ### OCTO within the VA organization
@@ -63,19 +67,15 @@ OCTO falls under the VA's Office of Information and Technology (OIT).  Its missi
 
 ### OCTO Structure
 OCTO is made up of six portfolios: 
-#### Digital Experience
+-  Digital Experience <br>
 Mission: Continuously deliver high-quality digital experiences for the benefit of all Veterans and their families.
-
-#### Technology Innovations
-Mission: Accelerate innovation across VA to more quickly access innovative health care and benefits solutions to save Veterans and VA time and money. ​
-
-#### Benefits Delivery
+- Technology Innovations<br>
+ Mission: Accelerate innovation across VA to more quickly access innovative health care and benefits solutions to save Veterans and VA time and money. ​
+- Benefits Delivery <br>
 Mission: Get Veterans benefits in minutes, not months.
-
-#### Health Care Delivery
+- Health Care Delivery<br>
 Mission: Enable Veterans & their care teams to spend more time focusing on their health goals and less time navigating the technology that supports those goals.  The 
-
-#### Artificial Intelligence
+- Artificial Intelligence<br>
 Mission: Establish VA’s agency-wide roadmap for trustworthy, responsible, and effective AI execution.
 
 ### OCTO Communities of Practice

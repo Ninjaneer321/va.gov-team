@@ -168,6 +168,65 @@ Age:
 #### Secondary criteria (nice-to-haves)
 - Participants who have retired after 20 years of service
 
+#### Screener questions
+1 . How would you describe yourself? 
+
+* I am currently serving in the military, including Active Duty, National Guard, and Reserves.  
+* I have separated from the military within the last 5 years  
+* I separated from the military more than 5 years ago  
+
+
+2\. Which branch, or branches, have you served in on Active Duty? `multiple answers`
+
+* Air Force  
+* Army  
+* Coast Guard  
+* Marine Corps  
+* Navy  
+* Space Force  
+* None of the above
+
+3\. Which branch, or branches, have you served in as National Guard or Reserve? `multiple answers`
+
+* Air Force Reserve  
+* Air National Guard  
+* Army Reserve  
+* Army National Guard  
+* Coast Guard Reserve  
+* Marine Corps Reserve  
+* Navy Reserve  
+* None of the above
+
+4\. Did you receive, or do you anticipate receiving, an honorable discharge? 
+
+* Yes  
+* No
+
+5\. How many years did you serve in the military, including Active Duty, National Guard, and Reserve? 
+
+* 1-4 years  
+* 5-19 years  
+* 20 or more years
+
+6\.  Did you participate, or are you currently participating, in TAP? (TAP is the Transition Assistance Program run by the Department of Defense for separating service members.) 
+
+* Yes  
+* No  
+* I’m not sure
+
+7\. Do you have a disability such as TBI, PTSD, or depression that affects mood, energy, or memory? You do not need to have a VA disability rating to answer yes. 
+
+* Yes  
+* No  
+* I prefer not to answer
+
+8\. Do you use any type of assistive technology devices such as screen magnifiers or screen readers.? 
+
+* Yes  
+* No  
+* I’m not sure
+
+
 ## Timeline 🗓️
 
 ### Optional Kick-off Call with Perigean
@@ -182,7 +241,7 @@ The product in staging and conversation guide are currently ready
 - `Date and time of pilot session:` **Wednesday July 9, 4:00 EST** 
 
 ### Research sessions
-- `Planned dates of research:` **07/19-8/1]**
+- `Planned dates of research:` **07/19-8/12**
 
 ### Length of sessions
 - `Session length: 1 hour`
@@ -194,18 +253,23 @@ The product in staging and conversation guide are currently ready
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
 
-- `[07/19, Friday, 12:00 PM-7:00 PM] EST`
-- `[07/21, Monday, 12:00 PM-5:00 PM] EST`
-- `[07/22, Tuesday, 12:00 PM-7:00 PM] EST`
-- `[07/23, Wednesday, 12:00 PM-7:00 PM] EST`
-- `[07/24, Thursday, 12:00 PM-5:00 PM] EST`
-- `[07/25, Friday, 12:00 PM-7:00 PM] EST`
-- `[07/28, Monday, 12:00 PM-7:00 PM] EST`
-- `[07/29, Tuesday, 12:00 PM-7:00 PM] EST`
-- `[07/30, Wednesday, 12:00 PM-7:00 PM] EST`
-- `[07/31, Thursday, 12:00 PM-5:00 PM] EST`
-- `[08/1, Friday, 12:00 PM-7:00 PM] EST`
-
+- `07/19, Friday, 12:00 PM-7:00 PM EST`
+- `07/21, Monday, 12:00 PM-5:00 PM EST`
+- `07/22, Tuesday, 12:00 PM-5:00 PM EST`
+- `07/23, Wednesday, 12:00 PM-7:00 PM EST`
+- `07/24, Thursday, 12:00 PM-5:00 PM EST`
+- `07/25, Friday, 12:00 PM-7:00 PM EST`
+- `07/28, Monday, 12:00 PM-7:00 PM EST`
+- `07/29, Tuesday, 12:00 PM-7:00 PM EST`
+- `07/31, Thursday, 12:00 PM-5:00 PM EST`
+- `08/1, Friday, 12:00 PM-7:00 PM EST`
+- `08/4, Monday, 12:00 PM-7:00 PM EST`
+- `008/5, Tuesday, 12:00 PM-7:00 PM EST`
+- `08/6, Wednesday, 12:00 PM-7:00 PM EST`
+- `08/7, Thursday, 12:00 PM-5:00 PM EST`
+- `08/8, Friday, 12:00 PM-7:00 PM EST`
+- `08/11, Monday, 12:00 PM-7:00 PM EST`
+- `08/12, Tuesday, 12:00 PM-7:00 PM EST`
 
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
