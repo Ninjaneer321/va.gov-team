@@ -62,7 +62,7 @@ These tracks will run in parallel to ensure we’re not waiting for a perfect la
 To understand the broader fraud ecosystem and clarify our team’s role, we’ll approach landscape mapping in iterative phases:  
 
 **Phase 1: Ecosystem Mapping**  
-Conduct interviews and workshops with internal stakeholders (BDPR, CSPs, security, identity teams) to map roles, responsibilities, and data flows.  
+Conduct interviews and workshops with stakeholders (BDPR, CSPs, security, identity team) to map roles, responsibilities, and data flows.  
 **Phase 2: Gaps & Opportunities Identification**  
 Analyze the landscape map to surface gaps, overlaps, and potential partnership opportunities. Begin drafting a shared fraud playbook outline for VA’s identity ecosystem.  
 **Phase 3: Validation & Partnership**  
@@ -80,17 +80,19 @@ _Milestones:_
 
 ## Fraud Detection Signals & Feasibility (Discovery Track 2)
 
-We’re starting with the fraud detection pillar because it offers the clearest path to immediate learning. While prevention and response are also critical parts of a complete identity fraud strategy, we don’t know yet how (or if) identity misuse is surfacing in our systems (it’s not just VA.gov… likely upstream.) Exploring detection helps us uncover what patterns we’re already capturing, where gaps exist, and how we might support other teams, like BDPR. It’s also the most natural starting point for partnership. It’ll allow us to validate whether fraud is detectable at scale before jumping into broader solutions.
+We’re starting with the fraud detection pillar because it offers the clearest path to immediate learning. While prevention and response are also critical parts of a complete identity fraud strategy, we don’t know yet how (or if) identity misuse is surfacing in our systems (it’s likely upstream.) Exploring detection helps us uncover what patterns we’re already capturing, where gaps exist, and how we might support other teams, like BDPR. It’s also the most natural starting point for partnership. It’ll allow us to validate whether fraud is detectable at scale before jumping into broader solutions.
 
-_Hypothesis: We believe that confirmed fraud cases contain detectable patterns in VA system logs that could be surfaced through modeling. By exploring this assumption, we aim to identify repeatable signals, distinguish fraudulent activity from legitimate but unusual behaviors, and figure out what data we already have, what additional data we’d need, and whether our systems are set up to test fraud detection in a way that could actually work for the whole VA ecosystem._
+_Hypothesis: We believe that confirmed fraud cases contain detectable patterns in logs that could be surfaced through modeling. By exploring this assumption, we aim to identify repeatable signals, distinguish fraudulent activity from legitimate but unusual behaviors, and figure out what data we already have, what additional data we’d need, and whether our systems are set up to test fraud detection in a way that could actually work for the whole VA ecosystem._
 
 * **Phase 1: Rules-Based Baseline**  
   * Document BDPR’s current manual approach to establish a baseline for future comparison or enhancement support.  
-* **Phase 2: ML Prototype**  
+* **Phase 2: Exploratory Analysis**  
+  * Analyze confirmed fraud cases to surface identity-layer signals and patterns occurring prior to fraud.
+* **Phase 3: ML Prototype**  
   * Explore known fraud cases to prototype detection logic and signal clustering. Focus on distinguishing true fraud from friction or false positives. 
-* **Phase 3: Evaluation**  
+* **Phase 4: Evaluation**  
   * Evaluate performance of detection approaches. Colaborate with stakeholders to review results and co-develop response thresholds, if non exist today.
-* **Phase 4: Strategic Scaling**  
+* **Phase 5: Strategic Scaling**  
   * Identify next bets (alerting logic, any potential UI, more partner signals). Explore expansion beyond BDPR (to VHA, CSPs, others?)
  
 _Outcome:_
@@ -153,8 +155,11 @@ Track 2: A clear determination on detection feasibility (and tradeoffs for false
 * Detection / Prevention / Response:
   * Detection: Identifying potential fraud based on signals or patterns.
   * Prevention: Stopping bad actors before they gain access.
-  * Response: What happens after fraud is detected—alerts, recovery, remediation.
+  * Response: What happens immediately after fraud is detected, including alerts, recovery, remediation.
+* Remediation: Follow-up steps to repair harm caused by fraud and restore normal operations
 * False Positive: A legitimate user mistakenly flagged as suspicious or fraudulent.
 * False Negative: A fraudulent user is mistakenly allowed through because the system fails to flag them. Opposite of a false positive.
 * Friction: Additional steps or barriers in the login or verification process, sometimes necessary for security but potentially harmful to usability.
 * Small Bet: A low-risk, exploratory experiment used to validate assumptions or uncover insights without committing to a full solution.
+* Fraud signal: data point or behaviour in the system that may indicate suspicious activity.
+

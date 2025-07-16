@@ -11,15 +11,15 @@
 
 **10-15 min before each session**: 
 - **START the Codespace**:
-
+Developer to run codespace.
   1. Open the stop/start URL in github
-  1. Click on green "<> Code" button
-  1. In the Codespaces tab, click on the ellipsis (...) next to your Codespace (va-public-musical space goggles)
-  1. Select "Open in browser".
-  1. See "Setting up your codespace", and a browser tab w/command window
-  1. Ctrl-Shift-P > view > View Creation Log > see in terminal window at bottom
-  1. Check for all green text, and "Setup complete" (if anything red, slack Alex Taker)
-  1. Open standalone browser window with prototype: **insert link** (link) and test it
+  2. Click on green "<> Code" button
+  3. In the Codespaces tab, click on the ellipsis (...) next to your Codespace (va-public-didactic-cod)
+  4. Select "Open in browser".
+See "Setting up your codespace", and a browser tab w/command window
+Ctrl-Shift-P > view > View Creation Log > see in terminal window at bottom
+Check for all green text, and "Setup complete" (if anything red, slack Ken Li)
+Open standalone browser window with prototype: insert link (https://didactic-cod-xx56j6p5vg3v45v-3001.app.github.dev/supporting-forms-for-claims/submit-statement-form-21-4138/introduction) and test it
 - Sign onto Zoom website as Perigean and start Zoom meeting
 - Slack Perigean notetaker a link to the notes doc in GitHub
 - Post p# and "observer instructions" in #feedback-backchannel
@@ -42,8 +42,6 @@ Thanks for joining us today! My name is **Christine**. How are you doing today?
 
 I have a colleague with us in this session who will be taking notes. 
 
-*(if applicable)* [accessibility specialist] is also in this meeting to help with any technical issues that may arise with your use of assistive technology during this session. 
-
 There are a few of my teammates who would like to observe this session as well. **Would it be OK with you if I invited them to join us?**
 - *(If participant seems hesitant or unsure or uncomfortable)* Just so you know, my teammates will be muted and off camera and you won't have to interact with them. You also have the option to keep the session just the two of us plus the notetaker (and the technical support person).
 - *(If yes, let them in--3-4 MAX. If no, post to #feedback-backchannel "Sorry, the participant doesn't want any observers in this session.")*
@@ -56,7 +54,7 @@ Today we're going to talk about filling out forms from the VA mobile app. I'm go
 
 Before we start, I want to go over a few things:
 
-- **This entire session may take 60 (or 90) minutes.** I want to be sure not to keep you longer, so I may occasionally prompt you with the next question or topic.
+- **This entire session may take 60 minutes.** I want to be sure not to keep you longer, so I may occasionally prompt you with the next question or topic.
   
 - **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. We're testing a website to learn how we can make it easier to use. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
 - **Your participation in this interview is completely voluntary.** Whether or not you choose to participate will not affect your benefits with the VA. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Just let me know.
@@ -103,9 +101,10 @@ Let’s start with a few questions...
 
 2. What kind of device are you using today? *(Tablet / Smartphone)*
     - *(If not the expected device, ask to rejoin that way)*
-    - What operating system? *(iOS / Android / _______)*
 
-3. What web browser do you use? *(Chrome / Firefox / Edge / Safari / _______)*
+3. What operating system if on your device? *(iOS / Android / _______)*
+
+4. What is the default web browser set up on your device? *(Chrome / Firefox / Edge / Safari / _______)*
 
 4. I will be sharing a web page link with you during the session. How would you prefer to receive the URL? I could dictate it to you, put it in the Zoom chat, email it to you, or *(for smartphone only)* text it to you. *(RECORD)* 
 
@@ -135,9 +134,8 @@ We can help guide you through this if you need help. Please say what you're doin
 **(If video window is covering up phone screen)** It looks like my zoom video is covering up a lot of your screen. Could you please swipe it off? (Screen reader: swipe right until the video window has focus, and then double tap when you hear "Stash preview".)
 
 ## Task 00: Open prototype
-Now I'd like you to download the [app] on your phone. 
-
-I will *[email/text/dictate/put into the Zoom chat]* the URL: **place url here** --
+**for iOS users:** 
+I will *[email/text/dictate/put into the Zoom chat]* the URL: that takes you to download the testing app **place url here** --
 - *(If asked, reassure that this is a legitimate link to what I want you to test)*
 
 Did you get the link? 
@@ -146,26 +144,28 @@ Did you get the link?
 - *If prototype doesn't open, copy the URL and open in a new incognito window (Chrome), private window (Firefox, Safari) or InPrivate (Edge)*
 
 Please click the (green) "Continue" button.
+**for Android users:** 
+You will receive an email invite to the email you supplied us to download the testing app. Please navigate to your email and select that link now.
 
 **You'll be interacting with a demo prototype today.** Since it's a demo, note that none of your actions will affect your own VA information or benefits.
 
 
 ## Task 1: Login to the VA Health and Benefits mobile app
-[start on the VA Health and Benefits mobile app version: 2.54.1.QA (2810)]
+[start on the VA Health and Benefits mobile app version: 2.54.1.QA (2825)]
 
-I'd like you to take a look at this screen, and then go through the login flow. The system will automatically generate a test user login and will enter the multi-factor authentication code for you. 
+I'd like you to take a look at this screen, and login. The system will automatically generate a test user login for you and assume credentials. 
 
 As we go through the steps in this study, please talk aloud about what you're thinking BEFORE clicking on anything. And please share any thoughts, reactions, or questions you have about the current screen.
 
-[Sign in using the 'Sign in' button on your screen > Select the 'ID.me' > The system will automatically generate a login email and password, Select the 'Continue' button > The system will automatically enter a 6-digit code, Select the 'Continue' button]
+[Sign in using the 'Sign in' button on your screen > Once logged in you will see some initial app instructions, select "Skip" at the bottom-right of your screen > For the notification screen select "Not now".]
 
 [When they get to the homepage:] Please stop here so I can give you the next instruction.
 
 
 ## Task 2: Start a statement
-Pretend that you need to start a new statement with the VA. Where would you go in the mobile app to start a new statement?
+Pretend that you need to start a new statement with the VA by completing a form. Where would you go in the mobile app to start a new statement?
 
-[Select 'Go to forms', Select 'Start a new statement, Select 'Start a new statement', Read through the screen 'What would you like to do?' > Select 'What I want to do isn't listed here' > Click 'Continue'. 
+[Select 'Go to forms' > Click the button 'Start a new statement' > Read the text on this page and continue on by clicking on the button 'Start a new statement', Read through the screen 'What would you like to do?' > Select 'What I want to do isn't listed here' > Click 'Continue'.]
 
 Reminder to speak aloud any thoughts, reactions, or questions you have during this process.
 
@@ -176,7 +176,7 @@ Reminder to speak aloud any thoughts, reactions, or questions you have during th
     - If Y, what do they find confusing?
 
 
-## Task 3: Fill out form [never back out or reload the page]
+## Task 3: Fill out the form [never back out or reload the page]
 Please fill out this form to submit your statement, but I want you to use fake details so you don't share your personal information with me.
 
 - Supply form entry data for participant to enter as they go through the form.
@@ -194,25 +194,38 @@ Please fill out this form to submit your statement, but I want you to use fake d
 
 
 ## Task 4: (After SSN before 'Continue') take a break in filling out the form
-Pretend you need to step away from the form for an extended period of time, what do you do with the form at this point?
+Pretend you need to step away from the form for an extended period of time, you can leave the form now.
 
 [Click 'Done' to exit the form]
 
 ### Watch for:
 - Does the user select anything other than Done to leave the form? Y/N
     - If yes, what does the user do?
-- Does the user feel express doubt that their work will be saved? Y/N
+- Does the user express doubt that their work will be saved? Y/N
 
 ## Task 5: Continue completing the started form and submit
 Pretend you are ready to come back to your previous form to complete it.
 
-[From forms, under 'Statement in Support of a Claim' click 'Continue form']
+[From forms, under 'Statement in Support of a Claim' see 'In Progress' form previously started, click 'Continue form']
 
 ### Watch for:
 - Does the user understand that they are continuing with the same form they started at the beginning of the session? Y/N
     - If no, what do they mention that is confusing?
 - Is the user able to complete the started form? Y/N
     - If no, what prohibited them from submitting the initial form?
+ 
+### Task 6: View submitted form
+Now that you have completed the form, navigate back to the general forms location in the app.
+
+[Select 'Done' to exit the confirmation page, Go to 'Forms']
+
+Based on this screen, can you confirm that you have submitted your form?
+
+### Watch for:
+- Does the user express confidence that they have completed and submitted their form?
+    - If no, what is confusing to them and why?
+- DOes the user understand the status of the form?
+    - If not, what do confusion do they express when interpretting the form status?
 
 
 ## Thank You and Closing - 3 minutes
@@ -238,7 +251,7 @@ Thank you so much again, and I hope that you enjoy the rest of your day!
 - Rename and save transcript file from Finder
 - Download notes
 - Debrief to my spreadsheet
-- **STOP the Codespace**:
+- Ask developer to **STOP the Codespace**:
   1. Open the stop/start URL in github
   1. Click on green "<> Code" button
   1. In the Codespaces tab, see green dot and "active" next to the name of your codespace (va-public-musical space goggles)

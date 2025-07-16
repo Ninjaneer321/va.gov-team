@@ -37,15 +37,15 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [ ] VA PO approved end of quarter status of Quarterly Goals (0x/xx/25)
 
-## Sprint Goals - Sprint: 12 [7/1/25 - 7/15/25]  
+## Sprint Goals - Sprint: 12 [7/2/25 - 7/15/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Support Engineering team in addressing Staging Review feedback to ensure Digital Dispute is release-ready (Including canary testing with Veterans).| QP1 |--|--|--|
-|UX: Complete Figma user flows for Hardship Suspension.| QP5 |--|--|--|
-|UX: Refine and document the UX research process for studies to include use of Copilot (AI tool).| QPX |--|--|--|
-|ENG: Complete existing front end Digital Dispute launch-blocking tickets from the Staging Review (10 pts).| QP1 |--|--|--|
-|ENG: Create Digital Dispute multiple submission database schemas. | QP1 |--|--|--|
-|ENG: Address upstream server VBA job submission errors.| QPX |--|--|--|
+|UX: Support Engineering team in addressing Staging Review feedback to ensure Digital Dispute is release-ready (Including canary testing with Veterans).| QP1 |--|7/15/25|Complete|
+|UX: Complete Figma user flows for Hardship Suspension.| QP5 |--|7/14/25|Complete|
+|UX: Refine and document the UX research process for studies to include use of Copilot (AI tool).| QPX |--|7/15/25|Complete|
+|ENG: Complete existing front end Digital Dispute launch-blocking tickets from the Staging Review (10 pts).| QP1 |--|7/15/25|Complete|
+|ENG: Create Digital Dispute multiple submission database schemas. | QP1 |--|7/10/25|Complete|
+|ENG: Address upstream server VBA job submission errors.| QPX |--|7/10/25|Complete|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (06/30/25)
@@ -54,8 +54,32 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
  - [X] VA COR approved the Sprint Goals (07/02/25)
  
 **_Delivery + Notes:_**
+- [X] All goals have been updated in the sprint chart
+- [X] Any Additional details about goals **not** completed will be documented here
+  - For goal - ENG: Address upstream server VBA job submission errors. This was completed on the 10th, but in addition to the goal's scope the BE ENG team created an additional task to enhance the submission error correction ensuring a higher quality of the initial solution. This can be seen in ticket: Implement 5655 Submission Job Spike Solution
+#113523
+
+## Sprint Goals - Sprint: 13 [7/16/25 - 7/29/25]  
+| Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|UX: Share the Digital Dispute designs with the DMC for them to review and understand what Veterans will be seeing on the Debt Portal to facilitate seamless follow up with them during call support.| QP1 |--|--|--|
+|UX: Review designs for pay.gov with ENG and determine implementability.| QP3 |--|--|--|
+|UX: Refine content for Hardship Suspension with the Content Team.| QP5 |--|--|--|
+|ENG: Launch Digital Dispute.| QP1 |--|--|--|
+|ENG: Observe Digital Dispute submissions. Create report of request/response times and determine if we need to move request to DMC to a Sidekiq job. | QP1 |--|--|--|
+|ENG: Develop a plan if Digital Dispute needs to move to a DMC Sidekiq job.| QP1 |--|--|--|
+|ENG: Pay.gov MOU filled out and some next steps determined.| QP3 |--|--|--|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [X] Ready to be sent for approvals (07/14/25)
+ - [X] VA PO & COR sent the Sprint Goals (07/14/25)
+ - [X] VA PO approved the Sprint Goals (07/16/25)
+ - [ ] VA COR approved the Sprint Goals (07/XX/25)
+ 
+**_Delivery + Notes:_**
 - [ ] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
+
 
 ---
 

@@ -2,7 +2,7 @@ name: "Offboarding request (team)"
 description: "This ticket is for team offboarding. Use the individual offboarding ticket to offboard specific team members."
 title: "Offboarding request (team)"
 labels:
-  - "offboarding"
+  - "Offboarding"
   - "team-offboarding"
 body:
   - type: markdown
@@ -14,7 +14,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Product managers should complete this ticket when a VFS team is offboarding, after all team and product information has been updated per the [team offboarding guidance](https://www.google.com/maps) and [individual offboarding tickets](https://www.google.com/maps) have been created. 
+        Ensure you’ve created [individual offboarding tickets](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=offboarding-request.md) for each exiting team member and all team and product information has been updated per the team offboarding guidance; once both are complete, submit this team offboarding ticket.
   - type: markdown
     attributes:
       value: "## Step 1: Before you submit this ticket"
@@ -22,9 +22,9 @@ body:
     id: follow-team-offboarding
     attributes:
       label: Complete these steps before you complete this ticket.
-      description: Review [team offboarding guidance](https://www.google.com/maps) and [individual offboarding ticket](https://www.google.com/maps)
+      description: Review team offboarding guidance and [individual offboarding ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=offboarding-request.md)
       options:
-        - label: I have updated all my team (including team's readme) and product (including product outline) information and provided access per the team offboarding guidance.
+        - label: I have updated all team-related documentation, including the team's README, and product materials, such as the product outline. Access has been granted in accordance with the team's offboarding guidelines.
           required: true
         - label: I have submitted individual offboarding tickets for each team member.
           required: true
@@ -52,25 +52,29 @@ body:
     id: pm-gh
     attributes:
       label: Team Product Manager GitHub handle
+      description: Include the "@" symbol 
+      placeholder: eg. @rsmith
     validations:
       required: true
   - type: input
     id: va-po-gh
     attributes:
       label: VA Product Owner GitHub handle
+      description: Include the "@" symbol 
+      placeholder: eg. @rsmith
     validations:
       required: true
   - type: input
     id: team-readme-link
     attributes:
       label: Link to your team's readme or similar document
-      description: Review [team readme template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/health-products/README.md)
+      description: Review [team readme template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/team-readme-template.md)
     validations:
       required: true
   - type: checkboxes
     id: team-info-up-to-date
     attributes:
-      label: Team information must be up top date.
+      label: Team information must be up to date.
       options:
         - label: My team information, including team's readme is up to date
           required: true
@@ -80,7 +84,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Complete the product information section for each of your team’s products. If you have more products to add, copy/paste to add more sections.
+        Complete the product information section for each of your team’s products. If you have more products to add, you will need to submit this ticket and then edit to copy/paste the product section.
   - type: markdown
     attributes:
       value: "### Product 1"
@@ -105,7 +109,7 @@ body:
   - type: checkboxes
     id: product-1-outline-date
     attributes:
-      label: Product information must be up top date and accessible.
+      label: Product information must be up to date and accessible.
       options:
         - label: My product information, including the product outline is up to date.
           required: true
@@ -113,6 +117,7 @@ body:
     id: product-1-atlas
     attributes:
       label: Link to product in ATLAS
+      description: Go to [ATLAS](https://www.va.gov/atlas/)
     validations:
       required: true
   - type: input
@@ -155,7 +160,7 @@ body:
   - type: checkboxes
     id: product-2-outline-date
     attributes:
-      label: Product information must be up top date and accessible.
+      label: Product information must be up to date and accessible.
       options:
         - label: My product information, including the product outline is up to date.
           required: false
@@ -163,6 +168,7 @@ body:
     id: product-2-atlas
     attributes:
       label: Link to product in ATLAS
+      description: Go to [ATLAS](https://www.va.gov/atlas/)
     validations:
       required: false
   - type: input
@@ -205,7 +211,7 @@ body:
   - type: checkboxes
     id: product-3-outline-date
     attributes:
-      label: Product information must be up top date and accessible.
+      label: Product information must be up to date and accessible.
       options:
         - label: My product information, including the product outline is up to date.
           required: false
@@ -213,6 +219,7 @@ body:
     id: product-3-atlas
     attributes:
       label: Link to product in ATLAS
+      description: Go to [ATLAS](https://www.va.gov/atlas/)
     validations:
       required: false
   - type: input
@@ -249,3 +256,4 @@ body:
           required: false
         - label: Update product information in Atlas
           required: false
+      

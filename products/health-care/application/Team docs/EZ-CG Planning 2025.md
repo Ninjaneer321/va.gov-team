@@ -1,6 +1,45 @@
 # 2025 Sprint Planning for EZ-CG Team
 - Current Sprint first
 
+## 📆 Sprint 25 (July 16 - July 29)
+
+### 10-10EZ
+
+#### Obj: EZ [CYOA](https://github.com/department-of-veterans-affairs/va.gov-team/issues/103253)
+- [#114337](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114337) - [Research] Refine artifacts and review with audiences
+
+#### Obj: EZ [Save in-progress for List & Loop](https://github.com/department-of-veterans-affairs/va.gov-team/issues/94818)
+- [#95284](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95284) - [FE] Update Dependent section
+
+#### Obj: [Insurance page updates](https://github.com/department-of-veterans-affairs/va.gov-team/issues/90159)
+- [#94500](https://github.com/department-of-veterans-affairs/va.gov-team/issues/94500) - [QA] Follow-up to complete testing on L&L pattern
+
+#### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
+- [#113620](https://github.com/department-of-veterans-affairs/va.gov-team/issues/113620) - [BE] Ignore params passed in GET request (CARRIED)
+- [#113841](https://github.com/department-of-veterans-affairs/va.gov-team/issues/113841) - [BE] CSRF at Platform level
+- [#114233](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114233) - [BE] Update engineering documentation to reflect BEP in place of BGS
+- [#114303](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114303) - [Eng] Engineering documentation updates
+- [#114313](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114313) - [UX] Design/Research documentation updates
+- [#114338](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114338) - [BE] Investigate in-progress emails being sent when application has been submitted
+
+#### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
+- [#105833](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105833) - [Eng] Discovery on how we can confidently refer "pending" Veterans to EZR (CARRIED)
+
+## 
+### 10-10CG
+
+#### Obj: CG [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40165)
+- [#114309](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114309) - [Eng] Engineering documentation updates
+- [#114311](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114311) - [UX] Design/Research documentation updates
+
+##
+### Team PTO
+- Luis: 7/21-22
+- Brandon: 7/24-28
+- Mitch: 7/24-25
+
+----
+
 ## 📆 Sprint 24 (July 2 - July 15)
 
 ### 10-10EZ

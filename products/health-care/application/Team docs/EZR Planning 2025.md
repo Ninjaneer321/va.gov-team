@@ -1,6 +1,34 @@
 # 2025 Sprint Planning for EZR Team
 - Current Sprint first
 
+## 📆 Sprint 25 (July 16-July 29)
+
+### 10-10EZR
+
+#### Obj: EC/NoK 
+- [Team/FE] 10-10EZR: EC/NoK Phased Release	https://github.com/department-of-veterans-affairs/va.gov-team/issues/108518
+  
+#### Obj: Military Information 
+- [Design] 10-10EZR: Mil Service Period: Add Page for new Service Period	https://github.com/department-of-veterans-affairs/va.gov-team/issues/113982
+- [BE] 10-10EZR: Mil Service Period: Update Schema	https://github.com/department-of-veterans-affairs/va.gov-team/issues/113983
+- [FE] 10-10EZR: Add military service form	https://github.com/department-of-veterans-affairs/va.gov-team/issues/114030
+- [FE] 10-10EZR: Add Military Service Period: Create file upload page	https://github.com/department-of-veterans-affairs/va.gov-team/issues/114031
+
+#### Obj V2 Household 
+- [FE] 10-10EZR: Prefill Spouse Information V2 https://github.com/department-of-veterans-affairs/va.gov-team/issues/112998
+- Complete QA Work for financial and dependent sections 
+
+#### Stretch
+- Release V2 Household
+   1. Dependents
+   2. Financial
+   3. Spouse
+
+##
+### Team PTO
+- Luis 6/21-22
+
+
 ## 📆 Sprint 24 (July 2- July 15)
 
 ### 10-10EZR

@@ -1,7 +1,7 @@
 
 ---
 
-# DRAFT [2025-07 - CYOA Task List Early Exploration - Unmoderated Prototype A/B Study - #906] Research Findings 
+# [2025-07 - CYOA Task List Early Exploration - Unmoderated Prototype A/B Study - #906] Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 10-10EZ Form Health Care Application, Health Enrollment Team**
 
@@ -24,6 +24,12 @@
 - [Who we talked to](#who-we-talked-to)
 
 
+
+**Executive Summary:**
+This unmoderated A/B comparitive study did provide insight into the potential user experience improvement with the form task list (orange prototype) despite the quantitative questions and ratings being a marginal preference (44% vs 39%). The open ended questions in the post-task and post-study steps revealed themes that do suggest further exploration is needed on this pattern. This is especially true with representation of key use cases that result in conditional logic, a coded prototype to test with AT and mobile users and testing prefill and status tag functionality.
+
+
+
 ## Research Goals
 This study aimed to evaluate two potential form patterns — a task list pattern, the "Orange" prototype,  and a traditional flow, the "Green" prototype. These were tested on the 10-10EZ health care application to determine if there is potential to improve the form flow with a non-linear navigation. This research will help us determine if there is an opportunity to further investigate and  work on the task list experimental pattern.
 
@@ -35,8 +41,10 @@ This research supports Veterans in the "Getting Out," "Starting Up" (Attending t
 
 This study aims to evaluate two potential form patterns—"Orange" task list and "Green" traditional flow—for the 10-10EZ health care application to determine if there is potential to improve the form flow with a non-linear navigation.
 
+
+
 **Specific Goals:**
-- Gauge Veteran Interest: Understand Veterans' initial reactions to in both patterns, in a counter-balanced study, where each cohort will interact with both prototypes.
+- Gauge Veteran Interest: Understand Veterans' initial reactions to in both patterns, we showed both designs to all participants, in different orders.
 - Evaluate Navigation & Perceived Intuitiveness: Determine how Veterans perceive ease of locating and initiating form sections in both prototypes.
 - Identify High-Level Points of Confusion: Spot any early usability issues in the task list structure and navigation.
 - Assess Initial Preference: Identify which pattern Veterans prefer and why.
@@ -56,7 +64,7 @@ This study aims to evaluate two potential form patterns—"Orange" task list and
 
 ## Methodology 
 
-**Type:** Unmoderated within-subjects study
+**Type:** Unmoderated
 
 **Platform:** Optimal Workshop using Figma prototypes
 
@@ -87,24 +95,28 @@ Participants were shown limited-functionality Figma prototypes and asked to perf
 
 ## Key Findings
 
-**1. Slight preference for the Task List pattern over the traditional form flow.**
+**1. Slight preference for the task list pattern over the traditional form flow was reported by participants.**
 
-**2.Navigation preferences were mixed between the Task List and traditional form flow patterns.** 
+**2. Navigation preferences were mixed between the task list and traditional form flow patterns tested.** 
 
-**3. Clickable elements in task list were utilized but may have caused some confusion**
+**3. Clickable elements in task list were utilized but may have caused some confusion.**
 
-**4. Participants stated there was a lot of information to provide and gathering documents beforehand would be important.**
+**4. The organization and status of the groups of information was appreciated among participants**
+
+**5. Participants stated there was a lot of information to provide and gathering documents beforehand would be important.**
 
 
 
 ## Details of Findings 
 
-**Finding 1: Slight preference for the Task List pattern over the traditional form flow.**  
+**Finding 1: Slight preference for the task list pattern over the traditional form flow was reported by participants.**  
 
-- 9 out of 43 participants (44.1%) preferred the task list (Orange) prototype, while 17 (39.5%) preferred the traditional (Green) flow; 7 (16.3%) had no preference.
+- 19 out of 43 participants (44.1%) preferred the task list (Orange) prototype, while 17 out of 43 (39.5%) preferred the traditional (Green) flow; 7 (16.3%) had no preference.
+- Participants rated the Orange task list prototype as "Very Easy" in the post-task question. 71.4% in cohort 1 and 63.6% in cohort 2.
 - Participants liked the clear sections, information, and status labels in the task list.
-	_“I liked that the categories were broken down into the 6 sections. It made it easier to know if you successfully completed the individual sections.”_
-_“Navigation was fairly easy and clearly labeled.”_
+  	- _“I liked that the categories were broken down into the 6 sections. It made it easier to know if you successfully completed the individual sections.”_
+	- _“Navigation was fairly easy and clearly labeled.”_
+ 	- _"Overall, very good. (Orange prototype) The categories were displayed in large font and then sub-categories were nested underneath. It's also a good feature to have the form move to the next page after a section is complete. I usually notice that in tax software, so that is a bonus."_ 
 
 
 **Finding 2: Personal preference - to navigate linear or more freely by section.**  
@@ -112,17 +124,17 @@ Participants exhibited a personal preference for either linear progression or mo
 
 **Quotes:**
 
-Prefer Task List Flow (Orange Prototype)
+_Prefer Task List Flow (Orange Prototype)_
 - _The task list, 100%_
 - _I prefer the Orange option because it showed me what I had completed and what was upcoming. However, the Green option had a cleaner look and feel to me._
-- _I liked it, but it did seem more complex that the Green. Both were clear to me and easy. But I think the Orange may be more difficult for some. Both were good._  
+- _I liked it, but it did seem more complex that the Green. Both were clear to me and easy. But I think the Orange may be more difficult for some. Both were good._
+- _I could not tell what was behind me or what was coming up next without hitting the back button (Green/traditional flow found confusing question)_
 
   
-Prefer Traditional Flow (Green Prototype)
+_Prefer Traditional Flow (Green Prototype)_
 - _While I can't quantify it, it just felt less intimidating. It was very straightforward and easy to follow. I would not have any hesitations about completing the process and I think the dropout rate would be low._
 - _I like the one click navigation, it doesn't leave a lot of room for error once you get the section you need, just keep clicking._
 - _The separate sections that haven’t been completed give me anxiety. It’s probably my OcD and seeing the incomplete_
-
 
 
 **Finding 3: The task list pattern tested showed participants had some confusion around the clickable elements - they equally wanted click on the text name or the status tag to navigate.**  
@@ -141,8 +153,18 @@ Green:
 
 
 
+**Finding 4: The organization and status of the groups of information was appreciated among participants**
+Grouping sections and showing progress helps users feel less overwhelmed as did letting users skip around can improve satisfaction for complex forms.
 
-**Finding 4: Participants stated there was a lot of information to provide and gathering documents beforehand would be important.**  
+- Cohort 1 AI summary that 14% commented on the intuitive section grouping of the Orange prototoype task. Verified during synthesis affinity mapping there was a them around the grouping and sections as a positive element of the task list prototype.
+
+**Quotes**
+- _I thought Orange was really good. Breaking each area down by sections, allowing you to go at your own pace, but also seeing which areas are done and which you have left is definitely the preferred route._
+- _The way the information required is places in "buckets" that can be completed in order, or in an order that easier based on the information available. And then to know when it is complete._
+
+
+
+**Finding 5: Participants stated there was a lot of information to provide and gathering documents beforehand would be important before completing the health care application.**  
 - 	Participants noted the process required a lot of information and recommended gathering documents before starting.
 
 **Quotes:**
@@ -155,21 +177,43 @@ Green:
 ---
 
 ## **Additional Insights**
-- Participants mentioned saving and returing to the form later and calling out the application save and ID details in the lower green alert.
+- Participants mentioned saving and returning to the form later and calling out the application save and ID details in the lower green alert.
+- Most participants seemed to prefer the second prototype they were shown and in both prototypes a couple participants contradicted themselves in the comments vs their response to the close-ended preference question. 
 - A small theme on cohort 1 only that contradicted normal sentiment heard in studies - this group had positive things to say about the steps in the form progress bar stepper. 
 - Participants did state the instructions were often clear and understandable
- _One of the easiest to understand that VA has had me fillout_
-
+ 	- _One of the easiest to understand that VA has had me fillout_
+  	- _Instructions are precise. Would be rather easy to follow, especially being a recent Discharged Veteran and used to filling out instructions and government paperwork/_
+  	- _The instructions were clear as to what would be needed to complete the form._ 	
+- Participants often stated the instructions were often clear.
   
 
 ## Recommendations
 
 *Summarize actionable recommendations based on findings.*  
 
-1. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_  
-2. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_
+1. **Recommendation:** [Refine the task list prototype and conduct a moderated research study]  
+Refine the task list coded prototype and conduct a moderated study that includes additional interview questions so we can conduct a more well-rounded study including mobile devices. 
+
+   - Post-study survey results and questions around task list functionality: The quantitative scale ratings were very close (19 vs 17 preferring the task list). Qualitative feedback was also mixed and some notes of personal preference. 
+   - Figma prototype limitations: The prototype used was designed to use for testing navigation and movement around the form. Refining the funcitionality of the task list component and statuses while running a moderated study would allow for further inquiry and questioning around the Veterans' mental model of the task list.
+
+2. **Recommendation:** [Test for a mix of use cases and Veterans with different disability ratings and eligibility criteria]
+Include various use cases and conditional logic - Veterans with a disability rating over 50% and a mix of those who answer the household financial questions or the toxic exposure questions. 
+    - A future study that further evaluates how the task list pattern works for specific use cases (like short form flow for Veterans with a disability rating over 50%) or conditional logic questions.
+    - 
+
+
+3. **Recommendation:** [Refine task list functionality]
+Refine the usability of the task list pattern and secondary navigation within technical limitations including the status component.
+ 
+   - To determine if there is a valid user experience benefit to the task list pattern, need to evaluate the functionality of the statuses in an environment live will replicate technical feasibility around status, alerts and prefilling of information. 
+
+
+4. **Recommendation:** [Future studies with AT users]
+Include AT users as part of a future moderated study with a coded prototype or staging site to ensure the task list pattern  is easy to use and accessible.
+
+   - Test the usability of the pattern in a coded prototype or staging site so that we can include pariticpants who use screen readers or magnification to learn about their experience with the experimental pattern.
+
 
 
 ## Product User and Business Outcomes
@@ -177,7 +221,8 @@ Green:
 **Desired User Outcome**
   - Improved Application Completion Rate: Users are able to complete the health care application process with fewer errors and less confusion.
   - Increased User Satisfaction: Users report higher satisfaction with the process, citing clarity and ease of use.
-  - Reduced Abandonment: Fewer users drop out before completing the application due to improved guidance and task clarity. 
+  - Reduced Abandonment: Fewer users drop out before completing the application due to improved guidance and task clarity.
+
 **Deisred Business Outcome**
   - Higher Application Volume: More veterans successfully submit applications due to streamlined processes.
   - Faster Processing Times: Applications are submitted with fewer errors, requiring less manual review and correction.
@@ -185,7 +230,6 @@ Green:
 
 
 ## Key Performance Indicators
-
 - Application Completion Rate (percentage of users who start and successfully submit the application)
 - Time to Complete Application (average duration from start to submission)
 - Drop-off Rate (percentage of users who start but do not finish the application)
@@ -194,8 +238,9 @@ Green:
 
 ## Next Steps
 
-*Outline immediate actions based on findings, including owners if applicable.*  
-
+- Refine prototype based on technical limitations if this would be implemented
+- Create specific use cases that would result in different parts of the task list would need to be completed
+- Test a coded or well-refined prototype 
 
 
 
@@ -235,7 +280,12 @@ Green:
 
 ## Other supporting documents created
 
-*Include links to additional materials, e.g., personas, user flows.*  
+- [Github folder with clickmaps from OW](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research/2025-06-Task%20List%20and%20Traditional%20Form%20Unmoderated)
+
+<img width="800" height="440" alt="MacBook Pro-1" src="https://github.com/user-attachments/assets/6b782979-13cf-403e-822a-9bc1a48489da" />
+
+<img width="800" height="440" alt="MacBook Pro" src="https://github.com/user-attachments/assets/8f27d9e0-3684-412e-9ff8-acbcd54db825" />
+
 
 
 ## Secondary research
@@ -348,7 +398,6 @@ This research does not include the perspectives of the following marginalized Ve
 _List all groups in red from the spreadsheet_
 * Disability and Assistive Technology (AT)
 * Mobile
-* Group 3
+* LGBTQ+
+<img width="580" height="390" alt="VA-recruitment-checker Screenshot 2025-07-16 at 10 35 53 AM" src="https://github.com/user-attachments/assets/dcb21357-f81d-4f2e-8268-46cac7b9717d" />
 
-_[insert screenshot of completed recruitment checker]_
-![VA-recruitment-checker](link - add image to github folder and link here with .png)

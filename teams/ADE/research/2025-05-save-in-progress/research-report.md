@@ -1,11 +1,11 @@
 
 ---
 
-# 2025-05 Save in Progress Usability Findings 
+# 2025-05 Save in Progress Usability Findings -- WORK IN PROGRESS SO NOT FINAL
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 06/25/2025
+**Date:** 07/16/2025
 
 **Contacts:** Cindy Merrill
 
@@ -22,18 +22,28 @@
 - [Who we talked to](#who-we-talked-to)
 
 ## Research Goals
-Veterans may fill out web forms on VA.gov throughout their lives, including ALL stages of the Veteran Journey--Serving and separation, Living civilian life, and Retiring and aging. Saving in-progress work while filling out an online form is an interaction for which the current implementation on VA.gov has two known accessibility issues. This research was designed to get user feedback on a revised design that may resolve both issues.
+Veterans may fill out web forms on VA.gov throughout their lives, including ALL stages of the Veteran Journey--Serving and separation, Living civilian life, and Retiring and aging. Saving in-progress work while filling out an online form is an interaction for which the current implementation on VA.gov has two known accessibility issues. This research was designed to collect user feedback on a revised design that has the potential to resolve both issues.
 
-<details><summary>Click to see details of the two accessibility issues and the revised design that we tested.</summary>
+<details><summary>Expand for a description of the two accessibility issues and the revised design that we tested.</summary>
+
+### Two accessibility issues
 	
-1. While VA.gov users are signed in (authenticated) and filling out a form, the "save in progress" alert (see below with light green background) flashes on and then off with every field entry or edit. Because this alert displays *below* the Continue button, screen readers don't announce it, which is an accessibility issue. All users should have access to the same information about the user interface.
+1. While VA.gov users are signed in (authenticated) and filling out a form, the "save in progress" alert (see below with light green background) flashes on and then off with every field entry or edit ([Figure 1 shows the alert with a light green background](#figure-1)). Because this alert displays *below* the Continue button, screen readers don't announce it, which is an accessibility issue. All users should have access to the same information about the user interface (per [WCAG 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html)). 
 
-2. There's a "Finish this request later" button that looks like a link (see below), which is another accessibility issue. Links that take you to another page should look like links, and buttons that do actions should look like buttons. 
-<img src="./images/2-a11y-issues.png" width="50%" height="50%">
+2. There's a "Finish this request later" button that looks like a link ([Figure 2](#figure-2)), which is another accessibility issue. Links that take you to another page should look like links, and buttons that do actions should look like buttons (per [VA Design System guidance](https://design.va.gov/components/link/#choose-the-right-element-buttons-vs-links)). 
+
+#### Figure 1
+
+<img src="./images/2-a11y-issues.png" width="50%" height="50%" alt="This is an example of a form question with a Continue button below it. Below the button is a green informational box that says 'Your request has been saved. We saved it on April 30, 2025, at 5:15 p.m. PDT. Your request ID number is 44849.'">
+
+### Revised design
 
 We are testing a modification of the VA Design System [Header - Minimal component](https://design.va.gov/components/header/header-minimal), which is recommended for the design of new web forms. To address the above accessibility issues, we have removed the "save in progress" alert, as well as changed the "Finish this request later" button that looks like a link into looking like a button (see below). We believe that removing the "save in progress" alert will be OK because there is already text about saving on both the authenticated version of the form intro page and the first page of the form. One goal of this current research is to get user feedback on the revised design.
 
+#### Figure 2
 <img src="./images/2-a11y-issues-fix.png" width="50%" height="50%">
+
+### Past research 
 
 Previous research has validated the minimal header component, including its lack of "Back" button (research participants successfully used the "Back to previous page" breadcrumb link at the top of each page). Other research studies have tested various locations for the "Save in progress" alert, and subsequent research studies have documented usability and accessibility issues with those locations.
 
@@ -52,21 +62,21 @@ In addition, user feedback collected on "finish this request later", error messa
 
 ## Research Questions
 
-**Research goal 1: Learn about Veterans' expectations for saving information while filling out an online form before submitting it.**
+### Research goal 1: Learn about Veterans' expectations for saving information while filling out an online form before submitting it.
 1. What experiences have Veterans had around saving while filling out VA forms?
 1. What expectations do Veterans have about whether information will be saved while filling out an online form?
      1. What do Veterans expect to happen to their form data if they stop in the middle of filling out a form?
      1. What do Veterans expect to happen to their form data if they close the form page?
      1. How do Veterans expect to resume working on a form that they previously started filling out?
 
-**Research goal 2: Get user feedback on design revisions for "save in progress" and "finish this request later" that reduce redundant messaging around saving.**
+### Research goal 2: Get user feedback on design revisions for "save in progress" and "finish this request later" that reduce redundant messaging around saving.
 
 3. Do Veterans think that their form data is being saved? If so, how do they know?
 1. Are Veterans able to stop working on a form and return to it later? If so, how do they do it?
 1. Do Veterans notice the alert about saving on the form intro page?
 1. Do Veterans notice the text about saving on the first page of the form (below the progress stepper)?
 
-**Research goal 3: Get user feedback on error messages and the progress bar while filling out online forms.**
+### Research goal 3: Get user feedback on error messages and the progress bar while filling out online forms.
 
 7. What reactions do Veterans have to error messages? 
      1. Do they know what the errors mean, and how to resolve them?
@@ -112,7 +122,7 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
 1. With the new design, Veterans are confident that their form data will be saved.
     - **Likely False** because participants didn't assume this would happen, and most didn't read and remember the information alerts that said it would. All saw their data saved after clicking *Finish later* and most concluded that saving happened only if they clicked *Finish later* or *Continue*. They said that they *hoped* their work would be saved but were *not confident* that it would be. 
 
-1. With the new design, Veterans will know how to resume filling out a form that they started previously.
+1. Veterans will know how to resume filling out a form that they started previously.
     - **Likely True** because the *Continue your request* button was readily found and used by most participants (although the user wasn't signed out), and those who were brought to the My VA page found the *Continue your application* link there. This could be tested again in a different study with a prototype that signed out the user during a break in filling out the form.
 
 1. When Veterans encounter error messages while filling out online forms, they are able to resolve the errors.
@@ -136,7 +146,7 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
 
 ## Details of Findings 
 
-**Finding 1: Most participants (9 of 11) didn't know that their information was being saved automatically with every edit.**
+### Finding 1: Most participants (9 of 11) didn't know that their information was being saved automatically with every edit.
 - 5 of 11 participants said that they wanted their information to be saved automatically with every edit.
   > *"I'm hoping it's saving constantly like [Microsoft] Word does every so many seconds" (p5)*.
 - Most participants hoped or assumed that saving would happen after they clicked the *Finish later* (9 participants) or *Continue* button (7 participants). 
@@ -153,7 +163,7 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
 - Only one participant was confident that her information would be saved because of her experience filling out VA forms.
   > *"When I fill out forms on VA.gov...when you log back in or go back...it'll start you where you left off" (p4).*
 
-**Finding 2: Most participants didn't see the informational alerts about saving, and the few who did, didn't remember what they said**.
+### Finding 2: Most participants didn't see the informational alerts about saving, and the few who did, didn't remember what they said.
 
 - 7 of 11 participants didn't notice the informational alert on the authenticated form intro page, and 7 of 11 participants (including 6 of the previous 7) didn't notice it at the top of the first page of the form. When some of these participants were later shown the alert, they suggested making it easier to notice by making the text larger, red, or in a dialog box that you have to close.
 - 4 participants who read the informational alert on the intro page before starting the form didn't remember it by the end of the session when they were asked about saving. One of the participants commented aloud after reading the alert but didn't remember this later:
@@ -168,13 +178,13 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
 
    > *"Maybe...if the button doesn't say 'Finish later'...something like 'Save and close', because what it's doing is actually closing the form...because it's already being saved as you go along...There's the other threat...does that mean I'm just canceling this form? So having 'save', there is the reassurance that this is gonna save the last thing that I input. And then it's gonna close the form" (p12).*
 
-- The alert on the first page of the form was not accessible to some screen reader and screen magnifier users. Two screen reader users (1 on desktop, 1 on mobile) never heard the save alert on the first page of the form because it's above the H1, which is where their focus starts when the page is loaded. Plus, participants were focused on completing the form and generally didn't scroll up to explore. One screen magnifier user didn't notice the alert because their magnified area was focused on the fields to fill out and wasn't large enough to also see higher up on the screen.
+- The alert on the first page of the form was not discovered by some screen reader and screen magnifier users. Two screen reader users (1 on desktop, 1 on mobile) never heard the save alert on the first page of the form because it's above the H1, which is where their focus starts when the page is loaded. Plus, participants were focused on completing the form and generally didn't scroll up to explore. One screen magnifier user didn't notice the alert because their magnified area was focused on the fields to fill out and wasn't large enough to also see higher up on the screen.
 
   > *"It took me directly to the question, so I just answered the question" (p5).*  
   > *[Everything in the header] "is garbage that will be on every page that I am not going to listen to. I will go to the top of the page and hit 'H'. If the page is laid out right, it will have an H1 and tell me where to start" (p1).*
 
 
-**Finding 3: ALL participants tried the *Finish later* button and from that learned that their information was saved**.
+### Finding 3: ALL participants tried the *Finish later* button and from that learned that their information was saved.
 - After the first time each participant clicked the *Finish later* button, they saw the "Your records request has been saved" message. Then when they returned to the form, they saw the information they had entered previously. This is how most participants learned that the *Finish later* button saved their information, and they (incorrectly) assumed that you had to click this button in order to save. 
   > *"I assume when it says 'Finish later', it does save what I've done so far. But that's an assumption...Okay, cool. It says that my personal record request has been saved" (p11).*
 
@@ -187,14 +197,14 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
 - One participant (screen magnifier on desktop) clicked *Finish later* accidentally and thought he was going to lose information entered, but then noticed that the form saved his work. He then assumed that his information was being constantly saved (not only when you click *Finish later*). This was the ONLY participant who thought correctly that we're saving form data *all the time*, and it wasn't from seeing either information alert.
 - At the end of the session when the moderator showed a different participant (screen magnifier on desktop) the informational alert at the top of the first page of the form, he asked why *Finish later* is needed when we already said that it's saving everything. 
 
-**Finding 4: All participants were able to resume filling out the form after taking a short break and a long break**.
+### Finding 4: All participants were able to resume filling out the form after taking a short break and a long break.
 - Participants got interrupted twice by the moderator, and all were able to resume filling out the form during the sessions.
 - Most participants (9 of 11) clicked on the *Continue your request* button in the informational alert displayed after clicking *Finish later*.
 - 3 participants (including 2 of the 9 above) clicked on the *Continue your application* link on the "Application for personal records request" card at the bottom of the My VA page. 
 - 1 participant didn't use either of the above methods and instead just went back to their open browser window, which hadn't timed out. 
 - 3 participants noticed that they were returned to the *page before* the one that they had been on. This is because no information had been entered on the page they were on [a known issue], but they said that they would have preferred to come back to the actual (blank) page that they had been on last.
 
-**Finding 5: My VA had accessibility issues for screen magnifiers.**
+### Finding 5: My VA had accessibility issues for screen magnifiers.
 - One participant using a screen magnifier (on a Windows computer using the Edge browser and Microsoft Zoom Magnification at least 300%) asked why the **"Continue your application" link in the form request card on My VA was so much smaller than everything else on the card**. The link text didn't scale up like the text above it.
 <details><summary>Click to see a screenshot of the issue.</summary>
 <img src="./images/p13-MyVA-form-card-bottom.png" width="50%" height="50%">
@@ -205,7 +215,7 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
 <img src="./images/p13-MyVA-Benefit-apps-no-forms.png" width="50%" height="50%">
 </details>
 
-**Finding 6: VA forms in general had accessibility issues for screen readers and screen magnifiers.**
+### Finding 6: VA forms in general had accessibility issues for screen readers and screen magnifiers.
 - Two screen reader users (VoiceOver on iOS with Safari) had **difficulty navigating while using Safari because focus kept jumping** to the top of the page or to the Safari controls below the page. p5 was unable to navigate the form and so switched to Chrome, where navigation worked normally. p4 was able to navigate the form well enough in Safari to fill it out.
   > *"A lot of the government websites are not working that great with Safari anymore, and...you need to use Google Chrome" (p5).*
 
@@ -234,7 +244,7 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
     - Moved up and down with arrow keys on keyboard with his left hand. When he wanted to continue reading across the page, he moved the mouse sideways with his right hand, but *not* for every line. Skimmed down the page while not all the words across are in his view, and he assumed what it said--often accurately but sometimes not.
 
 
-**Finding 7: The Request Personal Records form had many accessibility issues for screen readers and screen magnifiers.**
+### Finding 7: The Request Personal Records form had many accessibility issues for screen readers and screen magnifiers.
 - Three participants (2 of whom were using screen readers) said that the signed-in version of the form intro page looks the same as the non-signed in version, except at the very bottom, which is disorienting and repetitive. The screen reader users had to listen to the entire intro page being read twice--once before signing in, and then again after signing in. One participant suggested that the "Sign in to start your request" link could bring you directly to the first question in the form (rather than to the authenticated version of the form intro page). 
 
 - A screen reader user expected to be able to click on one of the record types listed on the intro page, but they weren't clickable. 
@@ -246,7 +256,7 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
 
     1. The participant thought she was thought she was on the DOB field, and the focus rectangle was there, but there was a blinking cursor in the previous field (last name). When she typed a number for the date of birth month, the number was entered into the last name field, which surprised her.
        > *"I thought I was on the date of birth, and I was still on the last name. So I didn't hear where the insert was when it got down to date of birth...I didn't hear the text field in the date. It had the month, didn't say I was in the text field, then had to swipe, double tap on the month. Caught me off guard" (p4).*
-    2. When the participant finally heard the month field announced, she didn't understand when it said, "Double tap to activate the picker". Later she heard the same prompt for the Country and  State fields.  
+    2. When the participant finally heard the month field announced, she didn't understand when it said, "Double tap to activate the picker". Later she heard the same prompt for the Country and State fields.  
        > *"How would somebody know what a 'picker' is?" (p4).*
     
     3. After the participant selected the month and the "Done" button to close the picker, focus was moved to the top of the page. Is this a known focus issue with VoiceOver?
@@ -265,7 +275,7 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
 <img src="./images/p13-military-base-checkbox-checked.png" width="50%" height="50%">
 </details>
 
-- One screen reader user (JAWS on desktop) reported that the State/Province/Region and Postal code fields said "has pop up", even though they're both text fields. 
+- One screen reader user (JAWS on desktop) reported that the State/Province/Region and Postal code fields said "has pop up", even though they're both text fields. This participant selected "United States" from the Country dropdown, and then changed it to "Austria". Without "United States" selected, the State/Province/Region field becomes a text box, not a dropdown. However, JAWS announced "has popup", which is incorrect. JAWS also said "has popup" for the Postal code field, which is also incorrect.
   > *"It is saying 'pop up', which usually means it's gonna be a list. So the first thing I try to do is hit 'M' to get me down to 'Missouri'. But it's not really a pop up because it actually wants me to type something in there...As soon as I hit the first letter, it typed it in instead of going to the M's" (p1).*
 
 - One screen reader user (JAWS on desktop) said he heard the affirmation statements on the Review/Submit page read four times. Here's what he heard:
@@ -284,7 +294,7 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
 - Another screen reader user (JAWS on desktop) didn't expect the checkbox to be announced _after_ the "I certify..." line instead of before it.
     > *"It says, 'I certify'. Usually when something starts out with the words 'I certify', there's a checkbox there...You're telling me and then you're given my name, and then you put the actual box underneath of it, which is not typically what I'm used to...I had to listen to the whole thing to find out if that was a checkbox or not...cause it wouldn't have told me until the end" (p1).*
 
-**Finding 8: Most participants who encountered form errors understood how to resolve them, but there were some exceptions.** 
+### Finding 8: Most participants who encountered form errors understood how to resolve them, but there were some exceptions. 
 - 9 of 11 participants encountered errors while they were filling out the form, and most of them understood their meaning and what they needed to do to fix them.
    > *"Tells me where I screwed up" (p13).*
 
@@ -307,7 +317,7 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
 
 - Only one participant said that they would prefer to be informed about errors differently--right after they leave a field, as opposed to after they click *Continue*, so they know right away where the problem is. They also said that it's not really an issue with this form because it's so short (and the individual pages are short).
 
-**Finding 9: Only half of the participants (6 of 11) mentioned the progress bar.** 
+### Finding 9: Only half of the participants (6 of 11) mentioned the progress bar. 
 - The screen reader users who navigated the form starting from the H1 on each page didn't know about the progress bar because they never heard it announced.
 - Four participants said that the step numbers are helpful so they know how close they are to being done.
    > *"Tells how far I'm in what I'm doing...and how much longer to fill out something" (p11).*
@@ -381,11 +391,11 @@ There are a number of findings that were outside the scope of the research goals
 8. See if **field type announcing by screen readers can happen sooner**, perhaps *before* the field name, to set the user's expectations for  the type of interaction expected.
     - *Supporting evidence:* A desktop screen reader user didn't know that the birth month field was a popup because he stopped the screen reader before it was done announcing. A mobile VoiceOver user also didn't know that field was a popup and so tried to type a number into the field. In addition, on the Review/Submit page, a JAWS screen reader user heard the checkbox announced *after* the entire "I certify the information above is correct and true to the best of my knowledge and belief" line, which was unexpected. 
 
-1. **Change the announcement text for dropdown fields from "Double tap to activate the picker" to use plain language**. For example, "Double tap to select the month", "Double tap to select the country", and "Double tap to select the state".
+1. **Change the VoiceOver announcement text for dropdown fields from "Double tap to activate the picker" to use plain language**. For example, "Double tap to select the month", "Double tap to select the country", and "Double tap to select the state". --> *NOT POSSIBLE TO FIX because this wording is part of VoiceOver*
     - *Supporting evidence:* One participant didn't know what a "picker" was and got confused.
 
 1. Try to **fix announcing issues with JAWS where it says "has popup" for the State/Province/Region and Postal code text fields**. 
-    - *Supporting evidence:* One screen reader user (JAWS on desktop) reported that the State/Province/Region and Postal code fields said "has pop up", even though they're both text fields.
+    - *Supporting evidence:* One screen reader user (JAWS on desktop) reported that the State/Province/Region (as long as "United States" isn't selected in the Country field) and Postal code fields said "has pop up", even though they're both text fields.
 
 1. Try to **fix announcing issues with VoiceOver for the citizenship question, which said it was a checkbox instead of a radio button**.
     - *Supporting evidence:* One screen reader user (VoiceOver on iOS) didn't know that the citizenship question was a radio button when they tapped on it. Riley Orr tested and found that it's announced as a checkbox (bug) and radio button on her iPhone, but announced (correctly) as a radio button on desktop. After she updated her phone, it announced (correctly) as a radio button.
@@ -393,7 +403,7 @@ There are a number of findings that were outside the scope of the research goals
 1. See if the **duplicate messaging from JAWS for the records checkboxes and mailing address fields can be removed**.
     - *Supporting evidence:* Two screen reader users said that they were hearing every records checkbox option and mailing address fields twice while using the arrow keys to navigate through the form.
 
-1. Try to **fix focus issues with VoiceOver while getting in and out of the date of birth Month field**.
+1. Try to **fix focus issues with VoiceOver while getting in and out of the date of birth Month field** and potentially other dropdown fields. --> *NOT POSSIBLE TO FIX because of a [known bug with VoiceOver](https://webaim.org/discussion/mail_thread?thread=7141)*
     - *Supporting evidence:* Focus was on the Month field, but there was also a blinking cursor in the previous field (last name). When the participant typed a number for the date of birth month, the number was entered into the last name field. And when she was done picking the Month, focus was moved to the very top of the page. 
 
 1. Streamline error handling on the Review/Submit page for the ***Your full name* field so that (1) focus goes to the name field (*vs*. the top of the component), and (2) the error message is announced immediately** (*vs*. after two repetitions of most of the text in the component). 
@@ -459,7 +469,7 @@ There are a number of findings that were outside the scope of the research goals
 
 [Prototype in a GitHub Codespace that needs to be started manually--CONTACT CINDY](https://musical-space-goggles-7wxj74rqgvpfv9v-3001.app.github.dev/records/request-personal-records-form-20-10206/introduction?loggedIn=false)
 
-#### Screenshots of the prototype (Codespace)
+### Screenshots of the prototype (Codespace)
 <details>
   <summary>Informational alert about saving on intro page (Click to show screenshot)</summary>
    <img src="./images/intro-pg-alert.png" width="75%" height="75%">

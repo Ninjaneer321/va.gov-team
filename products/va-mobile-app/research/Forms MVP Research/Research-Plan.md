@@ -6,7 +6,7 @@ Briefly describe the background of your product.
 	
 The VA Mobile App team recently resolved SSO issues that had previously prevented Veterans from accessing VA.gov within a web view while maintaining their authenticated state. 
 
-This technical improvement creates a new opportunity to integrate the Forms feature into the mobile app, functionality that is not currently available in the mobile experience. 
+This technical improvement creates a new opportunity to integrate the Forms feature into the mobile app, functionality that is not currently available. 
 
 As part of the MVP, the app introduces the form 21-4138, a widely used form, in the mobile app so Veterans can: 
 1. Complete VA forms in a secure web view from a mobile device; and
@@ -46,7 +46,7 @@ The results of the study will help us determine if Veterans are able to fill out
 
 1. How easily can Veterans locate the forms section within the mobile app?
 2. What steps do Veterans take to start a new form from within the app?
-3. Are there any points of confusion or difficulty when Veterans attempt to find forms?
+3. Are there any points of confusion or difficulty when Veterans attempt to start a new form?
 
 **Research goal #2: Identify if Veterans can fill out a form from the app on their own.**
 
@@ -94,11 +94,11 @@ The results of the study will help us determine if Veterans are able to fill out
   
 ## Methodology  🛠️
 
-This study will use **remote moderated usability testing** to observe Veterans completing two form flows from within the mobile app. Participants will complete tasks while sharing their screen via Zoom on their mobile device. We will be using a **GitHub Codespace** to simulate the environment and enable accessibility features for participants who may be using screen readers or screen magnifiers.
+This study will use **remote moderated usability testing** to observe Veterans completing a form flow from within the mobile app. Participants will complete tasks while sharing their screen via Zoom on their mobile device. We will be using a **GitHub Codespace** to simulate the environment.
 
-During the usability testing following flows will be observed:
-- Completing a new Form 4138 through the in-app webview
-- Continuing an in-progress form from the mobile app
+During the usability testing the following flow will test both:
+- Filling out a new Form 21-4138 through the in-app webview.
+- Continuing an in-progress form from the mobile app through to submission.
   
 
 ### Location
@@ -116,7 +116,7 @@ Provide a link to any materials you need to run your study, including any materi
 
 **For moderated usability tests:** 
 - [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/Forms%20MVP%20Research/Conversation-guide.md)
-- [Link to prototype](url goes here)
+- [Link to prototype](https://testflight.apple.com/join/RrO0Cw2q)
 	
 ## Recruitment 🎯	
 
@@ -155,7 +155,9 @@ During the session:
 - Tablet – Android
 - Tablet – iPad
 
-3. Are you willing to download the test flight app, the va mobile app, and zoom mobile app to complete the session?
+If Android, pleae request their email where an invitation to the testing link will be sent. 
+
+3. Are you willing to download the va mobile app, and zoom mobile app to complete the session?
    
 - Yes would qualify them for the study
 - No would disqualify them
@@ -167,7 +169,7 @@ During the session:
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
+- `Suggested dates and times:` **[07/21-07/23 09-11:30am EST]**
 
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
@@ -176,11 +178,11 @@ During the session:
 > [!NOTE]
 > **Send pilot participant email in study Slack channel**
 
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- `Pilot participant name:` **[Brenda Rocha Barraza]**
+- `Date and time of pilot session:` **[07/23, 3:00pm-7:00pm]** 
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **[07/28-07/31]**
 
 ### Length of sessions
 - `Session length: **60 minutes**
@@ -197,12 +199,11 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 >
 > **Place time slots between `hash marks` when in edit mode.**
 
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `Add more slots as needed`
+- `[07/28, Monday, 10:00 AM-7:00 PM] EST`
+- `[07/29, Tuesday, 10:00 AM-7:00 PM] EST`
+- `[07/31, Thursday, 10:00 AM-7:00 PM] EST`
+- `[08/01, Friday, 10:00 AM-7:00 PM] EST`
+
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
@@ -216,13 +217,13 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - `Participant recruiting & screening:`	**[Perigean]**	
 - `Project point of contact:` **[Christine Julian]**		
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[ADE Team]**	
-- `Note-takers:` **[Enter full name]** ***or*** **[Designate Perigean]**	
+- `Note-takers:` **[Jonathan Post]** ***or*** **[Maria Kravets]**	
 - `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
 
-- **[Enter full name]**
-- **[Enter full name]**
-- **[Enter full name]**
+- **[Ken Li]**
+- **[Brenda Barraza]**
+- **[Becca Tupaj]**
 
 ## Approvals ✅
-- `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
+- `Reviewed by [Ryan Thurlwell, Team Lead] on [07/16/2025]`
 - `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`

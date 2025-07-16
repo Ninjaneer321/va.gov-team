@@ -9,10 +9,11 @@ Feature toggle
 
 | Toggle name | Description |
 | ----------- | ----------- |
+|ezr_prefill_contacts | Adds Veteran contacts to ezr prefill data |
 |ezr_associations_api_enabled | Enables VES's Associations REST API |
 |ezr_emergency_contacts_enabled| Enables emergency contact experience for 10-10EZR applicants|
 |ezr_next_of_kin_enabled|Enables next of kin experience for 10-10EZR applicants|
-| (NOT SURE ABOUT THIS ONE) ezr_prefill_contacts | Adds Veteran contacts to ezr prefill data |
+
 
 
 ## Step 2: Validation
@@ -21,13 +22,13 @@ Before enabling your feature toggle in production, you'll need to:
 
 - [x] Follow [best practices for QA](https://depo-platform-documentation.scrollhelp.site/developer-docs/qa-and-accessibility-testing).
   - [x] [ec-nok-v1-v2-test-results.pdf](https://github.com/user-attachments/files/21188726/ec-nok-v1-v2-test-results.pdf)
-- [] Have your team perform as much validation in staging as possible. Validation may be challenging for some teams and systems due to downstream requirements, but the staging system should mimic the production system as much as possible.
-- [] Work any downstream or dependant systems proactively to ensure that the feature is ready for use once it hits production.
-   - [] Confirm with Joshua Faulkner and team on End to End testing
-   - [] Link to confirmation of successful transmission/processing
-- [] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
-  - [] review the plan with your DEPO/OCTO representative.
-  - [] review the release plan with your team.
+- [x] Have your team perform as much validation in staging as possible. Validation may be challenging for some teams and systems due to downstream requirements, but the staging system should mimic the production system as much as possible.
+- [x] Work any downstream or dependant systems proactively to ensure that the feature is ready for use once it hits production.
+   - [x] Confirm with Joshua Faulkner and team on End to End testing
+   - [ ] Link to confirmation of successful transmission/processing
+- [ ] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
+  - [ ] review the plan with your DEPO/OCTO representative.
+  - [ ] review the release plan with your team.
 
 ## Step 3: Production rollout
 
@@ -40,13 +41,14 @@ Before enabling your feature toggle in production, you'll need to:
 #### Planning
 
 - Desired date range or test duration:
-     - 3 days - 5/X/25-5/X/25
+     - 3 days - 7/16/25-7/18/25
 - Desired number of users:
-     - 1-2 participants
+     - 1-3 participants
 - How you'll recruit the right production test users:
-     - OCTO members who are Veterans
+     - OCTO members who are Veterans with VA Health Care
+     - Personal contacts who are Veterans with VA Health Care
 - How you'll conduct the testing:
-     - Guided
+     - self-testing
 - How you'll give the test participants access to the product in production w/o making it live on VA.gov:
      - Feature Toggle for specific users 
 
@@ -65,34 +67,31 @@ We recommend that the rollout plan has five stages, each increasing the number o
 #### Rollout Planning
 
 - Desired date range:
-     - 5/27/25-?????
+     - 7/21/25-7/22/2025
 - How will you make the product available in production while limiting the number of users who can find/access it:
      - Feature Toggle limiting 10% of traffic to the application
 - What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?: 
 
 ### Objective: Provide an effortless online experience for Veterans to update their information for health care benefits
-#### **Key Result #1:** Increase % of Veterans who successfully update their health care benefits information online
+#### **Key Result #1:** Increase 10% of Veterans who successfully add their NOK and/or EC information online
 
-- Data source
-     - [Datadog dashboard](https://vagov.ddog-gov.com/dashboard/kjp-9wp-u47/10-10ezr?historicalData=true&index=&refresh_mode=sliding&view=spans&from_ts=1703092684168&to_ts=1703179084168&live=true)
-     - [Google Analytics - EZR Events](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/B1BuF9JgTgCgLV3cx4EB4Q)
+
+
 
 **Note** Paper submissions are based on the average provided by HEC for volumes that are received by the HEC centralized processing center.  This does not include individual facilities, as there are no mechanisms in place to track them.
-| Product KPI | Historical | Target | Post-Launch 1 week |Post-Launch 1 month|
-|------------- |---------|-------------- |-------------- |-------------- |
-|NOK updates |TBD |TBD | TBD |TBD |
-|EC Updates |TBD |TBD | TBD |TBD |
-
-#### **Key Result #2: TBD
-
-
+| Product KPI |  Monthly Target | Post-Launch 1 week |Post-Launch 1 month|
+|-------------|-------------- |-------------- |-------------- |
+|NOK add (Yes)|500 | TBD |TBD |
+|NOK edit/view existing|500 | TBD |TBD |
+|EC add (Yes) |500 | TBD |TBD |
+|EC edit/view existing|500 | TBD |TBD |
+Errors | 0 errors| TBD| TBD|
 
 - Links to the dashboard(s) showing "success criteria" metrics:
-     - Data source - [Domo Dashboard](https://va-gov.domo.com/page/447193050)
-     - Data source - [Datadog Dashboard](https://vagov.ddog-gov.com/dashboard/kjp-9wp-u47/10-10ezr?historicalData=true&index=&refresh_mode=sliding&view=spans&from_ts=1703092684168&to_ts=1703179084168&live=true)
-     - Data source for errors - [Sentry Logs](http://sentry.vfs.va.gov/organizations/vsp/issues/)
+     - [Datadog dashboard](https://vagov.ddog-gov.com/dashboard/kjp-9wp-u47/10-10ezr?historicalData=true&index=&refresh_mode=sliding&view=spans&from_ts=1703092684168&to_ts=1703179084168&live=true)
+     - [Google Analytics - EZR Events](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/B1BuF9JgTgCgLV3cx4EB4Q)
 - Who is monitoring the dashboard(s)?:
-     - Product Manager - Heather Justice, Michael Skinner
+     - Product Manager - Alexandria Parker, Heather Justice
      - Data Analyst - Luis Simauchi
 
 
@@ -104,10 +103,10 @@ We recommend that the rollout plan has five stages, each increasing the number o
 #### Planning
 
 - Length of time:
-     -  TBD
+     - **2 days - 7/21-22/2025**
 - Percentage of Users (and roughly how many users do you expect this to be):
      - 10% of authenticated Veterans
-     - About 10 submissions per day
+     - About 16 submissions per day
 
 #### Results
 
@@ -124,10 +123,10 @@ We recommend that the rollout plan has five stages, each increasing the number o
 #### Planning
 
 - Length of time:
-     - TBD
+     - **5 days - 7/23-27/2025**
 - Percentage of Users (and roughly how many users do you expect this to be):
      - 25% of authenticated Veterans
-     - about 25 submissions per day
+     - about 41 submissions per day
 
 #### Results
 
@@ -145,10 +144,10 @@ We recommend that the rollout plan has five stages, each increasing the number o
 #### Planning
 
 - Length of time:
-     - TBD
+     - **2 days - 7/28-29/2025**
 - Percentage of Users (and roughly how many users do you expect this to be):
      - 75% of authenticated Veterans
-     - about 75-100 submissions per day
+     - about 124 submissions per day
 
 #### Results
 
@@ -163,7 +162,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
 #### Planning
 
 - Length of time:
-     - TBD
+     - **7/30/2025**
 - Percentage of Users (and roughly how many users do you expect this to be):
      - 100% of authenticated Veterans
      - about 1,000 per week

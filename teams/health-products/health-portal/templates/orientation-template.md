@@ -6,7 +6,7 @@ We've created this orientation checklist to help you learn about our team, what 
 
 If you have questions, don't hesitate to reach out to your OCTO practice lead, [NAME] or your OCTO product lead [NAME].
 
-## Week One 🥚
+## Part 1: Before you have VA email and network access: 🥚
 - [ ] [Get to know the team](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/health-products/health-portal/health-portal-team.md)
 - [ ] [Learn about how we work](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/health-products/health-portal/how-we-work.md)
 - [ ] Schedule 15 min to meet with your new team mates
@@ -33,17 +33,9 @@ If you have questions, don't hesitate to reach out to your OCTO practice lead, [
     - [ ] [Collaboration cycle](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/)
     - [ ] [Support](https://depo-platform-documentation.scrollhelp.site/support/)
 - [ ] [Familiarize yourself with the VA Design System](https://design.va.gov/)
+- [ ] [Take a look at the VA GitHub Handbook](https://department-of-veterans-affairs.github.io/github-handbook/)  ‼️Note that as of July 2025, [VA has begun the process of migrating VA GitHub resorces to GitHub Enterprise Cloud](https://department-of-veterans-affairs.github.io/github-handbook/migrations)
 - [ ] [Check out some helpful info about creating documents in GitHub](https://docs.github.com/en)
 
-## Week Two 🐣
-- Get your tools
-- Get plugged in
-    - Check out our onboarding Slack channel
-    - Join Slack channels
-    - Update your Slack profile
-    - Get added to meetings
-    - Meet our stakeholders
-- Get access to systems
-- Get set up
-
+## Part 2: After you have access to VA network and have VA email address: 🐣
+ - Check out our [#health-portal-onboarding](https://dsva.slack.com/archives/C093QBTQ56W) Slack channel to continue onboarding
   
