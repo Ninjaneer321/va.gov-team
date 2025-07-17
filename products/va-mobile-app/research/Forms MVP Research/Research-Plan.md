@@ -162,6 +162,9 @@ If Android, pleae request their email where an invitation to the testing link wi
 - Yes would qualify them for the study
 - No would disqualify them
 
+4. Have you ever used the VHB app before?
+- Yes would qualify them for the study
+- No would disqualify them
 
 ## Timeline 🗓️
 > [!NOTE]
@@ -182,7 +185,7 @@ If Android, pleae request their email where an invitation to the testing link wi
 - `Date and time of pilot session:` **[07/23, 3:00pm-7:00pm]** 
 
 ### Research sessions
-- `Planned dates of research:` **[07/28-07/31]**
+- `Planned dates of research:` **[07/28-08/1]**
 
 ### Length of sessions
 - `Session length: **60 minutes**

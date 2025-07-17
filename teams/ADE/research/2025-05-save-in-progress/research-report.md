@@ -28,20 +28,25 @@ Veterans may fill out web forms on VA.gov throughout their lives, including ALL 
 
 ### Two accessibility issues
 	
-1. While VA.gov users are signed in (authenticated) and filling out a form, the "save in progress" alert (see below with light green background) flashes on and then off with every field entry or edit ([Figure 1 shows the alert with a light green background](#figure-1)). Because this alert displays *below* the Continue button, screen readers don't announce it, which is an accessibility issue. All users should have access to the same information about the user interface (per [WCAG 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html)). 
+1. While VA.gov users are signed in (authenticated) and filling out a form, the "save in progress" alert flashes on and then off with every field entry or edit ([Figure 1 shows the alert with a light green background](#figure-1)). Because this alert displays *below* the Continue button, screen readers don't announce it, which is an accessibility issue. All users should have access to the same information about the user interface (per [WCAG 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html)). 
 
 2. There's a "Finish this request later" button that looks like a link ([Figure 2](#figure-2)), which is another accessibility issue. Links that take you to another page should look like links, and buttons that do actions should look like buttons (per [VA Design System guidance](https://design.va.gov/components/link/#choose-the-right-element-buttons-vs-links)). 
 
 #### Figure 1
 
-<img src="./images/2-a11y-issues.png" width="50%" height="50%" alt="This is an example of a form question with a Continue button below it. Below the button is a green informational box that says 'Your request has been saved. We saved it on April 30, 2025, at 5:15 p.m. PDT. Your request ID number is 44849.'">
+<img src="./images/2-a11y-issues.png" width="50%" height="50%" alt="This is a sample form question followed by an underlined link that says 'Finish this request later' and then a Continue button. Below the Continue button is a green informational box that says 'Your request has been saved. We saved it on April 30, 2025, at 5:15 p.m. PDT. Your request ID number is 44849.'">
+
 
 ### Revised design
 
-We are testing a modification of the VA Design System [Header - Minimal component](https://design.va.gov/components/header/header-minimal), which is recommended for the design of new web forms. To address the above accessibility issues, we have removed the "save in progress" alert, as well as changed the "Finish this request later" button that looks like a link into looking like a button (see below). We believe that removing the "save in progress" alert will be OK because there is already text about saving on both the authenticated version of the form intro page and the first page of the form. One goal of this current research is to get user feedback on the revised design.
+We are testing a modification of the VA Design System [Header - Minimal component](https://design.va.gov/components/header/header-minimal), which is recommended for the design of new web forms. To address the above accessibility issues, we made 2 changes:
+1. Removed the "save in progress" alert
+1. Changed the "Finish this request later" button that looks like a link into looking like a button ([Figure 2](#figure-2)). 
+
+We believe that removing the "save in progress" alert will be OK because there is already text about saving on both the authenticated version of the form intro page and the first page of the form. One goal of this current research is to obtain user feedback on the revised design.
 
 #### Figure 2
-<img src="./images/2-a11y-issues-fix.png" width="50%" height="50%">
+<img src="./images/2-a11y-issues-fix.png" width="50%" height="50%" alt="This shows the sample form question with 2 buttons below: white 'Finish later' button on the left, and blue 'Continue' button on the right. There is no green informational box.">
 
 ### Past research 
 
@@ -54,9 +59,9 @@ The **goals of this research** were to
 1. (primary) Get user feedback on design revisions for "save in progress" and "finish this request later" that reduce redundant messaging around saving.
 1. (secondary) Get user feedback on error messages and the progress bar while filling out online forms.
 
-Findings and recommendations from this research will **inform guidance and documentation for the "save in progress" feature** for authenticated users filling out forms on VA.gov. Matt Dingee asked ADE to help with this because some VFS teams are innovating new designs, whereas "save in progress" should be a standard pattern used by all teams for consistency across VA.gov.
+Findings and recommendations from this research will **inform guidance and documentation for the "save in progress" feature** for authenticated users filling out forms on VA.gov. Matt Dingee asked ADE to assist with this because some VFS teams are innovating new designs, whereas "save in progress" should be a standard pattern used by all teams for consistency across VA.gov.
 
-In addition, user feedback collected on "finish this request later", error messages, and the progress bar will be helpful to accessibility specialists advising VFS teams.
+In addition, user feedback collected about "finish this request later", error messages, and the progress bar will be helpful to accessibility specialists advising VFS teams.
 
 
 
@@ -206,12 +211,20 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
 
 ### Finding 5: My VA had accessibility issues for screen magnifiers.
 - One participant using a screen magnifier (on a Windows computer using the Edge browser and Microsoft Zoom Magnification at least 300%) asked why the **"Continue your application" link in the form request card on My VA was so much smaller than everything else on the card**. The link text didn't scale up like the text above it.
-<details><summary>Click to see a screenshot of the issue.</summary>
+
+<details><summary>Expand for a screenshot of the issue in Figure 3.</summary>
+
+Figure 3 shows the form card on My VA with large text that says 'Application expires on: July 14, 2025' and 'Last saved on: May 15, 2025', but very small text that says 'Continue your application'.
+
 <img src="./images/p13-MyVA-form-card-bottom.png" width="50%" height="50%">
+
 </details>
 
 - This same screen magnifier user missed that the header "Benefit applications and forms" was relevant because he only saw the words "Benefit applications". He didn't see the word "forms" because it was to the right of the magnified portion of the page that he was looking at. 
-<details><summary>Click to see a screenshot of the issue.</summary>
+<details><summary>Expand for a screenshot of the issue in Figure 4.</summary>
+
+Figure 4 shows a large heading that says 'Benefit applications' and nothing about forms.
+
 <img src="./images/p13-MyVA-Benefit-apps-no-forms.png" width="50%" height="50%">
 </details>
 
@@ -220,7 +233,10 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
   > *"A lot of the government websites are not working that great with Safari anymore, and...you need to use Google Chrome" (p5).*
 
 - On the Review/Submit page, a **screen magnifier user didn't see the "+"'s to expand the accordions because they're so far to the right**. He saw the names of the form sections, but there was no visual indication that there was anything more to scroll right to see. 
-<details><summary>Click to see a screenshot of the issue.</summary>
+<details><summary>Expand for a screenshot of the issue in Figure 5.</summary>
+
+Figure 5 shows 3 horizontal gray bars labeled 'Your contact information', 'Records requested', and 'Additional information' with no indication of how to interact with them.
+
 <img src="./images/p13-review-accordions-wo-plus.png" width="50%" height="50%">
 </details>
 
@@ -271,7 +287,7 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
   > *"It doesn't let you know that there's a radio button before that, so it's sometimes confusing...In our world of using accessibility, we can only wish for so much...it works. Would be nice if as soon as I clicked on that, it said 'radio button' and then [when I] swiped right, it would read what that was and then go down" (p5).*
 
 - One participant using a screen magnifier (Microsoft Zoom Magnification at least 300% on a Windows computer with Edge browser) checked "I live on a United States military base outside of the U.S." and then didn't understand why he being asked for APO/FPO/DPO and got stuck. He had seen "I live on a United States" and thought that applied to him. He had no idea that the rest of the statement said "military base" because that was not in his view and he didn't scroll to the right. 
-<details><summary>Click to see a screenshot of the issue.</summary>
+<details><summary>Expand for a screenshot of the issue in Figure 6.</summary>
 <img src="./images/p13-military-base-checkbox-checked.png" width="50%" height="50%">
 </details>
 
@@ -287,7 +303,7 @@ For demographic details, see [Who we talked to](#who-we-talked-to).
      1. "I certify the information above is correct and true to the best of my knowledge and belief."  -- *Read while focus is in the name field*
      1. "I certify the information above is correct and true to the best of my knowledge and belief." -- ***Repeated again** when focus is on this line*
         > *"I heard it about 4 times there...I'm not sure why they put it both before and after my name...That's the kind of thing that causes me to rush through the repeats and maybe miss something. If something is only present once, then I have a much better chance of paying attention to it" (p3).*
-<details><summary>Click to see a screenshot of the bottom of the Review/Submit page.</summary>
+<details><summary>Expand for a screenshot of the issue in Figure 7.</summary>
 <img src="./images/form-pg9-statement-of-truth.png" width="50%" height="50%">
 </details>
         
@@ -349,7 +365,7 @@ There are a number of findings that were outside the scope of the research goals
       > *"I'm looking for the least amount of work I have to do every single time" (p10).*
       1. On the intro page, seeing the "Freedom of Information Act (FOIA)" right underneath the name of the form on the intro page was confusing because it was unclear what the connection is. They expected to see something about the specific form, such as its name, which was at the end of that line. 
      
-<details><summary>Click to see a screenshot of the top of the intro page.</summary>
+<details><summary>Expand for a screenshot of the issue in Figure 9.</summary>
 <img src="./images/Intro-pg-unauth-top-h1.png" width="50%" height="50%">
 </details>
 

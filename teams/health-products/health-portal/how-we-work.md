@@ -25,7 +25,7 @@ We are all here because we want to improve the lives of Veterans.  To that end, 
 - Thread conversations to reduce noise in channels 🧵
 - A helpful practice for keeping channels uncluttered is to begin new threads with a short intro, then reply to your own thread to add details and collaborate.
 - When making a correction, it's common practice to strike through the original information and add the new information after the stricken text.
-- If an ongoing thread needs to be moved to a different channel, include a link back to the original conversation, and add a link from the original to the new, noting that the conversation has been moved.
+- If an ongoing thread needs to be moved to a different channel, cross-link the two threads.
 - If you're going to be out of office, update your status with the ❌ icon, along with an OOO note and the relevant dates.
 
 ### Email
@@ -42,8 +42,8 @@ We are all here because we want to improve the lives of Veterans.  To that end, 
 
 ### Scheduling Meetings
 - Schedule meetings in Microsoft Teams from your VA.gov calendar.  Zoom is no longer supported by VA and many VA staff can't access it.
-- We schedule meetings to start at 5 minutes past the hour or half hour to give folks a break between back-to-back meetings.
-- Default meetings to 30 minutes unless there is a great deal of material to cover.
+- We schedule meetings to start at 5 minutes past the hour or half hour to give folks a break between back-to-back meetings. With the exception of daily scrum, avoid starting or ending meetings at 15 or 45 minutes past the hour.
+- Default meetings to 30 minutes unless there is a great deal of material to cover.  In that event, schedule for an hour.
 - Include an agenda, purpose, and expected outcomes in the meeting invite.
 - If attendees are expected to give opinions or discuss content or other written materials, send it as a pre-read at least 24 hours before the meeting to give attendees time to look it over. 
 - If someone essential to achieving your meeting objective declines, such as a key team member, subject matter expert, or decision-maker, reschedule your meeting.
