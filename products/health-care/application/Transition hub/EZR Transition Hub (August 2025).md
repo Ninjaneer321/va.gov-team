@@ -48,7 +48,7 @@ The 10-10EZR form is designed to allow Veterans to easily update their VA health
 **Analytics**
 * Analytics dashboard:
     * [Domo](https://va-gov.domo.com/page/447193050) (consolidated forms dashboard)
-    * [Google Analytics](https://analytics.google.com/analytics/web/#/analysis/p419143770) (Placeholder - please specify EZR Analytics dashboard)
+    * [Google Analytics](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/B1BuF9JgTgCgLV3cx4EB4Q)
 * [Backend Stats on DataDog Dashboard](https://vagov.ddog-gov.com/dashboard/kjp-9wp-u47/10-10ezr?fromUser=false&refresh_mode=sliding&from_ts=1748201783568&to_ts=1750793783568&live=true) 
 * [Real User Monitoring (RUM) Dashboard](https://vagov.ddog-gov.com/rum/performance-monitoring?query=%40application.id%3Ad6b6178d-eef9-4252-baae-896432d38d45%20%40session.type%3Auser&agg_m=%40view.loading_time&fromUser=false&from_ts=1750189023883&to_ts=1750793823883&live=true) 
 
@@ -104,8 +104,6 @@ This table details recent and ongoing features and initiatives specifically for 
 
 The current 10-10 Health Apps team roster includes:
 * **Product Managers:**
-    * Michael Skinner | michael.skinner1@va.gov / michael.skinner@agile6.com / GH "Agile6MSkinner"
-* **Delivery Lead:**
     * Alexandria "Alex" Parker | alexandria.parker@va.gov / alexandria.parker@agile6.com / GH "ACParker89"
 * **UX Design/Research:**
     * Renata Keck | renata.keck@va.gov / renata.keck@agile6.com / GH "renatakeck"

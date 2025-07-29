@@ -168,6 +168,8 @@ _(no payment option)_ ❌ 💵 ❌
     * What sort of info or guidance might you look for?
     * Is it clear when you would need to start anything?
     * What are your thoughts on opening new windows for the information?
+* Let’s pretend you see an error – [point to a specific overpayment] one of the debts you believe is wrong - you should not owe that. What would you do?
+    * What sort of info or guidance might you look for?
 * Were you aware of these options for financial help? If so, how did you learn?
 * What else would you want to do here with regards to your debt?
     * How would you expect to make payments?
@@ -202,9 +204,10 @@ _(with payment option)_ ✅ 💵 ✅
 -->
 
 <details><summary>Copayments: time-dependent and if relevant</summary>
+✨ ✨ ✨ ✨ ✨ ✨ 
 
- _(no payment option)_ ❌ 💵 ❌
-
+Information about bills
+ 
 * Find what you currently owe for copayments
     * How clear was that to find?
     * What can you tell me about the other copayments on this screen?
@@ -218,20 +221,27 @@ _(with payment option)_ ✅ 💵 ✅
     * Here or anywhere else?
     * Are there any here that you believe are paid off? How clear is it?
 
-_(with payment option)_ ✅ 💵 ✅
-
-* Now I'm going to have you click [location TBD] to view a different version. _(with payment option)_
-    * If you are ready to make a payment on this bill, walk me through how you would do that.
-    * Talk to me about that experience of starting to make the payment (e.g. opening .gov, new sign-in, copying payment + account info)
-    * After you’ve paid this bill, what would you expect to see? When would you expect to see an update?
-    * If this were to be built in real life, how likely would you be to use it?
-    * How would the likelihood of you using this compare to the previous version where you were not able to make payments?
-* _(if user has not brought them up already)_ Talk to me about your monthly statements for copays
+PDF Statements
+* Talk to me about your monthly statements for copays
     * Were you aware of them?
     * Do you read them now? If so, what purpose do they serve? What are you doing with them?
+    * Are you accessing earlier statements?
     * Walk me through exploring them in the prototype here.
     * What are your thoughts on the PDFs here?
+    * If you wanted to find earlier statements, how would you do that?
+
+Help with bills
+* We'll pretend that this bill _(point to specific bill)_ is wrong – you never attended that appointment. What would you do?
+
+Payment experience
+* If you are ready to make a payment on this bill, walk me through how you would do that.
+* Talk to me about that experience of starting to make the payment (e.g. opening browser, copying info)
+* After you’ve paid this bill, what would you expect to see? When would you expect to see an update?
+* If this were to be built in real life, how likely would you be to use it?
+
 * Now that we’ve gone through this section, any other thoughts you’d like to share on what is here and how the information is presented?
+
+✨ ✨ ✨ ✨ ✨ ✨
 
 </details>
 
@@ -340,13 +350,6 @@ _(no payment option)_ ❌ 💵 ❌
 * If you pay off a copay, would you want to see it? 
     * Here or anywhere else?
     * Are there any here that you believe are paid off? How clear is it?
-* Let’s pretend you see an error – _[point to a specific copay]_ one of the copays is for an appointment that you did not have. What would you do?
-    * What sort of info or guidance might you look for?
-* Now we’re going to pretend that you don’t believe you’re going to have the money to pay the most recent copay bills. Walk me through what you would do in this situation.
-    * What sort of info or guidance might you look for?
-    * Is it clear when you would have to start something?
-    * What are your thoughts on opening new windows for the information?
-* Were you aware of these options for financial help? If so, how did you learn?
 * What else would you want to do here with regards to your copays?
     * How would you expect to make payments?
     * What are your thoughts on this new section not having a payment option?
@@ -365,12 +368,22 @@ _(with payment option)_ ✅ 💵 ✅
 * If you knew you also have benefit overpayment debt, where would you go to find that?
     * Had you noticed a reference to it on the copayments page?
 -->
+* Let’s pretend you see an error – _[point to a specific copay]_ one of the copays is for an appointment that you did not have. What would you do?
+    * What sort of info or guidance might you look for?
+* Now we’re going to pretend that you don’t believe you’re going to have the money to pay the most recent copay bills. Walk me through what you would do in this situation.
+    * What sort of info or guidance might you look for?
+    * Is it clear when you would have to start something?
+    * What are your thoughts on opening new windows for the information?
+* Were you aware of these options for financial help? If so, how did you learn?
+
 
 * _(if user has not brought them up already)_ Talk to me about your monthly statements for copays
     * Were you aware of them?
     * Do you read them now? If so, what purpose do they serve? What are you doing with them?
+    * Are you looking at earlier statements?
     * Walk me through exploring them in the prototype here.
     * What are your thoughts on the PDFs here?
+    * If you wanted to locate earlier statements, how would you do that?
 * Now that we’ve gone through this section, any other thoughts you’d like to share on what is here and how the information is presented?
 * What are your thoughts on how the sections and pages are labeled?
     * Are there other titles that would make more sense to you?
@@ -386,7 +399,9 @@ _(with payment option)_ ✅ 💵 ✅
 
 <details><summary>Overpayments: time-dependent and if relevant</summary>
 
-_(no payment option)_ ❌ 💵 ❌
+✨ ✨ ✨ ✨ ✨ ✨ 
+
+Information about debt
 
 * Find what you currently owe for overpayment debts
     * How clear was that to find?
@@ -399,15 +414,20 @@ _(no payment option)_ ❌ 💵 ❌
 * If you pay off a debt, would you want to see it? 
     * Here or anywhere else?
 
-_(with payment option)_ ✅ 💵 ✅
+Help with debt
 
-* Now I'm going to have you click [location TBD] to view a different version.
-    * If you are ready to make a payment on this debt, walk me through how you would do that.
-    * Talk to me about that experience of starting to make the payment (e.g. opening .gov, new sign-in, copying payment + account info)
-    * After you’ve made a payment, what would you expect to see? When would you expect to see an update?
-    * If this were to be built in real life, how likely would you be to use it?
-    * How would the likelihood of you using this compare to the previous version where you were not able to make payments?
+* We're going to pretend that this debt _(point to specific debt)_ is not currect – you're quite sure you do not owe anything. What would you do?
+
+Payment experience
+
+* If you are ready to make a payment on this debt, walk me through how you would do that.
+* Talk to me about that experience of starting to make the payment (e.g. opening browser, copying payment + account info)
+* After you’ve made a payment, what would you expect to see? When would you expect to see an update?
+* If this were to be built in real life, how likely would you be to use it?
+
 * Now that we’ve gone through this section, do you have any other thoughts about what is here and how the information is presented?
+
+✨ ✨ ✨ ✨ ✨ ✨ 
 
 </details>
 

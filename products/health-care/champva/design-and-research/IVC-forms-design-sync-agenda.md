@@ -1,5 +1,115 @@
 # Running Design and Research Agenda
 
+## July 21 2025
+Attendees: Renata Keck, Rachel Pope, Jamie Fiore, Amanda Klausmeier, Premal Shah, Mike Mooney
+
+### Agenda
+* UX Roadmap
+* Health Status Tool Updates
+* CHAMVPA Claims PDI/Control number UX updates
+* CHAMPA Claims Resubmissions/LLM usability study updates
+
+### Notes
+* UX Roadmap
+    * CHAMPVA claims resubmissions study is with Shane
+    * Renata is working on the 1010D/OHI merge usability study analysis
+    * Health status tool- will talk about in agenda
+    * Working on UX organizational tasks and file management
+    * A few claims research items in the next column followed by 1010d/OHI merge content updates and content review for the CHAMVPA claim resubmissions and LLM flow
+
+* Health Status Tool
+    * Where is it going to live? The consensus is leaning towards having it available in existing claims status tool We are waiting on thumbs up from Danielle and Mikki
+    * We need to redesign the [figma](https://www.figma.com/design/OpAuMgHwnh6BNkKpW3FyqF/CHAMPVA-in-Status-Tool?node-id=15-1207&p=f&t=NPcRFOVig8MSD59H-0) to show how it will look up in MyVA
+    * We may internally rebrand the current claims status tool to “Claims and Application Status Tool”
+    * Form submissions would live on myVA and eligibility and statuses would live in the claims status tool
+    * We plan to handoff to Alyssa because of the UX team’s capacity in the weeks they are doing the usability testing for the CHAMVPA resubmissions
+    * From an engineering aspect the claims status tool is technically difficult but OCTO the  Engineering Leads will help coordinate with us
+    * This is a high level initiative in VA so Premal is pretty sure everyone will be on board with making sure that this works well and has a great UX. We are not just trying to solve for something to work with the current systems and processes. Adding CHAMPVA is the Priority for this tool.
+    * Keep biased towards action so we can push this continually forward. Don’t focus on  how if we can do something. Instead focus on how we can do something.
+    * IVC’s delivery on the forms is what gave us the trust from OCTO to give this tool priority.
+
+* CHAMPVA claims PDI/control number flow. 
+    * The PDI number can be so variable so the designers attempted to break down the info in smaller chunks for the user
+    * We don’t/can’t validate the code from the backend because the numbers are so variable.
+    * Amanda: We are making a lot of assumptions without giving the user the benefit of the doubt that they can figure it out which is which with just the content. Leaning more towards the content only solution for testing. Afraid the content is still confusing so would want another content review
+    * Premal/Mike: Want to deliver it rather than keep iterating
+    * We decided to get user feedback on the low- effort content with the new additional components content and the 2 paragraphs above that 
+    * **Action Item: **We would like to get C/IA people to come to user testing to observe. 
+    * **Action Item: **We need to remove the word “claim” from “ claim control number” and then send to the engineers
+
+* Claims resubmission/LLM research
+    * No concerns to move forward. The kickoff meeting is tomorrow
+    * **Action Item:** Add Amanda to the Perigean channel for awareness.
+
+
+
+## July 21 2025
+Attendees: Renata Keck, Rachel Pope, Jamie Fiore, Amanda Klausmeier, Premal Shah, Mike Mooney
+
+### Agenda
+* UX Roadmap
+* 1010D and OHI Merged Form research
+* Claims research
+
+Amanda asks about DOB bug ticket and whether the date or marriage before DOB issue is a part of the same ticket
+* Mike will verify whether or not the date of marriage was worked on within this ticket
+    * If not, will create new ticket
+* Important because innovation team is trying to push through fixes for any issues that require human intervention in order to resolve, and this is one of them
+* Mike will make sure date bugs are prioritized
+
+### Roadmap
+* Renata reviews current UX roadmap
+* Premal asks about breadcrumbs thread in Slack - wouldn’t it be the same breadcrumbs as 1010d has now?
+    * The merged form is a separate form and the assumption was that both would be live at the same time for a short period of time 
+    * It’s possible to replace the standalone with this form instead
+        * User won’t know the difference if presented with both
+        * High volume form - make sure it’s solid before replacing it
+
+### Merged Form Research
+* Renata reviews research Mural
+    * May be some fast follows that can be worked on
+    * Nothing prioritized yet
+* Mostly positive feedback on overall usability and the amount of information in the form
+* Found some form-specific bugs and others that are platform-related
+    * Apple HEIC file type not supported
+    * On Safari, autofill doesn’t work - appears to fill info, but errors out as if blank
+        * Issue on both mobile devices and pc
+* Issues with signer/sponsor/applicant terms
+    * C/IA edits may be a partial fix
+    * May also need to adjust flow to move signer to end of form
+    * “Applicant” term is an issue with a lot of folks - maybe changing that would help
+    * Amanda mentions 193 applications (out of 8000) had the veteran listed as an applicant
+        * This may be a larger issue than the date of marriage one
+        * Content fix first, then follow with flow changes if needed
+* Very few folks recognized that it was form within a form
+    * Most understood, or thought they understood, why health insurance info was being requested
+    * Most didn’t mention health insurance info as something they would expect to be asked for when starting the form
+* Users had different expectations about response time
+    * Most users mentioned VA might take time to process
+    * Would use a tracker over a phone call to check status
+        * Flag this information for Amanda to use as evidence for creating a tracker
+
+### Resubmissions Research
+* Research would likely have to begin the week of August 11 to allow time for Shane to review and Perigean to recruit
+    * Premal asks if this will slow down releasing the resubmissions
+        * Try to push date up a little bit if possible
+    * Can go live with resubmissions prior to research and iterate based on research
+
+### Other topics
+* Amanda links to slack thread on HEIC images
+    * Mike already created a ticket for the gem to convert HEIC images (per Adrian’s suggestions)
+    * Adrian added AC to that ticket that say it should be usable by any team - Mike needs to check how that impacts level of effort
+        * Shouldn’t be an issue to fix for this team first, then make it accessible to other teams
+        * Engineers can create design system ticket after they have a fix
+    * Issue is not unique to VA
+    * Premal asks why we have to convert instead of just accepting HEIC format
+        * Fairly common file type now
+        * If we ask users to take a photo of their card and then don’t accept it, usability issue
+        * Mike will ask Michael if he know why we can’t accept HEIC images
+* Amanda and Premal are meeting with the Benefits Status team to discuss their tracker
+    * Probably won’t affect work that’s already been done towards our tracker tool
+    * Can inform future work
+
 ## July 14 2025
 Attendees: Renata Keck, Rachel Pope, Amanda Klausmeier, Premal Shah, Mike Mooney, Jamie Fiore, Alyssa Li
 

@@ -16,20 +16,20 @@ Work done in [#76465](https://github.com/department-of-veterans-affairs/va.gov-t
 ### Sample questions:
 
 ![image](https://github.com/user-attachments/assets/735d560d-1623-4045-a9c7-d1ed674bc112)
-- Veterans will be asked this question only if the benefits API fails to connect or if the API cannot determine if the Veteran receives pension benefits. If the Veteran answers "yes", the follow two questions will be conditionally revealed later in the form flow. If the API is working and can locate the Veteran, this question will not appear.
+- Veterans will be asked this question only if the benefits API fails to connect or if the API cannot determine if the Veteran receives pension benefits. If the Veteran answers "yes", the following two questions will be conditionally revealed later in the form flow. If the API is working and can locate the Veteran, this question will not appear.
 
 -----
 
 ![image](https://github.com/user-attachments/assets/ba77b819-232d-4af7-aea1-22ed571a5170)
 - This question is asked for every dependent branch in the form
-- If yes, then the claim will off-ramp for manual review where the VBA will usually ask the Veteran a complete income/asset picture via a 21P-0969 or 21P-8416
+- If yes, VA.gov will off-ramp the claim for manual review where the VBA will usually ask the Veteran a complete income/asset picture via a 21P-0969 or 21P-8416
 - If no, the claim will continue through to RBPS
 
 -----
 
 ![image](https://github.com/user-attachments/assets/11696ae6-df7c-43f1-9fe0-326148864f4b)
 - This question is asked at the end of every form branch
-- If yes, the claim will off-ramp for manual review review where the VBA will usually ask the Veteran a complete income/asset picture via a 21P-0969 or 21P-8416
+- If yes, VA.gov will off-ramp the claim for manual review review where the VBA will usually ask the Veteran a complete income/asset picture via a 21P-0969 or 21P-8416
 - If no, the claim will continue through to RBPS
 -----
 
@@ -37,6 +37,11 @@ From our Pension and Fiduciary Service SME, Jennifer Feuer, about the original i
 > An RBPS auto pension dependency claims processing option has to be a NO to Question 1 and a YES to Question 2 to automatically be processed through RBPS.  The submitter must state that the dependent does NOT have any income for the last 365 days AND that the household net worth IS less than the current threshold.  We did that on purpose so that it wasn’t just all the same answer, and we can make sure the submitter is providing the right responses – essentially making it so that the submitter is having to read and really respond correctly.
 
 **Note:** For an unknown reason, the question regarding net worth was implemented differently than Jennifer originally intended and asks if net worth is GREATER THAN instead of LESS THAN the allowed amount. Because of this, RBPS is expecting a "no" answer rather than a "yes" answer in order to auto process. So, a "no" answer to both income questions will allow a claim to auto-process in RBPS because the Veteran's income does not increase by adding the new dependent.
+
+-----
+
+### Automate Annual Net Worth Limit
+The (same?) API can be leveraged to pull in the annual net worth limit and [auto-populate the value](https://github.com/department-of-veterans-affairs/va.gov-team/issues/96876) within the text of the net worth question, so VA.gov does not need to update the value each year (in October).
 
 -----
 
