@@ -21,6 +21,13 @@ Smart and capable people made decisions likely influenced by forces beyond their
 - Never share Personal Health Information (PHI), Personally Identifiable Information (PHI), and credentials in Slack, including private channels. Use encrypted email, send a link to the GitHub va.gov-team-sensitive repo, or to the test user dashboard. When in doubt... ask your OCTO lead.
 - Thread convos by replying to messages.
 - If you're going to be out of office, update your status with an OOO note and the relevant dates.
+- There are our current Slack channels and what they're for. Consider consolidating/updating them in the future?
+   - #ask-va-public: Use for questions/messages that need all team awareness. Use this channel as a default if you're not sure which one to use.
+   - #ask-va-integration: Use for communicating with the Ask VA CRM team.
+   - #ask-va-tech: Use for engineering convos
+   - #ask-va-design: Use for design and research convos
+   - #ask-va-notifications: Datadog sends notifications to this channel. Use for monitoring. Respond to notifications if you researched the issue, if you need to add action items after reviewing the alert, etc.
+   - #ask-va-vapos: This is a private channel we have with our VA POs. Includes our Product manager and Program manager too. Use when we need to communicate only with Natalie (VES). Jaime and Kathleen (VEO) aren't in Slack.
 
 ### Email
 - Send emails with your VA.gov email address.
@@ -32,9 +39,9 @@ Smart and capable people made decisions likely influenced by forces beyond their
 - Use Teams chat when you need a quick response from our VA partners.
 
 ### Scheduling meetings
-- Schedule meetings in Microsoft Teams from your VA.gov calendar. VA doesn't support. Many VA staff can't access it.
+- Schedule meetings in Microsoft Teams from your VA.gov calendar. VA doesn't support Zoom. Many VA staff can't access it.
 - Schedule team meetings or meetings with OCTO teams 5 minutes past the hour or half hour to give folks a break between back-to-back meetings. For meetings with VA partners, scheduling meetings exactly on the hour or half hour.
-- Default meetings to 30 minutes, unless there's a lot to cover. Then, schedule for an hour
+- Default meetings to 30 minutes, unless there's a lot to cover. Then, schedule for an hour.
 - Include a quick agenda and expected outcomes in the meeting invite.
 - Send pre-reads at least 24 hours before the meeting to give attendees time to reivew.
 - Reschedule your meeting if an essential attendee declines the invite, such as a key team member, subject matter expert, or decision-maker.
@@ -45,9 +52,10 @@ Smart and capable people made decisions likely influenced by forces beyond their
 - Avoid scheduling meetings on Fridays. Many VA employees work compressed schedules and are off every other Friday.
 
 ### Communicating with our partners
-- Talk to our sister Ask VA CRM team in either the #ask-va-integration Slack channel or our Teams General channel. Again, limit DMs. Work in the open as much as possible.
-- Use email when you need to talk to other VA partners, such as business lines.
+- Talk to the Ask VA CRM team in either the #ask-va-integration Slack channel or our Teams General channel. Again, limit DMs. Work in the open as much as possible.
+- Use email when you need to talk to other VA partners, such as business lines who are responsible for answering submitter questions.
 - Also use email if you need to request anything from the Ask VA CRM team, such as requesting work to be completed or access to tools.
+- When in doubt, ask your OCTO PO how best to communicate with our partners.
 
 ## Documentation
 - Use GitHub and SharePoint for documentation. Do not use Google Drive, DropBox, or other systems not approved or accessible by VA.

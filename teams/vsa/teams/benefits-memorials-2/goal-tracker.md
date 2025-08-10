@@ -15,8 +15,8 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 | QP1 | **Digital Debt Dispute (VBA):**  |[#82003](https://github.com/department-of-veterans-affairs/va.gov-team/issues/82003)  | Target production launch in June/July | UX-BE | **DMC** | |
 | QP2 | **One Thing Per Page:** |[#106610](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106610)  | Target production launch as early as possible after QP1 during first half of quarter  | FE | None |  |
 | QP3| **Payment History (VHA):**  | [#18859](https://github.com/department-of-veterans-affairs/va.gov-team/issues/18859) | Progress BE development efforts in preparation for Lighthouse Production API (Sept) and continue align with Lighthouse as needed | Primarily BE; may involve whole team collab| Lighthouse |   |
-| QP4| **Pay.gov Hosted Collection Page (HCP) for Copays:**  |[ #110219](https://github.com/orgs/department-of-veterans-affairs/projects/1514/views/18?pane=issue&itemId=111610681&issue=department-of-veterans-affairs%7Cva.gov-team%7C110219)  |Target production at end of Sept/Early Oct   |BE, FE | **Pay.gov + HRC/VHA accounting** |  |
-| QP5| **Pay.gov Hosted Collection Page (HCP) for Overpayments:**  |[#105733](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105733)  |Finalize design + engineering handover.   | BE, FE | **Pay.gov + DMC for <Receivable ID> + accounting components** |   |
+| QP4| **Pay.gov Hosted Collection Page (HCP) for Overpayments:**  |[#105733](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105733)  |Finalize design + engineering handover.   | BE, FE | **Pay.gov + DMC for <Receivable ID> + accounting components** |   |
+| QP5| **Pay.gov Hosted Collection Page (HCP) for Copays:**  |[ #110219](https://github.com/orgs/department-of-veterans-affairs/projects/1514/views/18?pane=issue&itemId=111610681&issue=department-of-veterans-affairs%7Cva.gov-team%7C110219)  |Target production at end of Sept/Early Oct   |BE, FE | **Pay.gov + HRC/VHA accounting** |  |
 | QP6 | **Veteran Request for Hardship Suspension (VBA):** |[#106207](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106207)  |Initiate Design Prototyping & Development handover  UX to finalize engineering handover by end of Sept in preparation for development in October  | Design- FE | **DMC** |  |
 | QP7 | **Indirect Initiative Priority Work:**  | [#112855](https://github.com/department-of-veterans-affairs/va.gov-team/issues/112855)|Complete and launch priority work listed in the epic | UX-FE-BE |None  |  |
 
@@ -78,23 +78,23 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
  - [x] VA COR approved the Sprint Goals (07/17/25)
  
 **_Delivery + Notes:_**
-- [ ] All goals have been updated in the sprint chart
+- [X] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
 
 ## Sprint Goals - Sprint: 14 [7/30/25 - 8/12/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Confirm fields and format with Lighthouse for VHA payment history based on Fall 2024 study recommendations.| QP3 |--|--|--|
+|UX/ENG: Confirm the fields, data point mapping and format of the Lighthouse API for VHA payment history based on Fall 2024 study recommendations aka "paper testing".| QP3 |--|8/5/25|Complete|
 |UX: Refine the Pay.gov mockups based on the feedback from our discussion with the FE team.| QP4 |--|--|--|
 |UX: Create user flows & mockups for Hardship Suspension that are user-friendly and meet DMC's requirements.| QP6 |--|--|--|
 |ENG: Complete 8 points of remaining Digital Dispute work addressing the 4 remaining staging review feedback tickets.| QP1 |--|--|--|
-|ENG: Investigate next steps for submissions via Sharepoint and determine how to proceed..| QP7 |--|--|--|
+|ENG: Investigate next steps for submissions via Sharepoint and determine how to proceed..| QP7 |--|7/31/25|Completed|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (07/28/25)
  - [X] VA PO & COR sent the Sprint Goals (07/28/25)
- - [ ] VA PO approved the Sprint Goals (07/XX/25)
- - [ ] VA COR approved the Sprint Goals (07/XX/25)
+ - [X] VA PO approved the Sprint Goals (07/31/25)
+ - [X] VA COR approved the Sprint Goals (07/31/25)
  
 **_Delivery + Notes:_**
 - [ ] All goals have been updated in the sprint chart

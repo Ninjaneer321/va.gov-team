@@ -239,7 +239,7 @@ _Response options: YES or NO_
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
 - `Veterans:` **2-4**
-- `Spouses and dependent chilren:` **8-10**
+- `Spouses and dependent children:` **8-10**
 - `AT users (can be: Veterans and spouses/dependent children:` **2-4**
 - `Total:` **18**
 - `Ideal completed sessions:` **12**
@@ -272,12 +272,15 @@ We would like a kick-off call with Perigean to discuss recruitment criteria. Sug
 We would like to have a non-AT user pilot, and 2 AT user pilot (1 screen reader, 1 screen magnifier)
 
 **Non-AT user pilot (1)**
-- `Pilot participant name:` TBD
-- `Date and time of pilot session:` TBD
+- `Pilot participant name:` Robin Garrison
+- `Date and time of pilot session:` August 4, 2025 2pm-3pm ET
 
 **AT user pilots (2)**
-- `Pilot participant name:` TBD
-- `Date and time of pilot session:` 
+- `Pilot participant name:` Evan Burnett
+- `Date and time of pilot session:` August 1, 2025 1pm-2:30pm ET
+
+- `Pilot participant name:` Maria Mutia
+- `Date and time of pilot session:` August 5, 2025 12pm-1:30pm ET
 
 ### Research sessions
 - `Planned dates of research:` **Wednesday, Aug 6 - Tuesday, August 26**

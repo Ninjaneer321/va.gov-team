@@ -32,6 +32,17 @@ Deliver a production-ready mechanism for secure PTA access using **Login.gov or 
 
 ---
 
+## MVP Requirements
+
+1. Users must have a verified credential using id.me or login.gov.
+2. Test identities have traits of real identities (current state).
+3. Real users (currently employee/contractor) are mapped securly to appropriate prod test users and associated data.
+4. Must be able to easily terminate or block access when needed by administrator.
+5. The identity of the employee or contractor must be captured, along with the test identity, date, time, and feature accessed.
+6. Auditing of the actions taken in each feature must be captured and available upon request.
+
+---
+
 ## MVP Scope by Requirement
 
 | **Requirement**       | **MVP Solution**                                  | **Backend Actions**                                                                 |
@@ -93,8 +104,10 @@ Deliver a production-ready mechanism for secure PTA access using **Login.gov or 
 ## Success Criteria (MVP)
 
 - A verified VA employee can authenticate with Login.gov or ID.me  
-- Their verified identity is mapped to a PTA in production  
+- Their verified identity is mapped to a PTA and the associated data in production  
 - Their activity is logged and visible in audit records  
 - Their access can be manually revoked in real-time  
-- MVP is ready before MHV credential sunset in October 2025
 ```
+
+
+[Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1750729853359/cf8c4f23910ce4c74014951b6969d4f55ebe589e) with notes from team

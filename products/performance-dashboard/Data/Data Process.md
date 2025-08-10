@@ -1,16 +1,17 @@
- VA.GOV Performance Dashboard Data Process
-
- 
+# VA.GOV Performance Dashboard Data Process
 
 The[ VA.Gov Performance Dashboard](https://www.va.gov/performance-dashboard/) has had a complete data redesign, utilizing Domo has our processing tool to deliver Google Analytics and Medallia (CSAT) data to the dashboard.
 
- 
-
 When IIR originally took on the project of revamping the data pipeline, we found many areas of improvement, including the removal of a process where users manually entered data, to creating ETL flows that improve performance and useability of the data.
 
- 
+Video Recordings:
+- [Overview of what's in Domo](https://github.com/user-attachments/assets/162d02a0-f07d-4d1e-9f19-2e909697749e)
+- [ETL flow - GA Portion](https://github.com/user-attachments/assets/ece9c3ae-b2f5-46df-9951-762b0445e4b9)
+- [ETL flow - Medallia Portion](https://github.com/user-attachments/assets/5ec499df-f0e7-4b8a-83b8-e9db775343e7)
+- [Medallia - VA.gov Experience Rating](https://github.com/user-attachments/assets/11550e72-bb27-4c40-8fdc-f1f061ccd7c4)
 
-The current process can be broken down into the following steps:
+
+## Current Process
 
 1. **Data Ingestion to Domo**
 
@@ -38,23 +39,23 @@ The current process can be broken down into the following steps:
 
   - The Raw Medallia data
 
-  - A Domo webform that defines the proper mapping logic for GA and Medallia to work together, as well as the general flow of the dashboard’s layout (ordering)
+  - A [Domo webform](https://va-gov.domo.com/datasources/c9a4e6bb-9a91-4f88-8cd4-7a7b65b40a00/details/data/table)that defines the proper mapping logic for GA and Medallia to work together, as well as the general flow of the dashboard’s layout (ordering)
 
-- The Performance Dashboard is fueled by the following[ Domo Dataflow](https://va-gov.domo.com/datacenter/dataflows/317/graph)
+- The Performance Dashboard is fueled by the following [Domo Dataflow](https://va-gov.domo.com/datacenter/dataflows/317/graph)
 
   - The datasets within this dataflow that are denoted with BQ are the GA data that comes from Big Query
 
     - For any questions on the GA data, please reach out to the Analytics and Insights team
 
-  - The dataset called \[Output] – Medallia Performance Dashboard is the Medallia data
+  - The dataset called [Output] – Medallia Performance Dashboard is the Medallia data
 
     - For any questions on the Medallia data please reach out to the Veteran Support team
 
-  - The dataset called Performance Dashboard Groups | Staging is our webform data
+  - The dataset called [Performance Dashboard Benefit Type Activities | Impacts All Outputs (PROD, STAGING, DEV)](https://va-gov.domo.com/datasources/c9a4e6bb-9a91-4f88-8cd4-7a7b65b40a00/details/data/table) is our webform data
 
     - This is our bread and butter, and as such we will go into more detail below
 
-- [Performance Dashboard Groups | Staging](https://va-gov.domo.com/datasources/c9a4e6bb-9a91-4f88-8cd4-7a7b65b40a00/details/overview) is a Domo webform that contains all of the mapping logic required to make the performance dashboard function with GA and Medallia
+- [Performance Dashboard Benefit Type Activities | Impacts All Outputs (PROD, STAGING, DEV)](https://va-gov.domo.com/datasources/c9a4e6bb-9a91-4f88-8cd4-7a7b65b40a00/details/overview) is a Domo webform that contains all of the mapping logic required to make the Performance Dashboard function with GA and Medallia
 
   - GA data is mapped using a combination of Event Action, Event Label, and Event Category values, which are concatenated together from their raw BQ/GA datasets, with this document, to map them to the appropriate “Title”
 
@@ -100,7 +101,6 @@ The current process can be broken down into the following steps:
 
     - If there are any questions on the calculations being displayed on the Performance Dashboard, please review with your Backend and Front End Engineers
 
- 
 
 4. Data ingestion to Performance Dashboard:
 
@@ -116,7 +116,7 @@ The current process can be broken down into the following steps:
 
   - Medallia: afb89759-292f-40f0-8be4-0ccee76006d5
 
-5.
+5. Testing:
 
 - As of October 1st 2024, the team has integrated duplicate data models for DEV and Staging, to allow us to make changes to the flows, without impacting production. 
 

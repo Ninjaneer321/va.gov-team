@@ -6,7 +6,8 @@ Included in this document are links to all shared VA.gov profile use cases. Thes
 
 
 ## Common use cases
-### Editing information
+### User logs in with LOA3 account
+#### Editing information
 <details><summary>Adding information</summary>
 
 - **Use case:** For each section without information on file, i.e. a `null` value, the user will see the name of the section and prompt to edit their information to add [section information]. Clicking the Edit button will put the section into an inline edit mode.
@@ -26,6 +27,7 @@ Included in this document are links to all shared VA.gov profile use cases. Thes
    - [Contact information: Address](https://www.figma.com/design/bFdl7MEIda4ExZIQuot84r/Profile---Contact-Information?node-id=3123-35977&t=HML77KqMVILaoozm-1)
    - [Contact information: Phone number](https://www.figma.com/design/bFdl7MEIda4ExZIQuot84r/Profile---Contact-Information?node-id=3130-24667&t=HML77KqMVILaoozm-1)
    - [Contact information: Email address](https://www.figma.com/design/bFdl7MEIda4ExZIQuot84r/Profile---Contact-Information?node-id=3132-24668&t=HML77KqMVILaoozm-1)
+   - [Direct deposit: Bank account information](https://www.figma.com/design/CUR39JNnF2CS8SidGiWmYG/Profile---Direct-Deposit?node-id=2424-4026&t=aMXjAiZgP3LKZGhy-1)
 
 </details>
 
@@ -43,7 +45,9 @@ Included in this document are links to all shared VA.gov profile use cases. Thes
 
 - **Use case:** When the user selects the Save button, and the form successfully saves, the user is returned to read mode and a slim success alert displays below the section header.
 - **Format:** [Slim success alert](https://design.va.gov/components/alert/#examples---slim-alert)
-- [Link to designs](https://www.figma.com/design/Byfu9NRKXCtXN3DuMYguKI/Authenticated-Experience-Team-Symbols?node-id=1027-2055&t=lV1Oua0bfedXY6kj-1)
+- Links to designs
+   - [Input success message](https://www.figma.com/design/Byfu9NRKXCtXN3DuMYguKI/Authenticated-Experience-Team-Symbols?node-id=1027-2055&t=lV1Oua0bfedXY6kj-1)
+   - [Checkbox success message](https://www.figma.com/design/Byfu9NRKXCtXN3DuMYguKI/Authenticated-Experience-Team-Symbols?node-id=1065-1047&t=lqkwKLq2YPQjoDrR-1)
 
 </details>
 
@@ -52,7 +56,9 @@ Included in this document are links to all shared VA.gov profile use cases. Thes
 
 - **Use case:** When the user selects the Save button, and the form does not save, the user is returned to edit mode and a slim error alert displays below the section header.
 - **Format:** [Slim error alert](https://design.va.gov/components/alert/#examples---slim-alert)
-- [Link to designs](https://www.figma.com/design/Byfu9NRKXCtXN3DuMYguKI/Authenticated-Experience-Team-Symbols?node-id=1034-634&t=lV1Oua0bfedXY6kj-1)
+- Links to designs
+   - [Input error message](https://www.figma.com/design/Byfu9NRKXCtXN3DuMYguKI/Authenticated-Experience-Team-Symbols?node-id=1034-634&t=lV1Oua0bfedXY6kj-1)
+   - [Checkbox error message](https://www.figma.com/design/Byfu9NRKXCtXN3DuMYguKI/Authenticated-Experience-Team-Symbols?node-id=1065-1043&t=lqkwKLq2YPQjoDrR-1)
 
 </details>
 
@@ -99,6 +105,18 @@ Header: Save or cancel your edits to [H3 section header]
 Before you can edit a new section of your profile, you need to save or cancel your edits to your [H3 section header]. If you cancel, we won't save your in-progress edits.
 
 Primary button: OK
+
+</details>
+
+
+<details><summary>Edit-as-a-subtask flow</summary>
+
+- **Use case:** If a user edits their contact information (email, address, phone) not on the Contact information page, they will launch the edit-as-a-subtask flow. The flow is a single question flow that updates their contact information then directs the user back to the page. [Link to product documentation.](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/editing-as-a-subtask)
+- **Status code:** TBD
+- **Format:** See designs
+- [Links to designs](https://www.figma.com/design/Byfu9NRKXCtXN3DuMYguKI/Authenticated-Experience-Team-Symbols?node-id=1068-1140&t=lqkwKLq2YPQjoDrR-1)
+- [Link to code]
+- **Content:** See designs
 
 </details>
 

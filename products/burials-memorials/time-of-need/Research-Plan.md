@@ -18,9 +18,9 @@
 
 **This is a new product; there is currently no digital self-service option for initiating burial requests through VA.gov. Veterans and their families have previously interacted only by phone, so this tool is new to them.**
 
-`Product Brief`
+`Product Outline`
 
-**[Link to product brief](products/burials-memorials/time-of-need/Product-Outline.md).**
+**[Link to product outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/burials-memorials/time-of-need/Product-Outline.md).**
 
 </details>
 
@@ -190,6 +190,7 @@ Where will you be holding the research sessions?
 - `Observers:` 
 - **Kenneth Santiago**
 - **Cat Hughes**
+- **Kyle Wren**
 
 ## Approvals ✅
 - `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`

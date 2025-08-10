@@ -1,4 +1,4 @@
-# 2025 Q2 verfiy focused survey data findings
+# 2025 Q2 verify focused survey data findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), Identity Experience Team**
 
@@ -11,12 +11,12 @@
 
 ## Methodology 
 
-We requested survey data for May and June from the Contact Center Team. Since there were no surveys taken from the /verify page, we recieved surveys from pages about verify, mostly from resource pages like [https://www.va.gov/resources/verifying-your-identity-on-vagov/](https://www.va.gov/resources/verifying-your-identity-on-vagov/)
+We requested survey data for May and June from the Contact Center Team. Since there were no surveys taken from the /verify page, we received surveys from pages about verify, mostly from resource pages like [https://www.va.gov/resources/verifying-your-identity-on-vagov/](https://www.va.gov/resources/verifying-your-identity-on-vagov/)
 
 * Medallia feedback survey - folks get to this by pressing the "feedback" button at the bottom of a page on VA.gov
 * Medallia intercept survey - folks get to this by seeing a pop-up on screen
 * We asked for surveys that were started from va.gov/verify and pages related to verify content
-  * No results retuend from /verify, so this analysis relies only on resource pages about verify
+  * No results returend from /verify, so this analysis relies only on resource pages about verify
 
  
 ## Key data points

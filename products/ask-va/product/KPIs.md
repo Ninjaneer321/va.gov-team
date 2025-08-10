@@ -1,5 +1,5 @@
 # Ask VA KPIs
-Last updated by @beckyphung on July 22, 2025
+Last updated by @beckyphung on July 29, 2025
 
 These KPIs help us understand how Ask VA is meeting expected submitter outcomes and operational performance of our Ask VA application. We'll benchmark our KPIs against VA.gov metrics.
 
@@ -18,21 +18,22 @@ These KPIs help us understand how Ask VA is meeting expected submitter outcomes 
 - This only includes a few primary CRM endpoints
 - Number in parenthesis represent the total (AKA the denominator for a percentage)
 
-|KPI|May|Jun|Jul (Up to 7/22)|
-|:--|:--|:--|:--|
-|[Performance] Error rate, Submit inquiry (auth)|0.4% (16850)|0.3% (43517)|0.7% (31950)|
-|[Performance] Error rate, Submit inquiry (unauth)|0.9% (248)|5.1% (574)|13.54% (363)|
-|[Performance] Error rate, Submit reply|0.2% (2462)|0.1% (6827)|0.3% (4460)|
-|[Performance] AVG p95 Latency, Submit inquiry (auth)|6.1s|5.8s|7.5s|
-|[Performance] AVG p95 Latency, Submit inquiry (unauth)|2.0s|1.7s|1.6s|
-|[Performance] AVG p95 Latency, Submit reply|3.1s|3.6s|3.4s|
-|[Performance] Throughput, Successful Submit inquiry (auth + unauth) calls|14744|43887|32298|
-|[Form/Dashboard] Satisfaction (Intercept)|13% (24)|31% (62)|39% (28)|
-|[Form/Dashboard] Satisfaction (Feedback button)|10% (80)|11% (200)|13% (105)|
-|[Form] Completion rate|36%|39%|35%|
-|[Form] Time to submit form|x|x|x|
-|[Dashboard] Reply rate|21%|23%|19%|
-|[Dashboard] Time to reply|x|x|x|
+|KPI|May|Jun|Jul|Aug|
+|:--|:--|:--|:--|:--|
+|[Performance] Error rate, Submit inquiry (auth)|0.4% (16850)|0.3% (43517)|0.8% (49123)||
+|[Performance] Error rate, Submit inquiry (unauth)|0.9% (248)|⚠️5.1% (574)|⚠️14.5% (556)||
+|[Performance] Error rate, Submit reply|0.2% (2462)|0.1% (6827)|0.5% (6870)||
+|[Performance] AVG p95 Latency, Submit inquiry (auth)|⚠️6.1s|⚠️5.8s|⚠️8.0s||
+|[Performance] AVG p95 Latency, Submit inquiry (unauth)|2.0s|1.7s|1.7s||
+|[Performance] AVG p95 Latency, Submit reply|3.1s|3.6s|⚠️4.3s||
+|[Performance] Throughput, Successful Submit inquiry (auth + unauth) calls|14744|43887|49219||
+|[Performance] Throughput, Successful Submit reply calls|2341|6819|4836||
+|[Form/Dashboard] Satisfaction (Intercept)|13% (24)|31% (62)|39% (112)||
+|[Form/Dashboard] Satisfaction (Feedback button)|10% (80)|11% (200)|14% (217)||
+|[Form] Completion rate|36%|39%|35%||
+|[Dashboard] Reply rate|21%|23%|20%||
+|[Form] Time to submit form|x|x|x|X|
+|[Dashboard] Time to reply|x|x|x|X|
 
 ## User experience KPIs
 User Experience KPIs measure how well Ask VA meets the needs and expectations of its users.

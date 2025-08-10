@@ -1,8 +1,8 @@
-# DRAFT Research Plan: Fraud Landscape Mapping Discovery
+# DRAFT Research Plan Track 1: Fraud Landscape Mapping Discovery
 
 ## Research Objectives
 
-**Primary Objective:** Map the VA's fraud ecosystem to establish clear roles, responsibilities, and collaboration frameworks across teams.
+**Primary Objective:** Identify primary stakeholders and map processes within the VA's fraud ecosystem to inform & define the Identity Team's strategic role in this space. This will enable our team to directly contribute to fraud mitigation while enabling our team to appropriately triage and support downstream delivery asks.
 
 **Secondary Objectives:**
 - Identify gaps and overlaps in current fraud prevention/response efforts
