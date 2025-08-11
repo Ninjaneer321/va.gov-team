@@ -36,10 +36,13 @@ As referenced in the [Product Outline](https://github.com/department-of-veterans
 
 | User Type | Flipper Status | Form in Progress |Version| Content Displayed|
 |---|---|---|---|---|
-| Authenticated Users | Disabled | N/A | Paper Form PDF | not digitized | link to PDF |
-| Authenticated Users | Enabled | N/A | online form  | digitized | online application |
-| UnAuthenticated Users | Disabled | N/A | Paper Form PDF | not digitized | link to PDF |
+| Authenticated Users | Enabled | No | online form  | digitized | online application |
+| Authenticated Users | Enabled | Yes| online form  | digitized | online application |
+| UnAuthenticated Users | Disabled | No | Paper Form PDF | not digitized | link to PDF |
+| UnAuthenticated Users | Disabled | Yes | Paper Form PDF | not digitized | link to PDF |
 | UnAuthenticated Users | Enabled | N/A | online form  | digitized | online application |
+| Authenticated Users Post 100% Release| Enabled | Yes | online form | digitized | online application |
+| UnAuthenticated Users Post 100% Release| Disabled | Yes | Paper Form PDF | not digitized | link to PDF |
 
 
 ### This release will include the following components:
@@ -124,7 +127,7 @@ Rollback plan:
    - New users will be directed to v1 of the form.
 
 ### Phase I: moderated production testing (also known as User Acceptance Testing, or UAT)
-Our VFS team was advised against testing in production due to the downstream actions that submitting an application for burial benefits triggers. To migtigate the risk this poses, we will performed extensive testing in a staging environment.
+Our VFS team was advised against testing in production due to the downstream actions that submission triggers. To migtigate the risk this poses, we will performed extensive testing in a staging environment.
 
 
 ### Phase II: Staged Rollout (also known as unmoderated production testing)

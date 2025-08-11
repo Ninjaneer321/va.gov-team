@@ -8,7 +8,7 @@ projects:
 body:
 - type: textarea
   attributes:
-    label: Value Statement 
+    label: User Need 
     description: Describe the story
     placeholder: |
       As a **user**
@@ -41,7 +41,6 @@ body:
 - type: checkboxes
   attributes: 
     label: Definition of Done
-    description: Describe here
     options:
       - label: Meets acceptance criteria
       - label: Passed all testing coverage
