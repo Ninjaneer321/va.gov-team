@@ -88,13 +88,32 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 |UX: Refine the Pay.gov mockups based on the feedback from our discussion with the FE team.| QP4 |--|--|--|
 |UX: Create user flows & mockups for Hardship Suspension that are user-friendly and meet DMC's requirements.| QP6 |--|--|--|
 |ENG: Complete 8 points of remaining Digital Dispute work addressing the 4 remaining staging review feedback tickets.| QP1 |--|--|--|
-|ENG: Investigate next steps for submissions via Sharepoint and determine how to proceed..| QP7 |--|7/31/25|Completed|
+|ENG: Investigate next steps for submissions via Sharepoint and determine how to proceed.| QP7 |--|7/31/25|Completed|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (07/28/25)
  - [X] VA PO & COR sent the Sprint Goals (07/28/25)
  - [X] VA PO approved the Sprint Goals (07/31/25)
  - [X] VA COR approved the Sprint Goals (07/31/25)
+ 
+**_Delivery + Notes:_**
+- [ ] All goals have been updated in the sprint chart
+- [ ] Any Additional details about goals **not** completed will be documented here
+
+## Sprint Goals - Sprint: 15 [8/13/25 - 8/26/25]  
+| Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|UX/ENG: Collaborate on the One Thing Per Page initiative by reviewing the implementation to align technical requirements with design standards.| QP2 |--|--|--|
+|UX: Be prepared to meet with stakeholders to review the current user flows and designs for Pay.gov overpayments and document feedback. | QP4 |--|--|--|
+|ENG: Complete the remaining 4 Front End tickets for the One Thing Per Page initiative.| QP2 |--|--|--|
+|ENG: Prepare items for upcoming One Thing Per Page Staging Review: QA Artifacts, Analytics request, Release Plan, and Playbook.| QP2 |--|--|--|
+|ENG: Update the Debt Portal of Notice of Rights Modals and PDF to reflect the updated language.| QP7 |--|--|--|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [X] Ready to be sent for approvals (08/12/25)
+ - [X] VA PO & COR sent the Sprint Goals (08/12/25)
+ - [ ] VA PO approved the Sprint Goals (08/XX/25)
+ - [ ] VA COR approved the Sprint Goals (08/XX/25)
  
 **_Delivery + Notes:_**
 - [ ] All goals have been updated in the sprint chart
