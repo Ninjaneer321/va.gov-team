@@ -131,7 +131,7 @@ Did you previously receive the link and instructions to download the testing ver
 
 Y - Were you able to download the app via those instructions? Y - skip down to note for all users
 
-N - I will now share in the zoom chat the URL: that takes you to download the testing app **[iOS url here](https://testflight.apple.com/join/RrO0Cw2q)** -- **[Android link](https://appdistribution.firebase.dev/i/6bea6c3fabc1a872)**
+N - I will now share in the zoom chat the URL: that takes you to download the testing app **[iOS url here](https://testflight.apple.com/join/RrO0Cw2q)** -- **[Android link](https://appdistribution.firebase.dev/i/6bea6c3fabc1a872)** Build #2726, build version 2.56.0
 - *(If asked, reassure that this is a legitimate link to what I want you to test)*
 
 Did you get the link? 
@@ -321,7 +321,7 @@ If you navigate to your device home screen, and engage the menu screen of the VA
 1. We now need to ensure you turn off the developer options we turned on for the test from the "Google Play Store".
 2. Navigate back to “Google Play Store”
 3. Select “uninstall”
-4. Go back to the main phone home screen, lower menu bar select III 3 lines icon
+4. Go back to the main phone home screen, lower menu bar select square in the middle.
 5. Swipe up to remove Google Play Store window
 6. Now go back to the main screen, open the “Google Play Store”
 7. Click on your name in the top right 
@@ -330,6 +330,7 @@ If you navigate to your device home screen, and engage the menu screen of the VA
 10. Go back one, there should be no developer mode.
 11. Reinstall the VA app
 
+(hint: to switch browser windows the user can select the three lines III in the bottom left corner of their lower nav. menu)
 
 ## Thank You and Closing - 3 minutes
 
