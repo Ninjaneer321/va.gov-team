@@ -85,9 +85,9 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
 |UX/ENG: Confirm the fields, data point mapping and format of the Lighthouse API for VHA payment history based on Fall 2024 study recommendations aka "paper testing".| QP3 |--|8/5/25|Complete|
-|UX: Refine the Pay.gov mockups based on the feedback from our discussion with the FE team.| QP4 |--|--|--|
-|UX: Create user flows & mockups for Hardship Suspension that are user-friendly and meet DMC's requirements.| QP6 |--|--|--|
-|ENG: Complete 8 points of remaining Digital Dispute work addressing the 4 remaining staging review feedback tickets.| QP1 |--|--|--|
+|UX: Refine the Pay.gov mockups based on the feedback from our discussion with the FE team.| QP4 |--|8/12/25|Completed|
+|UX: Create user flows & mockups for Hardship Suspension that are user-friendly and meet DMC's requirements.| QP6 |--|8/8/25|Completed|
+|ENG: Complete 8 points of remaining Digital Dispute work addressing the 4 remaining staging review feedback tickets.| QP1 |3 of the 4 tickets are closed|8/12/25|Incomplete|
 |ENG: Investigate next steps for submissions via Sharepoint and determine how to proceed.| QP7 |--|7/31/25|Completed|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
@@ -97,8 +97,11 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
  - [X] VA COR approved the Sprint Goals (07/31/25)
  
 **_Delivery + Notes:_**
-- [ ] All goals have been updated in the sprint chart
-- [ ] Any Additional details about goals **not** completed will be documented here
+- [X] All goals have been updated in the sprint chart
+- [X] Any Additional details about goals **not** completed will be documented here
+- ENG: Complete 8 points of remaining Digital Dispute work addressing the 4 remaining staging review feedback tickets.
+  - 3 of the 4 tickets were completed, however the 4th ticket [DD Contact Information Layout - Consolidated #109263 #113026](https://github.com/department-of-veterans-affairs/va.gov-team/issues/115664) was a consolidation of 2 items and unfortunatelly rolled into the next sprint.
+  - Additional investigation and collaboration with platform is required for this item and those resources are being contacted.
 
 ## Sprint Goals - Sprint: 15 [8/13/25 - 8/26/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |

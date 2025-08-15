@@ -15,7 +15,7 @@ This document is a guide to support team members in:
 - _[TODO: Bulk list of issues on Table - make in shared DBC google drive, can be excel- with observations first so that a group of testers can go in and document stuff en-mass and then someone can refine and transition to official tickets]_
 - _[TODO: [Spreadsheet example](https://docs.google.com/spreadsheets/d/1CstNDQMVic-IpJZEAr452UdLhUReAI3X/edit?gid=1348811676#gid=1348811676)]_
 - _[TODO: Identify some users that have rated issues vs users that don't have rated issues.]_
-- _[TODO: Figure out what is the source of truth for staging users, and identify users that could fall in different scenarios (rated issues) Reserve staging users for the DBC.]_ 
+- _[TODO: Figure out what is the source of truth for staging users, and identify users that could fall in different scenarios (rated issues) Reserve staging users for the DBC, provide emails of the staging users, but team 5 has to reach out to someone on the team for the password. Example user descriptions: https://dsva.slack.com/archives/C098Q0GRKSL/p1755183584714369?thread_ts=1755181784.007889&cid=C098Q0GRKSL]_ 
 
 ## 🧭 Context
 The 526EZ is a long form with multiple pathways (e.g., ancillary forms) and nested, conditional responses. Our team needs to manually test the form for bugs and UX issues. We then need to document findings in a consistent, actionable ticket format as well as track which parts of the 526EZ have been audited. Auditing the 526 will help prioritize fixes and inform a clearer product and UX strategy for future enhancements. This How-To documentation will help ensure consistency in how we evaluate the UX of the form and support longitudinal understanding of what bugs and UX issues exist and where.
@@ -39,8 +39,8 @@ The 526EZ is a long form with multiple pathways (e.g., ancillary forms) and nest
 3. Determine which form Step(s) and conditional pathways you will be auditing
 4. Check for in-progress work and known issues
 5. Conduct an audit using the Bug Audit or the UX Issue Checklist
-6. Create or update bug / UX issue tickets
-7. Link bug / UX issue tickets to any related enhancement Super Epics
+6. ~Create or update bug / UX issue tickets~ Fill out spreadsheet with bug / UX issue findings.
+7. ~Link bug / UX issue tickets to any related enhancement Super Epics~ PO/PMs will review spreadsheet for duplicate bugs and create tickets.
 8. Fill out the _Audit Tracker_ and update the _526 Active Form Audit Map_.
 
 ## 🔐 1. Access staging
@@ -72,9 +72,9 @@ The following table provides a high-level overview of all steps, sections, and p
 | **Step 1: Veteran Details** |☐ Homeless Process <br>☐ Military Service History Process | 
 | **Step 2: Conditions**      |☐ Toxic Exposure <br> ☐ Prisoner of War <br> ☐ Additional Disability Benefits <br> ☐ Individual Unemployability | Individual Unemployability pathway is only present in staging and not active in production. Do not audit.  |             
 | **Step 3: Mental Health**             | N/A                |                 |          |
-| **Step 4: Supporting Evidence**             | ☐ BDD Process continues here                 |                 |          | 
+| **Step 4: Supporting Evidence**             | ☐ BDD Process continues here <br> ☐ 4142 Release of Private Medical Records                 |                 |          | 
 | **Step 5: Additional Information**             |      N/A           |                 |          | 
-| **Step 6: Review and Submit**  | N/A                |                 |          | 
+| **Step 6: Review and Submit**  | N/A                |  ☐ "Edit" Pathway               |          | 
 
 ## 📣 4. Check for in-progress work and known issues
 Multiple teams are involved in designing and developing the 526 form, and there may be in-progress updates to the section you plan to audit. These updates might address bugs or UX issues you would otherwise identify. To avoid duplicating work, you first check for existing efforts by contacting the right Slack channels or team members. Let them know you're auditing [X section] and ask if there are any in-progress changes, known issues, or prior findings you should review. 
