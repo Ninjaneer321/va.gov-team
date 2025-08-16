@@ -249,75 +249,169 @@ Crucially, the confusion about required information and supporting documents on 
 
 ## Recommendations
 
-**1.** **Inform the users about the CHAMPVA program:** Include more information on the form introduction page about who qualifies for the program and what it is used for. Adding the form names to the headers can also increase awareness and understanding of what is the purpose of VA form 1010d and the 10-7959c.
-- _Supporting evidence: 6 of 18 users specifically requested tweaks to the overall content of the form to make submitting the CHAMPVA application easier._
+* Inform the users about the CHAMPVA program: Include more information on the form introduction page about who qualifies for the program and what it is used for. Adding the form names to the headers can also increase awareness and understanding of what is the purpose of VA form 1010d and the 10-7959c.
 
-**2.** **Help users feel more prepared to complete the form:** Add more details about the types of supporting documents needed before entering the form. Include explicit information about submitting school certification and those requirements. Acknowledge the need to submit Medicare cards and/or health insurance cards at the beginning of the form and during the Medicare and health insurance questions. 
-   - _Supporting evidence: On the Introduction page, users struggled to fully understand the breadth of information and supporting documents required to complete the CHAMPVA application._
-   - _Of the 5 participants who saw the School Enrollment portion of the Applicant loop, 4 said they would have to stop the form to call their dependents' school to request an enrollment letter._
-   - _12 of 18 participants did not recall if health insurance information was mentioned on the Introduction page, when they reached the Other Health Insurance subsection of the application._
-     
-**3.** **Reduce confusion of each role type involved in the form:** Update the form content to clarify in plain language who the signer, sponsor and applicant is. Users were more likely to understand the term “Veteran” rather than “sponsor”.  
-   - _Supporting evidence: 11 of 18 participants hesitated on the Signer section, not understanding the question asking them to self-identify as a dependent, Veteran, or third-party representative._
+    _Supporting evidence:_
 
-**4.** **Relieve unnecessary burden and confusion for each role:** Ask for contact info for each one of the roles (signer, sponsor and applicant(s)) involved in the form. Update signer form flow to reduce repetitive and possibly confusing form entries. We believe moving the signer questions to the end of the form may decrease the amount of similar form fields such as address and phone number needed.
-   - _Supporting evidence: 11 of 18 participants had issues completing the Sponsor section, either confused by the form asking them to provide their information twice in a row (Veterans), or not understanding what a Sponsor meant in relation to applicants (Dependents). Even participants who understood that a Sponsor was a Veteran were confused by the Signer/Sponsor/Applicant sections being close together, making the form appear to ask for the same information two or even three times._
-   - _6 of 18 participants continued to struggle with the Applicant section, unclear who an Applicant was in relation to CHAMPVA benefits._
+    * 6 of 18 users specifically requested tweaks to the overall content of the form to make submitting the CHAMPVA application easier.
 
-**5.** **Reduce confusion surrounding the other health insurance section and better prepare users to provide this information:** Consider adding more context on why they are being asked about Medicare and other health insurance, which person  in the form this pertains to (applicants, not the sponsor) and how CHAMPVA works with government owned and private health insurances. It is recommended to mention Medicare Part D earlier on the in Medicare flow to better prepare applicants to have that information ready as well and alleviate uncertainty on if it is needed. 
+* Help users feel more prepared to complete the form: Add more details about the types of supporting documents needed before entering the form. Include explicit information about submitting school certification and those requirements. Acknowledge the need to submit Medicare cards and/or health insurance cards at the beginning of the form and during the Medicare and health insurance questions. 
 
-Consider using similar user flows for both Medicare and Other Health Insurances, specifically where the form asks which applicant is enrolled in which plan(s).
+    _Supporting evidence:_
 
-We recommend adding more context about health insurance, such as the termination date and the plan type, to encourage users to enter as much accurate information as possible to ensure timely processing of their application. 
-   - _Supporting evidence: **[INSERT MISSING EVIDENCE]**
+    * On the Introduction page, users struggled to fully understand the breadth of information and supporting documents required to complete the CHAMPVA application.
+    * Of the 5 participants who saw the School Enrollment portion of the Applicant loop, 4 said they would have to stop the form to call their dependents' school to request an enrollment letter.
+    * 12 of 18 participants did not recall if health insurance information was mentioned on the Introduction page, when they reached the Other Health Insurance subsection of the application.
 
-**6.** **Ease the burden involved with obtaining a school certification letter:** Many other VA benefits (Education benefits) require proof of school enrollment, but from the perspective of this study's participants, it seems that these requirements don’t align CHAMPVA’s school certification requirements and may be more difficult to obtain. To help with user burden and prevent users from having to stop the form until they receive the school certification, we recommend using similar requirements and documentation as the Education benefits program does.
-   - _Supporting evidence: 4 out of 11 participants mentioned that they would either have to pause the form to obtain the school certification._
-   - _3 of 11 participants stated that it would cause significant friction and delay with completing the CHAMPVA application because the school certification is not something they can obtain easily and quickly._
-   - _1 participant mentioned having to submit several school certification letters for the same university in order to maintain her dependent CHAMPVA status in between semesters._
+* Reduce confusion of each role type involved in the form: Update the form content to clarify in plain language who the signer, sponsor and applicant is. Users were more likely to understand the term “Veteran” rather than “sponsor”.
+
+    _Supporting evidence:_
+
+    * 11 of 18 participants hesitated on the **Signer section**, not understanding the question asking them to self-identify as a dependent, Veteran, or third-party representative.
+        * 2 participants said they use their spouse’s [VA.gov](http://VA.gov) account and would default to selecting “Veteran,” but then proceeded to get confused by the information required in the Sponsor section.
+        * Another participant said they wanted more context on the Signer designation, such as the ability to select who you were applying for, rather than self-identifying as a Signer-type.
+    * 11 of 18 participants had issues completing the Sponsor section, either confused by the form asking them to provide their information twice in a row (Veterans), or not understanding what a Sponsor meant in relation to applicants (Dependents). Even participants who understood that a Sponsor was a Veteran were confused by the Signer/Sponsor/Applicant sections being close together, making the form appear to ask for the same information two or even three times. 
+        * All 11 participants who struggled with the Sponsor section completed it as thought it was for a dependent/applicant, not the Veteran.
+        * This was the case even for Veterans (8 of 11) in our study, for whom the Sponsor section was prefilled based on answers in the Signer section.
+    * 6 of 18 participants continued to struggle with the Applicant section, unclear who an Applicant was in relation to CHAMPVA benefits. 
+* Remove unnecessary burden and confusion and ask for contact info for each one of the roles (signer, sponsor and applicant(s)) involved in the form. Consider updating signer form flow to reduce repetitive and possibly confusing form entries. Moving the signer questions to the end of the form may decrease the amount of similar form fields such as address and phone number needed.
+
+
+    _Supporting evidence:_
+
+    * 11 of 18 participants had issues completing the Sponsor section, either confused by the form asking them to provide their information twice in a row (Veterans), or not understanding what a Sponsor meant in relation to applicants (Dependents). Even participants who understood that a Sponsor was a Veteran were confused by the Signer/Sponsor/Applicant sections being close together, making the form appear to ask for the same information two or even three times.
+
+* Remove the need for users to submit the same information from their health insurance and Medicare cards in multiple ways making it less tedious to complete the application. Consider employing strategies such as omitting these questions and relying on the data on the insurance card upload, omitting the card uploads to relying on the information types into the form fields, using a database or AI to prefill this information.
+
+    _Supporting evidence:_
+
+    * 4 of 11 participants reported that the form felt "tedious,"
+    * 3 of 11 participants  users expected to be able to either have the Medicare fields pre-filled in some way either from Medicare itself or from the uploaded card image
+    * 2 of 11 participants wanted a way to enter the effective date only once for both of their Medicare Parts A and B
+* To better prepare applicants to have Part D information ready and alleviate uncertainty on if it is needed it is recommended to mention Medicare Part D earlier on the in Medicare flow. 
+
+    _Supporting evidence:_
+
+    * 3 of 11 participants were unsure how to add their Medicare Part D information \
+
+* To avoid confusion on how applicants are added to Medicare and health insurance plans consider using similar user flows for both of these sections.
+
+    _Supporting evidence:_
+
+    * 9 participants were unsure how to **[add applicants]** to a Medicare (7 of 9) or other health insurance (2 of 9) plan.  \
+
+* It is recommended to add more context about health insurance details such as the termination date and the plan type to encourage applicants to enter the correct information.
+
+    _Supporting evidence:_
+
+    * 6 of 11 participants Users were unsure of the more specific details regarding their health insurance plans such as the termination date and the plan type. 
+
+* Ease the burden involved with obtaining a school certification letter: Many other VA benefits (Education benefits) require proof of school enrollment but from the perspective of the participant it seems that these requirements don’t align CHAMPVA’s school certification requirements and may be more difficult to obtain. It is recommended to conduct more research with the CHAMPVA partners to gain a better understanding of their school certification process. To help with user burden and prevent users from having to stop the form until they receive the school certification, ask for similar requirements and documentation as the Education benefits program does.
+
+    _Supporting evidence:_
+
+    * 4 out of 11 participants mentioned that they would either have to pause the form to obtain the school certification.
+    * 3 of 11 participants stated that it would cause significant friction and delay with completing the CHAMPVA application because the school certification is not something they can obtain easily and quickly. 
+    * 1 participant mentioned having to submit several school certification letters for the same university in order to maintain her dependent CHAMPVA status in between semesters.
      
 ### A11y Recommendations
 
-**1. Reduce redundant name, address and contact information questions to remove friction with screen readers:** Having redundant questions can add confusion to a person only listening to the headers on the page. The assumption is that the user needs to fill out the same information multiple times in the form. This would also help sighted users who had confusion about these sections of the form as well. 
+* Reduce redundant name, address and contact questions to remove friction with screen readers. Having redundant questions can add confusion to a person only listening to the headers on the page because the assumption is that they need to fill out the same info again. 
 
-**2. Reduce keyboard and screen reader users from losing their place when interacting with an object:** It was noted in AT user test sessions that when a screen reader user selects one of the radio buttons on the initial signer question that it moves focus to another area on the screen causing the user to lose their place. It is recommended to perform an audit with a screen reader to check for these problems and fix them within the frontend code.
+    *_Supporting evidence:_*
+    * Our pilot assistive technology user preferred to navigate by headers and did so for the majority of the form. This participant wanted to skip the second address page because she missed that the page was pre-filled.
+
+    * One of our assistive technology participants (P20) stated that even though it’s nice to have the name, address and contact fields pre-filled but it requires too much mental energy to listen to the screen reader (Talkback) announce these fields. They would rather not see those pages at all. The participant goes on to mention that if we must show the redundant pre-filled pages it would be helpful to announce that users are to confirm that the information in these fields are correct.
+      
+* Reduce keyboard and screen reader users from losing their place when interacting with an object: It was noted that when a screen reader user selects one of the radio buttons on the initial signer question that it moves focus to another area on the screen causing the user to lose their place. It is recommended to perform an audit with a screen reader to check for these problems and fix them within the frontend code.
+
+    *_Supporting evidence:_*
+    * One of our assistive technology participants (P20) notes that after they select a radio button option at the bottom of the page the focus automatically jumps to the top making him lose his place when zoomed in. They noted that this would also confuse screen readers because it would read the top of the page again instead of moving to the next action meant to be taken on the page.
+
+* Add focus to the header rather than the progress bar when entering a page. This form only includes 5 steps with multiple questions/pages under the same step. When entering a new page and the focus is on the progress bar, screen readers will read that first which gives the impression that the user is on the same page as the previous question and their progress has not changed.  
+
+    *_Supporting evidence:_*
+  * One of our assistive technology participants (P20) seemed confused by the progress bar remaining the same as they answered several questions. They expected to see more of a change as they progressed through the form.
 
 
 ## Product User and Business Outcomes
 
-*Explain how findings and recommendations align with the product's goals.*
+### Product User Outcomes
 
-> [!NOTE] 
-> Refer back to your Product Outline. 
-
-- **Desired User Outcome**
-  - This research supports our desired user outcome by....
+- **Veterans can complete and submit both the CHAMPVA benefits application and OHI certification through a unified digital interface.​**
+  - This research supports our desired user outcome by confirming that users can successfully complete both the CHAMPVA and OHI forms through a single digital interface. 16 of 18 participants completed the merged form in one sitting, with the two exceptions due to technical issues in the staging environment or participant devices—not confusion with the form itself, suggesting high task completion success.
  
-- **Deisred Business Outcome**
-  - This research supports our desired business outcome by....
+- **Veterans spend less time and effort filling out the forms.**
+  - This research supports our desired user outcome by validating that users want the streamlined flow of the merged forms. Participants appreciated the streamlined flow and reported it was easier and faster than the paper-based process. 10 of 18 cited the overall flow as a key reason for ease, and others highlighted features like easy-to-read pages, inter-form navigation, and straightforward document uploads. Several commented positively on navigation and clarity, reinforcing that the merged form helps reduce burden.
+  - 3 participants who were current CHAMPVA beneficiaries stated that the online form was a better overall experience than the paper/PDF version.
 
+- **Veterans spend less time waiting to hear back on the status of their application**
+  - Not included in this study. 
+ 
+- **Veteran satisfaction increased with application experience.**
+  - This research supports our desired user outcome by validating the navigation, ease of use, and clarity of steps with the merged application. 14 of 18 participants rated the form as “easy” or “very easy.” Positive feedback included comments on intuitive navigation, the clarity of steps, and the ease of uploading documents. Several participants expressed that they would feel comfortable applying for CHAMPVA online.
+
+### Desired Business Outcomes
+
+- **Reduce the amount of time spent processing paper forms.**
+  - Not included in this study.
+
+- **Expedite the application process for these two forms by reducing multitasking**
+  - Not included in this study.
+
+- **Reduce error rates or rejections by removing the dependence on handwritten forms.**
+  - Findings highlight preventable causes of incomplete or incorrect submissions—such as misunderstandings about document requirements and confusion over the roles of signer, sponsor, and applicant—that can be mitigated in a digital environment through clearer terminology, improved instructions, and streamlined input flows.
+  - Addressing these issues is expected to lower error rates and reduce rework compared to processing handwritten paper forms. Users were more satisfied and less likely to revert to paper forms—particularly when digital issues (terminology, instructions) are addressed.
 
 ## Key Performance Indicators
 
-*Explain how findings will support KPI measurement.*  
+**Objective: Increase number of people filing online for CHAMPVA and OHI**
+- **Key result: Increase % of Veterans and families who apply for health care benefits online**
+- **Key result: Increase number of beneficiaries who apply for CHAMPVA & submit OHI online**
+- **Key result: Applicant satisfaction increases due to digital form**
 
-> [!NOTE]
-> Refer back to your Product Outline. 
+This research supports measurement of this KPI by showing that:
 
-- **KPI 1**
-  -  This research supports measurement of this KPI by....
+-  Users prefer the unified digital experience over standalone or paper forms (as reported by 3 current CHAMPVA beneficiaries included in this study).
+-  This study also provides qualitative indicators that satisfaction and ease of use are strong enough to encourage wider adoption, especially once known pain points are addressed.
+-  Validates that users can complete the merged application without major issues, supporting a push to phase out the standalone forms and paper pathway.
+-  Capturing user quotes praising navigation, layout, and document supporting document upload ease.
 
+**Objective: Reduce time to submit both CHAMPVA and OHI**
+- **Key result: Measure number of applications completed in single session**
+- **Key result: Lower average session length than submitting CHAMPVA & OHI separately**
+- **Key result: Low dropoff when users encounter OHI part of merged solution**
+
+This research supports measurement of this KPI by:
+
+-  Demonstrating that 16 out of 18 participants completed the form in one session, with delays attributed only to technical issues—not user confusion.
+-  Users noted that the merged form avoided the need to submit the two forms separately — a time savings even without exact session time comparisons.
+-  Several participants commented on fewer clicks and less navigation effort than expected, which they linked to speed of completion.
+-  Providing baselines for expected completion rates to measure against real-world metrics post-launch.
+
+**Objective: Faster delivery of benefits for Veterans and their families**
+- **Key result: Increase number of people who obtain approvals for claims filed**
+- **Key result: Reduce processing and approval time**
+- **Key result: Reduce the number of resubmissions**
+
+This research supports measurement of this KPI by:
+
+- 18 of 18 participants understood the documentation categories for applicant and OHI sections, which can reduce delays due to missing evidence.
+- Participants called out that uploading supporting documentation was “a piece of cake” and easier than mailing or faxing, which should reduce the approval team’s document-gathering time.
+- Identifying how the digital experience can reduce back-and-forth due to errors in submission (e.g., sponsor/applicant role mix-ups).
+- Helping define form improvements that minimize resubmissions, allowing the approval team to process more efficiently.
 
 ## Next Steps
 
-*Outline immediate actions based on findings, including owners if applicable.*  
-
+1. Address launch-blocking UX, UI, content and engineering concerns identified in testing to prepare for Staging Review.
+2. Identify fast-follows and post-MVP improvements for the merged form experience.
+3. Implement UX/UI/content changes identified in this study to other IVC forms, where applicable.
 
 ## Further research needed
 
 *Identify gaps in the current study and areas requiring additional investigation––such as demographics that were not included in this study.* 
 
-We recommended to conduct some more research with the CHAMPVA partners to gain more understanding of their school certification process. 
+We recommended conducting additional research with the CHAMPVA partners to gain a better understanding of their school certification process, and how to better align business requirements with users' expectations. 
 
 ## Appendix
 [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/10-10D-OHI-Merge-Product-Outline.md)
@@ -331,7 +425,6 @@ We recommended to conduct some more research with the CHAMPVA partners to gain m
 
 ## Tools used for Synthesis
 
-*List tools or techniques used, e.g., Mural, affinity mapping.*  
 - [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1750264395515/2f3e86214b70c294fb7e4c8abec93c83f80f3de5) 
   
 ## Pages and applications used
@@ -355,13 +448,20 @@ _[See an example](https://github.com/department-of-veterans-affairs/va.gov-team/
 
 **Recruitment criteria**
 
-_If you had specific criteria that you recruited for, use this space to explain what those were along with other information you feel would be important to understanding your participants._
+Our intended audience for this study was Veterans with high disability ratings and their dependent spouses and children, who may or may not be currently enrolled in the CHAMPVA program. We split this study into three cohorts:
+
+- **Cohort 1 (n = 12 minimum)**: Veterans with a 100% service connected disability rating with a spouse and/or dependent children who may or may not be enrolled in CHAMPVA benefits. 
+
+- **Cohort 2 (n = 3 minimum)**: Spouses and dependent children of Veterans with a 100% service connected disability rating, who may or may not be enrolled in CHAMPVA benefits.
+
+- **Cohort 3 (n = 2 minimum)**: Veterans with a 50% or higher service connected disability rating with a spouse and/or dependent children who may or may not be enrolled in CHAMPVA benefits. 
 
 We talked to **18 participants.**
 
 Audience segment:
-* Veterans:  14
-* Family members of a Veteran: 4  
+* Veterans:  10 (5 without CHAMPVA beneficiaries / 5 with CHAMPVA beneficiaries)
+* Family members of a Veteran: 4  (1 not currently enrolled in CHAMPVA / 3 currently enrolled in CHAMPVA)
+* Assistive Technology: 4 (All without current CHAMPVA beneficiaries)
 
 
 Gender:
