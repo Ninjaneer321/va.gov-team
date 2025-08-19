@@ -5,7 +5,7 @@
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 08/15/2025
+**Date:** 08/18/2025
 
 **Contacts:** Cindy Merrill
 
@@ -680,14 +680,28 @@ This research does not include the perspectives of the following marginalized Ve
 **# of AT users:** 6  
 **# of no shows:** 1
 
+#### General
+
+| Category | % | Target | Study | p1 | p2 | p3 | p4 | p5 | p7 | p8 | p9 | p10 | p11 | p12 | p13 |
+|----------|---|---------|-------|---|---|---|---|---|---|---|---|----|----|----|----|
+| Age 55-64+ | 50% | 6 | 5 | 1 | 1 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| Cognitive Disability | 50% | 6 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Mobile user | 50% | 6 | 6 | 0 | 0 | 0 | 1 | 1 | N | 1 | 1 | 1 | 0 | 1 | 0|
+| Rural | 25% | 3 | 3 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| No degree | 25% | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
+| Other than honorable | 21% | ? | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Immigrant origin | 17% | ? | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Women | 10% | 2 | 2 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Expat (living abroad) | 0.4% | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
 #### Race
 
 | Category | % | Target | Study | p1 | p2 | p3 | p4 | p5 | p7 | p8 | p9 | p10 | p11 | p12 | p13 |
 |----------|---|---------|-------|---|---|---|---|---|---|---|---|----|----|----|----|
-| Black or African American | 15% | 2 | 3 | 0 | 0 | 0 | 1 | 0 | 0 | N | 1 | 0 | 1 | 0 | 0 |
+| Black or African American | 15% | 2 | 3 | 0 | 0 | 0 | 1 | 0 | N | 1 | 0 | 1 | 0 | 0 | 0 |
 | Hispanic, Latino, or Spanish origin | 12% | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Biracial | 3.9% | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Asian | 3% | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
+| Asian | 3% | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 |
 | Native Hawaiian or other Pacific Islander | 0% | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | First Nations (Canada) | 0% | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Native, American Indian or Alaska Native | 0.3% | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |

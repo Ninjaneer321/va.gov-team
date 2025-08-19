@@ -1,7 +1,7 @@
 
-name: Disability Benefits Team Issue Template
-description: Issues for Disability Benefits Team 
-labels: ["disability", "disability-benefits", "needs-refinement"]
+name: Disability Benefits Team Bug Template
+description: Bug issues for Disability Benefits Team 
+labels: ["bug", "disability", "disability-benefits", "needs-refinement"]
 projects: 
 - department-of-veterans-affairs/1660
 type: Task
@@ -10,18 +10,22 @@ body:
 - type: markdown
   attributes:
     value: |
-      Use clear, simple language and action verbs to describe the work. Avoid acronyms and jargon.
-- type: textarea
-  attributes:
-    label: User Need 
-    description: |
-      ```As a **user**, I want to **do something**, so that **something happens**.```
-    placeholder: |
-      As a **user**, I want to **do something**, so that **something happens**.
+      Use clear, simple language. If you know how to fix the bug, use action verbs to describe the work.
 - type: textarea
   attributes:
     label: Description
-    description: Describe the scope of this work, background context, why it matters, dependencies, goals, and open questions.
+    description: Describe the bug details, how to reproduce, dependencies, impact, and open questions.
+- type: checkboxes
+  attributes:
+    label: How severe is the problem? 
+    options:
+      - label: Critical - A Veteran is blocked or significantly hindered from submitting the form, data is lost, or claim and evidence test coverage is missing. Fix ASAP.
+      - label: Moderate - A Veteran is not blocked, but the happy path is interrupted. Fix after critical bugs.
+      - label: Minor - Cosmetic bugs and minor language inconsistencies. Defer to sprint planning.
+- type: textarea
+  attributes: 
+    label: Desired behavior
+    description: How should the site function or look?
 - type: textarea
   attributes:
     label: Tasks
@@ -47,7 +51,6 @@ body:
       - label: Logging and monitoring in place
       - label: Code or content reviewed (Internal)
       - label: Reviewed and approved by product and/or design
-
 - type: checkboxes
   attributes:
     label: Refinement Checklist! 

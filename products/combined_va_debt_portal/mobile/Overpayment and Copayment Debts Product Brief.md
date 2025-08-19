@@ -44,7 +44,7 @@ The mobile app does not have any debt-related information for Veterans to access
 * Total number of clicks on the link to access VA.gov. We expect that Veterans will want to make a payment towards their benefit overpayment and medical copayment debts, and that this non-zero amount will increase. We will track the total number of clicks on the link to access VA.gov on a monthly basis.
 * Total number of views of the PDF Copayment statements. We expect this to be a non-zero amount and expect that Veterans who have any copayment bills will want to view the PDF. We will track the total number of views on a monthly basis.
 * Total number of error alerts shown to the user. We will want to track this metric to ensure that everything is functioning as intended and that if we see a high volume of errors, there is a problem that will need to be addressed. We will track the total number of errors on a monthly basis. 
-* Total number of clicks on the empty state of benefit overpayments and medical copayments. We expect this to be a non-zero amount and want to track this as a metric to assess the design, and not a metric determining the success of the debt feature itself.  
+* Total number of clicks on the empty state of benefit overpayments and medical copayments. We expect this to be a non-zero amount and want to track this as a metric to assess the design, and not a metric determining the success of the debt feature itself. This will be a temporary metric that is tracked for 6 months.  
 
 ### Supporting OCTO OKRs:
 
@@ -92,7 +92,8 @@ O1: VA’s digital experiences are the easiest and most efficient way to access 
 |8/12/2025| Align Copayments with the same user pattern as Overpayments.| Based on results of research the user pattern that was designed for Overpayments tested the best, so we will update the user pattern for Copayments to match Overpayments. Michelle provided us with the direction to make the updates to the design on 8/12/25 during a UX//PO sync.|
 |8/12/2025| Minimize use of accordions | This was feedback from ADE to reduce the number of taps to get to relevant information which would improve the UX for all users. Michelle provided us with the direction to make the updates to the design on 8/12/25 during a UX//PO sync.|
 |8/18/2025| Mobile **does not** need to account for the Chapter 33 alert. | The FM team expressed in a Slack thread (on the FM team's Slack channel) that they are going to be removing the Chapter 33 alert from VA,gov, since this was a temporary alert.|
-|8/18/2025| Removed the feedback-to-vet label during UX refinement. | During UX refinement, Michelle provided approval for the team to move forward with "rework overpayments pay online info and Move or rename PDF statements. These are now items in the UX backlog that can be picked up to work on.|
+|8/18/2025| Removed the "feedback-to-vet" label during UX refinement. | During UX refinement, Michelle provided approval for the team to move forward with "rework overpayments pay online info and Move or rename PDF statements. These are now items in the UX backlog that can be picked up to work on.|
+|8/18/2025| Engineers can begin working on providing the Governance team with the data that will be cached for the overpayment/copayment initiative. | During Natalie // Michelle 1:1, Michelle provided approval for engineers to move forward on this effort and to remove the "feedback-to-vet" label.|
 
 ## Reference Materials
 

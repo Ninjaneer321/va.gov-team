@@ -311,6 +311,79 @@ We need to make it clearer how to return to the app after submitting a form + we
 
 That placing a link on the home page directly to the forms is super helpful.
 
+Android - Chrome browser
+
+#### Previous experience with VA forms
+- Participant has previously filled out travel form
+- Last time she did it, had an interruption b/c app needed mileage, she input it (same
+mileage she always had) and the app changed it from what she input
+
+#### Where would she expect to find forms?
+- Typically types in the word forms because she’s not sure where to find it
+- Specific wording she used was “go to claims”
+- Screen where she clicked “continue” after going to forms, said it should be bigger even
+though she’s wearing glasses
+
+#### While scrolling through the initial intro screen to forms
+- Likes that you can come back to the form “unless I dedicate specific time, I won’t
+complete the form”
+- “When you use technology like this and it tells me you need to complete more than one
+form at the same time and have to switch between screens, I may miss something or
+something gets lost, may get lost in transition”
+- “This happened to me when I filled out a form and I had to call the office that was
+dedicated to doing that form and the lady had to walk through with me to finish the form”
+- Respondent burden: what does that mean? You only have 15 minutes to complete this?
+
+#### Started form
+- Chose what I want to do isn’t listed here
+
+- This page is great because you never ask these questions like I want to request my
+personal records, like your DD214, because I’ve asked multiple times how to request your
+DD214 and couldn’t we just go through the VA to do this?
+- Participant navigated through and name input and date of birth without commentary
+- Participant asked “no dashes?” When inputting social security
+- Participant said “now that’s a little....” When asked to click Done to leave the form
+- Said she wouldn’t have suspected it to be in the top left hand corner
+- Said she would’ve suspected it to be near the continue but did note in the top left
+corner was a “good place to have it”
+- No issues entering data in the fields from her device
+
+#### Re-entering form after stepping away
+- No commentary while inputting address
+- No commentary while inputting email
+- Asked if information is automatically saved after each piece is entered
+- No commentary while entering statement
+
+#### Questions after submission
+- Once you submit, can you go back and edit the form? She didn’t see it said anywhere that
+you can’t
+- No issues using device with this form, just didn’t know if you hit submission, that’s the
+end. Needs a notice that says “once submitted, can no longer be...”
+- Didn’t find any labels confusing on the form
+- Asked to navigate back to forms, asked “How do I do that?”
+
+#### Back in app after submission
+- Statement in support of a claim - in progress means it’s in the VA - not sure if I can come
+back and see what the status is later
+
+- “I would expect to come back and see the steps I normally see and see what step it’s in”
+- “Sometimes it stays in one step for months or a year or two”
+- “I would like to see dates, which they probably cannot do, to tell me the status, like
+‘updated as of such and such date’...or something
+
+#### How did she find this process?
+- “Interesting, although I can’t see any interaction where you could call and say ‘I’m at this
+step’ or ‘I’m here’ and the representative could go into your file and explain it to you
+- I don’t know if this app explains enough or gives you enough explanation on what’s going
+on and if there’s a number you could call
+- I like the app, the forms are available right there because now you literally have to go and
+search for forms, there’s no link that’s readily available
+- No parts that felt especially frustrating or tiring
+- Only thing that says when I first went in and it said you have to do several forms, you
+could lose something while switching between screens
+- Using technology sometimes is a challenge so when you’re taking us through a lot of
+different steps, it may become confusing
+
 ### Per engineer:
 
 Install on Android is definitely more difficult for users - for user testing purposes.
@@ -330,6 +403,48 @@ To be added upon review of recording
 ### per designer:
 
 App optimized for Tablets would be useful and that "done" button is obviously a bit confusing to find.
+
+iOS - Safari
+
+#### Previous experience with VA forms
+- On a computer, didn’t have any trouble with it
+- Has previously tried to fill out form on phone, preferred to do it on a computer because it
+was easier, mentioned fighting with keyboard
+
+#### Where would they expect to find forms?
+- Hopefully there’s something labelled forms (while scrolling through homepage)
+
+#### While scrolling through the initial intro screen to forms
+- No questions
+
+#### Started form
+- It’s not 100% clear what claim this would be for
+- Said “there’s a dropdown for months” when Christine said “4/30”
+- No issues entering into form fields, haven’t had any “fat finger issues”
+- No parts that were hard to navigate or understand
+- Didn’t see “done” in top left corner to return to app
+
+#### Re-entering form after stepping away
+- Toast notification in app was blocking view (wasn’t sticking to bottom of screen)
+- Regarding phone number input - “lets see if this is going to require dashes”
+- While typing statement “this is not fun on a tiny screen, iPad would’ve been a lot easier”
+
+#### Questions after submission
+- No issues really using their device
+- Nothing hard to navigate or understand
+- “Looks like a typical VA form”
+- No confusing labels in the form
+
+#### Back in app after submission
+- Participant scrolled up and down page a few times to get back to app
+- “Was that the done thing or back to the VA.gov homepage”?
+- In progress means “waiting to be evaluate”
+- If they returned, they would just expect to see the status
+
+#### How did you find this process?
+- Other than trying to do this on their phone, it was fine
+- Usually will use iPad for an iOS app
+- Nothing felt frustrating or tiring
 
 ### per engineer:
 
@@ -388,6 +503,49 @@ Pending review of recording.
 the "done" button continues to be a cunning little fox
 
 that toast message wasn't in the way this time but still was randomly in the middle of the screen
+
+Android - Chrome
+
+#### Previous experience with VA forms
+- Has filled out a form, it went well
+- Either one of “our” forms or one of the ones the doctor had them fill out
+- Easy to do
+- Has the VA app, uses mainly for secure message, reordering prescriptions
+- Experience has been good so far
+
+#### Where would they expect to find forms?
+- Claims
+
+#### While scrolling through the initial intro screen to forms
+- Wanted to select “What I want to do isn’t listed here”
+
+#### Started form
+- Didn’t have commentary while inputting information
+- Added in dashes after typing social security number
+
+- Clicked to re-open claim instead of “done” when asked to navigate back to the app
+- No issues other than social security error message
+- Finding button to return to app was hard to find/figure out
+
+#### Re-entering form after stepping away
+- No commentary while inputting address/phone number
+
+#### Questions after submission
+- Pretty straightforward, no issues
+- Nothing hard to navigate or understand
+- Said 30 days is “good for the military” and better than 60, 90 days
+
+#### Back in app after submission
+- In Progress means it hasn’t been received yet, still in-progress
+- Would expect to be able to log in later and be able to see this, would probably move to
+completed when this disappears off the active screen
+- Color code tags for stage of claim process
+
+#### How did you find this process?
+- Fairly easy
+- Like how they’re starting to update the app more and make a lot of needed changes;
+making it simpler for veterans, especially older veterans
+- Nothing that felt tiring/especially tiring
 
 ### per engineer:
 
@@ -686,6 +844,55 @@ In the context of other sessions, the form submission process (entering informat
 
 Adding some more detail to the form status screen seems to be part of recurring feedback
 
+Android – Edge
+
+#### Previous experience with VA forms
+⁃ Went fine, pretty self explanatory
+⁃ Has used VA app before for sending messages, information, getting lab reports,
+medical reports primarily
+⁃ Experience has been pretty good so far “hasn’t had a glitch for a little while”
+
+#### Where would they expect to find forms?
+⁃ “It says at the bottom, go to my forms”
+⁃ *after clicking go to my forms*: “It says, start a statement”
+
+#### While scrolling through the initial intro screen to forms
+⁃ Only thing I would say is have a little button for if you have questions/to submit
+questions
+
+#### Started form
+⁃ “I would click ‘I have new evidence to submit for an open claim’”
+⁃ No commentary while filling in name
+⁃ Wasn’t sure where to click to return to forms
+⁃ Hasn’t encountered any issues using device
+⁃ Nothing has been hard to navigate or understand: “has been explained pretty well”
+
+#### Re-entering form after stepping away
+
+⁃ “I’m going to press continue form”
+⁃ No commentary while entering address
+⁃ No commentary while entering phone and email
+⁃ No commentary while reviewing form before submission
+
+#### Questions after submission
+⁃ No issues using phone for this “I can’t say that I’ve [had any issues]”
+⁃ “Not really [hard] to navigate but the only thing I would add is a button if you’re
+having problems or can’t understand, here’s somewhere to click to get more
+information, that would be useful”
+
+#### Back in app after submission
+⁃ Knows the form was submitted because in the middle of the screen it says
+“Submitted on August 15, 2025”
+⁃ That status “In Progress” means someone is working on it, hopefully
+⁃ For some people, it may be clearer if you said “may take up to 30 days, if you have an
+immediate need call this number but I guess that’s a bit up and above”
+⁃ If you need to check submission later: “going to this page, clicking that ‘In Progress’
+tab” to see if there’s a problem or checking the exact status
+
+#### How did you find this process?
+⁃ Clicking the link and it taking some time to open was a bit frustrating (I think this was
+in reference to getting started in the beginning)
+
 ### per engineer:
 
 Would prefer to have a help button - dont think the user noticed the option at the bottom ‘Get Help’. Worth moving to the top?
@@ -709,6 +916,64 @@ Clarifying text for each option before starting form would be helpful.
 Progress tags changing as the form goes through the submission process would be helpful as well - seems like this is recurring feedback
 
 Agree w/ Ken - we should see if the print button works and maybe also add some clarification on where the (reference? can't remember the exact phrasing) number after submission will be located
+
+Android - Chrome
+
+#### Previous experience with VA forms
+⁃ Has filled out VA form before
+⁃ Most recent form for applying for benefits for burial, pretty easy to navigate
+⁃ Did have to stop form and restart later, was able to pause and log in and continue
+⁃ Has VA app on phone, primarily uses it to connect to MyHealthyVet and check
+appointments; did benefit claim (travel reimbursement) for the first time; uses it
+when she doesn’t have access to a laptop
+⁃ So far so good, hasn’t had any glitches
+
+#### Where would they expect to find forms?
+⁃ Needed to be directed to “go to forms” button on home page
+
+#### While scrolling through the initial intro screen to forms
+⁃ “If you want to do this more than one time, you need do this for each statement is
+what I understand”
+
+#### Started form
+⁃ No issues with filling out form besides social security number
+⁃ No part has been hard to navigate or understand
+⁃ Needed to be told to click “done” in top left corner
+
+#### Re-entering form after stepping away
+
+⁃ “Oh, it takes me back to where I stopped. Okay, cool”
+⁃ No commentary while filling out address
+⁃ No commentary while filling out phone number/email
+
+#### Questions after submission
+⁃ “If I was using this and I couldn’t print it, do I write my confirmation down or does it
+email the confirmation number or do I need to login to see the confirmation
+number? The only reason I’m asking is if someone didn’t have access to a printer or I
+wasn’t doing this at home.”
+⁃ No issues using this on her device
+⁃ No part that was hard to understand except that tiny part (think this was the dev
+screen between the app and the web view)
+⁃ Didn’t find any labels confusing
+
+#### Back in app after submission
+⁃ Knows the form is submitted because it says “submitted on” and it gives me the
+date and says it’s “in progress”
+⁃ In progress means it was submitted and it’s in the process of being looked at/waiting
+to be reviewed
+⁃ Would hope to see some progress if she checked submission later (like in two
+weeks, she’d hope to see “in review”)
+
+#### How did you find this process?
+⁃ I found it pretty easy, if I was doing this just myself logging in, it was pretty easy for
+me, pretty self-explanatory
+⁃ If I was someone who wasn’t tech-savvy, there might be issues where they would
+need to get help
+⁃ Questions were pretty simple to answer
+
+⁃ Maybe figuring out which form to choose, some people may not know what the
+options mean (such as a buddy statement) so additional information for each option
+might be helpful for others
 
 ### per engineer:
 
@@ -785,6 +1050,75 @@ There needs to be a way to allow people to print from a link emailed to them now
 The postal code insight was useful, not sure if that's something difficult to implement but could help with form submission
 
 I'm not sure if I noted it in a previous session but I think at least one other person may have vocalized they weren't sure whether to press "finish later" or "continue" when trying to leave the form and complete it later
+
+iPhone - Safari
+
+#### Previous experience with VA forms
+⁃ Has previously filled out VA form
+⁃ Felt pretty easy, filled out a form for an appointment and also a form for travel
+reimbursement
+⁃ Both were really easy and there weren’t a lot of options, didn’t have any options
+⁃ Has VA app, primarily uses it for refilling prescriptions or remind himself of an
+appointment
+⁃ Experience in app has been good, easy to use; don’t think there’s Face ID in the app,
+has to use email/password (Christine said she’ll help him set this up at the end)
+
+#### Where would they expect to find forms?
+⁃ I’d probably expect it to be right there in claims (participant had alert at the top of
+the screen so they had to scroll farther and didn’t scroll down far enough to see “go
+to forms”
+
+#### While scrolling through the initial intro screen to forms
+⁃ On the page detailing what to know before filling out the form, participant said they
+probably wouldn’t “read a lot of that stuff”
+⁃ Suggested showing just first part with the three bullet points, then click next to see
+the next section (progressive disclosure)
+⁃ Said his tendency is to scroll until he sees something actionable
+⁃ Would probably select “I have new evidence to submit for an open claim”
+- Accidentally hit an option he didn’t mean to and wants to de-select; don’t think
+he realized you have to choose a different option to de-select the current one
+
+⁃ Changed mind, chose “What I want to do isn’t listed here”
+
+#### Started form
+⁃ No commentary while entering name and date of birth
+⁃ No commentary while entering social security number
+⁃ Asked if he should select “finish this application later” or “continue” to leave form
+⁃ Asked if he should “close app completely and select ‘Done’
+⁃ No issues navigating app so far
+⁃ Nothing has been hard to understand
+
+#### Re-entering form after stepping away
+⁃ Went to Home Screen and then clicked “go to my forms”; opened in-progress form
+from there
+⁃ “I like it when I put in the postal code first and it populates the information for
+me...that’s nice, some forms have that option”
+⁃ No commentary while entering phone number/email
+
+#### Questions after submission
+⁃ No questions after submission
+
+#### Back in app after submission
+⁃ It said one thing about I could print that thing right then, some people have trouble
+printing from their phone, I have that set up but some people don’t; do you send a
+link through email so that people can print it? It’s something I’ve seen other apps do
+that help people
+⁃ I see the form was submitted because it’s in the Active section, it says submitted
+today
+
+⁃ In-progress status means I’ve done everything I needed to do and if they need more
+information, they’ll come back to me and if they don’t come back to me, they’ll
+make a decision
+⁃ If I checked on this later, it would be interesting if it would say some sort of
+“Reviewed”, “Final Decision”, some sort of gauge of where I am in the process
+-“It could be three or four steps or a bar that’s moving toward complete like a
+
+tank of gas; I would like to see that”
+
+#### How did you find this process?
+⁃ Found it pretty easy and surprising, I’m actually better with my laptop than with my
+phone
+⁃ No part of this that was especially frustrating or mentally tiring
 
 ### per engineer:
 
