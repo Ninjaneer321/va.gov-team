@@ -105,7 +105,7 @@ Now, I want you to imagine that you it's a regular day.  You are starting a new 
 
 ## **Option A: Veteran does not have an email on file**
 
-[Flow A](https://www.figma.com/proto/CAChU51fWYMZsgDR5RXeSc/MHV-Landing-Page?page-id=5465%3A1304&node-id=5861-21571&viewport=26%2C-947%2C0.42&t=spgbQ62qjaRH4JSQ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=5861%3A21571&show-proto-sidebar=1)
+[Flow A](https://www.figma.com/proto/CAChU51fWYMZsgDR5RXeSc/MHV-Landing-Page?page-id=5465%3A1304&node-id=5961-45473&p=f&viewport=470%2C-164%2C0.12&t=ks3GhsR8XWys1ofN-9&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=5961%3A45473&show-proto-sidebar=1)
 
 ### **Start on: “Add a contact email address” page**
 
@@ -168,7 +168,7 @@ Moderator note: Switch to other Option (so if completed Option A, move to Option
 
 ## **Option B: Veteran has an email on file**
 
-[Flow B](https://www.figma.com/proto/CAChU51fWYMZsgDR5RXeSc/MHV-Landing-Page?page-id=5465%3A1304&node-id=5861-19456&viewport=26%2C-947%2C0.42&t=spgbQ62qjaRH4JSQ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=5861%3A19456&show-proto-sidebar=1)
+[Flow B](https://www.figma.com/proto/CAChU51fWYMZsgDR5RXeSc/MHV-Landing-Page?page-id=5465%3A1304&node-id=6143-41889&p=f&viewport=470%2C-164%2C0.12&t=ks3GhsR8XWys1ofN-9&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6143%3A41889&show-proto-sidebar=1)
 
 ### **Start on: “Action needed: confirm or update contact email” page**
 
@@ -210,7 +210,7 @@ _[moderator note: show me/prompt to click confirm]_
 ## **Comms recall questions**
 1. Do you recall getting any communication about upcoming changes to how the VA would be communicating with you?
 
-link to July 7 email 
+link to July 7 email: https://www.figma.com/slides/y8NWORwnQFQIJueKiLTYzz/Untitled?node-id=1-42&t=i48atjEXssbsA7p9-1
 
 2. Do you recall this email?
 3. Anything else to share?

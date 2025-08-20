@@ -20,6 +20,9 @@ What is the difference between DIC and Survivor's pension:
    - Benefits may or may not be taxed based on recipients income
    - So they are separate and active programs. Still not clear why they share the same application form but the survivor's pension may require additional forms
    - Dependents affect the rates for both
+- Summary from SME (Jennifer Feuer)
+   - DIC is a service-connected benefits where a survivor gets a flat monthly rate if a Veteran died from a service-connected disability. It's actually a comp benefit that P&F manages. It's paid out of the Comp Service funds. Pension and Suvivors Pension are for Veterans or survivors of Veterans who served in war time periods (and a few other caveats) and who have an income and net worth below a certain amount
+   - There is also Parents DIC, but that's an income-based benefit that always requires a manaul review bc it's so wonky and rare 
 
 Source: [Amy Grace Wells, July 2025](https://dsva.slack.com/archives/C07RB9N9M6J/p1752781387946729)
 </details>
@@ -216,6 +219,26 @@ Source: [Amy Grace Wells, July 2025](https://dsva.slack.com/archives/C07RB9N9M6J
 
   [Source: Kevin Schneider (Slack message) 4/28/25](https://dsva.slack.com/archives/C0547Q0K0LF/p1745847761380209)
 </details>
+
+<details>
+<summary>What is the process for adding a child with a permanent disability?</summary>
+  
+  - A user cannot add a child as a helpless child until until the child has turned 18 (or 90 days before they turn 18)
+  - The child must have become disabled prior to the age of 18
+  - If a user submits a permanent disability claim too early,  we tell the veteran we can't work the claim. But, we set a diary to expire 90 days before 18th bday to work the claim, and reach out to the veteran at that time to get the ball rolling.  
+
+  [Source: David Reis (Slack message) 8/18/25](https://dsva.slack.com/archives/C0547Q0K0LF/p1755526968940779)
+</details>
+
+<details>
+<summary>Are stepchildren automatically removed when the spouse dies/divorces?</summary>
+  
+  - Yes
+  - But, they are removed from the date the user stopped providing 50% of the child's support OR the divorce/death date of parent, whatever is earlier. 
+    
+  [Source: David Reis (Slack message) 8/18/25](https://dsva.slack.com/archives/C0547Q0K0LF/p1755526968940779)
+</details>
+
 
 ## Students
 <details>
