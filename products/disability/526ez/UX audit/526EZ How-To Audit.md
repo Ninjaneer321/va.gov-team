@@ -67,7 +67,7 @@ This How-To document ensures we evaluate the form consistently and track issues 
 - Making sure you're covering multiple pathways within a step or section.
 - Thoroughly documenting bugs or UX issues.
 
-Steps with changes currently in design or development are listed below. Please hold off on doing bug and UX audits of these sections:
+**Steps with changes currently in design or development are listed below. Please hold off on doing bug and UX audits of these sections:**
 - Skip most of `Step 2: Conditions` (Epic [#785](https://github.com/department-of-veterans-affairs/vagov-claim-classification/issues/785)) but you can audit starting at the POW pathway.
 
 ## Helpful Resources
@@ -94,6 +94,7 @@ Steps with changes currently in design or development are listed below. Please h
 4. Familiarize yourself with the Audit Tracker and select your steps/pathways
 5. Access staging
 6. Conduct your audit and document findings on the Audit Tracker
+7. Discuss findings with other auditors, PMs, POs
 
 ### 🧭 1. Will you conduct a bug or UX issue audit?
 Use the table below to understand the difference between bugs and UX issues. Choose one type of audit (bug or UX issue) before you begin — it helps with tracking and keeps you focused.
@@ -142,24 +143,30 @@ In order to test, testers need to access the form in Staging.
 1. Access the [Staging Environment](https://staging.va.gov/disability/file-disability-claim-form-21-526ez/introduction)
 2. Click "Sign in to start your application"
 3. Click the green "ID.me" button
-4. Login using a username and password from [the staging users list](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/mvi-staging-users.csv). You may encounter errors with some users. Recommended users include 230, 234, 235. (If you are auditing the form during the same sprint as other team members, make sure to select different staging users so that you are not overriding each other's progress as you fill out the form.)
-5.  On the "Receive a code by phone" screen, just click "Continue"
-6. On the "Enter the 6-digit code" click "Continue" again. (The code should have automatically populated).
+4. Login using a username from the recommended list below and password from [the staging users list](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/mvi-staging-users.csv). If you do not have access to this list, ask a team member for the password to your user's account.
+5. If you are auditing the form during the same sprint as other team members, make sure to select different staging users so that you are not overriding each other's progress as you fill out the form.
+6.  On the "Receive a code by phone" screen, just click "Continue"
+7. On the "Enter the 6-digit code" click "Continue" again. (The code should have automatically populated).
 
-| UserID                        | Use to Audit                                 | User Details      | Combined Disability Rating         | 
-| ----------------------------- | -------------------------------------------- | ----------------- | ---------------------------------- | 
-| vets.gov.user+xx@gmail.com    | All pathways except "Claim for Increase"     | Lorem ipsum       | Consectetur      | 
-| vets.gov.user+xx@gmail.com    | All pathways except "Claim for Increase"     | Dolor sit amet    | Incididunt       | 
-| vets.gov.user+xx@gmail.com    | All pathways except "Claim for Increase"     | Eiusmod tempor    | Minim veniam     | 
-| vets.gov.user+226@gmail.com    | "Claim for Increase" and subsequent pathways |- 30% rating for headaches, migraine <br> - 50% rating for PTSD <br> - Conditions VA determined aren’t service-connected: right knee           | Combined disability rating is 70%  | 
-| vets.gov.user+xx@gmail.com    | All pathways except "Claim for Increase"     | Duis aute irure   | In reprehenderit | 
-| vets.gov.user+xx@gmail.com    | All pathways except "Claim for Increase"     | Velit esse cillum | Eu fugiat nulla  | 
+| UserID                        | Name | Use to Audit                                 | User Details      | Combined Disability Rating         | 
+| ----------------------------- |------- |-------------------------------------------- | ----------------- | ---------------------------------- | 
+| vets.gov.user+61@gmail.com    | Harry Y Burke |All pathways including "Claim for Increase"      | - 30% rating for headaches      | Combined disability rating is 30%       | 
+| vets.gov.user+62@gmail.com    | Bonnie Null Hayes |All pathways including "Claim for Increase"      | - 40% rating for ankle condition, bilateral <br> - 50% rating for broken neck <br> 30% rating for broken back <br> - 30% rating for ptsd      | Combined disability rating is 90%       | 
+| vets.gov.user+220@gmail.com    |Kent L Warren |All pathways including "Claim for Increase"     | - 100% rating for ptsd <br> - 30% rating for headaches <br>    | Combined disability rating is 100%      | 
+| vets.gov.user+226@gmail.com    | Johnnie Leonard Weaver |"Claim for Increase" and subsequent pathways |- 30% rating for headaches, migraine <br> - 50% rating for PTSD <br> - Conditions VA determined aren’t service-connected: right knee | Combined disability rating is 70%  | 
+| vets.gov.user+228@gmail.com    | Mark Tux Polarbear Jr. |All pathways including "Claim for Increase"   | - 0% rating for Sarcoma Soft-Tissue <br> - 10% rating for Allergies due to Hearing Loss <br> - 100% rating for Hearing Loss <br> - Conditions VA determined aren’t service-connected: tinnitus, diabetes  | Combined disability rating is 100%    | 
+| vets.gov.user+230@gmail.com    | Wallace R. Webb | All pathways including "Claim for Increase"  | - 40% rating for hearing loss <br> - 30% rating for Paper Cut <br> - 30% rating for HL   | Combined disability rating is 70% | 
+| vets.gov.user+234@gmail.com    |Philip Daniel West |All pathways including "Claim for Increase"      | - 30% rating for Peripheral vestibular disorder <br> - 60% rating for allergies (related to: SHAD (Project Shipboard Hazard and Defense)) <br> - 20% rating for Hearing Loss <br> - Conditions VA determined aren't service-connected: 10% rating for sinusitis | Combined disability rating is 70%  | 
+| vets.gov.user+235@gmail.com    | Philip Daniel West |All pathways including "Claim for Increase"      | - 30% rating for Peripheral vestibular disorder <br> - 60% rating for allergies (related to: SHAD (Project Shipboard Hazard and Defense)) <br> - 20% rating for Hearing Loss <br> - Conditions VA determined aren't service-connected: 10% rating for sinusitis | Combined disability rating is 70%  | 
 
   
 ### ✏️ 6. Conduct your audit and document your findings in the Audit Tracker
 The Audit Tracker will allow us to track which parts of the form, devices, and environments have been tested. 
 - On the [Audit Tracker Spreadsheet](https://docs.google.com/spreadsheets/d/1Y_JOzPltc_3Rb4OhdGTTCHPArLJpk12RpgkoJ2vxcMc/edit?gid=901203816#gid=901203816), write descriptions of your findings and provide screenshots on the tab that corresponds to the step you chose to audit.
-- In order to prevent ticket duplicates, you will not create tickets for your findings. PMs and POs will refine the spreadsheet and transition findings into tickets.  
+- In order to prevent ticket duplicates, you will not create tickets for your findings. PMs and POs will refine the spreadsheet and transition findings into tickets.
+
+### 💬 7. Discuss findings with other auditors, PMs, POs
+Towards the end of each sprint, we'll discuss findings across the group so that we can surface broader or interrelated UX issues and bugs. 
 
 ---
 ## PM and PO Post Audit Tasks

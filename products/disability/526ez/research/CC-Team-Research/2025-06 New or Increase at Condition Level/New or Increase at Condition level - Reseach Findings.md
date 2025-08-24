@@ -22,7 +22,9 @@ This research tested a new design for the Conditions step in the online 526EZ. T
 
 **Flowchart of the new design with key screens**
 
-![Overview of the new design user flow](media/image2.png)
+| <img src="images/fig01-flowchart.png" alt="Overview of the new design user flow" width="700"> |
+|---|
+
 
 # Research goals
 
@@ -45,7 +47,7 @@ This research tested a new design for the Conditions step in the online 526EZ. T
 
 # Methodology
 
-We conducted a one-hour moderated remote usability study with 7 Veterans from June 20–27, 2025, using a [*functional high-fidelity prototype*](https://staging.va.gov/user-testing/conditions) in the staging environment. Participants completed six tasks representing common interactions with the claim form, including:
+We conducted a one-hour moderated remote usability study with 7 Veterans from June 20–27, 2025, using a functional high-fidelity prototype in the staging environment. Participants completed six tasks representing common interactions with the claim form, including:
 
 1. Add a new condition  
 2. Request an increase for a rated condition  
@@ -64,27 +66,30 @@ The study was conducted via Zoom, with participants recruited by Perigean. 5 par
 
 ## Research materials
 
-- [*Prototype*](https://staging.va.gov/user-testing/conditions)  
-- [*Research plan*](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-06%20New%20or%20Increase%20at%20Condition%20Level/Research%20Plan%20-%202025-06%20New%20or%20Increase%20at%20Condition%20Level.md)  
-- [*Conversation guide*](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-06%20New%20or%20Increase%20at%20Condition%20Level/Conversation%20Guide%20-%202025-06%20New%20or%20Increase%20at%20Condition%20Level.md)  
-- Interview transcripts
+### Research materials
+
+- [Designs tested](https://www.figma.com/design/P6IUm8gN00H3Yi1XzN80fj/-526ez--Condition-information-entry?node-id=3395-121247&t=lYqE4X7VpWaL9Iyf-1)  
+- [Research plan](https://github.com/va-gov-team/products/disability/526ez/research/CC-Team-Research/blob/master/research-plan.md)  
+- [Conversation guide](https://github.com/va-gov-team/products/disability/526ez/research/CC-Team-Research/blob/master/conversation-guide.md)  
+- [Research notes & recordings](https://dvagov.sharepoint.com/:f:/s/vaabdvro/EjQYUkn11tpImChEXdN4ZucBrfefe_mu1h78BRkZXJGx2Q?e=HgX2SU)
+
 # Hypotheses and Conclusions
 
-| Hypothesis | Conclusion |
-|------------|------------|
-| Veterans will be able to easily add several different conditions to their claim | **Mostly true.** Veterans easily added a new condition and two increase conditions to their claim. The one exception was that several Veterans had trouble adding a secondary condition. |
-| Veterans will understand how to enter an approximate date on the date screens | **True.** Veterans were able to enter partial dates (e.g. month + year) with no problems. |
-| The condition-specific flow combined with condition-specific page headings will help Veterans feel confident they're entering the right information | **True.** The use of the condition name as the header for each follow-up screen helped Veterans orient themselves. We didn’t observe any disorientation. |
-| The label on the autocomplete menu, "Select or enter new condition," will encourage Veterans to use autosuggestions | **Mostly true.** 6 of the 7 Veterans were able to easily use the autocomplete menu. One Veteran had trouble; see discussion below. |
-| Veterans will read all four cause options before making a selection | **Partially true.** 5 of 7 Veterans read through the options before making a selection. This is an improvement from previous research; we believe it’s due in part to more concise and scannable option text. Caveat: this result may be an artifact of the “think aloud” testing format and may not hold up in the real world. |
+| Hypothesis                                                                                      | Conclusion                                                                                                                                                                                                 |
+|:------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Veterans will be able to easily add several different conditions to their claim                 | **Mostly true.** Veterans easily added a new condition and two increase conditions to their claim. The one exception was that several Veterans had trouble adding a secondary condition.                   |
+| Veterans will understand how to enter an approximate date on the date screens                   | **True.** Veterans were able to enter partial dates (e.g. month + year) with no problems.                                                                                                                  |
+| The condition-specific flow combined with condition-specific page headings will help Veterans feel confident they're entering the right information | **True.** The use of the condition name as the header for each follow-up screen helped Veterans orient themselves. We didn’t observe any disorientation.                                                    |
+| The label on the autocomplete menu, "Select or enter new condition," will encourage Veterans to use autosuggestions | **Mostly true.** 6 of the 7 Veterans were able to easily use the autocomplete menu. One Veteran had trouble; see discussion below.                                                                          |
+| Veterans will read all four cause options before making a selection                             | **Partially true.** 5 of 7 Veterans read through the options before making a selection. This is an improvement from previous research; we believe it's due in part to more concise and scannable option text. Caveat: this result may be an artifact of the “think aloud” testing format and may not hold up in the real world. |
 
 # Key Findings
 
-1. Veterans found the new condition experience easy to use and highly intuitive  
-2. Participants had a hard time adding a condition that was secondary to a previously rated condition  
-3. The editing flow was difficult for some participants  
-4. The Cause options have improved, but still caused some difficulty  
-5. No one knows the dates their condition started or worsened  
+1. [Veterans found the new condition experience easy to use and highly intuitive](#finding-1-veterans-found-the-new-condition-experience-easy-to-use-and-highly-intuitive)  
+2. [Participants had a hard time adding a condition that was secondary to a previously rated condition](#finding-2-participants-had-a-hard-time-adding-a-condition-that-was-secondary-to-a-previously-rated-condition)  
+3. [The editing flow was difficult for some participants](#finding-3-the-editing-flow-was-difficult-for-some-participants)  
+4. [The Cause options have improved, but still caused some difficulty](#finding-4-the-cause-options-have-improved-but-still-caused-some-difficulty)  
+5. [No one knows the dates their condition started or worsened](#finding-5-no-one-knows-the-dates-their-condition-started-or-worsened)  
 
 Each of these key findings is covered in the Detailed Findings section below.
 
@@ -92,18 +97,16 @@ Each of these key findings is covered in the Detailed Findings section below.
 
 ### Success Rate for each Task
 
-| Task                       | Result        | Success Rate |
-|----------------------------|---------------|--------------|
-| Add a new condition        | ✅ Success    | 100%         |
-| Add a rated condition      | ✅ Success    | 100%         |
-| Add another rated condition| ✅ Success    | 100%         |
-| Add a secondary condition  | ⚠️ Mixed      | 57%          |
-| Edit a condition           | ✅ Success *  | 100%         |
-| Delete a condition         | ✅ Success    | 100%         |
+| Task                        | Result        | Success Rate |
+|:----------------------------|:--------------|:-------------|
+| Add a new condition         | ✅ Success    | 100%         |
+| Add a rated condition       | ✅ Success    | 100%         |
+| Add another rated condition | ✅ Success    | 100%         |
+| Add a secondary condition   | ⚠️ Mixed      | 57%          |
+| Edit a condition            | ✅ Success *  | 100%         |
+| Delete a condition          | ✅ Success    | 100%         |
 
 *\* Two participants encountered some difficulty but were able to successfully complete the task.*
-
----
 
 ## Finding 1: Veterans found the new condition experience easy to use and highly intuitive
 
@@ -111,22 +114,20 @@ All participants were able to complete the core flows and described the experien
 
 Participants were asked to rate the experience on a scale of 1–5 for both ease of use and time efficiency, with higher scores indicating a better experience. The chart below shows the distribution of their ratings.
 
-![](media/image5.png)
+| <img src="images/fig02-ease_of_use.png" alt="Ease of use and Time to complete satisfaction chart" width="700"> |
+|---|
 
 Many were pleasantly surprised by how short the process felt, with one participant saying it was “almost too short” to believe it was truly complete.
 
----
-
 ### 1a. Participants easily chose between “a condition I haven’t claimed before” and the rated conditions
 
-![](media/image12.png)
+| <img src="images/fig03-add_condition.png" alt="Adding a condition" width="300"> |
+|---|
 
 All participants understood the distinction between new and rated conditions and had no difficulty selecting the appropriate option. Several participants remarked on how helpful it was to see their existing conditions already pulled in.
 
 > “It’s easy that it’s all in one place — add new ones, talk about your increases.”  
 > *— Participant 1*
-
----
 
 ### 1b. Participants understood what the list of rated disabilities represented
 
@@ -136,8 +137,6 @@ Participants appreciated that the system pulled in their existing information, m
 
 > “No challenges. It’s nice that they already have [your information] and you just add to it.”  
 > *— Participant 6*
-
----
 
 ### 1c. There was no confusion or concern about the list of rated conditions becoming shorter as they were added to the claim
 
@@ -160,11 +159,10 @@ Participants appreciated that conditions they’d already selected were taken of
 > “It’s actually nice, since it keeps the page from getting too cluttered.”  
 > *— Participant 2*
 
----
-
 ### 1d. Participants understood the purpose and appreciated the organization of the Review Conditions screen, noting it enabled them to go back and edit their information
 
-![](media/image14.png)
+| <img src="images/fig04-review_condition.png" alt="Reviewing conditions" width="300"> |
+|---|
 
 Participants noticed and appreciated that the conditions were listed in the same order they had added them. They understood that the screen was intended as a final review step — a place to confirm or revise what they’d entered.
 
@@ -177,11 +175,10 @@ Participants noticed and appreciated that the conditions were listed in the same
 > “It gives you the opportunity to double check.”  
 > *— Participant 6*
 
----
-
 ### 1e. All participants were easily able to use the list & loop structure with a continuation question on the last screen
 
-![](media/image10.png)
+| <img src="images/fig05-loop.png" alt="List and loop" width="300"> |
+|---|
 
 All participants used the list & loop pattern correctly. One participant had a slight difficulty when trying to move on at the end, but they quickly figured it out.
 
@@ -192,15 +189,15 @@ All participants used the list & loop pattern correctly. One participant had a s
 
 We asked participants to add a condition to their claim which had developed recently (e.g. Tendonitis in the shoulder) and was caused by a service-connected disability (e.g. Sciatica). All participants had at least some difficulty with this task.
 
-| Participant | New condition or rated condition | Condition name | Cause     | Underlying disability |
-|-------------|----------------------------------|----------------|-----------|-----------------------|
-| P1          | ❌ Chose a rated condition        |                |           |                       |
-| P2          | ✅ Chose new condition            | Free text: “sciatica up to shoulder” | ✅ Secondary | ✅ Sciatica |
-| P3          | ✅ Chose new condition            | Free text: “Tendonitis” | ❌ VA care |                       |
-| P4          | ✅ Chose new condition            | ✅ Autosuggest: “Tendonitis (tendinitis) in shoulder” | ✅ Secondary | ✅ Sciatica |
-| P5          | ❌ Chose a rated condition        |                |           |                       |
-| P6          | ❌ Chose a rated condition        |                |           |                       |
-| P7*         | ✅ Chose new condition            | Free text: “Hearing loss related to tinnitus” | ✅ Secondary | ✅ Sciatica |
+| Participant | New condition or rated condition | Condition name                                             | Cause             | Underlying disability |
+|:------------|:---------------------------------|:----------------------------------------------------------|:------------------|:----------------------|
+| P1          | ❌ Chose a rated condition        |                                                           |                   |                       |
+| P2          | ✅ Chose new condition            | Free text: “sciatica up to shoulder”                      | ✅ Secondary      | ✅ Sciatica           |
+| P3          | ✅ Chose new condition            | Free text: “Tendonitis”                                   | ❌ VA care        |                       |
+| P4          | ✅ Chose new condition            | ✅ Autosuggest: “Tendonitis (tendinitis) in shoulder”     | ✅ Secondary      | ✅ Sciatica           |
+| P5          | ❌ Chose a rated condition        |                                                           |                   |                       |
+| P6          | ❌ Chose a rated condition        |                                                           |                   |                       |
+| P7*         | ✅ Chose new condition            | Free text: “Hearing loss related to tinnitus”             | ✅ Secondary      | ✅ Sciatica           |
 
 *\* Due to the way the session proceeded, Participant 7 used a different scenario, “Hearing loss secondary to Tinnitus”.*
 
@@ -226,7 +223,8 @@ It is possible the frequency of this problem had to do with the artificial testi
 
 Several Veterans wanted to enter a condition name that accounted for both the new condition and the old one. After not finding such an option in the autosuggestion menu, they entered free-text terms. One Veteran used the autosuggestion menu to select “Hearing loss,” then typed additional words into the text box to end up with “Hearing loss related to tinnitus.”
 
-![](media/image6.png)
+| <img src="images/fig06-autosuggest.png" alt="Using the autosuggestion" width="300"> |
+|---|
 
 *Impact:* Medium. Free text entries can’t be automated and may not get classified.
 
@@ -234,7 +232,8 @@ Several Veterans wanted to enter a condition name that accounted for both the ne
 
 - **1 of 4 participants selected the wrong cause option.**
 
-![](media/image15.png)
+| <img src="images/fig07-cause_options.png" alt="Wrong cause option" width="300"> |
+|---|
 
 In considering the 4 options on the Cause page, some participants found the choice easy, while others had to think on it a bit.
 
@@ -259,7 +258,8 @@ We asked participants to edit information for a condition they had already enter
 
 Two participants assumed the “Edit” button would bring them to a single page showing all details for that condition. When that didn’t happen, they paused, scrolled up and down, and exhibited stress before eventually clicking through and moving on.
 
-![](media/image3.png)
+| <img src="images/fig08-edit.png" alt="Editing a new condition" width="300"> |
+|---|
 
 > “I’m kinda stuck here for just a moment. I got a little stressed out… Maybe because I expected everything to be laid out there for me to edit it.”  
 > *— Participant 2*
@@ -280,11 +280,10 @@ The remaining five participants completed the Edit task without confusion. Sever
 > “Really, really easy to do.”  
 > *— Participant 3*
 
----
-
 ## Finding 4: The Cause options have improved, but still caused some difficulty
 
-![](media/image15.png)
+| <img src="images/fig09-cause_options.png" alt="Cause options" width="300"> |
+|---|
 
 Most participants were able to select a cause option without major difficulty, and several commented positively on the clarity of having defined scenarios to choose from. Since the prior round of testing, all four options have been edited to be easier to scan and understand; we think their performance has improved.
 
@@ -304,19 +303,20 @@ However, multiple participants misunderstood or hesitated over the fourth option
 > “I just put the first of the year and guess which year it was.”  
 > *— Participant 3*
 
-![](media/image11.png)
+| <img src="images/fig10-dates.png" alt="Date entry" width="300"> |
+|---|
 
 All participants struggled with providing accurate dates for when their conditions began or worsened, and most relied on guesswork to provide an answer. One Veteran even described this as the most difficult part of the prototype. This finding echoes what we’ve heard from VSRs: when Veterans provide dates on forms, they’re often incorrect.
 
-| Participant | *Expressed Uncertainty* | *Date entered*     | *Noticed Hint Text* |
-|-------------|--------------------------|--------------------|---------------------|
-| **P1**      | 🤔 Yes                   | Month, Year        | ✅ Yes              |
-| **P2**      | No                       | Month, Day, Year   | ✅ Yes              |
-| **P3**      | 🤔 Yes                   | Month, Day, Year   | ✅ Yes              |
-| **P4**      | 🤔 Yes                   | Month, Day, Year   | ❌ No               |
-| **P5**      | 🤔 Yes                   | Month, Day, Year   | ❌ No               |
-| **P6**      | 🤔 Yes                   | Month, Day, Year   | ❌ No               |
-| **P7\***    | 🤔 Yes                   | Month, Day, Year   | ❌ No               |
+| Participant | Expressed Uncertainty | Date entered       | Noticed Hint Text |
+|:------------|:----------------------|:-------------------|:------------------|
+| P1          | 🤔 Yes                | Month, Year        | ✅ Yes            |
+| P2          | No                    | Month, Day, Year   | ✅ Yes            |
+| P3          | 🤔 Yes                | Month, Day, Year   | ✅ Yes            |
+| P4          | 🤔 Yes                | Month, Day, Year   | ❌ No             |
+| P5          | 🤔 Yes                | Month, Day, Year   | ❌ No             |
+| P6          | 🤔 Yes                | Month, Day, Year   | ❌ No             |
+| P7*         | 🤔 Yes                | Month, Day, Year   | ❌ No             |
 
 ### Date Uncertainty
 
@@ -342,8 +342,6 @@ Participants used a variety of strategies to estimate a date:
 
 One participant suggested showing their service dates on this page, as a way to jog their memory.
 
----
-
 ## Finding 6: We observed two problems with the autosuggestion menu
 
 Both issues in this finding stemmed from the same participant using a mobile phone. One problem was specific to the mobile layout and screen behavior, while the other reflected a more general confusion about when and how the autosuggestion list appears.
@@ -356,7 +354,8 @@ Both issues in this finding stemmed from the same participant using a mobile pho
 
 When the Veteran using a phone tapped into the “Add a new condition” input field, the on-screen keyboard obscured the autosuggestion dropdown, making it difficult to understand whether the list was working. While this was only observed on one device, the issue may be more widespread depending on screen size, keyboard type, and how the dropdown is positioned in the viewport. Participant 3 did eventually complete the task after minimizing the keyboard manually.
 
-![](media/image9.png)
+| <img src="images/fig11-mobile.png" alt="Mobile screen" width="300"> |
+|---|
 
 ### Problem 2: Instructional language around autosuggestion was unclear
 
@@ -365,25 +364,27 @@ The on-screen instructions referred to selecting a condition from a “list,” 
 > “This is confusing… It says add the new condition from the list, and there is no list. It just has an empty box where I would type in.”  
 > *— Participant 3*
 
-![](media/image1.png)
+| <img src="images/fig12-add_condition.png" alt="Add new condition" width="300"> |
+|---|
 
 Despite getting stuck initially, the Veteran figured out the intended behavior on his own. But he was clearly frustrated.
 ## Finding 7: Autosuggestions were only partially used
 
 When adding a new condition, only 3 of 7 participants selected a condition from the autosuggestion menu. The remaining 4 participants typed their entry as free text, either ignoring the autosuggested terms or not seeing them at all.
 
-| Participant | *Used Autosuggest* | *Entry Method*                              | *Reason*                                                   |
-|-------------|---------------------|---------------------------------------------|------------------------------------------------------------|
-| **P1**      | ❌ No               | Free text: “hidradenitis supurativa”        | No autosuggestions                                         |
-| **P2**      | ❌ No               | Free text: “Dislocated Elbow”               | No autosuggestions                                         |
-| **P3**      | ❌ No               | Free text: “Respiratory”                    | No autosuggestions                                         |
-| **P4**      | ❌ No               | Free text: “Allergies”                      | Did not recognize “chronic rhinitis, allergic or non-allergic” |
-| **P5**      | ✅ Yes              | Typed “TBI” and selected from autosuggest   |                                                            |
-| **P6**      | ✅ Yes              | Typed “neurop..” and selected from autosuggest |                                                         |
-| **P7\***    | ✅ Yes              | Typed “ptsd” and selected from autosuggest  |                                                            |
+| Participant | Used Autosuggest | Entry Method                           | Reason                                                      |
+|:------------|:-----------------|:---------------------------------------|:------------------------------------------------------------|
+| P1          | ❌ No            | Free text: “hidradenitis supurativa”   | No autosuggestions                                          |
+| P2          | ❌ No            | Free text: “Dislocated Elbow”          | No autosuggestions                                          |
+| P3          | ❌ No            | Free text: “Respiratory”               | No autosuggestions                                          |
+| P4          | ❌ No            | Free text: “Allergies”                 | Did not recognize “chronic rhinitis, allergic or non-allergic” |
+| P5          | ✅ Yes           | Typed “TBI” and selected from autosuggest |                                                            |
+| P6          | ✅ Yes           | Typed “neurop..” and selected from autosuggest |                                                           |
+| P7*         | ✅ Yes           | Typed “ptsd” and selected from autosuggest |                                                           |
 ## Finding 8: Page titles using the condition name helped participants stay oriented
 
-![](media/image13.png)
+| <img src="images/fig13-page_titles.png" alt="Page titles" width="300"> |
+|---|
 
 All participants were able to accurately report which condition they were working on in the follow-up screens. Several specifically pointed to the condition name in the `<h3>` header as a helpful reminder and confirmation that they were in the right place. No participant exhibited confusion about which screen they were on or whether they’d proceeded from the previous screen.
 
@@ -392,8 +393,6 @@ All participants were able to accurately report which condition they were workin
 
 > “If you look at the screen, it’s up there — it basically tells you what you’re into.”  
 > *— Participant 6*
-
----
 
 ## Finding 9: Instructions were helpful
 
@@ -424,15 +423,15 @@ The instructions on this screen garnered the most attention of any screen. We ob
 > “It’s nice that you can give an approximate date.”  
 > *— Participant 1*
 
----
-
 ## Finding 10: The laterality question was easy and reassuring
 
-![](media/image8.png)
+| <img src="images/fig14-laterality.png" alt="Laterality" width="300"> |
+|---|
 
 This design removes the laterality designations (“left”, “right”, or “bilateral”) from the main conditions menu to make it shorter and easier to navigate. During testing, the more concise menu seemed helpful. For example, when participants typed “tendonitis” into the field, the “Tendonitis, shoulder” option they were looking for was visible without scrolling.
 
-![](media/image7.png)
+| <img src="images/fig15-type_laterality.png" alt="Typing condition" width="300"> |
+|---|
 
 Veterans had no problems understanding and answering the laterality question. Interestingly, one Veteran felt reassured by the laterality question, because it showed the condition she entered was something the VA understood. Likewise, another Veteran commented positively that the condition heading updated after they made their selection.  
 
@@ -452,7 +451,6 @@ While most of the study focused on usability and task success, several participa
 > “It can bring up a lot of emotions. If I got sidetracked, I wouldn’t want to have to go through this again.”  
 > *— Participant 1*
 
----
 
 ### Too many short screens
 One Veteran in the study expressed annoyance at having so many short screens in the design.
@@ -460,7 +458,6 @@ One Veteran in the study expressed annoyance at having so many short screens in 
 > “One thing I was expecting to see: boxes expanding, almost like a branching of the questions… For some of the questions, when I hit Yes or No, I expected it to open maybe a text box to expand instead of having to click Continue to do that on the next screen. Like, you have to keep hitting Continue.”  
 > *— Participant 1*
 
----
 
 ### Lack of follow-up questions for increase conditions
 One Veteran was surprised there was no follow-up question when he added a rated condition to his claim.
@@ -468,7 +465,6 @@ One Veteran was surprised there was no follow-up question when he added a rated 
 > “I’m surprised it didn't ask about details for worsening conditions. I'm ok with it not asking. Unless they deny the claim – in which case, it would’ve been nice to have the opportunity to explain."  
 > *— Participant 4*
 
----
 
 ### Online application anxiety
 Several participants mentioned concerns about whether their information was being saved, or whether they’d have a chance to go back and review their entries. They seemed to have a good deal of anxiety about the process of filling out this kind of form online. These concerns were based on past bad experiences and the fact that the standard auto-save notification was missing in the prototype.
@@ -517,8 +513,6 @@ Several participants mentioned concerns about whether their information was bein
    - This would allow Veterans to add helpful information about their requests for increase.
    - It could also serve as a backstop for Veterans who choose an increase condition when they really have a new, secondary condition.
 
----
-
 # Who we talked to
 
 ### Recruitment criteria
@@ -531,8 +525,6 @@ Perigean recruited 10 people. There were 3 cancellations, resulting in 7 actual 
 - 2-3 Veterans with “no degree after high school.”
 
 While we recruited a mix of age, gender, and race/ethnicity, it turned out all our cancellations were non-White recruits and/or women. This resulted in a participant group that was more White and more male than we typically see. In the future, we should ask for higher percentages of these underrepresented groups in the initial recruit.
-
----
 
 ### Final participant pool
 
@@ -587,8 +579,6 @@ While we recruited a mix of age, gender, and race/ethnicity, it turned out all o
 **Disability and Assistive Technology (AT)**
 - Did not recruit for this  
 
----
-
 ## Underserved groups we haven’t talked to
 This research does not include the perspectives of the following marginalized Veteran groups:
 
@@ -602,4 +592,5 @@ This research does not include the perspectives of the following marginalized Ve
 
 [*VA-recruitment-checker*](https://docs.google.com/spreadsheets/d/1pq7TSHZonfpzAQBJj6B2geGHlNUwZEs4DzEvxcRgu0o/edit?gid=790920180#gid=790920180):
 
-![Recruitment chart](media/image4.png)
+| <img src="images/fig16-recruitment.png" alt="Recruitment checker" width="700"> |
+|---|

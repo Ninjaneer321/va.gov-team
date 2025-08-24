@@ -1,5 +1,4 @@
-# Notes by Perigean. Conversation Guide used as the structure for notes.
-
+# P11. Notes by Perigean. Conversation Guide used as the structure for notes.
 
 Start recording.
 
@@ -10,9 +9,9 @@ Start recording.
 
 **Discussion**
 
-Could you tell me a bit about yourself as a Veteran: what branch of the military did you serve, and when did you retire or separate?  I was active-duty coast guard from 2003 to 2015 to combat zones which is crazy for coast guard. Got out for a few years then in 2019 went into the Navy reserves. 
+Could you tell me a bit about yourself as a Veteran: what branch of the military did you serve, and when did you retire or separate?  I was [redacted] from 2003 to 2015 to [redacted]. Got out for a few years then in 2019 went into the [redacted] reserves. 
 
-How have you been involved with the VA – both in the past and now? For VA health care, I applied when I got out because of the combat zone experience so I have had it for 9 years now and that’s how I get the health care and I have used the GI bill. 
+How have you been involved with the VA – both in the past and now? For VA health care, I applied when I got out because of the [redacted] experience so I have had it for 9 years now and that’s how I get the health care and I have used the GI bill. 
 
 
 
@@ -26,7 +25,7 @@ Now we're going to move to the financial portion of our discussion. I want to ma
 
 
 * *Overview of their financial obligations*
-    * What is your experience with medical copayments through the VA?  That has been messy, it’ll be really nice when it is digital. When I get it, it is past due and it is frust3erating. It is small but frustrating because I was traveling and had to go to urgent care. I when through the hoops and when you have a medical emergency and was on the phone for hours and they didn’t pay for hours. Then went through months of sending letters. I had cancer while on active because I have to do screenings each years. I have an MRI breast and mammogram and one year it failed and I was referred out and it showed up as doing it twice once in 1 year so I got a 6k bill and it took along time to get it fixed. It took forever and I had to use a satellite phone to get it fixed. Copays it’s a copay in the mail, it could be months before I get a bill, I had a mammogram and it could be months before I get a bill and when I get it, it is already past due so I make calls to see how much I owe. I cant figure it out, sometimes I don’t get charges and sometimes I do. So it is complicated. It is past due and going to pay late fees, it is a level of frustration I wish I didn’t have to deal with
+    * What is your experience with medical copayments through the VA?  That has been messy, it’ll be really nice when it is digital. When I get it, it is past due and it is frust3erating. It is small but frustrating because I was traveling and had to go to urgent care. I when through the hoops and when you have a medical emergency and was on the phone for hours and they didn’t pay for hours. Then went through months of sending letters. I had [redacted] while on active because I have to do screenings each years. I have an [redacted] and one year it failed and I was referred out and it showed up as doing it twice once in 1 year so I got a 6k bill and it took along time to get it fixed. It took forever and I had to use a satellite phone to get it fixed. Copays it’s a copay in the mail, it could be months before I get a bill, I had a [redacted] and it could be months before I get a bill and when I get it, it is already past due so I make calls to see how much I owe. I cant figure it out, sometimes I don’t get charges and sometimes I do. So it is complicated. It is past due and going to pay late fees, it is a level of frustration I wish I didn’t have to deal with
     * Something other than letters: just because in the past there’s a copay for meds or a visit, I don’t want it to go to collections or be past do I will call. It is extremely complicated there’s no way to easily way to look up a bill
     * How could it be easy: it is already digital just put it digitally. Everything have it connected to pay.gov and have it there to get a push notification or email to go look at your bill. That would be fantastic. 
     * Do you use pay.gov or call: I make it through pay.gov unless I don’t have the information to use pay.gov
@@ -120,7 +119,7 @@ Copayments
     * What sort of info or guidance might you look for?
     * Is it clear when you would have to start something?
     * What are your thoughts on opening new windows for the information?
-* Were you aware of these options for financial help? If so, how did you learn? Vaguely, its not something that has been a concern of mine except when I got the 5K bill that I wasn’t supposed to get.VA healthcare is affordable. Theres homeless veterans and low-income seniors so I can see it being difficult for others. I can’t remember how I learned. 
+* Were you aware of these options for financial help? If so, how did you learn? Vaguely, its not something that has been a concern of mine except when I got the [redacted] bill that I wasn’t supposed to get.VA healthcare is affordable. Theres homeless veterans and low-income seniors so I can see it being difficult for others. I can’t remember how I learned. 
 * What else would you want to do here with regards to your copays?
     * How would you expect to make payments?
     * What are your thoughts on this new section not having a payment option?

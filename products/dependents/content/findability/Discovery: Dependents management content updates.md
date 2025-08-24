@@ -1,4 +1,4 @@
-# 2025-08 Unauthenticated resource page improvements for dependents management
+# 2025-08 Discovery: Unauthenticated dependent management content on VA.gov
 
 **Office of the CTO - Digital Experience (OCTO-DE), Dependent Verification, Dependents Experience**
 
@@ -17,7 +17,7 @@ Gretchen Maciolek gretchen.maciolek@adhocteam.us
 Overview
 -----
 
-In support of the dependent management team's [initiative to improve on-ramps to dependents management tools](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/Initiative%20Brief%3A%20Improve%20On-Ramps%20to%20Dependents%20Management.md), the purpose of this exploration is to identifies gaps and opportunities within unauthenticated resource pages on VA.gov for information related to adding and managing dependents on VA benefits. 
+In support of the dependent management team's [initiative to improve on-ramps to dependents management tools](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/Initiative%20Brief%3A%20Improve%20On-Ramps%20to%20Dependents%20Management.md), the purpose of this exploration is to identify gaps and opportunities within unauthenticated resource pages on VA.gov for information related to adding and managing dependents on VA benefits. 
 
 The exploration will identify opportunities to improve user experience by ensuring Veterans and their families can successfully locate, understand, and act on dependent management information without requiring authenticated access or direct VA contact.
 
@@ -92,6 +92,7 @@ Summary of recommendations
 ----------------------
   
 ### Manage dependents resource page 
+[Review or change dependents for disability, pension, or DIC benefits](https://www.va.gov/view-change-dependents)
 
 #### Issue: Information overload and poor content hierarchy
 
@@ -115,14 +116,17 @@ Consider the following ideas:
 -   Include common life change scenarios that require dependent updates (marriage, divorce, birth, death, changes in school enrollment, etc.)
 -   Explain consequences of delayed or missing updates, including the risk of overpayments and VA debt
 
-#### Reference links
-[Review or change dependents for disability, pension, or DIC benefits](https://www.va.gov/view-change-dependents)) resource page on VA.gov
 
 #### Detailed recommendations
 - [Additional notes on the Review or change dependents for disability, pension, or DIC benefits page](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1753816606740/b9bd04cec1e87c8568709e31977a92826f3496ad?wid=0-1753912608963)
 - [Suggested resource page IA changes](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1753816606740/b9bd04cec1e87c8568709e31977a92826f3496ad?wid=0-1754497802836)
 
 ### Benefit Program Resource Pages
+
+Current resource pages: 
+- [Disability ](https://www.va.gov/disability/)
+- [Pension](https://www.va.gov/pension/)
+- [DIC](https://www.va.gov/family-and-caregiver-benefits/survivor-compensation/)
 
 #### Issue: Hidden dependent management guidance
 Within disability, pension, and DIC program pages, information about adding dependents is either missing or buried within general benefit management content. New disability claimants may not realize that adding dependents requires separate action after initial benefit approval.
@@ -135,14 +139,8 @@ Consider the following ideas:
 -   Disability: Include dependent-related next steps on "After you file your claim" pages
 -   Disability: Move disability-specific dependent FAQs to disability hub (either as part of another page or its own page)
 
-#### Reference links
-Links to current resource pages: 
-- [Disability ](https://www.va.gov/disability/)
-- [Pension](https://www.va.gov/pension/)
-- [DIC](https://www.va.gov/family-and-caregiver-benefits/survivor-compensation/)
 
 ### Broader content strategy opportunities
-
 
 #### Issue: Fragmented change reporting guidance
 
