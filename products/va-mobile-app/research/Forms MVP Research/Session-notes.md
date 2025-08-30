@@ -969,7 +969,82 @@ The update version that showed up on the HomeScreen I believe is likely due to t
 
 ### per researcher:
 
-Pending recording review.
+iPhone
+Safari
+Just submitted the mileage reimbursement on their phone via the app.
+1:25 “Super easy, it was awesome. I literally did it while I was at my appointment. I finished my appointment, it literally prompted me. It was an online check-in, which was phenomenal. It then prompted, like it literally, everything was thing step by step, I didn’t have questions, it was much faster than it was online.”
+
+App experience so far: 
+The stuff that is there is good, its not bad at all.
+2:32 Wish it had: to access certain things, like making appointments. I don’t know if it’s not showing a doctor and I have to call and look for that. 
+2:50 “In general, it would be like I’m able to send a message to my primary care but for example if I have dental I can’t leave them a message I have to call on the phone. It would be nice to have, to alleviate the phone, because you have to go through the whole process of like connecting through the main lines and they connect you. I just want the capability to send them a direct message. I’m not asking for someone to answer the phone, but just the ability to send a message.”
+
+Use the app today for:
+My VA claim
+My health
+Appointments, put in my iphone calendar but don’t write down the locate so I reference the app to see what building number or what room number. That is really helpful.
+#### Downloading the testing apps
+Easy to download and enter.
+Login, no problems.
+Got an error message to update once in and when clicked update now it took her to the full version not the test flight. 
+Ignore the update.
+
+####  Find forms in the app
+Would go to ‘Benefits’
+Clicked on Benefits but I directed her back tot the homepage, scrolled down, directed her to click ‘Go to my forms’
+
+#### Re: Screen 1
+Had no comment
+
+#### Re: Screen 2
+Would choose ‘I want to provide context or details about a claim.’ OR ‘I want to submit new evidence in support of an existing claim’.
+Prompted user to select ‘What I want to do isn’t listed here.’
+
+#### Re: Form entry
+Misspelling of last name, caught and corrected quickly. 
+SSN error: tried to add an additional number, thought she did not put enough numbers into the SSN field.
+
+#### Re: leave form
+Asked about ‘finish this application later’
+Clicked that, wasn’t sure how to return to the app main page from here. 
+‘Maybe click Done I don’t, I don’t know.”
+
+12:42 “That was confusing, what type of, because of knowing which type of form. When you say statement in support of a claim, that part was confusing a little bit.”
+
+#### Re: Completing the form
+User dismissed the toast after a while to find ‘Continue form’, previously the toast blocked the entire section. She noticed it only after attempting to scroll.
+
+User did not experience difficulty entering to form fields.
+
+Provide your statement she entered “ The sky is blue.”
+
+User expanded each section to review data entered before entering full name for statement of truth. 
+
+#### Re: Submit the application
+Navigating back to the app, found the Done button without prompting this time.
+
+Labels
+16:01 “No, cause it’s similar to the online. Where you do, like on my computer, its very like the same thing and I’ve done it online before which is why it was very familiar to me.”
+
+Knows the form was submitted by going to ‘Benefits’ and then ‘Claims’, had to redirect her back to the home screen ‘Go to my forms’
+
+Knows the form was submitted because…
+16:51 “I would click on complete, but it says I don’t have any completed forms so its not complete.”
+
+Status: 
+17:05 “Well I see it’s in progress but, I guess it’s confusing to me, meaning, when it’s saying complete does that mean I completed the form or they completed seeing it. That is a little confusing to me because I just submitted it. You know what I mean.”
+17:25 “Instead of saying in progress it could say submitted or something. In progress is kind of vague. It could mean that I didn’t finish it but I did finish it, so that would be a little bit of confusion for me.”
+
+Expect to see later:
+17:52 “ I would expect to see submitted, or not in progress, something to say it was submitted. Then go to ‘Complete’ part and it is showing it as completed.”
+
+How did you find this process overall?
+21:46 “Good.”
+
+Any part that was frustrating or tiring?
+“No”
+
+22:22 “I know that, I will say that my dad, like he’s older and I’ve helped him with his stuff. I just think for older people this might be trickier, like in general this is great. This used to be such a frustrating process and I appreciate you continuing to improve this process. This is great.”
 
 ## P8
 
@@ -1077,6 +1152,120 @@ Thought the process of submitting the form was easy enough
 
 Would’ve been annoyed if she had had to type a lot for the statement section
 
+### per researcher
+
+iPhone
+Default browser: Safari
+Yes has filled out a VA form online before.
+Most recent experience. 
+1:33 “Actually I just completed VR&E form online. It was ok, it was pretty easy. It was a lot shorter than I though. Pretty standard with all the forms. Is that considered a form? I don’t even know.”
+
+VAHB app user yes
+Uses it for
+Medication refills
+Experience so far:
+2:18 “I wish if I had a refill remaining I could click in it and start a message to my provider. Instead I have to go back to find my provider and create  message to remember which medication it is. I have a lot of medications so its hard to remember which one. I do refill meds multiple times every few months. It just gets tiring, I don’t want to do it, and then I forget. I guess its just decent for what it is.”
+
+Sign in no problem
+User scrolled down on screen once landing on the homescreen.
+
+Expect to find forms like these
+“Is it already a thing I started? If so, I would click on claims. If its a brand new one I would think I would start on claims.”
+
+Advised to click on ‘Go to my forms’ > ‘Start statement’
+Github page received is pretty tiny, had to zoom in to read.
+
+#### Re: Screen 1
+6:43 “Right now, this confuses me. That it’s for a new claim I haven’t submitted. Typically if you select to submit a statement its because you are giving information to the examiner to support your claim. Doing this is like being proactive. I don’t really know what I’m looking at. That’s just me.”
+
+I’ve been working on an active claim I have, and I filed it on May. 
+
+8:00 “well now I kind of get it, I’ve already started the claim. Now its telling me I’m going to need this to submit a statement. Too many pages to go to.”
+
+If I already started that claim I would rather it tell me what that claim is here. I have two claims for disability, it would be easier to know which.
+
+8:47 “Ok that kind of sucks. If you want to submit more than one statement for the same claim you’ll need to use a new form. That’s just me.”
+
+9:20 “I just think that’s a lot of work because its the mobile app and if my statement has to be long I don’t want to type so much. It’s easier on my computer than it would be on the app.”
+
+#### Re: Screen 2
+User would select option ‘I want to provide context or details about a claim.’
+
+
+Prompted user to select ‘What I want to do isn’t listed here.”
+
+#### Re: Form entry
+Use typed fast on her phone.
+SSN: it was hard to tell how many numbers they had entered. When received the error tried to count numbers entered.
+
+11:22 “Because i’m already signed into the app I wish that it would populate everything like it does online. Like when I filled out the VR&E it said something like we’ve prefilled all of your info. I’m assuming this statement is only coming from me, what is annoying is that I have to enter everything and its so different from the website.”
+
+Issue was one-page I couldn’t really read after it said start my statement screen 1.
+
+#### Re: Leaving form
+Selected finish my application later link.
+Needed prompted to select done from the top corner. Scrolled and couldn’t find out how to leave initially.
+
+“To pull up form, I didn’t even read the continue form I was trying to click on statement in support. “
+
+#### Completing form
+Had a typo spelling address court, caught and corrected. 
+
+Mistyped name while typing in address
+
+“I don’t like that home phone number. It makes me what to read the whole thing and correct it. It makes me what to put the parentheses in there and correct it. It’s like ok did I type enough? The social automatically put the dashes after, but this one is like hold on I got to check on that again.
+
+15:20 “Especially if its like a statement. I don’t want to get anything wrong. Or if they call me about it. I don’t want to miss it.”
+
+In the provide your statement section user entered ‘It is very … My claim will include records from private doctors since I only got the VA health benefits in 2022 even if I was discharged in 2006.
+Experienced typos and started over. 
+Engaged auto correct to continue typing.
+User had to correct a lot of typos.
+
+Review page.
+16:55 “Oh I can’t see it, I would expect I could click on those dots. Just to make sure again, I entered the right number because on a claim I dont’ want any reason it could be delayed. Its like ok I got to start the review process over for months because I entered the social wrong or whatever.”
+
+It’s formatted on the review page which is cool, I don’t have to read numbers here again. 
+
+I forget if there is a limit in the statement or character count. What if its a really really long one like to establish nexis or something can I just upload from my phone and then view it here? I like to write a lot. 
+
+18:16 “The statements really matter, whether its like here I’m submitting new medical records or hey heres a nexis letter or you know just a file. Otherwise I have to go to my computer and submit it which defeats the mobile app process. I do everything on my phone, for the most part.”
+
+Submission page.
+19:24 “This box is a little confusing. Yeah its submitted but its started on the 14th and then it says its in progress. Because I finished it I would hope and assume that it goes all the way not in the checklist again. Since there’s a confirmation number it would have been checked in. The second sentence tells me you gotta keep checking the app or get an email that it went through which would be so inefficient.”
+
+User did scroll down on confirmation page to review steps in what to expect.
+
+What if I had a really long statement and I want to upload this record because I can write a statement please see attached doctors whatever or my doctor wrote this letter and I just copy and paste but I can’t upload another one. I know I selected submit a statement to give more info or context but maybe I have to go to another form or selection to upload a file. It’s better if its all in one place that has to do with providing more context or details.
+
+This is confusing to me the green box. The first part doesn’t tell me its complete but I know its completed. 
+
+Found some more info lower in the page after reading “what to expect”
+
+I expect the form is fully submitted but the next step is someone reviewing it or it landing in the hands of a reviewer. 
+
+I don’t have the best memory…
+
+It’s pretty straight forward like the website. 
+
+#### Re:Leaving to return to the app
+User scrolled up and down the page to find and said “I don’t know what where to do that. I don’t know if i click the Go back to VA.gov homepage it’ll take me back to Safari homepage which I don’t know that I want to do.
+Was prompted to select done at top.
+
+“I would have missed that, I would have closed the app and go back in.”
+
+Submitted: “To me this is a draft because of what it says at the top. To me, this is still being drafted because it says in progress and its in active. But the line that says submitted on August 14th actually tells me that is submitted that is the only way. I would think it would be in complete not active. 
+
+Kind of like VA messages you close out of it but you go back to your drafts and finish it. 
+
+To me, I didn’t finish it if it says in progress.
+
+Expect to see later:
+25:47 “I would expect that the submitted one is under complete. That this isn’t showing here. So I would not see it in Active. I would expect not to see it in Active, I’d expect for it to be in complete and the status could say it’s in progress meaning they’re working on it they have it.”
+
+31:22 “I think if I had to type a lot in the statement that I entered I would have gotten very annoyed. Just on the app it might take long.”
+
+
 ## P9
 
 ### per designer:
@@ -1159,7 +1348,74 @@ Mentioned tech savviness is difficult to come by for more mature individuals, bu
 
 ### per researcher:
 
-Pending
+iOS 16
+Default web browser: Believes its Chrome
+
+Has filled out a VA form online before
+1:20 “Probably when they were transitioning over to the ID verification thing. You know, everything wants a different password right? Not only do I do it for myself but I also do it for my husband who is a 76 year old veteran and I had to get it done because its a requirement because he wasn’t going to do it so I had to do it. It was asking for his driver license number and social, I had to go back and forth with that. If I was gone for a certain amount of time it would lock you out and I would have to start over again and go through the whole process.”
+
+Uses the VAHB for the first time for the purpose of downloading for this study. 
+
+Before this test had not used this particular app, at some point maybe a year and a half during covid used the video appointment system for the VA exercise classes, used that app but it was very inconsistent. Sometimes she could get on or sometimes she couldn’t. She more or less stopped because it wasn’t reliable.
+
+#### Re: Find forms 
+“Under claims”
+Titled “Claims (forms, guidance).”
+Was directed to select “Go to my forms”
+
+User utilized dark mode on their phone
+
+#### Re: Screen 1
+“Ok, it’s pretty clear.”
+
+#### Re: Screen 2
+User would select ‘I disagree with VA’s decision on my benefit or claim, and I’d like to request a decision review. In some situations, you can submit new evidence for closed claims.’
+
+Directed her to select ‘What I want to do isn’t listed here.’
+
+#### Re: Form entry
+User had typos entering name, had to correct.
+SSN entry user entered dashes. User saw the SSN error but did not attempt to correct.
+To leave the form and return to the app the user would select “Finish this application later.”
+Directed her to select the ‘Done’ button
+No issues reported so far with form entry fields.
+
+#### Re: Continue form
+User tried to go to tab ‘Active’ despite being there already. And then scrolled on the page a few times to identify the section that said ‘Continue form’.
+
+User was confused by country “united states” prompt, she said “I see the checkbox for I live on a United States military base outside of the U.S. but I don’t see united states elsewhere. Want me to just write it in the blank?”
+
+Phone suggested field entry based on commonly entered information like name, address, and phone number.
+
+Providing the statement the user typed ‘Hi there’
+
+On review page the user did not expand the sections to review if her information was entered correctly. 
+
+After submission the user did not report any problems, thought it was pretty clear.
+
+Found no labels confusing.
+
+#### Re: Navigate back to the general forms location
+User scrolled down on the summary page and paused over the “go to Va.gov homepage.” but then asked where she needed to go back. Had to direct her to select ‘Done’ in the top left corner of her screen.
+
+#### Re: Confirming form submission
+18:14 “On the bottom it says forms updated successfully, it does not indicate that its been submitted but it does say that it’s in progress.”
+
+Status in progress means to her 18:28 “It has not been submitted. IF its in progress I would assume that there is something else that I need to get in there and do.”
+
+Expect to see later “Done, follow up in two weeks or done follow up within a specific time frame or to check the status.”
+
+Had difficulty existing the VA app and returning to her phone. Had difficulty pulling up the apps like zoom app, did not know where it was placed on her phone or how to search with it.
+
+Didn’t know the difference between VA apps utilized previously and the one we tested today.
+
+Found the process overall
+23:36 “It was relatively easy, I, it was a little frustrating when I couldn't go back and forth to do the things that you wanted. I can assume that others would probably, and I’m 72, I would think that others may have some difficulty and frustration and say I’m not going to do that.” 
+24:23 “So I’m still involved in it, and I’ll try. And if you talk me through it I could probably figure my way through it. I think individuals who don’t have that type of networking or avenue for support, I think they would have difficulty.”
+
+Frustrating
+24:47“Only when closing browsers. I was like oh my goodness, like I say tell me how to do this. It’s probably simple things that were outside the norm for me, I never thought to do that, now I know. You know, I do learn from experiences. So, just the maneuvering aspect of it I think is the most convoluted piece for me.”
+
 
 ## P10
 
@@ -1230,7 +1486,81 @@ In-progress status - is not detailed enough wants more information
 
 ### per researcher:
 
-Pending
+Android Motorola PowerG cellphone
+Edge as default web browser
+
+Yes, has filled out a VA form online.
+About experience 1:11 “Uh, I think it went fine. Its pretty much self explanatory. I was able to upload it to VA.”
+
+Yes has used the VA mobile app.
+Uses the app for… 1:38 “Sending messages, sending information. Getting lab reports, medical reports, primarily.”
+
+About experience so far
+1:58 “Ah, pretty good. I don’t think I’ve had a glitch for a little while.”
+
+User may have low connectivity issues or low storage available as the download speed was rather slow for them to download the testing version of the app. Took 3 minutes to download the app on their phone.
+
+User had light mode
+
+#### Re: Finding forms
+Would expect to find this ‘Go to my forms’
+Found easily ‘Start a statement’
+
+#### Re: Screen 1
+Skipped over reading the content and asked if they could move forward with the action button at the bottom.
+Asked the user to read through the text and let me know if they had any questions or thoughts.
+13:49 “Maybe have a little button that says if you have questions or need to submit questions maybe a little link or something.”
+
+#### Re: Screen 2
+User would chose 
+14:20-15:05 (took that amount of time to read options on the screen) 
+15:06 “I would select I have new evidence to submit for an open claim.”
+
+
+Their audio broke up a bit here.
+
+#### Re: Form entry
+Page loaded in chunks (slow loading due to connection maybe?)
+User had no difficulties with typing in the fields.
+User entered dashes, experienced the error and did not try to correct. To enter dashes the user has to change the displayed keyboard on their screen. 
+They counted the numbers entered to ensure they typed it correctly. 
+
+#### Re: Returning to the app
+Should I back up?
+Prompted them to select the done button.
+Any issues? Not yet
+18:40 “No, it was pretty, explained pretty well.”
+
+Found continue form without prompting. 
+
+#### Re: Completing the form
+User did not type in dashes when entering the phone number.
+In provide a statement field entered “This is a test.”
+
+Review and submit page
+User did review the information by expanding each section.
+On confirmation page, the user scrolled down to the what to expect section to view the steps.
+
+Anything hard to navigate or understand?
+24:13 “Not really, the only thing I would say is that to have a little button or something that says if you’re having problems with this here is how you can get more information click here.”
+
+To return to the app the user asked if they should click ‘Done’
+
+#### Re: Form submission 
+Knows the form was submitted because 25:10 “Right in the middle it says Submitted on August 15, 2025. And it says in progress so that is telling me it’s not completed but its in progress.”
+
+Status means “Somebody is working on it hopefully. I guess for some people it might be a little bit clearer if you said in progress maybe it stated, may take up to 30 days if you have an immediate need call this number. I guess that’s a little up and above.”
+
+Expect to see later:
+26:05 “Being able to get back to this page, clicking on that dot, that in progress tab. Going to a screen where I might get an explain of exactly what is happening. In other words, in work forms are needed there’s a problem the exact status.”
+
+Was able to easily close out the app and navigate to the zoom app.
+Found this process overall
+“Pretty good, not really any glitches.”
+
+Frustrating or tiring.
+“Initially getting into zoom, and clicked the link it was loading. That was a little bit frustrating I don’t know if you can work on that.”
+
 
 ## P11
 
@@ -1364,7 +1694,121 @@ Wanted to make sure Veterans with accessibility issues/ visibility issues are ab
 
 ### per researcher:
 
-Pending
+Android samsung galaxy 
+Chrome is the default browser
+
+Yes has filled out a VA form before
+1:13” The most recent form I actually filled out was I was trying to apply for burial benefits. It was pretty easy to navigate for me so I didn’t have to run into any issues. I did have to stop, but of course when I went and logged back in I was able to continue where I left off.”
+
+Uses the VA mobile app for
+1:56 “I use it to connect to Va.gov for I know they changed my health e vet.
+Check in for latest appointment.
+Check appointments
+Benefit claim 
+
+“I use it when i’m not at a laptop, I don’t have access. I use it in that way.”
+2:32 “I used it for the first time for travel reimbursement, that was interesting. Because I’ve never done it that way before.”
+
+Had difficulty sharing her screen with us. “I’m trying to do this without messing anything up so bare with me…”
+
+Email to download the testing environment comes from VA:Health and Benefits subject “Confirm your email to test V…” Firebase App Distribution…
+
+Instead of finding Developer settings under General had to go to about > play store version> update play store version x7> have to close and reopen again > Settings > General > Developer options (now visible) > Internal app sharing toggle on
+
+Had to uninstall and reinstall to get the correct version due to already having the VAHB app on their phone.
+
+I’m sort of tech savvy but not really so bare with me.”
+User had a custom keyboard design (red letters with image of cat behind entire keyboard)
+
+*Note it took us 12 mins to get ready to start the test (including intro questions and downloading the testing app).
+
+User has light mode.
+
+#### Re: Finding forms in the app
+Would expect to find this under ‘Claims’, directed her to ‘Go to my forms’
+Codespace screen is tiny and had to zoom in to read.
+
+#### Re: Screen 1
+User 13:58 “If you want to submit more than one statement you have to do this each time is what I’m understanding. You need to do a form for each statement.”
+
+#### Re: Screen 2
+Would select option hmmmm…. Ummmmm… reviewed options multiple time would choose ‘I want to provide context and details about a claim.”
+
+Prompted user to select ‘What I want to do isn’t listed here.”
+
+#### Re: Form entry
+User did not enter dashes on the SSN, and had to count #s before entering to ensure it was right.
+
+Any issues so far?
+NO
+
+ANything hard to navigate or understand?
+No
+
+#### Re: Leaving form
+User asked if they should click ‘Finish application later?”
+Prompted them to select the ‘Done’ in the top left corner to return to the app from the web view
+
+#### Re: Continuing back to the form
+User did dismiss toast quickly, it was blocking her view of the page.
+
+User noted it told her I have 30 days left to submit and that is good.
+
+Annoying how tiny the github acceptance page was.
+
+“Oh, ok it took me back to where I stopped actually. Ok, cool.”
+
+User wanted to correct capitalization
+
+#### Re: Form completion
+User did not enter dashes when typing in the phone number
+Users keyboard was stuck on numbers when trying to type in the email field and user could not switch to letters. Had to leave the field, scrolled up on the page, reengaged the field and then her keyboard would display letters instead of numbers. 
+
+Wrote a very short statement.
+
+User did not expand sections to review data entries before writing the name. 
+
+Liked that you could print it. 
+
+Saw the steps under What to expect and the question section on the confirmation page.
+
+Had a question about printing it. Didn’t know how to save the confirmation number. If she can’t print from her phone she didn’t know how to save it. Wanted to know if she would get a confirmation number by email. 
+
+In case I was doing this and I wasn’t at home or incase someone didn’t have access to a printer.
+
+Anything hard to navigate or understand?
+No, just the github codespace accept page
+Pretty self-explanatory directions “We know how to use it.”
+
+Labels
+“I didn’t find any labels confusing, no I did not.”
+
+#### Re: Navigate back tot he app
+Scrolled down on the page before seeing the ‘Done’ page, then also clicked the back button and ended up on the homepage again. Realized she went too far back and clicked on ‘Go to my forms’ again to get back to the forms page within the app.
+
+User knew the form had been submitted because
+“It tells me it was submitted on date and tells me it was in progress.”
+
+Status in progress means to her
+24:15 “If I was looking at it, I would say ok I know they got it, it was submitted. And its in the process, as far as being looked at and reviewed. Well not in review, because it hasn’t been reviewed. I would say its in progress and is waiting to be reviewed.”
+
+Would expect to see later
+24:40 “I would hope to see some progress, like I noticed it said up to 30 days. I would think that if I came back in a couple weeks or so I would hope it would say in review, or something like that.”
+
+To exit the VA app it took her a bit to get back to the zoom app.
+
+Searching for apps on the phone was difficult for this user. 
+
+Found the process overall
+30:05 “I found this process pretty easy, although of course, ya’ll had to sort of guide me on how to do the testing, but if I was just doing this just myself logging in… pretty easy for me, pretty self-explanatory. I didn’t run into any issues. I just think that if I was someone who wasn’t tech savvy, I’m not that tech savvy anyways, but for someone who maybe doesn’t know what they were doing there could be issues. You would have to get help.”
+
+Any part frustrating or mentally tiring? 
+30:40 “No the questions were pretty simple to answer, you’re basically asking for the information.”
+30:48 “Even explaining which form to choose if you need to add more information, those may be some questions if you’re not really familiar with doing a VA forms, like you may need to ask somebody for help, like what do you mean by additional buddy statement, some people may not know what that means.”
+31:14 “I mean for somebody that may not know that terminology, having a little glossary, a little snippet of information next to it maybe click on what is a buddy statement for somebody who many not necessarily know what that is.”
+
+I have issues when I’m on a small screen and I’m wearing glasses. 
+
 
 ## P12
 
@@ -1457,4 +1901,114 @@ In progress - want more context
 
 ### per researcher:
 
-Pending
+Using an apple iphone, 12
+Default web browser is Safari
+
+Yes has filled out a VA form online.
+1:07 “It went pretty easy, I filled out a form for an appointment. I also think I filled out a form for travel reimbursement awhile back. They were really, real easy. There’s weren’t a lot of options so it was just easy for me to do. Not a lot of problems.
+
+Does use the VAHB app today for
+1:53 “I just look at it to see things like a prescription that may need to be refilled or to remind myself of an appointment.”
+
+Experience so far
+2:12 “Again, very easy to use. I think if there was one thing I don’t know if, I don’t think they have the face authentication I think I still need to put in a user ID and password.”
+
+Note: Assisted the user with turning that on in their app at the end of the session.
+
+User had difficulty finding the zoom app menu on their phone, only familiar with zoom on his laptop so needed assistance to engage the screen to pop up the menu. 
+
+Did get the test flight app loaded prior to the session but did not get the step 2 done to download the VA testing app.
+
+Zoom shows face preview which blocked screen and it took the user a minute to move it out of their way, still had difficulties swiping me off their screen. Wanted to ensure he was still connected with me if not seeing me. 
+
+Noted his wifi was going in and out today. 
+
+There was a slight delay between us.
+
+Had to select that they were using cellular data instead of wifi
+
+Users phone was in light mode
+
+#### Re: Find forms in the app
+Would expect to find forms in ‘Claims’
+Direct him to scroll down click ‘Go to my forms’
+Asked if he should select ‘Start a new statement’
+
+#### Re: Screen 1
+8:45 “I wouldn’t much of that stuff I would just start my statement right here.”
+
+9:00 “OK I see all this stuff but the way my mind works I’m like ok, ok I remember you have to do this I’m going to find out what I need and I’m just going to start my statement right here. I’m probably not going to read all this stuff. 
+
+9:34 “If I were doing this, for me, I would have this first paragraph in three bullet points and then I would have something that would click next so that I would be forced to reach this… instead of the scroll because my tendency is to scroll until I see something that causes me to act…. I find myself then having to bac track a bit sometimes.”
+
+I do like that I can save the application. Which is good.
+
+#### Re: Screen 2
+10:52 “If I were starting a new claim, I would probably select the first one, I have new evidence to submit for an open claim.” oh wait… that’s for open claims…
+Selected instead ‘I want to request faster claim processing because of my situation.’ by accident, could not figure out how to deselect it. 
+Maybe I should look at all of these you know… 
+Then said ‘I would probably select this what I want to do isn’t listed here because you told me its a new claim.’
+
+#### Re: Form entry
+12:00 view date of birth entry.
+For SSN did not type in dashes, typed fast, but then got the error and erased to retype. 
+
+#### Re: leave form
+‘Finish application later’ or leave it as…
+Selected ‘ Finish application later’
+Had to be directed to navigate back to the mobile app, scrolled down on the page. Didn’t know if he should close the app completely and select done and then go back in…
+
+Directed him to select ‘Done.’
+
+Reported no issues so far.
+Nothing reported as hard to navigate or understand. 
+
+User moved back to the homescreen, back to ‘Go to my forms’ then noticed the shown form was the one he started today and was easily able to continue the form. 
+
+Toast wasn’t an issue because the user navigated to the homescreen and back.
+
+#### Re: Form completion
+User did not experience issues entering into the form fields from his mobile phone. 
+16:18 “Since I’m talking as I’m thinkin’, I like that when I put in the postal code first and it populates the stuff for me. I don’t know if you have that option, its nice, I like that option.”
+
+User did not enter dashes when entering in the phone number.
+When providing the statement the user entered ‘My hand has been tealling (autocorrected to recalling) bothering lately. He did not catch that spell correct and change to what he intended. 
+
+#### Re: Form submission
+Did not expand the sections, scrolled down and was ready to confirm with his name to submit the application.
+
+User scrolled down on the confirmation page after submission to the bottom. 
+To return to the app the user scrolled back up and found the ‘Done’ button without prompting.
+
+Went all the way back to the homepage and then went forward again to the forms section.
+
+User noted regarding printing…
+18:30 “Sometimes its hard to print, some people have trouble printing from their phone, I know how to print from my phone but some people don’t. Do you also send them an email maybe with a link to print it, they are confirming that they got your form. If you want to print a copy click here to print it or click here to look at the pdf. It’s just something I’ve seen other apps do that sort of help people that may not be real familiar with technology.”
+
+#### Re: After form submission
+Knows the form was submitted …
+19:20 “I see that it was done today and it’s in progress that it’s active. It’s an active one, I don’t have anyone in completed (user checked the complete tab).”
+
+Status means to them
+19:37 “I’ve done everything that I was supposed to do. And someone is now looking at it. If they need more information they will come back to me. And if they don’t come back to me then they will respond with some sort of a decision.”
+
+Expect to see if they check back on this later…
+20:10 “Interesting if it would say some sort of review, reviewed 1, review 2, waiting for final decision. Some sort of decision or something like that. In progress, if it’s just says its in progress and I come back here week after week and see its in progress then I’m probably going to be likely to find is there a phone number that I can call and how can I find the progress beyond it saying its in progress. Is it progress to be done in a week, is it in progress to be done in a year. I would like to see some sort of guage,  it could be three or four steps, or it could even be a bar like moving to complete like filling up a tank of gas. I would like to see that.”
+
+No challenges using his device for this process today.
+Did not have anything hard to navigate or understand.
+Labels were pretty well done according to the user.
+
+How the user found this process overall…
+25:15 “I found it pretty easy. It was surprising, I talked to Shannon yesterday and I wanted to know if I needed to be in my office on my laptop because I’m not always… I’m always better on my laptop than I am on my phone.”
+
+No part was noted as being especially frustrating or mental tiring.
+
+“Did you take it away? I thought I had it.” (regarding having to reinstall the VAHB app on their phone to use after the test.) “I’m glad you’re doing this, I didn’t realize you had done that.”
+
+At the end of the session the user logged into their account on the VA mobile app and I walked them through setting up Face ID in the settings under their profile. 
+
+The user was waiting on the receipt of the MFA code to his text messages. Then after awhile of waiting navigated back to the sign in process of the app and realized he had forgotten to hit ‘Continue’ 
+
+26:40 “I hit text me and then I always forget to hit continue. I go and I realize I didn’t get the text, I go back and think I missed something…”
+

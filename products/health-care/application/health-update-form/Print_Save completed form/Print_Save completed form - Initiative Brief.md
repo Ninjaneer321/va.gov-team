@@ -103,21 +103,18 @@
 - If there are any errors or issues found as a result of this change, we will disable the code by switching off the feature toggle which will result in the change being reverted to its previous state prior to release.  We will then begin triaging the root cause and determining a solution.
      - Timeline for triage and solution implementation will be fast-tracked to complete within 1-3 days.
 - Main POCs:
-     - (? Product Manager)
-     - (? Engineering lead)
-     - (? Product Owner)
+     - Heather Justice
+     - Brandon Cooper
+     - Patrick Bateman
 - 
-### Timeline - ‼️ SECTION NEEDS UPDATING with actual release plan link
-* Link to Release Plan for this Initiative
-
-## Key deliverables - ‼️ SECTION NEEDS UPDATING with actual design link
-- Figma Design and User Flow - TBD
-- [Production env](https://www.va.gov/my-health/update-benefits-information-form-10-10ezr/introduction)
-
+### Timeline
+* Link to [Release Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/health-update-form/Print_Save%20completed%20form/Print_save%20PDF%20-%20Release%20Plan.md)
 
 ### Key Dates - ‼️ SECTION NEEDS UPDATING with actual dates
 
-- TBD
+- Planned Launch Date:
+     - 9/10/2025 - 9/23/2025
+- Actual Launch Date:
 
 ---
    
@@ -125,7 +122,8 @@
 
 ### Before
 
-TBD
+<img width="398" height="645" alt="image" src="https://github.com/user-attachments/assets/95a86cbf-2026-4292-9f3c-2ade6a0b2d07" />
+
 
 ### After
 
@@ -142,7 +140,7 @@ TBD
 - Team Name: 10-10 Heath Apps Team
 - GitHub Label(s): 1010-print-save
 - Slack channel: #1010-health-apps
-- Product POCs: 
+- Product POCs: Heather Justice (PM)
 
 </details>
 
