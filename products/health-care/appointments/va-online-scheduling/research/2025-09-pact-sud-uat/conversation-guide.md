@@ -1,28 +1,19 @@
 ```yaml
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+title: "Conversation Guide for PACT/SUD [UAE, Appointments, September, 2025]"
+author: "[Jenny Wang, Lena Cardoso, Kristen Faiferlick]"
+date_created: "[2025-08-19]"
+last_modified: "[2025-09-03]"
+description: "A conversation guide related to VA online scheduling."
 ---
 ```    
-    # Conversation Guide for 10-10EZR Confirmation Flow
+    # Conversation Guide for PACT/SUD
 
 # Moderator logistics 📋✅
 ### 2-3 days before the session
 
 > [!NOTE]
 > Review VA Platform's [Research Checklist](https://depo-platform-documentation.scrollhelp.site/research-design/research-checklist).
-
-`List and complete any project-specific setup tasks for this study below:`
-
-- [ ] Step 1
-- [ ] Step 2
-- [ ] Step 3
 
 ### Day of the session
 
@@ -46,7 +37,6 @@ I also have a couple other colleagues in the Zoom waiting room who would like to
 
 Today we're going to talk about making updates to health care information.
 
-
 Before we start, I have a few things that I want to go over with you:
 
 - **This entire session should take about 60 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
@@ -62,8 +52,6 @@ Before we start, I have a few things that I want to go over with you:
 > [!TIP]
 > - Then, ask the notetaker and observers to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)
 > - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
-     
-- *(If applicable)* **You'll be interacting with a prototype today.** This is a demo tool that may not function exactly the way you expect. Some areas of the prototype will be clickable, and some will not. <mark>**Since it's a demo, none of your actions will affect your VA information or benefits.**</mark>
   
 - **Are you comfortable if I record my screen and audio as we talk today?** We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will be attributed to you directly. We either report findings out in groups (i.e., 5 out of 10 participants said this), or if we want to quote you directly, we take away any identifying information and give you a participant ID, like P7.
    - **Knowing that, are you comfortable if I record my screen and audio as we talk today?**
@@ -94,50 +82,188 @@ Before we start, I have a few things that I want to go over with you:
 
 Before we look at the website, let’s start with a few warm-up questions.
 
-1. Do you have a service-connected disability at VA?
-- If yes: what is your disability rating?
-- If no, skip to question 2.
-2. 
+1. How often do you schedule appointments online?
+2. Can you tell us what your experience was like the last time you scheduled an
+appointment online?
 
-## First Task: [TASK NAME] - X minutes
+Today, we are going to have you go through several scheduling scenarios. We will ask you to give your thoughts as you go.
 
-- [ ] Step 1
-- [ ] Step 2
+Please note, if you go all the way through, you will end up scheduling an appointment. So, unless you actually want that appointment, we will not have you actually click for the last step.
+
+Since the interview is about health care appointments, please know that your comfort is very important. If at any point you feel uncomfortable discussing something or completing a task, just let me know. We can pause or stop the session at any time.
+
+Okay, now I will have you log in to your VA.gov account. Once you are logged in, please share your screen. And please make sure that anything else you don’t want me to see is not up on your screen.
+
+## First Task: [Schedule a primary care appoinment] - 10 minutes
+
+Imagine that you want to schedule a primary care appointment. Use the screen to
+navigate and schedule that appointment. As you go, please “think out loud” through each step explaining why you click where you click and anything else that you are thinking. For example, if there is anything visually you like or if anything is confusing, let us know. We may ask you questions along the way.
+
+- Possible probing questions:
+  - Why did you click there?
+  - What do you think about the information displayed on this screen?
+  - **Reminder for moderator to stop the user after the Calendar page**
+
+**Follow-ups After Task Completion:**
+- On a scale of 1-5, 1 being very challenging and 5 being very easy, how did you
+find it to select a clinic for a primary care appointment, and why?
+- Does your primary care office have physician assistants or nurse practitioners
+available to meet?
+    - If yes - have you ever met with one of them?
+- Go back to the clinic selection page.
+  - How did you know which clinic to select?
+  - Do you recognize any clinics? If yes, what’s your experience with the
+clinic?
+  - How would you know which clinic is for a nurse practitioner vs. physician
+assistant vs. physician/medical doctor/MD?
+  - What do you think about this page?
+    - Do you like having a list of clinics to choose from? Why? Why not?
+      - If they say no and mention that the list is long or that they’re
+unsure which option to choose - Ask: How would you make
+this list easier to choose from?
+    - What do you think about the connection between clinics and types
+of care?
 
 > [!NOTE]
 > ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Is the participant aware that they may be sharing personal information on their screen, and are they okay with that? - per question as needed]
-> - [Etc]
+> - [Is the participant able to schedule an appointment without back tracking or
+confusion?]
+> - [Where (if at all) did participants note confusion?]
+>   - [Specifically, if there is any confusion regarding the clinic selection page]
+> - [Did participants have to back click? If yes, on what screen and why?]
+> - [Does the participant make any comments about a long list of clinics on the clinic selection page?]
 
-## Second Task: [TASK NAME] - X minutes
+## Second Task: [Schedule an appointment with a social worker] - 10 minutes
 
-- [ ] Step 1
-- [ ] Step 2
+Imagine that you want to schedule a social work appointment. Use the screen to
+navigate and schedule that appointment. As you go, please “think out loud” through each step explaining why you click where you click and anything else that you are thinking. For example, if there is anything visually you like or if anything is confusing, let us know. We may ask you questions along the way.
+
+- Possible probing questions:
+  - Why did you click there?
+  - What do you think about the information displayed on this screen?
+  - **Reminder for moderator to stop the user after the Calendar page**
+ 
+**Follow-ups After Task Completion:**
+- On a scale of 1-5, 1 being very challenging and 5 being very easy, how did you find it to schedule a social work appointment, and why?
+- Go back to the clinic selection page.
+  - How did you know which clinic to select?
+  - Do you recognize any clinics? If yes, what’s your experience with the
+clinic?
+  - How would you know which clinic is for a social worker?
+  - What do you think about this page?
+    - Do you like having a list of clinics to choose from? Why? Why not?
+    - What do you think about the connection between clinics and types
+of care?
 
 > [!NOTE]
 > ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
+> - [Is the participant able to schedule an appointment without back tracking or
+confusion?]
+> - [Where (if at all) did participants note confusion?]
+>   - [Specifically, if there is any confusion regarding the clinic selection page]
+> - [Did participants have to back click? If yes, on what screen and why?]
+> - [Does the participant make any comments about a long list of clinics on the clinic selection page?]
 
-## Third Task: [TASK NAME] - X minutes
+## Third Task: [Schedule an appointment with a pharmacist] - 10 minutes
 
-- [ ] Step 1
-- [ ] Step 2
+Imagine that you want to schedule a pharmacy appointment. Use the screen to navigate to schedule that appointment. As you go, please “think out loud” through each step explaining why you click where you click and anything else that you are thinking. For example, if there is anything visually you like or if anything is confusing, let us know. We may ask you questions along the way.
+
+- Possible probing questions:
+  - Why did you click there?
+  - What do you think about the information displayed on this screen?
+  - **Reminder for moderator to stop the user after the Calendar page**
+
+**Follow-ups After Task Completion:**
+- On a scale of 1-5, 1 being very challenging and 5 being very easy, how did you find it to schedule a pharmacy appointment, and why?
+- Go back to the clinic selection page.
+  - How did you know which clinic to select?
+  - Do you recognize any clinics? If yes, what’s your experience with the
+clinic?
+  - How would you know which clinic is for a pharmacist?
+  - What do you think about this page?
+    - Do you like having a list of clinics to choose from? Why? Why not?
+    - What do you think about the connection between clinics and types
+of care?
 
 > [!NOTE]
 > ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
+> - [Is the participant able to schedule an appointment without back tracking or
+confusion?]
+> - [Where (if at all) did participants note confusion?]
+>   - [Specifically, if there is any confusion regarding the clinic selection page]
+> - [Did participants have to back click? If yes, on what screen and why?]
+> - [Does the participant make any comments about a long list of clinics on the clinic selection page?]
 
-# Post-Task Interview - X minutes
+# Post PACT task questions - 10 minutes
 
-- Question 1
-- Question 2
-- Any questions for me? 
+Have you ever heard of something called “PACT” or “Patient Aligned Care Team” or
+“primary care team?”
+
+**If yes:**
+- Can you tell me who is part of your primary care team and what are their roles?
+- How does knowing your primary care team assignment change how you select
+care, location, or clinics?
+- What information about your primary care team do you wish you saw during
+scheduling?
+- Does the idea of seeing information related to your primary care team in the
+scheduling flow make you feel more confident in your choice of clinic? Why or
+why not?
+  - Probe: What could increase your confidence even more?
+ 
+**If no:**
+No worries – PACT stands for “Patient Aligned Care Team.” It’s a team of VA
+clinicians—including your primary care provider, nurse practitioner, physician assistant, social worker, and pharmacist—who work together to manage your care. Think of it as your own dedicated healthcare team.
+  - Does that definition make sense to you?
+  - What about that idea seems helpful—or confusing—to you?
+  - How do you imagine this team would fit into scheduling your appointments?
+
+What questions do you have about how your primary care team might change where or
+when you book care?
+
+## Fourth Task: [Schedule a Mental Health Appointment] - 10 minutes
+
+For this next scenario, we are going to imagine that you have concerns about unhealthy use of drugs or alcohol and that you’d like to schedule an appointment to discuss this.
+
+**Let participant get to type of care page before asking the question below**
+
+Before you navigate, tell me which appointment type you are considering selecting and why.
+
+**If they don’t say mental health: ask them to explain their thinking and then direct them to mental health and ask:**
+  - What types of care do you think are included in mental health?
+
+**If they say mental health, follow-up with:**
+  - What types of care do you think are included in mental health?
+  - Are there other appointment types you considered before settling on mental
+health?
+
+**Navigation**: Okay, now could you please show me how you’d do that here? As you go, please “think out loud” through each step explaining why you click where you click and anything else that you are thinking. For example, if there is anything visually you like or if anything is confusing, let us know. We may ask you questions along the way.
+
+  - Possible probing questions:
+    - Why did you click there?
+    - What do you think about the information displayed on this screen?
+    -   **Reminder for moderator to stop the user from clicking the final
+button to schedule**
+
+**Follow-up After Task Completion:**
+While on the sub-tpye page:
+  - What do you think about how these mental health appointments are organized?
+  - How do the descriptions provided compare to what you expected to be included
+in mental health?
+  - Go back to the first list of appointment types. If you were creating a list of appointment types, what changes would you make so it’s easier for someone to
+find the right kind of care?
+  - If they don’t mention mental health; specifically probe about the mental
+health care type
+  - I’m now going to show you an image of another way we could present mental
+health appointments. [Show user side by side images - option 2 and 3.](https://www.figma.com/design/HnExAM5SGNXzUlv9yRS87t/Working-File-%7C-Appointments-FE?node-id=6162-8257&t=PaavUKlSUUIOXwCj-0)
+  - When you compare the list you originally saw (shown on the left) to a different list (shown on the right), which list do you prefer for scheduling an appointment related to unhealthy use of drugs or alcohol?
+
+> [!NOTE]
+> ### Things to watch for:
+> - [Before getting to the sub-groups, note what the participant expected to see.]
+> - [Does the sub-types screen match their expectations?]
+> - [Is the participant confused about SUD being a subset of mental health care
+type?]
+> - [Where (if at all) did participants note confusion?]
 
 ## Consent to use video clips
 

@@ -1,7 +1,7 @@
 # Paperless delivery settings use cases
 **Last updated: August 2025**
 
-- [User flow](https://www.figma.com/design/DWOjExui9JzyzwhMBWOFkw/Paperless-delivery-opt-in?node-id=2592-20588&t=z8k7qVk61u67asjJ-1)
+- [User flow](https://www.figma.com/design/DWOjExui9JzyzwhMBWOFkw/Paperless-delivery-opt-in?node-id=2627-16758&t=o5rTYQykZL0StMUo-1)
 - [Figma files](https://www.figma.com/design/DWOjExui9JzyzwhMBWOFkw/Paperless-delivery-opt-in?node-id=2593-24032&t=z8k7qVk61u67asjJ-1)
 
 
@@ -41,7 +41,15 @@ You don’t have an email address in your VA profile. If you add one, we’ll em
 
 </details>
 
-[Profile shared editing information use cases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/profile-shared-use-cases.md#editing-information)
+#### Editing information
+
+[Save in progress alert](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/profile-shared-use-cases.md#editing-information)
+
+[Saving information: Success](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/profile-shared-use-cases.md#editing-information)
+
+[Saving information: Error](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/profile-shared-use-cases.md#editing-information)
+
+[Canceling edit changes (Part of edit as a sub-task shared use case)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/profile-shared-use-cases.md#editing-information)
 
 [Edit as a sub-task shared use case](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/profile-shared-use-cases.md#editing-information)
 
@@ -102,4 +110,3 @@ We’re making some updates to this tool. We’re sorry it’s not working right
 [Backend system down](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/profile-shared-use-cases.md#system-errors)
 
 [Cannot display section information](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/profile-shared-use-cases.md#system-errors)
-

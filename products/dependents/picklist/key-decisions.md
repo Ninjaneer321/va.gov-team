@@ -6,12 +6,13 @@ This file tracks the key decisions made for the Picklist project.
 
 For any substanial decision to make or made by the team, add it here. Substantial is defined as a decision the team may regret forgetting later. Some examples include: Project scope, design decisions, technical decisions, etc. You should still document those decisions in tickets, but pull substantial ones out here for easier future reference. Whenever possible, link to existing tickets for better context.
 
-## Decisions to make
+## Decisions to make for the picklist in Dependent Verification
 
 | Date added | Decision | Background | Why make this decision |
 | :--- | :--- | :--- | :--- |
-| | | | |
-| | | | |
+| 09/02/25 | Do we want to show all dependents or one at a time? | This will bet tested as part of the initial picklist research. | One puts more information in front of the Veteran at once, liekly helping Veterans what decisions they need to make. It also may mean a more challenging implementation. |
+| 09/02/25 | Should we ask the death-related questions separately? | This will bet tested as part of the initial picklist research. | We need to decide which is a better experience for Veterans, and more trauma informed. |
+| 09/02/25 | Do we want it to handle complex scenarios, such as the divorce of a spouse and the removal of stepchildren? | The current digital dependent verification form doesn't handle this. How far do we want to go? | This would help determine scope in a big way. |
 
 ## Decisions made
 

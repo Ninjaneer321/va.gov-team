@@ -142,7 +142,10 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **09/DD HH:MM**
+- `Available timeslots for a kick off call are below:`
+	- **Tuesday, Sept 9, 3-5pm EST**
+	- **Thursday, Sept 11, 2-4pm EST**
+	- **Friday, Sept 12, 11am-1pm EST**
 
 
 ### Prepare
@@ -168,7 +171,10 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 - `Maximum Sessions per day:` **3 per day**
 
 
-### Availability
+### Availability - 
+> [!NOTE]
+**Will add in times when we are closer to research kick-off**
+
 > [!TIP]
 > Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
 

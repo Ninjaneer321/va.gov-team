@@ -1,6 +1,6 @@
 # Style guide and Design System updates
 
-This page outlines all updates to the content style guide and Design System (components, patterns, and IA) beginning in May 2025. If you have any questions or would like to suggest a change or addition to the style guide, send us a message in Slack at #content-ia-centralized-team.
+This page describes all content updates to the content style guide and Design System (components, patterns, and IA) beginning in May 2025. If you have any questions or would like to suggest an addition to the style guide, send us a message in Slack at #content-ia-centralized-team.
 
 [Full guidance is available on the Design System site](https://design.va.gov/)
 
@@ -40,10 +40,6 @@ Added an exception to time zone formatting for automated time stamps:
 - Added an exception for using quotes when referring to buttons, section titles, etc. if the text is already bold:
 > **Note:** If the text is already bold (like in some error messages), we can use quotation marks to reference buttons, screens, or section headers.
 - Made edits to the rest of the page to align with our style (these edits don’t affect guidance)
-
-### Components
-
-### Patterns
 
 ## July 2025
 

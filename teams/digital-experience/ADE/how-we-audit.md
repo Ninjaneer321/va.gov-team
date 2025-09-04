@@ -1,17 +1,15 @@
-> [!CAUTION]
-> **WIP**: Last udpated: Februrary 20, 2025
-
 # How the Accessibility Digital Experience (ADE) team audits for accessibility
+Updated September 4, 2025
 
 If you're a new accessibility specialist supporting VA.gov or on one of the product teams supported by one of those specialists, or an [Accessibility Champ](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/vsa/accessibility/a11y-champs#accessibility-champions-community-aka-a11y-champs), you might wonder how ADE's team of accessibility specialists audits experiences for accessibility. 
 
 **We'll go into that plus:**
-- [What's an audit?](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/teams/digital-experience/ADE/how-we-audit.md#whats-an-audit)
-- [When does an audit happen?](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/teams/digital-experience/ADE/how-we-audit.md#when-does-it-happen)
-- [What are the outcomes of an audit?](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/teams/digital-experience/ADE/how-we-audit.md#what-are-the-outcomes)
-- [How long does an audit take?](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/teams/digital-experience/ADE/how-we-audit.md#how-long-does-it-take)
-- [What is tested during an audit?](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/teams/digital-experience/ADE/how-we-audit.md#whats-tested)
-- [How to get started with an audit?](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/teams/digital-experience/ADE/how-we-audit.md#how-do-we-start-one-and-whats-the-process)
+- [What's an audit?](#user-content-whats-an-audit)
+- [When does an audit happen?](#user-content-when-does-it-happen)
+- [What are the outcomes of an audit?](#user-content-what-are-the-outcomes)
+- [How long does an audit take?](#user-content-how-long-does-it-take)
+- [What is tested during an audit?](#user-content-whats-tested)
+- [How to get started with an audit?](#user-content-how-do-we-start-one-and-whats-the-process)
    
 ## What's an audit?
 
@@ -126,5 +124,19 @@ The best way to engage with ADE is early! The earlier in a project that we can g
 - You can also reach out to ADE through the #accessibility-help Slack channel
 - [We recommend starting with a ADE Intake Ticket.](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=Accessibility-Digital-Experience-Intake-Ticket.md) From there we’ll connect your team with one or more practice area specialists, who can provide the input that your team is requesting.
 
+In your intake ticket, please tell us:
+
+<details><summary>What screens need to be tested</summary>
+<strong>Why do we ask this?</strong> Often accessibility audits encompass many different screens, testing an entire flow of a product. However, an audit doesn't have to be many different screens. It can be one or two screens as well. In fact, we prefer this because it usually speeds up the feedback loop between product teams and accessibility specialists.
+</details>
+<details><summary>What conditional content or pages are in the flow</summary>
+<strong>Why do we ask this?</strong> It's important to test all the functionality of the product. If conditional content gets triggered by selecting certain choices, it's good to know where those choices are and how the conditional content gets activated. This makes auditing more efficient and ensures that we're evaluating everything a Veteran would encounter. What errors can occur and how can those be triggered? Why do we ask this? Errors create an important part of the user experience, and often are critical to get right. Knowing what errors can occur will help accessibility specialists test the product more efficiently and make sure we evaluate everything a Veteran would encounter.</details>
+<details><summary>If there are any custom (non-VADS) components in use</summary>
+<strong>Why do we ask this?</strong> This helps accessibility specialists know where the boundaries are between the design system and the product itself. It can help in determining where to create issues, and which team is responsible for fixing them.
+</details>
+<details><summary>How to log in to access the product (if applicable)</summary>
+<strong>Why do we ask this?</strong> This helps accessibility specialists test with the right information so all of the appropriate functionality can be triggered. Should user accounts be kept in their existing states? How should they be reset, if changed? Why do we ask this? During the process of testing, it's common to change data in fields to trigger errors and explore functionality. If data needs to be in specific states, it's good to know that ahead of time.
+</summary>
+
 ## About this Documentation 
-**Primary Source:** The framework of information used in this documentation was [taken from the previously-sunset VA Shared Support Team's version of "How We Audit" version Sept. 21, 2022.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/shared-support/accessibility/documentation/how-we-audit.md) 
+This documentation was adapted from the VA Shared Support team's version of "How We Audit," written September 21, 2022.

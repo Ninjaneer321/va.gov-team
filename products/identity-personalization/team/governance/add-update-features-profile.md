@@ -83,12 +83,47 @@ The following usability best practices should be kept in mind when adding or upd
 3. Label what information is required versus optional and give the ability to remove optional information.
 
 4. When content is long, provide an unauthenticated FAQ to cover more complex topics within the Records or Resources and support sections of VA.gov.
+
    1. FAQ content should not live within VA.gov Profile.
 
-5. If system save times are long, provide visuals to the user that their save is in process.
+6. If system save times are long, provide a loading spinner button to show the user that their save is in process.
 
-6. Create all states of the information feature, including, but not limited to:
+7. Create all states of information for the feature, including, but not limited to:
 
    1. When the feature is available;
    2. when the feature is not available;
    3. all error states, including system errors.
+  
+8. Page level alerts and messages should be a [standard alerts](https://design.va.gov/components/alert/#examples---standard), and appear directly below the page header. Alerts within the page, such as in a section or card, should be [slim alert](https://design.va.gov/components/alert/#web-2), and appear below the header or sub header of that section.
+ 
+
+## VA.gov Profile content standards
+### Notification settings
+[Link to current Notification settings production files for examples.](https://www.figma.com/design/e6JEtrwZCInKk9SjZktx2T/Profile---Notification-Settings?m=auto&node-id=4649-8881&t=aeIImeiPytf4vfpe-1)
+
+Notification settings checkbox groups are made up of 4 sections:
+1. Label header
+2. (Optional) Group hint text
+3. Checkbox label
+4. (Optional) Checkbox description
+
+Label header
+* Describes the subject of notifications.
+* Limit to 36 characters to keep text on a single line.
+* Don’t use the word ‘notification’.
+
+Group hint text
+* Provides additional information that applies to all notification types within a single subject.
+* Group hint text is optional.
+
+Checkbox label
+* Indicates which type of notification to receive.
+* Only options are:
+    * Notify me by email
+    * Notify me by text
+* If both email and text are available, email should always be listed first.
+
+Checkbox description
+* Provides additional information that applies to a single notification type.
+* Typical use case will be to indicate what information the reminders will contain.
+* Checkbox descriptions are optional.

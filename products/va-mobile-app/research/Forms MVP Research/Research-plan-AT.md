@@ -32,12 +32,11 @@ The key objective of this study is to evaluate the usability of completing a VA 
 Additionally, the research aims to uncover the following:
 1. Understand if Veterans using screen reader or screen magnifier technology can find and interact with forms from the app.
 2. Identify if Veterans using screen reader or screen magnifier technology can fill out a form from the app on their own.
-3. Identify any usability issues Veterans using screen reader or screen magnifier technology may experience when interacting with forms on the mobile app.
-4. Identify if Veterans using screen reader or screen magnifier technology can start a form and come back to it at a later time to complete.
+3. Identify if Veterans using screen reader or screen magnifier technology can start a form and come back to it at a later time to complete.
 
   
 ### Outcome
-The results of the study will help us determine if Veterans are able to fill out and complete forms from the mobile app and to identify any pain points. This will inform future form development on the app.
+The results of the study will help us determine if Veterans who utilize assistive technology, specifically screen readers or magnified screens, are able to fill out and complete forms from the mobile app and to identify any pain points. This will inform future form development on the app.
 
 
 ### Research questions
@@ -51,18 +50,15 @@ The results of the study will help us determine if Veterans are able to fill out
 
 4. Can Veterans independently complete all required fields in a form using the mobile app?
 5. Do Veterans understand the instructions and language used in the forms?
-6. How do Veterans interpret the status of the form once the form is submitted?
-
-**Research goal #3: Identify any usability issues Veterans using screen reader or screen magnifier technology may experience when interacting with forms on the mobile app.**
-
+6. How do Veterans interpret the status of the form once the form is submitted
 7. What challenges, if any, do Veterans encounter while entering information into the forms?
 8. What, if any, technical or design barriers prevent Veterans from successfully interacting with forms?
 9. How do Veterans feel about the overall experience of using forms in the mobile app?
 
-**Research goal #4: Identify if Veterans using screen reader or screen magnifier technology can start a form and come back to it at a later time to complete.**
+**Research goal #3: Identify if Veterans using screen reader or screen magnifier technology can start a form and come back to it at a later time to complete.**
 
 10. Can Veterans locate and resume a form they previously started in the mobile app?
-11. Do Veterans encounter any challenges or confusion when attempting to access and complete a saved or in-progress form?
+11. Do Veterans encounter any challenges or confusion when attempting to access and complete a previously started form?
 12. What steps do Veterans take to find and finish a form they started earlier?
 13. Are there any barriers that prevent Veterans from successfully submitting a previously started form through the app?
 
@@ -72,24 +68,17 @@ The results of the study will help us determine if Veterans are able to fill out
 
 1. Veterans using a screen reader or screen magnifer will be able to easily locate the forms section within the mobile app without extensive guidance.
 2. Veterans will be able to follow the intended navigation steps to start a new form from within the app.
-3. Some Veterans may experience confusion or difficulty due to unclear labeling or navigation options related to forms.
 
 **Research goal #2: Identify if Veterans using screen reader or screen magnifier technology can fill out a form from the app on their own.**
 
-4. Most Veterans using a screen reader or screen magnifer will be able to independently complete all required fields in a form using the mobile app.
-5. The instructions and language used in the forms will be clear and understandable to Veterans.
-6. Some Veterans may experience confusion interpretting the status of the form after submission.
+3. Most Veterans using a screen reader or screen magnifer will be able to independently complete all required fields in a form using the mobile app.
+4. Some Veterans may experience confusion interpretting the status of the form after submission.
+5. Veterans using a screen reader or screen magnifer will have mixed feelings about the overall experience, with some expressing frustration regarding usability issues and others finding the process straightforward.
 
-**Research goal #3: Identify any usability issues Veterans using screen reader or screen magnifier technology may experience when interacting with forms on the mobile app.**
+**Research goal #3: Identify if Veterans using screen reader or screen magnifier technology can start a form and come back to it at a later time to complete.**
 
-7. Veterans using a screen reader or screen magnifer may encounter difficulty entering information into forms from their mobile device.
-8. Technical or design barriers, such as small touch targets or required page scrolling, may add additional frustration for Veterans using a screen reader or screen magnifer when completing forms from a mobile device.
-9. Veterans using a screen reader or screen magnifer will have mixed feelings about the overall experience, with some expressing frustration regarding usability issues and others finding the process straightforward.
-
-**Research goal #4: Identify if Veterans using screen reader or screen magnifier technology can start a form and come back to it at a later time to complete.**
-
-10. Veterans using a screen reader or screen magnifer will be able to locate and resume a form they previously started within the mobile app.
-11. Barriers such as difficulty finding saved forms or unclear resumption instructions will prevent some Veterans from successfully submitting a previously started form.
+6. Veterans using a screen reader or screen magnifer will be able to locate and resume a form they previously started within the mobile app.
+7. Barriers such as difficulty finding saved forms will prevent some Veterans from successfully submitting a previously started form.
   
 ## Methodology  🛠️
 
@@ -133,13 +122,6 @@ Provide a link to any materials you need to run your study, including any materi
 We would like Pergean's support in recruiting eligibile participants for the study. Targeting 12 participants for recruiting, aiming for 8 completed sessions minimum.
 
 ### Recruitment criteria
-- Must have interacted with the mobile app at least once
-- 3 to 4 Veterans from rural areas
-- 3 to 4 Veterans over the age of 55
-- 4-6 of each AT group mentioned below:
-
-Screen reader (mobile, beginner and advanced)
-Magnification
 
 We will recruit 12 Veterans for:
 - **minimum** of 4 sessions with screen reader users
@@ -153,11 +135,12 @@ We'd like to recruit people who use a mix of different screen readers, such as, 
 
 |# of participants|Criteria|Level|
 |:--|:--|:--|
-|Exactly 4|Are Veterans|Primary|
-|Exactly 4|Are willing to join from a mobile device using a screen reader|Primary|
-|Exactly 4|Daily use of screen readers to access websites or applications|Primary|
-|Exactly 3|Have 1-4 years of experience using a screen reader|Primary|
-|Exactly 3|Have 5+ years of experience using a screen reader|Primary|
+|All|Are Veterans|Primary|
+|All|Have used the VA Health & Benefits app at least once before the study|Primary|
+|All|Are willing to join from a mobile device using a screen reader|Primary|
+|All|Daily use of screen readers to access websites or applications|Primary|
+|3-4|Have 1-4 years of experience using a screen reader|Primary|
+|3-4|Have 5+ years of experience using a screen reader|Primary|
 |At least 3|Are over 55 years old|Secondary|
 |At least 3|Identify as Black, Asian, Hispanic or Native|Secondary|
 |At least 2|Identify as a gender other than male|Secondary|
@@ -170,9 +153,10 @@ We'd like to recruit people who use a mix of different screen magnification soft
 
 |# of participants|Criteria|Level|
 |:--|:--|:--|
-|Exactly 4|Are Veterans|Primary|
-|Exactly 4|Are willing to join from a mobile device using screen magnification software|Primary|
-|Exactly 4|Always use screen magnification on VA.gov|Primary|
+|All|Are Veterans|Primary|
+|All|Have used the VA Health & Benefits app at least once before the study|Primary|
+|All|Are willing to join from a mobile device using screen magnification software|Primary|
+|All|Always use screen magnification on VA.gov|Primary|
 |At least 1|Are over 55 years old|Secondary|
 |At least 1|Identify as Black, Asian, Hispanic or Native|Secondary|
 |At least 1|Identify as a gender other than male|Secondary|
@@ -191,11 +175,10 @@ During the session:
 - `Total:` **[8]**
 
 ### Screening Question
-1. Are you able to join the session from a smartphone or tablet?
+1. Are you able to join the session from a smartphone or tablet with a working camera and microphone?
    
 - Yes would qualify them for the study
 - No would disqualify them
-
 
 2. What device will you use to join the session?
    
@@ -215,58 +198,34 @@ If Android, pleae request their email where an invitation to the testing link wi
 - Yes would qualify them for the study
 - No would disqualify them
 
-#### Screen reader users, please also ask the following screener questions.
+5. Do you use a screen reader or screen magnifier every time you use the Internet? We ask this question because we want to make sure that our website works for people who rely on these types of technologies.
 
-1. Do you need to use a screen reader to access websites or applications? For example, VoiceOver, TalkBack, or JAWS.
-    - Yes
-    - No
-2. If you answered yes, which screen reader do you use? Please select all that apply.
-    - JAWS
-    - NVDA
-    - VoiceOver (iPhone, iPad, Mac)
-    - TalkBack (Android)
-    - Narrator (Windows)
-    - Other (Please specify): ________________
-    - This question doesn't apply to me
-3. How long have you been using a screen reader? Your best guess is okay.
-    - 0 - 1 years
-    - 2 - 4 years
-    - 5+ years
-    - Never used
-4. How frequently do you use a screen reader? Your best guess is okay.
-    - Daily
-    - Once a week
-    - Once a month
-    - Never
-5. Can you join the Zoom session from your mobile device using your screen reader?
-    - Yes
-    - No
-    - This question doesn't apply to me
-6. Please list the name of the screen reader you will use during the session.
-    - Open text box
+- Yes would qualify them for the study
+- No would disqualify them
 
-#### Screen magnification users, please also ask the following screener questions.
+6. Are you willing to join the testing session using your screen reader or screen magnifier?
 
+- Yes would qualify them for the study
+- No would disqualify them
 
-1. Do you consistently need to resize fonts or use a magnification setting to see your screen when you are using your mobile device?
-    - Yes
-    - No
-2. If you answered yes, which screen magnification tool do you use?
-   - Open text box
-3. How long have you been using a screen magnification tool? Your best guess is okay.
-    - 0 - 1 years
-    - 2 - 4 years
-    - 5+ years
-    - Never used
-4. How frequently do you use screen magnification on VA.gov?
-   - Always
-   - Sometimes
-   - Rarely
-   - Never
-5. Can you join the Zoom session from your mobile or desktop device using the screen magnification tool you need to see your screen?
-   - Yes
-   - No
-   - This question doesn't apply to me
+7. How long have you been using this screen reader or screen magnifier?
+
+- Less than 1 year would disqualify them
+- At least 1 year would qualify them
+
+8. What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session? (open text field--RECORD what they say AND ask the rest of the questions)
+
+- If they say something non-digital like "magnifying glass, it would disqualify them
+- If they say "JAWS", "NVDA", "VoiceOver", "TalkBack", or "Narrator", RECORD as screen reader user, RECRUIT 6 and ask next question
+- If they say "Magnifier", "Zoom", "Magnification", "Magnifier", or "ZoomText", RECORD as screen magnifier user, RECRUIT 3 and ask next question
+- If they say "increase font size" or "zoom in the browser", ask what percentage they zoom to.
+- 	If 200% or greater, RECORD as screen magnifier user, RECRUIT 3, and ask next question
+- 	If unsure whether someone qualifies, please ask Christine
+
+9. Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.
+
+- No (ask next question)
+- Yes (RECRUIT 5, RECORD as having a cognitive disability)
 
 
 ## Timeline 🗓️
@@ -276,12 +235,15 @@ If Android, pleae request their email where an invitation to the testing link wi
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
 
-**A pilot session is required for each operating system and AT targeted. Please indicate the date and name of a mock participant for a pilot session.** 
+**A pilot session is required for each operating system and AT targeted (4 pilots total). Please indicate the date and name of a mock participant for a pilot session.** 
 > [!NOTE]
 > **Send pilot participant email in study Slack channel**
 
 - `Pilot participant name:` **[ADE Team Member]**
-- `Date and time of pilot session:` **[Pending]** 
+- `Date and time of pilot session iOS w/ a screen reader:` **[Pending]**
+- `Date and time of pilot session iOS w/ a screen magnifier:` **[Pending]**
+- `Date and time of pilot session Android w/ a screen reader:` **[Pending]**
+- `Date and time of pilot session Android w/ a screen magnifier:` **[Pending]** 
 
 ### Research sessions
 - `Planned dates of research:` **[10/22-10/29/25]**
