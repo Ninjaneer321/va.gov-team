@@ -3,8 +3,8 @@
 Research Plan 
 
 Team: Decision Reviews\
-Written by: [Kyra Berman-Gestring](mailto:kyra.berman-gestring@agile6.com) & [Lauren Dawson](mailto:lauren.dawson@agile6.com)\
-Last updated: Sep 2, 2025
+Written by: Kyra Berman-Gestring & Lauren Dawson
+</br>Last updated: Sep 5, 2025
 
 Uploaded to github:  Sep 2, 2025
 
@@ -15,7 +15,7 @@ Following the enactment of the Veterans Appeals Improvement and Modernization Ac
 
 Despite these options, navigating the AMA review process remains challenging for Veterans. Many struggle to identify the appropriate Decision review path for their situation, leading to frequent missteps, delays in claim resolution, and sometimes unfavorable outcomes. Confusion is often compounded by unclear distinctions between certain choices—such as knowing when to file a Supplemental Claim versus a Claim for Increase (CFI)—or by missing deadlines and not understanding what to do next.
 
-To address these gaps and to assist Veterans in selecting the appropriate pathway, we are developing a new unauthenticated tool, the Decision Review Guide. This new tool introduces a guided, interactive experience on [VA.gov](http://va.gov), which aims to improve the Veteran journey by offering clear, context-sensitive guidance and reducing friction caused by uncertainty, incorrect submissions, and fragmented information sources. This tool will use a guided, “wizard-style” experience to help Veterans navigate the complex decision review landscape. By tailoring questions to each individual’s circumstances, the tool aims to guide the user to recommend appropriate review options for their circumstance, with clear reasoning as to why certain options may be a good fit, and others may not. 
+To address these gaps and to assist Veterans in selecting the appropriate pathway, we are developing a new unauthenticated tool, the guide "Explore disability claim decision review options". This new tool introduces a guided, interactive experience on [VA.gov](http://va.gov), which aims to improve the Veteran journey by offering clear, context-sensitive guidance and reducing friction caused by uncertainty, incorrect submissions, and fragmented information sources. This tool will use a guided, “wizard-style” experience to help Veterans navigate the complex decision review landscape. By tailoring questions to each individual’s circumstances, the tool aims to guide the user to recommend appropriate review options for their circumstance, with clear reasoning as to why certain options may be a good fit, and others may not. 
 
 Product Brief \[[Github](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/decision-reviews/Enhanced-DR-Onramp-Initiative%20Brief.md)]
 
@@ -54,7 +54,7 @@ This research will be an initial study of this new feature, and will inform how 
 
 ## **Research Questions** 
 
-- **Goal 1, Usability of flow:** Evaluate the usability of the Decision Review Guide screen flow
+- **Goal 1, Usability of flow:** Evaluate the usability of the guide, "Explore disability claim decision review options" screen flow
 
   - Do participants understand what the outcomes of using the tool will be before they start?
 
@@ -99,7 +99,7 @@ This research will be an initial study of this new feature, and will inform how 
 
 ## **Methodology**
 
-This research approach is for remote moderated usability testing of the decision review Guide, using a coded-prototype on staging.VA.gov. These sessions will include a semi-structured interview at the beginning to gauge participant’s prior understanding of the decision review process. The usability test will ask participants to use information about their personal scenario to guide them through the flow and observe task completion and thought process. The session will end with a follow-up interview to assess the impact of the flow on the participant experience and understanding of decision review options.  
+This research approach is for remote moderated usability testing of the guide, "Explore disability claim decision review options", using a coded-prototype on staging.VA.gov. These sessions will include a semi-structured interview at the beginning to gauge participant’s prior understanding of the decision review process. The usability test will ask participants to use information about their personal scenario to guide them through the flow and observe task completion and thought process. The session will end with a follow-up interview to assess the impact of the flow on the participant experience and understanding of decision review options.  
 
 
 ## **Location**
@@ -113,7 +113,7 @@ We will run a moderated usability study remotely on Zoom. 
 
 2. Mock-ups of what we will test in staging \[[Figma](https://www.figma.com/design/5vAWK3wpBkJgG7ngLXYmht/Onramping-Tool?node-id=122-8973&t=fQYJ9qkpWYLokAPc-1)]
 
-
+3. Prototype in staging (in progress, estimated completion date Wednesday Sept. 17, 2025) \[[Staging](https://staging.va.gov/decision-reviews/onramp-to-dr)]
 ## **Recruitment** 
 
 We will work with Perigean to recruit Veterans for this research.
@@ -309,37 +309,37 @@ Place time slots between hash marks when in edit mode.
 
 ## **Team Roles** 
 
-## **Moderator:** [**Kyra Berman-Gestring**](mailto:kyra.berman-gestring@agile6.com) **&** [**Lauren Dawson**](mailto:lauren.dawson@agile6.com)
+## **Moderator:** **Kyra Berman-Gestring** **&** **Lauren Dawson**
 
-- Research guide writing and task development (usually but not always same as moderator): [Kyra Berman-Gestring](mailto:kyra.berman-gestring@agile6.com) & [Lauren Dawson](mailto:lauren.dawson@agile6.com)
+- Research guide writing and task development (usually but not always same as moderator): Kyra Berman-Gestring & Lauren Dawson
 
-- Participant recruiting & screening: [Kyra Berman-Gestring](mailto:kyra.berman-gestring@agile6.com) & [Lauren Dawson](mailto:lauren.dawson@agile6.com)
+- Participant recruiting & screening: Kyra Berman-Gestring & Lauren Dawson
 
-- Project point of contact: [Kyra Berman-Gestring](mailto:kyra.berman-gestring@agile6.com)
+- Project point of contact: Kyra Berman-Gestring
 
-- Accessibility specialist (for sessions where support for assistive technology may be needed): [Tracy Tran](mailto:tracy.tran@agile6.com)
+- Accessibility specialist (for sessions where support for assistive technology may be needed): Tracy Tran
 
-- Note-takers: [Kyra Berman-Gestring](mailto:kyra.berman-gestring@agile6.com), [Lauren Dawson](mailto:lauren.dawson@agile6.com), <julie.strothman@va.gov>
+- Note-takers: Kyra Berman-Gestring, Lauren Dawson, Julie Strothman
 
 - Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 3 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.
 
-  - <ccrumlish@kindsys.us>
+  - Chrisitan Crumlish
 
-  - [Pam Macalintal](mailto:pam.macalintal@agile6.com)
+  - Pam Macalintal
 
-  - <gxu@kindsys.us>
+  - Grace Xu
 
-  - <jsea@kindsys.us>
+  - Jerry Sea
 
-  - <rmays@kindsys.us>
+  - Randi Mays
 
-  - <julie.strothman@va.gov>
+  - Julie Strothman
 
-  - <amy.lai2@va.gov>
+  - Amy Lai
 
-  - <cindy.lackey@coa.solutions>
+  - Cindy Lackey
 
-  - <cory.sohrakoff@va.gov>
+  - Cory Sohrakoff
 
   - & others TBD
 
