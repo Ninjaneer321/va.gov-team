@@ -11,8 +11,8 @@ This initiative focuses on improving the veteran experience by displaying health
 - [Figma for on-screen Intro page status messaging](https://www.figma.com/design/FIol4hCGVx9eTrY0AXDmnl/10-10EZR-Production?node-id=2711-51591&t=KDXhIY7IbTMot5EV-1)
 - [10-10EZR Form Statuses GitHub Folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/health-update-form/Form%20Statuses)
 - [VFF and MyVA submission statuses research](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues?q=is%3Aissue+label%3A%22DSP%3A+Help%20users%20to%20stay%20informed%20of%20app%20status%22)
-- [My VA: Benefit Applications and Forms Use Cases](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases)
-- [Figma file on Form Statuses](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=2049-36392&p=f&t=8FmjsddG1O9L4aoJ-0)
+- [MyVA: Benefit Applications and Forms Use Cases](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases)
+- [MyVA: Figma file on Form Statuses](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=2049-36392&p=f&t=8FmjsddG1O9L4aoJ-0)
 - [Form Statuses on MyVA MVP - Project Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/forms-status-on-My-VA/README.md)
 - [MyVA Epic #81849](https://github.com/department-of-veterans-affairs/va.gov-team/issues/81849)
 ---
@@ -23,6 +23,7 @@ This initiative focuses on improving the veteran experience by displaying health
 
 **Related/Associated product(s)**
 - VA Healthcare Application (10-10EZ) | [Product outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/10-10EZ%20Health%20Care%20Application%20-%20Product%20Outline.md)
+- MyVA Dashboard | [Product outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/README.md)
 
 ## Problem
 
@@ -94,13 +95,18 @@ This work is requested by Design Lead (Lois Lewis) based on identified user need
 - Understand veteran mental models for application progress
 - Identify any additional statuses or information veterans need
 
+This work is supported by existing research:
+- [VFF and MyVA submission statuses research](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues?q=is%3Aissue+label%3A%22DSP%3A+Help%20users%20to%20stay%20informed%20of%20app%20status%22)
+- Design Lead (Lois Lewis) request based on identified user needs
+- Existing MyVA form status patterns and research from Benefits forms work
+
 ### What're you building?
 
 **In scope:**
 - Display of healthcare application statuses ('In Process,' 'Enrolled,' 'Declined,' 'Pending more information') on appropriate VA.gov personalized pages
 - Clear guidance on next steps for each status
-- Integration with existing MyVA healthcare section
-- Responsive design that works across devices
+- Possible integration with existing MyVA healthcare section
+- Additional notifications through VA Notify, or working with HEC to develop a staff-side process
 
 **Explicitly not included:**
 - Changes to the actual healthcare application form
@@ -108,26 +114,10 @@ This work is requested by Design Lead (Lois Lewis) based on identified user need
 - New notification systems (email/SMS alerts)
 - Historical status tracking or timeline views
 
-**Mobile application consideration:**
-Building for VA Health and Benefits mobile app should be considered as a future iteration to ensure consistent experience across platforms.
-
 **How this addresses Assumptions & Risks:**
 - User research will validate value and usability assumptions
 - Technical spikes will address feasibility concerns
 - Stakeholder engagement will ensure organizational viability
-
-#### Go-to-market
-
-**Marketing/Communications:**
-- Announcement through VA communication channels about improved status visibility
-- Training for VA call center staff on new status display locations
-- Documentation updates for veteran-facing support materials
-
-**Necessary groups/orgs:**
-- VA Healthcare Enrollment teams
-- MyVA product team
-- VA.gov Platform team
-- Veterans Experience Office (VEO)
 
 ---
 
@@ -154,7 +144,7 @@ Building for VA Health and Benefits mobile app should be considered as a future 
 - Development completion: [TBD]
 - Staged rollout beginning: [TBD]
 
-* [Link to Release Plan for this Initiative](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/release-plan-template.md) - TBD
+* [Link to Release Plan for this Initiative] - TBD
 
 #### Initiative Launch Dates
 
@@ -166,7 +156,15 @@ Building for VA Health and Benefits mobile app should be considered as a future 
 ## Screenshots
 
 ### Before
-[Screenshots of current MyVA healthcare section and form introduction page status display]
+- MyVA dashboard showing application saved with "Draft" label (not yet submitted)
+     - <img width="470" height="268" alt="image" src="https://github.com/user-attachments/assets/db619667-c400-4465-baa4-7543d93aeb16" />
+
+- MyVA dashboard showing Health Care section with various links to manage health care details. (Veteran is enrolled, this is what displays)
+     - <img width="785" height="314" alt="image" src="https://github.com/user-attachments/assets/ea643314-29f6-45a7-a10e-173c0ab697a1" />
+
+
+- Alerts that display on 10-10EZ for various statuses
+     - [Mural board](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1683651181051/e0f47b9aaefbf78a3942df3028525cdc4336caff)
 
 ### After
 [Mockups of enhanced status display on personalized pages]
@@ -179,10 +177,10 @@ Building for VA Health and Benefits mobile app should be considered as a future 
 
 <details>
 
-- Team Name: [Health Applications Team]
-- GitHub Label(s): [1010-team, 10-10ezr, 1010-form-status]
-- Slack channel: [1010-health-apps]
-- Product POCs: [Heather Justice]
+- Team Name: Health Applications Team
+- GitHub Label(s): 1010-team, 10-10ez, 1010-form-status
+- Slack channel: 1010-health-apps
+- Product POCs: Heather Justice
 
 </details>
 
@@ -192,11 +190,11 @@ Building for VA Health and Benefits mobile app should be considered as a future 
 
 <details>
 
-- Office/Department: OCTO-DE MyVA Team / Personalization
-- Contact(s): [TBD]
+- Office/Department: OCTO-DE Product Owner
+     - Contact(s): Patrick Bateman, Premal Shah
 
 - Office/Department: VA Healthcare Enrollment & Eligibility
-- Contact(s): [Angela Fulton, Simone Gully, Amanda Scully, April Mims]
+     - Contact(s): Angela Fulton, Simone Gully, Amanda Scully, April Mims
 
 </details>
 

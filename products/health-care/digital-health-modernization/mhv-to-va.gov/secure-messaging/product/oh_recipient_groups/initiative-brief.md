@@ -1,4 +1,4 @@
-# VA.gov message Oracle Health recipient groups
+# VA.gov message Oracle Health recipient groups (Update Start New Message Flow)
 #### Overview
 
 VA.gov will become the exclusive web interface for patients at EHRM transitioned ("Oracle Health") facilities. To accomplish this goal, the VA.gov messages tool will need to accomodate a new type of recipient group. This initiative will make conforming changes to the existing VA.gov messaging tool for those new EHRM/Oracle Health recipient groups.
@@ -6,14 +6,16 @@ VA.gov will become the exclusive web interface for patients at EHRM transitioned
 ---
 
 ## Outcome Summary
-Patients can message their providers from VA.gov regardless of which EHR their provider is using.
+Patients can message their providers from VA.gov regardless of which EHR-Oracle Health Facility their provider is using.
 
 **Related/Associated product(s)**
 
 [VA.gov messages product outline](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/product)
 
 ## Problem
-The incoming EHRM/Oracle Health recipient objects (alternately called "Group Inboxes" or "Message Pools") do not align with the existing MHV- and VistA-based recipient objects ("triage groups"). Specifically, there is no avaialble patient-to-recipient object mapping at present for EHRM/Oracle Health recipient objects. So the VA.gov messages tool must be  modified to help the user find the correct EHRM/Oracle Health recipient object.
+The incoming EHRM/Oracle Health recipient objects (alternately called "Group Inboxes" or "Message Pools") do not align with the existing MHV- and VistA-based recipient objects ("triage groups"). Specifically, there is no avaialble patient-to-recipient object mapping at present for EHRM/Oracle Health recipient objects. The VA.gov messages tool must be  modified to help the user find the correct EHRM/Oracle Health recipient object.
+_
+
 
 **As a Veteran with Oracle Health facilities in my profile, I need to be able to find and select the care team when I send a new message, so that I can continue to manage my care and communicate with my providers.**
 
@@ -27,26 +29,29 @@ If we change the user flow for sending a new message then we expect it will be a
 - We assume that the EHRM/Oracle Health recipient objects and messaging APIs operate as stated in production
 - We assume there is no reliable way to get patient-to-recipient mappings for EHRM/Oracle Health recipient objects
 
-### What're you building
-Patients that are treated at an EHRM transitioned facility will be asked to select a facility before proceeding to the compose screen. If the facility selected is an EHRM transitioned facility, the messages tool will use this facility selection to narrow down the list of potential EHRM/Oracle Health recipients from system-wide to just those associated with the selected facility.
+### What we are building
+Patients that are treated at an EHRM-OH transitioned facility will be asked to select a facility before proceeding to the compose screen. If the facility selected is an EHRM-OH transitioned facility, the messages tool will use this facility selection to narrow down the list of potential EHRM/Oracle Health recipients from system-wide to just those associated with the selected facility.
 
 ## Product Outline (Background)
 
 ## MVP: Update Start a New Message Flow
 
-EPIC: https://github.com/orgs/department-of-veterans-affairs/projects/1729/views/1?pane=issue&itemId=123015170&issue=department-of-veterans-affairs%7Cva.gov-team%7C116017
-
 **Summary:** The "send a new message" flow must expand into additional screens in order to accommodate variations in data for triage groups that come in from Oracle Health. This work is "done" when Veterans can message providers at facilities operating on either EHR successfully.
+
+
+**EPIC:** https://github.com/orgs/department-of-veterans-affairs/projects/1729/views/1?pane=issue&itemId=123015170&issue=department-of-veterans-affairs%7Cva.gov-team%7C116017
+
 
 ## Hypothesis
 
 If we change the user flow for sending a new message then we expect it will be able to accommodate very different data structure for triage groups coming from Oracle Health, so that any user will be able to send a new message no matter what EHR their facility runs on.
 
 ## Post MVP: Add Recent Recipient Flow
+**Note: As part of the launch plan, we will launch both MVP and Post MVP as one product**.
 
-EPIC: https://github.com/orgs/department-of-veterans-affairs/projects/1729/views/1?pane=issue&itemId=126050940&issue=department-of-veterans-affairs%7Cva.gov-team%7C117885
 
 **Summary:**
+In our Post MVP, we are adjusting the flow to include shortcut for recent recipients, 
 
 -Building out a new "shortcut" screen at va.gov/my-health/secure-messages/new-message/recent to allow Veterans to quickly identify -their most recently messaged care providers
 
@@ -55,7 +60,7 @@ EPIC: https://github.com/orgs/department-of-veterans-affairs/projects/1729/views
 -Adjusting the flow for users who do not have any recent recipients
 
 
-Governance rules around "recent" care teams include:
+**Governance rules around "recent" care teams include:**
 
 (1) Up to 4 teams (no more than 4 to display)
 
@@ -63,16 +68,17 @@ Governance rules around "recent" care teams include:
 
 (3) Within the last 6 months
 
+**EPIC**: https://github.com/orgs/department-of-veterans-affairs/projects/1729/views/1?pane=issue&itemId=126050940&issue=department-of-veterans-affairs%7Cva.gov-team%7C117885
 
-## Measuring Success (Confirmed September 2025)
+## Measuring Success (Plan Post Launch)
 
-(1) Data Dog: Increasing DD collection to 100% for those users on the new flow
+(1) **Data Dog**: Increasing DD collection to 100% for those users on the new flow
 
-(2) Error rates - the base for comparison, data from the new flow can be separated out and compared to base. This will require some eng capacity (estimated a full day for dashboard build)
+(2) **Error rates** - the base for comparison, data from the new flow can be separated out and compared to base. This will require some eng capacity (estimated a full day for dashboard build)
 
-(3) CSAT - continue to monitor CSAT for the base, and the new flows. We should be able to break out the new flows with URLs and compare feedback.
+(3) **CSAT** - continue to monitor CSAT for the base, and the new flows. We should be able to break out the new flows with URLs and compare feedback.
 
-(4) Messsages- Number of messages successfully submitted by platform - this is already tracked
+(4)**Messsages**- Number of messages successfully submitted by platform - this is already tracked
 
 
 
@@ -87,14 +93,18 @@ Governance rules around "recent" care teams include:
 
 ## Launch Planning
 
-**Release Guide**: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/Release%20Plan-OHSMFlow-MVP.md
+#### September 2025
+
+**Release Guide** (In progress) : https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/Release%20Plan-OHSMFlow-MVP.md
 
 ### Collaboration Cycle
 View all related tickets [in this view](https://github.com/department-of-veterans-affairs/va.gov-team/issues?q=is%3Aissue%20state%3Aopen%20OH%20curated%20list)
 
 **MVP Collab Cycle Ticket** (September 2025): https://github.com/orgs/department-of-veterans-affairs/projects/1729/views/1?pane=issue&itemId=2818596889&issue=department-of-veterans-affairs%7Cva.gov-team%7C102015
 
-Post MVP Collab Cycle Ticket (September 2025); https://github.com/orgs/department-of-veterans-affairs/projects/1729/views/1?pane=issue&itemId=3380177653&issue=department-of-veterans-affairs%7Cva.gov-team%7C118453
+**Post MVP Collab Cycle Ticket**(September 2025); https://github.com/orgs/department-of-veterans-affairs/projects/1729/views/1?pane=issue&itemId=3380177653&issue=department-of-veterans-affairs%7Cva.gov-team%7C118453
+
+___________________________________________________________________________________________________________________________________________
 
 #### Jan 2025 
 - [Kickoff ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/102015)

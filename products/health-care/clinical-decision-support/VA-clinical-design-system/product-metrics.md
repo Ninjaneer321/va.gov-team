@@ -5,21 +5,21 @@
 #### Adoption, total # of components
 |	Group	|	FY25 Q1 |	FY25 Q2 |	FY25 Q3 |	FY25 Q4 |
 |	----	|	----	|	----	|	----	|	----	|	
-|	Platform console	|	-	|	8	|	-	|	-	|
-|	Task manager	|	-	|	24	|	-	|	-	|
-|	My WorkWeek	|	-	|	20	|	-	|	-	|
-|	Med Calculators	|	-	|	13	|	-	|	-	|
-|	Lung Cancer Screening	|	-	|	14	|	-	|	-	|
+|	Platform console	|	-	|	8	|	11	|	-	|
+|	Task manager	|	-	|	24	|	11	|	-	|
+|	My WorkWeek	|	-	|	20	|	21	|	-	|
+|	Med Calculators	|	-	|	13	|	21	|	-	|
+|	Lung Cancer Screening	|	-	|	14	|	22	|	-	|
 
 
 #### Design system growth 
 |	Metric	|	FY25 Q1 |	FY25 Q2 |	FY25 Q3 |	FY25 Q4 |
 |	----	|	----	|	----	|	----	|	----	|	
-|	Bug fixes	|	-	|	-	|	3	|	-	|		
+|	Bug fixes	|	-	|	3	|	4	|	-	|		
 |	Contributions adopted	|	-	|	-	|	2	|	-	|
-|	Tokens created	|	-	|	-	|	1	|	-	|
-|	Components created	|	-	|	-	|	-	|	-	|
-|	Patterns created	|	-	|	1	|	1	|	-	|
+|	Tokens created	|	-	|	-	|	6 |	3	|
+|	Components created	|	-	|	-	|	3	|	2	|
+|	Patterns created	|	-	|	1	|	1	|	3	|
 
 
 #### Contributions to other design systems 
@@ -29,7 +29,23 @@
 |	Contributions to USWDS design system	|	-	|	1	|	1	|	-	|
 
 ---
+
 ## Synthesis
+### FY25 Q3 Summary
+**Usage of Clinical Design System** At the end of June 2025, we surveyed teams on their usage of the Clinical Design System. The metrics indicate that each team is continuing their effort to use the Clinical Design System. The Clinical Decision Support Collaborative has five product teams. The commonly used are the alert, button, date picker, icon, link, modal, and select components. Commonly used is defined as implemented by 4 - 5 teams. 
+
+The Design System had 42 components/pattern as of the end of June 2025. Of these, 35 components/pattern are in use. Compared to the previous quarter, two components were added to the Design System and three more components are in use by at least one team. All teams are working towards adopting the Design System. Medical Calculator has identified 3 components that can be replaced. All teams anticipate using the new header once available in the following quarter.
+
+Previously, the use of tokens were not tracked. The introduction of this question identified 4 out of 5 teams are using the tokens including Console, Medical Calculator, My Workweek, and Task Manager. The tokens surveyed were theme color, state color, spacing, and font tokens.
+
+**Mutual Support within the Collaborative** More has been added or were contributed. The header component was contributed by Task Manager and enhanced by Clinical DS to include the patient name and SSN. This MVP iteration #1 was implemented by Console. The typography tokens received multiple design collaboration from all teams in HCD Community of Practice to ensure the values are applicable to the clinical environment.
+
+The drawer is the latest pattern release. Applicable teams provided support in discovery sessions. The pattern is anticipated to be adopted by at least two teams that plan to use the drawer with the data grid.
+
+#### Reference
+- [FY25 Q3 Survey](https://dvagov.sharepoint.com/:x:/r/sites/CDSProgramTeam/Shared%20Documents/General/Clinical%20Design%20System/Clinical%20DS%20Metrics/FY25%20Q3%20VA%20Clinical%20Design%20System%20Usage%20Metrics.xlsx?d=w5eb09c25037e400ab292b56a712d4b7c&csf=1&web=1&e=xzV55V)
+- [FY25 Q3 Synthesis](https://dvagov.sharepoint.com/:x:/r/sites/CDSProgramTeam/Shared%20Documents/General/Clinical%20Design%20System/Clinical%20DS%20Metrics/FY25%20Q3%20Synthesis%20of%20VA%20CDS%20Design%20System%20Usage%20Metrics.xlsx?d=w8ef985410ad14734b402bb309f15ac8e&csf=1&web=1&e=p9URjX)
+
 ### FY25 Q2 Summary
 (added June 4, 2025 )
 
