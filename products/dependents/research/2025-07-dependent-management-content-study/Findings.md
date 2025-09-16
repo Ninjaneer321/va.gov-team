@@ -17,17 +17,23 @@ We had three main questions for the content portion of this study.
 
 `1.` **What type of content on the "Your VA dependents" page, especially in the alert box, is most effective in helping Veterans understand and complete the dependents verification process?**
 
-- **Findings:** Responses were very similar in Design A and Design B. After looking at the page including the alert box, participants said that they would make any changes that were necessary to their dependents. They also mentioned checking to see if their dependents were correct but did not seem to realize they should click on the link to document that their dependents were correct. Also, when asked about the alert box half of partcipants viewing Design A said they didn't see, remember, or read the alert.
+- **Findings:** Responses were very similar in Design A and Design B. After looking at the page including the alert box, participants said that they would make any changes that were necessary to their dependents. They also mentioned checking to see if their dependents were correct but did not seem to realize they should click on the link to document that their dependents were correct. Both of these actions are positive but don't lead to Veterans filling out the Verification form.
+     Also, when asked about the alert box half of partcipants viewing Design A said they didn't see, remember, or read the alert.
 
 `2.` **How is it most natural for Veterans to respond after reviewing the current state of the dependents on their benefits?**
 - **By indicating Yes they need to make changes or No they do not need to make changes**
 - **OR by indicating Yes the current information is correct or No the current information is not correct**
 
+- **Findings:** We did not get enough data to answer this question.
+
 `3.` **Do Veterans understand that if they need to make changes to the dependents on their VA benefits they will need to fill out an additional form or forms?** 
+
+- **Findings:** Based on what we saw or heard in recordings, Veterans did read the content explaining that they would need to fill out additional forms. Most did not comment on needing to fill out an additional form.
+  When asked "If you left and came back to VA.gov, where would you expect to find information about about the additional forms to complete to finish updating your dependents?", about half of dependents answered their Profile.
   
 
 ## Data
-These findings are an analysis of the answers participants gave to pre-study, prototype, and post-study questions. The pre-study and post-study findings group answers from participants who viewed Designs A and B together. The prototype question analysis is broken down into the two designs.
+This is an analysis of the answers participants gave to pre-study, prototype, and post-study questions. The pre-study and post-study findings group answers from participants who viewed Designs A and B together. The prototype question analysis is broken down into the two designs.
 
 
 ### Pre-study questions
@@ -38,12 +44,13 @@ These findings are an analysis of the answers participants gave to pre-study, pr
      - "Only at time of set up to make sure they are there."
      - "Recently I divorced and was checking weekly until that status was reflected in my account as well."
      - "Only when my rating went over 30%."
-     - they participants mentioned situations and timelines
+     - the participants mentioned situations and timelines
 - 3	viewed their dependents monthly
 - 7	viewed their dependents one to two times a year
 - 3	viewed their dependents occasionally
 - 4	viewed their dependents once
 - 1	misunderstood the question
+  (some participants responded both situational and another time period)
 
 #### When was the last time you viewed the dependents on your benefits on VA.gov?
 - 18 of the 19 participants had viewed their dependents on VA.gov
@@ -54,10 +61,11 @@ These findings are an analysis of the answers participants gave to pre-study, pr
 - 1 was unsure
 
 #### What causes you to view the dependents on your disability benefit on VA.gov? 
-- 18 of the 19 participants had viewed their dependents on VA.gov, 1 mentioned both checking and benefits
+- 18 of the 19 participants had viewed their dependents on VA.gov
 - 14	said to check or verify the information
 - 4 mention benefits and benefits other than disability compensation
 - 1 said the DV letter
+     (1 mentioned both checking and benefits)
 
 
 ### Prototype questions
@@ -81,7 +89,7 @@ These findings are an analysis of the answers participants gave to pre-study, pr
 - The next most common response was when they needed to be notified of something
 
 ##### Design B
-- Responses varied and included once a year, everytime they went to the page, and whenever they needed to be notified of something
+- Responses varied and included once a year, every time they went to the page, and whenever they needed to be notified of something
 
 #### Your VA dependents page: Is there any additional information you would like to see about your dependents to help you take the next step? If so, what?
 
@@ -131,6 +139,7 @@ These findings are an analysis of the answers participants gave to pre-study, pr
 ##### Design B
 - Responses were primarily either in their profile or with the dependents information
 
+
 ### Post-study questions
 
 #### Did this prototype change your understanding of dependent verification? If so, how?
@@ -161,7 +170,6 @@ These findings are an analysis of the answers participants gave to pre-study, pr
      - "To make sure you and your dependents are enabled to entitlements"
  
  #### Where on VA.gov would you expect to view your dependents?
- - some participants mentioned more than place
  - 9 mentioned the Profile page
  - 4 mentioned myVA
  - 3 mentioned other reasons
@@ -172,6 +180,7 @@ These findings are an analysis of the answers participants gave to pre-study, pr
 - 2 mentioned the Benefits section
 - 1 mentioned the Claim Status Tool
 - 1 mentioned the Dependents section
+  some participants mentioned more than place
 
 #### Would there ever be a case or cases where you would prefer dealing with an overpayment instead of updating your dependents right away? If so, when?
 - 16 said No
@@ -181,7 +190,6 @@ These findings are an analysis of the answers participants gave to pre-study, pr
 - 1 gave no response
 
 #### Is there anything about the dependent verification process that you just experienced that you think should be changed? If so, what?
-- some participants mentioned more than one thing
 - 9 said No
 - 9 had suggestions for the dependents management team
      - "I believe anything that allows you to update in real time would make the system better."
@@ -194,6 +202,7 @@ These findings are an analysis of the answers participants gave to pre-study, pr
      - "yeah I said it all in the recordings."
      - "It should provide you the status of your dependent claim, rather than having to look into the claim further."
   - 1 had a suggestion for the wider VA.gov experience
+       some participants mentioned more than one thing
  
 #### Is there anything about the dependent verification process that you just experienced that you thought was positive? If so, what?
 - 7 described the process as simple, easy, or something similar
