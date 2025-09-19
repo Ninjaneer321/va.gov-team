@@ -101,7 +101,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
 #### Rollout Planning
 
 - Desired date range:
-     - 8/26/2025 - 9/5/2025
+     - 9/10/2025 - 9/19/2025
 - How will you make the product available in production while limiting the number of users who can find/access it:
      - Feature Toggle limiting traffic to the application
 - What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?: 
@@ -119,7 +119,7 @@ Errors | 0 errors| TBD| TBD|
 
 - Links to the dashboard(s) showing "success criteria" metrics:
      - [Datadog dashboard](https://vagov.ddog-gov.com/dashboard/kjp-9wp-u47/10-10ezr?historicalData=true&index=&refresh_mode=sliding&view=spans&from_ts=1703092684168&to_ts=1703179084168&live=true)
-     - [Google Analytics - EZR Events](https://analytics.google.com/analytics/web/#/analysis/p419143770/edit/B1BuF9JgTgCgLV3cx4EB4Q)
+     - [Google Analytics - EC/NOK page views, times, bounce rate](https://analytics.google.com/analytics/web/#/analysis/a50123418p419143770/edit/2WPX-DusRIGerZ50hBBSNg)
 - Who is monitoring the dashboard(s)?:
      - Product Manager - Alexandria Parker, Heather Justice
      - Data Analyst - Luis Simauchi
@@ -133,7 +133,7 @@ Errors | 0 errors| TBD| TBD|
 #### Planning
 
 - Length of time:
-     - 8/26/2025
+     - 9/10/2025 - 9/15/2025
 - Percentage of Users (and roughly how many users do you expect this to be):
      - 5% of authenticated Veterans
      - About 8 submissions per day
@@ -153,7 +153,7 @@ Errors | 0 errors| TBD| TBD|
 #### Planning
 
 - Length of time:
-     - 8/27/2025 - 8/28/2025
+     - 9/15/2025 - 9/16/2025
 - Percentage of Users (and roughly how many users do you expect this to be):
      - 25% of authenticated Veterans
      - about 41 submissions per day
@@ -174,7 +174,7 @@ Errors | 0 errors| TBD| TBD|
 #### Planning
 
 - Length of time:
-     - 8/29/2025 - 9/2/2025
+     - 9/17/2025 - 9/18/2025
 - Percentage of Users (and roughly how many users do you expect this to be):
      - 75% of authenticated Veterans
      - about 124 submissions per day
@@ -192,7 +192,7 @@ Errors | 0 errors| TBD| TBD|
 #### Planning
 
 - Length of time:
-     - 9/2/2025
+     - 9/19/2025
 - Percentage of Users (and roughly how many users do you expect this to be):
      - 100% of authenticated Veterans
      - about 1,000 per week

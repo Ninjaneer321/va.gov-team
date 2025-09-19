@@ -1,8 +1,8 @@
 # Discovery: Document Upload Date Display Bug
 
 ## Issues:
-- [[CST] [BUG] Evening file submissions display next day as submission date #117391](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117391)
 - [[CST] [Bug] Document Upload Receipts appearing in the future (Date/time discrepancy) #119384](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119384)
+- [[CST] [BUG] Evening file submissions display next day as submission date #117391](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117391)
 
 ## Table of Contents
 - [Problem Statement](#problem-statement)
@@ -12,7 +12,7 @@
 - [What are the Timezone Handling Patterns Across VA.gov?](#what-are-the-timezone-handling-patterns-across-vagov)
 - [Where This Bug Impacts Veterans](#where-this-bug-impacts-veterans)
 - [Solution: Return ISO 8601 Timestamps](#solution-return-iso-8601-timestamps)
-- [Brainstorm of Possible UX Improvements While Awaiting API Fix](#brainstorm-of-possible-ux-improvements-while-awaiting-api-fix)
+- [Brainstorm of Possible UX Improvements](#brainstorm-of-possible-ux-improvements)
 - [Appendix A: Detailed Technical Flow](#appendix-a-detailed-technical-flow)
 - [Appendix B: Additional Affected Areas](#appendix-b-additional-affected-areas)
 
@@ -33,23 +33,25 @@ This is a real screenshot from a user in which this Example Scenario was created
    - What timezone defines the legal deadline for evidence submission (UTC, ET, or local)?
    - How should dates be displayed to ensure veterans understand deadline compliance?
    - See: [What are the VA.gov Deadline Rules?](#what-are-the-vagov-deadline-rules)
+   - [Slack thread (awaiting Policy response)](https://dsva.slack.com/archives/C04KHCT3ZMY/p1757971411069799?thread_ts=1757086065.011539&cid=C04KHCT3ZMY)
 
-2. **What is the Platform Standard for Timezone Display?**
-   - Given the different timezone patterns currently in use across VA.gov (as documented above), which pattern is most appropriate for claims data: user's local time, Eastern Time, or UTC?
-   - See: [What are the Timezone Handling Patterns Across VA.gov?](#what-are-the-timezone-handling-patterns-across-vagov)
-
-3. **Can Lighthouse Return ISO 8601 Timestamps?**
+2. **Can Lighthouse Return ISO 8601 Timestamps?**
    - Is the Lighthouse team able to modify their API to return full timestamps?
    - Are there any technical constraints preventing this?
    - What is the timeline for implementing this change?
    - See: [Solution: Return ISO 8601 Timestamps](#solution-return-iso-8601-timestamps)
+   - [Slack thread (awaiting Lighthouse Response)](https://dsva.slack.com/archives/C063D0M76HX/p1758124770901769)
 
-4. **Should We Implement UX Improvements While Awaiting the API Fix?**
+3. **Should We Implement UX Improvements While Awaiting Answers from Policy and Lighthouse?**
    - Would removing the local date from the upload notification reduce confusion?
-   - Would showing both UTC and local times in upload notification reduce confusion?
    - Should we add disclaimers to the Documents Filed and Recent Activity sections?
    - How can we best communicate the timezone issue to veterans without causing more confusion?
-   - See: [Brainstorm of Possible UX Improvements While Awaiting API Fix](#brainstorm-of-possible-ux-improvements-while-awaiting-api-fix)
+   - See: [Brainstorm of Possible UX Improvements](#brainstorm-of-possible-ux-improvements)
+
+4. **What is the Platform Standard for Timezone Display?**
+   - Given the different timezone patterns currently in use across VA.gov (as documented above), which pattern is most appropriate for claims data: user's local time, Eastern Time, or UTC?
+   - See: [What are the Timezone Handling Patterns Across VA.gov?](#what-are-the-timezone-handling-patterns-across-vagov)
+
 
 ## Root Cause Analysis
 
@@ -98,31 +100,96 @@ There is no consistent timezone handling pattern across VA.gov applications. Dif
 ### 1. User's Local Timezone
 Applications that detect and use the user's browser timezone:
 - **MHV Medical Records**: Uses `Intl.DateTimeFormat().resolvedOptions().timeZone` to detect user's timezone
+  - File: `src/applications/mhv-medical-records/util/helpers.js:393-397`
+  - Code:
+  ```javascript
+  const timeZonePart = new Intl.DateTimeFormat('en-US', {
+    timeZoneName: 'short',
+  })
+    .formatToParts(date)
+    .find(part => part.type === 'timeZoneName')?.value;
+  ```
 - **MHV Secure Messaging**: Uses `moment.tz.guess()` for timezone detection
-- **Platform utility `formatDateLong`**: Uses `parseISO()` which automatically converts UTC to browser's local timezone
-- **Travel-pay**: Uses `utcToZonedTime()` without specifying timezone (defaults to local)
-- **Personalization/Dashboard**: Detects user's timezone for displaying dates
+  - File: `src/applications/mhv-secure-messaging/util/helpers.js:106,121`
+  - Code: `const timeZone = moment.tz.guess();`
+- **Note**: Many applications that display dates in user's local timezone use the platform utility `formatDateLong`, which internally uses `parseISO()` to convert UTC timestamps to the browser's local timezone
 
 ### 2. Fixed Eastern Time
 Applications that always display in Eastern Time:
 - **Ask-VA**: Explicitly converts all dates to `'America/New_York'` and appends "E.T." suffix
+  - File: `src/applications/ask-va/config/helpers.jsx:742-745`
+  - Code:
+  ```javascript
+  return formatInTimeZone(
+    utcDate,
+    'America/New_York',
+    "MMM. d, yyyy 'at' h:mm aaaa 'E.T'",
+  ```
 - **Appeals**: Falls back to `'America/New_York'` when timezone detection fails
 
-### 3. Entity-Specific Timezone
-Applications that use the timezone of the related entity:
-- **VAOS (Appointments)**: Uses `formatInTimeZone(appointmentDate, appointment.timezone, ...)` - displays in the facility's timezone
+### 3. Facility-Specific Timezone
+Applications that use the timezone of the VA facility:
+- **VAOS (Appointments)**: Uses facility-specific timezones based on facility ID
+  - File: `src/applications/vaos/services/appointment/transformers.js:82`
+  - Code: `getTimezoneByFacilityId(appt.locationId);`
+  - File: `src/applications/vaos/utils/timezone.js:68-71`
+  - Code:
+  ```javascript
+  export function getTimezoneByFacilityId(id) {
+    if (!id) return null;
+    // Maps facility IDs to IANA timezones like 'America/Chicago', 'America/New_York', etc.
+  }
+  ```
 - **Check-in**: Uses `utcToZonedTime(startTime, appointmentToFile.timezone)` - uses appointment's timezone
+  - File: `src/applications/check-in/travel-claim/pages/complete/TravelClaimSuccessAlert.jsx:32-36`
+  - Code:
+  ```javascript
+  date: utcToZonedTime(
+    appointmentToFile.startTime,
+    appointmentToFile.timezone,
+  ),
+  ```
 
 ### 4. Conditional Logic
 Applications with complex rules:
 - **Events**: If user is in US, uses their local timezone; otherwise uses event's timezone or defaults to Eastern Time
+  - File: `src/applications/static-pages/events/components/Results/index.js:12-16,38-40`
+  - Code:
+  ```javascript
+  const getUserTimeZone = () => Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const isUserInUS = () => {
+    const userTimeZone = getUserTimeZone();
+    return userTimeZone.startsWith('America/');
+  };
+  // Later in component:
+  const userTimeZone = getUserTimeZone();
+  const useUserTimeZone = isUserInUS();
+  ```
 
 ### 5. No Timezone Handling (Date-Only)
 Applications receiving date-only strings without timezone information:
 - **Claims-status**: Currently receives date-only strings from Lighthouse API, cannot perform timezone conversion
 - **Personalization/Dashboard (claims display)**: Works around date-only limitation with `replaceDashesWithSlashes` helper
+  - File: `src/applications/personalization/dashboard/utils/date-formatting/helpers.js:7-9`
+  - Code:
+  ```javascript
+  export const replaceDashesWithSlashes = date => {
+    return date.replace(/-/g, '/');
+  };
+  ```
+  - Usage: `src/applications/personalization/dashboard/utils/getStatusContents.jsx:57`
+  - Code: `new Date(replaceDashesWithSlashes(details.lastSocDate))`
+  - Note: This workaround is needed because JavaScript's `new Date()` interprets "2025-08-16" as UTC but "2025/08/16" as local time
 
-This inconsistency across VA.gov reinforces that there is no single "correct" approach - the appropriate timezone handling depends on the specific use case and legal requirements of each application.
+### Platform Standard
+The VA.gov platform provides a `formatDateLong` utility (src/platform/utilities/date) that handles date formatting for both timestamps and date-only strings. When given full ISO 8601 timestamps, it converts from UTC to the user's local timezone for display. For example, "2025-08-16T02:18:00.000Z" (2:18 AM UTC on August 16) would display as "August 15, 2025" for a user in EDT because 2:18 AM UTC is 10:18 PM EDT the previous day. This utility is used by multiple applications across VA.gov, suggesting the platform's intended pattern is to display dates in the user's local timezone when timestamp data is available.
+
+However, when given date-only strings like "2025-08-16" (which is what Claims Status Tool receives from Lighthouse), no timezone conversion occurs - the date displays as "August 16, 2025" regardless of the user's timezone. Claims Status Tool uses this utility but cannot benefit from its timezone conversion capability.
+
+Despite the platform utility's preference for local timezone display, the inconsistency across VA.gov applications reflects legitimate business needs. Ask-VA uses Eastern Time for consistency across support channels, VAOS uses facility timezone to match physical appointment locations, and Claims Status is limited by the API's date-only format.
+
+### VA Design System Guidance
+The [VA Design System](https://design.va.gov/content-style-guide/dates-and-numbers#times-and-time-zones) specifies that office hours should "always use the time zone ET" while user progress/saved work should "show hours in their local time zone." However, evidence submissions don't clearly fit either category - they are formal submissions with legal deadline implications. This gap in design guidance may contribute to the inconsistent timezone patterns observed across VA.gov applications.
 
 ## Where This Bug Impacts Veterans
 
@@ -180,48 +247,77 @@ The solution requires updating the Lighthouse Benefits Claims API to return comp
 - Change to: `"uploadDate": "2025-08-16T02:18:00.000Z"`
 
 ### Benefits of This Approach
-- Frontend can display correct date in user's timezone
+- Enables consistent timezone display across all systems
 - Preserves time information for future features
 - Follows industry standards (GitHub, AWS, Stripe, etc.)
 - No information loss
 - Enables relative time displays (e.g., "2 hours ago")
+
+### Recommended Display Approach (Industry Best Practice)
+Based on federal precedent (IRS e-filing) and legal filing systems, **display all dates in Eastern Time (ET)** with clear timezone labels.
+
+#### Problems with Alternative Approaches
+
+**Local Time Display:**
+- **VPN Gaming**: Veteran in Philippines (UTC+8) misses deadline. Uses VPN to appear in Hawaii (UTC-10), gaining 18 hours to submit "on time"
+- **Travel Confusion**: Veteran submits at 11 PM from California. Later views from Virginia - same submission shows different dates (11 PM PST = 2 AM EST next day)
+- **DST Ambiguity**: During "fall back," 1:00-1:59 AM occurs twice. A 1:30 AM submission creates legal ambiguity - which occurrence counts?
+
+**UTC Display:**
+- **Non-intuitive**: California Veteran submits at 10 PM PST (6 AM UTC next day). Sees "Received: [tomorrow's date]" despite it being "today" locally
+- **Complex Deadlines**: Midnight UTC = 8 PM EDT / 7 PM EST / 4 PM PST. Veterans shouldn't need conversion charts for deadlines
+
+#### Why ET Display Works
+- Single source of truth: "All deadlines are midnight ET"
+- Matches VA headquarters business operations
+- Follows federal precedent (IRS e-filing uses ET)
+- Use "ET" notation (automatically handles EDT/EST transitions)
+- Aligns with VA Design System guidance for office hours
 
 ### Potential Cross-Application Impact
 
 Currently, applications receiving date-only strings from Lighthouse. If Lighthouse returns ISO 8601 timestamps:
 
 - Applications would receive full timestamp information (e.g., "2025-08-16T02:18:00.000Z")
-- Dates could be displayed in the user's local timezone
-- **personalization/dashboard** (displays claim dates on My VA page) would be affected
-- Testing would be required to ensure applications handle the date display change correctly
+- All claim dates should be displayed in Eastern Time with "ET" label for consistency
+- **personalization/dashboard** (displays claim dates on My VA page) would need updates
+- Testing would be required to ensure all applications display dates consistently in ET
 
-### Frontend Implementation with Timestamps
+### Frontend Implementation for ET Display
 
-Once Lighthouse returns proper timestamps, the frontend can correctly display dates using existing platform utilities. The frontend cannot currently fix this issue because it only receives date strings with no time information.
+Once Lighthouse returns proper timestamps, the frontend should display all claim-related dates in Eastern Time for consistency.
 
 **Frontend Implementation** (`src/applications/claims-status/utils/helpers.js`):
 ```javascript
-import { format, parseISO } from 'date-fns';
-import { formatDateLong } from 'platform/utilities/date';
+import { parseISO } from 'date-fns';
+import { formatInTimeZone } from 'date-fns-tz';
 
-// Enhanced formatter that shows time if available in ISO 8601 format
-export const formatDateWithTime = dateString => {
+// Formatter that displays dates in Eastern Time with clear labeling
+export const formatDateWithTimeET = dateString => {
   if (!dateString) return 'Invalid date';
 
-  const dateOnly = formatDateLong(dateString);
-  const dateTime = parseISO(dateString);
-  const timeStr = format(dateTime, 'h:mm a');
-  return `${dateOnly} at ${timeStr}`;
+  try {
+    const date = parseISO(dateString);
+    // Format in Eastern Time (automatically handles EDT/EST)
+    return formatInTimeZone(
+      date,
+      'America/New_York',
+      "MMMM d, yyyy 'at' h:mm a 'ET'"
+    );
+  } catch {
+    // Fallback for date-only strings
+    return formatDateLong(dateString);
+  }
 };
 ```
 
-This centralized function is now used in `DocumentsFiled.jsx` and `RecentActivity.jsx` to display dates with times when available.
+This approach ensures all Veterans see the same date/time regardless of their location, preventing confusion about deadlines.
 
-## Brainstorm of Possible UX Improvements While Awaiting API Fix
+## Brainstorm of Possible UX Improvements
 
 While we work with the Lighthouse API team to implement the fix (returning full timestamps), we can make immediate UX improvements to reduce confusion:
 
-### Upload Alert Enhancement
+### Remove Date from Upload Alert
 
 **Current Alert:**
 ```
@@ -231,41 +327,9 @@ While we work with the Lighthouse API team to implement the fix (returning full 
 
 <img width="666" height="279" alt="Screenshot 2025-09-15 at 8 08 39 AM" src="https://github.com/user-attachments/assets/68fc2c0e-31f3-45f2-9e62-19632595460e" />
 
-**Option A: Remove Date from Alert**
+**Updated Alert:**
 ```
 "We successfully received your file upload"
-```
-
-**Option B: Show UTC and Local Time Comparison**
-Help users understand why dates may appear different by showing both timezones:
-```
-"We received your file upload on August 16, 2025 at 2:18 AM UTC (August 15, 2025 at 10:18 PM EDT)"
-```
-
-**Implementation for Option B** (`src/applications/claims-status/actions/index.js`):
-```javascript
-import { format } from 'date-fns-tz';
-import { formatDateLong } from 'platform/utilities/date';
-
-const now = new Date();
-
-// Format UTC using toLocaleString (simple, no extra dependencies)
-const utcDateTime = now.toLocaleString('en-US', {
-  timeZone: 'UTC',
-  month: 'long',
-  day: 'numeric',
-  year: 'numeric',
-  hour: 'numeric',
-  minute: '2-digit',
-  hour12: true,
-});
-
-// Format local using platform standard + date-fns-tz for timezone
-const localDate = formatDateLong(now);
-const localTime = format(now, 'h:mm a zzz'); // zzz gives timezone abbreviation
-
-const title = `We received your file upload on ${utcDateTime} UTC (${localDate} at ${localTime})`;
-// Result: "We received your file upload on August 16, 2025 at 2:18 AM UTC (August 15, 2025 at 10:18 PM PDT)"
 ```
 
 ### Documents Filed / Recent Activity Disclaimers
@@ -281,7 +345,6 @@ Add a `va-additional-info` component near the "Documents Filed" and "Recent Acti
 ```jsx
 <va-additional-info
   trigger="About document dates"
-  disable-analytics
 >
   <p>
     Dates shown are based on UTC time. If you uploaded documents in the evening (after 7 PM ET), they will show the next day's date.
