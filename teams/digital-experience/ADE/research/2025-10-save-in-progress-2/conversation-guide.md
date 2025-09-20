@@ -96,6 +96,10 @@ In the bottom toolbar of the Zoom window, click the arrow next to **SHOW CAPTION
 
 - [If **can't see an iPhone's magnified screen**, ask participant to go into their phone and do `Settings > Accessibility > Show while Mirroring`]
 
+- [If “**Uncaught runtime errors**”, close with “X” (label “dismiss”) in top right corner, leave site if prompted. 
+  - Check my browser window to see if codespace shut down. 
+  - If so, restart it. Then have them click on the Apple button to resume/start over.]
+
 # Warm-up Questions - 5 minutes
 
 Let’s start with a few questions... 
@@ -181,104 +185,84 @@ I'd like you to fill out a VA form to request your own military records. How wou
 
 Please **talk aloud** about what you're thinking BEFORE clicking on anything. 
 
-**[need to facilitate the 2 paths in the beginning flow]**
+**(If using screen magnifier but can’t see zoomed screen over Zoom)** Is your screen magnified? If so, I can’t see that. Could you please tell me how far across the page you can see? And how far down from the top of the page?
 
 ### Path 1A: Participant signs in before finding form
 
-[If p says that they'd sign in, let them click --> Sign in --> My VA]
+[If p says that they'd sign in, let them click --> **Sign in** --> My VA]
 
-### Path 1B: Participants finds form before signing in
+[What do they want to do next?]
 
+OK, let's pretend that you just [searched/whatever they say] and you landed on a new page. Please click the **Apple** button at the top of the page [to auth intro page and Task 2].
 
+### Path 1B: Participant finds form before signing in
 
+[What do they want to do next?]
 
+OK, let's pretend that you just [searched/whatever they say] and you landed on a new page. Please click the **Lemon** button at the top of the page [to unauth intro page and Task 2].
 
+[**Sign in to start your request**]
 
+## Task 2: Start your request [from Auth Intro Page]
 
-**(If can’t see zoomed screen)** Is your screen zoomed in? If so, I can’t see that. Could you please tell me how far across the page you can see? And how far down from the top of the page?
+Please share any **thoughts, reactions, or questions** you have about the current page.
 
-## Task 2: Start your request from Auth Intro Page
+### Watch for:
+- [Any comments about this page looking like the page before? Y / N]
 
-Please share any **thoughts, reactions, or questions** you have about the current web page.
-
-[Sign in to start your request > Start your request; *must use enter, not space*]
+[**Start your request**]
 
 [When they get to the form:] Please stop here so I can give you the next instruction.
 
 ## Task 3: Fill out form [never reload the page]
-Please fill out this form to request your own military records, but I want you to use fake details so you don't share your personal information with me. 
+Please fill out this form to request your own military records, but I want you to make up fake details so you don't share your personal information with me. 
 
 [If p is quiet] Please talk aloud about any thoughts, reactions, or questions you have.
 
 ### Watch for:
-- [Notice "We'll save your application on every change"? Y / N]
-- [Anything re the progress bar? Steps vs. screens?]
-- [Anything re error messages? If so:
-  - Do they know what the error means?
-  - Do they know how to resolve the error?
-  - How do they want to find out about errors?] 
-- [Any issues w/field validation on VA file number?]
+- [Feedback on form fields]
+- [Feedback on interstitial page about saving]
+- [Click on links on the interstitial page? My VA / form intro page]
+  - [If so, ASK] What did you expect? What did you find?
+
+~~- [Notice "We'll save your application on every change"? Y / N]~~
 
 [Note: If click on anything that goes outside the codespace (e.g., VA logo), you'll see spinning and get stuck. To fix, go back in your browser.]
 
-## Task 3: (After enter SSN, before Continue) Short break in filling out form
-Pretend that your doorbell just rang, and you want to jump up to answer it. What will you do with the form that you're in the middle of filling out?
+## Task 4: Take a break in filling out form (after enter phone number, before email address) 
+Let's say that you're hungry and need to take a break to eat a snack/lunch/dinner. What will you do with the form that you're filling out?
 
-- [leave open in browser / close browser / Finish later button / __________________]
+- [leave open in browser / close browser / Finish later button / Sign out __________________]
 
+- [If didn't sign out or close browser] 
+  - In 30 minutes, your session will time out and you will be signed out. 
+  - To simulate that, could you please sign out now? 
+  - [Or ask to click on the Grapes button -- to Unauth VA.gov]
+  
+- What do you think will happen to the information you entered?
+  
 ### Watch for:
 - [Anything re saving info entered]
 - [Anything re the "Finish later" button]
+- [Feedback on the "Finish later" page?]
   - [Noticed "Your records request has been saved"? Y / N]
 
+## Task 5: Resume filling out form [from unauth VA.gov]
+OK, now let's say that you're back from eating. Please resume filling out the form that you were working on. 
 
+- [Record how resume:]
+  - Sign in --> My VA (Mango) --> form card --> Continue your request
+  - Search/nav to unauth form intro (click on Grapes) --> Sign in --> auth form intro --> Continue your request
 
-## Task 4: Resume filling out form
-OK, now let's say that you're back from answering the door. Please resume filling out the form that you were working on. 
-
-- [Record how resume: open browser tab / "Continue your request" button on form intro page / Link on My VA]
-
-- [If needed, tell what to click to go to **Unauth (Lemon) / Auth (Apple) / My VA (Mango)**]
-
-- [Can also get to My VA from header link and from Chris dropdown menu]
+  - [If needed: **Unauth intro (Lemon) / Auth intro (Apple) / My VA (Mango)**]
 
 [If p is quiet] Please talk aloud about any thoughts, reactions, or questions you have.
 
 ### Watch for:
-- 
-
-
-
-
-## Task 5: (After specify records, after Continue) Long break in filling out form
-Say that you're hungry and need to take a break to make a snack/lunch/dinner. What will you do with the form that you're filling out?
-
-- [leave open in browser / close browser / Finish later button / __________________]
-
-- *[If "leave open in browser"*, ASK:]
-     - What if you were filling out this form in a public place, such as a library?
-     - If you leave the browser open and go away, you'll be signed out after 30 minutes. What do you think will happen to the information you entered? 
-
-### Watch for:
+- [Realize that they have to sign in before returning to the form?]
 - [Anything re saving info entered]
-- [Anything re the "Finish later" button]
-  - [Noticed "Your records request has been saved"? Y / N]
-
-*[If see “Uncaught runtime errors”, close with “X” (label “dismiss”) in top right corner, Leave site if prompted. Check my browser window to see if codespace shut down. If so, restart it.
-Then have them click on the Apple button to resume/start over.]*
-
-## Task 6: Resume filling out form 
-OK, pretend that you just finished your snack/lunch/dinner. Now you want to get back to the form you were filling out. How would you do that?
-
-[Record how resume: open browser tab / "Continue your request" button on form intro page / Link on My VA]
-
-- [If needed, tell what to click to go to Unauth (Lemon) / Auth (Apple) / My VA (Mango)]
-
-[If p is quiet] Please talk aloud about any thoughts, reactions, or questions you have.
-
-### Watch for:
-- [Anything re saving info entered]
-- [See if go back to previous page to remember what they were doing]
+- [Any feedback on the form fields]
+- [Any difficulty using the accordion controls? Y / N]
 
 [If see "can't submit your request" alert, say:] Don't worry! It's not working because this is a prototype, not a real form.
 
@@ -289,15 +273,14 @@ OK, pretend that you just finished your snack/lunch/dinner. Now you want to get 
 1. What was *unclear or did not work well* for you?
      - [If they say nothing, could ask:] What, if anything, did you find annoying?
 1. What would you like to *change or add*?
-1. What kinds of online forms have you filled out before?
-     1. health care / education / other government form / online purchase /  _________________? 
-     1. How does the process of filling them out compare to the VA form you just filled out? 
 
-1. When do you expect the information that you enter into an online form to be saved?
+1. When did you expect the information you entered into this VA  form to be saved?
 
      1. [After every field / page / Finish later / Continue button / only after submitting?]
+     1. How do you know? 
      1. If you walk away from the web page without clicking anything, what do you think will happen to the information you entered?
      1. [Do they recognize that their information is being saved all the time? Y / N]
+     1. [Did they remember what the interstitial page said? Y / N]
 
 1. If you had a magic wand and could change *anything* about *how we save your information* before you submit a form, what would you want?
 1. Is there anything else that we haven't talked about that you think I should know? 
