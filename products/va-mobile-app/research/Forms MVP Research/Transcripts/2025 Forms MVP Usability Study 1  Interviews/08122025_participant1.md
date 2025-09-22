@@ -1,4 +1,4 @@
-# Conversation Guide for Forms MVP Research w/ Assistive Tech Users
+# Conversation Guide for Forms MVP Research 
 
 # Moderator logistics 📋✅
 **Before all sessions**:
@@ -40,7 +40,7 @@ CHECK SLACK for real-time feedback or questions from observers
 
 Thanks for joining us today! My name is **Christine**. How are you doing today?
 
-I have a colleague with us in this session who will be taking notes **Notetaker First Name** and our accessibility specialist **AT Specialist First Name** will be on the call available to provide support with any technical issues that may arise with your use of assistive technology should you need it.
+I have a colleague with us in this session who will be taking notes. 
 
 There are a few of my teammates who would like to observe this session as well. **Would it be OK with you if I invited them to join us?**
 - *(If participant seems hesitant or unsure or uncomfortable)* Just so you know, my teammates will be muted and off camera and you won't have to interact with them. You also have the option to keep the session just the two of us plus the notetaker (and the technical support person).
@@ -50,11 +50,11 @@ There are a few of my teammates who would like to observe this session as well. 
 
 Could the observers please turn their cameras off now to save bandwidth? 
 
-Today we're going to talk about filling out forms from the VA mobile app. I'm going to ask you a few questions, and then I'll have you do some specific tasks using the VA Health & Benefits App. As you go through these steps please speak aloud your thoughts and actions to help us understand more about your experience.
+Today we're going to talk about filling out forms from the VA mobile app. I'm going to ask you a few questions, and then I'll have you do some specific tasks using the VA Health & Benefits App, ending with a quick 10 question survey. As you go through these steps please speak aloud your thoughts and actions to help us understand more about your experience.
 
 Before we start, I want to go over a few things:
 
-- **This entire session may take 90 minutes.** I want to be sure not to keep you longer, so I may occasionally prompt you with the next question or topic.
+- **This entire session may take 120 minutes.** I want to be sure not to keep you longer, so I may occasionally prompt you with the next question or topic.
   
 - **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. We're testing an app to learn how we can make it easier to use. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
 - **Your participation in this interview is completely voluntary.** Whether or not you choose to participate will not affect your benefits with the VA. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Just let me know.
@@ -91,39 +91,59 @@ Let’s start with a few questions...
 1. I understand you are a Veteran. Is that right? 
     - Thanks for confirming that.
 
+> Yes
+
+<br>
+
 2. What kind of device are you using today? *(Tablet / Smartphone)*
     - *(If not the expected device, ask to rejoin that way)*
 
+> Smartphone
+
+<br>
+
 3. What operating system is on your device? *(iOS / Android / _______)*
+
+> iOS
+
+<br>
 
 4. What is the default web browser set up on your device? *(Chrome / Firefox / Edge / Safari / _______)*
 
-5. What type of assistive technology are you using right now?
+> Internet explorer
 
-6. How many years have you been using [assistive technology]?
+<br>
 
-7. When or how often do you use it?
-
-8. How would you rate your level of experience with using a screen reader/magnifier--beginner, intermediate, advanced, or expert?
-
-9. Have you ever shared your screen in Zoom while using a screen reader/magnifier?
-
-10. Have you ever filled out a VA form online before? 
+5. Have you ever filled out a VA form online before? 
    - If so, can you tell me about your most recent experience? How did it go?
-  
-11. Do you have the VA Health and Benefits mobile app downloaded on your device?
-   - If so, can you tell me what you use the mobile app primarily for? How has your experience been so far?
 
+**Used the app, doesn’t remember if there is forms on there or not.**
+  
+6. Do you have the VA Health and Benefits mobile app downloaded on your device?
+   - If so, can you tell me what you use the mobile app primarily for? 
+
+**Use it today for,
+
+Apt reminders
+Medication refills
+Messages back and forth with providers
+Proving benefits**
+
+- How has your experience been so far?
+
+> Good
+
+<br>
 
 # User Tasks
 
 ## Task 0: Share screen
 
-I would like you to share your screen with me so that I can see what you do during this session. Before we start, I want to make sure you know that screen share will show me your whole screen, so if you'd like to close any apps or turn off notifications that you don't want me to see, you could do that now.
+I would like you to share your screen with me so that I can see what you do during this session. Before we start, I want to make sure you know that screen share will show me your own screen, so if you'd like to close any apps or turn off notifications that you don't want me to see, you could do that now.
 - *(refer to Screen sharing instructions above, if needed)*
 - *STOP TECH TROUBLESHOOTING **< 15 min into session** if want a replacement participant from Perigean b/c not likely to be successful*
 
-We can help guide you through sharing your screen when you're ready if you'd like assistance. Please say what you're doing out loud so that if there are any issues, we'll know what they are.
+We can help guide you through this if you need help. Please say what you're doing out loud so that if there are any issues, we'll know what they are.
 1. Make sure that the Zoom application has focus
 2. Navigate to the screen share button (may need to tap on mobile device to display the menu at the bottom, may have to scroll over to see menu options).
 3. Check the "share sound" checkbox (so we can hear their screen reader speaking)--may have to tab a LOT to get to this in the right pane
@@ -137,9 +157,13 @@ Did you previously receive the link and instructions to download the testing ver
 
 Y - Were you able to download the app via those instructions? Y - skip down to note for all users
 
-N - I can now share the URL: that takes you to download the testing app, How would you prefer to receive the URL? I could dictate it to you, put it in the Zoom chat, email it to you, or (for smartphone only) text it to you.
-**[iOS url here](https://testflight.apple.com/join/RrO0Cw2q)**  
-**[Android link](https://appdistribution.firebase.dev/i/6bea6c3fabc1a872)** Build #2903, build version 2.56.1
+> Yes
+
+<br>
+
+Had downloaded testing app prior to the session
+
+N - I will now share in the zoom chat the URL: that takes you to download the testing app **[iOS url here](https://testflight.apple.com/join/RrO0Cw2q)** -- **[Android link](https://appdistribution.firebase.dev/i/6bea6c3fabc1a872)** Build #2726, build version 2.56.0
 - *(If asked, reassure that this is a legitimate link to what I want you to test)*
 
 Did you get the link? 
@@ -149,12 +173,12 @@ Did you get the link?
 
 Please click the (green) "Continue" button.
 
-Instructions to access prototype for **iOS users**(must access from your mobile device):
+Instructions to access prototype (must access from your mobile device):
 1. Use the link provided to install test flight on your mobile device.
 2. Once you've installed it (or if you already have it installed), select step 2 "view in test flight" from your mobile device.
 3. Under App Informaton at the bottom of the screen, select "Previous builds"
-4. Select the VA Health and Benefits mobile app version: 2.56.1
-5. Select 'Install' button next to correct build number 2903 (may have to select Load more builds to find version).
+4. Select the VA Health and Benefits mobile app version: 2.55.1
+5. Select 'Install' button next to correct build number 2871 (may have to select Load more builds to find version).
 6. It can take a few minutes to download.
 7. Once downloaded select "next".
 8. Select "start testing" from the Share feedback screen.
@@ -163,70 +187,102 @@ Instructions to access prototype for **iOS users**(must access from your mobile 
 1. You will receive an email invite to the email you supplied us to download the testing app. Please navigate to your email and select that link now.
 2. Open the email and click on "Get started"
 3. It may require you to sign in again to authorize the install.
-4. Go to your Google play store > Go to your profile icon in the top right > Go to settings > About > click on play store version 7 times (may need to Select "app permissions")
-5. Receive a note "You are now a developer"
-6. Scroll up and press General, click on "Developer options"
-7. Toggle the "interal app sharing"
-8. Return to the window with the steps
-9. Download the release (ensure newest one #7)
-10. If you already have the app installed you'll have to select "Uninstall"
-11. And then go ahead and "Install"
-12. Pause before signing in
+4. Select "Download app tester".
+5. While this is downloading, go to your device homescreen > Go to settings > About > click on play store version 7 times (may need to Select "app permissions")
+10. Receive a note "You are now a developer"
+11. Scroll up and press General, click on "Developer options"
+12. Toggle the "interal app sharing"
+13. Return to the window with the steps
+14. Download the release (ensure newest one #7)
+15. If you already have the app installed you'll have to select "Uninstall"
+16. And then go ahead and "Install"
+17. Pause before signing in
 
 **Note for all users: You'll be interacting with a demo prototype today.** Since it's a demo, note that none of your actions will affect your own VA information or benefits.
 
 
 ## Task 1: Login to the VA Health and Benefits mobile app
-[start on the VA Health and Benefits mobile app version: 2.56.1.QA (2903)]
+[start on the VA Health and Benefits mobile app version: 2.54.1.QA (2825)]
 
-I'd like you to take a look at this screen, and sign in. This will happen automatically once you select sign in.
+I'd like you to take a look at this screen, and sign in. The system will automatically generate a test user login for you and assume credentials. 
 
-**For screen magnifier participants.**
-[Confirm you're seeing what they are seeing by asking them] "What are you seeing on your screen now?
-Are you seeing the participants screen magnified at all? 
-If not, ask the participant to check their settings on their device by navigating to...
-1. Settings
-2. Accessibility
-3. Zoom
-4. Show while mirroring toggle on
+As we go through the steps in this study, please talk aloud about what you're thinking BEFORE clicking on anything. And please share any thoughts, reactions, or questions you have about the current screen. 
 
-[Confirm you're seeing what they are seeing by asking them] "What are you seeing on your screen now?
+[Sign in using the 'Sign in' button on your screen > Once logged in you will see some initial app instructions, select "Skip" at the bottom-right of your screen > For the notification screen select "Not now".]
 
-[When they get to the homepage:] Any data used throughout this test is not your real data or connected to your VA account in any way. This is a test environment with artifical testing data displayed only. 
+[When they get to the homepage:] Any data you are seeing here or throughout this test is not your real data or connected to your VA account in any way. This is a testing environment with artifical testing data displayed only. Please stop here so I can give you the next instruction.
 
-Please stop here so I can give you the next instruction.
+** Was already logged in, reported no difficulties with login. Skipped initial log in task.
+
+### Questions for testing participant: 
+
+Did you encounter any issues using your [screen reader/assistive tech/device]? 
+
+**Confirmed no difficulties with that section.**
+
+Was any part hard to navigate or understand?
+
+> No
+
+<br>
+
 
 
 ## Task 2: Start a statement
-As we go through the steps in this study, please talk aloud about what you're thinking BEFORE clicking on anything.
+Pretend that you need to submit a statement in support of a claim via a form submission with the VA. 
 
-Today I'd like you to pretend that you need to submit a statement in support of a new disability claim for yourself using the VA Health & Benefits Mobile App. 
+Where would you expect to find forms like these in the VA mobile app? 
 
-You may begin.
+> Go to my forms.
 
-*Allow the user to navigate to and through the form on their own without guiding them through the happy path. 
+<br>
 
+What would you expect this section to be called?
+
+> Go to my forms.
+
+<br>
+
+[Select 'Go to forms' > Click the button 'Start a new statement' > Read the text on this page and continue on by clicking on the button 'Start a new statement', Read through the screen 'What would you like to do?' > Select 'What I want to do isn't listed here' > Click 'Continue' > You will see a Github screen click 'Continue'.]
+
+Reminder to speak aloud any thoughts, reactions, or questions you have during this process.
 
 ### Watch for:
+- In this step, what did the participant expect to happen?
+    - Did they mention any previous experience or confusion?
 - How the user gets to forms. Do they click anything other than "Go to Forms"? Y/N
     - If Y, where do they go instead?
 - Does the user mentions any confusion on where to go to start a new statement. Y/N
     - If Y, what do they find confusing?
-- In this step, what did the participant expect to happen?
-    - Did they mention any previous experience or confusion?
+
+Screen: “Submit a statement to support a claim”
+
+> Everything is pretty much standard for the VA.
+
+<br>
+
+Screen: “What would you like to do?”
+
+> I have new evidence to submit for an open claim.
+
+<br>
 
 
 ## Task 3: Fill out the form [never back out or reload the page]
-As you go through this form I'll ask that you please fill it out using fake details so you don't share your personal information with me. 
+Please fill out this form to submit your statement, but I want you to use fake details so you don't share your personal information with me.
 
-**For screen reader participants:**
-[Confirm you're seeing what they are seeing by asking them] First, I'd like to confirm "What are you seeing on your screen now? 
+**Noticed “Date of Birth” produces errors while the user is entering each portion of the date (i.e. Month, day)**
 
-Thank you.
+SSN error response: 
 
-You may continue on with the form.
+**Couldn’t tell if it was enough numbers. Had to count them.**
+
+- Supply form entry data for participant to enter as they go through the form.
+- Note: An invalid social security number is provided to intentionally throw an error. Observe the user's reaction to this error and document any attempt to troubleshoot.
 
 ### Watch for:
+- In this step, what did the participant expect to happen?
+    - Did they mention any previous experience or confusion?
 - Does the user encounter any errors when entering the data into the form fields? Y/N
     - If Y, what field do they encounter errors on?
       - What triggered the error specifically?
@@ -237,63 +293,184 @@ You may continue on with the form.
 - Does the user express thoughts of frustration while completing the form? Y/N
     - If Y, what did they experience when expressing the frustration?
 
+### Questions for testing participant: 
+
+Did you encounter any issues using your [screen reader/assistive tech/device]? 
+
+> No
+
+<br>
+
+Was any part hard to navigate or understand?
+
+> No
+
+<br>
+
 
 ## Task 4: (After SSN before 'Continue') take a break in filling out the form
-At this point, I'm going to have you pretend that you need to step away from the form for an extended period of time, you can leave the form now and go back to the homepage of the mobile app. 
+Pretend you need to step away from the form for an extended period of time, you can leave the form now.
 
+[Click 'Done' to exit the form]
+
+**User could not find where to go to leave the form mid-form. Had to be prompted to “Done”.**
 
 ### Watch for:
 - In this step, what did the participant expect to happen?
+
+User could not find how to leave form
+
     - Did they mention any previous experience or confusion?
+    
 - Does the user select anything other than Done to leave the form? Y/N
     - If yes, what does the user do?
+
+User scrolled up and down looking for a way to leave the form.
+
 - Does the user express doubt that their work will be saved? Y/N
 
+No
 
+### Questions for testing participant: 
+
+Did you encounter any issues using your [screen reader/assistive tech/device]? 
+
+> NO
+
+<br>
+
+Was any part hard to navigate or understand?
+
+> No
+
+<br>
 
 
 ## Task 5: Continue completing the started form and submit
-Now, pretend you are ready to come back to your previous form to complete & submit it. 
+Pretend you are ready to come back to your previous form to complete it. Please locate the form and bring it up to complete. I have some updated information to supply you here to allow you to complete this form.
 
-Please locate the form and bring it up to complete.
+- Supply acceptable social security number to correct error and allow the user to advance in the form fields.
+
+[From forms, under 'Statement in Support of a Claim' see 'In Progress' form previously started, click 'Continue form']
+
+**Notes:**
+The previous invalid SSN was still retained in the form when continuing back to it, but was not shown with the error (would validation have caught error if user had kept the previous entry and pressed “Continue” prompting the user to reenter the error?).
+
+iPhones may remember address typically typed on the device and offer a single click entry to the field. (inherit phone feature that improves form entry)
+
+User had a spelling error when typing in the email that they did not correct and moved forward with.
+
+User used predictive swiping motion to type free text sentence. (another inherit phone feature that may improve form entry for users from a mobile device, although they did have to correct when the intended word “test” was captured instead as tree.
+
+
 
 ### Watch for:
 - In this step, what did the participant expect to happen?
+
+**User was able to quickly find and select “Continue form”.**
+
     - Did they mention any previous experience or confusion?
+**NO**
+
 - Does the user understand that they are continuing with the same form they started at the beginning of the session? Y/N
+
+**Yes**
     - If no, what do they mention that is confusing?
+
 - Is the user able to complete the started form? Y/N
+
+**Yes**
     - If no, what prohibited them from submitting the initial form?
 
 ### Questions for testing participant: 
 
-- How was your experience filling out the form from the mobile app using your [screen reader/assistive tech/device]? 
+Did you encounter any issues using your [screen reader/assistive tech/device]? 
 
-- What worked well for you?
+> No
 
-- What was unclear for you?
+<br>
 
+Was any part hard to navigate or understand?
+
+> No
+
+<br>
+
+Did you find navigation particularly challenging in any way?
+
+If Y, why?
+
+> NO
+
+<br>
+
+
+Did you find any labels particularly confusing on the form?
+
+> No
+
+<br>
+
+If Y, what labels specifically and how might they be improved for clarity?
  
-## Task 6: View submitted form
-Now that you have completed the form, please go back to the app.
+### Task 6: View submitted form
+Now that you have completed the form, navigate back to the general forms location in the app.
 
+**They clicked on the link button “Go back to VA.gov homepage” towards the bottom of the confirmation screen.**
+
+[Select 'Done' to exit the confirmation page, Go to 'Forms']
 
 ### Questions for testing participant: 
 - Based on what you see now, how do you know the form was submitted? 
 
+> Because it tells me so.
+
+<br>
+
 - What does this status mean to you? 
 
+> It’s in like the mail, going to a place, and then somebody will review it.
+
+<br>
+
 - What would you expect to see if you needed to check on your submission later?
+
+> An email or text notification that there is a status update on your claim. A notification of some sort.
+
+<br>
 
 ### Watch for:
 - In this step, what did the participant expect to happen?
     - Did they mention any previous experience or confusion?
 - Does the user express confidence that they have completed and submitted their form?
+
+Yes
     - If no, what is confusing to them and why?
-- DOes the user understand the status of the form?
+- Does the user understand the status of the form?
+
+Yes
     - If not, what do confusion do they express when interpretting the form status?
     
+### Questions for testing participant:
 
+Did you encounter any issues using your [screen reader/assistive tech/device]? 
+
+> No
+
+<br>
+
+Was any part hard to navigate or understand?
+
+> No
+
+<br>
+
+### SuS for testing participants:
+Now that you've completed the tasks above you can exit the VA testing app and return to your zoom app. You may need to tap on the screen to display the menu at the bottom of the zoom app. Find and select 'Chat' from the menu. I'm going to supply you with a link to a 10 questions survey.
+
+[Moderator copy/paste link to Qualitrix SuS into the chat] (SuS Link)(https://dj540s05.optimalworkshop.com/questions/vhbappformsmvp)
+
+Please select the link and take the survey.
 
 ### Deleting the testing app:
 Now that we have completed the study today I'm going to prompt you to delete the VA testing app from your device. 
@@ -319,11 +496,24 @@ If you navigate to your device home screen, and engage the menu screen of the VA
 
 ## Thank You and Closing - 3 minutes
 
-How was this process overall for you?
+**How did you find this process overall?**
 
-Was there anything you would change about this process?
+> Fine.
+
+<br>
+
+**Was there any part that felt especially frustrating or mentally tiring?**
+
+> No
+
+<br>
 
 **Are you still okay if we use any video or audio clips from this session?** 
+
+> Yes
+
+<br>
+
 - *(yes / no)*
 - *(If participant says yes)* Is there any part of our discussion that you would NOT want shared in a video clip?
 
