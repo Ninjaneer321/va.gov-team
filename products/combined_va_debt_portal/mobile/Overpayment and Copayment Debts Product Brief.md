@@ -94,7 +94,7 @@ O1: VA’s digital experiences are the easiest and most efficient way to access 
 
 ## Decision Log
 
-| Date | Decision | Notes|
+| Date | Decision | Note|
 | --- | --- | --- | 
 |5/7/2025| Demand Letters will not be part of this effort. |Demand Letters are not even included on VA.gov, but something the Financial Management team is working on. No timeline was provided.|
 |5/8/2025| Once the new Lighthouse API for Copayment Debts is built, the old API will not be deprecated.| The Financial Management team said they may reduce the data of the previous API, but will continue to use it if data that isn't available on the new one (example the statements).|
@@ -123,10 +123,20 @@ O1: VA’s digital experiences are the easiest and most efficient way to access 
 |9/16/2025| Engineers can investigate Spike monitoring outside of Sentry. | During refinement Michelle provided approval for engineers to move forward on this effort and to remove the "feedback-to-vet" label. |
 |9/17/2025| VBA diary codes 681 & 682 will surface the following action links: Pay your balance, request financial help, or dispute this bill. | This was confirmed in a [Slack](https://dsva.slack.com/archives/CPE4AJ6Q0/p1757445252670279) thread, but Denise will continue to review this as future iterations it would be beneficial to surface the link for the FSR form. |
 |9/17/2025| The mobile MVP of overpay/copay will include One Thing Per Page. | The FM Team is planning to launch One Thing Per Page by 10/8 (pending staging review) and plans for the feature flag to be fully enabled by the end of Oct. 2025. This was confirmed in a [Slack](https://dsva.slack.com/archives/CPE4AJ6Q0/p1758144950625129?thread_ts=1757687041.799969&cid=CPE4AJ6Q0) thread. |
-|9/17/2025| TBD if mobile MVP will include the Payment history for Copays. | The Financial Management team is pushing hard on this effort but does not have a date for that just yet. [Slack](https://dsva.slack.com/archives/CPE4AJ6Q0/p1758144950625129?thread_ts=1757687041.799969&cid=CPE4AJ6Q0) thread for reference. |
+|9/17/2025| The mobile MVP will not include the Payment history for Copays. | The Financial Management team is pushing hard on this effort but does not have a date for that just yet. [Slack](https://dsva.slack.com/archives/CPE4AJ6Q0/p1758144950625129?thread_ts=1757687041.799969&cid=CPE4AJ6Q0) thread for reference. |
 |9/18/2025| We will not include No History alert for MVP.| For Copayments the MFS engineers found code for this and Tom confirmed in [this](https://dsva.slack.com/archives/CPE4AJ6Q0/p1758214709665539?thread_ts=1756484262.963509&cid=CPE4AJ6Q0) Slack message that we do not need to include this alert. |
 |9/22/2025| MFS will include the "It may take up to 4 business days for payments to reflect on your account" messaging under Current debts.| This decision aligns with the content that is on VA.gov and the decision is tracked in this [Slack](https://dsva.slack.com/archives/CPE4AJ6Q0/p1758204820816849?thread_ts=1757608693.242239&cid=CPE4AJ6Q0) thread. |
 
+## Features to consider for v2
+This information was collected from [research findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/research-findings.md), as well as working with the FM team to understand what is currently implemented when MFS plans to release MVP. 
+| Date |Recommendation | Note|
+| --- | --- | --- |
+|9/23/2025| Provide a space for users to view resolved debt, and remove resolved debt from the current list of outstanding debts and bills.| Not currently technically feasible.|
+|9/23/2025| Clarify why a debt exists. Add easy and actionable ways for users to learn why they have a particular debt, moving away from generic explanation.| Research needed on what is technically feasible.|
+|9/23/2025| Add due dates for bills and debts on the Payments page to help users manage their finances at a glance.| Not currently technically feasible.|
+|9/23/2025| Provide access to debt letters. If not possible, provide a clear explanation for why they can not be read in the app.| Research needed: will PII always block adding letters? Research needed: what is allowed to be written?|
+|9/23/2025| Payment history for copays.|The FM team hopes to release this by EOY and will then work to include updates to mobile designs.|
+|9/23/2025| Notification of an overpayment debt or copayment bill.|Research needed and will want to have the new Copayment API implemented so that data is updated within a 24-hour period.|
 
 ## Reference Materials
 

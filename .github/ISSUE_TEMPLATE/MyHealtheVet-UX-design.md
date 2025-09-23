@@ -15,9 +15,7 @@ _Background information to help the team understand the work, as needed._
 
 ## User story
 
--As a UX team member, I want to... so that...
-
--As a Veteran, I need... so that...
+As a Veteran, I need... so that...
 
 ## Resources
 _Links to important or relevant Figma files, research studies, Slack threads, etc._
@@ -33,7 +31,9 @@ _Examples of things to do in this ticket, e.g. look at X, Y, design system compo
 
 ## Acceptance criteria
 - [ ] UX review by @fmccaf1
+- [ ] UX review by UX/design lead of tool team (if applicable)
 - [ ] Content review (if needed)
 - [ ] Accessibility review (if needed)
 - [ ] Incorporated feedback from stakeholders
-- [ ] Created follow-on tickets for _______________ (if needed) 
+- [ ] Created follow-on tickets for _______________ (if needed)
+- [ ] Document change: why change is needed, what you learned as part of discovery, and how any decisions were made
