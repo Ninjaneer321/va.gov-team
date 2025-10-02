@@ -1,4 +1,4 @@
-# Research Plan for Facilities, Progressive Disclosure and Autosuggest, September 2025
+# Assistive Tech [AT] - Research Plan for Facilities, Progressive Disclosure and Autosuggest, September 2025
 
 ## **Background**
 
@@ -81,56 +81,51 @@ We will conduct remote moderated usability testing to observe research participa
 
 Sessions will be conducted over Zoom, and we would like Zoom transcripts.
 
-### Research materials (TBD)
+### Research materials
 
-* Link to conversation guide  
-* Link to prototype  
-* Link to Research Notetaking Mural
+* [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/services-and-progressive-disclosure/conversation-guide.md)  
+* [Link to prototype](https://staging.va.gov/find-locations/)
+* [Link to Research Notetaking Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1759158067795/d2b71786adabc363e1699c03f159376c501bdf6c)
 
 ### Recruitment criteria
-
-9 Veterans and 3 family members who meet the below criteria in order to get 12 completed sessions. This will include 4 assistive tech sessions.
+6 Veterans who use assistive technology. 
 
 **Primary criteria**
 
-* At least 5 have previously used the facility locator  
-* At least 4 have NOT previously used the facility locator  
-* At least 5 people with a cognitive disability (e.g., TBI)  
-* At least 6 have a smartphone to use for the session and...  
+* ALL must use a screen reader or screen magnifier every time they access the Internet  
+* At least 3 have previously used the facility locator  
+* At least 3 have NOT previously used the facility locator  
+* At least 3 have a smartphone to use for the session and...  
   * Have Zoom downloaded to their smartphone prior to the session and know how to share their screen  
   * Be willing to share over Zoom a web browser window on their smartphone  
   * Have a working microphone on their smartphone
 
-**Primary criteria for AT (Assistive tech) sessions**
 
-* ALL must use a screen reader or screen magnifier every time they access the Internet  
-* At least 4 have a computer or smartphone and are willing to use it for the session  
-  * 2 mobile, 2 desktop
 
 **Secondary criteria (listed in priority order)**
 
-* At least 5 people who are age 55 or older  
-* At least 4 people who are LGBTQ+  
-* At least 2 people 35 or under  
-* At least 3 people of color  
-* At least 2 women  
-* At least 3 people who don't have any degree or vocational training after high school  
-* At least 3 people who live in a rural or remote area
+* At least 2 people who are age 55 or older  
+* At least 1 person who are LGBTQ+  
+* At least 1 person 35 or under  
+* At least 1 person of color  
+* At least 1 person 
+* At least 1 person who don't have any degree or vocational training after high school  
+* At least 1 person who live in a rural or remote area
 
 ### Screening Questions
 
 1. Have you searched for a VA location using the VA facility locator?  
-   1. No (RECRUIT 6\)  
-   2. Yes (RECRUIT 6\)  
+   1. No (RECRUIT 3\)  
+   2. Yes (RECRUIT 3\)  
 2. Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.  
    1. No  
-   2. Yes (RECRUIT 5 and RECORD as having a cognitive disability)  
+   2. Yes (RECRUIT 2 and RECORD as having a cognitive disability)  
 3. Do you identify as a member of the LGBTQ+ community? We ask this question because we want to make sure the feedback we get from these sessions represents all the people we serve.  
    1. No  
-   2. Yes (RECRUIT 4\)  
+   2. Yes (RECRUIT 1\)  
 4. Have you downloaded the Zoom app to your smartphone, do you know how to screen share, and do you have a working microphone on your phone?  
    1. No  
-   2. Yes (RECRUIT 6\)  
+   2. Yes (RECRUIT 3\)  
 5. What time zone are you located in? (RECORD)
 
 ### Screening Questions for AT
@@ -170,25 +165,14 @@ Please invite Tina (tina.kambil@agile6.com) and Dave (dave.pickett@civicactions.
 
 A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.
 
-**Pilot 1**
-
-* Pilot participant email: TBD  
-* Date and time of pilot session: TBD
-
-**Pilot 2 (with AT user)**
+**Pilot (with AT user)**
 
 * Pilot participant email: Sarah Koomson (Sarah.Koomson@oddball.io) on a screen reader  
 * Date and time of pilot session: TBD
 
 ### Research sessions
 
-* Planned dates of research: October 6-Oct 10 2025
-
-### Length of sessions
-
-* Session length: 1 hour  
-* Buffer time between sessions: 1 hour  
-* Maximum Sessions per day: 3
+* Planned dates of research: October 14-Oct 18 2025
 
 ### Length of sessions for AT
 
@@ -200,10 +184,10 @@ A pilot session is required. Please indicate the date and name of a mock partici
 
 | Team Availability | Time Slots (ET) |
 | :---- | :---- |
-| TBD | TBD |
-| TBD | TBD |
-| TBD | TBD |
-| TBD | TBD |
+| 10/14/2025 | 9:00-16:00 |
+| 10/15/2025 | 9:00-14:00, 16:00-17:30 |
+| 10/16/2025 | 9:00-15:00 |
+| 10/17/2025 | 9:00-12:00 |
 | TBD | TBD |
 | TBD | TBD |
 | TBD | TBD |
@@ -226,3 +210,4 @@ Please list the people who will be serving in each role.
 * Jon Katora (Product Owner)
 * * Michelle Middaugh (Product Owner)
 * Shane Strassberg (VA Research Ops) 
+* Cindy Merrill (AT Reviewer)
