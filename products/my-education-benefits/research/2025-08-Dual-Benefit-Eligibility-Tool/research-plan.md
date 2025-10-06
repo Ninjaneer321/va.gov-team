@@ -2,10 +2,10 @@
 	# Research Plan for [DGIB Team, My Education Benefits, Summer 2025]
 
 ## Background 
-We are creating a new tool that allows users, who are impacted by Rudisill and eligible for both Post-9/11 GI Bill (PGIB) or Montgomery GI Bill (MGIB) education benefits, the ability to allocate their qualifying days of service to both benefits. Rudisill requires GI Bill benefciaries to make updates that may change their benefit type, benefit level (where applicable), and entitlement (where applicable). It is important for users to (1) easily understand the outcomes of their allocation prior to making their decision and (2) have a simple and streamlined process for them to do so. The tool will help users understand will translate the allocated days of service to either benefit to real outcomes such as a change in benefit level or a updated number of months of entitlement. Ultimately users should be able to understand the outcomes of their allocation as it relates to benefit level, months of entitlement, and other important information benefit information by using this tool. In doing so, GI Bill beneficiaries have the best opportunity to choose the best benefit outcome for their circumstances.
+We are creating a new tool that allows users, who are impacted by Rudisill and eligible for both Post-9/11 GI Bill (PGIB) or Montgomery GI Bill (MGIB) education benefits, the ability to allocate their qualifying service to both benefits. Rudisill requires GI Bill benefciaries to make updates that may change their benefit type, benefit level (where applicable), and entitlement (where applicable). It is important for users to (1) easily understand the outcomes of their allocation prior to making their decision and (2) have a simple and streamlined process for them to do so. The tool will help users understand will translate their allocated service to either benefit to real outcomes such as a change in benefit level or a updated number of months of entitlement. Ultimately users should be able to understand the outcomes of their allocation as it relates to benefit level, months of entitlement, and other important information benefit information by using this tool. In doing so, GI Bill beneficiaries have the best opportunity to choose the best benefit outcome for their circumstances.
 </br>	
 - `What problem is your product trying to solve?` </br>
-Veterans and beneficiaries who are impacted by the recent Rudisill court decision do not have a streamlined nor simple way to retain or reverser reqlinquishement of MGIB and/or allocate days of service to the different benefit types. The Dual Bnefit Eligbility tool will provide users the ability to allocate days, understand how days allocated translates to benefit level or entitlement, and make their decision in one flow. </br>
+Veterans and beneficiaries who are impacted by the recent Rudisill court decision do not have a streamlined nor simple way to retain or reverse relinquishment of MGIB and/or allocate their service to the different benefit types. The Dual Bnefit Eligibility tool will provide users the ability to allocate their service, understand how service allocated translates to benefit level or entitlement, and make their decision in one flow. </br>
 - `Where is your product situated on VA.gov? (ex: auth vs. unauth)`</br>
 We are planning for this tool to exist on its own page but linked from the 'Manage your Veterans education benefits' section. The planned IA is: VA.gov home > VA education and training benefits > Dual Benefit Eligibility Tool
 - `What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?` </br>
@@ -37,7 +37,7 @@ User research will inform improvements needed and validate interactions in the f
 5. Is the impact to their benefits clearly outlined and easily understood by users? </br>
 
 ### Hypotheses
-The impact of Rudisill has left many GI Bill beneficiaries confused on what actions they can take to better utilize their education benefits. We hypothesize that by using this tool, users will have a better understanding of how Rudisill can impact their benefits by translating their qualifying service days to real outcomes. We hypothesize that presenting users with clear information about their benefit level, benefit type, entitlement, along with other important information will build their trust in the recommendation. We assume there will be some confusion on the benefit language used and within the allocation step as those are either new interactions or have varied understandings within the GI Bill beneficiary user group.
+The impact of Rudisill has left many GI Bill beneficiaries confused on what actions they can take to better utilize their education benefits. We hypothesize that by using this tool, users will have a better understanding of how Rudisill can impact their benefits by translating their qualifying service to real outcomes. We hypothesize that presenting users with clear information about their benefit level, benefit type, entitlement, along with other important information will build their trust in the recommendation. We assume there will be some confusion on the benefit language used and within the allocation step as those are either new interactions or have varied understandings within the GI Bill beneficiary user group.
 
 <p>&nbsp;</p>
 
@@ -76,10 +76,10 @@ Our intended audience will be Veterans who are eligible according to the new Rud
 
 ### Recruitment criteria
 
-**Please recruit for 9 fulfilled sessions** using the following criteria:
+**Please recruit for 10 fulfilled sessions** using the following criteria:
 
 **Must have for participants**
-- Veterans or Service members who have applied for education benefits in the past and are currently using education benefits
+- A combination of Veterans or service members who have applied for education benefits in the past and are currently using education benefits, and Veterans or service members who have not used or applied for education benefits before.
 - At least 1 woman of color
 - At least 1 participant 55 or older
 - At least one person that does not have a college degree (to include enlisted Veterans)
@@ -102,22 +102,8 @@ Our intended audience will be Veterans who are eligible according to the new Rud
 ## Timeline 
 > **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.** 
 
-### Optional Kick-off Call with Perigean
-
-- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
-
-### Prepare
-*When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
-
-**A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
-> [!NOTE]
-> **Send pilot participant email in study Slack channel**
-
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]**
-
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **10/15-10/24**
 
 ### Length of sessions
 Sessions will likely last 30-35 minutes.
@@ -125,14 +111,14 @@ Sessions will likely last 30-35 minutes.
 ### Availability
 | Dates | Times (EST) |
 | --- | --- |
-| DATE | 9 AM to 5 PM |
-| DATE | 9 AM to 5 PM |
-| DATE | 9 AM to Noon |
-| DATE | 9 AM to 5 PM |
-| DATE | 9 AM to Noon |
-| DATE | 9 AM to 5 PM |
-| DATE | 9 AM to Noon |
-| DATE | 9 AM to 5 PM |
+| 10/15 | 9 AM to 5 PM |
+| 10/16 | 9 AM to 5 PM |
+| 10/17 | 9 AM to Noon |
+| 10/18 | 9 AM to 5 PM |
+| 10/19 | 9 AM to Noon |
+| 10/20 | 9 AM to 5 PM |
+| 10/21 | 9 AM to 5 PM |
+| 10/22 | 9 AM to Noon |
 
 - Please leave 30 minutes between sessions 
 - Please do not exceed 3 sessions a day 
@@ -148,7 +134,3 @@ Sessions will likely last 30-35 minutes.
 - Note-takers: Alexander Ferzola ; Allison Nguyen
   
 <p>&nbsp;</p>
-
-## Approvals
-- `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
-- `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`

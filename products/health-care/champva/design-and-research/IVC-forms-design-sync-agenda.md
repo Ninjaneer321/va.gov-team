@@ -1,8 +1,71 @@
 # Running Design and Research Agenda
 
 
+## October 2, 2025
 
-## September 25 2025
+Renata, Hieu, Jessica, Premal, Mike M, Alyssa Li, Andrea, Amanda, 
+
+
+### Agenda: 
+	•	Tricare/eligibility screener options
+	•	CHAMPVA Claims sendback letter edits
+	•	FMP Direct Deposit - updates/latest Figma flow
+
+Roadmap summary
+- Current up items and recently completed 
+- No questions from group
+
+
+**FMP Direct Deposit**
+- Talked through latest version that does not include a screener question or any mention of VA profile / corpdbs accounts
+- Follows travel pay pattern closer that includes a static va.gov content page to explain the details of direct deposit setup.
+- Content and research can happen with no blockers
+- Question: if they have done travel pay recently, maybe messaging around them not have to go through. Amanda: Leave that question for IA and Content.
+
+**ACTION ITEM**: Open content ticket for review, research planning and prototype build
+
+**CHAMPVA Claims sendback letter edits**
+- Renata presents Claims, setback letter:
+- DPI should be added back in, missing from original draft provided to content - reminder to include PDI number
+- Renata recommends to add back in 
+- The original letter did not include the Fax number, and there are 4 fax numbers. 
+- What to expect after you file, more information contact information - what is correct on static page and elsewhere
+- Community Care URL; Amanda questions this since it is a modernized.
+- Renata notes it is the original letter. Team to talk to Content and IA. But the Stakeholder is working as usual.
+
+**ACTION ITEM**: Make sure contact methods to file a claim are consistent and covered across places on form and static pages
+
+
+**Tricare/eligibility screener options**
+- Screener question to try and avoid those filing out the form who do not qualify
+- Pre-check page copied 
+- Already large blue eligibility box on the static CHAMPVA page
+
+- DOD API vs UX Screener Question.
+- Premal has no opinion, and Amanda leans toward Option B (let me apply but warn them).
+- For some Veterans who only know Tricare as their only health service, they wonder
+- Note that if you're eligible or enrolled in Tricare, you are not eligible for CHAMPVA.
+- Alyssa likes the strong wording of Option 1. Perhaps there is a combo between Options 1 and
+-  Renata to swirl the two options together.
+- Mike agrees that we would launch the MVP first before doing the eligibility logic.
+- Amanda wants to lean towards a soft screener question is because it is not up to us to decide on eligibility. Elizabeth's (Eligibility) biggest pain point is the eligibility.
+
+Think through the options since we don’t know if the Veteran is the one filling out the form, can be an applicant as well 
+
+Leave MVP out to get data metrics before introducing new branching logic that could muddy the waters 
+
+Premal - Going back to them (stakeholders) with a solution 
+
+Amanda - lean softer because doesn’t think the decisions should be in the flow. Not wanting to make that call without a conversation with business partners - esp if there is a flow that stops them. 
+
+
+**ACTION ITEM** Renata to swirl the two options together.
+
+
+
+
+
+## September 25, 2025
 
 Renata, Hieu, Jessica, Premal, Mike M, Alyssa Li, Andrea, Amanda, 
 

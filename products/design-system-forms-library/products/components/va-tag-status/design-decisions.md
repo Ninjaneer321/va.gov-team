@@ -1,10 +1,15 @@
 # va-tags-colored Design Decisions
-Last updated: 2025-05-08
+Last updated: 2025-02-10
 
 - [ADR: 001 - Define the meaning for colored tags](#ADR-001---Define-the-meaning-for-colored-tags)
 - [ADR: 002 - Tag styles](#ADR-002---Tag-styles)
 - [ADR: 003 - Accessibile Colors](#ADR-003---Accessible-Colors)
 - [ADR: 004 - Uppercase text](#ADR-004---Uppercase-text)
+- [ADR: 005 - Icon Size Update](#adr-005---icon-size-update)
+- [ADR: 006 - Tag Color Alignment](#adr-006---tag-color-alignment)
+- [ADR: 007 - Text Weight](#adr-007---text-weight)
+- [ADR: 008 - Sentence Case](#adr-008---sentence-case)
+- [ADR: 009 - Warning Tag Color](#adr-009---warning-tag-color)
 
 ## ADR: 001 - Define the meaning for colored tags
 
@@ -110,3 +115,109 @@ Tags with uppercase is **not a good choice** for:
 ### Consequences
 - Current tag implementation may not accommodate all existing use cases optimally
 - Some teams may need to evaluate whether tags are the appropriate component for their specific content needs
+
+---
+
+## ADR 005 - Icon Size Update
+
+**Status:** Accepted  
+**Date Issue Raised:** 2025-10-02  
+**Decision Date:** 2025-10-02  
+
+### Context
+Originally, the icon size was going to match the font size (16.96px) for consistency. However, the smallest token size in USWDS is 24px, and designers identified that a larger size would improve legibility and better align with the design system.
+
+### Decision
+Increase the icon size for status tags to **24px x 24px**.
+
+### Consequences
+- **Positive:** Improved legibility and alignment with USWDS token standards  
+- **Negative:** The new icons increase the overall size of the tag, making them more prominent, which may be too much for some use cases  
+- **Risks:** Minimal; potential layout adjustments may be required in tight spaces  
+
+---
+
+## ADR 006 - Tag Color Alignment
+
+**Status:** Accepted  
+**Date Issue Raised:** 2025-10-02  
+**Decision Date:** 2025-10-02  
+
+### Context
+The original plan was to align tag colors with [Alert](https://design.va.gov/components/alert/) component colors. During review, the team discovered that the mobile team is creating a "blue sky" version of status tags with a different palette. Aligning with mobile ensures cross-platform consistency.
+
+### Decision
+Update tag colors to align with the **mobile blue sky status tag palette**.
+
+### Consequences
+- **Positive:** Visual consistency across web and mobile platforms; alignment with ongoing mobile design efforts  
+- **Negative:** Divergence from alert colors may reduce direct color association with alert messages. The new palette is darker and more solid, which may make tags look like buttons and potentially confuse users  
+- **Risks:** Moderate; if users attempt to click tags as buttons, we may need to revisit color choices to reduce the perception of clickability  
+
+---
+
+## ADR 007 - Text Weight
+
+**Status:** Accepted  
+**Date Issue Raised:** 2025-10-02  
+**Decision Date:** 2025-10-02  
+
+### Context
+The mobile blue sky designs used a semibold font weight, which is not supported in our type system. Readability was a concern for smaller status tags.
+
+### Decision
+Use **bold font** for all status tag text.
+
+### Consequences
+- **Positive:** Improves readability and provides a close match to the intended semibold weight  
+- **Negative:** Bold text may appear slightly heavier than intended, but impact is minimal  
+- **Risks:** Combined with darker colors, bold text might feel visually heavy in some use cases  
+
+### Open Questions
+- Should we explore adding semibold font support in the future?  
+
+---
+
+## ADR 008 - Sentence Case
+
+**Status:** Accepted  
+**Date Issue Raised:** 2025-10-02  
+**Decision Date:** 2025-10-02  
+
+### Context
+Some tags may be longer than 1–2 words. Using all caps or title case reduces readability and scanability for longer text.
+
+### Decision
+Adopt **sentence case** for all status tag text.
+
+### Consequences
+- **Positive:** Easier to read and scan, especially for longer phrases  
+- **Negative:** Inconsistent with other components that may use all caps for emphasis (original tag component)  
+- **Risks:** Users may perceive sentence case as less "badge-like" compared to all caps  
+
+### Open Questions
+- Should other components (e.g., badges, chips) also adopt sentence case for consistency?  
+
+---
+
+## ADR 009 - Warning Tag Color
+
+**Status:** Accepted  
+**Date Issue Raised:** 2025-10-02  
+**Decision Date:** 2025-10-02  
+
+### Context
+All status tags were originally mapped to the alert color token scale. However, the **warning tag** needed special consideration to avoid confusion when used with the Critical Action component.
+
+### Decision
+Map the **warning status tag** to the **critical alert color token**.
+
+### Consequences
+- **Positive:** Ensures visual and semantic cohesion between Critical Action alerts and status tags when displayed together  
+- **Negative:** Creates a strong connection between the Critical Action and the status tag that may not be desirable in all situations  
+- **Risks:** Potential confusion if users expect warning and critical states to remain visually distinct  
+
+### Open Questions
+- Should the warning status tag and Critical Action always be visually aligned, or are there situations where they should differ?  
+
+---

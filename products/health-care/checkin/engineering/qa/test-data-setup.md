@@ -185,10 +185,10 @@ You will be assigned a specific test user in VistA that will have an identifier 
 | 204 | Twelve, Patient | 1935-04-07 | Jose Beltran (508 Office) | √ | √ |
 | 228 | Thirteen, Patient | 1935-04-07 | Demo & Staging Reviews | √ | √ |
 | 271 | Fourteen, Patient | 1935-04-07 | Lee | √ | √ |
-| 723 | Twentysix, Patient | 1935-04-07 | Adrian | √ | √ |
+| 723 | Twentysix, Patient | 1935-04-07 | Lena C. | √ | √ |
 | 366 | Twentyeight, Patient | 1935-04-07 | John | √ | √ |
 | 350 | Twentynine, Patient | 1935-04-07 | Steven S. | √ | √ |
-| 391 | Thirty, Patient | 1935-04-07 | Lori | √ | √ |
+| 391 | Thirty, Patient | 1935-04-07 | Peter | √ | √ |
 | 384 | Thirtyone, Patient | 1935-04-07 | Jenny | √ | √ |
 | 140 | Thirtytwo, Patient | 1935-04-07 | Nathan Douglas | √ | √ |
 | 442 | Thirtythree, Patient | 1935-04-07 | Paras | √ | √ |

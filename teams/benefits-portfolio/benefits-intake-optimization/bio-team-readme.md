@@ -1,44 +1,38 @@
-## Creating Your Team README
+## BIO-HEART Team Information
 
-- To create a copy of this template, click "Edit" then copy all of the content within the file. Within your team folder, which is located in a folder for your team's portfolio, create a new file called "README.md" and paste this content.
-- Update and complete as applicable to your team. Replace all bracketed placeholders with your actual team information.
-- This template is designed to be parsed by an automated system, named Manifest, to display team rosters, product owner classifications, and organizational affiliations. Thus please don't make changes to the format in the Team Information section. Do your best to fill out all parts of that section (rather than putting n/a ask for help as every team should have this information)
-- Copy the [Product details template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/product-details-template.yml) from the public va.gov-team repository into each product directory of the products your team works on. Name the file "[product-name]-details.yml". Then complete that file to the best of your ability for your product. Not all fields are required.
-    - Then link to each of your products in your team README.md file in the "Products we own" section using the full GitHub URL to the public repository.
-- Delete the reference to these instructions when you are done.
+### Official VFS team name:
+Benefits Intake Optimization - Agile Six
 
-## Template Overview
+### About Our Project:
 
-The team README template is structured to provide consistent information across all teams:
+**Mission:** To advance VA’s goal to digitize 11 forms by 11/11/2025 by streamlining benefits intake through the digital transformation of Forms 601 and 537, improving efficiency and the Veteran experience.
 
-### Team Information Section
+**Products:** Forms 21P-0537 (Marital Status Questionnaire) & 21P-601 (Application for Accrued Amounts Due a Deceased Beneficiary)
 
-This section is parsed by automated systems and should maintain its exact format:
+### Team Roster
+**Benefits Intake Optimization - Helping Ensure Accrued & Relationship Transitions (BIO-HEART) Team:**
+- Program Manager: Berni Bernardini Xiong @bernixionga6 
+- Frontend Engineer: Aaron Ponce @amponce 
+- Product Manager: Mike Collier @MikeC-A6 
+- UX Designer: Melissa Schaff @melissajschaff 
+- UX Researcher: Andrea Chappelear 
+- Full Stack Engineer: Michael Clement @michaelclement 
+- Backend Engineer: Joining the project team on Oct. 6, 2025 and is currently VA onboarding.
 
-- **Basic Details:** Team identification and contact information
-- **Organizational Affiliation:** VA business alignment and reporting structure  
-- **Team Roster:** Key team member contact information
+**VA Stakeholders and Partners:** 
+- VA Project Lead: Dennis Peterson, Office of Information Technology (OIT), dennis.peterson3@va.gov
+- OCTO Rep: Matt Dingee, Office of CTO (OCTO), matthew.dingee@va.gov
+- VA Contracting Officer’s Representative (COR): Jacqueline E. Meadows-Stokes, Office of Information and Technology (OIT), jacqueline.meadows-stokes@va.gov
+- VA Contracting Officer (CO): Troy Loveland; Office of Acquisition, Logistics, and Construction (OALC); Troy.loveland@va.gov
+- VA Contract Specialist (CS): John Adamitis; Office of Acquisition, Logistics, and Construction (OALC); john.adamitis1@va.gov
 
-### Additional Sections
+## Product Information (Public):
+- VA Form 21-0537 - Form Digitization Product Outline: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/simple-forms/21P-537/21P-537_product_outline.md
+- VA Form 21P-601 - Form Digitization Product Outline: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/simple-forms/21P-601/21P-601_product_outline.md
 
-- **About This Team:** Brief mission and focus description
-- **Products We Own:** Links to product details with descriptions
-- **Aligned to 2025 OCTO OKRs:** Strategic alignment documentation
-- **Key Documents:** Links to team charter and other important documents
 
-## Important Notes
 
-### Dual-Repository Architecture
 
-The team manifest system uses a dual-repository approach for data separation:
 
-- **Team Information (Private):** Team READMEs, roster details, and organizational information are stored in this private repository to protect team PII
-- **Product Information (Public):** Product details, descriptions, and documentation remain in the public va.gov-team repository for broader access
 
-### Guidelines
 
-- The directory system relies on the specific format of the "Team Information" section
-- All bracketed placeholders `[like this]` should be replaced with actual information  
-- Team names and portfolio assignments are used to organize the main teams manifest
-- Product links should point to completed product-details.yml files in the /products directory of the public va.gov-team repository
-- When linking to products, use full GitHub URLs (e.g., `https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/[product-name]/[product-name]-details.yml`)

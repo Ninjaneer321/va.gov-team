@@ -86,15 +86,14 @@
 ### Location
 
 - [x] **Remote (MS Teams)**
-- [ ] **In-person**
-      
 
+      
 ## Research materials 📔
 
 
 **For moderated usability tests:** 
-- [Link to conversation guide](url goes here)
-- [[Link to prototype](https://www.figma.com/proto/uRUcFMxuFOoNMJeMXJsI5w/Dashboard---Calculators-and-Patient-Summary-Tabs?node-id=19531-2916&t=Ra44YiX7kcE0GF5S-0&scaling=min-zoom&content-scaling=fixed&page-id=19531%3A2915&starting-point-node-id=19531%3A3104)]
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing/conversation-guide.md)
+- [Link to prototype](https://www.figma.com/proto/uRUcFMxuFOoNMJeMXJsI5w/Dashboard---Calculators-and-Patient-Summary-Tabs?node-id=19531-2916&t=Ra44YiX7kcE0GF5S-0&scaling=min-zoom&content-scaling=fixed&page-id=19531%3A2915&starting-point-node-id=19531%3A3104)
 
 
 	
@@ -176,18 +175,12 @@ Approximately September 17 - October 2, 2025, based on clinician availability
   
 - `Buffer time between sessions: ` **15 minutes**
   
-- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **3**
+- `Maximum Sessions per day: ` **3**
 
 ### Prepare
 *Don't forget to share your plan, stimuli, probes, or prototypes with the HCD team for feedback as you are working. Aim to have a CDS HCD peer review or review by the VA CDS HCD Lead at least 3 days before the first test to have time for changes*
 
-**A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
-> [!NOTE]
-> **Send pilot participant email in study Slack channel**
-
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
-
+Prototype is due by Sept 16, 2025
  
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
@@ -201,7 +194,7 @@ Approximately September 17 - October 2, 2025, based on clinician availability
 - `Participant recruiting & screening:`	**Rosemary**	
 - `Project point of contact:` **Rosemary**		
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` **N/A**	
-- `Note-takers / Observers:` **Dependent on Session**
+- `Note-takers / Observers:` **Ben**
 - `There should be no more than **3** total attendees (moderator, notetaker(s), observer(s)) per session to not overwhelm the research participant.
 
 ### Notetaker and Silent Obeserver Guide
@@ -218,5 +211,4 @@ Approximately September 17 - October 2, 2025, based on clinician availability
 - In the event a participant needs to share their screen or a tool with an actual patient (since test patients don't always work to show how the tool functions), stop the recording before they share. DO NOT RECORD THE PARTICIPANT'S SCREEN IF THEY ARE SHOWING A REAL PATIENT.
 
 ## Reviews ✅
-- `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
-- `Reviewed by OCTO CDS HCD Peer on [MM-DD-YYYY]`
+- `Reviewed by OCTO CDS HCD Peers (Natalie & Ben) on [09-09-2025]`
