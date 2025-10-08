@@ -2,18 +2,67 @@
 - Current Sprint first
 
 ---
-## 📆 Sprint 4 (Sept 24 - Oct 7) 
+## 📆 Sprint 5 (Oct 8 - Oct 21) 
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
+- [ ] EZR Spouse QA findings resolution & finalize QA - **_Carry over due to unable to identify root cause, pulling in additional assistance_**
+- [ ] EZ Investigate Intro page looping
+- [ ] EZR "Back" button formatting
+- [ ] EZR Section Heading formatting on Review & Submit page
+- [ ] EZR Financials data error on Review & Submit page
+- [ ] EZR Update SOT for Print/Save PDF
+
+
+##
+### 10-10EZ
+
+#### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
+- [ ] **SPRINT GOAL** [#118788](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118788) - [Eng] re-open to investigate Intro page looping
+
+## 
+### 10-10CG
+
+#### No scheduled work this sprint
+
+## 
+### 10-10EZR
+#### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
+- [ ] **SPRINT GOAL** [#105901](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105901) - [QA] Test Spouse section  - **_Carry over due to unable to identify root cause, pulling in additional assistance_**
+- [ ] **SPRINT GOAL** [#121396](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121396) - [FE] Format "Back" button for consistency
+- [ ] **SPRINT GOAL** [#121397](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121397) - [FE] Update section heading on Review & Submit page
+- [ ] **SPRINT GOAL** [#121401](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121089) - [FE] Remediate Financials data disappearing from Review & Submit page
+
+#### Obj: EZR [Print/Save PDF](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109746)
+- [ ] **SPRINT GOAL** [#120784](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120784) - [Design] Update SOT
+
+## 
+### 10-2729a - CVA Claims
+#### Obj: [Improvements]
+- [ ] **SPRINT GOAL** [#115347](https://github.com/department-of-veterans-affairs/va.gov-team/issues/115347) - [UX] Create production form flow
+
+
+##
+### Team PTO
+- Indignous Peoples' Day - Monday, 10/13
+- Renata: 10/9-10/14
+- Jessica: 10/9-10/13
+- Kyle: 10/10
+- Steve: 10/20-10/24
+
+---
+## 📆 Sprint 4 (Sept 24 - Oct 7) 
+- [x] 🧱 **Sprint Goals not completed** 
+
+### Sprint Goal summary
 - [x] Investigate Intro page looping - **_Carry over due to bug fixes from ECNOK Launch delaying investigation_**
-- [ ] Spouse QA findings resolution & finalize QA - **_Carry over due to Eng availability, bug fix & additional QA_**
+- [ ] Spouse QA findings resolution & finalize QA - **_Carry over due to bug fix & additional QA_**
 - [x] Knowledge-sharing with Brandon
 - [x] Complete EZR Print/Save PDF Launch
 - [x] Review EZR Confirmation Flow/V2 release plans
 - [x] Update EZ PDF “Provide Support” question response on the generated PDF
 - [x] Update EZ confirmation page to remove “mail” reference for handbook
-- [ ] Create CHAMPVA Claims 107959a production form flow
+- [x] Create CHAMPVA Claims 107959a production form flow
 
 
 ##
@@ -39,15 +88,15 @@
 - [x] **SPRINT GOAL** [#109907](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109907) - [Team] Phased launch
 
 #### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
-- [ ] **SPRINT GOAL** [#105901](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105901) - [QA] Test Spouse section  - **_Carry over to Sprint 4 due to Eng availability, bug fix & additional QA_**
+- [ ] **SPRINT GOAL** [#105901](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105901) - [QA] Test Spouse section  - **_Carry over to Sprint 4 due to bug fix & additional QA_**
      - **Dependent on QA** [#112998](https://github.com/department-of-veterans-affairs/va.gov-team/issues/112998) - [FE] Prefill Spouse information (Pending QA before merging)  - **_Carry over to Sprint 4 due to pending QA before merge_**
 - [x] **SPRINT GOAL** [#120295](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120295) - [PM] Review release plans
 
 ## 
 ### 10-2729a - CVA Claims
 #### Obj: [Improvements]
-- [ ] **SPRINT GOAL** [#115347](https://github.com/department-of-veterans-affairs/va.gov-team/issues/115347) - [UX] Create production form flow
-- [ ] **IVC SPRINT PLANNING** [#117937](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117937) - [UX] Finish direct deposit info
+- [x] **SPRINT GOAL** [#115347](https://github.com/department-of-veterans-affairs/va.gov-team/issues/115347) - [UX] Create production form flow
+- [x] **IVC SPRINT PLANNING** [#117937](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117937) - [UX] Finish direct deposit info
 
 
 ##

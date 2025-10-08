@@ -62,23 +62,21 @@ Before we start, I have a few things that I want to go over with you:
 
 1. Just to confirm, you mentioned during recruitment that you’ve previously filed a disability compensation claim with the VA—is that correct?
 
-Note:
-
+Note:  yes ma’’am
 
 2. How long ago was that \- when did you last file a VA benefits claim? 
 
-Note:
-
+Note:  done several over the years, the oldest is maybe 6 years ago and the most recent is in the past year
 
 3. Have you received a decision for that claim?    
-- [ ] Yes  
+- [x] Yes  
 - [ ] No
 
 Note:
 
 
 4. Have you ever challenged a VA claim decision or filed a VA decision review before?      
-   - [ ] Yes  
+   - [x] Yes  
    - [ ] No
 
 Note:
@@ -86,29 +84,40 @@ Note:
 
 5. Which claim review option did you choose?   
 - [ ] Supplemental Claim  
-- [ ] Higher-Level Review  
-- [ ] Board Appeal  
+- [x] Higher-Level Review  
+- [x] Board Appeal  
 - [ ] US Court of Appeals  
 - [ ] Motion to Vacate  
 - [ ] Motion to Reconsider  
 - [ ] CUE  
 - [ ] Don’t know or remember
 
-Note:
+Note:  reviewed by a judge i think, and its been a few years ago so i may have forgotten….i think i challenged one decision or more, and they may have been approved or disapproved….but i have an 80% total compensation rating …
 
+:39
+
+Got a decision from a judge, there was a hearing but i was not required to appear at a hearing…
 
 6. Did you file the decision review yourself, or did you work with a VSO or an attorney on your behalf?  
    - [ ] Worked with a VSO/Attorney  
-   - [ ] Filed themselves  
+   - [x] Filed themselves  
 * If they filed themselves: “Can you walk me through how you first learned about the different VA decision review options—and what factors helped you decide which one to choose?”
 
-Note:
+Note:  donea ll my filings myself, ive never used an attorney. I dont think ive used the va iself, i follow the instructions on the computer and prob. A few years ago ive written them by hand. The instructions are not terribly complication…
 
+How did you learn about the decision review options?
+
+Probably reading the material on the VAs site and the periodicals they mail like agent orange, i was placed on the agent orange publication list and  i learned that i was probably eligible….
+
+:41
 
 7. Is there currently a decision review option that you are considering filing?  *(IF ANSWER NO, THEN SKIP \#47)*
 
-Note:
+Note:  i dont think so, the last one i filed was the one the judge looked at. And i think that once you do that, theres no appealing. And i believe his or her decision was final on that matter. 
 
+I assume i was applying for several different disabilities, and one or moe wre approved and one or more were disapproved 
+
+:43
 
 📄*Notetaker: Copy and paste the rating options [from the Appendix](#bookmark=id.jd076ikhrh1n) into Zoom Chat for visual reference:* 
 
@@ -116,7 +125,7 @@ Note:
 
    - [ ] 1: I don’t understand them at all  
    - [ ] 2: I understand them a little  
-   - [ ] 3: I understand them well   
+   - [x] 3: I understand them well   
    - [ ] 4: I understand them very well
 
 Note:
@@ -148,37 +157,42 @@ General troubleshooting: [https://depo-platform-documentation.scrollhelp.site/re
 
 “**Take some time to read through this screen.** When you’re ready, please talk to me about what you might expect to do before selecting any links. Please do not select any links or leave the page yet – but tell me verbally if there is an action you would like to take.”
 
+Note:  
+
+* im looking at the three, and i believe ive done all three through the years. I dont have a preference.   
+* With my history,i think ive already done all those things. Im not an expert but i think ive had to address these in the past.
+
 #### Intro screen questions
 
 9. In your own words, what do you think the ***Explore disability claim decision review options*** guide is for? What do you expect to get out of this guide?
 
-Note:
-
+Note:  teach veterans how to do this stuff. I want to learn how to do it
 
 10. What **types of claims** do you think this guide supports?
 
-Note:
-
+Note:  i would think almost all of them, or maybe all of them
 
 11. What, if anything, would you like to **know *before* starting the guide**?
 
-Note:
-
+Note:  i cant think of anything
 
 12. On the Intro page, under the bullets it says: *‘This guide isn’t a form you’ll submit to us.’*  **What does that mean** to you?
 
-Note:
+Note:  pretty simple, youre not …this is not a form that i would fill out and mail to the VA…but its a teaching tool to teach me how to do that better, im sure
 
+:57
 
 13. Is there anything on this page that is **confusing** or **unclear** that you would like to understand better?
 
-Note:
-
+Note:  no
 
 14. What would you **select first** on this page and why?
 
-Note:
+Note:  what am i gonna do now to start? 
 
+Explore your options? Is that one…well im a little confused. At the bottom of the page it says feedback, is that what you are looking for?
+
+Ive done all those in the past….i dont have a favorite
 
 ###### ➡️ If the Veteran selects the **helper text/accordion** links, ask:
 
@@ -231,21 +245,26 @@ Observe the Veteran working through the questions as they correspond to their ow
 * Common errors observed from misunderstanding questions?  
 * Are there points of tension, friction, or confusion as they work through the questions?  
 * Are there questions or considerations shared/reported?  
-* Note which links the Veteran would select and note any comments they have about the information provided.
-
-Note:
-
+* Note which links the Veteran would select and note any comments they have about the information provided.  
+* Note:    
+* 1.0 Ive looked at page already  
+  * Need lauren guidance  
+  * Asks about the breadcrumb to click on   
+  * Struggles to find…  
+    * Seems to associate the green button and the accordions  
+  * Believes the accordions to be the action steps   
+* 1.3- seems to read through page  
+* [22.is](http://22.is).1- wondering if the text as they read it, they are lke yes it is, but we are asking if va thought it was…
 
 **If the user gets to question 2.0: ‘*What type of claim decision is the one you want us to review?***’ ask the following: 
 
 21. Tell me in your own words **what you just chose** and why.
 
-Note:
-
+Note:  i think i did a supplemental claim for that one
 
 22. Is there **confusion or drop-off at the “type of claim” question** in flow?   
     - [ ] Yes, the participant was confused about the “type of claim” question.  
-    - [ ] No, the question was clear.
+    - [x] No, the question was clear.
 
 Note:
 
@@ -266,16 +285,28 @@ Note:
 
 Note: 
 
+“ i dont think i need to print the page” :06
+
+Yes i think so, previous screen told me what the review options were and shows me what they are again and fine tunes it a bit….
+
+:07
+
+I think supplemental claim is a good fit…i think ill start with supplemental claim
+
 25. Now that you have walked through the Guide, given the options presented to you, **which option would you choose** for your individual situation and why?
 
-Note:
+Note:  I think supplemental claim is a good fit…i think ill start with supplemental claim, well i feel, ill try to be specific, my body aget vietnam, when i got home…1969, my wife noticed i had these cherry red bumps….at that time i didnt even consider it might be something the VA would want to know about, so i did nothing about it for years….we need to take a look at this, because they are still there, so i did another exam at the VA and they determined that these cherry red bumps were not service-connected, and i think one doctor who examined me….but i was only 25 years old and today i still think these bumps were caused by agent orange  
+:09
 
+Im pretty sure i did a supplemental claim and eveni n the most recent one, which i think i did a board appeal, and maybe a HLR\< but again they did not approve them for ocmpoension…they did not find them service connection, but ill slways believe…but i think now since we did the board appeal, we did the last step in the appeal process, theres nothing more i can do about it
+
+:11
 
 📄*Notetaker: Copy and paste the rating options [from the Appendix](#bookmark=id.uwh6p4r5tfw3) into Zoom Chat for visual reference:*
 
 26. On a scale of 1-4, how **confident are you in selecting that choice from the Summary Screen**?  
     - [ ] 1 \= Not at all confident  
-          - [ ] 2 \= Slightly confident  
+          - [x] 2 \= Slightly confident  
           - [ ] 3 \= Very confident  
           - [ ] 4 \= Extremely confident
 
@@ -318,13 +349,13 @@ Note:
 31. Looking at these options, what do you think about their **order**? Does any option appear **higher-priority or more important** than the others, or do they all seem equal? Why?   
     (Perceived hierarchy on summary screens, What about when \>1 pathway?)
 
-Note:
+Note:  they are definitely not equal, supplemental would be first step, if that didnt work then another supplemental claiml, then HLR, then board appeal
 
+:14 \*\*\*
 
 32. Now that you’ve reviewed the summary screen, is there **any information missing**? Are you still looking for something that would help you choose your next step?
 
-Note:
-
+Note:  could learn more, or you could start board appeal request and i dont think that would be appropriate for someone working on supplemental claim 
 
 33. What would you do from here? What is the **next step** you might take?  
     - [ ] Restart  
@@ -334,16 +365,19 @@ Note:
     - [ ] Save as PDF   
     - [ ] Other 
 
-Note:
+Note:  fill out the form for the supplemental claim and send it to the VA, either do by post office mail or file on the computer…i dont know if there is another way. A supplemental claim on the computer is the same id you are looking at the hard copy itself…its more desirable by the VA and veterans because it produces results faster \*\*
 
+:15
 
 34. Does the wording and presentation of the options on the summary screen give you the **confidence to move forward** with your next step?
 
-Note:  
+Note:  yes
 
 35. At this point in the process, **do you believe you’ve submitted** your Decision Review request at this stage, or do you think there are still steps left to complete it? What actions would you expect to take next to finish submitting?
 
-Note:  
+Note:  may be sometimes they might contact me for more information or at a later date, or more evidence would show up which i would need to let the VA know about…its not a final thing….
+
+Im getting mixed up in what ive done and what id like to do :17 \*\*\*\*
 
 📄*Notetaker:* Does the participant understand that there is further action (beyond the guide) needed to submit a DR?
 
@@ -384,7 +418,7 @@ Note:
 39. On a scale of 1–4, how well do you feel you **understand the Decision Review options** and which one applies to you?   
     - [ ] 1 \= Don’t understand at all  
     - [ ] 2 \= Understand a little  
-    - [ ] 3 \= Understand well  
+    - [x] 3 \= Understand well  
     - [ ] 4 \= Understand very well
 
 Note:    
@@ -393,7 +427,7 @@ Note:
 40. On a scale of 1-4, how **confident are you in selecting a decision review option** from the summary screen?  
     - [ ] 1 \= Not at all confident  
     - [ ] 2 \= Slightly confident  
-    - [ ] 3 \= Confident  
+    - [x] 3 \= Confident  
     - [ ] 4 \= Very confident
 
 Note:  
@@ -401,7 +435,7 @@ Note:
 41. Using this 1–4 scale where 1 is ‘Very judgmental’ and 4 is ‘Very supportive’, how would you rate the **wording, tone, and presentation** of the summary screen?  
     - [ ] 1 \= Very judgemental  
     - [ ] 2 \= Somewhat judgemental  
-    - [ ] 3 \= Somewhat supportive  
+    - [x] 3 \= Somewhat supportive  
     - [ ] 4 \= Very Supportive
 
 Note:  
@@ -418,29 +452,31 @@ Note:
     - [ ] 1 \= I don’t understand them at all  
     - [ ] 2 \= I understand them a little  
     - [ ] 3 \= I understand them well  
-    - [ ] 4 \= I understand them very well  
-          Note:  
+    - [x] 4 \= I understand them very well  
+          Note:  ive had so m uch experience with them in the past
 
 43. Overall, on a scale of 1 to 4, how **easy or difficult was it to complete today’s tasks**, with 1 being very difficult and 4 being very easy?   
     - [ ] 1 \= Very difficult  
     - [ ] 2 \= Slightly difficult  
-    - [ ] 3 \= Easy  
+    - [x] 3 \= Easy  
     - [ ] 4 \= Very easy
 
-    Note:  
+    Note:  i remember when i first did this thing, but as im explaining this to its becoming more difficult…tts a very fine program, the whole appeal provess and submitting claims and all that, if you take your time…the VA knows what you are trying to do and they will either 
+
+    :19\*\*\*
 
 44. Overall, on a scale of 1 to 4, **how confident are you** that the questions you answered are accurate and sufficient to support your choosing a type of decision review?  
     - [ ] 1 \= Not at all confident  
     - [ ] 2 \= Slightly confident  
     - [ ] 3 \= Confident  
-    - [ ] 4 \= Very confident
+    - [x] 4 \= Very confident
 
 Note:  
 
 45. On a scale of 1-4, **how mentally taxing** was it to complete this guide?  
     - [ ] 1 \= Not taxing at all  
     - [ ] 2 \= Slightly taxing  
-    - [ ] 3 \= Moderately taxing  
+    - [x] 3 \= Moderately taxing  
     - [ ] 4 \= Very taxing
 
 Note:
@@ -450,8 +486,7 @@ Note:
 
 46. What, if anything, was **burdensome or confusing** about the experience overall?
 
-Note:
-
+Note:  as long as i dont try to drawr to much information that the VA is trying to give me, but if i just go simply step by step …
 
 47. *ASK ONLY IF THEY HAD AN ANSWER AT THE BEGINNING*: At the beginning of the study, we asked if there was a decision review pathway you were considering pursuing. **Have your results of the guide impacted the option** you were considering?
 
@@ -462,28 +497,33 @@ Note:
 
 48. Would you **recommend this tool** to a friend? Why / why not? 
 
-Note:
+Note:  yes, because its really not that hard but many veterans especially my age still dont use computers…and eben filling out forms they dont enjoy doing that or would need some help to get it done, i dont know if its the education or just the experience at my age and i have some slight training in computers, and i have a bachelors in….and i managed a busines…and to me it seems a simple way to get it done and it takes an hour or less \*\*\*
 
+:22
 
 49. How might/would you **use this tool in the future**?
 
-Note:
+Note:  i dont know, i may have applied for everything thats available and i either success or failed, unless some evidence comes up or a new law…
 
+When i did initial request sometimes they would immediately approve, if they disapprove, then i would say wait a minute…so i would look for a further review or more evidence or something 
+
+I ass
+
+:26
+
+Vietnam convoy trucker, book on the market :29
 
 50. Is this guide something you would use to **plan next steps**? To **start the process** of a decision review? Both?
 
-Note:
-
+Note:  both
 
 51. Does the **name** ‘*Explore disability claim decision review options*’ communicate its purpose?
 
-Note:
-
+Note:  yes
 
 52. Did the guide feel like **too many questions, too few**, or **about right**? 
 
-Note:
-
+Note:  about right
 
 53. What **types of claims** do you think this guide supports?  
     Note:  
@@ -547,12 +587,12 @@ Note:
 
 I want to circle back and ask one more question that we ask all participants about the video recording: **Is it okay with you if we share a video clip of part of this session with our VA partners?** We'd want to do this if we find a clip that demonstrates the need for an improvement or other helpful example of Veteran needs. We remove all information that could be used to identify you before sharing and would only share the video clips with VA partners with the purpose of improving VA.gov and other digital experiences.
 
-- [ ] Yes  
+- [x] Yes  
       - [ ] No  
             
 
       **If yes:** Is there any part of our discussion you would NOT want shared in a video clip? Record answer here:  
-            Note:    
+            Note:  not really, i try to tell the truth and hopefully it will help somebody  
       
 
 ### Thank you and closing

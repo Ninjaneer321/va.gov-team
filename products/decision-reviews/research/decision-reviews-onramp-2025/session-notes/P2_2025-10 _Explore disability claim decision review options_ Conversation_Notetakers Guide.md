@@ -5,9 +5,9 @@
 Team: Decision Reviews  
 Written by: [Kyra Berman-Gestring](mailto:kyra.berman-gestring@agile6.com) & [Lauren Dawson](mailto:lauren.dawson@agile6.com)
 
-Last modified: Oct 6, 2025
+Last modified: Oct 1, 2025
 
-Uploaded to Github:  Oct 6, 2025
+Uploaded to Github:  Oct 1, 2025
 
 **KEY**
 
@@ -17,7 +17,7 @@ Uploaded to Github:  Oct 6, 2025
 
 Thank you so much for joining us today\! My name is **\[NAME\]** and I work at VA.gov to help improve access to benefits and services for Veterans like you. 
 
-**\[NOTETAKER NAME\]** will be taking notes. I also have another colleague in the Zoom waiting room who would like to observe and take notes. But before we get to them...
+**\[NOTETAKER NAME\]** will be taking notes. I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them...
 
 Today we're going to talk about choosing a decision review pathway. We’re working on an online guide to assist Veterans with exploring the review options available after a disability claim decision has been made. I’ll walk you through the guide and ask for your honest feedback so we can improve it.
 
@@ -62,24 +62,21 @@ Before we start, I have a few things that I want to go over with you:
 
 1. Just to confirm, you mentioned during recruitment that you’ve previously filed a disability compensation claim with the VA—is that correct?
 
-Note:
-
+Note:  yes
 
 2. How long ago was that \- when did you last file a VA benefits claim? 
 
-Note:
-
+Note:  maybe in 2021, maybe 2022\. It was an add on to my initial request for compensation
 
 3. Have you received a decision for that claim?    
-- [ ] Yes  
+- [x] Yes  
 - [ ] No
 
-Note:
-
+Note:  i did, at the time, they said no, but a couple months later there was some type of correspondence…that was specific to asthma,...at first not a category but now it is…they gave me a no decision the first time, but i didnt go back and try again
 
 4. Have you ever challenged a VA claim decision or filed a VA decision review before?      
    - [ ] Yes  
-   - [ ] No
+   - [x] No
 
 Note:
 
@@ -105,10 +102,9 @@ Note:
 Note:
 
 
-7. Is there currently a decision review option that you are considering filing?  *(IF ANSWER NO, THEN SKIP \#47)*
+7. Is there currently a decision review option that you are considering filing?
 
-Note:
-
+Note:  i have not been proactive in going back to reapply
 
 📄*Notetaker: Copy and paste the rating options [from the Appendix](#bookmark=id.jd076ikhrh1n) into Zoom Chat for visual reference:* 
 
@@ -117,7 +113,7 @@ Note:
    - [ ] 1: I don’t understand them at all  
    - [ ] 2: I understand them a little  
    - [ ] 3: I understand them well   
-   - [ ] 4: I understand them very well
+   - [x] 4: I understand them very well
 
 Note:
 
@@ -148,44 +144,45 @@ General troubleshooting: [https://depo-platform-documentation.scrollhelp.site/re
 
 “**Take some time to read through this screen.** When you’re ready, please talk to me about what you might expect to do before selecting any links. Please do not select any links or leave the page yet – but tell me verbally if there is an action you would like to take.”
 
+Note: 
+
+* 
+
 #### Intro screen questions
 
 9. In your own words, what do you think the ***Explore disability claim decision review options*** guide is for? What do you expect to get out of this guide?
 
-Note:
-
+Note:  general information, just based on reading the page….which one is applicable for me. I wouldnt file the supplemental, im not asking, well, i guess i could. A board appeal would not be applicable to me…change in asthma as a category- i guess request higher-level review would be applicable to me. 
 
 10. What **types of claims** do you think this guide supports?
 
-Note:
-
+Note:  benefits claims
 
 11. What, if anything, would you like to **know *before* starting the guide**?
 
-Note:
-
+Note:  i wouldnt want to know anything, it is self explanatory to move to the next step depending on what i am looking for
 
 12. On the Intro page, under the bullets it says: *‘This guide isn’t a form you’ll submit to us.’*  **What does that mean** to you?
 
-Note:
-
+Note:  that this is not something i submit to the VA for a decision review, its just helping me understand which decision review options fit my situation \*\*
 
 13. Is there anything on this page that is **confusing** or **unclear** that you would like to understand better?
 
-Note:
-
+Note:  no, i understand exactly what each bullet represents and the other options out there to me…
 
 14. What would you **select first** on this page and why?
 
-Note:
-
+Note:  i would look to “looking for decision review…” accordion to see what is out there, see if it is applicable to me
 
 ###### ➡️ If the Veteran selects the **helper text/accordion** links, ask:
 
 15. Which accordions did they notice/open?
 
-Note:
+Note:  which one would…answer my question or get me to the section of the website that i need to answer my questions….
 
+- Reviewed titles, to see see which one may apply to her situation  
+- Curious to know what is under “looking for decision review options…”  
+  - Good information to know in case i have to go back and i have a question….i can go back to this specific page and find all those….\*\*\*
 
 16. Was there any language or **wording** that caused hesitation or **confusion**?
 
@@ -233,8 +230,11 @@ Observe the Veteran working through the questions as they correspond to their ow
 * Are there questions or considerations shared/reported?  
 * Note which links the Veteran would select and note any comments they have about the information provided.
 
-Note:
+Note:  
 
+* 1.0 \- I would first read the page, and then….i could sign in  
+  * Explore options  
+* I would probably print this out, 
 
 **If the user gets to question 2.0: ‘*What type of claim decision is the one you want us to review?***’ ask the following: 
 
@@ -257,26 +257,33 @@ Note:
 #### Summary screen questions
 
 23.  Was the Veteran able to reach the summary screen successfully and without help?  
-- [ ] Yes, the participant reached the summary screen successfully.  
+- [x] Yes, the participant reached the summary screen successfully.  
 - [ ] No, the participant didn’t reach the summary screen/needed assistance.
 
 #### 
 
 24. Is this screen what you **expected** to find? Why / why not?
 
-Note: 
+Note: Yes, its based on the questions i answered which lef me to this page
 
 25. Now that you have walked through the Guide, given the options presented to you, **which option would you choose** for your individual situation and why?
 
-Note:
+Note:  i guess, well..i dont know. That is a good question, … 
 
+:33
+
+I need more information, okay, so i see that…supplemental claim would be good…since other decision reviews require filing within one year….”that too would be a good fit”
+
+Is it possible to do both? 
+
+According to the answers, it says that both may be a good fit
 
 📄*Notetaker: Copy and paste the rating options [from the Appendix](#bookmark=id.uwh6p4r5tfw3) into Zoom Chat for visual reference:*
 
 26. On a scale of 1-4, how **confident are you in selecting that choice from the Summary Screen**?  
     - [ ] 1 \= Not at all confident  
           - [ ] 2 \= Slightly confident  
-          - [ ] 3 \= Very confident  
+          - [x] 3 \= Very confident  
           - [ ] 4 \= Extremely confident
 
     Note: 
@@ -285,69 +292,67 @@ Note:
 
 27. **Has your review option changed** from what you originally expected?  And if so, what about the guide led you to reconsider your choice?
 
-Note:
+Note:  no, cause i didnt have an expectation until ive read what ive read
 
-
-  
 👀 Notetaker: 
 
 28. Did the user select the **CFI & Disagree path/BOTH PATH**?    
-- [ ] Yes  
+- [x] Yes  
 - [ ] No
 
 Note:
 
 
 29. Does the user understand that there are 2 steps to take (DR and a CFI Claim)?   
-- [ ] Yes  
+- [x] Yes  
 - [ ] No
 
-Note:
+Note:  
 
+* Theres a handful of us who have supporting documents, i assume you will have the opp to upload more information to support what i am saying, does that make sense  
+* If its telling me i can do both, im gonnado both  
+  * My question would be…if i call the 800 number, youre telling me that i can do both, but which one is the one i should be choosing, cause i dont want to do double work. I would do both cause im a little anal…  
+  * :36
 
-30. On this summary screen, if you were explaining to a friend **why these options would or wouldn't fit**, how would you explain your options to them?
+30. On this summary screen, would you describe how you’d explain to a friend **why these option(s) do or don’t fit**.
 
-Note:
-
+Note:  well, both of them fit and that would be my dilemma, ….then i would ask for additional guidance from the 800 number
 
 👀 Notetaker:  Is the participant **able to state one requirement of why/why not** on the summary screens?
 
-- [ ] Yes, the participant was able to rephrase the summary screen requirements.  
+- [x] Yes, the participant was able to rephrase the summary screen requirements.  
       - [ ] No, the participant was not able to state a requirement of the summary screen.
 
 31. Looking at these options, what do you think about their **order**? Does any option appear **higher-priority or more important** than the others, or do they all seem equal? Why?   
     (Perceived hierarchy on summary screens, What about when \>1 pathway?)
 
-Note:
-
+Note:  all seem equal to me,
 
 32. Now that you’ve reviewed the summary screen, is there **any information missing**? Are you still looking for something that would help you choose your next step?
 
-Note:
-
+Note:  no, it gives me the link to my choice. Id start with the CFI because that is most applicable to me
 
 33. What would you do from here? What is the **next step** you might take?  
     - [ ] Restart  
-    - [ ] Print  \- Ask: “If you printed, what would you do with that information?”  
+    - [x] Print  \- Ask: “If you printed, what would you do with that information?”  
     - [ ] Bookmark \- Ask: “Where would you expect the bookmark to take you?”  
     - [ ] Email the link \- Ask: “Where would you expect the link to take you?”  
     - [ ] Save as PDF   
-    - [ ] Other 
+    - [x] Other 
 
-Note:
-
+Note:  start disability compensation application
 
 34. Does the wording and presentation of the options on the summary screen give you the **confidence to move forward** with your next step?
 
-Note:  
+Note:  yes
 
 35. At this point in the process, **do you believe you’ve submitted** your Decision Review request at this stage, or do you think there are still steps left to complete it? What actions would you expect to take next to finish submitting?
 
-Note:  
+Note:  definitely more steps. I would follow directions on screen. I definitely know i need supporting docs…medical records…can also look at link “learn more about evidence…”
 
 📄*Notetaker:* Does the participant understand that there is further action (beyond the guide) needed to submit a DR?
 
-- [ ] Yes, the participant understands that further action is required.  
+- [x] Yes, the participant understands that further action is required.  
       - [ ] No, the participant believes DR has been submitted.
 
       *👂*  Note: Listen for confusion around “**You’re requesting a review of…**” language in the summary screen.
@@ -357,13 +362,21 @@ Note:
 
 36. Imagine you've reached the summary screen and you noticed **you answered a question incorrectly or changed your mind**. What would you do?
 
-Note:
-
+Note:  if system allowed me to go back, i would do that 
 
 37. If you could **change anything about the summary screen**, what might that be?
 
-Note:
+Note:  nothing, it is user friendly. Its either a yes or no
 
+\*\*\*\* :40
+
+She made a mistake, noticed and went back to fix
+
+- [2.is](http://2.is).2 \- asthma was not an option, but now it is, but it happened after i made the claim  
+  - Its definitely during my active duty  
+- This time around, chose different selections, and got to a different screen.   
+-  now understand, going back through it allowed me to get to this answer  
+  - Feel the second time more accurate to my situation, …didnt look at policy change or law, thats why my answer changed and summary changed
 
 📄*Notetaker:*
 
@@ -387,14 +400,14 @@ Note:
     - [ ] 3 \= Understand well  
     - [ ] 4 \= Understand very well
 
-Note:    
+Note:   
  
 
 40. On a scale of 1-4, how **confident are you in selecting a decision review option** from the summary screen?  
     - [ ] 1 \= Not at all confident  
     - [ ] 2 \= Slightly confident  
     - [ ] 3 \= Confident  
-    - [ ] 4 \= Very confident
+    - [x] 4 \= Very confident
 
 Note:  
 
@@ -402,7 +415,7 @@ Note:
     - [ ] 1 \= Very judgemental  
     - [ ] 2 \= Somewhat judgemental  
     - [ ] 3 \= Somewhat supportive  
-    - [ ] 4 \= Very Supportive
+    - [x] 4 \= Very Supportive
 
 Note:  
 
@@ -418,14 +431,14 @@ Note:
     - [ ] 1 \= I don’t understand them at all  
     - [ ] 2 \= I understand them a little  
     - [ ] 3 \= I understand them well  
-    - [ ] 4 \= I understand them very well  
+    - [x] 4 \= I understand them very well  
           Note:  
 
 43. Overall, on a scale of 1 to 4, how **easy or difficult was it to complete today’s tasks**, with 1 being very difficult and 4 being very easy?   
     - [ ] 1 \= Very difficult  
     - [ ] 2 \= Slightly difficult  
     - [ ] 3 \= Easy  
-    - [ ] 4 \= Very easy
+    - [x] 4 \= Very easy
 
     Note:  
 
@@ -433,14 +446,14 @@ Note:
     - [ ] 1 \= Not at all confident  
     - [ ] 2 \= Slightly confident  
     - [ ] 3 \= Confident  
-    - [ ] 4 \= Very confident
+    - [x] 4 \= Very confident
 
 Note:  
 
-45. On a scale of 1-4, **how mentally taxing** was it to complete this guide?  
+45. On a scale of 1-4, how mentally taxing was it to complete this guide?  
     - [ ] 1 \= Not taxing at all  
     - [ ] 2 \= Slightly taxing  
-    - [ ] 3 \= Moderately taxing  
+    - [x] 3 \= Moderately taxing  
     - [ ] 4 \= Very taxing
 
 Note:
@@ -450,55 +463,56 @@ Note:
 
 46. What, if anything, was **burdensome or confusing** about the experience overall?
 
-Note:
+Note:  i think initial choosing between supplemental and CFI, that was…had to sit down and read…different option based on your answer
 
+47. At the beginning of the study, we asked if there was a decision review pathway you were considering pursuing. **Have your results of the guide impacted the option** you were considering?
 
-47. *ASK ONLY IF THEY HAD AN ANSWER AT THE BEGINNING*: At the beginning of the study, we asked if there was a decision review pathway you were considering pursuing. **Have your results of the guide impacted the option** you were considering?
+Note:  
 
-Note:
-
+Helpful tool to maneuver through the system \*\*\* :47
 
 ### 
 
 48. Would you **recommend this tool** to a friend? Why / why not? 
 
-Note:
+Note:  
 
+Yes, for those not familiar…its pretty easy :47
 
 49. How might/would you **use this tool in the future**?
 
-Note:
-
+Note:  now i know policy, vs law, i would take the same steps to get to a supplemental claim
 
 50. Is this guide something you would use to **plan next steps**? To **start the process** of a decision review? Both?
 
-Note:
-
+Note:  both
 
 51. Does the **name** ‘*Explore disability claim decision review options*’ communicate its purpose?
 
-Note:
-
+Note:  yes it does
 
 52. Did the guide feel like **too many questions, too few**, or **about right**? 
 
-Note:
-
+Note:  just about right
 
 53. What **types of claims** do you think this guide supports?  
-    Note:  
+    Note:  the ones highlighted on the intro page.   
+    \- it gives you the option to learn about other decision reviews 
 
 ### If additional time allows…
 
 54. How does this guide compare to **how you previously learned about** or chose decision review options?
 
-Note:
-
+Note:  this was like 20 years ago…this was not an option. This is an awesome option for a lot of younger Veterans to utilise to understand how and where to submit claim \*\*\*  
+:49
 
 55. What **resources did you use before**, and how helpful were they compared to this guide?
 
-Note:
+Note:  my mother worked at VA hospital years ago…she kept iterating to me to make sure VA enrollment had a copy of medical record and talk to local VA office
 
+- What would be in my best interest, its essentially an increase to my current disability….now changed by policy…so am i increasing? Yes, am i going back to supplemental info?...kind of contradictory \- should have been an increase, for something that was changed to a different policy   
+- If it turned out to be the case to only pursue one optoin…well depends on the person, some people like to interact with online services where you can filter through, but a little more detailed…what applies to me may not apply to someone else, id rather speak to someone and ask these questions. These are pretty much cut/dry questions. I need a better explanation, talking to an expertee about my asthma vs. someone else crohsn disease and explain the specifics.  
+- :54
 
 56. Compared to before using this guide, how **much more or less confident** do you feel about choosing a decision review option?
 
@@ -531,12 +545,7 @@ Note:
 Note:
 
 
-62. Do the **observers** have any questions?
-
-Note:
-
-
-63. Do **you** have any final questions for us?
+62. Do the observers have any questions?
 
 Note:
 
@@ -547,12 +556,12 @@ Note:
 
 I want to circle back and ask one more question that we ask all participants about the video recording: **Is it okay with you if we share a video clip of part of this session with our VA partners?** We'd want to do this if we find a clip that demonstrates the need for an improvement or other helpful example of Veteran needs. We remove all information that could be used to identify you before sharing and would only share the video clips with VA partners with the purpose of improving VA.gov and other digital experiences.
 
-- [ ] Yes  
+- [x] Yes  
       - [ ] No  
             
 
       **If yes:** Is there any part of our discussion you would NOT want shared in a video clip? Record answer here:  
-            Note:    
+            Note:  how long it took me to get to where we were trying to go  
       
 
 ### Thank you and closing
@@ -697,12 +706,19 @@ Thanks for letting me take a break. You didn't do anything wrong, but I'm realiz
 
 4: Very confident
 
-45\. On a scale of 1-4, how **mentally taxing** was it to complete this guide?  
-1: Not taxing at all
+45\. On a scale of 1-4, how **mentally taxing** was it to complete this guide?
 
-2: Slightly taxing
+- [ ] 1 \= Not taxing at all  
+      - [ ] 2 \= Slightly taxing  
+      - [ ] 3 \= Moderately taxing  
+      - [ ] 4 \= Very taxing
 
-3: Moderately taxing
+Section 3: Overall rating questions ([Page 22](#bookmark=id.y8awkt7gqp9q))
 
-4: Very taxing
+60\. On a scale of 1-4, how **mentally taxing** was it to complete this guide?
 
+- [ ] 1 \= Not taxing at all  
+      - [ ] 2 \= Slightly taxing  
+      - [ ] 3 \= Moderately taxing  
+      - [ ] 4 \= Very taxing  
+            

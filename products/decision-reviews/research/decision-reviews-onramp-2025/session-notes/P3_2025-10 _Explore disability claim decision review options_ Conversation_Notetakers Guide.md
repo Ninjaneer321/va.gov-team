@@ -62,23 +62,20 @@ Before we start, I have a few things that I want to go over with you:
 
 1. Just to confirm, you mentioned during recruitment that you’ve previously filed a disability compensation claim with the VA—is that correct?
 
-Note:
-
+Note:  i have
 
 2. How long ago was that \- when did you last file a VA benefits claim? 
 
-Note:
-
+Note:  last one prob. A guess, 20, 21 something like that
 
 3. Have you received a decision for that claim?    
-- [ ] Yes  
+- [x] Yes  
 - [ ] No
 
-Note:
-
+Note:  all same one, filed a claim back in 2011-2012 and basically the same thing that ive been asking
 
 4. Have you ever challenged a VA claim decision or filed a VA decision review before?      
-   - [ ] Yes  
+   - [x] Yes  
    - [ ] No
 
 Note:
@@ -86,7 +83,7 @@ Note:
 
 5. Which claim review option did you choose?   
 - [ ] Supplemental Claim  
-- [ ] Higher-Level Review  
+- [x] Higher-Level Review  
 - [ ] Board Appeal  
 - [ ] US Court of Appeals  
 - [ ] Motion to Vacate  
@@ -94,21 +91,18 @@ Note:
 - [ ] CUE  
 - [ ] Don’t know or remember
 
-Note:
-
+Note:  higher court or higher decision
 
 6. Did you file the decision review yourself, or did you work with a VSO or an attorney on your behalf?  
-   - [ ] Worked with a VSO/Attorney  
+   - [x] Worked with a VSO/Attorney  
    - [ ] Filed themselves  
 * If they filed themselves: “Can you walk me through how you first learned about the different VA decision review options—and what factors helped you decide which one to choose?”
 
-Note:
-
+Note:  originally with a VSO, 
 
 7. Is there currently a decision review option that you are considering filing?  *(IF ANSWER NO, THEN SKIP \#47)*
 
-Note:
-
+Note:  one of them, yes
 
 📄*Notetaker: Copy and paste the rating options [from the Appendix](#bookmark=id.jd076ikhrh1n) into Zoom Chat for visual reference:* 
 
@@ -116,7 +110,7 @@ Note:
 
    - [ ] 1: I don’t understand them at all  
    - [ ] 2: I understand them a little  
-   - [ ] 3: I understand them well   
+   - [x] 3: I understand them well   
    - [ ] 4: I understand them very well
 
 Note:
@@ -148,49 +142,45 @@ General troubleshooting: [https://depo-platform-documentation.scrollhelp.site/re
 
 “**Take some time to read through this screen.** When you’re ready, please talk to me about what you might expect to do before selecting any links. Please do not select any links or leave the page yet – but tell me verbally if there is an action you would like to take.”
 
+Note:  
+
 #### Intro screen questions
 
 9. In your own words, what do you think the ***Explore disability claim decision review options*** guide is for? What do you expect to get out of this guide?
 
-Note:
-
+Note:  it seems to me that…we may not understand what you’re being pacific about, or what the claim is all about…theyre pretty good about telling you its gonna take a while…responding to statement of the case, in other words…Looking for other decision review options, that i font know what that would mean
 
 10. What **types of claims** do you think this guide supports?
 
-Note:
-
+Note:  i would guess, in my opinion, vietnam vet, something to do with agent orange or if you were disabled physically, thats what im assuming
 
 11. What, if anything, would you like to **know *before* starting the guide**?
 
-Note:
+Note:  probably how much theyre gonna sk you for specifically…when i filed my claim it said,..at that time you werent, you have to be in a drift zone for agent orange and that is ridiculous as heck…you know they sprayed the perimeter and…eventually with the PACT ACt they said you were there and that ounts, and that took a lot of stuff to prove, where i was, where i lived, where i worked, and i thought that was the VA not being honest, to be honest with you 
 
+:26
 
 12. On the Intro page, under the bullets it says: *‘This guide isn’t a form you’ll submit to us.’*  **What does that mean** to you?
 
-Note:
-
+Note:  trying to verify or get an idea of what the problem you have is or where they should send you with questions you have
 
 13. Is there anything on this page that is **confusing** or **unclear** that you would like to understand better?
 
-Note:
-
+Note:  responding to statement of case (SOC…) i dont know what that means 
 
 14. What would you **select first** on this page and why?
 
-Note:
-
+Note:  right now for me, i filed an intent to file which runs out this month, so havent filed a claim yet would be my choice…
 
 ###### ➡️ If the Veteran selects the **helper text/accordion** links, ask:
 
 15. Which accordions did they notice/open?
 
-Note:
-
+Note:  havent filed a claim yet accordion
 
 16. Was there any language or **wording** that caused hesitation or **confusion**?
 
-Note:
-
+Note:  that makes sense i get that
 
 ###### ➡️ If they click on any of the **links**, ask:
 
@@ -233,22 +223,49 @@ Observe the Veteran working through the questions as they correspond to their ow
 * Are there questions or considerations shared/reported?  
 * Note which links the Veteran would select and note any comments they have about the information provided.
 
-Note:
+Note:  
 
+* The only other thing…only thing down below that is (other accordions)...says below that need help  
+* I dont know what im looking, i dont know what that would mean…  
+* Task 1 \- fail  
+* If youre filing a claim, really it wouldnt be a supplemental would it…  
+  * Rereads page again, after redirected to top of page  
+  * Then finds explore your options  
+    * Seems to hover over preview of link. & we lost connection to screenshare  
+* 1.0- seems to skip header and read body and answers  
+  * Confusion on what to choose, but not sure which claim question is referring to  
+  * Thinking through agent orange case…  
+    * :36  
+  * “In that case would I call for help?”  
+    * I probably would because im not sure which one they would want me to do…  
+  * Lauren redirects back to case study shared in warm up questions   
+    * Trying to understand if he got an answer on the HLR  
+      * If ive already been given an answer on a higher level, i dont know where there is to go after that :39  
+    * Expresses lots of concerns/thoughts on PACT ACT  
+    * Lauren directs to answer yes  
+    * “Hit continue right?”  
+* [2.IS](http://2.IS).1-  On first initial one, did not, on pact act they did  
+  * Lets go with first one  
+* 2.0 \- for my second claim i would tap the initial claim. Claim for increase  
+  * Veteran seems to skip over some of the option titles “higher level review” and read hint text  
+  * If on second claim, \#1, on the second one…i guess a senior reviewer did review my previous claim  
+* Since considering 2 different claims, had dificulty answering questions based on one or another
 
 **If the user gets to question 2.0: ‘*What type of claim decision is the one you want us to review?***’ ask the following: 
 
 21. Tell me in your own words **what you just chose** and why.
 
-Note:
+Note:  SKIP
 
+My personnel records have been lost since 1991…the only thing i have is a ….subsequentally they sent me a form that said i did serve and where..that is a really high hurdle when you are doing this sort of stuff. Ive had the senators in my state….and nobody can find my records
+
+:45
 
 22. Is there **confusion or drop-off at the “type of claim” question** in flow?   
-    - [ ] Yes, the participant was confused about the “type of claim” question.  
+    - [x] Yes, the participant was confused about the “type of claim” question.  
     - [ ] No, the question was clear.
 
-Note:
-
+Note:  see notes above
 
 ### Task 3: Select an option on the summary screen
 
@@ -258,24 +275,24 @@ Note:
 
 23.  Was the Veteran able to reach the summary screen successfully and without help?  
 - [ ] Yes, the participant reached the summary screen successfully.  
-- [ ] No, the participant didn’t reach the summary screen/needed assistance.
+- [x] No, the participant didn’t reach the summary screen/needed assistance.
 
 #### 
 
-24. Is this screen what you **expected** to find? Why / why not?
-
-Note: 
+24. Is this screen what you **expected** to find? Why / why not?  
+* Note: that all makes sense to me, i get that…  
+* Reads through all options in not an option section  
+* It makes sense, yeah
 
 25. Now that you have walked through the Guide, given the options presented to you, **which option would you choose** for your individual situation and why?
 
-Note:
-
+Note:  id say uh…supplemental claim probably, because its really based on the same thing. I have another condition that is caused by agent orange and i would think it would be the same kind of thing…
 
 📄*Notetaker: Copy and paste the rating options [from the Appendix](#bookmark=id.uwh6p4r5tfw3) into Zoom Chat for visual reference:*
 
 26. On a scale of 1-4, how **confident are you in selecting that choice from the Summary Screen**?  
     - [ ] 1 \= Not at all confident  
-          - [ ] 2 \= Slightly confident  
+          - [x] 2 \= Slightly confident  
           - [ ] 3 \= Very confident  
           - [ ] 4 \= Extremely confident
 
@@ -285,15 +302,19 @@ Note:
 
 27. **Has your review option changed** from what you originally expected?  And if so, what about the guide led you to reconsider your choice?
 
-Note:
+Note:  
 
+Are we talking about the first time or second? 
 
-  
+First time, i would say they told me to do HLR and thats it, youre toast
+
+On the second one, yes
+
 👀 Notetaker: 
 
 28. Did the user select the **CFI & Disagree path/BOTH PATH**?    
 - [ ] Yes  
-- [ ] No
+- [x] No
 
 Note:
 
@@ -307,13 +328,16 @@ Note:
 
 30. On this summary screen, if you were explaining to a friend **why these options would or wouldn't fit**, how would you explain your options to them?
 
-Note:
+Note:  well i would say…my option….suplemental claim, i would tell them well, is something that happened to me caused by agent oregon and at the time, i originally filed there wasnt evemn an option to file for that orblem i had, back in 2011 or 12, and im not sure..i reason some groups that im in, that this is something you might want to apply for, but the people i talk to are not thrilled with the results they get from applying for this thing
 
+:52
+
+Get some assistance, from VSO (;53)
 
 👀 Notetaker:  Is the participant **able to state one requirement of why/why not** on the summary screens?
 
 - [ ] Yes, the participant was able to rephrase the summary screen requirements.  
-      - [ ] No, the participant was not able to state a requirement of the summary screen.
+      - [x] No, the participant was not able to state a requirement of the summary screen.
 
 31. Looking at these options, what do you think about their **order**? Does any option appear **higher-priority or more important** than the others, or do they all seem equal? Why?   
     (Perceived hierarchy on summary screens, What about when \>1 pathway?)
@@ -384,7 +408,7 @@ Note:
 39. On a scale of 1–4, how well do you feel you **understand the Decision Review options** and which one applies to you?   
     - [ ] 1 \= Don’t understand at all  
     - [ ] 2 \= Understand a little  
-    - [ ] 3 \= Understand well  
+    - [x] 3 \= Understand well  
     - [ ] 4 \= Understand very well
 
 Note:    
@@ -393,7 +417,7 @@ Note:
 40. On a scale of 1-4, how **confident are you in selecting a decision review option** from the summary screen?  
     - [ ] 1 \= Not at all confident  
     - [ ] 2 \= Slightly confident  
-    - [ ] 3 \= Confident  
+    - [x] 3 \= Confident  
     - [ ] 4 \= Very confident
 
 Note:  
@@ -402,9 +426,9 @@ Note:
     - [ ] 1 \= Very judgemental  
     - [ ] 2 \= Somewhat judgemental  
     - [ ] 3 \= Somewhat supportive  
-    - [ ] 4 \= Very Supportive
+    - [x] 4 \= Very Supportive
 
-Note:  
+Note:  theyre trying, theyre trying to help
 
 ## **Section 3: Post Session Interview \- 10 minutes** {#section-3:-post-session-interview---10-minutes}
 
@@ -417,7 +441,7 @@ Note:
 42. Now that you’ve used the guide, on a scale of 1 to 4, how well do you feel you **understand the VA decision review options**, their requirements, and which one applies to your situation?  
     - [ ] 1 \= I don’t understand them at all  
     - [ ] 2 \= I understand them a little  
-    - [ ] 3 \= I understand them well  
+    - [x] 3 \= I understand them well  
     - [ ] 4 \= I understand them very well  
           Note:  
 
@@ -425,20 +449,20 @@ Note:
     - [ ] 1 \= Very difficult  
     - [ ] 2 \= Slightly difficult  
     - [ ] 3 \= Easy  
-    - [ ] 4 \= Very easy
+    - [x] 4 \= Very easy
 
-    Note:  
+    Note:  it was fine, yeah. You get  a lot of people that are supporting you, so it was great :55
 
 44. Overall, on a scale of 1 to 4, **how confident are you** that the questions you answered are accurate and sufficient to support your choosing a type of decision review?  
     - [ ] 1 \= Not at all confident  
     - [ ] 2 \= Slightly confident  
     - [ ] 3 \= Confident  
-    - [ ] 4 \= Very confident
+    - [x] 4 \= Very confident
 
 Note:  
 
 45. On a scale of 1-4, **how mentally taxing** was it to complete this guide?  
-    - [ ] 1 \= Not taxing at all  
+    - [x] 1 \= Not taxing at all  
     - [ ] 2 \= Slightly taxing  
     - [ ] 3 \= Moderately taxing  
     - [ ] 4 \= Very taxing
@@ -462,13 +486,19 @@ Note:
 
 48. Would you **recommend this tool** to a friend? Why / why not? 
 
-Note:
+Note:  yes
 
+Answer to christians question…
+
+Well, maybe if they would break down what initial claim means to them or supppmental…maybe another box on what initial claim would be, this is what supplemental may be…
+
+:59
+
+\*\*believe he is talking about 2.0, which shows confusion at the intent of that screen. 
 
 49. How might/would you **use this tool in the future**?
 
-Note:
-
+Note:  i will use this feature because i think i am gonna file my claim…yeah i know its this month…
 
 50. Is this guide something you would use to **plan next steps**? To **start the process** of a decision review? Both?
 
@@ -477,13 +507,11 @@ Note:
 
 51. Does the **name** ‘*Explore disability claim decision review options*’ communicate its purpose?
 
-Note:
-
+Note:  yes
 
 52. Did the guide feel like **too many questions, too few**, or **about right**? 
 
-Note:
-
+Note:  about right
 
 53. What **types of claims** do you think this guide supports?  
     Note:  
@@ -547,12 +575,12 @@ Note:
 
 I want to circle back and ask one more question that we ask all participants about the video recording: **Is it okay with you if we share a video clip of part of this session with our VA partners?** We'd want to do this if we find a clip that demonstrates the need for an improvement or other helpful example of Veteran needs. We remove all information that could be used to identify you before sharing and would only share the video clips with VA partners with the purpose of improving VA.gov and other digital experiences.
 
-- [ ] Yes  
+- [x] Yes  
       - [ ] No  
             
 
       **If yes:** Is there any part of our discussion you would NOT want shared in a video clip? Record answer here:  
-            Note:    
+            Note:  no  
       
 
 ### Thank you and closing
