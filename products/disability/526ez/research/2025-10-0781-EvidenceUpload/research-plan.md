@@ -9,13 +9,6 @@ We are enabling Veterans to submit evidence to support their mental health condi
 *What problem is your product trying to solve?*
 
 Although opting into the 0781 form is optional, once the Veteran does so, they need to provide evidence to support their stated mental health conditions. If the Veteran doesn’t provide the correct evidence, it can delay adjudication or result in their claim being denied. Additionally if the Veteran doesn’t provide enough of the right kind of evidence, the VBA will not be equipped to follow up on these items, leading to their claim being denied. 
-
-ut the problem of if people submit an 0781 without evidence, it can delay adjudication or even result in their claim being denied.
-
-Worth mentioning, that the bar to obtain this evidence for online submissions is higher than usual.
-
-Typically, VBMS would have the option to develop claims for evidence further. In this case, because we're not ticking off boxes for individual items, VBA will not be equipped to follow up on these items.
-
  
 
 ### Where is your product situated on VA.gov? (ex: auth vs. unauth)
@@ -29,9 +22,7 @@ Veterans are currently uploading documents in the last step of the form. This se
 
 ### Product Brief
 
-- [**Superepic link**](https://github.com/department-of-veterans-affairs/va.gov-team/issues/107258)
-
-- [Help Veterans provide evidence to support their mental health statement (0781) and all other conditions in a single section of the Disability form (526) \#114046](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114046)
+- This superepic serves as our brief: [Help Veterans provide evidence to support their mental health statement (0781) and all other conditions in a single section of the Disability form (526) \#114046](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114046)
 
 ### [**OCTO-DE Priorities**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO-DE%20Priorities%202025.md)
 
@@ -92,7 +83,7 @@ This research will give us a better understanding of claimants’ understanding 
 
 We propose semi-structured user interviews and observations for this study. This research will be moderated remotely on Zoom to support screen sharing. 
 
-The goal of these interviews is to understand the underlying meaning behind why participants hold certain views and have particular needs. Although the design is high-fidelity and fairly refined, we are proposing a discovery-leaning methodology so that we can gather stories that users create about the content that they are seeing. We are choosing not to do an unmoderated usability study because the process of uploading condition-appropriate documentation is highly specific to the individual; setting up a study like this would take an immense amount of preparation that does not feel appropriate at this time. However, as part of this semi-structured approach, the researcher may ask participants to complete certain small tasks. These tasks are to serve as a manifestation of a user’s understanding of the content and structure of the design. 
+Although the design is high-fidelity and fairly refined, we are proposing a discovery-leaning methodology so that we can gather stories that users create about the content that they are seeing. We are choosing not to do an unmoderated usability study because the process of uploading condition-appropriate documentation is highly specific to the individual; setting up a study like this would take an immense amount of preparation that does not feel appropriate at this time. However, as part of this semi-structured approach, the researcher may ask participants to complete certain small tasks. These tasks will be followed with questions to understand the why behind the participant's choices and understanding. 
 
 ### **Location**
 
@@ -100,17 +91,17 @@ Remote, Zoom
 
 ## **Research materials 📔**
 
-* \[Link to conversation guide\](url goes here)  
+* [Conversation Guide](https://docs.google.com/document/d/1__VmGqotZ0a1VN6CE21tmM_85DknxqPj4LGNQZTHRyg/edit?tab=t.0#heading=h.riux8c4sekhk)
 * \[Link to prototype\](url goes here)
 
 ## **Recruitment 🎯**
 
 ### **Recruitment approach**
 
-* Veterans: 9  
+* Veterans: 10  
 * Caregivers: 0  
 * Dependents: 0  
-* Total: 9  
+* Total: 10  
 * Ideal completed sessions: 7
 
 ### **Primary criteria (must-haves)**
@@ -118,7 +109,7 @@ Remote, Zoom
 * Return claimants who have filed a 526 and an 0781, with mental health conditions  
   * Their most recent application should be within the past 5 years  
   * Applications can be paper or digital  
-  * We are looking for at least 4 participants in this category  
+  * We are looking for at least 3 participants in this category  
 * Claimants who have never filed for a disability benefit and have a mental health condition(s) 
   * This group can also include those who have started the process but never completed filing  
   * We are looking for at least 4 participants in this category  
@@ -143,20 +134,26 @@ Remote, Zoom
 *Familiarity with technology*
 * Are you able to join the Zoom session from a smartphone, such as a Samsung Galaxy or Apple iPhone? Any kind of smartphone will work as long as it connects to the internet.
   * Response options: yes or no. (Answering yes would qualify the participant.)
-*Cognitive disabilities*
-* Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.
-  * Response options: yes or no. (Answering yes would qualify the participant.)
+ 
+_Mental health conditions_
 * We’re asking Veterans to share their experience with us so that we can improve the process of filing claims related to traumatic events. However, we know it can be difficult to talk about these topics. We’ll ask you questions about filling out a VA mental health form, which could involve sharing some limited details about your own mental health or traumatic experiences. Are you comfortable sharing your experience with us?
   * Yes [Recruit]
   * No [Do not recruit]
-* Have you ever filed a claim for disability benefits?
-  * Yes [recruit at least 3]
-  * No [recruit at least 3]
+ 
 * Which of the following conditions apply to you? You can check multiple types.
   * PTSD [Recruit at least 1]
   * Military sexual trauma (MST) [Recruit at least 1]
   * Other mental health conditions related to a traumatic event, such as depression or anxiety [Recruit at least 1]
-  * None of the above [do not recruit]
+  * None of the above [do not recruit]  
+    
+*Cognitive disabilities*
+* Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.
+  * Response options: yes or no. (Answering yes would qualify the participant for cognitive disability criteria.)
+
+* Have you ever filed a claim for disability benefits?
+  * Yes [recruit at least 3]
+  * No [recruit at least 3]
+    
 * If you have filed a claim, how recently did you file?
   * Within the last 5 years [Recruit at least 3]
   * Over 5 years ago [do not recruit]

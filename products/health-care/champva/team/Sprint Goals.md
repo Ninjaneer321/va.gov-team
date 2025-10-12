@@ -9,14 +9,15 @@
 - [ ] 10-10d: Create integration tests and prepare for VES Launch
 - [ ] 10-7959a: Fix Internal QA issues and address selection to use VaRadio
 - [ ] 10-7959a: Remaining Enhanced Claims Flow Changes from Content/IA & Email Updates
-- [ ] UX: Additional Design Discovery for Ineligible Applicants (Tricare)
 - [ ] UX: 10-7959f-2: Research Planning FMP Claims for Direct Deposit
 - [ ] UX: 10-7959a: Duty to assist
 - [ ] UX: 10-7959a: Add resubmission content to intro page
 - [ ] UX: Health Apps: Medallia Report
 - [ ] UX: 1010d v2: Confirm processing times content with CVA apps folks and add that back into the confirmation page + confirmation email
+- [ ] Stretch goal UX: Additional Design Discovery for Ineligible Applicants (Tricare)
 - [ ] Stretch goal: Begin Staged Launch of 1010d/10-7959c Merge (BLOCKED BY SHUTDOWN)
 - [ ] Stretch goal: 10-7959c: OHI Standalone PDF Updates
+- [ ] Stretch goal: Investigate missing stamp content monitor incident
 
 
 
@@ -34,8 +35,6 @@
   - [ ] [[BE] 1010d: Create integration tests that cover data transformations - PDF File](https://github.com/department-of-veterans-affairs/va.gov-team/issues/108702)
   - [ ] [[BE] 10-10d (Standalone and v2): Send PEGA/DOCMP a JSON of all data/fields we'll be sending to VES](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116079)
   - [ ] [[BE] VES: Validate 1010d Form Data Integration and Logging with VES API - Pre-Prod Environment](https://github.com/department-of-veterans-affairs/va.gov-team/issues/112833)
-- [ ] **SPRINT GOAL** Additional Design Discovery for Ineligible Applicants (Tricare)
-  - [ ] [[UX] 10-10d v2: Additional Design Discovery for Ineligible Applicants](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121513)
 
 
 ### 10-7959a
@@ -70,17 +69,20 @@
 ### STRETCH GOALS
 - [ ] **STRETCH GOAL** Begin Staged Launch of 1010d/10-7959c Merge (BLOCKED BY SHUTDOWN)
 - [ ] **STRETCH GOAL** 10-7959c: OHI Standalone PDF Updates
-  - [ ] [Epic: OHI Standalone 10-7959c Updates and PDF Switch](https://github.com/department-of-veterans-affairs/va.gov-team/issues/102719)
+  - [ ] [[FE] 10-7959c Review OHI PDF Updates Needed](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121684)
+- [ ] **STRETCH GOAL**Additional Design Discovery for Ineligible Applicants (Tricare)
+  - [ ] [[UX] 10-10d v2: Additional Design Discovery for Ineligible Applicants](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121513)
 
      
 ##
 ### WHAT'S NEXT
 - **FE**
-- [ ] [[FE] 1010d/10-7959c Merge Staging Review finding: Button - Loading imposter component #118224](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118224)
+  - [ ] [[FE] 1010d/10-7959c Merge Staging Review finding: Button - Loading imposter component #118224](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118224)
 - **UX**
   - [ ] UX: 10-7959c: Update Confirmation Page for Print/Save PDF for OHI
-- Stretch goal: Health Apps Monthly Metrics Pulls
-- **BE** 
+- **BE**
+  - [ ] [[BE] Investigate missing stamp content monitor incident](https://github.com/department-of-veterans-affairs/va.gov-team/issues/107339)
+  - [ ] [[BE] Remove the metadata doc being generated for Resubmissions](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121699)
 
 
 ##
@@ -97,16 +99,16 @@
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- [ ] 10-10d/1-7959c Merge: Address staging review findings with fixes to radio buttons, content, and alerts.
+- [x] 10-10d/1-7959c Merge: Address staging review findings with fixes to radio buttons, content, and alerts.
 - [ ] Begin Staged Launch of 1010d/10-7959c Merge 
-- [ ] Add new document upload pages for Sendback and EOB in ChampVA Claims resubmissions
-- [ ] Fix screen reader announcement on radio buttons in ChampVA Claims 
-- [ ] Finalize confirmation emails  for FMP  Claims
-- [ ] Spike: Dynamic VA Notify emails based on if an OHI was generated in 1010d extended 
-- [ ] UX: Finish updating FMP Claims for Direct Deposit, hand off to content team for review
-- [ ] UX: Update FMP service blueprint
-- [ ] UX:  Make suggested content updates in figma for OHI integration into 1010d
-- [ ] UX: Update confirmation page in figma to support pdf download for 10-10d extended and ChampVA Claims
+- [x] Add new document upload pages for Sendback and EOB in ChampVA Claims resubmissions
+- [x] Fix screen reader announcement on radio buttons in ChampVA Claims 
+- [x] Finalize confirmation emails  for FMP  Claims
+- [x] Spike: Dynamic VA Notify emails based on if an OHI was generated in 1010d extended 
+- [x] UX: Finish updating FMP Claims for Direct Deposit, hand off to content team for review
+- [x] UX: Update FMP service blueprint
+- [x] UX:  Make suggested content updates in figma for OHI integration into 1010d
+- [x] UX: Update confirmation page in figma to support pdf download for 10-10d extended and ChampVA Claims
 - [ ] Stretch goal: Health Apps Monthly Metrics Pulls
 
 

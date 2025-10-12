@@ -51,6 +51,12 @@ Thank you so much for joining today. My name is Emily, and [NAME] here will be t
 
 Today, we’ll be discussing how people think about and manage certain financial items. We'll be going over debt from VA benefit overpayments and VA medical copays. I'd like to check in first – are you comfortable dicussing these topics?
 
+I'm part of the team working on the VA mobile app and VA.gov, helping to create great experiences for Veterans managing their benefits, finances, and healthcare.
+What I hope to do today is to get a sense of how you want to manage your VA finances, and how our tools can support that.
+I want you to know up front that I won't be able to solve issues for you right now – I don't have any access to your records, nor any direct contact with billing and debt departments.
+I do want to know about your frustrations in case there are things we can improve in the future.
+
+
 Before we start, I have a few logistics to cover:
 
 
@@ -87,21 +93,160 @@ Before we start, I have a few logistics to cover:
 
 
 
-# 🚧 🚧 🚧 Warm-up Questions (Optional) - 5 minutes
+# ✅ ✅ ✅ Warm-up Questions
 
-Before we look at the website, let’s start with a few warm-up questions.
+Could you tell me a bit about yourself as a Veteran if you're comfortable: what branch of the military did you serve, and when did you retire or separate?
 
-1. Do you have a service-connected disability at VA?
-- If yes: what is your disability rating?
-- If no, skip to question 2.
-2. 
+How have you been involved with VA – both in the past and now?
+
+* Have you been in any of their facilities?
+* Have you used the website and/or app? For what purpose(s)?
+
+Now we're going to move to the financial portion of our discussion. I want to make sure that you’re only sharing what you’re willing – I have no additional information about you or your finances with the VA.
 
 # 🚧 🚧 🚧 Interview Section
 
+At whatever level you're comfortable, can you tell me about your current or recent experience with owing VA money for benefit overpayments?
+
+* How did you first learn of this debt?
+* Did you know that this debt was coming?
+* Did you understand what it was for?
+* Did you understand your options?
+* What sort of communication regarding this debt have you received?
+
+And again at the level you're comfortable, what is your experience with receiving bills from VA healthcare copayments?
+
+* How do you learn about any copay bills?
+* Do you always know that they are coming?
+* Is it clear to you what they are for?
+* Is it clear to you what your options are once you receive a bill?
+* What sort of communication do you receive regarding these bills?
+
+Now I'd like to ask you about times that you're actively managing these debts and bills. When I say manage that could be such things as reading info about debt or charges, determining next steps, or making payments.
+* When you're looking to do any sort of management of your VA finances, when are you typically doing that? This could be time of day or night, as it relates to other activities, or maybe at some physical location.
+    * Can you tell me why you choose to do this at these times/days/locations?
+* Are there things that prompt you to take action on any of these debts or bills?
+
+Thinking about both the overpayment and the copays together, talk to me about how you think of them both overall within your greater financial realm.
+* Are you making payments at the same or similar time for both?
+* What is your method for making sure you make these payments in a timely fashion?
+* How are you currently managing any debts and bills that you have? Are you keeping track of anything from both?
+    * Is there anything that is challenging or confusing in keeping track of both?
+* Are you ever looking at information and history for both of these at once?
+    * If yes: how are you doing that? What elements are important to you?
+    * If no: is that something that might be useful at all to you? In what capacity?
+
 # 🚧 🚧 🚧 Screen sharing: current experience of combined statements
+
+We’re now going to move into looking at prototypes. First, I’d like you to share your screen please – have you done this before on your phone?
+
+
+
+* _(send link to prototype)_
+
+In this example, we’re going to pretend that you have overpayment debt from some education benefits, along with medical copayments from regular doctor visits and prescriptions.
+
+(Debt and bill overview)
+
+Before tapping on anything: looking at this page, what stands out to you as being important and useful to how you want to manage your debt and bills?
+
+
+
+* When might you look at just your copays?
+* When might you look at just your overpayments?
+* When might you look at your combined statement?
+    * Before you tap into that, what do you expect to find in the combined statement?
+* Would having a combined statement increase or decrease your trust in the information presented compared to individual letters?
+
+(Combined statement)
+
+Now tap into that combined statement please
+
+
+
+* How does this compare to what you were expecting?
+* What information would you want here to make this a useful tool?
+* In what situations would you use this combined statement?
+* What actions or decisions would you want to make when viewing this? Is it any different than viewing individual statements?
+* How would you prefer to interact with this information? (e.g. email, mobile app, desktop, PDF)
+
+(combined statement PDF)
+
+Don’t yet tap, but looking at the PDF button: tell me any thoughts regarding PDFs on your phone. 
+
+
+
+* Do you look at PDFs on your phone now?
+    * If so: what are you doing with them?
+    * If not: why not?
+* Would having access to a PDF of this combined statement be useful to you?
+    * Why or why not?
+    * What would you do with it?
+
+Now please tap on the PDF
+
+
+
+* How does this compare to what you were expecting?
+* What information would you want here to make this a useful tool?
+* How does this PDF compare to the combined statement we looked at right before this?
+    * In what situations might you use one or the other?
+
+(individual: overpayments)
+
+I’d like you to look at the individual information for the benefit overpayments
+
+
+
+* Considering what you just viewed in the combined statement, how does it compare to what you’re viewing here?
+* In what situations might you look at this compared to the combined statement?
+* Is one more useful than the other?
+
+(individual: copays)
+
+Now I’d like you to look at the individual information for the medical copayments
+
+
+
+* Considering what you just viewed in the combined statement, how does it compare to what you’re viewing here?
+* In what situations might you look at this compared to the combined statement?
+* Is one more useful than the other?
+
+(review)
+
+Now that you’ve looked at the combined statement, and each individual sections of overpayments and copays:
+
+
+
+* What information is important to you when considering your full financial situation?
+* Any further thoughts on when you might look through the combined statement compared to the individual overpayments or copays sections?
+* I’ll repeat a question from earlier: Would having a combined statement increase or decrease your trust in the information presented compared to individual letters?
+* And another question I’ll bring back: any further thoughts on when you would be looking to manage your finances – time or day, your physical location, a situation, etc.
+
 
 # 🚧 🚧 🚧 Screen sharing: future experience of combined statements
 
+(app prototype)
+
+Now we’ll look at some designs that currently do not exist anywhere on the website or the mobile app. These are designs for the mobile app, and we’ll start with the combined statement. 
+
+
+
+* What are your first impressions?
+* How clear and understandable is everything here?
+* Are there details missing that would be important to you?
+* How likely are you to use this in the app?
+* Is there anything that would make you trust this more?
+
+I’ll have you look at the individual sections now – please head to the [either: overpayments/copays] in the designs
+
+
+
+* Comparing this to the combined statement we just looked at in our pretend app, when might you view one over the other?
+
+Where would you expect to locate the combined statement within the app?
+
+<!-----
 ## First Task: [TASK NAME] - X minutes
 
 - [ ] Step 1
@@ -135,6 +280,8 @@ Before we look at the website, let’s start with a few warm-up questions.
 > - [Does the participant understand meaning of xyz?]
 > - [Does the participant notice xyz?]
 > - [Etc]
+
+----->
 
 # ✅ ✅ ✅ Post-Task Interview
 

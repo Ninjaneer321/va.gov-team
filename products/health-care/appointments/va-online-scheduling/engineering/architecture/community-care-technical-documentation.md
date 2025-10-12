@@ -205,47 +205,64 @@ Since we already have 'Appointment' resource under VAOS (VA Online Scheduling) s
 
 ### * GET `/vaos/v2/referrals` (new)
 ```
-[
-  {
-    "uuid": "123_123456",
-    "categoryOfCare": "Physical Therapy",
-    "referralDate": "2025-06-02T10:30:00Z",
-    "expirationDate": "2025-06-02"
-  }
-]
+{
+  "data": [
+    {
+      "id": "6cg8T26YivnL68JzeTaV0w==00",
+      "type": "referrals",
+      "attributes": {
+        "expirationDate": "2026-04-09",
+        "uuid": "6cg8T26YivnL68JzeTaV0w==00",
+        "categoryOfCare": "CHIROPRACTIC",
+        "referralNumber": "VA0000007241",
+        "referralConsultId": "984_646907",
+        "stationId": "659"
+      }
+    }
+  ]
+}
 ```
 ### * GET `/vaos/v2/referrals/{referralNo}`
 Response when not booked ie: no appointments have been booked for this referral)
 ```
 {
-  "uuid": "1234",
-  "referralDate": "2025-06-02T10:30:00Z",
-  "expirationDate": "2024-12-12",
-  "referralNumber": "VA0000009880",
-  "referringFacility": "Batavia VA Medical Center w/ Dr. Moreen S. Rafa",
-  "status": "Approved",
-  "categoryOfCare": "Physical Therapy",
-  "stationID": "528A4",
-  "sta6": "534",
-  "referringFacilityInfo": {
-    "facilityName": "Batavia VA Medical Center",
-    "facilityCode": "528A4",
-    "description": "Batavia VA Medical Center",
-    "address": {
-      "address1": "222 Richmond Avenue",
-      "city": "BATAVIA",
-      "state": "NY",
-      "zipCode": "14020"
-    },
-    "phone": "(585) 297-1000"
-  },
-  "referralStatus": "open",
-  "provider": {
-    "id": 111,
-    "name": "Dr. Moreen S. Rafa",
-    "location": "FHA South Melbourne Medical Complex"
-  },
-  "appointments": []
+  "data": {
+    "id": "6cg8T26YivnL68JzeTaV0w==00",
+    "type": "referrals",
+    "attributes": {
+      "uuid": "6cg8T26YivnL68JzeTaV0w==00",
+      "referralDate": "2023-01-01",
+      "stationId": "659BY",
+      "expirationDate": "2025-06-02",
+      "referralNumber": "VA0000007241",
+      "categoryOfCare": "CHIROPRACTIC",
+      "referralConsultId": "984_646907",
+      "appointments: null,
+      "referringFacility": {
+        "name": "Batavia VA Medical Center",
+        "phone": "(585) 297-1000",
+        "code": "528A4",
+        "address": {
+          "street1": "222 Richmond Avenue",
+          "city": "BATAVIA",
+          "state": "NY",
+          "zip": "14020"
+        }
+      },
+      "provider": {
+        "name": "Dr. Moreen S. Rafa",
+        "npi": "1346206547",
+        "phone": "(937) 236-6750",
+        "facilityName": "fake facility name",
+        "address": {
+          "street1": "76 Veterans Avenue",
+          "city": "BATH",
+          "state": "NY",
+          "zip": "14810"
+        }
+      }
+    }
+  }
 }
 
 ```
@@ -253,17 +270,14 @@ Response when an appointment is found
 ```
 {
   ...the referral response 
-  "appointments": [
-    {
-      "id": "1234",
-      "startDate": "2025-03-15 10:30 AM",
-      "location": {
-        "address": "123 Main St, Springfield, IL, 62704",
-        "room": "Suite 405"
+  "appointments": {
+    system: 'VAOS',
+    data: [
+      {
+        id: 12312312312,
       },
-      "confirmationStatus": "confirmed"
-    }
-  ]
+    ],
+  },
 }
 ```
 ### * POST `/vaos/v2/appointments/create_draft` (new)
