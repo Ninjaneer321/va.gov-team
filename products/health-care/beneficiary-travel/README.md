@@ -7,7 +7,7 @@
 - [Team Calendar and Communication Groups](#team-calendar-and-communication-groups)
 - [Terminology](#terminology)
 - [Product](#product)
-  - [Feature Outlines and Documentation](#feature-outlines-and-documentation)
+  - [Product Outline, Initiative Briefs and Documentation](#product-outline-initiative-briefs-and-documentation)
   - [Priorities, Sprints and Scrum Boards](#priorities-sprints-and-scrum-boards)
   - [Research](#research)
   - [Product Designs in Figma](#product-designs-in-figma)
@@ -57,13 +57,14 @@
 
 ## Product
 
-#### Feature Outlines And Documentation
-- [Travel Pay Primary Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/README.md) (DRAFT-10/2/2025)
-- Simple, Mileage Only Claim Product Outline 
-- Complex Claims Product Outline 
-- Complex Mileage Product Outline
-- Community Care Appointments Product Outlines
-- Non-Existent Appointments Product Outlines 
+#### Product Outline, Initiative Briefs and Documentation
+- [Travel Pay Primary Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/README.md) (As of 10/2/2025)
+- [Simple, Mileage Only Claim Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/initiatives/SMOC/smoc_initiative%20brief.md) (As of 5/2025)
+- [Claims Details V2 Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/initiatives/claim_details_v2/claim_details_v2_initiative_brief.md)  (As of 10/13/2025
+- [Complex Claims Initiave Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/product/initiatives/complex-claims/complex-claims-initiative-brief.md)   (As of 10/13/2025)
+- Complex Mileage Initiave Brief
+- Community Care Appointments Initiative Brief
+- Non-Existent Appointments Initiative Brief
 - Product Guides 
   - How to Update Product Guides 
 
@@ -139,5 +140,6 @@ For questions, reach out to [Charlotte Reid](https://dsva.slack.com/team/U0959FK
 - [BTSSS Production Portal](https://dvagov-btsss.dynamics365portals.us/)
 - [BTSSS Confluence](https://community.max.gov/pages/viewpage.action?pageId=2226803040)
 - [VA Master Product List](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products)
+- [VA Product Document Template Repository](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/product-management)
 - FAQs
 - Media & Communications Items
