@@ -1,8 +1,8 @@
 ---
 title: "Conversation Guide for [Health Apps, 10-7959f-2, October 2025]"
-author: "[Jessica Stump]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[2025-10-14]"
+author: "[Health Apps UX Team]"
+date_created: "[2025-10-14]"
+last_modified: "[2025-10-15]"
 tags:
   - "[Tag1]"
   - "[Tag2]"
@@ -18,36 +18,23 @@ description: "A template for moderating research sessions including logistics, i
 
 `List and complete any project-specific setup tasks for this study below:`
 
-- [ ] Prep mobile Figma prototype/link ready
-- [ ] Step 2
-- [ ] Step 3
+- [ ] Prepare Figma prototype by having link to intro page and subsequent task starts ready
 
 ### Day of the session
 
-> [!TIP]
-> - Use [#feedback-backchannel](https://dsva.slack.com/messages/C40B45NJK/details/) in Slack for real-time feedback from observers.
-> - Mute your Slack notifications.
-> - Send out the [observer instructions](https://depo-platform-documentation.scrollhelp.site/research-design/Observer-guidelines.1622311177.html) to your observers (Slackbot will do this for you if you type "observer instructions" into [#feedback-backchannel](https://dsva.slack.com/channels/feedback-backchannel)).
-
 ### Starting the session
 
-> [!TIP]
-> - In the Attendees section, make sure everyone except the participant is on mute.
-> - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
-> - Check your [screensharing setup] and share permissions for participants.
-> - When the participant is ready, begin the session with the following intro*
 
 # Intro - 5 minutes
 
 Thanks for joining us today! My name is **[NAME]** and **[NOTETAKER NAME]** is taking notes.
 I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them... 
 
-Today we're going to talk about direct deposit for claims related to the Foreign Medical Program.
-
+Today we're going to talk about content around direct deposit for Foreign Medical Program Claims.
 
 Before we start, I have a few things that I want to go over with you:
 
-- **This entire session should take about 60 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
+- **This entire session should take about 30-60 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
   
 - **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
   
@@ -94,56 +81,75 @@ Before we look at the website, let’s start with a few warm-up questions.
 
 1. Do you have a service-connected disability at VA?
 - If yes: what is your disability rating?
+- Do you receive direct deposit for your monthly compensation payments?
 - If no, skip to question 2.
-2. Have you ever heard of the Foreign Medical Program through the VA before and if so, can you describe what it is in your own words?
+2. Have you ever heard of the Foreign Medical Program through the VA before?
+  - If so, can you describe what it is in your own words?
+  - Have you ever filed a reimbursement claim before?
   
 
-## First Task: [Introduction Page] - 10 minutes
+## First Task: [Introduction Page] - 5 minutes
 
-- [ ] Open mobile Figma prototype - link to go here
-- [ ] I am going to share a link with you to a mobile prototype today. As mentioned, this is a test site and won't function fully.
-- [ ] Open the prototype take a minute to look it over and please remember to think aloud.
-- [ ] What would you do next if you were filing an FMP claim today?
+- [ ] Open mobile Figma prototype - link to go here when ready
+- I am going to share a link with you to a mobile prototype today. As mentioned, this is a test site and won't function fully.
+- Open the prototype and take a minute to look it over and please remember to think aloud.
+- Based on this page, what would you do next if you were filing your first FMP claim today?
+
 
 > [!NOTE]
 > ### Things to watch for:
-> - [Does the participant mention anything about the direct deposit informational alert?]
+> - [Does the participant mention anything about the direct deposit informational alert on the intro page?]
 > - [Does the participant notice the link of how to setup direct deposit or do they call out the phone number to call?]
 > - [Is the participant aware their bank account information needs to be in different systems within the VA - FMP is separate from VA Benefits?]
-> - [Etc]
+> - [Does the participant pass over the alert with the mental model of they already have it set up?]
 
-## Second Task: [Direct Deposit Static Page] - 10 minutes
+## Second Task: [Direct Deposit Static Page] -5 minutes
 
 - [ ] If the participant, does not navigate to the static page on their own, direct them to open the "how to setup direct deposit" link in the Figma prototype
-- [ ] Now take a minute to look over this page explaining direct deposit.
-- [ ] What are your impression of this page and your understanding of the content here?
-- [ ] On a scale of 1-5, 1 being very difficult and 5 being very easy, what would you rate the intructions on this page?
+- Now take a minute to look over this page on direct deposit for the Foreign Medical Program.
+- What are your impression of this page and your understanding of the content here? Please remember to think aloud.
+- On a scale of 1-5, 1 being very difficult and 5 being very easy, what would you rate the intructions on this page?
+- Would you call out anything on this page as being either especially helpful or confusing for you?
+  
 
 > [!NOTE]
 > ### Things to watch for:
 > - [Does the participant understand that the process to setup their account for FMP claims is separate from VA benefits?]
-> - [Does the participant notice xyz?]
-> - [Etc]
+> - [Does the participant call out this separate process and really difficult or just a one-time thing they have to do during setup?]
+> - [Does the process stepper componennt and contnet help or add clarity to the process?]
+
 
 ## Third Task: [FMP Form Flow and Confirmation Page] - 10 minutes
 
-- [ ] Navigate through the prototype now focusing on the content instructions - you don't need to enter anything into the fields, just keep clicking the continue button after you review and talk thorugh each page.
-- [ ] Step 2
+- [ ] Might have to redirect to prototype link here
+- Navigate through the prototype now focusing on the content instructions - you don't need to enter anything into the fields, just keep clicking the continue button after you review and talk thorugh each page. We would like you to focus your feedback on the content and information on the page so we can work to make that better for Veterans.
+- [ ] Participant arrives at Confirmation Page
+- Now this is the page where you have submitted your FMP Claim online. Can you please explain to me your understanding of what happens next and any action you might need to take?
+- What is your confidence rating - 1 being very low and 5 being very high - that you have direct deposit correctly set up based on this prototype and this page here?
 
 > [!NOTE]
 > ### Things to watch for:
-> - [Does the participant interact with the additional informaiton component to learn more about direct deposit later in the flow?]
-> - [Does the participant notice xyz?]
-> - [Etc]
+> - [Does the participant interact with the additional information component to learn more about direct deposit later in the flow?]
+> - [Does the participant notice the direct deposit information on the confirmation page and call it out as being redundant or helpful?]
+
+
+
+## Forth Task: [Content Comprehension and Mental Model] - 10 minutes
+
+- What are you expectations on how the direct deposit process for FMP claims works now that you have gone thorugh this prototype?
+- What would be one thing that you would change to make it better for you about the current direct deposit process as you understand it?
+- Can you describe to me your ideal experience with setting up and maintaining direct deposit for your Foreign Medical Program claims?
+
+> [!NOTE]
+> ### Things to watch for:
+> - [Does the participant bring up any other systems or experiences that they say are exceptionally good or bad?]
+> - [Does the current mental model conflict or align with the current state?]
 
 
 
 
-
-# Post-Task Interview - 5 minutes
-
-- Question 1
-- Question 2
+# Post-Task Interview - 2 minutes
+- Do you have any additional feedback about the content we went over today?
 - Any questions for me? 
 
 ## Consent to use video clips

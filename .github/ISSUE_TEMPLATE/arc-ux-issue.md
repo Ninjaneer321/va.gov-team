@@ -1,8 +1,8 @@
 ---
-name: ARC Standard Issue
-about: General issues for the ARC team
+name: ARC UX Issue
+about: UX issues for the ARC team
 title: ''
-labels: ar-crew
+labels: ar-crew, ux
 assignees: ''
 type: Task
 
@@ -12,14 +12,16 @@ type: Task
 _What background/context has led to this work?  What problem are we trying to solve?_
 
 ## Tasks
-- [ ] _Outline steps to complete_
+_What steps are required to get to the Acceptance Criteria?_
+- [ ]
 
 ## Acceptance Criteria
-- [ ] _What will be created or happen as a result of this?_
+_What will be created or happen as a result of this?_
+- [ ] 
 
 ---
 #### How to configure this issue
-1. Label with practice area (`engineering`, `backend`, `frontend`, `ux`, `research`, `design`, `content`)
+1. Label with practice area (`research`, `design`, `content`)
 2. Associate with the correct AR team
 
 Optional:
