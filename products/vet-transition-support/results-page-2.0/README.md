@@ -1,13 +1,11 @@
 # Project outline: Discover Your Benefits Results page 2.0
-
-**Last updated: October 9, 2025 - published**
-
+_Last updated: October 14, 2025 - security section updated_
 
 ### Communications & Resources
 - **Team:** VES Transition Experience 
 - **Slack channel:** [#ves-transition](https://dsva.slack.com/archives/C06C7RS27GD)
 - **Development Epic**: [PTEMSVT-600](https://jira.devops.va.gov/browse/PTEMSVT-600)
-- **Collab Cycle Epic**: TK
+- **Collab Cycle Epic**: [#121850](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121850)
 
 
 ### Roles
@@ -19,9 +17,9 @@ See Roster [here](https://github.com/department-of-veterans-affairs/va.gov-team/
 - [Overview](#overview)
 - [Scope](#scope)
 - [User Outcomes](#user-outcomes)
-- [Security](#security)
 - [Measuring Success](#measuring-success)
 - [Key Dates](#key-dates)
+- [Security](#security)
 - [Screenshots](#screenshots)
 
 ## Overview
@@ -37,7 +35,7 @@ Feedback this initiative addresses:
 6. Updated cards to ensure all filtering selections are properly attributed/accounted for to align with VADS/a11y
 7. Migrated to VADS search result template for alignment with standards
 
-## **Scope**
+## Scope
 
 1. Updates to the results page
 2. Content update to length of service question
@@ -55,18 +53,16 @@ Feedback this initiative addresses:
 - Users are confused by the results page
 - Users are confused or offended by the length of service question
 
-## Security
-- Security playbook: TK
-
-
 ## Measuring Success
 TK
     
-
 ## Key Dates
 
 - October 2025: Kick-off
-   
+
+## Security
+- [Security playbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/launch-materials/results-pg-2.0-security-playbook.md)   
+
 ## Screenshots
 
 ### Before
