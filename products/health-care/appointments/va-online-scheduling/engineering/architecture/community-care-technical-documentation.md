@@ -39,30 +39,24 @@ The External Referral Appointment Scheduling System is designed to automate and 
 graph TB
     User((User))
     
-    subgraph "VA.gov"
-        VW[Vets-Website<br>React App]
-        subgraph "CC Experience"
-            VA_API[Vets-API<br>Ruby on Rails]
-            VA_NOTIFY[VA Notify]
-        end
-    end
-    
-    MAP[MAP System]
-    CCRA[CCRA System]
-    EPS[EPS System]
+    MAP[MAP - Services connecting to VISTA and HSRM]
+    HSRM[HSRM - HealthShare Referral Manager]
+    EPS[EPS - Wellhive System for appointments and providers]
+    VW[vets-website]
+    VA_API[vets-api]
 
     User -->|HTTPS| VW
     VW -->|HTTPS| VA_API
     VA_API -->|Send Notifications| VA_NOTIFY
     VA_API -->|Access Referral Data| MAP
-    MAP -->|Retrieves Referral Data| CCRA
+    MAP -->|Retrieves Referral Data| HSRM
     VA_API -->|Schedule Appointments| EPS
-    EPS -- "Manual Entry (Air Gap)" --> CCRA
+    EPS -- "Manual Entry (Air Gap)" --> HSRM
 
     classDef vaSystem fill:#e6f3ff,stroke:#333,stroke-width:2px;
     classDef external fill:#f9f9f9,stroke:#333,stroke-width:2px;
     class VW,VA_API,VA_NOTIFY vaSystem;
-    class MAP,EPS,CCRA external;
+    class MAP,EPS,HSRM external;
 ```
 
 ## Referral Data Model

@@ -1,5 +1,4 @@
 ---
-
 # Research Plan Metadata
 title: "Research Plan for Health Apps, FMP Claims Form 10-7959f-2, October 2025"
 date: 2025-10-14
@@ -46,10 +45,11 @@ recruitment:
   approach: "lean maximum variation"
   
   primary_criteria:
-    - "Do you currently receive monthly disability compensation for a service connected condition? (Must answer yes to qualify)"
-    - "At least 2 participants who are female"
-    - "At least 2 participants who are 55 years or older"
-    
+    - "[Current disability rating of 10-100]"
+    - "[Living abroad]"
+    - "[At least 2 participants who are female]"
+    - "[At least 2 participants who are over 55 years old]"
+
   secondary_criteria:
     - "No more than 2 participants per each race/demographics category"
     
@@ -95,7 +95,7 @@ veteran_journey_phases:
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "Link to related past research"
+    - "[Link to related past research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/foreign-medical-program/10-7959f-1/research/users)"
     
 tags:
   - "product-area"
@@ -260,8 +260,6 @@ Provide a link to any materials you need to run your study, including any materi
 
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
-> [!NOTE]
-> Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 10 ideal completed sessions, request 15 total participants)*
 
 - `Veterans:` **[12]**
 - `Caregivers:` **[0]**
@@ -270,19 +268,14 @@ Provide a link to any materials you need to run your study, including any materi
 - `Ideal completed sessions:` **[8]**
 
 ### Primary criteria (must-haves)
-*What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
-
 - `[Place primary criteria here between hash marks when in edit mode]`
-- `Do you currently receive monthly disabilty compensation for a service connected condition? (Must answer yes to qualify)`
-- ``
-- **`Add more criteria as needed`**
-- 'At least 2 participants who are female'
-- 'At least 2 participants who are 55 years or older'
+-  Do you currently receive monthly disabilty compensation for a service connected condition? (Must answer yes to qualify) 
+-  Are you currently living abroad? (Must answer yes to qualify) 
+-  At least 2 participants who are female 
+-  At least 2 participants who are 55 years or older 
 
 #### Secondary criteria (nice-to-haves)
-*What criteria would strengthen your results?* 
-- **`Add more criteria as needed`**
-- - 'No more than 2 participants per each race/demographics category'
+- No more than 3 participants per each race/demographics category
 
 
 ## Timeline 🗓️
