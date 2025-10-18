@@ -1,4 +1,6 @@
-# Introduction (5 mins)
+# Conversation guide for 0781 Upload Documents, Disability Benefits, Pathways Team, September 2025
+
+## Introduction (5 mins)
 
 Welcome, and thank you so much for taking the time to join us today. My name is (NAME) and I’m a researcher, I am part of a team at the VA that is trying to improve the disability benefits application so Veterans can submit claims and get benefits as quickly as possible. 
 
@@ -48,7 +50,7 @@ Tip: After you start the recording, click the Show captions (CC) button to enabl
   
   
 
-# Warm-up questions (10 min)
+## Warm-up questions (10 min)
 
 Before we look at the form, I have a few questions about your experience with VA disability benefits.
 
@@ -84,7 +86,7 @@ Thank you for sharing your experience.
 
 We are now going to transition into testing a demo version of the form.
 
-# Prototype: Screensharing (3 min)
+## Prototype: Screensharing (3 min)
 
 I’m going to send you a link to the prototype in the chat and then have you share your screen. Before we do that, please take a minute to close anything you don’t want to share with us, like your personal email.
 
@@ -130,7 +132,7 @@ Now that I can see your screen, I see you have entered our prototype. It looks l
 
 And now, from here we’d like to go slower and get your feedback on these next pages.
 
-# Prototype: Questions (30 min)
+## Prototype: Questions (30 min)
 
   
 
@@ -186,7 +188,7 @@ Go ahead and take a moment to review the page. Feel free to scroll up and down..
 Let’s have you select no and then move on to the next page. 
 
   
-  
+Before we continue: the following section may touch on sensitive subjects. You can skip any question or stop at any time. Please don't hesitate to let me know.
 
 **0781 Doc Upload: Orientation Page**
 
@@ -220,14 +222,14 @@ Let’s have you select yes and then move on to the next page.
 - Considering that for this scenario, you have anxiety and arthritis, what would you do on this page?
     
 
-Let’s pretend you’re going to upload a file. How would you do that?
+Let’s pretend you want to add a document. How would you do that?
 
 Let’s pretend that you went through all the steps to upload the document  (selecting a file from your folder, etc) and you end up here. 
 -  What are you seeing here?
     
 
 
-Let’s pretend you want to upload another file. How would you do that?
+Let’s pretend you want to add another document. How would you do that?
 - What are you seeing here?
     
 
@@ -238,13 +240,13 @@ Before you continue on to the next page, what do you expect to see next? Great, 
   
   
 
-**0781 Doc Upload: Summary page**
+**0781 Doc Upload: Summary page and deleting a file**
 
 - Can you share what you’re thinking as you look at this page?
 - Does this reflect the actions you took on the previous page?
 - Is there anything you’d expect to see on this page that isn’t there now?
 - Delete a file
-    - Let’s say you wanted to delete the police report. How would you do that? (actually go through and delete)
+    - Let’s say you realized the second file you uploaded was the wrong one. How would you fix that? (actually go through and delete)
 - What do you think happens when you click on continue?
     
 
@@ -253,7 +255,7 @@ Before you continue on to the next page, what do you expect to see next? Great, 
 Let’s go on to the next page. 
 
   
-  
+(Moment for a break if they need)
 
 **Other Supp Docs: Orientation page**
 -  Help me understand what you're seeing on this page. 
@@ -273,14 +275,15 @@ Let’s go on to the next page. 
 - What do you think happens when you click on continue?
     
 
-Other Supp Docs: Upload page
+**Other Supp Docs: Upload page**
 
 - Can you share what you’re thinking as you look at this page?
 - If they don’t open the additional info, prompt them to
-    - Scanning instructions: how useful is this content? Is there anything that is confusing/unclear? 
+    - Scanning instructions: how useful is this content? Is there anything that is confusing/unclear?
+    - \[If they don’t notice on their own\] This is the same content that’s on the page before. How do you feel about having the same content here? If not useful, why/what would be useful?
+
 -  If they don’t open the accordion, prompt them to
     - How useful is this content here?
-- \[If they don’t notice on their own\] This is the same content that’s on the page before. How do you feel about having the same content here? If not useful, why/what would be useful?
     
 
 Let’s pretend you’re going to upload a file. How would you do that?
@@ -308,11 +311,11 @@ Ok, let’s continue to the next step. 
   
   
 
-# Wrap-up (10 mins)
+## Wrap-up (10 mins)
 
 We’re going to wrap up at this step in the process. Thanks for walking through those pages with us! We just have a few final reflection questions.
 
--  How did that set up pages line up with what you expected?
+-  How did that set of pages line up with what you expected?
     - What things led you to have those expectations?
     - (If yes) What helped you feel prepared?
     - (If no) What were the moments that were unexpected or confusing?
@@ -320,13 +323,14 @@ We’re going to wrap up at this step in the process. Thanks for walking through
 - Were there any instructions or parts of the process that were hard to remember or keep track of?
 - Did the summary screens help you reflect and confirm your choices?
 - Imagine a Veteran who wanted to file a claim for a mental health condition asked you about the process. If you had to describe the steps of submitting evidence to them, what would you say?
+    - Thank you for sharing.     
     - (if confused/wrong, then clarify the steps) What would have made that clearer?
 - Do you have any questions for me before we end the session?
     
 
   
 
-# Thank you (2 mins)
+## Thank you (2 mins)
 
 (If recorded) I want to circle back and re-confirm that you are comfortable that we recorded today’s conversation. Just to remind you, we use the recordings to confirm that we have captured your feedback accurately. After we complete the analysis, the recordings are deleted, and none of your comments will be attributed to you directly.
 

@@ -1,15 +1,15 @@
 ---
 name: ARC Onboarding - UX
 about: Onboarding new UX teammates to the ARC team
-title: ''
+title: 'UX Onboarding to ARC'
 labels: ar-crew, ux
 assignees: ''
 type: Task
 
 ---
-### UX Onboarding to VA
+### UX Onboarding to ARC
 
-To be completed after the General Onboarding to VA tasks, which all ARC teammates will need to go through.
+To be completed after the General Onboarding to ARC tasks, which all ARC teammates will need to go through.
 
 - [ ] Review [VA.gov Platform Research & Design Guidelines](https://depo-platform-documentation.scrollhelp.site/research-design/)
 

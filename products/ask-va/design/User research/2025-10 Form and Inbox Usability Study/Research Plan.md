@@ -6,7 +6,7 @@
 
 Ask VA is comprised of a contact form and inbox where Veterans, family members, and other submitters can get answers to any VA question and submit documentation. Ask VA is available to both authenticated and unauthenticated users. The frontend integrates with a backend customer relationship management (CRM) application that routes questions to the appropriate VA team. Multiple VA teams can access and use the CRM.
 
-In May 2025 the product was moved onto the [VA.gov](http://VA.gov) platform. With this update, several aspects of the product changed. Feedback since the launch leads us to believe that these changes are causing some significant challenges for our users that require a holistic evaluation.
+In this research we are specifically exploring Veteran and business (education) submitters' input on how well the current Ask VA form and inbox are working to meet their needs. We hope to uncover opportunities to reduce the burden of the form and improve the inbox experience. 
 
 [Product Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/Product%20outline.md)
 
@@ -18,8 +18,6 @@ In May 2025 the product was moved onto the [VA.gov](http://VA.gov) platform. Wit
 
 ## Veteran Journey
 
-* `Joining`  
-* `Serving`  
 * `Getting Out`  
 * `Starting Up`  
 * `Taking Care of Myself`  
@@ -82,17 +80,20 @@ Veteran submitters don’t understand the internal routing processes to get thei
 
 ### Comparative study plan
 
-|  | Group A \- Prod then Proto | Group B *\-* Proto then Prod |
+|  | Group A \- Staging then Proto | Group B *\-* Proto then Staging |
 | :---- | :---- | :---- |
 | Participants | <ul><li> **Veterans** (3-4)</li> <li>**Veteran SCOs** (1)</li>  <li>**SCOs** (2-3)</li></ul> | <ul><li> **Veterans** (3-4)</li>  <li>**Veteran SCOs** (1)</li>  <li>**SCOs** (2-3)</li></ul> |
-| Task Order | **Production** <ol><li>Submit question</li>  <li>Review question in inbox</li></ol> **Prototype**  <ol><li>Submit question</li>  <li>Review question in inbox</li></ol> | **Prototype** <ol><li>Submit question</li>  <li>Review question in inbox</li></ol> **Production**  <ol><li>Submit question</li>  <li>Review question in inbox</li></ol>  |
+| Task Order | **Staging** <ol><li>Submit question</li>  <li>Review question in inbox</li></ol> **Prototype**  <ol><li>Submit question</li>  <li>Review question in inbox</li></ol> | **Prototype** <ol><li>Submit question</li>  <li>Review question in inbox</li></ol> **Staging**  <ol><li>Submit question</li>  <li>Review question in inbox</li></ol>  |
 
 ## Research materials
 
 **For moderated usability test:**
 
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/User%20research/2024-05%20Dashboard/Conversation%20guide%20-%20Veterans.md)  
-- [Ask VA production site](https://www.va.gov/contact-us/ask-va/introduction)  
+- [Ask VA staging site](https://staging.va.gov/contact-us/ask-va/introduction)
+  - Login credentials
+    - Email: vets.gov.user+41@gmail.com 
+    - Password: AskVA2025Testing
 - Prototype (still in work)
 
 ## Recruitment
@@ -135,23 +136,25 @@ We will recruit 10 Veterans for a total of 8 completed sessions.
 | Are you able to join the Zoom session from an internet-connected desktop or laptop computer? | Yes / No | Must answer Yes |
 | Do you find it difficult to remember or learn new things, focus on a task, or make decisions?  | Yes / No | At least 5 participants must answer Yes |
 
-### 
 
-### **Recruitment criteria – Business submitters**
+### Recruitment criteria – Business submitters
 
-### We will recruit 3 additional business submitters for a total of 2 completed sessions. They should join from the device they would usually use to submit Ask VA inquiries.
+We will recruit 5 additional business submitters for a total of 4 completed sessions. They should join from the device they would usually use to submit Ask VA inquiries.
 
 | \# of participants | Criteria |
 | ----- | ----- |
 | Exactly 5 | Submit Ask VA inquiries in a business role, in other words, on behalf of a Veteran |
 
-## 🚧 Timeline 
+## Timeline 
 
-### Optional Kick-off Call with Perigean
+### Optional 30-min Kick-off Call with Perigean
 
 - `Suggested dates and times:`  
-  - Friday, October 17, anytime 9am \- 5pm CT  
-  - Monday, October 20, 9am \- 12pm CT, 1pm-5pm CT
+  - Tuesday, October 21, 12pm \- 5pm CT
+  - Wednesday, October 22, 8:30am \- 10:30am CT
+  - Wednesday, October 22, 12pm \- 1pm CT
+  - Wednesday, October 22, 4pm \- 5pm CT
+
 
 ### Prepare
 
@@ -160,7 +163,7 @@ We will recruit 10 Veterans for a total of 8 completed sessions.
 
 ### Research sessions
 
-- `Planned dates of research:` October 27, 2025 \- November 10, 2025 
+- `Planned dates of research:` October 29, 2025 \- November 12, 2025 
 
 ### Length of sessions
 
@@ -174,9 +177,6 @@ We will recruit 10 Veterans for a total of 8 completed sessions.
 
 **Time slots**
 
-- `10/27, Monday, 9:30am-6:30pm EST (4)`  
-- `10/28, Tuesday, 9:30am-10:30am EST (1)`  
-- `10/28, Tuesday, 1:30pm-6:30pm EST (3)`  
 - `10/29, Wednesday, 9:30am-6:30pm EST (4)`  
 - `10/30, Thursday, 9:30am-1:00pm EST (2)`  
 - `10/31, Friday, 9:30am-2:30pm EST (3)`  
@@ -184,9 +184,11 @@ We will recruit 10 Veterans for a total of 8 completed sessions.
 - `11/3, Monday, 9:30am-12:30pm EST (2)`  
 - `11/3, Monday, 2:30pm-6:30pm EST (3)`  
 - `11/4, Tuesday, 9:30am-6:30pm EST (4)`  
-- `11/5, Friday, 9:30am-6:30pm EST (4)`  
+- `11/7, Friday, 9:30am-6:30pm EST (4)`  
     
 - `11/10, Monday, 9:30am-6:30pm EST (4)`
+- `11/12, Wednesday, 9:30am-6:30pm EST (4)`
+
 
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
@@ -196,16 +198,17 @@ We will recruit 10 Veterans for a total of 8 completed sessions.
 - `Project point of contact:` **Elena B. Naids**  
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` **–**  
 - `Note-takers:` **Danielle Oppendike**  
-- `Observers`   
-  \[\!NOTE\] This is a *potential list of observers across all sessions. We will limit each session to a max of 2 observers.*   
-  - **Becky Phung**  
+- `Observers`  - *This is a potential list of observers across all sessions. We will limit each session to a max of 2 observers.*   
+  - **Becky Phung**
+  - **Megan Salerno**  
   - **Stephanie Vargo**  
   - **Matt Floyd**  
   - **Sumit Patel**  
   - **Walker Marlatt**  
   - **Alex Castillo**
+  - **Kayla Watanabe**
 
 ## Approvals ✅
 
-- `Reviewed by` Becky Phung`, OCTO Product Owner on [MM-DD-YYYY]`  
+- `Reviewed by` Becky Phung`, OCTO Product Owner on 10-16-2025`  
 - `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
