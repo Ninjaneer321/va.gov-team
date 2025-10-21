@@ -86,8 +86,8 @@ Thanks for joining us today\! My name is **Elena**. I have my teammate, Danielle
 | Links | <ol><li>[Staging](https://staging.va.gov/contact-us/ask-va/introduction) (Task 1, 2\)</li> <li>Prototype (Task 3, 4\)</li></ol> | <ol><li>Prototype (Task 1, 2\)</li> <li>[Staging](https://staging.va.gov/contact-us/ask-va/introduction) (Task 3, 4\)</li></ol> |
 
 - Prototype links  
-  - [Veteran (Tasks 1, 3): Submit Education and Work Study Question](https://www.figma.com/proto/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form-Future-exploration?node-id=1085-93727&viewport=19%2C157%2C0.05&t=FjCNmXJMbOXAZpmA-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1085%3A93727)  
-  - [Veteran (Tasks 2, 4): Review Question in Inbox](https://www.figma.com/proto/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form-Future-exploration?node-id=1154-18648&viewport=-315%2C-640%2C0.17&t=FjCNmXJMbOXAZpmA-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1154%3A18648&show-proto-sidebar=1)  
+  - [Veteran (Tasks 1, 3): Submit Education and Work Study Question](https://www.figma.com/proto/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form---Future-exploration?page-id=1082%3A88179&node-id=1085-93727&viewport=316%2C265%2C0.05&t=8czgDADldTZumgAg-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1085%3A93727&show-proto-sidebar=1&hide-ui=1)  
+  - [Veteran (Tasks 2, 4): Review Question in Inbox](https://www.figma.com/proto/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form---Future-exploration?node-id=1154-18648&viewport=-315%2C-640%2C0.17&t=FjCNmXJMbOXAZpmA-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1154%3A18648&show-proto-sidebar=1&hide-ui=1)  
   - [SCO (Tasks 1, 3): Submit Education and Work Study Question](https://www.figma.com/proto/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form-Future-exploration?node-id=1137-15665&viewport=10%2C-677%2C0.06&t=FjCNmXJMbOXAZpmA-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1137%3A15665&show-proto-sidebar=1)  
   - [SCO (Tasks 2, 4): Review Question in Inbox](https://www.figma.com/proto/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form-Future-exploration?node-id=1091-10509&viewport=-1522%2C-6288%2C0.33&t=FjCNmXJMbOXAZpmA-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1091%3A10509&show-proto-sidebar=1)
 
@@ -105,7 +105,7 @@ Before we look at the website, let’s start with a couple warm-up questions.
      - How frequently are you using Ask VA?   
    - If no, move on to tasks.
 
-Now we’re going to move into the next part of this session. I’m going to provide you with a few scenarios and tasks. 
+Now we’re going to move into the next part of this session. I’m going to provide you with a few scenarios and tasks. Let's start by having you share your screen with us. 
 
 ## Task 1: Submit Education and Work Study Question \- 13 minutes
 
@@ -115,7 +115,7 @@ Now we’re going to move into the next part of this session. I’m going to pro
 > Depending on which Group a participant is in (A or B) they may go through staging or the prototype first. 
 
 **Staging**  
-First, you’ll need to login. I've provided a link, email, and password for you in the chat.
+You’ll need to login through ID.me. I've provided a link, email, and password for you in the chat. You can just click through the additional login screens after your password.
 - Link: (https://staging.va.gov/contact-us/ask-va/introduction) 
 - Email: vets.gov.user+41@gmail.com 
 - Password: AskVA2025Testing
@@ -146,7 +146,9 @@ Before you click on anything to complete this task, take a second to look around
 
   -  *(IF STAGING)* How did you determine what to write in the subject field vs. the question field?
   - What information do you think is important to include in your question?  
-- **Attachment** \- Can you describe a time where you might want to attach something to your question? 
+- **Attachment** \- Can you describe a time where you might want to attach something to your question?
+- **School state**
+  - _(If struggling)_ What do the questions on this page mean to you? 
 
 #### Things to watch for:
 
@@ -175,7 +177,7 @@ Before you click on anything to complete this task, take a second to look around
 > Participants will complete Task 2 in the same environment they completed Task 1. 
 
 **Staging**  
-You’ll need to login again. I've provided a new link, email, and password for you in the chat.
+You’ll need to login through ID.me again. I've provided a link, email, and password for you in the chat. You can just click through the additional login screens after your password.
 - Link: (https://staging.va.gov/contact-us/ask-va/introduction) 
 - Email: vets.gov.user+220@gmail.com 
 - Password: AskVA2025Test
@@ -223,7 +225,7 @@ Now we’re going to ask you to complete very similar tasks in a slightly differ
 > Participants will now complete the same tasks as 1 and 2 in the opposite environment. 
 
 **Staging**  
-First, you’ll need to login. I've provided a link, email, and password for you in the chat.
+You’ll need to login through ID.me. I've provided a link, email, and password for you in the chat. You can just click through the additional login screens after your password.
 - Link: (https://staging.va.gov/contact-us/ask-va/introduction) 
 - Email: vets.gov.user+41@gmail.com 
 - Password: AskVA2025Testing
@@ -244,7 +246,9 @@ Imagine, you’re having an issue with your work study benefits. You’re alread
 
   -  *(IF STAGING)* How did you determine what to write in the subject field vs. the question field?
   - What information do you think is important to include in your question?  
-- **Attachment** \- Can you describe a time where you might want to attach something to your question? 
+- **Attachment** \- Can you describe a time where you might want to attach something to your question?
+- - **School state**
+  - _(If struggling)_ What do the questions on this page mean to you? 
 
 #### Things to watch for:
 
@@ -273,7 +277,7 @@ Imagine, you’re having an issue with your work study benefits. You’re alread
 > Participants will now complete the same tasks as 1 and 2 in the opposite environment. 
 
 **Staging**  
-You’ll need to login again. I've provided a new link, email, and password for you in the chat.
+You’ll need to login through ID.me. I've provided a link, email, and password for you in the chat. You can just click through the additional login screens after your password.
 - Link: (https://staging.va.gov/contact-us/ask-va/introduction) 
 - Email: vets.gov.user+220@gmail.com 
 - Password: AskVA2025Test
@@ -380,7 +384,7 @@ _(IF VETERAN AND SCO)_ We're going to walk  you through tasks that you would com
 > Depending on which Group a participant is in (A or B) they may go through staging or the prototype first. 
 
 **Staging**  
-First, you’ll need to login. I've provided a link, email, and password for you in the chat.
+First, you’ll need to login through ID.me. I've provided a link, email, and password for you in the chat.
 - Link: (https://staging.va.gov/contact-us/ask-va/introduction) 
 - Email: vets.gov.user+41@gmail.com 
 - Password: AskVA2025Testing
@@ -442,7 +446,7 @@ Before you click on anything to complete this task, take a second to look around
 > Participants will complete Task 2 in the same environment they completed Task 1. 
 
 **Staging**  
-You’ll need to login again. I've provided a new link, email, and password for you in the chat.
+You’ll need to login through ID.me again. I've provided a new link, email, and password for you in the chat.
 - Link: (https://staging.va.gov/contact-us/ask-va/introduction) 
 - Email: vets.gov.user+220@gmail.com 
 - Password: AskVA2025Test
@@ -494,7 +498,7 @@ Now we’re going to ask you to complete very similar tasks in a slightly differ
 > Participants will now complete the same tasks as 1 and 2 in the opposite environment.
 
 **Staging**  
-First, you’ll need to login. I've provided a link, email, and password for you in the chat.
+First, you’ll need to login through ID.me. I've provided a link, email, and password for you in the chat.
 - Link: (https://staging.va.gov/contact-us/ask-va/introduction) 
 - Email: vets.gov.user+41@gmail.com 
 - Password: AskVA2025Testing
@@ -550,7 +554,7 @@ Before you click on anything to complete this task, take a second to look around
 > Participants will now complete the same tasks as 1 and 2 in the opposite environment.
 
 **Staging**  
-You’ll need to login again. I've provided a new link, email, and password for you in the chat.
+You’ll need to login through ID.me again. I've provided a new link, email, and password for you in the chat.
 - Link: (https://staging.va.gov/contact-us/ask-va/introduction) 
 - Email: vets.gov.user+220@gmail.com 
 - Password: AskVA2025Test

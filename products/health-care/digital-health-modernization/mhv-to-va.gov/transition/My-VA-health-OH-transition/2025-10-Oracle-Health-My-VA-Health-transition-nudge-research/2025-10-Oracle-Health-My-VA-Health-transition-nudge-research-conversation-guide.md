@@ -41,14 +41,12 @@ Thanks for joining us today! My name is [Moderator Name] and I'll be moderating.
 - Please find support in helping the user share their screen here: [https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share](https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share)
 
 ## Warm-up (5 mins) 
-* What type of device are you using today?
 * How long have you had healthcare benefits with the VA?
 * How often to you go to a VA health care facility to receive care?
-* Have you ever used community care?
-* Do you sign-into your health portal to manage your care online very often?
-* Can you tell me about the last time you signed in to do something for your care? What were you trying to do?
+* How often do you sign-into your health portal online?
+* Can you tell me about the last time you signed in to do something for your care?
   * How was that experience for you?
-* Have you ever used other patient portals?
+* On a scale of 1-5, one being very uncomfortable and 5 being very comfortable, how do generally feel about learning new websites or apps?
 
 ## Part 1: Production / How participant accesses and manages their healthcare now (20 mins)
 Thanks for answering those questions. I want to transition us to exploring your patient portal together. First I want you to share your screen. Is that something you've done before?
@@ -65,19 +63,21 @@ Could you show me how you typically get to your patient portal to manage your he
 [Give user time to sign-in]
 
 **Task 1:** Can you show me how you would check to see details for an upcoming appointment?
-* What type of appointment is it?
-* What date/time is it happening?
-* What facility location?
-* How do you typically cancel or reschedule an appointment when you need to do that? 
+Prompts if needed: 
+* _What type of appointment is it?_
+* _What date/time is it happening?_
+* _What facility location?_
 
-**Task 2:** Can you show me how you would request a prescription refill? 
-* How often do you have to sign in to request refills?
-* What do you do when you run out of refills?
-* Do you ever check on the status of your refill request after you've submitted it? 
+* What other things do you commonly do here?
+* How often would you say you do that?
+* Have you ever had trouble finding something on this portal? What helped you figure it out?"
+* How much do you trust the information you see here? What would make you more confident in it?
+* On a scale of 1-5 where **one** is very hard and challenging, or frustrating for you and **five** would be fantastic and extremely easy, how would you rate your experience using this patient portal overall?
+* If someone told you 'your health information has been moved from this website to My HealtheVet on VA.gov,' what would you expect that to mean?
 
-Okay, thank you so much for showing us how you navigate your health portal, it's really helpful to see how you use it. 
+Okay, thank you so much for showing us how you navigate your health portal and answering those questions, it's really helpful to see how you use it and hear about your experience. Before we move on to the next step, I want to check in: How are you feeling so far? Do you have any questions before we continue?
 
-## Part 2: Prototype / Reactions to planned tactics (20 mins) 
+## Part 2: Prototype / Reactions to planned tactics (30 mins) 
 
 ### Opening the Figma prototype
 -  For the next part of our time together, I want to show what we call a prototype. This is not an actual website. It is a file that we use to explore what the website could look like and get feedback from users like yourself before we make any final changes to the website. This prototype will not work exactly like a website, and you won't see your name or your own personal information. For example, not all of the links will work and you cannot click the back button in your browser because it will take you away from the prototype. 
@@ -106,14 +106,18 @@ _Participant navigates to appointments tool. There should be a blue expandable a
 * _Do they see, expand, or engage with the blue info alert at all?_
 
 **[User DOES NOT notice the alert on their own]** 
-I wonder if you see that blue alert near the top of the prototype?
-- Did you notice that before?
+- If you saw a message on this page when you signed in, what would make you actually read it? What would make you ignore it?
+- I wonder if you see that blue alert near the top of the prototype?
+  - Did you notice that before?
   - What do you think that alert is for?
 - Can you go ahead and expand it and read it?
   - What does this mean to you?
   - How does it make you feel?
- - Is this information important for you? Should it be more noticeable?
- - Would you want to see this information every time you sign in? 
+ - What concerns you most about this information and potentially using a new portal to manage your healthcare?
+ - Would you want to see this information every time you sign in?
+ - "What could go wrong in a transition like this? What's your biggest fear?"
+  - [Listen carefully, then probe:] "You mentioned [concern]. Tell me more about that. What would need to happen to ease that worry?"
+ - What would encourage you to manage your records right here instead of navigating to the My VA Health portal?
 
 **[User notices alert on their own]**
 - Without expanding this alert, what do you think that one line of text means?
@@ -122,38 +126,34 @@ I wonder if you see that blue alert near the top of the prototype?
   - What do you think this means now?
   - What would you do next after reading this information?
   - Next time you sign in, would you expect to see these alerts again?
-  - Would you want to still have access to My VA Health, even though all of your health records and tasks are now available on VA.gov?
-    - Why or why not?  
+- What concerns you most about this information and potentially using a new portal to manage your healthcare?
+  - "What could go wrong in a transition like this? What's your biggest fear?"
+  - [Listen carefully, then probe:] "You mentioned [concern]. Tell me more about that. What would need to happen to ease that worry?"
+- What would encourage you to manage your records right here instead of navigating to the My VA Health portal?
 
-### Task 2
-Now that you know you can complete tasks here on My HealtheVet on VA.gov, I'd like you to show me where you'd go to request a prescription refill.
+### Task 2 
+Now that you know you can complete tasks here on My HealtheVet on VA.gov, I'd like you to show me where you'd go to request a prescription refill. We won't actually request anything since this is just a prototype, but am curious about your reactions to completing a task here using the new My HealtheVet on VA.gov experience. 
 
-_How does user navigate to a different tool?_
+_Observe: How does the user navigate to a different tool?_
 
 _Participant lands on the Medications tool, gets to the Refill page._
-* What is different about refilling a medication here than what you're used to?
-* What else are you noticing?
+* Does it surprise you to see that blue alert on this page, too?
+  * What else do you notice on this page?
 * Would you want to continue refilling your medication here on VA.gov, or would you prefer to go back to My VA Health to complete your prescription refill request?
   * Why/why not?
-* If you ran into an issue and needed help with something, what would you do?
-
-## Cool down questions
-* Thank you for sharing your screen and completing those tasks today. This is really helpful information as we make decisions for this upcoming health portal transition.
-* Overall, how would you describe your feelings about transitioning to a different health portal on VA.gov?
-* Have you transitioned to another health care portal before? How did that go for you?
-* What are your biggest concerns about a transition?
-* If all of your information was available on VA.gov, and you could manage all of your healthcare here, but no longer had access to My VA Health, how would you feel about that?
-* What, if anything, that you saw today in these prototypes was easier for you?
-* Do you have any questions or anything else you want to share? 
-
-## Consent to use video clips
-- I want to circle back and re-confirm: Are you okay with us sharing anonymized video clips from today’s session with VA partners?
-- Is there any part of our conversation you would NOT want included?
-  - [Record answer here]
-
+* If you ran into an issue trying to refill it here on VA.gov and needed help with something, what would you do?
+* What makes you feel like you can trust this experience? What makes you feel hesitant?
+* Do you feel confident that this experience would give you accurate information? What makes you say that?
+* Let's say you came home today and realized that My VA Health shut down permanently. How would you feel about that?
+* What's the ONE thing you'd miss from My VA Health?
+* What's the ONE thing that would need to be true about this portal for you to feel confident switching completely?"
+    
 ## Thank-You and Closing - (5 mins)
-Thank you so much for joining us today and sharing your feedback. It really helps us make this tool better for all Veterans.  
-Perigean will follow up with a thank-you after the session.
+Thank you for sharing your screen and completing those tasks today. This is really helpful information as we make decisions for this upcoming health portal transition. Before we end our session today, I want to circle back and re-confirm: Are you okay with us sharing anonymized video clips from today’s session with VA partners?
+
+Do you have any questions or anything else you want to share? 
+
+Okay, thank you again for your participation today and for sharing so much about your experience with VA healthcare. Perigean will follow up with a thank-you after the session. I hope you have a wonderful rest of your day.
 
 ## Emergency Exit
 - If the participant becomes distressed or there's a technical issue:

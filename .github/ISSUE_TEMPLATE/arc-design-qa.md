@@ -10,11 +10,16 @@ assignees: ''
 ## Issue Description
 QA for #
 
-## Defects
-- [ ] 
+## Defect 1
+- [ ] _Summary  of defect_
 
-## Acceptance Criteria
-- [ ] Defects have been addressed
+_Add notes and screenshots about the defect_
+
+## Defect 2
+- [ ] _Summary  of defect_
+
+_Add notes and screenshots about the defect_
+
 
 ---
 #### How to configure this issue

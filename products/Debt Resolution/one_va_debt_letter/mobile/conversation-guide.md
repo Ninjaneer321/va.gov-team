@@ -10,7 +10,7 @@ description: "A template for moderating research sessions including logistics, i
 ---
 # 🚧 🚧 🚧 work in progress 🚧 🚧 🚧 
 
-# ✅ ✅ ✅ Conversation Guide for One VA Debt Letter on mobile app
+# Conversation Guide for One VA Debt Letter on mobile app
 
 ## Moderator logistics 📋✅
   
@@ -45,7 +45,7 @@ description: "A template for moderating research sessions including logistics, i
 
 
 
-# ✅ ✅ ✅ Intro
+# Intro
 
 Thank you so much for joining today. My name is Emily, and [NAME] here will be taking notes. I also have a couple other colleagues in the digital waiting room who would like to observe, but we’ll get to that momentarily.
 
@@ -93,7 +93,7 @@ Before we start, I have a few logistics to cover:
 
 
 
-# ✅ ✅ ✅ Warm-up Questions
+# Warm-up Questions
 
 Could you tell me a bit about yourself as a Veteran if you're comfortable: what branch of the military did you serve, and when did you retire or separate?
 
@@ -104,7 +104,7 @@ How have you been involved with VA – both in the past and now?
 
 Now we're going to move to the financial portion of our discussion. I want to make sure that you’re only sharing what you’re willing – I have no additional information about you or your finances with the VA.
 
-# 🚧 🚧 🚧 Interview Section
+# Interview Section
 
 At whatever level you're comfortable, can you tell me about your current or recent experience with owing VA money for benefit overpayments?
 
@@ -122,7 +122,7 @@ And again at the level you're comfortable, what is your experience with receivin
 * Is it clear to you what your options are once you receive a bill?
 * What sort of communication do you receive regarding these bills?
 
-Now I'd like to ask you about times that you're actively managing these debts and bills. When I say manage that could be such things as reading info about debt or charges, determining next steps, or making payments.
+Now I'd like to ask you about times that you're actively managing these debts and bills. When I say manage that could be such things as reading info about debt or charges, determining next steps, requesting help, or making payments.
 * When you're looking to do any sort of management of your VA finances, when are you typically doing that? This could be time of day or night, as it relates to other activities, or maybe at some physical location.
     * Can you tell me why you choose to do this at these times/days/locations?
 * Are there things that prompt you to take action on any of these debts or bills?
@@ -136,7 +136,7 @@ Thinking about both the overpayment and the copays together, talk to me about ho
     * If yes: how are you doing that? What elements are important to you?
     * If no: is that something that might be useful at all to you? In what capacity?
 
-# 🚧 🚧 🚧 Screen sharing: current experience of combined statements
+# Screen sharing: current experience of combined statements
 
 We’re now going to move into looking at prototypes. First, I’d like you to share your screen please – have you done this before on your phone?
 
@@ -224,11 +224,11 @@ Now that you’ve looked at the combined statement, and each individual sections
 * And another question I’ll bring back: any further thoughts on when you would be looking to manage your finances – time or day, your physical location, a situation, etc.
 
 
-# 🚧 🚧 🚧 Screen sharing: future experience of combined statements
+# Screen sharing: future experience of combined statements
 
 (app prototype)
 
-Now we’ll look at some designs that currently do not exist anywhere on the website or the mobile app. These are designs for the mobile app, and we’ll start with the combined statement. 
+Now we’ll look at some new designs for the mobile app that currently do not exist anywhere. We'll start with the combined statement.
 
 
 
@@ -283,7 +283,7 @@ Where would you expect to locate the combined statement within the app?
 
 ----->
 
-# ✅ ✅ ✅ Post-Task Interview
+# Post-Task Interview
 
 - Is there anything else regarding management of VA debt and bills that you would like to share?
 - Do you have any questions for me? 
@@ -303,7 +303,7 @@ Perigean will be reaching out and sending you a thank you note.
 Thank you so much, and I hope you enjoy the rest of your day.
 
 
-# ✅ ✅ ✅ Emergency Exit 🚨
+# Emergency Exit 🚨
 
 
 [Emergency guidance](https://depo-platform-documentation.scrollhelp.site/research-design/research-safety-and-emergency-exit-strategies#ResearchSafetyandEmergencyExitStrategies-Sampleexitstrategies)
