@@ -130,10 +130,10 @@ Where will you be holding the research sessions?
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
-- `Veterans:` **4**
-- `Caregivers/Family members:` **6**
+- `Veterans:` **6**
+- `Caregivers/Family members:` **7**
 - `Funeral home staff/Representatives:` **2**
-- `Total:` **12**
+- `Total:` **15**
 - `Ideal completed sessions:` **10**
 
 ### Primary criteria (must-haves)
@@ -153,18 +153,21 @@ Where will you be holding the research sessions?
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
+- `Suggested dates and times:`
+- **10/29 10:00-4:00 EST**
+- **10/30 10:00-4:00 EST**
+- **10/31 10:00-4:00 EST**
 
 ### Prepare
 
 **A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
 
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- `Pilot participant name:` **Kenneth Santiago**
+- `Date and time of pilot session:` **11/7/2025** 
 
 ### Research sessions
 
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **11/10/2025-11/14/2025**
 
 ### Length of sessions
 

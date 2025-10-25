@@ -177,19 +177,74 @@ sequenceDiagram
     Frontend-->>User: Display appointment data
 ```
 
+### Appointment Cancellation (as of 10.22.25)
+```mermaid
+sequenceDiagram
+    participant Client as Frontend Client
+    participant ApptController as AppointmentsController
+    participant EpsController as EpsAppointmentsController
+    participant ApptService as AppointmentsService
+    participant EpsService as Eps::AppointmentService
+    participant VAOS as VAOS API
+    participant EPS as EPS API
+
+    Note over Client: Client determines appointment type
+    Client->>Client: Check appointment.type or appointment.provider?.id
+
+    alt EPS Appointment (type === 'epsAppointment' or has provider.id)
+        Client->>EpsController: PUT /eps_appointments/:id {status: "cancelled"}
+
+        EpsController->>EpsService: cancel_appointment(appointment_id)
+        EpsService->>EPS: PATCH /appointments/:id/cancel
+        EPS-->>EpsService: 200 OK {status: "cancelled"}
+        EpsService-->>EpsController: Success
+
+        Note over EpsController: Check if corresponding VAOS appointment exists
+        EpsController->>ApptService: check_vaos_appointment_exists(appointment_id)
+        ApptService->>VAOS: GET /appointments/:id
+        VAOS-->>ApptService: 200 OK or 404 Not Found
+
+        alt VAOS appointment exists
+            ApptService->>VAOS: PUT /appointments/:id {status: "cancelled"}
+            VAOS-->>ApptService: 200 OK
+            ApptService-->>EpsController: VAOS also cancelled
+        else No VAOS appointment
+            ApptService-->>EpsController: No VAOS appointment to cancel
+        end
+
+        EpsController->>EpsController: assemble_appt_response_object()
+        EpsController-->>Client: 200 OK {data: {appointment}}
+
+    else VAOS Appointment (standard appointment)
+        Client->>ApptController: PUT /appointments/:id {status: "cancelled"}
+
+        ApptController->>ApptService: update_appointment(appt_id, "cancelled")
+        ApptService->>VAOS: PUT /appointments/:id {status: "cancelled"}
+        VAOS-->>ApptService: 200 OK {appointment data}
+        ApptService-->>ApptController: Updated appointment object
+
+        ApptController->>ApptController: set_facility_error_msg()
+        ApptController->>ApptController: serialize_appointment()
+        ApptController-->>Client: 200 OK {data: {appointment}}
+    end
+
+    Note over Client, EPS: Both systems now reflect cancelled status
+```
+
 ## Key Processes
 
-### User Workflow
-1. User receives SMS/Email with referral link and clicks it.
-2. User is directed to login and authenticate.
-3. After authentication, user is redirected to the referral page.
-4. Frontend retrieves referral data from Vets API and stores it in Redux.
-5. If an appointment exists that matches a referral number of the referral coming in, reject the apppointment, as we are ONLY booking first referral appointments
-6. Frontend checks for EPS appointments and combines them with existing appointments in Redux for the list.
-7. Clicking into the scheduling process shows referral information
-8. After the user verifies this information, they may go to the slots of the provider available (slots are date/time unique points that a user can book an appointment in)
-9. After choosing a slot, the user sees a final verification page
-10. Clicking confirm, will book the appointment in CCRA, and send the user a notification (there are some async processes here in the EPS system and the airgap to the CCRA system)
+### Referral Appointment Scheduling Flow
+
+1. The user receives an SMS or email notification indicating that they can self-schedule an appointment for a referral.  
+2. The notification directs the user to the **Referrals and Requests** page on **vets-website**, which lists all active referrals.  
+3. The user selects the relevant referral from the list.  
+4. **vets-website** retrieves the referral details and displays them to the user.  
+5. If no appointment exists for that referral, the user can begin the scheduling process.  
+6. The user navigates to the **Scheduling View**, where a draft appointment is created and available time slots are displayed.  
+7. After selecting a time slot, the user reviews the appointment details on a **Final Verification** page.  
+8. When the user clicks **Confirm**, the appointment is successfully booked.  
+9. At a later point, the booked appointment is manually synced to external systems by staff.
+
 
 ## Resources
 
@@ -260,20 +315,25 @@ Response when not booked ie: no appointments have been booked for this referral)
 }
 
 ```
-Response when an appointment is found
+Appointment data appended to the response object: 
 ```
-{
-  ...the referral response 
-  "appointments": {
-    system: 'VAOS',
-    data: [
-      {
-        id: 12312312312,
+"data" : {
+   ...
+
+   "appointments": {
+      "EPS":  {
+          "data": [
+             { "id": 12345, status: "booked", "start": "2024-11-21T18:00:00Z" }
+          ]
       },
-    ],
-  },
+      "VAOS":  {
+          "data": [
+             { "id": 56789, status: "booked", "start": "2024-11-21T18:00:00Z" }
+          ] 
+      }
 }
 ```
+
 ### * POST `/vaos/v2/appointments/create_draft` (new)
 Request:
 ```
@@ -534,3 +594,10 @@ Response:
 ## Open Questions and Future Considerations
 1. Need to get what will be referred to as the providerID for the EPS system that matches to what's in the CCRA object. Refer to EPS document/yaml/json for the call `provider-services/{providerServiceId}`
 2. Get user data from full auth user object in vets-api to get address and phone and email
+
+### Open cancellation questions (last updated 10.22.25)
+1. When appointment status is updated in EPS to cancelled, does the status update take effect for the appointment in VAOS via the same manual transfer process as creation (staff / "swivel chair" process)?
+2. If the status of the corresponding VAOS appointment is not updated by staff do we need to send a request to VAOS to update the appointment at the time the EPS appointment status update request is sent? - This is our current plan.
+3. If the appointment is created and cancelled in EPS before it appears in VAOS does the appointment still appear and if so does it appear with cancelled status?
+4. If the appointment is surfaced in EPS but not yet in VAOS should we disallow cancellation until it surfaces in VAOS? - This is our current plan.
+5. If the cancellation request to one of the sources succeeds but the other does not, what notification / appointment status should be displayed to the veteran?

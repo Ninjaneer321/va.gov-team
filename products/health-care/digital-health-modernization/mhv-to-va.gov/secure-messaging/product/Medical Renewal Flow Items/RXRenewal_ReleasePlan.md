@@ -47,7 +47,11 @@ Before enabling your feature toggle in production, you'll need to:
 
 **Yes**
 
-Udpated HERE
+
+We will do an MVP launch (Vista Only)  followed by Post MVP (Vista and OH)  A defined set of users will be whitelisted in mhv_secure_messaging_medications_renewal_request Flipper toggle to gain access to the new experience
+
+
+
 
 
 ### Define the Rollback process
@@ -70,11 +74,7 @@ Our PM, Engineering Lead, Research Lead, and stakeholders will monitor analytics
 2. A fix will be prioritized and worked on
 3. The fix will be tested and deployed through normal CI/CD practices, with no interruption to feature uptime.
 
-## Overall Roll out Plan: Staged Release: Full Release- (MVP and Post MVP) (ALL USERS)
 
-Staged Rollout (also known as unmoderated production testing)
-Rollout Planning
-Desired date range: **UPDATE DATE HERE**
 
 -How will you make the product available in production while limiting the number of users who can find/access it: **By using a feature flag.**
 
@@ -85,7 +85,85 @@ Desired date range: **UPDATE DATE HERE**
 -Who is monitoring the dashboard(s)?: **UX Leads, Engineering Lead, and Product Manager**
     
 
-##  Metrics Based Criteria: (Update HERE)
+##  Metrics Based Criteria: UPDATES NEEDED HERE. Ticket in Progress with ENG
+
+
+
+
+
+## Monitoring (Post Monitoring Documentation)- UPDATES NEEDED HERE POST LAUNCH by PM
+
+
+**Stage A: 5% of users**
+Test a larger user population to ensure larger usage patterns expose no issues.
+
+**Planning**
+-Length of time: 1 day, (Update Here_
+-Percentage of Users (and roughly how many users do you expect this to be):**5%**
+
+**Results**
+-Number of unique users: XX
+-Metrics at this stage (per your "success criteria"): please see detailed MVP monitoring doc
+-Was any downstream service affected by the change?: No
+-Types of errors logged: XX (Update Here)
+-What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? None, except for error messaging change
+
+**Stage B: 25% of users**
+Test a larger user population to ensure larger usage patterns expose no issues.
+
+**Planning**
+-Length of time: 
+-Percentage of Users (and roughly how many users do you expect this to be): **25%**
+
+**Results**
+-Number of unique users: 
+-Metrics at this stage (per your "success criteria"): please see detailed MVP monitoring doc
+-Was any downstream service affected by the change?: No
+-Types of errors logged: 
+-What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? None, except for error messaging change
+
+**Stage C: 50% of users**
+Test a larger user population to ensure larger usage patterns expose no issues.
+
+**Planning**
+-Length of time: 
+-Percentage of Users (and roughly how many users do you expect this to be): **50%**
+
+**Results**
+-Number of unique users: XX
+-Metrics at this stage (per your "success criteria"): please see detailed MVP monitoring doc
+-Was any downstream service affected by the change?: No
+-Types of errors logged: XX
+-What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges?: None
+
+
+**Stage D: 75% of users**
+Test a larger user population to ensure larger usage patterns expose no issues.
+
+**Planning**
+-Length of time: XX
+-Percentage of Users (and roughly how many users do you expect this to be): **75%**
+
+**Results**
+-Number of unique users: XX
+-Metrics at this stage (per your "success criteria"): please see detailed MVP monitoring doc
+-Was any downstream service affected by the change?: No
+-Types of errors logged: XX
+-What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges?: Error messaging for pages - work ongoing.
+
+
+**Stage E: 100% of users**
+**Planning**
+-Length of time: XX
+-Percentage of Users: **100%**
+
+**Results**
+-Number of unique users: XX
+-Metrics at this stage (per your "success criteria"): please see detailed MVP monitoring doc
+-Was any downstream service affected by the change?: [PICK_ONE]: no
+-Types of errors logged: XX
+-What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? Error messaging deploys on Monday
+
 
 
 

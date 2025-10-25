@@ -21,18 +21,18 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 | QP7 | **Prioritized Maintenance 2025 (October, November, December):**  |[#121725](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121725)|Complete and launch priority work listed in the epic | UX-FE-BE |None  |  |
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
- - [ ] VA PO approved end of quarter status of Quarterly Goals (XX/XX/25)
+ - [ ] VA PO approved end of quarter status of Quarterly Goals (XX/XX/25) 
 
 ## Sprint Goals - Sprint: 19 [10/8/25 - 10/21/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
 |UX: Prepare conversation guide, research plan for the Payment History pre-launch validation study.| QP3 |--|10/20/2025|Completed|
-|UX/ENG: Complete all One Thing Per Page Staging review “Must” pre-launch updates.| QP2 |--|--|--|
-|ENG: If the shutdown happens: Refine the 3 Digital Dispute Email templates and have them ready to start sending. If the shutdown is averted the goal will be to release this work.| QP1 |--|--|--|
+|UX/ENG: Complete all One Thing Per Page Staging review “Must” pre-launch updates.| QP2 |See below|--|Incomplete|
+|ENG: If the shutdown happens: Refine the 3 Digital Dispute Email templates and have them ready to start sending. If the shutdown is averted the goal will be to release this work.| QP1 |See below|--|Incomplete|
 |ENG: If the shutdown happens: Be fully ready to turn on the Digital Dispute asynchronous submission process alongside the new Emails. If the shutdown is averted the goal will be to release this work.| QP1 |--|--|Completed|
-|ENG: Validate the Digital Dispute PDF content and formatting.| QP1 |--|--|--|
-|ENG: If the shutdown happens: Be fully ready to launch One Thing Per Page in production. If the shutdown is averted the goal will be to release this work.| QP2 |--|--|--|
-|ENG: Complete Payment History implementation work.| QP3 |--|--|Incomplete|
+|ENG: Validate the Digital Dispute PDF content and formatting.| QP1 |--|10/21/25|Completed|
+|ENG: If the shutdown happens: Be fully ready to launch One Thing Per Page in production. If the shutdown is averted the goal will be to release this work.| QP2 |See below|--|Incomplete|
+|ENG: Complete Payment History implementation work.| QP3 |See below|--|Incomplete|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (09/30/25)
@@ -41,13 +41,17 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
  - [X] VA COR approved the Sprint Goals (09/30/25)
  
 **_Delivery + Notes:_**
-- [ ] All goals have been updated in the sprint chart
-- [ ] Any Additional details about goals **not** completed will be documented here
+- [X] All goals have been updated in the sprint chart
+- [X] Any Additional details about goals **not** completed will be documented here
+- For goal: UX/ENG: Complete all One Thing Per Page Staging review “Must” pre-launch updates - Remaining and final launch blocking ticket will be completed in Sprint 20.
+- For goal: ENG: If the shutdown happens: Refine the 3 Digital Dispute Email templates and have them ready to start sending. If the shutdown is averted the goal will be to release this work. - Final stakeholder updates have been provided for     templates and will be completed in Sprint 20.
+- For goal: ENG: If the shutdown happens: Be fully ready to launch One Thing Per Page in production. If the shutdown is averted the goal will be to release this work. - Remaining and final launch blocking ticket will be completed in Sprint 20.
+- For goal: ENG: Complete Payment History implementation work - The BE team completed 5 tickets related to Payment History and additional work remains. 
 
 ## Sprint Goals - Sprint: 20 [10/22/25 - 11/4/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Work with Peregian on recruitment for Payment History pre-launch validation research sessions.| QP3 |--|--|--|
+|UX: Work with Perigean on recruitment for Payment History pre-launch validation research sessions.| QP3 |--|--|--|
 |UX/ENG: Prepare Staging Review artifacts (12 tix) for Payment History.| QP3 |--|--|--|
 |ENG: Pending Launch of One Thing Per Page - Ramp up the exposure %, Monitor for issues or errors, address any issues.| QP2 |--|--|--|
 |ENG: Complete final ENG Payment History coding and review the final implementation between UX/ENG.| QP3 |--|--|--|

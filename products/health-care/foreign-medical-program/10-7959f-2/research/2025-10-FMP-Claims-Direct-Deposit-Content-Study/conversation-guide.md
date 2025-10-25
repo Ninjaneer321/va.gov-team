@@ -34,7 +34,7 @@ Today we're going to talk about content around direct deposit for Foreign Medica
 
 Before we start, I have a few things that I want to go over with you:
 
-- **This entire session should take about 30-60 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
+- **This entire session should take about 30-45 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
   
 - **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
   
@@ -87,6 +87,7 @@ Before we look at the website, let’s start with a few warm-up questions.
   - If so, are you registered?
   - Can you describe what it is in your own words?
   - Have you ever filed a reimbursement claim before?
+3.  Are you on a mobile device today or a desktop computer?
   
 
 ## First Task: [Introduction Page] - 5 minutes
