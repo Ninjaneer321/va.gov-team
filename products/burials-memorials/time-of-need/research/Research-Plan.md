@@ -84,8 +84,13 @@ Are there moments that matter?</summary>
 ### Hypotheses
 
 ---
+-  **Primary hypothis** Users will be able to complete and submit the burial request form digitally with fewer errors and less stress than the current phone-based process. Most usability issues will stem from unfamiliar terminology or unclear instructions, and accessibility improvements may be needed for specific cohorts. Digital submission will be perceived as more convenient and less emotionally taxing.**
 
-**Users will be able to complete and submit the burial request form digitally with fewer errors and less stress than the current phone-based process. Most usability issues will stem from unfamiliar terminology or unclear instructions, and accessibility improvements may be needed for specific cohorts. Digital submission will be perceived as more convenient and less emotionally taxing.**
+- **Contrasting Hypothesis:** Certain participant segments (e.g., Veterans aged 65+, those with disabilities, or those without reliable internet access) may find the phone-based process more accessible or less stressful than the digital form. This is informed by prior VSO research and medallion form desk research (see Section 9), which found that older Veterans often prefer verbal guidance and that some participants encounter barriers with digital-only options.
+
+- **Supporting Data:** This hypothesis is grounded in desk research on burial benefits, including VSO findings regarding barriers to digital access and feedback from the medallion form research, which highlighted confusion with terminology and the need for support among first-time users. (See Section 9: Desk Research Summary.)
+
+- **Form Completion Time Hypothesis:** Most users will complete the digital form in 10–15 minutes. However, family members or representatives unfamiliar with military terminology or VA processes may require 20+ minutes to complete all required fields.
 
 ---
 
@@ -120,13 +125,22 @@ Where will you be holding the research sessions?
 
 *Intended audience*: Veterans, Veteran family members, friends, personal representatives, funeral home staff who have scheduled or expect to schedule a burial for a Veteran, spouse, or dependent child. Recruitment will leverage Peregian’s participant database for maximum variation sampling to ensure inclusivity (age, gender, race/ethnicity, disability status, digital literacy).
 
-### Recruitment criteria
+### Recruitment primary criteria
 
 - Have you scheduled a burial for a Veteran, spouse, or adult-dependent child in the past? [yes/no]
-- Are you a family member, representative, or funeral home staff involved in burial planning for a Veteran, spouse, or adult-dependent child? [yes/no]
+- Are you a family member, funeral home staff, VSO officer, cemetery staff, or personal representative (non-family) involved in burial planning for a Veteran, spouse, or adult-dependent child? [yes/no, specify role]
 - Do you use a computer or mobile device to access VA.gov? [yes/no]
 - Do you have reliable internet access? [yes/no]
-- Are you interested in learning about how to schedule a burial with VA.gov? [yes/no]
+- Have you considered or experienced burial planning with VA.gov or the VA? [yes/no]
+- What is your age range? [18–54, 55–64, 65+]
+- Do you use assistive technology or have accessibility needs? [yes/no, specify]
+  
+### Secondary criteria (nice-to-haves)
+- Prior experience with VA.gov digital forms (mix of new and experienced users)
+- Represents an underserved or diverse community
+- Geographic diversity (participants recruited from multiple time zones)
+- Mixed experience level with VA.gov (some first-time users, some repeat users)
+- Accessibility needs or use of assistive technology (explicit minimum set above)
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
@@ -136,38 +150,35 @@ Where will you be holding the research sessions?
 - `Total:` **15**
 - `Ideal completed sessions:` **10**
 
-### Primary criteria (must-haves)
-
-- Interested in learning how to schedule a burial for a Veteran, spouse, or dependent child in the future
-- Able to access and use a computer or mobile device
-- English proficiency
-- Willing to participate in a remote usability test
-
-#### Secondary criteria (nice-to-haves)
-
-- Prior experience with VA.gov digital forms
-- Represents an underserved or diverse community
-- Has accessibility needs or uses assistive technology
-
 ## Timeline 🗓️
 
+- **10/31–11/05:** Finalize research materials & screener  
+- **11/05–11/07:** Kick-off with Perigean + recruitment launch  
+- **11/12:** Pilot session (with quick debrief)  
+- **11/13-11/14:** Minor protocol adjustments based on pilot  
+- **11/17–11/21:** Finalize recruitment and prep  
+- **12/01–12/05:** Main research sessions (Mon–Fri; 5 days, 4 sessions/day = 20 slots)  
+- **12/08–12/09:** Buffer/final research sessions if needed (Mon–Tue; 4 sessions/day)  
+- **12/10–12/12:** Synthesis & preliminary findings 
+  
 ### Optional Kick-off Call with Perigean
 
 - `Suggested dates and times:`
-- **10/29 10:00-4:00 EST**
-- **10/30 10:00-4:00 EST**
-- **10/31 10:00-4:00 EST**
+- **11/05 10:00-4:00 EST**
+- **11/06 10:00-4:00 EST**
+- **11/07 10:00-4:00 EST**
+
 
 ### Prepare
 
 **A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
 
 - `Pilot participant name:` **Kenneth Santiago**
-- `Date and time of pilot session:` **11/7/2025** 
+- `Date and time of pilot session:` **11/28/2025** 
 
 ### Research sessions
 
-- `Planned dates of research:` **11/10/2025-11/14/2025**
+- `Planned dates of research:` **12/01/2025-12/09/2025**
 
 ### Length of sessions
 
@@ -177,9 +188,17 @@ Where will you be holding the research sessions?
 
 ### Availability
 
-- `[MM/DD, Day, 9:00 AM-12:00 PM] EST`
-- `[MM/DD, Day, 1:00 PM-4:00 PM] EST`
-- `Add more slots as needed`
+**Primary dates – schedule participants first:**
+- **Monday 12/01/2025:** 9:00–10:00 AM, 11:00 AM–12:00 PM, 1:00–2:00 PM, 3:00–4:00 PM EST
+- **Tuesday 12/02/2025:** 9:00–10:00 AM, 11:00 AM–12:00 PM, 1:00–2:00 PM, 3:00–4:00 PM EST
+- **Wednesday 12/03/2025:** 9:00–10:00 AM, 11:00 AM–12:00 PM, 1:00–2:00 PM, 3:00–4:00 PM EST
+- **Thursday 12/04/2025:** 9:00–10:00 AM, 11:00 AM–12:00 PM, 1:00–2:00 PM, 3:00–4:00 PM EST
+- **Friday 12/05/2025:** 9:00–10:00 AM, 11:00 AM–12:00 PM, 1:00–2:00 PM, 3:00–4:00 PM EST
+
+**Backup dates – use only if rescheduling is needed due to cancels/no-shows:**
+- **Monday 12/08/2025:** 9:00–10:00 AM, 11:00 AM–12:00 PM, 1:00–2:00 PM, 3:00–4:00 PM EST
+- **Tuesday 12/09/2025:** 9:00–10:00 AM, 11:00 AM–12:00 PM, 1:00–2:00 PM, 3:00–4:00 PM EST
+
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
@@ -194,6 +213,24 @@ Where will you be holding the research sessions?
 - **Cat Hughes**
 - **Kyle Wren**
 
-## Approvals ✅
+- ## Decision-Making, Prioritization, and Iteration 🔄
+
+### Prioritization of Findings
+
+- Findings from usability research will be prioritized using the **MoSCoW framework** ("Must have," "Should have," "Could have," "Won't have") and an **impact/effort matrix**. The product and research teams will collaboratively assess each identified issue or insight to determine its urgency, value to users, and feasibility within project constraints. Highest-priority issues (Must haves, high-impact/low-effort) will be addressed first in design and development sprints.
+
+### Iteration Cycles & Post-Launch Validation
+
+- Iterative improvement cycles will be adopted: Insights from initial usability testing will drive targeted design revisions and further prototype refinement.
+
+- ### Sharing Insights & Cross-Team Collaboration
+
+- Research findings, reports, and actionable recommendations will be shared across the burials ecosystem, including other teams referenced in desk research (e.g., NCA, VEO, platform and policy partners), through:
+  - Written synthesis reports and presentations delivered at cross-team meetings
+  - Posting insights and documentation in shared VA.gov repositories and burials-memorials channels
+  - Collaborative workshops or debriefs to discuss key findings and implications across related products and workflows
+ 
+- ## Approvals ✅
 - `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
 - `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
+

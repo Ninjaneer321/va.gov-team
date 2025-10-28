@@ -212,20 +212,14 @@ This research will gauge the risk of new direct deposit content on the FMP Regis
 ## Recruitment 🎯	
 
 ### Recruitment approach
-*Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
+We would like to recruit 12 Veterans through Perigean, who have a mixed experience with the Foreign Medical Program but who are eligible.
 
 ### Recruitment criteria
-
-- **Write any recruitment criteria for experience or scenarios as screener questions with qualifying responses. Perigean will use these verbatim to recruit participants.**
-
-
-### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
-
-- `Veterans:` **[12]**
-- `Caregivers:` **[0]**
-- `Dependents:` **[0]**
-- `Total:` **[12]**
-- `Ideal completed sessions:` **[8]**
+- Veterans: **[12]**
+- Caregivers: **[0]**
+- Dependents: **[0]**
+- Total: **[12]**
+- Ideal completed sessions: **[8]**
 
 ### Primary criteria (must-haves)
 
@@ -251,8 +245,6 @@ This research will gauge the risk of new direct deposit content on the FMP Regis
 
 
 ## Timeline 🗓️
-> [!NOTE]
-> **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.** 
 
 ### Optional Kick-off Call with Perigean
 
@@ -276,9 +268,6 @@ This research will gauge the risk of new direct deposit content on the FMP Regis
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
-
-> [!TIP]
-> Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
 
 
 > **Place time slots between `hash marks` when in edit mode.**
