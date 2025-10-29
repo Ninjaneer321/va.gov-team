@@ -9,7 +9,7 @@ tags:
   - "usability-testing"
   - "national-cemetery"
   - "self-service"
-description: "Research conversation guide for moderated usability testing sessions focused on the Time of Need Schedule a Burial process. Includes logistics, consent procedures, warm-up questions, three key usability actions (entering service period, finding cemetery, determining relationship), and post-task interview questions."
+description: "Research conversation guide for moderated usability testing sessions focused on the Time of Need Schedule a Burial process. Includes logistics, consent procedures, warm-up questions, through tasks, and closing."
 ---
 # Conversation Guide for [Memorials Self Service, Time of Need Schedule a burial in a national cemetery, 10/2025]
 
@@ -30,7 +30,7 @@ description: "Research conversation guide for moderated usability testing sessio
 > [!TIP]
 > - Use [#feedback-backchannel](https://dsva.slack.com/messages/C40B45NJK/details/) in Slack for real-time feedback from observers.
 > - Mute your Slack notifications.
-> - Send out the [observer instructions](https://depo-platform-documentation.scrollhelp.site/research-design/Observer-guidelines.1622311177.html) to your observers (Slackbot will do this for you if you opt in).
+> - Send out the [observer instructions](https://depo-platform-documentation.scrollhelp.site/research-design/Observer-guidelines.1622311177.html) to your observers (Slackbot will do this for you if you use the invite tool).
 
 ### Starting the session
 
@@ -45,17 +45,17 @@ description: "Research conversation guide for moderated usability testing sessio
 Thanks for joining us today! My name is **[NAME]** and **[NOTETAKER NAME]** is taking notes.
 I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them... 
 
-Today we're going to talk about making updates to health care information.
+Today we're going to talk about how the VA is developing a new digital way for families and representatives to schedule burials for Veterans at national cemeteries.
 
 Before we start, I have a few things that I want to go over with you:
 
-- **This entire session should take about 60 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
+- **This entire session should take about 45 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
   
-- **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended if you have suggestions or criticisms.
+- **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any criticism.
   
 - **Your participation in this interview is completely voluntary.** You do not have to participate if you don't want to. Whether you choose to participate or not will not affect your benefits in any way.
   
-- I know the folks who invited you to participate in this interview asked if it was alright to allow people to observe this interview, but I want to double-check with you before we get going. **Are you okay with observers joining us today?**
+- I know the folks who invited you to participate in this interview asked if it was alright to allow people to observe this interview, but I want to double-check with you before we get going. **Are you comfortable with observers joining?**
    - <mark>**If no:** Use Slack to kindly ask the observers to leave the Zoom.</mark>
    - **If yes:** Admit observers.
      
@@ -70,7 +70,7 @@ Before we start, I have a few things that I want to go over with you:
 
    <mark>**[Record answer here]**</mark>
      
-- **Would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veterans’ experiences?** One of the ways that we share findings with our partners across the VA is by using de-identified short video clips.
+- **Would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veterans’ experiences?** One of the ways that we share findings with our partners across VA is by showing short video clips. If you agree, we would only share clips that don’t include any identifying information.
    - **Knowing this, would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veteran's experiences?**
  
    <mark>**[Record answer here]**</mark>
@@ -95,7 +95,8 @@ Before we start, I have a few things that I want to go over with you:
 Before we look at the website, let’s start with a few warm-up questions.
 
 1. "Have you previously scheduled a burial? If yes, how did you do it?"
-2. "What was your experience like with that process? 
+2. "What was your experience like with that process? What worked well? 
+   What was frustrating?"
 
 # Usability Actions & Ratings
 
@@ -103,13 +104,38 @@ For each of the following actions, please attempt the task as you naturally woul
 
 ---
 
-## Action 1: Entering a Veteran service period
+## Action 1: Determining your relationship to the Veteran
+
+- Please indicate your relationship to the Veteran.
+
+**Rating:**  
+On a scale of 1 (very difficult) to 5 (very easy), how would you rate the ease of determining and selecting your relationship to the Veteran?
+
+1. "Did any of the labels or terms confuse you?"
+2. "What did the label "personal representative" mean to you?"
+   
+<mark>**[Record rating and comments here]**</mark>
+
+> [!NOTE]
+> Things to watch for:
+- Does participant understand all relationship options?
+- Do they click on the "Personal Representative" accordion for definition?
+- Do they hesitate on which option applies to them?
+- Is the list comprehensive for their situation?
+- Usage of additional help within the form, such as help components, information accordians, or external links
+
+---
+
+## Action 2: Entering a Veteran service period
 
 - Please enter a Veteran service period using the interface provided.
 
 **Rating:**  
 On a scale of 1 (very difficult) to 5 (very easy), how would you rate the ease of entering a Veteran service period?
 <mark>**[Record rating and comments here]**</mark>
+
+[If participant hesitates]: "Use your best estimate if you're not certain."
+[After entry]: "How confident are you that you entered the correct dates?"
 
 > [!NOTE]
 > Things to watch for:
@@ -121,37 +147,36 @@ On a scale of 1 (very difficult) to 5 (very easy), how would you rate the ease o
 
 ---
 
-## Action 2: Finding a preferred national cemetery
+## Action 3: Finding a preferred national cemetery
 
 - Please find and select a preferred national cemetery.
 
 **Rating:**  
 On a scale of 1 (very difficult) to 5 (very easy), how would you rate the ease of finding a preferred national cemetery?
 <mark>**[Record rating and comments here]**</mark>
+Task: Please indicate your preferred national cemetery for this burial.
+[Context]: "The deceased Veteran's family prefers to be buried in their home state."
+
+Things to watch for:
+- Does participant understand they're selecting a specific cemetery?
+- Do they use search/filter vs. browse the list?
+- If cemetery options are limited/unavailable, how do they respond?
+- Understanding of what "national cemetery" means?
+- Difficulty with state selection or cemetery availability?
+- How do they know which cemetery to choose?
+
+Post-task probe:
+- "How would you know which cemetery to select?"
+- "What if the preferred cemetery wasn't available?"
 
 > [!NOTE]
-> Things to watch for:
-> - Did the user click on the external link?
-> - Did they locate the bruial information on the site?
-> - Did they successfully find the intended cemetery?
-> - Did they ask for help or express confusion?
-
----
-
-## Action 3: Determining your relationship to the Veteran
-
-- Please indicate your relationship to the Veteran.
-
-**Rating:**  
-On a scale of 1 (very difficult) to 5 (very easy), how would you rate the ease of determining and selecting your relationship to the Veteran?
-<mark>**[Record rating and comments here]**</mark>
-
-> [!NOTE]
-> Things to watch for:
-- Hesitation on terminology
-- Participant using own words vs. form language
-- Clarification requests
-- Usage of additional help within the form, such as help components, information accordians, or external links
+Things to watch for:
+- Does participant understand they're selecting a specific cemetery?
+- Do they use search/filter vs. browse the list?
+- If cemetery options are limited/unavailable, how do they respond?
+- Understanding of what "national cemetery" means?
+- Difficulty with state selection or cemetery availability?
+- How do they know which cemetery to choose?
 
 ---
 
@@ -160,11 +185,12 @@ On a scale of 1 (very difficult) to 5 (very easy), how would you rate the ease o
 After you’ve completed these actions, on a scale of 1 to 5, how easy or difficult did you find using this part of the website overall?
 <mark>**[Record overall rating and comments here]**</mark>
 
-# Post-Task Interview - X minutes
+# Post-Task Interview - 8 minutes
 
 - "What part of the process felt most overwhelming or confusing?"
 - "Were there any parts of this form that you found to be unclear?
-- "Compared to calling in, what would have been easier or harder about this digital approach?"
+- "Compared to calling the VA or an in-person visit, how would this compare?"
+
 
 ## Emotional & Cognitive Load Assessment
 
@@ -172,8 +198,9 @@ After completing the form, use these probes:
 
 - "Did the length or complexity of the form feel manageable?"
 - "Were there any questions that felt intrusive or insensitive?"
-- "Would you feel comfortable completing this on your own, or would 
-  you want help or support?"
+- "Would you feel comfortable completing this on your own, or would you want help or support?"
+  - "What additional information, help, or support would have made this process easier for you?"
+- "Is there anything you wish was available on this form or in the process?"
 
 Moderator notes should track:
 - Emotional shifts (frustration, hesitation, distress)
@@ -187,7 +214,7 @@ Moderator notes should track:
  
    <mark>**[Record answer here]**</mark>
 
-## Thank-You and Closing - X minutes
+## Thank-You and Closing - 2 minutes
 
 Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
 
@@ -197,11 +224,12 @@ Thank you so much again, and enjoy the rest of your day!
 
 # Emergency Exit 🚨
 
-In the rare case of an emergency during a session, be prepared with an [emergency exit strategy](https://depo-platform-documentation.scrollhelp.site/research-design/Research-Safety-and-Emergency-Exit-Plan.1622310997.html).
+In the rare case of an emergency during a session, be prepared with an [emergency exit strategy](https://depo-platform-documentation.scrollhelp.site/research-design/Research-Safety-and-Emergency-Exit-Plan.1622311177.html).
 
 ---
 
 ### Sample Conversation Guide _(note: this link points to resources in the va.gov-team GitHub repo)_
 
 - [Veteran ID Card Discovery Interview](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-id-cards/research/discovery/discovery-conversation-guide.md)
+
 
