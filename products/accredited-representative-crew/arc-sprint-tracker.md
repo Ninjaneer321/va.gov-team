@@ -4,18 +4,24 @@ _Overview: This tracker is designed to track sprint goals with completed work, p
 
 # Sprint 3 (Nov 4 - Nov 17, 2025)
 
-## Sprint 3 Goals [WIP]
+## Sprint 3 Goals
 - [ ] Sprint Goals Approved by Enablement
 
 **Team Accreditation**: 
-1. **[Rep Data] Stability and Maintenance**: Refactor address validation for reps
-2. **[21a] v4 - Development**: Work with Platform to remove Chapter 6 blockers, and if not, proceed to non-Chapater 6 development
+1. **[21a] v4 - Development**: Work with Platform to remove Chapter 6 blockers, and if not, proceed to implementing the multi-file component and addressing known bugs
+2. **[Rep Data] Accreditation API Integration**: Implement fail-safes for the Accreditation API integration
 
 **Team Benefits**:
-1. **[Auth] ID.me in ARP**: Internal QA, Staging Review, Contact Center Review, Datadog reporting
-5. **Intent to File**: Outline remaining development and begin implementation accordingly
-6. **Claimant Details**: Outline remaining UX work and begin research/design accordingly
-7. **[ARP Post-MVP] Cleanup Tasks**: Feature flag cleanup, update URLs, update access token
+1. **[Auth] ID.me in ARP**: Staging Review, Contact Center Review, Schedule Go / No Go for Sprint 4
+5. **[ITF] MVP - Design**: Complete any remaining design work, related to Sprint 2 discussions
+6. **[ITF] MVP - Development**: Begin remaining development, based on Sprint 2 designs and discussions
+7. **[Claimant Details] MVP - Design**: Address open design work, emerging from Sprint 2 UX review
+8. **[ARP Post-MVP] Cleanup Tasks**: Update access token, update URLs, jupdate POA endpoints to send POA data to CorpDB, reintroduce form validation, redact form submissions older than 60 days, add sitewide alerts, investigate a file upload error, feature flag cleanup, investigate test user issues
+9. **[Rep Onboarding] NACVSO**: Check in with NACVSO leadership
+10. **[Rep Onboarding] Veterans of Foreign Wars**: Coordinate bulk contact info update
+
+**General**: 
+1. **ARC Team Onboarding and Setup**: Onboard UX Researcher, Accessibility Engineer, Implement Review Instances
 
 
 
@@ -41,23 +47,28 @@ _Overview: This tracker is designed to track sprint goals with completed work, p
 ## Sprint 2 Delivery
 - [ ] Sprint Delivery Approved by Enablement
 
-**Planned for Sprint 1**: 35 tickets, 94 points \
-**Added as a Sprint 1 stretch goal**: 22 tickets, 39 points 
+**Planned for Sprint 2**: x tickets, x points \
+**Added as a Sprint 2 stretch goal**: x tickets, x points 
 
-**Completed in Sprint 1**: 42 tickets, 93 points \
-**Team Velocity**: 93 points / 10 days = 9.3 points / day
+**Completed in Sprint 2**: x tickets, x points \
+**Crew Velocity**: x points / x days = x points / day
 
-**Team Count in Sprint 1**: 12 teammates \
-**Average Teammate Velocity**: 93 points / 12 teammates = 7.75 points / teammate
+**Crew Count in Sprint 2**: 14 teammates \
+**Average Teammate Velocity**: x points / x teammates = x points / teammate
 
-**Carrying into Sprint 2**: 11 tickets, 26 points 
+**Carrying into Sprint 3**: x tickets, x points 
 
 **Notes**:
-1. 10 tickets (10 relative points) of Team Benefits' stretch goal work was previously left In-Progress in the past ARF contract, and in Sprint 1 the ARC team merged the related PRs into Staging to maintain iterative code quality and progression.
+1. 2 new teammates onboarding this sprint -- Principal Engineering Lead and a UX Researcher
 
-**Sprint 1 Demo ([recording link]())
-1. 
-2. Review metrics
+**Sprint 4 Demo ([recording link]())**
+1. Intent to File MVP Designs
+2. Multi-file component for Claims Submissions
+3. Content cleanup?
+4. ARP Support Inbox Insights?
+6. CRM for VSO onboarding and management
+7. Review October metrics, including VA Notify monitoring
+ 
 
 ## Sprint 2 Tickets
 
