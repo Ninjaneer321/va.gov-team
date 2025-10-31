@@ -4,7 +4,7 @@ about: Reporting bugs as they relate to the ARC team
 title: ''
 labels: ar-crew, bug
 assignees: ''
-
+type: Bug
 ---
 
 ## Expected vs. Actual
@@ -28,4 +28,4 @@ assignees: ''
 2. Associate with the proper product
 3. Associate with the correct AR team
 4. [Optional] Attach a parent ticket (what body of work is this a part of?)
-5. [Optioanl] Add an estimate
+5. [Optional] Add an estimate
