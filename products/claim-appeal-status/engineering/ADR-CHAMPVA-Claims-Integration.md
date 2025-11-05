@@ -56,6 +56,40 @@ module BenefitsClaims
 end
 ```
 
+### Current Benefits Claims structure from Lighthouse
+This is the structure that both vets-website and va.gov mobile currently consumes:
+```
+{
+  "data": [
+    {
+      "id": "555555555",
+      "type": "claim",
+      "attributes": {
+        "baseEndProductCode": "400",
+        "claimDate": "2017-05-02",
+        "claimPhaseDates": {
+          "phaseChangeDate": "2017-10-18",
+          "phaseType": "COMPLETE"
+        },
+        "claimType": "Compensation",
+        "claimTypeCode": "400PREDSCHRG",
+        "closeDate": "2017-10-18",
+        "decisionLetterSent": false,
+        "developmentLetterSent": false,
+        "documentsNeeded": false,
+        "endProductCode": "404",
+        "evidenceWaiverSubmitted5103": false,
+        "lighthouseId": null,
+        "status": "COMPLETE"
+      }
+    }
+  ]
+}
+```
+The goal is to create a ClaimResponseDTO that vets website understands.
+
+The question is: Can Claim Providers, such as CHAMPVA, transform/map their Claim types close to this for minimal work on the frontend clients?
+
 #### 2. Abstract Provider Interface
 Create a base provider module/class that defines the contract for all claim providers:
 - **Location**: `lib/benefits_claims/providers/benefits_claims/benefits_claims_provider.rb`
@@ -290,6 +324,65 @@ Store all claims from various sources in a central database, query from there.
 - Increases infrastructure complexity
 - Real-time data freshness concerns
 
+### Alternative 4: Frontend-Orchestrated Provider Requests
+Modify the controller to accept a provider identifier (via parameter or header), allowing frontend clients to make concurrent requests directly to individual providers. The backend would return results from a single specified provider per request, with the frontend responsible for orchestrating parallel calls and aggregating results.
+
+**Implementation approach**:
+```ruby
+# Controller modification
+def index
+  provider = provider_from_params # e.g., 'lighthouse', 'champva'
+  claims = get_claims_from_provider(provider)
+  render json: claims
+end
+
+private
+
+def provider_from_params
+  params[:provider] || request.headers['X-Provider-ID']
+end
+
+def get_claims_from_provider(provider_id)
+  provider_class = PROVIDER_REGISTRY[provider_id]
+  provider = provider_class.new(@current_user)
+  provider.get_claims
+end
+```
+
+Frontend would:
+1. Access provider registry configuration (exposed via settings endpoint or embedded in app)
+2. Make concurrent requests to the endpoint for each configured provider
+3. Display results progressively as each provider responds
+4. Show loading states for pending providers
+
+**Benefits**:
+- **Progressive Data Display**: Claims can be displayed immediately as each provider responds, improving perceived performance
+- **True Parallelization**: Frontend makes concurrent requests, eliminating backend sequential processing delays
+- **Better User Experience**: Users see loading indicators per data source and data "pouring in" rather than waiting for all providers
+- **Client Control**: Frontend can implement custom retry logic, timeouts, or priority ordering per provider
+- **Simpler Backend**: Controller logic remains simple - single provider per request
+
+**Trade-offs and Considerations**:
+- **Frontend Complexity**: Orchestration logic moves to frontend (React/mobile apps), increasing client-side complexity
+- **Configuration Management**: Provider registry must be accessible to frontend clients (via API or config embedding)
+- **Multiple HTTP Requests**: N providers = N requests, increasing network overhead and server load
+- **Authentication/Authorization**: Each request must be authenticated, potentially N auth checks per page load
+- **Error Handling Distribution**: Each client must implement robust error handling for partial failures
+- **Network Conditions**: Users on poor connections may see degraded experience with multiple concurrent requests
+- **Mobile Considerations**: Mobile apps need to handle concurrent requests efficiently without draining battery
+- **Caching Complexity**: Need to cache N responses client-side or implement per-provider cache keys
+- **API Rate Limiting**: Multiple concurrent requests may trigger rate limiting protections
+- **Analytics/Logging**: Harder to track complete "claims list load" operations across multiple requests
+- **Inconsistent State**: Time gap between provider responses could show inconsistent data states
+
+**Comparison to Backend Aggregation (Current Decision)**:
+- Backend aggregation (current): Simpler frontend, single request, but slower response time and no progressive loading
+- Frontend orchestration (this alternative): Faster perceived performance and progressive display, but significantly higher complexity in frontend, mobile apps, and configuration management
+
+**Possible hybrid approach**:
+- Provide both endpoints: aggregated (`/claims`) and per-provider (`/claims?provider=champva`)
+- Let frontend choose based on context (fast initial load with per-provider, full refresh with aggregated)
+
 ## References
 - Existing Implementation: `lib/claim_letters/providers/claim_letters/`
 - Current Controller: `app/controllers/v0/benefits_claims_controller.rb`
@@ -301,3 +394,49 @@ Store all claims from various sources in a central database, query from there.
 - Monitor performance impact with multiple providers
 - Consider caching strategies if latency becomes an issue
 - May need to add source attribution in claim responses (which provider returned each claim)
+
+## Task Responsibilities
+
+### BMT 1's responsibilities:
+
+#### Initial Setup
+Note: Most of these tasks will be setting up the infrastructure
+1. Infra Create/Implement Abstract ClaimsProvider class
+- write unit tests for it
+2. Infra Create ClaimResponseDto (Data Transfer Object)
+- defines interface between vets-api and frontend clients
+- this will be based on what is consumed today from Lighthouse, which both website and mobile app clients already consume
+3. Imple Create/Implement the concrete Provider for Lighthouse
+- create example transformation layer (#transform_to_dto method, even though it is a straight mapping)
+- write unit tests for it
+4. Infra Create/Implement Provider Registry Configuration
+- this is where we can gate providers by feature flag or settings file
+5. Infra Update claims Controllers to use ClaimsProviderRegistry
+- web: BenefitsClaimsController
+- mobile: ClaimsAndAppealsController
+
+#### Ongoing
+6. Infra & Ongoing Write documentation that demonstrates how another ClaimProvider workflow can be added
+- for other teams to be able to use
+7. Infra & Ongoing Main Dashboard for CST ClaimProvider
+- Set up monitoring for aggregated controller(s) responses
+8. Infra & Ongoing Review new ClaimProvider and Services that want to be added to the claim provider list
+
+
+### Claims Provider Teams' responsibilities (per team, i.e. CHAMPVA):
+#### Initial Setup
+1. Imple Create/Implement service that connects to datasource, i.e., an api
+- write unit tests for it
+- this is where an architecture intent review may be necessary if the data source is something new to vets-api (i.e., a connection does not exist yet)
+    - BMT1 would be more than happy to help with this
+2. Imple Create/Implement concrete Provider that inherits from abstract ClaimsProvider class
+- this will include the transformation layer (#transform_to_dto method) that will turn the data returned from the ClaimsProviderService to a ClaimResponseDto
+- write unit tests for it
+3. Infra Register the ClaimsProvider class in ClaimProviderRegistry to be used in mobile and web responses
+
+#### Ongoing
+4. Infra & Ongoing Set up monitoring for service class.
+- Add to main ClaimProvider dashboard
+- Set up alerting for anomalies in provider class and datasource service
+
+

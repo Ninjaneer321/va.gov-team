@@ -2,6 +2,114 @@
 
 - Current Sprint first
 
+## 📆 Sprint 7 (Nov 5 - Nov 18) 
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goal summary
+- [ ] **SPRINT GOAL** Review PRs and manage code deployments 11/5 & 11/6
+- [ ] **SPRINT GOAL** 10-10d: Begin Staged Launch of 1010d/10-7959c Merge
+- [ ] **SPRINT GOAL** 10-10d: Add Cypress tests and review RI Environment access
+- [ ] **SPRINT GOAL** 10-10d: Validate VES Submissions with 10-10d v2
+- [ ] **SPRINT GOAL** 10-10d: Add Datadog widget to track 10-10d v2 OHI forms
+- [ ] **SPRINT GOAL** 10-7959a: Update Minimal Headers, and audit review and confirm pages to match SoT
+- [ ] **SPRINT GOAL** 10-7959a: Implement UX updates to confirmation email
+- [ ] **SPRINT GOAL** All forms: Revise Automated Emails to PEGA & confirm no PII
+- [ ] **SPRINT GOAL** All forms: Implement more robust logging, including confirmation email attachment counts
+- [ ] **SPRINT GOAL** UX: 10-10d: Tricare deepdive and edge case discovery
+- [ ] **SPRINT GOAL** UX: 10-7959c: Audit Figma to compare to 10-10d v2 for alignment
+- [ ] **SPRINT GOAL** UX: 10-7959f-2: Kick off Direct Deposit Comprehension Study
+- [ ] **SPRINT GOAL** UX: All forms: Begin Audit of OOUX/CTA for 10-10 and IVC Forms
+- [ ] **SPRINT GOAL** Data: Monthly Medallia Metrics - October 2025
+- [ ] **STRETCH GOAL** 10-7959a: SPIKE to investigate supporting 3+ health insurance policies
+
+
+
+##
+### 10-10d
+- [ ] **SPRINT GOAL** 10-10d: Begin Staged Launch of 1010d/10-7959c Merge
+  - [ ] [[FE] 10-10d/10-7959c: Launch the 10-10d v2 and track progress](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124312)
+- [ ] **SPRINT GOAL** 10-10d: Add Cypress tests and review RI Environment access
+  - [ ] [[FE] 10-10d: Investigate users reporting page loading issues and inability to advance/submit the form](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114586)
+  - [ ] [[FE/QA] 10-10d/10-7959c - Form merge: Add Cypress tests for medium and maximum information scenarios](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123994)
+  - [ ] [[BE] DISCOVERY: 10-10d/10-7959c - Unable to submit form in RI environment](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118852)
+- [ ] **SPRINT GOAL** 10-10d: Add Datadog widget to track 10-10d v2 OHI forms
+  - [ ] [[BE] 10-10d: Add Datadog widget to track OHI forms submitted via 10-10D merged flow (sent to Pega)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123997)
+- [ ] **SPRINT GOAL** 10-10d: Validate VES Submissions with 10-10d v2
+  - [ ] [[QA] 10-10D Extended: Validate VES submissions in preprod](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124068)
+- [ ] **SPRINT GOAL** UX: 10-10d: Tricare deepdive and edge case discovery
+  - [ ] [[UX] 10-10d v2: Tricare/Edge Case Discovery](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124011)
+  
+
+
+##
+### 10-7959a
+- [ ] **SPRINT GOAL** 10-7959a: Update Minimal Headers, and audit review and confirm pages to match SoT
+  - [ ] [[FE] 10-7959a: Align Review and Confirmation Pages with Figma Source of Truth](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123926)
+  - [ ] [[FE] 10-7959a: Update form to use minimal headers](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123470)
+- [ ] **SPRINT GOAL** 10-7959a: Implement UX updates to confirmation email
+  - [ ] [[BE] 10-7959a: Staging - Implement additional UX and Content/IA updates for Confirmation Email](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123990)
+  - [ ] [[BE] 10-7959a: Production - Implement additional UX and Content/IA updates for Confirmation Email](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123993)
+
+     
+
+## 
+### 10-7959c
+- [ ] **SPRINT GOAL** UX: 10-7959c: Audit Figma to compare to 10-10d v2 for alignment
+  - [ ] [[UX] Form 10-7959C: Audit Figma against 10-10D v2 OHI/Medicare flow for alignment with new PDF](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123904)
+
+
+ 
+## 
+### 10-7959f-1 FMP Enrollment
+- No work this sprint
+
+
+##
+### 10-7959f-2 FMP Claims
+- [ ] **SPRINT GOAL** UX: 10-7959f-2: Kick off Direct Deposit Comprehension Study
+  - [ ] [[Research] FMP Claims 10-7959f-2: Kick Off Direct Deposit Comprehension Study](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124000)
+     
+
+
+##
+### All forms or Tech Debt
+- [ ] **SPRINT GOAL** All forms: Revise Automated Emails to PEGA & confirm no PII
+  - [ ] [[BE] All Forms - Monitoring: Revise automated email to Pega for missing status (2-hour trigger & recipients update)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123908)
+  - [ ] [[BE] Remove PII from the payload for emails intended for Pega](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123543)
+ - [ ] **SPRINT GOAL** All forms: Implement more robust logging, including confirmation email attachment counts
+  - [ ] [[BE] Add additional logging for confirmation email attachment counts, etc.](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124114)
+ - [ ] **SPRINT GOAL** UX: All forms: Begin Audit of OOUX/CTA for 10-10 and IVC Forms
+  - [ ] [[UX] Health Apps: OOUX/CTA Audit](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124007)
+- [ ] **SPRINT GOAL** Data: Monthly Medallia Metrics - October 2025
+  - [ ] [[Data] Monthly Metrics Request for Health Apps Team - October 2025](https://github.com/department-of-veterans-affairs/va.gov-team/issues/122389)
+
+## 
+### STRETCH GOALS
+- [ ] **STRETCH GOAL** 10-7959a: SPIKE to investigate supporting 3+ health insurance policies
+  - [ ] [[BE & FE] 10-7959A: Support 3+ health insurance policies by auto-generating additional claim cover sheets (PDF)](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124069)
+
+     
+##
+### WHAT'S NEXT
+- **FE**
+- **UX**
+- [ ] FMP Claims Study Findings and Analysis
+  - [ ] [[Research] FMP Claims 10-7959f-2: Close Out Direct Deposit Comprehension Study](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124003)
+  - [ ] [[Research] FMP Claims 10-7959f-2: Direct Deposit Comprehension Analysis & Findings Report](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124004)
+- **BE**
+- [ ] 10-10d: Implement confirmation email changes
+  - [ ] [[BE] 10-10d/10-7950c Merge: Production - Implement additional UX and Content/IA updates for Confirmation Email](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123987)
+
+
+
+
+##
+### Team PTO
+
+
+
+---
+
 ## 📆 Sprint 6 (Oct 22 - Nov 4) 
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 

@@ -27,6 +27,7 @@
 ### Intro - 5 minutes
 Thanks for joining us today! My name is [Moderator Name] and I'll be moderating. One of my colleagues will be taking notes throughout the session. Today we're going to talk about your experience using your VA patient portal to manage your healthcare online. We will ask you to walk us through how you see what's new in your healht portal, schedule an appointment, and refill medications when you need more. We may jump around through these topics depending on what exists in your medical record. Before we start, I have a few things that I want to go over with you:
 
+- Confirm facility used based on roster.  If an Oregon facility, skip pt 1, ask them to describe how they access, then go straight to pt 2.
 - This session will take about 60 minutes.
 - During this session, we'll be asking you to share your screen which will show your personal health records. Your participation is completely voluntary. You can stop at any time. You can choose to show us one thing but not another - this is your choice. There will be no repercussions on your VA benefits if you want to stop at any point or don't want to share some information with us.
 - Are you comfortable sharing your screen while you navigate your VA health records?
@@ -47,6 +48,8 @@ Thanks for joining us today! My name is [Moderator Name] and I'll be moderating.
 * Can you tell me about the last time you signed in to do something for your care?
   * How was that experience for you?
 * On a scale of 1-5, one being very uncomfortable and 5 being very comfortable, how do generally feel about learning new websites or apps? Probe: What makes you say that? Why x instead of 5 or 1?
+
+* If an Oregon facility: ask them to describe how they access their healthcare portal, then go straight to pt 2.  If NOT an Oregon facility user, proceed to part 1 to determine if solo or hybrid OH user.   
 
 ## Part 1: Production / How participant accesses and manages their healthcare now (20 mins)
 Thanks for answering those questions. I want to transition us to exploring your patient portal together. First I want you to share your screen. Is that something you've done before?
@@ -79,6 +82,8 @@ Prompts if needed:
 
 Okay, thank you so much for showing us how you navigate your health portal and answering those questions, it's really helpful to see how you use it and hear about your experience. Before we move on to the next step, I want to check in: How are you feeling so far? Do you have any questions before we continue?
 
+**MOVE TO PROTOTYPE BY FIRST 15 MIN IF NOT BEFORE**
+
 ## Part 2: Prototype / Reactions to planned tactics (30 mins) 
 
 ### Opening the Figma prototype
@@ -94,17 +99,23 @@ Okay, thank you so much for showing us how you navigate your health portal and a
 
 **Probe:** **Describe** what you see now.  What do you think you can do from here? How does it **compare** to what you expect to find here?
 
+- Do you think you can manage your healthcare tasks from here?
+- Go ahead and sign in.
+- _Participant "signs in" using simulated sign-in in prototype and lands on My VA page._
+- Tell me about what you see now.  What do you think that you can do from here?
+- Do you think that you can complete healthcare tasks here?
+- How comfortable would you be completing healthcare tasks here?
+- How would you know that you can complete healthcare tasks here? How would you expect to learn to go here now?
+- How would you like to learn that you can do healthcare tasks on MHV on VA.gov now?
+- What would make you hesitant to do healthcare tasks here?
+- What would make you comfortable completing healthcare tasks here?
+- What would make you comfortable to switch to doing healthcare tasks here as opposed to My VA Health? 
 
-### Task 1 - Appointments
-Okay looks like you have the prototype open. As a reminder, the back button on this screen will not work as you expect. Instead you'll need to use the prototype back and forth arrows to navigate back or forward a screen. Do you have any questions about that? 
 
-Great! 
 
-Just like you showed me before when we were signed into your patient portal, I'd like you to now use this prototype and show me where you'd go to check on details for an upcoming appointment. Please talk out loud as you click things or read things. It's really helpful to understand your thought process and what's clear to you or confusing. 
+### Task 1 - Appointments (starting on My VA page)
 
-_Participant "signs in" using simulated sign-in in prototype and lands on My VA page._
-
-**Probe:** **Describe** what you see now.  What do you think you can do from here? How does it **compare** to what you expect to find here?
+Speaking of healthcare tasks....
 
 * From here, what would you do to check appointment details for that upcoming appointment? How would you find what time of day that appointment is at?
   * _Does the participant see information in the "upcoming appointment" card on My VA Page? Navigate to My HealtheVet? Other?_
