@@ -19,6 +19,8 @@ description: "A template for moderating research sessions including logistics, i
 `List and complete any project-specific setup tasks for this study below:`
 
 - [ ] Prepare Figma prototype by having link to intro page and subsequent task starts ready
+- [ ] [Mobile](https://www.figma.com/proto/WYZCqWcS2gJWIqLtmQlvl7/FMP-Claim-Cover-Sheet--10-7959f-2-?node-id=6895-4372&p=f&t=3qzO0HtiPndiLhyU-1&scaling=scale-down&content-scaling=fixed&page-id=6895%3A4371&starting-point-node-id=6895%3A4372)
+- [ ] [Desktop](https://www.figma.com/proto/WYZCqWcS2gJWIqLtmQlvl7/FMP-Claim-Cover-Sheet--10-7959f-2-?node-id=6941-5267&p=f&t=dviOYtlT2YZeaJka-0&scaling=min-zoom&content-scaling=fixed&page-id=6941%3A5218&starting-point-node-id=6941%3A5267)
 
 ### Day of the session
 
@@ -81,7 +83,7 @@ Before we look at the website, let’s start with a few warm-up questions.
 
 1. Do you have a service-connected disability at VA?
 - If yes: do you mind sharing what your disability rating is ?
-- Do you receive direct deposit for your monthly compensation payments via direct deposit today?
+- Do you receive direct deposit for your monthly compensation payments today?
 2. Have you ever heard of the Foreign Medical Program through the VA before?
   - If so, are you registered?
   - Can you describe what it is in your own words?
@@ -95,7 +97,7 @@ Before we look at the website, let’s start with a few warm-up questions.
 - I am going to share a link with you to a mobile prototype today. As mentioned, this is a test site and won't function fully.
 - Open the prototype and take a minute to look it over and please remember to think aloud.
 - Based on this page, what would you do next if you were filing your first FMP claim today?
-- [ ] Have participant click anywhere to get to pause screen in prototype before asking the next two questions.
+- [ ] Have participant click on the "Get Started" to get to pause screen in prototype before asking the next two questions.
 - Can you state in your own words what the information and alert on that previous page meant?
 - On a scale of 1-5, 1 being very difficult and 5 being very easy, what would you rate the clarity of information on this first page?
 
@@ -116,7 +118,6 @@ Before we look at the website, let’s start with a few warm-up questions.
 - [ ] From pause screen, click continue to get to static page.
 - Now take a minute to look over this page on direct deposit for the Foreign Medical Program.
 - What are your impressions of this page and your understanding of the content here? Please remember to think aloud.
-- [ ] Have participant click anywhere to get to pause screen before asking the next two questions.
 - Can you state in your own words the process and in what order you would do to set up direct deposit for FMP claims?
 - Same as before, on a scale of 1-5, 1 being very difficult and 5 being very easy, what would you rate the instructions on that previous page?
 - Would you call out anything on this page as being either especially helpful or confusing for you?
@@ -131,7 +132,7 @@ Before we look at the website, let’s start with a few warm-up questions.
 
 
 ## Pause Page - Comparrison Question - 5 minutes
-- You mentioned you receive disability compensation via direct deposit.
+- You mentioned you receive disability compensation via direct deposit. (if they said they receive direct in warm up questions)
 - Now that you've seen both how to set up direct deposit for FMP and what you know about your VA disability compensation setup, do you think the process would be the same or different? Explain your thinking.
 - Would you need to do anything different for FMP claims?
 
@@ -146,10 +147,13 @@ Before we look at the website, let’s start with a few warm-up questions.
 ## Third Task: [FMP Form Flow and Upload] - 10 minutes
 
 - [ ] From static page pause screen, have participant click continue to jump through the form.
-- Now we are going to go back to the form for filing the claim. Imagine that you have navigated through pages that ask you to confirm you basic information and then you arrive here. 
-- Navigate through the prototype now focusing on the content and instructions. After each section (basic info, bank details, upload, review), pause and tell me: 
+- Now we are going to go back to the form for filing the claim.
+- Imagine that you have navigated through mid-way through the form and that you have already confirmed you basic information and then you arrive here. 
+- Navigate through the prototype now focusing on the content and instructions.
 1. What was that section asking you to do?
 2. Anything unclear?
+
+   
 - [ ] Pause before starting upload screens
 - Before moving on, can you explain your understanding of the content on that previous page?
 - [ ] Upload screens
@@ -163,7 +167,7 @@ Before we look at the website, let’s start with a few warm-up questions.
 
 
 
-## Third Task: [Confirmation Page] - 10 minutes
+## Fourth Task: [Confirmation Page] - 10 minutes
 
 
 - [ ] Participant arrives at Confirmation Page in the Figma prototype
@@ -178,12 +182,12 @@ Before we look at the website, let’s start with a few warm-up questions.
 
 
 
-## Forth Task: [Content Comprehension and Mental Model] - 10 minutes
+## Fifth Task: [Content Comprehension and Mental Model] - 10 minutes
 
 - What's your understanding on how the direct deposit process for FMP claims works now that you have gone thorugh this prototype?
 - What would be one thing that you would change to make it better for you about the current direct deposit process as you understand it?
 
-- Think about having to contact FSC to set up direct deposit for FMP. What are your thoughts about that extra step?
+- Think about having to contact the VA to set up direct deposit for FMP. What are your thoughts about that extra step?
 - Did anything about the direct deposit process feel confusing, complicated, or like it might cause you to not file your claim online?
 - What would make you confident that your reimbursement would actually get to your bank account once you file?
 

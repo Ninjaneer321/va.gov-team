@@ -6,7 +6,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 
 ---
 
-## Quarterly Priorities for FY26Q1 (October, November, December 2025)  
+## Quarterly Priorities for FY26Q1 (October, November, December 2025) 
 *Quarter Sprints include 19, 20, 21, 22, 23, 24, 25*
     
 **Primary Goals (May shift based on stretch goal dependencies)**
@@ -51,10 +51,10 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 ## Sprint Goals - Sprint: 20 [10/22/25 - 11/4/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Work with Perigean on recruitment for Payment History pre-launch validation research sessions.| QP3 |--|--|--|
-|UX/ENG: Prepare Staging Review artifacts (12 tix) for Payment History.| QP3 |--|--|--|
-|ENG: Pending Launch of One Thing Per Page - Ramp up the exposure %, Monitor for issues or errors, address any issues.| QP2 |--|--|--|
-|ENG: Complete final ENG Payment History coding and review the final implementation between UX/ENG.| QP3 |--|--|--|
+|UX: Work with Perigean on recruitment for Payment History pre-launch validation research sessions.| QP3 |BLOCKED by government shutdown​|--| Incomplete |
+|UX/ENG: Prepare Staging Review artifacts (12 tix) for Payment History.| QP3 |BLOCKED by government shutdown​|--|Incomplete|
+|ENG: Pending Launch of One Thing Per Page - Ramp up the exposure %, Monitor for issues or errors, address any issues.| QP2 |BLOCKED by government shutdown​|--|Incomplete|
+|ENG: Complete final ENG Payment History coding and review the final implementation between UX/ENG.| QP3 |BE is still completing the Lighthouse integration work|--|Incomplete|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (09/30/25)
@@ -63,8 +63,9 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
  - [X] VA COR approved the Sprint Goals (09/30/25)
  
 **_Delivery + Notes:_**
-- [ ] All goals have been updated in the sprint chart
-- [ ] Any Additional details about goals **not** completed will be documented here
+- [X] All goals have been updated in the sprint chart
+- [X] Any Additional details about goals **not** completed will be documented here
+- For goal: ENG: Complete final ENG Payment History coding and review the final implementation between UX/ENG.- Production API credententials (needed from Lighthouse team) are required to complete this goal. Due to the shutdown, production access has been restricted.
 
 ## Sprint Goals - Sprint: 21 [11/5/25 - 11/18/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
