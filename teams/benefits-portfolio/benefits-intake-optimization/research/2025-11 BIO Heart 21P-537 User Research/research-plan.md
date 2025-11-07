@@ -1,3 +1,117 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Benefits Intake Optimization, Form 21P-537 Online Version, November 2025"
+date: 2025-11-07
+last_updated: 2025-11-07
+team: "Benefits Intake Optimization"
+product: "Form 21P-537 (Marital Status Questionnaire) Online Version"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Form 21P-537 is currently a paper-only form that VA sends to surviving spouses receiving pension benefits to verify marital status. The current process creates confusion, delays, and potential benefit terminations due to unexpected mailings, limited guidance, paper processing delays, and missed deadlines."
+  product_location: "Authenticated experience on VA.gov, accessible through My VA dashboard, Pension and Survivor Benefits section, direct links in VA communications, and VA Form Finder"
+  user_familiarity: "New product - while the paper form exists, there is currently no online version"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/benefits-portfolio/benefits-intake-optimization/bio-team-readme.md"
+
+# Research Design
+methodology: "Semi-structured interviews combined with usability concept testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand the current experience with Form 21P-537 - how surviving spouses receive, interpret, complete, and track outcomes"
+  - goal_2: "Identify knowledge gaps about marital status requirements, remarriage rules, reinstatement eligibility, and documentation needs"
+  - goal_3: "Evaluate the value proposition of an online version and understand submission method preferences"
+
+research_questions:
+  - "How do surviving spouses receive and initially react to the form?"
+  - "What challenges do they encounter when completing and submitting it?"
+  - "What do surviving spouses understand about why they're receiving this form and how remarriage affects their benefits?"
+  - "Are they aware that benefits may be reinstated if a remarriage ends?"
+  - "Would an online option be helpful, and for whom?"
+
+hypotheses:
+  - "The form creates confusion or anxiety - surviving spouses don't anticipate receiving Form 21P-537 and don't fully understand its purpose"
+  - "Knowledge gaps prevent optimal benefit utilization - many surviving spouses don't understand the full impact of remarriage on benefits or reinstatement eligibility"
+  - "Digital preferences vary by user characteristics - an online version will be valuable for digitally comfortable surviving spouses but may not be preferred by those less comfortable with technology"
+
+expected_outcomes: "This research will help design better content and information architecture, make informed decisions about features and submission methods, and identify success metrics based on what matters most to surviving spouses"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Lean maximum variation with 3 cohorts based on marital status scenarios"
+  
+  primary_criteria:
+    - "Currently receiving VA survivor benefits (Survivors Pension or DIC)"
+    - "Experience with Form 21P-537 or marital status verification in the past 2 years"
+    - "Distribution across 3 marital status cohorts: not remarried (4), remarried and currently married (3), remarried with marriage ended (3)"
+    - "Digital literacy diversity: at least 4 very comfortable, 4 somewhat comfortable, and 3 not very comfortable with online forms"
+    
+  secondary_criteria:
+    - "At least 3 participants who have worked with VSO or county veterans office"
+    - "At least 3 participants who typically navigate VA benefits independently"
+    - "Geographic diversity from at least 3 different states including urban, suburban, and rural locations"
+    - "At least 2 participants who report cognitive challenges"
+    - "Mix of those who regularly use VA.gov and those who primarily use paper mail or phone"
+    
+  screener_questions:
+    - question: "Are you currently receiving OR have you previously received VA pension benefits as a surviving spouse? This includes Survivors Pension or Dependency and Indemnity Compensation (DIC)."
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 10
+  total_recruited: 15
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "A6 team participant"
+  research_dates: "2025-11-17 to 2025-11-21"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results: 
+      - "Improve satisfaction with our web and mobile products by 5 points"
+      - "100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
+      
+veteran_journey_phases:
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "TBD"
+    
+tags:
+  - "survivor-benefits"
+  - "pension"
+  - "semi-structured-interviews"
+  - "usability-testing"
+  - "surviving-spouses"
+  - "form-21p-537"
+  - "authenticated-experience"
+---
+
 ## **Background**
 
 **What problem is your product trying to solve?**
@@ -43,7 +157,7 @@ However, we need to understand:
 
 [Link to product brief URL](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/benefits-portfolio/benefits-intake-optimization/bio-team-readme.md)
 
-### [**OCTO-DE Priorities**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO-DE Priorities 2025.md)
+### [**OCTO-DE Priorities**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO-DE%20Priorities%202025.md)
 
 Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits.
 
@@ -55,7 +169,7 @@ Objective 1: VA's digital experiences are the easiest and most efficient way to 
 
 - *An online form will provide immediate confirmation of submission and clearer error handling compared to the current paper process.*
 
-### [**Veteran Journey**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran Journey Map.pdf)
+### [**Veteran Journey**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/508%20compliant%20Journey%20Map.md)
 
 *Where does your product fit into the Veteran journey? Are there moments that matter?*
 
