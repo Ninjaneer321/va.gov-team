@@ -1,6 +1,6 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for Disability Benefits Crew - Condition Team, 526EZ Conditions step, October 2025"
+title: "Research plan: 2025-10 Supplemental claims design direction"
 date: 2025-11-07
 last_updated: 2025-11-07
 team: "Disability Benefits Crew - Condition Team"
@@ -33,19 +33,24 @@ research_goals:
 research_questions:
   - "Is one design easier to navigate and understand than the others?"
   - "How well does each design communicate eligibility for supplemental claims?"
-  - "How easy is it for users to add a supplemental condition?"
-  - "Are usability issues introduced for standard disability claims?"
-  - "How do Veterans react to seeing denied conditions?"
-  - "Does the number of options cause fatigue or overwhelm?"
-  - "Does the design introduce confusion or impact claim outcomes?"
-  - "Which design is perceived as easiest or most supportive?"
-  - "Does the prototype help Veterans understand evidentiary requirements for supplemental claims?"
-  - "Do Veterans understand the difference between increase claims and supplemental claims?"
-
-hypotheses:
-  - "Veterans will prefer design directions with clear distinction and grouping of denied/granted conditions."
-  - "Veterans may be confused by unfamiliar terminology (appeal, supplemental, service-connected, secondary)."
-  - "Clustering, tiles, and labeling changes may improve navigation and clarity or, if poorly executed, may increase confusion."
+  - "How easy is it for users to add a supplemental condition to their claim?"
+  - "Are there any usability problems introduced by the new design that might affect Veterans’ ability to file a new or increase claim?"
+  - "How do Veterans react to seeing a list of conditions that have been denied?"
+  - "Do Veterans experience form fatigue or get overwhelmed by the number of options?"
+  - "Does the design create confusion, especially in areas which could negatively impact the outcome of their claim??"
+  - "Which design is perceived by Veterans as easier to use or more supportive?"
+  - "Does the prototype help Veterans understand the basic evidentiary requirements for supplemental claims?"
+  - "For “CFI distinction,” do Veterans understand the difference between filing a claim for increase versus a supplemental claim?"
+  - "How are conditions and their various statuses (particularly in relation to the VA) perceived?"
+  - "How do Veterans think about conditions that have been granted v. those that have been denied? What about conditions that were granted at 0%?"
+  - "How do Veterans think about their conditions in terms of causality and relation to military service (e.g. service connection, presumption)? Do Veterans think of secondary conditions differently from conditions that are directly service-connected or aggravated?"
+  - "Is there a perceived order to which order claims should be filed, and if yes, what is that order and what are its origins?"
+  - "How do Veterans think about challenging a VA decision? What words do they use?"
+  - "What is the effect of clustering the conditions list with subheads?"
+  - "What are the advantages and disadvantages of using tiles instead of radio buttons on the “Add a condition” screen?"
+  - "Are Veterans familiar with the concept of a secondary condition?"
+  - "Are Veterans familiar with the term “secondary condition”?"
+  - "How would a Veteran add a secondary condition to their claim?"
 
 expected_outcomes: "Findings will guide selection of the primary design direction, optimize Veterans' experience filing supplemental claims, clarify content and language, and identify risks impacting usability or equity for diverse groups."
 
@@ -55,17 +60,31 @@ recruitment:
   approach: "Lean maximum variation sampling"
   
   primary_criteria:
-    - "Have filed a disability claim within the last 15 years"
-    - "Have filed an appeal to a disability decision"
-    - "Have experience helping other Veterans file disability claims"
+    - "Have filed a disability claim within the last 15 years AND have never appealed a disability decision (recruit 5)"
+    - "Have filed a disability claim within the last 15 years AND have previously filed an appeal to a disability decision (recruit 3)"
+    - "Have never filed a disability claim (recruit 2)"
+    - "Have experience helping other Veterans file disability claims (recruit 3)"
+
+  primary_demographic_criteria:
+    - Education_level:
+      - At least 6 with education level of Elementary/Intermediate/GED/High School
+      - No more than 3 with Masters/Professional/Doctoral
+    - Gender:
+      - At least 3 with gender other than Male
+    - Race:
+      - At least 2 with Asian, Native, American Indian or Alaska Native
+      - At least 5 with Black or African American, Hispanic, Latino, or Spanish origin, or Biracial
+    - Age:
+      - At least 5 who are 34 or younger
+      - At least 4 who are 55+
 
   secondary_criteria:
-    - "Identify as LGBTQ+"
-    - "Discharge other than honorable"
+    - "At least 2 who identify as Gay, lesbian, or bisexual, Transgender, Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman"
+    - "At least 2 who have discharge other than honorable"
     
   screener_questions:
     - question: "Have you filed a disability claim with VA in the last 15 years?"
-      qualifying_response: "Yes"
+      qualifying_response: "Yes/No"
     - question: "Have you ever appealed a decision the VA made on your disability claim?"
       qualifying_response: "Yes/No"
     - question: "Do you help other Veterans with their disability claims (volunteer/professional)?"
@@ -74,11 +93,11 @@ recruitment:
       qualifying_response: "Free text"
       
 participants:
-  veterans: 14
+  veterans: 13
   caregivers: 0
   dependents: 0
-  total_recruited: 14
-  completed_sessions_goal: 14
+  total_recruited: 13
+  completed_sessions_goal: 9
   
 # Timeline & Sessions
 timeline:
@@ -108,14 +127,19 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/issues/115464"
     
 tags:
-  - "authenticated"
-  - "usability-testing"
-  - "veteran"
-  - "disability-claims"
-  - "design-iteration"
+  - "BNFT: Disability"
+  - "DSC: Form - Radio Button"
+  - "DSC: Experimental"
+  - "DSP: Ask users for dates"
+  - "DSP: Ask users for multiple responses"
+  - "RESRCH: Concept Testing"
+  - "RESRCH: Generative (Discovery)"
+  - "RESRCH: Interviews"
+  - "RESRCH: Usability Testing"
+  - "Veteran Journeys: Taking Care Of Themselves"
 ---
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-	# Research Plan for Disability Benefits Crew - Condition Team, 526EZ Conditions step, October 2025
+	# Research Plan for Disability Benefits Crew - Condition Team, Supplemental Claim design directions, October 2025
 
 ---
 
@@ -267,6 +291,8 @@ Sessions will be conducted remotely, over Zoom. Participants can join from a com
 
 # Recruitment 🎯
 
+**Recruit 13 participants for a completed sessions goal of 9.**
+
 We’ll recruit Veterans across the following categories:
 
 * Have previously filed a disability claim of any type  
@@ -282,7 +308,7 @@ In terms of Veteran backgrounds, we’ll try for a balanced group across demogra
 | Cohorts | Recruit \# |
 | :---- | :---- |
 | 1\) Have filed a disability claim within the last 15 years AND have never appealed a disability decision | 5 |
-| 2\) Have filed a disability claim within the last 15 years AND have previously filed an appeal to a disability decision | 4 |
+| 2\) Have filed a disability claim within the last 15 years AND have previously filed an appeal to a disability decision | 3 |
 | 3\) Have never filed a disability claim | 2 |
 | 4\) Have experience helping other Veterans file disability claims (2) | 3 |
 | **Total** | **14** |
@@ -293,7 +319,7 @@ In terms of Veteran backgrounds, we’ll try for a balanced group across demogra
 
 Education level:
 
-- At least 6 with education level of Elementary/Intermediate/GED/High School  
+- At least 5 with education level of Elementary/Intermediate/GED/High School  
 - No more than 3 with Masters/Professional/Doctoral
 
 Gender:
@@ -303,11 +329,11 @@ Gender:
 Race:
 
 - At least 2 with Asian, Native, American Indian or Alaska Native  
-- At least 5 with Black or African American, Hispanic, Latino, or Spanish origin, or Biracial
+- At least 4 with Black or African American, Hispanic, Latino, or Spanish origin, or Biracial
 
 Age:
 
-- At least 5 who are 34 or younger  
+- At least 4 who are 34 or younger  
 - At least 4 who are 55+
 
 ### Secondary criteria (nice-to-haves)

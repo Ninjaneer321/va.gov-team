@@ -1,11 +1,27 @@
 ---
-Is there front matter we need to add?
+title: "Conversation Guide for Disability Benefits Crew - Condition Team, Supplemental Claim design directions, October 2025"
+author: "Kim Ladin, Madeline Fritz"
+date_created: "2025-10-22"
+last_modified: "2025-11-07"
+tags:
+  - "BNFT: Disability"
+  - "DSC: Form - Radio Button"
+  - "DSC: Experimental"
+  - "DSP: Ask users for dates"
+  - "DSP: Ask users for multiple responses"
+  - "RESRCH: Concept Testing"
+  - "RESRCH: Generative (Discovery)"
+  - "RESRCH: Interviews"
+  - "RESRCH: Usability Testing"
+  - "Veteran Journeys: Taking Care Of Themselves"
+description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+---
 
--------------------------------------------------------------------------------------------------------------------
-# Conversation Guide for [initiative]
+# Conversation Guide: 2025-10 Supplemental claims design direction
 
 ## Moderator logistics 📋✅
 [Link to prototype](https://docs.google.com/document/d/1NKvlFeVIhA6MLjQSHvG2ydZStfF_JaIesNpB0y_65V8/edit?tab=t.0#heading=h.dplkj8rblxka)
+
 [Link to research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Research%20Plan%20-%202025-10-Supplemental-Claim.md)
 ### Day of the session
 
