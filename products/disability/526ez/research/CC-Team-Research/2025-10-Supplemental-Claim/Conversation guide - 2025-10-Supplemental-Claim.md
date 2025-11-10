@@ -14,18 +14,18 @@ tags:
   - "RESRCH: Interviews"
   - "RESRCH: Usability Testing"
   - "Veteran Journeys: Taking Care Of Themselves"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+description: "A script and session outline for conducting prototype testing with a focus on Veterans' experiences with disability benefits and filing Supplemental Claims. It includes step-by-step moderator instructions, consent language, discussion prompts about claims experiences, walkthroughs for interactive prototype scenarios, and post-session debrief questions. The guide helps ensure standardized data collection about user interactions, perceptions, and pain points as participants interact with design concepts for VA.gov disability claim workflows."
 ---
 
 # Conversation Guide: 2025-10 Supplemental claims design direction
 
 ## Moderator logistics 📋✅
-[Link to prototype](https://docs.google.com/document/d/1NKvlFeVIhA6MLjQSHvG2ydZStfF_JaIesNpB0y_65V8/edit?tab=t.0#heading=h.dplkj8rblxka)
+[Link to prototype](https://www.figma.com/proto/P6IUm8gN00H3Yi1XzN80fj/-526ez--Condition-information-entry?page-id=6174%3A18589&node-id=6524-47192&viewport=653%2C-7741%2C0.75&t=UWlAy6DgYnnYEKOL-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6524%3A47192&show-proto-sidebar=1)
 
 [Link to research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Research%20Plan%20-%202025-10-Supplemental-Claim.md)
 ### Day of the session
 
-* Use [\#feedback-backchannel](https://dsva.slack.com/messages/C40B45NJK/details/) in Slack for real-time feedback from observers.  
+* Use [\#feedback-backchannel](https://dsva.slack.com/archives/feedback-backchannel) in Slack for real-time feedback from observers.  
 * Mute your Slack notifications.  
 * Send out the [observer instructions](https://depo-platform-documentation.scrollhelp.site/research-design/Observer-guidelines.1622311177.html) to your observers (Slackbot will do this for you if you type "observer instructions" into [\#feedback-backchannel](https://dsva.slack.com/channels/feedback-backchannel)).
 
@@ -40,7 +40,7 @@ description: "A template for moderating research sessions including logistics, i
 
 Thanks for joining us today\! My name is \_\_\_\_\_\_\_ and \_\_\_\_\_\_\_\_ is taking notes. I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them...
 
-My colleagues and I work on va.gov, improving the site so that Veterans can submit claims and get benefits as quickly as possible. We hope to improve the process by talking to veterans like you.
+My colleagues and I work on va.gov, improving the site so that Veterans can submit claims and get benefits as quickly as possible. We hope to improve the process by talking to Veterans like you.
 
 Before we start, I have a few things to go over with you:
 
@@ -77,11 +77,11 @@ Before we start, I have a few things to go over with you:
 
 Let’s get started. I’d like to hear about your experience getting disability benefits. Since we might touch on some parts of your health situation, please know that you don’t need to talk about any topics you don’t want to. I’m most interested in hearing about your experience with the VA disability benefits process itself.
 
-Have you ever filed for disability benefits?  
-About how many times?  
-And how many disabilities has the VA approved?  
-Can you tell me what some of those are?  
-What’s your overall disability percent?
+* Have you ever filed for disability benefits?  
+* About how many times?  
+* And how many disabilities has the VA approved?  
+* Can you tell me what some of those are?  
+* What’s your overall disability percent?
 
 ## Most recent experience
 
@@ -140,13 +140,13 @@ Do you have any conditions that are rated at 0%?
 It sounds like most of the disabilities you have with VA were caused directly by something that happened while you were in service. But sometimes an injury or illness you got while in service can later cause a whole different health condition. For example, maybe you injured your knee while you were in service. And years later, you’ve been overcompensating for that bad knee and now you’re starting to have back problems.  
 So it’s like an indirect cause, but it’s still because of your military service. 
 
-Have you ever had a situation like that? Have you ever heard of it?   
-Do you happen to know how the VA refers to this situation?
+* Have you ever had a situation like that? Have you ever heard of it?   
+* Do you happen to know how the VA refers to this situation?
 
 ## Claims for increase (if there’s time)
 
 Have you ever asked the VA to give you a higher rating on a disability they’d already granted?  
-Tell me about that
+Tell me about that.
 
 Great, thank you for sharing your experiences with me. One more question…
 
@@ -178,7 +178,6 @@ We’re going to show you two prototypes for designs that we’re working on.
 I’m going to put a link to the prototype in the Zoom chat. You can navigate to open that link. Once you have that open, please share your screen so we can see what you’re doing.
 
 * Wait for screen sharing to work.  
-* For JAWS screen reader users \- You will want to hit Alt S to share your screen with us.
 
 For this scenario, imagine that you have a few different health conditions that you want disability benefits for, and you’ve come to the VA website today to apply. As you click through this prototype, you’ll notice there’s dummy data in here for an imaginary Veteran. This imaginary Veteran is already receiving disability benefits for a few conditions. Their data doesn’t match yours, but I’d like you to imagine that you really are this person and tell us what you would do as if this were your real situation.
 
@@ -189,7 +188,7 @@ As you use the prototype, please verbalize your thoughts out loud so we can unde
 Have you heard of the PACT Act?
 
 * *If no, provide this background first:*  
-  * The PACT Act is a new that made a bunch of new health conditions eligible for disability benefits, so that if you were exposed to burn pits or agent orange and you now have certain conditions, the VA will just presume that condition was caused by your military service and they’ll approve your benefits.  
+  * The PACT Act is a new law that made a bunch of new health conditions eligible for disability benefits, so that if you were exposed to burn pits or Agent Orange and you now have certain conditions, the VA will just presume that condition was caused by your military service and they’ll approve your benefits.  
 * Let’s pretend you applied for disability benefits for asthma about 5 years ago, but the VA turned down your request because they didn’t think it was caused by your military service. But since the PACT Act was passed, you’ve learned that asthma is now a presumptive condition and they should give you benefits for it. 
 
 ➡️ Instruct Veteran to click on either Apple or Banana
@@ -200,7 +199,7 @@ When you get to this screen, you’ve already logged in and started your benefit
 
 ### 🍎 Apple Task 1: Appeal a denied condition (Asthma)
 
-For this first scenario, you’re going to re-apply for asthma, which the VA denied when you applied 5 years ago. Since the PACT act became law, you think the VA should change its decision.
+For this first scenario, you’re going to re-apply for asthma, which the VA denied when you applied 5 years ago. Since the PACT Act became law, you think the VA should change its decision.
 
 ##### Intro screen
 
@@ -241,7 +240,7 @@ Let’s say one of the conditions you are already getting benefits for has gotte
 
 ##### Add a condition screen
 
-Before you click on anything, I want to ask you some questions in this screen.
+Before you click on anything, I want to ask you some questions on this screen.
 
 * \[question from walkthrough\] Where do you think this list of options came from?  
 * What do you think about how they’re organized?  
@@ -253,7 +252,7 @@ Before you click on anything, I want to ask you some questions in this screen.
 ##### Date worsened screen
 
 * What would you do on this screen?  
-* *Instruct Veteran to enter Oct 1 2025\.*
+* *Instruct Veteran to click on date field to populate with October 1, 2025.*
 
 ##### Review your conditions screen(s)
 
@@ -270,7 +269,7 @@ Before you click on anything, I want to ask you some questions in this screen.
 
 ##### Add a condition screen
 
-Before you click on anything, I want to ask you some questions in this screen.
+Before you click on anything, I want to ask you some questions on this screen.
 
 * Is there anything you notice that has changed since the first time you saw this screen?  
 * *(If they notice that some conditions have disappeared):*  
@@ -284,21 +283,21 @@ Now let’s add one more condition. This scenario is a little more complicated.
 
 Imagine that about a year ago, you filed a claim for Migraines. VA approved it and gave you a 10% rating. But you believe they should have given you a higher rating, and you want the VA to reconsider their 10% decision. You went back to your employer and got them to write a letter about how many times you had to miss work because of your migraines, going all the way back to when you filed that claim a year ago. This letter should help prove that your migraines were more severe than the VA rating percent.
 
-Do you have any questions about this scenario?  
-What do you think your options would be to ask the VA to reconsider their 10% rating decision?
+* Do you have any questions about this scenario?  
+* What do you think your options would be to ask the VA to reconsider their 10% rating decision?
 
 OK, looking at the screen now, what would you do?
 
 * What would you expect to happen next?  
 * Go ahead and click Continue
 
-##### Date worsened screen**
+##### Date worsened screen
 
 * Is this what you expected to see?  
 * What would you do on this screen?  
 * What date would you enter?  
 * Let’s say you first applied for migraines in November of 2024, about a year ago. And the VA made their decision in January of 2025\.  
-* *Instruct Veteran to enter November 1 2024\.*  
+* *Instruct Veteran to click on date field to populate with November 1, 2024.*
 * Go ahead and click Continue.
 
 ##### Review your conditions screen(s)
@@ -319,13 +318,13 @@ OK, we’re now going to switch to the other prototype. We’ll walk through the
 
 *If necessary, prompt participant to click the Continue button to get to End of Prototype screen.*
 
-➡️ Instruct Veteran to click on either Apple or Banana
+➡️ Instruct Veteran to click on either Apple or Banana, selecting whichever prototype they didn't start with
 
 ## 🍌 Prototype Banana (10-15 min)
 
 ### 🍌 Banana Task 1: Appeal a denied condition (Asthma)
 
-For this first scenario, you’re going to re-apply for asthma, which the VA denied when you applied 5 years ago. Since the PACT act became law, you think the VA should change its decision.
+For this first scenario, you’re going to re-apply for asthma, which the VA denied when you applied 5 years ago. Since the PACT Act became law, you think the VA should change its decision.
 
 ##### Intro screen
 
@@ -368,18 +367,18 @@ Let’s say one of the conditions you are already getting benefits for has gotte
 
 * How would you do that?  
 * What do you expect to happen if you click Yes and then Continue?  
-* OK, go ahead and click
+* OK, go ahead and click.
 
 ##### Add a condition screen
 
-Before you click on anything, I want to ask you some questions in this screen.
+Before you click on anything, I want to ask you some questions on this screen.
 
 * \[question from walkthrough\] Where do you think this list of options came from?  
 * What do you think about how they’re organized?  
 * On this screen, can you tell me which things the VA is already giving you benefits for?  
 * OK, back to the scenario. Imagine that you visited your doctor last month, and they told you your hypertension has gotten worse. You want to try for a higher rating. What would you do?  
 * What do you expect to happen next?  
-* OK, go ahead and click Continue
+* OK, go ahead and click Continue.
 
 ##### Rated condition follow-up screen
 
@@ -395,7 +394,7 @@ Before you click on anything, I want to ask you some questions in this screen.
 
 * What would you do on this screen?  
 * If you saw your doctor in early October, and that’s when you heard your hypertension had gotten worse….  
-* *Instruct Veteran to enter Oct 1 2025/click on field for date in case the field doesn’t work.*
+* *Instruct Veteran to click on date field to populate with October 1, 2025.*
 
 ##### Review your conditions screen(s)
 
@@ -422,8 +421,6 @@ Before you click on anything, I want to ask you some questions in this screen.
 
 ### 🍌 Banana Task 3: Appeal a rated condition (Migraines)
 
-OK, let’s add one more health issue. Go ahead and click Yes then Continue.
-
 ##### Review your conditions screen(s) (continued from task 2\)
 
 * I’m going to ask you to add one more thing.  
@@ -445,8 +442,8 @@ Now let’s add one more condition. This scenario is a little more complicated.
 
 Imagine that about a year ago, you filed a claim for Migraines. VA approved it and gave you a 10% rating. But you believe they should have given you a higher rating, and you want the VA to reconsider their 10% decision. You went back to your employer and got them to write a letter about how many times you had to miss work because of your migraines, going all the way back to when you filed that claim a year ago. This letter should help prove that your migraines were more severe than the VA rating percent.
 
-Do you have any questions about this scenario?  
-What do you think your options would be to ask the VA to reconsider their 10% rating decision?
+* Do you have any questions about this scenario?  
+* What do you think your options would be to ask the VA to reconsider their 10% rating decision?
 
 OK, looking at the screen now, what would you do?
 
@@ -484,8 +481,8 @@ OK, looking at the screen now, what would you do?
 * Is this what you expected to see?  
 * What would you do on this screen?  
 * What date would you enter?  
-* Let’s say you first applied for migraines in November of 2024, about a year ago. And the VA made their decision in January of 2025\.  
-* *Instruct Veteran to enter November 1 2024\.*  
+* Let’s say you first applied for migraines in November of 2024, about a year ago. And the VA made their decision in January of 2025.  
+* *Instruct Veteran to click on date field to populate with November 1, 2024.*
 * Go ahead and click Continue.
 
 ##### Review your conditions screen(s)
@@ -496,7 +493,7 @@ OK, looking at the screen now, what would you do?
 
 ### 🍌 Banana Rating
 
-Great\! Thank you for walking through those different scenarios with me. I’d like you to rate this prototype for ease-of-use on a scale of 1 to 4, where 1 is not at all easy, and 4 is very easy.
+Great! Thank you for walking through those different scenarios with me. I’d like you to rate this prototype for ease-of-use on a scale of 1 to 4, where 1 is not at all easy, and 4 is very easy.
 
 # Compare prototypes
 
@@ -513,12 +510,12 @@ What other differences did you notice between them?
 
 ## Challenges and surprises
 
-What would you say was the most challenging part of this process?  
-Was there anything surprising or unexpected as you went through these prototypes?
+* What would you say was the most challenging part of this process?  
+* Was there anything surprising or unexpected as you went through these prototypes?
 
 ## Supplemental claims
 
-* Before this session, had you heard the term “Supplemental claim” before?  
+* Before this session, had you heard the term “Supplemental Claim” before?  
 * Now that you’ve done this, could you explain to me in your own words what a Supplemental Claim is?
 
 ## Secondary conditions
@@ -549,7 +546,6 @@ Thank you so much again, and enjoy the rest of your day\!
 
 In the rare case of an emergency during a session, be prepared with an [emergency exit strategy](https://depo-platform-documentation.scrollhelp.site/research-design/Research-Safety-and-Emergency-Exit-Strategies.2143649793.html#ResearchSafetyandEmergencyExitStrategies-Sampleexitstrategies). \*\*Plan to include here at least one option, so its easy to find during a session. Take some time to practice so it feels more comfortable.\*\*
 
-- 
-
+- Out of questions: We have covered all the questions I have for you today. Thank you so much for your time and feedback.
 
 

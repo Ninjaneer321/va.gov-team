@@ -286,7 +286,7 @@ Sessions will be conducted remotely, over Zoom. Participants can join from a com
 
 ## Research materials 📔
 
-- [Link to conversation guide](https://docs.google.com/document/d/1NKvlFeVIhA6MLjQSHvG2ydZStfF_JaIesNpB0y_65V8/edit?tab=t.0#heading=h.dplkj8rblxka)  
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Conversation%20guide%20-%202025-10-Supplemental-Claim.md)  
 - [Link to prototype](https://www.figma.com/proto/P6IUm8gN00H3Yi1XzN80fj/-526ez--Condition-information-entry?page-id=6174%3A18589&node-id=6524-47192&viewport=653%2C-7741%2C0.75&t=UWlAy6DgYnnYEKOL-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6524%3A47192&show-proto-sidebar=1)
 
 # Recruitment 🎯
@@ -311,7 +311,7 @@ In terms of Veteran backgrounds, we’ll try for a balanced group across demogra
 | 2\) Have filed a disability claim within the last 15 years AND have previously filed an appeal to a disability decision | 3 |
 | 3\) Have never filed a disability claim | 2 |
 | 4\) Have experience helping other Veterans file disability claims (2) | 3 |
-| **Total** | **14** |
+| **Total** | **13** |
 
 #### 
 
@@ -369,7 +369,8 @@ Discharge:
 
 ### Prepare
 
-\[\!NOTE\] Send pilot participant email in study Slack channel
+>[!NOTE]
+>Send pilot participant email in study Slack channel
 
 * Pilot participant name: TBD  
 * Date and time of pilot session: TBD
@@ -443,8 +444,8 @@ Please list the names of people in each role. In the Slack study channel, send a
 
 - Moderator: Kim Ladin, Madeline Fritz  
 - Research guide writing and task development (usually but not always same as moderator): Kim Ladin, Madeline Fritz  
-- Participant recruiting & screening:	\[Enter full name\]  
-- Project point of contact: \[Enter full name\]  
+- Participant recruiting & screening: Perigean
+- Project point of contact: Kim Ladin, Madeline Fritz
 - Accessibility specialist (for sessions where support for assistive technology may be needed): N/A  
 - Note-takers: Kim Ladin, Madeline Fritz  
 - Observers: We'll invite observers to specific sessions based on our observer sign-up sheet
