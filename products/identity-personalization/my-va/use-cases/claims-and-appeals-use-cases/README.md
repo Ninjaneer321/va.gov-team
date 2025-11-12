@@ -1,6 +1,6 @@
 # My VA: Claims and appeals use cases
 
-**Last updated: May 2025**
+**Last updated: November 2025**
 
 - [User flow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1746474542228/c397457f63aa34d09dee9f34d785af90cd3b8b96?wid=36-1746474575795&outline=open)
 - [Figma files](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5294-36867&t=KhCgIDPMpZ6FClDG-1)
@@ -19,7 +19,7 @@
 ## Phase 1, 3.0 experience
 - For all of these use cases, the user must be LOA3 (identity verified). If the user is not LOA3, the user will see the [LOA1 experience](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/use-cases/LOA1-use-cases).
 - This feature highlights a users in progress claims and appeals, their disability rating, and a link to access all their claims and appeals.
-   - A claim card, that provides a status update on any open or recently closed claims, and links to the claimc details. Cards only display for up to 60 days after they are "Complete", after that they are removed. Only 1 card shows at a time, and is the most recent update.
+   - A claim card, that provides a status update on any open or recently closed claims, and links to the claim details. Cards only display for up to 60 days after they are "Complete", after that they are removed. Only 1 card shows at a time, and is the most recent update.
    - Link to claims tracker to manage all claims and appeals.
    - Disability rating card, that provides the Veteran with their combined disabilty rating, and a link to the disability rating page.
 - Use cases for when a user does not have all available information are outlined below.
@@ -101,9 +101,9 @@ There are no flags with this feature.
 
 ### Errors
 
-<details><summary>The claims API is down and we can’t display some claims information</summary>
+<details><summary>Claims API down</summary>
   
-- **Use case:** If an LOA3 user logs in and there is an error with the claims API, then we will not be able to show a card for any recent claim updates. A link to go to the claims tracker still shows in the section.
+- **Use case:** If an LOA3 user logs in when only /benefits_claims is down the user will see the claims alert and highlighted appeal (if one exists) A link to go to the claims tracker still shows in the section.
 - **Status code:** TBD
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5074-19242&t=yjkBCJLUxO0o87bU-1)
@@ -115,9 +115,9 @@ We can't show some of your claims information right now. Refresh this page or tr
 </details>
 
 
-<details><summary>The appeals API is down and we can’t display some appeals information</summary>
+<details><summary>Appeals API down</summary>
   
-- **Use case:** If an LOA3 user logs in and there is an error with the appeals API, then we will not be able to show a card for any recent appeal updates. A link to go to the claims tracker still shows in the section.
+- **Use case:** If an LOA3 user logs in and when only /appeals is down the user will see the appeals alert and highlighted claim (if one exists). A link to go to the claims tracker still shows in the section.
 - **Status code:** TBD
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=8211-14362&t=yjkBCJLUxO0o87bU-1)

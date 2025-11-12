@@ -336,15 +336,22 @@ Age:
 - At least 4 who are 34 or younger  
 - At least 4 who are 55+
 
+AT user:
+- no AT users
+
 ### Secondary criteria (nice-to-haves)
 
 LGBTQ+:
 
 - At least 2 who identify as Gay, lesbian, or bisexual, Transgender, Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman
+  - _e.g. Do you identify as a member of the LGBTQ+ community? We ask this question because we want to make sure the feedback we get from these sessions represents all the people we serve._
+  - _Response options: yes or no. (Answering yes would qualify the participant.)_
 
 Discharge:
 
 - At least 2 who have discharge other than honorable
+  - _e.g. For eligibility purposes, we’re including participants who were discharged from the military with an ‘Other Than Honorable’ characterization. Would you be comfortable sharing your discharge type?_
+  - _Response options: Yes — Other Than Honorable; No — different discharge type; Prefer not to answer. (Answering yes would qualify the participant.)_
 
 ### Screener questions for Cohorts
 
@@ -365,7 +372,7 @@ Discharge:
 
 ### Optional Kick-off Call with Perigean
 
-- Suggested dates and times: TBD
+- Suggested dates and times: (ideally) Thurs., 11/13 (11:30a-3p est / 8:30a-12p pst; 4-5p est / 1-2p pst) or Fri., 11/14 (11a-1p est; 8a-10a pst)
 
 ### Prepare
 

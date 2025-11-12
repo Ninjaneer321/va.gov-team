@@ -2,13 +2,13 @@
 ## Confirm
 1. Inform the following people of a possible incident: 
 - Matt Reilly, Product Manager/Pension & Burial
-- Jacob Worrell, Product Manager/Dependents Management
+- Alan Werner, Product Manager/Dependents Management
 - Matt Knight, Engineering Lead
 - Anh Platt, Delivery Lead/Project Manager
 
 2. One of the following people, in order of preference
 - Sanja Bajovic, OCTO Product Owner
-- Ben Guhin Delphine, OCTO Design Lead
+- TBD, OCTO Design Lead
 
 3. Start the clock. Record the time an opening message in an appropriate incident log.
 4. Confirm if you have / do not have an incident. 
@@ -94,5 +94,5 @@ Delivery Team
 |----- | -------- | ------------- | ----- |
 | Matt Knight| Engineering Lead (Coforma) | 607-216-8683 | matt.knight@coforma.io |
 | Matt Reilly | Pension and Burial Product Lead | 518-461-7458 | matt.reilly@adhocteam.us |
-| Jacob Worrell | Dependents Maangement Product Lead | To be added | jacob.worrell@adhocteam.us |
+| Alan Werner | Dependents Management Product Lead | 407-494-7717 | alan.werner@adhocteam.us |
 | Anh Platt| Delivery Lead (Coforma) | 805-452-8014 | anh.platt@coforma.io |
