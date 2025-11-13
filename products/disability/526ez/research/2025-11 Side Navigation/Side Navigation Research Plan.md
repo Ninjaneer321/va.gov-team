@@ -1,22 +1,12 @@
----
-# Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+# Side Navigation Research Plan [WIP]
 
-# Side Navigation Research Plan \[WIP\]
-
-DBC Core Team, Side Navigation, 10/21/25  
-Irene Vailikit, Bianca Rivera Alvelo, Fiorella Geedi
+Team: `Disability Benefits Crew - Core Team` </br>
+Product: `21-526EZ` </br>
+Proposed Feature: `Side Navigation` </br>
+Authors: `Irene Vailikit`, `Bianca Rivera Alvelo`, `Fiorella Geedi` </br>
+Last Edited: `11/13/25` </br>
 
 ## **Background 🏗️**
-
-Briefly describe the background of your product.
-
-`What problem is your product trying to solve?`
 
 ### Problem Statement  
 Historically, the Disability Compensation (VA Form 21-526EZ) application process is one of the longest on [VA.gov](http://VA.gov), and navigation within the form is a major friction point. Users can only navigate the form by clicking the Back and Continue buttons and are unable to jump to previously completed sections. This results in users having to click these buttons multiple times to make changes or edit their responses.  
@@ -28,35 +18,37 @@ In this new design, the [VADS segmented progress bar with step labels](https://d
 
 On mobile devices, the side navigation component converts to an accordion that the user expands to see links to the sections of the form. 
 
-In testing, this will be referred to as the Wave Concept.
+In testing, this will be referred to as the **Wave Concept**.
 
-<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images/Background_New_Desktop_Sidenav.png" alt="Example" style="width: 60%;">   
-*Screenshots of side navigation MVP design on desktop*
-*Screenshots of side navigation MVP design on mobile*
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images/Sidenav%20desktop%20mobile.png" alt="Example" style="width:100%;">
+
+*Screenshots of side navigation MVP design on desktop and mobile*
+
 
 ### Modified Process List V2 (Cloud Concept) 
 After implementing the side navigation component, we will pursue a Version 2 design that visually presents as a process list. This component includes features and treatment styles that more strongly differentiate between the steps that have been completed, the step the user is currently on, and the steps they have yet to complete. 
 
-In testing, this will be referred to as the Cloud Concept.
+In testing, this will be referred to as the **Cloud Concept**.
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images/Process%20list%20desktop%20mobile.png" alt="Example" style="width:100%;">
 
-![][image3]    ![][image4]  
 *Screenshot of process list Version 2 design on desktop and mobile.*
 
-Where is your product situated on VA.gov? (ex: auth vs. unauth)
+### Where is your product situated on VA.gov? (ex: auth vs. unauth)
 
 The 526 Disability Benefits form is an authenticated product.
 
-What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?
+### What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?
 
 We are introducing a new feature into an already existing product that Veterans are familiar with.
 
 ### Product Brief
 
-[Link to initiative brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/collab-cycle/side-nav/side-nav%20initiative%20brief.md)
+- [Super Epic: Reduce the burden of navigating through the disability form](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116289) </br>
+- [Initiative Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/collab-cycle/side-nav/side-nav%20initiative%20brief.md)
 
 ### [**OCTO-DE Priorities**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO-DE%20Priorities%202025.md)
 
-Which OCTO priorities does this research support? Work with your VA lead and product manager as needed.
+`Which OCTO priorities does this research support? Work with your VA lead and product manager as needed.`
 
 Objective 1: VA’s digital experiences are the easiest and most efficient way to access VA health care and benefits.
 
@@ -65,7 +57,7 @@ Objective 1: VA’s digital experiences are the easiest and most efficient way t
 
 ### [**Veteran Journey**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
 
-Where does your product fit into the Veteran journey? Are there moments that matter?
+`Where does your product fit into the Veteran journey? Are there moments that matter?`
 
 * Starting Up  
 * Taking Care of Myself
@@ -194,9 +186,9 @@ This research study will test the side navigation component MVP and the process 
 
 Each session will test both designs, with the side navigation MVP taking 75% of the session time and the process list V2 taking 25%. Given that the MVP is the priority, we want to ensure the majority of the session time is dedicated to gathering feedback essential to launch.
 
-Our target is to have 3-4 participants test on desktop, and for 5 participants test on mobile devices. For mobile devices, both components would be nested in an accordion. This introduces an additional step where participants would have to identify and expand the accordion to interact with the component. We want to target having 5 participants using a mobile device to assess whether the accordion affects users’ ability to use the component. 
+Our target is to have 4 participants test on desktop, and for 4 participants test on mobile devices. For mobile devices, both components would be nested in an accordion. This introduces an additional step where participants would have to identify and expand the accordion to interact with the component. We want to target having 5 participants using a mobile device to assess whether the accordion affects users’ ability to use the component. 
 
-Additional resources
+#### Additional resources
 
 * Please review the [PRA primer](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/what-is-paperwork-reduction-act.md) to educate yourself on how PRA impacts the research we do as a government project.  
 * Review the [Perigean recruitment guidance](https://depo-platform-documentation.scrollhelp.site/research-design/Recruiting-Participants.1958773044.html) to understand how Perigean recruits, and what types of research they can support.  
@@ -226,8 +218,12 @@ Provide a link to any materials you need to run your study, including any materi
 
 For moderated usability tests:
 
-* \[Link to conversation guide\](url goes here)  
-* \[Link to prototype\](url goes here)
+* [Conversation Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/Side%20Nav%20Conversation%20Guide.md)  
+* [Side Navigation Desktop Prototype](url goes here)
+* [Side Navigation Mobile Prototype](url goes here)
+* [Process List Desktop Prototype](url goes here)
+* [Process List Mobile Prototype](url goes here)
+
 
 
 ## **Recruitment 🎯**
@@ -263,15 +259,15 @@ Note
 
 Your total number should equal 1.5x your ideal completed sessions number *(e.g. for 10 ideal completed sessions, request 15 total participants)*
 
-* Veterans: 13  
+* Veterans: 12  
 * Caregivers: 0  
 * Dependents: 0  
-* Total: 13  
-* Ideal completed sessions: 9 Total (4 Desktop + 5 Mobile)
+* Total: 12  
+* Ideal completed sessions: 8 Total (4 Desktop + 4 Mobile)
 
 ### **Recruitment approach**
 
-We want to use Perigean to recruit 13 participants for a total of 10 completed sessions. Ideally, 5 participants will join via mobile. 
+We want to use Perigean to recruit 12 participants for a total of 8 completed sessions. Ideally, 4 participants will join via mobile. 
 
 ### **Recruitment criteria**
 
@@ -282,7 +278,7 @@ We want to use Perigean to recruit 13 participants for a total of 10 completed s
 
 `Primary criteria`
 
-* At least 5 participants should participate from a smart phone  
+* At least 4 participants should participate from a smart phone  
 * At least 3 participants should participate from a desktop or laptop computer  
 * At least 3 participants without a college degree.  
 * At least 3 participants should identify as having a cognitive disability  
@@ -333,18 +329,18 @@ Note
 
 Send pilot participant email in study Slack channel
 
-* Pilot participant name: XXX  
-* Date and time of pilot session: Monday Nov. 24\. 
+* Pilot participant name: Ben Peterson  
+* Date and time of pilot session: Monday Nov. 24 at 12pm ET.
 
 ### **Research sessions**
 
-* Planned dates of research: Mon. Dec. 8 \- Thurs. Dec. 18
+* Planned dates of research: Mon. Dec. 8 - Wed. Dec. 17
 
 ### **Length of sessions**
 
-* Session length: (e.g. 30 minutes, \< 1 hour, up to 2 hours, up to 4 hours) \[1 hour\]  
-* Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time) \[1 hour\]  
-* Maximum Sessions per day: (We all have limits \- how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?) \[3\]
+* Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours): **1 hour**  
+* Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time): **1 hour**  
+* Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?): **3 sessions max per day**
 
 ### **Availability**
 
@@ -360,15 +356,14 @@ Please request enough dates and at *least double the amount of time slots for th
 
 Place time slots between hash marks when in edit mode.
 
-* \[12/8, Monday, 9:00AM \- 6:00PM\] EST  
-* \[12/9, Tuesday, 9:00AM \- 6:00PM\] EST  
-* \[12/10, Wednesday, 9:00AM \- 6:00PM\] EST  
-* \[12/11, Thursday, 9:00AM \- 6:00PM\] EST  
-* \[12/12, Friday, 8:00AM \- 5:00PM\] EST  
-* \[12/15, Monday, 9:00AM \- 6:00PM\] EST  
-* \[12/16, Tuesday, 9:00AM \- 6:00PM\] EST  
-* \[12/17, Wednesday, 9:00AM \- 6:00PM\] EST  
-* \[12/18, Thursday, 9:00AM \- 6:00PM\] EST
+* `[12/8, Monday, 9:00AM - 6:00PM] EST`  
+* `[12/9, Tuesday, 9:00AM - 6:00PM] EST`  
+* `[12/10, Wednesday, 9:00AM - 6:00PM] EST`  
+* `[12/11, Thursday, 9:00AM - 6:00PM] EST`  
+* `[12/12, Friday, 8:00AM - 5:00PM] EST`  
+* `[12/15, Monday, 9:00AM - 6:00PM] EST`  
+* `[12/16, Tuesday, 9:00AM - 6:00PM] EST`  
+* `[12/17, Wednesday, 9:00AM - 6:00PM] EST`  
 
 ## **Team Roles 🕵️👩‍💻👩‍🔬**
 
@@ -378,8 +373,8 @@ Please do not include email addresses in this section. We previously required em
 
 Please list the names of people in each role. In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
 
-* Moderator: Irene Vailikit, Bianca Rivera Alvelo   
-* Research guide writing and task development (usually but not always same as moderator): Irene Vailikit, Bianca Rivera Alvelo  
+* Moderator: Irene Vailikit, Bianca Rivera Alvelo, Fiorella Geedi   
+* Research guide writing and task development (usually but not always same as moderator): Irene Vailikit, Bianca Rivera Alvelo, Fiorella Geedi  
 * Participant recruiting & screening: Perigean  
 * Project point of contact: Irene Vailikit  
 * Accessibility specialist (for sessions where support for assistive technology may be needed): Etan Berkowitz  
