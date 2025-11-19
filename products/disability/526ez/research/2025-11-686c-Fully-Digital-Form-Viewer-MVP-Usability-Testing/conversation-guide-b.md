@@ -94,7 +94,9 @@ I’m going to send you a link in the chat.
 
 **Prototypes**
 - [Desktop](https://www.figma.com/proto/EoYnokGp9aSgy5JrDVqp5L/686c---Form-data-viewer---Fully-Digital-Forms?node-id=3770-29642&t=wjPq2fgrbIiKrNQS-1)
+   - Backup tinyurl if the participant cannot get to the chat: https://tinyurl.com/mr2w4k2w 
 - [Mobile](https://www.figma.com/proto/EoYnokGp9aSgy5JrDVqp5L/686c---Form-data-viewer---Fully-Digital-Forms?node-id=3770-29959&t=wjPq2fgrbIiKrNQS-1)
+   - Backup tinyurl: https://tinyurl.com/nhd7b89d
 
 Feel free to take a minute to hide anything, like your personal email or anything you don’t want us to see. Let me know if you need help. I am more than happy to walk you through the steps you can take to share your screen:
 
@@ -117,16 +119,16 @@ Feel free to take a minute to hide anything, like your personal email or anythin
 Once you open the link, please share your screen. Please do not click on anything at the moment!
 Awesome! Now that I can see your screen.
 
-## Setting up context and getting into scenario 2 - 7 minutes
+## Setting up context and Scenario Lemon - 7 minutes
 ```
 The participant will encounter the prototypes in the following order:
-- Scenario 2: VADS Minimal 
-- Scenario 1: BID Maximal
-- Scenario 3: VADS Minimal + "a la carte" features
+- Scenario Lemon: VADS Minimal 
+- Scenario Orange: BID Maximal
+- Scenario Apple: VADS Minimal + "a la carte" features
 ```
 For the remainder of the session, I'd like you to imagine that you are a Veteran named Jamie Smith Brooks. (Just to clarify, Jamie isn't a real person, we are using a demo account.) Earlier this week, you spent time on VA.gov filling out the VA form 21-686c to add dependents to your VA benefits. However, you got interrupted so you were logged out right before hitting the submit button. Now you are interested in actually submitting your form.
 
-* **Please click on Scenario 2**
+* **Please click on Enter Lemon**
 
 Imagine that you just signed back into VA.gov and have navigated to the manage dependents page where you have filled out the online form to add or remove dependents. 
 
@@ -138,7 +140,7 @@ _This page is typically your last chance to review and edit the answers you prov
 
 Let's imagine that you have interacted with all of the accordions on this page (i.e., the gray boxes, with the plus sign on the side) and you were able to double-check all of your answers for the different sections in the form:
 
-* **Go ahead and press "Continue"**
+* **Go ahead and press "Submit application"**
 
 You have just submitted the online form, which then brings you to the confirmation page.
 
@@ -150,7 +152,7 @@ We'll be mostly focusing on the content that follows. Before we proceed, do you 
 Thanks for that! Go ahead and do a quick scan of the page, but please do not click on anything - 
 
 * If you were in Jamie's situation, someone who just submitted their application to add dependents to their VA benefits, what would you do first on this page? 
-* Without doing so yet, what do you think will happen if you click the link that says "Information you submitted on this form"?
+* Without doing so yet, what do you think will happen if you click the link that says "Download or print the information you submitted"?
     * What will you see?
     * [Gauge if they predict new tab or new page/ window or navigate page behavior]
 * If you were to actually be in this scenario, would you click the link? Why (not)?
@@ -170,7 +172,7 @@ Let's go ahead and click the link. Please skim through the sections, questions, 
 
 ### TASK: Could you show us how many children are being added as dependents? And what are their names?
 [Answer: 2, Andrew and Anna]
-* Is there anything you'd change to improve it?
+* Is there anything you'd change to improve how the children's info is displayed?
 * On a scale from 1-5, 1 being not legible and 5 being very legible... How legible is this page?
     * Why?
     * [If low score] What would make it more legible?
@@ -180,12 +182,17 @@ Let's go ahead and click the link. Please skim through the sections, questions, 
 
 * How easy was that on a scale from 1-5, 1 being very difficult and 5 being very easy. Why?
 
-## Scenario 1 (BID Maximal): Form viewer content and layout - 10 minutes
+### Important info prompt
+* Now that you had a chance to review the page, is there information that's missing that you'd like to see?
+    * Is there information that should be emphasized?
+    * Is there too much information? What would you like to remove or de-emphasize?
+
+## Scenario Orange (BID Maximal): Form viewer content and layout - 10 minutes
 [Instruct participant to click on the VA.gov page header, which will bring them to the variations screen] 
 
-Now we're going to show you a variation of what you've seen so far. Please click on Scenario 1. Please go ahead and take a moment to review the page.
+Now we're going to show you a variation of what you've seen so far. Please click on 'Enter Orange'. Please go ahead and take a moment to review the page.
 
-* What are your initial thoughts on this page?
+* What are your initial thoughts of this page?
     * [Probe] What do you think about the:
         * sections and subsections
            * How do you feel about the section numbering?
@@ -198,15 +205,11 @@ Now we're going to show you a variation of what you've seen so far. Please click
         * two column layout
   * Can you easily distinguish one section from another? How?
      * [Probe about visual elements like divider, typography, spacing]  
-* Is there information that's missing that you'd like to see?
-    * Is there information that should be emphasized?
-    * Is there too much information? What would you like to remove or de-emphasize?
 
 ### TASK: Can you show us what the birthplaces are for the 2 children that are being added to Jamie's VA benefits?
 [Answer: San Mateo CA and San Francisco CA]
 
-* Can you easily distinguish repeating sections (such as multiple children)? How?
-    * Is there anything you'd change to improve it?
+* Is there anything you'd change to improve how the children's info is displayed?
 * On a scale from 1-5, 1 being not legible and 5 being very legible... How legible is this page?
     * Why?
     * [If low score] What would make it more legible?
@@ -225,7 +228,12 @@ Thanks for that answer!  This section is optional and not required to be filled 
 * How about for sections or questions you did not encounter when you were filling out the form? 
     * How do you feel about seeing these sections displayed like this on this page if you never encountered them in the form while you were filling it out?
 
-### Exploring the differences between Scenario 1 and Scenario 2
+### Important info prompt
+* Now that you had a chance to review the page, is there information that's missing that you'd like to see?
+    * Is there information that should be emphasized?
+    * Is there too much information? What would you like to remove or de-emphasize?
+
+### Orange vs. Lemon differences - 2 minutes
 
 * Now that you had a chance to interact with this version of the page, what are the major differences between what you see here and the demo page you looked at earlier?
     * Which text styling do you prefer? Why?
@@ -242,12 +250,12 @@ Thanks for that answer!  This section is optional and not required to be filled 
     * [Probe about visual elements like divider, typography, spacing]
 * How do you feel about the sections not being numbered? Why?
 
-## Scenario 1 vs. Scenario 2 comparison conclusion - 2 minutes
+## Orange vs. Lemon comparison conclusion - 2 minutes
 * Out of the two concept variations we showed you so far, which do you prefer? Why?
 * What factor is most important to help you accomplish your intended purpose for page like this? [Reference previously-mentioned goals]
 
-## Scenario 3 (VADS Minimal + a la carte): Gathering feedback on interactive features of form viewer - 10 minutes
-Now I'd like us to shift gears again, and I'd like your opinion on an interactive version of what you've seen so far with us today. Please click on Scenario 3. 
+## Scenario Apple (VADS Minimal + a la carte): Gathering feedback on interactive features of form viewer - 10 minutes
+Now I'd like us to shift gears again, and I'd like your opinion on an interactive version of what you've seen so far with us today. Please click on the header again ande click 'Enter Apple'. 
 
 The form output content remains the same as what we've just reviewed, but now there are a bit more features that are on the page. Let's go through each of the additional features one-by-one:
 
@@ -316,7 +324,7 @@ Now, if you look at the bottom right hand corner of the page, you'll see "back t
     * [Probe] Would you rather have a search bar on the page or use the keyboard to ctrl + F? Why?
 
 ## Comparison to current - 3 minutes
-* How do these concepts compare to how you would normally access a copy of your answers to a form you have submitted?
+* How do these concepts compare to how you would normally access a copy of your answers to a form you have submitted, such as the disability benefits application or your yearly tax return form?
     * Are there any features or qualities that are missing?
 * Is there anything you'd wish to have?
 
@@ -334,3 +342,8 @@ Great! Well we really appreciate you taking the time to share your thoughts with
 Just a heads up, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
 
 Thank you so much again, and enjoy the rest of your day!
+
+# Emergency Exit 🚨
+* Out of questions: We have covered all the questions I have for you today. Thank you so much for your time and feedback.
+* Blame technology: I am so sorry, but I just learned that the demo we wanted to test with you today is unexpectedly not working. I apologize for the inconvenience and thank you for your time.
+

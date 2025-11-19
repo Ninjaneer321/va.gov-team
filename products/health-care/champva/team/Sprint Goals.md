@@ -2,6 +2,117 @@
 
 - Current Sprint first
 
+## 📆 Sprint 8 (Nov 19 – Dec 2) 
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goal summary
+- [ ] **SPRINT GOAL** 10-10d: Begin Staged Launch of 1010d/10-7959c Merge
+- [ ] **SPRINT GOAL** 10-10d: Fix mislabelling of names on Medicare Summary page
+- [ ] **SPRINT GOAL** 10-7959a: Update Intro page to reflect content changes in preparation for enhanced claims launch
+- [ ] **SPRINT GOAL** 10-7959c: BE changes for new PDF to setup feature toggle
+- [ ] **SPRINT GOAL** 10-7959c: FE changes for new PDF incl. add new fields & updates to medicare/OHI 
+- [ ] **SPRINT GOAL** All forms: Address outstanding monitor incidents and update documentation/playbook
+- [ ] **SPRINT GOAL** UX: 10-7959a: Update Itemized Billing Statement/EOB Language
+- [ ] **SPRINT GOAL** UX: 10-7959a: Update Figma SOT to use minimal headers
+- [ ] **SPRINT GOAL** UX: 10-7959a: Share DTA mocks with DTA team & submit C/IA ticket
+- [ ] **SPRINT GOAL** UX: 10-7959f-2: Close out and begin synthesizing research study findings
+- [ ] **SPRINT GOAL** QA: 10-7959a: QA Enhanced Claims Flow for Launch
+- [ ] **STRETCH GOAL** 10-7959C: Generate new PDF for stand alone
+- [ ] **STRETCH GOAL** UX: 10-10d: Tricare Eligibility Research Planning
+- [ ] **STRETCH GOAL** UX: 10-7959c: Add MBI to OHI form
+- [ ] **STRETCH GOAL** UX: All forms: November Monthly Metrics
+
+
+##
+### 10-10d
+- [ ] **SPRINT GOAL** 10-10d: Begin Staged Launch of 1010d/10-7959c Merge
+  - [ ] [[Product] 10-10d/10-7959c: Launch the 10-10d v2 and track progress](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124312)
+- [ ] **SPRINT GOAL** 10-10d: Fix mislabelling of names on Medicare Summary page
+  - [ ] [[FE] 10-10d/10-7959c - Form merge - "Applicant" is appearing instead of the applicant's name on Medicare summary page](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125015)
+
+
+
+##
+### 10-7959a
+
+- [ ] **SPRINT GOAL** 10-7959a: Update Intro page to reflect content changes in preparation for enhanced claims launch
+  - [ ] [[FE] CHAMPVA Claims 10-7959a: Make content resubmission edits to intro page #125519](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125519)
+- [ ] **SPRINT GOAL** UX: 10-7959a: Update Itemized Billing Statement/EOB Language
+  - [ ] [[UX] 10-7959a: Update Itemized Billing Statement/EOB Language #124857](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124857)
+- [ ] **SPRINT GOAL** UX: 10-7959a: Update Figma SOT to use minimal headers
+  - [ ] [[UX] 10-7959A: Update Figma design to use minimal headers #123472](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123472)
+- [ ] **SPRINT GOAL** UX: 10-7959a: Share DTA mocks with DTA team & submit C/IA ticket
+  - [ ] [[UX] 10-7959a: Share DTA mocks with DTA team & Submit C/IA Ticket #125436](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125436)
+- [ ] **SPRINT GOAL** QA: 10-7959a: QA Enhanced Claims Flow for Launch
+  - [ ] []()
+ 
+
+## 
+### 10-7959c
+- [ ] **SPRINT GOAL** 10-7959c: BE changes for new PDF to setup feature toggle
+  - [ ] [[BE] 10-7959C: Set up BE with feature toggle for new pdf in form version manager #125437](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125437)
+- [ ] **SPRINT GOAL** 10-7959c: FE changes for new PDF incl. add new fields & updates to medicare/OHI
+  - [ ] [[FE] 10-7959C: Add new OHI PDF beneficiary fields #125419](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125419)
+  - [ ] [[FE] 10-7959C: Add Medicare Part C Pages to Medicare Chapter #125429](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125429)
+  - [ ] [[FE] 10-7959C: Add new OHI PDF Medicare Part A only upload pages  #125430](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125430)
+  - [ ] [[FE] 10-7959C: Display termination date on Part D carrier page #125432](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125432)
+  - [ ] [[FE] 10-7959C: Remove prescription-related questions from Medicare and Other Health Insurance sections for new pdf #125435](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125435)
+  - [ ] [[FE] 10-7959C: Update Medicare Type Question Options and Age-Based Logic for new pdf #125465](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125465)
+  - [ ] [[FE] 10-7959C: Add new OHI PDF Medicare Part only upload pages #125505](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125505)
+  - [ ] [[FE] 10-7959C: Add new OHI PDF Medicare Part A only upload pages #125572](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125572)
+
+
+## 
+### 10-7959f-1 FMP Enrollment
+- No work this sprint
+
+
+##
+### 10-7959f-2 FMP Claims
+- [ ] **SPRINT GOAL** UX: 10-7959f-2: Close out and begin synthesizing research study findings
+  - [ ] [[Research] FMP Claims 10-7959f-2: Close Out Direct Deposit Comprehension Study #124003](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124003)
+  - [ ] [[Research] FMP Claims 10-7959f-2: Direct Deposit Comprehension Analysis & Findings Report #124004](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124004)
+     
+
+##
+### All forms or Tech Debt
+- [ ] **SPRINT GOAL** All forms: Address outstanding monitor incidents and update documentation/playbook
+  - [ ] [IVC Forms: 11/12/2025 Monitor Incident - Request ran for longer than 120000ms #124952](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124952)
+  - [ ] [IVC Forms: 2025-04-10 Monitor Incident - The provided stamp content was empty #107339](https://github.com/department-of-veterans-affairs/va.gov-team/issues/107339)
+  - [ ] [IVC Forms: 2025-02-19 Monitor Incident - Better TmpFile Management #106632](https://github.com/department-of-veterans-affairs/va.gov-team/issues/106632)
+  - [ ] [IVC Forms: 2025-02-19 Monitor Incident - Add New Logs  #105639](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105639)
+  - [ ] [[FE/BE] Review the Monitoring Playbook and update it to align with current team practices #121441](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121441)
+
+
+
+
+## 
+### STRETCH GOALS
+- [ ] **STRETCH GOAL** 10-7959C: Generate new PDF for stand alone
+  - [ ] [[BE] 10-7959C: Generate new PDF for stand alone #125442](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125442)
+- [ ] **STRETCH GOAL** UX: 10-10d: Tricare Eligibility Research Planning
+  - [ ] [[Research] 10-10d Tricare Eligibility: Usability Research Planning #125434](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125434)
+- [ ] **STRETCH GOAL** UX: 10-7959c: Add MBI to OHI form
+  - [ ] [[UX] 10-7959c: Add MBI to OHI form for new pdf #96969](https://github.com/department-of-veterans-affairs/va.gov-team/issues/96969)
+- [ ] **STRETCH GOAL** UX: All forms: November Monthly Metrics
+  - [ ] [[Data] Monthly Metrics Request for Health Apps Team - November 2025 #125405](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125405)
+     
+        
+##
+### WHAT'S NEXT
+- **FE**
+- **UX**
+- **BE**
+- [ ] **SPRINT GOAL** 10-7959a: Determine feasability of allowing 3+ health insurance
+  - [ ] [[BE & FE] 10-7959A: Support 3+ health insurance policies by auto-generating additional claim cover sheets (PDF) #124069](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124069)
+  - [ ] [[BE] 10-7959a: Spike - Investigate LOE/Feasibility for allowing 3+ health insurance policies #125411](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125411)
+
+
+##
+### Team PTO
+
+
+
 ## 📆 Sprint 7 (Nov 5 - Nov 18) 
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 

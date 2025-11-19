@@ -70,13 +70,13 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 ## Sprint Goals - Sprint: 21 [11/5/25 - 11/18/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Continue service blueprint work, including meeting with VEO team, identifying SME’s, finalizing conversation guides.| QP7 |--|--|--|
-|UX: Complete October Medallia reporting, bringing all Medallia reports up the most current state.| QP7 |--|--|--|
-|UX: Submit initial artifacts and schedule Design Intent touchpoint for the pay.gov Overpayments collaboration cycle.| QP4 |--|--|--|
-|ENG: Define remaining backend work for the Lighthouse API and fully draft necessary tickets.| QP3 |--|--|--|
-|ENG: Review Payment History designs with UX team.| QP3 |--|--|--|
-|ENG: Make a Payment History endpoint available for the frontend to consume.| QP3 |--|--|--|
-|TEAM: Initiate the Hardship Suspension collaboration cycle.| QP3 |--|--|--|
+|UX: Continue service blueprint work, including meeting with VEO team, identifying SME’s, finalizing conversation guides.| QP7 |--|11/18/25|Completed|
+|UX: Complete October Medallia reporting, bringing all Medallia reports up the most current state.| QP7 |--|11/18/25|Completed|
+|UX: Submit initial artifacts and schedule Design Intent touchpoint for the pay.gov Overpayments collaboration cycle.| QP4 |--|11/17/25|Completed|
+|ENG: Define remaining backend work for the Lighthouse API and fully draft necessary tickets.| QP3 |--|11/18/25|Completed|
+|ENG: Review Payment History designs with UX team.| QP3 |--|11/17/25|Completed|
+|ENG: Make a Payment History endpoint available for the frontend to consume.| QP3 |--| 11/18/25|Completed|
+|TEAM: Initiate the Hardship Suspension collaboration cycle.| QP3 |--|11/18/25|Completed|
 |TEAM: Pending the code thaw happening, release the One Thing Per Page initiative.| QP2 |--|11/12/25|Completed|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
@@ -84,6 +84,24 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
  - [X] VA PO & COR sent the Sprint Goals (11/5/25)
  - [X] VA PO approved the Sprint Goals (11/6/25)
  - [ ] VA COR approved the Sprint Goals (11/XX/25)
+ 
+**_Delivery + Notes:_**
+- [ ] All goals have been updated in the sprint chart
+- [ ] Any Additional details about goals **not** completed will be documented here
+
+## Sprint Goals - Sprint: 22 [11/19/25 - 12/2/25]  
+| Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|UX: Review service blueprint design artifacts from VEO and synthesize outstanding questions to identify opportunities for next steps.| QP7 |--|--|--|
+|UX: Finalize submission email confirmation and confirmation page to review pay.gov Overpayment designs with Debt Management Center and collect feedback on designs to inform next steps.| QP4 |--|--|--|
+|ENG: Complete backend triage efforts to validate all the Lighthouse API data and present the API contents to Front End confirming that Front End is ready for implementation on the presentation page.| QP3 |--|--|--|
+|ENG: Front end to implement Payment History endpoint Step 1 of 2. (Step 2 will happen after goal #3).| QP3 |--|--|--|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [X] Ready to be sent for approvals (11/18/25)
+ - [X] VA PO & COR sent the Sprint Goals (11/18/25)
+ - [X] VA PO approved the Sprint Goals (11/18X/25)
+ - [X] VA COR approved the Sprint Goals (11/18/25)
  
 **_Delivery + Notes:_**
 - [ ] All goals have been updated in the sprint chart

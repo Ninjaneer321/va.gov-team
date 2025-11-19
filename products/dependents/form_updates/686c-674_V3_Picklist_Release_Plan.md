@@ -38,6 +38,21 @@ Mitigation: Full e2e testing in Staging environment and phased rollout in Produc
   * /v0/dependents_applications/show endpoint failures
   * Overall error rate
 
+### Launch user flow
+
+[We also have a decision flow diagram](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/picklist/transition-strategy.md#decision-flow-diagram)
+
+| # | User type | `va_dependents_v3`<br> flipper status | Form in progress | Visible flow | Data migrated |
+|---|---|---|---|---|---|
+|1| Authenticated user | Enabled | Yes, v1 | v1 | No |
+|2| Authenticated user | Enabled | Yes, v2 | v2 | No |
+|3| Authenticated user | Enabled | Yes, v3 | v3 | v3 to v2 on submission only |
+|4| Authenticated user | Enabled | No | v3 | v3 to v2 on submission only |
+|5| Authenticated user | Disabled | Yes, v1 | v1 | No |
+|6| Authenticated user | Disabled | Yes, v2 | v2 | No |
+|7| Authenticated user | Disabled | Yes, v3 | v2 | No (v3 picklist data hidden & Veteran redirected back to veteran info page) |
+|8| Authenticated user | Disabled | No | v2 | No |
+
 ### Post-launch
 
 * Silent failures trigger alerts at any volume (0% threshold)
@@ -99,6 +114,20 @@ Mitigation: Full e2e testing in Staging environment and phased rollout in Produc
 - Downstream partners report broken PDF output
 - Silent failures detected without accompanying alerts
 - Engineering determines critical fault based on system health or user impact
+
+Depending on when we determine that a rollback is needed and how many Veterans are effected, we will take the following actions:
+
+| Phase | Main action | Transform data? |
+|---|:--:|---|
+| Canary | Disable v3 toggle & Fix problem | No |
+| Stage A (1%) | Disable v3 toggle & Fix problem | No&dagger; |
+| Stage B (25%) | Disable v3 toggle & Fix problem | No&dagger; |
+| Stage C (50%) | Disable v3 toggle & Fix problem | Consider&Dagger; |
+| Stage D (100%) | Disable v3 toggle & Fix problem | Transform&Dagger; |
+
+&dagger; A minimal number of users are effected for a short period of time
+
+&Dagger; We have data utility functions to transform v3 to v2 data for submissions. We don't have any code implemented to convert in-progress v3 to v2 data currently
 
 ---
 

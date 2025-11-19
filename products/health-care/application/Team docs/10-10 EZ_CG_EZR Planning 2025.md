@@ -2,11 +2,96 @@
 - Current Sprint first
 
 ---
-## 📆 Sprint 7 (Nov 5 - Nov 18) 
+## 📆 Sprint 9 (Dec 3 - Dec 16) (PREPLANNED 11/19)
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- [ ] (continue) EZR Spouse QA findings resolutions, PR merges & resume QA
+- [ ] EZR Service history discovery
+- [ ] EZR Update RUM to avoid PII leak with EC/NOK data (RUM feature toggle is currently turned off because of this issue)
+- [ ] EZR Date of marriage on Spouse card
+- [ ] EZR Remove print/save PDF feature toggle
+
+
+## 
+### 10-10EZR
+
+#### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
+- [ ] **SPRINT GOAL** [#114497](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114497) - [FE, BE] Discovery on Service History - VES or MPI?
+
+#### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
+- [ ] **SPRINT GOAL** [#120127](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120127) - [Eng] Update RUM to avoid PII leak with EC/NOK data
+
+#### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
+- [ ] **SPRINT GOAL** [#117847](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117847) - [FE] Date of Marriage on Spouse card
+
+#### Obj: [Print/Save PDF](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109746)
+- [ ] **SPRINT GOAL** [#120598](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120598) - [Eng] Remove ezr_download_pdf_enabled feature toggle
+
+
+##
+### 10-10EZ
+#### No scheduled work this sprint
+
+
+## 
+### 10-10CG
+#### No scheduled work this sprint
+
+
+##
+### Team PTO
+- Heather: 11/28 - 12/5
+
+
+---
+## 📆 Sprint 8 (Nov 19 - Dec 2)
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goal summary
+#### Note: Code Freeze Thursday 11/27 through Friday 11/28
+- [ ] EZR Spouse - Tech debt & Finalize QA
+- [ ] EZ QA on Intro page looping fix
+- [ ] EZR Financials - Finalize findings fixes
+     - [ ] EZR Financials data disappearing
+     - [ ] EZR Back button format update
+- [ ] CG Unskip flaky attachment specs
+
+## 
+### 10-10EZR
+#### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
+- [ ] **SPRINT GOAL** [#124791](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124791) - [FE] Tech debt clean-up
+- [ ] **SPRINT GOAL** [#105901](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105901) - [QA] Test Spouse section
+- [ ] **SPRINT GOAL** [#121401](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121401) - [FE] Financials data disappearing from Review & Submit pg
+- [ ] **SPRINT GOAL** [#121396](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121396) - [FE] Back button formatting
+
+##
+### 10-10EZ
+#### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
+- [ ] **SPRINT GOAL** [#125597](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125597) - [QA] Complete testing on Intro page looping fix
+
+## 
+### 10-10CG
+#### Obj: [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40164)
+- [ ] **SPRINT GOAL** [#116783](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116783) - [Eng] Address flaky specs
+
+##
+### Team PTO
+- Thanksgiving Holiday: 11/27
+- Matt: 11/21
+- Kyle: 11/26 - 11/28 (available on slack)
+- Heather: 11/28 - 12/5
+- Andrea: 11/28 (out early, available on slack)
+- Jessica: 11/28
+- Steve: 11/28
+- Hieu: 11/28
+- Ray: 11/28
+
+---
+## 📆 Sprint 7 (Nov 5 - Nov 18) 
+- [x] 🧱 **Sprint Goals not completed** 
+
+### Sprint Goal summary
+- [x] (continue) EZR Spouse QA findings resolutions, PR merges & resume QA
 - [ ] EZ Implement Intro page looping fix
 
 ## 

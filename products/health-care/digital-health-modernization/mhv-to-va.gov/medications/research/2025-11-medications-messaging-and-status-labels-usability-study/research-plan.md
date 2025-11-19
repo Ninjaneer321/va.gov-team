@@ -10,7 +10,7 @@ We are building a new, online authenticated user flow for prescription renewal r
 
 [Link to Figma file](https://www.figma.com/design/s1lAPraSoTHsevgl84SDoo/Source-of-truth---SM?node-id=4856-23543&t=IgJL64unibv2ExGT-1)
 
-We have also created a new set of prescription statuses that will be implemented in both Oracle Health and VistA. The existing VistA statuses have been frequently cited as being confusing to users so we have moved to simplify the statuses hoping to more clearly and simply communicate to users what the status of their medication is.
+We have also created a new set of prescription statuses that will be implemented in both Oracle Health and VistA. The existing VistA statuses have been frequently cited as being confusing to users so we have moved to simplify the statuses hoping to more clearly communicate to users the status of their medication.
 
 [Link to Figma file](https://www.figma.com/design/VunyfNQ9x7Bt58D9B2qnW5/%F0%9F%92%A1-Working-file--MHV-Medications---Devices-?m=auto&node-id=2090-14060&t=If8qo2rddrTHtr05-1)
 
@@ -42,8 +42,8 @@ Objective 1: VA’s digital experiences are the easiest and most efficient way t
 
 
 
-1. Evaluate whether Veterans understand the meaning of all of the new prescription statuses and if not, which ones cause confusion and/or Veterans think means something else.
-2. Evaluate if Veterans can successfully use the renewal flow to request a renewal of their medications and if not where they fail in the intended flow.
+1. Evaluate whether Veterans understand the meaning of all of the new prescription statuses and if not, which ones cause confusion and/or Veterans think mean something else.
+2. Evaluate if Veterans can successfully use the renewal flow to request a renewal of their medications and if not, where they fail in the intended flow.
 3. Identify any pain points or uncertainties the Veterans experience while using the new renewal flow that it is possible to address with the design.
 
 
@@ -56,7 +56,7 @@ The results of this study will show if the new medication statuses improve Veter
 
 
 
-1. Do users understand the prescription statuses? If not, what do they think the statuses mean? What parts confuse them?
+1. Do users understand the prescription statuses? If not, what do they think the statuses mean? Which parts confuse them?
 2. Can Veterans successfully and easily request a medication renewal with the new renewal through SM flow on [VA.gov](VA.gov)?
 3. What about this experience appeals to and enables users? 
 4. What changes would Veterans make to the flow to improve their experience?
@@ -66,7 +66,7 @@ The results of this study will show if the new medication statuses improve Veter
 
 
 
-1. Most Veterans will think the new medication statuses are logical.
+1. Most Veterans will understand the revised medication statuses as intended.
 2. Some Veterans will equate refill and renewal and be confused.
 3. Most Veterans will be able to successfully place a renewal request using the new SM flow.
 
@@ -113,7 +113,7 @@ Video interviews over Zoom (or other platform)
 
 
 
-* [Conversation guide](https://docs.google.com/document/d/1J_omt-2EdXhbr4AvWOwaSb8XzsR91UtrtvNcjzKTiYs/edit?usp=sharing)
+* [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-11-medications-messaging-and-status-labels-usability-study/conversation-guide.md)
 * [Link to test user login and instructions](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125061)
 
 
@@ -140,11 +140,14 @@ We would like Veteran users who have VA health care, use MHV on [VA.gov](http://
 
 * At least 7 participants able to test on desktop/laptop
 * At least 8 participants able to test on smartphone
-* At least 8 participants who identify as having a cognitive disability
-* At least 8 participants who are 55+ in age
-* At least 8 participants who are 54 and under in age
+* At least 4 participants who identify as having a cognitive disability
+* At least 7 participants who are 55+ in age
+* At least 7 participants who are 54 and under in age
 * At least 2 participants who identify as women
 * At least 4 participants from rural areas
+* At least 4 participants who uses assistive technology
+   * At least 2 participants who use a screen reader
+   * At least 2 participants who use screen magnification
 * No more than 2 can have no prescriptions with the VA
 * No more than 3 can not use MHV on [VA.gov](http://VA.gov) to manage their prescriptions 
 
@@ -155,17 +158,6 @@ We would like Veteran users who have VA health care, use MHV on [VA.gov](http://
 * At least 4 participants with a high school degree but not college
 * At least 2 participants who identify as Black or African American
 * At least 2 participants who identify as Hispanic, Latino, or of Spanish origin
-* At least 1 participant who uses a screen reader and 1 who uses screen magnification
-
-
-### VA Equity matrix 
-
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
 
 
 
@@ -173,11 +165,12 @@ We would like Veteran users who have VA health care, use MHV on [VA.gov](http://
 
 
 
-* Which of the following ways do you **regularly use** to renew (that is, request a new prescription when your current prescription is out of refills) your VA prescriptions?
-    * Call the pharmacy
+* Which of the following ways would you request more refills after you ran out of your VA prescription?
+    * Call the pharmacy 
     * Send a message to my doctor in my health portal
     * Schedule an appointment with doctor 
-    * I don’t have any VA prescriptions  
+    * I don’t have any VA prescriptions
+    * Other
 * About how often would you say you login to MHV on [VA.gov](VA.gov) to manage your prescriptions? (“Manage” can involve checking on the status, requesting a refill, printing a list, or reading information about a medication).
     * 2 or more times a week
     * At least once a week
@@ -186,17 +179,16 @@ We would like Veteran users who have VA health care, use MHV on [VA.gov](http://
     * Every other month or greater
     * I do not use MHV on [VA.gov](http://VA.gov) to manage my prescriptions
     * I do not use MHV on [VA.gov](VA.gov) *at all *to manage my healthcare (Does not qualify)
-* Do you use a screenreader such as JAWS of VoiceOver?
+* Do you need a screen reader or screen magnifier every time you use the Internet? We ask this question because we want to make sure that our website works for people who rely on these types of technologies.
     * Yes
     * No
-* Please select your level of experience with your screen reader.
-    * Beginner
-    * Advanced
-    * Not applicable
-* Have you ever been diagnosed with a traumatic brain injury, PTSD or memory loss? We ask this question because we want to make sure that our tools work for people who live with challenges like these.
+  * We want to make sure our website works for people with various levels of experience with screen readers and screen magnification. Please rate your experience level using a screen reader or screen magnifier:
+      * Beginner
+      * Intermediate
+      * Advanced
+* Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.
     * Yes
     * No
-
 
 ---
 
@@ -210,7 +202,9 @@ We will partner with Perigean to recruit Veterans. We request a 30 minute kickof
 
 
 
-* Add 3 dates the week of 11/17
+* 11/21 @ 2:30 EST
+* 11/24 @ 2:30 EST
+* 11/25 @ 3:00 EST
 
 
 ### Prepare
@@ -242,7 +236,31 @@ We will partner with Perigean to recruit Veterans. We request a 30 minute kickof
 
 
 
-* *Will choose dates once we’ve confirmed number of sessions and above timeline*
+* 12/1 @ 12:00 EST
+* 12/1 @ 2:00 EST
+* 12/2 @ 12:00 EST
+* 12/2 @ 2:00 EST
+* 12/2 @ 3:30 EST
+* 12/3 @ 12:00 EST
+* 12/3 @ 2:00 EST
+* 12/4 @ 11:00 EST
+* 12/4 @ 12:00 EST
+* 12/4 @ 2:00 EST
+* 12/5 @ 11:00 EST
+* 12/5 @ 12:00 EST
+* 12/5 @ 2:00 EST
+* 12/8 @ 12:00 EST
+* 12/8 @ 2:00 EST
+* 12/9 @ 12:00 EST
+* 12/9 @ 2:00 EST
+* 12/9 @ 3:30 EST
+* 12/10 @ 12:00 EST
+* 12/10 @ 2:00 EST
+* 12/11 @ 12:00 EST
+* 12/11 @ 2:00 EST
+* 12/12 @ 11:00 EST
+* 12/12 @ 12:00 EST
+* 12/12 @ 2:00 EST
 
 
 ### Analysis
