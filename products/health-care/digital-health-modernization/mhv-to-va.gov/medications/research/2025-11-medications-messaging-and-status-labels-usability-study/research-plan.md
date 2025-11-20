@@ -76,7 +76,11 @@ The results of this study will show if the new medication statuses improve Veter
 
 ## Methodology
 
-We will conduct remote moderated usability testing sessions with 10 Veterans using a test user on staging. We will observe the user behavior and ask follow-up prompts as needed.
+We will conduct remote moderated usability testing sessions with 10 Veterans using a test user on staging and a Figma prototype. We will observe the user behavior and ask follow-up prompts as needed.
+
+Test user login information for SM renewal flow: Emma.smith@id.me/Tester1&
+
+[Figma prototype for status testing](https://www.figma.com/proto/puYUxsa9cW7KsKDc1ztAOf/Status-Testing?page-id=0%3A1&node-id=1-5845&viewport=243%2C67%2C0.47&t=TX8HR32UqWDF5uF1-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A5845)
 
 We will need to set up a staging user that has the conditions:
 
@@ -212,7 +216,7 @@ We will partner with Perigean to recruit Veterans. We request a 30 minute kickof
 
 
 * Test user is ready for use: 11/17
-* Date and time of pilot session: Sometime the week of 11/17
+* Date and time of pilot session: 11/21, 11/24, or 11/25
 * Pilot participant email: A medications developer TBD
 
 
@@ -220,7 +224,7 @@ We will partner with Perigean to recruit Veterans. We request a 30 minute kickof
 
 
 
-* 12/2/2025-12/9/2025 - research sessions
+* 12/3/2025-12/16/2025 - research sessions
 
 
 ### Length of sessions
@@ -236,17 +240,12 @@ We will partner with Perigean to recruit Veterans. We request a 30 minute kickof
 
 
 
-* 12/1 @ 12:00 EST
-* 12/1 @ 2:00 EST
-* 12/2 @ 12:00 EST
-* 12/2 @ 2:00 EST
-* 12/2 @ 3:30 EST
 * 12/3 @ 12:00 EST
 * 12/3 @ 2:00 EST
-* 12/4 @ 11:00 EST
+* 12/4 @ 10:30 EST
 * 12/4 @ 12:00 EST
 * 12/4 @ 2:00 EST
-* 12/5 @ 11:00 EST
+* 12/5 @ 10:30 EST
 * 12/5 @ 12:00 EST
 * 12/5 @ 2:00 EST
 * 12/8 @ 12:00 EST
@@ -258,9 +257,14 @@ We will partner with Perigean to recruit Veterans. We request a 30 minute kickof
 * 12/10 @ 2:00 EST
 * 12/11 @ 12:00 EST
 * 12/11 @ 2:00 EST
-* 12/12 @ 11:00 EST
+* 12/12 @ 10:30 EST
 * 12/12 @ 12:00 EST
 * 12/12 @ 2:00 EST
+* 12/15 @ 12:00 EST
+* 12/15 @ 2:00 EST
+* 12/16 @ 10:30 EST
+* 12/16 @ 12:00 EST
+* 12/16 @ 2:00 EST
 
 
 ### Analysis

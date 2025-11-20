@@ -17,15 +17,15 @@ Any other issues or requirements that should be addressed prior to rollout?
 ### Go/No Go meeting 
 Asynchronous Go/No Go on Wednesday, November 19 ([Slack thread](https://dsva.slack.com/archives/C05SUUM4GAW/p1763573743867439))
 
-- [ ] review the release plan with your team.
-- [ ] review the plan with your OCTO representative.
+- [x] review the release plan with your team.
+- [x] review the plan with your OCTO representative.
 
-**Verdict:TBD**
+**Verdict:Go**
 
 ## Release Details (November 20, 2025)
 
-- [ ] Enable in Production to 100% of users
-- [ ] Confirm the release to Production, with a test user
+- [x] Enable in Production to 100% of users
+- [x] Confirm the release to Production, with a test user
 - [ ] Communicate release to ARP pilot users via Teams/Email, including Wounded Warrior Project (who expressed interest in ID.me)
 
 ***
