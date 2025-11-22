@@ -1,4 +1,5 @@
 # Rollout Monitoring for **Secure Messaging – Start a New Message** on VA.gov
+First 30 days of feedback, November 10th - December 8th, 2025
 
 ## Resources
 - **Release plan:** [Update Start a New Message Flow for Oracle Health](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/Release%20Plan-OHSMFlow-MVP.md)
@@ -32,103 +33,47 @@
   - Charts here (if applicable)
 ---
 
-## Stage A – **5% of users**
+## 11/10/25 – **5% of users**
+0% error rates
 
-### Medallia feedback
-- Responses: **TBD**  
-- CSAT (avg/distribution): **TBD**  
-- Task completion: Yes **TBD** / No **TBD** / No response **TBD**  
-- Selected quotes:  
-  - TBD
-
-### Google analytics
-| Metric Name | Value |
-|---|---|
-| Unique users (new flow) | TBD |
-| Views per user | TBD |
-| `/start-message` views | TBD |
-| `/select-care-teams` views | TBD |
-| “Select different care team” click rate | TBD |
-| Back breadcrumb events / rate | TBD |
-| Completion rate (start → submit) | TBD |
-| Step drop-offs | TBD |
-| Avg time to complete | TBD |
-
-### Datadog
-| Metric Name | Value |
-|---|---|
-| VA.gov – Endpoint errors (new-flow URLs) | TBD |
-| SM API – Endpoint error count | TBD |
-| Unique users hitting new-flow endpoints | TBD |
-| Error types observed | TBD |
+<img width="913" height="454" alt="Screenshot 2025-11-21 at 12 42 40 PM" src="https://github.com/user-attachments/assets/438e1720-6ada-4806-af03-dac385993b99" />
 
 ---
 
-## Stage B – **25% of users**
-
-### Medallia feedback
-- Responses: **TBD**  
-- CSAT (avg/distribution): **TBD**  
-- Task completion: Yes **TBD** / No **TBD** / No response **TBD**  
-- Selected quotes:  
-  - TBD
-
-### Google analytics
-| Metric Name | Value |
-|---|---|
-| Unique users (new flow) | TBD |
-| Views per user | TBD |
-| `/start-message` views | TBD |
-| `/select-care-teams` views | TBD |
-| “Select different care team” click rate | TBD |
-| Back breadcrumb events / rate | TBD |
-| Completion rate (start → submit) | TBD |
-| Step drop-offs | TBD |
-| Avg time to complete | TBD |
+## 11/10/25 – **25% of users**
 
 ### Datadog
+70% of the time users choose a "recent care team" over "a different care team".
+
+Day 1:
 | Metric Name | Value |
 |---|---|
-| VA.gov – Endpoint errors (new-flow URLs) | TBD |
-| SM API – Endpoint error count | TBD |
-| Unique users hitting new-flow endpoints | TBD |
-| Error types observed | TBD |
+| “Select different care team” click rate | 621 |
+| Select care team option on "recents" page | 1.57K |
+| Click on care system radio button | 376 |
+| Click on "can't find your care team" | 304 |
+| Click on "Update your contact list" | 122 |
+<img width="748" height="748" alt="Screenshot 2025-11-21 at 12 43 12 PM" src="https://github.com/user-attachments/assets/03a49782-6b1e-498c-865f-6f03633cf3b6" />
+
+
+Day 2:
+<img width="913" height="736" alt="Screenshot 2025-11-21 at 2 04 32 PM" src="https://github.com/user-attachments/assets/d75b5fab-e306-4ea5-9d51-1c24b63de085" />
+
+### Medallia feedback
+- I was trying to respond to [redacted] in Norfolk, NWI/Physical Therapy for resources she asked me to have her order. The secure messenger refuses to let me email her... or anyone other than the Holdrege VA CBOC.”
+- “Confused with the new message page, was it a change? Don't trust the change.”
 
 ---
 
-## Stage C – **50% of users**
-
-### Medallia feedback
-- Responses: **TBD**  
-- CSAT (avg/distribution): **TBD**  
-- Task completion: Yes **TBD** / No **TBD** / No response **TBD**  
-- Selected quotes:  
-  - TBD
-
-### Google analytics
-| Metric Name | Value |
-|---|---|
-| Unique users (new flow) | TBD |
-| Views per user | TBD |
-| `/start-message` views | TBD |
-| `/select-care-teams` views | TBD |
-| “Select different care team” click rate | TBD |
-| Back breadcrumb events / rate | TBD |
-| Completion rate (start → submit) | TBD |
-| Step drop-offs | TBD |
-| Avg time to complete | TBD |
+## 11/12/25 – **50% of users**
 
 ### Datadog
-| Metric Name | Value |
-|---|---|
-| VA.gov – Endpoint errors (new-flow URLs) | TBD |
-| SM API – Endpoint error count | TBD |
-| Unique users hitting new-flow endpoints | TBD |
-| Error types observed | TBD |
+- Messages sent: 5.8K messages sent with the new flow out of 12k total
+- Error rates: minimal - "Majority of errors  at ~1% are 403's  coming from expired vets-api token. These requests are automatically retried without any impact on the ultimate result of sending a message."
 
 ---
 
-## Stage D – **75% of users**
+## 11/13/25 – **100% of users**
 
 ### Medallia feedback
 - Responses: **TBD**  
@@ -137,58 +82,19 @@
 - Selected quotes:  
   - TBD
 
-### Google analytics
-| Metric Name | Value |
-|---|---|
-| Unique users (new flow) | TBD |
-| Views per user | TBD |
-| `/start-message` views | TBD |
-| `/select-care-teams` views | TBD |
-| “Select different care team” click rate | TBD |
-| Back breadcrumb events / rate | TBD |
-| Completion rate (start → submit) | TBD |
-| Step drop-offs | TBD |
-| Avg time to complete | TBD |
+User Feedback 11/13 - 11/17:
 
-### Datadog
-| Metric Name | Value |
-|---|---|
-| VA.gov – Endpoint errors (new-flow URLs) | TBD |
-| SM API – Endpoint error count | TBD |
-| Unique users hitting new-flow endpoints | TBD |
-| Error types observed | TBD |
-
----
-
-## Stage E – **100% of users**
-
-### Medallia feedback
-- Responses: **TBD**  
-- CSAT (avg/distribution): **TBD**  
-- Task completion: Yes **TBD** / No **TBD** / No response **TBD**  
-- Selected quotes:  
-  - TBD
-
-### Google analytics
-| Metric Name | Value |
-|---|---|
-| Unique users (new flow) | TBD |
-| Views per user | TBD |
-| `/start-message` views | TBD |
-| `/select-care-teams` views | TBD |
-| “Select different care team” click rate | TBD |
-| Back breadcrumb events / rate | TBD |
-| Completion rate (start → submit) | TBD |
-| Step drop-offs | TBD |
-| Avg time to complete | TBD |
-
-### Datadog
-| Metric Name | Value |
-|---|---|
-| VA.gov – Endpoint errors (new-flow URLs) | TBD |
-| SM API – Endpoint error count | TBD |
-| Unique users hitting new-flow endpoints | TBD |
-| Error types observed | TBD |
+**Reduced access to providers and past contacts**
+- I have two autoimmune diseases… now I cannot find endo and they are hard to get a hold of by phone.
+- Most of my doctors and dentist are missing on Send Message.
+- I used to get a list of all the Depts at Lake Nona… I cannot communicate with my providers.
+- You deleted all of my contact list and gave me just 5 on a list of over twenty I have sent messages to in the past.
+  
+**Adding or updating contacts not working (single report so far)**
+- I selected add contact list… none of the 37 contacts I chose got added.
+  
+**Search issue (single report so far)**
+- I was trying to contact the eye clinic in Columbia MO and it asked to type the first 3 letters of the facility. I typed COL and nothing. I tried every combination I could think of… eye clinic, Harry S Truman, Green Team… NOTHING. There used to be a drop down list.
 
 ---
 

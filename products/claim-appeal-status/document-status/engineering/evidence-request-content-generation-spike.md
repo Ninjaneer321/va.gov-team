@@ -23,8 +23,8 @@ Returns raw tracked items with fields such as `displayName`, `description`, `sta
 
 Applies two layers of transformation:
 
-1. [`override_tracked_items`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/service.rb) method fixes known incorrect statuses from Lighthouse. 
-2. [`apply_friendlier_language`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/service.rb) method enhances each tracked item by adding:
+1. [`override_tracked_items`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/service.rb) method fixes known incorrect statuses from Lighthouse. 
+2. [`apply_friendlier_language`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/service.rb) method enhances each tracked item by adding:
 
    **Text content overrides:**
    - `friendlyName`
@@ -35,7 +35,7 @@ Applies two layers of transformation:
    **Behavior override:**
    - `canUploadFile` (boolean - overrides Lighthouse's `uploadsAllowed`)
 
-All override content comes from [`lib/lighthouse/benefits_claims/constants.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/constants.rb).
+All override content comes from [`lib/lighthouse/benefits_claims/constants.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/constants.rb).
 
 ## 🔄 Current System Flow Diagram
 
@@ -47,7 +47,7 @@ flowchart TD
     B --> C["vets-api - apply_friendlier_language<br/>friendlyName<br/>activityDescription<br/>shortDescription<br/>supportAliases<br/>canUploadFile"]
 
     C --> D1["vets-website - uses override fields"]
-    C --> D2["mobile adapter - strips override fields"]
+    C --> D2["mobile adapter - omits override fields<br/>when building eventsTimeline"]
 
     D2 --> E["va-mobile-app - sees only raw displayName + description"]
 ```
@@ -89,13 +89,12 @@ item.shortDescription || item.activityDescription || truncateDescription(item.de
   - Does NOT use override fields
 
 **Mobile adapter transformation:**
-- [`lighthouse_individual_claims.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb) transforms tracked items into `eventsTimeline` format
-- **Issue:** The adapter does NOT pass through override fields (`friendlyName`, `activityDescription`, `shortDescription`, `supportAliases`, `canUploadFile`)
-- Mobile receives raw `displayName` and `description` from Lighthouse, missing all vets-api enhancements
+- [`lighthouse_individual_claims.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb) transforms tracked items into `eventsTimeline` format
+- **Issue:** In the [`create_tracked_item_event`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb) method (lines 144-167), the event hash only includes raw Lighthouse fields (`description`, `displayName`, `uploadsAllowed`) and does NOT copy the override fields (`friendlyName`, `activityDescription`, `shortDescription`, `supportAliases`, `canUploadFile`) that are already present in the `tracked_item` hash.
 
 **Current mobile data flow:**
 ```
-Lighthouse API → vets-api (applies overrides) → Mobile Adapter (strips overrides) → Mobile App (sees raw data)
+Lighthouse API → vets-api (applies overrides) → Mobile Adapter (omits override fields when building eventsTimeline) → Mobile App (sees raw data)
 ```
 
 **Note:** This is why mobile needs the abridged content feature - it's currently missing all override content entirely.
@@ -112,8 +111,8 @@ Not involved — evidence requests are **entirely dynamic**.
 
 To support VA mobile:
 
-1. Add mobile-specific content fields (e.g., `mobileDescription` or `mobileShortDescription`) into override mappings in [`lib/lighthouse/benefits_claims/constants.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/constants.rb).
-2. Enhance the [`apply_friendlier_language`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/service.rb) method to populate mobile-friendly text.
+1. Add mobile-specific content fields (e.g., `mobileDescription` or `mobileShortDescription`) into override mappings in [`lib/lighthouse/benefits_claims/constants.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/constants.rb).
+2. Enhance the [`apply_friendlier_language`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/service.rb) method to populate mobile-friendly text.
 3. Expose these new fields in existing vets-api responses.  
 4. Mobile app consumes these shorter variants.  
 5. Web continues using full-length fields.
@@ -121,7 +120,7 @@ To support VA mobile:
 ## 4. Override Behavior (Current Implementation)
 
 ### A. override_tracked_items  
-The [`override_tracked_items`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/service.rb) method corrects incorrect evidence-request statuses coming from BGS/Lighthouse.
+The [`override_tracked_items`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/service.rb) method corrects incorrect evidence-request statuses coming from BGS/Lighthouse.
 
 Examples:
 - `"PMR Pending"` → `"NEEDED_FROM_OTHERS"`
@@ -129,7 +128,7 @@ Examples:
 - `"NG1 - National Guard Records Request"` → `"NEEDED_FROM_OTHERS"`
 
 ### B. apply_friendlier_language  
-The [`apply_friendlier_language`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/service.rb) method enhances each tracked item by looking up its `displayName` in mapping constants defined in [`lib/lighthouse/benefits_claims/constants.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/constants.rb):
+The [`apply_friendlier_language`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/service.rb) method enhances each tracked item by looking up its `displayName` in mapping constants defined in [`lib/lighthouse/benefits_claims/constants.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/constants.rb):
 
 **Text content mappings:**
 - `FRIENDLY_DISPLAY_MAPPING` → `friendlyName`
@@ -142,7 +141,7 @@ The [`apply_friendlier_language`](https://github.com/department-of-veterans-affa
 
 ### C. Suppressed Evidence Requests
 
-Some tracked items are filtered out entirely via the [`SUPPRESSED_EVIDENCE_REQUESTS`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/service.rb) constant:
+Some tracked items are filtered out entirely via the [`SUPPRESSED_EVIDENCE_REQUESTS`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/service.rb) constant:
 - 'Attorney Fees'
 - 'Secondary Action Required'
 - 'Stage 2 Development'
@@ -155,7 +154,7 @@ This suppression is controlled by feature flags:
 
 **Problem:** Mobile app does not receive override fields from vets-api.
 
-**Root cause:** The mobile adapter ([`modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb)) transforms tracked items into `eventsTimeline` format but does not pass through the override fields added by the [`apply_friendlier_language`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/service.rb) method.
+**Root cause:** The mobile adapter ([`modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb)) transforms tracked items into `eventsTimeline` format but does not pass through the override fields added by the [`apply_friendlier_language`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/service.rb) method.
 
 **Current mobile adapter code:**
 ```ruby
@@ -178,7 +177,7 @@ end
 - Mobile needs to implement its own content handling or wait for adapter fix
 
 **Solution:**
-Update the [`create_tracked_item_event`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb) method to include override fields:
+Update the [`create_tracked_item_event`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb) method to include override fields:
 ```ruby
 event = {
   ...
@@ -307,14 +306,14 @@ No override exists → UI must rely on raw Lighthouse content.
 
 ### 1. How is override content currently implemented?
 
-Implemented entirely in vets-api, in [`lib/lighthouse/benefits_claims/constants.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/constants.rb).
+Implemented entirely in vets-api, in [`lib/lighthouse/benefits_claims/constants.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/constants.rb).
 
 - Not CMS-driven, not content-build-driven.
 - Applied through:
-  - Status overrides: [`override_tracked_items`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/service.rb) method
-  - Text overrides: [`apply_friendlier_language`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/service.rb) method
+  - Status overrides: [`override_tracked_items`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/service.rb) method
+  - Text overrides: [`apply_friendlier_language`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/service.rb) method
 - Overrides add human-readable evidence-request text (`friendlyName`, `shortDescription`, etc.).
-- Some tracked items are suppressed via the [`SUPPRESSED_EVIDENCE_REQUESTS`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/service.rb) constant.
+- Some tracked items are suppressed via the [`SUPPRESSED_EVIDENCE_REQUESTS`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/service.rb) constant.
 
 ### 2. What parts of the evidence request experience are dynamic vs static?
 
@@ -326,7 +325,7 @@ Per-item:
 - Title (`friendlyName` from override, or `displayName` as fallback)
 - Descriptions (`shortDescription || activityDescription` from override, or `description` as fallback)
 - Whether uploads are allowed (`canUploadFile` boolean override, or `uploadsAllowed` as fallback)
-- Status (sometimes corrected manually via the [`override_tracked_items`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/service.rb) method)
+- Status (sometimes corrected manually via the [`override_tracked_items`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/service.rb) method)
 - Support aliases (`supportAliases` from override)
 
 **vets-website fallback pattern:**
@@ -353,7 +352,7 @@ item.shortDescription || item.activityDescription || truncateDescription(item.de
 ### 3. What would need to change to serve abridged content to mobile?
 
 **Current mobile gap:**
-Mobile app currently does NOT receive override fields at all. The mobile adapter ([`lighthouse_individual_claims.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb)) transforms tracked items into `eventsTimeline` format but strips out all override fields:
+Mobile app currently does NOT receive override fields at all. The mobile adapter ([`lighthouse_individual_claims.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb)) transforms tracked items into `eventsTimeline` format and excludes all override fields:
 - **Text content overrides:**
   - `friendlyName` ❌ Not passed through
   - `activityDescription` ❌ Not passed through
@@ -366,12 +365,12 @@ Mobile only sees raw Lighthouse `displayName` and `description` fields, and raw 
 
 **Required changes:**
 
-1. **Mobile adapter** ([`lighthouse_individual_claims.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb)):
-   - Update the [`create_tracked_item_event`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb) method to pass through override fields
+1. **Mobile adapter** ([`lighthouse_individual_claims.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb)):
+   - Update the [`create_tracked_item_event`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb) method to pass through override fields
    - Add text override fields: `friendlyName`, `activityDescription`, `shortDescription`, `supportAliases`
    - Use `canUploadFile` override instead of raw `uploadsAllowed` when available
 
-2. **Mobile schema** ([`claims_and_appeals_get_claim.json`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/modules/mobile/app/schemas/claims_and_appeals_get_claim.json)):
+2. **Mobile schema** ([`claims_and_appeals_get_claim.json`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/mobile/app/schemas/claims_and_appeals_get_claim.json)):
    - Add override fields to trackedItems schema definition
    - Update schema contract validation
 
@@ -393,7 +392,7 @@ Mobile only sees raw Lighthouse `displayName` and `description` fields, and raw 
 
 **Proposed changes:**
 
-🔹 Add an explicit mobile abridged content variant in [`lib/lighthouse/benefits_claims/constants.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/constants.rb)
+🔹 Add an explicit mobile abridged content variant in [`lib/lighthouse/benefits_claims/constants.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/constants.rb)
 
 **Example:**
 ```ruby
@@ -403,7 +402,7 @@ MOBILE_SHORT_DESCRIPTION_MAPPING = {
 }
 ```
 
-🔹 Enhance the [`apply_friendlier_language`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/service.rb) method to populate:
+🔹 Enhance the [`apply_friendlier_language`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/service.rb) method to populate:
 - `mobileDescription` or equivalent
 
 🔹 Mobile app uses this field first
@@ -425,9 +424,9 @@ Since mobile currently doesn't receive override fields, the implementation needs
 - Implement fallback logic matching web pattern
 
 **Phase 2: Add mobile abridged variants**
-- Add `MOBILE_SHORT_DESCRIPTION_MAPPING` constant to [`lib/lighthouse/benefits_claims/constants.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/constants.rb)
-- Update the [`apply_friendlier_language`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/lib/lighthouse/benefits_claims/service.rb) method to populate `mobileDescription`
-- Update mobile adapter ([`lighthouse_individual_claims.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/main/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb)) to pass through `mobileDescription`
+- Add `MOBILE_SHORT_DESCRIPTION_MAPPING` constant to [`lib/lighthouse/benefits_claims/constants.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/constants.rb)
+- Update the [`apply_friendlier_language`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/lib/lighthouse/benefits_claims/service.rb) method to populate `mobileDescription`
+- Update mobile adapter ([`lighthouse_individual_claims.rb`](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/mobile/app/models/mobile/v0/adapters/lighthouse_individual_claims.rb)) to pass through `mobileDescription`
 - Update mobile components to prefer `mobileDescription` with fallback chain
 
 This phased approach ensures mobile gets the same content as web first, then adds mobile-specific abridged versions.

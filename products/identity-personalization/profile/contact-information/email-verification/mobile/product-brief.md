@@ -48,7 +48,8 @@ The VA wants to ensure that important email communications reach Veterans from t
     * The Authenticated Experience team notes that the team is holding on the annual reminder until post launch.
   * When a user adds a new contact email
 * The VA Mobile App team is currently working on an initiative that prompts the Veteran to update or add an email in their profile for Veterans who haven't updated or confirmed their email since March 1, 2025. The MHV email confirmation is planned to be removed by the end of the year (2025), but the timeline could be impacted by the shutdown.
-* Figma [file](https://www.figma.com/design/qe0ByBX1Ou5PFmVgeayzMG/Email-Verification?node-id=338-22740&t=xAGgVx41WfMhNxVP-0) for VA.gov email confirmation flow. 
+* Figma [file](https://www.figma.com/design/qe0ByBX1Ou5PFmVgeayzMG/Email-Verification?node-id=338-22740&t=xAGgVx41WfMhNxVP-0) for VA.gov email confirmation flow.
+* The Authenticated Experience team is looking to launch the Email Verification campaign on April 1st, 2026. TBD if the MFS team can also commit to a timeline that aligns with the Mobile App Release schedule. 
  
 ## VAHB Email Confirmation Feature MVP
 
@@ -56,9 +57,9 @@ The VA wants to ensure that important email communications reach Veterans from t
   * The MHV email confirmation is planned to be removed by the end of the year (2025), but the timeline could be impacted by the shutdown.
 * The email confirmation entry point includes:
   * Initial Launch (TBD on release, but Authenticated Experience is aiming for FY26Q1)
+  * When a user adds a new contact email (this would be prompted immediately when a user added a new email)
   * Annual reminder (this annual reminder is sent a year from when the user verified their email)
     * The Authenticated Experience team notes that the team is holding on the annual reminder until post launch. 
-  * When a user adds a new contact email (this would be prompted immediately when a user added a new email)
 * Contact email alerts (**these alerts will need to align with mobile formatting and standards**): 
   * Contact email not confirmed
   * Contact email confirmed 
@@ -69,7 +70,7 @@ The VA wants to ensure that important email communications reach Veterans from t
   * Resend contact email confirmation link
   * Temporary email send failure
   * Permanent email send failure
-  * Email confirmation link resent - **Noting that during Midpoint Review this is now appears in a modal** 
+  * Email confirmation link resent (modal) - **Noting that during Midpoint Review this is now appears in a modal** 
 * VAHB will utilize the same emails that the Authenticated Experience team creates. These include emails for user updates or adds a contact email address:
   * Confirm your email address
   * Email address confirmed
@@ -91,7 +92,7 @@ The VA wants to ensure that important email communications reach Veterans from t
 ## Solution Approach
  
 * The email verification user flow on the mobile app will align with the web user flow, so that this does not cause confusion for users.
-* Veterans will only see an alert to confirm their email if their login email does not match their email within the profile section of the app. This check will happen on the backend so that it is not disruptive to Veterans with matching emails.
+* Veterans will only see an alert to confirm their email if their login email does not match their contact email within the profile section of the app. This check will happen on the backend so that it is not disruptive to Veterans with matching emails.
 * If a Veteran confirms their email on VA.gov, this confirms a Veteran's email on VAHB; therefore, the alert will be dismissed on the VAHB. The same applies if a Veteran confirms their email through the email confirmation process on the mobile app, it will verify on VA.gov, and a Veteran would not see any additional alerts.
 * The mobile app will use the same landing pages as VA.gov, and will be developed by the Authenticated Experience team.  
 

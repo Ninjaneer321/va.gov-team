@@ -44,6 +44,7 @@ My colleagues and I work on va.gov, improving the site so that Veterans can subm
 
 Before we start, I have a few things to go over with you:
 
+* This session will last about an hour and fifteen minutes - I want to confirm that that still works for you. There are opportunities for breaks if you need them, just let us know and we will also prompt you during the session for a break.
 * This session is going to have **two parts**. In the first part, we want to hear about your experience getting disability benefits. In the second part, we’ll look at some designs we’re working on for part of the website and get your feedback.  
 * What I hope to do today is to get a sense of how to best assist Veterans with disability benefits. What I don’t want to do is to add to any **frustration** you may have had with getting benefits. We may review things that have caused you frustration in the past, and I want you to know up front that I can’t have an impact on your personal situation. However, I do want to hear about your frustrations with the process in case they are with things that we can improve on in the future.  
 * In this session, we want to hear **your honest opinions**. There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback.  
@@ -162,7 +163,10 @@ Perigean mentioned you help other Veterans with disability claims, is that right
 
 * What terms are particularly confusing for people?
 
+
 # Prototype tasks (20-25 min)
+
+Before we get into testing the prototypes, would you like to take a brief break?
 
 [Link to prototype](https://www.figma.com/proto/P6IUm8gN00H3Yi1XzN80fj/-526ez--Condition-information-entry?page-id=6174%3A18589&node-id=6524-47192&viewport=653%2C-7741%2C0.75&t=UWlAy6DgYnnYEKOL-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6524%3A47192&show-proto-sidebar=1)
 
@@ -184,6 +188,7 @@ I’m going to put a link to the prototype in the Zoom chat. You can navigate to
 For this scenario, imagine that you have a few different health conditions that you want disability benefits for, and you’ve come to the VA website today to apply. As you click through this prototype, you’ll notice there’s dummy data in here for an imaginary Veteran. This imaginary Veteran is already receiving disability benefits for a few conditions. Their data doesn’t match yours, but I’d like you to imagine that you really are this person and tell us what you would do as if this were your real situation.
 
 As you use the prototype, please verbalize your thoughts out loud so we can understand how it’s working for you.
+
 
 ## Prototype 1 / Task 1 setup info
 
@@ -278,8 +283,8 @@ Before you click on anything, I want to ask you some questions on this screen.
   * Why do you think that happened?  
   * What do you think about that?  
 * *(If they don’t notice, explain that Asthma and Hypertension are no longer available as options.)*  
-* Why do you think that happened?  
-* What do you think about that?
+  * Why do you think that happened?  
+  * What do you think about that?
 
 Now let’s add one more condition. This scenario is a little more complicated.
 
@@ -316,7 +321,7 @@ Great\! Thank you for walking through those different scenarios with me. I’d l
 
 ## Prototype 2 (10-15 min)
 
-OK, we’re now going to switch to the other prototype. We’ll walk through the same set of tasks, but the screens are a little bit different. Please continue to verbalize your thoughts as we go.
+OK, we’re now going to switch to the other prototype. We’ll walk through the same set of tasks, but the screens are a little bit different. Please continue to verbalize your thoughts as we go. Before we begin, would you like to take a brief break now?
 
 *If necessary, prompt participant to click the Continue button to get to End of Prototype screen.*
 
@@ -437,8 +442,8 @@ Before you click on anything, I want to ask you some questions in this screen.
   * Why do you think that happened?  
   * What do you think about that?  
 * *(If they don’t notice, explain that Asthma and Hypertension are no longer available as options.)*  
-* Why do you think that happened?  
-* What do you think about that?
+  * Why do you think that happened?  
+  * What do you think about that?
 
 Now let’s add one more condition. This scenario is a little more complicated.
 

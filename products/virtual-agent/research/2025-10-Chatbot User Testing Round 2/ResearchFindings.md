@@ -25,64 +25,73 @@ demographics:
   dependents: X
   VA_staff: 
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 4
+    "45-54": 3
+    "55-64": 3
+    "65+": 6
+    unknown: 0
   education:
-    high_school: X
+    high_school: 1
     some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    associates: 1
+    bachelors: 6
+    masters: 6
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 11
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 3
+    black: 5
+    hispanic: 2
+    biracial: 5
+    asian: 1
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 1
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
+  - "The chatbot is generally well-received, appreciated for concise answers, hyperlinked instructions, and clarity."
+  - "Efficiency was praised compared to traditional support (“I liked that I didn’t have to wait on hold”)."
+  - "Most found the format easy to scan/read, crediting bullet points, links, and breaks in information."
+  - "Multiple sessions (especially among older or less tech-savvy users) noted the value in direct links and succinct instructions."
+  - "Several participants indicated that answers were at a 'third grade reading level,' perceived as accessible."
   # etc.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Clarifying Questions: Participants want fewer generic “please clarify” prompts; chatbot should proactively guide users to rephrase or select from options."
+  - "Accessibility: Session 8 and feedback from visually impaired participants highlight need for streamlined navigation (screen reader click cues, skip navigation), clearer input guidance, and more auditory feedback."
+  - "Choice Overload: Some feedback that too much detail or too many steps can overwhelm or slow the process."
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Resolution Rate: High—Most participants reported being able to resolve issues (average 4.7/5 confidence in task execution)."
+  - "First Contact Resolution: Average participant required 1-2 rephrasings per scenario to get a tailored answer, indicating room for improvement."
+  - "User Satisfaction: 4.8/5 (average), consistent with Domo-reported satisfaction goals."
+  - "Time to Resolution: Chatbot outperformed phone support in speed; delays only occurred when clarification was needed."
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "High satisfaction with general chatbot usability, especially for primary account issues."
+  business: "Strong alignment with KPIs, especially resolution rate and user satisfaction."
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Longitudinal Use: Follow-up with participants over weeks/months as suggested by Session 8 for more robust insight (“I haven’t interacted with it enough to give a definitive answer”)"
+  - "Edge Case Simulations: More accessibility testing and rare-case recovery (e.g., multiple lockout scenarios, name-change/identity mismatch)."
+  - "Mobile Device/Browser Compatibility: Session 7 notes Safari issues not present in Chrome; cross-platform reliability needs improvement."
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Expand Testing for Non-English Speakers and Rural Users: No explicit feedback collected from these groups; future sessions should target these demographics."
+  - "Caregiver & Proxy Use Cases: Additional focus needed, given mixed feedback on authentication and permission issues."
+  - "Mobile and tablet platforms"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Non-English Speakers: No test participants explicitly mention language barrier."
+  - "Rural/Low Bandwidth Users: No tests for low-connectivity or device constraints."
+  - "Severe Cognitive Impairment: No assessment of users with cognitive disabilities beyond “cognitive load manageable.”"
 secondary_research:
   - "Web analytics"
   - "SME interviews"
@@ -91,23 +100,19 @@ synthesis_tools_used:
   - "Affinity Mapping"
 ---
 
-<br>**This is a template, PLEASE MAKE A COPY**
-
 ---
 
-# [Study] Research Findings 
+# Chatbot User Testing - Round 2 Research Findings 
 
-**Office of the CTO - Digital Experience (OCTO-DE), Product Name, Team Name**
+**Office of the CTO - Digital Experience (OCTO-DE), Chatbot Team**
 
-**Date:** MM/DD/YYYY
+**Date:** 11/21/2025
 
-**Contacts:** [Researcher/Designer 1], [Researcher/Designer 2]
+**Contacts:** Lucas Wright
 
 **[Research Readout (PDF)](link-here)**  
 *Add a link to your research readout deck, if available.*
 
-> [!TIP] 
-> Add "user-content-" in front of each link generated by Markdown in order to move the focus correctly for keyboard navigation.
 
 **Jump to:**
 - [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
@@ -121,8 +126,20 @@ synthesis_tools_used:
 - [Research participants](#user-content-research-participants)
 
 ## Research Goals
-*Provide context for this research by explaining how it fits into the Veteran’s journey.*  
-[See the Veteran journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)  
+The VA Chatbot aims to help Veterans self-serve and access information on VA.gov more easily, ultimately reducing call volume and supporting task completion without human assistance. The product assumes that improved digital experiences can shift behavior away from phone-based support, but gaps may exist in understanding edge cases, digital literacy, and accessibility for all user groups. The use case of this specific project is login or sign in questions, with a specific focus on unauthenticated questions for the chatbot. The long term goal of the chatbot is to have it in the bottom right corner of every page of VA.gov for use by Veterans and it is well documented that location of the chatbot is a poinpoint for many Veterans at the current time.
+
+### Goals
+
+**Clarity & Focus:**
+
+The goals are clear, actionable, and generally measurable (accuracy, readability, pain points). However, specific success metrics (e.g., target accuracy rates, satisfaction thresholds) would make them more robust.
+
+
+`1.` **Increase the accuracy of the answers provided by the VA chatbot.**
+
+`2.` **Present these answers in an easy to read, easy to follow format so Veterans can get the answers they need to complete the tasks they need to on VA.gov.**
+
+`3.` **Improve the design by finding pain points in the current proof of concept designs to accomidate any/all level of users.** 
 
 **Guiding Questions:**  
 - What are the key moments this tool supports in the Veteran’s journey?  
