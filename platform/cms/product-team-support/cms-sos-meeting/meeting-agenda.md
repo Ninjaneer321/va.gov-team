@@ -6,16 +6,24 @@ This Scrum of Scrum (SoS) meeting is to ensure all teams working with the Drupal
 * [Flagged Facilities](https://github.com/orgs/department-of-veterans-affairs/projects/1859/views/1)
     * tickets have been updated
     * Update to URL publishing process
+        * Publishing the URL Redirect before the URL of the Facility in Drupal causes less time for the page to be a 404 so we will be updating the runbook and Mural diagram to match this change.
     * Setting up a Flagged Facility touchpoint since that is a different audience
+       * Item to add: touch base on the current tickets and make sure they are ready for handoffs
+       * Set up cadence for once a sprint
+       * Kelly will reach out to Renata and Alex and keep Michelle and Jon as optional
+       * Sitewide facilities will create the alias and let CMS team know via GH ticket and Slack (and update the status of the ticket)
 * Template Migration
-    * Launching finished templates in December:
+    * Launching finished templates in December (no firm dates yet due to 11/26/2025 code freeze):
+        * VAMC Billing & Insurance (11/25/2025)
         * VAMC Health Services listing
         * VAMC Operating Status
         * VAMC Policies
         * Vet Center Locations list
-        * VAMC Billing & Insurance
         * VAMC Register for care
         * VAMC Medical Records Office
+     * QA needs for upcoming templates
+        * See notes in Template Migration sync: https://docs.google.com/document/d/1Q-0CvPaMBzo6xBCGUU0ofTJIV-KgpEvKlN99QJqCP1o/edit?tab=t.0
+        * VAMC Detail Page and Benefit Detail Page are the first templates that should be ready
 
 11/13/2025
 * [Flagged Facilities](https://github.com/orgs/department-of-veterans-affairs/projects/1859/views/1)

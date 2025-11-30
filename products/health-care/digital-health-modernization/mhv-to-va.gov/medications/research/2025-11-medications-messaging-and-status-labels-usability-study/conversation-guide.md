@@ -41,7 +41,7 @@ description: "Conversation guide for remote moderated usability testing of medic
 
 * Use [#feedback-backchannel](https://dsva.slack.com/messages/C40B45NJK/details/) in Slack for real-time feedback from observers.
 * Mute your Slack notifications.
-* Send out the [observer instructions](https://depo-platform-documentation.scrollhelp.site/research-design/Observer-guidelines.1622311177.html) to your observers (Slackbot will do this for you if you [...]
+* Send out the [observer instructions](https://depo-platform-documentation.scrollhelp.site/research-design/Observer-guidelines.1622311177.html) to your observers (Slackbot will do this for you if you type "observer instructions" into #feedback-backchannel).
 * Sign into Zoom website via Google as Perigean w/ credentials provided and start Zoom meeting 5-10 minutes before
 
 
@@ -68,33 +68,38 @@ Before we start, I want to give you an idea of what this session will be like:
 
 
 
-* **This entire session should take up to 60 minutes. **I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
-* **In this session, we want to hear your honest opinions**. We are not testing your ability. We just want to improve these tools to better meet Veterans’ needs. I will not be offended by any opinio[...]
-* **You'll be interacting with a test environment. **This is a website with test data that may not be what you would expect to find in someone’s medical records. Since it's a demo, none of your acti[...]
+* **This entire session should take up to 60 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic. We may also end sooner than that, and if we have covered everything I want to cover I'd love to give your time back to you.
+* **In this session, we want to hear your honest opinions**. We are not testing your ability. We just want to improve these tools to better meet Veterans’ needs. I will not be offended by any opinions you express, and I welcome your feedback.
+* **You'll be interacting with a test environment.** This is a website with test data that may not be what you would expect to find in someone’s medical records. Since it's a demo, none of your actions will affect your actual medical information or benefits.
 * **If for any reason and at any time you want to stop the session, please let me know.**
 
-I want to make sure that you're comfortable with a few of my teammates assisting me on this call. I have one teammate who will be taking notes to make sure that we accurately represent your feedback. [...]
+I want to make sure that you're comfortable with a few of my teammates assisting me on this call. I have one teammate who will be taking notes to make sure that we accurately represent your feedback. We won't link any notes to your name or other personal information. The others are just here to observe. Do I have your permission to let them into the session?
 
-*[If yes: ]* Thank you. When they are connected, I will ask them to make a quick introduction.
+_[If yes:]_ Thank you. When they are connected, I will ask them to make a quick introduction.
 
-*[If no:] * I appreciate you letting me know. Please give me a quick moment to let them know.
+_[If no:]_ I appreciate you letting me know. Please give me a quick moment to let them know.
 
 *[When observers are connected to audio, ask them to introduce themselves]*
 
 
 
-* Are you comfortable if I record my screen and audio as we talk today?  We use the recordings to confirm that we have captured your opinions accurately. The recordings are destroyed after we comple[...]
-* *[If yes: ] *Once I start recording, I am going to confirm that you are ok with me recording this session once more.
+Are you comfortable if I record my screen and audio as we talk today?  We use the recordings to confirm that we have captured your opinions accurately. The recordings are destroyed after we complete analysis, and none of your comments will be attributed to you directly.
+
+_[If yes: ]_ Once I start recording, I am going to confirm that you are ok with me recording this session once more.
 
 *[Start recording.]*
 
 
 
-* I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
-* We like to share de-identified clips of these sessions with our teammates and stakeholders so they can see how screen reader users interact with our website. Do I have your permission, [name] to use[...]
+I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
+
+We like to share de-identified clips of these sessions with our teammates and stakeholders so they can see how users interact with our website. Do I have your permission, [name] to use clips from your session?
 
 
 ---
+## Your set-up - 1 minutes
+
+Before we begin, can you tell us a bit about your computer setup (your device, your settings, any assistive technology tools or strategies you use when you're working with VA.gov)?
 
 
 ## Screen share/Remote share - 2 minutes
@@ -105,25 +110,24 @@ Would you like assistance sharing your screen?
 
 
 
-* *[if no:]* Go ahead and share your screen for me now.
+_[If no:]_ Go ahead and share your screen for me now.
 
-*[follow protocol for particular OS (Android/iOS)]*
+*[Follow protocol for particular OS (Android/iOS)]*
 
-*[iPhone screenshare instructions](https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share)*
-
-*[Android screenshare instructions](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)*
-
+* [iPhone screenshare instructions](https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share)
+* [Android screenshare instructions](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)
+* [Link to screenshare instructions for AT users once we know what AT participants are using](https://depo-platform-documentation.scrollhelp.site/research-design/research-with-assistive-technology-users)
 
 ---
 
 
 ## Participant Coaching
 
-Let’s pause right here on this screen.
+Before we begin, take a minute or two to look around this page.
 
-As you can see, this is not your My HealtheVet account. If you look in the top right corner where your name would appear, it says* [name]. [Name]* is our test user. However, we would like you to imagi[...]
+As you can see, this is not your My HealtheVet account. If you look in the top right corner where your name would appear, it says Emma which is our test user name. However, we would like you to imagine this is your account with your own data, not someone else’s.
 
-Part of understanding how well this product works is to know what you, the user, are thinking and feeling while you are using it. As much as possible today, we would like you to say aloud anything you[...]
+Part of understanding how well this product works is to know what you, the user, are thinking and feeling while you are using it. As much as possible today, we would like you to say aloud anything you are thinking or feeling no matter how significant or insignificant you may think it is. Imagine that you are doing the tasks today and I am on the phone with you and can’t see your screen. Does that make sense?
 
 If you are ready, we can begin. 
 
@@ -133,66 +137,77 @@ If you are ready, we can begin. 
 
 ## First task: Status comprehension
 
-First, we’re going to navigate to the medications page by selecting the medications link in the top menu. 
+First, we’re going to open the Figma prototype link that you were sent. This prototype is interactive in that the filter can be used to filter the medication list that appears below.
 
-*From Medications page:*
+Now we'll begin our questions. First:
 
-
-
-1. Tell me what you are looking at.
-2. What can you tell me about what’s going on with your prescriptions.
-3. What can you tell me about x medication? (make med in “**active** status”)
-    1. Probe: what does that mean to you?
+1. Tell me what you see on the page.
+2. What can you tell me about what’s going on with your prescriptions?
+3. What can you tell me about your PEPCID medication? (make med in “**active** status”)
+    1. Probe: what does the **active** status mean to you?
     2. What is going on with your med? (If needed, call attention to status) and probe: 
         1. What do you think “active” means?
-        2. What do you think happens next for your medication?
-4. What can you tell me about x medication? (make med in “**in progress** status”)
+        2. On a scale of 1-5, how confident are you in that answer?
+        3. What do you think happens next for your medication?
+        4. How would you feel if you saw this status on an important medication?
+4. What can you tell me about your LOPRESSOR medication? (make med in “**in progress** status”)
     1. Probe: what does that mean to you?
     2. What is going on with your med? (If needed, call attention to status) and probe: 
         1. What do you think “in progress” means?
-        2. What do you think happens next for your medication?
-5. What can you tell me about x medication? (make med in “**inactive** status”)
+        2. On a scale of 1-5, how confident are you in that answer?
+        3. What do you think happens next for your medication?
+        4. How long would you expect a medication to stay 'in progress'?
+        5. If you saw this status for several days, what would you think?
+        6. How would you feel if you saw this status on an important medication?
+5. What can you tell me about AMOXICILLIN medication? (make med in “**inactive** status”)
     1. Probe: what does that mean to you?
     2. What is going on with your med? (If needed, call attention to status) and probe: 
-        3. What do you think “inactive” means?
-        4. What do you think happens next for your medication?
+        1. What do you think “inactive” means?
+        2. On a scale of 1-5, how confident are you in that answer?
+        3. What do you think happens next for your medication?
+        4. How would you feel if you saw this status on an important medication?
 6. Now, imagine that you take a medication regularly. You notice that you are running out of pills. Using this page, do you think you could get more of your med?
-7. Imagine that you had a bad rash a couple of years ago. Your doctor gave you a medication and it went away. Now, that rash is back. Do you think that you could find the medication you took on this p[...]
-     Notice: Do they filter? Do they think of status or just date?
-     Probe: What status might that medication be in?
-9. Ok, now imagine that you have successfully requested a refill for that rash medication. Where would you look for it?
+7. Imagine that you had a bad rash a couple of years ago. Your doctor gave you a medication and it went away. Now, that rash is back. Do you think that you could find the medication you took on this page? What would you look for?
+    1. [*Notice:] Do they filter? Do they think of status or just date?*
+    2. Probe: What status might that medication be in?
+8. Ok, now imagine that you have successfully requested a refill for that rash medication. Where would you look for it?
     1. Probe: What status would that medication be in?
+9. How would you differentiate between a 'refill' and a 'renewal'? Is there a difference between those terms to you?
 
-*Things to watch out for:*
-
-
+*[Things to watch out for:]*
 
 * *Does the participant seem confused by the statuses?*
 * *How if at all do they compare it to the current statuses?*
 
-*[After feedback is shared]*
-
-Great, thank you for that feedback. Some quick questions before we move onto our next task
+Great, thank you for providing your thoughts on these statuses. Some quick questions before we move onto our next task:
 
 
 
-* What did you think of the prescription statuses?
-* Do you think these are the same statuses that you currently use on MHV on VA.gov?
-* How would you like to learn that statuses have changed, if at all?
+* Were you able to access status information for the medications you looked at?
+* What did you think of the different prescription statuses, and how they are described?
+* Does anything about the different statuses feel overwhelming or hard to process?
+* Have you seen a status like this before on My HealtheVet? How is this similar or different from what you're used to seeing?
+* How would you like to learn that the words we use to describe statuses have changed, if at all?
+* [For AT users:] Did any part of reviewing the statuses feel harder because of using *[a screen reader] or [screen magnification]*?
 * Anything else about statuses that you’d like to share?
 
-Thank you! Now I’d like you to do something else for me..
+Thank you! Now I’d like you to do something else for me...
 
 
 ## Second Task: Request a renewal
 
-You have a prescription for _______ that your pharmacy told you is out of refills. What would you do if you needed more meds?
+Now you're going to log into the staging site for VA.gov with the test user login information you were sent. 
 
+_[Include instructions here on how to log into the test user or will they have already done this?]_
+
+### List page
+
+**You have a prescription for CLOBETASOL PROPIONATE 0.05% CREAM that your pharmacy told you is out of refills. What would you do if you needed more meds?**
 
 
 * Where would you go to request more of this medication?
 
-*[Let participant finish task with minimal interruption]*
+*[Let participant finish task with minimal interruption.]*
 
 *[If participant is struggling:]*
 
@@ -208,7 +223,9 @@ You have a prescription for _______ that your pharmacy told you is out of refill
 * *Does the participant comment on the ease of locating the link?*
 * *Does the participant seem pleased/frustrated with where the link is located?*
 
-Now that you’ve found the renewal link, how would you request more of this medication?
+
+
+**Now that you’ve found the renewal link, how would you request more of this medication?**
 
 *[If participant is struggling:]*
 
@@ -217,19 +234,33 @@ Now that you’ve found the renewal link, how would you request more of this med
 * What are you looking for?
 * What would you do next?
 
-*[If they couldn’t find the renewal link]* *[navigate participant to the medication with renewal link]:*
+*[If they couldn’t find the renewal link, navigate participant to the medication with renewal link]:*
 
 
 
-* Do you see the words “Request a renewal”? What do you think that means?
-* Where would you expect to find that link? 
+**Do you see the words “Request a renewal”? What do you think that means?**
+* Where would you expect to find that link?
+* What do you expect to happen when you select the link?
 
-*[Prefilled Renewal Request Message Content]*
+### Modal dialog
+
+* What do you think this screen is for?
+* What do you think you should do next?
+
+*Things to watch for:*
+* *Does the modal cause the user hesitation or confusion about going to messaging?*
+
+### Select a care team
 
 
-* "Who would you select here, and why?"
-* "If you weren't sure which provider to choose, what would you do?"
+* Who would you select here, and why?
+* If you weren't sure which provider to choose, what would you do?
 
+*Things to watch for:*
+* *Does the user express confusion about selecting a provider?*
+
+
+### Prefilled Renewal Request Message Content
 
 * What do you notice on this page?
 * Would you edit or add additional information to this message at all?
@@ -237,51 +268,41 @@ Now that you’ve found the renewal link, how would you request more of this med
     * If yes, what would you change in the message?
 * What would you do next to request more medication?
 
-*[After task completion]*
+*Things to watch for:*
+* *Does the user edit or change the prefilled medication information?*
+* *Do screen reader users recognize that there is prefilled medication information, and what they need to do with it?*
 
 
+### Confirmation: medications list page
 
-* How easy or difficult did you find the process of requesting a renewal for this medication?
-* What would you change about this process?
-* What would you keep about this process?
-
-
-*[If they weren’t able to successfully request a renewal after finding the link]*
-
-
-
-* *[navigate participant to the step where they incorrectly navigated away]*
-* What if you saw this page [page with error request] instead when requesting a renewal? What would you do?
+* Where are you now?
+* How do you know your request was successful?
+* What do you expect to happen next?
+* How will you know when your renewal request has been processed?
+* Imagine you're telling a friend about this experience. Would you tell them this is easy or hard to use? Why?
 
 *Things to watch for:*
-
-
-
-* *Does the modal cause the user hesitation or confusion about going to messaging?*
-* *Does the user express confusion about selecting a provider?*
-* *Does the user edit or change the prefilled medication information?*
 * *Does the user notice the success alert after sending the renewal request?*
+* *Does the user know where they are after submitting the renewal request?*
+
+*[After task completion]*
+
+Thank you for completing that task. I have a few follow up questions for you:
+
+* How easy or difficult did you find the process of requesting a renewal for this medication?
+* Did anything in the process feel overwhelming or hard to process?
+* What would you change about this process?
+* What would you keep about this process?
+* _[For AT users:]_ Did any part of of the process feel harder because of using *[a screen reader] or [screen magnification]*?
+* _[For AT users:]_ If you were teaching someone else who uses *[a screen reader] or [screen magnification]* to do this, what would you warn them about?
 
 
----
-
-
-## AT Interview – 5 minutes
-
-Our goal in these studies is to make sure we represent the point of view of all users. This is why we are committed to recruiting participants who rely on assistive technology so that we are designing[...]
-
-We are collecting information on how our participants’ reliance on assistive technology may affect their ability to use My HealtheVet. Would you be willing to answer a couple of questions today?
-
-*[if no]*
-
-That’s no problem.
-
-*[if yes]*
+*[Ask the following questions to all users whether they were able to complete the reqeust or not.]*
 
 
 
-* How long have you been using [AT]?
-* How does using [AT] affect your use of websites?
+* "Before we wrap up Task 2, I'd like to show you one more thing. 
+Imagine you tried to request a renewal but saw this message [show error]. What would you do next?
 
 
 ---
@@ -296,13 +317,12 @@ That’s no problem.
 3. Of everything you looked at today, what would you say was the most confusing to you and why?
 4. Is there anything else you would like to share that we have not covered?
 
-
 ---
 
 
 ## Consent to use video clips
 
-I want to circle back and re-confirm that you are comfortable if we were to share a video clip of this session with our VA partners? Just to remind you, we will remove all information that could be us[...]
+I want to circle back and re-confirm that you are comfortable if we were to share a video clip of this session with our VA partners? Just to remind you, we will remove all information that could be used to identify you before sharing and will only share the videos with VA partners with the purpose of improving VA.gov and other digital experiences.
 
 If yes: Is there any part of our discussion you would NOT want shared in a video clip?
 

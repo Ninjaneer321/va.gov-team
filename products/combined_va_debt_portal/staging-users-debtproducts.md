@@ -1,17 +1,12 @@
 
-# Debt Resolution Staging Users by Product
+# Debt/Copay Details for Staging Users
 
-# Staging URLS
-Product  | Staging URL |Use Cases|
-|--|--|--|
-| Combined Debt Portal| https://staging.va.gov/manage-va-debt/summary| [Use Cases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/use_cases.md)|
-| Benefit Overpayment Debts |https://staging.va.gov/manage-va-debt/summary/debt-balances
-| Current Copay Balances |https://staging.va.gov/manage-va-debt/summary/copay-balances
-|FSR| https://staging.va.gov/manage-va-debt/request-debt-help-form-5655/introduction| [Use Cases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/Financial-Status-Report/fsr-use-cases.md) |
-|Digital Dispute| https://staging.va.gov/manage-va-debt/dispute-debt/introduction|
+For a high-level overview of use cases in relation the user list below, see:\
+**[Combined VA Debt Portal - Use Case Overview](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/use_cases.md)**
+<br/>
+<br/>
 
----
-# Staging Users for Debt Portal 
+## Staging Users for Debt Portal 
 
 | User | VBA - Benefit Overpayments                                                                               | VHA - Medical Copays                                                                                                                |
 |------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
@@ -42,38 +37,29 @@ Product  | Staging URL |Use Cases|
 | 95   | Empty State:Veteran has neither a copay bill nor debt                                                    | Empty State:Veteran has neither a copay bill nor debt                                                                               |
 | 228  | 2 Benefit Overpayments (one is comp and pen with offset message and one is education)                    | None                                                                                                                                |
 </br>
-</br></br>
-
-## Debt Resolution Staging User Notes
-- Users 80 thru 95 are reserved for the Debt Resolution Team
-- Debts will be added to existing users via the mockdata repo
-
-
 </br>
-</br></br>
 
-❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖
+## User Notes
+- Users 80 thru 95 are reserved for the Debt Resolution Team
+- Debts are added/modified to existing users via the mockdata repo
+</br>
+</br>
 
-### Medical Device Reordering Tool (mDOT) Staging Users
+## Medical Device Reordering Tool (mDOT) Staging Users
 [Staging URL](https://staging.va.gov/health-care/order-hearing-aid-batteries-and-accessories/)
 
 **Note:** *Do not **submit** the order form! The mock data will be distorted because items can only be reordered once every 6 months!*
  |Staging User  |Use Case|
 |--|--|
 | test-user-14 |  Veteran who can reorder medical devices.
-<br/>
-
 </br>
-</br></br>
+</br>
 
-❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖
-
-
-
-## Test User Dashboard (TUD)
-- Is behind the SOCKS proxy, so you have to have that setup in order to use TUD.
-- To use TUD, start SOCKS, then go to [https://tud.vfs.va.gov/](https://tud.vfs.va.gov/) and login with GitHub.
-- [https://depo-platform-documentation.scrollhelp.site/developer-docs/Using-the-Test-User-Dashboard.1910702416.html](https://depo-platform-documentation.scrollhelp.site/developer-docs/Using-the-Test-User-Dashboard.1910702416.html)
+## Test User Dashboard (TUD) 
+This section needs updating as TUD isn't functioning properly and SOCKS access is deprecated.
+- ~~Is behind the SOCKS proxy, so you have to have that setup in order to use TUD.~~
+- ~~To use TUD, start SOCKS, then go to [https://tud.vfs.va.gov/](https://tud.vfs.va.gov/) and login with GitHub.~~
+- ~~[https://depo-platform-documentation.scrollhelp.site/developer-docs/Using-the-Test-User-Dashboard.1910702416.html](https://depo-platform-documentation.scrollhelp.site/developer-docs/Using-the-Test-User-Dashboard.1910702416.html)~~
 
 
 

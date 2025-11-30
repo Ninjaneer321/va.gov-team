@@ -112,6 +112,12 @@ TBD
 **`return_to_meds_page`** — Indicates confusion or uncertainty if Veterans navigate back instead of sending.  
 **`session_duration_in_editor`** — Highlights confidence vs hesitation; may reveal timeouts if sessions expire before sending.
 
+## 2.A GA4 event tracking spreadsheet (proposed 11/24)
+
+The full GA4 event plan is included below, outlining priorities, custom-tagging needs, and where VSignals or Datadog already provide coverage. This spreadsheet serves as the single source of truth for all proposed analytics instrumentation for the renewal flow.
+
+[GA4 events with tagging info_wip.xlsx](https://github.com/user-attachments/files/23731833/GA4.events.with.tagging.info_wip.xlsx)
+
 ---
 
 ## 3. Datadog monitoring (technical-reliability)
@@ -141,3 +147,8 @@ We’ll monitor Medallia and VSignals feedback for anything related to the renew
 - Messages send without errors  
 - Low drop-offs  
 - No new concerning user feedback  
+
+---
+
+
+
