@@ -2,6 +2,88 @@
 
 - Current Sprint first
 
+## 📆 Sprint 8 (Dec 3 – Dec 16) 
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goal summary
+- [ ] **SPRINT GOAL** 10-10d: Continue Staged Launch of 1010d/10-7959c Merge
+- [ ] **SPRINT GOAL** 10-10d v2: Address critical launch issues, including record updates and a priority bug fix
+- [ ] **SPRINT GOAL** 10-10d v2: Tricare API Discovery
+- [ ] **SPRINT GOAL** 10-7959c: Implement backend changes and feature toggles to generate the new standalone PDF
+- [ ] **SPRINT GOAL** 10-7959c: FE changes for new PDF to review/update the intro page, confirmation page, signer/bene/veteran chapter, medicare chapter, and ohi chapter
+- [ ] **SPRINT GOAL** All forms: Discovery for preventing stale data and documents from being submitted to Pega
+- [ ] **SPRINT GOAL** All forms: Troubleshoot and fix issues with VES JSON
+- [ ] **SPRINT GOAL** All forms: Monitor incidents - Add New Logs
+- [ ] **SPRINT GOAL** UX: 10-10d: Tricare Eligibility Research Planning
+- [ ] **SPRINT GOAL** UX: 10-7959c: Add MBI to OHI form
+- [ ] **SPRINT GOAL** UX: 10-7959c: Add Medicare Future Eligibility to OHI form
+- [ ] **SPRINT GOAL** UX: 10-7959f-2: Synthesize research study findings
+- [ ] **SPRINT GOAL** UX: All forms: November Monthly Metrics & Medallia
+- [ ] **STRETCH GOAL** 10-7959a: Update Itemized Billing Statement/EOB Language
+- [ ] **STRETCH GOAL** 10-7959c: Proof of Concept to Combine Front and Back OHI/Medicare Card Images
+
+
+
+##
+### 10-10d
+- [ ] **SPRINT GOAL** 10-10d: Continue Staged Launch of 1010d/10-7959c Merge
+- [ ] **SPRINT GOAL** 10-10d v2: Address critical launch issues, including record updates and a priority bug fix
+  - [ ] 10-10d v2: Deploy fix for break statement interrupting 10-10d v2 launch
+  - [ ] 10-10d v2: Identify and correct all lost submissions from 10-10d v2 launch
+
+
+##
+### 10-7959a
+- [ ] **SPRINT GOAL** 
+  - [ ] 
+
+
+## 
+### 10-7959c
+- [ ] **SPRINT GOAL** 10-7959c: Implement backend changes and feature toggles to generate the new standalone PDF
+  - [ ] BE changes for new PDF to setup feature toggle
+  - [ ] 10-7959c: Generate new PDF for stand alone
+
+
+## 
+### 10-7959f-1 FMP Enrollment
+- No work this sprint
+
+
+##
+### 10-7959f-2 FMP Claims
+- [ ] **SPRINT GOAL** 
+  - [ ] 
+     
+
+##
+### All forms or Tech Debt
+- [ ] **SPRINT GOAL** 
+  - [ ] 
+
+
+## 
+### STRETCH GOALS
+- [ ] **STRETCH GOAL** 
+  - [ ] 
+
+
+##
+### WHAT'S NEXT
+- **FE**
+- **UX**
+- [ ] 
+  - [ ] 
+- **BE**
+- [ ] 
+  - [ ] 
+
+
+##
+### Team PTO
+
+
+
 ## 📆 Sprint 8 (Nov 19 – Dec 2) 
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 

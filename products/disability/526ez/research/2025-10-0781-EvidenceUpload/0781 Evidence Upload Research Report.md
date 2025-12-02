@@ -70,9 +70,9 @@ Note to reader:
 
 * Not all participants made it through the entire prototype. In the final research report, we will be counting the number of people who have certain opinions, but they will be caveated with a “out of X number of people who saw this screen.”
 
-```Overarching architecture```
+### Overarching architecture
 
-### **Finding #1: Most participants struggled to understand the differences between the three sections of the supporting evidence upload experience.** 
+#### **Finding #1: Most participants struggled to understand the differences between the three sections of the supporting evidence upload experience.** 
 
 In the prototype, the participants were taken through three sections within the Supporting Evidence step:
 
@@ -95,15 +95,17 @@ Decision page for other documents: 8 out of 8 participants who saw the decision 
 * *“So you have a clinical records request from the VA…then you have a second supporting documents request, and now you have another documents request. Why is… so it's like a main, an other, and an other other?” –P8*  
 * *“Not sure why we’re talking about benefit forms there if it’s about claims and supporting docs. Might want to talk about benefits after you get the claim, not during the submission process. It could be confusing because you’re not done yet.” – P5*
 
-For the last 3 research sessions, we added labels that indicated to each decision page that said “condition: anxiety” for section two and “condition: arthritis” for section three (we did not call out the other documents). We wanted to see if making it more obvious would make the instructions clearer. For those 3 participants, the distinction between the sections was clearer than it had been for the previous 7 participants, but they still struggled to understand why the form was asking for additional benefits and  supporting forms.
-
-* *“Additional benefits…I don’t know what that means.” – P10*  
-* *“I thought, we're on to the next one, and we're just doing the same process over again, and I don't feel like that's what's happening. I feel like the bullet points changed…” – P10*
-
 One participant questioned why she had to upload mental health documents separately from physical condition documents. They wanted to know where they would upload documents that don’t neatly fall into those two categories.
 
 * *“I don't know which \[documents\] would go with which conditions, specifically a mental health condition, because a physical condition may be causing a mental health condition.” – P5*
 
+<img src="images/PrototypeChange.png" align="left" width="100" style="margin-right: 20px;">
+
+For the last 3 research sessions, we added labels that indicated to each decision page that said “condition: anxiety” for section two and “condition: arthritis” for section three (we did not call out the other documents) (see image to the left). We wanted to see if making it more obvious would make the instructions clearer. For those 3 participants, the distinction between the sections was clearer than it had been for the previous 7 participants, but they still struggled to understand why the form was asking for additional benefits and  supporting forms.<br>
+* *“Additional benefits…I don’t know what that means.” – P10*  </ul></li>
+* *“I thought, we're on to the next one, and we're just doing the same process over again, and I don't feel like that's what's happening. I feel like the bullet points changed…” – P10*</ul></li>
+
+<Br><br><br><Br>
 **Recommendation:**  
 
 Since participants struggled with understanding the two supporting evidence upload sections, we recommend maintaining the current process of having one page for uploading supporting documents. We recommend making changes that support content comprehension. 
@@ -113,21 +115,21 @@ Since participants struggled with understanding the two supporting evidence uplo
 2. Add accordions and additional information design components to support the hierarchy of instructional content  
    1. Since there will be more instructional and supporting content on the upload pages, we recommend strategically placing accordions and additional information design components. These will help Veteran comprehension by decreasing information overload.   
 3. Update the upload component   
-   1. The current upload component is V1, and was identified in the Midpoint Review as a launch blocker. We recommend updating it to the V3 component, however, that component will need to be customized to include a document type dropdown so that Veterans can label their uploaded document. 
+   1. The current upload component is V1, and was identified in the Midpoint Review as a launch blocker. We recommend updating it to the V3 component, however, that component will need to be updated to include the additional field dropdown so that Veterans can select the document type for their uploaded document. 
 
-### **Finding #2: The list-and-loop model was clear, and 7 out of 8 participants could predict the next step.**
+#### **Finding #2: The list-and-loop model was clear, and 7 out of 8 participants could predict the next step.**
 
 Throughout the sessions, most of the participants had accurate expectations around where the ‘back’ and ‘continue’ buttons would lead them. As reflected in the first finding, they may not have been able to predict which section they would go to, but they knew that they would be taken to a page that asks them to upload, shows them a summary, etc.  
 
 **Recommendation**: Since the list-and-loop model design pattern was successful, we recommend keeping that design pattern as the process for uploading documents.
 
 
- ```Page 1: Introduction page to the supporting evidence section```
+### Page 1: Introduction page to the supporting evidence section
  
  <table><tr><td><img  src="images/EvidenceOrientation.png" width="200" style="border: 2px solid black;"></td></tr></table>
  
 
-### **Finding #3: 8 out of 10 participants wanted more information up front about the evidence they could submit to support their claim.**
+#### **Finding #3: 8 out of 10 participants wanted more information up front about the evidence they could submit to support their claim.**
 
 Participants wanted more information as they mentally prepared to submit documents for the section. Although they discovered more detailed information in the next screen, their requests for this information on the intro page suggests that the overview that we are providing is not enough. 8 out of 10 requested descriptions of the evidence, visuals of the evidence types, a list of file types, and how to get access to the evidence (similar to finding \#6).
 
@@ -137,36 +139,35 @@ Participants wanted more information as they mentally prepared to submit documen
 
 **Recommendation:** We recommend providing more detailed information about acceptable supporting documents as a part of the introduction to the section (this may link out to another page). Since people will need to leave the application process in order to gather evidence for their claim, it would help Veterans if we provided them with the complete list of what is needed for the entire supporting evidence section. This avoids the scenario where people leave to get a piece of evidence, return, then leave again as the requirements are given to them step-by-step. 
 
-##### 
 
-### **Finding #4: 2 out of 10 participants were drawn to the “Notice of evidence needed” alert but only skimmed the instructional content above.** 
+#### **Finding #4: 2 out of 10 participants were drawn to the “Notice of evidence needed” alert but only skimmed the instructional content above.** 
 
 This is the first page of the prototype where participants are asked to take their time and share their thoughts out loud. 2 out of 10 participants quickly read through the instructional content and then started giving feedback on the “Notice” content below it. The researcher guided the participants back to the top of the page to give feedback about the instructional content.
 
 **Recommendation:** The “Notice of evidence” information itself is a legally required part of the process; Veterans need to be informed of the evidence they’ll need and told that they are being informed. Although we observed this skipping behavior in only a few participants, it’s important to consider that the other participants may not have skipped the instructional content because they were in a semi-moderated research session in which they were asked to give feedback on every piece of content. Knowing the natural inclination to skim content, we want to make sure to call attention to this behavioral pattern insight and not overlook it. Therefore, our recommendation is to reduce the visual emphasis on the notice as it takes away from the important information above it. 
 
 
- ```Page 2: Decision page for treatment records ```
+### Page 2: Decision page for treatment records
  
 <table><tr><td><img width="200" src="images/Treatmentrecords.png"></td></tr></table>
 
 
-### **Finding #5: 6 out of 10 participants didn’t understand they would be asked for information about the medical centers they visited. They had inaccurate expectations for what would happen next.**
+#### **Finding #5: 6 out of 10 participants didn’t understand they would be asked for information about the medical centers they visited. They had inaccurate expectations for what would happen next.**
 
-The intent of this section is to collect information about medical centers in which the Veteran received treatment so the VA can request treatment records on their behalf. 6 out of 10 participants believed that selecting “yes” would lead to a workflow that would involve them uploading or submitting treatment records or adding information about behavior changes. 
+The intent of this section is to collect information about medical centers in which the Veteran received treatment so the VA can request treatment records on their behalf (or for the Veteran to be able to upload treatment records from a private medical center, if they prefer that route). 6 out of 10 participants believed that selecting “yes” would lead to a workflow that would involve them uploading or submitting treatment records or adding information about behavior changes. 
 
 * *“If \[you select\] yes, you’re submitting your claim records, if \[you select\] no, you’re not submitting anything.” – P3*  
 * *“Nowhere here links me to where I can go get that information.” – P9*  
 * *“It asks for treatment records but not what ones to provide.” – P11*
 
-**Recommendation:** The current content does not communicate expectations about what exactly will be happening on the following screens. We recommend that the content be reframed to specify that the Veteran will be providing information about the medical centers in which they were treated, so that the VA can get access to all of their treatment records. 
+**Recommendation:** The current content does not communicate expectations about what exactly will be happening on the following screens. We recommend that the content be reframed to specify that the Veteran will be providing information about the medical centers in which they were treated, so that the VA can get access to all of their treatment records. This finding also supports implementing the recommendation from finding #2; we believe that the list and loop will further support Veterans in understanding what to expect next.   
 
 
-```Page 3: Decision page for mental health documents```
+### Page 3: Decision page for mental health documents
 
 <table><tr><td><img width="200" src="images/MHEvidenceOrientation.png"></td></tr></table>
 
-### **Finding #6: 6 out of 10 participants found the detailed list of document types helpful.**
+#### **Finding #6: 6 out of 10 participants found the detailed list of document types helpful.**
 
 Most participants appreciated the list of examples. 4 out of 10 participants commented that the list made them consider submitting document types that they hadn’t thought to submit.
 
@@ -181,7 +182,7 @@ Still, the participants wanted even more specific examples and guidelines around
 
 **Recommendation**: We recommend continuing to provide this information, and include as much detail as possible about each document type. Finding \#3 also includes suggested details from participants. It will be helpful to do research with VSOs to understand how they describe requirements to Veterans. 
 
-```Page 4: Upload page for mental health documents```
+### Page 4: Upload page for mental health documents
 
 
   <table>
@@ -194,7 +195,7 @@ Still, the participants wanted even more specific examples and guidelines around
 
 
 
-### **Finding #7: 5 out of 8 participants didn’t find the “How to scan a file” instructions helpful.**
+#### **Finding #7: 5 out of 8 participants didn’t find the “How to scan a file” instructions helpful.**
 
 Most participants found the instructions to be too prescriptive about what application to use. They suggested alternative ways that they would capture a document, including using their camera app.
 
@@ -210,7 +211,7 @@ They wanted some more instructional content to help them support their data inpu
 
 **Recommendation:** We recommend changing the content to be less specific about the applications that someone could use, and rather focus on the general process (take a photo, take a screenshot, or scan the document). Additionally, we recommend including guidance around the maximum number of uploaded files and revisiting the “Select a file to upload” and “Upload file” button copy; as currently written, it implies that you can only upload one file overall. It will be more helpful to suggest that multiple files can be uploaded in general, even if the upload component allows for only one file at a time to be uploaded. 
 
-### **Finding #8: 4 out of 8 participants appreciated that the “Examples of supporting documents” accordion repeated content from the previous page. Others felt the accordion should provide more information about supporting documents.** 
+#### **Finding #8: 4 out of 8 participants appreciated that the “Examples of supporting documents” accordion repeated content from the previous page. Others felt the accordion should provide more information about supporting documents.** 
 
 * *“\[Helpful to have this content repeated\], keeps you from having to jump back and forth.” – P4*  
 * *“Ok so it’s doubling down \[by showing the same content as the previous page\]. I wasn’t actually expecting that. I thought it might give me…like, a file, and a picture. I was envisioning a document.” – P2*
@@ -221,7 +222,7 @@ Additionally, 2 out of 8 participants wanted the information to be presented bef
 
 **Recommendation:** Although some participants were disappointed in duplicative content, we recommend keeping the content to support those who will use it as a reference when selecting the document type of their uploaded file. We also recommend placing the accordion above the ‘Upload file’ call to action, in case people need it as a reference as they upload files. 
 
-### **Finding #9: 4 out of 5 participants successfully completed or predicted how to delete a document.**
+#### **Finding #9: 4 out of 5 participants successfully completed or predicted how to delete a document.**
 
 (Reminder that not all participants made it through the entire prototype, so the numbers are adjusted to reflect that).
 
@@ -232,7 +233,7 @@ Additionally, 2 out of 8 participants wanted the information to be presented bef
 
 <table><tr><td><img width="200" src="images/MHEvidenceSummary.png"></td></tr></table>
 
-### **Finding #10: 6 out of 8 participants expected a summary page to confirm which documents they uploaded.**  
+#### **Finding #10: 6 out of 8 participants expected a summary page to confirm which documents they uploaded.**  
 
 * *“This is pretty much what I expected.” – P9*  
 * *“Alright, so summary of documents, you're telling me…what you have uploaded, which is good.*” – P7
@@ -243,7 +244,7 @@ One participant gave feedback about the lack of distinct hierarchy of informatio
 
 **Recommendation:** We recommend keeping the summary pages as a way for people to confirm their uploads. 
 
-```Page 6: Decision page for other conditions and other documents```
+### Page 6: Decision page for other conditions and other documents
 <table><tr><td><img align="left" width="200" src="images/OtherEvidenceOverview.png"></td></tr></table>
 
 Findings about this page can be found in the “Overarching Architecture” section at the beginning of the list of findings. 
@@ -252,7 +253,7 @@ Findings about this page can be found in the “Overarching Architecture” sect
 
 <table><tr><td><img align="left" width="200" src="images/OtherUpload.png"></td></tr></table>
 
-### **Finding #11: 3 out of 5 participants found it confusing that the two upload pages looked identical and didn’t know what to upload.** 
+#### **Finding #11: 3 out of 5 participants found it confusing that the two upload pages looked identical and didn’t know what to upload.** 
 
 The participants didn’t realize that the second upload page was specifically for other conditions and documents. The visual repetition made the page feel redundant, even if it was asking for different documents.
 
@@ -261,7 +262,7 @@ The participants didn’t realize that the second upload page was specifically f
 * *After the researcher explained the difference between the two upload pages: “It looks the same, but if it isn't,… maybe break down into one screen that says upload supporting documentation. And then it should say on the bottom in bold things, uh, upload other documents to support your disability if you have. And you could upload right there, so everything's on there. It feels like you're doing multiple steps for no reason.” – P7*  
 * *“I was hoping that the point of this was to make things easier. And it kept asking me the same thing over and over again, which was not… helpful, I guess. I was hoping that it would be better in the streamlined process.” –P10*
 
-```Page 8: Summary page for other conditions```
+### Page 8: Summary page for other conditions
 
 2 out of 10 participants viewed this page. It tested favorably, with similar opinions found in finding #10: Most participants expected and appreciated a summary page as a way to confirm their uploaded documents.   
 
@@ -307,9 +308,9 @@ As participants went through the list of accepted documents, they suggested addi
 
 ### **Pages and applications used**
 
-* [Figma prototype](https://www.figma.com/design/9idAmDRkCyDwJ7hTemJgAV/0781---Evidence-Upload?node-id=803-39449&p=f&t=rVD38SF2BE1MWCxC-0) (“Prototype for research” tab)  
-  * Path 1: For those who have never applied before (includes screens to walk participants through the earlier pages of the application for orienting their understanding of where they are in the form)  
-  * Path 2: For those who have applied before (skips screens of the earlier pages of the application)
+* [Figma](https://www.figma.com/design/9idAmDRkCyDwJ7hTemJgAV/0781---Evidence-Upload?node-id=803-39449&p=f&t=rVD38SF2BE1MWCxC-0) (“Prototype for research” tab)  
+  * [Path 1 prototype:](https://www.figma.com/proto/9idAmDRkCyDwJ7hTemJgAV/0781---Evidence-Upload?node-id=1178-8038&t=K98xjgC6J6mVcyg4-0&scaling=min-zoom&content-scaling=fixed&page-id=803%3A39449&starting-point-node-id=1178%3A8038&show-proto-sidebar=1) For those who have never applied before (includes screens to walk participants through the earlier pages of the application for orienting their understanding of where they are in the form)  
+  * [Path 2 prototype:](https://www.figma.com/proto/9idAmDRkCyDwJ7hTemJgAV/0781---Evidence-Upload?node-id=1178-8048&t=K98xjgC6J6mVcyg4-0&scaling=min-zoom&content-scaling=fixed&page-id=803%3A39449&starting-point-node-id=1178%3A8048&show-proto-sidebar=1) For those who have applied before (skips screens of the earlier pages of the application)
 
 ### **Research participants**
 

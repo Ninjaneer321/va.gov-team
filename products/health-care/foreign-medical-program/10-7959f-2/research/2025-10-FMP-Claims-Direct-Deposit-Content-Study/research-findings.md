@@ -1,7 +1,7 @@
 ---
-title: "[Study] Research Findings"
+title: "FMP Claims Content Comprehension Study Research Findings, VA Form 10-7959f-2, October 2025"
 product: "Product Name"
-team: "Team Name"
+team: "Health Applications"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
 date: "YYYY-MM-DD"
 researchers:
@@ -92,17 +92,15 @@ synthesis_tools_used:
   - "Affinity Mapping"
 ---
 
-<br>**This is a template, PLEASE MAKE A COPY**
-
 ---
 
-# [Study] Research Findings 
+# [FMP Claims Content Comprehension Study, VA Form 10-7959f-2] Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Product Name, Team Name**
 
-**Date:** MM/DD/YYYY
+**Date:** November 2025
 
-**Contacts:** [Researcher/Designer 1], [Researcher/Designer 2]
+**Contacts:** Health Apps UX Team - Renata K, Jessica S, Hieu V
 
 **[Research Readout (PDF)](link-here)**  
 *Add a link to your research readout deck, if available.*
@@ -122,8 +120,10 @@ synthesis_tools_used:
 - [Research participants](#user-content-research-participants)
 
 ## Research Goals
-*Provide context for this research by explaining how it fits into the Veteran’s journey.*  
-[See the Veteran journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)  
+
+1. Understand perceived content comprehension for the topic of direct deposit specifically for FMP claims.
+2. Discover, if any, of the direct deposit content is confusing or misunderstood by the Veteran and could be a potential risk.
+3. Gain insight into any improvements that could be made to increase clairity of the direct deposit process understanding for FMP claims for reimbursement.
 
 **Guiding Questions:**  
 - What are the key moments this tool supports in the Veteran’s journey?  
@@ -133,36 +133,31 @@ synthesis_tools_used:
 
 ## Research Questions
 
-*List the research questions that guided this study.*  
-
-* Question 1
-* Question 2
-* Question 3
-
-[Example Research Questions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-questions)
+- How do Veterans react to the direct deposit informational alert on the introduction page?
+- Do Veterans most often click to the static page to "learn how to setup" or do they stay in the form flow?
+- Do Veterans confuse or quickly assume that their bank account information for FMP is the same as what they use for disability compensation?
+- Do Veterans express frustration about the separate direct deposit setup process for FMP claims and if so, what is their biggest pain point?
+- Do any Veterans say the direct deposit process mentioned in the content would be a blocker for them in filing online?
+- How confident are Veterans in their understanding to set up direct deposit for FMP claims?
 
 ## Methodology 
-
-*Provide a brief description of the research methods used (e.g., usability testing, interviews).*  
-
-- Method 1: Description  
-- Method 2: Description  
-
-[Example Methodology](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#methodology)
+- Semi-structured moderated interviews with a mid-fidelity Figma prototype  
 
 
 ## Hypotheses and Conclusions
 
 *List hypotheses explored in the research and the conclusions drawn. If applicable, list the success or task completion rate.*
 
-> [!TIP]
-> Place true or false statements in bold for easier scanability
 
-- **Hypothesis Statement:** [Insert statement]  
+- **Hypothesis Statement:** We assume that overall there will be some confusion about direct deposit being a separate process than what is used for VA Benefits when Veterans are filing an FMP claim. 
   - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**  
   - Supporting evidence  
 
-[Example Hypotheses and Conclusions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#hypotheses-and-conclusions)
+
+- **Hypothesis Statement:** Some Veterans will not have an issue with the one-time setup instructions directed to FSC, but may comment on it being incovenient.
+  - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**  
+  - Supporting evidence  
+
 
 
 ## Key Findings
@@ -254,17 +249,20 @@ This research supports measurement of this KPI by....
 
 ### Research documents
 - [Product Outline](link here)
-- [Research plan](link here)
-- [Conversation guide](link here)
-- [Interview transcripts](link here)
+- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/foreign-medical-program/10-7959f-2/research/2025-10-FMP-Claims-Direct-Deposit-Content-Study/research-plan.md)
+- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/foreign-medical-program/10-7959f-2/research/2025-10-FMP-Claims-Direct-Deposit-Content-Study/conversation-guide.md)
+- [Interview transcripts](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/foreign-medical-program/10-7959f-2/research/2025-10-FMP-Claims-Direct-Deposit-Content-Study/transcripts)
 
 ### Tools used for Synthesis
 
-*List tools or techniques used, e.g., Mural, affinity mapping.*  
+*Spreadsheet with theme tagging*  
   
 ### Pages and applications used
 
-*Link to prototypes or pages tested during the study.*  
+**Figma Prototypes**
+- [Link to prototype - Mobile](https://www.figma.com/proto/WYZCqWcS2gJWIqLtmQlvl7/FMP-Claim-Cover-Sheet--10-7959f-2-?node-id=6895-4372&p=f&t=Dzln41diTGrZVcIU-1&scaling=min-zoom&content-scaling=fixed&page-id=6895%3A4371&starting-point-node-id=6895%3A4372)
+- [Link to prototype - Desktop](https://www.figma.com/proto/WYZCqWcS2gJWIqLtmQlvl7/FMP-Claim-Cover-Sheet--10-7959f-2-?node-id=6941-5267&p=f&t=neJBJ5eSTG2b1b83-0&scaling=min-zoom&content-scaling=fixed&page-id=6941:5218&starting-point-node-id=6941:5267)
+
 
 
 ### Other supporting documents created
@@ -275,6 +273,7 @@ This research supports measurement of this KPI by....
 ### Secondary research
 
 *Include any relevant secondary research, e.g., web analytics, SME interviews.*  
+
 
 ### Research participants 
 _Complete the demographic info below using information from the Perigean recruitment survey. For those items where you didn't have participants, please mark with "0". You can use "unknown" if you aren't sure if your participants had a characteristic._ 
@@ -287,12 +286,12 @@ _If you had specific criteria that you recruited for, use this space to explain 
 
 #### Demographics 
 
-We talked to **x participants.**
+We talked to **8 participants.**
 
 Audience segment:
-* Veterans: x 
-* Caregivers: x 
-* Family members of a Veteran: x  
+* Veterans: 8 
+* Caregivers: 0 
+* Family members of a Veteran: 0 
 
 
 Gender:

@@ -121,13 +121,17 @@ _[If no:]_ Go ahead and share your screen for me now.
 ---
 
 
-## Participant Coaching
+## Participant coaching & accessing Figma prototype
 
-Before we begin, take a minute or two to look around this page.
+For the first set of questions, we have created a prototype of the medications experience on VA.gov.
 
-As you can see, this is not your My HealtheVet account. If you look in the top right corner where your name would appear, it says Emma which is our test user name. However, we would like you to imagine this is your account with your own data, not someone else’s.
+To access this prototype, simply click the link that I just pasted in the Zoom chat.
 
-Part of understanding how well this product works is to know what you, the user, are thinking and feeling while you are using it. As much as possible today, we would like you to say aloud anything you are thinking or feeling no matter how significant or insignificant you may think it is. Imagine that you are doing the tasks today and I am on the phone with you and can’t see your screen. Does that make sense?
+https://tinyurl.com/4ewwp6f5
+
+Great, you are in! You can scroll up and down this page as you would a webpage and while not all the links are functional, you are able to use the filter to filter the medication list below.
+
+One note before we begin our questions. Part of understanding how well this product works is to know what you, the user, are thinking and feeling while you are using it. As much as possible today, we would like you to say aloud anything you are thinking or feeling no matter how significant or insignificant you may think it is. Imagine that you are doing the tasks today and I am on the phone with you and can’t see your screen. Does that make sense?
 
 If you are ready, we can begin. 
 
@@ -137,35 +141,30 @@ If you are ready, we can begin. 
 
 ## First task: Status comprehension
 
-First, we’re going to open the Figma prototype link that you were sent. This prototype is interactive in that the filter can be used to filter the medication list that appears below.
-
-Now we'll begin our questions. First:
+Now we'll begin our first set of questions.
 
 1. Tell me what you see on the page.
 2. What can you tell me about what’s going on with your prescriptions?
 3. What can you tell me about your PEPCID medication? (make med in “**active** status”)
     1. Probe: what does the **active** status mean to you?
+        1. On a scale of 1-5, how confident are you in that answer?
     2. What is going on with your med? (If needed, call attention to status) and probe: 
-        1. What do you think “active” means?
-        2. On a scale of 1-5, how confident are you in that answer?
-        3. What do you think happens next for your medication?
-        4. How would you feel if you saw this status on an important medication?
+        1. What do you think happens next for a medication with an **active** status?
+        2. How would you feel if you saw this status on an important medication?
 4. What can you tell me about your LOPRESSOR medication? (make med in “**in progress** status”)
-    1. Probe: what does that mean to you?
+    1. Probe: what does the **in progress** status mean to you?
+        1. On a scale of 1-5, how confident are you in that answer?
     2. What is going on with your med? (If needed, call attention to status) and probe: 
-        1. What do you think “in progress” means?
-        2. On a scale of 1-5, how confident are you in that answer?
-        3. What do you think happens next for your medication?
-        4. How long would you expect a medication to stay 'in progress'?
-        5. If you saw this status for several days, what would you think?
-        6. How would you feel if you saw this status on an important medication?
+        1. What do you think happens next for a medication with an **in progress** status?
+        2. How long would you expect a medication to stay **in progress**?
+        3. If you saw this status for several days, what would you think?
+    3. How would you feel if you saw this status on an important medication?
 5. What can you tell me about AMOXICILLIN medication? (make med in “**inactive** status”)
-    1. Probe: what does that mean to you?
+    1. Probe: what does the **inactive** status mean to you?
+        1. On a scale of 1-5, how confident are you in that answer?
     2. What is going on with your med? (If needed, call attention to status) and probe: 
-        1. What do you think “inactive” means?
-        2. On a scale of 1-5, how confident are you in that answer?
-        3. What do you think happens next for your medication?
-        4. How would you feel if you saw this status on an important medication?
+        1. What do you think happens next for your medication?
+        2. How would you feel if you saw this status on an important medication?
 6. Now, imagine that you take a medication regularly. You notice that you are running out of pills. Using this page, do you think you could get more of your med?
 7. Imagine that you had a bad rash a couple of years ago. Your doctor gave you a medication and it went away. Now, that rash is back. Do you think that you could find the medication you took on this page? What would you look for?
     1. [*Notice:] Do they filter? Do they think of status or just date?*
@@ -173,6 +172,8 @@ Now we'll begin our questions. First:
 8. Ok, now imagine that you have successfully requested a refill for that rash medication. Where would you look for it?
     1. Probe: What status would that medication be in?
 9. How would you differentiate between a 'refill' and a 'renewal'? Is there a difference between those terms to you?
+10. Is there anything confusing to you about the medications that are out of refills?
+
 
 *[Things to watch out for:]*
 
@@ -196,13 +197,37 @@ Thank you! Now I’d like you to do something else for me...
 
 ## Second Task: Request a renewal
 
-Now you're going to log into the staging site for VA.gov with the test user login information you were sent. 
+For the second set of questions, I'm going to have you follow the link that I have just pasted into the chat.
 
-_[Include instructions here on how to log into the test user or will they have already done this?]_
+https://staging.va.gov/
+
+This is the staging environment for VA.gov where we can test out new ideas to make sure they work before we go live. 
+
+I'm now going to have you log in as a test user by taking the following steps:
+1. Click the Sign In button in the upper right corner
+2. Select the ID.me green button
+3. Paste the following email address into the email text box: emma.smith@id.me
+4. Paste the following password into the password text box: Tester1& **Note that this needs to change for each session**
+5. You'll see there is a fake telephone number in this pop up window. Simply click the "Continue" button to continue
+6. Similarly, go ahead and click the "Continue" button here as well
+7. Great! You're logged in.
+
+Now we're going to navigate to the medications landing page. To do this:
+1. Select My HealtheVet in the upper right menu
+2. Scroll down to the Medications box and select "Review medications."
+
+
+Excellent. We're now where we need to be.
+
+Let's take a minute or two to look around this page.
+
+As you can see, this is not your My HealtheVet account. If you look in the top right corner where your name would appear, it says Emma which is our test user name. However, we would like you to imagine this is your account with your own data, not someone else’s.
+
+Ok let's begin with the task:
 
 ### List page
 
-**You have a prescription for CLOBETASOL PROPIONATE 0.05% CREAM that your pharmacy told you is out of refills. What would you do if you needed more meds?**
+**You have a prescription for SUNSCREEN-30 PABA-FREE COMBINATION LOT that your pharmacy told you is out of refills. What would you do if you needed more of this medication?**
 
 
 * Where would you go to request more of this medication?
@@ -246,13 +271,17 @@ _[Include instructions here on how to log into the test user or will they have a
 
 * What do you think this screen is for?
 * What do you think you should do next?
+* Do you find this screen to be helpful?
 
 *Things to watch for:*
 * *Does the modal cause the user hesitation or confusion about going to messaging?*
+* *Does the user click through without taking the time to absorb the information in the modal?*
 
-### Select a care team
+### Prefilled Renewal Request Message Content
 
+* What do you notice on this page?
 
+#### Care team selection
 * Who would you select here, and why?
 * If you weren't sure which provider to choose, what would you do?
 
@@ -260,9 +289,8 @@ _[Include instructions here on how to log into the test user or will they have a
 * *Does the user express confusion about selecting a provider?*
 
 
-### Prefilled Renewal Request Message Content
+#### Prefilled message
 
-* What do you notice on this page?
 * Would you edit or add additional information to this message at all?
     * If no, why not?
     * If yes, what would you change in the message?
@@ -289,7 +317,6 @@ _[Include instructions here on how to log into the test user or will they have a
 
 Thank you for completing that task. I have a few follow up questions for you:
 
-* How easy or difficult did you find the process of requesting a renewal for this medication?
 * Did anything in the process feel overwhelming or hard to process?
 * What would you change about this process?
 * What would you keep about this process?
@@ -301,16 +328,30 @@ Thank you for completing that task. I have a few follow up questions for you:
 
 
 
-* "Before we wrap up Task 2, I'd like to show you one more thing. 
-Imagine you tried to request a renewal but saw this message [show error]. What would you do next?
+* "Before we wrap up Task 2, I'd like to show you one more thing.
 
+INSERT INSTRUCTIONS HERE ON HOW THE USER CAN ACCESS THE ERROR PAGE.
+
+Imagine you tried to request a renewal for this medication, but when you clicked the link to send a message to request a renewal, you were taken to this page. What would you do next?
+
+*[Let participant finish task with minimal interruption.]*
+
+* Would you go somewhere to find the information that's missing?
+  * If so, where would you go?
+ 
+*Things to watch for:*
+* *Does the user try to fill in the missing information?*
+* *Do they add additional content to the message to compensate for missing information?*
+* *Do they seem frustrated?*
+
+Great, thank you for tha tadditional input!
 
 ---
 
 
 ## Closing questions
 
-
+That wraps up our tasks. I just have a few closing questions for you:
 
 1. Overall, how easy or difficult would you say it was to request a renewal?
 2. Overall, how easy or difficult would you say it was to understand the prescription statuses?

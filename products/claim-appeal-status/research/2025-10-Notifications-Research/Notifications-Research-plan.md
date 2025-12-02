@@ -337,6 +337,7 @@ Sampling will focus on Veterans with experience managing disability compensation
 - **Veterans:** 15 total recruited  
 - **Ideal Completed Sessions:** 10–12  
 
+- **Kick Off Call Request:**  12/3-12/5 12pm-2pm ET, 330-430pm ET
 ---
 
 ## Timeline
@@ -344,7 +345,68 @@ Sampling will focus on Veterans with experience managing disability compensation
 - **Session Length:** 60 minutes  
 - **Debrief with Observers:** 15 minutes  
 - **Buffer Time Between Sessions:** 30 minutes  
-- **Max Sessions per Day:** 3  
-- **Recruitment Start:** 12/1/2025  
+- **Max Sessions per Day:** 3
+- **Kick Off Call Request:**  30 min block, Availability: 12/3-12/5, 12pm-2pm ET, 330-430pm ET
+- **Recruitment Start:** 12/2/2025  
 - **Research Review Submission:** 12/1/2025  
 - **Study Duration:** 3–4 weeks (including synthesis and shareout)
+
+  ### Availability
+When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
+
+> [!NOTE]
+> We recommend providing availability outside of work hours, as many Veterans are only available before and after working times, and live across the U.S. 
+
+> [!TIP]
+> Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST)**
+>
+> **Place time slots between `hash marks` when in edit mode.**
+
+- `12/10, Wed, 10:00 AM EST`
+- `12/10, Wed, 12:00 PM EST`
+- `12/10, Wed, 4:00 PM EST`
+- `12/11, Thu, 10:00 AM EST`
+- `12/11, Thu, 12:00 PM EST`
+- `12/11, Thu, 2:00 PM EST`
+- `12/12, Fri, 10:00 AM EST`
+- `12/12, Fri, 12:00 PM EST`
+- `12/12, Fri, 4:00 PM EST`
+- `12/15, Mon, 10:00 AM EST`
+- `12/15, Mon, 12:00 PM EST`
+- `12/15, Mon, 4:00 PM EST`
+- `12/16, Tue, 10:00 AM EST`
+- `12/16, Tue, 12:00 PM EST`
+- `12/16, Tue, 4:00 PM EST`
+- `12/17, Wed, 10:00 AM EST`
+- `12/17, Wed, 12:00 PM EST`
+- `12/17, Wed, 4:00 PM EST`
+- `12/18, Thu, 10:00 AM EST`
+- `12/18, Thu, 12:00 PM EST`
+- `12/18, Thu, 2:00 PM EST`
+- `12/19, Fri, 10:00 AM EST`
+- `12/19, Fri, 12:00 PM EST`
+- `12/19, Fri, 4:00 PM EST`
+
+  ## Team Roles  🕵️👩‍💻👩‍🔬
+
+> [!NOTE]
+> **Please do not include email addresses in this section.** We previously required email addresses. VA's GitHub policy ([see announcement](https://github.com/orgs/department-of-veterans-affairs/discussions/13)) has changed. VA.gov email addresses cannot be in public repositories.
+>
+> **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
+
+- `Moderator:` **Naomi Howe**	
+- `Research guide writing and task development (usually but not always same as moderator):` **Naomi Howe**		
+- `Participant recruiting & screening:`	**Naomi Howe**	
+- `Project point of contact:` **Naomi Howe**		
+- `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[N/A]**	
+- `Note-takers:` **Melissa Lefevre** 	
+- `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
+
+- **[Enter full name]**
+- **[Enter full name]**
+- **[Enter full name]**
+
+## Approvals ✅
+- `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
+- `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
+

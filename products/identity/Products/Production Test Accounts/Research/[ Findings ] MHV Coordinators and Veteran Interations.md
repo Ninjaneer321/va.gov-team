@@ -1,14 +1,27 @@
 # **Synopsis of Production Test Account (PTA) Research Findings**
 
-**Critical Role of PTAs in Training and Support**
+## **Overview**
 
-Production test accounts are essential tools for MHV Coordinators across all interviewed sites (Boston, Minneapolis, Maine, and New Hampshire VA). Coordinators unanimously rely on PTAs for staff training, particularly for secure messaging protocols and demonstrating the veteran-facing portal. When PTAs are unavailable, coordinators cancel scheduled trainings entirely, with one noting they had to reschedule multiple sessions and "renegotiate" with busy clinical staff when the system went down.
+**Who We Spoke To**
 
-**Primary Use Cases**
+For this research study, we spoke with 5 MHV coordinators who leverage production test accounts and 1 additional MHV coordinator who did not use production test accounts; these conversations were guided by the following [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/Production%20Test%20Accounts/Research/%5B%20Research%20Plan%20%5D%20Demo%20Mode%20-%20Rx%20refill%20and%20Secure%20Messaging%20Training.md) and [Conversation Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/Production%20Test%20Accounts/Research/%5BConversation%20Guide%20%5D%20MHV%20Coordinators%20-%20Training%20and%20Troubleshooting.md).
 
-Coordinators use PTAs for three main purposes: (1) training clinical staff (all new clinical staff must complete mandatory one-hour secure messaging training before messaging privileges are granted), (2) creating visual guides and screenshots for remote veteran support, and (3) demonstrating portal features during live sessions. One coordinator emphasized hands-on training methodology: "I turn over \[screen sharing\] to the staff member...instead of death by PowerPoint, you're going to be doing the hands-on training."
+**Critical Role of PTAs in Training Clinical and Support Staff**
 
-## Direct Veteran Support: PTAs Are Rarely Used
+MHV coordinators reported that they are provide training to clinical and support staff like physicians, nurses and office administrators.  When they have no other options, production test accounts become essential tools to support this job function across the various sites covered by the coordinators we spoke to (Boston, Minneapolis, Maine, and New Hampshire VA). The coordinator who does not use these PTAs for training leverages her own personal account to train staff (presenting a big personal risk of exposing PII and compromising her own medical records). 
+
+In order to properly train staff, coordinators simulate an interaction from the patient side so that the clinical staff can see what their patients see.  This is particularly important for secure messaging protocols and prescription refills since most staff will not be able to see the patient side user interface. When PTAs were unavailable due to technical reasons a few months ago, coordinators were forced to cancel scheduled trainings entirely, with one noting they had to reschedule multiple sessions and renegotiate available training times with busy clinical staff.
+
+**Primary Use Cases for PTAs**
+
+Coordinators use PTAs for three main purposes:   
+(1) Training clinical staff (all new clinical staff must complete mandatory one-hour secure messaging training before messaging privileges are granted) by demonstrating portal features during live sessions. One coordinator emphasized hands-on training methodology: "I turn over \[screen sharing\] to the staff member...instead of death by PowerPoint, you're going to be doing the hands-on training."   
+(2) Remote training sessions with Veterans but these sessions are limited since the population who require assistance are not technically savvy.  This means that MHV coordinators are unable to help many of these Veterans remotely and ask that they come in-person for assistance.  
+(3) Creating visual guides and screenshots for remote veteran support.  However, this use case isn't as common since the website changes frequently and materials become outdated quickly.    
+
+---
+
+### Direct Veteran Support: PTAs Are Rarely Used
 
 When working directly with veterans, coordinators overwhelmingly prefer to use:
 
@@ -18,18 +31,17 @@ When working directly with veterans, coordinators overwhelmingly prefer to use:
 
 3. **Kiosk computers with veteran credentials** \- "We have a computer that's dedicated to the veterans...I make sure that they understand the steps before I let them leave my office" (P5)
 
-4. **Their own VA.gov accounts** \- "I will sign into my own VA.gov account, just because it's faster" (P3)
+4. **Their own VA.gov accounts** \- "I will sign into my own VA.gov account, just because it's faster." (P3)  
 
 **Why PTAs aren't used much for Veteran training:**
 
 * Veterans need to practice on their actual accounts to retain the knowledge  
 * Using PTAs doesn't help with the \#1 problem: login credential issues  
 * Veterans can't access PTAs at home, so showing them PTA workflows is less helpful  
-* Privacy concerns: one coordinator noted discomfort "navigating somebody else's information, even for a demo" (P1)
 
-**The Exception: Remote Support**
+**The Exception: Training Materials**
 
-PTAs serve one important veteran-facing function: **creating screenshots and visual guides for remote support**. P1 described using PTAs to "go and do a screenshot, and then I put it in a secure message...with little arrows. I develop, like, a Word document, and, you know, click here, then this."
+PTAs serve one important veteran-facing function: **creating screenshots and visual guides for remote support**. P1 described using PTAs to "go and do a screenshot, and then I put it in a secure message...with little arrows. I develop, like, a Word document, and, you know, click here, then this."  However, coordinators rarely create their own training materials and are actively discouraged from creating these types of materials (P1) (P5).  The rationale for this is because the materials need to be standardized and the messaging consistent across the board.  
 
 ### Critical Importance: Staff Training
 
@@ -70,7 +82,7 @@ As P5 emphatically stated: **"When they said there was a rumor that the test pat
 
 ## Hypothesis Validation from PTA Research Transcripts
 
-### H1: MHV coordinators use production test accounts to train on standardized, repeatable aspects of both workflows (e.g., navigation, form completion, message composition).
+#### H1: MHV coordinators use production test accounts to train on standardized, repeatable aspects of both workflows (e.g., navigation, form completion, message composition).
 
 **FINDING: MOSTLY TRUE**
 
@@ -80,7 +92,7 @@ As P5 emphatically stated: **"When they said there was a rumor that the test pat
 
 ---
 
-### H2: When issues are escalated through the call center, Tier 2 and Tier 3 representatives utilize PTAs to replicate the issues a Veteran is experiencing in order to help them problem solve unique issues.
+#### H2: When issues are escalated through the call center, Tier 2 and Tier 3 representatives utilize PTAs to replicate the issues a Veteran is experiencing in order to help them problem solve unique issues.
 
 **FINDING: UNCONFIRMED**
 
@@ -88,7 +100,7 @@ As P5 emphatically stated: **"When they said there was a rumor that the test pat
 
 ---
 
-### H3: MHV coordinators and call center representatives view Production Test Accounts as a necessary tool in their day to day jobs for troubleshooting complex issues Veterans encounter.
+#### H3: MHV coordinators and call center representatives view Production Test Accounts as a necessary tool in their day to day jobs for troubleshooting complex issues Veterans encounter.
 
 **FINDING: MOSTLY FALSE**
 
@@ -98,7 +110,7 @@ As P5 emphatically stated: **"When they said there was a rumor that the test pat
 
 ---
 
-### H4: Secure messaging and prescription refill training is complex and requires hands-on demonstration.
+#### H4: Secure messaging and prescription refill training is complex and requires hands-on demonstration.
 
 **FINDING: TRUE**
 
@@ -108,7 +120,7 @@ As P5 emphatically stated: **"When they said there was a rumor that the test pat
 
 ---
 
-### H6: Leveraging PTAs for training correlates positively with Veteran self-sufficiency in both healthcare workflows.**
+#### H5: Leveraging PTAs for training correlates positively with Veteran self-sufficiency in both healthcare workflows.**
 
 \*\*FINDING: UNCONFIRMED (Insufficient Evidence)
 
@@ -120,13 +132,12 @@ As P5 emphatically stated: **"When they said there was a rumor that the test pat
 
 **The Login Credential Crisis**
 
-* The transition from legacy My HealthyVet credentials to ID.me and Login.gov represents the overwhelming challenge.   
-* One MHV coordinator stated that Veterans instinctively click "Login.gov" thinking it means "log in," then struggle with the picture-taking verification process  
-* The Login.gov personal key creates a critical failure point—veterans forget it after browsers auto-save passwords, requiring complete re-verification.   
+* The transition from legacy My HealthyVet credentials to ID.me and Login.gov represents the overwhelming challenge.  All of the MHV coordinators we spoke to reported that they spent a lot of time helping Veterans transition to modern credentials.   
+* A coordinator stated that Veterans are frustrated that the VA has lack of control over updating and fixing issues related to emails, phone numbers, etc. and could not understand that Login.gov and ID.me are external to the VA.  (P6)
 * Some coordinators spend 2+ hours daily on hold with ID.me (which doesn't open until 10:30 AM, frustrating early-morning veterans).   
-* A couple of the MHV coordinators stated that Login.gov's help desk was not helpful.  
-* Some veterans take 4 hours to complete registration due to multiple ID.me/Login.gov accounts, duplicate MPI records, or lost email access. Phone-based support proves particularly inadequate—"what could have been 5-10 minutes in person takes 30 minutes to an hour."  
-* The aging veteran demographic faces compounded difficulties: QR codes on marketing materials are ineffective when veterans "don't know which way to hold the phone." 
+* A few of the MHV coordinators stated that Login.gov's help desk was not helpful and some stated outright that there was no support from Login.gov.  
+* It requires some Veterans 4+ hours to complete registration due to multiple ID.me/Login.gov accounts, duplicate MPI records, or lost email access. Phone-based support proves particularly inadequate—"what could have been 5-10 minutes in person takes 30 minutes to an hour."  
+* The aging veteran demographic faces compounded difficulties: QR codes on marketing materials are ineffective when veterans "don't know which way to hold the phone" or even how to switch from screen to screen to obtain codes.
 
 **Travel Pay: The Second-Most Problematic Feature**
 
@@ -139,17 +150,16 @@ After login credentials, **beneficiary travel reimbursement** emerges as the mos
 
 **Infrastructure and Demographic Challenges**
 
-* VERCs provide essential hands-on support, but many CBOCs lack public Wi-Fi, forcing coordinators to create personal hotspots. 
-
-**Essential Tools Beyond PTAs**
-
-Access to Master Patient Index (MPI) emerged as a "game changer"—coordinators can verify Level of Assurance 3 accounts, identify duplicate records, and dramatically reduce troubleshooting time. However, not all coordinators have MPI access. 
+* VERCs provide essential hands-on support, but many CBOCs lack public Wi-Fi, forcing coordinators to create personal hotspots or being unable to provide in-person support. 
 
 **Communication Breakdown**
 
-Coordinators feel isolated from decision-makers. The "Neighborhood" peer network serves as the primary—and often only—reliable information channel. There's no clear escalation path, with multiple conflicting reporting mechanisms (IT tickets, help desk, contact forms). Coordinators desperately want updated, approved marketing materials but are told not to create their own, yet official materials arrive slowly or contain outdated information.
+Coordinators feel isolated from decision-makers. The "Neighborhood" peer network serves as the primary—and often only—reliable information channel where MHV coordinators can speak to one another, share resources and help unblock one another. However, MHV coordinators stated difficulty with getting support beyond their peer group.  They stated that there areno clear escalation paths, with multiple conflicting reporting mechanisms (IT tickets, help desk, contact forms). Coordinators desperately want updated, approved support materials but are told not to create their own, yet official materials arrive slowly or contain outdated information.
 
 **Systemic Resource Constraints**
 
-Most coordinators work alone or with minimal support (one volunteer, one part-time assistant). They handle both veteran support and staff training, manage secure messaging escalations, create training materials, and provide general technology education—often fielding non-VA questions from community members. The workload is unsustainable without PTAs as force multipliers.
+Most coordinators work alone or with minimal support, and their job responsibilities often expand beyond their official scope.  They handle both veteran support and staff training, manage secure messaging escalations, create training materials, and provide general technology education.  PTAs are one tool in their toolbox that they have come to rely on to enable them to multiply their ability to provide support to Veterans.
+
+## Summary
+If PTAs go away, MHV coordinators will need something they can use to train staff.  Demo mode may or may not be the right solution for that particular issue.  However, there is a larger issue that needs to be addressed, providing support to MHV coordinators who are the front-line staff that assist Veterans with not only gaining access to their digital accounts but also to healthcare and benefits.  From these conversations, coordinators are doing their best to help Veterans transition to modern credentials amongst a myriad of other tasks and are often overwhelmed while also feeling like they are unable to remove roadblocks for their Veterans.  
 

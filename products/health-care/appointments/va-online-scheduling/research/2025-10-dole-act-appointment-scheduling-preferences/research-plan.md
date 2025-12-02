@@ -79,7 +79,7 @@ participants:
   veterans: 18
   caregivers: 0
   dependents: 0
-  total_recruited: 22
+  total_recruited: 27
   completed_sessions_goal: 18
   
 # Timeline & Sessions
@@ -91,7 +91,7 @@ timeline:
 session_details:
   duration_minutes: 60
   buffer_minutes: 60
-  max_sessions_per_day: 3
+  max_sessions_per_day: See moderators' schedule for minimum and maximum sessions per day by moderator. 
   
 # Strategic Alignment
 octo_priorities:
@@ -410,7 +410,11 @@ Perigean will recruit all participants.
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **Date TBD**
+- `Suggested dates and times:
+    - December 1: 2-6pm EST
+    - December 2: 9:30am -1pm EST
+    - Flexible the rest of the week.
+- 
 - Perigean notetaker - Yes, for every session unless noted. 
 - Timeline: TBD
 
@@ -445,7 +449,8 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 
 **Moderating Schedule**
 
-**Note:** All times are in EST.
+**Note:** Please stop further recruitment once 18 sessions have been completed. 
+All times are in EST.
 
 | Date   | Tim (1-2 sessions)         | Nina (2-3 sessions)          |
 | ------ | ---------------- | ---------------- |
@@ -455,7 +460,7 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 | 12/11  | 8-12 and 2-4           | 10-12 and 2-6         |
 | 12/12  | 8-4              | 10-5             |
 | 12/15  | 8-4              | 10-6             |
-| **Min/Max sessions for a total of 24** | **6-12 sessions**  |**12-18 sessions**|
+| **Min/Max sessions for a total of 27** | **6-12 sessions**  |**12-18 sessions**|
 
 ## Team Roles 🕵️👩‍💻👩‍🔬
 
