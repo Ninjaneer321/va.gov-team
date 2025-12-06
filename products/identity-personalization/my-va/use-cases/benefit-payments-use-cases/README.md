@@ -1,6 +1,6 @@
 # My VA: Benefit payments use cases
 
-**Last updated: November 2025**
+**Last updated: December 2025**
 
 - [User flow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1746474542228/c397457f63aa34d09dee9f34d785af90cd3b8b96?wid=36-1746474575795&outline=open)
 - [Figma files](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5393-14219&t=cZLTEcVoQuXx90AV-1)
@@ -24,11 +24,22 @@
 <details><summary>User has never had any benefits payments</summary>
 
 - **Use case:** If a logged in LOA3 user has no history of payments they receive a message informing them they don't have any and a link to the general payment history tool.
-- **Status code:** TBD
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5125-15049&t=cZLTEcVoQuXx90AV-1)
-- [Link to code]
 - **Content:** See designs
+- **Request:** `GET /v0/profile/payment_history`
+  - **Reponse:** `200` [empty mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/payment-history/index.js#L134)
+
+</details>
+
+
+<details><summary>User has never had any outstanding debts or copays</summary>
+
+- [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5414-19152&t=hGk8TQXoTYR6Q8xd-0)
+- **Request:** `GET /v0/debts`
+  - **Reponse:** `200` [empty mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/debts/index.js#L254)
+- **Request:** `GET /v0/medical_copays`
+  - **Reponse:** `200` [empty mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/medical-copays/index.js#L1661)
 
 </details>
 
@@ -36,11 +47,22 @@
 <details><summary>User has not received any payments from VA in the last 60 days</summary>
 
 - **Use case:** If a LOA3 user signs in and has not received any payments from VA in the last 60 days, they will see a card in the Benefit payments section stating that they have no recent payments as well as a link to review their payment history.
-- **Status code:** TBD
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5414-19152&t=cZLTEcVoQuXx90AV-1)
-- [Link to code]
 - **Content:** See designs
+ - **Request:** `GET /v0/profile/payment_history`
+   - **Reponse:** `200` [no recent payment mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/payment-history/index.js#L14)
+
+</details>
+
+
+<details><summary>User does not have any outstanding VA debts or copays</summary>
+
+- [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5414-19152&t=hGk8TQXoTYR6Q8xd-0)
+- **Request:** `GET /v0/debts`
+  - **Reponse:** `200` [debt count zero mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/debts/index.js#L1) (dev mock data wip)
+- **Request:** `GET /v0/medical_copays`
+  - **Reponse:** `200` [copay count zero mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/medical-copays/index.js#L459) (dev mock data wip)
 
 </details>
 
@@ -49,11 +71,22 @@
 
 - **Use case:** If a LOA3 user has received a payment from VA in the last 60 days, they will see a card in the Benefits payments section that tells them the dollar amount of the payment, the type of benefit payment, the date it was deposited or mailed to them, and a link to the payment history tool. Only the most recent payment is shown.
    - If a user received the payment via direct deposit, then the date text will read "Deposited on" whereas if they received it via mailed paper check, the date text will read "Checked mailed on".
-- **Status code:** TBD
 - **Format:** [Card component](https://design.va.gov/components/card)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5414-19238&t=cZLTEcVoQuXx90AV-1)
-- [Link to code]
 - **Content:** See designs
+- **Request:** `GET /v0/profile/payment_history`
+  - **Reponse:** `200` [recent payment mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/payment-history/index.js#L13)
+
+</details>
+
+
+<details><summary>User has outstanding overpayment debts and copays</summary>
+
+- [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5414-19238&t=hGk8TQXoTYR6Q8xd-0)
+- **Request:** `GET /v0/debts`
+  - **Reponse:** `200` [success mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/debts/index.js#L7)
+- **Request:** `GET /v0/medical_copays`
+  - **Reponse:** `200` [success mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/medical-copays/index.js#L459)
 
 </details>
 
@@ -71,11 +104,40 @@ There are no flags with this feature.
 <details><summary>The payments API is down and we can't display any payment information</summary>
 
 - **Use case:** If an LOA3 user logs in and there is an error with the payments API show a warning alert, and hide the payment card. TBD Do we show the link to payment tool or just leave it when this shows? The link could be in the alert.
-- **Status code:** TBD
 - **Format:** [Warning slim alert](https://design.va.gov/components/alert/#web-2)
 - [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5125-15183&t=cZLTEcVoQuXx90AV-1)
-- [Link to code]
-- **Content:** See designs 
+- **Content:** See designs
+- **Request:** `GET /v0/profile/payment_history`
+  - **Reponse:** `500` [failure mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/payment-history/index.js#L147)
+
+</details>
+
+
+<details><summary>The Lighthouse API is down and we can't display any debts or bills</summary>
+
+- [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5416-47879&t=hGk8TQXoTYR6Q8xd-0)
+- **Request:** `GET /v0/debts`
+  - **Reponse:** `500` [failure mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/debts/index.js#L261)
+- **Request:** `GET /v0/medical_copays`
+  - **Reponse:** `500` [failure mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/medical-copays/index.js#L1666)
+
+</details>
+
+
+<details><summary>The debts API is down and we cant display any overpayment debt information</summary>
+  
+- [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5125-15744&t=hGk8TQXoTYR6Q8xd-0)
+- **Request:** `GET /v0/debts`
+  - **Reponse:** `500` [failure mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/debts/index.js#L261)
+
+</details>
+
+
+<details><summary>The copays API is down and we can't display any copay information</summary>
+
+- [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5416-19340&t=hGk8TQXoTYR6Q8xd-0)
+- **Request:** `GET /v0/medical_copays`
+  - **Reponse:** `500` [failure mock](https://github.com/department-of-veterans-affairs/vets-website/blob/v0.1.8621/src/applications/personalization/dashboard/mocks/medical-copays/index.js#L1666)
 
 </details>
 

@@ -110,13 +110,14 @@ Would you like assistance sharing your screen?
 
 
 
-_[If no:]_ Go ahead and share your screen for me now.
+_[If no:]_ Go ahead and share your screen for me now. Just note that once you start sharing I will be able to see anything on your desktop, so maybe go ahead and close out any windows that you don't want to share with me.
 
-*[Follow protocol for particular OS (Android/iOS)]*
+*[Follow protocol for particular OS (Android/iOS) and AT]*
 
 * [iPhone screenshare instructions](https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share)
 * [Android screenshare instructions](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)
-* [Link to screenshare instructions for AT users once we know what AT participants are using](https://depo-platform-documentation.scrollhelp.site/research-design/research-with-assistive-technology-users)
+* [Desktop screen readers troubleshooting](https://depo-platform-documentation.scrollhelp.site/research-design/desktop-screen-readers)
+* [Speech recognition troubleshooting](https://depo-platform-documentation.scrollhelp.site/research-design/speech-recognition-instructions-and-troubleshootin#Speechrecognitioninstructionsandtroubleshootingduringresearch-Troubleshooting)
 
 ---
 
@@ -125,7 +126,7 @@ _[If no:]_ Go ahead and share your screen for me now.
 
 For the first set of questions, we have created a prototype of the medications experience on VA.gov.
 
-To access this prototype, simply click the link that I just pasted in the Zoom chat.
+To access this prototype, simply select the link that I just pasted in the Zoom chat.
 
 https://tinyurl.com/4ewwp6f5
 
@@ -147,7 +148,7 @@ Now we'll begin our first set of questions.
 2. What can you tell me about what’s going on with your prescriptions?
 3. What can you tell me about your PEPCID medication? (make med in “**active** status”)
     1. Probe: what does the **active** status mean to you?
-        1. On a scale of 1-5, how confident are you in that answer?
+        1. On a scale of 1-5 (1 being not confident, 5 being very confident), how confident are you in that answer?
     2. What is going on with your med? (If needed, call attention to status) and probe: 
         1. What do you think happens next for a medication with an **active** status?
         2. How would you feel if you saw this status on an important medication?
@@ -189,7 +190,7 @@ Great, thank you for providing your thoughts on these statuses. Some quick quest
 * Does anything about the different statuses feel overwhelming or hard to process?
 * Have you seen a status like this before on My HealtheVet? How is this similar or different from what you're used to seeing?
 * How would you like to learn that the words we use to describe statuses have changed, if at all?
-* [For AT users:] Did any part of reviewing the statuses feel harder because of using *[a screen reader] or [screen magnification]*?
+* [For AT users:] Did any part of reviewing the statuses feel harder because of using *[a screen reader] or [speech input]*?
 * Anything else about statuses that you’d like to share?
 
 Thank you! Now I’d like you to do something else for me...
@@ -201,27 +202,31 @@ For the second set of questions, I'm going to have you follow the link that I ha
 
 https://staging.va.gov/
 
+https://www.figma.com/proto/puYUxsa9cW7KsKDc1ztAOf/Status-Testing?node-id=79-16219&p=f&t=FcNj6YTyifvDyU7q-0&scaling=min-zoom&content-scaling=fixed&page-id=79%3A2588&starting-point-node-id=79%3A16219
+
 This is the staging environment for VA.gov where we can test out new ideas to make sure they work before we go live. 
 
 I'm now going to have you log in as a test user by taking the following steps:
-1. Click the Sign In button in the upper right corner
-2. Select the ID.me green button
-3. Paste the following email address into the email text box: emma.smith@id.me
-4. Paste the following password into the password text box: Tester1& **Note that this needs to change for each session**
-5. You'll see there is a fake telephone number in this pop up window. Simply click the "Continue" button to continue
-6. Similarly, go ahead and click the "Continue" button here as well
+1. Select the Sign In button (in the upper right corner)
+2. Select the ID.me (green) button
+3. (Enter or) Paste the following email address into the email text box: emma.smith@id.me
+4. (Enter or) Paste the following password into the password text box: Tester1& **Note that this needs to change for each session**
+5. There's a fake telephone number in this pop up window. Simply select the "Continue" button to continue
+6. Similarly, go ahead and select the "Continue" button here as well
 7. Great! You're logged in.
 
 Now we're going to navigate to the medications landing page. To do this:
-1. Select My HealtheVet in the upper right menu
-2. Scroll down to the Medications box and select "Review medications."
+1. Select My HealtheVet (in the upper right menu)
+2. Find the Medications section and select "Review medications."
 
 
 Excellent. We're now where we need to be.
 
-Let's take a minute or two to look around this page.
+Let's take a minute or two to get familiar with this page.
 
-As you can see, this is not your My HealtheVet account. If you look in the top right corner where your name would appear, it says Emma which is our test user name. However, we would like you to imagine this is your account with your own data, not someone else’s.
+As you can see, this is not your My HealtheVet account. If you look (in the top right corner) where your name would display, it says Emma which is our test user name. However, we would like you to imagine this is your account with your own data, not someone else’s.
+
+This task is going to have you navigating through a series of pages. We want to hear your thoughts at each step, so I'd like you to pause at the beginning of each new page/step so I can ask you a few questions. 
 
 Ok let's begin with the task:
 
@@ -277,20 +282,20 @@ Ok let's begin with the task:
 * *Does the modal cause the user hesitation or confusion about going to messaging?*
 * *Does the user click through without taking the time to absorb the information in the modal?*
 
-### Prefilled Renewal Request Message Content
+### Care team selection
 
-* What do you notice on this page?
-
-#### Care team selection
 * Who would you select here, and why?
 * If you weren't sure which provider to choose, what would you do?
+
+_[After answering questions, instruct the user to select DERMATOLOGY]_
 
 *Things to watch for:*
 * *Does the user express confusion about selecting a provider?*
 
 
-#### Prefilled message
+### Prefilled Renewal Request Message Content
 
+* What do you notice on this page?
 * Would you edit or add additional information to this message at all?
     * If no, why not?
     * If yes, what would you change in the message?
@@ -318,10 +323,9 @@ Ok let's begin with the task:
 Thank you for completing that task. I have a few follow up questions for you:
 
 * Did anything in the process feel overwhelming or hard to process?
-* What would you change about this process?
-* What would you keep about this process?
-* _[For AT users:]_ Did any part of of the process feel harder because of using *[a screen reader] or [screen magnification]*?
-* _[For AT users:]_ If you were teaching someone else who uses *[a screen reader] or [screen magnification]* to do this, what would you warn them about?
+* What, if anything, would you change about this process?
+* _[For AT users:]_ Did any part of of the process feel harder because of using *[a screen reader] or [speech input]*?
+* _[For AT users:]_ If you were teaching someone else who uses *[a screen reader] or [speech input]* to do this, what would you warn them about?
 
 
 *[Ask the following questions to all users whether they were able to complete the reqeust or not.]*
@@ -329,8 +333,8 @@ Thank you for completing that task. I have a few follow up questions for you:
 
 
 * "Before we wrap up Task 2, I'd like to show you one more thing.
-
-INSERT INSTRUCTIONS HERE ON HOW THE USER CAN ACCESS THE ERROR PAGE.
+1. Can you please go to the link I have just pasted into the chat: https://tinyurl.com/48smhma5
+2. Please select one of the care teams and click "Continue"
 
 Imagine you tried to request a renewal for this medication, but when you clicked the link to send a message to request a renewal, you were taken to this page. What would you do next?
 
@@ -344,7 +348,7 @@ Imagine you tried to request a renewal for this medication, but when you clicked
 * *Do they add additional content to the message to compensate for missing information?*
 * *Do they seem frustrated?*
 
-Great, thank you for tha tadditional input!
+Great, thank you for that additional input!
 
 ---
 

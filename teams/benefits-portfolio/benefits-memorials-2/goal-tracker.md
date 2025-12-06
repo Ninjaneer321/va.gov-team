@@ -83,19 +83,20 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
  - [X] Ready to be sent for approvals (11/4/25)
  - [X] VA PO & COR sent the Sprint Goals (11/5/25)
  - [X] VA PO approved the Sprint Goals (11/6/25)
- - [ ] VA COR approved the Sprint Goals (11/XX/25)
+ - [] VA COR approved the Sprint Goals (11/XX/25)
  
 **_Delivery + Notes:_**
-- [ ] All goals have been updated in the sprint chart
-- [ ] Any Additional details about goals **not** completed will be documented here
+- [x] All goals have been updated in the sprint chart
+- [x] Any Additional details about goals **not** completed will be documented here
+- For goal: UX: Continue service blueprint work, including meeting with VEO team, identifying SME’s, finalizing conversation guides. the conversation guide was not created or needed as the research was already completed and the results are being folded into our work.
 
 ## Sprint Goals - Sprint: 22 [11/19/25 - 12/2/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Review service blueprint design artifacts from VEO and synthesize outstanding questions to identify opportunities for next steps.| QP7 |--|--|--|
+|UX: Review service blueprint design artifacts from VEO and synthesize outstanding questions to identify opportunities for next steps.| QP7 |--|--|Completed|
 |UX: Finalize submission email confirmation and confirmation page to review pay.gov Overpayment designs with Debt Management Center and collect feedback on designs to inform next steps.| QP4 |--|--|--|
-|ENG: Complete backend triage efforts to validate all the Lighthouse API data and present the API contents to Front End confirming that Front End is ready for implementation on the presentation page.| QP3 |--|--|--|
-|ENG: Front end to implement Payment History endpoint Step 1 of 2. (Step 2 will happen after goal #3).| QP3 |--|--|--|
+|ENG: Complete backend triage efforts to validate all the Lighthouse API data and present the API contents to Front End confirming that Front End is ready for implementation on the presentation page.| QP3 |--|--|Complete|
+|ENG: Front end to implement Payment History endpoint Step 1 of 2. (Step 2 will happen after goal #3).| QP3 |--|--|Incomplete|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (11/18/25)
@@ -106,25 +107,27 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **_Delivery + Notes:_**
 - [X] All goals have been updated in the sprint chart
 - [X] Any Additional details about goals **not** completed will be documented here
-- For goal: UX: Continue service blueprint work, including meeting with VEO team, identifying SME’s, finalizing conversation guides. the conversation guide was not created or needed as the research was already completed and the results are being folded into our work.
+- For goal: ENG: Front end to implement Payment History endpoint Step 1 of 2. (Step 2 will happen after goal #3), the summary page endpoint has been developed, but the copayment endpoint has yet to be merged. With the recent cyber attack, this has been paused.
 
 ## Sprint Goals - Sprint: 23 [12/3/25 - 12/16/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: TBD| QP# |--|--|--|
-|UX: TBD| QP# |--|--|--|
-|ENG: TBD| QP# |--|--|--|
-|ENG: TBD| QP# |--|--|--|
+|BE: Finish the service/model layer, manage fetching all the data, and format it to match our proposed payload for Payment History initiative.| QP3 |--|--|--|
+|FE: Implement Digital Dispute timelines  in emails and confirmation page.|QP1 |--|--|--|
+|TEAM: Prepare final artifacts for Payment History VHA Staging Review (on 12/18/25).| QP3 |--|--|--|
+|UX: Review and integrate DMC project team Hardship Suspension design feedback.| QP6 |--|--|--|
+|UX: Establish November monthy Meadallia report.| QP7 |--|--|--|
+|UX: Prepare Pay.gov artifacts for Design Intent and Midpoint Review touchpoints (on 12/4/25 and 12/11/25). | QP4 |--|--|--|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
- - [] Ready to be sent for approvals (12/x/25)
- - [] VA PO & COR sent the Sprint Goals (12/x/25)
- - [] VA PO approved the Sprint Goals (12/x/25)
- - [] VA COR approved the Sprint Goals (12/x/25)
+ - [x] Ready to be sent for approvals (12/2/25)
+ - [x] VA PO & COR sent the Sprint Goals (12/2/25)
+ - [x] VA PO approved the Sprint Goals (12/2/25)
+ - [x] VA COR approved the Sprint Goals (12/2/25)
  
 **_Delivery + Notes:_**
-- [] All goals have been updated in the sprint chart
-- [] Any Additional details about goals **not** completed will be documented here
+- [x] All goals have been updated in the sprint chart
+- [ ] Any Additional details about goals **not** completed will be documented here
   
 ## Quarterly Priorities for FY25Q4 (July, August, September 2025)  
 *Quarter Sprints include 12, 13, 14, 15, 16, 17, 18*

@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Research Plan for Notifications Study – Decision Letters and Evidence Requests"
 date: 2025-10-26
-last_updated: 2025-10-26
+last_updated: 2025-12-02
 team: "Benefits Management Tools (BMT)"
 product: "VA Benefits Management Notifications"
 product_area: "authenticated"
@@ -12,7 +12,7 @@ background:
   problem_statement: "Today, Veterans primarily receive benefits notifications by paper mail, with decision letters also sent via email. Other notifications, such as evidence requests, are still paper-only. While these channels provide official documentation, they offer limited flexibility for timely or interactive communication. As BMT expands to include text messages and in-app notifications, we need to understand how Veterans interpret, trust, and act on messages across these channels. This study focuses on decision letter and evidence request notifications to ensure Veterans receive clear, consistent, and trustworthy communications about their benefits."
   product_location: "The notification system (VA Notify) is integrated across VA.gov’s benefits management ecosystem and the VA Health and Benefits mobile app, primarily supporting the Claim Status Tool and related benefits management features."
   user_familiarity: "Veterans are already familiar with receiving benefit updates by email and paper mail. This study builds on that experience by exploring preferences for text and in-app notifications."
-  product_brief_url: "N/A"
+  product_brief_url: "[Product Brief](#product-brief)"
 
 # Research Design
 methodology: "Semi-structured interviews with scenario-based evaluation of notification examples."
@@ -67,18 +67,18 @@ recruitment:
       qualifying_response: "Any"
 
 participants:
-  veterans: 15
+  veterans: 18
   caregivers: 0
   dependents: 0
-  total_recruited: 15
+  total_recruited: 18
   completed_sessions_goal: 10-12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "2025-11-10"
-  pilot_participant: "TBD"
-  research_dates: "2025-11-11 to 2025-12-05"
-  research_review_submission: "2025-11-05"
+  pilot_date: "2025-12-9"
+  pilot_participant: "Steven Straily"
+  research_dates: "2025-11-11 to 2026-1-02"
+  research_review_submission: "2025-12-01"
   
 session_details:
   duration_minutes: 60
@@ -334,7 +334,7 @@ Sampling will focus on Veterans with experience managing disability compensation
 - 4+ participants with low digital literacy
 
 ### Sample Size
-- **Veterans:** 15 total recruited  
+- **Veterans:** 18 total recruited  
 - **Ideal Completed Sessions:** 10–12  
 
 - **Kick Off Call Request:**  12/3-12/5 12pm-2pm ET, 330-430pm ET
@@ -349,8 +349,9 @@ Sampling will focus on Veterans with experience managing disability compensation
 - **Kick Off Call Request:**  30 min block, Availability: 12/3-12/5, 12pm-2pm ET, 330-430pm ET
 - **Recruitment Start:** 12/2/2025  
 - **Research Review Submission:** 12/1/2025  
-- **Study Duration:** 3–4 weeks (including synthesis and shareout)
-
+- **Study Duration:** 12/10/2025 - 1/2/2026 (including synthesis and shareout)
+- **Contigency Timeline:** Due to holidays 12/10/2025 - 1/9/2026
+   
   ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
 
@@ -364,28 +365,42 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 
 - `12/10, Wed, 10:00 AM EST`
 - `12/10, Wed, 12:00 PM EST`
+- `12/10, Wed, 2:00 PM EST`
 - `12/10, Wed, 4:00 PM EST`
 - `12/11, Thu, 10:00 AM EST`
 - `12/11, Thu, 12:00 PM EST`
 - `12/11, Thu, 2:00 PM EST`
 - `12/12, Fri, 10:00 AM EST`
 - `12/12, Fri, 12:00 PM EST`
+- `12/12, Fri, 2:00 PM EST`
 - `12/12, Fri, 4:00 PM EST`
 - `12/15, Mon, 10:00 AM EST`
 - `12/15, Mon, 12:00 PM EST`
+- `12/15, Mon, 2:00 PM EST`
 - `12/15, Mon, 4:00 PM EST`
 - `12/16, Tue, 10:00 AM EST`
 - `12/16, Tue, 12:00 PM EST`
+- `12/16, Tue, 2:00 PM EST`
 - `12/16, Tue, 4:00 PM EST`
 - `12/17, Wed, 10:00 AM EST`
 - `12/17, Wed, 12:00 PM EST`
+- `12/17, Wed, 2:00 PM EST`
 - `12/17, Wed, 4:00 PM EST`
 - `12/18, Thu, 10:00 AM EST`
 - `12/18, Thu, 12:00 PM EST`
 - `12/18, Thu, 2:00 PM EST`
 - `12/19, Fri, 10:00 AM EST`
 - `12/19, Fri, 12:00 PM EST`
+- `12/19, Fri, 2:00 PM EST`
 - `12/19, Fri, 4:00 PM EST`
+- `12/22, Fri, 10:00 AM EST`
+- `12/22, Fri, 12:00 PM EST`
+- `12/22, Fri, 2:00 PM EST`
+- `12/22, Fri, 4:00 PM EST`
+- `12/23, Fri, 10:00 AM EST`
+- `12/23, Fri, 12:00 PM EST`
+- `12/23, Fri, 2:00 PM EST`
+- `12/23, Fri, 4:00 PM EST`
 
   ## Team Roles  🕵️👩‍💻👩‍🔬
 

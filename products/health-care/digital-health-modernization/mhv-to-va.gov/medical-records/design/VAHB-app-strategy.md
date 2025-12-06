@@ -24,7 +24,7 @@ The Blue Button (BB) and Continuity of Care Document (CCD) will permanently be e
 
 **Other considerations:** 
 
-The VAHB app will include the radiology report/interpretation. However, images will not be available on the VAHB app as some results involve thousands of images that need to be downloaded as a zip file. 
+The VAHB app will include the radiology report/interpretation. However, images will not be available on the VAHB app as some results involve many images that need to be downloaded as a zip file. 
 
 ## Goals/Questions 
 
@@ -50,6 +50,7 @@ The VAHB app will include the radiology report/interpretation. However, images w
 **_Open questions_** 
 
 - Do we include Vitals and Health conditions?
+- Will these bring value to Veterans to include within the VAHB app?  
 
 ## Details of recommendations 
 
@@ -132,6 +133,8 @@ Appointment preparation and communication
 
 However, along with Vaccines, Vitals is not utilized often by Veterans. In its current design, what is the utility of including in the app?  
 
+Will this bring value to Veterans to include within the VAHB app? 
+
 **Current modality:** Native
 
 **Future considerations:** Introducing a date range, sort, filter, and sort functionality to make Care summaries and notes more findable
@@ -144,7 +147,79 @@ ___
 
 **Rationale:** The third most popular domain. But there's a fairly large gap between _Health conditions_ and _Care summaries and notes _
 Uncertain if Veterans rely on (compared to other domains when tracking health/communicating with providers)
+
+ Will this bring value to Veterans to include within the VAHB app? 
  
 **Current modality:** Native
 
 **Future considerations:** Introducing a date range, sort, filter, and sort functionality to make Care summaries and notes more findable
+
+## Potential implementation general paths:
+
+**If there is urgency, we can follow this path** 
+
+We already have responsive designs. So, we can do a WebView (understanding there is technical discovery, etc) as soon as possible for the domains we choose to include (Care summaries and notes, potentially Vitals, potentially Health conditions). Then work to build them in the native app for a better experience. 
+
+   Or
+
+**Recommended:** 
+
+Build each domain natively (and message or point Veterans to VA.gov for their full MR, in whatever way we see best). 
+
+## General content strategy 
+
+- We should only add content that brings value to the Veterans.  
+- We should not message about features/elements that are not available (and never were) within the app. 
+  - Could create frustration and tease the user
+  - Continue to keep app simple 
+  - More content can clutter the interface
+  - Every element included must serve a purpose
+
+### Continuity of care and Blue Button
+
+**Continuity of Care Document (CCD):** Will not be in the app. 
+
+How do we want to communicate around this? 
+
+- It does not seem to bring value to the user to surface CCD and specifically call out CCD within the VAHB app
+- Our strategy should be to not message about features/elements that are not available (and never were available) 
+- The app currently points Veterans to VA.gov (i.e, Go to VA.gov to view your complete medical record) where a Veteran can access CCD. 
+- Low traffic
+
+**Recommendation:** We should avoid surfacing or specifically calling out CCD (Continuity of Care Document) within the VAHB app, as it adds unnecessary complexity. Veterans will still be able to access the CCD via VA.gov (i.e., Go to VA.gov to view your complete medical record). 
+
+**Blue Button:** Will not be in the app. 
+
+How do we want to communicate around this? 
+
+- I don’t see evidence that Veterans are looking for Blue Button within the app. However, we know that it is the third most accessed feature on MR. 
+- There could be some value in creating content and linking Veterans to the download page. 
+- With that being said, I continue to lean towards pointing users back to VA.gov with high level, simple messaging until we have more evidence that different content is needed as we have to balance the simplicity and real-estate of the app 
+
+Go to VA.gov to view your complete medical record: 
+[Link] View medical records on VA.gov
+
+_Note: There is some general disagreement around this approach._
+
+- "I disagree- when I read this, it makes me wonder what is missing from the app. This suggests the app is not complete record, so I want to understand what "extra" things will be there if I go to the web."
+
+- "Veterans don't fully understand that they can do more on VA.gov then in the app." 
+
+<img width="343" height="685" alt="Screenshot 2025-11-24 at 10 33 08 AM" src="https://github.com/user-attachments/assets/8c4a82e0-fca2-41bb-a6ca-134e342d80bc" />
+
+## Future design exploration: 
+
+- Sort
+- Filter
+- Search  
+A combination of the three - To make the domains more findable and improve navigation. 
+
+- Print/download 
+
+What are the issues we are seeing with it? The interaction? The placement? Things out of our control or within our control? 
+
+- Push notifications 
+How can we utilize push notifications on VAHB for MRs on the app?
+
+
+

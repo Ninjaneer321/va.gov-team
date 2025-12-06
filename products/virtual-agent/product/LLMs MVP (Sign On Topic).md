@@ -1,8 +1,8 @@
-# Product Outline: Chatbot - Query Routing with LLMs (Phase 1 MVP) 
+# Product Outline: Chatbot - Query Routing with LLMs & Sign On Topic RAG (MVP) 
 ---
 ## Overview
 
-This initiative is the first phase of a multi-phase program to implement an LLM-driven conversational platform that intelligently handles user queries. The Phase 1 MVP will focus on building foundational capabilities: identifying user intent, routing queries to the right support topics (including sign-on), leveraging Retrieval-Augmented Generation (RAG) for sign-on queries, ensuring safe interactions through moderation endpoints, and monitoring system integrity.
+This initiative is the first phase of implementing an LLM-driven conversational platform that intelligently handles user queries. The MVP will focus on building foundational capabilities: identifying user intent, routing queries to the right support topics (including sign-on), leveraging Retrieval-Augmented Generation (RAG) for sign-on queries, ensuring safe interactions through moderation endpoints, and monitoring system integrity.
 
 ## Objective & Purpose:
 
@@ -58,7 +58,7 @@ As part of the One-Bot approach.
 * **Jailbreak/Breach Attempts:**
   * Tracking and responding to attempted misuse of the system.
 * **User Drop-off:**
-  * Monitoring if safety prompts, RAG/CQA responses, or routing logic cause users to abandon help-seeking.
+  * Monitor transcripts to see if safety prompts, RAG/CQA responses, or routing logic cause users to abandon help-seeking.
 
 ---
 ## Deliverables
@@ -106,16 +106,16 @@ As part of the One-Bot approach.
   - Provides helpful links & resources when responding to sign on related queries
 - Moderation endpoint for detection of suicidal ideation, harassment, or violence, with responses for appropriate resources.
 - Monitoring for detecting jailbreaking and misuse attempts.
-- Analytics/Monitoring for system performance and user engagement. 
+- Analytics/Monitoring for system performance and user engagement.
+- Voice & Tone prompt requirements based on VA.gov style guide & guidance from OCTO Content team (ongoing effort.) 
 
 > *What have you explicitly decided to **not** include and why?*
 - Automated scraping of transcripts & adding DeepEval to Databrix (manual scraping & runs through DeepEval will still occur.)
-- Voice & Tone will be a fast follow as it requires guidance from the OCTO Content team. 
 
 > *How does this solution address your Assumptions & Risks?
 - **Usability:** Iterative user testing and VA Dogfooding for safety prompts, RAG responses, and routing ensure user understanding.
 - **Value:** Monitoring of feedback and to confirm that users are receiving relevant, helpful responses, especially for sign-on.
-- **Viability:** Demonstrating safety, efficiency, and improved user experience in Phase 1 builds momentum for future FAQ topics. 
+- **Viability:** Demonstrating safety, efficiency, and improved user experience in this phase builds momentum for future FAQ topics. 
 
 ## Go-to-market
 > *What marketing, outreach, or communications are necessary for this product to be successful? Which groups/orgs are necessary to make this happen?*
@@ -130,15 +130,16 @@ As part of the One-Bot approach.
 > *Describe any major milestones for this initiative including organizational, legislative, etc. constraints.*
 1. Build Start: August 19, 2025
 2. Build End: October 10, 2025
-3. Bug Bashing: Week of October 13, 2025
-4. Dogfooding & Usability Testing: October 20 - 31st, 2025
-5. Final Presentation for Go/No Go: Week of November 10th, 2025
-6. Launch: TBD (Dependent on Azure Resources in PREPROD & PROD
+3. Bug Bashing: October 22, 2025
+4. Usability Testing: October 27 - November 6th, 2025
+5. Dogfooding (Internal Testing): TBD
+6. Final Presentation for Go/No Go: TBD
+7. Launch: TBD (Dependent on Azure Resources in PREPROD & PROD) 
 
 
 ### Key Decisions
 - AI model - Azure Open AI 4.0 model (gpt-4o, 2024-11-20)
-- For a better user experience it was decided to keep Chatbot conversation even if the page is refreshed. Chatbot conversations will only be cleared if the page is closed out. 
+- For a better user experience it was decided to keep Chatbot conversation even if the page is refreshed. Chatbot conversations will be cleared if the page is closed out. 
 
 ---
    
