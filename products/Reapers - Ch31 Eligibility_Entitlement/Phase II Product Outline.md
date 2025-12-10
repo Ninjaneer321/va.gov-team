@@ -6,7 +6,7 @@
 Veteran Readiness and Employment (VR&E) services are vital for Veterans with service-connected disabilities who are seeking employment and independent living. The RES-powered VR&E portal integrated within VA.gov directly addresses key usability and accessibility issues, transforming VA.gov into a personalized gateway for Veterans to determine eligibility, apply for benefits, and track their progress throughout the program lifecycle. This will provide a self-service case management hub that will allow Veterans to manage the full lifecycle of their VR&E journey. The Veteran will have capabilities from eligibility determination to comprehensive case management, including a Case Progress tracker, orientation tools, scheduling, VBMS upload functionality, and a career planning page. 
 
 ## Problem Statement
-As a Veteran, I want to manage the full lifecycle of my VR&E journey. As a Backend Developer I want to ensure each page operates is error-free and renders correctly, and pulls data users expect to see. As a Frontend Developer I want to see the pages to chose from so users can access the information they need and perform actions as needed. As a UX Designer I want to confirm that users are able to navigate the self-management portal with little-to-no errors so that they can access the information they need and perform actions as needed. By creating a new page the Reapers team can ensure users have easy access to information and comply with CAIA guidelines.
+As a Veteran, I want to manage the full lifecycle of my VR&E journey. As a Backend Developer I want to ensure each page operates error-free and renders correctly, and pulls data users expect to see. As a Frontend Developer I want to see the pages to chose from so users can access the information they need and perform actions as needed. As a UX Designer I want to confirm that users are able to navigate the self-management portal with little-to-no errors so that they can access the information they need and perform actions as needed. By creating a new page the Reapers team can ensure users have easy access to information and comply with CAIA guidelines.
  
 ## Desired User Outcomes
 
@@ -19,7 +19,7 @@ Veterans are unaware of the status of their application/case. Users are unaware 
 ## Desired Business Outcomes
 
 - *Why would your business want this to exist?* Allows direct communication with the Veteran and provides information to the Veteran with the next steps. This will ultimately create a seamless experience for the Veteran when the Counselor has the information that they need to process a case.
-- *With this problem solved, what should your business be able to do/achieve that they couldn't before?* The self-management portal will allow the Veteran to monitor and manager their VR&E journey. The Veteran will be able to take the appropiate steps to make sure they have provided all necessary information/documentation for their case to be processed.
+- *With this problem solved, what should your business be able to do/achieve that they couldn't before?* The self-management portal will allow the Veteran to monitor and manage their VR&E journey. The Veteran will be able to take the appropiate steps to make sure they have provided all necessary information/documentation for their case to be processed.
 
 ## Undesired Business Outcomes
 Reapers team does not meet contract timeline. All work must be completed and in production by March 12, 2026.

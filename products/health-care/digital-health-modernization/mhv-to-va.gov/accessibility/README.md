@@ -1,8 +1,9 @@
 # MHV on VA.gov — Accessibility
 Repository of accessibility-related documentation, including planning and process documents
 
-Last updated: 28 Oct 2025
+Last updated: 9 Dec 2025
 
 ## Process Documentation
 
-- [Team operations](documentation/operations.md) — Processes to follow for engaging with the accessibility team and actioning accessibility issues. 
+- [Working with MHV Accessibility](documentation/working-with-mhv-accessibility.md) — Different ways to connect and work with the MHV Accessibility team.
+- [Team operations](documentation/operations.md) — How the MHV Accessibility team operates to provide support and addresss accessibility issues.
