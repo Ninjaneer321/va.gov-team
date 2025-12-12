@@ -18,9 +18,9 @@ Before enabling your feature toggle in production, you'll need to:
 - [x] Follow [best practices for QA](https://depo-platform-documentation.scrollhelp.site/developer-docs/qa-and-accessibility-testing).
 - [x] Have your team perform as much validation in staging as possible. Validation may be challenging for some teams and systems due to downstream requirements, but the staging system should mimic the production system as much as possible.
 - [x] Work any downstream or dependent systems proactively to ensure that the feature is ready for use once it hits production.
-- [ ] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
-  - [ ] review the plan with your DEPO/OCTO representative.
-  - [ ] review the release plan with your team.
+- [x] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
+  - [x] review the plan with your DEPO/OCTO representative.
+  - [x] review the release plan with your team.
 
 ## Step 3: Production rollout
 
@@ -34,7 +34,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 #### Rollout Planning
 
-- Desired date range: **12/TBD/2025 - 12/TBD/2025**
+- Desired date range: **12/10/2025 - 12/16/2025**
 - How will you make the product available in production while limiting the number of users who can find/access it: We will use the feature toggle to limit the exposure to a percentage of users
 - What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?:
      - Links to the dashboard(s) showing "success criteria" metrics:
@@ -53,7 +53,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 ---
 ### Stage A: Canary
-- Length of time: **12/TBD/2025 - 12/TBD/2025** (Usually 2 full days)
+- Length of time: **12/10/2025 - 12/11/2025**
 - Percentage of Users (and roughly how many users do you expect this to be): 10% (approximately 15 users per day)
 
 #### Results
@@ -70,7 +70,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 #### Planning
 
-- Length of time: **12/TBD/2025 - 12/TBD/2025** (Usually 1-2 full days, depending on how it is going)
+- Length of time: **12/11/2025 - 12/15/2025** 
 - Percentage of Users (and roughly how many users do you expect this to be): 25% (approximately 38 users per day)
 
 #### Results
@@ -87,7 +87,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 #### Planning
 
-- Length of time: **12/TBD/2025 - 12/TBD/2025** (Usually this phase ends up going over the weekend)
+- Length of time: **12/15/2025 - 12/16/2025** 
 - Percentage of Users (and roughly how many users do you expect this to be): 50% (approximately 76 users per day)
 
 #### Results
@@ -107,7 +107,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 #### Planning
 
-- Length of time: **12/TBD/2025** (Usually a Monday or Tuesday)
+- Length of time: **12/16/2025** 
 - Percentage of Users (and roughly how many users do you expect this to be): 100% (approximately 150 users per day)
 
 #### Results

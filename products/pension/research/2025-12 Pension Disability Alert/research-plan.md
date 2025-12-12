@@ -80,8 +80,8 @@ Where will you be holding the research sessions? Be sure to include whether this
 ## Research materials 📔
 
 **For moderated usability tests:** 
-- [Link to conversation guide] In progress
-- [Link to prototype](https://www.figma.com/design/PBFTGd8vTs6SMSytHJNUNr/Connecting-Rated-Disability-to-Pension?node-id=3-16&t=07Kf46mwQalrYsiT-4)
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2025-12%20Pension%20Disability%20Alert/conversation-guide.md)
+- [Link to prototype](https://www.figma.com/proto/0hU7Y56EO2skWUjS8HxFjf/Usability-Prototypes?page-id=589%3A3&node-id=589-6631&p=f&t=0p1budEblOPAbwoC-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=589%3A6631)
 	
 ## Recruitment 🎯	
 *OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
@@ -129,7 +129,7 @@ We want to recruit Veteran participants who have a 100% Disability Rating. These
 
 ### Kick-off Call with Perigean
 
-- `Suggested dates and times:` **Dec 10-12**
+- `Suggested dates and times:` **Dec 15-17**
 
 ### Prepare
 

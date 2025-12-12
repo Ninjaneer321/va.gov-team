@@ -4,14 +4,16 @@
 Synopsis of first 30 days of feedback, November 17 - December 17, 2025: 
 
 ## Overall Trends
-TBD
-Info to Date: 
-High Level Number of how many viewed the alert:
-How many Confirmed (%)
-How Many Skipped
-How Mnay Edited/Added
-My VA vs My Healthy Vet traffic
-Percent of Errors
+|Nov 17 - to Date (12/10)||
+|---|---|
+|Number of how many viewed the alert:|186.93k|
+| How many Confirmed (%):|109.76k|
+|How Many Skipped:|266|
+|Percent of Errors:|0.09%|
+|How Many Edited/Added:|27,662|
+|My VA "update/add email" traffic:|18220| 
+|My Healthy Vet "update/add email traffic:|9442| 
+
 
 ---
 ### 11/18/25 
@@ -219,7 +221,7 @@ No feedback for 11/24/25.
 
 ### 11/25/25
 #### Medallia Feedback
-TBD for 11/25/25.
+No feedback for 11/25/25.
 #### Google Analytics 
 
 |Link text | Page Path + Query String | Event Count |
@@ -248,7 +250,7 @@ TBD for 11/25/25.
 
 ### 11/26/25
 #### Medallia Feedback
-TBD for 11/26/25.
+No feedback for 11/26/25.
 #### Google Analytics 
 
 |Link text | Page Path + Query String | Event Count |
@@ -277,7 +279,7 @@ TBD for 11/26/25.
 
 ### 11/27/25
 #### Medallia Feedback
-TBD for 11/27/25.
+No feedback for 11/27/25.
 #### Google Analytics 
 
 |Link text | Page Path + Query String | Event Count |
@@ -306,7 +308,7 @@ TBD for 11/27/25.
 
 ### 11/28/25
 #### Medallia Feedback
-TBD for 11/28/25.
+No feedback for 11/28/25.
 #### Google Analytics 
 
 |Link text | Page Path + Query String | Event Count |
@@ -335,7 +337,7 @@ TBD for 11/28/25.
 
 ### 11/29/25
 #### Medallia Feedback
-TBD for 11/29/25.
+No feedback for 11/29/25.
 #### Google Analytics 
 
 |Link text | Page Path + Query String | Event Count |
@@ -364,7 +366,7 @@ TBD for 11/29/25.
 
 ### 11/30/25
 #### Medallia Feedback
-TBD for 11/30/25.
+No feedback for 11/30/25.
 #### Google Analytics 
 
 |Link text | Page Path + Query String | Event Count |
@@ -393,7 +395,7 @@ TBD for 11/30/25.
 
 ### 12/01/25
 #### Medallia Feedback
-TBD for 11/24/25.
+No feedback for 11/24/25.
 #### Google Analytics 
 
 |Link text | Page Path + Query String | Event Count |
@@ -422,7 +424,7 @@ TBD for 11/24/25.
 
 ### 12/02/25
 #### Medallia Feedback
-TBD for 12/02/25.
+No feedback for  12/02/25.
 #### Google Analytics 
 
 |Link text | Page Path + Query String | Event Count |
@@ -451,7 +453,7 @@ TBD for 12/02/25.
 
 ### 12/03/25
 #### Medallia Feedback
-TBD for 12/03/25.
+No feedback for  12/03/25.
 #### Google Analytics 
 
 |Link text | Page Path + Query String | Event Count |
@@ -480,7 +482,7 @@ TBD for 12/03/25.
 
 ### 12/04/25
 #### Medallia Feedback
-TBD for 12/04/25.
+No feedback for  12/04/25.
 #### Google Analytics 
 
 |Link text | Page Path + Query String | Event Count |
@@ -509,7 +511,7 @@ TBD for 12/04/25.
 
 ### 12/05/25
 #### Medallia Feedback
-TBD for 12/05/25.
+No feedback for  12/05/25.
 #### Google Analytics 
 
 |Link text | Page Path + Query String | Event Count |
@@ -538,7 +540,7 @@ TBD for 12/05/25.
 
 ### 12/06/25
 #### Medallia Feedback
-TBD for 12/06/25.
+No feedback for 12/06/25.
 #### Google Analytics 
 
 |Link text | Page Path + Query String | Event Count |
@@ -567,7 +569,7 @@ TBD for 12/06/25.
 
 ### 12/07/25
 #### Medallia Feedback
-TBD for 12/07/25.
+No feedback for for 12/07/25.
 #### Google Analytics 
 
 |Link text | Page Path + Query String | Event Count |
@@ -596,7 +598,7 @@ TBD for 12/07/25.
 
 ### 12/08/25
 #### Medallia Feedback
-TBD for 12/08/25.
+1 comment about changing email, but no further details.
 #### Google Analytics 
 
 |Link text | Page Path + Query String | Event Count |
@@ -623,3 +625,89 @@ TBD for 12/08/25.
 | Confirmation Skipped | 8 |
 | Confirmation Errors | 2 |
 
+### 12/09/25
+#### Medallia Feedback
+No feedback for  for 12/09/25.
+#### Google Analytics 
+
+|Link text | Page Path + Query String | Event Count |
+  |---| --- | ---|
+  |Totals||1,213|
+  |Go to Profile to update your contact email|||
+  ||/my-va/?postlogin=true|643|
+  ||/my-va/|149|
+  ||/my-health/|120|
+  ||/my-health?postlogin=true|105|
+  ||/my-health|86|
+  ||/my-health/?postlogin=true|25|
+  |Go to Profile to add a contact email|||
+  ||/my-health/|47|
+  ||/my-health|21|
+  ||/my-health?postlogin=true|13|
+  ||/my-health/?postlogin=true|--|
+
+#### DataDog
+| Metric Name | Description |
+| ----------- | ----------- |
+| Alert Views | 3.8k |
+| Confirmation Successful | 1.94k |
+| Confirmation Skipped | 10 |
+| Confirmation Errors | 3 |
+
+### 12/10/25
+#### Medallia Feedback
+1 comment about formatting issue when updating email. 
+#### Google Analytics 
+
+|Link text | Page Path + Query String | Event Count |
+  |---| --- | ---|
+  |Totals||1,091|
+  |Go to Profile to update your contact email|||
+  ||/my-va/?postlogin=true|567|
+  ||/my-va/|149|
+  ||/my-health/|146|
+  ||/my-health|94|
+  ||/my-health?postlogin=true|43|
+  ||/my-health/?postlogin=true|17|
+  |Go to Profile to add a contact email|||
+  ||/my-health/|51|
+  ||/my-health|19|
+  ||/my-health?postlogin=true|3|
+  ||/my-health/?postlogin=true|2|
+
+#### DataDog
+| Metric Name | Description |
+| ----------- | ----------- |
+| Alert Views | 3.8k |
+| Confirmation Successful | 1.94k |
+| Confirmation Skipped | 10 |
+| Confirmation Errors | 3 |
+
+### 12/11/25
+#### Medallia Feedback
+1 comment about a formatting issue when updating email. 
+#### Google Analytics 
+
+|Link text | Page Path + Query String | Event Count |
+  |---| --- | ---|
+  |Totals||1,122|
+  |Go to Profile to update your contact email|||
+  ||/my-va/?postlogin=true|612|
+  ||/my-va/|138|
+  ||/my-health/|138|
+  ||/my-health|107|
+  ||/my-health?postlogin=true|25|
+  ||/my-health/?postlogin=true|24|
+  |Go to Profile to add a contact email|||
+  ||/my-health/|51|
+  ||/my-health|20|
+  ||/my-health?postlogin=true|5|
+  ||/my-health/?postlogin=true|2|
+
+#### DataDog
+| Metric Name | Description |
+| ----------- | ----------- |
+| Alert Views | 2.8k |
+| Confirmation Successful | 1.3k |
+| Confirmation Skipped | 4 |
+| Confirmation Errors | 4 |
