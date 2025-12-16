@@ -192,7 +192,7 @@ Are there moments that matter?</summary>
 
 `Goal 2: Discovery around two flows - one using a new VADS pattern and the other with a VADS pattern and API hybrid approach - to determine usabilty and user preference for both.`
 
-**`1.`[Is the flow of prototype A and the VADS eligibility pattern easy for participants - both Veterans and family members?]**
+**`1.`[Is the flow of prototype Blueberry and the VADS eligibility pattern easy for participants - both Veterans and family members?]**
 
 **`2.`[What flow do participants seem to find easier via self-reported ratings and quotes?]**
 
@@ -223,7 +223,8 @@ Are there moments that matter?</summary>
 
 **[Semi-structured interviews/usabilty testing with mid-fidelty prototypes to explore two options of implementation and content options for alerts]**
 
-<img width="5674" height="3316" alt="Showing main sections of prototype A and B for each Veteran and family member cohorts" src="https://github.com/user-attachments/assets/e61b6202-83fa-407d-a3ca-13aa8a393f5f" />
+<img width="5674" height="3316" alt="Prototype Flow" src="https://github.com/user-attachments/assets/38e81f7f-9ab7-4e22-a2b9-83a0766f4ee3" />
+
 
 
 
@@ -240,7 +241,9 @@ Are there moments that matter?</summary>
 
 **For moderated usability tests:** 
 - [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/research/users/2026-01-Tricare%20Eligibility%20Usability%20Research/conversation_guide.md)
-- [Link to prototype](url goes here)
+- [Figma with Prototype](https://www.figma.com/design/UmAtr3ULQEInMXfNFwP0g0/Application-for-CHAMPVA---10-10d--and-OHI-Certification--10-7559c--WIP?node-id=10068-32316&t=IG3jW1bmGA0pmJ36-1)
+- [Prototype for Veterans](https://www.figma.com/proto/UmAtr3ULQEInMXfNFwP0g0/Application-for-CHAMPVA-10-10d-and-OHI-Certification-10-7559c-WIP?node-id=10068-32316&p=f&t=IG3jW1bmGA0pmJ36-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=10114%3A20511&show-proto-sidebar=1)
+- [Prototype for Applicants](https://www.figma.com/proto/UmAtr3ULQEInMXfNFwP0g0/Application-for-CHAMPVA-10-10d-and-OHI-Certification-10-7559c-WIP?node-id=10068-32316&p=f&t=IG3jW1bmGA0pmJ36-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=10123%3A13173&show-proto-sidebar=1)
 
 
 
@@ -297,7 +300,7 @@ _Response options: YES, NO, UNSURE_
 **Cohort 2 must:**
 - Identify as a spouse or dependent child of a Veteran with a service-connected disability rating of 100%
 
-**Screener Cohort 2 (Spouses and dependent children of Veterans with a 100% service connected disability):**
+**Screener Cohort 2 (Spouses and dependent children of Veterans with a 100% service-connected disability):**
 1. Please select the answer that best fits you:
 _Response options: Spouse of a Veteran, Dependent child of a Veteran (Answering either would qualify the participant)_
 

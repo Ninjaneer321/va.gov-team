@@ -1,114 +1,118 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "One VA Debt Letter in mobile app Research Findings"
+product: "Mobile app One VA Debt Letter"
+team: "Mobile App Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-12-16"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Emily DeWan"
+  - "Natasha Huckleberry"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Assess Veteran interest, value, and trust in a combined VA debt statement on mobile."
+  - "Identify Veteran needs, expectations, and preferences for interacting with a combined statement in the app."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated remote sessions"
+  - "Semi-structured interviews"
+  - "Concept testing with prototypes"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 10
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 2
+    "45-54": 4
+    "55-64": 2
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 2
+    associates: 1
+    bachelors: 6
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 7
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 4
+    hispanic: 1
+    biracial: 0
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants manage VA debts alongside other bills, focusing on due dates rather than viewing VA debt as a distinct category."
+  - "Format preferences outweigh grouping; participants are more concerned with how information is presented than whether statements are individual or combined."
+  - "Most participants desire consistent features across all statements, regardless of grouping."
+  - "Most combined statement needs can be met with individual ones, as overpayments and copayments must be managed separately."
+  - "Trust is tied to details and transparency, not format."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Hold off on building a centralized combined debt view on mobile until strong user need is established in future research."
+  - "Hold off on adding a combined debt PDF to the mobile experience until future research identifies a strong user need for this feature."
+  - "Conduct user research on the existing combined statement on the website (both the HTML and PDF versions) to assess whether Veterans find it valuable in ways that differ from individual statements."
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Since we are not recommending development of the combined statement feature, we do not propose any new KPIs at this time."
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "This research supports our desired user outcome by confirming limited need for a combined statement in the mobile app, allowing us to prioritize clear, transparent individual statements and features Veterans truly want."
+  business: "This research supports our desired business outcome by guiding us to focus developer resources on features that match Veteran needs and reducing risk from developing under-used features."
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "More research on unique value of the combined statement compared to individual statements."
+  - "Better screening to recruit current VA mobile app users."
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Refining screener questions to better identify Veterans with recent benefit overpayment debt."
+  - "Refining screener questions to better recruit Veterans who currently use the VA mobile app."
+  - "Exploring perspectives from Veterans who have not used the VA mobile app but have current VA debt or bills to see if there are needs that could be solved by the app."
+  - "Assessing the experiences of caregivers who assist Veterans in managing debt and bills."
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Cognitive Disability"
+  - "No degree"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Biracial"
+  - "Native Hawaiian or other Pacific Islander"
+  - "First Nations (Canada)"
+  - "Native, American Indian or Alaska Native"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "n/a"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Spreadsheets"
 ---
 
-<br>**This is a template, PLEASE MAKE A COPY**
+# One VA Debt Letter in mobile app: Research Findings 
 
----
+**Office of the CTO - Digital Experience (OCTO-DE), Mobile app One VA Debt Letter, Mobile Feature Support**
 
-# [Study] Research Findings 
+**Date:** 12/16/2025
 
-**Office of the CTO - Digital Experience (OCTO-DE), Product Name, Team Name**
+**Contacts:** Emily DeWan (UX Researcher), Natasha Huckleberry (UX Designer)
 
-**Date:** MM/DD/YYYY
-
-**Contacts:** [Researcher/Designer 1], [Researcher/Designer 2]
-
-**[Research Readout (PDF)](link-here)**  
+**🚧 🚧 🚧[Research Readout (PDF)](link-here)**  
 *Add a link to your research readout deck, if available.*
-
-> [!TIP] 
-> Add "user-content-" in front of each link generated by Markdown in order to move the focus correctly for keyboard navigation.
 
 **Jump to:**
 - [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
@@ -117,7 +121,7 @@ synthesis_tools_used:
 - [Product User and Business Outcomes](#user-content-product-user-and-business-outcomes)
 - [Key Performance Indicators](#user-content-key-performance-indicators)
 - [Next Steps](#user-content-next-steps)
-- [Further research needed](#user-content-further-research-needed)
+- [Further research directions](#user-content-further-research-directions)
 - [Appendix](#user-content-appendix)
 - [Research participants](#user-content-research-participants)
 
@@ -297,7 +301,7 @@ Some participants reported challenges when working with community care.
 
     > _"It's still just a pain in the butt that comes with the hurry-up-and-wait to even get a community care appointment. Sometimes the mileage claims are difficult, especially when it's a community care appointment, because you can't use the regular VA website. … It has to go through manual review status, which can take weeks to months to get approved or denied. I have had claims denied even though they were community care appointments." -P07_
 
-    > _"Community care kind of gets lost. So it's even though it's still the VA I have to go elsewhere to do that and it's very clunky. I eventually I get this referral number, which gives me the authorization to seek the care. But there is no link between the community care system and the VA system, even though they're both called VA systems. I have to go to different websites – different passwords, different websites." -P08_
+    > _"Community care kind of gets lost. So even though it's still the VA I have to go elsewhere to do that and it's very clunky. I eventually I get this referral number, which gives me the authorization to seek the care. But there is no link between the community care system and the VA system, even though they're both called VA systems. I have to go to different websites – different passwords, different websites." -P08_
 
 
 ## Recommendations
@@ -333,11 +337,13 @@ _A combined effort with the Financial Management team_
 - Use these insights to inform future decisions about implementing a combined statement view or PDF in the mobile app.
 
 
-## Further research needed
+## Further research directions
 
 Additional research could be conducted to address gaps from the current study, including:
 - Refining screener questions to better identify Veterans with recent benefit overpayment debt.
+    - All participants reported overpayments, but some confused the term with other types of medical debt beyond copays.
 - Refining screener questions to better recruit Veterans who currently use the VA mobile app.
+    - Everyone declared they used the VA mobile app at least 3-5 times per year. However, one mistook the mobile website for the app, another described My HealtheVet, and one had not used the app in over a year.
 - Exploring perspectives from Veterans who have not used the VA mobile app but have current VA debt or bills to see if there are needs that could be solved by the app.
 - Assessing the experiences of caregivers who assist Veterans in managing debt and bills.
 
@@ -345,138 +351,178 @@ Additional research could be conducted to address gaps from the current study, i
 ## Appendix
 
 ### Research documents
-- [Product Outline](link here)
-- [Research plan](link here)
-- [Conversation guide](link here)
-- [Interview transcripts](link here)
+
+- [Research report](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/one_va_debt_letter/mobile/research-findings.md)
+- [Product Brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/one_va_debt_letter/mobile/product-brief.md)
+- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/one_va_debt_letter/mobile/research-plan.md)
+- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/one_va_debt_letter/mobile/conversation-guide.md)
+- [Interview transcripts](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/Debt%20Resolution/one_va_debt_letter/mobile/transcripts)
+- [Interview notes](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/Debt%20Resolution/one_va_debt_letter/mobile/session-notes)
+- [Mural board](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffair[…]fe8c3e32346aba1ff9371dca9ab84?sender=u456b54784628aa29fbf80697)
 
 ### Tools used for Synthesis
 
-*List tools or techniques used, e.g., Mural, affinity mapping.*  
+- Mural (observer notes, affinity mapping)
+- Spreadsheets (notes during sessions, tagging keywords, pulling quotes)
   
 ### Pages and applications used
 
-*Link to prototypes or pages tested during the study.*  
+- [Prototype: Rough current experience](https://www.figma.com/proto/yJDDdSrZkBRl7Obk0gUbxi/MFS---One-VA-Debt-Letter?page-id=2001%3A429&node-id=4560-156431&viewport=41%2C413%2C0.13&t=Bk69rL6mPXUkAaFP-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4560%3A156431&show-proto-sidebar=1&hotspot-hints=0)
+- [Prototype: Design explorations](https://www.figma.com/proto/yJDDdSrZkBRl7Obk0gUbxi/MFS---One-VA-Debt-Letter?page-id=2001%3A429&node-id=4906-146809&viewport=41%2C413%2C0.13&t=Bk69rL6mPXUkAaFP-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4560%3A156431&show-proto-sidebar=1&hotspot-hints=0)
 
 
-### Other supporting documents created
+### 🚧 🚧 🚧Other supporting documents created
 
 *Include links to additional materials, e.g., personas, user flows.*  
 
 
-### Secondary research
+### 🚧 🚧 🚧Secondary research
 
 *Include any relevant secondary research, e.g., web analytics, SME interviews.*  
 
 ### Research participants 
-_Complete the demographic info below using information from the Perigean recruitment survey. For those items where you didn't have participants, please mark with "0". You can use "unknown" if you aren't sure if your participants had a characteristic._ 
-
-[Example Research participants](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#research-participants)
 
 #### Recruitment criteria
 
-_If you had specific criteria that you recruited for, use this space to explain what those were along with other information you feel would be important to understanding your participants._
+Primary criteria (must-haves)
+
+- `Had a debt balance from benefit overpayments in the last year`
+- `Received VA medical copay bills in the last year`
+- `Complete session on their smartphone via the Zoom app`
+- `Download the Figma app ahead of time, though not creating an account`
+- `No assistive technology users or accessibility features turned on`
+    - _This is due to prototype limitations; we will be testing with assistive technology at a later date_
+
+Secondary criteria (nice-to-haves)
+
+- `At least 6 ages 55+`
+- `At least 3 under age 35`
+- `At least 6 with cognitive disability`
+- `At least 4 people of color`
+- `At least 3 in a rural area`
+- `At least 3 without a degree`
+- `At least 2 with immigrant origins`
+- `At least 1 woman`
+- `At least 1 from the LGTBQ+ community`
+
 
 #### Demographics 
 
-We talked to **x participants.**
+We talked to **10 participants.**
 
 Audience segment:
-* Veterans: x 
-* Caregivers: x 
-* Family members of a Veteran: x  
+* Veterans: 10  
+* Caregivers: 0 
+* Family members of a Veteran: 0  
 
 
 Gender:
-* Male: x 
-* Female: x 
+* Male: 8 
+* Female: 2 
 
 
-LGBTQ+:
-* Transgender: x 
-* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: x
-* Gay, lesbian, or bisexual: x
+LGBTQ+: 2 identified as LGBTQ+, though we did not ask any further specifics
+* Transgender: unknown
+* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: unknown
+* Gay, lesbian, or bisexual: unknown
 
 
 Devices used during study: 
-* Desktop: x 
-* Tablet: x 
-* Smart phone: x 
-* Assistive Technology: x
+* Desktop: 0 
+* Tablet: 0 
+* Smart phone: 10 
+* Assistive Technology: 0
 
 
 Age:
-* 25-34: x
-* 35-44: x
-* 45-54: x
-* 55-64: x
-* 65+: x
-* Unknown: x
+* 25-34: 1
+* 35-44: 2
+* 45-54: 4
+* 55-64: 2
+* 65+: 1
+* Unknown: 0
 
 
 Education:
-* High school degree or equivalent: x
-* Some college (no degree): x
-* Associate's degree, trade certificate or vocational training: x
-* Bachelor's degree: x
-* Master's degree: x
-* Doctorate degree: x
-* Unknown: x
+* High school degree or equivalent: 0
+* Some college (no degree): 2
+* Associate's degree, trade certificate or vocational training: 1
+* Bachelor's degree: 6
+* Master's degree: 1
+* Doctorate degree: 0
+* Unknown: 0
 
 
 Geographic location:
-* Urban: x
-* Rural: x
-* Unknown: x
+* Urban: 7
+* Rural: 3
+* Unknown: 0
 
 
 Race:
-* White: x
-* Black: x
-* Hispanic: x
-* Biracial: x
-* Asian: x
-* Native: x
+* White: 4
+* Black: 4
+* Hispanic: 1
+* Biracial: 0
+* Asian: 1
+* Native: 0
 
 
 Disability and Assistive Technology (AT):
-* Cognitive: x
-* AT beginner: x
-* AT advanced user: x
-* Desktop screen reader: x
-* Mobile screen reader: x
-* Magnification/Zoom: x
-* [Speech Input Technology](https://www.w3.org/WAI/perspective-videos/voice/) like Siri/Dragon Naturally Speaking: x
-* Hearing aids: x
-* Sighted keyboard: x
-* Captions: x
+* Cognitive: 0
+* AT beginner: 0
+* AT advanced user: 0
+* Desktop screen reader: 0
+* Mobile screen reader: 0
+* Magnification/Zoom: 0
+* [Speech Input Technology](https://www.w3.org/WAI/perspective-videos/voice/) like Siri/Dragon Naturally Speaking: 0
+* Hearing aids: 0
+* Sighted keyboard: 0
+* Captions: 0
 
 
 #### Underserved groups we haven’t talked to 
-> [!NOTE]
-_Complete the [VA recruitment checker for marginalized Veteran groups](https://docs.google.com/spreadsheets/d/1pq7TSHZonfpzAQBJj6B2geGHlNUwZEs4DzEvxcRgu0o/edit#gid=1221033726):_
-> 1. Duplicate the ***Template*** worksheet
-> 1. Enter your participant information **(see the *Template Instructions* worksheet for details)**
-> 1. Make a screenshot of the cells that you want to share and paste it into this report below
-> 1. Generate an accessible version of those cells using Github Copilot Chat:
->    - Start a new Github Copilot chat
->    - Enter: "I want to convert these spreadsheet cells into a table in markdown:" 
->    - Copy and paste the cells from the recruitment checker spreadsheet that you've filled in
->    - Copy the resulting markdown table by clicking the copy icon in the Copilot chat, and paste it into this report below 
->    - (If Copilot returns an error, try using a different AI model, such as "Claude Sonnet 3.7 Thinking")
 
 This research does not include the perspectives of the following marginalized Veteran groups:
-_List all groups in red from the spreadsheet_
-* Group 1
-* Group 2
-* Group 3
+- Cognitive Disability
+- No degree
+- Other than honorable
+- Immigrant origin
+- Expat (living abroad)
+- Biracial
+- Native Hawaiian or other Pacific Islander
+- First Nations (Canada)
+- Native, American Indian or Alaska Native
 
-➡️ _[insert screenshot of completed recruitment checker in the format below]_
+Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers:
 
-![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](link - add image to github folder and link here with .png)
+![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/one_va_debt_letter/mobile/supporting-files/VA_recruitment_checker.png)
 
 #### A more accessible version of the table in the above image
 
-### Recruitment of underserved groups in [Study name]
+### Recruitment of underserved groups in One VA Debt Letter
 
-➡️ _[paste markdown table of completed recruitment checker from Github Copilot chat]_
+| Category                                                                                                                                   | Target Group | Target % | Target # | # in Study | Target Achieved? | p1 | p2 | p3 | p4 | p5 | p6 | p7 | p8 | p9 | p10 | p11 | p12 |
+|--------------------------------------------------------------------------------------------------------------------------------------------|--------------|----------|----------|------------|------------------|----|----|----|----|----|----|----|----|----|-----|-----|-----|
+| All participants                                                                                                                           | Total        | n/a      | n/a      | 12         | n/a              | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a  | n/a  | n/a  |
+| Assistive Tech (AT) users                                                                                                                  | Total        | n/a      | n/a      | 0          | n/a              | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a  | n/a  | n/a  |
+| No-show participants                                                                                                                       | Total        | n/a      | n/a      | 2          | n/a              | n/a | n/a | 1   | n/a | n/a | n/a | n/a | n/a | n/a | n/a  | n/a  | 1    |
+| Age 55-64+                                                                                                                                 | General      | 50%      | 6        | 3          | no               | 0   | 0   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 1    | 0    | 0    |
+| Cognitive Disability                                                                                                                       | General      | 50%      | 6        | 0          | no               | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0    | 0    | 0    |
+| Mobile user                                                                                                                                | General      | 50%      | 6        | 0          | no               | 1   | 0   | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 0    | 1    | 0    |
+| Rural                                                                                                                                      | General      | 25%      | 3        | 3          | yes              | 1   | 0   | 0   | 0   | 1   | 0   | 0   | 0   | 1   | 0    | 0    | 0    |
+| No degree                                                                                                                                  | General      | 25%      | 3        | 0          | no               | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0    | 0    | 0    |
+| Other than honorable                                                                                                                       | General      | 21%      | 3        | 0          | no               | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0    | 0    | 0    |
+| Immigrant origin                                                                                                                           | General      | 17%      | 3        | 0          | no               | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0    | 0    | 0    |
+| Women                                                                                                                                      | General      | 10%      | 2        | 2          | yes              | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 1   | 1    | 0    | 0    |
+| Expat (living abroad)                                                                                                                      | General      | .4%      | 1        | 0          | no               | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0    | 0    | 0    |
+| Black or African American                                                                                                                  | Race         | 15%      | 2        | 4          | yes              | 1   | 0   | 1   | 0   | 0   | 1   | 0   | 0   | 1   | 0    | 0    | 0    |
+| Hispanic, Latino, or Spanish origin                                                                                                        | Race         | 12%      | 2        | 1          | no               | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 1   | 0   | 0    | 0    | 0    |
+| Biracial                                                                                                                                   | Race         | 3.9%     | 1        | 0          | no               | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0    | 0    | 0    |
+| Asian                                                                                                                                      | Race         | 2.7%     | 1        | 1          | yes              | 0   | 0   | 0   | 0   | 0   | 0   | 1   | 0   | 0   | 0    | 0    | 0    |
+| Native Hawaiian or other Pacific Islander                                                                                                  | Race         | .3%      | 1        | 0          | no               | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0    | 0    | 0    |
+| First Nations (Canada)                                                                                                                     | Race         | n/a      | 1        | 0          | no               | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0    | 0    | 0    |
+| Native, American Indian or Alaska Native                                                                                                   | Race         | 1.6%     | 1        | 0          | no               | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0    | 0    | 0    |
+| Gay, lesbian, or bisexual                                                                                                                  | LGBTQ+       | n/a      | 1        | 2          | yes              | 0   | 0   | 0   | 0   | 0   | 1   | 0   | 0   | 1   | 0    | 0    | 0    |
+| Transgender                                                                                                                                | LGBTQ+       | n/a      | 1        | 0          | no               | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0    | 0    | 0    |
+| Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman                                 | LGBTQ+       | n/a      | 1        | 0          | no               | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0    | 0    | 0    |
