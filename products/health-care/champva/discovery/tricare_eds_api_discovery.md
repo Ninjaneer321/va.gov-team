@@ -40,23 +40,19 @@ EDS offers three classes of inquiry: Family, Family Member, and Person
 
 **Required Information**
 All inquires must include the following information:
-- Inquiry type: Family, Family Member, or Person
-- Business context
-- Inquiry healthcare program type
-- Begin and end dates for the inquiry period
-- The begin date may not be greater than six (6) years in the past from the current date and the end date may not be greater than six (6) months into the future
-- Person identification number for either sponsor, or inquiry person, or both
-- Person identification type code for sponsor, inquiry person, or both
+- [Inquiry Type](#choosing-an-inquiry-type): Family, Family Member, or Person
+- [Business context](#business-context)
+- [Inquiry healthcare program type](#inquiry-healthcare-program-type-healthcare-delivery-program-hcdp-type)
+- [Begin and end dates for the inquiry period](#inquiry-date-range)
+- [Person identification number](#identification-number-type-codes) for either sponsor, or inquiry person, or both
+- [Person identification type code](#identification-number-type-codes) for sponsor, inquiry person, or both
 
 **Flow diagram of client requests and responses**:
 <img width="884" height="522" alt="image" src="https://github.com/user-attachments/assets/87e25506-f639-47d0-bf6e-d2aba750985f" />
 
-#### Choosing an Inquiry Type
+### Choosing an Inquiry Type
 
 <img width="822" height="155" alt="image" src="https://github.com/user-attachments/assets/1afcd9eb-34c4-4108-85ea-481e9da16183" />
-
-Providing any of the identification number types listed in the table above offers the fastest and most complete response to a query.
-Some form of identification number is required in all types of EDS queries.
 
 - If you require only the personal information for a sponsor and do not need information on that sponsor’s family, create a `person` pull using one of the sponsor’s known identification numbers
 - Use a `family` pull if you are certain of the sponsor’s identity but have limited or no information on a dependent of the sponsor
@@ -86,6 +82,8 @@ DMDC works with new users of EDS to identify the appropriate business context to
 If the inquiry is within the valid inquiry period the CCD totals will only return the current fiscal year and two (2) years prior.
 
 ### Identification Number Type Codes
+Providing any of the identification number types listed in the table below offers the fastest and most complete response to a query. Some form of identification number is required in all types of EDS queries.
+
 EDS will attempt to match on both current and past identification numbers but will filter out matches on past IDs if multiple instances of the same ID are returned.
 
 <img width="343" height="385" alt="image" src="https://github.com/user-attachments/assets/163b6d0e-1ed9-486d-9618-c80a232f9465" />

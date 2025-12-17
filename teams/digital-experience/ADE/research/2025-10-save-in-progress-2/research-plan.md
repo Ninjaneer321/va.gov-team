@@ -2,19 +2,18 @@
 # Research Plan for 2025-10 Save in Progress -- 2nd round of usability testing
 
 ## Background 🏗️
-Saving in-progress work while filling out an online form is an interaction for which the current implementation on VA.gov has known accessibility issues, and the revised design that was [usability tested in May 2025](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-report.md) didn't work very well. Key findings from that study indicated that most participants didn't know that their information was being saved automatically, and they didn't see or remember either of the informational alerts about saving. 
+Saving in-progress work while filling out an online form is an interaction for which the current implementation on VA.gov has known accessibility issues, and the revised design that was [usability tested in May 2025](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md) didn't work very well. Key findings from that study indicated that most participants didn't know that their information was being saved automatically, and they didn't see or remember either of the informational alerts about saving. 
 
 This research is being planned to get user feedback on a revised design that hopefully communicates more effectively to Veterans that the information they enter into forms will be saved automatically. The new design adds an [interstitial page (in Figure 1 below)](#user-content-figure-1-shows-the-new-interstitial-page) about saving that appears after the user clicks the Continue button on the first page of form fields, which is after they've started filling out the form and during a natural pause in their work (between form pages).
 
 ### Figure 1 shows the new interstitial page
 
-<img src="./images/FILENAME.png" width="50%" height="50%" alt="The new interstitial page...">
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-10-save-in-progress-2/images/interstitial.PNG" width="50%" height="50%" alt="The new interstitial page explains that the information you enter in the form will saved, and that you can select the Finish later button anytime to stop">
 
-<!--INSERT SCREENSHOT WHEN DESIGN IS READY-->
 
 ### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO-DE%20Priorities%202025.md) 
 
-This research supports the following OCTO priorities:
+This research supports the following 2025 OCTO priorities:
 
 Objective 1:  VA’s digital experiences are the easiest and most efficient way to access VA health care and benefits.
 - Key Result 1: Improve satisfaction with our web and mobile products by 5 points.
@@ -73,7 +72,7 @@ This is remote research over Zoom.
 ## Research materials 📔
 
 - [Link to conversation guide](./conversation-guide.md)
-- [Link to prototype](TBD)
+- [Link to prototype](https://bit.ly/456nrPv)
 
 	
 ## Recruitment 🎯	
@@ -166,17 +165,18 @@ We would like Perigean to recruit assistive tech (AT) users and non-AT users.
 Before recruitment starts, we would like to **request a kickoff call with Perigean** to align on recruitment criteria and terminology for screener questions in the survey and emails that will be sent to Veterans. We would also like to discuss the relative priorities of recruitment criteria.  
 
 Cindy is available for a kickoff call during any of these times: 
-- **Month X**: 12-5 pm ET
+- **Jan 2**: 2-5 pm ET
+- **Jan 5**: 12-1 or 2-4 pm ET
 
 **Prior to the kickoff call, we would like a link or screenshot of the recruitment survey** for this study to review beforehand.
 
 - `Dates and times of pilot sessions:` 
-  - **Month X from y-z pm ET** with TBD
-  - **Month X from y-z ET** with TBD
-  - **Month X from y-z pm ET** with TBD
+  - **Jan 6 from y-z pm ET** with TBD
+  - **Jan 7 from y-z ET** with TBD
+  - **Jan 8 from y-z pm ET** with TBD
 
 ### Research sessions
-- `Planned dates of research:` **Oct TBD**
+- `Planned dates of research:` **Jan 12-21**
 
 We would like to request that **Perigean calls each participant** to remind them about the session, in addition to emailing them. And please include the session time **in each participant's own time zone** (from their address).
 
@@ -190,11 +190,30 @@ We would like to request that **Perigean calls each participant** to remind them
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
 
-- `OCT TBD, Mon, 12 - 1 or 1:30 PM ET`
-- `OCT TBD, Mon, 2 - 3 or 3:30 PM ET`
-- `OCT TBD, Mon, 5 - 6 or 6:30 PM ET`
-- `OCT TBD, Mon, 7 - 8 or 8:30 PM ET`
-
+- `Jan 12, Mon, 12 - 1 or 1:30 PM ET`
+- `Jan 12, Mon, 7 - 8 or 8:30 PM ET`
+- `Jan 13, Mon, 12 - 1 or 1:30 PM ET`
+- `Jan 13, Mon, 2 - 3 or 3:30 PM ET`
+- `Jan 13, Mon, 5 - 6 or 6:30 PM ET`
+- `Jan 13, Mon, 7 - 8 or 8:30 PM ET`
+- `Jan 14, Mon, 12 - 1 or 1:30 PM ET`
+- `Jan 14, Mon, 2 - 3 or 3:30 PM ET`
+- `Jan 14, Mon, 5 - 6 or 6:30 PM ET`
+- `Jan 14, Mon, 7 - 8 or 8:30 PM ET`
+- `Jan 15, Mon, 12 - 1 or 1:30 PM ET`
+- `Jan 15, Mon, 2 - 3 or 3:30 PM ET`
+- `Jan 15, Mon, 7 - 8 or 8:30 PM ET`
+- `Jan 16, Mon, 12 - 1 or 1:30 PM ET`
+- `Jan 16, Mon, 2 - 3 or 3:30 PM ET`
+- `Jan 16, Mon, 5 - 6 or 6:30 PM ET`
+- `Jan 16, Mon, 7 - 8 or 8:30 PM ET`
+- `Jan 20, Mon, 12 - 1 or 1:30 PM ET`
+- `Jan 20, Mon, 2 - 3 or 3:30 PM ET`
+- `Jan 20, Mon, 5 - 6 or 6:30 PM ET`
+- `Jan 20, Mon, 7 - 8 or 8:30 PM ET`
+- `Jan 21, Mon, 2 - 3 or 3:30 PM ET`
+- `Jan 21, Mon, 5 - 6 or 6:30 PM ET`
+- `Jan 21, Mon, 7 - 8 or 8:30 PM ET`
 
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
