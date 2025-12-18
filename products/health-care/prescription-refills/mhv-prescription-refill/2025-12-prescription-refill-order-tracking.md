@@ -56,6 +56,39 @@ The existing prescription refill flow is:
 2. Backend submits individual refill requests to source pharmacy systems (Vista, Oracle Health)
 3. Backend returns a list of per-prescription success/failure status
 
+**Current Refill Flow:**
+
+```mermaid
+sequenceDiagram
+    participant Veteran
+    participant Frontend
+    participant vets-api
+    participant UHD API
+    participant Vista/OH
+
+    Veteran->>Frontend: Opens Prescriptions page
+    Frontend->>vets-api: GET /prescriptions (fetch active prescriptions)
+    vets-api->>UHD API: GET /medications?patientId={icn}
+    UHD API->>Vista/OH: Fetch prescription data
+    Vista/OH-->>UHD API: Return prescriptions
+    UHD API-->>vets-api: Return prescription list
+    vets-api-->>Frontend: Return active/refillable prescriptions
+    Frontend-->>Veteran: Display prescription list
+    
+    Veteran->>Frontend: Selects prescriptions & clicks "Refill"
+    Frontend->>vets-api: POST /prescriptions/refill<br/>[prescription_id_1, prescription_id_2, prescription_id_3]
+    
+    loop For each prescription ID
+        vets-api->>UHD API: Submit refill request
+        UHD API->>Vista/OH: Process refill
+        Vista/OH-->>UHD API: Success/Failure
+        UHD API-->>vets-api: {success: true/false, message: "..."}
+    end
+    
+    vets-api-->>Frontend: Return array of results<br/>[{id: 1, success: true}, {id: 2, success: false}, ...]
+    Frontend-->>Veteran: Show per-prescription status
+```
+
 ## Existing Data Analysis
 
 This section analyzes the data currently available from both Oracle Health (OH) and Vista prescription sources.
@@ -570,13 +603,18 @@ sequenceDiagram
 
     Veteran->>Frontend: Selects prescriptions & clicks "Refill"
     Frontend->>vets-api: POST /prescriptions/refill
-    vets-api->>vets-api: Generate Order ID
-    vets-api->>Database: Create order record
-    vets-api->>Database: Create order items (one per prescription)
     vets-api->>UHD API: Submit refill requests
     UHD API-->>vets-api: Return success/failure per prescription
-    vets-api-->>Frontend: Return Order ID + results
-    Frontend-->>Veteran: Show confirmation with Order #
+    alt Refills accepted
+        vets-api->>vets-api: Generate Order ID
+        vets-api->>Database: Create order record
+        vets-api->>Database: Create order items (one per prescription)
+        vets-api-->>Frontend: Return Order ID + results
+        Frontend-->>Veteran: Show confirmation with Order #
+    else API error or all refills rejected
+        vets-api-->>Frontend: Return error
+        Frontend-->>Veteran: Show error message
+    end
 ```
 
 **Order History View Flow:**
@@ -604,19 +642,9 @@ sequenceDiagram
         vets-api->>Redis: Cache orders
     end
 
-    vets-api->>vets-api: Separate orders by completed flag
-
-    alt Has incomplete orders
-        vets-api->>UHD API: GET /medications (all prescriptions)
-        UHD API-->>vets-api: Return prescription data
-        vets-api->>vets-api: Match prescriptions to order items by ID + refill_number
-        vets-api->>vets-api: Check if all items in order are now complete
-        alt All items complete
-            vets-api->>Database: UPDATE order SET completed = true
-            vets-api->>Redis: Invalidate cached orders
-        end
-    end
-
+    vets-api->>UHD API: GET /medications (all prescriptions)
+    UHD API-->>vets-api: Return prescription data
+    vets-api->>vets-api: Match prescriptions to order items by ID + refill_number
     vets-api->>vets-api: Merge order metadata + prescription details
     vets-api->>vets-api: Compute overall order status
 
@@ -625,12 +653,10 @@ sequenceDiagram
 ```
 
 **Key Points:**
-- Completed orders skip the UHD API call entirely, reducing latency
-- Incomplete orders always fetch real-time data from UHD API
-- The `completed` flag is updated opportunistically when viewing orders
-- Cache is invalidated when an order is marked as complete
-- Order metadata (order number, submitted date) is always available from the database
-- If UHD API is unavailable, incomplete orders show "status unavailable"
+- Orders always fetch real-time data from UHD API to get current prescription status
+- Cache is used for order metadata (order number, submitted date, items)
+- Order metadata is always available from the database
+- If UHD API is unavailable, orders show "status unavailable"
 
 #### Database Schema
 

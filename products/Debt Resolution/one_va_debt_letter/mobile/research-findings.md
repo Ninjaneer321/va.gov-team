@@ -295,6 +295,10 @@ Several participants expressed frustration over the lack of details in overpayme
 
     > _"What is happening behind the scenes, like why there would be a decrease or whatever – it just says increase or decrease." -P11_
 
+    > _"Looking at this, I'd like to know what the heck this balance increase in the amount of $15 per month is. Why is that done? And then this just says balance decrease $100.00." -P07_
+
+    > _"So who paid that $100? [balance decrease] Was that paid by insurance, was that paid by a third party carrier? It doesn't give me enough information at all to tell me how that was done." -P08_
+
 Some participants reported challenges when working with community care.
 - Community care allows Veterans to receive medical services from external providers when VA cannot deliver. Two participants described difficulties with submitting claims and navigating separate systems.
 
@@ -311,7 +315,10 @@ Some participants reported challenges when working with community care.
 2. **Recommendation**: Hold off on adding a combined debt PDF to the mobile experience until future research identifies a strong user need for this feature.
     - *Supporting evidence: Although almost everyone found value in the combined statement PDF, their needs were met with individual statements, especially for print and large-screen use.*
 3. **Recommendation**: Conduct user research on the existing combined statement on the website (both the HTML and PDF versions) to assess whether Veterans find it valuable in ways that differ from individual statements. Use the results to further inform whether a combined statement should be built in the mobile app.
+    - Track how frequently individual users return to download the combined PDF multiple times, not only how often it's downloaded.
+    - Gather qualitative feedback on the unique benefits of combined statements compared to individual statements.
     - *Supporting evidence: Participants appreciated the combined PDF’s familiar format and summary view, but most needs were met by individual statements. Sending the combined PDF to someone for financial assistance was a unique use case, but it remains unclear whether Veterans would routinely download and use it in practice. Further research will clarify how Veterans actually interact with these statements and inform mobile app decisions.*
+
 
 
 ## Product User and Business Outcomes
