@@ -2,24 +2,28 @@
 
 # Sections
 1. [Overview](#overview-section)
-2. [End to End Testing Workflow](#end-to-end-testing-workflow-section)
-3. [VistA Configuration Data](#vista-configuration-data-section)
-4. [Endpoints](#endpoints-section)
-    1. [Appointments](#appointments-endpoint-section)
-        1. [Make Appointment](#makeappointment)
-        2. [Get Appointments](#getappointments)
-        3. [Delete Appointment](#deleteappointment)
-        4. [Checkin to Appointment](#checkinappointment)
-        5. [Find Appointment Slots](#appointmentslots)
-    2. [Test Patient Management](#patients)
-        1. [Get Patient Demographics](#getPatient)
-        2. [Update Phone Number](#putPatient)
-5. [VistA Access](#vista-access)
-    1. [SSH Access](#ssh-connectivity-for-dev)
-    2. [Insurance Verification](#how-to-update-insurance-verification-timestamp)
-<a name=""></a>
-<a name=""></a>
-<a name="overview-section"></a>
+2. [Scheduling Tool](#scheduling-tool)
+3. [Old process without the scheduling tool](#old-process-without-the-scheduling-tool)
+    1. [Pre-check-in (skipping cellphone step)](#pre-check-in-skipping-cellphone-step)
+    2. [Check-in day of End to End Testing Workflow with cell phone](#check-in-day-of-end-to-end-testing-workflow-with-cell-phone)
+4. [VistA Configuration Data](#vista-configuration-data)
+    1. [Available Clinics (station 530)](#available-clinics-station-530)
+    2. [Available Clinics (station 500)](#available-clinics-station-500)
+    3. [Available Clinics (station 442)](#available-clinics-station-442)
+    4. [Assigned DFNs](#assigned-dfns)
+5. [Endpoints](#endpoints)
+    1. [Appointments Endpoint](#appointments-endpoint)
+        1. [POST - Make Appointment](#post---make-appointment)
+        2. [GET - Get Appointments for Date](#get---get-appointments-for-date)
+        3. [DELETE - Delete an Appointment](#delete---delete-an-appointment)
+        4. [Appointment Checkin endpoint](#appointment-checkin-endpoint)
+        5. [Appointment Slots endpoint](#appointment-slots-endpoint)
+    2. [Patients Endpoint](#patients-endpoint)
+        1. [GET - Get all demographics data for a specific test user](#get---get-all-demographics-data-for-a-specific-test-user)
+        2. [PUT - Update only the phone number for a specific test user](#put---update-only-the-phone-number-for-a-specific-test-user)
+6. [VistA Access](#vista-access)
+    1. [SSH connectivity for dev](#ssh-connectivity-for-dev)
+    2. [How to update insurance verification timestamp](#how-to-update-insurance-verification-timestamp)
 
 # Overview
 Check In Experience is a mobile workflow that will be tested on mobile device browsers, or mobile device simulators on a computer.
@@ -36,9 +40,9 @@ Make sure you have an assigned test user DFN before setting up appointment tests
 
 <a name="end-to-end-testing-workflow-section"></a>
 
-# Pre check-in and day of check-in Testing Workflow
 
-## Web Tool
+
+# Scheduling tool
 
 A web UI is available (for staging only) [here](https://vigilant-couscous-ab7fb4a4.pages.github.io). It is accessible on VPN (GFE/CAG) to anyone with access to [the staging scheduler repo](https://github.com/department-of-veterans-affairs/cie-staging-scheduler/). It allows you to:
 
@@ -55,23 +59,46 @@ Guidelines for use:
 - if you receive an error message regarding your cell phone number when creating a check-in or pre-check-in link, update the phone number associated with your patient
 - for questions or if you encounter any errors, post in the #check-in-experience-engineering channel and tag the front end team
 
-## Network access
+Steps to test:
+
+- Create an appointment for your test user
+- Click button to generate link
+- Go to link use last name of dob of test user
+- Test
+
+Business rules (gotchas) in generating links:
+- Check-in
+  - Need to be within the 60 minute check-in window(45 minutes before 15 minutes after)
+  - Need to have insurance up to date (click toggle in the web UI for that user)
+  - Patient's phone number can not be assigned to more than one user
+- Pre-check-in
+  - Needs to be within Pre-check-in window (between tomorrow and 14 days from now)
+  - Insurance needs to be up to date
+  - Patient's phone number can not be assigned to more than one user
+- Standalone travel for Oracle Health
+  - Does not use this as it is for VISTA sites and Standalone travel is only for oracle health sites
+
+## Old process without the scheduling tool
+
+### Pre-check-in (skipping cellphone step)
+
+#### Network access
 
 You must use CAG or GFE to follow this testing workflow, the endpoints are not accessible via SOCKS.
 
-## Test harness
+#### Test harness
 
 You will need the CHIP Insomnia collection, ask a CHIP team member for it. When using Insomnia make sure to have `Validate certificates` unchecked in the Request/Response section of the Insomnia preferences.
 
 You can download Insomnia at [http://insomnia.rest](http://insomnia.rest)
 
-## Create Appointment
+#### Create Appointment
 
 Using the 'Make Appointment' endpoint under the `VEText Appointments` heading, create an appointment for any time between tomorrow and 14 days from now. Note the `appointmentIEN` in the response, you'll need it for the next step.
 
 - **Note**: use the `/appointments/slots` GET request to find available appointment slots to schedule into. Use the `startDatetime` from the slot you wish to use and set the endDatetime to be 30 minutes after the start.
 
-## Call the pre-checkin endpoint
+#### Call the pre-checkin endpoint
 
 Using the CHIP/Test Harness Insomnia collection:
 
@@ -82,22 +109,22 @@ Using the CHIP/Test Harness Insomnia collection:
 
 http://staging.va.gov/health-care/appointment-pre-check-in/?id={uuid}
 
-# End to End Testing Workflow
+### Check-in day of End to End Testing Workflow with cell phone
 
-## Network access
+#### Network access
 
 You must use CAG or GFE to follow this testing workflow, the endpoints are not accessible via SOCKS.
 
-## Assign Phone Number
+#### Assign Phone Number
 If you have not already done so, [use the `/patients` endpoint to add your phone number to your assigned VistA test patient](#put---update-only-the-phone-number-for-a-specific-test-user).
 
-## Create Appointment
+#### Create Appointment
 
 Execute the POST to the `/appointments` endpoint described above to create a new appointment. There must be an open time slot for the `clinicIen` at the time specified in `startDateTime`.
 
 - **Note**: use the `/appointments/slots` GET request to find available appointment slots to schedule into. Use the `startDatetime` from the slot you wish to use and set the endDatetime to be 30 minutes after the start.
 
-## Send Text
+#### Send Text
 Once the appointment has been scheduled, send a text message to initiate the Check In Experience workflow.
 
 - **Note**: Currently the time window that an appointment can be checked in to is 30 minutes prior to and 5 minutes past the appointment start time.
@@ -110,7 +137,7 @@ Once an appointment has been created, send `check in` as a text message to `254-
 Check in for your VA appointment at https://go.usa.gov/xyz123
 ```
 
-## Access Check In Experience va.gov Workflow
+#### Access Check In Experience va.gov Workflow
 
 Click on the link returned in the SMS to access the va.gov Health Care Experience workflow.
 
