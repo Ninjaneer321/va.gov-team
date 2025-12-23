@@ -92,6 +92,11 @@ This test will take the form of User acceptance testing (UAT). We will ask users
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2025-12%20Complex%20Claims%20UAT/conversation%20guide.md)
 - [Test scenarios](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2025-12%20Complex%20Claims%20UAT/test%20scenarios.md)
 - Test URL: https://va.gov/my-health/appointments/past (We are testing in the production environment)
+- For research review:
+  - Log into the Staging site using the credentials found in our [repo](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/staging-test-accounts-travel-pay.md).
+  - Navigate to your past appointments at https://staging.va.gov/my-health/appointments/past. 
+  - You will see several appointments for the morning of Monday, December 22. Select any of them to view the appointment details. (If you see an error instead of appointments, refresh the page a few times. This is a general Staging latency issue which has been experienced this past couple of weeks.)
+  - From the appointment details, begin the process to file a travel claim. Our conversation guide (linked to above) includes the questions we'll ask participants as they begin this process. 
 
 ## Recruitment 🎯	
 *OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
@@ -158,12 +163,11 @@ This test will take the form of User acceptance testing (UAT). We will ask users
 
 ### Optional Kick-off Call with Perigean
 Suggested dates and times: 
-- `Monday, Dec 8 at 11:30am ET`
-- `Tuesday, Dec 9 at 2pm ET`
-- `Tuesday, Dec 9 at 3pm ET`
-- `Wednesday, Dec 10 at 10am ET`
-- `Thursday, Dec 11 at 10am ET`
-- `Friday, Dec 12 from 11:30am ET through 3:00pm ET`
+- `Monday, January 12 at 11:30am ET`
+- `Monday, January 12 at 3pm ET`
+- `Tuesday, January 13 at 1pm ET`
+- `Tuesday, Janaruy 13 at 3pm ET`
+- `Wednesday, January 14 at 10am ET`
 
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
@@ -172,11 +176,11 @@ Suggested dates and times:
 > [!NOTE]
 > **Send pilot participant email in study Slack channel**
 
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- `Pilot participant name:` We're planning a pilot session with an internal the week of 1/12.
+- `Date and time of pilot session:` We're planning a pilot session with an internal team member the week of 1/12.
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **[Enter dates 01/16-01/22], excluding 1/19, which is a federal holiday**
 
 ### Length of sessions
 - `Session length:` **1 hour**
@@ -194,10 +198,10 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 >
 > **Place time slots between `hash marks` when in edit mode.**
 
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
+- `[01/16, Friday, 10 AM:4 PM] EST`
+- `[01/20, Tuesday, 10 AM:4 PM] EST`
+- `[01/21, Wednesday, 10 AM:4 PM] EST`
+- `[01/22, Thursday, 10 AM:4 PM] EST`
 - `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
 - `Add more slots as needed`
   

@@ -11,11 +11,17 @@
 ### 5-15 minutes before the session
 
 - [ ] Start a thread in slack with observers  
-- [ ] Send out the [observer instructions](https://depo-platform-documentation.scrollhelp.site/research-design/Observer-guidelines.1622311177.html) to observers \- **reminder folks to keep titles generic**  
+- [ ] Send out the observer instructions to observers
+   1. You may change your video conference display name to be just your first or preferred name. We encourage you **not** to change your name to “observer.”
+   2. Sign into the session with your microphone muted.
+   3. If you aren’t admitted directly: - Wait in the Zoom waiting room while the moderator begins the session - If the participant approves your presence, as in the majority of cases, the moderator will soon admit observers into the session - If there are issues, the moderator should be in contact via slack
+   4. At the moderator’s prompt, unmute your camera and microphone and briefly introduce yourself with: - Your first or preferred name - **"VA.gov team member" \- Please keep titles generic**
+   5. When that’s done: - Mute your microphone - Turn off your camera
+   6. Confine all messaging to the backchannel thread in Slack for the session: - Don’t message within the video conference app - Don’t expect the moderator to interact with you
 - [ ] Ensure Teams is setup correctly:  
-      - [ ] Keep all participants in Lobby  
-      - [ ] Don’t notify when someone’s joined the meeting  
-      - [ ] Make sure participants have permission to share  
+   - [ ] Keep all participants in Lobby  
+   - [ ] Don’t notify when someone’s joined the meeting  
+   - [ ] Make sure participants have permission to share  
 - [ ] Open interview script  
 - [ ] Mute your Slack notifications
 
@@ -78,13 +84,14 @@ We’ve introduced ourselves, so we’d love to start by learning more about you
       1. What resources are you leveraging to respond to submissions?  
       2. How do you decide when to use “Standard Text” to respond to submissions?   
       3. How do you know if you’ve answered something correctly and/or completely?
+      4. Describe a situation where you might have back and forth responses with a submitter. 
 
 7. **Form fields**  
    1. What fields are most important to you throughout the process?  
    2. What fields influence whether something is rerouted?   
-      1. What else factors into rerouting something to?  
+      1. What else factors into rerouting a submission?  
       2. How do you know which queue it should go to?  
-      3. What is the impact of rerouting submissions?
+      3. How does rerouting submissions impact your work and your process?
 
 8. **External interactions** \- I’m interested to understand more about things that are specifically happening outside of the core CRM system.   
    1. What other digital tools are you using during this process?   
@@ -97,9 +104,10 @@ We’ve introduced ourselves, so we’d love to start by learning more about you
    3. Are there other metrics that would be helpful to you in your role?
 
 10. **Training**  
-    1. How are Agents being trained for their roles?   
-    2. How long is training? When is it offered to folks?  
-    3. How do you receive feedback on your Ask VA responses?
+    1. How are you being trained for your role?
+    2. What are the different types of training your receive? (Do they receive customer service specific training?)
+    3. How long is training? When is it offered to folks?  
+    4. How do you receive feedback on your Ask VA responses?
 
 ## Closing
 
@@ -110,7 +118,7 @@ We’ve introduced ourselves, so we’d love to start by learning more about you
     1. To you?   
     2. To your business line?  
     3. To Veterans and other submitters?  
-14. What is your vision for Ask VA in 5 years?
+14. In 5 years, what would success look like for Ask VA?
 
 ## Thank You
 
