@@ -166,11 +166,11 @@ Findings will inform iterative improvements to the form's design, content, and w
 - **Hypothesis Statement:**
   
 - **Primary Hypothesis:** Users will be able to complete and submit the burial request form digitally with fewer errors and less stress than the current phone-based process. Most usability issues will stem from unfamiliar terminology or unclear instructions, and accessibility improvements may be needed for specific cohorts. Digital submission will be perceived as more convenient and less emotionally taxing.
-- i. MAYBE TRUE - Participants overall gave feedback saying the digital form was less stressful and more streamlined. However, we cannot determine if the participants would have had less errors without our guidance completing the form on their own. 
+  **LIKELY TRUE** - Participants overall gave feedback saying the digital form was less stressful and more streamlined. However, we cannot determine if the participants would have had less errors without our guidance completing the form on their own. 
 - **Contrasting Hypothesis:** Certain participant segments (e.g., Veterans aged 65+, those with disabilities, or those without reliable internet access) may find the phone-based process more accessible or less stressful than the digital form. This is informed by prior VSO research and medallion form desk research (see Section 9), which found that older Veterans often prefer verbal guidance and that some participants encounter barriers with digital-only options.
-- i. NOT ENOUGH INFORMATION - Multiple participants in the study who were over the age of 65 said they would prefer the online form vs. being on the phone. However, no participants in the study had disabilities and all had reliable internet access. 
+  **NOT ENOUGH INFORMATION** - Multiple participants in the study who were over the age of 65 said they would prefer the online form vs. being on the phone. However, no participants in the study had disabilities and all had reliable internet access. 
 - **Form Completion Time Hypothesis:** Most users will complete the digital form in 10–15 minutes. However, family members or representatives unfamiliar with military terminology or VA processes may require 20+ minutes to complete all required fields.
-- i. LIKELY TRUE - Most participants completed the form in an average of 20+ minutes. This may be influenced by the fact that the moderators were pausing participants frequently to ask research questions. 
+   **LIKELY TRUE** - Most participants completed the form in an average of 20+ minutes. This may be influenced by the fact that the moderators were pausing participants frequently to ask research questions. 
   
   - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**  
   - Supporting evidence  
@@ -182,11 +182,6 @@ Findings will inform iterative improvements to the form's design, content, and w
 
 *Summarize the 5–10 most impactful findings from your study.* 
 
-> [!TIP] 
-> Write findings as stand-alone insights that are easy to scan. For example:  
-> - "Most participants used the search field to locate forms, often searching for 'veteran health.'"  
-> - "Participants struggled with the secondary caregiver section on the form."  
-
 [Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
 
 1. Users experienced confusion with terminology when asked "What is your relationship to the Veteran (deceased)?"
@@ -195,34 +190,61 @@ Findings will inform iterative improvements to the form's design, content, and w
 4. Users were wanting better context and more functionality when selecting a preferred cemetery. Some users were unsure of all of the options/resources available to them.
 5. Users expressed confusion regarding burial terminology, notably "cremains green", "intact green", and "cremains". 
 6. When describing the overall length of the form, users agreed that the form was quite long but the questions asked were necessary.
-7. Majority of users found the form to be manageable, straightforward, and easy to use. The average rating out of 5 was a 4.5.
-8. Issues users encountered during the study could be alleviated by adding to or changing description text on some screens.
+7. Majority of users found the form to be manageable, straightforward, and easy to use. The average rating was 4.5/5.
 
 ## Details of Findings 
 
 *Provide detailed descriptions and supporting evidence for each key finding.*  
+> **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
 
 ### Finding 1
 Users experienced confusion with terminology when asked "What is your relationship to the Veteran (deceased)?" 
-- _Supporting data: (Regarding the term Sponsor) "and this is a military term, I think some people might not know, if they were, like, a family member, might not know that a sponsor means, like, the primary Person with the, you know, and others are dependents." - P5 
-
-> **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
+- Supporting data:
+- (Regarding the term Sponsor) "and this is a military term, I think some people might not know, if they were, like, a family member, might not know that a sponsor means, like, the primary Person with the, you know, and others are dependents." - P5
+- "I could be either the spouse, or the representative spouse, or whatever in that sense." P6
 
 ### Finding 2  
 Some users were familiar with the concept of the pre-need decision letter but didn't recognize terminology. Others were unaware of what the letter was and have never done it before.
-- _Supporting data: "I have (a pre-need decision letter) myself, but I didn't know it was called pre-need. That sounds like you need something. That's kind of poorly titled, to be honest with you." - P7
+- Supporting data:
+- "I have (a pre-need decision letter) myself, but I didn't know it was called pre-need. That sounds like you need something. That's kind of poorly titled, to be honest with you." - P7
+- "It's just not clear to me, what they're asking for, but I realize now that must be the social security number of the eligibility or existing letter from the VA, correct?" - P11
 
 ### Finding 3  
 Most users understood the definition of personal representative, but few understood its relation to their specific scenario.
-- _Supporting data: (Regarding who is the personal rep) "to me...that would be the wife who was doing it on my behalf. To me, the personal representative is not the actual veteran, it's the person who's caring for the veteran, because the veteran's unable to care for themselves." - P13
+- Supporting data:
+- (Regarding who is the personal rep) "to me...that would be the wife who was doing it on my behalf. To me, the personal representative is not the actual veteran, it's the person who's caring for the veteran, because the veteran's unable to care for themselves." - P13
+- "I would assume it would be, like, a legal representative, or it would be a family member who has been… who's gotten power of attorney." P5
+
+### Finding 4  
+Some users were confused with "eligibility" terminology. There was confusion about existing burials—some users might unintentionally start a case as a new burial rather than as a subsequent burial.
+- Supporting data:
+- "I find the phrase 'buried under Veteran's eligibility' very confusing, I'm not sure what that's asking" - P11
+- "How does the funeral director know if someone used the benefit before?" - P3
+
+### Finding 5
+Users were wanting better context and more functionality when selecting a preferred cemetery. Some users were unsure of all the options and resources available to them.
+- Supporting data:
+- "Can I go to any of those cemeteries? Or does it have to be somewhere near me, near the deceased?" - P2
+- (regarding picking a national cemetery) "So, I personally didn't know that anybody can basically, you know, pick any of them, and I just was like, well, which one's closest to my town? Now, later on, I learned that you can pick any of them. So, I did not have that information available." - P13
+
+### Finding 6 
+Users expressed confusion regarding burial terminology, particularly with the terms "cremains green," "intact green," and "cremains."
+- Supporting data:
+- "Just the part on the cremation. I don't know what green cremate… I don't know if that's more eco-friendly. ... I just remember being asked, do you want a casket or a cremation?" P4
+- "I don't know what intact green and cream means green. I don't know what that is." P2
+
+### Finding 7
+When describing overall length of the form, the consensus was that the form was long, but the questions asked were necessary.
+- Supporting data:
+- "There were 10 steps. That seemed like a lot... If that could be condensed, like two birds with one stone, so to speak, on some of the steps, now you can get it down to 7 or 8, maybe." P4
+- "In general the VA site works really good...I would make it a little more streamlined and remove a couple of steps...but it is pretty intuitive overall." P10
 
 ---
 
 ## Additional Insights
 *Include insights that do not represent patterns but are still valuable.*  
-> **TIP:** These could be powerful user comments or unexpected issues worth noting
 
-- Some participants were confused with "eligibility" terminology. There was confusion about existing burials — some participants might unintentionally start a case as a new burial rather than as a subsequent burial.
+- A few participants were confused with "eligibility" terminology. There were questions about the possibility of existing burials — some participants might unintentionally start a case as a new burial rather than as a subsequent burial.
 
 - Participants expressed confusion regarding burial terminology, particularly with the terms "cremains green," "intact green," and "cremains."
 
@@ -231,33 +253,53 @@ Most users understood the definition of personal representative, but few underst
 *Summarize actionable recommendations based on findings.*  
 
 1. **Recommendation:** Consider reviewing and clarifying the wording for the "Relationship to deceased" question. Exploring more specific options could help address situations with multiple possible selections.
-   - _Supporting evidence: 9/13 participants either expressed confusion when selecting the relationship to deceased, or wanted to select multiple options when interacting with this question.  
+   - Supporting evidence: 9/13 participants either expressed confusion when selecting the relationship to deceased, or wanted to select multiple options when interacting with this question.  
 2. **Recommendation:** Collaboratively exploring ways to add more descriptive text may help users better understand what the pre-need letter is and how it connects to the Time of Need burial scheduling form.  
-   - _Supporting evidence: 6 different participants were confused by the wording of what a pre-need decision letter is. This and other issues across the form could be recitified by including more specific and inclusive description text underneath headers for screens where terminology might be unfamiliar to users.
+   - Supporting evidence: 6 different participants were confused by the wording of what a pre-need decision letter is. This and other issues across the form could be recitified by including more specific and inclusive description text underneath headers for screens where terminology might be unfamiliar to users.
+3. **Recommendation:** Improving cemetery selection screen to further support users in selecting a cemetery when their preferred option is unavailable and making users aware of resources available.
+   - Supporting evidence: 9/13 participants wanted expanded capabilities with cemetery selection, or were unaware of the features offered via the external link. This can be resolved by further highlighting the external link and expanding on descriptive text.
+4. **Recommendation:** Consider clarifying terminology and offering additional context about each option, including any cemetery-specific limitations.
+   - Supporting evidence: 6/13 participants expressed confusion regarding burial method terminology, especially "green" burial methods and "cremains". 
+5. **Recommendation:** Consider removal of emblem of belief screen with absence of other questions on headstones/markers.
+   - Supporting evidence: 8/13 users mentioned the form being "too long" or "lengthy". Removing extraneous screens that don't add vital data can cut down on user time spent completing the form and overall user satisfaction.
 
 ## Product User and Business Outcomes
 
 *Explain how findings and recommendations align with the product's goals.*
 
-> [!NOTE] 
-> Refer back to your Product Outline. 
-
 ### Desired User Outcome 
-This research supports our desired user outcome by....
+This research supports our desired user outcome so that:
+- Organizations can submit requests more effectively and efficiently, providing better service to their clients in a difficult time.
+- Family members and personal representatives can easily request a burial through VA.gov – streamlining the process.
+- Users can easily schedule a burial via computer or mobile phone, instead of calling in.
  
 ### Desired Business Outcome
-This research supports our desired business outcome by....
+This research supports our desired business outcome so that:
+- The NCSO can provide the best possible experience for Veteran’s family members and representatives in a difficult time.
+- Increased efficiency and accuracy with data input and processing.
+- In compliance with the Paperwork Reduction Act (PRA.)
+- Free up more time for NCSO agents by reducing need for manual entry of information.
+- Build on VA.gov’s efforts to enhance digitization and convenience.
 
 
 ## Key Performance Indicators
 
 *Explain how findings will support KPI measurement.*  
 
-> [!NOTE]
-> Refer back to your Product Outline. 
+- **Percentage of ToN Requests Submitted via Self-Service:**  
+  Findings will inform improvements to the form’s clarity and usability, helping to increase self-service submissions from 50% to over 70%.
 
-### KPI 1
-This research supports measurement of this KPI by....
+- **Reduction in Call Center Volume for ToN Submissions:**  
+  By identifying common user obstacles, we’ll enhance self-service guidance and reduce the need for call center support, targeting a 40% decrease in calls.
+
+- **User Satisfaction Rating (Target 4+ out of 5):**  
+  Research will guide specific enhancements to boost overall user satisfaction to at least 4 out of 5.
+
+- **Successful Form Submission Rate (Target: 95%):**  
+  Findings will help address pain points and errors, raising the form successful completion rate to 95%.
+
+- **Average Submission Time (Target: <15 minutes):**  
+  Process streamlining based on user feedback will support an average completion time of under 15 minutes.
   
 
 ## Next Steps
@@ -285,7 +327,7 @@ This research supports measurement of this KPI by....
 
 ### Tools used for Synthesis
 
-*List tools or techniques used, e.g., Mural, affinity mapping.*  
+Mural
   
 ### Pages and applications used
 
@@ -309,7 +351,21 @@ _Complete the demographic info below using information from the Perigean recruit
 
 #### Recruitment criteria
 
-_If you had specific criteria that you recruited for, use this space to explain what those were along with other information you feel would be important to understanding your participants._
+Participants must be a family member, VSO, funeral home representative of a Veteran, or a Veteran themselves, interested in scheduling a burial in a National Cemetery. Participants must be computer literate, able to access a mobile phone, tablet, or desktop device and have reliable internet access to be considered for this study.
+
+1. Have you scheduled a burial for a Veteran, spouse, or adult-dependent child in the past? [yes/no]
+
+2. Are you a family member, funeral home staff, VSO officer, cemetery staff, or personal representative (non-family) involved in burial planning for a Veteran, spouse, or adult-dependent child? [yes/no, specify role]
+
+3. Do you use a computer or mobile device to access VA.gov? [yes/no]
+
+4. Do you have reliable internet access? [yes/no]
+
+5. Have you considered or experienced burial planning with VA.gov or the VA? [yes/no]
+
+6. What is your age range? [18–54, 55–64, 65+]
+
+7. Do you use assistive technology or have accessibility needs? [yes/no, specify]
 
 #### Demographics 
 

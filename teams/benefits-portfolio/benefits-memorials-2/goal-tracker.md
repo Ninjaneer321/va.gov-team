@@ -128,18 +128,20 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **_Delivery + Notes:_**
 - [x] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
+- For goal: TEAM: Prepare final artifacts for Payment History VHA Staging Review (on 12/18/25) - this was blocked and was unable to be completed.
+- For goal: UX: Prepare Pay.gov artifacts for Design Intent and Midpoint Review touchpoints (on 12/4/25 and 12/11/25) - Design Intent artifacts were completed and submitted for 12/4/25 review. Midpoint Review was postponed and artifacts are not ready.
 
 ## Sprint Goals - Sprint: 24 [12/17/25 - 12/30/25]  
 | Sprint Goal | QP Goal  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Complete Pay.gov Overpayments design revisions based off Design Intent feedback.| QP4 |--|--|--|
-|UX: Draft the Pay.gov Overpayments research plan for the prototype stage research study.| QP4 |--|--|--|
-|UX: Create initial draft of Product Guide for “Managing Overpayments."| QPX |--|--|--|
+|UX: Complete Pay.gov Overpayments design revisions based off Design Intent feedback.| QP4 |--|12/30/25|Complete|
+|UX: Draft the Pay.gov Overpayments research plan for the prototype stage research study.| QP4 |--|12/19/25|Complete|
+|UX: Create initial draft of Product Guide for “Managing Overpayments."| QPX |--|12/30/25|Complete|
 |TEAM: Review open tickets in OTPP S.Epic #106610 and reassign as appropriate to Payment History S.Epic #18859 in order to close completed epics.| QP2 |--|12/19/25|Complete|
-|ENG: Complete Veteran facing post-release items for digital dispute.| QP1 |--|--|--|
-|ENG: Create the Lighthouse API endpoint test coverage & swagger documentation.| QP4 |--|--|--|
-|ENG: Complete the mock data setup for the Lighthouse copay API endpoint cross referencing the ID’s as needed.| QP4 |--|--|--|
-|ENG: Obtain client ID and successfully gain access to the Lighthouse production API.| QP4 |--|--|--|
+|ENG: Complete Veteran facing post-release items for digital dispute.| QP1 |--|--|Complete|
+|ENG: Create the Lighthouse API endpoint test coverage & swagger documentation.| QP4 |--|--|Complete|
+|ENG: Complete the mock data setup for the Lighthouse copay API endpoint cross referencing the ID’s as needed.| QP4 |--|--|Complete|
+|ENG: Obtain client ID and successfully gain access to the Lighthouse production API.| QP4 |--|--|Complete|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [x] Ready to be sent for approvals (12/16/25)
@@ -148,8 +150,9 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
  - [X] VA COR approved the Sprint Goals (12/18/25)
  
 **_Delivery + Notes:_**
-- [ ] All goals have been updated in the sprint chart
-- [ ] Any Additional details about goals **not** completed will be documented here
+- [X] All goals have been updated in the sprint chart
+- [X] Any Additional details about goals **not** completed will be documented here
+- For goal: ENG: Obtain client ID and successfully gain access to the Lighthouse production API - we will need to confirm post-code freeze that this works as expected. 
   
 ## Quarterly Priorities for FY25Q4 (July, August, September 2025)  
 *Quarter Sprints include 12, 13, 14, 15, 16, 17, 18*

@@ -1,14 +1,14 @@
 # 2025 Sprint Planning for 10-10EZ, 10-10CG and 10-10EZR
-- Current Sprint first
 
 ---
-## 📆 Sprint 12 (Jan 14 - Jan 27) (PREPLANNING - work in progress)
+## 📆 Sprint 12 (Jan 14 - Jan 27) (PREPLANNED)
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
 - [ ] EZR Launch V2 Financials
 - [ ] EZR Service history FE schema update
 - [ ] CG Service Blueprint
+- [ ] CG Restrict facilities parameters
 
 ## 
 ### 10-10EZR
@@ -31,6 +31,7 @@
 ### 10-10CG
 #### Obj: CG [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40165)
 - [ ] **SPRINT GOAL** [#124105](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124105) - [UX] Service blueprint for CG
+- [ ] **SPRINT GOAL** [#128114](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128114) - [Eng] Restrict facilities parameters
 
 
 ##
@@ -38,12 +39,14 @@
 - Renata: 1/15 - 1/20
 
 ---
-## 📆 Sprint 11 (Dec 31 - Jan 13) (PREPLANNED)
+## 📆 Sprint 11 (Dec 31 - Jan 13)
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
 #### Note: Code Freeze Monday 12/22 through Monday 1/5
-- [ ] EZR Financials - Finalize QA
+- [ ] EZ & EZR RUM logs active in production
+- [ ] VA Notify API Keys rotated in prod
+- [ ] EZR Financials - Wrap up QA & prep for launch
 - [ ] EZR Service history BE schema update
 - [ ] EZR Service history Add branch/dates question page
 - [ ] All Forms `find-forms` URL audit
@@ -51,8 +54,14 @@
 ## 
 ### 10-10EZR
 
+#### Obj: EZR [Improvements](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)/[BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109437)
+- [ ] **SPRINT GOAL** [#128772](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128772) - [FE] Turn EZ and EZR RUM log feature toggles on in production
+
+
 #### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
 - [ ] **SPRINT GOAL** [#121089](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121089) - [QA] Additional V2 Financials QA
+     - [ ] [#128256](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128256) - [FE] Selecting "No" to adding income and then going back leads to empty page 
+     - [ ] [#125887](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125887) - Financial information is not being pre-filled
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
 - [ ] **SPRINT GOAL** [#114030](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114030) - [FE] Add Service history branch/dates question page (refer to EZ)
@@ -60,8 +69,9 @@
 
 ##
 ### All FORMS
-#### Obj: EZR [Improvements shared across forms](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
+#### Obj: [Improvements shared across forms](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
 - [ ] **SPRINT GOAL** [#127525](https://github.com/department-of-veterans-affairs/va.gov-team/issues/127525) - [UX] Audit forms for `find-forms` URL
+- [ ] **SPRINT GOAL** [#125897](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125897) - [BE] Rotate API keys for VA Notify
 
 ##
 ### 10-10EZ
@@ -79,13 +89,14 @@
 - Kyle: 12/25 - 1/2
 - Mitch: 12/29 - 12/30
 - Andrea: 12/31 - 1/2
-- Hieu: 12/31 - 1/2
+- Hieu: 12/31
 - Jessica: 1/2
-- Derrick: 1/2
+- Derrick: 1/2 - 1/5
+- Renata: 1/5
 
 ---
 ## 📆 Sprint 10 (Dec 17 - Dec 30)
-- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+- [x] 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
 #### Note: Code Freeze Monday 12/22 through Monday 1/5
@@ -94,6 +105,7 @@
 - [x] EZR Service history discovery
 - [x] EZR Remove PDF feature toggle
 - [x] EZ & EZR Service Blueprint
+- [x] (Stretch Goal) EZR Update RUM to avoid PII leak with EC/NOK data (RUM feature toggle is currently turned off because of this issue)
 
 ## 
 ### 10-10EZR
@@ -102,13 +114,13 @@
 - [x] **SPRINT GOAL** [#120290](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120290) - [Eng/PM] Launch Spouse at 50%
 - [x] **SPRINT GOAL** [#120291](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120291) - [Eng/PM] Launch Spouse at 100%
 - [ ] **SPRINT GOAL** [#121089](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121089) - [QA] Additional V2 Financials QA
-     - [x] [#121396](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121396) - [FE] 10-10EZR - Household V2: Format "Back" button on Financial Info page to be consistent 
-     - [x] [#121401](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121401) - [FE] 10-10EZR - Household V2: Financials data is disappearing from Review & Submit page upon submission 
-     - [ ] [#128248](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128248) - [FE] 10-10EZR - Household v2: Financial - QA Finding: Financial section headers are not the same font size 
-     - [ ] [#128252](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128252) - [FE] 10-10EZR - Household v2: Financial - QA Finding: Unexpected text when editing financial information 
-     - [ ] [#128254](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128254) - [FE] 10-10EZR - Household v2: Financial - QA Finding: Missing content in hint text 
-     - [ ] [#128256](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128256) - [FE] 10-10EZR - Household v2: Financial - QA Finding: Selecting "No" to adding income and then going back leads to empty page 
-     - [ ] [#125887](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125887) - 10-10EZR - Financial V2 - Financial information is not being pre-filled 
+     - [x] [#121396](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121396) - [FE] Format "Back" button on Financial Info page to be consistent 
+     - [x] [#121401](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121401) - [FE] Financials data is disappearing from Review & Submit page upon submission 
+     - [x] [#128248](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128248) - [FE] Financial section headers are not the same font size 
+     - [x] [#128252](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128252) - [FE] Unexpected text when editing financial information 
+     - [x] [#128254](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128254) - [FE] Missing content in hint text 
+     - [ ] [#128256](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128256) - [FE] Selecting "No" to adding income and then going back leads to empty page 
+     - [ ] [#125887](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125887) - Financial information is not being pre-filled 
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
 - [x] **STRETCH GOAL** [#114497](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114497) - [FE, BE] Discovery on Service History - VES or MPI?
@@ -118,6 +130,7 @@
 
 #### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
 - [x] **SPRINT GOAL** [#124104](https://github.com/department-of-veterans-affairs/va.gov-team/issues/124104) - [UX] Service blueprint for EZR
+- [x] **STRETCH GOAL** [#120127](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120127) - [Eng] Update RUM to avoid PII leak with EC/NOK data
 
 ##
 ### 10-10EZ
