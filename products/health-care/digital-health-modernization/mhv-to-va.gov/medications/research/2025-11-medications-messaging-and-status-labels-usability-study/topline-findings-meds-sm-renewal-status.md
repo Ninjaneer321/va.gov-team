@@ -1,4 +1,4 @@
-# **Topline Findings: Medication statuses and Secure Messaging renewal flow**
+# **Topline Findings: Medication statuses and Secure messaging renewal flow**
 
 **Authors:** Athena Bozak, Anneka VanGarza, Cara Frissell  
 **Date:** January 1, 2026
@@ -9,7 +9,7 @@
 - [Context](#context)
   - [Background](#background)
   - [Overview](#overview)
-  - [Research goals](#goals)
+  - [Research goals and questions](#goals)
   - [Screens and paths used in testing](#testing)
 - [Insights](#insights)
   - [Insight 1](#insight-1)
@@ -34,7 +34,9 @@ The product is situated within authenticated VA.gov, specifically the Medication
 
 ### <a name="overview"></a>Overview
 
-We conducted remote, moderated usability sessions with **12 Veterans** to better understand how they interpret new prescription status labels and how confidently they can request a prescription renewal using Secure messaging on VA.gov. Sessions were 60 minutes and followed a think-aloud approach, using Figma prototypes and a staging test environment.
+We conducted remote moderated usability sessions with **12 Veterans** to explore how they make sense of new prescription status labels and how comfortably they can request a prescription renewal using Secure messaging on VA.gov.
+
+Sessions were 60 minutes and followed a think-aloud approach using a Figma prototype and a staging test environment. Beyond whether participants could complete the flow, this research looked at where the experience felt unclear and what aspects of the designs created friction that could be improved in future iterations.
 
 Sessions were divided into two parts:
 
@@ -51,88 +53,77 @@ Participants attempted to request a medication renewal starting from the Medicat
 The goals of this research were to:
 
 1. Evaluate whether Veterans understand the meaning of the new prescription statuses and identify which statuses or label elements cause confusion or misinterpretation.
-
 2. Evaluate whether Veterans can successfully and efficiently use the new Secure messaging renewal flow on VA.gov to request renewals, and identify where they struggle or drop off.
-
 3. Identify pain points, uncertainties, and other usability issues in the new renewal flow and status messaging that can reasonably be addressed through design and content changes.
 
+### Research questions
+1. Do Veterans understand the revised prescription statuses as we intend, and if not, how are they interpreting them (especially around refill vs. renewal)?
+
+2. Can Veterans successfully and easily complete a medication renewal request using the new Secure Messaging flow on VA.gov, from entry point through confirmation?
+
+3. At what points in the renewal flow or when viewing statuses do Veterans feel uncertain, confused, or stuck, and what is driving that confusion (e.g., wording, layout, navigation)?
+
+4. What aspects of the new statuses and renewal flow (e.g., clarity of language, visibility of key information, guidance on next steps) make the experience easier or more reassuring for Veterans?
+
+5. What changes or improvements do Veterans suggest to the statuses, messaging, or renewal flow to better support how they actually manage their medications today?
 ---
 
-### <a name="testing"></a>Screens and paths used in testing
+### <a name="testing"></a>Screens and paths used in testing (Figma and Staging)
 
-This study used a combination of **Figma prototypes** and a **staging test environment** to support different parts of the evaluation.
+This research used a combination of a Figma prototype and a staging test environment to support different parts of the study.
 
-#### Version A: Medication status evaluation (Figma)
-  
-A Figma prototype was used to focus on how Veterans noticed and interpreted medication status labels across different medication states, without requiring them to complete a renewal task.
+#### Figma: Medication status evaluation
 
-<!-- INSERT FIGMA SCREENSHOTS HERE -->
-<img width="900" alt="Medication list showing revised status labels" src="LINK" />
-<img width="900" alt="Medication list showing expired status variation" src="LINK" />
+A prototype was used to focus on how Veterans noticed and interpreted medication status labels across different medication states, without requiring them to complete a renewal task.
 
-**Screens and states included:**
-- Medication list with revised status labels  
-- Variations across Active, In Progress, and Expired/Inactive statuses  
-- Status messaging shown both with and without a visible renewal link
-  
+<img
+  width="600"
+  alt="Medication list showing prescription status variations"
+  src="https://github.com/user-attachments/assets/829fbc55-5813-408b-93cd-e65b1561ec78"
+/>
+
+- Expanded filter view showing medication statuses
+- Medication list with individual medication cards each displaying a different status (Active, In Progress, or Expired)
+- Medication cards shown both with and without a visible "send a renewal request message" link
+
 ---
 
-#### Version B: Secure Messaging renewal flow (staging)
+#### Staging: Secure messaging renewal flow
 
-A staging test environment was used to walk through the end-to-end prescription renewal flow, beginning in the Medications tool and continuing into Secure Messaging.
+A staging environment was used to walk through the end-to-end prescription renewal flow starting in the Medications list, routing into Secure Messaging, and returning to the Medications list after the message was successfully sent.
 
-<!-- INSERT STAGING SCREENSHOTS HERE -->
-<img width="900" alt="Renewal entry point from medication details" src="LINK" />
-<img width="900" alt="Secure Messaging renewal message composition" src="LINK" />
-<img width="900" alt="Renewal confirmation state" src="LINK" />
+<img width="2874" height="1774" alt="image" src="https://github.com/user-attachments/assets/e7df5640-f9f2-4a06-a458-53ab68c6c551" />
 
-**Screens and states included:**
-- Medication list and details pages with renewal entry points  
-- Secure Messaging renewal message composition (pre-populated and non-pre-populated states)  
-- Confirmation states after submitting a renewal request  
-- Error or missing-information states encountered during the flow  
+1. Medications list with an eligible prescription card displaying a “Send a renewal request” link
+2. Exit modal informing the Veteran they are leaving the Medications tool to send a secure message
+3. Care team selection screen in Secure messaging after initiating the renewal request
+4. Pre-populated renewal message in Secure messaging including medication details
+5. Success alert displayed after the Veteran is routed back to the Medications list page confirming the renewal request message was sent
 
 ---
 
 ## <a name="insights"></a>Insights
 
-> Insights summarize observed patterns in participant behavior and feedback. Each insight connects back to one or more research goals.
-
-### <a name="insight-1"></a>Insight 1: [Insight title]
-
-[Insight summary]
-
+### <a name="insight-1"></a>Insight 1:
 ---
 
-### <a name="insight-2"></a>Insight 2: [Insight title]
-
-[Insight summary]
-
+### <a name="insight-2"></a>Insight 2:
 ---
 
-### <a name="insight-3"></a>Insight 3: [Insight title]
-
-[Insight summary]
-
+### <a name="insight-3"></a>Insight 3:
 ---
 
-### <a name="insight-4"></a>Insight 4: [Insight title]
-
-[Insight summary]
-
+### <a name="insight-4"></a>Insight 4:
 ---
 
-### <a name="insight-5"></a>Insight 5: [Insight title]
-
-[Insight summary]
-
+### <a name="insight-5"></a>Insight 5:
 ---
 
 ## <a name="recommendations"></a>Recommendations
 
-1. **Recommendation:** [Actionable recommendation tied to insights]  
-2. **Recommendation:** [Actionable recommendation tied to insights]  
-3. **Recommendation:** [Actionable recommendation tied to insights]  
+1. **Recommendation:** 
+2. **Recommendation:** 
+3. **Recommendation:**  
 
 ---
 

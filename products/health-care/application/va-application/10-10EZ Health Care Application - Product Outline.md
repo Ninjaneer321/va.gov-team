@@ -1,7 +1,7 @@
 # Product Outline - Health care application
 ---
 - [10-10EZ - Zero Silent Failures Checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/10-10EZ%20Form/Endpoint%20Monitoring%20&%20Zero%20Silent%20Failures/10-10EZ%20Zero%20Silent%20Failures%20checklist.md)
-- [10-10EZ downloadable PDF from VA.gov](https://www.va.gov/vaforms/medical/pdf/VA%20Form-10-10EZ.pdf)
+- [10-10EZ downloadable PDF from VA.gov](https://www.va.gov/forms/10-10ez/)
 
 ---
 ## Problem Statement
@@ -155,43 +155,36 @@
 </details>
 
 #### Objective 2: Increase trust and satisfaction with the VA Health Care application process
-- *Key result 1: Increase number of application completions across multiple devices for ease of use*
-     - As of 10/2022, the percentage of device use across desktop, mobile and tablet devices have held steady for 7 months
+<details>
+ <summary>Key result 1: Increase number of application completions across multiple devices for ease of use</summary>
+     - in 2022, the percentage of device use across desktop, mobile and tablet devices held steady 
 
-|Device	|Apr	|May	|Jun	|Jul	|Aug	|Sep	|Oct|Nov|Dec|Jan|Feb|Mar|
+|Device (2022)	|Apr	|May	|Jun	|Jul	|Aug	|Sep	|Oct|Nov|Dec|Jan|Feb|Mar|
 |-------|----|----|----|----|----|----|----|----|----|----|----|----|
 |Desktop	|71.0%	|70.30%	|70.7%	|71.3%	|73.5%	|72.3%	|72.3%|70.8%|70.2%|71.6%|72.4%|TBD|
 |Mobile|	27.6%	|28.10%	|27.9%	|27.0%	|24.9%	|26.2%|	26.3%|27.6%|28.4%|26.8%|26.2%|TBD|
 |Tablet|	1.4%	|1.50%	|1.4%|	1.6%	|1.6%	|1.5%	|1.4%|1.5%|1.4%|1.6%|1.4%|TBD|
 
-
+</details>
 
 #### Objective 3: Provide an effortless application completion process
 
 <details>
  <Summary>Key result 1: Increase number of application completions in a single session</Summary>
 
-- 2022
-
-| Product            | Apr  | May  | Jun  | Jul  | Aug  | Sep  | Oct  | Nov  | Dec  |
+| 2022 Average sessions to submit | Apr  | May  | Jun  | Jul  | Aug  | Sep  | Oct  | Nov  | Dec  |
 | ------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 10-10 EZ - Average | 1.80 | 1.61 | 1.52 | 1.43 | 1.45 | 1.45 | 1.48 | 1.44 | 1.43 |
 
-- 2023
-
-| Product            | Jan  | Feb  | Mar  | Apr  | May  | Jun  | Jul  | Aug  | Sep  | Oct  | Nov  | Dec  |
+|2023 Average sessions to submit | Jan  | Feb  | Mar  | Apr  | May  | Jun  | Jul  | Aug  | Sep  | Oct  | Nov  | Dec  |
 | ------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 10-10 EZ - Average | 1.46 | 1.44 | 1.44 | 1.42 | 1.48 | 1.42 | 1.50 | 1.42 | 1.47 | 1.42 | 1.41 | 1.39 |
 
-- 2024
-
-| Product            | Jan  | Feb  | Mar  | Apr  | May  | Jun  | Jul | Aug | Sep | Oct  | Nov  | Dec  |
+|2024 Average sessions to submit | Jan  | Feb  | Mar  | Apr  | May  | Jun  | Jul | Aug | Sep | Oct  | Nov  | Dec  |
 | ------------------ | ---- | ---- | ---- | ---- | ---- | ---- | --- | --- | --- | ---- | ---- | ---- |
 | 10-10 EZ - Average | 1.42 | 1.45 | 1.44 | 1.41 | 1.41 | 1.41 |data error|data error|data error| 1.41 | 1.39 | 1.42 |
 
-- 2025
-
-| Product            | Jan  | Feb  | Mar  | Apr  | May  | Jun  | Jul  | Aug  | Sep  | Oct  | Nov  | Dec   |
+|2025 Average sessions to submit | Jan  | Feb  | Mar  | Apr  | May  | Jun  | Jul  | Aug  | Sep  | Oct  | Nov  | Dec   |
 | ------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- |
 | 10-10 EZ - Average | 1.39 | 1.40 | 1.41 | 1.39 | 1.38 | 1.39 | 1.36 | 1.38 | 1.37 | 1.37 | 1.37 | TBD |
 
@@ -276,10 +269,10 @@ Note: 10-10 EZ form has been available online for a number of years.  Only in 20
 
 ### Before
 
- 
+ Fillable PDF form
 
 ### After
-[Figma File of all screens](https://www.figma.com/design/W1cs6Gjx3MR5VU0EjurHLZ/10-10EZ-Production?node-id=0-1&p=f&t=JhxW0BXZeM2oyPIO-0)
+[Production URL](https://www.va.gov/health-care/apply-for-health-care-form-10-10ez/introduction)
 
 ---
 
