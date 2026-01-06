@@ -147,6 +147,7 @@ Please click on 'Enter Mango/ Orange'. Just like PDF form, imagine that this is 
 
 * What are your initial thoughts of this page?
 
+⬆️ If you may scroll to the top of the page please.
 ### TASK: Could you show us how many children are being added as dependents? And what are their names?
 
 [Answer: 2, Andrew and Anna]
@@ -191,6 +192,7 @@ Now we're going to show you a variation of what you've seen so far. Please click
 
 * What are your initial thoughts of this page?
 
+⬆️ If you may scroll to the top of the page please.
 ### TASK: Can you show us what the birthplaces are for the 2 children that are being added to Jamie's VA benefits?
 
 [Answer: San Mateo CA and San Francisco CA]
@@ -229,9 +231,10 @@ The form output content remains the same as what we've just reviewed, but now th
 
 `Observe navigation methods (e.g., scrolling, tabbing)`
 
-### TASK: Can you show us what the birthdates are for the 2 children that are being added to Jamie's VA benefits?
+⬆️ If you may scroll to the top of the page please.
+### TASK: Can you show us when Jamie got married to their current spouse?
 
-[Answer: October 18, 2020 and July 29, 2015]
+[Answer: 09/15/2023]
 
 * On a scale from 1-5, 1 being very difficult and 5 being very easy... How easy was it to find the answer?
     * Why?
@@ -263,7 +266,7 @@ If you may go to the top of the page please. Now I want you to look at the blue 
 
 ### Side navigation
 
-If you may scroll to the top of the page please. Now I want you to look at left sidebar.
+⬆️ If you may scroll to the top of the page please. Now I want you to look at left sidebar.
 
 * What do you think this feature does?
     * Without doing so yet, what happens if you click on it?
@@ -358,6 +361,7 @@ Now we're going to show you one last variation of what you've seen so far. Pleas
 
 * What are your initial thoughts of this page?
 
+⬆️ If you may scroll to the top of the page please.
 ### TASK: Can you show us where we can find out if Jamie's child, Anna is biological?
 
 [Answer: Yes (Q17G)]
