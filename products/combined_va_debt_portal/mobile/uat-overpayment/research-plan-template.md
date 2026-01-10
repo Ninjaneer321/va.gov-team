@@ -111,6 +111,7 @@ tags:
 ## Background 🏗️
 
 _This is a User Acceptance Test (UAT) as a follow-up from the Usability Test of [Overpayments and Copayments on mobile app](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/research-plan.md?plain=1)._
+_Overpayments will be the first section to be released in the mobile app. Copays will be released at a later date._
 
 Veterans can experience debt from the VA. The two types of debt that the Financial Management Team has focused on include: 
 
@@ -128,8 +129,6 @@ Veterans can view their overpayment and copayment debts through the authenticate
 * Dispute charges   
 * Request assistance from the VA for financial hardship (by completing the Financial Status Report, VA Form 5655\)  
 * View resources about VA debt management
-
-Overpayments will be the first section to be released in the mobile app. Copays will be released at a later date.
 
 `What problem is your product trying to solve?`
 
@@ -169,6 +168,9 @@ Are there moments that matter?
 
 ## Research Goals 🥅	
 `What are you trying to learn from this research?` 
+
+The purpose of this User Acceptance Testing (UAT) study is to validate that all elements in the Overpayments functionality operate as expected for end users with real user data. Unlike usability testing, this study focuses on verifying expected behavior, not on whether users can find or discover features.
+
 
 > [!NOTE]
 > Limit 3 goals per study. If you have more than 3 goals, consider how to break up your research into iterative studies.

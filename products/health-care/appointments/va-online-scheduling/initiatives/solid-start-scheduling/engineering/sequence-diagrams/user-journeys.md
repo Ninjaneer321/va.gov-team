@@ -1,4 +1,4 @@
-### First touch point (OTC)
+### First touch point
 
 ``` mermaid
 sequenceDiagram
@@ -116,12 +116,5 @@ sequenceDiagram
     vetsApi->>vetsApi: Check OTC in Redis
     vetsApi-->>vetsWebsite: Return success if valid
 ```
-
-
-### Questions:
-
-#### Are we going to need to send the confirmation emails?
-ANSWER: VASS will be sending the confirmation email
-#### How are we going to handle errors in submit?
 
 

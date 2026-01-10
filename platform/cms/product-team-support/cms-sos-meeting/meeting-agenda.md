@@ -5,8 +5,13 @@ This Scrum of Scrum (SoS) meeting is to ensure all teams working with the Drupal
 
 1/08/2026
 * Next Build QA
-    * Expectations around testing Drupal functionality during different QA phases? [Slack thread](https://dsva.slack.com/archives/C01SR56755H/p1767659089629849)
-    * 
+    * Next Build environments on Tugboats don't reference the content on that Tugboat ([slack](https://dsva.slack.com/archives/C01SR56755H/p1767737279782409))
+      Draft ticket to fix this problem here: https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23168
+    * Check in about upcoming templates that need to be QAed (see ([here](https://dsva.slack.com/lists/T03FECE8V/F0A5B9Z1HCG)))
+     We will regroup about capacity during next week's template migration sync. Renata will be added to the meeting. 
+    * Content Build's page-playbook.html (more details ([here](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/19708)))
+      Per Dave Pickett: look at the queries associated with the playbook and ask POs
+ * Drupal 11 Upgrade Timeline 
 
 12/11/2025
 * Unpublished content in right-hand menu on Content Build page: https://www.va.gov/decision-reviews/

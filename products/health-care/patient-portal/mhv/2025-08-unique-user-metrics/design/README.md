@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Unique Logged Events](#unique-logged-events)
+- [Re-architecture: Backend-Only Event Logging (November 2025)](#re-architecture-backend-only-event-logging-november-2025)
 - [Re-architecture: Asynchronous Batch Processing (December 2025)](#re-architecture-asynchronous-batch-processing-december-2025)
 
 The goal of the Unique User Metrics (UUM) for the My HealtheVet (MHV) Portal is to collect unique user metrics on how many users have accessed the MHV on VA.gov patient portal. The patient portal is comprised of any application that is accessed via the `/my-health` root URL and includes the MHV landing page. Note that Google Analytics can collect these same metrics, but this effort aims to provide more accurate metrics since we do not want users to be able to opt out of these analytics.
@@ -141,6 +142,30 @@ The `mhv_metrics_unique_user_events` table is expected to grow significantly bas
 
 ---
 
+## Re-architecture: Backend-Only Event Logging (November 2025)
+
+### Background
+
+The initial UUM implementation included two mechanisms for logging events:
+1. **Frontend API endpoint**: A dedicated `POST /my_health/v1/metrics/log_event` endpoint that the frontend could call to log events
+2. **Backend inline logging**: Direct event logging from existing vets-api controllers (e.g., Prescriptions, Secure Messaging)
+
+### Change: Deprecation of Frontend API Endpoint
+
+On **November 24, 2025**, we removed the use of the frontend API endpoint for UUM event logging. Events are now logged **exclusively from existing backend endpoints**.
+
+**Rationale:**
+- **Reduced network overhead**: Eliminated extra HTTP round-trips from the frontend to log events
+- **Simplified frontend code**: Removed the need for frontend logic to determine when to call the logging endpoint
+- **UUM changes made only in one repo**: This limits duplication of code on both `vets-website` and the mobile app
+
+**Implementation:**
+- All MHV health tool controllers (Prescriptions, Secure Messaging, Medical Records, etc.) now log UUM events inline when serving requests
+- The `UniqueUserEvents.log_event` method is called directly from controller actions
+- The frontend logging endpoint remains available but is no longer used by the MHV portal frontend
+
+---
+
 ## Re-architecture: Asynchronous Batch Processing (December 2025)
 
 ### Problem Statement
@@ -192,7 +217,7 @@ graph TB
         API -->|Return response<br/>immediately| Frontend
     end
     
-    subgraph "Background Processing (Asynchronous - Every 60s)"
+    subgraph "Background Processing (Asynchronous - Every 10 mins)"
         Job[Sidekiq Job<br/>UniqueUserMetricsProcessorJob]
         Redis[(Redis Cache)]
         Database[(PostgreSQL)]
@@ -220,7 +245,7 @@ sequenceDiagram
     participant Frontend as Frontend<br/>Mobile/web
     participant API as vets-api<br/>Controller
     participant RedisBuffer as Redis List<br/>uum:pending_events
-    participant Job as Sidekiq Job<br/>(Every 60s)
+    participant Job as Sidekiq Job<br/>(Every 10 mins)
     participant RedisCache as Redis Cache<br/>unique_user_metrics
     participant Database as PostgreSQL
     participant DataDog
@@ -239,7 +264,7 @@ sequenceDiagram
     
     API-->>Frontend: API response (immediate return)
     
-    Note over Job,DataDog: BACKGROUND PROCESSING (Every 60 seconds)
+    Note over Job,DataDog: BACKGROUND PROCESSING (Every 10 mins)
     Job->>RedisBuffer: RPOP 500 events (batch)
     RedisBuffer-->>Job: Array of event payloads
     
@@ -294,6 +319,47 @@ unique_user_metrics:
 - **max_queue_depth** (default: 10,000): Alert threshold for buffer backup detection.
 - **Job frequency**: Fixed at every 10 minutes via Sidekiq Enterprise periodic jobs (hardcoded in `lib/periodic_jobs.rb`)
 
+### Configuration Sizing Analysis
+
+Based on production metrics, we observed a **maximum of 74,000 events in a 10-minute window** at peak times (before deduplication).
+
+#### Redis List Capacity
+
+Redis list size is **not a concern**:
+- 74k events × ~150 bytes each = ~11 MB
+- Redis lists handle millions of items easily
+- Memory footprint is trivial
+
+#### Processing Capacity Calculation
+
+The key constraint is ensuring the job can process all incoming events within the 10-minute window:
+
+| Parameter | Recommended |
+|-----------|--------------|-------------|
+| batch_size | 1,000 |
+| max_iterations |150 | 10,000 | **150,000** |
+| Handles 74k peak? |✅ Yes (~100% headroom) |
+
+**Why these values:**
+
+| Metric | Value |
+|--------|-------|
+| Capacity per run | 150,000 events |
+| Peak load | 74,000 events (74% capacity) |
+| Iterations at peak | ~74 |
+| Estimated job duration | ~3-5 seconds |
+| Postgres insert_all @ 1000 records | ~20-50ms |
+
+#### Database Performance
+
+`insert_all` with 1,000 records remains very fast because:
+- Single round-trip to Postgres
+- Bulk insert is O(n) not O(n²)
+- `unique_by` constraint handles duplicates server-side
+- No ActiveRecord object instantiation overhead
+
+**Note:** If sustained traffic exceeds capacity, the `max_queue_depth` alert fires, signaling the need to increase `batch_size` or `max_iterations` via AWS Parameter Store.
+
 ### Implementation Components
 
 #### 1. Redis List Buffer (`lib/unique_user_events/buffer.rb`)
@@ -307,7 +373,7 @@ unique_user_metrics:
 #### 2. Sidekiq Processor Job (`app/sidekiq/mhv/unique_user_metrics_processor_job.rb`)
 
 **Responsibilities:**
-- Run every 60 seconds via Sidekiq Enterprise periodic jobs
+- Run every 10 mins via Sidekiq Enterprise periodic jobs
 - **Loop until queue is empty** (with configurable safeguards)
 - Pop batch of events from Redis list per iteration
 - Deduplicate within batch (in-memory)
@@ -364,12 +430,19 @@ end
 |--------|------|-------------|-----------------|
 | `uum.processor_job.iterations` | Gauge | Number of batch iterations completed this job run | N/A (informational) |
 | `uum.processor_job.total_events_processed` | Gauge | Total events processed across all iterations | N/A (informational) |
+| `uum.processor_job.total_db_inserts` | Gauge | Total events inserted to database (new unique events) | N/A (tuning) |
 | `uum.processor_job.queue_depth` | Gauge | Events remaining in Redis buffer after processing | > 10,000 for 5 min |
 | `uum.processor_job.queue_overflow` | Increment | Fires when queue depth exceeds threshold | Any increment |
 | `uum.processor_job.job_duration_ms` | Histogram | Total job processing time across all iterations (ms) | N/A (informational) |
 | `uum.processor_job.failure` | Increment | Job failure (tagged by error class) | Any increment |
 | `uum.processor_job.events_at_risk` | Gauge | Events remaining in buffer when job failed | N/A (diagnostic) |
 | `uum.unique_user_metrics.event` | Increment | Counter for new unique events (tagged by event_name) | N/A (analytics) |
+
+**Batch Size Tuning:**
+
+The ratio of `total_db_inserts` to `total_events_processed` indicates deduplication effectiveness:
+- **High ratio** (close to 1.0): Most events are new unique users → batch size is appropriate
+- **Low ratio** (< 0.1): High cache/DB hit rate → consider increasing batch size to reduce iterations
 
 **Buffer Backup Detection:**
 

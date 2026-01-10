@@ -25,7 +25,6 @@ Before enabling your feature toggle in production, you'll need to:
 
 ## Step 3: Production rollout
 
-**Please read:** The government is currently shut down. Our PO, COR, stakeholders and SMEs are furloughed. This release plan is a suggested/best practices plan that has not been reviewed or approved by the government. Staging review is for contractual purposes only, there is a very high probability that once the government reopens there will be some changes to the product itself and potentially release plan. **We do not have a target release date due to government shut-down and furlough of PO/SMEs.**
 
 ### Define the Rollback process
 
@@ -59,14 +58,14 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 #### Rollout Planning
 
-- Desired date range: 11/11/2025 - [FILL_IN]
-- How will you make the product available in production while limiting the number of users who can find/access it: [FILL_IN]
+- Desired date range: 1/8/2026 
+- How will you make the product available in production while limiting the number of users who can find/access it: n/a 100% launch 
 - What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?: \[use your KPIs to help guide this. It could be things like *abandonment rate < 20%*, *reported contact center calls < 2 calls*, *error rate < 5%*, etc.\]
   - [FILL_IN] : list
   - [FILL_IN] : of
   - [FILL_IN] : KPIs
 - Links to the dashboard(s) showing "success criteria" metrics: [FILL_IN] with link to dashboards (example: Google Analytics dashboard)
-- Who is monitoring the dashboard(s)?: [FILL_IN]
+- Who is monitoring the dashboard(s)?: Calvin Costa 
 
 *The KPIs and numbers are example values recommended by VSP but can be customized to your team's needs.*
 
@@ -76,7 +75,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 This is a release of a new product, digitized form 21p-530a that has not existed before. Our IA partners and friends suggested 100% roll out to simplify. 
 
-This is a third party unauthenticated form, can work with VBA partners to fill out test forms, have them validate and delete test forms. 
+This is a third party unauthenticated form, taht is considered low risk as it is filled out for deceased Veterans  
 
 - Length of time: [FILL_IN] (*minimum 2 hours*)
 - Percentage of Users (and roughly how many users do you expect this to be): 100%

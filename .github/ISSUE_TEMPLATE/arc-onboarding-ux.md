@@ -9,8 +9,8 @@ type: Task
 ---
 ### UX Onboarding to ARC
 
-To be completed after the General Onboarding to ARC tasks, which all ARC teammates will need to go through.
 
+#### Review UX resources
 - [ ] Review [VA.gov Platform Research & Design Guidelines](https://depo-platform-documentation.scrollhelp.site/research-design/)
 
 - [ ] Review the [Collaboration Cycle Guidelines](https://depo-platform-documentation.scrollhelp.site/research-design/#Researchanddesign-PlatformCollaborationCycle)

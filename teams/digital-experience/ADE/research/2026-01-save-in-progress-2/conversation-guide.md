@@ -12,7 +12,7 @@
 **10-15 min before each session**: 
 - **START the Codespace**:
 
-  1. Open the stop/start URL in github
+  1. Open the stop/start URL in github: https://github.com/department-of-veterans-affairs/vets-website/tree/co-110525-adding-interstitial-page 
   1. Click on green "<> Code" button
   1. In the Codespaces tab, click on the ellipsis (...) next to your Codespace (va-public-legendary-yodel)
   1. Select "Open in browser".
@@ -21,7 +21,7 @@
   1. Check for all green text (no red), and "webpack compiled successfully"
   1. Open standalone browser window with prototype: **https://bit.ly/456nrPv** (https://legendary-yodel-46rpq9g49pj37wv5-3002.app.github.dev/) and test it
 - Sign onto Zoom website as Perigean and start Zoom meeting
-- Slack Perigean notetaker a link to the notes doc in GitHub
+<!-- - Slack Perigean notetaker a link to the notes doc in GitHub -->
 - Post p# and "observer instructions" in #feedback-backchannel
   - @mention observers
   - Share brief summary of participant demographic info
@@ -98,7 +98,7 @@ In the bottom toolbar of the Zoom window, click the arrow next to **SHOW CAPTION
 
 - [If “**Uncaught runtime errors**”, close with “X” (label “dismiss”) in top right corner, leave site if prompted. 
   - Check my browser window to see if codespace shut down. 
-  - If so, restart it. Then have them click on the Apron button to resume/start over.]
+  - If so, restart it. Then have them click on the Apron link to resume/start over.]
 
 # Warm-up Questions - 5 minutes
 
@@ -147,7 +147,7 @@ Let’s start with a few questions...
 
 ## Task 0: Share screen
 
-I would like you to share your screen with me so that I can see what you do during this session. Before we start, I want to make sure you know that screen share will show me your own screen, so if you'd like to close any apps or turn off notifications that you don't want me to see, you could do that now.
+**I would like you to share your screen** with me so that I can see what you do during this session. Before we start, I want to make sure you know that screen share will show me your own screen, so if you'd like to close any apps or turn off notifications that you don't want me to see, you could do that now.
 - *(refer to Screen sharing instructions above, if needed)*
 - *STOP TECH TROUBLESHOOTING **< 15 min into session** if want a replacement participant from Perigean b/c not likely to be successful*
 
@@ -178,13 +178,13 @@ Please click the (green) "Continue" button.
 **You'll be interacting with a demo prototype today.** Since it's a demo, note that none of your actions will affect your own VA information or benefits.
 
 ## Task 1: Find Form to fill out
-[start on unauthenticated VA.gov page]
-
-I'd like you to fill out a VA form to request your own military records. How would you start? 
-
-Please **talk aloud** about what you're thinking BEFORE clicking on anything. 
+[start on unauthenticated VA.gov home page]
 
 **(If using screen magnifier but can’t see zoomed screen over Zoom)** Is your screen magnified? If so, I can’t see that. Could you please tell me how far across the page you can see? And how far down from the top of the page?
+
+Please **talk aloud** about what you're thinking BEFORE you click/tap on anything. 
+
+I'd like you to fill out VA form 20-10206 ["20 10 206"] to request your military records. How might you find that form? 
 
 ### Path 1A: Participant signs in before finding form
 
@@ -192,19 +192,22 @@ Please **talk aloud** about what you're thinking BEFORE clicking on anything.
 
 [What do they want to do next?]
 
-OK, let's pretend that you just [searched/whatever they say] and you landed on a new page. Please click the **Apron** button at the top of the page [to auth intro page and Task 2].
+OK, let's pretend that you just [searched/whatever they say] and you landed on a new page. Please click the **Apron** link at the top of the page [to auth intro page and Task 2].
 
 ### Path 1B: Participant finds form before signing in
 
 [What do they want to do next?]
 
-OK, let's pretend that you just [searched/whatever they say] and you landed on a new page. Please click the **Umbrella** button at the top of the page [to unauth intro page and Task 2].
+OK, let's pretend that you just [searched/whatever they say] and you landed on a new page. Please click the **Umbrella** link at the top of the page [to unauth intro page and Task 2].
 
 [(green) "Continue" button --> **Sign in to start your request**]
 
+[If p looking for “Skip to the content” link and the page loaded scrolled down, tell them to look farther up on the page]
+
+
 ## Task 2: Start your request [from Auth Intro Page]
 
-Please share any **thoughts, reactions, or questions** you have about the current page.
+I'd like you to fill out VA form 20-10206 [“20 10 206”] to request your military records. 
 
 ### Watch for:
 - [Any comments about this page looking like the page before? Y / N]
@@ -213,15 +216,18 @@ Please share any **thoughts, reactions, or questions** you have about the curren
 
 [When they get to the form:] Please stop here so I can give you the next instruction.
 
-## Task 3: Fill out form [never reload the page]
-Please fill out this form to request your own military records, but I want you to make up fake details so you don't share your personal information with me. 
+## Task 3: Fill out form 
+*[never reload the page; use **Back** button in browser if ever see a spinning cursor]*
 
-[If p is quiet] Please talk aloud about any thoughts, reactions, or questions you have.
+Please fill out this form to request your military records, but I want you to make up fake details so you don't share your personal information with me. 
+
+And please **talk aloud** with any thoughts, reactions, or questions you have.
 
 ### Watch for:
 - [Feedback on form fields]
 - [Feedback on interstitial page about saving]
-- [Click on links on the interstitial page? My VA / form intro page]
+- [Any confusion re links being on the interstitial page? Y / N] 
+  - [Clicked on them? My VA / form intro page]
   - [If so, ASK] What did you expect? What did you find?
 
 [Note: If click on anything that goes outside the codespace, ask participant to go back in your browser.]
@@ -229,12 +235,13 @@ Please fill out this form to request your own military records, but I want you t
 ## Task 4: Take a break in filling out form (after enter phone number, before email address) 
 Let's say that you're hungry and need to take a break to eat a snack/lunch/dinner. What will you do with the form that you're filling out?
 
-- [leave open in browser / close browser / Finish later button / Sign out __________________]
+- [leave open in browser / close browser / Finish later button / Chris > Sign out]
+
 
 - [If didn't sign out or close browser] 
   - In 30 minutes, your session will time out and you will be signed out. 
   - To simulate that, could you please sign out now? 
-  - [Please click on the **Hat** button]
+  - [Please click on the **Hat** link]
   
 - What do you think will happen to the information you entered?
   
@@ -245,16 +252,20 @@ Let's say that you're hungry and need to take a break to eat a snack/lunch/dinne
   - [Noticed "Your records request has been saved"? Y / N]
 
 ## Task 5: Resume filling out form [from unauth VA.gov]
-OK, now let's say that you're back from eating. Please resume filling out the form that you were working on. 
+[If they're not on the unauth VA.gov home page, ask them click on the **Hat** link]
 
-- [If they're not on the unauth VA.gov home page, ask them click on the **Hat** button]
+OK, now let's say that you're back from eating. Please resume filling out the form that you were working to request your military records. How would you get back to your unfinished form?
+
 - [Record how resume form:]
-  - Sign in --> My VA (Mittens) --> form card --> Continue your request
+  - Sign in --> My VA --> form card --> Continue your request
   - Search/nav to unauth form intro (click on Umbrella) --> Sign in --> auth form intro --> Continue your request
-
-  - [If needed: **Unauth intro (Umbrella) / Auth intro (Apron) / My VA (Mittens)**]
+  - [If they say “Umbrella”] How would you do this with the real VA.gov web page if we weren’t in this session together?
 
 [If p is quiet] Please talk aloud about any thoughts, reactions, or questions you have.
+
+[If p isn’t proceeding] Now you can continue filling out the form.
+
+[If get runtime error with Edit citizenship button, close it twice with the X at far R side of the page]
 
 ### Watch for:
 - [Realize that they have to sign in before returning to the form?]
@@ -272,13 +283,22 @@ OK, now let's say that you're back from eating. Please resume filling out the fo
      - [If they say nothing, could ask:] What, if anything, did you find annoying?
 1. What would you like to *change or add*?
 
-1. When did you expect the information you entered into this VA  form to be saved?
+1. **When did you expect the information you entered into this VA form to be saved?**
 
-     1. [After every field / page / Finish later / Continue button / only after submitting?]
+     1. [After every change / field / page / Finish later / Continue button / only after submitting--–ASK for clarification if needed]
      1. How do you know? 
      1. If you walk away from the web page without clicking anything, what do you think will happen to the information you entered?
      1. [Do they recognize that their information is being saved all the time? Y / N]
      1. [Did they remember what the interstitial page said? Y / N]
+
+1. **How long do you expect the information you entered to be saved if you haven’t submitted the form?**
+     1. VA saves your information for 60 days from the last time you made changes. What do you think happens to your information after 60 days? 
+     1. Would it be helpful if you were notified if you have incomplete forms that haven’t been submitted? 
+          1. [If so] When would you like to be notified and why? [How often?]
+     1. Have you left a VA form unfinished before?
+          1. [If so] What happened? Did you go back?
+     1. Would you like to be able to delete a form you started but didn't finish?
+          1. [If so] Why? 
 
 1. If you had a magic wand and could change *anything* about *how we save your information* before you submit a form, what would you want?
 1. Is there anything else that we haven't talked about that you think I should know? 
@@ -307,7 +327,7 @@ Thank you so much again, and I hope that you enjoy the rest of your day!
 - Download notes
 - Debrief to my spreadsheet
 - **STOP the Codespace**:
-  1. Open the stop/start URL in github
+  1. Open the stop/start URL in github: https://github.com/department-of-veterans-affairs/vets-website/tree/co-110525-adding-interstitial-page
   1. Click on green "<> Code" button
   1. In the Codespaces tab, see green dot and "active" next to the name of your codespace (va-public-legendary-yodel)
   1. Click on the ellipsis (...) next to your codespace 
