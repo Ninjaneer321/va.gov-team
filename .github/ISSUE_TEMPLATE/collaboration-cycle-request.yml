@@ -37,7 +37,8 @@ body:
   id: product-team
   attributes:
     label: VFS team name
-    description: Select your team from the list (sorted alphabetically). Not seeing your team here? [Add your team to the manifest](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/teams-manifest-user-guide.md)
+    description: Select your team from the list (sorted alphabetically). Not seeing
+      your team here? [Add your team to the manifest](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/teams-manifest-user-guide.md)
     options:
     - 1010 Health Apps (33001)
     - Accelerate Cybersecurity Excellence (ACE) (24001)
@@ -64,7 +65,7 @@ body:
     - Decision Reviews (11004)
     - Dependents Management Tools (13001)
     - Design & Forms Systems (23003)
-    - Disability Core 526 (12002)
+    - Disability Benefits Crew - Core 526 (12002)
     - Disability Pathways (12003)
     - Employee Experience (11005)
     - Faceted Search (21004)
@@ -74,7 +75,6 @@ body:
     - Governance (23004)
     - Horizon (31001)
     - Hydra (32001)
-    - IVC Forms (33002)
     - Identity (20001)
     - Medical Records (31002)
     - Medications, Medical Devices and Supplies (31003)
@@ -97,6 +97,7 @@ body:
     - VA Chatbot (21002)
     - VES Transition Experience (21003)
     - VEText (39001)
+    - VFMP Status Integration (33003)
     - Veteran Support (22007)
     - Watch Engineers (24006)
   validations:

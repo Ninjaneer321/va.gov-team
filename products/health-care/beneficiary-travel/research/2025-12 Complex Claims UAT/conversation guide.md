@@ -149,6 +149,7 @@ Moderator: Now I'm going to ask you to share your screen on Zoom so that we can 
 
 ## Second Task: [Select expenses: Round one] - 3-5 minutes
 Moderator: Tell me about what you're seeing on this page. What do you expect to do here?
+Prior to prompting the user to continue, ask the participant where they would expect the 'back' breadcrumb to take them. 
 - [ ] Step 1 - User select an expense.
 - [ ] Step 2 - User selects "Continue."
 
@@ -172,6 +173,8 @@ Moderator: Tell me about what you're seeing on this page.
 ## Fourth Task: [Actions from the unsubmitted expense page] - 2 - 4 minutes
 The user should be on the unsubmitted expenses page after adding mileage/or their first expense.
 Moderator: Tell me about what you're seeing on this page.
+Prior to prompting the user to continue, ask the participant where they would expect the 'back' breadcrumb to take them. 
+
 - [ ] Step 1 - User reviews accordion with the added expense.
 - [ ] Step 2 - User selects "Add more expenses" OR user selects "Sign agreement" if they have no additional expenses.
 
@@ -220,6 +223,10 @@ Depending on the scenario, the moderator can prompt: Are you ready to submit you
 - [ ] Step 1 - User selects "Sign Agreement."
 - [ ] Step 2 - User reviews agreement and selects "Submit claim."
 - [ ] Step 3 - User views confirmation page.
+
+User views confirmation page. 
+
+Moderator can prompt: Tell me about what you're seeing on this page. 
 
 > [!NOTE]
 > ### Things to watch for:
@@ -329,7 +336,9 @@ Depending on the scenario the moderator can prompt:
 
 ## Thank-You and Closing - 2 minutes
 
-Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
+That brings us to our closing. Once this session is over, you won't be able to view this claim until the new process for filing claims is released to all VA.gov users. We anticipate that'll be within a month or so. Until that time, you'll still be able to file mileage-only claims on VA.gov, and BTSSS will remain avaialble to file other types of travel pay claims. Do you have any questions about that?
+
+We really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
 
 Thanks! Lastly, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
 

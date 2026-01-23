@@ -4,15 +4,15 @@ This document describes the API specifications for VASS scheduling, defining the
 
 ## API Endpoints
 
-### POST /vass/v0/request-otc
+### POST /vass/v0/request-otp
 
-Requests a One-Time Code (OTC) to be emailed for a user's authentication. 
+Requests a One-Time Code (OTP) to be emailed for a user's authentication. 
 
 **Security Notes:**
 - Rate limited to 3 requests per UUID per 15 minutes
-- OTC expires after 10 minutes
-- Previous OTC is invalidated when new one is requested
-- UUIDs must be validated against VASS before sending OTC
+- OTP expires after 10 minutes
+- Previous OTP is invalidated when new one is requested
+- UUIDs must be validated against VASS before sending OTP
 
 **Request:**
 - Method: `POST`
@@ -31,13 +31,13 @@ Requests a One-Time Code (OTC) to be emailed for a user's authentication.
 ```json
 {
   "data": {
-    "message": "OTC sent to registered email address",
+    "message": "OTP sent to registered email address",
     "expiresIn": 600,
     "email": "e***@email.com"
   }
 }
 ```
-- `expiresIn`: Time in seconds until OTC expires (10 minutes)
+- `expiresIn`: Time in seconds until OTP expires (10 minutes)
 
 **Response (Rate Limited):**
 ```json
@@ -45,7 +45,7 @@ Requests a One-Time Code (OTC) to be emailed for a user's authentication.
   "errors": [
     {
       "code": "rate_limit_exceeded",
-      "detail": "Too many OTC requests.  Please try again later.",
+      "detail": "Too many OTP requests.  Please try again later.",
       "retryAfter": 900
     }
   ]
@@ -65,16 +65,52 @@ Requests a One-Time Code (OTC) to be emailed for a user's authentication.
 }
 ```
 
+**Response (Missing uuid):**
+```json
+{
+  "errors": [
+    {
+      "code": "missing_parameter",
+      "detail": "param is missing or the value is empty: uuid"
+    }
+  ]
+}
+```
+
+**Response (Missing last name):**
+```json
+{
+  "errors": [
+    {
+      "code": "missing_parameter",
+      "detail": "param is missing or the value is empty: last_name"
+    }
+  ]
+}
+```
+
+**Response (Missing dob):**
+```json
+{
+  "errors": [
+    {
+      "code": "missing_parameter",
+      "detail": "param is missing or the value is empty: dob"
+    }
+  ]
+}
+```
+
 ---
 
-### POST /vass/v0/authenticate-otc
+### POST /vass/v0/authenticate-otp
 
-Authenticates user by validating the One-Time Code (OTC).   
+Authenticates user by validating the One-Time Code (OTP).   
 Returns a JWT token for further API access on success.
 
 **Security Notes:**
-- Maximum 5 OTC validation attempts before account lockout
-- OTC is cleared from Redis immediately after successful validation
+- Maximum 5 OTP validation attempts before account lockout
+- OTP is cleared from Redis immediately after successful validation
 - Failed attempts are tracked per UUID
 - JWT uses RS256 signing algorithm
 - Token includes `jti` (JWT ID) for revocation capability
@@ -89,7 +125,7 @@ Returns a JWT token for further API access on success.
   "uuid": "c0ffee-1234-beef-5678",
   "lastname": "Smith",
   "dob": "1968-06-22",
-  "otc": "123456"
+  "otp": "123456"
 }
 ```
 
@@ -107,13 +143,13 @@ Returns a JWT token for further API access on success.
 - `expiresIn`: Token expiration in seconds (1 hour)
 - `tokenType`: Token type for Authorization header
 
-**Response (Invalid OTC):**
+**Response (Invalid OTP):**
 ```json
 {
   "errors": [
     {
-      "code": "invalid_otc",
-      "detail": "Invalid or expired OTC.  Please try again.",
+      "code": "invalid_otp",
+      "detail": "Invalid or expired OTP.  Please try again.",
       "attemptsRemaining": 3
     }
   ]
@@ -127,25 +163,74 @@ Returns a JWT token for further API access on success.
   "errors": [
     {
       "code": "account_locked",
-      "detail": "Too many failed attempts.  Please request a new OTC.",
+      "detail": "Too many failed attempts.  Please request a new OTP.",
       "retryAfter": 900
     }
   ]
 }
 ```
-- `retryAfter`: Time in seconds before a new OTC can be requested (15 minutes)
+- `retryAfter`: Time in seconds before a new OTP can be requested (15 minutes)
 
-**Response (OTC Expired):**
+**Response (OTP Expired):**
 ```json
 {
   "errors": [
     {
-      "code": "otc_expired",
-      "detail": "OTC has expired. Please request a new one."
+      "code": "otp_expired",
+      "detail": "OTP has expired. Please request a new one."
     }
   ]
 }
 ```
+
+**Response (Missing uuid):**
+```json
+{
+  "errors": [
+    {
+      "code": "missing_parameter",
+      "detail": "param is missing or the value is empty: uuid"
+    }
+  ]
+}
+```
+
+**Response (Missing last name):**
+```json
+{
+  "errors": [
+    {
+      "code": "missing_parameter",
+      "detail": "param is missing or the value is empty: last_name"
+    }
+  ]
+}
+```
+
+**Response (Missing dob):**
+```json
+{
+  "errors": [
+    {
+      "code": "missing_parameter",
+      "detail": "param is missing or the value is empty: dob"
+    }
+  ]
+}
+```
+
+**Response (Missing otp):**
+```json
+{
+  "errors": [
+    {
+      "code": "missing_parameter",
+      "detail": "param is missing or the value is empty: otp"
+    }
+  ]
+}
+```
+
 
 ---
 
@@ -329,8 +414,8 @@ Submits a request for a new appointment. Requires a Bearer Token received after 
 {
   "errors": [
     {
-      "code": "missing_topics",
-      "detail": "Topics are required"
+      "code": "missing_parameter",
+      "detail": "param is missing or the value is empty: topics"
     }
   ]
 }
@@ -341,8 +426,8 @@ Submits a request for a new appointment. Requires a Bearer Token received after 
 {
   "errors": [
     {
-      "code": "missing_start_time",
-      "detail": "Start time is required"
+      "code": "missing_parameter",
+      "detail": "param is missing or the value is empty: dtStartUtc"
     }
   ]
 }
@@ -353,8 +438,8 @@ Submits a request for a new appointment. Requires a Bearer Token received after 
 {
   "errors": [
     {
-      "code": "missing_end_time",
-      "detail": "End time is required"
+      "code": "missing_parameter",
+      "detail": "param is missing or the value is empty: dtEndUtc"
     }
   ]
 }
@@ -419,8 +504,8 @@ Retrieves details of a specific appointment by its unique identifier. Requires a
 {
   "errors": [
     {
-      "code": "missing_appointment_id",
-      "detail": "Appointment ID is required"
+      "code": "missing_parameter",
+      "detail": "param is missing or the value is empty: appointment_id"
     }
   ]
 }
@@ -464,6 +549,18 @@ Cancels an existing appointment. Requires a Bearer Token received after authenti
 }
 ```
 
+**Response (Missing appointment id):**
+```json
+{
+  "errors": [
+    {
+      "code": "missing_parameter",
+      "detail": "param is missing or the value is empty: appointment_id"
+    }
+  ]
+}
+```
+
 ---
 
 ### External Service Errors
@@ -496,26 +593,16 @@ Cancels an existing appointment. Requires a Bearer Token received after authenti
 ## Security Considerations
 
 ### Authentication Flow Security
-- **OTC Generation**: 6-digit numeric codes, cryptographically random
-- **OTC Storage**: Hashed in Redis with 10-minute TTL
-- **OTC Validation**: Maximum 5 attempts before 15-minute lockout
-- **Rate Limiting**: 3 OTC requests per UUID per 15 minutes
+- **OTP Generation**: 6-digit numeric codes, cryptographically random
+- **OTP Storage**: Hashed in Redis with 10-minute TTL
+- **OTP Storage**: is cleared from Redis immediately after successful validation
+- **OTP Validation**: Maximum 5 attempts before 15-minute lockout
+- **Rate Limiting**: 3 OTP requests per UUID per 15 minutes
 - **JWT Algorithm**: RS256 (RSA Signature with SHA-256)
 - **JWT Claims**: Includes `jti`, `exp`, `iat`, `sub` (uuid)
-- **Token Storage**: Active tokens stored in Redis for revocation capability
 - **Token Expiration**: 1 hour (3600 seconds)
 
 ### Data Protection
 - **Transport**: All endpoints require HTTPS/TLS 1. 3+
-- **PII Handling**: Lastname and DOB validated server-side only
-- **Credential Validation**: Timing-safe comparison to prevent timing attacks
-- **Error Messages**: Generic messages to prevent information disclosure
-
-### Implementation Requirements
-1. All failed authentication attempts must be logged with UUID and timestamp
-2. Successful authentications must be logged for audit purposes
-3. OTC must be cleared from Redis immediately after successful validation
-4. Previous OTC must be invalidated when new one is requested
-5. JWT tokens must include `jti` claim for revocation tracking
-6.  Revoked tokens must remain in Redis blacklist until expiration
-7. UUID must be validated against VASS before sending OTC
+- **PII Handling**: Lastname and DOB validated server-side only. Only appointment information returnted to the client. No veteran data.
+- **Error Messages**: Generic messages to prevent PII/PHI disclosure

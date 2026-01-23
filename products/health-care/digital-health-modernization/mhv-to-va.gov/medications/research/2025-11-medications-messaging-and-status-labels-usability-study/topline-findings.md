@@ -18,7 +18,10 @@
   - [Insight 3: Participants had questions about who would receive the renewal request](#insight-3-participants-had-questions-about-who-would-receive-the-renewal-request)
   - [Insight 4: Prefilled messages supported completion, but missing information caused participants to stumble](#insight-4-prefilled-messages-supported-completion-but-missing-information-caused-participants-to-stumble)
   - [Insight 5: Confirmation cues were generally noticed and increased confidence, but did not fully resolve uncertainty](#insight-5-confirmation-cues-were-generally-noticed-and-increased-confidence-but-did-not-fully-resolve-uncertainty)
-- [Experience-wide insights](#experience-wide-insights)
+- [Secondary findings](#secondary-findings)
+  - [Clear feedback and familiar patterns helped resolve moments of uncertainty](#clear-feedback-and-familiar-patterns-helped-resolve-moments-of-uncertainty)
+  - [Overall impressions were positive, with consistent opportunities to reduce cognitive load](#overall-impressions-were-positive-with-consistent-opportunities-to-reduce-cognitive-load)
+  - [Familiarity reduced friction for experienced users](#familiarity-reduced-friction-for-experienced-users)
 - [Recommendations](#recommendations)
 - [Research question mapping](#research-question-mapping)
 - [Resources](#resources)
@@ -41,7 +44,7 @@ We conducted remote moderated usability sessions with **12 Veterans** to explore
 
 Sessions lasted 60 minutes and followed a think-aloud approach using a Figma prototype and a staging test environment. In addition to task success, this research focused on moments of uncertainty, hesitation, and friction.
 
-**Study structure**
+#### Study structure
 
 - **Part 1: Reviewing prescription statuses**  
   Participants reviewed medication list screens featuring updated status labels and described what stood out, how they understood each status, and what actions they believed were available.
@@ -101,9 +104,9 @@ Sessions lasted 60 minutes and followed a think-aloud approach using a Figma pro
 
 ### <a name="summary-of-key-findings"></a>Summary of key findings
 
-Veterans generally understood prescription status labels, but clarity broke down around timing, available actions, and what would happen next. Most participants were able to complete the renewal flow once they found the correct entry point, though paths varied based on prior habits and expectations.
+Veterans generally understood prescription status labels, but clarity broke down around timing, available actions, and what would happen next.
 
-Confidence was shaped by link visibility, clarity around provider routing, the presence of prefilled information, and confirmation cues. Differences in experience were driven more by mental models and wayfinding than by difficulty completing the renewal request itself.
+Most participants were able to complete the renewal flow once they found the correct entry point, though paths varied based on prior habits and expectations. Confidence was shaped by link visibility, clarity around provider routing, the presence of prefilled information, and confirmation cues. Differences in experience were driven more by mental models and wayfinding than by difficulty completing the renewal request itself.
 
 ---
 
@@ -113,9 +116,11 @@ Confidence was shaped by link visibility, clarity around provider routing, the p
 
 ---
 
-### <a name="insight-1-prescription-statuses-were-largely-understood-refill-vs-renewal-understanding-varied"></a>Insight 1: Prescription statuses were largely understood; refill vs. renewal understanding varied
+## <a name="insight-1-prescription-statuses-were-largely-understood-refill-vs-renewal-understanding-varied"></a>Insight 1: Prescription statuses were largely understood; refill vs. renewal understanding varied
 
-**Veterans understood what prescription statuses meant, but did not always understand what actions were available or when to take them.**
+**Veterans understood what prescription statuses meant, but did not always understand what actions were available or when to take them—and some did not notice that the labels themselves had changed.**
+
+---
 
 #### Active
 
@@ -125,8 +130,10 @@ All **11 of 11 participants** understood **Active** as a medication they are cur
 - **4 of 11 participants** viewed Active as informational only  
 - Several participants wanted clearer signals when no refills remained  
 
-*“Something’s active, so you have refills.”*  
-*“What I don’t see is whether it has refills.”*
+> *“Something’s active, so you have refills.”*  
+> *“What I don’t see is whether it has refills.”*
+
+---
 
 #### In Progress
 
@@ -135,8 +142,10 @@ All **11 of 11 participants** interpreted **In Progress** as a medication being 
 - **9 participants** expected it to be short-lived  
 - **1 participant (P6)** described reduced confidence based on a past experience  
 
-*“Someone is working on it… after it’s done it should be shipped.”*  
-*“I don’t trust in-progress… it went on way too long [sharing prior experience].”*
+> *“Someone is working on it… after it’s done it should be shipped.”*  
+> *“I don’t trust in-progress… it went on way too long [sharing prior experience].”*
+
+---
 
 #### Inactive
 
@@ -145,8 +154,19 @@ All **11 of 11 participants** understood **Inactive** as no longer refillable.
 - **9 participants** associated Inactive with needing provider follow-up  
 - Older or duplicate inactive medications increased cognitive load  
 
-*“You need to call doctor to get a new script.”*  
-*“I got all these medications I used to take… but they’re still there.”*
+> *“You need to call doctor to get a new script.”*  
+> *“I got all these medications I used to take… but they’re still there.”*
+
+---
+
+#### Status label changes were not explicitly noticed by some.
+
+While participants generally understood what each prescription status meant, **some participants described the status labels shown during testing as familiar or the same as what they were already used to seeing**.
+
+- **3 participants (P6, P8, P10)** explicitly described the status labels as familiar or unchanged  
+- **P6 identified the “Active–non VA” status as unfamiliar**, noting that this label does not usually appear on their medications list; other status labels felt familiar  
+
+> *“They’re the same thing… just a different way of putting it.”* (P10)
 
 ---
 
@@ -156,21 +176,21 @@ All **11 of 11 participants** understood **Inactive** as no longer refillable.
 
 **8 of 12 participants** (P1, P3, P4, P6, P8, P9, P11, P12) clearly differentiated the two concepts. These participants generally described refill as continuing an existing prescription with refills remaining, and renewal as requiring provider review or action once refills had run out or a prescription had expired. Several framed renewal as involving the entire medication rather than an incremental refill.
 
-*“Refill means you have refill medications and can order anytime.”*  
-*“Renewal most likely I need a new order for it.”*  
-*“…they know a renewal is the entire medication. A refill is, like, oh, they ran out of refills.”*  
-*“Because some, some, medications expire.”*
+> *“Refill means you have refill medications and can order anytime.”*  
+> *“Renewal most likely I need a new order for it.”*  
+> *“…they know a renewal is the entire medication. A refill is, like, oh, they ran out of refills.”*  
+> *“Because some, some, medications expire.”*
 
 **4 participants** (P2, P5, P10, P14) showed uncertainty or used the terms interchangeably. Some described renewal as simply “getting more medication,” were unsure who requests were routed to, or stated there was no meaningful difference between the two terms.
 
-*“Refill and what? [renewal]”*  
-*“Medication may or may not be active, however, you still may need the medication.”*  
-*“Could be either one.”*  
-*“Refill and renewal is basically the same thing.”*
+> *“Refill and what? [renewal]”*  
+> *“Medication may or may not be active, however, you still may need the medication.”*  
+> *“Could be either one.”*  
+> *“Refill and renewal is basically the same thing.”*
 
 ---
 
-### <a name="insight-2-renewal-link-discovery-varied-and-often-followed-familiar-paths"></a>Insight 2: Renewal link discovery varied and often followed familiar paths
+## <a name="insight-2-renewal-link-discovery-varied-and-often-followed-familiar-paths"></a>Insight 2: Renewal link discovery varied and often followed familiar paths
 
 **Veterans did not consistently notice the renewal link and often relied on familiar refill or messaging paths instead.**
 
@@ -180,8 +200,8 @@ Participants varied in how easily they discovered the renewal link, often defaul
 
 **7 of 12 participants** noticed the renewal link organically once they reached the correct medication card. These participants typically scrolled through the medication list and interpreted the link as a natural next step for getting more medication.
 
-*“That’s… I’ve not seen that before, that’s a new thing for me.”*  
-*“It says Send a renewal request message, I don’t think I’ve seen that!”*
+> *“That’s… I’ve not seen that before, that’s a new thing for me.”*  
+> *“It says Send a renewal request message, I don’t think I’ve seen that!”*
 
 For these participants, discovery occurred **within the Medications list**, without needing to navigate away from the page.
 
@@ -196,94 +216,92 @@ When the renewal link was not immediately visible or recognized, participants co
 - Looked for a **phone number to call**  
 - Scrolled the page without recognizing the renewal link as an available action  
 
-*“I would just send a secure message.”*  
-*“Send a secure message to your care team.”*
+> *“I would just send a secure message.”*  
+> *“Send a secure message to your care team.”*
 
 For several participants, the **Start a refill request** CTA acted as a competing entry point. When the medication did not appear there, this led to confusion and task detours, including navigating away from Medications to message a provider. Some participants treated refill and renewal entry points as interchangeable, relying on past experience rather than cues on the page to determine the correct path.
 
 ---
 
-### <a name="insight-3-participants-had-questions-about-who-would-receive-the-renewal-request"></a>Insight 3: Participants had questions about who would receive the renewal request
+## <a name="insight-3-participants-had-questions-about-who-would-receive-the-renewal-request"></a>Insight 3: Participants had questions about who would receive the renewal request
 
 **Veterans were able to proceed, but did not consistently understand who renewal requests were routed to.**
 
 Most participants proceeded through provider selection, but several expressed questions about who would receive the request.
 
-*“Hopefully it’s my doctor, but it doesn’t tell you.”*  
-*“I don’t know who it directs it to.”*
+> *“Hopefully it’s my doctor, but it doesn’t tell you.”*  
+> *“I don’t know who it directs it to.”*
 
-Participants often relied on medication type to infer the correct care team.
+#### Modal was understood as a transition step rather than a destination
 
-#### Modal supported a clear transition to Secure messaging
+Participants largely interpreted the modal as a brief transition between screens, not as a step that required close attention or explanation of what would happen next.
 
-**The modal effectively communicated a transition to Secure messaging and did not prevent participants from continuing the flow.**
+**Most participants skimmed the modal content, often not reading past the header, and treated it as an informational handoff. Only a small subset explicitly recognized that the flow was transitioning into Secure Messaging.**
 
-Most participants interpreted the modal as informational and proceeded without hesitation.
+> *“It means I’m going to a different screen, but I’m still logged in.”*  
+> *“It’s telling me I’m leaving this page.”*  
+> *“Instead of me coming out of the medication and going into the messages, it put me in there.”*  
+> *“I appreciate having a message letting me know I’m going to a different page.”*
 
-*“It means I’m going to a different screen, but I’m still logged in.”*  
-*“It’s telling me I’m leaving this page.”*  
-*“Instead of me coming out of the medication and going into the messages, it put me in there.”*
+A small number of participants briefly questioned whether the modal was a warning or error, but still continued through the flow without stopping.
 
-A small number of participants briefly questioned whether the modal was a warning or error, but still continued.
-
-*“I always wonder if it’s just a warning or if I did something wrong.”*  
-*“I appreciate having a message letting me know I’m going to a different page.”*
+> *“I always wonder if it’s just a warning or if I did something wrong.”*
 
 ---
 
-### <a name="insight-4-prefilled-messages-supported-completion-but-missing-information-caused-participants-to-stumble"></a>Insight 4: Prefilled messages supported completion, but missing information caused participants to stumble
+## <a name="insight-4-prefilled-messages-supported-completion-but-missing-information-caused-participants-to-stumble"></a>Insight 4: Prefilled messages supported completion, but missing information caused participants to stumble
 
 **Prefilled messages made the renewal process easier and more efficient; however, missing medication details introduced hesitation and briefly disrupted progress.**
 
 **10 of 12 participants** explicitly noticed and valued the prefilled message.
 
-*“Oh everything’s already there, I love it.”*  
-*“That saves people a lot of time.”*
+> *“Oh everything’s already there, I love it.”*  
+> *“That saves people a lot of time.”*
 
 All **12 participants** reviewed at least part of the prefilled content.
 
 - **9 participants** sent the message as-is  
 - **3 participants** wanted optional personalization  
 
-*“I’d just send it and be done with it.”*  
-*“Everything is already there.”*  
-*“I would add my phone number for faster processing.”*
+> *“I’d just send it and be done with it.”*  
+> *“Everything is already there.”*  
+> *“I would add my phone number for faster processing.”*
 
 When required medication details were missing, participants paused and questioned whether they could proceed, creating a brief but noticeable stumble in the flow.
 
-*“There’s nothing to be sent.”*  
-*“You don’t know the medication unless you have it with you.”*
+> *“There’s nothing to be sent.”*  
+> *“You don’t know the medication unless you have it with you.”*
 
 ---
 
-### <a name="insight-5-confirmation-cues-were-generally-noticed-and-increased-confidence-but-did-not-fully-resolve-uncertainty"></a>Insight 5: Confirmation cues were generally noticed and increased confidence, but did not fully resolve uncertainty
+## <a name="insight-5-confirmation-cues-were-generally-noticed-and-increased-confidence-but-did-not-fully-resolve-uncertainty"></a>Insight 5: Confirmation cues were generally noticed and increased confidence, but did not fully resolve uncertainty
 
 **Pre-filled information and clear confirmation cues reassured most Veterans that their request was sent, however, some still sought additional reassurance or made assumptions about next steps that did not always match how the system works**
 
 **9 of 12 participants** noticed the success alert and recognized it as confirmation that their request was sent.
 
-*“It says Message sent.”*  
-*“Just knowing whether the message went through.”*
+> *“It says Message sent.”*  
+> *“Just knowing whether the message went through.”*
 
 Several participants described visible confirmation cues—such as the green *“Message sent”* alert—as a clear signal that their request had gone through.
 
-*“Seems very intuitive and very basic.”*  
-*“When it says message sent, it went… 99% of the time.”*
+> *“Seems very intuitive and very basic.”*  
+> *“When it says message sent, it went… 99% of the time.”*
 
 **3 participants** sought confirmation elsewhere, such as navigating to **Secure messaging** to verify the message had been sent.
 
-*“I went to messages to confirm it was sent.”*
+> *“I went to messages to confirm it was sent.”*
 
 Even when confirmation cues were noticed, participants often relied on prior experience to infer what would happen next. These expectations did not always match the actual behavior of the renewal flow.
 
-*“Once the doc approves it, it should appear as in progress.”*  
-*“It will take up to three days for the status to change.”*
+> *“Once the doc approves it, it should appear as in progress.”*  
+> *“It will take up to three days for the status to change.”*
 
 ---
 
-## <a name="experience-wide-insights"></a>Experience-wide insights
+## <a name="secondary-findings"></a>Secondary findings
 
-### Clear feedback and familiar patterns helped resolve moments of uncertainty
+### <a name="clear-feedback-and-familiar-patterns-helped-resolve-moments-of-uncertainty"></a>Clear feedback and familiar patterns helped resolve moments of uncertainty
 
 **Participants experienced moments of uncertainty at different points in the experience, most often related to who renewal requests were sent to, how prescription statuses worked, and what would happen next after taking an action. These moments were generally brief and situational rather than persistent, and reassurance typically came from clear feedback, automation, and familiar VA interaction patterns.**
 
@@ -294,50 +312,110 @@ Most participants (**9 of 12: P1, P2, P3, P4, P5, P6, P9, P10, P12**) expressed 
 - Knowing **who would receive a renewal request** (P1, P2)  
 - Not seeing expected medications due to **filters being applied** or viewing a **refill-only list** instead of the full medications list (P1, P2, P5, P10)
 
-*“I don’t know who it directs it to.”*  
-*“It could get confusing if there is a difference between them [refill vs renewal].”*
+> *“I don’t know who it directs it to.”*  
+> *“It could get confusing if there is a difference between them [refill vs renewal].”*
 
 ---
 
-### Overall impressions were positive, with consistent opportunities to reduce cognitive load
+### <a name="overall-impressions-were-positive-with-consistent-opportunities-to-reduce-cognitive-load"></a>Overall impressions were positive, with consistent opportunities to reduce cognitive load
 
 **Participants generally described the medication statuses and renewal flow as familiar and easy to use. Most felt confident completing the renewal request and did not view the flow itself as difficult.**
 
 **8 of 12 participants** (**P1, P2, P4, P5, P6, P9, P10, P14**) described the overall experience as easy, simple, or intuitive.
 
-*“It was awesome… easy… simple… to the point.”*  
-*“Pretty simple, once you do it a few times.”*  
-*“Seems very intuitive and very basic.”*
+> *“It was awesome… easy… simple… to the point.”*  
+> *“Pretty simple, once you do it a few times.”*  
+> *“Seems very intuitive and very basic.”*
 
 At the same time, participants consistently identified opportunities to reduce cognitive load and improve clarity—particularly around information density and wayfinding. Several participants (**P1, P3, P6, P9**) found very old, inactive, or duplicate medications overwhelming and suggested clearer separation or alternative organization for inactive medications.
 
-*“I don’t want to see all those… it’s convoluted.”*  
-*“You can have a separate screen for inactive medications.”*
+> *“I don’t want to see all those… it’s convoluted.”*  
+> *“You can have a separate screen for inactive medications.”*
 
 ---
 
-### Familiarity reduced friction for experienced users
+### <a name="familiarity-reduced-friction-for-experienced-users"></a>Familiarity reduced friction for experienced users
 
 **A smaller group of participants (**P8, P14**) reported little to no confusion at any point, describing the experience as fully familiar based on prior use of VA tools. For these participants, the renewal flow largely met expectations without requiring additional guidance.**
 
-*“So far, it’s already familiar.”*  
-*“Nothing. No… I love this system. It works very well.”*
+> *“So far, it’s already familiar.”*  
+> *“Nothing. No… I love this system. It works very well.”*
 
 ---
 
 ## <a name="recommendations"></a>Recommendations
 
-**Clarify when to use refill vs renewal in the Medications experience:** Help Veterans understand the difference between refill and renewal and recognize when each is appropriate—supporting confident selection through clearer cues, such as surfacing refills remaining on med cards.
+### Clarify when to use refill vs. renewal
+**Outcome:** Veterans can confidently choose the right action without second-guessing.
 
-**Clarify where renewal requests are routed:** Provide clearer cues about who receives renewal requests so Veterans feel confident their message is reaching the right care team.
+**Rationale:**  
+Participants generally understood prescription statuses, but refill and renewal actions were sometimes conflated or treated as interchangeable.
 
-**Continue leveraging prefilled medication details:** Prefilled content consistently reduced effort and supported confidence during the renewal process.
+**Design and content considerations:**  
+- Surface refills remaining directly on medication cards so Veterans can quickly assess what action is available  
+- Use clearer, more plain language to distinguish refill vs. renewal  
+- Reduce competing or overlapping entry points where possible, such as multiple refill-related CTAs  
 
-**Set clearer expectations when additional information may be required:** Signal earlier when missing prescription information could affect progress, so Veterans can anticipate what’s needed.
+---
 
-**Provide clearer guidance after submitting a renewal request:** Use the confirmation alert to help Veterans understand what happens next (i.e., expected timing, whether a response is anticipated, and how status updates may appear.)
+### Clarify where renewal requests are routed
+**Outcome:** Veterans feel confident their renewal request is reaching the right care team.
 
-**Reduce cognitive load from inactive and historical medications:** Consider approaches such as default filters or clearer grouping that help Veterans focus on current, actionable prescriptions first.
+**Rationale:**  
+Participants were able to proceed through the flow, but often questioned who would receive the renewal request.
+
+**Design and content considerations:**  
+- Provide clearer routing cues earlier in the experience, such as on the medication card, within the modal, and in the confirmation state  
+- Reinforce destination context within Secure Messaging (for example, clearly showing the care team name)  
+
+---
+
+### Provide clearer guidance after submitting a renewal request
+**Outcome:** Veterans understand what to expect next and do not feel the need to seek additional confirmation.
+
+**Rationale:**  
+Confirmation cues were generally noticed and reassuring, but did not always resolve uncertainty about timing or next steps.
+
+**Design and content considerations:**  
+- Use the confirmation alert and/or follow-up content to set expectations about what may happen next (for example, whether Veterans should expect a reply, a status change, or no immediate update)  
+- Clarify whether a response is expected or if a status change is the primary signal of progress  
+
+---
+
+### Set clearer expectations when additional information may be required
+**Outcome:** Veterans are prepared when missing prescription information could affect progress.
+
+**Rationale:**  
+When required medication details were missing, participants paused and expressed uncertainty about how to proceed.
+
+**Design and content considerations:**  
+- Signal earlier in the flow when additional information may be required  
+- Provide guidance beyond error states when information is incomplete  
+- Offer clearer paths for retrieving needed medication information (for example, linking to medication details, supporting copy/paste, or clarifying what information is required)  
+
+---
+
+### Continue leveraging prefilled medication details
+**Outcome:** Renewal requests remain fast, low-effort, and confidence-building.
+
+**Rationale:**  
+Prefilled messages were consistently noticed, valued, and often sent without modification.
+
+**Design and content considerations:**  
+- Maintain prefilled medication context by default  
+- Allow optional personalization without adding friction or increasing effort  
+
+---
+
+### Reduce cognitive load from inactive and historical medications
+**Outcome:** Veterans can more easily focus on current, actionable medications.
+
+**Rationale:**  
+Older, inactive, or duplicate medications increased cognitive load for some participants.
+
+**Design and content considerations:**  
+- Consider default filters or clearer grouping of inactive and historical medications  
+- Explore ways to visually de-emphasize older medications while keeping them accessible  
 
 ---
 
@@ -358,3 +436,5 @@ At the same time, participants consistently identified opportunities to reduce c
 
 - Figma prototype  
 - [Task-level findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-11-medications-messaging-and-status-labels-usability-study/task-)
+
+

@@ -2,7 +2,7 @@
 
 This documentation is an explanation of how the [VA.gov COE status page](https://www.va.gov/housing-assistance/home-loans/check-coe-status/your-coe/) works depending on certain COE data coming from the LGY API. 
 
-### Questions from stakeholders on 12/22:
+## Questions from stakeholders on 12/22:
 
 - Does it show the most recent COE? Does it show multiple versions?
 
@@ -22,7 +22,7 @@ This documentation is an explanation of how the [VA.gov COE status page](https:/
 
 - Test behavior of automatic COEs, test behavior for manual COE.
 
-  - We don’t have test users for manual request and approval. I believe we would need help from Nick Fisseler to do that.
+  - We tested on web and mobile and they both surface as expected - COEs are visible regardless if it is automatic or not.
 
 - What about a person who has a valid COE, then another one which is closed, does it show the valid one?
 
@@ -30,17 +30,15 @@ This documentation is an explanation of how the [VA.gov COE status page](https:/
 
 - Mobile - what is the logic for the COE to show up in the letters list?
 
-  - Does it only show for users who come back as ELIGIBLE? What about the other determination statuses?
-
-- Mobile - if a user has never had a COE, what do they see? 
+  - It only shows up for users who come back as ELIGIBLE? If they come back as somemthing else, it doesn't show up at all.
 
 - Mobile - what is the logic for the COE to actually display if it is selected in the letters list?
 
-  - Does it only show automatic COEs? What shows if it’s a non-automatic COE?
+  - Same as web - if there is an application, it is not an automatic COE and still displays. If there isn'at an application, it is an automatic COE and it displays with the automatic COE alert above it.
 
-### [LGY Swagger Documentation](https://services.lgy.va.gov/eligibility-manager/swagger-ui/index.html?configUrl=/eligibility-manager/v3/api-docs/swagger-config)
+## [LGY Swagger Documentation](https://services.lgy.va.gov/eligibility-manager/swagger-ui/index.html?configUrl=/eligibility-manager/v3/api-docs/swagger-config)
 
-### Overview of the calls [VA.gov](http://va.gov) makes to LGY \[[link to flow chart](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/apply-for-home-loan-COE/engineering/coe_status.md)]:
+## Overview of the calls [VA.gov](http://va.gov) makes to LGY \[[link to flow chart](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/apply-for-home-loan-COE/engineering/coe_status.md)]:
 
 - VA.gov calls both `/eligibility/determination` and `/eligibility/application` every time the status page is visited
 
@@ -48,7 +46,9 @@ This documentation is an explanation of how the [VA.gov COE status page](https:/
 
 - Calls to `/eligibility/documents/coe/file` only happen when a user clicks the COE download links. Those download links only populate for ELIGIBLE users.
 
-## [Simplified Mural of this process](https://app.mural.co/t/cve1274/m/cve1274/1767825762733/8a744b31a654e2aeb0a0a218323c0aae9cb7c72c)
+## [Simplified Mural of this process](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1768579899578/1291fedc1151d896668d5e432db8305d3d58deb7?sender=u948e39813cb5600d37268438)
+
+## [Test Users for each of the status page scenarios](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/apply-for-home-loan-COE/Test%20and%20Launch/CoE%20Staging%20Test%20User%20Information.md#all-login-information)
 
 ## A user is returned as ELIGIBLE from `/eligibility/determination`
 

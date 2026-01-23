@@ -4,6 +4,7 @@
 - [Unique Logged Events](#unique-logged-events)
 - [Re-architecture: Backend-Only Event Logging (November 2025)](#re-architecture-backend-only-event-logging-november-2025)
 - [Re-architecture: Asynchronous Batch Processing (December 2025)](#re-architecture-asynchronous-batch-processing-december-2025)
+- [Re-architecture: API Simplification (January 2026)](#re-architecture-api-simplification-january-2026)
 
 The goal of the Unique User Metrics (UUM) for the My HealtheVet (MHV) Portal is to collect unique user metrics on how many users have accessed the MHV on VA.gov patient portal. The patient portal is comprised of any application that is accessed via the `/my-health` root URL and includes the MHV landing page. Note that Google Analytics can collect these same metrics, but this effort aims to provide more accurate metrics since we do not want users to be able to opt out of these analytics.
 
@@ -223,8 +224,8 @@ graph TB
         Database[(PostgreSQL)]
         DataDog[DataDog/StatsD]
         
-        Buffer -.->|Every minute| Job
-        Job -->|1. RPOP batch of<br/>500 events| Buffer
+        Buffer -.->|Every 10 minutes| Job
+        Job -->|1. RPOP batch of<br/>1000 events| Buffer
         Job -->|2. Deduplicate<br/>in-memory| Job
         Job -->|3. read_multi<br/>batch check| Redis
         Job -->|4. insert_all<br/>uncached events| Database
@@ -431,10 +432,9 @@ end
 | `uum.processor_job.iterations` | Gauge | Number of batch iterations completed this job run | N/A (informational) |
 | `uum.processor_job.total_events_processed` | Gauge | Total events processed across all iterations | N/A (informational) |
 | `uum.processor_job.total_db_inserts` | Gauge | Total events inserted to database (new unique events) | N/A (tuning) |
+| `uum.processor_job.db_queries` | Gauge | Total event queries to the database | N/A (tuning) |
 | `uum.processor_job.queue_depth` | Gauge | Events remaining in Redis buffer after processing | > 10,000 for 5 min |
-| `uum.processor_job.queue_overflow` | Increment | Fires when queue depth exceeds threshold | Any increment |
 | `uum.processor_job.job_duration_ms` | Histogram | Total job processing time across all iterations (ms) | N/A (informational) |
-| `uum.processor_job.failure` | Increment | Job failure (tagged by error class) | Any increment |
 | `uum.processor_job.events_at_risk` | Gauge | Events remaining in buffer when job failed | N/A (diagnostic) |
 | `uum.unique_user_metrics.event` | Increment | Counter for new unique events (tagged by event_name) | N/A (analytics) |
 
@@ -577,3 +577,81 @@ Two brief options were considered for using S3 to reduce database size. Both hav
 - **Option B — Store everything in S3 (per-event objects or batch files)**: S3 can hold the data cheaply, but it does not provide low-latency indexed existence checks or simple deduplication. Per-event PUTs are slow and costly at scale; batch-file writes are efficient but require an external index for deduplication and queryability (e.g., DynamoDB or a separate database), which reintroduces the complexity we were trying to remove.
 
 Both approaches move complexity elsewhere and make the "was this event ever recorded" query either slow or dependent on additional systems.
+
+---
+
+## Re-architecture: API Simplification (January 2026)
+
+### Background
+
+We want to simplify certain aspects of this code as described below.
+
+### Changes
+
+#### 1. Simplified Return Values
+
+**Before:**
+```ruby
+# Returns detailed hash for each event
+UniqueUserEvents.log_event(user:, event_name:)
+# => [{ event_name: 'rx_accessed', status: 'buffered', new_event: nil }]
+
+# When disabled
+# => [{ event_name: 'rx_accessed', status: 'disabled', new_event: false }]
+```
+
+**After:**
+```ruby
+# Returns simple array of buffered event names
+UniqueUserEvents.log_event(user:, event_name:)
+# => ['rx_accessed', 'rx_accessed_oh_757']
+
+# When disabled
+# => []
+```
+
+**Rationale:**
+- Does not affect any current callers
+- Eliminates `Service.build_*_result` methods
+- Simpler interface for future callers
+
+#### 2. Batch Redis LPUSH
+
+The `Buffer.push_batch` method pushes all events in a single Redis call, reducing round-trips from N to 1.
+
+### Updated API Interface
+Only the return values are changed.
+
+```ruby
+module UniqueUserEvents
+  # Log a single event (delegates to log_events)
+  # @return [Array<String>] Event names buffered (empty if disabled)
+  def self.log_event(user:, event_name:)
+  
+  # Log multiple events in a single Redis call
+  # @return [Array<String>] Event names buffered (empty if disabled)
+  def self.log_events(user:, event_names:)
+  
+  # Check if event exists (unchanged)
+  # @return [Boolean]
+  def self.event_logged?(user:, event_name:)
+end
+```
+
+### Migration Notes
+
+**Breaking change for `UniqueUserMetricsController`:**
+
+The controller uses the return value to determine HTTP status code. Update required:
+
+```ruby
+# Before
+results = event_names.flat_map { |name| UniqueUserEvents.log_event(...) }
+new_events_count = results.count { |r| r[:new_event] }
+
+# After
+buffered_events = event_names.flat_map { |name| UniqueUserEvents.log_event(...) }
+# Can't determine new_event status until batch processing completes
+# Return 202 Accepted with buffered event names
+render json: { buffered_events: }, status: :accepted
+```

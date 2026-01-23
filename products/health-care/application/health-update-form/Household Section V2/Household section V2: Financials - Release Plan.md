@@ -18,8 +18,8 @@ Before enabling your feature toggle in production, you'll need to:
 - [x] Follow [best practices for QA](https://depo-platform-documentation.scrollhelp.site/developer-docs/qa-and-accessibility-testing).
 - [x] Have your team perform as much validation in staging as possible. Validation may be challenging for some teams and systems due to downstream requirements, but the staging system should mimic the production system as much as possible.
 - [x] Work any downstream or dependent systems proactively to ensure that the feature is ready for use once it hits production.
-- [ ] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
-  - [ ] review the plan with your DEPO/OCTO representative.
+- [x] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
+  - [x] review the plan with your DEPO/OCTO representative.
   - [x] review the release plan with your team.
 
 ## Step 3: Production rollout
@@ -34,7 +34,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 #### Rollout Planning
 
-- Desired date range: **01/12/2026 - 01/19/2026**
+- Desired date range: **01/12/2026 - 01/20/2026**
 - How will you make the product available in production while limiting the number of users who can find/access it: We will use the feature toggle to limit the exposure to a percentage of users
 - What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?:
      - Links to the dashboard(s) showing "success criteria" metrics:
@@ -45,10 +45,10 @@ Before enabling your feature toggle in production, you'll need to:
 - Results #1: Reduction of time spent by 10%
 - Results #2: Reduction of bounce rates by 10%
 
-### Stage A: Canary 5% of users
+### Stage A: Canary 10% of users
 #### Planning
 - Length of time: **01/12/2026 - 01/13/2026**
-- Percentage of Users (and roughly how many users do you expect this to be): **5% (approximately 11 users per day)**
+- Percentage of Users (and roughly how many users do you expect this to be): **10% (approximately 22 users per day)**
 
 #### Results
 
@@ -81,7 +81,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 #### Planning
 
-- Length of time: **01/16/2026 - 01/19/2026**
+- Length of time: **01/16/2026 - 01/21/2026**
 - Percentage of Users (and roughly how many users do you expect this to be): **50% (approximately 108 users per day)**
 
 #### Results
@@ -101,7 +101,7 @@ Before enabling your feature toggle in production, you'll need to:
 
 #### Planning
 
-- Length of time: **01/19/2026**
+- Length of time: **01/22/2026**
 - Percentage of Users (and roughly how many users do you expect this to be): **100% (approximately 218 users per day)**
 
 #### Results

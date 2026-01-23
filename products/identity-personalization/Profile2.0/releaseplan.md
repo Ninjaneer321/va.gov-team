@@ -1,6 +1,6 @@
 # Profile 2.0 Release Plan
 
-**Last Updated 1/2/2026**
+**Last Updated 1/7/2026**
 
 ## Communication
 Primary communications are taking place in the [Authenticated Experience DSVA Slack Channel](https://dsva.slack.com/archives/C909ZG2BB).
@@ -12,7 +12,7 @@ Primary communications are taking place in the [Authenticated Experience DSVA Sl
 - [Data Dog Dashboard](https://app.ddog-gov.com/sb/f327ad72-c02a-11ec-a50a-da7ad0900007-bd93d62d37a448b2511fce5becc4b731?fromUser=false&refresh_mode=sliding&from_ts=1712242328583&to_ts=1712328728583&live=true)
 - [Domo Dashboard](https://va-gov.domo.com/page/825663825?userId=932934509)
 - [Figma Designs](https://www.figma.com/design/5bxmQiCLaXdXrEfPhqMmdJ/Profile-2.0?node-id=52-19111&t=Gaz3RWoInFTeXIMX-1)
-- Relevant Use Cases - in progress
+- [Relevant Use Cases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/README.md)
 - QA Test Plan - in progress
 - Staging Users - in progress
 
@@ -29,7 +29,7 @@ We will conduct QA testing in the va.gov staging environment, and participate in
 
 ## Release
 - Flip feature flag to on.
-- Staged rollout TBD.
+- Staged rollout 25, 50, 100%
 - Monitoring by development team, product & delivery leads.
 
 ### Metrics-based criteria for staged rollout

@@ -5,18 +5,18 @@
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- [ ] EZR Service history FE schema update
+- [ ] EZR Service History add checkbox page
 - [ ] EZR Update Source of Truth designs for Household sections
 - [ ] EZ Update designs for Intro Page alerts on "pending" statuses
 - [ ] EZ Tech discovery on additional form statuses on MyVA
-- [ ] CG Restrict facilities parameters
+- [ ] EZ Display submission statuses on MyVA
 - [ ] EZR Review existing Profile ECNOK designs for updates needed
 
 ## 
 ### 10-10EZR
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
-- [ ] **SPRINT GOAL** [#125472](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125472) - [FE] Update FE Schema (refer to EZ)
+- [ ] **SPRINT GOAL** [#121743](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121743) - [FE] Add Service History checkbox page
 
 #### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
 - [ ] **SPRINT GOAL** [#121080](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121080) - [UX] Update EZR SOT for Household sections
@@ -29,11 +29,11 @@
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
 - [ ] **SPRINT GOAL** [#128834](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128834) - [UX] Update Intro page alerts for "pending" statuses
 - [ ] **SPRINT GOAL** [#105829](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105829) - [Eng] Tech discovery on additional EZ form statuses on MyVA
+- [ ] **Stretch** [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [FE] Display submission statuses on MyVA
 
 ## 
 ### 10-10CG
-#### Obj: CG [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40165)
-- [ ] **SPRINT GOAL** [#128114](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128114) - [Eng] Restrict facilities parameters
+#### Obj: 
 
 
 ##
@@ -41,7 +41,7 @@
 - ...
 
 ---
-## 📆 Sprint 12 (Jan 14 - Jan 27) (PREPLANNED)
+## 📆 Sprint 12 (Jan 14 - Jan 27)
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
@@ -51,18 +51,19 @@
 - [ ] EZR Service history Attend VA Profile meeting
 - [ ] EZR improvement opportunities research
 - [ ] EZ Multiple related forms pattern research
+- [ ] CG Restrict facilities parameters
 
 ## 
 ### 10-10EZR
 
 #### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
-- [ ] **SPRINT GOAL** [#120278](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120278) - [Eng, PM] Launch financials at 25%
+- [x] **SPRINT GOAL** [#120278](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120278) - [Eng, PM] Launch financials at 25%
 - [ ] **SPRINT GOAL** [#120279](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120279) - [Eng, PM] Launch financials at 50%
 - [ ] **SPRINT GOAL** [#120280](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120280) - [Eng, PM] Launch financials at 100%
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
 - [ ] **SPRINT GOAL** [#114030](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114030) - [FE] Add Service history branch/dates question page (refer to EZ)
-- [ ] **SPRINT GOAL** [#113983](https://github.com/department-of-veterans-affairs/va.gov-team/issues/113983) - [BE] Update BE Schema (refer to EZ)
+- [ ] **SPRINT GOAL** [#113983](https://github.com/department-of-veterans-affairs/va.gov-team/issues/113983) - [BE] Update BE Schema - PR Reviews
 - [ ] **SPRINT GOAL** [#129511](https://github.com/department-of-veterans-affairs/va.gov-team/issues/129511) - [Eng, PM] Attend VA Profile kickoff meeting
 
 #### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
@@ -75,41 +76,45 @@
 
 ## 
 ### 10-10CG
-#### No scheduled work this sprint
+#### Obj: CG [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40165)
+- [ ] **SPRINT GOAL** [#128114](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128114) - [Eng] Restrict facilities parameters
 
 
 ##
 ### Team PTO
 - Martin Luther King, Jr. Day - holiday: 1/19
 - Renata: 1/15 - 1/20
+- Matt: 1/21-23
+- 
 
 ---
 ## 📆 Sprint 11 (Dec 31 - Jan 13)
-- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+- [x] 🧱 **Sprint Goals not completed**
+     - Delay due to more time needed for Financials QA finding and some production errors that came up
 
 ### Sprint Goal summary
 #### Note: Code Freeze Monday 12/22 through Monday 1/5
 - [x] EZ & EZR RUM logs active in production
 - [x] VA Notify API Keys rotated in prod
 - [x] EZR Financials - Wrap up QA & prep for launch
-- [ ] EZR Financials - Begin launching at 10%
+- [x] EZR Financials - Begin launching at 10%
 - [ ] EZR Service history BE schema update
 - [ ] EZR Service history Add branch/dates question page
-- [ ] All Forms `find-forms` URL audit
+- [x] All Forms `find-forms` URL audit
 - [x] CG Service Blueprint
 
 ## 
 ### 10-10EZR
 
 #### Obj: EZR [Improvements](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)/[BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109437)
-- [ ] **SPRINT GOAL** [#128772](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128772) - [FE] Turn EZ and EZR RUM log feature toggles on in production
+- [x] **SPRINT GOAL** [#128772](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128772) - [FE] Turn EZ and EZR RUM log feature toggles on in production
 
 
 #### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
 - [x] **SPRINT GOAL** [#121089](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121089) - [QA] Additional V2 Financials QA
      - [x] [#128256](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128256) - [FE] Selecting "No" to adding income and then going back leads to empty page 
      - [x] [#125887](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125887) - Financial information is not being pre-filled
-- [ ] **SPRINT GOAL** [#120277](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120277) - [Eng, PM] Launch financials at 10%
+- [x] **SPRINT GOAL** [#120277](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120277) - [Eng, PM] Launch financials at 10%
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
 - [ ] **SPRINT GOAL** [#114030](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114030) - [FE] Add Service history branch/dates question page (refer to EZ)
@@ -118,7 +123,7 @@
 ##
 ### All FORMS
 #### Obj: [Improvements shared across forms](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
-- [ ] **SPRINT GOAL** [#127525](https://github.com/department-of-veterans-affairs/va.gov-team/issues/127525) - [UX] Audit forms for `find-forms` URL
+- [x] **SPRINT GOAL** [#127525](https://github.com/department-of-veterans-affairs/va.gov-team/issues/127525) - [UX] Audit forms for `find-forms` URL
 - [x] **SPRINT GOAL** [#125897](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125897) - [BE] Rotate API keys for VA Notify
 
 ##

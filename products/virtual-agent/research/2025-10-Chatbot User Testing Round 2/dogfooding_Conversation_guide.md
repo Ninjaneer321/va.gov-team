@@ -3,6 +3,11 @@
 - Thank you for joining today’s group discussion. We want to hear about your independent experiences testing the VA chatbot using the scenarios provided.
 - We'll cover all major areas in the scenario bank—please share your thoughts, findings, and concerns—especially around privacy, security, and accessibility.
 
+I wanted to go over a few things about this meeting quickly before we begin:
+- This entire session should take about 60 minutes. 
+- In this session, we want to hear your honest opinions. There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
+- Are you comfortable if I record my screen and audio as we talk today?
+
 ---
 
 ## 1. General Experience
@@ -54,6 +59,8 @@ For each section, discuss with the group who tried the scenario(s), what they ob
 - Did you notice consistency, empathy, clarity, and inclusiveness in the chatbot’s responses?
 - Were responses too formal, too casual, or just right?
 - Were instructions concise and easy to understand, or overly complicated?
+- Do you feel that responses like "OK" and "goodbye" being used by the Chatbot are acceptable or would you consider them too formal?
+- Did you ever feel frustrated or feel like you were overreaching to elicit an answer from the Chatbot?
 
 ### H. Long Conversation/Moderation Stress
 - For anyone who tested long or complex conversations with mixed safe and policy-violating prompts:
@@ -81,15 +88,26 @@ For each section, discuss with the group who tried the scenario(s), what they ob
 
 ## 5. Accuracy of the Chatbot
 
-- How accurate did you find the chatbot’s responses overall across different scenarios?
 - Did the chatbot ever provide answers that you know to be incorrect?
 - If you did encounter any inaccurate incormation, can you share examples?
-- Were there any scenarios where you felt uncertain about the accuracy of the advice or details given?
+- Were there any scenarios where you felt uncertain about the accuracy of the advice or details given by the Chatbot?
 - Did you have to double-check the information provided by the chatbot against other official sources?
 
 ---
 
-## 6. Suggestions & Open Feedback
+## 6. Rating the Chatbot
+
+Accuracy: 1-5 scale (1=incorrect, 5=completely accurate) 
+
+Clarity: 1-5 scale (1=confusing, 5=crystal clear)
+
+Completeness: 1-5 scale (1=missing critical info, 5=comprehensive)
+
+Cognitive load: 1-5 scale (1=overwhelming, 5=manageable)
+
+---
+
+## 7. Suggestions & Open Feedback
 
 - Which risks or issues would you want the team to fix most urgently—privacy, security, accessibility, accuracy, or something else?
 - What would make the chatbot more trustworthy, safe, and easy to use?

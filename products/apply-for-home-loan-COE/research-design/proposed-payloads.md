@@ -154,21 +154,28 @@ files: [
     name: 'something.jpg',
     size: 68803,
     errorMessage: 'Internal Server Error',
-    isEncrypted: false
+    isEncrypted: false,
+	attachmentType: "Discharge or separation papers (DD214)"
   }
 ],
 ```
 
 Suggested:
+The three new items here are added as a result of using a new component. The name of this array has changed to avoid a name collision on the FE.
 ```
-files: [
+files2: [
   {
     file: {},
     name: 'something.jpg',
     size: 68803,
     errorMessage: 'Internal Server Error',
-    isEncrypted: false
-    ⭐️ type: 'Discharge papers (DD214)' // 'Loan evidence', 'Name change document'
+    isEncrypted: false,
+	additionalData: {
+		attachmentType: "Discharge or separation papers (DD214)"
+	}
+	⭐️ guid: "123fake-submission-id-567",
+	⭐️ confirmationCode: "1234567890",
+	⭐️ type": "image/jpeg,
   }
 ],
 ```

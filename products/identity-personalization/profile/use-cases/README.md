@@ -8,6 +8,7 @@ UPDATED for Profile 2.0
 - [Profile shared use cases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/profile-shared-use-cases.md)
    - [Blocked users](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/blocked-account.md)
    - [LOA1 users](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/loa1-user.md)
+   - [Email verification](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/email-verification-use-cases.md)
 - [Profile hub](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/use-cases/profile-hub)
 - [Personal information](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/personal-information/use-cases#readme)
 - [Contact information](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/contact-information/use-cases)
@@ -23,13 +24,16 @@ UPDATED for Profile 2.0
 - [Dependents and contacts](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/dependents-contacts/dependents-contacts-landingpg.md)
    - [Accredited representative or VSO](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/accredited-representative-status)
    - [Dependents on file](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/dependents)*
- 
+- [Letters and documents](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/letters-and-documents/letters-and-documents-landingpg.md)
+   - [VA benefit letters and documents](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/benefit-letters)*
+   - [Veteran Status Card](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-status/v2-IIR/Research/use-cases.md)
+- NOT IN PRODUCTION **Communication settings**
+   - [Email and text notifications](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/notification-preferences/use-cases#readme)
+   - NOT IN PRODUCTION [Paperless delivery](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/paperless-delivery/use-cases.md)
+- [Account security](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/account-security/account-security-landingpg.md)
+   - [Connected apps](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/connected-apps/use-cases#readme)
+
 _*Pages with an asterisk link to pages outside the profile and are not managed by the Authenticated Experience team. We have linked to the respective product pages for reference only._
 
 IN PROGRESS of updating
-- [Veteran Status Card use cases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/2a42df2061f41efc2d25fe9a33ffd0e3578961b5/products/veteran-status/v2-IIR/Research/use-cases.md)
-- **Communication settings**
-  - [Notification settings use cases](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/notification-preferences/use-cases#readme)
-  - NEEDS UPDATING [Paperless delivery use cases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/paperless-delivery/use-cases.md)
 - [Account security use cases](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/account-security/use-cases#readme)
-- [Connected apps use cases](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/connected-apps/use-cases#readme)

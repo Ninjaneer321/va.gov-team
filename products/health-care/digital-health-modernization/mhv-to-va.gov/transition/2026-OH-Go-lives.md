@@ -23,7 +23,7 @@ The 2026 EHR modernization timeline names 4 "rounds" of facility updates, which 
 |Facility name | Location | VISN | VHA_ID | 
 |-----|-----|-----|----|
 |VA Detroit Healthcare System | Detroit, MI | 10 | `VHA_553` |  
-|VA Saginaw Healthcare System | Saginaw, MI | 10 | ?? | 
+|VA Saginaw Healthcare System | Saginaw, MI | 10 | `VHA_655` | 
 |VA Ann Arbor Healthcare System | Ann Arbor, MI | 10 | `VHA_506` | 
 |VA Battle Creek Medical Center | Battle Creek, MI | 10 | `VHA_515` | 
 
@@ -54,28 +54,28 @@ The 2026 EHR modernization timeline names 4 "rounds" of facility updates, which 
 # <a name="complexity">Complexity</a>
 Each go-live round will need to display 2 alerts per health tool landing page in the front-end user experience. These alerts will first 1.) warn users about planned maintenance window (downtime) and 2.)notify them of active loss of functionality across multiple health tools while their facilities are transitioning their EHR systems. 
 
-At some point in the transition period (active maintenance window), "moment in time" data will be visible to users, but any healthcare touchpoints that happen during hte window will not be reflected in their record until after the maintenance window takes elapses. During the active maintenance window, all user tasks and actions will be suspended until **7 days after** the site go-live date.
+At some point in the transition period (active maintenance window), "moment in time" data will be visible to users, but any healthcare touchpoints that happen during hte window will not be reflected in their record until after the maintenance window takes elapses. During the active maintenance window, all user tasks and actions will be suspended until a maximum of **7 days after** the site go-live date.
 
-1. **Warning alert** - upcoming maintenance window (will render for between 15-30 days, depending on the health tool)
+1. **Warning alert** - upcoming maintenance window (will render for between 45-60 days, depending on the health tool)
 2. **Error alert** - active maintenance window (active 30 days prior to go-live date until 7 days after go-live)
+3. **Maintenance window alert** - Just-in-case maintenance window; have this ready in case provisioning process doesn't work and no one can do anything. We want to be prepared with a strategy for dealing with that scenario (specifically for SM and Meds)
 
 The My HealtheVet locations where these alerts need to render include: 
 |Tool name | Web URL | Mobile app page|  
 |----------|---------|----------------|
-| My HealtheVet landing page | va.gov/my-health/| N/A | 
 | Appointments landing page | va.gov/my-health/appointments/ | Appointments page | 
 | Medications landing page | va.gov/my-health/medications/ | Prescriptions page | 
 | Messages inbox | va.gov/my-health/secure-messages/inbox/ | Messages page | 
+| Medical records landing page | va.gov/my-health/medical-records/ | Vaccines, Labs & Tests, Allergies pages | 
 
 ### Users with multiple facilities from the same go-live round in their user profile
-In most cases, facilities that are being transitioned are from the same US region. It's highly likely that users may have multiple facilities that are being transitioned at the same time in their profile. In order to plan for this and prevent stacking the same exact alert for multiple facilities on landing page, we should template alerts that are prepared to string multiple facility_names together in the body content. 
+In most cases, facilities that are being transitioned are from the same US region. It's highly likely that users may have multiple facilities that are being transitioned at the same time in their profile. In order to plan for this and prevent stacking the same exact alert for multiple facilities on landing page, we will string multiple facility names together in the body content if that scenario applies to a given Veteran's profile. 
 
-This will require a _singular_ verison of the alerts and a _multiple_ version with correct verb tenses and pluralization. Horizon should work with content to consider how best to template this. 
 
 ### Users with facilities from different go-live rounds in their profile
-In some cases, alert 1 (warning alert) for an upcoming round of go-live sites will overlap with the timeline for alert 2 (active maintenance window for earlier round of go-live sites). It is possible that  users could have facilities in their profile from each of these groups and see both alerts. 
+In some cases, alert 1 (warning alert) for an upcoming round of go-live sites will overlap with the timeline for alert 2 (active maintenance window for earlier round of go-live sites). It is possible that  users could have facilities in their profile from each of these groups and see both alerts. Allowing for an alert from more than one round of transitions has been configured in the shared component logic.
 
-In general, alerts should always render in severity order, meaning: alert 2 (warning alert) should display hierarchically _above_ warning alerts for upcoming maintenance windows at other facilities. 
+The transition alerts will render in severity order, meaning: an error alert (active maintenance window) will display hierarchically above a warning alert (notification of upcoming downtime) if both apply to a given user.
 
 ### Data suppression during active downtime windows
 Because users could have multiple facilities in their profile (some of which are transitioning EHRs in an active migration round, but potentially some that are not being affected), it could be considered a patient safety risk to suppress all task functionality across tools. It will be complex to first read if they have other facilities that are not actively being migrated before determining whether to show this functionality - and may not be worth the lift to build this out for a temporary 32-37 day window. 
@@ -83,82 +83,49 @@ Because users could have multiple facilities in their profile (some of which are
 Instead, in-product tactics within the tools themselves will be more advantageous from a user-experience perspective. For example, within the appointments flow, direct-schedule appointment types could suppress _specific facility names_ within the flow, or even allow them but lead the user to a page that requires a phone-call to complete scheduling instead of allowing direct online scheduling. For Secure messaging, teams should evaluate whether they can suppress the health care system (facilities) from the care team drop-down list in the new message flow (and also disallow replies during this time frame on existing message threads that would otherwise be routed to any of these care teams underneath that facility). 
 
 ### Competing alert logic 
-SHOULD BE ADDRESSED AT TOOL TEAM LEVEL:
+Maintenance window alerts related to this effort could compete with other alerts in the user experience. Horizon team IA lead met with a small team of engineers and determined that the benefits of a shared pattern for all teams outweighs the possibility of inconsistent alert hierarchy during the transition window. We will not worry about competing alert hierarchy at a portal-wide standardization level. 
 
-Maintenance window alerts related to this effort could compete with other alerts in the user experience, and edge-case scenarios should be mapped out and planned so that the rendering logic is clear and repeatable for all tools. 
 
+# <a name="decisions">Design decisions</a>
+
+**January 15, 2026** - OH cutover information will be presented to users at the tool-level ONLY
+  * We will not put alerts on the My healtheVet landing page (Web) or Health menu (VAHB) related to the OH cutover work - we would have to default to the longest-running alert timeframes (appointments) which is a really long time to show users alerts on this page that is the gateway to the entire health portal.
+  * Many users can have "hybrid" profiles, with facilities in their account that are unaffected by this transition. It's important that they understand they can still do everything as normal for the unaffected facilities.
+  * Some health tools included on the landing page are entirely unaffected by the transition, including: travel pay, copays, medical supply re-ordering, updating the 10-10EZR. We don't want to suggest that everything is "down" from this page, when it's not an accurate.
+
+**January 9, 2026** - We do not need alerts for travel pay, which will not be affected by the transition.
 
 # <a name="designs">Alert designs</a>
-In progress - will update later.
+Figma designs for all affected tools, including both web and VAHB mobile app solutions are [here](https://www.figma.com/design/kGTFsKCLZ3P44Ece44iVBN/OH-cutover-alerts?node-id=0-1). 
 
-# <a name="plan">Implementation plan</a>
+These designs include patterned "T" dates, that are mathematically calculating the correct calendar dates based on a given "go-live round phase" launch date. When we know the phase, we can pull the launch date and calculate back 60 days, or forward 2 days, for example, based on the pattern. This will allow us to render these alerts programmatically throughout the 4 go-live round phases in 2026 and in future years. 
+
+## Example alert (for appointments): 
+
+<img width="697" height="656" alt="Screenshot 2026-01-21 at 2 39 26 PM" src="https://github.com/user-attachments/assets/71899096-96a5-4776-9398-4442951367b5" />
+
+<img width="531" height="445" alt="Screenshot 2026-01-21 at 2 39 33 PM" src="https://github.com/user-attachments/assets/90f7fb9d-3acb-45fd-b19f-4fe04a5db4e4" />
+
+<img width="598" height="719" alt="Screenshot 2026-01-21 at 2 44 14 PM" src="https://github.com/user-attachments/assets/5f079170-f85a-4545-9fd6-9b56bb5ba857" />
 
 **Alert template**
 * Appointments 
   * T-60 / show warning alert
-  * T-30 / switch to showing error alert
+  * T-30 / switch to showing error alert; tool team needs to suppress functionality for affected tasks at these facilities (scheduling or cancelling appointments) 
   * T+7 / pull down error alert for these users; tool team will need to put up alert that explains to users “your clinic names may look different”
 * Medications
   * T-45 / show warning alert
-  * T-30 / switch to showing error alert
+  * T-3 / switch to showing error alert; tool team needs to suppress functionality for affected tasks (refill, renewal)
   * T+2 / pull down error alert for these users; tool team will need alert that explains to users “you will now see duplicate medications in your list"
 * Messages: 
   * T-45 / show warning alert
-  * T-30 / switch to showing error alert
-  * T+2 / pull down error alert for these users; tool team will need alert that explains to users “your care team names may look different. even though they’ve been updated, you can still find all your old messages and reply to them; you can continue to message all providers"
-
-### Round 1: go-live date April 11, 2026
-
-* **Appointments**
-  * Warn users about upcoming maintenance window from 02/10/2026-03/11/2026
-  * Active maintenance window from 03/12/2026-04/18/2026
-* **Medications**
-  * Warn users about upcoming maintenance window from 02/25/2026-03/11/2026
-  * Active maintenance window from 03/12/2026-04/13/2026
-* **Messages**
-  * Warn users about upcoming maintenance window from 02/25/2026-03/11/2026
-  * Active maintenance window from 03/12/2026-04/13/2026
+  * T-6 / switch to showing error alert; tool team needs to suppress functionality for affected tasks (new messages, replies, drafts) 
+  * T+2 / pull down error alert for these users; tool team will need alert that explains to users “your care team names will look different. To message any of your providers at X facility, you'll need to start a new message with their new care team name." 
+* Medical records:
+  * T-45 / show warning alert
+  * T-0 / switch to showing error alert; tool team does not need to suppress functionality, but may need to warn users that records won't show up here for 2 business days during cutover. 
+   * T+2 / pull down error alert for these users; tool team may need other explanatory alerts to warn users about duplicate content
 
 
 
-Round 2: go-live date June 6, 2026
 
-* **Appointments**
-  * Warn users about upcoming maintenance window from 04/07/2026-05/05/2026
-  * Active maintenance window from 05/06/2026-06/13/2026
-* **Medications**
-  * Warn users about upcoming maintenance window from 04/22/2026-05/05/2026
-  * Active maintenance window from 05/06/2026-06/08/2026
-* **Messages**
-  * Warn users about upcoming maintenance window from 04/22/2026-05/05/2026
-  * Active maintenance window from 05/06/2026-06/08/2026
- 
-Round 3: go-live date August 22, 2026
-* **Appointments**
-  * Warn users about upcoming maintenance window from 06/23/2026-07/21/2026
-  * Active maintenance window from 07/22/2026-08/29/2026
-* **Medications**
-  * Warn users about upcoming maintenance window from 07/08/2026-07/21/2026
-  * Active maintenance window from 07/22/2026-08/24/2026
-* **Messages**
-  * Warn users about upcoming maintenance window from 07/08/2026-07/21/2026
-  * Active maintenance window from 07/22/2026-08/24/2026
-
-
-Round 4: go-live date October 24, 2026
-* **Appointments**
-  * Warn users about upcoming maintenance window from 08/25/2026-09/23/2026
-  * Active maintenance window from 09/24/2026-10/31/2026
-* **Medications**
-  * Warn users about upcoming maintenance window from 08/25/2026-09/23/2026
-  * Active maintenance window from 09/24/2026-10/26/2026
-* **Messages**
-  * Warn users about upcoming maintenance window from 08/25/2026-09/23/2026
-  * Active maintenance window from 09/24/2026-10/26/2026
-
-
-# <a name="questions">Open questions</a>
-1. Can each tool team look at the most common alerts (DD logs) that fire for users in the UI? Would be helpful to get an audit of alerts that could display simultaneously to understand the stacking hierarchy that we need to account for. 
-2. Does content within existing alerts in each tool potentially need to be evaluated (or updated?) to acknowledge this effort, or are we good?
-3. How can we make this a repeatable pattern that is low lift over time?
-  a. While the process is the same, re-using the same alerts is challenging b/c content in the alert body text must be updated to reflect 1.) different date ranges for each round, 2.) different facility names for each round, 3.) different facility_ids that they will render for over time, 4.) potentially different versions on web + VAHB mobile app

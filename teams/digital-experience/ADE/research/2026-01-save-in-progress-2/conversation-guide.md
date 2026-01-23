@@ -28,7 +28,7 @@
   - Mural link for notetaking
 - Wear HEADPHONES to prevent the user's screen reader from echoing back to them
 - Paste prototype link into Zoom chat (but don't hit enter)
-- Do Not Disturb ON so no notifications
+- Do Not Disturb ON so no notifications on computer and phone
 - Make sure everyone is muted except me and the participant
 
 When the participant is ready, turn on your camera and begin session with the intro
@@ -87,6 +87,7 @@ In the bottom toolbar of the Zoom window, click the arrow next to **SHOW CAPTION
 - Great, now I can see your screen! Thank you for your patience in figuring this out.
 
 - iPad: **Broadcast screen**
+- iPhone: **Screen broadcast** or **Start broadcast**
 ## Troubleshooting
 - [Avoid **AI Companion**, which is a new option next to “Share” in the Zoom buttons]
 
@@ -153,7 +154,7 @@ Let’s start with a few questions...
 
 We can help guide you through this if you need help. Please say what you're doing out loud so that if there are any issues, we'll know what they are.
 1. Make sure that the Zoom application has focus
-1. Navigate to the screen share button
+1. Navigate to the screen share button (maybe via More menu)
 1. Check the "share sound" checkbox (so we can hear their screen reader speaking)--may have to tab a LOT to get to this in the right pane
 1. Activate the screen share
 
@@ -173,9 +174,11 @@ Did you get the link?
 - *If “unsupported browser” error, ask to try a different browser or device, or share my screen (works for anyone) and mouse control (doesn't work w/iPhones)*
 - *If prototype doesn't open, copy the URL and open in a new incognito window (Chrome), private window (Firefox, Safari) or InPrivate (Edge)*
 
-Please click the (green) "Continue" button.
-
 **You'll be interacting with a demo prototype today.** Since it's a demo, note that none of your actions will affect your own VA information or benefits.
+
+I would like you to interact with the prototype **just like you would on your own** if we were not in a session together. Please use whatever zooming or assistive technology you're accustomed to  while browsing the web.  
+
+Please click the (green) "Continue" button.
 
 ## Task 1: Find Form to fill out
 [start on unauthenticated VA.gov home page]
@@ -209,17 +212,17 @@ OK, let's pretend that you just [searched/whatever they say] and you landed on a
 
 I'd like you to fill out VA form 20-10206 [“20 10 206”] to request your military records. 
 
+Please talk aloud with any thoughts, reactions, or questions you have. And tell me what you want to click/tap on before you do it.
+
 ### Watch for:
 - [Any comments about this page looking like the page before? Y / N]
 
 [**Start your request**]
 
-[When they get to the form:] Please stop here so I can give you the next instruction.
-
 ## Task 3: Fill out form 
 *[never reload the page; use **Back** button in browser if ever see a spinning cursor]*
 
-Please fill out this form to request your military records, but I want you to make up fake details so you don't share your personal information with me. 
+[when Name field appears:] I’d like you to make up fake details so you don't share your personal information with me.
 
 And please **talk aloud** with any thoughts, reactions, or questions you have.
 
@@ -237,6 +240,7 @@ Let's say that you're hungry and need to take a break to eat a snack/lunch/dinne
 
 - [leave open in browser / close browser / Finish later button / Chris > Sign out]
 
+What would you do now? 
 
 - [If didn't sign out or close browser] 
   - In 30 minutes, your session will time out and you will be signed out. 
@@ -260,6 +264,10 @@ OK, now let's say that you're back from eating. Please resume filling out the fo
   - Sign in --> My VA --> form card --> Continue your request
   - Search/nav to unauth form intro (click on Umbrella) --> Sign in --> auth form intro --> Continue your request
   - [If they say “Umbrella”] How would you do this with the real VA.gov web page if we weren’t in this session together?
+  - [If don’t know what to do, give hint:] You need to sign in.
+
+
+[If p sees UNAUTH form intro page after clicking Umbrella] Could you please click Umbrella again?
 
 [If p is quiet] Please talk aloud about any thoughts, reactions, or questions you have.
 
@@ -294,7 +302,7 @@ OK, now let's say that you're back from eating. Please resume filling out the fo
 1. **How long do you expect the information you entered to be saved if you haven’t submitted the form?**
      1. VA saves your information for 60 days from the last time you made changes. What do you think happens to your information after 60 days? 
      1. Would it be helpful if you were notified if you have incomplete forms that haven’t been submitted? 
-          1. [If so] When would you like to be notified and why? [How often?]
+          1. [If so] When would you like to be notified and why? [How? text/email?]
      1. Have you left a VA form unfinished before?
           1. [If so] What happened? Did you go back?
      1. Would you like to be able to delete a form you started but didn't finish?

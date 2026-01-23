@@ -4,30 +4,32 @@ Feature Toggle/flag:
 `accredited_representative_portal_intent_to_file` will control visibility of the Intent to File feature, for Accredited Representative Portal users. This will be disabled in Production prior to release.
 
 ### Preparation
-- [ ] Contact Center Review has been submitted
-- [ ] The following user flows have been tested
+- [x] Contact Center Review has been submitted
+- [x] The following user flows have been tested
    - Successful ITF submission
-      -    [ ] Veteran pathway
-      -    [ ] non-Veteran pathway
+      -    [x] Veteran pathway
+      -    [x] non-Veteran pathway
    -  Various ITF statuses
-      -    [ ] User does not have POA for the claimant
-      -    [ ] Existing ITF is found
-      -    [ ] Can't check ITF status
-   - [ ] Failed Submission
-- [ ] Any "launch blocking" findings from Team QA have been addressed.
-- [ ] Datadog monitoring is set up to track submission attempts, successes and errors.
+      -    [x] User does not have POA for the claimant
+      -    [x] Existing ITF is found
+      -    [x] Can't check ITF status
+   - [x] Failed Submission
+- [x] Any "launch blocking" findings from Team QA have been addressed.
+- [x] The feature flag `accredited_representative_portal_skip_itf_check`has been set to `Off` to ensure the experience is checking for exsiting ITFs.
+- [x] Datadog monitoring is set up to track submission attempts, successes and errors.
+
 Any other issues or requirements that should be addressed prior to rollout?
 
-### Go/No Go meeting pending
+### Go/No Go meeting on January 21, 2026
 Synchronous Go/No Go (Placeholder)
 
-- [ ] review the release plan with your team.
-- [ ] review the plan with your OCTO representative.
-- [ ] Finalize the release date
+- [x] review the release plan with your team.
+- [x] review the plan with your OCTO representative.
+- [x] Finalize the release date
 
-**Verdict:**
+**Verdict: Go**
 
-## Release Details (Pending in January)
+## Release Details (TBD)
 
 - [ ] Enable in Production to 100% of users
 - [ ] Confirm the release to Production, with a test user
@@ -59,7 +61,6 @@ While we cannot think of any events that would be critical enough to merit a rol
 
 ### 1-Week Results Post-Launch 
 
-No issues reported from our representative users.
 
 ### 1-Month Results Post Launch
 
