@@ -92,7 +92,7 @@ First, I’d like you to walk through the Console as you normally would today.
 
 For the purposes of this exercise, we're curious about how we might enhance the Console Patient Details and we want to know what CDS data from other CDS applications might best support your clinical decision making.
 
-## First Task: [Navigation to Console] - 1 minute
+## First Task: Navigation to Console - 1 minute
 
 - [ ] For the purposes of this exercise, please open the Console through CPRS, select a patient, and walk through the Console as you normally would. Please do not refer to patient names while sharing your screen. As you navigate to the Console, imagine you’re seeing this patient for a routine visit.
 - [ ] What are your initial impressions of the homepage (CDS applications)?
@@ -103,7 +103,7 @@ For the purposes of this exercise, we're curious about how we might enhance the 
 > - Pain points
 > - Findability
 
-## Second Task: [Navigation to Patient Details] - 4 minutes
+## Second Task: Navigation to Patient Details - 4 minutes
 
 - [ ] Now, please navigate to where you would expect to access clinical information within the Console.
 - [ ] How easy or difficult was it to locate?
@@ -115,7 +115,7 @@ For the purposes of this exercise, we're curious about how we might enhance the 
 > - Pain points
 > - Findability
 
-## Third Task: [Labs and Vitals] - 2 minutes
+## Third Task: Labs and Vitals - 2 minutes
 
 - [ ] Review Labs and Vitals
 - [ ] What are your initial impressions?
@@ -129,7 +129,7 @@ For the purposes of this exercise, we're curious about how we might enhance the 
 > - What's missing?
 > - What's useful?
 
-## Fourth Task: [Key Conditions] - 2 minutes
+## Fourth Task: Key Conditions - 2 minutes
 
 - [ ] Review Labs and Vitals
 - [ ] What are your initial impressions?
@@ -143,7 +143,7 @@ For the purposes of this exercise, we're curious about how we might enhance the 
 > - What's missing?
 > - What's useful?
 
-## Fifth Task: [Medications] - 2 minutes
+## Fifth Task: Medications - 2 minutes
 
 - [ ] Review Medications
 - [ ] What are your initial impressions?
@@ -208,28 +208,25 @@ I’ll share the prototype link in the chat, have you pull that up on your scree
 ### Scenario
 Imagine that you are seeing one of your patients as part of a routine visit. As this is a patient you are familiar with, you know she is in her late 50s, has major depression, hypertension, and obesity. As such, you continue to monitor specific labs and vitals closely to determine if additional interventions are needed. During the encounter, you open up the CDS Console and arrive here. [*You are currently with the patient.]
 
-### Scenario
-Imagine that you are seeing one of your patients as part of a routine visit. As this is a patient you are familiar with, you know she is in her late 50s, has major depression, hypertension, and obesity. As such, you continue to monitor specific labs and vitals closely to determine if additional interventions are needed. During the encounter, you open up the CDS Console and arrive here. [*You are currently with the patient.]
-
-## First Task: [Labs and Vitals] - 2 minutes
+## First Task: Labs and Vitals - 2 minutes
 - [ ] Review Labs and Vitals
 - [ ] What are your initial impressions?
 - [ ] What is missing, if anything?
 - [ ] What information would you expect or like to see?
 - [ ] What actions would you want to take from here?
 
-## Second Task: [Key Conditions] - 2 minutes
+## Second Task: Key Conditions - 2 minutes
 - [ ] What are your initial impressions?
 - [ ] What information/data would you expect to see?
 - [ ] What would you do next to care for this patient?
 - [ ] What might you expect to find if you clicked 'care pathways'?
 
-## Third Task: [Key Medications] - 2 minutes
+## Third Task: Key Medications - 2 minutes
 - [ ] What are your initial impressions?
 - [ ] What information/data would you expect to see?
 - [ ] What order do you expect to see the medications in (alphabetical, fill date ascending or descending, grouped by class, etc)?
 
-## Fourth Task: [Medical Calcualtors] - 2 minutes
+## Fourth Task: Medical Calcualtors - 2 minutes
 
 Medcalc Tile
 - [ ] What are your initial impressions?
@@ -239,12 +236,12 @@ Medcalc Tile
 ASCVD Detail
 - [ ] Imagine that based on this score and the patient's high LDL you and your patient decide it's best to start on a statin. However, given your patient is on other medications that impact blood sugar, you want to monitor them closely and see them back in 2 months. Walk me through how you find an appointment slot that works for you and the patient.
 
-## Fifth Task: [My Workweek] - 2 minutes
+## Fifth Task: My Workweek - 2 minutes
 - [ ] What are your initial impressions?
 - [ ] What information/data would you expect to see? What information and details are relevant regarding past appointments, how many past appointments would you expect to see, and why? For upcoming appointments, past?
 - [ ] Imagine now you want to remind yourself to get your patient in for labs every 2 weeks. Walk me through how you would do this.
 
-## Sixth Task: [Task Manager] - 2 minutes
+## Sixth Task: Task Manager - 2 minutes
 - [ ] What are your initial impressions?
 - [ ] What information/data would you expect to see, related to tasks?
 - [ ] Would you expect to be able to add a task? Why, why not?

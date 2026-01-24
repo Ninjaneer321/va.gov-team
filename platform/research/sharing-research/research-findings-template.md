@@ -179,6 +179,8 @@ synthesis_tools_used:
 > Write findings as stand-alone insights that are easy to scan. For example:  
 > - "Most participants used the search field to locate forms, often searching for 'veteran health.'"  
 > - "Participants struggled with the secondary caregiver section on the form."  
+> 
+> **After completing your detailed findings below, you'll add metadata labels using the [Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md).**  
 
 [Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
 
@@ -193,6 +195,10 @@ synthesis_tools_used:
 ## Details of Findings 
 
 *Provide detailed descriptions and supporting evidence for each key finding.*  
+
+> [!TIP]
+> **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
+> Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
 ### Finding 1
 Brief description  
@@ -382,7 +388,7 @@ Disability and Assistive Technology (AT):
 
 #### Underserved groups we haven’t talked to 
 > [!NOTE]
-_Complete the [VA recruitment checker for marginalized Veteran groups](https://docs.google.com/spreadsheets/d/1pq7TSHZonfpzAQBJj6B2geGHlNUwZEs4DzEvxcRgu0o/edit#gid=1221033726):_
+_Complete the [VA recruitment checker for marginalized Veteran groups](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx):_
 > 1. Duplicate the ***Template*** worksheet
 > 1. Enter your participant information **(see the *Template Instructions* worksheet for details)**
 > 1. Make a screenshot of the cells that you want to share and paste it into this report below
