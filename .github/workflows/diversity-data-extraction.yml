@@ -216,6 +216,75 @@ jobs:
               return result;
             };
             
+            // AT-related keys in demographics.disability that indicate AT usage
+            const AT_DISABILITY_KEYS = [
+              'AT_beginner',
+              'AT_advanced',
+              'screen_reader_desktop',
+              'screen_reader_mobile',
+              'magnification_zoom',
+              'speech_input',
+              'hearing_aids',
+              'sighted_keyboard',
+              'captions'
+            ];
+            
+            // Helper to calculate AT participants from disability data
+            const calculateATParticipants = (disabilityData) => {
+              if (!disabilityData || typeof disabilityData !== 'object') {
+                return 0;
+              }
+              
+              // Get the maximum value among AT-related fields
+              // (since a participant might be counted in multiple categories)
+              // We use the sum of AT_beginner + AT_advanced as the primary count if available,
+              // otherwise fall back to the max of individual AT types
+              const atBeginner = toInt(disabilityData.AT_beginner);
+              const atAdvanced = toInt(disabilityData.AT_advanced);
+              
+              if (atBeginner > 0 || atAdvanced > 0) {
+                return atBeginner + atAdvanced;
+              }
+              
+              // Fall back to max of specific AT types
+              let maxAT = 0;
+              for (const key of AT_DISABILITY_KEYS) {
+                const value = toInt(disabilityData[key]);
+                if (value > maxAT) {
+                  maxAT = value;
+                }
+              }
+              
+              return maxAT;
+            };
+            
+            // Helper to check if a study has any AT participants
+            const hasATParticipants = (record) => {
+              // Check devices_used.assistive_technology
+              const deviceAT = toInt(record.devices_used?.assistive_technology);
+              if (deviceAT > 0) return true;
+              
+              // Check demographics.disability for AT-related fields
+              const disabilityData = record.demographics?.disability;
+              if (disabilityData) {
+                for (const key of AT_DISABILITY_KEYS) {
+                  if (toInt(disabilityData[key]) > 0) return true;
+                }
+              }
+              
+              return false;
+            };
+            
+            // Helper to get total AT participants from a record
+            const getATParticipantCount = (record) => {
+              // First check devices_used.assistive_technology
+              const deviceAT = toInt(record.devices_used?.assistive_technology);
+              if (deviceAT > 0) return deviceAT;
+              
+              // Otherwise calculate from disability data
+              return calculateATParticipants(record.demographics?.disability);
+            };
+            
             // ============================================
             // QUARTER CALCULATION
             // ============================================
@@ -230,25 +299,17 @@ jobs:
                 quarter = parseInt(inputQuarter.substring(6));
               } else {
                 // Auto-detect: determine which quarter just ended
-                // If running on Jan 1, we're reporting on Q4 of previous year
-                // If running on Apr 1, we're reporting on Q1
-                // If running on Jul 1, we're reporting on Q2
-                // If running on Oct 1, we're reporting on Q3
                 const month = now.getMonth(); // 0-indexed
                 year = now.getFullYear();
                 
                 if (month >= 0 && month < 3) {
-                  // January-March: report on Q4 of previous year
                   quarter = 4;
                   year = year - 1;
                 } else if (month >= 3 && month < 6) {
-                  // April-June: report on Q1
                   quarter = 1;
                 } else if (month >= 6 && month < 9) {
-                  // July-September: report on Q2
                   quarter = 2;
                 } else {
-                  // October-December: report on Q3
                   quarter = 3;
                 }
               }
@@ -335,8 +396,6 @@ jobs:
                 // For non-first runs, check if file was modified within the quarter
                 if (!fullScan && !isFirstRun && fileModDate) {
                   if (fileModDate < quarterInfo.startDate || fileModDate > quarterInfo.endDate) {
-                    // File wasn't modified this quarter and wasn't in manifest
-                    // This means it's a new file from a previous quarter - skip it
                     if (fileModDate < quarterInfo.startDate) {
                       skippedFiles.push({ file, reason: 'File predates current quarter and not previously processed' });
                       continue;
@@ -513,10 +572,10 @@ jobs:
                 }
               }
               
-              const atCount = toInt(deviceData.assistive_technology || 0);
-              if (atCount > 0) {
+              // AT inclusion tracking - check BOTH devices_used AND demographics.disability
+              if (hasATParticipants(record)) {
                 aggregated.at_inclusion.studies_with_at++;
-                aggregated.at_inclusion.total_at_participants += atCount;
+                aggregated.at_inclusion.total_at_participants += getATParticipantCount(record);
               }
               
               const ageData = safeExtractObject(record.demographics?.age);
@@ -563,6 +622,12 @@ jobs:
                   aggregated.disability[key] = toInt(value);
                 }
               }
+            }
+            
+            // Also update devices.assistive_technology from disability data if it's 0
+            // This ensures consistency between the two sections
+            if (aggregated.devices.assistive_technology === 0) {
+              aggregated.devices.assistive_technology = aggregated.at_inclusion.total_at_participants;
             }
             
             // Calculate rates
