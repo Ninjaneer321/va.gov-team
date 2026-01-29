@@ -1,18 +1,20 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+title: "Conversation Guide for VA Mobile App Team, Debt Portal (Overpayments UAT), 2026-01-29"
+author:  "Emily DeWan"
+date_created:  "2026-01-29"
+last_modified: "2026-01-29"
+tags: 
+  - "AUD: Veterans"
+  - "PRDT: Debt-portal"
+  - "HDW: Smartphone"
+  - "DSP: Content Presentation"
+  - "DSC: Button"
+  - "DSC: Links"
+  - "moderated"
+  - "uat"
+description: "A moderated UAT conversation guide for testing the VA mobile app’s Debt Portal overpayment experience, validating that key screens, navigation, and actions display and behave correctly in a pre-release build."
 ---
 
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've filled out your conversation guide below.**
-> 
-> Use the [GitHub Copilot Conversation Guide Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed conversation guide.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags based on your tasks and research objectives.
 
 # Conversation Guide for UAT Overpayments on Mobile App
 
