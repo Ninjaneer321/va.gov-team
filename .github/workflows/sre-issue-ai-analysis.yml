@@ -1,13 +1,9 @@
 name: SRE Issue AI Analysis
 
 on:
-  issues:
-    types: [labeled, opened]
-workflow_dispatch: # for manual testing
+  workflow_dispatch: 
 jobs:
   analyze-issue:
-    # Only run for issues with the platform-sre-team label
-    if: contains(github.event.issue.labels.*.name, 'platform-sre-team')
     runs-on: ubuntu-latest
     permissions:
       issues: write
