@@ -2,7 +2,7 @@ VES + VA.gov Sync
 
 ## Meeting date: 01.29.26
 
-# OHI Ingestion + Linking Scenarios (VES / 1010D)
+## OHI Ingestion + Linking Scenarios (VES / 1010D)
 
 ## Main question
 How should OHI be ingested/handled in VES when:
