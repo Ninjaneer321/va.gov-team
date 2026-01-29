@@ -365,17 +365,18 @@ We would like a kick-off call with Perigean to discuss recruitment criteria.
 
 - `Suggested dates and times:` 
 
-- **01/28, Wednesday, 1:30pm-2:30pm ET**
-- **01/29, Friday, 12:30pm-2:30pm ET**
+- **01/29, Thursday, 12:30pm-2:30pm ET**
 - **01/30, Friday, 12:00pm-5:00pm ET**
+- **02/02, Monday, 12:00pm-4:00pm ET**
+- **02/03, Tuesday, 12:00pm-5:00pm ET**
 
 ### Prepare
 
-- `Pilot participant name:` **[TBD]**
-- `Date and time of pilot session:` **[TBD]** 
+- `Pilot participant name:` Heather R.
+- `Date and time of pilot session:` 02/02, Monday 4:00pm ET
 
 ### Research sessions
-- `Planned dates of research:` **[Feb 9, 2026 - Feb 20, 2026]**
+- `Planned dates of research:` **[Feb 5, 2026 - Feb 23, 2026]**
 
 ### Length of sessions
 - `Session length:` **[60 minutes]**
@@ -414,5 +415,5 @@ We would like a kick-off call with Perigean to discuss recruitment criteria.
 - **[Enter full name]**
 
 ## Approvals ✅
-- `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
-- `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
+- `Reviewed by [Amanda Klausmeier, UX Team Lead] on [01-27-2026]`
+- `Reviewed by OCTO Research-Ops Lead on [01-28-2026]`
