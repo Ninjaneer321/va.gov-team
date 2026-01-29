@@ -47,22 +47,22 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 ## Sprint: 26 [01/14/26 - 01/27/26]  
 | Sprint Goal | Goal P  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Define the scope and feasibility of recurring payments for Pay.gov Overpayments. | P2 |--|--|--|
-|UX: Complete the confirmation page/Email content and layout for Pay.gov Overpayments. | P2 |--|--|--|
-|UX: Complete Pay.gov Overpayments usability study discussion guide and submit for review and approval. | P2 |--|--|--|
-|ENG: Complete the post-launch code cleanup and close the Digital Dispute ENG Epic and Super Epic.| PX |--|--|--|
-|ENG: Implement DataDog metrics for Payment History.| P1 |--|--|--|
-|ENG: Complete and verify the 3 separate API calls that Back End provides to Front End to properly segment and display the data for Payment History.| P1 |--|--|--|
-|ENG: Complete 5 maintenance & prioritized maintenance tickets related to any bugs and code reliability. | P4 |--|--|--|
+|UX: Define the scope and feasibility of recurring payments for Pay.gov Overpayments. | P2 |--|1/28/26|Complete|
+|UX: Complete the confirmation page/Email content and layout for Pay.gov Overpayments. | P2 |--|1/28/26|Complete|
+|UX: Complete Pay.gov Overpayments usability study discussion guide and submit for review and approval. | P2 |--|1/28/26|Complete|
+|ENG: Complete the post-launch code cleanup and close the Digital Dispute ENG Epic and Super Epic.| PX |--|1/28/26|Complete|
+|ENG: Implement DataDog metrics for Payment History.| P1 |--|1/28/26|Complete|
+|ENG: Complete and verify the 3 separate API calls that Back End provides to Front End to properly segment and display the data for Payment History.| P1 |--|1/28/26|Complete|
+|ENG: Complete 5 maintenance & prioritized maintenance tickets related to any bugs and code reliability. | P4 |--|1/28/26|Complete|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (01/13/26)
  - [X] VA PO & COR sent the Sprint Goals (01/13/26)
  - [X] VA PO approved the Sprint Goals (01/13/26)
- - [ ] VA COR approved the Sprint Goals (01/13/26)
+ - [X] VA COR approved the Sprint Goals (01/13/26)
  
 **_Delivery + Notes:_**
-- [ ] All goals have been updated in the sprint chart
+- [X] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
 
 
