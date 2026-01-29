@@ -19,6 +19,9 @@ Update the banner on Drupal CMS [here](https://prod.cms.va.gov/admin/content/sit
 We are asking for your feedback on Drupal CMS through the Drupal CMS biannual survey. Please provide survey feedback by [insert date]. We value your feedback and use it to inform improvements we make to Drupal CMS. You may read more about our feedback-driven updates on the [CMS Announcements Page](https://prod.cms.va.gov/help/cms-announcements).
 
 #### Email Sent to Editors about Survey
+Admins only.
+Under the People tab, download a csv of all active users. Send out emails in chunks of 250 recipients (Outlook does not allow for unlimited recipients). If there are any bounceback emails that note that a recipient no longer works at VA, set their status to "Inactive" in Drupal.
+
 Sender: VA CMS email address (vadrupalcms@va.gov)
 
 Title: The Drupal Content Management System (CMS) biannual Survey
