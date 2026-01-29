@@ -63,7 +63,7 @@ recruitment:
     - question: "[Screener Cohort 1: Do you have a spouse or dependent children?]"
       qualifying_response: "[Yes]"
     - question: "[Screener Cohort 1: Is your spouse and/or dependents enrolled in the Civilian Health and Medical Program of the Department of Veterans Affairs?]"
-      qualifying_response: "[Yes, Unsure]"
+      qualifying_response: "[No, Unsure]"
     - question: "[Screener Cohort 2: Please select the answer that best fits you: Response options: Spouse of a Veteran, Dependent child of a Veteran]"
       qualifying_response: "[Spouse of a Veteran, Dependent child of a Veteran]"
     - question: "[Screener Cohort 2: Does the Veteran you are related to get a VA disability compensation for a service-connected disability rating of 100%?]"
