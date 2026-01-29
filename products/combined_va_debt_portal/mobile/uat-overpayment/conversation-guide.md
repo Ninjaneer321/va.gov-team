@@ -14,9 +14,12 @@ description: "A template for moderating research sessions including logistics, i
 > 
 > Use the [GitHub Copilot Conversation Guide Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed conversation guide.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags based on your tasks and research objectives.
 
-# Conversation Guide for [initiative]
+# Conversation Guide for UAT Overpayments on Mobile App
 
 ## Moderator logistics 📋✅
+
+<details><summary>steps</summary>
+
 ### 2-3 days before the session
 
 > [!NOTE]
@@ -42,6 +45,9 @@ description: "A template for moderating research sessions including logistics, i
 > - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
 > - Check your [screensharing setup] and share permissions for participants.
 > - When the participant is ready, begin the session with the following intro*
+
+</details>
+
 
 ## Intro - 5 minutes
 
