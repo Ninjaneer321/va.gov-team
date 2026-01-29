@@ -1,4 +1,4 @@
-# CDS Research Operations (WORK IN PROGRESS 1/6/2025)
+# CDS Research Operations
 
 
 **Jump to:**
