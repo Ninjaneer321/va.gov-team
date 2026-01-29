@@ -13,18 +13,15 @@ const { execSync } = require('child_process');
 // CONFIGURATION AND HELPERS
 // ============================================
 
-// Helper function to safely parse integers
 const toInt = (value) => {
   const parsed = parseInt(value, 10);
   return isNaN(parsed) ? 0 : parsed;
 };
 
-// Helper function to encode file path for URLs
 const encodeFilePath = (filePath) => {
   return filePath.split('/').map(segment => encodeURIComponent(segment)).join('/');
 };
 
-// Helper function to check if a value is a placeholder/template value
 const isPlaceholder = (value) => {
   if (!value || typeof value !== 'string') return true;
   const placeholders = [
@@ -35,7 +32,6 @@ const isPlaceholder = (value) => {
   return placeholders.some(p => value.includes(p));
 };
 
-// Helper function to check if a key is valid (not numeric index or rate)
 const isValidDemographicKey = (key) => {
   if (/^\d+$/.test(key)) return false;
   if (key.endsWith('_rate')) return false;
@@ -43,7 +39,6 @@ const isValidDemographicKey = (key) => {
   return true;
 };
 
-// Helper function to validate and parse date
 const parseDate = (dateStr) => {
   if (!dateStr || dateStr === 'unknown' || isPlaceholder(dateStr)) {
     return null;
@@ -59,14 +54,12 @@ const parseDate = (dateStr) => {
   return null;
 };
 
-// Helper function to format date for display
 const formatDate = (dateStr) => {
   const parsed = parseDate(dateStr);
   if (!parsed) return null;
   return parsed.toISOString().split('T')[0];
 };
 
-// Helper function to check if frontmatter has real data
 const hasCompletedData = (frontMatter) => {
   const hasValidDate = frontMatter.date && !isPlaceholder(frontMatter.date) && parseDate(frontMatter.date) !== null;
   const hasParticipants = toInt(frontMatter.participants_total) > 0;
@@ -80,7 +73,6 @@ const hasCompletedData = (frontMatter) => {
   return hasValidDate || hasParticipants;
 };
 
-// Helper to format label for display
 const formatLabel = (key) => {
   return key
     .replace(/_/g, ' ')
@@ -91,7 +83,6 @@ const formatLabel = (key) => {
     .replace(/ Va /gi, ' VA ');
 };
 
-// Helper to safely extract object data
 const safeExtractObject = (data) => {
   if (!data || typeof data !== 'object' || Array.isArray(data)) {
     return {};
@@ -110,7 +101,6 @@ const safeExtractObject = (data) => {
   return result;
 };
 
-// AT-related keys in demographics.disability that indicate AT usage
 const AT_DISABILITY_KEYS = [
   'AT_beginner',
   'AT_advanced',
@@ -123,7 +113,6 @@ const AT_DISABILITY_KEYS = [
   'captions'
 ];
 
-// Helper to calculate AT participants from disability data
 const calculateATParticipants = (disabilityData) => {
   if (!disabilityData || typeof disabilityData !== 'object') {
     return 0;
@@ -147,7 +136,6 @@ const calculateATParticipants = (disabilityData) => {
   return maxAT;
 };
 
-// Helper to check if a study has any AT participants
 const hasATParticipants = (record) => {
   const deviceAT = toInt(record.devices_used?.assistive_technology);
   if (deviceAT > 0) return true;
@@ -162,12 +150,88 @@ const hasATParticipants = (record) => {
   return false;
 };
 
-// Helper to get total AT participants from a record
 const getATParticipantCount = (record) => {
   const deviceAT = toInt(record.devices_used?.assistive_technology);
   if (deviceAT > 0) return deviceAT;
 
   return calculateATParticipants(record.demographics?.disability);
+};
+
+// ============================================
+// VISUALIZATION HELPERS
+// ============================================
+
+// Create a horizontal bar using Unicode blocks
+const createBar = (value, maxValue, barWidth = 20) => {
+  if (maxValue === 0) return '░'.repeat(barWidth);
+  const filledWidth = Math.round((value / maxValue) * barWidth);
+  const emptyWidth = barWidth - filledWidth;
+  return '█'.repeat(filledWidth) + '░'.repeat(emptyWidth);
+};
+
+// Create a percentage bar with label
+const createPercentageBar = (value, total, barWidth = 15) => {
+  if (total === 0) return { bar: '░'.repeat(barWidth), percent: '0.0%' };
+  const percent = ((value / total) * 100).toFixed(1);
+  const filledWidth = Math.round((value / total) * barWidth);
+  const emptyWidth = barWidth - filledWidth;
+  return {
+    bar: '█'.repeat(filledWidth) + '░'.repeat(emptyWidth),
+    percent: `${percent}%`
+  };
+};
+
+// Generate a table row
+const tableRow = (cells, widths) => {
+  return '| ' + cells.map((cell, i) => {
+    const width = widths[i] || 10;
+    const str = String(cell);
+    return str.padEnd(width);
+  }).join(' | ') + ' |';
+};
+
+// Generate table separator
+const tableSeparator = (widths) => {
+  return '|' + widths.map(w => '-'.repeat(w + 2)).join('|') + '|';
+};
+
+// Generate a simple data table
+const generateTable = (headers, rows, widths) => {
+  const lines = [];
+  lines.push(tableRow(headers, widths));
+  lines.push(tableSeparator(widths));
+  for (const row of rows) {
+    lines.push(tableRow(row, widths));
+  }
+  return lines.join('\n');
+};
+
+// Generate Mermaid pie chart
+const generatePieChart = (title, data) => {
+  const lines = ['```mermaid', `pie showData title ${title}`];
+  for (const [label, value] of Object.entries(data)) {
+    if (value > 0 && isValidDemographicKey(label)) {
+      lines.push(`    "${formatLabel(label)}" : ${value}`);
+    }
+  }
+  lines.push('```');
+  return lines.join('\n');
+};
+
+// Generate Mermaid bar chart (using xychart)
+const generateBarChart = (title, data, xLabel = '', yLabel = 'Count') => {
+  const entries = Object.entries(data).filter(([k, v]) => isValidDemographicKey(k) && v >= 0);
+  if (entries.length === 0) return '';
+  
+  const lines = [
+    '```mermaid',
+    'xychart-beta horizontal',
+    `    title "${title}"`,
+    `    x-axis [${entries.map(([k]) => `"${formatLabel(k)}"`).join(', ')}]`,
+    `    bar [${entries.map(([, v]) => v).join(', ')}]`,
+    '```'
+  ];
+  return lines.join('\n');
 };
 
 // ============================================
@@ -210,7 +274,6 @@ const getQuarterInfo = (inputQuarter) => {
   };
 };
 
-// Get file's last modified date from git
 const getFileModifiedDate = (filePath) => {
   try {
     const result = execSync(`git log -1 --format="%aI" -- "${filePath}"`, { encoding: 'utf8' }).trim();
@@ -218,6 +281,254 @@ const getFileModifiedDate = (filePath) => {
   } catch (err) {
     return null;
   }
+};
+
+// ============================================
+// SUMMARY GENERATION
+// ============================================
+
+const generateSummary = (aggregated, quarterInfo, isFirstRun, newlyProcessedFiles, skippedFiles, allDemographics) => {
+  const lines = [];
+  
+  // Header
+  lines.push('# 📊 Diversity Data Extraction Summary');
+  lines.push('');
+  lines.push(`> **Quarter:** ${quarterInfo.label} | **Period:** ${quarterInfo.startDate.toISOString().split('T')[0]} to ${quarterInfo.endDate.toISOString().split('T')[0]}`);
+  lines.push(`> **Generated:** ${aggregated.extraction_date}`);
+  if (isFirstRun) {
+    lines.push('> ⚠️ **Note:** This is the baseline report including all historical data.');
+  }
+  lines.push('');
+
+  // Quick Stats Cards (using table for alignment)
+  lines.push('## 📈 Quick Stats');
+  lines.push('');
+  lines.push('| Metric | Value |');
+  lines.push('|--------|-------|');
+  lines.push(`| 📚 **Total Studies** | ${aggregated.total_studies} |`);
+  lines.push(`| 👥 **Total Participants** | ${aggregated.total_participants} |`);
+  lines.push(`| ♿ **AT Inclusion Rate** | ${aggregated.at_inclusion.studies_with_at}/${aggregated.total_studies} studies (${aggregated.total_studies > 0 ? ((aggregated.at_inclusion.studies_with_at / aggregated.total_studies) * 100).toFixed(1) : 0}%) |`);
+  lines.push(`| 📁 **Files Processed** | ${newlyProcessedFiles.length} new, ${skippedFiles.length} skipped |`);
+  lines.push('');
+
+  // Participant Types - Pie Chart
+  lines.push('---');
+  lines.push('## 👥 Participant Types');
+  lines.push('');
+  
+  const participantTotal = Object.values(aggregated.participant_types).reduce((a, b) => a + b, 0);
+  if (participantTotal > 0) {
+    lines.push(generatePieChart('Participant Types', aggregated.participant_types));
+    lines.push('');
+  }
+  
+  // Participant types table
+  lines.push('<details>');
+  lines.push('<summary>View detailed breakdown</summary>');
+  lines.push('');
+  lines.push('| Type | Count | Percentage | Distribution |');
+  lines.push('|------|------:|------------|--------------|');
+  for (const [key, value] of Object.entries(aggregated.participant_types)) {
+    if (isValidDemographicKey(key)) {
+      const { bar, percent } = createPercentageBar(value, participantTotal);
+      lines.push(`| ${formatLabel(key)} | ${value} | ${percent} | ${bar} |`);
+    }
+  }
+  lines.push('');
+  lines.push('</details>');
+  lines.push('');
+
+  // Devices Used - Bar Chart
+  lines.push('---');
+  lines.push('## 💻 Devices Used');
+  lines.push('');
+  lines.push(generateBarChart('Devices Used in Research', aggregated.devices));
+  lines.push('');
+  
+  const deviceTotal = Object.values(aggregated.devices).reduce((a, b) => a + b, 0);
+  lines.push('| Device | Count | Percentage | Distribution |');
+  lines.push('|--------|------:|------------|--------------|');
+  for (const [key, value] of Object.entries(aggregated.devices)) {
+    if (isValidDemographicKey(key)) {
+      const { bar, percent } = createPercentageBar(value, deviceTotal);
+      lines.push(`| ${formatLabel(key)} | ${value} | ${percent} | ${bar} |`);
+    }
+  }
+  lines.push('');
+
+  // AT Inclusion Section
+  lines.push('---');
+  lines.push('## ♿ Assistive Technology Inclusion');
+  lines.push('');
+  
+  const atRate = aggregated.total_studies > 0 
+    ? ((aggregated.at_inclusion.studies_with_at / aggregated.total_studies) * 100).toFixed(1) 
+    : 0;
+  
+  // AT Summary box
+  lines.push('| Metric | Value |');
+  lines.push('|--------|-------|');
+  lines.push(`| Studies with AT Users | **${aggregated.at_inclusion.studies_with_at}** of ${aggregated.total_studies} (${atRate}%) |`);
+  lines.push(`| Total AT Participants | **${aggregated.at_inclusion.total_at_participants}** |`);
+  lines.push('');
+
+  // AT Details breakdown
+  const atDetails = {};
+  for (const key of AT_DISABILITY_KEYS) {
+    if (aggregated.disability[key] > 0) {
+      atDetails[key] = aggregated.disability[key];
+    }
+  }
+  
+  if (Object.keys(atDetails).length > 0) {
+    lines.push('### AT Types Used');
+    lines.push('');
+    lines.push(generateBarChart('Assistive Technology Types', atDetails));
+    lines.push('');
+  }
+
+  // Age Distribution
+  lines.push('---');
+  lines.push('## 📅 Age Distribution');
+  lines.push('');
+  lines.push(generatePieChart('Age Groups', aggregated.age));
+  lines.push('');
+  
+  const ageTotal = Object.values(aggregated.age).reduce((a, b) => a + b, 0);
+  lines.push('<details>');
+  lines.push('<summary>View detailed breakdown</summary>');
+  lines.push('');
+  lines.push('| Age Group | Count | Percentage | Distribution |');
+  lines.push('|-----------|------:|------------|--------------|');
+  for (const [key, value] of Object.entries(aggregated.age)) {
+    if (isValidDemographicKey(key)) {
+      const { bar, percent } = createPercentageBar(value, ageTotal);
+      lines.push(`| ${key} | ${value} | ${percent} | ${bar} |`);
+    }
+  }
+  lines.push('');
+  lines.push('</details>');
+  lines.push('');
+
+  // Education Levels
+  lines.push('---');
+  lines.push('## 🎓 Education Levels');
+  lines.push('');
+  lines.push(generateBarChart('Education Distribution', aggregated.education));
+  lines.push('');
+  
+  const eduTotal = Object.values(aggregated.education).reduce((a, b) => a + b, 0);
+  lines.push('<details>');
+  lines.push('<summary>View detailed breakdown</summary>');
+  lines.push('');
+  lines.push('| Education Level | Count | Percentage | Distribution |');
+  lines.push('|-----------------|------:|------------|--------------|');
+  for (const [key, value] of Object.entries(aggregated.education)) {
+    if (isValidDemographicKey(key)) {
+      const { bar, percent } = createPercentageBar(value, eduTotal);
+      lines.push(`| ${formatLabel(key)} | ${value} | ${percent} | ${bar} |`);
+    }
+  }
+  lines.push('');
+  lines.push('</details>');
+  lines.push('');
+
+  // Geographic Location
+  lines.push('---');
+  lines.push('## 🗺️ Geographic Location');
+  lines.push('');
+  
+  const locationTotal = aggregated.location.rural + aggregated.location.urban + (aggregated.location.unknown || 0);
+  
+  // Visual comparison
+  const ruralBar = createPercentageBar(aggregated.location.rural, locationTotal, 20);
+  const urbanBar = createPercentageBar(aggregated.location.urban, locationTotal, 20);
+  
+  lines.push('| Location | Count | Percentage | Distribution |');
+  lines.push('|----------|------:|------------|--------------|');
+  lines.push(`| 🏙️ Urban | ${aggregated.location.urban} | ${urbanBar.percent} | ${urbanBar.bar} |`);
+  lines.push(`| 🌾 Rural | ${aggregated.location.rural} | ${ruralBar.percent} | ${ruralBar.bar} |`);
+  if (aggregated.location.unknown > 0) {
+    const unknownBar = createPercentageBar(aggregated.location.unknown, locationTotal, 20);
+    lines.push(`| ❓ Unknown | ${aggregated.location.unknown} | ${unknownBar.percent} | ${unknownBar.bar} |`);
+  }
+  lines.push('');
+
+  // Race/Ethnicity
+  lines.push('---');
+  lines.push('## 🌍 Race/Ethnicity');
+  lines.push('');
+  lines.push(generatePieChart('Race/Ethnicity Distribution', aggregated.race));
+  lines.push('');
+  
+  const raceTotal = Object.values(aggregated.race).reduce((a, b) => a + b, 0);
+  lines.push('<details>');
+  lines.push('<summary>View detailed breakdown</summary>');
+  lines.push('');
+  lines.push('| Race/Ethnicity | Count | Percentage | Distribution |');
+  lines.push('|----------------|------:|------------|--------------|');
+  for (const [key, value] of Object.entries(aggregated.race)) {
+    if (isValidDemographicKey(key)) {
+      const { bar, percent } = createPercentageBar(value, raceTotal);
+      lines.push(`| ${formatLabel(key)} | ${value} | ${percent} | ${bar} |`);
+    }
+  }
+  lines.push('');
+  lines.push('</details>');
+  lines.push('');
+
+  // Disability & AT Details
+  lines.push('---');
+  lines.push('## ♿ Disability & Accessibility Details');
+  lines.push('');
+  
+  const disabilityTotal = Object.values(aggregated.disability).reduce((a, b) => a + b, 0);
+  if (disabilityTotal > 0) {
+    lines.push('| Category | Count | Distribution |');
+    lines.push('|----------|------:|--------------|');
+    for (const [key, value] of Object.entries(aggregated.disability)) {
+      if (isValidDemographicKey(key) && value > 0) {
+        const bar = createBar(value, Math.max(...Object.values(aggregated.disability)), 15);
+        lines.push(`| ${formatLabel(key)} | ${value} | ${bar} |`);
+      }
+    }
+    lines.push('');
+  } else {
+    lines.push('_No disability/accessibility data reported for this period._');
+    lines.push('');
+  }
+
+  // Studies Appendix
+  lines.push('---');
+  lines.push('## 📋 Appendix: Studies Included');
+  lines.push('');
+  lines.push(`<details>`);
+  lines.push(`<summary>View all ${allDemographics.length} studies</summary>`);
+  lines.push('');
+  lines.push('| Study | Date | Participants |');
+  lines.push('|-------|------|-------------:|');
+  
+  const sortedStudies = [...allDemographics].sort((a, b) => {
+    if (!a.date_parsed && !b.date_parsed) return 0;
+    if (!a.date_parsed) return 1;
+    if (!b.date_parsed) return -1;
+    return b.date_parsed - a.date_parsed;
+  });
+
+  for (const study of sortedStudies) {
+    const dateStr = study.date_formatted || 'N/A';
+    const title = study.title.length > 60 ? study.title.substring(0, 57) + '...' : study.title;
+    lines.push(`| [${title}](${study.file_url}) | ${dateStr} | ${study.participants_total} |`);
+  }
+  lines.push('');
+  lines.push('</details>');
+  lines.push('');
+
+  // Footer
+  lines.push('---');
+  lines.push(`_Report generated automatically by the [Diversity Data Extraction Workflow](https://github.com/department-of-veterans-affairs/va.gov-team/actions/workflows/diversity-data-extraction.yml)_`);
+
+  return lines.join('\n');
 };
 
 // ============================================
@@ -506,16 +817,6 @@ async function run(params) {
     aggregated.devices.assistive_technology = aggregated.at_inclusion.total_at_participants;
   }
 
-  // Calculate rates
-  let atInclusionRate = '0.0%';
-  if (aggregated.total_studies > 0) {
-    atInclusionRate = (
-      (aggregated.at_inclusion.studies_with_at / aggregated.total_studies) * 100
-    ).toFixed(1) + '%';
-  }
-
-  const locationTotal = aggregated.location.rural + aggregated.location.urban;
-
   // ============================================
   // UPDATE MANIFEST
   // ============================================
@@ -544,108 +845,8 @@ async function run(params) {
   core.setOutput('skipped_count', skippedFiles.length);
   core.setOutput('quarter_label', quarterInfo.label);
 
-  const summaryLines = [
-    '# Diversity Data Extraction Summary',
-    '',
-    `**Quarter:** ${quarterInfo.label}`,
-    `**Quarter Period:** ${quarterInfo.startDate.toISOString().split('T')[0]} to ${quarterInfo.endDate.toISOString().split('T')[0]}`,
-    `**Extraction Date:** ${aggregated.extraction_date}`,
-    isFirstRun ? '**Note:** This is the baseline report including all historical data.' : '',
-    '',
-    '## Overview',
-    '- **Total Studies:** ' + aggregated.total_studies,
-    '- **Total Participants:** ' + aggregated.total_participants,
-    '- **New Files Processed:** ' + newlyProcessedFiles.length,
-    '- **Files Skipped:** ' + skippedFiles.length,
-    '',
-    '---',
-    '',
-    '## Participant Types',
-    ''
-  ];
-
-  for (const [key, value] of Object.entries(aggregated.participant_types)) {
-    if (isValidDemographicKey(key)) {
-      summaryLines.push(`- **${formatLabel(key)}:** ${value}`);
-    }
-  }
-  summaryLines.push('');
-
-  summaryLines.push('## Devices Used', '');
-  for (const [key, value] of Object.entries(aggregated.devices)) {
-    if (isValidDemographicKey(key)) {
-      summaryLines.push(`- **${formatLabel(key)}:** ${value}`);
-    }
-  }
-  summaryLines.push('');
-
-  summaryLines.push('## Assistive Technology Inclusion', '');
-  summaryLines.push(`- **Studies with AT Users:** ${aggregated.at_inclusion.studies_with_at} (${atInclusionRate})`);
-  summaryLines.push(`- **Total AT Participants:** ${aggregated.at_inclusion.total_at_participants}`);
-  summaryLines.push('');
-
-  summaryLines.push('## Age Distribution', '');
-  for (const [key, value] of Object.entries(aggregated.age)) {
-    if (isValidDemographicKey(key)) {
-      summaryLines.push(`- **${key}:** ${value}`);
-    }
-  }
-  summaryLines.push('');
-
-  summaryLines.push('## Education Levels', '');
-  for (const [key, value] of Object.entries(aggregated.education)) {
-    if (isValidDemographicKey(key)) {
-      summaryLines.push(`- **${formatLabel(key)}:** ${value}`);
-    }
-  }
-  summaryLines.push('');
-
-  summaryLines.push('## Geographic Location', '');
-  for (const [key, value] of Object.entries(aggregated.location)) {
-    if (isValidDemographicKey(key)) {
-      let rateStr = '';
-      if ((key === 'rural' || key === 'urban') && locationTotal > 0) {
-        const rate = ((value / locationTotal) * 100).toFixed(1);
-        rateStr = ` (${rate}%)`;
-      }
-      summaryLines.push(`- **${formatLabel(key)}:** ${value}${rateStr}`);
-    }
-  }
-  summaryLines.push('');
-
-  summaryLines.push('## Race/Ethnicity', '');
-  for (const [key, value] of Object.entries(aggregated.race)) {
-    if (isValidDemographicKey(key)) {
-      summaryLines.push(`- **${formatLabel(key)}:** ${value}`);
-    }
-  }
-  summaryLines.push('');
-
-  summaryLines.push('## Disability & Assistive Technology Details', '');
-  for (const [key, value] of Object.entries(aggregated.disability)) {
-    if (isValidDemographicKey(key)) {
-      summaryLines.push(`- **${formatLabel(key)}:** ${value}`);
-    }
-  }
-  summaryLines.push('');
-
-  summaryLines.push('---', '');
-  summaryLines.push('## Appendix: Studies Included in This Report', '');
-
-  const sortedStudies = [...allDemographics].sort((a, b) => {
-    if (!a.date_parsed && !b.date_parsed) return 0;
-    if (!a.date_parsed) return 1;
-    if (!b.date_parsed) return -1;
-    return b.date_parsed - a.date_parsed;
-  });
-
-  for (const study of sortedStudies) {
-    const dateStr = study.date_formatted ? ` (${study.date_formatted})` : '';
-    const participantStr = study.participants_total > 0 ? ` - ${study.participants_total} participants` : '';
-    summaryLines.push(`- [${study.title}](${study.file_url})${dateStr}${participantStr}`);
-  }
-
-  const summary = summaryLines.join('\n');
+  // Generate the visual summary
+  const summary = generateSummary(aggregated, quarterInfo, isFirstRun, newlyProcessedFiles, skippedFiles, allDemographics);
 
   // Write files with quarter-based naming
   fs.writeFileSync(`diversity-summary-${quarterInfo.label}.md`, summary);
