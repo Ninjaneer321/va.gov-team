@@ -76,17 +76,32 @@ jobs:
           npm install js-yaml glob
       
       - name: Clone research repository for manifest
+        id: clone-repo
         env:
-          GH_TOKEN: ${{ secrets.RESEARCH_REPO_TOKEN }}
+          GH_TOKEN: ${{ secrets.WORKFLOWS_PERMISSIONS }}
         run: |
-          git clone https://x-access-token:${GH_TOKEN}@github.com/department-of-veterans-affairs/va.gov-research-repository.git research-repo
-          
-          # Create directory structure if it doesn't exist
+          # Create directory structure
           mkdir -p research-repo/reports/quarterly-reports/diversity-reports
+          
+          # Clone the research repository
+          echo "Cloning research repository..."
+          if git clone https://x-access-token:${GH_TOKEN}@github.com/department-of-veterans-affairs/va.gov-research-repository.git research-repo-temp; then
+            echo "Successfully cloned research repository"
+            rm -rf research-repo
+            mv research-repo-temp research-repo
+            echo "repo_cloned=true" >> $GITHUB_OUTPUT
+            
+            # Ensure directory structure exists
+            mkdir -p research-repo/reports/quarterly-reports/diversity-reports
+          else
+            echo "::error::Failed to clone research repository. Check that WORKFLOWS_PERMISSIONS token is valid."
+            exit 1
+          fi
           
           # Create empty manifest if it doesn't exist
           if [ ! -f "research-repo/reports/quarterly-reports/diversity-reports/processed-files.json" ]; then
             echo '{"processed_files": [], "last_updated": null, "quarters_processed": []}' > research-repo/reports/quarterly-reports/diversity-reports/processed-files.json
+            echo "Created new empty manifest"
           fi
       
       - name: Extract demographic data from findings
@@ -282,8 +297,9 @@ jobs:
             try {
               const manifestContent = fs.readFileSync(manifestPath, 'utf8');
               manifest = JSON.parse(manifestContent);
+              console.log(`Loaded manifest with ${manifest.processed_files.length} previously processed files`);
             } catch (err) {
-              console.log('No existing manifest found, starting fresh');
+              console.log('No existing manifest found or error reading it, starting fresh');
             }
             
             const isFirstRun = manifest.processed_files.length === 0;
@@ -576,7 +592,7 @@ jobs:
             };
             
             fs.writeFileSync(manifestPath, JSON.stringify(updatedManifest, null, 2));
-            console.log(`Updated manifest with ${newlyProcessedFiles.length} new files`);
+            console.log(`Updated manifest with ${newlyProcessedFiles.length} new files (total: ${updatedProcessedFiles.length})`);
             
             // ============================================
             // GENERATE SUMMARY
@@ -711,7 +727,7 @@ jobs:
       - name: Push reports to va.gov-research-repository
         if: ${{ github.event.inputs.dry_run != 'true' }}
         env:
-          GH_TOKEN: ${{ secrets.RESEARCH_REPO_TOKEN }}
+          GH_TOKEN: ${{ secrets.WORKFLOWS_PERMISSIONS }}
         run: |
           cd research-repo
           
@@ -720,6 +736,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
           QUARTER_LABEL="${{ steps.extract.outputs.quarter_label }}"
+          
+          # Ensure directory exists
+          mkdir -p reports/quarterly-reports/diversity-reports
           
           # Copy the generated reports with quarter-based names
           cp "../diversity-summary-${QUARTER_LABEL}.md" "reports/quarterly-reports/diversity-reports/diversity-summary-${QUARTER_LABEL}.md"
@@ -789,7 +808,8 @@ jobs:
           echo "::notice::DRY RUN - Reports were generated but NOT pushed to va.gov-research-repository"
           echo "## 🧪 Dry Run Mode" >> $GITHUB_STEP_SUMMARY
           echo "Reports were generated and uploaded as artifacts but **not pushed** to va.gov-research-repository." >> $GITHUB_STEP_SUMMARY
-          echo "Quarter: ${{ steps.extract.outputs.quarter_label }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Quarter:** ${{ steps.extract.outputs.quarter_label }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
       
       - name: Post summary
