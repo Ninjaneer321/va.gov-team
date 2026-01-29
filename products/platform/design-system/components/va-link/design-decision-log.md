@@ -33,9 +33,9 @@ We will
 - **Introduce a new `external-download` prop** for file links that must not interrupt an SPA page or form flow.
   - When `external-download` is used:
     - the link will open in a new tab `target="_blank"`,
-    - visible disclosure text "(opens in a new tab)" will be appended,
+    - visible disclosure text `(opens in a new tab)` will be appended,
     - the download icon will be used
-    - the `download` attribute will not be aplied
+    - the `download` attribute will not be applied
 - **Prevent prop overlap** by treating `download` and `external-download` as mutally exclusive
 
 These changes are backward-compatible. Existing implementations will continue to function without modification. Teams may opt into `external-download` when linking to files.
