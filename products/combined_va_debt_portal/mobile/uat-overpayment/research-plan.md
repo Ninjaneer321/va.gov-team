@@ -249,8 +249,8 @@ Pre-release app builds
 - for Android (Firebase) 🚧
 
 Directions on using pre-release app build
-- for iOS (TestFlight) 🚧
-- for Android (Firebase) 🚧
+- [for iOS (TestFlight)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md)
+- [for Android (Firebase)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_android.md)
 
 	
 ## Recruitment 🎯	
@@ -261,9 +261,6 @@ We would like Perigean to recruit Veterans with current overpayment debt who are
 
 
 ### Recruitment criteria
-
-> [!TIP]
-> Once order of questions is finalized, change to a numbered list
 
 Screener question 1
 * Do you **currently** owe any of the following types of VA debt? If so, please select all that apply.
