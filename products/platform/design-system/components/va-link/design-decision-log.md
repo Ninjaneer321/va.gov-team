@@ -3,11 +3,11 @@ Last updated: January 28, 2026
 
 This document outlines the key design decisions made for implementing  `va-link`. These Architecture Decision Records (ADRs) capture the context, decisions, and consequences of our design choices to ensure consistency and provide guidance for future development.
 
-- [ADR: 001 - Allow download icon and a file to open in a new tab](#ADR-001---Allow-download-icon-and-a-file-to-open-in-a-new-tab)
+- [ADR: 001 - Prevent file links from interrupting SPA and form flows](#ADR-001---Prevent-file-links-from-interrupting-SPA-and-form-flows)
 
 
 
-## ADR 001 - Allow download icon and a file to open in a new tab
+## ADR 001 - Prevent file links from interrupting SPA and form flows
 
 ### Status: Accepted
 - Date issue raised: 01/09/2026
