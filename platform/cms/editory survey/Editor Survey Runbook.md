@@ -11,7 +11,7 @@ When the survey is ready to be planned out and sent out, please refer to this [t
 Below are templates for the communication about the survey to editors. Each section should be reviewed and, if needed, updated before a new biannual survey is sent out. 
 
 #### Upcoming Survey Banner
-Upcoming! We will be asking for your feedback on Drupal CMS through the Drupal CMS biannual survey. The survey will become available on 02/02/2026. We value your feedback and use it to inform improvements we make to Drupal CMS. You may read more about our feedback-driven updates on the [CMS Announcements Page](https://prod.cms.va.gov/help/cms-announcements).
+Upcoming! We will be asking for your feedback on Drupal CMS through the Drupal CMS biannual survey. The survey will become available on [insert date]. We value your feedback and use it to inform improvements we make to Drupal CMS. You may read more about our feedback-driven updates on the [CMS Announcements Page](https://prod.cms.va.gov/help/cms-announcements).
 
 #### Survey Banner
 
