@@ -26,7 +26,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **_Approvals:_** _(sent via email but approvals tracked here)_
 
 ## Sprint: 1 [01/28/26 - 02/10/26]  
-| Sprint Goal | Goal P  | Reason if Not Complete | Update Date | End of Sprint Status |
+| Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
 |UX: Complete the final Pay.gov (Overpayments) research usability preparation steps before recruiting with Perigean and starting pilot sessions. | P2 |--|--|--|
 |UX: Finalize all in-scope designs for pay.gov overpayment MVP experience in preparation for engineering handover. | P2 |--|--|--|
@@ -47,7 +47,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 ## Sprint: 26 [01/14/26 - 01/27/26]
 <details>
     
-| Sprint Goal | Goal P  | Reason if Not Complete | Update Date | End of Sprint Status |
+| Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
 |UX: Define the scope and feasibility of recurring payments for Pay.gov Overpayments. | P2 |--|1/28/26|Complete|
 |UX: Complete the confirmation page/Email content and layout for Pay.gov Overpayments. | P2 |--|1/28/26|Complete|
