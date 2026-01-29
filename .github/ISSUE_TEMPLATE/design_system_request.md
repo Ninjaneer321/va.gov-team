@@ -27,6 +27,36 @@ https://design.va.gov/about/contributing-to-the-design-system/
   What did you expect to happen?
 -->
 
+## Reproducing
+
+- CSS Library version:
+- Device: (e.g. iPhone 8, Macbook)
+- Browser: (e.g. Firefox, IE 11)
+
+**URL(s) where this bug occurs**
+
+-
+-
+-
+
+
+**Steps to reproduce:**
+
+1.
+2.
+3.
+4.
+
+## Urgency
+
+How urgent is this request? Please select the appropriate option below and/or provide details
+
+- [ ] This bug is blocking work currently in progress
+- [ ] This bug is affecting work currently in progress but we have a workaround
+- [ ] This bug is blocking work planned within the next few sprints
+- [ ] This bug is not blocking any work
+- [ ] Other
+
 
 ## Additional Context
 <!--
