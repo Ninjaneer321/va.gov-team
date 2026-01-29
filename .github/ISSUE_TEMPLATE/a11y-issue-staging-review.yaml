@@ -1,5 +1,5 @@
-name: "Staging Review Accessibility Finding"
-description: "Create an accessibility issue ticket"
+name: "Accessibility Finding [Staging Review]"
+description: "Create an accessibility finding ticket"
 title: "Accessibility finding: [short description]"
 labels: ["a11y-testing"]
 assignees: []
