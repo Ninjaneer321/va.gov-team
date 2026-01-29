@@ -1,4 +1,4 @@
-# Initiative - Resources and Support search experience enhancements, Phase 1
+# Initiative - Resources and Support Drupal updates to support tags and filtering, Phase 1
 
 - [Overview](#overview)
 - [Problems to solve](#problems-to-solve)
@@ -50,18 +50,21 @@ Since then, Resources and support has expanded to include 137 articles (as of Se
 Phase 1 focus
 - addressing accessibility defects - either through design iteration or engineering implementation
 - increasing findability 
-  - search improvements
-  - taxonomy enhancements to implement functional tagging, which can be extended to other parts of the VA.gov experience
+   - taxonomy enhancements to implement functional tagging, which can be extended to other parts of the VA.gov experience
 - landing page redesign
 - detail page template improvements
-- ensuring no silent failures
+
 
 ### Out of scope
 The following changes will be part of a future iteration phase 
+- increasing findability (the Unified Search team is doing this work)
+  - search improvements
+  - implement filter
+  - ensuring no silent failures
 - Page content improvements
   - new content types (i.e., image list)
   - template improvements (i.e. checklist, multi FAQs)
-- Adjust search for Resources and Support searching only
+- Adjust search for Resources and Support searching only (the Unified Search team is doing this work)
 
 ### Discovery to inform iteration 
 #### Efforts to inform this iteration with Veteran feedback
@@ -156,9 +159,6 @@ Tag Name | Number of Clicks
    - A: See [Landing page goverance](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/resources-and-support/initiatives/2024-search-experience-enhancements-Phase-1/tag-categories-and-governance.md#landing-page-governance)
 - **Q: Do featued links direct to individual pages or pre-filtered search results?**
 
-
-
-
 ## Measuring Success
 
 ### Analytics
@@ -192,7 +192,6 @@ Milestone | Date | Link to issue |
 | Architecture Intent| | |
 
 ### Timeline 
-> *Describe any major milestones for this initiative including organizational, legislative, etc. constraints.*
 
 * [Link to Release Plan for this Initiative](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/release-plan-template.md)
 
