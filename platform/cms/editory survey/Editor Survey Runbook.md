@@ -1,4 +1,4 @@
-## Creating Editor Survey in Optimal Workshop
+## Editor Survey and Communications Runbook
 
 The CMS team uses Optimal workshop to send out the editor survey and Optimal workshop is owned by the platform team (contact Platform Design Lead `@Naomi Marcussen` on Slack). All CMS studies, including Editor Survey reports, are saved in this [folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/cms/research). 
 
