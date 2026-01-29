@@ -11,12 +11,39 @@
 
 ## Filter rules
 
-- For allergies we get from HDR for v1, in PHR, we only showing allergies that have a status of `F` (for final)
-- In  SCDF we are mapping `F` to `active` for the verification status
-- We only display allergies to users when the verification status is `F` (or `active` in SCDF)
+Only show allergies that meet the following criteria:
 
-## Questions
+- **`clinicalStatus` is Active** : This is a clinical verification that the allergy is still relevant to the patient and signed off by a provider. According to SCDF,  If a VistA records has a status of `f`. For OH records, we are being a pass through of the data we are getting from OH.
+- **Has Facility information**.TBD
 
-> Does a status of `F` from HDR mean that its signed off by a provider?
+## For Clinical Status
 
-Yes, we assume.
+### For Vista Records
+
+We are looking at clinical Verification status codes:
+
+```json
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "https://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+```
+
+### For Oracle Health Records
+
+We are looking at clinical Verification status codes:
+
+```json
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "https://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+```
