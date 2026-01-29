@@ -47,27 +47,27 @@ description: "A template for moderating research sessions including logistics, i
 
 Thank you so much for joining today. My name is Emily, and [NAME] here will be taking notes. I also have a couple other colleagues in the digital waiting room who would like to observe, but we’ll get to that momentarily.
 
-Today, we’re testing a pre-release version of the VA app specifically to check the Debt Portal. You may have done usability tests before where we look at how easy an app or website is to navigate. Today’s session is a bit different: it’s called a User Acceptance Test. Instead of looking at the 'feel' of the design, we're checking to see if the actual technology handles your  data correctly. We’re basically making sure that when you tap a button, the VA systems in the background do exactly what they’re supposed to do.
+Today, we’re testing a pre-release version of the VA app specifically to check the Debt Portal before it's released to the public. We want to make sure that every button you press results in the correct information being shown on screens.
+
+I'll be helping you download a test version of the app. If you currently have the VA app on this phone, this test version will replace it. I'll help you restore the original version once you're done.
 
 Your participation in this is completely voluntary. Nothing you do here will affect your VA benefits in any way. During this session, we'll be asking you to share your screen which will show your personal debt records. If you would like to stop the session or do not want to show us something at any time, that's no problem. Please let me know.
 
-I know you saw details from Perigean, but I want to review a few things to make absolutely sure you're okay with what will happen in this session
-- You're on a mobile phone now? Is it an iPhone or an Android?
-- You indicated that you have a current overpayment debt. Are you able to see the details of this debt when you log into your VA account on the website?
-- You have your username and password ready to log into the app? [ID.me or Login.gov and can access your two-factor authentication - text code or app]
-- _screensharing_
-    - _[yes to screen sharing]_ Are you okay with sharing your screen as you click through various parts of your overpayment details?
-    - _[no to screen sharing]_ As you click though various parts of the app, you'll be describing what you see.
-- You have access to your email account here on this phone?
-- I'll be helping you download a test version of the app. If you currently have the VA app on this phone, this test version will replace it. I'll help you restore the original version once you're done.
-- Are you connected to WiFi? [If not, are they able to be?]
+I want to review a few things to make sure you're okay with what will happen in this session
 
+* You're on a mobile phone now? Is it an iPhone or an Android?
+* You indicated that you have a current overpayment debt. Are you able to see the details of this debt when you log into your VA account on the website?
+* You have your username and password ready to log into the app? [ID.me or Login.gov and can access your two-factor authentication - text code or app]
+* screensharing
+    * _[yes to screen sharing]_ Are you okay with sharing your screen as you click through your overpayment details?
+    * _[no to screen sharing]_ As you click though the app, you'll be describing what you see.
+* You have access to your email account here on this phone?
+* Are you connected to WiFi? _[If not, are they able to be?]_
 * I have [number] colleagues who are interested in observing this session to better understand the Veteran experience. Would you be okay with them observing?
     * If no: Use Slack to kindly ask the observers to leave the Zoom.
     * If yes: Admit observers.
     * Then, ask the notetaker and observers to give a brief, camera-on introduction, like their first name and position with VA.gov. 
     * Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
-
 * If you would be okay with it, we would like to record this session today, but let me explain things first before you consent. 
     * Any reporting I do from this would not use your name or personal details.
     * I will pause the recording when you are entering your password so that your login details are not captured.
@@ -75,7 +75,6 @@ I know you saw details from Perigean, but I want to review a few things to make 
     * Once we record I'm going to ask again just so it's on the record.
 
 Start recording.
-
 
 * I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
 
