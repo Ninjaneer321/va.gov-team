@@ -126,38 +126,50 @@ synthesis_tools_used:
 - [Research participants](#user-content-research-participants)
 
 ## Research Goals
-Our goals in conducting UAT on complex claims are:
+Travel Pay Complex Claims UAT tested whether Veterans can easily use the new travel-claims functionality and submit claims successfully. Our goals in conducting UAT on complex claims were to:
 1. Ensure a beneficiary can file a complex claim on VA.gov from start to finish. We want to ensure a user can understand the steps and limitations, start a claim, add expenses to their claim, and file a claim.
 2. Test that the content, including error messages and redirects, appear properly and are clear to users.
 3. Validate that users can leave, and re-enter, a claim in progress.   
 
-[See the Veteran journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)  
-
 **Guiding Questions:**  
-- What are the key moments this tool supports in the Veteran’s journey?  
-- What outcomes are we aiming to achieve for Veterans and stakeholders?  
-
-[Example Research Goals](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-goals) 
+- What are the key moments this tool supports in the Veteran’s journey?
+  * In the Veteran journey, this work primarily falls under starting up, taking care of myself, putting down roots, and retiring.   
+- What outcomes are we aiming to achieve for Veterans and stakeholders?
+  * We want Veterans to successfully able to file claims with attachments on VA.gov, the first step in consolidating systems in order to eventually sunset the BTSSS portal.
 
 ## Research Questions
 
-* Question 1: Does the user understand the qualifications around filing on VA.gov, and if they are unable to file on VA.gov, does our process successfully route them to BTSSS?   
-* Question 2: Are participants able to add mileage, as well as additional expenses with documentation, to their claim?   
-* Question 3: Can the participant successfully edit and delete an expense?
-* Question 4: How does the participant navigate within the tool?
-* Question 5: Can a participant leave their claim and then return to it at a later time to add expenses or submit?
-* Question 6: Can the participant successfully submit a claim?   
-
-[Example Research Questions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-questions)
+1. Does the user understand the qualifications around filing on VA.gov, and if they are unable to file on VA.gov, does our process successfully route them to BTSSS?
+2. Are participants able to add mileage, as well as additional expenses with documentation, to their claim?
+3. Can the participant successfully edit and delete an expense?
+4. How does the participant navigate within the tool?
+5. Can a participant leave their claim and then return to it at a later time to add expenses or submit?
+6. Can the participant successfully submit a claim?   
 
 ## Methodology 
-
-*Provide a brief description of the research methods used (e.g., usability testing, interviews).*  
 
 - Method 1: User acceptance testing (UAT) in production with live appointment and claims data
 - Method 2: Remote, moderated. Participants were observed and guided by researchers as they filed travel reimbursement claims
 
-[Example Methodology](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#methodology)
+We conducted hour-long remote moderated research sessions via Zoom between January 20-23, 2026. Participants were asked to login to the VA.gov accounts and file travel claims for eligible past medical appointments. We used a series of pre-determined metrics to monitor success. Because the tests were live and we had no way of knowing what scenario each participant might have, our standards determined that we needed 1 successful instance of each metric to consider the UAT complete.
+
+Our primary metrics tracked the following scenarios:     
+1. User starts a claim.    
+2. User adds mileage to their claim.   
+3. User continues to the additional expense flow.   
+4. User uploads a file.   
+5. User adds metadata to an expense.   
+6. User successfully adds an additional expense (with attachment) and views it on the unsubmitted expenses page.   
+7. User successfully submits a simple mileage-only claim.
+8. User exits and re-enters the flow.
+9. User successfully submits a claim with 1+ file (a complex claim).
+
+We also monitored additional scenarios, or subtasks, that were not considered critical to submission:   
+1. User edits an expense.
+2. User cancels the editing of an expense.
+3. User deletes an expense.
+4. User cancels the deletion of an expense.
+5. User exits the expense page before submitting.   
 
 
 ## Hypotheses and Conclusions
@@ -279,8 +291,8 @@ This research supports measurement of this KPI by....
 
 ### Research documents
 - [Product Outline](link here)
-- [Research plan](link here)
-- [Conversation guide](link here)
+- [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/health-care/beneficiary-travel/research/2025-12%20Complex%20Claims%20UAT/UAT%20Plan.md)
+- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2025-12%20Complex%20Claims%20UAT/conversation%20guide.md)
 - [Interview transcripts](link here)
 
 ### Tools used for Synthesis
