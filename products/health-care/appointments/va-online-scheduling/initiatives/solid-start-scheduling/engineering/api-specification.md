@@ -22,7 +22,7 @@ Requests a One-Time Code (OTP) to be emailed for a user's authentication.
 ```json
 {
   "uuid": "c0ffee-1234-beef-5678",
-  "lastname": "Smith",
+  "lastName": "Smith",
   "dob": "1968-06-22"
 }
 ```
@@ -123,7 +123,7 @@ Returns a JWT token for further API access on success.
 ```json
 {
   "uuid": "c0ffee-1234-beef-5678",
-  "lastname": "Smith",
+  "lastName": "Smith",
   "dob": "1968-06-22",
   "otp": "123456"
 }
