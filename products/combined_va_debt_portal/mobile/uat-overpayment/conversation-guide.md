@@ -135,7 +135,3 @@ If needing to exit the session
 - [ ] Review alignment with your research plan tags
 - [ ] Update the last_modified date
 
-### Sample Conversation Guide _(note: this link points to resources in the va.gov-team GitHub repo)_
-
-- [Veteran ID Card Discovery Interview](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-id-cards/research/discovery/discovery-conversation-guide.md)
-
