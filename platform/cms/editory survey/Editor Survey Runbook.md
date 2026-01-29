@@ -42,7 +42,7 @@ Begin survey.
  
 
 #### Welcome Screen 
-We want to hear how things are going for you on the Drupal CMS. This survey is intended to help us understand what's working, what's not, and what we could do to improve your Drupal CMS experience. We value your feedback and use it to inform improvements we make to Drupal CMS. You can read more about those improvements on the [CMS Announcements Page](https://prod.cms.va.gov/help/cms-announcements)https://prod.cms.va.gov/help/cms-announcements.
+We want to hear how things are going for you on the Drupal CMS. This survey is intended to help us understand what's working, what's not, and what we could do to improve your Drupal CMS experience. We value your feedback and use it to inform improvements we make to Drupal CMS. You can read more about those improvements on the [CMS Announcements Page](https://prod.cms.va.gov/help/cms-announcements).
 
 The VA and VA's Office of Labor Management Relations have reviewed and approved the distribution of this survey. Participation in any user research study is voluntary and any feedback you provide will not be attributed to you. Your anonymity will be protected. Thank you for taking the time to fill out this survey.
 
