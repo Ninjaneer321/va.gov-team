@@ -1,8 +1,8 @@
 # .github/workflows/diversity-data-extraction.yml
 #
 # Purpose: Extract participant demographic data from research findings reports
-# and aggregate for quarterly diversity reporting.  Runs on new findings commits
-# and weekly for aggregation.
+# and aggregate for quarterly diversity reporting. Runs at the end of each quarter
+# and tracks processed files to avoid duplication.
 #
 # Repository: va.gov-team (with sparse checkout)
 # Reports pushed to: va.gov-research-repository/reports/quarterly-reports/diversity-reports/
@@ -19,15 +19,24 @@ on:
       - '!**/*.pptx'
       - '!**/*.pdf'
   schedule:
-    # Run weekly on Mondays at 8:00 AM ET (13:00 UTC) for aggregation
-    - cron: '0 13 * * 1'
+    # Run on first day after each quarter ends at 8:00 AM ET (13:00 UTC)
+    # Q1 (Jan-Mar) report runs April 1
+    # Q2 (Apr-Jun) report runs July 1
+    # Q3 (Jul-Sep) report runs October 1
+    # Q4 (Oct-Dec) report runs January 1
+    - cron: '0 13 1 1,4,7,10 *'
   workflow_dispatch: 
     inputs:
       full_scan:
-        description: 'Run full repository scan (slow)'
+        description: 'Force reprocessing of all files (ignores processed manifest)'
         required: false
         default: 'false'
         type: boolean
+      quarter:
+        description: 'Specific quarter to process (e.g., 2026-Q1). Leave empty for auto-detect.'
+        required: false
+        default: ''
+        type: string
       dry_run:
         description: 'Test run - do not push to research repository'
         required: false
@@ -49,13 +58,13 @@ jobs:
             products/**/research
             teams/**/research
           sparse-checkout-cone-mode: false
-          fetch-depth: 1
+          fetch-depth: 0  # Full history needed for file dates
       
       - name: Full Checkout
         if: ${{ github.event.inputs.full_scan == 'true' }}
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0  # Full history needed for file dates
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -66,14 +75,34 @@ jobs:
         run: |
           npm install js-yaml glob
       
+      - name: Clone research repository for manifest
+        env:
+          GH_TOKEN: ${{ secrets.RESEARCH_REPO_TOKEN }}
+        run: |
+          git clone https://x-access-token:${GH_TOKEN}@github.com/department-of-veterans-affairs/va.gov-research-repository.git research-repo
+          
+          # Create directory structure if it doesn't exist
+          mkdir -p research-repo/reports/quarterly-reports/diversity-reports
+          
+          # Create empty manifest if it doesn't exist
+          if [ ! -f "research-repo/reports/quarterly-reports/diversity-reports/processed-files.json" ]; then
+            echo '{"processed_files": [], "last_updated": null, "quarters_processed": []}' > research-repo/reports/quarterly-reports/diversity-reports/processed-files.json
+          fi
+      
       - name: Extract demographic data from findings
         id: extract
         uses: actions/github-script@v7
         with: 
           script: |
             const fs = require('fs');
+            const path = require('path');
             const yaml = require('js-yaml');
             const globModule = require('glob');
+            const { execSync } = require('child_process');
+            
+            // ============================================
+            // CONFIGURATION AND HELPERS
+            // ============================================
             
             // Helper function to safely parse integers
             const toInt = (value) => {
@@ -81,7 +110,7 @@ jobs:
               return isNaN(parsed) ? 0 : parsed;
             };
             
-            // Helper function to encode file path for URLs (encode spaces and special chars, preserve slashes)
+            // Helper function to encode file path for URLs
             const encodeFilePath = (filePath) => {
               return filePath.split('/').map(segment => encodeURIComponent(segment)).join('/');
             };
@@ -90,29 +119,15 @@ jobs:
             const isPlaceholder = (value) => {
               if (!value || typeof value !== 'string') return true;
               const placeholders = [
-                'YYYY-MM-DD',
-                'yyyy-mm-dd',
-                '[Study]',
-                '[study]',
-                '[Team]',
-                '[team]',
-                '[Product]',
-                '[product]',
-                'TBD',
-                'tbd',
-                'N/A',
-                'n/a',
-                'TODO',
-                'todo',
-                'PLACEHOLDER',
-                'placeholder'
+                'YYYY-MM-DD', 'yyyy-mm-dd', '[Study]', '[study]', '[Team]', '[team]',
+                '[Product]', '[product]', 'TBD', 'tbd', 'N/A', 'n/a',
+                'TODO', 'todo', 'PLACEHOLDER', 'placeholder'
               ];
               return placeholders.some(p => value.includes(p));
             };
             
-            // Helper function to check if a key is a valid demographic key (not a numeric index)
+            // Helper function to check if a key is valid (not numeric index or rate)
             const isValidDemographicKey = (key) => {
-              // Skip numeric keys (from arrays), internal properties, and rate calculations
               if (/^\d+$/.test(key)) return false;
               if (key.endsWith('_rate')) return false;
               if (key === 'rate') return false;
@@ -124,12 +139,10 @@ jobs:
               if (!dateStr || dateStr === 'unknown' || isPlaceholder(dateStr)) {
                 return null;
               }
-              // Try to parse various date formats
               const date = new Date(dateStr);
               if (!isNaN(date.getTime())) {
                 return date;
               }
-              // Handle formats like "08-2025" (MM-YYYY)
               const mmYyyyMatch = dateStr.match(/^(\d{1,2})-(\d{4})$/);
               if (mmYyyyMatch) {
                 return new Date(`${mmYyyyMatch[2]}-${mmYyyyMatch[1].padStart(2, '0')}-01`);
@@ -140,37 +153,25 @@ jobs:
             // Helper function to format date for display
             const formatDate = (dateStr) => {
               const parsed = parseDate(dateStr);
-              if (!parsed) {
-                return null;
-              }
+              if (!parsed) return null;
               return parsed.toISOString().split('T')[0];
             };
             
-            // Helper function to check if frontmatter has real data (not just template)
+            // Helper function to check if frontmatter has real data
             const hasCompletedData = (frontMatter) => {
-              // Must have a valid date (not a placeholder)
               const hasValidDate = frontMatter.date && !isPlaceholder(frontMatter.date) && parseDate(frontMatter.date) !== null;
-              
-              // Must have participants count > 0
               const hasParticipants = toInt(frontMatter.participants_total) > 0;
               
-              // Must have either valid date OR participants to be considered complete
-              // But ideally should have both - require at least one solid indicator
-              if (!hasValidDate && !hasParticipants) {
-                return false;
-              }
+              if (!hasValidDate && !hasParticipants) return false;
               
-              // Check if title is a placeholder
               if (frontMatter.title && isPlaceholder(frontMatter.title)) {
-                // If title is placeholder, we need both date AND participants
                 return hasValidDate && hasParticipants;
               }
               
-              // If we have a real title, having either date or participants is enough
               return hasValidDate || hasParticipants;
             };
             
-            // Helper to format label for display (convert snake_case to Title Case)
+            // Helper to format label for display
             const formatLabel = (key) => {
               return key
                 .replace(/_/g, ' ')
@@ -181,7 +182,7 @@ jobs:
                 .replace(/ Va /gi, ' VA ');
             };
             
-            // Helper to safely extract object data, skipping arrays and invalid entries
+            // Helper to safely extract object data
             const safeExtractObject = (data) => {
               if (!data || typeof data !== 'object' || Array.isArray(data)) {
                 return {};
@@ -200,63 +201,166 @@ jobs:
               return result;
             };
             
-            // Find all findings files (only .md files, excluding binary formats)
+            // ============================================
+            // QUARTER CALCULATION
+            // ============================================
+            
+            const getQuarterInfo = (inputQuarter) => {
+              const now = new Date();
+              let year, quarter, startDate, endDate;
+              
+              if (inputQuarter && /^\d{4}-Q[1-4]$/.test(inputQuarter)) {
+                // Parse specified quarter (e.g., "2026-Q1")
+                year = parseInt(inputQuarter.substring(0, 4));
+                quarter = parseInt(inputQuarter.substring(6));
+              } else {
+                // Auto-detect: determine which quarter just ended
+                // If running on Jan 1, we're reporting on Q4 of previous year
+                // If running on Apr 1, we're reporting on Q1
+                // If running on Jul 1, we're reporting on Q2
+                // If running on Oct 1, we're reporting on Q3
+                const month = now.getMonth(); // 0-indexed
+                year = now.getFullYear();
+                
+                if (month >= 0 && month < 3) {
+                  // January-March: report on Q4 of previous year
+                  quarter = 4;
+                  year = year - 1;
+                } else if (month >= 3 && month < 6) {
+                  // April-June: report on Q1
+                  quarter = 1;
+                } else if (month >= 6 && month < 9) {
+                  // July-September: report on Q2
+                  quarter = 2;
+                } else {
+                  // October-December: report on Q3
+                  quarter = 3;
+                }
+              }
+              
+              // Calculate quarter date range
+              const quarterStartMonths = { 1: 0, 2: 3, 3: 6, 4: 9 };
+              startDate = new Date(year, quarterStartMonths[quarter], 1);
+              endDate = new Date(year, quarterStartMonths[quarter] + 3, 0, 23, 59, 59, 999);
+              
+              return {
+                year,
+                quarter,
+                label: `${year}-Q${quarter}`,
+                startDate,
+                endDate
+              };
+            };
+            
+            // Get file's last modified date from git
+            const getFileModifiedDate = (filePath) => {
+              try {
+                const result = execSync(`git log -1 --format="%aI" -- "${filePath}"`, { encoding: 'utf8' }).trim();
+                return result ? new Date(result) : null;
+              } catch (err) {
+                return null;
+              }
+            };
+            
+            // ============================================
+            // MAIN PROCESSING
+            // ============================================
+            
+            // Load inputs
+            const fullScan = '${{ github.event.inputs.full_scan }}' === 'true';
+            const inputQuarter = '${{ github.event.inputs.quarter }}' || '';
+            const quarterInfo = getQuarterInfo(inputQuarter);
+            
+            console.log(`Processing quarter: ${quarterInfo.label}`);
+            console.log(`Quarter range: ${quarterInfo.startDate.toISOString()} to ${quarterInfo.endDate.toISOString()}`);
+            console.log(`Full scan mode: ${fullScan}`);
+            
+            // Load processed files manifest
+            let manifest = { processed_files: [], last_updated: null, quarters_processed: [] };
+            const manifestPath = 'research-repo/reports/quarterly-reports/diversity-reports/processed-files.json';
+            
+            try {
+              const manifestContent = fs.readFileSync(manifestPath, 'utf8');
+              manifest = JSON.parse(manifestContent);
+            } catch (err) {
+              console.log('No existing manifest found, starting fresh');
+            }
+            
+            const isFirstRun = manifest.processed_files.length === 0;
+            console.log(`First run (baseline): ${isFirstRun}`);
+            
+            // Find all findings files
             const files = await globModule.glob('**/research/**/*findings*.md', {
-              ignore: ['node_modules/**', '.git/**', '**/*.doc', '**/*.docx', '**/*.pptx', '**/*.pdf']
+              ignore: ['node_modules/**', '.git/**', 'research-repo/**', '**/*.doc', '**/*.docx', '**/*.pptx', '**/*.pdf']
             });
             
-            console.log(`Found ${files.length} research findings files`);
+            console.log(`Found ${files.length} total research findings files`);
             
             const allDemographics = [];
             const skippedFiles = [];
+            const newlyProcessedFiles = [];
             const errors = [];
             
-            // Repository info for generating URLs
             const repoOwner = 'department-of-veterans-affairs';
             const repoName = 'va.gov-team';
             const defaultBranch = 'master';
             
             for (const file of files) {
               try {
+                // Check if file was already processed (unless full scan or first run)
+                if (!fullScan && !isFirstRun && manifest.processed_files.includes(file)) {
+                  skippedFiles.push({ file, reason: 'Already processed in previous quarter' });
+                  continue;
+                }
+                
+                // Check file modification date (hybrid approach)
+                const fileModDate = getFileModifiedDate(file);
+                
+                // For non-first runs, check if file was modified within the quarter
+                if (!fullScan && !isFirstRun && fileModDate) {
+                  if (fileModDate < quarterInfo.startDate || fileModDate > quarterInfo.endDate) {
+                    // File wasn't modified this quarter and wasn't in manifest
+                    // This means it's a new file from a previous quarter - skip it
+                    if (fileModDate < quarterInfo.startDate) {
+                      skippedFiles.push({ file, reason: 'File predates current quarter and not previously processed' });
+                      continue;
+                    }
+                  }
+                }
+                
                 const content = fs.readFileSync(file, 'utf8');
                 
                 // Extract YAML front matter
                 const yamlMatch = content.match(/^---\n([\s\S]*?)\n---/);
                 if (!yamlMatch) {
-                  continue; // No YAML front matter
+                  continue;
                 }
                 
                 const frontMatter = yaml.load(yamlMatch[1]);
                 
-                // Check if demographics data exists
                 if (frontMatter.demographics || frontMatter.participants_total) {
                   
-                  // Validate that this is completed data, not a template
                   if (!hasCompletedData(frontMatter)) {
                     skippedFiles.push({ file, reason: 'Incomplete or template frontmatter' });
-                    console.log(`Skipping ${file}: Incomplete or template frontmatter`);
                     continue;
                   }
                   
-                  // Generate GitHub URL for this file with proper encoding
                   const encodedPath = encodeFilePath(file);
                   const fileUrl = `https://github.com/${repoOwner}/${repoName}/blob/${defaultBranch}/${encodedPath}`;
                   
-                  // Get a clean title - skip placeholder titles
                   let title = frontMatter.title || '';
                   if (!title || isPlaceholder(title)) {
-                    // Extract a better title from the file path
                     const pathParts = file.split('/');
                     const fileName = pathParts.pop().replace('.md', '').replace(/-/g, ' ');
                     const folderName = pathParts.pop() || '';
                     title = folderName.replace(/-/g, ' ').replace(/^\d{4}-\d{2}\s*/, '') || fileName;
-                    // Capitalize first letter of each word
                     title = title.replace(/\b\w/g, c => c.toUpperCase());
                   }
                   
                   const record = {
                     file: file,
                     file_url: fileUrl,
+                    file_modified: fileModDate ? fileModDate.toISOString() : null,
                     date: frontMatter.date || 'unknown',
                     date_parsed: parseDate(frontMatter.date),
                     date_formatted: formatDate(frontMatter.date),
@@ -270,6 +374,7 @@ jobs:
                   };
                   
                   allDemographics.push(record);
+                  newlyProcessedFiles.push(file);
                 }
               } catch (err) {
                 errors.push({ file, error: err.message });
@@ -277,16 +382,23 @@ jobs:
             }
             
             console.log(`Extracted demographics from ${allDemographics.length} files`);
-            console.log(`Skipped ${skippedFiles.length} files with incomplete data`);
+            console.log(`Newly processed files: ${newlyProcessedFiles.length}`);
+            console.log(`Skipped files: ${skippedFiles.length}`);
             console.log(`Errors: ${errors.length}`);
             
-            // Aggregate data with all demographic categories
+            // ============================================
+            // AGGREGATION
+            // ============================================
+            
             const aggregated = {
               extraction_date: new Date().toISOString(),
+              quarter: quarterInfo.label,
+              quarter_start: quarterInfo.startDate.toISOString(),
+              quarter_end: quarterInfo.endDate.toISOString(),
+              is_baseline: isFirstRun,
               total_studies: allDemographics.length,
               total_participants: 0,
               
-              // Participant types
               participant_types: {
                 veterans: 0,
                 service_members: 0,
@@ -295,7 +407,6 @@ jobs:
                 VA_staff: 0
               },
               
-              // Devices
               devices: {
                 desktop: 0,
                 tablet: 0,
@@ -303,7 +414,6 @@ jobs:
                 assistive_technology: 0
               },
               
-              // Age groups
               age: {
                 '25-34': 0,
                 '35-44': 0,
@@ -313,7 +423,6 @@ jobs:
                 'unknown': 0
               },
               
-              // Education levels
               education: {
                 high_school: 0,
                 some_college: 0,
@@ -324,14 +433,12 @@ jobs:
                 unknown: 0
               },
               
-              // Location
               location: {
                 urban: 0,
                 rural: 0,
                 unknown: 0
               },
               
-              // Race/ethnicity
               race: {
                 white: 0,
                 black: 0,
@@ -341,7 +448,6 @@ jobs:
                 native: 0
               },
               
-              // Disability and assistive technology
               disability: {
                 cognitive: 0,
                 AT_beginner: 0,
@@ -355,13 +461,11 @@ jobs:
                 captions: 0
               },
               
-              // AT inclusion summary
               at_inclusion: {
                 studies_with_at: 0,
                 total_at_participants: 0
               },
               
-              // Study list
               studies: allDemographics.map(r => ({
                 title: r.title,
                 file: r.file,
@@ -372,21 +476,20 @@ jobs:
                 participants: r.participants_total
               })),
               
-              skipped_files: skippedFiles
+              skipped_files: skippedFiles,
+              newly_processed_files: newlyProcessedFiles
             };
             
             // Aggregate all data
             for (const record of allDemographics) {
               aggregated.total_participants += toInt(record.participants_total);
               
-              // Participant types (top-level demographics)
               for (const type of ['veterans', 'service_members', 'caregivers', 'dependents', 'VA_staff']) {
                 if (record.demographics?.[type] !== undefined) {
                   aggregated.participant_types[type] += toInt(record.demographics[type]);
                 }
               }
               
-              // Devices - safely extract
               const deviceData = safeExtractObject(record.devices_used);
               for (const device of ['desktop', 'tablet', 'smartphone', 'assistive_technology']) {
                 if (deviceData[device] !== undefined) {
@@ -394,14 +497,12 @@ jobs:
                 }
               }
               
-              // AT inclusion tracking
               const atCount = toInt(deviceData.assistive_technology || 0);
               if (atCount > 0) {
                 aggregated.at_inclusion.studies_with_at++;
                 aggregated.at_inclusion.total_at_participants += atCount;
               }
               
-              // Age groups - safely extract and aggregate
               const ageData = safeExtractObject(record.demographics?.age);
               for (const [key, value] of Object.entries(ageData)) {
                 if (aggregated.age.hasOwnProperty(key)) {
@@ -411,7 +512,6 @@ jobs:
                 }
               }
               
-              // Education - safely extract and aggregate
               const educationData = safeExtractObject(record.demographics?.education);
               for (const [key, value] of Object.entries(educationData)) {
                 if (aggregated.education.hasOwnProperty(key)) {
@@ -421,7 +521,6 @@ jobs:
                 }
               }
               
-              // Location - safely extract and aggregate
               const locationData = safeExtractObject(record.demographics?.location);
               for (const [key, value] of Object.entries(locationData)) {
                 if (aggregated.location.hasOwnProperty(key)) {
@@ -431,7 +530,6 @@ jobs:
                 }
               }
               
-              // Race - safely extract and aggregate
               const raceData = safeExtractObject(record.demographics?.race);
               for (const [key, value] of Object.entries(raceData)) {
                 if (aggregated.race.hasOwnProperty(key)) {
@@ -441,7 +539,6 @@ jobs:
                 }
               }
               
-              // Disability - safely extract and aggregate
               const disabilityData = safeExtractObject(record.demographics?.disability);
               for (const [key, value] of Object.entries(disabilityData)) {
                 if (aggregated.disability.hasOwnProperty(key)) {
@@ -452,7 +549,7 @@ jobs:
               }
             }
             
-            // Calculate rates (store separately, not in the main objects)
+            // Calculate rates
             let atInclusionRate = '0.0%';
             if (aggregated.total_studies > 0) {
               atInclusionRate = (
@@ -460,32 +557,50 @@ jobs:
               ).toFixed(1) + '%';
             }
             
-            let ruralRate = null;
             const locationTotal = aggregated.location.rural + aggregated.location.urban;
-            if (locationTotal > 0) {
-              ruralRate = ((aggregated.location.rural / locationTotal) * 100).toFixed(1);
-            }
             
-            // Output results
+            // ============================================
+            // UPDATE MANIFEST
+            // ============================================
+            
+            // Add newly processed files to manifest
+            const updatedProcessedFiles = [...new Set([...manifest.processed_files, ...newlyProcessedFiles])];
+            const updatedQuarters = [...new Set([...manifest.quarters_processed, quarterInfo.label])];
+            
+            const updatedManifest = {
+              processed_files: updatedProcessedFiles,
+              last_updated: new Date().toISOString(),
+              quarters_processed: updatedQuarters.sort(),
+              last_quarter: quarterInfo.label,
+              total_files_processed: updatedProcessedFiles.length
+            };
+            
+            fs.writeFileSync(manifestPath, JSON.stringify(updatedManifest, null, 2));
+            console.log(`Updated manifest with ${newlyProcessedFiles.length} new files`);
+            
+            // ============================================
+            // GENERATE SUMMARY
+            // ============================================
+            
             core.setOutput('aggregated', JSON.stringify(aggregated, null, 2));
             core.setOutput('study_count', allDemographics.length);
             core.setOutput('participant_count', aggregated.total_participants);
             core.setOutput('skipped_count', skippedFiles.length);
+            core.setOutput('quarter_label', quarterInfo.label);
             
-            // Generate date-stamped filename
-            const dateStamp = new Date().toISOString().split('T')[0];
-            core.setOutput('date_stamp', dateStamp);
-            
-            // Create summary artifact - build it as an array then join
             const summaryLines = [
               '# Diversity Data Extraction Summary',
               '',
-              '**Extraction Date:** ' + aggregated.extraction_date,
+              `**Quarter:** ${quarterInfo.label}`,
+              `**Quarter Period:** ${quarterInfo.startDate.toISOString().split('T')[0]} to ${quarterInfo.endDate.toISOString().split('T')[0]}`,
+              `**Extraction Date:** ${aggregated.extraction_date}`,
+              isFirstRun ? '**Note:** This is the baseline report including all historical data.' : '',
               '',
               '## Overview',
               '- **Total Studies:** ' + aggregated.total_studies,
               '- **Total Participants:** ' + aggregated.total_participants,
-              '- **Files Skipped (incomplete data):** ' + skippedFiles.length,
+              '- **New Files Processed:** ' + newlyProcessedFiles.length,
+              '- **Files Skipped:** ' + skippedFiles.length,
               '',
               '---',
               '',
@@ -493,7 +608,6 @@ jobs:
               ''
             ];
             
-            // Participant types
             for (const [key, value] of Object.entries(aggregated.participant_types)) {
               if (isValidDemographicKey(key)) {
                 summaryLines.push(`- **${formatLabel(key)}:** ${value}`);
@@ -501,7 +615,6 @@ jobs:
             }
             summaryLines.push('');
             
-            // Devices Used
             summaryLines.push('## Devices Used', '');
             for (const [key, value] of Object.entries(aggregated.devices)) {
               if (isValidDemographicKey(key)) {
@@ -510,13 +623,11 @@ jobs:
             }
             summaryLines.push('');
             
-            // AT Inclusion
             summaryLines.push('## Assistive Technology Inclusion', '');
             summaryLines.push(`- **Studies with AT Users:** ${aggregated.at_inclusion.studies_with_at} (${atInclusionRate})`);
             summaryLines.push(`- **Total AT Participants:** ${aggregated.at_inclusion.total_at_participants}`);
             summaryLines.push('');
             
-            // Age Distribution
             summaryLines.push('## Age Distribution', '');
             for (const [key, value] of Object.entries(aggregated.age)) {
               if (isValidDemographicKey(key)) {
@@ -525,7 +636,6 @@ jobs:
             }
             summaryLines.push('');
             
-            // Education Levels
             summaryLines.push('## Education Levels', '');
             for (const [key, value] of Object.entries(aggregated.education)) {
               if (isValidDemographicKey(key)) {
@@ -534,7 +644,6 @@ jobs:
             }
             summaryLines.push('');
             
-            // Location
             summaryLines.push('## Geographic Location', '');
             for (const [key, value] of Object.entries(aggregated.location)) {
               if (isValidDemographicKey(key)) {
@@ -548,7 +657,6 @@ jobs:
             }
             summaryLines.push('');
             
-            // Race/Ethnicity
             summaryLines.push('## Race/Ethnicity', '');
             for (const [key, value] of Object.entries(aggregated.race)) {
               if (isValidDemographicKey(key)) {
@@ -557,7 +665,6 @@ jobs:
             }
             summaryLines.push('');
             
-            // Disability and Assistive Technology Details
             summaryLines.push('## Disability & Assistive Technology Details', '');
             for (const [key, value] of Object.entries(aggregated.disability)) {
               if (isValidDemographicKey(key)) {
@@ -566,11 +673,9 @@ jobs:
             }
             summaryLines.push('');
             
-            // Appendix
             summaryLines.push('---', '');
             summaryLines.push('## Appendix: Studies Included in This Report', '');
             
-            // Sort studies by date (most recent first), with unknown/invalid dates at the end
             const sortedStudies = [...allDemographics].sort((a, b) => {
               if (!a.date_parsed && !b.date_parsed) return 0;
               if (!a.date_parsed) return 1;
@@ -578,7 +683,6 @@ jobs:
               return b.date_parsed - a.date_parsed;
             });
             
-            // Add each study as a linked list item
             for (const study of sortedStudies) {
               const dateStr = study.date_formatted ? ` (${study.date_formatted})` : '';
               const participantStr = study.participants_total > 0 ? ` - ${study.participants_total} participants` : '';
@@ -587,13 +691,18 @@ jobs:
             
             const summary = summaryLines.join('\n');
             
+            // Write files with quarter-based naming
+            fs.writeFileSync(`diversity-summary-${quarterInfo.label}.md`, summary);
+            fs.writeFileSync(`diversity-data-${quarterInfo.label}.json`, JSON.stringify(aggregated, null, 2));
+            
+            // Also write generic names for artifact upload
             fs.writeFileSync('diversity-summary.md', summary);
             fs.writeFileSync('diversity-data.json', JSON.stringify(aggregated, null, 2));
       
       - name: Upload diversity data artifact
         uses: actions/upload-artifact@v4
         with: 
-          name: diversity-data-${{ github.run_id }}
+          name: diversity-data-${{ steps.extract.outputs.quarter_label }}
           path: |
             diversity-summary.md
             diversity-data.json
@@ -604,39 +713,35 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.RESEARCH_REPO_TOKEN }}
         run: |
-          # Configure git
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Clone the research repository
-          git clone https://x-access-token:${GH_TOKEN}@github.com/department-of-veterans-affairs/va.gov-research-repository.git research-repo
-          
           cd research-repo
           
-          # Create reports directory structure if it doesn't exist
-          mkdir -p reports/quarterly-reports/diversity-reports
+          # Configure git
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Copy the generated reports with date-stamped names
-          DATE_STAMP="${{ steps.extract.outputs.date_stamp }}"
-          cp ../diversity-summary.md "reports/quarterly-reports/diversity-reports/diversity-summary-${DATE_STAMP}.md"
-          cp ../diversity-data.json "reports/quarterly-reports/diversity-reports/diversity-data-${DATE_STAMP}.json"
+          QUARTER_LABEL="${{ steps.extract.outputs.quarter_label }}"
+          
+          # Copy the generated reports with quarter-based names
+          cp "../diversity-summary-${QUARTER_LABEL}.md" "reports/quarterly-reports/diversity-reports/diversity-summary-${QUARTER_LABEL}.md"
+          cp "../diversity-data-${QUARTER_LABEL}.json" "reports/quarterly-reports/diversity-reports/diversity-data-${QUARTER_LABEL}.json"
           
           # Also maintain a "latest" copy for easy access
-          cp ../diversity-summary.md "reports/quarterly-reports/diversity-reports/diversity-summary-latest.md"
-          cp ../diversity-data.json "reports/quarterly-reports/diversity-reports/diversity-data-latest.json"
+          cp "../diversity-summary-${QUARTER_LABEL}.md" "reports/quarterly-reports/diversity-reports/diversity-summary-latest.md"
+          cp "../diversity-data-${QUARTER_LABEL}.json" "reports/quarterly-reports/diversity-reports/diversity-data-latest.json"
           
           # Create/update the reports README if it doesn't exist
           if [ ! -f "reports/quarterly-reports/diversity-reports/README.md" ]; then
             cat > reports/quarterly-reports/diversity-reports/README.md << 'EOF'
           # Diversity Reports
 
-          This folder contains automatically generated diversity data reports from research findings.
+          This folder contains automatically generated quarterly diversity data reports from research findings.
 
           ## Report Files
 
-          - `diversity-summary-latest.md` - Most recent summary report
+          - `diversity-summary-latest.md` - Most recent quarterly summary report
           - `diversity-data-latest.json` - Most recent data in JSON format
-          - Date-stamped versions (e.g., `diversity-summary-2026-01-27.md`) are retained for historical tracking
+          - `processed-files.json` - Manifest tracking all processed research files
+          - Quarter-specific reports (e.g., `diversity-summary-2026-Q1.md`) are retained for historical tracking
 
           ## Data Source
 
@@ -645,9 +750,16 @@ jobs:
 
           ## Update Schedule
 
-          Reports are updated:
-          - On every push to research findings files
-          - Weekly on Mondays at 8:00 AM ET
+          Reports are generated quarterly:
+          - Q1 (Jan-Mar) report runs on April 1
+          - Q2 (Apr-Jun) report runs on July 1
+          - Q3 (Jul-Sep) report runs on October 1
+          - Q4 (Oct-Dec) report runs on January 1
+
+          ## File Tracking
+
+          The workflow maintains a manifest (`processed-files.json`) to track which research files have been
+          processed. This ensures each study is only counted once and prevents duplication across quarters.
           EOF
           fi
           
@@ -656,13 +768,14 @@ jobs:
             echo "No changes to commit"
           else
             git add reports/
-            git commit -m "Update diversity data reports - ${DATE_STAMP}
+            git commit -m "Update diversity data reports - ${QUARTER_LABEL}
 
-          Automated extraction from va.gov-team research findings.
+          Quarterly diversity data extraction from va.gov-team research findings.
           
+          Quarter: ${QUARTER_LABEL}
           Studies analyzed: ${{ steps.extract.outputs.study_count }}
           Total participants: ${{ steps.extract.outputs.participant_count }}
-          Skipped files: ${{ steps.extract.outputs.skipped_count }}
+          Files skipped: ${{ steps.extract.outputs.skipped_count }}
           
           Generated by: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             
@@ -676,6 +789,7 @@ jobs:
           echo "::notice::DRY RUN - Reports were generated but NOT pushed to va.gov-research-repository"
           echo "## 🧪 Dry Run Mode" >> $GITHUB_STEP_SUMMARY
           echo "Reports were generated and uploaded as artifacts but **not pushed** to va.gov-research-repository." >> $GITHUB_STEP_SUMMARY
+          echo "Quarter: ${{ steps.extract.outputs.quarter_label }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
       
       - name: Post summary
