@@ -127,7 +127,7 @@ tags:
 	
 `What problem is your product trying to solve?`
 
-Explore two options around to better understand how Veterans and family members understand the eligibility content, flow and alerts related to Tricare.
+Explore two options around to better understand how Veterans and family members understand the eligibility content, flow and alerts related to Tricared due to a percentage of applicants that are later denied because they are eligible for Tricare, which makes them ineligible for CHAMPVA.
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
@@ -235,11 +235,11 @@ Are there moments that matter?</summary>
 
 ---
 
-**We assume that both Veterans and their family members will find the hybrid option the easiest to understand and will not have any issues with the alert messages presented.** 
+**We assume that both Veterans and their family members will find the hybrid API-driven approach to provide more immediate, personalized feedback than the VADS pattern approach, but both may have different strengths.** 
 
 **We assume that the VADS pattern will add clarity to the eligibility of CHAMPVA benefits and will be recieved positively by both Veterans and their family members.**
 
-**The changes in the flow and the signer information section will be easy for Veterans and their family mbmers to follow with less confusion than previous studies.**
+**We assume that participants may find both approaches similarly confusing/helpful, suggesting content improvements are more important than flow differences.**
 
 
 ---
@@ -378,7 +378,7 @@ We would like a kick-off call with Perigean to discuss recruitment criteria.
 - `Planned dates of research:` **[Feb 9, 2026 - Feb 20, 2026]**
 
 ### Length of sessions
-- `Session length:` **[45 minutes]**
+- `Session length:` **[60 minutes]**
   
 - `Buffer time between sessions:` **[45 minutes]**
   
@@ -386,15 +386,18 @@ We would like a kick-off call with Perigean to discuss recruitment criteria.
 
 ### Availability
 
+- `[02/05, Thursday, 11:00 AM- 06:00 PM] EST`
+- `[02/06, Friday, 11:00 AM- 06:00 PM] EST`
 - `[02/09, Monday, 11:00 AM- 06:00 PM] EST`
 - `[02/10, Tuesday, 11:00 AM- 06:00 PM] EST`
 - `[02/11, Wednesday, 11:00 AM- 06:00 PM] EST`
 - `[02/12, Thursday, 11:00 AM- 06:00 PM] EST`
 - `[02/13, Friday, 11:00 AM- 06:00 PM] EST`
-- `[02/17, Tuesday 11:00 AM- 06:00 PM] EST`
 - `[02/18, Wednesday, 11:00 AM- 06:00 PM] EST`
 - `[02/19, Thursday, 11:00 AM- 06:00 PM] EST`
 - `[02/20, Friday, 11:00 AM- 06:00 PM] EST`
+- `[02/23, Monday, 11:00 AM- 06:00 PM] EST`
+
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
