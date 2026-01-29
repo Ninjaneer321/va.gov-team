@@ -281,7 +281,7 @@ Retrieves available appointment time slots for an authenticated user.  Requires 
 {
   "data": {
     "appointmentId": "e61e1a40-1e63-f011-bec2-001dd80351ea",
-    "availableTimeSlots": [
+    "availableSlots": [
       {
         "dtStartUtc": "2024-07-01T14:00:00Z",
         "dtEndUtc": "2024-07-01T14:30:00Z"
