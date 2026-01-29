@@ -242,7 +242,7 @@ This method is appropriate because the overpayments feature is in its final phas
 ## Research materials 📔
 
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/conversation-guide-template.md)
-- [Spreadsheet with test user flows and success criteria](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Test%20user%20flows%20and%20success%20criteria.xlsx?d=w76635d8ed3a44cbcaef6629c34d7012c&csf=1&web=1&e=ZnHVTP)
+- [Spreadsheet with test user flows and success criteria](https://dvagov.sharepoint.com/:x:/s/vamobilefeaturesupport/IQA3a5Ibl1nkTZiaWay97QNDAeh7lgw853voGUj6SB9rz-g?e=3PfKEz)
 
 Pre-release app builds
 - for iOS (TestFlight) 🚧
