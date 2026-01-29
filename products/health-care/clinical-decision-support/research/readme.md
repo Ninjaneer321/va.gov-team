@@ -270,7 +270,7 @@ For research conducted and documented prior to October 1, 2025, refer to this se
 
 2. This new folder should have the following files: **research-plan.md, conversation-guide.md, research-findings.md. Do not rename these files.**
    - Github templates exist to create the markdown files and help make it easy to maintain the structure needed. 
-   - [These templates](products/health-care/clinical-decision-support/research/research-templates) are markdown files, new to many. Use OCTO GitHub tips as a resource to get you up to speed. Additionally, there are tips to making your GitHub files accessible.
+   - [These templates]([products/health-care/clinical-decision-support/research/research-templates](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/research/research-templates) are markdown files. Use OCTO GitHub tips as a resource to get you up to speed. Additionally, there are tips to making your GitHub files accessible.
    - These templates are adapted from the VA.gov templates used for Veteran facing research for CDS purposes. For example, the demographics section about the participants recruited reflects the clinical setting since we aim to recruit for different EHR systems, clinical roles, etc.
    - The templates maintain the same structure as the VFS templates as that will assist with copilot use
    - The conversation guide template has all of the intro text around participant privacy and recording such that only small modifications may be needed for these sections.
