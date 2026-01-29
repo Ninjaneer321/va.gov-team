@@ -1,18 +1,19 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+title: Complex Claims UAT Research Findings
+product: Travel Pay
+team: Travel Pay
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: "2026-01-29"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - Kristen Faiferlick
+  - Liza McRuer
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - Goal 1: Ensure a beneficiary can file a complex claim on VA.gov from start to finish. We want to ensure a user can understand the steps and limitations, start a claim, add expenses to their claim, and file a claim.   
+  - Goal 2: Test that the content, including error messages and redirects, appear properly and are clear to users.
+  - Goal 3: Validate that users can leave, and re-enter, a claim in progress.     
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - User acceptance testing in production
+  - Remote, moderated sessions
 devices_used:
     desktop: X
     tablet: X
@@ -97,18 +98,15 @@ synthesis_tools_used:
 > 
 > Use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically generate structured metadata from this completed research findings report. The prompt uses natural language processing to extract key findings, participant demographics, recommendations, and apply appropriate research repository tags.
 
-> [!IMPORTANT]
-> **This is a template, <mark>PLEASE MAKE A COPY</mark>** 📑
-
 ---
 
-# [Study] Research Findings 
+# Travel Pay Complex Claims UAT Research Findings 
 
-**Office of the CTO - Digital Experience (OCTO-DE), Product Name, Team Name**
+**Office of the CTO - Digital Experience (OCTO-DE), Travel Pay Complex Claims, Travel Pay**
 
-**Date:** MM/DD/YYYY
+**Date:** 01/29/2026
 
-**Contacts:** [Researcher/Designer 1], [Researcher/Designer 2]
+**Contacts:** Kristen Faiferlick, Liza McRuer
 
 **[Research Readout (PDF)](link-here)**  
 *Add a link to your research readout deck, if available.*
@@ -128,7 +126,11 @@ synthesis_tools_used:
 - [Research participants](#user-content-research-participants)
 
 ## Research Goals
-*Provide context for this research by explaining how it fits into the Veteran’s journey.*  
+Our goals in conducting UAT on complex claims are:
+1. Ensure a beneficiary can file a complex claim on VA.gov from start to finish. We want to ensure a user can understand the steps and limitations, start a claim, add expenses to their claim, and file a claim.
+2. Test that the content, including error messages and redirects, appear properly and are clear to users.
+3. Validate that users can leave, and re-enter, a claim in progress.   
+
 [See the Veteran journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)  
 
 **Guiding Questions:**  
@@ -139,11 +141,12 @@ synthesis_tools_used:
 
 ## Research Questions
 
-*List the research questions that guided this study.*  
-
-* Question 1
-* Question 2
-* Question 3
+* Question 1: Does the user understand the qualifications around filing on VA.gov, and if they are unable to file on VA.gov, does our process successfully route them to BTSSS?   
+* Question 2: Are participants able to add mileage, as well as additional expenses with documentation, to their claim?   
+* Question 3: Can the participant successfully edit and delete an expense?
+* Question 4: How does the participant navigate within the tool?
+* Question 5: Can a participant leave their claim and then return to it at a later time to add expenses or submit?
+* Question 6: Can the participant successfully submit a claim?   
 
 [Example Research Questions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-questions)
 
@@ -151,8 +154,8 @@ synthesis_tools_used:
 
 *Provide a brief description of the research methods used (e.g., usability testing, interviews).*  
 
-- Method 1: Description  
-- Method 2: Description  
+- Method 1: User acceptance testing (UAT) in production with live appointment and claims data
+- Method 2: Remote, moderated. Participants were observed and guided by researchers as they filed travel reimbursement claims
 
 [Example Methodology](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#methodology)
 
@@ -164,8 +167,13 @@ synthesis_tools_used:
 > [!TIP]
 > Place true or false statements in bold for easier scanability
 
-- **Hypothesis Statement:** [Insert statement]  
-  - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**  
+- **Hypothesis Statement:** We hypothesize that a beneficiary will be able to complete a claim on VA.gov from start to finish. Beneficiaries may be confused by some of the nuances of complex claims, but our content and direction will allow them to successfully add expenses, edit expenses, leave a claim, re-enter, and submit a claim on VA.gov.  
+  - A beneficiary will be able to complete a claim on VA.gov from start to finish.
+  - A beneficiary will be able to successfully add expenses.
+  - A beneficiary will be able to successfully edit expenses.
+  - A beneficiary will be able to leave a claim and re-enter a claim.
+
+  - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**
   - Supporting evidence  
 
 [Example Hypotheses and Conclusions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#hypotheses-and-conclusions)
