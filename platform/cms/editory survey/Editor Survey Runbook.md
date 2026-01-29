@@ -11,10 +11,12 @@ When the survey is ready to be planned out and sent out, please refer to this [t
 Below are templates for the communication about the survey to editors. Each section should be reviewed and, if needed, updated before a new biannual survey is sent out. 
 
 #### Upcoming Survey Banner
-Upcoming! We will be asking for your feedback on Drupal CMS through the Drupal CMS biannual survey. The survey will become available on 02/02/2026. We value your feedback and use it to inform improvements we make to Drupal CMS. You may read more about our feedback-driven updates on the CMS Announcements Page.
+Upcoming! We will be asking for your feedback on Drupal CMS through the Drupal CMS biannual survey. The survey will become available on 02/02/2026. We value your feedback and use it to inform improvements we make to Drupal CMS. You may read more about our feedback-driven updates on the [CMS Announcements Page](https://prod.cms.va.gov/help/cms-announcements).
 
 #### Survey Banner
-We are asking for your feedback on Drupal CMS through the Drupal CMS biannual survey. Please provide survey feedback by 2/27/2026. We value your feedback and use it to inform improvements we make to Drupal CMS. You may read more about our feedback-driven updates on the CMS Announcements Page.
+
+Update the banner on Drupal CMS [here](https://prod.cms.va.gov/admin/content/sitewide_alert/1714?destination=/admin/content/sitewide_alert%3Fpage%3D0).
+We are asking for your feedback on Drupal CMS through the Drupal CMS biannual survey. Please provide survey feedback by [insert date]. We value your feedback and use it to inform improvements we make to Drupal CMS. You may read more about our feedback-driven updates on the [CMS Announcements Page](https://prod.cms.va.gov/help/cms-announcements).
 
 #### Email Sent to Editors about Survey
 Sender: VA CMS email address (vadrupalcms@va.gov)
@@ -31,7 +33,7 @@ Identify factors that affect editor trust and confidence levels in working with 
 
 Measure Drupal CMS editor satisfaction biannual and identify opportunities for improvement. 
 
-Please provide survey feedback by 02/27/2026. This survey will be distributed to Drupal editors on a biannual basis. At the beginning of each quarter, you will have the opportunity to respond. We value your feedback and used it to inform improvements we made to Drupal CMS. You can read more about those improvements on the CMS Announcements Page.
+Please provide survey feedback by 02/27/2026. This survey will be distributed to Drupal editors on a biannual basis. At the beginning of each quarter, you will have the opportunity to respond. We value your feedback and used it to inform improvements we made to Drupal CMS. You can read more about those improvements on the [CMS Announcements Page](https://prod.cms.va.gov/help/cms-announcements).
 
 The VA and VA's Office of Labor Management Relations have reviewed and approved the distribution of this survey. Participation in any user research study is voluntary and any feedback you provide will not be attributed to you. Your anonymity will be protected.  Thank you for taking the time to fill out this survey.
 
@@ -40,7 +42,7 @@ Begin survey.
  
 
 #### Welcome Screen 
-We want to hear how things are going for you on the Drupal CMS. This survey is intended to help us understand what's working, what's not, and what we could do to improve your Drupal CMS experience. We value your feedback and use it to inform improvements we make to Drupal CMS. You can read more about those improvements on the CMS Announcements Page.
+We want to hear how things are going for you on the Drupal CMS. This survey is intended to help us understand what's working, what's not, and what we could do to improve your Drupal CMS experience. We value your feedback and use it to inform improvements we make to Drupal CMS. You can read more about those improvements on the [CMS Announcements Page](https://prod.cms.va.gov/help/cms-announcements)https://prod.cms.va.gov/help/cms-announcements.
 
 The VA and VA's Office of Labor Management Relations have reviewed and approved the distribution of this survey. Participation in any user research study is voluntary and any feedback you provide will not be attributed to you. Your anonymity will be protected. Thank you for taking the time to fill out this survey.
 
@@ -63,7 +65,7 @@ Title: Reminder: Fill out The Drupal Content Management System (CMS) biannual Su
 
 Body:
 
-The Office of the Chief Technology Officer (OCTO) of the Office of Information and Technology is asking for your feedback on using the Drupal Content Management System (Drupal CMS) through the Drupal CMS biannual survey. We value your feedback and used it to inform improvements we made to Drupal CMS. You can read more about those improvements on the CMS Announcements Page.
+The Office of the Chief Technology Officer (OCTO) of the Office of Information and Technology is asking for your feedback on using the Drupal Content Management System (Drupal CMS) through the Drupal CMS biannual survey. We value your feedback and used it to inform improvements we made to Drupal CMS. You can read more about those improvements on the [CMS Announcements Page](https://prod.cms.va.gov/help/cms-announcements).
 
 As a reminder: please provide survey feedback by 02/27/2026. 
 
