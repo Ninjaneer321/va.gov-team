@@ -44,7 +44,9 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 - [ ] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
 
-## Sprint: 26 [01/14/26 - 01/27/26]  
+## Sprint: 26 [01/14/26 - 01/27/26]
+<details>
+    
 | Sprint Goal | Goal P  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
 |UX: Define the scope and feasibility of recurring payments for Pay.gov Overpayments. | P2 |--|1/28/26|Complete|
@@ -65,6 +67,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 - [X] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
 
+</details>
 
 ## Completed Primary Goals
 
