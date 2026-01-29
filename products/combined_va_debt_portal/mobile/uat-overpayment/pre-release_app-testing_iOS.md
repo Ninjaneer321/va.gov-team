@@ -24,7 +24,7 @@
 * The pre-release version of the app will replace the standard version  
 * Confirming with participants ahead of time (for both iOS and Android)  
   * **VA Credentials:** You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).  
-  * **Email Access:** You can open your email directly on your mobile phone to click the test link.  
+  * ~**Email Access:** You can open your email directly on your mobile phone to click the test link.~
   * **Testing Tools:** You are willing to download TestFlight (iOS) or Firebase App Distribution (Android).  
   * **Storage:** You have at least 200MB of free space.  
   * **Phone operating system version:**  
