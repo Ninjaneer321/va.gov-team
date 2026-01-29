@@ -275,8 +275,8 @@ Screener question 1
     * I do not currently owe any of the above types of VA debt. [DISQUALIFY]
 
 Screener question 2
-* When you sign in to VA.gov and go to your debt information, can you see details about an overpayment (for example: amount owed, type of debt, status, or payment options)?
-    * Yes, I can see my overpayment debt details on VA.gov
+* When you sign in to VA.gov and to go My VA, do you see details about "overpayment debts" under the section "Outstanding debts"? (this is different from copay bills)
+    * Yes, I see a listing of 1 or more overpayment debts on VA.gov.
     * No, I don’t see any overpayment debt details on VA.gov [DISQUALIFY]
     * I don’t have a VA.gov account / I can’t sign in right now [DISQUALIFY]
 
