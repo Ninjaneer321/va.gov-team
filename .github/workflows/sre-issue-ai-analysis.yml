@@ -1,7 +1,13 @@
 name: SRE Issue AI Analysis
 
 on:
-  workflow_dispatch: 
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'The Issue ID Number'
+        required: true
+        type: string
+
 jobs:
   analyze-issue:
     runs-on: ubuntu-latest
@@ -17,6 +23,24 @@ jobs:
           sparse-checkout: .github/prompts/
           sparse-checkout-cone-mode: false
 
+      - name: Resolve issue details
+        id: issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueNumber = parseInt('${{ inputs.issue_number }}');
+
+            const { data: issue } = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber
+            });
+
+            core.setOutput('number', issueNumber.toString());
+            core.setOutput('title', issue.title);
+            core.setOutput('body', issue.body || '');
+            console.log(`Resolved issue #${issueNumber}: ${issue.title}`);
+
       - name: Check for existing analysis
         id: check
         uses: actions/github-script@v7
@@ -25,7 +49,7 @@ jobs:
             const comments = await github.rest.issues.listComments({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: context.issue.number
+              issue_number: ${{ steps.issue.outputs.number }}
             });
 
             const hasAnalysis = comments.data.some(comment =>
@@ -39,7 +63,7 @@ jobs:
         if: steps.check.outputs.has_analysis != 'true'
         run: printf '%s' "$ISSUE_BODY" > "$RUNNER_TEMP/issue-body.txt"
         env:
-          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_BODY: ${{ steps.issue.outputs.body }}
 
       - name: Run AI Analysis
         if: steps.check.outputs.has_analysis != 'true'
@@ -50,7 +74,7 @@ jobs:
           model: openai/gpt-4o
           max-tokens: 1500
           input: |
-            issueTitle: ${{ github.event.issue.title }}
+            issueTitle: ${{ steps.issue.outputs.title }}
           file_input: |
             issueBody: ${{ runner.temp }}/issue-body.txt
 
@@ -66,7 +90,7 @@ jobs:
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: context.issue.number,
+              issue_number: ${{ steps.issue.outputs.number }},
               body: analysis
             });
 
