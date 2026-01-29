@@ -12,7 +12,7 @@ description: "For CHAMPVA eligibility study for Veteran participants."
 
 ## Moderator logistics 📋✅
 ### 2-3 days before the session
-- [ ] Make sure convo guide using aligns with participant - Veteran or family member
+- [ ] Make sure convo guide using aligns with the participant - Veteran (Veteran flow) or family member (Applicant flow)
 - [ ] Have links to desktop or mobile prototypes for both versions ready
 - [ ] Have both prototypes ready if need to pivot to backup plan of moderator sharing screen
 
@@ -143,7 +143,9 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
 
 - [ ] API Check step in prototype flow
 
-- What is your reaction to this eligibility determination you see on this screen?
+- How do you feel about the way this application checked your eligibility?
+- Did it feel helpful, intrusive, or something else?
+- Do you trust that this information is accurate?
 
 - Backing up a little bit, please explain to me in your own words what happened once you clicked "continue" on this prototype, and what this message means. 
 
@@ -156,6 +158,8 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
 - [ ] Pause them when they arrive at the gray box eligibility screen
 
 - In your own words, tell me what this page means.
+- Just to make sure I understood you correctly: if you're eligible for Tricare, can you still get CHAMPVA? [Expected answer: No]
+
   
 - What you would do next if you were applying for CHAMPVA today?
 
@@ -208,7 +212,10 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
 - Would you still proceed with the application?
 
 - On a scale of 1-5 (with 1 being very hard and 5 being very easy) 
+
 - how difficult or easy was it to understand the second prototype of the form? Why did you give it that rating?
+
+- If you had to rank the two prototypes by how easy they were to understand, which would be number 1?
 
 - Go ahead and click on the "Continue" button at the bottom of the screen.
 
@@ -262,6 +269,11 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
 - [ ] Page with success alert shown
 
 - You see this message. What would you do? Is there any additional information you want to see here?
+
+[For all cards]
+
+- Across all the alert messages you saw, how confident do you feel that you'd know what to do? (1-5 scale)
+- Were any of the alerts confusing or unclear? Which ones and why?
 
 ## Sixth Task: [SUMMARY CARDS] - 5 minutes
 
