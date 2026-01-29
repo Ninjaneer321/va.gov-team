@@ -371,11 +371,6 @@ When would you like sessions scheduled? Please list exact dates and times in **E
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
-> [!NOTE]
-> **Please do not include email addresses in this section.** We previously required email addresses. VA's GitHub policy ([see announcement](https://github.com/orgs/department-of-veterans-affairs/discussions/13)) has changed. VA.gov email addresses cannot be in public repositories.
->
-> **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
-
 - `Moderator:` **Emily DeWan**	
 - `Research guide writing and task development (usually but not always same as moderator):` **Emily DeWan**		
 - `Participant recruiting & screening:`	**Perigean**	
