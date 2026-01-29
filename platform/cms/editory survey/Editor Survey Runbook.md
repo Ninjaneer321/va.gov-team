@@ -33,7 +33,7 @@ Identify factors that affect editor trust and confidence levels in working with 
 
 Measure Drupal CMS editor satisfaction biannual and identify opportunities for improvement. 
 
-Please provide survey feedback by 02/27/2026. This survey will be distributed to Drupal editors on a biannual basis. At the beginning of each quarter, you will have the opportunity to respond. We value your feedback and used it to inform improvements we made to Drupal CMS. You can read more about those improvements on the [CMS Announcements Page](https://prod.cms.va.gov/help/cms-announcements).
+Please provide survey feedback by [insert date]. This survey will be distributed to Drupal editors on a biannual basis. At the beginning of each quarter, you will have the opportunity to respond. We value your feedback and used it to inform improvements we made to Drupal CMS. You can read more about those improvements on the [CMS Announcements Page](https://prod.cms.va.gov/help/cms-announcements).
 
 The VA and VA's Office of Labor Management Relations have reviewed and approved the distribution of this survey. Participation in any user research study is voluntary and any feedback you provide will not be attributed to you. Your anonymity will be protected.  Thank you for taking the time to fill out this survey.
 
