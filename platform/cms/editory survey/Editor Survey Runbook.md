@@ -61,7 +61,7 @@ The Drupal CMS editor survey has been closed and is no longer accepting response
  
 
 #### Reminder Email and Message to Editors
-Title: Reminder: Fill out The Drupal Content Management System (CMS) biannual Survey by 02/27/2026.
+Title: Reminder: Fill out The Drupal Content Management System (CMS) biannual Survey by [insert date].
 
 Body:
 
