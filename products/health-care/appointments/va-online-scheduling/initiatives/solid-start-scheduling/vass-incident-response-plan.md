@@ -6,7 +6,7 @@ This applies to the VASS scheduling flow application on vets-website.
 
 ## Purpose
 It is critical that we are aware of the performance of va.gov systems, notified when system behavior is impacting veterans, 
-and have the necessary information to address problems quickly.  To accomplish implement the following for your systems:
+and have the necessary information to address problems quickly.  To accomplish implement the following for your systems and follow guidance outline in the For issues and investigations follow the [Production Support Playbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/zero-failures/production-support-playbook.md):
 
 ## Metrics and logging details
 - [Monitoring and alerts](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/solid-start-scheduling/engineering/metrics.md#monitoring--alerts)
@@ -23,7 +23,9 @@ and have the necessary information to address problems quickly.  To accomplish i
 
 TBD
 
-For issues and investigations follow the [Production Support Playbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/zero-failures/production-support-playbook.md)
+### Associated slack channels
+
+[#check-in-experience-apm](https://dsva.slack.com/archives/C02U11L00TF)
 
 ### Watch Officer (watchtower) Process
 
