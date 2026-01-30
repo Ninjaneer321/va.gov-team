@@ -81,10 +81,10 @@ recruitment:
       qualifying_response: "Yes / No / Prefer not to say (this is a new option)"
 
 participants:
-  veterans: 13
+  veterans: 14
   caregivers: 0
   dependents: 0
-  total_recruited: 13
+  total_recruited: 14
   completed_sessions_goal: 9
 
 # Timeline & Sessions
@@ -250,10 +250,10 @@ We will partner with Perigean to recruit Veterans. We will request a kickoff mee
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
-- `Veterans:` **13**
+- `Veterans:` **14**
 - `Caregivers:` **0**
 - `Dependents:` **0**
-- `Total:` **13**
+- `Total:` **14**
 - `Ideal completed sessions:` **9 (minimum)**
 
 ### Primary criteria (must-haves)
@@ -273,7 +273,8 @@ We will partner with Perigean to recruit Veterans. We will request a kickoff mee
 • 5 have associate’s degree as terminal degree  
 • No more than 4 have a bachelor’s or master’s degree as terminal degree
 
-<img width="784" height="880" alt="image" src="https://github.com/user-attachments/assets/56e43cf9-b50c-46e8-b7a0-e50ecb781e88" />
+<img width="780" height="886" alt="image" src="https://github.com/user-attachments/assets/89471c78-6fc2-4b9e-a4b1-f0d18a8c2f8d" />
+
 
 #### Secondary criteria (nice-to-haves)
 
