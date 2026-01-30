@@ -82,15 +82,6 @@ body:
             Collaboration Cycle review and identify issues and recommend
             solutions.
   - type: checkboxes
-    id: research
-    attributes:
-      label: Research Support
-      options:
-        - label: Planning — Review research artifacts, run through conversation guide, and
-            recommend improvements.
-        - label: Observation — Participate in research sessions and provide observation
-            notes and takeaways.
-  - type: checkboxes
     id: implementation
     attributes:
       label: Implementation Support
