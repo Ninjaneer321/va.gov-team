@@ -93,22 +93,24 @@ Before we start, I have a few things that I want to go over with you:
 
 Before we look at the prototype, let’s start with a few warm-up questions.
 
-1. Do you have dependents on your disability compensation benefit?
-     - What type of dependents?
-2. Have you ever had a child between the ages of 18 and 23 on your disability benefit as a student?
-     - Were they on your benefit when they were a minor?
-     - What was the process of notifying VA that they were a student like?
-3. Do you have anything else you want to add?
+1. Do you receive the disability compensation benefit?
+2. Do you have dependents on the benefit?
+     - What type of dependents? (parents, spouse, children)
+3. Do you have a disabled dependent on your benefit?
+     - How old are they?
+     - 
+4. (If applicable) what was the process of notifying VA like?
+5. (If applicable) Did you let VA know that your dependent was disabled before they turned 18?
+6. Do you have anything else you want to add?
        
 
-## First Task: Sharing prototype & Keep or add back a dependent - 10 minutes
+## First Task: Sharing prototype & Keep or add back a dependent - 5 minutes
 
 - Now let's take a look at the prototype.
-- Share [prototype link](https://www.figma.com/proto/7aJrwvfqkN4yvfMdoZj3XB/686c-674---2025-2026-Improvements?page-id=2200%3A54070&node-id=2205-69936&p=f&viewport=-6113%2C2296%2C0.5&t=ON9DMMXzrbqflfLT-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2200%3A64970)
-- We don't put any of your personal information in the prototype so the Veteran name you'll see in the prototype is Jordan Pierce.
-- You receive disability compensation benefits and added your two children as dependents. Your daughter Kira is a sophmore in high school. Your son Kai is a freshman at the United States Military Academy.
-- When your disability check came a few months ago you noticed that the amount was less than normal. You called VA and learned that Kai was removed as your dependent on his 18th birthday. They told you that you can re-add him as a dependent if he is a student and you can fill out the paperwork online.
-- So you log into VA.gov and this is what you see. What would you do next?
+- Share link
+- We don't put any of your personal information or anything about your personal situation in the prototype so the Veteran name you'll see in the prototype is ABC.
+- I'm going to ask you to imagine that you receive disability compensation benefits and your two children, DEF and GHI, are dependents on the benefit. Your son GHI has a permanent disability that has been present from birth. GHI turns 18 in about 3 months and you receive a letter from VA saying that he will be removed from the benefit when he turns 18. You’ve heard that he can remain on your benefit as a disabled dependent so you log into VA.gov to find out how to take that step.
+- When you log into VA.gov, this is what you see. What would you do next?
 
 - *Screen: Add or remove dependents: What would you like to do? Check everything that you want to do.*
      - What would you select here?
@@ -118,102 +120,40 @@ Before we look at the prototype, let’s start with a few warm-up questions.
   
 
 
-## Second Task: Select which eligible children through accreditation - 5 minutes
+## Second Task: XXX (Step 2) - 5 minutes
 
-- You may notice we've jumped to Step 3. Step 1 and 2 are the dependent's address and any previous marriages. We're skipping those for the sake of time today.
+- *Screen: TBD*
+     - 
 
-- *Screen: Select which eligible children will be in school this year*
-     - Do you have any other feedback on this page?
-     - Is there any additional information that you need? Is there any information on the page that you think is unnecessary?
-     - What would you do next?
- 
-- *Screen: Other education benefits*
-     - If you have questions about which benefits to select, what would you do? How would you like to find answers to your questions?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-
-- *Screen: Federally funded schools or programs*
-     - If you have questions about which benefits to select, what would you do? How would you like to find answers to your questions?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-
-- *Screen: KAI's federally funded program or school*
-     - Do you have any feedback on this page?
-     - What would you do next?
- 
-- *Screen: When did KAI start receiving federal education benefits?*
-     - Which date would you fill in here?
-     - If you have questions about which date to enter, what would you do? How would you like to find answers to your questions?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-
-  - *Screen: KAI's school accreditation status*
-     - Is there anything that you would need to know to answer this question? If so, how would you find answers to your questions? How would you like to find answers to your questions?
-     - Do you have any other feedback on this page?
-     - What would you do next?
+  - *Screen: TBD*
+     - 
    
     
 
-## Third Task: Terms and school attendance - 5 minutes
+## Third Task: Add Children (Step 3) - X minutes
 
-  - *Screen: Current or future term*
-     - Which dates would you fill in here?
-     - If you have questions about which date to enter, what would you do? How would you like to find answers to your questions?
-     - How would you describe the difference between the first two dates on the page?
+  - *Screen: DEPENDENT'S Disability Status*
+     - What would you select here?
+     - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
-   
-  - *Screen: KAI's Previous term*
-     - Is there anything that you would need to know to answer this question? If so, how would you find answers to your questions? How would you like to find answers to your questions?
+  
+  - *Screen: Disability documents required*
+     - What would you select here?
+     - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
-
-  - *Screen: KAI's Previous term dates*
-     - How would you decide which dates you would fill in here?
-     - If you have questions about which dates to enter, what would you do? How would you like to find answers to your questions?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-
-  - *Screen: KAI's school attendance history*
-     - Is there anything that you would need to know to answer this question? If so, how would you find answers to your questions? How would you like to find answers to your questions?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-
-  - *Screen: When did KAI stop attending school continuously?*
-     - How would you decide which date to fill in here?
-     - If you have questions about which date to enter, what would you do? How would you like to find answers to your questions?
-     - Do you have any other feedback on this page?
-     - What would you do next?
+      
+  - *Screen: Additional action needed when DEPENDENT turns 18*
+     - ?
 
 
 
-## Fourth Task: Income and expenses - 5 minutes
 
-  - *Screen: KAI's income for this school term*
-     - If you have questions about what to enter, what would you do? How would you like to find answers to your questions?
-     - Do you have any other feedback on this page?
-     - What would you do next?
+## Fourth Task: Upload - X minutes
 
-  - *Screen: KAI's expected income for next year*
-     - If you have questions about what to enter, what would you do? How would you like to find answers to your questions?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-   
-  - *Screen: Value of student assets*
-     - If you have questions about what to enter, what would you do? How would you like to find answers to your questions?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-   
-  - *Screen: KAI's school expenses*
-     - Is there anything that you would need to know to answer this question? If so, how would you find answers to your questions? How would you like to find answers to your questions?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-
-  - *Screen: KAI's school expense amounts*
-     - What would you do on this page?
-     - Is there another way that you would like to enter this information?
-     - Do you have any other feedback on this page?
-     - What would you do next?
+  - *Screen: *
+     - 
        
 
 
