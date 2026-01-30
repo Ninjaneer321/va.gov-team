@@ -10,14 +10,6 @@
 name: Diversity Data Extraction
 
 on: 
-  push:
-    paths:
-      - 'products/**/research/**/*findings*.md'
-      - 'teams/**/research/**/*findings*.md'
-      - '!**/*.doc'
-      - '!**/*.docx'
-      - '!**/*.pptx'
-      - '!**/*.pdf'
   schedule:
     # Run on first day after each quarter ends at 8:00 AM ET (13:00 UTC)
     # Q1 (Jan-Mar) report runs April 1
