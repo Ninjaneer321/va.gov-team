@@ -19,7 +19,8 @@ body:
   - type: markdown
     attributes:
       value: >
-        > [!TIP] > Use the following format for the ticket title — [MHV [Product
+        > [!TIP] 
+        > Use the following format for the ticket title — [MHV [Product
         > Appts | MR | Meds | SM | Portal] / Accessibility] [service type] [brief description]
   - type: markdown
     attributes:
@@ -99,6 +100,11 @@ body:
             and provide guidance on how to address issues.
         - label: Consulting — Provide general guidance and training on accessibility
             topics.
+  - type: markdown
+    attributes:
+      value: >
+        > [!TIP] 
+        > For research support for assistive technology, submit an [intake request with ADE](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=Accessibility-Digital-Experience-Intake-Ticket.md)
   - type: textarea
     id: related
     attributes:
@@ -123,9 +129,17 @@ body:
   - type: checkboxes
     id: next
     attributes:
-      label: ✅ Next steps
+      label: ✅ Tasks
       options:
         - label: Add ticket labels — Add the product's project and labels.
         - label: Save and submit — Save and submit this intake ticket.
         - label: Share on Slack — Start a new thread and post a link to this ticket in the
             mhv-accessibility Slack channel
+  - type: markdown
+    attributes:
+      value: |
+        ### 🔎 Other support resources
+        - [ADE services](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/ade-services.md) — Details about servaices provided by Accessibility Digital Experience (ADE) Team
+        - [Request ADE services](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=Accessibility-Digital-Experience-Intake-Ticket.md) — Intake form for request ADE services
+        - [Assistive Technology checklist for research](https://depo-platform-documentation.scrollhelp.site/research-design/research-with-assistive-technology-users) — Guidance on preparing for research sessions with participants who use AT
+        - [Prepare for an accessibility staging review](Guidance on preparing for a staging review, inclduing the staging review artifact and test instructions) — https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/prepare-for-an-accessibility-staging-review
