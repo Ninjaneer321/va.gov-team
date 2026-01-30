@@ -302,8 +302,6 @@ We will partner with Perigean to recruit Veterans. We request a 30 minute kickof
 • Buffer time between sessions: 30 minutes  
 • Maximum sessions per day: 3
 
-### Availability
-
 ## Availability (all times EST)  
 Please include a 30-minute buffer between sessions.
 
@@ -316,17 +314,17 @@ Please include a 30-minute buffer between sessions.
 ### Wednesday, 2/11
 • 11:00am EST – Cara, Anneka, Athena  
 • 12:00pm EST – Florence, Athena, Anneka  
-• 1:00pm EST – Florence, Athena,  
+• 1:00pm EST – Florence, Athena  
 • 2:00pm EST – Florence, Athena  
 
 ### Thursday, 2/12
-• 11:00am EST – Cara, Anneka
-• 12:00pm EST - Florence, Athena
+• 11:00am EST – Cara, Anneka  
+• 12:00pm EST – Florence, Athena  
 • 2:00pm EST – Anneka, Athena  
 
 ### Friday, 2/13
 • 11:00am EST – Cara, Anneka, Athena  
-• 12:00pm EST – Anneka, Athena  
+• 12:00pm EST – Anneka, Athena (Florence?)
 • 2:00pm EST – Anneka, Athena  
 
 ### Monday, 2/16 – Presidents Day (Holiday – no sessions)
@@ -338,15 +336,15 @@ Please include a 30-minute buffer between sessions.
 
 ### Wednesday, 2/18
 • 1:00pm EST – Florence, Athena, Anneka  
-• 2:00pm EST – Florence, Athena
+• 2:00pm EST – Florence, Athena  
 
 ### Thursday, 2/19
-• 11:00am EST – Anneka, Athena,  
+• 11:00am EST – Anneka, Athena  
 • 12:00pm EST – Florence, Athena, Anneka  
 • 3:00pm EST – Cara, Athena  
 
 ### Friday, 2/20
-• 11:00am EST – Cara, Anneka, Florence, Athena  
+• 11:00am EST – Cara, Anneka, Florence  
 • 2:00pm EST – Anneka, Athena  
 
 ### Monday, 2/23
