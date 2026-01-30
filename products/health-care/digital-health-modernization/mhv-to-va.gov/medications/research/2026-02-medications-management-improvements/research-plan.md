@@ -324,8 +324,8 @@ Please include a 30-minute buffer between sessions.
 
 ### Friday, 2/13
 • 11:00am EST – Cara, Anneka, Athena  
-• 12:00pm EST – Anneka, Athena (Florence?)
-• 2:00pm EST – Anneka, Athena  
+• 12:00pm EST – Anneka, Athena (Florence?)  
+• 2:00pm EST – Anneka, Athena   
 
 ### Monday, 2/16 – Presidents Day (Holiday – no sessions)
 
