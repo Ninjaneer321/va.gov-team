@@ -320,7 +320,8 @@ Please include a 30-minute buffer between sessions.
 • 2:00pm EST – Florence, Athena  
 
 ### Thursday, 2/12
-• 11:00am EST – Cara, Anneka, Anneka  
+• 11:00am EST – Cara, Anneka
+• 12:00pm EST - Florence, Athena
 • 2:00pm EST – Anneka, Athena  
 
 ### Friday, 2/13
@@ -338,10 +339,9 @@ Please include a 30-minute buffer between sessions.
 ### Wednesday, 2/18
 • 1:00pm EST – Florence, Athena, Anneka  
 • 2:00pm EST – Florence, Athena
-• 3:00 EST - Athena, TBD
 
 ### Thursday, 2/19
-• 11:00am EST – Anneka, Athena, Anneka  
+• 11:00am EST – Anneka, Athena,  
 • 12:00pm EST – Florence, Athena, Anneka  
 • 3:00pm EST – Cara, Athena  
 
