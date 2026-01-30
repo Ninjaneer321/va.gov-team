@@ -58,6 +58,13 @@ body:
     attributes:
       label: 🗣️ Slack channel
       description: Link to the Slack channel for discussions about this work.
+  - type: textarea
+    id: timeframe
+    attributes:
+      label: ⏳ Timeframe
+      description: Provide details about the timeframe for this work, for example, staging review dates.
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
