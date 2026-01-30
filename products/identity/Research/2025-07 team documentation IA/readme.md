@@ -1,4 +1,4 @@
-# IA feedback
+# Identity index and team documentation information architecture
 
 This is  information architecture research for our internal team documentation hosted on Github. The output will be an index of Identity team-owned components, applications, integrations, and services.
 
