@@ -25,12 +25,13 @@ The VA wants to ensure that important email communications reach Veterans from t
 ## Measuring Success
 
 ### Key Performance Indicators (KPIs) - this needs to be updated
-
-* The total number of notifications that will alert Veterans to verify their email address on the mobile app.   
-* The total number of Veterans who verify the email address that is listed is accurate on the mobile app.  
-* The total number of Veterans who have updated their email address to a different address than the one originally listed on the mobile app.
-* The total number of clicks on the respective alerts.
-* Track the number of emails that the app is automatically sending when a Veteran logins and still needs to update their contact email. 
+  
+* The total number of Veterans who receive the update contact email address alert on the mobile app. 
+* The total number of Veterans who receive a permanent send failure alert on the mobile app.  
+* The total number of Veterans who receive a temporary send failure alert on the mobile app.
+* The total number of Veterans who verify their contact email address on the mobile app.
+* Track the number of emails that the app is automatically sending when a Veteran logs in and still needs to update their contact email.
+  * Not sure if this is possible? 
 
 ### Supporting OCTO OKRs:
 
