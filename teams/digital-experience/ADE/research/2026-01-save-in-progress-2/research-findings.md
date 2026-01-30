@@ -153,23 +153,12 @@ synthesis_tools_used:
 
 ## Hypotheses and Conclusions
 
-*List hypotheses explored in the research and the conclusions drawn. If applicable, list the success or task completion rate.*
-
-> [!TIP]
-> Place true or false statements in bold for easier scanability
-
-- **Hypothesis Statement:** [Insert statement]  
-  - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**  
-  - Supporting evidence  
-
-[Example Hypotheses and Conclusions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#hypotheses-and-conclusions)
-
 1. With the new design, Veterans are confident that their form data will be saved.
     - **Definitely False** because most participants said they would lose the information they entered if they didn't use the Finish later button or submit the form. They didn't realize that the form was saving their information every time they moved onto the next field.
 1. Telling Veterans about auto saving after the first form page is a time when they are receptive and likely to remember.
     - **Definitely False** because most participants skipped past the interstitial page in their zeal to fill out the form. 
 1. With the new design, Veterans will be able to stop filling out a form, get signed out, and then resume filling out a form.
-    - **Definitely True** because all participants used the Finish later button to stop filling out the form, and successfully resumed by signing in and then using the My VA page. 
+    - **Likely True** because all participants used the Finish later button to stop filling out the form, and successfully resumed by signing in and then using the My VA page. 
 1. All Veterans (including screen magnifier and screen reader users) will find the accordion controls on the left side easy to use.
     - **Likely True** because all 6 participants who interacted with the accordions on the Review/Submit page were able to easily open and close them, which included one person using a screen magnifier.
 
