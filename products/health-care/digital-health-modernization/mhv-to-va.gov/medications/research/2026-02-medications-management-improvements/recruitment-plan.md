@@ -1,19 +1,22 @@
-# Recruitment: Medications management improvements study
+## Recruitment 🎯
+*OCTO works with Perigean, a small business, to handle the recruitment, scheduling, and compensation of Veterans and caregivers.*
 
-## Recruitment approach
+### Recruitment approach
+
 We will partner with Perigean to recruit Veterans. We will request a kickoff meeting with Perigean to align on sample needs, diversity targets, and scheduling details.
 
-## Recruitment criteria
-• Participants to schedule: 14 Veterans  
-• Ideal completed sessions: 9 (minimum)  
-• Caregivers: 0  
-• Dependents: 0  
-• Device requirement: All participants must join from a secure connection on a laptop or desktop  
+### Recruitment criteria
 
-## Accessibility note
-We will **not** be recruiting assistive technology users because the Figma prototype is not fully compatible with assistive technologies and cannot be reliably tested with screen readers or similar tools.
+### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
-## Primary criteria (must-haves)
+- `Veterans:` **14**
+- `Caregivers:` **0**
+- `Dependents:` **0**
+- `Total:` **14**
+- `Ideal completed sessions:` **9 (minimum)**
+
+### Primary criteria (must-haves)
+
 • All participants have VA health care as a benefit  
 • 8 (minimum) use the VA for their medications  
 • 7 have a traumatic brain injury or cognitive disability  
@@ -29,52 +32,34 @@ We will **not** be recruiting assistive technology users because the Figma proto
 • 5 have associate’s degree as terminal degree  
 • No more than 4 have a bachelor’s or master’s degree as terminal degree
 
-<img width="780" height="886" alt="image" src="https://github.com/user-attachments/assets/e6524309-f01f-4335-858d-42e275b96959" />
+<img width="780" height="886" alt="image" src="https://github.com/user-attachments/assets/89471c78-6fc2-4b9e-a4b1-f0d18a8c2f8d" />
 
-## Screener questions
 
-1. Do you receive VA healthcare benefits?
-o Yes (recruit)
-o No (not eligible for study)
+#### Secondary criteria (nice-to-haves)
 
-2. Do you use the VA to refill your medications?
-o Yes (recruit)
-o No (not eligible for study)
+**[None listed]**
 
-3. If you use the VA to get your medications, how often would you guess you place an order for your medications using the VA.gov website or the VA Health and Benefits mobile app?
-o 1–2 times a year
-o 3–4 times a year
-o 5–12 times a year
-o 13 or more times a year
-o I don’t get my medications from the VA (do not recruit)
+## Timeline 🗓️
 
-4. Have you ever been diagnosed with a traumatic brain injury, PTSD, or cognitive impairment of some sort?
-(We ask this because we want to make sure that our tools work for people who live with challenges like these.)
-o Yes
-o No
-o Prefer not to say (this is a new option)
+### Optional Kick-off Call with Perigean
 
-## Timeline
-• Planning + Prep: ends by send to ReOps EOD Tuesday 1/27
-• Recruit sent to Perigean: Thursday, 1/29
-• Data collection (interviews): Tuesday, 2/10/26 - Monday, 2/23/26
-
-## Kick-off call with Perigean (proposed dates)
 We will partner with Perigean to recruit Veterans. We request a 30 minute kickoff meeting with Perigean to align on what is needed and desired from the sample. Availability for potential kickoff meeting times with Perigean, depending on their availability is below. More time can be made available based on Perigean’s needs.
 - TBD
 
-## Prepare (pilot)
+### Prepare
+
 • Pilot participant name: Veteran from MHV Team  
-• Date and time of pilot: Will handle this internally  
+• Date and time of pilot: Will handle this internally
 
-## Research sessions
-• Sessions starting: Friday, February 10, 2026  
-• Sessions ending: Wednesday, February 23, 2026  
+### Research sessions
 
-## Length of sessions
+• Data collection (interviews): Tuesday, 2/10/26 - Monday, 2/23/26
+
+### Length of sessions
+
 • Session length: 60 minutes  
 • Buffer time between sessions: 30 minutes  
-• Maximum sessions per day: 3  
+• Maximum sessions per day: 3
 
 ## Availability (all times EST)  
 Please include a 30-minute buffer between sessions.
@@ -88,17 +73,18 @@ Please include a 30-minute buffer between sessions.
 ### Wednesday, 2/11
 • 11:00am EST – Cara, Anneka, Athena  
 • 12:00pm EST – Florence, Athena, Anneka  
-• 1:00pm EST – Florence, Athena,  
+• 1:00pm EST – Florence, Athena  
 • 2:00pm EST – Florence, Athena  
 
 ### Thursday, 2/12
-• 11:00am EST – Cara, Anneka, Anneka  
-• 12:00pm EST – Florence, Athena, Anneka  
+• 11:00am EST – Cara, Anneka  
+• 12:00pm EST – Florence, Athena  
 • 2:00pm EST – Anneka, Athena  
 
 ### Friday, 2/13
 • 11:00am EST – Cara, Anneka, Athena  
-• 2:00pm EST – Anneka, Athena  
+• 12:00pm EST – Anneka, Athena (Florence?)  
+• 2:00pm EST – Anneka, Athena   
 
 ### Monday, 2/16 – Presidents Day (Holiday – no sessions)
 
@@ -112,12 +98,12 @@ Please include a 30-minute buffer between sessions.
 • 2:00pm EST – Florence, Athena  
 
 ### Thursday, 2/19
-• 11:00am EST – Anneka, Athena, Anneka  
+• 11:00am EST – Anneka, Athena  
 • 12:00pm EST – Florence, Athena, Anneka  
 • 3:00pm EST – Cara, Athena  
 
 ### Friday, 2/20
-• 11:00am EST – Cara, Anneka, Florence, Athena  
+• 11:00am EST – Cara, Anneka, Florence  
 • 2:00pm EST – Anneka, Athena  
 
 ### Monday, 2/23
@@ -126,12 +112,17 @@ Please include a 30-minute buffer between sessions.
 • 1:00pm EST – Florence, Athena  
 • 2:00pm EST – Anneka, Athena  
 
-## Team roles
-• Moderator: Florence McCafferty, Anneka van Garza, Athena Bozak, Cara Frissell  
-• Research guide writing and task development (usually but not always same as moderator): Cara Frissell, Florence McCafferty, Athena Bozak  
-• Participant recruiting & screening: Perigean  
-• Project point of contact: Florence McCafferty, Athena Bozak,  Anneka van Garza, Cara Frissell  
+## Team Roles  🕵️👩‍💻👩‍🔬
 
-## Approvals
-• Reviewed by: Cara Frissell, Team Lead  
-• Reviewed by: Robyn Singleton, OCTO Research-Ops Lead
+- `Moderator:` **Florence McCafferty, Anneka van Garza, Athena Bozak, Cara Frissell**
+- `Research guide writing and task development (usually but not always same as moderator):` **Cara Frissell, Florence McCafferty, Athena Bozak**
+- `Participant recruiting & screening:` **Perigean**
+- `Project point of contact:` **Florence McCafferty, Athena Bozak,  Anneka van Garza, Cara Frissell**
+- `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[Not recruiting assistive technology users]**
+- `Note-takers:` **[Not specified]**
+- `Observers:` **[Not specified]**
+
+## Approvals ✅
+
+- `Reviewed by Cara Frissell, Team Lead`
+- `Reviewed by Robyn Singleton, OCTO Research-Ops Lead`
