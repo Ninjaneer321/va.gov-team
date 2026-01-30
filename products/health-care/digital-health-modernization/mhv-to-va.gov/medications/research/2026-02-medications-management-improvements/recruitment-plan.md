@@ -4,7 +4,7 @@
 We will partner with Perigean to recruit Veterans. We will request a kickoff meeting with Perigean to align on sample needs, diversity targets, and scheduling details.
 
 ## Recruitment criteria
-• Participants to schedule: 13 Veterans  
+• Participants to schedule: 14 Veterans  
 • Ideal completed sessions: 9 (minimum)  
 • Caregivers: 0  
 • Dependents: 0  
@@ -29,7 +29,7 @@ We will **not** be recruiting assistive technology users because the Figma proto
 • 5 have associate’s degree as terminal degree  
 • No more than 4 have a bachelor’s or master’s degree as terminal degree
 
-<img width="784" height="880" alt="image" src="https://github.com/user-attachments/assets/56e43cf9-b50c-46e8-b7a0-e50ecb781e88" />
+<img width="780" height="886" alt="image" src="https://github.com/user-attachments/assets/e6524309-f01f-4335-858d-42e275b96959" />
 
 ## Screener questions
 
