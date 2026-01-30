@@ -11,7 +11,7 @@ This document outlines the key design decisions made for implementing  `va-link`
 
 ### Status: Accepted
 - Date issue raised: 01/09/2026
-- Decision date: 
+- Decision date: 01/29/2026
 
 ### Context
 Browsers don't reliably support the HTML `download` attribute for files hosted on a different origin. When a file is cross-origin (including different subdomains), the browser may ignore the attribute and instead navigate to or preview the file in the same tab.
