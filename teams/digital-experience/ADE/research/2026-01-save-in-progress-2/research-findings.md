@@ -178,9 +178,9 @@ synthesis_tools_used:
 
 [Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
 
-1. Finding one
-1. Finding two
-1. Finding three
+1. The interstitial page was NOT effective in communicating about save in progress because when it came up, most users were focused on filling out form fields and anything other than that was ignored.
+1. Most users didn't think that saving would happen anytime other than after clicking the Finish later button or submitting the form.
+1. Most users would like their form data to be saved all the time, and they were pleasantly surprised when they heard that was happening. 
 1. Finding four
 1. Finding five
 1. Finding six
