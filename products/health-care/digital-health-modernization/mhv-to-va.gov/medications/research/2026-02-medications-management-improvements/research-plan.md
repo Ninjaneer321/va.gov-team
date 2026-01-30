@@ -36,12 +36,14 @@ research_questions:
   - "How do users move between the different interfaces of the Medications experience? What navigational tactics do users notice and use? How helpful is each one in supporting users in accomplishing their key task?"
 
 hypotheses:
-  - "Veterans will make sense of the new Medications experience based on what they’ve experienced before with VA medications, even when the design introduces new steps, labels, or processes."
-  - "Veterans will notice that medications move through different phases, but won’t always understand what those phases mean or what they’re supposed to do without clear, plain-language guidance."
-  - "Veterans will have an easier time completing tasks when information about what’s happening and what to do next is shown together in a clear, connected way."
-  - "Veterans will have trouble finding what they need when medication information and actions are spread across multiple pages or tools instead of feeling like one connected experience."
-  - "Veterans will orient themselves by medication name and status first, and will turn to filters, sorting, and navigation tools mainly when the list feels overwhelming."
-  - "Clear structure, consistent language, and predictable patterns will help Veterans feel more confident and less hesitant when managing their medications."
+  - "Most Veterans will be able to find and understand the status of medications that are in progress."
+  - "Most Veterans will understand what the different medication progress states mean and what happens next."
+  - "Veterans will use navigation cues, links, filtering, and sorting to locate and learn more about their medications."
+  - "Most Veterans will be able to locate and identify medications when they do not know the medication name."
+  - "Veterans will be able to determine whether they can request more of a medication from the Medications list view."
+  - "Most Veterans will be able to complete a refill request and understand what happens after submission."
+  - "Most Veterans will be able to find a complete list of their current medications."
+  - "Veterans will recognize that their medication list can be printed or shared and understand what information it includes."
 
 expected_outcomes: "The insights that come out of this research will inform the design solution implemented and illuminate what features the team should prioritize for future iterations."
 
@@ -206,19 +208,23 @@ The insights that come out of this research will inform the design solution impl
 
 ### Hypotheses
 
-**`1.` Veterans will make sense of the new Medications experience based on what they’ve experienced before with VA medications, even when the design introduces new steps, labels, or processes.**
+**`1.` Most Veterans will be able to find and understand the status of medications that are in progress.**
 
-**`2.` Veterans will notice that medications move through different phases, but won’t always understand what those phases mean or what they’re supposed to do without clear, plain-language guidance.**
+**`2.` Most Veterans will understand what the different medication progress states mean and what happens next.**
 
-**`3.` Veterans will have an easier time completing tasks when information about what’s happening and what to do next is shown together in a clear, connected way.**
+**`3.` Veterans will use navigation cues, links, filtering, and sorting to locate and learn more about their medications.**
 
-**`4.` Veterans will have trouble finding what they need when medication information and actions are spread across multiple pages or tools instead of feeling like one connected experience.**
+**`4.` Most Veterans will be able to locate and identify medications when they do not know the medication name.**
 
-**`5.` Veterans will orient themselves by medication name and status first, and will turn to filters, sorting, and navigation tools mainly when the list feels overwhelming.**
+**`5.` Veterans will be able to determine whether they can request more of a medication from the Medications list view.**
 
-**`6.` Clear structure, consistent language, and predictable patterns will help Veterans feel more confident and less hesitant when managing their medications.**
+**`6.` Most Veterans will be able to complete a refill request and understand what happens after submission.**
 
----
+**`7.` Most Veterans will be able to find a complete list of their current medications.**
+
+**`8.` Veterans will recognize that their medication list can be printed or shared and understand what information it includes.**
+
+These hypotheses were developed by looking across the study tasks and pulling out the core behaviors we want to understand, how Veterans find their medications, make sense of what’s happening with them, move through the new Medications experience, complete refills, and get a clear medication list they can use. They’re grouped to stay focused on user outcomes rather than specific UI details.
 
 ## Methodology  🛠️
 ***Describe the method you’re planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.***
