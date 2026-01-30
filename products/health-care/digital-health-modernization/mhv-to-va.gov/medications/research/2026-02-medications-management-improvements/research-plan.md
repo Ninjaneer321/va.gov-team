@@ -12,7 +12,7 @@ background:
   problem_statement: "Enable and support Veteran users in managing their medications from the VA, including ordering, tracking, reviewing and sharing information."
   product_location: "VA.gov authenticated experience (Medications)"
   user_familiarity: "Iteration / improvements to an existing Medications experience"
-  product_brief_url: ""
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/README.md"
 
 # Research Design
 methodology: "60 minute video interviews over Zoom. We will rotate the order in which tasks are asked of participants."
@@ -148,7 +148,7 @@ tags:
 
 `Product Brief`
 
-**[Link to product brief](url goes here).**
+**[Link to product brief]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/README.md)).**
 
 </details>
 
