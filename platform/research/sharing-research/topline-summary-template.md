@@ -1,3 +1,10 @@
+# This template has been archived! 
+### The new template is called [field-observations-template.md](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/platform/research/sharing-research/field-observations-template.md)
+
+### Can't find what you're looking for? Reach out to [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) on Slack.
+
+----
+
 # [Research Name] Top-line Summary
 [link research plan]()
 [link conversation guide]()
