@@ -1,4 +1,4 @@
-# 2026-02 Dissatisfaction Discovery - Research Findings 
+# 2026-01 Dissatisfaction Discovery - Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Sign in, Identity**
 
@@ -320,8 +320,6 @@ Related topics and tags were mapped to these themes to calculate the scale and f
 
 ##### Supporting Evidence
 
-* Quantitative:  
-  * Q3 2025: 007 errors indicate SSN mismatch or missing personal information  
 * Qualitative Patterns   
   * Q3 2025: “After the recent update I can’t login to the mobile app by ID.me, it’s giving me email and password incorrect” \- app store review  
   * Q2 2025: Trustpilot (Login.gov) 8/3: “It’s saying that it can’t match my addresses, so I can’t access necessary systems like those needed as a federal employee and the VA.”  
@@ -346,12 +344,11 @@ Related topics and tags were mapped to these themes to calculate the scale and f
 ##### Supporting Evidence
 
 * Quantitative:  
-  * All time periods: Multiple error codes reported across datasets  
+  * All time periods: Multiple error codes reported across datasets
+  * Q3 2025: 007 errors indicate SSN mismatch or missing personal information   
   * Q3 2025: 813 calls to ID.me call center classified as a VA error  
   * Q3 2025: 122 (5%) feedback surveys mentioned page load issues  
-  * Q4 2024: 'Page load' issues tagged in 6.7% of intercept surveys
-
-
+  * Q4 2024: 'Page load' issues tagged in 6.7% of intercept surveys 
 * Qualitative Patterns:  
   * Timeout issues with inactivity modal  
     * Q1 2025: "when the 'inactivity' screen pops up the option to 'Stay signed In' does not respond. The message blocks the screen so nothing can be done and it eventually logs me out"  

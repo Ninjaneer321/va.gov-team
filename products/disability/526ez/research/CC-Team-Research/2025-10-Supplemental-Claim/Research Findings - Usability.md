@@ -186,7 +186,7 @@ Sessions were 75 minutes. They were structured as follows:
 Sessions were conducted remotely, over Zoom. Participants joined from a computer, tablet, or smartphone.
 
 ### Research materials
-- [Convesation guide V1](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Conversation%20guide.md)
+- [Conversation guide V1](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Conversation%20guide.md)
 - [Conversation guide V2](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Conversation%20guide%20v2.md)
 - [Prototype](https://www.figma.com/proto/P6IUm8gN00H3Yi1XzN80fj/-526ez--Condition-information-entry?page-id=6174%3A18589&node-id=6524-47192&viewport=653%2C-7741%2C0.75&t=UWlAy6DgYnnYEKOL-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6524%3A47192&show-proto-sidebar=1)
 
@@ -274,7 +274,7 @@ The ‘Supplemental Claim info’ screen (which appeared after the user chose a 
 ### Finding 3: Veterans expect to provide contextual information and evidentiary support about their claim, and were confused about how to do that and why they were not able to.
 Telling their story and providing evidence are primary pillars of Veterans’ mental model around disability benefits. But the online 526 structure does not match that model.
 
-|<img width="1536" height="405" alt="Screenshot 2026-01-23 at 15 57 10" src="https://github.com/user-attachments/assets/567aeda9-cacc-4ff6-9c21-9025bc5d7d26" />|
+|<img width="1559" height="440" alt="Screenshot 2026-01-27 at 09 26 54" src="https://github.com/user-attachments/assets/3e783ba3-564d-49a6-ba73-448e2be485dd" />|
 |---|
 
 #### Submitting evidence

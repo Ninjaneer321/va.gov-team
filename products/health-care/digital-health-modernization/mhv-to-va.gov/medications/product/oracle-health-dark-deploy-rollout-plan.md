@@ -91,14 +91,16 @@ When the toggle is enabled:
 |------------|--------|-------|
 | Oracle Health meds fetch | ✅ Complete | Tested in lower environments |
 | Oracle Health refills | ✅ Complete | Tested with trusted users |
-| Vista meds with toggle on | ⚠️ **REQUIRED** | Must confirm with 1-2 patients before rollout |
-| Vista refills with toggle on | ⚠️ **REQUIRED** | Must confirm SCDF pass-through works |
+| Vista meds with toggle on | ✅ Complete | Must confirm with 1-2 patients before rollout |
+| Vista refills with toggle on | ✅ Complete | Must confirm SCDF pass-through works |
 
 ### 3.1 Critical Pre-Rollout Gate
 
 **Before any percentage rollout:**
-- [ ] Confirm Vista medication list retrieval works with toggle on (1-2 test patients)
-- [ ] Confirm Vista refill submission works with toggle on (1-2 test patients)
+- [x] Confirm Vista medication list retrieval works with toggle on (1-2 test patients)
+- [x] Confirm Vista refill submission works with toggle on (1-2 test patients)
+- [ ] ~Confirm that allergies are correctly returned via SCDF for both VistA and Oracle Health Patients~
+- [ ] ~Merge and test [PR to use SCDF allergies](https://github.com/department-of-veterans-affairs/vets-website/pull/41693) for patients in the dark deploy toggle~
 
 This validates that Spring Cloud Dataflow correctly passes through Vista requests to MHV RX API.
 

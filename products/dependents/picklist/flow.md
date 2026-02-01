@@ -16,20 +16,18 @@ flowchart TD
 
     DepType -- "Child" --> ChildIsStepchild[Is stepchild?]
     ChildIsStepchild -- yes/no --> ChildReasonToRemove{Reason to remove}
-    ChildHasDisability -- "No" --> ChildLeftSchoolDetails[Left school details]
     ChildLeftSchoolDetails --> NextDep
     ChildReasonToRemove -- "married" --> ChildMarriedDetails[Married details]
     ChildMarriedDetails --> NextDep
     ChildReasonToRemove -- "death" --> ChildDeathDetails[Death details]
     ChildDeathDetails --> NextDep
-    ChildReasonToRemove -- "left school" --> ChildHasDisability{Child has permanent disability?}
-    ChildHasDisability -- "Yes" --> ChildStillQualifies[Still qualifies]
-    ChildStillQualifies --> exit([Exit form])
+    ChildReasonToRemove -- "left school" --> ChildLeftSchoolDetails[Left school details]
     ChildReasonToRemove -- "stepchild left household" --> ChildHalfFinancialSupport{Provide at least half financial support?}
     ChildHalfFinancialSupport -- "no" --> ChildLeftHouseholdDetails[Left household details]
     ChildLeftHouseholdDetails --> NextDep
-    ChildHalfFinancialSupport -- "yes" --> ChildStillQualifies2[Still qualifies]
-    ChildStillQualifies2 --> exit
+    ChildHalfFinancialSupport -- "yes" --> ChildAddress[Child current address]
+    ChildAddress --> ChildLivesWith[Child lives with]
+    ChildLivesWith --> ChildLeftHouseholdDetails
     ChildReasonToRemove -- "adopted" --> ChildAdoptedDetails[Adopted details]
     ChildAdoptedDetails --> exit
 
@@ -52,4 +50,4 @@ flowchart TD
 
 ```
 
-updated: 11/17/2025
+updated: 1/26/2026

@@ -1,0 +1,38 @@
+
+# Incident Response Plan
+
+## Scope 
+This applies to the VASS scheduling flow application on vets-website.
+
+## Purpose
+It is critical that we are aware of the performance of va.gov systems, notified when system behavior is impacting veterans, 
+and have the necessary information to address problems quickly. To accomplish implement the following for your systems:
+
+### Metrics and logging details
+- [Monitoring and alerts](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/solid-start-scheduling/engineering/metrics.md#monitoring--alerts)
+- [Logging](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/solid-start-scheduling/engineering/logging.md)
+
+### TODO: Create dashboard and monitors and document here:
+
+
+### Dashboards
+
+[Stakeholder dashboard](https://vagov.ddog-gov.com/dashboard/fw6-j3c-zns?fromUser=false&refresh_mode=sliding&from_ts=1769610040701&to_ts=1769613640701&live=true)
+
+### Monitors
+
+TBD
+
+### Associated slack channels
+
+[#check-in-experience-apm](https://dsva.slack.com/archives/C02U11L00TF)
+
+### Watch Officer (watchtower) Process
+
+Once we have calibrated our monitors to alert us when it makes sense. We should add the watchtower notification to those monitors.
+
+[### Prod support playbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/zero-failures/production-support-playbook.md)
+
+## In the event of an incident
+
+Follow the [Production support playbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/zero-failures/production-support-playbook.md)

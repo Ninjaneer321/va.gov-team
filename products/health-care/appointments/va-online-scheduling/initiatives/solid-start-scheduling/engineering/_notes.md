@@ -135,28 +135,28 @@ The new team will be onboarded to VANotify and a dynamics action will trigger th
 - TODO: Postman collection to be added here(keys and instructions will be in onboarding email)
 - Can only be accessed on network GFE or Remote Desktop
 
-### Infrastructure & Operations ([recommendations.md](./recommendations.md))
+### Infrastructure & Operations
 
 - How are we monitoring?
 - How are we deploying?
 - Should we be versioning the endpoints?
 - Where is the source code located? Github?
 
-### API Design - GetAppointments ([recommendations.md](./recommendations.md))
+### API Design - GetAppointments 
 
 - What is the upperbound of number of appointments a Veteran could have?
 
-### API Design - AppointmentAvailability ([recommendations.md](./recommendations.md))
+### API Design - AppointmentAvailability 
 
 - Should the get appointment slots support pagination?
 - When does the time slot get locked?
 - How are skills related to appointments?
 
-### API Design - SaveAppointment ([recommendations.md](./recommendations.md))
+### API Design - SaveAppointment 
 
 - This is a UPSERT, that's fine, but what all fields get updated?
 
-### API Design - CancelAppointment ([recommendations.md](./recommendations.md))
+### API Design - CancelAppointment
 
 - What is the response? A HTTP 204?
 

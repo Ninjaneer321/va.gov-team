@@ -8,7 +8,7 @@ Accepted
 
 Early in planning, the team decided that VASS did not require full Veteran authentication. The initial proposal was to reuse LoROTA in a manner similar to the check-in experience.
 
-As the design evolved, it became clear that VASS did not need to store Veteran or appointment data. This differs from check-in and pre-check-in flows, which persist data for up to roughly one week.
+As the design evolved, it became clear that VASS did not need to store Veteran for very long (1 hour). This differs from check-in and pre-check-in flows, which persist data for up to roughly one week.
 
 LoROTA is implemented as a serverless architecture using AWS Lambdas and includes its own datastore. While appropriate for check-in use cases, this approach introduces additional infrastructure, operational overhead, and relies on a framework with limited team familiarity.
 
@@ -34,6 +34,6 @@ The OTP flow leverages the existing Redis cache in `vets-api`, allowing the syst
 
 ## Notes
 
-August 22 - Met with Adrian Rollett over zoom to discuss possible solutions where a OTP(OTC) flow was proposed as an alternative to using LoROTA.
-
-Some [slack](https://dsva.slack.com/archives/C06RMRJCLHH/p1755806986474159) discussion around pitfalls of lorota and answers for other team members: https://dsva.slack.com/archives/C06RMRJCLHH/p1755806986474159
+- August 22 - Met with Adrian Rollett over zoom to discuss possible solutions where a OTP(OTC) flow was proposed as an alternative to using LoROTA.
+- [Slack](https://dsva.slack.com/archives/C06RMRJCLHH/p1755806986474159) discussion around pitfalls of lorota and answers for other team members
+- 

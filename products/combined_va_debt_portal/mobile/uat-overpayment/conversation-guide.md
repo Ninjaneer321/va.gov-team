@@ -1,22 +1,27 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+title: "Conversation Guide for VA Mobile App Team, Debt Portal (Overpayments UAT), 2026-01-29"
+author:  "Emily DeWan"
+date_created:  "2026-01-26"
+last_modified: "2026-01-29"
+tags: 
+  - "AUD: Veterans"
+  - "PRDT: Debt-portal"
+  - "HDW: Smartphone"
+  - "DSP: Content Presentation"
+  - "DSC: Button"
+  - "DSC: Links"
+  - "moderated"
+  - "uat"
+description: "A moderated UAT conversation guide for testing the VA mobile app’s Debt Portal overpayment experience, validating that key screens, navigation, and actions display and behave correctly in a pre-release build."
 ---
 
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've filled out your conversation guide below.**
-> 
-> Use the [GitHub Copilot Conversation Guide Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed conversation guide.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags based on your tasks and research objectives.
 
-# Conversation Guide for [initiative]
+# Conversation Guide for UAT Overpayments on Mobile App
 
 ## Moderator logistics 📋✅
+
+<details><summary>steps</summary>
+
 ### 2-3 days before the session
 
 > [!NOTE]
@@ -43,126 +48,84 @@ description: "A template for moderating research sessions including logistics, i
 > - Check your [screensharing setup] and share permissions for participants.
 > - When the participant is ready, begin the session with the following intro*
 
-# Intro - 5 minutes
-
-Thanks for joining us today! My name is **[NAME]** and **[NOTETAKER NAME]** is taking notes.
-I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them... 
-
-Today we're going to talk about making updates to health care information.
+</details>
 
 
-Before we start, I have a few things that I want to go over with you:
+## Intro - 5 minutes
 
-- **This entire session should take about 60 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
-  
-- **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
-  
-- **Your participation in this interview is completely voluntary.** You do not have to participate if you don't want to. Whether you choose to participate or not will not affect your benefits in any way with the VA. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Please let me know.
-  
-- I know the folks who invited you to participate in this interview asked if it was alright to allow people to observe this interview, but I want to double-check with you before we get going. **Are you okay with a couple of additional observers during this session?**
-   - <mark>**If no:** Use Slack to kindly ask the observers to leave the Zoom.</mark>
-   - **If yes:** Admit observers.
-     
-> [!TIP]
-> - Then, ask the notetaker and observers to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)
-> - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
-     
-- *(If applicable)* **You'll be interacting with a prototype today.** This is a demo tool that may not function exactly the way you expect. Some areas of the prototype will be clickable, and some will not. <mark>**Since it's a demo, none of your actions will affect your VA information or benefits.**</mark>
-  
-- **Are you comfortable if I record my screen and audio as we talk today?** We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will be attributed to you directly. We either report findings out in groups (i.e., 5 out of 10 participants said this), or if we want to quote you directly, we take away any identifying information and give you a participant ID, like P7.
-   - **Knowing that, are you comfortable if I record my screen and audio as we talk today?**
+Thank you so much for joining today. My name is Emily, and [NAME] here will be taking notes. I also have a couple other colleagues in the digital waiting room who would like to observe, but we’ll get to that momentarily.
 
-   <mark>**[Record answer here]**</mark>
-     
-- **Would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veterans’ experiences?** One of the ways that we share findings with our partners across the VA is by showing short video clips of sessions with Veterans. In these video clips, we blur out any information that could possibly be used to identify you, like your onscreen image. Sharing these video clips can be a compelling way for our partners to better understand what Veterans go through when using VA.gov and our digital products. These clips will not be shared outside of the VA. We don't know at this point if we will or not, but we like to ask ahead of time. At the end of the interview, I'll also confirm that this is okay with you, so you will get a chance to veto this once you know what we've discussed.
-   - **Knowing this, would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veteran's experiences?**
- 
-   <mark>**[Record answer here]**</mark>
+Today, we’re testing a pre-release version of the VA app specifically to check the Debt Portal before it's released to the public. We want to make sure that every button you press results in the correct information being shown on screens.
 
-   - If yes: **Once I start recording, I am going to confirm that you are okay with me recording this session once more.**
+I'll be helping you download a test version of the app. If you currently have the VA app on this phone, this test version will replace it. I'll help you restore the original version once you're done.
 
-➡️ **Start recording.**
+Your participation in this is completely voluntary. Nothing you do here will affect your VA benefits in any way. During this session, we'll be asking you to share your screen which will show your personal debt records. If you would like to stop the session or do not want to show us something at any time, that's no problem. Please let me know.
 
-> [!TIP]
-> After you start the recording, click the Show captions (CC) button to enable transcription for the recording.
+I want to review a few things to make sure you're okay with what will happen in this session
 
-- **I have started recording.** I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
+* You're on a mobile phone now? Is it an iPhone or an Android?
+* You indicated that you have a current overpayment debt. Are you able to see the details of this debt when you log into your VA account on the website?
+* You have your username and password ready to log into the app? [ID.me or Login.gov and can access your two-factor authentication - text code or app]
+* screensharing
+    * _[yes to screen sharing]_ Are you okay with sharing your screen as you click through your overpayment details?
+    * _[no to screen sharing]_ As you click though the app, you'll be describing what you see.
+* You have access to your email account here on this phone?
+* Are you connected to WiFi? _[If not, are they able to be?]_
+* I have [number] colleagues who are interested in observing this session to better understand the Veteran experience. Would you be okay with them observing?
+    * If no: Use Slack to kindly ask the observers to leave the Zoom.
+    * If yes: Admit observers.
+    * Then, ask the notetaker and observers to give a brief, camera-on introduction, like their first name and position with VA.gov. 
+    * Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
+* If you would be okay with it, we would like to record this session today, but let me explain things first before you consent. 
+    * Any reporting I do from this would not use your name or personal details.
+    * I will pause the recording when you are entering your password so that your login details are not captured.
+    * Knowing this, are you comfortable with me recording the session?
+    * Once we record I'm going to ask again just so it's on the record.
 
- <mark>**[Record answer here]**</mark>
- 
-- **Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners if we remove any information that can be used to identify you?**
+Start recording.
 
- <mark>**[Record answer here]**</mark>
+* I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
 
-# Warm-up Questions (Optional) - 5 minutes
 
-Before we look at the website, let’s start with a few warm-up questions.
+## Set-up
 
-1. Do you have a service-connected disability at VA?
-- If yes: what is your disability rating?
-- If no, skip to question 2.
-2. 
+First, I'd like you share your screen.
 
-## First Task: [TASK NAME] - X minutes
+Now I'm going to send you a link to get started with the test version of the app.
+- [iOS directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md)
+- [Android directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_android.md)
 
-- [ ] Step 1
-- [ ] Step 2
+## Test paths
 
-> [!NOTE]
-> ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Is the participant aware that they may be sharing personal information on their screen, and are they okay with that? - per question as needed]
-> - [Etc]
+Now I'm going to ask you to go to various parts of the app where I'll be checking to see that elements appear correctly.
+- Google Sheet: [Spreadsheet: Test paths and success criteria - Overpayment UAT](https://docs.google.com/spreadsheets/d/1xfHJGzPQJaIeO-uPp8D4aboEO-qSDvBVp0b5QABg_5Q/edit?gid=312390165#gid=312390165)
+- Excel Spreadsheet on VA network: [Spreadsheet: Test paths and success criteria - Overpayment UAT](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Test%20paths%20and%20success%20criteria%20-%20Overpayment%20UAT.xlsx?d=w1b926b3759974de4989a59acbded0343&csf=1&web=1&e=sqGrc5)
 
-## Second Task: [TASK NAME] - X minutes
-
-- [ ] Step 1
-- [ ] Step 2
-
-> [!NOTE]
-> ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
-
-## Third Task: [TASK NAME] - X minutes
-
-- [ ] Step 1
-- [ ] Step 2
-
-> [!NOTE]
-> ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
-
-# Post-Task Interview - X minutes
-
-- Question 1
-- Question 2
-- Any questions for me? 
 
 ## Consent to use video clips
 
-- I want to circle back and re-confirm that **you are comfortable if we were to share a video clip of this session with our VA partners?** Just to remind you, we will remove all information that could be used to identify you before sharing and will only share the videos with VA partners with the purpose of improving VA.gov and other digital experiences.
-   - **If yes:** Is there any part of our discussion you would NOT want shared in a video clip?
- 
-   <mark>**[Record answer here]**</mark>
+- I want to circle back and re-confirm: Are you okay with us sharing anonymized video clips from today’s session with VA partners?
+- Is there any part of our conversation you would NOT want included?
 
 
 ## Thank-You and Closing - X minutes
 
-Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
+We really appreciate you taking the time to help us test the app. This step is so crucial to getting this app ready for everyone to use.
 
-Thanks! Lastly, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
+Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
 
 Thank you so much again, and enjoy the rest of your day!
 
 
 # Emergency Exit 🚨
 
-In the rare case of an emergency during a session, be prepared with an [emergency exit strategy](https://depo-platform-documentation.scrollhelp.site/research-design/Research-Safety-and-Emergency-Exit-Strategies.2143649793.html#ResearchSafetyandEmergencyExitStrategies-Sampleexitstrategies). <mark>**Plan to include here at least one option, so its easy to find during a session. Take some time to practice so it feels more comfortable.**</mark>
+[Emergency guidance](https://depo-platform-documentation.scrollhelp.site/research-design/research-safety-and-emergency-exit-strategies#ResearchSafetyandEmergencyExitStrategies-Sampleexitstrategies)
+
+If needing to exit the session
+
+1. "If for any reason and at any time you want to stop the session, please let me know. You will not lose your stipend or be penalized in any way if we need to stop."
+2. “I’ve just learned that the prototype we were planning on using today is having some technical issues, so we will have to end this session early.”
+3. Thank them profusely for their feedback or for making the time to talk to you.
 
 ---
 
@@ -171,8 +134,4 @@ In the rare case of an emergency during a session, be prepared with an [emergenc
 - [ ] Complete the YAML frontmatter at the top of this file using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md)
 - [ ] Review alignment with your research plan tags
 - [ ] Update the last_modified date
-
-### Sample Conversation Guide _(note: this link points to resources in the va.gov-team GitHub repo)_
-
-- [Veteran ID Card Discovery Interview](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-id-cards/research/discovery/discovery-conversation-guide.md)
 

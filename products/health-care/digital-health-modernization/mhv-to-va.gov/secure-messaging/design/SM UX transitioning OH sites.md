@@ -17,8 +17,8 @@ You can [review the full EHR deployment schedule on this VA page](https://digita
   
 ## Alerts 
 We'll display these alerts to users.
-- Before transition: "You can't send/reply to messages during this upcoming period of time"
-- During transition: "You can't send/reply to messages right now until [date]"
+- Before transition: Warning "You can't send/reply to messages during this upcoming period of time"
+- During transition: Error "You can't send/reply to messages right now until [date]"
 
 ## Functionality during transition
 Here's what users will and won't be able to do during the transition: 
@@ -45,23 +45,24 @@ The following describes each task experience in greater detail.
 ### Transitioning site only users
 |VA.gov or VAHB mobile app|Task|Description|
 |---|---|---|
-|VA.gov|Send new message|- User has error alert message "You can't use messages to contact providers at some facilities right now" on **inbox page**<br>- User does not have "Start a new message" action link|
-|VA.govHomepage|Send new message|- User clicks "start a new message" and is redirected to **inbox page**, where they have the error alert message "You can't use messages to contact providers at some facilities right now"|
+|VA.gov|Send new message|- User has error alert or warning alert (depending on the timing) "You can't use messages to contact providers at some facilities right now" on **inbox page**<br>- User does not have "Start a new message" action link<br> - User clicks "start a new message" and is redirected to **inbox page**|
 |VAHB mobile app|Send new message|- User has error alert message "You can't use messages to contact providers at some facilities right now" on **inbox and Start new message screen**<br>- User won't have any care systems/teams to select<br>- User has inline error messages when selecting "Send" button because they can't complete all required fields|
 |VA.gov|Reply to message|- User has yellow alert "You can't send messages to some of your care teams" on **message details page**<br>- User does not have "Reply" button|
 |VAHB mobile app|Reply to message|- User has yellow alert "You can't send messages to some of your care teams" on **message details screen**<br>- User has "Start a new message" button instead|
 |VA.gov|Edit draft|- User has yellow alert "You can't send messages to some of your care teams" on **message details page**<br>- User does not have "Reply" button<br>-**Note**: If user deletes draft, we won't display error. It will delete and then reappaer post-cutover.|
 |VAHB mobile app|Edit draft|- User lands on Edit draft screen. User has blank "Pick a care system" field.<br>- User has error alert message "You can't use messages to contact providers at some facilities right now" on **edit draft screen**|
+|VA.gov|Edit contact list|- x<br>- x|
 
 ### Transitioning site AND non-transitioning site users
 |VA.gov or VAHB mobile app|Task|Description|
 |---|---|---|
-|VA.gov|Send new message|- User has error alert message "You can't use messages to contact providers at some facilities right now" on **inbox, interstitial, and Select care team pages**<br>- User can only select care teams at non-transitioning sites. Users won't have care teams from transitioning sites to select<br>- **Note**: If user is also blocked from messaging care teams at a non-transitioning site, they may also have the warning alert message "You can't send messages to care teams at [system]"|
+|VA.gov|Send new message|- User has error alert message "You can't use messages to contact providers at some facilities right now" on **inbox and Select care team page**<br>- User can only select care teams at non-transitioning sites. Users won't have care teams from transitioning sites to select<br>- **Note**: If user is also blocked from messaging care teams at a non-transitioning site, they may also have the warning alert message "You can't send messages to care teams at [system]"|
 |VAHB mobile app|Send new message|- User has error alert message "You can't use messages to contact providers at some facilities right now" on **inbox and Start new message screen**.<br>- User can only select care teams at non-transitioning sites. Users won't have care teams from transitioning sites to select<br>- User has inline error messages when selecting "Send" button because they can't complete all required fields|
 |VA.gov|Reply to message|Same as "Transitioning site only users" for only messages to care teams at transioning sites|
 |VAHB mobile app|Reply to message|Same as "Transitioning site only users" for only messages to care teams at transioning sites|
 |VA.gov|Edit draft|Same as "Transitioning site only users" for only messages to care teams at transioning sites|
 |VAHB mobile app|Edit draft|Same as "Transitioning site only users" for only messages to care teams at transioning sites|
+|VA.gov|Edit contact list|- x<br>- x|
 
 ### Other notes
 **Post-cutover**
@@ -69,6 +70,12 @@ The following describes each task experience in greater detail.
 
 **Create folder, Delete folder, etc.**
 - User gets routine red error message?
+- folder experiences and threads
+   - Engineering waiting to hear back from API team on these items
+
+**Try to upload large attachment**
+- What error alert surfaces in VAHB?
 
 **Care team names on pre-cutover messages**
 - All the old messages will maintain the same name. Further replies or new messages to the transitioning care teams will have the new name.
+

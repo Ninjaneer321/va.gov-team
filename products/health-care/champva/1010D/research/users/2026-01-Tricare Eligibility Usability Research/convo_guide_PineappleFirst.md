@@ -12,7 +12,7 @@ description: "For CHAMPVA eligibility study for Veteran participants."
 
 ## Moderator logistics 📋✅
 ### 2-3 days before the session
-- [ ] Make sure convo guide using aligns with participant - Veteran or family member
+- [ ] Make sure convo guide using aligns with the participant - Veteran (Veteran flow) or family member (Applicant flow)
 - [ ] Have links to desktop or mobile prototypes for both versions ready
 - [ ] Have both prototypes ready if need to pivot to backup plan of moderator sharing screen
 
@@ -91,8 +91,10 @@ Before we look at the website, let’s start with a few warm-up questions.
 - (NOTE: Should not be **enrolled** to qualify for study)
 
 2. Have you ever heard about the CHAMPVA program before?
+- If so, can you explain to me in your own words what you know about the eligibility of that program?
 
-3. If so, can you explain to me in your own words what you know about the eligibility of that program?
+3. [If participant did not mention Tricare in previous answer] Have you ever heard of Tricare?
+- If yes: How would you explain the difference between Tricare and Champva?
 
 ## Screenshare & Prototype Setup
 I'm going to share a link in chat with you of the prototype, I'd like you to open in your browser and share your screen in Zoom. I can help walk you through how to share your screen, but I want to give you a moment to close any other browser windows, tabs or applications you may have running, and silence notifications on your [computer/phone] so it doesn't interfere. Let me know when you're ready for the link. I'd like to confirm, are you on a (desktop or mobile) device today? 
@@ -116,12 +118,16 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
 ## First Task: [PROTOTYPE PINEAPPLE - INTRO PAGE] - 5 minutes
 
 - On this first page, take a minute or so to look over the instructions and when you're ready, in your own words, tell me what this means to you.
-- Is there anything here that would give you pause?
-- Is the eligibility criteria clear here?
-     - Is there enough information for you to choose to proceed? Why or why not?
-- If you proceed, would you sign in first?
-     - What, if anything, do you expect to be different by signing in vs not?
-- Do you have all the information required to submit the application on hand, or would you need to pause to find it if you were really applying for CHAMPVA benefits today?
+
+[AFTER PARTICIPANT REVIEWS]
+
+- In your own words, what is this application for?
+- Who is eligible to apply? 
+  - [IF THEY DON'T MENTION TRICARE] Do you see any reasons you might not be eligible?
+- If you weren't sure whether you qualify, where on this page would you look?
+- Is there anything here that makes you uncertain about applying?
+- Would you continue, or would you want more information first? Why?
+
 - On a scale of 1-5 (with 1 being poorly and 5 being very well) - how **informed** do you feel about the application you are about to begin based on this page's content?
      - Why did you give it that rating?
 
@@ -143,24 +149,30 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
 
 - [ ] API Check step in prototype flow
 
-- What is your reaction to this eligibility determination you see on this screen?
+- How do you feel about the way this application checked your eligibility?
+  - Did it feel helpful, intrusive, or something else?
+  - Do you trust that this information is accurate?
 
-- Backing up a little bit, please explain to me in your own words what happened once you clicked "continue" on this prototype, and what this message means. 
-
-- Did this step feel slow, abrupt, or unexpected?
-
-- Do you understand what the system was checking?
-
-- What is your reaction to this eligibility determination you see on this screen?
+- If you believed this check was wrong—that you're NOT actually eligible for Tricare—what would you do?
+  - Would you continue with the application?
+  - Would you call someone to verify?
+ 
+- Does this feel like the system is helping you understand your options, or is the system blocking you from applying? Why?
 
 - [ ] Pause them when they arrive at the gray box eligibility screen
 
 - In your own words, tell me what this page means.
-  
-- What you would do next if you were applying for CHAMPVA today?
+  -  Just to make sure I understood you correctly: if you're eligible for Tricare, can you still get CHAMPVA? [Expected answer: No]
+  -  What do the icons/checkmarks mean to you?
+  -  What is the system telling you about your eligibility?
 
-- What options do you think were available to you at this point?
+- Based on this, do you think you're eligible for CHAMPVA?
+  - What makes you say that?
+  - How confident are you in that understanding?
   
+- What would you do next if you were really applying today?
+  - Continue anyway, stop and research, call someone—what's your first instinct?
+
 - On a scale of 1-5 (with 1 being very hard and 5 being very easy) - how difficult or easy was it to **understand** this screen? Why did you give it that rating?
 
 - Go ahead and click on the "Continue" button at the bottom of the screen.
@@ -207,8 +219,12 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
   
 - Would you still proceed with the application?
 
-- On a scale of 1-5 (with 1 being very hard and 5 being very easy) 
-- how difficult or easy was it to understand the second prototype of the form? Why did you give it that rating?
+- On a scale of 1-5 (with 1 being very hard and 5 being very easy) - how difficult or easy was it to understand the second prototype of the form? Why did you give it that rating?
+- And comparing the two prototypes, which would you prefer to use?
+
+- Thinking about everything you just saw:
+  - Was there too much, too little, or about the right amount of information?
+  - If you had to explain this to a friend, would you feel confident doing so?
 
 - Go ahead and click on the "Continue" button at the bottom of the screen.
 
@@ -262,6 +278,11 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
 - [ ] Page with success alert shown
 
 - You see this message. What would you do? Is there any additional information you want to see here?
+
+[For all cards]
+
+- Across all the alert messages you saw, how confident do you feel that you'd know what to do? (1-5 scale)
+- Were any of the alerts confusing or unclear? Which ones and why?
 
 ## Sixth Task: [SUMMARY CARDS] - 5 minutes
 

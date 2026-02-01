@@ -27,11 +27,13 @@ research_goals:
   - goal_3: "[Learn if there are any usability issues with the new VADS eligibility pattern and/or hybird option.]"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "[Goal 1: Do participants find the introduction page eligibility content clear and easy to understand?]"
+  - "[Goal 1: Do participants find the eligibilty questions asked in the VADS pattern flow confusing, unclear or state they need additional information?]"
+  - "[Goal 1: Do participants understand the content in the error messages clear enough to state what specific action, if any, they would need to take when applying for benefits?]"
+  - "[Goal 2: Is the flow of prototype Blueberry and the VADS eligibility pattern easy for participants - both Veterans and family members?]"
+  - "[Goal 2: What flow do participants seem to find easier via self-reported ratings and quotes?]"
+  - "[Goal 3: Do participants clearly understand the eligibility gray results box with the icons in the pattern?]"
+  - "[Goal 3: Do the error alerts in the hybrid option add any confusion or do participants state incorrect actions needed?]"
 
 hypotheses:
   - "[We assume that both Veterans and family members will find the hybrid option the easiest to understand and will not have any issues with the alert messages presented.]"
@@ -44,19 +46,30 @@ expected_outcomes: "[How will findings advance the product?]"
 recruitment:
   recruiting_partner: "Perigean"
   approach: "[e.g., lean maximum variation]"
+
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "[All: Be on a computer or mobile device]"
+    - "[All: During the session, be willing to share a web browser window on their device]"
+    - "[All: Have a working microphone]"
     
   secondary_criteria:
     - "[Nice-to-have criterion 1]"
     - "[Nice-to-have criterion 2]"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "[Screener Cohort 1: Do you get a VA disability compensation for a service-connected disability rating of 100%?]"
+      qualifying_response: "[Yes]"
+    - question: "[Screener Cohort 1: Do you have a spouse or dependent children?]"
+      qualifying_response: "[Yes]"
+    - question: "[Screener Cohort 1: Is your spouse and/or dependents enrolled in the Civilian Health and Medical Program of the Department of Veterans Affairs?]"
+      qualifying_response: "[No, Unsure]"
+    - question: "[Screener Cohort 2: Please select the answer that best fits you: Response options: Spouse of a Veteran, Dependent child of a Veteran]"
+      qualifying_response: "[Spouse of a Veteran, Dependent child of a Veteran]"
+    - question: "[Screener Cohort 2: Does the Veteran you are related to get a VA disability compensation for a service-connected disability rating of 100%?]"
+      qualifying_response: "[Yes]"
+    - question: "[Screener Cohort 2: Are you enrolled in the Civilian Health and Medical Program of the Department of Veterans Affairs (CHAMPVA)?]"
+      qualifying_response: "[No, Unsure]"
       
 participants:
   veterans: 8
@@ -69,13 +82,13 @@ participants:
 timeline:
   pilot_date: "YYYY-MM-DD"
   pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
+  research_dates: "2026-02-09 to 2026-02-20"
   research_review_submission: "YYYY-MM-DD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 45
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
@@ -87,8 +100,12 @@ octo_priorities:
       - "[Specific KR if applicable]"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "[Getting Out]"
+  - "[Starting Up]"
+  - "[Putting Down Roots]"
+  - "[Taking care of self]"
+  - "[Retiring]"
+  - "[Aging]"
     
 # Research Repository Tracking
 related_research:
@@ -102,8 +119,7 @@ tags:
   - "[research-phase]"
 ---
 
-
-# Research Plan for [Health Applications, 10-10d CHAMPVA Application, January 2026]
+	 # Research Plan for Tricare Eligibility Usability Research (10-10D Champva), Jan 2026
 
 
 ## Background 🏗️
@@ -111,7 +127,7 @@ tags:
 	
 `What problem is your product trying to solve?`
 
-Explore two options around to better understand how Veterans and family members understand the eligibility content, flow and alerts related to Tricare.
+Explore two options around to better understand how Veterans and family members understand the eligibility content, flow and alerts related to Tricared due to a percentage of applicants that are later denied because they are eligible for Tricare, which makes them ineligible for CHAMPVA.
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
@@ -219,11 +235,11 @@ Are there moments that matter?</summary>
 
 ---
 
-**We assume that both Veterans and their family members will find the hybrid option the easiest to understand and will not have any issues with the alert messages presented.** 
+**We assume that both Veterans and their family members will find the hybrid API-driven approach to provide more immediate, personalized feedback than the VADS pattern approach, but both may have different strengths.** 
 
 **We assume that the VADS pattern will add clarity to the eligibility of CHAMPVA benefits and will be recieved positively by both Veterans and their family members.**
 
-**The changes in the flow and the signer information section will be easy for Veterans and their family mbmers to follow with less confusion than previous studies.**
+**We assume that participants may find both approaches similarly confusing/helpful, suggesting content improvements are more important than flow differences.**
 
 
 ---
@@ -349,20 +365,21 @@ We would like a kick-off call with Perigean to discuss recruitment criteria.
 
 - `Suggested dates and times:` 
 
-- **01/28, Wednesday, 1:30pm-2:30pm ET**
-- **01/29, Friday, 12:30pm-2:30pm ET**
+- **01/29, Thursday, 12:30pm-2:30pm ET**
 - **01/30, Friday, 12:00pm-5:00pm ET**
+- **02/02, Monday, 12:00pm-4:00pm ET**
+- **02/03, Tuesday, 12:00pm-5:00pm ET**
 
 ### Prepare
 
-- `Pilot participant name:` **[TBD]**
-- `Date and time of pilot session:` **[TBD]** 
+- `Pilot participant name:` Heather R.
+- `Date and time of pilot session:` 02/02, Monday 4:00pm ET
 
 ### Research sessions
-- `Planned dates of research:` **[Feb 9, 2026 - Feb 20, 2026]**
+- `Planned dates of research:` **[Feb 5, 2026 - Feb 23, 2026]**
 
 ### Length of sessions
-- `Session length:` **[45 minutes]**
+- `Session length:` **[60 minutes]**
   
 - `Buffer time between sessions:` **[45 minutes]**
   
@@ -370,15 +387,18 @@ We would like a kick-off call with Perigean to discuss recruitment criteria.
 
 ### Availability
 
+- `[02/05, Thursday, 11:00 AM- 06:00 PM] EST`
+- `[02/06, Friday, 11:00 AM- 06:00 PM] EST`
 - `[02/09, Monday, 11:00 AM- 06:00 PM] EST`
 - `[02/10, Tuesday, 11:00 AM- 06:00 PM] EST`
 - `[02/11, Wednesday, 11:00 AM- 06:00 PM] EST`
 - `[02/12, Thursday, 11:00 AM- 06:00 PM] EST`
 - `[02/13, Friday, 11:00 AM- 06:00 PM] EST`
-- `[02/17, Tuesday 11:00 AM- 06:00 PM] EST`
 - `[02/18, Wednesday, 11:00 AM- 06:00 PM] EST`
 - `[02/19, Thursday, 11:00 AM- 06:00 PM] EST`
 - `[02/20, Friday, 11:00 AM- 06:00 PM] EST`
+- `[02/23, Monday, 11:00 AM- 06:00 PM] EST`
+
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
@@ -395,5 +415,5 @@ We would like a kick-off call with Perigean to discuss recruitment criteria.
 - **[Enter full name]**
 
 ## Approvals ✅
-- `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
-- `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
+- `Reviewed by [Amanda Klausmeier, UX Team Lead] on [01-27-2026]`
+- `Reviewed by OCTO Research-Ops Lead on [01-28-2026]`

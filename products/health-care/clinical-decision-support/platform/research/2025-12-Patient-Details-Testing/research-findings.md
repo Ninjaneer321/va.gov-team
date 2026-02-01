@@ -365,9 +365,9 @@ This research supports measurement of this KPI by identifying specific workflow 
 
 Based on the research findings, we recommend the following immediate actions:
 
-1. **Prioritize clinical use cases**: Review and prioritize the 23 clinical use cases identified in this research (see Clinical Use Cases section) based on workflow impact and research evidence, with program lead support to align on scope and sequencing.
+1. **Prioritize clinical use cases**: Review and prioritize the 23 clinical use cases identified in this research (see Clinical Use Cases section) based on workflow impact and research evidence, with program lead support to align on scope and sequencing. [#241 Prioritize use cases to ground design work](https://github.com/department-of-veterans-affairs/cdsc-roadmap/issues/241)
 
-2. **Prototype thin slices**: Create design concepts for prioritized use cases through cross-functional pairing (design, product, engineering) to iterate, validate, and test open assumptions this quarter.
+2. **Prototype thin slices**: Create design concepts for prioritized use cases through cross-functional pairing (design, product, engineering) to iterate, validate, and test open assumptions in FY '26 Q2. [#243 Create Patient Details design concept](https://github.com/department-of-veterans-affairs/cdsc-roadmap/issues/243)
 
 3. **Assess technical feasibility**: Evaluate low-hanging opportunities and technical feasibility to identify near-term wins and clarify longer-term dependencies, particularly around:
    - Enabling direct actions from Patient Details
@@ -383,20 +383,20 @@ Based on the research findings, we recommend the following immediate actions:
 
 Based on themes and insights covered in this research round, additional research is recommended for the following topics:
 
-**Oracle Health workflows**: Additional participants needed across primary care and various specialties/roles to better understand PowerChart workflows and how Patient Details integrates.
+1. **Oracle Health workflows**: Additional participants needed across primary care and various specialties/roles to better understand PowerChart workflows and how Patient Details integrates.
 
-**Task workflows**: Deeper exploration of task management workflows within Oracle Health's PowerChart, including how tasks are assigned, tracked, and completed.
+2. **Task workflows**: Deeper exploration of task management workflows within Oracle Health's PowerChart, including how tasks are assigned, tracked, and completed.
 
-**Tasks/follow-up tracking**: Investigation of how clinicians manage follow-up actions and whether Patient Details can support task creation and tracking.
+3. **Tasks/follow-up tracking**: Investigation of how clinicians manage follow-up actions and whether Patient Details can support task creation and tracking.
 
-**ICN usage**: Understanding how clinicians perceive and use Integration Control Numbers (ICN) in their workflows, as familiarity was generally low across participants.
+4. **ICN usage**: Understanding how clinicians perceive and use Integration Control Numbers (ICN) in their workflows, as familiarity was generally low across participants.
 
 ## Appendix
 
 ### Research documents
 - [Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing/research-plan.md)
 - [CPRS Conversation Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing/conversation-guide.md)
-- [Oracle Health Conversation Guide](Ask Rosemary about this)
+- [Oracle Health Conversation Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing/conversation-guide-oracle-health.md)
 - [CPRS Prototype](https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2196%3A2&node-id=2293-3966&viewport=420%2C-2398%2C0.23&t=feykzPaXZ8xOghnK-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2293%3A3966)
 - [Oracle Health Prototype](https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2196%3A2&node-id=3004-21735&viewport=306%2C-3091%2C0.3&t=F9qx2raNBZa13Q8M-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=3004%3A21735)
 
@@ -404,6 +404,7 @@ Based on themes and insights covered in this research round, additional research
 
 - **Mural**: Used for affinity mapping and synthesizing insights across all 8 user sessions
 - **Affinity Mapping**: Organized findings into themes around workflow value, data needs, and usability
+- **Session Recordings Review**: Reviewed audio transcripts and session recordings
 
 Detailed notes and testimonials across all sessions can be found in: [Q1 '26 Patient Details User Testing Notes Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1762799339819/055431b933c4ac15cecff96c50a80a4e00403b80)
 
@@ -443,9 +444,9 @@ Detailed use cases can be found in: [Clinician Experience Mapping Mural](https:/
 
 ### Other supporting documents created
 
-- Clinical use case mapping with 54 candidate scenarios synthesized into 23 use cases
-- Oracle Health workflow documentation across 3 participants
-- ICN familiarity findings
+- Clinical use case mapping with 54 candidate scenarios synthesized into 23 use cases [See Clinician Experience Mapping Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1738002902653/5ab79a8d0c2f5f83fb8798b639db3827d9b8e22d)
+- Oracle Health workflow documentation across 3 participants [See slides 56-64](https://dvagov.sharepoint.com/:b:/r/sites/CDSProgramTeam/Shared%20Documents/Clinical%20Decision%20Support%20Platform%20Team%20(CDSP)/2.%20User%20Research/2025%20User%20Research/Patient%20Details/Patient%20Details_Insights_1.09.2025_LizBlasi_V2.pdf?csf=1&web=1&e=EURy3S)
+- ICN familiarity findings [See slides 51-54](https://dvagov.sharepoint.com/:b:/r/sites/CDSProgramTeam/Shared%20Documents/Clinical%20Decision%20Support%20Platform%20Team%20(CDSP)/2.%20User%20Research/2025%20User%20Research/Patient%20Details/Patient%20Details_Insights_1.09.2025_LizBlasi_V2.pdf?csf=1&web=1&e=EURy3S)
 
 ### Secondary research
 

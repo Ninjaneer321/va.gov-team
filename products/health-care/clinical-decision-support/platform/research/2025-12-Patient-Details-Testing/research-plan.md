@@ -4,8 +4,8 @@
 > *Questions about how to set up your research study? Reach out first in the via Slack in [#cds-hcd-cop] (https://dsva.slack.com/archives/C06043YBWTC) or if more help is needed check out the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel.* 
 
 ## Background 🏗️
-<details><summary>* Patient Details 1.0 on the CDS Console has been released: September 30th . Gathering usability of 1.0 and user-driven value will be critical to help guide potential enhancements and next steps related to this feature, and to inform PGM #100.
-* Additionally, as Oracle Health integration planning continues, we will be including 3 OH users in these studies, to gather their perspective on the integration of the Console into Oracle Health, state of Patient details and potential enhancements, will be essential to inform and guide our Console integration work [PGM #217] </summary>
+<details><summary>* Patient Details 1.0 on the CDS Console has been released: September 30th . Gathering usability of 1.0 and user-driven value will be critical to help guide potential enhancements and next steps related to this feature, and to inform [PGM #100](https://github.com/department-of-veterans-affairs/cdsc-roadmap/issues/100).
+* Additionally, as Oracle Health integration planning continues, we will be including 3 OH users in these studies, to gather their perspective on the integration of the Console into Oracle Health, state of Patient details and potential enhancements, will be essential to inform and guide our Console integration work [PGM #217](https://github.com/department-of-veterans-affairs/cdsc-roadmap/issues/217) </summary>
 	
 `What problem is your product or feature trying to solve?`
 
@@ -79,18 +79,10 @@ As a Vista CPRS or Oracle Health user, I access patient details and key workflow
 
 ---
 
-**Insights will identify where the feature meets clinician needs, where friction persists, and what opportunities exist to evolve Patient Details on the Console. This evidence will guide prioritization of enhancements and inform the roadmap for future iterations.**
+**Insights will identify where the feature meets clinician needs, where friction persists, and what opportunities exist to evolve Patient Details on the CDS Console. This evidence will guide prioritization of enhancements and inform the Platform and CDSC roadmap for future iterations.**
 ---
 
 ### Research questions
-> [!NOTE]
-> Do not write out all questions you plan to ask participants -- that should go in the` [conversation guide.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/research-templates/conversation-guide.md)
-
-***Consider bucketing research questions under research goals and think about:***
-	
-`What will I do with what I learn from this question?`
-  
-`Does this question serve the goals of my study?`
 
 **`1.`How do clinicians perceive the value of accessing Patient Details through the CDS Console compared to their current workflows (within Vista CPRS or Oracle Health)?**
 
@@ -105,20 +97,6 @@ As a Vista CPRS or Oracle Health user, I access patient details and key workflow
 **`6.`How do clinicians evaluate the usefulness and viability of the app widget concepts (task flows), and which use cases provide the greatest value? What additional information is needed to support their workflow? What information is not valuable?**
 
 ### Hypotheses
-> [!NOTE]
-> Remember to constrain the hypotheses to the goals of your study!
- 
-**Think through these prompts to develop strong hypotheses:**
-	
-`What do you intend to learn and measure from this study?` 
-
-`What do you already know about this problem space?`
- 
-`What do you think users will do or think about this product? (Identifying our assumptions helps us be aware of biases we may unintentionally bring into the study, so don’t skip this step!)`
-  
-`Write a generalized statement that combines what you know + what you think will happen during the study.`
-
----
 
 **Primary Hypothesis (Patient Details 1.0)**
 - If clinicians can reliably access Patient Details through the CDS Console (across both Vista CPRS and Oracle Health), including provider workflows within Oracle Health. Usability testing will surface friction points that, once addressed, will increase adoption and reinforce the Console as the central entry point and “home” for Clinical Decision Support.
@@ -132,7 +110,6 @@ As a Vista CPRS or Oracle Health user, I access patient details and key workflow
 ---
   
 ## Methodology  🛠️
-***Describe the method you’re planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.*** 
 </details>
 
 **Moderated remote 1-1 interviews w/ Clinicians**
@@ -159,34 +136,23 @@ Currently, all clinical research for CDSC takes place remotely over MS Teams. We
 Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
 
 **For moderated usability test and interview:** 
-- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing/conversation-guide.md)
-- [Link to CPRS prototype](https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2196%3A2&node-id=2293-3966&viewport=420%2C-2398%2C0.23&t=feykzPaXZ8xOghnK-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2293%3A3966)
-- [Link to OH prototype](https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2196%3A2&node-id=3004-21735&viewport=306%2C-3091%2C0.3&t=F9qx2raNBZa13Q8M-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=3004%3A21735)
 
-	
-## Recruitment 🎯	
-*Recruitment for CDSC research is done by the researcher. Account for recruitment in your planning and preparation time. Ideally outreach begins 2-4 weeks ahead of targeted testing dates*
+### CPRS User Materials
+- [Link to CPRS conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing/conversation-guide-CPRS.md)
+- [Link to CPRS prototype](https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2196%3A2&node-id=2293-3966&viewport=420%2C-2398%2C0.23&t=feykzPaXZ8xOghnK-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2293%3A3966)
+
+### OH User Materials
+- [Link to OH conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing/conversation-guide-oracle-health.md)
+- [Link to OH prototype](https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2196%3A2&node-id=3004-21735&viewport=306%2C-3091%2C0.3&t=oFfZAfXPCZmhSQDA-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=3004%3A21735)
+
 
 ### Recruitment approach
-*Who is your intended audience for this research (e.g. clinicians, VHA administrative staff, coordinators, SMEs), and how will you recruit them?* 
-
-`Audience: **Clincians**`
-
 **`1.`CDSC Research Participant Database** 
 **`2.`Oracle Health Contacts: Cross-team Contacts and Referrals** 
 
 ### Recruitment criteria
 
-- **Write any recruitment criteria for experience or scenarios as screener questions with qualifying responses. This is helpful if getting recruitment assistance from CDSC peers.**
-- Consider providing links to products and/or clear descriptions to ensure participants understand the question. 
-  Example: Have you used CDS Medical Calcualtors in the last 6 months? [answer should be yes to qualify.]
-
-- The more recruitment criteria you have, the less likely that a small sample of participants will be able to meet all criteria. Consider what criteria MUST be met, versus what is nice to have.
-
 ### List the ideal completed sessions and total number and type (clinicians, VHA administrative staff, coordinators, etc.) of participants for this study:
-> [!NOTE]
-> Your total number should equal **2x** your ideal completed sessions number *(e.g. for 6 ideal completed sessions, plan to email at least 12 participants)*
-
 - `Clinicians - CPRS:` **[n=5]**
 - `Clinicians - Oracle:` **[n=3]**
 - `VHA admin staff:` **[n=0]**
@@ -220,7 +186,7 @@ Hello (Name),
 
 My name is (researcher/designer name), and we previously connected via your support request to (enter request or issue). 
 
-I am reaching out now to see if you would be interested in participating in a design feedback session. We are currently evaluating some new designs for the (product name). I’d love to get your perspective and feedback on these new concepts. It would involve participating in a 60-minute remote session on MS Teams. The session would include a general introduction and current experience with (product name), then I would share a design prototype with you along with a few probes to get your reactions, followed by closing questions. 
+I am reaching out now to see if you would be interested in participating in a design feedback session. We are currently evaluating some new designs for the (Patient Details within the Clinical Decision Support Console). I’d love to get your perspective and feedback on these new concepts. It would involve participating in a 60-minute remote session on MS Teams. The session would include a general introduction and current experience with (product name), then I would share a design prototype with you along with a few probes to get your reactions, followed by closing questions. 
 
 **Your choice to participate is completely voluntary. We will share our learnings within the CDS Collaborative in the form of aggregated information or anonymized quotes. Your responses will remain confidential, and your anonymity protected.**
 
@@ -228,7 +194,7 @@ If you are interested in participating, the following days and times are availab
 
 All times are in **Eastern** time:
 
-- [Availability]
+- [Availability details variable depending on audience]
 
 Cheers,
 
@@ -267,7 +233,7 @@ Liz Blasi
 - `Project point of contact:` **[Liz Blasi]**		
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[Homer Gaines]**	
 - `Note-takers:` **[Rosemary Rogers, Ruben Sun, Ayangbe Mannen, Natalie Hill, Alyssa Li]** 	
-- `Observers: **[None]**
+- `Observers:` **[None]**
 
 ### Notetaker and Silent Obeserver Guide
 - Be a silent observer. If you have a question for the participant, ask the facilitator via a Slack DM and they'll accommodate it if appropriate.

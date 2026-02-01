@@ -247,7 +247,7 @@ action: Notify UX team
 
 ### Key Dashboards
 
-**VASS Overview**:
+[**VASS Overview**](https://vagov.ddog-gov.com/dashboard/fw6-j3c-zns?fromUser=false&refresh_mode=sliding&from_ts=1769546567944&to_ts=1769550167944&live=true):
 
 - Success rate (all endpoints)
 - Error breakdown by error_type
@@ -317,16 +317,3 @@ it 'tracks availability scenario' do
 end
 ```
 
----
-
-## Related Documentation
-
-- [VASS API Documentation](../README.md)
-- [Error Handling](./ERROR_HANDLING.md)
-- [Rate Limiting](./RATE_LIMITING.md)
-
-## Support
-
-- **Team**: VASS Development Team
-- **Slack**: #vets-api-vass
-- **Datadog**: [VASS Dashboards](https://app.datadoghq.com/dashboard/vass)

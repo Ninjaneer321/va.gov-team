@@ -1,0 +1,149 @@
+name: "Accessibility Finding [Staging Review]"
+description: "Create an accessibility finding ticket"
+title: "Accessibility finding: [short description]"
+labels: ["a11y-testing"]
+assignees: []
+body:
+- type: markdown
+  attributes:
+    value: "## Staging Review Accessibility Finding"
+- type: markdown
+  attributes:
+    value: |
+      For each finding, fill in as much as you are able. The Governance Accessibilty Specialist will review and provide feedback and any necessary changes. 
+- type: dropdown
+  id: checklist
+  attributes:
+    label: Checklist item
+    description: Choose the checklist item this issue corresponds to
+    options:
+      - Automated-001	Axe DevTools has been executed for every page
+      - Automated-002	Axe-core has been integrated in end to end testing
+      - WEB-111	Non-text content
+      - WEB-111-001	Meaningful descriptions are provided for informative images
+      - WEB-111-002	Brief and detailed descriptions are provided for complex images
+      - WEB-111-003	Decorative images are hidden from screen readers
+      - WEB-111-004	Background images are not used for informative content
+      - WEB-111-005	Brief descriptions are provided for videos and audio files
+      - WEB-121	Text transcripts are provided for audio and video-only content
+      - WEB-122	Captions are provided for all prerecorded videos
+      - WEB-123	Transcripts or audio descriptions are included for videos with audio
+      - WEB-124	Real-time captions are provided for live videos
+      - WEB-125	Audio descriptions are provided for videos with important visual information
+      - WEB-131	Info & relationships
+      - WEB-131-001	Headings match the content hierarchy and use proper HTML tags
+      - WEB-131-002	Headings follow a logical order without skipping levels
+      - WEB-131-003	There is one H1 per page/screen
+      - WEB-131-004	Lists use proper list formatting
+      - WEB-131-005	Related form elements are grouped together
+      - WEB-131-006	Form labels, description, help text, and errors are connected to the field in the code
+      - WEB-131-007	Required fields are identified programmatically
+      - WEB-131-008	Landmarks are correctly used
+      - WEB-131-009	Tables are used for tabular data
+      - WEB-131-010	Child and parent relationships are clear to assistive technology
+      - WEB-132	Content appears in a logical order in the code
+      - WEB-133	Instructions don't rely only on color, shape, size, or sound
+      - WEB-134	Content works in both portrait and landscape mode
+      - WEB-135	Form fields use autocomplete attributes appropriately
+      - WEB-141	Information is not communicated by color alone
+      - WEB-142	Auto-playing audio can be paused or has volume controls
+      - WEB-143	Text has sufficient contrast against its background
+      - WEB-144	Text can be enlarged to 200% without breaking the page
+      - WEB-145	No images of text
+      - WEB-1410	Content fits on small screens without horizontal scrolling
+      - WEB-1411	Non-text contrast
+      - WEB-1411-001	Interactive elements are visually distinct from surroundings
+      - WEB-1411-002	Important graphics and icons have sufficient contrast
+      - WEB-1412	Text remains readable when spacing is adjusted
+      - WEB-1413	Content triggered by hover or focus is dismissible by other means
+      - WEB-211	All functionality works with keyboard only
+      - WEB-212	No keyboard trap
+      - WEB-214	Single-key shortcuts can be turned off or customized
+      - WEB-221	Time limits can be turned off or extended
+      - WEB-222	Automatically moving content can be paused or stopped
+      - WEB-231	Nothing flashes more than three times per second
+      - WEB-241	Users can skip repeated content like headers and navigation
+      - WEB-242	Each page has a unique, descriptive title
+      - WEB-243	Tab order follows a logical sequence
+      - WEB-244	Links are descriptive
+      - WEB-245	Pages can be found in multiple ways
+      - WEB-246	Headings and labels
+      - WEB-246-001	Headings are descriptive 
+      - WEB-246-002	Form labels clearly describe what to enter
+      - WEB-247	Every focusable element has a visible focus indicator
+      - WEB-2410	Content is organized into sections
+      - WEB-2411	The element with focus is always visible
+      - WEB-251	All actions work with simple taps or clicks
+      - WEB-252	Actions happen on release and can be cancelled
+      - WEB-253	Visual labels match what screen readers announce
+      - WEB-254	Features don't require shaking or tilting the device
+      - WEB-257	Drag-and-drop actions have click-based alternatives
+      - WEB-258	Clickable elements are at least 24x24 pixels
+      - WEB-311	The page language is identified
+      - WEB-312	Content in another language is identified
+      - WEB-321	Focusing on an element doesn't trigger unexpected changes
+      - WEB-322	Interacting with form fields doesn't trigger unexpected changes
+      - WEB-323	Navigation structure is the same across pages
+      - WEB-324	Similar features have the same labels across pages
+      - WEB-326	Help options appear in the same location on all pages
+      - WEB-331	Error messages are provided and are clear
+      - WEB-332	Labels & instructions
+      - WEB-332-001	Form fields have visible labels
+      - WEB-332-002	Fields with specific formats include instructions
+      - WEB-332-003	Required or optional fields are clearly marked
+      - WEB-333	Error messages explain how to fix the problem
+      - WEB-334	Important submissions can be reviewed or undone
+      - WEB-336	Users can review and correct incorrect information
+      - WEB-337	Users don't have to re-enter the same information
+      - WEB-338	Login doesn't rely solely on remembering information
+      - WEB-412	Name, Role, Value
+      - WEB-412-001	Every interactive element has a clear name and purpose
+      - WEB-412-002	Element states are announced to screen readers
+      - WEB-412-003	Links navigate to pages; buttons perform actions
+      - WEB-413	Important updates are announced to screen readers automatically
+  validations:
+    required: true
+- type: dropdown
+  id: severity
+  attributes:
+    label: Severity level
+    description: "Don't forget to add a corresponding label to this ticket once it's created"
+    options:
+      - 0, Launchblocker. Potentially Harmful. Must be fixed immediately.
+      - 1, Launchblocker. Critical. Must be fixed before launch.
+      - 2, High. Should be fixed in 1-2 sprints post-launch.
+      - 3, Medium. Should be fixed in 1-3 sprints post-launch.
+      - 4, Low. Consider fixing or exploring in 2-4 sprints post-launch.
+  validations:
+    required: true
+- type: textarea
+  id: page
+  attributes:
+    label: Page(s)/url(s)
+    description: Provide the pages or urls this issue occurs on. May be multiple. 
+    value: |
+      ...
+- type: textarea
+  id: details
+  attributes:
+    label: Details
+    description: "Describe the issue and what problem it's creating. If you have a screenshot or video, add those here after the ticket is created."
+    value: |
+      ...
+- type: textarea
+  id: repro
+  attributes:
+    label: Reproduction steps
+    description: "How do you trigger this issue? Please walk us through it step by step. Include any relevant device, browser, and assistive technology."
+    value: |
+      1.
+      2.
+      3.
+      ...
+- type: textarea
+  id: solution
+  attributes:
+    label: Proposed solution or next steps
+    description: "If there is an easy HTML, CSS, or JavaScript markup fix, add it after creating this ticket. If it is a longer fix or you do not have a ready solution, provide next steps."
+    value: |
+      ...

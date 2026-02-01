@@ -59,7 +59,7 @@ The [Solid Start Act](https://www.congress.gov/117/plaws/publ205/PLAW-117publ205
 - **Organizational Viability Risks/Constraints** (will there be a positive organizational impact):
 
 ### What're you building
-Using a LoROTA (low risk one time authentication) approach, send Veterans a series of three emails over the course of the first year of their transition letting them know about what VA can offer them and allowing them to schedule a phone appointment with agents to learn even more. Create the scheduling workflow, then send confirmation and appointment reminder emails to Veterans. Enable Veterans to cancel this appointment.
+Using a [One-time passcode approach](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/solid-start-scheduling/engineering/api-authenicate.md), send Veterans a series of three emails over the course of the first year of their transition letting them know about what VA can offer them and allowing them to schedule a phone appointment with agents to learn even more. Create the scheduling workflow, then send confirmation and appointment reminder emails to Veterans. Enable Veterans to cancel this appointment.
 
 ### Go-to-market
 >
@@ -73,7 +73,7 @@ Veteran outreach is built into the workflow with the initial emails.
 
 - [Kickoff ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117928)
 - PO Sync
-- Architecture Review
+- [Architecture Review](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/platform/engineering/collaboration-cycle/architecture-intent/checklist/checkin-vass-01132026.md)
 - Design Intent
 - Midpoint
 - Staging
@@ -98,6 +98,8 @@ Veteran outreach is built into the workflow with the initial emails.
 
 - [Pending Epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116989)
 - [Figma](https://www.figma.com/design/Z96Oy8JRzQNXQueV0LcNBR/Solid-Start-Scheduling--VASS--%7C-Appointments?node-id=12157-38855&t=c7EFK1RjEAHjz0jw-1)
+- [Dashboard](https://vagov.ddog-gov.com/dashboard/fw6-j3c-zns?fromUser=false&refresh_mode=sliding&from_ts=1769546567944&to_ts=1769550167944&live=true)
+- [Engineering Docs](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/solid-start-scheduling/engineering/README.md)
 
 ---
 
@@ -107,7 +109,7 @@ Veteran outreach is built into the workflow with the initial emails.
 - GitHub Label(s):appointments
 - Slack channel: #unified-appointment-experience, #unified-appointment-experience-ux
 - OCTO Product POCs: Kay Lawyer and Kristen McConnell
-- UAE Product: Dotti Cummings and Mike Marinos
+- UAE Product: Mike Marinos
 
 #### Stakeholders
 

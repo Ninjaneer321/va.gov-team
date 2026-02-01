@@ -28,10 +28,7 @@ Supplemental information to empower Veterans and other beneficiaries to fully un
 
 #### 1.1.3 Location-specific benefit and service content
 
-Information Veterans and other beneficiaries need to access care and other services at specific locations, including:
-- VA medical centers
-- VA benefit offices
-- VA national cemeteries
+Information Veterans and other beneficiaries need to access care and other services at specific locations, such as VA medical centers and VA benefit offices.
 
 **Modernized strategic home for this content:** Modernized VA.gov (facility locator and facility websites)
 

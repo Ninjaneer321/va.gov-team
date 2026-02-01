@@ -1,0 +1,97 @@
+name: SRE Issue AI Analysis
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'The Issue ID Number'
+        required: true
+        type: string
+
+jobs:
+  analyze-issue:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      models: read
+      contents: read
+
+    steps:
+      - name: Checkout prompts
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/prompts/
+          sparse-checkout-cone-mode: false
+
+      - name: Resolve issue details
+        id: issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueNumber = parseInt('${{ inputs.issue_number }}');
+
+            const { data: issue } = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber
+            });
+
+            core.setOutput('number', issueNumber.toString());
+            core.setOutput('title', issue.title);
+            core.setOutput('body', issue.body || '');
+            console.log(`Resolved issue #${issueNumber}: ${issue.title}`);
+
+      - name: Check for existing analysis
+        id: check
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: ${{ steps.issue.outputs.number }}
+            });
+
+            const hasAnalysis = comments.data.some(comment =>
+              comment.body.includes('## AI Issue Analysis')
+            );
+
+            core.setOutput('has_analysis', hasAnalysis.toString());
+            console.log(`Existing AI analysis found: ${hasAnalysis}`);
+
+      - name: Prepare issue content
+        if: steps.check.outputs.has_analysis != 'true'
+        run: printf '%s' "$ISSUE_BODY" > "$RUNNER_TEMP/issue-body.txt"
+        env:
+          ISSUE_BODY: ${{ steps.issue.outputs.body }}
+
+      - name: Run AI Analysis
+        if: steps.check.outputs.has_analysis != 'true'
+        id: inference
+        uses: actions/ai-inference@v1
+        with:
+          prompt-file: .github/prompts/sre-issue-analysis.prompt.yml
+          model: openai/gpt-4o
+          max-tokens: 1500
+          input: |
+            issueTitle: ${{ steps.issue.outputs.title }}
+          file_input: |
+            issueBody: ${{ runner.temp }}/issue-body.txt
+
+      - name: Post Analysis Comment
+        if: steps.check.outputs.has_analysis != 'true'
+        uses: actions/github-script@v7
+        env:
+          AI_RESPONSE: ${{ steps.inference.outputs.response }}
+        with:
+          script: |
+            const analysis = process.env.AI_RESPONSE;
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: ${{ steps.issue.outputs.number }},
+              body: analysis
+            });
+
+            console.log('Posted AI analysis comment');

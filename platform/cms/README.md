@@ -58,7 +58,21 @@ Documentation about the CMS lives in various places
 ### CMS Team 
 - Erika Washburn, VA Product Owner - Slack `@Erika Washburn`
 - Grace Kretschmer Tran, Senior Product Manager - Slack `@Grace Kretschmer`
-- Laura Flannery, QA Engineer - Slack `@Laura Flannery`
+- Sofia Kirkman, Senior UX Designer - Slack `@Sofia Kirkman`
+- Tim Cosgrove, Tech Lead - Slack `@Tim Cosgrove`
+- Kayla Watanabe, Senior Product Manager - Slack `@Kayla Watanabe`
+- Brian Seek, Software Engineer - Slack `@Brian Seek`
+- Chris Valarida, Staff Software Engineer - Slack `@Chris Valarida`
+- Christian Burk, Drupal Engineer - Slack `@Christian Burk`
+- Edmund Dunn, Senior DevOps Engineer - Slack `@Edmund Dunn`
+- Logan House, UX Designer - Slack `@Logan House`
+- Pamela Abanda, DevOps Engineer - Slack `@Pamela`
+- Patrick Wolfert, Engineer - Slack `@Patrick Wolfert`
+- Stefanie Gray, Senior CX Support Specialist - Slack `@Stefanie Gray`
+- Troy Griffin, Senior CX Support Specialist - Slack `@Troy Griffin`
+- Zach Button, Senior Fullstack Engineer - Slack `@Zach Button`
+
+
 
 ### Slack channels:
 - [#cms-support](https://dsva.slack.com/channels/cms-support) 
@@ -69,8 +83,13 @@ Documentation about the CMS lives in various places
 **CMS Knowledge Base**
 - <https://prod.cms.va.gov/help>
 
+**CMS Help Desk**
+
+Use the link below to create a help desk ticket to ask questions regarding access and troubleshooting Drupal content
+- <https://va-gov.atlassian.net/servicedesk/customer/portal/3/group/8/create/26>
+
 **How to Work with CMS team**
-- [Working with the CMS team (Rules of Engagement)](working-with-cms-team.md) (work in progress)
+- [Working with the CMS team (Rules of Engagement)](working-with-cms-team.md)
 
 **Getting Started**
 - [Before you begin, set up HTTPS](https://github.com/department-of-veterans-affairs/va.gov-cms/blob/main/READMES/https.md)
