@@ -23,8 +23,38 @@ The One-Time Passcode (OTP) flow is designed for scenarios where users access VA
    The OTP is single-use and grants time-limited, purpose-specific access for scheduling activities, ensuring security without requiring session tokens from va.gov's Sign-In Service.  
    All subsequent API calls to VASS for scheduling actions are authorized based on this OTP validation.
 
-**For a visual and step-by-step breakdown, see:**  
-[OTP Flow Sequence Diagrams](./sequence-diagrams)
+```mermaid
+sequenceDiagram
+    participant V as Veteran (Browser)
+    participant FE as vets-website
+    participant API as vets-api
+    participant R as Redis
+    participant VAN as VA Notify
+    participant VASS as VASS API
+
+    Note over V,VASS: Authentication Flow
+    V->>FE: Click email link (with UUID)
+    FE->>API: POST /request-otp<br/>(lastName, DOB, UUID)
+    API->>VASS: Validate UUID & credentials
+    VASS-->>API: Return veteran data
+    API->>API: Generate 6-digit OTP
+    API->>R: Store OTP (10 min TTL)
+    API->>VAN: Send OTP email
+    VAN-->>V: Email with OTP
+    API-->>FE: OTP sent confirmation
+    
+    V->>FE: Enter OTP
+    FE->>API: POST /authenticate-otp<br/>(UUID, lastName, DOB, OTP)
+    API->>R: Validate OTP
+    API->>API: Generate JWT (HS256)
+    API->>R: Store session (1 hour TTL)
+    API-->>FE: Return JWT token
+    
+    Note over V,VASS: Authenticated Requests
+    FE->>API: Appointment requests<br/>(Bearer token)
+    API->>API: Validate JWT + session
+    API->>VASS: Forward request (OAuth token)
+```
 
 ---
 
@@ -68,3 +98,38 @@ While the OTP flow handles **veteran authentication** (user → Vets API), the *
 - Configuration is managed through `config/settings.yml` under the `vass:` section
 
 This service-to-service authentication is completely separate from and transparent to the veteran using the OTP flow. 
+
+### vets-api-to-VASS API Authentication (OAuth 2.0 Client Credentials)
+
+```mermaid
+sequenceDiagram
+    participant API as vets-api
+    participant R as Redis
+    participant AAD as Azure AD
+    participant VASS as VASS API
+
+    Note over API,VASS: Initial Request
+    API->>R: Check cached OAuth token
+    R-->>API: Token not found/expired
+    
+    API->>AAD: POST /oauth2/v2.0/token<br/>(client_id, client_secret, tenant_id)
+    AAD-->>API: Access token (1 hour expiry)
+    API->>R: Cache token
+    
+    API->>VASS: API request<br/>(Bearer token + Subscription-Key)
+    VASS-->>API: Response
+    
+    Note over API,VASS: Subsequent Requests (cached token)
+    API->>R: Check cached OAuth token
+    R-->>API: Valid token found
+    API->>VASS: API request<br/>(Bearer token + Subscription-Key)
+    
+    Note over API,VASS: Token Refresh on 401
+    VASS-->>API: 401 Unauthorized
+    API->>R: Invalidate cached token
+    API->>AAD: Request new token
+    AAD-->>API: New access token
+    API->>R: Cache new token
+    API->>VASS: Retry request
+```
+
