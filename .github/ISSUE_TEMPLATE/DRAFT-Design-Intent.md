@@ -36,7 +36,7 @@ Optional:
 - [ ] Research plan
 
 ### Governance Team actions
-Link to Slack thread
+- [ ] Add link to Slack thread
 
 ## During the meeting
 
