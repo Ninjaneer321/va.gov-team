@@ -32,19 +32,19 @@ Source: GA4
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |	Benefit letters and decision letters	|	747 | - | - | - | - | - | - | - | - | - | - | - |
 |	Burials and memorials	| 244 | - | - | - | - | - | - | - | - | - | - | - |
-|	Careers and employment	|	225 | - | - | - | - | - | - | - | - | - | - | - |
-|	Direct deposit information	|	45 | - | - | - | - | - | - | - | - | - | - | - |
-|	Disability compensation	|	807 | - | - | - | - | - | - | - | - | - | - | - |
-|	Education benefits for family members	|	90 | - | - | - | - | - | - | - | - | - | - | - |
-|	Education benefits for Veterans	| 360 | 45 | - | - | - | - | - | - | - | - | - | - | - |
-|	Home loans	|	225 | - | - | - | - | - | - | - | - | - | - | - |
-|	Homeless Veteran care	|	90 | - | - | - | - | - | - | - | - | - | - | - |
-|	Life Insurance	|	- | - | - | - | - | - | - | - | - | - | - | - |
-|	Military service records	|	45 | - | - | - | - | - | - | - | - | - | - | - |
-|	Military sexual trauma-related claims	|	45 | - | - | - | - | - | - | - | - | - | - | - |
-|	Pre-discharge claims	|	45 | - | - | - | - | - | - | - | - | - | - | - |
-|	Pre-need burial planning	|	135 | - | - | - | - | - | - | - | - | - | - | - |
-|	Returning service member care	|	90 | - | - | - | - | - | - | - | - | - | - | - |
-|	Survivor compensation	|	45 | - | - | - | - | - | - | - | - | - | - | - |
-|	Transition assistance	|	- | - | - | - | - | - | - | - | - | - | - | - |
-|	Veteran Readiness and Employment programs	|	314 | - | - | - | - | - | - | - | - | - | - | - |
+|	Careers and employment	|	370 | - | - | - | - | - | - | - | - | - | - | - |
+|	Direct deposit information	|	283 | - | - | - | - | - | - | - | - | - | - | - |
+|	Disability compensation	|	1,613 | - | - | - | - | - | - | - | - | - | - | - |
+|	Education benefits for family members	|	360 | - | - | - | - | - | - | - | - | - | - | - |
+|	Education benefits for Veterans	| 519 | - | - | - | - | - | - | - | - | - | - | - | - |
+|	Home loans	|	334 | - | - | - | - | - | - | - | - | - | - | - |
+|	Homeless Veteran care	|	340 | - | - | - | - | - | - | - | - | - | - | - |
+|	Life Insurance	|	218 | - | - | - | - | - | - | - | - | - | - | - |
+|	Military service records	|	476 | - | - | - | - | - | - | - | - | - | - | - |
+|	Military sexual trauma-related claims	|	170 | - | - | - | - | - | - | - | - | - | - | - |
+|	Pre-discharge claims	|	134 | - | - | - | - | - | - | - | - | - | - | - |
+|	Pre-need burial planning	|	92 | - | - | - | - | - | - | - | - | - | - | - |
+|	Returning service member care	|	115 | - | - | - | - | - | - | - | - | - | - | - |
+|	Survivor compensation	|	480 | - | - | - | - | - | - | - | - | - | - | - |
+|	Transition assistance	|	147 | - | - | - | - | - | - | - | - | - | - | - |
+|	Veteran Readiness and Employment programs	|	1,010 | - | - | - | - | - | - | - | - | - | - | - |
