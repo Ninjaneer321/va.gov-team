@@ -122,6 +122,14 @@ synthesis_tools_used:
 - [Research participants](#user-content-research-participants)
 
 ## Research Goals
+Veterans may fill out web forms on VA.gov throughout their lives, including all stages of the Veteran Journey--Serving and separation, Living civilian life, and Retiring and aging. **Saving in-progress work while filling out an online form** is an interaction for which the current implementation on VA.gov has two known accessibility issues, and a revised design that was [usability tested in May 2025](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md) didn't work very well. Key findings from that study indicated that most participants didn't know that their information was being saved automatically, and they didn't see or remember either of the informational alerts about saving. 
+
+This research was intended to get user feedback on a revised design that hopefully communicates more effectively to Veterans that the information they enter into forms will be saved automatically. The new design adds an [interstitial page (in Figure 1 below)](#user-content-figure-1-shows-the-new-interstitial-page) about saving that appears after the user clicks the Continue button on the first page of form fields, which is after they've started filling out the form and during a natural pause in their work (between form pages).
+
+### Figure 1 shows the new interstitial page
+
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2026-01-save-in-progress-2/images/interstitial.PNG" width="50%" height="50%" alt="The new interstitial page explains that the information you enter in the form will saved, and that you can select the Finish later button anytime to stop">
+
 *Provide context for this research by explaining how it fits into the Veteran’s journey.*  
 [See the Veteran journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)  
 
@@ -133,13 +141,19 @@ synthesis_tools_used:
 
 ## Research Questions
 
-*List the research questions that guided this study.*  
+### Research goal 1: See if Veterans understand that their form data is being saved as they're filling out a form but haven't submitted it yet.
+1. What reactions/feedback do Veterans have upon encountering the interstitial page after clicking "Continue"?
+1. Do Veterans think that their form data is being saved? If so, how confident are they?
+1. Do Veterans click on either of the links on the interstitial page (that go to My VA or the form intro page)?
+1. Do Veterans remember later what the interstitial page said?
 
-* Question 1
-* Question 2
-* Question 3
+#### Research goal 2: See if Veterans can stop filling out a form, get signed out, and then resume filling out a form.  
+1. Do Veterans use the "Finish later" button to stop filling out a form?
+1. What feedback do Veterans have on the revised "Finish later" page? 
+1. Are Veterans able to resume filling out a form that they previously started? If so, how?
+1. Do users realize that they have to sign in before resuming the form?
 
-[Example Research Questions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-questions)
+#### Research goal 3: See if moving the accordion controls to the left side affects usability.
 
 ## Methodology 
 
