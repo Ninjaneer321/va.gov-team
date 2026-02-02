@@ -33,7 +33,7 @@ architecture-beta
 
 **Communication Protocols:**
 - **vets-api ↔ VASS API**: HTTPS (OAuth 2.0 Bearer token + Azure APIM Subscription-Key)
-- **vets-api ↔ Azure AD**: HTTPS (OAuth 2.0 client credentials flow)
+- **vets-api ↔ Auth Service(Azure AD)**: HTTPS (OAuth 2.0 client credentials flow)
 - **VASS System → VA Notify**: HTTPS (REST API)
 - **vets-api → VA Notify**: HTTPS (REST API)
 
