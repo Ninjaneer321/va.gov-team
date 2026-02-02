@@ -307,7 +307,7 @@ We will partner with Perigean to recruit Veterans. We will request a kickoff mee
 ### Optional Kick-off Call with Perigean
 
 We will partner with Perigean to recruit Veterans. We request a 30 minute kickoff meeting with Perigean to align on what is needed and desired from the sample. Availability for potential kickoff meeting times with Perigean, depending on their availability is below. More time can be made available based on Perigean’s needs.
-- TBD
+- Tuesday, 2/2 at 3:00pm EST 
 
 ### Prepare
 
@@ -328,6 +328,8 @@ We will partner with Perigean to recruit Veterans. We request a 30 minute kickof
 Please include a 30-minute buffer between sessions.
 
 ### Tuesday, 2/10
+• 9:00am EST – Florence, Athena  
+• 10:00am EST – Florence, Athena  
 • 11:00am EST – Cara, Anneka, Florence, Athena  
 • 12:00pm EST – Florence, Athena, Anneka  
 • 1:00pm EST – Florence, Athena  
@@ -340,36 +342,47 @@ Please include a 30-minute buffer between sessions.
 • 2:00pm EST – Florence, Athena  
 
 ### Thursday, 2/12
+• 10:00am EST – Florence, Athena  
 • 11:00am EST – Cara, Anneka  
-• 12:00pm EST – Florence, Athena  
+• 12:00pm EST – Florence, Athena, (Anneka?)  
 • 2:00pm EST – Anneka, Athena  
 
 ### Friday, 2/13
+• 9:00am EST – Florence, Athena  
+• 10:00am EST – Florence, Athena  
 • 11:00am EST – Cara, Anneka, Athena  
-• 12:00pm EST – Anneka, Athena (Florence?)  
-• 2:00pm EST – Anneka, Athena   
+• 12:00pm EST – Florence, Athena  
+• 2:00pm EST – Anneka, Athena  
 
 ### Monday, 2/16 – Presidents Day (Holiday – no sessions)
 
 ### Tuesday, 2/17
+• 9:00am EST – Florence, Athena  
+• 10:00am EST – Florence, Athena  
 • 11:00am EST – Cara, Athena  
-• 12:00pm EST – Florence, Athena, Anneka  
+• 12:00pm EST – Florence, Athena (Anneka?)  
 • 2:00pm EST – Anneka, Athena  
 
 ### Wednesday, 2/18
+• 11:00am EST – Cara, Athena  
+• 12:00pm EST – Florence, Athena  
 • 1:00pm EST – Florence, Athena, Anneka  
 • 2:00pm EST – Florence, Athena  
 
 ### Thursday, 2/19
+• 10:00am EST – Florence, Athena  
 • 11:00am EST – Anneka, Athena  
 • 12:00pm EST – Florence, Athena, Anneka  
 • 3:00pm EST – Cara, Athena  
 
 ### Friday, 2/20
+• 9:00am EST – Florence, Athena  
+• 10:00am EST – Florence, Athena  
 • 11:00am EST – Cara, Anneka, Florence  
 • 2:00pm EST – Anneka, Athena  
 
 ### Monday, 2/23
+• 10:00am EST – Florence, Athena  
 • 11:00am EST – Cara, Anneka, Athena  
 • 12:00pm EST – Florence, Athena, Anneka  
 • 1:00pm EST – Florence, Athena  
