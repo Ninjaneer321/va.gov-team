@@ -7,7 +7,7 @@
 # Repository: va.gov-team (with sparse checkout)
 # Reports pushed to: va.gov-research-repository/reports/quarterly-reports/participant-data/
 
-name: Diversity Data Extraction
+name: Participant Data Extraction
 
 on:
   schedule:
