@@ -149,7 +149,7 @@ We will vertically align the icon in the summary text to the top of the summary 
 
 ---
 
-## ADR 007 - New componennt
+## ADR 007 - New component
 
 ### Status: PROPOSED
 
