@@ -37,7 +37,7 @@ _This file is intended to record common questions that arise out of the dependen
 
 ## Dependents Product Analytics
 
-### [Dependent Verification Funnel Dashboard](https://vagov.ddog-gov.com/dashboard/usm-s3i-7qu?fromUser=false&refresh_mode=paused&storage=flex_tier&tpl_var_env%5B0%5D=production&tpl_var_env%5B1%5D=eks-prod&from_ts=1767128648363&to_ts=1769807048363&live=false)
+### [Dependent Verification Alert State Breakdown](https://vagov.ddog-gov.com/dashboard/usm-s3i-7qu?fromUser=false&fullscreen_end_ts=1769807016244&fullscreen_paused=true&fullscreen_refresh_mode=paused&fullscreen_start_ts=1767128616244&fullscreen_widget=3555955186405738&refresh_mode=paused&storage=flex_tier&tile_focus=3555955186405738&tpl_var_env%5B0%5D=production&tpl_var_env%5B1%5D=eks-prod&from_ts=1767128616244&to_ts=1769807016244&live=false)
 * Visible:
   ```
   message: 'View dependents 0538 warning alert visible'
