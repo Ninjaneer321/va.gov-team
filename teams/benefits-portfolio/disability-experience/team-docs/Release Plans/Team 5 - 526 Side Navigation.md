@@ -142,9 +142,9 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 - What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? [FILL_IN]
 
 
-### Stage A: 5% of users
+### Stage B: 5% of users
 
-*Test a small Veteran population to ensure any obvious bugs/edge cases are found.*
+*Test a slightly larger Veteran population to ensure any obvious bugs/edge cases are found.*
 
 #### Planning
 
@@ -159,7 +159,7 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 - Types of errors logged: [FILL_IN]
 - What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? [FILL_IN]
 
-### Stage B: 25% of users
+### Stage C: 25% of users
 
 *Test a larger user population to ensure larger usage patterns expose no issues.*
 
@@ -176,7 +176,7 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 - Types of errors logged: [FILL_IN]
 - What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? [FILL_IN]
 
-### Stage C: 50% of users (optional)
+### Stage D: 50% of users (optional)
 
 *Test a larger user population to ensure larger usage patterns expose no issues.*
 
@@ -184,23 +184,6 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 
 - Length of time: One week - starting Monday 03/09
 - Percentage of Users (and roughly how many users do you expect this to be): 50%
-
-#### Results
-
-- Number of unique users: [FILL_IN]
-- Metrics at this stage (per your "success criteria"): [FILL_IN] a list that includes KPIs listed in the [Rollout Planning](#rollout-planning) section
-- Was any downstream service affected by the change?: [PICK_ONE]: yes | no |  N/A
-- Types of errors logged: [FILL_IN]
-- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? [FILL_IN]
-
-### Stage D: 75% of users (optional)
-
-*Test a larger user population to ensure larger usage patterns expose no issues.*
-
-#### Planning
-
-- Length of time: One week - starting Monday 03/16
-- Percentage of Users (and roughly how many users do you expect this to be): 75%
 
 #### Results
 
