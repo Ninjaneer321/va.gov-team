@@ -65,6 +65,13 @@ Source: [Amy Grace Wells, July 2025](https://dsva.slack.com/archives/C07RB9N9M6J
 
 </details>
 
+<details>
+<summary>Can the 686 or 674 infer a decision based on how a Veteran answers the questions in the forms?</summary>
+
+  - No. In general, even if the form instructions make clear what can qualify a dependent to stay or get removed from an award, the form shouldn't state a clear decision. That decision belongs with the VA and staff processing forms based on the evidence provided.
+
+</details>
+
 ## Claim Processing
 <details>
 <summary>How long does it take to process a 686c claim?</summary>
