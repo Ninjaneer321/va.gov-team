@@ -2,11 +2,13 @@
 
 ## **Preparation**
 
-1. Request public install link from mobile engineering
+1. Request public TestFlight install link from mobile engineering
 
 ## **Install and set-up**
 
-1. Participants opens TestFlight link on phone  
+_All done at the start of session while participant shares screen_
+
+1. Participant opens TestFlight link on phone  
 2. Download TestFlight  
 3. Return to email browser, install VA Heath and Benefits app  
 4. (if required) Uninstall standard version of app
