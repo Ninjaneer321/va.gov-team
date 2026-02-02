@@ -21,6 +21,10 @@ As a Veteran, I want [ ], so that [ ].
 -  [ ] Yes
 -  [ ] No
 
+-  Does this require UX Review?
+-  [ ] Yes
+-  [ ] No
+
 ## Resources
 - Design links
 - Screenshots
@@ -30,6 +34,7 @@ As a Veteran, I want [ ], so that [ ].
 ## Acceptance Criteria/Definition of Done
 -  _What will be created or happen as a result of this story?_
 - [ ] Is feature flag enabled (if applicable)
+- [ ] Is UX review done?
 - [ ] Required steps in Collaboration will be completed
 - [ ] Decisions will be documented
 - [ ] Related product, design, and technical documentation will be updated
