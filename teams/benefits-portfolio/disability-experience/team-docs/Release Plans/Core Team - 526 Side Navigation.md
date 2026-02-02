@@ -28,8 +28,9 @@ Before enabling your feature toggle in production, you'll need to:
 
 ## Step 3: Production rollout
 
-### Do I need a staged rollout?
+### Do I need a staged rollout? (YES)
 
+<!--
 **Yes**, a staged rollout is required unless you can confidently answer "yes" to all of the following:
 
 - This change does not add substantial new functionality to VA.gov
@@ -60,21 +61,29 @@ Currently, [feature toggles](https://department-of-veterans-affairs.github.io/ve
 | URL redirects | No |
 
 DEPO VSP / OCTO leads can approve other exceptions to this requirement.
+-->
 
 ### Define the Rollback process
 
+<!-- 
 Even though your feature has been tested and ready, production is still a different environment than staging. You'll need to create a rollback plan if things go wrong. Usually, this is as simple as a feature toggle flip. Be as specific as possible.
 
 > Example
 >
 > - Our PM and PO will monitor analytics. If they see a spike in errors or unexpected behavior, they will contact the engineering team to get the FE engineer to disable the toggle.
+--> 
 
-[FILL_IN]: create your rollback plan
+If an error rate spike or major regression is detected: 
+- Engineering will immediately disable toggle in produciton
+- PM will notify stakeholders, and document incident
+- Debug and patch before attempting re-release
 
 ### Phase I: moderated production testing (also known as User Acceptance Testing, or UAT)
 
 #### Planning
+There is no plan to conduct moderated production testing.
 
+<!--
 - Desired date range or test duration: [FILL_IN]
 - Desired number of users: [FILL_IN]
 - How you'll recruit the right production test users: [FILL_IN]
@@ -92,6 +101,7 @@ Even though your feature has been tested and ready, production is still a differ
 - Types of errors logged: [FILL_IN]
 - Any changes necessary based on the logs, feedback on user challenges, or VA challenges? [PICK_ONE]: yes/no
 - If yes, what: [FILL_IN] with ticket numbers
+-->
 
 ### Phase II: Staged Rollout (also known as unmoderated production testing)
 
@@ -99,12 +109,14 @@ We recommend that the rollout plan has five stages, each increasing the number o
 
 #### Rollout Planning
 
-- Desired date range: [FILL_IN]
-- How will you make the product available in production while limiting the number of users who can find/access it: [FILL_IN].
+- Desired date range:
+  > 02/23 - 03/23
+- How will you make the product available in production while limiting the number of users who can find/access it:
+  > Flipper flags toggled on incrementally.
 - What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?: \[use your KPIs to help guide this. It could be things like *abandonment rate < 20%*, *reported contact center calls < 2 calls*, *error rate < 5%*, etc.\]
-  - [FILL_IN] : list
-  - [FILL_IN] : of
-  - [FILL_IN] : KPIs
+  - Error tracking on frontend with Datadog RUM
+  - etc...
+  - 
 - Links to the dashboard(s) showing "success criteria" metrics: [FILL_IN] with link to dashboards (example: Google Analytics dashboard)
 - Who is monitoring the dashboard(s)?: [FILL_IN]
 
@@ -118,7 +130,25 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 
 #### Planning
 
-- Length of time: [FILL_IN] (*minimum 2 hours*)
+- Length of time: 2 days - starting Monday 02/23
+- Percentage of Users (and roughly how many users do you expect this to be): [FILL_IN]% (*Recommendation: 1% of users*)
+
+#### Results
+
+- Number of unique users: [FILL_IN]
+- Metrics at this stage (per your "success criteria"): [FILL_IN] a list that includes KPIs listed in the [Rollout Planning](#rollout-planning) section
+- Was any downstream service affected by the change?: [PICK_ONE]: yes | no |  N/A
+- Types of errors logged: [FILL_IN]
+- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? [FILL_IN]
+
+
+### Stage A: 5% of users
+
+*Test a small Veteran population to ensure any obvious bugs/edge cases are found.*
+
+#### Planning
+
+- Length of time:  Five days - starting Wednesday 02/25
 - Percentage of Users (and roughly how many users do you expect this to be): [FILL_IN]% (*Recommendation: 1% of users*)
 
 #### Results
@@ -135,7 +165,7 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 
 #### Planning
 
-- Length of time: [FILL_IN] (*minimum 2 hours*)
+- Length of time: One week - starting Monday 03/02
 - Percentage of Users (and roughly how many users do you expect this to be): 25%
 
 #### Results
@@ -152,7 +182,7 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 
 #### Planning
 
-- Length of time: [FILL_IN] (*minimum 2 hours*)
+- Length of time: One week - starting Monday 03/09
 - Percentage of Users (and roughly how many users do you expect this to be): 50%
 
 #### Results
@@ -169,7 +199,7 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 
 #### Planning
 
-- Length of time: [FILL_IN] (*minimum 2 hours*)
+- Length of time: One week - starting Monday 03/16
 - Percentage of Users (and roughly how many users do you expect this to be): 75%
 
 #### Results
@@ -184,7 +214,7 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 
 #### Planning
 
-- Length of time: [FILL_IN] (*minimum 2 hours*)
+- Length of time: One week - starting Monday 03/23
 - Percentage of Users (and roughly how many users do you expect this to be): 100%
 
 #### Results
