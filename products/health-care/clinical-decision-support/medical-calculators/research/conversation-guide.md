@@ -1,15 +1,14 @@
 ---
-title: "Conversation Guide for CDS Medical Calculators,09/16/2025"
-author: "Rosemary Rogers"
-date_created: "09/10/2025"
-last_modified: "9/17/2025"
+title: "Conversation Guide for CDS Medical Calculators,02/02/2026"
+author: "Natalie Hill"
+date_created: "02/02/2026"
+last_modified: "02/02/2026"
 tags:
-  - "line charts"
-  - "lab trends"
+  - "time on task "
   - "medical calculators"
 description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
 ---
-# Conversation Guide for Testing Line Charts within Specific Calculator Fields
+# Conversation Guide for Testing Time to Complete Calculation in AMPREDICT and PROPREDICT
 
 ## Moderator logistics 📋✅
 ### 2-3 days before the session
@@ -51,64 +50,37 @@ description: "A template for moderating research sessions including logistics, i
 
 # Intro - 5 minutes
 
-Thanks for joining us today! My name is **[NAME]** and **[NOTETAKER NAME]** & **[NOTETAKER NAME]** is/are here to help with note taking and observing the session. Is that OK?
+Thanks for joining us today! My name is Natalie and Rosemary is here to help with note taking and observing the session. Is that OK?
 > [!TIP]
 > - Then, ask the notetaker and observers to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)
 > - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
 
-Today we're going to talk about [insert topic]
+Today we're going to talk about AMPREDICT/PROPREDICT
 
 Before we start, I have a few things that I want to go over with you:
 
-- **This entire session should take about 60 minutes.** I want to make sure I leave some space for your questions too, so I may occasionally prompt you with the next question or topic.
+- **This entire session should take about 20 minutes.** I want to make sure I leave some space for your questions too, so I may occasionally prompt you with the next question or topic.
   
 - **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
   
 - **Your participation in this session is completely voluntary.** You do not have to participate if you don't want to. Your responses will remain confidential and your anonymity protected. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Please let me know.
-       
-- *(If applicable)* **You'll be interacting with a prototype today.** This is a demo tool that may not function exactly the way you expect. Some areas of the prototype will be clickable, and some will not. 
-  
-- **Are you comfortable if I record my screen and audio as we talk today?** We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will be attributed to you directly. We either report findings out in groups (i.e., 5 out of 10 participants said this), or if we want to quote you directly, we use a general role, like primary care physiciant or give you a participant ID, like P7. A general role or care setting helps provide a lens for the quote.
-  
-   - **Knowing that, are you comfortable if I record my screen and audio as we talk today?**
-
-   <mark>**[Record answer here]**</mark>
-     
-   - If yes: **Once I start recording, I am going to confirm that you are okay with me recording this session once more.**
-
-➡️ **Start recording.**
-
-> [!TIP]
-> After you start the recording, click the Show captions (CC) button to enable transcription for the recording.
-
-- **I have started recording.** I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
-
- <mark>**[Record answer here]**</mark>
- 
 
 # Warm-up Questions (Optional) - 5 minutes
 
-Before we look at [the prototype/etc], I'd like to learn a little bit about you. 
+Before we look at the calculator, I'd like to learn a little bit about you. 
 
 > [!TIP]
 > - These are placeholder questions, but work well across a lot of situations. Adjust as you need for your study.
 > - If it's a prior participant, consider skipping or modifying the intro questions or following up on something you previously learned from them.
 
 1. Can you tell me about your current role at the VA and how long have you been at the VA?
-2. How often have you been using [insert product]?
-3. Can you breifly walk be through what your experience was like the last time you used [product or thing]?
-4. What, if anything, was challenging about that experience? Why?
-5. What, if anything, was straightforward about that experience? Why?
 
-## Prototype Intro - Moderator Controls:
-Next we’re going to look at a prototype of the [insert thing]. There are a few things I’d like you to keep in mind: 
+## Intro:
+Next we’re going to look at the online AMPREDICT/PROPREDICT calculator: 
 
-- I’ll describe a scenario and then give you a set of tasks to complete using the prototype.
-- This is a prototype and not the real application. [Non-coded interactive prototype: It closely matches the real application, but some things may not work as expected.] You may see placeholder information that doesn't match your own situation exactly and that's ok.
-- I'm going to share my screen and you can tell me what to do, what to click, where to scroll. 
-- There are questions that will ask to input information. When we get to these points, you can tell me what you would input, and then we'll move on. 
-- As you're going through the prototype, please think aloud. I'd like you to say whatever comes into your mind. I'm interested in what's grabbing your attention on the screen, what questions you have, and your general thoughts as you review a page. 
-- If at any point you feel uncomfortable or confused, please let me know. We are testing the designs and gathering feedback and not testing you. We’re here to support and learn from you. 
+- Please navigate to: https://www.ampdecide.org/ampredict/risk-calculator, https://prodecide.org/risk-calculator
+- Please open a patient in CPRS so you can input their data into the calculator. Before you start entering data, please let me know so I can start the timer.
+- As you're going through the calculator, please think aloud. I'd like you to say whatever comes into your mind.
 - If you have any questions as we go along, please feel free to ask me. I may not be able to answer them right away since we’re interested in how people would navigate this application without a helper around. But if you still have any questions when we’re done, I’ll try to answer them then.
 - And please feel free to be as honest as possible – it won’t hurt our feelings. 
 
