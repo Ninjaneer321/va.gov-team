@@ -40,3 +40,20 @@
 <img width="49%" alt="phase 0 appointments" src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/cross-tool-engineering/images/p4-SM.png" />
 <img width="49%" alt="phase 0 appointments" src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/cross-tool-engineering/images/p4-Meds.png" />
 <img width="49%" alt="phase 0 appointments" src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/cross-tool-engineering/images/p4-MR.png" />
+
+## Phase 5 (T-0 MIGRATION DAY!!! through T+1)
+> All tools will be in "error" phase
+
+<img width="49%" alt="phase 0 appointments" src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/cross-tool-engineering/images/p5-Appts.png" />
+<img width="49%" alt="phase 0 appointments" src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/cross-tool-engineering/images/p5-SM.png" />
+<img width="49%" alt="phase 0 appointments" src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/cross-tool-engineering/images/p5-Meds.png" />
+<img width="49%" alt="phase 0 appointments" src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/cross-tool-engineering/images/p5-MR.png" />
+
+## Phase 6 (T+2 through T+6)
+> No tools will show alerts except Appointments, which is still in "error" phase
+
+<img width="49%" alt="phase 0 appointments" src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/cross-tool-engineering/images/p6-Appts.png" />
+
+## Phase 7 (T+7 +++)
+> Migration is complete
+> No tools show migration alerts
