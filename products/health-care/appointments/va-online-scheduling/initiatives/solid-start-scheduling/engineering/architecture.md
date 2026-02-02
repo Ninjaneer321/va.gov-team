@@ -23,12 +23,12 @@ architecture-beta
 
     service vasssystem(server)[VASS System] in VASS
     service vassapi(server)[VASS API] in VASS
-    service azuread(server)[Azure AD] in VASS
+    service authentication(server)[Auth Service] in VASS
     
     vassapi:R -- L:vasssystem
     vasssystem:L -- R:vanotify
     vetsapi:R -- L:vassapi
-    vetsapi:R -- L:azuread
+    vetsapi:R -- L:authentication
 ```
 
 **Email Delivery via VA Notify:**
