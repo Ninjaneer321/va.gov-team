@@ -50,7 +50,9 @@
 ### Service history information
 #### 01/14/2026 VSC alert updates
 - Mobile team is updating VSC alerts to direct to the VA call center. Determined Service history information will not be changing to match at this time.
-- [Link to conversation](https://dsva.slack.com/archives/C01K37HRUAH/p1767895127894269)
+   - [Link to conversation](https://dsva.slack.com/archives/C01K37HRUAH/p1767895127894269)
+- Phone numbers will appear on their own line to allow for dynamic back end updates as needed.
+   - [Link to conversation](https://dsva.slack.com/archives/C07SD9P7XB9/p1770052636490629?thread_ts=1769792008.698649&cid=C07SD9P7XB9)
 
 ### Email and text notifications
 #### 08/25/2025 Email and text notifications content standards
