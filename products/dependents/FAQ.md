@@ -252,6 +252,14 @@ Source: [Amy Grace Wells, July 2025](https://dsva.slack.com/archives/C07RB9N9M6J
   [Source: David Reis (Slack message) 8/18/25](https://dsva.slack.com/archives/C0547Q0K0LF/p1755526968940779)
 </details>
 
+<details>
+<summary>What happens if a Veteran claims that a child has a permanent disability and is in school?</summary>
+
+  - You can claim both, but would only be paid for one of the statuses.
+  - The student gets a Veteran more money, so they'd likely be paid for that.
+ 
+  [Source: David Reis 2/02/26]([https://dsva.slack.com/docs/T03FECE8V/F08UBCMQ5GQ?focus_section_id=temp:C:FNHd9f38027b424457b993e86682](https://dsva.slack.com/docs/T03FECE8V/F08UBCMQ5GQ?focus_section_id=temp:C:FNH1935a7e75880475da353cafb4))
+</details>
 
 ## Students
 <details>
