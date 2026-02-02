@@ -9,7 +9,7 @@
 - **SPRINT GOAL (Eng):** Explore feasibility of reusing or forking the Claims Status Tool codespace for VFMP Health Status Tool prototyping and accessibility-friendly user testing.
 - **SPRINT GOAL (Eng):** Deepen understanding of CST and Health Apps systems through targeted documentation review and engineer-to-engineer conversations.
 - **SPRINT GOAL (UX):** Continue design and documentation onboarding while staying aligned with VA UX on C+IA follow-ups and Design Intent outcomes.
-- **SPRINT GOAL (UX):** Prepare MVP usability research for execution, including prototype readiness and recruitment alignment.
+- **SPRINT GOAL (UX):** Partner with VA UX to review MVP usability research, including determining prototype and recruitment alignment.
 
 
 ##
