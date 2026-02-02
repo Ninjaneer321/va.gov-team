@@ -130,14 +130,12 @@ This research was intended to get user feedback on a revised design that hopeful
 
 <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2026-01-save-in-progress-2/images/interstitial.PNG" width="50%" height="50%" alt="The new interstitial page explains that the information you enter in the form will saved, and that you can select the Finish later button anytime to stop">
 
-*Provide context for this research by explaining how it fits into the Veteran’s journey.*  
-[See the Veteran journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)  
+The **goals of this research** were to 
+1. See if Veterans understand that their form data is being saved as they're filling out a form but haven't submitted it yet.
+1. See if Veterans can stop filling out a form, get signed out, and then resume filling out a form.
+1. See if moving the accordion controls to the left side affects usability.
 
-**Guiding Questions:**  
-- What are the key moments this tool supports in the Veteran’s journey?  
-- What outcomes are we aiming to achieve for Veterans and stakeholders?  
-
-[Example Research Goals](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-goals) 
+Findings and recommendations from this research will **inform guidance and documentation for the "save in progress" feature** for authenticated users filling out forms on VA.gov. Matt Dingee asked ADE to assist with this because some VFS teams are innovating new designs, whereas "save in progress" should be a standard pattern used by all teams for consistency across VA.gov.
 
 ## Research Questions
 
