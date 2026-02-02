@@ -1,7 +1,7 @@
 # Analytics FAQs
 _This file is intended to record common questions that arise out of the dependent manage DataDog dashboards._
 
-## General DataDog Quesitons
+## General DataDog Questions
 ### What is a dead click?
 - A dead click is when a user clicks on a static or non-interactive element that produces no action, is not a link or button, **and results in no change to the page or navigation**
 
@@ -36,6 +36,48 @@ _This file is intended to record common questions that arise out of the dependen
 - In the lifestage error metric, we only count the error when the retry has exhausted (rather than counting each retry as an error.)
 
 ## Dependents Product Analytics
+
+### [Dependent Verification Funnel Dashboard](https://vagov.ddog-gov.com/dashboard/usm-s3i-7qu?fromUser=false&refresh_mode=paused&storage=flex_tier&tpl_var_env%5B0%5D=production&tpl_var_env%5B1%5D=eks-prod&from_ts=1767128648363&to_ts=1769807048363&live=false)
+* Visible:
+  ```
+  message: 'View dependents 0538 warning alert visible'
+  {
+    state: 'visible',
+    reason: '',
+  }
+  ```
+* Hidden because of no active dependents:
+  ```
+  message: 'View dependents 0538 warning alert hidden because no active dependents'
+  {
+    state: 'hidden because no active dependents',
+    reason: 'no active dependents',
+  }
+  ```
+* Hidden because disability rating < 30%:
+  ```
+  message: 'View dependents 0538 warning alert hidden because disability rating below 30%'
+  {
+    state: 'hidden because disability rating below 30%',
+    reason: 'disability rating below 30%',
+  }
+  ```
+* Hidden by user previously:
+  ```
+  message: 'View dependents 0538 warning alert already hidden'
+  {
+    state: 'already hidden',
+    reason: 'user previously closed alert',
+  }
+  ```
+* Hidden by user using the close button:
+  ```
+  message: 'View dependents 0538 warning alert hidden by user'
+  {
+    state: 'hidden by user',
+    reason: 'hidden by user',
+  }
+  ```
 
 ### Picklist: What is the difference between the ``Duplicate Alert`` and the ``Duplicate Modal``?
 - ``Duplicate modal`` released on 11/20/25.
