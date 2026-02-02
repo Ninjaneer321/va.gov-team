@@ -5,6 +5,7 @@ This Scrum of Scrum (SoS) meeting is to ensure all teams working with the Drupal
 
 2/2/2026
 *  CMS team is revisitng incident management for critical URLs, starting with the homepage (ticket [here](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/23342)). For an incidents with homepage, is there a best way that we can quickly notify a Sitewide engineer for support?
+    *  CMS Team is asking for a way to contact a Sitewide Team member in the event that we need Sitewide Team expertise. Sitewide to come back with the best way to contact a person after hours by next scrum of scrums.
 
 1/22/2026
 *  Rescheduling this meeting so that more OCTO folks can join. Does Mondays work for folxs?
