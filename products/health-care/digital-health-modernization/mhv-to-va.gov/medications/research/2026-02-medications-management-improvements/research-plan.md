@@ -280,6 +280,28 @@ We will partner with Perigean to recruit Veterans. We will request a kickoff mee
 
 **[None listed]**
 
+### Screener questions
+
+1. Do you receive VA healthcare benefits?
+   - Yes
+   - No [not eligible for study]
+
+2. Do you use the VA to refill your medications?
+   - Yes
+   - No [not eligible for study]
+
+3. If you use the VA to get your medications, how often would you guess you place an order for your medications using the VA.gov website or the VA Health and Benefits mobile app?
+   - 1 - 2 times a year
+   - 3 - 4 times a year
+   - 5 - 12 times a year
+   - 13 or more times a year
+   - I don’t get my medications from the VA [not eligible for study]
+
+4. Have you ever been diagnosed with a traumatic brain injury, PTSD or cognitive impairment of some sort? We ask this question because we want to make sure that our tools work for people who live with challenges like these.
+   - Yes
+   - No
+   - Prefer not to say (note: this is a new option)
+
 ## Timeline 🗓️
 
 ### Optional Kick-off Call with Perigean
