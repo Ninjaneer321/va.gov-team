@@ -1,8 +1,8 @@
-// .github/scripts/diversity-data-extraction.js
+// .github/scripts/participant-data-extraction.js
 //
-// Diversity Data Extraction Script
+// Participant Data Extraction Script
 // Extracts participant demographic data from research findings reports
-// and aggregates for quarterly diversity reporting.
+// and aggregates for quarterly participant data reporting.
 
 const fs = require('fs');
 const path = require('path');
@@ -291,7 +291,7 @@ const generateSummary = (aggregated, quarterInfo, isFirstRun, newlyProcessedFile
   const lines = [];
   
   // Header
-  lines.push('# 📊 Diversity Data Extraction Summary');
+  lines.push('# 📊 Participant Data Extraction Summary');
   lines.push('');
   lines.push(`> **Quarter:** ${quarterInfo.label} | **Period:** ${quarterInfo.startDate.toISOString().split('T')[0]} to ${quarterInfo.endDate.toISOString().split('T')[0]}`);
   lines.push(`> **Generated:** ${aggregated.extraction_date}`);
@@ -526,7 +526,7 @@ const generateSummary = (aggregated, quarterInfo, isFirstRun, newlyProcessedFile
 
   // Footer
   lines.push('---');
-  lines.push(`_Report generated automatically by the [Diversity Data Extraction Workflow](https://github.com/department-of-veterans-affairs/va.gov-team/actions/workflows/diversity-data-extraction.yml)_`);
+  lines.push(`_Report generated automatically by the [Participant Data Extraction Workflow](https://github.com/department-of-veterans-affairs/va.gov-team/actions/workflows/participant-data-extraction.yml)_`);
 
   return lines.join('\n');
 };
@@ -546,7 +546,7 @@ async function run(params) {
 
   // Load processed files manifest
   let manifest = { processed_files: [], last_updated: null, quarters_processed: [] };
-  const manifestPath = 'research-repo/reports/quarterly-reports/diversity-reports/processed-files.json';
+  const manifestPath = 'research-repo/reports/quarterly-reports/participant-data/processed-files.json';
 
   try {
     const manifestContent = fs.readFileSync(manifestPath, 'utf8');
@@ -849,12 +849,12 @@ async function run(params) {
   const summary = generateSummary(aggregated, quarterInfo, isFirstRun, newlyProcessedFiles, skippedFiles, allDemographics);
 
   // Write files with quarter-based naming
-  fs.writeFileSync(`diversity-summary-${quarterInfo.label}.md`, summary);
-  fs.writeFileSync(`diversity-data-${quarterInfo.label}.json`, JSON.stringify(aggregated, null, 2));
+  fs.writeFileSync(`participant-data-summary-${quarterInfo.label}.md`, summary);
+  fs.writeFileSync(`participant-data-${quarterInfo.label}.json`, JSON.stringify(aggregated, null, 2));
 
   // Also write generic names for artifact upload
-  fs.writeFileSync('diversity-summary.md', summary);
-  fs.writeFileSync('diversity-data.json', JSON.stringify(aggregated, null, 2));
+  fs.writeFileSync('participant-data-summary.md', summary);
+  fs.writeFileSync('participant-data.json', JSON.stringify(aggregated, null, 2));
 
   return { quarterInfo, aggregated };
 }
