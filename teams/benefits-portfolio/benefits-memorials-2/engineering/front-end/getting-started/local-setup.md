@@ -20,7 +20,7 @@ MAPBOX_TOKEN=<TOKEN_HERE>
 First, make sure the most recent version of Node is being used and dependencies have been updates.
 
 * `nvm use` to check the Node version. See this page for using `homebrew` to install `nvm`.
-* `yarn install` or `yarn update` to install or update dependencies.
+* `yarn install-safe` or `yarn update` to install or update dependencies. Post Shai Hulud we favor `yarn install-safe` over `yarn install`.
 * `yarn build` for the initia build of the application and pages.
 * `yarn watch --env api=https://dev-api.va.gov` to run the webpack dev server.
   * To compile specific sections, use the `entry` parameter. For example, `entry=facilities,static-pages`
