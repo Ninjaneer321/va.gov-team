@@ -1,11 +1,11 @@
 # .github/workflows/diversity-data-extraction.yml
 #
 # Purpose: Extract participant demographic data from research findings reports
-# and aggregate for quarterly diversity reporting. Runs at the end of each quarter
+# and aggregate for quarterly participant data reporting. Runs at the end of each quarter
 # and tracks processed files to avoid duplication.
 #
 # Repository: va.gov-team (with sparse checkout)
-# Reports pushed to: va.gov-research-repository/reports/quarterly-reports/diversity-reports/
+# Reports pushed to: va.gov-research-repository/reports/quarterly-reports/participant-data/
 
 name: Diversity Data Extraction
 
@@ -71,7 +71,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.WORKFLOWS_PERMISSIONS }}
         run: |
-          mkdir -p research-repo/reports/quarterly-reports/diversity-reports
+          mkdir -p research-repo/reports/quarterly-reports/participant-data
           
           echo "Cloning research repository..."
           if git clone --depth 1 --branch main https://x-access-token:${GH_TOKEN}@github.com/department-of-veterans-affairs/va.gov-research-repository.git research-repo-temp 2>/dev/null || \
@@ -80,14 +80,14 @@ jobs:
             rm -rf research-repo
             mv research-repo-temp research-repo
             echo "repo_cloned=true" >> $GITHUB_OUTPUT
-            mkdir -p research-repo/reports/quarterly-reports/diversity-reports
+            mkdir -p research-repo/reports/quarterly-reports/participant-data
           else
             echo "::error::Failed to clone research repository. Check that WORKFLOWS_PERMISSIONS token is valid."
             exit 1
           fi
           
-          if [ ! -f "research-repo/reports/quarterly-reports/diversity-reports/processed-files.json" ]; then
-            echo '{"processed_files": [], "last_updated": null, "quarters_processed": []}' > research-repo/reports/quarterly-reports/diversity-reports/processed-files.json
+          if [ ! -f "research-repo/reports/quarterly-reports/participant-data/processed-files.json" ]; then
+            echo '{"processed_files": [], "last_updated": null, "quarters_processed": []}' > research-repo/reports/quarterly-reports/participant-data/processed-files.json
             echo "Created new empty manifest"
           fi
 
@@ -96,7 +96,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const { run } = require('./.github/scripts/diversity-data-extraction.js');
+            const { run } = require('./.github/scripts/participant-data-extraction.js');
             const globModule = require('glob');
             const fullScan = '${{ github.event.inputs.full_scan }}' === 'true';
             const inputQuarter = '${{ github.event.inputs.quarter }}' || '';
@@ -114,33 +114,33 @@ jobs:
           fi
           
           echo "Looking for generated files..."
-          ls -la diversity-* || echo "No diversity files found in current directory"
+          ls -la participant-data-* || echo "No participant data files found in current directory"
           
-          if [ -f "diversity-summary-${QUARTER_LABEL}.md" ]; then
+          if [ -f "participant-data-summary-${QUARTER_LABEL}.md" ]; then
             echo "summary_exists=true" >> $GITHUB_OUTPUT
             echo "Found diversity-summary-${QUARTER_LABEL}.md"
           else
             echo "summary_exists=false" >> $GITHUB_OUTPUT
-            echo "::error::Missing diversity-summary-${QUARTER_LABEL}.md"
+            echo "::error::Missing participant-data-summary-${QUARTER_LABEL}.md"
             exit 1
           fi
           
-          if [ -f "diversity-data-${QUARTER_LABEL}.json" ]; then
+          if [ -f "participant-data-${QUARTER_LABEL}.json" ]; then
             echo "data_exists=true" >> $GITHUB_OUTPUT
-            echo "Found diversity-data-${QUARTER_LABEL}.json"
+            echo "Found participant-data-${QUARTER_LABEL}.json"
           else
             echo "data_exists=false" >> $GITHUB_OUTPUT
-            echo "::error::Missing diversity-data-${QUARTER_LABEL}.json"
+            echo "::error::Missing participant-data-${QUARTER_LABEL}.json"
             exit 1
           fi
 
       - name: Upload diversity data artifact
         uses: actions/upload-artifact@v4
         with:
-          name: diversity-data-${{ steps.extract.outputs.quarter_label }}
+          name: participant-data-${{ steps.extract.outputs.quarter_label }}
           path: |
-            diversity-summary.md
-            diversity-data.json
+            participant-data-summary.md
+            participant-data.json
           retention-days: 90
 
       - name: Determine if push should happen
@@ -167,26 +167,26 @@ jobs:
           QUARTER_LABEL="${{ steps.extract.outputs.quarter_label }}"
           echo "Pushing reports for quarter: ${QUARTER_LABEL}"
           
-          mkdir -p reports/quarterly-reports/diversity-reports
+          mkdir -p reports/quarterly-reports/participant-data
           
           echo "Copying report files..."
-          cp -v "../diversity-summary-${QUARTER_LABEL}.md" "reports/quarterly-reports/diversity-reports/diversity-summary-${QUARTER_LABEL}.md"
-          cp -v "../diversity-data-${QUARTER_LABEL}.json" "reports/quarterly-reports/diversity-reports/diversity-data-${QUARTER_LABEL}.json"
-          cp -v "../diversity-summary-${QUARTER_LABEL}.md" "reports/quarterly-reports/diversity-reports/diversity-summary-latest.md"
-          cp -v "../diversity-data-${QUARTER_LABEL}.json" "reports/quarterly-reports/diversity-reports/diversity-data-latest.json"
+          cp -v "../participant-data-summary-${QUARTER_LABEL}.md" "reports/quarterly-reports/participant-data/participant-data-summary-${QUARTER_LABEL}.md"
+          cp -v "../participant-data-${QUARTER_LABEL}.json" "reports/quarterly-reports/participant-data/participant-data-${QUARTER_LABEL}.json"
+          cp -v "../participant-data-summary-${QUARTER_LABEL}.md" "reports/quarterly-reports/participant-data/participant-data-summary-latest.md"
+          cp -v "../participant-data-${QUARTER_LABEL}.json" "reports/quarterly-reports/participant-data/participant-data-latest.json"
           
-          if [ ! -f "reports/quarterly-reports/diversity-reports/README.md" ]; then
-          cat > reports/quarterly-reports/diversity-reports/README.md << 'READMEEOF'
+          if [ ! -f "reports/quarterly-reports/participant-data/README.md" ]; then
+          cat > reports/quarterly-reports/participant-data/README.md << 'READMEEOF'
           # Diversity Reports
 
-          This folder contains automatically generated quarterly diversity data reports from research findings.
+          This folder contains automatically generated quarterly participant-data reports from research findings.
 
           ## Report Files
 
-          - `diversity-summary-latest.md` - Most recent quarterly summary report
-          - `diversity-data-latest.json` - Most recent data in JSON format
+          - `participant-data-summary-latest.md` - Most recent quarterly summary report
+          - `participant-data-latest.json` - Most recent data in JSON format
           - `processed-files.json` - Manifest tracking all processed research files
-          - Quarter-specific reports (e.g., `diversity-summary-2026-Q1.md`) are retained for historical tracking
+          - Quarter-specific reports (e.g., `participant-data-summary-2026-Q1.md`) are retained for historical tracking
 
           ## Data Source
 
@@ -218,9 +218,9 @@ jobs:
             ls -la reports/quarterly-reports/diversity-reports/
           else
             echo "Changes detected, committing..."
-            git commit -m "Update diversity data reports - ${QUARTER_LABEL}
+            git commit -m "Update participant-data reports - ${QUARTER_LABEL}
 
-          Quarterly diversity data extraction from va.gov-team research findings.
+          Quarterly participant-data extraction from va.gov-team research findings.
 
           Quarter: ${QUARTER_LABEL}
           Studies analyzed: ${{ steps.extract.outputs.study_count }}
@@ -245,4 +245,4 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
 
       - name: Post summary
-        run: cat diversity-summary.md >> $GITHUB_STEP_SUMMARY
+        run: cat participant-data-summary.md >> $GITHUB_STEP_SUMMARY
