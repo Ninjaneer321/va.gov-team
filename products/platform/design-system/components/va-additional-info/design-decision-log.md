@@ -7,6 +7,7 @@ Last updated: 01-20-2026
 - [ADR: 004 - Remove border](#ADR-004---Remove-border)
 - [ADR: 005 - Indenting details text](#ADR-005---Indenting-details-text)
 - [ADR: 006 - Icon vertical alignment](#ADR-006---Icon-vertical-alignment)
+- [ADR: 007 - New component](#ADR-007---New-component)
 
 ## ADR 001 - Structural updates
 
@@ -143,5 +144,25 @@ The Additional Info icon was originally intended to be vertically centered to al
 We will vertically align the icon in the summary text to the top of the summary so that it more closely matches how HTML bullets are designed, where bullets align to the top of the text. This helps users quickly identify where the summary text begins.
 
 ### Consequences
+
+### Open Questions
+
+---
+
+## ADR 007 - New componennt
+
+### Status: PROPOSED
+
+- Date issue raised: 02-02-2026
+- Decision date:   
+
+### Context
+Changing the foundational html of the existing component could cause downstream issues for teams and failing tests. We want to provide the updated component to teams with the least amount of friction. And right now it seems the best way to do that is to allow teams to opt-in to the new component with a clear deprecation path.  
+
+### Decision
+We will create a new additional-info component with a clear deprecation plans for teams. We will also need to create a new name for it. We will also be able to more easily update existing prop names within the component.
+
+### Consequences
+We asked a lot of teams in the v3 migration path to do a lot of migrating of components and are still dealing with some lingering imposters because of it. We may be causing more frustration, but we will try to minimize that with clear documentation and communication.
 
 ### Open Questions
