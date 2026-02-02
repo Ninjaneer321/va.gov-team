@@ -31,6 +31,12 @@ architecture-beta
     vetsapi:R -- L:authentication
 ```
 
+**Communication Protocols:**
+- **vets-api ↔ VASS API**: HTTPS (OAuth 2.0 Bearer token + Azure APIM Subscription-Key)
+- **vets-api ↔ Azure AD**: HTTPS (OAuth 2.0 client credentials flow)
+- **VASS System → VA Notify**: HTTPS (REST API)
+- **vets-api → VA Notify**: HTTPS (REST API)
+
 **Email Delivery via VA Notify:**
 - **VASS System → VA Notify**: Sends invitation emails (with UUID link) and appointment confirmation/cancellation emails
 - **vets-api → VA Notify**: Sends OTP (one-time passcode) emails for veteran authentication
