@@ -86,15 +86,4 @@ LoROTA was initially proposed to reuse the check-in experience architecture. How
 
 ## Dependencies and Libraries
 
-### New Dependencies (Added for VASS Module)
-
-| Library | Version | Purpose | Selection Rationale |
-|---------|---------|---------|---------------------|
-| **oauth2** | ~> 2.0 | OAuth 2.0 client implementation | - Ruby standard for OAuth flows<br>- Mature library (10+ years)<br>- Active maintenance<br>- Supports client credentials grant |
-| **jwt** | ~> 2.7 | JWT encoding/decoding for veteran sessions | - Ruby standard for JWT<br>- HS256 signing algorithm<br>- Already used in vets-api for other modules |
-
-**Why These Libraries:**
-
-- **oauth2 gem**: Industry standard for Ruby OAuth implementations. Supports client credentials flow required by Azure AD. Handles token refresh logic automatically.
-  
-- **jwt gem**: De facto Ruby standard for JWT. Used elsewhere in vets-api (e.g., mobile authentication). Supports HS256 algorithm for session tokens.
+No new dependencies
