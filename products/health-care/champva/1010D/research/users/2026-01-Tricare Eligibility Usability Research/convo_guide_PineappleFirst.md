@@ -292,6 +292,7 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
 - On this screen, you'll find 4 summary cards. The first two, Card Style A, are from the prototypes we just went through. The 3rd and 4th cards, Card Style B, are alternative designs. Please take a moment to look at all four before we talk about them.
 
 - What do you think each card is telling you?
+     - [If participant is unable to detect the differences between the summary cards] I want to draw your attention to the content above the bullet points in each card. There's a slight difference between Card Style A and Card Style B. [Repeat main question]. 
 - Which set is the easiest to understand at a glance?
      - What specifically makes [Card Style] clearer than the others?
 - Was there any part of the card that felt unclear or confusing?
