@@ -1,6 +1,21 @@
 ## CHAMPVA biweekly stakeholder sync
 Every other Tuesday at 10:35am ET
 
+## 02/03/26
+**Attendees**
+
+**Agenda**
+- DTA/Appeals discussion
+     - Clarify distinction between "review your claim" vs "decide your claim" vs "process your claim"
+     - DTA user notification process (contact method, who reaches out, when)
+     - Date of service format requirements: approximate (month/year) vs exact (month/day/year)
+     - DTA process for VA Medical Centers vs non-VA providers and pharmacies
+     - DTA doc types and routing to appeals (follow-up from 10/29 stakeholder sync)
+- Enhanced Claims Flow submission status/quality check
+     - CVA EOB doc type for reopens
+
+### Notes
+
 ## 01/20/26
 **Attendees**
 - Angela P, Angela C, Ballard M, Cindy C, Rogelio C, Kimi Sato, Elizabeth S, Elizabeth L,
