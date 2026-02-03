@@ -1,3 +1,136 @@
+---
+title: "Side Navigation Research Findings"
+product: "VA Form 21-526EZ (Disability Compensation)"
+team: "Disability Benefits Crew - Core Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2026-01-30"
+researchers:
+  - "Irene Vailikit"
+  - "Bianca Alvelo Rivera"
+  - "Fiorella Geedi"
+research_goals:
+  - "Evaluate whether Veterans can identify the side navigation component and the process list component, and understand their purposes."
+  - "Evaluate Veterans’ understanding of progress throughout the form using the side navigation component and process list component."
+  - "Assess how effectively the navigation component allows Veterans to efficiently edit responses and complete tasks."
+methodology:
+  - "usability testing"
+  - "remote moderated sessions"
+  - "semi-structured interviews"
+devices_used:
+  desktop: 4
+  tablet: 0
+  smartphone: 4
+  assistive_technology: 0
+participants_total: 8
+demographics:
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 2
+    "45-54": 0
+    "55-64": 5
+    "65+": 1
+    unknown: 0
+  education:
+    high_school: 3
+    some_college: 1
+    associates: 1
+    bachelors: 0
+    masters: 3
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 5
+    rural: 3
+    unknown: 0
+  race:
+    white: 3
+    black: 2
+    hispanic: 1
+    biracial: 1
+    asian: 1
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "All participants were able to understand and use both navigation components after interacting with them."
+  - "All participants preferred the Process List because it provided more explicit progress indicators (e.g., 'In progress'/'Complete' labels)."
+  - "Participants used multiple cues (text, color, font weight, hover/click affordances) to interpret progress and status; explicit completion cues were requested (e.g., checkmarks)."
+  - "On mobile, most participants needed to expand the navigation accordion to recall progress and current location in the form."
+  - "After interacting with the navigation component, all participants understood why they couldn’t access future steps."
+  - "Most participants had difficulty editing efficiently when navigation steps didn’t clearly map to individual pages (multi-page steps caused trial-and-error)."
+  - "Mobile participants could distinguish the navigation accordion from Review-and-Submit accordions when visual treatment was differentiated."
+  - "When prompted to add a condition on Review and Submit, participants often tried Review-and-Submit accordions first; some initially expected the Conditions 'Edit' flow to support adding a new condition."
+recommendations:
+  - "Implement the Process List version of the navigation component (as an experimental VADS component) based on consistent participant preference and clearer progress/status indicators."
+  - "Develop improved treatment options for inactive/locked steps that meet accessibility needs while preserving clear affordances for what is/isn't clickable."
+  - "Explore additional accessible progress/completion indicators (e.g., checkmarks) to improve status recognition."
+  - "Update mobile accordion collapsed-state copy to indicate the user’s current step (not just 'Select a step')."
+  - "Assess feasibility of including subpages in the navigation to better match multi-page steps; prototype and test if feasible."
+  - "Coordinate with Platform Design System exploration of renaming 'Step' to 'Section' (and consider testing terminology impacts)."
+kpi_alignment:
+  - "Improved user satisfaction with the 21-526EZ online form experience (supports OCTO-DE priority to improve satisfaction)."
+  - "Reduced navigation friction and time/effort to edit prior answers in a long form (efficiency and task completion confidence)."
+outcomes:
+  user: "Veterans can confidently track progress, understand what’s complete/locked, and efficiently return to edit prior answers while completing the 21-526EZ form on desktop and mobile."
+  business: "Increase completion and submission confidence for a high-impact benefits form by reducing navigation-related friction, confusion, and rework."
+opportunity_areas:
+  - "Make mobile progress and current location visible without requiring accordion expansion."
+  - "Reduce confusion caused by 'Step' labels that contain multiple pages; improve information architecture and navigation granularity."
+  - "Improve discoverability/clarity for adding a new condition from Review and Submit (align user expectations with available actions)."
+  - "Strengthen accessible differentiation for locked vs available navigation items beyond low-contrast gray text."
+further_research_needed:
+  - "Assistive technology testing and accessibility audits (screen reader and screen magnifier) for the Process List design."
+  - "Usability testing of navigation with subpages (desktop and mobile), especially for 'edit a specific item' flows."
+  - "Evaluate accessible completion indicators (e.g., checkmarks) and validate comprehension with AT users."
+  - "Validate terminology changes (e.g., 'Step' vs 'Section') and impacts on comprehension and wayfinding."
+underserved_groups_missing:
+  - "Assistive Technology users (screen reader, magnification, speech input, etc.)"
+  - "Cognitive disability (underrepresented vs recruitment goals)"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Native Hawaiian or other Pacific Islander"
+  - "First Nations (Canada)"
+  - "Native, American Indian or Alaska Native"
+  - "Gay, lesbian, or bisexual"
+  - "Nonbinary, gender fluid, gender queer, Two-Spirit, or another gender beyond man or woman"
+secondary_research: []
+synthesis_tools_used:
+  - "Mural"
+  - "Affinity mapping"
+  - "GitHub Copilot"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "DSC: Accordions"
+  - "DSC: Alert Boxes"
+  - "DSC: Button"
+  - "DSC: Form"
+  - "DSC: Links"
+  - "DSP: Help users to check answers"
+  - "DSP: Help users to sign in"
+  - "DSP: Content Presentation"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "evaluative"
+---
+
 # Side Navigation Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 21-5526EZ, Disability Benefits Crew**
