@@ -218,9 +218,9 @@ Throughout these accounts, VA procedural details remained peripheral - participa
 We also wanted to learn what words Veterans use to describe different aspects of the disability benefits process, and what terms are problematic. As recommended in the Usability Research Findings [Next Steps section](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Research%20Findings%20-%20Usability.md#next-steps), aligning form content with how Veterans actually interpret and use language will likely have considerable positive impacts. Participants consistently described their actions in plain, goal-oriented terms: “getting an increase,” “trying again,” or “adding more evidence,” rather than using VA terminology (e.g.: “decision review,” “claim for increase,” “supplemental claim,” etc.). When interface language aligned with perceived intent (e.g., clearly signaling why a path exists or what action it enables), participants felt more confident in their decision-making. When it did not, they were forced to translate VA verbiage to align with their own mental models, increasing confusion, hesitation, and misclassification.
 
 | How Veterans describe things | How VA describes things|
-|---|
+| --- | --- |
 | _Appeal a VA decision_ |
-| Reapply | Request a decision review or appeal|
+| Reapply | Request a decision review or appeal |
 
 ## Appendix
 
