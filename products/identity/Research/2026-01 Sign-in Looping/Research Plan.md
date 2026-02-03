@@ -1,6 +1,6 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for Sign-In Looping Investigation, Identity Team, February 2026"
+title: "Research Plan for Identity Team, VA.gov Sign-In, 2026-02-03"
 date: 2026-02-03
 last_updated: 2026-02-03
 team: "Identity Team"
@@ -9,26 +9,22 @@ product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "Veterans frequently report experiencing 'looping' during sign-in - a pattern where they are repeatedly returned to the sign-in page without successfully authenticating. We need to understand what users are experiencing and identify the technical patterns causing this issue."
-  product_location: "VA.gov authentication flow and mobile apps"
+  problem_statement: "Veterans report getting stuck in a sign-in 'loop' (repeatedly returned to the sign-in page or otherwise failing to authenticate) on VA.gov and VA mobile apps. The team needs to clarify what experiences users describe as looping, identify where in the auth flow it occurs, and understand technical/environmental patterns (credential provider, device/browser, network) so engineering can reproduce and fix root causes and improve messaging/support."
+  product_location: "VA.gov authentication flow (transition between unauthenticated and authenticated states) and VA mobile app sign-in flows"
   user_familiarity: "Iteration on existing authentication system"
-  product_brief_url: "[URL to sign-in product brief]"
+  product_brief_url: "TBD (add the link to the sign-in product brief)"
 
 # Research Design
-methodology: "Semi-structured interviews with issue recreation"
-research_format: 
-  location: remote
-  in_person_details:
-    facility: "N/A"
-    point_of_contact: "N/A"
-    equipment: "N/A"
-  moderated: true
-  
+methodology: "Semi-structured interviews with optional issue recreation"
+research_format:
+  location: remote # Options: remote, in-person, hybrid
+  moderated: true # Options: true, false
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand what Veterans mean by 'looping' and document the specific user experience patterns they encounter during sign-in failures"
-  - goal_2: "Identify technical and environmental factors (device, browser, network, credentials type) associated with sign-in looping"
-  - goal_3: "Assess the impact of sign-in looping on Veterans' ability to access critical VA services and their trust in VA digital tools"
+  - goal_1: "Define and document what Veterans mean by 'looping' by capturing the specific screens, behaviors, and failure patterns they encounter during sign-in."
+  - goal_2: "Identify technical/environmental factors associated with looping (credential provider, device type, browser/OS, network context) and where in the authentication flow the failure occurs."
+  - goal_3: "Understand the impact of looping on Veterans’ ability to access critical VA services and on trust, including workarounds and abandonment."
 
 research_questions:
   - "What specific behaviors and screens do Veterans see when they experience 'looping' during sign-in?"
@@ -38,81 +34,111 @@ research_questions:
   - "How does this issue impact Veterans' access to VA services and their perception of VA digital tools?"
 
 hypotheses:
-  - "Veterans use 'looping' to describe multiple distinct technical issues, not a single failure pattern"
-  - "Sign-in looping is more likely to occur with specific credential providers (Login.gov, ID.me, DS Logon, or My HealtheVet) or on specific device/browser combinations"
-  - "Most Veterans who experience looping have not successfully resolved the issue and have developed workarounds or abandoned certain VA digital services"
+  - "Veterans use 'looping' to describe multiple distinct technical issues, not a single failure pattern."
+  - "Sign-in looping is more likely with specific credential providers (Login.gov, ID.me, DS Logon, My HealtheVet) and/or specific device/browser combinations."
+  - "Most Veterans who experience looping have not successfully resolved the issue and have developed workarounds or abandoned certain VA digital services."
+  - "Veterans who experience sign-in looping lack clear error messages or guidance, leaving them uncertain about what went wrong or how to fix it."
 
-expected_outcomes: "Findings will inform technical troubleshooting priorities, help the identity team identify root causes of authentication failures, and guide improvements to error messaging and user support resources."
+expected_outcomes: "A user-centered taxonomy of 'looping' experiences plus correlated technical context (credential provider, device/browser/OS, network) to help engineering reproduce issues and prioritize fixes; evidence of user impact to support prioritization; and actionable direction for improving error messaging and support/troubleshooting guidance."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "Targeted recruitment with required screener for sign-in issues"
-  
+  approach: "Targeted recruitment + lean maximum variation within a qualifying pool of Veterans who experienced looping in the last 3 months."
+
   primary_criteria:
-    - "Must have experienced sign-in looping or repeated authentication failures on VA.gov or VA mobile apps within the past 3 months"
-    - "Must be able to describe the sign-in issue in detail"
-    - "Must have access to the device where they experienced the issue (if possible)"
-    
+    - "Veteran who has experienced sign-in looping or repeated authentication failures on VA.gov or VA mobile apps within the past 3 months."
+    - "Able to describe what happened (screens/behavior) in enough detail to confirm an authentication looping/failure scenario (not only forgotten password)."
+    - "Has attempted to access VA.gov or a VA mobile app within the past 3 months (recency)."
+    - "Comfortable with screen sharing if they still have access to the device where the issue occurred (optional but encouraged)."
+    - "Credential provider used when the issue occurred can be identified or approximated (Login.gov, ID.me, DS Logon, My HealtheVet, or 'not sure')."
+
   secondary_criteria:
-    - "Mix of credential types used (Login.gov, ID.me, DS Logon, My HealtheVet)"
-    - "Variety of devices (desktop, mobile, tablet)"
-    - "Range of disability ratings and tech comfort levels"
-    
+    - "Mix of credential providers (Login.gov, ID.me, DS Logon, My HealtheVet)."
+    - "Variety of devices and contexts (desktop/laptop, smartphone, tablet; some with multiple device types)."
+    - "Range of age groups (including 55–64 and 65+)."
+    - "Range of disability ratings and tech comfort levels."
+    - "Include at least some participants with cognitive disability considerations (e.g., TBI/PTSD/memory issues)."
+    - "Include at least 1 participant who uses assistive technology."
+    - "Geographic diversity across time zones; rural/urban mix."
+    - "Demographic diversity (women, LGBTQ+, people of color, non-native English speakers)."
+    - "Mix of participants who have and have not contacted VA support about the issue."
+
   screener_questions:
-    - question: "In the past 3 months, have you tried to sign in to VA.gov or a VA mobile app and experienced being repeatedly sent back to the sign-in page without successfully logging in?"
+    - question: "In the past 3 months, have you tried to sign in to VA.gov or a VA mobile app and experienced being repeatedly sent back to the sign-in page without successfully logging in, or experienced other issues where sign-in kept failing?"
       qualifying_response: "Yes"
-    - question: "Can you describe what happened when you tried to sign in?"
-      qualifying_response: "Open response - must demonstrate they experienced authentication looping/failures"
-    - question: "Which sign-in method were you using when this happened? (Login.gov, ID.me, DS Logon, or My HealtheVet)"
-      qualifying_response: "Any response - tracking for variety"
-      
+    - question: "Can you briefly describe what happened when you tried to sign in? For example, what did you see on your screen, and what happened when you tried to enter your login information?"
+      qualifying_response: "Open response indicating authentication looping/failure (not only forgotten password)."
+    - question: "Which sign-in method were you using when this happened? (Login.gov / ID.me / DS Logon / My HealtheVet / I'm not sure)"
+      qualifying_response: "Any (used to ensure mix and track distribution)."
+    - question: "What type of device were you using when you experienced this sign-in issue? (Desktop / Laptop / Smartphone / Tablet / Multiple devices)"
+      qualifying_response: "Any (used to ensure mix and track distribution)."
+    - question: "If you still have access to the device where you experienced this sign-in issue, would you be comfortable sharing your screen during the session to show us what happened? (Optional but helpful)"
+      qualifying_response: "Any (do not disqualify; used for planning)."
+
 participants:
   veterans: 12
   caregivers: 0
   dependents: 0
   total_recruited: 12
   completed_sessions_goal: 8
-  
+
 # Timeline & Sessions
 timeline:
   pilot_date: "2026-02-10"
-  pilot_participant: "[Pilot participant name]"
+  pilot_participant: "TBD (team member who has experienced or can simulate the issue)"
   research_dates: "2026-02-12 to 2026-02-21"
   research_review_submission: "2026-02-03"
-  
+
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
   max_sessions_per_day: 3
-  
+
 # Strategic Alignment
 octo_priorities:
   - objective: "Objective 3: Relentlessly improve the user experience"
-    key_results: 
-      - "Supports maintaining the ranked list of user pain points for Veteran-facing Products and Services (KR 3.2)"
-      - "Supports the delivery of at least one release that directly addresses a documented user pain point within this product (KR 3.3)"
-      
+    key_results:
+      - "KR 3.2: Maintain a ranked list of user pain points for Veteran-facing products and services."
+      - "KR 3.3: Deliver at least one release that directly addresses a documented user pain point within this product."
+
 veteran_journey_phases:
   - "Starting Up"
   - "Taking Care of Myself"
   - "Putting Down Roots"
   - "Retiring"
   - "Aging"
-    
+
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to previous authentication research]"
-    - "[Link to credential comparison research]"
-    
+  previous_studies:
+    - "TBD (add link to previous authentication research)"
+    - "TBD (add link to credential comparison research)"
+
 tags:
+  # Audience
+  - "AUD: Veterans"
+  - "AUD: Internal VA Stakeholders"
+
+  # Product / domain
+  - "PRDT: Content" # placeholder: see notes below; replace if there is a specific PRDT tag for VA.gov Sign-In / Login
+
+  # Design system pattern(s)
+  - "DSP: Help users to sign in"
+  - "DSP: Error Message Guide"
+
+  # Hardware / device context being investigated
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+
+  # Other
+  - "semi-structured-interviews"
+  - "problem-discovery"
   - "authentication"
   - "sign-in"
   - "technical-issues"
-  - "semi-structured-interviews"
-  - "identity"
-  - "problem-discovery"
 ---
 
 > [!TIP]
@@ -161,9 +187,6 @@ tags:
 
 ### [Veteran Journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
 
-<details><summary>Where does your product fit into the Veteran journey?
-Are there moments that matter?</summary>
-
 Sign-in authentication is a critical gateway that supports Veterans across multiple journey phases:
 	
 - `Starting Up` - Veterans beginning to access VA benefits and services
@@ -177,10 +200,6 @@ Sign-in authentication is a critical gateway that supports Veterans across multi
 </details>
 
 ## Research Goals 🥅	
-`What are you trying to learn from this research?` 
-
-> [!NOTE]
-> Limit 3 goals per study. If you have more than 3 goals, consider how to break up your research into iterative studies.
 
 ### Goals
 
@@ -203,8 +222,6 @@ Sign-in authentication is a critical gateway that supports Veterans across multi
 - Measure the impact on Veterans' trust in VA digital tools
   
 ### Outcome
-`How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
-
 ---
 
 **This research will provide the Identity team with:**
@@ -226,14 +243,6 @@ Sign-in authentication is a critical gateway that supports Veterans across multi
 ---
 
 ### Research questions
-> [!NOTE]
-> Do not write out all questions you plan to ask participants -- that should go in the conversation guide.
-
-***Consider bucketing research questions under research goals and think about:***
-	
-`What will I do with what I learn from this question?`
-  
-`Does this question serve the goals of my study?`
 
 **`1.` What specific behaviors and screens do Veterans see when they experience "looping" during sign-in?**
 
@@ -256,18 +265,6 @@ Sign-in authentication is a critical gateway that supports Veterans across multi
 *This will help us understand the severity and urgency of the problem, and justify resource allocation for fixes.*
 
 ### Hypotheses
-> [!NOTE]
-> Remember to constrain the hypotheses to the goals of your study!
- 
-**Think through these prompts to develop strong hypotheses:**
-	
-`What do you intend to learn and measure from this study?` 
-
-`What do you already know about this problem space?`
- 
-`What do you think users will do or think about this product? (Identifying our assumptions helps us be aware of biases we may unintentionally bring into the study, so don't skip this step!)`
-  
-`Write a generalized statement that combines what you know + what you think will happen during the study.`
 
 ---
 
@@ -283,17 +280,6 @@ Sign-in authentication is a critical gateway that supports Veterans across multi
   
 ## Methodology  🛠️
 ***Describe the method you're planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.*** 
-
-<details><summary>Examples of common research methods include</summary> 
-	
-- `Semi-structured interviews - appropriate for generative research`
-- `Contextual inquiry - appropriate for generative research`
-- `Card sorts - appropriate for generative and evaluative research; depending on the study design` 
-- `Tree tests - appropriate for evaluative research`
-- `Usability testing - appropriate for evaluative research`
-- `User acceptance testing (UAT) - required before product release`
-
-</details>
 
 **Semi-structured interviews with optional issue recreation**
 
@@ -330,9 +316,6 @@ Where will you be holding the research sessions? Be sure to include whether this
 
 ## Research materials 📔
 
-> [!NOTE]
-> **Your OCTO/VA lead must review and approve all research materials – including this plan –  prior to submitting a recruitment request.**
-
 Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
 
 **For moderated interviews:** 
@@ -342,15 +325,10 @@ Provide a link to any materials you need to run your study, including any materi
 ## Recruitment 🎯	
 *OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
 
-> [!NOTE]
-> Before writing your recruitment criteria, be sure to review the following resources: 
-> - [Refer to the Perigean Recruitment Guidance](https://depo-platform-documentation.scrollhelp.site/research-design/recruiting-participants) to learn how Perigean recruits, screens, and prepares participants for research. 
-> - [Refer to the inclusive recruitment strategies](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md) to learn how to be inclusive of underserved Veteran communities.
 
 ### Recruitment approach
-*Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
 
-**Audience:** Veterans who have experienced sign-in looping or repeated authentication failures on VA.gov or VA mobile apps within the past 3 months.
+**Audience:** Veterans who have experienced sign-in looping or repeated authentication failures on VA.gov or VA mobile apps within the past 3 months.  We have a list of 59 Veterans we can recruit from.
 
 **Recruitment strategy:** Targeted recruitment through Perigean with required screener questions to ensure participants have experienced the issue we're investigating. This is critical - we need participants who can speak to the specific problem, not general sign-in users.
 
@@ -362,10 +340,8 @@ Provide a link to any materials you need to run your study, including any materi
 ### Recruitment criteria
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
-> [!NOTE]
-> Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 10 ideal completed sessions, request 15 total participants)*
 
-- `Veterans:` **12**
+- `Veterans:` **6**
 - `Caregivers:` **0**
 - `Dependents:` **0**
 - `Total:` **12**
@@ -393,9 +369,7 @@ Provide a link to any materials you need to run your study, including any materi
 **Distribution across credential types (for variety):**
 - At least 2 participants using Login.gov
 - At least 2 participants using ID.me
-- At least 2 participants using DS Logon
-- At least 2 participants using My HealtheVet
-- Screener question: "Which sign-in method were you using when you experienced this issue?" (Login.gov / ID.me / DS Logon / My HealtheVet / I'm not sure)
+- Screener question: "Which sign-in method were you using when you experienced this issue?" (Login.gov / ID.me / I'm not sure)
 
 **Distribution across device types (for variety):**
 - At least 3 participants who experienced the issue on a desktop/laptop computer
@@ -444,16 +418,6 @@ Provide a link to any materials you need to run your study, including any materi
 
 - `Suggested dates and times:` **02/04/2026 2:00 PM EST or 02/05/2026 10:00 AM EST**
 
-### Prepare
-*When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
-
-**A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
-> [!NOTE]
-> **Send pilot participant email in study Slack channel**
-
-- `Pilot participant name:` **[Team member name - someone who has experienced or can simulate the issue]**
-- `Date and time of pilot session:` **02/10/2026 2:00 PM EST** 
-
 ### Research sessions
 - `Planned dates of research:` **02/12/2026 - 02/21/2026**
 
@@ -467,32 +431,16 @@ Provide a link to any materials you need to run your study, including any materi
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
 
-> [!NOTE]
-> We recommend providing availability outside of work hours, as many Veterans are only available before and after working times, and live across the U.S. 
+**We are requesting 6 participants for 5 completed sessions, so we're providing mulitple time slots:**
 
-> [!TIP]
-> Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
-
-**We are requesting 12 participants for 8 completed sessions, so we're providing 16+ time slots:**
-
-- `02/12/2026, Wednesday, 9:00 AM-12:00 PM EST`
-- `02/12/2026, Wednesday, 1:00 PM-5:00 PM EST`
-- `02/12/2026, Wednesday, 6:00 PM-8:00 PM EST`
-- `02/13/2026, Thursday, 9:00 AM-12:00 PM EST`
-- `02/13/2026, Thursday, 1:00 PM-5:00 PM EST`
-- `02/13/2026, Thursday, 6:00 PM-8:00 PM EST`
-- `02/17/2026, Monday, 9:00 AM-12:00 PM EST`
-- `02/17/2026, Monday, 1:00 PM-5:00 PM EST`
-- `02/17/2026, Monday, 6:00 PM-8:00 PM EST`
-- `02/18/2026, Tuesday, 9:00 AM-12:00 PM EST`
-- `02/18/2026, Tuesday, 1:00 PM-5:00 PM EST`
-- `02/18/2026, Tuesday, 6:00 PM-8:00 PM EST`
-- `02/19/2026, Wednesday, 9:00 AM-12:00 PM EST`
-- `02/19/2026, Wednesday, 1:00 PM-5:00 PM EST`
-- `02/20/2026, Thursday, 9:00 AM-12:00 PM EST`
-- `02/20/2026, Thursday, 1:00 PM-5:00 PM EST`
-- `02/21/2026, Friday, 9:00 AM-12:00 PM EST`
-- `02/21/2026, Friday, 1:00 PM-4:00 PM EST`
+- `02/12/2026, Wednesday, 10:00 AM-8:00 PM EST`
+- `02/13/2026, Thursday, 10:00 AM-8:00 PM EST`
+- `02/14/2026, Friday, 10:00 AM-8:00 PM EST`
+- `02/17/2026, Monday, 10:00 AM-8:00 PM EST`
+- `02/18/2026, Tuesday, 10:00 AM-8:00 PM EST`
+- `02/19/2026, Wednesday, 10:00 AM-8:00 PM EST`
+- `02/20/2026, Thursday, 10:00 AM-8:00 PM EST`
+- `02/21/2026, Friday, 10:00 AM-8:00 PM EST`
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
@@ -501,12 +449,11 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 >
 > **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
 
-- `Moderator:` **[Researcher name]**	
-- `Research guide writing and task development:` **[Researcher name]**		
+- `Moderator:` **Charlye Tran**	
+- `Research guide writing and task development:` **Charlye Tran**		
 - `Participant recruiting & screening:`	**Perigean**	
 - `Project point of contact:` **[Product Manager name]**		
-- `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[Accessibility specialist name]**	
-- `Note-takers:` **[Designate Perigean]**	
+- `Note-takers:` **Charlye Tran, Clayton Zook**	
 - `Observers: Spread observers across sessions. No more than 5-6 total attendees per session.`
 
 **Identity Team:**
