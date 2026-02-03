@@ -216,12 +216,20 @@ Throughout these accounts, VA procedural details remained peripheral - participa
 ### Finding 2: Veterans must translate VA terminology to navigate the process.
 We also wanted to learn what words Veterans use to describe different aspects of the disability benefits process, and what terms are problematic. As recommended in the Usability Research Findings [Next Steps section](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Research%20Findings%20-%20Usability.md#next-steps), aligning form content with how Veterans actually interpret and use language will likely have considerable positive impacts. Participants consistently described their actions in plain, goal-oriented terms: “getting an increase,” “trying again,” or “adding more evidence,” rather than using VA terminology (e.g.: “decision review,” “claim for increase,” “supplemental claim,” etc.). When interface language aligned with perceived intent (e.g., clearly signaling why a path exists or what action it enables), participants felt more confident in their decision-making. When it did not, they were forced to translate VA verbiage to align with their own mental models, increasing confusion, hesitation, and misclassification.
 
-| How Veterans describe things | How VA describes things|
-| --- | --- |
-| _Appeal a VA decision_ |
-| Reapply | Request a decision review or appeal |
+| How Veterans describe things | How VA describes things |
+| ----- | :---- |
+| *Appeal a VA decision* |  |
+| Reapply File again Refile Reopen the case Reclaim Reevaluate Resubmit Try again Get reviews File this claim again Claim it again Appeal Appeal the original decision Fight | Request a decision review or appeal Disagree with our decision File a Supplemental Claim Request a Higher-Level Review Request a Board Appeal  |
+| *Apply for disability benefits* |  |
+| Apply Apply for benefits File File for disability Request disability benefits | File a disability claim |
+| *File a claim for increase* |  |
+| File for an increase Apply for an increase Rate increase Go for a higher disability rating | Increased claim |
+| *File a Board Appeal* |  |
+| Going to a judge | Board Appeal |
+| *Evidence (a topic where Veteran and VA language match)* |  |
+| Records Paperwork Documents Evidence Files Proof Upload Statements Buddy letters | Evidence Documents Medical records Hospital records Hospital reports Supporting Statements |
 
-[table to be completed later]
+
 
 #### Literal interpretations of terms
 Participants consistently interpreted labels literally, which led to hesitation, misclassification, and avoidance throughout the form. Given that the distinction between Claims for Increase and Supplemental Claims is already complex, this literal reading further contributed to participants’ lack of clarity.
