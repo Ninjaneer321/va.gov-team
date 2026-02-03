@@ -1,10 +1,70 @@
 <h1>DOCMP/PEGA & IVC FORMS WEEKLY SYNC</h1>
 
-Here’s a **clean, GitHub-ready Markdown version** with consistent spacing, headers, and lists so you can paste directly into a GitHub issue, PR, or discussion:
+
+
+**Date:** 01/28/2026
 
 ---
 
-## Meeting Notes: Pega.doc MP Call
+## 1) Stop sending original VA.gov metadata JSON (1010)
+**Summary:** VA.gov picked up the ticket to stop sending the original 1010 metadata JSON; expected within ~1 week.  
+**Decision:** **Proceed with stopping original 1010 JSON transmissions.**  
+**Action item:**  
+- **VA.gov** — Implement change to stop sending original 1010 JSON *(in progress)*
+
+---
+
+## 2) Enhanced claims flow: doc-type behavior + CVA/Bene + resubmissions
+**Summary:** Discussion on CVA/Bene response vs Bene claim naming. Melissa prefers the Bene *claim* not be labeled as the Bene response. Team agreed to revisit doc-type behavior with Claims to confirm workflow impact.  
+**Decision:** **Defer final doc-type/CVA decisions until Claims-team call next Wednesday (include Katrina + Luke).**  
+**Action items:**  
+- **Claims team (Katrina + Luke)** — Attend next Claims call to confirm CVA/Bene behavior + whether resubmissions should use CDA Betty claim cover sheet  
+- **Andrea / Mike** — Ensure Luke is invited to next Claims call  
+
+---
+
+## 3) docMP return-status story: mapping fields + edge cases + UUIDs
+**Summary:** Eileen shared API return-status story. Relevant fields: doc type, document status, eligibility determination, eligibility determination date. Several edge-case values need clarification. Discussion on which UUID(s) to use (VES provides multiple).  
+**Decision:** **Wait for clarifications from tomorrow’s 2:30pm meeting before publishing final sheet; engineers to determine UUID approach next sprint.**  
+**Action items:**  
+- **Eileen** — Share JIRA/story + dev notes after clarifying meeting  
+- **Dev owner / Eileen** — Resolve red/edge-case items in tomorrow’s 2:30pm meeting + finalize mapping sheet  
+- **Engineers (VFMD / API)** — Determine which UUID(s) will be used for status calls + confirm availability in data structures; coordinate with Kyle, Derek, Steve *(start next sprint)*  
+- **Cindy** — Verify which UUID(s) are stored (transaction ID vs others) + confirm mapping for document linking  
+
+---
+
+## 4) Uploading responses + passing documents between tools
+**Summary:** Need capability for veterans/families to upload documents in the status tool and pass them back to the application system so they can be linked to the original application. Also discussed handling docs submitted via alternate channels.  
+**Decision:** **Capability is required; linking/mapping depends on confirming UUID approach.**  
+**Action items:**  
+- **Product/Dev teams** — Design upload flow ensuring docs can be passed to + linked by application system (coordinate with Cindy once UUID mapping confirmed)  
+- **Cindy / Team** — Confirm linking approach + handling for docs submitted through other channels (edge cases)  
+
+---
+
+## 5) VES ingest status update
+**Summary:** Cindy has not been told to restart VES ingest. Backlog is ~25,000 submissions. Ingest is being used as a test to validate submissions before turning on. Need plan for ingestion rate (throttle vs bulk push).  
+**Decision:** **Do not turn on ingest until successful submissions confirmed; align ingestion rate plan with VES.**  
+**Action items:**  
+- **Cindy / VES team** — Confirm whether/when to restart VES ingest + propose ingestion rate/throttling plan for backlog  
+- **Dev/Product** — Coordinate with VES team + include ingest plan/questions in next meeting(s)  
+
+---
+
+## Open questions (need resolution)
+- What does eligibility determination value **“none needed”** mean in practice?  
+- Which UUID(s) from VES are reliable for API calls and where are they stored?  
+- How will **CVA vs other send-back letter** types be represented, and when will they be available?  
+
+---
+
+## Next steps
+- **Tomorrow @ 2:30pm** — Resolve docMP sheet questions; Eileen to distribute finalized version after clarifications  
+- **Next Wednesday** — Claims-team call to finalize doc-type/CVA decisions; include Katrina + Luke  
+
+
+---
 
 **Date:** 1/21/26
 
