@@ -178,7 +178,7 @@ P# | Screen Reader/Magnifier | Software | Device | O/S | Browser
 8 | Screen reader | TalkBack | phone | Android | Chrome
 9 | none | none | computer | Windows | Opera
 11 | Screen magnifier | Windows Magnifier | computer | Windows | Chrome
-12 | unknown | none | phone | Android | unknown because didn't get that far
+12 | unknown | unknown | phone | Android | unknown because didn't get that far
 
 For demographic details, see [Research participants](#user-content-research-participants).
 
