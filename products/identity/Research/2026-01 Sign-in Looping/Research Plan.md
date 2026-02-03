@@ -463,8 +463,6 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - **[Customer Support Lead]**
 
 ## Approvals ✅
-> [!NOTE]
-> Before submitting for review, ensure you've completed the YAML frontmatter section at the top of this document using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md).
 
 - `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
 - `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
