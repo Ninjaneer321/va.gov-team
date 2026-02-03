@@ -77,8 +77,10 @@ Option B
 <img width="550" height="552" alt="Screenshot 2026-02-03 at 10 15 33 AM" src="https://github.com/user-attachments/assets/51721378-1c1f-48c8-b10c-f2b926e2a631" />
 
 Option C 
+<img width="487" height="468" alt="Screenshot 2026-02-03 at 11 23 39 AM" src="https://github.com/user-attachments/assets/10155c00-f4fd-48b7-938c-bb548c681d5e" />
 
 Option D
+<img width="491" height="468" alt="Screenshot 2026-02-03 at 11 23 01 AM" src="https://github.com/user-attachments/assets/20edf6f4-69f1-4507-a8ee-c6174405dd8a" />
 
 Other (open ended)
  
