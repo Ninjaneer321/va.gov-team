@@ -3,7 +3,7 @@ Every other Tuesday at 10:35am ET
 
 ## 02/03/26
 **Attendees**
-Renata, Mike, Andrea, Hieu, Premal, Amanda, John, Steve, Rogelio, Angela C., Luke, Gina, Angela P. Scott
+Renata, Mike, Andrea, Hieu, Premal, Amanda, John, Steve, Rogelio, Angela C., Luke, Gina, Angela P. Scott, Tony
 
 **Agenda**
 - Difference between a CCL and sendback letter
