@@ -39,12 +39,14 @@ In our research, we tested two design concepts. The first concept is the VADS si
 In this new design, the VADS segmented progress bar with step labels has been removed, so Veterans are not interacting with two different components that indicate their location in the form.
 On mobile devices, the side navigation component converts to an accordion that the Veteran can expand to view links to all the form's main sections.
 
-[add Screenshots of side navigation MVP design on desktop and mobile]
+![Screenshot of our Side Navigation (Concept 1) prototype, showing the desktop and mobile device versions on the first page of VA Form 21-526EZ Disability Compensation on VA.gov](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Context%20Section%20Side%20Nav.png)
+_Caption: Screenshot of our Side Navigation (Concept 1) prototype, showing the desktop and mobile device versions on the first page of VA Form 21-526EZ Disability Compensation on VA.gov_
 
 ### Process List (Concept 2)
 Our second design concept visually presents as a process list. This component includes features and treatment styles that more strongly differentiate between the steps that have been completed, the step the Veteran is currently on, and the steps they have yet to complete.
 
-[add Screenshot of process list design on desktop and mobile]
+![Screenshot of our Process List (Concept 2) prototype, showing the desktop and mobile device versions on the first page of VA Form 21-526EZ Disability Compensation on VA.gov](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Context%20Section%20Process%20list.png)
+_Caption: Screenshot of our Process List (Concept 2) prototype, showing the desktop and mobile device versions on the first page of VA Form 21-526EZ Disability Compensation on VA.gov_
 
 ## Research Goals
 
@@ -194,6 +196,9 @@ After testing each navigation component, participants answered scaled questions 
 
 While both designs met core navigation needs, participants consistently favored the Process List because the “In Progress” and “Complete” labels (combined with supporting visuals such as the subway map and blue fill) gave participants greater confidence in their current position in the form, how many steps they had completed, and which step they were currently on.
 
+![Screenshot of mobile accordion of the Side Navigation (Concept 1) and Process List (Concept 2) prototypes side-by-side of Step 4: Supporting evidence of VA Form 21-526EZ, with annotations on the distinct visual indicators and affordances respective to each design concept](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Finding%20%232%20Side%20Nav%20and%20Process%20List%20Mobile%20Compare.png)
+_Caption: Screenshot of mobile accordion of the Side Navigation (Concept 1) and Process List (Concept 2) prototypes side-by-side of Step 4: Supporting evidence of VA Form 21-526EZ, with annotations on the distinct visual indicators and affordances respective to each design concept_
+
 > “I think it's way better than the other option...I think the biggest thing was letting you know in progress or completed." - P2 (Desktop)
 
 > “I like this one much better...they show where you're at, what progress you're in..." - P5 (Mobile)
@@ -257,13 +262,14 @@ When asked about skipping to a future step, all participants expressed an approa
     
 - Our team changed the treatment of the Navigation accordion component to a blue outline so that users could more easily distinguish it on the Review and Submit page. 
     
-- During testing, all participants were able to distinguish the navigation component as having a different purpose from the Review and Submit page accordions. 
+- During testing, all participants were able to distinguish the navigation component as having a different purpose from the Review and Submit page accordions.
+
+![Screenshot of the mobile accordion of the Side Navigation (Concept 1) prototype showing 'Step 6: Review and submit' of VA Form 21-526EZ. The left design shows the treatment for the closed accordion and the right design shows the treatment for the open accordion with the form steps, and include annotations to distinguish between open and closed.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Finding%20%237%20Image.png))
     
 > “I would scroll to that portion [Conditions review accordion] and click edit, or I could just [use the] drop down from the “Select a step” [Navigation accordion component] and go back to the conditions, and then list it there.” -P10 (Mobile)
 
 > “I would go to “Select a step” [Navigation accordion component], and go to Conditions.” -P11 (Mobile)
 
-[add screenshot]
 
 ### Finding #8: When prompted to add a new condition on the Review and Submit page, most participants first interacted with the accordions on that page. Then, some participants’ initial reaction was to use the "Edit" button within the Conditions accordion to add a new condition, while other participants shared that they would use the Navigation component to go back to the Conditions step. 
 
@@ -530,14 +536,45 @@ This research does not include the perspectives of the following marginalized Ve
 * Switch Device
 * Braille Reader
 
-➡️ _[insert screenshot of completed recruitment checker in the format below]_
-
-
-![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](link - add image to github folder and link here with .png)
+![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Recruitment%20Checker.png)
 
 #### A more accessible version of the table in the above image
 
-### Recruitment of underserved groups in [Study name]
+### Recruitment of underserved groups in 2025-11 Side Navigation
 
-➡️ _[paste markdown table of completed recruitment checker from Github Copilot chat]_
+| Demographic | Category | Target % | Target # | # in Study | Target Achieved? | p1 | p2 | p3 | p4 | p5 | p6 | p7 | p8 | p9 | p10 | p11 | p12 |
+|---|---|---:|---:|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| All participants | Total | n/a | n/a | 8 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Assistive Tech (AT) users | Total | n/a | n/a | 0 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| No-show participants | Total | n/a | n/a | 4 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Age 55-64+ | General | 50% | 4 | 5 | yes | 1 | 1 | 1 | 1 | N | N | 1 | 0 | 0 | 0 | 0 | N |
+| Cognitive Disability | General | 50% | 4 | 2 | no | 0 | 0 | 0 | 0 | 1 | N | 0 | 0 | 0 | 0 | 1 | 0 |
+| Mobile user | General | 50% | 4 | 4 | yes | 0 | 0 | 0 | 0 | 1 | 0 | N | 1 | 0 | 1 | 1 | N |
+| Rural | General | 25% | 2 | 2 | yes | 0 | 0 | 0 | 0 | 1 | 1 | N | N | 0 | 0 | 0 | 0 |
+| No degree | General | 25% | 2 | 4 | yes | 0 | 1 | 0 | 1 | 0 | N | N | 1 | 0 | 0 | 1 | N |
+| Other than honorable | General | 21% | 2 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Immigrant origin | General | 17% | 2 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Women | General | 10% | 1 | 3 | yes | N | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 | 1 | 0 | N |
+| Expat (living abroad) | General | 0.4% | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Black or African American | Race | 15% | 2 | 2 | yes | N | 0 | 0 | 0 | 1 | 0 | N | 0 | 0 | 0 | 1 | N |
+| Hispanic, Latino, or Spanish origin | Race | 12% | 1 | 1 | yes | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
+| Biracial | Race | 3.9% | 1 | 1 | yes | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Asian | Race | 2.7% | 1 | 1 | yes | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Native Hawaiian or other Pacific Islander | Race | 0.3% | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| First Nations (Canada) | Race | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Native, American Indian or Alaska Native | Race | 1.6% | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Gay, lesbian, or bisexual | LGBTQ+ | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Transgender | LGBTQ+ | n/a | 1 | 1 | yes | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
+| Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman | LGBTQ+ | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | N | 0 | 0 | 0 | 0 | 0 | 0 |
+| Beginner AT User | AT | 50% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Experienced AT User | AT | 50% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Desktop Screen Reader (SR) | AT | 20% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Mobile Screen Reader (SR) | AT | 20% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Magnification/Zoom | AT | 20% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Speech Input Tech (Siri, Dragon) | AT | 20% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Hearing Aids | AT | 20% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Sighted Keyboard | AT | 10% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Captions | AT | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Switch Device | AT | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Braille Reader | AT | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
