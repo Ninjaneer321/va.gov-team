@@ -307,7 +307,7 @@ We will partner with Perigean to recruit Veterans. We will request a kickoff mee
 ### Optional Kick-off Call with Perigean
 
 We will partner with Perigean to recruit Veterans. We request a 30 minute kickoff meeting with Perigean to align on what is needed and desired from the sample. Availability for potential kickoff meeting times with Perigean, depending on their availability is below. More time can be made available based on Perigean’s needs.
-- Tuesday, 2/2 at 3:00pm EST 
+- Tuesday, 2/3 at 3:00pm EST 
 
 ### Prepare
 
