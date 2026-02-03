@@ -31,11 +31,11 @@ Directory system will parse this section to display team member contact informat
 - **GitHub:** [@pshahVA](https://github.com/pshahVA)
 - **Role:** PO
 
-#### Team Lead
+#### Design Lead
 
-- **Name:** Amanda Klausmeier
-- **GitHub:** [@aklausmeier](https://github.com/aklausmeier)
-- **Role:** Team Lead
+- **Name:** John Riggin
+- **GitHub:** tbd
+- **Role:** VA Design/Research Lead
 
 #### Contractor Product Manager
 
