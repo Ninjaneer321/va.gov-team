@@ -151,6 +151,7 @@ Sessions were conducted remotely, over Zoom. Participants joined from a computer
 
 1. [Veterans approach benefits filing as a narrative case, not a procedural task.](#user-content-finding-1-veterans-approach-benefits-filing-as-a-narrative-case-not-a-procedural-task)
 2. [Veterans must translate VA terminology to navigate the process.](#user-content-finding-2-veterans-must-translate-va-terminology-to-nagivate-the-process)
+3. [Veterans see VA as both adversary and partner.](#user-content-finding-3-veterans-see-va-as-both-adversary-and-partner)
 
 
 
@@ -221,6 +222,53 @@ We also wanted to learn what words Veterans use to describe different aspects of
 | --- | --- |
 | _Appeal a VA decision_ |
 | Reapply | Request a decision review or appeal |
+[table to be completed later]
+
+#### Literal interpretations of terms
+Participants consistently interpreted labels literally, which led to hesitation, misclassification, and avoidance throughout the form. Given that the distinction between Claims for Increase and Supplemental Claims is already complex, this literal reading further contributed to participants’ lack of clarity.
+
+Specifically, “Add a condition” language was cause for confusion and created a mismatch between user intent and the system’s framing:
+- _"I don't know that a regular person would know to add another condition - 'i'm already rated for migraines, i don't want to add that" **(P12, Adviser)**_
+- _“Well this is confusing because am I adding a condition I've never claimed or am I addressing another condition that I have a claim for?" **(P13)**_
+- Q: What does add a condition mean to you? A: _“I have a brand new one that I need.” **(P4)**_
+- _“I would look at these and go, oh, okay, well, I'm already rated on these. So if I need to add a new one, it needs to be a new part of my body that I have a problem with.” **(P4)**_
+
+And hint text on the “Date worsened” screen was interpreted literally by 2 participants:
+- _“Why does it say back pain? I don’t have back pain.” **(P4)**_
+- _“I would enter the date it’s telling me. [referring to example date in the hint text: December 1, 2020]” **(P7)**_
+
+| <img width="507" height="496" alt="Screenshot 2026-02-03 at 11 15 15" src="https://github.com/user-attachments/assets/3be96367-ce1a-446c-93e5-0869cc3d8de1" /> |
+|---|
+
+#### “Appeal” is somewhat familiar, “Supplemental Claim” is not 
+When discussing opportunities for disagreeing with disability ratings, Veterans relied on plain-language descriptions rather than formal VA claim terms. “Appeal” was used with some frequency, but participants were even more likely to use “re-applying,” “re-filing,” or similar language, particularly in the context of adding a denied condition to their current claim:
+
+- _“When you're applying for a new one [claim], the VA has to get all your docs from doctors and you have to start all over again. Whereas if you're **appealing**, you just add new information. They're kinda the same thing to me.” **(P4)**_
+- _“I thought the Edit button would allow me to **re-file** for asthma.” **(P5)**_
+- _“I'm **appealing** my previous rating [...] that was my intent from the get-go." **(P8)**_
+- _“...about a year ago I went to the VA locally and they had a female speaker talking about things you can do… and I went up to her after the meeting and asked if I should **re-file**.” **(P13)**_
+
+And while “Supplemental Claim” is not a naturally understood label, participants were able to understand the reason for a Supplemental Claim better than the term itself.
+- Participants had their own interpretations of the term “Supplemental Claim,” but these rarely matched VA’s meaning. Some had heard the term in a different context and understood it as “extra” or “optional.” Another participant interpreted it as adding new conditions to an older claim, which would, they feared, cause their whole claim to restart.
+   - _“I don’t get supplemental anything. I’m 100% disabled. There’s nothing supplemental in my life. Appeal is way more clear than ‘supplemental claim.’” **(P4)**_
+   - _“Like supplemental vitamins? Like something you want to add to that claim.” **(P13)**_
+   - _“But if I do that, I start the process from day 1 and lose all that time from when your first part was being evaluated." **(P7)**_
+- When presented with an explanation of Supplemental Claims for denied conditions, participants understood them as “try again with proof,” not as a distinct claim category. But some participants were able to discern the specific intent behind a Supplemental Claim.
+   - _“I’m trying to re-claim a condition that was denied before.” **(P1)**_
+   - _“I can add more evidence if I disagree.” **(P3)**_
+
+We interviewed two people who served as Veteran advisors through a VSO (though not as full-time staff). They emphasized the importance of simple language and raised flags about using the term “Supplemental Claim.”
+- _“Vets don’t know the term ‘Supplemental.’ In their mind, they’re thinking they’re just going to file a claim. They just know that they were denied before.” **(P12, Adviser)**_
+
+#### Conditions and claims
+There is a very permeable border between the concepts of a “condition” and a “claim” when Veterans talk aloud in the 526 form. Some referred to the separate conditions they’d added to the claim as individual claims, while others referred to a condition they hadn’t claimed before as “a new one.”
+
+While not a general finding, one participant explicitly noticed that on the “Add a condition” screen, both “condition” and “disability” are used and found that confusing:
+- _"To me 'disability' is saying I'm incapable of doing certain things… is it because things [conditions] that the VA hasn't approved aren't perceived as limiting you in some way?" **(P10)**_
+
+### Finding 3: Veterans see VA as both adversary and partner.
+
+
 
 ## Appendix
 
