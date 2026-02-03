@@ -1,20 +1,20 @@
 ---
-title: "Conversation Guide for Sign-In Looping Research"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
-tags:
-  - "sign-in"
-  - "authentication"
-  - "technical-issues"
-  - "user-experience"
-description: "Research to understand Veterans' experiences with sign-in looping and identify patterns causing repeated authentication failures."
+title: "Conversation Guide for VA Platform, VA.gov Sign-in Looping, 2026-02-03"
+author:  "[AUTHOR NAME]"
+date_created:  "2026-02-03"
+last_modified: "2026-02-03"
+tags: 
+  - "AUD: Veterans"
+  - "PRDT: Content"
+  - "DSP: Help users to sign in"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "usability-testing"
+  - "semi-structured-interviews"
+description: "A conversation guide for interviewing Veterans about VA.gov and VA mobile app sign-in looping experiences, including where the loop occurs, technical conditions, attempted fixes, and impact on completing tasks."
 ---
-
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've filled out your conversation guide below.**
-> 
-> Use the [GitHub Copilot Conversation Guide Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed conversation guide.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags based on your tasks and research objectives.
 
 # Conversation Guide for Sign-In Looping Research
 
