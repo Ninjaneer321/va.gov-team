@@ -16,13 +16,16 @@
 
 Basic information Veterans and other beneficiaries need to quickly and easily discover, apply for, track, and manage VA benefits.
 
-**Identified strategic home for this content:** Modernized VA.gov (benefit hubs)
+**Identified strategic home for this content:** Modernized VA.gov (benefit hubs for Veteran content, Service member hub for transitioning service member content, and family and caregiver hub for content for spouses, dependents, survivors, and caregivers)
 
 #### 1.1.2 Supplemental benefit and service content
 
 Supplemental information to empower Veterans and other beneficiaries to fully understand their VA benefits and related tools or services
 
-- How-to type content
+- How-to or step-by-step type content about certain processes
+- Detailed informaiton about benefits
+- FAQs about benefits and services
+- Technical support content to help people sign in to VA.gov and use the site's or mobile app's online tools
 
 **Identified strategic home for this content:** Modernized VA.gov (resources and support section)
 
