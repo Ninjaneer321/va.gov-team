@@ -98,9 +98,9 @@ synthesis_tools_used:
 - [Research goal](#user-content-research-goal)
 - [Methodology](#user-content-methodology)
 - [Key findings](#user-content-key-findings)
-- [Additional insights](#user-content-additional-insights)
-- [Recommendations](#user-content-recommendations)
-- [Next Steps](#user-content-next-steps)
+- [Additional learnings](#user-content-additional-learnings)
+- [Design implications](#user-content-design-implications)
+- [Recommendations for further research](#user-content-recommendations-for-further-research)
 - [Appendix](#user-content-appendix)
 - [Research participants](#user-content-research-participants)
 
@@ -152,8 +152,6 @@ Sessions were conducted remotely, over Zoom. Participants joined from a computer
 1. [Veterans approach benefits filing as a narrative case, not a procedural task.](#user-content-finding-1-veterans-approach-benefits-filing-as-a-narrative-case-not-a-procedural-task)
 2. [Veterans must translate VA terminology to navigate the process.](#user-content-finding-2-veterans-must-translate-va-terminology-to-nagivate-the-process)
 3. [Veterans see VA as both adversary and partner.](#user-content-finding-3-veterans-see-va-as-both-adversary-and-partner)
-
-
 
 ## Details of Findings 
 
@@ -268,6 +266,53 @@ While not a general finding, one participant explicitly noticed that on the “A
 - _"To me 'disability' is saying I'm incapable of doing certain things… is it because things [conditions] that the VA hasn't approved aren't perceived as limiting you in some way?" **(P10)**_
 
 ### Finding 3: Veterans see VA as both adversary and partner.
+Some participants expressed worries about the process; VA becomes an adversary when perceived as a **claims/benefits bureaucracy**. A mismatch between Veterans’ expectations and VA requirements can deepen the lack of trust.
+- _“I’m thinking, ‘what do I select that the VA will actually listen to.’” **(P4)**_
+- _“I’m afraid to [file a claim for increase]. I’m told they have up to five years to yank your disability from you. I’m happy that this happened in the 70s and I got my first check in December of last year [2024] …The psychiatrist said I needed 100% and that I should think about refiling, but I haven’t pursued it…I’m intimidated.” **(P13)**_
+
+It’s worth noting that VA as a **healthcare provider** is often viewed positively. Participants hold both perspectives simultaneously, and can be both appreciative and distrustful.
+- _“My disability rating is 80% but I get 100% of my medical care through VA. I have no copays, there’s nothing they don’t pay for. [when asked about their disability rating:] It seems very inconsistent. There doesn’t seem to be any rhyme or reason. My individual disabilities add up to more than 100% but you still get 80%. I have no clue. I don’t understand it.” **(P8)**_
+- _“It [applying for disability benefits] was an ok experience. It wasn’t what I was expecting, so it wasn’t comfortable. [when asked how they’d explain the disability benefits process to a young Veteran:] Part of the reason why I went to the VA is to take advantage of something that, you know, is rightfully a benefit. And, to me, the easiest way is to go right into a VA facility, whether it’s a clinic, hospital, whatever kind. I have never run into a rude person at mine; it’s very helpful, full of resources, a great, great facility and I’m very happy that I’m involved with them.” **(P5)**_
+
+## Additional learnings
+The previous section described the primary findings that emerged from a thematic analysis of mental models and language. The next section outlines additional learnings related to more specific research questions.
+
+### 4. Overall, Veterans have a big-picture view of their disability situation, rather than a granular view distinguishing among procedural statuses. 
+At top of mind, they get "a percentage" from the VA – their overall disability rating. Beneath that are their individual health conditions related to military service. 
+- Some the VA has approved, and some they've denied.
+- Some decisions they agree with, and some they don’t. In this regard, Veterans tend to talk about denied conditions in the same way as granted conditions that they think are rated too low.
+- The other status that is mentioned is that of waiting or pending, possibly _"before a judge" **(P7)**._
+
+### 5. There isn’t a crisp delineation between granted vs. denied conditions.
+This distinction is blurry because having a health condition is so much more salient to the Veteran than whether the VA has approved it or not. 
+
+Conditions that were denied are talked about in the same way as conditions that were granted but at a lower percentage than the Veteran thinks is right.
+- Veterans’ outcome-driven persistence comes into play here: “...there's been a lot of stuff that's been denied and you just have to keep at it until they accept it.” (P7)
+- One adviser mentioned that _“I think they [Veterans] attach themselves to the word ‘denial.’” **(P12)**_
+
+Veterans said they may not recall every condition they’ve applied for, especially those that were denied.
+
+### 6. 0% ratings made no sense to the people we asked. 
+Participants were just as likely to interpret a 0% rating as not service-connected as they were to interpret it as service-connected but not severe enough to qualify for compensation. One participant said such ratings are “BS,” (P8) and another, an adviser, said:
+- _“I mean, countless times, people will get their decision letter and say ‘Hey, they denied everything.’ I'll look, and [say] ‘No, you were granted. Zeros are good. Zero is a grant, but not to the degree it's compensable for you.’ Because we are facilitators and I'm an authorized signer, I try to focus on the positives - "your kid can go to college for free with 0%".  Zeros are good. VA acknowledges the condition is because of your service. You can only go up from zero.” **(P12)**_
+
+### 7. Veterans are usually keenly aware of how their conditions were caused by their military service; they speak about the service relationship in great narrative detail.
+But some Veterans have a disability that no one knows the actual causality for. One such Veteran explained that _"the way the VA looks at it, if you were fine when you came in and you're messed up when you get out, it's considered the military's fault." **(P3)**_
+
+### 8. Veterans recognized the idea of secondary conditions, but their understanding was limited.
+When asked about the concept of a secondary condition, several Veterans could relate it to something in their own health situation. We don't have enough information to further characterize their thinking.
+
+### 9. There is no perceived order in which claims should be filed.
+These participants were fairly vague on specific disability claims processes. The few who'd been through an appeal had either done so of their own accord or with external help, usually a VSO. Most of those who’d pursued an appeal had some concept of a regular claim vs. an appeal, but didn't mention different appeal lanes.
+
+### 10. Veterans use a mix of plain language words when describing how they’d challenge a VA decision.
+The most common terms used the concept of re-doing a claim - "re-file," "re-claim," "re-apply," "re-open," "file again," "claim again." After those, "appeal" was the most common term, and the two advisors we spoke with said "appeal" was a widely understood term. For additional quotes, see the section titled ["Appeal" is somewhat familiar, "Supplemental Claim" is not](#user-content-appeal-is-somewhat-familiar-supplemental-claim-is-not).
+
+## Design implications
+This research demonstrates that Veterans' mental models of disability benefits are organized around their personal health narratives, their service history, their current rating, and the evidence supporting their claims. The procedural outlines of VA systems - the distinctions between claim types, the structure of decision review options, the specific requirements of each pathway - largely do not register in Veterans' conceptual frameworks.
+
+We can see this disjunction in the 526 application flow:
+
 
 
 
