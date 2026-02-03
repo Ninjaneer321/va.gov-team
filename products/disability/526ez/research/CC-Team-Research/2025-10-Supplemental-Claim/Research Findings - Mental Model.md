@@ -180,15 +180,15 @@ Due to this conceptual mismatch when completing the tasks inherent in the 526EZ,
 #### Experiences are shared as narratives
 Because participants consistently framed their experiences as narratives rather than procedural descriptions, we were able to analyze these stories to understand how Veterans think and talk about applying for disability benefits. Across sessions, the same elements of their story emerged with a consistent set of concerns:
 
-1. My health problems
+1. My health problems\
    a. My **current health problems** and how they affect my daily life
-2. What caused them
+3. What caused them
    a. The **in-service conditions or events** that caused these problems (and why I deserve to get benefits)
-3. What I did to get benefits
+4. What I did to get benefits
    a. The turning point when **I decided to file**
    b. The **evidence** I provided
    c. The **people/organizations** who supported me
-4. The result: "My percentage
+5. The result: "My percentage
    a. The **overall disability rating** the VA assigned me (and the rating I hoped to have)
 
 Notably, beyond describing their service experiences and resulting conditions, participants almost always referenced their disability rating, typically calling it “my percentage” or citing the number itself. They discussed their reactions to the ratings they received and, for many, their subsequent efforts to secure higher ratings. For those who felt their initial rating was inadequate, the struggle to obtain a rating increase was often described in emotionally charged terms. Multiple participants recounted extended campaigns involving examinations, documentation gathering and submission, attempts to decipher VA requirements, and encouragement from family members, physicians, or Veterans Service Organization (VSO) representatives to continue pursuing their claims.
