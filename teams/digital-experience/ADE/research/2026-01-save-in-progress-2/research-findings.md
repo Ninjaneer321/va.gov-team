@@ -155,12 +155,32 @@ Findings and recommendations from this research will **inform guidance and docum
 
 ## Methodology 
 
-*Provide a brief description of the research methods used (e.g., usability testing, interviews).*  
+We conducted **remote moderated usability testing** to observe research participants filling out an online form. The participants were logged in so that the information they entered was automatically saved before the form was submitted. We used a GitHub Codespace that was accessible to screen readers and screen magnifiers, which half of our participants were using.
 
-- Method 1: Description  
-- Method 2: Description  
+Research sessions were conducted over Zoom during January 12-21, 2026. Sessions were 90 minutes long for Veterans using assistive technology (i.e., screen readers or screen magnifiers), and 60 minutes for Veterans not using any assistive technology (AT). 
 
-[Example Methodology](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#methodology)
+## Participants
+ Perigean recruited all **9 research participants** who were all Veterans. 7 participants were able to complete all the user tasks, and the other 2 participants were not able to because of technical issues.  
+ - **5 were full-time assistive technology users**:
+   - 4 used a screen reader
+   - 1 used a screen magnifier
+  - 4 were on a computer, and 5 were on a smart phone
+
+The assistive technology used by the 5 participants is summarized in the table below. 
+
+P# | Screen Reader/Magnifier | Software | Device | O/S | Browser 
+-- | ----- |------|-------|--------|--------
+2 | none | none | phone | iOS | Safari 
+3 | Screen reader | JAWS w/mouse echo | computer | Windows | Chrome 
+4 | Screen reader | VoiceOver | phone | iOS | Safari then Chrome
+6 | Screen reader | Read aloud highlighted text | phone | iOS | Safari 
+7 | none | none | computer | Windows | Chrome 
+8 | Screen reader | TalkBack | phone | Android | Chrome
+9 | none | none | computer | Windows | Opera
+11 | Screen magnifier | Windows Magnifier | computer | Windows | Chrome
+12 | unknown | none | phone | Android | unknown because didn't get that far
+
+For demographic details, see [Research participants](#user-content-research-participants).
 
 
 ## Hypotheses and Conclusions
