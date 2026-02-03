@@ -150,7 +150,7 @@ Sessions were conducted remotely, over Zoom. Participants joined from a computer
 ## Key Findings
 
 1. [Veterans approach benefits filing as a narrative case, not a procedural task.](#user-content-finding-1-veterans-approach-benefits-filing-as-a-narrative-case-not-a-procedural-task)
-2. [Veterans must translate VA terminology to navigate the process.](#user-content-finding-2-veterans-must-translate-va-terminology-to-nagivate-the-process)
+2. [Veterans must translate VA terminology to navigate the process.](#user-content-finding-2-veterans-must-translate-va-terminology-to-navigate-the-process)
 3. [Veterans see VA as both adversary and partner.](#user-content-finding-3-veterans-see-va-as-both-adversary-and-partner)
 
 ## Details of Findings 
