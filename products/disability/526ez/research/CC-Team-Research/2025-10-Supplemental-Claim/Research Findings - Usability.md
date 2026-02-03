@@ -474,7 +474,7 @@ Consistent with [recommendation 5](#user-content-5-make-it-clear-and-explicit-th
   - [Prototype Banana](https://www.figma.com/proto/P6IUm8gN00H3Yi1XzN80fj/-526ez--Condition-information-entry?page-id=6174%3A18589&node-id=6241-54179&viewport=487%2C-7286%2C0.7&t=iysFGHlWrbJqCNTW-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6241%3A54179&show-proto-sidebar=1)
 
 ### Previous research on Conditions flow
-  - [2025-06 New/Increase at Condition Level](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-06%20New%20or%20Increase%20at%20Condition%20Level/New%20or%20Increase%20at%20Condition%20level%20-%20Reseach%20Findings.md)
+  - [2025-06 New/Increase at Condition Level](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez/research/CC-Team-Research/2025-06%20New%20or%20Increase%20at%20Condition%20Level)
 
 ### Research participants 
 #### Recruitment criteria
