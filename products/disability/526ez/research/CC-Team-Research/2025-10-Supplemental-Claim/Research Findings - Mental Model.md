@@ -219,15 +219,15 @@ We also wanted to learn what words Veterans use to describe different aspects of
 | How Veterans describe things | How VA describes things |
 | ----- | :---- |
 | *Appeal a VA decision* |  |
-| Reapply<br> File again<br> Refile<br> Reopen the case<br> Reclaim<br> Reevaluate<br> Resubmit<br> Try again<br> Get reviews<br> File this claim again<br> Claim it again<br> Appeal<br> Appeal the original decision<br> Fight | Request a decision review or appeal Disagree with our decision File a Supplemental Claim Request a Higher-Level Review Request a Board Appeal  |
+| Reapply<br> File again<br> Refile<br> Reopen the case<br> Reclaim<br> Reevaluate<br> Resubmit<br> Try again<br> Get reviews<br> File this claim again<br> Claim it again<br> Appeal<br> Appeal the original decision<br> Fight | Request a decision review or appeal<br> Disagree with our decision<br> File a Supplemental Claim<br> Request a Higher-Level Review<br> Request a Board Appeal  |
 | *Apply for disability benefits* |  |
-| Apply Apply for benefits File File for disability Request disability benefits | File a disability claim |
+| Apply<br> Apply for benefits<br> File<br> File for disability<br> Request disability benefits | File a disability claim |
 | *File a claim for increase* |  |
-| File for an increase Apply for an increase Rate increase Go for a higher disability rating | Increased claim |
+| File for an increase<br> Apply for an increase<br> Rate increase<br> Go for a higher disability rating | Increased claim |
 | *File a Board Appeal* |  |
 | Going to a judge | Board Appeal |
 | *Evidence (a topic where Veteran and VA language match)* |  |
-| Records Paperwork Documents Evidence Files Proof Upload Statements Buddy letters | Evidence Documents Medical records Hospital records Hospital reports Supporting Statements |
+| Records<br> Paperwork<br> Documents<br> Evidence<br> Files<br> Proof<br> Upload<br> Statements<br> Buddy letters | Evidence<br> Documents<br> Medical records<br> Hospital records<br> Hospital reports<br> Supporting Statements |
 
 
 
