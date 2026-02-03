@@ -95,7 +95,7 @@ synthesis_tools_used:
 
 **Jump to:**
 - [Background](#user-content-background)
-- [Research goal](#user-content-research-goals)
+- [Research goal](#user-content-research-goal)
 - [Methodology](#user-content-methodology)
 - [Key findings](#user-content-key-findings)
 - [Additional insights](#user-content-additional-insights)
@@ -112,7 +112,7 @@ This report is a companion to our [usability research findings](https://github.c
 ## Research Goal
 Explore Veterans’ mental models and language around disabilities, claims, and appeals to inform how we approach organizing the conditions flow.
 
-## Research Questions
+### Research Questions
 - How are conditions and their various statuses (particularly in relation to the VA) perceived?
 - How do Veterans think about conditions that have been granted v. those that have been denied?
    - What about conditions that were granted at 0%?
@@ -121,30 +121,31 @@ Explore Veterans’ mental models and language around disabilities, claims, and 
 - Is there a perceived order in which claims should be filed, and if yes, what is that order and what are its origins?
 - How do Veterans think about challenging a VA decision? What words do they use?
 
-### Goal: Determine which of the design directions best meets user needs when filing a Supplemental Claim within the online 526, without negatively impacting the user experience of filing a standard disability claim.
-- 
-
 ## Methodology 
 
-### Participants
-
 ### Testing structure
+Our methodology combined semi-structured, exploratory interviews with task-based usability testing to compare two different prototypes. In the exploratory section, we asked Veterans to tell us about their experience with VA disability claims. We then asked Veterans to share their screens and think aloud as they filled out a section of the online 526 application. The scenarios focused on adding several different types of conditions (new, rated, and denied) to a disability claim. 
 
+Sessions were 75 minutes and conducted over Zoom. We spent 10-20 minutes on the exploratory interview, then switched to prototype testing to evaluate design concepts. Most of the information about mental models comes from the exploratory section, but we learned more as Veterans interacted with the prototypes.
 
-### Data collection
-- 
+### Who we interviewed
+We interviewed 10 participants, but this report focuses primarily on 7 of them. Of the remaining 3 participants, 1 did not have time for the interview portion of the research, and 2 serve as advisors for Veterans’ organizations. Since the advisers are very familiar with VA processes, we excluded them from the mental model analysis. We did, however, include their expert opinions about Veteran understanding and language. 
+
+#### Sample skew
+This sample (the 7 non-adviser participants) is similar to the overall Veteran population in:
+- Race/ethnicity mix - roughly equivalent
+- Age distribution - roughly equivalent
+- Educational attainment - this sample has slightly lower attainment than the overall population
+- Overall disability rating - roughly equivalent to the population of Veterans who have a disability rating.
+
+But the sample is very different from the overall Veteran population in:
+- Gender - This sample has a far greater proportion of women (71% vs. 11% for the actual Veteran population)
+- Cognitive disabilities - We did not specifically recruit for cognitive disability or assistive technology use, so these groups are not represented in this study.
+
+When interpreting this report, it’s important to remember that this is a small sample of the large, diverse Veteran population. Given the consistency of the core findings across participants, we believe these findings provide useful directional signals about Veterans’ mental models and language. We recommend further research to validate and expand on the findings.
 
 ### Location and device
 Sessions were conducted remotely, over Zoom. Participants joined from a computer, tablet, or smartphone.
-
-### Research materials
-- [Conversation guide V1](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Conversation%20guide.md)
-- [Conversation guide V2](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Conversation%20guide%20v2.md)
-- [Prototype](https://www.figma.com/proto/P6IUm8gN00H3Yi1XzN80fj/-526ez--Condition-information-entry?page-id=6174%3A18589&node-id=6524-47192&viewport=653%2C-7741%2C0.75&t=UWlAy6DgYnnYEKOL-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6524%3A47192&show-proto-sidebar=1)
-
->[!NOTE]
->Participants 1-5 consistently struggled with differentiating between a Supplemental Claim and a Claim for Increase. Because it was a major goal of this study to understand how Veterans perceive the two claim types, we worked with our VA partners to tweak the prototypes with the intent to further clarify the intent of these claims. These updates necessitated minor changes to the conversation guide. The V2 conversation guide was used for all sessions after participant 5, and reflected language changes made to the Supplemental Claim info screen in prototype Apple, language changes made to the previously denied conditions and rated condition follow-up screens in prototype Banana, and the removal of a redundant Supplemental Claim information screen in prototype Banana.
-
 
 ## Key Findings
 
@@ -155,7 +156,62 @@ Sessions were conducted remotely, over Zoom. Participants joined from a computer
 ## Details of Findings 
 
 ### Finding 1: Veterans approach benefits filing as a narrative case, not a procedural task.
+In the first part of the research sessions, we asked participants to describe their experiences getting VA disability benefits. Throughout the interviews, these Veterans described their experience filing for disability benefits like a story with four major parts: 
+- My health problems
+- Why they happened
+- What I did to get benefits
+- The result: “My percentage”
 
+Many began by describing what happened to them at their departure from military service. They outlined their health status at service separation, the guidance they received about VA benefits, and the proof they had gathered to support their claim. As discussions continued, they shared detailed stories about how their conditions and disabilities were actively affecting day-to-day life. 
+
+- _"I got out of the military and had been given the heads up by my military doctor that I should get checked out by VA. I'd had medical problems in service…. there was a veteran service group that ushered me around through the different places… helped me get my paperwork and records that I needed. I had a fairly smooth process comparing it to most other people. A lot of people don't go to medical and get things documented when they have injuries or things like that. Because I had such a severe illness, and was forced into hospital, there was mountains of paperwork. There was no option of not applying for disability." **(P3)**_
+- _“First time [applying for benefits] was after getting boarded out of the military - I  came out at an automatic 40%. I had a screwed up back surgery at age 25 and have had 3 [more] back surgeries but after the third one was when I got 60%. I got denied many times.” **(P4)**_
+- _“When I got debriefed when I got out, and I told them about my knees and my hearing, I got chewed out - ‘how dare you consider filing for benefits’ ...I explained all that and still got rejected.” **(P13)**_
+
+In contrast, the 526EZ form is perceived as a sequence of procedural steps that, while reflective of VA policy and procedure, require users to translate their intent (get disability benefits), which is grounded in their personal narrative, into VA’s administrative structure. Veterans have to comply with rules that are not obvious from their lived experiences (e.g. when to file a Claim for Increase vs. a Supplemental Claim). 
+
+Due to this conceptual mismatch when completing the tasks inherent in the 526EZ, participants often:
+- Hesitated
+- Collapsed distinctions
+   - There were a few instances of this, but the most common were (1) the intent in filing either a Supplemental Claim or a Claim for Increase was the same - “trying to get a higher rating;” and (2) conditions were often spoken about as if they were individual claims (“I’m filing a claim for my knee” vs. “I’m adding a condition”).
+- Relied on guesswork
+- Expressed anxiety about making incorrect selections
+
+#### Experiences are shared as narratives
+Because participants consistently framed their experiences as narratives rather than procedural descriptions, we were able to analyze these stories to understand how Veterans think and talk about applying for disability benefits. Across sessions, the same elements of their story emerged with a consistent set of concerns:
+
+1. My health problems
+   a. My **current health problems** and how they affect my daily life
+2. What caused them
+   a. The **in-service conditions or events** that caused these problems (and why I deserve to get benefits)
+3. What I did to get benefits
+   a. The turning point when **I decided to file**
+   b. The **evidence** I provided
+   c. The **people/organizations** who supported me
+4. The result: "My percentage
+   a. The **overall disability rating** the VA assigned me (and the rating I hoped to have)
+
+Notably, beyond describing their service experiences and resulting conditions, participants almost always referenced their disability rating, typically calling it “my percentage” or citing the number itself. They discussed their reactions to the ratings they received and, for many, their subsequent efforts to secure higher ratings. For those who felt their initial rating was inadequate, the struggle to obtain a rating increase was often described in emotionally charged terms. Multiple participants recounted extended campaigns involving examinations, documentation gathering and submission, attempts to decipher VA requirements, and encouragement from family members, physicians, or Veterans Service Organization (VSO) representatives to continue pursuing their claims.
+
+#### The end goal drives their efforts
+What dominated participants’ narratives was their goal - achieving a disability rating they considered fair - and the obstacles and frustrations they encountered in pursuit of that goal. The specifics of Supplemental Claims, Higher-level Reviews, or Board Appeals rarely entered the discussion except as vaguely understood steps in a prolonged effort. 
+
+- Claim intent was described as “get an increase or a higher rating” (outcome), not as choosing a particular claim path.
+   - _“Seems the same, just worded differently. For both [Claim for Increase and Supplemental Claim], **you’re trying to get an increase**.” **(P1)**_
+   - _“I'm doing both...**my condition has gotten worse so I'm applying for an increase, and I'm appealing my previous rating because I also want an increase**.” **(P13)**_
+- Participants treat denied conditions pathways as “try again with proof,” not “file a Supplemental Claim.”
+   - _“If I have **all the proper docs**, I could continue to **file this claim again**.” **(P1)**_
+   - _“The other one, I'm disagreeing with the previous rating because I think **they didn't rate me high enough to begin with**.” **(P8)**_
+
+After participants described their own experiences, we posed a different question designed to surface their conceptual understanding of the disability benefits system: "How would you explain to a young Veteran how to get disability benefits?"
+
+#### Procedural details are rarely mentioned
+Participants’ responses revealed where they believe the critical work lies: almost none discussed the procedural steps of submitting an application. Instead, they emphasized finding knowledgeable support (VSOs, VA staff, or Internet sources), systematically collecting medical evidence and service records, and maintaining persistence in the face of denials or inadequate ratings. In essence, they articulated a theory of success centered on preparation, advocacy, and determination rather than on navigating specific VA processes.
+
+- _“Most importantly, grab all your paperwork. I'm sure they have electronic files now. Get copies of everything. Go down to the VA, plan on spending the whole day there. Take your time, try not to get frustrated. It's a slow process, nothing goes quickly. If it doesn't go the first time, you can maybe find a different angle. At the VA they usually have helpful people there. Find the claims office.” **(P3)**_
+- _“You could either go to the VSO here, they'd walk you through everything. Or you could go to the VA hospital. They have a patient advocate, they'll refer you to someone to walk you through the entire process.” **(P8)**_
+
+Throughout these accounts, VA procedural details remained peripheral - participants had remarkably little to say about the mechanics of filing claims. When participants did mention specifics about the application process, they were usually tied to a specific friction point, such as a technical issue or a challenge related to a Compensation and Pension (C&P) exam. Often, they focused on the people who assisted them, typically VSO representatives or VA staff, treating and perceiving these helpers as essential mediators of an opaque system. 
 
 
 ## Appendix
