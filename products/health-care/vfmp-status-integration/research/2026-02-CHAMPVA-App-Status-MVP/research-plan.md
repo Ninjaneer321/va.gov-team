@@ -149,16 +149,6 @@ tags:
   - ***Research Ops Plain Language:** Supports up to three Veteran-impacting Key Performance Indicators documented for this on Product.VA.gov*
 > - **Key Result 1.2:** Delivered 25 or more releases that have measurably improved a product's Veteran-impacting KPIs.
   - ***Research Ops Plain Language:** Supports a production release that will measurably improved a product's Veteran-impacting KPIs.*
-> - Key Result 1.3:** OIT has avoided at least $5 million in cost via successful decommissioning of at least 10 systems.
-  - ***Research Ops Plain Language:** Supports the decommissioning of a legacy system.*
-
-`Objective 2: Operate products with high reliability and security.`
-
-> - **Key Result 2.1:** All C100 systems have an incident free time of 99.8 or better.
-> - **Key Result 2.2:** All C100 systems are monitoring the 4 “golden signals” of latency, error rate, volume, and saturation.
-> - **Key Result 2.3:** All C100 systems have baselined cycle time from planning to production, and at least one C100 system in each DSD portfolio has reduced its cycle time from planning to production by more than 50% without increasing change failure rate.
-  - ***Research Ops Plain Language:** Supports reducing this product’s cycle time from planning to production by more than 50% without increasing change failure rate.*
-> - **Key Result 2.4:** By 31 March 2026, DSD has enhanced system security by moving or decommissioning 100% of existing of Systems or Applications leveraging SiteMinder integration for SSOi to Entra ID.
 
 `Objective 3: Relentlessly improve the user experience.`
 
@@ -168,12 +158,6 @@ tags:
   - ***Research Ops Plain Language:** Supports maintaining the ranked list of user pain points for Veteran-facing Products and Services.*
 > - **Key Result 3.3:** 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system.
   - ***Research Ops Plain Language:** Supports the delivery of at least one release that directly addresses a documented user pain point within this product.*
-
-`Objective 4: OCTO teammates are empowered with the knowledge and resources they need to make sustained impact.`
-
-> - **Key Result 4.1:** More than 25% of VA employees report AI has helped them deliver better services to Veterans.
-> - **Key Result 4.2:** All “VA Way” delivery attributes have an adoption indicator established, baselined and communicated to product delivery staff.
-> - **Key Result 4.3:** 50% of product delivery staff report that a practice group (design) has helped them deliver better software.
 
 </details>
 
@@ -185,16 +169,11 @@ tags:
 <details><summary>Where does your product fit into the Veteran journey?
 Are there moments that matter?</summary>
 	
-- `Joining`
-- `Serving`
 - `Getting Out`
 - `Starting Up`
-- `Taking Care of Myself`
-- `Reinventing Myself`
 - `Putting Down Roots`
 - `Retiring`
 - `Aging`
-- `Dying`
 
 </details>
 
