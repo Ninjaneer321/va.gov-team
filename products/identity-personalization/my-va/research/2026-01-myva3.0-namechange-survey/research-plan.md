@@ -243,8 +243,8 @@ Jump to:
 
 [Survey structure](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2026-01-myva3.0-namechange-survey/survey-outline.md#instruction-email)
 
-Perigean completion codes
+Perigean completion codes (To be added)
 
-Analysis 
+Analysis (To be added)
 
 [Laws related to this work](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2026-01-myva3.0-namechange-survey/survey-outline.md#instruction-email)
