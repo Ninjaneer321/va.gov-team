@@ -222,6 +222,7 @@ We also wanted to learn what words Veterans use to describe different aspects of
 | --- | --- |
 | _Appeal a VA decision_ |
 | Reapply | Request a decision review or appeal |
+
 [table to be completed later]
 
 #### Literal interpretations of terms
@@ -237,7 +238,7 @@ And hint text on the “Date worsened” screen was interpreted literally by 2 p
 - _“Why does it say back pain? I don’t have back pain.” **(P4)**_
 - _“I would enter the date it’s telling me. [referring to example date in the hint text: December 1, 2020]” **(P7)**_
 
-| <img width="507" height="496" alt="Screenshot 2026-02-03 at 11 15 15" src="https://github.com/user-attachments/assets/3be96367-ce1a-446c-93e5-0869cc3d8de1" /> |
+| <img width="338" height="331" alt="Screenshot 2026-02-03 at 11 15 15" src="https://github.com/user-attachments/assets/3be96367-ce1a-446c-93e5-0869cc3d8de1" /> |
 |---|
 
 #### “Appeal” is somewhat familiar, “Supplemental Claim” is not 
