@@ -41,7 +41,7 @@ The MHV team has created an api called the MHV account creation API which the VA
 ## Host Endpoints
 
 - Dev -[https://apigw-intb.aws.myhealth.va.gov](https://apigw-intb.aws.myhealth.va.gov)
-- Staging - [https://apigw-sysb.aws.myhealth.va.gov](https://apigw-intb.aws.myhealth.va.gov)
+- Staging - [https://apigw-sysb.aws.myhealth.va.gov](https://apigw-sysb.aws.myhealth.va.gov)
 - Production - [https://api.myhealth.va.gov](https://api.myhealth.va.gov/)
 
 ## API Paths
@@ -119,4 +119,5 @@ The MHV team has created an api called the MHV account creation API which the VA
 2. Vets-api will only call the account creation api if the user has an assigned facility id from the MPI response. Carnetta and Joe confirmed this via Teams on 8/21/24.
 
 ## Documentation from MHV
+
 The pdf files for the api specs and use cases have been stored on the private github folder [here](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams/vsp/teams/Identity/Product%20Documentation/MHV%20account%20creation%20api%20on%20vagov).
