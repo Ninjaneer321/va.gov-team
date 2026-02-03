@@ -1,4 +1,4 @@
-# Authenticated Experience Architectural Intent
+# Authenticated Flow MVP Architectural Intent
 
 ## Overview
 
