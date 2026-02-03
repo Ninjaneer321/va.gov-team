@@ -48,6 +48,7 @@ Complete all required checks and as many recommended checks as you can. If you c
   - [ ] Fail
   - [ ] Include screenshots or output of AXE results in a comment on this ticket
 
+#### Recommended
 - **Axe-core has been integrated in end to end testing (Automated-002)**  
   End to end testing with Cypress or other libraries includes Axe-core scanning.
   [Learn more about integrating Axe-core in end-to-end testing](https://depo-platform-documentation.scrollhelp.site/developer-docs/end-to-end-testing-with-cypress). 
