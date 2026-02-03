@@ -219,7 +219,7 @@ We also wanted to learn what words Veterans use to describe different aspects of
 | How Veterans describe things | How VA describes things |
 | ----- | :---- |
 | *Appeal a VA decision* |  |
-| Reapply\ File again\ Refile\ Reopen the case\ Reclaim\ Reevaluate\ Resubmit\ Try again\ Get reviews\ File this claim again\ Claim it again\ Appeal\ Appeal the original decision\ Fight | Request a decision review or appeal Disagree with our decision File a Supplemental Claim Request a Higher-Level Review Request a Board Appeal  |
+| Reapply<br> File again<br> Refile<br> Reopen the case<br> Reclaim<br> Reevaluate<br> Resubmit<br> Try again<br> Get reviews<br> File this claim again<br> Claim it again<br> Appeal<br> Appeal the original decision<br> Fight | Request a decision review or appeal Disagree with our decision File a Supplemental Claim Request a Higher-Level Review Request a Board Appeal  |
 | *Apply for disability benefits* |  |
 | Apply Apply for benefits File File for disability Request disability benefits | File a disability claim |
 | *File a claim for increase* |  |
