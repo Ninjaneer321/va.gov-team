@@ -95,7 +95,7 @@ synthesis_tools_used:
 
 **Jump to:**
 - [Background](#user-content-background)
-- [Research goals](#user-content-research-goals)
+- [Research goal](#user-content-research-goals)
 - [Methodology](#user-content-methodology)
 - [Key findings](#user-content-key-findings)
 - [Additional insights](#user-content-additional-insights)
@@ -105,12 +105,21 @@ synthesis_tools_used:
 - [Research participants](#user-content-research-participants)
 
 ## Background
+As part of our work to incorporate Supplemental Claims into the online 526 disability compensation application, our team conducted user research sessions with Veterans. These sessions had two goals: concept/usability testing to evaluate design directions, and open-ended interviews to understand how Veterans think about disability claims.
 
+This report is a companion to our [usability research findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Research%20Findings%20-%20Usability.md) (which covers the concept testing results) and focuses specifically on Veterans' mental models around disability claims. While these insights directly inform our work on the Conditions flow, we hope they'll also be valuable to other teams across the VA working on the disability benefits user experience.
 
-## Research Goals
-
+## Research Goal
+Explore Veterans’ mental models and language around disabilities, claims, and appeals to inform how we approach organizing the conditions flow.
 
 ## Research Questions
+- How are conditions and their various statuses (particularly in relation to the VA) perceived?
+- How do Veterans think about conditions that have been granted v. those that have been denied?
+   - What about conditions that were granted at 0%?
+- How do Veterans think about their conditions in terms of causality and relation to military service (e.g. service connection, presumption)
+   - Do Veterans think of secondary conditions differently from conditions that are directly service-connected or aggravated?
+- Is there a perceived order in which claims should be filed, and if yes, what is that order and what are its origins?
+- How do Veterans think about challenging a VA decision? What words do they use?
 
 ### Goal: Determine which of the design directions best meets user needs when filing a Supplemental Claim within the online 526, without negatively impacting the user experience of filing a standard disability claim.
 - 
