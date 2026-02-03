@@ -312,9 +312,22 @@ The most common terms used the concept of re-doing a claim - "re-file," "re-clai
 This research demonstrates that Veterans' mental models of disability benefits are organized around their personal health narratives, their service history, their current rating, and the evidence supporting their claims. The procedural outlines of VA systems - the distinctions between claim types, the structure of decision review options, the specific requirements of each pathway - largely do not register in Veterans' conceptual frameworks.
 
 We can see this disjunction in the 526 application flow:
+| <img width="1536" height="443" alt="Screenshot 2026-02-03 at 11 40 11" src="https://github.com/user-attachments/assets/011b59d5-b945-4229-93a6-2126dba3e03a" /> |
+|---|
 
+To design effectively for Veterans, our work should:
+- Focus on the Veteran's experience rather than procedural details.
+- Center on their health conditions and filing intent rather than claim types.
+- Help them tell their story (even if the details are sometimes more than VA needs to adjudicate claims).
+- Make it easy to provide documentation to prove their claims.
+- Use terms that are familiar to Veterans rather than narrow technical terms. 
 
+When writing content, we should evaluate language with special consideration for Veterans’ tendency for literal interpretations. Along with familiar words, using intent-based language (e.g. “select a condition to increase”) can help establish meaning. This not only makes our products more usable, but it also encourages Veterans to see the VA as an ally rather than a slow, bureaucratic adversary.
 
+## Recommendations for further research
+We hope these findings can inform the development of content and services relating to Veterans’ disability benefits. To validate and expand on these findings, we recommend:
+- **Re-analyzing existing research** - It may be possible to re-analyze the transcripts or recordings from previous studies to look for the themes uncovered here.
+- **Expanding the sample size** - Conducting a similar study with more participants would increase confidence in applying these findings to the broader Veteran population and reveal potential variations across different Veteran subgroups.
 
 ## Appendix
 
@@ -324,9 +337,16 @@ We can see this disjunction in the 526 application flow:
   - [Conversation guide V2](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-10-Supplemental-Claim/Conversation%20guide%20v2.md)
   - [Interview transcripts](https://dvagov.sharepoint.com/:f:/r/sites/vaabdvro/Shared%20Documents/0%20-%20Benefits%20Portfolio%20-%20General/Research%20Recordings%20-%20Veteran-Staff-VSO/2025-11%20526EZ%20Supplemental%20Claims%20Design%20Direction?csf=1&web=1&e=bXiWUN)
 
-### Tools used for Synthesis
+### Tools used for synthesis
   - [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1763754263362/8090932e8c64bf7b1ce609df56a7f1ab1170e1ed): post-session debrief notes with observers, screen-specific feedback mapping, task-specific success/failure tracking, affinity mapping, analysis and synthesis, mental model mind maps
   - [Spreadsheet](https://docs.google.com/spreadsheets/d/1Wo8TDMxRVE3M7Wtc_HWiL0rsD8-S3EbLbRYAxNKONt0/edit?gid=1109817157#gid=1109817157): timestampled notes collection during sessions
+
+### Pages and applications used
+- [Prototype Apple](https://www.figma.com/proto/P6IUm8gN00H3Yi1XzN80fj/-526ez--Condition-information-entry?page-id=6174%3A18589&node-id=6225-28762&viewport=487%2C-7286%2C0.7&t=iysFGHlWrbJqCNTW-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6225%3A28762&show-proto-sidebar=1)
+- [Prototype Banana](https://www.figma.com/proto/P6IUm8gN00H3Yi1XzN80fj/-526ez--Condition-information-entry?page-id=6174%3A18589&node-id=6241-54179&viewport=487%2C-7286%2C0.7&t=iysFGHlWrbJqCNTW-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6241%3A54179&show-proto-sidebar=1)
+
+### Previous research on Conditions flow
+- [2025-06 New/Increase at Condition Level](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-06%20New%20or%20Increase%20at%20Condition%20Level/New%20or%20Increase%20at%20Condition%20level%20-%20Reseach%20Findings.md)
 
 ### Research participants 
 #### Recruitment criteria
