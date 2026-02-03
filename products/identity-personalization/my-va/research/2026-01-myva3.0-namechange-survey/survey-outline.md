@@ -1,4 +1,4 @@
-# Study outline for Authenticated Experience Team, My VA 3.0 name change, 01/2026
+# Survey outline for Authenticated Experience Team, My VA 3.0 name change, 01/2026
 
 ## Instruction email
 
