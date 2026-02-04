@@ -9,7 +9,7 @@ _Last updated: October 14, 2025 - added TOC, updates to security section_
 |Name|Role|
 |----|----|
 |Gene Dreyband |VES Lead|
-|Heather Widmont| Program Manager |
+|Raquel Eadie| Program Manager |
 |Anastasia Jakabcin|Product Manager|
 | Theo Bentum  | Engineering Lead | 
 | Mikal Ahmed | Fullstack Engineer |
