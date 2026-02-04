@@ -15,8 +15,8 @@
 ### WHAT'S NEXT
 - **PRODUCT**
 - **UX**
-- **SPRINT GOAL (UX):** Review non-Veteran login and My VA access patterns to ensure CHAMPVA applicants can view submission status without issue, proposing user flow updates as needed.
-- **SPRINT GOAL (UX):** Synthesize and document CHAMPVA status, rejection, and follow-up edge cases identified across UX and engineering work to inform future design and implementation.
+  - **SPRINT GOAL (UX):** Review non-Veteran login and My VA access patterns to ensure CHAMPVA applicants can view submission status without issue, proposing user flow updates as needed.
+  - **SPRINT GOAL (UX):** Synthesize and document CHAMPVA status, rejection, and follow-up edge cases identified across UX and engineering work to inform future design and implementation.
 - **ENG**
 
 
