@@ -16,7 +16,7 @@ Authenticated Experience
 
 What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?
 
-We are updating the name of My VA based on previous user feedback to incorporate a new title that is more recognizable by Veterans and aligned to their mental models.. My VA Dashboard will inform Veterans of their existing benefits with VA. 
+We are updating the name of My VA based on previous user feedback to incorporate a new title that is more recognizable by Veterans and aligned to their mental models. My VA Dashboard will inform Veterans of their existing benefits with VA. 
 
 [Implementation is being informed by prior usability study research.](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/research/2025-08-myva3.0-phase1-usabilitytesting) 
 
