@@ -17,7 +17,6 @@ See Roster [here](https://github.com/department-of-veterans-affairs/va.gov-team/
 - [Overview](#overview)
 - [Scope](#scope)
 - [User Outcomes](#user-outcomes)
-- [Measuring Success](#measuring-success)
 - [Key Dates](#key-dates)
 - [Security](#security)
 - [Screenshots](#screenshots)
@@ -53,8 +52,6 @@ Feedback this initiative addresses:
 - Users are confused by the results page
 - Users are confused or offended by the length of service question
 
-## Measuring Success
-TK
     
 ## Key Dates
 
