@@ -159,8 +159,8 @@ tags:
 - [Research participants](#research-participants)
 
 ## Context
-As a Veteran exits the service and enters the “Starting Up” and “Taking Care of Myself” life stages, they may look to claim disability benefits via the Disability Compensation form (VA Form 21-526EZ). This form is one of the longest on VA.gov, and navigation within the form is a major friction point. Veterans can only navigate the form by clicking the “Back” and “Continue” buttons and are unable to jump to previously completed sections. 
-
+As a Veteran exits the service and enters the “Starting Up” and “Taking Care of Myself” life stages, they may look to claim disability benefits via the Disability Compensation form (VA Form 21-526EZ). This form is one of the longest on VA.gov, and navigation within the form is a major friction point. Veterans can only navigate the form by clicking the “Back” and “Continue” buttons and are unable to jump to previously completed sections. </br>
+</br>
 This results in Veterans having to click these buttons multiple times to make changes or edit their responses in different sections of the form. Additionally, it's difficult for a Veteran to understand where they are in the form and how much of the form has been completed; the section titles, visual progress bar indicator, and number of questions are not neatly correlated. The current experience can feel overwhelming and cumbersome for Veterans. By implementing the following navigation designs, we hope to alleviate some of the frustrations that come with filling out this form. 
 
 ## Proposed Designs
@@ -169,6 +169,7 @@ This results in Veterans having to click these buttons multiple times to make ch
 
 ### Side Navigation (Concept 1)
 In our research, we tested two design concepts. The first concept is the VADS side navigation component implemented into the 526ez form. This will let Veterans jump to previously completed sections of the form, allowing them to review, add, or edit answers faster with fewer clicks. The side navigation will contain links to the landing pages of the 6 main steps of the form: (1) Veteran details, (2) Conditions, (3) Mental health statement, (4) Supporting evidence, (5) Additional information, (6) Review and submit. The navigation component also provides an overview of the steps in the form, helping create a sense of place and completion within the form. </br>
+</br>
 In this new design, the VADS segmented progress bar with step labels has been removed, so Veterans are not interacting with two different components that indicate their location in the form.
 On mobile devices, the side navigation component converts to an accordion that the Veteran can expand to view links to all the form's main sections.
 
