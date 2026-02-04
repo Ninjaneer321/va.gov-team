@@ -1,5 +1,5 @@
 # va-breadcrumbs Design Decisions
-Last updated: 28 January 2026
+Last updated: 4 Feb 2026
 
 - [ADR: 001 - Current page should be a link and look like a link](#ADR-001---Current-page-should-be-a-link-and-look-like-a-link)
 - [ADR: 002 - Make current page visually distinct with non-interactive styling](#ADR-002---Make-current-page-visually-distinct-with-non-interactive-styling)
