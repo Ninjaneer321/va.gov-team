@@ -1,12 +1,12 @@
 # va-breadcrumbs Design Decisions
 Last updated: 28 January 2026
 
-- [ADR: 001 - Current page should be both clickable and focusable and look like a link](#ADR-XXX---Current-page should-be-both-clickable-focusable-and-look-like-a-link)
+- [ADR: 001 - Current page should be a link and look like a link](#ADR-001---Current-page-should-be-a-link-and-look-like-a-link)
 - [ADR: XXX - DECISION LABEL](#ADR-XXX---Decision-Label)
 - [ADR: XXX - DECISION LABEL](#ADR-XXX---Decision-Label)
 
 
-## ADR 001 - Current page should be both clickable, focusable, and look like a link
+## ADR 001 - Current page should be a link and look like a link
 - a11y Discovery: Breadcrumb Link Cursor Event [#53331](https://github.com/department-of-veterans-affairs/va.gov-team/issues/53331)
 - Breadcrumb's current page styling should not remove pointer events [#1458](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/1458#issuecomment-1671807757)
 
