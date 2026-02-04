@@ -53,8 +53,8 @@ _Date of Data: Dec 1, 2025-Jan 31, 2026_
 | Documentation received                  | 6                    | 0.01%      |
 | **Grand Total**                          | **108996**            | **100%**   |
 
-  
-Data Source: [Link]()
+
+Data Source: [Link](https://dvagov.sharepoint.com/:x:/r/sites/AskVA/Shared%20Documents/General/AVA%20VA.gov%20Team/Research%20%26%20Design/CRM%20Data%20Reports/Elena%20Inquiry%202-2-2026%20Description%20Field%20On%20Resolved%20Inqs.xlsx?d=w61cab9775d08416597f2c64f8d248bf0&csf=1&web=1&e=dsvNYh)
 
 
 
