@@ -1,5 +1,13 @@
 # Identity Research
 
+## CY 2026
+
+| When            | Subject                 | Description          | Findings     |
+| :-------------  | :-------------          | :-------------       | :----------- |
+| Jan 2025 | Sign-in page updates | comparative analysis across government sign-in pages  | [findings report]() |
+| Feb 2025 |  Discovery into sign in looping errors | contextual inquiry with 8 remote sessions with veterans to walk through encountering sign in errors | in progress |
+| upcoming |  Sign-in page updates | remote, usibility testing  |  |
+
 ## CY 2025
 
 | When            | Subject                 | Description          | Findings     |
