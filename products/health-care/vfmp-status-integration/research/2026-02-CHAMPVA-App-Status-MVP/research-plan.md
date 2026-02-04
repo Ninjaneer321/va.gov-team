@@ -161,9 +161,6 @@ tags:
 
 </details>
 
-> [!TIP]
-> Delete priorities not supported by this research.
-
 ### [Veteran Journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
 
 <details><summary>Where does your product fit into the Veteran journey?
@@ -176,9 +173,6 @@ Are there moments that matter?</summary>
 - `Aging`
 
 </details>
-
-> [!TIP]
-> Delete journeys not supported by this research.
 
 ## Research Goals 🥅	
 `What are you trying to learn from this research?` 
@@ -199,7 +193,7 @@ Are there moments that matter?</summary>
 
 ---
 
-**[Enter outcome here]** 
+**This research will help us identify usability and content issues with the CHAMPVA Application Status prototype. We will use these insights to refine the design and content of these screens before they go into production as an extension of the Claims Status Tool. Ultimately, this will enable Veterans and beneficiaries to clearly understand their CHAMPVA Application status, know when and how to upload missing documents, and reduce long call center wait times.** 
 
 ---
 
