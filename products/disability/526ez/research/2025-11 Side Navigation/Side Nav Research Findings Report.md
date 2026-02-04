@@ -174,7 +174,7 @@ In this new design, the VADS segmented progress bar with step labels has been re
 On mobile devices, the side navigation component converts to an accordion that the Veteran can expand to view links to all the form's main sections.
 
 ![Screenshot of our Side Navigation (Concept 1) prototype, showing the desktop and mobile device versions on the first page of VA Form 21-526EZ Disability Compensation on VA.gov](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Context%20Section%20Side%20Nav.png)
-_Caption: Screenshot of our Side Navigation (Concept 1) prototype, showing the desktop and mobile device versions on the first page of VA Form 21-526EZ Disability Compensation on VA.gov_
+_Caption: Screenshot of our Side Navigation (Concept 1) prototype, showing the desktop and mobile device versions of the first page of Step 2: Conditions on VA Form 21-526EZ Disability Compensation on VA.gov_
 
 ### Process List (Concept 2)
 Our second design concept visually presents as a process list. This component includes features and treatment styles that more strongly differentiate between the steps that have been completed, the step the Veteran is currently on, and the steps they have yet to complete.
