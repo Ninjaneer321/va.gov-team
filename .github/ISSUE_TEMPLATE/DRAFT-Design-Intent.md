@@ -16,11 +16,12 @@ The [Design Intent touchpoint](https://depo-platform-documentation.scrollhelp.si
 ### :one: VFS team: schedule the meeting
 - [ ] Review [Design Intent Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent) to understand what this touchpoint involves.
 - [ ] Schedule your Design Intent (with at least 2 business days lead time from now):
-  - Open the [Calendly Design intent calendar](https://calendly.com/collaboration-cycle/design-intent-or-midpoint-review)
+  - Open the [Calendly Design intent calendar](https://calendly.com/collaboration-cycle/design-intent-or-midpoint-review){:target="_blank"} 
   - Select a date and time and click "Confirm"
   - Add your name and email
   - Click "Add Guests" and enter the email addresses for VFS team attendees
   - Click "Schedule Event"
+- [ ] Add meeting date/time:
 
 ### :two: VFS team: add links to artifacts at least 2 days before the meeting
 Link all artifacts **at least two business days** before the scheduled Design Intent. Please don't add artifacts in the comments section. [See guidance on Design Intent artifacts.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent#DesignIntent-Whatartifactswillbeneeded?)
