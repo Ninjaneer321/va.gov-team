@@ -398,7 +398,7 @@ When asked about skipping to a future step, all participants expressed an approa
     
 - During testing, all participants were able to distinguish the navigation component as having a different purpose from the Review and Submit page accordions.
 
-![Screenshot of the mobile accordion of the Side Navigation (Concept 1) prototype showing 'Step 6: Review and submit' of VA Form 21-526EZ. The left design shows the treatment for the closed accordion and the right design shows the treatment for the open accordion with the form steps, and include annotations to distinguish between open and closed.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Finding%20%237%20Image.png))
+![Screenshot of the mobile accordion of the Side Navigation (Concept 1) prototype showing 'Step 6: Review and submit' of VA Form 21-526EZ. The left design shows the treatment for the closed accordion and the right design shows the treatment for the open accordion with the form steps, and include annotations to distinguish between open and closed.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Finding%20%237%20Image.png)
     
 > “I would scroll to that portion [Conditions review accordion] and click edit, or I could just [use the] drop down from the “Select a step” [Navigation accordion component] and go back to the conditions, and then list it there.” -P10 (Mobile)
 
