@@ -224,8 +224,13 @@ For demographic details, see [Research participants](#user-content-research-part
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
 ### The interstitial page was NOT effective in communicating about save in progress because when it came up, most users were focused on filling out form fields and anything other than that was ignored
-Half of the participants ignored the interstitial page when it came up because it was an interruption to their task of filling out a VA form or because it didn't seem relevant while filling out the form. The wording included "after every change", one participant said didn't apply to what they were doing--filling out the form for the first time.
-- _Supporting data: Quote [add context]_  
+Half of the participants ignored the interstitial page when it came up because it was an unwelcome interruption to their task of filling out a VA form or because it didn't seem relevant. The wording on the page included "after every change", and one participant said it didn't apply to what they were doing, which was filling out the form for the first time.
+  > *"I'm focused on the task, getting a job done. Trying to get to the form, and I'm missing all the fine print" (p7).*
+
+  > *p8 was surprised by seeing the page instead of more form fields, which he felt was "bombarding somebody with the information in the beginning, if it's pertinent or not" (p8).*
+
+   > *"Where's my form? Let me fill it out...I read it and it didn't register, it didn't click" [that these were instructions to read] (p11).*
+
 - _Supporting data: ![description of the image (image)](link - add image to github folder and link here with .png)_  
 
 > **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
