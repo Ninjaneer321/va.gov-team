@@ -66,9 +66,9 @@ _What are the measurable targets you're aiming for that delivers value for Veter
   - Fillable fields with pre fill for signed in users
   - Digital signature with date stamp accepted by FMP team
   - PDF output of completed form with required meta data and unique identifier sent to IVC team
-    - Separate attachments are sent for each file and form
+  - Supporting documents and claims cover sheet are merged into one doc for submission
   - Integration with PEGA for forms and documents
-  - Authenticated (and unauthenticated) experience
+  - Authenticated only experience
   - End to end testing with PEGA and status returned by PEGA team
   - Needs to be able to be supported by existing back end processes
 --- 
@@ -78,11 +78,11 @@ _What are the measurable targets you're aiming for that delivers value for Veter
 
 ## Launch Dates
 - *Target Launch Date*
-  - tbd
+  - 2.11.26
 - *Actual Launch Date* 
   - tbd
 - *What date will you evaluate impact after launch (and when do you expect to have your Impact Review)?*
-  - tbd
+  - 3.25.26
 
 ---
 
@@ -92,9 +92,9 @@ _What are the measurable targets you're aiming for that delivers value for Veter
 - research and discovery kicked off, wifreframes in progress.
   
 Key deliverables:
-- [design](https://www.figma.com/design/WYZCqWcS2gJWIqLtmQlvl7/10-7959f-2?t=JFuJ5HNLfI80Cfef-0)
-- research:
-- testing plan:
+- [design]([https://www.figma.com/design/WYZCqWcS2gJWIqLtmQlvl7/10-7959f-2?t=JFuJ5HNLfI80Cfef-0](https://www.figma.com/design/EFGn2FrLQ5cws1mbD9kBqO/FMP-Claims-10-7959f-2-SOT?node-id=0-1&p=f&t=RGelBuTMYkfp9pZO-0))
+- [research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/foreign-medical-program/10-7959f-2/research/2025-10-FMP-Claims-Direct-Deposit-Content-Study)
+- [research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/foreign-medical-program/10-7959f-2/research/2025-10-FMP-Claims-Direct-Deposit-Content-Study/research-plan.md)
   
 ### Key Decisions
 - 1 payer per form
@@ -114,10 +114,10 @@ https://www.va.gov/find-forms/about-form-10-7959f-2/
 
 <details>
 
-- Team Name: IVC Forms
+- Team Name: Health Applications
 - GitHub Label: 10-7959f-2
-- Slack channel: ivc-forms
-- Product POCs: Mary Wang
+- Slack channel: health-apps
+- Product POCs: Andrea Merrill
 - Stakeholders: Andy S, Jennifer Rivera
 
 </details>
@@ -128,8 +128,8 @@ https://www.va.gov/find-forms/about-form-10-7959f-2/
  
  - DEPO Lead: Premal Shah
  - PM: Mary Wang
- - Engineering: Bryan Alexander, Rachel Eiting
- - Research/Design: Rachael Penfil, Brian Wilke
+ - Engineering: Kyle Brost, Matt Long
+ - Research/Design: Renata Keck, Jessica Stump, Hieu Vo
  
 </details>
 
