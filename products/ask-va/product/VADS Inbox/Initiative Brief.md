@@ -83,7 +83,7 @@ Data Example (Dec 1 - Dec 31, 2025)
 ## Qualitative Monitoring
 |Key result|Baseline (ask.va.gov)|After X months|
 |:---|:---|:---|
-|Increase of qualitative feedback of "general" theme|x|x|
+|Increase of positive qualitative feedback|Dec 25 - 7% |x|
 |Decrease qualitative feedback of "overcomplicated inbox" theme|x|x|
 
 ## Release plan (to be determined)
