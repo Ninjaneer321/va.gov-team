@@ -1,4 +1,4 @@
-# Research Plan for Authenticated Experience Team, My VA 3.0 name change, 01/2026
+# Research Plan for Authenticated Experience Team, My VA 3.0 name change survey, 01/2026
 
 ## Background 🏗️
 
