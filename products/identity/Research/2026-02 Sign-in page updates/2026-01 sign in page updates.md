@@ -53,4 +53,31 @@ If and when usability issues are identified through user research or analytics t
 
 ## Appendix - screen shots of agency sign-in pages
 
-![USDA sign-in page](./2026-02 screen captures for sign-in page comparative analysis/USDA sign in page.png)
+### Sign in page with multiple options to sign in
+1. USDA sign-in page, two sign in options and a link above those to create an account
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-02%20screen%20captures%20for%20sign-in%20page%20comparative%20analysis/USDA%20sign%20in%20page.png" width="500"/>
+
+### Sign-in pages with a single option to sign in
+1. California Department of Tax sign-in page with one sign in option and a button underneath to create account  
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-02%20screen%20captures%20for%20sign-in%20page%20comparative%20analysis/CA%20department%20of%20tax%20sign%20in%20page.png" width="350"/>
+2. E-Verify sign-in page with one sign in option and a link underneath to create account  
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-02%20screen%20captures%20for%20sign-in%20page%20comparative%20analysis/Everify%20sign%20in%20page.png" width="450"/>
+3. FAFSA sign-in page with one sign in option and a link underneath to create account  
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-02%20screen%20captures%20for%20sign-in%20page%20comparative%20analysis/FAFSA%20sign%20in%20page.png" width="450"/>
+4. IRS sign-in page with one sign in option and a button underneath to create account 
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-02%20screen%20captures%20for%20sign-in%20page%20comparative%20analysis/IRS%20sign%20in%20page.png" width="450"/>
+5. Citizenship and Immigration Services sign-in page with one sign in option and a button underneath to create account 
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-02%20screen%20captures%20for%20sign-in%20page%20comparative%20analysis/Imigration%20sign%20in%20page.png" width="450"/>
+6. Kentuky online gateway sign-in page with one sign in option and a link underneath to create account
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-02%20screen%20captures%20for%20sign-in%20page%20comparative%20analysis/Kentuky%20online%20sign%20in%20page.png" width="350"/>
+7. Medicare sign-in page with one sign in option and a button to the right to create account
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-02%20screen%20captures%20for%20sign-in%20page%20comparative%20analysis/Medicare%20sign%20in%20page.png" width="450"/>
+8. NY Department of Tax sign-in page with one sign in option and a button underneath to create account 
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-02%20screen%20captures%20for%20sign-in%20page%20comparative%20analysis/NY%20department%20of%20tax%20sign%20in%20page.png" width="450"/>
+9. Ohio ID sign-in page with one sign in option and a button underneath to create account 
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-02%20screen%20captures%20for%20sign-in%20page%20comparative%20analysis/Ohio%20ID%20sign%20in%20page.png" width="350"/>
+10. Texas sign-in page with one sign in option and a button underneath to create account 
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-02%20screen%20captures%20for%20sign-in%20page%20comparative%20analysis/Texas%20sign%20in%20page.png" width="350"/>
+11. US Mint sign-in page with one sign in option and a button to the right to create account 
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-02%20screen%20captures%20for%20sign-in%20page%20comparative%20analysis/US%20Mint%20sign%20in%20page.png" width="550"/>
+
