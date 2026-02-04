@@ -49,7 +49,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
   - zero silent failures
   - callback error rate < 1%
 - Links to the dashboard(s) showing "success criteria" metrics: [ivc-champva-forms](https://vagov.ddog-gov.com/dashboard/zsa-453-at7/ivc-champva-forms?fromUser=false&refresh_mode=weekly&from_ts=1734391252265&to_ts=1734709253529&live=true)
-- Who is monitoring the dashboard(s)?: [FILL_IN]
+- Who is monitoring the dashboard(s)?: Andrea Merrill, Kyle Brost
 
 ### Stage A: Canary - 2/11/2026
 
