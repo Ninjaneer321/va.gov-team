@@ -3,7 +3,7 @@ Every other Wednesday at 2:35pm ET
 
 ### 2/4/26
 
-**Attendees: **
+**Attendees:**
 
 * Hieu V, Jessica S, Renata K, Andrea M, Mike M, John R, Premal S,
 * Anne R, Melissa C, Cindy C, Eileen C, Rachel D, David G, Messlia J, Kelly J, Luke L, Idris M, Christine 
