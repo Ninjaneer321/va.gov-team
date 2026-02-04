@@ -188,11 +188,11 @@ Are there moments that matter?</summary>
 
 ### Goals
 
-`1.` **[Enter answer here]**
+`1.` **Identify any usability issues or confusing language in the CHAMPVA Application Status prototype.**
 
-`2.` **[Enter answer here]**
+`2.` **Identify any confusion or assumptions caused by including CHAMPVA Applications alongside Claims and Appeals in the status tool**
 
-`3.` **[Enter answer here]** 
+`3.` **Determine whether or not Veterans and beneficiaries are able to understand the status of their application and upload requested documents using the CHAMPVA Application Status prototype**
   
 ### Outcome
 `How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
@@ -213,18 +213,20 @@ Are there moments that matter?</summary>
   
 `Does this question serve the goals of my study?`
 
-**`1.`[Enter Q1]**
+**`1.` How do participants interpret the inclusion of CHAMPVA applications within the status tool? What do they expect to be included in the status tool based on the front page?**
 
-**`2.`[Enter Q2]**
+**`2.` How do Veterans understand the application status for each of their beneficiaries based on the information presented in the status tool?**
 
-**`3.`[Enter Q3]**
+**`3.` How do beneficiaries understand the status of their application based on the information presented in the status tool?**
 
-**`4.`[Enter Q4]**
+**`4.` How do participants interpret the steps presented in the status tool? How do they interpret the steps in order to build a mental model of how CHAMPVA applications are processed?**
 
-**`5.`[Enter Q5]**
+**`5.` When participants receive an evidence request, are they able to easily understand how to upload the requested documents and why they're being asked for those documents?**
 
-> [!TIP]
->Enter more questions as needed
+**`6.` When one beneficiary on an application is deemed eligible, and the other has a pending evidence request – how do participants understand what next steps to take? Does the status of the application make sense to them?**
+
+**`7.` What are opportunities to help participants understand the status of their CHAMPVA application?**
+
 
 ### Hypotheses
 > [!NOTE]
@@ -417,22 +419,22 @@ We would like to have a non-AT user pilot, and 2 AT user pilot (1 screen reader,
 - `Date and time of pilot session:` 
 
 ### Research sessions
-- `Planned dates of research:` **Wednesday, Aug 6 - Tuesday, August 26**
+- `Planned dates of research:` **Wednesday, March 11 - Tuesday, March 17**
 
 ### Length of sessions
 - `Session length:` 60 minutes for non-AT users, 90 minutes for AT users
   
 - `Buffer time between sessions:` 30 minutes
   
-- `Maximum Sessions per day:` 5 per day
+- `Maximum Sessions per day:` 3 per day
 
 ### Availability
-> - `Monday - Friday 8:00am-5:00pm ET`
+> - `Monday - Friday 11:30am-4:30pm ET`
 
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
 - `Moderator:` Alyssa Li and Chantale Hedgeman
-- `Research guide writing and task development:` Alyssa Li and Chantale Hedgeman
+- `Research guide writing and task development:` Alyssa Li 
 - `Participant recruiting & screening:`	Perigean	
 - `Project point of contact:` Alyssa Li and Chantale Hedgeman
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` TBD (will link to ADE intake ticket when opened)
