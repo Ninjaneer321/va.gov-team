@@ -35,7 +35,7 @@ research_questions:
 
 hypotheses:
   - "Veterans use 'looping' to describe multiple distinct technical issues, not a single failure pattern."
-  - "Sign-in looping is more likely with specific credential providers (Login.gov, ID.me, DS Logon, My HealtheVet) and/or specific device/browser combinations."
+  - "Sign-in looping is more likely with specific credential providers (Login.gov, ID.me) and/or specific device/browser combinations."
   - "Most Veterans who experience looping have not successfully resolved the issue and have developed workarounds or abandoned certain VA digital services."
   - "Veterans who experience sign-in looping lack clear error messages or guidance, leaving them uncertain about what went wrong or how to fix it."
 
