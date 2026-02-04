@@ -378,7 +378,7 @@ When asked about skipping to a future step, all participants expressed an approa
 
 > “It's not letting me click on the one that says Step 6. It doesn't allow me to do so. Why I think that is, it wants you to fill out these steps, and because you really can't review anything without providing information to the VA...they don't want you to move on to the last step, because…it's kind of like a moot point, because without internal information [there would be no information to review].” - P8 (Mobile)
 
-### Finding #6: 3 out of 8 participants had difficulty navigating back to edit answers when navigation steps did not clearly map to individual pages.
+### Finding #6: Some participants (3 out of 8) had difficulty navigating back to edit answers when navigation steps did not clearly map to individual pages.
 
 - Participants’ ability to navigate back and edit answers was affected by a mismatch between the steps shown in the navigation and the multiple pages contained within each step, making it harder to identify where to return to change specific information.
     
@@ -522,8 +522,8 @@ This section will be revisited after the Product Outline and Initiative Brief ar
 
 For the Process List design:
 
-- **Assistive Technology Testing**
-  - Conduct AT testing and accessibility audits to validate the front-end and back-end requirements for screen reader and screen magnifier users 
+- **Usability Testing with AT Users**
+  - Conduct usability testing with AT users to validate the front-end experience and capture back-end requirements for screen reader and screen magnifier users 
 
 
 (As mentioned in our recommendations:)
