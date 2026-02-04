@@ -237,14 +237,12 @@ Please list the names of people in each role. In the Slack study channel, send a
 
 ## Appendix
 
-Jump to:
-
 [Instruction email](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2026-01-myva3.0-namechange-survey/survey-outline.md#instruction-email)
 
-[Survey structure](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2026-01-myva3.0-namechange-survey/survey-outline.md#instruction-email)
+[Survey structure](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2026-01-myva3.0-namechange-survey/survey-outline.md#survey-structure)
 
 Perigean completion codes (To be added)
 
 Analysis (To be added)
 
-[Laws related to this work](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2026-01-myva3.0-namechange-survey/survey-outline.md#instruction-email)
+[Laws related to this work](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2026-01-myva3.0-namechange-survey/survey-outline.md#laws-related-to-this-work)
