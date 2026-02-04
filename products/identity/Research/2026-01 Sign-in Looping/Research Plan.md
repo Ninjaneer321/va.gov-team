@@ -43,8 +43,7 @@ expected_outcomes: "A user-centered taxonomy of 'looping' experiences plus corre
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "Targeted recruitment + lean maximum variation within a qualifying pool of Veterans who experienced looping in the last 3 months."
+  approach: "Targeted recruitment based on list of Veterans who have reported this issue and who stated they are willing to speak with the Identity team."
 
   primary_criteria:
     - "Veteran who has experienced sign-in looping or repeated authentication failures on VA.gov or VA mobile apps within the past 3 months."
@@ -77,18 +76,14 @@ recruitment:
       qualifying_response: "Any (do not disqualify; used for planning)."
 
 participants:
-  veterans: 12
+  veterans: 6
   caregivers: 0
   dependents: 0
-  total_recruited: 12
-  completed_sessions_goal: 8
+  completed_sessions_goal: 5
 
 # Timeline & Sessions
 timeline:
-  pilot_date: "2026-02-10"
-  pilot_participant: "TBD (team member who has experienced or can simulate the issue)"
   research_dates: "2026-02-12 to 2026-02-21"
-  research_review_submission: "2026-02-03"
 
 session_details:
   duration_minutes: 60
@@ -142,9 +137,6 @@ tags:
 ---
 
 # Research Plan for Sign-In Looping Investigation, Identity Team, February 2026
-
-> [!NOTE]
-> *Questions about how to set up your research study? Reach out in the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel.* 
 
 ## Background 🏗️
 <details><summary>Briefly describe the background of your product.</summary>
@@ -274,7 +266,6 @@ Sign-in authentication is a critical gateway that supports Veterans across multi
 ---
   
 ## Methodology  🛠️
-***Describe the method you're planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.*** 
 
 **Semi-structured interviews with optional issue recreation**
 
