@@ -4,19 +4,21 @@
 
 ### Sprint Goal summary
 
-- **SPRINT GOAL (All):** Align on cross-team knowledge and working agreements through continued onboarding and conversations with Claims Status Tool and Health Apps teams.
-- **SPRINT GOAL (Eng):** Implement CHAMPVA submission-level statuses in My VA, including follow-ups from Sprint 1 work.
-- **SPRINT GOAL (Eng):** Explore feasibility of reusing or forking the Claims Status Tool codespace for VFMP Health Status Tool prototyping and accessibility-friendly user testing.
-- **SPRINT GOAL (Eng):** Deepen understanding of CST and Health Apps systems through targeted documentation review and engineer-to-engineer conversations.
-- **SPRINT GOAL (UX):** Continue design and documentation onboarding while staying aligned with VA UX on C+IA follow-ups and Design Intent outcomes.
-- **SPRINT GOAL (UX):** Partner with VA UX to review MVP usability research, including determining prototype and recruitment alignment.
+- **SPRINT GOAL (Product):** Create and socialize a delivery roadmap through the end of the Period of Performance (July).
+- **SPRINT GOAL (Eng):** Implement and make reviewable CHAMPVA submission-level statuses in My VA.
+- **SPRINT GOAL (UX):** Explore and document potential user flow for Status Tool User with a 10-10d submission rejected due to missing OHI
+- **STRETCH GOAL (UX):** Review and provide content feedback on CHAMPVA send-back letters shared by the VA team.
+
 
 
 ##
 ### WHAT'S NEXT
-- **FE**
+- **PRODUCT**
 - **UX**
-- **BE**
+- **SPRINT GOAL (UX):** Review non-Veteran login and My VA access patterns to ensure CHAMPVA applicants can view submission status without issue, proposing user flow updates as needed.
+- **SPRINT GOAL (UX):** Synthesize and document CHAMPVA status, rejection, and follow-up edge cases identified across UX and engineering work to inform future design and implementation.
+- **ENG**
+
 
 
 
