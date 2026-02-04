@@ -37,6 +37,7 @@ Optional:
 - [ ] Research plan
 
 ### Governance Team actions
+- [ ] Add link to Collaboration Cycle ticket
 - [ ] Add link to Slack thread
 
 ## During the meeting
