@@ -7,7 +7,6 @@
 - **SPRINT GOAL (Product):** Create a delivery roadmap through the end of the Period of Performance (July).
 - **SPRINT GOAL (Eng):** Implement CHAMPVA submission-level statuses in My VA.
 - **SPRINT GOAL (UX):** Explore, document, and share potential user flow for Status Tool User with a 10-10d submission rejected due to missing OHI.
-- **STRETCH GOAL (UX):** Review and provide feedback on CHAMPVA send-back letters shared by the VA team, and how they might influence the Status Tool.
 
 
 
@@ -17,6 +16,8 @@
 - **UX**
   - **SPRINT GOAL (UX):** Review non-Veteran login and My VA access patterns to ensure CHAMPVA applicants can view submission status without issue, proposing user flow updates as needed.
   - **SPRINT GOAL (UX):** Synthesize and document CHAMPVA status, rejection, and follow-up edge cases identified across UX and engineering work to inform future design and implementation.
+  - **STRETCH GOAL (UX):** Review and provide feedback on CHAMPVA send-back letters shared by the VA team, and how they might influence the Status Tool.
+
 - **ENG**
 
 
