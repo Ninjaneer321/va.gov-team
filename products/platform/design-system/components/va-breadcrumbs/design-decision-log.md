@@ -2,7 +2,7 @@
 Last updated: 28 January 2026
 
 - [ADR: 001 - Current page should be a link and look like a link](#ADR-001---Current-page-should-be-a-link-and-look-like-a-link)
-- [ADR: XXX - DECISION LABEL](#ADR-XXX---Decision-Label)
+- [ADR: 002 - Make current page/language visually distinct with non-interactive styling](#ADR-002---Make-current page-visually-distinct-with-non-interactive-styling)
 - [ADR: XXX - DECISION LABEL](#ADR-XXX---Decision-Label)
 
 
@@ -63,9 +63,9 @@ The current page in navigation components (pagination, breadcrumbs, and similar 
 
 ---
 
-## ADR 002 - Make Current Page/Language Visually Distinct with Non-Interactive Styling
-[Decision to proceed with non-interactive styling for the language toggle](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/3605#issuecomment-2552177861)
-Design ticket to update the breacrumbs to align the designs
+## ADR 002 - Make current page visually distinct with non-interactive styling
+- [Decision to proceed with non-interactive styling for the language toggle](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/3605#issuecomment-2552177861)
+- [Design] Update design for current links in breadcrumbs [#3759](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/pull/5631)
 
 
 ### Status: APPROVED
