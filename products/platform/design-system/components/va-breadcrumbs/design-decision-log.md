@@ -51,12 +51,13 @@ The current page in navigation components (pagination, breadcrumbs, and similar 
 
 #### Positive
 
-- Accessibility: Screen readers and keyboard users have consistent access; meets WCAG 2.1 Level AA requirements
-- User Experience: Consistent interaction patterns across all input methods; aligns with major government design systems
+- **Accessibility:** Screen readers and keyboard users have consistent access; meets WCAG 2.1 Level AA requirements
+- **User Experience:** Consistent interaction patterns across all input methods; aligns with major government design systems
 
 #### Negative
 
-- User Confusion: Some users may question clicking a link to the current page; risk of unintended page refreshes
+- **User Confusion:** Some users may question clicking a link to the current page; risk of unintended page refreshes
+- **Counter-intuitive Design:** Styling suggests "you are not here" (static) since appearance looks like you can navigate somewhere else
 
 ### Open Questions
 
@@ -72,29 +73,33 @@ The current page in navigation components (pagination, breadcrumbs, and similar 
 - Decision date: December 18, 2024
 
 ### Context
-During accessibility review of the language toggle component, concerns were raised that using only bold text as a visual indicator may not provide sufficient distinction for visually impaired users to identify the currently active page or language option. Similar concerns apply to breadcrumb components where the current page needs clear visual differentiation from clickable links.
+During a accessibility review of the language toggle component, concerns were raised that using only bold text as a visual indicator may not provide sufficient distinction for visually impaired users to identify the currently active page or language option. Similar concerns apply to breadcrumb components where the current page needs clear visual differentiation from clickable links.
 
-The team examined the WCAG example breadcrumb for guidance and saw similiarties between the language toggle and the breadcrumbs in that they both use links to the current page when you are on the current page.
+The DST design team met to discuss this matter, taking into account WCAG accessibility requirements and similarities to breadcrumb patterns. The team examined the WCAG example breadcrumb for guidance.
+
+For better usability and user experience, the page/language that is currently active and displayed to the user should differ in appearance from other links that are active (clickable). Users may be confused if they see what appears to be a link but clicking it does nothing.
 
 ### Decision
-This approach follows the [WCAG example by making the current page text black in color](https://www.w3.org/WAI/ARIA/apg/patterns/breadcrumb/examples/breadcrumb/), providing clear visual differentiation while maintaining an inert (non-interactive) state for better usability and avoiding user confusion.
+This approach follows the [WCAG example by making the current page text black in color](https://www.w3.org/WAI/ARIA/apg/patterns/breadcrumb/examples/breadcrumb/), providing clear visual differentiation while maintaining an inert (non-interactive) design for better usability and avoiding user confusion.
+
+For the currently active page/language in selection/state components (language toggles):
+
+- Keep the element as a functional link (clickable and focusable) for accessibility and robustness
+- Style to appear non-interactive using: bold text, black color, and underlined
+- Do not move or shift layout to accommodate visual indicators (bar or icon)
 
 ### Consequences
 
 #### Positive
 
-- Visual Clarity: Bold, black, underlined styling provides clear visual distinction beyond color alone; meets WCAG requirements for multiple visual indicators
-- Accessibility: Maintains link functionality so screen readers can announce the current page regardless of navigation method (by element or by tabbing)
-- Robustness: Functional link ensures consistent behavior across all assistive technologies
-- Consistency: Aligns with WCAG example breadcrumb pattern and accessibility best practices
-- Layout Stability: No movement or layout shift ensures stable, predictable interface
-- Keyboard Access: Full keyboard accessibility maintained for all users
+- **Visual Clarity:** Bold, black, underlined styling provides clear visual distinction beyond color alone; meets WCAG requirements for multiple visual indicators
+- **Accessibility:** Maintains link functionality so screen readers can announce the current page regardless of navigation method (by element or by tabbing)
 
 #### Negative
 
-- Visual Expectation Mismatch: Element looks non-interactive (black, bold) but is actually clickable, which may confuse some users
-- Unintended Refreshes: Users may accidentally click the current page link and trigger an unwanted page reload
-- Counter-intuitive Design: Styling suggests "you are here" (static) while behavior allows clicking (dynamic)
-- Cursor Inconsistency: May need to decide whether to show pointer cursor (indicating clickability) or default cursor (matching visual non-interactive appearance)
+- **Visual Expectation Mismatch:** Element looks non-interactive (black, bold) but is actually clickable, which may confuse some users
+- **Unintended Refreshes:** Users may accidentally click the current page link and trigger an unwanted page reload
+- **Counter-intuitive Design:** Styling suggests "you are here" (static) while behavior allows clicking (dynamic)
+- **Cursor Inconsistency:** May need to decide whether to show pointer cursor (indicating clickability) or default cursor (matching visual non-interactive appearance)
 
 ### Open Questions
