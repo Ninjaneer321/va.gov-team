@@ -186,7 +186,7 @@ For demographic details, see [Research participants](#user-content-research-part
 ## Hypotheses and Conclusions
 
 1. With the new design, Veterans are confident that their form data will be saved.
-    - **Definitely False** because most participants said they would lose the information they entered if they didn't use the Finish later button or submit the form. They didn't realize that the form was saving their information every time they moved onto the next field.
+    - **Definitely False** because most participants said they would lose the information they entered if they didn't click the Finish later button or submit the form. They didn't realize that the form was saving their information every time they moved onto the next field.
 1. Telling Veterans about auto saving after the first form page is a time when they are receptive and likely to remember.
     - **Definitely False** because most participants skipped past the interstitial page in their zeal to fill out the form. 
 1. With the new design, Veterans will be able to stop filling out a form, get signed out, and then resume filling out a form.
@@ -211,7 +211,7 @@ For demographic details, see [Research participants](#user-content-research-part
 1. Most users didn't understand that saving was happening all the time, as they assumed it would only happen after clicking the Finish later button or submitting the form.
 1. Most users would like their form data to be saved all the time, and they were pleasantly surprised when they heard that VA forms do this. 
 1. All 7 participants used the Finish later button to stop filling out the form, and successfully resumed by signing in and then using the My VA page. 
-1. All 6 participants who interacted with the accordions on the Review/Submit page were able to easily open and close them.
+1. All 6 participants who interacted with the accordions on the Review/Submit page were able to easily open and close them with the controls on the left side (instead of the right).
 1. Finding six
 1. Finding seven
 
@@ -223,8 +223,8 @@ For demographic details, see [Research participants](#user-content-research-part
 > **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
-### Finding 1
-Brief description  
+### The interstitial page was NOT effective in communicating about save in progress because when it came up, most users were focused on filling out form fields and anything other than that was ignored
+Half of the participants ignored the interstitial page when it came up because it was an interruption to their task of filling out a VA form or because it didn't seem relevant while filling out the form. The wording included "after every change", one participant said didn't apply to what they were doing--filling out the form for the first time.
 - _Supporting data: Quote [add context]_  
 - _Supporting data: ![description of the image (image)](link - add image to github folder and link here with .png)_  
 
