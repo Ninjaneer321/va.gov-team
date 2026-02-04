@@ -165,7 +165,7 @@ This results in Veterans having to click these buttons multiple times to make ch
 
 ## Proposed Designs
 > [!NOTE]
-> We incorrectly used the term “Review and Submit” as the heading for Step 6 in our prototype designs and throughout this report, which is incorrect. The correct heading in production is “Review application.”
+> We incorrectly used the term “Review and Submit” as the heading for Step 6 in our prototype designs and throughout this report. The correct heading in production is “Review application.”
 
 ### Side Navigation (Concept 1)
 In our research, we tested two design concepts. The first concept is the VADS side navigation component implemented into the 526ez form. This will let Veterans jump to previously completed sections of the form, allowing them to review, add, or edit answers faster with fewer clicks. The side navigation will contain links to the landing pages of the 6 main steps of the form: (1) Veteran details, (2) Conditions, (3) Mental health statement, (4) Supporting evidence, (5) Additional information, (6) Review and submit. The navigation component also provides an overview of the steps in the form, helping create a sense of place and completion within the form.
