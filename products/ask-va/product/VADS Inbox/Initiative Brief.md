@@ -70,20 +70,21 @@ Objectives and Key results (OKRs) help us measure success of specific targeted o
 This initiative aligns with the following 2025 OCTO OKRs: 
 - Objective 1: VA’s digital experiences are the easiest and most efficient way to access VA health care and benefits.
    - Key result 1 (Satisfaction): Improve satisfaction with our web and mobile products by 5 points.
-
+ 
+## Quantitative Monitoring
 |Key result|Baseline (ask.va.gov)|After X months|
 |:---|:---|:---|
 |Satisfaction|January 2025: 23%|x|
-|Decrease in dissatisfied feedback re; inbox usability|x|x|
-
-How to measure decrease in dissatisfied feedback re; inbox usability = monthy count of dissatisfied feedback comments.
-
-Should we isoloate this data per user to identify subset of users that remain  dissatisfied?
 
 - Monitor average engagement time per active user, determine metric target
 Data Example (Dec 1 - Dec 31, 2025)
 <img width="1990" height="633" alt="image" src="https://github.com/user-attachments/assets/8929cf5f-9b32-4a1f-9b1b-d95d2ba91548" />
 
+## Qualitative Monitoring
+|Key result|Baseline (ask.va.gov)|After X months|
+|:---|:---|:---|
+|Increase of qualitative feedback of "general" theme|x|x|
+|Decrease qualitative feedback of "overcomplicated inbox" theme|x|x|
 
 ## Release plan (to be determined)
 [input release plan]

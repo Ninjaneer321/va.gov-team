@@ -1,7 +1,6 @@
 ---
 name: Authenticated Experience UX Template
-about: Basic template for creating Authenticated Experience Profile team phased releases
-  using a feature flag
+about: Basic template for creating Authenticated Experience Profile team UX issues
 title: UX |[Project] | Title
 labels: needs-refinement, ux, authenticated-experience
 assignees: 

@@ -1,0 +1,248 @@
+# .github/workflows/diversity-data-extraction.yml
+#
+# Purpose: Extract participant demographic data from research findings reports
+# and aggregate for quarterly participant data reporting. Runs at the end of each quarter
+# and tracks processed files to avoid duplication.
+#
+# Repository: va.gov-team (with sparse checkout)
+# Reports pushed to: va.gov-research-repository/reports/quarterly-reports/participant-data/
+
+name: Participant Data Extraction
+
+on:
+  schedule:
+    # Run on first day after each quarter ends at 8:00 AM ET (13:00 UTC)
+    # Q1 (Jan-Mar) report runs April 1
+    # Q2 (Apr-Jun) report runs July 1
+    # Q3 (Jul-Sep) report runs October 1
+    # Q4 (Oct-Dec) report runs January 1
+    - cron: '0 13 1 1,4,7,10 *'
+  workflow_dispatch:
+    inputs:
+      full_scan:
+        description: 'Force reprocessing of all files (ignores processed manifest)'
+        required: false
+        default: 'false'
+        type: boolean
+      quarter:
+        description: 'Specific quarter to process (e.g., 2026-Q1). Leave empty for auto-detect.'
+        required: false
+        default: ''
+        type: string
+      dry_run:
+        description: 'Test run - do not push to research repository'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  extract-diversity-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Sparse Checkout - Research Findings Only
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          sparse-checkout: |
+            products/**/research
+            teams/**/research
+            .github/scripts
+          sparse-checkout-cone-mode: false
+          fetch-depth: 1
+
+      - name: Fetch git history for file dates
+        run: |
+          git fetch --deepen=500 origin master || true
+          echo "Fetched additional git history for file date detection"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install js-yaml glob
+
+      - name: Clone research repository for manifest
+        id: clone-repo
+        env:
+          GH_TOKEN: ${{ secrets.WORKFLOWS_PERMISSIONS }}
+        run: |
+          mkdir -p research-repo/reports/quarterly-reports/participant-data
+          
+          echo "Cloning research repository..."
+          if git clone --depth 1 --branch main https://x-access-token:${GH_TOKEN}@github.com/department-of-veterans-affairs/va.gov-research-repository.git research-repo-temp 2>/dev/null || \
+             git clone --depth 1 --branch master https://x-access-token:${GH_TOKEN}@github.com/department-of-veterans-affairs/va.gov-research-repository.git research-repo-temp; then
+            echo "Successfully cloned research repository"
+            rm -rf research-repo
+            mv research-repo-temp research-repo
+            echo "repo_cloned=true" >> $GITHUB_OUTPUT
+            mkdir -p research-repo/reports/quarterly-reports/participant-data
+          else
+            echo "::error::Failed to clone research repository. Check that WORKFLOWS_PERMISSIONS token is valid."
+            exit 1
+          fi
+          
+          if [ ! -f "research-repo/reports/quarterly-reports/participant-data/processed-files.json" ]; then
+            echo '{"processed_files": [], "last_updated": null, "quarters_processed": []}' > research-repo/reports/quarterly-reports/participant-data/processed-files.json
+            echo "Created new empty manifest"
+          fi
+
+      - name: Extract demographic data from findings
+        id: extract
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { run } = require('./.github/scripts/participant-data-extraction.js');
+            const globModule = require('glob');
+            const fullScan = '${{ github.event.inputs.full_scan }}' === 'true';
+            const inputQuarter = '${{ github.event.inputs.quarter }}' || '';
+            await run({ globModule, core, fullScan, inputQuarter });
+
+      - name: Verify generated files
+        id: verify
+        run: |
+          QUARTER_LABEL="${{ steps.extract.outputs.quarter_label }}"
+          echo "Quarter label: ${QUARTER_LABEL}"
+          
+          if [ -z "$QUARTER_LABEL" ]; then
+            echo "::error::Quarter label is empty!"
+            exit 1
+          fi
+          
+          echo "Looking for generated files..."
+          ls -la participant-data-* || echo "No participant data files found in current directory"
+          
+          if [ -f "participant-data-summary-${QUARTER_LABEL}.md" ]; then
+            echo "summary_exists=true" >> $GITHUB_OUTPUT
+            echo "Found diversity-summary-${QUARTER_LABEL}.md"
+          else
+            echo "summary_exists=false" >> $GITHUB_OUTPUT
+            echo "::error::Missing participant-data-summary-${QUARTER_LABEL}.md"
+            exit 1
+          fi
+          
+          if [ -f "participant-data-${QUARTER_LABEL}.json" ]; then
+            echo "data_exists=true" >> $GITHUB_OUTPUT
+            echo "Found participant-data-${QUARTER_LABEL}.json"
+          else
+            echo "data_exists=false" >> $GITHUB_OUTPUT
+            echo "::error::Missing participant-data-${QUARTER_LABEL}.json"
+            exit 1
+          fi
+
+      - name: Upload diversity data artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: participant-data-${{ steps.extract.outputs.quarter_label }}
+          path: |
+            participant-data-summary.md
+            participant-data.json
+          retention-days: 90
+
+      - name: Determine if push should happen
+        id: should-push
+        run: |
+          DRY_RUN="${{ github.event.inputs.dry_run }}"
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "is_dry_run=true" >> $GITHUB_OUTPUT
+            echo "Dry run mode - will NOT push"
+          else
+            echo "is_dry_run=false" >> $GITHUB_OUTPUT
+            echo "Will push reports to research repository"
+          fi
+
+      - name: Push reports to va.gov-research-repository
+        if: steps.should-push.outputs.is_dry_run != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.WORKFLOWS_PERMISSIONS }}
+        run: |
+          cd research-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          QUARTER_LABEL="${{ steps.extract.outputs.quarter_label }}"
+          echo "Pushing reports for quarter: ${QUARTER_LABEL}"
+          
+          mkdir -p reports/quarterly-reports/participant-data
+          
+          echo "Copying report files..."
+          cp -v "../participant-data-summary-${QUARTER_LABEL}.md" "reports/quarterly-reports/participant-data/participant-data-summary-${QUARTER_LABEL}.md"
+          cp -v "../participant-data-${QUARTER_LABEL}.json" "reports/quarterly-reports/participant-data/participant-data-${QUARTER_LABEL}.json"
+          cp -v "../participant-data-summary-${QUARTER_LABEL}.md" "reports/quarterly-reports/participant-data/participant-data-summary-latest.md"
+          cp -v "../participant-data-${QUARTER_LABEL}.json" "reports/quarterly-reports/participant-data/participant-data-latest.json"
+          
+          if [ ! -f "reports/quarterly-reports/participant-data/README.md" ]; then
+          cat > reports/quarterly-reports/participant-data/README.md << 'READMEEOF'
+          # Diversity Reports
+
+          This folder contains automatically generated quarterly participant-data reports from research findings.
+
+          ## Report Files
+
+          - `participant-data-summary-latest.md` - Most recent quarterly summary report
+          - `participant-data-latest.json` - Most recent data in JSON format
+          - `processed-files.json` - Manifest tracking all processed research files
+          - Quarter-specific reports (e.g., `participant-data-summary-2026-Q1.md`) are retained for historical tracking
+
+          ## Data Source
+
+          These reports are automatically generated from research findings in the va.gov-team repository.
+          They aggregate participant demographic data for quarterly diversity reporting.
+
+          ## Update Schedule
+
+          Reports are generated quarterly:
+          - Q1 (Jan-Mar) report runs on April 1
+          - Q2 (Apr-Jun) report runs on July 1
+          - Q3 (Jul-Sep) report runs on October 1
+          - Q4 (Oct-Dec) report runs on January 1
+
+          ## File Tracking
+
+          The workflow maintains a manifest (`processed-files.json`) to track which research files have been
+          processed. This ensures each study is only counted once and prevents duplication across quarters.
+          READMEEOF
+          fi
+          
+          echo "Files to be committed:"
+          git status
+          
+          git add reports/
+          
+          if git diff --cached --quiet; then
+            echo "::warning::No changes detected after staging files"
+            ls -la reports/quarterly-reports/diversity-reports/
+          else
+            echo "Changes detected, committing..."
+            git commit -m "Update participant-data reports - ${QUARTER_LABEL}
+
+          Quarterly participant-data extraction from va.gov-team research findings.
+
+          Quarter: ${QUARTER_LABEL}
+          Studies analyzed: ${{ steps.extract.outputs.study_count }}
+          Total participants: ${{ steps.extract.outputs.participant_count }}
+          Files skipped: ${{ steps.extract.outputs.skipped_count }}
+
+          Generated by: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            
+            echo "Pushing to research repository..."
+            git push
+            echo "Reports pushed successfully to va.gov-research-repository"
+          fi
+
+      - name: Dry run notice
+        if: steps.should-push.outputs.is_dry_run == 'true'
+        run: |
+          echo "::notice::DRY RUN - Reports were generated but NOT pushed to va.gov-research-repository"
+          echo "## Dry Run Mode" >> $GITHUB_STEP_SUMMARY
+          echo "Reports were generated and uploaded as artifacts but **not pushed** to va.gov-research-repository." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Quarter:** ${{ steps.extract.outputs.quarter_label }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+      - name: Post summary
+        run: cat participant-data-summary.md >> $GITHUB_STEP_SUMMARY

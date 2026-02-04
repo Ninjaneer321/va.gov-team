@@ -125,6 +125,7 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
 - Who is eligible to apply? 
   - [IF THEY DON'T MENTION TRICARE] Do you see any reasons you might not be eligible?
 - If you weren't sure whether you qualify, where on this page would you look?
+  - [Probe] I want to draw your attention to Step 1, where it says "We'll also help you check your eligibility when you complete this form." What are your expectations, if any, when you read this sentence?
 - Is there anything here that makes you uncertain about applying?
 - Would you continue, or would you want more information first? Why?
 
@@ -190,23 +191,7 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
 
 - Go ahead and click on "Prototype Blueberry".
 
-- Again, on this first page, take a minute or so to look over the instructions, and when you're ready, in your own words, tell me what this mean to you?
-
-- Is there anything that stands out to you compared to the first prototype you saw?
-
-- Would you take the same or a different action as compared to the other prototype?
-     - Would you still proceed with the application?
-     
-- [ ] State their answer during the first task of prototype Blueberry - would they proceed or not
-
-- Would you give this page a different rating from the first prototype of how informed do you feel about the application? Why or why not?
-
-
-> [!NOTE]
-> ### Things to watch for:
-> - [Does the participant have a different reaction to the intro page?]
-> - [Note: be aware of familiarity bias being so similar (? What are the differences? if any?)]
-
+- This is the introduction page to the form, which you've seen before. Go ahead and click "Start your form without signing in."
 
 ## Fourth Task: [BLUEBERRY - ELIGIBILITY] - 5 minutes
 
@@ -292,6 +277,7 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
 - On this screen, you'll find 4 summary cards. The first two, Card Style A, are from the prototypes we just went through. The 3rd and 4th cards, Card Style B, are alternative designs. Please take a moment to look at all four before we talk about them.
 
 - What do you think each card is telling you?
+     - [If participant is unable to detect the differences between the summary cards] I want to draw your attention to the content above the bullet points in each card. There's a slight difference between Card Style A and Card Style B. [Repeat main question]. 
 - Which set is the easiest to understand at a glance?
      - What specifically makes [Card Style] clearer than the others?
 - Was there any part of the card that felt unclear or confusing?

@@ -149,16 +149,6 @@ tags:
   - ***Research Ops Plain Language:** Supports up to three Veteran-impacting Key Performance Indicators documented for this on Product.VA.gov*
 > - **Key Result 1.2:** Delivered 25 or more releases that have measurably improved a product's Veteran-impacting KPIs.
   - ***Research Ops Plain Language:** Supports a production release that will measurably improved a product's Veteran-impacting KPIs.*
-> - Key Result 1.3:** OIT has avoided at least $5 million in cost via successful decommissioning of at least 10 systems.
-  - ***Research Ops Plain Language:** Supports the decommissioning of a legacy system.*
-
-`Objective 2: Operate products with high reliability and security.`
-
-> - **Key Result 2.1:** All C100 systems have an incident free time of 99.8 or better.
-> - **Key Result 2.2:** All C100 systems are monitoring the 4 “golden signals” of latency, error rate, volume, and saturation.
-> - **Key Result 2.3:** All C100 systems have baselined cycle time from planning to production, and at least one C100 system in each DSD portfolio has reduced its cycle time from planning to production by more than 50% without increasing change failure rate.
-  - ***Research Ops Plain Language:** Supports reducing this product’s cycle time from planning to production by more than 50% without increasing change failure rate.*
-> - **Key Result 2.4:** By 31 March 2026, DSD has enhanced system security by moving or decommissioning 100% of existing of Systems or Applications leveraging SiteMinder integration for SSOi to Entra ID.
 
 `Objective 3: Relentlessly improve the user experience.`
 
@@ -168,12 +158,6 @@ tags:
   - ***Research Ops Plain Language:** Supports maintaining the ranked list of user pain points for Veteran-facing Products and Services.*
 > - **Key Result 3.3:** 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system.
   - ***Research Ops Plain Language:** Supports the delivery of at least one release that directly addresses a documented user pain point within this product.*
-
-`Objective 4: OCTO teammates are empowered with the knowledge and resources they need to make sustained impact.`
-
-> - **Key Result 4.1:** More than 25% of VA employees report AI has helped them deliver better services to Veterans.
-> - **Key Result 4.2:** All “VA Way” delivery attributes have an adoption indicator established, baselined and communicated to product delivery staff.
-> - **Key Result 4.3:** 50% of product delivery staff report that a practice group (design) has helped them deliver better software.
 
 </details>
 
@@ -185,16 +169,11 @@ tags:
 <details><summary>Where does your product fit into the Veteran journey?
 Are there moments that matter?</summary>
 	
-- `Joining`
-- `Serving`
 - `Getting Out`
 - `Starting Up`
-- `Taking Care of Myself`
-- `Reinventing Myself`
 - `Putting Down Roots`
 - `Retiring`
 - `Aging`
-- `Dying`
 
 </details>
 
@@ -209,11 +188,11 @@ Are there moments that matter?</summary>
 
 ### Goals
 
-`1.` **[Enter answer here]**
+`1.` **Identify any usability issues or confusing language in the CHAMPVA Application Status prototype.**
 
-`2.` **[Enter answer here]**
+`2.` **Identify any confusion or assumptions caused by including CHAMPVA Applications alongside Claims and Appeals in the status tool**
 
-`3.` **[Enter answer here]** 
+`3.` **Determine whether or not Veterans and beneficiaries are able to understand the status of their application and upload requested documents using the CHAMPVA Application Status prototype**
   
 ### Outcome
 `How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
@@ -234,18 +213,20 @@ Are there moments that matter?</summary>
   
 `Does this question serve the goals of my study?`
 
-**`1.`[Enter Q1]**
+**`1.` How do participants interpret the inclusion of CHAMPVA applications within the status tool? What do they expect to be included in the status tool based on the front page?**
 
-**`2.`[Enter Q2]**
+**`2.` How do Veterans understand the application status for each of their beneficiaries based on the information presented in the status tool?**
 
-**`3.`[Enter Q3]**
+**`3.` How do beneficiaries understand the status of their application based on the information presented in the status tool?**
 
-**`4.`[Enter Q4]**
+**`4.` How do participants interpret the steps presented in the status tool? How do they interpret the steps in order to build a mental model of how CHAMPVA applications are processed?**
 
-**`5.`[Enter Q5]**
+**`5.` When participants receive an evidence request, are they able to easily understand how to upload the requested documents and why they're being asked for those documents?**
 
-> [!TIP]
->Enter more questions as needed
+**`6.` When one beneficiary on an application is deemed eligible, and the other has a pending evidence request – how do participants understand what next steps to take? Does the status of the application make sense to them?**
+
+**`7.` What are opportunities to help participants understand the status of their CHAMPVA application?**
+
 
 ### Hypotheses
 > [!NOTE]
@@ -438,22 +419,22 @@ We would like to have a non-AT user pilot, and 2 AT user pilot (1 screen reader,
 - `Date and time of pilot session:` 
 
 ### Research sessions
-- `Planned dates of research:` **Wednesday, Aug 6 - Tuesday, August 26**
+- `Planned dates of research:` **Wednesday, March 11 - Tuesday, March 17**
 
 ### Length of sessions
 - `Session length:` 60 minutes for non-AT users, 90 minutes for AT users
   
 - `Buffer time between sessions:` 30 minutes
   
-- `Maximum Sessions per day:` 5 per day
+- `Maximum Sessions per day:` 3 per day
 
 ### Availability
-> - `Monday - Friday 8:00am-5:00pm ET`
+> - `Monday - Friday 11:30am-4:30pm ET`
 
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
 - `Moderator:` Alyssa Li and Chantale Hedgeman
-- `Research guide writing and task development:` Alyssa Li and Chantale Hedgeman
+- `Research guide writing and task development:` Alyssa Li 
 - `Participant recruiting & screening:`	Perigean	
 - `Project point of contact:` Alyssa Li and Chantale Hedgeman
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` TBD (will link to ADE intake ticket when opened)

@@ -1,3 +1,136 @@
+---
+title: "Side Navigation Research Findings"
+product: "VA Form 21-526EZ (Disability Compensation)"
+team: "Disability Benefits Crew - Core Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2026-01-30"
+researchers:
+  - "Irene Vailikit"
+  - "Bianca Alvelo Rivera"
+  - "Fiorella Geedi"
+research_goals:
+  - "Evaluate whether Veterans can identify the side navigation component and the process list component, and understand their purposes."
+  - "Evaluate Veterans’ understanding of progress throughout the form using the side navigation component and process list component."
+  - "Assess how effectively the navigation component allows Veterans to efficiently edit responses and complete tasks."
+methodology:
+  - "usability testing"
+  - "remote moderated sessions"
+  - "semi-structured interviews"
+devices_used:
+  desktop: 4
+  tablet: 0
+  smartphone: 4
+  assistive_technology: 0
+participants_total: 8
+demographics:
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 2
+    "45-54": 0
+    "55-64": 5
+    "65+": 1
+    unknown: 0
+  education:
+    high_school: 3
+    some_college: 1
+    associates: 1
+    bachelors: 0
+    masters: 3
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 5
+    rural: 3
+    unknown: 0
+  race:
+    white: 3
+    black: 2
+    hispanic: 1
+    biracial: 1
+    asian: 1
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "All participants were able to understand and use both navigation components after interacting with them."
+  - "All participants preferred the Process List because it provided more explicit progress indicators (e.g., 'In progress'/'Complete' labels)."
+  - "Participants used multiple cues (text, color, font weight, hover/click affordances) to interpret progress and status; explicit completion cues were requested (e.g., checkmarks)."
+  - "On mobile, most participants needed to expand the navigation accordion to recall progress and current location in the form."
+  - "After interacting with the navigation component, all participants understood why they couldn’t access future steps."
+  - "Most participants had difficulty editing efficiently when navigation steps didn’t clearly map to individual pages (multi-page steps caused trial-and-error)."
+  - "Mobile participants could distinguish the navigation accordion from Review-and-Submit accordions when visual treatment was differentiated."
+  - "When prompted to add a condition on Review and Submit, participants often tried Review-and-Submit accordions first; some initially expected the Conditions 'Edit' flow to support adding a new condition."
+recommendations:
+  - "Implement the Process List version of the navigation component (as an experimental VADS component) based on consistent participant preference and clearer progress/status indicators."
+  - "Develop improved treatment options for inactive/locked steps that meet accessibility needs while preserving clear affordances for what is/isn't clickable."
+  - "Explore additional accessible progress/completion indicators (e.g., checkmarks) to improve status recognition."
+  - "Update mobile accordion collapsed-state copy to indicate the user’s current step (not just 'Select a step')."
+  - "Assess feasibility of including subpages in the navigation to better match multi-page steps; prototype and test if feasible."
+  - "Coordinate with Platform Design System exploration of renaming 'Step' to 'Section' (and consider testing terminology impacts)."
+kpi_alignment:
+  - "Improved user satisfaction with the 21-526EZ online form experience (supports OCTO-DE priority to improve satisfaction)."
+  - "Reduced navigation friction and time/effort to edit prior answers in a long form (efficiency and task completion confidence)."
+outcomes:
+  user: "Veterans can confidently track progress, understand what’s complete/locked, and efficiently return to edit prior answers while completing the 21-526EZ form on desktop and mobile."
+  business: "Increase completion and submission confidence for a high-impact benefits form by reducing navigation-related friction, confusion, and rework."
+opportunity_areas:
+  - "Make mobile progress and current location visible without requiring accordion expansion."
+  - "Reduce confusion caused by 'Step' labels that contain multiple pages; improve information architecture and navigation granularity."
+  - "Improve discoverability/clarity for adding a new condition from Review and Submit (align user expectations with available actions)."
+  - "Strengthen accessible differentiation for locked vs available navigation items beyond low-contrast gray text."
+further_research_needed:
+  - "Assistive technology testing and accessibility audits (screen reader and screen magnifier) for the Process List design."
+  - "Usability testing of navigation with subpages (desktop and mobile), especially for 'edit a specific item' flows."
+  - "Evaluate accessible completion indicators (e.g., checkmarks) and validate comprehension with AT users."
+  - "Validate terminology changes (e.g., 'Step' vs 'Section') and impacts on comprehension and wayfinding."
+underserved_groups_missing:
+  - "Assistive Technology users (screen reader, magnification, speech input, etc.)"
+  - "Cognitive disability (underrepresented vs recruitment goals)"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Native Hawaiian or other Pacific Islander"
+  - "First Nations (Canada)"
+  - "Native, American Indian or Alaska Native"
+  - "Gay, lesbian, or bisexual"
+  - "Nonbinary, gender fluid, gender queer, Two-Spirit, or another gender beyond man or woman"
+secondary_research: []
+synthesis_tools_used:
+  - "Mural"
+  - "Affinity mapping"
+  - "GitHub Copilot"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "DSC: Accordions"
+  - "DSC: Alert Boxes"
+  - "DSC: Button"
+  - "DSC: Form"
+  - "DSC: Links"
+  - "DSP: Help users to check answers"
+  - "DSP: Help users to sign in"
+  - "DSP: Content Presentation"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "evaluative"
+---
+
 # Side Navigation Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 21-5526EZ, Disability Benefits Crew**
@@ -39,12 +172,14 @@ In our research, we tested two design concepts. The first concept is the VADS si
 In this new design, the VADS segmented progress bar with step labels has been removed, so Veterans are not interacting with two different components that indicate their location in the form.
 On mobile devices, the side navigation component converts to an accordion that the Veteran can expand to view links to all the form's main sections.
 
-[add Screenshots of side navigation MVP design on desktop and mobile]
+![Screenshot of our Side Navigation (Concept 1) prototype, showing the desktop and mobile device versions on the first page of VA Form 21-526EZ Disability Compensation on VA.gov](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Context%20Section%20Side%20Nav.png)
+_Caption: Screenshot of our Side Navigation (Concept 1) prototype, showing the desktop and mobile device versions on the first page of VA Form 21-526EZ Disability Compensation on VA.gov_
 
 ### Process List (Concept 2)
 Our second design concept visually presents as a process list. This component includes features and treatment styles that more strongly differentiate between the steps that have been completed, the step the Veteran is currently on, and the steps they have yet to complete.
 
-[add Screenshot of process list design on desktop and mobile]
+![Screenshot of our Process List (Concept 2) prototype, showing the desktop and mobile device versions on the first page of VA Form 21-526EZ Disability Compensation on VA.gov](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Context%20Section%20Process%20list.png)
+_Caption: Screenshot of our Process List (Concept 2) prototype, showing the desktop and mobile device versions on the first page of VA Form 21-526EZ Disability Compensation on VA.gov_
 
 ## Research Goals
 
@@ -194,6 +329,9 @@ After testing each navigation component, participants answered scaled questions 
 
 While both designs met core navigation needs, participants consistently favored the Process List because the “In Progress” and “Complete” labels (combined with supporting visuals such as the subway map and blue fill) gave participants greater confidence in their current position in the form, how many steps they had completed, and which step they were currently on.
 
+![Screenshot of mobile accordion of the Side Navigation (Concept 1) and Process List (Concept 2) prototypes side-by-side of Step 4: Supporting evidence of VA Form 21-526EZ, with annotations on the distinct visual indicators and affordances respective to each design concept](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Finding%20%232%20Side%20Nav%20and%20Process%20List%20Mobile%20Compare.png)
+_Caption: Screenshot of mobile accordion of the Side Navigation (Concept 1) and Process List (Concept 2) prototypes side-by-side of Step 4: Supporting evidence of VA Form 21-526EZ, with annotations on the distinct visual indicators and affordances respective to each design concept_
+
 > “I think it's way better than the other option...I think the biggest thing was letting you know in progress or completed." - P2 (Desktop)
 
 > “I like this one much better...they show where you're at, what progress you're in..." - P5 (Mobile)
@@ -257,13 +395,14 @@ When asked about skipping to a future step, all participants expressed an approa
     
 - Our team changed the treatment of the Navigation accordion component to a blue outline so that users could more easily distinguish it on the Review and Submit page. 
     
-- During testing, all participants were able to distinguish the navigation component as having a different purpose from the Review and Submit page accordions. 
+- During testing, all participants were able to distinguish the navigation component as having a different purpose from the Review and Submit page accordions.
+
+![Screenshot of the mobile accordion of the Side Navigation (Concept 1) prototype showing 'Step 6: Review and submit' of VA Form 21-526EZ. The left design shows the treatment for the closed accordion and the right design shows the treatment for the open accordion with the form steps, and include annotations to distinguish between open and closed.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Finding%20%237%20Image.png))
     
 > “I would scroll to that portion [Conditions review accordion] and click edit, or I could just [use the] drop down from the “Select a step” [Navigation accordion component] and go back to the conditions, and then list it there.” -P10 (Mobile)
 
 > “I would go to “Select a step” [Navigation accordion component], and go to Conditions.” -P11 (Mobile)
 
-[add screenshot]
 
 ### Finding #8: When prompted to add a new condition on the Review and Submit page, most participants first interacted with the accordions on that page. Then, some participants’ initial reaction was to use the "Edit" button within the Conditions accordion to add a new condition, while other participants shared that they would use the Navigation component to go back to the Conditions step. 
 
@@ -530,14 +669,45 @@ This research does not include the perspectives of the following marginalized Ve
 * Switch Device
 * Braille Reader
 
-➡️ _[insert screenshot of completed recruitment checker in the format below]_
-
-
-![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](link - add image to github folder and link here with .png)
+![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Recruitment%20Checker.png)
 
 #### A more accessible version of the table in the above image
 
-### Recruitment of underserved groups in [Study name]
+### Recruitment of underserved groups in 2025-11 Side Navigation
 
-➡️ _[paste markdown table of completed recruitment checker from Github Copilot chat]_
+| Demographic | Category | Target % | Target # | # in Study | Target Achieved? | p1 | p2 | p3 | p4 | p5 | p6 | p7 | p8 | p9 | p10 | p11 | p12 |
+|---|---|---:|---:|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| All participants | Total | n/a | n/a | 8 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Assistive Tech (AT) users | Total | n/a | n/a | 0 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| No-show participants | Total | n/a | n/a | 4 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Age 55-64+ | General | 50% | 4 | 5 | yes | 1 | 1 | 1 | 1 | N | N | 1 | 0 | 0 | 0 | 0 | N |
+| Cognitive Disability | General | 50% | 4 | 2 | no | 0 | 0 | 0 | 0 | 1 | N | 0 | 0 | 0 | 0 | 1 | 0 |
+| Mobile user | General | 50% | 4 | 4 | yes | 0 | 0 | 0 | 0 | 1 | 0 | N | 1 | 0 | 1 | 1 | N |
+| Rural | General | 25% | 2 | 2 | yes | 0 | 0 | 0 | 0 | 1 | 1 | N | N | 0 | 0 | 0 | 0 |
+| No degree | General | 25% | 2 | 4 | yes | 0 | 1 | 0 | 1 | 0 | N | N | 1 | 0 | 0 | 1 | N |
+| Other than honorable | General | 21% | 2 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Immigrant origin | General | 17% | 2 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Women | General | 10% | 1 | 3 | yes | N | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 | 1 | 0 | N |
+| Expat (living abroad) | General | 0.4% | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Black or African American | Race | 15% | 2 | 2 | yes | N | 0 | 0 | 0 | 1 | 0 | N | 0 | 0 | 0 | 1 | N |
+| Hispanic, Latino, or Spanish origin | Race | 12% | 1 | 1 | yes | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
+| Biracial | Race | 3.9% | 1 | 1 | yes | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Asian | Race | 2.7% | 1 | 1 | yes | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Native Hawaiian or other Pacific Islander | Race | 0.3% | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| First Nations (Canada) | Race | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Native, American Indian or Alaska Native | Race | 1.6% | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Gay, lesbian, or bisexual | LGBTQ+ | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Transgender | LGBTQ+ | n/a | 1 | 1 | yes | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
+| Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman | LGBTQ+ | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | N | 0 | 0 | 0 | 0 | 0 | 0 |
+| Beginner AT User | AT | 50% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Experienced AT User | AT | 50% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Desktop Screen Reader (SR) | AT | 20% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Mobile Screen Reader (SR) | AT | 20% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Magnification/Zoom | AT | 20% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Speech Input Tech (Siri, Dragon) | AT | 20% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Hearing Aids | AT | 20% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Sighted Keyboard | AT | 10% | 0 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Captions | AT | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Switch Device | AT | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Braille Reader | AT | n/a | 1 | 0 | no | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 

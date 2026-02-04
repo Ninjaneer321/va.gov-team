@@ -41,7 +41,7 @@ Data flow diagrams and documentation:
 - API calls and data flow visualization
 - Data Collection and usage
 
-### [high-level-architecture.md](./high-level-architecture.md)
+### [architecture.md](./architecture.md)
 
 System architecture documentation:
 

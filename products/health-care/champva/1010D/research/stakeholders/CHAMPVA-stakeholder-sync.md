@@ -1,6 +1,51 @@
 ## CHAMPVA biweekly stakeholder sync
 Every other Tuesday at 10:35am ET
 
+## 02/03/26
+**Attendees**
+Renata, Mike, Andrea, Hieu, Premal, Amanda, John, Steve, Rogelio, Angela C., Luke, Gina, Angela P. Scott, Tony
+
+**Agenda**
+- Difference between a CCL and sendback letter
+     - What CSR's refer these sendback letters as to when speaking with beneficiaries or applicants on the phone to keep this plain language, and prevent any confusion between CSR and applicant if for some reason an applicant decides to call in for help during the CST flow.
+- Method to request replacement card
+     - Can we get a copy of the A card for ChampVA?
+
+### Notes
+
+**Difference between a CCL and sendback letter**
+- CCL is for EEV, a CHAMPVA EOB is for claim processing. They are not the same.
+     - Gina: CHAMPVA Central Letter (CCL) is an automated letter that's send out automatically by the system. The sendback letter is manual, where a EEV or claim processor has to select the reasons for the letter and input them into the
+- Premal: how does the automation for CCL happen?
+     - Gina: whatever criteria you choose in VES, it automatically creates the CCL. Just like when you select that someone is approved, it automatically generates the welcome packet and A-cards. An example of a CCL is reporting you have OHI but not including health insurance cards
+- **[AI]** Premal: will reach out to the VES team to understand the triggers for those letters
+     - **[AI]** Gina: will send over the type of letters as well
+- Amanda: would like to see an application sendback letter and the difference between that and a CCL
+     - **[AI]** Gina will send directly to Amanda
+- Mike: thinking through how we display language around sendback letters in the HST. When a user calls in to CSR and asks about what's wrong with their application, what language do CSRs use when referring to those CCLs and sendback letters?
+     - Luke: VFMP refers to anything that goes back to the bene as a sendback letter, generically. CSRs historically aren't privy to ontent sent out by VFMP staff. At least for the bene claims side, that is changing soon. CSRs will be able to search for the bene and see the letter and be able to speak to it over the phone.
+     - Mike: Do CSRs use the term sendback letter?
+     - Luke: yes and no. CSRs know what a sendback letter is, because they can see in their system when there's a "mail out" aka any correspondence going to the bene in the CSM. They just don't know what's in the content of the letter (right now). There's no formal guidance about specific terms. 
+     - Mike: We're thinking through how we tell users there's correspondence coming to them. If they refer to something as a "sendback letter" or something else, will a CSR understand what the user is talking about?
+     - Luke: What if we keep it really simple and talk about it as a letter from CHAMPVA? All of that, regardless of content and what CHAMPVA is requesting, will generically be a letter from CHAMPVA.
+     - Gina: The user doesn't know the difference between a SBL and a CCL letter. It is just a letter from CHAMPVA
+     - Mike: We'll talk to our content designers to help guide us in selecting appropriate language for the user.
+     - Luke: Saying "did you receive a letter requesting additional information" is an important distinction, as opposed to a letter with proof of credible coverage, or a non-request correspondence from CHAMVPA. Feel free to reach out on Teams if you have any additional questions.
+- Amanda lets folks know that Alyssa is the primary designer for the HST and may be reaching out (Luke to loop in Angela P.) 
+ 
+**Method to request replacement card**
+- We noticed that there's a substantial need from benes requesting A-cards
+- Angela: Luke has sent over a draft redesign of the card, but can't send over anything else until the proofs are approved
+- Requesting a replacement card process:
+     - Gina: In CRM/Pega, a request for a new card will be input. In VES, an EEV person can go to the communications tab and select the letter "generate card" and it's automatically sent out to the bene.
+     - Luke: All the information is pre-populated in VES, we don't add anything in order to populate the card
+     - Luke: Note that the SSN is not on the card, even though that's the bene's A-card number
+     - Renata: Is there any instance where the SSN **isn't** the A-card ID?
+     - Angela/Luke: There's an ICN, which is specific to the region/medical center where the bene is enrolled. But that's not being implemented any time soon. But ICN's have their own issues, like having duplicate ICNs.
+- When will the card be finalized? Any estimate?
+     - Angela: They're supposed to be updating paper cards to the new version now-ish (this week). They have not yet sent the final proofs to me, but what Luke sent is the most updated version. We are also working on plastic cards, but those don't have a timeline to be sent out.
+     - **[AI]** Angela to send the most updated paper version (Luke sent over the proofs for the plastic copy). 
+
 ## 01/20/26
 **Attendees**
 - Angela P, Angela C, Ballard M, Cindy C, Rogelio C, Kimi Sato, Elizabeth S, Elizabeth L,

@@ -28,7 +28,7 @@ Veterans currently rely on a physical VHIC card for various services and benefit
 - Time to access identification (qualitative feedback)
 
 #### Baseline KPI Values
-- Establish current monthly average of VHIC replacement requests
+- Establish the current monthly average of VHIC replacement requests
 - Baseline app satisfaction score
 - Baseline number of VHIC logins/views per user
 
@@ -47,12 +47,16 @@ Veterans currently rely on a physical VHIC card for various services and benefit
 - Chose this approach due to high Veteran mobile usage and proven success with the digital Veteran Status Card.
 - Error states:
   - An error message for when the API is down.
-  - An error messgae for when the digital card is missing data ??
-  - An error message for expired date on the VHIC???
-  - An error message for a Veteran who does not have a VHIC card???
-- Getting content approved and added to the unathenticated VA.gov VHIC [page](https://www.va.gov/health-care/get-health-id-card/)
+  - An error message for when the digital card is missing data ??
+  - An error message for the expired date on the VHIC???
+  - An error message for a Veteran who does not have a VHIC card. We will provide a message to Veterans explaining how to obtain a VHIC.  
+- Getting content approved and added to the unauthenticated VA.gov VHIC [page](https://www.va.gov/health-care/get-health-id-card/)
+- The barcode on the digital VHIC needs to be scannable.
 
-
+### Details from the VHIC team
+- First API call to verify if a Veteran has a VHIC is to the VA MPI, and they do not have any issues with the number of VAHB app volume that is estimated on the Home page. 
+- Resolution and size of the Veteran image: VHIC team on 2/2 said that the image is a jpeg file with a resolution of 400 x 400 pixels.
+- VHIC team will provide MFS with user data that we can use for testing.
 
 ### Adjacent work
 - We may explore how to improve discoverability of the digital card on VA.gov (e.g., Find a Form, R&S article updates). This effort will be handled by the VHIC team and confirmed by [this](https://dsva.slack.com/archives/C07S7TJRK0B/p1761241001047899?thread_ts=1761240690.675229&cid=C07S7TJRK0B) Slack message.
@@ -60,9 +64,10 @@ Veterans currently rely on a physical VHIC card for various services and benefit
 --- 
 
 ### Out of Scope
-- Allowing Veterans to downloard their VHIC to mobile wallets (Apple/Google) and therefore access their VHIC from their digital wallet (Apple/Google).
+- Allowing Veterans to download their VHIC to mobile wallets (Apple/Google) and therefore access their VHIC from their digital wallet (Apple/Google).
 - Any type of push notifications for VHIC.
-- Adding the VHIC to VA.gov.  
+- Adding the VHIC to VA.gov.
+- Braille Code and Magnetic Strip will not be included in the digital VHIC card.   
 
 --- 
 

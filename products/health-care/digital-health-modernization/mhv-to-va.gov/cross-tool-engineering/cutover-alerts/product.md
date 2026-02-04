@@ -64,7 +64,8 @@ If you're working on a feature that spans both web and mobile, coordinate with b
 
 The migration phases, when features should be disabled, and the messaging Veterans see are already defined by VA stakeholders. Your team needs to decide:
 
-1. **Should you add a feature flag?** — A feature flag gives you an escape hatch to disable your integration independently of the migration schedule if something goes wrong. Note that adding a feature flag will incur coordination costs (the "you can't use" alert will go away automatically according to date, so you should be ready to enable your feature if behind a feature flag very near that time.
+1. **Should you add a feature flag?** — A feature flag gives you an escape hatch to disable your integration independently of the migration schedule if something goes wrong.
+  a. Adding a feature flag means you must coordinate your "re-enabling actions" feature flip with the disappearance of the "alert" message
 
 ---
 

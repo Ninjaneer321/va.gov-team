@@ -122,33 +122,65 @@ synthesis_tools_used:
 - [Research participants](#user-content-research-participants)
 
 ## Research Goals
-*Provide context for this research by explaining how it fits into the Veteran’s journey.*  
-[See the Veteran journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)  
+Veterans may fill out web forms on VA.gov throughout their lives, including all stages of the Veteran Journey--Serving and separation, Living civilian life, and Retiring and aging. **Saving in-progress work while filling out an online form** is an interaction for which the current implementation on VA.gov has two known accessibility issues, and a revised design that was [usability tested in May 2025](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md) didn't work very well. Key findings from that study indicated that most participants didn't know that their information was being saved automatically, and they didn't see or remember either of the informational alerts about saving. 
 
-**Guiding Questions:**  
-- What are the key moments this tool supports in the Veteran’s journey?  
-- What outcomes are we aiming to achieve for Veterans and stakeholders?  
+This research was intended to get user feedback on a revised design that hopefully communicates more effectively to Veterans that the information they enter into forms will be saved automatically. The new design adds an [interstitial page (in Figure 1 below)](#user-content-figure-1-shows-the-new-interstitial-page) about saving that appears after the user clicks the Continue button on the first page of form fields, which is after they've started filling out the form and during a natural pause in their work (between form pages).
 
-[Example Research Goals](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-goals) 
+### Figure 1 shows the new interstitial page
+
+<img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2026-01-save-in-progress-2/images/interstitial.PNG" width="50%" height="50%" alt="The new interstitial page explains that the information you enter in the form will saved, and that you can select the Finish later button anytime to stop">
+
+The **goals of this research** were to 
+1. See if Veterans understand that their form data is being saved as they're filling out a form but haven't submitted it yet.
+1. See if Veterans can stop filling out a form, get signed out, and then resume filling out a form.
+1. See if moving the accordion controls to the left side affects usability.
+
+Findings and recommendations from this research will **inform guidance and documentation for the "save in progress" feature** for authenticated users filling out forms on VA.gov. Matt Dingee asked ADE to assist with this because some VFS teams are innovating new designs, whereas "save in progress" should be a standard pattern used by all teams for consistency across VA.gov.
 
 ## Research Questions
 
-*List the research questions that guided this study.*  
+### Research goal 1: See if Veterans understand that their form data is being saved as they're filling out a form but haven't submitted it yet.
+1. What reactions/feedback do Veterans have upon encountering the interstitial page after clicking "Continue"?
+1. Do Veterans think that their form data is being saved? If so, how confident are they?
+1. Do Veterans click on either of the links on the interstitial page (that go to My VA or the form intro page)?
+1. Do Veterans remember later what the interstitial page said?
 
-* Question 1
-* Question 2
-* Question 3
+#### Research goal 2: See if Veterans can stop filling out a form, get signed out, and then resume filling out a form.  
+1. Do Veterans use the "Finish later" button to stop filling out a form?
+1. What feedback do Veterans have on the revised "Finish later" page? 
+1. Are Veterans able to resume filling out a form that they previously started? If so, how?
+1. Do users realize that they have to sign in before resuming the form?
 
-[Example Research Questions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#research-questions)
+#### Research goal 3: See if moving the accordion controls to the left side affects usability.
 
 ## Methodology 
 
-*Provide a brief description of the research methods used (e.g., usability testing, interviews).*  
+We conducted **remote moderated usability testing** to observe research participants filling out an online form. The participants were logged in so that the information they entered was automatically saved before the form was submitted. We used a GitHub Codespace that was accessible to screen readers and screen magnifiers, which half of our participants were using.
 
-- Method 1: Description  
-- Method 2: Description  
+Research sessions were conducted over Zoom during January 12-21, 2026. Sessions were 90 minutes long for Veterans using assistive technology (i.e., screen readers or screen magnifiers), and 60 minutes for Veterans not using any assistive technology (AT). 
 
-[Example Methodology](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#methodology)
+## Participants
+ Perigean recruited all **9 research participants** who were all Veterans. 7 participants were able to complete all the user tasks, and the other 2 participants were not able to because of technical issues.  
+ - **5 were full-time assistive technology users**:
+   - 4 used a screen reader
+   - 1 used a screen magnifier
+  - 4 were on a computer, and 5 were on a smart phone
+
+The assistive technology used by the 5 participants is summarized in the table below. 
+
+P# | Screen Reader/Magnifier | Software | Device | O/S | Browser 
+-- | ----- |------|-------|--------|--------
+2 | none | none | phone | iOS | Safari 
+3 | Screen reader | JAWS w/mouse echo | computer | Windows | Chrome 
+4 | Screen reader | VoiceOver | phone | iOS | Safari then Chrome
+6 | Screen reader | Read aloud highlighted text | phone | iOS | Safari 
+7 | none | none | computer | Windows | Chrome 
+8 | Screen reader | TalkBack | phone | Android | Chrome
+9 | none | none | computer | Windows | Opera
+11 | Screen magnifier | Windows Magnifier | computer | Windows | Chrome
+12 | unknown | unknown | phone | Android | unknown because didn't get that far
+
+For demographic details, see [Research participants](#user-content-research-participants).
 
 
 ## Hypotheses and Conclusions

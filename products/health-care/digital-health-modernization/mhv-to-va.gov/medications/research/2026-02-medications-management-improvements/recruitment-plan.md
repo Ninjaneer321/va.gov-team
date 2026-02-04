@@ -1,3 +1,18 @@
+## Methodology  🛠️
+***Describe the method you’re planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.***
+
+60 minute video interviews over Zoom. We will rotate the order in which tasks are asked of participants.
+
+### Location
+
+- [x] **Remote**
+- [ ] **In-person**
+
+## Research materials 📔
+
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2026-02-medications-management-improvements/conversation-guide.md)
+- [Link to prototype](https://www.figma.com/proto/fRZJx2Sb8U0bYr7In9FnOU/Prototype-for-medications-improvements-research-study?node-id=231-17538&viewport=443%2C601%2C0.04&t=98kPc1jJsJWrI9cN-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=96%3A11734&show-proto-sidebar=1)
+
 ## Recruitment 🎯
 *OCTO works with Perigean, a small business, to handle the recruitment, scheduling, and compensation of Veterans and caregivers.*
 
@@ -38,6 +53,28 @@ We will partner with Perigean to recruit Veterans. We will request a kickoff mee
 #### Secondary criteria (nice-to-haves)
 
 **[None listed]**
+
+### Screener questions
+
+1. Do you receive VA healthcare benefits?
+   - Yes
+   - No [not eligible for study]
+
+2. Do you use the VA to refill your medications?
+   - Yes
+   - No [not eligible for study]
+
+3. If you use the VA to get your medications, how often would you guess you place an order for your medications using the VA.gov website or the VA Health and Benefits mobile app?
+   - 1 - 2 times a year
+   - 3 - 4 times a year
+   - 5 - 12 times a year
+   - 13 or more times a year
+   - I don’t get my medications from the VA [not eligible for study]
+
+4. Have you ever been diagnosed with a traumatic brain injury, PTSD or cognitive impairment of some sort? We ask this question because we want to make sure that our tools work for people who live with challenges like these.
+   - Yes
+   - No
+   - Prefer not to say (note: this is a new option)
 
 ## Timeline 🗓️
 
