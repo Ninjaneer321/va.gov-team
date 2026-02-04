@@ -11,7 +11,7 @@ Handoff Date: February 2026
 
 - [Link to staging](https://staging.va.gov/careers-employment/vocational-rehabilitation/apply-vre-form-28-1900/introduction)
 
-  - Everything from the /introduction page through the /confirmation page
+  - Everything from the `/introduction` page through the `/confirmation` page
 
   - Content team is responsible for informational pages about Ch. 31
 
@@ -66,12 +66,12 @@ Handoff Date: February 2026
 
   - Added LOA 1 user alerts - users who were signed in but NOT verified didn’t see a link to the form or an alert telling them they need to verify.
 
-  - Removed DRAFT cards on My VA and introduction page after submission (the cause for user-driven submission spike) - submitted forms were stuck in a queue that incorrectly told users their forms were still in draft when in reality they were submitted.
+  - Removed DRAFT cards on My VA and introduction page after submission (the cause for user-driven duplicate submission spike) - submitted forms were stuck in a queue that incorrectly told users their forms were still in draft when in reality they were submitted.
 
 
 ### Initiatives in Flight: 
 
-- Resolving a bug where users with no middle names are seeing a blank page when they click the apply link on the /introduction page. Ticket here: <https://github.com/department-of-veterans-affairs/va-iir/issues/2367> 
+- Resolving a bug where users with no middle names are seeing a blank page when they click the apply link on the `/introduction page`. Ticket here: <https://github.com/department-of-veterans-affairs/va-iir/issues/2367> 
 
   - Actively working on a resolution. Will want to keep a close eye on reports.
 
@@ -221,17 +221,17 @@ Handoff Date: February 2026
 
 #### Engineering
 
-- BE processes - what is getting sent where? 
+- BE processes 
 
+  - More coming soon
+    
   - Should we update [this mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1715981718612/f40f764f3e9675c932f49eed6c9644fdc5a71372)?
 
   - Different mural: <https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1727286761015/c720da157691aad3bd756fcd75f1e7ec6099cef7> 
 
 - FE Context
 
-  - Maybe write a blurb about our app replacement approach and why it did/didn’t work?
-
-  - What did we do that now enables us to use feature flags? Is it still only feature flags by page?
+  - Coming soon
 
 - [Endpoint Monitoring Playbook](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/benefits/playbooks/vre-form-28-1900.md)
 
