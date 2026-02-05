@@ -1,4 +1,4 @@
-# ADR: Multi-Provider Document Upload Architecture
+hello, # ADR: Multi-Provider Document Upload Architecture
 
 ## Status
 **Proposed** - Pending team review and approval
@@ -329,5 +329,261 @@ The document upload architecture intentionally diverges from claims in one key a
 
 ---
 
-**Last Updated**: 2026-02-04
+## Frontend Implementation Details
+
+### Current Frontend Architecture
+
+The frontend document upload functionality is implemented in `src/applications/claims-status/actions/index.js` via the `submitFiles` method (lines 430-615). Currently, this method:
+
+1. Uploads files to a single hardcoded endpoint: `/v0/benefits_claims/${claimId}/benefits_documents`
+2. Uses FineUploaderBasic library for file upload with progress tracking
+3. Sends parameters including `tracked_item_ids`, `document_type`, and `password`
+4. Handles both **tracked item** uploads (required documents requested by VA) and **additional evidence** uploads (voluntary supporting documents)
+
+### Proposed Frontend Refactoring: Provider-Aware Upload
+
+To support the multi-provider backend architecture, the frontend `submitFiles` method should be refactored to include provider identification in the upload request.
+
+#### Provider Pseudo ID Mapping
+
+Introduce a provider identification system using pseudo IDs that map to backend providers:
+
+| Provider | Pseudo ID | Description |
+|----------|-----------|-------------|
+| `lighthouse` | `0` (default) | VA benefits claims (current/legacy behavior) |
+| `champva` | `1` | CHAMPVA claims |
+| `new_provider` | `2` | Future provider placeholder |
+
+#### Implementation Approach
+
+**Option A: Query Parameter Approach (Recommended)**
+
+Add a `provider_id` query parameter to the upload endpoint:
+
+```javascript
+// Current endpoint
+endpoint: `${environment.API_URL}/v0/benefits_claims/${claimId}/benefits_documents`
+
+// New endpoint with provider
+endpoint: `${environment.API_URL}/v0/benefits_claims/${claimId}/benefits_documents?provider_id=${providerId}`
+```
+
+**Benefits**:
+- Minimal changes to existing code
+- Backward compatible (defaults to `0` if omitted)
+- Works with existing FineUploaderBasic configuration
+- Clean separation of routing concern from upload payload
+
+**Option B: Custom Header Approach**
+
+Add a `X-Provider-ID` custom header:
+
+```javascript
+customHeaders: {
+  'Source-App-Name': manifest.entryName,
+  'X-Key-Inflection': 'camel',
+  'X-CSRF-Token': csrfTokenStored,
+  'X-Provider-ID': providerId, // New header
+}
+```
+
+**Benefits**:
+- Follows RESTful principles (routing metadata in headers)
+- Doesn't pollute URL
+- Can be easily extracted by backend middleware
+
+#### Provider Determination Logic
+
+The frontend needs to determine which provider to use for a given claim. This should be implemented as a helper function:
+
+```javascript
+/**
+ * Determines the provider ID for a given claim
+ * @param {Object} claim - The claim object
+ * @returns {number} Provider pseudo ID (0=lighthouse, 1=champva, 2=new_provider)
+ */
+function getProviderIdForClaim(claim) {
+  // Strategy 1: Check claim type attribute
+  if (claim?.attributes?.claimType === 'CHAMPVA') {
+    return 1; // champva
+  }
+
+  // Strategy 2: Parse claim ID pattern (fallback)
+  // CHAMPVA claims might have specific ID prefix/format
+  if (claim?.id?.startsWith('CHAMPVA_')) {
+    return 1; // champva
+  }
+
+  // Default to Lighthouse for all other claims
+  return 0; // lighthouse
+}
+```
+
+#### Modified submitFiles Signature
+
+Update the `submitFiles` function to accept an optional provider parameter:
+
+```javascript
+// Current signature (line 430)
+export function submitFiles(
+  claimId,
+  trackedItem,
+  files,
+  showDocumentUploadStatus = false,
+  timezoneMitigationEnabled = false,
+)
+
+// Proposed signature
+export function submitFiles(
+  claimId,
+  trackedItem,
+  files,
+  showDocumentUploadStatus = false,
+  timezoneMitigationEnabled = false,
+  providerId = 0, // Default to Lighthouse
+)
+```
+
+#### Integration Points
+
+The provider ID should be passed through the upload flow:
+
+1. **Tracked Item Uploads** (line 605-609):
+   ```javascript
+   files.forEach(({ file, docType, password }) => {
+     uploader.addFiles(file, {
+       tracked_item_ids: JSON.stringify([trackedItemId]),
+       document_type: docType.value,
+       password: password.value,
+       provider_id: providerId, // Add provider context
+     });
+   });
+   ```
+
+2. **Additional Evidence Uploads**:
+   - Same parameter structure as tracked items
+   - Provider ID should be determined from the claim details before calling `submitFiles`
+
+3. **Component Layer**:
+   - Upload components should fetch claim details to determine provider
+   - Pass provider ID down to the action creator
+
+#### Feature Flag Integration
+
+Frontend should respect backend feature flags for progressive rollout:
+
+```javascript
+export function submitFiles(
+  claimId,
+  trackedItem,
+  files,
+  showDocumentUploadStatus = false,
+  timezoneMitigationEnabled = false,
+  providerId = 0,
+  multiProviderEnabled = false, // Feature flag
+) {
+  // Only use multi-provider routing if feature is enabled
+  const effectiveProviderId = multiProviderEnabled ? providerId : 0;
+
+  const endpoint = `${environment.API_URL}/v0/benefits_claims/${claimId}/benefits_documents` +
+    (multiProviderEnabled ? `?provider_id=${effectiveProviderId}` : '');
+
+  // ... rest of implementation
+}
+```
+
+Feature flag should be:
+- Fetched from backend user settings/features API
+- Cached in Redux state
+- Checked at upload initiation time
+
+#### Error Handling
+
+Provider-specific error handling should be added:
+
+```javascript
+onError: (id, fileName, _reason, { response, status }) => {
+  if (status === 401) {
+    dispatch({ type: SET_UNAUTHORIZED });
+  }
+
+  // New: Provider-specific error handling
+  if (status === 400) {
+    const error = JSON.parse(response || '{}');
+    if (error?.errors?.[0]?.detail === 'INVALID_PROVIDER') {
+      // Log error and fallback to lighthouse
+      Sentry.captureMessage(`Invalid provider ${providerId} for claim ${claimId}`);
+      // Could retry with providerId=0 or show user-friendly message
+    }
+  }
+
+  // ... existing error handling
+}
+```
+
+#### Analytics Updates
+
+Update analytics events to track provider usage:
+
+```javascript
+// In recordUploadStartEvent
+recordEvent({
+  event: 'claims-upload-start',
+  'claims-provider': providerId === 0 ? 'lighthouse' :
+                     providerId === 1 ? 'champva' : 'unknown',
+  'file-count': files.length,
+  // ... other metrics
+});
+```
+
+### Testing Considerations
+
+1. **Unit Tests**: Test provider determination logic with various claim types
+2. **Integration Tests**: Mock different provider IDs and verify correct endpoint construction
+3. **E2E Tests**: Test upload flow with feature flag enabled/disabled
+4. **Error Scenarios**: Test fallback behavior when provider routing fails
+
+### Backward Compatibility
+
+- **Zero Breaking Changes**: Default `providerId=0` maintains current behavior
+- **Feature Flag Gated**: Multi-provider logic only active when flag enabled
+- **Graceful Degradation**: Errors fallback to Lighthouse provider
+- **API Contract**: Existing API responses remain unchanged
+
+### Migration Path
+
+1. **Phase 1**: Add provider determination logic (no changes to uploads yet)
+2. **Phase 2**: Add optional provider parameter to submitFiles (defaults to 0)
+3. **Phase 3**: Enable feature flag for internal testing
+4. **Phase 4**: Gradual rollout with monitoring
+5. **Phase 5**: Remove feature flag after stabilization
+
+### Performance Impact
+
+- **Minimal overhead**: Single additional parameter/query string
+- **No new network requests**: Provider determined from existing claim data
+- **Upload performance**: Unchanged (same upload mechanism)
+
+### Open Questions - Frontend
+
+1. **Claim Data Availability**: Do all upload contexts have access to full claim object, or just claim ID?
+   - **Impact**: Determines if we need additional API call to fetch claim details
+   - **Recommendation**: Ensure claim details are pre-loaded in Redux state
+
+2. **Retry Logic**: If provider-specific upload fails, should frontend retry with different provider?
+   - **Recommendation**: No - let backend handle provider fallback logic
+
+3. **Provider Selection UI**: Should users see which provider their documents are being sent to?
+   - **Recommendation**: No - keep transparent to users (implementation detail)
+
+### Code References
+
+- Current implementation: `src/applications/claims-status/actions/index.js:430-615`
+- Upload analytics: `src/applications/claims-status/utils/analytics.js`
+- Claim selectors: `src/applications/claims-status/selectors.js`
+- Upload components: `src/applications/claims-status/components/AddFilesForm.jsx`
+
+---
+
+**Last Updated**: 2026-02-05
 **Status**: Proposed - Awaiting team review
