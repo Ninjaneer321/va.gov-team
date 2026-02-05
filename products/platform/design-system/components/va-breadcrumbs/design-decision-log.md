@@ -38,7 +38,7 @@ The current page in navigation components (pagination, breadcrumbs, and similar 
 - Clickable - Display the hand cursor and respond to click events
 - Focusable - Receive keyboard focus and respond to Enter/Space key activation
 - Marked with aria-current="page" - Properly identified for assistive technology
-- Visually Distinguished - Styled differently from other navigation links (per ADR 002: bold, black text, underlined) while maintaining link functionality
+- Visually Distinguished - Styled differently from other navigation links while maintaining link functionality
 
 ### Rational
 - Ensures consistency across all input methods (keyboard, mouse, touch, assistive technology)
@@ -57,7 +57,7 @@ The current page in navigation components (pagination, breadcrumbs, and similar 
 #### Negative
 
 - **User Confusion:** Some users may question clicking a link to the current page; risk of unintended page refreshes
-- **Counter-intuitive Design:** Styling suggests "you are not here" (static) since appearance looks like you can navigate somewhere else
+- **Counter-intuitive Design:** Styling suggests "you are not here" (static) since appearance looks like a link you can navigate somewhere else
 
 ### Open Questions
 
