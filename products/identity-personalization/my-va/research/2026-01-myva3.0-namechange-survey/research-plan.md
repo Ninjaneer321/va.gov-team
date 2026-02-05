@@ -290,17 +290,35 @@ Provide a link to any materials you need to run your study, including any materi
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
 
 - `[ALL / Participants have a VA.gov or MyHealtheVet account]`
-- ` 252 / Frequent VA.gov users (Daily or Weekly)  `
+- `252 / Frequent VA.gov users (Daily or Weekly)  `
 - `252 / Non frequent VA.gov users (Monthly, Every few months or Never, but am open to using VA.gov)`
 - **`Add more criteria as needed`**
 
-- 
+### Screener questions
+- `1. Do you have a VA.gov or My HealtheVet account?`  
+- `Yes`  
+- `No`  
+- `I’m not sure`  
+- `2. How often do you use VA.gov? Your best guess is okay.`  
+- `Daily`  
+- `Weekly`  
+- `Monthly`  
+- `Every few months`  
+- `Never, but am open to using VA.gov`  
+- `Never, and would prefer not to use VA.gov`  
+- `I’m not sure`  
+- `3. Do you identify as a member of the LGBTQ+ community?`  
+- `Yes`  
+- `No`  
+- `Prefer not to answer`  
+- `4. Have you been diagnosed with (formally or informally) a cognitive disability? This includes any intellectual disability, ADHD, Autism Spectrum Disorder, severe, persistent mental illness, brain injury, stroke, Alzheimer's disease and other dementias, or others not listed.`   
+- `Yes`  
+- `No`  
+- `Prefer not to answer`
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- `[Place secondary criteria here between hash marks when in edit mode]`
-- `secondary criteria`
 - `252 / age 55-64+ yo`
 - `252 / with cognitive disability`
 - `252 / Mobile user`
@@ -333,8 +351,6 @@ Provide a link to any materials you need to run your study, including any materi
 - `0 / Captions`   
 - `0 / Switch Device`   
 - `0 / Braille Reader` 
-- `secondary criteria`
-- **`Add more criteria as needed`**
 
 ## Timeline 🗓️
 > [!NOTE]
@@ -342,7 +358,7 @@ Provide a link to any materials you need to run your study, including any materi
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
+- `Suggested dates and times:` **[TBD]**
 
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
@@ -355,7 +371,7 @@ Provide a link to any materials you need to run your study, including any materi
 - `Date and time of pilot session:` **[TBD]** 
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **[TBD]**
 
 ### Length of sessions
 - `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **[Less than 10 minutes]**
@@ -365,15 +381,6 @@ Provide a link to any materials you need to run your study, including any materi
 - `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **[Not applicable due to being an unmoderated study]**
 
 ### Availability
-When would you like sessions scheduled? Please list exact dates and times in **Not applicable due to being an unmoderated study**. 
-
-> [!NOTE]
-> We recommend providing availability outside of work hours, as many Veterans are only available before and after working times, and live across the U.S. 
-
-> [!TIP]
-> Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
->
-> **Place time slots between `hash marks` when in edit mode.**
 
 - `Not applicable due to being an unmoderated study`
 
