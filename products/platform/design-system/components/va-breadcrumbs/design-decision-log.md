@@ -8,7 +8,7 @@ Last updated: 4 Feb 2026
 ## ADR 001 - Current page should be a link and look like a link
 - a11y Discovery: Breadcrumb Link Cursor Event [#53331](https://github.com/department-of-veterans-affairs/va.gov-team/issues/53331)
 - Breadcrumb's current page styling should not remove pointer events [#1458](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/1458#issuecomment-1671807757)
-- [LAUNCH BLOCKING]Design System Staging Review - Accessibility Feedback - Converted components: Memorable date, Select and Breadcrumbs [#64284](https://github.com/department-of-veterans-affairs/va.gov-team/issues/64284)
+- [LAUNCH BLOCKING FOR TEAMS] Design System Staging Review - Accessibility Feedback - Converted components: Memorable date, Select and Breadcrumbs [#64284](https://github.com/department-of-veterans-affairs/va.gov-team/issues/64284)
 
 ### Status: APPROVED
 
