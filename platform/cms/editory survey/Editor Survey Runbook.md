@@ -34,7 +34,7 @@ Establish a benchmark with the data explaining current editor trust in Drupal CM
 
 Identify factors that affect editor trust and confidence levels in working with Drupal CMS; 
 
-Measure Drupal CMS editor satisfaction biannual and identify opportunities for improvement. 
+Measure Drupal CMS editor satisfaction biannually and identify opportunities for improvement. 
 
 Please provide survey feedback by [insert date]. This survey will be distributed to Drupal editors on a biannual basis. At the beginning of each quarter, you will have the opportunity to respond. We value your feedback and used it to inform improvements we made to Drupal CMS. You can read more about those improvements on the [CMS Announcements Page](https://prod.cms.va.gov/help/cms-announcements).
 
