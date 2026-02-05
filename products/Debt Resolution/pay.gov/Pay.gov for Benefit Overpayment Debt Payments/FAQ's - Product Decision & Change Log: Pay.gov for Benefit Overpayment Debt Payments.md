@@ -166,3 +166,10 @@ Same question for overpayments: Will Pay.gov be able to process multiple overpay
 
 **36. Can a Veteran change their payment plan details on the PAY.VA.GOV experience today?**
 - Edit? TBD (still under investigation) but they CAN cancel it. 
+
+**37. How long does the process take form when a payment is submitted thru Pay.gov to reach the Veteran's account at DMC.**
+- For ACH payments it’s 2 days and for credit cards it’s 3 days.  That’s the earliest for each.
+- Weekends add time.
+- DMC process payments that come in over the weekend on Tuesdays.
+- For instance on 28 Oct DMC processed ACH payments dated 10/25-10/27 and CC payments dated 10/24-10/26.  Those will post to VAMS on 29 Oct.  So depending on when a payment is made online it can take between 2 and 4 days for an ACH and 3-5 days before it will be visible in VODA.
+
