@@ -1,0 +1,260 @@
+# .github/workflows/copilot-setup.yml
+#
+# Purpose: Setup workflow for GitHub Copilot custom agent environments
+# This workflow configures the repository checkout for Copilot agents using sparse checkout
+# by default to improve performance and reduce unnecessary data transfer.
+# Binary files (.doc, .docx, .pdf, .pptx, etc.) are automatically excluded to optimize performance.
+#
+# Repository: va.gov-team
+# Sparse checkout is used unless full git history is explicitly required
+
+name: Copilot Agent Setup
+
+# This workflow can be called by other workflows or triggered manually
+on:
+  workflow_call:
+    inputs:
+      sparse_checkout_paths:
+        description: 'Paths to include in sparse checkout (pipe-separated)'
+        required: false
+        type: string
+        default: |
+          .github/
+          README.md
+      sparse_checkout_cone_mode:
+        description: 'Enable cone mode for sparse checkout'
+        required: false
+        type: boolean
+        default: false
+      fetch_depth:
+        description: 'Number of commits to fetch (1 for shallow, 0 for full history)'
+        required: false
+        type: number
+        default: 1
+      ref:
+        description: 'The branch, tag or SHA to checkout'
+        required: false
+        type: string
+        default: 'master'
+      exclude_binary_files:
+        description: 'Remove binary files after checkout (doc, docx, pdf, pptx, etc.)'
+        required: false
+        type: boolean
+        default: true
+  workflow_dispatch:
+    inputs:
+      sparse_checkout_paths:
+        description: 'Paths to include in sparse checkout (one per line)'
+        required: false
+        type: string
+        default: |
+          .github/
+          README.md
+      sparse_checkout_cone_mode:
+        description: 'Enable cone mode for sparse checkout'
+        required: false
+        type: boolean
+        default: false
+      fetch_depth:
+        description: 'Number of commits to fetch (1 for shallow, 0 for full history)'
+        required: false
+        type: number
+        default: 1
+      ref:
+        description: 'The branch, tag or SHA to checkout'
+        required: false
+        type: string
+        default: 'master'
+      exclude_binary_files:
+        description: 'Remove binary files after checkout (doc, docx, pdf, pptx, etc.)'
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+
+jobs:
+  setup-copilot-environment:
+    name: Setup Copilot Custom Agent Environment
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Sparse Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+          sparse-checkout: ${{ inputs.sparse_checkout_paths }}
+          sparse-checkout-cone-mode: ${{ inputs.sparse_checkout_cone_mode }}
+          fetch-depth: ${{ inputs.fetch_depth }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Remove Binary Files
+        if: inputs.exclude_binary_files == true
+        run: |
+          echo "Removing binary files to optimize for Copilot agents..."
+          
+          # Define binary file extensions to remove
+          BINARY_EXTENSIONS=(
+            "doc"
+            "docx"
+            "pdf"
+            "pptx"
+            "ppt"
+            "xls"
+            "xlsx"
+            "zip"
+            "tar"
+            "gz"
+            "7z"
+            "rar"
+            "exe"
+            "dll"
+            "bin"
+            "iso"
+            "dmg"
+            "pkg"
+            "jpg"
+            "jpeg"
+            "png"
+            "gif"
+            "bmp"
+            "ico"
+            "svg"
+            "mp3"
+            "mp4"
+            "avi"
+            "mov"
+            "wav"
+            "flac"
+          )
+          
+          # Count files before removal
+          BEFORE_COUNT=$(git ls-files | wc -l)
+          REMOVED_COUNT=0
+          
+          # Remove files with binary extensions
+          for ext in "${BINARY_EXTENSIONS[@]}"; do
+            FILES=$(git ls-files "*.${ext}" 2>/dev/null || true)
+            if [ ! -z "$FILES" ]; then
+              echo "  Removing *.${ext} files..."
+              echo "$FILES" | while read -r file; do
+                if [ -f "$file" ]; then
+                  rm "$file"
+                  ((REMOVED_COUNT++)) || true
+                fi
+              done
+            fi
+          done
+          
+          # Count files after removal
+          AFTER_COUNT=$(find . -type f ! -path './.git/*' | wc -l)
+          
+          echo ""
+          echo "Binary file cleanup complete"
+          echo "   Files before: $BEFORE_COUNT"
+          echo "   Files removed: $REMOVED_COUNT"
+          echo "   Files remaining: $AFTER_COUNT"
+          
+          if [ $REMOVED_COUNT -gt 0 ]; then
+            echo ""
+            echo "Removed file types for Copilot optimization:"
+            echo "   Documents: doc, docx, pdf, pptx, ppt, xls, xlsx"
+            echo "   Archives: zip, tar, gz, 7z, rar"
+            echo "   Binaries: exe, dll, bin, iso, dmg, pkg"
+            echo "   Images: jpg, jpeg, png, gif, bmp, ico, svg"
+            echo "   Media: mp3, mp4, avi, mov, wav, flac"
+          fi
+
+      - name: Display Checkout Info
+        run: |
+          echo "Repository checked out successfully"
+          echo ""
+          echo "Checked out files (sample):"
+          git ls-files | grep -E '\.(md|txt|json|yml|yaml|js|jsx|ts|tsx|py|rb|sh)$' | head -20 || git ls-files | head -20
+          TOTAL_FILES=$(git ls-files | wc -l)
+          if [ $TOTAL_FILES -gt 20 ]; then
+            echo "... and $(( $TOTAL_FILES - 20 )) more files"
+          fi
+          echo ""
+          echo "Checkout configuration:"
+          echo "  - Reference: ${{ inputs.ref }}"
+          echo "  - Fetch depth: ${{ inputs.fetch_depth }}"
+          echo "  - Cone mode: ${{ inputs.sparse_checkout_cone_mode }}"
+          echo "  - Sparse checkout: enabled"
+          echo "  - Binary files excluded: ${{ inputs.exclude_binary_files }}"
+
+      - name: Fetch Additional History (if needed)
+        if: inputs.fetch_depth == 1
+        run: |
+          echo "Note: This checkout uses shallow history (depth=1)"
+          echo "   To fetch more history, use: git fetch --deepen=<number>"
+          echo "   To fetch full history, use: git fetch --unshallow"
+
+      - name: Environment Summary
+        run: |
+          echo "Environment Details:"
+          echo "  - Git version: $(git --version)"
+          echo "  - Current branch: $(git branch --show-current || echo 'detached HEAD')"
+          echo "  - Latest commit: $(git log -1 --oneline)"
+          echo "  - Working directory size: $(du -sh . 2>/dev/null | cut -f1 || echo 'N/A')"
+          echo "  - .git directory size: $(du -sh .git 2>/dev/null | cut -f1 || echo 'N/A')"
+          echo ""
+          echo "File type breakdown:"
+          echo "  - Markdown files: $(git ls-files '*.md' 2>/dev/null | wc -l)"
+          echo "  - YAML files: $(git ls-files '*.yml' '*.yaml' 2>/dev/null | wc -l)"
+          echo "  - JavaScript files: $(git ls-files '*.js' '*.jsx' 2>/dev/null | wc -l)"
+          echo "  - Python files: $(git ls-files '*.py' 2>/dev/null | wc -l)"
+          echo "  - Total files: $(git ls-files | wc -l)"
+
+  # Example job showing how to use full checkout when needed
+  example-full-checkout:
+    name: Example - Full Checkout When Needed
+    runs-on: ubuntu-latest
+    if: false  # Set to true to enable this example
+    
+    steps:
+      - name: Full Repository Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0  # Full git history
+          # Note: sparse-checkout is omitted to get all files
+
+      - name: Display Full Checkout Info
+        run: |
+          echo "Full repository checked out"
+          echo "Total files: $(git ls-files | wc -l)"
+          echo "Git history: $(git rev-list --count HEAD) commits"
+          echo ""
+          echo "Note: Binary files are still present in full checkout mode"
+          echo "   Consider using exclude_binary_files: true if not needed"
+
+  # Example job showing how to include binary files when needed
+  example-with-binary-files:
+    name: Example - Include Binary Files
+    runs-on: ubuntu-latest
+    if: false  # Set to true to enable this example
+    
+    steps:
+      - name: Checkout with Binary Files
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          sparse-checkout: |
+            products/
+            teams/
+          sparse-checkout-cone-mode: false
+          fetch-depth: 1
+
+      - name: Keep Binary Files
+        run: |
+          echo "Repository checked out with binary files included"
+          echo "This checkout includes all file types"
+          echo ""
+          echo "Use cases for including binary files:"
+          echo "   - Processing documents for content extraction"
+          echo "   - Analyzing media files"
+          echo "   - Accessing original source materials"
