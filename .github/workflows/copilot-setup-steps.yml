@@ -77,7 +77,7 @@ permissions:
   pull-requests: read
 
 jobs:
-  setup-copilot-environment:
+  copilot-setup-steps:
     name: Setup Copilot Custom Agent Environment
     runs-on: ubuntu-latest
     
