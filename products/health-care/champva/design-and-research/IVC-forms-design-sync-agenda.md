@@ -4,6 +4,118 @@
 
 
 
+
+## January 22, 2026
+
+Attendees: Renata, Hieu, Jessica, Premal, Alyssa Li, Mike, Andrea, Heather, John, Chantale
+
+
+### Agenda - 
+- Metrics Spreadsheet 
+- Forms Updates Check-in 
+
+
+
+### Notes 
+
+#### Metrics 
+
+- Make process more efficient 
+- Work better at product and VA level 
+- Related OKRs
+
+- cross product and more birds eye view of space
+- tracking cross sentiment and themes 
+
+- helps to maintain list
+
+
+Premal - find what need, help find what to prioritize across forms 
+
+Renata - sort out issues within team’s influence and track desirable features 
+
+Useful to see volume of month over month trends 
+
+John question - Weighting to apply sentiment
+Renata - use ratings and qualitative feedback for basic of decision sentiment
+
+
+Unified CSAT
+- VFS is feedback button
+- A11 on confirmation page of form or Drupal page
+
+- Want to be consistent across the VA
+
+Premal thinks it is across both - taking both 
+
+Do a combined and separated score?
+- Premal to get info and background on how it is calculated across va product teams
+
+Call center might have own Medallia surveys - Premal will reach out
+ 
+
+#### FORM CHECK IN 
+
+Premal wants to look at Priorities 
+- A-card 
+
+Roadmap
+- Diverse mix of forms and users 
+
+EZ - oldest of forms ; first digitized 
+Form statuses refinement next up
+
+Edit EC/NOK via in VA Profile next up work
+
+CG is simple unauthenticated form
+
+Alyssa question:
+- Where EZ displayed on My VA 
+- Providing ongoing status of CHAMPVAm, considering moving out from underneath the accordion and out from that section 
+
+Statues restrictive on MyVA - submitted or enrolled 
+
+IVC Forms 
+
+FMP 1 - working on process more automatic and generate letter
+FMP Claims - launching next week, Veteran only, direct deposit updates
+- required to be logged in, only form that does not offer an unauthorized route 
+
+10-10d - CHAMPVA application 
+Merged OHI form/certificate 
+Working with VES injest and PEGA (document storage end point)
+Slowing moving over
+
+
+OHI standalone - new PDF and changes to UI
+1 person per submission 
+Possible feature update - family update route instead of individual submissions
+Inefficient process - in merged 10-10d version this is a little better by using array builder 
+
+Claims - 
+Enhanced claims flow released recently, to send in resubmissions for reopens, for missing documents 
+Long-term vision in VFMP status tool 
+Support Duty to Assist (current work) - working on a way to digitized that process to indicate to team 
+
+
+Updates on 10-10d TRICARE eligibility work 
+DEERS API integration to let them know they are not eligible for CHAMPVA right now 
+
+A-Card a higher priority next item
+Allow to save/print a copy of enrollment card
+
+Prefill is another area for future work on IVC forms 
+
+School Cert - 
+Medallia complaints of provided to other depts in VA
+
+Sendback letters 
+- John mentions opportunity to streamline content and improve
+
+
+
+
+
 ## January 22, 2026
 
 Attendees: Renata, Hieu, Jessica, Premal, Alyssa Li, Amanda, Mike, Andrea 
