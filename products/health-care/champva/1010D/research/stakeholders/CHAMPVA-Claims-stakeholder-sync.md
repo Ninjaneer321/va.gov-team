@@ -64,7 +64,7 @@ SUMMARY: DTA updates in the works will address sendback letter checkbox convo
 * Andrea confirms - this process will be handled within the team for now?
    * Cindy - Yes
 
-**DOC TYPE QUESTION **
+**DOC TYPE QUESTION**
 
 * CHAMPVA, CVA REOPEN, the supporting doc type
    * Cover sheet = claim form as CVA form
