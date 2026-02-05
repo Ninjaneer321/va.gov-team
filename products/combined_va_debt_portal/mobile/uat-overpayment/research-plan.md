@@ -118,7 +118,7 @@ Veterans who have benefit overpayment debt can currently access overpayment info
 
 `What problem is your product trying to solve?`
 
-The mobile app does not have any debt-related information for Veterans to access. How might we provide Veterans with the ability to view the total amount owed for benefit overpayment debts, as well as the details related to that debt on the mobile app?  
+The mobile app does not have any debt-related information for Veterans to access. The goal is to let Veterans see totals + details for overpayment debts in the app.
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
