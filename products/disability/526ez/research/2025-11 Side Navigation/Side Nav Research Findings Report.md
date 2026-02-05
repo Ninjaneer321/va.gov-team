@@ -139,8 +139,7 @@ tags:
 
 **Contacts:** Irene Vailikit, Bianca Alvelo Rivera, Fiorella Geedi
 
-**[Research Readout (PDF)]**  
-*Add a link to your research readout deck, if available.*
+**[Side Navigation Research Readout Deck.pdf](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/files/Side%20Navigation%20Research%20Findings%20Presentation%20Deck%20-%20January%202026.pdf)**  
 
 **Jump to:**
 
