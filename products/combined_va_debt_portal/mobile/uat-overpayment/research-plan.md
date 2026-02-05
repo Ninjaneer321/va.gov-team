@@ -110,25 +110,11 @@ tags:
 
 ## Background 🏗️
 
-_This is a User Acceptance Test (UAT) as a follow-up from the Usability Test of [Overpayments and Copayments on mobile app](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/research-plan.md?plain=1)._
-_Overpayments will be the first section to be released in the mobile app. Copays will be released at a later date._
+This study is a User Acceptance Test (UAT) for the VA mobile app’s Overpayments experience. The goal of this UAT is to confirm that the Overpayments feature is ready for production release by validating that the experience works as intended for Veterans using real account data in a pre-release build of the app.
 
-Veterans can experience debt from the VA. The two types of debt that the Financial Management Team has focused on include: 
+Benefit overpayment debt can occur when a Veteran receives more compensation than they are entitled to at that moment, and it is handled by the Veterans Benefits Administration (VBA). Examples of overpayments include a dependent change from a divorce, and receiving education benefits for a class but then dropping the class.
 
-* Overpayments   
-* Copayments (also referred to as copays)
-
-Benefit overpayment debt can occur when a Veteran receives more compensation than they are entitled to, and it is handled by the Veterans Benefits Administration (VBA). Examples of overpayments include a dependent change from a divorce, or even when a Veteran receives education benefits for a class but then drops the class and does not report that. In these instances, the Veteran will owe money to the VA for such actions. 
-
-Copayments are part of an individual's health insurance and are the amount of money owed for a specific healthcare service or prescription; the remainder of the cost is covered by insurance. Veterans with medical copayment debt from the VA have received care at a VA health facility. The Veterans Health Administration (VHA) manages medical copayments.  
-
-Veterans can view their overpayment and copayment debts through the authenticated experience on VA.gov. After logging on, they can access their debt portal through the My VA tab. If overpayment or copayment debt exists, Veterans can take the following actions: 
-
-* View the debt  
-* Make a payment and resolve the debt online  
-* Dispute charges   
-* Request assistance from the VA for financial hardship (by completing the Financial Status Report, VA Form 5655\)  
-* View resources about VA debt management
+Veterans who have benefit overpayment debt can currently access overpayment information through the authenticated experience on VA.gov. The VA mobile app does not currently provide debt-related information or actions. This release introduces Overpayments as the first debt capability in the mobile app (Copays will be released separately at a later date).
 
 `What problem is your product trying to solve?`
 
