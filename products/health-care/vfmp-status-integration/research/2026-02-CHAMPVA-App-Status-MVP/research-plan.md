@@ -194,19 +194,21 @@ Are there moments that matter?</summary>
 
 ### Research questions
 
-**`1.` How do participants interpret the inclusion of CHAMPVA applications within the status tool? What do they expect to be included in the status tool based on the front page?**
+**`1.` In what section of MyVA do participants expect to find their CHAMPVA application? Are they able to navigate to the status tool without assistance?** 
 
-**`2.` How do Veterans understand the application status for each of their beneficiaries based on the information presented in the status tool?**
+**`2.` How do participants interpret the inclusion of CHAMPVA applications within the status tool? What do they expect to be included in the status tool based on the front page?**
 
-**`3.` How do beneficiaries understand the status of their application based on the information presented in the status tool?**
+**`3.` How do Veterans understand the application status for each of their beneficiaries based on the information presented in the status tool?**
 
-**`4.` How do participants interpret the steps presented in the status tool? How do they interpret the steps in order to build a mental model of how CHAMPVA applications are processed?**
+**`4.` How do beneficiaries understand the status of their application based on the information presented in the status tool?**
 
-**`5.` When participants receive an evidence request, are they able to easily understand how to upload the requested documents and why they're being asked for those documents?**
+**`5.` How do participants interpret the steps presented in the status tool? How do they interpret the steps in order to build a mental model of how CHAMPVA applications are processed?**
 
-**`6.` When one beneficiary on an application is deemed eligible, and the other has a pending evidence request – how do participants understand what next steps to take? Does the status of the application make sense to them?**
+**`6.` When participants receive an evidence request, are they able to easily understand how to upload the requested documents and why they're being asked for those documents?**
 
-**`7.` What are opportunities to help participants understand the status of their CHAMPVA application?**
+**`7.` When one beneficiary on an application is deemed eligible, and the other has a pending evidence request – how do participants understand what next steps to take? Does the status of the application make sense to them?**
+
+**`8.` What are opportunities to help participants understand the status of their CHAMPVA application?**
 
 
 ### Hypotheses
@@ -223,8 +225,16 @@ Are there moments that matter?</summary>
 
 ---
 
-**[Enter hypotheses here]** 
+Our hypothesis is that users will be able to navigate through the prototype relatively easily. We assume that they will react positively to seeing the status of their application and being able to upload requested documents online. 
 
+However, they may have issues with the following: 
+
+- Navigating to the status tool from MyVA, understanding what section to find CHAMPVA Applications in
+- Understanding that CHAMPVA applications are the only applications included in the status tool
+- Interpreting the steps a CHAMPVA application will go through to be processed, and understanding the current status of their application
+- Understanding how to upload requested documents
+- Interpreting the next steps on a CHAMPVA application when one beneficiary has been approved, and the other is missing documentation
+  
 ---
    
 ## Methodology  🛠️
@@ -245,7 +255,7 @@ Remote research, over Zoom.
 ## Research materials 📔
 
 **For moderated usability tests:** 
-- [Link to conversation guide]() - TBD
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/vfmp-status-integration/research/2026-02-CHAMPVA-App-Status-MVP/conversation-guide.md)
 - [Link to prototype]() - TBD
 	
 ## Recruitment 🎯	
@@ -282,8 +292,8 @@ We will split this study into two cohorts:
 - Have a spouse and/or dependent children who are **not** currently enrolled in the CHAMPVA program
 
 **Screener Cohort 1 (Veterans with 100% service connected disability whose spouse/dependents may or may not be enrolled in CHAMPVA benefits):**
-1. Do you get a VA disability compensation for a service-connected disability rating of 100%?
-_Response otions: YES or NO_
+1. Do you get VA disability compensation for a service-connected disability rating of 100%?
+_Response options: YES or NO_
 * Yes [jump to next question]
 * No [disqualify]
 
@@ -295,24 +305,24 @@ _Response options: YES or NO_
 3. Is your spouse and/or dependents enrolled in the Civilian Health and Medical Program of the Department of Veterans Affairs (CHAMPVA)?
 _Response options: YES, NO, UNSURE_
 * Yes (disqualify)
-* No (Qualifies for study, RECORD as enrolled in CHAMPVA)
+* No (Qualifies for study, RECORD as not enrolled in CHAMPVA)
 * Unsure (Qualifies for study, RECORD as unsure if enrolled in CHAMPVA)
 
 **Cohort 2 must:**
 - Identify as a spouse or dependent child of a Veteran with a service-connected disability rating of 100%
-- Are not currently enrolled in CHAMPVA
+- **Not** be currently enrolled in CHAMPVA
 
 **Screener Cohort 2 (Spouses and dependent children of Veterans with a 100% service-connected disability):**
 1. Please select the answer that best fits you:
 _Response options: Spouse of a Veteran, Dependent child of a Veteran (Answering either would qualify the participant)_
 
-2. Does the Veteran you are related to get a VA disability compensation for a service-connected disability rating of 100%?
+2. Does the Veteran you are related to get VA disability compensation for a service-connected disability rating of 100%?
 _Response options: YES, NO (Answering YES would qualify the participant)_
 
 3. Are you enrolled in the Civilian Health and Medical Program of the Department of Veterans Affairs (CHAMPVA)?
 _Response options: YES, NO, UNSURE_
 * Yes (disqualify)
-* No (Qualifies for study, RECORD as enrolled in CHAMPVA)
+* No (Qualifies for study, RECORD as not enrolled in CHAMPVA)
 * Unsure (Qualifies for study, RECORD as unsure if enrolled in CHAMPVA)
 
 
@@ -329,7 +339,7 @@ _Response options: YES, NO, UNSURE_
 
 ### Optional Kick-off Call with Perigean
 We would like a kick-off call with Perigean to discuss recruitment criteria. Suggested dates and times: 
-- `Monday - Friday 9:30am-12:00pm ET and 1:00pm-4:30pm ET`
+- `Monday - Friday 11:30am-4:30pm ET`
 
 ### Prepare
 **A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
