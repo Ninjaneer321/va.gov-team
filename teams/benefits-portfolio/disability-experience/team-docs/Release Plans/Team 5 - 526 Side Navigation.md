@@ -130,7 +130,7 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 
 #### Planning
 
-- Length of time: 2 days - starting Monday 02/23
+- Length of time: 2 days
 - Percentage of Users (and roughly how many users do you expect this to be): [FILL_IN]% (*Recommendation: 1% of users*)
 
 #### Results
@@ -148,7 +148,7 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 
 #### Planning
 
-- Length of time:  Five days - starting Wednesday 02/25
+- Length of time:  Five days
 - Percentage of Users (and roughly how many users do you expect this to be): [FILL_IN]% (*Recommendation: 1% of users*)
 
 #### Results
@@ -165,7 +165,7 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 
 #### Planning
 
-- Length of time: One week - starting Monday 03/02
+- Length of time: One week
 - Percentage of Users (and roughly how many users do you expect this to be): 25%
 
 #### Results
@@ -182,7 +182,7 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 
 #### Planning
 
-- Length of time: One week - starting Monday 03/09
+- Length of time: One week
 - Percentage of Users (and roughly how many users do you expect this to be): 50%
 
 #### Results
@@ -197,7 +197,7 @@ The recommended progression is 1% → 25% → 100%. However, VFS teams have flex
 
 #### Planning
 
-- Length of time: One week - starting Monday 03/23
+- Length of time: One week
 - Percentage of Users (and roughly how many users do you expect this to be): 100%
 
 #### Results
