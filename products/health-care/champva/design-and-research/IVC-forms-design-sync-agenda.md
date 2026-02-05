@@ -5,7 +5,7 @@
 
 
 
-## Februar 5, 2026
+## February 5, 2026
 
 Attendees: Renata, Hieu, Jessica, Premal, Alyssa Li, Mike, Andrea, Heather, John, Chantale
 
