@@ -1,11 +1,11 @@
-# Ask VA: Initiative Brief for VADS Inbox Sort/Filter Patterns
-This document provides an overview of the Ask VA initiative to implement the **VADS Inbox Sort/Filter Patterns**. 
+# Ask VA: Initiative Brief for Decoupling Business vs. Personal Form Flows
+This document provides an overview of the Ask VA initiative to implement the new **Business vs. Personal Form Flow**. (language may be updated following discussions with CAIA)
 
 To view **Ask VA's Product Outline** go here, [in this GitHub doc](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/Product%20outline.md).
 
 | Initiative Start Date | Initiative Launch Date | CC Kick-off Submission Date |
 |----------|----------|----------|
-| 2025 | TBD | 2/3/2026 |
+| 2025 | TBD | TBD/Feb2026 |
 
 **Jump to:**
 - [Overview](#overview)
@@ -16,24 +16,26 @@ To view **Ask VA's Product Outline** go here, [in this GitHub doc](https://githu
 - [Team and VA partners](#team-and-va-partners)
 
 ## Overview
-Ask VA users submit questions at, [Ask VA](https://www.va.gov/contact-us/ask-va/introduction).  An authenticated (logged in) user can view a personalized inbox of their submitted questions, progress statuses, and received replies.  
+Ask VA users submit questions about VA benefits and services at, [Ask VA](https://www.va.gov/contact-us/ask-va/introduction).
 
 In 2025 the Ask VA team executed an [Inbox Usability Study](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/User%20research/2025-10%20Form%20and%20Inbox%20Usability%20Study). 
-Key findings support implementing enhancements to the current inbox experience.
+Key findings support implementing enhancements to the current form flow to distiguish entry points (CTAs) between Ask VA personal users and Ask VA business users.
 
-- Current Inbox Experience (as of 1/27/2026)
-
-<img width="1010" height="1248" alt="image" src="https://github.com/user-attachments/assets/606652ea-92f7-4b7c-8fef-863e4ac129eb" />
-
+We are currently distinguishing between personal and business users with the following language in our design mocks.  2/10/26 meeting with CAIA to guide Ask VA team on proper language to be used.
+<img width="925" height="897" alt="image" src="https://github.com/user-attachments/assets/ca587c06-3a7d-44f8-be04-062b9eb270bc" />
 
 
+Current Figma designs, https://www.figma.com/design/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form---Future-exploration?node-id=2033-121709&t=MIbYsLljnUqjPvqP-4
 
-During design activities, VA Design System (VADS) guidance was identified for Ask VA to adopt the [new standard](https://design.va.gov/components/search-filter).
+
+#### Stephanie still has the below to update ####
+
+
 
 ## Problem statement
 **Background**
 
-Ask VA users want to easily and quickly view their submitted questions using; search, filter and sort tooling. The current inbox experience displays submitted questions (also referred to as "inquiries") in a grid format, with a card representing each inquiry.  The cards do not display in a user friendly way, often leaving users confused of the order their information is displayed.  Users want the ability to filter their inquiries by category type, status and sort by newest to oldest or oldest to newest.
+Ask VA users are classified by two distinct personas, using Ask VA as a personal user or a business user/veteran liaison.  The current user experience does not promote an obvious distinction between these two users and offers categories and topics that are not relevant for the different user types.  The existing UI experience leads to user confusion on how to complete the form to submit a question.   Additionally, because the two user types are entangled throughout the existing experience there is back end code complexity that should be reduced.
 
 **Solution**
 
@@ -109,4 +111,3 @@ Data Example (Dec 1 - Dec 31, 2025)
 |Product Owner (VES, AVA CRM)|Natalie Morales|natalie.morales@va.gov|
 |Project Executive Sponsor(VEO)|Kathleen Reavy|kathleen.reavy@va.gov|
 |Product Owner(VEO)|Jaime Rocha|jaime.rocha@va.gov|
-

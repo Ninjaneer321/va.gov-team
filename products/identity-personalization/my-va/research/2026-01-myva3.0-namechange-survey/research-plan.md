@@ -1,4 +1,4 @@
-# Research Plan for Authenticated Experience Team, My VA 3.0 name change, 01/2026
+# Research Plan for Authenticated Experience Team, My VA 3.0 name change survey, 01/2026
 
 ## Background 🏗️
 
@@ -16,7 +16,7 @@ Authenticated Experience
 
 What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?
 
-We are updating the name of My VA based on previous user feedback to incorporate a new title that is more recognizable by Veterans and aligned to their mental models.. My VA Dashboard will inform Veterans of their existing benefits with VA. 
+We are updating the name of My VA based on previous user feedback to incorporate a new title that is more recognizable by Veterans and aligned to their mental models. My VA Dashboard will inform Veterans of their existing benefits with VA. 
 
 [Implementation is being informed by prior usability study research.](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/research/2025-08-myva3.0-phase1-usabilitytesting) 
 
@@ -237,14 +237,12 @@ Please list the names of people in each role. In the Slack study channel, send a
 
 ## Appendix
 
-Jump to:
-
 [Instruction email](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2026-01-myva3.0-namechange-survey/survey-outline.md#instruction-email)
 
-[Survey structure](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2026-01-myva3.0-namechange-survey/survey-outline.md#instruction-email)
+[Survey structure](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2026-01-myva3.0-namechange-survey/survey-outline.md#survey-structure)
 
 Perigean completion codes (To be added)
 
 Analysis (To be added)
 
-[Laws related to this work](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2026-01-myva3.0-namechange-survey/survey-outline.md#instruction-email)
+[Laws related to this work](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2026-01-myva3.0-namechange-survey/survey-outline.md#laws-related-to-this-work)

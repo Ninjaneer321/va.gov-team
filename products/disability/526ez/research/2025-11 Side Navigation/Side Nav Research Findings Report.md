@@ -159,27 +159,28 @@ tags:
 - [Research participants](#research-participants)
 
 ## Context
-As a Veteran exits the service and enters the “Starting Up” and “Taking Care of Myself” life stages, they may look to claim disability benefits via the Disability Compensation form (VA Form 21-526EZ). This form is one of the longest on VA.gov, and navigation within the form is a major friction point. Veterans can only navigate the form by clicking the “Back” and “Continue” buttons and are unable to jump to previously completed sections. 
-
+As a Veteran exits the service and enters the “Starting Up” and “Taking Care of Myself” life stages, they may look to claim disability benefits via the Disability Compensation form (VA Form 21-526EZ). This form is one of the longest on VA.gov, and navigation within the form is a major friction point. Veterans can only navigate the form by clicking the “Back” and “Continue” buttons and are unable to jump to previously completed sections. </br>
+</br>
 This results in Veterans having to click these buttons multiple times to make changes or edit their responses in different sections of the form. Additionally, it's difficult for a Veteran to understand where they are in the form and how much of the form has been completed; the section titles, visual progress bar indicator, and number of questions are not neatly correlated. The current experience can feel overwhelming and cumbersome for Veterans. By implementing the following navigation designs, we hope to alleviate some of the frustrations that come with filling out this form. 
 
 ## Proposed Designs
 > [!NOTE]
-> We incorrectly used the term “Review and Submit” as the heading for Step 6 in our prototype designs and throughout this report, which is incorrect. The correct heading in production is “Review application.”
+> We incorrectly used the term “Review and Submit” as the heading for Step 6 in our prototype designs and throughout this report. The correct heading in production is “Review application.”
 
 ### Side Navigation (Concept 1)
-In our research, we tested two design concepts. The first concept is the VADS side navigation component implemented into the 526ez form. This will let Veterans jump to previously completed sections of the form, allowing them to review, add, or edit answers faster with fewer clicks. The side navigation will contain links to the landing pages of the 6 main steps of the form: (1) Veteran details, (2) Conditions, (3) Mental health statement, (4) Supporting evidence, (5) Additional information, (6) Review and submit. The navigation component also provides an overview of the steps in the form, helping create a sense of place and completion within the form.
+In our research, we tested two design concepts. The first concept is the VADS side navigation component implemented into the 526ez form. This will let Veterans jump to previously completed sections of the form, allowing them to review, add, or edit answers faster with fewer clicks. The side navigation will contain links to the landing pages of the 6 main steps of the form: (1) Veteran details, (2) Conditions, (3) Mental health statement, (4) Supporting evidence, (5) Additional information, (6) Review and submit. The navigation component also provides an overview of the steps in the form, helping create a sense of place and completion within the form. </br>
+</br>
 In this new design, the VADS segmented progress bar with step labels has been removed, so Veterans are not interacting with two different components that indicate their location in the form.
 On mobile devices, the side navigation component converts to an accordion that the Veteran can expand to view links to all the form's main sections.
 
 ![Screenshot of our Side Navigation (Concept 1) prototype, showing the desktop and mobile device versions on the first page of VA Form 21-526EZ Disability Compensation on VA.gov](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Context%20Section%20Side%20Nav.png)
-_Caption: Screenshot of our Side Navigation (Concept 1) prototype, showing the desktop and mobile device versions on the first page of VA Form 21-526EZ Disability Compensation on VA.gov_
+_Caption: Screenshot of our Side Navigation (Concept 1) prototype, showing the desktop and mobile device versions of the first page of Step 2: Conditions on VA Form 21-526EZ Disability Compensation on VA.gov_
 
 ### Process List (Concept 2)
 Our second design concept visually presents as a process list. This component includes features and treatment styles that more strongly differentiate between the steps that have been completed, the step the Veteran is currently on, and the steps they have yet to complete.
 
 ![Screenshot of our Process List (Concept 2) prototype, showing the desktop and mobile device versions on the first page of VA Form 21-526EZ Disability Compensation on VA.gov](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Context%20Section%20Process%20list.png)
-_Caption: Screenshot of our Process List (Concept 2) prototype, showing the desktop and mobile device versions on the first page of VA Form 21-526EZ Disability Compensation on VA.gov_
+_Caption: Screenshot of our Process List (Concept 2) prototype, showing the desktop and mobile device versions of the first page of Step 2: Conditions on VA Form 21-526EZ Disability Compensation on VA.gov_
 
 ## Research Goals
 
@@ -277,8 +278,8 @@ We had a total of 8 participants; 4 participants tested both components on desk
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Desktop:** Participants will be able to see which step they are on in the form and how many steps remain to complete it using the visual indicators in the Navigation component.                                                  | **Definitely True**. All participants (4/4) were able to identify their progress through various text-based and visual cues, such as color changes, bolding, and status label changes (Process List). They all understood what step they were on and what steps they had left. Some participants would include their current step as one they still needed to complete. Most felt more assured with the "In Progress" status label on the Process List and therefore preferred this concept over the Side Navigation one.                                      |
 | **Mobile:** Since the form step titles will be collapsed within the accordion component and not always visible, some participants may struggle to track their progress through the form when the navigation accordion is collapsed. | **Definitely True.** All mobile participants (4/4) were unable to determine which steps they were on, which steps they had completed, or which steps they had not yet started when the Navigation component was collapsed. Some attempted to recall this information or read the page title aloud to identify their current step. However, most participants understood that they needed to expand the Navigation component to see their progress.                                                                                                             |
-| **Side Navigation vs. Process List:** More participants will better understand the steps they have completed in the Process List than in the Side Navigation because of the “Complete” status label on the Process List.            | **Likely False.** All participants (8/8) were able to identify which step they had completed through various text-based and visual cues, such as color changes, bolding, and status label changes (Process List). Some participants mentioned that the text remained blue but was not bolded for the steps they completed (Side Navigation). Others noticed how completed steps turned to links (Process List). Most felt more assured with the "complete" status label on the Process List and therefore preferred this concept over the Side Navigation one. |
-| **Side Navigation vs. Process List:** More participants will be able to identify the step they are currently on when using the Process List versus the Side Navigation due to the blue fill on the Process List.                    | **Likely False.** All participants (8/8) were able to identify which step they were on through various text-based and visual cues, such as color changes and bolding, regardless of the design they were testing. Some participants noticed the bolded text and the blue line to the left of the step name (Side Navigation). Others noticed the blue fill, bolding of text, and the “In Progress” status label to determine which step they were on (Process List).                                                                                           |
+| **Side Navigation vs. Process List:** More participants will better understand the steps they have completed in the Process List than in the Side Navigation because of the “Complete” status label on the Process List.            | **Likely False.** All participants (8/8) were able to identify which steps they had completed on both concepts through various text-based and visual cues, such as color changes, bolding, and status label changes (Process List). Some participants mentioned that the text remained blue but was not bolded for the steps they completed (Side Navigation). Others noticed how completed steps turned to links (Process List). Most felt more assured with the "complete" status label on the Process List and therefore preferred this concept over the Side Navigation one. |
+| **Side Navigation vs. Process List:** More participants will be able to identify the step they are currently on when using the Process List versus the Side Navigation due to the blue fill on the Process List.                    | **Likely False.** All participants (8/8) were able to identify which step they were on on both concepts through various text-based and visual cues, such as color changes and bolding, regardless of the design they were testing. Some participants noticed the bolded text and the blue line to the left of the step name (Side Navigation). Others noticed the blue fill, bolding of text, and the “In Progress” status label to determine which step they were on (Process List).                                                                                           |
 
   
 
@@ -303,7 +304,7 @@ We had a total of 8 participants; 4 participants tested both components on desk
     
 5. Finding #5: After interacting with the navigation component, all participants understood why they couldn’t access future steps.
     
-6. Finding #6: 6 out of 8 participants had difficulty navigating back to edit answers when navigation steps did not clearly map to individual pages.
+6. Finding #6: Some participants (3 out of 8) had difficulty navigating back to edit answers when navigation steps did not clearly map to individual pages.
     
 7. Finding #7: All mobile participants were able to distinguish the navigation component accordion at the top of the Review and Submit page from the review accordions on that page.
     
@@ -377,7 +378,7 @@ When asked about skipping to a future step, all participants expressed an approa
 
 > “It's not letting me click on the one that says Step 6. It doesn't allow me to do so. Why I think that is, it wants you to fill out these steps, and because you really can't review anything without providing information to the VA...they don't want you to move on to the last step, because…it's kind of like a moot point, because without internal information [there would be no information to review].” - P8 (Mobile)
 
-### Finding #6: 3 out of 8 participants had difficulty navigating back to edit answers when navigation steps did not clearly map to individual pages.
+### Finding #6: Some participants (3 out of 8) had difficulty navigating back to edit answers when navigation steps did not clearly map to individual pages.
 
 - Participants’ ability to navigate back and edit answers was affected by a mismatch between the steps shown in the navigation and the multiple pages contained within each step, making it harder to identify where to return to change specific information.
     
@@ -397,7 +398,7 @@ When asked about skipping to a future step, all participants expressed an approa
     
 - During testing, all participants were able to distinguish the navigation component as having a different purpose from the Review and Submit page accordions.
 
-![Screenshot of the mobile accordion of the Side Navigation (Concept 1) prototype showing 'Step 6: Review and submit' of VA Form 21-526EZ. The left design shows the treatment for the closed accordion and the right design shows the treatment for the open accordion with the form steps, and include annotations to distinguish between open and closed.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Finding%20%237%20Image.png))
+![Screenshot of the mobile accordion of the Side Navigation (Concept 1) prototype showing 'Step 6: Review and submit' of VA Form 21-526EZ. The left design shows the treatment for the closed accordion and the right design shows the treatment for the open accordion with the form steps, and include annotations to distinguish between open and closed.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-11%20Side%20Navigation/images%20final%20report/Finding%20%237%20Image.png)
     
 > “I would scroll to that portion [Conditions review accordion] and click edit, or I could just [use the] drop down from the “Select a step” [Navigation accordion component] and go back to the conditions, and then list it there.” -P10 (Mobile)
 
@@ -521,8 +522,8 @@ This section will be revisited after the Product Outline and Initiative Brief ar
 
 For the Process List design:
 
-- **Assistive Technology Testing**
-  - Conduct AT testing and accessibility audits to validate the front-end and back-end requirements for screen reader and screen magnifier users 
+- **Usability Testing with AT Users**
+  - Conduct usability testing with AT users to validate the front-end experience and capture back-end requirements for screen reader and screen magnifier users 
 
 
 (As mentioned in our recommendations:)

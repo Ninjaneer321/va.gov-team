@@ -73,10 +73,10 @@ api.vass.infrastructure.availability.no_slots_available
 
 **Availability Scenarios** (4 metrics):
 
-- `api.vass.infrastructure.availability.no_slots_available` - **CRITICAL**: In valid window, zero slots (capacity problem)
-- `api.vass.infrastructure.availability.already_booked` - Veteran checking after booking (UX issue)
-- `api.vass.infrastructure.availability.next_cohort` - Booking window not open yet (early engagement)
-- `api.vass.infrastructure.availability.no_cohorts` - Outside all cohort windows (education opportunity)
+- `api.vass.infrastructure.availability.no_slots_available` - **CRITICAL**: In valid window, zero slots
+- `api.vass.infrastructure.availability.already_booked` - Veteran checking after booking
+- `api.vass.infrastructure.availability.next_cohort` - Booking window not open yet
+- `api.vass.infrastructure.availability.no_cohorts` - Outside all cohort windows
 
 **Tags**: `service:vass` (all infrastructure metrics)
 

@@ -112,15 +112,15 @@ tags:
 > Use the [GitHub Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed research plan.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags. 
 
 # Research Plan for VFMP Status Integration, Health Apps in Claims Status Tool, CHAMPVA Application Status MVP 02/2026
-> [!NOTE]
-> *Questions about how to set up your research study? Reach out in the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel.* 
 
 ## Background 🏗️
 <details><summary>Briefly describe the background of your product.</summary>
 	
 `What problem is your product trying to solve?`
 
-**Veterans and their families enrolled in CHAMPVA currently lack digital infrastructure to manage their application status, relying heavily on paper mail and manual processes. This results in delays, backlogs, and a high volume of status inquiries. Approximately 80% of calls to the CHAMPVA helpdesk are status inquiries, leading to significant wait times. We will integrate CHAMPVA applications into the existing Claim and Appeal Status Tool (CST) to enhance transparency, reduce delays, and improve the overall user experience for veterans and their families. This solution aims to provide real-time access to application statuses, streamline documentation workflows, and reduce call center volume.**
+**Veterans and their families enrolled in CHAMPVA currently lack digital infrastructure to manage their application status, relying heavily on paper mail and manual processes. This results in delays, backlogs, and a high volume of status inquiries. Approximately 80% of calls to the CHAMPVA helpdesk are status inquiries, leading to significant wait times.** 
+
+**We will integrate CHAMPVA applications into the existing Claim and Appeal Status Tool (CST) to enhance transparency, reduce delays, and improve the overall user experience for veterans and their families. This solution aims to provide real-time access to application statuses, streamline documentation workflows, and reduce call center volume.**
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
@@ -140,29 +140,24 @@ tags:
 
 <details><summary>Which OCTO priorities does this research support? Work with your VA lead and product manager as needed. </summary>
 
-> **NOTE:** If a Key Result does not have a ***Research Ops Plain Language*** equivalent, it does not map to research supporting it as a key result for the parent objective.
-
-
-`Objective 1:  Optimize software delivery for Veteran impact.`  
+`Objective 1: Optimize software delivery for Veteran impact.`
 
 > - **Key Result 1.1:** All C100 products have a documented Product Vision, including identifying up to three Veteran-impacting KPIs, published on Product.VA.gov.
-  - ***Research Ops Plain Language:** Supports up to three Veteran-impacting Key Performance Indicators documented for this on Product.VA.gov*
+>      - Research Ops Plain Language: Supports up to three Veteran-impacting Key Performance Indicators documented for this on Product.VA.gov
 > - **Key Result 1.2:** Delivered 25 or more releases that have measurably improved a product's Veteran-impacting KPIs.
-  - ***Research Ops Plain Language:** Supports a production release that will measurably improved a product's Veteran-impacting KPIs.*
+>      - Research Ops Plain Language: Supports a production release that will measurably improved a product's Veteran-impacting KPIs.
 
 `Objective 3: Relentlessly improve the user experience.`
 
+
 > - **Key Result 3.1:** Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.
-  - ***Research Ops Plain Language:** Supports this product’s OIT portfolio (Health, Benefits, etc) in improving customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.*
+>      - Research Ops Plain Language: Supports this product’s OIT portfolio (Health, Benefits, etc) in improving customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.
 > - **Key Result 3.2:** 100% of end-user facing C100 systems maintain a ranked list of user pain points.
-  - ***Research Ops Plain Language:** Supports maintaining the ranked list of user pain points for Veteran-facing Products and Services.*
+>      - Research Ops Plain Language: Supports maintaining the ranked list of user pain points for Veteran-facing Products and Services.
 > - **Key Result 3.3:** 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system.
-  - ***Research Ops Plain Language:** Supports the delivery of at least one release that directly addresses a documented user pain point within this product.*
+>      - Research Ops Plain Language: Supports the delivery of at least one release that directly addresses a documented user pain point within this product.
 
 </details>
-
-> [!TIP]
-> Delete priorities not supported by this research.
 
 ### [Veteran Journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
 
@@ -177,14 +172,8 @@ Are there moments that matter?</summary>
 
 </details>
 
-> [!TIP]
-> Delete journeys not supported by this research.
-
 ## Research Goals 🥅	
 `What are you trying to learn from this research?` 
-
-> [!NOTE]
-> Limit 3 goals per study. If you have more than 3 goals, consider how to break up your research into iterative studies.
 
 ### Goals
 
@@ -199,38 +188,30 @@ Are there moments that matter?</summary>
 
 ---
 
-**[Enter outcome here]** 
+**This research will help us identify usability and content issues with the CHAMPVA Application Status prototype. We will use these insights to refine the design and content of these screens before they go into production as an extension of the Claims Status Tool. Ultimately, this will enable Veterans and beneficiaries to clearly understand their CHAMPVA Application status, know when and how to upload missing documents, and reduce long call center wait times.** 
 
 ---
 
 ### Research questions
-> [!NOTE]
-> Do not write out all questions you plan to ask participants -- that should go in the` [conversation guide.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/conversation-guide-template.md)
 
-***Consider bucketing research questions under research goals and think about:***
-	
-`What will I do with what I learn from this question?`
-  
-`Does this question serve the goals of my study?`
+**`1.` In what section of MyVA do participants expect to find their CHAMPVA application? Are they able to navigate to the status tool without assistance?** 
 
-**`1.` How do participants interpret the inclusion of CHAMPVA applications within the status tool? What do they expect to be included in the status tool based on the front page?**
+**`2.` How do participants interpret the inclusion of CHAMPVA applications within the status tool? What do they expect to be included in the status tool based on the front page?**
 
-**`2.` How do Veterans understand the application status for each of their beneficiaries based on the information presented in the status tool?**
+**`3.` How do Veterans understand the application status for each of their beneficiaries based on the information presented in the status tool?**
 
-**`3.` How do beneficiaries understand the status of their application based on the information presented in the status tool?**
+**`4.` How do beneficiaries understand the status of their application based on the information presented in the status tool?**
 
-**`4.` How do participants interpret the steps presented in the status tool? How do they interpret the steps in order to build a mental model of how CHAMPVA applications are processed?**
+**`5.` How do participants interpret the steps presented in the status tool? How do they interpret the steps in order to build a mental model of how CHAMPVA applications are processed?**
 
-**`5.` When participants receive an evidence request, are they able to easily understand how to upload the requested documents and why they're being asked for those documents?**
+**`6.` When participants receive an evidence request, are they able to easily understand how to upload the requested documents and why they're being asked for those documents?**
 
-**`6.` When one beneficiary on an application is deemed eligible, and the other has a pending evidence request – how do participants understand what next steps to take? Does the status of the application make sense to them?**
+**`7.` When one beneficiary on an application is deemed eligible, and the other has a pending evidence request – how do participants understand what next steps to take? Does the status of the application make sense to them?**
 
-**`7.` What are opportunities to help participants understand the status of their CHAMPVA application?**
+**`8.` What are opportunities to help participants understand the status of their CHAMPVA application?**
 
 
 ### Hypotheses
-> [!NOTE]
-> Remember to constrain the hypotheses to the goals of your study!
  
 **Think through these prompts to develop strong hypotheses:**
 	
@@ -244,16 +225,26 @@ Are there moments that matter?</summary>
 
 ---
 
-**[Enter hypotheses here]** 
+Our hypothesis is that users will be able to navigate through the prototype relatively easily. We assume that they will react positively to seeing the status of their application and being able to upload requested documents online. 
 
+However, they may have issues with the following: 
+
+- Navigating to the status tool from MyVA, understanding what section to find CHAMPVA Applications in
+- Understanding that CHAMPVA applications are the only applications included in the status tool
+- Interpreting the steps a CHAMPVA application will go through to be processed, and understanding the current status of their application
+- Understanding how to upload requested documents
+- Interpreting the next steps on a CHAMPVA application when one beneficiary has been approved, and the other is missing documentation
+  
 ---
    
 ## Methodology  🛠️
-We will conduct remote moderated usability testing to observe research participants filling out a new claim and responding to a send-back notification to resubmit a claim. We will be testing in the Staging environment using the unauthenticated version of the form.
-
-Think-aloud protocol will be used for each task, to understand how the user understands and is responding to the flow of the claims form as they perform the tasks given to them. 
-
-Sessions will be conducted over Zoom with transcripts.
+This will be a usability study conducted remotely via Zoom.  
+ 
+The moderator will ask the participant some introductory questions about their previous experience applying for benefits and using VA.gov. Then, participants will be asked to complete the following tasks on a Figma prototype: 
+- The user has recently applied for CHAMPVA benefits and wants to check the status of their application.
+- The user received a letter in the mail requesting them to submit additional information. They follow the link in the letter in order to submit the requested documents.  
+ 
+Participants will be encouraged to talk through their exploration of each flow.  
 
 ### Location
 Remote research, over Zoom.
@@ -264,23 +255,32 @@ Remote research, over Zoom.
 ## Research materials 📔
 
 **For moderated usability tests:** 
-- [Link to conversation guide]()
-- [Link to prototype]()
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/vfmp-status-integration/research/2026-02-CHAMPVA-App-Status-MVP/conversation-guide.md)
+- [Link to prototype]() - TBD
 	
 ## Recruitment 🎯	
 
 ### Recruitment approach
-We would like Perigean to recruit assistive technology (AT) and non-AT users.
 
-Our intended audience for this study is Veterans with high disability ratings and their dependent spouses and children, who are currently enrolled in the CHAMPVA program. We will split this study into three cohorts:
+We would like Perigean to recruit Veterans and family members (spouses and dependents)
 
-* **Cohort 1 (n = 2 minimum):** Veterans with a 100% service connected disability rating with spouse and/or dependent children who are currently enrolled in CHAMPVA benefits
-  
-* **Cohort 2 (n = 8 minimum):** Spouses and dependent children of Veterans with a 100% service connected disability rating, who are currently enrolled in CHAMPVA benefits
+Our intended audience for this study is Veterans with high disability ratings and their dependent spouses and children, who are **not currently enrolled** in the CHAMPVA program. We don't want prior knowledge or previous tool exposure to affect their understanding of the new content in the prototype.
 
-* **Cohort 3 (n = 2 minimum):** Assistive Technology (AT) users who are Veterans with a service connected disability rating with a spouse and/or dependent children who may or may not be enrolled in CHAMPVA benefits
+We will split this study into two cohorts:
+- **Cohort 1 (5 completed)**: Veterans with a 100% service connected disability rating with spouse and/or dependent children, who are not currently enrolled in CHAMPVA benefits.
+- **Cohort 2 (5 completed)**: Spouses and dependent children of Veterans with a 100% service connected disabilty rating, who are not currently enrolled in CHAMPVA benefits.
+
+
 
 ### Recruitment criteria
+
+- `Veterans:` **[8]**
+- `Spouses and dependents:` **[8]**
+- `Total:` **[16]**
+- `Ideal completed sessions:` **[10, total 5 each cohort]**
+
+### Primary criteria (must-haves)
+
 **All participants must:**
 - Be on a computer or mobile device
 - During the session, be willing to share a web browser window on their device
@@ -289,13 +289,11 @@ Our intended audience for this study is Veterans with high disability ratings an
 
 **Cohort 1 must:**
 - Be a Veteran with a service-connected disability rating of 100%
-- Have a spouse and/or dependent children
-- **At least 1** spouse/children are _currently_ enrolled in CHAMPVA benefits (remainder can be unsure or not currently enrolled)
-- **At least 1** identifies as having a cognitive disability
+- Have a spouse and/or dependent children who are **not** currently enrolled in the CHAMPVA program
 
-**Screener Cohort 1 (Veterans with 100% service connected disability whose spouse/dependents are enrolled in CHAMPVA benefits):**
-1. Do you get a VA disability compensation for a service-connected disability rating of 100%?
-_Response otions: YES or NO_
+**Screener Cohort 1 (Veterans with 100% service connected disability whose spouse/dependents may or may not be enrolled in CHAMPVA benefits):**
+1. Do you get VA disability compensation for a service-connected disability rating of 100%?
+_Response options: YES or NO_
 * Yes [jump to next question]
 * No [disqualify]
 
@@ -306,114 +304,47 @@ _Response options: YES or NO_
 
 3. Is your spouse and/or dependents enrolled in the Civilian Health and Medical Program of the Department of Veterans Affairs (CHAMPVA)?
 _Response options: YES, NO, UNSURE_
-* Yes (Qualifies for study, recruit **at least 1**, RECORD as enrolled in CHAMPVA)
-* No (Disqualify)
+* Yes (disqualify)
+* No (Qualifies for study, RECORD as not enrolled in CHAMPVA)
 * Unsure (Qualifies for study, RECORD as unsure if enrolled in CHAMPVA)
 
-4. Do you find it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.
-_Response options: YES, NO_
-* Yes (Qualifies for study, recruit **at least 1**, RECORD response)
-* No (Qualifies for study, RECORD response)
-  
 **Cohort 2 must:**
 - Identify as a spouse or dependent child of a Veteran with a service-connected disability rating of 100%
-- We'd like to hear from **at least 6** spouses/children who are currently enrolled in Civilian Health and Medical Program of the Department of Veterans Affairs (CHAMPVA), the remainder can be not currently enrolled
+- **Not** be currently enrolled in CHAMPVA
 
-**Screener Cohort 2 (Spouses and dependent children of Veterans with a 100% service connected disability):**
+**Screener Cohort 2 (Spouses and dependent children of Veterans with a 100% service-connected disability):**
 1. Please select the answer that best fits you:
-_Response options: Spouse of a Veteran, Dependent child of a Veteran, Neither (Answering neither would disqualify the participant)_
+_Response options: Spouse of a Veteran, Dependent child of a Veteran (Answering either would qualify the participant)_
 
-2. Does the Veteran you are related to get a VA disability compensation for a service-connected disability rating of 100%?
+2. Does the Veteran you are related to get VA disability compensation for a service-connected disability rating of 100%?
 _Response options: YES, NO (Answering YES would qualify the participant)_
 
 3. Are you enrolled in the Civilian Health and Medical Program of the Department of Veterans Affairs (CHAMPVA)?
 _Response options: YES, NO, UNSURE_
-* Yes (Qualifies for study, recruit **at least 6**, RECORD as enrolled in CHAMPVA)
-* No (Qualifies, RECORD as not enrolled in CHAMPVA)
-* Unsure (Qualifies for study, RECORD as unsure if enrolled in CHAMPVA)
-
-**Cohort 3 must:**
-- Be a Veteran with a service-connected disability 
-- Have a spouse and/or dependent children
-- Spouse/children _do not_ need to be enrolled in CHAMPVA benefits, but preferred
-- Recruit 4 assistive tech users - **at least 2 AT user sessions** are needed for this study to be complete. We would prefer **screen reader users** over magnification.
-
-**Screener Cohort 3 (Veterans with a service connected disability whose spouse/dependents may or may not be enrolled in CHAMPVA benefits):**
-1. Do you currently receive VA disability compensation for a service-connected disability rating of 50% or higher?
-_Response options: YES or NO_
-* Yes [jump to next question]
-* No [disqualify]
-
-2. Do you have a spouse or dependent children?
-_Response options: YES or NO_
-* Yes [jump to next question]
-* No [disqualify]
-
-3. Is your spouse and/or dependents enrolled in the Civilian Health and Medical Program of the Department of Veterans Affairs (CHAMPVA)?
-_Response options: YES, NO, UNSURE_
-* Yes (Qualifies for study, RECORD as enrolled in CHAMPVA)
+* Yes (disqualify)
 * No (Qualifies for study, RECORD as not enrolled in CHAMPVA)
 * Unsure (Qualifies for study, RECORD as unsure if enrolled in CHAMPVA)
 
-4. Do you need a screen reader or screen magnifier **every time** you use the Internet? We ask this question because we want to make sure that our website works for people who rely on these types of technologies
-_Response options: YES or NO_
-* Yes [Recruit **at least 2**, proceed to next question]
-* No [Disqualified]
-
-5. How long have you been using this screen reader or screen magnifier?
-* Less than 1 year (DISQUALIFY)
-* At least 1 year (ask next question)
-
-6. [If yes to Q5] Please list the name of the screen reader or screen magnifier technology you will use during the session
-_Response: free text field_ (If user mentions a browser extension such as Real Aloud, this disqualifies them from being recruited as a screen reader user. 
-
-7. Are you willing to join the zoom session using this assistive technology?
-_Response options: YES or NO_
-* Yes [Recruit **at least 2**, proceed to next question]
-* No [Disqualified]
-
-### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
-
-- `Veterans:` **2-4**
-- `Spouses and dependent children:` **8-10**
-- `AT users (can be: Veterans and spouses/dependent children:` **2-4**
-- `Total:` **18**
-- `Ideal completed sessions:` **12**
-
-### Primary criteria (must-haves)
-- `At least 2 must use a screen reader or screen magnifier every time they access the internet`
-- `1 must have a cognitive disability`
-- `At least 6 must be primarily mobile users and willing to use it for the session`
-- `At least 2 must be users on desktop/laptop devices and willing to use it for the session`
-- `At least 3 don't have any degree or vocational training after high school`
-- `At least 2 live in a rural or remote area`
 
 #### Secondary criteria (nice-to-haves)
-- `6 must be aged 55-64+`
-- `At least 4 people of color`
 - `At least 2 women`
-- `At least 2 are 35 or under`
+- `At least 2 who self-report a cognitive disabiltiy`
+- `At least 2 don't have any degree or vocational training after high school`
+- `At least 2 are 35-44`
+- `At least 2 live in a rural or remote area`
+- `At least 5 people who identify as Black or African American or Hispanic, Latino or Spanish origin, or Asian or Biracial`
+
   
 ## Timeline 🗓️
 
 ### Optional Kick-off Call with Perigean
 We would like a kick-off call with Perigean to discuss recruitment criteria. Suggested dates and times: 
-- `Monday - Friday 9:30am-12:00pm ET and 1:00pm-4:30pm ET`
+- `Monday - Friday 11:30am-4:30pm ET`
 
 ### Prepare
 **A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
 > [!NOTE]
 > **Send pilot participant email in study Slack channel**
-
-We would like to have a non-AT user pilot, and 2 AT user pilot (1 screen reader, 1 screen magnifier)
-
-**Non-AT user pilot (1)**
-- `Pilot participant name:` 
-- `Date and time of pilot session:` 
-
-**AT user pilots (2)**
-- `Pilot participant name:` 
-- `Date and time of pilot session:` 
 
 - `Pilot participant name:` 
 - `Date and time of pilot session:` 
@@ -422,7 +353,7 @@ We would like to have a non-AT user pilot, and 2 AT user pilot (1 screen reader,
 - `Planned dates of research:` **Wednesday, March 11 - Tuesday, March 17**
 
 ### Length of sessions
-- `Session length:` 60 minutes for non-AT users, 90 minutes for AT users
+- `Session length:` 60 minutes
   
 - `Buffer time between sessions:` 30 minutes
   

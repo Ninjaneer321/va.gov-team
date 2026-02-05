@@ -1,5 +1,5 @@
 # Project outline: Discover Your Benefits Results page 2.0
-_Last updated: Nov 13, 2025 - experimental design link added_
+_Last updated: Feb 4, 2026 - updates to keydates and screenshots_
 
 ### Communications & Resources
 - **Team:** VES Transition Experience 
@@ -17,7 +17,6 @@ See Roster [here](https://github.com/department-of-veterans-affairs/va.gov-team/
 - [Overview](#overview)
 - [Scope](#scope)
 - [User Outcomes](#user-outcomes)
-- [Measuring Success](#measuring-success)
 - [Key Dates](#key-dates)
 - [Security](#security)
 - [Screenshots](#screenshots)
@@ -53,12 +52,15 @@ Feedback this initiative addresses:
 - Users are confused by the results page
 - Users are confused or offended by the length of service question
 
-## Measuring Success
-TK
     
 ## Key Dates
 
 - October 2025: Kick-off
+- October 30, 2025: Design Intent
+- November 18, 2025: Midpoint Review
+- October - December 2025: Development
+- January 2026: Usability Study
+- February 5, 2026: Experimental Design findings presentation to Design System Council  
 
 ## Security
 - [Security playbook](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/launch-materials/results-pg-2.0-security-playbook.md)   
@@ -66,7 +68,8 @@ TK
 ## Screenshots
 
 ### Before
-TK
+<img width="1113" height="846" alt="image" src="https://github.com/user-attachments/assets/97f2832e-ce85-4a19-8bae-d64e810e13eb" />
+
 
 
 ### After

@@ -166,6 +166,8 @@ I'd like to understand more about the technical details of when this happens to 
 5. **[If participant is comfortable and available]** Would you be willing to try signing in now and share your screen so I can see what you're experiencing?
    - <mark>**Only proceed if participant explicitly agrees and seems comfortable**</mark>
    - <mark>**Remind participant they can stop sharing at any time**</mark>
+   - I'm going to invite my colleague to walk you through a process so we can take a peak under the hood to see if there's more we can understand about what's happening.
+     - Developer to walk through the process of getting more data through the inspector/console logs.
 
 > [!NOTE]
 > ### Things to watch for:

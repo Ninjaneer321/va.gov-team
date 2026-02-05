@@ -1,6 +1,101 @@
 ## CHAMPVA Claims biweekly stakeholder sync
 Every other Wednesday at 2:35pm ET
 
+### 2/4/26
+
+**Attendees:**
+
+* Hieu V, Jessica S, Renata K, Andrea M, Mike M, John R, Premal S,
+* Anne R, Melissa C, Cindy C, Eileen C, Rachel D, David G, Messlia J, Kelly J, Luke L, Idris M, Christine 
+
+
+**Agenda**
+
+* DTA/Appeals discussion
+    * Clarify distinction between "review your claim" vs "decide your claim" vs "process your claim"
+    * DTA user notification process (contact method, who reaches out, when)
+    * Date of service format requirements: approximate (month/year) vs exact (month/day/year)
+    * DTA process for VA Medical Centers vs non-VA providers and pharmacies
+    * DTA doc types and routing to appeals (follow-up from 10/29 stakeholder sync)
+* Enhanced Claims Flow submission status/quality check
+    * CVA EOB doc type for reopens
+
+
+**Notes:**
+
+**Duty to assist overview; initial approach for those who send back letter or EOB; need help with missing documents**
+
+SUMMARY: Renata to send examples of claim verbs used in context for DTA, okay to collect month and year and not exact dates, send correspondence at start and end of DTA process
+
+- Reviewing claim and deciding claim vs processing claim:
+   * Richard Y - see what context it is in. It is all 3 and 2 of which we don’t do
+   * Send to processing to a different unit; end of decision tree
+   * DTA Team does not review claims - they gather missing information
+   * Melissa J - Duty to Assist team has different set of letters they send out in addition to claims
+   * **[AI]** Renata to send examples of where to use terms around claims 
+
+- Duty to assist and notifying beneficiary about process. Email or notify bene? 
+   * Richard - Start working case and send bene correspondence what we are doing and who contact
+   * Don’t contact again until the end - and would love to do it via email 
+   * End of process - lag in processing, completing cases and sending letters and reference number to check status. The claims would be processed and give claim numbers and say be looking for EOBs soon. Will change content of beneficiary completion letter.
+   * Completion letter: This is what we did; where we succeed, and unsuccessful
+   * Unhappy path letter too - reached out and got nothing back message, , if you got info from them, please send our way.
+   * Adding into duty to assist flow - dates of service or range if range
+   * A date range is always ok - month and year absolutely need to be in there 
+
+- Difference in process if VA medical provider or non-VA provider?
+    * If they get services from a VA medical center, DTA does not need to be involved. Will not help with services as a Veteran
+
+**Check in on how enhanced claims are going?**
+
+SUMMARY: DTA updates in the works will address sendback letter checkbox convo
+
+* They are looking okay (Melissa J - may have dropped the ball on this, appeals team joined later. They want to see the sendback letters, check the box to request assistance with that)
+* Should we start forwarding that to DTA or where?
+   * Rachel - understand how online works, what that looks like for VA.gov intake flow?
+   * Richard - Online submissions for claims, if all info there to process don’t need to be extra step in path.
+   * If it passes test, pass and ready to go. Only time DTA to see if it is not ready to process/
+   * Melissa - checkbox if resubmitting 
+* Now, how it is being submitted, and additional assistance forward to DTA team. 
+   * Rachel - Submitting sendback letter with documents; 
+   * Anne - isn’t claim submission online, sendback letter and readdress online.
+   * In that case, if it passes, process and fails it goes to DTA
+   * Richard - DTA has to help whenever
+* Andrea confirms - this process will be handled within the team for now?
+   * Cindy - Yes
+
+**DOC TYPE QUESTION**
+
+* CHAMPVA, CVA REOPEN, the supporting doc type
+   * Cover sheet = claim form as CVA form
+   * And resubmitted a CHAMPVA EOB doc type - more specific doc type assigned and labeled as that 
+   * Cindy C - Sendback letter doc type is not ready yet 
+   * Melissa - submitted a ticket to create doc type to use;
+   * CVA_BeneClaims as doc type, don’t know where that stands right now 
+   * Melissa - not sure about bene making correct doc type choices
+
+**RESUBMISSION TOPIC REVISIT**
+
+SUMMARY: To revisit resubmission flows that don't require uploading the sendback letter
+
+* Luke - for the bene experience is it worth them to upload the sendback letter, why can’t we just have them input a few fields and questions re-directive, date of service and get that all from sendback letter 
+
+- How to make it easy as possible for bene and still process claim?
+   * Changed in October for them to upload the letter 
+   * Joie - the reason it was decided it had the number on the sendback letter to better identify; second page indicates everything requested.
+   * Premal - also asking for the PDI or claim control number
+   * Luke - questioning if they should not have to upload letter
+   * Joie - asks about duty to assist - and checkbox
+   * Renata - yes, that is DTA flow updates in the work. Would work how the checkbox does in the letter
+     * Joie - I guess we could not make it required then 
+   * Elizabeth S - Okay with removing the sendback letter upload . Removing requirement that they have to upload that. 
+     * Angela P - update copy and get new proofs. Send revised version out to Premal and printing side.
+     * Melissa J - to update 
+   * Luke - request for QR code, not sure where that is at. Take them to the portal (sendback letter changes)
+* Renata - confirms that in May or June of last year, minimum amount of info to marry to initial claim submitted design exploration was sponsor/bene info, SSN, date of service, PDI/CCN
+
+- Meeting agreement to revisit initial resubmission designs and flows 
+
 ### **10/29/2025**
 **Notes**
 - Attendees: Andrea M, Melissa C, Cindy C, Dawn H, Eileen C, Jessica S, Melissa J, Alyssa L, Mike M, Christine M, Angela P, Renata K, Premal S, Joie T. 

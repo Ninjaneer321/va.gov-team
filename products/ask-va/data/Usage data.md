@@ -28,6 +28,35 @@ _Date of Data:_
   
 Data Source: [Link]()
 
+## Agent Resolution Description Field
+### Would the Agent's description field that is filled out when they Solve an inquiry be useful to surface for submitters?
+_Date added: February 4, 2026_
+
+**Description:** Trying to understand if the "description" field that Agent's fill out when they Solve an inquiry would be meaningful for submitters to see. This is an evaluation of the description field content. See ticket [#467](https://github.com/department-of-veterans-affairs/ask-va/issues/467).
+
+#### Descriptions of Solved Inquiries 
+_Date of Data: Dec 1, 2025-Jan 31, 2026_
+| Description Content (Exact Text or Theme) | # of Times Description Used | % of Total |
+|------------------------------------------|----------------------|------------|
+| "Resolution"                               | 100611               | 92.31%     |
+| Unique                                   | 3355                 | 3.08%      |
+| "Solved by PATSR"                          | 2789                 | 2.56%      |
+| Duplicate                                | 532                  | 0.49%      |
+| Thank you (Submitter provided a Thank you response and reopened)                               | 531                  | 0.49%      |
+| Resolved                                 | 527                  | 0.48%      |
+| Filler (., N/A, etc.)                                   | 249                  | 0.23%      |
+| Responded to Veteran                     | 160                  | 0.15%      |
+| Rerouted (Forwarded outside system)                                | 122                  | 0.11%      |
+| No response needed                       | 87                   | 0.08%      |
+| Internal comment                         | 20                   | 0.02%      |
+| Error                                    | 7                    | 0.01%      |
+| Documentation received                  | 6                    | 0.01%      |
+| **Grand Total**                          | **108996**            | **100%**   |
+
+
+Data Source: [Link](https://dvagov.sharepoint.com/:x:/r/sites/AskVA/Shared%20Documents/General/AVA%20VA.gov%20Team/Research%20%26%20Design/CRM%20Data%20Reports/Elena%20Inquiry%202-2-2026%20Description%20Field%20On%20Resolved%20Inqs.xlsx?d=w61cab9775d08416597f2c64f8d248bf0&csf=1&web=1&e=dsvNYh)
+
+
 
 ## Unauthenticated Inquiries
 ### How many inquiries are submitted without the user logging in?

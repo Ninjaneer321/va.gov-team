@@ -186,7 +186,7 @@ For demographic details, see [Research participants](#user-content-research-part
 ## Hypotheses and Conclusions
 
 1. With the new design, Veterans are confident that their form data will be saved.
-    - **Definitely False** because most participants said they would lose the information they entered if they didn't use the Finish later button or submit the form. They didn't realize that the form was saving their information every time they moved onto the next field.
+    - **Definitely False** because most participants said they would lose the information they entered if they didn't click the Finish later button or submit the form. They didn't realize that the form was saving their information every time they moved onto the next field.
 1. Telling Veterans about auto saving after the first form page is a time when they are receptive and likely to remember.
     - **Definitely False** because most participants skipped past the interstitial page in their zeal to fill out the form. 
 1. With the new design, Veterans will be able to stop filling out a form, get signed out, and then resume filling out a form.
@@ -211,7 +211,7 @@ For demographic details, see [Research participants](#user-content-research-part
 1. Most users didn't understand that saving was happening all the time, as they assumed it would only happen after clicking the Finish later button or submitting the form.
 1. Most users would like their form data to be saved all the time, and they were pleasantly surprised when they heard that VA forms do this. 
 1. All 7 participants used the Finish later button to stop filling out the form, and successfully resumed by signing in and then using the My VA page. 
-1. All 6 participants who interacted with the accordions on the Review/Submit page were able to easily open and close them.
+1. All 6 participants who interacted with the accordions on the Review/Submit page were able to easily open and close them with the controls on the left side (instead of the right).
 1. Finding six
 1. Finding seven
 
@@ -223,9 +223,20 @@ For demographic details, see [Research participants](#user-content-research-part
 > **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
-### Finding 1
-Brief description  
-- _Supporting data: Quote [add context]_  
+### The interstitial page was NOT effective in communicating about save in progress because when it came up, most users were focused on filling out form fields and anything other than that was ignored
+Half of the participants ignored the interstitial page when it came up because it was an **unwelcome interruption to their task of filling out a VA form and didn't seem relevant**. The wording on the page included "after every change", and two participants said that didn't apply to what they were doing, which was filling out the form for the first time. 
+
+  > *"I was already beginning to input information on the previous page and then all of a sudden, it shows me what to expect in the form that I'm going to be filling out, which I basically was already doing, so that's probably why I did not focus on that" (p9).*
+
+  > *"I'm focused on the task, getting a job done. Trying to get to the form, and I'm missing all the fine print" (p7).*
+
+  > *p8 was surprised by seeing the page instead of more form fields, which he felt was "bombarding somebody with the information in the beginning, if it's pertinent or not" (p8).*
+
+   > *"Where's my form? Let me fill it out...I read it and it didn't register, it didn't click" [that these were instructions to read] (p11).*
+
+Half of the participants did read the interstitial page but most didn't remember what it said, as evidenced by their lack of understanding afterwards that all of their work was being saved automatically. When asked after filling out the form about when their information was saved, most participants said only after selecting the "Finish later" or "Submit" button. They missed or forgot the message that their information gets saved automatically. When we talked with participants about automatic saving, they were pleasantly surprised. One participant pointed out that if we are actually saving form information all the time, why would you ever need to click "Finish later"? It seems like we were conflating two messages in the interstitial page: (1) your information is being automatically saved, and (2) how to get back to your in-progress form after selecting "Finish later".
+
+
 - _Supporting data: ![description of the image (image)](link - add image to github folder and link here with .png)_  
 
 > **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
@@ -245,8 +256,8 @@ Brief description
 
 *Summarize actionable recommendations based on findings.*  
 
-1. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_  
+1. **Recommendation:** Remove the interstitial page and instead consider adding something very short just above the Continue button on every page (e.g., "Your information is being saved automatically"). 
+   - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
 2. **Recommendation:** [Insert action]  
    - _Supporting evidence: [Insert data]_
 
