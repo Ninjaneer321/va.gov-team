@@ -304,7 +304,7 @@ We had a total of 8 participants; 4 participants tested both components on desk
     
 5. Finding #5: After interacting with the navigation component, all participants understood why they couldn’t access future steps.
     
-6. Finding #6: 3 out of 8 participants had difficulty navigating back to edit answers when navigation steps did not clearly map to individual pages.
+6. Finding #6: Some participants (3 out of 8) had difficulty navigating back to edit answers when navigation steps did not clearly map to individual pages.
     
 7. Finding #7: All mobile participants were able to distinguish the navigation component accordion at the top of the Review and Submit page from the review accordions on that page.
     
