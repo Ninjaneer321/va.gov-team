@@ -37,9 +37,15 @@ Current Figma designs, https://www.figma.com/design/YoeGJtWzHEH2bX2S4EGyBG/Ask-V
 
 Ask VA users are classified by two distinct personas, using Ask VA as a personal user or a business user/veteran liaison.  The current user experience does not promote an obvious distinction between these two users and offers categories and topics that are not relevant for the different user types.  The existing UI experience leads to user confusion on how to complete the form to submit a question.   Additionally, because the two user types are entangled throughout the existing experience there is back end code complexity that should be reduced.
 
+|User Type|Primary Issues|
+|:---|:---|
+|Personal User|Categories and topics lists offer selection reassurance to this user, but the amount of current options causes overload to the user.|
+|Business User|Categories and topics lists are burdonsome because this user repeat the same selection(s) when using Ask VA.|
+|Business User|Current required fields are not neccessary for this user to submit inquiries (i.e. - subject field), forcing additional data entry which reduces the user's workflow efficiency.|
+
 **Solution**
 
-Update the Ask VA inbox by implementing the VADS guidance and [new standard](https://design.va.gov/components/search-filter).
+Decouple the existing form flow into two disticnt personal and buiness user form flows.  Implement a business user form flow tailored to business user needs with focus on minimizing repetative data entry.  Implement a personal user form flow tailored to personal user needs with focus on user experience assurance while reducing category and topic lists overload.  Decoupling the existing form flow will organically begin to reduce repatative data entry and lists overload.
 
 ## Outcomes
 - **User Experience Outcomes**: Users have an accessible and easy interaction with their personalized inbox.
