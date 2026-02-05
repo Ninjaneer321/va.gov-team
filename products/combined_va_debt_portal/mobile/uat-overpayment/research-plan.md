@@ -344,12 +344,15 @@ _[To be discussed with Perigean: best way to confirm these with participants?]_ 
 
 ### Kick-off Call with Perigean
 
-- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]** 🚧
+- `Suggested dates and times:`
+    - Wed 02/11 11:30AM - 1:00PM EST
+    - Thur 02/12 10:00AM - 1:00PM EST
+    - Fri 02/13 10:00AM - 1:00PM EST
 
 ### Prepare
 
-- `Pilot participant name:` **[Enter name]** 🚧
-- `Date and time of pilot session:` **[Enter time]** 🚧
+- `Pilot participant name:` **Michael Harmer, Janelle Finnerty, Ian Hilton**
+- `Date and time of pilot session:` **already completed**
 
 ### Research sessions
 - `Planned dates of research:` **[Enter dates MM/DD-MM/DD]** 🚧
