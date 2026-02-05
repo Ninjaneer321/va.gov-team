@@ -1,4 +1,4 @@
-# Sign-In Page Review Findings
+# Sign-In page comparative analysis findings
 
 ## Overview
 
@@ -14,7 +14,7 @@ Sites reviewed included CBP.gov, SSA.gov, several state government websites, and
 |----------|-------------|-------------|
 | **Single Sign-In Options** | IRS, US Securities and Exchange, CBP, Federal Student Aid, Medicare, Kentucky Medicaid, Ohio DMV, Texas Tax Office | Many government sites reviewed (including CBP.gov and SSA.gov) provided only a single sign-in option, which is not relevant to VA.gov since we have 2 CSPS. |
 | **Multiple Sign-In Options** | Social Security Administration, USDA eAuthentication | For sites offering multiple authentication methods, there was considerable variation in how these options were presented. The motivations behind different design decisions were difficult to discern from external review alone. |
-| **Sign-In vs. Create Account Placement** | US Citizenship and Immigration, Federal Student Aid, US Digital Mint |There were marked inconsistencies in how sites handle "Sign In" and "Create Account" functionality; some sites separated these actions in the profile/login section (typically upper right corner) while others split the option on the sign in page itself.  No clear pattern emerged across government sites |
+| **Sign-In vs. Create Account Placement** | US Citizenship and Immigration, Federal Student Aid, US Digital Mint | There were inconsistencies in how sites handle "Sign In" and "Create Account" functionality; some sites separated these actions in the profile/login section (typically upper right corner) while others split the option on the sign in page itself. Some used buttons to link to the create an account functionality, other used links. Placement varied with some giving the create just a small link, while others gave it an entire section. The only consistency is that all sites did seperate these sections out. |
 
 ### USWDS Guidance
 
@@ -80,4 +80,3 @@ If and when usability issues are identified through user research or analytics t
 <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-02%20screen%20captures%20for%20sign-in%20page%20comparative%20analysis/Texas%20sign%20in%20page.png" width="350"/>
 11. US Mint sign-in page with one sign in option and a button to the right to create account 
 <img src="https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2026-02%20Sign-in%20page%20updates/2026-02%20screen%20captures%20for%20sign-in%20page%20comparative%20analysis/US%20Mint%20sign%20in%20page.png" width="550"/>
-
