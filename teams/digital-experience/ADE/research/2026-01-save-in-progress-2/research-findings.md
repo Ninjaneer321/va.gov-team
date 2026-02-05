@@ -224,7 +224,8 @@ For demographic details, see [Research participants](#user-content-research-part
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
 ### The interstitial page was NOT effective in communicating about save in progress because when it came up, most users were focused on filling out form fields and anything other than that was ignored
-Half of the participants ignored the interstitial page when it came up because it was an **unwelcome interruption to their task of filling out a VA form and didn't seem relevant**. The wording on the page included "after every change", and two participants said that didn't apply to what they were doing, which was filling out the form for the first time. Half of the participants did read the interstitial page but most didn't remember what it said, as evidenced by their lack of understanding afterwards that all of their work was being saved automatically.
+Half of the participants ignored the interstitial page when it came up because it was an **unwelcome interruption to their task of filling out a VA form and didn't seem relevant**. The wording on the page included "after every change", and two participants said that didn't apply to what they were doing, which was filling out the form for the first time. 
+
   > *"I was already beginning to input information on the previous page and then all of a sudden, it shows me what to expect in the form that I'm going to be filling out, which I basically was already doing, so that's probably why I did not focus on that" (p9).*
 
   > *"I'm focused on the task, getting a job done. Trying to get to the form, and I'm missing all the fine print" (p7).*
@@ -232,6 +233,9 @@ Half of the participants ignored the interstitial page when it came up because i
   > *p8 was surprised by seeing the page instead of more form fields, which he felt was "bombarding somebody with the information in the beginning, if it's pertinent or not" (p8).*
 
    > *"Where's my form? Let me fill it out...I read it and it didn't register, it didn't click" [that these were instructions to read] (p11).*
+
+Half of the participants did read the interstitial page but most didn't remember what it said, as evidenced by their lack of understanding afterwards that all of their work was being saved automatically. When asked after filling out the form about when their information was saved, most participants said only after selecting the "Finish later" or "Submit" button. They missed or forgot the message that their information gets saved automatically. When we talked with participants about automatic saving, they were pleasantly surprised. One participant pointed out that if we are actually saving form information all the time, why would you ever need to click "Finish later"? It seems like we were conflating two messages in the interstitial page: (1) your information is being automatically saved, and (2) how to get back to your in-progress form after selecting "Finish later".
+
 
 - _Supporting data: ![description of the image (image)](link - add image to github folder and link here with .png)_  
 
