@@ -227,7 +227,7 @@ This method is appropriate because the overpayments feature is in its final phas
 
 ## Research materials 📔
 
-- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/conversation-guide-template.md)
+- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/conversation-guide.md)
 - [Spreadsheet with test user flows and success criteria](https://dvagov.sharepoint.com/:x:/s/vamobilefeaturesupport/IQA3a5Ibl1nkTZiaWay97QNDAeh7lgw853voGUj6SB9rz-g?e=3PfKEz)
 
 Pre-release app builds
@@ -311,7 +311,7 @@ _[To be discussed with Perigean: best way to confirm these with participants?]_ 
 - `Veterans:` **10**
 - `Caregivers:` **0**
 - `Dependents:` **0**
-- `Total:` **0**
+- `Total:` **10**
 - `Ideal completed sessions:` **3 on iOS, 3 on Android**
 
 ### Primary criteria (must-haves)
