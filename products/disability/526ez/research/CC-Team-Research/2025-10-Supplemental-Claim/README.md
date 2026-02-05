@@ -1,4 +1,4 @@
-This README serves as a reference for key files for the [2025-10 526EZ Supplemental Claims](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/1544) usability study.
+This README serves as a reference for key files for the [2025-10 Supplemental Claim Design Direction in 526EZ + Mental Model Exploration](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/1544) study.
 
 ### Files and folders list:
 _(add links as these are created)_
