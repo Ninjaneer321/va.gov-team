@@ -224,7 +224,9 @@ For demographic details, see [Research participants](#user-content-research-part
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
 ### The interstitial page was NOT effective in communicating about save in progress because when it came up, most users were focused on filling out form fields and anything other than that was ignored
-Half of the participants ignored the interstitial page when it came up because it was an unwelcome interruption to their task of filling out a VA form or because it didn't seem relevant. The wording on the page included "after every change", and one participant said it didn't apply to what they were doing, which was filling out the form for the first time.
+Half of the participants ignored the interstitial page when it came up because it was an **unwelcome interruption to their task of filling out a VA form and didn't seem relevant**. The wording on the page included "after every change", and two participants said that didn't apply to what they were doing, which was filling out the form for the first time. Half of the participants did read the interstitial page but most didn't remember what it said, as evidenced by their lack of understanding afterwards that all of their work was being saved automatically.
+  > *"I was already beginning to input information on the previous page and then all of a sudden, it shows me what to expect in the form that I'm going to be filling out, which I basically was already doing, so that's probably why I did not focus on that" (p9).*
+
   > *"I'm focused on the task, getting a job done. Trying to get to the form, and I'm missing all the fine print" (p7).*
 
   > *p8 was surprised by seeing the page instead of more form fields, which he felt was "bombarding somebody with the information in the beginning, if it's pertinent or not" (p8).*
@@ -250,8 +252,8 @@ Brief description
 
 *Summarize actionable recommendations based on findings.*  
 
-1. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_  
+1. **Recommendation:** Remove the interstitial page and instead consider adding something very short just above the Continue button on every page (e.g., "Your information is being saved automatically"). 
+   - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
 2. **Recommendation:** [Insert action]  
    - _Supporting evidence: [Insert data]_
 
