@@ -257,13 +257,14 @@ Directions on using pre-release app build
 
 ### Recruitment approach
 
-We would like Perigean to recruit Veterans with current overpayment debt who are willing to log into the mobile app with their real credentials.
+We would like Perigean to recruit Veterans with current overpayment debt who are willing to log in to the mobile app with their real credentials.
 
 
 ### Recruitment criteria
 
 Screener question 1
-* Do you **currently** owe any of the following types of VA debt? If so, please select all that apply.
+
+* Do you currently owe any of the following types of VA debt? If so, please select all that apply.
     * Post-9/11 GI Bill overpayment (books and supplies, housing, or tuition)
     * Disability compensation and pension overpayment
     * Education Ch 33-Ch1606/Ch30 Kickers
@@ -272,24 +273,34 @@ Screener question 1
     * I do not currently owe any of the above types of VA debt. [DISQUALIFY]
 
 Screener question 2
-* When you sign in to VA.gov and to go My VA, do you see details about "overpayment debts" under the section "Outstanding debts"? (this is different from copay bills)
+
+* When you sign in to VA.gov and to go My VA (https://va.gov/my-va/), do you see details about "overpayment debts" under the section "Outstanding debts"? (this is different from copay bills)
     * Yes, I see a listing of 1 or more overpayment debts on VA.gov.
     * No, I don’t see any overpayment debt details on VA.gov [DISQUALIFY]
     * I don’t have a VA.gov account / I can’t sign in right now [DISQUALIFY]
 
 Screener question 3
-* We’re conducting a study to test a new feature for viewing VA debt in the mobile app, using a preview version of the app. To participate, you’ll need to log in to the preview app using your real VA credentials so we can confirm everything is working correctly. Please confirm if you are comfortable with this:
-    * I am willing to log in to the mobile app with my real credentials and share my screen during the session.
-    * I am willing to log in to the mobile app with my real credentials, describe what I am seeing on screen, but NOT share my screen.
+
+* To participate in this study, you’ll need to sign in to the VA mobile app using your real Login.gov or ID.me credentials so we can confirm everything is working correctly. Please confirm if you are comfortable with this:
+    * I am willing to log in to the mobile app with my real credentials and share my screen during the session. [PRIORITIZE THIS OVER NEXT ANSWER]
+    * I am willing to log in to the mobile app with my real credentials, describe what I am seeing on screen, but NOT share my screen. [ONLY SELECT IF WE DON'T HAVE ENOUGH FROM PREVIOUS ANSWER]
     * I am not comfortable logging in with my real credentials for this study. [DISQUALIFY]
 
 Screener question 4
+
+* Participation requires downloading specific testing tools and a pre-release version of the VA app which will temporarily replace your current version. If you use an Android, you must also be comfortable temporarily adjusting your security settings to allow the installation. We will guide you through restoring the original app and returning your device to its original state at the end.
+    * Yes, I am comfortable with this.
+    * No, I would prefer not to change my phone settings or apps. [DISQUALIFY]
+
+Screener question 5
+
 * Are you able to join the Zoom session from a smartphone? Any kind of smartphone will work as long as it connects to the internet.
     * Yes, I have an iPhone where I can join the session
     * Yes, I have an Android phone where I can join the session (for example: Samsung, Google, Motorola, or LG)
     * No [DISQUALIFY]
 
-Screener question 5
+Screener question 6
+
 * When interacting with apps on your smartphone, do you usually adjust the standard display or use accessibility features? Please select all that apply.
     * I mostly use the phone's standard display settings.
     * I often increase the text size significantly.
@@ -298,21 +309,16 @@ Screener question 5
     * Other
     * Prefer not to say
 
-Screener question 6
-* **Question text:** Please review the technical requirements below. To participate in this study, you must confirm that you meet these specifications and are comfortable with the following steps:
-    * VA Credentials: You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
-    * Email Access: You can open your email directly on your mobile phone to click the test link.
-    * Testing Tools: You are willing to download TestFlight (iOS) or Firebase App Distribution (Android).
-    * Storage: You have at least 200MB of free space.
-    * Phone operating system version:
-        * iPhone: iOS 16 or newer.
-        * Android: Android 12 or newer.
-    * App Replacement: If you have the standard VA app, the test version will temporarily replace it. (If you don't have the app, it will simply install as a new one). We will help you restore the original version at the end.
-    * Android Permissions: You are comfortable allowing your phone to "Install Unknown Apps" within your security settings for this session.
-    * Connection: You will be connected to WiFi during our call for a stable download.
-* **Answer text:**
-    * Yes, I meet these requirements and am ready to follow these steps during the session.
-    * No, I cannot meet these requirements at this time. [DISQUALIFY]
+_[To be discussed with Perigean: best way to confirm these with participants?]_ Technical pre-requisites for participants (for both iOS and Android)
+
+- VA Credentials: You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
+- (Android only) Email Access: You can open your email directly on your mobile phone to click the test link.
+- (Android only) Permissions: You are comfortable allowing your phone to "Install Unknown Apps" within your security settings for this session.
+- Testing Tools: You are willing to download TestFlight (iOS) or Firebase App Distribution (Android).
+- App Replacement: If you have the standard VA app, the test version will temporarily replace it. We will help you restore the original version at the end.
+- Connection: You will be connected to WiFi during our call for a stable download.
+
+
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
@@ -377,7 +383,7 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - `Project point of contact:` **Natalie Davied Gibbons**		
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` **n/a**	
 - `Note-takers:` **To be assigned from the team**
-- `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
+- `Observers: To be added to study channel, but not added to each session's calendar event.`
 
   - **Natasha Huckleberry**
   - **Natalie Davied Gibbons**
@@ -389,6 +395,7 @@ When would you like sessions scheduled? Please list exact dates and times in **E
   - **Matthew Guest**
   - **Michael Harmer**
   - **Kayley Bogemann**
+
 
 ## Approvals ✅
 - `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
