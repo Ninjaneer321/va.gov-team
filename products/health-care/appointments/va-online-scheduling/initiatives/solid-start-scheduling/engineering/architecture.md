@@ -60,8 +60,8 @@ architecture-beta
 | **Redis** | Redis 6.x | Session storage, OTP storage, OAuth token caching | Platform |
 | **VA Notify** | REST API | Email delivery (OTP, invitations, confirmations) | VA Notify Team |
 | **Datadog** | APM, Logging | Metrics, logs, alerts | Platform |
-| **vets-api framework** | Ruby on Rails 7.x | Request handling, authentication, logging | Platform |
-| **vets-website framework** | React 18.x | Frontend routing, state management | Platform |
+| **vets-api framework** | Ruby on Rails | Request handling, authentication, logging | Platform |
+| **vets-website framework** | React | Frontend routing, state management | Platform |
 
 ### External Dependencies (Outside VA.gov)
 
