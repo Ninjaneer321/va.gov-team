@@ -114,8 +114,7 @@ We recommend that the rollout plan has five stages, each increasing the number o
 - How will you make the product available in production while limiting the number of users who can find/access it:
   > Flipper flags toggled on incrementally.
 - What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?: \[use your KPIs to help guide this. It could be things like *abandonment rate < 20%*, *reported contact center calls < 2 calls*, *error rate < 5%*, etc.\]
-  - Error tracking on frontend with Datadog RUM
-  - etc...
+  - [Error tracking on frontend with Datadog RUM is coming shortly!](https://github.com/department-of-veterans-affairs/va.gov-team/issues/129505)
   - 
 - Links to the dashboard(s) showing "success criteria" metrics: [FILL_IN] with link to dashboards (example: Google Analytics dashboard)
 - Who is monitoring the dashboard(s)?: [FILL_IN]
