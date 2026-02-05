@@ -1,3 +1,10 @@
+| Study   | Use cases and Post Launch Enhancements Research |
+| ------- | ----------------------------------------------- |
+| Product | CDS Task Manager                                |
+| Author  | Ruben Sun                                       |
+| Date    | February, 4, 2026                               |
+| Tags    |                                                 |
+
 ## Intro (5 mins)
 
 Hello. My name is **[Moderator]**. And these are my colleagues [**Notetaker/Observer**]. As you may be aware, we’re team members working on the Task Manager Application, as a part of the Clinical Decision Support Collaborative.
@@ -139,3 +146,4 @@ What you’re looking at is an outline of where task tracking and coordination w
 - I can follow up to provide something you can pass along to them to facilitate the introduction.
 
 Thanks again and enjoy the rest of your day!
+
