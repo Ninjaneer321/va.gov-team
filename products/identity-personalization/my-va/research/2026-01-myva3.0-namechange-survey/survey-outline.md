@@ -28,6 +28,7 @@ Start the activity now (add link)
 We’ll ask you a series of questions about the [VA.gov](http://VA.gov) signed in homepage.   
 Part 1: First you’ll answer general questions about VA.gov.  
 Part 2: Next, we’ll show you some images. Review each image and answer the corresponding questions. 
+Please do NOT enter any personal information in the survey. It is not a secure platform. Personal information includes information such as but not limited to your name, date of birth, SSN, claim information, health care information, etc.
 
 **Part 1**
 
