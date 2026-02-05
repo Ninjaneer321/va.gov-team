@@ -25,14 +25,7 @@ We are currently distinguishing between personal and business users with the fol
 <img width="925" height="897" alt="image" src="https://github.com/user-attachments/assets/ca587c06-3a7d-44f8-be04-062b9eb270bc" />
 
 
-- Current Experience for all users (as of 2/4/2026)
-
-https://staging.va.gov/contact-us/
-<img width="848" height="1239" alt="image" src="https://github.com/user-attachments/assets/8f269dd2-d72f-4909-9f43-61b64ce10e32" />
-
-https://staging.va.gov/contact-us/ask-va/introduction
-<img width="650" height="1217" alt="image" src="https://github.com/user-attachments/assets/42c7f0b7-2029-4919-b0d3-e3c00b3cc2f5" />
-
+Current Figma designs, https://www.figma.com/design/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form---Future-exploration?node-id=2033-121709&t=MIbYsLljnUqjPvqP-4
 
 
 #### Stephanie still has the below to update ####
@@ -42,7 +35,7 @@ https://staging.va.gov/contact-us/ask-va/introduction
 ## Problem statement
 **Background**
 
-Ask VA users want to easily and quickly view their submitted questions using; search, filter and sort tooling. The current inbox experience displays submitted questions (also referred to as "inquiries") in a grid format, with a card representing each inquiry.  The cards do not display in a user friendly way, often leaving users confused of the order their information is displayed.  Users want the ability to filter their inquiries by category type, status and sort by newest to oldest or oldest to newest.
+Ask VA users are classified by two distinct personas, using Ask VA as a personal user or a business user/veteran liaison.  The current user experience does not promote an obvious distinction between these two users and offers categories and topics that are not relevant for the different user types.  The existing UI experience leads to user confusion on how to complete the form to submit a question.   Additionally, because the two user types are entangled throughout the existing experience there is back end code complexity that should be reduced.
 
 **Solution**
 
