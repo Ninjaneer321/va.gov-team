@@ -50,12 +50,12 @@ description: "A template for moderating research sessions including logistics, i
 
 # Intro - 5 minutes
 
-Thanks for joining us today! My name is Natalie and Rosemary is here to help with note taking and observing the session. Is that OK?
+Thanks for joining us today! My name is Natalie and I'm a Senior Product Designer for the CDS Medical Calculators team. Rosemary, our Principal Researcher, is here to help with note taking and observing the session. Is that OK?
 > [!TIP]
-> - Then, ask the notetaker and observers to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)
+> - Ask the notetaker to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)
 > - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
 
-Today we're going to talk about AMPREDICT/PROPREDICT
+Today we're going to talk about AMPREDICT/PROPREDICT -- both the online tool and the new CDS calculator. 
 
 Before we start, I have a few things that I want to go over with you:
 
@@ -78,19 +78,18 @@ Before we look at the calculator, I'd like to learn a little bit about you.
 ## Intro:
 Next we’re going to look at the online AMPREDICT/PROPREDICT calculator: 
 
-- Please navigate to: https://www.ampdecide.org/ampredict/risk-calculator, https://prodecide.org/risk-calculator
-- Please open a patient in CPRS so you can input their data into the calculator. Before you start entering data, please let me know so I can start the timer.
-- As you're going through the calculator, please think aloud. I'd like you to say whatever comes into your mind.
-- If you have any questions as we go along, please feel free to ask me. I may not be able to answer them right away since we’re interested in how people would navigate this application without a helper around. But if you still have any questions when we’re done, I’ll try to answer them then.
-- And please feel free to be as honest as possible – it won’t hurt our feelings. 
+- Please navigate to: https://www.ampdecide.org/ampredict/risk-calculator OR https://prodecide.org/risk-calculator (share link in chat)
+- Please open a patient in CPRS so you can input their data into the calculator.
+- When you are ready please begin sharing your screen.
 
-`PCP | Outpatient Scenario:`Imagine that you have a 68 year old patient who comes in for their routine semi-annual visit, and that you diagnose them with atrial fibrillation after an abnormal pulse was detected on physical exam, and a subsequent EKG confirmed AFIB. They are asymptomatic at the current time though their CHA2DS2-VASc score indicates they are at a higher risk for stroke and may need to start anticoagulation therapy. As such, you want to evaluate their HAS-BLED score to help you determine if anticoagulation therapy can be appropriate for them.
+## Timed task 1
 
-You navigate to the CDS Console, click on Medical Calculators, and select the HAS-BLED calculator which brings you to this screen.
+- Before you start entering data, please let me know so I can start the timer.
+- Please let me know when you have completed a calculation so I can stop the timer.
+- Please don't feel rushed to complete the task, just move through the workflow as you normally would. This is not a race, it's a way for us to gather benchmarking data on how long it takes to complete a calculation.
+- Are you ready to begin? 
 
-`Emergency Department Scenario:`Imagine that you have a 68 year old patient who comes in for their routine semi-annual visit, and that you diagnose them with atrial fibrillation after an abnormal pulse was detected on physical exam, and a subsequent EKG confirmed AFIB. They are asymptomatic at the current time though their CHA2DS2-VASc score indicates they are at a higher risk for stroke and may need to start anticoagulation therapy. As such, you want to evaluate their HAS-BLED score to help you determine if anticoagulation therapy can be appropriate for them.
-
-You navigate to the CDS Console, click on Medical Calculators, and select the HAS-BLED calculator which brings you to this screen.
+[Start timer upon verbal confirmation.]
 
 ## What are your first impressions? What are you thinking about? - 5 minutes
 
