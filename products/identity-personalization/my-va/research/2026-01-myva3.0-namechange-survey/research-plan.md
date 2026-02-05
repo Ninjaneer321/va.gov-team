@@ -292,7 +292,7 @@ Provide a link to any materials you need to run your study, including any materi
 - `[ALL / Participants have a VA.gov or MyHealtheVet account]`
 - `252 / Frequent VA.gov users (Daily or Weekly)  `
 - `252 / Non frequent VA.gov users (Monthly, Every few months or Never, but am open to using VA.gov)`
-- **`Add more criteria as needed`**
+
 
 ### Screener questions
 - `1. Do you have a VA.gov or My HealtheVet account?`  
@@ -395,7 +395,7 @@ Provide a link to any materials you need to run your study, including any materi
 - `Moderator:` **[Ashley Bush]**	
 - `Research guide writing and task development (usually but not always same as moderator):` **[Ashley Bush]**		
 - `Participant recruiting & screening:`	**[Perigean]**	
-- `Project point of contact:` **[Enter full name]**		
+- `Project point of contact:` **[Ashley Bush]**		
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[Ashley Bush]**	
 - `Note-takers:` **[N/A]**
 - `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
