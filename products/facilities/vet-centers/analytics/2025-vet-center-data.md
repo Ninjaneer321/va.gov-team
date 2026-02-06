@@ -11,7 +11,7 @@
 ## Vet Center editor stats
 
 | Metric| Jul-25 | Dec-25 |
-|---|:---:|
+|---|:---:|:---:|
 | Number of active editors (active Vet Center content creator) |430| 370 |
 | % which have logged in during the last 30 days | 62|62.4|
 | % which have never logged in |13| 2.4|
