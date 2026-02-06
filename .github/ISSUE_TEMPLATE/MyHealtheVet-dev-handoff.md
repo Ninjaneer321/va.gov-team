@@ -21,14 +21,14 @@ As a Veteran [with any specific attributes], I need [to know this information or
 ## Resources
 _Link as directly to the design as possible, ideally the frame in Figma. Link to any other resources as needed_
 
+## New design
+_Include a screenshot of the new design and then list out the changes. Also include screenshots of possible errors. Write out/copy and paste the new content here and identify what type of text, e.g. h1, h2, paragraph, lede. If deviating from the typical font sizes, add font size._
+
 ## Components
 _List VADS and MHV components used in the design here and link each to their storybook pages_
 
 ## Current design (to be changed)
 _Include a screenshot of the current design that this new design will replace._
-
-## New design
-_Include a screenshot of the new design and then list out the changes. Also include screenshots of possible errors. Write out/copy and paste the new content here and identify what type of text, e.g. h1, h2, paragraph, lede. If deviating from the typical font sizes, add font size._
 
 ## Notes
 _Background information, concerns, or details that may help inform or provide context to the work._
