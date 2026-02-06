@@ -337,6 +337,7 @@ _[To be discussed with Perigean: best way to confirm these with participants?]_ 
 
 ### Prepare
 
+_Note: the only way to conduct this test is with real user data, so the pilot tests were to practice guiding participants through set-up of the pre-release app and returning their phones to the original states._
 - `Pilot participant name:` **Michael Harmer, Janelle Finnerty, Ian Hilton**
 - `Date and time of pilot session:` **already completed**
 
