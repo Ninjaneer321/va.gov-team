@@ -293,7 +293,8 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
 # Post-Task Interview - 5 minutes
 
 - Is there any other feedback you would like to add about the two prototypes and messages you saw today?
-- Do you have a preference for how eligibility clarity should be added to an online form? 
+- Do you have a preference for how eligibility clarity should be added to an online form?
+- Let me check if the observers have any questions for you.
 - Any questions for me? 
 
 
