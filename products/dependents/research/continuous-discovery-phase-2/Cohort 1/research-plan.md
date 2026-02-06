@@ -1,0 +1,307 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Lifestage, Dependents Management, February 2026"
+date: 2026-02-06
+last_updated: 2026-02-06
+team: "Lifestage"
+product: "Dependents Management"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Dependents Management allows Veterans to manage the dependents on their disability compensation benefit. Specifically, the team is working on the functionality that allow Veterans keep dependents on the benefit when they turn 18 if they are students or disabled dependents, or add them back to the benefit if they have been removed but still meet the eligibility criteria. The process of accessing these forms digitally is currently very unintuitive."
+  product_location: "These forms are located in the dependents management section of VA.gov"
+  user_familiarity: "iteration on existing functionality"
+
+# Research Design
+methodology: "concept testing"
+research_format: 
+  location: remote # Options: remote
+  moderated: true # Options: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "[First research goal]"
+  - goal_2: "[Second research goal]"
+  - goal_3: "[Third research goal]"
+
+research_questions:
+  - "[Research question 1]"
+  - "[Research question 2]"
+  - "[Research question 3]"
+  - "[Research question 4]"
+  - "[Research question 5]"
+
+hypotheses:
+  - "[Hypothesis 1]"
+  - "[Hypothesis 2]"
+  - "[Hypothesis 3]"
+
+expected_outcomes: "The outcome of this research will be design feedback that helps us make it more intuitive for Veterans to access these these necessary forms."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation"
+  
+  primary_criteria:
+    - "[Must-have criterion 1]"
+    - "[Must-have criterion 2]"
+    - "[Must-have criterion 3]"
+    
+  secondary_criteria:
+    - "[Nice-to-have criterion 1]"
+    - "[Nice-to-have criterion 2]"
+    
+  screener_questions:
+    - question: "[Screener question text]"
+      qualifying_response: "[Expected answer]"
+      
+participants:
+  veterans: 14
+  caregivers: 0
+  dependents: 0
+  total_recruited: 14
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2026-02-18 to 2026-02-24"
+  research_review_submission: "2026-02-09"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1"
+    key_results: 
+      - "[Specific KR if applicable]"
+  - objective: "Objective 2"
+    key_results:
+      - "[Specific KR if applicable]"
+      
+veteran_journey_phases:
+  - "[e.g., Getting Out]"
+  - "[e.g., Starting Up]"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "[Link to related past research]"
+    
+tags:
+  - "[product-area]"
+  - "[methodology]"
+  - "[participant-type]"
+  - "[research-phase]"
+---
+
+> [!TIP]
+> **Complete the frontmatter section above AFTER you've filled out your research plan below.** 
+> 
+> Use the [GitHub Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed research plan.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags. 
+
+	# Research Plan for Lifestage, Dependents Management, February 2026]
+> [!NOTE]
+> *Questions about how to set up your research study? Reach out in the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel.* 
+
+## Background 🏗️
+<details><summary>Briefly describe the background of your product.</summary>
+	
+`What problem is your product trying to solve?`
+
+**"Dependents Management allows Veterans to manage the dependents on their disability compensation benefit. Specifically, the team is working on the functionality that allow Veterans keep dependents on the benefit when they turn 18 if they are students or disabled dependents, or add them back to the benefit if they have been removed but still meet the eligibility criteria. The process of accessing these forms digitally is currently very unintuitive."**
+  
+`Where is your product situated on VA.gov?`
+
+**Authenticated experience**
+  
+`What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?`
+
+**Iteration on existing functionality**
+
+`Product Brief`
+
+**N/A**
+
+</details>
+
+### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO%20FY26%20goals%20supported.md) 
+
+<details><summary>Which OCTO priorities does this research support? Work with your VA lead and product manager as needed. </summary>
+
+`Objective 3: Relentlessly improve the user experience.`
+
+> - **Key Result 3.1:** Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.
+  - ***Research Ops Plain Language:** Supports this product’s OIT portfolio (Health, Benefits, etc) in improving customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.*
+
+> - **Key Result 3.3:** 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system.
+  - ***Research Ops Plain Language:** Supports the delivery of at least one release that directly addresses a documented user pain point within this product.*
+
+
+</details>
+
+### [Veteran Journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
+
+<details><summary>Where does your product fit into the Veteran journey?
+Are there moments that matter?</summary>
+
+- `Putting Down Roots`
+
+</details>
+
+## Research Goals 🥅	
+`What are you trying to learn from this research?` 
+
+### Goals
+
+`1.` **Understand if the new design makes the process of keeping dependents on the disability compensation benefit after age 18 as student dependents or disabled dependents easier for participants**
+
+`2.` **Understand if the new design makes the process of reinstating student dependents or disabled dependents who were previously on the disability compensation benefit but were removed easier for participants**
+
+`3.` **Understand if the new design of the upload page makes it more intuitive for participants** 
+  
+### Outcome
+`How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
+
+---
+
+**The feedback will help us make accessing these these necessary forms more intuitive for Veterans.** 
+
+---
+
+### Research questions
+
+**`1.`Do participants understand how to start the process of keeping a dependent past their 18th birthday as a disabled or student dependent?**
+
+**`2.`Do participant understand how to start the process of reinstating inactive dependents or disabled dependents?**
+
+**`3.`Do participants understand that they can submit the form without uploading documents?**
+
+
+### Hypotheses
+
+---
+
+**1. The new design for keeping and adding back dependents will be easier for participants to navigate.** 
+**2. The participants will find the process of adding uploading documentation easier than the process of determining which documents need to be sent and locating the documents.**
+
+---
+  
+## Methodology  🛠️
+
+**Usability testing**
+
+### Location
+
+- [X] **Remote**
+- [ ] **In-person**
+
+## Research materials 📔
+
+**For moderated usability tests:** 
+- [Link to conversation guide](url goes here)
+- [Link to prototype](url goes here)
+	
+## Recruitment 🎯	
+*OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
+
+> [!NOTE]
+> Before writing your recruitment criteria, be sure to review the following resources: 
+> - [Refer to the Perigean Recruitment Guidance](https://depo-platform-documentation.scrollhelp.site/research-design/recruiting-participants) to learn how Perigean recruits, screens, and prepares participants for research. 
+> - [Refer to the inclusive recruitment strategies](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md) to learn how to be inclusive of underserved Veteran communities.
+
+### Recruitment approach
+*Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
+- Perigean **CANNOT** recruit VA employees or VSOs. Work with your VA lead to recruit these groups. 
+- Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
+- Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
+
+### Recruitment criteria
+
+- **Write any recruitment criteria for experience or scenarios as screener questions with qualifying responses. Perigean will use these verbatim to recruit participants.**
+- Consider providing links to products and/or clear descriptions to ensure participants understand the question.
+  Example: Have you been to a VA urgent care facility in the last 6 months? [answer should be yes to qualify.]
+
+- The more recruitment criteria you have, the less likely that a small sample of participants will be able to meet all criteria.
+- Consider how you could leverage the [lean maximum variation sampling (MVS) approach](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md#lean-mvs-strategy) by breaking up criteria for your study into multiple cohorts that each isolate one primary criteria.
+- Perigean will consider each cohort as a separate recruitment effort, increasing the chances of meeting all criteria for your study. [Review an example of the multiple cohort approach.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/pre-mhv-prototype/generative-research-study-1/2020-12.research-plan1.md)
+
+### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
+
+- `Veterans:` **14**
+- `Caregivers:` **0**
+- `Dependents:` **0**
+- `Total:` **14**
+- `Ideal completed sessions:` **10**
+
+### Primary criteria (must-haves)
+
+*Please consider each of the following two groups as a separate recruitment effort*
+
+- `At least 7 Veterans who have disabled dependents on their disability compensation benefit`
+- `At least 7 Veterans who currently have student dependents on their disability compensation benefit, have had a student dependent on their disability compensation benefit in the past 2 years, or have a dependent on their disability compensation benefit who will turn 18 in the next 2 years`
+
+#### Secondary criteria (nice-to-haves)
+*What criteria would strengthen your results?* 
+
+- `[Place secondary criteria here between hash marks when in edit mode]`
+- `secondary criteria`
+- `secondary criteria`
+- **`Add more criteria as needed`**
+
+## Timeline 🗓️
+
+### Optional Kick-off Call with Perigean
+
+- `Suggested dates and times:` **N/A**
+
+### Prepare
+
+- `Pilot participant name:` **TBD**
+- `Date and time of pilot session:` **TBD** 
+
+### Research sessions
+- `Planned dates of research:` **02/18-02/24**
+
+### Length of sessions
+- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **1 hour**
+  
+- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **30 minutes**
+  
+- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **4**
+
+### Availability
+When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
+
+- `02/18, Wednesday, 8:30 AM-2:30 PM EST`
+- `02/19, Thursday, 8:30 AM-10:00 AM EST`
+- `02/19, Thursday, 1:00 PM-3:30 PM EST`
+- `02/20, Friday, 8:30 AM-2:00 PM EST`
+- `02/23, Monday, 8:30 AM-3:30 PM EST`
+- `02/24, Tuesday, 11:00 AM-4:00 PM EST`
+  
+## Team Roles  🕵️👩‍💻👩‍🔬
+
+- `Moderator:` **Megan Graham**	
+- `Research guide writing and task development (usually but not always same as moderator):` **Megan Graham**		
+- `Participant recruiting & screening:`	**Megan Graham**	
+- `Project point of contact:` **Megan Graham**		
+- `Accessibility specialist (for sessions where support for assistive technology may be needed):` **N/A**	
+- `Note-takers:` **TBD**
+- `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
+
+- **David Kennedy**
+- **Lauren Russell**
+
+## Approvals ✅
+> [!NOTE]
+> Before submitting for review, ensure you've completed the YAML frontmatter section at the top of this document using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md).
+- `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
+- `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
+

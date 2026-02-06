@@ -2,7 +2,7 @@
 title: "Conversation Guide for VA Mobile App Team, Debt Portal (Overpayments UAT), 2026-01-29"
 author:  "Emily DeWan"
 date_created:  "2026-01-26"
-last_modified: "2026-01-29"
+last_modified: "2026-02-05"
 tags: 
   - "AUD: Veterans"
   - "PRDT: Debt-portal"
@@ -53,24 +53,24 @@ description: "A moderated UAT conversation guide for testing the VA mobile app�
 
 ## Intro - 5 minutes
 
+
 Thank you so much for joining today. My name is Emily, and [NAME] here will be taking notes. I also have a couple other colleagues in the digital waiting room who would like to observe, but we’ll get to that momentarily.
-
-Today, we’re testing a pre-release version of the VA app specifically to check the Debt Portal before it's released to the public. We want to make sure that every button you press results in the correct information being shown on screens.
-
-I'll be helping you download a test version of the app. If you currently have the VA app on this phone, this test version will replace it. I'll help you restore the original version once you're done.
 
 Your participation in this is completely voluntary. Nothing you do here will affect your VA benefits in any way. During this session, we'll be asking you to share your screen which will show your personal debt records. If you would like to stop the session or do not want to show us something at any time, that's no problem. Please let me know.
 
 I want to review a few things to make sure you're okay with what will happen in this session
 
+* Today, we’re testing a pre-release version of the VA app specifically to check the Debt Portal before it's released to the public. We want to make sure that every button you press results in the correct information being shown on screens.
 * You're on a mobile phone now? Is it an iPhone or an Android?
-* You indicated that you have a current overpayment debt. Are you able to see the details of this debt when you log into your VA account on the website?
+* I'll be helping you download a test version of the app. If you currently have the VA app on this phone, this test version will replace it. I'll help you restore the original version once you're done.
+* You indicated that you have a current overpayment debt. Are you able to see the details of this debt when you log in to your VA account on the website?
 * You have your username and password ready to log into the app? [ID.me or Login.gov and can access your two-factor authentication - text code or app]
+* _[Android only]_ You have access to your email account here on this phone?
+* _[Android only]_ We will need to temporarily adjust some security settings to install this version of the app. I'll walk you through resetting things once we're done.
 * screensharing
     * _[yes to screen sharing]_ Are you okay with sharing your screen as you click through your overpayment details?
     * _[no to screen sharing]_ As you click though the app, you'll be describing what you see.
-* You have access to your email account here on this phone?
-* Are you connected to WiFi? _[If not, are they able to be?]_
+* Are you connected to WiFi? [If not, are they able to be?]
 * I have [number] colleagues who are interested in observing this session to better understand the Veteran experience. Would you be okay with them observing?
     * If no: Use Slack to kindly ask the observers to leave the Zoom.
     * If yes: Admit observers.
@@ -84,6 +84,8 @@ I want to review a few things to make sure you're okay with what will happen in 
 
 Start recording.
 
+
+
 * I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
 
 
@@ -92,12 +94,17 @@ Start recording.
 First, I'd like you share your screen.
 
 Now I'm going to send you a link to get started with the test version of the app.
-- [iOS directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md)
-- [Android directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_android.md)
+- Link for iOS 🚧
+- Link for TestFlight 🚧
+- [iOS directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md) for guiding them through the download and set-up
+- [Android directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_android.md) for guiding them through the download and set-up
 
 ## Test paths
 
 Now I'm going to ask you to go to various parts of the app where I'll be checking to see that elements appear correctly.
+
+_Moderator will follow the test paths outlined in the spreadsheet. Both versions contain the same information._
+
 - Google Sheet: [Spreadsheet: Test paths and success criteria - Overpayment UAT](https://docs.google.com/spreadsheets/d/1xfHJGzPQJaIeO-uPp8D4aboEO-qSDvBVp0b5QABg_5Q/edit?gid=312390165#gid=312390165)
 - Excel Spreadsheet on VA network: [Spreadsheet: Test paths and success criteria - Overpayment UAT](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Test%20paths%20and%20success%20criteria%20-%20Overpayment%20UAT.xlsx?d=w1b926b3759974de4989a59acbded0343&csf=1&web=1&e=sqGrc5)
 

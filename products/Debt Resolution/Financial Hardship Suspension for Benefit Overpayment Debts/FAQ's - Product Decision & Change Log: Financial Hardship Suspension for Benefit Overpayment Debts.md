@@ -102,8 +102,16 @@ Current # of accounts requesting relief ; as of June 1, 2025.
 - Yes, once the Veteran has submitted a request for hardship suspension they should not submit a second request until after a determination has been made. 
     
 **19.  How are they notified when 2 years is up, or suspension is ending?** 
-- The Veteran is sent a letter. 
-- Copy of letter can be found here:  TBD coming soon
+- DMC sends multiple letters in relationship to Hardship Suspension requests. Keep in mind these letters (s-docs) are sent manually by DMC staff and do not generate automatically. Also note, a Veteran will not receive ALL of these letters, only those that apply to their situation. Here is a short description/reason each letter would be sent below and a document with the full language of each letter [can be found here - Joe to enter]. 
+
+- S-01 Request for Suspension Approved – letting the debtor know we agreed to their suspension request
+- S-02 Request for Suspension -Need more information – the debtor did not provide all necessary information for the suspension, DMC requesting that information (the bullet list can be customized for specific ask)
+- S-03 Suspension Ending C&P – suspension is ending and debt will be paid through C&P benefits
+- S-04 Request of Suspension Denied – letting the debtor know their suspension request has been denied
+- S-05 Suspension Ending EDU – suspension is ending and debt will be paid thru EDU benefits
+- S-06 Suspension Ending Inactive Benefits – Not at TOP – letting the debtor, whose debt has not been referred to TOP, know payment is expected
+- S-07 Suspension Ending Inactive Benefits – At TOP - letting the debtor, whose debt has already been referred to TOP, know payment is expected
+- S-08 Suspension Request Over $100k – Letter sent when receiving a request for suspension on a debt with a balance of $100k or greater to let them know their request has been sent to the appropriate team for review and while it is being reviewed, they have been placed on a reduced repayment plan.  Depending on that review, it may or may not be referred to the Department of Justice (DOJ); the debtor will receive a letter letting them know either way (this letter is sent by a different team who has their own manual letters).
     
 **20.  Will DMC require additional information after the FSR is reviewed for a suspension?**
  - Typically no, the details collected as part of the FSR will be sufficient to grant hardship suspension. In the event that clarity is needed the Veteran will be contacted. 

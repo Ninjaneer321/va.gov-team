@@ -25,13 +25,14 @@ Before enabling your feature toggle in production, you'll need to:
 - [x] Implement dashboard or add to existing dashboard to track push notifications
 - [ ] Previously the eventbus-gateway sign-on token was scoped only to the `send_email` endpoint.  Confirm that the identity team has updated the config in production to accept both the `send_email` and `send_notifications` endpoints
 - [ ] Similar to above the eventbus-gateway vsp-infra-application-manifests configuration for `tokenScope` must be updated to accept both `send_email` and `send_notifications`
-- [ ] Confirm that VANotify has, in production, created the preferences for "Benefits Claims and Decision Reviews"
-- [ ] Confirm that VANotify has populated the preference retroactively to all users
+- [x] Confirm that VANotify has, in production, created the preferences for "Benefits Claims and Decision Reviews".
+- [x] Confirm that VANotify has populated the preference retroactively to all users ([slack thread](https://dsva.slack.com/archives/C018V2JCWRJ/p1770247934357449?thread_ts=1770049116.138369&cid=C018V2JCWRJ))
 - [ ] Confirm "What's new" content has been published (Planned for release 2/10)
 - [ ] Testing of progressive rollout of "What's new" and preference is complete
 - [x] Confirm the Mobile App team has completed any desired testing
-- [x] Confirm the Mobile App team has deployed their analytics update (Planned for release on 1/13/26)
-- [ ] Confirm VetText has completed a production deployment of push template (Planned for release on 1/19/26)
+- [x] Confirm the Mobile App team has deployed their analytics update (released on 1/13/26)
+- [x] Confirm VetText has completed a production deployment of push template ([slack thread](https://dsva.slack.com/archives/C018V2JCWRJ/p1770247919989499?thread_ts=1770049116.138369&cid=C018V2JCWRJ))
+- [x] Confirm push template text matches "Your VA benefit decision letter is available"
 - [x] Gather details for single user test
 - [ ] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
     - [ ] review the plan with your DEPO/OCTO representative.

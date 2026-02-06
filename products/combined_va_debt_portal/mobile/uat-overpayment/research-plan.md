@@ -110,29 +110,15 @@ tags:
 
 ## Background 🏗️
 
-_This is a User Acceptance Test (UAT) as a follow-up from the Usability Test of [Overpayments and Copayments on mobile app](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/research-plan.md?plain=1)._
-_Overpayments will be the first section to be released in the mobile app. Copays will be released at a later date._
+This study is a User Acceptance Test (UAT) for the VA mobile app’s Overpayments experience. The goal of this UAT is to confirm that the Overpayments feature is ready for production release by validating that the experience works as intended for Veterans using real account data in a pre-release build of the app.
 
-Veterans can experience debt from the VA. The two types of debt that the Financial Management Team has focused on include: 
+Benefit overpayment debt can occur when a Veteran receives more compensation than they are entitled to at that moment, and it is handled by the Veterans Benefits Administration (VBA). Examples of overpayments include a dependent change from a divorce, and receiving education benefits for a class but then dropping the class.
 
-* Overpayments   
-* Copayments (also referred to as copays)
-
-Benefit overpayment debt can occur when a Veteran receives more compensation than they are entitled to, and it is handled by the Veterans Benefits Administration (VBA). Examples of overpayments include a dependent change from a divorce, or even when a Veteran receives education benefits for a class but then drops the class and does not report that. In these instances, the Veteran will owe money to the VA for such actions. 
-
-Copayments are part of an individual's health insurance and are the amount of money owed for a specific healthcare service or prescription; the remainder of the cost is covered by insurance. Veterans with medical copayment debt from the VA have received care at a VA health facility. The Veterans Health Administration (VHA) manages medical copayments.  
-
-Veterans can view their overpayment and copayment debts through the authenticated experience on VA.gov. After logging on, they can access their debt portal through the My VA tab. If overpayment or copayment debt exists, Veterans can take the following actions: 
-
-* View the debt  
-* Make a payment and resolve the debt online  
-* Dispute charges   
-* Request assistance from the VA for financial hardship (by completing the Financial Status Report, VA Form 5655\)  
-* View resources about VA debt management
+Veterans who have benefit overpayment debt can currently access overpayment information through the authenticated experience on VA.gov. The VA mobile app does not currently provide debt-related information or actions. This release introduces Overpayments as the first debt capability in the mobile app (Copays will be released separately at a later date).
 
 `What problem is your product trying to solve?`
 
-The mobile app does not have any debt-related information for Veterans to access. How might we provide Veterans with the ability to view the total amount owed for benefit overpayment debts, as well as the details related to that debt on the mobile app?  
+The mobile app does not have any debt-related information for Veterans to access. The goal is to let Veterans see totals + details for overpayment debts in the app.
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
@@ -241,7 +227,7 @@ This method is appropriate because the overpayments feature is in its final phas
 
 ## Research materials 📔
 
-- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/conversation-guide-template.md)
+- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/conversation-guide.md)
 - [Spreadsheet with test user flows and success criteria](https://dvagov.sharepoint.com/:x:/s/vamobilefeaturesupport/IQA3a5Ibl1nkTZiaWay97QNDAeh7lgw853voGUj6SB9rz-g?e=3PfKEz)
 
 Pre-release app builds
@@ -257,13 +243,14 @@ Directions on using pre-release app build
 
 ### Recruitment approach
 
-We would like Perigean to recruit Veterans with current overpayment debt who are willing to log into the mobile app with their real credentials.
+We would like Perigean to recruit Veterans with current overpayment debt who are willing to log in to the mobile app with their real credentials.
 
 
 ### Recruitment criteria
 
 Screener question 1
-* Do you **currently** owe any of the following types of VA debt? If so, please select all that apply.
+
+* Do you currently owe any of the following types of VA debt? If so, please select all that apply.
     * Post-9/11 GI Bill overpayment (books and supplies, housing, or tuition)
     * Disability compensation and pension overpayment
     * Education Ch 33-Ch1606/Ch30 Kickers
@@ -272,24 +259,34 @@ Screener question 1
     * I do not currently owe any of the above types of VA debt. [DISQUALIFY]
 
 Screener question 2
-* When you sign in to VA.gov and to go My VA, do you see details about "overpayment debts" under the section "Outstanding debts"? (this is different from copay bills)
+
+* When you sign in to VA.gov and to go My VA (https://va.gov/my-va/), do you see details about "overpayment debts" under the section "Outstanding debts"? (this is different from copay bills)
     * Yes, I see a listing of 1 or more overpayment debts on VA.gov.
     * No, I don’t see any overpayment debt details on VA.gov [DISQUALIFY]
     * I don’t have a VA.gov account / I can’t sign in right now [DISQUALIFY]
 
 Screener question 3
-* We’re conducting a study to test a new feature for viewing VA debt in the mobile app, using a preview version of the app. To participate, you’ll need to log in to the preview app using your real VA credentials so we can confirm everything is working correctly. Please confirm if you are comfortable with this:
-    * I am willing to log in to the mobile app with my real credentials and share my screen during the session.
-    * I am willing to log in to the mobile app with my real credentials, describe what I am seeing on screen, but NOT share my screen.
+
+* To participate in this study, you’ll need to sign in to the VA mobile app using your real Login.gov or ID.me credentials so we can confirm everything is working correctly. Please confirm if you are comfortable with this:
+    * I am willing to log in to the mobile app with my real credentials and share my screen during the session. [PRIORITIZE THIS OVER NEXT ANSWER]
+    * I am willing to log in to the mobile app with my real credentials, describe what I am seeing on screen, but NOT share my screen. [ONLY SELECT IF WE DON'T HAVE ENOUGH FROM PREVIOUS ANSWER]
     * I am not comfortable logging in with my real credentials for this study. [DISQUALIFY]
 
 Screener question 4
+
+* Participation requires downloading specific testing tools and a pre-release version of the VA app which will temporarily replace your current version. If you use an Android, you must also be comfortable temporarily adjusting your security settings to allow the installation. We will guide you through restoring the original app and returning your device to its original state at the end.
+    * Yes, I am comfortable with this.
+    * No, I would prefer not to change my phone settings or apps. [DISQUALIFY]
+
+Screener question 5
+
 * Are you able to join the Zoom session from a smartphone? Any kind of smartphone will work as long as it connects to the internet.
     * Yes, I have an iPhone where I can join the session
     * Yes, I have an Android phone where I can join the session (for example: Samsung, Google, Motorola, or LG)
     * No [DISQUALIFY]
 
-Screener question 5
+Screener question 6
+
 * When interacting with apps on your smartphone, do you usually adjust the standard display or use accessibility features? Please select all that apply.
     * I mostly use the phone's standard display settings.
     * I often increase the text size significantly.
@@ -298,28 +295,23 @@ Screener question 5
     * Other
     * Prefer not to say
 
-Screener question 6
-* **Question text:** Please review the technical requirements below. To participate in this study, you must confirm that you meet these specifications and are comfortable with the following steps:
-    * VA Credentials: You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
-    * Email Access: You can open your email directly on your mobile phone to click the test link.
-    * Testing Tools: You are willing to download TestFlight (iOS) or Firebase App Distribution (Android).
-    * Storage: You have at least 200MB of free space.
-    * Phone operating system version:
-        * iPhone: iOS 16 or newer.
-        * Android: Android 12 or newer.
-    * App Replacement: If you have the standard VA app, the test version will temporarily replace it. (If you don't have the app, it will simply install as a new one). We will help you restore the original version at the end.
-    * Android Permissions: You are comfortable allowing your phone to "Install Unknown Apps" within your security settings for this session.
-    * Connection: You will be connected to WiFi during our call for a stable download.
-* **Answer text:**
-    * Yes, I meet these requirements and am ready to follow these steps during the session.
-    * No, I cannot meet these requirements at this time. [DISQUALIFY]
+_[To be discussed with Perigean: best way to confirm these with participants?]_ Technical pre-requisites for participants (for both iOS and Android)
+
+- VA Credentials: You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
+- (Android only) Email Access: You can open your email directly on your mobile phone to click the test link.
+- (Android only) Permissions: You are comfortable allowing your phone to "Install Unknown Apps" within your security settings for this session.
+- Testing Tools: You are willing to download TestFlight (iOS) or Firebase App Distribution (Android).
+- App Replacement: If you have the standard VA app, the test version will temporarily replace it. We will help you restore the original version at the end.
+- Connection: You will be connected to WiFi during our call for a stable download.
+
+
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
 - `Veterans:` **10**
 - `Caregivers:` **0**
 - `Dependents:` **0**
-- `Total:` **0**
+- `Total:` **10**
 - `Ideal completed sessions:` **3 on iOS, 3 on Android**
 
 ### Primary criteria (must-haves)
@@ -338,12 +330,15 @@ Screener question 6
 
 ### Kick-off Call with Perigean
 
-- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]** 🚧
+- `Suggested dates and times:`
+    - Wed 02/11 11:30AM - 1:00PM EST
+    - Thur 02/12 10:00AM - 1:00PM EST
+    - Fri 02/13 10:00AM - 1:00PM EST
 
 ### Prepare
 
-- `Pilot participant name:` **[Enter name]** 🚧
-- `Date and time of pilot session:` **[Enter time]** 🚧
+- `Pilot participant name:` **Michael Harmer, Janelle Finnerty, Ian Hilton**
+- `Date and time of pilot session:` **already completed**
 
 ### Research sessions
 - `Planned dates of research:` **[Enter dates MM/DD-MM/DD]** 🚧
@@ -377,7 +372,7 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - `Project point of contact:` **Natalie Davied Gibbons**		
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` **n/a**	
 - `Note-takers:` **To be assigned from the team**
-- `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
+- `Observers: To be added to study channel, but not added to each session's calendar event.`
 
   - **Natasha Huckleberry**
   - **Natalie Davied Gibbons**
@@ -389,6 +384,7 @@ When would you like sessions scheduled? Please list exact dates and times in **E
   - **Matthew Guest**
   - **Michael Harmer**
   - **Kayley Bogemann**
+
 
 ## Approvals ✅
 - `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`

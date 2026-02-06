@@ -42,6 +42,8 @@ All applications on the Veteran-facing Services Platform include a phone number 
 
 [Example Product Guide 2](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/templates/sample-product-guide-2.pdf)
 
+[Example Product Guide Archive on SharePoint](https://dvagov.sharepoint.com/sites/Tier2779/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FTier2779%2FShared%20Documents%2FWe%20Are%20Veteran%20Support%2FProduct%20Documentation&viewid=c1461b25%2Db1b7%2D4699%2Dbc8b%2D52f7f2c3f28c&FolderCTID=0x01200098C59389D31B6C4B8F0CFC5361F4F542)
+
 ### Step 2: Create the Product Video (Optional)
 
 *For new services and updates to existing services*:

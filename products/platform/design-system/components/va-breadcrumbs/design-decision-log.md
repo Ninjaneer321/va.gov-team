@@ -8,6 +8,7 @@ Last updated: 4 Feb 2026
 ## ADR 001 - Current page should be a link and look like a link
 - a11y Discovery: Breadcrumb Link Cursor Event [#53331](https://github.com/department-of-veterans-affairs/va.gov-team/issues/53331)
 - Breadcrumb's current page styling should not remove pointer events [#1458](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/1458#issuecomment-1671807757)
+- [LAUNCH BLOCKING FOR TEAMS] Design System Staging Review - Accessibility Feedback - Converted components: Memorable date, Select and Breadcrumbs [#64284](https://github.com/department-of-veterans-affairs/va.gov-team/issues/64284)
 
 ### Status: APPROVED
 
@@ -38,7 +39,7 @@ The current page in navigation components (pagination, breadcrumbs, and similar 
 - Clickable - Display the hand cursor and respond to click events
 - Focusable - Receive keyboard focus and respond to Enter/Space key activation
 - Marked with aria-current="page" - Properly identified for assistive technology
-- Visually Distinguished - Styled differently from other navigation links (per ADR 002: bold, black text, underlined) while maintaining link functionality
+- Visually Distinguished - Styled differently from other navigation links while maintaining link functionality
 
 ### Rational
 - Ensures consistency across all input methods (keyboard, mouse, touch, assistive technology)
@@ -57,7 +58,7 @@ The current page in navigation components (pagination, breadcrumbs, and similar 
 #### Negative
 
 - **User Confusion:** Some users may question clicking a link to the current page; risk of unintended page refreshes
-- **Counter-intuitive Design:** Styling suggests "you are not here" (static) since appearance looks like you can navigate somewhere else
+- **Counter-intuitive Design:** Styling suggests "you are not here" (static) since appearance looks like a link you can navigate somewhere else
 
 ### Open Questions
 
@@ -66,6 +67,7 @@ The current page in navigation components (pagination, breadcrumbs, and similar 
 ## ADR 002 - Make current page visually distinct with non-interactive styling
 - [Decision to proceed with non-interactive styling for the language toggle](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/3605#issuecomment-2552177861)
 - [Design] Update design for current links in breadcrumbs [#3759](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/pull/5631)
+- [[Slack thread](https://dsva.slack.com/archives/C01DBGX4P45/p1709240056546889)] Designers sharing personal experience of screenreader getting confused by the interactive current page
 
 
 ### Status: APPROVED
