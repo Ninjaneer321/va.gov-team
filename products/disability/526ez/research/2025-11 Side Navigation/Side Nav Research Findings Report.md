@@ -552,7 +552,7 @@ For the Process List design:
 
 ### Tools used for Synthesis
 
-* Mural
+* Mural - [Side Navigation Usability Testing Synthesis_Mural board](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1763752874980/8849b0670895cf338818802e8e57c986041d3d0b)
 * Affinity mapping
 * Github Copilot  
   
