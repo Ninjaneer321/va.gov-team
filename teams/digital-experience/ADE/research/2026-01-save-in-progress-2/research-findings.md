@@ -226,7 +226,7 @@ For demographic details, see [Research participants](#user-content-research-part
 ### Finding 1. The interstitial page was NOT effective in communicating about save in progress because when it came up, most users were so focused on filling out form fields that anything other than that was ignored.
 Half of the participants ignored the interstitial page when it came up because it was an **unwelcome interruption to their task of filling out a VA form and didn't seem relevant**. The wording on the page included "after every change", and two participants said that didn't apply to what they were doing, which was filling out the form for the first time. 
 
-  > *"I'm focused on the task, getting a job done. Trying to get to the form, and I'm missing all the fine print" (p7).*
+  > *"I'm focused on the task, getting a job done. Trying to get to the form, and...I was kind of speed reading through it" (p7).*
 
   > *"Where's my form? Let me fill it out...I read it and it didn't register, it didn't click" [that these were instructions to read] (p11).*
 
@@ -234,9 +234,13 @@ Half of the participants ignored the interstitial page when it came up because i
 
   > *"Bombarding somebody with the information in the beginning, if it's pertinent or not" (p8).*
 
-Half of the participants did read the interstitial page but most didn't remember that it said all of their work would be saved automatically. While looking at the page again at the end of the research session, participants provided additional feedback on it: 
+Half of the participants did read the interstitial page but **most didn't remember that it said all of their work would be saved automatically**.  
 
-- One participant didn't read the heading 
+While looking at the page again at the end of the research session, participants provided additional feedback on it: 
+
+- One participant didn't realize that "after every change you make"  applied to entering information the first time.
+
+  > *"I'm starting this, and I'm making entries. And it's talking about I'm making changes" (p7).*
 - Another participant said that if we are saving form information all the time, why would they ever need to click "Finish later"? 
   - It seems like we're conflating two messages in the interstitial page: (1) your information is being automatically saved, and (2) how to get back to your in-progress form after selecting "Finish later".
 
@@ -246,7 +250,7 @@ Half of the participants did read the interstitial page but most didn't remember
 > **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
 
 ### Most users (6 of 7) didn't understand that saving was happening all the time, assuming it only happened after selecting "Finish later" or submitting the form.
-After participants finished filling out the form, we asked about when they thought their information was saved. Most participants said only after selecting the "Finish later" or "Submit" button. **Most skipped or forgot the interstitial page that said their information gets saved automatically.** When we told participants that VA form information is saved automatically, they were pleasantly surprised. Maybe it's OK if people don't know that saving is happening automatically, as long as they're glad to not be losing information they already entered.
+After participants finished filling out the form, we asked when they thought their information was saved. Most participants said only after selecting the "Finish later" or "Submit" button. **Most skipped or forgot the interstitial page that said their information gets saved automatically.** When we told participants that VA form information is saved automatically, they were pleasantly surprised. Maybe it's OK if people don't know that saving is happening automatically, as long as they're glad to not be losing information they already entered.
 
 - _Supporting data: Quote [add context]_  
 
