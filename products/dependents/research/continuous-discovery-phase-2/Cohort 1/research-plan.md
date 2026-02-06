@@ -1,121 +1,13 @@
----
-# Research Plan Metadata
-title: "Research Plan for Lifestage, Dependents Management, February 2026"
-date: 2026-02-06
-last_updated: 2026-02-06
-team: "Lifestage"
-product: "Dependents Management"
-product_area: "authenticated"
 
-# Background Context
-background:
-  problem_statement: "Dependents Management allows Veterans to manage the dependents on their disability compensation benefit. Specifically, the team is working on the functionality that allow Veterans keep dependents on the benefit when they turn 18 if they are students or disabled dependents, or add them back to the benefit if they have been removed but still meet the eligibility criteria. The process of accessing these forms digitally is currently very unintuitive."
-  product_location: "These forms are located in the dependents management section of VA.gov"
-  user_familiarity: "iteration on existing functionality"
-
-# Research Design
-methodology: "concept testing"
-research_format: 
-  location: remote # Options: remote
-  moderated: true # Options: true
-  
-# Research Goals & Questions
-research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
-
-research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
-
-hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
-
-expected_outcomes: "The outcome of this research will be design feedback that helps us make it more intuitive for Veterans to access these these necessary forms."
-
-# Recruitment & Participants
-recruitment:
-  recruiting_partner: "Perigean"
-  approach: "lean maximum variation"
-  
-  primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
-participants:
-  veterans: 14
-  caregivers: 0
-  dependents: 0
-  total_recruited: 14
-  completed_sessions_goal: 10
-  
-# Timeline & Sessions
-timeline:
-  pilot_date: "TBD"
-  pilot_participant: "TBD"
-  research_dates: "2026-02-18 to 2026-02-24"
-  research_review_submission: "2026-02-09"
-  
-session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 4
-  
-# Strategic Alignment
-octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
-veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
-# Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
-tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
----
-
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've filled out your research plan below.** 
-> 
-> Use the [GitHub Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed research plan.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags. 
 
 	# Research Plan for Lifestage, Dependents Management, February 2026]
-> [!NOTE]
-> *Questions about how to set up your research study? Reach out in the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel.* 
 
 ## Background 🏗️
 <details><summary>Briefly describe the background of your product.</summary>
 	
 `What problem is your product trying to solve?`
 
-**"Dependents Management allows Veterans to manage the dependents on their disability compensation benefit. Specifically, the team is working on the functionality that allow Veterans keep dependents on the benefit when they turn 18 if they are students or disabled dependents, or add them back to the benefit if they have been removed but still meet the eligibility criteria. The process of accessing these forms digitally is currently very unintuitive."**
+**Dependents Management allows Veterans to manage the dependents on their disability compensation benefit. Specifically, the team is working on the functionality that allow Veterans keep dependents on the benefit when they turn 18 if they are students or disabled dependents, or add them back to the benefit if they have been removed but still meet the eligibility criteria. The process of accessing these forms digitally is currently very unintuitive.**
   
 `Where is your product situated on VA.gov?`
 
@@ -162,7 +54,7 @@ Are there moments that matter?</summary>
 
 `1.` **Understand if the new design makes the process of keeping dependents on the disability compensation benefit after age 18 as student dependents or disabled dependents easier for participants**
 
-`2.` **Understand if the new design makes the process of reinstating student dependents or disabled dependents who were previously on the disability compensation benefit but were removed easier for participants**
+`2.` **Understand if the new design makes the process of adding back student dependents or disabled dependents who were previously on the disability compensation benefit but were removed easier for participants**
 
 `3.` **Understand if the new design of the upload page makes it more intuitive for participants** 
   
@@ -177,9 +69,9 @@ Are there moments that matter?</summary>
 
 ### Research questions
 
-**`1.`Do participants understand how to start the process of keeping a dependent past their 18th birthday as a disabled or student dependent?**
+**`1.`Do participants understand how to start the process of keeping a dependent on the disability compensation benefit past their 18th birthday as a disabled or student dependent?**
 
-**`2.`Do participant understand how to start the process of reinstating inactive dependents or disabled dependents?**
+**`2.`Do participant understand how to start the process of adding back inactive dependents?**
 
 **`3.`Do participants understand that they can submit the form without uploading documents?**
 
@@ -189,7 +81,7 @@ Are there moments that matter?</summary>
 ---
 
 **1. The new design for keeping and adding back dependents will be easier for participants to navigate.** 
-**2. The participants will find the process of adding uploading documentation easier than the process of determining which documents need to be sent and locating the documents.**
+**2. The majority of participants will want to upload documents before they submit the form.**
 
 ---
   
@@ -208,29 +100,6 @@ Are there moments that matter?</summary>
 - [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/continuous-discovery-phase-2/Cohort%201/conversation-guide.md)
 - [Link to prototype](https://www.figma.com/proto/s3wGkxbhHEKTcggOHenNlN/-%F0%9F%9A%A7----DMT-Usability-Prototypes?node-id=4067-15310&p=f&t=5Hufme7Qo2zwXMrR-0&scaling=min-zoom&content-scaling=fixed&page-id=4015%3A10652&starting-point-node-id=4067%3A15310)
 	
-## Recruitment 🎯	
-*OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
-
-> [!NOTE]
-> Before writing your recruitment criteria, be sure to review the following resources: 
-> - [Refer to the Perigean Recruitment Guidance](https://depo-platform-documentation.scrollhelp.site/research-design/recruiting-participants) to learn how Perigean recruits, screens, and prepares participants for research. 
-> - [Refer to the inclusive recruitment strategies](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md) to learn how to be inclusive of underserved Veteran communities.
-
-### Recruitment approach
-*Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
-- Perigean **CANNOT** recruit VA employees or VSOs. Work with your VA lead to recruit these groups. 
-- Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
-- Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
-
-### Recruitment criteria
-
-- **Write any recruitment criteria for experience or scenarios as screener questions with qualifying responses. Perigean will use these verbatim to recruit participants.**
-- Consider providing links to products and/or clear descriptions to ensure participants understand the question.
-  Example: Have you been to a VA urgent care facility in the last 6 months? [answer should be yes to qualify.]
-
-- The more recruitment criteria you have, the less likely that a small sample of participants will be able to meet all criteria.
-- Consider how you could leverage the [lean maximum variation sampling (MVS) approach](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md#lean-mvs-strategy) by breaking up criteria for your study into multiple cohorts that each isolate one primary criteria.
-- Perigean will consider each cohort as a separate recruitment effort, increasing the chances of meeting all criteria for your study. [Review an example of the multiple cohort approach.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/pre-mhv-prototype/generative-research-study-1/2020-12.research-plan1.md)
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
@@ -244,22 +113,36 @@ Are there moments that matter?</summary>
 
 *Please consider each of the following two groups as a separate recruitment effort*
 
-- `At least 7 Veterans who have disabled dependents on their disability compensation benefit`
-- `At least 7 Veterans who currently have student dependents on their disability compensation benefit, have had a student dependent on their disability compensation benefit in the past 2 years, or have a dependent on their disability compensation benefit who will turn 18 in the next 2 years`
+- `At least 7 Veterans who have a disabled dependent on their disability compensation benefit (Do you have a disabled dependent on your disability compensation benefit?)`
+- `At least 7 Veterans who currently have a student dependent on their disability compensation benefit, have had a student dependent on their disability compensation benefit in the past 2 years, or have a dependent on their disability compensation benefit who will turn 18 in the next 2 years (Do you currently have a student dependent on your disability compensation benefit? OR In the past 2 years, have you had a student dependent on your disability compensation benefit? OR Do you have a dependent on your disability compensation benefit who will turn 18 in the next 2 years?)`
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- `[Place secondary criteria here between hash marks when in edit mode]`
-- `secondary criteria`
-- `secondary criteria`
-- **`Add more criteria as needed`**
+- `At least 7 Veterans who are age 55 or older`
+- `At least 7 Veterans with a cognitive disability`
+- `At least 7 Veterans who are mobile users`
+- `At least 4 Veterans who live in a rural area`
+- `At least 4 Veterans who do not have a degree`
+- `At least 3 Veterans with an Other than honorable discharge`
+- `At least 3 Veterans of immigrant origin`
+- `At least 2 Veterans who are women`
+- `At least 1 Veteran who is an expat`
+- `At least 3 Veterans who are Black or African American`
+- `At least 2 Veterans who are of Hispanic, Latino, or Spanish origin`
+- `At least 1 Veteran who is Biracial`
+- `At least 1 Veteran who is Asian`
+- `At least 1 Veteran who is Native Hawaiian or other Pacific Islander`
+- `At least 1 Veteran who is Native, American Indian or Alaska Native`
+- `At least 1 Veteran who is Gay, lesbian, or bisexual`
+- `At least 1 Veteran who is Transgender`
+- `At least 1 Veteran who is Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman`
 
 ## Timeline 🗓️
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **N/A**
+- `Suggested dates and times:` **02/11, Wednesday, 9 AM-1:30 PM EST**
 
 ### Prepare
 
@@ -267,7 +150,7 @@ Are there moments that matter?</summary>
 - `Date and time of pilot session:` **TBD** 
 
 ### Research sessions
-- `Planned dates of research:` **02/18-02/24**
+- `Planned dates of research:` **02/18-02/25**
 
 ### Length of sessions
 - `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **1 hour**
@@ -285,6 +168,7 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - `02/20, Friday, 8:30 AM-2:00 PM EST`
 - `02/23, Monday, 8:30 AM-3:30 PM EST`
 - `02/24, Tuesday, 11:00 AM-4:00 PM EST`
+- `02/25, Wednesday, 8:30 AM-2:30 PM EST`
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
