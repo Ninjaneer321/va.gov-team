@@ -15,7 +15,7 @@ The goal of the Beneficiary Travel Pay team is to empower users to do more with 
 
 `Product Brief`
 
-**[Link to product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/5ce919720bf75d41c4a62aa1e4f86ecf2cd991d5/products/veteran-status/product.md)**
+**[Link to product brief](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/product)**
 
 </details>
 
