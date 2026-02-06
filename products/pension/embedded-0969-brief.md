@@ -3,7 +3,7 @@
 In order to embed the 0969 form into the 527 flow, we've scoped a potential MVP with features that fall into three buckets: **Definitely Do**, **Maybe Do**, and **Don't Do**. The strategy focuses on a high-impact, low-friction integration that balances clarity for the Veteran and technical feasibility.
 
 ## Approach
-Review our discovery Mural for more details, as well as meeting notes from other product teams that have successfully implemented forms-within-forms, which have informed the selection of features below. 
+Review [our comprehensive discovery Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1742317253841/97b5418bfc632a580dcc642e3275900a98e743e3) for more details, as well as meeting notes from other product teams that have successfully implemented forms-within-forms, which have informed the selection of features below. 
 
 * Audit and open questions for VBA
 	* [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1742317253841/97b5418bfc632a580dcc642e3275900a98e743e3?wid=0-1767812712233)
