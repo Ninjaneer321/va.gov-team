@@ -106,7 +106,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
        
 # Disabled dependent flow
 
-## First Task: Sharing prototype & Keep or add back a dependent - 5 minutes
+## First Task: Sharing prototype & Step 1 - X minutes
 
 - Now let's take a look at the prototype.
 - Share link
@@ -114,41 +114,115 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 - I'm going to ask you to imagine that you receive disability compensation benefits and your two children, Naomi and Jen, are dependents on the benefit. Your daughter Jen has a permanent disability that has been present from birth. Jen turns 18 in about 3 months and you receive a letter from VA saying that she will be removed from the benefit when she turns 18. You’ve heard that she can remain on your benefit as a disabled dependent so you log into VA.gov to find out how to take that step.
 - When you log into VA.gov, this is what you see. What would you do next?
 
-- *Screen: Add or remove dependents: What would you like to do? Check everything that you want to do.*
+- *Screen: 
+     - Can we add step 1 screens to the prototype?
+  
+
+
+## Second Task: Step 2 - Manage dependents - 5 minutes
+
+- *Screen: Review your active VA dependents*
+     - Can you talk about what you're thinking as you look at this page?
      - What would you select here?
      - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
-  
 
 
-## Second Task: XXX (Step 2) - 5 minutes
+  - *Screen: Select dependents to remove*
+     - Do we have to include this screen?
 
-- *Screen: TBD*
-     - 
 
-  - *Screen: TBD*
-     - 
-   
+   - *Screen: School enrollment status for Jen Garcia*
+     - Let's say that Jen is not in school at this time
     
-
-## Third Task: Add Children (Step 3) - X minutes
-
-  - *Screen: DEPENDENT'S Disability Status*
+     - Can you talk about what you're thinking as you look at this page?
      - What would you select here?
      - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
+
+
+   - *Screen: Child's disability status*
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
+
+
+## Third Task: Step 3- Add your children - X minutes
+
+  - *Screen: Child's disability details*
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
+     
+  - *Screen: Additional information about this child*
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
+
+       Can we have the option to select an answer for the questions and the option to go back?
+       Do we need to cover marriage screens?
   
-  - *Screen: Disability documents required*
+  - *Screen: Child's address*
+     - Can you talk about what you're thinking as you look at this page?
      - What would you select here?
      - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
       
-  - *Screen: Additional action needed when DEPENDENT turns 18*
-     - ?
+  - *Screen: Supporting evidence for Jen*
+     - When would you prefer to provide evidence?
 
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
+       
+       Can we add Jen's first name in the page title here? and the ability to go back
+
+
+  - *Screen: Upload medical records for Jen*
+     - If you wanted to provide evidence later what would you do here?
+
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
+       
+       Can we add Jen's first name in the page title here?
+
+  - *Screen: Upload a doctor's statement for Jen*
+     - If you wanted to provide evidence later what would you do here?
+
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
+       
+       Can we add Jen's first name in the page title here?
+
+## Fourth Task: Step 4 - Review Application - X minutes
+
+  - *Screen: Review application*
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
+
+       Why do we go from 5 sections of the form to 4?
+       Can we update the content of the review page to match the convo guide?
+       Do we want a second pass through the flow- let's say that they don't see the letter and the dependent is removed from their benefit, then they have to re-add them?
 
 # Student dependent flow
 
