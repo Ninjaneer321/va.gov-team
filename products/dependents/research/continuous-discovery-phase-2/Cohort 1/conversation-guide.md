@@ -110,7 +110,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 
 - Now let's take a look at the prototype.
 - Share link
-- We don't put any of your personal information or anything about your personal situation in the prototype so the Veteran name you'll see in the prototype is ABC.
+- We don't put any of your personal information or anything about your personal situation in the prototype so the Veteran name you'll see in the prototype is Curtis.
 - I'm going to ask you to imagine that you receive disability compensation benefits and your two children, Naomi and Jen, are dependents on the benefit. Your daughter Jen has a permanent disability that has been present from birth. Jen turns 18 in about 3 months and you receive a letter from VA saying that she will be removed from the benefit when she turns 18. You’ve heard that she can remain on your benefit as a disabled dependent so you log into VA.gov to find out how to take that step.
 - When you log into VA.gov, this is what you see. What would you do next?
 
@@ -159,6 +159,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
+
      
   - *Screen: Additional information about this child*
      - Can you talk about what you're thinking as you look at this page?
@@ -169,6 +170,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 
        Can we have the option to select an answer for the questions and the option to go back?
        Do we need to cover marriage screens?
+
   
   - *Screen: Child's address*
      - Can you talk about what you're thinking as you look at this page?
@@ -176,6 +178,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
+
       
   - *Screen: Supporting evidence for Jen*
      - When would you prefer to provide evidence?
@@ -200,6 +203,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
        
        Can we add Jen's first name in the page title here?
 
+
   - *Screen: Upload a doctor's statement for Jen*
      - If you wanted to provide evidence later what would you do here?
 
@@ -210,6 +214,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      - What would you do next?
        
        Can we add Jen's first name in the page title here?
+
 
 ## Fourth Task: Step 4 - Review Application - X minutes
 
@@ -224,22 +229,113 @@ Before we look at the prototype, let’s start with a few warm-up questions.
        Can we update the content of the review page to match the convo guide?
        Do we want a second pass through the flow- let's say that they don't see the letter and the dependent is removed from their benefit, then they have to re-add them?
 
-# Student dependent flow
 
-## First Task: Sharing prototype & Keep or add back a dependent - 5 minutes
-
-- Now let's take a look at the prototype.
-- Share link
-- We don't put any of your personal information or anything about your personal situation in the prototype so the Veteran name you'll see in the prototype is ABC.
-- I'm going to ask you to imagine that you receive disability compensation benefits and your two children, Naomi and Jen, are dependents on the benefit. Naomi turns 18 in about 3 months and you receive a letter from VA saying that she will be removed from the benefit when she turns 18. You’ve heard that she can remain on your benefit as a student dependent and she is still in high school, so you log into VA.gov to find out how to take that step.
-- When you log into VA.gov, this is what you see. What would you do next?
-
-- *Screen: Add or remove dependents: What would you like to do? Check everything that you want to do.*
+## Fifth Task: Step 4 - Post-submission screen - X minutes
+     - If you chose to submit evidence later, what would you do now? 
+    
+     - Can you talk about what you're thinking as you look at this page?
      - What would you select here?
      - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
+
+     Can you add the Veteran's name?
+
+     
+# Student dependent flow
+
+## First Task: Sharing prototype & Step 1 - X minutes
+
+- Now let's take a look at the prototype.
+- Share link
+- We don't put any of your personal information or anything about your personal situation in the prototype so the Veteran name you'll see in the prototype is Curtis.
+- I'm going to ask you to imagine that you receive disability compensation benefits and your two children, Naomi and Jen, are dependents on the benefit. Naomi turns 18 in about 3 months and you receive a letter from VA saying that she will be removed from the benefit when she turns 18. You’ve heard that she can remain on your benefit as a student dependent and she is still in high school, so you log into VA.gov to find out how to take that step.
+- When you log into VA.gov, this is what you see. What would you do next?
+
+- *Screen: 
+     - Can we add step 1 screens to the prototype?
+
+
+## Second Task: Step 2 - Manage dependents - 5 minutes
+
+- *Screen: Review your active VA dependents*
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
+
+
+  - *Screen: Select dependents to remove*
+     - Do we have to include this screen?
+
+Can we add a flow for Naomi being in school?
+
+
+   - *Screen: School enrollment status for Naomi Garcia*
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
+
+
+## Third Task: Step 3- Add one or more students between ages 18 and 23 - X minutes
+
+   - *Screen: Student's marital status*
+     - Let's say that Naomi has never been married
        
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
+
+In the disabled dependent flow we didn't ask if they had ever been married, is that correct?
+Can the back option be connected here?
+
+
+   - *Screen: Student's address*
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
+  
+
+   - *Screen: Student's income*
+     - Let's say that you do not receive Pension Benefits
+       
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
+    
+    What does this doesn't apply to me mean?
+
+## Fourth Task: Step 4 - Review Application - X minutes
+
+  - *Screen: Review application*
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
+
+       Why do we go from 5 sections of the form to 4?
+       Can we update the content of the review page to match the convo guide?
+       Do we want a second pass through the flow- let's say that they take time off of school and the dependent is removed from their benefit, then they have to re-add them?
+
+
+## Fifth Task: Step 4 - Post-submission screen - X minutes
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
+
+     Can you add the Veteran's name?    
 
 
 # Post-Task Interview - 5 minutes
