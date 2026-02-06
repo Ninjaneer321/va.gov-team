@@ -2,7 +2,7 @@
 
 Main takeaway from the research sessions
 
-#### P1
+### P1
 
 **UX Notetaker:**
 - Participant mentioned calling CHAMPVA help number or TRICARE multiple times at confusion points in the flow instead of continuing on
@@ -20,7 +20,23 @@ Main takeaway from the research sessions
 - Alerts/Summary - need to be very clear and direct
 
 
-#### P2
+### P2
+
+**UX Notetaker:**
+- Participant found the warning alert on the Pineapple prototype helpful and not intrusive but would still continue with application
+- The eligibility summary box was confusing; unsure what the green check and red x meant. Preferred the alternate option B shown at the end of the study and stated the headline content specifically cleared that up for them.
+- Found the link to DEERS helpful so they could look up and verify the information on their own
+
+**Observer 1:**
+- P2 did not have a clear preference between the 2 prototypes, but did prefer card style B and liked the mid-flow alert in Pineapple. Overall, wants clearer content in the design around eligibility criteria.
+- Initially did not understand the eligibility criteria until going through both prototypes and seeing the differences in the flow
+- Did not seem to think that the alerts (or ineligibility messaging) would stop him from applying, but it would give him some pause/concern about the outcome of his application.
+
+**Observer 2:**
+- Found the alert in Pineapple helpful, likes that the information is up front. Would still continue on but would be unsure if they should (because of their confusion with the red X)
+- Preferred card style B. Previously in the Pineapple flow seemed to think that the text within the grey eligibility summary was referring to the applicant and whatever they filled out in the form (i.e. "The Veteran or applicants is not eligible for TRICARE") instead of being the general eligibility language
+- Grouped alert options A, B, and C together. Assumed they were all system errors (i.e. not a user entry error but I guess the participant wasn't entering information on their own in the prototype and probably assumed all the pre-entered information was correct)
+
 
 #### P3
 
