@@ -271,12 +271,12 @@ After participants finished filling out the form, we asked when they thought the
 
 *Summarize actionable recommendations based on findings.*  
 
-1. **Recommendation:** Remove the interstitial page and instead consider adding something very short just above the Continue button on every page (e.g., "Your information is being saved automatically"). 
+1. **Remove the interstitial page and instead consider adding something very short just above the Continue button on every page** (e.g., "Your information is being saved automatically"). 
    - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
-1. **Recommendation:** Don't put essential information in the heading that isn't repeated below because some people will ignore the text of the heading.
+1. **Don't put essential information in the heading that isn't repeated below because some people will ignore the text of the heading.**
    - _Supporting evidence: Two participants didn't read the heading on the interstitial page but only the text below it._
 
-1. **Recommendation:** Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages.
+1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages.**
    - _Supporting evidence: 4 of 8 participants didn't know what these phrases meant when seeing them as links on the interstitial page._
 
 
