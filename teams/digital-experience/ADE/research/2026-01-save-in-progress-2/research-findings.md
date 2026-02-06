@@ -236,7 +236,8 @@ Half of the participants ignored the interstitial page when it came up because i
 
 Half of the participants did read the interstitial page but most didn't remember it saying that all of their work is saved automatically. 
 
-While discussing the interstitial page again at the end of the session, participants provided additional feedback on it and why they didn't remember what it said. 
+While looking at the interstitial page again at the end of the session, participants provided additional feedback on it and why they didn't remember what it said. 
+
 
 One participant pointed out that if we are actually saving form information all the time, why would they ever need to click "Finish later"? It seems like we're conflating two messages in the interstitial page: (1) your information is being automatically saved, and (2) how to get back to your in-progress form after selecting "Finish later".
 
