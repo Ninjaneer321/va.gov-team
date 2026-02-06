@@ -90,4 +90,7 @@ Notetaker: Heather Justice
 #### Additional Notes**
 - Too much info on the Intro page and applications
 - Seems to have alot of info (summary page for example) - Streamline and direct (my word)
-- 
+- My 3 Takeaways
+     - Too much info on pages, prefers direct streamlined information
+     - Could be a 'winner's bias'  but was totally fine with the positive eligibility decision, and didnt ask about how it came to that, but did want to know more when he got the non-eligible decision
+     - Alerts/Summary - need to be very clear and direct
