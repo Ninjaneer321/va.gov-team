@@ -21,20 +21,10 @@ Notetaker: [Jessica]
 - On a laptop 
 
 
-#### First Task: [INTRO PAGE] 
-- [ ] Prototype BLUEBERRY
-- [ ] Prototype PINEAPPLE
-
-- Notes
-
-
-#### Second Task: [ELIGIBILITY PATTERN] 
-
-- Notes
 
 
 
-#### Third Task: [INTRO] 
+#### First Task: [INTRO] 
 - [x] Prototype BLUEBERRY
 - [ ] Prototype PINEAPPLE
 
@@ -54,7 +44,7 @@ I would prefer something that says check your eligibility and apply and make som
 - RATING] - I would say 4, it gives you the information you need to move forward and whether or not you are eligible 
 
 
-#### Fourth Task: [ELIGIBILITY] 
+#### Second Task: [ELIGIBILITY] 
 - ok, keep clicking continue ?
 - (clicks through all continues quietly)
 
@@ -77,12 +67,12 @@ I would prefer something that says check your eligibility and apply and make som
 
 
 
-#### Fifth  Task: [INTRO] 
+#### Third Task: [INTRO] 
 - [ ] Prototype BLUEBERRY
 - [x] Prototype PINEAPPLE
 
 
-#### ELIGIBILITY 
+#### Fourth Task: ELIGIBILITY 
 - I feel like what information it was making a decision on the information that is in here is just my name, date of birth
 The last page had questions that let up to the eligiblity decision 
 When you saw the system refreshing or thinking - at this point I would be thinking why am I not eligible?
