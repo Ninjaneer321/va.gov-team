@@ -205,8 +205,8 @@ Are there moments that matter?</summary>
 ## Research materials 📔
 
 **For moderated usability tests:** 
-- [Link to conversation guide](url goes here)
-- [Link to prototype](url goes here)
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/continuous-discovery-phase-2/Cohort%201/conversation-guide.md)
+- [Link to prototype](https://www.figma.com/proto/s3wGkxbhHEKTcggOHenNlN/-%F0%9F%9A%A7----DMT-Usability-Prototypes?node-id=4067-15310&p=f&t=5Hufme7Qo2zwXMrR-0&scaling=min-zoom&content-scaling=fixed&page-id=4015%3A10652&starting-point-node-id=4067%3A15310)
 	
 ## Recruitment 🎯	
 *OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
