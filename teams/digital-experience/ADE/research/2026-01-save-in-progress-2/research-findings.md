@@ -234,12 +234,11 @@ Half of the participants ignored the interstitial page when it came up because i
 
   > *"Bombarding somebody with the information in the beginning, if it's pertinent or not" (p8).*
 
-Half of the participants did read the interstitial page but most didn't remember it saying that all of their work is saved automatically. 
+Half of the participants did read the interstitial page but most didn't remember that it said all of their work would be saved automatically. While looking at the page again at the end of the research session, participants provided additional feedback on it: 
 
-While looking at the interstitial page again at the end of the session, participants provided additional feedback on it and why they didn't remember what it said. 
-
-
-One participant pointed out that if we are actually saving form information all the time, why would they ever need to click "Finish later"? It seems like we're conflating two messages in the interstitial page: (1) your information is being automatically saved, and (2) how to get back to your in-progress form after selecting "Finish later".
+- One participant didn't read the heading 
+- Another participant said that if we are saving form information all the time, why would they ever need to click "Finish later"? 
+  - It seems like we're conflating two messages in the interstitial page: (1) your information is being automatically saved, and (2) how to get back to your in-progress form after selecting "Finish later".
 
 
 - _Supporting data: ![description of the image (image)](link - add image to github folder and link here with .png)_  
@@ -247,7 +246,7 @@ One participant pointed out that if we are actually saving form information all 
 > **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
 
 ### Most users (6 of 7) didn't understand that saving was happening all the time, assuming it only happened after selecting "Finish later" or submitting the form.
-After participants finished filling out the form, we asked about when they thought their information was saved. Most participants said only after selecting the "Finish later" or "Submit" button. **Most skipped or forgot the interstitial page that said their information gets saved automatically.** When we told participants that VA form information is saved automatically, they were pleasantly surprised. It might be OK if people don't know that saving is happening automatically, as long as they're glad to not be losing information they already entered.
+After participants finished filling out the form, we asked about when they thought their information was saved. Most participants said only after selecting the "Finish later" or "Submit" button. **Most skipped or forgot the interstitial page that said their information gets saved automatically.** When we told participants that VA form information is saved automatically, they were pleasantly surprised. Maybe it's OK if people don't know that saving is happening automatically, as long as they're glad to not be losing information they already entered.
 
 - _Supporting data: Quote [add context]_  
 
