@@ -1,4 +1,4 @@
-hello, # ADR: Multi-Provider Document Upload Architecture
+# ADR: Multi-Provider Document Upload Architecture
 
 ## Status
 **Proposed** - Pending team review and approval
