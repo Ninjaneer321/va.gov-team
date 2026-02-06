@@ -89,7 +89,7 @@ Before we start, I have a few things that I want to go over with you:
 
  <mark>**[Record answer here]**</mark>
 
-# Warm-up Questions - 10 minutes
+## Warm-up Questions - 10 minutes
 
 Before we look at the prototype, let’s start with a few warm-up questions.
 
@@ -97,19 +97,21 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 2. Do you have dependents on the benefit?
      - What type of dependents? (parents, spouse, children)
 3. Do you have a disabled dependent on your benefit?
-     - How old are they?
-     - 
-4. (If applicable) what was the process of notifying VA like?
-5. (If applicable) Did you let VA know that your dependent was disabled before they turned 18?
-6. Do you have anything else you want to add?
+4. Do you have a student dependent on your benefit?
+5. Have you had a student dependent on your benefit in the past few years, or do you expect to have a student dependent on your benefit in the next few years?
+6. How old is this dependent?
+7. (If applicable) what was the process of notifying VA like?
+8. (If applicable) Did you let VA know that your dependent was (disabled OR going to be continuing their studies) before they turned 18?
+9. Do you have anything else you want to add?
        
+# Disabled dependent flow
 
 ## First Task: Sharing prototype & Keep or add back a dependent - 5 minutes
 
 - Now let's take a look at the prototype.
 - Share link
 - We don't put any of your personal information or anything about your personal situation in the prototype so the Veteran name you'll see in the prototype is ABC.
-- I'm going to ask you to imagine that you receive disability compensation benefits and your two children, DEF and GHI, are dependents on the benefit. Your son GHI has a permanent disability that has been present from birth. GHI turns 18 in about 3 months and you receive a letter from VA saying that he will be removed from the benefit when he turns 18. You’ve heard that he can remain on your benefit as a disabled dependent so you log into VA.gov to find out how to take that step.
+- I'm going to ask you to imagine that you receive disability compensation benefits and your two children, Naomi and Jen, are dependents on the benefit. Your daughter Jen has a permanent disability that has been present from birth. Jen turns 18 in about 3 months and you receive a letter from VA saying that she will be removed from the benefit when she turns 18. You’ve heard that she can remain on your benefit as a disabled dependent so you log into VA.gov to find out how to take that step.
 - When you log into VA.gov, this is what you see. What would you do next?
 
 - *Screen: Add or remove dependents: What would you like to do? Check everything that you want to do.*
