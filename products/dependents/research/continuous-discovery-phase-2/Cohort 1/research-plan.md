@@ -160,11 +160,11 @@ Are there moments that matter?</summary>
 
 ### Goals
 
-`1.` **[Enter answer here]**
+`1.` **Understand if the new design makes the process of keeping dependents on the disability compensation benefit after age 18 as student dependents or disabled dependents easier for participants**
 
-`2.` **[Enter answer here]**
+`2.` **Understand if the new design makes the process of reinstating student dependents or disabled dependents who were previously on the disability compensation benefit but were removed easier for participants**
 
-`3.` **[Enter answer here]** 
+`3.` **Understand if the new design of the upload page makes it more intuitive for participants** 
   
 ### Outcome
 `How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
@@ -177,100 +177,36 @@ Are there moments that matter?</summary>
 
 ### Research questions
 
-**`1.`[Enter Q1]**
+**`1.`Do participants understand how to start the process of keeping a dependent past their 18th birthday as a disabled or student dependent?**
 
-**`2.`[Enter Q2]**
+**`2.`Do participant understand how to start the process of reinstating inactive dependents or disabled dependents?**
 
-**`3.`[Enter Q3]**
+**`3.`Do participants understand that they can submit the form without uploading documents?**
 
-**`4.`[Enter Q4]**
-
-**`5.`[Enter Q5]**
 
 ### Hypotheses
-> [!NOTE]
-> Remember to constrain the hypotheses to the goals of your study!
- 
-**Think through these prompts to develop strong hypotheses:**
-	
-`What do you intend to learn and measure from this study?` 
-
-`What do you already know about this problem space?`
- 
-`What do you think users will do or think about this product? (Identifying our assumptions helps us be aware of biases we may unintentionally bring into the study, so don’t skip this step!)`
-  
-`Write a generalized statement that combines what you know + what you think will happen during the study.`
 
 ---
 
-**[Enter hypotheses here]** 
+**1. The new design for keeping and adding back dependents will be easier for participants to navigate.** 
+**2. The participants will find the process of adding uploading documentation easier than the process of determining which documents need to be sent and locating the documents.**
 
 ---
   
 ## Methodology  🛠️
-***Describe the method you’re planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.*** 
 
-<details><summary>Examples of common research methods include</summary> 
-	
-- `Semi-structured interviews - appropriate for generative research`
-- `Contextual inquiry - appropriate for generative research`
-- `Card sorts - appropriate for generative and evaluative research; depending on the study design` 
-- `Tree tests - appropriate for evaluative research`
-- `Usability testing - appropriate for evaluative research`
-- `User acceptance testing (UAT) - required before product release`
-
-</details>
-
-**[Enter methodology here]**
-
-<details><summary>Additional resources</summary> 
-	
-- Please review the [PRA primer](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/what-is-paperwork-reduction-act.md) to educate yourself on how PRA impacts the research we do as a government project. 
-- Review the [Perigean recruitment guidance](https://depo-platform-documentation.scrollhelp.site/research-design/Recruiting-Participants.1958773044.html) to understand how Perigean recruits, and what types of research they can support. 
-- If conducting testing on mobile, refer to the [mobile research guidelines.](https://depo-platform-documentation.scrollhelp.site/research-design/Conducting-Research-Sessions.1958773061.html#ConductingResearchSessions-Researchingwithmobileusers)
-- If conducting [unmoderated usability research, refer to the guidance here.](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html) 
-- If conducting [research with disabled Veterans, refer to this checklist](https://depo-platform-documentation.scrollhelp.site/research-design/research-with-assistive-technology-users) and [follow disability etiquette guidelines.](https://depo-platform-documentation.scrollhelp.site/research-design/disability-etiquette)
-- In the rare event of an emergency during research, be prepared by reviewing guidelines for [research safety and emergency exit strategies](https://depo-platform-documentation.scrollhelp.site/research-design/Research-Safety-and-Emergency-Exit-Strategies.2143649793.html).
-
-</details>
+**Usability testing**
 
 ### Location
-Where will you be holding the research sessions? Be sure to include whether this is remote or in-person research. [Learn more about setting up in-person research.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/planning-in-person-research.md)
 
-- [ ] **Remote**
+- [X] **Remote**
 - [ ] **In-person**
-      
-> [!NOTE]
-> If in-person, include:
-
-- `Location:` **[Enter text]**
-- `Point of contact:` **[Enter text]**
-- `Equipment used for research:` **[Enter text]**
 
 ## Research materials 📔
-
-> [!NOTE]
-> **Your OCTO/VA lead must review and approve all research materials – including this plan –  prior to submitting a recruitment request.**
-
-Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
-
-**For moderated interviews:** 
-	
-- [Link to conversation guide](url goes here)
 
 **For moderated usability tests:** 
 - [Link to conversation guide](url goes here)
 - [Link to prototype](url goes here)
-
-**For [unmoderated testing:](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html)**
-- [Link to email with instructions](url goes here)
-- [Link to prototype or OptimalSort session for group A](url goes here)
-- [Link to prototype or OptimalSort session for group B](url goes here)
-
-
-
-**If recruiting outside of Perigean’s participant database:**
-- [Link to recruitment flyer](url goes here)
 	
 ## Recruitment 🎯	
 *OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
@@ -297,23 +233,19 @@ Provide a link to any materials you need to run your study, including any materi
 - Perigean will consider each cohort as a separate recruitment effort, increasing the chances of meeting all criteria for your study. [Review an example of the multiple cohort approach.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/pre-mhv-prototype/generative-research-study-1/2020-12.research-plan1.md)
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
-> [!NOTE]
-> Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 10 ideal completed sessions, request 15 total participants)*
 
-
-- `Veterans:` **[n]**
-- `Caregivers:` **[n]**
-- `Dependents:` **[n]**
-- `Total:` **[n]**
-- `Ideal completed sessions:` **[n]**
+- `Veterans:` **14**
+- `Caregivers:` **0**
+- `Dependents:` **0**
+- `Total:` **14**
+- `Ideal completed sessions:` **10**
 
 ### Primary criteria (must-haves)
-*What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
 
-- `[Place primary criteria here between hash marks when in edit mode]`
-- `primary criteria`
-- `primary criteria`
-- **`Add more criteria as needed`**
+*Please consider each of the following two groups as a separate recruitment effort*
+
+- `At least 7 Veterans who have disabled dependents on their disability compensation benefit`
+- `At least 7 Veterans who currently have student dependents on their disability compensation benefit, have had a student dependent on their disability compensation benefit in the past 2 years, or have a dependent on their disability compensation benefit who will turn 18 in the next 2 years`
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
