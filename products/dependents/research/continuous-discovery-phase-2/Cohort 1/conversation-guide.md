@@ -1,16 +1,16 @@
 
 
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Lifestage, Dependents Management, February 2026"
+author: "Megan Graham"
+date_created: "[2026-01-29]"
+last_modified: "[2026-02-06]"
 tags:
   - "[Tag1]"
   - "[Tag2]"
 description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
 ---
-# Conversation Guide for Continuous Discovery- Cohort 7
+# Conversation Guide for Continuous Discovery Phase 2- Cohort 1
 
 ## Moderator logistics 📋✅
 ### 2-3 days before the session
@@ -43,7 +43,7 @@ description: "A template for moderating research sessions including logistics, i
 
 Thanks for joining us today! My name is **Megan** and **[NOTETAKER NAME]** is taking notes.
 
-Today we're going to talk about providing dependents' school information to VA.
+Today we're going to talk about providing dependents' information to VA.
 
 
 Before we start, I have a few things that I want to go over with you:
@@ -98,9 +98,9 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      - What type of dependents? (parents, spouse, children)
 3. Do you have a disabled dependent on your benefit?
 4. Do you have a student dependent on your benefit?
-5. Have you had a student dependent on your benefit in the past few years, or do you expect to have a student dependent on your benefit in the next few years?
+     - Have you had a student dependent on your benefit in the past few years, or do you expect to have a student dependent on your benefit in the next few years?
 6. How old is this dependent?
-7. (If applicable) what was the process of notifying VA like?
+7. (If applicable) What was the process of notifying VA like?
 8. (If applicable) Did you let VA know that your dependent was (disabled OR going to be continuing their studies) before they turned 18?
 9. Do you have anything else you want to add?
        
@@ -150,12 +150,21 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      - ?
 
 
+# Student dependent flow
 
+## First Task: Sharing prototype & Keep or add back a dependent - 5 minutes
 
-## Fourth Task: Upload - X minutes
+- Now let's take a look at the prototype.
+- Share link
+- We don't put any of your personal information or anything about your personal situation in the prototype so the Veteran name you'll see in the prototype is ABC.
+- I'm going to ask you to imagine that you receive disability compensation benefits and your two children, Naomi and Jen, are dependents on the benefit. Naomi turns 18 in about 3 months and you receive a letter from VA saying that she will be removed from the benefit when she turns 18. You’ve heard that she can remain on your benefit as a student dependent and she is still in high school, so you log into VA.gov to find out how to take that step.
+- When you log into VA.gov, this is what you see. What would you do next?
 
-  - *Screen: *
-     - 
+- *Screen: Add or remove dependents: What would you like to do? Check everything that you want to do.*
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
        
 
 
