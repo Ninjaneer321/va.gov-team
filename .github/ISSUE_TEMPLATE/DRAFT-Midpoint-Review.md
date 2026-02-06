@@ -27,14 +27,14 @@ The [Midpoint Review touchpoint](https://depo-platform-documentation.scrollhelp.
 Link all artifacts **at least two business days** before the scheduled Midpoint Review. Please don't add artifacts in the comments section. [See guidance on Midpoint Review artifacts.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/midpoint-review#MidpointReview-Whatartifactswillbeneeded?)
 Governance Team feedback is based on the artifacts provided here as well as information provided during the meeting.
 
-Required artifacts
+#### Required artifacts
 - [ ] Mobile web or mobile app high-fidelity mockup (other viewports optional)
   - Specify which screens are included in the review
 - [ ] Up to date user flow
   - [Guidance on user flows](https://depo-platform-documentation.scrollhelp.site/research-design/guidance-for-creating-user-flows)
 - [ ] If working with [Content and Information Architecture and Accessibility Digital Experience (ADE) teams](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/sitewide-content-and-ia-intake-request), link to Content and Information Architecture epic and ADE intake tickets. 
 
-Not required, but nice to have artifacts
+#### Not required, but nice to have artifacts
 - [ ] Accessibility annotations included as part of your design
 - [ ] Research plan
 - Links to specific Content and Information Architecture artifacts:
