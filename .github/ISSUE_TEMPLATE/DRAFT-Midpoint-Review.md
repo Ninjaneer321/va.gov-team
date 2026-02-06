@@ -11,6 +11,8 @@ assignees: ''
 
 The [Midpoint Review touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/midpoint-review) is a synchronous half-hour discussion or an asynchronous review. The goal is to confirm your prototype or mockup aligns with existing VA.gov patterns and standards and to ensure your product is ready for successful research activities.
 
+Collaboration Cycle ticket: 
+
 ## Before the meeting
   
 ### :one: VFS team: schedule the meeting
