@@ -7,7 +7,7 @@
 2026-02-04
 
 ## Related Tickets
-- [Parent: [BMT-1] [CHAMPVA] Prepare CST to Support CHAMPVA #122176](https://github.com/department-of-veterans-affairs/va.gov-team/issues/122176)
+- Parent: [[BMT-1] [CHAMPVA] Prepare CST to Support CHAMPVA #122176](https://github.com/department-of-veterans-affairs/va.gov-team/issues/122176)
 - [[CST] [Multi-Claim Provider] Discovery: Supporting Document Upload functionality abstraction #131551](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131551)
 
 ## Context
