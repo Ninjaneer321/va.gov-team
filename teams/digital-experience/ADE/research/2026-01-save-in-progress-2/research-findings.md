@@ -238,12 +238,18 @@ Half of the participants did read the interstitial page but **most didn't rememb
 
 While looking at the page again at the end of the research session, participants provided additional feedback on it: 
 
+- Two participants didn't read the heading but only the text below it, and it was the heading that said "We'll save your information automatically after every change you make".
+  > *"The big bold up at the top is usually the title of the page or the document, and it's the little stuff down below that has the meat--the meaning" (p9).*
+
 - One participant didn't realize that "after every change you make"  applied to entering information the first time.
 
   > *"I'm starting this, and I'm making entries. And it's talking about I'm making changes" (p7).*
 - Another participant said that if we are saving form information all the time, why would they ever need to click "Finish later"? 
   - It seems like we're conflating two messages in the interstitial page: (1) your information is being automatically saved, and (2) how to get back to your in-progress form after selecting "Finish later".
 
+- Four participants didn't understand the "form introduction" link. Two clicked on it and were confused when it took them to the page they were already on. One participant thought it might open a new introduction, such as a video.
+
+- One participant didn't understand the "My VA" link. She has a VA account but didn't know what "My VA" means.
 
 - _Supporting data: ![description of the image (image)](link - add image to github folder and link here with .png)_  
 
@@ -267,8 +273,12 @@ After participants finished filling out the form, we asked when they thought the
 
 1. **Recommendation:** Remove the interstitial page and instead consider adding something very short just above the Continue button on every page (e.g., "Your information is being saved automatically"). 
    - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
-2. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_
+1. **Recommendation:** Don't put essential information in the heading that isn't repeated below because some people will ignore the text of the heading.
+   - _Supporting evidence: Two participants didn't read the heading on the interstitial page but only the text below it._
+
+1. **Recommendation:** Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages.
+   - _Supporting evidence: 4 of 8 participants didn't know what these phrases meant when seeing them as links on the interstitial page._
+
 
 ## Product User and Business Outcomes
 
