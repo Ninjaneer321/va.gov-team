@@ -160,7 +160,7 @@ We conducted **remote moderated usability testing** to observe research particip
 Research sessions were conducted over Zoom during January 12-21, 2026. Sessions were 90 minutes long for Veterans using assistive technology (i.e., screen readers or screen magnifiers), and 60 minutes for Veterans not using any assistive technology (AT). 
 
 ## Participants
- Perigean recruited all **9 research participants** who were all Veterans. 7 participants were able to complete all the user tasks, and the other 2 participants were not able to because of technical issues.  
+ Perigean recruited all **9 research participants** who were all Veterans. 7 participants were able to complete all the user tasks, and the other 2 participants were not able to due to technical issues.  
  - **5 were full-time assistive technology users**:
    - 4 used a screen reader
    - 1 used a screen magnifier
@@ -234,9 +234,9 @@ Half of the participants ignored the interstitial page when it came up because i
 
   > *"Bombarding somebody with the information in the beginning, if it's pertinent or not" (p8).*
 
-Half of the participants did read the interstitial page but most didn't remember it saying that all of their work is saved automatically. When asked after filling out the form about when their information was saved, most participants said only after selecting the "Finish later" or "Submit" button. They skipped or forgot the message that their information gets saved automatically. When we talked with participants about automatic saving, they were pleasantly surprised. 
+Half of the participants did read the interstitial page but most didn't remember it saying that all of their work is saved automatically. 
 
-While discussing the interstitial page again at the end of the session, participants provided additional feedback on it and why they they didn't remember what it said. 
+While discussing the interstitial page again at the end of the session, participants provided additional feedback on it and why they didn't remember what it said. 
 
 One participant pointed out that if we are actually saving form information all the time, why would they ever need to click "Finish later"? It seems like we're conflating two messages in the interstitial page: (1) your information is being automatically saved, and (2) how to get back to your in-progress form after selecting "Finish later".
 
@@ -245,8 +245,9 @@ One participant pointed out that if we are actually saving form information all 
 
 > **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
 
-### Most users didn't understand that saving was happening all the time, assuming it only happened after selecting "Finish later" or submitting the form.
-Brief description  
+### Most users (6 of 7) didn't understand that saving was happening all the time, assuming it only happened after selecting "Finish later" or submitting the form.
+After participants finished filling out the form, we asked about when they thought their information was saved. Most participants said only after selecting the "Finish later" or "Submit" button. **Most skipped or forgot the interstitial page that said their information gets saved automatically.** When we told participants that VA form information is saved automatically, they were pleasantly surprised. It might be OK if people don't know that saving is happening automatically, as long as they're glad to not be losing information they already entered.
+
 - _Supporting data: Quote [add context]_  
 
 ---
