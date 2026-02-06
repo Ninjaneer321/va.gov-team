@@ -6,6 +6,11 @@
 ## Date
 2026-02-04
 
+## Related Tickets
+- Parent: [BMT-1] [CHAMPVA] Prepare CST to Support CHAMPVA #122176
+- [CST] [Multi-Claim Provider] Discovery: Supporting Document Upload functionality abstraction
+#131551
+
 ## Context
 
 ### Current Situation
