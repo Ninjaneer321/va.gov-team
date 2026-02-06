@@ -223,7 +223,7 @@ For demographic details, see [Research participants](#user-content-research-part
 > **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
-### The interstitial page was NOT effective in communicating about save in progress because when it came up, most users were focused on filling out form fields and anything other than that was ignored
+### Finding 1. The interstitial page was NOT effective in communicating about save in progress because when it came up, most users were focused on filling out form fields and anything other than that was ignored.
 Half of the participants ignored the interstitial page when it came up because it was an **unwelcome interruption to their task of filling out a VA form and didn't seem relevant**. The wording on the page included "after every change", and two participants said that didn't apply to what they were doing, which was filling out the form for the first time. 
 
   > *"I was already beginning to input information on the previous page and then all of a sudden, it shows me what to expect in the form that I'm going to be filling out, which I basically was already doing, so that's probably why I did not focus on that" (p9).*
