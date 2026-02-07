@@ -153,6 +153,9 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
 - How do you feel about the way this application checked your eligibility?
   - Did it feel helpful, intrusive, or something else?
   - Do you trust that this information is accurate?
+ 
+- What would you do after seeing this message? What else did you want to see here?
+  - (If they choose to continue, ask why)
 
 - If you believed this check was wrong—that you're NOT actually eligible for Tricare—what would you do?
   - Would you continue with the application?
