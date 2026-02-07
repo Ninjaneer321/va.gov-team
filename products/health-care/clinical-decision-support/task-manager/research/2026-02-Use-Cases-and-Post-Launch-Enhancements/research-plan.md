@@ -65,9 +65,7 @@ This provides visibility on workflow tasks and activities, ensuring that patient
 
 ### [Clinician or VA Staff Journey](insert link)
 
-<details><summary>Where does your product fit into the Clinician or VA staff journey?
-
-
+<details><summary>Where does your product fit into the Clinician or VA staff journey?</summary>
 - `Scheduling an appointment`
 - `Preparing for an appointment`
 - `Patient appointment`
@@ -81,7 +79,6 @@ This provides visibility on workflow tasks and activities, ensuring that patient
 </details>
 
 [!NOTE]
-
 > The full scope of use cases applicable to task manager is currently unclear, as task manager is a general utility application supporting clinical workflows. 
 
 - `Scheduling an appointment`
@@ -442,4 +439,5 @@ Join us, Wednesdays 12:00pm PT / 3:00pm ET
 ## Approvals ✅
 
 - `Reviewed by [CDSC HCD Peer] or [CDSC VA HCD Lead] on [MM-DD-YYYY]`
+
 
