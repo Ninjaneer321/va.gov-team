@@ -30,7 +30,7 @@ This provides visibility on workflow tasks and activities, ensuring that patient
 
 ### [OCTO-DSD Priorities](insert link here) 
 
-<details><summary>Which OCTO priorities does this research support? Work with your VA lead and product manager as needed. </summary>
+<details><summary>Which OCTO priorities does this research support? Work with your VA lead and product manager as needed.</summary>
 
 `Objective 1:  VA’s digital experiences are the easiest and most efficient way to access VA health care and benefits.`  
 
@@ -66,6 +66,7 @@ This provides visibility on workflow tasks and activities, ensuring that patient
 ### [Clinician or VA Staff Journey](insert link)
 
 <details><summary>Where does your product fit into the Clinician or VA staff journey?</summary>
+	
 - `Scheduling an appointment`
 - `Preparing for an appointment`
 - `Patient appointment`
@@ -75,10 +76,10 @@ This provides visibility on workflow tasks and activities, ensuring that patient
 - `Putting in an order`
 - `Reviewing results`
 - `Closing an encounter`
-
+	
 </details>
 
-[!NOTE]
+> [!NOTE]
 > The full scope of use cases applicable to task manager is currently unclear, as task manager is a general utility application supporting clinical workflows. 
 
 - `Scheduling an appointment`
@@ -439,5 +440,6 @@ Join us, Wednesdays 12:00pm PT / 3:00pm ET
 ## Approvals ✅
 
 - `Reviewed by [CDSC HCD Peer] or [CDSC VA HCD Lead] on [MM-DD-YYYY]`
+
 
 
