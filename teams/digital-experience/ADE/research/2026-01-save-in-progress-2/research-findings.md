@@ -247,7 +247,7 @@ While looking at the page again at the end of the research session, participants
 - Another participant said that if we are saving form information all the time, why would they ever need to click "Finish later"? 
   - It seems like we're conflating two messages in the interstitial page: (1) your information is being automatically saved, and (2) how to get back to your in-progress form after selecting "Finish later".
 
-- Four participants didn't understand the "form introduction" link. Two clicked on it and were confused when it took them to the page they were already on. One participant thought it might open a new introduction, such as a video.
+- Four participants didn't understand the "form introduction" link. Two clicked on it and were confused when it took them to the page they already saw. One participant thought it might open a new introduction, such as a video.
 
 - One participant didn't understand the "My VA" link. She has a VA account but didn't know what "My VA" means.
 
