@@ -39,6 +39,11 @@ Main takeaway from the research sessions
 
 
 #### P3
+**UX Notetaker:**
+- Had no preference between prototypes blueberry and pineapple, which came down to confusion over the scenario/task vs. her real-life circumstances. However, if faced with an alert that said she was NOT eligible, she said would continue with the application (may be a reflection of knowing her real-life eligibility). 
+- Preferred Card Style A because it was more concise. - Wanted the ability to find more information and research the areas on the eligibility summary checklist on her own time.
+- Expressed a lot of concern with Alert C and the possibility that the VA had lost her Veteran's information. The lack of specificity in the alert style seemed distressing, to her.
+
 
 #### P4
 
