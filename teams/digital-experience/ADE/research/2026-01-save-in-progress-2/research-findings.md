@@ -207,9 +207,7 @@ For demographic details, see [Research participants](#user-content-research-part
 
 [Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
 
-1. The interstitial page was NOT effective in communicating about save in progress because when it came up, most users were so focused on filling out form fields that anything other than that was ignored.
-1. Most users didn't understand that saving was happening all the time, assuming it only happened after selecting "Finish later" or submitting the form.
-1. 
+**1. PULL LIST FROM Details of Findings section below**
 
 ## Details of Findings 
 
@@ -219,7 +217,7 @@ For demographic details, see [Research participants](#user-content-research-part
 > **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
-### Finding 1: The interstitial page was NOT effective in communicating about save in progress because when it came up, most users were so focused on filling out form fields that anything other than that was ignored.
+### Finding 1: The interstitial page was NOT effective in communicating about save in progress because most users were so focused on form fields that anything other than that was ignored.
 Half of the participants ignored the interstitial page when it came up because it was an **unwelcome interruption to their task of filling out a VA form and didn't seem relevant**. The wording on the page included "after every change", and two participants said that didn't apply to what they were doing, which was filling out the form for the first time. 
 
   > *"I'm focused on the task, getting a job done. Trying to get to the form, and...I was kind of speed reading through it" (p7).*
@@ -251,12 +249,14 @@ While looking at the page again at the end of the research session, participants
 
 > **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
 
-### Finding 2: Most users (6 of 7) didn't understand that saving was happening all the time, assuming it only happened after selecting "Finish later" or submitting the form.
-After participants finished filling out the form, we asked when they thought their information was saved. Most participants said only after selecting the "Finish later" or "Submit" button. **Most skipped or forgot the interstitial page that said their information gets saved automatically.** When we told participants that VA form information is saved automatically, they were pleasantly surprised. Maybe it's OK if people don't know that saving is happening automatically, as long as they're glad to not be losing information they already entered.
+### Finding 2: Most participants assumed that saving happened only after selecting "Finish later" or submitting the form.
+After participants finished filling out the form, we asked when they thought their information was saved. Most participants (6 of 7) said only after selecting the "Finish later" or "Submit" button. **Most skipped or forgot the interstitial page that said their information gets saved automatically.** When we told participants that VA form information is saved automatically, they were pleasantly surprised. Maybe it's OK if people don't know that saving is happening automatically, as long as they're glad to not be losing information they already entered.
 
 - _Supporting data: Quote [add context]_  
 
 ### Finding 3: All 7 participants used the "Finish" later button to stop filling out the form, and successfully resumed by signing in and using the My VA page. 
+Participants
+
 ### Finding 4: All 6 participants who interacted with the accordions on the Review/Submit page were able to easily open and close them with the controls on the left side (instead of the right).
 ### Finding 5: XX had some accessibility issues ...
 ---
