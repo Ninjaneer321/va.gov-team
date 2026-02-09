@@ -1,12 +1,11 @@
 # Sprint Planning for 10-10EZ, 10-10CG and 10-10EZR (Health Apps team)
 
-
 ---
-## 📆 Sprint 14 (Feb 11 - Feb 24) (PREPLANNED)
+## 📆 Sprint 15 (Feb 25 - Mar 10) (PREPLANNED)
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 14 is...**
+- **The goal for Sprint 15 is...**
 
 #### List of Planned work
 - [ ] EZR Service History
@@ -14,9 +13,8 @@
      - [ ] Add error state to Yes/No page
      - [ ] Update Frontend Schema
 - [ ] EZ Form status
-     - [ ] Update Intro Page alerts on "pending" statuses
      - [ ] EZ Display submission statuses on MyVA
-- [ ] EZR Review existing Profile ECNOK designs for updates needed
+
 
 ## 
 ### 10-10EZR
@@ -28,13 +26,11 @@
 - [ ] **SPRINT GOAL** [#125472](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125472) - [FE] Update schema
 
 #### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
-- [ ] **SPRINT GOAL** [#129581](https://github.com/department-of-veterans-affairs/va.gov-team/issues/129581) - [UX] Review existing designs
+- [ ] 
 
 ##
 ### 10-10EZ
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
-- [ ] **SPRINT GOAL** [#130693](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130693) - [FE] Update Intro page alert for "PendingMT"
-- [ ] **SPRINT GOAL** [#130694](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130694) - [FE] Update Intro page alert for "PendingOther"
 - [ ] **SPRINT GOAL** [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [FE] Display submission statuses on MyVA
 
 ## 
@@ -44,8 +40,72 @@
 
 ##
 ### Team PTO
-- President's Day holiday: 1/16 (floating for AH)
-- Jessica: 1/17
+- Andrea: 2/27
+- 
+
+
+---
+## 📆 Sprint 14 (Feb 11 - Feb 24) (PREPLANNED)
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goal summary
+- **The goal for Sprint 14 is to get the EZR Service History connection up and running.**
+
+#### List of Planned work
+- [ ] EZR Service History
+     - [ ] Determine how to connect with existing VA Profile integration
+     - [ ] Create connection call to pull service history data
+- [ ] EZ Form status
+     - [ ] Update Intro Page alerts on "pending" statuses
+     - [ ] EZ Tech discovery on additional form statuses on MyVA
+- [ ] EZR Review existing Profile ECNOK designs for updates needed
+
+### Additional work completed
+- 
+
+## 
+### 10-10EZR
+
+#### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
+- [ ] **SPRINT GOAL** [#131141](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131141) - [FE] Determine how to connect with existing VA Profile integration
+- [ ] **SPRINT GOAL** [#130846](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130846) - [FE] Connect to pull in service history for display
+
+#### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
+- [ ] **SPRINT GOAL** [#129581](https://github.com/department-of-veterans-affairs/va.gov-team/issues/129581) - [UX] Review existing designs
+
+##
+### 10-10EZ
+#### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
+- [ ] **SPRINT GOAL** [#105829](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105829) - [Eng] Tech discovery on additional EZ form statuses on MyVA
+- [ ] **SPRINT GOAL** [#130693](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130693) - [FE] Update Intro page alert for "PendingMT"
+- [ ] **SPRINT GOAL** [#130694](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130694) - [FE] Update Intro page alert for "PendingOther"
+
+
+## 
+### 10-10CG
+#### Obj: 
+- No updates in this sprint
+
+##
+### Team PTO
+- President's Day holiday: **1/16** (floating for AH)
+     - Allan
+     - Andrea
+     - Derrick
+     - Fara
+     - Hieu
+     - Jessica
+     - Kyle
+     - Mitch
+     - Ray
+     - Renata
+     - Steve
+
+- Kyle: 2/12
+- Renata: Half-day 2/13, 2/17
+- Matt: 2/17-2/19
+- Fara: 2/17-2/20
+- Jessica: 1/20
 
 
 ---
@@ -57,7 +117,7 @@
 
 #### List of Planned work
 - EZR Bug
-     - [ ] Fix schema validation errors (Ins info missing in array builder)
+     - [x] Fix schema validation errors (Ins info missing in array builder)
 - [ ] EZR Service History
      - [ ] Determine how to connect with existing VA Profile integration
      - [ ] Create connection call to pull service history data
@@ -67,6 +127,9 @@
 - [ ] EZ Form status
      - [ ] EZ Update designs for Intro Page alerts on "pending" statuses
      - [ ] EZ Tech discovery on additional form statuses on MyVA
+
+### Additional work completed
+- 
 
 ## 
 ### 10-10EZR
@@ -81,13 +144,13 @@
 - [ ] **SPRINT GOAL** [#121080](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121080) - [UX] Update EZR SOT for Household sections
 
 #### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
-- [ ] **CRITICAL** [#131293](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131293) - [FE] Modify existing Insurance custom components to resolve schema validation errors
+- [x] **CRITICAL** [#131293](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131293) - [FE] Modify existing Insurance custom components to resolve schema validation errors
 
 ##
 ### 10-10EZ
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
 - [ ] **SPRINT GOAL** [#128834](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128834) - [UX] Update Intro page alerts for "Pending" statuses
-- [ ] **SPRINT GOAL** [#105829](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105829) - [Eng] Tech discovery on additional EZ form statuses on MyVA
+
 
 
 
