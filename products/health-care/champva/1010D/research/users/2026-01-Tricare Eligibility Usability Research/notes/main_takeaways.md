@@ -44,6 +44,10 @@ Main takeaway from the research sessions
 - Preferred Card Style A because it was more concise. - Wanted the ability to find more information and research the areas on the eligibility summary checklist on her own time.
 - Expressed a lot of concern with Alert C and the possibility that the VA had lost her Veteran's information. The lack of specificity in the alert style seemed distressing, to her.
 
+**Observer 1:**
+- Aware of the eligibility choice between CHAMPVA and Tricare - had to make that choice when they signed up for the Caregiver program, decided to stay with Tricare due to convenience and already getting coverage/medications
+- Later in prototype blueberry the eligibility pattern and the participants own situation (not fake info) was giving them a hard time, difficult to explain way - due to it being the opposite of their real life situation
+- Gave the eligibility review pattern a 1 out of 5 rating for ease of understanding
 
 #### P4
 
