@@ -1,7 +1,7 @@
 # P03
-Participant: (Veteran or Family Member)
+Participant: (Family Member)
 
-Notetaker: [Insert Name Here]
+Notetaker: Renata
 
 -----
 
@@ -12,7 +12,7 @@ Notetaker: [Insert Name Here]
 - Notes
 
 #### First Task: [INTRO PAGE] 
-- [ ] Prototype BLUEBERRY
+- [x] Prototype BLUEBERRY
 - [ ] Prototype PINEAPPLE
 
 - Notes
