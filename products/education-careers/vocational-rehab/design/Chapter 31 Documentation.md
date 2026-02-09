@@ -6,10 +6,7 @@ Last updated: February 2026
 
 - [Figma screens](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2576-12715\&t=Yh6Ydlk9kueURf2p-1)
 
-- Product documentation
-
-  - Do we have product documentation we should link here?
-
+- [Product documentation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/education-careers/vocational-rehab)
 
 ## **Chapter 31, current experience**
 
