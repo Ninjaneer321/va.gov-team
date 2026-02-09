@@ -7,7 +7,7 @@ This document outlines the key design decisions made for implementing Prefill pa
 - [ADR: 001 - Success alert messages](#ADR-001---Success-Alert-messages)
 - [ADR: 002 - Optional vs Required label](#ADR-002---Optional-vs-Required-label)
 - [ADR: 003 - Minimal header back button](#ADR-003---Minimal-header-back-button)
-- [ADR: 004 - Option to update only mailing address to either form or profile](#ADR-004---Option to update only mailing address to either form or profile)
+- [ADR: 004 - Option to update only mailing address to either form or profile](#ADR-004---Option-to-update-only-mailing-address-to-either-form-or-profile)
 
 
 
