@@ -26,6 +26,13 @@ _Include a screenshot of the new design in the dropdown and then list out the ch
 
 <details><summary>Title - New design</summary>Add image here</details>
 
+## Criteria for showing this design or an alternative design
+| Criteria | Outcome |
+| - | - |
+|If a user has this attribute | They will be shown this version of the design  |
+|If a user has this attribute | They will be shown this version of the design  |
+|If a user has this attribute | They will be shown this version of the design  |
+
 ## Components
 _List VADS and MHV components used in the design here and link each to their storybook pages_
 
