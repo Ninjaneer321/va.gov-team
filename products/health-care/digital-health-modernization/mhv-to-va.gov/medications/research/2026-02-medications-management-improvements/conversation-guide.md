@@ -92,10 +92,18 @@ Great, now I can see your screen! Thank you for your patience in figuring this o
 
 ---
 
-## Prototype reminder and think aloud protocol
+## Prototype reminder
 
 Just a reminder, we will be using what we call a prototype to accomplish a task that I will give you. This is not an actual website, all the names and information is are fake. It will still work much like a website - you can move it up and down, click on certain things, etc. However, this prototype will not work exactly like a website. For example, not all of the links will work and you cannot click the back button in your browser because it will take you away from the prototype.
 
+## Opening the prototype
+
+Now we're going to open up the prototype by following the link I have pasted in the chat: tinyurl.com/ypjh6c7p
+
+### Backup plan if they cannot find the link in the chat:
+No problem, can you please navigate to a browser window and open a new tab? Now we're going to type in tinyurl.com/ypjh6c7p
+
+## Prototype think aloud protocol (read while the prototype is loading)
 As we go through this prototype to accomplish the task I'll give you, I'd like you to think aloud. That inner narrative we all have? I'd like to hear it! Again, you are not being tested in any way - the design is being tested. And we want your honest feedback about your experience.
 
 ---
