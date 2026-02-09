@@ -111,7 +111,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 - Now let's take a look at the prototype.
 - Share link
 - We don't put any of your personal information or anything about your personal situation in the prototype so the Veteran name you'll see in the prototype is Curtis.
-- I'm going to ask you to imagine that you receive disability compensation benefits and your two children, Naomi and Jen, are dependents on the benefit. Your daughter Jen has a permanent disability that has been present from birth. Jen turns 18 in about 3 months and you receive a letter from VA saying that she will be removed from the benefit when she turns 18. You’ve heard that she can remain on your benefit as a disabled dependent so you log into VA.gov to find out how to take that step.
+- I'm going to ask you to imagine that you receive disability compensation benefits and your daughter Jen is a dependent on the benefit. She has a permanent disability that has been present from birth. Jen turns 18 in about 3 months and you receive a letter from VA saying that she will be removed from the benefit when she turns 18. You’ve heard that she can remain on your benefit as a disabled dependent so you log into VA.gov to find out how to take that step.
 - When you log into VA.gov, this is what you see. What would you do next?
 
 - *Screen: 
