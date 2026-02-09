@@ -106,7 +106,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
        
 # Disabled dependent flow
 
-## First Task: Sharing prototype & Step 1 - X minutes
+## First Task: Sharing prototype & Step 1 - 10 minutes
 
 - Now let's take a look at the prototype.
 - Share link
@@ -115,11 +115,11 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 - When you log into VA.gov, this is what you see. What would you do next?
 
 - *Screen: 
-     - Can we add step 1 screens to the prototype?
+To Do: Add intro screens to Can we add step 1 screens to the prototype?
   
 
 
-## Second Task: Step 2 - Manage dependents - 5 minutes
+## Second Task: Step 2 - Manage dependents - 10 minutes
 
 - *Screen: Review your active VA dependents*
      - Can you talk about what you're thinking as you look at this page?
@@ -168,10 +168,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      - Do you have any other feedback on this page?
      - What would you do next?
 
-       Can we have the option to select an answer for the questions and the option to go back?
-       Do we need to cover marriage screens?
 
-  
   - *Screen: Child's address*
      - Can you talk about what you're thinking as you look at this page?
      - What would you select here?
@@ -188,8 +185,6 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
-       
-       Can we add Jen's first name in the page title here? and the ability to go back
 
 
   - *Screen: Upload medical records for Jen*
@@ -200,8 +195,6 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
-       
-       Can we add Jen's first name in the page title here?
 
 
   - *Screen: Upload a doctor's statement for Jen*
@@ -212,11 +205,9 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
-       
-       Can we add Jen's first name in the page title here?
 
 
-## Fourth Task: Step 4 - Review Application - X minutes
+## Fourth Task: Step 4 - Review Application - 5 minutes
 
   - *Screen: Review application*
      - Can you talk about what you're thinking as you look at this page?
@@ -225,12 +216,11 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      - Do you have any other feedback on this page?
      - What would you do next?
 
-       Why do we go from 5 sections of the form to 4?
-       Can we update the content of the review page to match the convo guide?
-       Do we want a second pass through the flow- let's say that they don't see the letter and the dependent is removed from their benefit, then they have to re-add them?
+     
+To Do: Add re-add task
 
 
-## Fifth Task: Step 4 - Post-submission screen - X minutes
+## Fifth Task: Step 4 - Post-submission screen - 5 minutes
      - If you chose to submit evidence later, what would you do now? 
     
      - Can you talk about what you're thinking as you look at this page?
