@@ -470,7 +470,7 @@ P10 (Mobile): “I would just have to go all the way back to the select step and
 - Based on [accessibility feedback](https://github.com/department-of-veterans-affairs/va.gov-team/issues/126217) we received during Midpoint Review, the gray text color used for inactive steps does not meet the minimum contrast requirements. The team could increase the contrast, change the text color to black, or find another VADS color to meet accessibility requirements.
 - However, related to Key Finding #5, some participants mentioned the gray text color as a visual indicator that distinguishes between active and inactive areas. The team should explore other ways to indicate inactive steps that don’t rely on text color or contrast.
 > Moderator: “How do you know it's not clickable?”
-> P10 (Mobile): “I know I can click on step one because it's underlined. Because [Step 2 is] not underlined, that's not clickable. And it's grayed… I guess the word is grayed out.”
+> P8 (Mobile): “I know I can click on step one because it's underlined. Because [Step 2 is] not underlined, that's not clickable. And it's grayed… I guess the word is grayed out.”
 
 > “It grayed out the other steps, which I know means I can't click on them until I've completed the previous steps, so I like this a lot better.” - P10 (Mobile)
     
