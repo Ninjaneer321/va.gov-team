@@ -55,18 +55,17 @@ Main takeaway from the research sessions
 - They would want to be presented with information on how to correct anything they thought was incorrect, they didn't want to just continue on but would want to call and resolve errors
 - They preferred the alternate B style to the eligibility pattern that has dynamic headers and intro text but did seem to understand and react positively to the green checks and red x's used in the pattern
 
-
 **Observer 1:**
+- Veterans love to give feedback.
+- Green checkmarks are a win.
+- Unclear what to do if they didn't agree with the precheck.
+
+**Observer 2:**
 - Participant was very confident in their prior understanding of the program and skipped over text explaining the differences and who could apply until getting into the form AND seeing the alerts/checkboxes.
 - Preference for less repeated information unless it was clearly explaining the "why" behind something and a "what's next".
 - Green means go. Orange means yelling.
 
 
-
-**Observer 2:**
-- Veterans love to give feedback.
-- Green checkmarks are a win.
-- Unclear what to do if they didn't agree with the precheck.
 
 
 #### P5
