@@ -10,6 +10,7 @@ Jump to:
 * [&#8595; VBA Regional Offices, Satellite Offices, VetSuccess on Campus, IDES sites, Veteran Readiness & Employment offices](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/reporting-inaccurate-data.md#vba-regional-offices-satellite-offices-vetsuccess-on-campus-ides-sites-veteran-readiness--employment-offices)
 * [&#8595; NCA Cemeteries](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/reporting-inaccurate-data.md#nca-cemeteries)
 * [&#8595; Community care providers and pharmacies](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/reporting-inaccurate-data.md#community-care-providers-and-pharmacies)
+* [Find a Representative tool]
 
 ## Facility souce of truth
 
@@ -63,3 +64,9 @@ Email the name of the facility and the missing or inaccurate detail to NCA throu
 ## Community care providers and pharmacies 
 
 Email the name of the facility and the missing or inaccurate detail to VHAOCCPPMSPROJBUSPOCS@VA.GOV. Please copy Jon Katora, VA Product Owner at jonathan.katora@va.gov
+
+## Find a Representative tool
+The [Find a Representative tool](https://www.va.gov/get-help-from-accredited-representative/find-rep/) is not a Sitewide product but their data issues are frequently routed to us in error.
+
+For background: The information presented on VA.gov’s Find a Representative tool is from the VA OGC database. Once the representative's information is updated using the process below it will update on VA.gov. 
+Veterans Service Organization (VSO) Representatives wishing to change their contact information with VA should contact the certifying official for their primary VSO, who will send the updated information to VA OGC. If they're unable to contact their certifying official, a supervisor may be able to help contact the certifying official at the VSO’s headquarters.
