@@ -141,10 +141,10 @@ We built a standalone EZR form online.  This is an authenticated experience only
 - 09/25/2025: Launched PDF Download (on submission or submission failure)
 - 11/14/2025: Updated Intro page with Dental coverage information
 - 12/24/2025: Launched prefill for Spouse section
-- TBD: Launch read-only content to display previous year's reported financials (income, deductibles)
+- 01/22/2026: Launch read-only content to display previous year's reported financials (income, deductibles)
 - TBD: Launch Military Service History questions pages
+- TBD: Launch Form status updates on EZ Intro page to include Financial info or other info needed
 - TBD: Launch Form status updates on MyVA to include submission in progress & received
-- TBD: Launch Choose your own adventure (aka task list), redesigning the workflow of the form
 - TBD: Launch edit function on VA.gov profile page for Emergency Contact & Next of Kin
 
 
