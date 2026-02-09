@@ -18,7 +18,7 @@ body:
       value: "# MHV Accessibility Intake Ticket"
   - type: markdown
     attributes:
-      value: >
+      value: |
         > [!TIP] 
         > Use the following format for the ticket title — [MHV [Product
         > Appts | MR | Meds | SM | Portal] / Accessibility] [service type] [brief description]
