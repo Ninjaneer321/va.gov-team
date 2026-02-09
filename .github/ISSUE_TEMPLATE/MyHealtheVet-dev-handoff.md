@@ -49,3 +49,5 @@ _Background information, concerns, or details that may help inform or provide co
 - [ ] UX review
 - [ ] Accessibility review
 - [ ] QA review
+- [ ] Set up to track usage in Datadog
+- [ ] Set up to track usage in Google Analytics
