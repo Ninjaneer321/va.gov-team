@@ -21,15 +21,11 @@ Last updated: February 2026
 
   - Format & Content: [Link to designs](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2576-31076\&t=Yh6Ydlk9kueURf2p-1) 
 
-  - \[Link to code] 
-
 **LOA1 authenticated users can access the Chapter 31 intro page but cannot access the form.**
 
 - **Use case:** A user who has signed into [va.gov](http://va.gov) with an unverified account navigates to the Chapter 31 form to apply for Veteran Readiness and employment benefits.
 
   - Format & Content: [Link to designs ](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2576-12774\&t=Yh6Ydlk9kueURf2p-1)
-
-  - \[Link to code] 
 
 **LOA3 (identify verified) users can access the form (application) and all other use cases.**
 
@@ -37,13 +33,9 @@ Last updated: February 2026
 
   - Format & Content: [Link to designs ](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2576-34591\&t=Yh6Ydlk9kueURf2p-1)
 
-  - \[Link to code]
-
 - **Use case:** Has a benefit application or form draft saved but not yet submitted for Veteran Readiness and employment benefits.
 
   - Format & Content: [Link to designs ](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2578-35415\&t=Yh6Ydlk9kueURf2p-1)
-
-  - \[Link to code]
 
 - **Use case:** Has completed an application for Veteran Readiness and employment benefits.
 
@@ -67,13 +59,11 @@ Last updated: February 2026
 
   * [Link to code](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/engineering-docs/frontend/benefit-applications-and-forms.md)
 
-
 ## **Edge cases**
 
 ### **Validation**
 
 This feature has no validation use cases.
-
 
 ### **Flags**
 
@@ -84,7 +74,6 @@ This feature has no validation use cases.
 - **LOA1 users attempt to access any section of an application**
 
   - If they enter a URL that leads directly to any specific page under careers-employment/vocational-rehabilitation/apply-vre-form-28-1900/ they are NOT redirected to the /introduction page and technically could still submit the form. This is how other VA.gov forms operate as well. Could be worth exploring ways to disallow.
-
 
 ### **Errors**
 
