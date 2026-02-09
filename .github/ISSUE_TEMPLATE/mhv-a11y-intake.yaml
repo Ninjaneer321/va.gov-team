@@ -102,7 +102,7 @@ body:
             topics.
   - type: markdown
     attributes:
-      value: >
+      value: |
         > [!TIP] 
         > For research support for assistive technology, submit an [intake request with ADE](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=Accessibility-Digital-Experience-Intake-Ticket.md)
   - type: textarea
