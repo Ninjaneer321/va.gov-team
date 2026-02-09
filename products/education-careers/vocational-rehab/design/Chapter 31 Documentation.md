@@ -13,7 +13,7 @@ Last updated: February 2026
 
 ## **Chapter 31, current experience**
 
-**The chapter 31 information page allows users to apply for Veteran Readiness & Employment benefits. All users, authenticated and unauthenticated (LOA1 & LOA3), will be able to search for and view the chapter 31 intro page. Only authenticated users (LOA3) will be able to fill out and submit the form.**
+**The chapter 31 information page allows users to apply for Veteran Readiness & Employment benefits. All users, signed in and not signed in, will be able to search for and view the chapter 31 intro page. Only users signed in with a verified account (LOA3) will be able to fill out and submit the form.**
 
 
 ## **Common use cases**
