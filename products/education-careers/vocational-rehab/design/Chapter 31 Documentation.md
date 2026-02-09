@@ -81,7 +81,7 @@ This feature has no validation use cases.
 
   - If they enter a URL that leads directly to any specific page under careers-employment/vocational-rehabilitation/apply-vre-form-28-1900/ they're redirected to https\://www\.va.gov/careers-employment/vocational-rehabilitation/apply-vre-form-28-1900/introduction.
  
-  - **LOA1 users attempt to access any section of an application**
+- **LOA1 users attempt to access any section of an application**
 
   - If they enter a URL that leads directly to any specific page under careers-employment/vocational-rehabilitation/apply-vre-form-28-1900/ they are NOT redirected to the /introduction page and technically could still submit the form. This is how other VA.gov forms operate as well. Could be worth exploring ways to disallow.
 
