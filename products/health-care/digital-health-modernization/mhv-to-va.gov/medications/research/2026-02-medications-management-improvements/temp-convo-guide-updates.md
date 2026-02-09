@@ -112,7 +112,7 @@ As we go through this prototype to accomplish the task I'll give you, I'd like y
 # Tasks
 
 ## Task 1
-Imagine that you regularly take Lipitor. Two months ago, you requested a refill, which was three months before you needed it. Now, today, still a month out from needing this medication and two months after requesting the refill you want to know the status of that refill request. Show me where would you go to find out what's happening with your medication?
+Imagine a couple weeks ago you ordered a refill of Lipitor even though you won’t need it for a while. Show me how you would find the status of that refill request.
 
 ### First impressions
 1. Tell me what you are looking at. How would you describe this page? What is this page telling you?  
