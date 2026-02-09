@@ -74,31 +74,53 @@ Before we look at the calculator, I'd like to learn a little bit about you.
 > - If it's a prior participant, consider skipping or modifying the intro questions or following up on something you previously learned from them.
 
 1. Can you tell me about your current role at the VA and how long have you been at the VA?
+2. Do you have experience using AMPREDICT/PROPREDICT?
 
-## Intro:
-Next we’re going to look at the online AMPREDICT/PROPREDICT calculator: 
+## Timed Task 1
+
+Next we’re going to look at the online AMPREDICT/PROPREDICT calculator.  
 
 - Please navigate to: https://www.ampdecide.org/ampredict/risk-calculator OR https://prodecide.org/risk-calculator (share link in chat)
-- Please open a patient in CPRS so you can input their data into the calculator.
-- When you are ready please begin sharing your screen.
+- Now, please open a patient in CPRS so you can input their data into the calculator.
+- When you are ready please begin sharing your screen so the online calculator is visible.
 
-## Timed task 1
+[Screen sharing begins.]
 
+- Next I will be timing how long it takes to complete a calculation.
+- Please don't feel rushed to complete the task, just move through the workflow as you normally would. This is not a race, it's a way for us to gather benchmarking data on how long it realistically takes to complete a calculation.
 - Before you start entering data, please let me know so I can start the timer.
-- Please let me know when you have completed a calculation so I can stop the timer.
-- Please don't feel rushed to complete the task, just move through the workflow as you normally would. This is not a race, it's a way for us to gather benchmarking data on how long it takes to complete a calculation.
+- And please let me know when you have completed a calculation so I can stop the timer.
 - Are you ready to begin? 
 
 [Start timer upon verbal confirmation.]
 
-## What are your first impressions? What are you thinking about? - 5 minutes
+[Participant moves through task flow.]
 
+[Stop timer upon verbal confirmation.]
 
+## Task 1 debrief - 1 minute
 
-## First Task: How would you answer the "Abnormal Liver Function" question? - 5 minutes
+Great, thank you for completing that calculation. Do you have any questions or comments before we move on to the next task?
 
-- [ ] Click "View ALT/AST/AP and Bilirubin History link.
+## Timed Task 2
 
+Next, we'll move on to the CDS Medical Calculators tool and perform the same calculation using a different patient in CPRS.
+
+- Please open a new patient in CPRS.
+- Next, please navigate to CDS Tools > CDS Console and click on the Medical Calculators tile on the console landing page.
+- Now, navigate to AMPREDICT/PROPREDICT in the calculators list, but don't click on it just yet.
+- When you are ready to begin, please let me know and I'll start the timer. Again, just move through the workflow as you normally would. This will be a new tool to you, but the inputs match the online calculator we just tested.
+- Please let me know when you are done completing the task so I can stop the timer.  
+
+[Start timer upon verbal confirmation.]
+
+[Participant moves through task flow.]
+
+[Stop timer upon verbal confirmation.]
+
+## Task 2 debrief - 1 minute
+
+Great, thank you for completing that calculation. Do you have any questions or comments on the CDS calculator?
 
 > [!NOTE]
 > ### Things to watch for:
