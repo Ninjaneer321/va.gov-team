@@ -25,7 +25,27 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
 
+## Sprint: 2 [02/11/26 - 02/24/26]  
+| Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|UX:  | P2 |--|--|--|
+|UX:  | P2 |--|--|--|
+|ENG: | P1 |--|--|--|
+|ENG:  | P1 |--|--|--|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [ ] Ready to be sent for approvals (02/10/26)
+ - [ ] VA PO & COR sent the Sprint Goals (02/00/26)
+ - [ ] VA PO approved the Sprint Goals (02/00/26)
+ - [ ] VA COR approved the Sprint Goals (02/00/26)
+ 
+**_Delivery + Notes:_**
+- [ ] All goals have been updated in the sprint chart
+- [ ] Any Additional details about goals **not** completed will be documented here
+
 ## Sprint: 1 [01/28/26 - 02/10/26]  
+<details>
+
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
 |UX: Complete the final Pay.gov (Overpayments) research usability preparation steps before recruiting with Perigean and starting pilot sessions. | P2 |--|--|--|
@@ -43,6 +63,8 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **_Delivery + Notes:_**
 - [ ] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
+
+</details>
 
 ## Sprint: 26 [01/14/26 - 01/27/26]
 <details>
