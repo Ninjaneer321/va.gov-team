@@ -19,9 +19,7 @@ Last updated: February 2026
 
 - **Use case:** A user has not logged into va.gov and navigates to the Chapter 31 form to apply for Veteran Readiness and employment benefits.
 
-  - Format: [Link to designs](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2576-31076\&t=Yh6Ydlk9kueURf2p-1) 
-
-  - Content: See designs.
+  - Format & Content: [Link to designs](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2576-31076\&t=Yh6Ydlk9kueURf2p-1) 
 
   - \[Link to code] 
 
@@ -29,9 +27,7 @@ Last updated: February 2026
 
 - **Use case:** A user who has signed into [va.gov](http://va.gov) with an unverified account navigates to the Chapter 31 form to apply for Veteran Readiness and employment benefits.
 
-  - Format: [Link to designs ](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2576-12774\&t=Yh6Ydlk9kueURf2p-1)
-
-  - Content: See designs.
+  - Format & Content: [Link to designs ](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2576-12774\&t=Yh6Ydlk9kueURf2p-1)
 
   - \[Link to code] 
 
@@ -39,17 +35,13 @@ Last updated: February 2026
 
 - **Use case:** Does not have any drafts or completed applications for Veteran Readiness and employment benefits.
 
-  - Format: [Link to designs ](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2576-34591\&t=Yh6Ydlk9kueURf2p-1)
-
-  - Content: See designs.
+  - Format & Content: [Link to designs ](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2576-34591\&t=Yh6Ydlk9kueURf2p-1)
 
   - \[Link to code]
 
 - **Use case:** Has a benefit application or form draft saved but not yet submitted for Veteran Readiness and employment benefits.
 
-  - Format: [Link to designs ](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2578-35415\&t=Yh6Ydlk9kueURf2p-1)
-
-  - Content: See designs.
+  - Format & Content: [Link to designs ](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2578-35415\&t=Yh6Ydlk9kueURf2p-1)
 
   - \[Link to code]
 
@@ -57,9 +49,7 @@ Last updated: February 2026
 
   - The current state for this use case is the same for those who do not have any drafts. We recommend making the experience different.
 
-  - Format: [Link to designs ](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2576-34591\&t=Yh6Ydlk9kueURf2p-1)
-
-  - Content: See designs.
+  - Format & Content: [Link to designs ](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2576-34591\&t=Yh6Ydlk9kueURf2p-1)
 
 **User has a VR\&E application in progress**
 
@@ -71,13 +61,11 @@ Last updated: February 2026
 
   - No other statuses are displayed on the card (eg. not submitted, in progress etc).
 
-  * Format: [Card component](https://design.va.gov/components/card)
+  * Format & Content: [Card component](https://design.va.gov/components/card)
 
   * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16246\&t=KhCgIDPMpZ6FClDG-1)
 
   * [Link to code](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/engineering-docs/frontend/benefit-applications-and-forms.md)
-
-  * Content: See designs
 
 
 ## **Edge cases**
