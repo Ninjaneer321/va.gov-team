@@ -150,11 +150,11 @@
 ### 10-10EZR
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
-- [ ] [#130978](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130978) - [FE] Write unit tests and reconcile E2E testing
+- [x] [#130978](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130978) - [FE] Write unit tests and reconcile E2E testing
 - [ ] **SPRINT GOAL** [#131141](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131141) - [FE] Determine how to connect with existing VA Profile integration
 - [ ] **SPRINT GOAL** [#130846](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130846) - [FE] Connect to pull in service history for display
-- [x] **SPRINT GOAL** [#131037](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131037) - [UX] Create content for error state (no data or no API response to display service history)
-- [x] **SPRINT GOAL** [#131051](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131051) - [UX] Update content on File Upload page
+- [x] [#131037](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131037) - [UX] Create content for error state (no data or no API response to display service history)
+- [x] [#131051](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131051) - [UX] Update content on File Upload page
 
 #### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
 - [x] **CRITICAL** [#131293](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131293) - [FE] Modify existing Insurance custom components to resolve schema validation errors
@@ -162,7 +162,7 @@
 ##
 ### 10-10EZ
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
-- [ ] **SPRINT GOAL** [#128834](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128834) - [UX] Update Intro page alerts for "Pending" statuses
+- [ ] [#128834](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128834) - [UX] Update Intro page alerts for "Pending" statuses
 
 #### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
 - [x] **CRITICAL** [#131844](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131844) - [FE] Investigate & resolve Node 22 failing CI test
