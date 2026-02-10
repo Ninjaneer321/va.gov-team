@@ -182,13 +182,6 @@ jobs:
             
             for (const subIssue of subIssues) {
               const assignees = subIssue.labels.includes('engineering') ? [] : ['candilemoine'];
-
-              const issueTypes = await github.request("GET /repos/{owner}/{repo}/issues/types", {
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-              });
-              
-              const taskType = issueTypes.data.find(t => t.name === "Task");
               
               const created = await github.rest.issues.create({
                 owner: context.repo.owner,
@@ -197,7 +190,7 @@ jobs:
                 body: `${subIssue.body}\n\nRelates to #${parentIssue.number}`,
                 labels: subIssue.labels,
                 assignees: assignees,
-                type: taskType.id
+                type: `Task`
               });
               
               createdIssues.push({
