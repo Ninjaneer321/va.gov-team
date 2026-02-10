@@ -136,9 +136,9 @@
      - [ ] Create connection call to pull service history data
      - [x] Content for error state
      - [x] Content update on file upload page
+     - [x] Update user flow for error state/no data
 - EZ Form status
      - [x] EZ Update designs for Intro Page alerts on "pending" statuses
-     - [ ] EZ Tech discovery on additional form statuses on MyVA
 
 ### Additional work completed
 - EZ BUG
@@ -155,6 +155,7 @@
 - [ ] **SPRINT GOAL** [#130846](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130846) - [FE] Connect to pull in service history for display
 - [x] [#131037](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131037) - [UX] Create content for error state (no data or no API response to display service history)
 - [x] [#131051](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131051) - [UX] Update content on File Upload page
+- [x] [#123503](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123503) - [FE] Update user flow for error state/no data
 
 #### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
 - [x] **CRITICAL** [#131293](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131293) - [FE] Modify existing Insurance custom components to resolve schema validation errors
