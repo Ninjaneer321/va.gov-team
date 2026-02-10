@@ -79,6 +79,11 @@ Main takeaway from the research sessions
 - Found the alerts to be clear overall but stated that some, because of the intro sentence, made it seem like it was a VA system issue and not an eligibility check issue
 - Wants a hybrid approach on the eligibility pattern gray box - stating the outcome in the headline and the responses, not a summary, below. They found the icons, list and visual representation helpful.
 
+**Observer 1:**
+- Participant found the green check marks helpful in the summary cards ("green checks mean good to go!"). But the last bullet point about TRICARE eligibility coupled with a green check or red X "feels paradoxical" and gave them pause. I do want to experiment with the realtime content feedback they shared about improving the summary cards!
+- Participant was keen on wanting to learn about CHAMPVA benefits and what services to expect (vs. simply eligibility and application process info) on the intro page.
+- Participant liked that the eligibility pattern alerts were orange (vs. red and alarming) and found them helpful: "It's just telling me to slow down."
+
 **Observer 2:**
 - Participant preferred to be prepared and know everything up front rather than find out they needed something later (consistently clicked the more information dropdowns, noted expecting the VA to state what documents and info would be needed before starting, eyes directly to DD-214 form and recognizing it was NOT needed).
 - Preferred when information had clear why's behind it so they did not need to interpret what might be going wrong or wonder if it was a system issue.
