@@ -52,7 +52,7 @@
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 14 is to find a resolution to the EZ Intro page looping issue.**
+- **The goal for Sprint 14 is to find a resolution to the EZ Intro page looping issue and set up connection with API for service history.**
 
 #### List of Planned work
 - EZ BUG
@@ -66,6 +66,7 @@
 - EZR ECNOK On VA.gov Profile
      - [ ] Review existing Profile ECNOK designs for updates needed
 - [ ] EZR Update Source of Truth designs for Household sections
+- [ ] CG QA Standards alignment
 
 ### Additional work completed
 - ...
@@ -91,12 +92,10 @@
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
 - [ ] [#105829](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105829) - [Eng] Tech discovery on additional EZ form statuses on MyVA
 
-
-
 ## 
 ### 10-10CG
 #### Obj: 
-- No updates in this sprint
+- [#130858](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130858) - [ENG/QA] Review and align with the latest QA Standards updates
 
 ##
 ### Team PTO
