@@ -8,11 +8,12 @@
 - **The goal for Sprint 15 is...**
 
 #### List of Planned work
-- [ ] EZR Service History
+- EZR Service History
      - [ ] Update file upload page logic & content
      - [ ] Add error state to Yes/No page
      - [ ] Update Frontend Schema
-- [ ] EZ Form status
+- EZ Form status
+     - [ ] Update Intro Page alerts on "pending" statuses
      - [ ] EZ Display submission statuses on MyVA
 
 
@@ -31,7 +32,9 @@
 ##
 ### 10-10EZ
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
-- [ ] **SPRINT GOAL** [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [FE] Display submission statuses on MyVA
+- [ ] [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [FE] Display submission statuses on MyVA
+- [ ] [#130693](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130693) - [FE] Update Intro page alert for "PendingMT"
+- [ ] [#130694](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130694) - [FE] Update Intro page alert for "PendingOther"
 
 ## 
 ### 10-10CG
@@ -49,16 +52,20 @@
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 14 is to get the EZR Service History connection up and running.**
+- **The goal for Sprint 14 is to find a resolution to the EZ Intro page looping issue.**
 
 #### List of Planned work
-- [ ] EZR Service History
+- EZ BUG
+     - [ ] EZ Investigate Intro page looping
+- EZR Service History
      - [ ] Determine how to connect with existing VA Profile integration
      - [ ] Create connection call to pull service history data
-- [ ] EZ Form status
-     - [ ] Update Intro Page alerts on "pending" statuses
+     - [ ] Content feedback review for error state & file upload
+- EZ Form status
      - [ ] EZ Tech discovery on additional form statuses on MyVA
-- [ ] EZR Review existing Profile ECNOK designs for updates needed
+- EZR ECNOK On VA.gov Profile
+     - [ ] Review existing Profile ECNOK designs for updates needed
+- [ ] EZR Update Source of Truth designs for Household sections
 
 ### Additional work completed
 - 
@@ -67,18 +74,24 @@
 ### 10-10EZR
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
-- [ ] **SPRINT GOAL** [#131141](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131141) - [FE] Determine how to connect with existing VA Profile integration
-- [ ] **SPRINT GOAL** [#130846](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130846) - [FE] Connect to pull in service history for display
+- [ ] [#131141](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131141) - [FE] Determine how to connect with existing VA Profile integration
+- [ ] [#130846](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130846) - [FE] Connect to pull in service history for display
+- [ ] [#132636](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132636) - [UX] Review content feedback on error state and file upload content
 
 #### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
-- [ ] **SPRINT GOAL** [#129581](https://github.com/department-of-veterans-affairs/va.gov-team/issues/129581) - [UX] Review existing designs
+- [ ] [#129581](https://github.com/department-of-veterans-affairs/va.gov-team/issues/129581) - [UX] Review existing ECNOK Profile page designs
+
+#### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
+- [ ] **SPRINT GOAL** [#121080](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121080) - [UX] Update EZR SOT for Household sections
 
 ##
 ### 10-10EZ
+#### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
+- [x] **SPRINT GOAL** [#131844](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131844) - [FE] Investigate & resolve Node 22 failing CI test
+
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
-- [ ] **SPRINT GOAL** [#105829](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105829) - [Eng] Tech discovery on additional EZ form statuses on MyVA
-- [ ] **SPRINT GOAL** [#130693](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130693) - [FE] Update Intro page alert for "PendingMT"
-- [ ] **SPRINT GOAL** [#130694](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130694) - [FE] Update Intro page alert for "PendingOther"
+- [ ] [#105829](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105829) - [Eng] Tech discovery on additional EZ form statuses on MyVA
+
 
 
 ## 
@@ -110,7 +123,7 @@
 
 ---
 ## 📆 Sprint 13 (Jan 28 - Feb 10)
-- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+- [x] 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
 - **The goal for Sprint 13 is to get the EZR Service History connection up and running.**
@@ -121,27 +134,27 @@
 - [ ] EZR Service History
      - [ ] Determine how to connect with existing VA Profile integration
      - [ ] Create connection call to pull service history data
-     - [ ] Content for error state
-     - [ ] Content update on file upload page
-- [ ] EZR Update Source of Truth designs for Household sections
+     - [x] Content for error state
+     - [x] Content update on file upload page
 - [ ] EZ Form status
      - [ ] EZ Update designs for Intro Page alerts on "pending" statuses
      - [ ] EZ Tech discovery on additional form statuses on MyVA
 
 ### Additional work completed
-- 
+- EZ BUG
+     - [x] Investigate and resolve failing CI test in Node 22 upgrade (Platform collaboration)
+- EZR Service History
+     - [x] Write unit tests & reconcile E2E testing (including all new pages)
 
 ## 
 ### 10-10EZR
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
+- [ ] [#130978](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130978) - [FE] Write unit tests and reconcile E2E testing
 - [ ] **SPRINT GOAL** [#131141](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131141) - [FE] Determine how to connect with existing VA Profile integration
 - [ ] **SPRINT GOAL** [#130846](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130846) - [FE] Connect to pull in service history for display
-- [ ] **SPRINT GOAL** [#131037](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131037) - [UX] Create content for error state (no data or no API response to display service history)
-- [ ] **SPRINT GOAL** [#131051](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131051) - [UX] Update content on File Upload page
-
-#### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
-- [ ] **SPRINT GOAL** [#121080](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121080) - [UX] Update EZR SOT for Household sections
+- [x] **SPRINT GOAL** [#131037](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131037) - [UX] Create content for error state (no data or no API response to display service history)
+- [x] **SPRINT GOAL** [#131051](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131051) - [UX] Update content on File Upload page
 
 #### Obj: EZR [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/109435)
 - [x] **CRITICAL** [#131293](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131293) - [FE] Modify existing Insurance custom components to resolve schema validation errors
@@ -151,7 +164,8 @@
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
 - [ ] **SPRINT GOAL** [#128834](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128834) - [UX] Update Intro page alerts for "Pending" statuses
 
-
+#### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
+- [x] **CRITICAL** [#131844](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131844) - [FE] Investigate & resolve Node 22 failing CI test
 
 
 ## 
