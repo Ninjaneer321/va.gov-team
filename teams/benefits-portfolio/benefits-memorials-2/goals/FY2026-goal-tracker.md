@@ -28,14 +28,17 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 ## Sprint: 2 [02/11/26 - 02/24/26]  
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX:  | P2 |--|--|--|
-|UX:  | P2 |--|--|--|
-|ENG: | P1 |--|--|--|
-|ENG:  | P1 |--|--|--|
+|UX: Complete Payment History QC implementation review with Engineering and begin accessibility testing.| P1 |--|--|--|
+|UX: Complete the final Pay.gov usability preparation before initiating the kickoff & recruiting with Perigean.| P2 |--|--|--|
+|ENG: Complete 6 of the 9 remaining Payment History Staging review artifacts| P1 |--|--|--|
+|ENG: Complete additional Payment History tasks identified during Front End implementation.| P1 |--|--|--|
+|ENG: Complete and clean up Payment History back end code that was used for development only tasks.| P1 |--|--|--|
+|ENG: Complete back end ENG transition tickets to prepare for Benefit Payment Tool support.| P3 |--|--|--|
+|ENG: Audit existing benefit payment tool monitors, and map out any cloning into the debt space if necessary.| P3 |--|--|--|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
- - [ ] Ready to be sent for approvals (02/10/26)
- - [ ] VA PO & COR sent the Sprint Goals (02/00/26)
+ - [X] Ready to be sent for approvals (02/10/26)
+ - [X] VA PO & COR sent the Sprint Goals (02/10/26)
  - [ ] VA PO approved the Sprint Goals (02/00/26)
  - [ ] VA COR approved the Sprint Goals (02/00/26)
  
