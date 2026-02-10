@@ -74,8 +74,7 @@
 ### 10-10EZR
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
-- [ ] [#131141](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131141) - [FE] Determine how to connect with existing VA Profile integration
-- [ ] [#130846](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130846) - [FE] Connect to pull in service history for display
+- [ ] **SPRINT GOAL** [#130846](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130846) - [FE] Connect to pull in service history for display
 - [ ] [#132636](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132636) - [UX] Review content feedback on error state and file upload content
 
 #### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
@@ -132,7 +131,7 @@
 - EZR Bug
      - [x] Fix schema validation errors (Ins info missing in array builder)
 - EZR Service History
-     - [ ] Determine how to connect with existing VA Profile integration
+     - [x] Determine how to connect with existing VA Profile integration
      - [ ] Create connection call to pull service history data
      - [x] Content for error state
      - [x] Content update on file upload page
@@ -143,6 +142,7 @@
 ### Additional work completed
 - EZ BUG
      - [x] Investigate and resolve failing CI test in Node 22 upgrade (Platform collaboration)
+     - [ ] Investigate EZ Intro page looping issue (2nd round)
 - EZR Service History
      - [x] Write unit tests & reconcile E2E testing (including all new pages)
 
@@ -167,7 +167,7 @@
 
 #### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
 - [x] **CRITICAL** [#131844](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131844) - [FE] Investigate & resolve Node 22 failing CI test
-
+- [ ] [#132234](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132234) - [FE] Investigate EZ Intro page looping issue (2nd round)
 
 ## 
 ### 10-10CG
