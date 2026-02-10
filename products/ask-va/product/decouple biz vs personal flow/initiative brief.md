@@ -1,5 +1,5 @@
 # Ask VA: Initiative Brief for Decoupling Business vs. Personal Form Flows
-This document provides an overview of the Ask VA initiative to implement the new **Business vs. Personal Form Flow**. (language may be updated following discussions with CAIA)
+This document provides an overview of the Ask VA initiative to implement a new **Business vs. Personal Form Flow**. (language may be updated following discussions with CAIA)
 
 To view **Ask VA's Product Outline** go here, [in this GitHub doc](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/Product%20outline.md).
 
