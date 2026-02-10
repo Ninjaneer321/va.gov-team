@@ -278,7 +278,7 @@ Screener question 1
 
 Screener question 2
 
-* When you sign in to VA.gov and to go My VA, do you see details about "overpayment debts" under the section "Outstanding debts"? (this is different from copay bills)
+* When you sign in to VA.gov and go to My VA, do you see details about "overpayment debts" under the section "Outstanding debts"? (this is different from copay bills)
     * Yes, I see a listing of 1 or more overpayment debts on VA.gov.
     * No, I don’t see any overpayment debt details on VA.gov [DISQUALIFY]
     * I don’t have a VA.gov account / I can’t sign in right now [DISQUALIFY]
