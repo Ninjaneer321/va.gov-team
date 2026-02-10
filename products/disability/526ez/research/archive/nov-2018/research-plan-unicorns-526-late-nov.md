@@ -1,109 +1,116 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Unicorns Team, Disability Compensation (Form 21-526EZ), Structured Data Experiment, November 2018"
+date: 2018-11-15
+last_updated: 2026-02-10
+team: "Unicorns"
+product: "Disability Compensation (Form 21-526EZ)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The VA.gov Form 21-526EZ is expanding to support all claims types (not just increases). The team is releasing an all-claims path with text entry for new conditions, but is experimenting with a more structured data approach that could provide accurate mapping to VA contention claim IDs, potentially speeding development. The team needs to validate whether Veterans can navigate a taxonomy-based approach without excessive burden."
+  product_location: "VA.gov, Disability Benefits, File for Disability Compensation"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if structured conditional questions can guide Veterans to provide accurate condition data without excessive burden"
+  - goal_2: "Validate that pay waiver questions help Veterans make the correct choice regarding military retirement pay vs. VA compensation"
+  - goal_3: "Assess whether the condition taxonomy is both clear to Veterans and consistent enough for confident data mapping"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can we ask questions in a way that provides accurate mapping to contention claim IDs without overly burdening the Veteran?"
+  - "Are the pay waiver questions helping Veterans get to the correct choice?"
+  - "Is the taxonomy clear enough for Veterans to comfortably provide accurate answers?"
+  - "Is the taxonomy consistent and knowable enough for confident guidance?"
+  - "Do Veterans understand the conditional branching logic as they progress through condition selection?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Conditional questions pattern (similar to wizards used elsewhere on site) can guide Veterans to accurate data entry"
+  - "Veterans can navigate a complex taxonomy if the questions are clearly worded and logically structured"
+  - "The structured approach will reduce ambiguity compared to free-text entry"
+  - "Pay waiver questions, when clearly explained, will help Veterans make informed decisions"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate whether structured conditional questions for selecting disability conditions are viable. If successful, this approach could improve claim processing speed and accuracy. Findings will inform the decision to implement structured data collection versus simpler text entry."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Fresh perspectives preferred"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans (fresh eyes preferred, but not excluding those with compensation claim experience)"
+    - "Diverse age range"
+    - "Basic familiarity with online forms"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of those familiar and unfamiliar with disability compensation process"
+    - "Variation in tech comfort levels"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you used online forms in the past year?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 6
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 8
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2018-11-26"
+  pilot_participant: "TBD"
+  research_dates: "2018-11-26 to 2018-11-30"
+  research_review_submission: "2018-11-15"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Enable accurate, efficient disability claim submission online"
+      - "Improve claim processing speed through structured data"
+      - "Reduce claim development time due to clearer condition information"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez/research/archive/sep-oct-2018"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "BNFT: Finances"
+  - "PRDT: disability-526ez"
+  - "DSC: Form"
+  - "DSC: Form - Radio Button"
+  - "DSC: Form - Select"
+  - "DSP: Ask users for a single response"
+  - "DSP: Ask users for multiple responses"
+  - "DSP: Contextual Help"
+  - "usability-testing"
+  - "authenticated"
+  - "conditional-logic"
+  - "taxonomy"
 ---
 
 # Research Plan for Unicorns – 526 – Late Nov

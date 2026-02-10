@@ -1,109 +1,114 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for eBenefits Disability Compensation Claims Usability, September 2017"
+date: 2017-08-15
+last_updated: 2026-02-10
+team: "eBenefits"
+product: "Disability Compensation (Form 21-526EZ)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans submitting disability compensation claims through eBenefits experience usability issues that create confusion, frustration, and potentially lead to application abandonment. The team needs to identify specific problem areas in the user interface and understand Veterans' thought processes to improve the experience."
+  product_location: "eBenefits, Disability Compensation"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine usability problem areas within the eBenefits user interface during disability claim submission"
+  - goal_2: "Understand Veterans' mental models and expectations throughout the application process"
+  - goal_3: "Validate previous findings about Veterans' experiences by observing real interactions with the system"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does the content help users understand what is needed at each step and what comes next?"
+  - "Is it clear how to locate and act upon information presented on the screens?"
+  - "Does the screen flow make sense to users given their mental model?"
+  - "Does completing functions require excessive keystrokes?"
+  - "Are text fields and buttons used properly and intuitively?"
+  - "What causes Veterans to abandon the application process?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans experience confusion with the content and labeling throughout the application"
+  - "The navigation flow does not match Veterans' mental models for filing a disability claim"
+  - "There are specific points in the application where Veterans are most likely to become frustrated or confused"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify specific, actionable improvements to the eBenefits disability compensation application interface that will reduce confusion, improve completion rates, and better support Veterans through the claims process."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Field recruitment"
+  approach: "Maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans or Active Duty Service Members who have considered filing a disability compensation claim but never started an application"
+    - "Veterans or Active Duty Service Members who started a disability compensation claim but never completed it"
+    - "Variation in time from separation: just separated to 10+ years separated"
+    - "Variation in eBenefits usage: once a month to once a year"
+    - "Variation in service era: Vietnam War era (1964-75) and Post 9/11"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of those who have used eBenefits vs paper applications"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you considered filing or started filing a disability compensation claim?"
+      qualifying_response: "Yes, but never submitted"
       
 participants:
-  veterans: 0
+  veterans: 6
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 8
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2017-09-13 to 2017-09-15"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve Veteran experience filing disability compensation claims"
+      - "Reduce application abandonment rates"
+      - "Improve clarity of application requirements and process"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/archive/aug-2017/documents/080817-research-plan.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "BNFT: Disability"
+  - "PRDT: disability-526ez"
+  - "PRDT: eBenefits"
+  - "DSC: Form"
+  - "DSP: Ask users for multiple responses"
+  - "DSP: Help users to check answers"
+  - "usability-testing"
+  - "HDW: Desktop"
+  - "authenticated"
 ---
 
 # eBenefits Usability Research Plan
