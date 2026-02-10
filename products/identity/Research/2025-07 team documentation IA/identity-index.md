@@ -21,7 +21,7 @@ Each component in the identity index documents:
     - [Secure sign-in transition](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/sign-in-transition#initiative-outline-sign-in-transition)
 - [Platform authentication](https://depo-platform-documentation.scrollhelp.site/developer-docs/authentication)
     - Backend infrastructure
-        - [Tokens and sessions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/Sign-In%20Service/Engineering%20Docs/Authentication%20Types/Client%20Auth%20(User)/endpoints/token.md)
+        - [Tokens and sessions](https://depo-platform-documentation.scrollhelp.site/developer-docs/authentication#Authentication-SessionTimeout)
         - [Service account endpoints](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Products/Service%20Account%20Endpoints)
         - [My HealtheVet account creation API](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/MHV%20account%20creation%20API/requirements.md)
         - [UserModel](https://github.com/department-of-veterans-affairs/va.gov-team/blob/84c03840daa10907c26d239c567c160d41c74c0c/products/identity/login/verified_user_attributes.md)
