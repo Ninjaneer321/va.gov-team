@@ -37,7 +37,6 @@ Thanks for joining us today! My name is XXX and I'm a Researcher with the VA. To
 
 - This entire session should take about 45 - 60 minutes. I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic. We may also end sooner than that, and if we have covered everything I want to cover I'd love to give your time back to you.
 - Your participation in this interview is completely voluntary. You do not have to participate if you don't want to. Whether you choose to participate or not will not affect your benefits in any way with the VA. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Please let me know.
-- I have a few questions to go through, then I’m going to ask you to complete a few medications management tasks for me using a fake website. We will be using what we call a prototype. This is not an actual website. It is a file that we use to explore what the website could look like and get feedback from users like yourself before we make any final changes to the website. This prototype will not work exactly like a website but all information is fake. For example, not all of the links will work and you cannot click the back button in your browser because it will take you away from the prototype. This will require you to share your screen with me.
 - In this session, we want to hear your honest opinions. There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
 - We like to record to confirm that we’ve captured your opinions accurately and sometimes share video clips with our colleagues at the VA to show user feedback. If we do this, we don’t link anything you choose to share in the session to any information that identifies you, and we remove your face and name from any videos that we share.
 
@@ -93,9 +92,9 @@ Great, now I can see your screen! Thank you for your patience in figuring this o
 
 ---
 
-## Prototype reminder
+## Prototype overview
 
-Just a reminder, we will be using what we call a prototype to accomplish a task that I will give you. This is not an actual website, all the names and information is are fake. It will still work much like a website - you can move it up and down, click on certain things, etc. However, this prototype will not work exactly like a website. For example, not all of the links will work and you cannot click the back button in your browser because it will take you away from the prototype.
+I have a few questions to go through, then I’m going to ask you to complete a few medications management tasks. We’ll be using what we call a prototype. This is not an actual website — all names and information are fake. A prototype is a file we use to explore what a website could look like and get feedback from users like yourself before making final changes to the website. It will work much like a website — you can scroll and click on certain things — but it won’t function exactly like a real site. For example, not all links will work, and you won’t be able to use your browser’s back button because it will take you out of the prototype. This part will require you to share your screen with me.
 
 ## Opening the prototype
 
