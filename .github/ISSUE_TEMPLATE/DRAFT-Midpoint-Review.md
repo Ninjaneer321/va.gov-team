@@ -23,7 +23,7 @@ The [Midpoint Review touchpoint](https://depo-platform-documentation.scrollhelp.
   - Click "Schedule Event"
 - [ ] Add meeting date/time:
 
-### Governance Team actions
+#### Governance Team actions
 - [ ] Add link to Collaboration Cycle ticket
 - [ ] Add link to Slack thread
 
