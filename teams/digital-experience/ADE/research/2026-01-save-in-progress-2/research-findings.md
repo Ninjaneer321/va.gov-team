@@ -282,6 +282,12 @@ Two participants didn't notice the "Expand all" link, one of whom said that the 
 *Include insights that do not represent patterns but are still valuable.*  
 > **TIP:** These could be powerful user comments or unexpected issues worth noting
 
+1. One participant expressed his appreciation for our taking the time to learn from Veterans...
+
+1. Participants had many positive comments on prototype features that worked well for them: 
+
+1. Three participants had technical issues with their assistive tech...
+
 1. Two participants said that they prefer to fill out forms on paper instead of online. One of them said it's easier and he likes to keep a copy. The other participant doesn't have a computer and said the following: 
   > *"I'm thinking I could fill it out quicker if I had it in front of me in paper and pencil...Slow [on phone] because of my vision and I'm not the greatest typist. I have to look at the keys to type, that’s why I prefer to write it out" (p2).*
 
@@ -299,11 +305,13 @@ Two participants didn't notice the "Expand all" link, one of whom said that the 
 1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages.**
    - _Supporting evidence: 4 of 8 participants didn't know what these phrases meant when seeing them as links on the interstitial page._
 
-
-1. **Move accordion controls to the left side of the item so as to increase visibility for screen magnifier users who may not see any controls on the right.** Pass along this finding to Chandra Carney with the US Web Design System.
+1. **Move accordion controls to the left side of the item so as to increase visibility for screen magnifier users who may not see any controls on the right.** Discuss this finding to Chandra Carney from the US Web Design System team.
    - _Supporting evidence: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier._
 
 1. **Consider keeping the "Expand all" link (ADD FROM SLACK DM CONVO W/JEANA)**
+
+1. **Learn how to advise participants who are struggling with their assistive tech, and incorporate a suggestion into future conversation guides.** Work with Martha to meet with a VA Blind Rehab Center to learn about how they help Veterans who are blind or low vision and whether/how we can get them in touch with research participants who could benefit from their services.
+
 ## Product User and Business Outcomes
 
 *Explain how findings and recommendations align with the product's goals.*
