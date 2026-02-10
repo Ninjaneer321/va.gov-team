@@ -1,109 +1,129 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience Profile team: UAT for notification settings and contact information updates, October 2023"
+date: 2023-10-10
+last_updated: 2023-10-11
+team: "Authenticated Experience - Profile"
+product: "VA.gov Profile - Notification Settings and Contact Information"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Three related features need validation before production release: default send flag for notifications, checkbox UI update for notification settings, and new edit-as-subtask flow for updating contact info from notification settings page."
+  product_location: "VA.gov Profile - Notification Settings section"
+  user_familiarity: "Iteration - improvements to existing notification settings and contact information update flows"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/notification-preferences/default-send/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "User Acceptance Testing (UAT)"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Confirm that default send flag functionality works correctly with VA Notify integration"
+  - goal_2: "Validate that checkbox UI for notification settings functions as expected for LOA3 users"
+  - goal_3: "Confirm that edit-as-subtask flow for mobile phone updates works correctly from notification settings"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does our edit as a sub-task flow function as expected when users add or update their mobile number?"
+  - "Can users successfully update notification settings with the checkbox UI?"
+  - "Does the notification API return the correct default send value before and after user interaction?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Our edit as a sub-task flow will work as expected"
+  - "Notification settings default send data will be sent as expected"
+  - "User can successfully update their notification settings as expected"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Based on the outcome of this research study, we will either release this work to production, or make updates to correct any bugs or significant usability hurdles"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "UAT with diverse device representation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must have an identity-verified VA.gov or My HealtheVet account"
+    - "Must use Login.gov or ID.me credentials (not DS Logon or MyHealtheVet only)"
+    - "Must be able/willing to log in and share screen over Zoom"
+    - "Must have working microphone and Zoom downloaded"
+    - "Must have smartphone, desktop, laptop, or tablet"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 3 participants must join from mobile device"
+    - "At least 3 participants must join from desktop/laptop"
+    - "At least 3 participants must have never previously updated notification settings in their VA.gov profile"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have an identify-verified account on VA.gov? You can check by logging into VA.gov and going to your profile - if you see a prompt to verify your identity, your identity is not yet verified."
+      qualifying_response: "Yes qualifies"
+    - question: "Do you have a working login and password for Login.gov or ID.me?"
+      qualifying_response: "Must answer Login.gov or ID.me (not only DS Logon or MyHealtheVet)"
+    - question: "What email address(es) do you use to login to VA.gov?"
+      qualifying_response: "Information collection - not qualifying"
+    - question: "Have you ever used VA.gov to opt in or out of text notifications from VA?"
+      qualifying_response: "Need at least 3 who answer No"
       
 participants:
-  veterans: 0
+  veterans: 7
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 7
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-10-11"
+  pilot_participant: "Rocio De Santiago (rocio@coforma.io)"
+  research_dates: "2023-10-18 to 2023-10-20"
+  research_review_submission: "2023-10-10"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 30
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Streamline notification management with improved UI"
+  - objective: "Logged-in users can update their personal information easily and instantly"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Enable easier contact information updates from notification settings context"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/notification-preferences/default-send/README.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/contact-information/mobile-phone-edit-flow/README.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: VA.gov Profile"
+  - "PRDT: Profile-notification-settings"
+  - "PRDT: Profile-contact-information"
+  - "research-method: UAT"
+  - "research-method: moderated"
+  - "research-method: remote"
+  - "device: desktop"
+  - "device: mobile"
+  - "authenticated-experience"
+  - "VA-Notify"
+  - "DSC: Checkbox"
+  - "DSP: Edit-in-place"
 ---
 
 # Research Plan: Profile multi-feature UAT, October 2023

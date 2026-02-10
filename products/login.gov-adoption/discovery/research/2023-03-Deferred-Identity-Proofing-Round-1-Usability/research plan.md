@@ -1,109 +1,151 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Login.gov Adoption Team: Deferred Identity Proofing Round 1 Usability, March 2023"
+date: 2023-02-01
+last_updated: 2023-03-09
+team: "Login.gov Adoption Team"
+product: "Legacy Credential Migration - Deferred Identity Proofing"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Multiple sign-in options don't all meet required security standards and create user frustration and confusion. We need to migrate Veterans from legacy credential service providers (DS Logon and My HealtheVet) to Login.gov, specifically allowing select DS Logon users to defer identity proofing to a later date while maintaining the same access to VA services."
+  product_location: "Sign-in experience on VA.gov"
+  user_familiarity: "New migration pathway for existing DS Logon users"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/login.gov-adoption/products/legacy%20CSP%20migrations"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Review whether Veterans can migrate their accounts from DS Logon to Login.gov (IAL1) without issue"
+  - goal_2: "Review whether Veterans understand the type of account they've set up and its limitations"
+  - goal_3: "Review whether Veterans know where to get help or what they will do if they encounter an issue during or after account setup"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are Veterans motivated to set up a Login.gov account when initially prompted, why or why not?"
+  - "Are Veterans more or less motivated when prompted via email or via a modal after sign-in?"
+  - "How confident do Veterans feel about their ability to set up a Login.gov account when initially prompted?"
+  - "Can Veterans successfully initiate the account setup flow and create their account including email verification and MFA?"
+  - "Can Veterans successfully return back to the VA after setting up their account?"
+  - "Do Veterans understand they are now signed into Login.gov?"
+  - "Do Veterans have concerns about their data or information now that they use a different sign in method?"
+  - "Do Veterans understand why they're being asked to set up a Login.gov account and what type of account they are setting up?"
+  - "Do Veterans understand that they should now stop using DS Logon and use Login.gov to sign in moving forward?"
+  - "Are Veterans motivated to upgrade to an IAL2 Login.gov account at a later date, why or why not?"
+  - "Do Veterans know where or how to get help if they encounter an issue?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will be motivated to set up a Login.gov account if they understand they will no longer be able to use DS Logon at some point in the future"
+  - "Veterans who receive an email will be more motivated than those who see a modal pop-up because they won't be interrupted while completing another VA task"
+  - "Veterans will be able to set up an IAL1 Login.gov account which is less risky and burdensome than setting up an IAL2 Login.gov account"
+  - "Most Veterans will be able to set up one multi-factor authentication method without issue"
+  - "Most Veterans will choose to set up text or voice message as their multi-factor authentication method"
+  - "Veterans will be motivated to continue to use their Login.gov account moving forward if they understand they should stop using their DS Logon account"
+  - "Veterans will be motivated to upgrade to an IAL2 account if they understand what an IAL2 account will let them do"
+  - "Veterans will decide and be able to navigate to contact information on the Login.gov or VA.gov websites if they encounter an issue"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate and refine a user flow that lets Veterans migrate from DS Logon to Login.gov through deferred identity proofing. Make a decision about whether to move forward with one or both potential triggers (email vs modal) based on findings. Inform a built prototype for accessibility testing."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling (MVS) - sequential rounds to reach MVS"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must be Veterans"
+    - "Must have a computer and be willing to complete sessions on this device"
+    - "Must be willing to share a web browser window on their computer"
+    - "Must have a working microphone on their computer"
+    - "Must have Zoom downloaded and know how to share their screen"
+    - "Must have signed into a VA application in the last 6 months"
+    - "Must use DS Logon to sign in to the VA"
+    - "At least 13 participants must not have a Login.gov or ID.me account set up"
+    - "At most 2 participants must have a Login.gov account but not use it to sign in to VA"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 50% of people must be over 55"
+    - "At least 50% of people must have an identified cognitive disability"
+    - "At least 30% of people must identify as Black, Hispanic, or Native"
+    - "At least 30% of people must be without a degree or professional certificate"
+    - "At least 30% of people must live in a rural or remote area"
+    - "At least 20% of people must identify as other than male"
+    - "At least 20% of people must be non-native English speakers"
+    - "At least 20% of people must identify as gay, lesbian, bisexual, or transgender"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you signed in to VA.gov, My HealtheVet or eBenefits in the last 6 months?"
+      qualifying_response: "Yes"
+    - question: "Do you use DS Logon to sign in to the VA?"
+      qualifying_response: "Yes"
+    - question: "Do you have a Login.gov or ID.me account?"
+      qualifying_response: "No (except for at most 2 participants can answer yes)"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-03-20"
+  pilot_participant: "Jesse James"
+  research_dates: "2023-03-27 to 2023-04-06"
+  research_review_submission: "2023-03-08"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Veterans and their families trust the security accuracy and relevancy of VA.gov"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/185"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/157"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/156"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/93"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: Login.gov"
+  - "PRDT: Sign-in"
+  - "PRDT: Identity"
+  - "AUD: Veterans"
+  - "DSC: Modal"
+  - "DSP: Sign-in and identity verification"
+  - "DSP: Notifications and updates"
+  - "HDW: Desktop"
+  - "usability-testing"
+  - "authenticated"
+  - "remote"
+  - "identity-proofing"
+  - "credential-migration"
+  - "DS-Logon"
+  - "multi-factor-authentication"
+  - "IAL1"
 ---
 
 # Research Plan: Deferred Identity Proofing (Round 1: Usability)

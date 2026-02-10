@@ -1,109 +1,140 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VFS, VYE-Verify Your Enrollment (Unmoderated), March 2024"
+date: 2023-11-01
+last_updated: 2024-03-11
+team: "VFS Team"
+product: "Verify Your Enrollment (VYE)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The Web Automated Verification of Enrollment (WAVE) is a legacy, noncompliant feature that uses JavaScript, which is no longer sanctioned by the U.S. government because of data security concerns. WAVE holds Veterans' personally identifiable information and must be replaced with a modern, secure solution on VA.gov."
+  product_location: "VA.gov - Education and training section of VA Benefits and Health Care menu (replacing standalone WAVE application)"
+  user_familiarity: "New product replacing existing WAVE tool that has existed since 2003"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/verify-your-enrollment/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Unmoderated studies: Chalkmark (first-click analysis) and OptimalSort (open card sort)"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate the effectiveness of the proposed VYE solution and ensure it meets Veterans' goals"
+  - goal_2: "Evaluate VYE's place in the VA.gov system and how Veterans find and access it"
+  - goal_3: "Identify what might be missing in our understanding of Veterans using enrollment verification"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are our perceptions of Veterans goals accurate (verification #1, checking history #2, managing profile #3)?"
+  - "Is our proposed design simple for Veterans to use to accomplish their goals?"
+  - "Are Veterans able to quickly and easily verify their enrollment?"
+  - "Do Veterans need additional touchpoints (e.g., emails) to accomplish their goals?"
+  - "Is our two-page proposed design sufficient for users to easily find their desired information?"
+  - "Can users easily update their address and direct deposit information?"
+  - "Is the label 'Your Benefits Profile' sufficient to communicate the types of information contained in the profile?"
+  - "Are there other messages before or after interaction with VYE that our Veterans need?"
+  - "How do our Veterans find VYE (e.g., email link, Google search, onsite search, navigation menus, etc.)?"
+  - "How effective are these channels to Veterans for finding VYE/WAVE?"
+  - "Would Veterans prefer to verify their enrollment over the phone or via text as opposed to verifying via a web application?"
+  - "Are Veterans confused by the process of enrollment and how that information is communicated to the VA for verification?"
+  - "Do Veterans need more insight into backoffice processes (e.g., pending documents and processes)?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The new VYE design will provide a much simpler process for Veterans to manage their enrollment verifications as compared to the overly complicated WAVE tool. WAVE is challenging to navigate and use. A more streamlined and succinct design will be sufficient for Veterans to manage their enrollment verifications. In-context design clues will remove the need for complex user guides. Users do not need to see backoffice processes that are currently contained in 'Pending Documents.'"
+  - "Veterans will be able to easily find and access the VYE application. Existing processes are sufficient to bring Veterans needing to verify enrollment to the VYE tool (e.g., email prompts, Google search, onsite search, etc.). Veterans might prefer IVR or text-based verification processes for managing enrollment."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Evaluative findings will immediately affect the design and content of our MVP solution for VYE. Additional generative research will help inform future solutions and enhancements to VYE (e.g., email notifications, IVR, text verification, integration with VA.gov profile, etc.)."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Lean maximum variation strategy"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Participants must have an active award for MGIB-Active Duty (Chapter 30), MGIB Selected Reserve (Chapter 1606), Reserve Educational Assistance Program (REAP, Chapter 1607), or Veterans Retraining Assistance Program (VRAP)"
+    - "Users of Post 9/11 GI Bill benefits are NOT eligible unless also utilizing one of the above programs"
+    - "Recruit in cohorts of 9 according to PRA 'Fewer than 10' rule: Chalkmark males on active duty, Chalkmark females on active duty, OptimalSort males not on active duty, OptimalSort females not on active duty"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse demographics to match lean maximum variation strategy"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you currently use education benefits or plan to use education benefits under the following programs: MGIB-Active Duty (Chapter 30), MGIB Selected Reserve (Chapter 1606), REAP (Chapter 1607), or VRAP?"
+      qualifying_response: "Yes (Post 9/11 GI Bill users not eligible unless also using listed programs)"
+    - question: "Please select the program(s) under which you currently use education benefits or plan to use education benefits"
+      qualifying_response: "Must select one of: MGIB-Active Duty, MGIB Selected Reserve, REAP, or VRAP"
       
 participants:
-  veterans: 0
+  veterans: 36
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 36
+  completed_sessions_goal: 36
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "N/A (unmoderated)"
+  pilot_participant: "N/A"
+  research_dates: "2024-03-11 to 2024-03-30"
+  research_review_submission: "2024-03-01"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 15
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Modernize VA applications and create the best experience for all Veterans by streamlining the process to receive education benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Replace legacy WAVE tool with secure, compliant VYE solution"
+      - "Provide seamless Veteran experience through state-of-the-art technology"
+      - "Improve functionality and user experience of enrollment verification"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Serving: Managing military and family obligations"
+  - "Getting out: Engaging VA to access benefits and services"
+  - "Starting up: Finding something to do"
+  - "Reinventing myself: Acquiring appropriate education, new skills, and credentials"
+  - "Putting down roots: Taking care of my family"
+  - "Putting down roots: Engaging VA to access benefits and services"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/verify-your-enrollment/product-outline.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: Verify Your Enrollment"
+  - "PRDT: VYE"
+  - "PRDT: Education Benefits"
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "BNFT: Education"
+  - "BNFT: MGIB"
+  - "BNFT: Chapter 30"
+  - "BNFT: Chapter 1606"
+  - "BNFT: REAP"
+  - "BNFT: VRAP"
+  - "unmoderated"
+  - "remote"
+  - "authenticated"
+  - "card sort"
+  - "first-click testing"
+  - "Chalkmark"
+  - "OptimalSort"
+  - "evaluative research"
+  - "generative research"
+  - "information architecture"
+  - "navigation"
+  - "enrollment verification"
+  - "legacy modernization"
 ---
 
 # Research Plan for VFS, VYE-Verify Your Enrollment, March 2024

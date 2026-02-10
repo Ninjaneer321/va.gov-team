@@ -1,109 +1,136 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Benefits Team 1: Initial Decision CST Research, March 2023"
+date: 2023-03-14
+last_updated: 2023-03-14
+team: "Benefits Team 1"
+product: "Claim Status Tool (CST)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans are not fully satisfied with the claim status tool. They report it doesn't provide enough detail and they often feel like they're in the dark while waiting for updates about their claims."
+  product_location: "Claim Status Tool on VA.gov"
+  user_familiarity: "Iteration on existing product"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Co-design session, Semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand what information Veterans specifically want to know to stay informed as their claim goes through the initial decision process"
+  - goal_2: "Understand the experience Veterans have with requests to provide additional evidence and find opportunities to help Veterans provide better evidence earlier in the process"
+  - goal_3: "Understand the experience Veterans have with requests for C&P exams and find opportunities to set the right expectation for Veterans going to C&P exams"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What do participants typically use VA.gov for and how long have they been using it?"
+  - "What do Veterans think is the status of their claim when viewing CST?"
+  - "How clear is the status of the claim to Veterans on a scale of 1-5?"
+  - "Is there any action Veterans think they need to take, and what makes them think that?"
+  - "Do Veterans have a clear sense of what other actions will be required from them as the claim goes through the review process?"
+  - "How did Veterans know they had to do a C&P exam as part of the claim process?"
+  - "What is the most confusing part of the CST web page?"
+  - "What is the most helpful part of the CST web page?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The claim status information presented in the current CST UI is not informative enough for Veterans"
+  - "The main issue for Veterans is not the CST UI itself, but the amount of time it takes for the claim to get resolved"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "By the end of this study we will have a better idea of what is confusing about the CST experience, what is working well, and what are the top features or product improvements that might make CST more helpful for veterans awaiting claim decisions."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who currently have an open disability compensation claim"
+    - "Must be willing to log in and share screen with personal information"
+    - "Must have an authenticated VA.gov account"
+    - "6 Black veterans"
+    - "6 Hispanic veterans"
+    - "10 rural veterans"
+    - "10 veterans without a college degree"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Experience with C&P exams preferred"
+    - "Experience with receiving requests for additional claims evidence preferred"
+    - "Ideally 12-16 of study participants will have experiences with receiving requests for additional evidence or C&P exams, or both"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you currently waiting on the result of a disability compensation claim?"
+      qualifying_response: "Yes"
+    - question: "Have you received requests from the VA to provide additional evidence for your disability compensation claim?"
+      qualifying_response: "Yes (preferred but not mandatory)"
+    - question: "As a part of your claims process, did you have to undergo a claim exam (C&P exam or compensation and pension exam)?"
+      qualifying_response: "Yes (preferred but not mandatory)"
       
 participants:
-  veterans: 0
+  veterans: 20
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 20
+  completed_sessions_goal: 20
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-03-22"
+  pilot_participant: "Rocio de Santiago"
+  research_dates: "2023-03-27 to 2023-03-31"
+  research_review_submission: "2023-03-14"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans and their families can apply for all benefits online"
+    key_results: []
+  - objective: "Logged-in users can easily track applications, claims, or appeals online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "BNFT: Disability"
+  - "PRDT: Claim Status Tool"
+  - "PRDT: Track Claim Status"
+  - "AUD: Veterans"
+  - "DSC: Alert boxes"
+  - "DSP: Track application status"
+  - "DSP: Notifications and updates"
+  - "semi-structured-interviews"
+  - "co-design"
+  - "authenticated"
+  - "remote"
+  - "disability-compensation-claims"
+  - "evidence-submission"
+  - "CP-exams"
 ---
 
 # Research Plan for Benefits Team 1: Initial Decision CST Research

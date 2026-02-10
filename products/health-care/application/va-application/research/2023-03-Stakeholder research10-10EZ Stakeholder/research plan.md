@@ -1,109 +1,121 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Health Enrollment Team, 10-10EZ Stakeholder Research, March 2023"
+date: 2023-03-15
+last_updated: 2023-03-15
+team: "Health Enrollment Team"
+product: "10-10EZ Health Care Application"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans seeking to apply for VA health care face a lengthy online application (10-10EZ) with high cognitive load and information burden. OCTO is exploring options to reduce this burden by expanding Short Form flow to more Veterans and exploring integrations with IRS for income data and other systems for household data."
+  product_location: "VA.gov health care application (10-10EZ)"
+  user_familiarity: "Existing form that has been online for 6 years, recently updated with Short Form flow for Veterans with 50%+ disability rating"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/EZ(R)%20Update%20Capabilities/10-10EZR%20Product%20Brief%20(standalone%20form).md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Identify additional scenarios that can be eligible for Short Form flow (no household info needed)"
+  - goal_2: "Identify any additional updates needed for the Military Service pages, and appetite to remove the question"
+  - goal_3: "Learn about integration efforts with IRS or other data sources"
+  - goal_4: "Learn more about HEC processes to determine eligibility and enrollment"
+  - goal_5: "Learn more about pain points expressed by HEC and Veterans"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What other scenarios, besides >50% disability rating, can allow a Veteran to skip the Household section (financials)?"
+  - "How might we reduce the amount of information needed to determine eligibility and enroll a Veteran into health care?"
+  - "What is the bare minimum information needed for HEC processing?"
+  - "How is the additional military information used when processing an application?"
+  - "What outside sources (apart from the application) are used to verify Veteran information?"
+  - "What are some of the main reasons a Veteran is denied eligibility and/or enrollment?"
+  - "What are some of the pain points experienced by Veterans and HEC staff?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Additional scenarios beyond 50% disability rating exist that would allow Veterans to skip financial information"
+  - "HEC stakeholders have specific requirements for minimum data needed to process applications"
+  - "Integration with external data sources like IRS could reduce Veteran burden"
+  - "Military service information may not be critical for all eligibility determinations"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This data will help our team better understand requirements of the HEC processing team, identify our next iteration for Short Form flow, and consider questions to ask for integration efforts."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Direct recruitment"
+  approach: "Purposive sampling of HEC stakeholders"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "VA health care eligibility and enrollment SMEs"
+    - "Stakeholders within VA business offices responsible for 10-10EZ processing"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Representatives from multiple HEC locations"
+    - "Staff with different roles in the enrollment process"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you work with VA health care eligibility and enrollment?"
+      qualifying_response: "Yes"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 5
+  completed_sessions_goal: 3
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-03-20"
+  pilot_participant: "Internal team member"
+  research_dates: "2023-03-22 to 2023-04-05"
+  research_review_submission: "2023-03-15"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Increase the usage and throughput of VA services"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase completion rate of online transactions"
+      - "Increase percent of applications submitted online (vs. paper)"
+  - objective: "Decrease the time Veterans spend waiting for an outcome"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Reduce time from application to enrollment decision"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Starting up"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Previous 10-10EZ research and Short Form flow implementation"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: 10-10EZ"
+  - "PRDT: Health-care-application"
+  - "AUD: Stakeholders"
+  - "AUD: HEC-staff"
+  - "BNFT: Healthcare"
+  - "BNFT: PACT-Act"
+  - "RESRCH: Stakeholder-interviews"
+  - "RESRCH: Semi-structured"
+  - "RESRCH: Remote"
+  - "RESRCH: Moderated"
+  - "RESRCH: Discovery"
 ---
 
 ## Research Plan for 10-10EZ Stakeholders 

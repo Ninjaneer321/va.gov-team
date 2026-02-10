@@ -1,109 +1,131 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Health Enrollment Team, 10-10EZ Registration Only Generative Mental Model Study, September 2023"
+date: 2023-09-01
+last_updated: 2023-09-01
+team: "Health Enrollment Team"
+product: "10-10EZ Health Care Application"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The online health care application processes all applications as enrollment, but Veterans need a 'registration only' path for specific care scenarios. How can we enable Veterans who want to register for specific care levels to do so transparently while only asking for information required for their circumstance?"
+  product_location: "VA.gov health care benefits hub and application page (va.gov/health-care/apply/application/introduction)"
+  user_familiarity: "New product feature - exploring registration vs enrollment distinction"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/Registration"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Learn if Veterans who have recently started receiving health care benefits are aware of the terms and difference between registration and enrollment as it pertains to them and the process to getting the level of care they want/need"
+  - goal_2: "Learn more about Veteran's mental model when applying for health care benefits and the terms they use (apply, enroll, register, etc) and how they see levels of care during the health care application process"
+  - goal_3: "Learn more about how Veterans would like to go about applying, discovering eligibility and getting the most health care benefits they qualify for and what amount of information they need to provide in that process"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What is the experience of 'registering only' today?"
+  - "Are Veterans aware that they registered or just that they declined enrollment?"
+  - "What are the reasons a Veteran would decline to enroll in health care when completing the application?"
+  - "Are Veterans aware of the health care differences between enrollment and registration?"
+  - "What terms do Veterans use when describing if they are enrolled or registered for health care benefits?"
+  - "What is the Veteran's mental model of discovering, getting and keeping health care benefits as they go through the application process?"
+  - "What are the Veteran's current pain points with how the health care application impacts the overall benefits journey?"
+  - "What do Veterans expect from the order and process of applying (registering or enrolling) for health care benefits?"
+  - "When does it make sense to Veterans to go through eligibility based questions? (before, during or after application)"
+  - "What other applications/claims/VA services must Veterans interact with that could change their choice from registration to enrollment in the full medical benefits package?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will not use the term 'registration only' when referring to health care benefits, but will be familiar with enrollment and eligibility"
+  - "Veterans will use the term registration when they are talking about choosing their main VA medical facility for care, not applying for benefits"
+  - "Adding the term/step of 'registration' will add to the confusion around health care benefits"
+  - "Not all Veterans can complete the enrollment process in one go, that there are often stops, such as an exam and claims filed in between"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Gain understanding of the current problem space and Veteran's perception of registration and enrollment, check assumptions and terminology used to remain Veteran-centric, develop insights into an ideal state and how Veteran would prefer to navigate the health care benefits application journey, and guide direction in creating the registration flow hypothesis prototype for future studies."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "cohort-based recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Cohort 1: Veterans who visited a VA facility for a medical reason in the past year and chose not to enroll in health care benefits package"
+    - "Cohort 2: Veterans who applied within the past 3 years and are currently enrolled in and using their health care benefits"
+    - "Mix of participant ages with at least 4 participants over 55+"
+    - "At least 3, no more than 7, participants who are women"
+    - "All participants have less than a Bachelor's Degree education level"
+    - "No more than 2 participants who are White (mix of other demographics)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse demographic representation"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you visited a VA facility for a medical reason in the past year and choose not to enroll in the health care benefits package?"
+      qualifying_response: "Yes for Cohort 1"
+    - question: "Have you applied within the past 3 years and are currently enrolled in and using your health care benefits?"
+      qualifying_response: "Yes for Cohort 2"
       
 participants:
-  veterans: 0
+  veterans: 16
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 16
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-09-12"
+  pilot_participant: "TBD"
+  research_dates: "2023-09-13 to 2023-09-25"
+  research_review_submission: "2023-09-01"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhance Veterans' personalized online experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Enable Veterans to access appropriate levels of health care based on individual needs"
+  - objective: "Fast-track disability claims, starting with PACT Act claims"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Support Veterans navigating health care in conjunction with disability claims"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Health care application"
+  - "PRDT: 10-10EZ"
+  - "PRDT: Registration"
+  - "research-method: interviews"
+  - "research-method: semi-structured"
+  - "research-method: moderated"
+  - "research-method: generative"
+  - "mental-models"
+  - "health-enrollment"
+  - "terminology"
+  - "eligibility"
+  - "service-connected"
 ---
 
 # Research Plan for "registration only" generative mental model study [Health Enrollment Team, 10-10EZ, August 2023]

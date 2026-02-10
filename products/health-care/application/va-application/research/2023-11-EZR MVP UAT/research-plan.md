@@ -1,109 +1,139 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Health Enrollment Team, 10-10EZR MVP UAT, November 2023"
+date: 2023-11-01
+last_updated: 2023-11-01
+team: "Health Enrollment Team"
+product: "10-10EZR Health Benefits Update Form"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans who want to provide updates to their personal information for increasing or maintaining their health benefits are burdened with manual processes of calling VA, mailing in a paper form and/or visiting a facility. This is driven by the lack of an online experience and pathway to provide these updates at a more convenient time and place for the Veteran."
+  product_location: "My Health section of VA.gov (va.gov/my-health/update-benefits-information-form-10-10ezr)"
+  user_familiarity: "New product - first online version of previously paper-only form (similar to 10-10EZ)"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/EZ(R)%20Update%20Capabilities/10-10EZR%20Product%20Brief%20(standalone%20form).md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Wayfinding - Determine ease of wayfinding to the new 10-10EZR form and test the path to entering the form to see if Veterans understand how to update their information"
+  - goal_2: "Intro page content - Evaluate effectiveness of intro page content to see if it is clear to Veterans which form to fill out, the 10-10EZ vs. 10-10EZR"
+  - goal_3: "Small usability tweaks - Capture any issues through UAT of the form for any small tweaks needed before launch and determine if Veterans are able to successfully fill out the form"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are participants able to find their way to the 10-10EZR?"
+  - "Is the wayfinding, such as the breadcrumbs and the form placement, clear to participants?"
+  - "Do participants understand that they need to fill out a form to update their information?"
+  - "Is any of the content unclear or does it confuse participants, rather than make them more comfortable with starting the form?"
+  - "Is there any reason why participants would not fill out the form?"
+  - "How do participants move through the form? Are there any blockers or points where they get stuck?"
+  - "Does any of the form content stand out or distract participants?"
+  - "Are participants able to complete the form without major issue?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Participants will understand that some information is prefilled and will be able to update and submit the information"
+  - "Participants may be frustrated if they want to only update one section of the form vs. multiple sections because they will have to go through the form linearly"
+  - "Participants will understand they need to update information"
+  - "Participants will know what they need to do based on the intro page on the form"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Evaluate for additional gaps during the rollout of new form to production. Findings and recommendations will be categorized as blockers or items that can be addressed in future iterations."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All must be currently enrolled in VA health care benefits"
+    - "At least 2 are using a mobile device during the session"
+    - "Diverse mix of age ranges, no more than 2 per age group"
+    - "At least 2 participants with cognitive disabilities"
+    - "At least 2 participants who are Black"
+    - "At least 2 participants who are Hispanic"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of device types (mobile and desktop)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you currently enrolled in VA health care benefits?"
+      qualifying_response: "Yes"
+    - question: "Are you able to join the Zoom session from a smart phone such as a Samsung Galaxy or Apple iPhone?"
+      qualifying_response: "Yes for 2 mobile users"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Yes for 2 cognitive disability participants"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-11-08"
+  pilot_participant: "Steven Straily"
+  research_dates: "2023-11-13 to 2023-11-22"
+  research_review_submission: "2023-11-01"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Increase completion rate of online transactions"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase percent of applications submitted online (vs. paper)"
+  - objective: "Increase usage of digital, self-service tools"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Veterans can update health benefits information online"
+  - objective: "Enhance Veterans' personalized online experience"
+    key_results:
+      - "Veterans can maintain their health benefits at convenient times and places"
+  - objective: "Fast-track disability claims, starting with PACT Act claims"
+    key_results:
+      - "Support Veterans maintaining health care benefits related to PACT Act"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Health care application"
+  - "PRDT: 10-10EZR"
+  - "PRDT: Update form"
+  - "MHV: My Health"
+  - "research-method: usability-testing"
+  - "research-method: moderated"
+  - "research-method: UAT"
+  - "research-method: evaluative"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "authenticated-experience"
+  - "wayfinding"
+  - "cognitive-disability"
+  - "form-design"
+  - "content-design"
 ---
 
 # Research Plan for UAT of the new Health Enrollment Update Form (10-10EZR), November 2023

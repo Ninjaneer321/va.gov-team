@@ -1,109 +1,130 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Veterans Support Team, Resources and Support, Rate your experience feedback mechanism"
+date: 2023-10-16
+last_updated: 2023-10-16
+team: "Veterans Support Team"
+product: "Resources and Support"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Users can rate R&S articles as 'good' or 'bad', but when rating as 'bad', there is no mechanism for users to report specific problems or reasons. Content owners need actionable feedback to improve articles."
+  product_location: "Resources and Support article pages on VA.gov"
+  user_familiarity: "Iteration on existing Rate your experience feedback mechanism"
+  product_brief_url: "https://app.zenhub.com/workspaces/contact-center-62cdd9546ec1530018209672/issues/gh/department-of-veterans-affairs/va.gov-team/65148"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate that users are able to easily use the Rate Feedback mechanism to provide feedback on article pages and report an appropriate problem"
+  - goal_2: "Assess whether users can easily navigate and discover the rate your experience feedback mechanism on article pages"
+  - goal_3: "Determine if the question 'How would you rate your experience' is a helpful title that tells users what they will find"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are users able to find where they can rate and report feedback?"
+  - "What do users expect to see after they submit feedback?"
+  - "In what situation would a user rate this page? Why would they rate it 'good', why would they rate it 'bad'?"
+  - "Does the wording make sense? If not, what should it say?"
+  - "Do the options under 'How would you rate your experience' make sense to users?"
+  - "What other types of problems would they expect to report?"
+  - "What do users think about the amount of issues presented to them? Is the amount overwhelming?"
+  - "What are their perceptions on the difference between this feedback tool and Medallia?"
+  - "Do users utilize rate your experience feedback mechanism on the article pages?"
+  - "Do users utilize the feedback button near the footer on the article pages?"
+  - "What do users think of the title, 'How would you rate your experience'?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will not know the purpose of the rate your experience feedback mechanism"
+  - "The good/bad buttons that are currently used to track feedback are not helpful as the data is recorded in Google Analytics"
+  - "Users will be more likely to use the feedback button near the footer to leave feedback on the Article page"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Confirm whether updates allow users to provide actionable feedback for content editors to improve R&S articles, whether navigation and discoverability are improved, and whether the naming accurately informs users of content"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "50% of participants should be able to participate from a desktop device"
+    - "50% of participants should be able to participate from a mobile phone"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "8 women, 8 men"
+    - "3 participants who use assistive technology (e.g. screen reader, magnification)"
+    - "10 participants who identify as other than white"
+    - "5 participants who identify as other than straight/heterosexual and cisgender"
+    - "8 participants age 55+"
+    - "8 participants who identify as having a cognitive disability"
+    - "5 participants who do not have a college degree"
+    - "5 participants who live in a rural area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: ""
+      qualifying_response: ""
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-10-15"
+  pilot_participant: "TBD"
+  research_dates: "2023-10-16 to 2023-10-23"
+  research_review_submission: ""
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improve Resources and Support to allow Veterans and their support system to find information on utilizing their VA.gov account"
+  - objective: "Veterans and their families trust the security, accuracy, and relevancy of VA.gov"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Enable actionable feedback from users to improve content quality"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/resources-and-support/initiatives/2022-01-article-pages/discovery.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/69833737d9fe22b8990bb987e7c50de13205c5d5/products/content/tier-2-content-IA-and-design/learning-center-mvp/discovery-and-research"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/content/tier-2-content-IA-and-design/learning-center-mvp/discovery-and-research/learning-center-mvp-findings-summary.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: Resources and support"
+  - "PRDT: Content"
+  - "DSP: Feedback mechanisms"
+  - "research-method: usability-testing"
+  - "research-method: moderated"
+  - "device: desktop"
+  - "device: mobile"
+  - "assistive-technology"
+  - "cognitive-disability"
 ---
 
 #  Research Plan for Veterans Support Team, Resources and Support, Rate your experience feedback mechanism.

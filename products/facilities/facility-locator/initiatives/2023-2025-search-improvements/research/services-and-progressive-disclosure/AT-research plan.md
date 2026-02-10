@@ -1,109 +1,133 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Sitewide, Facility Locator Progressive Disclosure and Autosuggest (AT), January 2026"
+date: 2026-01-15
+last_updated: 2026-01-15
+team: "Sitewide"
+product: "Facility Locator"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans and their families need a more efficient way to find specific VA health services using the facility locator. Long dropdown lists make navigation slow, and the current experience lacks progressive disclosure to reduce visual complexity."
+  product_location: "VA.gov facility locator tool (https://www.va.gov/find-locations/)"
+  user_familiarity: "Iteration on existing facility locator with new autosuggest and progressive disclosure features"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/facility-locator"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Confirm that Veterans and their families who utilize assistive technology are able to find VA Health services using the AutoSuggest feature and measure ease of use (SEQ) for desktop and mobile"
+  - goal_2: "Confirm that the progressive disclosure pattern does not interfere with finding the right facility"
+  - goal_3: "Identify barriers Veterans might face when using the facility locator services search including confusing language, interaction patterns, or instructional content"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans and their families understand how to use the autosuggest feature to find VA Health facilities?"
+  - "Do Veterans and their families know intuitively what terms to use when typing in the autosuggest feature for service types?"
+  - "Do Veterans and their families understand the service types that populate when typing in the autosuggest field?"
+  - "Do Veterans and their families understand that the service type field narrows their search results?"
+  - "Do Veterans and their families understand why the service type field is conditionally revealed?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The service type field for VA Health facilities is intuitive, allowing Veterans and their families to find desired services by navigating a drop-down or using the autosuggest feature"
+  - "Assistive technology users are able to use the autosuggest feature with no issues"
+  - "Progressive disclosure functionality reduces visual complexity without confusing users"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Learning will provide better understanding of how Veterans who use assistive technology interact with the facility locator tool and its autosuggest and progressive disclosure features. We will identify accessibility barriers and ensure compliance with WCAG standards."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation sampling with focus on assistive technology users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "ALL must use a screen reader or screen magnifier every time they access the Internet (2 screen readers and 2 screen magnifiers)"
+    - "At least 2 have previously used the facility locator"
+    - "At least 2 have NOT previously used the facility locator"
+    - "At least 2 have a smartphone to use for the session with Zoom and screen sharing capabilities"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 person who is age 55 or older"
+    - "At least 1 person who is LGBTQ+"
+    - "At least 1 person 35 or under"
+    - "At least 1 person of color"
+    - "At least 1 person who doesn't have any degree or vocational training after high school"
+    - "At least 1 person who lives in a rural or remote area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you use a screen reader or screen magnifier every time you use the Internet?"
+      qualifying_response: "Yes, and have been using for 2+ years"
+    - question: "Have you searched for a VA location using the VA facility locator?"
+      qualifying_response: "Mix of yes and no responses"
       
 participants:
-  veterans: 0
+  veterans: 3
   caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  dependents: 1
+  total_recruited: 8
+  completed_sessions_goal: 4
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2026-02-04"
+  pilot_participant: "ADE team member"
+  research_dates: "2026-02-11 to 2026-02-13"
+  research_review_submission: "2026-02-03"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 90
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Increase user satisfaction with facility locator"
+      - "Improve accessibility for assistive technology users"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Reinventing myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
+  - "Dying"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/406"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/mobile-map/2025-03-interim-findings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/1249"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: Facility-locator"
+  - "DSC: Form-controls"
+  - "DSP: Autosuggest"
+  - "DSP: Progressive-disclosure"
+  - "AUD: Veterans"
+  - "AUD: Family-members"
+  - "BNFT: Healthcare"
+  - "HDW: Screen-reader"
+  - "HDW: Screen-magnifier"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "RESRCH: Usability"
+  - "RESRCH: Remote"
+  - "RESRCH: Moderated"
+  - "RESRCH: Accessibility"
 ---
 
 # Assistive Tech [AT] - Research Plan for Facilities, Progressive Disclosure and Autosuggest, January 2026

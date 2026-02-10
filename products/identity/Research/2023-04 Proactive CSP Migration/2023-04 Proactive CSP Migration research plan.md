@@ -1,109 +1,146 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Identity, Proactive CSP Migration, 2023-04"
+date: 2023-04-24
+last_updated: 2023-04-24
+team: "Identity Team - Login.gov Adoption"
+product: "Login.gov Adoption - Proactive CSP Migration"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Multiple credential service providers (CSPs) exist that don't meet required security standards, creating user frustration and confusion. Need to migrate Veterans from legacy CSPs (DS Logon and My HealtheVet) to Login.gov or ID.me, focusing on promoting organic adoption ahead of sunsetting legacy credentials."
+  product_location: "VA.gov sign-in flow and authenticated experience"
+  user_familiarity: "New - proactive migration encouragement through modal"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/login.gov-adoption/products/login.gov"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing with interview questions"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test the usability of a modal prototype that encourages veterans to signup for a login.gov account"
+  - goal_2: "Identify which terms are most understandable and resonate most when describing identity concepts like verified (ID proofed) account and authentication"
+  - goal_3: "Find out best ways to encourage more veterans to migrate CSPs now, even before sunsetting of legacy accounts"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Is the modal useful in encouraging organic adoption of a modern CSP?"
+  - "Would any changes make the modal more helpful or more encouraging?"
+  - "What word or phrase will best convey to veterans the concept of 'ID proof' or 'verified account'?"
+  - "How might we encourage more veterans to migrate their CSP now, on their own, before sunsetting forces it?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will have a term or phrase for concepts like 'verified account' that we can use to better speak to the process"
+  - "Most veterans will not understand how CSPs are different from their account"
+  - "Some veterans will be motivated to migrate from a legacy CSP with some encouragement, like the modal prototype"
+  - "Most veterans will choose to ignore the modal their first time seeing it"
+  - "Veterans will be more likely to choose not to set up a Login.gov account from their mobile device"
+  - "Veterans will choose to continue to use their current (legacy) credential unless they are given a deadline or told that their credential is going away soon"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Learn the best words or phrases to use so that veterans understand the difference between their current CSP and the CSP we are asking them to migrate to. Validate modal prototype's effectiveness and identify optimal timing and placement to encourage migration before disruption of service."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation sampling targeting underrepresented groups from previous Identity research (mobile users, cognitive disability, immigrant origin, LGBTQ+)"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be Veterans"
+    - "Must have signed into a VA application (including VA.gov, My HealtheVet, eBenefits, or VA mobile app) in the last 6 months"
+    - "Must sign into VA applications using either DSLogon or My HealtheVet login methods"
+    - "Must NOT log into VA applications using Login.gov or ID.me credentials"
+    - "Must have computer and be willing to complete session on this device"
+    - "Must be willing to share web browser window"
+    - "Must have working microphone"
+    - "Must have Zoom downloaded and know how to share screen"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Cognitive Disability - 5 participants"
+    - "LGBTQ+ - 2 participants"
+    - "Immigrant origin - 2 participants"
+    - "Must access and manage VA benefits and health care from a mobile phone"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you ever access and manage your VA benefits and health care from a mobile phone?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-04-21"
+  pilot_participant: "TBD"
+  research_dates: "2023-04-24 to 2023-05-05"
+  research_review_submission: "2023-04-17"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can apply for all benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Ensure continued access to benefits through modern, secure authentication"
+  - objective: "Veterans can manage their health services online"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Maintain uninterrupted access through CSP migration"
+  - objective: "Veterans and their families trust the security, accuracy, and relevancy of VA.gov"
+    key_results:
+      - "Migrate to more secure authentication standards"
+  - objective: "Decrease call center volume, wait time, and time to resolution"
+    key_results:
+      - "Proactive migration reduces support burden during sunsetting"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/235 (2023-02-Grandfathering-Migration-Round-1-Usability)"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/185 (2022-10 Research LoginGov Field Research)"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/157 (2022-07 MHV transition to Login.gov)"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/156 (2022-07 Login Self-Service Tool)"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/93 (2022-03 Sign-In Accessibility)"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: Sign-in"
+  - "PRDT: Login.gov"
+  - "AUD: Veterans"
+  - "usability testing"
+  - "authentication"
+  - "sign-in"
+  - "CSP migration"
+  - "Login.gov"
+  - "DS Logon"
+  - "My HealtheVet"
+  - "ID.me"
+  - "identity verification"
+  - "security"
+  - "cognitive disability"
+  - "LGBTQ+"
+  - "immigrant origin"
+  - "identity"
+  - "modal"
+  - "HDW: Desktop"
 ---
 
 # Research Plan for Identity, Proactive CSP Migration, 2023-04

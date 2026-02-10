@@ -1,109 +1,142 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for MHV on VA.gov, Medications, July 2023"
+date: 2023-07-14
+last_updated: 2023-07-14
+team: "Digital Health Modernization"
+product: "MHV on VA.gov - Medications"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "As part of Digital Health Modernization strategy, My HealtheVet is being moved to VA.gov to create a centralized place for Veterans to access their health information. This initial round tests a prototype of the Medications feature on MHV on VA.gov."
+  product_location: "My Health section of VA.gov - Medications"
+  user_familiarity: "New product - Round 1 usability testing with prototype"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand if Veterans can locate and fill/refill their medications"
+  - goal_2: "Identify any usability issues Veterans may experience with understanding the status of their medications"
+  - goal_3: "Identify any usability issues Veterans may experience with managing their medications"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are Veterans able to find the information they need to fill/refill their prescriptions?"
+  - "Can Veterans find and identify the correct prescription they need?"
+  - "Do Veterans understand how to complete the steps to submit a refill?"
+  - "Do Veterans know that their refill request submission was successful?"
+  - "Are Veterans able to understand the statuses of their prescriptions?"
+  - "Do Veterans understand the status of a submitted order?"
+  - "Do Veterans understand how to find information on what to do when a prescription is not refillable?"
+  - "Do veterans understand when a prescription has not yet been filled?"
+  - "How do Veterans interpret 'expired'?"
+  - "Are Veterans able to find the information they need to manage and understand their prescriptions?"
+  - "Can Veterans find the physical description and image of their prescriptions?"
+  - "Can Veterans find the reason for use for their prescriptions?"
+  - "Do Veterans understand how to print their medication list?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Most Veterans will be able to find the information they need to fill/refill their prescriptions"
+  - "Most Veterans will understand the statuses of their medications"
+  - "Most Veterans will be able to find the information they need to manage and understand their medications"
+  - "Some Veterans will confuse 'fill prescription' with 'refill prescription'"
+  - "Some Veterans will be confused by the connotation of 'expired prescription'"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The results will help determine if our designs provide the best user experience for Veterans to manage and view their medications and identify any pain points. This will inform later iterations of the design."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation - explicitly NOT recruiting assistive technology users due to prototype limitations"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Age distribution: 75+ (5), 65-74 (8), 55-64 (4), 35-54 (5), 18-34 (2)"
+    - "Education distribution across all levels"
+    - "12 frequent MHV users, 12 never used MHV"
+    - "8 participants with cognitive disability"
+    - "Demographic diversity"
+    - "6 rural, 18 urban"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of mobile, desktop, and tablet users"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "How often have you used My HealtheVet during the past year?"
+      qualifying_response: "2-3 times a month or more than 3 times a month (for frequent MHV users)"
+    - question: "Have you been diagnosed as someone with a Cognitive Disability?"
+      qualifying_response: "Yes (recruit at least 8)"
+    - question: "What type of device will you be using to connect to Zoom?"
+      qualifying_response: "Desktop/Laptop, Smartphone (Android or iPhone), or Tablet (Android or iPad)"
       
 participants:
-  veterans: 0
+  veterans: 24
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 24
+  completed_sessions_goal: 18
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-07-14"
+  pilot_participant: "TBD - handled internally"
+  research_dates: "2023-07-17 to 2023-08-01"
+  research_review_submission: "2023-07-14"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Veterans can successfully refill and manage their medications online"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Centralized health information access on VA.gov"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Personalized medication management experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Cognitive-Disability"
+  - "BNFT: Healthcare"
+  - "MHV: Medications"
+  - "MHV: Pharmacy"
+  - "PRDT: MHV-on-VA.gov"
+  - "RESRCH: Usability"
+  - "RESRCH: Remote"
+  - "RESRCH: Prototype"
+  - "HDW: Desktop"
+  - "HDW: Mobile"
+  - "authenticated"
+  - "prescriptions"
+  - "refills"
+  - "medication-management"
+  - "digital-health-modernization"
 ---
 
 # **Research Plan for MHV on VA.gov, Medications, July 2023**

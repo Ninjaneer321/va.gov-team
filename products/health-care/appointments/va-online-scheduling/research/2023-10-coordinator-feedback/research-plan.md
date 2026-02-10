@@ -1,109 +1,109 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for MHV and MVH Coordinator Feedback, October 2023"
+date: 2023-10-01
+last_updated: 2023-10-01
+team: "VA Online Scheduling (VAOS)"
+product: "VA Online Scheduling"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Understand the scope of appointments process that MHV and My VA Health Coordinators help Veterans with, identify common issues, and inform approach to provider-based scheduling"
+  product_location: "Health applications coordinators support (MHV and My VA Health)"
+  user_familiarity: "Research with coordinators rather than end users"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote moderated interviews with coordinators"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Learn what scope of the appointments process MHV and My VA Health Coordinators help Veterans with"
+  - goal_2: "Learn about common issues they face when helping Veterans schedule appointments and find new health care providers"
+  - goal_3: "Build connections with Coordinators to get future feedback"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where do Coordinators help Veterans the most across the journey of an appointment (finding facility, finding provider, scheduling, navigation, check-in, after visit, travel pay)?"
+  - "What areas do they help in the most and what help do they provide?"
+  - "What are the biggest pain points in finding/enrolling in facility, finding provider, and scheduling appointment?"
+  - "If they are a My VA Health Coordinator, what unique problems do they run into?"
+  - "How would they prefer to be involved in conversations in the future?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Coordinators provide valuable insights into common Veteran pain points across the appointment journey"
+  - "There are unique challenges for My VA Health Coordinators versus MHV Coordinators"
+  - "Coordinators can identify key areas for improvement in scheduling and provider selection"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify key pain points in appointments process and inform approach to improving provider-based scheduling, while building ongoing feedback relationships with coordinators"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Direct outreach to MHV and My VA Health Coordinators"
+  approach: "Purposive sampling of coordinators"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "MHV Coordinators who help Veterans with appointments"
+    - "My VA Health Coordinators who help Veterans with appointments"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of coordinators from different facilities"
+    - "Coordinators with varying levels of experience"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you regularly help Veterans with scheduling appointments or navigating health applications?"
+      qualifying_response: "Yes"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-11-01"
+  pilot_participant: "TBD"
+  research_dates: "2023-11-01 to 2023-11-30"
+  research_review_submission: "2023-10-15"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Reduce pain points in scheduling process"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling/research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "VAOS"
+  - "appointments"
+  - "coordinators"
+  - "stakeholder-interviews"
+  - "generative"
+  - "health-care"
+  - "provider-scheduling"
 ---
 
 # Research Plan for MHV and MVH Coordinator Feedback

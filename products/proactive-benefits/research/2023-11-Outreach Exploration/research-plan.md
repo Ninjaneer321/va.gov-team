@@ -1,109 +1,129 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Proactive Benefits Outreach Exploration, November 2023"
+date: 2023-11-01
+last_updated: 2023-11-01
+team: "Proactive Benefits"
+product: "Proactive Benefits - PACT Act Outreach"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans with active cancers presumptively related to their service under the PACT Act may not be aware of their eligibility for disability compensation and are missing out on benefits they are entitled to receive."
+  product_location: "Outreach communications (letter-based) to connect Veterans with VA.gov disability compensation filing"
+  user_familiarity: "New proactive outreach initiative"
+  product_brief_url: "https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/Shared%20Documents/Proactive%20Benefits/Brief-701b%20Active%20Cancers%20Use%20Case.docx"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate assumptions regarding areas of improvement for the letter and test Veteran comprehension and reaction"
+  - goal_2: "Build on our current understanding of Veteran's communication preferences"
+  - goal_3: "Deepen our understanding of the experience of this cohort of Veterans and find out how they might respond to this outreach"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Is the length of the letter impacting readability and Veteran comprehension?"
+  - "Is the call to action clear and compelling?"
+  - "Do Veterans understand the contents of the outreach letter?"
+  - "What are Veteran perceptions of different forms of communication (letter vs. email vs. text)?"
+  - "What is this cohort's awareness level of the PACT Act?"
+  - "How might Veterans respond to targeted outreach based on their medical records?"
+  - "What role might caregivers play in this experience?"
+  - "How do we build trust with Veterans in this interaction?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans are unfamiliar with changes in eligibility as a result of the PACT Act becoming law"
+  - "Veterans may be confused by or uncomfortable with targeted outreach based on access to their medical records"
+  - "The call to action in the outreach letter is clear and compelling"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Inform our outreach format, content and strategy; deepen understanding of Veteran communication preferences and perceptions; identify barriers and opportunities to streamline the experience from proactive notification to filing a claim; provide recommendations for the project roadmap"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment with cancer diagnosis requirement"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans with active cancer diagnosis, prior cancer, or rated on cancer residuals"
+    - "At least half (ideally all) must have Gulf War service history"
+    - "At least 2 people have never filed a disability claim before"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "1-2 people must identify as female"
+    - "1-3 people with identified cognitive consideration"
+    - "2-3 people identify as Black, Hispanic, Asian, Biracial, or Native"
+    - "At least 3 people over 55 and 3 people under 55"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have Gulf War service history?"
+      qualifying_response: "Yes (aiming for at least half)"
+    - question: "Cancer diagnosis status (active, past, or VA rated on residuals)"
+      qualifying_response: "Any of options A-C qualify"
+    - question: "Have you filed a disability claim before with the VA?"
+      qualifying_response: "Mix of yes and no responses"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-11-13"
+  pilot_participant: "TBD"
+  research_dates: "2023-11-14 to 2023-11-21"
+  research_review_submission: "2023-10-31"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Enhance Veteran's personalized online experience"
+    key_results: []
+  - objective: "Fast-track disability claims, starting with PACT Act claims"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Getting out"
+  - "Starting up"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
+  previous_studies: []
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: disability-compensation"
+  - "BNFT: disability"
+  - "BNFT: health-care"
+  - "AUD: veterans"
+  - "RESRCH: interviews"
+  - "RESRCH: qualitative"
+  - "RESRCH: exploratory"
+  - "pact-act"
+  - "proactive-benefits"
+  - "outreach"
+  - "communication-preferences"
+  - "gulf-war"
+  - "cancer"
+  - "health-conditions"
 ---
 
 # Research Plan for Proactive Benefits, November 2023

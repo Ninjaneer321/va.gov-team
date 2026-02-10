@@ -1,109 +1,147 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for 1010 Team, Caregiver Application (10-10CG) Facilities and Overall Usability Study, April 2023"
+date: 2023-04-01
+last_updated: 2023-04-01
+team: "1010 Team"
+product: "Family Caregiver Benefits Application (10-10CG)"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The VA medical facility selection page causes confusion for users. Users are confused about why their familiar facility isn't listed, uncertain which facility to specify, and state border issues create additional complexity. The team needs to update the facility API and improve the search functionality while maintaining clarity around Caregiver Support Coordinator locations."
+  product_location: "VA.gov - Family Member Benefits - Apply for Caregiver Assistance"
+  user_familiarity: "Iteration on existing product - testing updates to facilities question and overall form usability"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/10-10CG%20Caregiver%20application%20product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Discover if the facility content updates are clear and understandable for participants"
+  - goal_2: "Determine if the facility search functionality is easy to use and accessible"
+  - goal_3: "Discover what is easy or difficult to complete on the form and why"
+  - goal_4: "Obtain an understanding of the usability of the form overall, how tasks from this study compares to past research findings and future design iterations"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Is the new version of the facility question easy to understand and answer with little confusion?"
+  - "Does the new version result in clarifying questions or additional information needed to complete?"
+  - "Is the new version easy for participants to understand why they are selecting a facility and how it impacts the caregiver application process?"
+  - "Does the confirmation screen after selection add any additional confusion or result in clarifying questions?"
+  - "Are users able to navigate through the facility selection without difficulty?"
+  - "Do participants know what to input in the text search field?"
+  - "Can users easily use the search input and understand what choices are populated from that search?"
+  - "Is it clear how to reselect a facility if one is selected in error?"
+  - "How do screen reader participants respond to the confirmation pages?"
+  - "What questions on the form cause the participant the most pause or confusion?"
+  - "What questions on the form does the participant appear to answer quickly, easily and correctly?"
+  - "At what points in the form do participants ask clarifying questions?"
+  - "What tasks do participants seem to do consistently well on or that they consistently struggle?"
+  - "What are the recurring pain points across participants?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will understand what they are selecting on the facilities page and how that impacts the caregiver application process. The participants will find the confirmation page to be helpful and informative and it will not add more complexity or confusion."
+  - "Users will be able to navigate through the facility selection relatively easily, but might have issues with understanding the difference between community and VA facilities/Caregiver Support Facilities, the number of results shown, a desire to filter results and how to filter, and not recognizing the name of the facility they are looking for/overlooking address."
+  - "Participants in this study will also echo previous research findings around confusion about who qualifies as a primary or secondary caregiver and why certain information is asked, such as insurance, or how it impacts the application."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will test the updates to the VA Facility question content, page flow and search functionality to make sure they are understandable and accessible. Secondly, this research will provide a qualitative understanding of the overall usability of this application by both Veterans and Caregivers. We will use the findings from this study combined with key insights from previous studies to guide and compare future design iterations."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation - mix of Veterans, Caregivers, and family members"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must be able to use Zoom, locate and use the chat function in Zoom, and to share their screen through Zoom"
+    - "At least 3 Veterans over the age of 55"
+    - "At least 3 Veterans with cognitive disability"
+    - "At least 3 Veterans who plan to use screen reader assistive technology for the session"
+    - "At least 3 Veterans who plan to use their mobile device for the session"
+    - "At least 4 female Caregivers/Family Members"
+    - "At least 4 Caregivers/Family Members with GED/High School or Some College"
+    - "At least 4 Caregivers/Family Members using a mobile device"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse branch of service"
+    - "35% or more women"
+    - "Disability rating of 50% or higher representative of applicant demographics"
+    - "Diverse education levels"
+    - "Diverse race"
+    - "Diverse geography"
+    - "Rural density representation"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you need to use assistive technology to use the internet such as VoiceOver on an Apple device, TalkBack on an Android device, or JAWS on a computer?"
+      qualifying_response: "Yes (for screen reader users)"
+    - question: "Are you able to join the Zoom session using this assistive technology?"
+      qualifying_response: "Yes (for screen reader users)"
+    - question: "Are you able to join the Zoom session from a smart phone such as a Samsung Galaxy or Apple iPhone?"
+      qualifying_response: "Yes (for mobile users)"
       
 participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  veterans: 9
+  caregivers: 9
+  dependents: 2
+  total_recruited: 30
+  completed_sessions_goal: 20
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD 2023"
+  pilot_participant: "TBD"
+  research_dates: "TBD 2023"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can apply for all benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Increase completion rate of online transactions"
+      - "Increase usage of digital, self-service tools"
+      - "Decrease time to successfully complete and submit online transactions"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/Improve%20Facility%20Selection/Improve%20Facility%20Selection%20-%20Initiative%20Brief.md"
+    - "https://www.sketch.com/s/5a676881-7aa8-4054-9b6e-34d86ced43d8/a/eK1L73z (Past research insights wireflow)"
+    - "https://www.sketch.com/s/5a676881-7aa8-4054-9b6e-34d86ced43d8/a/agdoOoP (Key tasks wireflow)"
+    - "February 2021 and April 2021 usability studies"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: Caregiver"
+  - "PRDT: 10-10CG"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family members"
+  - "BNFT: Family member benefits"
+  - "usability testing"
+  - "moderated"
+  - "remote"
+  - "facility selection"
+  - "form navigation"
+  - "accessibility"
+  - "screen reader"
+  - "mobile"
+  - "cognitive disability"
+  - "evaluative research"
 ---
 
 # Research Plan for [1010 Team, Caregiver Application (10-10CG) Facilities and Overall Usability Study, April 2023]

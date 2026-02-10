@@ -1,109 +1,119 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for MHV on VA.gov Secondary Navigation, October/November 2023"
+date: 2023-10-30
+last_updated: 2023-10-30
+team: "Digital Health Modernization"
+product: "My HealtheVet on VA.gov"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Understand if the current VA.gov secondary navigation and breadcrumbs work on MHV on VA.gov and how to improve navigational strategies"
+  product_location: "MHV on VA.gov health tools and landing page"
+  user_familiarity: "New navigation implementation on existing MHV product"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote moderated interviews with navigation tasks"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Better understand how Veterans expect to navigate MHV on VA.gov"
+  - goal_2: "Develop the most effective navigational strategy for the product"
+  - goal_3: "Identify what works and what doesn't with current secondary navigational strategies"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How does the current VA.gov secondary navigational pattern align with Veterans' expectations for MHV on VA.gov?"
+  - "In what situations might a Veteran want to navigate back to the MHV on VA.gov landing page?"
+  - "In what situations might a Veteran want to jump directly from one tool to another?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users want to be able to navigate every part of MHV on VA.gov easily regardless of where they are"
+  - "Mobile users will likely struggle with current secondary navigation because 'in this section' is not noticeable"
+  - "Users might have trouble differentiating the primary menu from the secondary menu"
+  - "Users might want to click on VA.gov home when they want to get back to the MHV landing page because the MHV landing page link is hidden"
+  - "Users might only rely on secondary navigation and overlook breadcrumbs and direct links"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will inform how Veterans navigate health tools on MHV on VA.gov and help make improvements to secondary navigational strategies"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Purposive sampling for MHV users on mobile"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must currently receive VA healthcare benefits"
+    - "Must have an active MHV account accessed at least once in the past 12 months"
+    - "All mobile users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of frequent and infrequent MHV users"
+    - "At least 5 participants older than 55"
+    - "At least 5 participants with some college or less as terminal degree"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "How often have you used VA.gov in the past 6 months?"
+      qualifying_response: "Never used it, 1-3 times (not more than 3 times a month)"
+    - question: "How often do you use MyHealtheVet?"
+      qualifying_response: "Once a month or more frequently"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 8
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-11-06"
+  pilot_participant: "TBD"
+  research_dates: "2023-11-20 to 2023-11-27"
+  research_review_submission: "2023-10-30"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "MHV"
+  - "health-care"
+  - "navigation"
+  - "secondary-nav"
+  - "breadcrumbs"
+  - "mobile"
+  - "interviews"
+  - "authenticated"
+  - "veterans"
 ---
 
 # Research Plan for MHV on VA.gov secondary navigation, October/November 2023

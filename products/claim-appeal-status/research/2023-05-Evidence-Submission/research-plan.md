@@ -1,109 +1,124 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Benefits Team 1: Evidence Submission Usability Testing, June 2023"
+date: 2023-06-01
+last_updated: 2023-06-01
+team: "Benefits Team 1"
+product: "Claim Status Tool (CST)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans don't have a good understanding of what type of evidence to submit for claims, and once the claim is in progress they are anxious about whether there is anything they need to do to improve the likelihood of a favorable outcome. We need to make it clearer what actions Veterans need to take to support their claim."
+  product_location: "Claim Status Tool on VA.gov"
+  user_familiarity: "Iteration with Track 1 near-term UX and accessibility updates"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess the usability of CST design proposals for Veterans"
+  - goal_2: "Uncover any additional ideas we should pursue to improve the evidence submission experience for Veterans in CST"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does this new design make it easier for Veterans to understand when they have an evidence submission request in CST?"
+  - "Are Veterans better able to understand exactly what the evidence request is and how to act on it?"
+  - "Does including the claim ID in the claim card make it easier for Veterans to distinguish between different claims in CST?"
+  - "Do Veterans respond positively to the new layout of the Claim Details page with separate sections dedicated to Veteran actions and VA actions?"
+  - "Do Veterans respond positively to other UX improvements in this version of CST?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The new design will help Veterans distinguish between different claims in CST"
+  - "Veterans will prefer the new Status page to the old Status page overall"
+  - "The new design will give Veterans a strong understanding of what is happening with their claim at any given time"
+  - "The new design will help Veterans distinguish between requests for them that they need to act on and requests for third parties that they don't need to act on"
+  - "The new design will make it easy for Veterans to see requests for evidence submission and understand what those requests are"
+  - "The new design will make it clear to Veterans whether or not they need to take any action to advance their claim"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate the usability of our design concepts for Track 1 Evidence Submission work, which includes near-term concrete UX and accessibility updates to CST."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have filed a disability compensation claim with the VA in the last 10 years"
+    - "5 Black Veterans"
+    - "5 Veterans age 55-64+"
+    - "4 Veterans without a degree"
+    - "At least 5 women Veterans"
+    - "Participants must be using a desktop device during the study"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of Veterans with different claim experiences"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you filed a disability compensation claim with the VA in the last 10 years?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-06-12"
+  pilot_participant: "Rocio de Santiago"
+  research_dates: "2023-06-13 to 2023-06-29"
+  research_review_submission: "2023-06-01"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Enhance Veterans' personalized online experience"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2023-03-Initial-Decisions-CST/research-findings.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "BNFT: Disability"
+  - "PRDT: Claim Status Tool"
+  - "PRDT: Track Claim Status"
+  - "AUD: Veterans"
+  - "DSC: Alert boxes"
+  - "DSC: Cards"
+  - "DSP: Track application status"
+  - "DSP: Notifications and updates"
+  - "HDW: Desktop"
+  - "usability-testing"
+  - "authenticated"
+  - "remote"
+  - "disability-compensation-claims"
+  - "evidence-submission"
 ---
 
 # Research Plan: Evidence Submission Usability Testing

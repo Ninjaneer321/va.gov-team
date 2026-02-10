@@ -1,109 +1,126 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Health Enrollment Team, 10-10EZ Registration Reasons Tree Test, November 2023"
+date: 2023-11-02
+last_updated: 2023-11-02
+team: "Health Enrollment Team"
+product: "10-10EZ Health Care Application"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need to understand if they should apply for health care enrollment or registration for specific care types. The distinction between registration and enrollment is confusing and doesn't align with Veterans' mental models of applying for VA health care."
+  product_location: "VA.gov health care benefits hub and application page (va.gov/health-care/apply/application/introduction)"
+  user_familiarity: "Iteration on existing product - testing registration reasons scenarios within the health care application"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/Registration"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "tree testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Learn more about WHERE on VA.gov do Veterans expect to complete tasks related to registration reasons"
+  - goal_2: "Discover WHAT actions Veterans take prior to seeking care for registration reasons"
+  - goal_3: "Learn more about the Veteran's mental model of what they are getting when they sign up for their registration reason vs enrolling in VA health care"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans navigate to the 10-10EZ for registration reasons?"
+  - "If somebody is looking to sign up for [registration reason scenario] from VA, how would they do that?"
+  - "How easy is it for the Veterans to navigate to the [registration reason scenario] starting point?"
+  - "Do Veterans mention offline channels as the preferred method of 'registering' for these reasons?"
+  - "What do Veterans expect to happen next when registering for [registration reason scenario]?"
+  - "Do Veterans expect to have to take action (if needed) to enroll after registering?"
+  - "Do the registration reasons align with the Veterans' mental model of signing up for health care from the VA?"
+  - "Do Veterans expect to get only the [registration reason] they signed up for or more health care benefits in their application?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "For appointment registration scenarios like a C&P exam, Veterans will navigate to the disability claims or locations hubs in the tree test"
+  - "For service connected care, Veterans will navigate to the health care hub and the apply for benefits node"
+  - "Veterans who are eligible to register for NSC reasons expect to sign up from a variety of locations on the site specific to the care they are seeking, such as mental health or counseling care"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Determine if Veterans expect to access these scenarios through different areas on VA.gov or through the health care benefits hub and application page. This will guide the path on how to update the content of the 10-10EZ introduction page and inform if other introduction pages/paths need to be accounted for registration MVP."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "cohort-based recruitment for unmoderated tree test"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All have a computer or mobile device and are willing to use it to complete the activity"
+    - "Cohorts 1-7: NOT currently enrolled in VA health care benefits"
+    - "Cohort 8: Currently enrolled in VA health care benefits and have disability rating"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse mix of age ranges (18-24, 25-34, 35-44, 45-54, 55+)"
+    - "Mix of genders (male and female participants)"
+    - "Mix of Veterans and Active Duty participants"
+    - "Cohort 6 includes participants with cognitive impairments (TBI, PTSD, ADHD, memory loss, etc.)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you currently enrolled in VA health care benefits?"
+      qualifying_response: "No for cohorts 1-7, Yes for cohort 8"
       
 participants:
-  veterans: 0
+  veterans: 63
+  active_duty: 9
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 72
+  completed_sessions_goal: 35
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-11-09"
+  pilot_participant: "Steven Straily"
+  research_dates: "2023-11-13 to 2023-11-24"
+  research_review_submission: "2023-11-02"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 30
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhance Veterans' personalized online experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Veterans can access health care based on their individual needs through appropriate pathways"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research/2023-06-Registration%20flow%20exploration"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Active Duty"
+  - "BNFT: Healthcare"
+  - "PRDT: Health care application"
+  - "PRDT: 10-10EZ"
+  - "PRDT: Registration"
+  - "research-method: tree-testing"
+  - "research-method: unmoderated"
+  - "research-method: evaluative"
+  - "information-architecture"
+  - "wayfinding"
+  - "mental-models"
+  - "health-enrollment"
+  - "service-connected"
+  - "disability-exam"
+  - "cognitive-disability"
 ---
 
 # Research Plan for [Health Enrollment Team, 10-10EZ Registration Reasons Tree Test, November 2023]

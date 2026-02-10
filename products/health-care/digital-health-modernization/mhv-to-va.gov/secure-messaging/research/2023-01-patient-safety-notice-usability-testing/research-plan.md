@@ -1,109 +1,127 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for HMI Team Secure Messaging Patient Safety Notice, January 2023"
+date: 2023-01-18
+last_updated: 2023-01-18
+team: "Health Modernization Integration (HMI)"
+product: "Secure Messaging on MHV on VA.gov"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Address finding from Round 2 usability testing that participants did not notice or understand patient safety message, particularly the connotation of 'crisis' in the 988 sentence"
+  product_location: "Secure Messaging within MHV on VA.gov"
+  user_familiarity: "Iteration based on November 2022 usability testing findings"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote moderated usability testing with prototype"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Identify Veterans' tolerance for the interstitial screen"
+  - goal_2: "Identify any usability issues with the patient safety message flow"
+  - goal_3: "Measure Veterans' understanding of when using Secure Messaging is appropriate"
+  - goal_4: "Measure Veterans' understanding of the mental health help available"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How will Veterans react to the new compose/reply/edit draft flow with interstitial page?"
+  - "Does the new flow improve the likelihood that the safety message will be noticed and read?"
+  - "Does the safety message help Veterans understand when secure messaging is not the appropriate communication method?"
+  - "How do Veterans interpret 'Only use messages for non-urgent needs'?"
+  - "Do Veterans value the links to 911 and the VCL?"
+  - "Do Veterans require the inclusion of the word 'secure' to feel confident that the VA is keeping messages secure?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will tolerate the new flow with the interstitial page"
+  - "The patient safety message placed within the flow on a separate page will increase the likelihood that it will be noticed and read"
+  - "The safety message will help Veterans understand when to seek more immediate help than what Secure Messaging provides"
+  - "Veterans will value the links to 911 and the VCL with mixed reactions on VA facilities link"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Results will inform final design of patient safety notice and interstitial screen for secure messaging compose/reply flows"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Participants willing to keep cameras on during session"
+    - "At least 12 participants who regularly use Secure Messaging"
+    - "At least 12 participants who are mobile users"
+    - "At least 12 participants who are desktop users"
+    - "At least 12 participants over the age of 64"
+    - "At least 6 participants with cognitive disabilities"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "6 participants who identify as women"
+    - "4 participants from rural locations"
+    - "4 participants without a college degree"
+    - "4 participants of immigrant origin"
+    - "Diverse racial and ethnic representation"
+    - "2 LGBTQ+ participants"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "What type of device will you be using to connect to Zoom?"
+      qualifying_response: "Desktop/Laptop/Smartphone/Tablet"
+    - question: "Are you comfortable having your camera on during the session?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 18
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 24
+  completed_sessions_goal: 18
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-01-18"
+  pilot_participant: "Emily Taylor, JB Walters"
+  research_dates: "2023-01-27 to 2023-02-07"
+  research_review_submission: "2023-01-18"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "MHV"
+  - "secure-messaging"
+  - "patient-safety"
+  - "usability-testing"
+  - "prototype"
+  - "authenticated"
+  - "veterans"
+  - "health-care"
 ---
 
 # Research Plan for HMI team, Secure Messaging, January 2023

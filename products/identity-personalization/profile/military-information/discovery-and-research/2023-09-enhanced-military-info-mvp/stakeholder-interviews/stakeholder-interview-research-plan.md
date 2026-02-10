@@ -1,109 +1,119 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience Profile team: Enhanced Military Information MVP - Stakeholder Interviews, September 2023"
+date: 2023-09-15
+last_updated: 2023-09-15
+team: "Authenticated Experience - Profile"
+product: "VA.gov Profile - Military Information"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Legislation requires increased Veteran access to their Individual Longitudinal Exposure Record (ILER). This creates an opportunity to improve the Veteran experience of applying for benefits by surfacing key military service data points and providing PDF access to ILER."
+  product_location: "VA.gov Profile - Military Information section"
+  user_familiarity: "Iteration - enhancing existing military information section with ILER access and additional data points"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/military-information"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "stakeholder interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand prior work and decisions that led to current enhanced military information MVP requirements"
+  - goal_2: "Learn about stakeholder hypothesis that surfacing 8 data points will improve the Veteran experience of applying for benefits"
+  - goal_3: "Gather information about the ILER API capabilities and BAH prototype"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Stakeholders have a hypothesis that surfacing 8 data points will improve the Veteran experience of applying for benefits - what is driving this hypothesis, and what do we already know about these data points?"
+  - "What can stakeholders share about the API that can generate a PDF/text version of a Veteran's ILER?"
+  - "What was the intention of, and reaction to, the ILER prototype the BAH team created?"
+  - "What led to the decision that this military information belongs in the VA.gov profile?"
+  - "Are there any other teams or stakeholders we should loop into this work?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Stakeholders have done prior discovery work that informed current requirements"
+  - "There are technical and policy considerations that influenced the placement in Profile"
+  - "The 8 data points were selected based on benefits application needs"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Understand context and rationale behind enhanced military information MVP to inform implementation decisions and identify any gaps or additional stakeholders"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Internal VA stakeholders"
+  approach: "Targeted stakeholder interviews"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Melissa Rebstock (stakeholder)"
+    - "Angela Allen (VADIR SME)"
+    - "Other stakeholders as identified during interviews"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Subject matter experts familiar with ILER legislation"
+    - "Technical stakeholders familiar with ILER API"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "N/A - internal stakeholder interviews"
+      qualifying_response: "N/A"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 3
+  completed_sessions_goal: 2
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "N/A"
+  pilot_participant: "N/A"
+  research_dates: "2023-09-15 to 2023-09-30"
+  research_review_submission: "N/A"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 0
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhance Veterans' personalized online experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Surface military service information that improves benefits application experience"
+  - objective: "Increase the usage and throughput of VA services"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Provide access to ILER as required by legislation"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/military-information/discovery-and-research/2023-military-info-discovery"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "stakeholder-research"
+  - "discovery-research"
+  - "PRDT: VA.gov Profile"
+  - "PRDT: Profile-military-information"
+  - "research-method: interviews"
+  - "research-method: moderated"
+  - "research-method: remote"
+  - "authenticated-experience"
+  - "ILER"
+  - "military-service-history"
 ---
 
 # Profile enhanced military information MVP - Stakeholder Interview research plan

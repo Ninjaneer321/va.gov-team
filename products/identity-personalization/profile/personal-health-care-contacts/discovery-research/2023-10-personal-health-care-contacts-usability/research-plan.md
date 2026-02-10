@@ -1,109 +1,146 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Cartography and Authenticated Experience Profile teams: Personal health care contacts usability, November 2023"
+date: 2023-10-06
+last_updated: 2023-10-10
+team: "Authenticated Experience - Profile / Cartography"
+product: "VA.gov Profile - Personal health care contacts"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "There is currently an absence of a digital self-service method that allows Veterans to proactively view, add, or edit their emergency contact and next of kin information, which is needed for health care appointments and medical emergencies."
+  product_location: "VA.gov Profile - new Personal health care contacts section"
+  user_familiarity: "New feature - adding Emergency Contact (EC) and Next of Kin (NOK) information to Profile"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/personal-health-care-contacts/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing with semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess users' understanding, reactions, and expectations to the proposed Emergency contact and Next of kin feature within the VA.gov profile"
+  - goal_2: "Evaluate how easily users are able to find this information in Profile"
+  - goal_3: "Evaluate if the proposed designs are understandable and useful across participant types (sighted and low/no vision) and screen sizes (mobile and desktop)"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are users able to navigate to the Emergency contact and Next of kin information from an unauthenticated state?"
+  - "Is it intuitive to find this information within VA.gov profile?"
+  - "What are users' reactions to and understanding of the proposed designs?"
+  - "Is it clear that the 'Personal health care contacts' only pertain to health care?"
+  - "Is it clear to users how to update their information?"
+  - "Do participants understand what is meant by 'Next of kin' information?"
+  - "What is the user mental model around Emergency contact and Next of kin information?"
+  - "How do veterans define emergency contact and next of kin?"
+  - "How is the 'read only' data useful to Veterans?"
+  - "How many Emergency contacts and Next of kin contacts do people want/expect to list/see?"
+  - "When or where do people expect to be asked about this information?"
+  - "What type of information for both Emergency contact and Next of kin do users expect to need to provide?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Participants will sign in, go to the 'Profile', then navigate to 'Personal health care contacts' in order to view EC and NOK information"
+  - "Participants will understand the EC and NOK information and understand how to update information"
+  - "Participants will want to be able to edit or add EC and NOK information in place"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will inform the direction of this proposed design concept: we will either move forward with this design, making iterations as needed or choose not to pursue this direction"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "diverse sample with range of demographics and abilities"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be veterans or caregivers"
+    - "Must have signed into VA.gov or My HealtheVet for any reason"
+    - "Must have a computer or mobile phone and be willing to complete sessions on this device"
+    - "Must be willing to share a web browser window on Zoom call"
+    - "Must have Zoom downloaded and know how to share screen"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "4 people who use screen readers on desktop"
+    - "At least 4 people with cognitive considerations"
+    - "6 people who can join from a smartphone"
+    - "At least 3 people who are 55+ (but not more than 8)"
+    - "6 people who identify as a race other than White/Caucasian"
+    - "6 people who identify as a gender other than male"
+    - "8 people who currently receive health care through VA"
+    - "4 people who don't currently receive health care through VA but have other VA benefits"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Need minimum of 4 people with cognitive considerations"
+    - question: "Are you able to join the session from a smartphone?"
+      qualifying_response: "Yes - need 6 people on smartphones"
+    - question: "Do you need to use screen reader technology to use the internet, such as JAWS on a computer?"
+      qualifying_response: "Yes - need 4 people who use screen readers on desktop"
+    - question: "Which benefits or services do you currently receive through VA?"
+      qualifying_response: "8 people must include health care benefits; 4 people must not include health care benefits"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-10-06"
+  pilot_participant: "TBD"
+  research_dates: "2023-11-14 to 2023-11-22"
+  research_review_submission: "2023-10-10"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Enable proactive management of emergency contact and next of kin information"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Centralize emergency contact and next of kin information in Profile"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Streamline check-in process by allowing proactive information updates"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account#readme"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: VA.gov Profile"
+  - "PRDT: Profile-personal-health-care-contacts"
+  - "PRDT: Check-in"
+  - "research-method: usability-testing"
+  - "research-method: moderated"
+  - "research-method: remote"
+  - "device: desktop"
+  - "device: mobile"
+  - "device: smartphone"
+  - "assistive-technology: screen-reader"
+  - "cognitive-disability"
+  - "authenticated-experience"
 ---
 
 # Research Plan for Cartography and Authenticated Experience Profile teams: Personal health care contacts usability, November 2023

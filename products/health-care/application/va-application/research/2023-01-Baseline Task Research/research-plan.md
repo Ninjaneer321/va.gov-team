@@ -1,109 +1,132 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for 10-10 Team, Health Care Application (10-10EZ) Baseline Tasks, January 2023"
+date: 2023-01-20
+last_updated: 2023-01-20
+team: "10-10 Team"
+product: "10-10EZ Health Care Application"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Need to establish a baseline understanding of usability for key tasks within the 10-10EZ health care application to compare against future iterations and identify consistent pain points for improvement."
+  product_location: "VA.gov health care benefits hub (staging.va.gov/health-care/apply/application/introduction)"
+  user_familiarity: "Existing product - baseline study on established application"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/10-10EZ%20Health%20Care%20Application%20-%20Product%20Outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Obtain a qualitative baseline for tasks within the application to use in comparison with future studies and iterations"
+  - goal_2: "Identify what is easy or difficult to complete within the form and why"
+  - goal_3: "Uncover pain point areas that cause confusion and need further discovery and research"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What tasks are consistently completed by participants with ease?"
+  - "What tasks do the majority of participants struggle with or have some level of difficulty?"
+  - "How successful are participants in completing the household information section questions?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The baseline study will help establish that the insights and pain points from previous studies are still consistently an issue with participants in this study"
+  - "The baseline study will show that there are areas of the form that most participants complete tasks easily (entering personal information or when going through short form flow) or areas that they consistently struggle (household information and insurance)"
+  - "The baseline study will show that the current household information section is a pain point due to the order of the questions and the content supplying additional context"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Establish baseline for comparison in other research studies (Household Section Optimization) specific to key tasks that come up frequently during research sessions."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Mix of Veterans (12) and Service Members (3)"
+    - "NOT currently receiving VA health care benefits as primary insurance"
+    - "Do NOT have a service connected disability rating of over 50%"
+    - "Diverse mix of demographics: age, race, gender, education, geographic location"
+    - "Mix of devices: 7 desktop, 6 mobile, 2 tablet"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 2 participants with cognitive impairments"
+    - "Diverse education levels (GED, high school, some college, associate's, bachelor's)"
+    - "Mix of urban (6) and rural (9) participants"
+    - "LGBTQ+ representation (4 participants)"
+    - "Diverse racial and ethnic representation"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you currently receiving VA health care benefits as your primary insurance?"
+      qualifying_response: "No"
+    - question: "Do you have a service connected disability rating of over 50%?"
+      qualifying_response: "No"
       
 participants:
-  veterans: 0
+  veterans: 12
+  service_members: 3
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-01-23"
+  pilot_participant: "Christia Troyer"
+  research_dates: "2023-01-27 to 2023-02-10"
+  research_review_submission: "2023-01-20"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Increase usage of digital, self-service tools"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase percent of applications submitted online (vs. paper)"
+  - objective: "Decrease time to successfully complete and submit online transactions"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Identify and address usability pain points in application"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/192"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Service members"
+  - "BNFT: Healthcare"
+  - "PRDT: Health care application"
+  - "PRDT: 10-10EZ"
+  - "research-method: usability-testing"
+  - "research-method: moderated"
+  - "research-method: evaluative"
+  - "research-method: baseline"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "task-analysis"
+  - "household-information"
+  - "form-design"
+  - "cognitive-disability"
+  - "LGBTQ"
+  - "rural"
+  - "unauthenticated-experience"
 ---
 
 # Research Plan for 10-10 Team, Health Care Application (10-10EZ), Baseline Tasks (Round 1), January 2023

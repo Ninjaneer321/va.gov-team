@@ -1,109 +1,124 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience Profile team: Military Information Discovery, January 2023"
+date: 2023-01-15
+last_updated: 2023-02-06
+team: "Authenticated Experience - Profile"
+product: "VA.gov Profile - Military Information"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The military information section of VA.gov profile currently shows limited information (branch, period of service, dates) and contact info for corrections. No discovery has been conducted to understand what users need from military information or how they use it."
+  product_location: "VA.gov Profile - Military Information section"
+  user_familiarity: "Iteration - discovery research on existing product to inform enhancements"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/military-information"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews with limited screen sharing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine which information would be most helpful for Veterans to have surfaced in the military information section of the VA.gov profile"
+  - goal_2: "Understand when and why Veterans need access to military information"
+  - goal_3: "Explore Veterans' mental models around military information and discharge status"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "When and why do Veterans need access to military information?"
+  - "Which information, if any, should be added to the military information already included in this product?"
+  - "When or why might Veterans need to edit/change military information?"
+  - "When or why might Veterans need to know what military information the VA has on them?"
+  - "What info might be helpful to Veterans that are considering trying - or are working - to change their discharge status?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Military information must be provided when Veterans apply for various VA benefits"
+  - "Veterans receive form DD214 when they leave the service"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will inform the product team on what and how much military information should be populated in each Veteran's profile, and what other possible questions should be addressed in that same location, e.g. how to change incorrect service information"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "diverse sample targeting specific military information use cases"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must be Veterans"
+    - "At least 6 participants aged 50+"
+    - "At least 6 participants who identify as races other than white"
+    - "At least 6 participants whose gender is not male"
+    - "All participants must be able/willing to share their screen for the last part of the interview"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 2 participants who formally requested a correction to military records in past year"
+    - "At least 2 participants who requested service records to replace missing military record (e.g. DD214) in past year"
+    - "At least 2 participants who applied for VA benefits in past year"
+    - "At least 2 participants who applied for an upgrade of discharge status in past year"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Which of the following have you yourself completed in the past year (between January 2022 and January 2023)? Formally requested a correction to your military records / Requested service records to replace a missing military record (e.g. DD214) / Applied for VA benefits / Applied for an upgrade of your discharge status / None of the above"
+      qualifying_response: "Target 2 participants minimum for each of first 4 options; 0-2 may answer none of the above"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-02-06"
+  pilot_participant: "Josh Mills (jmills@kindsys.us)"
+  research_dates: "2023-02-14 to 2023-02-24"
+  research_review_submission: "2023-02-06"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhance Veterans' personalized online experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Surface relevant military information that Veterans need"
+  - objective: "Increase the usage and throughput of VA services"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Make it easier for Veterans to apply for benefits by providing necessary military service data"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account#readme"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: VA.gov Profile"
+  - "PRDT: Profile-military-information"
+  - "research-method: interviews"
+  - "research-method: semi-structured-interviews"
+  - "research-method: moderated"
+  - "research-method: remote"
+  - "discovery-research"
+  - "authenticated-experience"
+  - "military-service-history"
+  - "DD214"
+  - "discharge-status"
 ---
 
 # Research Plan for Authenticated Experience - Military Info, Profile - January 2023

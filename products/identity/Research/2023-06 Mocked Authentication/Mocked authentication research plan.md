@@ -1,109 +1,111 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Core Identity, Mocked Authentication, Usability Testing"
+date: 2023-06-26
+last_updated: 2023-06-26
+team: "Core Identity Team"
+product: "Mocked Authentication"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Mocked Authentication is an alternate authentication flow on local and development builds of VA.gov, which allows users to test and develop downstream features without the need to authenticate with a real credential provider. Need to improve usability and address known issues with error messages."
+  product_location: "https://dev.va.gov/sign-in/mocked-auth (development environment)"
+  user_familiarity: "Iteration - improving existing developer tool"
+  product_brief_url: "https://docs.google.com/document/d/1EgNWdbA5CxlVkXEPehPHvIK_0pi-6hbwc3WdPQ-aPS4/edit#heading=h.rxzwaqqmtlro"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test the usability of the current Mocked Authentication product"
+  - goal_2: "Find solutions for the current known issues around error messages"
+  - goal_3: "Develop product backlog"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What changes should be made before broad use of this product?"
+  - "What changes can be put in the backlog for a possible future iteration?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Developers will find the current mocked authentication flow generally usable but will identify specific pain points"
+  - "Error messages will be a primary source of confusion or frustration"
+  - "Developers will have suggestions for improvements that can be prioritized into a product backlog"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify critical usability issues that need immediate fixing and create a prioritized backlog of improvements for future iterations of Mocked Authentication"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Direct recruitment via Slack"
+  approach: "targeted recruitment of VFS developers"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "3-4 VFS developers/engineers who are likely users of this product"
+    - "Must have experience developing on VA.gov"
+    - "Familiar with or have used authentication testing tools"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Variety of teams represented"
+    - "Different levels of experience with mocked authentication"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a VFS developer who works with VA.gov authentication?"
+      qualifying_response: "Yes"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 4
+  completed_sessions_goal: 3
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-06-26"
+  pilot_participant: "TBD"
+  research_dates: "2023-06-26 to 2023-07-07"
+  research_review_submission: "2023-06-20"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 15
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families trust the security, accuracy, and relevancy of VA.gov"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improve developer tools to enable better authentication testing"
+  - objective: "Platform improvements for development efficiency"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Reduce developer friction in testing authenticated features"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "N/A - Developer tool"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: Sign-in"
+  - "PRDT: Mocked Authentication"
+  - "usability testing"
+  - "developer experience"
+  - "authentication"
+  - "testing tools"
+  - "internal tools"
+  - "development"
+  - "identity"
+  - "AUD: Developers"
 ---
 
 # Research Plan for Core Identity, Mocked Authentication, Usability Testing

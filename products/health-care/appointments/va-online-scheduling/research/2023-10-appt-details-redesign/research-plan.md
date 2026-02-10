@@ -1,109 +1,125 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Appointment Details Redesign, VAOS, October 2023"
+date: 2024-01-12
+last_updated: 2024-01-12
+team: "VA Online Scheduling (VAOS)"
+product: "VA Online Scheduling"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Test redesigned appointment details pages for all appointment types (upcoming, past, canceled, requests) to ensure information meets Veteran expectations and needs"
+  product_location: "VA Online Scheduling appointment details pages on VA.gov"
+  user_familiarity: "Redesign of existing appointment details pages"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/appointment-details-redesign/appointment-details-redesign-initiative-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote moderated usability testing with Figma prototype"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate the pertinence of details page information"
+  - goal_2: "Test hierarchy of details page information"
+  - goal_3: "Evaluate how understandable the empty states are"
+  - goal_4: "Evaluate the use of buttons and links"
+  - goal_5: "Test the findability of the After Visit Summary"
+  - goal_6: "Test navigation to and from the Next of Kin/Emergency Contact"
+  - goal_7: "Test changes to the cancelation flow"
+  - goal_8: "Evaluate the print page"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans know how to cancel their appointment and how would they expect to cancel?"
+  - "Do Veterans know where to go for their appointment and how to prepare?"
+  - "What do Veterans expect to do on the details page?"
+  - "Do Veterans know how to join their telehealth appointments?"
+  - "What is the first action veterans take on an appointment details page?"
+  - "Can Veterans distinguish between different tasks and find their after visit summary?"
+  - "Do Veterans understand what pre check-in is and can they navigate to profile page?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Participants will be able to cancel their appointments easily"
+  - "Participants will be able to find and understand their appointment information easily"
+  - "On an upcoming appointment details page, participants will find secondary buttons before finding the join appointment CTA"
+  - "Participants will be able to easily find their after visit summary"
+  - "Participants will understand the pre check-in task and navigate to health care contacts page easily"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Make necessary changes to finalize appointment details designs, cancellation flow, after visit summary entry point, and pre check-in entry point"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "8 participants who primarily use desktop/laptop computer"
+    - "8 participants who primarily use mobile device"
+    - "Active MyHealtheVet or VA.gov users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 veteran with a cognitive disability"
+    - "At least 1 LGBTQ+ Veteran"
+    - "At least 1 Native Veteran"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you willing to complete interview on the device you specified when recruited?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 16
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-01-24"
+  pilot_participant: "TBD"
+  research_dates: "2024-01-25 to 2024-02-06"
+  research_review_submission: "2024-01-12"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase Veteran satisfaction with VA.gov"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Decrease call center volume, wait time, and time to resolution"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "VAOS"
+  - "appointments"
+  - "appointment-details"
+  - "usability-testing"
+  - "prototype"
+  - "authenticated"
+  - "veterans"
+  - "health-care"
 ---
 
 # **Appointments Details Redesign - Research Plan**

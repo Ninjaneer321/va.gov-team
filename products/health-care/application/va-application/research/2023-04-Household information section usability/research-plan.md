@@ -1,109 +1,165 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for 1010 Team, 10-10EZ Household Financial Information Section Usability, August 2023"
+date: 2023-08-04
+last_updated: 2023-08-04
+team: "1010 Team"
+product: "10-10EZ Health Care Application"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The household information section of the 10-10EZ has been observed as a section with high drop-off rates and being a pain point in research. This optimization effort focuses on improving usability of household financial information questions, particularly adding multiple dependents using a new experimental pattern."
+  product_location: "VA.gov health care benefits hub (staging.va.gov/health-care/apply/application/introduction)"
+  user_familiarity: "Iteration on existing product - optimization of one specific section"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/10-10EZ%20Health%20Care%20Application%20-%20Product%20Outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test the usability of the experimental pattern for adding multiple dependents to the household financial information section"
+  - goal_2: "Determine if there are any issues for assistive tech users when they add multiple dependents to the application"
+  - goal_3: "Determine if the updated content for the household information section is clear and understandable or if any points of confusion remain"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "When arriving at the dependent questions, is there any confusion on who the participant should add here? (Who does the VA consider a dependent?)"
+  - "Are any of the content/questions unclear or cause the participant to pause?"
+  - "Can participants easily move through the pages of dependent questions?"
+  - "Are the questions grouped by topic (one-thing-per-page) as it would make sense to the participant?"
+  - "After adding their first dependent, do participants know how to make changes or remove a dependent from the application?"
+  - "Do participants comment on the progress bar during this process?"
+  - "Are participants able to make adjustments to their dependents from the review page easily or do they struggle?"
+  - "Do participants seem to be confident when making edits on the review page or hesitant?"
+  - "Are there any accessibility issues when navigating through the multiple responses flow?"
+  - "Is there any confusion with the tab order or how questions are presented?"
+  - "Do users struggle on the dependent 'review' page where it lists the first dependent added and the yes/no question to add additional dependents?"
+  - "Can users easily edit and make changes or is this process a pain point?"
+  - "Do users using screen magnification have any issues with the action button placement on the dependent cards or the confirmation modals?"
+  - "Does the progress bar or other form elements make it more challenging for assistive tech users?"
+  - "Can participants edit from the review page or does this present any challenges?"
+  - "Do participants seem to struggle or question any of the content revisions on the onboarding page?"
+  - "Do participants seem frustrated or appreciative of the extra pages with information (onboarding and documents needed)?"
+  - "Do participants interact with the additional info components to learn more? Which ones? Do they feel confident or confused after reading that information?"
+  - "Do participants find any questions difficult to understand or seem to need more information to answer?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Participants will easily be able to add multiple dependents and move through the pages of questions"
+  - "Participants will appreciate the confirmation when destructive actions - such as remove or cancel - are initiated (modals)"
+  - "Participants will call out the edit flow for dependents as they have to go through all the pages and can't directly edit, would suggest they would appreciate a more direct route to edit"
+  - "The onboarding/documents page is well received as being clear and informational leading to a more positive perception about sharing this information"
+  - "The content helps the participant answer questions confidently and accurately"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Evaluate for additional gaps during the rollout of these updates to production. Findings and recommendations will be categorized as blockers or items that can be addressed in future iterations."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All must have a disability rating of 40% or below"
+    - "All must currently or in the past claimed dependents (on their tax returns)"
+    - "At least 2 using a screen reader during the session"
+    - "At least 2 are using a mobile device during the session"
+    - "Diverse mix of age ranges"
+    - "No more than 1 participant with a Bachelor's degree or higher"
+    - "At least 2 participants who are Black"
+    - "At least 2 participants who are Hispanic"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of accessibility technology users"
+    - "Diverse demographic representation"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have a disability rating of over 50%?"
+      qualifying_response: "No"
+    - question: "Do you currently or in the past claimed dependents on your tax return?"
+      qualifying_response: "Yes"
+    - question: "Do you need to use assistive technology to use the internet such as VoiceOver on an Apple device, TalkBack on an Android device, or JAWS on a computer?"
+      qualifying_response: "Yes for 2 screen reader users"
+    - question: "Are you able to join the Zoom session from a smart phone such as a Samsung Galaxy or Apple iPhone?"
+      qualifying_response: "Yes for 2 mobile users"
       
 participants:
-  veterans: 0
+  veterans: 9
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 9
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-08-18"
+  pilot_participant: "TBD"
+  research_dates: "2023-08-21 to 2023-08-25"
+  research_review_submission: "2023-08-04"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Increase completion rate of online transactions"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Reduce drop-off rates in household information section"
+  - objective: "Increase usage of digital, self-service tools"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Improve usability of household financial information section"
+  - objective: "Increase percent of applications submitted online (vs. paper)"
+    key_results:
+      - "Remove barriers to completing application online"
+  - objective: "Decrease time to successfully complete and submit online transactions"
+    key_results:
+      - "Streamline dependent information entry process"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/research/2023-01-Baseline%20Task%20Research"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/192"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/issues/41403"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Health care application"
+  - "PRDT: 10-10EZ"
+  - "DSP: Multiple responses"
+  - "DSP: Form patterns"
+  - "DSC: Progress bar"
+  - "DSC: Cards"
+  - "DSC: Modals"
+  - "DSC: Additional info"
+  - "research-method: usability-testing"
+  - "research-method: moderated"
+  - "research-method: UAT"
+  - "research-method: evaluative"
+  - "HDW: Smartphone"
+  - "assistive-technology"
+  - "screen-reader"
+  - "accessibility"
+  - "household-information"
+  - "dependents"
+  - "financial-disclosure"
+  - "form-design"
+  - "content-design"
+  - "experimental-pattern"
 ---
 
 # Research Plan for [1010 Team, 10-10EZ, Household financial information section usability/UAT]

@@ -1,109 +1,124 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Sitewide Family and Caregiver Benefits Hub, November 2023"
+date: 2023-11-01
+last_updated: 2023-11-01
+team: "Sitewide Content and IA"
+product: "Family Member Hub"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Family and caregiver benefit content, applications, and tasks are distributed across Veteran benefit hubs, making it difficult for family members and caregivers to find information relevant to them. Tools are mostly framed for Veterans but are often intended for family members and caregivers to use for their own benefits."
+  product_location: "VA.gov - Family member hub and related benefit content"
+  user_familiarity: "Iteration - consolidating content into family member hub"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/content/content-strategy-ia-collaboration/family-member-hub/initiative-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "tree testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if moving family and caregiver related content under a single benefit hub for that audience will improve the discoverability and findability of relevant benefit information"
+  - goal_2: "Determine if highlighting caregiver and survivor benefits helps improve discoverability and findability of those specific benefits"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Will family members and caregivers navigate to the family member hub for information on benefits for themselves?"
+  - "Will family members and caregivers navigate to the family member hub to complete tasks related to managing and tracking their own benefits?"
+  - "Will survivors navigate to the section labeled 'Survivors' in the family member hub to find information on benefits?"
+  - "Will caregivers navigate to the section labeled 'Caregivers' in the family member hub to find information on benefits?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Family members and caregivers will navigate to the family member hub for information on benefits for themselves"
+  - "Family members and caregivers will navigate to the family member hub to complete tasks related to managing and tracking their own benefits"
+  - "Survivors will navigate to the section labeled 'Survivors' in the family member hub to find information on benefits"
+  - "Caregivers will navigate to the section labeled 'Caregivers' in the family member hub to find information on benefits"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Learnings will help refine how we organize and group information within the new family and caregiver hub"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "cohort-based recruitment for tree testing"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veteran family member (spouse, dependent, parent)"
+    - "Surviving Veteran family member (surviving spouse, surviving child, surviving parent)"
+    - "Veteran caregiver (family caregiver, non-family caregiver)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of enrolled in at least 1 VA benefit vs not enrolled in any VA benefits"
+    - "Gender diversity"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Which option most accurately describes your relationship to the Veteran in your life?"
+      qualifying_response: "Spouse/child/parent of living Veteran, surviving family member, or caregiver"
+    - question: "Are you enrolled in at least 1 VA benefit?"
+      qualifying_response: "Yes or No (mix desired)"
       
 participants:
   veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  caregivers: 27
+  dependents: 27
+  total_recruited: 54
+  completed_sessions_goal: 40
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-11-08"
+  pilot_participant: "Internal team member"
+  research_dates: "2023-11-08 to 2023-11-15"
+  research_review_submission: "2023-10-31"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 20
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Refresh VA.gov homepage and IA"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Survivor journey: Preparing - Caring for loved one"
+  - "Survivor journey: Adjusting - Loved one passes away"
+  - "Survivor journey: Memorializing - Prepares burial and funeral"
+  - "Survivor journey: Engaging - Becomes aware of benefits"
+  - "Survivor journey: Applying - Pursues and applies for benefits"
+  - "Caregiver journey: Becoming aware and adjusting - Identifies as caregiver"
+  - "Caregiver journey: Shifting priorities and seeking help - Contacts support"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "VEO veteran spouse research notes"
+    - "Existing data and research review"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: family-member-hub"
+  - "AUD: family-members"
+  - "AUD: caregivers"
+  - "AUD: survivors"
+  - "RESRCH: tree-test"
+  - "RESRCH: unmoderated"
+  - "RESRCH: remote"
+  - "information-architecture"
+  - "findability"
+  - "navigation"
+  - "content-strategy"
+  - "survivor-benefits"
+  - "caregiver-benefits"
+  - "BNFT: family-member-benefits"
+  - "BNFT: survivor-benefits"
+  - "BNFT: caregiver"
 ---
 
 # Research Plan for Sitewide Family and Caregiver benefits hub - 11/2023
