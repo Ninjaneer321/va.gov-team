@@ -1,109 +1,150 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for ADE - Save in Progress, May 2025"
+date: 2025-04-22
+last_updated: 2025-04-30
+team: "Authenticated Digital Experience (ADE)"
+product: "Save in Progress - VA.gov Forms"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Current save-in-progress implementation on VA.gov has two accessibility issues: (1) Save in progress alert flashes on and off with every field entry but isn't announced to screen readers, and (2) 'Finish this request later' button looks like a link instead of a button. Testing revised design to resolve these issues."
+  product_location: "VA.gov online forms - uses VA Design System Header - Minimal component"
+  user_familiarity: "Iteration on existing product - accessibility improvements to save in progress functionality"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/digital-experience/ADE"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Learn about Veterans' expectations for saving information while filling out an online form before submitting it"
+  - goal_2: "Get user feedback on design revisions for save in progress and finish this request later that reduce redundant messaging around saving"
+  - goal_3: "Get user feedback on error messages and the progress bar while filling out online forms"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What experiences have Veterans had around saving while filling out VA forms?"
+  - "What expectations do Veterans have about whether information will be saved while filling out an online form?"
+  - "What do Veterans expect to happen to their form data if they stop in the middle of filling out a form?"
+  - "What do Veterans expect to happen to their form data if they close the form page?"
+  - "How do Veterans expect to resume working on a form that they previously started filling out?"
+  - "Do Veterans think that their form data is being saved? If so, how do they know?"
+  - "Are Veterans able to stop working on a form and return to it later? If so, how do they do it?"
+  - "Do Veterans notice the alert about saving on the form intro page?"
+  - "Do Veterans notice the text about saving on the first page of the form (below the progress stepper)?"
+  - "What reactions do Veterans have to error messages? Do they know what the errors mean, and how to resolve them?"
+  - "How do they want to find out about errors?"
+  - "What reactions do Veterans have to the progress bar? Do they notice it?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "While filling out online forms, Veterans expect that their form data will be saved"
+  - "With the new design, Veterans are confident that their form data will be saved"
+  - "With the new design, Veterans will know how to resume filling out a form that they started previously"
+  - "When Veterans encounter error messages while filling out online forms, they are able to resolve the errors"
+  - "While filling out an online form, Veterans will notice the progress bar and find it useful"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings and recommendations will inform guidance and documentation for the save in progress feature for authenticated users filling out forms on VA.gov. User feedback on finish this request later, error messages, and progress bar will be helpful for accessibility specialists advising VFS teams"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Mix of assistive technology (AT) users and non-AT users to ensure accessibility for all Veterans"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "4 must use a screen reader every time they access the internet"
+    - "2 must use a screen magnifier every time they access the internet"
+    - "6 must NOT use a screen reader or screen magnifier"
+    - "At least 5 have a computer and are willing to use it for the session"
+    - "At least 5 have a smartphone and are willing to use it for the session"
+    - "At least 4 have a cognitive disability (e.g., TBI)"
+    - "At least 4 have filled out a VA form online before"
+    - "At least 4 have NOT filled out a VA form online before"
+    - "All have Zoom downloaded with screen sharing capability and working microphone"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 4 are age 55 or older"
+    - "At least 2 women"
+    - "At least 2 don't have any degree or vocational training after high school"
+    - "At least 2 are 35 or under"
+    - "At least 2 live in a rural or remote area"
+    - "At least 3 people of color"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you use a screen reader or screen magnifier every time you use the Internet?"
+      qualifying_response: "4 screen reader users (JAWS, NVDA, VoiceOver, TalkBack, Narrator), 2 screen magnifier users (Magnifier, Zoom, ZoomText, or 200%+ browser zoom)"
+    - question: "What kind of device will you be using for the Zoom session?"
+      qualifying_response: "5 smartphone, 5 computer, max 2 tablet"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "At least 4 answer yes"
+    - question: "Have you filled out a VA form online before?"
+      qualifying_response: "4 yes, 4 no"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-05-05"
+  pilot_participant: "Sarah Koomson (May 5), Maria Mutia (May 6), Evan Burnett (May 7)"
+  research_dates: "2025-05-12 to 2025-05-21"
+  research_review_submission: "2025-04-22"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 75
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Key Result 1: Improve satisfaction with our web and mobile products by 5 points"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Serving and separation"
+  - "Living civilian life"
+  - "Retiring and aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Previous research on minimal header component"
+    - "Research on save in progress alert locations"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: VA.gov Forms"
+  - "DSC: Form"
+  - "DSC: Button"
+  - "DSC: Alert"
+  - "DSP: Help users to know when their information is saved"
+  - "DSP: Ask users for name"
+  - "usability-testing"
+  - "accessibility"
+  - "authenticated"
+  - "remote"
+  - "moderated"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "screen-reader"
+  - "screen-magnifier"
+  - "cognitive-disability"
+  - "assistive-technology"
+  - "design-system"
+  - "error-messages"
+  - "progress-bar"
 ---
 
 

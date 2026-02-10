@@ -1,66 +1,71 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for IVC Team, 10-10d, April 2025"
+date: 2025-04-01
+last_updated: 2025-04-01
+team: "IVC (Integrated Veteran Care) Team"
+product: "CHAMPVA 10-10d Application"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Users need clear guidance on what supporting documentation is required when submitting a CHAMPVA application and when/where to upload these documents during the application process."
+  product_location: "Form 10-10d on VA.gov, application for CHAMPVA benefits"
+  user_familiarity: "Iteration on existing product - integrating form 10-7959c (Other Health Insurance Certification) into form 10-10d"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/10-10d-product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand users' expectations around what documentation is required to provide when submitting a CHAMPVA application"
+  - goal_2: "Understand where and when users expect to upload supporting documentation for their application"
+  - goal_3: "Understand how users expect uploading documents supports their CHAMPVA application, and their responsibilities to provide supporting information"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do users understand what supporting documentation they'll need to upload with form 10-10d based on the information provided before they start the application?"
+  - "Does the explanation for why we require some documentation for the CHAMPVA application on the intro page make sense?"
+  - "How do users interpret the content about providing proof of marriage?"
+  - "Do users prefer to upload supporting documents at the time of answering a related question (Prototype Donna), or at the end of the CHAMPVA application (Prototype Rose)?"
+  - "Do users have better recall about supporting documents to provide when uploading supporting documents within the applicant list&loop (Prototype Donna), or at the end of the CHAMPVA application (Prototype Rose)?"
+  - "Does the v3 file upload component help users understand they need to provide the front and back of Medicare and Private Health Insurance cards?"
+  - "Do users know how to provide additional documentation after submitting their CHAMPVA application?"
+  - "Would users want any confirmation around uploading files?"
+  - "Does the user understand how to fix a faulty document when it fails to upload?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will understand what supporting documentation is needed based on intro page information"
+  - "Users will prefer uploading documents at contextually relevant points during the application rather than at the end"
+  - "The v3 file upload component will effectively communicate the need for front and back of insurance cards"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Research will inform decisions around where users upload supporting documentation when completing form 10-10d, and will inform how additional subsections of the integrated form experience (with 10-7959c) handle and instruct users to upload supporting documentation"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans, caregivers, or dependents eligible for CHAMPVA benefits"
+    - "Participants who need to submit supporting documentation for benefits applications"
+    - "Mix of users with varying digital literacy levels"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse age ranges"
+    - "Diverse geographic locations"
+    - "Users with varying levels of familiarity with VA.gov"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you or a family member applied for CHAMPVA benefits or similar VA benefits?"
+      qualifying_response: "Yes or interested in applying"
       
 participants:
   veterans: 0
@@ -71,39 +76,49 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-04-15"
+  pilot_participant: "TBD"
+  research_dates: "2025-04-20 to 2025-05-05"
+  research_review_submission: "2025-04-07"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve satisfaction with our web and mobile products by 5 points"
+      - "We have reduced the total time Veterans spend waiting for a response from our digital experiences by 50%, towards a goal of less than 4 seconds per transaction"
+      - "100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Putting Down Roots"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/10-10D-OHI-Merge-Product-Outline.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Dependents"
+  - "BNFT: Healthcare"
+  - "PRDT: CHAMPVA"
+  - "PRDT: 10-10d"
+  - "DSC: Form"
+  - "DSC: File upload"
+  - "DSP: Ask users for files"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+  - "unauthenticated"
+  - "evaluative"
 ---
 
 # Research Plan for IVC Team, 10-10d, 04-2025[Team, Product, Date]

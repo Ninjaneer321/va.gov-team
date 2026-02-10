@@ -1,109 +1,147 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Pathways Team, Form 21-0781 Evidence Upload, September 2025"
+date: 2025-09-01
+last_updated: 2025-10-17
+team: "Disability Benefits - Pathways Team"
+product: "Form 21-0781 Evidence Upload"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans opting into form 0781 for mental health conditions lack a specific section to upload supporting evidence. Without correct evidence, claims can be delayed in adjudication or result in denial. Current design has all evidence uploaded at the end of 526EZ regardless of condition type."
+  product_location: "Authenticated section within Form 21-526EZ disability compensation application on VA.gov"
+  user_familiarity: "Iteration on existing product - Veterans currently upload documents at end of form; this creates dedicated section prioritizing mental health evidence first, then other supporting documents"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/issues/114046"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews with usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Gather feedback on the instructional content on each page"
+  - goal_2: "Evaluate the effectiveness of the formatting and visual hierarchy of the information presented"
+  - goal_3: "Evaluate whether users are able to navigate through the document upload sections"
+  - goal_4: "Understand how users think through uploading evidence in support of their conditions"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do users react to the amount of information on each page?"
+  - "What sections of the evidence orientation/document choice page do users find most valuable?"
+  - "What sections do users have questions about?"
+  - "Do people understand the content and that they need to upload mental health documents first?"
+  - "Can users easily find and interact with interactive elements (additional info, accordion)?"
+  - "Can users find specific pieces of information within interactive elements?"
+  - "Is the information provided enough to support accurate decision-making?"
+  - "From initial Evidence Orientation page, are users clear on next steps?"
+  - "Can users successfully upload the right documents in the right sections?"
+  - "Is the process of making changes to user inputs intuitive?"
+  - "How do users categorize their documents and think about them in respect to their claim?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Most participants will understand there are three steps to the supporting evidence upload step"
+  - "Most participants will find specific guidance for uploading mental health documents helpful"
+  - "Most participants will find summary screens helpful for reflecting on and confirming their upload choices"
+  - "Most participants will understand document descriptions and find external links supportive"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Better understanding of claimants' experience uploading documents. Insights on usability, language clarity, and navigability of upload flows to inform next iteration and ensure claimants can upload appropriate mental health documents separately from other conditions. Understanding of how claimants think about uploading documents generally as inspiration for future evidence upload redesign."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling targeting return claimants and new claimants with mental health conditions"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Return claimants who have filed a 526 and an 0781, with mental health conditions (at least 3)"
+    - "Most recent application within past 5 years (paper or digital)"
+    - "Claimants who have never filed for disability benefit and have mental health condition(s) (at least 4)"
+    - "At least 3 participants with high school as highest education level"
+    - "At least 3 participants who identify as having a cognitive disability"
+    - "At least 3 participants who are 55+ in age"
+    - "All participants identify as having mental health condition (PTSD, MST, or other trauma-related conditions)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "No more than 3 men"
+    - "At least 4 participants from rural areas"
+    - "At least 4 participants from urban areas"
+    - "At least 2 participants who speak another language fluently"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you able to join the Zoom session from a smartphone?"
+      qualifying_response: "Yes"
+    - question: "Are you comfortable sharing your experience with mental health or traumatic experiences?"
+      qualifying_response: "Yes"
+    - question: "Which mental health conditions apply to you? (PTSD, MST, other trauma-related)"
+      qualifying_response: "At least one condition selected"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Yes qualifies for cognitive disability criteria"
+    - question: "Have you ever filed a claim for disability benefits?"
+      qualifying_response: "Yes (recruit at least 3), No (recruit at least 3)"
+    - question: "If you have filed a claim, how recently did you file?"
+      qualifying_response: "Within the last 5 years (recruit at least 3)"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 7
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-10-20"
+  pilot_participant: "TBD"
+  research_dates: "2025-10-27 to 2025-11-05"
+  research_review_submission: "2025-10-17"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Key Result 1: Improve satisfaction with our web and mobile products by 5 points"
+      - "Key Result 3: 100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up - Attending to health needs"
+  - "Taking care of myself"
+  - "Putting down roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/README.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/eFolders_Migration"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "BNFT: Disability"
+  - "AUD: Veterans"
+  - "PRDT: Form 21-0781"
+  - "PRDT: Form 21-526EZ"
+  - "DSC: Form"
+  - "DSC: Accordion"
+  - "DSP: Ask users for files"
+  - "HDW: Smartphone"
+  - "authenticated"
+  - "remote"
+  - "moderated"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "mental-health"
+  - "evidence-upload"
+  - "PTSD"
+  - "MST"
+  - "cognitive-disability"
 ---
 
 # Research Plan for 0781 Upload Documents, Disability Benefits, Pathways Team, September 2025

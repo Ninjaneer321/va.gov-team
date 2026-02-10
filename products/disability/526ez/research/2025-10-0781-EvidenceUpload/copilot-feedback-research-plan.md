@@ -1,109 +1,118 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Copilot Feedback on Research Plan for Pathways Team, Form 21-0781 Evidence Upload, October 2025"
+date: 2025-10-17
+last_updated: 2025-10-17
+team: "Pathways Team"
+product: "Form 21-0781 Evidence Upload"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans who opt into form 0781 for mental health conditions do not have a specific section to upload supporting evidence, which can delay adjudication or result in claim denial if proper evidence is not provided."
+  product_location: "Authenticated section of VA.gov, within Form 21-526EZ disability compensation application"
+  user_familiarity: "Iteration on existing product - Veterans currently upload all documents at end of form; this creates dedicated section for mental health evidence"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/issues/114046"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "AI-generated feedback analysis and research plan assessment"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Provide comprehensive feedback on research plan structure and content"
+  - goal_2: "Identify gaps, risks, and opportunities in the planned research approach"
+  - goal_3: "Ensure alignment with OCTO-DE priorities and research best practices"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does the research plan adequately address the problem statement?"
+  - "Are recruitment criteria appropriate and mathematically sound?"
+  - "Does the timeline provide sufficient capacity for planned sessions?"
+  - "Are research questions comprehensive and aligned with goals?"
+  - "What accessibility and privacy considerations should be added?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The research plan requires adjustments to meet recruitment and scheduling requirements"
+  - "Additional accessibility testing sessions will strengthen the research outcomes"
+  - "Measurable success criteria will improve alignment with OCTO-DE key results"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Comprehensive feedback document that helps the research team refine their plan to meet VA research standards and achieve more impactful results"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Analysis of proposed recruitment approach"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Evaluation of proposed participant criteria"
+    - "Validation of recruitment mathematics"
+    - "Assessment of inclusivity considerations"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Review of secondary criteria feasibility"
+    - "Consideration of quota complexity"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Analysis of proposed screener questions"
+      qualifying_response: "Assessment of screening effectiveness"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 7
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-10-20"
+  pilot_participant: "TBD"
+  research_dates: "2025-10-27 to 2025-11-05"
+  research_review_submission: "2025-10-17"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve satisfaction with web and mobile products by 5 points"
+      - "100% of transactions processed correctly or user notified of error"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up - Attending to health needs"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2025-10-0781-EvidenceUpload/research-plan.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/README.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "BNFT: Disability"
+  - "AUD: Veterans"
+  - "PRDT: Form 21-0781"
+  - "PRDT: Form 21-526EZ"
+  - "DSC: Form"
+  - "DSP: Ask users for files"
+  - "authenticated"
+  - "remote"
+  - "moderated"
+  - "research-feedback"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "mental-health"
+  - "evidence-upload"
 ---
 
 Below is a focused analysis of the research plan you provided (products/disability/526ez/research/2025-10-0781-EvidenceUpload/research-plan.md) plus recommendations and pointers to relevant repo material. I reviewed the plan content you pasted and products/ and products/disability/ in the va.gov-team master branch to surface relevant artifacts. Note: repository listings I used may be incomplete; you can view the full products folder here for more results:

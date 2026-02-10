@@ -1,109 +1,133 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Philadelphia VAMCs Clinical Reminders Staff/Provider Survey, April 2025"
+date: 2025-04-01
+last_updated: 2025-04-01
+team: "Healthcare Questionnaires Team"
+product: "Clinical Reminders - BHL Questionnaire Platform"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The Clinical Reminder system helps clinical care staff deliver higher quality care but clinicians face increased burden from data entry and notification fatigue. Philadelphia area VAMCs and CBOCs have been using the BHL questionnaire platform tool to send clinical reminders to patients before their primary care appointments."
+  product_location: "BHL questionnaire platform integrated with Power BI and CPRS software at Philadelphia VAMCs and CBOCs"
+  user_familiarity: "Iteration - staff are currently using the BHL platform and this research assesses their experience"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/questionnaire/research"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "survey - quantitative and qualitative data collection"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "Philadelphia area VAMCs and CBOCs"
+    point_of_contact: "OCC"
+    equipment: "MS Forms platform via VA email"
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess the BHL tool's ease of learnability and use among PACT team clinical staff and primary care physicians"
+  - goal_2: "Evaluate clinical workflow compatibility of the BHL questionnaire platform"
+  - goal_3: "Assess the interoperability between Power BI and CPRS software already in use at VAMCs"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How easy was it to learn to use the tool?"
+  - "How easy was the configuration/set up process for the tool?"
+  - "How long did it take to learn to use the tool?"
+  - "Would providers change anything about the training they received? If yes, what?"
+  - "How easy is the tool to utilize?"
+  - "Was data entry simplified?"
+  - "Was notification fatigue reduced?"
+  - "Was overall clinic reminder burden reduced?"
+  - "Did the quality of the time providers spend with patients improve?"
+  - "How much time do providers estimate was saved by collecting these clinical reminder responses prior to the appointment?"
+  - "Were providers workflows affected either positively or negatively? If yes, how?"
+  - "Do providers feel this process maintains an appropriate level of safety and clinical integrity?"
+  - "How could the tools or experience be improved or changed?"
+  - "Were participants aware of the 'surrogate' feature before using the tool?"
+  - "Was there an increase in Veteran positive responses with asynchronous clinical reminders versus responses that were gathered in-person?"
+  - "On average, how often are Veterans' responses are not reviewed in a timely manner before a Veterans appointment?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The tool will reduce overall clinical reminder burden for staff/providers, including data entry and notification fatigue"
+  - "Staff/providers will perceive asynchronous clinical reminders to be a safe way to gather this information from Veterans"
+  - "Staff/providers will identify areas to improve the ease of use within the BHL tool and their workflow"
+  - "Staff/providers will notice an increase in positive response with asynchronous clinical reminders versus response obtained during in-person"
+  - "At least 50% of staff/providers will not be aware of the full extent of the BHL 'surrogate' feature"
+  - "All staff/providers will not review a Veterans' response before their appointment at least 1 time in a typical week"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The survey data will provide quantitative and qualitative evidence on the BHL questionnaire platform's impact on clinical workflows, provider burden, data entry efficiency, and patient care quality. Results will inform decisions about enterprise-level questionnaire platform adoption."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "OCC (Office of Connected Care)"
+  approach: "Cohort-based sampling of clinical staff at Philadelphia VAMCs"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Cohort 1: 40 Licensed practical nurses (LPNs)"
+    - "Cohort 2: 40 Medical support assistants/Advanced medical support assistants (MSAs/AMSAs)"
+    - "Cohort 3: 40 Licensed social workers (LICSWs)"
+    - "Cohort 4: 40 Primary care physicians (PCPs)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Staff who have actively used the BHL questionnaire platform"
+    - "Staff from diverse Philadelphia area VAMCs and CBOCs"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you used the BHL questionnaire platform tool to send clinical reminders to patients?"
+      qualifying_response: "Yes"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 160
+  completed_sessions_goal: 80
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-04-10"
+  pilot_participant: "N/A - unmoderated survey"
+  research_dates: "2025-04-15 to 2025-04-18"
+  research_review_submission: "2025-04-05"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 15
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhance Veterans' personalized online experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve Veterans' healthcare outcomes with digital tools"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/questionnaire/research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Clinical staff"
+  - "AUD: Healthcare providers"
+  - "BNFT: Healthcare"
+  - "PRDT: Clinical reminders"
+  - "PRDT: Health questionnaires"
+  - "survey"
+  - "unmoderated"
+  - "remote"
+  - "authenticated"
+  - "BHL-platform"
+  - "CPRS"
+  - "Power-BI"
+  - "workflow-assessment"
+  - "provider-burden"
+  - "PACT-team"
+  - "Philadelphia-VAMC"
 ---
 
 # Philadelphia VAMCs research plan for staff/provider moderated interviews or surveys April 2025 

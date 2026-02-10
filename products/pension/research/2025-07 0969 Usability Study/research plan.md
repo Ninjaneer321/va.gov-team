@@ -1,109 +1,144 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Pension Team, Form 21P-0969 Usability Study, July 2025"
+date: 2025-07-01
+last_updated: 2025-07-01
+team: "Pension and Burials Team"
+product: "Form 21P-0969 Income and Assets Statement"
+product_area: "authenticated and unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "When a Veteran is instructed to complete form 0969 as part of the pension application process, a streamlined digital experience is not currently available, defaulting to a PDF form. The 0969 form contains fourteen sections requiring detailed personal and financial data. When Veterans must complete both 0969 and 527EZ together, the risk of fatigue and confusion increases."
+  product_location: "VA.gov - can be accessed authenticated or unauthenticated as part of Pension or DIC application process"
+  user_familiarity: "New product - Currently only PDF form available. This initiative intends to reduce fatigue and confusion through up-front questions and thoughtful design that provides a more efficient and clearer path through the 0969 form."
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/21P-0969-product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews with usability testing using high-fidelity prototype"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess initial comprehension and mental load while engaging with the form"
+  - goal_2: "Evaluate interaction with the 'List and Loop' model for income and assets"
+  - goal_3: "Test clarity of labels, categorization, and task completion across steps"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do users feel overwhelmed by the introduction page content?"
+  - "Do they read, skim, or skip the onboarding information?"
+  - "Do they understand what the form will ask of them before proceeding?"
+  - "Do users understand they are entering individual items into a repeatable list structure?"
+  - "Is the repeated flow of questions (e.g., asking the same details per entry) intuitive or frustrating?"
+  - "Do users clearly understand how to add income for multiple recipients and why certain inputs reappear?"
+  - "Are any expected income types hard to categorize or missing altogether?"
+  - "Are income and asset categories labeled clearly and understood correctly?"
+  - "Can users differentiate between property and business assets without confusion?"
+  - "After submitting the 0969, do users know what comes next (uploading documents or returning to different form)?"
+  - "Are participants confident they've included all relevant financial information?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The Veteran will be provided an efficient path through data collection through up-front and conditional questions that ease their form filling burden"
+  - "Participants are able to complete the 0969 form based on scenarios provided with minimal friction"
+  - "Participants are able to understand the terms used in the form and answer all questions asked of them"
+  - "Participants express that they would prefer to use this form over a paper version in a real-life scenario"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate designs of the digitized form and identify usability issues or comprehension gaps. Identify additional opportunities to improve 0969 post-MVP."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Partner closely with Perigean, finalizing exact criteria based on screener outcomes. Research team to make final determination regarding who is invited with Perigean input."
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans age 65 or older"
+    - "Annual income under $50,000 (preferred - will finalize based on screener results)"
+    - "Have applied for or received Veterans Pension benefit (preferred - current recipients)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Experience applying for and receiving Veterans Pension"
+    - "30% people of color"
+    - "25% live in a rural area"
+    - "25% without a degree"
+    - "10% women"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you 65 years or older?"
+      qualifying_response: "Yes"
+    - question: "Please select the annual income that applies closest to you"
+      qualifying_response: "Less than $20,000 or $20,000 to $49,000 (preferred)"
+    - question: "Have you ever applied for a mortgage for a home or business?"
+      qualifying_response: "No (preferred)"
+    - question: "Please select all assets that you may have"
+      qualifying_response: "Any selection"
+    - question: "Have you ever applied for or received a Veterans Pension benefit?"
+      qualifying_response: "Yes I receive Veterans Pension currently (preferred)"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-07-03"
+  pilot_participant: "Jessica Jones"
+  research_dates: "2025-07-16 to 2025-08-01"
+  research_review_submission: "2025-06-27"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 90
+  buffer_minutes: 60
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Key Result 1: Improve satisfaction with our web and mobile products by 5 points"
+      - "Key Result 2: We have reduced the total time Veterans spend waiting for a response by 50%, towards a goal of less than 4 seconds per transaction"
+      - "Key Result 3: 100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
+  - objective: "Objective 2: OCTO's platforms are the fastest, most efficient, and most secure way to deliver products at VA"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Key Result 1: 100% of authentications to our systems and tools occur using a secure credential"
+      - "Key Result 2: We have reduced the total error rates in our platforms by 50% compared to Q4 2024, towards a goal less than 1% per endpoint"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024-09%20527EZ%20VSO%20Research/research-findings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024-05%20527EZ%20VSR%20Shadowing/report.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024%2002%20Pension%20Usability%20Evaluation/research-findings.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "BNFT: Pension"
+  - "AUD: Veterans"
+  - "PRDT: Form 21P-0969"
+  - "PRDT: Pension"
+  - "DSC: Form"
+  - "DSP: List and loop"
+  - "authenticated"
+  - "unauthenticated"
+  - "remote"
+  - "moderated"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "financial-information"
+  - "income-assets"
+  - "seniors-65+"
 ---
 
 
