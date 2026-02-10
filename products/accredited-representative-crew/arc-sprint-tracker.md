@@ -7,7 +7,10 @@ _Overview: This tracker is designed to track sprint goals with completed work, p
 ## Sprint 10 Goals
 
 **Team Accreditation**
-
+1. **Enable Individual Acceptance of Representation Requests**: Content development, continuing engineering, preparing artifacts
+2. **[Rep Data] Address Approximation**: Pending Mapbox API key, verify instrumentation and prepare for deployment
+3. **[Rep Data] GCLAWS SQL Server API Integration**: Handle the response (xlsx file) and create monitoring/reporting
+ 
 **Team Benefits**
 
 **Team Appoint**
@@ -24,6 +27,22 @@ TBD
 ## Sprint 10 Tickets
 
 **Team Accreditation**
+|Title|URL|Status|Estimate|
+|---|---|---|---|
+|Implement new data model in veteran module|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130643|In QA|5|
+|Write deactivation functionality for OrganizationRepresentative model|https://github.com/department-of-veterans-affairs/va.gov-team/issues/132398|External Review|3|
+|Include representatives with an invalid full address, but valid zip code or city/state combo in Find a Rep search results|https://github.com/department-of-veterans-affairs/va.gov-team/issues/120822|Blocked|5|
+|General Onboarding to VA [Shaunna]|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130624|Blocked|5|
+|Write the service to connect to the SQL Reporting Server and handle the xlsx file|https://github.com/department-of-veterans-affairs/va.gov-team/issues/127918|In Progress|5|
+|Contact Center update for Address Approximation|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130548|In Progress|2|
+|Coordination / Process for maintenance of permissions|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130735|In Progress|3|
+|Research: logic in Appoint a Rep for digital submissions|https://github.com/department-of-veterans-affairs/va.gov-team/issues/132316|In Progress|SPIKE|
+|Research: what sort of updates to the frontend and backend of the ARP need to be done to display a rep's 16A requests?|https://github.com/department-of-veterans-affairs/va.gov-team/issues/132481|In Progress|SPIKE|
+|Update existing Accreditation API job to include fallback (SQL API)|https://github.com/department-of-veterans-affairs/va.gov-team/issues/126324|Sprint Backlog|3|
+|Monitoring / reporting for Address Approximation|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130547|Sprint Backlog|3|
+|Content: Individual Acceptance of Rep Reqs|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130550|Sprint Backlog|5|
+|Update data ingestion job and populate join table|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130645|Sprint Backlog|5|
+|Update 21-22 PDF generation to fill field 16A|https://github.com/department-of-veterans-affairs/va.gov-team/issues/132318|Sprint Backlog|3|
 
 **Team Benefits**
 
@@ -96,19 +115,22 @@ TBD
 
 **Team Accreditation**
 
-|Title|URL|Status|Estimate|
-|---|---|---|---|
-|Include representatives with an invalid full address, but valid zip code or city/state combo in Find a Rep search results|https://github.com/department-of-veterans-affairs/va.gov-team/issues/120822|PR Review|5|
-|Write a job to populate the 'new' accredited entities using data from Trexler file|https://github.com/department-of-veterans-affairs/va.gov-team/issues/129161|PR Review|5|
-|Chapter 6: Ensure fields align, use schema for validation, unit tests|https://github.com/department-of-veterans-affairs/va.gov-team/issues/112535|Blocked|3|
-|Implementing frontend changes associated with Address Approximation|https://github.com/department-of-veterans-affairs/va.gov-team/issues/129436|Blocked|5|
-|Write the service to connect to the SQL API and handle the response|https://github.com/department-of-veterans-affairs/va.gov-team/issues/127918|Sprint Backlog|5|
-|Design: Individual Acceptance of Rep Reqs|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130549|Sprint Backlog|5|
-|Implement new data model in veteran module|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130643|Sprint Backlog|5|
-|Update data ingestion job and populate join table|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130645|Sprint Backlog|5|
-|General Onboarding to VA [Shaunna]|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130624|Sprint Backlog|5|
-|Coordination / Process for maintenance of permissions|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130735|Sprint Backlog|3|
-|Contact Center update for Address Approximation|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130548|Sprint Backlog|2|
+|Title|URL|Status|Estimate|Stretch Goal|Reason for carry over|
+|---|---|---|---|---|---|
+|Chapter 6: Ensure fields align, use schema for validation, unit tests|https://github.com/department-of-veterans-affairs/va.gov-team/issues/112535|Done|3|||
+|Write a job to populate the 'new' accredited entities using data from Trexler file|https://github.com/department-of-veterans-affairs/va.gov-team/issues/129161|Done|5|||
+|Implementing frontend changes associated with Address Approximation|https://github.com/department-of-veterans-affairs/va.gov-team/issues/129436|Done|5|||
+|Design: Individual Acceptance of Rep Reqs|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130549|Done|5|||
+|Implement new data model in veteran module|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130643|In QA|5||Pending Team review|
+|Write deactivation functionality for OrganizationRepresentative model|https://github.com/department-of-veterans-affairs/va.gov-team/issues/132398|External Review|3|Yes|Pending Platform/External Team review|
+|Include representatives with an invalid full address, but valid zip code or city/state combo in Find a Rep search results|https://github.com/department-of-veterans-affairs/va.gov-team/issues/120822|Blocked|5||Blocked|
+|General Onboarding to VA [Shaunna]|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130624|Blocked|5||Blocked|
+|Write the service to connect to the SQL API and handle the response|https://github.com/department-of-veterans-affairs/va.gov-team/issues/127918|In progress|5||Work still in progress|
+|Contact Center update for Address Approximation|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130548|In progress|2||Work still in progress|
+|Coordination / Process for maintenance of permissions|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130735|In progress|3||Work still in progress|
+|Research: logic in Appoint a Rep for digital submissions|https://github.com/department-of-veterans-affairs/va.gov-team/issues/132316|In Progress|SPIKE|Yes|Work still in progress|
+|Research: what sort of updates to the frontend and backend of the ARP need to be done to display a rep's 16A requests?|https://github.com/department-of-veterans-affairs/va.gov-team/issues/132481|In Progress|SPIKE|Yes|Work still in progress|
+|Update data ingestion job and populate join table|https://github.com/department-of-veterans-affairs/va.gov-team/issues/130645|Sprint Backlog|5||Over-planned / capacity reached|
 
 **Team Benefits**
 |                                                                             |                                                                          |             |       |
