@@ -1,14 +1,18 @@
 # Identity index and team documentation information architecture
 
-This is  information architecture research for our internal team documentation hosted on Github. The output will be an index of Identity team-owned components, applications, integrations, and services.
-
 ## Overview
 
-This is a draft information architecture (IA) for an index page of all the components, applications, integrations, and services that the Identity team has previously shipped and currently maintains. These structures include items from the card sort exercise, and additional items team members called out as “missing” in open response questions.
+This folder stores information architecture (IA) research to clean up our existing team documentation.
+- [Information architecture research for internal team documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2025-07%20team%20documentation%20IA/identity-team-documentation-index.pdf) 
+- [Index of Identity team applications, integrations, and services](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2025-07%20team%20documentation%20IA/identity-index.md)
+- [Quick cleanup audit for Github documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2025-07%20team%20documentation%20IA/github-documentation-audit-and-recomendations.md)
 
-[Link to full findings report](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2025-07%20team%20documentation%20IA/identity-team-documentation-index.pdf)
+## Initial research
+The initial research produced three information architecture structures using items from the card sort exercise and additional items team members called out as “missing” in open response questions.
 
 A key finding is that our team supports platform-wide components **alongside** standalone services and strategic initiatives. These 3 structures present how we might evolve our current mental model of “frontend” and “backend” to clarify how we support the Veteran experience through everything we work on.
+
+[Link to full findings report](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2025-07%20team%20documentation%20IA/identity-team-documentation-index.pdf)
 
 Each IA is illustrated with a “truncated structure” to show you how items are organized from a high level, and an “expanded structure” to illustrate where each item is situated within the IA.
 
