@@ -255,11 +255,11 @@ After participants finished filling out the form, we asked when they thought the
 - _Supporting data: Quote [add context]_  
 
 ### Finding 3: All participants used the "Finish later" button to stop filling out the form, and then they successfully resumed the form. 
-All 7 participants found the "Finish later" button intuitive to save their work, even if they didn't remember it from the interstitial page. Only one person said they knew that it would save from their past experience with VA forms. One participant said that he was leery of losing his work if he stops in the middle:
+**All 7 participants found the "Finish later" button intuitive to save their work**, even if they didn't remember it from the interstitial page. Only one person said they knew that it would save from their past experience with VA forms. One participant said that he was leery of losing his work if he stops in the middle:
 
 > *"I'd just sit here and finish it until I was done...I hate doing work and then having to come back and redo the exact same thing.  Experience over time [with non-VA forms] has taught me to not trust what it's supposed to do...If it works like it should, everything up to the point where I stop should remain filled out, and when I log back in...it should take me right where I left off" (p9).*
 
-5 of 7 participants knew that they needed to sign in to resume their form. One participant didn't know that, and another participant didn't need to sign in because of a prototype malfunction. 6 of the 7 participants resumed their form from the My VA page, and one did it from the form intro page.  
+5 of 7 participants knew that they needed to sign in to resume their form. One participant didn't know that, and another participant didn't need to sign in because of a prototype malfunction. **6 of the 7 participants resumed their form from the My VA page**, and one did it from the form intro page.  
 
 > *"Right back to where I left off" (p11).*
 
@@ -268,11 +268,11 @@ All 7 participants found the "Finish later" button intuitive to save their work,
 After resuming the form
 
 ### Finding 4: All participants who interacted with the accordions on the Review/Submit page were able to easily open and close them with the controls on the left side (instead of the right).
-6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issue with the "+" control being on the left side (instead of on the left in the current VA Design System). This included the participant who was using a screen magnifier. In the [previous round of usability testing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#finding-6-va-forms-in-general-had-accessibility-issues-for-screen-readers-and-screen-magnifiers), a participant using a screen magnifier didn't understand how to interact with these accordions when the "+" control was on the right because it wasn't visible to him. 
+6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side (instead of on the left in the current VA Design System). This included the participant who was using a screen magnifier. In the [previous round of usability testing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#finding-6-va-forms-in-general-had-accessibility-issues-for-screen-readers-and-screen-magnifiers), a participant using a screen magnifier didn't understand how to interact with these accordions when the "+" control was on the right because it wasn't visible to him. 
 
 One participant interpreted the accordions as providing extra information to help the VA find their records, and he was surprised when he saw that it was only the information that he had already entered.
 
-Two participants didn't notice the "Expand all" link, one of whom said that the text was so small. That participant said that he would have clicked on "Expand all" if he had seen it, instead of opening each accordion one at a time. A third participant said that they never use "Expand all" because they are too overwhelmed by the length of what might expand, so it's easier for them to expand each accordion, one at a time.
+Two participants didn't notice the "Expand all" link, one of whom said that the text was too small. That participant said that he would have clicked on "Expand all" if he had seen it, instead of opening each accordion one at a time. A third participant said that they never use "Expand all" because they get too overwhelmed by the length of what might expand, so it's easier for them to expand each accordion, one at a time.
 
 
 ### Finding 5: XX had some accessibility issues ...
@@ -300,6 +300,10 @@ Two participants didn't notice the "Expand all" link, one of whom said that the 
    - _Supporting evidence: 4 of 8 participants didn't know what these phrases meant when seeing them as links on the interstitial page._
 
 
+1. **Move accordion controls to the left side of the item so as to increase visibility for screen magnifier users who may not see any controls on the right.** Pass along this finding to Chandra Carney with the US Web Design System.
+   - _Supporting evidence: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier._
+
+1. **Consider keeping the "Expand all" link (ADD FROM SLACK DM CONVO W/JEANA)**
 ## Product User and Business Outcomes
 
 *Explain how findings and recommendations align with the product's goals.*
