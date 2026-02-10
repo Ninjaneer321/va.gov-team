@@ -2,10 +2,40 @@
 
 _Overview: This tracker is designed to track sprint goals with completed work, providing a comprehensive view of goals achieved._
 
+# Sprint 10 (Feb 10-23, 2026)
+
+## Sprint 10 Goals
+
+**Team Accreditation**
+
+**Team Benefits**
+
+**Team Appoint**
+
+**Engagement**
+
+## Sprint 10 Demos
+TBD
+
+## Sprint 10 Delivery
+
+TBD
+
+## Sprint 10 Tickets
+
+**Team Accreditation**
+
+**Team Benefits**
+
+**Team Appoint**
+
+**Engagement**
+
+
 # Sprint 9 (Jan 27-Feb 09, 2026)
 
 ## Sprint 9 Goals
-- [ ] Sprint Goals Approved by Enablement   
+- [x] Sprint Goals Approved by Enablement - Jen Bertsch on January 29, 2026 ([Slack conversation](https://dsva.slack.com/archives/C06GE5N7QJ0/p1769706064392649?thread_ts=1769555272.389559&cid=C06GE5N7QJ0)) 
 
 **Team Accreditation**: 
 1. **Enable Individual Acceptance of Representation Requests**: Design work, resolving open engineering questions and beginning development
@@ -18,7 +48,6 @@ _Overview: This tracker is designed to track sprint goals with completed work, p
 3. **[Measure Impact] ARP in Datadog**: POA rep request related to metrics for accept, accept/decline, and expiration
 4. **[Discovery Research] Understanding how reps manage the claims cycle across all clients**: Claimant lifecycle -finalize report
 5. **[526ez submission v2] v2 form 526 submission - UX**: Desk review of past UX research related to claims submission.
-
 
 **Team Appoint**:
 1. **ARC Team Onboarding and Setup**: General onboarding to VA and ARC onboarding (continued)
@@ -43,7 +72,16 @@ _Overview: This tracker is designed to track sprint goals with completed work, p
 
 ## Sprint 9 Demos
 
-TBD
+**Team Benefits**:
+1. Datadog cleanup + Delete ITF submission after 60 days
+
+**Engagement**:
+1. Demo videos available
+2. Onboarding status updates
+3. January Support Report
+
+**Product Metrics**:
+1. January metrics review
 
 ## Sprint 9 Delivery
 
@@ -184,6 +222,9 @@ TBD
 
 
 ## Sprint 8 Delivery
+
+- [x] Sprint Delivery Approved by Enablement - Jen Bertsch on January 28, 2026 ([Slack conversation](https://dsva.slack.com/archives/C06GE5N7QJ0/p1769641628539399?thread_ts=1769555272.389559&cid=C06GE5N7QJ0)) 
+
 Total Completed in Sprint 8: 49 tickets, 105 points + 5 spikes\
 Crew Count in Sprint 8: 16 active teammates (not including Principal Leads)\
 Average Teammate Velocity in Sprint 8: 105 points / 16 teammates = 6.5 points / teammate (not including Principal Leads)\
