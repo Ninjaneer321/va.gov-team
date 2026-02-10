@@ -185,19 +185,9 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
-
-
-## Third Task: Step 3- Add your children - X minutes
-
-  - *Screen: Child's disability details*
-     - Can you talk about what you're thinking as you look at this page?
-     - What would you select here?
-     - How would you decide which option to select?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-
-     
-  - *Screen: Additional information about this child*
+ 
+    
+  - *Screen: Review children no longer on your benefits*
      - Can you talk about what you're thinking as you look at this page?
      - What would you select here?
      - How would you decide which option to select?
@@ -205,37 +195,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      - What would you do next?
 
 
-  - *Screen: Child's address*
-     - Can you talk about what you're thinking as you look at this page?
-     - What would you select here?
-     - How would you decide which option to select?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-
-      
-  - *Screen: Supporting evidence for Jen*
-     - When would you prefer to provide evidence?
-
-     - Can you talk about what you're thinking as you look at this page?
-     - What would you select here?
-     - How would you decide which option to select?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-
-
-  - *Screen: Upload medical records for Jen*
-     - If you wanted to provide evidence later what would you do here?
-
-     - Can you talk about what you're thinking as you look at this page?
-     - What would you select here?
-     - How would you decide which option to select?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-
-
-  - *Screen: Upload a doctor's statement for Jen*
-     - If you wanted to provide evidence later what would you do here?
-
+   - *Screen: Check if someone is missing on your VA benefits*
      - Can you talk about what you're thinking as you look at this page?
      - What would you select here?
      - How would you decide which option to select?
@@ -274,19 +234,36 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      
 # Student dependent flow
 
-## First Task: Sharing prototype & Step 1 - X minutes
+## First Task: Sharing prototype & pre-form pages - 10 minutes
 
 - Now let's take a look at the prototype.
 - Share link
-- We don't put any of your personal information or anything about your personal situation in the prototype so the Veteran name you'll see in the prototype is Curtis.
-- I'm going to ask you to imagine that you receive disability compensation benefits and your two children, Naomi and Jen, are dependents on the benefit. Naomi turns 18 in about 3 months and you receive a letter from VA saying that she will be removed from the benefit when she turns 18. You’ve heard that she can remain on your benefit as a student dependent and she is still in high school, so you log into VA.gov to find out how to take that step.
-- When you log into VA.gov, this is what you see. What would you do next?
+- We don't put any of your personal information or anything about your personal situation in the prototype so the Veteran name you'll see in the prototype is Curtis. Curtis has his wife, his mother-in-law, and his son, and two of his daughters on the benefit. His third daughter was previously on the benefit but was removed after she decided to take a year off from school.
+- One of his daughters on the benefit, Jen, turns 18 in about 3 months and you receive a letter from VA saying that she will be removed from the benefit when she turns 18. You’ve heard that she can remain on your benefit as a student and she'll still be in high school when she turns 18, so you log into VA.gov to find out how to take that step.
+- When you log into VA.gov, what would you be looking for? What information would you be expecting to see? What would be helpful to you?
+- Now I'm going to ask you to imagine that when you log into VA.gov, this is what you see. What would you do next?
 
-- *Screen: 
-     - Can we add step 1 screens to the prototype?
+- *Screen: Verify your dependents for disability benefits*
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
 
 
-## Second Task: Step 2 - Manage dependents - 5 minutes
+ ## Second Task: Step 1 - Veteran information - 5 minutes
+
+- *Screen: Your personal information*
+     - Any feedback on this screen?
+    
+- *Screen: Mailing address*
+     - Any feedback on this screen?
+
+- *Screen: Phone number*
+     - Any feedback on this screen?
+ 
+       
+## Third Task: Step 2 - Manage dependents - 10 minutes
 
 - *Screen: Review your active VA dependents*
      - Can you talk about what you're thinking as you look at this page?
@@ -297,12 +274,16 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 
 
   - *Screen: Select dependents to remove*
-     - Do we have to include this screen?
+     - Can you talk about what you're thinking as you look at this page?
+     - What would you select here?
+     - How would you decide which option to select?
+     - Do you have any other feedback on this page?
+     - What would you do next?
 
-Can we add a flow for Naomi being in school?
 
-
-   - *Screen: School enrollment status for Naomi Garcia*
+   - *Screen: School enrollment status for Jen Garcia*
+     - Let's say that Jen is not in school at this time
+    
      - Can you talk about what you're thinking as you look at this page?
      - What would you select here?
      - How would you decide which option to select?
@@ -353,10 +334,6 @@ Can the back option be connected here?
      - Do you have any other feedback on this page?
      - What would you do next?
 
-       Why do we go from 5 sections of the form to 4?
-       Can we update the content of the review page to match the convo guide?
-       Do we want a second pass through the flow- let's say that they take time off of school and the dependent is removed from their benefit, then they have to re-add them?
-
 
 ## Fifth Task: Step 4 - Post-submission screen - X minutes
      - Can you talk about what you're thinking as you look at this page?
@@ -365,13 +342,19 @@ Can the back option be connected here?
      - Do you have any other feedback on this page?
      - What would you do next?
 
-     Can you add the Veteran's name?    
+
+## Sixth Task: Add Back - 5 minutes
+
+     - Now could you to click on the big green box and that will take you to the page that we started from. I'm going to ask you to imagine that you that didn't get the paperwork in by Jen's 18th birthday for some reason and she was removed from the benefit. 
+     - What would you do in that case?
+     - Could you use the prototype to show me what you would expect?
 
 
 # Post-Task Interview - 5 minutes
 
 - Now that you've seen all of the screens, do you have any additional feedback?
 - Any questions for me? 
+
 
 ## Consent to use video clips
 
