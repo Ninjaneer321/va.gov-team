@@ -278,7 +278,7 @@ Screener question 1
 
 Screener question 2
 
-* When you sign in to VA.gov and to go My VA (https://va.gov/my-va/), do you see details about "overpayment debts" under the section "Outstanding debts"? (this is different from copay bills)
+* When you sign in to VA.gov and to go My VA, do you see details about "overpayment debts" under the section "Outstanding debts"? (this is different from copay bills)
     * Yes, I see a listing of 1 or more overpayment debts on VA.gov.
     * No, I don’t see any overpayment debt details on VA.gov [DISQUALIFY]
     * I don’t have a VA.gov account / I can’t sign in right now [DISQUALIFY]
@@ -315,9 +315,10 @@ Screener question 6
     * Other
     * Prefer not to say
 
-_[For Perigean's communication with participants]_ Technical pre-requisites for participants (for both iOS and Android)
+_[For Perigean's communication with participants]_ Pre-requisites for participants (for both iOS and Android)
 
 - VA Credentials: You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
+- You have a current benefit overpayment debt that is visible in your VA.gov account (https://va.gov/manage-va-debt/summary)
 - (Android only) Email Access: You can open your email directly on your mobile phone to click the test link.
 - (Android only) Permissions: You are comfortable allowing your phone to "Install Unknown Apps" within your security settings for this session.
 - Testing Tools: You are willing to download TestFlight (iOS) or Firebase App Distribution (Android).
@@ -337,7 +338,7 @@ _[For Perigean's communication with participants]_ Technical pre-requisites for 
 ### Primary criteria (must-haves)
 
 - `Currently have an overpayment debt`
-- `5 on iOS phones` / `5 on Android phones`
+- `6 on iOS phones` / `6 on Android phones`
 - `Be willing to log in to their VA account with their own credentials`
     - Priority given to those who are willing to share their screens
 
