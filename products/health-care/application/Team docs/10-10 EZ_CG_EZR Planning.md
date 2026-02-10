@@ -58,8 +58,8 @@
 - EZ BUG
      - [ ] EZ Investigate Intro page looping
 - EZR Service History
-     - [ ] Determine how to connect with existing VA Profile integration
-     - [ ] Create connection call to pull service history data
+     - [ ] Complete testing connection call to pull service history data
+     - [ ] Update flow logic for file upload page
      - [ ] Content feedback review for error state & file upload
 - EZ Form status
      - [ ] EZ Tech discovery on additional form statuses on MyVA
@@ -75,7 +75,8 @@
 ### 10-10EZR
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
-- [ ] **SPRINT GOAL** [#130846](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130846) - [FE] Connect to pull in service history for display
+- [ ] **SPRINT GOAL** [#130846](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130846) - [FE] Connect/QA to pull in service history for display
+- [ ] [#123471](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123471) - [FE] Update logic for file upload page
 - [ ] [#132636](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132636) - [UX] Review content feedback on error state and file upload content
 
 #### Obj: EZR [ECNOK on VA.gov Profile](https://github.com/department-of-veterans-affairs/va.gov-team/issues/120581)
