@@ -75,6 +75,7 @@ TBD
 **Team Benefits**:
 1. Delete ITF submission after 60 days
 2. Datadog cleanup
+3. URL updates and header/footer update
 
 **Team Appoint**:
 1. Datadog audit and recommendations for next steps
