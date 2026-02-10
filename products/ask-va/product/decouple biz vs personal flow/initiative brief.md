@@ -47,8 +47,6 @@ Decouple the existing form flow into two distinct personal and business user for
 -  **Functional Outcomes**:  Ask VA application enhanced experience is easily adoptable to the different user types, personal user and business user.
 - **Business Outcomes**: Improved form usablility and increase of inquiry submission completion. `what are we tracking in DD now as it relates to users falling off the form and where?`
 
-  ## stephanie updating outcomes, previous updates lost while GH issues were happeneing ##
-
 ### User Experience Outcomes
 |Outcome|Description|
 |:---|:---|
