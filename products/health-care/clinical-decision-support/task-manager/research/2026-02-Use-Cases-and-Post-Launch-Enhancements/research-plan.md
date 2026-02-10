@@ -547,7 +547,7 @@ Join us, Wednesdays 12:00pm PT / 3:00pm ET
 
 ## Approvals ✅
 
-- `Reviewed by [CDSC HCD Peer] or [CDSC VA HCD Lead] on [MM-DD-YYYY]`
+- `Reviewed by Gretchen Raynak on 2025-02-09`
 
 
 
