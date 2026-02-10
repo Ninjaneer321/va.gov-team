@@ -1,109 +1,120 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Dependent Management Team, Continuous Discovery Pilot, August 2025"
+date: 2025-08-11
+last_updated: 2025-08-11
+team: "Dependent Management Team"
+product: "Dependents Management Tools - Continuous Discovery Pilot"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "VA overpays $250 million in dependent benefits annually. Veterans often don't know when to update dependents, how dependent changes affect benefits, and how VA's verification process works. This leads to overpayments that Veterans must repay."
+  product_location: "Multiple products: Dependency Verification ('Your VA dependents' page), Add/Remove Dependents (form 21-686c/674), Request for Approval of School Attendance - all authenticated"
+  user_familiarity: "Two products exist (Add/Remove Dependents, School Attendance). One (Dependency Verification) launching soon. Three-month pilot testing lightweight, recurring conversations with Veterans."
+  product_brief_url: "https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/_layouts/15/Doc.aspx?sourcedoc=%7BE3[…]0(Dependents%20Man.docx&action=default&mobileredirect=true"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Continuous discovery - recorded, moderated user interviews with recurring cohorts"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "How do Veterans understand what adding and removing dependents does to their benefits?"
+  - goal_2: "How do Veterans understand the dependent verification process?"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What happens to your disability benefits when you remove a dependent from your benefits?"
+  - "What happens to your disability benefits when you add a dependent from your benefits?"
+  - "When do you need to add or remove someone from your benefits? How would you want to learn about this?"
+  - "What does dependent verification mean?"
+  - "What do you think dependent verification does?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The majority of Veterans won't know when they need to update their dependents (what life events trigger it)"
+  - "The majority of Veterans will understand that adding or removing a person from their benefits affects their benefit payment amount"
+  - "Veterans won't understand what verification is and how it relates to benefit payment, like overpayments"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will shape how the team approaches content, alerts and flows within our products. May affect how the three products fit together as a cohesive ecosystem. Fast, low-friction interview format to inform in-flight work, improve decision quality, and strengthen trust."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Representative sample of Veterans receiving disability compensation with dependents"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who receive VA disability compensation"
+    - "Veterans who receive additional VA disability compensation for one or more dependents"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Representative sample of Veterans"
+    - "Can include Veterans who use assistive technology (no prototype used)"
+    - "Recruitment criteria may adjust in future cohorts based on learnings"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you receive VA disability compensation?"
+      qualifying_response: "Yes"
+    - question: "Do you receive additional VA disability compensation for one or more of your dependents?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 5
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 5
+  completed_sessions_goal: 3
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2025-08-21 to 2025-08-25 (Cohort 1), overall pilot 2025-08-11 to 2025-11-13"
+  research_review_submission: "2025-08-07 (reviewed by Ben Delphine)"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Key Result 1: Improve satisfaction with our web and mobile products by 5 points"
+      - "Key Result 3: 100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
+  - objective: "Objective 2: OCTO's platforms are the fastest, most efficient, and most secure way to deliver products at VA"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Key Result 2: We have reduced the total error rates in our platforms by 50% compared to Q4 2024, towards a goal less than 1% per endpoint"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Putting Down Roots: Starting, growing, or maintaining my family"
+  - "Putting Down Roots: Engaging VA to access benefits and services"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Related to ongoing dependents management research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "dependents"
+  - "continuous-discovery"
+  - "pilot"
+  - "benefits"
+  - "verification"
+  - "disability-compensation"
+  - "form-21-686c"
+  - "form-21-674"
+  - "interviews"
+  - "authenticated-experience"
+  - "veterans"
+  - "overpayments"
+  - "foundational-research"
 ---
 
     # Research Plan for Dependent Management Team, Continuous Discovery Pilot, August 2025

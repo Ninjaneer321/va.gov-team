@@ -1,109 +1,126 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for MHV Portal Supply Reordering Tool - Multistep Task Pattern"
+date: 2025-02-01
+last_updated: 2025-02-01
+team: "MHV Portal - Medications and Medical Supplies Pod"
+product: "Medical Supplies Reordering Tool"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Lack of guidance around task design patterns in the design system leads to inconsistencies across VA.gov, making it harder for Veterans to complete routine tasks efficiently"
+  product_location: "MHV on VA.gov - Medical supplies reordering"
+  user_familiarity: "Iteration - testing new multistep task pattern vs existing form pattern"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/supply-reordering-tool"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Unmoderated A/B prototype testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: false
+  platform: "Optimal Workshop prototype testing feature"
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Compare the old (form pattern) and new (task pattern) versions of the medical supplies tool to determine if multistep task pattern makes completing routine tasks faster and easier"
+  - goal_2: "Understand Veterans' expectations when completing routine tasks"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Which pattern option enables Veterans to complete reordering medical supplies more quickly?"
+  - "Which pattern option do Veterans find to be more intuitive and less difficult to use?"
+  - "What are Veterans' expectations when completing routine tasks?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The average time to complete tasks will be lower on the new pattern"
+  - "The task success rate will be greater on the new pattern"
+  - "A higher proportion of Veterans will find the new pattern to be more intuitive and satisfying than the old experience"
+  - "Veterans expect to complete routine tasks quickly and in one session, rather than expecting to leave and come back to the task"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate if a new pattern for routine tasks is a better process for simple task completion than a form pattern, informing future design system pattern development"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Diverse sample of Veterans with active MHV accounts"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be Veterans"
+    - "Must currently receive VA healthcare benefits"
+    - "Must have an active MHV account that they have accessed at least once in the past 12 months"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+  secondary_criteria: []
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have a My HealtheVet (MHV) account?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 766
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 766
+  completed_sessions_goal: 766
+  cohorts: "2 cohorts (383 per cohort): test A (form pattern) and test B (task pattern)"
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-02-19"
+  pilot_participant: "10 veterans total (5 per test version)"
+  research_dates: "2025-02-26 to 2025-03-28"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: "Self-paced unmoderated"
+  buffer_minutes: 0
+  max_sessions_per_day: "N/A - unmoderated"
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Key Result 1: Improve satisfaction with our web and mobile products"
+      - "Key Result 2: Reduce the total time Veterans spend waiting for a response from our digital experiences"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
+  previous_studies: []
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "medical-supplies"
+  - "reordering"
+  - "ab-testing"
+  - "unmoderated"
+  - "task-pattern"
+  - "form-pattern"
+  - "veterans"
+  - "mhv"
+
+# Team Roles
+team_roles:
+  moderator: "N/A - unmoderated"
+  research_guide_writer: "Jina Ryu and Jenny Wang"
+  recruiting_screening: "Jina Ryu"
+  project_poc: "Jina Ryu"
+  pilot_participant: "Kaitlin Fink"
+  analysis: "SPSS for statistical analysis"
+
+# Additional Materials
+task_script_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/supply-reordering-tool/research/2025-02%20Multistep%20task%20pattern%20research/taskscript.md"
+optimal_workshop_test_a_url: "https://ows.io/pt/khkny3yp"
+optimal_workshop_test_b_url: "https://ows.io/pt/u8orqbii"
+sample_size_calculation: "Based on population size of 70,000 medical supplies users, 95% confidence, and 5% margin of error = 383 per cohort"
 ---
 
 

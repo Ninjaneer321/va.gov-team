@@ -1,109 +1,136 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Benefits and Claims Dependents Verification On-Platform MVP 02-2025"
+date: 2025-02-10
+last_updated: 2025-02-10
+team: "Benefits and Claims - Dependents"
+product: "Dependents Verification MVP"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "VA mails Form 21-0538 to Veterans with dependents every eight years to verify dependent status. Veterans are responsible for notifying VA of changes between notifications, resulting in significant over and underpayments costing ~$250 million annually and burdening Veterans with debt."
+  product_location: "Authenticated experience - 'Your VA dependents' page under 'View or change dependents', accessible via email notification"
+  user_familiarity: "Combination of new and existing products - new annual notification email and digitized Form 21-0538, existing 21-686c/674 tool for updates. Veterans only verify every 8 years so familiarity varies."
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/dependency_verification/initiative-brief-dependent-verification-tool.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Mixed methods - foundational research with semi-structured interviews and usability testing with prototype"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand the Veteran's mental model of dependent verification on VA.gov and their expectations for finding tools and completing tasks around dependent management"
+  - goal_2: "Validate the usability of our 0538 email notification and va.gov designs and determine whether they provide a clear path to verify and update dependents and where they might impede the Veteran from completing tasks"
+  - goal_3: "Understand how the flow, designs, and copy impact the Veteran's understanding of the task"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How does the Veteran find dependent management info and tools on VA.gov?"
+  - "What actions and benefits do they associate with dependent management?"
+  - "How do Veterans expect to be able to accomplish tasks they associate with dependent management?"
+  - "Do directions and other informative language provide clarity or confusion?"
+  - "Do the designs allow most Veterans to verify their dependents in one sitting?"
+  - "Do we see indicators that a Veteran would take action immediately upon receiving the email?"
+  - "What content or IA decisions might impede the Veteran from completing the task to verify or update?"
+  - "Is the Veteran familiar with VA Form 0538?"
+  - "Does the Veteran's mental model match the task they're completing?"
+  - "Does the Veteran understand the impact of the dependency verification task?"
+  - "Do Veterans answer the yes/no question accurately and with clarity based on their dependents situation?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Most Veterans will be familiar with VA.gov notifications and engage directly with the email notification"
+  - "Veterans will use VA.gov's search or benefits menu to find dependent management tools and information"
+  - "Most Veteran's mental models will match the task to verify or update dependents"
+  - "Veterans will understand the difference between the tasks to verify and update"
+  - "Most Veterans will complete the dependency verification task with clarity and in one sitting"
+  - "Veterans will expect to be able to edit, add, or remove individual dependents quickly"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Build greater understanding of Veteran's mental model of dependent verification and usability of the flow, identify key moments of clarity/confusion. Findings will inform improvements to design, language, flow, IA, and entry points. Will support reducing $250M annual overpayment costs and Veteran debt burden."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Lean maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans with disability benefits or Pension benefits"
+    - "Veterans with dependents on their VA benefits (disability or Pension) currently or previously"
+    - "Representative of the VA population"
+    - "At least 50% with cognitive impairment"
+    - "Comfortable reading English"
+    - "Have access to computer or device that runs Zoom and the prototype"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Representative demographics across various cognitive abilities"
+    - "Exclude assistive technology users for this lightweight prototype research"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you ever claimed one or more dependent(s) on your VA benefits (disability or Pension)?"
+      qualifying_response: "Yes"
+    - question: "Select the relationship of your dependent(s): Spouse, biological child, stepchild, adopted child, child under 18, child 18-23 in school, permanently disabled child, parent"
+      qualifying_response: "At least one selected"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "At least 50% answer yes for cognitive disability representation"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-02-04 to 2025-02-07"
+  pilot_participant: "TBD"
+  research_dates: "2025-02-10 to 2025-02-14"
+  research_review_submission: "2025-01-27"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "1.2 Number of transactions processed using our products have increased by 25%"
+      - "1.3 All new products have a faster transaction time than those they replaced"
+  - objective: "Objective 2: Our platforms are the best way to deliver products at VA"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Support platform delivery efficiency"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out: Engaging VA to access benefits and services"
+  - "Putting down roots: Taking care of my family"
+  - "Retiring: Finding additional sources of income"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/2023-09-dependents-research/research-findings.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "dependents"
+  - "benefits"
+  - "verification"
+  - "form-21-0538"
+  - "usability-testing"
+  - "foundational-research"
+  - "prototype"
+  - "authenticated-experience"
+  - "veterans"
+  - "cognitive-disability"
+  - "email-notification"
+  - "disability-benefits"
+  - "pension-benefits"
 ---
 
 # Research Plan for Benefits and Claims Dependents Verification On-Platform MVP 02-2025

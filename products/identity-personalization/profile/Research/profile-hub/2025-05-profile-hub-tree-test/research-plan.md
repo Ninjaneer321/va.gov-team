@@ -1,109 +1,122 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience Team, VA.gov Profile: Profile Hub, 05/2025"
+date: 2025-05-01
+last_updated: 2025-05-05
+team: "Authenticated Experience Team"
+product: "VA.gov Profile Hub"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Ensures Veterans and beneficiaries have a cohesive logged-in experience with personalized information to easily understand their benefits and manage their account. We are iterating on the Profile Hub information architecture to incorporate new features, including the ILER IES report (Individual Longitudinal Exposure Record, Individual Exposure Summary) to inform Veterans of toxic exposure information."
+  product_location: "Authenticated experience on VA.gov Profile"
+  user_familiarity: "Iteration on existing VA.gov Profile Hub based on previous user feedback and analytics"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/military-information/2024-ies"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "tree test"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate if incorporating the ILER IES report into a new Letters and documents section in VA.gov Profile matches Veterans mental models"
+  - goal_2: "Validate if updating VA.gov Profile Hub to reflect recommendations from prior research and analytics match Veteran mental models"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans associate the ILER IES report with Letters and documents?"
+  - "Do recommendations to VA.gov Profile Hub, based on prior research and analytics, match Veterans mental models?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Based on prior research, we believe Veterans will associate the ILER IES report with a Letters and documents section"
+  - "Based on prior research and analytics, we believe Veterans will want to manage all their letters and documents in a single section in VA.gov Profile"
+  - "Based on prior research, we believe Veterans will want all of their contacts in a single section in VA.gov Profile"
+  - "Post launch hypothesis: We believe we will see a decrease in top search terms as users will be able to find what they're looking for within the profile"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "A validated IA for incorporating new sections into VA.gov Profile Hub, including a Letters and documents section to house the downloadable ILER IES report"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Segmentation by VA.gov usage frequency"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants have a VA.gov or MyHealtheVet account"
+    - "25 very frequent VA.gov users (Daily or Weekly)"
+    - "25 frequent VA.gov users (Monthly)"
+    - "25 non-frequent VA.gov users (Every few months or Never, but am open to using VA.gov)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "38+ age 55+ years old"
+    - "38+ with cognitive disability"
+    - "28+ people of color (Black, Hispanic, Asian, or Native American)"
+    - "19+ rural location"
+    - "19+ with no degree"
+    - "8+ women"
+    - "3+ LGBTQ+"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have a VA.gov or My HealtheVet account?"
+      qualifying_response: "Yes"
+    - question: "How often do you use VA.gov?"
+      qualifying_response: "Daily, Weekly, Monthly, Every few months, or Never but am open to using VA.gov"
       
 participants:
-  veterans: 0
+  veterans: 75
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 75
+  completed_sessions_goal: 75
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-05-02 to 2025-05-05"
+  pilot_participant: "Multiple individuals async, no meeting needed"
+  research_dates: "2025-05-09 to 2025-05-23"
+  research_review_submission: "2025-05-05"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 15
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve satisfaction with our web and mobile products by 5 points"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2025-03-profile-secondary-research/research-findings.md#military-information"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "authenticated-experience"
+  - "profile"
+  - "profile-hub"
+  - "tree-test"
+  - "information-architecture"
+  - "unmoderated"
+  - "veterans"
+  - "military-information"
+  - "ILER-IES"
+  - "letters-and-documents"
+  - "toxic-exposure"
+  - "evaluative"
+  - "identity-personalization"
 ---
 
 # Research Plan for Authenticated Experience Team, VA.gov Profile: Profile Hub, 05/2025

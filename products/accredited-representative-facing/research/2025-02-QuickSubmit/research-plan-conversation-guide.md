@@ -1,109 +1,140 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for ARF, QuickSubmit Review for ARP, February 2025"
+date: 2025-02-13
+last_updated: 2025-02-24
+team: "Accredited Representative Facing (ARF)"
+product: "Accredited Representative Portal (ARP)"
+product_area: "authenticated"
+study_phase: "discovery"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "VSO representatives need to understand current QuickSubmit functionality and pain points to inform ARP's PDF download/upload tool design. Representatives currently use QuickSubmit, mail, fax, SEP, and third-party tools to submit claims and evidence."
+  product_location: "Accredited Representative Portal on VA.gov"
+  user_familiarity: "Discovery research to inform new ARP feature based on existing QuickSubmit tool"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/README.md"
+  current_solution: "QuickSubmit - VA tool for online submission via PDF upload"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Semi-structured interviews with screen sharing demonstration"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
+  platform: "Microsoft Teams"
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  screen_sharing: true
+  pii_handling: "Secure environment allows PII display during screen sharing"
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "What QuickSubmit functionality are VSO reps utilizing today and why?"
+  - goal_2: "Outside of the speed to submission, what QuickSubmit functionality could be improved?"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How often do you use QuickSubmit?"
+  - "When do you tend to use QuickSubmit versus other tools? Why?"
+  - "Do you have admin access or employee level access to QuickSubmit?"
+  - "At what point in the process of helping a Veteran do you start/stop using QuickSubmit?"
+  - "How do you submit information for a Veteran?"
+  - "How many documents do you typically submit at a time? Why?"
+  - "Do you preview the document? Why? How often?"
+  - "Do you encounter any issues uploading documents? What are they?"
+  - "Is there anything that could be improved with the uploading of documents?"
+  - "Is there a way to indicate priority of submission (e.g., homeless Veteran)?"
+  - "Does QuickSubmit log you out after a certain amount of time? Is the time sufficient?"
+  - "How do you know if you have a POA for this Veteran prior to uploading?"
+  - "Have you used this to submit information for a claimant who is not a Veteran (e.g., spouse)?"
+  - "How do you know when a document has been uploaded?"
+  - "Do you use the CM packet number? Why or why not?"
+  - "Do you use the confirmation number? Why or why not?"
+  - "Do you refer to the Current Stage field? What does that mean to you?"
+  - "How do you receive information on claim upload status, if any?"
+  - "Do you use the Upload history search? When and why?"
+  - "Are there other features in QuickSubmit that are useful to you?"
+  - "What would be your ideal upload experience?"
 
-hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+hypotheses: []
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will inform functionality of the PDF download/upload tool in ARP, so VSO reps find the tool valuable and easy-to-use."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "VSO research panel (internal)"
+  approach: "Targeted recruitment from representative panel"
+  screener: "No formal screener - using existing research panel"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Two-three VSO representatives that represent a large VSO and small or medium VSO"
+    - "All representatives must use QuickSubmit on behalf of claimants"
+    - "Mixture of state representation"
+    - "Mixture of county VSO vs Big 6"
+    - "Mixture of years of experience"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+  secondary_criteria: []
     
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+  screener_questions: []
       
 participants:
+  vso_representatives: 3
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 3
+  completed_sessions_goal: 2
+  participant_type: "VSO representatives (accredited) who use QuickSubmit"
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-02-12"
+  pilot_participant: "ARF team member"
+  research_dates: "2025-02-13 to 2025-02-14"
+  research_review_submission: "2025-02-05"
+  plan_preparation: "2025-02-05"
+  recruitment_emails: "2025-02-07"
+  guide_refinement: "2025-02-11"
+  sessions: "2025-02-13 to 2025-02-14"
+  analysis: "2025-02-14"
+  findings_summary: "2025-02-24"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 30
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Build tools for accredited representatives to submit claims and supporting documentation more effectively and efficiently"
+      - "Redirect traffic from SEP and QuickSubmit to reduce the number of VA tools representatives use"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Living Civilian Life"
+  - "Managing Benefits"
     
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
+  previous_studies: []
+  related_products:
+    - "QuickSubmit"
+    - "Stakeholder Enterprise Portal (SEP)"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "accredited-representative-facing"
+  - "accredited-representative-portal"
+  - "vso-representatives"
+  - "quicksubmit"
+  - "discovery"
+  - "semi-structured-interviews"
+  - "claims-submission"
+  - "authenticated"
+  - "february-2025"
 ---
 
 # Research Plan for ARF, QuickSubmit Review for ARP, Feb 2025

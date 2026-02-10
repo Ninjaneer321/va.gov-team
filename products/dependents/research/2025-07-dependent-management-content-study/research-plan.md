@@ -1,109 +1,137 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Dependent Management Team, Dependent Verification update, July 2025"
+date: 2025-07-10
+last_updated: 2025-07-23
+team: "Dependent Management Team"
+product: "Dependent Verification"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Currently, the VA overpays $250 million in dependent benefits each year. If a Veteran is overpaid a benefit, they are required to re-pay the overpayment back to the VA. One of the most common causes of overpayment is out-of-date dependents information. Updating dependency information outside the 8-year requirement is voluntary, and the burden of remembering to make dependency updates falls on the Veteran. Verifying dependents through a paper form is also burdensome for many Veterans. These problems result in a very low-quality feedback loop for maintaining an accurate list of what dependents are intended to be on the award. Our goal is to decrease the over- and under-payment amount for dependent-related benefits by allowing Veterans to quickly and easily verify their dependents on VA.gov."
+  product_location: "Authenticated experience on VA.gov, 'Your VA dependents' page, accessed after signing into VA.gov"
+  user_familiarity: "Update to existing functionality with enhancements to view dependents page, allowing Veterans to see additional info for each dependent. Adding a question that asks Veterans if their dependent information has changed. VA.gov will automatically generate a 21-0538 form, ask the Veteran to review info, sign statement of truth, and submit. If necessary, they will be directed to fill out add/remove dependents form (21-686c/674)."
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/dependency_verification/initiative-brief-dependent-verification-tool.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "unmoderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "What type of content on the 'Your VA dependents' page, especially in the alert box, is most effective in helping Veterans understand and complete the dependents verification process"
+  - goal_2: "How is it most natural for Veterans to respond after reviewing the current state of the dependents on their benefits (Yes they need to make changes or No they do not OR Yes the current information is correct or No the current information is not correct)"
+  - goal_3: "Do Veterans understand that if they need to make changes to the dependents on their VA benefits they will need to fill out an additional form or forms"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "After looking at this page what would you do next, if anything?"
+  - "What is your response to seeing the alert at the top of the page?"
+  - "When or how often would you expect to see the alert at the top of the page?"
+  - "If you see that a change needs to be made when reviewing your dependents, what would you do?"
+  - "If you left and came back to VA.gov, where would you expect to find information about the additional forms to complete to finish updating your dependents?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Content that emphasizes the risk of debt will make Veteran participants more likely to complete the process"
+  - "Veterans are most likely to abandon the task in the transition between the dependent verification flow and the additional forms"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The findings will be used to update the content in the dependents verification flow to help Veterans understand and complete the process. Verifying dependents decreases the amount of over- and under-payments for dependent-related benefits."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "A/B testing with two design variations"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants receive VA disability compensation"
+    - "All participants receive additional VA disability compensation for one or more dependents"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "23 Veterans between ages 55-64+"
+    - "23 Veterans with cognitive disability"
+    - "23 Veterans who are mobile users"
+    - "12 Veterans who live in rural areas"
+    - "12 Veterans who have no degree"
+    - "8 Veterans of immigrant origin"
+    - "8 Veterans who are women"
+    - "1 Veteran who is expat (living abroad)"
+    - "7 Black or African American Veterans"
+    - "6 Hispanic, Latino, or Spanish origin Veterans"
+    - "2 Biracial Veterans"
+    - "2 Asian Veterans"
+    - "1 Native, American Indian or Alaska Native Veteran"
+    - "1 gay, lesbian, or bisexual Veteran"
+    - "1 transgender Veteran"
+    - "1 nonbinary, gender fluid, gender queer, Two-Spirit, or another gender beyond man or woman Veteran"
+    - "Prototype not accessible so cannot include assistive tech users"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you receive VA disability compensation?"
+      qualifying_response: "Yes"
+    - question: "Do you receive additional VA disability compensation for one or more of your dependents?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 46
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 46
+  completed_sessions_goal: 30
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-07-22"
+  pilot_participant: "Robin Garrison, participant will complete survey at their convenience"
+  research_dates: "2025-07-28 to 2025-08-01"
+  research_review_submission: "2025-07-10"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 20
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improve satisfaction with our web and mobile products by 5 points"
+      - "100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
+  - objective: "OCTO's platforms are the fastest, most efficient, and most secure way to deliver products at VA"
     key_results:
-      - "[Specific KR if applicable]"
+      - "We have reduced the total error rates in our platforms by 50% compared to Q4 2024, towards a goal less than 1% per endpoint"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Putting Down Roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Related to dependent management and verification processes"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "dependents"
+  - "dependent-verification"
+  - "dependent-management"
+  - "unmoderated"
+  - "usability-testing"
+  - "remote"
+  - "veterans"
+  - "disability-compensation"
+  - "content-study"
+  - "A/B-testing"
+  - "evaluative"
+  - "authenticated"
+  - "benefits"
+  - "overpayment"
+  - "21-0538"
+  - "21-686c"
+  - "optimal-workshop"
 ---
 
 

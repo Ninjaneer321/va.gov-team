@@ -1,109 +1,157 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Veteran Transition Experience, Discover Your Benefits tool, July 2025"
+date: 2025-07-09
+last_updated: 2025-07-09
+team: "Veteran Transition Experience Team"
+product: "Discover Your Benefits"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Transitioning Servicemembers (TSMs) and Recently Separated Veterans (RSVs) are particularly overwhelmed by the transition process. The entire process, from planning to separation to adjustment to civilian life can occur over the course of several years. TSMs and RSVs have no easy way to find the range of benefits which they are eligible for, creating vulnerable populations during times of increased risk."
+  product_location: "Unauthenticated questionnaire hosted on VA.gov at https://www.va.gov/discover-your-benefits/introduction"
+  user_familiarity: "Existing product"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/vet-transition-support/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews, usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how to support TSMs' need to keep track of their transition progress/deadlines/tasks/to do list to reduce stress, minimize the possibility of missing deadlines, and improve transition outcomes"
+  - goal_2: "Understand how to improve the tool to address TSMs' unmet needs of support to take action and get help"
+  - goal_3: "Usability testing of the product in staging"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What are TSMs currently doing to track progress, tasks, and deadlines for separation? (Tools and Actions)"
+  - "What current sources of support are TSMs using? (People, Organizations, Other forms of support)"
+  - "Building on existing research about experiences in the 'getting out' part of the Veteran journey, what pain points are TSMs experiencing?"
+  - "How are discharge character, length of service, military branch, and disability impacting this process?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Many TSMs have effective existing networks of support and existing processes, both inside and out of TAP and the military, to manage the transition timeline that we can use as scaffolding for designing the progress and deadline tracking component of our product"
+  - "Others do not have existing networks and processes, making them more vulnerable to having a difficult transition experience"
+  - "Understanding the nuances and differences will enable us to enhance existing support and meet the needs of both groups"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Insights from the generative portion of this research will serve as a foundation for designing a component of the product to help TSMs track their progress and deadlines in transitioning from active service to Veteran. Usability testing portion will improve experience of features added since December 2024 study."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Lean maximum variation strategy with focus on transitioning servicemembers, except for age (overwhelming majority of TSMs and RSVs are under 46). Three separate cohorts for recruitment."
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Cohort 1: 12 Transitioning servicemembers and Recently Separated Veterans (within last year) not in Guard/Reserve"
+    - "Cohort 2: 12 Transitioning servicemembers who were in National Guard or Reserve"
+    - "Cohort 3: 12 Transitioning servicemembers and Recently Separated Veterans (within last year) who have a disability (self-identified)"
+    - "At least 9 per cohort with honorable discharge"
+    - "At least 2 per cohort not receiving honorable discharge"
+    - "At least 1 per cohort retiring after 20 years"
+    - "At least 4 per cohort served more than 4 years"
+    - "At least 6 per cohort without VA.gov accounts"
+    - "At least 3 per cohort who did not participate in TAP (Cohorts 1 & 2)"
+    - "One person from each branch: Army, Navy, Marines, Air Force, Coast Guard"
+    - "Cohort 3: At least 9 with TBI, PTSD, Migraine, MDD, or conditions affecting mood and cognition"
+    - "Cohort 3: At least 3 assistive technology users, preferably new users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 3 women"
+    - "At least 3 people of color"
+    - "7 participants from east coast, 2 from mid-west, 3 from west coast"
+    - "At least 4 people under age 30"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "How would you describe yourself?"
+      qualifying_response: "Currently serving in military (Active Duty, National Guard, Reserves) OR separated within last 5 years"
+    - question: "Which branch have you served in on Active Duty?"
+      qualifying_response: "Air Force, Army, Coast Guard, Marine Corps, Navy, or Space Force"
+    - question: "Which branch have you served in as National Guard or Reserve?"
+      qualifying_response: "Any Reserve or National Guard branch"
+    - question: "Did you receive or anticipate receiving an honorable discharge?"
+      qualifying_response: "Yes or No"
+    - question: "How many years did you serve in the military?"
+      qualifying_response: "1-4 years, 5-19 years, or 20+ years"
+    - question: "Did you participate in TAP?"
+      qualifying_response: "Yes, No, or Not sure"
+    - question: "Do you have a disability such as TBI, PTSD, or depression that affects mood, energy, or memory?"
+      qualifying_response: "Yes for Cohort 3"
+    - question: "Do you use any type of assistive technology devices?"
+      qualifying_response: "Yes preferred for Cohort 3"
       
 participants:
-  veterans: 0
+  veterans: 54
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 54
+  completed_sessions_goal: 36
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-07-09"
+  pilot_participant: "Dan Miller"
+  research_dates: "2025-07-19 to 2025-08-12"
+  research_review_submission: "2025-07-10"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improve satisfaction with our web and mobile products by 5 points"
+      - "We have reduced the total time Veterans spend waiting for a response from our digital experiences by 50%, towards a goal of less than 4 seconds per transaction"
+      - "100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
+  - objective: "OCTO's platforms are the fastest, most efficient, and most secure way to deliver products at VA"
     key_results:
-      - "[Specific KR if applicable]"
+      - "100% of authentications to our systems and tools occur using a secure credential"
+      - "We have reduced the total error rates in our platforms by 50% compared to Q4 2024, towards a goal less than 1% per endpoint"
+      - "100% of VA employees have access to a valuable Generative AI tool to help with their work"
+      - "Each of our platforms and tools increase the number of non-OCTO built capabilities or non-OCTO users by 50%"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Reinventing Myself"
+  - "Putting Down Roots"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "December 2024 usability study"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "veteran-transition"
+  - "transitioning-servicemembers"
+  - "recently-separated-veterans"
+  - "discover-your-benefits"
+  - "semi-structured-interviews"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+  - "generative"
+  - "evaluative"
+  - "mixed-methods"
+  - "benefits-discovery"
+  - "transition-assistance"
+  - "TAP"
+  - "guard-reserve"
+  - "disability"
+  - "assistive-technology"
+  - "getting-out"
+  - "unauthenticated"
 ---
 
 

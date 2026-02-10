@@ -1,109 +1,124 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for BMT-1, Evidence Requests, July 2025"
+date: 2025-07-17
+last_updated: 2025-07-17
+team: "BMT-1 (Benefits Management Tools)"
+product: "Claim Status Tool - Evidence Requests"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Previous research shows that Veterans currently struggle with understanding evidence requests related to their claims in the Claim Status Tool. Delays in responding to evidence requests result in delays to decisions on claims. This research will assess how Veterans perceive the structure, clarity, and usability of the evidence requests they receive on VA.gov."
+  product_location: "VA.gov > Claim Status Tool > Evidence Requests (staging.va.gov/claim-or-appeal-status/)"
+  user_familiarity: "Iteration - improving existing evidence request content and design patterns"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/CST%20Product/Improved%20Evidence%20Requests%20UX%20Initiative%202025-05.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Moderated semi-structured interviews with usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate Veterans' comprehension of evidence requests"
+  - goal_2: "Assess the effectiveness of the new content structure"
+  - goal_3: "Assess Veterans' ability to navigate/locate features and content that support evidence requests"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans understand what VA is asking them to provide in specific evidence requests?"
+  - "How effectively can Veterans understand what action they need to take?"
+  - "Do the headings and ever-present content help Veterans understand actions they can take, even when there's default API content present?"
+  - "Do participants find some response options more difficult or confusing than others (e.g., uploading documents, navigating to a VA form and choosing to download or submit it online, making a change in their My VA)?"
+  - "How do Veterans navigate the context surrounding the evidence request submission?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Claimants are unsure what they are being asked to provide for an evidence request. When we offer plain language explanations and descriptions of the actions they need to take, along with hyperlinks, claimants' confidence and trust are increased."
+  - "Claimants have concerns about whether VA is taking sufficient action on their claims. Understanding the requests that are being made of 3rd parties can reduce those concerns. However, when that information is unintelligible, it raises those concerns."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will give us a better understanding of claimants' experience of the VA.gov Claim Status Tool's evidence requests usability, language clarity, and navigability. These insights will help ensure claimants can respond quickly to requests, reducing the time it takes to get a decision on their claims."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Inclusive recruitment with diversity criteria"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "2/3 participants have submitted a disability claim in the past"
+    - "1/3 participants have not used VA.gov to check on their claims in the past"
+    - "Users with access to a desktop or mobile device with internet"
+    - "50% of users aged 55–64+"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Veterans who have uploaded documents or submitted evidence as part of a claim"
+    - "Veterans with varying levels of confidence navigating VA.gov"
+    - "Veterans with cognitive disabilities"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "How often do you use VA.gov?"
+      qualifying_response: "Daily, Weekly, Monthly, or open to using VA.gov"
+    - question: "Have you ever submitted a VA claim or supporting documents using the VA.gov website (Claim Status Tool)?"
+      qualifying_response: "Yes or No"
+    - question: "When you receive a message from VA asking for more information or documents to support your claim, how do you usually respond?"
+      qualifying_response: "Various responses accepted"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-08-20"
+  pilot_participant: "michael.collier@agile6.com"
+  research_dates: "2025-08-25 to 2025-08-29"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Veterans can quickly understand and respond to evidence requests, reducing decision time on claims"
+  - objective: "Objective 2: OCTO's platforms are the fastest, most efficient, and most secure way to deliver products at VA"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Improved content structure and plain language reduce confusion and increase trust"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself - managing ongoing disability claims and evidence submission"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Previous research on evidence request comprehension challenges"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/CST%20Product/Improved%20Evidence%20Requests%20UX%20Initiative%202025-05.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Claim-status-tool"
+  - "PRDT: Decision-reviews"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "authenticated"
+  - "DSC: Form - File Input"
+  - "DSP: Ask users for files"
+  - "DSP: Content Presentation"
+  - "DSP: Notifications"
+  - "DSC: Links"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "moderated"
+  - "remote"
+  - "plain-language"
 ---
 
 # Research Plan for BMT-1 | Evidence Requests | 7/17/2025

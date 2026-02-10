@@ -1,109 +1,135 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Auth Experience, My VA 3.0, 2025/08"
+date: 2025-08-08
+last_updated: 2025-08-08
+team: "Authenticated Experience Team"
+product: "My VA 3.0"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The Veteran experience is currently impacted by a static My VA page that does not prioritize or surface the most relevant, time-sensitive actions, hindering timely engagement with benefits and services. Furthermore, while updates are received via text and email, there is no centralized notification experience on VA.gov for viewing, acting upon, and managing all communications. Our product aims to empower Veterans by providing immediate attention to critical items and enabling direct action from the My VA page."
+  product_location: "Authenticated experience on VA.gov My VA page"
+  user_familiarity: "Iteration on current My VA page based on previous user feedback and analytics to incorporate new features such as a centralized notification experience"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va-3.0"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate if incorporating critical alert components and notifications center will guide Veterans toward timely actions and create a more responsive, personalized homepage experience"
+  - goal_2: "Validate if updating My VA to reflect recommendations from prior research and analytics match Veteran mental models"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Will updating My VA to align with changes suggested by prior research and analytics, improve Veteran's awareness of what needs to be done and how to take action?"
+  - "Are Veterans successfully able to navigate to their profile and to the new notifications page from My VA?"
+  - "Are there any sections that are confusing or missing from the profile that Veterans expect to see?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Based on prior research and analytics, we believe updating My VA and profile according to previous recommendations will align with Veteran mental models"
+  - "Based on prior research and analytics, we believe Veterans will want all of their notifications (note: notifications inform users about updates and reminders prompting engagement or action) in a centralized location on VA.gov"
+  - "Based on previous research and analytics, we believe that the updated authenticated menu navigation will meet Veterans expectations"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Outcome will be a validated redesign for incorporating new components, new sections, and notifications center into My VA"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants have a VA.gov or MyHealtheVet account"
+    - "All participants have VA Health care"
+    - "6+ very frequent VA.gov users (Daily or Weekly)"
+    - "6+ infrequent VA.gov users (Monthly or every few months)"
+    - "6+ mobile web users"
+    - "6+ desktop users"
+    - "6+ Veterans with claims"
+    - "6+ Veterans with VA health care"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "6+ age 55+"
+    - "6+ with cognitive disability"
+    - "6+ people of color (Black, Hispanic, Asian, or Native American)"
+    - "3+ rural location"
+    - "3+ with no degree"
+    - "2+ women"
+    - "1+ LGBTQ+"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have a VA.gov or My HealtheVet account?"
+      qualifying_response: "Yes"
+    - question: "How often do you use VA.gov?"
+      qualifying_response: "Daily, Weekly, Monthly, or Every few months"
+    - question: "Do you have any of the following VA benefits?"
+      qualifying_response: "Disability compensation, VA health care, or other benefits"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "Ian Hilton"
+  research_dates: "2025-08-20 to 2025-08-28"
+  research_review_submission: "2025-08-11"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve satisfaction with our web and mobile products by 5 points"
+      - "100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Reinventing Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+  - "Dying"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/identity-personalization/my-va/research/2025-08-myva3.0-phase1-usabilitytesting/research-plan.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "authenticated-experience"
+  - "my-va"
+  - "my-va-3.0"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+  - "veterans"
+  - "notifications"
+  - "critical-alerts"
+  - "personalization"
+  - "navigation"
+  - "mobile"
+  - "desktop"
+  - "evaluative"
+  - "identity-personalization"
 ---
 
 # Research Plan for Auth Experience, My VA 3.0, 2025/08

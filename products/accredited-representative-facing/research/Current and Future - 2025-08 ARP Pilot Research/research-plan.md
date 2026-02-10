@@ -1,66 +1,72 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "WWP and MVAD Pilot Research Outline"
+date: 2025-06-01
+last_updated: 2025-06-01
+team: "Accredited Representative Facing (ARF) Team"
+product: "Accredited Representative Portal (ARP) Pilot"
+product_area: "representative-facing"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Piloting ARP with accredited representatives at Montana Veteran Affairs Division (MVAD) and Wounded Warriors Project (WWP) to test representative requests and 686c submission functionality before broader release."
+  product_location: "External Accredited Representative Portal - pilot participants will use representative requests and form 686c submission functionality"
+  user_familiarity: "New pilot with two partner organizations - testing new portal features with real users in production environment"
+  product_brief_url: "https://dma.mt.gov/mvad/ and https://www.woundedwarriorproject.org/"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Multi-method pilot research - process deep dive calls, weekly feedback prompts, 1:1 conversations, and shadowing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how pilot organizations operate and their technology setup through process deep dives"
+  - goal_2: "Gather continuous feedback on pilot participants' experiences using ARP features through weekly prompts"
+  - goal_3: "Learn about representatives' real-world experiences and surface improvement ideas through 1:1 conversations and shadowing"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do the organizations structure their offices, handle volume, and manage intake processes?"
+  - "What supervisory structure and technology setup exists at each organization?"
+  - "How do representatives communicate with Veterans and with OGC/certifying officials?"
+  - "What help support channels are needed for pilot participants?"
+  - "Were you able to sign in to the portal this week? What issues did you encounter?"
+  - "Are Veterans interested in submitting VA Form 21-22 online? What reasons do they give?"
+  - "Did you receive or submit any forms using the portal? Why or why not?"
+  - "Are representatives needing to support Veterans in completing the 21-22 flow on VA.gov, or can Veterans do this on their own?"
+  - "What would you change about your current process of establishing POA with a Veteran?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Pilot participants will encounter both expected and unexpected challenges when using ARP in real-world scenarios"
+  - "Weekly feedback prompts will surface issues and insights that wouldn't emerge in one-time interviews"
+  - "Process deep dives will reveal organizational differences that affect how ARP should be designed"
+  - "Shadowing representatives doing real work will uncover usability issues and workflow gaps"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Learn from pilot to improve ARP before broader release. Weekly feedback (5-10 min responses) will surface ongoing issues. 1:1 conversations and shadowing will provide deep insights into representative experiences and improvement opportunities. Process deep dives will inform how to support different organizational structures."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Direct partnership with pilot organizations"
+  approach: "Pilot participants from Montana Veteran Affairs Division and Wounded Warriors Project"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Accredited representatives from MVAD"
+    - "Accredited representatives from WWP"
+    - "All pilot participants using ARP for representative requests and 686c submissions"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of experience levels"
+    - "Representatives with different roles within organizations"
+    - "Supervisors to help with participant nudging"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you an accredited representative with MVAD or WWP participating in the ARP pilot?"
+      qualifying_response: "Yes"
       
 participants:
   veterans: 0
@@ -68,42 +74,51 @@ participants:
   dependents: 0
   total_recruited: 0
   completed_sessions_goal: 0
+  representatives: "Pilot participants from two organizations"
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "Kick-off planned for end of June 2025"
+  pilot_participant: "All pilot participants from MVAD and WWP"
+  research_dates: "June 2025 onwards - ongoing pilot research"
+  research_review_submission: "N/A - pilot research plan"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 0
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Build tools for accredited representatives to submit claims and supporting documentation more effectively and efficiently"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "All phases: Representatives support Veterans throughout their journey"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/_layouts/15/Doc.aspx?sourcedoc=%7BE248F162-97B3-489A-B73E-D6DB81370862%7D&file=2025%2003%20ARP%20Pilot%20-%20Weekly%20Feedback%20posts.docx"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "accredited-representatives"
+  - "ARP"
+  - "pilot"
+  - "representative-portal"
+  - "WWP"
+  - "wounded-warriors-project"
+  - "MVAD"
+  - "montana-veteran-affairs"
+  - "form-21-22"
+  - "form-686c"
+  - "POA"
+  - "process-research"
+  - "weekly-feedback"
+  - "interviews"
+  - "shadowing"
+  - "continuous-feedback"
 ---
 
 # WWP and MVAD Pilot Research Outline

@@ -1,109 +1,132 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for UAE Team, OH Direct Appointments Scheduling and Requesting in VAHB App, TBD"
+date: 2025-01-01
+last_updated: 2025-01-01
+team: "UAE Team (United Arab Emirates)"
+product: "VA Health and Benefits (VAHB) Mobile App - Oracle Health Scheduling"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Currently, Veterans can only view their appointments on the VA Health and Benefits (VAHB) app. The UAE team aims to enhance the VAHB app by introducing the ability to schedule appointments, beginning with facilities that use Oracle Health (OH), empowering Veterans to more easily schedule, request, and cancel appointments directly from their mobile devices."
+  product_location: "VA Health and Benefits (VAHB) mobile app"
+  user_familiarity: "New feature - expanding from view-only to full scheduling capabilities"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/vaos-product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Semi-structured interviews and usability testing with prototype"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate how effectively and efficiently Veterans can schedule, request, and cancel with facilities that use Oracle Health within the VAHB app"
+  - goal_2: "Identify pain points, usability issues, and unmet expectations for scheduling, requesting, and canceling with facilities that use Oracle Health within the VAHB app"
+  - goal_3: "Understand Veterans' mental model and expectations related scheduling appointment"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can Veterans successfully schedule, request, and cancel appointments with Oracle Health facilities using the VAHB app?"
+  - "How much time, how many taps/steps, and how many errors or reversals does it take Veterans to finish each task?"
+  - "Do Veterans feel confident that their appointment actions (scheduling, requesting, canceling) were completed successfully, why and why not?"
+  - "At which screens, fields, or decision points do Veterans encounter confusion, delays, or errors while scheduling, requesting, or canceling?"
+  - "Where does the current flow, content, or feedback fall short of what Veterans expect when completing these tasks?"
+  - "Which aspects of the experience create frustration, anxiety, or distrust, and why?"
+  - "How do Veterans decide to make an appointment when presented with available providers and scheduling options (online, request, and call)?"
+  - "What details (e.g., provider name, last appointment date) do Veterans expect to see at each step to feel informed and in control?"
+  - "How do Veterans think the overall appointment scheduling process should work, and if previous experiences shape their expectations and how?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "At least 90% of participants will successfully schedule, request, and cancel an appointment on their first attempt without facilitator assistance"
+  - "All participants will complete each task quickly; a few may back-track or abandon the scheduling flow before finishing"
+  - "At least 85% of participants will rate their confidence in task completion as 4 or 5 on a 5-point scale"
+  - "The highest friction will occur on facilities selection and providers selection screens, due to personal needs and preferences"
+  - "Some participants will expect more content around features and functionalities that won't be available, such as type of care and providers they can't schedule with"
+  - "Most participants will prefer to schedule with a provider on the app now, instead of requesting and calling"
+  - "Participants will expect to see providers and their availabilities at the same time to help them choose who and when to schedule their appointments"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will uncover what works well, where Veterans encounter friction, and how they mentally approach scheduling appointments. These insights will guide the team in making informed, user-centered design decisions that enhance the appointment experience in both the VAHB app and the VA.gov web platform."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Standard recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must have a MHV account and have used it in the past 12 months"
+    - "All participants must be registered at an Oracle Health facility (Mann-Grandstaff VA Medical Center, Jonathan M. Wainwright Memorial VA Medical Center, VA Central Ohio Healthcare System, Roseburg VA Health Care System, or VA Southern Oregon Rehabilitation Center and Clinics)"
+    - "Appointments within past or upcoming 12 months at Oracle Health facilities"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 4 participants with a cognitive disability"
+    - "At least 1 who lives in a rural area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "In the past 12 months or upcoming 12 months, did you or do you have appointments at any of the following facilities? (Mann-Grandstaff VA Medical Center in Spokane, WA; Jonathan M. Wainwright Memorial VA Medical Center in Walla Walla, WA; VA Central Ohio Healthcare System in Columbus, OH; Roseburg VA Health Care System in Roseburg, OR; VA Southern Oregon Rehabilitation Center and Clinics in White City, OR)"
+      qualifying_response: "Yes"
+    - question: "Have you used My HealtheVet to view or manage your appointments?"
+      qualifying_response: "Yes - 5; No - 5"
+    - question: "Have you used VA Benefits and Health app on your phone?"
+      qualifying_response: "Yes - 5; No - 5"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Yes (looking for 4 participants)"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "TBD"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improve satisfaction with our web and mobile products by 5 points"
+      - "Reduce the total time Veterans spend waiting for a response from our digital experiences by 50%, towards a goal of less than 4 seconds per transaction"
+      - "100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
+  - objective: "OCTO's platforms are the fastest, most efficient, and most secure way to deliver products at VA"
     key_results:
-      - "[Specific KR if applicable]"
+      - "100% of authentications to our systems and tools (both Veteran-facing and internal) occur using a secure credential"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Reinventing Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/vaos-product-outline.md"
+  conversation_guide: "TBD"
+  prototype: "TBD"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "appointments"
+  - "mobile"
+  - "vahb-app"
+  - "oracle-health"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "veterans"
+  - "authenticated"
 ---
 
 

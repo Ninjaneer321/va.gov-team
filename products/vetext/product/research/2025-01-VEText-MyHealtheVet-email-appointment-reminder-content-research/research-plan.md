@@ -1,109 +1,154 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VEText Team, MyHealtheVet Email Appointment Reminders Content Veteran Feedback, January 2025"
+date: 2025-01-07
+last_updated: 2025-01-07
+team: "VEText Team"
+product: "VEText - MyHealtheVet Email Appointment Reminders"
+product_area: "authenticated"
+study_type: "content_evaluation"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "VEText will begin sending email appointment reminders for MyHealtheVet as it migrates to VA.gov. We need to evaluate the content, cadence, and functionality of those email appointment reminders to determine if changes should be made to improve Veterans' experience."
+  product_location: "Email notifications for VA health appointments managed through MyHealtheVet"
+  user_familiarity: "Iteration of existing MyHealtheVet email appointment reminders"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/9c884d56087c31b9422840cc233009d12e870b9b/products/vetext"
+  context: "VEText is a platform for sending SMS messages to Veterans developed to lower no-show rates for Veterans' health appointments, rolled out nationally in 2018."
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "remote moderated interviews with content evaluation"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  platform: "Zoom"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - "Understand what content Veterans want/expect in email health appointment reminders"
+  - "Determine what schedule is most effective for receiving appointment reminders"
+  - "Identify what could make email reminders more useful if they are not currently useful"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Overall do Veterans find value in email appointment reminders? Why or why not?"
+  - "Is there a way to make the content or cadence of email appointment reminders more useful?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans want more information in their emails including details about the location and provider for their health appointments"
+  - "Veterans currently do not find the MHV email reminders as useful as the appointment list within the MHV portal, which includes more detailed appointment information"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Gauge Veteran satisfaction with current email appointment reminders and learn what can improve to make content, functionality or cadence changes that will increase recipient satisfaction, decrease oversaturation of reminders, and improve care by getting Veterans to their appointments prepared with necessary information."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment of MyHealtheVet email users"
+  kickoff_call_requested: true
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All must currently receive MyHealtheVet health appointment reminder emails"
+    - "All must have had a VA health appointment in the last 12 months"
+    - "Exactly 8 Veterans"
+    - "Exactly 4 caregivers"
+    - "Exactly 6 who primarily check emails on mobile devices"
+    - "Exactly 6 who primarily check emails on desktop computers"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "6 or more people of color"
+    - "6 or more age 55+"
+    - "6 or more with cognitive disability"
+    - "3 or more in rural location"
+    - "3 or more without a degree"
+    - "2 or more women"
+    - "Veterans that additionally receive sms health appointment reminders through VEText"
+    - "At least 1 who lives in a rural area"
+    - "At least 1 Native Veteran"
+    - "At least 1 LGBTQ+ Veteran"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you currently manage your VA Health appointments using MyHealtheVet email appointment reminders?"
+      qualifying_response: "Yes, I receive and use MyHealtheVet email appointment reminders to let me know when I have an upcoming health appointment"
+    - question: "Have you seen a healthcare provider in a VA medical center or other VA healthcare facility in the last 12 months?"
+      qualifying_response: "Yes"
+    - question: "Have you received a MyHealtheVet email health appointment reminder in the last year?"
+      qualifying_response: "Yes"
+    - question: "Do you use other forms of notifications to keep track of VA health appointments?"
+      options: ["VEText appointment reminder text messages", "Mailed letters", "Phone calls"]
+    - question: "What device do you use to check your MyHealtheVet email appointment reminders?"
+      options: ["Desktop computer", "Tablet", "Mobile phone"]
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 8
+  caregivers: 4
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  perigean_kickoff: "2025-01-07"
+  recruitment_period: "2025-01-07 to 2025-01-14"
+  pilot_date: "2025-01-07"
+  pilot_participant: "Chris Horton (chris.horton@oddball.io)"
+  research_dates: "2025-01-13 to 2025-01-22"
+  analysis_period: "TBD"
+  final_presentation: "TBD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 40
+  buffer_minutes: 60
+  max_sessions_per_day: 2
+  availability:
+    - "2025-01-14: 12-3:30pm ET"
+    - "2025-01-15: 12-3:30pm ET"
+    - "2025-01-17: 12-3:30pm ET"
+    - "2025-01-20: 12-3:30pm ET"
+    - "2025-01-22: 12-3:30pm ET"
+    - "2025-01-23: 12-3:30pm ET"
+    - "2025-01-24: 12-3:30pm ET"
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Key Result 2: Number of transactions processed using our products have increased by 25%"
+      - "Key Result 3: All new products have a faster transaction time than those they replaced"
+  - objective: "Objective 2: Our platforms are the best way to deliver products at VA"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Key Result 2: Our platforms measure and improve the satisfaction of their internal users"
+      - "Key Result 3: Our platforms power twice as many interactions compared to last year"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
+# Research Materials
+research_materials:
+  conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vetext/product/research/2025-01-VEText-MyHealtheVet-email-appointment-reminder-content-research/conversation-guide.md"
+  stimuli:
+    - "Current MHV email template: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vetext/product/research/2025-01-VEText-MyHealtheVet-email-appointment-reminder-content-research/current-mhv-emailmockup.md"
+    - "Proposed PHI template: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vetext/product/research/2025-01-VEText-MyHealtheVet-email-appointment-reminder-content-research/Pending-MHV-PHI-emailmockup.md"
+
+# Team Roles
+team_roles:
+  moderator: "Jamie Ramsay"
+  research_lead: "Jamie Ramsay"
+  recruiting_screening: "Perigean"
+  project_poc: "Jamie Ramsay"
+  pilot_participant: "Chris Horton"
+  notetakers: "Perigean"
+  observers: "TBD"
+
 # Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "vetext"
+  - "health-appointments"
+  - "email-notifications"
+  - "myhealthevet"
+  - "content-evaluation"
+  - "moderated-interviews"
+  - "veterans"
+  - "caregivers"
+  - "authenticated"
 ---
 
 

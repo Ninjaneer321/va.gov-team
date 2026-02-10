@@ -1,66 +1,58 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for MHV on VA.gov, Medical Records, Feb - Apr 2025"
+date: 2025-02-18
+last_updated: 2025-02-18
+team: "Digital Health Modernization - Medical Records"
+product: "My HealtheVet on VA.gov - Medical Records"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Monitor usage and feedback for Medical Records on MHV VA.gov to ensure Veterans can effectively access their health information and identify pain points for future iterations."
+  product_location: "My HealtheVet on VA.gov - Medical Records section"
+  user_familiarity: "Iteration - Medical Records has been built and tested through previous studies"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Analytics and Feedback Monitoring Study"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - "Understand how Veterans are accessing information within their medical records"
+  - "Understand how much time Veterans are spending in the different Medical Records domains"
+  - "Uncover any pain points Veterans are experiencing"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What methods are Veterans using to find information on their Medical Records?"
+  - "How long are Veterans spending in the different Medical Records domains?"
+  - "What pain points are Veterans communicating?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans view their records directly more often than they download Blue Button reports"
+  - "Veterans spend the most amount of time in Lab and test results and Care summaries and notes"
+  - "Veterans will share their frustrations with finding medical records information"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The results of this study will help us determine if our designs provide the best user experience for Veterans to find and fill their medications. This will inform future design iterations and any further research strategy."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "None - No recruitment needed"
+  approach: "Passive data collection from existing users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans currently using Medical Records on MHV VA.gov"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+  secondary_criteria: []
     
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+  screener_questions: []
       
 participants:
   veterans: 0
@@ -71,39 +63,42 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "N/A"
+  pilot_participant: "N/A"
+  research_dates: "2024-02-18 to 2025-04-15"
+  research_review_submission: "2025-02-01"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 0
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Previous Medical Records usability studies"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "medical-records"
+  - "analytics-monitoring"
+  - "veterans"
+  - "mhv-on-vagov"
+  - "digital-health-modernization"
 ---
 
 # Research Plan for MHV on VA.gov, Medical Records, Feb - Apr 2025

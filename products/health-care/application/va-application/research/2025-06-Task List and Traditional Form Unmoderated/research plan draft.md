@@ -1,109 +1,152 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Health Enrollment Form 10-10EZ: Task List vs. Traditional Flow"
+date: 2025-06-09
+last_updated: 2025-06-09
+team: "Health Enrollment Team"
+product: "10-10EZ Health Care Application"
+product_area: "authenticated and unauthenticated"
+study_type: "veteran-facing"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Ensure the 10-10EZ application process is as clear, efficient, and user-friendly as possible, reducing abandonment rates and improving Veteran satisfaction by exploring an alternative form pattern"
+  product_location: "VA.gov > Health Care > Apply for health care"
+  user_familiarity: "Existing tool with significant UI pattern iteration - moving from traditional sequential flow to task list/choose-your-own-adventure approach"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/Choose-your-own-adventure/Choose-your-own-adventure%20-%20Initiative%20Brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "unmoderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: false
+  platform: "Optimal Workshop"
+  testing_tool: "Figma prototypes"
+  study_design: "Within-subjects counterbalanced study"
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - "Gauge Veteran interest in both task list and traditional flow patterns in a counter-balanced study"
+  - "Evaluate navigation & perceived intuitiveness of both patterns"
+  - "Identify high-level points of confusion in the task list structure and navigation"
+  - "Assess initial preference between patterns"
+  - "Gather initial qualitative feedback on both patterns' structure and clarity"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What are Veterans' initial impressions of the Orange (task list) vs. Green (traditional) form navigation?"
+  - "How do they attempt to navigate and locate information in each pattern?"
+  - "Which pattern feels easier or more intuitive—and why?"
+  - "What high-level points of confusion, if any, arise during interaction with the Orange and Green flows?"
+  - "After experiencing both flows, which pattern do Veterans prefer for navigating a healthcare application and what are the reasons?"
+  - "What are their overall impressions and satisfaction levels with both designs?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "We want to learn if the non-linear task flow assists Veterans in completing the 10-10EZ"
+  - "Short-form users (100% disability rating) might not benefit from a task list; however, Veterans who are required to fill out the longer sections may benefit from the opportunity to click through various sections"
+  - "Veterans will appreciate the ability to choose how they interact with forms, and that it may assist authenticated users who want to complete easier sections first, then come back to more complex sections"
+  - "We believe a non-linear task list will benefit Veterans completing longer versions of the 10-10EZ by allowing flexible navigation and the option to pause and return"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will help us determine if there is an opportunity to further investigate and create a non-linear navigation on forms. This study is primarily early discovery to gauge interest and usage before investing heavily into the creation and development of a new form navigation component"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Diverse sample across age, abilities, and ethnicities"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be a Veteran"
+    - "Comfortable with online forms and websites"
+    - "Must use desktop or laptop"
+    - "No online 10-10EZ completion in the last 6 months"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse age groups (e.g., 25–34, 35–54, 55+)"
+    - "Mix of genders"
+    - "Mix of tech comfort levels"
+    - "Users with/without current VA benefits"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you completed the 10-10EZ form in order to apply for VA health care in the last 6 months?"
+      qualifying_response: "No"
       
 participants:
-  veterans: 0
+  veterans: 50
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 50
+  completed_sessions_goal: 30
+  cohort_1: 25
+  cohort_2: 25
+  target_completions_per_cohort: 15
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-07-01"
+  pilot_participant: "Perigean to Recruit 1 participant per cohort"
+  research_dates: "2025-07-01 to 2025-07-15"
+  research_review_submission: "2025-06-09"
+  session_close_date: "2025-07-11"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 45
+  buffer_minutes: 0
   max_sessions_per_day: 0
+  session_type: "unmoderated - Veterans complete on their own time"
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
+      - "Improve satisfaction with our web and mobile products by 5 points"
+      - "Reduce the total time Veterans spend waiting for a response from our digital experiences by 50%, towards a goal of less than 4 seconds per transaction"
+
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up (Attending to health needs - Moment that Matters)"
+  - "Taking Care of Myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Previous 10-10EZ usability studies"
+    
+study_materials:
+  email_instructions: "TBD"
+  cohort_1_session: "https://dj540s05.optimalworkshop.com/prototype/6mv0y39c?recording=true"
+  cohort_2_session: "https://dj540s05.optimalworkshop.com/prototype/415757467673b8a6713131e06ae3817b?recording=true"
+  task_questions: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/research/2025-06-Task%20List%20and%20Traditional%20Form%20Unmoderated/tasks-instructions-post-questions.md"
+  figma_prototypes: "https://www.figma.com/design/0DGvBhCaSMf6WH1ofSw35y/10-10EZ---CYOA---Prototype---Study-1?node-id=3-28"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "10-10EZ"
+  - "health-enrollment"
+  - "unmoderated-testing"
+  - "veteran-facing"
+  - "task-list"
+  - "form-navigation"
+  - "CYOA"
+  - "choose-your-own-adventure"
+  - "counterbalanced-study"
+  - "optimal-workshop"
+  
+team_roles:
+  moderator: "N/A - Unmoderated"
+  research_lead: "Jessica Stump"
+  secondary_researcher: "Liza McRuer"
+  recruitment: "Perigean - POC"
+  project_poc: "Jessica Stump"
+  accessibility_specialist: "N/A - Accessibility will be tested in a later study"
+  notetakers: "N/A - Unmoderated"
+  observers: "N/A - Unmoderated"
+  
+approvals:
+  reviewed_by: "OCTO UX Team Lead, Amanda Klausmeier"
+  review_date: "2025-06-09"
+  review_method: "via Slack"
 ---
 
 # Research Plan for Health Enrollment Form 10-10EZ: Task List vs. Traditional Flow

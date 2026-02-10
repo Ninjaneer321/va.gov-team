@@ -1,109 +1,130 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for CDSC, Medical Calculators, September 2025"
+date: 2025-09-09
+last_updated: 2025-09-09
+team: "Clinical Decision Support Collaborative (CDSC)"
+product: "Medical Calculators"
+product_area: "CDS Console"
+study_type: "clinician-facing"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Reduce cognitive burden created by context switching between the CDS Medical Calculator application and the EHR by bringing relevant patient data to support clinicians within their workflow of the calculator"
+  product_location: "CDS Console - Medical Calculators application"
+  user_familiarity: "Iteration - Adding line chart functionality to calculator detail pages"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  platform: "Microsoft Teams"
+  testing_tool: "Figma prototype"
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - "Understand how helpful line charts are within the context of a calculator detail page to assist with answering questions we cannot auto-populate"
+  - "Identify other calculators or fields where clinicians think this pattern might be helpful"
+  - "Get feedback on the experience of opening and viewing the graph within the calculator detail page"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How intuitive is it to see a call to action (CTA) to access lab history below the calculator input field?"
+  - "What are clinicians reactions to seeing graphs in this context?"
+  - "How intuitive is it to interact with the line chart and get the data they need?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Clinicians will find that having the lab history data with a specific field will improve their workflow"
+  - "Clinicians will not immediately recognize the 'View Labile INR lab history' link and will first plan on getting the data from CPRS"
+  - "Clinicians will intuitively find the tool tips on the data points"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will help us learn the value of bringing in select patient health data to support clinical workflows. It will help guide product priorities and if we should continue moving forward with implementing this feature"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "CDSC research participant database"
+  approach: "Snowball recruitment, SSS office hours, recent support requests, feature deployment outreach"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Minimum 5 clinicians"
+    - "2 clinicians with experience with HAS-BLED calculator"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "1-2 nurse practitioners"
+    - "1-2 physicians"
+    - "1-2 clinical pharmacy specialists"
+    - "1 clinician familiar with Oracle Health (end user or transition team)"
     
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+  screener_questions: []
       
 participants:
   veterans: 0
   caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  clinicians: 5
+  va_staff: 0
+  total_recruited: 10
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-09-17"
+  pilot_participant: "TBD"
+  research_dates: "2025-09-17 to 2025-10-01"
+  research_review_submission: "2025-09-09"
+  prototype_due: "2025-09-16"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Improve clinical decision support workflows"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
-veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+      - "Reduce context switching between CDS applications and EHR"
+      - "Increase clinician efficiency in using medical calculators"
+
+veteran_journey_phases: []
+clinician_workflow_stages:
+  - "Setting context and patient review"
+  - "Using medical calculators for clinical decisions"
+  - "Reviewing lab data to inform calculator inputs"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Prior research on graphs and trend data on Patient Summary page"
+    
+study_materials:
+  conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing/conversation-guide.md"
+  prototype: "https://www.figma.com/proto/uRUcFMxuFOoNMJeMXJsI5w/Dashboard---Calculators-and-Patient-Summary-Tabs?node-id=19531-2916"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "medical-calculators"
+  - "usability-testing"
+  - "clinician-facing"
+  - "line-charts"
+  - "HAS-BLED"
+  - "lab-history"
+  - "CDS-Console"
+  - "design-feedback"
+  
+team_roles:
+  moderator: "Rosemary Rogers"
+  research_lead: "Rosemary Rogers"
+  recruitment: "Rosemary Rogers"
+  notetakers: "Ben"
+  observers: "CDSC HCD peers"
+  
+approvals:
+  reviewed_by: "OCTO CDS HCD Peers (Natalie & Ben)"
+  review_date: "2025-09-09"
 ---
 
 

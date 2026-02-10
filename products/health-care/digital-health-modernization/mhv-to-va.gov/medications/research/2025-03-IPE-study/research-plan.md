@@ -1,80 +1,90 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for MHV on VA.gov, Medications, March 2025"
+date: 2025-03-01
+last_updated: 2025-03-01
+team: "Digital Health Modernization - MHV on VA.gov"
+product: "Medications on VA.gov"
+product_area: "authenticated"
+study_type: "veteran-facing"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Create a centralized place for Veterans to access their health information as part of Digital Health Modernization strategy by moving My HealtheVet (MHV) to VA.gov and assessing new in-product education functionality"
+  product_location: "VA.gov > My HealtheVet > Medications"
+  user_familiarity: "Iteration - Testing new educational content and exploring pain points on existing Medications tool"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  platform: "Zoom"
+  testing_tool: "prototype"
+  accessibility_focus: "screen reader users"
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - "Understand if Veterans notice the in-product education (IPE) components"
+  - "Understand how Veterans interact with the IPE components"
+  - "Understand Veterans' perception of the IPE components"
+  - "Identify any pain points Veterans may experience in using the IPE components to help them understand Medications"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does the in-product education (IPE) component help Veterans accomplish their goals in Medications on VA.gov?"
+  - "How do Veterans interact with the IPE components?"
+  - "What are Veterans' perceptions of the IPE components?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Most Veterans will notice the IPE components"
+  - "Most Veterans will ignore the component on first seeing it but will choose 'Don't show again' on subsequent sightings"
+  - "Most Veterans will find the IPE components helpful"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The results of the study will help us determine if our designs provide the best user experience for Veterans to understand changes to Medications and to identify any pain points. This will inform future design iterations"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Independent recruitment"
+  approach: "Self-recruited participants"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans"
+    - "Screen reader users"
+    - "JAWS users (2 participants)"
+    - "VoiceOver/NVDA users (2 participants)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Willing to complete session on specified device"
+    - "Willing to share their screen"
+    - "Have a working microphone on their device"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "What device will you use to join the session?"
+      qualifying_response: "Desktop/Laptop, Mobile phone (Android/iPhone), Tablet (Android/iPad)"
+    - question: "What screen reader will you use in the session?"
+      qualifying_response: "JAWS, NVDA, VoiceOver"
       
 participants:
-  veterans: 0
+  veterans: 4
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  screen_reader_users: 4
+  jaws_users: 2
+  voiceover_nvda_users: 2
+  total_recruited: 4
+  completed_sessions_goal: 4
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "We will schedule our own"
+  research_dates: "TBD"
+  research_review_submission: "2025-03-01"
   
 session_details:
   duration_minutes: 60
@@ -83,27 +93,56 @@ session_details:
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
+
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Initial Medications prototype usability studies"
+    - "Previous iterations based on feedback"
+    
+study_materials:
+  conversation_guide: "TBD"
+  prototype: "TBD"
+  readout: "IPE_Readout.pdf"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "medications"
+  - "MHV-on-VA.gov"
+  - "usability-testing"
+  - "veteran-facing"
+  - "accessibility"
+  - "screen-reader"
+  - "in-product-education"
+  - "IPE"
+  - "digital-health-modernization"
+  - "authenticated"
+  
+team_roles:
+  moderator: "Melissa Stern"
+  research_lead: "Melissa Stern"
+  task_development: "Melissa Stern, Anne Costello Kennedy"
+  recruitment: "Melissa Stern and Anne Costello Kennedy"
+  project_poc: "Melissa Stern"
+  accessibility_specialist: "Riley Orr"
+  pilot_participants: "TBD - we will do this ourselves"
+  notetakers: "TBD"
+  observers: "Kaitlin Fink, Alexia Wunder, Anne Costello Kennedy"
+  
+approvals:
+  reviewed_by: "TBD"
+  review_date: "TBD"
 ---
 
 # Research Plan for MHV on VA.gov, Medications, March 2025

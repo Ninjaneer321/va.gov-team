@@ -1,109 +1,109 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Orion, OH Appointment Scheduling, January 2026"
+date: 2025-01-01
+last_updated: 2025-01-01
+team: "Orion Team"
+product: "Oracle Health (OH) Appointment Scheduling on VA.gov"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The appointments tool on VA.gov lets users schedule and manage their appointments online. The Orion team is integrating health care appointment functionality from facilities that use Oracle Health EHRM systems into the current VistA scheduling capabilities."
+  product_location: "Auth under My HealtheVet on VA.gov"
+  user_familiarity: "The tool has been available since 2018. As of May 2025, all My HealtheVet classic was redirected to this tool on VA.gov"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/2025-oracle-health-scheduling/oracle-health-scheduling-initiative-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "User acceptance testing (UAT)"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test Oracle Health scheduling functionality, and report any issues with the feature"
+  - goal_2: "Test Oracle Health after-visit summary functionality, and report any issues with the feature"
+  - goal_3: "(Stretch Goal) Better understand a user's mental model around how they choose providers"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are participants able to easily complete all of the scheduling and after-visit summary scenarios?"
+  - "Are any scenarios difficult to complete?"
+  - "Are any features missing that are critical to scheduling an appointment?"
+  - "(Stretch) What information and considerations are important to participants when choosing a new provider?"
+  - "(Stretch) What information and considerations are important to participants when scheduling with an existing provider?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will be able to complete the scheduling scenarios they test with little difficulty"
+  - "Users will be able to easily access and view their after-visit summaries"
+  - "Users will identify other features or details that would help them choose a provider more easily"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "We will resolve any major issues before opening up the functionality to more facilities. And any learnings about the provider list will be used to improve this pattern overall."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "OCTO (Trusted Users)"
+  approach: "OCTO will recruit Trusted Users who have access to the scheduling tool who can test on their account in production"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Trusted user participants who can schedule and request appointments at VA Central Ohio Health Care System"
+    - "Participant must be registered at VA Central Ohio Health Care System"
+    - "Participant must have completed an appointment within the last 3 years with a provider in a type of care that is schedulable through the tool"
+    - "Available types of care: Amputation care, Audiology - Routine hearing exam, Audiology - Hearing aid support, Eye care - Ophthalmology, Eye care - Optometry, MOVE! weight management program, Nutrition and food, Pharmacy, Sleep medicine - CPAP, Sleep medicine - General, Social work"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "N/A"
     
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+  screener_questions: []
       
 participants:
-  veterans: 0
+  veterans: 7
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 7
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2026-01-14 to 2026-01-28"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve satisfaction with our web and mobile products by 5 points"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
+  - "Reinventing Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+  - "Dying"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/2025-oracle-health-scheduling/oracle-health-scheduling-initiative-brief.md"
+  conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2025-oh-scheduling-web-uat/conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "appointments"
+  - "oracle-health"
+  - "uat"
+  - "veterans"
+  - "authenticated"
+  - "my-healthevet"
+  - "scheduling"
 ---
 
 # Research Plan for Orion, OH Appointment Scheduling, January, 2026

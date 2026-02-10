@@ -1,109 +1,122 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Dependent Management Team, Picklist in Dependent Verification, August 2025"
+date: 2025-08-15
+last_updated: 2025-08-15
+team: "Dependent Management Team"
+product: "Dependent Verification with Picklist"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "When veterans are editing or verifying a dependent on their benefit, they have to manually type in the names of dependents, even though these individuals are already on record with VA. Manual entry increases cognitive load for Veterans and opens the door to small but critical typos (e.g. 'John A. Smith' vs 'Jon Smith'), which can trigger downstream claim routing errors or prevent automation. Both usability and back-end reliability are being compromised by redundant and error-prone data entry. With the picklist feature, veterans will be able to select known dependents from a picklist when verifying or removing them, rather than manually re-entering names."
+  product_location: "Authenticated experience on VA.gov, 'Your VA dependents' page, accessed after signing into VA.gov"
+  user_familiarity: "Iteration within the Dependents Verification form. The form launched Aug/Sept 2025, and the picklist addition is considered v2 of the product."
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/Initiative%20Brief%3A%20Dependent%20Picklist%20Component.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Better understand how our end users understand and interact with the picklist component"
+  - goal_2: "Better understand how our end users want to take next steps after completing the Dependent Verification form with the picklist, which requires them to fill out additional forms from VA"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What are your initial thoughts when you read this question [about death]? What words or phrases would you expect the VA to use when talking about this situation?"
+  - "Would you want to navigate through your dependents in another way? How would you want to do that?"
+  - "How would you want VA to help you remember to fill out these extra forms?"
+  - "When would you want to fill out those forms?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will prefer being asked about the death of a dependent in each dependent card rather than as a separate question"
+  - "Veterans will prefer having access to all their dependents at once while filling out the form"
+  - "Veterans will want a follow up email or text message to notify them about what other forms they have to fill out"
+  - "Veterans will not want to fill out the additional forms right away after completing this form"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Deepen understanding of how Veterans understand and interact with the picklist component and where friction may exist. Help us decide how we should ask about death in the form. Help improve how we ask Veterans to complete more forms/tasks once they've finished the form. Further iteration will lead to: Veterans can easily select existing dependents from a picklist with confidence, less frustration, avoided redundant data entry, reliable claims processing, and decreased claim errors due to name mismatches."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Single cohort providing feedback on two different prototypes"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants receive VA disability compensation"
+    - "All participants receive additional VA disability compensation for one or more dependents"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Veterans with various demographics"
+    - "Cannot include assistive technology users due to prototype limitations"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you receive VA disability compensation?"
+      qualifying_response: "Yes"
+    - question: "Do you receive additional VA disability compensation for one or more of your dependents?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 11
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 11
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "Mike Palmer"
+  research_dates: "2025-09-08 to 2025-09-17"
+  research_review_submission: "2025-08-29"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve satisfaction with our web and mobile products by 5 points"
+      - "We have reduced the total time Veterans spend waiting for a response from our digital experiences by 50%, towards a goal of less than 4 seconds per transaction"
+      - "100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Reinventing Myself"
+  - "Putting Down Roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Dependents Verification form v1 launched Aug/Sept 2025"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "dependents"
+  - "dependent-verification"
+  - "dependent-management"
+  - "picklist"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+  - "veterans"
+  - "disability-compensation"
+  - "form-automation"
+  - "data-entry"
+  - "evaluative"
+  - "authenticated"
+  - "benefits"
+  - "21-0538"
+  - "21-686c"
 ---
 
     # Research Plan for Dependent Management Team, Picklist in Dependent Verification, August 2025

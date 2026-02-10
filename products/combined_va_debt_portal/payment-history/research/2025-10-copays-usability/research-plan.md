@@ -1,8 +1,8 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for Financial Management Team, Copay Debt Portal Payment History, October - November 2025"
-date: 2026-01-26
-last_updated: 2026-01-26
+date: 2025-10-17
+last_updated: 2025-10-17
 team: "Financial Management Team"
 product: "Copay Debt Portal Payment History"
 product_area: "authenticated"
@@ -141,6 +141,8 @@ veteran_journey_phases:
 related_research:
   previous_studies:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/combined_va_debt_portal/payment-history"
+
+conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability/conversation-guide.md"
 
 tags:
   # Audience

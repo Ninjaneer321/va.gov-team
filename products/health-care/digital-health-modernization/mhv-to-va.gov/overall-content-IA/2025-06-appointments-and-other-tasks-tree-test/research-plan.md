@@ -1,109 +1,102 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Transitioning Service-Member Tree-Test, June-July 2025"
+date: 2025-06-18
+last_updated: 2025-06-18
+team: "MHV on VA.gov - Cartography"
+product: "VA.gov Sitewide Information Architecture"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Questions have arisen around where to put several non-health information and tasks (including appointments, letters) on VA.gov for caregivers and transitioning service-members. Need to determine best placement for tasks that don't have obvious placement on VA.gov."
+  product_location: "VA.gov sitewide - multiple potential placements for non-health tools and resources"
+  user_familiarity: "Varies by product - 7 different tasks with different levels of visibility/Veteran familiarity"
+  product_brief_url: "No product brief for this study"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Unmoderated Tree Test"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - "Gain an understanding of where transitioning service-members expect to find tools, information, and resources related to onboarding with and managing VA benefits"
+  - "Better understand where VA should place non-health related appointments in the site architecture"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where should VA.gov surface non-health appointments, including managing and viewing said appointments, for Veterans in their first year out of service?"
+  - "Where should VA.gov surface denial letters to Veterans who were denied Community Care?"
+  - "Where will transitioning service-members expect to find a copy of letters from their military service?"
+  - "Where will transitioning service-members expect to go to release educational records from VA to the college they plan to attend using educational benefits?"
+  - "Where will transitioning service-members expect to go update dependents related to their disability payments?"
+  - "Where will transitioning service-members expect find status updates on VA home improvement grant applications?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Transitioning service-members will be able to more easily find specific resources, tools, or services on VA.gov"
+  - "Veterans will expect non-health appointments to be in specific locations that will inform IA placement decisions"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "We will use the information and signals from this tree-test to determine where to place information for the Solid Start program (for transitioning service-members) in the VA.gov sitewide IA. Related to this program, Veterans will need to be able to schedule a non-health appointment with a Solid Start representative."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Statistically significant sample of transitioning service-members"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Transitioning service-members (any) who have not yet left the military OR Veterans with no benefits or service experience"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+  secondary_criteria: []
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a transitioning service-member or Veteran who separated within the last 4 years with no benefits?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 384
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 384
+  completed_sessions_goal: 384
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-06-12"
+  pilot_participant: "Cartography team members and MHV OCTO stakeholders"
+  research_dates: "2025-06-18 for 4+ weeks or until reaching 384 completed sessions"
+  research_review_submission: "2025-06-01"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 20
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve satisfaction with our web and mobile products by 5 points"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
     
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
+  previous_studies: []
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "information-architecture"
+  - "tree-test"
+  - "transitioning-service-members"
+  - "unmoderated"
+  - "solid-start"
+  - "appointments"
 ---
 
 # Research Plan for Transitioning service-member Tree-Test, June-July 2025

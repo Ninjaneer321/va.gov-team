@@ -6,39 +6,52 @@ last_updated: 2025-10-16
 team: "Core Veteran Experience"
 product: "Welcome to VA.gov Onboarding"
 product_area: "authenticated"
+study_phase: "usability_testing"
 
 # Background Context
 background:
   problem_statement: "New Veterans experience decision paralysis when they first access VA.gov because the site offers so many options and pathways. Without clear guidance, Veterans struggle to know where to start, leading to frustration and potential abandonment of important tasks."
   product_location: "Modal popup that appears for new Veterans after login on VA.gov"
   user_familiarity: "New product - onboarding modal for first-time and new VA.gov users"
-  product_brief_url: "TBD"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-onboarding/product-outline.md"
+  prototype_url: "https://www.figma.com/design/awqwt6nhCwGeVq5nWj7wFb/Onboarding-Tour?node-id=3605-26130&t=UJXmJVBl70PPnszG-1"
 
 # Research Design
 methodology: "Comparative usability testing with preference ranking"
 research_format: 
   location: remote
+  platform: "Video conference"
   in_person_details:
     facility: "N/A"
     point_of_contact: "N/A"
     equipment: "N/A"
   moderated: true
+  randomized_order: true
+  
+testing_protocol:
+  version_a: "Modal Version A (Application-focused): Three benefit application options - VA Health Care, VA Disability Compensation, and VA Education Benefits"
+  version_b: "Modal Version B (Action-focused): Three action options - My VA, My HealtheVet, and Discover Your Benefits Tool"
+  approach: "Participants interact with both versions in randomized order to prevent order bias"
+  task_completion: "Participants attempt task completion activity (initiating action based on modal guidance)"
+  evaluation: "Preference feedback with reasoning and satisfaction rating"
+  focus_areas: "Language preferences (application vs action-oriented), readiness state alignment, confidence impact"
   
 # Research Goals & Questions
 research_goals:
   - goal_1: "Understand how new Veterans currently approach VA.gov and what causes decision paralysis"
-  - goal_2: "Evaluate effectiveness and preference between modal design approaches (application-focused vs. exploration-focused)"
+  - goal_2: "Evaluate effectiveness and preference between modal design approaches (application-focused vs. action-focused)"
 
 research_questions:
   - "What are new Veterans current experiences and pain points when first accessing VA.gov?"
   - "How do new Veterans decide what to do first on VA.gov?"
-  - "Which modal version (application-focused vs. exploration-focused) do new Veterans prefer and why?"
+  - "Which modal version (application-focused vs. action-focused) do new Veterans prefer and why?"
   - "What are the usability issues and pain points with each modal version?"
   - "How well do the modal options align with new Veterans actual priorities and needs?"
 
 hypotheses:
-  - "New Veterans will prefer clear, actionable guidance over open-ended exploration, reducing decision paralysis and improving task completion."
-  - "Application-focused options (Version A) will be preferred by Veterans who know what they want to apply for, while exploration-focused options (Version B) will appeal to Veterans who are still exploring their options."
+  - "New Veterans will prefer clear, actionable guidance over open-ended exploration, reducing decision paralysis and improving task completion"
+  - "Application-focused options (Version A) will be preferred by Veterans who know what they want to apply for, while action-focused options (Version B) will appeal to Veterans who are still exploring their options"
+  - "Both modal versions will result in higher satisfaction and task completion rates compared to no onboarding guidance"
 
 expected_outcomes: "This research will determine which modal version to implement and identify any usability issues to address before launch. Findings will inform the final modal design, content, and implementation strategy to reduce new Veteran decision paralysis and improve first-time user experience on VA.gov."
 
@@ -49,20 +62,25 @@ recruitment:
   
   primary_criteria:
     - "Veterans who transitioned from service within the past 2 years"
-    - "Either: Have never used VA.gov before OR recently created a VA.gov account (within 3 months, fewer than 5 total visits)"
+    - "Either: Have never used VA.gov before OR recently created a VA.gov account (within 3 months, fewer than 10 total visits)"
     - "Have not yet completed major VA processes (healthcare enrollment, disability claims, education benefits)"
+    - "8 participants testing on desktop devices"
+    - "8 participants testing on mobile devices"
     
   secondary_criteria:
-    - "English speakers with reliable internet and appropriate device"
-    - "Mix of desktop users (8) and mobile users (8)"
+    - "English speakers with reliable internet connection"
+    - "Mix of participants across different geographic locations (including rural and urban)"
+    - "Mix of different branch backgrounds"
+    - "Range of tech comfort levels"
+    - "At least 2-3 participants who use assistive technology (screen readers or other AT) to ensure accessibility considerations"
     
   screener_questions:
     - question: "When did you transition from military service?"
       qualifying_response: "Within the past 2 years"
-    - question: "Have you used VA.gov before? If yes, how many times have you visited the site?"
-      qualifying_response: "Never used it OR created account within 3 months with fewer than 5 visits"
+    - question: "Have you used VA.gov before? If yes, when did you create your account and approximately how many times have you visited the site?"
+      qualifying_response: "Never used it OR created account within 3 months with fewer than 10 visits"
     - question: "Have you completed any of the following on VA.gov: enrolled in VA health care, filed a disability claim, or applied for education benefits?"
-      qualifying_response: "No to all"
+      qualifying_response: "No to all three"
       
 participants:
   veterans: 16
@@ -70,18 +88,37 @@ participants:
   dependents: 0
   total_recruited: 24
   completed_sessions_goal: 16
+  overrecruit_multiplier: "1.5x"
+  device_split: "8 desktop, 8 mobile"
   
 # Timeline & Sessions
 timeline:
   pilot_date: "2025-10-24"
-  pilot_participant: "TBD"
+  pilot_participant: "TBD - will be provided in study Slack channel"
   research_dates: "2025-10-27 to 2025-11-04"
   research_review_submission: "2025-10-16"
+  perigean_kickoff: "2025-10-24"
+  
+availability:
+  - "2025-10-27, Monday, 10:00 AM-6:00 PM EST"
+  - "2025-10-28, Tuesday, 10:00 AM-6:00 PM EST"
+  - "2025-10-29, Wednesday, 10:00 AM-6:00 PM EST"
+  - "2025-10-30, Thursday, 10:00 AM-4:00 PM EST"
+  - "2025-10-31, Friday, 10:00 AM-6:00 PM EST"
+  - "2025-11-03, Monday, 10:00 AM-2:00 PM EST, 4:00 PM-6:00 PM EST"
+  - "2025-11-04, Tuesday, 10:00 AM-6:00 PM EST"
   
 session_details:
   duration_minutes: 45
+  interview_minutes: 10
+  usability_testing_minutes: 30
+  satisfaction_rating_minutes: 5
   buffer_minutes: 30
   max_sessions_per_day: 5
+  
+materials:
+  conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-onboarding/research/2025-study/conversation-guide.md"
+  prototype: "https://www.figma.com/design/awqwt6nhCwGeVq5nWj7wFb/Onboarding-Tour?node-id=3605-26130&t=UJXmJVBl70PPnszG-1"
   
 # Strategic Alignment
 octo_priorities:
@@ -96,13 +133,20 @@ veteran_journey_phases:
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Veteran Feedback about DS Logon](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/1386#:~:text=Research%20Plan%202024%3A%20IIR%2C%20Veteran%20Onboarding%2C%20Summer%202024)"
+    - "Veteran Feedback about DS Logon (https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/1386)"
+    - "2024 IIR Veteran Onboarding Summer 2024"
     
 tags:
   - "authenticated"
   - "usability-testing"
+  - "comparative-testing"
   - "veterans"
   - "onboarding"
+  - "modal"
+  - "first-time-users"
+  - "decision-paralysis"
+  - "core-veteran-experience"
+  - "october-2025"
 ---
 
 

@@ -1,109 +1,123 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for MHV on VA.gov Medications – IPE A/B Testing June 2025"
+date: 2025-06-01
+last_updated: 2025-06-01
+team: "Digital Health Modernization"
+product: "MHV on VA.gov - Medications"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need efficient ways to find their medications in a list. We initially built and tested an in-product education (IPE) component to help Veterans locate specific medications. This A/B testing study will determine the most effective placement and design of the IPE component to improve medication findability."
+  product_location: "VA.gov - My HealtheVet on VA.gov - Medications section (authenticated experience)"
+  user_familiarity: "Iteration - building on tested prototype with new IPE component variations"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Unmoderated prototype testing with A/B/C comparison"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: false
+  testing_platform: "Optimal Workshop"
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand whether the IPE helps Veterans find their medications"
+  - goal_2: "Understand whether the IPE encourages Veterans to use the filter component"
+  - goal_3: "Understand where the IPE is most effective within the Medications IA on VA.gov"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Which version of the Medications List helps Veterans find specific medications most efficiently?"
+  - "Which version encourages Veterans to use the filter component?"
+  - "Which version do Veterans find most intuitive and easy to use?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The 'filter open' version enables Veterans to find medications more easily than other versions"
+  - "The 'filter open' version promotes more frequent use of the filter"
+  - "The 'filter open' version will yield lower task completion times, higher accuracy rates, higher satisfaction scores, and more positive feedback"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The results of the study will help determine if the current designs offer the best user experience for Veterans and identify any usability pain points. This will guide future design improvements."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Mobile-only Veterans with My HealtheVet accounts"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Using a mobile phone to participate"
+    - "Have a My HealtheVet (MHV) account"
+    - "No Assistive Technology (AT) users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Experience using MHV to review medications in last 12 months (optional)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you using a mobile phone to participate today?"
+      qualifying_response: "Yes"
+    - question: "Do you have a My HealtheVet (MHV) account?"
+      qualifying_response: "Yes"
+    - question: "Have you used MHV to review your medications in the last 12 months?"
+      qualifying_response: "Yes or No (both allowed)"
       
 participants:
-  veterans: 0
+  veterans: 225
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 225
+  completed_sessions_goal: 225
+  pilot_participants: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-06-16 to 2025-06-22"
+  pilot_participant: "5 participants to validate setup"
+  research_dates: "2025-06-23 to 2025-08-09"
+  research_review_submission: "2025-06-15"
+  kickoff_call_dates: ["2025-06-16 10:30-11:00am ET", "2025-06-17 1:00-1:30pm ET", "2025-06-17 2:00-2:30pm ET"]
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 0
+  buffer_minutes: 0
   max_sessions_per_day: 0
+  notes: "Unmoderated study - participants complete at their convenience"
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve satisfaction with our web and mobile products by 5 points"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Previous IPE usability studies on Medications prototype"
+    - "Medications usability testing and feedback collection studies"
+    
+prototype_variants:
+  - variant_a: "IPE component above the filter"
+  - variant_b: "IPE component below the filter"
+  - variant_c: "Filter accordion expanded (IPE and sort removed)"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "medications"
+  - "unmoderated-testing"
+  - "A-B-testing"
+  - "mobile"
+  - "in-product-education"
+  - "veterans"
 ---
 
 # Research Plan for MHV on VA.gov Medications – IPE A/B Testing June 2025

@@ -1,109 +1,107 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for ICAM SSOi Mid-Migration User Interviews, August 2025"
+date: 2025-08-01
+last_updated: 2025-08-01
+team: "ICAM (Identity, Credential, and Access Management) Team"
+product: "Single Sign-On Integration (SSOi)"
+product_area: "authentication"
+study_type: "discovery"
+participant_type: "internal_users"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The VA is implementing a cloud-based Single Sign-On (SSO) solution for centralized authentication. During the migration, we need to understand how application owners are navigating the migration and integration process with ICAM to improve support and address pain points."
+  product_location: "Authentication service for VA applications (both workforce and external users)"
+  user_familiarity: "Migration in progress - transformation initiative"
+  context: "The ICAM initiative is undergoing significant transformation, modernizing authentication, authorization, and user access experiences across the VA ecosystem. This solution aims to complement security standards, ensure easy integration, and provide seamless experience for workforce users, veterans, beneficiaries, and other users accessing public-facing applications."
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  platform: "Microsoft Teams"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - "Understand how well-informed partners feel before and during the ICAM migration process"
+  - "Determine whether the level, type, and timing of support provided meets partner teams' needs"
+  - "Understand the main challenges partners encounter during the migration process"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How well-informed do partners feel going into and during the migration process?"
+  - "Does the level of support match the partner teams' needs?"
+  - "What pain points have partners experienced during the migration process?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Most application owners will report feeling uninformed prior to the kickoff meeting"
+  - "Most application owners will state that they feel well supported during the migration"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Inform user type personas for application owners, application managers, and technical POCs to understand user needs and pain points to improve ICAM migration efforts."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Self-recruited"
+  approach: "Targeted outreach to application owners and technical POCs"
+  recruitment_sources:
+    - "Lists of application owners"
+    - "Technical POCs"
+    - "Engineers"
+    - "Integration survey responses"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Application owners managing VA applications"
+    - "Application managers involved in ICAM migration"
+    - "Technical POCs supporting migration efforts"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  internal_users: true
+  application_owners: true
+  technical_pocs: true
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  research_dates: "August 2025"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 30
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
-veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - objective: "Objective 2: OCTO's platforms are the fastest, most efficient, and most secure way to deliver products at VA"
+    related_notes: "Focus on centralized authentication and security standards"
+  - objective: "Objective 3: OCTO teammates are empowered with the knowledge and resources they need to make sustained impact"
+    related_notes: "Understanding support needs during migration"
+
+# Research Materials
+research_materials:
+  conversation_guide: "Conversation Guide (referenced in document)"
+
+# Team Roles
+team_roles:
+  moderator: "Anne Kennedy"
+  research_lead: "Anne Kennedy"
+  recruiting_screening: "Anne Kennedy"
+  project_poc: "Anne Kennedy"
+  notetakers: "TBD"
+  observers: 
+    - "Joel Calumpong"
+    - "Shannon Yeaker"
+    - "Jason Hunt"
+    - "Sherry Smith"
+
 # Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "icam"
+  - "single-sign-on"
+  - "sso"
+  - "authentication"
+  - "migration"
+  - "semi-structured-interviews"
+  - "application-owners"
+  - "internal-users"
+  - "discovery"
 ---
 
 # **Research Plan for ICAM SSOi Mid-Migration, August 2025**
