@@ -190,7 +190,8 @@ jobs:
                 body: `${subIssue.body}\n\nRelates to #${parentIssue.number}`,
                 labels: subIssue.labels,
                 assignees: assignees,
-                type: `Task`
+                type: `Task`, 
+                status: `Prioritized Backlog`
               });
               
               createdIssues.push({
