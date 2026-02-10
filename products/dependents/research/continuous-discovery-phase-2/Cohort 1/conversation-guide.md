@@ -265,7 +265,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
        
 ## Third Task: Step 2 - Manage dependents - 10 minutes
 
-- *Screen: Review your active VA dependents*
+  - *Screen: Review your active VA dependents*
      - Can you talk about what you're thinking as you look at this page?
      - What would you select here?
      - How would you decide which option to select?
@@ -281,7 +281,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      - What would you do next?
 
 
-   - *Screen: School enrollment status for Jen Garcia*
+  - *Screen: School enrollment status for Jen Garcia*
      - Let's say that Jen is not in school at this time
     
      - Can you talk about what you're thinking as you look at this page?
@@ -290,40 +290,6 @@ Before we look at the prototype, let’s start with a few warm-up questions.
      - Do you have any other feedback on this page?
      - What would you do next?
 
-
-## Third Task: Step 3- Add one or more students between ages 18 and 23 - X minutes
-
-   - *Screen: Student's marital status*
-     - Let's say that Naomi has never been married
-       
-     - Can you talk about what you're thinking as you look at this page?
-     - What would you select here?
-     - How would you decide which option to select?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-
-In the disabled dependent flow we didn't ask if they had ever been married, is that correct?
-Can the back option be connected here?
-
-
-   - *Screen: Student's address*
-     - Can you talk about what you're thinking as you look at this page?
-     - What would you select here?
-     - How would you decide which option to select?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-  
-
-   - *Screen: Student's income*
-     - Let's say that you do not receive Pension Benefits
-       
-     - Can you talk about what you're thinking as you look at this page?
-     - What would you select here?
-     - How would you decide which option to select?
-     - Do you have any other feedback on this page?
-     - What would you do next?
-    
-    What does this doesn't apply to me mean?
 
 ## Fourth Task: Step 4 - Review Application - X minutes
 
