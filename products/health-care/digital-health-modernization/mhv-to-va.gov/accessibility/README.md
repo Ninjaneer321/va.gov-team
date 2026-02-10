@@ -1,10 +1,11 @@
 # MHV on VA.gov — Accessibility
 Repository of accessibility-related documentation, including planning and process documents
 
-Last updated: 9 Jan 2026
+Last updated: 10 Feb 2026
 
 ## Foundations
 
+- [Accessible Patterns](documentation/patterns.md) — Collection of patterns supporting accessibility, along with the rationale for the pattern and a list of standards or other factors supported by the pattern.
 - [Decision Records](documentation/decision-records.md) — Inventory of design-related decisions impacting accessibility, along with the rationale for the decision and a list of standards or other factors impacted by the decision.
 
 ## Process Documentation
