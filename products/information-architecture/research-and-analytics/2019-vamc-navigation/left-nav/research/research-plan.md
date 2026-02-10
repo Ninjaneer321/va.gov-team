@@ -1,109 +1,115 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Global UX, VAMC Local Navigation, November-December 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Global UX"
+product: "VAMC Local Navigation (Left Nav)"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Users need a better way to browse and understand the contents within a section and navigate to desired content within VA.gov without engaging in 'pogo-stick' behavior (clicking into pages and back out repeatedly)"
+  product_location: "VA.gov - all sections with local navigation, testing on Pittsburgh VAMC"
+  user_familiarity: "New design for existing navigation component"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "mixed-methods"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if the new local navigation design is better than the current navigation design"
+  - goal_2: "Assess if users sufficiently understand the new navigation design to interact with it as the designer intended"
+  - goal_3: "Evaluate if the design helps users ascertain where they are in the information architecture"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do users currently have a hard time finding content in subsections on VA.gov?"
+  - "Does this approach to the design make it easier to find content in subsections on VA.gov?"
+  - "Do users of this design understand how to browse the children of a section without navigating to that section?"
+  - "Do users of VA.gov use the local navigation element as a method of ascertaining where they are in the information architecture?"
+  - "Does the new design do a good job of helping users ascertain where they are in the information architecture of VA.gov?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users of the current local navigation design cannot easily find content deeper within the site without engaging in 'pogo-stick' behavior"
+  - "Users of the current local navigation design cannot make deep lateral moves across parent level sections easily"
+  - "Users of the redesigned local navigation will find this design helpful in browsing a subsection without going to that subsection and reading the page"
+  - "Users of the redesigned local navigation will try to make deep lateral moves across parent-level sections without using the back button or breadcrumbs"
+  - "Users may or may not understand how to interact with navigation elements for 'parents' which requires the parent to be replicated as a 'child' heading beneath the parent upon expansion"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Determine whether the new approach is more effective than the current approach and whether users fully understand the design of the new approach"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Geographic targeting"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Western PA residents that are Veterans"
+    - "Some familiarity with Pittsburgh area VA facilities (used at least once)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Will accept caregivers, but only up to 4"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a Western PA resident?"
+      qualifying_response: "Yes"
+    - question: "Are you a Veteran with familiarity with Pittsburgh area VA facilities?"
+      qualifying_response: "Yes, have used at least once"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 12
+  caregivers: 4
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 16
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-11-27"
+  pilot_participant: "Lauren Alexanderson, Ryan Thurwell, Andy Lewandowski, or Matt Self"
+  research_dates: "2019-12-02 to 2019-12-10"
+  research_review_submission: ""
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 0
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can find what they need on VA.gov"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improved navigation and findability within VA.gov sections"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Managing my declining health"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Previous VAMC navigation research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: Facilities"
+  - "DSP: Navigation"
+  - "usability-testing"
+  - "ethnographic-interview"
+  - "remote-research"
+  - "VAMC"
+  - "information-architecture"
+  - "left-nav"
 ---
 
 # Research Plan for Global UX, Local Navigation, November/December 2019

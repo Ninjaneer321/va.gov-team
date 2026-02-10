@@ -1,109 +1,106 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan Spin-Up Questions for Unicorns Team, Higher-Level Review, 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Unicorns"
+product: "Higher-Level Review"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Need to understand AMA implementation, forms, and workflows to develop insights into why and how Veterans would use a self-service facility for decision review requests"
+  product_location: "VA.gov decision reviews section"
+  user_familiarity: "New product - implementing AMA decision review process"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "discovery"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Develop articulable insights into why and how a Veteran would use a self-service facility for decision review requests"
+  - goal_2: "Understand how case workers process AMA decision review requests"
+  - goal_3: "Understand VSO perspectives on self-service portals and systems used for processing AMA DRRs"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How many of each kind of form have been submitted? How many forms are self service vs representation?"
+  - "Why does a Veteran seek representation, and why do they go self service?"
+  - "How much research do Veterans do before self service, and where do they do it?"
+  - "Does the Veteran understand the VA/AMA structure, benefit types, and the 3 lanes?"
+  - "How do case workers process cases that come in via fax? What is the step by step workflow?"
+  - "What percentage of issues written by the claimant are good, and what percentage need further development?"
+  - "How do VSOs regard self-service portals?"
+  - "How many AMA DRRs have the LOBs received? Have they been able to process any successfully in Caseflow?"
+  - "What kind of issue data is in VBMS? Does it make sense to people?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Self-service portals free up VSO resources to work with the Veterans who need it most"
+  - "Veterans need better understanding of AMA structure and the three lanes"
+  - "Case workers have bottlenecks in processing that could be streamlined with digital submission"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Inform design and implementation strategy for Higher-Level Review digital form and understand system workflows"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Direct recruitment"
+  approach: "Purposive sampling of key stakeholder groups"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have submitted AMA decision review requests"
+    - "VSO officials with experience in decision reviews"
+    - "Case workers (Claims Assistants) who process AMA forms"
+    - "Line of Business (LOB) representatives"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
-  veterans: 0
+  veterans: 5
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2019"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Enable digital decision review requests"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Putting down roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "TBD"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: VSO"
+  - "AUD: Caseworkers"
+  - "BNFT: Disability"
+  - "PRDT: Decision-reviews"
+  - "PRDT: Higher-Level-Review"
+  - "discovery"
+  - "semi-structured-interviews"
+  - "contextual-inquiry"
+  - "AMA"
+  - "stakeholder-research"
 ---
 
 # Research Plan Spin-Up Questions

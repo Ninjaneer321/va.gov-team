@@ -1,109 +1,115 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience Team, Direct Deposit UAT, September 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Authenticated Experience"
+product: "Direct Deposit"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Direct deposit for compensation & pension needs to launch on VA.gov as quickly as possible per VBA leadership directive. UAT is required to validate functionality on production before full release."
+  product_location: "VA.gov Profile - Direct Deposit section (production beta)"
+  user_familiarity: "New feature completing validation testing before public launch"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/direct-deposit/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "UAT"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate that direct deposit is displaying correctly for eligible users in production"
+  - goal_2: "Verify that direct deposit information is being correctly pulled from backend systems"
+  - goal_3: "Test that users can successfully update their direct deposit information on production"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Is direct deposit showing in people's profiles when it is supposed to?"
+  - "Is direct deposit NOT showing when it's NOT supposed to?"
+  - "For people who are supposed to see direct deposit, is their information being correctly pulled in from the backend?"
+  - "For people who are supposed to see direct deposit, can they update their information?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Direct deposit will work as expected on production"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Confirm that direct deposit functionality works correctly on production before full public launch"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment for production testing"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must receive compensation & pension payments from the VA"
+    - "Must be LOA3 (identity verified) on VA.gov"
+    - "Must be able to screenshare via GoToMeeting"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Comfortable with technology"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you receive compensation & pension payments from the VA?"
+      qualifying_response: "Yes"
+    - question: "Can you sign into VA.gov and access your profile without being prompted to verify your identity?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 5
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 5
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-09-03"
+  pilot_participant: "TBD"
+  research_dates: "2019-09-04 to 2019-09-09"
+  research_review_submission: ""
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 15
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their VA benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Launch secure direct deposit management on VA.gov"
+  - objective: "Improve security and reduce fraud"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Migrate sensitive transactions to 2FA-protected platform"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Direct Deposit Usability Testing June 2019"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "BNFT: Pension"
+  - "PRDT: Direct-deposit"
+  - "PRDT: Profile"
+  - "DSP: Authenticated-experience"
+  - "UAT"
+  - "remote"
+  - "production-testing"
+  - "beta"
+  - "financial-information"
 ---
 
 # Research Plan for Direct Deposit UAT

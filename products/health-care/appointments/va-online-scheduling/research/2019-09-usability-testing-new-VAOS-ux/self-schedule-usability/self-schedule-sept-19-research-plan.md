@@ -1,109 +1,123 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VAOS Self-Schedule Usability Testing, September 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "VA Online Scheduling"
+product: "VA Online Scheduling (VAOS)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Self-scheduling into VA health appointments is challenging because clinics are not standardized across facilities. Clinic names are backend constructs not intended for patients, creating confusion when Veterans face 40+ clinic options. Veterans may select incorrect clinics based solely on schedule availability rather than clinical appropriateness."
+  product_location: "VA.gov authenticated health tools - VA Online Scheduling"
+  user_familiarity: "Rebuild/iteration of existing VAOS tool"
+  product_brief_url: "products/health-care/appointments/va-online-scheduling/"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate choice-architecture approach of limiting self-schedule to previously-used clinics"
+  - goal_2: "Evaluate new calendar UI and time selection tool usability"
+  - goal_3: "Determine optimal appointment details and cancelled appointment display preferences"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are Veterans receptive to a choice-architecture approach of limiting self-schedule only to a clinic where a user last booked (within a set time frame for a type of care)?"
+  - "How do Veterans make a choice about self-scheduling when faced with a complex list of clinics?"
+  - "Is the date and time selection tool intuitive?"
+  - "How much detail (which data fields) are useful to a Veteran w/r/t their appointments?"
+  - "Do users find the messaging field helpful?"
+  - "Is the cancelling process intuitive?"
+  - "Do Veterans want to see cancelled appointments inline with other confirmed/pending appointments, or separate?"
+  - "What content is needed to facilitate decision support at key moments in the appointment scheduling process?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will welcome the option of having the clinic where they previously had an appointment surfaced to them for easy self-scheduling"
+  - "Veterans will not be able to parse a complex list of clinics and will either quit the application or select a clinic at random that corresponds to their schedule"
+  - "The new calendar-UI and time selection tool facilitates self-scheduling"
+  - "Veterans need guidance on what to write in the message / reason for appointment field"
+  - "Veterans will want to see cancelled appointments in a separate list for up to 90 days post appointment"
+  - "For confirmed appointments, Veterans will want to see date and time of appointment, type of care, team, and location"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate design recommendations before building out self-scheduling functionality, ensuring clinic selection doesn't create user confusion or incorrect appointments"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who currently use VA health care"
+    - "Veterans who have experience with the VA Online Scheduling tool"
+    - "Veterans who can use iPad or Laptop with GoToMeeting enabled"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of demographics and locations"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you currently use VA health care?"
+      qualifying_response: "Yes"
+    - question: "Have you used the VA Online Scheduling tool before?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-09-20"
+  pilot_participant: "Team member"
+  research_dates: "2019-09-25 to 2019-09-30"
+  research_review_submission: "2019-09-20"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 8
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase online appointment scheduling"
+  - objective: "Improve user experience of VA health tools"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Reduce confusion in self-scheduling process"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Living Civilian Life"
+  - "Taking Care of Myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "products/health-care/appointments/va-online-scheduling/research/"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - AUD: Veterans
+  - BNFT: Healthcare
+  - PRDT: VAOS
+  - MHV: Appointments
+  - DSP: Appointments
+  - usability-testing
+  - remote-moderated
+  - self-scheduling
+  - clinic-selection
+  - calendar-UI
+  - appointment-management
 ---
 
 # Research Plan for VAOS Self-Schedule Usability

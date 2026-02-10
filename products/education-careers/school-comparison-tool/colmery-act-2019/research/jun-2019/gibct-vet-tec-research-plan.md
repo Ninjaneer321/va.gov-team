@@ -1,109 +1,118 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VET TEC Course Comparison using GIBCT, June 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Education (EDU)"
+product: "GI Bill Comparison Tool - VET TEC"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need to learn about VET TEC courses and easily compare approved training providers, and receive an estimate of their VET TEC benefits to make informed decisions about high-tech industry training"
+  product_location: "VA.gov GI Bill Comparison Tool"
+  user_familiarity: "New feature supporting Colmery Act Section 116"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how Veterans engage with the comparison tool to learn about VET TEC providers and approved programs"
+  - goal_2: "Identify which data points Veterans are most interested in using for VET TEC program/provider decisions"
+  - goal_3: "Validate the design solution addresses issues uncovered during discovery activities"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans engage with the comparison tool to learn about VET TEC providers and approved programs?"
+  - "Which data points are Veterans most interested in using in a VET TEC program/provider decision?"
+  - "What additional data would make comparing VET TEC providers easier for Veterans?"
+  - "What challenges or common pitfalls do Veterans face when attempting to compare VET TEC providers and learn about approved programs?"
+  - "What are the Veterans' assumptions about the Benefits Estimate?"
+  - "What additional information or contextual help would ensure that users provide the correct inputs and are able to leverage the tool's full capabilities?"
+  - "What aspects of the GIBCT Calculator could be improved to enhance usability?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Presenting current training provider and program information will simplify and improve the process of researching VET TEC training opportunities"
+  - "Displaying an estimate of the funds the Veteran will receive will allow them to feel more confident in their ability to compare and understand VET TEC programs"
+  - "Providing contextual help to guide Veterans through the process will enable them to obtain training in the high-tech industry"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Develop a thorough understanding of how Veterans use the Comparison Tool to research VET TEC providers and validate the design solution addresses discovery findings"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment for VET TEC interest"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans with VA educational benefits (applied for or remaining)"
+    - "Interest in pursuing education in the high-tech industry"
+    - "Age range: 22-45 years old"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Have not yet decided on specific institution to attend"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you applied for VA educational benefits before?"
+      qualifying_response: "Yes or interested in applying"
+    - question: "Do you have any VA educational benefits remaining?"
+      qualifying_response: "Yes"
+    - question: "Are you interested in pursuing education in the high-tech industry?"
+      qualifying_response: "Yes, high-tech"
+    - question: "What is your age range?"
+      qualifying_response: "22-45 years old"
       
 participants:
-  veterans: 0
+  veterans: 6
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 6
+  completed_sessions_goal: 4
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: ""
+  pilot_participant: ""
+  research_dates: "2019-06-03 to 2019-06-04"
+  research_review_submission: "2019-05-31"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can make informed decisions about education"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Veterans can successfully compare VET TEC providers and programs"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Finding something to do"
+  - "Reinventing myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "GIBCT discovery research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Education"
+  - "PRDT: GI Bill Comparison Tool"
+  - "usability-testing"
+  - "remote-research"
+  - "Colmery-Act"
+  - "Section-116"
+  - "VET-TEC"
+  - "high-tech-training"
 ---
 
 # Sprint Research Plan #

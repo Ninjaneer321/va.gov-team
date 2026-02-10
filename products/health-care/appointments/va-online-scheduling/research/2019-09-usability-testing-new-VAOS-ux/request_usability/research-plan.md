@@ -1,109 +1,123 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VAOS Request Flows: Community Care and VA, September 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "VA Online Scheduling"
+product: "VA Online Scheduling (VAOS)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "VAOS needs improved UX/UI and integration of drive time eligibility. Two years after USDS improvements, the tool requires enhancements for discoverability, accessibility, and usability, especially with new Community Care flows under Mission Act and upcoming Cerner EHR migration."
+  product_location: "VA.gov authenticated health tools - VA Online Scheduling (migrating from mobile portfolio)"
+  user_familiarity: "Iteration with significant new features (Community Care, drive time eligibility)"
+  product_brief_url: "products/health-care/appointments/va-online-scheduling/"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate strategy of only showing Veterans options they have access to"
+  - goal_2: "Test new Community Care flows and type of care selection"
+  - goal_3: "Identify content needs for decision support throughout scheduling process"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How does our strategy of only showing Veterans options that they have work within VAOS work w/r/t user flow?"
+  - "Are users aware of VAOS?"
+  - "What is the user's goal or mental process for scheduling an appointment?"
+  - "Do the new user interface components introduce any pain points or confusion?"
+  - "What content is needed to facilitate decision support at key moments in the appointment scheduling process?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Presenting Veterans with options that they do not have and dead ends is a terrible user experience. Rerouting the flows to avoid dead ends and trying to avoid presenting Veterans with options they do not have will improve the user experience, confidence in the application, and satisfaction with this tool"
+  - "Veterans may still have limited exposure to VAOS and may not know all of the things they can do in it. Some of the suggested improvements to the user flows may help Veterans understand their options better"
+  - "Provider and location are the primary drivers for an appointment and may be the primary drivers for scheduling online. Type of care is a VA construct and may require additional support"
+  - "The confirm address and choose VA location flow as it stands right now will introduce pain points"
+  - "Ryan's new proposal for the date and time selection tool will be more intuitive than the pick three dates and times option now"
+  - "By introducing community care where we have (after type of care selection) we are reducing complexity"
+  - "The phrase pending makes more sense than requested appointment, and Veterans understand that further action is needed before this is secure"
+  - "Content is needed to improve comprehension and context throughout the application"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Get feedback on new UI options and flows using mock data before building too much, ensuring Community Care integration works smoothly"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who currently have VA healthcare"
+    - "Participants who have some exposure to community care"
+    - "Veterans who have used the online scheduling tool before (ideally)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of demographics and geographic locations"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you currently have VA healthcare?"
+      qualifying_response: "Yes"
+    - question: "Have you used Community Care services?"
+      qualifying_response: "Preferred but not required"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-08-26"
+  pilot_participant: "Team member"
+  research_dates: "2019-09-09 to 2019-09-13"
+  research_review_submission: "2019-09-06"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 10
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Expand access to Community Care scheduling"
+  - objective: "Mission Act implementation"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Successful Community Care integration into VAOS"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Living Civilian Life"
+  - "Taking Care of Myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "products/health-care/appointments/va-online-scheduling/research/"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - AUD: Veterans
+  - BNFT: Healthcare
+  - PRDT: VAOS
+  - MHV: Appointments
+  - DSP: Appointments
+  - usability-testing
+  - remote-moderated
+  - community-care
+  - Mission-Act
+  - appointment-requests
+  - drive-time-eligibility
+  - type-of-care
 ---
 
 # Research Plan for VAOS Request Flows: Community Care and VA, Sept 9-13

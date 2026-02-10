@@ -1,109 +1,107 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VAOS Team, Phased Rollout UAT Phase 1 - View Appointments, November 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "VAOS"
+product: "VA Online Scheduling"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Legacy mobile online scheduling application (mobile.va.gov) front end has been rebuilt on VA.gov. Need to validate with real users and real data that the rebuilt application works correctly in production before full rollout."
+  product_location: "VA.gov health care appointments section"
+  user_familiarity: "New product - rebuilding existing mobile application on VA.gov platform"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "UAT"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate that Veterans can view their upcoming appointments and appointment requests"
+  - goal_2: "Confirm user flows work correctly in production with real data"
+  - goal_3: "Ensure data displays correctly where it is supposed to show up"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are users getting through the flow?"
+  - "Is the data showing up where it is supposed to show up?"
+  - "Can Veterans view appointments in a way that is logical and intuitive to them?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans are able to view their upcoming appointments and appointment requests in a way that is logical and intuitive to them"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate production readiness before broader rollout. Phased approach with Phase 1 (view appointments) followed by Phase 2 (request and schedule appointments)."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "phased UAT with specific authentication requirements"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Phase 1: Veterans with UPCOMING health appointments at VA"
+    - "Must have MHV Premium account OR authenticated/identity-proofed ID.me account"
+    - "Must have logged into VA.gov before the session with their accounts"
+    - "Phase 2: Veterans enrolled in VA healthcare, some eligible for community care"
+    - "Veterans who want to submit/request appointments"
+    - "Ideally, veterans who have used online scheduling before or been seen at VA facility within last 2 years"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - "Must have account details handy for the session"
+    - "Email address used for VA.gov authentication needed prior to session if first-time login"
       
 participants:
-  veterans: 0
+  veterans: 50
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 50
+  completed_sessions_goal: 50
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "n/a"
+  research_dates: "Phase 1: 2019-11-14 onwards; Phase 2: First week of December 2019"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 30
+  buffer_minutes: 15
+  max_sessions_per_day: 8
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Migrate VAOS to VA.gov platform"
+      - "Enable appointment viewing and scheduling online"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "TBD"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VAOS"
+  - "PRDT: Appointments"
+  - "MHV: Appointments"
+  - "UAT"
+  - "production-testing"
+  - "phased-rollout"
+  - "MHV-Premium"
+  - "ID.me"
+  - "view-appointments"
+  - "cancel-appointments"
+  - "community-care"
 ---
 
 # Research Plan for VAOS Phased Rollout UAT

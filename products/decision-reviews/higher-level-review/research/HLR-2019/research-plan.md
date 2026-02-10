@@ -1,109 +1,109 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Unicorns Team, Higher-Level Review Usability Testing, December 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Unicorns"
+product: "Higher-Level Review"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Technical changes were made to HLR designs after initial testing. Need to test latest designs for usability issues, language comprehension, and flow clarity before launch."
+  product_location: "VA.gov decision reviews section"
+  user_familiarity: "Iteration - testing updated designs after previous research round"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand potential usability issues and friction points in current HLR designs"
+  - goal_2: "Understand how users comprehend language within the HLR process (legacy appeal, opt-out, etc.)"
+  - goal_3: "Identify any confusing or ambiguous steps in the flow of the HLR submission process"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do any usability issues exist in the latest HLR designs?"
+  - "Are the steps clearly defined or self-explanatory?"
+  - "Does the user need more information to move forward?"
+  - "Is there any confusing or ambiguous language that exists in the HLR content?"
+  - "Does the user understand 'legacy appeals'?"
+  - "How does the user respond to and understand the 'opt-out of legacy' screen?"
+  - "Are there any confusing steps in the flow of the HLR submission process?"
+  - "Does the user organically move from step to step?"
+  - "Are users missing any information in order to feel confident moving forward?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "There are languages and terms in the flow that may confuse veterans (i.e. legacy appeals, opt-out, etc.)"
+  - "Opt-out page could potentially alarm users because it is a deliberate and forced action to proceed in submitting the HLR process"
+  - "Users need to feel 100% confident that they know all the consequences of opt-out action before moving forward"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify and resolve usability issues before launch, validate that design changes resolved previous concerns"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must have filed a disability claim"
+    - "Must be able to describe what they are trying to accomplish as they move through the prototype"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - "Variation in age"
+    - "Variation in location"
+    - "Variation in experience with VA claims"
+    - "Variation in tech savviness"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-01-14"
+  pilot_participant: "Kevin S."
+  research_dates: "2020-01-15 to 2020-01-22"
+  research_review_submission: "2020-01-03"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 55
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Enable digital Higher-Level Review submissions"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Putting down roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Previous HLR usability testing (pre-technical changes)"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Decision-reviews"
+  - "PRDT: Higher-Level-Review"
+  - "usability-testing"
+  - "remote-moderated"
+  - "prototype-testing"
+  - "InVision"
+  - "AMA"
+  - "legacy-appeals"
 ---
 
 # Research Plan for Higher Level Review (HLR) usability testing

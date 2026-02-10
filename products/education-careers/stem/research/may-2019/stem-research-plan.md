@@ -1,109 +1,118 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for STEM Scholarship Application Form, May 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Education (EDU)"
+product: "STEM Scholarship Application (Edith Nourse Rogers)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans who have completely depleted or are within 6 months of depleting their Post-9/11 GI Bill benefits and need extra time to complete their STEM undergraduate degree or teaching certification need an easy way to apply for the Edith Nourse Rogers STEM Scholarship"
+  product_location: "VA.gov Education benefits application"
+  user_familiarity: "New online application form"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "mixed-methods"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Identify challenges or common pitfalls Veterans might face when completing the STEM scholarship application"
+  - goal_2: "Determine what information VA needs to ensure valid scholarship requests are approved"
+  - goal_3: "Identify opportunities to streamline the form through conditional logic and pre-populated data"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What challenges or common pitfalls might Veterans face when attempting to complete the STEM scholarship application?"
+  - "What information does the VA need to receive from Veterans to ensure that valid scholarship requests are approved?"
+  - "Where can we use conditional logic and branching to display only those questions that are relevant to the Veteran?"
+  - "Are there opportunities to streamline the form by pre-populating data from other sources?"
+  - "What information and/or contextual help would be helpful on the form to ensure that valid requests are approved?"
+  - "Do users have questions around why they are being asked for a fiscal year, rather than an academic year?"
+  - "Do users wonder whether they need to enter the number of credits they've completed as of today or as of the end of the current quarter/semester?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Presenting scholarship application questions in an easy to use interview format will simplify the process of applying for STEM Scholarship benefits"
+  - "Pre-populating Veteran data when available will save time and increase satisfaction"
+  - "Providing contextual help and guiding Veterans through the process will allow them to feel more confident in their ability to apply for benefits independently"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Understand users' goals, needs and behaviors, and be aware of issues they may encounter to enable crafting content and user interactions that ensure eligible Veterans are granted the STEM Scholarship"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment for STEM-eligible Veterans"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Currently or previously used VA Post-9/11 GI Bill educational benefits"
+    - "Pursuing or obtained an undergraduate degree in science, technology, engineering, or math"
+    - "Nearing the end of GI Bill benefits or interested in teaching certification"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Include School Certifying Officials for institutional perspective"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you currently or have you in the past used VA Post 9/11 GI Bill educational benefits?"
+      qualifying_response: "Yes"
+    - question: "Are you pursuing (or did you obtain) an undergraduate degree in science, technology, engineering, or math?"
+      qualifying_response: "Yes, pursuing or graduated"
+    - question: "Are you nearing the end of your GI Bill benefits?"
+      qualifying_response: "Yes or interested in teaching certification"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  dependents: 2
+  total_recruited: 16
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: ""
+  pilot_participant: ""
+  research_dates: "2019-05-06 to 2019-05-23"
+  research_review_submission: "2019-05-03"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can apply for education benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Eligible Veterans can successfully complete STEM scholarship application"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Finding something to do"
+  - "Reinventing myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Education benefits application research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Spouses"
+  - "AUD: Dependents"
+  - "BNFT: Education"
+  - "PRDT: STEM Scholarship"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "remote-research"
+  - "discovery"
+  - "application-form"
+  - "Edith-Nourse-Rogers"
 ---
 
 # Sprint Research Plan #

@@ -1,109 +1,112 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for EDU, GIBCT Sec 107, Round 3, August 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Education (EDU)"
+product: "GI Bill Comparison Tool"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Section 107 of the Colmery Act requires VA to calculate Post-9/11 GI Bill monthly housing allowance (MHA) based on the location of the campus where the individual physically attends a majority of classes, rather than the location of the institution. The GIBCT needs to be updated to comply with this requirement."
+  product_location: "VA.gov GI Bill Comparison Tool"
+  user_familiarity: "Iteration on existing product"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate users' ability to engage with the tool to find estimated BAH amounts based on calculator selections"
+  - goal_2: "Test users' ability to find and use housing allowance controls for different school types and locations"
+  - goal_3: "Identify refinements needed to improve users' ability to find and use housing allowance controls"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are users able to engage with the tool to find estimated BAH amounts that take into account the user's calculator selections?"
+  - "Are users able to find and use the relevant calculator controls to modify the estimated housing amounts for an extension of the currently selected schools?"
+  - "Are users able to find and use controls for a new IHL location that has not yet been added to the GIBCT?"
+  - "Are users able to find and use controls for a new location for OJT or an apprenticeship?"
+  - "What refinements, if any, are needed to improve users' ability to find and use the housing allowance controls?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "By increasing the visibility of the 107 control and campus-specific housing rate estimates, the GIBCT will allow Veterans and other GI Bill beneficiaries to more accurately estimate the housing allowance benefit they'll receive"
+  - "Knowing an approximate housing allowance will help Veterans feel more confident in their ability to make an informed decision about their education options"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate the Section 107 housing allowance design and identify any needed refinements to improve usability and accuracy of benefit estimates for Veterans making education decisions"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Mixed participant types"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Distribution of Veterans, active duty service members, National Guard/Reservists and dependents using parent's GI Bill Benefits"
+    - "4-5 interested in or having attended an institute of higher education (2-4 year program or more)"
+    - "4-5 interested in or having attended OJT training or apprenticeship program"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Age Range: 18-45"
+    - "Geographically dispersed across US"
+    - "Post-9/11 GI Bill eligibility"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "VA Benefit requirement"
+      qualifying_response: "Post-9/11 GI Bill"
       
 participants:
-  veterans: 0
+  veterans: 4
   caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  dependents: 2
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-08-13"
+  pilot_participant: "TBD"
+  research_dates: "2019-08-14 to 2019-08-16"
+  research_review_submission: ""
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can make informed decisions about education"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Accurate housing allowance estimates based on physical campus location"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Finding something to do"
+  - "Putting down roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "GIBCT Section 107 Round 1 and Round 2 research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "AUD: Dependents"
+  - "BNFT: Education"
+  - "PRDT: GI Bill Comparison Tool"
+  - "usability-testing"
+  - "remote-research"
+  - "Colmery-Act"
+  - "Section-107"
+  - "housing-allowance"
 ---
 
 # Research Plan for EDU, GIBCT Sec 107, Round 3 August 14-16, 2019

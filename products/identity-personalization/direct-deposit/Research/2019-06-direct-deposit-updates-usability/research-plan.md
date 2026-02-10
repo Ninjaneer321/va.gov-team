@@ -1,109 +1,120 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Dragons Team, Direct Deposit Updates, June 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Dragons"
+product: "Direct Deposit"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "eBenefits doesn't have two-factor authentication, making the site more open to security vulnerabilities and potential fraud. VA.gov has 2FA capabilities, making it a more secure platform for managing direct deposit for compensation & pension benefits."
+  product_location: "VA.gov Profile - Direct Deposit section"
+  user_familiarity: "New feature - Adding direct deposit functionality from eBenefits to VA.gov profile"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/direct-deposit/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate that the profile is the best place for direct deposit functionality"
+  - goal_2: "Evaluate if users understand how to update their direct deposit information"
+  - goal_3: "Assess user reactions to design decisions including blank edit modal fields and eBenefits redirect for GI Bill"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Is the profile the best place for this functionality?"
+  - "Do users know where to go to update direct deposit information? If not, what steps do they try?"
+  - "Do users understand how to update their information when they get to the profile?"
+  - "Are users confused that the edit modal doesn't populate their existing information?"
+  - "Do users understand how to find and update their routing and account numbers?"
+  - "How confused are people that they have to go to eBenefits to update GI Bill info?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "People will find the profile to be the natural place to update their direct deposit info"
+  - "People will find the process to update information to be intuitive"
+  - "People will be confused that the edit modal has blank routing and account number fields"
+  - "People will not like that they still have to go to eBenefits to update GI Bill info"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate design direction for direct deposit integration into VA.gov profile and identify usability improvements before full launch"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment with diversity goals"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must currently receive VA compensation or pension benefits via direct deposit on eBenefits"
+    - "Must be able to access GoToMeeting via computer for screensharing"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least one woman participant"
+    - "At least one participant under 35"
+    - "At least one participant of color"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you currently receive VA compensation or pension benefits via direct deposit on eBenefits?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 5
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 5
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-06-21"
+  pilot_participant: "TBD"
+  research_dates: "2019-06-24 to 2019-06-28"
+  research_review_submission: ""
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their VA benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase secure transactions on VA.gov"
+  - objective: "Improve security and reduce fraud"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Move sensitive transactions to 2FA-protected platform"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - ""
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "BNFT: Pension"
+  - "PRDT: Direct-deposit"
+  - "PRDT: Profile"
+  - "DSP: Authenticated-experience"
+  - "DSC: Form"
+  - "DSC: Modal"
+  - "usability-testing"
+  - "remote"
+  - "profile"
+  - "financial-information"
 ---
 
 # Research Plan for Dragons: Direct deposit updates | June 2019

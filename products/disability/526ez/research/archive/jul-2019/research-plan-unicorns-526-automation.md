@@ -1,109 +1,116 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Unicorns 526 Contention Automation, July 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Unicorns"
+product: "Form 21-526EZ (Disability Compensation Application)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The 526 form uses a text box with fuzzy matching to match Veteran-entered conditions to a taxonomy. Veterans must manually select from dropdown matches, and unselected text is submitted as-is. The CTO's office developed a plain language parsing API that can analyze free text and match it to VA Contention IDs with high confidence."
+  product_location: "VA.gov authenticated benefits tools - Disability Compensation (Form 526EZ)"
+  user_familiarity: "Significant UX change to condition entry system"
+  product_brief_url: "products/disability/526ez/"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test new automated contention matching system using plain language parsing API"
+  - goal_2: "Determine necessary feedback to make Veterans comfortable with automated matching"
+  - goal_3: "Identify guidance needed for Veterans to trust the automated process"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What feedback is necessary to make the Veteran comfortable that they are doing the right thing?"
+  - "What guidance do we need to provide to make Veterans comfortable with the process?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "We don't need to ask Veterans to make a choice. We can take their language and assign a contention without further intervention"
+  - "Veterans will be comfortable with automated contention matching if proper feedback is provided"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Document approach for automated contention matching for evaluation by successor team, determining if automation can replace manual selection without requiring Veteran intervention"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment including accessibility"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "5-8 Veterans"
+    - "At least one assistive device user"
+    - "Mix of Veterans with experience applying for disability compensation and those considering it"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Good representation across age and gender"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you applied for disability compensation or are you thinking about it?"
+      qualifying_response: "Yes"
+    - question: "Do you use assistive technology to access websites?"
+      qualifying_response: "At least one participant should answer yes"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 8
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-07-08"
+  pilot_participant: "Team member"
+  research_dates: "2019-07-10 to 2019-07-11"
+  research_review_submission: "2019-07-05"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can apply for benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improve accuracy of disability condition matching"
+  - objective: "Reduce burden on Veterans during claims process"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Automate contention matching to eliminate manual selection"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "products/disability/526ez/research/archive/feb-2019/research-plan.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - AUD: Veterans
+  - BNFT: Disability
+  - PRDT: Form 21-526EZ
+  - DSP: Forms-system
+  - DSC: Form-controls
+  - DSC: Text-input
+  - usability-testing
+  - remote-moderated
+  - accessibility
+  - automation
+  - natural-language-processing
+  - contention-matching
+  - disability-claims
+  - prototype-testing
 ---
 
 # Research plan for Unicorns, 526 (automation), Jun 28–Jul 2

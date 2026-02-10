@@ -1,109 +1,112 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Unicorns Team, Claim Status Tool Discovery, September 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Unicorns"
+product: "Claim Status Tool"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans are using the Claim Status tool to submit Decision Review forms, which creates a problem because forms get stored in the eFolder without EP codes for tracking and does not notify anyone. Decision Review forms could go unnoticed indefinitely."
+  product_location: "VA.gov authenticated experience - Claim Status Tool"
+  user_familiarity: "Iteration - researching existing tool usage and appeal filing expectations"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand where Veterans expect to be able to file an appeal on VA.gov"
+  - goal_2: "Understand how Veterans are using the Claim Status tool"
+  - goal_3: "Discover opportunities to improve Veterans' experiences with the Claim Status tool"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Where would Veterans expect to be able to file an appeal on VA.gov?"
+  - "How are Veterans using the Claim Status tool and how do they feel about it?"
+  - "Does the Claim Status tool have the information Veterans need, and is it clear and easy to understand?"
+  - "What types of files do Veterans expect to upload in the Claim Status tool?"
+  - "What do Veterans expect to happen after they upload evidence?"
+  - "Would Veterans consider uploading a non-evidence document in the Claim Status tool, and why?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans are using the Claim Status tool to submit Decision Review forms because there isn't a better way to submit them on VA.gov"
+  - "There are opportunities to improve the Claim Status tool and appeals content on VA.gov to help Veterans easily understand the process"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify how frequently Veterans submit Decision Review forms incorrectly and discover improvement opportunities for the Claim Status tool to prevent misuse for appeals submissions"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must have one of the following accounts: DSLogon, My HealtheVet, or ID.me"
+    - "Must have filed a disability claim or appealed a disability decision"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Geographically dispersed"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you filed a disability claim or appealed a disability decision?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 8
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2019-09-23"
+  pilot_participant: "Emily W."
+  research_dates: "2019-09-25 to 2019-10-01"
+  research_review_submission: "2019-09-13"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 0
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their VA benefits online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improve Claim Status tool usability"
+  - objective: "Reduce burden on contact centers"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Reduce confusion about where to file appeals"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Managing my declining health"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - ""
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Claim-status-tool"
+  - "PRDT: Decision-reviews"
+  - "DSP: Ask users for files"
+  - "DSC: File upload"
+  - "usability-testing"
+  - "remote"
+  - "discovery"
 ---
 
 # Research Plan

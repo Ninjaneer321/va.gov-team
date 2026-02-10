@@ -1,109 +1,116 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for GI Bill Comparison Tool, March-June 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Education (EDU)"
+product: "GI Bill Comparison Tool"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans and service members need to learn about education programs and compare benefits by school, research colleges and employers approved for the GI Bill, and receive benefit estimates, value and affordability information to make informed decisions"
+  product_location: "VA.gov GI Bill Comparison Tool"
+  user_familiarity: "Iteration on existing product"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "mixed-methods"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how Veterans engage with the tool to see relevant GI Bill benefit information"
+  - goal_2: "Identify challenges or common pitfalls Veterans face when comparing GI Bill benefits by school"
+  - goal_3: "Validate design solutions in prototype address issues uncovered during discovery"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans understand how to engage with the tool to see relevant GI Bill benefit information?"
+  - "What challenges or common pitfalls do Veterans face when attempting to compare GI Bill benefits by school and learn about education programs?"
+  - "Are Veterans able to use the tool to compare benefits easily?"
+  - "Where can we use conditional logic and branching to display only relevant questions to the Veteran?"
+  - "Are there opportunities to streamline the form by pre-populating data from other sources?"
+  - "What additional information or contextual help would ensure that users provide correct inputs and leverage the tool's full capabilities?"
+  - "What aspects of the GIBCT Calculator could be improved to enhance user understanding?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Presenting current eligibility information and housing rates will simplify and improve the process of researching GI Bill benefits"
+  - "Displaying information that relates to the Veteran's specific situation will increase satisfaction with the process"
+  - "Providing contextual help to guide the Veteran through the process will allow them to feel more confident in their ability to compare and understand GI Bill benefits"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Develop a thorough understanding of how Veterans use the Comparison Tool and validate design solutions to address discovery issues"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling across user types"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Interested in or planning to use GI Bill benefits in the next 1-3 years"
+    - "Have not yet decided what institution to attend"
+    - "Mix of Veterans, service members, National Guard/Reservists, and dependents"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Include Military & Veterans' Services Specialists for expert perspective"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you interested in or planning to use your GI Bill benefits in the next 1-3 years?"
+      qualifying_response: "Yes"
+    - question: "Have you decided what institution you'd like to attend yet?"
+      qualifying_response: "No"
       
 participants:
-  veterans: 0
+  veterans: 4
   caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  dependents: 4
+  total_recruited: 18
+  completed_sessions_goal: 16
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: ""
+  pilot_participant: ""
+  research_dates: "2019-04-08 to 2019-06-07"
+  research_review_submission: "2019-04-07"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can make informed decisions about education"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Veterans can successfully compare GI Bill benefits by school"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Finding something to do"
+  - "Putting down roots"
+  - "Reinventing myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Previous GIBCT research iterations"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "AUD: Dependents"
+  - "BNFT: Education"
+  - "PRDT: GI Bill Comparison Tool"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "remote-research"
+  - "discovery"
+  - "comparative-analysis"
 ---
 
 # Sprint Research Plan #
