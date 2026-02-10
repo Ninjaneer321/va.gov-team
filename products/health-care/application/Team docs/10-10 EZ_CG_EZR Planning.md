@@ -94,7 +94,7 @@
 
 ## 
 ### 10-10CG
-#### Obj: 
+#### Obj: CG [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
 - [#130858](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130858) - [ENG/QA] Review and align with the latest QA Standards updates
 
 ##
