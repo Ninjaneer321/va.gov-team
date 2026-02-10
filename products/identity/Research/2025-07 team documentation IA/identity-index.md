@@ -2,11 +2,11 @@
 
 ## Overview
 
-This is a structured list of all the work we’ve previously shipped and currently maintain. This index was designed based on an information architecture exercise we completed as a team last year.
+The index is a structured list of all the components the Identity team has previously shipped and currently maintains. This includes Identity team-owned applications, services, and integrations.
 
-Each component in the identity index documents:
-- Page URL: The best link for someone to learn about the service, integration, or application.
-- Subject matter expert: The best person to consult to make sure page content is accurate.
+Each individual component includes:
+- **Documentation:** The best resource for someone to learn about the service, integration, or application.
+- **Subject matter expert:** The best person to consult to make sure page content is accurate.
 
 ## Identity index
 - [Onboarding for new VA.gov applications, services, and integrations](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity#about-the-octo-identity-team)
@@ -27,7 +27,7 @@ Each component in the identity index documents:
         - [UserModel](https://github.com/department-of-veterans-affairs/va.gov-team/blob/84c03840daa10907c26d239c567c160d41c74c0c/products/identity/login/verified_user_attributes.md)
     - [Security policies and compliance](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/Policies%20and%20Procedures)
     - [STS integrations](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/Service%20Account%20Endpoints/MAP%20STS%20Token.md)
-    - [VA.gov authentication (SiS)](https://github.com/department-of-veterans-affairs/va.gov-team/tree/84c03840daa10907c26d239c567c160d41c74c0c/products/identity/Products/Sign-In%20Service/Engineering%20Docs)
+    - [Sign-in Service (SiS)](https://github.com/department-of-veterans-affairs/va.gov-team/tree/84c03840daa10907c26d239c567c160d41c74c0c/products/identity/Products/Sign-In%20Service/Engineering%20Docs)
     - External integrations
         - [Login.gov integration](https://depo-platform-documentation.scrollhelp.site/developer-docs/login-gov)
         - [ID.me integration](https://depo-platform-documentation.scrollhelp.site/developer-docs/id-me)
@@ -57,7 +57,7 @@ Each component in the identity index documents:
 | -- UserModel | John B. |
 | - Security policies and compliance | Joe |
 | - STS integrations | John B. |
-| - VA.gov authentication (SiS) | John B. |
+| - Sign-in Service (SiS) | John B. |
 | - External integrations | Joe |
 | -- Login.gov integration | Joe |
 | -- ID.me integration | Joe |
