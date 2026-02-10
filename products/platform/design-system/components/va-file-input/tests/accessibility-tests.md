@@ -839,23 +839,23 @@ Navigate to a page containing two or more uploaded encrypted files. Each file di
 #### Actual behavior:
 
 **Screen readers:** 
-**1. ⚫ Chrome + VO:** 
+**1. 🟡 Chrome + VO:**  Password input and submit button announce as expected, however, VO browse mode can access the the `sr-only-text` and may announce the file name twice
 
-**2. ⚫ Safari + VO:** 
+**2. 🟡 Safari + VO:** Password input and submit button announce as expected, however, VO browse mode can access the the `sr-only-text` and may announce the file name twice
 
-**3. ⚫ Safari + iOS + VO:**  
+**3. 🟡 Safari + iOS + VO:**  Password input and submit button announce as expected, however, VO browse mode can access the the `sr-only-text` and may announce the file name twice
 
-**4. ⚫ Chrome + iOS + VO:**
+**4. 🟡 Chrome + iOS + VO:** Password input and submit button announce as expected, however, VO browse mode can access the the `sr-only-text` and may announce the file name twice
 
-**5. ⚫ Edge + JAWS:**
+**5. 🟢 Edge + JAWS:** Each repeated control (password input + Submit password + Change file + Delete) includes file-specific context in its accessible name or reliably announced description.
 
-**6. ⚫ Edge + NVDA:** 
+**6. 🟢 Edge + NVDA:** Each repeated control (password input + Submit password + Change file + Delete) includes file-specific context in its accessible name or reliably announced description.
 
-**7. ⚫ Chrome + JAWS:** 
+**7. 🟢 Chrome + JAWS:** Each repeated control (password input + Submit password + Change file + Delete) includes file-specific context in its accessible name or reliably announced description.
 
-**8. ⚫ Chrome + NVDA:** 
+**8. 🟢 Chrome + NVDA:** Each repeated control (password input + Submit password + Change file + Delete) includes file-specific context in its accessible name or reliably announced description.
 
-**9. ⚫ Chrome + Talkback + Android** 
+**9. 🟡 Chrome + Talkback + Android** Password input and submit button announce as expected, however, swiping through, users can access the the `sr-only-text` and may announce the file name twice
 
 
 ---
@@ -934,6 +934,7 @@ We established our "Good Enough" criteria
 ## 📄 Version History
 | Date | Author | Change |
 |------|--------|--------|
+| 2026-02-10 | Jeana | Finishd tests for updated password input for encrypted files, [approved PR](https://github.com/department-of-veterans-affairs/component-library/pull/1952#pullrequestreview-3780275537) |
 | 2026-01-22 | Jeana | Started tests for updated password input for encrypted files |
 | 2026-01-13 | Jeana  | Completed talkback testing, and re-ran the tests here and identified no regressions |
 | 2025-12-25 | Jeana  | Added Android Talkback testing results + Chrome on Windows |
