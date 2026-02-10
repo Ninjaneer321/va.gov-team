@@ -1,109 +1,130 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Patient Check In, Past Appointments Travel Reimbursement Generative Usability Study, November 2023"
+date: 2023-11-01
+last_updated: 2026-02-10
+team: "Patient Check In (PCI) Team"
+product: "Travel Reimbursement"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Expanding on the successful pilot of mileage-only travel reimbursement at check-in, the PCI team needs to explore how Veterans can file for travel reimbursement for past appointments in both a LoROTA environment and a fully authenticated environment."
+  product_location: "VA.gov - Appointments and Check-in"
+  user_familiarity: "New feature - expanding existing travel reimbursement to past appointments"
+  product_brief_url: "N/A"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Get feedback from Veterans on the proposed past appointments mileage-only travel reimbursement userflow and design"
+  - goal_2: "Assess ease of use and how well it meets expectations"
+  - goal_3: "Learn more about Veterans' mental models around the meaning and importance of different claim statuses used in BTSSS"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "From a full auth experience (on MyVA) via an email for filing a travel claim for a specific appointment, how easy or difficult is it for Veterans to navigate to file a travel reimbursement claim?"
+  - "How helpful are task cards (that are located above the Appointment list for upcoming appointments) in helping Veterans locate the travel reimbursement task they are expecting to file?"
+  - "How easy or difficult is it to understand the time left to file for a travel reimbursement claim for an appointment?"
+  - "How easy or difficult is it to understand the submitted claim status, time left to file (and associated next steps) for a travel reimbursement claim on the confirmation pages?"
+  - "How easy or difficult is it to understand the status, time left to file (and associated next steps) of a travel reimbursement claim on the details pages?"
+  - "Do Veterans understand the dot indicator on the appointment list indicates tasks to complete on the details page?"
+  - "Do Veterans understand that they can only file one travel claim for multiple appointments happening on the same day at the same facility?"
+  - "What would Veterans change or add to improve filing a travel reimbursement claim for a past appointment?"
+  - "What do Veterans expect to happen if their home address is incorrect when they are filing a mileage-only claim?"
+  - "Do Veterans find it helpful to review their appointment list before arriving at the travel reimbursement qualifying questions?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "LIKELY TRUE - Veterans will think it's very easy to navigate through the userflow from the email"
+  - "MAYBE TRUE - Veterans will notice the task card but may have questions around which appointment the card is referring to"
+  - "LIKELY TRUE - Veterans will easily understand the travel reimbursement claims status"
+  - "LIKELY TRUE - Veterans will understand they have either successfully submitted their claim or that their claim has failed"
+  - "LIKELY TRUE - Veterans will understand they have a task to complete due to the content accompanying the dot indicator"
+  - "LIKELY FALSE - Veterans will not realize that they can only file one claim at a time due to multiple CTAs being present"
+  - "MAYBE TRUE - Veterans will have suggestions for improvements, such as editing their address or uploading receipts"
+  - "LIKELY TRUE - Veterans will expect to be able to update their address if it is listed incorrectly"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform the design and implementation of travel reimbursement filing for past appointments, including which claim statuses to incorporate from BTSSS."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation with accessibility and travel reimbursement experience focus"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must be able to attend sessions on a mobile device"
+    - "All participants (or their caregiver) must have filed for travel reimbursement for a VA or community care medical appointment in the last 6 months"
+    - "At least 4 participants (or their caregiver) must have followed up on a travel reimbursement claim status in the past"
+    - "At least 12 Veterans with a cognitive disability"
+    - "At least 5 participants must use assistive technology (3 screen reader users, 2 screen magnification users)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 4 participants who are women"
+    - "At least 4 participants who are 55 or older"
+    - "At least 3 participants who live in a rural area"
+    - "At least 2 participants with no degree"
+    - "At least 1 LGBTQ+ Veteran"
+    - "Diverse racial and ethnic representation"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you or a caregiver attempted to file for travel reimbursement for a VA or community care medical appointment in the last 6 months?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 18
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 18
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-11-30"
+  pilot_participant: "lee.delarm@agile6.com"
+  research_dates: "2023-12-04 to 2023-12-11"
+  research_review_submission: "N/A"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve travel reimbursement process for Veterans"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/2023-11%20Past%20Appointments%20Travel%20Reimbursement%20Generative%20Usability%20Study/conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
+  - "PRDT: Appointments"
+  - "PRDT: Travel-reimbursement"
+  - "HDW: Mobile"
+  - "HDW: Smartphone"
+  - "DSC: Cards"
+  - "usability-testing"
+  - "authenticated"
+  - "remote"
+  - "Accessibility"
+  - "screen-reader"
+  - "screen-magnification"
+  - "cognitive-disability"
+  - "BTSSS"
 ---
 
 # Past appointments travel reimbursement generative usability study - November 2023

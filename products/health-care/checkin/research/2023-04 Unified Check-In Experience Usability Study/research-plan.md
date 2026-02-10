@@ -1,109 +1,123 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Patient Check In, Unified Check-In Experience Usability Study, May 2023"
+date: 2023-05-31
+last_updated: 2026-02-10
+team: "Modernized Check-In Experience Team"
+product: "Patient Check In"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans and staff don't understand the difference between pre-check-in and check-in. Many Veterans use the pre-check-in link to check in on the day of their appointment, which does not actually allow them to check in. Some Veterans skip checking in altogether because they think completing pre-check-in means they're already checked in."
+  product_location: "VA.gov - Mobile check-in experience"
+  user_familiarity: "Iteration on existing product - merging pre-check-in and check-in into unified experience"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/product"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Get feedback from Veterans on the new unified PCI experience idea"
+  - goal_2: "Assess ease of use of the unified check-in experience"
+  - goal_3: "Determine how well the unified experience meets Veteran expectations"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans find the day before appointment reminder and pre-check-in notifications confusing?"
+  - "How easy or difficult is it for Veterans to understand that you still need to complete the online check-in process even if you've completed the pre-check-in process a few days before?"
+  - "How easy or difficult is it for Veterans to check in to an appointment?"
+  - "Do Veterans think the check in confirmation page provides enough information about the status of their check in and what to do next?"
+  - "How easy or difficult is it for Veterans to understand if their other upcoming appointments have tasks to complete?"
+  - "How easy or difficult is it for Veterans to understand the difference between the pre-check-in process and checking in to an appointment?"
+  - "Do Veterans find it helpful to be able to review all of their other upcoming appointments during the pre-check-in and check-in processes?"
+  - "Would Veterans find it helpful to receive a text message 45 minutes before each of their appointments with instructions on how to check in?"
+  - "How easy or difficult is it for Veterans to find the call to action from the appointment detail pages?"
+  - "Do Veterans expect to find information about whether an appointment has already completed pre-check-in?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "LIKELY FALSE: Most Veterans will find the notifications easy to understand"
+  - "MAYBE TRUE: Some Veterans will understand that completing pre-check-in does not replace checking in"
+  - "DEFINITELY TRUE: Veterans will think the process for checking in to an appointment is easy"
+  - "DEFINITELY TRUE: Veterans will think the information on the check in confirmation page is well organized"
+  - "LIKELY TRUE: Most Veterans will find it easy to understand that their other upcoming appointments have tasks to complete"
+  - "LIKELY TRUE: Most Veterans will understand the difference between pre-check-in and checking in"
+  - "LIKELY TRUE: Veterans will like seeing all appointments in one place"
+  - "DEFINITELY TRUE: Veterans will prefer receiving a text message 45 minutes before appointments"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform whether to proceed with merging pre-check-in and check-in into a unified experience, and identify any necessary design improvements."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation with accessibility focus"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "18 Veterans recruited for 12 completed sessions"
+    - "5 completed sessions with screen reader users"
+    - "2 completed sessions with screen magnification or zoom users"
+    - "3 completed sessions with non AT cognitive impairment users"
+    - "2 completed sessions with non AT users"
+    - "All participants must be able to attend on mobile devices"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse demographics"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you able to join the session from a mobile device?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 18
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 18
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-06-07"
+  pilot_participant: "robin.garrison@adhocteam.us"
+  research_dates: "2023-06-12 to 2023-06-20"
+  research_review_submission: "N/A"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve usability of check-in experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/2023-04%20Unified%20Check-In%20Experience%20Usability%20Study/conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
+  - "PRDT: Appointments"
+  - "HDW: Mobile"
+  - "HDW: Smartphone"
+  - "DSC: Cards"
+  - "usability-testing"
+  - "authenticated"
+  - "remote"
+  - "Accessibility"
+  - "screen-reader"
+  - "screen-magnification"
+  - "cognitive-disability"
 ---
 
 # Patient Check In (PCI) Research Plan for Unified Check-In Generative Research Usability Study  

@@ -1,109 +1,108 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Health Questionnaire, Clinical Reminders Pilot - Staff Interviews: Phase 1b, April 2024"
+date: 2024-04-01
+last_updated: 2026-02-10
+team: "Health Questionnaires"
+product: "Clinical Reminders"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The volume of clinical reminders has been impacting the quality of the time the patient spends with the provider. Providers have also reported increased burden due to data entry and notification fatigue. VHA is in search of a tool that allows customizable and standardized health forms, screeners, and questionnaires to be sent to the patient to collect responses asynchronously."
+  product_location: "VA.gov health portal integration - Behavioral Health Labs (BHL) and eScreening tools"
+  user_familiarity: "Follow-up research phase - comparing BHL and eScreening tools from staff perspective after extended pilot period"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/questionnaire/research/2023-11-clinical-reminders-staff/Staff%20Interviews%20Phase%201b/conversation-guide.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured-interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Compare and contrast the BHL screening tool with the eScreening tool based on provider experience"
+  - goal_2: "Assess impact on provider workflows, data entry burden, and notification fatigue after extended pilot period"
+  - goal_3: "Determine which tool is preferred and identify areas for improvement"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Compare and contrast the BHL screening to with the eScreening tool."
+  - "How easy was it to learn to use the tool?"
+  - "How easy was the configuration/set up process for the tool?"
+  - "How long did it take to learn to use the tool?"
+  - "Would providers change anything about the training they received? If yes, what?"
+  - "How easy is the tool to utilize?"
+  - "Was data entry simplified?"
+  - "Was notification fatigue reduced?"
+  - "Was overall clinic reminder burden reduced?"
+  - "Did the quality of the time providers spend with patients improve?"
+  - "How much time do providers estimate was saved by collecting these clinical reminder responses prior to the appointment?"
+  - "Were providers workflows affected either positively or negatively? If yes, how?"
+  - "Do providers feel this process maintains an appropriate level of safety and clinical integrity?"
+  - "How does BHL compare to eScreening for each requirement? Which tool is preferred?"
+  - "How could the tools or experience be improved or changed?"
+  - "What was the final process for sending, receiving, and reviewing these questionnaires implemented at each location?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "One tool will be preferred over the other tool to reduce overall clinical reminder burden for providers, including data entry and notification fatigue."
+  - "Providers will perceive digital questionnaires to be a safe way to gather this information from Veterans."
+  - "Provider will identify areas to improve the ease of use within the tool."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Gather comprehensive provider feedback comparing BHL and eScreening tools to inform final decision on clinical reminder digitization approach for provider workflows."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "OCC/OCTO internal recruitment"
+  approach: "Purposive sampling of staff at pilot clinics with experience using both tools"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "A minimum of three providers per pilot clinic"
+    - "At least one nursing staff member"
+    - "A minimum of one Healthcare System Technical Administrator (HSTA) and/or Clinical Application Coordinator (CAC) per pilot location"
+    - "One Toxic Exposure Screening (TES) Navigator at each pilot location"
+    - "At least 2 staff members must have reviewed positive screener results"
+    - "At least 2 staff members must have reviewed negative screener results"
+    - "At least 1 staff member must have reviewed both positive and negative screener results"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  va_staff: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  research_dates: "TBD"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Enhance Veterans' personalized online experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/questionnaire/research/2023-11-clinical-reminders-staff/conversation-guide.md"
+    - "Phase 1a Staff Interviews - November 2023 to January 2024"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: VA Staff"
+  - "AUD: Clinicians"
+  - "BNFT: Healthcare"
+  - "PRDT: Questionnaire"
+  - "PRDT: Clinical-reminders"
+  - "semi-structured-interviews"
+  - "authenticated"
+  - "remote"
+  - "pilot"
+  - "comparative-study"
 ---
 
 # 2024-04 Research Plan for Health Questionnaire, Clinical Reminders Pilot - Staff Interviews: Phase 1b.

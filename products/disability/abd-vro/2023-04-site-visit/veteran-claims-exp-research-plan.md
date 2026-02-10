@@ -1,109 +1,122 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for OCTO Benefits Portfolio Support Team, April 2023"
+date: 2023-04-06
+last_updated: 2026-02-10
+team: "OCTO Benefits Portfolio Support Team"
+product: "21-526EZ Disability Compensation Application"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "To get Veterans benefits in minutes, not months. Veterans submit ~1,500 disability claims per day through VA.gov but need better understanding of claimant experience to identify improvement opportunities."
+  product_location: "https://www.va.gov/disability/file-disability-claim-form-21-526ez/introduction"
+  user_familiarity: "Iteration on existing tool that Veterans submit approximately 1,500 disability claims per day through"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/21-526ez.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how Veterans conceptualize and experience the claims process"
+  - goal_2: "Understand what frictions exist in the process that become burdensome for Veterans or sow mistrust"
+  - goal_3: "Identify the biggest pain points or opportunities for more focused research and problem solving"
+  - goal_4: "Build empathy so that teams align and focus on the mission"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans describe the process of applying for benefits? In their mind, what were the steps of the process?"
+  - "What was their experience at different points of the process? What did they do? What touchpoints did they have with the VA?"
+  - "What parts of the claim process were positive, and why? What parts were negative, and why?"
+  - "What parts of the claim experience build trust with Veterans? What breaks it?"
+  - "What motivated them to start the process? Are they glad they went through it?"
+  - "What do they think needs the most improvement?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "There will be significant areas of friction in the claims process that can be improved to make a faster, better claims experience that builds Veteran trust"
+  - "Veterans are skeptical going into the application process, but if we can make the process easier and quicker, we can help create feelings of trust and pride"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The portfolio teams are taking a step back to look at the big picture claims experience to see where the greatest opportunities lie to improve that experience, with special attention to a) overall speed, from application to award; b) building Veteran trust; and c) potential impacts of automation on those experiences. Teams will use these learnings to identify opportunities to focus on, including where to take a deeper-dive into research."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants should have completed a disability compensation benefits application that included at least one new condition via VA.gov"
+    - "Veteran must have submitted their claim online via va.gov (not paper)"
+    - "A new condition is one for which the Veteran has no rating"
+    - "2 Veterans should have completed this application in the past 6 months"
+    - "2 Veterans should have completed this application in the past 7-18 months"
+    - "Even mix of rural and urban (prefer East/Southeast)"
+    - "Even mix of genders"
+    - "At least 3 participants are persons of color"
+    - "All persons are under age 55"
+    - "Mix of education levels but no more than 2 with college or higher degree"
+    - "1 person who identifies as having a cognitive disability"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "None specified"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you ever submitted a claim or application for disability compensation benefits on va.gov?"
+      qualifying_response: "Yes (must have submitted online, not mailed or faxed)"
+    - question: "When did you complete that application?"
+      qualifying_response: "Recruit 2 from past 6 months (since Oct 1 2022), 2 from past 7-18 months"
+    - question: "In that application, did you claim at least one NEW condition?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 4
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 4
+  completed_sessions_goal: 4
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-04-06"
+  pilot_participant: "Julie Strothman"
+  research_dates: "2023-04-11 to 2023-04-11"
+  research_review_submission: "2023-04-01"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 15
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+  - objective: "Fast-track disability claims, starting with PACT Act claims"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Reduce overall time from application to award"
+      - "Build Veteran trust"
+      - "Understand potential impacts of automation on experiences"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out: Engaging VA to access benefits and services"
+  - "Starting up: Applying for disability compensation benefits"
+  - "Taking care of myself: Managing health and accessing care"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2023_01_Benefits_Portfolio_Offsite_Conversation_Guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: 526EZ"
+  - "semi-structured-interviews"
+  - "authenticated"
+  - "remote"
+  - "generative-research"
+  - "discovery"
+  - "claims-experience"
 ---
 
 # Research Plan for OCTO Benefits Portfolio Support Team, April 11, 2023

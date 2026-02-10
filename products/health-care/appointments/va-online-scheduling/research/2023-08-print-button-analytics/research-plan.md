@@ -1,66 +1,57 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VAOS, Appointments FE, Print Button Analytics, September 2023"
+date: 2023-09-01
+last_updated: 2026-02-10
+team: "VAOS"
+product: "VA Online Scheduling"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Users need the ability to print their appointments list. The VAOS team added a print button to the appointment lists to assess the usability of the tertiary button style and whether it meets user needs."
+  product_location: "VA.gov - VA Online Scheduling"
+  user_familiarity: "New feature added to existing product"
+  product_brief_url: "N/A"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "analytics-research"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Track whether the new print feature is being used and meeting user needs"
+  - goal_2: "Assess if users are clicking the print button"
+  - goal_3: "Provide platform with data around usage of tertiary buttons"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are users clicking the print button?"
+  - "Are users leaving comments about the need for a print button?"
+  - "How has the feedback changed over time?"
+  - "Is the feedback generally positive or negative?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Comments about the lack of print feature will go down in Medallia"
+  - "Usage of the print feature will rise, then level off and stay at a certain level"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Data will inform whether the tertiary button style is usable and whether the print feature meets user needs. Results will be shared with platform team."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "N/A"
+  approach: "Analytics data collection"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "N/A - Analytics study"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "N/A - Analytics study"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "N/A - Analytics study"
+      qualifying_response: "N/A"
       
 participants:
   veterans: 0
@@ -71,39 +62,40 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "N/A"
+  pilot_participant: "N/A"
+  research_dates: "2023-08-02 to 2023-09-02"
+  research_review_submission: "N/A"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 0
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve usability of VA Online Scheduling features"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "N/A"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VA-online-scheduling"
+  - "PRDT: Appointments"
+  - "MHV: Appointments"
+  - "DSC: Tertiary-button"
+  - "analytics-research"
+  - "authenticated"
+  - "remote"
 ---
 
 # Print Button Analytics Research Plan - For VAOS, Appointments FE, 09/2023

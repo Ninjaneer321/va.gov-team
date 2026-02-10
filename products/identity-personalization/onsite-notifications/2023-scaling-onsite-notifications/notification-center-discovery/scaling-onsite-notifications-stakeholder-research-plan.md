@@ -1,109 +1,93 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, Scaling Onsite Notifications Stakeholder Research 2023"
+date: 2023-01-01
+last_updated: 2026-02-10
+team: "Authenticated Experience"
+product: "Onsite Notifications"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The onsite notification MVP launched in October 2022 with a single debt alert on My VA. Now that initial infrastructure is established for VA.gov to leverage VA Notify's functionality, we need to determine next steps for scaling this feature and ensure alignment on vision and approach."
+  product_location: "My VA - logged-in VA.gov experience"
+  user_familiarity: "Iteration - scaling MVP feature launched in October 2022"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/onsite-notifications/2023-scaling-onsite-notifications"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "stakeholder-interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Gather insights about action items from product owners and identify trends"
+  - goal_2: "Determine if there's a clear consensus on the vision for notifications on VA.gov"
+  - goal_3: "Identify any challenges or things to consider that we were not already aware of on the Authenticated Experience team"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Have other teams talked to users about how they expect to see notifications or action items represented on VA.gov?"
+  - "What relevant studies or data should we reference outside of the authenticated experience team as part of this discovery work?"
+  - "What are OCTO stakeholders expectations around how we elevate notifications on VA.gov? How strong are their opinions about the outcome of this work?"
+  - "Should notifications be surfaced within the navigation of VA.gov? If so, how?"
+  - "If users don't see common notifications in a notification center yet because VA Notify does not yet support them (eg. new message from your doctor, or a prescription shipping), will users trust the feature?"
+  - "Are there any important factors to consider that we haven't already addressed in this study?"
 
-hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
-
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Based on findings, we will meet as a team to discuss and write up findings and recommendations before determining any next steps. We will not be testing any prototypes with users until we have a clear path forward and consensus from all OCTO leads."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Internal OCTO recruitment"
+  approach: "Purposive sampling of OCTO product owners and leads"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "OCTO product owners"
+    - "Portfolio leads across different VA.gov domains"
+    - "Platform and design system leads"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
 participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  stakeholders: 13
+  completed_sessions_goal: 13
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  research_dates: "TBD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 30
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+  - objective: "Enhance veterans' personalized online experience"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Increase usage of digital, self-service tools"
+      - "Decrease call center volume, wait time, and time to resolution"
+      - "Be a single, authoritative source of information that is personalized to the logged in user"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/onsite-notifications/mvp#readme"
+    - "Onsite notification MVP - launched October 2022"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Internal VA Stakeholders"
+  - "PRDT: Onsite-notifications"
+  - "PRDT: My-VA"
+  - "stakeholder-interviews"
+  - "authenticated"
+  - "remote"
+  - "discovery"
+  - "notification-center"
 ---
 
 # Research Plan for Authenticated Experience, Scaling Onsite Notifications Stakeholder Research 2023

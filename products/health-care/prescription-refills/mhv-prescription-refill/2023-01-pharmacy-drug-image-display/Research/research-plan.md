@@ -1,109 +1,114 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Pharmacy, Drug Image Display on My HealtheVet, January 2023"
+date: 2023-01-30
+last_updated: 2026-02-10
+team: "UCD Team"
+product: "My HealtheVet Pharmacy"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Providing Veterans with an image of their current medications can help Veterans feel confident they are taking the correct medication. Sometimes medications may suddenly look different but are in fact the same medication, which can cause confusion and worry for Veterans."
+  product_location: "My HealtheVet - Medication Details page"
+  user_familiarity: "Iteration on existing product - adding drug image display to Medication Details page"
+  product_brief_url: "N/A"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate drug image ease of use and navigability"
+  - goal_2: "Determine if the proposed design changes are helpful to Veteran's experience on the Medication Details page"
+  - goal_3: "Determine the purpose of Veteran's visiting the Medication Details page, and what can be done to facilitate those needs"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can Veterans navigate the new designs of the Medication Details page and open the necessary drug images?"
+  - "Why do Veterans currently visit the Medication Details page? What actions do they take?"
+  - "Is there anything that is missing that Veterans wish they saw on the Medication Details page?"
+  - "What do Veterans expect to see on the Medical Details page? How did Veterans respond to the drug image?"
+  - "How do Veterans react to the new designs? What were the pain points?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "We believe that Veterans will be able to navigate through the new designs and easily access the drug image link"
+  - "We believe that Veterans will appreciate a new level of accuracy and record keeping of prescriptions"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Before implementing significantly different designs, testing will determine how Veterans feel about the proposed changes. Findings will inform next steps for implementation."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Focus on Veterans familiar with refilling prescriptions on My HealtheVet"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "16 participants who are 65+"
+    - "3 participants with cognitive disabilities"
+    - "12 participants in rural locations"
+    - "8 participants without a college degree"
+    - "4 participants who use assistive technology"
+    - "Must have experience refilling prescriptions on My HealtheVet online using a desktop"
+    - "Must have visited the Medication Details page"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse demographics"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have experience refilling a prescription on My HealtheVet online, using a desktop?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 24
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 24
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2023-02-08 to 2023-03-10"
+  research_review_submission: "N/A"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families trust the security, accuracy and relevancy of VA.gov"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase Veteran confidence in medication accuracy"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Improve medication management experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/prescription-refills/mhv-prescription-refill/2023-01-pharmacy-drug-image-display/conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: My-HealtheVet"
+  - "PRDT: Medications"
+  - "MHV: Pharmacy"
+  - "HDW: Desktop"
+  - "usability-testing"
+  - "authenticated"
+  - "remote"
+  - "cognitive-disability"
+  - "Accessibility"
 ---
 
 # Pharmacy Research Plan for Drug Image Display on My HealtheVet, January 2023

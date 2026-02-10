@@ -1,109 +1,125 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Form 526 Conditions List (Contention Classification Team, 2023-10)"
+date: 2023-10-10
+last_updated: 2026-02-10
+team: "Contention Classification Team"
+product: "21-526EZ Disability Compensation Application - Conditions List"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The VA receives many disability claims where the claimed conditions (contentions) are not described with sufficient clarity. Claims processors often take additional time reviewing records or calling Veterans to get clarity. The list of medical conditions used in the autosuggest component has inefficiencies - many conditions are duplicated, many are vague terms, and many are not actually conditions at all."
+  product_location: "VA.gov 21-526EZ form autosuggest component where Veterans select or enter a condition to claim"
+  user_familiarity: "Iteration on existing autosuggest component - updating the suggested conditions list to make it easier for Veterans to find conditions and include only conditions that are clear and actionable for claims processors"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "concept test and semi-structured interview"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Learn how Veterans think and talk about what medical conditions to claim"
+  - goal_2: "Assess whether a type-ahead field with auto-suggestions is a usable/desirable way for Veterans to name conditions they want to claim"
+  - goal_3: "Evaluate the revised conditions list"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans decide to file a claim and for what medical conditions?"
+  - "How familiar are Veterans with commonly rated disabilities or with resources like the rating schedule?"
+  - "How do they prepare to file a claim and what resources do they use?"
+  - "What are Veterans thinking about when they come to the condition field?"
+  - "What do the auto-suggestions represent to the Veteran?"
+  - "Do Veterans understand that they have the option to type in their condition?"
+  - "Are Veterans able to find their conditions from the auto-suggestions?"
+  - "How do they decide when to choose from the auto-suggestions and when to type in their condition?"
+  - "Does selecting from the list give Veterans confidence in what they submitted?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The way we write terms for the suggested conditions list can have an impact on findability for Veterans and actionability for claims processors"
+  - "Veterans with the most common conditions will be able to find their condition"
+  - "Veterans will expect that auto-suggested conditions meet the needs of the VA"
+  - "The amount of prep and type of support Veterans receive in filing a claim will have implications for how usable the concept is for them"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Evaluate the concept of an auto-suggest field for naming a condition and our first iteration on the conditions list. Use learnings to make improvements to the conditions list prior to release. Understanding how Veterans think and talk about medical conditions to claim will inform future design ideas for improving the Veteran experience naming a contention."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants have used VA.gov in any capacity"
+    - "4 Veterans (50%) who have never filed for disability, but who intend to within a year on va.gov"
+    - "4 Veterans (50%) who have filed for disability benefits before on va.gov"
+    - "At least 2 Veterans who served in 1990 or before"
+    - "At least 2 Veterans who served after 1990"
+    - "At least 2 but no more than 4 Veterans who identify as a gender other than male"
+    - "At least 2 but no more than 4 Veterans over 55 years old"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 2 but no more than 4 Veterans under 35 years old"
+    - "At least 2 but no more than 4 Veterans who are not white/Caucasian"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you ever used the va.gov website?"
+      qualifying_response: "Yes"
+    - question: "Have you ever filed a disability claim on va.gov? If no, are you planning on filing a disability claim on va.gov within the year?"
+      qualifying_response: "Recruit 4 who have filed, 4 who intend to file within the year"
+    - question: "When did you serve?"
+      qualifying_response: "Recruit 2-4 from 1990 or before, 2-4 after 1990"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 8
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-10-12"
+  pilot_participant: "Tyler Spangler"
+  research_dates: "2023-10-18 to 2023-10-24"
+  research_review_submission: "2023-10-06"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+  - objective: "Enhance Veterans' personalized online experience"
+  - objective: "Fast-track disability claims"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Reduce processing time by improving quality of contention descriptions"
+      - "Eliminate extra efforts by claims processors"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself: Managing primary care and chronic health issues"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Form 526 usability research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: 526EZ"
+  - "concept-test"
+  - "semi-structured-interviews"
+  - "authenticated"
+  - "remote"
+  - "HDW: Mobile"
+  - "HDW: Desktop"
+  - "conditions"
+  - "contentions"
+  - "autosuggest"
+  - "DSC: Form"
 ---
 
 # Research Plan for Form 526 Conditions List (Contention Classification Team, 2023-10)
