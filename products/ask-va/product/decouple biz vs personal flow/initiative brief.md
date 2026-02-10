@@ -21,7 +21,7 @@ Ask VA users submit questions about VA benefits and services at, [Ask VA](https:
 In 2025 the Ask VA team executed an [Usability Study](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/User%20research/2025-10%20Form%20and%20Inbox%20Usability%20Study). 
 Key findings support implementing enhancements to the current form flow to distiguish entry points (CTAs) between Ask VA personal users and Ask VA business users.
 
-We are currently distinguishing between personal and business users with the following language in our design mocks and have been advised by CAIA content review and guidance will be provided during the collaboaration cycle.
+We are currently distinguishing between personal and business users with the following language in our design mocks.  Ask VA team has been advised by CAIA that content review and guidance will be provided during the collaboaration cycle.
 <img width="925" height="897" alt="image" src="https://github.com/user-attachments/assets/ca587c06-3a7d-44f8-be04-062b9eb270bc" />
 
 
