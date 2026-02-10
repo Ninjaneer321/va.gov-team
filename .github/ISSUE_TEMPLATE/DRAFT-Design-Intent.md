@@ -9,13 +9,13 @@ assignees: ''
 
 ## About Design Intent 
 
-The [Design Intent touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent) is a synchronous half-hour discussion surrounding design decisions to ensure you’re building a product that meets VA.gov standards before you’ve done any high-fidelity work on artifacts or prototypes.
+The [Design Intent touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent) is a synchronous half-hour discussion focused on design decisions to ensure you’re building a product that meets VA.gov standards before you’ve done any high-fidelity work on artifacts or prototypes.
 
 ## Before the meeting
   
 ### :one: VFS team: schedule the meeting
-- [ ] Review [Design Intent Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent) to understand what this touchpoint involves.
-- [ ] Schedule your Design Intent (with at least 2 business days lead time from now):
+- [ ] Review the [Design Intent Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent) to understand what this touchpoint involves.
+- [ ] Schedule your Design Intent (with at least 2 business days lead time):
   - Open the <a href="https://calendly.com/collaboration-cycle/design-intent-or-midpoint-review" target="_blank">Calendly Design intent calendar (opens in a new tab)</a>
   - Select a date and time and click "Confirm"
   - Add your name and email
