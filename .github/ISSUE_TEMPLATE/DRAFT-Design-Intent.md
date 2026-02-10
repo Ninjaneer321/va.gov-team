@@ -67,4 +67,4 @@ IA
   - [ ] No feedback
 
 ## :clipboard: Collaboration Cycle feedback
-[Complete Collaboration Cycle feedback survey](https://ows.io/qs/o3jkwoez) at any point during your Collaboration Cycle process.
+[Complete the Collaboration Cycle feedback survey](https://ows.io/qs/o3jkwoez) at any point during your Collaboration Cycle process.
