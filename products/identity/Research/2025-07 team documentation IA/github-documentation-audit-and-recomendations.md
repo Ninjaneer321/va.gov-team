@@ -78,6 +78,4 @@ End users consuming VA.gov identity services. We work in partnership with VES te
 ---
 
 ## Appendix
-* Full content inventory
-* Previous IA research
-* Audience synthesis from card sort
+* [Previous IA research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2025-07%20team%20documentation%20IA/identity-team-documentation-index.pdf)
