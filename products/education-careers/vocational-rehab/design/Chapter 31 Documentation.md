@@ -81,7 +81,7 @@ This feature has no validation use cases.
 
 - **Use case:** If a user clicks continue before entering required content they will see an error next to the required content field. This is a pattern that is described on [design.va](http://design.va).
 
-  - Format: Error
+  - Format: Error [Link to design](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2617-9589&t=lrsFVJBXRAT5Mylc-1)
 
   - Links to va documentation
 
@@ -91,16 +91,26 @@ This feature has no validation use cases.
 
     - [Link to checkbox error pattern guidance](https://design.va.gov/components/form/checkbox#error)
 
+**Saving Information Alerts**
+
+- **Use case:** When a user has entered information on a page of an application and that information cannot be saved because of a connectivity issue.
+
+  - Format: [Link to design](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2634-11081&t=lrsFVJBXRAT5Mylc-1)
+
+- **Use case:** When a user has entered information into a new application and that information cannot be saved because of issues.
+
+  - Format: [Link to design](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2634-24405&t=lrsFVJBXRAT5Mylc-1)
+ 
 **Submission error**
 
-- **Use case:** If the user has completed an application and the system cannot accept the application after the user has clicked submit.
+- **Use case:** If a user has clicked submit on the review page and there are issues.
 
-  - Format: Link to design (no design does this happen?)
+  - Format: [Link to design](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2608-18814&t=lrsFVJBXRAT5Mylc-1)
+ 
+- **Use case:** If a user has clicked submit on the review page and there are connection issues.
 
-**System error | Application is down for maintenance**
+  - Format: [Link to design](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2634-24427&t=lrsFVJBXRAT5Mylc-1)
 
-- **Use case:** If the application is down for maintenance a system error will be displayed as an alert on the info page. (don’t know if this is true)
+**System errors & Maintainance Alerts**
 
-**System error | Tool is down for maintainance**
-
-- **Use case:** If the tool is down for maintenance a system error will be displayed as an alert on the info page. (don’t know if this is true)
+  Note: There may be other system errors and maintenance alert. These need to be discovered by diving into the code.
