@@ -9,7 +9,7 @@ assignees: ''
 
 ## About Design Intent 
 
-The [Design Intent touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent) is a synchronous half-hour discussion focused on design decisions to ensure you’re building a product that meets VA.gov standards before you’ve done any high-fidelity work on artifacts or prototypes.
+The [Design Intent touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent) is a synchronous half-hour discussion focused on design decisions. This meeting ensures you’re building a product that meets VA.gov standards before you’ve done any high-fidelity work on artifacts or prototypes.
 
 ## Before the meeting
   
