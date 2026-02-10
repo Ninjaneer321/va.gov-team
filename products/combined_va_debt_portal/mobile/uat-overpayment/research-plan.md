@@ -268,7 +268,8 @@ We would like Perigean to recruit Veterans with current overpayment debt who are
 Screener question 1
 
 * Do you currently owe any of the following types of VA debt? If so, please select all that apply.
-    * Post-9/11 GI Bill overpayment (books and supplies, housing, or tuition)
+    * Medical debt [DISQUALIFY IF THIS IS THE ONLY SELECTION]
+	* Post-9/11 GI Bill overpayment (books and supplies, housing, or tuition)
     * Disability compensation and pension overpayment
     * Education Ch 33-Ch1606/Ch30 Kickers
     * Chapter 34 education overpayment
@@ -281,6 +282,8 @@ Screener question 2
     * Yes, I see a listing of 1 or more overpayment debts on VA.gov.
     * No, I don’t see any overpayment debt details on VA.gov [DISQUALIFY]
     * I don’t have a VA.gov account / I can’t sign in right now [DISQUALIFY]
+
+    _NOTE: please make sure link in question 2 is included in the invitation_
 
 Screener question 3
 
@@ -312,7 +315,7 @@ Screener question 6
     * Other
     * Prefer not to say
 
-_[To be discussed with Perigean: best way to confirm these with participants?]_ Technical pre-requisites for participants (for both iOS and Android)
+_[For Perigean's communication with participants]_ Technical pre-requisites for participants (for both iOS and Android)
 
 - VA Credentials: You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
 - (Android only) Email Access: You can open your email directly on your mobile phone to click the test link.
@@ -325,10 +328,10 @@ _[To be discussed with Perigean: best way to confirm these with participants?]_ 
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
-- `Veterans:` **10**
+- `Veterans:` **12**
 - `Caregivers:` **0**
 - `Dependents:` **0**
-- `Total:` **10**
+- `Total:` **12**
 - `Ideal completed sessions:` **3 on iOS, 3 on Android**
 
 ### Primary criteria (must-haves)
