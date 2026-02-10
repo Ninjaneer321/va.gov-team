@@ -48,7 +48,7 @@
 
 
 ---
-## 📆 Sprint 14 (Feb 11 - Feb 24) (PREPLANNED)
+## 📆 Sprint 14 (Feb 11 - Feb 24) [PLANNED]
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
@@ -68,7 +68,7 @@
 - [ ] EZR Update Source of Truth designs for Household sections
 
 ### Additional work completed
-- 
+- ...
 
 ## 
 ### 10-10EZR
@@ -82,12 +82,12 @@
 - [ ] [#129581](https://github.com/department-of-veterans-affairs/va.gov-team/issues/129581) - [UX] Review existing ECNOK Profile page designs
 
 #### Obj: EZR [Household section V2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/98353)
-- [ ] **SPRINT GOAL** [#121080](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121080) - [UX] Update EZR SOT for Household sections
+- [ ] [#121080](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121080) - [UX] Update EZR SOT for Household sections
 
 ##
 ### 10-10EZ
 #### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
-- [x] **SPRINT GOAL** [#131844](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131844) - [FE] Investigate & resolve Node 22 failing CI test
+- [ ] **SPRINT GOAL** [#132234](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132234) - [FE] Investigate EZ Intro page looping issue (2nd round)
 
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
 - [ ] [#105829](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105829) - [Eng] Tech discovery on additional EZ form statuses on MyVA
