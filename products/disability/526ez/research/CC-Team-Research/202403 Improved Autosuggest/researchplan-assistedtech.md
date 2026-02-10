@@ -1,109 +1,137 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Improved Autosuggest Assistive Technology Testing, 526EZ, March 2024"
+date: 2024-03-01
+last_updated: 2024-08-01
+team: "Conditions & Contentions (CC) Team"
+product: "VA Form 526EZ - Disability Compensation Application"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The 526EZ form's Conditions page, where Veterans list medical conditions for disability benefits, has been enhanced with improved autosuggest features. Need to ensure page is fully accessible and functional for Veterans using assistive technologies (screen readers and screen magnifiers)."
+  product_location: "VA Form 526EZ Conditions page on VA.gov"
+  user_familiarity: "Iteration on existing form - second phase after initial autosuggest update with redesigned page for better user experience and relevant condition suggestions"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/202403%20Improved%20Autosuggest/conversationguide-assistivetech.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Moderated usability testing with assistive technology"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Usability: Evaluate how easily Veterans can navigate and use the page with assistive technologies (magnification and screen readers). Test autosuggest component compatibility and confirm successful condition entry and submission."
+  - goal_2: "Clarity: Assess whether page instructions and information are clear and comprehensible when accessed through assistive technologies"
+  - goal_3: "Satisfaction: Assess overall confidence and satisfaction with the page"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How effectively can assistive technology users navigate the page and submit their condition(s)? What specific challenges do they face?"
+  - "How responsive and helpful is the autosuggest feature when using assistive technologies?"
+  - "Do participants understand and utilize both autosuggest and free-text options? Do they have a preference?"
+  - "How do participants interact with and evaluate autosuggest results? Is scrolling intuitive and accessible?"
+  - "Are there specific types of conditions that participants struggle to find?"
+  - "Can participants easily differentiate between editing an existing condition and adding a new one?"
+  - "Do participants understand content and terminology in instructions?"
+  - "How much content do participants read? How do instructions impact page usage?"
+  - "Are participants comfortable entering conditions not on the list?"
+  - "How would participants rate overall accessibility?"
+  - "What improvements would enhance usability for assistive technology users?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans using assistive technologies will successfully navigate and submit conditions on the 526EZ Conditions page"
+  - "Veterans will encounter usability challenges with autosuggest feature and may prefer free-text entry for certain condition types"
+  - "Page instructions will be generally understandable and users will be able to enter conditions without reading full instructions"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Research findings will guide further improvements to the conditions page, ensuring it meets needs of Veterans applying for disability benefits. Insights will help prioritize future enhancements."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment for assistive technology users - two cohorts"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "8 Veterans total (recruit 16) - split between 2 cohorts"
+    - "All participants receiving disability compensation from VA"
+    - "All have filed disability compensation claim in the past"
+    - "Cohort 1: 4 screen magnifier users (ZoomText, Windows Magnifier, macOS Zoom) who use devices EVERY TIME they use internet"
+    - "Cohort 2: 4 experienced screen reader users (JAWS, NVDA, VoiceOver, TalkBack) who use devices EVERY TIME they use internet"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of genders (at least 3 non-male)"
+    - "Age mix (at least 3 age 55+)"
+    - "Race/ethnicity mix (at least 4 non-White)"
+    - "Education mix (at least 3 with no degree)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you filed disability compensation claim with VA in past?"
+      qualifying_response: "Yes"
+    - question: "Do you use screen magnifier or screen reader every time you use internet?"
+      qualifying_response: "Yes, always use assistive technology"
+    - question: "For screen reader users: Rate experience level (Beginner, Intermediate, Advanced)"
+      qualifying_response: "Advanced or Intermediate"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 16
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-07-22"
+  pilot_participant: "Jamie Klenetsky Fay"
+  research_dates: "2024-07-24 to 2024-08-01"
+  research_review_submission: "2024-07-13"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 90
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhance Veterans' personalized online experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improve accessibility of digital experiences"
+  - objective: "Fast-track disability claims"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Streamline application process"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Initial autosuggest improvement study"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/202403%20Improved%20Autosuggest/conversationguide-assistivetech.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "disability-compensation"
+  - "form-526ez"
+  - "conditions-page"
+  - "autosuggest"
+  - "assistive-technology"
+  - "screen-reader"
+  - "screen-magnifier"
+  - "accessibility"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+  - "authenticated"
+  - "veterans"
+  - "WCAG"
+  - "evaluative"
+  - "JAWS"
+  - "NVDA"
+  - "VoiceOver"
 ---
 
 Conditions page AT user usability testing

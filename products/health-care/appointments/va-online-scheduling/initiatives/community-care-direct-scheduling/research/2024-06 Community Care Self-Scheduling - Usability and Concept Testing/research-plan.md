@@ -1,109 +1,155 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Community Care Self-Scheduling - Usability and Concept Testing, June 2024"
+date: 2024-06-01
+last_updated: 2024-06-25
+team: "Appointments"
+product: "VA Online Scheduling (VAOS)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "As a congressional mandate under the Cleland-Dole Act, VA must allow Veterans seeking primary care, specialty care, and mental health care under the Veteran's Community Care Program to self-schedule, modify, and cancel appointments directly online by end of 2024. The pilot MVP will allow Veterans at Greater Los Angeles sites to self-schedule physical therapy appointments once a referral is approved."
+  product_location: "Appointments tool on VA.gov"
+  user_familiarity: "New feature - Community Care self-scheduling is new, building on existing Appointments tool"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing and concept testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Get feedback from Veterans on the CC appointment scheduling process and develop a better understanding of Veterans' expectations around referrals"
+  - goal_2: "Evaluate reactions to initial concepts for referral locations"
+  - goal_3: "Validate ease of use for the new community care scheduling flow"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What terms do Veterans use to describe the process of getting approved to schedule a community care appointment and then scheduling that appointment? Is referral the correct term to use for this process?"
+  - "Where do Veterans expect to find their new referrals to schedule a related appointment?"
+  - "What information are Veterans generally looking for in new referrals?"
+  - "How do the concepts presented address or not address Veterans' expectations around referrals?"
+  - "Where do Veterans expect to find information about past referrals?"
+  - "What information are Veterans generally looking for in past referrals?"
+  - "What, if anything, would Veterans use past referrals for?"
+  - "How easy or difficult is it for Veterans to start the scheduling process via a text (or email) notification and Appointments list task card prompt?"
+  - "Do Veterans find the expiration date on the referral task card helpful?"
+  - "How easy or difficult is it for Veterans to schedule their community care appointments using the new CC scheduling flow?"
+  - "Do Veterans understand the information included on the Referral page and what it means for their scheduling options?"
+  - "How easy or difficult is it for Veterans to tailor their provider list via the filter/sort options?"
+  - "Do Veterans find the sort and filter options helpful when searching for a physical therapist?"
+  - "Do Veterans understand the Review page information as it relates to their scheduling choices, and how to edit those choices?"
+  - "Do Veterans expect to find information in this tool for providers that DO NOT offer online scheduling (in order to schedule by phone)?"
+  - "What, if any, scheduling needs or preferences do Veterans have that are not currently addressed in the CC scheduling flow?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The majority of Veterans will use the term referrals when referring to community care requested and approved by VA"
+  - "Veterans expect to receive notifications about referrals and find their new/active referrals on the Appointment list"
+  - "Veterans will be looking for general referral information around type of care and number of visits approved, as well as information on the provider and location preferences they previously indicated"
+  - "The concept presented (using the task card to surface actionable referrals on the appointment list, while including all referrals within the Pending appointments) will align with Veterans' expectations of new/actionable referrals"
+  - "Veterans expect to find information on past referrals somewhere in Pending appointments or within medical records on MHV"
+  - "Veterans will be looking for general information around type of care, number of visits approved, and referring VA facility"
+  - "Veterans need to be able to access referrals as part of their records, and will want to use past referrals to obtain another referral of the same kind"
+  - "Veterans will find it easy to start the scheduling process via text or email notification, as the steps follow a similar process as other VA reminders and prompts"
+  - "Veterans will find the expiration date helpful, but might be confused by the duration it's good until"
+  - "Veterans will easily find a provider and schedule an appointment"
+  - "Veterans will understand their referral information but will not know what it means for scheduling options until arriving on the provider list"
+  - "Veterans will easily use the sort/filter options to find a provider"
+  - "Veterans will find the filters extremely helpful when searching for a provider"
+  - "Veterans will understand the information on the Review page and will know how to edit their choices"
+  - "Veterans expect to find information on all eligible providers they can choose from, regardless of if they can schedule via self-scheduling or by phone"
+  - "Veterans will expect more filtering options and additional provider information"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This study will give us insight into if Veterans find it easy to schedule their community care appointments using the proposed scheduling process, where Veterans expect to find their new and past referrals, what information they expect referrals to contain, and if our initial concepts for referral locations fit Veterans' needs and expectations within the Appointments experience"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Two-part recruitment - Part 1 non-AT users, Part 2 AT users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Part 1: All participants must be able to attend sessions on a mobile device"
+    - "Part 1: All participants must have used Appointments on va.gov before to manage their appointments"
+    - "Part 1: At least 8 Veterans with a cognitive disability"
+    - "Part 2: All participants must use assistive technology (6 screen reader users, 2 screen magnification users)"
+    - "Part 2: All participants must be willing to use assistive technology during the session"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Part 1: At least 4 participants who are women"
+    - "Part 1: At least 4 participants who are 55 or older"
+    - "Part 1: At least 4 participants who are not Caucasian"
+    - "Part 1: At least 3 participants who live in a rural area"
+    - "Part 2: At least 3 Veterans with a cognitive disability"
+    - "Part 2: At least 3 participants who are women"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you or a caregiver used Appointments on va.gov to manage your VA or community care appointments?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 20
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 20
+  completed_sessions_goal: 13
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-07-01"
+  pilot_participant: "Robin Garrison"
+  research_dates: "2024-07-10 to 2024-07-22"
+  research_review_submission: "2024-06-25"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Veterans can self-schedule, modify, and cancel community care appointments online"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Previous community care research in Appointments"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "VAOS"
+  - "appointments"
+  - "community-care"
+  - "self-scheduling"
+  - "referrals"
+  - "Cleland-Dole-Act"
+  - "physical-therapy"
+  - "usability-testing"
+  - "concept-testing"
+  - "authenticated"
+  - "mobile"
+  - "assistive-technology"
+  - "screen-reader"
+  - "screen-magnifier"
+  - "cognitive-disability"
+  - "prototype"
+  - "Figma"
+  - "CodePen"
+  - "veterans"
+  - "pilot"
+  - "Greater-Los-Angeles"
+  - "provider-selection"
+  - "filter-sort"
+  - "notifications"
 ---
 
 # Community Care Self-Scheduling - Usability and Concept Testing

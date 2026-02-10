@@ -1,109 +1,124 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Portals, Profile Sync, January 2024"
+date: 2024-01-11
+last_updated: 2024-01-11
+team: "Portals"
+product: "My HealtheVet on VA.gov - Profile Sync"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "As My HealtheVet migrates to VA.gov, Veterans need to sync their contact information between the two sites. Veterans may not access their profile information often after their initial set up, so they may not retain familiarity with it."
+  product_location: "My HealtheVet portal on VA.gov - Profile section"
+  user_familiarity: "New feature to support MHV migration to VA.gov"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/patient-portal/mhv/2024-portals-profile-sync-usability-testing"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Ascertain Veterans' understanding of the need for the sync and how the process will affect their contact information"
+  - goal_2: "Identify any usability issues Veterans may experience with syncing their email and phone numbers"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can Veterans select, edit, add, remove, and verify their contact information?"
+  - "Do Veterans understand the process of syncing their MHV and VA contact information?"
+  - "Do they understand why this step is necessary?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Most Veterans will successfully connect their MHV and VA contact information without assistance"
+  - "Many Veterans will struggle to understand that they will only have one set of contact information after the sync"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The results of this study will help us determine if our designs provide the best user experience for Veterans to sync their profiles and help to identify any pain points. This will inform later iterations of the design."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation sampling across age, education, and MHV usage"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "24 Veterans"
+    - "Age distribution: 5 participants 75+, 8 participants 65-74, 4 participants 55-64, 5 participants 35-54, 2 participants 18-34"
+    - "Education distribution across high school through masters degree"
+    - "Demographic distribution: 1 American Indian/Alaska Native, 1 Asian, 4 Black/African American, 3 Hispanic/Latino, 15 White/Caucasian"
+    - "6 rural, 18 urban participants"
+    - "12 mobile users, 12 desktop/laptop/tablet users"
+    - "12 frequent MHV users, 6 infrequent MHV users, 6 non MHV users"
+    - "4 participants with cognitive disability"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mix of cognitive disability severity levels"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "How often have you used My HealtheVet in the past 6 months?"
+      qualifying_response: "Mix of not at all, 1-4 times, 5-10 times, and more than 10 times"
+    - question: "Have you been diagnosed with a cognitive disability?"
+      qualifying_response: "Recruit 4 yes, 20 no"
       
 participants:
-  veterans: 0
+  veterans: 24
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 24
+  completed_sessions_goal: 18
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2024-01-11 to 2024-01-23"
+  research_review_submission: ""
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/patient-portal/mhv/2024-portals-profile-sync-usability-testing/conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "MHV"
+  - "My HealtheVet"
+  - "health-portal"
+  - "profile"
+  - "contact-information"
+  - "usability-testing"
+  - "veterans"
+  - "authenticated-experience"
+  - "migration"
+  - "profile-sync"
+  - "mobile"
+  - "desktop"
+  - "cognitive-disability"
+  - "accessibility"
+  - "evaluative"
 ---
 
 # **Research Plan for Portals, Profile Sync, January 2024**

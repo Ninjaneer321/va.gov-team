@@ -1,109 +1,128 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Appointments Oracle Health Integration and Scheduling Improvements, May 2024"
+date: 2024-05-01
+last_updated: 2024-07-15
+team: "Appointments FE"
+product: "VA Online Scheduling (VAOS)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans at Oracle Health facilities must sign in to a separate portal to schedule appointments. Need to create a unified scheduling tool for both Vista and Oracle Health facilities so Veterans can easily book appointments without switching between platforms."
+  product_location: "VA.gov Appointments Tool"
+  user_familiarity: "Iteration on existing product with new Oracle Health integration"
+  product_brief_url: "vaos-product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate a scheduling flow for booking an appointment at an Oracle Health facility, including selecting a provider during scheduling"
+  - goal_2: "Test concepts for improving the scheduling flow (quick schedule from previous appointments, showing recent locations first, better timing for urgent care messages)"
+  - goal_3: "Test a concept for sharing important messages and tasks with Veterans"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What information do Veterans want when deciding between providers and is it clear these are providers they've seen before?"
+  - "Is it clear to Veterans that the tool is not for urgent medical needs and do they find the warnings necessary, helpful, and timely?"
+  - "Does scheduling from previous appointments make the scheduling process faster and easier for Veterans?"
+  - "Does the Sort by recent locations feature make scheduling easier and add value for Veterans?"
+  - "Do Veterans notice the notification bell and understand the content and CTAs for each type of notification?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will want to choose a specific provider for most types of care based on who has the soonest availability"
+  - "Choosing from recent locations will make it faster and easier to schedule, and Veterans will appreciate and find value in default Sort by Recent Locations"
+  - "Veterans will want a shortcut to schedule appointments similar to those they've had in the past and scheduling from past appointments will help them schedule more quickly"
+  - "Veterans will find urgent care warnings necessary, helpful, and timely rather than frustrating and unnecessary"
+  - "Veterans will be able to find and understand their notifications and find them helpful"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Research will provide insights into whether new features make the process faster, easier, and more valuable for Veterans. Will improve Oracle Health scheduling UX, choose which scheduling improvements are most valuable to implement, and provide notification workflow insights to appointment notification teams."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment with screener"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "3 Veterans have used the My VA Health Portal in the past 12 months"
+    - "50% Mobile, 50% Desktop"
+    - "Must have had or will have appointments at Oracle Health facilities (Mann-Grandstaff, Wainwright, VA Central Ohio, Roseburg, VA Southern Oregon)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 4 participants with a cognitive disability"
+    - "At least 1 LGBTQ+ Veteran"
+    - "At least 1 Native Veteran"
+    - "At least 1 who lives in a rural area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "In the past 12 months or upcoming 12 months, did you or do you have appointments at Oracle Health facilities?"
+      qualifying_response: "Yes"
+    - question: "Have you used the My VA Health Portal to review your Health appointments?"
+      qualifying_response: "Yes (looking for 3 participants)"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 16
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-07-15"
+  pilot_participant: "TBD"
+  research_dates: "2024-07-16 to 2024-07-30"
+  research_review_submission: "2024-07-01"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Increase Veteran satisfaction with the appointment scheduling process"
+      - "Increase usage of the appointments tool"
+      - "Decrease the time it takes to successfully schedule appointments"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2024-05-oh-scheduling/conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "appointments"
+  - "VAOS"
+  - "oracle-health"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+  - "veterans"
+  - "authenticated-experience"
+  - "scheduling"
+  - "provider-selection"
+  - "notifications"
+  - "mobile"
+  - "desktop"
+  - "cognitive-disability"
+  - "evaluative"
 ---
 
 # Research Plan for Appointments Oracle Health integration and scheduling improvements

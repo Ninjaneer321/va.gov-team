@@ -1,109 +1,139 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Benefit Claims Development Letters, July 2024"
+date: 2024-07-08
+last_updated: 2024-07-08
+team: "Benefits Team 1"
+product: "Claim Status Tool - Development Letters"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans can currently access decision letters and 5103 response request notice letters from the VA.gov Claim Status Tool. VBA wants to make development letters and other correspondence available on this page to give Veterans the ability to elect digital-only communications in the future. Need to understand current experience and pain points with development letters."
+  product_location: "Claim Status Tool (CST) on VA.gov - Claim Letters page"
+  user_familiarity: "Iteration - introducing development letters to existing Claim Letters page and testing new 5103 redesign"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand more about Veterans' experience with development letters today, including pain points and things that seem to be working"
+  - goal_2: "Evaluate the efficacy of the new 5103 Notice design"
+  - goal_3: "Assess how well CST's tracked items content model for alerts works across a variety of different request types associated with development letters"
+  - goal_4: "Identify pain points in the current development letters experience that we might help resolve with CST user experience improvements"
+  - goal_5: "Assess Veteran perception of the value and/or risks associated with electronic-only communications from VA"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans perceive and manage the letters they receive related to their claim?"
+  - "Do Veterans have clarity about what actions they need to take for their claim?"
+  - "What's difficult about the letters Veterans receive about their benefits claims?"
+  - "What's helpful about the letters Veterans receive about their benefits claims?"
+  - "Are Veterans clear what the alert means and what they're being asked to do?"
+  - "On the document request page, what action are Veterans more likely to take?"
+  - "Are Veterans clear how the 5103 alert relates to the 5103 Notice letter?"
+  - "Can Veterans find the 5103 letter related to their claim?"
+  - "Is it clear what Veterans are being asked to do and how it relates to the 5103 Notice letter?"
+  - "If they had the option, would Veterans like receiving only electronic communications?"
+  - "How would they configure these communications, if they had those options?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans have had some confusing or frustrating experiences with development letters while their claim was being processed"
+  - "There are opportunities to improve the experience of receiving development letters by including them in CST"
+  - "The new 5103 design makes it clear to Veterans what the 5103 Notice letter is for and what is being asked of them"
+  - "It is reasonably easy for Veterans to find the development letter they're looking for among the full list of letters in the Claim Letters page"
+  - "CST's tracked items content model works to make various types of development letters and their notifications clear and actionable in CST"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify pain points in the current development letters experience that we might help resolve with CST user experience improvements. Identify any issues with the new 5103 design and solidify a user-validated model for how we should communicate information and action items related to development letters in CST."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans must have filed a (standard, non-FDC) disability compensation claim with the VA within the past 2 years"
+    - "Veterans must have received a letter from the VA related to their claim within the past 2 years"
+    - "10 participants aged 55-64+"
+    - "10 Black or Hispanic Veterans"
+    - "5 participants in rural area"
+    - "At least 2 women"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diversity across demographics and geographies"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you filed a disability compensation claim with the VA in the last 2 years?"
+      qualifying_response: "Yes"
+    - question: "Have you received letters from the VA related to your claim in the last 2 years?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 20
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 20
+  completed_sessions_goal: 20
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-08-08"
+  pilot_participant: "Rocio De Santiago"
+  research_dates: "2024-08-12 to 2024-08-23"
+  research_review_submission: "2024-08-01"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Veterans can access and manage their claim information digitally"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "5103 Notice design research"
+    - "Claim Status Tool previous research"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/632"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "claim-status"
+  - "CST"
+  - "disability-compensation"
+  - "development-letters"
+  - "5103-notice"
+  - "claim-letters"
+  - "semi-structured-interviews"
+  - "prototype"
+  - "VBA"
+  - "tracked-items"
+  - "evidence-requests"
+  - "alerts"
+  - "notifications"
+  - "electronic-communications"
+  - "authenticated-experience"
+  - "benefits-portfolio"
+  - "evaluative"
 ---
 
 # Research Plan: Benefit claims development letters

@@ -1,109 +1,143 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Integrated Veteran Care (IVC) Team, Form 10-7959f-1, March 2024"
+date: 2024-03-01
+last_updated: 2024-03-01
+team: "Integrated Veteran Care (IVC)"
+product: "Form 10-7959f-1 - Foreign Medical Program"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans eligible for the Foreign Medical Program need a digital form to submit claims online, addressing pain points with the current paper-based process including lengthy processing times, lack of electronic funds transfer, and lack of visibility into registration and claims status."
+  product_location: "VA.gov - Health care forms"
+  user_familiarity: "New digital form - no prior digital familiarity, but some Veterans may be familiar with paper form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/foreign-medical-program/10-7959f-1/10-7959f-1%20product%20outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "moderated user interviews with prototype"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test content comprehension for the current iteration of the 10-7959f-1 form"
+  - goal_2: "Gain insights related to participants' experience with the current 10-7959f-1 process and FMP to inform efforts to address pain points discovered during stakeholder interviews"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Will users understand the content on the 10-7959f-1 digital form?"
+  - "What are major pain points users encounter with the 10-7959f-1 digital form or with the FMP?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Based on CAIA collaborations, users will be able to easily understand content on the 10-7959f-1 digital form"
+  - "Participants will mention pain points with FMP such as lengthy processing time for claims, lack of electronic funds transfer, frustration with lack of online submission options, lack of visibility into registration and claims status"
+  - "For Veterans in VR&E (Chapter 31), frustration with not knowing what might be covered"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform improvements to the digital form content and design, and identify opportunities to address broader FMP process pain points."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation inclusive recruitment strategy"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "12 Veterans who are eligible for FMP: 6 enrolled in FMP, 6 eligible but not registered"
+    - "At least 6 participants aged 55-64+"
+    - "At least 6 participants with cognitive disability"
+    - "At least 5 participants are ex-pats (living abroad)"
+    - "At least 3 participants are of immigrant origin"
+    - "At least 1 participant enrolled in both VR&E (Ch. 31) and FMP"
+    - "At least 4 participants use assistive technology that does not require code to function fully"
+    - "At least 6 participants on mobile device (tablet okay)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 3 participants live in rural area"
+    - "At least 3 participants have no degree"
+    - "At least 2 participants are women"
+    - "At least 2 participants are Black"
+    - "At least 2 participants are Hispanic"
+    - "At least 1 participant is Asian"
+    - "At least 1 participant is Native"
+    - "At least 1 participant is gay, lesbian, or bisexual"
+    - "At least 1 participant is transgender, nonbinary, gender fluid, gender queer, Two-Spirit, or another gender beyond man or woman"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have a VA-rated service-connected disability?"
+      qualifying_response: "Yes (or no if enrolled in VR&E and living abroad)"
+    - question: "Are you enrolled in the Veteran Readiness and Employment (VR&E) (Chapter 31)?"
+      qualifying_response: "Any response okay"
+    - question: "Are you enrolled in the Foreign Medical Program (FMP)?"
+      qualifying_response: "Yes = Cohort 2; No or I don't know = Cohort 1"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-03-15"
+  pilot_participant: "TBD"
+  research_dates: "2024-03-15 to 2024-04-01"
+  research_review_submission: "2024-03-01"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhance Veterans' personalized online experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Enable Veterans to submit FMP claims digitally"
+  - objective: "Drive OIT's Digital Transformation Strategy"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Digitize paper-based FMP claim process"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up - Attending to health needs"
+  - "Taking care of myself - Managing primary care and chronic health issues, maintaining my health"
+  - "Putting down roots - Engaging VA to access benefits and services"
+  - "Retiring - Taking care of my health"
+  - "Aging - Managing my declining health"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Previous stakeholder interviews identifying FMP pain points"
+    - "Previous forms research on similar health care forms"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "foreign-medical-program"
+  - "FMP"
+  - "form-10-7959f-1"
+  - "health-care"
+  - "IVC"
+  - "integrated-veteran-care"
+  - "moderated-interviews"
+  - "content-comprehension"
+  - "veterans"
+  - "ex-pats"
+  - "living-abroad"
+  - "cognitive-disability"
+  - "unauthenticated-experience"
+  - "remote-research"
+  - "mobile"
+  - "figma-prototype"
+  - "VR&E"
+  - "chapter-31"
+  - "claims"
+  - "CAIA"
+  - "accessibility"
+  - "discovery"
 ---
 
 # Research Plan for Integrated Veteran Care (IVC) Team, Form 10-7959f-1, March 2024 

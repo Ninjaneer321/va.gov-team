@@ -1,109 +1,138 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Phase 2 Health Questionnaires, Clinical Reminders Pilot: Veteran usability sessions, September 2024"
+date: 2024-09-26
+last_updated: 2024-09-26
+team: "Health Questionnaires"
+product: "Clinical Reminders - Toxic Exposure Screening"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The Clinical Reminder system helps caregivers deliver higher quality care to patients for both preventive health care and management of chronic conditions. This pilot will focus on evaluating clinical reminders for population-based care, specifically toxic exposure screening, for Veterans who are unassigned to a Primary Care team, are seen in specialty care, and are enrolled but not active users of the VA healthcare system."
+  product_location: "Health Questionnaires - BHL Touch questionnaire platform"
+  user_familiarity: "Iteration - Phase 2 pilot building on Phase 1 pilot"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/questionnaire/product"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "moderated semi-structured usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: "Nina Anusavice, Jenny Wang, Kristen McConnell"
+    equipment: "Veterans may choose to use their assistive devices during sessions"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Gather feedback from Veterans on the revised Toxic Exposure Screening (TES) health questionnaire using the BHL Touch questionnaire platform"
+  - goal_2: "Gather Veteran feedback on the appropriate cadence of which digital questionnaires are sent, and whether Veterans trust that email or text notifications were sent from the VA"
+  - goal_3: "Compare Veteran feedback from Phase 1a usability sessions to the Veteran feedback from Phase 2 Veteran usability sessions"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans trust that the clinical reminders notifications are sent from their VA provider?"
+  - "Do Veterans find the BHL Touch's user interface easy to navigate and use, or did they have difficulties?"
+  - "How easy are the TES questions to understand? Anything wording confusing? What would they change?"
+  - "Do Veterans from Phase 1 find the revised questions to be an improvement, the same, or inferior to the prior version? And why?"
+  - "Do they feel the TES questions pertained to them and their experience while they were in service?"
+  - "Do they feel they are able to provide clarification or select options that best represents their own unique situation?"
+  - "Do Veterans feel the revised TES questionnaire addresses their pain points from Phase 1?"
+  - "Do they feel the TES questions take a reasonable amount of time to complete, or do they feel the questions are excessive and burdensome?"
+  - "Do they feel the additional information topics are comprehensive, or would they like other information?"
+  - "Do Veterans feel that the TES questionnaire will help them get the appropriate healthcare services or benefits?"
+  - "What do Veterans find is a reasonable cadence to digitally (SMS text or email) receive similar questionnaires from their primary care providers? Is weekly or monthly acceptable or not?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will identify areas to improve the ease of use within the questionnaire platform"
+  - "The questions within each clinical reminder will be understandable"
+  - "Veterans from Phase 1 will find the revised TES questions to be an improvement over the questions that they encountered in Phase 1"
+  - "Veterans will find the revised TES questions pertains to their current situation and their experience while serving"
+  - "Veterans will feel that the TES questionnaire will take a reasonable amount of time to complete"
+  - "Veterans will feel that they can request additional information that pertains to them"
+  - "Veterans will believe that answering the TES questions will optimize their time with their healthcare provider, will get the appropriate healthcare services they require, and obtain additional benefits they deserve"
+  - "Comparing Veterans responses from Phase 1 to Phase 2 will reveal an improvement in the TES questions"
+  - "Veterans will find a one-month cadence acceptable to receive a clinical reminder from their PCPs"
+  - "Veterans prefer to receive the TES questions on a digital platform vs in-person"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will gather feedback on the revised Toxic Exposure Screening questionnaire, assess trust in VA notifications, and compare improvements from Phase 1 to inform future iterations of clinical reminder questionnaires."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Two cohorts - 6 returning Phase 1 participants and 6 new Veterans"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Cohort 1: 6 Veterans who participated in Phase 1 usability sessions of the Health Questionnaires, Clinical Reminders Pilot"
+    - "Cohort 2: 6 new Veterans who are enrolled in VA healthcare and assigned a primary care provider"
+    - "3 Veterans with cognitive disabilities or who are visually impaired across both cohorts"
+    - "All Veterans must have a computer, tablet, or mobile phone and are willing to use it to complete the activity"
+    - "Diverse sample across education, geographical locations, gender identity, branch of service, age, abilities, ethnicities, LGBTQ community"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Maximum variation across demographics"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Did you participate in the VA's pre-appointment, health questionnaire usability session back in January of 2024?"
+      qualifying_response: "Yes for Cohort 1"
+    - question: "Are you enrolled in VA healthcare?"
+      qualifying_response: "Yes for Cohort 2"
+    - question: "Are you assigned to a VA primary care provider?"
+      qualifying_response: "Yes for Cohort 2"
       
 participants:
-  veterans: 0
+  veterans: 16
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 16
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-09-26"
+  pilot_participant: "John Lauser"
+  research_dates: "2024-10-15 to 2024-10-28"
+  research_review_submission: "2024-09-26"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Enhance Veterans' personalized online experience"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Phase 1 Health Questionnaires Clinical Reminders Pilot usability sessions (January 2024)"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/questionnaire/research/2024-07-clinical-reminders-phase-2/conversation%20guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-questionnaires"
+  - "clinical-reminders"
+  - "toxic-exposure-screening"
+  - "TES"
+  - "BHL-Touch"
+  - "usability-testing"
+  - "veterans"
+  - "authenticated-experience"
+  - "primary-care"
+  - "questionnaire-platform"
+  - "cognitive-disability"
+  - "accessibility"
+  - "notifications"
+  - "SMS"
+  - "email"
+  - "evaluative"
+  - "longitudinal"
 ---
 
 # Research plan for Phase 2 Health Questionnaires, Clinical Reminders Pilot: Veteran usability sessions, September 2024 

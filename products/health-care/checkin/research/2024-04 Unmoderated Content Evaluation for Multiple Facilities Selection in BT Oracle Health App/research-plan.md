@@ -1,109 +1,120 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Unmoderated Content Evaluation for Multiple Facilities Selection in BT Oracle Health App"
+date: 2024-04-01
+last_updated: 2024-05-01
+team: "Patient Check-In (PCI)"
+product: "Travel Reimbursement via Text for Oracle Health Facilities"
+product_area: "unauthenticated - LoROTA"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need to easily understand instructions on the multiple facilities selection page for filing travel reimbursement claims at Oracle Health facilities, especially distinguishing between mileage-only claims (this tool) versus claims with receipts (BTSSS portal)."
+  product_location: "Text-based travel reimbursement (text 'travel' to 54804) for Oracle Health facilities - multiple facilities selection page"
+  user_familiarity: "Iteration on existing feature - evaluating content clarity for multiple facility selection"
+  product_brief_url: "N/A"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "unmoderated content evaluation"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Get feedback from Veterans on how easy it is to understand the instructions on the multiple facilities selection page"
+  - goal_2: "Evaluate if the page clearly conveys how Veterans can use this tool to file travel reimbursement claims for their appointments"
+  - goal_3: "Determine if content changes are needed to help Veterans better understand how to file their mileage-only travel reimbursement claims"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans understand that this tool can be used for mileage-only travel reimbursement claims and that they need to use the BTSSS portal to file claims with receipts?"
+  - "Do Veterans understand how many/which claims they are filing when selecting facilities?"
+  - "Do Veterans understand how to file a claim for any of the facilities NOT selected on the facility selection page?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will understand that this tool can be used for mileage-only travel reimbursement and that they need to use the BTSSS portal to file with receipts (LIKELY TRUE)"
+  - "Veterans will understand how many/which claims they are filing when selecting facilities (LIKELY TRUE)"
+  - "Veterans may NOT understand how to file for the facilities NOT selected (MAYBE FALSE)"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This study will give us insight into whether or not we need to make content changes in order to help Veterans better understand how to file their mileage-only travel reimbursement claims using this online tool."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "7 cohorts with specific demographic and experience criteria for comprehensive content evaluation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All must have a computer or mobile device and are willing to use it to complete the activity"
+    - "Cohorts A-E: All must have experience filing for travel reimbursement"
+    - "Cohorts F-G: Must NOT have experience filing for travel reimbursement but think they're eligible or unsure of eligibility"
+    - "Specific demographic requirements per cohort (age, cognitive disability, education, race/ethnicity)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 20 women"
+    - "At least 20 participants age 55 or older"
+    - "At least 10 participants age 35 or under"
+    - "At least 20 participants with a cognitive disability"
+    - "At least 20 participants who are not Caucasian"
+    - "At least 15 participants who don't have any degree or vocational training after high school"
+    - "At least 10 people who live in a rural or remote area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you ever filed for travel reimbursement for a VA or community care medical appointment?"
+      qualifying_response: "YES for Cohorts A-E, NO for Cohorts F-G"
+    - question: "Are you eligible to receive travel reimbursement for health care appointments?"
+      qualifying_response: "Used for Cohorts F and G distinction"
       
 participants:
-  veterans: 0
+  veterans: 63
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 63
+  completed_sessions_goal: 35
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "Completed"
+  pilot_participant: "Completed"
+  research_dates: "Flexible based on Perigean schedule"
+  research_review_submission: "2024-05-01"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 8
+  buffer_minutes: 0
+  max_sessions_per_day: "self-paced unmoderated"
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/2024-04%20Unmoderated%20Content%20Evaluation%20for%20Multiple%20Facilities%20Selection%20in%20BT%20Oracle%20Health%20App/research-outline.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "patient-check-in"
+  - "travel-reimbursement"
+  - "BTSSS"
+  - "Oracle-Health"
+  - "Cerner"
+  - "unmoderated-research"
+  - "content-evaluation"
+  - "Optimal-Workshop"
+  - "veterans"
+  - "cognitive-disability"
+  - "rural"
+  - "diverse-cohorts"
+  - "mileage-reimbursement"
+  - "multiple-facilities"
+  - "content-clarity"
+  - "LoROTA"
+  - "text-message"
+  - "mobile"
 ---
 
 # Research plan - Unmoderated Content Evaluation for Multiple Facilities Selection in BT Oracle Health App

@@ -1,109 +1,133 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for ARM Team, Appoint a Representative Form User Test (Unauthenticated), 02/2024"
+date: 2024-02-14
+last_updated: 2024-03-08
+team: "Accredited Representative Management (ARM)"
+product: "Appoint a Representative"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Create a high-quality accessible service within VA.gov to serve Veterans in managing their Power of Attorney (PoA) representation and support deprecation of legacy system."
+  product_location: "VA.gov unauthenticated experience - 21-22/21-22a digital forms"
+  user_familiarity: "New product - migrating from legacy systems"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/9c884d56087c31b9422840cc233009d12e870b9b/products/accredited-representation-management/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing, semi-structured-interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand Veteran's family (spouse, dependent) or caregiver motivations for seeking representation, why they selected their representative, and what that experience has been like"
+  - goal_2: "Understand usability of the unauthenticated Appoint a Representative flow (21-22/21-22a forms) on both desktop and mobile devices"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What prompts Veterans' family or caregivers to find representation?"
+  - "What has the Veterans' family or caregiver experience been like with their representative?"
+  - "Do users understand the information shown in the 21-22/21-22a? Is there any information missing?"
+  - "What are users' expectations of the experience?"
+  - "Are there any challenges with using the experience?"
+  - "Are the next steps clear and actionable?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans' family or caregivers understand a representative's abilities, and proactively seek their support"
+  - "Veteran's family or caregivers have criteria when searching for a representative to ensure they meet their needs"
+  - "Users will have an easy time navigating our form through tested patterns and informative content"
+  - "Users will want to provide full medical and address permissions to their representative so they can receive better support"
+  - "Users will prefer to use the online form to fill out the 21-22/21-22a in order to reduce error, rather than downloading and filling out on their own"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Information on Veteran's family or caregiver motivations and behaviors surrounding representatives will inform the MVP and future experiences. User testing will inform adjustments to the Appoint a Representative flow to improve usability."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veteran family members (spouse, dependent, parent) or caregivers"
+    - "Participants actively searching for a representative OR with a representative for last 3-6 months"
+    - "Mix of representative types: VSO, attorney, claims agent"
+    - "Even split: 6 desktop users, 6 mobile users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "4+ age 55+"
+    - "4+ with cognitive disability"
+    - "4+ people of color"
+    - "2+ with no degree"
+    - "1+ women"
+    - "1+ LGBTQ+"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a spouse, child, parent, or caregiver of a Veteran?"
+      qualifying_response: "Spouse, child, parent, surviving family, or caregiver of Veteran"
       
 participants:
   veterans: 0
-  caregivers: 0
+  caregivers: 12
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-02-09"
+  pilot_participant: "TBD"
+  research_dates: "2024-02-14 to 2024-02-22"
+  research_review_submission: "2024-01-29"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 75
+  buffer_minutes: 60
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Grow digital submissions"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Focus on needs of accredited representatives and Veterans who work with them"
+      - "Redirect to VA.gov traffic currently going through eBenefits and Stakeholder Enterprise Portal (SEP)"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "2024-01 ARM Authenticated Appoint a Representative Form User Test"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Caregivers"
+  - "AUD: Dependents"
+  - "AUD: Veteran Service Organization (VSO)"
+  - "AUD: Attorneys"
+  - "BNFT: Disability"
+  - "DSC: Form"
+  - "DSC: Button"
+  - "DSC: Checkbox"
+  - "DSC: Modal"
+  - "DSP: Ask users for a single response"
+  - "DSP: Ask users for addresses"
+  - "DSP: Ask users for names"
+  - "DSP: Ask users for phone numbers"
+  - "DSP: Ask users for email address"
+  - "DSP: Ask users for signature"
+  - "DSP: Help users to check answers"
+  - "PRDT: Accredited-Reps"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "semi-structured-interviews"
 ---
 
 # Research Plan for ARM Team, Appoint a Representative Form User Test (Unauthenticated), 02/2024<a id="research-plan-for-arm-team-appoint-a-representative-form-user-test-unauthenticated-022024"></a>

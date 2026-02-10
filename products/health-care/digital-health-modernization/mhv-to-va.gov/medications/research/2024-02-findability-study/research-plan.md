@@ -1,109 +1,131 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for MHV on VA.gov, Medications Findability Study, February 2024"
+date: 2024-02-01
+last_updated: 2024-02-01
+team: "Digital Health Modernization - MHV on VA.gov"
+product: "Medications on My HealtheVet"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans experience pain points when finding and accessing information about their prescriptions on My HealtheVet and need a user-centric tool that streamlines access to prescription information."
+  product_location: "My HealtheVet on VA.gov - Medications section"
+  user_familiarity: "Iteration on existing MHV Medications experience"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "moderated interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Identify how Veterans find a medication in My HealtheVet or VAHB-Mobile"
+  - goal_2: "Identify how Veterans find information on their medication(s)"
+  - goal_3: "Identify how Veterans make sense of their medication list(s)"
+  - goal_4: "Identify how Veterans' experiences with My HealtheVet/VAHB-Mobile and other websites/apps inform their expectations"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What do Veterans expect to see on their Medications page?"
+  - "What type of medication information do Veterans seek?"
+  - "How do they find the information?"
+  - "What do Veterans do if they cannot find a medication?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Most Veterans will find the current UI of prescription findability efficient"
+  - "Most Veterans will find their prescriptions by scrolling through the pages"
+  - "Most Veterans will state they would call their providers when they cannot find a prescription on their list"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The findings will help determine what is and isn't working for Veterans when accessing their prescriptions on MHV and inform how to best design a User Experience that allows Veterans to find their prescriptions and access information easily and efficiently."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "At least 12 participants with cognitive disabilities (mild to severe)"
+    - "All 24 participants who will join on laptop or desktop"
+    - "All 24 participants who have been MHV Medication management users within the last 6 months"
+    - "At least 12 participants who manage their medications using a VA mobile app"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Age distribution: 18-34 (2), 35-54 (5), 55-64 (4), 65-74 (8), 75+ (5)"
+    - "Education distribution: High school or less (8), Some college (6), Associate degree (3), Bachelor's degree (5), Master's or higher (2)"
+    - "Demographic distribution: American Indian/Alaska Native (1), Asian (1), Black/African American (4), Hispanic/Latino (3), White/Caucasian (15)"
+    - "Residence: Rural (8), Urban (16)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you used My HealtheVet (MHV) for managing your prescriptions within the last 6 months?"
+      qualifying_response: "Yes"
+    - question: "Have you been diagnosed with a cognitive disability?"
+      qualifying_response: "Recruit 12 with cognitive disabilities, 12 without"
       
 participants:
-  veterans: 0
+  veterans: 24
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 24
+  completed_sessions_goal: 18
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-02-05"
+  pilot_participant: "TBD"
+  research_dates: "2024-02-12 to 2024-02-23"
+  research_review_submission: "2024-02-01"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Enable Veterans to find and access prescription information efficiently"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Centralize health information access through MHV on VA.gov"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Streamline prescription management and information access"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Previous MHV Medications usability research"
+    - "Refilling multiple prescriptions prototype testing"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "MHV"
+  - "My HealtheVet"
+  - "medications"
+  - "prescriptions"
+  - "health-care"
+  - "digital-health-modernization"
+  - "findability"
+  - "moderated-interviews"
+  - "veterans"
+  - "cognitive-disability"
+  - "accessibility"
+  - "authenticated-experience"
+  - "VAHB-mobile"
+  - "remote-research"
+  - "discovery"
 ---
 
 # **Research Plan for MHV on VA.gov, Medications Findability Study, February 2024**

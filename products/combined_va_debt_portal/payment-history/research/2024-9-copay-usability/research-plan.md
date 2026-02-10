@@ -1,109 +1,143 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Debt Resolution Team, VHA Debt Portal Payment History, September-October 2024"
+date: 2024-09-01
+last_updated: 2024-10-09
+team: "Debt Resolution Team"
+product: "VHA Debt Portal - Payment History"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans do not receive timely confirmation of payments made on the debt portal. VHA copay details are difficult to find in the copay statement page. Veterans need consistent messaging and timely payment information to avoid confusion, frustration, and mistrust."
+  product_location: "Combined VA Debt Portal on VA.gov - VHA copay path"
+  user_familiarity: "Iteration on existing debt portal with new payment history feature for VHA copays, building on parallel VBA payment history study"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/initiative-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand usability (findability and navigation) and comprehension of revised IA for copay path (summary, detail with payment history, resolution pages)"
+  - goal_2: "Understand comprehension of transaction detail additions, including pending transactions and transaction clarity"
+  - goal_3: "Understand comprehension of medical copay details (doctor visits, prescriptions) and alignment with Veteran mental models"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How understandable are the copay summary, detail, and resolve pages?"
+  - "Can participants find key information and locate CTAs (pay, request help, dispute)?"
+  - "Do Veterans understand callouts for copay bills with serious consequences (treasury, debt collections)?"
+  - "Do participants understand when bill is due, how much is due, and copay statuses/icons?"
+  - "How clear is transaction information (new charges, previous balance, payments received, late fees)?"
+  - "Are Veterans interested in seeing pending transactions? Does it fit their mental models?"
+  - "What information is necessary on doctor visit and prescription summaries?"
+  - "Do Veterans have concerns about PHI security and privacy?"
+  - "What are Veterans' mental models about VHA copay billing?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Hypothesis 1: Revised debt portal IA will be easy to understand. Veterans will easily navigate, review statements, and resolve copay bills"
+  - "Hypothesis 2: VHA payment history displayed on copay detail page will be easy to understand. Medical visit and prescription copay details will be helpful and easy to understand"
+  - "Hypothesis 3: Addition of pending copay charges will be beneficial. Veterans will understand pending vs finalized transactions and differentiate sections"
+  - "Hypothesis 4: Veterans will differentiate copay bills that are payable vs receiving benefit offset vs sent to Treasury"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will validate/improve the VHA payment history prototype before development. Will confirm updated IA is navigable, bill details are understandable, and determine if pending charges are desirable and if description data is helpful. Findings will significantly improve user experience for Veterans managing VA copay bills."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Lean maximum variation with higher quotas for cognitive considerations"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "8-12 Veterans (recruit 16)"
+    - "All participants must be Veterans"
+    - "100% must have experience with VA copay bills"
+    - "75% must have experienced financial hardship now or in past"
+    - "Must have computer, tablet, or smartphone for session"
+    - "50% complete session on smartphone, 50% on desktop"
+    - "At least 1-2 assistive technology users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 2 of 12 people in rural or remote area"
+    - "At least 2 of 12 people in major metropolitan area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "VA copay bill status (current unpaid, fully repaid, timing - last 6 months preferred)"
+      qualifying_response: "Must have had or currently have VA copay bill"
+    - question: "VA copay bill details (clinic visit, medication prescription, recurring, amount over $100)"
+      qualifying_response: "Mix of copay types"
+    - question: "Financial hardship experience (current, past, never)"
+      qualifying_response: "Experienced financial hardship"
+    - question: "Cognitive disorder diagnosis"
+      qualifying_response: "Mix including cognitive considerations"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 16
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-09-27"
+  pilot_participant: "TBD"
+  research_dates: "2024-09-30 to 2024-10-09"
+  research_review_submission: "2024-09-21"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "CSAT for web products increased by 5 points"
+      - "Number of transactions increased by 25%"
+      - "All new products have faster transaction time"
+      - "No transactions have fatal errors"
+  - objective: "Objective 2: Our platforms are the best way to deliver products at VA"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Platforms hit elite level on DORA metrics"
+      - "Measure and improve internal user satisfaction"
+      - "Power twice as many interactions"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "VBA Payment History Study July 2024"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/VHA-usability-study-9-2024/conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "debt-resolution"
+  - "VHA-copay"
+  - "medical-copay"
+  - "payment-history"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+  - "authenticated"
+  - "veterans"
+  - "cognitive-disability"
+  - "assistive-technology"
+  - "accessibility"
+  - "financial-hardship"
+  - "PHI"
+  - "pending-transactions"
+  - "evaluative"
 ---
 
 # Research Plan for Debt Resolution Team, VHA Debt Portal payment history, September - October 2024

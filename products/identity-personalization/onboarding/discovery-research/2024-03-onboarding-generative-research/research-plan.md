@@ -1,109 +1,135 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, TSM Engage with VA Generative Research, March 2024"
+date: 2024-03-11
+last_updated: 2024-03-11
+team: "Authenticated Experience"
+product: "Onboarding to VA - Transitioning Service Members"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The VA.gov authenticated experience thus far has been primarily focused on the user journey for existing Veterans or other VA beneficiaries who are already active in and relatively familiar with VA.gov. We need to build a baseline understanding of the transition process from active duty military to Veteran status, so that we can evaluate the impact VA.gov may have on the process of onboarding to VA overall."
+  product_location: "VA.gov authenticated experience - focused on transitioning service members"
+  user_familiarity: "Discovery research - exploring new area of focus for transitioning service members"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/onboarding/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "remote semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Identify any problems people experience when separating from the military that could be improved or resolved through VA.gov"
+  - goal_2: "Determine if we need to make changes to existing VA.gov features, or build new ones, to help people onboard to VA"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What role does VA.gov have in onboarding people to VA?"
+  - "What changes, if any, could we make to improve the experience of onboarding to VA through VA.gov?"
+  - "What challenges do people have using VA.gov when they're using it for the first time?"
+  - "Where does VA.gov fit within the mental model of people who are onboarding to VA?"
+  - "What are the top questions transitioning service members have about VA?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "VA.gov will be able to improve the process of onboarding to VA through content and IA updates targeted to service members, especially on topics of eligibility, applying for benefits, and benefits of creating a VA.gov account"
+  - "People will want a personalized experience when onboarding to VA that reflects their specific situation, but not necessarily expect that to be possible through a government agency like VA"
+  - "There isn't a single online tool or experience that will resolve problems people have when they separate from service and transition to VA"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will help us determine if we need to make changes to existing VA.gov features, or build new ones, to help people onboard to VA."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation sampling across separation status, military branch, VA experience, and demographics"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "13 participants recruited for 1 pilot and 8 completed formal sessions"
+    - "At least 6 active duty service members who will be separating from service by December 31, 2024"
+    - "At least 6 Veterans who separated from service on or after June 1, 2023"
+    - "Mix of military branches: at least 2 Army, 2 Navy, 2 Marine, 2 Air Force/Space Force, 1 Coast Guard"
+    - "Mix of VA experience: at least 3 no experience with VA or VA.gov, at least 3 some experience with VA but no VA.gov, at least 3 some experience with VA.gov"
+    - "All participants must be willing to join Zoom via phone or computer"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 5, but no more than 8, who identify as other than male"
+    - "At least 5, but no more than 8, who identify as other than Caucasian"
+    - "At least 5, but no more than 8, should not have a degree higher than an associates degree or technical certification"
+    - "At least 5 participants should identify as having a cognitive impairment"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you able to join the research session by dialing in through a phone call, or from a smart phone or computer?"
+      qualifying_response: "Yes"
+    - question: "Are you an active duty service member who will be separating from service by December 31, 2024?"
+      qualifying_response: "Yes for separation status criteria 1"
+    - question: "Did you separate from service on or after June 1, 2023?"
+      qualifying_response: "Yes for separation status criteria 2"
+    - question: "How would you describe your level of engagement with VA so far?"
+      qualifying_response: "Mix of no engagement, some familiarity, applied but not receiving, and receiving benefits"
+    - question: "How often do you use VA.gov?"
+      qualifying_response: "Mix of never, a little bit, a lot, and expert"
+    - question: "Would you be willing to create an identity-verified account during the session if you have never logged into VA.gov before?"
+      qualifying_response: "Mix of yes and no"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "At least 5 yes"
       
 participants:
-  veterans: 0
+  veterans: 13
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 13
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-03-21 or 2024-03-22"
+  pilot_participant: "TBD - 2 pilot participants recruited"
+  research_dates: "2024-03-26 to 2024-03-29"
+  research_review_submission: "2024-03-18"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
+    key_results: []
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Serving"
+  - "Getting out"
+  - "Starting up"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/onboarding/discovery-research/research-review.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/onboarding/discovery-research/2024-03-onboarding-generative-research/conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "onboarding"
+  - "transitioning-service-members"
+  - "TSM"
+  - "authenticated-experience"
+  - "generative-research"
+  - "semi-structured-interviews"
+  - "veterans"
+  - "active-duty"
+  - "separation"
+  - "VA-benefits"
+  - "eligibility"
+  - "account-creation"
+  - "cognitive-impairment"
+  - "personalization"
+  - "discovery"
+  - "exploratory"
 ---
 
 # Research Plan for Authenticated Experience, TSM Engage with VA Generative Research, March 2024

@@ -1,109 +1,136 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for ARM Team, Authenticated Appoint a Representative Form User Test, 01/2024"
+date: 2024-01-03
+last_updated: 2024-01-26
+team: "Accredited Representative Management (ARM)"
+product: "Appoint a Representative"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Make it easier, safer, and faster for Veterans to assign and manage Power of Attorney (PoA), and explore new ways that VA.gov can better support Veterans who choose to interact with VA through a representative."
+  product_location: "VA.gov authenticated experience - Power of Attorney (PoA) widget and 21-22/21-22a digital forms"
+  user_familiarity: "New product - migrating from legacy SEP and eBenefits platforms"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/9c884d56087c31b9422840cc233009d12e870b9b/products/accredited-representation-management/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing, semi-structured-interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand Veterans' motivations for seeking representation, why they selected their representative, and what that experience has been like"
+  - goal_2: "Understand usability of the authenticated Appoint a Representative flow (21-22/21-22a form) on both desktop and mobile devices"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What prompts Veterans to find representation?"
+  - "What has the Veterans' experience been with their representatives?"
+  - "Do Veterans' understand the information shown? Is there any information missing?"
+  - "What are Veterans' expectations of the experience?"
+  - "Are there any challenges with using the experience?"
+  - "Are the next steps clear and actionable?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans understand a representative's abilities, and proactively seek their support"
+  - "Veterans' have criteria when searching for a representative to ensure they meet their needs"
+  - "Veterans will prefer to sign-in to simplify the form experience and save their progress"
+  - "Veterans will want to provide full access to their information to their representatives so they can better support them"
+  - "Veterans will prefer plain language legal copy, as it will be easier to understand"
+  - "Veterans will prefer to use the online form to fill out the 21-22(a) in order to reduce error, rather than downloading and filling out on their own"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Information on Veterans' motivations and behaviors surrounding representatives will inform the MVP and future experiences. User testing will inform adjustments to the 21-22(a) form flows to improve usability."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans actively searching for a representative OR with a representative for last 3-6 months"
+    - "Mix of representative types: VSO, attorney, claims agent"
+    - "At least 2+ Veterans receiving support for non-disability benefits"
+    - "Even split: 6 desktop users, 6 mobile users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "3+ people of color"
+    - "2+ with cognitive disability"
+    - "1+ women"
+    - "1+ LGBTQ+"
+    - "0-6 participants in a representative role"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "What is your current situation with representatives (VSOs, attorneys, and claims agents)?"
+      qualifying_response: "Currently looking for representative OR have been getting support for last 3-6 months"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-12-20"
+  pilot_participant: "Rebecca Blakiston, rebecca.blakiston@adhocteam.us"
+  research_dates: "2024-01-03 to 2024-01-12"
+  research_review_submission: "2023-12-11"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 75
+  buffer_minutes: 60
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhance Veterans' personalized online experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Developing widget to provide authenticated Veterans clear insight into existing representation and simplified experience for digitally submitting request for representation"
+  - objective: "Fast-track disability claims, starting with PACT Act claims"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Help Veterans who are applying for disability benefits understand and manage their representation on VA.gov"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Accredited Representative Management product research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Veteran Service Organization (VSO)"
+  - "AUD: Attorneys"
+  - "BNFT: Disability"
+  - "BNFT: Pension"
+  - "BNFT: Education"
+  - "DSC: Form"
+  - "DSC: Button"
+  - "DSC: Checkbox"
+  - "DSP: Ask users for a single response"
+  - "DSP: Ask users for addresses"
+  - "DSP: Ask users for names"
+  - "DSP: Ask users for phone numbers"
+  - "DSP: Ask users for email address"
+  - "DSP: Ask users for signature"
+  - "DSP: Help users to sign in"
+  - "DSP: Help users to check answers"
+  - "PRDT: Accredited-Reps"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "semi-structured-interviews"
 ---
 
 # Research Plan for ARM Team, Authenticated Appoint a Representative Form User Test, 01/2024<a id="research-plan-for-arm-team-authenticated-appoint-a-representative-form-user-test-012024"></a>

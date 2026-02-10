@@ -1,66 +1,59 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Recent Location Analytics Research Plan for VAOS, May 2024"
+date: 2024-05-01
+last_updated: 2024-05-01
+team: "Appointments FE"
+product: "VA Online Scheduling (VAOS)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need to be able to easily find relevant facilities when scheduling appointments. The Sort by field defaults to recent locations to surface relevant facilities and limit searching through irrelevant options."
+  product_location: "VA.gov Appointments Tool - facility selection page"
+  user_familiarity: "New feature iteration"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "analytics tracking"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Track whether the default Sort by field is changed from Recent locations to a different option by users"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are users clicking on one of facilities surfaced with the default set at recent locations or selecting a different way to sort the list?"
+  - "How long are users spending on the page compared to time spent before the change?"
+  - "Are users leaving comments about the facility selection page and is feedback generally positive or negative?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Comments about not being able to find their facility will decrease"
+  - "Comments about showing locations they have not used in ages and are irrelevant to the Veteran will decrease"
+  - "The use of the sort by drop down will decrease because Veterans will select one of the facilities in list with the defaulted recent locations"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Data will assess if users are clicking on facilities surfaced with default recent locations or selecting a different way to sort the list, informing whether the feature is effective."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "N/A - analytics study"
+  approach: "production analytics tracking"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All users of VAOS on VA.gov"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "N/A"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "N/A - analytics study"
+      qualifying_response: "N/A"
       
 participants:
   veterans: 0
@@ -71,39 +64,45 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "N/A"
+  pilot_participant: "N/A"
+  research_dates: "TBD - one month after feature release"
+  research_review_submission: "N/A"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 0
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve facility finding experience in appointment scheduling"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Related to 2024-05-oh-scheduling research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "appointments"
+  - "VAOS"
+  - "analytics"
+  - "quantitative"
+  - "unmoderated"
+  - "veterans"
+  - "authenticated-experience"
+  - "scheduling"
+  - "facility-selection"
+  - "datadog"
+  - "medallia"
+  - "evaluative"
+  - "post-launch"
 ---
 
 # Recent location Analytics Research Plan - For VAOS, Appointments FE, 05/2024

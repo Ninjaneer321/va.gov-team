@@ -1,109 +1,134 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Debt Resolution Team, VBA Debt Portal Payment History, June-July 2024"
+date: 2024-06-01
+last_updated: 2024-07-23
+team: "Debt Resolution Team"
+product: "VBA Debt Portal - Payment History"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans do not receive timely confirmation of payments made on the debt portal, resulting in confusion, frustration, and mistrust. Veterans may not see their payment confirmation reflected for months, leading to inconsistent messaging across VA communication channels."
+  product_location: "Combined VA Debt Portal on VA.gov"
+  user_familiarity: "Iteration on existing debt portal with new payment history feature"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/initiative-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess comprehension of overpayment summary, detail, resolution, and debt letter pages"
+  - goal_2: "Evaluate ability to locate key actions (pay bill, request financial help, dispute debt)"
+  - goal_3: "Determine understanding of bill due dates and current amounts due"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How understandable are the overpayment summary and detail pages?"
+  - "Do participants notice and understand icon callouts (exclamation point, checkmark)?"
+  - "Can participants define different transaction fields (current amount, original amount, total paid, date of last payment, next payment due, late fees/interests)?"
+  - "Can participants locate CTAs for resolve, pay, request help, or dispute?"
+  - "What elements draw attention and what is less noticeable?"
+  - "What is missing in this experience?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "One-thing-per-page: Participants may find lower content per page easier to comprehend, but may find number of clicks overwhelming"
+  - "Payment History Comprehension: Financial elements will be easy to understand and provide the right information"
+  - "Ability to understand what/when/how: Participants will understand amount due, due date, and resolution options (pay, request help, dispute)"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will validate payment history designs before/during development, enabling improvements. The additions will significantly improve user experience for Veterans managing VA debts and provide consistent messaging across communication channels."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Lean maximum variation with higher quotas for cognitive considerations"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "8-10 Veterans (recruit 16-20)"
+    - "All participants must be Veterans"
+    - "Must have computer, tablet, or smartphone for session"
+    - "75% must have experience with VA overpayment debt"
+    - "50% must have had VA overpayment debt within last 2 years"
+    - "75% must have experienced financial hardship now or in past"
+    - "At least 2 screen reader users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 2 of 12 people in rural or remote area"
+    - "At least 2 of 12 people in major metropolitan area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "VA overpayment debt status (current unpaid, fully repaid, timing)"
+      qualifying_response: "Must have had or currently have VA overpayment debt"
+    - question: "Amount of debt ($1-99, $100-500, $501-1000, over $1000)"
+      qualifying_response: "Mix of debt amounts"
+    - question: "Financial hardship experience (current, past, never)"
+      qualifying_response: "Experienced financial hardship"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 20
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-06-26"
+  pilot_participant: "TBD"
+  research_dates: "2024-07-16 to 2024-07-23"
+  research_review_submission: "2024-06-17"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "CSAT for web products increased by 5 points"
+      - "Number of transactions increased by 25%"
+      - "All new products have faster transaction time"
+      - "No transactions have fatal errors"
+  - objective: "Objective 2: Our platforms are the best way to deliver products at VA"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Platforms hit elite level on DORA metrics"
+      - "Measure and improve internal user satisfaction"
+      - "Power twice as many interactions"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/usability-study-6-2024/conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "debt-resolution"
+  - "VBA-debt"
+  - "overpayment"
+  - "payment-history"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+  - "authenticated"
+  - "veterans"
+  - "cognitive-disability"
+  - "screen-reader"
+  - "accessibility"
+  - "financial-hardship"
+  - "evaluative"
 ---
 
 

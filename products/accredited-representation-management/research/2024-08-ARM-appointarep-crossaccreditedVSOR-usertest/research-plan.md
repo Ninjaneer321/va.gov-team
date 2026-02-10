@@ -1,109 +1,126 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for ARM Team, Appoint a Representative - Cross-Accredited VSOR - User Test, 08/2024"
+date: 2024-08-12
+last_updated: 2024-09-06
+team: "Accredited Representative Management (ARM)"
+product: "Appoint a Representative - Cross-Accredited VSO Representative Focus"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Create a high-quality accessible service to serve Veterans in finding and managing their accredited representatives (Power of Attorney) and support deprecation of legacy system. Need to understand unique needs of cross-accredited VSO representatives."
+  product_location: "VA.gov - Find and Appoint a Representative tools"
+  user_familiarity: "Product iteration - gathering representative perspective"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/9c884d56087c31b9422840cc233009d12e870b9b/products/accredited-representation-management/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing, semi-structured-interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how cross-accredited VSO representatives (VSORs) intake and process power of attorney (POA)"
+  - goal_2: "Understand usability, understandability, and desirability of Appoint a Representative (digital 21-22 form) with VSORs"
+  - goal_3: "Gather feedback on Find a Representative from VSORs"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How and why did the VSOR decide to become cross-accredited?"
+  - "How does cross-accreditation impact their Veteran interactions and day-to-day activities?"
+  - "What is their preferred contact method and how do they keep information up to date?"
+  - "How do VSORs interpret VA processes and terms such as certifying officials and OGC?"
+  - "How does the VSOR fill out the 21-22 today and are there specific needs being cross-accredited?"
+  - "Are there any challenges with the 21-22?"
+  - "How does the VSOR communicate about the 21-22 with the Veteran?"
+  - "Would the VSOR adopt the digital form? Why or why not?"
+  - "Is there any information missing or confusing in the experience?"
+  - "Any missing features they'd like to see included?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Cross-accredited VSORs will have unique needs with their processes, including POA"
+  - "VSORs will want an instant digital option for submitting a Veteran-signed POA to access Veterans' records immediately"
+  - "VSORs will be able to easily navigate through our form through tested patterns and informative content"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Information on how cross-accredited VSORs intake and process POA will inform how Find and Appoint a Representative tools present VSOs for Veteran selection and inform the Accredited Representative Portal. User testing will inform adjustments to improve usability."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Direct recruitment by ARM team"
+  approach: "purposive sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "VSO representatives accredited through multiple organizations"
+    - "Must work in role that supports Veterans and claimants with POA"
+    - "Mix of in-person, hybrid, and remote work settings"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mixture of Veterans and non-Veterans"
+    - "Mixture of novice and experienced VSORs"
+    - "Mixture of geographic locations and offices"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Which Veterans Service Organizations are you accredited with?"
+      qualifying_response: "Must be accredited with multiple VSOs"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 8
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-08-11"
+  pilot_participant: "TBD"
+  research_dates: "2024-08-12 to 2024-08-23"
+  research_review_submission: "2024-07-31"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Number of transactions processed using our products have increased by 25%"
+      - "No transactions accepted by our products have a fatal error"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "2024-06 ARM Appoint a Representative Digital Submit User Test"
+    - "2024-03 ARM Find a Representative LIVE User Test"
+    - "2024-02 ARM Appoint a Representative Unauthenticated User Test"
+    - "2024-01 ARM Authenticated Appoint a Representative Form User Test"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veteran Service Organization (VSO)"
+  - "BNFT: Disability"
+  - "DSC: Form"
+  - "DSC: Button"
+  - "DSP: Ask users for a single response"
+  - "DSP: Ask users for signature"
+  - "DSP: Help users to check answers"
+  - "PRDT: Accredited-Reps"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "semi-structured-interviews"
 ---
 
 # Research Plan for ARM Team, Appoint a Representative - Cross-Accredited VSOR - User Test, 08/2024

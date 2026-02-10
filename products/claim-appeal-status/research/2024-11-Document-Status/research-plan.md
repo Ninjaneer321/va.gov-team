@@ -1,109 +1,136 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Claim Status Tool, Document Status, November 2024"
+date: 2024-11-16
+last_updated: 2024-11-16
+team: "Benefits Team 1"
+product: "Claim Status Tool - Document Status"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The file upload experience in the Claim Status Tool on VA.gov needs improvement, as the status of uploaded documents is unclear for Veterans. In the past, this uncertainty led to silent failures where Veterans weren't told an error occurred after upload. Although we now send emails when errors occur, we need to provide Veterans with real-time transparency into the status of their evidence submissions."
+  product_location: "Claim Status Tool (CST) on VA.gov - File upload experience"
+  user_familiarity: "Iteration - improving document upload status visibility and resolving silent failures"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/CST%20Product/Document%20Status%20Initiative.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate whether participants can use the alerts and statuses to effectively understand different types of success and upload failures"
+  - goal_2: "Identify whether Veterans recognize the connection between a failure notification email and the in-app alerts for Type 2 failures"
+  - goal_3: "Identify what a Veteran expects to happen when they mail in documents"
+  - goal_4: "Understand how the upload status impacts trust in the claims process"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Is the 'In progress' state useful - do they understand that the document hasn't been completely uploaded to their claim?"
+  - "Do Veterans make the connection between the email content and the in-app alerts?"
+  - "Do Veterans understand what to do after seeing the email and/or in-app alerts for failed uploads?"
+  - "Do Veterans feel confident in VA's ability to properly process their mailed-in documents?"
+  - "What do Veterans expect to happen in CST when they mail in a document?"
+  - "Do the interactions result in any concerns about deadlines or impact trust in VA?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The proposed design makes it clear what the status of the uploaded document is"
+  - "Veterans will know what to do in scenarios where document uploads were successful and scenarios where document uploads failed"
+  - "Users will find that real-time in-app status updates enhance the overall service experience by complementing the information provided via email"
+  - "Providing Veterans with clarity via in-app status updates will reduce the need for support inquiries"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Our research will reveal whether real-time status updates are helpful to Veterans. Additionally, we aim to identify any obstacles Veterans face from receiving a failure notification to sending in their physical documents."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans must have filed a (standard, non-FDC) disability compensation claim with the VA within the past 5 years"
+    - "Veterans must have uploaded files using the claim status tool on VA.gov"
+    - "Must be using desktop device during the study"
+    - "3 Black Veterans"
+    - "3 Veterans age 55-64+"
+    - "2 Veterans without a degree"
+    - "2 Rural"
+    - "At least 3 women Veterans"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diversity across demographics and geographies"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you filed a disability compensation claim with the VA in the last 5 years?"
+      qualifying_response: "Yes"
+    - question: "Have you uploaded files using the claim status tool on VA.gov?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2025-01-16"
+  pilot_participant: "Rocio De Santiago"
+  research_dates: "2025-01-20 to 2025-01-28"
+  research_review_submission: "2024-11-16"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve transparency and trust in document upload process"
+      - "Reduce support inquiries related to document status"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Silent failures research"
+    - "Claim Status Tool previous studies"
+    - "Document upload experience research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "claim-status"
+  - "CST"
+  - "disability-compensation"
+  - "document-upload"
+  - "file-upload"
+  - "document-status"
+  - "semi-structured-interviews"
+  - "prototype"
+  - "silent-failures"
+  - "evidence-submission"
+  - "alerts"
+  - "email-notifications"
+  - "real-time-status"
+  - "trust"
+  - "authenticated-experience"
+  - "benefits-portfolio"
+  - "desktop"
+  - "evaluative"
 ---
 
 # Research Plan for Claim Status Tool, Document Status

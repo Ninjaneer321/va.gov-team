@@ -1,109 +1,138 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Usability Testing, Federal Standardized Header/Footer--Phase 1 (non-assistive tech users), December 2023"
+date: 2023-12-01
+last_updated: 2023-12-06
+team: "Sitewide"
+product: "Federal Standardized Header/Footer"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "OFCIO and GSA (USWDS) designed a new federal standardized header and footer to standardize across all federal agencies, including a new USA logomark. VA has volunteered to be the first high-impact service provider (HISP) to adopt this new header. Initial research will test with Veterans and beneficiaries to validate minimal to no negative impact."
+  product_location: "Sitewide header and footer across VA.gov"
+  user_familiarity: "Iteration on existing header/footer design"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/header-footer/initiatives/2024-federal-standardized-header-footer"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine wayfinding task success rate throughout header and footer menus"
+  - goal_2: "Understand Veteran sentiment on USA logo and VA seal, with the dropping of the VA brand mark"
+  - goal_3: "Evaluate how Veterans using mobile and desktop navigate the proposed header and footer IA"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are Veterans (and others) able to navigate the newly organized footer with new column headings, link names, and separate VA and Federal footer sections?"
+  - "What tasks, if any, do participants struggle navigating to?"
+  - "How does the new font family and increased font size impact readability?"
+  - "What do Veterans (and others) think of the integration of both the authenticated menu and main menu on mobile into one menu?"
+  - "Do they provide a better, positive experience or create confusion? (i.e., how to sign in, sign out, locate auth menu items)"
+  - "What are Veterans' (and others') task success rates?"
+  - "What are Veterans' (and others') first impressions of the new header and footer?"
+  - "How do Veterans (and others) feel about the way VA is represented in the header without the letters VA?"
+  - "How do Veterans (and others) feel about the new USA logo?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans (and others) will be able to easily use the header and footer"
+  - "Veterans (and others) won't have any difficulty reading any of the text shown in the prototypes"
+  - "The new VA seal helps Veterans (and others) understand this is a VA website"
+  - "Veterans (and others) will be able to easily find the authenticated menu when it's integrated with the main menu in the mobile header"
+  - "The new USA logo mark helps Veterans (and others) understand this is a Federal government website"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The findings from this research will create an understanding of how the header and footer design impacts the Veteran wayfinding experience"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "NONE need to use a screen reader or screen magnifier to access the Internet"
+    - "At least 5 have a smartphone and are willing to use it for the session"
+    - "At least 5 have a computer and are willing to use it for the session"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 4 people have a cognitive disability (e.g., TBI)"
+    - "At least 4 people are age 55 or older"
+    - "At least 2 people 35 or under"
+    - "At least 2 people don't have any degree or vocational training after high school"
+    - "At least 2 people live in a rural or remote area"
+    - "At least 3 people of color"
+    - "At least 2 women"
+    - "At least 2 people are LGBTQ+"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you use screen reader or screen magnifier technology to use the Internet?"
+      qualifying_response: "No (disqualify if Yes)"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 9
+  caregivers: 3
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-12-11"
+  pilot_participant: "Joe Morris, Keith Adkins"
+  research_dates: "2023-12-15 to 2023-12-22"
+  research_review_submission: "2023-12-06"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Solidify the VA.gov platform"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Create consistent user experience across government websites"
+  - objective: "Refresh VA.gov homepage and IA"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Standardized header/footer that contributes back to USWDS"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/447"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "header"
+  - "footer"
+  - "sitewide"
+  - "navigation"
+  - "wayfinding"
+  - "information-architecture"
+  - "USWDS"
+  - "federal-standardization"
+  - "21st-Century-IDEA"
+  - "usability-testing"
+  - "non-AT"
+  - "mobile"
+  - "desktop"
+  - "prototype"
+  - "Figma"
+  - "veterans"
+  - "caregivers"
+  - "phase-1"
 ---
 
 # Research Plan for Usability Testing, Federal Standardized Header/Footer--Phase 1 (non-assistive tech users), December 2023

@@ -1,109 +1,127 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Appointment Details Page Unmoderated Card Sort - Research Plan, August 2024"
+date: 2024-08-01
+last_updated: 2024-09-23
+team: "Appointments FE"
+product: "VA Online Scheduling (VAOS)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "As more appointment-related information (pre and post care encounter) is incorporated onto the appointment detail page, questions arise around page structure, what information is most important for Veterans, and how to incorporate multiple tasks. Need to understand how to organize the detail page effectively."
+  product_location: "VA.gov Appointments Tool - appointment detail page"
+  user_familiarity: "Iteration on existing feature - adding travel reimbursement and other appointment-related tasks"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "unmoderated card sort"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how Veterans expect information on the appointment details page to be organized based on how they categorize different types of information"
+  - goal_2: "Identify what information Veterans find most important on appointment detail pages"
+  - goal_3: "Ensure scalability when adding new appointment-related tasks, updates, or other appointment information"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans group and define the pieces of information on their appointment detail page for Upcoming appointments?"
+  - "How do Veterans group and define the pieces of information on their appointment detail page for Past appointments?"
+  - "What information do Veterans find most important when visiting appointment detail pages for Upcoming appointments?"
+  - "What information do Veterans find most important when visiting appointment detail pages for Past appointments?"
+  - "Is there any information missing from the appointment detail page that Veterans expect to find there?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "For upcoming appointments, Veterans will group information by things to do, information about their appointment, and updates/alerts about changes"
+  - "For past appointments, Veterans will group information by things to do, information about their appointment, and things they've completed"
+  - "For upcoming appointments, Veterans will find information about their appointment, things to do, and updates/alerts most important"
+  - "For past appointments, Veterans will find things to do and things they've completed most important"
+  - "Veterans will present 1-3 pieces of new information they expect to find on the page, such as duration of appointment"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Study will give insight into how Veterans expect their information on the appointment details page to be organized. This will help better organize the detail page to fit Veterans' needs while ensuring scalability."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation across age cohorts"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All must have a computer or mobile device and are willing to use it to complete the activity"
+    - "All must have used the Appointments tool on VA.gov to manage, review, or schedule their VA medical appointments at least once in the past 6 months"
+    - "7 cohorts of 9 participants each (ages 18-24, 25-34, 35-44, 45-54, 55-64, 65-74, 75+)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 25 women"
+    - "At least 25 participants with a cognitive disability"
+    - "At least 25 participants who are not Caucasian"
+    - "At least 12 participants without degree or vocational training after high school"
+    - "At least 12 people who live in a rural or remote area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you used the Appointments tool on VA.gov to manage, review, or schedule your VA medical appointments in the past 6 months?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 63
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 63
+  completed_sessions_goal: 45
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-09-01"
+  pilot_participant: "Complete"
+  research_dates: "2024-09-23 onwards (flexible based on Perigean schedule)"
+  research_review_submission: "2024-09-10"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 15
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Better organize appointment detail page to fit Veterans' needs"
+      - "Ensure scalability for future appointment-related features"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2024-08-appointment-details-card-sort/card-sort-outline.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "appointments"
+  - "VAOS"
+  - "card-sort"
+  - "unmoderated"
+  - "remote"
+  - "veterans"
+  - "authenticated-experience"
+  - "information-architecture"
+  - "appointment-details"
+  - "travel-reimbursement"
+  - "optimal-workshop"
+  - "mobile"
+  - "desktop"
+  - "cognitive-disability"
+  - "women"
+  - "diverse-demographics"
+  - "rural"
+  - "generative"
+  - "evaluative"
 ---
 
 # Appointment Details Page Unmoderated Card Sort - Research Plan

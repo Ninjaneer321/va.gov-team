@@ -1,109 +1,134 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Check in with an MSA after eCheck-in Unmoderated Survey"
+date: 2024-10-01
+last_updated: 2024-11-19
+team: "Patient Check-In (PCI)"
+product: "Patient Check-In (eCheck-in)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "With eCheck-in, Veterans can check in remotely up to 45 minutes before their appointment, but some Veterans are not physically in the clinic waiting room at completion time, creating a mental model and process change for clinic staff. We need to pilot changes that require Veterans to check in with staff after completing eCheck-in to ensure they have arrived and are ready to be seen."
+  product_location: "VA.gov Patient Check-In mobile experience"
+  user_familiarity: "Iteration on existing product - adding new requirement to see staff member after eCheck-in"
+  product_brief_url: "N/A"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "unmoderated survey with A/B testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Get insight into if Veterans notice and understand the information added to the Check-in flow around seeing a staff member after completing eCheck-in"
+  - goal_2: "Gauge Veterans' reactions to this new step in the process"
+  - goal_3: "Understand what Veterans value most and least about online check-in and their overall experience"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What do Veterans value most about online check-in?"
+  - "What do Veterans value least about online check-in?"
+  - "How do Veterans rate and describe their experience with online check-in?"
+  - "How do Veterans rate and describe their interactions with staff during or after online check-in?"
+  - "What do Veterans consider to be the biggest challenges/problems with online check-in?"
+  - "Do Veterans notice the new information telling them to see staff?"
+  - "How do Veterans interpret the information to see staff?"
+  - "How do Veterans react to needing to see staff as part of online check-in?"
+  - "Would Veterans still use online check-in if they are required to see staff?"
+  - "What is the benefit of online Check-in to Veterans if they are required to see staff?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will most value the ability to file for travel reimbursement and check their demographics"
+  - "Veterans will consider the actual action of checking in to be the part of check-in with the least amount of value for them"
+  - "Veterans will generally rate their experience at a 2 (positive)"
+  - "Veterans will rate their experience with staff at a 4 (negative) due to confusion around not getting called back in time or having staff say that they don't use check-in"
+  - "Veterans will consider the touchpoints with staff and confusion around getting called back for appointments to be the biggest problem with check-in"
+  - "Veterans will notice the information telling them to see staff, particularly on the introduction page and the confirmation page"
+  - "Veterans will interpret the information to see staff as needing to complete an added step for the check-in process"
+  - "Veterans will convey confusion and concern around why they need to see staff after completing online check-in"
+  - "Veterans who file for travel reimbursement via check-in will still want to use online check-in, while those who do not file for travel reimbursement will be hesitant to use it"
+  - "Veterans will consider the remaining benefit to be filing for travel reimbursement"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This study will give us insight into if Veterans notice and understand the information added to the Check-in flow around seeing a staff member after completing eCheck-in, as well as gauge Veterans reactions to this new step in the process."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "7 age-based cohorts with A/B testing (Group 1 and Group 2 split per cohort)"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All must have a computer or mobile device and are willing to use it to complete the activity"
+    - "All must have used the online check-in application on their smartphone to check in to a VA medical appointment in the past year"
+    - "9 Veterans per cohort across age ranges: 18-24, 25-34, 35-44, 45-54, 55-64, 65-74, 75+"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 25 women"
+    - "At least 25 participants with a cognitive disability"
+    - "At least 25 participants who are not Caucasian"
+    - "At least 12 LGBTQ+ Veterans"
+    - "At least 12 participants who don't have any degree or vocational training after high school"
+    - "At least 12 people who live in a rural or remote area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you used the online check-in application on your smartphone to check in to a VA medical appointment in the past year?"
+      qualifying_response: "YES"
       
 participants:
-  veterans: 0
+  veterans: 63
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 63
+  completed_sessions_goal: 35
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "Complete"
+  pilot_participant: "Complete"
+  research_dates: "Flexible based on Perigean schedule"
+  research_review_submission: "2024-11-19"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 20
+  buffer_minutes: 0
+  max_sessions_per_day: "self-paced unmoderated"
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/2024-10%20Check%20in%20with%20an%20MSA%20after%20eCheck-in%20Unmoderated%20Survey/survey-outline.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "patient-check-in"
+  - "eCheck-in"
+  - "unmoderated-research"
+  - "survey"
+  - "A/B-testing"
+  - "Optimal-Workshop"
+  - "veterans"
+  - "MSA"
+  - "clinic-staff"
+  - "authenticated"
+  - "mobile"
+  - "smartphone"
+  - "VistA"
+  - "VSE-CS"
+  - "travel-reimbursement"
+  - "demographics"
+  - "cognitive-disability"
+  - "LGBTQ"
+  - "rural"
+  - "diverse-age-cohorts"
+  - "process-change"
+  - "staff-interaction"
 ---
 
 # Research Plan - Check in with an MSA after eCheck-in Unmoderated Survey

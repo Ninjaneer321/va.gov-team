@@ -1,109 +1,128 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research plan for usability testing of GI Bill forms-recommender tool"
+date: 2024-12-01
+last_updated: 2024-12-01
+team: "My Education Benefits - DGIB Team"
+product: "EDU Application Recommender Tool"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Beneficiaries often submit the incorrect form when applying for GI Bill benefits. Outdated How to Apply wizard is deprecated and confusing. Need to increase likelihood that beneficiaries submit correct form to reduce resubmissions."
+  product_location: "Education and Training hub on VA.gov - How to Apply page (replacing current wizard)"
+  user_familiarity: "New Recommender Tool feature replacing familiar wizard on existing page"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/issues/85984"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine what recommendation language will best help GI Bill beneficiaries into the correct form"
+  - goal_2: "Determine if beneficiaries understand and trust our recommendations"
+  - goal_3: "Determine if off-ramps to different education benefits are sufficient for users seeking other educational benefits"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do users understand the path forward presented in our recommendations?"
+  - "Do users feel our recommendations are correct based on their circumstances?"
+  - "Do our recommendations deliver the right information so users can proceed with confidence?"
+  - "What else would users consider doing? Do we support those paths?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Recent review has uncovered the How to Apply wizard on the Education hub is outdated, faulty, and confusing. We hypothesize that a more straight-forward solution that automatically presents recommendations will be well-received and trusted."
+  - "We expect that some language presented may be confusing but will generally communicate the options available to users."
+  - "We expect most users will be able to find avenues to other (non-GI Bill) education benefits on the page."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "User research will help us determine what improvements are needed to the user flow, copy, and information hierarchy to optimize a user's understanding and trust in the tool before deployment."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Diverse blend of Veterans and Veterans' family members/dependents who have not used GI Bill benefits"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Participants have not applied for nor have used GI Bill Benefits in the past"
+    - "At least 1 woman of color"
+    - "At least 1 participant 55 or older"
+    - "At least one person without college degree (to include enlisted Veterans)"
+    - "At least one person with disability rating of 80% or greater"
+    - "Must have Zoom downloaded and know how to screenshare"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    - "At least one person with college degree (to include officer Veterans)"
+    - "At least one person in major metropolitan area"
+    - "At least one person in rural or remote area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a self-entitled (to GI Bill benefits) Veteran?"
+      qualifying_response: "Yes = Category A, No = continue to question 2"
+    - question: "Did your Veteran parent or spouse transfer GI Bill benefits to you through DEERS/DoD?"
+      qualifying_response: "Yes = Category B, continue to question 3"
+    - question: "Has your Veteran parent or spouse passed away, is captured or missing, or have 100% service-connected disability?"
+      qualifying_response: "Yes = Category C"
       
 participants:
-  veterans: 0
+  veterans: 6
   caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  dependents: 6
+  total_recruited: 12
+  completed_sessions_goal: 9
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-12-10"
+  pilot_participant: "joanna.yu@afs.com"
+  research_dates: "2024-12-11 to 2024-12-20"
+  research_review_submission: "2024-12-02"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 30
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Increase correct form submissions for GI Bill education benefits"
+      - "Reduce need for benefit application resubmissions"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Reinventing Myself"
+  - "Finding Something to Do"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/cb013390098d5f3fa87b92a4c897f03f2bc2bb7f/products/my-education-benefits/research/2024-12-recommender-tool/conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "education-benefits"
+  - "GI-Bill"
+  - "recommender-tool"
+  - "application-wizard"
+  - "Chapter-33"
+  - "Post-9/11-GI-Bill"
+  - "education-forms"
+  - "usability-testing"
+  - "remote"
+  - "moderated"
+  - "prototype"
+  - "veterans"
+  - "dependents"
+  - "DGIB"
+  - "my-education-benefits"
+  - "how-to-apply"
+  - "form-selection"
 ---
 
 

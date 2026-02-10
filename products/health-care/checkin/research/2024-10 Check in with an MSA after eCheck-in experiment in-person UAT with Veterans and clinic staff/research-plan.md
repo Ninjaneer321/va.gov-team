@@ -1,109 +1,124 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Check in with an MSA after eCheck-in experiment in-person UAT with Veterans and clinic staff"
+date: 2024-10-01
+last_updated: 2024-10-01
+team: "Patient Check-In (PCI)"
+product: "Patient Check-In (eCheck-in)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The introduction of eCheck-in has caused providers to lose patients, patients going to the wrong floor/clinic, miss appointments, and wait longer than anticipated because Veterans can complete eCheck-in remotely but may not be physically present in the waiting room. This mental model change for clinic staff needs to be addressed through an experiment that removes the automatic CHECKED-IN status after eCheck-in completion."
+  product_location: "VA.gov Patient Check-In mobile experience - piloting experiment that requires Veterans to check in with MSA after eCheck-in"
+  user_familiarity: "Experimental iteration - removing automatic CHECKED-IN status to require physical check-in with staff"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/Initiatives/check-in-with-staff.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "in-person UAT with Veteran intercepts and semi-structured staff interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: in-person
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "TBD - facilities with varying levels of PCI utilization"
+    point_of_contact: "IVC, VTP, and facility leadership"
+    equipment: "Veterans' personal smartphones, staff-facing VSE-GUI and VSE-CS systems"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand the value of eCheck-in to Veterans for an experiment that removes the step that happens in the background that sets the appointment status to CHECKED-IN after completing eCheck-in"
+  - goal_2: "Understand the impact of this change on improving clinic staff's understanding of 'checked in' vs. 'arrived and ready to be seen'"
+  - goal_3: "Inform the next step in solving this complex end-to-end experience problem at facilities with varying levels of PCI utilization and patient tracking success"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans understand that they have to check in with an MSA at their clinic to complete the check in process?"
+  - "Do Veterans perceive the value of eCheck-in has increased or decreased as a result of now having to check in with staff after completing eCheck-in? What about Veterans who file a travel reimbursement claim during eCheck-in vs. those that do not?"
+  - "How likely or unlikely are Veterans to use eCheck-in again knowing that they'll be required to check in with an MSA after completing eCheck-in on their smartphone? And, why?"
+  - "Understand if clinic staff will review demographic information with Veterans during check in even if Veterans marked them as up to date during eCheck-in. If so, why?"
+  - "Has the workload increased or decreased for MSAs or clinicians checking patients in? If so, why and how?"
+  - "Has the average amount of time increased or decreased for Veterans waiting in line to check in with clinic staff?"
+  - "Has the amount of missed appointments, Veterans arriving late or being at the wrong clinic, lost patients, and/or canceled appointments increased or decreased?"
+  - "What is the highest value improvement within staff-facing tools to better support patient tracking and check ins?"
+  - "Has clinic patient tracking operations and communication between front of house and back of house improved, remained the same, or worsened? And, why?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans who file mileage-only travel reimbursement claims will likely use eCheck-in again"
+  - "Veterans who don't file travel reimbursement claims during eCheck-in will be unlikely to use eCheck-in again because VA is forcing them to perform the same task twice"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The findings will determine whether this experiment solves the identified problems or creates new undesired burdens, and inform the next step in solving this complex end-to-end experience problem."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "In-person intercepts - no formal recruitment"
+  approach: "Veteran intercepts at various clinics during busy times and semi-structured interviews with MSAs, clinic managers, and clinicians"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - "Veterans checking in at clinics using eCheck-in"
+    - "MSAs who use VSE-CS to monitor patient check-ins"
+    - "Clinic managers"
+    - "Clinicians who use VSE-GUI"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: "15+ per facility"
+  completed_sessions_goal: "15+ per facility"
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "N/A"
+  pilot_participant: "N/A"
+  research_dates: "TBD"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: "varies by intercept"
+  buffer_minutes: 0
+  max_sessions_per_day: "varies"
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+  - objective: "Logged-in users have a personalized experience with relevant and time-saving features"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/Initiatives/check-in-with-staff.md"
+    - "VSignals Summary of Common Themes from Veterans Report"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "patient-check-in"
+  - "eCheck-in"
+  - "in-person-research"
+  - "UAT"
+  - "intercepts"
+  - "semi-structured-interviews"
+  - "veterans"
+  - "MSA"
+  - "clinic-staff"
+  - "clinicians"
+  - "VistA"
+  - "VSE-CS"
+  - "VSE-GUI"
+  - "authenticated"
+  - "mobile"
+  - "smartphone"
+  - "travel-reimbursement"
+  - "demographics"
+  - "patient-tracking"
+  - "clinic-operations"
+  - "process-change"
+  - "experiment"
+  - "pilot"
+  - "facility-research"
+  - "IVC"
+  - "VSignals"
 ---
 
 # Research plan - Check in with an MSA after eCheck-in experiment in-person UAT with Veterans and clinic staff 

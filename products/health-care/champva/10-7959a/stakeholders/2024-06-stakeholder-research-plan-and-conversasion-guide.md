@@ -1,66 +1,69 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "10-7959a CHAMPVA Claims Cover Sheet Stakeholder Research Plan, June 2024"
+date: 2024-06-01
+last_updated: 2024-06-01
+team: "Integrated Veteran Care (IVC) Forms"
+product: "CHAMPVA Form 10-7959a"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Need to understand how CHAMPVA claims move through the system from receipt to reimbursement to inform digitization of Form 10-7959a and identify pain points that the digital form could address."
+  product_location: "VA.gov forms - CHAMPVA claims processing"
+  user_familiarity: "New digital version of existing paper/PDF form"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured stakeholder interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Inform the service blueprint for CHAMPVA - understand how claims move through the CHAMPVA system from receipt to reimbursement"
+  - goal_2: "Inform the user journey map for CHAMPVA - specifically within the claim submission portion of their journey"
+  - goal_3: "Identify known pain points and opportunities for improvement that the digital form could positively impact"
+  - goal_4: "Identify gaps in knowledge and communication that the digital form could positively impact"
+  - goal_5: "Identify KPIs/OKRs and define the success of digitization from a stakeholder perspective"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do claims processors interact with Form 10-7959a at different touchpoints in their role?"
+  - "What pain points or obstacles have stakeholders encountered with Form 10-7959a?"
+  - "What are the most common errors, rejection reasons, and escalation reasons for claims?"
+  - "How do claims processors decide if a claim is valid and what information is most important on the form?"
+  - "What solutions have been introduced to improve the claims process in the past, what worked, and what didn't?"
+  - "What opportunities for improvement exist in the CHAMPVA claims processing workflow?"
+  - "What constraints may be issues when digitizing Form 10-7959a?"
+  - "How do stakeholders define success for CHAMPVA claims processing and digitization initiative?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Claims processors will identify specific fields on the form that are most critical for processing"
+  - "Common errors and pain points will be related to missing or incorrect information"
+  - "Digitization opportunities will include validation, auto-population, and improved communication with beneficiaries"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Research will inform service blueprint, user journey map, identify pain points and opportunities for digital form improvements, and establish KPIs/OKRs for digitization success."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Internal VA recruitment through Premal and CHAMPVA points of contact"
+  approach: "purposive sampling of claims processors and escalations staff"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Individuals working with CHAMPVA who process claims"
+    - "Individuals working with CHAMPVA in escalations"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Varied experience levels with CHAMPVA claims processing"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you process CHAMPVA claims or work in CHAMPVA escalations?"
+      qualifying_response: "Yes"
       
 participants:
   veterans: 0
@@ -71,39 +74,52 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "N/A"
+  pilot_participant: "N/A"
+  research_dates: "2024-06-01 onwards"
+  research_review_submission: "N/A - internal stakeholder research"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
+  buffer_minutes: 10
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhance Veterans' personalized online experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Digitize CHAMPVA forms to improve claim submission experience"
+  - objective: "Drive OIT's Digital Transformation Strategy"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Move paper-based processes to digital"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of my family"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1718049182430/1421fe86cf6cb3c74d17d0d422b5ae0a2ab66621"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "CHAMPVA"
+  - "form-10-7959a"
+  - "claims"
+  - "stakeholder-interviews"
+  - "semi-structured-interviews"
+  - "moderated"
+  - "remote"
+  - "microsoft-teams"
+  - "service-design"
+  - "service-blueprint"
+  - "user-journey-map"
+  - "claims-processing"
+  - "digitization"
+  - "IVC-forms"
+  - "unauthenticated"
+  - "generative"
+  - "discovery"
 ---
 
 # 10-7959a (CHAMPVA Claims Cover Sheet) Stakeholder Research Plan and Conversation Guide

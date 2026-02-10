@@ -1,109 +1,132 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for ARM Team, Appoint a Representative - Digital Submit - User Test, 06/2024"
+date: 2024-06-05
+last_updated: 2024-07-12
+team: "Accredited Representative Management (ARM)"
+product: "Appoint a Representative with Digital Submit"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Create a high-quality accessible service to serve Veterans in finding and managing their accredited representatives (Power of Attorney) and support deprecation of legacy system."
+  product_location: "VA.gov - Find and Appoint a Representative flow with digital submission capability"
+  user_familiarity: "Product iteration - adding digital submission feature"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/9c884d56087c31b9422840cc233009d12e870b9b/products/accredited-representation-management/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how Veterans search, select, and expect to work with a representative"
+  - goal_2: "Evaluate if changes to Find a Representative address previous research findings"
+  - goal_3: "Evaluate if adding digital submit and design changes to Appoint a Representative cause any usability challenges"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What methods do Veterans use today to find representation?"
+  - "Are we hearing the same feedback from Veterans after Find a Representative updates?"
+  - "Do Veterans see themselves using Find and Appoint together as a process?"
+  - "Are there any usability challenges with the Find and Appoint user flows?"
+  - "Do users understand the information shown? Is there any information missing?"
+  - "Are there any challenges with using the experience?"
+  - "Are the next steps clear and actionable?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans are looking for a trusted source for representation"
+  - "Veterans will want to use Find and Appoint together by finding a representative first, contacting the representative, then filling out the form"
+  - "Veterans will have an easy time navigating our form through tested patterns and informative content"
+  - "Veterans will prefer to use the online digital submission option of the 21-22, rather than downloading and filling out on their own"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Information on how Veterans search, find, and want to work with a representative will provide input on how Find and Appoint work together. User testing will inform adjustments to the Find and Appoint a Representative flows to improve usability."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans actively searching for a VSO representative"
+    - "All participants seeking VSO support"
+    - "Even split: 6 desktop users, 6 mobile users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "5+ people of color"
+    - "4+ age 55+"
+    - "4+ with cognitive disability"
+    - "2+ rural location"
+    - "2+ with no degree"
+    - "1+ women"
+    - "1+ LGBTQ+"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you actively searching for a VSO representative to support with a VA claim?"
+      qualifying_response: "Actively searching for VSO representative"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-06-04"
+  pilot_participant: "TBD"
+  research_dates: "2024-06-05 to 2024-06-18"
+  research_review_submission: "2024-05-24"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 60
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Number of transactions processed using our products have increased by 25%"
+      - "No transactions accepted by our products have a fatal error"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "2024-03 ARM Find a Representative LIVE User Test"
+    - "2024-02 ARM Appoint a Representative Unauthenticated User Test"
+    - "2024-01 ARM Authenticated Appoint a Representative Form User Test"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Veteran Service Organization (VSO)"
+  - "BNFT: Disability"
+  - "DSC: Form"
+  - "DSC: Button"
+  - "DSC: Checkbox"
+  - "DSP: Ask users for a single response"
+  - "DSP: Ask users for addresses"
+  - "DSP: Ask users for names"
+  - "DSP: Ask users for phone numbers"
+  - "DSP: Ask users for email address"
+  - "DSP: Ask users for signature"
+  - "DSP: Help users to check answers"
+  - "PRDT: Accredited-Reps"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "usability-testing"
 ---
 
 # Research Plan for ARM Team, Appoint a Representative - Digital Submit - User Test, 06/2024<a id="research-plan-for-arm-team-appoint-a-representative---digital-submit---user-test-062024"></a>

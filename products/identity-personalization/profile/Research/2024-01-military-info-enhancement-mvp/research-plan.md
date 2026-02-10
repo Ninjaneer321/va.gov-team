@@ -1,109 +1,133 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience Profile, Military Information, February 2024"
+date: 2024-02-01
+last_updated: 2024-02-01
+team: "Authenticated Experience Profile"
+product: "VA.gov Profile - Military Information"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans can currently only view minimal military service information in their Profile (branch and dates of service). VEO requested enhanced military history data to aid veterans applying for benefits, especially disability claims. Adding duty status, military occupation specialties (MOS), and occupation start/end dates to Profile as MVP."
+  product_location: "VA.gov Profile - Military Information section"
+  user_familiarity: "Iteration on existing Profile military information section"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/military-information/2023-enhanced-military-information/enhanced-military-info-mvp.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Generative interviews, concept testing, and mapping exercise"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Gain a better understanding of veteran mental models regarding their service occupations to inform how we present military information data"
+  - goal_2: "Review data pulled from VADIR with veterans to assess accuracy, completeness, and utility"
+  - goal_3: "Gather feedback on proposed design mock-up for enhancing military information section with duty status, dates, and military occupation specialties"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How have veterans used their MOS data, especially as it relates to the PACT Act?"
+  - "How do veterans conceptualize their service history?"
+  - "What language can we use to organize and label military occupational specialties that make sense to veterans across branches, experience levels, and rank?"
+  - "How effective is this current design mock-up in displaying MOS data?"
+  - "What's the most useful MOS data for veterans to access from their profile?"
+  - "How useful is including the start date of each occupation specialty? What about end dates?"
+  - "What are veteran expectations around deployment locations?"
+  - "What do veterans do (or want to do) if their MOS data seems incomplete or inaccurate?"
+  - "Is the amount of information displayed on the section overly long or even overwhelming?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "We will observe similarities and differences between branches, lengths of service, and rank"
+  - "We will gain insight into veteran mental models around organizing information"
+  - "We will gather actionable feedback for making iterations on the design mock-up"
+  - "We may hear feedback that the military information section is too long or has too much content"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Use learnings to inform data element additions to military information section, iterate on design mock-up organization and hierarchy to align with veteran mental models, and help determine whether incorporating additional structure like subpages is needed sooner than later"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling across all military branches"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must have served in at least one of six branches: Air Force, Army, Coast Guard, Marine Corps, Navy, or Space Force"
+    - "All participants must be willing to give access to their military service history"
+    - "All participants must have submitted a disability claim of some kind"
+    - "All participants must be on desktop or laptop"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "50% must have submitted a disability claim specifically under the PACT Act"
+    - "50% must have served overseas"
+    - "Mix of rank types (enlisted members, warrant officers, and officers)"
+    - "Evenly split across genders, ages, races, and education levels"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you ever filed, or are currently in the process of filing, a disability compensation claim with the VA?"
+      qualifying_response: "Yes (100% must answer yes)"
+    - question: "Have you ever submitted, are in the process of submitting, or are preparing to submit a PACT Act disability compensation claim?"
+      qualifying_response: "Yes (50% must answer yes)"
+    - question: "During your time of service, did you ever deploy overseas?"
+      qualifying_response: "Yes (50% must answer yes)"
+    - question: "Are you willing to give us access to your service history?"
+      qualifying_response: "Yes (100% must answer yes)"
       
 participants:
-  veterans: 0
+  veterans: 18
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 18
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2024-03-19 to 2024-03-21"
+  research_review_submission: "2024-02-12"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Work collaboratively across the health and benefits portfolios on high-priority FY2024 initiatives"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "At least 50% of our initiatives should support the major initiatives in the health and benefits portfolio"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2024-01-military-info-enhancement-mvp/conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "profile"
+  - "military-information"
+  - "authenticated-experience"
+  - "veterans"
+  - "disability-claims"
+  - "PACT-Act"
+  - "MOS"
+  - "concept-testing"
+  - "generative-research"
+  - "evaluative-research"
+  - "usability-testing"
+  - "mapping-exercise"
+  - "VADIR"
+  - "remote"
+  - "moderated"
 ---
 
 # Research Plan for Authenticated Experience Profile, Military Information, February 2024

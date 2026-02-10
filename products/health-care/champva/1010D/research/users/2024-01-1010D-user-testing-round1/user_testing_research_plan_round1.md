@@ -1,109 +1,122 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "User Testing Research Plan for IVC Team, Form 10-10D, December 2023"
+date: 2023-12-01
+last_updated: 2023-12-01
+team: "Integrated Veteran Care (IVC)"
+product: "Form 10-10D CHAMPVA Application"
+product_area: "authenticated and unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans and family members currently must complete CHAMPVA Form 10-10D as a fillable PDF and mail it in, creating a burdensome application process that needs to be digitized and streamlined."
+  product_location: "VA.gov health care benefits section - CHAMPVA application"
+  user_familiarity: "New digitized product - transforming existing PDF form into online application"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine whether or not the flow and copy in the 10-10D prototype are usable and understandable for those filling out the form on their own behalf and those filling it out for someone else"
+  - goal_2: "Determine whether or not the flow and copy are usable and understandable for participants who do have other forms of health insurance and those who don't have other forms of health insurance"
+  - goal_3: "Determine whether or not the prototype is usable and understandable in both an authenticated and unauthenticated state"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are participants able to use and understand the partially pre-populated form as an authenticated user?"
+  - "Are participants able to use and understand the form as an unauthenticated user?"
+  - "Are participants able to use and understand the form when filling it out for themselves and when filling it out for someone else?"
+  - "Are participants able to easily add more than one applicant for the form?"
+  - "What are opportunities to streamline the flow and make the form feel less redundant for users?"
+  - "Are participants able to easily understand how to upload supplementary documents and why they're being asked for those documents?"
+  - "Do participants who have other health insurance understand why they are asked to fill out additional information and add additional documents?"
+  - "What is the overall sentiment about the experience?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will be able to navigate through the form relatively easily but may have issues understanding why they're asked for certain information including sponsor's date of death, whether the sponsor died during service, and contact information"
+  - "Users may find redundancy in information such as asking for address, email address, and phone number for each applicant"
+  - "Users may have difficulty understanding their progress through the form and how to correctly report other insurance information"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The findings will provide insights needed to iterate upon and refine our initial prototype of Form 10-10D and demonstrate where copy needs to be rewritten to enhance clarity."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling for Veterans, spouses, and family caregivers eligible for CHAMPVA benefits"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "At least 4 Veterans"
+    - "At least 10 spouses, children, or caregivers of Veterans"
+    - "25% on phone or tablet, 75% on desktop"
+    - "At least 8 participants age 55-64+"
+    - "At least 8 participants have cognitive disability"
+    - "At least 4 participants live in a rural area"
+    - "At least 4 participants have no degree"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - "At least 2 participants are women"
+    - "At least 1 participant is an expat (living abroad)"
+    - "At least 3 participants are Black, at least 2 Hispanic, at least 1 Asian, at least 1 Native"
+    - "At least 1 participant is gay, lesbian, or bisexual"
+    - "At least 1 participant is transgender, nonbinary, gender fluid, gender queer, Two-Spirit, or another gender beyond man or woman"
+    - "At least 3 participants use screen readers, at least 2 use some other kind of assistive technology"
       
 participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  veterans: 4
+  caregivers: 10
+  dependents: 1
+  total_recruited: 20
+  completed_sessions_goal: 15
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "TBD"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 90
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Enhance Veterans' personalized online experience"
+  - objective: "Drive OIT's Digital Transformation Strategy"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Putting down roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://www.va.gov/find-forms/about-form-10-10d/"
+    - "https://www.va.gov/health-care/family-caregiver-benefits/champva/"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "CHAMPVA"
+  - "benefits-forms"
+  - "10-10D"
+  - "usability-testing"
+  - "remote-moderated"
+  - "authenticated"
+  - "unauthenticated"
+  - "caregivers"
+  - "family-members"
+  - "veterans"
+  - "prototype-testing"
+  - "health-insurance"
+  - "document-upload"
+  - "assistive-technology"
+  - "screen-reader"
+  - "cognitive-disability"
+  - "form-digitization"
 ---
 
 # User Testing Research Plan for Integrated Veteran Care (IVC) Team, Form 10-10D, December 2023

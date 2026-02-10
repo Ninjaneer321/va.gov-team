@@ -1,109 +1,149 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Facility Locator Mobile Map, January 2024"
+date: 2024-01-01
+last_updated: 2024-01-31
+team: "Facilities Team"
+product: "Facility Locator"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans using Facility Locator on mobile devices expect relevant and meaningful search results presented in a clear and actionable format. Veterans using assistive technology expect FL to deliver results in a format they can navigate with ease. Need to evaluate mobile map enhancements and USWDS segmented button group component."
+  product_location: "Facility Locator on VA.gov (unauthenticated)"
+  user_familiarity: "Iteration on existing, heavily-used product by Veterans, caregivers, and general public"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/product/facility-locator-product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Get user feedback on design and accessibility enhancements to facility locator map feature, specifically on mobile"
+  - goal_2: "Test the USWDS segmented button group component"
+  - goal_3: "Understand how Veterans navigate between map and list views and interact with the map to refine results"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "From existing search page: What do Veterans expect from the location mapping tool?"
+  - "Do they interact with the map before trying to search? Are instructions for improving results clear?"
+  - "How do they navigate search results to learn about multiple locations?"
+  - "Do they know what to do when expected results are not returned?"
+  - "From map prototype: Do Veterans understand distinction between map and list view?"
+  - "Do they understand how to toggle between the two views?"
+  - "Is the numbering of search results clear?"
+  - "Do they understand what happens when selecting a numbered result on the map?"
+  - "Do they understand that interacting with map directly will alter list of results?"
+  - "Do Veterans understand how to refine and alter map view? Do they use zoom functionality?"
+  - "Do they use 'Use my location' feature?"
+  - "Do Veterans find location-specific information relevant and actionable?"
+  - "Can they identify which facilities are closest to desired location?"
+  - "Do they know which phone number to call for general information?"
+  - "Is there relevant information missing (URL, site hours, etc)?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will understand how list of results are organized and what options they have to refine or broaden results"
+  - "Veterans will understand how to interact with map and how their interactions change search results"
+  - "Veterans will understand difference between map view and list view, and how to move from one to the other"
+  - "Veterans will understand which fields are required or optional for conducting a search"
+  - "Veterans will understand how to take next action after picking desired location (click website, call, get directions)"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Get user feedback on design and accessibility enhancements to facility locator map feature on mobile, specifically testing USWDS segmented button component and understanding user expectations for map interaction and navigation."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Mixed audience including screen reader users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "12 participants (recruit for 10 completed sessions)"
+    - "All must be Veterans, spouses, or caregivers (at least 8 Veterans)"
+    - "All must have mobile phone and complete session on mobile device"
+    - "All must be willing to share screen on Zoom"
+    - "5 must be people who use screen readers"
+    - "All must have Zoom downloaded and know how to share screen"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 2 people age 55 or older"
+    - "At least 2 people 35 or under"
+    - "At least 2 without degree or vocational training"
+    - "At least 2 in rural or remote area"
+    - "At least 2 with cognitive disability (e.g., TBI)"
+    - "At least 3 people of color"
+    - "At least 2 women"
+    - "At least 2 LGBTQ+"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "What kind of mobile device will you be using? (Smartphone or Tablet)"
+      qualifying_response: "Smartphone or Tablet"
+    - question: "Do you find it difficult to remember, learn, focus, or make decisions?"
+      qualifying_response: "Yes - recruit 2"
+    - question: "Do you use a screen reader while using your mobile device?"
+      qualifying_response: "Yes and willing to join Zoom with screen reader - recruit 5"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 8
+  caregivers: 2
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "TBD"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 75
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Increase usage of digital, self-service tools"
+      - "Increase Veteran satisfaction with VA.gov"
+      - "Decrease call center volume, wait time, and time to resolution"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/research/user-research/2024-01-mobile-map/conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "facility-locator"
+  - "facilities"
+  - "map-view"
+  - "mobile"
+  - "USWDS"
+  - "segmented-button"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+  - "unauthenticated"
+  - "veterans"
+  - "caregivers"
+  - "screen-reader"
+  - "assistive-technology"
+  - "accessibility"
+  - "search-results"
+  - "wayfinding"
+  - "evaluative"
 ---
 
 *** Important: research plan currently in draft form ***

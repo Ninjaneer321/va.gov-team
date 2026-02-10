@@ -1,109 +1,135 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for MHV on VA.gov, Medical Records, March 2024 - Sighted Participants"
+date: 2024-03-18
+last_updated: 2024-04-12
+team: "Digital Health Modernization"
+product: "Medical Records on MHV on VA.gov"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "As part of the Digital Health Modernization strategy, My HealtheVet (MHV) is being moved to VA.gov to create a centralized place for Veterans to access their health information. After initial prototype testing and feedback-informed iterations, this study assesses whether updates improve user experiences, tests new functionality, and includes Veterans with cognitive disabilities to explore further pain points."
+  product_location: "Figma prototypes for mobile and desktop"
+  user_familiarity: "Iteration on existing product - testing updated Medical Records prototype"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Identify any usability issues Veterans may experience in accessing their Care Summaries and Notes, Vaccines, Allergies, and Vitals records, including what information Veterans expect to see and whether they understand the information presented"
+  - goal_2: "Identify if Veterans know how to print/download both an individual record and list of records"
+  - goal_3: "Identify any barriers that may prevent Veterans with mild to severe Cognitive Disabilities from completing their Medical Records management goals"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can Veterans find the information they need to manage their health related to care summaries and notes, allergies, vaccines, and vitals?"
+  - "Can Veterans print/download a list and an individual record?"
+  - "What is Veterans' perception of the new experience in which they can view their records on screen?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Most Veterans will be able to access and understand the information about their Vaccinations records to manage their health"
+  - "Most Veterans will be able to access and understand the information about their Allergies & reactions records to manage their health"
+  - "Most Veterans will be able to access and understand the information about their Care Summaries & Notes to manage their health"
+  - "Most Veterans will be able to access and understand the information about their Vitals to manage their health"
+  - "Most Veterans will find the information presented in their Medical Records adequate for managing their health"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will identify usability issues and barriers for Veterans with cognitive disabilities, informing iterative improvements to Medical Records interface design."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment with focus on cognitive disabilities and device diversity"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "15 participants must regularly use MHV"
+    - "10 participants with cognitive disabilities - mild to severe"
+    - "11 participants who are mobile users"
+    - "11 participants who are desktop users"
+    - "No current or previous (within the past 5 years) VA Employees"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Age distribution: 75+ (5), 65-74 (7), 55-64 (4), 35-54 (5), 18-34 (2)"
+    - "Education: High school or less (7), Some college (5), Associate (3), Bachelor's (4), Master's+ (3)"
+    - "Race/ethnicity: American Indian/Alaska Native (1), Asian (1), Black/African American (4), Hispanic/Latino (3), White/Caucasian (14)"
+    - "Rural (5) and Urban (17) mix"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you used My HealtheVet (MHV) for managing your Medical Records within the last 12 months?"
+      qualifying_response: "Yes - recruit 12"
+    - question: "Have you been diagnosed with (formally or informally) a cognitive disability?"
+      qualifying_response: "Yes - recruit 10"
       
 participants:
-  veterans: 0
+  veterans: 22
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 22
+  completed_sessions_goal: 15
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-03-18"
+  pilot_participant: "TBD"
+  research_dates: "2024-03-25 to 2024-04-12"
+  research_review_submission: "2024-03-18"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Enable Veterans to access and understand their medical records including Care Summaries and Notes, Vaccines, Allergies, and Vitals"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Centralize health information access through MHV on VA.gov"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Provide accessible print/download functionality for medical records"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "health-care"
+  - "medical-records"
+  - "my-healthevet"
+  - "mhv-on-vagov"
+  - "usability-testing"
+  - "cognitive-disability"
+  - "veterans"
+  - "authenticated-experience"
+  - "care-summaries-and-notes"
+  - "vaccines"
+  - "allergies"
+  - "vitals"
+  - "print-download"
+  - "remote-research"
+  - "moderated"
+  - "mobile"
+  - "desktop"
+  - "prototype-testing"
+  - "digital-health-modernization"
 ---
 
 # **Research Plan for MHV on VA.gov, Medical Records, March 2024 - Sighted Participants**

@@ -1,109 +1,123 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for ARF Team, Accredited Representative Portal, Single Accredited VSOfficers, 21-22 Accept/Decline User Testing, 03/2024"
+date: 2024-03-20
+last_updated: 2024-03-20
+team: "Accredited Representative Facing (ARF) Team"
+product: "Accredited Representative Portal (ARP)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Accredited representatives need to seamlessly and accurately help Veterans with VA interactions. The Power of Attorney (Form 21-22) process needs to be streamlined for accepting POA from Veterans Service Organizations."
+  product_location: "Accredited Representative Portal on VA.gov"
+  user_familiarity: "New product - usability testing of prototype"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representative-facing"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing, semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: "Renata Keck, UX Researcher/Designer"
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand the usability of the single accredited Veteran Service Officer Accredited Representative Portal (ARP) 21-22 flow on desktop"
+  - goal_2: "Gather information about current POA process and caseload to determine improvements to the authenticated landing page and POA views to decrease cognitive load and facilitate smoother decision making"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Is the purpose and audience for the ARP landing page clear? Is the content valuable or is anything missing?"
+  - "Does the sign-in experience meet VSOffs expectations?"
+  - "What information is most valuable to VSOffs on the authenticated landing page? Is any information missing?"
+  - "Are navigation categories within ARP clear?"
+  - "Are there any challenges with finding and accepting a specific Veteran's 21-22 request?"
+  - "Is information about the Veteran/claimant sufficient for making a decision about a 21-22 request? Is there any information missing?"
+  - "What functionality is missing from the 21-22 accept/decline flow?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "File number and SSN will be the most desired Veteran search functions"
+  - "VSOffs want visibility into the system working, such as confirmation an accepted 21-22 has been processed and they now have access to the e-Folder"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "User testing will inform adjustments to the ARP 21-22 flow to improve usability. Feedback about the unauthenticated and authenticated ARP tool will inform content strategy and exploration of additional functionality required for ARP v1."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Direct recruitment"
+  approach: "Targeted recruitment of single accredited Veterans Service Officers"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Mixture of novice and experienced users"
+    - "Accredited through a single Veterans Service Organization"
+    - "Must work in a role that primarily interacts with Veterans and claimants"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Mixture of Veterans and non-Veterans"
+    - "Accredited through a variety of different Veterans Service Organizations"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "How many Veterans Service Organizations are you accredited with?"
+      qualifying_response: "Single VSO accreditation"
+    - question: "What is your primary role?"
+      qualifying_response: "Works directly with Veterans and claimants"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  accredited_representatives: 8
+  total_recruited: 8
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-04-02"
+  pilot_participant: "Mike Marinos"
+  research_dates: "2024-04-15 to 2024-04-26"
+  research_review_submission: "2024-03-25"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 75
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Grow digital submissions - Focus on the needs of accredited representatives and the Veterans who work with them"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Redirect traffic from eBenefits and SEP to VA.gov"
+      - "Build tools for Veterans who want to work with accredited representatives"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "2024-02 User Interviews"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "accredited-representative-facing"
+  - "accredited-representative-portal"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "prototype-testing"
+  - "vso-representatives"
+  - "form-21-22"
+  - "power-of-attorney"
+  - "accept-decline"
+  - "single-accredited"
+  - "navigation"
+  - "authentication"
+  - "search-functionality"
+  - "dashboard"
+  - "desktop"
 ---
 
 # Research Plan for ARF Team, Accredited Representative Portal, Single Accredited VSOfficers, 21-22 Accept/Decline User Testing, 03/2024
