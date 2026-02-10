@@ -11,8 +11,6 @@ assignees: ''
 
 The [Midpoint Review touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/midpoint-review) is a synchronous half-hour discussion or an asynchronous review. The goal is to confirm your prototype or mockup aligns with existing VA.gov patterns and standards and to ensure your product is ready for successful research activities.
 
-Collaboration Cycle ticket: 
-
 ## Before the meeting
   
 ### :one: VFS team: schedule the meeting
@@ -24,6 +22,10 @@ Collaboration Cycle ticket:
   - Click "Add Guests" and enter the email addresses for VFS team attendees
   - Click "Schedule Event"
 - [ ] Add meeting date/time:
+
+### Governance Team actions
+- [ ] Add link to Collaboration Cycle ticket
+- [ ] Add link to Slack thread
 
 ### :two: VFS team: add links to artifacts at least 2 days before the meeting
 Link all artifacts **at least two business days** before the scheduled Midpoint Review. Please don't add artifacts in the comments section. [See guidance on Midpoint Review artifacts.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/midpoint-review#MidpointReview-Whatartifactswillbeneeded?)
