@@ -97,7 +97,7 @@ I have a few questions to go through, then I’m going to ask you to complete a 
 
 ## Opening the prototype
 
-Now we're going to open up the prototype by following the link I have pasted in the chat: [Prototype link](https://tinyurl.com/ypjh6c7p)
+Now we're going to open up the prototype by following the link I have pasted in the chat: https://tinyurl.com/ypjh6c7p
 
 ### Backup plan if they cannot find the link in the chat:
 No problem, can you please navigate to a browser window and open a new tab? Now we're going to type in tinyurl.com/ypjh6c7p
