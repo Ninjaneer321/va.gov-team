@@ -8,7 +8,7 @@ Last updated: 10 Feb 2026
 
 ### Primary Alert — Tool/Page
 
-<img width="259" height="340" alt="Screenshot of alert at the top of the page following the page heading" src="files/alert-static-page.png" />
+<img width="259" height="340" alt="Screenshot of alert at the top of the page following the page heading" src="../files/alert-static-page.png" />
 
 #### Guidance
 - Use for unprompted tool- or page-wide messages.
