@@ -254,8 +254,12 @@ After participants finished filling out the form, we asked when they thought the
 
 - _Supporting data: Quote [add context]_  
 
-### Finding 3: All 7 participants used the "Finish" later button to stop filling out the form, and successfully resumed by signing in and using the My VA page. 
-Participants
+### Finding 3: All 7 participants used the "Finish later" button to stop filling out the form, and successfully resumed by signing in and using the My VA page. 
+Participants found the "Finish later" button intuitive to save their work, even if they didn't remember it from the interstitial page. Only one person said they knew that it would save from their past experience with VA forms. One participant said that he was leery of losing his work if he stops in the middle:
+
+> *"I'd just sit here and finish it until I was done...I hate doing work and then having to come back and redo the exact same thing.Experience over time [with non-VA forms] has taught me to not trust what it's supposed to do" (p9).*
+
+> *"If it works like it should, everything up to the point where I stop should remain filled out, and when I log back in...it should take me right where I left off" (p9).*
 
 ### Finding 4: All 6 participants who interacted with the accordions on the Review/Submit page were able to easily open and close them with the controls on the left side (instead of the right).
 ### Finding 5: XX had some accessibility issues ...
