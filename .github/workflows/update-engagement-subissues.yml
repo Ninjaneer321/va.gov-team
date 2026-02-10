@@ -12,6 +12,10 @@ on:
         required: false
         type: string
 
+permissions:
+  issues: write
+  contents: read
+
 jobs:
   update-titles:
     runs-on: ubuntu-latest
@@ -54,7 +58,7 @@ jobs:
 
             for (const issue of subIssues.data) {
               // Replace whatever is in the brackets with the new org abbreviation
-              const updatedTitle = issue.title.replace(/\[\s*[^\]]+\s*\]/, `[ ${newOrgAbbr} ]`);
+              const updatedTitle = issue.title.replace(/\[\s*[^[\]]+\s*\]/, `[ ${newOrgAbbr} ]`);
 
               if (updatedTitle === issue.title) {
                 console.log(`#${issue.number} - No change needed: ${issue.title}`);
