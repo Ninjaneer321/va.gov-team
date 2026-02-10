@@ -72,9 +72,9 @@ This initiative aligns with the following 2025 OCTO OKRs:
    - Key result 1 (Satisfaction): Improve satisfaction with our web and mobile products by 5 points.
  
 ## Quantitative Monitoring
-|Key result|Baseline (ask.va.gov)|After X months|
+|Key result|Baseline (ask.va.gov)|After 6 months|
 |:---|:---|:---|
-|Satisfaction|January 2025: 23%|x|
+|Satisfaction|Jun 2025: 31%|Dec 2025: 31%|
 
 ## Qualitative Monitoring
 |Key result|Baseline (ask.va.gov)|After X months|
