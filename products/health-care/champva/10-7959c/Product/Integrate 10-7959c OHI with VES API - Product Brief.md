@@ -40,14 +40,27 @@ By transmitting OHI data directly into VES via API, CHAMPVA can reduce reliance 
 - Non-VES downstream systems beyond CHAMPVA processing
 
 ## Success Metrics
-Aligned to OCTO, Portfolio, and Team OKRs:
-- Reduction in manual OHI processing volume
-- Less than 1% error rate on OHI-related API endpoints
-- Improved processing time for CHAMPVA applications
-- Availability of real-time metrics for:
-  - Submission success and failure
-  - Error rates
-  - Latency
+
+This effort directly supports Health Applications and VES Program OKRs focused on faster benefit delivery, improved data quality, and reliable digital operations.
+
+### Supports Objective 1: All form experiences help Veterans and family members get benefits faster
+- Measurable reduction in manual OHI processing volume, supporting removal of mailroom- and scanner-dependent workflows (Objective 1, KR1)
+- Decreased end-to-end CHAMPVA application processing time through faster digital intake and earlier issue detection (Objective 1, KR2)
+
+### Supports Objective 3: Ensure accurate transaction status for Veterans and family members
+- Less than 1% error rate on OHI-related API submissions, reducing errors introduced by manual and handwritten handling (Objective 3, KR1)
+- Reduced rework caused by incomplete or misrouted OHI data, enabling processing teams to focus on remaining non-digital submissions (Objective 3, KR2)
+
+### Supports VES FY26 Objective 2: Operate products with high reliability
+- Real-time monitoring and reporting of OHI submission volume, latency, and error rates in alignment with VES “golden signals” expectations (Objective 2, KR2.1)
+- Reliable API performance that meets or exceeds VES availability and incident-free time targets (Objective 2, KR2.2)
+
+### Operational Visibility
+- Availability of dashboards showing:
+  - OHI submission success and failure rates
+  - API error rates
+  - Latency and throughput trends
+
 
 ## Dependencies & Risks
 
