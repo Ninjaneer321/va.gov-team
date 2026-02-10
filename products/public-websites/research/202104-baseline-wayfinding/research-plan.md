@@ -1,109 +1,140 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Baseline Wayfinding Research on VA.gov, April 2021"
+date: 2021-04-19
+last_updated: 2026-02-10
+team: "Public Websites Team"
+product: "VA.gov Website Navigation and Wayfinding"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Since VA.gov launched in 2018, there hasn't been much user research on the website's overall design. Recent research focused on specific pages but not overall wayfinding. Analytics show where people click but not whether they find what they're looking for. Need baseline understanding of how Veterans use the site to inform priorities for future research and design work."
+  product_location: "VA.gov - overall website navigation including home page, header, footer, search, and browse tools"
+  user_familiarity: "Baseline research - understanding current usage patterns"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Moderated interviews with task-based wayfinding exercises"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Get baseline understanding of how current VA.gov website is being used by Veterans and others"
+  - goal_2: "Understand Veterans' pain points and successes while using VA.gov"
+  - goal_3: "Make more informed decisions about priorities for future research and design work in website navigation and tools"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans accomplish a list of common tasks?"
+  - "Where do they typically start? (Google/Facebook/MHV/eBenefits/contact center/VA.gov)"
+  - "If not using VA.gov, why? (don't know about it, too hard to use)"
+  - "What do they typically do on VA.gov? What tools have they tried using?"
+  - "Do they find what they're looking for? If not, what were they looking for?"
+  - "What pain points are there in terms of findability and usage?"
+  - "What works well?"
+  - "What differences are there for desktop vs. smartphone users?"
+  - "What differences are there for people who have cognitive disabilities?"
+  - "What differences are there for people who use screen readers?"
+  - "What differences are there for people who have used VA.gov before vs. haven't used it?"
+  - "Do Veterans read/notice/click/comment on the banner content on the home page?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans are focused on what they're looking for and don't want to navigate multiple tools unless it helps them get better results"
+  - "Veterans don't care where the information they're looking for is stored, as long as they are able to find it"
+  - "Veterans aren't using all of the current search and browse tools on VA.gov"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Baseline understanding of wayfinding behavior to inform priorities for navigation improvements and future research"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling to include diverse user groups and device types"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "At least 6 Veterans"
+    - "At least 3 caregivers or family members of a Veteran who assist the Veteran in getting benefits"
+    - "At least 5 people who plan to use their computer for the session"
+    - "At least 5 people who plan to use their smartphone for the session"
+    - "At least 4 people with a cognitive disability (e.g., TBI)"
+    - "At least 3 participants over 60"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 2 people who use a screen reader"
+    - "At least 2 people who have never used VA.gov before"
+    - "At least 2 people of color"
+    - "At least 1 woman"
+    - "At least 1 participant 35 or under"
+    - "At least 2 people without degree or vocational training after high school"
+    - "At least 1 person with college degree"
+    - "At least 2 people in rural or remote area"
+    - "At least 1 person in major metropolitan area"
+    - "At least 1 non-native English speaker"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you used the VA.gov website before?"
+      qualifying_response: "Mix of yes and no responses"
+    - question: "What kind of device will you be joining on?"
+      qualifying_response: "Computer, tablet, or smartphone"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 6
+  caregivers: 3
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 20
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-04-21"
+  pilot_participant: "TBD"
+  research_dates: "2021-04-26 to 2021-05-05"
+  research_review_submission: "2021-04-19"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Improve wayfinding and navigation on VA.gov"
+  - objective: "Veterans can manage their health services online"
+    key_results: "Make health tools and information more findable"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Various page-specific research studies since 2018"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family Members"
+  - "PRDT: VA.gov"
+  - "PRDT: Public Websites"
+  - "DSP: Navigation"
+  - "DSP: Search"
+  - "wayfinding"
+  - "baseline-research"
+  - "information-architecture"
+  - "findability"
+  - "remote-research"
+  - "moderated-research"
+  - "unauthenticated-experience"
+  - "accessibility"
+  - "screen-reader"
+  - "cognitive-disability"
+  - "mobile-research"
+  - "desktop-research"
 ---
 
 # Research Plan: Baseline Wayfinding Research on VA.gov 

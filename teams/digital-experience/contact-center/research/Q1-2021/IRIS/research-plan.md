@@ -1,109 +1,104 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for IRIS Replacement, Q1 2021"
+date: 2021-01-01
+last_updated: 2026-02-10
+team: "Digital Experience Team - Contact Center"
+product: "IRIS (Inquiry Routing & Information System) Replacement"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "IRIS (Inquiry Routing & Information System) needs to be replaced with an improved system for Veterans to contact VA. This research will test the usability of the IRIS replacement on VA.gov staging environment."
+  product_location: "VA.gov Contact Center - IRIS contact form"
+  user_familiarity: "New product - replacement of existing IRIS system"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Conduct usability study of IRIS replacement"
+  - goal_2: "Test functionality on VA.gov staging environment"
+  - goal_3: "Validate design decisions before launch"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "TBD - To be completed based on specific research objectives"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "TBD - To be completed based on specific research objectives"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate usability and identify issues with IRIS replacement before production launch"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "TBD - Recruiting approach to be determined"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "TBD - Must-have criteria to be determined"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "TBD - Nice-to-have criteria to be determined"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "TBD - Screener questions to be determined"
+      qualifying_response: "TBD"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "Chante Lantos-Swett and Trevor Pierce"
+  research_dates: "TBD"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 15
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Replace IRIS with improved contact system on VA.gov"
+  - objective: "Veterans and their families trust the security, accuracy, and relevancy of VA.gov"
+    key_results: "Improve contact center inquiry routing and information system"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "TBD - Previous IRIS research to be linked"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: IRIS"
+  - "PRDT: Contact Center"
+  - "DSC: Form"
+  - "contact"
+  - "inquiry"
+  - "usability-testing"
+  - "remote-research"
+  - "unauthenticated-experience"
+  - "accessibility"
+  - "screen-reader"
+  - "customer-service"
 ---
 
 [Duplicated in Confluence](https://vfs.atlassian.net/wiki/spaces/Contact/pages/1857519820/Research+Plan+Outline)

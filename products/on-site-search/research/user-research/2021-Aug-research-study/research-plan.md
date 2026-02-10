@@ -1,109 +1,122 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Search & Discovery, Search Design Concepts, August 2021"
+date: 2021-08-01
+last_updated: 2021-09-03
+team: "Search & Discovery"
+product: "VA.gov Site Search"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "User research findings indicate that users get stuck while working on tasks because they're focused on the 'top 4' boxes, and site search and other search tools are not noticed and used as much as hoped. The team is considering new ideas for better surfacing site search and other search tools."
+  product_location: "VA.gov home page, site search, search results pages"
+  user_familiarity: "Iteration on existing search functionality"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess utility of design concepts (was it helpful and prevented users from getting stuck?)"
+  - goal_2: "Assess usability of design concepts (was it findable and intuitive?)"
+  - goal_3: "Determine which design concepts might be helpful to users before further design exploration"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do users find and use the other search tools?"
+  - "What are users' reactions to a landing page that highlights search tools?"
+  - "Do users try using the search tools from links on the landing page?"
+  - "What are users' reactions to Search in the header taking them to a landing page?"
+  - "Do users try the new search link under the 'top 4' boxes? What are users' reactions to it taking them to a landing page?"
+  - "Do users notice the search tool links at the bottom of the search results page? Do they try using them? Reactions?"
+  - "Are users able to complete tasks without getting stuck?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "A search landing page that highlights other search tools will result in more users using the search tools and finding what they're looking for"
+  - "A search results page that highlights other search tools will result in more users using the search tools and finding what they're looking for"
+  - "New search link(s) near the 'top 4' boxes will result in more users finding what they're looking for"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Research findings (including how many participants clicked on which links) will be used to recommend which of the design concepts might be helpful to users going forward. The intent is to assess utility and usability for each design concept before more design exploration."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All are Veterans"
+    - "At least 7 people who plan to use their computer for the session"
+    - "At least 7 people who plan to use their smartphone for the session"
+    - "At least 3 participants 55 or older"
+    - "At least 2 people with a cognitive disability (e.g., TBI)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 2 people of color"
+    - "At least 1 woman"
+    - "At least 1 participant 35 or under"
+    - "At least 2 people who don't have any degree or vocational training after high school"
+    - "At least 1 person that has a college degree"
+    - "At least 2 people who live in a rural or remote area"
+    - "At least 1 person who lives in a major metropolitan area"
+    - "At least 1 non-native English speaker"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "What kind of device will you be joining on and are willing to share a browser window on--computer or smartphone?"
+      qualifying_response: "Computer or smartphone (not tablet)"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-09-02"
+  pilot_participant: "TBD"
+  research_dates: "2021-09-10 to 2021-09-17"
+  research_review_submission: "2021-09-03"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Improved search functionality and discoverability"
+  - objective: "Enhance Veterans' personalized online experience"
+    key_results: "Better wayfinding and search tool usage"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/public-websites/research/202104-baseline-wayfinding/research-report.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/research/user-research/research-study-jan-2021/research-findings.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: Search"
+  - "DSP: Navigation"
+  - "DSP: Search"
+  - "usability-testing"
+  - "search-tools"
+  - "wayfinding"
+  - "remote"
+  - "moderated"
 ---
 
 # Research Plan: Search Design Concepts

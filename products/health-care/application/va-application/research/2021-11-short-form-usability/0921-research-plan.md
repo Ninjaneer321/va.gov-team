@@ -1,109 +1,126 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VSA Caregiver, Health Care Application 10-10EZ Short Form Usability, September 2021"
+date: 2021-09-01
+last_updated: 2026-02-10
+team: "VSA Caregiver"
+product: "Health Care Application (10-10EZ)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Military Service and Household Information sections cause the most confusion, time, and highest drop-off rates. Working to create shortened form flows that eliminate these sections for those with service-connected disability rating of 50% or higher."
+  product_location: "https://www.va.gov/health-care/apply/application/introduction"
+  user_familiarity: "Iteration - testing new short form flows based on disability rating"
+  product_brief_url: "https://www.sketch.com/s/da85cf44-4503-4e98-834e-ff068b242ef6/p/A71F1C96-FF98-42A2-9ADD-6D4B7A1DDB20"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Task-based usability testing with UXPin prototype"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine whether or not the short form flow is usable and understandable when pre-populated at start of authenticated application"
+  - goal_2: "Determine whether or not the short form flow is usable and understandable when based on self-reported service-connected disability rating of 50% or higher"
+  - goal_3: "Determine whether or not the flow and copy sets proper expectations for the application experience"
+  - goal_4: "Note any participant feedback to the recently updated Introduction page (secondary goal)"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are users able to navigate through the pre-populated short form easily and without confusion?"
+  - "Are users able to navigate through the short form based on self-reported information easily and without confusion?"
+  - "Do users understand what the short form is?"
+  - "Do users understand why they can fill out a short form?"
+  - "What is the overall sentiment about this short form experience?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will be able to navigate through the short form relatively easily"
+  - "Users may have issues understanding what a 'short form' is"
+  - "Users may not understand the added value of this experience (because they will not see the skipped questions)"
+  - "Users may get stuck/confused on the confirmation page after self-reporting pay for a disability rating of 50% or higher"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate short form flows to improve application completion rates by reducing burden for Veterans with 50%+ disability ratings. Future expansion to other qualifying questions."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted sampling based on disability rating"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "At least 10 Veterans"
+    - "At least 2 Power of attorney (POA) but no more than 3"
+    - "At least 9 people with disability rating of 50% or higher"
+    - "At least 2 people with disability rating less than 50% but no more than 3"
+    - "At least 4 people over the age of 55"
+    - "Must participate using laptop or desktop (prototype not functional on mobile/tablet)"
+    - "Must be able to use Zoom, locate and use chat function, and share screen"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse branch of service"
+    - "Gender (30% or more women)"
+    - "Diverse education levels"
+    - "Age diversity"
+    - "Diverse race"
+    - "Geographic diversity"
+    - "Rural density representation"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "What is your disability rating percentage?"
+      qualifying_response: "At least 9 with 50% or higher; at least 2 but no more than 3 with less than 50%"
+    - question: "Are you a Power of Attorney for a Veteran?"
+      qualifying_response: "At least 2 but no more than 3 POAs"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 10
+  caregivers: 3
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 18
+  completed_sessions_goal: 13
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-08-31"
+  pilot_participant: "TBD"
+  research_dates: "2021-09-01 to 2021-09-16"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 15
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+    key_results: "Reduce application drop-off rates by streamlining forms for qualifying Veterans"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/10-10EZ/Research%20April-May%202021/End%20user%20discovery%20research/research%20findings.md"
+    - "https://docs.google.com/presentation/d/1HDGBx-whUrSArDLf8OP_-65lCMPi36h0ihHPA3XqmIk/edit#slide=id.p1"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: 10-10EZ"
+  - "PRDT: health-care-application"
+  - "AUD: Veterans"
+  - "AUD: Power-of-Attorney"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "usability-testing"
+  - "task-analysis"
+  - "short-form"
+  - "disability-rating"
+  - "authenticated"
+  - "prototype-testing"
+  - "UXPin"
+  - "remote-research"
 ---
 
 # Research Plan: VSA Caregiver, Usability research of shortened form based on disability rating, Health Care application 10-10EZ, September 2021

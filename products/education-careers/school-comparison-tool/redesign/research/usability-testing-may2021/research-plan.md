@@ -1,109 +1,122 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Education Service, GI Bill Comparison Tool Search Functionality, May 2021"
+date: 2021-05-25
+last_updated: 2026-02-10
+team: "Booz Allen / Education Service OIT"
+product: "GI Bill Comparison Tool"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Users encountered several struggles with the initial GI Bill Comparison Tool design, requiring a complete redesign of many pages. This research assesses the effectiveness of the new search interface design."
+  product_location: "VA.gov Education and Careers section - GI Bill Comparison Tool"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/school-comparison-tool/redesign/ct-redesign-discovery_product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess whether users can effectively interact with the redesigned search interface"
+  - goal_2: "Understand what types of searches are most valuable to users"
+  - goal_3: "Evaluate usability of search results, filters, location search, and benefit controls"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can users effectively interact with the search interface?"
+  - "What types of searches are users interested in running?"
+  - "What challenges do users have with the new interface (if any)?"
+  - "Do users think their search results are relevant?"
+  - "What do users think of the layout and information on the search results cards?"
+  - "Are users able to find and effectively engage with the filters?"
+  - "Do users believe the available filters are useful?"
+  - "Are users able to effectively utilize the location search?"
+  - "Do users find the autocomplete helpful for location search?"
+  - "How do users engage with the map and list view?"
+  - "Are users interested in using the radius option?"
+  - "Can users effectively use the radius option?"
+  - "Do user notice the benefit controls?"
+  - "Do users interact with the controls if settings aren't accurate?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Since many of the designs have been simplified in the new design, users will be able to effectively search for schools using both name and location searches"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform final design decisions before full release, ensuring the simplified redesign enables effective school searching for Veterans and beneficiaries."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Have started attending school in Fall 2020 or Spring 2021, OR be looking to start school in 2021"
+    - "2 spouses, 3 children, 7 Veterans"
+    - "50% using Chapter 33 Post-9/11 benefits, 50% using VR&E or Chapter 30 Montgomery Bill (no more than 3 Chapter 30)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Age range: 16-65"
+    - "Gender: Mix"
+    - "Geography: Geographically dispersed across USA"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you started attending school in Fall 2020 or Spring 2021, or are you looking to start school in 2021?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 7
   caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  dependents: 5
+  total_recruited: 12
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-05-21"
+  pilot_participant: "Booz Allen design team member"
+  research_dates: "2021-05-25 to 2021-05-27"
+  research_review_submission: "2021-05-20"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 15
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: "Enable Veterans to effectively find and compare educational institutions using GI Bill benefits"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Reinventing Myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/school-comparison-tool/redesign/research/usability-testing-may2021/CT%20Redesign_Search.pdf"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: GI Bill Comparison Tool"
+  - "PRDT: Education"
+  - "AUD: Veterans"
+  - "AUD: Dependents" 
+  - "AUD: Spouses"
+  - "BNFT: Education"
+  - "BNFT: GI Bill"
+  - "usability testing"
+  - "search"
+  - "filters"
+  - "location search"
+  - "DSC: Form controls"
+  - "DSC: Search"
+  - "DSP: Filtering"
+  - "remote"
+  - "moderated"
 ---
 
 # Research Plan for Search Functionality for CT Redesign

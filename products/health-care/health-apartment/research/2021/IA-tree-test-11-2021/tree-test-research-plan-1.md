@@ -1,109 +1,132 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Health Apartment, IA Tree Test Proof of Concept, November 2021"
+date: 2021-11-01
+last_updated: 2026-02-10
+team: "Health Apartment"
+product: "Health Apartment IA Proof of Concept"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Simplify and unify the Veteran health experience by bringing all things health, including My HealtheVet, into VA.gov. Create an accessible, usable, and discoverable health 'home'."
+  product_location: "VA.gov Health Apartment (concept)"
+  user_familiarity: "New product - validating IA of health apartment proof of concept"
+  product_brief_url: "https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1630530056765/d3d8cdb3f341d709f2f6b6658bbd7d6b6c50bf75?sender=uaf2e527a10dad9fb94a02129"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Tree test using Treejack (Optimal Workshop)"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate the IA of the health apartment proof of concept"
+  - goal_2: "Understand the discoverability of health things within the apartment"
+  - goal_3: "Provide quantifiable benchmark to improve on in iterations"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can Veterans find community care information?"
+  - "Can Veterans find appointment management tools?"
+  - "Can Veterans find disability benefits information?"
+  - "Can Veterans find health supplies ordering?"
+  - "Can Veterans find travel pay reimbursement?"
+  - "Can Veterans find medical copayment information?"
+  - "Can Veterans find dental benefits information?"
+  - "Can Veterans find health condition research information?"
+  - "Can Veterans find self-entered health data tracking?"
+  - "Can Veterans find My HealtheVet newsletter?"
+  - "Can Veterans find labs & test results?"
+  - "Can Veterans find dependent management?"
+  - "Can Veterans find COVID-19 vaccine information?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The tree test will validate the organization of information in the apartment"
+  - "Top search terms represent high-need, low-discoverability items that need to be prioritized"
+  - "The apartment sitemap will support task completion for priority health-related actions"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Insights into what works and what needs work in the IA from the start. Clear, quantifiable benchmark to improve on in iterations."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Stratified sampling across 5 study groups"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Group 1: Familiarity with MHV - At least 3 signed into MHV in past 6 months, 3 last signed 12+ months ago, 3 never signed in"
+    - "Group 2: Years with VA - At least 2 left military within 3 years, 2 OEF/Iraq War, 2 Gulf War, 2 Vietnam War"
+    - "Group 3: VA benefits use - At least 3 use health care only/+disability, 3 use health care + 1 other benefit, 3 use health care + 2+ benefits"
+    - "Group 4: Caregiver/dependent needs - At least 3 for self only, 3 for self+dependents, 3 caregivers to Veterans/dependents"
+    - "Group 5: Service members - At least 3 transitioning within 1 year, 3 not transitioning within 1 year"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 10% women"
+    - "At least 34% people of color"
+    - "At least 25% without a degree"
+    - "At least 17% with immigrant origins"
+    - "At least 50% with identified cognitive disability"
+    - "Geographic diversity: 10 East Coast, 10 West Coast, 10 other, 25% rural"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "When did you last sign into My HealtheVet?"
+      qualifying_response: "Mix across past 6 months, 12+ months ago, never"
+    - question: "When did you leave military service?"
+      qualifying_response: "Mix across different service eras"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 45
+  caregivers: 3
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 50
+  completed_sessions_goal: 50
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-10-27"
+  pilot_participant: "Jared Cooke, Shawn Drinkard"
+  research_dates: "2021-11-01 to 2021-11-07"
+  research_review_submission: "2021-10-27"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 15
+  buffer_minutes: 0
+  max_sessions_per_day: 50
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+    key_results: "Create unified, discoverable health experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/research/generative-research-study-1"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/research/health-apartment-ia"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/analytics/Analytics.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: health-apartment"
+  - "PRDT: My-HealtheVet"
+  - "MHV: information-architecture"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Service-Members"
+  - "BNFT: Healthcare"
+  - "tree-test"
+  - "information-architecture"
+  - "IA-validation"
+  - "findability"
+  - "Treejack"
+  - "unmoderated"
+  - "remote-research"
+  - "quantitative"
 ---
 
 # Research Plan for Apartment IA Proof of Concept Testing, October 2021

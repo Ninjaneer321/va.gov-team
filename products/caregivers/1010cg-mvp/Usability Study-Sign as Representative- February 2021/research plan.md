@@ -1,109 +1,126 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VSA Caregiver, Representative and Primary/Secondary Caregiver 10-10CG form, February 2021"
+date: 2021-02-01
+last_updated: 2021-02-09
+team: "VSA Caregiver"
+product: "10-10CG Application for Comprehensive Assistance for Family Caregivers"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The Caregiver team launched the digitized 10-10CG form October 1, 2020. The team is adding functionality that allows a Veteran's legal representative to be identified and documentation (e.g. power of attorney) to be optionally uploaded. Designs have been created and need to be tested to determine the understandability, usability, and ease of use of the two representative workflow options."
+  product_location: "VA.gov 10-10CG online form"
+  user_familiarity: "Iteration on existing form with new representative functionality"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/caregiver/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "comparative usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine the usability differences between two representative workflow options"
+  - goal_2: "Assess if the cognitive understanding of Primary Family Caregiver versus Secondary Family Caregivers improved"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does one of the representative workflow options perform better than the other with regards to understandability, usability, and ease of use?"
+  - "Are users confused by any particular aspect of the representative workflow?"
+  - "Does the current representative workflow stop users from completing the form?"
+  - "Do the changes to the Primary Family Caregiver versus Secondary Family Caregivers display improve or hinder understanding?"
+  - "Would a user upload a document from their mobile phone or only from a desktop computer?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Testing the two representative workflows will result in a clear choice between the options due to better understandability, usability and user preference"
+  - "Users will be able to navigate through the form relatively easily, but may have issues with the terminology/content within the representative workflow"
+  - "The representative workflow might stop users (especially caregivers who are not legal representatives) from completing the form"
+  - "Users may have difficulty knowing if a Veteran or caregiver should select the Primary Family Caregiver or Secondary Family Caregiver workflow"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify which representative workflow option performs better and should be implemented. Validate improvements to Primary vs Secondary Family Caregiver distinction. Understand user preferences for document upload across devices."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment for caregivers, veterans, and representatives across devices"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be a caregiver to a Veteran (at least 6)"
+    - "Must be a Veteran who has a caregiver (at least 2)"
+    - "At least 5 participants must be Veteran's legal representative"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 2 participants with disability rating of 70% or greater with identified cognitive impairments and/or functional disabilities"
+    - "50% women, 50% men"
+    - "50% people who identify as an ethnicity/race other than Caucasian"
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    - "At least one person that does not have a college degree"
+    - "At least one person that has a college degree"
+    - "At least one person who lives in a rural or remote area"
+    - "At least one person who lives in a major metropolitan area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a caregiver to a Veteran?"
+      qualifying_response: "Yes (at least 6)"
+    - question: "Are you a Veteran who has a caregiver?"
+      qualifying_response: "Yes (at least 2)"
+    - question: "Are you a Veteran's legal representative?"
+      qualifying_response: "Yes (at least 5)"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 3
+  caregivers: 10
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 13
+  completed_sessions_goal: 13
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-02-12"
+  pilot_participant: "Laurel Lawrence"
+  research_dates: "2021-02-16 to 2021-02-19"
+  research_review_submission: "2021-02-09"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans and their families can apply for all benefits online"
+    key_results: "Improved 10-10CG form usability and completion rates"
+  - objective: "Increase Veteran satisfaction with VA.gov"
+    key_results: "Better experience for caregivers applying for benefits"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Initial 10-10CG digitization research from 2020"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Caregivers"
+  - "AUD: Veterans"
+  - "PRDT: 10-10CG"
+  - "BNFT: Family Member Benefits"
+  - "usability-testing"
+  - "comparative-testing"
+  - "representative"
+  - "document-upload"
+  - "legal-representation"
+  - "cognitive-disabilities"
+  - "remote"
+  - "moderated"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: iOS"
+  - "HDW: Android"
 ---
 
 # Research Plan: VSA Caregiver, Representative and Primary Caregiver/Secondary for the 10-10CG form, February 2020

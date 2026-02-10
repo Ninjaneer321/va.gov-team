@@ -1,109 +1,129 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Facility Locator - Mobile Experience, February 2021"
+date: 2021-02-10
+last_updated: 2026-02-10
+team: "Facility Locator"
+product: "Facility Locator"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The Facility Locator search experience has not been approached from a mobile-first perspective. Veterans were not interested in using the map view of Facility Locator and were not able to find it from the VA.gov homepage in mobile month study."
+  product_location: "VA.gov Facility Locator"
+  user_familiarity: "iteration"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how Veterans expectations for Find a VA Location search results differ for mobile vs desktop users"
+  - goal_2: "Understand how industry standards impact Veteran expectations for the Facility Locator search experience"
+  - goal_3: "Evaluate new designs created for geolocation, map view, and clear fields"
+  - goal_4: "Validate if veterans are interested in using the map view of the Facility Locator"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do participants understand how to enable their location?"
+  - "Do participants understand how to clear inputs?"
+  - "What are Veteran expectations of Facility Locator mobile experience?"
+  - "Will Veterans notice/understand the Geolocation functionality?"
+  - "Do Veterans using a mobile device prefer to view results on the map or in a list?"
+  - "Do Veterans expect to find detailed information on the map view?"
+  - "Do veterans know how to bring up the detailed information for each location?"
+  - "Does the information presented for a given facility match expectations?"
+  - "What online maps/searches do these participants find easiest to use/why?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans need to be able to enter data and clear field inputs easily"
+  - "Veterans searching for a VA location on a mobile device will want to view closest VA facilities in a list and on a map"
+  - "Veterans using the map view will know that by tapping on map pins, they will see facility information and location"
+  - "Veterans want to be able to opt-in to geolocation at search level, rather than via browser"
+  - "Veteran expectations of the Facility Locator need to be aligned with other private industry map-based mobile search experiences"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform mobile-first design improvements to geolocation, map view, and field clearing functionality"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be a Veteran, active duty service member, reservist, or national guard member"
+    - "Must have a mobile device to run the study with"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "3 participants living in a rural or remote area"
+    - "3 participants living in a major metropolitan area"
+    - "2 participants that do not have a college degree"
+    - "4 females"
+    - "2 participants of color"
+    - "2 participants 35 or under"
+    - "2 participants 36-50"
+    - "2 participants 51-65"
+    - "2 participants 66 or over"
+    - "2 participants with cognitive disabilities"
+    - "2 participants with a disability rating of 70% or greater"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have a mobile device and can you download Zoom and screenshare?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-02-12"
+  pilot_participant: "Jonathan Nelson, Leyda Hughes, Tressa Furner"
+  research_dates: "2021-02-17 to 2021-02-19"
+  research_review_submission: "2021-02-10"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 30
+  buffer_minutes: 15
+  max_sessions_per_day: 8
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can find VA facilities and services near them"
+    key_results: "Improve mobile search experience and usability"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Getting out"
+  - "Starting up"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Mobile month study #14484 - Veterans not interested in map view"
+    - "Mobile month study - Veterans unable to find Facility Locator from homepage"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Service members"
+  - "PRDT: Facility Locator"
+  - "PRDT: Find a VA Location"
+  - "HDW: smartphone"
+  - "HDW: mobile"
+  - "DSC: map"
+  - "DSC: search"
+  - "DSC: geolocation"
+  - "usability-testing"
+  - "mobile-experience"
+  - "remote"
 ---
 
 # Research Plan: Facility Locator - Mobile Experience

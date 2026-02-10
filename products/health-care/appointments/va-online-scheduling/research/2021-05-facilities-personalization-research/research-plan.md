@@ -1,109 +1,135 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VAOS and Profile, Facilities Personalization, May 2021"
+date: 2021-05-26
+last_updated: 2026-02-10
+team: "VA Online Scheduling (VAOS) & Authenticated Experience"
+product: "VA Online Scheduling & Profile"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The VAOS tool allows Veterans to make an appointment at all of the facilities at which they're registered, but Veterans are frustrated because being registered at a facility doesn't mean they are currently receiving care there. Veterans are still considered registered at facilities where they used to receive but no longer receive care, and at some facilities for reasons other than having ever been a patient. Therefore, Veterans see facilities in VAOS that they don't go to, and they do not understand why they are being asked to make appointments at facilities they don't go to."
+  product_location: "VA.gov Profile - My VA health facilities section and VAOS facility selection"
+  user_familiarity: "New feature"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/preferred-facility/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Semi-structured interviews and concept testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Discover Veteran needs around facility selection when scheduling that will help us personalize this experience"
+  - goal_2: "Better understand how Veterans think and talk about facilities so we can use similar language and models"
+  - goal_3: "Learn what Veterans know about the registration process"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans think about facilities where they currently receive care?"
+  - "How often do Veterans go to different facilities for the same type of care or different types of care?"
+  - "Are Veterans able to easily navigate the profile now that the menu doesn't stick to the top of the page?"
+  - "Do Veterans understand why the facilities in their list are there?"
+  - "Do they understand the impact of editing the list?"
+  - "Do they understand the My VA facilities section outside of the VAOS context?"
+  - "Is the information about each facility in the list sufficient?"
+  - "Do Veterans understand how the facilities are sorted?"
+  - "Does a Veteran see value in the ability to change the facilities where they currently receive care?"
+  - "How might a Veteran expect to use facility information outside of scheduling?"
+  - "Do Veterans expect to be able to change their current VA facilities while they're scheduling an appointment?"
+  - "Will Veterans connect Your VA health facilities in VAOS with the same list in Profile?"
+  - "Will Veterans understand why the facilities they select aren't showing and they have to call?"
+  - "Would it be a better experience to surface facilities that don't offer online scheduling earlier in the flow?"
+  - "What types of appointments do Veterans expect to be able to make if they click schedule an appointment online?"
+  - "Do people encounter any usability problems or confusion when going from VAOS to profile?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will understand that saving a facility in VAOS means they will be able to choose that facility more easily the next time they schedule"
+  - "Veterans will find value in being able to manually control which facilities they currently go to"
+  - "Veterans will find value in seeing which facilities they recently visited"
+  - "The language My VA health facilities will align with how veterans think about their facilities"
+  - "Veterans will understand how to edit their list of facilities"
+  - "Veterans will understand why all of their facilities are selected"
+  - "Veterans who view the facilities list will understand what the facilities in the list represent if presented the context of VAOS or if they find the list organically"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Better understanding of Veterans needs and language around scheduling at facilities they prefer. Make decisions about our approach to interactions that will support the experience plan."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veteran is actively receiving health care from the VA (has had an appointment with a PACT within the past year)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Veteran has received VA health care from VA facilities in different states"
+    - "Veteran has used VA health care for 5+ years"
+    - "At least 1 woman"
+    - "At least 1 person of color"
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    - "At least one person that does not have a college degree"
+    - "At least one person that has a college degree"
+    - "At least one person who lives in a rural or remote area"
+    - "At least one person who lives in a major metropolitan area"
+    - "At least one person with a disability rating of 70% or greater"
+    - "At least one participant with identified cognitive impairments and/or functional disabilities"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you received VA health care from facilities in different states?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-05-21"
+  pilot_participant: "TBD"
+  research_dates: "2021-05-26 to 2021-06-04"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Increase Veteran satisfaction with VA.gov"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improve facility selection experience"
+  - objective: "Decrease time to successfully complete online transactions"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Reduce confusion around facility selection"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "products/health-care/appointments/va-online-scheduling/research/"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: Appointments"
+  - "PRDT: VAOS"
+  - "PRDT: Profile"
+  - "PRDT: Health care"
+  - "RESRCH: Interviews"
+  - "RESRCH: Usability"
+  - "RESRCH: Concept test"
+  - "DSP: Personalization"
+  - "authenticated"
+  - "facility-selection"
+  - "profile"
 ---
 
 Facilities personalization research plan

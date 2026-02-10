@@ -1,109 +1,109 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VAOS, Request Clarification, November 2021"
+date: 2021-11-05
+last_updated: 2026-02-10
+team: "VA Online Scheduling (VAOS)"
+product: "VA Online Scheduling"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans are generally confused by the concept of appointment requests in VAOS. Veterans don't see a distinction between a request for an appointment and a self-scheduled appointment. It isn't clear when an appointment becomes a request in VAOS. The language request doesn't clearly explain what an appointment request is. Veterans don't know where to find information about their existing appointment requests."
+  product_location: "VA.gov appointments - VAOS scheduling flow and appointments list"
+  user_familiarity: "Iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/product/vaos-product-guide.pdf"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Learn how appointment requests are confusing to Veterans"
+  - goal_2: "Validate concepts for reducing that confusion"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How are requests confusing Veterans during the scheduling process?"
+  - "How are requests confusing when viewing their appointments on the VAOS home page?"
+  - "What value do Veterans find in appointment requests?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Requests are confusing during scheduling because there is no indication when a self scheduled appointment becomes a request. If we clearly show when this transition happens, and offer alternative options to making a request, Veterans will be able to make choices about how to schedule their appointment that better fit their needs."
+  - "Once an appointment is requested, Veterans expect to see them listed with their existing appointments. If we call them out alongside other appointments, Veterans will be able to more easily understand what requests are, and how to find details about them."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will be used to make appointment requests easier to understand"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "TBD"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veteran has received VA health care"
+    - "Must be able to join via a desktop or laptop device (no mobile)"
+    - "10-12 Veterans with VA health care established at facilities"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "TBD"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "TBD"
+      qualifying_response: "TBD"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "Ciera Maddox"
+  research_dates: "2021-11-08 to TBD"
+  research_review_submission: "2021-11-05"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Increase Veteran satisfaction with VA.gov"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Reduce confusion around appointment requests"
+  - objective: "Decrease call center volume, wait time, time to resolution"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Reduce calls about appointment requests"
+  - objective: "Decrease time to successfully complete online transactions"
+    key_results:
+      - "Make appointment request process clearer"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "products/health-care/appointments/va-online-scheduling/research/2020-07-vaos-mvp-and-express-care-user-research/2020-july-VAOSR-EC-research-report.md"
+    - "products/health-care/appointments/va-online-scheduling/research/2021-01-appts-list-test/findings-report.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: Appointments"
+  - "PRDT: VAOS"
+  - "PRDT: Health care"
+  - "RESRCH: Usability"
+  - "RESRCH: Discovery"
+  - "DSP: Content presentation"
+  - "authenticated"
+  - "appointment-requests"
 ---
 
 VAOS Requests Discovery - Research Plan

@@ -1,109 +1,123 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VSA Caregiver, Health Care Application 10-10EZ End User Discovery, May 2021"
+date: 2021-05-04
+last_updated: 2026-02-10
+team: "VSA Caregiver"
+product: "Health Care Application (10-10EZ)"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Better understand why people start the VA Health Care Application form, but do not complete it. Explore the impact digitization has had on end users and identify ways to improve qualified application submission rates."
+  product_location: "https://www.va.gov/health-care/apply/application/introduction"
+  user_familiarity: "Iteration - first form to become digitized on VA.gov"
+  product_brief_url: "https://docs.google.com/presentation/d/1HDGBx-whUrSArDLf8OP_-65lCMPi36h0ihHPA3XqmIk/edit#slide=id.p1"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Task analysis with contextual interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Better understand why some Veterans choose to not apply for healthcare benefits"
+  - goal_2: "Better understand why Veterans start the application but don't complete it"
+  - goal_3: "Gain human understanding behind sections with high drop-off rates shown in analytics"
+  - goal_4: "Better understand context, environmental factors, user behaviors, and feelings about the Health Care application"
+  - goal_5: "Run general check of application's usability and users' understanding of content"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What experiences (personal, social, and medical) bring the user to fill out the application?"
+  - "What other places did the user consider/turn to for healthcare (outside of the VA)?"
+  - "How well does the introduction prepare users to understand what they need in order to apply?"
+  - "Within the application form, what section(s) stop users from completing the form?"
+  - "Does the task analysis reflect similar drop-off points as the analytics?"
+  - "Why do financial sections have the highest drop-off rate?"
+  - "Does the user understand why financial information must be provided?"
+  - "What outside factors does the current form overlook?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans don't complete the form because they found a different source of health care (outside of the VA)"
+  - "Veterans don't complete the form because they are unclear as to what information to provide in specific sections (mainly sections related to finances)"
+  - "Veterans don't complete the form because they don't have information readily available (mainly sections related to finances)"
+  - "Veterans don't complete the form because they feel uncomfortable disclosing certain information"
+  - "Online forms innately create different obstacles/less flexibility than paper/in-person experiences"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Using the results from this discovery phase of research, further research will be conducted on specific sections of the application form"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Be a Veteran or POA of a Veteran (at least 1 POA)"
+    - "Left service in the last 5 years (minimum half of participants)"
+    - "Have access to a laptop/desktop and be willing to complete the test on said laptop/desktop"
+    - "Must be able to use Zoom, locate and use the chat function, and share screen"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse branch of service"
+    - "Gender (30% or more women)"
+    - "Diverse race"
+    - "Age diversity (ideally two people each from 18-30, 31-50, 50-64, 65+)"
+    - "Geographic diversity"
+    - "Rural density representation"
+    - "Veterans with disability rating of 50% or higher representative of applicant demographics"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you started the Health Care application (10-10EZ) in the last 6 months but did not complete it, OR are you currently considering applying for healthcare through the VA, OR did you apply for VA healthcare in the last 6 months?"
+      qualifying_response: "Yes to at least one of the three options"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 9
+  caregivers: 1
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-05-03"
+  pilot_participant: "TBD"
+  research_dates: "2021-05-04 to 2021-05-12"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+    key_results: "Increase qualified application submission rates"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://docs.google.com/presentation/d/1HDGBx-whUrSArDLf8OP_-65lCMPi36h0ihHPA3XqmIk/edit#slide=id.p1"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: 10-10EZ"
+  - "PRDT: health-care-application"
+  - "AUD: Veterans"
+  - "AUD: Power-of-Attorney"
+  - "BNFT: Healthcare"
+  - "task-analysis"
+  - "contextual-inquiry"
+  - "discovery"
+  - "drop-off-analysis"
+  - "form-completion"
+  - "financial-disclosure"
+  - "remote-research"
 ---
 
 # Research Plan: VSA Caregiver, Discovery phase of Health Care application 10-10EZ, End users, April-May 2021

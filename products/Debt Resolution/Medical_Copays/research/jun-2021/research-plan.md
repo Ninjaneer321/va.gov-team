@@ -1,109 +1,135 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Debt Resolution Team, Medical Copayments Usability, June 2021"
+date: 2021-06-21
+last_updated: 2026-02-10
+team: "Debt Resolution Team"
+product: "Medical Copayments Tool"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need access to their VA medical copay bills (Veteran Patient Statements) on VA.gov. Currently they can only access the last 6 months through AccessVA or MyHealtheVet, and Veterans expect all money owed to VA to be in a central location. The MVP is being scaled back to be a standalone tool similar to the existing Debt Portal."
+  product_location: "VA.gov authenticated experience - standalone medical copayments tool"
+  user_familiarity: "Iteration - testing scaled-back MVP after previous research"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/Medical_Copays/research/apr-2021/readout.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test lower-fidelity mobile-view prototype to gauge how well Veterans use the tool on mobile devices"
+  - goal_2: "Validate design assumptions and uncover gaps in the medical copayments MVP"
+  - goal_3: "Understand if Veterans can find relevant information about their bills and resolution options"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Is the online tool card effective at communicating the tool and its use to the Veteran?"
+  - "Do Veterans understand the concept of a referred charge and what to do about it?"
+  - "Do Veterans understand how their charges and payments contribute to a balance for each facility?"
+  - "How do Veterans expect to be able to interact with the charges and payments table, if at all?"
+  - "Are the charge details included in the table relevant and complete?"
+  - "Do Veterans understand how to view and resolve their bills?"
+  - "Are Veterans able to find all of the relevant information they need about their debt?"
+  - "Do Veterans understand their options for resolving their bills?"
+  - "Do Veterans understand who to call if they have questions?"
+  - "What do Veterans think about the wizard as a means to find resolution?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will find and understand the tool available on the content page"
+  - "Veterans may not fully understand the referred charges and may want to know more about which charges had been referred and what it means for them"
+  - "Veterans may like seeing their charges separated by facility"
+  - "Veterans may be confused why they can't pay their charges for all their facilities at once"
+  - "Veterans may miss the simpler link for viewing their balance details, then be confused why the wizard doesn't show more information about their balance"
+  - "Veterans will be able to find the information they need about their bill balances"
+  - "Veterans will be able to find and understand their options, but Veterans may be frustrated with the wizard"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate design hypotheses and identify gaps to improve the Medical Copayments MVP before launch"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment for mobile device users with VA health care experience"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must use VA health care (disqualify those that don't)"
+    - "Must visit VA.gov using their mobile devices"
+    - "Must be able to join Zoom call from mobile devices (app required)"
+    - "Must have Android or iPhone (not other devices)"
+    - "Must be comfortable discussing past experiences with VA Health Care copayments"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 woman"
+    - "At least 1 person of color"
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    - "At least one person without college degree"
+    - "At least one person with no college experience"
+    - "At least one person in rural or remote area"
+    - "At least one person in major metropolitan area"
+    - "At least one participant with cognitive impairments/functional disabilities (TBI, PTSD, ADHD, autism, vertigo, etc.)"
+    - "At least one non-native English speaker"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Which of the following describes you?"
+      qualifying_response: "I use VA health care (copays or no copays)"
+    - question: "What kind of mobile device do you use?"
+      qualifying_response: "Android or iPhone"
+    - question: "Are you comfortable joining the research session from your phone using the Zoom app?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-06-25"
+  pilot_participant: "Linda Li"
+  research_dates: "2021-07-01 to 2021-07-08"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+    key_results: "Provide access to medical copay information and payment options"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Consolidate debt and copayment information in one location"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Managing primary care and chronic health issues"
+  - "Managing my declining health"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/Medical_Copays/research/apr-2021/readout.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: Medical Copays"
+  - "PRDT: Debt Portal"
+  - "BNFT: Healthcare"
+  - "HDW: Mobile"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "remote-research"
+  - "mobile-research"
+  - "authenticated-experience"
+  - "payment"
+  - "debt-resolution"
+  - "financial-management"
 ---
 
 # 

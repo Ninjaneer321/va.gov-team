@@ -1,66 +1,62 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VAOS, Facility Selection A/B Test, July 2021"
+date: 2021-07-27
+last_updated: 2026-02-10
+team: "VA Online Scheduling (VAOS)"
+product: "VA Online Scheduling"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans are more often than not registered at more than one VA facility. It can be confusing for them when they have to select from a list of facilities that they are registered at. The list can be overwhelming and may include facilities they no longer visit to receive care. Currently, approximately 74% of users who land on the facility's page move to the next step. We want to raise the completion rate on this page and increase the speed at which those who complete the page move on to the next step."
+  product_location: "VA.gov appointments - facility selection page during scheduling flow"
+  user_familiarity: "Iteration"
+  product_brief_url: "TBD"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "A/B test (variant comparison)"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test if simpler interactions and clearer language on the facility selection page helps Veterans more easily understand their options"
+  - goal_2: "Help Veterans complete the facility selection step more quickly, whether they move on to the next step or drop-off"
+  - goal_3: "Help Veterans complete the step successfully slightly more often"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does simplified heading and intro copy improve completion rates?"
+  - "Does providing alphabetical sort option improve user experience?"
+  - "Does changing how current location blocked state is displayed affect completion?"
+  - "Does variant increase speed of task completion on facility selection page?"
+  - "Does variant increase overall completion rate of facility selection step?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "If we provide simpler interactions and clearer language on the facility selection page, Veterans will be able to more easily understand their options"
+  - "Veterans will complete the facility selection step more quickly with simplified content"
+  - "Veterans will complete the step successfully slightly more often with improved sorting options"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Increased completion rate on facility selection page and faster task completion for those who do complete the page"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "TBD"
+  approach: "Production A/B test"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans registered at VA facilities"
+    - "Veterans actively using VAOS to schedule appointments"
+    - "Veterans with home address in Profile"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Veterans without home address in Profile"
+    - "Veterans registered at multiple facilities"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "TBD"
+      qualifying_response: "TBD"
       
 participants:
   veterans: 0
@@ -71,39 +67,47 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2021-08-01 to TBD"
+  research_review_submission: "2021-07-27"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 0
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Increase Veteran satisfaction with VA.gov"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase completion rate on facility selection page"
+  - objective: "Decrease time to successfully complete online transactions"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Reduce time spent on facility selection page"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "products/health-care/appointments/va-online-scheduling/research/2021-05-facilities-personalization-research/research-plan.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: Appointments"
+  - "PRDT: VAOS"
+  - "PRDT: Health care"
+  - "DSC: List"
+  - "DSC: Alert"
+  - "DSC: Radio buttons"
+  - "DSP: Form design"
+  - "RESRCH: A/B test"
+  - "RESRCH: Quantitative"
+  - "authenticated"
+  - "facility-selection"
 ---
 
 # Research Plan - Facility Selection Variant Test

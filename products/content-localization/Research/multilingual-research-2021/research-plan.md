@@ -1,109 +1,128 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Content & Localization Team, Multilingual Content Research, August 31, 2021"
+date: 2021-08-31
+last_updated: 2026-02-10
+team: "Content & Localization Team"
+product: "Multilingual Content and Translation Solutions"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans and family members with limited English proficiency (LEP) need sustainable translation solutions to access VA.gov benefit content. We need to understand how best to meet their needs as we plan for the future of translated content."
+  product_location: "VA.gov benefit hub content, COVID-19 pages, and Language Assistance pages"
+  user_familiarity: "New - Phase 3 of phased translation approach focusing on sustainable solutions"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/content-localization/product-outline-working-drafts/markdown-version.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "mixed methods - ethnographic interviews and usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - "Understand what a good experience with online translated content looks like for Veterans and families with LEP"
+  - "Learn how Veterans and families with LEP navigate VA services currently"
+  - "Determine if Veterans are aware of and using language assistance services from VA"
+  - "Evaluate how findable and valuable the current translated VA.gov content is"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans and families with LEP currently search for translated content online?"
+  - "Where do they expect to find access to translated content on a website?"
+  - "What types of content do they most need translated?"
+  - "If they needed to apply for a VA benefit, would they apply online, by mail, call, or go in person?"
+  - "If they needed language assistance from VA, how would they try to get it?"
+  - "Are Veterans aware of and using language assistance services from VA?"
+  - "Can Veterans and family members with LEP find the current Language Assistance and Resources pages on VA.gov?"
+  - "Do currently translated COVID-19 pages offer value beyond the English content?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "By talking directly with Veterans and family members with LEP, we can gain insights that will help us best serve their needs moving forward"
+  - "The volume of use of existing language assistance at VA may be artificially lower because of lack of awareness that this assistance exists"
+  - "Veterans and family members with LEP may have specific content that's a higher priority to have in their first language"
+  - "The Language Assistance and Resources pages are hard to find in the footer"
+  - "The value of the translated COVID-19 pages are limited by the fact that most links go to English-language pages"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will help inform sustainable translation solutions and a near-term plan for offering more translated content that meets the needs of Veterans with LEP"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment with outreach to health equity office, Center for Minority Veterans, and caregiver program coordinators"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be a Veteran or family member/family caregiver of a Veteran"
+    - "Must speak Spanish"
+    - "Must have limited English proficiency - answers 'Not at all' or 'Not well' to how well they speak English"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 1 participant who has signed in to VA.gov within the past 6 months"
+    - "At least 1 participant enrolled in VA health care"
+    - "At least 2 participants who weren't born in the U.S. or have at least 1 parent who wasn't born in the U.S."
+    - "At least 1 person without a college degree"
+    - "At least 1 person with identified cognitive impairments and/or functional disabilities"
+    - "At least 1 person who uses a screen reader or other assistive device"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "How well do you speak English?"
+      qualifying_response: "Not at all or Not well"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 25
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-09-13"
+  pilot_participant: "Sharon Kasimow (product manager)"
+  research_dates: "2021-09-15 to 2021-09-24"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 8
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Increase the accessibility, reliability, and security of Veteran's digital services"
+  - objective: "Veterans can find a single, authoritative source of information"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/content-localization/product-outline-working-drafts/markdown-version.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Family Members"
+  - "AUD: Caregivers"
+  - "limited-english-proficiency"
+  - "LEP"
+  - "Spanish-language"
+  - "Tagalog-language"
+  - "translation"
+  - "localization"
+  - "language-assistance"
+  - "accessibility"
+  - "content-strategy"
+  - "ethnographic-interviews"
+  - "usability-testing"
+  - "mixed-methods"
+  - "health-equity"
+  - "inclusion"
 ---
 
 # Research Plan for Content & Localization team, Multilingual content research, August 31, 2021

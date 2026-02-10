@@ -1,109 +1,122 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VSA 10-10CG, Sign as Representative and Document Upload, January 2022"
+date: 2021-10-01
+last_updated: 2026-02-10
+team: "VSA 10-10 Team"
+product: "10-10CG Caregiver Application"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Currently only ~35% of uploaded documents can be accepted as legal proof for a representative to sign on behalf of a Veteran. This causes pain points for both processing staff and applicants who may need to resubmit applications."
+  product_location: "10-10CG form on VA.gov"
+  user_familiarity: "Iteration - improving existing representative workflow and document upload feature"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/caregivers"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - "Validate the usability of the updated representative workflow"
+  - "Validate if the new design and copy is likely to improve the percentage of accepted documents (Participants are aware that a medical stipulation is necessary)"
+  - "Validate that this question will not cause applicants to drop-off"
+  - "Validate that the updated design/copy better connects the representative question to the signature"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are participants uploading a document that can be legally accepted to give them the authority to sign this application on behalf of the Veteran?"
+  - "Are participants confused by any particular aspect of the representative workflow?"
+  - "Does the current representative workflow stop users from completing the form?"
+  - "Are participants clear that the reason for the document upload is to enable them to sign as a representative on behalf of the Veteran?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Participants will be able to navigate through the form relatively easily, but still might have confusion about what type of document is acceptable in this situation"
+  - "Participants will have a greater understanding that the document required is one that gives the representative the legal power to make medical decisions on behalf of the Veteran"
+  - "Participants will have an improved mental connection of the representative question and document upload to application signature"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform immediate adjustments to the representative workflow to improve document acceptance rates and reduce application processing delays"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be a caregiver to a Veteran (at least 3 participants)"
+    - "OR must be a Veteran who has a caregiver (at least 2 participants)"
+    - "At least 2 participants must be a Veteran's legal representative"
+    - "Must have laptop/desktop and be willing to complete test on device (prototype not available for mobile)"
+    - "Must be able to use Zoom, locate and use chat function, and share screen"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "50% women, 50% men"
+    - "50% people who identify as an ethnicity/race other than Caucasian"
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    - "At least 1 participant without a college degree"
+    - "At least 1 participant who lives in a rural or remote area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a caregiver to a Veteran?"
+      qualifying_response: "Yes"
+    - question: "Are you a Veteran who has a caregiver?"
+      qualifying_response: "Yes"
+    - question: "Are you a Veteran's legal representative?"
+      qualifying_response: "Yes (prioritize at least 2)"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 2
+  caregivers: 3
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 8
+  completed_sessions_goal: 5-6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2022-01-18 to 2022-01-19"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 15
+  max_sessions_per_day: 8
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans and their families can apply for all benefits online"
+  - objective: "Increase Veteran satisfaction with VA.gov Benefit use and enrollment, across all business lines"
+  - objective: "Decrease time to successful complete and submit online transactions"
+  - objective: "Decrease time to process online applications (vs. paper)"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Taking care of myself"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/caregivers/1010cg-mvp/Usability%20Study-Sign%20as%20Representative-%20February%202021"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/caregivers/1010cg-mvp/Sign-as-Rep-Round2-Usability-April%202021"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/caregivers/1010cg-mvp/Sign-as-a%20Rep-Round3-Oct2021/Content%20specific%20research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Caregivers"
+  - "AUD: Veterans"
+  - "PRDT: 10-10CG"
+  - "PRDT: Caregiver application"
+  - "BNFT: Healthcare"
+  - "DSP: Forms"
+  - "usability-testing"
+  - "representative-workflow"
+  - "document-upload"
+  - "authenticated-experience"
+  - "legal-documentation"
 ---
 
 # Research Plan: VSA 10-10, Sign as a representative and upload legal document 10-10CG form, January 2022

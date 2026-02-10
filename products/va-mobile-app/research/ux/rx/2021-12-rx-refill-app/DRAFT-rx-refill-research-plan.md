@@ -1,109 +1,120 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VA Mobile Team, Rx Refill, November 22, 2021"
+date: 2021-11-22
+last_updated: 2026-02-10
+team: "VA Mobile App Team"
+product: "VA Health & Benefits Mobile App - Rx Refill"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "A common request in pre-release research and post-launch Veteran feedback has been for Rx Refill functionality in the VA Health & Benefits App. We need to understand the existing standalone Rx Refill app and explore how to expose Rx Refill functionality to Veterans using authenticated mobile apps."
+  product_location: "VA Health & Benefits Mobile App"
+  user_familiarity: "New - exploring integration of existing Rx Refill app into flagship mobile app"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/product/Product-Outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - "Understand the Veteran experience using the Rx Refill app as it exists today"
+  - "Better understand the whole picture of how Veterans and caretakers manage prescriptions across online and offline touch points"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What native app opportunities are there to improve the experience of managing prescriptions?"
+  - "What is helpful about using the existing Rx Refill mobile app?"
+  - "What is challenging about using the existing Rx Refill mobile app? How does this compare to using MHV?"
+  - "What short and medium term steps can we take to improve on the status quo?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "We may be able to address Veteran Rx needs with seamless handoff from the Flagship app to the existing Rx Refill app"
+  - "There are significant improvements that will need to be made to the Rx Refill app to support this path"
+  - "Veterans will have requests to improve the app along several lines: Authentication, Key features requiring transfer to MHV website, Accessibility considerations, General fit and finish"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This study will give us a clear picture of how Veterans navigate Rx Refill today and inform decisions about integration approaches and necessary improvements"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must have an iOS or Android mobile device"
+    - "Must have VA prescribed medications that need refills"
+    - "Must be able to log into MyHealtheVet to manage prescriptions"
+    - "Mix of Veterans who do and do not currently use the VA Rx Refill mobile app"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Urban and rural participants"
+    - "Age diverse"
+    - "Racially diverse"
+    - "Education diverse"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have an iOS or Android mobile device?"
+      qualifying_response: "Yes"
+    - question: "Do you have any VA prescribed medications that you need to get refills for?"
+      qualifying_response: "Yes"
+    - question: "Are you able to log into MyHealtheVet to manage those prescriptions?"
+      qualifying_response: "Yes"
+    - question: "Do you use the VA Rx Refill mobile app?"
+      qualifying_response: "Mix of yes and no"
       
 participants:
-  veterans: 0
+  veterans: 5-8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 5-8
+  completed_sessions_goal: 5-8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2021-11-29"
+  pilot_participant: "TBD"
+  research_dates: "2021-11-30 to 2021-12-08"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+  - objective: "Logged-in users can update their personal information easily and instantly"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+  - objective: "Veterans and their families trust the security accuracy and relevancy of VA.gov"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Managing my declining health"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/product/Product-Outline.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: VA-mobile-app"
+  - "PRDT: Rx-refill"
+  - "MHV: Pharmacy"
+  - "BNFT: Healthcare"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+  - "authenticated-experience"
+  - "mobile"
+  - "HDW: Smartphone"
+  - "prescription-management"
+  - "medication-refill"
+  - "app-integration"
 ---
 
 
