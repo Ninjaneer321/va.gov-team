@@ -40,7 +40,7 @@ Ask VA users are classified by two distinct personas, using Ask VA as a personal
 
 **End State Solution**
 
-Decouple the existing form flow into two distinct personal and buiness user form flows.  Implement a business user form flow tailored to business user needs with focus on minimizing repetative data entry.  Implement a personal user form flow tailored to personal user needs with focus on user experience assurance while reducing category and topic lists overload.
+Decouple the existing form flow into two distinct personal and business user form flows.  Implement a business user form flow tailored to business user needs with focus on minimizing repetative data entry.  Implement a personal user form flow tailored to personal user needs with focus on user experience assurance while reducing category and topic lists overload.
 
 ## Outcomes
 - **User Experience Outcomes**: Users have a more personalized experience to submit their questions and an easy interaction with the Ask VA application so that they can submit inquiries more effieciently.
