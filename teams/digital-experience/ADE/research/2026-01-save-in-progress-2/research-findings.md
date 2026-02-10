@@ -254,12 +254,18 @@ After participants finished filling out the form, we asked when they thought the
 
 - _Supporting data: Quote [add context]_  
 
-### Finding 3: All 7 participants used the "Finish later" button to stop filling out the form, and successfully resumed by signing in and using the My VA page. 
-Participants found the "Finish later" button intuitive to save their work, even if they didn't remember it from the interstitial page. Only one person said they knew that it would save from their past experience with VA forms. One participant said that he was leery of losing his work if he stops in the middle:
+### Finding 3: All participants used the "Finish later" button to stop filling out the form, and then they successfully resumed the form. 
+All 7 participants found the "Finish later" button intuitive to save their work, even if they didn't remember it from the interstitial page. Only one person said they knew that it would save from their past experience with VA forms. One participant said that he was leery of losing his work if he stops in the middle:
 
-> *"I'd just sit here and finish it until I was done...I hate doing work and then having to come back and redo the exact same thing.Experience over time [with non-VA forms] has taught me to not trust what it's supposed to do" (p9).*
+> *"I'd just sit here and finish it until I was done...I hate doing work and then having to come back and redo the exact same thing.  Experience over time [with non-VA forms] has taught me to not trust what it's supposed to do...If it works like it should, everything up to the point where I stop should remain filled out, and when I log back in...it should take me right where I left off" (p9).*
 
-> *"If it works like it should, everything up to the point where I stop should remain filled out, and when I log back in...it should take me right where I left off" (p9).*
+5 of 7 participants knew that they needed to sign in to resume their form. One participant didn't know that, and another participant didn't need to sign in because of a prototype malfunction. 6 of the 7 participants resumed their form from the My VA page, and one did it from the form intro page.  
+
+> *"Right back to where I left off" (p11).*
+
+> *"That's nice that that's right there. I like that. I wouldn't have expected that for something that I was doing previously to pop up in my main page when I first sign in...That's a great feature because I forget easily, so I might not even remember what the form number was" (p9).*
+
+After resuming the form
 
 ### Finding 4: All 6 participants who interacted with the accordions on the Review/Submit page were able to easily open and close them with the controls on the left side (instead of the right).
 ### Finding 5: XX had some accessibility issues ...
@@ -269,6 +275,10 @@ Participants found the "Finish later" button intuitive to save their work, even 
 *Include insights that do not represent patterns but are still valuable.*  
 > **TIP:** These could be powerful user comments or unexpected issues worth noting
 
+1. Two participants said that they prefer to fill out forms on paper instead of online. One of them said it's easier and he likes to keep a copy. The other participant doesn't have a computer and said the following: 
+  > *"I'm thinking I could fill it out quicker if I had it in front of me in paper and pencil...Slow [on phone] because of my vision and I'm not the greatest typist. I have to look at the keys to type, that’s why I prefer to write it out" (p2).*
+
+  At the end of the session, this participant said that this session had helped her learn how to navigate back to an in-progress form. She had been planning to print out a paper form from an online form she already started because she needed to upload 15 documents, but at the end of the session, she said that she might try to upload them online, given that she already completed most of the online form and now knows that it's been saved. 
 
 ## Recommendations
 
