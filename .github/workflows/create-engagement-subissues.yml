@@ -58,6 +58,20 @@ jobs:
                 labels: ['engagement','org-onboarding','ar-crew']
               },
               {
+                title: 'Coordinate bulk contact info update',
+                body: `## Description
+            Provide updated contact info to OGC for ${orgAbbr}
+            
+            ## Tasks
+            - [ ] Review spreadsheet
+              - [ ] check for duplicates
+              - [ ] identify number of shared emails
+              - [ ] check for valid email addresses
+              - [ ] resolve any other data issues
+            - [ ] Share with OGC and confirm when org reps will be updated`,
+                labels: ['engagement','org-onboarding','ar-crew']
+              },
+              {
                 title: 'Schedule meeting',
                 body: `## Description
             Schedule initial onboarding meeting with ${orgAbbr}.
@@ -108,20 +122,6 @@ jobs:
             - [ ] Send follow-up message
             - [ ] Email template for reps
             - [ ] Confirm timeline for enabling access`,
-                labels: ['engagement','org-onboarding','ar-crew']
-              },
-              {
-                title: 'Coordinate bulk contact info update',
-                body: `## Description
-            Provide updated contact info to OGC for ${orgAbbr}
-            
-            ## Tasks
-            - [ ] Review spreadsheet
-              - [ ] check for duplicates
-              - [ ] identify number of shared emails
-              - [ ] check for valid email addresses
-              - [ ] resolve any other data issues
-            - [ ] Share with OGC and confirm when org reps will be updated`,
                 labels: ['engagement','org-onboarding','ar-crew']
               },
               {
@@ -182,6 +182,13 @@ jobs:
             
             for (const subIssue of subIssues) {
               const assignees = subIssue.labels.includes('engineering') ? [] : ['candilemoine'];
+
+              const issueTypes = await github.request("GET /repos/{owner}/{repo}/issues/types", {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+              });
+              
+              const taskType = issueTypes.data.find(t => t.name === "Task");
               
               const created = await github.rest.issues.create({
                 owner: context.repo.owner,
@@ -189,7 +196,8 @@ jobs:
                 title: `[ ${orgAbbr} ] ${subIssue.title}`,
                 body: `${subIssue.body}\n\nRelates to #${parentIssue.number}`,
                 labels: subIssue.labels,
-                assignees: assignees
+                assignees: assignees,
+                type: taskType.id
               });
               
               createdIssues.push({
