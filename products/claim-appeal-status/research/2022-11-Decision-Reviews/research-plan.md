@@ -1,109 +1,118 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Benefits Team 1: Decision Review Options, January 2023"
+date: 2022-11-01
+last_updated: 2022-11-01
+team: "Benefits Team 1"
+product: "Decision Review Options"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need better guidance on decision review options (Supplemental Claim, Higher Level Review, Notice of Disagreement) and understanding which use cases can be fully self-service given complexity and high stakes nature"
+  product_location: "Decision Review pages on VA.gov"
+  user_familiarity: "Iteration of existing decision review process"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-strategy.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews and concept prototype testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Learn about pain points in the decision review user journey from Veterans who have engaged in a decision review"
+  - goal_2: "Understand which decision review journeys can be fully self-service versus requiring VSO support"
+  - goal_3: "Test concept prototype to assess value of digital self-service tool for decision reviews"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Did you use VA.gov to file your decision review option?"
+  - "What were your main reasons for filing the decision review option?"
+  - "Did you consult a third party (Veteran rep, lawyer) when filing?"
+  - "What were your biggest challenges with the process?"
+  - "How helpful is the concept prototype for deciding which decision review option is right?"
+  - "What would you expect to happen if you filed a decision review option digitally?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "A fully self-service digital experience will not satisfy all use cases for Veterans pursuing decision reviews"
+  - "Veterans might not fully trust the VA to appoint a representative and prefer seeking their own"
+  - "Self-service works well for simplified or automated use cases like PACT Act experience"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Get foundational qualitative data to strengthen understanding of decision review options from Veteran perspective and identify problems to solve with design ideation"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling - recruit Veterans with different decision review experiences"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who have experience with decision review process for disability compensation claims"
+    - "20 participants who have submitted a Supplemental Claim"
+    - "10 participants who have submitted a Higher Level Review"
+    - "10 participants who have submitted a Notice of Disagreement"
+    - "Process happened within last ~5 years or currently in progress"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 20 Veterans who worked with a VSO in pursuing their decision review"
+    - "10 primarily mobile users"
+    - "10 Veterans in rural areas"
+    - "10 Veterans without a degree"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you ever submitted either a Supplemental Claim (Form 20-0995), a Higher Level Review (Form 20-0996), or a Notice of Disagreement (Form 10182)?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 40
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 40
+  completed_sessions_goal: 20
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-01-19"
+  pilot_participant: "Rocio de Santiago (rocio@coforma.io)"
+  research_dates: "2023-01-23 to 2023-02-03"
+  research_review_submission: "2023-01-12"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans and their families can apply for all benefits online"
+    key_results: "Enable online decision review applications"
+  - objective: "Logged-in users can easily track applications, claims, or appeals online"
+    key_results: "Improve tracking of decision review status"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Provide clear decision review guidance"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Personalize decision review recommendations"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-strategy.md"
+    - "https://www.va.gov/resources/choosing-a-decision-review-option/"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Decision-reviews"
+  - "PRDT: Supplemental-claims"
+  - "PRDT: Higher-level-review"
+  - "PRDT: Notice-of-disagreement"
+  - "semi-structured-interviews"
+  - "concept-testing"
+  - "authenticated"
+  - "DSC: Form"
 ---
 
 # Research Plan for Benefits Team 1: Decision Review Options

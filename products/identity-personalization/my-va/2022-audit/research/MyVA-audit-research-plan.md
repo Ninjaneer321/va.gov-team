@@ -1,109 +1,123 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, My VA Audit, January 2023"
+date: 2023-01-01
+last_updated: 2023-01-01
+team: "Authenticated Experience"
+product: "My VA"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "My VA 2.0 has inconsistencies between its five sections (nametag, Claims and appeals, Health care, Benefit payments and debts, Apply for benefits), making the page hard to manage and scale. Need to bring greater consistency to section loading, error handling, and conditional information display."
+  product_location: "va.gov/my-va"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/2022-audit"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if the updated information architecture of My VA still aligns with Veterans' mental model"
+  - goal_2: "Determine if showing all sections all the time on My VA has made the page more, less, or equally usable compared to its current state"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are Veterans able to find their top tasks on My VA and act on them if applicable?"
+  - "Is there any important information about top tasks or any categories missing on My VA?"
+  - "Is the new education section in a good place on the page for Veterans who are interested in those benefits?"
+  - "Is it clear what saved applications are and are they in a good place at the bottom of My VA?"
+  - "How do users react to loading states and/or errors on the page, especially in sections that don't apply to the user?"
+  - "For users who do not have claims, health care, debt, payments, education, or saved applications, how do they feel about seeing those sections presented on My VA?"
+  - "Do users know how to find out more about benefits they are not currently enrolled in?"
+  - "What information or actions do veterans expect to see in the links that we've added to empty sections?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will still be able to find what they're looking for upon login and act on it as needed"
+  - "Showing all sections all the time to LOA3 users will not be distracting and will help highlight benefits that Veterans may be interested in"
+  - "Most important top tasks will be present and have all important details on My VA, possibly with the exception of military records"
+  - "Based on analytics, the sections are presented so that the most popular actions and links will be closest to the top"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Based on findings, determine if updates are needed and continue to the next step of the collaboration cycle"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation targeting Veterans who use a variety of VA benefits and assistive tech users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "18 Veterans total requested"
+    - "Must have VA.gov account with verified identity (LOA3/IAL2+)"
+    - "Veterans who use a variety of VA benefits"
+    - "At least 4 assistive technology users (2 screen reader, 2 font resizing/magnification)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 8 women"
+    - "At least 10 people of various races"
+    - "At least 6 participants age 55+"
+    - "At least 4 with cognitive disabilities"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you need assistive technology to use your phone such as VoiceOver on an iPhone, TalkBack on an Android device, or JAWS on a computer?"
+      qualifying_response: "Yes, and able to join Zoom using assistive technology"
+    - question: "Do you normally need to resize font or use a magnification tool to see your screen?"
+      qualifying_response: "Yes, and able to join Zoom using these tools"
+    - question: "Do you have education, compensation, pension debt, or health care copay debt with VA?"
+      qualifying_response: "Yes to either qualifies for debt criteria (4 participants)"
+    - question: "Do you have a verified account on VA.gov?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 18
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 18
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-01-11"
+  pilot_participant: "Stephen Barrs (stephen.barrs@va.gov)"
+  research_dates: "2023-01-17 to 2023-01-23"
+  research_review_submission: "2023-01-09"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "My VA as single, authoritative source of personalized information"
+    key_results: "Present most relevant updates quickly and clearly while highlighting benefits of interest"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://app.mural.co/t/departmentofveteransaffairs9999/m/vsa8243/1648129585496/d22080eb307aac8bda5ba1153e013a386b7f1396"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: MyVA"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Records"
+  - "usability-testing"
+  - "authenticated-experience"
+  - "Accessibility"
+  - "screen-reader"
+  - "information-architecture"
+  - "personalization"
 ---
 
 # Research Plan for Authenticated Experience, My VA Audit, January 2023

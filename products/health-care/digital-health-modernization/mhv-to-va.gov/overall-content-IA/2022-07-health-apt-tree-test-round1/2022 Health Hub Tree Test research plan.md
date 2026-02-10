@@ -1,109 +1,119 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Health Hub Benefits Navigation, May 2022"
+date: 2022-05-01
+last_updated: 2022-05-20
+team: "Health Apartment Team (Team MOVE)"
+product: "Health Hub"
+product_area: "authenticated and unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans find it extremely difficult to navigate commonplace interactions with the VA. There is a fragmentation in information and tools on VA.gov. Navigating between general information and personalized information and tools is difficult. Veterans need to learn what benefits are available, apply, and then track and manage those benefits, but these stages are not well integrated."
+  product_location: "VA.gov - Health Apartment/Health Hub information architecture"
+  user_familiarity: "New organizational structure for health benefits on VA.gov"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/product/product-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "tree-test"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how to best organize the UX for 'get benefits' and 'manage benefits' specifically for health care on VA.gov"
+  - goal_2: "Evaluate the usability of navigation in and between the 'get benefits' and 'manage benefits' sections"
+  - goal_3: "Assess the labeling of health hub section and gain insight into user mental models as they get and manage their benefits and care"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can users (Veterans and Caregivers or family members) navigate proposed changes to VA.gov to find information or complete core tasks as they get and/or manage their VA health care benefits and care?"
+  - "Do Veterans find it easier to understand and navigate when there is one unified section to 'get benefits' and 'manage benefits'?"
+  - "Do Veterans find it easier to navigate when there are two separate sections for 'get benefits' and 'manage benefits'?"
+  - "How does the existing VA.gov sitemap compare to the two competing hypotheses?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Hypothesis 0: Veterans find it easier to understand the benefits that are available to them and navigate through the information when there is one unified section to 'get benefits' and 'manage benefits'"
+  - "Hypothesis 1: Veterans find it easier to navigate when there are two separate sections for 'get benefits' and 'manage benefits'"
+  - "We will also test the existing VA.gov sitemap to give us a baseline against which we can measure both hypotheses"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "To understand (and build consensus) how to best organize the UX for 'get benefits' and 'manage benefits' on VA.gov. We'll use the information architecture insights from this research to build and test prototypes of a future Health Hub."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Cohort-based recruitment with diverse representation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Mix of Veterans enrolled in VA healthcare and those not enrolled"
+    - "Mix of MyHealtheVet users and non-users"
+    - "Mix of Veterans receiving other VA benefits and those not receiving benefits"
+    - "Veterans' family members or caregivers who help a Veteran manage their VA health care"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse representation: Females, Minorities, Lower education, LGBTQAI2S+, Cognitive disorder"
+    - "Mix of healthcare enrollment status (enrolled using MHV, enrolled not using MHV, not enrolled)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a Veteran or a caregiver/family member of a Veteran?"
+      qualifying_response: "Either Veteran or caregiver/family member"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 162
+  caregivers: 27
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 189
+  completed_sessions_goal: 50
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "May 2022 (two weeks)"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 20
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Improved navigation and findability of health care information"
+  - objective: "Veterans can manage their health services online"
+    key_results: "Seamless navigation between getting and managing health benefits"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Intuitive information architecture for personalized health management"
+
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1651599026670/2772e2c581564b944192652107f455b311be69f9"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: Health-hub"
+  - "MHV: MyHealth"
+  - "tree-test"
+  - "information-architecture"
+  - "navigation"
+  - "findability"
+  - "unmoderated"
+  - "health-apartment"
+  - "get-benefits"
+  - "manage-benefits"
+  - "authenticated-experience"
+  - "unauthenticated-experience"
 ---
 
 # Research Plan for Health Hub Benefits Navigation. May 2022

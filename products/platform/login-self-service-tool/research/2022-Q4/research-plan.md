@@ -1,109 +1,128 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Platform Contact Center Team, Login Self-Service Tool, October 2022"
+date: 2022-10-17
+last_updated: 2022-10-28
+team: "Platform Contact Center Team"
+product: "Login Self-Service Tool"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans experiencing login issues must navigate lengthy resolution paths through VA 411 or AVA inquiries. However, resolution often resides within the credential provider, not VA.gov. The Login Self-Service tool aims to put users in contact with the appropriate help desk early in the resolution process, eliminating unnecessary steps that cost valuable time."
+  product_location: "VA.gov login process - tool to direct users to appropriate credential provider support"
+  user_familiarity: "Iteration - second round of testing on improved prototype"
+  product_brief_url: "N/A"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "contextual inquiry and usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand the user response to encountering login issues"
+  - goal_2: "Gather usability findings on a second iteration of the Login Self-Service Tool prototype"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How might we further clarify the different issue types so that users can pick the issue that pertains to them?"
+  - "How might we associate issues/errors experienced with relevant support resources?"
+  - "How might we empower users to resolve issues in ways they feel most comfortable?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will appreciate the visual and navigational simplicity of the Login Self-Service Tool."
+  - "Users will endorse the building and production of this tool to be accessed on the VA.gov site."
+  - "Some content within the tool may be superfluous, and we seek to discern what level of content is necessary."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Determine where within the login process users are most likely to access this product. Gauge the viability of the Login Self-Service Tool as a tool to be built and deployed into VA.gov production environment. Determine if the language and design employed within the prototype clearly indicates to the user when a resolution requires reaching out to their appropriate credential provider rather than calling the VA or submitting an AVA inquiry. Build more comprehensive prototype for future accessibility testing."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Inclusive recruitment with diverse representation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Has logged in to VA.gov within the past 6 months"
+    - "Has Login.gov, ID.me, DS Logon, or My HealtheVet credentials"
+    - "5 participants to join on a mobile device"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Eight participants from the 55-64+ age group"
+    - "Eight participants with cognitive disabilities"
+    - "Four participants from rural areas"
+    - "Four participants without a college degree"
+    - "At least 2 participants who identify as women"
+    - "At least 4 participants who identity as non-Caucasian"
+    - "At least 2 participants who use assistive technology (hearing aids and magnification/zoom)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you logged in to VA.gov within the past 6 months?"
+      qualifying_response: "Yes"
+    - question: "Do you have Login.gov, ID.me, DS Logon, or My HealtheVet credentials?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 15
+  completed_sessions_goal: 12
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-10-17"
+  pilot_participant: "Platform Contact Center team member"
+  research_dates: "2022-10-17 to 2022-10-28"
+  research_review_submission: "2022-10-10"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+    key_results: "Reduce login barriers to accessing health services"
+  - objective: "Logged-in users can easily track applications, claims, or appeals online"
+    key_results: "Improve login success rates"
+  - objective: "Logged-in users can update their personal information easily and instantly"
+    key_results: "Streamline authentication process"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Reduce time to resolve login issues"
+  - objective: "Veterans and their families trust the security, accuracy, and relevancy of VA.gov"
+    key_results: "Increase satisfaction with login process and reduce call center volume"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out: Engaging VA to access benefits and services"
+  - "Taking Care of Myself: Managing primary care and chronic health issues"
+  - "Retiring: Finding additional sources of income"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Login Self-Service Tool Q3 2022 research (same product directory)"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: Login-self-service-tool"
+  - "DSP: Help users to sign in"
+  - "DSP: Help users to recover from an error"
+  - "usability-testing"
+  - "contextual-inquiry"
+  - "remote"
+  - "authentication"
+  - "Login.gov"
+  - "ID.me"
+  - "DS-Logon"
+  - "My-HealtheVet"
+  - "self-service"
+  - "contact-center"
+  - "accessibility"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "mobile"
 ---
 
 # Research Plan for Contact Center Login Self-Service Tool, October 2022

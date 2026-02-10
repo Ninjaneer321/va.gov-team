@@ -1,109 +1,121 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for HMI team, Medical Records, October/November 2022"
+date: 2022-10-01
+last_updated: 2022-10-17
+team: "Health and Medical Information (HMI) Team"
+product: "Medical Records"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Part of the Digital Health Modernization strategy to create a centralized place for Veterans to access their health information. My HealtheVet (MHV) will be moved to VA.gov. Discovery research identified gaps that must be addressed via primary research with Veterans to ensure that the Medical Records experience on the redesigned MHV will enable Veterans to complete their top tasks with minimal pain points."
+  product_location: "MHV on VA.gov - Medical Records"
+  user_familiarity: "Iteration on existing MHV Medical Records functionality"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews with card sorting"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Gain insight into user needs and goals related to medical records"
+  - goal_2: "Understand users' emic understandings of medical records-related terms"
+  - goal_3: "Understand how these needs, goals, and understandings influence their behaviors"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What terms do Veterans and Caregivers use to describe: medical records, laboratory results, medical test results, medical imaging, radiology, pathology, service-related records from DoD, admissions & discharge summaries, pre-visit and after-visit summaries, and procedures?"
+  - "How do Veterans and Caregivers understand the existing medical records-related terminology on MHV and how does that understanding shape their behavior on the website?"
+  - "What actions do Veterans and Caregivers need to take with their medical records and for what purposes?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Some Veterans and Caregivers will use different terms than those displayed via Blue Button reports for at least some of the medical records-related terms"
+  - "Some Veterans and Caregivers will not understand all of the medical records-related terms without support"
+  - "Some Veterans and Caregivers will not know what Blue Button, VA Health Summary, and Department of Defense medical records include, nor will know where to find specific information across the three options"
+  - "Some Veterans and Caregivers will want to be able to view and share their medical records, while others will want to identify key information to use for other purposes (e.g., to support a disability claim)"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will inform the low fidelity prototype for the medical records redesign on VA.gov"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Diverse sample across age, abilities, and ethnicities"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Have used an online patient portal in the past 12 months"
+    - "Mix of Veterans and Caregivers"
+    - "Mix of MHV users (basic, premium accounts) and non-users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse demographics including various sex, age, race, and education levels"
+    - "Mix of rural and urban residence"
+    - "Mix of device usage (desktop and smartphone)"
+    - "Include participants with assistive technology needs"
+    - "Include participants with cognitive impairments or functional disabilities"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you used an online patient portal in the past 12 months?"
+      qualifying_response: "Yes"
+    - question: "Do you have experience using VA health care, either for yourself or on behalf of another person?"
+      qualifying_response: "Mix of yes and no responses"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 16
+  caregivers: 8
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 24
+  completed_sessions_goal: 20
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-10-17"
+  pilot_participant: "TBD"
+  research_dates: "2022-10-31 to 2022-11-11"
+  research_review_submission: "2022-10-17"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
+  - objective: "Veterans can manage their health services online"
+    key_results: "Enable Veterans to access and understand their medical records"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Consolidate medical records information and terminology"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Improve medical records user experience and findability"
+
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-09-informational-interviews"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: Medical-records"
+  - "MHV: Medical Records"
+  - "MHV: MyHealth"
+  - "semi-structured-interviews"
+  - "card-sort"
+  - "generative-research"
+  - "terminology"
+  - "findability"
+  - "health-apartment"
+  - "authenticated-experience"
+  - "Blue-Button"
 ---
 
 # Research Plan for HMI team, Medical Records, October/ November 2022

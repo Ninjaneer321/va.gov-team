@@ -1,109 +1,112 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VAOS Team, Appointments List Usability Test, September 2022"
+date: 2022-08-17
+last_updated: 2022-08-17
+team: "VA Online Scheduling (VAOS) Team"
+product: "VA Online Scheduling (VAOS) Appointments List"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "VAOS and MyHealtheVet teams identified gaps between scheduling features. Need to evaluate redesigned appointment list and details page based on gap analysis and previous concept testing."
+  product_location: "VA.gov - VA Online Scheduling"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/appointment-list/product-outline-appointment-list-2022.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "usability testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Evaluate usability and value of the appointment list redesign"
+  - goal_2: "Test a concept for changes to the appointments details page"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can appointments be found by date/time, modality, and VA vs CC?"
+  - "Do the type of care and provider name make sense in the list?"
+  - "Does 'Pending' and 'Past' language make sense? Are they easy to navigate to?"
+  - "Are the details pages easy to navigate to?"
+  - "Can participants easily understand the meaning of modality in the appointment list - do they understand where they need to be?"
+  - "Do Veterans need a physical print 'button'?"
+  - "What would Veterans do next after viewing their appts in the list?"
+  - "Is the information on the details pages easy to understand and scan?"
+  - "Does the back button on the details page make sense?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The appointments list will provide clear, valuable information and be easy to navigate"
+  - "The details pages will provide clear, valuable information and be easy to navigate"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Finalize designs and update the appointments list. Decide on next steps for redesigning the details pages."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "separate recruitment for mobile and desktop users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "8 participants who primarily use a desktop/laptop computer (must attend on desktop/laptop)"
+    - "8 participants who primarily use a tablet or other mobile device (must attend on mobile)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - "At least 1 veteran with a cognitive disability per group"
+    - "At least 1 LGBTQ+ Veteran per group"
+    - "At least 1 Native Veteran per group"
       
 participants:
-  veterans: 0
+  veterans: 16
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 16
+  completed_sessions_goal: 16
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
-  
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2022-08-29 onward"
+  research_review_submission: "2022-08-17"
+
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  buffer_minutes: 15
+  max_sessions_per_day: 3
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Unified appointments list that meets Veteran needs"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Increase Veteran satisfaction and decrease call center volume"
+
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
+  previous_studies:
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/products/health-care/appointments/va-online-scheduling/research/2022-01-mhv-and-vaos-appts-list-discovery/research-findings.md"
+    - "MHV+VAOS Gap analysis recommendations (VA Network)"
+
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Appointments"
+  - "PRDT: VA Online Scheduling"
+  - "MHV: Appointments"
+  - "usability-testing"
+  - "authenticated-experience"
+  - "mobile"
+  - "desktop"
+  - "VAOS"
+  - "MyHealtheVet"
+  - "cognitive-disability"
 ---
 
 Research plan for VAOS appointments list usabilty test

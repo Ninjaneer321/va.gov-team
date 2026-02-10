@@ -1,109 +1,109 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VBA MVP Editor-facing Discovery, October 2022"
+date: 2022-08-01
+last_updated: 2022-08-01
+team: "CMS Facilities Team"
+product: "VBA Regional Office Facility Pages - CMS Editor Experience"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Between 5 and 7 VBA Regional Office facilities will be involved in the launch of the MVP for publishing VBA facility information in Drupal. The MVP seeks to uncover situations unique to VBA facilities that may require new research, change management planning, product development, and user testing before the full roll-out to all VBA facilities. We need to understand the context for event- and staff-related information, situational updates related to a facility, and how web editors prioritize and understand the website as a service delivery channel."
+  product_location: "Drupal CMS - VBA facility pages editor experience"
+  user_familiarity: "New product - MVP for VBA facilities"
+  product_brief_url: "https://app.zenhub.com/workspaces/vagov-cms-team-5c0e7b864b5806bc2bfc2087/issues/department-of-veterans-affairs/va.gov-cms/10191"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand from CMS editors' perspectives the context for event- and staff-related information"
+  - goal_2: "Understand how CMS editors handle situational updates related to a facility"
+  - goal_3: "Understand how web editors for a facility prioritize the publishing of facility information on the website, understand the website as a service delivery channel, and want to learn how to use Drupal CMS"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do editors get their facility's operating status and visitor and event information to put on the website? How often do they update this information?"
+  - "What is the process for publishing situational updates?"
+  - "What are editors' priorities in relation to making facility information available?"
+  - "What are editors' understanding of the website as a service delivery channel? Do they have any feedback on the website?"
+  - "What are editors' overall comfort level with technology and content management systems in particular?"
+  - "How might we help users learn about Drupal CMS?"
+  - "What tasks should be included on the VBA editor dashboard?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The new Drupal CMS facilities product will address 508 compliance while the associated change management approach, training, and user support will create a positive experience for the MVP editors"
+  - "VBA editors will have similar needs to Vet Center editors who moved to Drupal CMS starting in 2021, based on the similar scope of facility content and knowledge of CMS tools for web publishing"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The results will be used to develop recommendations for OCTO-DE to inform: a task-based CMS dashboard for authenticated VBA editors, development of the VBA facility product, the change management strategy and plan for the MVP and the full rollout of the CMS to all VBA facilities, the training plan for the MVP and the full rollout, and future research for the VBA project"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Internal - CMS Facilities team with OCTO-DE product owner"
+  approach: "purposive sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Are at a Regional Office chosen for the MVP"
+    - "Have a range of experience with web publishing"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - "Diversity of experience levels with CMS tools"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 14
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-09-30"
+  pilot_participant: "TBD"
+  research_dates: "2022-10-01 to 2022-10-31"
+  research_review_submission: "2022-09-01"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 20
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Increase the quality and reliability of VA services"
+    key_results: "Veterans and their families can find a single, authoritative source of information"
+  - objective: "Increase usage of digital, self-service tools"
+    key_results: "Decrease call center volume, wait time, and time to resolution"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out - Engaging VA to access benefits and services"
+  - "Starting Up - Finding something to do, re-establishing and creating relationships"
+  - "Putting Down Roots - Engaging VA to access benefits and services"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/regional-offices/research/2022-8-veteran-facing/research-plan.md"
+    - "Vet Center Drupal CMS migration (2021)"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: VA Staff"
+  - "AUD: CMS Editors"
+  - "PRDT: Facilities"
+  - "PRDT: CMS"
+  - "PRDT: Regional-offices"
+  - "semi-structured-interviews"
+  - "authenticated"
+  - "remote"
+  - "editor-experience"
+  - "change-management"
+  - "training"
+  - "VBA"
+  - "MVP"
 ---
 
 # Research Plan for VBA MVP Editor-facing Discovery – August 2022

@@ -1,109 +1,128 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Facilities Benefit Offices, September 2022"
+date: 2022-08-01
+last_updated: 2022-08-01
+team: "Facilities Team"
+product: "VBA Regional Benefit Office Facility Pages"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veteran Benefits Administration offices (Benefit Offices) provide clients (Veterans, service members, family members, caregivers, etc.) access to non-medical benefits including education and training, pension, life insurance, home loans, and special services. The Benefit Office webpages need to give important information about physical locations where beneficiaries can apply for and receive benefits. We need to understand Benefit Office clients' experiences, impressions, and relationships with Benefit Offices to inform the Regional Benefit Office MVP design."
+  product_location: "VA.gov public unauthenticated web - Benefit Office facility pages"
+  user_familiarity: "New product - expanding on Facility Locator, VAMCs, and Vet Centers work"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/regional-offices"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand a Benefit Office clients' experiences, impressions, and relationships with Benefit Offices"
+  - goal_2: "Understand what benefit-related tasks clients complete at Benefit Offices and their experiences visiting facilities"
+  - goal_3: "Understand what information clients need when preparing for a visit and how this varies by facility type, benefit service, geography, and demographics"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What benefit-related tasks do clients complete at Benefit Offices? Is visiting a Benefit Office necessary/sufficient to complete the task? Do clients have preferred modalities? Do clients' mental models align to actual processes?"
+  - "What is the client experience of visiting a Benefit Office? How do clients travel to Benefit Offices? How do clients find their way to appointments? What is the reception experience?"
+  - "What information do clients need when preparing for a visit? How do clients prepare for their visits? Do clients feel prepared? Do clients understand the different types of Benefit Offices?"
+  - "To what extent do the answers vary by facility type, benefit service, geography, and client demographics?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "What benefit-related tasks do clients complete at Benefit Offices? - We expect high variance by facility type and benefit service; moderate variance by client demographics; little to no variance by geography"
+  - "What is the client experience of visiting a Benefit Office? - We expect high variance by facility type and geography; moderate variance by benefit service; little to no variance by client demographics"
+  - "What information do clients need when preparing for a visit? - We expect high variance by facility type and benefit service; moderate variance by client demographics; little to no variance by geography"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "It will give us a fuller understanding of what Benefit Office clients need, and allow us to make design recommendations for the Regional Benefit Office MVP"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans, active duty service members, or caregivers"
+    - "Must have visited a VA Benefits Office (Regional Benefit Office, Satellite Benefit Office, Integrated Disability Evaluation System Site, Pre-Discharge Site, Veteran Readiness and Employment Office, or VetSuccess On Campus) in the last 6 months"
+    - "Visit related to burial claim, disability, education and career counseling, home loans, pension, vocational rehabilitation, or other benefits"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
+    - "At least one client from each Benefit Office District (Northeast, Southeast, Continental, Pacific)"
+    - "Sample across different benefit types (Burial claim: 2, Disability: 2, Education and career counseling: 2, Home Loan: 2)"
+    - "At least one caregiver or family member"
+    - "Diverse demographics following MVS sampling strategy"
+  
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "In the last 6 months, have you visited a VA Benefits Office from the following list? (Regional Benefit Office, Satellite Benefit Office, Integrated Disability Evaluation System Site, Pre-Discharge Site, Veteran Readiness and Employment Office, VetSuccess On Campus)"
+      qualifying_response: "Yes"
+    - question: "Which benefit(s) was your visit related to? (Burial claim, Disability, Education and career counseling, Home Loans, Pension, Vocational Rehabilitation, Other)"
+      qualifying_response: "Any"
       
 participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  veterans: 15
+  caregivers: 2
+  dependents: 2
+  total_recruited: 19
+  completed_sessions_goal: 15
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-09-19"
+  pilot_participant: "Christian Burk (christian.burk@civicactions.com)"
+  research_dates: "2022-09-26 to 2022-10-05"
+  research_review_submission: "2022-08-15"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 15
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: "Increase usage of digital, self-service tools; Increase benefit use and enrollment; Increase Veteran satisfaction with VA.gov"
+  - objective: "Decrease the time Veterans spend waiting for an outcome"
+    key_results: "Decrease call center volume, wait time, and time to resolution"
+  - objective: "Increase the quality and reliability of VA services"
+    key_results: "Veterans and their families can find a single, authoritative source of information; Veterans and their families trust the security, accuracy, and relevancy of VA.gov"
+  - objective: "Veterans and their families can apply for all benefits online"
+    key_results: "Percent of applications submitted online"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out - Engaging VA to access benefits and services"
+  - "Starting Up - Finding something to do, re-establishing and creating relationships, balancing finances, finding a place to live"
+  - "Reinventing Myself - Acquiring the appropriate education, new skills, and credentials"
+  - "Putting Down Roots - Revisiting housing, taking care of my family, saving for my retirement, Engaging VA to access benefits and services"
+  - "Retiring - Finding additional sources of income"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Facility Locator research"
+    - "VAMC research"
+    - "Vet Centers research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "AUD: Caregivers"
+  - "AUD: Family Member"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Housing"
+  - "BNFT: Pension"
+  - "BNFT: Burial"
+  - "PRDT: Facilities"
+  - "PRDT: Regional-offices"
+  - "semi-structured-interviews"
+  - "unauthenticated"
+  - "remote"
+  - "VBA"
+  - "benefit-offices"
+  - "generative-research"
 ---
 
 # Research Plan for Facilities, Benefit Offices, August 2022

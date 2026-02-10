@@ -1,109 +1,122 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, Profile Editing Evaluation, September 2022"
+date: 2022-09-01
+last_updated: 2022-09-01
+team: "Authenticated Experience"
+product: "VA.gov Profile"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Accessibility specialists advocate for 'one thing per page' pattern for VA.gov forms to improve usability. Considering this pattern for profile, but unclear if there are actual user problems this would solve since profile has relatively simple forms."
+  product_location: "va.gov/profile"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Learn whether edit-in-place pattern presents major usability problems for people with cognitive disabilities on mobile devices"
+  - goal_2: "Identify any other usability hurdles in profile"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What challenges do people encounter related to in-line editing, especially address information and notification preferences?"
+  - "How easily can people understand and navigate address validation?"
+  - "Do people encounter any usability hurdles with updating notification settings?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "People will be able to easily update 1-2 field forms (such as phone number) with in-line editing"
+  - "People will encounter usability hurdles with more complex forms/flows such as address validation"
+  - "People will not encounter significant usability hurdles when updating their notification settings"
+  - "If people can edit their profile without major challenges, we can be more confident edit-in-place pattern works well for all Veterans"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Understand how well current profile editing pattern supports self-service for managing personal information and plan future iterations"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Focus on people with cognitive disabilities and people who use assistive technology, plus underrepresented groups"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "12 participants requested for 8 completed sessions"
+    - "All participants must have cognitive disabilities"
+    - "Must have various assistive technology users (4 screen reader, 6 font resizing/magnification)"
+    - "Must be able to join Zoom session using assistive technology or mobile device"
+    - "All must have VA.gov account with verified identity (LOA3/IAL2+)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "12 various sex representation"
+    - "7 people of various races (1 Black, 1 Latinx, 1 Asian, 1 Native, 1 Pacific Islander)"
+    - "8 various ages, with 4 age 55+"
+    - "12 various education levels"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you need assistive technology to use the internet such as VoiceOver, TalkBack, or JAWS?"
+      qualifying_response: "Yes and able to join Zoom using assistive technology"
+    - question: "Do you normally need to resize font or use a magnification tool to see your screen?"
+      qualifying_response: "Yes and able to join Zoom using these tools, OR able to use mobile device"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-09-23"
+  pilot_participant: "John Cater (john.cater@govcio.com)"
+  research_dates: "2022-09-27 to 2022-09-29"
+  research_review_submission: "2022-09-15"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Logged-in users can update their personal information easily and instantly"
+    key_results: "Improved editing patterns for profile management"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Profile serves as centralized location for personal information"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Efficient self-service for managing personal information"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/issues/46871"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: Profile"
+  - "DSC: Form"
+  - "DSP: Ask users for addresses"
+  - "DSP: Ask users for phone numbers"
+  - "usability-testing"
+  - "authenticated-experience"
+  - "Accessibility"
+  - "screen-reader"
+  - "cognitive-disability"
+  - "mobile"
+  - "notification-preferences"
+  - "address-validation"
+  - "contact-information"
+  - "edit-in-place"
 ---
 
 # Research Plan for Authenticated Experience, Profile Editing Evaluation, September 2022

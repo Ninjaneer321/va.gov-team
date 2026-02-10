@@ -1,109 +1,132 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for MHV Personal Information, Veteran Interviews, March 2022"
+date: 2022-03-01
+last_updated: 2022-03-01
+team: "Authenticated Experience"
+product: "VA.gov Profile - MHV Integration"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "MyHealtheVet has its own profile within Personal Information section. To support health apartment transition, need to understand how Veterans use MHV profile to inform approach to aligning it with VA.gov profile."
+  product_location: "MyHealtheVet Personal Information section and VA.gov Profile"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/mhv-profile-research"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews and card sort"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how MHV users use the personal information sections, especially certain fields in My Profile and My Links section"
+  - goal_2: "Understand where MHV users expect to find health-related profile information"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What level of familiarity do MHV users have with the personal information section?"
+  - "How do MHV users update their personal information, if not through the MHV profile?"
+  - "How useful are My VA Treating Facility fields, My relationship with VA field, Health information card, My links feature, and In Case of emergency feature?"
+  - "What information from personal information section is important for MHV user to be able to edit?"
+  - "How might the current VA.gov profile meet MHV user needs?"
+  - "Where do MHV users expect to find health-related preference and personal information, such as blood type and treating facilities?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "MHV users completed registration only once, so won't have much familiarity with personal information section"
+  - "MHV users update their personal information at a clinic or over the phone, not through MHV"
+  - "Based on low page visits in analytics, personal information section pages are not useful to MHV users"
+  - "Veterans will be confused about 'My VA treating facility' fields due to little context"
+  - "The 'My relationship with the VA' field will not be useful - Veterans expect VA to know that"
+  - "MHV users will prioritize being able to edit contact information and prescriptions as those change most"
+  - "MHV users expect to find personal health-related information within health apartment rather than in profile"
+  - "VA.gov profile will mostly meet needs of MHV users, except for absence of MHV notification settings"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Inform strategy for moving forward with rolling MHV profile into VA.gov profile"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "20 participants requested for 10 completed sessions"
+    - "Must have MHV premium account and logged in within last 12 months"
+    - "At least 50% must have received care in VA medical facilities in two different states in last 18 months"
+    - "Must be willing to login to MHV account and share screen via Zoom"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 50% identify as Black, Hispanic/Latina/Latinx, or Native"
+    - "At least 50% identify as having a cognitive consideration"
+    - "At least 50% identify as other than male"
+    - "At least 50% without degree or professional certificate"
+    - "At least 25% under 35"
+    - "At least 25% over 55"
+    - "100% with identified cognitive disability"
+    - "More than 50% age 55 or older"
+    - "More than 50% in rural area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have a MHV account?"
+      qualifying_response: "Yes"
+    - question: "Is your account basic or premium? (Account level shown next to welcome message once signed in)"
+      qualifying_response: "Premium"
+    - question: "Have you used any features on MHV within the last 12 months? (Features include secure messaging, refilling prescriptions, accessing medical records)"
+      qualifying_response: "Yes"
+    - question: "Within the last 18 months, have you been to VA medical centers in two different states to receive care?"
+      qualifying_response: "Yes for at least 50% of participants"
       
 participants:
-  veterans: 0
+  veterans: 20
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 20
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-03-29"
+  pilot_participant: "Pilot already completed"
+  research_dates: "2022-03-30 to 2022-04-05"
+  research_review_submission: "2022-03-22"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Logged-in users can update their personal information easily and instantly"
+    key_results: "Seamless integration of MHV profile with VA.gov profile"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Unified profile experience across VA digital properties"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/mhv-profile-research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: Profile"
+  - "MHV: MyHealth"
+  - "BNFT: Healthcare"
+  - "semi-structured-interviews"
+  - "card-sort"
+  - "authenticated-experience"
+  - "health-apartment"
+  - "personalization"
+  - "contact-information"
+  - "DSP: Ask users for addresses"
+  - "DSP: Ask users for phone numbers"
+  - "notification-preferences"
 ---
 
 # Research Plan for MHV personal information, Veteran interviews, March 2022

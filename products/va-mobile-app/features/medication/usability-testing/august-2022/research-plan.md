@@ -1,109 +1,130 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VA Mobile App Team, Pharmacy (Medication), August 2022"
+date: 2022-08-17
+last_updated: 2022-08-26
+team: "VA Mobile App Team"
+product: "VA Mobile App - Pharmacy Feature"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The VA Mobile App aims to make it easier and faster for users already engaged with the VA to complete small transactions. Following June 2022 usability testing, significant organizational changes were made to how pharmacy information is displayed. Need to validate that these changes are intuitive and still meet Veteran needs."
+  product_location: "VA Mobile App - Pharmacy feature for managing prescriptions"
+  user_familiarity: "Iteration - second round of usability testing after organizational changes"
+  product_brief_url: "N/A"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if users are able to navigate the IA, request prescription refills, and find prescriptions that they are looking for"
+  - goal_2: "Identify major usability or content issues with the current designs"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are users able to easily find and access the refill modal?"
+  - "Do users understand where requested refills go and where to find requested refills?"
+  - "Are users able to successfully find prescriptions they're looking for?"
+  - "Do users understand the tab structure and what items could be in the tabs?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will be able to easily access the refill modal"
+  - "Veterans will be able to navigate the IA, understand the tab structure, and what items could be in the tabs"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Determine if there are any big usability concerns that Veterans experience with the designs. Inform if the currently implemented designs can be released to production or if additional refinements are needed."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean representative strategy for inclusive research"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Can join via a mobile device (tablet or phone)"
+    - "Veterans with experience managing VA prescriptions using MHV or the Rx refill app"
+    - "Managing prescriptions defined as: refilling, viewing history, tracking packages, or renewing VA prescriptions"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "8 participants 55-64+"
+    - "8 participants with cognitive disabilities"
+    - "4 participants from rural areas"
+    - "4 participants without a degree"
+    - "At least 4 participants that identify as women"
+    - "At least 4 participants that identify as non-Caucasian"
+    - "At least 2 participants that use assistive technology (amplified telephone, hearing aid, cochlear implant, cane, walker, guide animal, wheelchair, prosthetics)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Can you join via a mobile device (tablet or phone)?"
+      qualifying_response: "Yes"
+    - question: "Do you have experience managing VA prescriptions using MHV or the Rx refill app?"
+      qualifying_response: "Yes"
+    - question: "Have you refilled, viewed, tracked, or renewed a VA prescription?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 15
+  completed_sessions_goal: 12
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-08-16"
+  pilot_participant: "TBD"
+  research_dates: "2022-08-17 to 2022-08-26"
+  research_review_submission: "2022-08-10"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+    key_results: "Expand mobile app transactions to include pharmacy management"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Provide consolidated pharmacy information in mobile app"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Enable quick prescription refill and tracking in mobile context"
+  - objective: "Veterans and their families trust the security accuracy and relevancy of VA.gov"
+    key_results: "Ensure accurate prescription information and secure transactions"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up: Attending to health needs"
+  - "Taking Care of Myself: Managing primary care and chronic health issues"
+  - "Taking Care of Myself: Recognizing and addressing mental health needs"
+  - "Taking Care of Myself: Seeking support for an acute health event"
+  - "Taking Care of Myself: Maintaining my health"
+  - "Retiring: Taking care of my health"
+  - "Aging: Managing my declining health"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "VA Mobile App Pharmacy Usability Testing June 2022"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/features/rx-refill/usability-testing/august-2022/conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VA-mobile-app"
+  - "MHV: Pharmacy"
+  - "usability-testing"
+  - "remote"
+  - "mobile"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "prescriptions"
+  - "medication-management"
+  - "refills"
+  - "accessibility"
+  - "information-architecture"
+  - "navigation"
 ---
 
 # Research Plan for VA Mobile Team, Pharmacy, 08/2022

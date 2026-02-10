@@ -1,109 +1,121 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Lovell Federal Experience Testing, June 2022"
+date: 2022-06-01
+last_updated: 2022-06-01
+team: "Facilities Team"
+product: "Lovell Federal Health Care Center"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The Lovell Federal Facility services both VA beneficiaries and DoD/TRICARE beneficiaries, but the unauthenticated top tasks for these beneficiaries are accomplished in separate locations, making the experience confusing. Veterans need clear separation between VA health care and TRICARE health care locations and content."
+  product_location: "VA.gov VAMC facility pages - Lovell Federal Health Care Center system and location pages"
+  user_familiarity: "Iteration - Veterans are familiar with modernized location design, but the split between VA and DoD/TRICARE experiences is new"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/medical-centers/initiatives/2022-2023-lovell/lovell-initiative-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine whether Veterans and dual-eligible Veterans know where they can receive care at Lovell Federal Health Care Center"
+  - goal_2: "Determine whether participants notice and understand the informational alert"
+  - goal_3: "Determine whether dual-eligible Veterans understand when to use the VA health care experience vs. the TRICARE health care experience"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Will Veterans and dual-eligible Veterans know where they can receive care at Lovell Federal Health Care Center?"
+  - "Will participants notice and understand the informational alert?"
+  - "Will dual-eligible Veterans understand when to use the VA health care experience vs. the TRICARE health care experience?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans and dual-eligible Veterans will be able to identify whether the page they are on is for VA or TRICARE health care beneficiaries"
+  - "The informational alerts helps Veterans and dual-eligible Veterans understand whether they're viewing VA or TRICARE health information, and to navigate to the other experience, if desired"
+  - "Veterans are familiar with a location experience that does not separate the experience by beneficiary, but they will be able to identify which health care they need and where they can find it"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will help to determine whether the design solution is understood by Veterans and dual-eligible Veterans, or if additional iterations are needed"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "At least 5 participants must be enrolled in only VA health care"
+    - "At least 5 participants must be retired from active duty and actively enrolled in VA health care and TRICARE health care"
+    - "Laptop or desktop computer only (no mobile devices)"
+    - "Be able to screenshare via Zoom"
+    - "At least 2 participants under 35 years old"
+    - "At least 2 participants over 55 years old"
+    - "At least 2 participant with cognitive disabilities"
+    - "At least 5 participants with no college degree or professional certificates"
+    - "At least 5 participants of color"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - "Mix of Veterans and Caregivers"
+    - "All genders"
+    - "A mix of rural and urban participants"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 15
+  caregivers: 5
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 20
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-06-03"
+  pilot_participant: "Jay Darnell (jay.darnell@civicactions.com)"
+  research_dates: "2022-06-06 to 2022-06-10"
+  research_review_submission: "2022-06-01"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 45
+  buffer_minutes: 15
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: "Increase usage of digital, self-service tools; Increase Veteran satisfaction with VA.gov"
+  - objective: "Veterans can manage their health services online"
+    key_results: "Veterans and their families can find a single, authoritative source of information"
+  - objective: "Veterans and their families trust the security accuracy and relevancy of VA.gov"
+    key_results: "Decrease time from online benefit discovery to benefit delivery"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out - Engaging VA to access benefits and services"
+  - "Starting Up - Attending to health needs"
+  - "Taking Care of Myself - Managing primary care and chronic health issues"
+  - "Taking Care of Myself - Recognizing and addressing mental health needs"
+  - "Taking Care of Myself - Maintaining my health"
+  - "Putting Down Roots - Engaging VA to access benefits and services"
+  - "Retiring - Taking care of myself"
+  - "Aging - Managing my declining health"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/facility-locator/product-transition-doc/feature-docs/lovell-federal-health.md#vsa-lovell-federal-health-ux-research-and-design-hub"
+    - "Earlier VAMC research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Service Members"
+  - "BNFT: Healthcare"
+  - "PRDT: Facilities"
+  - "PRDT: VAMC"
+  - "usability-testing"
+  - "unauthenticated"
+  - "remote"
+  - "lovell-federal"
+  - "tricare"
+  - "dual-eligible"
 ---
 
 # Research Plan for Lovell Federal Experience Testing, June 2022

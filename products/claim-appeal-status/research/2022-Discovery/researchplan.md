@@ -1,109 +1,113 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Claim Status Tool Discovery, July 2022"
+date: 2022-07-01
+last_updated: 2022-07-01
+team: "Benefits Team 1"
+product: "Claim Status Tool"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "CST does not provide enough meaningful information about claim status or identify action items Veterans could take to accelerate VA's decision-making process"
+  product_location: "Claim Status Tool on VA.gov"
+  user_familiarity: "Iteration of existing tool"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/CST%20Product%20Outline%20-%20Draft.docx"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand more nuance and context around key findings from previous research"
+  - goal_2: "Understand current pain points and areas of opportunity for CST"
+  - goal_3: "Determine where CST work left off and where Squad 1 should start"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What nuances exist around previous research findings?"
+  - "What are current pain points with the Claim Status Tool?"
+  - "What areas of opportunity exist for improving CST?"
+  - "How can CST be more useful for Steps 7-10 of the claim filing user journey?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "CST isn't robust enough to communicate nuances in claim status"
+  - "There is some way to make CST more useful for certain actions Veterans need to take to accelerate adjudication"
+  - "CST could better support Steps 7-10 of the claim filing user journey"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "After identifying ways CST could be more useful and robust for Veterans, the team will prioritize and develop strategies for implementing improvements"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Internal team and SMEs"
+  approach: "Interviews with SMEs and collaborative team members"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "SMEs with knowledge of CST usability issues"
+    - "Team members with VSO research experience"
+    - "Team members with previous CST research experience"
+    - "OCTO research team members"
+    - "Lighthouse UX team members"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Michel McDonald (usability issues)"
+    - "Melinda Bernardo Cuerda (VSO research)"
+    - "Shawna Hein (CST research)"
+    - "Emily Theis (OCTO research)"
+    - "Shannon Ford (Lighthouse UX)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have experience with CST research or usability?"
+      qualifying_response: "Yes"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 6
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2022-07-15 to 2022-07-31"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: "Making CST more reliable will incentivize Veterans and VSOs to utilize VA.gov more"
+  - objective: "Decrease the time Veterans spend waiting for an outcome"
+    key_results: "More informative CST will help Veterans take actions that expedite claims processing"
+  - objective: "Increase the quality and reliability of VA services"
+    key_results: "CST improvements will significantly improve quality of VA services"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/SummaryCSTresearchOct2021/Summary%20CST%20Research%2C%20Oct%202021.pdf"
+    - "CST Research Summary (2021) - Research with VSOs, quantitative analysis, co-design and usability sessions"
+    - "https://www.notion.so/2022-June-PACT-Act-VSO-research-Report-2b1faf024d9643cd899ba0f8a00d3d3b"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: VA Staff"
+  - "BNFT: Disability"
+  - "PRDT: Claim-status-tool"
+  - "semi-structured-interviews"
+  - "discovery"
+  - "authenticated"
 ---
 
 # Research Plan for Claim Status Tool

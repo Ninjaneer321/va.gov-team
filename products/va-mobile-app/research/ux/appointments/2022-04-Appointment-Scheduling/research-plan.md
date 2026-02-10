@@ -1,109 +1,117 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VA Mobile App, Appointment Request Usability Study, April 2022"
+date: 2022-04-01
+last_updated: 2022-04-01
+team: "VA Mobile App Team"
+product: "VA Mobile App - Appointments"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need to understand the mental model of appointments with existing statuses (Pending, Confirmed, and Canceled) and ensure the appointment request experience is reflected in the VA Mobile App so they can manage their appointments effectively."
+  product_location: "VA Mobile App - Appointments section"
+  user_familiarity: "Iteration - testing new appointment statuses and cancellation"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/features/appointment-scheduling/usability-testing/conversation-guide.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing with semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Discover the Veteran's mental models surrounding their current appointment scheduling experience and find opportunities and pain points"
+  - goal_2: "Assess the usability of appointment statuses and the ability to cancel previous requests, and gather feedback on how they interpret the information"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans interact with their appointment schedule?"
+  - "What information is useful in the current appointment experience?"
+  - "How do Veterans interpret appointment statuses like Pending, Confirmed, and Canceled?"
+  - "Can Veterans successfully cancel appointment requests?"
+  - "What insights can improve the Appointment experience within the VA Mobile App?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Participants will easily find Pending appointments alongside their other confirmed, canceled and past appointments because of the label"
+  - "The Pending label will have the intended meaning for some participants, not all"
+  - "Participants will likely desire an improvement to the way the appointments are organized"
+  - "Tapping into the Details screen will give them all of the expected details, though some may express the need for additional details"
+  - "Veterans will see they can Cancel a request and successfully do it"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The research will evaluate the feature's efficacy and inform the next design phase of the appointment scheduling experience in the mobile app"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "inclusive research, recruiting less represented participants"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans or caregivers who have had a medical appointment (at VA or private care)"
+    - "Participants must have access to mobile device or computer"
+    - "Experience making healthcare appointments and made/attended a medical appointment in the last year"
+    - "Diverse in age, gender, and race/ethnicity"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - "Beneficial if participants use VA healthcare"
+    - "3 participants with an identified cognitive disability"
+    - "2-3 with some college or some high school education"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-03-28"
+  pilot_participant: "rafael.arroyo@adhocteam.us"
+  research_dates: "2022-04-01 to 2022-04-13"
+  research_review_submission: "N/A"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 4"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Veterans can manage their health services online"
+  - objective: "Objective 5"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Veterans and their families can find a single, authoritative source of information"
+  - objective: "Objective 6"
+    key_results:
+      - "Logged-in users have a personalized experience, with relevant and time-saving features"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Reinventing myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/features/appointment-scheduling/usability-testing/conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: VA-mobile-app"
+  - "MHV: Appointments"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "mobile"
+  - "remote"
+  - "moderated"
 ---
 
 # Research Plan: Appointment Request Usability Study

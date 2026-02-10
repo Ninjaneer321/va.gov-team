@@ -1,109 +1,116 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VA Mobile App, Current Experience Discovery, July 2022"
+date: 2022-07-21
+last_updated: 2022-08-03
+team: "VA Mobile App Team"
+product: "VA Mobile App - Post-Launch Discovery"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "To build continuous research into the mobile app team, we need to meet with Veterans who currently use the VA Health and Benefits app to understand the specific details of their current experience and uncover insights to shape the app's future roadmap."
+  product_location: "VA Mobile App (VA Health and Benefits app)"
+  user_familiarity: "Post-launch discovery with active users"
+  product_brief_url: "N/A"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "discovery interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Gain awareness of the current mobile app experience for Veterans who are monthly active users of the app and evaluate general usability and pain points"
+  - goal_2: "Compare Veterans' feedback using the app now to research findings completed before the app's launch in order to update our current understanding of the app's value"
+  - goal_3: "Identify Veterans unmet needs and uncover areas where the app could provide future access to other VA health and benefits areas"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans rate the current experience using the VA Health and Benefits app? What things do they like about it, and what are the pain points?"
+  - "What main reasons do Veterans mention for using the app?"
+  - "What types of things do they prioritize using the app for?"
+  - "What types of things do they want to see in the app in the future?"
+  - "How do Veterans describe their digital trust level with the app?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans who currently use the VA Health and Benefits mobile app use it for quick, transactional tasks, but there are other things Veterans want to be able to use the app to do that they can't do right now, such as finding out about benefits they might be missing out on"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Specific lists of feature areas working well in the app as well as common pain points, prioritization map of areas to focus on next as new Sprint 0 initiatives, and evolved understanding of the value the app provides based on user feedback"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation strategy"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who are active monthly users of the VA Health and Benefits mobile app (accesses the app more than 1 time per month)"
+    - "Phone follow-up to confirm the participant uses the VA Health and Benefits Mobile App"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - "7 participants who identify other than white"
+    - "3 participants who use assistive technology (e.g. screen reader, magnification)"
+    - "3 participants who identify as other than straight/heterosexual and cisgender"
+    - "5 participants age 55+"
+    - "5 participants who identify as having a cognitive disability"
+    - "5 participants who do not have a college degree"
+    - "2 participants who identify as women"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-08-03"
+  pilot_participant: "TBD"
+  research_dates: "2022-08-04 to 2022-08-09"
+  research_review_submission: "N/A"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 4"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Veterans can manage their health services online"
+  - objective: "Objective 5"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Veterans and their families can find a single, authoritative source of information"
+  - objective: "Objective 6"
+    key_results:
+      - "Logged-in users have a personalized experience, with relevant and time-saving features"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Reinventing myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Pre-launch discovery research studies"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VA-mobile-app"
+  - "discovery"
+  - "generative-research"
+  - "post-launch"
+  - "mobile"
+  - "remote"
+  - "moderated"
+  - "active-users"
 ---
 
 # VA Mobile App Research 

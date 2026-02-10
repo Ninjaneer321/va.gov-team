@@ -1,109 +1,135 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, Benefit Payments and Debts, July 2022"
+date: 2022-07-01
+last_updated: 2022-07-01
+team: "Authenticated Experience"
+product: "My VA - Payment History"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans identified financial information as high priority on My VA dashboard. Need to iterate on benefit payments and debts section to include payment and debt details that encourage action and key information Veterans want to see, including introducing outstanding copays."
+  product_location: "va.gov/my-va - Benefit Payments and Debts section"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/payment-history"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine if the redesigned notification style is clear and actionable"
+  - goal_2: "Determine if the title of the two sections accurately convey the content"
+  - goal_3: "Validate that the details displayed are the most important pieces of information for debts"
+  - goal_4: "Validate that the logical next step for debts is effectively presented and Veterans know how to take action"
+  - goal_5: "Validate that the most important pieces of payment information are being presented on My VA"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do users notice the notification at the top of the page and what would they do next?"
+  - "Do any users have trouble seeing any aspect of the notification?"
+  - "What do users expect to see in each section before and after reviewing content?"
+  - "Do veterans understand what debt is and why it might be due from them?"
+  - "Is showing the total amount of outstanding debt useful on My VA?"
+  - "Does usage of dark red color and parentheses for debt convey importance? Do colorblind and low vision users have difficulty?"
+  - "Is it better to show total for all debts and copays as one card or two separate cards?"
+  - "Is the difference between debts and payments clear?"
+  - "Is it clear that the payment shown is just the most recent payment?"
+  - "Do the dark green color and plus sign convey payments deposited to them? Any issues for colorblind users?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "All users will be able to clearly see and read the notification and know how to act on it"
+  - "Veterans will find debt information useful and determine a path to resolve debts"
+  - "Veterans will be able to tell the difference between amounts due and amounts paid"
+  - "Surfacing more details about debts and payments is important to Veterans"
+  - "There may be confusion around whether copays should fall under debts or healthcare-related section"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Use findings to update content and links in this section of My VA, and to propose a new notification component for the design system"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Lean maximum variation strategy"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "16 Veterans requested for minimum 8 completed sessions"
+    - "All must have received education benefit or compensation/pension payments from VA"
+    - "At least 50% should have incurred debt or have copay balance due"
+    - "All must be able to screenshare via Zoom"
+    - "50% on desktop device, 50% on non-desktop (tablet or mobile)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "8 women, 8 men"
+    - "3 participants with colorblindness"
+    - "8 participants who identify as other than white"
+    - "5 participants LGBTQ+"
+    - "8 participants age 55+"
+    - "5 with cognitive disability"
+    - "5 without college degree"
+    - "5 in rural area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you ever received an education, compensation, or pension payment from the VA?"
+      qualifying_response: "Yes"
+    - question: "Do you have education, compensation, or pension debt with VA?"
+      qualifying_response: "Yes qualifies for 50% of participants"
+    - question: "Do you have health care related debt with VA?"
+      qualifying_response: "Yes qualifies for 50% of participants"
       
 participants:
-  veterans: 0
+  veterans: 16
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 16
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-07-26"
+  pilot_participant: "Christia Troyer"
+  research_dates: "2022-08-01 to 2022-08-05"
+  research_review_submission: "2022-07-20"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "My VA as one-stop shop for action items and benefit status"
+    key_results: "Provide more direct, personalized routes to Veterans' most critical updates and tasks with clear path to resolution"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/payment-history/discovery-and-research/user-research/payment-information-research-plan.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: MyVA"
+  - "PRDT: Payment-history"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Healthcare"
+  - "DSC: Notification"
+  - "usability-testing"
+  - "authenticated-experience"
+  - "Accessibility"
+  - "colorblind"
+  - "debt"
+  - "payment"
+  - "copay"
+  - "personalization"
 ---
 
 # Research Plan for Authenticated Experience team - Benefit Payments and Debts, July 2022

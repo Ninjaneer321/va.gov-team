@@ -1,109 +1,131 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Search & Discovery Team, Resources and Support, Submit Feedback Tool 2.0, January 2022"
+date: 2022-01-01
+last_updated: 2022-01-31
+team: "Search & Discovery Team"
+product: "Resources and Support"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Resources and Support (R&S) article pages have low engagement rates with links and tags. The Submit Feedback Tool only allows 'good' or 'bad' ratings without understanding why users rate pages poorly. Users are hesitant to click on R&S due to unclear naming, and the value and purpose of R&S is unclear to users. Need to improve the feedback mechanism and article page layout to enable actionable improvements."
+  product_location: "VA.gov Resources and Support section - tier 2 benefit-adjacent content"
+  user_familiarity: "Iteration - improving Submit Feedback Tool 2.0 and article page layouts"
+  product_brief_url: "Link to product brief coming soon"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate that users are able to easily use the Submit Feedback Tool to rate the article page and report an appropriate problem"
+  - goal_2: "Determine if users are able to easily navigate and discover additional content on the article pages"
+  - goal_3: "Assess if the name 'Resources and support' is a helpful title that tells users what they will find"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are users able to find where they can report feedback?"
+  - "What do users expect to see after they submit feedback?"
+  - "In what situation would a user rate this page? Why would they rate it 'good', why would they rate it 'bad'?"
+  - "Does the wording make sense? If not, what should it say?"
+  - "Do the options under 'Report a problem' make sense to users?"
+  - "What other types of problems would they expect to report?"
+  - "What do users think about the amount of issues presented to them? Is the amount overwhelming?"
+  - "What are their perceptions on the difference between this feedback tool and Medallia?"
+  - "What type of feedback is helpful and actionable to content creators?"
+  - "How can we make this feedback more accessible to content creators?"
+  - "Are CTAs clear to the user?"
+  - "What do users think of the 'Related information', 'VA benefits', and 'Tags' sections?"
+  - "Do users utilize a search bar or list of topic links on the article pages?"
+  - "What do users think of the title 'Resources and support'?"
+  - "If users do not feel like 'Resources and support' reflects what they find on the section, what else would they name it?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will not know that tags are clickable"
+  - "The tags currently used, such as 'All Veterans', are not helpful"
+  - "Users will be more likely to use a topics link section than search bar to look for another article"
+  - "Users will understand how to report an issue after rating an article as 'bad'"
+  - "Users will not find that the name 'Resources and support' reflects the type of content on the tool"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Confirm whether: updates allow users to provide feedback which will inform content editors on changes that can be made to improve R&S articles; updates to R&S article pages improve navigation and discoverability of more R&S articles; the name 'Resources and support' accurately informs users of what content they will find."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation strategy"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "50% of participants should be able to participate from a desktop device"
+    - "50% of participants should be able to participate from a mobile phone"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "8 women, 8 men"
+    - "3 participants who use assistive technology (e.g. screen reader, magnification)"
+    - "10 participants who identify as other than white"
+    - "5 participants who identify as other than straight/heterosexual and cisgender"
+    - "8 participants age 55+"
+    - "8 participants who identify as having a cognitive disability"
+    - "5 participants who do not have a college degree"
+    - "5 participants who live in a rural area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Can you participate from a desktop or mobile phone device?"
+      qualifying_response: "Yes - balance between desktop and mobile"
       
 participants:
-  veterans: 0
+  veterans: 16
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 16
+  completed_sessions_goal: 8
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-01-15"
+  pilot_participant: "TBD"
+  research_dates: "2022-01-20 to 2022-01-31"
+  research_review_submission: "2022-01-10"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Improve discoverability and usability of Resources and Support content"
+  - objective: "Veterans and their families trust the security, accuracy, and relevancy of VA.gov"
+    key_results: "Enable Veterans to provide actionable feedback on content quality"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up and all phases thereafter"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/content/tier-2-content-IA-and-design/learning-center-mvp/discovery-and-research/learning-center-mvp-findings-summary.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/research/user-research/2021-Aug-research-study/research-findings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/issues/32746#issuecomment-970466533"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: Resources-and-support"
+  - "DSC: Feedback"
+  - "usability-testing"
+  - "remote"
+  - "content-strategy"
+  - "information-architecture"
+  - "navigation"
+  - "accessibility"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "tags"
+  - "search"
+  - "tier-2-content"
 ---
 
 # Draft: Research Plan for Search & Discovery Team, Resources and Support, Submit Feedback Tool 2.0

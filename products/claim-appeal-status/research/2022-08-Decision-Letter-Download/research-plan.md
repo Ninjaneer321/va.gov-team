@@ -1,109 +1,105 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Decision Letter Download, September 2022"
+date: 2022-09-01
+last_updated: 2022-09-01
+team: "Benefits Team"
+product: "Claim Status Tool - Decision Letter Download"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need to wait for physical mail to receive decision letters and have no digital access, causing delays in pursuing disagreement pathways and third-party benefit applications"
+  product_location: "Claim Status Tool on VA.gov"
+  user_familiarity: "New feature"
+  product_brief_url: "https://docs.google.com/document/d/1RMy84KMu7mzaQznhD5vn4Q18oVlWsBYwP3hixqF3INY/edit"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test the effectiveness of the MVF design solution for Decision Letter Download"
+  - goal_2: "Ensure that the feature as designed is usable and accessible"
+  - goal_3: "Validate the design before proceeding to development phase"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans currently experience the decision letter user journey?"
+  - "Is the design proposal effective for solving the user problem of needing access to digital decision letters?"
+  - "Can participants demonstrate clear understanding of why we're building this feature?"
+  - "Can participants successfully interact with the Decision Letter Download feature?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will demonstrate a clear understanding of the feature's purpose"
+  - "Veterans will be able to interact with the feature successfully"
+  - "The design will improve upon the current experience of waiting for physical mail"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Study results will validate the Decision Letter Download MVF design. If major issues are found, iterate on the solution. If not, proceed to development phase."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Recruit underrepresented Veterans including older Veterans, mobile-first users, and Veterans of color"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "5 mobile-first users of VA.gov"
+    - "5 Veterans aged 55-64+"
+    - "5 Black Veterans"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Older Veterans"
+    - "Veterans primarily on mobile devices"
+    - "Veterans of color"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you primarily use mobile devices to access VA.gov?"
+      qualifying_response: "Yes (for 5 participants)"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2022-09-12 to 2022-09-16"
+  research_review_submission: "2022-08-30"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: "Increase usage of VA.gov by enabling direct access to decision letters"
+  - objective: "Decrease the time Veterans spend waiting for an outcome"
+    key_results: "Reduce waiting time by eliminating physical mail delivery requirement"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Multiple research studies suggest veterans want decision letter download feature"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Claim-status-tool"
+  - "usability-testing"
+  - "authenticated"
+  - "DSC: Button"
+  - "DSC: Link"
 ---
 
 # Research Plan for Decision Letter Download 

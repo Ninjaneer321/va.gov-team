@@ -1,109 +1,110 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VBA MVP Public Contact Staff Interviews, November 2022"
+date: 2022-11-01
+last_updated: 2022-11-01
+team: "CMS Facilities Team"
+product: "VBA Regional Office Facility Pages"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "7 VBA Regional Office facilities will be involved in the launch of the MVP for publishing VBA facility information in Drupal. The Public Contact staff at these facilities provide front-line support to Veterans. We need to interview Public Contact staff to better understand the Veteran experience and service delivery models at the MVP Regional Office sites, including common tasks Veterans attempt to complete, typical Veteran experiences (successes, expectations, frustrations), and service delivery models for facilities."
+  product_location: "VA.gov - VBA Regional Office facility pages"
+  user_familiarity: "New product - MVP for VBA Regional Offices"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/regional-offices/design"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand from Public Contact staff perspectives the service delivery model for the facility (or group of facilities) for a geographic area"
+  - goal_2: "Understand common tasks Veterans attempt to complete during in-person visits"
+  - goal_3: "Understand the typical Veteran experience (successes, expectations, frustrations, complaints) at these facilities"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What benefit-related services are offered at these facilities? How do services differ by benefit types? Are any services shared across benefit types? Are all services available consistently throughout the week? Do any services require referrals to other facilities? Are there any services unique to this region/facility?"
+  - "What do Veterans typically try to accomplish during an in-person facility visit? What are the most/least common tasks? Can these tasks be accomplished other ways (phone, web)? How complicated are these common tasks? How do Public Contact Staff assist Veterans? Any regionally specific needs? Any problems?"
+  - "What is the typical Veteran experience when visiting these facilities? Typical wait times? Busier days or time? Appointments vs walk-ins? Common frustrations? Complaints? How Veterans usually arrive at the facility? How long does it take for a Veteran to travel to a facility?"
+  - "What do Veterans need to know or do to be adequately prepared for a visit? Does this differ by service? Could they have found that information on the website? Most common thing Veterans are missing?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The existing VBA service taxonomy does not accurately reflect the breadth of benefit-related tasks that can be accomplished at Regional Benefit Offices"
+  - "A more robust VBA service taxonomy could increase Veteran self-service and help Veterans be fully prepared for visits to Regional Benefit Offices"
+  - "The typical Veteran experience at Regional Benefit Offices is generally positive"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The results will be used to develop recommendations for OCTO-DE to inform: development of the VBA Regional Office facility product, the scope of the Regional Office product and what other facilities may be included, the plan for the MVP and the full rollout of the CMS to all VBA Regional Office facilities, future research for the VBA project, and insights from front-line Public Contact staff in other possible areas where a website, data, or self-service mechanisms may be incorporated in a possible roadmap"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Internal - CMS Facilities team with OCTO-DE product owner"
+  approach: "purposive sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Represent each of the Regional Offices chosen for the MVP"
+    - "Have been in the role for at least 6 months"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - "Diversity of facilities and geographic regions"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 14
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-11-23"
+  pilot_participant: "TBD"
+  research_dates: "2022-11-28 to 2022-12-02"
+  research_review_submission: "2022-11-14"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Increase the quality and reliability of VA services"
+    key_results: "Veterans and their families can find a single, authoritative source of information"
+  - objective: "Increase usage of digital, self-service tools"
+    key_results: "Decrease call center volume, wait time, and time to resolution"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out - Engaging VA to access benefits and services"
+  - "Starting Up - Finding something to do, re-establishing and creating relationships"
+  - "Putting Down Roots - Engaging VA to access benefits and services"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/regional-offices/research/2022-8-veteran-facing/research-plan.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/regional-offices/services-taxonomy"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: VA Staff"
+  - "AUD: Public Contact Staff"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Housing"
+  - "BNFT: Pension"
+  - "PRDT: Facilities"
+  - "PRDT: Regional-offices"
+  - "semi-structured-interviews"
+  - "unauthenticated"
+  - "remote"
+  - "VBA"
+  - "service-taxonomy"
+  - "service-delivery"
+  - "MVP"
+  - "veteran-experience"
 ---
 
 # Research Plan for VBA MVP Public Contact Staff Interviews

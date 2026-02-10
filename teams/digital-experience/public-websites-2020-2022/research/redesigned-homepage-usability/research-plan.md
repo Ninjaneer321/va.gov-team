@@ -1,66 +1,73 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Moderated Usability Testing - Redesigned VA.gov Home Page, 2022"
+date: 2022-06-01
+last_updated: 2022-06-01
+team: "Sitewide Home Page Team"
+product: "VA.gov Home Page Redesign"
+product_area: "unauthenticated"
+status: "OUTDATED - See updated research plan at https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/home-page/research/redesign-usability/research-plan.md"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The current VA.gov website was launched in 2018 but hadn't been the subject of much user research until Baseline Wayfinding Research was conducted in June 2021. Findings from this research have been incorporated into a new design. We need to validate that the new design has improved the usability of the homepage through task-based scenarios informed by top task research."
+  product_location: "VA.gov Home Page"
+  user_familiarity: "Iteration - redesign of existing homepage launched in 2018"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/public-websites/research/202104-baseline-wayfinding"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Moderated Usability Testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate that the new design has improved the usability of the homepage"
+  - goal_2: "Observe which areas participants use and how well the homepage supports Veterans and beneficiaries in completing important benefit-related tasks"
+  - goal_3: "Evaluate homepage components in context of task completion rather than in isolation"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are participants able to easily and quickly initiate tasks from the homepage?"
+  - "What part(s) of the homepage do participants use for the task?"
+  - "Does the homepage support participants, including those using assistive tech, in completing their tasks?"
+  - "Do the words/labels used on the homepage support participant understanding?"
+  - "What do Veterans (and others) expect from various areas of the homepage, including search functionality and VAntage Point blog promo?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The prominent sign in/sign up location and CTA makes it easier for Veterans to easily sign in/sign up"
+  - "More Veterans will use the prominent sign in/sign up CTA than the header"
+  - "The streamlined design helps Veterans find the task they need to complete more quickly"
+  - "The new design includes the most common/important Veteran-facing tasks"
+  - "The link labels are sufficient for Veterans to understand/recognize"
+  - "Veterans will know to search for tasks which are not listed as most common/popular"
+  - "Veterans understand where 'other search tools' links will take them and what information they will find there"
+  - "A focused and prominently displayed VAntage Point blog promo increases Veteran engagement with the content"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will inform iterations to the redesign, the need for future research, and release decisions for the iteration."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Mixed cohorts - Veterans, family members, caregivers, survivors, and service members"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must have a computer or mobile device and are willing to use it to complete the activity"
+    - "Approximately 2/3 Veterans and 1/3 Veterans' family members, caregivers, survivors, or service members"
+    - "At least 1/2 with experience using some VA benefits/services and 20% without such experience but interest in some"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 6 women"
+    - "At least 15 people age 55 or older"
+    - "At least 5 people age 35 or under"
+    - "At least 10 people with a cognitive disability"
+    - "At least 10 people of color"
+    - "At least 5 people without degree or vocational training after high school"
+    - "At least 5 people who live in a rural or remote area"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Which VA benefits or services do you have any experience with?"
+      qualifying_response: "Various benefit experiences including disability, health care, education, housing, pension, life insurance, or burial benefits"
       
 participants:
   veterans: 0
@@ -71,10 +78,10 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "TBD"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
@@ -83,27 +90,53 @@ session_details:
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans, caregivers, family members, survivors and service members are able to access tools and processes quickly and easily to learn about and manage their benefits"
+    key_results: "Improved homepage usability for task completion"
+  - objective: "Veterans, caregivers, family members, survivors and service members have increased access to self-service tools through an elevated login funnel"
+    key_results: "Prominent sign in/sign up CTA increases authenticated access"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Living civilian life"
+  - "Retiring and aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/public-websites/research/202104-baseline-wayfinding"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/vsa/teams/public-websites/research/Veteran-tasks"
+    
+homepage_focus_areas:
+  - "Login/signup CTA"
+  - "Common task list"
+  - "Search functionality"
+  - "Benefit hubs"
+  - "VAntage Point blog promo"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Service Members"
+  - "AUD: Family Members"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Careers"
+  - "BNFT: Housing"
+  - "BNFT: Pension"
+  - "BNFT: Life Insurance"
+  - "BNFT: Burials"
+  - "PRDT: Public-websites"
+  - "PRDT: Home-page"
+  - "usability-testing"
+  - "moderated"
+  - "task-analysis"
+  - "navigation"
+  - "information-architecture"
+  - "login"
+  - "search"
+  - "content-findability"
+  - "Accessibility"
 ---
 
 # OUTDATED Research Plan: Moderated usability of the redesigned VA.gov home page

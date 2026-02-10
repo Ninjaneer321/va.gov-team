@@ -1,109 +1,119 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for MHV on VA.gov Landing Page, February-March 2022"
+date: 2022-02-02
+last_updated: 2022-02-02
+team: "Health Apartment Team"
+product: "MyHealtheVet Landing Page"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need a centralized place to access their health information as part of the Digital Health Modernization strategy. This usability testing evaluates whether the MyHealtheVet landing page concept supports Veterans in finding health tasks and information."
+  product_location: "MyHealtheVet authenticated landing page on VA.gov"
+  user_familiarity: "New product concept - First formal usability round"
+  product_brief_url: "To be provided"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Remote moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test the information architecture and usability of the MyHealtheVet landing page concept"
+  - goal_2: "Evaluate whether Veterans can find key health tasks and information when prompted"
+  - goal_3: "Assess whether the landing page design supports Veterans' health management needs"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can Veterans find key health tasks from the MyHealtheVet authenticated landing page?"
+  - "What are Veterans' most common health tasks and are they accessible on the new landing page?"
+  - "How do Veterans navigate the landing page to complete health-related tasks?"
+  - "Does the landing page effectively consolidate health information and tools in one place?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will be able to find their most common health tasks on the landing page"
+  - "The landing page design will support clear navigation to health services and information"
+  - "Veterans will understand the purpose and organization of the landing page"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform design refinements to the MyHealtheVet landing page before development, ensuring it effectively serves as a centralized hub for Veterans' health management needs."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Mixed recruitment - Veterans with and without VA healthcare"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "At least six participants that have VA healthcare and regularly use MyHealtheVet"
+    - "Up to six participants that do not use VA healthcare or MyHealtheVet"
+    - "At least four women"
+    - "Must have access to a laptop or desktop computer to interact with the prototype"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse representation across demographics"
+    - "Range of experience with VA health services"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have VA healthcare?"
+      qualifying_response: "Mix of Yes and No"
+    - question: "Do you regularly use MyHealtheVet?"
+      qualifying_response: "At least 6 Yes responses"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2022-02-02 to 2022-03-05"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Create centralized health hub on VA.gov"
+  - objective: "Veterans can manage their health services online"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Provide accessible landing page for health task completion"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Design personalized health dashboard"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Starting up"
+  - "Living civilian life"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Related health apartment research studies"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: MyHealtheVet"
+  - "MHV: MyHealth"
+  - "usability-testing"
+  - "concept-testing"
+  - "authenticated-experience"
+  - "landing-page"
+  - "health-apartment"
+  - "information-architecture"
+  - "digital-health-modernization"
 ---
 
 # Research Plan for MHV on VA.gov Usability Round 1

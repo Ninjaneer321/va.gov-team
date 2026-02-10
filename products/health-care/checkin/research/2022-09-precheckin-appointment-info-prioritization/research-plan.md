@@ -1,109 +1,105 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Check-in, Unmoderated Appointment Information Prioritization (Pre-check-in), September 2022"
+date: 2022-09-01
+last_updated: 2022-09-19
+team: "Modernized Check-In Experience Team"
+product: "Patient Check-In (PCI) - Pre-check-in"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Check-in has expanded our access to more appointment data, which we can display to Veterans within the pre-check-in experience. We need to identify what appointment data is most important within certain portions of the pre-check-in experience."
+  product_location: "VA.gov - Mobile pre-check-in for medical appointments"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "unmoderated card sort survey"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Identify what appointment data is most important within certain portions of the pre-check-in experience"
+  - goal_2: "Determine how Veterans and caregivers rank appointment data importance relative to each data point within pre-check-in"
+  - goal_3: "Compare findings with mobile app and VAOS teams to determine where products can align and where pre-check-in needs to differ"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What appointment information is important to review when confirming and answering questions for your VA appointment (AKA pre-check-in)?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans and caregivers will generally agree on which data is most important when confirming and answering questions for your VA appointment (AKA pre-check-in)"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Determine what appointment data is important to Veterans and how they rank its importance within pre-check-in, then plan further work to iterate on the current experiences."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "cohort-based recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "ALL have a computer or mobile device and are willing to use it to complete the activity"
+    - "ALL must have been to a VA health care facility for a medical appointment for themself or a Veteran that they care for in the last 12 months"
+    - "Diverse demographics across age, sex, caregivers, and cognitive/functional disabilities"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Age diversity: 18-34, 35-54, 55+"
+    - "Sex diversity: Male and Female"
+    - "Include caregivers and Veterans with cognitive impairment/functional disabilities"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you been to a VA health care facility for a medical appointment for yourself or a Veteran that you care for in the last 12 months?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 54
+  caregivers: 9
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 63
+  completed_sessions_goal: 35
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-09-01"
+  pilot_participant: "Ben Brasso, Lori Pusey, Stephen Barrs"
+  research_dates: "2022-09-19 to 2022-10-03"
+  research_review_submission: "2022-09-01"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 10
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+  - objective: "Veterans can manage their health services online"
+    key_results: "Increase usage of digital self-service tools"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Decrease time to successfully complete and submit online transactions"
+  - objective: "Increase completion rate of online transactions"
+    key_results: "Veterans can successfully complete pre-check-in for appointments"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/veteran-facing/travel-reimbursement-mvp-remote-test"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/2022-09-checkin-appointment-info-prioritization"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: Pre-check-in"
+  - "MHV: Appointments"
+  - "card-sort"
+  - "unmoderated-research"
+  - "information-architecture"
+  - "Accessibility"
 ---
 
 # Research Plan for Check-in, Unmoderated Appointment Information Prioritization (Pre-check-in), September 2022

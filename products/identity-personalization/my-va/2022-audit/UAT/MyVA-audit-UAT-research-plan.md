@@ -1,109 +1,129 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Authenticated Experience, My VA Audit UAT, March/April 2023"
+date: 2023-03-31
+last_updated: 2023-03-31
+team: "Authenticated Experience"
+product: "My VA"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "My VA had inconsistencies between its five sections (nametag, Claims and appeals, Health care, Benefit payments and debts, and Apply for benefits) making the page hard to manage and hard to scale. An audit was conducted to document all states, simplify where possible, bring greater consistency between sections, and make it easier to highlight VA benefits for users who might be interested in them."
+  product_location: "My VA dashboard on VA.gov"
+  user_familiarity: "Iteration - Audit improvements to existing My VA page"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/2022-audit"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "User Acceptance Testing (UAT) with usability validation"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Confirm that functionality works as expected with audit updates"
+  - goal_2: "Verify that all links are being tracked in Google analytics"
+  - goal_3: "Follow up on previous usability study findings - verify updated content in Education and Training section resonates better with Veterans"
+  - goal_4: "Verify that the title change for Benefit application drafts section has improved clarity"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does the functionality work as expected?"
+  - "Is Google analytics tracking all links as expected?"
+  - "Is the dynamic content on My VA accurate and useful in the sections updated for this audit?"
+  - "Do Veterans with education benefits know how to find info about their remaining education benefits from My VA?"
+  - "Do Veterans know how to find and continue a saved application from My VA?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will not encounter any bugs on My VA"
+  - "Veterans will be able to easily find updates and take action on their top tasks from My VA"
+  - "Veterans who use education benefits will be able to tell how they could find information about their remaining education benefits from My VA"
+  - "Veterans will understand how to find saved applications on My VA and continue them, and will know what the section is for just by reading the title 'Benefit application drafts'"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Based on the outcome of this research study, we will either release the audit updates to production and/or update our design to correct any significant usability hurdles people encounter. If Veterans are still confused about the Benefit application drafts section, we have a backup plan to launch with hint text added."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Focused recruitment on marginalized groups not represented in previous usability study"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who use various VA benefits"
+    - "Specifically recruit Veterans who use or have used education benefits"
+    - "Focus on marginalized groups from previous study: rural areas, mobile users, no college degree"
+    - "Must be logged in to VA.gov and have access to production My VA"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Veterans from rural areas"
+    - "Mobile users"
+    - "Veterans with no college degree"
+    - "At least one screen reader user"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you used or are you currently using VA education benefits (e.g., Post-9/11 GI Bill)?"
+      qualifying_response: "Mix of Yes and No responses"
+    - question: "Do you have any saved benefit applications in progress on VA.gov?"
+      qualifying_response: "At least some Yes responses"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2023-03-31"
+  pilot_participant: "heather@adhocteam.us"
+  research_dates: "2023-04-05 to 2023-04-07"
+  research_review_submission: "2023-03-31"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Logged-in users can easily track applications, claims, or appeals online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "My VA provides clear, personalized dashboard for benefit tracking"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results:
-      - "[Specific KR if applicable]"
+      - "My VA is the personalized landing page after login from homepage"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "My VA presents most relevant updates quickly and clearly while highlighting benefits Veterans may be interested in"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/2022-audit/research/MyVA-audit-research-findings.md"
+    - "https://app.mural.co/t/departmentofveteransaffairs9999/m/vsa8243/1648129585496/d22080eb307aac8bda5ba1153e013a386b7f1396"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: MyVA"
+  - "UAT"
+  - "authenticated-experience"
+  - "personalization"
+  - "dashboard"
+  - "education-benefits"
+  - "benefit-applications"
+  - "analytics"
+  - "mobile"
+  - "accessibility"
+  - "rural"
+  - "audit"
+  - "usability-testing"
 ---
 
 # Research Plan for Authenticated Experience, My VA Audit UAT, March/April 2023

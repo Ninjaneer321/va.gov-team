@@ -1,109 +1,120 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for MyHealtheVet Landing Page, January 2022"
+date: 2022-01-07
+last_updated: 2022-01-07
+team: "Health Apartment Team"
+product: "MyHealtheVet Landing Page"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need a centralized hub to manage their healthcare. The landing page must have clear paths to key information as we bring My HealtheVet, VA.gov Health care hub, and other health content under one roof per the Digital Modernization Strategy vision."
+  product_location: "MyHealtheVet authenticated landing page on VA.gov"
+  user_familiarity: "Iteration - Building on informal user testing from December 2021"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/health-apartment/research/2021/homepage-guerilla-test-12-2021/2021-12-guerilla-research-report.pdf"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Concept testing with task-based usability evaluation"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Test the information architecture of the site by ensuring the landing page has clear paths to key information"
+  - goal_2: "Test critical tasks - Can Veterans find key tasks and information when prompted?"
+  - goal_3: "Test content balance - Do Veterans go to content pages (instructional, policies, etc.) expecting to perform a task?"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can Veterans find key tasks and information when prompted?"
+  - "When given a task, will Veterans click on the corresponding action link rather than content pages?"
+  - "Do Veterans have most common health tasks that are present and accessible on the new landing page concept?"
+  - "Does the proposed homepage concept improve success rates for tasks that had low success in the IA Tree Test?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "When given a task, Veterans will be able to find the corresponding action link that enables them to initiate that task"
+  - "When given a task, a Veteran won't click on a content page to initiate that task"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will validate whether the landing page IA supports Veterans' health task completion and inform design refinements. We expect to learn if Veterans can find their most common tasks and if the concept improves success rates from the previous IA Tree Test."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Lean maximum variation strategy"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Ideally get at least 4 participants who currently manage their healthcare through MHV"
+    - "At least 4 people age 55+"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 4 women"
+    - "At least 2 people of color"
+    - "At least one person who identifies as LGBTQ+"
+    - "Participants from East Coast, West Coast, and the Midwest"
+    - "At least three participants who use DAT (Digital Assistive Technology)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you currently manage your healthcare through MyHealtheVet?"
+      qualifying_response: "At least 4 Yes responses"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2022-01-07"
+  pilot_participant: "TBD"
+  research_dates: "Late January to Early February 2022"
+  research_review_submission: "2022-01-07"
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Consolidate health information and tools under one centralized hub on VA.gov"
+  - objective: "Veterans can manage their health services online"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Ensure clear paths to health tasks from authenticated landing page"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Present Veterans with a centralized hub to access health information"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Starting up"
+  - "Living civilian life"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/health-apartment/research/2021/homepage-guerilla-test-12-2021/2021-12-guerilla-research-report.pdf"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/health-apartment/research/2021/IA-tree-test-11-2021/IA-tree-test-analysis.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: MyHealtheVet"
+  - "MHV: MyHealth"
+  - "DSP: Help users to find VA.gov services"
+  - "concept-testing"
+  - "usability-testing"
+  - "authenticated-experience"
+  - "information-architecture"
+  - "landing-page"
+  - "health-apartment"
+  - "wayfinding"
+  - "digital-health-modernization"
 ---
 
 # Research Plan for the MyHealtheVet landing page, January 2022

@@ -1,109 +1,116 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VAOS Team, MHV and VAOS Appointments List Discovery, January 2022"
+date: 2022-01-26
+last_updated: 2022-01-26
+team: "VA Online Scheduling (VAOS) Team"
+product: "VA Online Scheduling (VAOS)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans transitioning from MyHealtheVet to VAOS appointments list may be confused by content and interaction differences between the two products. Need to identify gaps and improve VAOS appointments list to meet Veteran expectations."
+  product_location: "VA.gov - VA Online Scheduling"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/product/vaos-product-guide.pdf"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
-  
+methodology: "contextual inquiry and concept testing"
+research_format:
+  location: remote
+  moderated: true
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Learn what Veterans find helpful and/or confusing in the current iteration of the appointments list in both MHV and VAOS"
+  - goal_2: "Learn what Veterans who are familiar with MHV find confusing when viewing their appointments in VAOS"
+  - goal_3: "Validate a design path for the VAOS appointments list"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What information do Veterans need in an appointments list to make it useful?"
+  - "What will be confusing when transitioning from the MHV appointments list to VAOS?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans largely use the MyHealtheVet appointments list to understand and manage their health care appointments"
+  - "As more Veterans transition to VAOS to do the same tasks, they may be confused by content and interactions that are different between the two lists"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify anything lacking in the VAOS appointment list and develop designs to improve the content and interactions. Validate a concept for a more condensed desktop view."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment of active MHV users"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Active users of MyHealtheVet appointments - logged in to MHV to view appointments in the last 6 months"
+    - "Willing to sign in to MyHealtheVet during the study"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 6 Veterans aged 55-64"
+    - "At least 6 Veterans who have a cognitive disability"
+    - "At least 3 people of color"
+    - "At least 3 Veterans living in rural areas"
+    - "At least 3 Veterans with no degree"
+    - "At least 3 Veterans with an Other than honorable discharge"
+    - "At least 3 Veterans of immigrant origin"
+    - "At least 2 women"
+    - "At least 1 Veteran who identifies as LGBTQ+"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you logged in to MyHealtheVet to view your appointments in the last 6 months?"
+      qualifying_response: "Yes"
+    - question: "Are you willing to sign in to My HealtheVet during this study so our research team can learn how you use this tool?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 12
+  completed_sessions_goal: 12
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
-  
+  pilot_date: "2022-01-24"
+  pilot_participant: "Brian Lloyd"
+  research_dates: "2022-01-26 to 2022-02-04"
+  research_review_submission: "2022-01-25"
+
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  buffer_minutes: 15
+  max_sessions_per_day: 4
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Unified appointments list experience"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Increase Veteran satisfaction with VA.gov and decrease call center volume"
+
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
+  previous_studies:
+    - "MHV+VAOS Gap analysis recommendations (VA Network)"
+
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Appointments"
+  - "PRDT: VA Online Scheduling"
+  - "MHV: Appointments"
+  - "contextual-inquiry"
+  - "concept-testing"
+  - "discovery"
+  - "authenticated-experience"
+  - "MyHealtheVet"
+  - "VAOS"
 ---
 
 # Research plan for VAOS and MHV appointments list discovery

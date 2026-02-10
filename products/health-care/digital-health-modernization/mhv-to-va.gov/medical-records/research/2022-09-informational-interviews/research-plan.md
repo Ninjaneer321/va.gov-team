@@ -1,109 +1,119 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Health Apartment, Medical Records, September 2022"
+date: 2022-08-23
+last_updated: 2022-08-23
+team: "Health Apartment Team"
+product: "Medical Records"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "MHV is an old product that hasn't been significantly redesigned in a long time. When a VAMC migrates from VistA to Cerner, a Veteran will be forced to use two patient portals (MHV and Cerner HealtheLife). The Health Apartment team is tasked with redesigning MHV to better integrate into VA.gov, improve functionality in a veteran-centered way, and deliver a seamless UX whether a patient goes to a VistA or Cerner facility."
+  product_location: "MHV on VA.gov - Medical Records section"
+  user_familiarity: "Iteration on existing MHV Medical Records functionality"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/product/product-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "To understand what data exists in MHV medical records and the technical constraints of that data"
+  - goal_2: "To understand the policies, laws, and product history that influence MHV medical records"
+  - goal_3: "To understand known usability issues with medical records and garner preliminary ideas for ways to improve them"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do the Health Summary and Blue Button sections pull data from the same place?"
+  - "How will medical records data be affected when a facility migrates to Cerner?"
+  - "How can the VA Health Summary and Blue Button sections be combined? Should they be combined?"
+  - "In what ways do laws and policies affect what is included in medical records and how it must be accessed?"
+  - "Why is the information in medical records grouped in the way it is?"
+  - "Why was Search My Record created?"
+  - "Why are medical records designed to primarily be downloaded and then viewed, rather than viewed and then downloaded?"
+  - "Who are the primary user groups for medical records today?"
+  - "How do veterans interact with medical records today?"
+  - "What information in medical records do Veterans access the most?"
+  - "What parts of medical records cause veterans the most frustration?"
+  - "What accessibility issues exist in the way medical records works today?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Legal and policy considerations will not noticeably constrain how we are able to redesign medical records"
+  - "Medical records can be split up into discrete sections (health summary, recently added information, lab results, pathology results, medical imaging results, procedures, previous visits, medications, allergies, vaccines, documents)"
+  - "The primary user experience can be viewing information through each section, and downloading will be secondary functionality"
+  - "The Blue Button section and branding can be deprecated"
+  - "The EHR migration will create significant medical record data conflicts for patients receiving care at both VistA and Cerner VAMCs"
+  - "Blue Button Report and VA Health Summary and Search My Record can be combined"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Deliver recommendations for how to improve MHV medical records in a veteran-centered way and deliver insight into how migration from VistA to Cerner will impact medical records"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Internal SMEs"
+  approach: "Targeted recruitment of internal subject matter experts"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "MHV engineering and technical staff"
+    - "MHV product owners and design staff"
+    - "Clinical staff from VA"
+    - "Legal and privacy experts from VA"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - "Customer support staff from MHV"
+    - "VistA technical staff"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "September 2022"
+  research_review_submission: "TBD"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
-      
+  - objective: "Veterans can manage their health services online"
+    key_results: "Enable Veterans to access and manage their medical records seamlessly"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Consolidate medical records access on VA.gov"
+
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Round 2 research planned for Q4 2022 - Usability testing with Veterans"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Medical-records"
+  - "MHV: Medical Records"
+  - "MHV: MyHealth"
+  - "semi-structured-interviews"
+  - "discovery"
+  - "stakeholder-interviews"
+  - "health-apartment"
+  - "Cerner"
+  - "VistA"
+  - "Blue-Button"
+  - "authenticated-experience"
 ---
 
 August 23, 2022
