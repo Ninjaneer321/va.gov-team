@@ -131,13 +131,13 @@
 #### List of Planned work
 - EZR Bug
      - [x] Fix schema validation errors (Ins info missing in array builder)
-- [ ] EZR Service History
+- EZR Service History
      - [ ] Determine how to connect with existing VA Profile integration
      - [ ] Create connection call to pull service history data
      - [x] Content for error state
      - [x] Content update on file upload page
-- [ ] EZ Form status
-     - [ ] EZ Update designs for Intro Page alerts on "pending" statuses
+- EZ Form status
+     - [x] EZ Update designs for Intro Page alerts on "pending" statuses
      - [ ] EZ Tech discovery on additional form statuses on MyVA
 
 ### Additional work completed
@@ -162,7 +162,7 @@
 ##
 ### 10-10EZ
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
-- [ ] [#128834](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128834) - [UX] Update Intro page alerts for "Pending" statuses
+- [x] [#128834](https://github.com/department-of-veterans-affairs/va.gov-team/issues/128834) - [UX] Update Intro page alerts for "Pending" statuses
 
 #### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
 - [x] **CRITICAL** [#131844](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131844) - [FE] Investigate & resolve Node 22 failing CI test
