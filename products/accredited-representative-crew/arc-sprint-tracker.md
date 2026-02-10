@@ -73,7 +73,8 @@ TBD
 ## Sprint 9 Demos
 
 **Team Benefits**:
-1. Datadog cleanup + Delete ITF submission after 60 days
+1. Delete ITF submission after 60 days
+2. Datadog cleanup
 
 **Engagement**:
 1. Demo videos available
