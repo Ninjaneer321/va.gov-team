@@ -76,6 +76,9 @@ TBD
 1. Delete ITF submission after 60 days
 2. Datadog cleanup
 
+**Team Appoint**:
+1. Datadog audit and recommendations for next steps
+
 **Engagement**:
 1. Demo videos available
 2. Onboarding status updates
