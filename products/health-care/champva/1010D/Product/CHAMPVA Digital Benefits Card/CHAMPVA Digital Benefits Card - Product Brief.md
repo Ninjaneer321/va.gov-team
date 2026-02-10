@@ -1,10 +1,10 @@
 ## Product Name  
 **CHAMPVA Digital Benefits Card**
 
-- [Epic](tbd)
-- [Research Folder](tbd)
-- [Figma](tbd)
-- [Launch Plan](tbd)
+- [Epic](tbd )
+- [Research Folder](tbd )
+- [Figma](tbd )
+- [Launch Plan](tbd )
 
 ## Background / Problem Statement  
 CHAMPVA beneficiaries currently receive their benefits card exclusively via postal mail. This delivery model introduces delays, creates friction when cards are lost or damaged, and limits beneficiary access compared to other public and private health insurance programs that provide digital or self-service card options. Beneficiaries lack the ability to view, retrieve, or request a card digitally, which can delay access to care and generate repeated outreach to the program.
