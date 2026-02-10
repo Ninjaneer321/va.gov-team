@@ -93,7 +93,7 @@ Great, now I can see your screen! Thank you for your patience in figuring this o
 
 ## Prototype overview
 
-I have a few questions to go through, then I’m going to ask you to complete a few medications management tasks. We’ll be using what we call a prototype. This is not an actual website, all names and information are fake. A prototype is a file we use to explore what a website could look like and get feedback from users like yourself before making final changes to the website. It will work much like a website, you can scroll and click on certain things, but it won’t function exactly like a real site. For example, not all links will work, and you won’t be able to use your browser’s back button because it will take you out of the prototype. This part will require you to share your screen with me.
+I have a few questions to go through, then I’m going to ask you to complete a few medications management tasks. We’ll be using what we call a prototype. This is sort of a fake website we use to explore what a website could look like and get feedback from users like yourself before making final changes to the website. It will work much like a website, you can scroll and click on certain things, but it won’t function exactly like a real site. For example, not all links will work, and you won’t be able to use your browser’s back button because it will take you out of the prototype.
 
 ## Opening the prototype
 
