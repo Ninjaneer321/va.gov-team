@@ -27,11 +27,6 @@ We are currently distinguishing between personal and business users with the fol
 
 Current Figma designs, https://www.figma.com/design/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form---Future-exploration?node-id=2033-121709&t=MIbYsLljnUqjPvqP-4
 
-
-#### Stephanie still has the below to update ####
-
-
-
 ## Problem statement
 **Background**
 
@@ -39,18 +34,20 @@ Ask VA users are classified by two distinct personas, using Ask VA as a personal
 
 |User Type|Primary Issues|
 |:---|:---|
-|Personal User|Categories and topics lists offer selection reassurance to this user, but the amount of current options causes overload to the user.|
-|Business User|Categories and topics lists are burdonsome because this user repeat the same selection(s) when using Ask VA.|
-|Business User|Current required fields are not neccessary for this user to submit inquiries (i.e. - subject field), forcing additional data entry which reduces the user's workflow efficiency.|
+|Personal User|Category and topic lists offer selection reassurance to this user, but the amount of current options causes overload to the user.|
+|Business User|Category and topic lists are burdonsome because this user repeats the same selection(s) when using Ask VA.|
+|Business User|Current required fields are not neccessary for this user to submit inquiries (i.e. - subject field), forcing additional and duplicative data entry which reduces the user's workflow efficiency.|
 
 **Solution**
 
 Decouple the existing form flow into two distinct personal and buiness user form flows.  Implement a business user form flow tailored to business user needs with focus on minimizing repetative data entry.  Implement a personal user form flow tailored to personal user needs with focus on user experience assurance while reducing category and topic lists overload.
 
 ## Outcomes
-- **User Experience Outcomes**: Users have an accessible and easy interaction with their personalized inbox.
--  **Functional Outcomes**:  The VADS guidance and standard operates correctly with Ask VA application.
-- **Business Outcomes**: Improved inbox usability and efficiency for Ask VA users.  Decreased dissatisfied feedback collected via the feedback button and intercept survey responses.
+- **User Experience Outcomes**: Users have an easy interaction witht he Ask VA application and can submit inquiries more effieciently.
+-  **Functional Outcomes**:  Ask VA application enhanced experience is easily adoptable to the different types of users.
+- **Business Outcomes**: Improved form usablility and increase inquiry submission completion. `what are we tracking in DD now as it relates to users falling off the form and where?`
+
+  ## stephanie updating outcomes, previous updates lost while GH issues were happeneing ##
 
 ### User Experience Outcomes
 |Outcome|Description|
