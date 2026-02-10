@@ -70,7 +70,19 @@ Main takeaway from the research sessions
 
 #### P5
 
+
+
+
 #### P6
+**UX Notetaker:**
+- Participant stated is was clear that if they were eligible for TRICARE they would not be eligible for CHAMVPA
+- Found the alerts to be clear overall but stated that some, because of the intro sentence, made it seem like it was a VA system issue and not an eligibility check issue
+- Wants a hybrid approach on the eligibility pattern gray box - stating the outcome in the headline and the responses, not a summary, below. They found the icons, list and visual representation helpful.
+
+**Observer 2:**
+- Participant preferred to be prepared and know everything up front rather than find out they needed something later (consistently clicked the more information dropdowns, noted expecting the VA to state what documents and info would be needed before starting, eyes directly to DD-214 form and recognizing it was NOT needed).
+- Preferred when information had clear why's behind it so they did not need to interpret what might be going wrong or wonder if it was a system issue.
+- Some potential difficulty identifying requirements vs. responses on the last card but preferred written out Version B or a hybrid.
 
 #### P7
 
