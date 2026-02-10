@@ -43,29 +43,26 @@ Ask VA users are classified by two distinct personas, using Ask VA as a personal
 Decouple the existing form flow into two distinct personal and buiness user form flows.  Implement a business user form flow tailored to business user needs with focus on minimizing repetative data entry.  Implement a personal user form flow tailored to personal user needs with focus on user experience assurance while reducing category and topic lists overload.
 
 ## Outcomes
-- **User Experience Outcomes**: Users have an easy interaction witht he Ask VA application and can submit inquiries more effieciently.
--  **Functional Outcomes**:  Ask VA application enhanced experience is easily adoptable to the different types of users.
-- **Business Outcomes**: Improved form usablility and increase inquiry submission completion. `what are we tracking in DD now as it relates to users falling off the form and where?`
+- **User Experience Outcomes**: Users have a more personalized experience to submit their questions and an easy interaction with the Ask VA application so that they can submit inquiries more effieciently.
+-  **Functional Outcomes**:  Ask VA application enhanced experience is easily adoptable to the different user types, personal user and business user.
+- **Business Outcomes**: Improved form usablility and increase of inquiry submission completion. `what are we tracking in DD now as it relates to users falling off the form and where?`
 
   ## stephanie updating outcomes, previous updates lost while GH issues were happeneing ##
 
 ### User Experience Outcomes
 |Outcome|Description|
 |:---|:---|
-|Inquiries Reviewed|Users can easily and quickly review their historical inquiries in a single column card view that aligns with messaging patterns across the VA.|
-|Sort Action|Users can sort inquries in a predicatable order of newest to oldest or oldest to newest.|
-|Search Action|Users can quickly search for specific inquiries using keywords.|
-|Filter Action|Users can filter inquries with relevant criteria and reduce time spent reviewing their complete inbox.|
+|Personalized Experience|Users can easily and quickly submit their questions with an experience that is tailored to being a personal user or a business user.|
 
 ### Functional Outcomes
 |Outcome|Description|
 |:---|:---|
-|Search, filter and sort patterns |All VADS inbox patterns function as expected|
+|Ask VA application enhancements are adoptable |User adoption to personal vs. business entry points is intuitive and functional|
 
 ### Business Outcomes
 |Outcome|Description|
 |:---|:---|
-|Improved inbox usability|Search, filter and sort patterns reduce overall user time spent locating a submitted inquiry.|
+|Improved form usability|Decreased abandon rate while completing Ask VA question.|need to understand this better `what are we tracking in DD now as it relates to users falling off the form and where?`
 |Improved user satisfaction|Users are more satisfied with Ask VA.|
 |Improved trust in VA|Users trust VA and VA services more.|
 
@@ -81,15 +78,10 @@ This initiative aligns with the following 2025 OCTO OKRs:
 |:---|:---|:---|
 |Satisfaction|January 2025: 23%|x|
 
-- Monitor average engagement time per active user, determine metric target
-Data Example (Dec 1 - Dec 31, 2025)
-<img width="1990" height="633" alt="image" src="https://github.com/user-attachments/assets/8929cf5f-9b32-4a1f-9b1b-d95d2ba91548" />
-
 ## Qualitative Monitoring
 |Key result|Baseline (ask.va.gov)|After X months|
 |:---|:---|:---|
 |Increase of positive qualitative feedback|Dec 25 - 7% |x|
-|Decrease qualitative feedback of "overcomplicated inbox" theme|x|x|
 
 ## Release plan (to be determined)
 [input release plan]
