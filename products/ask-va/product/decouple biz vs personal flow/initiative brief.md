@@ -18,7 +18,7 @@ To view **Ask VA's Product Outline** go here, [in this GitHub doc](https://githu
 ## Overview
 Ask VA users submit questions about VA benefits and services at, [Ask VA](https://www.va.gov/contact-us/ask-va/introduction).
 
-In 2025 the Ask VA team executed an [Usability Study](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/User%20research/2025-10%20Form%20and%20Inbox%20Usability%20Study). 
+In 2025 the Ask VA team executed a [Usability Study](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/User%20research/2025-10%20Form%20and%20Inbox%20Usability%20Study). 
 Key findings support implementing enhancements to the current form flow to distiguish entry points (CTAs) between Ask VA personal users and Ask VA business users.
 
 We are currently distinguishing between personal and business users with the following language in our design mocks.  Ask VA team has been advised by CAIA that content review and guidance will be provided during the collaboaration cycle.
