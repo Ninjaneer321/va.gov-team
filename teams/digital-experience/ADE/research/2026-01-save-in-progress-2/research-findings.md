@@ -267,7 +267,14 @@ All 7 participants found the "Finish later" button intuitive to save their work,
 
 After resuming the form
 
-### Finding 4: All 6 participants who interacted with the accordions on the Review/Submit page were able to easily open and close them with the controls on the left side (instead of the right).
+### Finding 4: All participants who interacted with the accordions on the Review/Submit page were able to easily open and close them with the controls on the left side (instead of the right).
+6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issue with the "+" control being on the left side (instead of on the left in the current VA Design System). This included the participant who was using a screen magnifier. In the [previous round of usability testing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#finding-6-va-forms-in-general-had-accessibility-issues-for-screen-readers-and-screen-magnifiers), a participant using a screen magnifier didn't understand how to interact with these accordions when the "+" control was on the right because it wasn't visible to him. 
+
+One participant interpreted the accordions as providing extra information to help the VA find their records, and he was surprised when he saw that it was only the information that he had already entered.
+
+Two participants didn't notice the "Expand all" link, one of whom said that the text was so small. That participant said that he would have clicked on "Expand all" if he had seen it, instead of opening each accordion one at a time. A third participant said that they never use "Expand all" because they are too overwhelmed by the length of what might expand, so it's easier for them to expand each accordion, one at a time.
+
+
 ### Finding 5: XX had some accessibility issues ...
 ---
 
