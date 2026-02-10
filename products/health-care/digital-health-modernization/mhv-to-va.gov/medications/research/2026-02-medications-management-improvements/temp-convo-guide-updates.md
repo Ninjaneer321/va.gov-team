@@ -99,7 +99,7 @@ Just a reminder, we will be using what we call a prototype to accomplish a task 
 
 ## Opening the prototype
 
-Now we're going to open up the prototype by following the link I have pasted in the chat: tinyurl.com/ypjh6c7p
+Now we're going to open up the prototype by following the link I have pasted in the chat: [Prototype link](https://tinyurl.com/ypjh6c7p)
 
 ### Backup plan if they cannot find the link in the chat:
 No problem, can you please navigate to a browser window and open a new tab? Now we're going to type in tinyurl.com/ypjh6c7p
@@ -129,11 +129,13 @@ Two years ago, you developed a rash and, since it was new, your doctor gave you 
 
 1. What are you looking for?  
 2. Tell me what you are looking at.  
-3. What do you think that means? (probe on all the filter categories)  
-4. What do you think you could do from here? What tells you that?  
-5. What can you tell me about your medication?  
-6. What do you think happens next for your medication? What tells you that?  
-7. Looking at this, what questions do you have? What would you change?
+3. What do you think that means? (probe on all the filter categories)
+4. How can you tell what medications are being shown right now?  
+   - If they interact with it: probe — what are you trying to do when you click that? What would you expect to happen?   
+5. What do you think you could do from here? What tells you that?  
+6. What can you tell me about your medication?  
+7. What do you think happens next for your medication? What tells you that?  
+8. Looking at this, what questions do you have? What would you change?
 
 ---
 
@@ -176,10 +178,10 @@ If they don’t go to print, ask them “do you think you can print?” and note
 ---
 
 ## Reflection questions
-1. Overall, how easy or difficult would you say this process that you went through today was?  
-2. What would you change about this process you would change? Why?  
-3. What about this process would you keep?  
-4. Is there anything else you would like to share that we have not covered?
+1. Thinking about your entire session today, how easy or difficult was your overall experience?  
+2. Looking back at everything you did today, what would you change? Why?  
+3. What worked well across the experience today that you would want to keep?  
+4. Is there anything else you’d like to share about your overall experience that we haven’t covered?
 
 ---
 
