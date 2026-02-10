@@ -1,109 +1,119 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for IRIS Redesign Usability Testing, Fall 2020"
+date: 2020-12-14
+last_updated: 2026-02-10
+team: "ThoughtWorks"
+product: "IRIS (Inquiry Routing & Information System)"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "We want to ensure that the redesigned IRIS experience is an improvement on the existing product and that Veterans can successfully submit inquiries through the new form."
+  product_location: "Contact center inquiry form on VA.gov"
+  user_familiarity: "Redesign of existing product"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/iris/IRIS-product-brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate the redesigned IRIS form and ensure it's an improvement over the existing product"
+  - goal_2: "Explore Customer Satisfaction & Trust, Findability and Task Service Completion"
+  - goal_3: "Identify usability issues and accessibility barriers before release"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Does the number of chapters/pages of the form feel like the right length?"
+  - "Can Veterans successfully navigate and complete the IRIS form?"
+  - "What obstacles do users encounter when submitting an inquiry?"
+  - "Is the redesigned IRIS experience accessible to Veterans with disabilities or cognitive challenges?"
+  - "What improvements need to be made before releasing the redesigned IRIS?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The redesigned IRIS form will be more usable than the existing product"
+  - "Veterans will be able to successfully submit inquiries through the new form"
+  - "The form will work effectively on both web and mobile devices"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will identify obstacles and usability issues that need to be addressed before releasing the redesigned IRIS within scope, and inform future development priorities including Help text and File attachments."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans (or their family members, ideally Veterans) who have used the IRIS form in the past year"
+    - "Participants must be able to use Zoom and share their screen"
+    - "At least 1 participant with a disability or cognitive challenges"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Preference to test with same users originally interviewed at the start of the project"
+    - "Test on both web and mobile if possible"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you used the IRIS form in the past year?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-12-11"
+  pilot_participant: "ThoughtWorks team member"
+  research_dates: "2020-12-14 to 2020-12-23"
+  research_review_submission: "2020-12-07"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improve Customer Satisfaction"
+  - objective: "Veterans and their families trust the security, accuracy and relevancy of VA.gov"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Improve Customer Trust"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/iris/IRIS-product-brief.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "IRIS"
+  - "contact-center"
+  - "inquiry-routing"
+  - "usability-testing"
+  - "form-design"
+  - "unauthenticated"
+  - "evaluative"
+  - "remote"
+  - "moderated"
+  - "accessibility"
+  - "veterans"
+  - "family-members"
 ---
 
 # Usability Testing Research Plan for IRIS redesign, Fall 2020

@@ -1,109 +1,123 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VA VEO MCT, Veteran Address Management, April-May 2020"
+date: 2020-04-01
+last_updated: 2026-02-10
+team: "VA VEO Multi-Channel Technologies (MCT)"
+product: "Address Management / VA Profile"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans currently have multiple ways to update contact information across VA services, leading to inconsistency. VA Profile is intended to be the single repository for veteran address information, but processes, policies, and procedures need to be defined. Addresses are stored across different legacy systems with interoperability challenges, and updates don't spread consistently across all platforms."
+  product_location: "VA Profile and various VA services including VA.gov, call centers, and VA facilities"
+  user_familiarity: "Iteration - improving existing address management functionality"
+  product_brief_url: "VA Profile integration project"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "directed interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how veterans use addresses within the VA"
+  - goal_2: "Understand how veterans manage their VA addresses"
+  - goal_3: "Identify areas of improvement in the address management process"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do veterans use addresses within the VA?"
+  - "How do veterans manage their VA addresses?"
+  - "What channels do veterans use to update their addresses?"
+  - "What challenges do veterans face when updating addresses?"
+  - "How do address updates impact veterans' benefits and services?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Understanding address management more comprehensively will help improve it."
+  - "Veterans experience inconsistency when updating addresses across different VA channels."
+  - "Address updates don't consistently propagate across all VA systems."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Comprehensive understanding of veteran address management needs and pain points to inform improvements to VA Profile and address management processes across VA services."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment based on recent address update activity"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "8-10 veterans or VA patients"
+    - "Has updated their address with the VA in the last year via VA.gov, phone (call center), or in person at a VA facility"
+    - "Is enrolled in and receiving VA Benefits (such as Disability/Comp&Pension/GI Bill/VA Home Loan/Health Care/Care in the Community)"
+    - "Must have access to a computer with reliable internet access and working microphone and camera"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Uses VA.gov to update their addresses (optional)"
+    - "Has used or receives mail-order prescriptions (optional)"
+    - "No age, accessibility, or location requirements"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you updated your address with the VA in the last year?"
+      qualifying_response: "Yes"
+    - question: "Are you enrolled in and receiving VA Benefits?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-04-01"
+  pilot_participant: "TBD"
+  research_dates: "2020-04-01 to 2020-05-15"
+  research_review_submission: "2020-03-25"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "VA Profile as single source of truth"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Define processes, policies, and procedures for VA Profile integration"
+      - "Improve consistency of address updates across VA systems"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "VA Profile integration research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "address-management"
+  - "contact-information"
+  - "VA-profile"
+  - "authenticated-experience"
+  - "directed-interviews"
+  - "discovery"
+  - "profile"
+  - "multi-channel"
+  - "legacy-systems"
+  - "interoperability"
+  - "veterans"
+  - "DSP-ask-users-for-addresses"
+  - "mail-order-prescriptions"
 ---
 
 # Research Plan Veteran Address Management, April - May 2020

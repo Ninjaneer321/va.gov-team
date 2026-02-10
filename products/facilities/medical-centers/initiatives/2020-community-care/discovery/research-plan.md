@@ -1,109 +1,111 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Facilities Team, Community Care Manager Interviews, November 2020"
+date: 2020-11-06
+last_updated: 2026-02-10
+team: "Facilities"
+product: "Facility Locator / VAOS Community Care"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Understanding how Community Care Request managers process Veterans' community care requests and search for providers to improve the VAOS and Facility Locator experience."
+  product_location: "VA.gov Facility Locator and VAOS"
+  user_familiarity: "Iteration on existing community care scheduling process"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "qualitative interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand the current data and process that a community care request manager uses to process Veterans' community care requests"
+  - goal_2: "Understand and gather feedback about VAOS requests for community care coming into Community Care request managers"
+  - goal_3: "Understand how and where Community Care Request managers search for type of care/specialties and providers"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How does a community care request get processed by Community Care Request managers once it is received in Schedule Manager?"
+  - "What type of data is a Request manager looking for from a Veteran when processing community care requests?"
+  - "What information do you see from the VAOS request and what is helpful?"
+  - "How do you search for type of care/specialties and where do you search for that data and providers?"
+  - "What search parameters do Community Care Request managers use to identify the appropriate community care provider?"
+  - "What are community care managers' expectations for search results versus reality?"
+  - "What do those search results look like, what is useful to schedule the appointment, and what is unnecessary or confusing?"
+  - "If you could change anything about community care online scheduling through VAOS what would it be?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "By understanding how Community Care schedulers use systems to manually process specific requests, and how they search for care providers on behalf of Veterans, we can better understand how to simplify this search experience on Facility locator and VAOS."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Better understanding of community care scheduling workflows to inform design improvements in VAOS and Facility Locator"
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Direct recruitment"
+  approach: "Purposive sampling of Community Care managers"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be a Community Care Manager who schedules Veterans for appointments"
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+  secondary_criteria: []
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you currently a Community Care Manager who schedules appointments for Veterans?"
+      qualifying_response: "Yes"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  staff_members: 12
+  total_recruited: 12
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-11-06"
+  pilot_participant: "TBD"
+  research_dates: "2020-11-12 to 2020-11-20"
+  research_review_submission: ""
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve community care appointment scheduling experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Managing my declining health"
     
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
+  previous_studies: []
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "facilities"
+  - "community-care"
+  - "qualitative-interviews"
+  - "staff-research"
+  - "discovery"
+  - "healthcare"
+  - "appointments"
+  - "VAOS"
+  - "facility-locator"
+  - "provider-search"
+  - "schedulers"
+  - "authenticated-experience"
 ---
 
 # Research Plan: Community Care Manager Interviews 

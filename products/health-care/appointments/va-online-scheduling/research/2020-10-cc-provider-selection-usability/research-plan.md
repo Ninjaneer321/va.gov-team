@@ -1,109 +1,124 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VAOS Team, Community Care Provider Selection, October-November 2020"
+date: 2020-11-12
+last_updated: 2026-02-10
+team: "VAOS Team"
+product: "VA Online Scheduling - Community Care"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "As a veteran, I would like the VAOS app to automatically find community care providers closest to my residential address and auto populate the providers I've selected into the VAOS provider fields so I don't have to manually enter or copy-paste this information. Currently, veterans who want to use a specific provider have to first find them in the Facility Locator tool, copy the provider's contact information and paste it back into the scheduling tool."
+  product_location: "VA.gov health care appointments - Community Care provider selection"
+  user_familiarity: "New feature for VAOS community care scheduling"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "remote moderated usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Help veterans request community care appointments by letting them search for providers directly in VAOS"
+  - goal_2: "Help Veterans choose whether to go to a VAMC or find a provider in their community"
+  - goal_3: "Make it clear to Veterans that they can opt out of choosing a provider"
+  - goal_4: "Decrease the amount of time it takes veterans to schedule a community care appointment when selecting a provider"
+  - goal_5: "Help veterans find their requested appointments"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do veterans understand the difference between community care and VA care?"
+  - "Can veterans easily find providers?"
+  - "Is it easier to find providers on the map or list?"
+  - "Is it clear what skipping the step of adding a provider means?"
+  - "Are there other ways veterans expect to be able to find a provider?"
+  - "Can veterans find their requested pending appointments?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will be able to understand the difference between VA care and community care."
+  - "It will be easy for veterans to choose a provider."
+  - "Veterans will clearly see the value of selecting multiple providers."
+  - "Veterans will be able to easily find appointments they requested and scheduled."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate that the provider selection prototype helps veterans more easily find and select community care providers, reducing friction in the community care appointment request process."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "8-10 Veterans who have VA health care"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Representative of all branches of the Armed Forces"
+    - "An even split of men and women"
+    - "At least one person in each of the following age brackets: 18-30, 31-50, 50+"
+    - "At least one participant to have a disability rating of 30% or greater"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have VA health care?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 9
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-11-03"
+  pilot_participant: "Emily Waggoner"
+  research_dates: "2020-11-12 to 2020-11-20"
+  research_review_submission: ""
   
 session_details:
   duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  buffer_minutes: 15
+  max_sessions_per_day: 5
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Streamline community care appointment requests"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/products/health-care/appointments/va-online-scheduling/research/2020-07-vaos-mvp-and-express-care-user-research/research-findings.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: VA-online-scheduling"
+  - "BNFT: Healthcare"
+  - "DSP: Appointments"
+  - "appointments"
+  - "scheduling"
+  - "community-care"
+  - "provider-selection"
+  - "usability-testing"
+  - "facility-locator"
+  - "VAMC"
+  - "provider-search"
+  - "map-view"
+  - "list-view"
+  - "authenticated"
+  - "veterans"
+  - "VAOS"
+  - "health-care"
+  - "prototype"
 ---
 
 # Research Plan for VAOS Community Care Discovery, October 2020

@@ -1,109 +1,125 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Facilities Team, Vet Center Detail Page Usability Test, December 2020"
+date: 2020-12-09
+last_updated: 2026-02-10
+team: "Facilities"
+product: "Vet Center Facility Pages"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Get high-level Veteran feedback on Vet Center webpage designs to understand if they have enough information to choose care at a Vet Center."
+  product_location: "VA.gov Vet Center facility detail pages"
+  user_familiarity: "New product - first usability test of Vet Center facility page designs"
+  product_brief_url: "https://preview.uxpin.com/603da0b67ccefbbee74fcd8bb77a8fed12baabb5#/pages/134612636?mode=cvhidm"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Get high-level Veteran feedback on webpage designs to understand if they have enough information to choose care at a Vet Center"
+  - goal_2: "Assess Veterans' understanding of services available at Vet Centers"
+  - goal_3: "Evaluate Veterans' ability to navigate and find information on Vet Center facility pages"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Will Veterans understand what type of care is available at Vet Centers?"
+  - "Will Veterans understand that they cannot get primary medical care at a Vet Center?"
+  - "Will Veterans be able to find the service they are looking for within the list of taxons?"
+  - "Will Veterans know how to expand a service accordion to get details about individual services?"
+  - "Will Veterans understand the relationship between Vet Center parent and child locations?"
+  - "Will Veterans understand that not all services are available at child locations?"
+  - "Will Veterans have enough information in order to visit or call a location?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will understand the types of services offered/not offered."
+  - "Veterans will have enough information to visit a location."
+  - "Veterans will understand next steps for interacting with a Vet Center."
+  - "Veterans will understand that child locations may not have the same services as a parent location."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identification of usability issues and content improvements needed for Vet Center facility pages before development"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling with focus on mental health counseling experience"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must be a Veteran, active duty service member, reservist, or national guard member"
+    - "Is currently or has participated in individual or group mental health counseling with the VA"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 4 participants living in a rural or remote area"
+    - "At least 2 participants without a college degree"
+    - "At least 2 females"
+    - "At least 1 participant of color"
+    - "Age diversity (35 or under, 36-45, 46-55, 56 or over)"
+    - "At least 1 participant with cognitive disabilities"
+    - "At least 1 participant living in a major metropolitan area"
+    - "At least 1 participant with a disability rating of 70% or greater"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you currently, or have you in the past, participated in individual counseling, group counseling, family counseling, or couples/marital counseling?"
+      qualifying_response: "Yes to at least one type"
       
 participants:
-  veterans: 0
+  veterans: 16
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 16
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-12-09"
+  pilot_participant: "michelle.middaugh@adhocteam.us"
+  research_dates: "2020-12-10 to 2020-12-18"
+  research_review_submission: ""
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 7
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve Vet Center facility page usability"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Vet Center Client Interviews - September-October 2020"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "facilities"
+  - "vet-centers"
+  - "usability-testing"
+  - "veterans"
+  - "desktop"
+  - "mental-health"
+  - "counseling"
+  - "service-discovery"
+  - "unauthenticated-experience"
+  - "facility-locator"
+  - "discovery"
+  - "healthcare"
+  - "prototype-testing"
 ---
 
 # Research Plan: Vet Centers Detail Page - Usability Test  

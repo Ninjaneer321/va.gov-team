@@ -1,109 +1,121 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VSA Caregiver, Primary Caregiver/Secondary Flow for 10-10CG, December 2020"
+date: 2020-12-15
+last_updated: 2026-02-10
+team: "VSA Caregiver"
+product: "10-10CG"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Allow Veterans and caregivers to apply to the Program of Comprehensive Assistance for Family Caregivers with either a Primary Family Caregiver, Secondary Family Caregiver(s), or both"
+  product_location: "https://staging.va.gov/family-member-benefits/comprehensive-assistance-for-family-caregivers/"
+  user_familiarity: "Iteration - adding Primary/Secondary caregiver flow functionality to existing digitized form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/caregiver/product-outline.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine whether or not the updated designs of the 10-10CG form are usable, understandable, and easy to navigate for Veterans and caregivers"
+  - goal_2: "Validate that users can successfully apply with different caregiver configurations (Primary only, Secondary only, or both)"
+  - goal_3: "Identify any confusion caused by content or verbiage regarding Primary and Secondary Family Caregiver workflows"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are users able to achieve their goal of applying with a Primary Family Caregiver only?"
+  - "Are users able to achieve their goal of applying with a Primary Family Caregiver and Secondary Family Caregiver(s)?"
+  - "Are users able to achieve their goal of applying with Secondary Family Caregiver(s) only?"
+  - "Is there any confusion caused by the content or verbiage in regards to the Primary Family Caregiver and Secondary Family Caregiver workflows?"
+  - "Will confusion be caused in any way by the addition of the Primary Family Caregiver question?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will be able to navigate through the form relatively easily, but may have issues with the addition of the Primary Family Caregiver question causing confusion"
+  - "Users may have difficulty knowing if a Veteran or caregiver should 'add' a Primary Family Caregiver vs Secondary Family Caregiver"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate that the updated Primary/Secondary caregiver flow is usable and understandable before production launch"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Mixed sample of Veterans with caregivers and current program participants"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "8 participants must be Veterans with a caregiver OR caregivers to a Veteran"
+    - "4 participants must be currently enrolled in the Program of Comprehensive Assistance for Family Caregivers and interested in adding another caregiver"
+    - "All participants must have a laptop/desktop and complete test on that device"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least 2 participants with disability rating of 70% or greater with identified cognitive impairments and/or functional disabilities"
+    - "50% women, 50% men"
+    - "50% people who identify as ethnicity/race other than Caucasian"
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    - "At least one person without a college degree"
+    - "At least one person with a college degree"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a Veteran who has a caregiver OR are you a caregiver to a Veteran?"
+      qualifying_response: "Yes (8 participants)"
+    - question: "Are you currently enrolled in The Program of Comprehensive Assistance for Family Caregivers and are interested in adding another caregiver to your benefits?"
+      qualifying_response: "Yes (4 participants)"
       
 participants:
-  veterans: 0
-  caregivers: 0
+  veterans: 8
+  caregivers: 8
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-12-14"
+  pilot_participant: "TBD"
+  research_dates: "2020-12-15 to 2020-12-18"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 30
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhance Veteran and caregiver digital experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Expand caregiver program eligibility through improved digital application process"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Living Civilian Life"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/caregivers/1010cg-mvp/usability-testing-jan2020"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: Caregivers"
+  - "BNFT: Healthcare"
+  - "AUD: Caregivers"
+  - "AUD: Veterans"
+  - "usability testing"
+  - "remote"
+  - "form"
+  - "authenticated"
+  - "10-10CG"
+  - "primary caregiver"
+  - "secondary caregiver"
+  - "DSP: Form templates"
+  - "DSP: Question/answer"
+  - "moderated"
 ---
 
 # Research Plan: VSA Caregiver, Primary Caregiver/Secondary flow for the 10-10CG form, December 2020

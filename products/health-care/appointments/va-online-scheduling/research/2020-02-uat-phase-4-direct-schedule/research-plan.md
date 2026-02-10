@@ -1,109 +1,113 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VAOS Team, Direct Scheduling UAT, January-February 2020"
+date: 2020-01-31
+last_updated: 2026-02-10
+team: "VAOS Team"
+product: "VA Online Scheduling"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The legacy mobile online scheduling application currently lives in VA's mobile store, mobile.va.gov. The front end of this application has been rebuilt on VA.gov. Key components of the application will be going live in 2020 - view and cancel appointments, request community care appointments, request VA appointments, and self-schedule appointments."
+  product_location: "VA.gov health care appointments"
+  user_familiarity: "Relaunch of VAOS on VA.gov"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "UAT (User Acceptance Testing)"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate that users can successfully complete the direct scheduling flow in production"
+  - goal_2: "Verify that data is displaying correctly in the system"
+  - goal_3: "Ensure Veterans can self-schedule primary care appointments in a logical and intuitive way"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Are users getting through the flow?"
+  - "Is the data showing up where it is supposed to show up?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans are able to self-schedule primary care appointments in a way that is logical and intuitive to them."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate with real users using real data that the direct scheduling functionality works as intended in production."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment for UAT"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "MUST be Veterans who are enrolled in VA healthcare"
+    - "MUST be Veterans who have received primary care at a VA facility in the past"
+    - "MUST be Veterans who need to schedule a Primary Care appointment at their local VA facility"
+    - "MUST be Veterans who have a MHV premium account, OR an authenticated/identity-proofed ID.me account"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Veterans who have used online scheduling before"
+    - "Veterans who have been seen at a VA healthcare facility within the last 2 years"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you need to schedule a Primary Care appointment at your local VA facility?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 15
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: ""
+  pilot_participant: "n/a"
+  research_dates: "2020-01-31 to 2020-02-07"
+  research_review_submission: ""
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 45
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 8
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Enable online scheduling of VA appointments"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Previous VAOS UAT phases"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: VA-online-scheduling"
+  - "BNFT: Healthcare"
+  - "DSP: Appointments"
+  - "appointments"
+  - "scheduling"
+  - "UAT"
+  - "user-acceptance-testing"
+  - "direct-schedule"
+  - "primary-care"
+  - "MHV"
+  - "authenticated"
+  - "veterans"
+  - "VAOS"
+  - "health-care"
+  - "production-testing"
 ---
 
 # Research plan for UAT #4 / VAOS DIRECT SCHEDULING - Jen-Feb 2020 

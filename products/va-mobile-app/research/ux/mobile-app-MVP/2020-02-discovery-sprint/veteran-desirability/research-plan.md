@@ -1,109 +1,125 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VA Mobile App Discovery Sprint, February 2020"
+date: 2020-03-05
+last_updated: 2026-02-10
+team: "Team Hummingbird (Ad Hoc)"
+product: "VA Mobile App"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Why should the VA build a mobile app? What problem for VA beneficiaries does it solve that VA.gov or existing apps don't solve? What features should a VA mobile app include?"
+  product_location: "Mobile application (iOS and Android)"
+  user_familiarity: "New product - initial discovery"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "card sort, usability testing, affinity diagramming"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Determine what feature set Veterans most desire in a VA mobile application"
+  - goal_2: "Understand how Veterans prioritize VA mobile features"
+  - goal_3: "Validate feature set with clickable prototype through usability testing"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What feature set do Veterans need on a mobile application with VA?"
+  - "How do they prioritize that feature set?"
+  - "What are Veterans expecting to see when they initially log on to a VA mobile application?"
+  - "Are the features that we included meeting their needs when interacting with VA?"
+  - "What is the most important secondary action that a Veteran would want to do when leveraging VA mobile?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will highly desire and respond positively to features that put them in closer and immediate touch with people who can help them at VA"
+  - "A mobile friendly UI with large CTAs and a digestible amount of information on a screen will test positively with Veterans"
+  - "Claims and Health features together in one app is something that Veterans would desire if navigation is clear"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Recommendations for Phase Two prototype, data analysis of card sorting tasks, initial vision for VA mobile and direction for creating a world class mobile experience for Veterans."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Internal team members and VA stakeholders networks"
+  approach: "maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants are Veterans"
+    - "All participants have had interactions with online services at VA"
+    - "At least 25 participants who have completed 100% of the card sort"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Representing all branches of the Armed Forces"
+    - "Equal distribution of gender"
+    - "At least one person in each age bracket: 18-30, 31-50, 50+"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you interacted with VA online services?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 25
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 25
+  completed_sessions_goal: 25
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-03-04"
+  pilot_participant: "Ad Hoc team member"
+  research_dates: "2020-03-05 to 2020-03-23"
+  research_review_submission: "2020-03-03"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 15
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase mobile access to health services"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Consolidate VA mobile experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Card sorting guide: https://docs.google.com/document/d/1fzgXrvUIsGaRv1frcWq2nc2cU5dG3ZAW-MJAM84gs5I/edit"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "va-mobile-app"
+  - "mobile"
+  - "card-sort"
+  - "usability-testing"
+  - "affinity-diagramming"
+  - "discovery"
+  - "generative"
+  - "remote"
+  - "unmoderated"
+  - "moderated"
+  - "veterans"
+  - "authenticated"
+  - "HDW: Smartphone"
+  - "iOS"
+  - "Android"
+  - "feature-prioritization"
 ---
 
 # Background

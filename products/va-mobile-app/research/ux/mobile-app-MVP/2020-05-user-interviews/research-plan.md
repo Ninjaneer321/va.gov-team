@@ -1,109 +1,127 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VA Mobile App Discovery User Interviews, May 2020"
+date: 2020-05-04
+last_updated: 2026-02-10
+team: "Team Hummingbird"
+product: "VA Mobile App"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "What gaps exist in VA's Veteran facing technology that would be best addressed by a flagship VA mobile app? Why and how do Veterans choose the ways they interact with VA using mobile technology?"
+  product_location: "Mobile application (iOS and Android)"
+  user_familiarity: "New product - discovery research"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand all the ways Veterans manage their VA benefits"
+  - goal_2: "Understand how Veterans currently use their mobile devices"
+  - goal_3: "Identify where a mobile app can add unique value to VA's technology offering"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What are all the ways Veterans manage their VA benefits (web sites, mobile apps, phone, in-person visits, VSO, etc.)?"
+  - "What benefits or services are Veterans accessing (e.g. education, healthcare, disability)?"
+  - "How do Veterans currently use their mobile devices?"
+  - "What non-VA apps (non-social media apps) do they use the most? Why?"
+  - "Do Veterans currently use their mobile devices for managing VA benefits?"
+  - "If a Veteran uses existing VA mobile apps, what has their experience been?"
+  - "If a Veteran uses VA.gov on mobile, what has their experience been?"
+  - "Do Veterans feel strongly about certain tasks being better for mobile or better for desktop for them? Why?"
+  - "Where can a mobile app add unique value to VA's technology offering?"
+  - "What is the critical mass of capabilities that Veterans would find compelling enough for an app to feel worthwhile to download?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans are interested in using a mobile app to manage some aspects of their VA benefits"
+  - "An authenticated app with personalization may add value to VA.gov"
+  - "Veterans experience pain points with lack of transparency and communication from VA that a mobile app could address"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform what features and capabilities should be prioritized in a flagship VA mobile app and how it can best serve Veterans' needs."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must be Veterans"
+    - "Should be majority mobile device users"
+    - "Diversity of experience with VA benefits and services, especially education, disability, and health care"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse in branch of service, gender (30% or more women), race, age, geography, and density (rural)"
+    - "At least one assistive device user (nice to have)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "How would you describe your mobile device usage?"
+      qualifying_response: "Open text field response"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-05-01"
+  pilot_participant: "Ambika Roos"
+  research_dates: "2020-05-04 to 2020-05-15"
+  research_review_submission: "2020-04-24"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase mobile access to health services"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Improve mobile experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Card sorting research from February 2020"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "va-mobile-app"
+  - "mobile"
+  - "semi-structured-interviews"
+  - "generative"
+  - "discovery"
+  - "remote"
+  - "moderated"
+  - "veterans"
+  - "authenticated"
+  - "HDW: Smartphone"
+  - "iOS"
+  - "Android"
+  - "user-research"
+  - "exploratory"
 ---
 
 

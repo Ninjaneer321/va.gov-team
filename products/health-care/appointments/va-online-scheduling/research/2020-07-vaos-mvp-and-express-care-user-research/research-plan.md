@@ -1,109 +1,132 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VAOS Team, VAOS MVP and Express Care User Research, June-July 2020"
+date: 2020-07-02
+last_updated: 2026-02-10
+team: "VAOS Team"
+product: "VA Online Scheduling - MVP and Express Care"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "With VAOSR MVP in prod and live since March 2020, it's time to perform another round of user research and testing with Veterans. This research should focus on areas in the experience that we know (through analytics and user feedback) are confusing or need iteration. Additionally, we want to collect general feedback and requests from Veterans for new VAOSR considerations in the future."
+  product_location: "https://www.va.gov/health-care/schedule-view-va-appointments/"
+  user_familiarity: "Iteration of VAOS MVP in production"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "remote moderated usability research and usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand Veterans' mental model about scheduling online appointments"
+  - goal_2: "Directly observe how Veterans are interacting with the VAOSR MVP"
+  - goal_3: "Identify areas of confusion or high dropoff in the scheduling flow"
+  - goal_4: "Understand expectations for telehealth/video appointments and Express Care"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans understand the login and tool instructions?"
+  - "Do Veterans understand what they see on the appointments list? Is the appointments list useful to veterans?"
+  - "Does the past appointments list (new feature) meet veterans' needs?"
+  - "Are veterans able to cancel appointments? Are veterans having issues when trying to make cancellations? Is the experience of cancelling an appointment what they expect?"
+  - "What's impacting type of care dropoff? Does type of care offerings meet veterans' expectation for online scheduling?"
+  - "What's impacting the high dropoff rate of veterans on the Facilities page?"
+  - "Why are we seeing 10% dropoff rate on Select a time/date calendar page? Is there UX/interaction issues or confusion?"
+  - "What are veterans expectations for telehealth/video appointments through VAOSR? What are veterans issues for telehealth/video appointments through VAOSR?"
+  - "Do Veterans hit certain roadblocks in their scheduling experience in new VAOSR? What are those roadblocks?"
+  - "What, if any, messaging options do veterans expect to have available to them while scheduling an appointment online? Who do veterans expect to be able to message with in this scenario?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "DEPO has repeatedly heard from Veteran participants that it is difficult to complete forms online due to certain conditions, which contributes to frustration when trying to complete tasks such as online scheduling"
+  - "Users have information overload when reading information on Schedule and View VA Appointments and the scheduling tool landing page"
+  - "Users have information overload when viewing their VA appointments list page"
+  - "Users have information overload on VA schedule an appointment page"
+  - "Users have information overload/confusion as they are going through the flow to schedule an appointment"
+  - "Users are looking for, but can't find a specific appointment type, either because it is not listed/supported by online scheduling, at that location, or the user has a different name for the appointment type than what is listed"
+  - "Users are looking for a specific location, but can't find the specific location they have in mind, either because the location isn't listed or it is listed using a different name/nested within a category they are unfamiliar with"
+  - "Users are looking for a specific provider, but can't find the specific provider they have in mind"
+  - "Users are confused by the different look/feel, if this is new to them. Easily give up, rather than trying to figure it out"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify specific areas for improvement in VAOS MVP based on user feedback and observed behavior patterns. Validate Express Care prototype concepts."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Have an MHV Premium, DS Logon, or ID.me identity-proofed account"
+    - "Be enrolled in VA healthcare"
+    - "Be registered at one or more VA healthcare system that is still using VistA to manage schedules"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Veterans with recent scheduling experience"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you enrolled in VA healthcare?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 18
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 18
+  completed_sessions_goal: 15
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-07-01"
+  pilot_participant: "Melissa Schaff"
+  research_dates: "2020-07-02 to 2020-07-17"
+  research_review_submission: ""
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Reduce friction in appointment scheduling"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/july-2020-user-research/vaosr-june-conversation-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: VA-online-scheduling"
+  - "BNFT: Healthcare"
+  - "DSP: Appointments"
+  - "appointments"
+  - "scheduling"
+  - "usability-testing"
+  - "MVP"
+  - "express-care"
+  - "appointments-list"
+  - "cancel-appointments"
+  - "type-of-care"
+  - "facilities"
+  - "calendar"
+  - "telehealth"
+  - "authenticated"
+  - "veterans"
+  - "VAOS"
+  - "health-care"
+  - "user-research"
 ---
 
 # Research Plan for - VAOS Team on VA.gov, VAOSR, June & July 2020

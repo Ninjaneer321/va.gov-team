@@ -1,109 +1,131 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for USDS, Dependency Verification Workflow, November 2020"
+date: 2020-12-01
+last_updated: 2026-02-10
+team: "USDS"
+product: "Dependency Verification"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans receive benefits based on number of dependents. When dependency status changes (divorce, aging, death), Veterans often don't update VA, resulting in overpayments and debt. Need to improve the ease of maintaining accurate dependent information."
+  product_location: "VA.gov - Form 21-686c and Form 21-0538 processes"
+  user_familiarity: "Iteration - exploring improvements to existing dependency verification workflow"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "ethnographic interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand whether Veterans remember to manage dependent benefits with the VA and how they keep information up-to-date"
+  - goal_2: "Identify ways Veterans do regular business with VA where reminders could be integrated to update dependent information"
+  - goal_3: "Determine best methods for reminding Veterans to make changes to dependent status"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans remember to manage dependent benefits with the VA? If so, how do they go about keeping their dependent information up-to-date? If not, why not?"
+  - "What are ways in which Veterans do regular business with the VA where we might remind them to update their information around dependents?"
+  - "How would Veterans like to be reminded to make a change?"
+  - "If reminding Veterans as part of logging in on VA.gov, would it be a better strategy to make it required or optional?"
+  - "If reminding Veterans as part of logging in on VA.gov, would it be a better strategy to include or not include current dependents?"
+  - "Are there unique aspects to Veterans that have been overpaid that would help us identify the best ways to update VA with accurate information on dependents?"
+  - "Are Veterans that use VA.gov regularly or semi-regularly a significant part of the population of Veterans that are being overpaid?"
+  - "Conversely, are Veterans that do not use VA.gov (either that can use but choose not to, or cannot for some reason) a significant part of the population of Veterans that are being overpaid?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans who regularly or semi-regularly use VA.gov for online self-service can be intercepted in smarter and more effective ways to encourage them to keep information about their dependents up-to-date"
+  - "Smarter targeting based on factors unique to the individual (that might make them more likely to have a change in dependents) will be more effective"
+  - "More effective interventions will create the behavior of making updates with VA as dependencies change"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify product improvements and intervention strategies that will reduce Veteran debt owed to VA from dependency-related overpayments"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Qualitative sample focused on Veterans with dependents who use VA benefits"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must use their VA benefits"
+    - "Must have dependents"
+    - "Must use their Veteran benefits for their dependents"
+    - "Must have access to a computer and be able to do a Zoom call and share screen"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "May have had a change in the status of their dependents as the result of age, marital status, or other life change"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you use your VA benefits?"
+      qualifying_response: "Yes"
+    - question: "Do you have dependents?"
+      qualifying_response: "Yes"
+    - question: "Do you use your Veteran benefits for your dependents?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 15
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 15
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-11-30"
+  pilot_participant: "Steve Kovacs and Martha Wilkes"
+  research_dates: "2020-12-01 to 2020-12-04"
+  research_review_submission: "2020-11-20"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+  duration_minutes: 40
+  buffer_minutes: 20
+  max_sessions_per_day: 6
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Reduce Veteran debt from benefit overpayments"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve accuracy of dependent information in VA systems"
+      - "Reduce overpayments related to unreported dependency status changes"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Living Civilian Life"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Form 21-686c research"
+    - "Form 21-0538 process research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: Dependents"
+  - "BNFT: Dependency"
+  - "AUD: Veterans"
+  - "AUD: Dependents"
+  - "ethnographic interviews"
+  - "remote"
+  - "authenticated"
+  - "21-686c"
+  - "21-0538"
+  - "debt"
+  - "overpayments"
+  - "dependency verification"
+  - "life events"
+  - "moderated"
+  - "discovery"
+  - "customer journey"
+  - "mental model"
 ---
 
 

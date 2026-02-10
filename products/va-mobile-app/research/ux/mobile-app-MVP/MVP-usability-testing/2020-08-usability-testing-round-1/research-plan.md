@@ -1,109 +1,136 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VA Mobile App MVP Usability Testing Round 1, August 2020"
+date: 2020-09-09
+last_updated: 2026-02-10
+team: "VA Mobile App Team"
+product: "VA Mobile App MVP"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "We have determined there is a Veteran desire for a VA mobile app and defined an MVP feature set. We need to usability test the high fidelity prototype design to identify obstacles and validate design decisions."
+  product_location: "Mobile application (iOS)"
+  user_familiarity: "New product - MVP usability testing"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Assess the effectiveness and clarity of the app IA and navigation UI"
+  - goal_2: "Assess the home screen design and determine if including multiple CTAs to the same feature is confusing"
+  - goal_3: "Assess the desired content on Profile, Direct Deposit, Letters and Documents, Settings, and Claim Status Tool"
+  - goal_4: "Assess Veteran perception of the MVP app overall"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans express the value of biometric sign in? Do Veterans have any concerns about it?"
+  - "How easily and successfully can Veterans find: Personal & Contact Information, Direct Deposit, Letters and Documents, Settings?"
+  - "How easily and successfully can Veterans use the bottom toolbar navigation?"
+  - "Do users find any of the icons and titles in the bottom toolbar unclear?"
+  - "Do Veterans think that the Veterans Crisis Line should be in the bottom toolbar?"
+  - "Where do users run into problems navigating around the app?"
+  - "What information would Veterans most like to see on the mobile app Claim Status Tool?"
+  - "Overall, how satisfied are Veterans with the MVP feature set and overall app UI/UX design?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "The bottom toolbar navigation elements will mostly be usable and clear to Veterans"
+  - "Veterans will be able to successfully find Personal & Contact Information, Direct Deposit, Letters and Documents and Settings"
+  - "Veterans will be satisfied with the information in the Profile section"
+  - "Once away from the homescreen, Veterans will use the bottom toolbar to navigate"
+  - "Veterans will want to see more information about a claim's status, including information that's not in the current CST"
+  - "Veterans will express high interest in downloading and using this app"
+  - "There may be dissatisfaction with features that are not available in the MVP (e.g. cancelling and scheduling an appointment)"
+  - "There may be dissatisfaction with the limited health features"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Identify obstacles to navigation, validate IA and UI design decisions, understand Veteran satisfaction with MVP feature set, and inform final design refinements before development."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must be Veterans"
+    - "All participants must be iOS users and use an Apple mobile device (not an iPad) for the session"
+    - "All participants be currently going through the claims or appeal process for Disability Benefits and have an active claim or appeal"
+    - "All participants should have used VA.gov in the past"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Ideally, about half of recruits should have experience with VA Health Care benefits"
+    - "Diverse in branch of service, gender, race, age, geography, and density (rural)"
+    - "No assistive device users (low-fi prototype does not support assistive technology)"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have an active claim or appeal for Disability Benefits?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-09-03"
+  pilot_participant: "Team member from VA mobile app"
+  research_dates: "2020-09-09 to 2020-09-11"
+  research_review_submission: "2020-08-31"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase mobile access to health services"
+  - objective: "Logged-in users have a personalized experience"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Improve mobile personalization"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Discovery research and user interviews (May 2020)"
+    - "Prototype testing (June 2020)"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "va-mobile-app"
+  - "mobile"
+  - "usability-testing"
+  - "evaluative"
+  - "remote"
+  - "moderated"
+  - "veterans"
+  - "authenticated"
+  - "HDW: Smartphone"
+  - "iOS"
+  - "high-fidelity-prototype"
+  - "information-architecture"
+  - "navigation"
+  - "claims"
+  - "profile"
+  - "MVP"
 ---
 
 # Research Plan for Round 1 of Usability Testing of High Fidelity MVP Mobile App

@@ -1,109 +1,125 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VAOS Team, Express Care Discovery, April-May 2020"
+date: 2020-04-27
+last_updated: 2026-02-10
+team: "VAOS Team"
+product: "VA Online Scheduling - Express Care"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans have medical needs that may either be resolved without an in-person appointment and/or want guidance about how to seek additional care for a medical concern, yet may not demand a trip to the ER. Express Care is a care option developed by VA for immediate, same day evaluation via VA Video Connect (VA's proprietary telehealth platform). However, Express Care is not utilized by VA providers or patients and research needs to be conducted to better understand why and how the VA can improve this service."
+  product_location: "VA.gov health care appointments - Express Care feature"
+  user_familiarity: "New feature for VA Online Scheduling"
+  product_brief_url: "https://projects.invisionapp.com/share/3PWYUFVAVQU#/screens/414573920"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "remote moderated usability research and usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand when, why, and how a Veteran seeks care that they deem urgent, immediate, and now through VA digital channels"
+  - goal_2: "Learn from Veterans if they know of and would seek urgent, same-day, Telehealth care from VA for a COVID-19 screening"
+  - goal_3: "Validate hypotheses about Veterans perception of scheduling an Express Care appointment"
+  - goal_4: "Validate design recommendations for a COVID-19 screener resource"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans define Express Care? Is it Telehealth or in-person?"
+  - "What types of appointments do Veterans consider using Telehealth appointments for?"
+  - "How do Veterans seek same-day / urgent care virtually?"
+  - "Do Veterans consider same-day care the same thing as scheduling an appointment? If not, how is this different?"
+  - "What resources VA health care resources are Veterans aware of related to COVID-19?"
+  - "Will Veterans choose Express Care for COVID-19 screening?"
+  - "Will Veterans use a VA online COVID-19 screening tool?"
+  - "When do Veterans think COVID-19 Express Care appointments be available to them?"
+  - "What is a Veteran's mental model for scheduling an Express Care appointment and is it the same as a regular appointment?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans only have access to Express Care if and when their PACT enables Express Care. Express Care is only an option if and only if their PACT enables Express Care and makes availability during normal business hours. As a result, Veterans are unaware of Express Care as an option for scheduling an appointment, due to unavailability from providers."
+  - "Veterans don't think to make an Express Care appointment the same way as other types of VA appointments because of the timeliness of the appointment."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Understand Veterans' mental model of scheduling and same-day medical / Telehealth from VA, with a focus on COVID-19 screening, to inform Express Care feature improvements."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Veterans who CURRENTLY USE VA health care"
+    - "Veterans who currently have experience with the VA Online Scheduling tool"
+    - "Veterans who can be on an iPad or Laptop with Zoom enabled"
+    - "Veterans who are interested in / have sought out same day medical / Telehealth appointments either from VA or another medical provider"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Veterans with recent same-day care experience"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you currently use VA health care?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 12
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 12
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-04-23"
+  pilot_participant: "Melissa Schaff"
+  research_dates: "2020-04-27 to 2020-05-08"
+  research_review_submission: ""
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 8
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve access to same-day virtual care"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Living civilian life"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "Previous VAOS research"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: VA-online-scheduling"
+  - "BNFT: Healthcare"
+  - "DSP: Appointments"
+  - "appointments"
+  - "scheduling"
+  - "express-care"
+  - "same-day-care"
+  - "urgent-care"
+  - "telehealth"
+  - "COVID-19"
+  - "usability-testing"
+  - "discovery"
+  - "VA-Video-Connect"
+  - "authenticated"
+  - "veterans"
+  - "VAOS"
+  - "health-care"
+  - "remote-care"
+  - "virtual-care"
 ---
 
 # Research Plan for VAOS Express Care Discovery

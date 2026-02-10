@@ -1,109 +1,134 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for VA Mobile App MVP Prototype Testing, June 2020"
+date: 2020-06-08
+last_updated: 2026-02-10
+team: "Team Hummingbird"
+product: "VA Mobile App"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Validate that limited Claims and Health features plus standard mobile features are the right places to start for the MVP. Determine if Veterans would download an app with this limited feature set."
+  product_location: "Mobile application (iOS and Android)"
+  user_familiarity: "New product - MVP validation"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability testing, co-design"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate features for an MVP mobile app (Claims, Health, and standard mobile features)"
+  - goal_2: "Understand if participants would download an app with limited Claims and Health features"
+  - goal_3: "Gather reactions to blue sky features and prepare for future testing"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Is our hypothesis right that limited Claims and Health features plus some standard mobile features (e.g. notifications, notification settings, profile, biometric sign in) are the right places to start for the MVP?"
+  - "Do Claims and Health features seem equally useful? Or do participants respond to one more than the other?"
+  - "Would either Claims or Health be enough for an MVP?"
+  - "Is there one feature, or a couple features, that people are most excited about?"
+  - "Would participants download an app with limited Claims and Health features as the core features?"
+  - "Are the features we're showing enough for users to find the app valuable?"
+  - "How important and useful are: Notifications? An editable profile? Saved documents? Facility locator?"
+  - "What is not in our prototype that Veterans would like to see in an app?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Checking claims status is a high value feature for a mobile app"
+  - "Rx Refill and Secure Messaging are the most high value Health features for a mobile app"
+  - "Participants will want more health features than our prototype includes, but including some health features in an app might still be considered valuable"
+  - "Notifications will be highly valued"
+  - "Claims and Health features together in one app is something that Veterans would desire if navigation of the app is clear"
+  - "Participants will highly desire and respond positively to features that put them in closer and more immediate touch with people who can help them at VA"
+  - "A mobile friendly UI with large CTAs and a digestible amount of information on a screen will test positively with Veterans"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validate or challenge our hypothesis about what features should be placed as highest priority for the MVP, and inform future phases of testing and product roadmap."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must be Veterans"
+    - "Diversity of experience with VA benefits and services, ideally all with experience in Disability and Health care benefits"
+    - "A majority should be My HealtheVet users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Diverse in branch of service, gender (30% or more women), race, age, geography, and density (rural)"
+    - "No assistive device users (low-fi prototype does not support assistive technology)"
+    - "Veterans should not be VA employees if possible"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have experience with VA Disability benefits?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 8
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2020-06-05"
+  pilot_participant: "Ambika Roos"
+  research_dates: "2020-06-08 to 2020-06-12"
+  research_review_submission: "2020-05-29"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Veterans can manage their health services online"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Increase mobile access to health services"
+  - objective: "Logged-in users have a personalized experience"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Improve mobile personalization"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/ux/mobile-app-MVP/2020-05-user-interviews/research-plan.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/ux/mobile-app-MVP/2020-05-user-interviews/discussion-guide.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "va-mobile-app"
+  - "mobile"
+  - "usability-testing"
+  - "co-design"
+  - "evaluative"
+  - "remote"
+  - "moderated"
+  - "veterans"
+  - "authenticated"
+  - "HDW: Smartphone"
+  - "iOS"
+  - "Android"
+  - "prototype"
+  - "claims"
+  - "health"
+  - "MVP"
+  - "feature-validation"
 ---
 
 # Research Plan for Mobile App Prototype Testing, May 29, 2020

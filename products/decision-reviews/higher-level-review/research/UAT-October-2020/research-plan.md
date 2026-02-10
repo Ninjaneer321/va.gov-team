@@ -1,109 +1,120 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Benefits and Memorials 1, Higher-Level Review UAT, October 2020"
+date: 2020-10-23
+last_updated: 2026-02-10
+team: "Benefits and Memorials 1"
+product: "Higher-Level Review"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Veterans need a way to request a Higher-Level Review of their disability claim decision online. Currently, paper-based VA Form 20-0996 requires manual processing which doesn't scale effectively."
+  product_location: "VA.gov decision reviews section"
+  user_familiarity: "New product - first online version of Higher-Level Review form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/disability-compensation-claim/bdd"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "user acceptance testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate that Veterans can successfully request a Higher-Level Review on VA.gov"
+  - goal_2: "Identify any technical issues in the application process in real-time"
+  - goal_3: "Ensure the form functions correctly with real data submission"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can Veterans request a Higher-Level Review on VA.gov?"
+  - "Are there any technical or functional issues that prevent successful form submission?"
+  - "Do Veterans understand the Higher-Level Review process and requirements?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Veterans will be able to successfully apply online for a Higher-Level Review"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Confirm production-readiness of the Higher-Level Review tool on VA.gov and catch any technical issues before full launch"
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment of Veterans ready to submit real HLR applications"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Must have a DS Logon account"
+    - "Must have a desire to apply for/request a Higher-Level Review of their disability claim"
+    - "Must have all documents needed to apply for a Higher Level Review to contest at least one claim decision or supplemental claim decision"
+    - "Must be able to see content clearly and hear moderator clearly"
+    - "Must be on a computer (not phone or tablet)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Good spread in demographics"
+    - "Good spread across different levels of tech-savviness"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have a DS Logon account?"
+      qualifying_response: "Yes"
+    - question: "Do you have a desire to apply for a Higher-Level Review of your disability claim?"
+      qualifying_response: "Yes"
+    - question: "Do you have all documents needed to apply for a Higher Level Review?"
+      qualifying_response: "Yes"
       
 participants:
-  veterans: 0
+  veterans: 6
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 6
+  completed_sessions_goal: 6
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "None"
+  pilot_participant: "None - no pilot session"
+  research_dates: "2020-10-23 to 2020-11-05"
+  research_review_submission: "2020-10-22"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhance Veterans' access to benefits and services"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Enable online submission of Decision Review requests"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/disability-compensation-claim/bdd"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "PRDT: Decision-reviews"
+  - "BNFT: Disability"
+  - "AUD: Veterans"
+  - "UAT"
+  - "remote"
+  - "form"
+  - "authenticated"
+  - "Higher-Level Review"
+  - "20-0996"
+  - "decision review"
+  - "appeals"
+  - "claims"
+  - "DSP: Form templates"
+  - "moderated"
+  - "production"
+  - "real submission"
 ---
 
 #
