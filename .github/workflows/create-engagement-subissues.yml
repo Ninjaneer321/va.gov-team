@@ -206,17 +206,11 @@ jobs:
               `- [ ] #${issue.number} ${issue.title}`
             ).join('\n');
             
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: parentIssue.number,
-              body: `## 📋 Engagement Sub-Issues Created for ${orgAbbr}
-
-            ${issueLinks}
-
-            <!-- sub-issues-created -->
-
-            **Note:** Check off items above as sub-issues are completed.`
-            });
+            await github.request("POST /repos/{owner}/{repo}/issues/{issue_number}/sub_issues", {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: parentIssue.number,
+                sub_issue_id: created.data.id,
+              });
             
             console.log(`Created ${createdIssues.length} sub-issues for parent #${parentIssue.number}`);
