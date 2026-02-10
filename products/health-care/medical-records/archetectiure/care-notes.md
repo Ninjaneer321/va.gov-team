@@ -56,3 +56,17 @@ SCDF normalizes statuses to a `docStatus` field with the following possible valu
 | -------------- | ---------------- |
 | C&P exam notes | 30 days          |
 | Signed notes   | Displayed        |
+
+### Jan 1, 2013 filter
+
+from Carnetta
+
+>Sure, before MHV went live with “Progress notes”, VA Physicians had to attend a “training” on what to not include in “Progress note” because patients will be able to easily review it online.
+Although, patients could request a paper copy, it was rare and ROI can (although not supposed to) omit personal remarks that may hold the VA liable.
+
+So .. VHA agreed with MHV to have all current and new doctors trained on writing proper notes by the end of 2012. This allowed notes going forward from Jan 2013 to display.
+Progress Notes completed before 2013 were not modified.
+
+This is covered in the UI by only allowing the user to select a date range starting from Jan 1, 2013. This is a hard cutoff and notes with a `dateTime` value before this date are not displayed.
+
+This will have to be revisited if that ever changes, but for now it is a hard cutoff.
