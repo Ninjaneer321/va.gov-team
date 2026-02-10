@@ -96,8 +96,7 @@ jobs:
             Send comprehensive follow-up email with all onboarding materials to ${orgAbbr}.
             
             ## Attachments to Include
-            - [ ] Onboarding deck
-            - [ ] Contact info spreadsheet,
+            - [ ] Onboarding deck`,
                 labels: ['engagement','org-onboarding','ar-crew']
               },
               {
@@ -134,11 +133,11 @@ jobs:
             
             ## Tasks
             - [ ] Run manual update of Trexler file - Engineer
-            - [ ] Review data after the nightly automation in Find a Rep - VSO Engagement Manager`,
-                labels: ['engagement','org-onboarding','ar-crew']
+            - [ ] Review data after the nightly automation in Find a Rep - VSO Engagement Manager
 
             ## Acceptance Criteria
-            - [ ] Updated contact information for representatives (especially this organization) is reflected in Production
+            - [ ] Updated contact information for representatives (especially this organization) is reflected in Production`,
+                labels: ['engagement','org-onboarding','ar-crew']
               },
               {
                 title: 'Enable Form 21-22 online submission for org',
@@ -182,37 +181,33 @@ jobs:
             const createdIssues = [];
             
             for (const subIssue of subIssues) {
-              // Assign to candilemoine unless it has the engineering label
               const assignees = subIssue.labels.includes('engineering') ? [] : ['candilemoine'];
               
               const created = await github.rest.issues.create({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 title: `[ ${orgAbbr} ] ${subIssue.title}`,
-                body: `${subIssue.body}
-            
-            Relates to #${parentIssue.number}`,
+                body: `${subIssue.body}\n\nRelates to #${parentIssue.number}`,
                 labels: subIssue.labels,
                 assignees: assignees
               });
               
               createdIssues.push({
                 number: created.data.number,
+                id: created.data.id,
                 title: subIssue.title
               });
               
               console.log(`Created sub-issue #${created.data.number}: ${subIssue.title}`);
             }
             
-            const issueLinks = createdIssues.map(issue => 
-              `- [ ] #${issue.number} ${issue.title}`
-            ).join('\n');
-            
-            await github.request("POST /repos/{owner}/{repo}/issues/{issue_number}/sub_issues", {
+            for (const issue of createdIssues) {
+              await github.request("POST /repos/{owner}/{repo}/issues/{issue_number}/sub_issues", {
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: parentIssue.number,
-                sub_issue_id: created.data.id,
+                sub_issue_id: issue.id,
               });
+            }
             
             console.log(`Created ${createdIssues.length} sub-issues for parent #${parentIssue.number}`);
