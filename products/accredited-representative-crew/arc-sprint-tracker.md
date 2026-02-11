@@ -16,7 +16,7 @@ _Overview: This tracker is designed to track sprint goals with completed work, p
 **Team Benefits**
 1. **[Discovery Research] Understanding how Reps manage the claims cycle across all clients**: Finalize report and present the discovery readout, process flow diagrams
 2. **[Rep-Facing Form] 526ez v2**: Desk review synthesis
-3. **[Claimant Details] MVP - Design**: Address open questions regarding individual acceptance of representation requests, cross-product coexistence of Claimant Details and Submissions History, and the non-Veteran claimant experience.
+3. **[Claimant Details] MVP - Design**: Address open questions regarding cross-product coexistence of Claimant Details and Submissions History
 4. **[ITF] MVP - Development**: Address ADE findings and request 508 audit
 5. **Benefits Delivery at Discharge**: Engineering Discovery
 6. **[ARP Post-MVP] Cleanup Tasks**: Feature flag cleanup, job for setting delete_date field on claims submissions
