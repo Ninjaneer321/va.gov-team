@@ -1,0 +1,55 @@
+name: Add new sprint for tracker
+
+on:
+  workflow_dispatch:
+
+jobs:
+  add-sprint:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate sprint section and insert into file
+        run: |
+          FILE="products/accredited-representative-crew/arc-sprint-tracker-test.md"
+          MARKER="<!-- NEW_SPRINT_HERE -->"
+
+          # ── Find the last sprint number in the file ──────────────────────
+          LAST_SPRINT=$(grep -oP '(?<=# Sprint )\d+' "$FILE" | sort -n | tail -1)
+          if [ -z "$LAST_SPRINT" ]; then
+            LAST_SPRINT=0
+          fi
+          NEXT_SPRINT=$((LAST_SPRINT + 1))
+
+          # ── Calculate the next Tuesday start date ────────────────────────
+          # Find the upcoming Tuesday (or today if it is Tuesday)
+          TODAY=$(date +%u)          # 1=Mon ... 7=Sun
+          DAYS_UNTIL_TUE=$(( (2 - TODAY + 7) % 7 ))
+          START_DATE=$(date -d "+${DAYS_UNTIL_TUE} days" +%Y-%m-%d)
+          END_DATE=$(date -d "${START_DATE} +13 days" +%Y-%m-%d)
+
+          # ── Build the new sprint block ───────────────────────────────────
+          SPRINT_BLOCK="\n# Sprint ${NEXT_SPRINT} (${START_DATE} - ${END_DATE})\n\n## Sprint ${NEXT_SPRINT} Goals\n\n## Sprint ${NEXT_SPRINT} Demos\n\n## Sprint ${NEXT_SPRINT} Delivery\n\n## Sprint ${NEXT_SPRINT} Tickets\n"
+
+          # ── Insert after the marker ──────────────────────────────────────
+          awk -v marker="$MARKER" -v block="$SPRINT_BLOCK" '
+            { print }
+            $0 == marker { printf "%s", block }
+          ' "$FILE" > "${FILE}.tmp" && mv "${FILE}.tmp" "$FILE"
+
+          echo "Inserted Sprint ${NEXT_SPRINT} (${START_DATE} - ${END_DATE}) into ${FILE}"
+
+      - name: Commit and push changes
+        run: |
+          FILE="products/accredited-representative-crew/arc-sprint-tracker-test.md"
+          NEXT_SPRINT=$(grep -oP '(?<=# Sprint )\d+' "$FILE" | sort -n | tail -1)
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "$FILE"
+          git commit -m "chore: add Sprint ${NEXT_SPRINT} section to arc-sprint-tracker-test.md"
+          git push
