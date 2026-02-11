@@ -32,6 +32,10 @@ Current Figma designs, https://www.figma.com/design/YoeGJtWzHEH2bX2S4EGyBG/Ask-V
 
 Ask VA users are internally classified by two distinct personas, using Ask VA as a personal user or a business user/veteran liaison.  The current user experience does not promote an obvious distinction between these two users and offers categories and topics that are not relevant for the different user types.  The existing UI experience leads to user confusion on how to complete the form to submit a question.   Additionally, because the two user types are entangled throughout the existing experience there is back end code complexity that should be reduced.
 
+It is not clear to a business users the workflow options that should be selected to ensure their inquiry is categorized as "business" and routed property to AVA CRM agents. `addt. context to be added`
+
+Current business rules (unknown to the Ask VA user) are;
+
 |User Type|Primary Issues|
 |:---|:---|
 |Personal User|Category and topic lists offer selection reassurance to this user, but the amount of current options causes overload to the user.|
