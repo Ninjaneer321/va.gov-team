@@ -126,7 +126,7 @@ synthesis_tools_used:
 - [Research participants](#user-content-research-participants)
 
 ## Research Goals
-Travel Pay Complex Claims UAT tested whether Veterans can easily use the new travel-claims functionality and submit claims successfully. Our goals in conducting UAT on complex claims were to:
+Travel Pay Complex Claims UAT tested whether Veterans can easily use the new travel claims functionality and submit claims successfully. Our goals in conducting UAT on complex claims were to:
 1. Ensure a beneficiary can file a complex claim on VA.gov from start to finish. We want to ensure a user can understand the steps and limitations, start a claim, add expenses to their claim, and file a claim.
 2. Test that the content, including error messages and redirects, appear properly and are clear to users.
 3. Validate that users can leave, and re-enter, a claim in progress.   
