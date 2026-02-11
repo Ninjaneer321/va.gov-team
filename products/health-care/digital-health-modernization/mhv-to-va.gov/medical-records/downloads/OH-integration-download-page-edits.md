@@ -1,6 +1,6 @@
 # Oracle Health Integration
 Download page edits to CCD & Blue Button for OH patients
-Needs to be in prod by February 13, 2026 at 12pm ET
+* Needs to be in prod by February 13, 2026 at 12pm ET
 
 ## Overview
 As of January 2026, the Medical Records team had been working on templating versions of the "Download" page for all 3 user-types: 
