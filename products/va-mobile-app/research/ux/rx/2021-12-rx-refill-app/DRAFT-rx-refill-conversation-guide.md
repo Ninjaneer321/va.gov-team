@@ -1,29 +1,46 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VA Mobile App Team, Rx Refill, December 2021"
+author: "Alex Taylor"
+date_created: "2021-11-22"
+last_modified: "2021-12-08"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "VA Mobile App Team"
+portfolio: "health"
+product: "VA Health & Benefits Mobile App - Rx Refill"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with VA prescribed medications who use MyHealtheVet and have iOS or Android mobile devices"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/va-mobile-app/research/ux/rx/2021-12-rx-refill-app/DRAFT-rx-refill-research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "PRDT: VA-mobile-app"
+  - "PRDT: Rx-refill"
+  - "MHV: Pharmacy"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "usability-testing"
+  - "authenticated"
+  - "mobile-app"
+  - "pharmacy"
+  - "prescriptions"
+  - "medications"
+  - "refills"
+  - "DSC: Button"
+  - "DSP: Help users to..."
+  - "HDW: Smartphone"
+  - "HDW: iPhone"
+  - "HDW: Android"
+  - "remote"
+  - "moderated"
+description: "Usability testing conversation guide for VA Rx Refill mobile app, understanding Veteran experience managing prescriptions and identifying improvement opportunities for integration into flagship app."
 
 # NEW: Compliance flags
 recording_required: true

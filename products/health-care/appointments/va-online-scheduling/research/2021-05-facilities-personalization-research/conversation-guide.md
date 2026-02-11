@@ -1,29 +1,44 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VAOS and Profile, Facilities Personalization Research, May 2021"
+author: "Peter Russo and Liz Lantz"
+date_created: "2021-05-21"
+last_modified: "2021-05-21"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "VA Online Scheduling (VAOS) & Authenticated Experience"
+portfolio: "health"
+product: "VA Online Scheduling & Profile"
+research_phase: "usability"
+research_method: "semi-structured-interviews"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans actively receiving VA health care with appointments in the past year, preferably from facilities in different states"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/appointments/va-online-scheduling/research/2021-05-facilities-personalization-research/research-plan.md"
+related_prototype: "https://adhoc.invisionapp.com/console/share/BX2JRZTUR2/621669675"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: Appointments"
+  - "PRDT: VAOS"
+  - "PRDT: Profile"
+  - "PRDT: Health-care"
+  - "BNFT: Healthcare"
+  - "DSP: Personalization"
+  - "DSP: Help users to...schedule appointments"
+  - "DSC: List"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "concept-testing"
+  - "authenticated"
+  - "facility-selection"
+  - "profile"
+  - "remote-research"
+  - "registration"
+description: "Semi-structured interview and concept testing guide for facilities personalization in VAOS and Profile, testing opt-in and opt-out flows for managing VA health facilities."
 
 # NEW: Compliance flags
 recording_required: true

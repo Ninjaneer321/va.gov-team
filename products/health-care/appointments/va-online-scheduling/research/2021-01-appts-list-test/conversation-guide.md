@@ -1,29 +1,44 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VAOS, Appointments List Usability Test, January 2021"
+author: "Peter Russo"
+date_created: "2021-01-19"
+last_modified: "2021-01-19"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "VA Online Scheduling (VAOS)"
+portfolio: "health"
+product: "VA Online Scheduling"
+research_phase: "usability"
+research_method: "usability-testing"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have VA health care and manage appointments"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/appointments/va-online-scheduling/research/2021-01-appts-list-test/research-plan.md"
+related_prototype: "https://adhoc.invisionapp.com/share/URZV3YHCQFZ#/440922970_Landing_page"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: Appointments"
+  - "PRDT: VAOS"
+  - "PRDT: Health-care"
+  - "BNFT: Healthcare"
+  - "DSC: List"
+  - "DSC: Card"
+  - "DSP: Content-presentation"
+  - "DSP: Help users to...schedule appointments"
+  - "DSP: Help users to...view appointments"
+  - "usability-testing"
+  - "authenticated"
+  - "appointments-list"
+  - "remote-research"
+  - "thumbnail-view"
+  - "appointment-details"
+  - "rescheduling"
+description: "Usability testing conversation guide for VAOS appointments list redesign with thumbnail view organized by month to improve scannability and appointment management."
 
 # NEW: Compliance flags
 recording_required: true

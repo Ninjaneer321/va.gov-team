@@ -1,29 +1,46 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Authenticated Experience, Profile My VA Health Facilities, May 2021"
+author: "Liz Lantz"
+date_created: "2021-04-30"
+last_modified: "2021-04-30"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Authenticated Experience"
+portfolio: "digital-experience"
+product: "Profile - My VA Health Facilities"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "15 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Internal study with co-workers, ideally Veterans, to validate preferred facilities feature"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/identity-personalization/profile/preferred-facility/research/2021-05-preferred-facilities/research-plan.md"
+related_prototype: "https://preview.uxpin.com/2c99ba26116e28b032d83eb4f636b448c9bde2b2#/pages/138665581/simulate/no-panels?mode=i"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: Profile"
+  - "PRDT: VAOS"
+  - "BNFT: Healthcare"
+  - "BNFT: Appointments"
+  - "DSC: Form"
+  - "DSC: Checkbox"
+  - "DSC: Button"
+  - "DSP: Ask users for..."
+  - "HDW: Desktop"
+  - "usability-testing"
+  - "remote"
+  - "moderated"
+  - "authenticated-experience"
+  - "profile"
+  - "facility-management"
+  - "healthcare"
+  - "appointment-scheduling"
+  - "internal-study"
+description: "Internal usability testing conversation guide for Profile My VA Health Facilities feature. Tests how Veterans understand and manage their preferred VA health facilities list in profile, outside of VAOS context."
 
 # NEW: Compliance flags
 recording_required: true
