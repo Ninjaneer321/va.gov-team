@@ -1,7 +1,6 @@
 # LOA1 user attempts to access any section of profile
 
 Last updated: January 2026  
-Last uploaded: February 2026
 
 # Jump to
 
