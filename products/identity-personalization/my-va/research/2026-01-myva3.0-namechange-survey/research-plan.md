@@ -1,109 +1,136 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Core Veteran Experience Crew, My VA 3.0 Name Change, 2026-01"
+date: 2026-02-11
+last_updated: 2026-02-11
+team: "Core Veteran Experience Crew"
+product: "My VA 3.0"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Update the name of My VA based on previous user feedback to incorporate a new title that is more recognizable by Veterans and aligned to their mental models."
+  product_location: "Authenticated Experience - My VA dashboard/feed"
+  user_familiarity: "Iteration on existing product"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va-3.0/README.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Unmoderated survey"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  location: remote
+  moderated: false
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate if renaming My VA to include a descriptor such as dashboard or feed will reflect recommendations from prior research and user feedback."
+  - goal_2: "Validate if updating My VA to include a descriptor such as dashboard or feed will match Veteran mental models."
+  - goal_3: "Determine the preferred terminology that best represents the My VA experience for Veterans."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Do Veterans associate the word 'Dashboard' with My VA? Or is there another term they'd prefer?"
+  - "Does the recommendation to rename My VA to 'My VA Dashboard' based on prior research and user feedback match Veterans' mental models?"
+  - "How do Veterans understand and recognize the My VA experience when the page is not readily available and in front of the user?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Based on prior research, Veterans will associate the word 'Dashboard' with My VA."
+  - "Based on prior research and user feedback, Veterans will prefer 'My VA Dashboard' over 'My VA'."
+  - "Based on prior research, Veterans will understand what 'My VA Dashboard' is even when the page is not readily available and in front of the user."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Validation of content change for renaming My VA to a name more recognizable to Veterans, resulting in a confirmed naming recommendation for implementation."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Lean maximum variation sampling"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must have a VA.gov or MyHealtheVet account"
+    - "252 participants who are frequent VA.gov users (Daily or Weekly)"
+    - "252 participants who are non-frequent VA.gov users (Monthly, Every few months, or Never but open to using VA.gov)"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "252 participants aged 55-64+"
+    - "252 participants with cognitive disability"
+    - "252 mobile users"
+    - "126 participants from rural areas"
+    - "126 participants with no degree"
+    - "106 participants with other than honorable discharge"
+    - "86 participants of immigrant origin"
+    - "51 women"
+    - "3 participants who are expats (living abroad)"
+    - "76 Black or African American participants"
+    - "61 Hispanic, Latino, or Spanish origin participants"
+    - "20 biracial participants"
+    - "14 Asian participants"
+    - "2 Native Hawaiian or other Pacific Islander participants"
+    - "9 Native American, American Indian, or Alaska Native participants"
+    - "1 gay, lesbian, or bisexual participant"
+    - "1 transgender participant"
+    - "1 nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman participant"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Do you have a VA.gov or My HealtheVet account?"
+      qualifying_response: "Yes"
+    - question: "How often do you use VA.gov?"
+      qualifying_response: "Daily, Weekly, Monthly, Every few months, or Never but am open to using VA.gov"
+    - question: "Do you identify as a member of the LGBTQ+ community?"
+      qualifying_response: "Yes, No, or Prefer not to answer"
+    - question: "Have you been diagnosed with (formally or informally) a cognitive disability?"
+      qualifying_response: "Yes, No, or Prefer not to answer"
       
 participants:
-  veterans: 0
+  veterans: 504
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 504
+  completed_sessions_goal: 400
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "TBD"
+  research_review_submission: "TBD"
   
 session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
+  duration_minutes: 10
+  buffer_minutes: 0
   max_sessions_per_day: 0
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+  - objective: "Objective 1: Optimize software delivery for Veteran impact"
     key_results:
-      - "[Specific KR if applicable]"
-      
+      - "All C100 products have a documented Product Vision, including identifying up to three Veteran-impacting KPIs, published on Product.VA.gov"
+
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Reinventing Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+  - "Dying"
     
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
+  previous_studies:
+    - "Previous My VA research and user feedback studies (links to be added)"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "PRDT: My-VA"
+  - "PRDT: Benefit-hubs"
+  - "methodology: unmoderated-survey"
+  - "methodology: survey-research"
+  - "DSP: Ask users for a single response"
+  - "DSP: Content Presentation"
+  - "HDW: Smartphone"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "Accessibility"
+  - "Internal Research: Platform Research"
 ---
 
 > [!TIP]
