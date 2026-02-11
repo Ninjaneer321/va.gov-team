@@ -1,34 +1,40 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Pension Benefits, Financial Disclosure Form, 2019"
+author: "Unknown"
+date_created: "2019-01-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Pension Benefits"
+portfolio: "benefits"
+product: "Pension"
+research_phase: "usability"
+research_method: "usability-testing"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who may need to apply for VA pension benefits, 3-5 participants"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://marvelapp.com/8e9fi7e/screen/28797429"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Pension"
+  - "BNFT: Finances"
+  - "PRDT: Pension"
+  - "DSC: Form"
+  - "DSC: Form - Text Area"
+  - "DSP: Content Presentation"
+  - "usability-testing"
+description: "Usability testing of the pension financial disclosure form to determine optimal information grouping (by person vs. by information type) and evaluate the additional source UI component."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Pensions financial disclosure form
