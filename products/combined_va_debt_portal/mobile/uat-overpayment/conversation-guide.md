@@ -53,24 +53,32 @@ description: "A moderated UAT conversation guide for testing the VA mobile app�
 
 ## Intro - 5 minutes
 
-
 Thank you so much for joining today. My name is Emily, and [NAME] here will be taking notes. I also have a couple other colleagues in the digital waiting room who would like to observe, but we’ll get to that momentarily.
-
-Your participation in this is completely voluntary. Nothing you do here will affect your VA benefits in any way. During this session, we'll be asking you to share your screen which will show your personal debt records. If you would like to stop the session or do not want to show us something at any time, that's no problem. Please let me know.
 
 I want to review a few things to make sure you're okay with what will happen in this session
 
+* You indicated that you have a current overpayment debt. 
+    * Can you briefly tell me about it?
+    * Are you able to see the details of this debt when you log in to your VA account on the website?
+
+_[NOTE] Potential ending spot if it's clear they do not have a current overpayment_
+
 * Today, we’re testing a pre-release version of the VA app specifically to check the Debt Portal before it's released to the public. We want to make sure that every button you press results in the correct information being shown on screens.
-* You're on a mobile phone now? Is it an iPhone or an Android?
+    * This is why we need to see real account data from Veterans
+    * Nothing you do here will affect your VA benefits in any way. 
+    * I'll be asking you to share your screen which will show your personal debt records. 
+        * Are you okay with sharing your screen with us?
+    * If you would like to stop the session or do not want to show us something at any time, that's no problem. Please let me know.
+
+_[NOTE] Potential ending spot if they are not comfortable logging in with their credentials_
+
 * I'll be helping you download a test version of the app. If you currently have the VA app on this phone, this test version will replace it. I'll help you restore the original version once you're done.
-* You indicated that you have a current overpayment debt. Are you able to see the details of this debt when you log in to your VA account on the website?
-* You have your username and password ready to log into the app? [ID.me or Login.gov and can access your two-factor authentication - text code or app]
-* _[Android only]_ You have access to your email account here on this phone?
-* _[Android only]_ We will need to temporarily adjust some security settings to install this version of the app. I'll walk you through resetting things once we're done.
-* screensharing
-    * _[yes to screen sharing]_ Are you okay with sharing your screen as you click through your overpayment details?
-    * _[no to screen sharing]_ As you click though the app, you'll be describing what you see.
+    * You're on a mobile phone now? Is it an iPhone or an Android?
+    * You have your username and password ready to log into the app? [ID.me or Login.gov and can access your two-factor authentication - text code or app]
+    * [Android only] You have access to your email account here on this phone?
+    * [Android only] We will need to temporarily adjust some security settings to install this version of the app. I'll walk you through resetting things once we're done.
 * Are you connected to WiFi? [If not, are they able to be?]
+    * It will be faster for the downloads if you are.
 * I have [number] colleagues who are interested in observing this session to better understand the Veteran experience. Would you be okay with them observing?
     * If no: Use Slack to kindly ask the observers to leave the Zoom.
     * If yes: Admit observers.
@@ -83,8 +91,6 @@ I want to review a few things to make sure you're okay with what will happen in 
     * Once we record I'm going to ask again just so it's on the record.
 
 Start recording.
-
-
 
 * I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
 
