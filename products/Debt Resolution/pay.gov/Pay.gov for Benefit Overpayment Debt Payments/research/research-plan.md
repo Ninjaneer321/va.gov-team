@@ -8,19 +8,21 @@
 	
 `What problem is your product trying to solve?`
 
-**[Enter answer here]**
+The integration of Pay.gov Hosted Collection Pages aims to provide an easier, more seamless payment experience for Veterans. In the current experience, Veterans are redirected from the VA.gov “Resolve Overpayment” page to an external pay.va.gov tab and entry page, where they must manually enter their personal account information. Monthly Medallia feedback consistently describes this experience as confusing and painful, increasing cognitive load and leading to drop-off.  
+
+The new design streamlines the user experience with Pay.gov hosted collection pages, presenting the VA.gov to Pay.gov payment journey as a continuous flow and prepopulating a user’s account information, thus removing the need for Veterans to manually enter debt information.
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
-**[Enter answer here]**
+The new experience spans VA.gov auth pages with Pay.gov Hosted Collection Pages integration. When looking at an individual overpayment debt , the user will be able to select full, partial, or a payment plan within VA.gov, and then proceed to Pay.gov hosted collection pages within the same browser without having to reenter their account information. Next, they enter and review payment information, and finally arrive at a payment confirmation page on VA.gov
   
 `What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
 **[Enter answer here]**
 
-`Product Brief`
+As described above, this iterates and improves upon the existing payment journey, to now include the ability to seamlessly process a payment for an overpayment debt directly from the va.gov experience without needing to navigate to a different site. 
 
-**[Link to product brief](url goes here).**
+**[Link to product brief]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/product%20outline.md)).**
 
 </details>
 
@@ -40,14 +42,6 @@
 > - Key Result 1.3:** OIT has avoided at least $5 million in cost via successful decommissioning of at least 10 systems.
   - ***Research Ops Plain Language:** Supports the decommissioning of a legacy system.*
 
-`Objective 2: Operate products with high reliability and security.`
-
-> - **Key Result 2.1:** All C100 systems have an incident free time of 99.8 or better.
-> - **Key Result 2.2:** All C100 systems are monitoring the 4 “golden signals” of latency, error rate, volume, and saturation.
-> - **Key Result 2.3:** All C100 systems have baselined cycle time from planning to production, and at least one C100 system in each DSD portfolio has reduced its cycle time from planning to production by more than 50% without increasing change failure rate.
-  - ***Research Ops Plain Language:** Supports reducing this product’s cycle time from planning to production by more than 50% without increasing change failure rate.*
-> - **Key Result 2.4:** By 31 March 2026, DSD has enhanced system security by moving or decommissioning 100% of existing of Systems or Applications leveraging SiteMinder integration for SSOi to Entra ID.
-
 `Objective 3: Relentlessly improve the user experience.`
 
 > - **Key Result 3.1:** Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.
@@ -56,12 +50,6 @@
   - ***Research Ops Plain Language:** Supports maintaining the ranked list of user pain points for Veteran-facing Products and Services.*
 > - **Key Result 3.3:** 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system.
   - ***Research Ops Plain Language:** Supports the delivery of at least one release that directly addresses a documented user pain point within this product.*
-
-`Objective 4: OCTO teammates are empowered with the knowledge and resources they need to make sustained impact.`
-
-> - **Key Result 4.1:** More than 25% of VA employees report AI has helped them deliver better services to Veterans.
-> - **Key Result 4.2:** All “VA Way” delivery attributes have an adoption indicator established, baselined and communicated to product delivery staff.
-> - **Key Result 4.3:** 50% of product delivery staff report that a practice group (design) has helped them deliver better software.
 
 </details>
 
@@ -73,16 +61,11 @@
 <details><summary>Where does your product fit into the Veteran journey?
 Are there moments that matter?</summary>
 	
-- `Joining`
-- `Serving`
-- `Getting Out`
-- `Starting Up`
-- `Taking Care of Myself`
-- `Reinventing Myself`
-- `Putting Down Roots`
-- `Retiring`
-- `Aging`
-- `Dying`
+Starting Up (Moment: Balancing Finances)
+Taking Care of Myself (Moment: Maintaining my health)
+Putting Down Roots (Moment: Maintaining my financial, social, and emotional health)
+Retiring (Moment: Taking care of my health)
+Aging (Moment that Matters: Managing my declining health)
 
 </details>
 
@@ -97,18 +80,20 @@ Are there moments that matter?</summary>
 
 ### Goals
 
-`1.` **[Enter answer here]**
+`1.` **[Understand Veterans’ needs, expectations, and preferences for making payments]**
 
-`2.` **[Enter answer here]**
-
-`3.` **[Enter answer here]** 
+`2.` **[Test the usability of the Veteran’s overpayment debt experience in viewing and selecting full or partial payment]**
   
-### Outcome
+### Outcomes
 `How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
 
 ---
-
-**[Enter outcome here]** 
+* Determine how to iterate [VA.gov](http://VA.gov) pages to improve the payment experience for Veterans prior to build and release  
+* Advance user-centered digital strategy for delivering future payment features and functionality  
+* Gain foundational understanding of Veteran payment needs and preferred methods  
+* Decrease rate of drop off due to Veteran frustration with manual data entry   
+* Increase online payment transactions and decrease analog payment transactions  
+* Increase Veteran confidence that payment has been received
 
 ---
 
@@ -122,15 +107,19 @@ Are there moments that matter?</summary>
   
 `Does this question serve the goals of my study?`
 
-**`1.`[Enter Q1]**
+**`1.`[What are Veterans’ current workflows and mental models for making payments on VA.gov?]**
 
-**`2.`[Enter Q2]**
+**`2.`[What other comparable payment experiences do they prefer? Why?]**
 
-**`3.`[Enter Q3]**
+**`3.`[What challenges or pain points do Veterans encounter in the current experience?]**
 
-**`4.`[Enter Q4]**
+**`4.`[How easy is it to read and comprehend the pages?]**
 
-**`5.`[Enter Q5]**
+**`5.`[Which aspects of the layout are most and least effective and why?]**
+
+**`6.`[How does the experience compare to what they expected?]**
+
+**`7.`[How confident and secure do they feel in the payment process?]**
 
 > [!TIP]
 >Enter more questions as needed
@@ -151,25 +140,20 @@ Are there moments that matter?</summary>
 
 ---
 
-**[Enter hypotheses here]** 
+**[* Veterans will prefer the more streamlined experience of hosted collection pages, including pre-populated account details and staying within the same browser  
+* Veterans will not have difficulty deciding whether to make a partial or full payment  
+* Veterans will feel confident and secure that their payment has has been received in the new experience  
+* Veterans will want more diverse payment methods for submitting payments, including recurring payments]** 
 
 ---
   
 ## Methodology  🛠️
 ***Describe the method you’re planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.*** 
 
-<details><summary>Examples of common research methods include</summary> 
-	
-- `Semi-structured interviews - appropriate for generative research`
-- `Contextual inquiry - appropriate for generative research`
-- `Card sorts - appropriate for generative and evaluative research; depending on the study design` 
-- `Tree tests - appropriate for evaluative research`
-- `Usability testing - appropriate for evaluative research`
-- `User acceptance testing (UAT) - required before product release`
-
 </details>
 
-**[Enter methodology here]**
+**[- `Semi-structured interviews - appropriate for generative research`
+- `Usability testing - appropriate for evaluative research`]**
 
 <details><summary>Additional resources</summary> 
 	
@@ -188,7 +172,7 @@ Where will you be holding the research sessions? Be sure to include whether this
 > [!TIP]
 > Place [X] between brackets in edit mode to leave a checkmark in the correct box.
 
-- [ ] **Remote**
+- [X] **Remote**
 - [ ] **In-person**
       
 > [!NOTE]
@@ -205,23 +189,10 @@ Where will you be holding the research sessions? Be sure to include whether this
 
 Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
 
-**For moderated interviews:** 
-	
-- [Link to conversation guide](url goes here)
-
 **For moderated usability tests:** 
-- [Link to conversation guide](url goes here)
+- [Link to conversation guide]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/research/conversation-guide.md))
 - [Link to prototype](url goes here)
 
-**For [unmoderated testing:](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html)**
-- [Link to email with instructions](url goes here)
-- [Link to prototype or OptimalSort session for group A](url goes here)
-- [Link to prototype or OptimalSort session for group B](url goes here)
-
-
-
-**If recruiting outside of Perigean’s participant database:**
-- [Link to recruitment flyer](url goes here)
 	
 ## Recruitment 🎯	
 *OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
@@ -252,27 +223,36 @@ Provide a link to any materials you need to run your study, including any materi
 > Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 10 ideal completed sessions, request 15 total participants)*
 
 
-- `Veterans:` **[n]**
-- `Caregivers:` **[n]**
-- `Dependents:` **[n]**
-- `Total:` **[n]**
-- `Ideal completed sessions:` **[n]**
+- `Veterans:` **[15]**
+- `Caregivers:` **[0]**
+- `Dependents:` **[0]**
+- `Total:` **[15]**
+- `Ideal completed sessions:` **[10]**
 
 ### Primary criteria (must-haves)
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
 
-- `[Place primary criteria here between hash marks when in edit mode]`
-- `primary criteria`
-- `primary criteria`
-- **`Add more criteria as needed`**
+- `Have a debt balance from overpayments in the last year`  
+- `Are comfortable talking about their personal finances`
+- `Be willing to share a web browser window on their device during the session`
+- `Have a working microphone on their device`
+- `Have Zoom downloaded to their device prior to the session and know how to share their screen`
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- `[Place secondary criteria here between hash marks when in edit mode]`
-- `secondary criteria`
-- `secondary criteria`
-- **`Add more criteria as needed`**
+- `At least 6 have had a debt repayment plan with the VA in the last year`
+- `At least 6 ages 55+`
+- `At least 6 with an annual household income of less than 50K`
+- `At least 6 participants must have experienced financial hardship now or in the past`
+- `At least 6 with cognitive disabilities`
+- `At least 3 under age 35`
+- `At least 4 people of color`
+- `At least 3 in a rural area`
+- `At least 3 without a degree`
+- `At least 2 with immigrant origins`
+- `At least 1 woman`
+- `At least 1 from the LGBTQ+ community`
 
 ## Timeline 🗓️
 > [!NOTE]
@@ -280,7 +260,7 @@ Provide a link to any materials you need to run your study, including any materi
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
+- `Suggested dates and times:` **[TBD MM/DD HH:MM]**
 
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
@@ -296,11 +276,12 @@ Provide a link to any materials you need to run your study, including any materi
 - `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **[Enter time length]**
+- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **[75 minutes for non-AT users, 
+140 minutes for AT users]**
   
-- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **[Enter buffer time]**
+- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **[60 mins]**
   
-- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **[Enter NUM per day]**
+- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **[2 per day]**
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
@@ -312,7 +293,7 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 > Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
 >
 > **Place time slots between `hash marks` when in edit mode.**
-
+TBD, 12-5pm ET
 - `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
 - `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
 - `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
@@ -327,20 +308,20 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 >
 > **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
 
-- `Moderator:` **[Enter full name]**	
-- `Research guide writing and task development (usually but not always same as moderator):` **[Enter full name]**		
-- `Participant recruiting & screening:`	**[Enter full name]**	
-- `Project point of contact:` **[Enter full name]**		
-- `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[Enter full name]**	
-- `Note-takers:` **[Enter full name]** ***or*** **[Designate Perigean]**	
+- `Moderator:` **[Risha Lee]**	
+- `Research guide writing and task development (usually but not always same as moderator):` **[Risha Lee]**		
+- `Participant recruiting & screening:`	**[Perigean]**	
+- `Project point of contact:` **[Risha Lee]**		
+- `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[TBD]**	
+- `Note-takers:` **[Megan Gayle and Joseph Lee]**	
 - `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
 
-- **[Enter full name]**
-- **[Enter full name]**
-- **[Enter full name]**
+- **[Denise Coveyduc]**
+- **[Heather Rienks]**
+- **[Tom Davis]**
 
 ## Approvals ✅
 > [!NOTE]
 > Before submitting for review, ensure you've completed the YAML frontmatter section at the top of this document using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md).
-- `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
+- `Reviewed by [Denise Coveyduc, Financial Management Team Lead] on [02-11-2026]`
 - `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
