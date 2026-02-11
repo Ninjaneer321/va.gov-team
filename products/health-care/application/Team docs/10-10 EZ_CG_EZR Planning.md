@@ -48,7 +48,7 @@
 
 
 ---
-## 📆 Sprint 14 (Feb 11 - Feb 24) [PLANNED]
+## 📆 Sprint 14 (Feb 11 - Feb 24)
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
