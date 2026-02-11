@@ -1,109 +1,146 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Veteran Transition Support Version 1 User Testing, July 2024"
+date: 2024-07-10
+last_updated: 2024-07-17
+team: "Veteran Transition Support (VTS)"
+product: "Veteran Transition Support - Veteran Transition Assistant"
+product_area: "unauthenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Help Veterans learn about available benefits, understand their eligibility, and begin the application process through an accessible, all-in-one prototype that clearly guides Veterans through the benefits discovery and eligibility check processes"
+  product_location: "New product to be integrated into VA.gov"
+  user_familiarity: "New product - First round of user testing with Version 1 MVP"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/vet-transition-support"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured-interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand how Version 1 of the Veterans Transition Assistant starts to meet the needs of transitioning service-members and current Veterans"
+  - goal_2: "Test specific features in the Version 1 MVP: Skipping Questions, Review Answers Page, Sorting and Filtering"
+  - goal_3: "Determine expectations of users given the baseline MVP of Version 1"
+  - goal_4: "Find out additional features and systems that can be added to VTS in future versions that is helpful to users"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What should the VTS be named? Something catchy? Or informative? Or somewhere in between?"
+  - "How do users feel about the Review Answers Page? How often do people skip it quickly?"
+  - "How quickly do users orient to the Results page? Is the information hierarchy helpful?"
+  - "Are the questions we're asking able to be answered easily by users? Are the questions valuable to users?"
+  - "How many users use the Skip button? Which questions are skipped most often and why?"
+  - "How are users interacting with the Filter option on the Results Page? Which filters are used most/least often?"
+  - "How are users interacting with the Sort Option on the Results Page?"
+  - "How do users interact with the 'Benefits you may not be eligible for' section?"
+  - "How visible is the 'Time sensitive benefits' alert? Is this section useful to users?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Version 1 of the Veteran Transition Support questionnaire meets some needs of users and sets up the project to meet future needs of veterans"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "The findings from our research will primarily inform any feature or design fixes to include in the Version 2 of the VTS product. We're looking to validate all design assumptions and choices that we made for Version 1. Secondarily, the findings will also help inform future features and design choices for future versions as well as how we should prioritize those future features."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Maximum variation sampling across time since separation, age, race, gender, and service branches"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "16 Veterans: 8 separated within past 2 years, 8 separated more than 2 years ago"
+    - "Veterans age distribution: 5 age 35 or younger, 5 in their 40s or 50s, 6 age 65 or older"
+    - "6 Transitioning Servicemembers and Commanding Officers within 1 year of separation"
+    - "Mix of service branches across all participants"
+    - "50% Non-white, 50% White"
+    - "50% Male, 50% Female"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "50% Veterans who have previously engaged with the VA"
+    - "50% Veterans who have not previously engaged with the VA"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Was your last military separation more or less than 2 years ago from today?"
+      qualifying_response: "Either response qualifies (for different cohorts)"
+    - question: "What is your current age?"
+      qualifying_response: "35 or younger, 40-59, or 65 or older"
+    - question: "Have you previously engaged with the VA or VA services?"
+      qualifying_response: "Either response qualifies (for secondary criteria)"
+    - question: "When do you expect to separate from active military service?"
+      qualifying_response: "Within the next year"
+    - question: "Are you currently a Commanding Officer?"
+      qualifying_response: "Yes (for CO recruitment)"
       
 participants:
-  veterans: 0
+  veterans: 16
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 22
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-08-06"
+  pilot_participant: "Nicole Kontrabecki"
+  research_dates: "2024-08-06 to 2024-08-16"
+  research_review_submission: "2024-07-10"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Enhance Veterans' personalized online experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Support benefit discovery and eligibility determination"
+  - objective: "Drive OIT's Digital Transformation Strategy"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Create accessible all-in-one prototype for Veteran benefit information"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Reinventing myself"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "VTS Discovery Research - February 2024"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Healthcare"
+  - "BNFT: Housing"
+  - "BNFT: Employment"
+  - "BNFT: Pension"
+  - "BNFT: Life Insurance"
+  - "BNFT: Memorialization"
+  - "PRDT: Veteran-Transition-Support"
+  - "semi-structured-interviews"
+  - "usability-testing"
+  - "evaluative-research"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "DSP: Ask users for multiple responses"
+  - "DSP: Help users to navigate a long list"
+  - "DSP: Content Presentation"
+  - "DSC: Button"
+  - "DSC: Form"
+  - "DSC: Accordions"
+  - "DSC: Alert Boxes"
 ---
 
 # Veteran Transition Support Version 1 User Testing and Research

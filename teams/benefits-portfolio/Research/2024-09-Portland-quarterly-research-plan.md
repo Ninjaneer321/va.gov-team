@@ -1,109 +1,124 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Benefits Portfolio Veteran Benefits Experience - Portland Quarterly Research"
+date: 2024-09-01
+last_updated: 2024-09-18
+team: "Benefits Portfolio"
+product: "Benefits Portfolio (Disability Compensation, Veterans Pension, Decision Reviews, Claim Status Tool)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The Benefits Portfolio crews work on Veteran-facing benefits products and are prioritizing initiatives to support OCTO OKRs and Portfolio goals. They need to understand high-impact moments in Veterans' experience claiming benefits and identify aspects that impact Veteran trust, confidence, and satisfaction with VA."
+  product_location: "VA.gov - Benefits Portfolio products including disability compensation, Veterans Pension claims, decision review forms, and Claim Status Tool"
+  user_familiarity: "Multiple products - ongoing iterations"
+  product_brief_url: ""
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured-interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: in-person
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: "Portland Regional Office"
+    point_of_contact: "Julie Strothman (julie.strothman@va.gov)"
+    equipment: "Researcher laptop for taking notes"
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Describe high-impact moments in Veterans' experience claiming benefits"
+  - goal_2: "Identify aspects of the online claims process that impact Veteran trust, confidence, and satisfaction with VA and VA benefits"
+  - goal_3: "Ground the Benefits Portfolio team by interacting directly with people whom we serve"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do Veterans describe their benefits journey? Which aspects stand out as the biggest pain points or bright spots?"
+  - "How do Veterans get advice or help filing a claim for VA benefits?"
+  - "How do Veteran's interactions with VA, and VA tools like VA.gov, engender or degrade their sense of trust in VA?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Confidence and trust are built in part by being transparent"
+  - "Confidence and trust are built by setting clear expectations and then meeting them"
+  - "Confidence and trust are built by being timely"
+  - "Confidence and trust are built by appearing to act in support of Veterans receiving benefits, not appearing to look for ways to deny Veterans their benefits"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will help the Benefits Portfolio build a strategy for meeting OCTO's goal of improving customer satisfaction by 5%, as well as help members of the portfolio who have less day-to-day involvement with research to be more grounded in Veteran experience."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment for in-person sessions"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "50% of participants should be 44 or under"
+    - "All participants should have applied for disability or pension benefits in the past 3 years OR be planning to apply for either in the next year"
+    - "Ideally an even mix of pension and disability"
+    - "50% of participants are non-caucasian"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "50% of participants have worked with an accredited representative"
+    - "Mix of education-level"
+    - "Mix of branch of service"
+    - "Mix of gender"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you applied for pension benefits from the VA within the past 3 years?"
+      qualifying_response: "Attempt to recruit 2-4 who answer yes"
+    - question: "Have you applied for disability compensation benefits from the VA within the past 3 years?"
+      qualifying_response: "Attempt to recruit 5-7 who answer yes"
+    - question: "Do you plan to file a pension or disability claim in the next 1 year?"
+      qualifying_response: "Maximum of 3 participants"
+    - question: "Have you worked with an accredited representative on your benefits claim?"
+      qualifying_response: "50% answer yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-09-15"
+  pilot_participant: "TBD"
+  research_dates: "2024-09-18 to 2024-09-18"
+  research_review_submission: "2024-09-01"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 90
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 2
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve customer satisfaction by 5%"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/benefits-portfolio/Research/2024-06-Denver-Quarterly.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/benefits-portfolio/Research/2024-02-San-Diego-Quarterly.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - AUD: Veterans
+  - AUD: VSO
+  - BNFT: Disability
+  - BNFT: Pension
+  - PRDT: Claim-status-tool
+  - PRDT: Decision-reviews
+  - PRDT: Pension
+  - semi-structured-interviews
+  - generative-research
 ---
 
 Research Plan for 2024-09 Veteran Benefits Experience

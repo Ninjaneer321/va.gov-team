@@ -1,109 +1,125 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Veteran Service Officers (VSOs) Experience with Veterans Applying for Pension Benefits (VA Form 21P-527EZ)"
+date: 2024-06-28
+last_updated: 2024-08-01
+team: "Pension Benefits Team"
+product: "VA Form 21P-527EZ Veterans Pension"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The digital Veterans Pension form (527EZ) was deactivated in November 2023 and relaunched in January 2024. Over 50% of Veterans applying for pension benefits use accredited representatives. We need to understand VSOs' firsthand experience supporting Veterans with pension applications to identify opportunities to improve the experience."
+  product_location: "VA.gov - Veterans Pension Benefits Application"
+  user_familiarity: "Iteration - recently relaunched digital form"
+  product_brief_url: "https://www.vba.va.gov/pubs/forms/VBA-21P-527EZ-ARE.pdf"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured-interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand VSOs' experiences working with Veterans on Veterans pension claims"
+  - goal_2: "Understand VSOs' perspectives on the reasons why claims don't get completed/submitted"
+  - goal_3: "Understand VSOs' perspectives on the typical causes for development letters to be issued when working with Pension-eligible Veterans"
+  - goal_4: "Understand areas of the application that VSOs may need to clarify for their Veteran clients"
+  - goal_5: "Understand VSOs' understanding of ITF, the Pension application, and Pension service"
+  - goal_6: "Understand the tools VSOs use to help Veterans apply for Pension benefits as well as behaviors and sentiments about the Pension application and service"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What is the VSOs experience helping Veterans understand the 527EZ pension benefit?"
+  - "What are common characteristics, experiences, questions of Veterans seeking pension benefits?"
+  - "How do eligible Veterans learn about the 527EZ Pension Benefit?"
+  - "What is the experience of VSOs in helping eligible Veterans apply for the pension benefit?"
+  - "Where do VSOs typically provide the most support in the application process?"
+  - "What challenges do VSOs observe that Veterans have with gathering records and applying for pension benefits?"
+  - "What is the VSOs understanding of ITF and how it's used?"
+  - "What tools do VSOs use to support Veterans in the application process?"
+  - "What are VSOs' perceptions of Veterans experience of receiving and maintaining benefits?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Understanding the first-hand experience of VSOs using the VA.gov Pension application to support Veterans may help the team better understand what areas of the application create challenges for the Veteran"
+  - "Understanding causes of incomplete claims may help identify opportunities to improve the Veteran experience"
+  - "Understanding the benefits and challenges of the tools accredited representatives use to help Veterans submit a 527EZ application may help us identify opportunities to improve the experience for Veterans"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Understanding the first-hand experience of VSOs will help the team better understand what areas of the application create challenges for Veterans, causes of incomplete claims, and causes for further development. This will help identify opportunities to improve the experience for Veterans applying for pension benefits."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Direct outreach to VSOs"
+  approach: "Targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "VSOs who are working or have recently worked with Veterans who are eligible for the 527EZ pension benefit"
+    - "VSOs who have worked on at least 5 pension claims in the last year"
+    - "A mix of VSOs who work in suburban, rural, and city environments"
+    - "A mix of county VSOs and large VSOs (DAV, Am Legion, VFW, AmVets, PVA, VVA, WWP)"
+    - "A mix of VSOs who use 3rd party software applications and other means to submit a pension benefit application"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "VSOs from different geographic regions"
+    - "VSOs with varying years of experience"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you a VSO who works with Veterans who are eligible for pension benefits?"
+      qualifying_response: "yes"
+    - question: "Have you worked on at least 5 pension claims in the last year?"
+      qualifying_response: "yes"
       
 participants:
   veterans: 0
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 6
+  completed_sessions_goal: 5
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-07-28"
+  pilot_participant: "TBD"
+  research_dates: "2024-07-29 to 2024-08-07"
+  research_review_submission: "2024-06-28"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 6: Enhance Veterans' personalized online experience"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Improve the digital 527EZ form experience"
+  - objective: "Objective 10: OIT's Digital Transformation Strategy"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Expand offering of digital experiences for Veterans to access VA health care and benefits"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "2024 usability study of the relaunched pension form"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - AUD: VSO
+  - AUD: Veterans
+  - BNFT: Pension
+  - PRDT: Pension
+  - DSC: Form
+  - semi-structured-interviews
+  - generative-research
+  - HDW: Laptop
+  - HDW: Desktop
 ---
 
 

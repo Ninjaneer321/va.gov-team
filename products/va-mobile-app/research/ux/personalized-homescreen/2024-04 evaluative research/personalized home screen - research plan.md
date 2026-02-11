@@ -1,109 +1,139 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "VA Mobile App: Personalized Home Screen Evaluative Research"
+date: 2024-02-01
+last_updated: 2024-05-01
+team: "VA Mobile UX Team"
+product: "VA Health and Benefits Mobile App"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Users who initially download the VA mobile app do not actively use it over time. Veterans report downloading the app to see if it can help them but then don't use it regularly and/or don't have time to go through the app's functionality."
+  product_location: "VA Health and Benefits Mobile App - Home Screen"
+  user_familiarity: "Iteration - new personalized home screen design"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/features/design-personalization/product/Personalized_homescreen-Product-Brief-2023.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "usability-testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Understand if/how the personalized home screen design impacts participant comprehension of what the VA mobile app can do (in general, and for them specifically)"
+  - goal_2: "Understand if/how the personalized home screen design impacts participant perception of the app's current and future value"
+  - goal_3: "Evaluate the usability of the personalized home screen and category screens using high-level tasks and determine if any significant usability barriers exist for participants who use the app with assistive technology vs without"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "What do participants believe that the VA mobile app can do based on the contents of the personalized home screen?"
+  - "Do participants find value in the VA mobile app in its current form based on the contents of the personalized home screen?"
+  - "Do participants understand what the modules on the home screen are and find value in the high-level data being displayed within the modules?"
+  - "Do participants choose to use the home screen as a task starting point, and will they successfully be able to begin some tasks using the mobile app home screen?"
+  - "Is there a difference between screenreader users and non-screenreader users in terms of perception of app capabilities, perception of value, and the usability of the personalized home screen?"
+  - "Do participants experience performance issues/lag when loading the personalized home screen? If so, do performance issues impact participants' perception of the app's capabilities or value?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Upon seeing the personalized VA mobile app home screen, participants will demonstrate that they understand what the VA mobile app can do (help users keep up with and manage interactions across VA)"
+  - "Participants will be able to imagine and describe how the app will help them with the tasks they currently use in the app and in their life"
+  - "Participants will understand that the personalized home screen modules contain high-level data from their in-flight tasks, and may describe it as being helpful in keeping up with their tasks"
+  - "Participants will choose to use the personalized home screen modules as a way to quickly answer questions/access in-flight tasks"
+  - "Screenreader users and non-screenreader users will experience the same level of usability, and use of assistive technology will not cause a difference in participant perceptions of app capabilities or value"
+  - "Participants may experience some lag when the personalized home screen is loading data, but any lag will not affect their perception of the app's capabilities or value"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will help us understand if/how the personalized app home screen design impacts the project's qualitative product success metrics as well as identify opportunities to improve the usability and design of the personalized home screen in future iterations."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "lean maximum variation"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "All participants must be iPhone or iPad users"
+    - "All participants must be willing to install Testflight and a pre-release build of the VA mobile app on their devices"
+    - "All participants must be able to independently log into the VA Health and Benefits mobile app using their VA login credentials"
+    - "At least 9 participants should be active monthly users of the VA Health and Benefits mobile app"
+    - "All participants should have an active VA claim and/or appeal"
+    - "At least 9 participants should be users of VA health care"
+    - "At least 9 participants live in a rural area"
+    - "At least 4 participants should have 2 or more years of experience using a screenreader (VoiceOver, Talkback) on their mobile device"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "6 participants should identify as other than Caucasian"
+    - "6 participants should identify as a gender other than male"
+    - "4 participants should have no college degree"
+    - "No more than 4 participants should have a Master's degree or higher"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you able to join the Zoom session using an iPhone or iPad?"
+      qualifying_response: "yes"
+    - question: "Are you willing and able to download and temporarily install two mobile apps during the session using a link you will open on using your phone?"
+      qualifying_response: "yes"
+    - question: "Are you able to log into the VA Health and Benefits mobile app using your VA username and password?"
+      qualifying_response: "yes"
+    - question: "Do you use the VA Health and Benefits mobile app? How often?"
+      qualifying_response: "At least once per month"
+    - question: "Do you currently have an open disability claim or appeal?"
+      qualifying_response: "yes"
       
 participants:
-  veterans: 0
+  veterans: 18
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 18
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-05-23"
+  pilot_participant: "Therese Dickson"
+  research_dates: "2024-05-28 to 2024-06-07"
+  research_review_submission: "2024-05-13"
   
 session_details:
-  duration_minutes: 60
+  duration_minutes: 90
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve Veteran retention at the 30, 60, and 90 day marks by 10%"
+      - "Increase the number of tasks completed and their success rate"
+      - "Improve Veteran Satisfaction"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/features/design-personalization/discovery/readme.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/ux/post-launch-discovery/2023-07-mobile-app-retention/Research%20Findings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app/research/ux/post-launch-discovery/2022-07-current-experience-discovery"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - AUD: Veterans
+  - BNFT: Disability
+  - BNFT: Healthcare
+  - PRDT: VA-mobile-app
+  - HDW: Smartphone
+  - HDW: Tablet
+  - usability-testing
+  - evaluative-research
+  - mobile
+  - Accessibility
+  - a11y-testing
+  - assistive-technology
 ---
 
 # VA Mobile App: Personalized Home Screen Evaluative Research Plan

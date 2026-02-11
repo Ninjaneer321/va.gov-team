@@ -1,109 +1,132 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Pension Benefits Intent to File Comprehension Research"
+date: 2024-10-01
+last_updated: 2024-10-01
+team: "Pension Benefits Team"
+product: "VA Form 21P-527EZ Veterans Pension - Intent to File"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Since relaunching the web-based version of VA Form 21P-527EZ in January 2024, the Pension team needs to add intent to file (ITF) functionality to help Veterans maximize their potential benefits. Veterans' expectations around ITF and content design need to be understood to reduce confusion and instill confidence."
+  product_location: "VA.gov - Veterans Pension Application - Intent to File"
+  user_familiarity: "New feature - adding ITF functionality to existing form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/design/pension-itf-ux-strategy.pdf"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "semi-structured-interviews"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Validate when and how intent to file messaging might be effective for Veterans and evaluate the usability of the proposed content and experience"
+  - goal_2: "Understand Veterans' expectations after an ITF is created"
+  - goal_3: "Understand Veterans' existing mental model (if any) of ITF and their barriers to taking action to starting an application"
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "When and where would information about the ITF date and its purpose be of benefit to Veterans?"
+  - "What does a Veteran expect to see after starting their application?"
+  - "What aspects of the flow provide clarity or cause confusion?"
+  - "What questions or concerns do Veterans have about intent to file?"
+  - "What action do Veterans take (i.e. file an ITF or not) and what is their stated reasoning?"
+  - "Is the call to action to start an application clear and compelling?"
+  - "Do Veterans understand how the intent to file process impacts their potential benefits?"
+  - "What information, if any, are Veterans seeking about an ITF after one is created?"
+  - "Where do Veterans expect ITF information to live after their intent to file is established?"
+  - "Are Veterans familiar with the intent to file process? What are Veterans' perceptions of the ITF process?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Leading intent to file messaging with its benefits will encourage Veterans to start their application because if the benefits are clear and compelling, Veterans will be motivated to take action to reserve an earlier effective date"
+  - "Veterans will feel confident about continuing their application when intent to file expiration is described in proximity to action-oriented next steps because Veterans are concerned about ITF expiry but need clarity on when they need to complete their application and why"
+  - "Veterans may hesitate to continue their application if they are first introduced to intent to file immediately after clicking 'Start the Pension application' because Veterans may expect to start filling out an application, not to be introduced to a new process"
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will inform messaging and design strategy for the intent to file experience, for the online pension application as well as VA.gov as a whole. It will deepen our understanding of Veteran perceptions and comprehension of the intent to file process."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Targeted recruitment"
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Half of participants have filed a compensation or pension claim on VA.gov before"
+    - "Half of participants have not filed a compensation or pension claim on VA.gov before"
+    - "At least 50% of participants are over the age of 55"
+    - "Roughly 50% primarily mobile users"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "At least one with an identified cognitive disability"
+    - "30% people of color"
+    - "25% live in a rural area"
+    - "25% without a degree"
+    - "17% with immigrant origins"
+    - "10% women"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Have you filed a disability compensation or benefits claim on VA.gov before?"
+      qualifying_response: "50/50 split"
+    - question: "How do you primarily access VA.gov?"
+      qualifying_response: "50/50 split between desktop and mobile"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "At least 1-2 yes"
       
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "2024-10-07"
+  pilot_participant: "TBD"
+  research_dates: "2024-10-08 to 2024-10-15"
+  research_review_submission: "2024-10-01"
   
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 3
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: Our digital experiences are the best way to access VA health care and benefits"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Improve intent to file experience for pension applications"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/Intent%20to%20file%20Research/ITF%20Research%20Summary.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024-05%20Intent%20to%20File%20Audit.md"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - AUD: Veterans
+  - BNFT: Pension
+  - PRDT: Pension
+  - DSC: Form
+  - DSP: Content Presentation
+  - DSP: Contextual Help
+  - semi-structured-interviews
+  - concept-testing
+  - evaluative-research
+  - HDW: Desktop
+  - HDW: Laptop
+  - HDW: Smartphone
+  - HDW: Tablet
+  - mobile
 ---
 
 # **Research Plan for Pension Benefits, Intent to File Comprehension, October 2024**
