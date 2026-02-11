@@ -18,6 +18,7 @@ Expected Annual Submission: 1921
 | 01/20/26 | 14     | 33    | 1.7%      |
 | 01/27/26 | 16     | 49    | 2.6%      |
 | 02/03/26 | 11     | 60    | 3.1%      |
+| 02/10/26 | 9      | 69    | 3.6%      |
 
 ## Post-MVP Enhancements
 | Update Type | <div style="width: 300px;">Title / Description</div> | Category | Due Near-Term? | Layer | SME Discussion? | SME Testing? | Status | Story | Staging PR | Staging Merged Date | Notes |
