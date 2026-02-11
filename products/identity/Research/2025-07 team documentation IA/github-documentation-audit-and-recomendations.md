@@ -45,6 +45,34 @@ Please provide feedback if any of the following recommendations should not be ac
 * Clean up and restructure the `_archive` folder (next).
 * Consider renaming "Archive" to "Inactive" or something else to convey the intended purpose more clearly.
 
+**Identity root folder**
+
+| Identity folder | Purpose | Recommendations | Inactive vs delete |
+|-----------------|---------|-----------------|-------------------|
+| External Auth Data Reporting | Project planning | <br>• No changes at this time<br>• Recommend updating the readme content in the next phase | Not actively bring worked on but still referenced |
+| External Auth Status Page | Project planning | Move to archive folder | Inactive |
+| Maintenance & Downtime Banners | Product outline | Move to archive (covered in frontend documentation)<br>Delete | Delete (duplicate content) |
+| Support Process | Project work developing Slack support process and Slackbot | Move to products folder | Inactive (there are individual important pages within this folder) |
+| user-action-logs | Product requirements | Add to products folder | Inactive |
+| MHV Credential Deprecation | N/A [empty folder] | Remove or archive | Delete |
+| gh templates | N/A [empty folder] | Move to archive folder | Delete |
+| identity-team-charter.md | Team names and summary of what we do | Consolidate with "internal team" folder (move content into a README for internal-identity) | Inactive |
+
+**Products folder**
+
+| Products folder (Topic) | Purpose | Recommendations | Inactive vs delete |
+|-------------------------|---------|-----------------|-------------------|
+| Fraud Notifications | Product outline | Move to archive folder | Inactive |
+| Login SLO | Project planning for SLO initiative | Move to archive folder | Inactive |
+| Product Briefs | Documents past product initiatives | Consider adopting this structure for the archive folder and moving the content there | Inactive |
+| Release Report | Documents past sprint reports | Consider if we want to resume this practice of documenting past sprint reports. If not we could move this to the archive folder | Inactive |
+| Request & Support Process | Documents team initiative for support process development | Move to archive folder | Inactive |
+| 2024 Fraud Prevention, Detection & Remediation Projects.md | Project planning | Move to archive folder | Inactive |
+| 2024 Operational Support Projects.md | Project planning | Move to archive folder | Inactive |
+| 2024 Remove Unnecessary Dependencies Projects.md | Project planning | Move to archive folder, consider documenting these somewhere else too | Delete or update if any projects are still on our roadmap |
+| 3 Types of Metrics Products.md | Project planning | Move to archive folder | Inactive |
+
+
 ---
 
 ## Audience alignment
