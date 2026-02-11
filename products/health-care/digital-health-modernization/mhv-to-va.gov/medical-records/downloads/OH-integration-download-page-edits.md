@@ -18,6 +18,7 @@ But per OCTO PO Marci McGuire on February 9, 2026 in a UX sync, there are issues
 We will iterate on this page to include the OH facility name with specific date-ranges that cover pre and post-cutover based on the [EHR deployment schedule](https://digital.va.gov/ehr-modernization/ehr-deployment-schedule/) published by the VA. 
 
 This will bring us to the improved future-state that we want: 
+
 **Future state**
 * VistA only users - see VistA CCD & Blue Button link
 * Hybrid users (VistA & OH) - see VistA CCD (before cutover date), OH CCD (after cutover date), & Blue Button link
