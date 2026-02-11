@@ -1,31 +1,44 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VAOS MVP and Express Care User Research, July 2020"
+author: "Melissa Schaff"
+date_created: "2020-07"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VA Online Scheduling"
+portfolio: "health"
+product: "VA Online Scheduling (VAOS)"
+research_phase: "evaluative"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who schedule VA medical appointments"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://vsateams.invisionapp.com/share/BVY4QCOJM4U"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Appointments"
+  - "PRDT: VAOS"
+  - "MHV: Appointments"
+  - "research"
+  - "usability-testing"
+  - "moderated-interview"
+  - "express-care"
+  - "telehealth"
+  - "appointment-scheduling"
+  - "appointment-cancellation"
+  - "remote-moderated"
+  - "prototype-testing"
 
-# NEW: Compliance flags
+description: "Usability testing conversation guide for VAOS MVP and Express Care prototype, evaluating appointment scheduling, cancellation, and same-day telehealth screening."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

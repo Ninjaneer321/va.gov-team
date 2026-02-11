@@ -1,31 +1,43 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Vet Centers Product - Client Usability Test V2, January 2021"
+author: "Leyda"
+date_created: "2021-01-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Facilities Team"
+portfolio: "health"
+product: "Vet Centers"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who are current or former Vet Center clients, testing on mobile devices (iPhone/Android)"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/facilities/vet-centers/initiatives/2020-2021-modernization/discovery/client-usability-tests/research-plan.md"
+related_prototype: "https://preview.uxpin.com/1f805ba5adb8ee2152f94a19944cefcb2ddda9cd#/pages/136897449?mode=cvhidm"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: Vet Centers"
+  - "PRDT: Facilities"
+  - "BNFT: Healthcare"
+  - "usability-testing"
+  - "remote-research"
+  - "mobile-testing"
+  - "HRD: Mobile"
+  - "prototype-testing"
+  - "counseling-services"
+  - "mental-health"
+  - "Vet Center clients"
+  - "Vet Center modernization"
 
-# NEW: Compliance flags
+description: "Mobile usability test of Vet Centers detail page prototype with current Vet Center clients, focusing on service discovery, location relationships, navigation patterns, and comparison with actual client experiences."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

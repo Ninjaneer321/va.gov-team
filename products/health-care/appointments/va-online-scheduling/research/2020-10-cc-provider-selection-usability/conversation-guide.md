@@ -1,31 +1,41 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Community Care Provider Selection Usability, October 2020"
+author: "Peter Russo"
+date_created: "2020-10-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VA Online Scheduling"
+portfolio: "health"
+product: "VAOS"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have scheduled VA appointments, with or without community care experience"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://adhoc.invisionapp.com/share/QWZ7WD9GTPJ#/screens/435681239_VAOS-CC-Pick-1"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Appointments"
+  - "PRDT: VAOS"
+  - "usability-testing"
+  - "community-care"
+  - "provider-selection"
+  - "prototype-testing"
+  - "appointment-scheduling"
+  - "mobile-testing"
+  - "map-interface"
 
-# NEW: Compliance flags
+description: "Usability testing for community care provider selection flow in VAOS, testing provider search, map navigation, and appointment request completion."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

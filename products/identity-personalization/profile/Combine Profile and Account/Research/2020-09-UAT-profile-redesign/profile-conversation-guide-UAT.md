@@ -1,34 +1,49 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: Profile UAT - September 2020"
+author: "Tressa Furner"
+date_created: "2020-09-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Authenticated Experience"
+portfolio: "digital-experience"
+product: "Profile Redesign"
+research_phase: "evaluative"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "LOA3 Veterans with DS Logon, MyHealtheVet, or ID.me accounts, eligible for disability compensation or pension payments"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/identity-personalization/profile/Combine Profile and Account/Research/2020-09-UAT-profile-redesign/research-plan.md"
+related_prototype: "https://www.va.gov"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: Profile"
+  - "PRDT: Direct Deposit"
+  - "PRDT: Personal Information"
+  - "PRDT: Contact Information"
+  - "PRDT: Military Information"
+  - "PRDT: Account Security"
+  - "PRDT: Connected Apps"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "UAT"
+  - "user-acceptance-testing"
+  - "usability-testing"
+  - "production-testing"
+  - "LOA3"
+  - "profile-redesign"
 
-# NEW: Compliance flags
-recording_required: true
+description: "User Acceptance Testing (UAT) conversation guide for the redesigned Profile page, validating functionality across all profile sections including personal information, military information, direct deposit, account security, and connected apps."
+
+# Compliance flags
+recording_required: false
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide: Profile UAT

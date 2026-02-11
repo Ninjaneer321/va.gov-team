@@ -1,34 +1,47 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Outreach Specialist Interviews, August 2020"
+author: "To be determined"
+date_created: "2020-08-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Facilities Team"
+portfolio: "health"
+product: "Vet Centers"
+research_phase: "discovery"
+research_method: "semi_structured_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Vet Center Outreach Specialists with experience in client engagement and community outreach"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/facilities/vet-centers/initiatives/2020-2021-modernization/discovery/outreach-specialist-interviews/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: VA Staff"
+  - "PRDT: Vet Centers"
+  - "PRDT: Facilities"
+  - "BNFT: Healthcare"
+  - "semi-structured-interviews"
+  - "discovery-research"
+  - "remote-research"
+  - "stakeholder-interviews"
+  - "outreach-specialists"
+  - "eligibility"
+  - "counseling-services"
+  - "mental-health"
+  - "events"
+  - "Vet Center modernization"
 
-# NEW: Compliance flags
+description: "Discovery interviews with Vet Center Outreach Specialists to understand their role, client interactions, service offerings, eligibility processes, event planning, and promotional activities to inform website improvements."
+
+# Compliance flags
 recording_required: true
-observer_support: true
-consent_for_clips: true
+observer_support: false
+consent_for_clips: false
 ---
 
 # Conversation Guide: Outreach Specialist Interviews 

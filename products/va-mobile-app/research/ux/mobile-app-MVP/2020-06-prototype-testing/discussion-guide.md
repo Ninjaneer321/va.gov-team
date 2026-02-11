@@ -1,31 +1,43 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Discussion Guide for Mobile App Prototype Testing - June 2020"
+author: "Bridget Hapner"
+date_created: "2020-06-02"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VA Mobile App"
+portfolio: "health"
+product: "VA Mobile App MVP"
+research_phase: "validation"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45-60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use VA.gov, MHV, or eBenefits and have filed claims or use VA healthcare"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/va-mobile-app/research/ux/mobile-app-MVP/2020-06-prototype-testing/research-plan.md"
+related_prototype: "To be determined"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: VA Mobile App"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "HDW: Smartphone"
+  - "co-design"
+  - "prototype-testing"
+  - "moderated-interview"
+  - "mobile-app"
+  - "feature-prioritization"
+  - "mobile-MVP"
+  - "claims-status"
+  - "secure-messaging"
 
-# NEW: Compliance flags
+description: "Discussion guide for mobile app prototype testing using co-design exercises to understand Veteran priorities for a VA mobile app MVP, followed by prototype feedback sessions."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true
