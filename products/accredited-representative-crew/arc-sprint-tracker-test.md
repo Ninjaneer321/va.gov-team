@@ -4,6 +4,16 @@ _Overview: This tracker is designed to track sprint goals with completed work, p
 
 <!-- NEW_SPRINT_HERE -->
 
+# Sprint 7 (2026-02-17 - 2026-03-02)
+
+## Sprint 7 Goals
+
+## Sprint 7 Demos
+
+## Sprint 7 Delivery
+
+## Sprint 7 Tickets
+
 
 
 # Sprint 6 (Dec 16-29, 2025)
