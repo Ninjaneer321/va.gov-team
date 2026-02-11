@@ -15,7 +15,7 @@ jobs:
 
       - name: Generate sprint section and insert into file
         env:
-          GH_TOKEN: ${{ secrets.ARC_PROJECT_TOKEN }}
+          GH_TOKEN: ${{ secrets.PROJECT_TOKEN }}
         run: |
           FILE="products/accredited-representative-crew/arc-sprint-tracker-test.md"
           MARKER="<!-- NEW_SPRINT_HERE -->"
@@ -92,49 +92,62 @@ jobs:
           GRAPHQL
           )
 
-          # Execute GraphQL query
-          RESPONSE=$(gh api graphql -f query="$QUERY" 2>/dev/null || echo '{"data":null}')
+          # Execute GraphQL query with error handling
+          RESPONSE=$(gh api graphql -f query="$QUERY" 2>&1)
           
-          # Parse response and group by AR Team for current and next sprint
-          ISSUES_JSON=$(echo "$RESPONSE" | jq -r --arg sprint "Sprint ${NEXT_SPRINT}" --arg next_sprint "Sprint ${AFTER_SPRINT}" '
-            .data.organization.projectV2.items.nodes[] |
-            select(.content != null) |
-            {
-              title: .content.title,
-              number: .content.number,
-              url: .content.url,
-              sprint: (.fieldValues.nodes[] | select(.field.name == "Sprint") | .name // .text // ""),
-              team: (.fieldValues.nodes[] | select(.field.name == "AR Team") | .name // .text // "")
-            } |
-            select(.sprint == $sprint or .sprint == $next_sprint) |
-            select(.team != "")
-          ')
-
-          # Get unique team names
-          TEAMS=$(echo "$ISSUES_JSON" | jq -r '.team' | sort -u)
-
-          # Build issue lists grouped by team
-          declare -A TEAM_ISSUES
-          while IFS= read -r team; do
-            if [ -n "$team" ]; then
-              TEAM_ISSUES["$team"]=$(echo "$ISSUES_JSON" | jq -r --arg team "$team" 'select(.team == $team) | "1. [\(.title)](#\(.number))"')
-            fi
-          done <<< "$TEAMS"
-
-          # ── Build team-specific goal sections ────────────────────────────
-          GOALS_SECTION=""
-          for team in "${!TEAM_ISSUES[@]}"; do
-            GOALS_SECTION+="\n### ${team}\n\n"
-            if [ -n "${TEAM_ISSUES[$team]}" ]; then
-              GOALS_SECTION+="${TEAM_ISSUES[$team]}\n"
-            fi
-            GOALS_SECTION+="\n"
-          done
-
-          # If no issues found or API failed, use default teams
-          if [ -z "$GOALS_SECTION" ]; then
-            echo "Warning: Could not fetch issues from GitHub Project. Using default team structure."
+          # Check if the response contains errors
+          if echo "$RESPONSE" | jq -e '.errors' > /dev/null 2>&1; then
+            echo "GraphQL API returned errors:"
+            echo "$RESPONSE" | jq '.errors'
+            echo "Falling back to default team structure."
             GOALS_SECTION="\n### Team Benefits\n\n### Team Appoint\n\n### Engagement\n\n"
+          elif ! echo "$RESPONSE" | jq -e '.data.organization.projectV2' > /dev/null 2>&1; then
+            echo "Could not access GitHub Project data. Response:"
+            echo "$RESPONSE"
+            echo "Falling back to default team structure."
+            GOALS_SECTION="\n### Team Benefits\n\n### Team Appoint\n\n### Engagement\n\n"
+          else
+            # Parse response and group by AR Team for current and next sprint
+            ISSUES_JSON=$(echo "$RESPONSE" | jq -c --arg sprint "Sprint ${NEXT_SPRINT}" --arg next_sprint "Sprint ${AFTER_SPRINT}" '
+              [.data.organization.projectV2.items.nodes[] |
+              select(.content != null) |
+              {
+                title: .content.title,
+                number: .content.number,
+                url: .content.url,
+                sprint: ([.fieldValues.nodes[] | select(.field.name == "Planned Sprint") | .name // .text // ""] | first),
+                team: ([.fieldValues.nodes[] | select(.field.name == "AR Team") | .name // .text // ""] | first)
+              } |
+              select(.sprint == $sprint or .sprint == $next_sprint) |
+              select(.team != null and .team != "")]
+            ')
+
+            echo "Found issues: $ISSUES_JSON"
+
+            # Get unique team names and build sections
+            if [ "$ISSUES_JSON" != "[]" ] && [ -n "$ISSUES_JSON" ]; then
+              GOALS_SECTION=""
+              
+              # Get all unique teams
+              TEAMS=$(echo "$ISSUES_JSON" | jq -r '.[].team' | sort -u)
+              
+              while IFS= read -r team; do
+                if [ -n "$team" ]; then
+                  GOALS_SECTION+="\n### ${team}\n\n"
+                  
+                  # Get issues for this team
+                  TEAM_ISSUES=$(echo "$ISSUES_JSON" | jq -r --arg team "$team" '.[] | select(.team == $team) | "1. [\(.title)](#\(.number))"')
+                  
+                  if [ -n "$TEAM_ISSUES" ]; then
+                    GOALS_SECTION+="${TEAM_ISSUES}\n"
+                  fi
+                  GOALS_SECTION+="\n"
+                fi
+              done <<< "$TEAMS"
+            else
+              echo "No issues found for Sprint ${NEXT_SPRINT} or ${AFTER_SPRINT}. Using default team structure."
+              GOALS_SECTION="\n### Team Benefits\n\n### Team Appoint\n\n### Engagement\n\n"
+            fi
           fi
 
           # ── Build the new sprint block ───────────────────────────────────
