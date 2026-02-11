@@ -4,6 +4,48 @@ _Overview: This tracker is designed to track sprint goals with completed work, p
 
 <!-- NEW_SPRINT_HERE -->
 
+# Sprint 8 (Feb 17 - Mar 2, 2026)
+
+## Sprint 8 Goals
+
+- [ ] Sprint Goals Approved by Enablement
+
+### Team Benefits
+
+### Team Appoint
+
+### Engagement
+
+## Sprint 8 Demos
+
+### Team Benefits
+
+### Team Appoint
+
+### Engagement
+
+## Sprint 8 Delivery
+
+- [ ] Sprint Delivery Approved by Enablement
+
+Total Completed in Sprint 8:
+
+Crew Count in Sprint 8:
+
+Average Teammate Velocity in Sprint 8:
+
+Carrying into Sprint 9:
+
+## Sprint 8 Tickets
+
+### Team Benefits
+
+### Team Appoint
+
+### Engagement
+
+### General Crew Support
+
 # Sprint 7 (2026-02-17 - 2026-03-02)
 
 ## Sprint 7 Goals
