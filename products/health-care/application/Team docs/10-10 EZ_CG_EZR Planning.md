@@ -151,7 +151,7 @@
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
 - [x] [#130978](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130978) - [FE] Write unit tests and reconcile E2E testing
-- [ ] **SPRINT GOAL** [#131141](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131141) - [FE] Determine how to connect with existing VA Profile integration
+- [x] **SPRINT GOAL** [#131141](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131141) - [FE] Determine how to connect with existing VA Profile integration
 - [ ] **SPRINT GOAL** [#130846](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130846) - [FE] Connect to pull in service history for display
 - [x] [#131037](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131037) - [UX] Create content for error state (no data or no API response to display service history)
 - [x] [#131051](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131051) - [UX] Update content on File Upload page
