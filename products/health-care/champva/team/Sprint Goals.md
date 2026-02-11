@@ -7,7 +7,13 @@
 
 ### Sprint Goals
 - [ ] **SPRINT GOAL** 10-7959c: Add foundational support for OHI-VES submissions by enabling subforms and updating submission flow to handle dependent forms
+  - [ ] Add subforms support to VesRequest
+  - [ ] Create VesOhiRequest skeleton
+  - [ ]  Add OHI methods to VesDataFormatter
+  - [ ] Update UploadsController for subform submission
 - [ ] **SPRINT GOAL** 10-10d: Document the CHAMPVA benefits card delivery process and evaluate policy and technical feasibility for digital delivery
+  - [ ] [BE] 10-10d: Discovery - Assess engineering feasibility of requesting a CHAMPVA benefits card online
+  - [ ] [UX] VA Form 10-10D: Discovery - CHAMPVA Benefits Card delivery process
 
 
 
@@ -17,12 +23,6 @@
 - [ ] **SPRINT GOAL** 10-10d: Document the CHAMPVA benefits card delivery process and evaluate policy and technical feasibility for digital delivery
   - [ ] [BE] 10-10d: Discovery - Assess engineering feasibility of requesting a CHAMPVA benefits card online
   - [ ] [UX] VA Form 10-10D: Discovery - CHAMPVA Benefits Card delivery process
-
-  - [ ] Add subforms support to VesRequest
-  - [ ] Create VesOhiRequest skeleton
-  - [ ]  Add OHI methods to VesDataFormatter
-  - [ ] Update UploadsController for subform submission
- 
 - [ ] **Other planned work** 
   - [ ] [Research] 10-10d v2 Close Out Tricare Study
   - [ ] [FE] 10-10D: Decouple 10-10D v2 front end from v1 to enable decommissioning
@@ -89,7 +89,23 @@
 
 ##
 ### Team PTO
-- Federal Holiday - Monday, 2.16 (President's day)
+- President's Day holiday: **1/16** (floating for AH)
+     - Allan
+     - Andrea
+     - Derrick
+     - Fara
+     - Hieu
+     - Jessica
+     - Kyle
+     - Mitch
+     - Ray
+     - Renata
+     - Steve
+- Kyle: 2/12
+- Renata: Half-day 2/13, 2/17
+- Matt: 2/17-2/19
+- Fara: 2/17-2/20
+- Jessica: 1/20
 
 -- 
 
