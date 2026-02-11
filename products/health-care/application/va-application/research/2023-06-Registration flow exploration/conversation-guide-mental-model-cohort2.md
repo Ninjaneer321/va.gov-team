@@ -1,31 +1,35 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: Registration Only Mental Model Study (Cohort 2 - Currently Enrolled)"
+author: "Jessica Stump, Katelyn Caillouet"
+date_created: "2023-06-01"
+last_modified: "2023-08-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Health Enrollment Team"
+portfolio: "health"
+product: "10-10EZ Health Care Application"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans currently enrolled in VA health care"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/application/va-application/research/2023-06-Registration flow exploration/research-plan.md"
+related_prototype: "https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1690928150976"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "10-10EZ"
+  - "registration"
+  - "enrollment"
+  - "mental-model"
+  - "priority-groups"
+  - "discovery"
+description: "Mental model research with enrolled Veterans to understand their experience with enrollment, Priority Groups, and benefit awareness."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

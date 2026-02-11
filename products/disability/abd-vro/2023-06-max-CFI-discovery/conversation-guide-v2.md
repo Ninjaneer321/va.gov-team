@@ -1,31 +1,37 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide v2: Max CFI Discovery - Tinnitus Claims Testing (July 2023)"
+author: "Kim Ladin"
+date_created: "2023-07-13"
+last_modified: "2023-07-13"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Automated Benefits Delivery - Virtual Regional Office (ABD-VRO)"
+portfolio: "benefits"
+product: "Disability Claims - Claims for Increase"
+research_phase: "discovery"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans receiving disability compensation from VA, particularly those with rated conditions"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/disability/abd-vro/2023-06-max-CFI-discovery/2023-06-max-CFI-discovery-research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - disability-claims
+  - claims-for-increase
+  - max-rating
+  - tinnitus
+  - rating-schedule
+  - ABD-VRO
+  - CFI
+  - veteran-interviews
+description: "Version 2 conversation guide for CFI Veteran research exploring how Veterans understand maximum ratings and make decisions about filing claims for increase, especially for conditions like Tinnitus. Updated July 13, 2023."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

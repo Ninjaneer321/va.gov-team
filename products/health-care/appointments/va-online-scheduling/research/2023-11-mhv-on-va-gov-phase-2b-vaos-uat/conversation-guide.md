@@ -1,31 +1,34 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: MHV on VA.gov Phase 2b VAOS UAT"
+author: "VAOS Team"
+date_created: "2023-11-01"
+last_modified: "2023-11-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VA Online Scheduling (VAOS)"
+portfolio: "health"
+product: "VA Online Scheduling on MHV Portal"
+research_phase: "evaluative"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use MyHealtheVet and have VA or Cerner appointments"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/appointments/va-online-scheduling/research/2023-11-mhv-on-va-gov-phase-2b-vaos-uat/research-plan.md"
+related_prototype: "https://www.va.gov/my-health/appointments"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "VAOS"
+  - "appointments"
+  - "MHV"
+  - "UAT"
+  - "Cerner"
+description: "User Acceptance Testing for VAOS integration with MyHealtheVet on VA.gov, validating navigation, appointment management, and Cerner facility support."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

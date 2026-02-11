@@ -1,3 +1,48 @@
+---
+title: "Conversation Guide for Login.gov Adoption Team, Deferred Identity Proofing Round 1 Usability (Prototype #2), March 2023"
+author: "TBD"
+date_created: "2023-02-01"
+last_modified: "2026-02-11"
+
+# Core research metadata
+team: "Login.gov Adoption"
+portfolio: "digital-experience"
+product: "Login.gov Adoption"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who currently use legacy credentials (DS Logon or My HealtheVet) to access VA.gov"
+
+# Related documents
+related_research_plan: "products/login.gov-adoption/discovery/research/2023-03-Deferred-Identity-Proofing-Round-1-Usability/research plan.md"
+related_prototype: "https://www.figma.com/proto/8vobVoSl1UqLnXsni3rcvO/Login.gov-Adoption%3A-Design-Flows?node-id=402-2918&scaling=min-zoom&page-id=241%3A1368&starting-point-node-id=402%3A2918"
+
+tags:
+  - "AUD:Veterans"
+  - "PRDT:Login.gov"
+  - "PRDT:Sign-in"
+  - "usability-testing"
+  - "authentication"
+  - "identity-proofing"
+  - "credential-migration"
+  - "deferred-identity-proofing"
+  - "email-notification"
+  - "IAL1"
+  - "IAL2"
+  - "DSP: Help users to sign in"
+  - "DSP: Notifications"
+
+description: "Usability testing of Deferred Identity Proofing flow (Prototype #2), where Veterans receive an email prompting them to sign in and set up a Login.gov account, testing the email-initiated IAL1 account creation and IAL2 upgrade process."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide #2: Deferred Identity Proofing (Round 1: Usability)
 *Login.gov Adoption Team, Legacy Credential Migration, February 2023*
 <br>

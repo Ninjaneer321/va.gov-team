@@ -1,3 +1,46 @@
+---
+title: "Conversation Guide for Core Identity Team, Proactive CSP Migration, April 2023"
+author: "TBD"
+date_created: "2023-04-01"
+last_modified: "2026-02-11"
+
+# Core research metadata
+team: "Core Identity"
+portfolio: "digital-experience"
+product: "Sign-in (Login.gov)"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who access VA services online and use mobile devices"
+
+# Related documents
+related_research_plan: "products/identity/Research/2023-04 Proactive CSP Migration/2023-04 Proactive CSP Migration research plan.md"
+related_prototype: "https://www.figma.com/proto/8vobVoSl1UqLnXsni3rcvO/Login.gov-Adoption%3A-Design-Flows?node-id=1375-5590&scaling=scale-down&page-id=944%3A3979"
+
+tags:
+  - "AUD:Veterans"
+  - "PRDT:Login.gov"
+  - "PRDT:Sign-in"
+  - "usability-testing"
+  - "authentication"
+  - "identity-proofing"
+  - "credential-migration"
+  - "mobile"
+  - "HDW:Smartphone"
+  - "DSC: Modal"
+  - "DSP: Help users to sign in"
+
+description: "Usability testing of the proactive CSP (Credential Service Provider) migration flow, testing Veterans' experience migrating to Login.gov accounts on mobile devices with modal-based prompts."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide for Identity, Proactive CSP Migration
 
 ## Moderator logistics

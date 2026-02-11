@@ -1,3 +1,46 @@
+---
+title: "Conversation Guide for Core Identity Team, Terms of Use, August 2023"
+author: "TBD"
+date_created: "2023-07-01"
+last_modified: "2026-02-11"
+
+# Core research metadata
+team: "Core Identity"
+portfolio: "digital-experience"
+product: "Terms of Use"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who sign in to VA.gov to access benefits and healthcare"
+
+# Related documents
+related_research_plan: "products/identity/Research/2023-07 Terms of Use/2023-08 Terms of Use research plan.md"
+related_prototype: "https://www.figma.com/proto/Fhw9P7r6pyaCGXRmolruoQ/Terms-of-Use?page-id=0%3A1&type=design&node-id=1-493"
+
+tags:
+  - "AUD:Veterans"
+  - "PRDT:Sign-in"
+  - "PRDT:Terms-of-Use"
+  - "usability-testing"
+  - "authentication"
+  - "sign-in-flow"
+  - "legal-agreement"
+  - "consent"
+  - "HDW:Desktop"
+  - "HDW:Smartphone"
+  - "DSP: Help users to sign in"
+
+description: "Usability testing of the Terms of Use agreement during the VA.gov sign-in process, evaluating Veterans' comprehension and experience accepting terms across desktop and mobile devices."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide for Core Identity, Terms of Use (TOU)
 
 ## Moderator logistics

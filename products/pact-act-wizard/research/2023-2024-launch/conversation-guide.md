@@ -43,7 +43,7 @@ tags:
   - "content-testing"
 description: "Usability testing of the PACT Act Wizard to validate that questions are clear and easy to understand, results are comprehensible, and Veterans can determine eligibility for disability or health care benefits related to toxic exposure during military service."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

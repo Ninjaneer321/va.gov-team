@@ -1,31 +1,33 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: Usability Study on 10-10EZR Form (Health Benefits Update)"
+author: "Jessica Stump, Katelyn Caillouet, Hieu Vo"
+date_created: "2023-12-01"
+last_modified: "2023-12-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Health Enrollment Team"
+portfolio: "health"
+product: "10-10EZR Health Benefits Update Form"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans enrolled in VA health care with various disability ratings"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/application/va-application/research/2023-12-EZR Usability/research-plan.md"
+related_prototype: "https://va.gov/my-health/update-benefits-information-form-10-10ezr"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "10-10EZR"
+  - "usability"
+  - "health-benefits-update"
+  - "prefill"
+description: "Usability testing of the 10-10EZR form evaluating Veterans' experience updating health benefits information, including prefill functionality and confirmation page."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

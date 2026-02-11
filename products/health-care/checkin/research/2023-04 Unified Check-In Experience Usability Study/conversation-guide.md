@@ -1,31 +1,34 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Patient Check-In (PCI) Conversation Guide: Unified Check-In Experience Usability Study"
+author: "Ben Brasso"
+date_created: "2023-04-01"
+last_modified: "2023-04-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Patient Check-In Team"
+portfolio: "health"
+product: "Patient Check-In (PCI)"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have attended VA medical appointments and use smartphones"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/checkin/research/2023-04 Unified Check-In Experience Usability Study/research-plan.md"
+related_prototype: "https://codepen.io/team/va-cie/live/NWORQEe"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "check-in"
+  - "pre-check-in"
+  - "usability"
+  - "mobile"
+  - "text-messages"
+description: "Usability testing of the unified check-in experience including pre-check-in confirmation and day-of check-in via text message on smartphones."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

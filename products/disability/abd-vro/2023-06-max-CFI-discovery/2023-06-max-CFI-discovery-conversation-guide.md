@@ -1,31 +1,37 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: Max CFI Discovery - Tinnitus and Migraines Claim Interventions (June 2023)"
+author: "Kim Ladin"
+date_created: "2023-06-13"
+last_modified: "2023-06-13"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Automated Benefits Delivery - Virtual Regional Office (ABD-VRO)"
+portfolio: "benefits"
+product: "Disability Claims - Claims for Increase"
+research_phase: "discovery"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans currently receiving disability benefits for multiple service-connected conditions"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/disability/abd-vro/2023-06-max-CFI-discovery/2023-06-max-CFI-discovery-research-plan.md"
+related_prototype: "https://www.sketch.com/s/7b704520-bd67-4e58-8187-2164d7616bd4/prototype/a/ED02E01A-A80F-4F2B-AD6D-90B61B245AA8"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - disability-claims
+  - claims-for-increase
+  - max-rating
+  - tinnitus
+  - interventions
+  - prototype-testing
+  - ABD-VRO
+  - CFI
+description: "Conversation guide for testing interventions to help Veterans understand maximum ratings for conditions like Tinnitus and Migraines when filing claims for increase. Tests two scenarios with prototype variations (Orange and Purple)."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

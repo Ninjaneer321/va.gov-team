@@ -1,31 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Claim Status Tool Claim Contextualization Research"
+author: "Skyler/Gary"
+date_created: "2023-10-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Benefits Team"
+portfolio: "benefits"
+product: "Claim Status Tool"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have filed disability compensation claims (Form 526-EZ) with the VA, preferably with experience filing on VA.gov"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/claim-appeal-status/research/2023-10-Claim-Contextualization/research-plan.md"
+related_prototype: "https://www.figma.com/proto/bWELjWsVqkf3BDx0PXqqam/CST-Claims-Process-exploration"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD:Veterans"
+  - "PRDT:claim-status"
+  - "PRDT:disability-compensation"
+  - "BNFT:disability"
+  - "usability-testing"
+  - "claim-process"
+  - "CST"
+  - "process-stepper"
+  
+description: "Usability testing evaluating enhanced claim process contextualization in Claim Status Tool, including detailed step-by-step process information and improved clarity around non-linear claim progression through the 8-step process."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

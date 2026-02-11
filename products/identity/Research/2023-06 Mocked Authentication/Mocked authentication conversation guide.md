@@ -1,3 +1,43 @@
+---
+title: "Conversation Guide for Core Identity Team, Mocked Authentication Usability Test, June 2023"
+author: "TBD"
+date_created: "2023-06-01"
+last_modified: "2026-02-11"
+
+# Core research metadata
+team: "Core Identity"
+portfolio: "digital-experience"
+product: "Mocked Authentication"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA.gov developers who use authentication in local and dev environments"
+
+# Related documents
+related_research_plan: "products/identity/Research/2023-06 Mocked Authentication/Mocked authentication research plan.md"
+related_prototype: "https://dev.va.gov/sign-in/mocked-auth"
+
+tags:
+  - "AUD:VA Staff"
+  - "PRDT:Sign-in"
+  - "PRDT:Developer-Tools"
+  - "usability-testing"
+  - "authentication"
+  - "developer-experience"
+  - "internal-tools"
+  - "Internal Research: Platform Research"
+
+description: "Usability testing of the Mocked Authentication tool for VA.gov developers, evaluating the tool's ease of use for simulating authentication in development environments."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide for Core Identity, Mocked Authentication, Usability Test
 
 ## Moderator logistics 5-10 minutes before each session
