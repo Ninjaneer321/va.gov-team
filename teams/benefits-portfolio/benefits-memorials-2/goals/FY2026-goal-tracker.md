@@ -51,10 +51,10 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Complete the final Pay.gov (Overpayments) research usability preparation steps before recruiting with Perigean and starting pilot sessions. | P2 |--|--|--|
-|UX: Finalize all in-scope designs for pay.gov overpayment MVP experience in preparation for engineering handover. | P2 |--|--|--|
-|ENG: Complete the known back end API tickets, allowing the front end to move forward on the remaining payment history page implementation tickets.| P1 |--|--|--|
-|ENG: Complete 2 front end tickets related to statement addresses and previous statements and review implementation with UX. | P1 |--|--|--|
+|UX: Complete the final Pay.gov (Overpayments) research usability preparation steps before recruiting with Perigean and starting pilot sessions. | P2 |--|2/10/26|Complete|
+|UX: Finalize all in-scope designs for pay.gov overpayment MVP experience in preparation for engineering handover. | P2 |--|2/10/26|Complete|
+|ENG: Complete the known back end API tickets, allowing the front end to move forward on the remaining payment history page implementation tickets.| P1 |--|2/10/26|Complete|
+|ENG: Complete 2 front end tickets related to statement addresses and previous statements and review implementation with UX. | P1 |--|2/10/26|Complete|
 |TEAM: Draft UX and engineering exploration tickets to identify the areas of research needed to be able to support the Benefit Payment Tool. | P3 |--|2/6/26|Complete|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
