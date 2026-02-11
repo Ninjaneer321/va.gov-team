@@ -1,31 +1,68 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Veteran Top Tasks Moderated Survey Interviews, Digital Experience, 2022"
+author: "Cindy Merrill"
+date_created: "2022-05-01"
+last_modified: "2024-01-13"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Digital Experience"
+portfolio: "digital-experience"
+product: "VA.gov Public Websites"
+research_phase: "discovery"
+research_method: "moderated_survey"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who are currently involved with the VA and do VA-related activities"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://bit.ly/3MswsXQ"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Housing"
+  - "BNFT: Pension"
+  - "BNFT: Life Insurance"
+  - "BNFT: Burial"
+  - "BNFT: Careers"
+  - "BNFT: Records"
+  - "PRDT: VA.gov"
+  - "PRDT: Public websites"
+  - "top-tasks"
+  - "task-analysis"
+  - "moderated-survey"
+  - "discovery-research"
+  - "user-needs"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "Accessibility"
+  - "screen-reader"
+  - "optimal-workshop"
+  - "veteran-priorities"
+  - "claims"
+  - "appeals"
+  - "education-benefits"
+  - "health-appointments"
+  - "prescriptions"
+  - "disability-compensation"
+  - "direct-deposit"
+  - "copay"
+  - "VA-debt"
+  - "benefit-letters"
+  - "DD214"
+  - "home-loans"
+  - "caregiver"
+  - "VSO"
 
-# NEW: Compliance flags
+description: "Moderated remote survey sessions with Veterans to understand what VA-related tasks are most important to them personally, including disability, health care, education, housing, and other benefit-related activities across VA.gov."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

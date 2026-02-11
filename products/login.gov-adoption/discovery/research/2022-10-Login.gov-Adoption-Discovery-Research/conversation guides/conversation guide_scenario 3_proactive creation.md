@@ -1,3 +1,58 @@
+---
+title: "Conversation Guide for Login.gov Adoption Discovery - Scenario 3: Proactive Creation, November 2022"
+author: "[TBD - not specified in document]"
+date_created: "2022-11-01"
+last_modified: "2024-12-20"
+
+# Core research metadata
+team: "Login.gov Adoption Team"
+portfolio: "digital-experience"
+product: "Login.gov Adoption"
+research_phase: "discovery"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "90 minutes"
+session_type: "in_person"
+participant_criteria: "Veterans who are new to VA services or recently transitioned from military, applying for VA healthcare eligibility and VHIC cards"
+
+# Related documents
+related_research_plan: "../../research-plan.md"
+related_prototype: "N/A"
+
+tags:
+  - "AUD: Veterans"
+  - "AUD: Service-Members"
+  - "PRDT: Login.gov"
+  - "PRDT: My-HealtheVet"
+  - "DSP: Ask users for... authentication"
+  - "DSP: Ask users for... identity verification"
+  - "authentication"
+  - "identity-proofing"
+  - "identity-verification"
+  - "multi-factor-authentication"
+  - "MFA"
+  - "security-keys"
+  - "account-creation"
+  - "proactive-enrollment"
+  - "VHIC"
+  - "veteran-health-identification-card"
+  - "shared-access"
+  - "delegated-access"
+  - "onboarding"
+  - "moderated-usability-test"
+  - "in-person-research"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+
+description: "In-person discovery research testing proactive Login.gov account creation during VHIC enrollment process, where Veterans can set up secure credentials at the same time as applying for their Veteran Health Identification Card."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide: Proactive creation (Scenario 3)
 Login.gov Adoption Discovery, November 2022
 

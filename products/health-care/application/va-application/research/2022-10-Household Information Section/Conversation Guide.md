@@ -1,3 +1,54 @@
+---
+title: "Conversation Guide for 10-10EZ Health Care Application, Household Information Section, December 2022"
+author: "Jessica Stump/Nick Osmanski"
+date_created: "2022-10-01"
+last_modified: "2024-12-19"
+
+# Core research metadata
+team: "10-10 Health Apps Team"
+portfolio: "health"
+product: "10-10EZ Health Care Application"
+research_phase: "usability"
+research_method: "moderated_usability_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who frequently use VA.gov and have experience completing forms asking for family and income information"
+
+# Related documents
+related_research_plan: "[TBD - not specified in document]"
+related_prototype: "https://preview.uxpin.com/6a98bfd8c3a76816b8695fbdc6883bd477610024#/pages/159024257?mode=chdfm"
+
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: 10-10EZ"
+  - "DSC: Form"
+  - "DSC: Alert Boxes"
+  - "DSP: Ask users for... Personal Information"
+  - "DSP: Ask users for... Financial Information"
+  - "DSP: Ask users for... Household Information"
+  - "DSP: Help users to... Complete a Form"
+  - "DSP: Help users to... Add and Remove Items"
+  - "moderated-usability-test"
+  - "prototype-testing"
+  - "household-information"
+  - "financial-disclosure"
+  - "spouse-information"
+  - "dependents"
+  - "marital-status"
+  - "income"
+  - "deductibles"
+
+description: "Usability test for the household information section of the 10-10EZ health care application, testing financial disclosure, marital status, spouse information, dependent management, annual income, and deductible questions."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide for 10-10 Team, Health care application 10-10EZ household information section, December 2022
 
 ## Moderator logistics

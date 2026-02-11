@@ -1,31 +1,43 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Decision Reviews Research, November 2022"
+author: "Skyler [TBD - full name not in document]"
+date_created: "2022-11-01"
+last_modified: "2024-12-20"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Claim Status Tool Team"
+portfolio: "benefits"
+product: "Decision Reviews"
+research_phase: "discovery"
+research_method: "semi-structured_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have pursued decision reviews (supplemental claim, higher level review, or board appeal) with the VA"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "../research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Decision-reviews"
+  - "PRDT: Higher-level-review"
+  - "PRDT: Supplemental-claims"
+  - "PRDT: Board-appeals"
+  - "DSP: Help users to... understand decision review options"
+  - "semi-structured-interviews"
+  - "discovery-interviews"
+  - "claims-and-appeals"
+  - "appeals-process"
+  - "veteran-representation"
+  - "HDW: Desktop"
 
-# NEW: Compliance flags
+description: "Discovery research exploring Veterans' experiences with decision review processes (supplemental claims, higher level reviews, and board appeals), including pain points and the role of third-party representatives."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

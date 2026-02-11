@@ -1,31 +1,45 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Tele-Urgent Care Discovery Veteran Interviews, January 2022"
+author: "VA Online Scheduling Team"
+date_created: "2022-01-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VA Online Scheduling"
+portfolio: "health"
+product: "VA Online Scheduling (VAOS) - Tele-Urgent Care"
+research_phase: "discovery"
+research_method: "semi_structured_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who access VA health care and have experience with or interest in telehealth services"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/appointments/va-online-scheduling/research/2022-01-tele-urgent-care-interviews/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Appointments"
+  - "PRDT: VAOS"
+  - "telehealth"
+  - "urgent-care"
+  - "virtual-care"
+  - "discovery-interviews"
+  - "semi-structured-interviews"
+  - "remote-research"
+  - "video-connect"
+  - "DSP: Help users to - access care"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "Accessibility"
 
-# NEW: Compliance flags
+description: "Discovery interviews with Veterans to understand their experience with tele-urgent care services, including virtual health visits, video connections, and non-emergency care access."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

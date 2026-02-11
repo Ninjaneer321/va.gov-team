@@ -1,34 +1,44 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for MHV Medical Records - Product History Focus (September 2022)"
+author: "Digital Health Modernization Team"
+date_created: "2022-09-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Digital Health Modernization"
+portfolio: "health"
+product: "My HealtheVet on VA.gov - Medical Records"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA staff and stakeholders with knowledge of MHV Medical Records product history and development"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-09-informational-interviews/"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: VA Staff"
+  - "BNFT: Healthcare"
+  - "PRDT: My HealtheVet"
+  - "MHV: Medical Records"
+  - "MHV: Blue Button"
+  - "MHV: Health Summary"
+  - "discovery-interviews"
+  - "semi-structured-interviews"
+  - "stakeholder-interviews"
+  - "product-history"
+  - "informational-interviews"
 
-# NEW: Compliance flags
+description: "Conversation guide for conducting stakeholder interviews with VA staff about the product history of MHV Medical Records, including Blue Button and VA Health Summary features, and exploring conceptual approaches to improving medical records functionality."
+
+# Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide - Product History Focus

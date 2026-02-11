@@ -1,3 +1,54 @@
+---
+title: "Health Hub Moderated Tree Test - Conversation Guide (August 2022)"
+author: "Digital Health Modernization Team"
+date_created: "2022-08-09"
+last_modified: "2024-12-19"
+
+# Core research metadata
+team: "Digital Health Modernization"
+portfolio: "health"
+product: "My HealtheVet on VA.gov - Health Hub"
+research_phase: "validation"
+research_method: "tree_test"
+
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans enrolled in or interested in VA healthcare, with or without prior MyHealtheVet experience"
+
+# Related documents
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA/2022-07-health-apt-tree-test-round1/"
+related_prototype: "Optimal Workshop tree test link"
+
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My HealtheVet"
+  - "MHV: Appointments"
+  - "MHV: Secure Messaging"
+  - "MHV: Pharmacy"
+  - "MHV: Medical Records"
+  - "tree-test"
+  - "moderated-tree-test"
+  - "information-architecture"
+  - "navigation"
+  - "findability"
+  - "usability-testing"
+  - "health-eligibility"
+  - "health-enrollment"
+  - "mental-health"
+  - "dental"
+  - "copays"
+  - "travel-pay"
+
+description: "Moderated tree test conversation guide to evaluate the navigation and findability of health care topics in the proposed VA.gov health hub, including eligibility, enrollment, appointments, prescriptions, and health records."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 ### Health Hub Moderated Tree Tests: Conversation Guide
 
 ## Intro

@@ -1,34 +1,54 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Medical Records Informational Interviews, September 2022"
+author: "[TBD - not specified in document]"
+date_created: "2022-09-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Digital Health Modernization Team"
+portfolio: "health"
+product: "Medical Records on VA.gov"
+research_phase: "discovery"
+research_method: "semi_structured_interviews"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "[Varies by stakeholder group]"
+session_type: "remote_moderated"
+participant_criteria: "VA staff including engineering/technical teams, UX teams, mobile teams, medical records leadership, appointments teams, pharmacy/vaccination teams, and privacy/legal teams"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "[TBD - not specified in document]"
+related_prototype: "https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1660067365161/f540e223f49ec58a79119cd454e42b4fa963cd60"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: VA Staff"
+  - "BNFT: Healthcare"
+  - "PRDT: My HealtheVet"
+  - "MHV: Medical Records"
+  - "MHV: Appointments"
+  - "MHV: Pharmacy"
+  - "semi-structured-interviews"
+  - "stakeholder-interviews"
+  - "discovery-research"
+  - "informational-interviews"
+  - "medical-records"
+  - "blue-button"
+  - "health-summary"
+  - "patient-generated-data"
+  - "after-visit-summary"
+  - "Cerner"
+  - "interoperability"
+  - "technical-constraints"
+  - "privacy"
+  - "legal-requirements"
+  - "mhv-to-vagov-migration"
 
-# NEW: Compliance flags
+description: "Discovery research through informational interviews with internal VA stakeholders across engineering, UX, mobile, medical records leadership, appointments, pharmacy, and legal teams to understand the Medical Records ecosystem, technical constraints, opportunities, and pain points for migrating MHV to VA.gov."
+
+# Compliance flags
 recording_required: true
-observer_support: true
-consent_for_clips: true
+observer_support: false
+consent_for_clips: false
 ---
 
 # Conversation Guide 

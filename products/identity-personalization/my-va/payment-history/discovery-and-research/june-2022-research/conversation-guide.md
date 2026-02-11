@@ -1,31 +1,51 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Authenticated Experience Team - Benefit Payments and Debts, June 2022"
+author: "Angela Agosto"
+date_created: "2022-06-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Authenticated Experience"
+portfolio: "digital-experience"
+product: "My VA"
+research_phase: "validation"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have received VA payments or incurred education, compensation, pension, or healthcare-related debt"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/identity-personalization/my-va/payment-history/discovery-and-research/june-2022-research/research-plan.md"
+related_prototype: "https://www.sketch.com/s/5b39a70d-f5f1-421f-b2d6-f988cc56d7c3"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: My-VA"
+  - "PRDT: Direct-deposit"
+  - "PRDT: Debt-portal"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Healthcare"
+  - "BNFT: Pension"
+  - "DSC: Alert Boxes"
+  - "DSP: Content Presentation"
+  - "usability-testing"
+  - "moderated-usability-test"
+  - "prototype-testing"
+  - "authenticated-experience"
+  - "payment-history"
+  - "copays"
+  - "debts"
+  - "notifications"
+  - "Accessibility"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
 
-# NEW: Compliance flags
+description: "Usability test for redesigned My VA payment history and debt notifications to validate content clarity, information hierarchy, and action item effectiveness for Veterans managing VA payments and debts."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

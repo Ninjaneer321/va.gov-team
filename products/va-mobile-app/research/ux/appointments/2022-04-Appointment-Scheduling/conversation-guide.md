@@ -1,31 +1,47 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VA Mobile App Appointment Request Usability, April 2022"
+author: "Lauren Russell"
+date_created: "2022-04-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VA Mobile App Team"
+portfolio: "health"
+product: "VA Mobile App - Appointments"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use VA healthcare services and schedule medical appointments, comfortable using mobile devices"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/va-mobile-app/research/ux/appointments/2022-04-Appointment-Scheduling/research-plan.md"
+related_prototype: "https://www.sketch.com/s/a755a2f8-0d0d-456e-8327-61a5d31b0a97/a/52jgk4w/play"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: VA-mobile-app"
+  - "PRDT: Appointments"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "DSP: Help users to...schedule and manage appointments"
+  - "DSC: Form"
+  - "DSC: Alert Boxes"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "moderated-usability-test"
+  - "mobile-experience"
+  - "prototype-testing"
+  - "appointment-scheduling"
+  - "appointment-cancellation"
+  - "pending-status"
+  - "mental-models"
 
-# NEW: Compliance flags
+description: "Usability testing of the appointment request feature in the VA Mobile App, evaluating Veterans' mental models around scheduling, request status comprehension, cancellation flows, and overall appointment management experience."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

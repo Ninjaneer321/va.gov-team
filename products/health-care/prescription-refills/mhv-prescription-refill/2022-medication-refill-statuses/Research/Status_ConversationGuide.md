@@ -1,3 +1,52 @@
+---
+title: "Conversation Guide for Rx Refill Status Usability Tests, My HealtheVet, 2022"
+author: "Arienne Walters, Harrison Amelang, Jessica Robertson"
+date_created: "2022-01-01"
+last_modified: "2024-01-13"
+
+# Core research metadata
+team: "My HealtheVet"
+portfolio: "health"
+product: "Prescription Refills"
+research_phase: "usability"
+research_method: "moderated_usability_test"
+
+# Session details
+session_duration: "15 minutes"
+session_type: "in_person"
+participant_criteria: "Veterans who use My HealtheVet and have filled prescription orders through the platform"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "iPad prototype with tags and details pages"
+
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My HealtheVet"
+  - "MHV: Pharmacy"
+  - "MHV: Medications"
+  - "usability-testing"
+  - "moderated-usability-test"
+  - "in-person-research"
+  - "HDW: Tablet"
+  - "HDW: iPad"
+  - "DSC: Tags"
+  - "DSC: Modal"
+  - "DSC: Details Page"
+  - "DSP: Help users to...View status"
+  - "prescription-refills"
+  - "medication-statuses"
+  - "health-tools"
+
+description: "In-person usability testing at Mount Vernon VA clinic to gather Veteran feedback on new prescription refill status designs in My HealtheVet, including tags, pop-ups, and details pages for medication statuses."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # **Conversation Guide: Rx Refill Status Usability Tests**
 
 **Session setup**

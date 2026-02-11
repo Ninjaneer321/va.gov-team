@@ -1,31 +1,46 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: VAMC Communication Methods, March 2022"
+author: "Nick Osmanski"
+date_created: "2022-03-10"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Facilities Team"
+portfolio: "health"
+product: "VAMC System and Facility Pages"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who communicate with VA health care facilities or personnel"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/facilities/medical-centers/initiatives/2022-VAMC-communication-methods/research/"
+related_prototype: "https://www.va.gov/pittsburgh-health-care/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VAMC-pages"
+  - "MHV: Secure Messaging"
+  - "moderated-usability-test"
+  - "tree-testing"
+  - "card-sort"
+  - "usability-testing"
+  - "facilities"
+  - "communication-methods"
+  - "information-architecture"
+  - "findability"
+  - "wayfinding"
+  - "health-care-communication"
+  - "telehealth"
+  - "VA-Health-Chat"
 
-# NEW: Compliance flags
+description: "Usability study combining task-based navigation, tree testing, and card sorting to evaluate how Veterans find and understand communication methods on VAMC pages."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

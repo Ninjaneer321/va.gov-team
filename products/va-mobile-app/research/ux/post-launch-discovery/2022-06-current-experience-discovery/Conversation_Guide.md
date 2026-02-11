@@ -1,31 +1,50 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VA Mobile App Current Experience Discovery (In-Person), June 2022"
+author: "Liz Straghalis"
+date_created: "2022-06-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VA Mobile App Team"
+portfolio: "health"
+product: "VA Mobile App"
+research_phase: "discovery"
+research_method: "semi_structured_interviews"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "in_person"
+participant_criteria: "Veterans who currently use the VA Health and Benefits mobile app, willing to participate in in-person research sessions"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/va-mobile-app/research/ux/post-launch-discovery/2022-06-current-experience-discovery/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: VA-mobile-app"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "MHV: Appointments"
+  - "MHV: Secure Messaging"
+  - "MHV: Pharmacy"
+  - "DSP: Help users to...manage their information"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "discovery-interviews"
+  - "semi-structured-interviews"
+  - "card-sort"
+  - "prioritization"
+  - "mobile-experience"
+  - "post-launch-research"
+  - "in-person-research"
+  - "personalization"
+  - "trust"
+  - "feature-prioritization"
 
-# NEW: Compliance flags
+description: "In-person post-launch discovery research with Veterans who use the VA Health and Benefits mobile app, exploring current usage patterns, pain points, feature preferences, and priorities through interviews and card sorting activities."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

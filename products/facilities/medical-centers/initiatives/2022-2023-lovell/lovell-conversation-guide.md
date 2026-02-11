@@ -1,31 +1,44 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: Lovell Federal Health Care Center, 2022-2023"
+author: "Valerie Runde"
+date_created: "2022-11-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Facilities Team"
+portfolio: "health"
+product: "Lovell Federal Health Care Center"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with VA health care and dual-eligible Veterans with both VA and TRICARE benefits"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/facilities/medical-centers/initiatives/2022-2023-lovell/"
+related_prototype: "https://preview.uxpin.com/85c0c5e5501b4c222f4d37bfdd4d6eb59dd93386"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "BNFT: Healthcare"
+  - "PRDT: VAMC-pages"
+  - "PRDT: Lovell-Federal-Health-Care"
+  - "moderated-usability-test"
+  - "usability-testing"
+  - "facilities"
+  - "dual-eligibility"
+  - "TRICARE"
+  - "experience-switcher"
+  - "information-architecture"
+  - "wayfinding"
+  - "DSC: Alert Boxes"
 
-# NEW: Compliance flags
+description: "Usability testing of Lovell Federal Health Care Center's dual VA/TRICARE beneficiary experience, evaluating experience switcher and navigation between VA and TRICARE content."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

@@ -1,34 +1,48 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VBA MVP Public Contact Staff Interviews, September 2022"
+author: "Dave Conlon"
+date_created: "2022-09-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Facilities Team"
+portfolio: "benefits"
+product: "VA Regional Benefit Offices"
+research_phase: "discovery"
+research_method: "semi_structured_interviews"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Public Contact staff at Regional Benefit Offices participating in the VBA modernization effort"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: VA Staff"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Pension"
+  - "BNFT: Survivor benefits"
+  - "PRDT: VA-facilities"
+  - "PRDT: Regional-offices"
+  - "discovery-interviews"
+  - "semi-structured-interviews"
+  - "Facility information"
+  - "Services"
+  - "In-person services"
+  - "Benefit services"
+  - "Veteran experience"
+  - "Staff perspective"
 
-# NEW: Compliance flags
+description: "Discovery interviews with Public Contact staff at VA Regional Benefit Offices to understand day-to-day operations, services offered, common Veteran tasks, and pain points to inform website redesign."
+
+# Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide for VBA MVP Public Contact Staff Interviews

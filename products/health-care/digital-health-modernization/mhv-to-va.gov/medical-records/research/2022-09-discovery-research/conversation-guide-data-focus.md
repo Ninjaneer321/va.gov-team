@@ -1,34 +1,47 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for MHV Medical Records - Data and Technical Focus (September 2022)"
+author: "Digital Health Modernization Team"
+date_created: "2022-09-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Digital Health Modernization"
+portfolio: "health"
+product: "My HealtheVet on VA.gov - Medical Records"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA technical staff and engineers with knowledge of MHV Medical Records data architecture, VistA, and Cerner migration"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-09-discovery-research/"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: VA Staff"
+  - "BNFT: Healthcare"
+  - "PRDT: My HealtheVet"
+  - "MHV: Medical Records"
+  - "MHV: Blue Button"
+  - "MHV: Health Summary"
+  - "discovery-interviews"
+  - "semi-structured-interviews"
+  - "stakeholder-interviews"
+  - "technical-discovery"
+  - "data-architecture"
+  - "VistA"
+  - "Cerner"
+  - "API"
 
-# NEW: Compliance flags
+description: "Conversation guide for conducting technical discovery interviews with VA staff about MHV Medical Records data sources, VistA integration, Cerner migration, and technical constraints affecting medical records functionality."
+
+# Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide - Data focus

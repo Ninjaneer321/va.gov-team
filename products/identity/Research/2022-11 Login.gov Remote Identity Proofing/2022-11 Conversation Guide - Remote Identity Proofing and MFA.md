@@ -1,3 +1,55 @@
+---
+title: "Conversation Guide: Login.gov Remote Identity Proofing and Multi-Factor Authentication"
+author: "U.S. Digital Service/Login.gov"
+date_created: "2022-11-01"
+last_modified: "2024-01-15"
+
+# Core research metadata
+team: "Identity Team"
+portfolio: "digital-experience"
+product: "Login.gov"
+research_phase: "usability"
+research_method: "moderated_usability_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who will create Login.gov accounts and complete identity verification using real personal information"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://staging.login.gov/"
+
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Login.gov"
+  - "authentication"
+  - "identity-proofing"
+  - "identity-verification"
+  - "remote-identity-proofing"
+  - "multi-factor-authentication"
+  - "MFA"
+  - "account-creation"
+  - "usability-testing"
+  - "password-creation"
+  - "document-upload"
+  - "state-issued-id"
+  - "personal-key"
+  - "phone-verification"
+  - "desktop-to-mobile-flow"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "DSP: Help users to... Sign in"
+  - "DSC: Form"
+
+description: "Remote moderated usability test for Login.gov account creation and identity verification, testing both desktop-to-mobile and mobile-only flows including photo ID capture, SSN verification, phone number validation, and multi-factor authentication setup."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide 
 
 ## Moderator logistics

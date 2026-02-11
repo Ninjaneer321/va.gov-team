@@ -1,31 +1,45 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: My HealtheVet Personal Information Section - User Interviews"
+author: "Liz Lantz, Authenticated Experience Team"
+date_created: "2022-05-01"
+last_modified: "2024-01-15"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Authenticated Experience"
+portfolio: "health"
+product: "VA.gov Profile"
+research_phase: "evaluative"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with My HealtheVet accounts who use the personal information section"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://mhv-syst.myhealth.va.gov/mhv-portal-web/home"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: My HealtheVet"
+  - "PRDT: VA.gov-profile"
+  - "profile"
+  - "personal-information"
+  - "contact-information"
+  - "health-information-card"
+  - "emergency-contacts"
+  - "treating-facilities"
+  - "card-sort"
+  - "information-architecture"
+  - "MHV: Profile"
+  - "BNFT: Healthcare"
+  - "semi-structured-interviews"
+  - "screen-sharing"
 
-# NEW: Compliance flags
+description: "Evaluative research with My HealtheVet users to understand how Veterans use the personal information section, including profile fields, treating facilities, health information card, emergency contacts, and My Links, plus a card sort exercise to inform information architecture."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

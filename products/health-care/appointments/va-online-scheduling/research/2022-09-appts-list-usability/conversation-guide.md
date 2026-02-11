@@ -1,31 +1,44 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VAOS Appointments List Usability Testing, September 2022"
+author: "Ciera Maddox"
+date_created: "2022-09-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VA Online Scheduling"
+portfolio: "health"
+product: "VA Online Scheduling (VAOS) - Appointments List"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who schedule and manage health care appointments through VA.gov"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/appointments/va-online-scheduling/research/2022-09-appts-list-usability/research-plan.md"
+related_prototype: "https://www.figma.com/proto/JpGM8LGBCqAlL8qh3DmFk8/Home-Page-Redesign"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Appointments"
+  - "PRDT: VAOS"
+  - "usability-testing"
+  - "moderated-usability-test"
+  - "remote-research"
+  - "DSP: Content Presentation"
+  - "DSP: Help users to - schedule"
+  - "DSP: Help users to - check status"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "screen-sharing"
+  - "prototype-testing"
 
-# NEW: Compliance flags
+description: "Usability testing of the VAOS appointments list redesign, evaluating participants' ability to view appointments, check details, print lists, manage pending appointments, and schedule new appointments."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

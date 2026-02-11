@@ -1,34 +1,58 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Patient Check-In Travel Reimbursement Veteran Intercept at Wilkes-Barre, December 2022"
+author: "Ben Brasso"
+date_created: "2022-12-01"
+last_modified: "2024-01-13"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Patient Check-In"
+portfolio: "health"
+product: "Patient Check-In"
+research_phase: "evaluative"
+research_method: "intercept_interviews"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "15-20 minutes"
+session_type: "in_person"
+participant_criteria: "Veterans checking in for appointments at Wilkes-Barre VA who are willing to use mobile check-in and participate in research"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "Production mobile check-in with travel reimbursement feature"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
+  - "PRDT: Patient Check-In"
+  - "PRDT: Appointments"
+  - "PRDT: Travel-reimbursement"
+  - "travel-pay"
+  - "travel-reimbursement"
+  - "check-in"
+  - "eCheck-in"
+  - "mobile-check-in"
+  - "intercept-research"
+  - "in-person-research"
+  - "field-research"
+  - "HDW: Smartphone"
+  - "DSC: QR code"
+  - "DSC: Text message"
+  - "DSP: Help users to...Check in"
+  - "DSP: Help users to...File claims"
+  - "identity-verification"
+  - "VEText"
+  - "MSA"
+  - "poster"
+  - "VA Health & Benefits mobile app"
+  - "health-tools"
 
-# NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+description: "In-person intercept research at Wilkes-Barre VA to observe Veterans using mobile check-in with the new travel reimbursement feature and gather feedback on the experience, including filing travel claims during appointment check-in."
+
+# Compliance flags
+recording_required: false
+observer_support: false
+consent_for_clips: false
 ---
 
 # Conversation Guide for Patient Check-In Travel Reimbursement Veteran Intercept at Wilkes-Barre 2022-12  

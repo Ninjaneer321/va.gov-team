@@ -1,31 +1,45 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: VA Beneficiary Travel Reimbursement Path Analysis, April 2022"
+author: "Mel Choyce"
+date_created: "2022-04-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Health Products Team"
+portfolio: "health"
+product: "Beneficiary Travel Self-Service System (BTSSS)"
+research_phase: "evaluative"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have used the online Beneficiary Travel reimbursement system"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/beneficiary-travel/research/2022-04-btsss-path-analysis/"
+related_prototype: "https://eauth.va.gov/accessva/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Beneficiary-Travel"
+  - "PRDT: BTSSS"
+  - "semi-structured-interviews"
+  - "evaluative-research"
+  - "travel-reimbursement"
+  - "claims"
+  - "authentication"
+  - "direct-deposit"
+  - "mileage"
+  - "manual-review"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "login-experience"
 
-# NEW: Compliance flags
+description: "Evaluative research with Veterans who have filed travel reimbursement claims online, examining the before, during, and after experience of using BTSSS."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true
