@@ -1,6 +1,6 @@
 # IA Design for Education Benefit Entitlement Restoration Request Due to School Closure, Program Suspension or Withdrawal (VA Form 22-0989)
 
-**STATUS: In progress**
+**STATUS: Complete**
 
 **Team:** VEBT
 
