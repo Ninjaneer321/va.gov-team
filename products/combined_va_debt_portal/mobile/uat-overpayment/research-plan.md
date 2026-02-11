@@ -183,45 +183,74 @@ Findings from this research will confirm whether the Overpayments functionality 
 
 ### Test paths and success criteria
 
-| Category                  | Activity                                      | Screen                      | Success                                                                                                                                                                                                                  |
-|---------------------------|-----------------------------------------------|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Elements on home          | See the number of overpayments on home screen | Home                        | Activity card "Overpayments" shows "n overpayments" where "n" is the quantity of current overpayment debts                                                                       |
-| Elements on Payments      | Locate all payment information                | Payments tab                | • "Overpayments" card lists total amount due and total quantity of debts<br>• "Overpayments" card opens overpayment list view                                                    |
-| Elements on list view     | Review overall info of all overpayments       | Overpay list                | Each debt card shows:<br>• name of debt<br>• current balance<br>• message                                                                                                         |
-| Elements on list view     | Help menu from list screen                    | Overpay list                | • Help menu opens via modal<br>• Help menu displays instructions for calling Debt Management Center<br>• Help menu is closed via "close" CTA                                      |
-| Elements on detail view   | Review details of overpayment detail          | Overpay detail              | • Date updated appears at top                                                                                                                                                     |
-| Elements on detail view   | Review details of overpayment detail          | Overpay detail              | • Alert message shows due date where applicable<br>• Alert message expands with additional information<br>• Alert message collapses                                                |
-| Elements on detail view   | Review details of overpayment detail          | Overpay detail              | • "Why might I have this overpayment balances" opens in a modal<br>• message matches the type of debt<br>• message closes via "close" CTA                                         |
-| Elements on detail view   | Review details of overpayment detail          | Overpay detail              | Debt info card shows:<br>• name of debt<br>• current balance<br>• original amount<br>• payment due date                                                                           |
-| Elements on detail view   | Review overpayment letter history             | Overpay detail              | • accordion expands<br>• correct dates are listed<br>• accordion collapses                                                                                                        |
-| Elements on detail view   | Review notice of rights and responsibilities  | Overpay detail              | • accordion expands<br>• correct dates are listed<br>• accordion collapses                                                                                                        |
-| Resolve from list view    | Resolve overpayment menu from list screen     | Overpay list                | Four menu options:<br>• Make a payment<br>• Request help<br>• Dispute overpayment<br>• Cancel<br>"Cancel" closes menu                                                            |
-| Resolve from list view    | Resolve overpayment: pay                      | Overpay list                | • "Make a payment" from "Resolve overpayment" opens "Pay online" screen                                                                                                           |
-| Resolve from list view    | Resolve overpayment: pay                      | Pay online                  | Details are correct for debt:<br>• Current balance<br>• Receivable ID (education) File number (all other debts)<br>• Payee number<br>• Person entitled<br>• Deduction code<br>"What these terms mean" opens in modal and closes<br>External link for "pay on pay.va.gov" opens payment site |
-| Resolve from list view    | Resolve overpayment: pay                      | Pay online / pay.va.gov     | Switching between app and browser keeps location for both<br>Copy/paste works for each detail                                                                                     |
-| Resolve from list view    | Resolve overpayment: request help             | Overpay list                | • "Request help" from "Resolve overpayment" opens "Request help" screen                                                                                                           |
-| Resolve from list view    | Resolve overpayment: request help             | Request help                | • "Questions about overpayments" accordion opens and closes<br>• "How to get financial help" accordion opens and closes                                                           |
-| Resolve from list view    | Resolve overpayment: request help             | Request help                | • "Request help with this overpayment" inside "How to get financial help" opens "Request help with VA debt for overpayments and copay bills" page in webview<br>• "Start your request now" opens Financial Status Report and personal details are already filled in<br>• "Done" returns to "Request help" screen in app        |
-| Resolve from list view    | Resolve overpayment: dispute overpayment      | Overpay list                | • "Dispute overpayment" from "Resolve overpayment" opens "Dispute overpayment" screen                                                                                            |
-| Resolve from list view    | Resolve overpayment: dispute overpayment      | Dispute overpayment         | • "Start an overpayment dispute" opens "Dispute your VA debt" in website<br>• "Start your dispute" opens dispute form and personal details are already filled in<br>• "Done" returns to "Dispute overpayment" screen in app           |
-| Resolve from detail view  | Resolve overpayment menu from detail screen   | Overpay detail              | Four menu options:<br>• Make a payment<br>• Request help<br>• Dispute overpayment<br>• Cancel<br>"Cancel" closes menu                                                            |
-| Resolve from detail view  | Resolve overpayment: pay                      | Overpay detail              | • "Make a payment" from "Resolve overpayment" opens "Pay online" screen                                                                                                           |
-| Resolve from detail view  | Resolve overpayment: pay                      | Pay online                  | Details are correct for debt:<br>• Current balance<br>• Receivable ID (education) File number (all other debts)<br>• Payee number<br>• Person entitled<br>• Deduction code<br>"What these terms mean" opens in modal and closes<br>External link for "pay on pay.va.gov" opens payment site |
-| Resolve from detail view  | Resolve overpayment: pay                      | Pay online / pay.va.gov     | Switching between app and browser keeps location for both<br>Copy/paste works for each detail                                                                                     |
-| Resolve from detail view  | Resolve overpayment: request help             | Overpay detail              | • "Request help" from "Resolve overpayment" opens "Request help" screen                                                                                                           |
-| Resolve from detail view  | Resolve overpayment: request help             | Request help                | • "Questions about overpayments" accordion opens and closes<br>• "How to get financial help" accordion opens and closes                                                           |
-| Resolve from detail view  | Resolve overpayment: request help             | Request help                | • "Request help with this overpayment" inside "How to get financial help" opens "Request help with VA debt for overpayments and copay bills" page in webview<br>• "Start your request now" opens Financial Status Report and personal details are already filled in<br>• "Done" returns to "Request help" screen in app        |
-| Resolve from detail view  | Resolve overpayment: dispute overpayment      | Overpay detail              | • "Dispute overpayment" from "Resolve overpayment" opens "Dispute overpayment" screen                                                                                            |
-| Resolve from detail view  | Resolve overpayment: dispute overpayment      | Dispute overpayment         | • "Start an overpayment dispute" opens "Dispute your VA debt" in website<br>• "Start your dispute" opens dispute form and personal details are already filled in<br>• "Done" returns to "Dispute overpayment" screen in app           |
-| Breadcrumbs               | Check breadcrumbs                             | Overpayments list           | Breadcrumb returns to Payments                                                                                                                                                    |
-| Breadcrumbs               | Check breadcrumbs                             | Overpayments Detail         | Breadcrumb returns to Overpayments                                                                                                                                                |
-| Breadcrumbs               | Check breadcrumbs                             | Make a payment from Details | Breadcrumb returns to Details                                                                                                                                                     |
-| Breadcrumbs               | Check breadcrumbs                             | Make a payment from List    | Breadcrumb returns to List                                                                                                                                                        |
-| Breadcrumbs               | Check breadcrumbs                             | Request help from Details   | Breadcrumb returns to Details                                                                                                                                                     |
-| Breadcrumbs               | Check breadcrumbs                             | Request help from List      | Breadcrumb returns to List                                                                                                                                                        |
-| Breadcrumbs               | Check breadcrumbs                             | Dispute overpayment from Details | Breadcrumb returns to Details                                                                                                                                                |
-| Breadcrumbs               | Check breadcrumbs                             | Dispute overpayment from List | Breadcrumb returns to List                                                                                                                                                    |
-| Breadcrumbs               | Check breadcrumbs                             | Notice of rights and responsibilities | Breadcrumb returns to Details                                                                                                                              |
+<details>
+<summary>Click to view UAT Success Criteria Table</summary>
+	
+| Category | Screen | Activity | Success |
+| :--- | :--- | :--- | :--- |
+| Elements on home | Home | See the number of overpayments on home screen | Activity card "Overpayments" shows "n overpayments" where "n" is the quantity of current overpayment debts |
+| Elements on Payments | Payments tab | Locate all payment information | "Overpayments" card lists total amount due and total quantity of debts |
+| | | | "Overpayments" card opens overpayment list view |
+| Elements on list view | Overpay list | Review overall info of all overpayments | Each debt card shows:<br>• name of debt<br>• current balance<br>• message |
+| Elements on list view | Overpay list | Help menu from list screen | Help menu opens via drawer |
+| | | | Help menu displays instructions for calling Debt Management Center and links to Ask VA |
+| | | | Help menu is closed via "close" CTA |
+| Elements on detail view | Overpay detail | Review details of overpayment detail [date] | Date updated appears at top |
+| Elements on detail view | Overpay detail | Review details of overpayment detail [alert message] | Alert message shows due date where applicable |
+| | | | Alert message expands with additional information |
+| | | | Alert message collapses |
+| Elements on detail view | Overpay detail | Review details of overpayment detail ["why might I have this debt"] | "Why might I have this overpayment balances" opens in a drawer |
+| | | | message matches the type of debt |
+| | | | message closes via "close" CTA |
+| Elements on detail view | Overpay detail | Review details of overpayment detail [card info] | Card for current debt includes:<br>• name of debt<br>• amount of debt<br>• message |
+| Elements on detail view | Overpay detail | Help menu from detail screen | Help menu opens via drawer |
+| | | | Help menu displays instructions for calling Debt Management Center and links to Ask VA |
+| | | | Help menu is closed via "close" CTA |
+| Elements on detail view | Overpay detail | Review payment history | "Past payments" section lists up to 6 months of payments |
+| | | | "Past payments" section lists:<br>• date of payment<br>• amount of payment |
+| | | | Link to "all payments" appears below |
+| | | | If there is no payment history, message is displayed |
+| Navigation from list view | Overpay list | Select an overpayment to see details | Tapping a debt card opens the detail view for that debt |
+| Navigation from list view | Overpay list | Help menu from list view | Tapping help icon opens Help drawer |
+| Navigation from list view | Overpay list | Breadcrumb from overpay list | Tapping "Payments" returns user to Payments tab |
+| Navigation from detail view | Overpay detail | Back to list from detail view | Tapping "Overpayments" returns user to Overpayments list view |
+| | | | Tapping "Back" icon returns user to Overpayments list view |
+| | | | Help menu from detail view |
+| | | | Tapping help icon opens Help drawer |
+| Resolve from list view | Overpay list | Resolve overpayment: pay online | "Pay online" link triggers "Leave the mobile app?" alert |
+| | | | "Leave" opens Pay.gov in browser |
+| Resolve from list view | Overpay list | Resolve overpayment: request help | "Request help with this overpayment" link triggers "Leave the mobile app?" alert |
+| | | | "Leave" opens FSR in browser |
+| Resolve from list view | Overpay list | Resolve overpayment: dispute overpayment | "Dispute overpayment" link triggers "Leave the mobile app?" alert |
+| | | | "Leave" opens Dispute your VA debt in browser |
+| Resolve from detail view | Overpay detail | Resolve overpayment: view and download letters | "View and download letters" button opens letters screen |
+| | Notice of rights and responsibilities | Review letters screen | List of debt letters is displayed |
+| | | Select a letter | Tapping a letter name triggers "Leave the mobile app?" alert |
+| | | | "Leave" opens the letter as PDF in browser |
+| | | Breadcrumb from letter screen | Tapping "Details" returns user to the detail view for that debt |
+| Resolve from detail view | Overpay detail | Resolve overpayment: pay online | "Pay online" button from "Resolve overpayment" opens "How to pay" screen |
+| | How to pay | Review "How to pay" screen | "How to pay" screen opens and closes |
+| | | | "Pay online" link triggers "Leave the mobile app?" alert if tapped |
+| | | | "Leave" opens Pay.gov in browser |
+| Resolve from detail view | Overpay detail | Resolve overpayment: request help | "Request help with this overpayment" from "Resolve overpayment" opens "Request help" screen |
+| | Request help | Review "Request help" screen | "Request help" screen opens and closes |
+| | | | "Request help with this overpayment" link triggers "Leave the mobile app?" alert if tapped |
+| | | | "Leave" opens FSR in browser |
+| Resolve from detail view | Overpay detail | Resolve overpayment: dispute overpayment | "Dispute overpayment" from "Resolve overpayment" opens "Dispute overpayment" screen |
+| | Dispute overpayment | | "Start an overpayment dispute" link triggers "Leave the mobile app?" alert |
+| | Dispute overpayment | | "Leave" opens Dispute your VA debt in browser |
+| Breadcrumbs | Notice of rights and responsibilities | Notice of rights and responsibilities >> Details | Breadcrumb returns to Details |
+| Breadcrumbs | Overpayments Detail | Details >> Overpayments (List) | Breadcrumb returns to Overpayments |
+| Breadcrumbs | Overpayments list | Overpayments (List) >> Payments | Breadcrumb returns to Payments |
+| Breadcrumbs | Make a payment from Details | Pay online (Details) >> Details | Breadcrumb returns to Details |
+| Breadcrumbs | Request help from Details | Request help (Details) >> Details | Breadcrumb returns to Details |
+| Breadcrumbs | Dispute overpayment from Details | Dispute overpayments (Details) >> Details | Breadcrumb returns to Details |
+| Breadcrumbs | Make a payment from List | Pay online (List) >> List | Breadcrumb returns to List |
+| Breadcrumbs | Request help from List | Request help (List) >> List | Breadcrumb returns to List |
+| Breadcrumbs | Dispute overpayment from List | Dispute overpayments (List) >> List | Breadcrumb returns to List |
+
+</details>
+
 
 ### Hypotheses
 
