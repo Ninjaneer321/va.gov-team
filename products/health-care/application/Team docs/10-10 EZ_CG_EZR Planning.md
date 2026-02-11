@@ -44,7 +44,7 @@
 ##
 ### Team PTO
 - Andrea: 2/27
-- 
+- Kyle: 2/23-2/26
 
 
 ---
@@ -113,9 +113,9 @@
      - Renata
      - Steve
 
-- Kyle: 2/12
+- Kyle: 2/12, 2/23-2/26
 - Renata: Half-day 2/13, 2/17
-- Matt: 2/17-2/19
+- Matt: 2/17-2/18
 - Fara: 2/17-2/20
 - Jessica: 1/20
 
