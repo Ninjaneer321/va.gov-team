@@ -135,7 +135,7 @@ Travel Pay Complex Claims UAT tested whether Veterans can easily use the new tra
 - What are the key moments this tool supports in the Veteran’s journey?
   * In the Veteran journey, this work primarily falls under starting up, taking care of myself, putting down roots, and retiring.   
 - What outcomes are we aiming to achieve for Veterans and stakeholders?
-  * We want Veterans to successfully able to file claims with attachments on VA.gov, the first step in consolidating systems in order to eventually sunset the BTSSS portal.
+  * We want Veterans to successfully able to file claims with attachments on VA.gov, the first step in consolidating systems in order to eventually sunset the Beneficiary Travel Self Service System (BTSSS) portal.
 
 ## Research Questions
 
