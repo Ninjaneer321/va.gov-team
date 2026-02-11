@@ -1,3 +1,115 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VAOS, Facility Selection A/B Test, July 2021"
+date: 2021-07-27
+last_updated: 2026-02-10
+team: "VA Online Scheduling (VAOS)"
+product: "VA Online Scheduling"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans are more often than not registered at more than one VA facility. It can be confusing for them when they have to select from a list of facilities that they are registered at. The list can be overwhelming and may include facilities they no longer visit to receive care. Currently, approximately 74% of users who land on the facility's page move to the next step. We want to raise the completion rate on this page and increase the speed at which those who complete the page move on to the next step."
+  product_location: "VA.gov appointments - facility selection page during scheduling flow"
+  user_familiarity: "Iteration"
+  product_brief_url: "TBD"
+
+# Research Design
+methodology: "A/B test (variant comparison)"
+research_format: 
+  location: remote
+  moderated: false
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Test if simpler interactions and clearer language on the facility selection page helps Veterans more easily understand their options"
+  - goal_2: "Help Veterans complete the facility selection step more quickly, whether they move on to the next step or drop-off"
+  - goal_3: "Help Veterans complete the step successfully slightly more often"
+
+research_questions:
+  - "Does simplified heading and intro copy improve completion rates?"
+  - "Does providing alphabetical sort option improve user experience?"
+  - "Does changing how current location blocked state is displayed affect completion?"
+  - "Does variant increase speed of task completion on facility selection page?"
+  - "Does variant increase overall completion rate of facility selection step?"
+
+hypotheses:
+  - "If we provide simpler interactions and clearer language on the facility selection page, Veterans will be able to more easily understand their options"
+  - "Veterans will complete the facility selection step more quickly with simplified content"
+  - "Veterans will complete the step successfully slightly more often with improved sorting options"
+
+expected_outcomes: "Increased completion rate on facility selection page and faster task completion for those who do complete the page"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "TBD"
+  approach: "Production A/B test"
+  
+  primary_criteria:
+    - "Veterans registered at VA facilities"
+    - "Veterans actively using VAOS to schedule appointments"
+    - "Veterans with home address in Profile"
+    
+  secondary_criteria:
+    - "Veterans without home address in Profile"
+    - "Veterans registered at multiple facilities"
+    
+  screener_questions:
+    - question: "TBD"
+      qualifying_response: "TBD"
+      
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  total_recruited: 0
+  completed_sessions_goal: 0
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2021-08-01 to TBD"
+  research_review_submission: "2021-07-27"
+  
+session_details:
+  duration_minutes: 0
+  buffer_minutes: 0
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase Veteran satisfaction with VA.gov"
+    key_results: 
+      - "Increase completion rate on facility selection page"
+  - objective: "Decrease time to successfully complete online transactions"
+    key_results:
+      - "Reduce time spent on facility selection page"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Living civilian life"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "products/health-care/appointments/va-online-scheduling/research/2021-05-facilities-personalization-research/research-plan.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Appointments"
+  - "PRDT: VAOS"
+  - "PRDT: Health care"
+  - "DSC: List"
+  - "DSC: Alert"
+  - "DSC: Radio buttons"
+  - "DSP: Form design"
+  - "RESRCH: A/B test"
+  - "RESRCH: Quantitative"
+  - "authenticated"
+  - "facility-selection"
+---
+
 # Research Plan - Facility Selection Variant Test
 
 Peter Russo, Sr. UX Designer

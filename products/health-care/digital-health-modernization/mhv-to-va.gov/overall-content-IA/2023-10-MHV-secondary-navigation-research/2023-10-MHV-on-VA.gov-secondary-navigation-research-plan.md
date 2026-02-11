@@ -1,3 +1,121 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV on VA.gov Secondary Navigation, October/November 2023"
+date: 2023-10-30
+last_updated: 2023-10-30
+team: "Digital Health Modernization"
+product: "My HealtheVet on VA.gov"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Understand if the current VA.gov secondary navigation and breadcrumbs work on MHV on VA.gov and how to improve navigational strategies"
+  product_location: "MHV on VA.gov health tools and landing page"
+  user_familiarity: "New navigation implementation on existing MHV product"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov"
+
+# Research Design
+methodology: "Remote moderated interviews with navigation tasks"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Better understand how Veterans expect to navigate MHV on VA.gov"
+  - goal_2: "Develop the most effective navigational strategy for the product"
+  - goal_3: "Identify what works and what doesn't with current secondary navigational strategies"
+
+research_questions:
+  - "How does the current VA.gov secondary navigational pattern align with Veterans' expectations for MHV on VA.gov?"
+  - "In what situations might a Veteran want to navigate back to the MHV on VA.gov landing page?"
+  - "In what situations might a Veteran want to jump directly from one tool to another?"
+
+hypotheses:
+  - "Users want to be able to navigate every part of MHV on VA.gov easily regardless of where they are"
+  - "Mobile users will likely struggle with current secondary navigation because 'in this section' is not noticeable"
+  - "Users might have trouble differentiating the primary menu from the secondary menu"
+  - "Users might want to click on VA.gov home when they want to get back to the MHV landing page because the MHV landing page link is hidden"
+  - "Users might only rely on secondary navigation and overlook breadcrumbs and direct links"
+
+expected_outcomes: "This research will inform how Veterans navigate health tools on MHV on VA.gov and help make improvements to secondary navigational strategies"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Purposive sampling for MHV users on mobile"
+  
+  primary_criteria:
+    - "Must currently receive VA healthcare benefits"
+    - "Must have an active MHV account accessed at least once in the past 12 months"
+    - "All mobile users"
+    
+  secondary_criteria:
+    - "Mix of frequent and infrequent MHV users"
+    - "At least 5 participants older than 55"
+    - "At least 5 participants with some college or less as terminal degree"
+    
+  screener_questions:
+    - question: "How often have you used VA.gov in the past 6 months?"
+      qualifying_response: "Never used it, 1-3 times (not more than 3 times a month)"
+    - question: "How often do you use MyHealtheVet?"
+      qualifying_response: "Once a month or more frequently"
+      
+participants:
+  veterans: 8
+  caregivers: 0
+  dependents: 0
+  total_recruited: 8
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-11-06"
+  pilot_participant: "TBD"
+  research_dates: "2023-11-20 to 2023-11-27"
+  research_review_submission: "2023-10-30"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA"
+    
+tags:
+  - "MHV"
+  - "health-care"
+  - "navigation"
+  - "secondary-nav"
+  - "breadcrumbs"
+  - "mobile"
+  - "interviews"
+  - "authenticated"
+  - "veterans"
+---
+
 # Research Plan for MHV on VA.gov secondary navigation, October/November 2023
 
 ## Background

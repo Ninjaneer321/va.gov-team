@@ -1,3 +1,162 @@
+---
+# Research Plan Metadata
+title: "Research Plan for CDS Platform, CDS Console, November 2025"
+date: 2025-10-16
+last_updated: 2025-10-16
+team: "CDS Platform"
+product: "CDS Console"
+product_area: "Patient Details"
+study_type: "clinician-facing"
+
+# Background Context
+background:
+  problem_statement: "Evaluate Patient Details 1.0 usability and user-driven value to guide enhancements and inform Console integration into Oracle Health"
+  product_location: "CDS Console"
+  user_familiarity: "Medium familiarity - Patient Details 1.0 released September 30, 2025"
+  product_brief_url: "https://dvagov.sharepoint.com/sites/CDSProgramTeam/SitePages/Platform%20Pages/Clinical-Decision-Support-Platform.aspx"
+  pgm_issues:
+    - "PGM #100: Console Redesign and App Widgets"
+    - "PGM #217: CDS Console and Applications Oracle Health Integration"
+    - "PGM #696: Enhance User Experience of the CDS Console through Clinician Feedback"
+
+# Research Design
+methodology: "moderated usability testing and interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  platform: "Microsoft Teams"
+  testing_tool: "Figma prototype and production review"
+  
+# Research Goals & Questions
+research_goals:
+  - "Evaluate the value of Patient Details 1.0 feature and identify needed enhancements"
+  - "Validate the usefulness of App Widget task flows within the Console (TM Widget, MWW Widget, Medical Calculators Widget)"
+  - "Gather high-level user feedback on Console within Oracle Health integration approach"
+  - "Understand clinician familiarity with ICN (Integrated Control Number)"
+
+research_questions:
+  - "How do clinicians perceive the value of accessing Patient Details through the CDS Console compared to their current workflows (within Vista CPRS or Oracle Health)?"
+  - "What usability challenges and friction points emerge when clinicians use Patient Details 1.0 within the Console?"
+  - "Which enhancements to Patient Details 1.0 would most meaningfully improve the clinician experience and task completion?"
+  - "In what ways does the Console as an entry point/home for Clinical Decision Support influence clinician efficiency, decision-making, and overall workflow integration?"
+  - "How are clinician experiences and workflows influenced when the Console is accessed within Oracle Health compared with Vista CPRS?"
+  - "How do clinicians evaluate the usefulness and viability of the app widget concepts (task flows), and which use cases provide the greatest value?"
+
+hypotheses:
+  - "Primary: If clinicians can reliably access Patient Details through the CDS Console (across both Vista CPRS and Oracle Health), usability testing will surface friction points that, once addressed, will increase adoption and reinforce the Console as the central entry point for Clinical Decision Support"
+  - "Secondary: When a user accesses Patient Details within the Console, clinicians will find higher value in 'at a glance' app widgets that properly guide them to relevant CDS applications/tools"
+  - "Workflow Integration: If Patient Details in the CDS Console delivers a consistent and streamlined experience across both Oracle Health and Vista CPRS, then clinicians will experience lower cognitive load and perceive greater value"
+
+expected_outcomes: "Insights will identify where the feature meets clinician needs, where friction persists, and what opportunities exist to evolve Patient Details on the CDS Console. This evidence will guide prioritization of enhancements and inform the Platform and CDSC roadmap for future iterations"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "CDSC Research Participant Database and Oracle Health contacts"
+  approach: "Cross-team contacts and referrals for Oracle Health users"
+  
+  primary_criteria:
+    - "Primary Care Physicians"
+    - "Familiar with the CDS Console"
+    - "Has used Oracle Health (ideal)"
+    
+  secondary_criteria:
+    - "Potentially a few 'super users' with familiarity with CDS tools"
+    - "User who uses Task Manager"
+    - "User who uses Med calc"
+    - "User who uses My Workweek"
+    - "Someone from AiScribe pilot and uses Console"
+    - "Behavioral Health clinicians"
+    - "Outpatient Surgical clinicians"
+    
+  screener_questions: []
+      
+participants:
+  veterans: 0
+  caregivers: 0
+  clinicians_cprs: 5
+  clinicians_oracle: 3
+  va_staff: 0
+  total_recruited: 8
+  completed_sessions_goal: 4
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2025-11-10"
+  pilot_participant: "Inpatient Behavioral Health Participant - Name Redacted"
+  research_dates: "2025-11-10 to 2025-12-02"
+  research_review_submission: "2025-10-16"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 2
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Insights on Patient Details 1.0 and validation on enhancements"
+    key_results: 
+      - "Insights will identify where the feature meets clinician needs, where friction persists, and what opportunities exist"
+      - "Navigation input - focused on navigation within the CDS's patient details to the individual apps for task flow completion"
+  - objective: "Viable user-tested 'app widget' concepts/'partial views' to inform PGM #100"
+    key_results:
+      - "Partial views of CDS Apps with actionable CDS data are available on the CDS Console default view"
+  - objective: "High level user feedback on the Console within Oracle Health (initial integration approach) provider workflows"
+    key_results:
+      - "High level insight on Oracle Health Workflows"
+  - objective: "High level user feedback on clinician familiarity with ICN"
+    key_results:
+      - "High level insight on ICN use and familiarity"
+
+veteran_journey_phases: []
+clinician_workflow_stages:
+  - "Setting context, opening the Console, CDS applications"
+  - "Using MWW to determine when an appointment is"
+  - "Reviewing a patient's details prior to an appointment"
+  - "Utilizing Med Pic to review a patient's medication adherence"
+  - "Using a medical calculator to determine a diagnosis or result"
+  - "Adding a Task as a follow up for a patient"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Foundational insights from previous user testing of the CDS Console"
+    
+study_materials:
+  conversation_guide_cprs: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing/conversation-guide-CPRS.md"
+  conversation_guide_oh: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing/conversation-guide-oracle-health.md"
+  prototype_cprs: "https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2196%3A2&node-id=2293-3966"
+  prototype_oh: "https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2196%3A2&node-id=3004-21735"
+    
+tags:
+  - "CDS-Console"
+  - "patient-details"
+  - "usability-testing"
+  - "clinician-facing"
+  - "Oracle-Health"
+  - "Vista-CPRS"
+  - "app-widgets"
+  - "platform-integration"
+  - "task-manager"
+  - "my-workweek"
+  - "medical-calculators"
+  
+team_roles:
+  moderator: "Liz Blasi"
+  research_lead: "Liz Blasi"
+  recruitment: "Liz Blasi"
+  accessibility_specialist: "Homer Gaines"
+  notetakers: "Rosemary Rogers, Ruben Sun, Ayangbe Mannen, Natalie Hill, Alyssa Li"
+  observers: "None"
+  
+approvals:
+  reviewed_by: "Rosemary Rogers and Amanda Klausmeier"
+  review_date: "2025-10-16"
+---
+
 
 	# Research Plan for [CDS Platform, CDS Console, 2025-11-01]
 > [!NOTE]

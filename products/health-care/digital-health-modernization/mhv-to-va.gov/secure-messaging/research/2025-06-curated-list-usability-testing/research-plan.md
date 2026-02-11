@@ -1,3 +1,123 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV on VA.gov, Secure Messages, June 2025"
+date: 2025-06-26
+last_updated: 2025-06-26
+team: "Digital Health Modernization - Secure Messaging"
+product: "My HealtheVet on VA.gov - Secure Messaging"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "As MHV moves to VA.gov and Veterans from Milestones 1 and 2 transition to the new platform, need to ensure Veterans can effectively find and select the correct care team for messaging using the new curated list flow."
+  product_location: "My HealtheVet on VA.gov - Secure Messaging section"
+  user_familiarity: "Familiar tool - Secure Messaging launched in November 2023, but influx of new Veterans using product for first time"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/product/README.md"
+
+# Research Design
+methodology: "Moderated Usability Testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - "Assess Veterans' ability to find and select the correct care team for messaging"
+  - "Evaluate how Veterans understand and interact with contact list features"
+  - "Understand how Veterans respond when they can't find the contact they need"
+
+research_questions:
+  - "Can Veterans successfully use the new curated list flow to message their intended care team?"
+  - "Do Veterans notice the contact list link and successfully use the contact list page to select the appropriate care teams for messaging?"
+  - "Can Veterans effectively use the combo box to find and select the appropriate care team?"
+  - "Do Veterans notice, understand, and appropriately use the 'If you can't find your care team' content and related links?"
+  - "When Veterans don't see their intended recipient in the recent list, can they successfully identify and select the correct contact?"
+
+hypotheses:
+  - "Most Veterans will be able to use the new curated list flow to identify and message the appropriate care team without confusion"
+  - "Many Veterans will recognize the combo box as a searchable input field and expect to use it like a search engine"
+  - "Most Veterans will not notice the 'If you can't find your care team' link"
+  - "When Veterans don't see their desired recipient in the recent contacts list, most will correctly use the 'Select a different recipient' option to proceed"
+  - "Most Veterans will not notice the contact list link"
+
+expected_outcomes: "The results of this study will help us determine if our designs provide the best user experience for Veterans to compose secure messages and help to identify any pain points. The findings will inform future iterations of designs."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Diverse sample including cognitive disabilities"
+  
+  primary_criteria:
+    - "All participants must regularly use Secure Messages"
+    - "At least 4 participants with cognitive disabilities (mild to severe)"
+    - "Have not worked for the VA in the previous 5 years"
+    - "Willing to share screen and be on camera"
+    - "Only one participant per US State"
+    
+  secondary_criteria:
+    - "Age distribution: 2 (75+), 4 (65-74), 2 (55-64), 3 (35-54), 1 (18-34)"
+    - "Education distribution: 4 (High School or less), 3 (Some college), 2 (Associate), 2 (Bachelor's), 1 (Master's+)"
+    - "Demographic distribution: 2 (Black/African American), 2 (Hispanic/Latino), 8 (White/Caucasian)"
+    - "Residence: 3 (rural), 9 (urban)"
+    
+  screener_questions:
+    - question: "Have you used Secure Messaging on VA.gov within the last 3 months?"
+      qualifying_response: "Yes"
+    - question: "Have you been diagnosed with a cognitive disability?"
+      qualifying_response: "Yes (recruit 4) or No (recruit 8)"
+      
+participants:
+  veterans: 12
+  caregivers: 0
+  dependents: 0
+  total_recruited: 12
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2025-06-25"
+  pilot_participant: "Handled internally"
+  research_dates: "2025-06-26 to 2025-07-01"
+  research_review_submission: "2025-06-15"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results: 
+      - "Improve satisfaction with our web and mobile products by 5 points"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Reinventing Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+  - "Dying"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Previous Secure Messaging usability studies"
+    
+tags:
+  - "secure-messaging"
+  - "usability-testing"
+  - "veterans"
+  - "moderated"
+  - "mhv-on-vagov"
+  - "cognitive-disabilities"
+---
+
 
 # Research Plan for MHV on VA.gov, Secure Messages, June 2025 
 

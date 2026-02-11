@@ -1,3 +1,144 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV on VA.gov, Medical Records & Medications, November 2024"
+date: 2024-11-01
+last_updated: 2024-11-22
+team: "Digital Health Modernization"
+product: "Medical Records, Secure Messages, and Medications on MHV on VA.gov"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "As part of the Digital Health Modernization strategy, My HealtheVet (MHV) is being moved to VA.gov. After building and testing various iterations of Secure Messages, Medications, and Medical Records, this study assesses the new filter functionality across all three products to identify any pain points and understand how Veterans use filters to find information."
+  product_location: "Figma prototypes and Codespace live environment"
+  user_familiarity: "Iteration on existing products - testing new filter functionality across Medical Records, Medications, and Secure Messages"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Identify any pain points Veterans may experience in using the filter function to find their messages, medications, and medical records"
+  - goal_2: "Understand how Veterans use filters to find messages, medications, and medical records"
+  - goal_3: "Understand Veterans' needs and expectations for using filters within Secure Messages, Medications, and Medical Records"
+
+research_questions:
+  - "Do filters help Veterans find their messages, medications, and medical records?"
+  - "How do Veterans use filters to find their messages, medications, and medical records?"
+  - "What are Veterans' use cases for filters in Secure Messaging, Medications, and Medical Records?"
+  - "What are Veterans' expectations for filter functionality in each product?"
+
+hypotheses:
+  - "Most Veterans will perceive the filters as helpful in all products"
+  - "Most Veterans will understand the difference among the filter options in Medications"
+  - "Most Veterans will find messages, medications, and medical records using the filters"
+  - "Veterans will have varied use cases and thresholds for employing filters"
+
+expected_outcomes: "Findings will help determine if filter designs provide the best user experience for Veterans to find their messages, medications, and medical records, and identify any pain points to inform future design iterations."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "diverse recruitment across device types and usage patterns"
+  
+  primary_criteria:
+    - "9 participants must regularly use MHV"
+    - "6 participants with cognitive disabilities - mild to severe"
+    - "6 participants who are mobile users"
+    - "4 participants who are desktop/laptop users"
+    - "2 participants who are tablet users"
+    - "6 participants from west of the Mississippi River (one participant per state)"
+    - "6 participants from east of the Mississippi River (one participant per state)"
+    - "Have not worked for the VA in the previous 5 years"
+    
+  secondary_criteria:
+    - "Age distribution: 75+ (2), 65-74 (4), 55-64 (2), 35-54 (3), 18-34 (1)"
+    - "Education: High school or less (4), Some college (3), Associate (2), Bachelor's (2), Master's+ (1)"
+    - "Race/ethnicity: Black/African American (2), Hispanic/Latino (2), White/Caucasian (8)"
+    - "Rural (3) and Urban (9) mix"
+    
+  screener_questions:
+    - question: "When is the last time you used My HealtheVet?"
+      qualifying_response: "Within last 18 months - recruit 9 within last 6 months"
+    - question: "What device will you use to join the session?"
+      qualifying_response: "Mobile (6), Desktop/Laptop (4), Tablet (2)"
+    - question: "Have you been diagnosed with (formally or informally) a cognitive disability?"
+      qualifying_response: "Yes - recruit 6"
+      
+participants:
+  veterans: 12
+  caregivers: 0
+  dependents: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-11-15"
+  pilot_participant: "TBD"
+  research_dates: "2024-11-18 to 2024-11-22"
+  research_review_submission: "2024-11-11"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Enable Veterans to efficiently filter and find their messages, medications, and medical records"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Centralize health information access through MHV on VA.gov with improved filtering"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Provide effective filter functionality across health management tools"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research"
+    
+tags:
+  - "health-care"
+  - "medical-records"
+  - "medications"
+  - "secure-messaging"
+  - "my-healthevet"
+  - "mhv-on-vagov"
+  - "usability-testing"
+  - "filters"
+  - "findability"
+  - "cognitive-disability"
+  - "veterans"
+  - "authenticated-experience"
+  - "mobile"
+  - "desktop"
+  - "tablet"
+  - "remote-research"
+  - "moderated"
+  - "prototype-testing"
+  - "codespace"
+  - "digital-health-modernization"
+  - "cross-product-study"
+---
+
 # **Research Plan for MHV on VA.gov, Medical Records & Medications, November 2024**
 
 ## **Background**

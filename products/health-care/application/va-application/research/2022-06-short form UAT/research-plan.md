@@ -1,3 +1,123 @@
+---
+# Research Plan Metadata
+title: "Research Plan for 10-10 Health Apps Team, UAT of Shortened Form Based on Disability Rating, Health Care Application 10-10EZ, October 2022"
+date: 2022-10-01
+last_updated: 2022-10-01
+team: "10-10 Health Apps Team"
+product: "Health Care Application (10-10EZ)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Test shortened form flows in production that eliminate Military Service and Household Information sections for Veterans with service-connected disability rating of 50% or higher, either pre-populated or self-reported"
+  product_location: "https://va.gov/health-care/apply/application/introduction"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/health-benefits/healthcare-application/product-outline.md"
+
+# Research Design
+methodology: "user acceptance testing (UAT)"
+research_format:
+  location: remote
+  moderated: true
+
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Validate that there are no issues or bugs for authenticated users with 50% or greater disability rating on record"
+  - goal_2: "Validate that there are no issues or bugs for authenticated users with less than 50% disability rating on record"
+  - goal_3: "Validate that there are no issues or bugs for authenticated users with no disability rating on record, but self-report a disability rating of 50% or higher"
+  - goal_4: "Validate that there are no issues or bugs for authenticated users with no disability rating on record and don't self-report a disability rating of 50% or higher"
+
+research_questions:
+  - "Does the functionality work as expected?"
+  - "Is any aspect of the flow surprising/unexpected?"
+  - "Are there any indications of UX issues?"
+
+hypotheses:
+  - "The functionality of each use case will work as expected"
+  - "No bugs will be experienced"
+  - "Veterans will move through the flow easily"
+
+expected_outcomes: "Confirm that the short form functionality for authenticated use cases works as expected in production"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "targeted recruitment for specific disability rating scenarios"
+  
+  primary_criteria:
+    - "Participants are not currently receiving health care benefits and have not previously applied but are interested in applying"
+    - "At least half of participants must be identity-verified (LOA3) using ID.me, DSLogon, or MyHealtheVet on VA.gov"
+    - "At least 8 people with a disability rating of 50% or higher"
+    
+  secondary_criteria:
+    - "At least 3 people who use a screenreader (at least 1 new to assistive technology)"
+    - "At least 5 people with a cognitive disability"
+    - "At least 8 people who will use a mobile device during the research session"
+    - "At least 50% that identify as women or nonbinary"
+    - "At least 50% age 55+"
+    - "At least 50% that live in a rural area"
+    - "At least 50% that don't have a bachelor degree or higher"
+    - "At least 2 participants each who identify as Black/African American, Hispanic, Asian, Native"
+    
+  screener_questions:
+    - question: "Can you log-in using your ID.me, DSLogon, or MyHealtheVet username and password now?"
+      qualifying_response: "Yes (at least half)"
+      
+participants:
+  veterans: 10
+  caregivers: 0
+  dependents: 0
+  total_recruited: 18
+  completed_sessions_goal: 10
+
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "October 2022 TBD"
+  research_review_submission: "October 2022"
+
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 60
+  max_sessions_per_day: 2
+
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can apply for all benefits online"
+    key_results: "Streamlined application process for eligible Veterans"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Pre-populated data reduces application burden"
+
+veteran_journey_phases:
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+
+# Research Repository Tracking
+related_research:
+  previous_studies:
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/research/flow-research-sept-21/research-findings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/research/Short%20form%20usability-June%202022/research-findings.md"
+
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "PRDT: Form 10-10 EZ"
+  - "DSC: Form"
+  - "user-acceptance-testing"
+  - "UAT"
+  - "Accessibility"
+  - "screenreader"
+  - "cognitive-disability"
+  - "authenticated-experience"
+  - "mobile"
+  - "LOA3"
+---
+
 # [DRAFT] Research Plan: Health care application 10-10EZ, UAT of shortened form based on disability rating, October 2022
 
 ## Background

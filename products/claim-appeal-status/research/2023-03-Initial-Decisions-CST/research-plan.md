@@ -1,3 +1,138 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Benefits Team 1: Initial Decision CST Research, March 2023"
+date: 2023-03-14
+last_updated: 2023-03-14
+team: "Benefits Team 1"
+product: "Claim Status Tool (CST)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans are not fully satisfied with the claim status tool. They report it doesn't provide enough detail and they often feel like they're in the dark while waiting for updates about their claims."
+  product_location: "Claim Status Tool on VA.gov"
+  user_familiarity: "Iteration on existing product"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md"
+
+# Research Design
+methodology: "Co-design session, Semi-structured interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand what information Veterans specifically want to know to stay informed as their claim goes through the initial decision process"
+  - goal_2: "Understand the experience Veterans have with requests to provide additional evidence and find opportunities to help Veterans provide better evidence earlier in the process"
+  - goal_3: "Understand the experience Veterans have with requests for C&P exams and find opportunities to set the right expectation for Veterans going to C&P exams"
+
+research_questions:
+  - "What do participants typically use VA.gov for and how long have they been using it?"
+  - "What do Veterans think is the status of their claim when viewing CST?"
+  - "How clear is the status of the claim to Veterans on a scale of 1-5?"
+  - "Is there any action Veterans think they need to take, and what makes them think that?"
+  - "Do Veterans have a clear sense of what other actions will be required from them as the claim goes through the review process?"
+  - "How did Veterans know they had to do a C&P exam as part of the claim process?"
+  - "What is the most confusing part of the CST web page?"
+  - "What is the most helpful part of the CST web page?"
+
+hypotheses:
+  - "The claim status information presented in the current CST UI is not informative enough for Veterans"
+  - "The main issue for Veterans is not the CST UI itself, but the amount of time it takes for the claim to get resolved"
+
+expected_outcomes: "By the end of this study we will have a better idea of what is confusing about the CST experience, what is working well, and what are the top features or product improvements that might make CST more helpful for veterans awaiting claim decisions."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling"
+  
+  primary_criteria:
+    - "Veterans who currently have an open disability compensation claim"
+    - "Must be willing to log in and share screen with personal information"
+    - "Must have an authenticated VA.gov account"
+    - "6 Black veterans"
+    - "6 Hispanic veterans"
+    - "10 rural veterans"
+    - "10 veterans without a college degree"
+    
+  secondary_criteria:
+    - "Experience with C&P exams preferred"
+    - "Experience with receiving requests for additional claims evidence preferred"
+    - "Ideally 12-16 of study participants will have experiences with receiving requests for additional evidence or C&P exams, or both"
+    
+  screener_questions:
+    - question: "Are you currently waiting on the result of a disability compensation claim?"
+      qualifying_response: "Yes"
+    - question: "Have you received requests from the VA to provide additional evidence for your disability compensation claim?"
+      qualifying_response: "Yes (preferred but not mandatory)"
+    - question: "As a part of your claims process, did you have to undergo a claim exam (C&P exam or compensation and pension exam)?"
+      qualifying_response: "Yes (preferred but not mandatory)"
+      
+participants:
+  veterans: 20
+  caregivers: 0
+  dependents: 0
+  total_recruited: 20
+  completed_sessions_goal: 20
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-03-22"
+  pilot_participant: "Rocio de Santiago"
+  research_dates: "2023-03-27 to 2023-03-31"
+  research_review_submission: "2023-03-14"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can apply for all benefits online"
+    key_results: []
+  - objective: "Logged-in users can easily track applications, claims, or appeals online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md"
+    
+tags:
+  - "BNFT: Disability"
+  - "PRDT: Claim Status Tool"
+  - "PRDT: Track Claim Status"
+  - "AUD: Veterans"
+  - "DSC: Alert boxes"
+  - "DSP: Track application status"
+  - "DSP: Notifications and updates"
+  - "semi-structured-interviews"
+  - "co-design"
+  - "authenticated"
+  - "remote"
+  - "disability-compensation-claims"
+  - "evidence-submission"
+  - "CP-exams"
+---
+
 # Research Plan for Benefits Team 1: Initial Decision CST Research
 
 ![Artboard](https://user-images.githubusercontent.com/95102058/223499048-193a8848-d8ac-4b22-8a42-9fed6a8c4a81.png)

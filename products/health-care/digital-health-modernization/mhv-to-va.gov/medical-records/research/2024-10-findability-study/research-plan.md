@@ -1,3 +1,147 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV on VA.gov, Medical Records Findability Study, October 2024"
+date: 2024-10-01
+last_updated: 2024-10-30
+team: "Digital Health Modernization"
+product: "Medical Records on MHV on VA.gov"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "As part of the Digital Health Modernization strategy, My HealtheVet (MHV) is being moved to VA.gov to create a centralized place for Veterans to access their health information. This study focuses on discovering Veterans' pain points when finding and accessing information about their medical records, reflecting our commitment to creating a user-centric tool that meets the unique needs of all Veterans."
+  product_location: "My HealtheVet Classic and MyChart (comparative study)"
+  user_familiarity: "Comparative study of existing tools - examining findability across platforms"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
+
+# Research Design
+methodology: "contextual inquiry"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Identify any pain points Veterans may experience in accessing their medical records"
+  - goal_2: "Understand the criteria Veterans use to find and identify medical records"
+  - goal_3: "Understand Veterans' needs and expectations within Medical Records"
+
+research_questions:
+  - "How are Veterans finding specific health records in My HealtheVet Classic? How does it compare to finding their health records in MyChart?"
+  - "What types of information do Veterans look for when trying to find a specific record?"
+  - "What would help Veterans find the information they need in their health records?"
+  - "What types of information do Veterans need to understand and identify a record?"
+  - "How do Veterans feel when searching within their health records?"
+
+hypotheses:
+  - "Most Veterans can access their health records more quickly and easily in MyChart than in My HealtheVet Classic"
+  - "Most Veterans will use dates to find and identify records"
+  - "Most Veterans will prefer to have a sort, filter, or search function within their health records"
+
+expected_outcomes: "Both findability and generative findings will uncover Veterans' behaviors and expectations when accessing their Medical Records, informing future iterations of designs including potential sort, filter, and search functionality."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "targeted recruitment of dual portal users with diabetes diagnosis"
+  
+  primary_criteria:
+    - "All participants must regularly use MHV Health Records"
+    - "All participants must regularly use MyChart"
+    - "All participants must have a current diabetes diagnosis"
+    - "At least 8 participants with cognitive disabilities - mild to severe"
+    - "All participants must be desktop/laptop users - NO TABLETS"
+    - "No AT participants"
+    - "Only one participant per US State"
+    - "Participants must be willing to share personal health information from MHV and MyChart on screen during recorded sessions"
+    
+  secondary_criteria:
+    - "Age distribution: 75+ (4), 65-74 (6), 55-64 (3), 35-54 (4), 18-34 (1)"
+    - "Education: High school or less (6), Some college (5), Associate (2), Bachelor's (3), Master's+ (2)"
+    - "Race/ethnicity: American Indian/Alaska Native (1), Asian (1), Black/African American (3), Hispanic/Latino (3), White/Caucasian (12)"
+    - "Rural (5) and Urban (13) mix"
+    - "Geographic diversity - no more than one participant per US state"
+    
+  screener_questions:
+    - question: "Have you used My HealtheVet (MHV) for reviewing your health records within the last 3 months?"
+      qualifying_response: "Yes"
+    - question: "Have you used MyChart for reviewing your health records with a non-VA provider within the last 3 months?"
+      qualifying_response: "Yes"
+    - question: "Do you have a current diabetes diagnosis that you manage on your patient portals?"
+      qualifying_response: "Yes"
+    - question: "Do you consent to sharing your personal health records and having them recorded?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 18
+  caregivers: 0
+  dependents: 0
+  total_recruited: 18
+  completed_sessions_goal: 15
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-10-22"
+  pilot_participant: "TBD"
+  research_dates: "2024-10-24 to 2024-10-30"
+  research_review_submission: "2024-10-15"
+  
+session_details:
+  duration_minutes: 90
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Enable Veterans to easily find and access specific health records in their medical records"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Centralize health information access through MHV on VA.gov with improved findability"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Implement sort, filter, or search functionality based on Veterans' needs"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research"
+    
+tags:
+  - "health-care"
+  - "medical-records"
+  - "my-healthevet"
+  - "mhv-on-vagov"
+  - "contextual-inquiry"
+  - "findability"
+  - "information-architecture"
+  - "search"
+  - "filter"
+  - "sort"
+  - "cognitive-disability"
+  - "veterans"
+  - "authenticated-experience"
+  - "mychart"
+  - "comparative-study"
+  - "diabetes"
+  - "desktop"
+  - "remote-research"
+  - "moderated"
+  - "digital-health-modernization"
+  - "generative-research"
+---
+
 # **Research Plan for MHV on VA.gov, Medical Records Findability Study, October 2024**
 
 ## **Background**

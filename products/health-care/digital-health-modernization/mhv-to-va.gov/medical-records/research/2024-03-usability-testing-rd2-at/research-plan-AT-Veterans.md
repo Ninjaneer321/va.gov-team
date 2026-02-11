@@ -1,3 +1,146 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV on VA.gov, Medical Records, March 2024 - AT Veterans"
+date: 2024-03-18
+last_updated: 2024-04-15
+team: "Digital Health Modernization"
+product: "Medical Records on MHV on VA.gov"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "As part of the Digital Health Modernization strategy, My HealtheVet (MHV) is being moved to VA.gov to create a centralized place for Veterans to access their health information. After initial prototype testing and feedback-informed iterations, this study assesses whether updates improve user experiences, tests new functionality, and identifies barriers for Veterans who use assistive technologies."
+  product_location: "https://staging.va.gov/my-health/medical-records/"
+  user_familiarity: "Iteration on existing product - testing updated Medical Records interface in live environment"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Identify any usability issues Veterans may experience in accessing their Care Summaries and Notes, Vaccines, Allergies, and Vitals records, including what information Veterans expect to see and whether they understand the information presented"
+  - goal_2: "Identify if Veterans know how to print/download both an individual record and list of records"
+  - goal_3: "Identify any barriers that may prevent Veterans with mild to severe Cognitive Disabilities from completing their Medical Records management goals"
+  - goal_4: "Identify any barriers that may prevent Veterans who use Assistive Technologies from completing their Medical Record management goals"
+
+research_questions:
+  - "Can Veterans who use Assistive Technologies find the information they need to manage their health related to care summaries and notes, allergies, vaccines, and vitals?"
+  - "Can Veterans who use Assistive Technologies print/download a list and an individual record?"
+  - "What is Veterans' perception of the new experience in which they can view their records on screen?"
+
+hypotheses:
+  - "Most Veterans who use Assistive Technologies will be able to access and understand the information about their Vaccinations records to manage their health"
+  - "Most Veterans who use Assistive Technologies will be able to access and understand the information about their Allergies & reactions records to manage their health"
+  - "Most Veterans who use Assistive Technologies will be able to access and understand the information about their Care Summaries & Notes to manage their health"
+  - "Most Veterans who use Assistive Technologies will be able to access and understand the information about their Vitals to manage their health"
+  - "Most Veterans who use Assistive Technologies will find the information presented in their Medical Records adequate for managing their health"
+  - "Most Veterans who use Assistive Technologies will be able to easily access and understand the downloaded PDF file of their medical record information"
+
+expected_outcomes: "Findings will identify usability issues and accessibility barriers that inform iterative improvements to Medical Records interface for Veterans using assistive technologies, ensuring equitable access to health information."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "targeted recruitment of assistive technology users"
+  
+  primary_criteria:
+    - "5 participants who solely use screen-readers to access digital content (Blind/visually impaired)"
+    - "6 participants who are low-vision and use text magnifiers to access all digital content"
+    - "4 participants who solely use voice control device to access all digital content"
+    - "8 participants who use Desktop/Laptop"
+    - "7 participants who use a mobile device"
+    - "10 frequent MHV users"
+    - "5 infrequent MHV users"
+    - "No current or previous (within the past 5 years) VA Employees"
+    
+  secondary_criteria:
+    - "Age distribution: 75+ (4), 65-74 (6), 55-64 (3), 35-54 (1), 18-34 (1)"
+    - "Education: High school or less (5), Some college (3), Associate (2), Bachelor's (3), Master's+ (2)"
+    - "Race/ethnicity: American Indian/Alaska Native (1), Asian (1), Black/African American (3), Hispanic/Latino (2), White/Caucasian (8)"
+    - "Rural (4) and Urban (11) mix"
+    
+  screener_questions:
+    - question: "Do you need to use any Assistive technology to access digital content, such as Screen reader, Voice Command, Text/Screen magnification?"
+      qualifying_response: "Yes"
+    - question: "Do you use Assistive Technology for accessing ALL digital content?"
+      qualifying_response: "Yes - for Screen reader, Voice Command, or Text Magnification"
+    - question: "Have you been diagnosed with (formally or informally) a cognitive disability?"
+      qualifying_response: "All responses accepted"
+      
+participants:
+  veterans: 15
+  caregivers: 0
+  dependents: 0
+  total_recruited: 15
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-03-18"
+  pilot_participant: "TBD"
+  research_dates: "2024-04-02 to 2024-04-08"
+  research_review_submission: "2024-03-18"
+  
+session_details:
+  duration_minutes: 90
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Enable Veterans to access and understand their medical records including Care Summaries and Notes, Vaccines, Allergies, and Vitals"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Centralize health information access through MHV on VA.gov"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Provide accessible print/download functionality for medical records"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research"
+    
+tags:
+  - "health-care"
+  - "medical-records"
+  - "my-healthevet"
+  - "mhv-on-vagov"
+  - "usability-testing"
+  - "accessibility"
+  - "assistive-technology"
+  - "screen-reader"
+  - "voice-control"
+  - "screen-magnification"
+  - "cognitive-disability"
+  - "veterans"
+  - "authenticated-experience"
+  - "care-summaries-and-notes"
+  - "vaccines"
+  - "allergies"
+  - "vitals"
+  - "print-download"
+  - "remote-research"
+  - "moderated"
+  - "digital-health-modernization"
+---
+
 # **Research Plan for MHV on VA.gov, Medical Records, March 2024 – AT Veterans**
 
 ## **Background**

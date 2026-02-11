@@ -1,3 +1,144 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV on VA.gov, Medications, July 2023"
+date: 2023-07-14
+last_updated: 2023-07-14
+team: "Digital Health Modernization"
+product: "MHV on VA.gov - Medications"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "As part of Digital Health Modernization strategy, My HealtheVet is being moved to VA.gov to create a centralized place for Veterans to access their health information. This initial round tests a prototype of the Medications feature on MHV on VA.gov."
+  product_location: "My Health section of VA.gov - Medications"
+  user_familiarity: "New product - Round 1 usability testing with prototype"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand if Veterans can locate and fill/refill their medications"
+  - goal_2: "Identify any usability issues Veterans may experience with understanding the status of their medications"
+  - goal_3: "Identify any usability issues Veterans may experience with managing their medications"
+
+research_questions:
+  - "Are Veterans able to find the information they need to fill/refill their prescriptions?"
+  - "Can Veterans find and identify the correct prescription they need?"
+  - "Do Veterans understand how to complete the steps to submit a refill?"
+  - "Do Veterans know that their refill request submission was successful?"
+  - "Are Veterans able to understand the statuses of their prescriptions?"
+  - "Do Veterans understand the status of a submitted order?"
+  - "Do Veterans understand how to find information on what to do when a prescription is not refillable?"
+  - "Do veterans understand when a prescription has not yet been filled?"
+  - "How do Veterans interpret 'expired'?"
+  - "Are Veterans able to find the information they need to manage and understand their prescriptions?"
+  - "Can Veterans find the physical description and image of their prescriptions?"
+  - "Can Veterans find the reason for use for their prescriptions?"
+  - "Do Veterans understand how to print their medication list?"
+
+hypotheses:
+  - "Most Veterans will be able to find the information they need to fill/refill their prescriptions"
+  - "Most Veterans will understand the statuses of their medications"
+  - "Most Veterans will be able to find the information they need to manage and understand their medications"
+  - "Some Veterans will confuse 'fill prescription' with 'refill prescription'"
+  - "Some Veterans will be confused by the connotation of 'expired prescription'"
+
+expected_outcomes: "The results will help determine if our designs provide the best user experience for Veterans to manage and view their medications and identify any pain points. This will inform later iterations of the design."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "maximum variation - explicitly NOT recruiting assistive technology users due to prototype limitations"
+  
+  primary_criteria:
+    - "Age distribution: 75+ (5), 65-74 (8), 55-64 (4), 35-54 (5), 18-34 (2)"
+    - "Education distribution across all levels"
+    - "12 frequent MHV users, 12 never used MHV"
+    - "8 participants with cognitive disability"
+    - "Demographic diversity"
+    - "6 rural, 18 urban"
+    
+  secondary_criteria:
+    - "Mix of mobile, desktop, and tablet users"
+    
+  screener_questions:
+    - question: "How often have you used My HealtheVet during the past year?"
+      qualifying_response: "2-3 times a month or more than 3 times a month (for frequent MHV users)"
+    - question: "Have you been diagnosed as someone with a Cognitive Disability?"
+      qualifying_response: "Yes (recruit at least 8)"
+    - question: "What type of device will you be using to connect to Zoom?"
+      qualifying_response: "Desktop/Laptop, Smartphone (Android or iPhone), or Tablet (Android or iPad)"
+      
+participants:
+  veterans: 24
+  caregivers: 0
+  dependents: 0
+  total_recruited: 24
+  completed_sessions_goal: 18
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-07-14"
+  pilot_participant: "TBD - handled internally"
+  research_dates: "2023-07-17 to 2023-08-01"
+  research_review_submission: "2023-07-14"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Veterans can successfully refill and manage their medications online"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Centralized health information access on VA.gov"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Personalized medication management experience"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Cognitive-Disability"
+  - "BNFT: Healthcare"
+  - "MHV: Medications"
+  - "MHV: Pharmacy"
+  - "PRDT: MHV-on-VA.gov"
+  - "RESRCH: Usability"
+  - "RESRCH: Remote"
+  - "RESRCH: Prototype"
+  - "HDW: Desktop"
+  - "HDW: Mobile"
+  - "authenticated"
+  - "prescriptions"
+  - "refills"
+  - "medication-management"
+  - "digital-health-modernization"
+---
+
 # **Research Plan for MHV on VA.gov, Medications, July 2023**
 
 ## **Background**

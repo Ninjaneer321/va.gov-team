@@ -1,3 +1,140 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Secure Messaging team, July 2024"
+date: 2024-07-01
+last_updated: 2024-07-01
+team: "Digital Health Modernization - Secure Messaging"
+product: "Secure Messaging on My HealtheVet"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans experience pain points with how healthcare providers and teams are named in the secure messaging experience, making it difficult to find and message the correct care team."
+  product_location: "My HealtheVet on VA.gov and VAHB - Secure Messaging section"
+  user_familiarity: "Iteration addressing known pain point with care team selection"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
+
+# Research Design
+methodology: "unmoderated comparative study - first-click testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: false
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Compare the old and new care team selection flows to assess which is easier, more efficient, and more intuitive"
+  - goal_2: "Validate the updated experience outperforms the previous in task success, time to complete, satisfaction, and trust"
+  - goal_3: "Inform the updated care team selection flow in secure messaging experience on VA.gov and VAHB"
+
+research_questions:
+  - "Which care team selection option enables Veterans to find the correct provider more quickly?"
+  - "Which care team selection option do Veterans find to be more intuitive and less difficult to use?"
+  - "Which care team selection option builds greater trust in the VA with Veterans?"
+  - "Which care team selection option increases satisfactions amongst Veterans in the digital patient portal experience?"
+
+hypotheses:
+  - "A higher proportion of Veterans will select the incorrect care team in the old experience than either of the new experiences"
+  - "The average time to complete tasks will be lower on either of the new experiences"
+  - "A higher proportion of Veterans will find either of the new experiences to be more intuitive and satisfying than the old experience"
+  - "The old experience will produce higher rates of distrust in VA digital services than either of the new experiences"
+  - "The location first new experience option will produce lower times to complete task, higher accuracy rates, higher satisfaction scores, and more positive feedback"
+
+expected_outcomes: "This research will inform the updated care team selection flow in the secure messaging experience on VA.gov and VAHB prior to piloting with MHV Coordinators in July/August."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "geographically distributed sampling across VISNs"
+  
+  primary_criteria:
+    - "213 Veterans total distributed across 24 cohorts varying by VISN/state"
+    - "Desktop or laptop users only (no mobile, no tablets)"
+    - "Exclude all assistive technology users"
+    - "Practice cohort of 9 Veterans to validate data collection"
+    - "8 cohorts testing current state (n=9 each, plus one n=5)"
+    - "8 cohorts testing location-first version (n=9 each, plus one n=5)"
+    - "8 cohorts testing provider-name version (n=9 each, plus one n=5)"
+    
+  secondary_criteria:
+    - "Diverse sample across age, abilities, and ethnicities"
+    - "Geographic distribution across different VISNs and states"
+    
+  screener_questions:
+    - question: "Do you have a My HealtheVet (MHV) account?"
+      qualifying_response: "Yes"
+    - question: "Have you used Secure Messaging on My HealtheVet (MHV) within the last 12 months?"
+      qualifying_response: "Yes or No (both acceptable)"
+      
+participants:
+  veterans: 213
+  caregivers: 0
+  dependents: 0
+  total_recruited: 213
+  completed_sessions_goal: 213
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-07-08"
+  pilot_participant: "Practice cohort of 9"
+  research_dates: "2024-07-08 to 2024-08-09"
+  research_review_submission: "2024-07-01"
+  
+session_details:
+  duration_minutes: 15
+  buffer_minutes: 0
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Enable Veterans to accurately select care teams for secure messaging"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Improve clarity in care team naming and selection"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Reduce time and effort to find correct healthcare provider"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2022-11-triage-group-naming-discovery"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/mhv-coordinator-feedback/quarterly-survey-results"
+    
+tags:
+  - "MHV"
+  - "My HealtheVet"
+  - "secure-messaging"
+  - "health-care"
+  - "digital-health-modernization"
+  - "comparative-study"
+  - "first-click-testing"
+  - "unmoderated-research"
+  - "care-team-naming"
+  - "triage-groups"
+  - "veterans"
+  - "authenticated-experience"
+  - "remote-research"
+  - "VAHB"
+  - "optimal-workshop"
+  - "quantitative-research"
+  - "task-success"
+  - "satisfaction"
+  - "trust"
+  - "VISN"
+---
+
 # Research Plan for Secure Messaging team, July 2024
 
 ## Background

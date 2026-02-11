@@ -1,3 +1,117 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VAMC Communication Methods, April 2022"
+date: 2022-03-10
+last_updated: 2022-03-10
+team: "Facilities Team"
+product: "VAMC Communication Methods"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Unauthenticated VAMC site pages give Veterans multiple methods for contacting their doctors, patient advocates, and other members of their broader health care team. The variety of communication methods and their placement on VAMC site pages needs to be validated with Veteran feedback to determine which methods Veterans find most useful, where to place this information, and where Veterans expect to find different methods."
+  product_location: "VA.gov VAMC facility pages - system and facility-level health care pages"
+  user_familiarity: "Iteration - improving existing VAMC communication methods"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/issues/34431"
+
+# Research Design
+methodology: "usability testing, tree test, contextual inquiry"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Identify where Veterans expect to find the various methods of communication that VAMC pages provide"
+  - goal_2: "Validate the labels used to describe the communication methods found on VAMC pages"
+  - goal_3: "Identify why a Veteran would choose one particular communication method as opposed to another"
+
+research_questions:
+  - "Where do Veterans expect to find each of the different methods of communication (VA Health Chat, Secure messaging, VA health connect, VA telehealth)?"
+  - "How do Veterans expect communications methods to be labeled/described?"
+  - "Under what circumstances do Veterans choose specific communications methods?"
+  - "Which communication methods do Veterans prefer overall, and how does this impact their elevation/placement on VAMC pages?"
+
+hypotheses:
+  - "Most participants will want to access these methods of communication on facility health care pages"
+  - "Most participants will prefer methods of communication other than phone numbers"
+  - "Most participants will find phone number labeling adequate"
+  - "Most participants will prefer at least one page that lists all available communication methods (ie. on the Contact Us page)"
+  - "Most participants will have similar use cases for specific communication methods (ie. secure messaging for appointments)"
+
+expected_outcomes: "This usability study will directly inform upcoming design changes to VAMC pages by determining which VAMC pages should have what communication methods, and how those communications methods should be described and labeled"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "maximum variation sampling"
+  
+  primary_criteria:
+    - "Must be enrolled in VA healthcare"
+    - "Laptop or desktop computer only (mobile devices may introduce technical difficulties)"
+    - "Be able to screenshare via Zoom"
+    - "At least 2 participants under 35 years old"
+    - "At least 2 participants over 55 years old"
+    - "At least 2 participant with cognitive disabilities"
+    - "At least 5 participants with no college degree or professional certificates"
+    - "At least 5 participants of color"
+    
+  secondary_criteria:
+    - "Mix of Veterans and Caregivers"
+    - "All genders"
+    - "A mix of rural and urban participants"
+      
+participants:
+  veterans: 15
+  caregivers: 5
+  dependents: 0
+  total_recruited: 20
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2022-04-15"
+  pilot_participant: "TBD"
+  research_dates: "2022-04-18 to 2022-04-29"
+  research_review_submission: "2022-03-10"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 2
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: "Decrease time to successfully complete and submit online transactions"
+      
+veteran_journey_phases:
+  - "Taking Care of Myself - Attending to health needs"
+  - "Taking Care of Myself - Managing primary care and chronic health issues"
+  - "Taking Care of Myself - Take care my health"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/issues/34431"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: Facilities"
+  - "PRDT: VAMC"
+  - "MHV: Secure Messaging"
+  - "MHV: Appointments"
+  - "usability-testing"
+  - "tree-test"
+  - "contextual-inquiry"
+  - "unauthenticated"
+  - "remote"
+  - "communication-methods"
+  - "telehealth"
+---
+
 [PRE-REVIEW 3/10/22]
 
 # VAMC Communication Methods - Research Plan

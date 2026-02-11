@@ -1,3 +1,125 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Find a Form PDF Downloading, July 2021"
+date: 2021-07-22
+last_updated: 2026-02-10
+team: "Search & Discovery"
+product: "Find a VA Form"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Some browsers enable PDFs to be viewed directly instead of needing to first be downloaded. Many VA forms are in PDF format and need to be filled out in Acrobat in order to save the information entered and use a digital signature. Veterans encounter various challenges including forms opening in browser instead of downloading, inability to save or digitally sign forms, and downloaded forms not opening correctly."
+  product_location: "https://staging.va.gov/find-forms/"
+  user_familiarity: "Iteration - adding new download instructions to existing Find a Form page"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/find-a-va-form/initiatives/2021-post-mvp-releases"
+
+# Research Design
+methodology: "Remote moderated usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - "Better understand how Veterans download VA PDF forms and what challenges they encounter"
+  - "Get feedback on designs for advising users to download a PDF form and then open it with Acrobat"
+  - "Assess the performance of three different design options for providing download instructions"
+
+research_questions:
+  - "How intuitive is the download process with the new instructions? What issues arise (with the interface and/or specific forms)?"
+  - "Are participants able to save and/or digitally sign the forms?"
+  - "Do different download behaviors from different forms (e.g., auto-downloading ones vs. not) cause issues for users?"
+  - "What is the success rate of participants downloading forms from each of the three design options? Is one more effective than the others?"
+
+hypotheses:
+  - "The new instructions will enable people of diverse technical abilities, ages, and disabilities to download and open PDF forms in Acrobat"
+  - "The new instructions will enable people of diverse technical abilities, ages, and disabilities to save and digitally sign PDF forms"
+  - "The new instructions will alleviate issues with forms that have different download behaviors"
+  - "Instructions at the top of the list of forms will be missed when they scroll off the screen"
+  - "Instructions repeated above every form download link will get ignored or be annoying, especially to users of screen readers"
+
+expected_outcomes: "Identify which design option enables Veterans to most successfully download, save, and digitally sign VA PDF forms"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling"
+  
+  primary_criteria:
+    - "At least 5 people who use the Chrome web browser on a computer"
+    - "At least 4 participants over 60 (i.e., in age group 55-64 or older)"
+    - "At least 3 people with a cognitive disability (e.g., TBI)"
+    
+  secondary_criteria:
+    - "At least 2 people who use a screen reader"
+    - "At least 2 people of color"
+    - "At least 1 woman"
+    - "At least 1 participant 35 or under"
+    - "At least 2 people who don't have any degree or vocational training after high school"
+    - "At least 1 person that has a college degree"
+    - "At least 2 people who live in a rural or remote area"
+    - "At least 1 person who lives in a major metropolitan area"
+    - "At least 1 non-native English speaker"
+    
+  screener_questions:
+    - question: "What kind of device will you be joining on and are willing to share a browser window on--computer, tablet, or smartphone?"
+      qualifying_response: "Computer, tablet, or smartphone"
+    - question: "What web browser do you use on that device? (e.g., Chrome, Edge, Internet Explorer, Firefox, Safari)"
+      qualifying_response: "Any browser"
+      
+participants:
+  veterans: 15
+  caregivers: 0
+  dependents: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-07-22"
+  pilot_participant: "Angela Fowler and Robin Garrison"
+  research_dates: "2021-07-27 to 2021-07-30"
+  research_review_submission: "2021-07-22"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: "Veterans can access and complete VA forms online"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Find a VA Form"
+  - "PRDT: Forms"
+  - "DSC: Download"
+  - "DSC: PDF"
+  - "DSC: Instructions"
+  - "RESRCH: Usability"
+  - "RESRCH: Remote"
+  - "HDW: Desktop"
+  - "HDW: Mobile"
+  - "BNFT: Digitization"
+  - "accessibility"
+  - "cognitive-disability"
+  - "assistive-technology"
+---
+
 # Research Plan: Find a Form PDF Downloading
  	
 ## Goals	

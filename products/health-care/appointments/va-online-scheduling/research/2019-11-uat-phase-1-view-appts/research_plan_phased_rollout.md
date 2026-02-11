@@ -1,3 +1,109 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VAOS Team, Phased Rollout UAT Phase 1 - View Appointments, November 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "VAOS"
+product: "VA Online Scheduling"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Legacy mobile online scheduling application (mobile.va.gov) front end has been rebuilt on VA.gov. Need to validate with real users and real data that the rebuilt application works correctly in production before full rollout."
+  product_location: "VA.gov health care appointments section"
+  user_familiarity: "New product - rebuilding existing mobile application on VA.gov platform"
+  product_brief_url: "TBD"
+
+# Research Design
+methodology: "UAT"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Validate that Veterans can view their upcoming appointments and appointment requests"
+  - goal_2: "Confirm user flows work correctly in production with real data"
+  - goal_3: "Ensure data displays correctly where it is supposed to show up"
+
+research_questions:
+  - "Are users getting through the flow?"
+  - "Is the data showing up where it is supposed to show up?"
+  - "Can Veterans view appointments in a way that is logical and intuitive to them?"
+
+hypotheses:
+  - "Veterans are able to view their upcoming appointments and appointment requests in a way that is logical and intuitive to them"
+
+expected_outcomes: "Validate production readiness before broader rollout. Phased approach with Phase 1 (view appointments) followed by Phase 2 (request and schedule appointments)."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "phased UAT with specific authentication requirements"
+  
+  primary_criteria:
+    - "Phase 1: Veterans with UPCOMING health appointments at VA"
+    - "Must have MHV Premium account OR authenticated/identity-proofed ID.me account"
+    - "Must have logged into VA.gov before the session with their accounts"
+    - "Phase 2: Veterans enrolled in VA healthcare, some eligible for community care"
+    - "Veterans who want to submit/request appointments"
+    - "Ideally, veterans who have used online scheduling before or been seen at VA facility within last 2 years"
+    
+  secondary_criteria:
+    - "Must have account details handy for the session"
+    - "Email address used for VA.gov authentication needed prior to session if first-time login"
+      
+participants:
+  veterans: 50
+  caregivers: 0
+  dependents: 0
+  total_recruited: 50
+  completed_sessions_goal: 50
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "n/a"
+  research_dates: "Phase 1: 2019-11-14 onwards; Phase 2: First week of December 2019"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 30
+  buffer_minutes: 15
+  max_sessions_per_day: 8
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Migrate VAOS to VA.gov platform"
+      - "Enable appointment viewing and scheduling online"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "TBD"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VAOS"
+  - "PRDT: Appointments"
+  - "MHV: Appointments"
+  - "UAT"
+  - "production-testing"
+  - "phased-rollout"
+  - "MHV-Premium"
+  - "ID.me"
+  - "view-appointments"
+  - "cancel-appointments"
+  - "community-care"
+---
+
 # Research Plan for VAOS Phased Rollout UAT
 
 

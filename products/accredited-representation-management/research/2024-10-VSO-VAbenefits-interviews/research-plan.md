@@ -1,3 +1,141 @@
+---
+# Research Plan Metadata
+title: "Research Plan for AR Team, VSO - VA Benefits (526ez, 686c, 674) - Interviews, 10/2024"
+date: 2024-10-01
+last_updated: 2024-10-01
+team: "Accredited Representative Facing (ARF) Team"
+product: "Accredited Representative Portal (ARP)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans Service Organization Representatives need a modern, accessible, and secure online system to streamline digital form submissions and improve the experience for both representatives and Veterans they serve."
+  product_location: "Accredited Representative Portal on VA.gov"
+  user_familiarity: "New product development - MVP features evaluation"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representative-facing"
+
+# Research Design
+methodology: "semi-structured interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand how Veterans Service Organization Representatives (VSORs) prepare and file VA compensation disabilities claims (VA Form 21-526EZ) with Veterans"
+  - goal_2: "Understand desirability of SEP replacement and what features are required for minimal viable product (MVP) adoption"
+  - goal_3: "Understand VSOR assistive technology (AT) user needs"
+
+research_questions:
+  - "What is the VSORs process for preparing and filing VA disability compensation claims (VA Form 21-526EZ)?"
+  - "How do VSORs support Veterans with managing dependents with VA Forms 21-686c and 21-674?"
+  - "What technology do they use in their processes and what do they like and dislike about their digital tools?"
+  - "How do AT VSORs use technology to support them and what do they need to be successful with new VA.gov tools?"
+  - "What additional forms do VSORs frequently use and which would they find most beneficial to have digitized?"
+  - "If the ARP MVP only included instant acceptance/denial of VA Form 21-22, and submission of 21-686c and 21-674, would that be enough for ARP adoption?"
+
+hypotheses:
+  - "VSORs will want a reliable VA tool for processing claims"
+  - "VSORs will want all claims forms, including supporting forms, digitized"
+  - "VSORs will want a way to upload supporting documents"
+  - "VSORs will want a way to review past claims, and track new claims"
+  - "VSORs, including AT users, will prefer to fill out a PDF form, rather than a stepped flow"
+  - "VSORs will be open to ARP adoption without VA Form 21-526EZ"
+
+expected_outcomes: "Understanding VSORs process, technology use, and additional forms used will help inform features and functionality in the Accredited Representative Portal. Understanding what VSORs expect in an ARP MVP will help inform priorities. Stretch goal: Understanding how VSORs prepare and file VA compensation disability claims could inform existing benefits workflows on VA.gov."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Direct recruitment through VBA and VSO organizations"
+  approach: "Targeted recruitment of VSORs with mix of AT users, SEP users, and non-SEP users"
+  
+  primary_criteria:
+    - "Supports Veterans with filing VA disability compensation claims"
+    - "3 BVA AT users, 3 SEP users, 3 non-SEP users"
+    - "Recently supported a Veteran with filing a VA compensation claim"
+    
+  secondary_criteria:
+    - "No participant state overlap - target states: California, Texas, and Ohio"
+    - "Mix of singular and multiple VSO accreditations"
+    - "Mixture of officers and director role participants"
+    - "Mixture of novice and experienced VSORs"
+    - "Mixture of in-person, hybrid, and remote Veteran support"
+    
+  screener_questions:
+    - question: "What is your current job title?"
+      qualifying_response: "Open response"
+    - question: "How long have you been accredited to represent Veterans and claimants to VA?"
+      qualifying_response: "Open response"
+    - question: "Which Veterans Service Organizations are you accredited with?"
+      qualifying_response: "Open response"
+    - question: "Do you currently, or have you previously, used any tools to complete and submit VA Forms 21-526EZ, 21-686c or 21-674?"
+      qualifying_response: "SEP, AccessVA/QuickSubmit, Tyler Tech/Vetraspec, VetPro, or other tools"
+    - question: "Do you use any assistive technology when operating a computer or mobile device?"
+      qualifying_response: "Open response"
+      
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  accredited_representatives: 9
+  total_recruited: 9
+  completed_sessions_goal: 9
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-10-15"
+  pilot_participant: "TBD"
+  research_dates: "2024-10-16 to 2024-11-01"
+  research_review_submission: "2024-09-27"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 2
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1: Our digital experiences are the best way to access VA health care and benefits"
+    key_results: 
+      - "Key Result 2: Number of transactions processed during our products have increased by 25%"
+      - "Key Result 3: All new products have a faster transaction time than those they replaced"
+      - "Key Result 4: No transactions accepted by our products have a fatal error"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "2024-02 User Interviews"
+    - "2024-03 Single Accredited Testing"
+    - "2024-05 NACVSO Research"
+    
+tags:
+  - "accredited-representative-facing"
+  - "accredited-representative-portal"
+  - "interviews"
+  - "discovery"
+  - "vso-representatives"
+  - "disability-compensation"
+  - "form-21-526ez"
+  - "form-21-686c"
+  - "form-21-674"
+  - "form-21-22"
+  - "power-of-attorney"
+  - "assistive-technology"
+  - "accessibility"
+  - "SEP-replacement"
+  - "mvp-requirements"
+---
+
 # Research Plan for AR Team, VSO - VA Benefits (526ez, 686c, 674) - Interviews, 10/2024
 
 ## **Background**

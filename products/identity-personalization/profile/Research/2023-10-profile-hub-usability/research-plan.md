@@ -1,3 +1,161 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Authenticated Experience Profile team: Profile Hub usability study, October 2023"
+date: 2023-10-02
+last_updated: 2023-10-05
+team: "Authenticated Experience - Profile"
+product: "VA.gov Profile - Profile Hub"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Current Profile structure sends users directly to first section (Personal information), causing navigation issues: users miss the Profile menu, search for content already in Profile, and screen reader users encounter 'hubless spoke' accessibility problem where H2 appears before H1 in DOM."
+  product_location: "VA.gov Profile - new hub/landing page at va.gov/profile"
+  user_familiarity: "Iteration - restructuring Profile navigation with new true landing page/hub"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/hub/mvp/README.md"
+
+# Research Design
+methodology: "usability testing with coded prototype"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Evaluate the effectiveness of the Profile Hub page in helping people complete common tasks"
+  - goal_2: "Evaluate how well the proposed navigation changes perform across participant types (sighted and AT) and screen sizes (desktop and mobile)"
+  - goal_3: "Assess whether hub structure resolves information architecture and accessibility issues"
+
+research_questions:
+  - "How effective is the structure and hierarchy of the hub page?"
+  - "Is the hub page scannable/consumable by sighted and AT participants?"
+  - "How effective are the section overviews in giving users the gist of what's within each one?"
+  - "Do participants resort to using Search to complete any tasks?"
+  - "How useful are the deep links? Are they confusing?"
+  - "How well does the proposed navigation concept perform across all users and screen sizes (i.e., a menu-less hub page with navigable sections)?"
+  - "Is it disorienting to sighted and/or AT participants to go from an overview-style page with no nav menu to an individual section with side navigation menu?"
+  - "Does it introduce friction for mobile users to scroll the hub page's section overviews without the benefit of a menu?"
+  - "Are there any differences in usability between large and small screens?"
+  - "To what extent would veterans look in their authenticated menu for links to dependents and letters?"
+  - "Where within their profile would veterans expect to find emergency contact and next of kin information?"
+
+hypotheses:
+  - "Providing short overviews (accompanied by key deep links) of each section will reduce the need for people to search from any profile section for content that lives within their Profile"
+  - "Improving the page hierarchy will make the Profile content more scannable for sighted mobile users"
+  - "Creating a true landing page for Profile will give people who use screen readers the context they need to understand what's in their Profile and resolve the confusing experience of landing on a page that doesn't match the label on the link they clicked"
+  - "All participants will find the hub's section overviews helpful in completing common tasks and will not resort to using search"
+  - "All participants will be fine without a sidebar nav menu on the hub page and won't be confused by having a sidebar nav menu appear within sections"
+  - "AT participants in particular will find the hub's structure clear and are able to understand the contents within the Profile"
+  - "Participants using a mobile device will not find it inconvenient to scroll to see the hub's overviews of each section"
+
+expected_outcomes: "What we learn will inform the direction of this proposed design concept: we will either move forward with this design, making iterations as needed, or choose not to pursue this direction"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Cohort-based recruitment for different assistive technology and device types"
+  
+  primary_criteria:
+    - "All participants must be Veterans"
+    - "Must have signed into VA.gov in the last 6 months for any reason"
+    - "Must have identity-verified account on VA.gov"
+    - "Must be willing to share web browser window on Zoom"
+    - "Must have Zoom downloaded and know how to share screen"
+    
+  secondary_criteria:
+    - "2 people who use screen readers on desktop"
+    - "3 people who use magnification (2 must be desktop)"
+    - "At least 3 people who are 55+"
+    - "At least 4 people with cognitive considerations"
+    - "Cohort 1: Sighted desktop users (not screen reader) - recruit 2, complete 1"
+    - "Cohort 2: Mobile users (not screen reader) - recruit 3, complete 2"
+    - "Cohort 3: Screen reader desktop users - recruit 3, complete 2"
+    - "Cohort 4: Magnification users (desktop or mobile) - recruit 4, complete 3"
+    
+  screener_questions:
+    - question: "Do you have an identify-verified account on VA.gov? You can check by logging into VA.gov - if you see a prompt to verify your identity once you log in, your identity is not yet verified."
+      qualifying_response: "Yes qualifies"
+    - question: "Do you need to use screen reader technology to use the internet, such as VoiceOver on an iPhone, TalkBack on an Android device, or JAWS on a computer?"
+      qualifying_response: "Cohort-specific screening"
+    - question: "Do you normally need to resize font or use a magnification tool to see your screen when you are using the internet?"
+      qualifying_response: "Yes qualifies for Cohort 4"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Need minimum of 4 people with cognitive considerations"
+      
+participants:
+  veterans: 12
+  caregivers: 0
+  dependents: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-10-05"
+  pilot_participant: "Angela Fowler"
+  research_dates: "2023-10-11 to 2023-10-17"
+  research_review_submission: "2023-10-02"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase the accessibility, reliability, and security of Veteran's digital services"
+    key_results: 
+      - "Resolve 'hubless spoke' accessibility issue for screen reader users"
+  - objective: "Reduce the time it takes for Veterans to find, use, and receive VA services"
+    key_results:
+      - "Improve Profile navigation and findability through hub structure"
+  - objective: "Logged-in users can update their personal information easily and instantly"
+    key_results:
+      - "Create clearer entry point and navigation for Profile sections"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Provide overview of all Profile sections in one place"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Enable faster navigation to Profile features through section overviews and deep links"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account#readme"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/issues/41697"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/issues/40593"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: VA.gov Profile"
+  - "PRDT: Profile-hub"
+  - "research-method: usability-testing"
+  - "research-method: moderated"
+  - "research-method: remote"
+  - "device: desktop"
+  - "device: mobile"
+  - "assistive-technology: screen-reader"
+  - "assistive-technology: magnification"
+  - "cognitive-disability"
+  - "authenticated-experience"
+  - "accessibility"
+  - "information-architecture"
+  - "navigation"
+  - "DSP: Hub-and-spoke"
+---
+
 # Research Plan for Authenticated Experience Profile: Profile Hub usability study, October 11-17, 2023
 
 ## Background

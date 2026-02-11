@@ -1,3 +1,121 @@
+---
+# Research Plan Metadata
+title: "In-Person UAT for Travel Reimbursement on Smartphone at VA Oracle Health Facilities"
+date: 2024-02-16
+last_updated: 2024-02-16
+team: "Patient Check-In (PCI)"
+product: "Travel Reimbursement via Text for Oracle Health Facilities"
+product_area: "unauthenticated - LoROTA"
+
+# Background Context
+background:
+  problem_statement: "Veterans who have medical appointments at VA health facilities using Oracle Health EHR need to be able to file a mileage-only travel reimbursement claim on the day of their appointment using their smartphone with streamlined authentication."
+  product_location: "Text-based travel reimbursement (text 'travel' to 54804) for Oracle Health facilities"
+  user_familiarity: "New feature - piloting travel reimbursement at Oracle Health facilities"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/Initiatives/check-in-for-oracle-health.md"
+
+# Research Design
+methodology: "in-person UAT and semi-structured interviews"
+research_format: 
+  location: in-person
+  in_person_details:
+    facility: "TBD - VA Oracle Health facility (Portland or Columbus)"
+    point_of_contact: "Veterans Transportation Program (VTP) and facility leadership"
+    equipment: "Veterans' personal smartphones"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Get user acceptance feedback from Veterans and staff on the travel reimbursement feature's ease of use"
+  - goal_2: "Identify any challenges created for staff by the new tool"
+  - goal_3: "Understand what expectations were unmet and gather feedback on the overall check-in ecosystem at Oracle Health facilities"
+
+research_questions:
+  - "How do Veterans find out about filing a travel reimbursement claim by texting travel to 54804?"
+  - "How easy or difficult is it for Veterans to initiate and complete filing a claim?"
+  - "Do Veterans understand what claim types they can file with this tool and when they can file claims?"
+  - "What feedback have MSAs, Clinic Managers, and Travel Office Staff received from Veterans about the new tool?"
+  - "How has it impacted MSA and Travel Office work or workload?"
+  - "How has the clinic or facility helped Veterans learn about filing travel reimbursement by text?"
+  - "What are the current pain points when checking in and where are opportunities for improvement?"
+
+hypotheses:
+  - "Most Veterans will not know about this modality for filing a travel reimbursement claim"
+  - "Veterans will find it extremely easy to initiate and file a claim from their smartphones, though some will have difficulties because of cellular reception"
+  - "Veterans will be able to easily identify the two types of claims that they can file"
+  - "Most Veterans will understand that they have to file today, while asking why that's different than the 30 day rule"
+  - "MSAs and Clinic Managers will have feedback from Veterans that it's an extremely helpful and needed tool"
+  - "MSAs will mention that they receive questions on occasion, which adds to their responsibilities, but they're able to quickly direct them to contact the Travel Office"
+  - "Travel assistants and managers will report more claims coming in that require manual review, which naturally increases workload"
+
+expected_outcomes: "The findings will inform improvements to the travel reimbursement feature and provide insights into the check-in ecosystem at Oracle Health facilities to guide future development."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "In-person intercepts - no formal recruitment"
+  approach: "Veteran intercepts at various clinics during busy times and semi-structured interviews with clinic and Travel Office staff"
+  
+  primary_criteria:
+    - "Veterans checking out of appointments at Oracle Health facility"
+    - "MSAs and Clinic Managers"
+    - "Travel Office staff"
+      
+participants:
+  veterans: "TBD - intercept model"
+  caregivers: 0
+  dependents: 0
+  total_recruited: "TBD"
+  completed_sessions_goal: "TBD"
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "N/A"
+  pilot_participant: "N/A"
+  research_dates: "TBD"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: "varies by intercept"
+  buffer_minutes: 0
+  max_sessions_per_day: "varies"
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+  - objective: "Logged-in users have a personalized experience with relevant and time-saving features"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/Initiatives/check-in-for-oracle-health.md"
+    
+tags:
+  - "health-care"
+  - "patient-check-in"
+  - "travel-reimbursement"
+  - "BTSSS"
+  - "Oracle-Health"
+  - "Cerner"
+  - "in-person-research"
+  - "UAT"
+  - "intercepts"
+  - "semi-structured-interviews"
+  - "veterans"
+  - "MSA"
+  - "clinic-staff"
+  - "travel-office"
+  - "smartphone"
+  - "mobile"
+  - "LoROTA"
+  - "text-message"
+  - "mileage-reimbursement"
+  - "VTP"
+  - "facility-research"
+---
+
 In-Person UAT for Travel Reimbursement on Smartphone at VA Oracle Health Facilities  
 ======================
 

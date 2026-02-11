@@ -1,3 +1,107 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Health Questionnaire, Clinical Reminders Pilot - Staff Interviews: Phase 1a, November 2023"
+date: 2023-11-01
+last_updated: 2026-02-10
+team: "Health Questionnaires"
+product: "Clinical Reminders"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The volume of clinical reminders has been impacting the quality of the time the patient spends with the provider. Providers have also reported increased burden due to data entry and notification fatigue. VHA is in search of a tool that allows customizable and standardized health forms, screeners, and questionnaires to be sent to the patient to collect responses asynchronously."
+  product_location: "VA.gov health portal integration - Behavioral Health Labs (BHL) and eScreening tools"
+  user_familiarity: "New product - pilot evaluation comparing BHL and eScreening tools from staff perspective"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/504"
+
+# Research Design
+methodology: "semi-structured-interviews"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Evaluate ease of learning and using clinical reminder tools from provider perspective"
+  - goal_2: "Assess impact on provider workflows, data entry burden, and notification fatigue"
+  - goal_3: "Compare BHL and eScreening tools to determine provider preference and identify improvements"
+
+research_questions:
+  - "How easy was it to learn to use the tool?"
+  - "How easy was the configuration/set up process for the tool?"
+  - "How long did it take to learn to use the tool?"
+  - "Would providers change anything about the training they received? If yes, what?"
+  - "How easy is the tool to utilize?"
+  - "Was data entry simplified?"
+  - "Was notification fatigue reduced?"
+  - "Was overall clinic reminder burden reduced?"
+  - "Did the quality of the time providers spend with patients improve?"
+  - "How much time do providers estimate was saved by collecting these clinical reminder responses prior to the appointment?"
+  - "Were providers workflows affected either positively or negatively? If yes, how?"
+  - "Do providers feel this process maintains an appropriate level of safety and clinical integrity?"
+  - "How does BHL compare to eScreening for each requirement? Which tool is preferred?"
+  - "How could the tools or experience be improved or changed?"
+  - "What was the final process for sending, receiving, and reviewing these questionnaires implemented at each location?"
+
+hypotheses:
+  - "The tool will reduce overall clinical reminder burden for providers, including data entry and notification fatigue."
+  - "Providers will perceive digital questionnaires to be a safe way to gather this information from Veterans."
+  - "Provider will identify areas to improve the ease of use within the tool."
+
+expected_outcomes: "Gather provider feedback to compare BHL and eScreening tools and inform decision on clinical reminder digitization approach for provider workflows."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "OCC/OCTO internal recruitment"
+  approach: "Purposive sampling of staff at pilot clinics"
+  
+  primary_criteria:
+    - "A minimum of three providers per pilot clinic"
+    - "At least one nursing staff member"
+    - "A minimum of one Healthcare System Technical Administrator (HSTA) and/or Clinical Application Coordinator (CAC) per pilot location"
+    - "One Toxic Exposure Screening (TES) Navigator at each pilot location"
+    - "At least 2 staff members must have reviewed positive screener results"
+    - "At least 2 staff members must have reviewed negative screener results"
+    - "At least 1 staff member must have reviewed both positive and negative screener results"
+    
+participants:
+  va_staff: 15
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  research_dates: "2024-01-22 to 2024-01-30"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Enhance Veterans' personalized online experience"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/questionnaire/research/2023-11-clinical-reminders-staff/conversation-guide.md"
+    
+tags:
+  - "AUD: VA Staff"
+  - "AUD: Clinicians"
+  - "BNFT: Healthcare"
+  - "PRDT: Questionnaire"
+  - "PRDT: Clinical-reminders"
+  - "semi-structured-interviews"
+  - "authenticated"
+  - "remote"
+  - "pilot"
+---
+
 # 2023-11 Research Plan for Health Questionnaire, Clinical Reminders Pilot - Staff Interviews: Phase 1a
 
 [2023-11 Health Questionnaire, Clinical Reminders Pilot - Staff Interviews, November 2023 #504](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/504)

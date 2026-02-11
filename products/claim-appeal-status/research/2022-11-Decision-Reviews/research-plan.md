@@ -1,3 +1,120 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Benefits Team 1: Decision Review Options, January 2023"
+date: 2022-11-01
+last_updated: 2022-11-01
+team: "Benefits Team 1"
+product: "Decision Review Options"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans need better guidance on decision review options (Supplemental Claim, Higher Level Review, Notice of Disagreement) and understanding which use cases can be fully self-service given complexity and high stakes nature"
+  product_location: "Decision Review pages on VA.gov"
+  user_familiarity: "Iteration of existing decision review process"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-strategy.md"
+
+# Research Design
+methodology: "semi-structured interviews and concept prototype testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Learn about pain points in the decision review user journey from Veterans who have engaged in a decision review"
+  - goal_2: "Understand which decision review journeys can be fully self-service versus requiring VSO support"
+  - goal_3: "Test concept prototype to assess value of digital self-service tool for decision reviews"
+
+research_questions:
+  - "Did you use VA.gov to file your decision review option?"
+  - "What were your main reasons for filing the decision review option?"
+  - "Did you consult a third party (Veteran rep, lawyer) when filing?"
+  - "What were your biggest challenges with the process?"
+  - "How helpful is the concept prototype for deciding which decision review option is right?"
+  - "What would you expect to happen if you filed a decision review option digitally?"
+
+hypotheses:
+  - "A fully self-service digital experience will not satisfy all use cases for Veterans pursuing decision reviews"
+  - "Veterans might not fully trust the VA to appoint a representative and prefer seeking their own"
+  - "Self-service works well for simplified or automated use cases like PACT Act experience"
+
+expected_outcomes: "Get foundational qualitative data to strengthen understanding of decision review options from Veteran perspective and identify problems to solve with design ideation"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling - recruit Veterans with different decision review experiences"
+  
+  primary_criteria:
+    - "Veterans who have experience with decision review process for disability compensation claims"
+    - "20 participants who have submitted a Supplemental Claim"
+    - "10 participants who have submitted a Higher Level Review"
+    - "10 participants who have submitted a Notice of Disagreement"
+    - "Process happened within last ~5 years or currently in progress"
+    
+  secondary_criteria:
+    - "At least 20 Veterans who worked with a VSO in pursuing their decision review"
+    - "10 primarily mobile users"
+    - "10 Veterans in rural areas"
+    - "10 Veterans without a degree"
+    
+  screener_questions:
+    - question: "Have you ever submitted either a Supplemental Claim (Form 20-0995), a Higher Level Review (Form 20-0996), or a Notice of Disagreement (Form 10182)?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 40
+  caregivers: 0
+  dependents: 0
+  total_recruited: 40
+  completed_sessions_goal: 20
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-01-19"
+  pilot_participant: "Rocio de Santiago (rocio@coforma.io)"
+  research_dates: "2023-01-23 to 2023-02-03"
+  research_review_submission: "2023-01-12"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can apply for all benefits online"
+    key_results: "Enable online decision review applications"
+  - objective: "Logged-in users can easily track applications, claims, or appeals online"
+    key_results: "Improve tracking of decision review status"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Provide clear decision review guidance"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Personalize decision review recommendations"
+      
+veteran_journey_phases:
+  - "Taking Care of Myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-strategy.md"
+    - "https://www.va.gov/resources/choosing-a-decision-review-option/"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Decision-reviews"
+  - "PRDT: Supplemental-claims"
+  - "PRDT: Higher-level-review"
+  - "PRDT: Notice-of-disagreement"
+  - "semi-structured-interviews"
+  - "concept-testing"
+  - "authenticated"
+  - "DSC: Form"
+---
+
 # Research Plan for Benefits Team 1: Decision Review Options
 
 ##### Note: "Decision Review Option" refers to a Veteran attempt to change their claim decision via either a Supplemental Claim (Form 20-0995), a Higher Level Review (Form 20-0996) , or a Notice of Disagreement (Form 10182).

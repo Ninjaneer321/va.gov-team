@@ -1,3 +1,126 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Medical Copay Tool MVP UAT, November 2021"
+date: 2021-11-03
+last_updated: 2026-02-10
+team: "Debt Resolution Team"
+product: "Medical Copay Tool (MVP)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The Medical Copay Tool is the next product to move towards unifying Veteran VA debt into a modern, consolidated experience. The MVP displays a list of Veteran's balance(s) at each VA health care facility, with access to monthly statements (PDF) and information about paying or requesting financial help."
+  product_location: "VA.gov authenticated experience - Medical Copay Tool"
+  user_familiarity: "New product launch - UAT for MVP"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/Medical_Copays/Product_Outline_Medical_Copays.md"
+
+# Research Design
+methodology: "User Acceptance Testing (UAT)"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Validate Medical Copay Tool functionality works as expected in production before launch"
+  - goal_2: "Test with real users since pre-prod environment testing is not available"
+  - goal_3: "Identify unexpected bugs or issues with production implementation"
+
+research_questions:
+  - "Does the 'Your current copay balances' page load the Veteran's list of facilities visited in the past 2 years with corresponding balances?"
+  - "Does the empty state load when it should?"
+  - "Are unauthenticated users redirected to the content page?"
+  - "Does the correct number of facilities on the Veteran's record load?"
+  - "Is facility data correctly displayed (facility name, location, balance amount, date to pay)?"
+  - "Do facilities with $0 copay balance load correctly?"
+  - "Does the contact information for facilities load?"
+  - "Does the 'Updated on' date match the most recent statement?"
+  - "Does the correct number of statements load with correct dates?"
+  - "Is the correct account number displayed under payment accordions?"
+  - "Does the statement download functionality work?"
+  - "Does the downloaded statement match the corresponding data on detail page?"
+
+hypotheses:
+  - "The Medical Copay Tool's functionality will work as expected, but we may discover unexpected bugs"
+
+expected_outcomes: "Validate production functionality and identify any bugs before full launch to all Veterans"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment for varied VA health care enrollment and copay statement scenarios"
+  
+  primary_criteria:
+    - "2 participants not enrolled in VA health care"
+    - "8 participants enrolled in VA health care with varying copay scenarios"
+    - "All participants must be LOA3 (identity verified) on VA.gov"
+    - "All must be comfortable providing last four of SSN for verification"
+    - "All must be comfortable providing email address used to sign into VA.gov (2-3 days before study)"
+    - "Must be able to screenshare via Zoom"
+    
+  secondary_criteria:
+    - "At least one person who uses assistive technology (AT) such as specialized keyboards"
+    
+  screener_questions:
+    - question: "Are you enrolled in VA health care?"
+      qualifying_response: "Mix of yes and no responses"
+    - question: "Have you received a VA copay statement since October 1st, 2021?"
+      qualifying_response: "Mix of responses for different scenarios"
+    - question: "Can you confirm you are LOA3 (identity verified) on VA.gov?"
+      qualifying_response: "Yes - can access VA.gov profile without being prompted to verify identity"
+      
+participants:
+  veterans: 10
+  caregivers: 0
+  dependents: 0
+  total_recruited: 10
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-12-03"
+  pilot_participant: "Craig Wheeler"
+  research_dates: "2021-12-07 to 2021-12-10"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 30
+  buffer_minutes: 15
+  max_sessions_per_day: 6
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: "Launch Medical Copay Tool to provide access to copay balances and statements"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Consolidate debt and copayment information in modern, unified experience"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Managing primary care and chronic health issues"
+  - "Managing my declining health"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/Medical_Copays/research/jun-2021/research-plan.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/Medical_Copays/research/apr-2021/research-plan.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Medical Copays"
+  - "PRDT: Debt Portal"
+  - "BNFT: Healthcare"
+  - "UAT"
+  - "user-acceptance-testing"
+  - "remote-research"
+  - "authenticated-experience"
+  - "payment"
+  - "debt-resolution"
+  - "financial-management"
+  - "pre-launch"
+---
+
 # MCP's MVP UAT Research Plan
 
 November 2021 

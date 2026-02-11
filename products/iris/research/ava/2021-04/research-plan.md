@@ -1,3 +1,119 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VSP Contact Center, Ask VA (AVA), April 2021"
+date: 2021-04-14
+last_updated: 2026-02-10
+team: "VSP Contact Center"
+product: "Ask VA (AVA)"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Need to identify any remaining usability issues with Ask VA tool before full release. AVA enables Veterans and VA.gov users to submit inquiries digitally, but must ensure user-friendly experience that elicits trust."
+  product_location: "VA.gov Contact Us section - Ask VA portal"
+  user_familiarity: "new product"
+  product_brief_url: "TBD"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Identify what changes need to be implemented before the full release of Ask VA"
+  - goal_2: "Explore Customer Satisfaction & Trust, Findability, and Task/Service Completion"
+  - goal_3: "Test the full AVA experience including form content and interaction"
+
+research_questions:
+  - "Does AVA provide end users with a user-friendly method of submitting inquiries for issues regarding VA.gov?"
+  - "What are end users expectations in regards to inquiry submissions? (information needed, response time, login info, etc.)"
+  - "Does AVA provide an interface that elicits trust from the end user?"
+  - "Is plain language utilized throughout the entirety of the AVA application?"
+
+hypotheses:
+  - "Though users will be able to successfully submit a new inquiry, they will experience areas of uncertainty throughout the process"
+
+expected_outcomes: "Findings will inform final improvements to AVA before full launch, ensuring a trustworthy and user-friendly inquiry submission experience."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation"
+  
+  primary_criteria:
+    - "5 mobile participants who have visited VA.gov on mobile device previously"
+    - "10 desktop participants"
+    
+  secondary_criteria:
+    - "Participants who have previously interacted with VA.gov in reference to their GI Bill"
+    - "2-3 participants who currently use a screen reader to navigate websites"
+    
+  screener_questions:
+    - question: "Have you visited VA.gov on your mobile device previously?"
+      qualifying_response: "Yes (for 5 participants)"
+    - question: "Do you currently use a screen reader to navigate websites?"
+      qualifying_response: "Yes (nice to have 2-3)"
+      
+participants:
+  veterans: 15
+  caregivers: 0
+  dependents: 0
+  total_recruited: 15
+  completed_sessions_goal: 15
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-04-13"
+  pilot_participant: "Jason Woodman, Stan Moran, Chante Lantos-Swett"
+  research_dates: "2021-04-14 to 2021-04-23"
+  research_review_submission: "2021-04-13"
+  
+session_details:
+  duration_minutes: 30
+  buffer_minutes: 15
+  max_sessions_per_day: 8
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: "Enable Veterans to easily submit and track inquiries digitally"
+  - objective: "Increase the quality and reliability of VA services"
+    key_results: "Provide a trustworthy and accessible inquiry submission process"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/iris/research/ava/2021-07/research-plan.md"
+    
+tags:
+  - "PRDT: Ask VA"
+  - "PRDT: IRIS"
+  - "PRDT: Contact Center"
+  - "AUD: Veterans"
+  - "usability testing"
+  - "accessibility"
+  - "form design"
+  - "customer service"
+  - "trust"
+  - "plain language"
+  - "DSC: Form controls"
+  - "DSP: Form design"
+  - "HDW: Mobile"
+  - "HDW: Desktop"
+  - "HDW: Screen reader"
+  - "remote"
+  - "moderated"
+---
+
 # Research Plan for Ask VA, April 2021
 
 

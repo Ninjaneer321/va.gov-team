@@ -1,3 +1,116 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Veteran Caller User Journey, September 2022"
+date: 2022-09-01
+last_updated: 2022-09-01
+team: "VSP Contact Center"
+product: "Contact Center User Journey"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Need to establish a verified user journey for VA.gov users who call to use Contact Center services (Tier 1 and Tier 2). Understanding pain points and blockers when Veterans contact the call center to resolve VA.gov issues."
+  product_location: "Contact Center services - supporting VA.gov issues"
+  user_familiarity: "New - documenting user journey"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/issues/40967"
+
+# Research Design
+methodology: "Semi-structured interviews"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand the pain points of VA.gov users that use Tier 1 Call Center systems for resolving VA.gov issues"
+  - goal_2: "Discover insights and task blockers for VA.gov users that have their issues routed from Tier 1 to Tier 2"
+  - goal_3: "Discover insights regarding Tier 1 service teams using VA tools (Salesforce, Microsoft Dynamics, Ask VA) to interface with Veterans and beneficiaries"
+
+research_questions:
+  - "What are the most prominent pain points in Veterans' journey from not finding their answer on VA.gov to calling the Tier 1 call centers?"
+  - "Are the current expectations for VA.gov users to have their issues resolved set correctly by the Tier 1 Call center agent?"
+  - "What steps do Veterans take to contact the VA call center about their issue?"
+  - "How long did Veterans expect for their issue to be resolved, and how many calls have taken place?"
+  - "What have been blockers and difficulties in getting services through the VA call center?"
+  - "Did Veterans feel they ended up with a satisfactory answer?"
+
+hypotheses:
+  - "VA.gov users that cannot complete an initial inquiry on VA.gov will often directly call the Tier 1 Call center in hope of finding a specific resolution"
+  - "Veterans opt to call in first rather than use VA tools such as Ask VA"
+  - "Expectations of timeframe for issue resolution are not correctly communicated, leading to more frustration"
+
+expected_outcomes: "This research will advance user journey documentation for Veterans calling Tier 1 and 2 call centers. Provide potential recommendations for improvements to the support user journey as it relates to resolving VA.gov issues and blockers."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment of Veterans who have used call center services"
+  
+  primary_criteria:
+    - "VA.gov users that had used Tier 1 call center services"
+    - "At least 1 Assistive Technology (AT) user"
+    - "At least 2-3 rural location based"
+    - "At least 2-3 women, non-Caucasian"
+    - "At least 1-2 non-binary, non-cisgender"
+    - "At least 3-4 mobile users of VA.gov"
+    
+participants:
+  veterans: 5
+  caregivers: 0
+  dependents: 0
+  total_recruited: 10
+  completed_sessions_goal: 5
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2022-08-26"
+  pilot_participant: "Steven Tarlow"
+  research_dates: "2022-08-30 to 2022-09-07"
+  research_review_submission: "Not specified"
+  
+session_details:
+  duration_minutes: 40
+  buffer_minutes: 10
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Improve call center experience and resolution"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Better support pathways for issue resolution"
+  - objective: "Veterans and their families trust the security accuracy and relevancy of VA.gov"
+    key_results: "Improve confidence in call center support"
+      
+veteran_journey_phases:
+  - "Getting out"
+  - "Starting up"
+  - "Living civilian life"
+  - "Reinventing myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsp/teams/contact-center/research/Q2-2022/VA_Caller/convoguide-tier1.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Contact-center"
+  - "AUD: Contact Center"
+  - "semi-structured-interviews"
+  - "user-journey"
+  - "call-center"
+  - "customer-support"
+  - "tier-1"
+  - "tier-2"
+  - "authenticated"
+  - "assistive-technology"
+  - "mobile"
+  - "rural"
+  - "Ask-VA"
+  - "Salesforce"
+---
+
 # Research Plan for Veteran Caller User Journey, September 2022
 
 

@@ -1,3 +1,136 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Accredited Representative Facing Team, OGC Contact Information Updates, 07/2024"
+date: 2024-07-01
+last_updated: 2024-07-01
+team: "Accredited Representative Facing (ARF) Team"
+product: "Accredited Representative Portal (ARP) - Contact Information Management"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Updating contact information for VSO Representatives in the accredited representative directory is cumbersome and manual, with VA's Office of General Counsel (OGC) updating entries upon email request. This process needs to be streamlined to reduce errors and save time."
+  product_location: "Accredited Representative Portal on VA.gov, connecting to Find a Representative directory"
+  user_familiarity: "New feature - contact information self-service updates"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representative-facing"
+
+# Research Design
+methodology: "semi-structured interviews, concept testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Determine requirements for email address field(s) and understand different email addresses representatives use for different purposes"
+  - goal_2: "Determine requirements for address field(s) and how many address fields are needed"
+  - goal_3: "Determine permissions for VSO Representatives and certifying officials for updating contact information"
+  - goal_4: "Determine if public-facing VSO directories are a reliable source of truth for contact information"
+
+research_questions:
+  - "What different email addresses do representatives have, and do they use different email addresses for different purposes (e.g. VA vs. client communications)?"
+  - "How many address fields do we need to provide, and what should distinguish one address from another?"
+  - "Are certifying officials the only ones who can update a VSO Representative's information?"
+  - "Are public-facing VSO directories accurate, and do they include location and phone number?"
+  - "What are the workflows and policies for updating contact information in different VSO organizations?"
+
+hypotheses:
+  - "Representatives use different email addresses for VA communications vs. client communications"
+  - "Multiple address fields may be needed for physical office, mailing, and remote work locations"
+  - "Certifying officials will need primary permission to update representative information"
+  - "Public VSO directories vary in accuracy and completeness"
+
+expected_outcomes: "Research will inform the design of a self-service contact information update feature in ARP that reduces errors, speeds up the process, and saves OGC time. Findings will determine field requirements, permission models, and validation approaches for contact information management."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Direct recruitment via OGC and NOVA"
+  approach: "Targeted recruitment of VSO certifying officials, attorneys, and claims agents"
+  
+  primary_criteria:
+    - "VSO certifying officials (accredited and non-accredited)"
+    - "Accredited attorneys and claims agents"
+    - "Representatives from state, tribal, and Big 6 VSOs"
+    
+  secondary_criteria:
+    - "Cross-accredited attorneys or agents"
+    - "Representatives with different organizational structures"
+    
+  screener_questions:
+    - question: "What is your role in your organization?"
+      qualifying_response: "Certifying official, accredited attorney, or accredited claims agent"
+    - question: "What type of organization do you work with?"
+      qualifying_response: "VSO (Big 6, state, tribal), law firm, or claims agent firm"
+      
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  accredited_representatives: 10
+  vso_certifying_officials: 6
+  attorneys_claims_agents: 5
+  total_recruited: 11
+  completed_sessions_goal: 9
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-07-15"
+  pilot_participant: "TBD"
+  research_dates: "2024-07-22 to 2024-08-02"
+  research_review_submission: "2024-07-01"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1: Our digital experiences are the best way to access VA health care and benefits"
+    key_results: 
+      - "Key Result 2: Number of transactions processed during our products have increased by 25%"
+      - "Key Result 3: All new products have a faster transaction time than those they replaced"
+      - "Key Result 4: No transactions accepted by our products have a fatal error"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "2024-02 User Interviews"
+    - "2024-03 Single Accredited Testing"
+    - "2024-05 NACVSO Research"
+    - "Current state map: https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1717174574592"
+    
+tags:
+  - "accredited-representative-facing"
+  - "accredited-representative-portal"
+  - "semi-structured-interviews"
+  - "concept-testing"
+  - "contact-information"
+  - "representative-directory"
+  - "find-a-representative"
+  - "vso-certifying-officials"
+  - "attorneys"
+  - "claims-agents"
+  - "OGC"
+  - "self-service"
+  - "permissions"
+  - "profile-management"
+  - "big-6-vso"
+  - "state-vso"
+  - "tribal-vso"
+  - "NOVA"
+---
+
 # Research Plan for Accredited Representative Facing Team, OGC Contact Information Updates, 07/2024<a id="research-plan-for-accredited-representative-facing-team-ogc-contact-information-updates-072024"></a>
 
 ## Background<a id="background"></a>

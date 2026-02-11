@@ -1,3 +1,137 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Login.gov Adoption Discovery, November 2022"
+date: 2022-10-31
+last_updated: 2022-11-04
+team: "Identity Team"
+product: "Login.gov Adoption"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Multiple sign-on options for accessing My HealtheVet and VA services do not meet required security standards and create user frustration and confusion. Need to migrate existing users and onboard new users to Login.gov as a compliant single sign-on credentialing platform."
+  product_location: "Login/Authentication system for My HealtheVet and VA.gov services"
+  user_familiarity: "New - Login.gov exists but migration pathways and adoption strategies need validation"
+  product_brief_url: "N/A"
+
+# Research Design
+methodology: "mixed-methods: scenario validation, service prototype testing, contextual intercepts"
+research_format: 
+  location: in-person
+  in_person_details:
+    facility: "Tampa VA Medical Center (Primary Care Annex and Main Facility)"
+    point_of_contact: "Mike Prusaitis, Kit Casey, Samara Watkiss"
+    equipment: "Audio recording device, camera, pens and notebooks, research stimuli"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand how we can intervene to ensure that new generations of Veterans use Login.gov to access My HealtheVet from the start"
+  - goal_2: "Understand what in-person support will enable Veterans to create and use a Login.gov account to access My HealtheVet"
+  - goal_3: "Understand how the greatest number of Veterans can use multi-factor authentication options, including security keys"
+  - goal_4: "Understand how setting up and maintaining shared access might work for Veterans and non-Veterans"
+
+research_questions:
+  - "At what moment or moments does it make the most sense for proactive intervention to encourage the creation of a Login.gov account?"
+  - "What is the most effective way of messaging and communicating the value of Login.gov?"
+  - "How can we best support the Veteran and non-Veteran roles post-initial setup of Login.gov?"
+  - "During the in-person proofing process and account migration, what technical issues arise and other challenges arise for Veterans?"
+  - "How might messaging, support materials, and new workflows alleviate these challenges?"
+  - "How can we best explain the value and process of MFA?"
+  - "Could Security keys offer a better MFA option for Veterans with unique challenges?"
+  - "What options for MFA would allow more Veterans to migrate to Login.gov?"
+  - "How can MFA support Veteran caregivers who need to access certain portions of Veteran information?"
+  - "If given the option to opt out of using MFA, would Veterans take it?"
+
+hypotheses:
+  - "Veterans go through extensive identity proofing when applying to get VA Healthcare and acquiring their VHIC. Getting the photo for the VHIC would be appropriate moment for Veterans to proactively set up Login.gov accounts."
+  - "Getting the messaging correct is key for Login.gov adoption. Messaging must help to clarify that Login.gov is a portal, not a destination, and should resonate with Veterans and MHV coordinators."
+  - "Offering an in-person proofing option will increase adoption of Login.gov and make it a viable option for Veterans who are not able to complete the process online."
+  - "Security keys might be an MFA option that is easier for Veterans with technology issues and disabilities to use and provide additional benefits for managing caregiver access."
+
+expected_outcomes: "Service blueprint, recommended concepts and guidance for messaging related to how the VA can offer in-person proofing to increase the adoption of Login.gov, including supporting the user in setting up multi-factor authentication. Recommendations for interventions to encourage Veterans to create Login.gov accounts early on. Documentation of opportunities for future research and exploration."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation across two user groups (Migration and Proactive)"
+  
+  primary_criteria:
+    - "Migration Group (60-70%): Active My HealtheVet premium users who do not have a Login.gov account"
+    - "Proactive Group (30-40%): Recently received VHIC (within 6 months), no My HealtheVet account, no Login.gov account"
+    - "Diverse representation across sex, LGBTQ+, race, age, benefits, branch, education, residence, hardware, assistive technology, and cognitive impairments"
+    
+  secondary_criteria:
+    - "Veterans who have tried and failed to set up a Login.gov account (preferred for Migration Group)"
+    - "7 participants requiring caregiver assistance"
+    
+  screener_questions:
+    - question: "Do you have a Login.gov account?"
+      qualifying_response: "No"
+    - question: "Do you have a My HealtheVet account?"
+      qualifying_response: "Yes (Migration Group) or No (Proactive Group)"
+    - question: "Have you or someone acting on your behalf logged into My HealtheVet in the last 3 months?"
+      qualifying_response: "Yes (Migration Group only)"
+    - question: "Do you have a VHIC (Veteran Health Identification Card)?"
+      qualifying_response: "Yes (Proactive Group only)"
+    - question: "When did you get your VHIC?"
+      qualifying_response: "Within the last 6 months (Proactive Group only)"
+      
+participants:
+  veterans: 20
+  caregivers: 7
+  dependents: 0
+  total_recruited: 10
+  completed_sessions_goal: 10
+
+# Timeline & Sessions
+timeline:
+  pilot_date: "2022-10-20"
+  pilot_participant: "alicia.spanswick@frogdesign.com"
+  research_dates: "2022-10-31 to 2022-11-04"
+  research_review_submission: "2022-10-03"
+  
+session_details:
+  duration_minutes: 90
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: "Increase successful login completion and reduce authentication barriers"
+  - objective: "Veterans and their families trust the security accuracy and relevancy of VA.gov"
+    key_results: "Implement secure compliant authentication system with Login.gov"
+      
+veteran_journey_phases:
+  - "Starting up: Attending to health needs"
+  - "Retiring: Taking care of my health"
+  - "Aging: Managing my declining health"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Login.gov adoption discovery research findings.md (same directory)"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: Login.gov"
+  - "PRDT: My-HealtheVet"
+  - "DSP: Help users to sign in"
+  - "DSP: Help users to recover from an error"
+  - "semi-structured-interviews"
+  - "scenario-validation"
+  - "service-design"
+  - "contextual-inquiry"
+  - "in-person"
+  - "multi-factor-authentication"
+  - "identity-proofing"
+  - "accessibility"
+  - "security-keys"
+---
+
 # Research Plan: Login.gov Adoption Discovery
 November 2022
 

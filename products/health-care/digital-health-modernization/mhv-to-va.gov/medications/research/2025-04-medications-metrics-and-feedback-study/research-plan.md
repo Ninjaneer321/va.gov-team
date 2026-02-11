@@ -1,3 +1,136 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV on VA.gov, Medications, Feb - Apr 2025"
+date: 2025-02-18
+last_updated: 2025-02-18
+team: "Digital Health Modernization - MHV on VA.gov"
+product: "Medications on VA.gov"
+product_area: "authenticated"
+study_type: "veteran-facing"
+
+# Background Context
+background:
+  problem_statement: "Continue monitoring Medications product through usage metrics and Veteran feedback to ensure the best user experience for Veterans to find and fill their medications"
+  product_location: "VA.gov > My HealtheVet > Medications"
+  user_familiarity: "Iteration - Ongoing monitoring of live product with various iterations based on prior feedback"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
+
+# Research Design
+methodology: "metrics monitoring and feedback analysis"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: false
+  platform: "online - Datadog RUM, Google Analytics 4, Medallia"
+  data_sources: "Datadog RUM, Google Analytics 4, Medallia Feedback and Intercept surveys"
+  
+# Research Goals & Questions
+research_goals:
+  - "Understand how Veterans are accessing their medication information"
+  - "Understand how Veterans are using the refill prescriptions flow"
+  - "Uncover any pain points Veterans are experiencing"
+
+research_questions:
+  - "What methods are Veterans using to find information on their medications?"
+  - "How are Veterans refilling their medications?"
+  - "What pain points are Veterans communicating?"
+
+hypotheses:
+  - "Veterans' use of filters will increase"
+  - "Veterans will select individual medications more than using the select all option"
+  - "Veterans will share their frustrations with finding medication information"
+
+expected_outcomes: "The results of this study will help us determine if our designs provide the best user experience for Veterans to find and fill their medications. This will inform future design iterations and any further research strategy"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "N/A - Monitoring live product usage"
+  approach: "Organic user feedback and analytics data collection"
+  
+  primary_criteria: []
+    
+  secondary_criteria: []
+    
+  screener_questions: []
+      
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  total_recruited: 0
+  completed_sessions_goal: 0
+  note: "No recruitment needed - monitoring live product"
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "N/A"
+  pilot_participant: "N/A"
+  research_dates: "2025-02-18 to 2025-04-15"
+  research_review_submission: "2025-02-18"
+  
+session_details:
+  duration_minutes: 0
+  buffer_minutes: 0
+  max_sessions_per_day: 0
+  note: "Continuous monitoring - no sessions"
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
+
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Initial Medications usability studies"
+    - "Various iterations based on prior feedback"
+    
+study_materials:
+  mural: "https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1741373424931/5441344c74ed238bcec1540gb73166a204dd514f"
+    
+tags:
+  - "medications"
+  - "MHV-on-VA.gov"
+  - "metrics-monitoring"
+  - "veteran-facing"
+  - "analytics"
+  - "feedback-analysis"
+  - "Datadog-RUM"
+  - "Google-Analytics"
+  - "Medallia"
+  - "refill-prescriptions"
+  - "digital-health-modernization"
+  - "authenticated"
+  
+team_roles:
+  moderator: "N/A"
+  research_lead: "Anne Costello Kennedy, Melissa Stern"
+  task_development: "Anne Costello Kennedy, Melissa Stern"
+  recruitment: "N/A"
+  project_poc: "Anne Costello Kennedy"
+  pilot_participants: "N/A"
+  accessibility_specialist: "N/A"
+  notetakers: "N/A"
+  observers: "N/A"
+  
+approvals:
+  reviewed_by: "TBD"
+  review_date: "TBD"
+---
+
 # **Research Plan for MHV on VA.gov, Medications, Feb - Apr 2025**
 
 ## **Background**

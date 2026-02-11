@@ -1,3 +1,127 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Medical Supplies Reordering Tool Updates - Usability Testing"
+date: 2025-01-01
+last_updated: 2025-01-01
+team: "VA CTO - Medications and Device Ordering Pod"
+product: "Medical Supplies Reordering Tool"
+product_area: "authenticated"
+status: "Template - To be completed"
+
+# Background Context
+background:
+  problem_statement: "Previous study and accessibility audit identified many usability and accessibility issues in the medical supplies reordering tool, leading to low CSAT scores and negative user feedback. Tool has been updated to address these issues and add three new supplies."
+  product_location: "VA.gov - Medical supplies reordering (authenticated)"
+  user_familiarity: "Iteration on existing tool - testing updates and new supplies"
+  product_brief_url: "TBD"
+
+# Research Design
+methodology: "TBD - likely moderated usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "TBD - To be defined based on specific updates being tested"
+  - goal_2: "TBD"
+  - goal_3: "TBD"
+
+research_questions:
+  - "TBD - Research questions to be defined"
+
+hypotheses:
+  - "TBD - Hypotheses to be defined"
+
+expected_outcomes: "TBD - Expected outcomes to be defined"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "TBD"
+  
+  primary_criteria:
+    - "TBD - To be defined"
+    
+  secondary_criteria:
+    - "TBD - To be defined"
+    
+  screener_questions:
+    - question: "TBD"
+      qualifying_response: "TBD"
+      
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  total_recruited: 0
+  completed_sessions_goal: 0
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "TBD"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 0
+  buffer_minutes: 30
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results: 
+      - "Key Result 1: Improve satisfaction with our web and mobile products by 5 points"
+      - "Key Result 3: 100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
+  - objective: "Objective 2: OCTO's platforms are the fastest, most efficient, and most secure way to deliver products at VA"
+    key_results:
+      - "Key Result 1: 100% of authentications to our systems and tools (both Veteran-facing and internal) occur using a secure credential"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Previous usability study and accessibility audit (references to be added)"
+    
+tags:
+  - "medical-supplies"
+  - "reordering"
+  - "usability-testing"
+  - "veterans"
+  - "authenticated"
+  - "accessibility"
+  - "assistive-devices"
+
+# Team Roles
+team_roles:
+  moderator: "Jenny Wang"
+  research_guide_writer: "Jenny Wang"
+  recruiting_screening: "Jenny Wang"
+  project_poc: "Jenny Wang"
+  pilot_participant: "TBD"
+  accessibility_specialist: "TBD"
+  notetakers: "TBD"
+  observers: "TBD - VA stakeholders, engineering team members, design team members (max 5-6 attendees per session)"
+
+# Additional Materials
+conversation_guide_url: "TBD"
+prototype_url: "TBD"
+
+# Notes
+notes: "This is a template research plan. Details need to be filled in before research begins. The tool now includes CPAP supplies, hearing aid batteries and accessories, plus three new assistive devices. Previous research identified usability and accessibility issues that have since been addressed."
+---
+
 
 	# Research Plan for [va-cto-medications-device-ordering-pod, medical supplies reordering tool, Date XXX, 2025]
 

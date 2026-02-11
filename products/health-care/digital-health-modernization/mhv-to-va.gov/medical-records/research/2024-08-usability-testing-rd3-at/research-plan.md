@@ -1,3 +1,144 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV on VA.gov, Medical Records, August 2024"
+date: 2024-08-01
+last_updated: 2024-09-06
+team: "Digital Health Modernization"
+product: "Medical Records on MHV on VA.gov"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "As part of the Digital Health Modernization strategy, My HealtheVet (MHV) is being moved to VA.gov to create a centralized place for Veterans to access their health information. This study continues iterative testing within a live environment to assess whether updates improve user experiences, test new functionality, and include Veterans who require accessibility provisions."
+  product_location: "https://verbose-potato-5jw9rvr4wxp3x7q-3001.app.github.dev/my-health/medical-records/"
+  user_familiarity: "Iteration on existing product - testing Medical Records in live environment with focus on Care Summaries and Notes, Lab and Test Results, and Health Conditions"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
+
+# Research Design
+methodology: "usability testing and interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Identify any usability issues Veterans may experience in accessing their Care Summaries and Notes, Lab and Test Results, and Health Conditions"
+  - goal_2: "Understand Veterans' sensemaking of medical terminology in Medical Records"
+  - goal_3: "Understand Veterans' needs and expectations within Medical Records"
+
+research_questions:
+  - "Can Veterans find the information they need to manage their healthcare related to Care Summaries and Notes, Lab and Test Results, and Health Conditions?"
+  - "How do Veterans make sense of the terminology in their medical records?"
+  - "What goals are Veterans hoping to accomplish within Medical Records?"
+  - "What are Veterans' expectations and use cases for printing/downloading Medical Records?"
+  - "What are Veterans' perceptions of the new experience in which they view their records on screen?"
+  - "How do the goals, expectations, and experiences with Medical Records for Veterans who use assistive technologies vary from those who do not?"
+
+hypotheses:
+  - "Most Veterans will be able to access and understand the information about their medical records to manage their health"
+  - "Most Veterans will struggle to understand some of the terminology information within their medical records"
+  - "Most Veterans will rate the new experience as easy or very easy"
+
+expected_outcomes: "The usability findings will identify pain points and areas for improvement in design, while generative findings will uncover Veterans' behaviors and expectations when accessing Medical Records. Both will inform future design iterations."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "mixed approach with both non-AT users and assistive technology users"
+  
+  primary_criteria:
+    - "All participants must regularly use MHV Health Records"
+    - "At least 8 participants who have non-VA providers (for non-AT group)"
+    - "All 10 non-AT participants with cognitive disabilities - mild to severe"
+    - "8 participants who rely 100% on screen-reader (AT group)"
+    - "5 participants who rely 100% on screen magnification (AT group)"
+    - "3 participants who rely 100% on voice command (AT group)"
+    
+  secondary_criteria:
+    - "Age distribution across 18-75+ years"
+    - "Education diversity from high school to graduate degrees"
+    - "Demographic diversity including Black/African American, Hispanic/Latino representation"
+    - "Rural and urban mix"
+    
+  screener_questions:
+    - question: "Have you used My HealtheVet (MHV) for reviewing your health records within the last 3 months?"
+      qualifying_response: "Yes"
+    - question: "Have you been diagnosed with (formally or informally) a cognitive disability?"
+      qualifying_response: "Yes - for non-AT participants"
+    - question: "Do you rely on assistive technology for accessing ALL digital content?"
+      qualifying_response: "Yes - for AT participants"
+      
+participants:
+  veterans: 26
+  caregivers: 0
+  dependents: 0
+  total_recruited: 26
+  completed_sessions_goal: 16
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-08-20"
+  pilot_participant: "TBD"
+  research_dates: "2024-08-22 to 2024-09-05"
+  research_review_submission: "2024-08-15"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Enable Veterans to access and understand Care Summaries and Notes, Lab and Test Results, and Health Conditions"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Centralize health information access through MHV on VA.gov"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Provide accessible medical terminology understanding and print/download functionality"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research"
+    
+tags:
+  - "health-care"
+  - "medical-records"
+  - "my-healthevet"
+  - "mhv-on-vagov"
+  - "usability-testing"
+  - "interviews"
+  - "accessibility"
+  - "assistive-technology"
+  - "screen-reader"
+  - "voice-control"
+  - "screen-magnification"
+  - "cognitive-disability"
+  - "veterans"
+  - "authenticated-experience"
+  - "care-summaries-and-notes"
+  - "lab-and-test-results"
+  - "health-conditions"
+  - "medical-terminology"
+  - "sensemaking"
+  - "remote-research"
+  - "moderated"
+  - "digital-health-modernization"
+---
+
   # **Research Plan for MHV on VA.gov, Medical Records, August 2024**
 
 ## **Background**

@@ -1,3 +1,120 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VAOS, Appointments List, January 2021"
+date: 2021-01-19
+last_updated: 2026-02-10
+team: "VA Online Scheduling (VAOS)"
+product: "VA Online Scheduling"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "As a Veteran who uses VA online scheduling, I want to be able to manage all my appointments from a single place which includes preparing for upcoming appointments, printing specific details about appointments, reviewing past appointments, and rescheduling appointments. The VA online scheduling home page displays all of a Veteran's upcoming VA and Community Care appointments. This list of appointments can become very long, which makes it difficult to scan the list and understand key important details about upcoming appointments, like the date, time, and location of a given appointment."
+  product_location: "VA.gov appointments - VAOS home page/appointments list"
+  user_familiarity: "Iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/homepage-refresh/homepage-refresh-initiative-2021.md"
+
+# Research Design
+methodology: "Usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Test if a thumbnail view of appointments, organized by month, gives Veterans enough information to plan ahead for their appointments at a high level"
+  - goal_2: "Validate that Veterans can easily get the details for their individual appointments"
+  - goal_3: "Determine if Veterans can easily navigate between appointments and the appointments list"
+
+research_questions:
+  - "Do users find the information on the static landing page helpful?"
+  - "Can they easily start managing their appointments?"
+  - "Do users understand that they can click the thumbnail view to get to the detail page?"
+  - "Does the thumbnail information help them scan the appointments list?"
+  - "Can they distinguish between appointment types (video, express care, phone, canceled)?"
+  - "Can they find appointments that aren't in the upcoming list (past, requested)?"
+  - "Do they understand what the requested appointments are?"
+  - "Can they easily find/understand the date/time for their appointments?"
+  - "Can Veterans easily navigate between an appointment and the appointments list?"
+  - "Can Veterans easily reschedule an appointment?"
+
+hypotheses:
+  - "Veterans will easily be able to find appointments they need"
+  - "Veterans will understand they can click an appointment to get more details"
+  - "Veterans will be frustrated that the type of care is not shown"
+
+expected_outcomes: "Validation that the new appointments list design helps Veterans scan and understand their appointments more easily, and identification of any usability issues"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation"
+  
+  primary_criteria:
+    - "5 Veterans who have VA health care"
+    
+  secondary_criteria:
+    - "Some veterans who have used MyHealtheVet as their primary scheduling tool"
+    - "Representative of all branches of the Armed Forces"
+    - "An even split of men and women"
+    - "At least one person in each age bracket: 18-30, 31-50, 50+"
+    - "At least one participant with disability rating of 30% or greater"
+    
+  screener_questions:
+    - question: "TBD"
+      qualifying_response: "TBD"
+      
+participants:
+  veterans: 5
+  caregivers: 0
+  dependents: 0
+  total_recruited: 5
+  completed_sessions_goal: 5
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-01-19"
+  pilot_participant: "Emily Waggoner"
+  research_dates: "2021-01-21 to 2021-01-26"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 15
+  max_sessions_per_day: 5
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase Veteran satisfaction with VA.gov"
+    key_results: 
+      - "Improve appointments list usability"
+  - objective: "Decrease time to successfully complete online transactions"
+    key_results:
+      - "Make appointment management easier"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Living civilian life"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "products/health-care/appointments/va-online-scheduling/research/2020-07-vaos-mvp-and-express-care-user-research/research-findings.md"
+    - "products/health-care/appointments/va-online-scheduling/research/2020-10-cc-provider-selection-usability/research-findings.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Appointments"
+  - "PRDT: VAOS"
+  - "PRDT: Health care"
+  - "RESRCH: Usability"
+  - "DSC: List"
+  - "DSC: Card"
+  - "DSP: Content presentation"
+  - "authenticated"
+  - "appointments-list"
+---
+
 # Research Plan for VAOS Appointments List, January 2021
 
 ## Problem statement

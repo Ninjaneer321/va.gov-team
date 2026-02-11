@@ -1,3 +1,125 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Compare Functionality for CT Redesign, June 2021"
+date: 2021-06-14
+last_updated: 2026-02-10
+team: "Booz Allen (Education Service/OIT)"
+product: "GI Bill Comparison Tool"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "The Booz Allen team has been working on a re-design of the GI Bill Comparison Tool. One of the major updates for the re-design was to add functionality to enable users to compare schools. The team has created this new functionality and would like to test the design with users to see how well it performs."
+  product_location: "GI Bill Comparison Tool"
+  user_familiarity: "Iteration - redesign with new compare functionality"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/school-comparison-tool/redesign/ct-redesign-discovery_product-outline.md"
+
+# Research Design
+methodology: "Remote moderated usability testing in staging environment"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - "Test the new compare functionality to see how well it performs with users"
+  - "Observe how users interact with the compare drawer, navigation, and comparison page"
+  - "Identify what data fields are most important to users when comparing schools"
+
+research_questions:
+  - "Do users notice the Comparison drawer?"
+  - "Is comparison drawer behavior effective when the user conducts multiple searches to select schools?"
+  - "How many schools do users think they can compare at once?"
+  - "Are users able to easily navigate between the search results, the comparison drawer and the comparison page?"
+  - "How do users interact with the interface when they need to conduct multiple searches?"
+  - "Which components/pages do users prefer to use to add or remove schools from the comparison? Are they able to do this effectively?"
+  - "What data fields are users interested in comparing? Which ones are most important? Any fields they aren't interested in? Any additional others they would want to see?"
+  - "Do users notice the sticky header?"
+  - "Do users believe the sticky header is useful?"
+  - "Do users notice the 'Highlight differences' functionality?"
+  - "Do users find the 'Highlight differences' functionality useful?"
+
+hypotheses:
+  - "Users will be able to easily find, select and compare schools that they are interested in"
+  - "The fields being compared are important to users and will be useful in determining which school they would like to attend"
+
+expected_outcomes: "Validate that the compare functionality enables users to effectively compare schools and identify any usability issues with the design, content, and flow"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted sampling based on school enrollment status"
+  
+  primary_criteria:
+    - "Have started attending school in Fall 2020 or Spring 2021, OR be looking to start school in 2021"
+    - "4 non-Veteran beneficiaries (spouse or children), 8 Veterans"
+    - "50% using Chapter 33 Post-9/11 benefits"
+    - "50% using VR&E, Chapter 30 Montgomery Bill or Chapter 35"
+    
+  secondary_criteria:
+    - "Age range: 16 - 65"
+    - "Gender: Mix"
+    - "Branch of service: Mix"
+    - "Geography: Geographically dispersed across USA"
+    
+  screener_questions:
+    - question: "Have you started attending school in Fall 2020 or Spring 2021, or are you looking to start school in 2021?"
+      qualifying_response: "Yes"
+    - question: "What VA education benefit are you using or planning to use?"
+      qualifying_response: "Chapter 33 Post-9/11, VR&E, Chapter 30 Montgomery Bill, or Chapter 35"
+      
+participants:
+  veterans: 8
+  caregivers: 0
+  dependents: 4
+  total_recruited: 12
+  completed_sessions_goal: 12
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-06-14"
+  pilot_participant: "TBD"
+  research_dates: "2021-06-16 to 2021-06-18"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Improve GI Bill school selection and comparison experience"
+      
+veteran_journey_phases:
+  - "Getting Out"
+  - "Starting Up"
+  - "Finding Something to Do"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/school-comparison-tool/redesign/ct-redesign-discovery_product-outline.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Dependents"
+  - "AUD: Spouses"
+  - "PRDT: GI Bill Comparison Tool"
+  - "BNFT: Education"
+  - "BNFT: GI Bill"
+  - "RESRCH: Usability"
+  - "RESRCH: Remote"
+  - "DSC: Comparison"
+  - "DSC: Drawer"
+  - "DSC: Sticky header"
+  - "DSP: Compare"
+  - "education"
+  - "school-comparison"
+  - "compare-functionality"
+---
+
 # Research Plan for Compare Functionality for CT Redesign
 As a designer I need to create a research plan to share with my team.	 	
 ## Goals	

@@ -1,3 +1,107 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Check-in, Unmoderated Appointment Information Prioritization (Check-in), September 2022"
+date: 2022-09-01
+last_updated: 2022-09-19
+team: "Modernized Check-In Experience Team"
+product: "Patient Check-In (PCI)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Check-in has expanded our access to more appointment data, which we can display to Veterans within the check-in experiences. We need to identify what appointment data is most important within certain portions of the day of check-in experience."
+  product_location: "VA.gov - Mobile check-in for medical appointments"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin"
+
+# Research Design
+methodology: "unmoderated card sort survey"
+research_format: 
+  location: remote
+  moderated: false
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Identify what appointment data is most important within certain portions of the day of check-in experience"
+  - goal_2: "Determine how Veterans and caregivers rank appointment data importance relative to each data point"
+  - goal_3: "Compare findings with mobile app and VAOS teams to determine where products can align and where check-in needs to differ"
+
+research_questions:
+  - "What appointment information is important to review when letting VA know you have arrived for your appointment?"
+
+hypotheses:
+  - "Veterans and caregivers will generally agree on which data is most important when letting VA know you have arrived for your appointment"
+
+expected_outcomes: "Determine what appointment data is important to Veterans and how they rank its importance within day of check-in, then plan further work to iterate on the current experiences."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "cohort-based recruitment"
+  
+  primary_criteria:
+    - "ALL have a computer or mobile device and are willing to use it to complete the activity"
+    - "ALL must have been to a VA health care facility for a medical appointment for themself or a Veteran that they care for in the last 12 months"
+    - "Diverse demographics across age, sex, caregivers, and cognitive/functional disabilities"
+    
+  secondary_criteria:
+    - "Age diversity: 18-34, 35-54, 55+"
+    - "Sex diversity: Male and Female"
+    - "Include caregivers and Veterans with cognitive impairment/functional disabilities"
+    
+  screener_questions:
+    - question: "Have you been to a VA health care facility for a medical appointment for yourself or a Veteran that you care for in the last 12 months?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 54
+  caregivers: 9
+  dependents: 0
+  total_recruited: 63
+  completed_sessions_goal: 35
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2022-09-01"
+  pilot_participant: "Ben Brasso, Lori Pusey, Stephen Barrs"
+  research_dates: "2022-09-19 to 2022-10-03"
+  research_review_submission: "2022-09-01"
+  
+session_details:
+  duration_minutes: 10
+  buffer_minutes: 0
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: "Increase usage of digital self-service tools"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Decrease time to successfully complete and submit online transactions"
+  - objective: "Increase completion rate of online transactions"
+    key_results: "Veterans can successfully check in for appointments"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin/research/veteran-facing/travel-reimbursement-mvp-remote-test"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/2022-09-precheckin-appointment-info-prioritization/research-plan.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
+  - "MHV: Appointments"
+  - "card-sort"
+  - "unmoderated-research"
+  - "information-architecture"
+  - "Accessibility"
+---
+
 # Research Plan for Check-in, Unmoderated Appointment Information Prioritization (Check-in), September 2022
 
 ## Background

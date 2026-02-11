@@ -1,3 +1,147 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Identity Experience, sign-in page credential deprecation"
+date: 2024-08-01
+last_updated: 2024-08-01
+team: "Identity Experience"
+product: "Sign-in Page and Sign-in Modal"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "MHV and DS Logon legacy credentials are being sunset. Need to use unified sign in page and sign in modal to encourage transition to modern credentials (Login.gov and ID.me). Design includes de-emphasizing legacy credentials, adding transition content, and testing interstitial communications."
+  product_location: "VA.gov unified sign in page and sign in modal"
+  user_familiarity: "Iteration on existing sign-in experience with new messaging about credential deprecation"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity/login/usip-legacy-logins"
+
+# Research Design
+methodology: "Remote usability testing with prototype"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Test newly created sign in or create an account modal with updated language to inform veterans of upcoming changes to CSPs"
+  - goal_2: "Test preliminary interstitial content that provides more in-depth information about MHV deprecation as part of communications strategy"
+  - goal_3: "Test usability of prototype for sign in page and/or sign in modal"
+  - goal_4: "Explore veterans thinking around certain terms and phrases relating to sign in and credential migration"
+
+research_questions:
+  - "Is our messaging clear enough to encourage veterans to make the transition and begin using the other CSPs?"
+  - "Do folks understand the content around credential deprecation and whether that applies to them and what that means going forward?"
+  - "Do veterans understand the differences between MHV as a credential versus a site?"
+  - "Do veterans still sign in with a deprecated credential if they choose to do so and bypass our attempt to steer them to Login.gov or ID.me?"
+  - "Do veterans understand the language updates we plan to use to describe the benefits of a modern credential?"
+  - "What are veterans' sentiments around the deprecation?"
+  - "When would a veteran actually transition to Login.gov/ID.me?"
+  - "Are there any other gotchas or pain points that come up?"
+
+hypotheses:
+  - "H1: Based on the content updates, veterans will understand that MHV as a credential will be going away soon"
+  - "H2: Veterans will be confused as to what will happen with the MHV site"
+  - "H3: Veterans will continue to use their MHV credential when they sign into VA.gov"
+  - "H4: MHV credential users will not create a new modern credential if they are visiting VA.gov to complete a specific task"
+  - "H5: Veterans will wait until the last minute to transition to Login.gov/ID.me"
+  - "H6: Veterans will feel ambivalent about the messaging around credentials deprecation"
+
+expected_outcomes: "Uncover areas for improvement with our design and content by allowing veterans to interact with our prototype. This will allow us to update the UI and content in a way that better encourages veterans to stop using a deprecated credential and to instead use a modern credential. We expect to find both immediate next steps and to uncover insights for future work."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment of MHV credential users with diversity focus on assistive tech, mobile, and cognitive disabilities"
+  
+  primary_criteria:
+    - "Must have computer or mobile phone and willing to complete sessions on device"
+    - "Must be willing to share web browser window on Zoom call"
+    - "Must have working microphone"
+    - "Must have Zoom downloaded and know how to share screen"
+    - "Must be Veterans"
+    - "Preference to participants who've signed in using MHV credential in last 6 months (at least 8)"
+    
+  secondary_criteria:
+    - "7 mobile users"
+    - "3 with cognitive disabilities"
+    - "Assistive tech users (screen zoom and screen reader in particular)"
+    
+  screener_questions:
+    - question: "How do you sign into VA.gov most often?"
+      qualifying_response: "My HealtheVet (at least 8) or don't remember/not applicable"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Yes (recruit at least 3)"
+      
+participants:
+  veterans: 14
+  caregivers: 0
+  dependents: 0
+  total_recruited: 14
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-09-TBD"
+  pilot_participant: "TBD"
+  research_dates: "2024-09-11 to 2024-09-20"
+  research_review_submission: "2024-09-04"
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Create a smooth transition for Veterans from legacy to modern sign-in credentials"
+    key_results: 
+      - "Reduce users with MHV credential and neither ID.me or Login.gov to less than 500K by Oct 31, 2024 and less than 100K by Jan 31, 2025 (Baseline: 1.1M in Jan 2024, 900K in July 2024)"
+      - "Reduce MHV credential sign-ins to less than 1M per month by Oct 31, 2024 and less than 200K per month by Jan 31, 2025 (Baseline: 1.53M July 2024)"
+      - "Retire the MHV credential in targeted timeframe (last day available is January 31, 2025)"
+  - objective: "Improve the Veteran sign-in experience"
+    key_results:
+      - "Improve CSAT score from roughly 1.7 in FY24 rating to at least 2.2 by end of Q2 FY2025 (March 2025)"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/280 - 2023-04 Proactive CSP Migration"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/235 - 2023-02-Grandfathering-Migration-Round-1-Usability"
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/157 - 2022-07 MHV transition to Login.gov as single sign-on"
+    
+tags:
+  - "identity"
+  - "sign-in"
+  - "authentication"
+  - "credential-deprecation"
+  - "MHV"
+  - "MyHealtheVet"
+  - "DS-Logon"
+  - "Login.gov"
+  - "ID.me"
+  - "CSP-migration"
+  - "legacy-credentials"
+  - "modern-credentials"
+  - "usability-testing"
+  - "remote"
+  - "moderated"
+  - "prototype"
+  - "veterans"
+  - "mobile"
+  - "assistive-technology"
+  - "cognitive-disability"
+---
+
 # Research Plan for Identity Experience, sign-in page credential deprecation
 ## Background
 We want to use the unified sign in page and the sign in modal to help encourage folks to make the transition from the MHV and DSL legacy credentials that are being sunset. Our design exploration especially includes de-emphasizing the legacy credentials, and adding content about how to transition to one of the modern credential options (Login.gov and IDme). We'll also test an interstitial that could be used to escalate communications, to focus of the interstitial testing will be proposed content and flow.

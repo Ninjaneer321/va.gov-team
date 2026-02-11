@@ -1,3 +1,140 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VSA Authenticated Experience: Action Items Discovery July/August 2021"
+date: 2021-07-01
+last_updated: 2026-02-10
+team: "Authenticated Experience (VSA)"
+product: "My VA - Action Items (Alerts)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "In many past user interviews, users have expressed the importance of having relevant or time-sensitive action items elevated. Veterans need a centralized place for recent action items to improve their personalized experience by helping users complete important tasks efficiently and be aware of any upcoming events and/or status changes. This new 'Alerts' feature aims to surface any important health care, claim and/or benefit information."
+  product_location: "My VA Dashboard"
+  user_familiarity: "New product - enhancement to the new My VA dashboard"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/action-items-discovery"
+
+# Research Design
+methodology: "Remote moderated usability testing with prototype, followed by qualitative interview and card sort"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - "Understand how users expect to find their action items"
+  - "Understand how users expect to take action on their action items"
+  - "Identify what action items users expect to see and how they expect them to be ordered"
+
+research_questions:
+  - "What are the most important scenarios that need action for users?"
+  - "What are the least important action items for users?"
+  - "How do people expect to see these action items?"
+  - "How do people expect their action items to be ordered?"
+  - "How do users expect to be able to resolve these action items?"
+  - "Do people expect to go to My VA to see notifications?"
+  - "Is it useful to have alerts on My VA?"
+  - "Is duplication helpful? (indicator + actual notification)"
+  - "How do users think of action items? (eg a to-do list or more of a notification?)"
+  - "What does a 'new' alert mean? (eg when should they see an indicator in the navigation)"
+  - "Do users want to see all the alerts they've ever had?"
+  - "What should this section be called?? (alerts, notifications, action items??)"
+  - "How do people know if a task is complete?"
+  - "What information about an action item do people need to see?"
+
+hypotheses:
+  - "Users will be able to find alerts easily using the omni-present alert in the navigation"
+  - "Users will likely not go to My VA first to view alerts"
+  - "There will potentially be some confusion around finishing a task because in the current design we do not differentiate between what is done/unfinished"
+  - "People will want to be able to sort the alerts hub page"
+
+expected_outcomes: "Understand the best way to implement the new action items feature on VA.gov to create a centralized place that helps Veterans complete important tasks efficiently"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling"
+  
+  primary_criteria:
+    - "At least 5 participants who are eligible/currently receive health care from the VA"
+    - "At least 5 participants who have active claims or appeals"
+    - "All participants must be LOA3 (identity verified) on VA.gov"
+    - "Participants must be people who visit VA.gov using their mobile devices"
+    - "Participants must be able to join Zoom call from their mobile devices (app required)"
+    
+  secondary_criteria:
+    - "50% aged 55-64+"
+    - "50% with an identified cognitive disability"
+    - "50% primarily mobile users"
+    - "30% people of color"
+    - "25% in a rural area"
+    - "25% without a degree"
+    - "17% with immigrant origins"
+    - "10% women"
+    
+  screener_questions:
+    - question: "Do you currently receive health care from the VA?"
+      qualifying_response: "Yes (for at least 5 participants)"
+    - question: "Do you have any active claims or appeals with the VA?"
+      qualifying_response: "Yes (for at least 5 participants)"
+      
+participants:
+  veterans: 12
+  caregivers: 0
+  dependents: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-08-18"
+  pilot_participant: "Candy Clark"
+  research_dates: "2021-08-19 to 2021-08-26"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Improve personalized Veteran experience with centralized action items"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/action-items-discovery"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/action-items-discovery/action-items-comparative%20analysis.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: My VA"
+  - "PRDT: Alerts"
+  - "PRDT: Notifications"
+  - "BNFT: Claims"
+  - "BNFT: Healthcare"
+  - "RESRCH: Usability"
+  - "RESRCH: Discovery"
+  - "RESRCH: Remote"
+  - "HDW: Mobile"
+  - "DSC: Alert"
+  - "DSC: Notification"
+  - "DSP: Task list"
+  - "authenticated-experience"
+  - "my-va"
+  - "action-items"
+  - "card-sort"
+---
+
 # Research Plan for VSA Authenticated Experience: Action Items Discovery July/August 2021
 
 ## Goals

@@ -1,3 +1,128 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VSA Caregiver, Health Care Application 10-10EZ Short Form Usability, September 2021"
+date: 2021-09-01
+last_updated: 2026-02-10
+team: "VSA Caregiver"
+product: "Health Care Application (10-10EZ)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Military Service and Household Information sections cause the most confusion, time, and highest drop-off rates. Working to create shortened form flows that eliminate these sections for those with service-connected disability rating of 50% or higher."
+  product_location: "https://www.va.gov/health-care/apply/application/introduction"
+  user_familiarity: "Iteration - testing new short form flows based on disability rating"
+  product_brief_url: "https://www.sketch.com/s/da85cf44-4503-4e98-834e-ff068b242ef6/p/A71F1C96-FF98-42A2-9ADD-6D4B7A1DDB20"
+
+# Research Design
+methodology: "Task-based usability testing with UXPin prototype"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Determine whether or not the short form flow is usable and understandable when pre-populated at start of authenticated application"
+  - goal_2: "Determine whether or not the short form flow is usable and understandable when based on self-reported service-connected disability rating of 50% or higher"
+  - goal_3: "Determine whether or not the flow and copy sets proper expectations for the application experience"
+  - goal_4: "Note any participant feedback to the recently updated Introduction page (secondary goal)"
+
+research_questions:
+  - "Are users able to navigate through the pre-populated short form easily and without confusion?"
+  - "Are users able to navigate through the short form based on self-reported information easily and without confusion?"
+  - "Do users understand what the short form is?"
+  - "Do users understand why they can fill out a short form?"
+  - "What is the overall sentiment about this short form experience?"
+
+hypotheses:
+  - "Users will be able to navigate through the short form relatively easily"
+  - "Users may have issues understanding what a 'short form' is"
+  - "Users may not understand the added value of this experience (because they will not see the skipped questions)"
+  - "Users may get stuck/confused on the confirmation page after self-reporting pay for a disability rating of 50% or higher"
+
+expected_outcomes: "Validate short form flows to improve application completion rates by reducing burden for Veterans with 50%+ disability ratings. Future expansion to other qualifying questions."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted sampling based on disability rating"
+  
+  primary_criteria:
+    - "At least 10 Veterans"
+    - "At least 2 Power of attorney (POA) but no more than 3"
+    - "At least 9 people with disability rating of 50% or higher"
+    - "At least 2 people with disability rating less than 50% but no more than 3"
+    - "At least 4 people over the age of 55"
+    - "Must participate using laptop or desktop (prototype not functional on mobile/tablet)"
+    - "Must be able to use Zoom, locate and use chat function, and share screen"
+    
+  secondary_criteria:
+    - "Diverse branch of service"
+    - "Gender (30% or more women)"
+    - "Diverse education levels"
+    - "Age diversity"
+    - "Diverse race"
+    - "Geographic diversity"
+    - "Rural density representation"
+    
+  screener_questions:
+    - question: "What is your disability rating percentage?"
+      qualifying_response: "At least 9 with 50% or higher; at least 2 but no more than 3 with less than 50%"
+    - question: "Are you a Power of Attorney for a Veteran?"
+      qualifying_response: "At least 2 but no more than 3 POAs"
+      
+participants:
+  veterans: 10
+  caregivers: 3
+  dependents: 0
+  total_recruited: 18
+  completed_sessions_goal: 13
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-08-31"
+  pilot_participant: "TBD"
+  research_dates: "2021-09-01 to 2021-09-16"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 15
+  max_sessions_per_day: 6
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: "Reduce application drop-off rates by streamlining forms for qualifying Veterans"
+      
+veteran_journey_phases:
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/10-10EZ/Research%20April-May%202021/End%20user%20discovery%20research/research%20findings.md"
+    - "https://docs.google.com/presentation/d/1HDGBx-whUrSArDLf8OP_-65lCMPi36h0ihHPA3XqmIk/edit#slide=id.p1"
+    
+tags:
+  - "PRDT: 10-10EZ"
+  - "PRDT: health-care-application"
+  - "AUD: Veterans"
+  - "AUD: Power-of-Attorney"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "usability-testing"
+  - "task-analysis"
+  - "short-form"
+  - "disability-rating"
+  - "authenticated"
+  - "prototype-testing"
+  - "UXPin"
+  - "remote-research"
+---
+
 # Research Plan: VSA Caregiver, Usability research of shortened form based on disability rating, Health Care application 10-10EZ, September 2021
 
 ## Background

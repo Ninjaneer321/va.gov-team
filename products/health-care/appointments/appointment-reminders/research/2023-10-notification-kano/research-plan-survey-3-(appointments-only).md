@@ -1,3 +1,117 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Appointments Team, Appointment Notifications Survey 3 (Appointments-only), October 2023"
+date: 2023-10-11
+last_updated: 2026-02-10
+team: "Appointments Team"
+product: "VA Online Scheduling (VAOS) - Appointment Notifications"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans rely on different forms of notifications to manage their appointments, but staff at VA facilities use different systems to send out notifications. There could be excessive notifications, no notifications, or inconsistent notifications about the same appointment. Systems are disconnected, and we need to streamline how we send out notifications."
+  product_location: "Appointment notifications across VA.gov authenticated health care experience"
+  user_familiarity: "Redesign - defining future state of appointment notifications to prioritize what to build first"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/vaos-product-outline.md"
+
+# Research Design
+methodology: "survey, Kano Analysis"
+research_format: 
+  location: remote
+  moderated: false
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Figure out what notifications Veterans and caregivers find the most helpful when managing their appointments and appointment-related tasks"
+  - goal_2: "Prioritize what appointment notifications to build and test first"
+  - goal_3: "Find out how Veterans would like to receive notifications (sent separately or combined in one email)"
+
+research_questions:
+  - "Which appointment notifications are helpful for Veterans the most and the least?"
+  - "What formats (text, email, phone call, or push notifications) do Veterans prefer to receive and for which notifications?"
+  - "How do Veterans feel about receiving appointments and appointment-related notifications?"
+
+hypotheses:
+  - "Veterans will have a clear opinion on the value of each notification"
+  - "For a straightforward appointment (without canceling, rescheduling or other difficulties), Veterans only need 4 notifications: a reminder with pre-check-in questions, check-in, AVS, and money-related (e.g., copay and travel pay) notifications"
+  - "Veterans expect to receive email, text, and phone call notifications"
+  - "The modality of communication they prefer will be a personal preference"
+
+expected_outcomes: "This research will inform updates to the appointment notifications experience and help prioritize what appointment notifications to build first."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Cohort-based recruitment targeting diverse demographics to achieve at least 35 completed responses"
+  
+  primary_criteria:
+    - "All have a computer or mobile device and are willing to use it to complete the activity"
+    - "All must have been to a VA health care facility for medical appointments for themself or a Veteran that they care for in the last 12 months"
+    
+  secondary_criteria:
+    - "Mix of gender, age groups (18-24, 25-34, 35-44, 45-54, 55+)"
+    - "Mix of education levels (High School, Some College, Associate's, Bachelors, Masters)"
+    - "MyHealtheVet users preferred"
+    
+  screener_questions:
+    - question: "Have you been to a VA healthcare facility for a medical appointment in the last 12 months?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 54
+  caregivers: 9
+  dependents: 0
+  total_recruited: 63
+  completed_sessions_goal: 35
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-09-29"
+  pilot_participant: "Stephen Barrs"
+  research_dates: "2023-10-17 to 2023-10-31"
+  research_review_submission: "2023-10-11"
+  
+session_details:
+  duration_minutes: 20
+  buffer_minutes: 0
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Integrate health portal features into VA.gov"
+    key_results: 
+      - "Streamline appointment notification systems"
+  - objective: "Enhance Veterans' personalized online experience"
+    key_results:
+      - "Provide relevant and timely appointment information"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/vaos-product-outline.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: Appointments"
+  - "MHV: Appointments"
+  - "authenticated"
+  - "survey"
+  - "Kano Analysis"
+  - "remote"
+  - "unmoderated"
+  - "notifications"
+  - "appointment reminders"
+  - "MyHealtheVet"
+---
+
 # Research Plan for [Appointments team, Appointment notifications, October 2023]
 
 ## Background

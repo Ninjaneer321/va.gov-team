@@ -1,3 +1,140 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Debt Resolution Team, Financial Status Report (FSR), March 2021"
+date: 2021-03-16
+last_updated: 2026-02-10
+team: "Debt Resolution"
+product: "Financial Status Report (VA Form 5655)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "There are multiple resolution pathways a Veteran can select when resolving their benefit debt, including: requesting an extended payment plan, submitting a compromise offer, or asking for a waiver. All of these options require the submission of a Financial Status Report (VA Form 5655), which captures a monthly snapshot of the Veteran's household income and expenses. Our goal is to test the FSR's MVP with Veterans to uncover pain points and areas of improvement."
+  product_location: "VA.gov manage-va-debt - https://staging.va.gov/manage-va-debt/request-debt-help-5655/"
+  user_familiarity: "New product"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/Financial-Status-Report/FSR-Product-Outline.md"
+
+# Research Design
+methodology: "Qualitative interviews and usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Uncover pain points and areas of improvement in the digitized VA Form 5655 (Financial Status Report)"
+  - goal_2: "Determine if Veterans understand the purpose and available repayment options"
+  - goal_3: "Test usability of new list loop component and form flow"
+
+research_questions:
+  - "Do Veterans understand the purpose of filling out the form?"
+  - "Do Veterans understand the available repayment options?"
+  - "Do Veterans read the subway map steps to learn about what information they'll need?"
+  - "Are Veterans able to easily complete each section of the form?"
+  - "Would Veterans be able to easily provide their spouse's employment and income information?"
+  - "Is it clear to Veterans why they need to provide their financial information?"
+  - "Do Veterans understand each resolution option and the impact each one has on the form's processing order?"
+  - "What do Veterans expect to do if they need to submit the form with revisions?"
+  - "Are Veterans able to easily use the new list loop component?"
+  - "What do Veterans expect to do after they've submitted their request?"
+  - "What communications do Veterans expect to receive about their request?"
+
+hypotheses:
+  - "Veterans will be able to identify and select which debt(s) they want to request financial help for, but they may struggle to select a resolution option"
+  - "Veterans might not know their spouse's employment history or complete monthly financial snapshot"
+  - "Veterans may feel overwhelmed when they begin inputting household expenses and assets, but may find the task easier when they see the predetermined list of input types"
+  - "Veterans may be concerned about supplying information for assets such as vehicles"
+  - "Veterans may want to print a copy of their submitted application for their records"
+  - "Veterans will likely not know all their financial information without needing to search their personal records"
+  - "Veterans may be interested in next steps following their application submission and when they can expect a decision from DMC"
+  - "Veterans may be interested in updating their submitted FSR if their financial situation changes"
+
+expected_outcomes: "Identify usability issues and improvements needed for the digitized FSR before full launch"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation"
+  
+  primary_criteria:
+    - "Total of 15 participants scheduled (for minimum of 8 successfully completed sessions)"
+    - "7-8 participants who have previously been notified about a VA-related debt"
+    - "Participants comfortable providing estimate of financial figures (monthly household income and expenses)"
+    - "Participants have Zoom downloaded and know how to screen share"
+    - "Able to include those who use assistive technology (screen readers: JAWS, NVDA, VoiceOver, ChromeVox)"
+    - "Able to include people with significant vision loss"
+    - "Able to include people who use magnification tools"
+    
+  secondary_criteria:
+    - "At least 1 woman"
+    - "At least 1 person of color"
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    - "At least one person without college degree"
+    - "At least one person with college degree"
+    - "At least one person who lives in rural/remote area"
+    - "At least one person who lives in major metropolitan area"
+    - "At least one person with disability rating of 70% or greater"
+    - "At least one participant with identified cognitive impairments/functional disabilities"
+    - "At least one non-native English speaker"
+    - "At least one person who uses assistive technology"
+    
+  screener_questions:
+    - question: "Have you previously been notified about a VA-related debt?"
+      qualifying_response: "Yes (for 7-8 participants)"
+      
+participants:
+  veterans: 15
+  caregivers: 0
+  dependents: 0
+  total_recruited: 15
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-03-16"
+  pilot_participant: "Riley Orr, Rebecca Walsh, Craig Wheeler"
+  research_dates: "2021-03-19 to 2021-03-24"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 5
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase Veteran satisfaction with VA.gov"
+    key_results: 
+      - "Improve debt resolution experience"
+  - objective: "Decrease time to successfully complete online transactions"
+    key_results:
+      - "Make FSR form easier to complete"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Living civilian life"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "TBD"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Financial assistance"
+  - "PRDT: Debt Resolution"
+  - "PRDT: VA Form 5655"
+  - "RESRCH: Usability"
+  - "RESRCH: Interviews"
+  - "DSC: Form"
+  - "DSC: List loop"
+  - "DSP: Form design"
+  - "authenticated"
+  - "debt-resolution"
+  - "financial-forms"
+---
+
 Research Plan for Debt Resolution Team, Financial Status Report (FSR), March 2021
 ----- 
 

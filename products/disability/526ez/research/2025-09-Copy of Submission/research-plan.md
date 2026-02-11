@@ -1,3 +1,148 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Disability Benefits Core Team, Form 526EZ Copy of Submission, September 2025"
+date: 2025-09-01
+last_updated: 2025-09-01
+team: "Disability Benefits - Core Team"
+product: "Form 21-526EZ Confirmation Page - Copy of Submission"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans cannot see, download, or print a copy of their completed disability application data (form 526ez and nested forms) for their records after hitting submit on the online form."
+  product_location: "Authenticated section on VA.gov - Confirmation Page after submitting Form 21-526EZ disability benefits application"
+  user_familiarity: "Iteration on existing confirmation page - Veterans may have filled out the disability application but not frequently enough to have familiarity. Current confirmation page does not provide any copy of submission."
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/issues/107258"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Gather feedback on the overall content of the page"
+  - goal_2: "Evaluate the effectiveness of the formatting and visual hierarchy of submitted information within the accordion"
+  - goal_3: "Evaluate whether users are able to find information on 'What happens next' and how to ask for help on the page"
+  - goal_4: "Determine if users understand how and are able to save and/or print all the content from the Confirmation Page"
+
+research_questions:
+  - "Without any prompts, how do users interact with the Confirmation Page?"
+  - "What sections of the Confirmation Page do users find the most valuable?"
+  - "What sections do users have questions about?"
+  - "Do people understand they won't be able to come back to this page once they leave it?"
+  - "How do people expect to access a copy of their submission after they leave this page?"
+  - "Can a user easily interact with the accordion and find the information they submitted?"
+  - "Can a user find specific pieces of information within the accordion (dates of service, conditions, etc)?"
+  - "Do users intuitively understand that the accordion only shows information they inputted (omits skipped sections)?"
+  - "From the Confirmation Page, are users clear on next steps of the claims process and how to reach out to VA?"
+  - "Can a user view/save/print their submitted information?"
+  - "Without intervention, how would users save the content on the Confirmation Page?"
+  - "When printing the page, what do users expect to be actually printed?"
+  - "Is the default browser functionality for printing (button for 'Print this page') sufficient and intuitive for all users?"
+
+hypotheses:
+  - "Most participants are able to intuitively interact with the Confirmation Page to find the info they entered"
+  - "Most participants will not understand that the info on this page disappears (not retrievable) after they quit/leave the page"
+  - "Most participants will be able to find specific pieces of information despite accordion length"
+  - "From the Confirmation Page, most participants are able to learn what happens next in the disability claim process"
+  - "From the Confirmation Page, most participants will be able to locate how to ask the VA for help"
+  - "Most participants will be able to successfully save or print their submitted information"
+  - "Participants find the new functionality of saving and printing a copy of their submission useful"
+
+expected_outcomes: "Better understanding of claimants' experience and understanding of copy of submission data in Confirmation page. Insights on usability, language clarity, and navigability of accordion and submission data. These insights will ensure claimants can access a copy of their submitted data and understand how to save a digital copy or print it. Feedback on overall content of Confirmation Page."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling across devices, demographics, and benefit application experience"
+  
+  primary_criteria:
+    - "At least 4 participants on smartphone"
+    - "At least 4 participants on desktop or laptop computer"
+    - "5 users aged 55+"
+    - "At least 5 must identify as race or ethnicity other than white"
+    - "2 or more participants identify as gender other than male"
+    - "3 or more participants identify as having a cognitive disability"
+    - "2 or more who speak English as their second language"
+    - "At least 5 participants have applied for disability benefits through online or paper form within last 2 years"
+    - "At least 4 participants who have applied for VA benefits other than disability compensation within last 2 years"
+    
+  secondary_criteria:
+    - "Include up to 2 participants using a tablet"
+    - "1 or more from rural location"
+    - "1 or more with no degree"
+    - "1 or more LGBTQ+"
+    
+  screener_questions:
+    - question: "How will you join the Zoom meeting for your research session?"
+      qualifying_response: "Desktop/laptop, Tablet, or Smartphone"
+    - question: "Within the last 2 years, which VA benefits have you applied for through online or paper application?"
+      qualifying_response: "Must have applied for at least one benefit type (recruit at least 5 disability compensation applicants)"
+    - question: "Do you find it difficult to read or understand what you read?"
+      qualifying_response: "Yes qualifies for reading challenge considerations"
+      
+participants:
+  veterans: 10
+  caregivers: 0
+  dependents: 0
+  total_recruited: 10
+  completed_sessions_goal: 7
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2025-09-15"
+  pilot_participant: "Richard Jones"
+  research_dates: "2025-09-22 to 2025-09-26"
+  research_review_submission: "2025-09-01"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results: 
+      - "Key Result 1: Improve satisfaction with our web and mobile products by 5 points"
+      - "Key Result 3: 100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error"
+      
+veteran_journey_phases:
+  - "Starting up - Attending to health needs"
+  - "Taking care of myself"
+  - "Putting down roots"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/product/feature-briefs/526ez%20copy%20of%20submission.md"
+    
+tags:
+  - "BNFT: Disability"
+  - "AUD: Veterans"
+  - "PRDT: Form 21-526EZ"
+  - "DSC: Form"
+  - "DSC: Accordion"
+  - "DSP: Keep a record of submitted information"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "authenticated"
+  - "remote"
+  - "moderated"
+  - "usability-testing"
+  - "confirmation-page"
+  - "print-functionality"
+  - "accessibility"
+  - "cognitive-disability"
+---
+
 # Research Plan for Providing Veterans with a Copy of Form Submission
 
 Disability Benefits, Core Team, September 2025

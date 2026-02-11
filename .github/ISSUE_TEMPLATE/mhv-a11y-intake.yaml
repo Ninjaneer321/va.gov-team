@@ -18,7 +18,7 @@ body:
       value: "# MHV Accessibility Intake Ticket"
   - type: markdown
     attributes:
-      value: >
+      value: |
         > [!TIP] 
         > Use the following format for the ticket title — [MHV [Product
         > Appts | MR | Meds | SM | Portal] / Accessibility] [service type] [brief description]
@@ -102,7 +102,7 @@ body:
             topics.
   - type: markdown
     attributes:
-      value: >
+      value: |
         > [!TIP] 
         > For research support for assistive technology, submit an [intake request with ADE](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=Accessibility-Digital-Experience-Intake-Ticket.md)
   - type: textarea
@@ -139,7 +139,7 @@ body:
     attributes:
       value: |
         ### 🔎 Other support resources
-        - [ADE services](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/ade-services.md) — Details about servaices provided by Accessibility Digital Experience (ADE) Team
+        - [ADE services](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/ade-services.md) — Details about services provided by Accessibility Digital Experience (ADE) Team
         - [Request ADE services](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=Accessibility-Digital-Experience-Intake-Ticket.md) — Intake form for request ADE services
         - [Assistive Technology checklist for research](https://depo-platform-documentation.scrollhelp.site/research-design/research-with-assistive-technology-users) — Guidance on preparing for research sessions with participants who use AT
-        - [Prepare for an accessibility staging review](Guidance on preparing for a staging review, inclduing the staging review artifact and test instructions) — https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/prepare-for-an-accessibility-staging-review
+        - [Prepare for an accessibility staging review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/prepare-for-an-accessibility-staging-review) — Guidance on preparing for a staging review, inclduing the staging review artifact and test instructions

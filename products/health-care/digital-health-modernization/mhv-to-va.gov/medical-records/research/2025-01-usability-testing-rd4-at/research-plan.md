@@ -1,3 +1,139 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV on VA.gov, Medical Records, January 2025 - Assistive Technology Testing"
+date: 2025-01-15
+last_updated: 2025-01-15
+team: "Digital Health Modernization"
+product: "MHV on VA.gov - Medical Records"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans need to access their medical records online in an accessible format. We have built and tested Medical Records on VA.gov and need to ensure that Veterans who depend on assistive technology can successfully access and understand their medical records, including newly developed domains (Microbiology, Pathology, Radiology Results, Vitals, Allergies) and Settings."
+  product_location: "VA.gov - My HealtheVet on VA.gov - Medical Records section (authenticated experience)"
+  user_familiarity: "Iteration - testing previously developed and newly developed domains with AT-dependent Veterans"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
+
+# Research Design
+methodology: "Moderated usability testing with assistive technology users"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  testing_environment: "Live Codespace environment"
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Identify any usability issues AT-dependent Veterans may experience in understanding their Medical Records Settings, Microbiology, Pathology, and Radiology Results, Vitals, Allergies, and Download your medical record"
+  - goal_2: "Understand AT-dependent Veterans' needs and expectations within Medical Records"
+
+research_questions:
+  - "Can Veterans who use assistive technology find the information they need to manage their healthcare related to Medical Records Settings, Microbiology/Pathology/Radiology Results, Vitals, Care Summaries and Notes, Allergies, and Download medical records?"
+  - "What are Veterans' reactions to the new experience in which they review their records on screen?"
+  - "What are the goals, expectations, and experiences within Medical Records for Veterans who use assistive technologies?"
+
+hypotheses:
+  - "Most Veterans who use assistive technology will be able to access and understand information about their medical records to manage their health"
+  - "Most Veterans who use assistive technology will have positive reactions to the new experience in which they access their records on screen"
+
+expected_outcomes: "The results of the usability portion of the study will help us determine if our designs provide the best user experience for Veterans to access their medical records and help to identify any pain points. The results of the generative portion of the study will uncover Veterans' behaviors and expectations when accessing their Medical Records. Both usability and generative findings will inform future iterations of designs."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment of Veterans who depend 100% on assistive technology (screen readers, screen magnification, voice command)"
+  
+  primary_criteria:
+    - "8 participants who rely 100% on screen reader to access ALL digital content"
+    - "5 participants who rely 100% on screen magnification to access ALL digital content"
+    - "3 participants who rely 100% on Dragon voice command to access ALL digital content"
+    - "All participants must be willing to complete session on specified device"
+    - "All participants must have working microphone and be willing to share screen and audio"
+    
+  secondary_criteria:
+    - "Age distribution: 75+ (3), 65-74 (5), 55-64 (3), 35-54 (3), 18-34 (2)"
+    - "Education distribution: High school or less (5), Some college (4), Associate degree (2), Bachelor's (3), Master's+ (2)"
+    - "Demographic distribution: Black/African American (3), Hispanic/Latino (3), White/Caucasian (10)"
+    - "Residence: Rural (4), Urban (12)"
+    
+  screener_questions:
+    - question: "Do you rely on Dragon voice command (NOT Siri, Google Assistant, or Alexa) for accessing ALL digital content?"
+      qualifying_response: "Yes - I need Dragon voice command to access ALL digital content (recruit 3)"
+    - question: "Are you blind or severely visually impaired and rely on a screen reader (such as JAWS, VoiceOver, NVDA, or Talkback) for accessing ALL digital content?"
+      qualifying_response: "Yes - I need a screen reader to access ALL digital content (recruit 8)"
+    - question: "Which screen reader will you be using for the session?"
+      qualifying_response: "NVDA, JAWS, VoiceOver, Talkback, or Other"
+    - question: "What device will you use to join the session?"
+      qualifying_response: "Desktop/Laptop Windows, Desktop/Laptop Mac, Tablet Android (up to 1), Tablet iPad (up to 1), Mobile Android, Mobile iPhone"
+    - question: "Do you rely on screen magnification of at least 400% for accessing ALL digital content?"
+      qualifying_response: "Yes - I need at least 400% screen magnification to access ALL digital content (recruit 5)"
+    - question: "What screen magnification software do you use?"
+      qualifying_response: "Zoom (Mac), Magnifier (Windows), Supernova, Other (not Zoomtext)"
+      
+participants:
+  veterans: 16
+  caregivers: 0
+  dependents: 0
+  total_recruited: 16
+  completed_sessions_goal: 12
+  assistive_technology_breakdown:
+    screen_reader: 8
+    screen_magnification: 5
+    voice_command: 3
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "Team will schedule own pilots"
+  pilot_participant: "TBD"
+  research_dates: "2025-01-29 to 2025-02-12"
+  research_review_submission: "2025-01-20"
+  
+session_details:
+  duration_minutes: 120
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Ensure accessible medical records access for all Veterans"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Centralize accessible health information on VA.gov"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Provide accessible, personalized medical records experience"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Previous Medical Records prototype usability testing"
+    - "Medical Records usability studies and feedback collection"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2025-01-usability-testing-rd4-at/conversation-guide.md"
+    
+tags:
+  - "health-care"
+  - "medical-records"
+  - "usability-testing"
+  - "assistive-technology"
+  - "accessibility"
+  - "screen-reader"
+  - "screen-magnification"
+  - "voice-command"
+  - "veterans"
+  - "wcag"
+---
+
 # Research Plan for MHV on VA.gov, Medical Records, January 2025
 
 ## Background

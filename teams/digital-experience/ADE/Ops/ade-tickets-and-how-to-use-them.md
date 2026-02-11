@@ -221,12 +221,26 @@ Sometimes refered to as tags. These allow for ADE to 'tag' which discipline need
 |------------|-------------|
 | **ADE** | Accessibility Digital Experience Team (required for all ADE tickets)|
 | **ADE Intake** | Accessibility Digital Experience Intake Ticket (present on all intake tickets) |
+| **ADE AI** | Accessibility Digital Experience work related to AI |
 | **ADE MHV** | Accessibility Digital Experience Team MHV Support |
 | **ADE Mobile App Support** | Mobile App Support provided by the ADE team. |
 | **ADE Non-VFS** | Support provided by ADE to non VFS Teams |
 | **ADE Office Hours** | To be used when team participates in office hours. |
 | **ADE Training and Education** | ADE can provide training and resources on accessibility best practices and methodologies. |
+
+#### Operations-Related Labels
+
+| Label Name | Description |
+|------------|-------------|
+| **ADE Documentation** | Accessibility Digital Experience interal documentation work for public use or internal operations. |
+| **ADE OCTO** | Accessibility Digital Experience work done on behalf of OCTO. |
+| **ADE Ops** | Accessibility Digital Experience operations-related work |
+| **ADE Reporting (Data and Analysis)** | Accessibility Digital Experience tracking and reporting-related work for ADE and/or OCTO. |
 | **ADE Transition** | CAIA to ADE Transition Work |
+
+
+
+
 
 ### Research Labels
 
@@ -255,7 +269,10 @@ Sometimes refered to as tags. These allow for ADE to 'tag' which discipline need
 | **ADE 508 NAN** | ADE 508 No Assistance Needed |
 | **ADE 508 Objection** | ADE flag for objecting views in regard to 508 audit findings. |
 | **ADE 508 PREP** | A review performed by ADE prior to a 508 audit. |
+| **ADE 508 (Partially) Resolved** | Accessibility Digital Experience revisited a VA 508 Office Audit and verified findings are partially resolved. |
 | **ADE 508 RECHECK** | Accessibility Digital Experience Team Revisiting a VA 508 Office Audit for Updates on Findings. |
+| **ADE 508 Resolved** | Accessibility Digital Experience revisited a VA 508 Office Audit and verified findings are resolved. |
+
 
 ### Audit & Assessment Labels
 
@@ -266,8 +283,11 @@ Sometimes refered to as tags. These allow for ADE to 'tag' which discipline need
 | **ADE Audit (Codespaces)** | Test with AT, review for accessibility best practices, and ensure experience standards are met. |
 | **ADE Audit (Production)** | Test with AT, review for accessibility best practices, and ensure experience standards are met. |
 | **ADE Audit (Staging)** | Test with AT, review for accessibility best practices, and ensure experience standards are met. |
-| **ADE COTS Eval** | - |
+| **ADE COTS Eval** | Review of a Commercial Off The Shelf Project by ADE. |
+| **ADE Critical User Flow Test** | Accessibility Digital Experience Team conducting critical user flow testing of a product/feature. |
 | **ADE Design Discovery** | Design discovery to ensure that accessibility considerations are being taken into account. |
+| **ADE Email Audit** | Accessibility Digital Experience reviewing email(s) for accessibility. |
+| **ADE: VFS Global Issue (Not Team Specific)** | Global issues impacting VFS teams found in audits, that can't be remediated by the team themselves. |
 | **ADE PDF Audit** | Review PDF documents for accessibility, and advise on how to remediate any issues found. |
 | **ADE Spot Checks (General Guidance)** | Category for general, off-the-cuff questions, addressed by ADE. We welcome ALL questions! |
 | **ADE Test Planning** | Develop a testing plan for design and development to continually ensure a product is accessible. |
@@ -277,6 +297,7 @@ Sometimes refered to as tags. These allow for ADE to 'tag' which discipline need
 
 | Label Name | Description |
 |------------|-------------|
+| **ADE CC - AI** | ADE Collab Cycle Assistance - Architecture Intent Stage |
 | **ADE CC - DI** | ADE Collab Cycle Assistance - Design Intent Stage |
 | **ADE CC - MP** | ADE Collab Cycle Assistance - Midpoint Review Stage |
 | **ADE CC - PO Sync** | ADE Collab Cycle Assistance - PO Sync Stage |

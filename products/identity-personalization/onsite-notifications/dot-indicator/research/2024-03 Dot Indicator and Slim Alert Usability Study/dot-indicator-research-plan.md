@@ -1,3 +1,139 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Authenticated Experience My VA - Dot Indicator/Slim Alert, March 2024"
+date: 2024-03-11
+last_updated: 2024-03-11
+team: "Authenticated Experience"
+product: "My VA - Dot Indicator and Slim Alert"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The Authenticated Experience and MHV landing page teams recently identified a common need for an indicator on our pages for unread or unseen things. An experiment with a red dot next to the 'Go to your inbox' link showed a 47% increase in clicks. We need to understand when it's appropriate to use different types of badges or indicators, and learn about the accessibility implications."
+  product_location: "My VA page on VA.gov - authenticated landing page"
+  user_familiarity: "Iteration and expansion - building on successful dot indicator experiment"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/onsite-notifications/dot-indicator"
+
+# Research Design
+methodology: "remote usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Determine the effectiveness of dot and badge indicators to draw attention to important updates and when it's appropriate to use each kind of indicator"
+  - goal_2: "Test with assistive tech users and colorblind participants in order to determine the accessibility implications of the dot or badge indicator"
+  - goal_3: "Gain understanding of how slim alert banners embedded in claims cards are interpreted by users in order to assess how we might use/improve them for My VA"
+
+research_questions:
+  - "Where on VA.gov do users expect to see these types of notifications?"
+  - "What do users think a dot means in different use cases? What about a badge?"
+  - "How do users expect a dot or a badge indicator to disappear?"
+  - "Are there instances where a dot or a badge introduces confusion rather than being useful?"
+  - "What aria labels would give a screen reader user as close to the same experience as a sighted user? When should aria labels be surfaced in the order of the page?"
+  - "How do screen reader users experience dot and badge indicators as notifications on other websites? What's an ideal experience and what's not ideal?"
+  - "Does colorblindness prevent users from being able to see and interpret a red dot or badge indicator? What colors are most accessible for them to interpret notifications on other websites and apps?"
+  - "How do Veterans with experience in filing claims understand the messaging displayed in slim alert banners?"
+  - "What additional information might be valuable for Veterans to see on these banners and cards?"
+
+hypotheses:
+  - "There will be a need for more than one type of indicator, i.e. both a badge with a count and a dot, as we've seen in other popular design systems"
+  - "We may need to use a dark red color for the indicator to be useful for colorblind and low vision users, but they will still be able to see and interpret the indicators"
+  - "The aria labels we have implemented for dot and badge indicators will deliver as close to the same experience as possible for screen reader users as a sighted user would have"
+  - "There may be interesting findings for when screen reader users would like to be alerted to indicators - there may be a better way to announce indicators than waiting until a user navigates to the specific link where the indicator is"
+  - "The new content in claim card slim alerts for evidence requests will be effective in conveying that a claim requires Veteran attention/action to provide more documentation and details"
+
+expected_outcomes: "We will share our research findings with other VFS teams who are interested in an indicator, such as the cartography team. From there we will decide (collaboratively) if it makes sense to proceed with experimental design to add an indicator to the VA.gov design system."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "maximum variation sampling with focus on assistive technology users"
+  
+  primary_criteria:
+    - "16 recruited (ultimately became 22 due to no shows, cancellations, and need for more assistive tech users)"
+    - "Veterans only"
+    - "At least 3 screen reader users"
+    - "At least 3 magnification/zoom users"
+    - "At least 3 colorblind users"
+    - "At least 2 cognitively impaired users"
+    
+  secondary_criteria:
+    - "Maximum variation across assistive technology types and accessibility needs"
+    
+  screener_questions:
+    - question: "Do you use assistive technology to access websites?"
+      qualifying_response: "Mix of screen readers, magnification/zoom tools, colorblind users"
+    - question: "Do you have cognitive impairments?"
+      qualifying_response: "At least 2 yes"
+      
+participants:
+  veterans: 16
+  caregivers: 0
+  dependents: 0
+  total_recruited: 22
+  completed_sessions_goal: 12
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-02-23"
+  pilot_participant: "Steven Straily, Jamie Klenetsky Fay (CAIA, screenreader)"
+  research_dates: "2024-03-11 to 2024-03-19"
+  research_review_submission: ""
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Solidify the VA.gov platform"
+    key_results: []
+  - objective: "Enhance Veterans' personalized online experiences"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Putting down roots"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Dot indicator experiment - September 2023 - 47% increase in clicks"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/onsite-notifications/dot-indicator/create-dot-indicator"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/2.0-redesign/discovery-and-research/user-research/findings-summary.md"
+    
+tags:
+  - "My-VA"
+  - "dot-indicator"
+  - "badge"
+  - "notifications"
+  - "slim-alert"
+  - "claims-status"
+  - "authenticated-experience"
+  - "usability-testing"
+  - "veterans"
+  - "accessibility"
+  - "screen-reader"
+  - "assistive-technology"
+  - "magnification"
+  - "colorblind"
+  - "cognitive-impairment"
+  - "design-system"
+  - "CodePen"
+  - "aria-labels"
+  - "evaluative"
+---
+
 # Research Plan for Authenticated Experience My VA - Dot Indicator/Slim Alert, March 2024
 _This includes additions to and revisions of the original plan created by Angela Agosto in October 2023_
 

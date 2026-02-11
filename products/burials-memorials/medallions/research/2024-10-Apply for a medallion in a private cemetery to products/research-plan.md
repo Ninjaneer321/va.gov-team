@@ -1,3 +1,137 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MBMS Self-Service Team, Medallions (VA Form 40-1330M), October 2024"
+date: 2024-10-04
+last_updated: 2024-10-04
+team: "MBMS Self-Service Team"
+product: "Claim for Government Medallion to Affix to a Private Marker (VA Form 40-1330M)"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Family members, VSO officers, funeral homes, cemeteries, and personal representatives do not have a digitized form to request a medallion for a Veteran buried in a private cemetery with a privately purchased headstone or marker. The current paper process requires gathering multiple signatures and creates a longer level of effort for NCA officials."
+  product_location: "Veterans, Headstones, and Markers static page on VA.gov"
+  user_familiarity: "New product - digitizing paper form application for medallions"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/burials-memorials/medallions/research"
+
+# Research Design
+methodology: "moderated usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Design a form that is straightforward and inclusive of the information needed to determine eligibility for a medallion"
+  - goal_2: "Test the usability of the medallions digital form and multiple signature solution to ensure that it is easily usable and accessible for applicants"
+  - goal_3: "Identify pain points that may hinder user's ability to complete the form and multiple signature solution, confirming users understand the application process thoroughly from beginning to end"
+
+research_questions:
+  - "Are users adequately equipped to begin this form, ensuring confidence throughout its completion?"
+  - "Does the content adhere to the most intuitive and user-friendly experience?"
+  - "What specific sections of our form pose the greatest challenges for users?"
+  - "Is the form's structure proficient in guiding users through the process?"
+  - "Does the organization and content provided help guide the users step-by-step?"
+  - "What can we do to streamline the information for users to make it clearer and easier to understand?"
+  - "What questions do users have before and after completing the form?"
+
+hypotheses:
+  - "Users will understand the language used to differentiate between applicant and Veteran"
+  - "Users will find the form straight to the point and user friendly"
+  - "Users will be able to move through the form and ultimately order a medallion for the Veteran quickly and with ease"
+  - "Users will spend less time reading and more time getting through questions quickly based on conciseness"
+  - "Users will understand the requirements needed to apply for a medallion and multiple signatures"
+  - "Users may experience confusion on who is eligible for this benefit"
+  - "Users may have questions about what happens after they apply and how the multiple signature process works"
+
+expected_outcomes: "These learnings will allow us to evaluate the Medallions digital form and its functionality for future iterations on related forms, such as the application for a Standard Government Headstones or Marker (VA Form 40-1330), ensuring the design meets VA.gov Design System standards."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "maximum variation sampling"
+  
+  primary_criteria:
+    - "3-4 spouses or surviving spouses of a service member or Veteran"
+    - "2-3 personal representatives (applicants connected to the Veteran)"
+    - "1 parent of a service member"
+    - "6-8 people interested in getting a medallion for a privately purchased marker"
+    - "Emphasize recruiting from underserved communities: Biracial, Asian, Black, or LGBTQ+"
+    - "Must be able to use Zoom, locate and use chat, and share screen"
+    - "At least 3-4 people using mobile device (tablet ok too)"
+    
+  secondary_criteria:
+    - "Live in rural areas or abroad"
+    - "Other than honorable discharge"
+    - "Immigrant origin"
+    - "Have cognitive disabilities"
+    
+  screener_questions:
+    - question: "Which of the following describes your relationship to a Veteran?"
+      qualifying_response: "Family member, VSO, personal representative, or interested in applying"
+    - question: "Have you applied or tried to apply for a Medallions eligibility determination at least once in the last 12 months?"
+      qualifying_response: "Yes or interested in applying"
+      
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  family_members: 8
+  personal_representatives: 3
+  total_recruited: 10
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-10-11"
+  pilot_participant: "Kenneth Santiago"
+  research_dates: "2024-10-15 to 2024-10-18"
+  research_review_submission: "2024-10-04"
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 30
+  max_sessions_per_day: 5
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Solidify the VA.gov platform"
+    key_results: 
+      - "Enhance Veteran's personalized online experience"
+  - objective: "Drive OIT's Digital Transformation Strategy"
+    key_results:
+      - "Increase usage of digital, self-service tools"
+      
+veteran_journey_phases:
+  - "Dying"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Related headstones and markers research"
+    
+tags:
+  - "burials-memorials"
+  - "medallions"
+  - "form-40-1330M"
+  - "moderated-usability-testing"
+  - "mobile"
+  - "NCA"
+  - "prototype"
+  - "multiple-signatures"
+  - "family-members"
+  - "personal-representatives"
+  - "bereavement"
+  - "unauthenticated-experience"
+  - "digital-transformation"
+  - "underserved-communities"
+  - "accessibility"
+---
+
 # Research Plan for MBMS Self-Service Team, Claim for Government Medallion to Affix to a Private Marker (VA Form 40-1330M), October 2024 
  
 ## Background 

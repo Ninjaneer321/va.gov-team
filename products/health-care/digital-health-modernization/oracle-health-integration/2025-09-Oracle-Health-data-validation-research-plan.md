@@ -1,3 +1,113 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV Monthly Validation Test - September 2025"
+date: 2025-09-15
+last_updated: 2025-09-15
+team: "Digital Health Modernization - Oracle Health Integration"
+product: "My HealtheVet on VA.gov and VA Health and Benefits Mobile App"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Ensure that the latest features deployed to the My HealtheVet (MHV on VA.gov) and VA Health and Benefits (VAHB) platforms are functioning as intended in a real-world production environment with Oracle Health data."
+  product_location: "My HealtheVet on VA.gov and VA Health & Benefits mobile app - production environment"
+  user_familiarity: "Iteration - Monthly validation testing of newly deployed features"
+  product_brief_url: "N/A"
+
+# Research Design
+methodology: "Moderated User Acceptance Testing (UAT)"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - "Validate that the latest deployed features on MHV and VAHB platforms perform correctly in production and meet basic acceptance criteria"
+
+research_questions:
+  - "Do the deployed features function as intended in the production environment?"
+  - "Are there any functional issues, display errors, or unexpected behaviors that could impact a Veteran's ability to use the feature or could result in a patient safety issue?"
+  - "Are any discrepancies observed between expected and actual behavior or between data presented in the feature vs. the clinician-facing health record?"
+
+hypotheses:
+  - "We believe the newly released features will perform reliably in production and meet acceptance criteria for broader rollout"
+
+expected_outcomes: "Any issues identified during the test sessions will be logged and referred to the engineering team for triage and resolution. Findings will inform whether the tested features are ready for broad release to all Veterans."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Diverse sample of Veterans from Oracle Health converted VAMCs"
+  
+  primary_criteria:
+    - "Veterans must have received care from a VAMC that has converted to Oracle Health"
+    - "The Veteran must have an active ID.me or login.gov account"
+    - "Must include male and female participants"
+    - "Must exclude assistive technology users"
+    - "Veterans enrolled in VA healthcare"
+    - "Received care in past 2 years from specified Oracle Health sites"
+    
+  secondary_criteria:
+    - "Have viewed lab or test results through MHV on VA.gov or VAHB app"
+    - "Have sent/received messages with clinicians through My VA Health portal"
+    - "Various types of labs, tests, procedures, and appointments in their health record"
+    
+  screener_questions:
+    - question: "Are you a Veteran enrolled in VA healthcare?"
+      qualifying_response: "Yes"
+    - question: "In the past 2 years, have you received care from a VA provider at an Oracle Health converted VAMC?"
+      qualifying_response: "Yes"
+    - question: "Do you currently have an active VA.gov account using Login.gov or ID.me that you are able to access?"
+      qualifying_response: "Yes"
+    - question: "Are you comfortable providing your name, date of birth, email and sharing your screen?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 30
+  caregivers: 0
+  dependents: 0
+  total_recruited: 30
+  completed_sessions_goal: 15
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2025-09-12"
+  pilot_participant: "TBD"
+  research_dates: "2025-09-15 to 2025-10-10"
+  research_review_submission: "2025-09-09"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 5
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA healthcare and benefits"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Taking Care of Myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Previous monthly validation tests"
+    
+tags:
+  - "oracle-health"
+  - "user-acceptance-testing"
+  - "veterans"
+  - "moderated"
+  - "mhv-on-vagov"
+  - "vahb-mobile-app"
+  - "monthly-validation"
+---
+
 # Research Plan for MHV Monthly Validation Test – September 2025
 
 ## Background

@@ -1,3 +1,129 @@
+---
+# Research Plan Metadata
+title: "Research Plan for DGIB Team, My Education Benefits - Dual Benefit Eligibility Tool, Summer 2025"
+date: 2025-10-22
+last_updated: 2025-10-22
+team: "DGIB Team"
+product: "My Education Benefits - Dual Benefit Eligibility Tool"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans and beneficiaries impacted by the Rudisill court decision do not have a streamlined nor simple way to retain or reverse relinquishment of MGIB and/or allocate their service to different benefit types. The Dual Benefit Eligibility Tool will provide users the ability to allocate their service, understand how service allocated translates to benefit level or entitlement, and make their decision in one flow."
+  product_location: "VA.gov home > VA education and training benefits > Dual Benefit Eligibility Tool (new page linked from 'Manage your Veterans education benefits' section)"
+  user_familiarity: "New product on a new page"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/my-education-benefits/Rudisill%20Reconciliation/product-outline.md"
+
+# Research Design
+methodology: "Moderated usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Gather more insight into GI Bill beneficiaries understanding of benefit language and what terminology would be most beneficial to see"
+  - goal_2: "Determine if the organization of information and layout in the flow, primarily in the recommendation step, is intuitive and easy for users"
+  - goal_3: "Assess users' trust and confidence using the tool and in making decisions related to their education benefits"
+  - goal_4: "Assess users' help-seeking behavior within the flow and understand what actions they take"
+
+research_questions:
+  - "Do users understand the information presented about them first in the flow? Does it build their trust?"
+  - "What specific terminology causes confusion and what alternatives resonate better?"
+  - "How familiar are users with the benefit language and terminology used with the tool? What other language are beneficiaries familiar with?"
+  - "Is the hierarchy of information and layout clear for users? Does it help them understand our recommendation and the alternative option?"
+  - "How do users verify the accuracy of calculations shown?"
+  - "What information is missing that would help users make decisions?"
+  - "Do users trust the recommendation? If not, how do users feel about the alternative distribution option?"
+  - "Is the impact to their benefits clearly outlined and easily understood by users?"
+  - "At what point in the flow do users feel confident enough to proceed vs. wanting to exit for help?"
+
+hypotheses:
+  - "By using this tool, users will have a better understanding of how Rudisill impacts their benefits by translating their qualifying service to real outcomes. Users will successfully identify their recommended allocation in under 5 minutes."
+  - "Presenting users with clear information about their benefit level, benefit type, entitlement, along with other important information will build their trust in the recommendation. 70% of users will express trust in the tool's calculations."
+  - "There will be some confusion on the benefit language used and within the allocation step as those are either new interactions or have varied understandings within the GI Bill beneficiary user group."
+
+expected_outcomes: "User research will inform improvements needed and validate interactions in the flow, information displayed, and allocation method that will best help users easily understand and make decisions in regards to changing or updating their education benefit(s)."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Lean maximum variation sampling"
+  
+  primary_criteria:
+    - "Veterans or active-duty Service members who have experience (applied and/or used) with GI Bill benefits"
+    - "Preferably Post 9/11 GI Bill benefits (likely Rudisill-impacted Veterans)"
+    - "Must have used Post 9/11 GI Bill benefits"
+    - "At least 1 woman of color"
+    - "At least 1 participant 55 or older"
+    - "At least one person that does not have a college degree (to include enlisted Veterans)"
+    - "At least one person with a disability rating of 80% or greater"
+    
+  secondary_criteria:
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    - "At least one person that has a college degree (to include of officer Veterans)"
+    - "At least one person who lives in a major metropolitan area"
+    - "At least one person who lives in a rural or remote area"
+    
+  screener_questions:
+    - question: "Are you a Veteran entitled to GI Bill Benefits?"
+      qualifying_response: "Yes"
+    - question: "Have you applied for or used GI Bill benefits before?"
+      qualifying_response: "Yes"
+    - question: "Have you used Post 9/11 GI Bill benefits?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2025-10-17 or 2025-10-18"
+  pilot_participant: "TBD"
+  research_dates: "2025-10-22 to 2025-10-30"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 50
+  buffer_minutes: 30
+  max_sessions_per_day: 2
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results: 
+      - "GI Bill beneficiaries can easily understand and make decisions regarding their education benefits"
+      
+veteran_journey_phases:
+  - "Reinventing Myself - Acquiring the appropriate education, new skills, and credentials"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/my-education-benefits/Rudisill%20Reconciliation/product-outline.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "BNFT: Education"
+  - "PRDT: My Education Benefits"
+  - "PRDT: GI Bill"
+  - "usability-testing"
+  - "authenticated"
+  - "DSC: Form"
+  - "DSP: Help users to check answers"
+  - "Initiative: Rudisill"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "moderated"
+  - "remote"
+---
+
 
 	# Research Plan for [DGIB Team, My Education Benefits, Summer 2025]
 

@@ -1,3 +1,139 @@
+---
+# Research Plan Metadata
+title: "Research Plan for PACT Act Wizard Usability Testing, September 2023"
+date: 2023-09-19
+last_updated: 2023-09-20
+team: "PACT Act Wizard"
+product: "PACT Act Wizard"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "The PACT Act of 2022 is not easy for Veterans to read and understand whether it directly affects them and their benefits. Veterans need an interactive tool to help them understand how the PACT Act may apply to them."
+  product_location: "VA.gov - complementing the static PACT Act information page"
+  user_familiarity: "New interactive tool"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/pact-act-wizard"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Validate that questions drafted for the PACT Act Wizard are clear and easy for Veterans and family members to understand and confidently answer"
+  - goal_2: "Ensure Veterans and family members can understand from results if they might be eligible for disability or health care based on the PACT Act"
+  - goal_3: "Verify Veterans and family members can understand from results how to apply for benefits related to the PACT Act based on their situation"
+
+research_questions:
+  - "What feedback do Veterans and others have on individual questions?"
+  - "What feedback do Veterans and others have on the entire set of questions (total number and similar structure)?"
+  - "Do Veterans and others know enough about their military service to answer the questions?"
+  - "What feedback do Veterans and others have on the results (date/range, presumptive conditions, next steps)?"
+  - "If the tool says they're eligible, what do they say they would do next?"
+
+hypotheses:
+  - "Veterans and others will find the questions to be clear and easy to understand and answer"
+  - "Veterans and others will find the number and content of questions to be relevant and not overly burdensome"
+  - "The results are simple enough for Veterans and others to understand and are not misleading"
+  - "Veterans and others will understand what 'presumptive conditions' mean after reading the plain language description"
+
+expected_outcomes: "Learnings will help refine questions and the presentation of results in the wizard"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation"
+  
+  primary_criteria:
+    - "NONE have ever applied for VA benefits under the PACT Act"
+    - "At least 5 whose service years include 1989 or earlier"
+    - "At least 3 whose service years include 1990 or later"
+    - "At least 3 whose service years include both before AND after 1990"
+    - "At least 4 people with a cognitive disability (e.g., TBI)"
+    - "At least 7 have a smartphone to use for the session"
+    
+  secondary_criteria:
+    - "At least 4 people who are age 55 or older"
+    - "At least 2 people 35 or under"
+    - "At least 3 people of color"
+    - "At least 2 women"
+    - "At least 2 who don't have any degree or vocational training after high school"
+    - "At least 2 people who live in a rural or remote area"
+    - "At least 2 people who are LGBTQ+"
+    
+  screener_questions:
+    - question: "Have you applied for VA benefits under the PACT Act?"
+      qualifying_response: "No (recruit 11, disqualify if yes)"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Yes (recruit 4 with cognitive disability)"
+    - question: "Do you have Zoom downloaded to smartphone and know how to screen share?"
+      qualifying_response: "Yes (recruit 7)"
+      
+participants:
+  veterans: 8
+  caregivers: 0
+  dependents: 3
+  total_recruited: 11
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-09-27"
+  pilot_participant: "TBD"
+  research_dates: "2023-10-02 to 2023-10-09"
+  research_review_submission: "2023-09-20"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: []
+  - objective: "Increase the quality and reliability of VA services"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Veterans and their families trust the security, accuracy, and relevancy of VA.gov"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/385"
+    
+tags:
+  - "PRDT: pact-act-wizard"
+  - "BNFT: disability"
+  - "BNFT: health-care"
+  - "AUD: veterans"
+  - "AUD: family-members"
+  - "RESRCH: usability"
+  - "RESRCH: remote"
+  - "RESRCH: moderated"
+  - "HDW: smartphone"
+  - "pact-act"
+  - "eligibility"
+  - "wizard"
+  - "presumptive-conditions"
+  - "toxic-exposure"
+---
+
 # Research Plan for Usability Testing, PACT Act Wizard, September 2023
 
 ## Background

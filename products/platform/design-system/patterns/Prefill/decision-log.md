@@ -7,6 +7,8 @@ This document outlines the key design decisions made for implementing Prefill pa
 - [ADR: 001 - Success alert messages](#ADR-001---Success-Alert-messages)
 - [ADR: 002 - Optional vs Required label](#ADR-002---Optional-vs-Required-label)
 - [ADR: 003 - Minimal header back button](#ADR-003---Minimal-header-back-button)
+- [ADR: 004 - Option to update only mailing address to either form or profile](#ADR-004---Option-to-update-only-mailing-address-to-either-form-or-profile)
+
 
 
 
@@ -57,6 +59,24 @@ N/A
 
 ### Context
 If the form is using minimal header and the user is editing a card from the edit page, the back link takes the user away from the form.  We are proposing to take the user back to the card page. 
+
+### Decision
+
+
+### Consequences
+
+
+### Open Questions
+N/A
+
+## ADR 004 - Option to update only mailing address to either form or profile
+
+### Status: Proposed
+
+- Date issue raised:12/15/2025
+- Decision date:
+
+### Context
 
 ### Decision
 

@@ -1,3 +1,134 @@
+---
+# Research Plan Metadata
+title: "Research Plan for ARM Team, Appoint a Representative - VA.gov User Test, February 2025"
+date: 2025-02-12
+last_updated: 2025-02-12
+team: "ARM (Accredited Representation Management)"
+product: "Appoint a Representative"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Create a high-quality accessible service or suite of services within VA.gov to serve Veterans in finding and managing their accredited representatives (Power of Attorney (POA)) and to support the deprecation of the legacy systems used to take those actions."
+  product_location: "VA.gov > Appoint a Representative (live testing on production VA.gov)"
+  user_familiarity: "New feature with live user testing"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representation-management"
+
+# Research Design
+methodology: "Moderated usability testing with warm-up questions"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Evaluate usability of Appoint a Representative on VA.gov - including understandability of content, whether the experience meets user expectations, and identifying system bugs"
+  - goal_2: "Stretch goal: Evaluate usability of the Representative Status Widget on VA.gov"
+
+research_questions:
+  - "Are there any usability challenges with the Appoint a Representative feature?"
+  - "Do users understand the information shown?"
+  - "Is there any information missing?"
+  - "Are there any challenges with using the experience?"
+  - "Is there any confusion with the 'Street address line 2' input?"
+  - "Do users correctly interpret the 'Note: If you submit another request, you'll cancel your current one.' content on the confirmation page?"
+  - "Does the experience meet user expectations?"
+  - "Are the steps clear and actionable?"
+  - "Are there any reasons why users are not navigating from the Download to the Next Steps pages?"
+  - "Are assistive technology (AT) users able to successfully use the feature?"
+  - "Stretch goal: Are there any usability challenges with the Representative Status Widget?"
+
+hypotheses:
+  - "Veterans will be able to successfully navigate Appoint a Representative through tested patterns and informative content."
+  - "Veterans will clearly understand whether the process concludes with a PDF or digital submission, as well as the next steps to take upon completion."
+  - "Veterans will find value in signing in to see their current representative."
+  - "If signed-in, Veterans will expect their information to be pre-filled in the form."
+
+expected_outcomes: "User testing of Appoint a Representative and the Representative Status Widget on VA.gov will help the team to identify and fix any outstanding user pain points and system bugs in the experience."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Lean maximum variation sampling"
+  
+  primary_criteria:
+    - "Must have used, or are willing to use, VA.gov"
+    - "Actively searching for a representative to support with a claim or benefit OR started receiving support in the last 6 months"
+    - "Attorney or claims agent (not VSO)"
+    
+  secondary_criteria:
+    - "2 or more participants age 55+ years old"
+    - "2 or more with cognitive disability"
+    - "1 or more people of color (black, hispanic, asian, or Native American)"
+    - "1 or more in rural location"
+    - "1 or more with no degree"
+    - "1 or more women"
+    - "1 or more LGBTQ+"
+    
+  screener_questions:
+    - question: "The following statements will refer to your engagement with representatives. Select the option that best describes your current situation."
+      qualifying_response: "Actively searching for a representative OR began working with a representative in the last 6 months"
+    - question: "What type of representative are you looking for support from?"
+      qualifying_response: "Attorney (paid service) or Claims agent (paid service)"
+    - question: "How often do you use VA.gov?"
+      qualifying_response: "Any frequency except 'Never, and would prefer not to use VA.gov'"
+      
+participants:
+  veterans: 4
+  caregivers: 0
+  dependents: 0
+  total_recruited: 4
+  completed_sessions_goal: 3
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2025-02-20 to 2025-02-28"
+  research_review_submission: "2025-02-12"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 2
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results: 
+      - "Veterans can easily find and manage their accredited representatives through VA.gov"
+      - "Legacy systems for representative management can be deprecated"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representation-management"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Attorneys"
+  - "PRDT: Accredited-Reps"
+  - "usability-testing"
+  - "authenticated"
+  - "DSC: Form"
+  - "DSC: Form - Radio Button"
+  - "DSP: Help users to check answers"
+  - "DSC: Alert Boxes"
+  - "Accessibility"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "moderated"
+  - "remote"
+  - "live-testing"
+  - "cognitive-disability"
+---
+
 # **Research Plan for ARM Team, Appoint a Representative - VA.gov User Test, 02/2025**
 
 **Office of the CTO - Digital Experience (OCTO-DE)**

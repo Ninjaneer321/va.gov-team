@@ -1,3 +1,114 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Unicorns Team, Claim Status Tool Discovery, September 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Unicorns"
+product: "Claim Status Tool"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans are using the Claim Status tool to submit Decision Review forms, which creates a problem because forms get stored in the eFolder without EP codes for tracking and does not notify anyone. Decision Review forms could go unnoticed indefinitely."
+  product_location: "VA.gov authenticated experience - Claim Status Tool"
+  user_familiarity: "Iteration - researching existing tool usage and appeal filing expectations"
+  product_brief_url: ""
+
+# Research Design
+methodology: "usability-testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand where Veterans expect to be able to file an appeal on VA.gov"
+  - goal_2: "Understand how Veterans are using the Claim Status tool"
+  - goal_3: "Discover opportunities to improve Veterans' experiences with the Claim Status tool"
+
+research_questions:
+  - "Where would Veterans expect to be able to file an appeal on VA.gov?"
+  - "How are Veterans using the Claim Status tool and how do they feel about it?"
+  - "Does the Claim Status tool have the information Veterans need, and is it clear and easy to understand?"
+  - "What types of files do Veterans expect to upload in the Claim Status tool?"
+  - "What do Veterans expect to happen after they upload evidence?"
+  - "Would Veterans consider uploading a non-evidence document in the Claim Status tool, and why?"
+
+hypotheses:
+  - "Veterans are using the Claim Status tool to submit Decision Review forms because there isn't a better way to submit them on VA.gov"
+  - "There are opportunities to improve the Claim Status tool and appeals content on VA.gov to help Veterans easily understand the process"
+
+expected_outcomes: "Identify how frequently Veterans submit Decision Review forms incorrectly and discover improvement opportunities for the Claim Status tool to prevent misuse for appeals submissions"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment"
+  
+  primary_criteria:
+    - "Must have one of the following accounts: DSLogon, My HealtheVet, or ID.me"
+    - "Must have filed a disability claim or appealed a disability decision"
+    
+  secondary_criteria:
+    - "Geographically dispersed"
+    
+  screener_questions:
+    - question: "Have you filed a disability claim or appealed a disability decision?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 8
+  caregivers: 0
+  dependents: 0
+  total_recruited: 8
+  completed_sessions_goal: 6
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2019-09-23"
+  pilot_participant: "Emily W."
+  research_dates: "2019-09-25 to 2019-10-01"
+  research_review_submission: "2019-09-13"
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 0
+  max_sessions_per_day: 6
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their VA benefits online"
+    key_results: 
+      - "Improve Claim Status tool usability"
+  - objective: "Reduce burden on contact centers"
+    key_results:
+      - "Reduce confusion about where to file appeals"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Managing my declining health"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - ""
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Claim-status-tool"
+  - "PRDT: Decision-reviews"
+  - "DSP: Ask users for files"
+  - "DSC: File upload"
+  - "usability-testing"
+  - "remote"
+  - "discovery"
+---
+
 # Research Plan
 
 Unicorns, Claim Status Tool, September 2019

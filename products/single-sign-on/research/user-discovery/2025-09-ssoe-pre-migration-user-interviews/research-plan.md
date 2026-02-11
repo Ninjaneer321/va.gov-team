@@ -1,3 +1,132 @@
+---
+# Research Plan Metadata
+title: "Research Plan for ICAM SSOe Pre-Migration, September 2025"
+date: 2025-09-01
+last_updated: 2025-09-01
+team: "Identity, Credential, and Access Management (ICAM)"
+product: "Single Sign-On (SSO) - SSOe Pre-Migration"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The VA is implementing a cloud-based Single Sign-On solution for centralized authentication. ICAM is modernizing authentication, authorization, and user access experiences across the VA ecosystem. Application owners need clear communication and documentation during the migration from IBM SVA to Okta."
+  product_location: "VA workforce and external user authentication systems"
+  user_familiarity: "Migration process from existing IBM SVA to Okta"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/single-sign-on"
+
+# Research Design
+methodology: "Semi-structured interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Evaluate the effectiveness of current communication and documentation provided during ICAM migration"
+  - goal_2: "Identify patterns in user roles and responsibilities that influence their experiences and interactions with ICAM"
+  - goal_3: "Understand the expectations and perceptions of success among application owners regarding ICAM migration"
+  - goal_4: "Alignment to deliver reusable, insight-driven assets"
+
+research_questions:
+  - "What have partners experienced when implementing IBM SVA and how have those experiences shaped their expectations of the Okta migration?"
+  - "How well do partners understand the scope, process, and implications of migrating to Okta?"
+  - "What concerns, barriers, and risks do partners perceive in the migration from IBM SVA to Okta?"
+  - "What expectations and requirements do partners have to ensure a smooth and successful migration?"
+
+hypotheses:
+  - "Most application owners will report no issues with the migration request process"
+  - "Applications owners will identify communication and documentation as key factors in their migration experience"
+
+expected_outcomes: "This research will inform user type personas for application owners, application managers, and technical POCs to understand the user needs and pain points to improve ICAM migration efforts."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Internal - Integration survey and application owner lists"
+  approach: "Targeted recruitment of application owners, managers, and technical POCs"
+  
+  primary_criteria:
+    - "Application owners involved in ICAM migration"
+    - "Application managers overseeing migration process"
+    - "Technical POCs responsible for implementation"
+    
+  secondary_criteria:
+    - "Experience with IBM SVA implementation"
+    - "Varying levels of migration progress"
+    
+  screener_questions:
+    - question: "Are you an application owner, manager, or technical POC involved in ICAM migration?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  application_owners: 8
+  total_recruited: 8
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "September 2025"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 30
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Enhance VA's modernization efforts through cloud-based SSO"
+    key_results: 
+      - "Successful migration of applications from IBM SVA to Okta"
+      - "Improved user experience for workforce and external users"
+      
+veteran_journey_phases:
+  - "N/A - Internal VA workforce and application owner research"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/single-sign-on/research"
+    
+conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/single-sign-on/research/user-discovery/2025-09-ssoe-pre-migration-user-interviews/conversation-guide.md"
+
+tags:
+  - "ICAM"
+  - "single-sign-on"
+  - "SSO"
+  - "SSOe"
+  - "Okta"
+  - "IBM-SVA"
+  - "migration"
+  - "semi-structured-interviews"
+  - "application-owners"
+  - "workforce"
+  - "authentication"
+  - "pre-migration"
+  
+# Team & Approvals
+team_roles:
+  moderator: "Anne Kennedy"
+  research_guide_writing: "Anne Kennedy"
+  participant_recruiting: "Anne Kennedy"
+  project_point_of_contact: "Anne Kennedy"
+  note_takers:
+    - "TBD"
+  observers:
+    - "Joel Calumpong"
+    - "Shannon Yeaker"
+    - "Jason Hunt"
+    - "Sherry Smith"
+---
+
 # **Research Plan for ICAM SSOe Pre-Migration, September 2025**
 
 ## Background 🏗️

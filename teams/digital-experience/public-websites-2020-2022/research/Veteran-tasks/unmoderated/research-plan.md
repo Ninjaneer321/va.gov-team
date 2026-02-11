@@ -1,3 +1,131 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Veteran Top Tasks Survey (Phase 2) - Sitewide Home Page Team, June 2022"
+date: 2022-06-06
+last_updated: 2022-06-06
+team: "Sitewide Home Page Team"
+product: "VA.gov Home Page"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "The current design of the VA.gov home page provides easy access to some Veteran tasks in four boxes near the top of the page, but user research has shown that other tasks are more challenging to do when starting from the home page. We need to identify which VA-related tasks are most important to Veterans and caregivers so that these tasks can be best supported from the home page."
+  product_location: "VA.gov Home Page"
+  user_familiarity: "Iteration - redesigning existing home page based on task prioritization"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/public-websites/research/202104-baseline-wayfinding"
+
+# Research Design
+methodology: "Unmoderated Survey"
+research_format: 
+  location: remote
+  moderated: false
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Identify Veteran top tasks from a set of 41 tasks to find the 5-10 most important tasks"
+  - goal_2: "Get input from Veterans, family members, caregivers, survivors, and service members about task importance"
+  - goal_3: "Understand which tasks are done most frequently online and which are least important"
+
+research_questions:
+  - "When Veterans or others contact the VA, what tasks are most important to them?"
+  - "How many tasks do Veterans and others identify as important to themselves?"
+  - "What tasks are least important?"
+  - "Are there any important tasks missing?"
+  - "What tasks are done most frequently online?"
+
+hypotheses:
+  - "Veterans and others will generally agree on which tasks are the most important"
+  - "Veterans and others will generally agree on which tasks are the least important"
+
+expected_outcomes: "The top tasks identified could be used to inform the redesign of the VA.gov home page and measure the overall health of VA.gov. We can use the top tasks to run baseline usability tests and regular tests at intervals. Over time, these tests will tell us whether Veterans can quickly and easily complete all top tasks."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Cohort-based recruitment across 8 distinct mini-studies to meet PRA requirements"
+  
+  primary_criteria:
+    - "All participants must have a computer or mobile device and are willing to use it to complete the activity"
+    - "Cohort A (9 Veterans): No VA health care experience but experience with at least one other benefit"
+    - "Cohort B (9 Veterans): Experience with disability benefits"
+    - "Cohort C (6 Veterans): Experience with education benefits or career services"
+    - "Cohort D (6 Veterans): Experience with housing, pension, life insurance, or burial benefits"
+    - "Cohort E (9 Veterans): No experience with any VA benefits but interested in some"
+    - "Cohort F (9 Non-Veterans): Caregivers, family members, survivors, or service members with VA benefit experience"
+    - "Cohort G (9 Non-Veterans): Caregivers, family members, survivors, or service members with no VA benefit experience but interested"
+    - "Cohort H (6 Mixed): Any participant type with VA benefit experience"
+    
+  secondary_criteria:
+    - "At least 6 women"
+    - "At least 15 people age 55 or older"
+    - "At least 5 people age 35 or under"
+    - "At least 10 people with a cognitive disability"
+    - "At least 10 people of color"
+    - "At least 5 people without degree or vocational training after high school"
+    - "At least 5 people who live in a rural or remote area"
+    
+  screener_questions:
+    - question: "Which VA benefits or services do you have any experience with?"
+      qualifying_response: "Varies by cohort - specific benefit experience requirements"
+      
+participants:
+  veterans: 48
+  caregivers: 6
+  dependents: 9
+  total_recruited: 63
+  completed_sessions_goal: 30
+
+# Timeline & Sessions
+timeline:
+  pilot_date: "2022-06-03"
+  pilot_participant: "Multiple colleagues tested survey"
+  research_dates: "2022-06-14 to 2022-06-21"
+  research_review_submission: "2022-06-06"
+  
+session_details:
+  duration_minutes: 5
+  buffer_minutes: 0
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: "Enable Veterans to quickly and easily complete top tasks from the home page"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Living civilian life"
+  - "Retiring and aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/public-websites/research/202104-baseline-wayfinding/research-readout-full-June8.pdf"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/public-websites/research/Veteran-tasks/moderated/research-findings.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Service Members"
+  - "AUD: Family Members"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Careers"
+  - "BNFT: Housing"
+  - "BNFT: Pension"
+  - "BNFT: Life Insurance"
+  - "BNFT: Burials"
+  - "PRDT: Public-websites"
+  - "PRDT: Home-page"
+  - "survey"
+  - "unmoderated"
+  - "top-tasks"
+  - "information-architecture"
+  - "wayfinding"
+  - "user-priorities"
+---
+
 # Research Plan for Veteran Top Tasks UNMODERATED (Phase 2 of 2) Survey, Sitewide Home Page team, June 6, 2022
 
 ## Background

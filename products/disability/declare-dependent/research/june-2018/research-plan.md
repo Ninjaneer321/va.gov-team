@@ -1,3 +1,129 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Dependents Benefits (Form 21-686c), Usability Testing, June 2018"
+date: 2018-06-01
+last_updated: 2026-02-10
+team: "Benefits"
+product: "Declaration of Dependents (Form 21-686c)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans with a disability rating of 30% or greater need to add or update dependents to receive additional benefits. The current process through eBenefits or paper forms can be confusing and frustrating. The team is digitizing Form 21-686c for VA.gov and needs to ensure Veterans can successfully complete the form with minimal confusion."
+  product_location: "VA.gov, Disability Benefits, Add or Remove Dependents"
+  user_familiarity: "new"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/declare-dependent"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Determine if Veterans and their dependents can fill out Form 21-686c with minimal frustration or confusion"
+  - goal_2: "Identify the most difficult portions of the form and understand why they cause challenges"
+  - goal_3: "Understand Veterans' preferences for completing related Form 21-674 content (for students 18-23)"
+
+research_questions:
+  - "Do Veterans understand who is and is not eligible for dependents' benefits?"
+  - "Does the flow of Form 21-686c make sense to Veterans?"
+  - "Are Veterans successfully able to complete the application?"
+  - "Do all form labels make sense, and are Veterans clear on whose information is being requested?"
+  - "Are Veterans confused or frustrated by any questions, particularly about marriages and spouses' marriages?"
+  - "Do Veterans know what to expect after they submit the application?"
+  - "Would Veterans prefer to fill out Form 21-674 questions now or later, and how would they prefer to be alerted?"
+
+hypotheses:
+  - "Veterans will experience some confusion around questions about multiple marriages and marriage history"
+  - "The digital form will be easier to complete than the paper version"
+  - "Veterans may not fully understand dependents' benefits eligibility criteria"
+  - "Veterans with children 18-23 in school will prefer to complete related questions at the same time rather than returning later"
+
+expected_outcomes: "Identify key usability issues and areas of confusion in the Form 21-686c flow. Findings will inform design refinements before launch and help determine the best approach for integrating related Form 21-674 content."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment for specific scenarios"
+  
+  primary_criteria:
+    - "Veterans with disability rating of 30% or greater"
+    - "Mix of Veterans who have and haven't used dependents' benefits"
+    - "At least one Veteran and their spouse both in at least their second marriage"
+    - "At least one Veteran with a child aged 18-23 enrolled in school"
+    - "Mix of men and women across all military branches"
+    - "Representation across age brackets: 18-30, 30-50, 50+"
+    
+  secondary_criteria:
+    - "At least half (3) must have dependents who have used or are using VA benefits"
+    - "One spouse of a Veteran (non-Veteran participant)"
+    
+  screener_questions:
+    - question: "Do you have a VA disability rating of 30% or greater?"
+      qualifying_response: "Yes"
+    - question: "Do you have or have you had dependents using VA benefits?"
+      qualifying_response: "Mix of yes and no"
+    - question: "Have you been married more than once?"
+      qualifying_response: "At least one yes"
+      
+participants:
+  veterans: 7
+  caregivers: 0
+  dependents: 1
+  total_recruited: 9
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2018-06-01"
+  pilot_participant: "Lauren Alexanderson"
+  research_dates: "2018-06-18 to 2018-06-22"
+  research_review_submission: "2018-06-01"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their benefits online"
+    key_results: 
+      - "Enable Veterans to add and remove dependents online"
+      - "Reduce confusion and errors in dependents declarations"
+      - "Improve processing time for dependents benefits"
+      
+veteran_journey_phases:
+  - "Getting Out"
+  - "Starting Up"
+  - "Putting Down Roots"
+  - "Taking Care of Myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "eBenefits dependents functionality research"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Family Member"
+  - "AUD: Dependents"
+  - "BNFT: Disability"
+  - "PRDT: Form 21-686c"
+  - "DSC: Form"
+  - "DSC: Form - Date Input"
+  - "DSC: Form - Radio Button"
+  - "DSP: Ask users for names"
+  - "DSP: Ask users for dates"
+  - "DSP: Ask users for addresses"
+  - "DSP: Ask users for multiple responses"
+  - "DSP: Help users to check answers"
+  - "usability-testing"
+  - "authenticated"
+---
+
 ## Goals
 
 1. Do Veterans understand who is and is not eligible for dependents' benefits?

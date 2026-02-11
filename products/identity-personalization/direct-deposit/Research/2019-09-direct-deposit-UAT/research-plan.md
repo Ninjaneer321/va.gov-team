@@ -1,3 +1,117 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Authenticated Experience Team, Direct Deposit UAT, September 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Authenticated Experience"
+product: "Direct Deposit"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Direct deposit for compensation & pension needs to launch on VA.gov as quickly as possible per VBA leadership directive. UAT is required to validate functionality on production before full release."
+  product_location: "VA.gov Profile - Direct Deposit section (production beta)"
+  user_familiarity: "New feature completing validation testing before public launch"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/direct-deposit/README.md"
+
+# Research Design
+methodology: "UAT"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Validate that direct deposit is displaying correctly for eligible users in production"
+  - goal_2: "Verify that direct deposit information is being correctly pulled from backend systems"
+  - goal_3: "Test that users can successfully update their direct deposit information on production"
+
+research_questions:
+  - "Is direct deposit showing in people's profiles when it is supposed to?"
+  - "Is direct deposit NOT showing when it's NOT supposed to?"
+  - "For people who are supposed to see direct deposit, is their information being correctly pulled in from the backend?"
+  - "For people who are supposed to see direct deposit, can they update their information?"
+
+hypotheses:
+  - "Direct deposit will work as expected on production"
+
+expected_outcomes: "Confirm that direct deposit functionality works correctly on production before full public launch"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment for production testing"
+  
+  primary_criteria:
+    - "Must receive compensation & pension payments from the VA"
+    - "Must be LOA3 (identity verified) on VA.gov"
+    - "Must be able to screenshare via GoToMeeting"
+    
+  secondary_criteria:
+    - "Comfortable with technology"
+    
+  screener_questions:
+    - question: "Do you receive compensation & pension payments from the VA?"
+      qualifying_response: "Yes"
+    - question: "Can you sign into VA.gov and access your profile without being prompted to verify your identity?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 5
+  caregivers: 0
+  dependents: 0
+  total_recruited: 5
+  completed_sessions_goal: 5
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2019-09-03"
+  pilot_participant: "TBD"
+  research_dates: "2019-09-04 to 2019-09-09"
+  research_review_submission: ""
+  
+session_details:
+  duration_minutes: 15
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their VA benefits online"
+    key_results: 
+      - "Launch secure direct deposit management on VA.gov"
+  - objective: "Improve security and reduce fraud"
+    key_results:
+      - "Migrate sensitive transactions to 2FA-protected platform"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Direct Deposit Usability Testing June 2019"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "BNFT: Pension"
+  - "PRDT: Direct-deposit"
+  - "PRDT: Profile"
+  - "DSP: Authenticated-experience"
+  - "UAT"
+  - "remote"
+  - "production-testing"
+  - "beta"
+  - "financial-information"
+---
+
 # Research Plan for Direct Deposit UAT
 
 ## Goals

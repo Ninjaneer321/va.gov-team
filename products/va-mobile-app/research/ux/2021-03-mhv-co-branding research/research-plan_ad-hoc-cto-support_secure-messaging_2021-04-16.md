@@ -1,3 +1,114 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Ad Hoc CTO Support, Secure Messaging MHV Co-branding, April 16, 2021"
+date: 2021-04-16
+last_updated: 2026-02-10
+team: "VA Mobile App Team"
+product: "VA Mobile App MVP"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans can have strong feelings about tools they are familiar with. We need to understand how referring to MyHealtheVet in the mobile app sets expectations and whether it creates trust without setting unrealistic expectations that lead to disappointed Veterans."
+  product_location: "VA Mobile App - Secure Messaging feature"
+  user_familiarity: "New - MVP mobile app with MHV branding considerations"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app"
+
+# Research Design
+methodology: "card sort"
+research_format: 
+  location: remote
+  moderated: false
+  
+# Research Goals & Questions
+research_goals:
+  - "Understand what expectations come along with referring to MyHealtheVet in the mobile app"
+  - "Determine if MHV branding improves trust or familiarity with the Secure Messaging feature"
+  - "Assess if MHV branding brings expectations that other features like Rx Refills are present when they are not"
+
+research_questions:
+  - "What expectations come along with referring to MyHealtheVet in the mobile app?"
+  - "Does MHV branding improve trust or at least familiarity with the Secure Messaging feature?"
+  - "Does it bring expectations that other features like Rx Refills are already present?"
+  - "Is the usage of 'Secure Messaging' without any MHV branding just as effective?"
+
+hypotheses:
+  - "If we constrain use of the MHV brand to the Secure Messaging feature, it will not create unfulfilled expectations about other features like RX Refills that do not yet exist in the mobile app"
+
+expected_outcomes: "Findings will inform design decisions about MHV branding usage to ensure Veterans have accurate expectations of the app without being disappointed by missing features"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "A/B split across age cohorts"
+  
+  primary_criteria:
+    - "Must regularly use a smartphone or tablet to interact with VA"
+    - "Must have experience with MyHealtheVet"
+    - "DO NOT recruit participants who need screen readers (unmoderated study is not accessible)"
+    - "Screen magnification is okay"
+    
+  secondary_criteria:
+    - "Wide range of experience with VA services"
+    - "Diverse age groups as proxy for War Era segments (18-24, 25-34, 35-44, 45-54, 55-64, 65-74, 75+)"
+    
+  screener_questions:
+    - question: "Do you regularly use a smartphone or tablet to interact with VA?"
+      qualifying_response: "Yes"
+    - question: "Do you have experience with MyHealtheVet?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 70
+  caregivers: 0
+  dependents: 0
+  total_recruited: 70
+  completed_sessions_goal: 70
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-04-09"
+  pilot_participant: "Julia Snyder"
+  research_dates: "2021-04-16"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 5-15
+  buffer_minutes: 0
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+  - objective: "Veterans and their families trust the security, accuracy and relevancy of VA.gov"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Managing my declining health"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/research/generative-research-study-1/OCTO"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: VA-mobile-app"
+  - "PRDT: Secure-messaging"
+  - "MHV: MyHealtheVet"
+  - "BNFT: Healthcare"
+  - "card-sort"
+  - "unmoderated"
+  - "remote"
+  - "branding"
+  - "co-branding"
+  - "user-expectations"
+  - "authenticated-experience"
+  - "mobile"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+---
+
 # Research Plan for Ad Hoc CTO Support, Secure Messaging, April 16th, 2021
 
 ## Goals

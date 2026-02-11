@@ -1,3 +1,138 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VSA Authenticated Experience, Profile 2.0 Redesign, March 2020"
+date: 2020-03-01
+last_updated: 2026-02-10
+team: "VSA Authenticated Experience"
+product: "Profile"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Understand user comprehension and usability after combining current 'profile' and 'account' into one page as part of the personalization 2.0 effort to better meet user needs and expectations."
+  product_location: "VA.gov Profile section (combining existing Profile and Account pages)"
+  user_familiarity: "Iteration - redesigning and combining existing Profile and Account pages"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/personalization%202.0/README.md"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Determine if the design reflects the user personally"
+  - goal_2: "Assess if the user can find the information they are looking for effectively"
+  - goal_3: "Understand how the side navigation affects task efficiency"
+  - goal_4: "Evaluate how easily users can change information within the profile"
+
+research_questions:
+  - "Can people find what they're looking for in the profile?"
+  - "Do users understand how to update their information?"
+  - "What information is important for them to see first?"
+  - "Do the terms we use on the profile make sense/mean anything to users?"
+  - "Has the side nav increased scanability of the new profile? Do people find what they need easily?"
+  - "Do saving/errors interactions feel intuitive?"
+  - "Do people understand why some info isn't editable, and how to update it?"
+  - "How does the overall nav effect visibility of the profile? Is it easy to find?"
+  - "How do people think the new profile compares to profile/account 1.0?"
+  - "Do people understand what connected accounts are? Do they want to see this section if they don't have connected accounts?"
+  - "Where would people go to change the email address they use to sign in?"
+  - "Does the mobile nav and placement make sense?"
+  - "Do users understand the 'learn more' sections? Are they representing the most frequently asked questions?"
+  - "Does the labeling on the left nav make sense?"
+
+hypotheses:
+  - "We'll find some terminology that needs updating."
+  - "People will prefer 2.0 to 1.0."
+  - "The side nav will go over really well and increase scanability."
+  - "Saving and error interactions will be intuitive and meet expectations."
+  - "The mobile navigation will be hard to find and understand."
+  - "Participants may not understand why or how to edit 'personal information'."
+  - "Participants might be confused about Connected Accounts and what that means."
+
+expected_outcomes: "Identify usability improvements and terminology updates needed for Profile 2.0 before launch, ensuring the combined profile meets user needs better than the separate pages."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "diversity screening"
+  
+  primary_criteria:
+    - "8 sessions scheduled to reach 5-6 completed sessions"
+    - "Veterans who use VA.gov"
+    - "Must be able to screenshare via Zoom"
+    
+  secondary_criteria:
+    - "At least 3 people who use the apple health app (preferred, optional)"
+    - "At least 1 woman"
+    - "At least 1 person of color"
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    - "At least one person with cognitive disabilities"
+    
+  screener_questions:
+    - question: "Can you screenshare via Zoom and have Zoom downloaded?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 8
+  caregivers: 0
+  dependents: 0
+  total_recruited: 8
+  completed_sessions_goal: 6
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2020-04-01"
+  pilot_participant: "Erik Hansen"
+  research_dates: "2020-04-06 to 2020-04-10"
+  research_review_submission: "2020-03-25"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 5
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Personalization 2.0"
+    key_results: 
+      - "Reimagine and expand existing personalized functionality on VA.gov"
+      - "Better meet user needs and expectations for profile management"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/personalization%202.0/Combine%20Profile%20and%20Account/Research"
+    
+tags:
+  - "profile"
+  - "account"
+  - "authenticated-experience"
+  - "personalization"
+  - "usability-testing"
+  - "information-architecture"
+  - "navigation"
+  - "side-nav"
+  - "mobile"
+  - "contact-information"
+  - "personal-information"
+  - "connected-accounts"
+  - "veterans"
+  - "VSA"
+---
+
 # Research Plan for VSA Authenticated Experience: Combine Profile and Account
 Prepared by Tressa Furner, Ad Hoc | March 2020
 

@@ -1,3 +1,123 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VA Seamless, Live Agent Chat, Interviews with Veterans, July 2023"
+date: 2023-07-13
+last_updated: 2023-07-13
+team: "Thoughtworks - VA Seamless CX"
+product: "Live Agent Chat"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Exploring how integrations of chat-based Live Agent services may enhance and enable the experiences of Veterans and their caregivers while interacting with the VA, seeking to understand pain points and recommendations for improving text-based live agent interactions."
+  product_location: "VA.gov contact channels"
+  user_familiarity: "Iteration - exploring existing text-based chat experiences"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/live-agent"
+
+# Research Design
+methodology: "semi-structured interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand how Veterans and their families would want to leverage a chat experience, how it works for them today (in the VA and outside of the VA), and in what instances they would not want to use a chat experience"
+  - goal_2: "Map out what a Veteran's experience journey would look like if they were to leverage a live chat experience; considering the different archetypes and variance in the problems to be solved"
+
+research_questions:
+  - "What are the reasons why Veterans and their caregivers reach out to the VA for resources?"
+  - "What are the positive and negative aspects they experience when sourcing information through text-based chat with a Live Agent?"
+  - "Where is there room for improvement in text-based chat interactions with VA Live Agents?"
+  - "What would indicate a successful experience for Veterans using text-based chat?"
+  - "What recommendations do Veterans have for improving text-based chat conversations with Live Agents or with the technology?"
+
+hypotheses:
+  - "There will be some consistency across each Veteran's journey in how they reach out for help to find information from the VA"
+  - "There will be a number of challenges Veterans experience in regards to effectively sourcing information or resources that they need"
+  - "There will be some scenarios where text-based chat works really well and others where it is not an ideal channel to use to solve a specific problem or issue"
+
+expected_outcomes: "Develop a guide of best practices for text-based live chat across different departments at the VA and recommendations for additional technology to enhance the chat communication experience"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "diverse veteran representation"
+  
+  primary_criteria:
+    - "All Veterans"
+    - "Must have computer, tablet, or smartphone and willing to complete session on one of those devices"
+    - "Have working microphone on their device"
+    - "Have Zoom downloaded prior to session"
+    - "Experience with text-based chat with Live Agents (either with VA or another organization)"
+    
+  secondary_criteria:
+    - "At least 2 participants must identify as Black, Hispanic, or people of color"
+    - "At least 2 participants must identify as other than male"
+    - "At least 1 person under the age of 35"
+    - "At least 1 person over the age of 55"
+    
+  screener_questions:
+    - question: "Do you have experience with text-based chat with Live Agents (either with the VA or another organization)?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 6
+  caregivers: 0
+  dependents: 0
+  total_recruited: 6
+  completed_sessions_goal: 3
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-07-12"
+  pilot_participant: "Emma Pinkerton"
+  research_dates: "2023-07-13 to 2023-07-21"
+  research_review_submission: "2023-07-12"
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 15
+  max_sessions_per_day: 5
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans access to information and benefits"
+    key_results: 
+      - "Increase Veterans access to information and benefits"
+  - objective: "Decrease call center volume, wait time, and time to resolution"
+    key_results:
+      - "Reduce call center burden through effective chat experiences"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/live-agent/research"
+    
+tags:
+  - "PRDT: Virtual Agent"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "semi-structured interviews"
+  - "contact center"
+  - "live chat"
+  - "customer experience"
+  - "communication channels"
+  - "support services"
+  - "discovery"
+---
+
 # Research Plan for VA Seamless, Live Agent Chat, Interviews with Veterans, July 2023
 
 ## Background

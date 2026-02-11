@@ -1,110 +1,127 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for Mobile Feature Support, Debt Portal: Overpayments in mobile app UAT, January 2026"
+date: "2026-01-26"
+last_updated: "2026-02-06"
+team: "Mobile Feature Support"
+product: "VA mobile app — Overpayments (Combined VA Debt Portal)"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "The mobile app does not have any debt-related information for Veterans to access. The goal is to let Veterans see totals + details for overpayment debts in the app."
+  product_location: "Authenticated section of VA Mobile App, to be added to the existing \"Payments\" tab."
+  user_familiarity: "Veterans currently manage their debt on VA.gov; this will be a new addition to the mobile app."
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/Overpayment%20and%20Copayment%20Debts%20Product%20Brief.md"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
-research_format: 
+methodology: "Moderated remote User Acceptance Testing (UAT)"
+research_format:
   location: remote # Options: remote, in-person, hybrid
   in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
+    facility: "missing"
+    point_of_contact: "missing"
+    equipment: "missing"
   moderated: true # Options: true, false
-  
+
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Verify that all elements of the Overpayments functionality operate as intended for end users with real data."
+  - goal_2: "Validate that end users can successfully view, manage, and resolve overpayments using the app, meeting all criteria outlined in the defined user paths."
+  - goal_3: "Confirm whether the Overpayments functionality is fully ready for production release."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can Veterans locate and access Overpayments information from the home screen and Payments tab?"
+  - "Can Veterans review overall information for all overpayments and view overpayment details (including due dates/alerts, balances, and supporting content) as intended?"
+  - "Can Veterans use help content and contact pathways (e.g., help menu, request help content) without issues?"
+  - "Can Veterans successfully initiate resolution actions (make a payment, request help, dispute overpayment) and transition between the app and web as intended?"
+  - "Do navigation elements (including breadcrumbs) behave as expected across key screens and flows?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will be able to view, manage, and resolve their overpayments using the Overpayment feature."
+  - "Users will access overpayment information, complete key actions, and navigate between screens without issues."
+  - "The Overpayments functionality will operate correctly and meet all success criteria during user acceptance testing."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will confirm whether the Overpayments functionality is ready for production release; if success criteria are met, the team will proceed with launch and communicate readiness."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
-  
+  approach: "missing"
+
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
-    
+    - "Currently have an overpayment debt"
+    - "Willing to log in to their VA account with their own credentials (priority for screen sharing)"
+    - "Mix of device types: 5 iOS and 5 Android"
+
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
-    
+    - "A variety of types of overpayment debt among participants"
+    - "Having multiple types of overpayment debt"
+
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
-      
+    - question: "Do you currently owe any of the following types of VA debt? (Select all that apply.)"
+      qualifying_response: "Selects at least one overpayment debt type; does NOT select \"I do not currently owe any of the above types of VA debt.\""
+    - question: "When you sign in to VA.gov and go to My VA (https://va.gov/my-va/), do you see details about \"overpayment debts\" under \"Outstanding debts\"?"
+      qualifying_response: "Yes, I see a listing of 1 or more overpayment debts on VA.gov."
+    - question: "Are you willing to sign in to the VA mobile app with your real credentials for the study (and share your screen if asked)?"
+      qualifying_response: "Willing to log in with real credentials (prioritize those willing to share screen)."
+    - question: "Are you comfortable downloading required testing tools and installing a pre-release version of the VA app (including Android \"Install Unknown Apps\" if applicable)?"
+      qualifying_response: "Yes."
+    - question: "Are you able to join the Zoom session from a smartphone?"
+      qualifying_response: "Yes (iPhone or Android)."
+    - question: "Do you usually adjust standard display settings or use accessibility features on your smartphone?"
+      qualifying_response: "Any (not disqualifying)."
+
 participants:
-  veterans: 0
+  veterans: 10
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  
+  total_recruited: 10
+  completed_sessions_goal: 6
+
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
-  
+  pilot_date: "missing"
+  pilot_participant: "Michael Harmer, Janelle Finnerty, Ian Hilton"
+  research_dates: "missing"
+  research_review_submission: "missing"
+
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
-  
+  max_sessions_per_day: 3
+
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
-    key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+  - objective: "Objective 1: VA’s digital experiences are the easiest and most efficient way to access VA health care and benefits."
     key_results:
-      - "[Specific KR if applicable]"
-      
+      - "Improve satisfaction with our web and mobile products by 5 points."
+      - "100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error."
+  - objective: "missing"
+    key_results:
+      - "missing"
+
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
-    
+  - "Starting Up (Moment: Balancing Finances)"
+  - "Taking Care of Myself (Moment: Maintaining my health)"
+  - "Putting Down Roots (Moment: Maintaining my financial, social, and emotional health)"
+  - "Retiring (Moment: Taking care of my health)"
+  - "Aging (Moment that Matters: Managing my declining health)"
+
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
-    
+  previous_studies:
+    - "missing"
+
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "authenticated"
+  - "uat"
+  - "veterans"
+  - "mobile"
 ---
+
+
+
 
 	# Research Plan for Mobile Feature Support, Debt Portal: Overpayments in mobile app UAT, January 2026
 
@@ -251,7 +268,8 @@ We would like Perigean to recruit Veterans with current overpayment debt who are
 Screener question 1
 
 * Do you currently owe any of the following types of VA debt? If so, please select all that apply.
-    * Post-9/11 GI Bill overpayment (books and supplies, housing, or tuition)
+    * Medical debt [DISQUALIFY IF THIS IS THE ONLY SELECTION]
+	* Post-9/11 GI Bill overpayment (books and supplies, housing, or tuition)
     * Disability compensation and pension overpayment
     * Education Ch 33-Ch1606/Ch30 Kickers
     * Chapter 34 education overpayment
@@ -260,10 +278,12 @@ Screener question 1
 
 Screener question 2
 
-* When you sign in to VA.gov and to go My VA (https://va.gov/my-va/), do you see details about "overpayment debts" under the section "Outstanding debts"? (this is different from copay bills)
+* When you sign in to VA.gov and go to My VA, do you see details about "overpayment debts" under the section "Outstanding debts"? (this is different from copay bills)
     * Yes, I see a listing of 1 or more overpayment debts on VA.gov.
     * No, I don’t see any overpayment debt details on VA.gov [DISQUALIFY]
     * I don’t have a VA.gov account / I can’t sign in right now [DISQUALIFY]
+
+    _NOTE: please make sure link in question 2 is included in the invitation_
 
 Screener question 3
 
@@ -295,9 +315,10 @@ Screener question 6
     * Other
     * Prefer not to say
 
-_[To be discussed with Perigean: best way to confirm these with participants?]_ Technical pre-requisites for participants (for both iOS and Android)
+_[For Perigean's communication with participants]_ Pre-requisites for participants (for both iOS and Android)
 
 - VA Credentials: You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
+- You have a current benefit overpayment debt that is visible in your VA.gov account (https://va.gov/manage-va-debt/summary)
 - (Android only) Email Access: You can open your email directly on your mobile phone to click the test link.
 - (Android only) Permissions: You are comfortable allowing your phone to "Install Unknown Apps" within your security settings for this session.
 - Testing Tools: You are willing to download TestFlight (iOS) or Firebase App Distribution (Android).
@@ -308,16 +329,16 @@ _[To be discussed with Perigean: best way to confirm these with participants?]_ 
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
-- `Veterans:` **10**
+- `Veterans:` **12**
 - `Caregivers:` **0**
 - `Dependents:` **0**
-- `Total:` **10**
+- `Total:` **12**
 - `Ideal completed sessions:` **3 on iOS, 3 on Android**
 
 ### Primary criteria (must-haves)
 
 - `Currently have an overpayment debt`
-- `5 on iOS phones` / `5 on Android phones`
+- `6 on iOS phones` / `6 on Android phones`
 - `Be willing to log in to their VA account with their own credentials`
     - Priority given to those who are willing to share their screens
 
@@ -337,6 +358,7 @@ _[To be discussed with Perigean: best way to confirm these with participants?]_ 
 
 ### Prepare
 
+_Note: as these tests needs to be conducted with real user data, the pilot tests were to practice guiding participants through set-up of the pre-release app and returning their phones to the original states._
 - `Pilot participant name:` **Michael Harmer, Janelle Finnerty, Ian Hilton**
 - `Date and time of pilot session:` **already completed**
 

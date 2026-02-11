@@ -1,3 +1,119 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VA Notify Recipient Feedback, October 2023"
+date: 2023-10-01
+last_updated: 2026-02-10
+team: "VA Notify"
+product: "VA Notify"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "We don't know how much information Veterans want in their emails. We are trying to discover how much information Veterans want in their emails and if the level of information they want depends on the type of email they are receiving."
+  product_location: "VA.gov email notification system"
+  user_familiarity: "Iteration on existing email notification system"
+  product_brief_url: "N/A"
+
+# Research Design
+methodology: "semi-structured-interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Discover the level of detail the recipient wants/expects to receive in email touchpoints"
+  - goal_2: "Understand if level of detail varies by notification type"
+  - goal_3: "Develop a set of best practices for email communication for VA Notify users"
+
+research_questions:
+  - "How much information do Veterans want in their emails?"
+  - "Does the amount of information they want vary by email type? (confirmation, benefits, etc.)"
+
+hypotheses:
+  - "Veterans want more information in their emails instead of requiring them to login in order to get the information"
+  - "Veterans have a certain expectation on the value the email content should provide based on their past experiences with other email communications of a similar nature"
+  - "Veterans don't like vague emails and prefer detailed information up front rather than having to hunt for it after logging in"
+
+expected_outcomes: "We will be able to provide our users with best practices for writing email content for Veterans and their beneficiaries. This will: increase recipient satisfaction, increase ease of email creation, and provide consistency in approach to creating email notifications across content types and services."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Inclusive recruitment with maximum variation"
+  
+  primary_criteria:
+    - "10 Veterans / 3 Caregivers"
+    - "Must currently receive emails"
+    
+  secondary_criteria:
+    - "As wide a distribution as possible of type of Veteran, Age, Gender, and Level of Ability"
+    - "Veterans that are going (or have gone) through one or more of the following scenarios: Applied for disability benefits, Applied for educational benefits, Owe a debt to the VA (overpayment of benefits or copay), Updated their dependents, Burial Benefits"
+    
+  screener_questions:
+    - question: "Do you currently receive emails from the VA?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 10
+  caregivers: 3
+  dependents: 0
+  total_recruited: 13
+  completed_sessions_goal: 13
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "Nicholas Martin"
+  research_dates: "2023-10-23 to 2023-10-27"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Enhance Veterans' personalized online experience"
+    key_results: 
+      - "Improve email communication effectiveness"
+      
+veteran_journey_phases:
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Reinventing myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
+  - "Dying"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "N/A"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "PRDT: VA-notify"
+  - "PRDT: Notifications"
+  - "semi-structured-interviews"
+  - "remote"
+  - "authenticated"
+  - "email"
+  - "notifications"
+  - "content-design"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Healthcare"
+---
+
 # Research Plan for VA Notify Recipient Feedback 
 
 

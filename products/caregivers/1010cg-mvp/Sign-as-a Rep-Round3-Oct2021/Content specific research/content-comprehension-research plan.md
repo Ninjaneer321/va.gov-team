@@ -1,3 +1,128 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VSA Caregiver, Mental Model and Content Comprehension Study for 10-10CG Document Upload, November 2021"
+date: 2021-11-01
+last_updated: 2021-11-01
+team: "VSA Caregiver"
+product: "10-10CG Application for Comprehensive Assistance for Family Caregivers"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Currently only ~35% of uploaded documents can be accepted as legal proof for a representative to sign on behalf of the Veteran. This causes pain points for CG team staff who must process applications, contact applicants who uploaded wrong documents, and possibly work through new applications. It also delays applications and creates redundant work for applicants. Hypothesis: Applicants think uploading any document will help their application; there is a loss of connection that the purpose is to enable a legal representative to sign on behalf of the Veteran; current copy doesn't provide enough clarity about what document to upload."
+  product_location: "VA.gov 10-10CG online form - document upload section"
+  user_familiarity: "Third iteration of representative document upload feature"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/caregiver/product-outline.md"
+
+# Research Design
+methodology: "mixed-method: user interviews, mental model exploration, content comprehension testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Better understand Caregivers' mental model of the types of proof of legal representation they are accustomed to providing"
+  - goal_2: "Better understand how Caregivers think about the nomenclatures of different types of legal representative documents"
+  - goal_3: "Better understand Caregivers' familiarity with health care-specific legal documents"
+  - goal_4: "Validate content comprehension of the list of documents to select from for document upload"
+  - goal_5: "Validate that the new copy and flow leads to more accepted documents uploaded"
+
+research_questions:
+  - "How do Caregivers know what type of proof to provide in any given situation that they will be signing on behalf of a Veteran?"
+  - "What is Caregivers' mental model of the different types of legal representative documents (specifically those that have a health care stipulation)?"
+  - "Does the updated copy and flow provide the information needed for the Caregiver to make a confident decision of how to answer the questions and what document to upload?"
+  - "Is that the correct decision (acceptable document is uploaded when relevant)?"
+  - "Does the question 'Who will sign this application for the Veteran?' create a blocker because the Caregiver thinks that being a legal representative is a requirement for the Caregiver program?"
+
+hypotheses:
+  - "We will be able to gain insight to the Caregiver mental model for providing proof of legal representation"
+  - "We will gain better understanding if the terms we use are recognizable and understood"
+  - "We will gain a better understanding of Caregivers' familiarity with health care-specific stipulations on a power of attorney (POA) document"
+  - "The Caregiver will be able to navigate through the form without thinking that being a legal representative is a requirement for the Caregiver program"
+
+expected_outcomes: "Validate that updated copy and flow reduces incorrect document uploads from 65% to a lower rate. Understand caregiver mental models to inform future content improvements. Confirm that caregivers don't mistakenly believe legal representation is a program requirement."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "targeted recruitment for caregivers who are legal representatives"
+  
+  primary_criteria:
+    - "Must be a caregiver to a Veteran"
+    - "Must be a Veteran's legal representative (with authority to act on behalf of Veteran or legally vested with responsibility)"
+    - "At least 2 participants who have no college degree"
+    - "At least 1 participant over 55"
+    - "At least 1 participant 30 or under"
+    - "At least 2 participants who live in a rural or remote area"
+    
+  secondary_criteria:
+    - "50% women, 50% men"
+    - "50% people who identify as an ethnicity/race other than Caucasian"
+    
+  screener_questions:
+    - question: "Are you a caregiver to a Veteran?"
+      qualifying_response: "Yes"
+    - question: "Are you a Veteran's legal representative?"
+      qualifying_response: "Yes - person who has authority to act on behalf of the Veteran or is legally vested with responsibility or care of the Veteran"
+      
+participants:
+  veterans: 0
+  caregivers: 10
+  dependents: 0
+  total_recruited: 10
+  completed_sessions_goal: 6
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2021-11-09 to 2021-11-16"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 15
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can apply for all benefits online"
+    key_results: "Reduce incorrect document uploads and application processing time"
+  - objective: "Increase Veteran satisfaction with VA.gov Benefit use and enrollment"
+    key_results: "Improved document upload success rate and reduced application delays"
+  - objective: "Decrease time to process online applications"
+    key_results: "Fewer incorrect documents requiring follow-up and resubmission"
+      
+veteran_journey_phases:
+  - "Getting Out"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/caregivers/1010cg-mvp/Usability%20Study-Sign%20as%20Representative-%20February%202021"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/caregivers/1010cg-mvp/Sign-as-Rep-Round2-Usability-April%202021"
+    - "https://docs.google.com/presentation/d/1--9sY2qcPrxxmkSvJDUH5uShFyMgxCi3/edit?usp=sharing&ouid=106781647419399937562&rtpof=true&sd=true"
+    
+tags:
+  - "AUD: Caregivers"
+  - "PRDT: 10-10CG"
+  - "BNFT: Family Member Benefits"
+  - "mental-model"
+  - "content-comprehension"
+  - "user-interviews"
+  - "document-upload"
+  - "legal-representation"
+  - "power-of-attorney"
+  - "healthcare-decisions"
+  - "remote"
+  - "moderated"
+  - "HDW: Desktop"
+---
+
 # Research Plan: VSA Caregiver, Mental model and Content-specific comprehension study for the 10-10CG document upload, November 2021
 
 ## Background

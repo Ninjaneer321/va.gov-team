@@ -1,5 +1,5 @@
 # Ask VA: Initiative Brief for Decoupling Business vs. Personal Form Flows
-This document provides an overview of the Ask VA initiative to implement the new **Business vs. Personal Form Flow**. (language may be updated following discussions with CAIA)
+This document provides an overview of the Ask VA initiative to implement a new **Business vs. Personal Form Flow**. (language may be updated following discussions with CAIA)
 
 To view **Ask VA's Product Outline** go here, [in this GitHub doc](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/Product%20outline.md).
 
@@ -18,57 +18,53 @@ To view **Ask VA's Product Outline** go here, [in this GitHub doc](https://githu
 ## Overview
 Ask VA users submit questions about VA benefits and services at, [Ask VA](https://www.va.gov/contact-us/ask-va/introduction).
 
-In 2025 the Ask VA team executed an [Inbox Usability Study](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/User%20research/2025-10%20Form%20and%20Inbox%20Usability%20Study). 
+In 2025 the Ask VA team executed a [Usability Study](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/ask-va/design/User%20research/2025-10%20Form%20and%20Inbox%20Usability%20Study). 
 Key findings support implementing enhancements to the current form flow to distiguish entry points (CTAs) between Ask VA personal users and Ask VA business users.
 
-We are currently distinguishing between personal and business users with the following language in our design mocks.  2/10/26 meeting with CAIA to guide Ask VA team on proper language to be used.
+We are currently distinguishing between personal and business users with the following language in our design mocks.  Ask VA team has been advised by CAIA that content review and guidance will be provided during the collaboaration cycle.
 <img width="925" height="897" alt="image" src="https://github.com/user-attachments/assets/ca587c06-3a7d-44f8-be04-062b9eb270bc" />
 
 
 Current Figma designs, https://www.figma.com/design/YoeGJtWzHEH2bX2S4EGyBG/Ask-VA-Form---Future-exploration?node-id=2033-121709&t=MIbYsLljnUqjPvqP-4
 
-
-#### Stephanie still has the below to update ####
-
-
-
 ## Problem statement
 **Background**
 
-Ask VA users are classified by two distinct personas, using Ask VA as a personal user or a business user/veteran liaison.  The current user experience does not promote an obvious distinction between these two users and offers categories and topics that are not relevant for the different user types.  The existing UI experience leads to user confusion on how to complete the form to submit a question.   Additionally, because the two user types are entangled throughout the existing experience there is back end code complexity that should be reduced.
+Ask VA users are internally classified by two distinct personas, using Ask VA as a personal user or a business user/veteran liaison.  The current user experience does not promote an obvious distinction between these two users and offers categories and topics that are not relevant for the different user types.  The existing UI experience leads to user confusion on how to complete the form to submit a question.   Additionally, because the two user types are entangled throughout the existing experience there is back end code complexity that should be reduced.
+
+It is not clear to a business users the workflow options that should be selected to ensure their inquiry is categorized as "business" and routed property to AVA CRM agents. `addt. context to be added`
+
+Current business rules (unknown to the Ask VA user) are;
 
 |User Type|Primary Issues|
 |:---|:---|
-|Personal User|Categories and topics lists offer selection reassurance to this user, but the amount of current options causes overload to the user.|
-|Business User|Categories and topics lists are burdonsome because this user repeat the same selection(s) when using Ask VA.|
-|Business User|Current required fields are not neccessary for this user to submit inquiries (i.e. - subject field), forcing additional data entry which reduces the user's workflow efficiency.|
+|Personal User|Category and topic lists offer selection reassurance to this user, but the amount of current options causes overload to the user.|
+|Business User|Category and topic lists are burdonsome because this user repeats the same selection(s) when using Ask VA.|
+|Business User|Current required fields are not neccessary for this user to submit inquiries (i.e. - subject field), forcing additional and duplicative data entry which reduces the user's workflow efficiency.|
 
-**Solution**
+**End State Solution**
 
-Decouple the existing form flow into two distinct personal and buiness user form flows.  Implement a business user form flow tailored to business user needs with focus on minimizing repetative data entry.  Implement a personal user form flow tailored to personal user needs with focus on user experience assurance while reducing category and topic lists overload.
+Decouple the existing form flow into two distinct personal and business user form flows.  Implement a business user form flow tailored to business user needs with focus on minimizing repetative data entry.  Implement a personal user form flow tailored to personal user needs with focus on user experience assurance while reducing category and topic lists overload.
 
 ## Outcomes
-- **User Experience Outcomes**: Users have an accessible and easy interaction with their personalized inbox.
--  **Functional Outcomes**:  The VADS guidance and standard operates correctly with Ask VA application.
-- **Business Outcomes**: Improved inbox usability and efficiency for Ask VA users.  Decreased dissatisfied feedback collected via the feedback button and intercept survey responses.
+- **User Experience Outcomes**: Users have a more personalized experience to submit their questions and an easy interaction with the Ask VA application so that they can submit inquiries more effieciently.
+-  **Functional Outcomes**:  Ask VA application enhanced experience is easily adoptable to the different user types, personal user and business user.
+- **Business Outcomes**: Improved form usablility and increase of inquiry submission completion. `what are we tracking in DD now as it relates to users falling off the form and where?`
 
 ### User Experience Outcomes
 |Outcome|Description|
 |:---|:---|
-|Inquiries Reviewed|Users can easily and quickly review their historical inquiries in a single column card view that aligns with messaging patterns across the VA.|
-|Sort Action|Users can sort inquries in a predicatable order of newest to oldest or oldest to newest.|
-|Search Action|Users can quickly search for specific inquiries using keywords.|
-|Filter Action|Users can filter inquries with relevant criteria and reduce time spent reviewing their complete inbox.|
+|Personalized Experience|Users can easily and quickly submit their questions with an experience that is tailored to being a personal user or a business user.|
 
 ### Functional Outcomes
 |Outcome|Description|
 |:---|:---|
-|Search, filter and sort patterns |All VADS inbox patterns function as expected|
+|Ask VA application enhancements are adoptable |User adoption to personal vs. business entry points is intuitive and functional|
 
 ### Business Outcomes
 |Outcome|Description|
 |:---|:---|
-|Improved inbox usability|Search, filter and sort patterns reduce overall user time spent locating a submitted inquiry.|
+|Improved form usability|Decreased abandon rate while completing Ask VA question.|need to understand this better `what are we tracking in DD now as it relates to users falling off the form and where?`
 |Improved user satisfaction|Users are more satisfied with Ask VA.|
 |Improved trust in VA|Users trust VA and VA services more.|
 
@@ -80,19 +76,14 @@ This initiative aligns with the following 2025 OCTO OKRs:
    - Key result 1 (Satisfaction): Improve satisfaction with our web and mobile products by 5 points.
  
 ## Quantitative Monitoring
-|Key result|Baseline (ask.va.gov)|After X months|
+|Key result|Baseline (ask.va.gov)|After 6 months|
 |:---|:---|:---|
-|Satisfaction|January 2025: 23%|x|
-
-- Monitor average engagement time per active user, determine metric target
-Data Example (Dec 1 - Dec 31, 2025)
-<img width="1990" height="633" alt="image" src="https://github.com/user-attachments/assets/8929cf5f-9b32-4a1f-9b1b-d95d2ba91548" />
+|Satisfaction|Jun 2025: 31%|Dec 2025: 31%|
 
 ## Qualitative Monitoring
 |Key result|Baseline (ask.va.gov)|After X months|
 |:---|:---|:---|
 |Increase of positive qualitative feedback|Dec 25 - 7% |x|
-|Decrease qualitative feedback of "overcomplicated inbox" theme|x|x|
 
 ## Release plan (to be determined)
 [input release plan]

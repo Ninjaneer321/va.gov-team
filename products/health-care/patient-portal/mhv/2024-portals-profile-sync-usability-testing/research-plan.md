@@ -1,3 +1,126 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Portals, Profile Sync, January 2024"
+date: 2024-01-11
+last_updated: 2024-01-11
+team: "Portals"
+product: "My HealtheVet on VA.gov - Profile Sync"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "As My HealtheVet migrates to VA.gov, Veterans need to sync their contact information between the two sites. Veterans may not access their profile information often after their initial set up, so they may not retain familiarity with it."
+  product_location: "My HealtheVet portal on VA.gov - Profile section"
+  user_familiarity: "New feature to support MHV migration to VA.gov"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/patient-portal/mhv/2024-portals-profile-sync-usability-testing"
+
+# Research Design
+methodology: "moderated usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Ascertain Veterans' understanding of the need for the sync and how the process will affect their contact information"
+  - goal_2: "Identify any usability issues Veterans may experience with syncing their email and phone numbers"
+
+research_questions:
+  - "Can Veterans select, edit, add, remove, and verify their contact information?"
+  - "Do Veterans understand the process of syncing their MHV and VA contact information?"
+  - "Do they understand why this step is necessary?"
+
+hypotheses:
+  - "Most Veterans will successfully connect their MHV and VA contact information without assistance"
+  - "Many Veterans will struggle to understand that they will only have one set of contact information after the sync"
+
+expected_outcomes: "The results of this study will help us determine if our designs provide the best user experience for Veterans to sync their profiles and help to identify any pain points. This will inform later iterations of the design."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "maximum variation sampling across age, education, and MHV usage"
+  
+  primary_criteria:
+    - "24 Veterans"
+    - "Age distribution: 5 participants 75+, 8 participants 65-74, 4 participants 55-64, 5 participants 35-54, 2 participants 18-34"
+    - "Education distribution across high school through masters degree"
+    - "Demographic distribution: 1 American Indian/Alaska Native, 1 Asian, 4 Black/African American, 3 Hispanic/Latino, 15 White/Caucasian"
+    - "6 rural, 18 urban participants"
+    - "12 mobile users, 12 desktop/laptop/tablet users"
+    - "12 frequent MHV users, 6 infrequent MHV users, 6 non MHV users"
+    - "4 participants with cognitive disability"
+    
+  secondary_criteria:
+    - "Mix of cognitive disability severity levels"
+    
+  screener_questions:
+    - question: "How often have you used My HealtheVet in the past 6 months?"
+      qualifying_response: "Mix of not at all, 1-4 times, 5-10 times, and more than 10 times"
+    - question: "Have you been diagnosed with a cognitive disability?"
+      qualifying_response: "Recruit 4 yes, 20 no"
+      
+participants:
+  veterans: 24
+  caregivers: 0
+  dependents: 0
+  total_recruited: 24
+  completed_sessions_goal: 18
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2024-01-11 to 2024-01-23"
+  research_review_submission: ""
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/patient-portal/mhv/2024-portals-profile-sync-usability-testing/conversation-guide.md"
+    
+tags:
+  - "MHV"
+  - "My HealtheVet"
+  - "health-portal"
+  - "profile"
+  - "contact-information"
+  - "usability-testing"
+  - "veterans"
+  - "authenticated-experience"
+  - "migration"
+  - "profile-sync"
+  - "mobile"
+  - "desktop"
+  - "cognitive-disability"
+  - "accessibility"
+  - "evaluative"
+---
+
 # **Research Plan for Portals, Profile Sync, January 2024**
 
 ## **Background**

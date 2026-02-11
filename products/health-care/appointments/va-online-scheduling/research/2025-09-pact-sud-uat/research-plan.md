@@ -1,3 +1,130 @@
+---
+# Research Plan Metadata
+title: "Research Plan for UAE Team, Appointments - PACT and SUD, September 2025"
+date: 2025-09-01
+last_updated: 2025-09-01
+team: "UAE Team (Appointments)"
+product: "PACT Expansion and Substance Use Disorder (SUD) Scheduling"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "As part of expanding online self-scheduling, we're adding two new features to the scheduling flow: expanding the teams' roles returned during the Patient Aligned Care Team (PACT) check and adding Substance Use Disorder (SUD) as a mental health sub-type of care. The PACT expansion will be implemented on the backend only, with no UI changes in this phase."
+  product_location: "Auth under My HealtheVet on VA.gov"
+  user_familiarity: "Iteration on existing VA.gov appointments tool"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/2025-expand-access-to-scheduling/README.md"
+
+# Research Design
+methodology: "Semi-structured interviews with tasks and direct questions"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand Veterans' mental model for scheduling with their PACT, especially regarding the different teams' roles"
+  - goal_2: "Identify opportunities to update UI on the clinic selection page or any other pages in the scheduling flow"
+  - goal_3: "Understand whether Veterans consider SUD to be part of mental health when scheduling appointments and how they prefer to schedule it"
+
+research_questions:
+  - "How do Veterans navigate the Type of Care selection page, the location selection page, and the clinic selection page in the appointment scheduling flow?"
+  - "What parts (if any) of the scheduling flow cause friction?"
+  - "What do Veterans think about the clinic selection page?"
+  - "What would the clinic selection page look like in an ideal world?"
+  - "Are Veterans aware of their PACT and who/what roles are considered part of their team? If yes, do Veterans associate their PACT with the appointments they are scheduling through the tool?"
+  - "Do Veterans think SUD is a mental health sub-type of care?"
+
+hypotheses:
+  - "Veterans may be confused and unsure about which clinic to select due to a significantly longer list of options and clinic names that are unclear or difficult to interpret"
+  - "Veterans prioritize scheduling appointments based on type of care, location, provider, and availability, while selecting a specific clinic is generally less important in their decision-making process"
+  - "Most Veterans likely do not know what a PACT is, who their assigned PACT is, or whether they have ever seen a provider from that team"
+  - "Veterans who know what the assigned PACT is and have seen providers on their assigned PACT may expect to schedule directly with them instead of choosing a clinic"
+  - "Most Veterans may not recognize the connection between type of care, clinic selection, and their assigned providers, even if they know what a PACT is"
+  - "Veterans may recognize some clinics from previous experiences, but more clinics may not improve their online scheduling experience"
+  - "Most Veterans may not expect to find SUD service under the Mental Health category, but the descriptive context on the sub-type of care page may help them understand and learn this organization"
+  - "Some Veterans may select primary care when asked to schedule appointments to discuss unhealthy use of drugs or alcohol"
+
+expected_outcomes: "The learnings from this study will clarify how Veterans understand PACT and schedule with their care team, guide UI improvements to the scheduling flow, and reveal how Veterans view SUD as part of mental health and prefer to schedule it."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Diverse sample across age, abilities, and ethnicities"
+  
+  primary_criteria:
+    - "All participants must be enrolled in VA healthcare"
+    - "All participants must have received care at a VA facility in the past year"
+    - "All participants should have scheduled or attempted to schedule appointments using MHV on VA.gov within the last 12 months"
+    - "All participants must have a MHV premium account, OR an authenticated / identity-proofed ID.me account"
+    - "Must identify as a gender other than male (recruit no less than 6)"
+    - "Must be over the age of 55 (recruit no less than 6, and at least 3 over the age of 70)"
+    - "Must have scheduled a mental health appointment (recruit no less than 7)"
+    
+  secondary_criteria:
+    - "At least 7 participants who identify as other than Caucasian"
+    - "At least 7 participants who join the session on their mobile phone"
+    - "At least 3 participants who have a cognitive disability"
+    
+  screener_questions:
+    - question: "Do you have an email and password for either Login.gov or ID.me that you use to sign into VA.gov?"
+      qualifying_response: "Yes"
+    - question: "Do you have a My HealtheVet (MHV) account?"
+      qualifying_response: "Yes"
+    - question: "Have you signed into the My HealtheVet website at least once in the last 12 months?"
+      qualifying_response: "Yes"
+    - question: "Have you scheduled or attempted to schedule a medical appointment in the last 12 months?"
+      qualifying_response: "Yes"
+    - question: "Have you ever scheduled a mental health appointment?"
+      qualifying_response: "Yes - recruit 7; No - recruit 8"
+      
+participants:
+  veterans: 15
+  caregivers: 0
+  dependents: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2025-09-DD to 2025-09-DD"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results: 
+      - "Improve satisfaction with our web and mobile products by 5 points"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/2025-expand-access-to-scheduling/README.md"
+  conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2025-09-pact-sud-uat/conversation-guide.md"
+    
+tags:
+  - "health-care"
+  - "appointments"
+  - "pact"
+  - "substance-use-disorder"
+  - "mental-health"
+  - "scheduling"
+  - "veterans"
+  - "authenticated"
+  - "semi-structured-interviews"
+---
+
 
 	# Research Plan for [UAE Team, Appointments, September, 2025]
 

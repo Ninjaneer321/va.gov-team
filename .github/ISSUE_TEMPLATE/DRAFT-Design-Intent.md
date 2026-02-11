@@ -9,14 +9,14 @@ assignees: ''
 
 ## About Design Intent 
 
-The [Design Intent touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent) is a synchronous half-hour discussion surrounding design decisions to ensure you’re building a product that meets VA.gov standards before you’ve done any high-fidelity work on artifacts or prototypes.
+The [Design Intent touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent) is a synchronous half-hour discussion focused on design decisions. This meeting ensures you’re building a product that meets VA.gov standards before you’ve done any high-fidelity work on artifacts or prototypes.
 
 ## Before the meeting
   
 ### :one: VFS team: schedule the meeting
-- [ ] Review [Design Intent Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent) to understand what this touchpoint involves.
-- [ ] Schedule your Design Intent (with at least 2 business days lead time from now):
-  - Open the [Calendly Design intent calendar](https://calendly.com/collaboration-cycle/design-intent-or-midpoint-review){:target="_blank"} 
+- [ ] Review the [Design Intent Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent) to understand what this touchpoint involves.
+- [ ] Schedule your Design Intent (with at least 2 business days lead time):
+  - Open the <a href="https://calendly.com/collaboration-cycle/design-intent-or-midpoint-review" target="_blank">Calendly Design intent calendar (opens in a new tab)</a>
   - Select a date and time and click "Confirm"
   - Add your name and email
   - Click "Add Guests" and enter the email addresses for VFS team attendees
@@ -27,13 +27,13 @@ The [Design Intent touchpoint](https://depo-platform-documentation.scrollhelp.si
 Link all artifacts **at least two business days** before the scheduled Design Intent. Please don't add artifacts in the comments section. [See guidance on Design Intent artifacts.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent#DesignIntent-Whatartifactswillbeneeded?)
 Governance Team feedback is based on the artifacts provided here as well as information provided during the meeting.
 
-Required:
+#### Required:
 - [ ] User flow, including any critical notifications
 
-Not required, but nice to have:
+#### Not required, but nice to have:
 - [ ] Mobile web or mobile app wireframes (other viewports optional)
 
-Optional:
+#### Optional:
 - [ ] Research plan
 
 ### Governance Team actions
@@ -67,4 +67,4 @@ IA
   - [ ] No feedback
 
 ## :clipboard: Collaboration Cycle feedback
-[Complete Collaboration Cycle feedback survey](https://ows.io/qs/o3jkwoez) at any point during your Collaboration Cycle process.
+[Complete the Collaboration Cycle feedback survey](https://ows.io/qs/o3jkwoez) at any point during your Collaboration Cycle process.

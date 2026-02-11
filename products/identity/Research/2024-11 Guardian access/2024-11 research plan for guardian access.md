@@ -1,3 +1,127 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Identity Experience, guardian access - combined plan"
+date: 2024-11-01
+last_updated: 2024-11-01
+team: "Identity Experience"
+product: "Guardian Access and Delegate Management"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Court Appointed Guardians are legally designated individuals responsible for managing care or personal affairs of Veterans who are unable to do so due to incapacity or disability. Need to enable guardian access to VA services on behalf of Veterans with both short-term and long-term solutions."
+  product_location: "VA.gov - Guardian/Delegate access system and audit logs"
+  user_familiarity: "New product to enable guardian access to Veterans' VA accounts and services"
+  product_brief_url: "https://docs.google.com/document/d/123ZPnTLfpjIOn3nFoOeMW5LGo5c7nKUA_HEF6m6dOqo/edit?tab=t.0#heading=h.z7tap4bgvhyp"
+
+# Research Design
+methodology: "Semi-structured interviews with two cohorts"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Discover how delegates access VA.gov on behalf of Veterans"
+  - goal_2: "Specifically interested in court appointed guardians user group, their needs and hurdles"
+  - goal_3: "Explore how folks might be interested in interacting with audit logs"
+  - goal_4: "Answer questions about and verify understanding of the complete user journey"
+
+research_questions:
+  - "How do guardians get connected to a Veteran through the VA after being court appointed?"
+  - "How do guardians learn about how to sign into a Veteran's account whom they are guardian over?"
+  - "What is the VA process for deregistering or offboarding as a guardian for a Veteran?"
+  - "What are delegate users' needs and expectations around audit logs?"
+
+hypotheses:
+  - "H1: After being appointed by a court, a guardian must file paperwork with the VA in order to act on behalf of a Veteran for VA business"
+  - "H2: Someone at the VA explains to a new guardian the process of how to interact with the VA to conduct business on behalf of a Veteran"
+  - "H3: Guardians with new guardianship over a Veteran without an MHV account are being told they aren't eligible to access benefits online for the Veteran they're responsible for"
+
+expected_outcomes: "Learn about the process of how guardians gain access to Veteran's VA account and information. The focus is anything from the point of being appointed by a court through acting on behalf of a Veteran for VA business and through no longer being a guardian for a Veteran."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Self-recruitment for VA employees, Perigean for guardians"
+  approach: "Two cohorts - VA employees who help establish guardian access, and court-appointed guardians"
+  
+  primary_criteria:
+    - "Cohort 1: Must be VA employee in position where they help guardians working on behalf of Veterans"
+    - "Cohort 2: Must be some type of Guardian or caregiver in charge of Veterans health and/or financials"
+    - "Preference to court appointed guardians"
+    - "Must have computer or mobile phone and willing to complete sessions on device"
+    - "Must be willing to share web browser window on Zoom"
+    - "Must have working microphone and Zoom downloaded"
+    
+  secondary_criteria:
+    - "Limited cohort sizes expected - not specifically targeting underrepresented groups"
+    
+  screener_questions:
+    - question: "Cohort 1: Do you ever help court appointed guardians gain access to a Veteran's VA account?"
+      qualifying_response: "Yes"
+    - question: "Cohort 2: Have you been legally appointed as a guardian over a Veteran's health or financials?"
+      qualifying_response: "Yes or No (also asking if they manage/help Veteran manage health or finances)"
+      
+participants:
+  veterans: 0
+  caregivers: 6
+  dependents: 0
+  total_recruited: 10
+  completed_sessions_goal: 9
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "Cohort 1: Early December 2024, Cohort 2: Mid to late January 2025"
+  research_review_submission: "2024-11-20"
+  
+session_details:
+  duration_minutes: 30
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Create a smooth transition for Veterans from legacy to modern sign-in credentials"
+    key_results: 
+      - "Enable guardian access as part of improved sign-in experience"
+  - objective: "Improve the Veteran sign-in experience"
+    key_results:
+      - "Enable delegate access to VA services on behalf of Veterans"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://dsva.slack.com/archives/C04MM3WJN1E/p1731011590686949 - account/audit history design images"
+    
+tags:
+  - "identity"
+  - "guardian-access"
+  - "delegate-access"
+  - "caregivers"
+  - "court-appointed-guardian"
+  - "audit-logs"
+  - "account-access"
+  - "authentication"
+  - "semi-structured-interviews"
+  - "generative-research"
+  - "remote"
+  - "moderated"
+  - "VA-employees"
+  - "guardians"
+  - "two-cohorts"
+---
+
 # **Research Plan for Identity Experience, guardian access \- combined plan**
 
 ## **Background**

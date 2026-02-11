@@ -55,17 +55,17 @@ Thanks for joining us today! My name is Natalie and I'm a Senior Product Designe
 > - Ask the notetaker to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)
 > - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
 
-Today we're going to talk about AMPREDICT/PROPREDICT -- both the online tool and the new CDS calculator. 
+Today we're going to talk about AMPREDICT/PROPREDICT -- both the online tool and the new CDS calculator. Were you able to complete the pre-task questionnaire we sent via email recently?
+
+[If the survey hasn't been completed, share a link in the chat and ask participant to complete before test begins.]
 
 Before we start, I have a few things that I want to go over with you:
 
 - **This entire session should take about 20 minutes.** I want to make sure I leave some space for your questions too, so I may occasionally prompt you with the next question or topic.
-  
-- **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
-  
+    
 - **Your participation in this session is completely voluntary.** You do not have to participate if you don't want to. Your responses will remain confidential and your anonymity protected. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Please let me know.
 
-# Warm-up Questions (Optional) - 5 minutes
+# Warm-up Questions (Optional) - 2 minutes
 
 Before we look at the calculator, I'd like to learn a little bit about you. 
 
@@ -75,110 +75,61 @@ Before we look at the calculator, I'd like to learn a little bit about you.
 
 1. Can you tell me about your current role at the VA and how long have you been at the VA?
 
-## Intro:
-Next we’re going to look at the online AMPREDICT/PROPREDICT calculator: 
+## Timed Task 1 - 5-7 minutes
+
+Next we’re going to look at the online AMPREDICT/PROPREDICT calculator.  
 
 - Please navigate to: https://www.ampdecide.org/ampredict/risk-calculator OR https://prodecide.org/risk-calculator (share link in chat)
-- Please open a patient in CPRS so you can input their data into the calculator.
-- When you are ready please begin sharing your screen.
+- Now, please open a patient in CPRS so you can input their data into the calculator.
+- When you are ready please begin sharing your screen so the online calculator is visible.
 
-## Timed task 1
+[Screen sharing begins.]
 
+- Next I will be timing how long it takes to complete a calculation.
+- Please don't feel rushed to complete the task, just move through the workflow as you normally would. This is not a race, it's a way for us to gather benchmarking data on how long it realistically takes to complete a calculation.
 - Before you start entering data, please let me know so I can start the timer.
-- Please let me know when you have completed a calculation so I can stop the timer.
-- Please don't feel rushed to complete the task, just move through the workflow as you normally would. This is not a race, it's a way for us to gather benchmarking data on how long it takes to complete a calculation.
+- And please let me know when you have completed a calculation so I can stop the timer.
 - Are you ready to begin? 
 
 [Start timer upon verbal confirmation.]
 
-## What are your first impressions? What are you thinking about? - 5 minutes
+[Participant moves through task flow.]
 
+[Stop timer upon verbal confirmation.]
 
+## Task 1 Debrief - 1 minute
 
-## First Task: How would you answer the "Abnormal Liver Function" question? - 5 minutes
+Great, thank you for completing that calculation. Do you have any questions or comments before we move on to the next task?
 
-- [ ] Click "View ALT/AST/AP and Bilirubin History link.
+## Timed Task 2 - 5-7 minutes
 
+Next, we'll move on to the CDS Medical Calculators tool and perform the same calculation using a different patient in CPRS.
 
-> [!NOTE]
-> ### Things to watch for:
-> - Does the participant understand meaning of abnormal liver function?
-> - Does the participant gravitate to finding the required data in the EHR (instead of in the product)?
-> - Does the participant notice the link to the lab history?
+- Please open a new patient in CPRS.
+- Next, please navigate to CDS Tools > CDS Console and click on the Medical Calculators tile on the console landing page.
+- Now, navigate to AMPREDICT/PROPREDICT in the calculators list, but don't click on it just yet.
+- When you are ready to begin, please let me know and I'll start the timer. Again, just move through the workflow as you normally would. This will be a new tool to you, but the inputs match the online calculator we just tested.
+- Please let me know when you are done completing the task so I can stop the timer.  
 
+[Start timer upon verbal confirmation.]
 
-## Second Task: What are you thinking about this data? - 5 minutes
+[Participant moves through task flow.]
 
+[Stop timer upon verbal confirmation.]
 
-> [!NOTE]
-> ### Things to watch for:
-> - Does the participant understand meaning of the different labs?
-> - Does the participant mention needing reference lines?
-> - Does the participant mention the amount of data or the time period
+## Task 2 debrief - 1 minute
 
+Great, thank you for completing that task. You can stop screen sharing now.
 
-## Third Task: What was the most recent AP value recorded - 2 minutes
+[Screen sharing stops.]
 
-- [ ] Hover over last point
-- [ ] Read tool tip
-      
-> [!NOTE]
-> ### Things to watch for:
-> - Does the know to hover?
-> - Does the participant mention seeing data in a different format?
+# Post-Task Questionnaire - 3 minutes
 
-## Fourth Task: How would you answer the question based on this information? - 5 minutes
-- [ ] Follow-up: What led you to that decision?
-- [ ] Follow-up: What other information would you need here to answer the question?
+Next, I'll share a link in the chat to a brief post-task questionnaire. Since the tasks are fresh in your mind, do you mind completing the questionnaire while I hang on the meeting?
 
-> [!NOTE]
-> ### Things to watch for:
-> - Does the participant understand meaning of the different labs?
-> - Does the participant mention needing reference lines?
-> - Does the participant mention the amount of data or the time period
+[Share post-task survey link in chat.]
 
-## Fifth Task: How would you answer the "History of Labile INR" question? - 5 minutes
-
-- [ ] Click "View INR Lab History link.
-
-
-> [!NOTE]
-> ### Things to watch for:
-> - Does the participant understand meaning of labile INR?
-> - Does the participant gravitate to finding the required data in the EHR (instead of in the product)?
-> - Does the participant notice the link to the lab history?
-
-
-## Sixth Task: What are you thinking about this data? - 5 minutes
-
-> [!NOTE]
-> ### Things to watch for:
-> - Does the participant mention needing reference lines?
-> - Does the participant mention needing the definition of labile?
-> - Does the participant mention the amount of data or the time period needed
-
-
-## Seventh Task: How would you answer the question based on this information? - 5 minutes
-- [ ] Follow-up: What led you to that decision?
-- [ ] Follow-up: What other information would you need here to answer the question?
-
-> [!NOTE]
-> ### Things to watch for:
-> - Does the participant understand meaning of the different labs?
-> - Does the participant mention needing reference lines?
-> - Does the participant mention the amount of data or the time period
-
-# Post-Task Interview - 5 minutes
-
-- What other calculators or calculator fields do you think could benefit from bringing in this type of data (in line or table format)?
-- On a scale of 1-5, with 5 being greatly improves your workflow, how much does having [insert thing] help you? Why?
-- Of all the things we've reviewed today, what was a highlight for you?
-- What was most challenging or confusing? Why?
-- Before we end, do you have any questions for me?
-- Any last thoughts or feedback we didn't get to discuss already?
-
-
-## Thank-You and Closing - X minutes
+## Thank-You and Closing - 1 minutes
 
 Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on these tools to better meet clinician needs.
 
@@ -189,6 +140,6 @@ Thank you so much again, and enjoy the rest of your day!
 
 # Emergency Exit 🚨
 
-In the rare case of an emergency during a session, be prepared with an [emergency exit strategy](https://depo-platform-documentation.scrollhelp.site/research-design/Research-Safety-and-Emergency-Exit-Strategies.2143649793.html#ResearchSafetyandEmergencyExitStrategies-Sampleexitstrategies). <mark>**Plan to include here at least one option, so its easy to find during a session. Take some time to practice so it feels more comfortable.**</mark>
+In the rare case of an emergency during a session, be prepared with an [emergency exit strategy](https://depo-platform-documentation.scrollhelp.site/research-design/Research-Safety-and-Emergency-Exit-Strategies.2143649793.html#ResearchSafetyandEmergencyExitStrategies-Sampleexitstrategies). <mark>**Plan to include here at least one option, so it's easy to find during a session. Take some time to practice so it feels more comfortable.**</mark>
 
 ---

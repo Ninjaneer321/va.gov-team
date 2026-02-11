@@ -1,3 +1,114 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VAOS Team, Appointments List Usability Test, September 2022"
+date: 2022-08-17
+last_updated: 2022-08-17
+team: "VA Online Scheduling (VAOS) Team"
+product: "VA Online Scheduling (VAOS) Appointments List"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "VAOS and MyHealtheVet teams identified gaps between scheduling features. Need to evaluate redesigned appointment list and details page based on gap analysis and previous concept testing."
+  product_location: "VA.gov - VA Online Scheduling"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/appointment-list/product-outline-appointment-list-2022.md"
+
+# Research Design
+methodology: "usability testing"
+research_format:
+  location: remote
+  moderated: true
+
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Evaluate usability and value of the appointment list redesign"
+  - goal_2: "Test a concept for changes to the appointments details page"
+
+research_questions:
+  - "Can appointments be found by date/time, modality, and VA vs CC?"
+  - "Do the type of care and provider name make sense in the list?"
+  - "Does 'Pending' and 'Past' language make sense? Are they easy to navigate to?"
+  - "Are the details pages easy to navigate to?"
+  - "Can participants easily understand the meaning of modality in the appointment list - do they understand where they need to be?"
+  - "Do Veterans need a physical print 'button'?"
+  - "What would Veterans do next after viewing their appts in the list?"
+  - "Is the information on the details pages easy to understand and scan?"
+  - "Does the back button on the details page make sense?"
+
+hypotheses:
+  - "The appointments list will provide clear, valuable information and be easy to navigate"
+  - "The details pages will provide clear, valuable information and be easy to navigate"
+
+expected_outcomes: "Finalize designs and update the appointments list. Decide on next steps for redesigning the details pages."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "separate recruitment for mobile and desktop users"
+  
+  primary_criteria:
+    - "8 participants who primarily use a desktop/laptop computer (must attend on desktop/laptop)"
+    - "8 participants who primarily use a tablet or other mobile device (must attend on mobile)"
+    
+  secondary_criteria:
+    - "At least 1 veteran with a cognitive disability per group"
+    - "At least 1 LGBTQ+ Veteran per group"
+    - "At least 1 Native Veteran per group"
+      
+participants:
+  veterans: 16
+  caregivers: 0
+  dependents: 0
+  total_recruited: 16
+  completed_sessions_goal: 16
+
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2022-08-29 onward"
+  research_review_submission: "2022-08-17"
+
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 15
+  max_sessions_per_day: 3
+
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Unified appointments list that meets Veteran needs"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Increase Veteran satisfaction and decrease call center volume"
+
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+
+# Research Repository Tracking
+related_research:
+  previous_studies:
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/products/health-care/appointments/va-online-scheduling/research/2022-01-mhv-and-vaos-appts-list-discovery/research-findings.md"
+    - "MHV+VAOS Gap analysis recommendations (VA Network)"
+
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Appointments"
+  - "PRDT: VA Online Scheduling"
+  - "MHV: Appointments"
+  - "usability-testing"
+  - "authenticated-experience"
+  - "mobile"
+  - "desktop"
+  - "VAOS"
+  - "MyHealtheVet"
+  - "cognitive-disability"
+---
+
 Research plan for VAOS appointments list usabilty test
 =============
 

@@ -1,3 +1,132 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Appointments on MHV on VA.gov UAT - Phase 2B, November 2023"
+date: 2023-11-17
+last_updated: 2023-11-17
+team: "VA Online Scheduling (VAOS)"
+product: "VA Online Scheduling"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Test recently released features to help Veterans navigate between MHV on VA.gov and MHV, navigate to My VA Health (Cerner), navigate between details pages and appointment lists, and print appointment lists"
+  product_location: "VA Online Scheduling on MHV on VA.gov"
+  user_familiarity: "New navigation and print features for existing VAOS product"
+  product_brief_url: "https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1667322271773/26b9a1c19e3d4f1dbcc1dba4e4218a56f0fbb75a?wid=5-1680618107842"
+
+# Research Design
+methodology: "Remote moderated UAT and mental model study"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Verify via UAT that logged in Veterans are able to utilize recently added features and data is populating as expected"
+  - goal_2: "Understand Veteran's mental models as they choose a facility or provider when scheduling an appointment"
+
+research_questions:
+  - "Are participants able to navigate to the appointments feature from My VA and MHV on VA.gov?"
+  - "Are participants able to navigate their appointments lists?"
+  - "Can participants easily print their appointments lists?"
+  - "Are users at Cerner facilities able to navigate to My VA Health?"
+  - "Does the process of selecting a clinic (VistA) or provider (community care) meet participant expectations?"
+  - "What other information would be helpful when scheduling with a provider or clinic?"
+
+hypotheses:
+  - "Participants will be able to easily navigate to the appointments tool from all entry points"
+  - "Participants will be able to easily print a list of their appointments"
+  - "Participants at Cerner facilities will be able to easily navigate to My VA Health"
+  - "The process of selecting a facility, clinic, or provider during scheduling will meet participant expectations"
+
+expected_outcomes: "Validate or improve breadcrumb and URL updates, descriptive back link navigation, print button design, and inform approach to improving scheduling process"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Purposive sampling for upcoming appointments and Cerner users"
+  
+  primary_criteria:
+    - "All must have upcoming VA medical appointments scheduled for December 2023 or later"
+    - "All must be willing to share appointment information with research team"
+    - "All must use Login.gov or ID.me to sign into VA.gov"
+    - "At least 2 participants with upcoming appointments at Cerner facilities"
+    
+  secondary_criteria:
+    - "At least 4 participants on mobile device"
+    - "At least 4 participants with cognitive disability"
+    - "At least 2 screen reader users"
+    - "At least 2 screen magnification users"
+    - "At least 1 LGBTQ+ Veteran"
+    - "At least 1 Native Veteran"
+    - "At least 1 from rural area"
+    
+  screener_questions:
+    - question: "Have you been to a VA healthcare facility for a medical appointment in the last 12 months?"
+      qualifying_response: "Yes"
+    - question: "Do you have any upcoming VA medical appointments scheduled for December 2023 or later?"
+      qualifying_response: "Yes"
+    - question: "Are you willing to have the research team see your upcoming VA medical appointments?"
+      qualifying_response: "Yes"
+    - question: "Do you have upcoming appointments at any Cerner facilities?"
+      qualifying_response: "Recruit at least 2 who answer Yes"
+      
+participants:
+  veterans: 12
+  caregivers: 0
+  dependents: 0
+  total_recruited: 16
+  completed_sessions_goal: 12
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-11-17"
+  pilot_participant: "TBD"
+  research_dates: "2023-11-30 to 2023-12-15"
+  research_review_submission: "2023-11-17"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: 
+      - "Increase Veteran satisfaction with VA.gov"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Decrease call center volume, wait time, and time to resolution"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling"
+    
+tags:
+  - "VAOS"
+  - "appointments"
+  - "UAT"
+  - "MHV-on-VA-gov"
+  - "navigation"
+  - "print"
+  - "cerner"
+  - "authenticated"
+  - "veterans"
+  - "health-care"
+---
+
 # Research Plan for Appointments on MHV on VA.gov UAT
 
 ## Background

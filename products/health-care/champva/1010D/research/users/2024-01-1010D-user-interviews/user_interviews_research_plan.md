@@ -1,3 +1,145 @@
+---
+# Research Plan Metadata
+title: "User Interviews Research Plan for Form 10-10D, January 2024"
+date: 2024-01-01
+last_updated: 2024-01-01
+team: "Integrated Veteran Care (IVC) Forms"
+product: "CHAMPVA Form 10-10D"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Form 10-10D is currently a fillable PDF that applicants must print and mail in for CHAMPVA benefits. Need to create a fully digitized form to streamline the application process for Veterans and family members."
+  product_location: "VA.gov forms - CHAMPVA benefits application"
+  user_familiarity: "New digital version of existing paper/PDF form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/product-outline.md"
+
+# Research Design
+methodology: "user interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand the user experience in applying for CHAMPVA benefits"
+  - goal_2: "Identify current pain points with the CHAMPVA application process and Form 10-10D specifically"
+  - goal_3: "Determine user needs for the CHAMPVA application process and Form 10-10D specifically"
+
+research_questions:
+  - "Why do participants apply for CHAMPVA benefits?"
+  - "What were participants' experiences when applying for CHAMPVA benefits?"
+  - "How do participants believe the application process can be improved?"
+
+hypotheses:
+  - "Participants who have applied for CHAMPVA benefits will have done so because they believe they will substantially benefit from the program"
+  - "Participants experience confusion and frustration around the application process, especially surrounding supplementary documentation"
+  - "Participants will hope that because VA has much of the information Form 10-10D asks for, much of the process can be automated for them"
+
+expected_outcomes: "Findings will illuminate the user experience when applying for CHAMPVA benefits, provide insights to understand service design, inform iteration of initial prototype before user testing, and inform the current state user journey map artifact."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "targeted recruitment for CHAMPVA applicants"
+  
+  primary_criteria:
+    - "At least 4 Veterans"
+    - "At least 10 spouses, children, or caregivers of Veterans"
+    - "All participants need to have applied for CHAMPVA benefits (OK if no decision yet or did not receive benefits)"
+    
+  secondary_criteria:
+    - "At least 8 participants age 55-64+"
+    - "At least 8 participants with cognitive disability"
+    - "At least 4 participants live in rural area"
+    - "At least 4 participants have no degree"
+    - "At least 2 participants are women"
+    - "At least 1 participant is an expat (living abroad)"
+    - "At least 3 participants are Black"
+    - "At least 2 participants are Hispanic"
+    - "At least 1 participant is Asian"
+    - "At least 1 participant is Native"
+    - "At least 1 participant is gay, lesbian, or bisexual"
+    - "At least 1 participant is transgender, nonbinary, gender fluid, gender queer, Two-Spirit, or another gender beyond man or woman"
+    - "At least 3 participants use screen readers"
+    - "At least 1 participant uses some other kind of assistive technology"
+    - "At least 4 participants completed CHAMPVA application on mobile device (tablet okay)"
+    
+  screener_questions:
+    - question: "Have you applied for CHAMPVA benefits?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 4
+  caregivers: 10
+  dependents: 1
+  total_recruited: 20
+  completed_sessions_goal: 15
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "N/A"
+  pilot_participant: "N/A - open-ended interviews"
+  research_dates: "TBD"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Enhance Veterans' personalized online experience"
+    key_results: 
+      - "Improve CHAMPVA application experience through digitization"
+  - objective: "Drive OIT's Digital Transformation Strategy"
+    key_results:
+      - "Transform paper-based forms to fully digital experience"
+      
+veteran_journey_phases:
+  - "Putting down roots"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/research/users/conversation_guide_user_interviews.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/research/users/user_testing_research_plan.md"
+    
+tags:
+  - "health-care"
+  - "CHAMPVA"
+  - "form-10-10d"
+  - "benefits-application"
+  - "user-interviews"
+  - "semi-structured-interviews"
+  - "moderated"
+  - "remote"
+  - "zoom"
+  - "veterans"
+  - "caregivers"
+  - "family-members"
+  - "spouses"
+  - "dependents"
+  - "unauthenticated"
+  - "digitization"
+  - "IVC-forms"
+  - "cognitive-disability"
+  - "screen-reader"
+  - "assistive-technology"
+  - "mobile"
+  - "expat"
+  - "LGBTQ"
+  - "diverse-demographics"
+  - "rural"
+  - "generative"
+  - "discovery"
+---
+
 # User Interviews Research Plan for Integrated Veteran Care (IVC) Team, Form 10-10D, December 2023
 
 ## Background

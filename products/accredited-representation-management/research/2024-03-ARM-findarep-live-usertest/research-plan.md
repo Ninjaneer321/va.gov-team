@@ -1,3 +1,132 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Accredited Representative Management, Find a Representative LIVE User Test, 03/2024"
+date: 2024-04-15
+last_updated: 2024-05-03
+team: "Accredited Representative Management (ARM)"
+product: "Find a Representative"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Create a high-quality accessible service within VA.gov to serve Veterans in managing their Power of Attorney (PoA) representation and support deprecation of legacy system."
+  product_location: "VA.gov live site - https://www.va.gov/get-help-from-accredited-representative/find-rep"
+  user_familiarity: "New product launch - live testing"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/9c884d56087c31b9422840cc233009d12e870b9b/products/accredited-representation-management/product-outline.md"
+
+# Research Design
+methodology: "usability-testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand how Veterans navigate to the Find a Representative tool on VA.gov"
+  - goal_2: "Understand usability of Find a Representative search feature on VA.gov"
+  - goal_3: "Gather feedback from both mobile and assistive technology users on VA.gov"
+
+research_questions:
+  - "Are Veterans easily able to locate the Find a Representative tool on VA.gov?"
+  - "Does the navigation meet user expectations?"
+  - "Do Veterans understand the information shown? Is there any information missing?"
+  - "Are there any challenges with the experience?"
+  - "Are the next steps clear and actionable?"
+  - "Does the experience meet user expectations?"
+  - "Would Veterans engage with the tool? Why or why not?"
+  - "Are there any critical errors with mobile and assistive technology experience?"
+  - "Are there any minor adjustments we could make to enhance the AT experience?"
+
+hypotheses:
+  - "Veterans will navigate focusing on terms they know (such as VSO or attorney) or by associating representatives with claims"
+  - "By providing information in plain language, Veterans' will understand representatives, and how they can help them"
+  - "Veterans will want to search for individual officers in their local area, not organizations"
+  - "Veterans will be looking for more information about the representative to make a decision. Such as reviews, office hours, or photographs"
+  - "Veterans will find the tool useful, but may look to outside sources to cross reference to increase comfort in their decision"
+  - "Using the patterns created by VA.gov technical challenges with mobile and AT users will be limited and fixable"
+
+expected_outcomes: "Navigation evaluation and recommendations to improve findability. Usability recommendations for improvements on Find a Representative tool. Documentation on bugs or errors from live testing on mobile and assistive technology devices."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation sampling"
+  
+  primary_criteria:
+    - "Veterans actively searching for a representative"
+    - "Mix of representative types: VSO, attorney, claims agent"
+    - "Mobile users (6) and assistive technology users (12)"
+    - "AT cohorts: low vision/magnification (4), alternative navigation (4), screen readers (4)"
+    
+  secondary_criteria:
+    - "3+ age 55+"
+    - "3+ with cognitive disability"
+    - "2+ people of color"
+    - "2+ with no degree"
+    - "1+ women"
+    - "1+ LGBTQ+"
+    
+  screener_questions:
+    - question: "Are you currently looking for a representative to support with a VA claim?"
+      qualifying_response: "Currently looking for representative"
+      
+participants:
+  veterans: 18
+  caregivers: 0
+  dependents: 0
+  total_recruited: 18
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-03-10"
+  pilot_participant: "Jamie Fay, Eli Mellen"
+  research_dates: "2024-04-01 to 2024-04-19"
+  research_review_submission: "2024-03-27"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 2
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Grow digital submissions"
+    key_results: 
+      - "Focus on needs of accredited representatives and Veterans who work with them"
+      - "Redirect to VA.gov traffic currently going through eBenefits and Stakeholder Enterprise Portal (SEP)"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "2024-01 ARM Authenticated Appoint a Representative Form User Test"
+    - "2024-02 ARM Appoint a Representative Unauthenticated User Test"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Veteran Service Organization (VSO)"
+  - "AUD: Attorneys"
+  - "BNFT: Disability"
+  - "DSC: Button"
+  - "DSC: Links"
+  - "DSP: Ask users for addresses"
+  - "DSP: Content Presentation"
+  - "PRDT: Accredited-Reps"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "Accessibility"
+---
+
 # Research Plan for Accredited Representative Management, Find a Representative LIVE User Test, 03/2024
 
 ## Background<a id="background"></a>

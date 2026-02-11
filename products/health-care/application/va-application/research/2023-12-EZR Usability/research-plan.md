@@ -1,3 +1,138 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Health Enrollment Team, 10-10EZR Usability Study, December 2023"
+date: 2023-12-01
+last_updated: 2023-12-01
+team: "Health Enrollment Team"
+product: "10-10EZR Health Benefits Update Form"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans enrolled in VA health care who need to update their personal, insurance, or financial information are burdened with manual processes of calling VA, mailing paper forms, or visiting facilities. This burden is multiplied for Veterans required to provide annual updates."
+  product_location: "My Health section of VA.gov (va.gov/my-health/update-benefits-information-form-10-10ezr/introduction)"
+  user_familiarity: "New online form (MVP). Veterans may be familiar with 10-10EZ application but 10-10EZR is new for updating after enrollment."
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/EZ(R)%20Update%20Capabilities/10-10EZR%20Product%20Brief%20(standalone%20form).md"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Test the usability of the prefilled form fields to see if Veterans understand what information needs to be updated, that the information is prefilled and information can be changed"
+  - goal_2: "Test the usability of the household financial information section of the form to see if Veterans understand what they need to provide since that section is never prefilled"
+  - goal_3: "Determine how a Veteran knows or would like to know they need to update the household financial section"
+
+research_questions:
+  - "Do participants understand that information is prefilled?"
+  - "Are the alerts about pre-filled information at the beginning of each section effective and understandable for participants?"
+  - "Do participants understand that they can change the information that's pre-filled?"
+  - "What is the impact on participants who need to update only one section of the form vs. more than one section of the form?"
+  - "Do participants understand that they need to provide updated financial information?"
+  - "Do the participants understand the impact of not providing an update?"
+  - "How do participants approach the financial update section when they have different disability ratings?"
+  - "How do participants want to be notified that they need to update their financial information?"
+  - "Do participants know what they need to do after encountering the intro page on the form?"
+  - "Can participants find the landing page with more information, if prompted?"
+
+hypotheses:
+  - "Participants will understand that information is prefilled and be able to update and submit the information"
+  - "Participants may be frustrated if they want to only update one section of the form vs. multiple sections because they will have to go through the form linearly"
+  - "Participants will understand they need to update financial information"
+  - "Participants will understand how not providing an update to financial information will impact their benefits"
+  - "Participants with a lower disability rating will be more familiar with the need to keep financial information updated to keep their benefits"
+  - "Participants will know what they need to do based on the intro page on the form"
+
+expected_outcomes: "These learnings will allow us to evaluate for additional gaps to address in future iterations of the form. The findings and recommendations will be categorized as to if there are any blockers and what can be addressed by priority and impact."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "stratified sampling by disability rating cohorts"
+  
+  primary_criteria:
+    - "Enrolled in VA health care"
+    - "At least 3 are using a mobile device during the session"
+    - "At least 2 are using assistive technology"
+    - "Cohort 1: 12 participants with VA service-connected disability rating of 50% or higher"
+    - "Cohort 2: 12 participants with no VA disability compensation"
+    
+  secondary_criteria:
+    - "At least 2 participants who are biracial"
+    - "At least 2 participants who identify as LGBTQ+"
+    - "Mix of ages, genders, education levels"
+    - "Mix of rural and urban participants"
+    
+  screener_questions:
+    - question: "Are you currently enrolled in VA health care benefits?"
+      qualifying_response: "Yes"
+    - question: "Do you have a VA service-connected disability rating?"
+      qualifying_response: "Used to split into cohorts"
+      
+participants:
+  veterans: 24
+  caregivers: 0
+  dependents: 0
+  total_recruited: 24
+  completed_sessions_goal: 14
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-12-15"
+  pilot_participant: "Internal team member"
+  research_dates: "2023-12-18 to 2024-01-12"
+  research_review_submission: "2023-12-08"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 2
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase completion rate of online transactions"
+    key_results: 
+      - "Increase usage of digital, self-service tools"
+      - "Increase percent of applications submitted online (vs. paper)"
+  - objective: "Enhance Veterans' personalized online experience"
+    key_results:
+      - "Improve usability of authenticated forms with prefilled data"
+      
+veteran_journey_phases:
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "10-10EZ Health Care Application research"
+    - "Short Form flow research and implementation"
+    
+tags:
+  - "PRDT: 10-10EZR"
+  - "PRDT: Health-care-application"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "DSC: Form-controls"
+  - "DSC: Prefill"
+  - "DSP: Alert"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Screen-reader"
+  - "RESRCH: Usability"
+  - "RESRCH: Remote"
+  - "RESRCH: Moderated"
+  - "RESRCH: Evaluative"
+---
+
 # Research Plan for usability study on 10-10EZR form (Updates to health benefits information), Health Enrollment Team, December 2023
 
 ## Background

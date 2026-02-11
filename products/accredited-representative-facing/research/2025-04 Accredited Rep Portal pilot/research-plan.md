@@ -1,3 +1,182 @@
+---
+# Research Plan Metadata
+title: "Research Plan: Accredited Representative Portal Pilot, ARF Team, March-May 2025"
+date: 2025-03-18
+last_updated: 2025-03-31
+team: "Accredited Representative Facing (ARF)"
+product: "Accredited Representative Portal (ARP)"
+product_area: "authenticated"
+study_phase: "pilot_evaluation"
+
+# Background Context
+background:
+  problem_statement: "Accredited representatives need a modern, accessible, and secure online system to accept power of attorney (POA) requests submitted via VA Form 21-22 on VA.gov. Current processes are fragmented and lack digital efficiency."
+  product_location: "Accredited Representative Portal on VA.gov (staging.va.gov/representative)"
+  user_familiarity: "New product - pilot release testing POA request acceptance functionality"
+  product_brief_url: "https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/_layouts/15/Doc.aspx?sourcedoc=%7B9CCA6503-B180-4788-8F13-9FC6C4133604%7D"
+  related_brief: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/21-22-power-of-attorney.md"
+  pilot_organization: "Connecticut Veterans Affairs"
+  pilot_launch: "March 18, 2025"
+
+# Research Design
+methodology: "Multi-method: Semi-structured interviews, weekly feedback prompts, walkthrough, usability testing, and concept testing"
+research_format: 
+  location: remote
+  platform: "Microsoft Teams (video calls and chat channels)"
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  mixed_methods: true
+  
+research_methods:
+  - method: "Semi-structured interview with CT leadership (Paul Spedaliere, John S Carragher, Jeannie Gardine)"
+    purpose: "Learn how they manage tools, quality, case loads, and processes"
+  - method: "Weekly feedback prompts in Microsoft Teams"
+    participants: "13 CT pilot participants"
+    duration: "Throughout pilot (Weeks 1-2 broad, Week 3+ targeted)"
+  - method: "Walkthrough and usability testing"
+    participants: "4-5 pilot participants using ARP pilot environment"
+  - method: "Usability testing with non-pilot participants"
+    participants: "4-5 non-pilot participants using ARP staging or Figma prototype"
+  - method: "Concept testing"
+    participants: "All 1:1 sessions"
+    concepts: "VSO switch, search/filter, global search"
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Evaluate usability of ARP, searching and accepting/declining a POA request"
+  - goal_2: "Understand accredited representative workflows more fully, especially related to POA"
+  - goal_3: "Understand high-level organizational procedures of a small NE state VSO (Connecticut Veterans Affairs)"
+
+research_questions:
+  - "Can representatives complete tasks quickly and efficiently through this design, or could it be improved?"
+  - "Is the information/content clearly presented, or are there any points of confusion?"
+  - "What technologies and processes do reps use? (Devices, screen size, tools/apps, when they work online vs offline?)"
+  - "What activities happen before, during, and after accepting a POA request?"
+  - "What information do reps want to search POA requests by?"
+  - "Do reps want to submit intent to file (ITF) immediately after accepting a POA request?"
+  - "What do reps want to be informed/notified about the POA request?"
+  - "What differences, if any, are there between small and large org approach to accepting POA?"
+  - "How do they determine who reviews what POA requests? By geographic area? By rep requested? What else?"
+  - "Do larger orgs require different search or filter options?"
+  - "What other functionality is required for reps to fully adopt ARP?"
+  - "What technologies and processes are used in your organization?"
+  - "What % of claimant meetings are in-person vs virtual?"
+  - "Are any of your reps using assistive technology?"
+  - "What is the role of a VSO manager/supervisor?"
+  - "How do you manage or monitor quality?"
+  - "How do you delegate and manage workloads, POA requests, other work?"
+
+hypotheses:
+  - "Reps will easily find and accept a POA request"
+  - "Reps will be excited they can see the Veteran information in VBMS within minutes of accepting POA"
+  - "Reps will want more functionality, wonder what we plan on building next and how soon"
+  - "Reps will want to update their contact information directly in the portal"
+  - "All reps will want to search requests by first name, last name, and/or SSN"
+  - "Cross-accredited reps and reps from larger orgs will want/need more granular search and filter options than smaller orgs. Needs will vary depending on an organization's work processes"
+
+expected_outcomes: "This research will uncover any initial usability issues with ARP pilot that need to be addressed before releasing our product to a broader audience of accredited representatives. The additional insights we gather about organizational processes and representative workflows will help guide the future direction and designs for ARP."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Connecticut Veterans Affairs (pilot); VSO research panel (non-pilot)"
+  approach: "Pilot participants pre-recruited; non-pilot from research panel with targeted criteria"
+  
+  primary_criteria:
+    - "Connecticut VSO pilot participants (13 already recruited)"
+    - "4-5 pilot participants for 1:1 sessions (selected by CT leadership)"
+    - "4-5 non-pilot participants from research panel"
+    - "(Must-have for non-pilot) Responsible for POA at organization"
+    - "(Must-have for non-pilot) At least 3 cross-accredited representatives"
+    
+  secondary_criteria:
+    - "(Nice-to-have) Representatives from a mix of smaller and larger organizations"
+    - "(Nice-to-have) Mix of years of experience as a representative"
+    - "(Nice-to-have) At least one representative from a tribal organization"
+    
+  screener_questions: []
+      
+participants:
+  ct_pilot_participants: 13
+  pilot_1on1_participants: 5
+  non_pilot_participants: 5
+  ct_leadership: 3
+  vso_representatives: 18
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  total_recruited: 18
+  completed_sessions_goal: 10
+  participant_type: "VSO representatives (accredited) and VSO leadership"
+  
+# Timeline & Sessions
+timeline:
+  pilot_launch: "2025-03-18"
+  pilot_date: "2025-03-26"
+  pilot_participant: "14 CT pilot participants"
+  research_dates: "2025-03-31 to 2025-04-28"
+  research_review_submission: "2025-03-03"
+  kickoff_call: "2025-03-26"
+  leadership_interview: "2025-03-31"
+  non_pilot_interviews_start: "2025-04-07"
+  pilot_interviews_start: "2025-04-21"
+  analysis_complete: "2025-04-28"
+  writeup_shareout: "2025-05-05 to 2025-05-12"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+materials:
+  ct_leadership_guide: "https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/_layouts/15/Doc.aspx?sourcedoc=%7B62864159-FA10-4C8D-AE42-E312020A7756%7D"
+  weekly_feedback_prompts: "https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/_layouts/15/Doc.aspx?sourcedoc=%7BE248F162-97B3-489A-B73E-D6DB81370862%7D"
+  conversation_guide: "https://dvagov.sharepoint.com/:w:/r/sites/vaabdvro/Shared%20Documents/Accredited%20Representative%20Facing/POA%2021-22/2025_03%20ARP%20Pilot%20Research/2025-03%20ARP%20pilot%20conversation%20guide.docx"
+  pilot_usability_testing: "https://staging.va.gov/representative"
+  non_pilot_prototype: "https://www.figma.com/proto/LVCQBuW7a6nfVFNyhA4kv4/ARF---Form-21-22-Design-Explorations"
+  vso_switch_concept: "Figma prototype link"
+  search_filter_concepts: "Figma prototype link"
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results: 
+      - "Create an accessible, modern, and secure online system for accredited representatives"
+      - "Streamline use of digital forms for faster and smoother experience for representatives and Veterans"
+      
+veteran_journey_phases:
+  - "Getting Out"
+  - "Starting Up"
+  - "Living Civilian Life"
+  - "Managing Benefits"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "2025-02 QuickSubmit Review"
+  related_products:
+    - "VA Form 21-22 (Power of Attorney)"
+    - "VBMS"
+  research_panel: "https://dvagov.sharepoint.com/:x:/r/sites/vaabdvro/Shared%20Documents/Accredited%20Representatives/Research/00%20Participant%20Panel/2024_10_Rep_ParticipantPanel.xlsx"
+    
+tags:
+  - "accredited-representative-facing"
+  - "accredited-representative-portal"
+  - "vso-representatives"
+  - "power-of-attorney"
+  - "form-21-22"
+  - "pilot-study"
+  - "usability-testing"
+  - "concept-testing"
+  - "semi-structured-interviews"
+  - "connecticut"
+  - "authenticated"
+  - "march-2025"
+  - "april-2025"
+---
+
 # Research Plan: Accredited Representative Portal
 
 [Accredited Representative-Facing (ARF) Team](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/README.md)

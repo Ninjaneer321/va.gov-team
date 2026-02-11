@@ -1,3 +1,142 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Baseline Wayfinding Research on VA.gov, April 2021"
+date: 2021-04-19
+last_updated: 2026-02-10
+team: "Public Websites Team"
+product: "VA.gov Website Navigation and Wayfinding"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Since VA.gov launched in 2018, there hasn't been much user research on the website's overall design. Recent research focused on specific pages but not overall wayfinding. Analytics show where people click but not whether they find what they're looking for. Need baseline understanding of how Veterans use the site to inform priorities for future research and design work."
+  product_location: "VA.gov - overall website navigation including home page, header, footer, search, and browse tools"
+  user_familiarity: "Baseline research - understanding current usage patterns"
+  product_brief_url: "TBD"
+
+# Research Design
+methodology: "Moderated interviews with task-based wayfinding exercises"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Get baseline understanding of how current VA.gov website is being used by Veterans and others"
+  - goal_2: "Understand Veterans' pain points and successes while using VA.gov"
+  - goal_3: "Make more informed decisions about priorities for future research and design work in website navigation and tools"
+
+research_questions:
+  - "How do Veterans accomplish a list of common tasks?"
+  - "Where do they typically start? (Google/Facebook/MHV/eBenefits/contact center/VA.gov)"
+  - "If not using VA.gov, why? (don't know about it, too hard to use)"
+  - "What do they typically do on VA.gov? What tools have they tried using?"
+  - "Do they find what they're looking for? If not, what were they looking for?"
+  - "What pain points are there in terms of findability and usage?"
+  - "What works well?"
+  - "What differences are there for desktop vs. smartphone users?"
+  - "What differences are there for people who have cognitive disabilities?"
+  - "What differences are there for people who use screen readers?"
+  - "What differences are there for people who have used VA.gov before vs. haven't used it?"
+  - "Do Veterans read/notice/click/comment on the banner content on the home page?"
+
+hypotheses:
+  - "Veterans are focused on what they're looking for and don't want to navigate multiple tools unless it helps them get better results"
+  - "Veterans don't care where the information they're looking for is stored, as long as they are able to find it"
+  - "Veterans aren't using all of the current search and browse tools on VA.gov"
+
+expected_outcomes: "Baseline understanding of wayfinding behavior to inform priorities for navigation improvements and future research"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling to include diverse user groups and device types"
+  
+  primary_criteria:
+    - "At least 6 Veterans"
+    - "At least 3 caregivers or family members of a Veteran who assist the Veteran in getting benefits"
+    - "At least 5 people who plan to use their computer for the session"
+    - "At least 5 people who plan to use their smartphone for the session"
+    - "At least 4 people with a cognitive disability (e.g., TBI)"
+    - "At least 3 participants over 60"
+    
+  secondary_criteria:
+    - "At least 2 people who use a screen reader"
+    - "At least 2 people who have never used VA.gov before"
+    - "At least 2 people of color"
+    - "At least 1 woman"
+    - "At least 1 participant 35 or under"
+    - "At least 2 people without degree or vocational training after high school"
+    - "At least 1 person with college degree"
+    - "At least 2 people in rural or remote area"
+    - "At least 1 person in major metropolitan area"
+    - "At least 1 non-native English speaker"
+    
+  screener_questions:
+    - question: "Have you used the VA.gov website before?"
+      qualifying_response: "Mix of yes and no responses"
+    - question: "What kind of device will you be joining on?"
+      qualifying_response: "Computer, tablet, or smartphone"
+      
+participants:
+  veterans: 6
+  caregivers: 3
+  dependents: 0
+  total_recruited: 20
+  completed_sessions_goal: 12
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-04-21"
+  pilot_participant: "TBD"
+  research_dates: "2021-04-26 to 2021-05-05"
+  research_review_submission: "2021-04-19"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 5
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Improve wayfinding and navigation on VA.gov"
+  - objective: "Veterans can manage their health services online"
+    key_results: "Make health tools and information more findable"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Various page-specific research studies since 2018"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family Members"
+  - "PRDT: VA.gov"
+  - "PRDT: Public Websites"
+  - "DSP: Navigation"
+  - "DSP: Search"
+  - "wayfinding"
+  - "baseline-research"
+  - "information-architecture"
+  - "findability"
+  - "remote-research"
+  - "moderated-research"
+  - "unauthenticated-experience"
+  - "accessibility"
+  - "screen-reader"
+  - "cognitive-disability"
+  - "mobile-research"
+  - "desktop-research"
+---
+
 # Research Plan: Baseline Wayfinding Research on VA.gov 
  	
 ## Goals	

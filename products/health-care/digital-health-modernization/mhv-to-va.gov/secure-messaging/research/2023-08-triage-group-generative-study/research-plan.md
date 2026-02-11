@@ -1,3 +1,121 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV on VA.gov Triage Group Naming Generative Research, August 2023"
+date: 2023-07-31
+last_updated: 2023-07-31
+team: "Digital Health Modernization"
+product: "Secure Messaging on MHV on VA.gov"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Explore the needs and expectations of Veterans when selecting triage groups in Secure Messaging to create a centralized place for Veterans to access their health information"
+  product_location: "Secure Messaging within MHV on VA.gov"
+  user_familiarity: "Existing feature being moved to VA.gov"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
+
+# Research Design
+methodology: "Remote moderated interviews with card sort activity"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand Veterans' mental models and processes for choosing a triage group from their contact list in Secure Messaging"
+  - goal_2: "Understand the identifiers Veterans associate with their healthcare providers"
+  - goal_3: "Understand Veterans' experiences with Secure Messaging and how it shapes their interactions"
+
+research_questions:
+  - "What information do Veterans bring into a Secure Messaging interaction?"
+  - "What types of information do Veterans look for when trying to figure out who to send a secure message to on their provider team(s)?"
+  - "What are their processes for deciding and how do they figure things out if they can't find what they're looking for?"
+  - "What relevant past experiences have shaped Veterans' expectations when sending a message to their providers?"
+  - "How have Veterans had instructions for sending a message communicated to them in the past?"
+
+hypotheses:
+  - "Many Veterans will not know the names of their providers"
+  - "Most Veterans will be familiar with the location and facility/clinic of their providers"
+
+expected_outcomes: "The results will help identify Veterans' mental model and processes in choosing triage groups and inform future research and design solutions"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling excluding assistive technology users"
+  
+  primary_criteria:
+    - "Desktop/Laptop/Tablet users only (no assistive technology due to card sort limitations)"
+    - "Mix of frequent (9) and infrequent (9) MHV Secure Messaging users"
+    - "Age distribution emphasizing older Veterans"
+    
+  secondary_criteria:
+    - "6 participants with cognitive disability"
+    - "Diverse racial and ethnic backgrounds"
+    - "Mix of rural (5) and urban (13) participants"
+    - "Education distribution across all levels"
+    
+  screener_questions:
+    - question: "How often have you used My HealtheVet Secure Messaging during the past year?"
+      qualifying_response: "At least once or twice a month"
+    - question: "Do you often have trouble remembering things, learning new things, focusing on a task, or making decisions?"
+      qualifying_response: "Recruit 6 who answer yes"
+      
+participants:
+  veterans: 15
+  caregivers: 0
+  dependents: 0
+  total_recruited: 18
+  completed_sessions_goal: 15
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-07-31"
+  pilot_participant: "TBD"
+  research_dates: "2023-07-31 to 2023-08-08"
+  research_review_submission: "2023-07-25"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging"
+    
+tags:
+  - "MHV"
+  - "secure-messaging"
+  - "triage-groups"
+  - "generative"
+  - "card-sort"
+  - "interviews"
+  - "authenticated"
+  - "veterans"
+  - "health-care"
+---
+
 # **Research Plan for MHV on VA.gov, Triage Group Naming generative research, August 2023**
 
 ## **Background**

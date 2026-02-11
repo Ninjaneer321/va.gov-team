@@ -1,3 +1,115 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VAOS Team, Direct Scheduling UAT, January-February 2020"
+date: 2020-01-31
+last_updated: 2026-02-10
+team: "VAOS Team"
+product: "VA Online Scheduling"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The legacy mobile online scheduling application currently lives in VA's mobile store, mobile.va.gov. The front end of this application has been rebuilt on VA.gov. Key components of the application will be going live in 2020 - view and cancel appointments, request community care appointments, request VA appointments, and self-schedule appointments."
+  product_location: "VA.gov health care appointments"
+  user_familiarity: "Relaunch of VAOS on VA.gov"
+  product_brief_url: ""
+
+# Research Design
+methodology: "UAT (User Acceptance Testing)"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Validate that users can successfully complete the direct scheduling flow in production"
+  - goal_2: "Verify that data is displaying correctly in the system"
+  - goal_3: "Ensure Veterans can self-schedule primary care appointments in a logical and intuitive way"
+
+research_questions:
+  - "Are users getting through the flow?"
+  - "Is the data showing up where it is supposed to show up?"
+
+hypotheses:
+  - "Veterans are able to self-schedule primary care appointments in a way that is logical and intuitive to them."
+
+expected_outcomes: "Validate with real users using real data that the direct scheduling functionality works as intended in production."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment for UAT"
+  
+  primary_criteria:
+    - "MUST be Veterans who are enrolled in VA healthcare"
+    - "MUST be Veterans who have received primary care at a VA facility in the past"
+    - "MUST be Veterans who need to schedule a Primary Care appointment at their local VA facility"
+    - "MUST be Veterans who have a MHV premium account, OR an authenticated/identity-proofed ID.me account"
+    
+  secondary_criteria:
+    - "Veterans who have used online scheduling before"
+    - "Veterans who have been seen at a VA healthcare facility within the last 2 years"
+    
+  screener_questions:
+    - question: "Do you need to schedule a Primary Care appointment at your local VA facility?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 15
+  caregivers: 0
+  dependents: 0
+  total_recruited: 15
+  completed_sessions_goal: 15
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: ""
+  pilot_participant: "n/a"
+  research_dates: "2020-01-31 to 2020-02-07"
+  research_review_submission: ""
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 30
+  max_sessions_per_day: 8
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Enable online scheduling of VA appointments"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Living civilian life"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Previous VAOS UAT phases"
+    
+tags:
+  - "PRDT: VA-online-scheduling"
+  - "BNFT: Healthcare"
+  - "DSP: Appointments"
+  - "appointments"
+  - "scheduling"
+  - "UAT"
+  - "user-acceptance-testing"
+  - "direct-schedule"
+  - "primary-care"
+  - "MHV"
+  - "authenticated"
+  - "veterans"
+  - "VAOS"
+  - "health-care"
+  - "production-testing"
+---
+
 # Research plan for UAT #4 / VAOS DIRECT SCHEDULING - Jen-Feb 2020 
 
 

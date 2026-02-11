@@ -1,3 +1,135 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV Access, Sign in Changes, June 2024"
+date: 2024-06-01
+last_updated: 2024-06-01
+team: "MHV Access and Sign-in"
+product: "My HealtheVet Access and Sign-in"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans need to understand and successfully complete the transition from MHV user IDs and passwords to ID.me or Login.gov for accessing My HealtheVet, as mandated sign-in changes will take effect January 2025 to protect Veterans' personal information."
+  product_location: "My HealtheVet on VA.gov - Account and sign-in settings"
+  user_familiarity: "New requirement - sign-in credential migration process"
+  product_brief_url: "N/A"
+
+# Research Design
+methodology: "moderated usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Ascertain Veterans' understanding of the content that communicates the sign in changes"
+  - goal_2: "Identify any usability issues Veterans may experience with sign in messaging and interactions"
+
+research_questions:
+  - "Do Veterans understand the process and consequence of removing their MHV user ID and password?"
+  - "Do Veterans understand that they must have Login.gov or ID.me account before retiring their MHV user ID and password?"
+  - "Do Veterans know what to do if they blocked their Login.gov or ID.me accounts?"
+
+hypotheses:
+  - "Some Veterans will understand the process and consequence of retiring their MHV user ID and password"
+  - "Many Veterans will struggle to follow the instructions for retiring their MHV user ID and password"
+  - "Most participants will understand how to unblock their accounts"
+
+expected_outcomes: "The results will help determine if designs provide the best user experience for Veterans to make changes to their sign in options and help identify any pain points. This will inform later iterations of the design."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "maximum variation sampling"
+  
+  primary_criteria:
+    - "18 Veterans total"
+    - "Age distribution: 18-34 (1), 35-54 (4), 55-64 (3), 65-74 (6), 75+ (4)"
+    - "Education distribution: High school or less (6), Some college (5), Associate degree (2), Bachelor's degree (3), Master's or higher (2)"
+    - "MHV use distribution: non MHV users (3), infrequent MHV users (6), frequent MHV users (3), very frequent MHV users (6)"
+    - "9 mobile users, 9 desktop/laptop users (no tablets)"
+    - "4 with cognitive disability"
+    - "No VA employees (current or within past 5 years)"
+    
+  secondary_criteria:
+    - "Demographic distribution: Asian (1), Black/African American (3), Hispanic/Latino (2), White/Caucasian (12)"
+    - "Residence: Rural (5), Urban (13)"
+    
+  screener_questions:
+    - question: "How often have you used My HealtheVet in the past 6 months?"
+      qualifying_response: "not at all (recruit 3), 1-4 times (recruit 6), 5-10 times (recruit 3), more than 10 times (recruit 6)"
+    - question: "Have you been diagnosed with a cognitive disability?"
+      qualifying_response: "Yes (recruit 4), No (recruit 14)"
+      
+participants:
+  veterans: 18
+  caregivers: 0
+  dependents: 0
+  total_recruited: 18
+  completed_sessions_goal: 15
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-06-17"
+  pilot_participant: "TBD - team will handle own"
+  research_dates: "2024-06-18 to 2024-06-28"
+  research_review_submission: "2024-06-01"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Enable secure access to MHV with modern authentication methods"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Clear communication about sign-in credential changes"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Smooth transition to ID.me or Login.gov credentials"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Previous MHV sign-in and authentication research"
+    
+tags:
+  - "MHV"
+  - "My HealtheVet"
+  - "sign-in"
+  - "authentication"
+  - "access"
+  - "identity"
+  - "Login.gov"
+  - "ID.me"
+  - "health-care"
+  - "patient-portal"
+  - "usability-testing"
+  - "veterans"
+  - "cognitive-disability"
+  - "authenticated-experience"
+  - "remote-research"
+  - "credential-migration"
+  - "security"
+  - "mobile"
+  - "desktop"
+  - "adobe-xd-prototype"
+---
+
 # **Research Plan for MHV Access, Sign in Changes, June 2024**
 
 ## **Background**

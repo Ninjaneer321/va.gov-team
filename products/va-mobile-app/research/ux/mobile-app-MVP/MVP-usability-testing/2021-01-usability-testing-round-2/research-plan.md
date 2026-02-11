@@ -1,3 +1,144 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VA Mobile App Team, MVP Usability Testing Round 2, January 19, 2021"
+date: 2021-01-19
+last_updated: 2026-02-10
+team: "VA Mobile App Team"
+product: "VA Mobile App MVP"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The VA Mobile App team needs to understand usability obstacles, gather feedback, and validate the MVP mobile app design with Veterans before launch."
+  product_location: "VA Mobile App (Android devices)"
+  user_familiarity: "New - MVP mobile app testing prior to launch"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app"
+
+# Research Design
+methodology: "moderated usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - "Identify usability obstacles with the sign in flow and app screens"
+  - "Understand usability issues navigating Profile, Claims, and Appointments at a high level"
+  - "Assess usefulness of the app and gather feedback on missing features"
+
+research_questions:
+  - "What usability obstacles exist with the sign in flow?"
+  - "Are participants able to successfully sign in and return to the app?"
+  - "What barriers prevent successful sign in?"
+  - "What usability obstacles exist with app sign in screens (biometrics opt in, homescreen, loading screens)?"
+  - "What usability obstacles exist in navigating around Profile, Claims, and Appointments?"
+  - "What questions do users have about Profile, Appointments, and Claims/Appeals?"
+  - "What do participants find confusing/unclear in each feature area?"
+  - "Does anything feel like it's missing?"
+  - "Do participants describe finding the app useful, and if so, why?"
+  - "If participants could add 1 thing to the app, what would it be and why?"
+
+hypotheses:
+  - "Participants will be able to successfully sign in and use the app"
+  - "Participants will find the app useful for managing VA health care and benefits"
+  - "Some usability obstacles will be identified that require immediate adjustment"
+
+expected_outcomes: "Findings will inform immediate adjustments before launch and identify potential future improvements to Profile, Claims, and Appointments features"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "targeted recruitment for Android users with diverse characteristics"
+  
+  primary_criteria:
+    - "Must have an Android mobile device and join session on this device"
+    - "Must be Veterans"
+    - "Must have an active DS Logon, My HealtheVet, or ID.me account"
+    - "Must be Level of Assurance (LOA) 3"
+    - "Must have signed into VA.gov within the last 9 months"
+    - "Must have VA healthcare appointments"
+    - "Must have an active claim or appeal"
+    
+  secondary_criteria:
+    - "At least 1 person who lives in a rural or remote area"
+    - "At least 1 person who lives in a major metropolitan area"
+    - "At least 1 participant who uses assistive technology (nice to have)"
+    - "At least 1 person with a disability rating of 70% or greater"
+    - "Diverse in branch of service"
+    - "30% or more women"
+    - "Diverse in race"
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    
+  screener_questions:
+    - question: "Do you have an Android mobile device?"
+      qualifying_response: "Yes"
+    - question: "Are you a Veteran?"
+      qualifying_response: "Yes"
+    - question: "Do you have an active DS Logon, My HealtheVet, or ID.me account?"
+      qualifying_response: "Yes"
+    - question: "Are you Level of Assurance (LOA) 3?"
+      qualifying_response: "Yes"
+    - question: "Have you signed into VA.gov within the last 9 months?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 10
+  caregivers: 0
+  dependents: 0
+  total_recruited: 12
+  completed_sessions_goal: 6
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-01-25"
+  pilot_participant: "TBD"
+  research_dates: "2021-02-01 to 2021-02-05"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 8
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-mobile-app"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: VA-mobile-app"
+  - "PRDT: Profile"
+  - "PRDT: Claims"
+  - "PRDT: Appointments"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+  - "authenticated-experience"
+  - "mobile"
+  - "HDW: Smartphone"
+  - "HDW: Android"
+  - "sign-in"
+  - "biometrics"
+  - "MVP"
+  - "pre-launch"
+---
+
 # Research Plan for Mobile App User Testing
 
 January 19, 2021

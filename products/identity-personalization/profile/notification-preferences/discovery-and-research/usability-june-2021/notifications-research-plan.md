@@ -1,3 +1,136 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Authenticated Experience, Notification Settings, June 2021"
+date: 2021-06-10
+last_updated: 2026-02-10
+team: "Authenticated Experience"
+product: "VA.gov Profile - Notification Settings"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The VA is ramping up their digital communications efforts, specifically through email and text. As a result, Veterans need to be able to opt in or out of communications and customize through which channels they prefer to be contacted. To meet these organizational and user needs, the VA Profile team is building a communications permissions engine that will integrate with the VA.gov profile frontend and allow veteran-managed settings to be saved and shared across systems at the VA."
+  product_location: "VA.gov Profile - Notification Settings"
+  user_familiarity: "New product - MVP for communications permissions"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/notifications/notification-preferences/product/communications-permissions-mvp-definition.md"
+
+# Research Design
+methodology: "Remote moderated usability testing with high-fidelity prototype"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - "Understand what expectations Veterans have about managing notifications"
+  - "Evaluate if our solution enables Veterans to manage their notifications without encountering UX hurdles"
+  - "Assess whether Veterans can understand and update contact information in relation to notification channels"
+
+research_questions:
+  - "What expectations do Veterans have about managing notifications?"
+  - "What kind of notifications do Veterans expect to be able to receive from the VA?"
+  - "What words do Veterans use to talk about or search for notification content?"
+  - "How do Veterans expect to be able to discover notifications they're not currently opted in to?"
+  - "Does our solution enable Veterans to manage their notifications without encountering UX hurdles?"
+  - "Are we providing sufficient contextual information through group and notification names?"
+  - "Do Veterans expect to be able to update their contact info right here on the page?"
+  - "If a Veteran has partial contact info (missing a phone or email from their profile), do they understand how to make updates so they can get notifications to that channel?"
+  - "Does a Veteran with partial contact info they understand email/text is also available when they don't have a checkbox to click?"
+  - "Do they know how to get back to notification settings once they add info?"
+  - "What kind of static content support makes sense for this section of profile?"
+  - "Do Veterans experience any usability hurdles when removing contact information from their profile?"
+
+hypotheses:
+  - "Veterans will expect to be able to manage notifications from their profile"
+  - "Veterans expect to be able to discover notifications they're not opted into via channels outside their profile - VAMC/call center interactions, campaigns, etc."
+  - "Our solution will allow Veterans to intuitively manage their notification settings"
+  - "The group and notification names will be easily understood"
+  - "Our content and design will help Veterans understand why they can only manage notifications for the contact information they have on file"
+  - "Having to go to the contact info section to update email or phone number will not be ideal, but it will be acceptable"
+  - "Veterans will know how to get back to notification settings after updating their contact information"
+  - "Veterans will be able to intuitively remove contact information without experiencing major usability hurdles"
+
+expected_outcomes: "Validate that Veterans can successfully manage their notification preferences and understand how contact information relates to notification channels"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling"
+  
+  primary_criteria:
+    - "All participants must be Veterans"
+    - "Have logged into VA.gov AND used text messaging in the last 6 months"
+    - "Be able to participate from a laptop/desktop device"
+    
+  secondary_criteria:
+    - "At least 3 women"
+    - "At least half of the participants identify as a person of color"
+    - "At least 2 participants under 30 and 2 participants over 55"
+    - "At least one person that does not have a college degree"
+    - "At least one person that has a college degree"
+    - "At least one person who lives in a rural or remote area"
+    - "At least one person who lives in a major metropolitan area"
+    - "At least one person with a disability rating of 70% or greater"
+    - "At least one person with an identified cognitive consideration of PTSD or TBI"
+    
+  screener_questions:
+    - question: "Have you used text messaging on a mobile phone in the last 6 months?"
+      qualifying_response: "Yes"
+    - question: "Have you logged into VA.gov in the last 6 months?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 12
+  caregivers: 0
+  dependents: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-06-10"
+  pilot_participant: "Taylor Mitchell"
+  research_dates: "2021-06-14 to 2021-06-16"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 15
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Improve Veteran experience with VA communications and notifications"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/notifications/notification-preferences/product/communications-permissions-mvp-definition.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/notifications/notification-preferences/discovery-and-research/notifications-research-findings.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Profile"
+  - "PRDT: Notifications"
+  - "BNFT: Communications"
+  - "RESRCH: Usability"
+  - "RESRCH: Remote"
+  - "DSC: Checkbox"
+  - "DSC: Form"
+  - "authenticated-experience"
+  - "profile"
+  - "notifications"
+  - "communication-preferences"
+  - "contact-information"
+---
+
 # Research Plan for Authenticated Experience, Notification Settings, June 2021
 
 ## Goals	

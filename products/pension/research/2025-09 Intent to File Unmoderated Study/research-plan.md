@@ -1,3 +1,127 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Pension Benefits, Intent to File Content Study, September 2025"
+date: 2025-09-01
+last_updated: 2025-09-01
+team: "Pension Benefits"
+product: "Online Pension Application"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Evaluate how content design can reduce confusion and instill confidence in the intent to file experience for Veterans applying for pension benefits online."
+  product_location: "Online pension application on VA.gov"
+  user_familiarity: "Iteration on existing product - intent to file functionality recently launched"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/"
+
+# Research Design
+methodology: "unmoderated-usability-testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: false
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Validate how intent to file messaging might be effective for Veterans in understanding intent to file and its impact on their application"
+  - goal_2: "Evaluate the usability of the proposed pattern"
+
+research_questions:
+  - "Do Veterans understand that by starting their application, they may receive benefits back to that date through their intent to file?"
+  - "Do Veterans take note of the date their application needs to be completed by (i.e. the intent to file expiration date)?"
+  - "When an intent to file cannot be found, what will Veterans' next step be - to continue their application or contact VA?"
+  - "How effective is the messaging across successful start, successful return, and failed scenarios?"
+
+hypotheses:
+  - "Veterans will understand that by starting their application, they may receive benefits back to that date through their intent to file"
+  - "Veterans will take note of the date their application needs to be completed by (i.e. the intent to file expiration date)"
+  - "When an intent to file cannot be found, Veterans' next step will be to continue their application, rather than contact VA"
+
+expected_outcomes: "This research will inform messaging and design strategy for the intent to file experience across VA.gov - for the online pension application as well as other forms that automate intent to file submission"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Mix of Veterans with and without VA.gov experience to capture range of exposure to intent to file language"
+  
+  primary_criteria:
+    - "Half of participants have filed a compensation or pension claim on VA.gov before"
+    - "Half of participants have not filed a compensation or pension claim on VA.gov before"
+    - "Able to participate in study using a desktop computer"
+    
+  secondary_criteria:
+    - "At least 50% of participants are over the age of 55"
+    - "50% with an identified cognitive disability"
+    - "30% people of color"
+    - "25% live in a rural area"
+    - "25% without a degree"
+    - "17% with immigrant origins"
+    - "10% women"
+    - "At least 1 identify as a part of the LGBTQ+ community"
+    
+  screener_questions:
+    - question: "Have you filed a disability compensation or benefits claim on VA.gov before? If you have filed a healthcare claim but not a disability compensation or benefits claim, select No"
+      qualifying_response: "Aiming for 50/50 split"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Aiming for at least 25 participants who answer yes"
+    - question: "Do you identify as a member of the LGBTQ+ community?"
+      qualifying_response: "Aiming for at least 1 participant who answers yes"
+      
+participants:
+  veterans: 50
+  caregivers: 0
+  dependents: 0
+  total_recruited: 50
+  completed_sessions_goal: 20
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2025-09-15"
+  pilot_participant: "TBD"
+  research_dates: "2025-09-15 to 2025-09-30"
+  research_review_submission: "2025-09-08"
+  
+session_details:
+  duration_minutes: 30
+  buffer_minutes: 0
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1: Our digital experiences are the best way to access VA health care and benefits"
+    key_results: 
+      - "Improve user understanding of intent to file functionality"
+      
+veteran_journey_phases:
+  - "Taking care of self"
+  - "Putting down roots"
+  - "Retiring"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Previous intent to file research across VA.gov forms"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Pension"
+  - "PRDT: Intent to File"
+  - "BNFT: Pension"
+  - "DSC: Form"
+  - "DSC: Alert"
+  - "DSP: Help users to know when their information is saved"
+  - "unmoderated-testing"
+  - "usability-testing"
+  - "authenticated"
+  - "remote"
+  - "HDW: Desktop"
+  - "cognitive-disability"
+  - "content-design"
+---
+
 
 # **Research Plan for Pension Benefits, Intent to File Content Study, September 2025**
 

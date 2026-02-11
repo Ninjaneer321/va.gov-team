@@ -1,3 +1,128 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Non-disability Burial Benefits VSO Study, September 2024"
+date: 2024-09-10
+last_updated: 2024-09-10
+team: "Non-disability Benefits Team"
+product: "Burial Benefits (VA Form 21P-530EZ)"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Understand VSO and claimant experiences with the Burial Benefits form to identify what provides clarity and creates blockers in the application process during a high-emotional time following a Veteran's death."
+  product_location: "VA Form 21P-530 (Application for Burial Benefits) on VA.gov"
+  user_familiarity: "Iteration - new version launched May 2024 with parity to paper form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/burials-memorials/burial-allowance/530-initiative-brief-2024-updates.md"
+
+# Research Design
+methodology: "semi-structured interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand how VSOs support claimants with the Burial Benefits application"
+  - goal_2: "Understand VSOs' experiences working with claimants and the claimant's experience by proxy"
+  - goal_3: "Understand what impedes claimants from continuing the Burial benefits form"
+
+research_questions:
+  - "What brings claimants to seek VSO support?"
+  - "What areas of the application VSOs may need to clarify?"
+  - "What tools do VSOs use to help claimants apply for Burial benefits?"
+  - "How can VSOs assist in getting the deceased Veteran's information and supporting documents?"
+  - "What are the typical causes for issuing development letters when working on the Burial Benefits application?"
+  - "What is the claimant profile by proxy (family members, friends, caretakers)?"
+  - "What are the claimant's environment, factors, behaviors, and feelings about the Burial benefits?"
+  - "What is the VSOs' mental model of Burial application and service?"
+  - "How do VSOs verify that the claimant is a relative, friend, etc., of the deceased Veteran?"
+  - "What may stop someone from applying for burial benefits online or on paper?"
+  - "Why do claimants not complete and successfully submit the Burial benefits form?"
+  - "What sections of the application do claimants need more assistance with?"
+
+hypotheses:
+  - "VSOs assisting claimants with the Burial Benefits application will lead to a higher success rate and quicker processing times than claimants relying solely on form information"
+  - "Claimants working with VSOs will have a higher level of satisfaction in the process"
+  - "There are specific pain points in the application process that can be identified through VSO proxy research"
+
+expected_outcomes: "Study could show that claimants who receive support from VSOs have greater confidence, higher satisfaction, and less application processing time. Findings will inform improvements to the Burial Benefits form."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Direct recruitment"
+  approach: "Targeted recruitment of VSOs from previous Pension study"
+  
+  primary_criteria:
+    - "VSOs with experience helping claimants with Burial Benefits application (VA Form 21P-530EZ)"
+    - "VSOs who have previously participated in VSO Pension research study"
+    - "VSOs who have processed burial benefits claims"
+    
+  secondary_criteria:
+    - "VSOs with recent experience (within past year)"
+    
+  screener_questions:
+    - question: "Have you previously assisted claimants with the Burial Benefits form (VA Form 21P-530EZ)?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  vso_staff: 5
+  total_recruited: 5
+  completed_sessions_goal: 3
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-09-12"
+  pilot_participant: "Ajia Wallace and Daniela Jones"
+  research_dates: "2024-09-17 to 2024-09-30"
+  research_review_submission: "2024-09-10"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1: Our digital experiences are the best way to access VA health care and benefits"
+    key_results: 
+      - "Key Result 3: All new products have a faster transaction time than those they replaced"
+      - "Key Result 4: No transactions accepted by our products have a fatal error"
+  - objective: "Objective 2: Our platforms are the best way to deliver products at VA"
+    key_results:
+      - "Key Result 2: Our platforms measure and improve the satisfaction of their internal users"
+      
+veteran_journey_phases:
+  - "Dying"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "VSO Pension research study"
+    
+tags:
+  - "burials-memorials"
+  - "burial-allowance"
+  - "form-21P-530EZ"
+  - "semi-structured-interviews"
+  - "VSO"
+  - "intermediary"
+  - "discovery"
+  - "trauma-informed"
+  - "claimants"
+  - "bereavement"
+  - "development-letters"
+  - "non-disability-benefits"
+  - "authenticated-experience"
+  - "unauthenticated-experience"
+---
+
 # Research Plan for [Non-disability, Burial Benefits form (VA Form 21P-530EZ, 09,2024]
 
 ## Background

@@ -1,3 +1,111 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Orion, OH Appointment Scheduling, January 2026"
+date: 2025-01-01
+last_updated: 2025-01-01
+team: "Orion Team"
+product: "Oracle Health (OH) Appointment Scheduling on VA.gov"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The appointments tool on VA.gov lets users schedule and manage their appointments online. The Orion team is integrating health care appointment functionality from facilities that use Oracle Health EHRM systems into the current VistA scheduling capabilities."
+  product_location: "Auth under My HealtheVet on VA.gov"
+  user_familiarity: "The tool has been available since 2018. As of May 2025, all My HealtheVet classic was redirected to this tool on VA.gov"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/2025-oracle-health-scheduling/oracle-health-scheduling-initiative-brief.md"
+
+# Research Design
+methodology: "User acceptance testing (UAT)"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Test Oracle Health scheduling functionality, and report any issues with the feature"
+  - goal_2: "Test Oracle Health after-visit summary functionality, and report any issues with the feature"
+  - goal_3: "(Stretch Goal) Better understand a user's mental model around how they choose providers"
+
+research_questions:
+  - "Are participants able to easily complete all of the scheduling and after-visit summary scenarios?"
+  - "Are any scenarios difficult to complete?"
+  - "Are any features missing that are critical to scheduling an appointment?"
+  - "(Stretch) What information and considerations are important to participants when choosing a new provider?"
+  - "(Stretch) What information and considerations are important to participants when scheduling with an existing provider?"
+
+hypotheses:
+  - "Users will be able to complete the scheduling scenarios they test with little difficulty"
+  - "Users will be able to easily access and view their after-visit summaries"
+  - "Users will identify other features or details that would help them choose a provider more easily"
+
+expected_outcomes: "We will resolve any major issues before opening up the functionality to more facilities. And any learnings about the provider list will be used to improve this pattern overall."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "OCTO (Trusted Users)"
+  approach: "OCTO will recruit Trusted Users who have access to the scheduling tool who can test on their account in production"
+  
+  primary_criteria:
+    - "Trusted user participants who can schedule and request appointments at VA Central Ohio Health Care System"
+    - "Participant must be registered at VA Central Ohio Health Care System"
+    - "Participant must have completed an appointment within the last 3 years with a provider in a type of care that is schedulable through the tool"
+    - "Available types of care: Amputation care, Audiology - Routine hearing exam, Audiology - Hearing aid support, Eye care - Ophthalmology, Eye care - Optometry, MOVE! weight management program, Nutrition and food, Pharmacy, Sleep medicine - CPAP, Sleep medicine - General, Social work"
+    
+  secondary_criteria:
+    - "N/A"
+    
+  screener_questions: []
+      
+participants:
+  veterans: 7
+  caregivers: 0
+  dependents: 0
+  total_recruited: 7
+  completed_sessions_goal: 5
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2026-01-14 to 2026-01-28"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 0
+  max_sessions_per_day: 5
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results: 
+      - "Improve satisfaction with our web and mobile products by 5 points"
+      
+veteran_journey_phases:
+  - "Taking Care of Myself"
+  - "Reinventing Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+  - "Dying"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/2025-oracle-health-scheduling/oracle-health-scheduling-initiative-brief.md"
+  conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2025-oh-scheduling-web-uat/conversation-guide.md"
+    
+tags:
+  - "health-care"
+  - "appointments"
+  - "oracle-health"
+  - "uat"
+  - "veterans"
+  - "authenticated"
+  - "my-healthevet"
+  - "scheduling"
+---
+
 # Research Plan for Orion, OH Appointment Scheduling, January, 2026
 
 ## Background 🏗️

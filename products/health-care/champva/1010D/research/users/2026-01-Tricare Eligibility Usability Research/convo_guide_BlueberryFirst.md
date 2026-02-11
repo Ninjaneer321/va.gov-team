@@ -42,7 +42,7 @@ Today we're going to talk about the Civilian Health and Medical Program of the D
 
 Before we start, I have a few things that I want to go over with you:
 
-- **This entire session should take about 45 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
+- **This entire session should take about 60 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
   
 - **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
   
@@ -198,6 +198,9 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
   - Did it feel helpful, intrusive, or something else?
   - Do you trust that this information is accurate?
 
+- What would you do after seeing this message? What else did you want to see here?
+  - (If they choose to continue, ask why)
+
 - If you believed this check was wrong—that you're NOT actually eligible for Tricare—what would you do?
   - Would you continue with the application?
   - Would you call someone to verify?
@@ -304,8 +307,9 @@ I'm going to share a link in chat with you of the prototype, I'd like you to ope
 # Post-Task Interview - 5 minutes
 
 - Is there any other feedback you would like to add about the two prototypes and messages you saw today?
-- Do you have a preference for how eligibility clarity should be added to an online form? 
-- Any questions for me? 
+- Do you have a preference for how eligibility clarity should be added to an online form?
+- Let me check if the observers have any questions for you.
+- Any questions for me?
 
 
 

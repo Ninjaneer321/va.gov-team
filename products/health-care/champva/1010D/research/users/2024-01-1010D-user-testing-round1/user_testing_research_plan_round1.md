@@ -1,3 +1,124 @@
+---
+# Research Plan Metadata
+title: "User Testing Research Plan for IVC Team, Form 10-10D, December 2023"
+date: 2023-12-01
+last_updated: 2023-12-01
+team: "Integrated Veteran Care (IVC)"
+product: "Form 10-10D CHAMPVA Application"
+product_area: "authenticated and unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans and family members currently must complete CHAMPVA Form 10-10D as a fillable PDF and mail it in, creating a burdensome application process that needs to be digitized and streamlined."
+  product_location: "VA.gov health care benefits section - CHAMPVA application"
+  user_familiarity: "New digitized product - transforming existing PDF form into online application"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/product-outline.md"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Determine whether or not the flow and copy in the 10-10D prototype are usable and understandable for those filling out the form on their own behalf and those filling it out for someone else"
+  - goal_2: "Determine whether or not the flow and copy are usable and understandable for participants who do have other forms of health insurance and those who don't have other forms of health insurance"
+  - goal_3: "Determine whether or not the prototype is usable and understandable in both an authenticated and unauthenticated state"
+
+research_questions:
+  - "Are participants able to use and understand the partially pre-populated form as an authenticated user?"
+  - "Are participants able to use and understand the form as an unauthenticated user?"
+  - "Are participants able to use and understand the form when filling it out for themselves and when filling it out for someone else?"
+  - "Are participants able to easily add more than one applicant for the form?"
+  - "What are opportunities to streamline the flow and make the form feel less redundant for users?"
+  - "Are participants able to easily understand how to upload supplementary documents and why they're being asked for those documents?"
+  - "Do participants who have other health insurance understand why they are asked to fill out additional information and add additional documents?"
+  - "What is the overall sentiment about the experience?"
+
+hypotheses:
+  - "Users will be able to navigate through the form relatively easily but may have issues understanding why they're asked for certain information including sponsor's date of death, whether the sponsor died during service, and contact information"
+  - "Users may find redundancy in information such as asking for address, email address, and phone number for each applicant"
+  - "Users may have difficulty understanding their progress through the form and how to correctly report other insurance information"
+
+expected_outcomes: "The findings will provide insights needed to iterate upon and refine our initial prototype of Form 10-10D and demonstrate where copy needs to be rewritten to enhance clarity."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling for Veterans, spouses, and family caregivers eligible for CHAMPVA benefits"
+  
+  primary_criteria:
+    - "At least 4 Veterans"
+    - "At least 10 spouses, children, or caregivers of Veterans"
+    - "25% on phone or tablet, 75% on desktop"
+    - "At least 8 participants age 55-64+"
+    - "At least 8 participants have cognitive disability"
+    - "At least 4 participants live in a rural area"
+    - "At least 4 participants have no degree"
+    
+  secondary_criteria:
+    - "At least 2 participants are women"
+    - "At least 1 participant is an expat (living abroad)"
+    - "At least 3 participants are Black, at least 2 Hispanic, at least 1 Asian, at least 1 Native"
+    - "At least 1 participant is gay, lesbian, or bisexual"
+    - "At least 1 participant is transgender, nonbinary, gender fluid, gender queer, Two-Spirit, or another gender beyond man or woman"
+    - "At least 3 participants use screen readers, at least 2 use some other kind of assistive technology"
+      
+participants:
+  veterans: 4
+  caregivers: 10
+  dependents: 1
+  total_recruited: 20
+  completed_sessions_goal: 15
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "TBD"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 90
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Enhance Veterans' personalized online experience"
+  - objective: "Drive OIT's Digital Transformation Strategy"
+      
+veteran_journey_phases:
+  - "Putting down roots"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://www.va.gov/find-forms/about-form-10-10d/"
+    - "https://www.va.gov/health-care/family-caregiver-benefits/champva/"
+    
+tags:
+  - "health-care"
+  - "CHAMPVA"
+  - "benefits-forms"
+  - "10-10D"
+  - "usability-testing"
+  - "remote-moderated"
+  - "authenticated"
+  - "unauthenticated"
+  - "caregivers"
+  - "family-members"
+  - "veterans"
+  - "prototype-testing"
+  - "health-insurance"
+  - "document-upload"
+  - "assistive-technology"
+  - "screen-reader"
+  - "cognitive-disability"
+  - "form-digitization"
+---
+
 # User Testing Research Plan for Integrated Veteran Care (IVC) Team, Form 10-10D, December 2023
 **This file IS NOT ready for review outside the IVC forms team.**
 

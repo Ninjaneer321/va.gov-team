@@ -1,3 +1,141 @@
+---
+# Research Plan Metadata
+title: "Research Plan for ARF Team, Accredited Representative Portal, NACVSO Intercept Testing, 05/2024"
+date: 2024-05-06
+last_updated: 2024-05-06
+team: "Accredited Representative Facing (ARF) Team"
+product: "Accredited Representative Portal (ARP)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Accredited representatives need to seamlessly help Veterans with VA interactions. County Veterans Service Officers (CVSOs) and cross-accredited representatives have unique workflows that need to be understood to design an effective Power of Attorney (Form 21-22) tool."
+  product_location: "Accredited Representative Portal on VA.gov"
+  user_familiarity: "New product - field research and preference testing"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/accredited-representative-facing"
+
+# Research Design
+methodology: "semi-structured interviews, preference testing, usability testing, field observation"
+research_format: 
+  location: in-person
+  in_person_details:
+    facility: "NACVSO annual conference in Denver, CO"
+    point_of_contact: "Renata Keck, Rebecca Blakiston"
+    equipment: "iPhone SEs with mobile prototypes, printed design mocks"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Build awareness of our work and establish rapport and trust with our users"
+  - goal_2: "Better understand the specific needs, behaviors, workflows and permissions of county and cross-accredited VSORs"
+  - goal_3: "Evaluate ARP accept/decline functionality and UI elements that may be impacted by county or cross-accredited representative-specific use cases"
+  - goal_4: "Shadow county VSORs conducting claims clinics with Veterans and non-Veteran claimants to understand the representation process fully"
+
+research_questions:
+  - "Is there anything about our current understanding of how accredited CVSORs work that's wrong or missing?"
+  - "How common is it for county/cross-accredited representatives to switch accreditation?"
+  - "What percentage of CVSORs are SEP users who have permission to accept/decline POAs on behalf of multiple organizations?"
+  - "Do county/cross-accredited representatives have system- and task-specific differences?"
+  - "Do county VSORs bulk accept/decline pending POA requests?"
+  - "Is the purpose and audience for the unauthenticated ARP landing page clear?"
+  - "What style of search and filter for POA requests do users prefer?"
+  - "What style of POA results list do users prefer (table vs cards)?"
+  - "Do representatives ever conduct 21-22 or claims-related work from a mobile device or tablet?"
+  - "What questions do CVSORs ask Veterans while completing Form 21-22?"
+
+hypotheses:
+  - "Users will prefer filters on the side of the POA requests results so that the result list is higher on the page"
+  - "Users will want additional Veteran/claimant information (file number/social number or birthdate) to distinguish Veterans with common names"
+  - "Users will want to customize the decline message, rather than select from pre-populated decline messages"
+  - "Users will feel the card list UI improves readability of search results over table list UI"
+  - "Users will search for a Veteran or claimant name when given a task to search for a DIC case"
+  - "On mobile, users will prefer designs that save space and prevent scrolling"
+  - "Users will prefer simplified filtering patterns over all filter fields displayed at once"
+
+expected_outcomes: "Expand participant panel to include diversity of accredited Veterans Service Organization Representatives (county organizations, cross-accredited, different experience levels). Identify SEP users interested in ARP Pilot. Refine persona, improve current state map, update user stories and validate ARP Pilot and MVP functionality with under-represented user groups. Determine how cross-accreditation workflows impact ARP UI elements, navigation, accept/decline permissions, and content strategy."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "NACVSO conference - intercept recruitment"
+  approach: "In-person intercept testing at conference"
+  
+  primary_criteria:
+    - "County Veterans Service Officers attending NACVSO conference"
+    - "Mix of cross-accredited and single-accredited representatives"
+    - "SEP users with various permission levels"
+    
+  secondary_criteria:
+    - "Mixture of novice and experienced representatives"
+    - "Representatives from different states and regions"
+    
+  screener_questions:
+    - question: "Are you a County Veterans Service Officer?"
+      qualifying_response: "Yes"
+    - question: "Do you use SEP to accept/decline POA requests?"
+      qualifying_response: "Various responses"
+      
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  accredited_representatives: 20
+  total_recruited: 20
+  completed_sessions_goal: 15
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-05-09"
+  pilot_participant: "Team training session"
+  research_dates: "2024-05-13 to 2024-05-16"
+  research_review_submission: "2024-05-06"
+  
+session_details:
+  duration_minutes: 30
+  buffer_minutes: 0
+  max_sessions_per_day: 10
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Grow digital submissions - Focus on the needs of accredited representatives and the Veterans who work with them"
+    key_results: 
+      - "Redirect traffic from eBenefits and SEP to VA.gov"
+      - "Build tools for Veterans who want to work with accredited representatives"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "2024-02 User Interviews"
+    - "2024-03 Single Accredited Testing"
+    
+tags:
+  - "accredited-representative-facing"
+  - "accredited-representative-portal"
+  - "semi-structured-interviews"
+  - "preference-testing"
+  - "usability-testing"
+  - "mobile-testing"
+  - "field-observation"
+  - "in-person"
+  - "county-vso"
+  - "cross-accredited"
+  - "form-21-22"
+  - "power-of-attorney"
+  - "accept-decline"
+  - "search-filter"
+  - "navigation"
+  - "claims-clinic"
+  - "SEP-users"
+  - "bulk-actions"
+  - "mobile"
+  - "NACVSO"
+---
+
 # Research Plan for ARF Team, Accredited Representative Portal, NACVSO Intercept Testing, 05/2024<a id="research-plan-for-arf-team-accredited-representative-portal-nacvso-intercept-testing-052024"></a>
 
 ## Background<a id="background"></a>

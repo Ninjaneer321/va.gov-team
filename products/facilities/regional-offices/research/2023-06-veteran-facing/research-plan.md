@@ -1,3 +1,142 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VBA Regional Office Facility Pages Usability Testing, August 2023"
+date: 2023-08-14
+last_updated: 2023-08-14
+team: "Facilities Team"
+product: "VBA Regional Office Facility Pages"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "VBA regional office websites need to be modernized to replace legacy pages maintained in Teamsite, providing better support for mobile usage, accessibility, and a consistent content model."
+  product_location: "VA.gov - VBA regional office facility pages"
+  user_familiarity: "Iteration - modernized design for existing pages"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/regional-offices"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Get user feedback on the new modernized design for VBA regional office sites"
+  - goal_2: "Understand what Veterans know about VA regional benefit offices and what tasks they expect to do there"
+  - goal_3: "Validate that Veterans understand which services are available, how services are delivered, and how to prepare for visits"
+
+research_questions:
+  - "What do Veterans and others know about VA regional benefit offices?"
+  - "What tasks do Veterans and others expect to do at VA regional benefit offices?"
+  - "Do Veterans and others understand which services are available at this location (categories, service offerings, multiple locations)?"
+  - "Do Veterans and others understand how services are delivered (in-person/virtual/phone, with/without appointments, hours of operation)?"
+  - "What feedback do Veterans and others have on content, organization, and length of the regional benefit office web page?"
+  - "How do Veterans and others react to seeing 2 phone numbers and which would they use?"
+
+hypotheses:
+  - "Veterans and others will understand what they can do at a VA benefit office from the new web page"
+  - "Veterans and others will understand how services are delivered at this location from the new web page"
+  - "Veterans and others will understand how to prepare for a visit to a VA benefit office from the new web page"
+  - "Veterans and others will know what to do if they don't find the kind of help they need on the new web page"
+
+expected_outcomes: "Learnings will help refine the design of the pages before piloting an MVP with 7 sites"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation with focus on mobile users"
+  
+  primary_criteria:
+    - "ALL have a smartphone to use for the session with Zoom and screen share capability"
+    - "4 have never visited a VA benefit office"
+    - "3 have visited in the past 6 months"
+    - "4 have visited more than 6 months ago"
+    - "At least 4 people with a cognitive disability (e.g., TBI)"
+    
+  secondary_criteria:
+    - "At least 4 people who are age 55 or older"
+    - "At least 2 people 35 or under"
+    - "At least 3 people of color"
+    - "At least 2 women"
+    - "At least 3 people who live in Continental District states"
+    - "At least 2 people who don't have any degree or vocational training after high school"
+    - "At least 2 people who live in a rural or remote area"
+    - "At least 2 people who are LGBTQ+"
+    
+  screener_questions:
+    - question: "Have you ever visited a VA benefit office?"
+      qualifying_response: "Mix of never, past 6 months, more than 6 months ago"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Yes (recruit 4 with cognitive disability)"
+    - question: "Have you downloaded Zoom to smartphone and know how to screen share?"
+      qualifying_response: "Yes (recruit 11, disqualify if no)"
+      
+participants:
+  veterans: 8
+  caregivers: 0
+  dependents: 3
+  total_recruited: 11
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-08-23"
+  pilot_participant: "barbara@adhocteam.us, diem.mooney@adhocteam.us, greg.monahan@adhocteam.us"
+  research_dates: "2023-08-28 to 2023-09-05"
+  research_review_submission: "2023-08-14"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Veterans and their families trust the security, accuracy, and relevancy of VA.gov"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/363"
+    
+tags:
+  - "PRDT: facilities"
+  - "PRDT: facility-locator"
+  - "BNFT: disability"
+  - "BNFT: career-employment-education"
+  - "BNFT: family-member-benefits"
+  - "AUD: veterans"
+  - "AUD: family-members"
+  - "AUD: caregivers"
+  - "RESRCH: usability"
+  - "RESRCH: remote"
+  - "RESRCH: moderated"
+  - "HDW: smartphone"
+  - "vba"
+  - "regional-offices"
+  - "facility-pages"
+  - "modernization"
+  - "mobile"
+  - "accessibility"
+---
+
 # Research Plan for Usability Testing, VBA Facility pages Veteran-Facing, August 2023
 
 ## Background

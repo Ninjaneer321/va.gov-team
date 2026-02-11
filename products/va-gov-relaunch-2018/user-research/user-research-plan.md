@@ -1,3 +1,138 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VA.gov Relaunch, User Research Series, 2018"
+date: 2018-01-01
+last_updated: 2026-02-10
+team: "VA.gov Relaunch"
+product: "VA.gov Website Merger"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans, family members, and service members navigate multiple disconnected VA websites (vets.gov, Explore.VA.gov, MHV, eBenefits) to access benefits and services, creating a fragmented and confusing experience. The VA is merging these websites into a unified VA.gov experience. This research plan outlines multiple studies to validate design decisions throughout the merger process."
+  product_location: "VA.gov homepage, navigation, benefit hubs, and service pages"
+  user_familiarity: "new"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-gov-relaunch-2018"
+
+# Research Design
+methodology: "mixed methods: card sort, tree test, usability testing, semi-structured interviews"
+research_format: 
+  location: hybrid
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Validate the information architecture and navigation structure for the unified VA.gov"
+  - goal_2: "Test usability of homepage, mega menu navigation, and benefit hubs across devices"
+  - goal_3: "Understand how Veterans organize and think about VA benefits and services"
+
+research_questions:
+  - "How do Veterans organize resources that don't fit neatly into service-oriented buckets (e.g., Veteran ID card, Welcome Kit)?"
+  - "How do Veterans think about the benefit cycle (Explore/Track/Manage vs Explore and Apply/Manage)?"
+  - "Which wireframe concepts work best for Veterans and what are the pros/cons of each?"
+  - "Does a consolidated Veterans-first navigation work?"
+  - "Does the simplified mega menu work effectively?"
+  - "What do Veterans think of preview.va.gov and can they find what they need?"
+  - "How does the site perform on mobile devices?"
+
+hypotheses:
+  - "Veterans will organize benefits and services differently than the current website structure suggests"
+  - "A unified navigation will improve findability compared to separate VA websites"
+  - "The mega menu approach can work for complex VA content if properly structured"
+  - "Mobile usability requires specific considerations for the condensed navigation"
+  - "Veterans' mental models for benefit lifecycle may differ from VA's organizational structure"
+
+expected_outcomes: "Validate key design decisions for the VA.gov merger including IA, navigation patterns, visual design, and mobile experience. Findings will directly inform the final design and launch strategy for the unified VA.gov."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "MHV mailing list, Facebook, VSO communications support, field recruitment"
+  approach: "Mixed methods sampling across studies"
+  
+  primary_criteria:
+    - "Veterans across multiple service eras"
+    - "Mix of MHV enrolled and non-enrolled Veterans"
+    - "Veterans with different levels of VA website familiarity"
+    - "Family members and caregivers"
+    - "VA employees and VSO representatives for selected studies"
+    
+  secondary_criteria:
+    - "Variation in age, tech comfort, and disability ratings"
+    - "Geographic diversity"
+    
+  screener_questions:
+    - question: "Are you a Veteran, family member, or caregiver?"
+      qualifying_response: "Yes"
+    - question: "Have you used VA websites in the past year?"
+      qualifying_response: "Varies by study"
+      
+participants:
+  veterans: 60
+  caregivers: 5
+  dependents: 5
+  total_recruited: 80
+  completed_sessions_goal: 70
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD per study"
+  pilot_participant: "TBD per study"
+  research_dates: "2018-01-01 to 2018-09-30"
+  research_review_submission: "TBD per study"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 5
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Consolidate VA digital properties into a unified experience"
+    key_results: 
+      - "Launch VA.gov with validated IA and navigation"
+      - "Improve Veteran satisfaction with VA digital services"
+      - "Reduce confusion from multiple VA websites"
+      
+veteran_journey_phases:
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Vets.gov formative research"
+    - "Explore.VA.gov research"
+    - "MHV user research"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Family Member"
+  - "AUD: Caregivers"
+  - "AUD: VA Staff"
+  - "AUD: Veteran Service Office (VSO)"
+  - "PRDT: Content"
+  - "PRDT: Benefit Hubs"
+  - "MHV: MyHealth (Health Hub)"
+  - "DSC: Accordions"
+  - "DSP: Content Presentation"
+  - "DSP: Help users to navigate a long list"
+  - "card-sort"
+  - "tree-test"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "unauthenticated"
+  - "navigation"
+  - "information-architecture"
+  - "Accessibility"
+---
+
 # User Research Plan - for merger work
 
 *Note: In the ever present debate about the need for formative vs summative user research, we are leveraging the research done to create the various websites (vets.gov, explore.va.gov, MHV, etc) as the formative stage. We are focused on evaluating and validating key questions and prototypes to move the merger project forward.*

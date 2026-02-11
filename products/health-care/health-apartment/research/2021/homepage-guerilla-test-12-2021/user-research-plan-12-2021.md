@@ -1,3 +1,117 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Health Apartment, Homepage Concept Guerrilla Testing, December 2021"
+date: 2021-12-10
+last_updated: 2026-02-10
+team: "VA Health Apartment"
+product: "Health Apartment Authenticated Homepage"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Provide a single, high-quality digital version of every health product or tool, plus the ability for a Veteran to see all of their health-related VA benefits in one place on VA.gov"
+  product_location: "VA.gov Health Apartment (concept)"
+  user_familiarity: "New product - testing concept for authenticated health homepage"
+  product_brief_url: "TBD"
+
+# Research Design
+methodology: "Semi-structured interviews with observations and guerrilla testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand how a variety of Veterans currently use MyHealtheVet"
+  - goal_2: "Understand how the health apartment concept solves pain points"
+  - goal_3: "Understand what information Veterans care about most"
+
+research_questions:
+  - "What are the critical actions a Veteran wants to see right away on the homepage?"
+  - "What information do veterans need to see on the homepage after signing in (authenticated homepage)?"
+  - "What's the right balance of content/information on the homepage, such that it doesn't overwhelm the user?"
+  - "How would they like that content and information presented?"
+
+hypotheses:
+  - "Veterans want to see specific tasks on the homepage. They want to see tasks and information relevant to them. This fits with a recurring theme in previous research, that Veterans are task-oriented."
+  - "When Veterans sign in, they expect the website to show them: 1) current health information and tasks (exs: appointments, secure messages, and refills due), and 2) whether they must take action to move a process forward (ex: finish health care application)."
+  - "Veterans are overwhelmed by too much text. They want well-organized content that guides them to a task or resource quickly, simply, and clearly using plain language."
+  - "Veterans with health care want to see 'about' information because either: 1) they need to understand general info on VA health care (i.e., what they get), or 2) they want to share 'about' info with other Veterans."
+
+expected_outcomes: "Feedback from this research will inform future iterations of both the homepage and sitemap, as well as the overall design of the health apartment concept"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Guerrilla research - personal networks"
+  approach: "Convenience sampling from personal social networks"
+  
+  primary_criteria:
+    - "At least 6 Veterans who have VA health care"
+    - "At least 3 testing on mobile devices"
+    - "At least 3 testing on desktop devices"
+    
+  secondary_criteria:
+    - "At least 4 Veterans who use My HealtheVet website to manage their VA health care"
+    - "At least 2 Veterans who do not use My HealtheVet to manage their VA health care"
+    
+  screener_questions:
+    - question: "Do you have VA health care?"
+      qualifying_response: "Yes"
+    - question: "Do you use the My HealtheVet website to manage your VA health care?"
+      qualifying_response: "Mix of yes and no"
+      
+participants:
+  veterans: 6
+  caregivers: 0
+  dependents: 0
+  total_recruited: 6
+  completed_sessions_goal: 6
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2021-12-10 to 2021-12-13"
+  research_review_submission: "2021-12-03"
+  
+session_details:
+  duration_minutes: 30
+  buffer_minutes: 15
+  max_sessions_per_day: 8
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: "Create unified health experience on VA.gov"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/health-apartment/research/2021/homepage-guerilla-test-12-2021/2021-12-user-research-conversation-guide.md"
+    
+tags:
+  - "PRDT: health-apartment"
+  - "PRDT: My-HealtheVet"
+  - "MHV: homepage"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "authenticated"
+  - "guerrilla-testing"
+  - "semi-structured-interviews"
+  - "concept-testing"
+  - "homepage-design"
+  - "information-architecture"
+  - "mobile"
+  - "desktop"
+  - "remote-research"
+---
+
 # Informal user research on health home page concepts: Research plan
 
 ## Goals

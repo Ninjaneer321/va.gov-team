@@ -1,3 +1,121 @@
+---
+# Research Plan Metadata
+title: "Research Plan for My Health IA Tree Test, January 2023"
+date: 2023-01-09
+last_updated: 2023-01-09
+team: "Digital Health Modernization"
+product: "My HealtheVet on VA.gov"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Validate and refine the information architecture for the health apartment and how it links to the broader VA.gov structure based on previous tree test findings"
+  product_location: "My Health patient portal on VA.gov"
+  user_familiarity: "Iteration based on previous tree test findings"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA"
+
+# Research Design
+methodology: "Remote unmoderated IA tree test"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: false
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Gather quantitative insights on the findability of detailed tasks within the proposed IA of the My Health patient portal"
+  - goal_2: "Evaluate the findability of various information within the My Health structure"
+  - goal_3: "Evaluate where participants look for information related to health records between Appointments, Health history, and Medical records"
+
+research_questions:
+  - "Can Veterans navigate the proposed information architecture of the My Health patient portal to find information and complete health management tasks?"
+  - "Do Veterans understand what types of information can be found in Test results, Health history and Medical records sections?"
+  - "Can Veterans easily find vaccine history, basic health data, and downloadable health records?"
+  - "Do Veterans understand that the Medications section includes all prescription information?"
+  - "Do Veterans look for appointment follow-up tasks within the Appointments section?"
+
+hypotheses:
+  - "Veterans will understand what types of information can be found in the Test results, Health history and Medical records sections"
+  - "Veterans will easily find vaccine history under the Health history section"
+  - "Veterans will understand that the Medications section includes all prescription information"
+  - "Veterans will look for appointment follow-up tasks and information within the Appointments section"
+  - "Veterans will easily find general information and tasks related to their VA health benefits within the My health benefits grouping"
+
+expected_outcomes: "We will use the insights from this research to validate and refine the information architecture for the health apartment and identify additional research needs"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling across 6 cohorts"
+  
+  primary_criteria:
+    - "Must be Veterans"
+    - "Mix of MyHealtheVet users (cohorts 1-3) and non-MHV users (cohorts 4-6)"
+    - "Must have VA healthcare or general benefits"
+    
+  secondary_criteria:
+    - "Diverse age distribution with emphasis on 55+"
+    - "Diverse education levels"
+    - "Diverse cognitive abilities including 0-1 per cohort with cognitive impairment"
+    - "Mix of genders with at least 3 females per cohort"
+    - "1-2 LGBTQ+ participants per cohort"
+    
+  screener_questions:
+    - question: "Have you used MyHealtheVet in the past 12 months to manage your health?"
+      qualifying_response: "Yes for cohorts 1-3, No for cohorts 4-6"
+      
+participants:
+  veterans: 40
+  caregivers: 0
+  dependents: 0
+  total_recruited: 54
+  completed_sessions_goal: 40
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-01-09"
+  pilot_participant: "N/A - unmoderated"
+  research_dates: "2023-01-16 to 2023-01-27"
+  research_review_submission: "2023-01-09"
+  
+session_details:
+  duration_minutes: 15
+  buffer_minutes: 0
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Logged in users have a personalized experience, with features that saves them time and energy"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA"
+    
+tags:
+  - "MHV"
+  - "health-care"
+  - "information-architecture"
+  - "tree-test"
+  - "unmoderated"
+  - "authenticated"
+  - "veterans"
+  - "findability"
+---
+
 # Research Plan for My health IA, January 2023
 
 ## Background

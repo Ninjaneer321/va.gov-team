@@ -1,3 +1,134 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Veteran Top Tasks, Public Websites, February 2022"
+date: 2022-02-01
+last_updated: 2022-02-01
+team: "Sitewide Public Websites"
+product: "VA.gov Home Page"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "The current design of the VA.gov home page provides easy access to some Veteran tasks in four boxes near the top of the page. User research has shown that other tasks are more challenging to do when starting from the home page. We need to learn which tasks Veterans most want to do on VA.gov to inform home page design."
+  product_location: "VA.gov home page"
+  user_familiarity: "Iteration - improving existing home page"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/public-websites/research/202104-baseline-wayfinding/research-readout-full-June8.pdf"
+
+# Research Design
+methodology: "Card sort - online unmoderated and moderated sessions"
+research_format: 
+  location: remote
+  moderated: false
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Identify Veteran top tasks from an initial set of about 30 tasks"
+  - goal_2: "Find a set of 10-12 tasks that are most important to Veterans"
+  - goal_3: "Measure overall health of VA.gov by testing top task completion"
+
+research_questions:
+  - "When Veterans and others visit VA.gov, what tasks are most important to them?"
+  - "What tasks are least important?"
+  - "Are there any tasks that are unclear or confusing?"
+  - "Are there any important tasks missing?"
+
+hypotheses:
+  - "Veterans and caregivers will generally agree on which tasks are the most important"
+  - "Veterans and caregivers will generally agree on which tasks are the least important"
+
+expected_outcomes: "The top tasks that we identify could be used to measure the overall health of VA.gov. By running baseline usability tests and then regular tests at intervals, we can check whether Veterans can quickly and easily complete all top tasks."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Mixed methods - unmoderated cohorts (under 10 per cohort per PRA) and moderated sessions"
+  
+  primary_criteria:
+    - "20 unmoderated participants in distinct cohorts of fewer than 10 participants per cohort (per PRA)"
+    - "10 moderated sessions via Zoom"
+    - "Ideally 2/3 (14 of 20) Veterans and 1/3 (6 of 20) Caregivers of Veterans"
+    - "Half with experience using some VA benefits/services and half without such experience"
+    - "Veterans - 10 for moderated, various for unmoderated cohorts"
+    - "Caregivers - 5 for moderated, various for unmoderated cohorts"
+    - "ALL have a computer and are willing to use it to complete the activity"
+    - "NO screen reader users for unmoderated (requires dragging and dropping)"
+    
+  secondary_criteria:
+    - "At least 8 women"
+    - "Diversity across age groups"
+    - "Diversity across racial identities"
+    - "Diversity across education levels"
+    - "Diversity across rural and major metropolitan areas"
+    - "At least 2 people of color"
+    - "At least 3 women"
+    - "At least 1 person 35 or under"
+    - "At least 2 people 55 or older"
+    - "At least 2 people with cognitive disability (e.g., TBI)"
+    - "At least 1 non-native English speaker"
+    
+  screener_questions:
+    - question: "How well do you speak English?"
+      qualifying_response: "Not at all or Not well (for non-native English speaker criteria)"
+      
+participants:
+  veterans: 24
+  caregivers: 11
+  dependents: 0
+  total_recruited: 55
+  completed_sessions_goal: 30
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "February 2022 (at least 2 weeks for card sort)"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: "Improve home page task completion and wayfinding"
+      
+veteran_journey_phases:
+  - "Getting out"
+  - "Starting up"
+  - "Living civilian life"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/public-websites/research/202104-baseline-wayfinding/research-readout-full-June8.pdf"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "PRDT: Public-websites"
+  - "PRDT: Home-page"
+  - "card-sort"
+  - "unmoderated"
+  - "moderated"
+  - "remote"
+  - "top-tasks"
+  - "wayfinding"
+  - "information-architecture"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Housing"
+  - "BNFT: Pension"
+  - "BNFT: Life Insurance"
+  - "BNFT: Burials"
+  - "Optimal-Workshop"
+  - "mixed-methods"
+---
+
 # OLD!!!! Research Plan for Veteran Top Tasks, Public Websites, Feb X, 2022
 
 ## Background

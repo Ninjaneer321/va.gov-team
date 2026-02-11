@@ -1,3 +1,148 @@
+---
+# Research Plan Metadata
+title: "Research Plan for ARM Team: Find a Representative User Test, November 2023"
+date: 2023-09-25
+last_updated: 2023-10-30
+team: "Accredited Representation Management (ARM) Team"
+product: "Find a Representative"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "OCTO is seeking to migrate Veteran and Power of Attorney (PoA) experiences from the legacy Stakeholder Enterprise Platform (SEP) product and eBenefits platform to VA.gov. The primary goal is to make it easier, safer, and faster for Veterans to assign and manage Power of Attorney, and explore new ways that VA.gov can better support Veterans who choose to interact with VA through a representative."
+  product_location: "Find a Representative tool on VA.gov"
+  user_familiarity: "New product migrating from legacy platforms"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/9c884d56087c31b9422840cc233009d12e870b9b/products/accredited-representation-management/product-outline.md"
+
+# Research Design
+methodology: "Usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand how users navigate to and use the find a representative tool on both desktop and mobile devices"
+
+research_questions:
+  - "When would Veterans engage with the find a representative experience?"
+  - "Where would they expect to find this experience on VA.gov?"
+  - "Do Veterans understand the information shown? Is there any information missing?"
+  - "What are Veterans' expectations of the experience?"
+  - "Are there any challenges with using the experience?"
+  - "Are the next steps clear and actionable?"
+
+hypotheses:
+  - "Veterans will associate finding a representative with the benefit they're wanting support with"
+  - "By providing information in plain language, Veterans will understand representatives and the processes to manage them"
+  - "A representative's location is important to Veterans so they can easily see their representative in person"
+  - "Veterans will prefer to sign-in to see their current representative"
+
+expected_outcomes: "User testing will inform navigation to and usability of the find a representative tool."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling - even split of desktop and mobile users"
+  
+  primary_criteria:
+    - "Exactly 6 Veterans actively searching for a representative to support with a claim or benefit"
+    - "Exactly 6 Veterans with a representative supporting them with a claim or benefit, that they began working with within the last 3-6 months"
+    - "Up to 9 Veterans with a VSO (Veteran Service Organization)"
+    - "At least 2 Veterans with an attorney representative"
+    - "At least 1 Veteran with a claims agent representative"
+    - "No more than 4 Veterans who select Disability as the benefit they need support on"
+    - "Exactly 6 primarily desktop users"
+    - "Exactly 6 primarily mobile users"
+    
+  secondary_criteria:
+    - "No more than 6 (50%) participants in a representative role"
+    - "At least 3, no more than 6 (50%) aged 55-64+"
+    - "At least 2, no more than 4 (30%) people of color"
+    - "At least 1, no more than 3 (25%) in a rural area"
+    - "At least 1, no more than 3 (25%) without a degree"
+    - "At least 1 (10%) women"
+    
+  screener_questions:
+    - question: "Do you currently help Veterans with their benefits in any of the following roles? (VSO, VSO officer, attorney, claims agent)"
+      qualifying_response: "Mix of responses"
+    - question: "Select the option that best describes your current situation with representatives (VSOs, attorneys, claims agents)"
+      qualifying_response: "Currently looking for representative OR has been getting support from representative for last 3-6 months"
+    - question: "What type of representative are you looking for support from and/or are currently getting support from?"
+      qualifying_response: "VSO, Veteran Service Officer, Attorney, or Claims Agent"
+    - question: "What type of VA benefit are you looking for support for and/or are currently getting support for?"
+      qualifying_response: "Any VA benefit type"
+      
+participants:
+  veterans: 12
+  caregivers: 0
+  dependents: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-11-07"
+  pilot_participant: "Jonathan VanCourt"
+  research_dates: "2023-11-13 to 2023-11-20"
+  research_review_submission: "2023-10-30"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 2
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Enhance Veterans' personalized online experience"
+    key_results:
+      - "Developing a widget to provide authenticated Veterans clear insight into existing representation"
+      - "Simplified experience for digitally submitting a request for representation using their information on file"
+  - objective: "Fast-track disability claims, starting with PACT Act claims"
+    key_results:
+      - "Help Veterans who are applying for disability benefits understand and manage their representation on VA.gov"
+      
+veteran_journey_phases:
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/research/2023-11-ARM-findarep-nav-usertest/conversation-guide.md"
+    
+tags:
+  - "BNFT: Disability"
+  - "BNFT: Pension"
+  - "BNFT: Education"
+  - "PRDT: Accredited Representation Management"
+  - "PRDT: Find a Representative"
+  - "PRDT: Power of Attorney"
+  - "AUD: Veterans"
+  - "AUD: Representatives"
+  - "DSC: Search"
+  - "DSC: Cards"
+  - "DSP: Find VA services"
+  - "HDW: Desktop"
+  - "HDW: Mobile"
+  - "usability-testing"
+  - "authenticated"
+  - "remote"
+  - "VSO"
+  - "attorney"
+  - "claims-agent"
+  - "representative"
+  - "power-of-attorney"
+---
+
 # Research Plan for ARM Team, Find a Representative User Test, 11/2023
 
 ## Background

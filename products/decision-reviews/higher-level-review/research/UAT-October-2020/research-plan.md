@@ -1,3 +1,122 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Benefits and Memorials 1, Higher-Level Review UAT, October 2020"
+date: 2020-10-23
+last_updated: 2026-02-10
+team: "Benefits and Memorials 1"
+product: "Higher-Level Review"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans need a way to request a Higher-Level Review of their disability claim decision online. Currently, paper-based VA Form 20-0996 requires manual processing which doesn't scale effectively."
+  product_location: "VA.gov decision reviews section"
+  user_familiarity: "New product - first online version of Higher-Level Review form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/disability-compensation-claim/bdd"
+
+# Research Design
+methodology: "user acceptance testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Validate that Veterans can successfully request a Higher-Level Review on VA.gov"
+  - goal_2: "Identify any technical issues in the application process in real-time"
+  - goal_3: "Ensure the form functions correctly with real data submission"
+
+research_questions:
+  - "Can Veterans request a Higher-Level Review on VA.gov?"
+  - "Are there any technical or functional issues that prevent successful form submission?"
+  - "Do Veterans understand the Higher-Level Review process and requirements?"
+
+hypotheses:
+  - "Veterans will be able to successfully apply online for a Higher-Level Review"
+
+expected_outcomes: "Confirm production-readiness of the Higher-Level Review tool on VA.gov and catch any technical issues before full launch"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment of Veterans ready to submit real HLR applications"
+  
+  primary_criteria:
+    - "Must have a DS Logon account"
+    - "Must have a desire to apply for/request a Higher-Level Review of their disability claim"
+    - "Must have all documents needed to apply for a Higher Level Review to contest at least one claim decision or supplemental claim decision"
+    - "Must be able to see content clearly and hear moderator clearly"
+    - "Must be on a computer (not phone or tablet)"
+    
+  secondary_criteria:
+    - "Good spread in demographics"
+    - "Good spread across different levels of tech-savviness"
+    
+  screener_questions:
+    - question: "Do you have a DS Logon account?"
+      qualifying_response: "Yes"
+    - question: "Do you have a desire to apply for a Higher-Level Review of your disability claim?"
+      qualifying_response: "Yes"
+    - question: "Do you have all documents needed to apply for a Higher Level Review?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 6
+  caregivers: 0
+  dependents: 0
+  total_recruited: 6
+  completed_sessions_goal: 6
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "None"
+  pilot_participant: "None - no pilot session"
+  research_dates: "2020-10-23 to 2020-11-05"
+  research_review_submission: "2020-10-22"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Enhance Veterans' access to benefits and services"
+    key_results: 
+      - "Enable online submission of Decision Review requests"
+      
+veteran_journey_phases:
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/disability-compensation-claim/bdd"
+    
+tags:
+  - "PRDT: Decision-reviews"
+  - "BNFT: Disability"
+  - "AUD: Veterans"
+  - "UAT"
+  - "remote"
+  - "form"
+  - "authenticated"
+  - "Higher-Level Review"
+  - "20-0996"
+  - "decision review"
+  - "appeals"
+  - "claims"
+  - "DSP: Form templates"
+  - "moderated"
+  - "production"
+  - "real submission"
+---
+
 #
 # **Research Plan for UAT for HLR**
 

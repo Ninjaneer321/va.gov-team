@@ -1,3 +1,134 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VAOS Appointments Team, Appointments List Screenreader Usability, February 2023"
+date: 2023-03-20
+last_updated: 2026-02-10
+team: "VA Online Scheduling (VAOS) Team"
+product: "VA Online Scheduling - Appointments List"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The VA Online Scheduling team redesigned the appointment list based on Veteran feedback, but needs to validate the changes work well for low and non-sighted Veterans using screenreaders."
+  product_location: "VA Online Scheduling appointments list on VA.gov"
+  user_familiarity: "Redesign of existing appointment list - testing usability with screenreader users"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/appointment-list/product-outline-appointment-list-2022.md"
+
+# Research Design
+methodology: "usability-testing, accessibility-testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Improve navigation for Veterans using screenreaders"
+  - goal_2: "Provide an appointment list that is easy for screenreader users to navigate"
+  - goal_3: "Validate that the appointment list redesign works well for low and non-sighted Veterans"
+
+research_questions:
+  - "How do Veterans typically manage their appointments?"
+  - "Does the information for each appointment make sense?"
+  - "Can Veterans differentiate between appointments?"
+  - "Can Veterans navigate to Past appointments?"
+  - "Can Veterans navigate to Pending appointments?"
+  - "What would Veterans' next steps be?"
+
+hypotheses:
+  - "Veterans using a screenreader will be able to easily navigate their appointments"
+  - "Veterans using a screenreader will be able to find the information they need to attend/join their appointments"
+
+expected_outcomes: "We will use the findings to provide an appointment list that is easy for screenreader users to navigate."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment for screenreader users with mix of advanced and beginner users"
+  
+  primary_criteria:
+    - "12 participants that regularly use a screenreader"
+    - "Have been to a VA healthcare facility for a medical appointment in the last 12 months"
+    - "Have an email and password for either Login.gov or ID.me that they use to sign into VA.gov"
+    - "Need to use assistive technology to use the internet (VoiceOver on iPhone, TalkBack on Android, or JAWS on computer)"
+    - "Able to join Zoom session using this assistive technology"
+    
+  secondary_criteria:
+    - "A mix of advanced and beginner screenreader users"
+    
+  screener_questions:
+    - question: "Have you been to a VA healthcare facility for a medical appointment in the last 12 months?"
+      qualifying_response: "Yes"
+    - question: "Do you have an email and password for either Login.gov or ID.me that you use to sign into VA.gov?"
+      qualifying_response: "Yes"
+    - question: "Do you need to use assistive technology to use the internet such as VoiceOver on an iPhone, TalkBack on an Android device, or JAWS on a computer?"
+      qualifying_response: "Yes"
+    - question: "Are you able to join the Zoom session using this assistive technology?"
+      qualifying_response: "Yes"
+    - question: "Do you consider yourself an advanced or beginner screenreader user?"
+      qualifying_response: "Mix of advanced and beginner"
+      
+participants:
+  veterans: 12
+  caregivers: 0
+  dependents: 0
+  total_recruited: 12
+  completed_sessions_goal: 12
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-03-28"
+  pilot_participant: "Angela Fowler"
+  research_dates: "2023-03-30 to 2023-04-14"
+  research_review_submission: "2023-03-20"
+  
+session_details:
+  duration_minutes: 90
+  buffer_minutes: 15
+  max_sessions_per_day: 2
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: 
+      - "Provide accessible appointment information"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Improve appointments list usability for all Veterans"
+  - objective: "Increase Veteran satisfaction with VA.gov by providing an appointments list that meets Veteran expectations and needs"
+  - objective: "Decrease call center volume, wait time, and time to resolution by providing the right information about appointments when Veterans need it"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2022-appts-list-usability/research-findings.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Appointments"
+  - "MHV: Appointments"
+  - "authenticated"
+  - "usability-testing"
+  - "accessibility-testing"
+  - "remote"
+  - "Accessibility"
+  - "screenreader"
+  - "assistive-technology"
+  - "JAWS"
+  - "VoiceOver"
+  - "TalkBack"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Mobile"
+---
+
 Research plan for VAOS appointments list screenreader usability test
 =============
 

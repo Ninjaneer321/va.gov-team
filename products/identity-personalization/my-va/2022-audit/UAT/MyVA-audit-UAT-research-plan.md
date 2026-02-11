@@ -1,3 +1,131 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Authenticated Experience, My VA Audit UAT, March/April 2023"
+date: 2023-03-31
+last_updated: 2023-03-31
+team: "Authenticated Experience"
+product: "My VA"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "My VA had inconsistencies between its five sections (nametag, Claims and appeals, Health care, Benefit payments and debts, and Apply for benefits) making the page hard to manage and hard to scale. An audit was conducted to document all states, simplify where possible, bring greater consistency between sections, and make it easier to highlight VA benefits for users who might be interested in them."
+  product_location: "My VA dashboard on VA.gov"
+  user_familiarity: "Iteration - Audit improvements to existing My VA page"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/my-va/2022-audit"
+
+# Research Design
+methodology: "User Acceptance Testing (UAT) with usability validation"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Confirm that functionality works as expected with audit updates"
+  - goal_2: "Verify that all links are being tracked in Google analytics"
+  - goal_3: "Follow up on previous usability study findings - verify updated content in Education and Training section resonates better with Veterans"
+  - goal_4: "Verify that the title change for Benefit application drafts section has improved clarity"
+
+research_questions:
+  - "Does the functionality work as expected?"
+  - "Is Google analytics tracking all links as expected?"
+  - "Is the dynamic content on My VA accurate and useful in the sections updated for this audit?"
+  - "Do Veterans with education benefits know how to find info about their remaining education benefits from My VA?"
+  - "Do Veterans know how to find and continue a saved application from My VA?"
+
+hypotheses:
+  - "Veterans will not encounter any bugs on My VA"
+  - "Veterans will be able to easily find updates and take action on their top tasks from My VA"
+  - "Veterans who use education benefits will be able to tell how they could find information about their remaining education benefits from My VA"
+  - "Veterans will understand how to find saved applications on My VA and continue them, and will know what the section is for just by reading the title 'Benefit application drafts'"
+
+expected_outcomes: "Based on the outcome of this research study, we will either release the audit updates to production and/or update our design to correct any significant usability hurdles people encounter. If Veterans are still confused about the Benefit application drafts section, we have a backup plan to launch with hint text added."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Focused recruitment on marginalized groups not represented in previous usability study"
+  
+  primary_criteria:
+    - "Veterans who use various VA benefits"
+    - "Specifically recruit Veterans who use or have used education benefits"
+    - "Focus on marginalized groups from previous study: rural areas, mobile users, no college degree"
+    - "Must be logged in to VA.gov and have access to production My VA"
+    
+  secondary_criteria:
+    - "Veterans from rural areas"
+    - "Mobile users"
+    - "Veterans with no college degree"
+    - "At least one screen reader user"
+    
+  screener_questions:
+    - question: "Have you used or are you currently using VA education benefits (e.g., Post-9/11 GI Bill)?"
+      qualifying_response: "Mix of Yes and No responses"
+    - question: "Do you have any saved benefit applications in progress on VA.gov?"
+      qualifying_response: "At least some Yes responses"
+      
+participants:
+  veterans: 10
+  caregivers: 0
+  dependents: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-03-31"
+  pilot_participant: "heather@adhocteam.us"
+  research_dates: "2023-04-05 to 2023-04-07"
+  research_review_submission: "2023-03-31"
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Logged-in users can easily track applications, claims, or appeals online"
+    key_results: 
+      - "My VA provides clear, personalized dashboard for benefit tracking"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "My VA is the personalized landing page after login from homepage"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "My VA presents most relevant updates quickly and clearly while highlighting benefits Veterans may be interested in"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/2022-audit/research/MyVA-audit-research-findings.md"
+    - "https://app.mural.co/t/departmentofveteransaffairs9999/m/vsa8243/1648129585496/d22080eb307aac8bda5ba1153e013a386b7f1396"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: MyVA"
+  - "UAT"
+  - "authenticated-experience"
+  - "personalization"
+  - "dashboard"
+  - "education-benefits"
+  - "benefit-applications"
+  - "analytics"
+  - "mobile"
+  - "accessibility"
+  - "rural"
+  - "audit"
+  - "usability-testing"
+---
+
 # Research Plan for Authenticated Experience, My VA Audit UAT, March/April 2023
 ## Background
 My VA had some inconsistencies between its five sections -- the "nametag", Claims and appeals, Health care, Benefit payments and debts, and Apply for benefits. This is making the page hard to manage and hard to scale.

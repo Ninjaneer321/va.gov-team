@@ -1,3 +1,103 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Health Questionnaires, Clinical Reminders Pilot - Veteran Interviews, October 2023"
+date: 2023-10-01
+last_updated: 2026-02-10
+team: "Health Questionnaires"
+product: "Clinical Reminders"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The volume of clinical reminders has been impacting the quality of the time the patient spends with the provider. Providers have also reported increased burden due to data entry and notification fatigue. VHA is in search of a tool that allows customizable and standardized health forms, screeners, and questionnaires to be sent to the patient to collect responses asynchronously."
+  product_location: "VA.gov health portal integration - Behavioral Health Labs (BHL) and eScreening tools"
+  user_familiarity: "New product - pilot evaluation comparing BHL and eScreening tools"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/398"
+
+# Research Design
+methodology: "semi-structured-interviews"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand Veteran feedback on the timing and delivery of clinical reminder questionnaires"
+  - goal_2: "Evaluate the ease of use and understandability of the questionnaire tools"
+  - goal_3: "Assess impact of digital questionnaires on appointment quality and Veteran responses"
+
+research_questions:
+  - "Would Veterans change anything about the timing of when they receive the questionnaire notification/link?"
+  - "Did Veterans feel that they were given enough time to complete the questionnaires prior to their appointment?"
+  - "How easy was the tool to utilize?"
+  - "How much time do Veterans estimate it took them to complete the questionnaires?"
+  - "How easy are the questions to understand?"
+  - "Did answering these questionnaires impact the quality of their appointment with their provider in any way?"
+  - "Did answering these questions online from anywhere impact Veterans' responses compared to answering these questions with their provider? How?"
+  - "What is Veteran's preference for the number of clinical screeners to complete at one time via these experiences?"
+
+hypotheses:
+  - "Veterans will identify areas to improve the ease of use within the tool."
+  - "The questions within each clinical reminder will be understandable."
+  - "Answering the questionnaires will help to optimize the Veteran's time with their care provider."
+
+expected_outcomes: "Collect Veteran feedback to compare BHL and eScreening tools and inform decision on clinical reminder digitization approach."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Multiple recruitment methods as described in recruitment request ticket"
+  
+  primary_criteria:
+    - "Must be a Veteran"
+    - "Must have received clinical reminder questionnaires via BHL or eScreening"
+    - "Must have completed at least one clinical reminder questionnaire digitally"
+    
+  secondary_criteria:
+    - "Mix of experience with different clinical reminder types"
+    
+participants:
+  veterans: 10
+  caregivers: 0
+  dependents: 0
+  total_recruited: 10
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2023-11-17 to 2024-01-17"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Enhance Veterans' personalized online experience"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/questionnaire/research/2023-10-clinical-reminders/conversation-guide.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Questionnaire"
+  - "PRDT: Clinical-reminders"
+  - "semi-structured-interviews"
+  - "authenticated"
+  - "remote"
+  - "pilot"
+---
+
 # Research Plan for Health Questionnaires, Clinical Reminders Pilot - Veteran Interviews, October 2023
 
 ## Background

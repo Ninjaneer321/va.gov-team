@@ -1,3 +1,117 @@
+---
+# Research Plan Metadata
+title: "Editor-facing research plan for Facilities, VBA regional offices, January 2024"
+date: 2024-01-01
+last_updated: 2024-01-01
+team: "Facilities"
+product: "VBA Regional Offices"
+product_area: "CMS"
+
+# Background Context
+background:
+  problem_statement: "The Facilities team is launching MVP VBA regional office pages in Drupal. A pilot group of VBA RO editors are attending training to edit these pages. This research aims to identify potential pain points in the editorial experience and Drupal training before national rollout."
+  product_location: "Drupal CMS for facilities content editing"
+  user_familiarity: "New product - first time VBA regional office editors will use Drupal"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/facilities/regional-offices"
+
+# Research Design
+methodology: "Hybrid approach - semi-structured interviews and task observation"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "To determine whether the current design of the Drupal interface meets editors' needs"
+  - goal_2: "To collect feedback on the training and support materials provided to new regional office editors"
+
+research_questions:
+  - "Are labels, help text, error messaging, and other text in interface clear?"
+  - "Are widget interactions intuitive (buttons, checkboxes, etc)?"
+  - "How easily can editors get to the content they need to edit?"
+  - "Are Drupal trainings provided by the Facilities team providing editors enough information to get started?"
+  - "Are editors able to access and use knowledge base articles to resolve issues they encounter during the editing process?"
+
+hypotheses:
+  - "Editors will find content (including labels, error messages and help text) in the RO editing page clear and actionable"
+  - "Editors will find widget interactions in the RO editing page intuitive"
+  - "Editors will be able to easily navigate to the content they need to edit"
+  - "Editors will find the training offered adequate to complete their editing tasks"
+  - "Editors will be able to resolve issues that arise using self-service knowledge base articles"
+
+expected_outcomes: "The findings from this research will influence design iterations before the national rollout of RO pages"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Direct recruitment from training sessions"
+  approach: "Targeted recruitment from pilot VBA regional office editors"
+  
+  primary_criteria:
+    - "Participants must be editors participating in the pilot MVP roll out of new VBA regional office pages"
+    - "Approximately 14 editors in recruitment pool"
+    
+  secondary_criteria:
+    - "N/A"
+    
+  screener_questions:
+    - question: "N/A - direct recruitment from training sessions"
+      qualifying_response: "N/A"
+      
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  total_recruited: 14
+  completed_sessions_goal: 7
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-02-06"
+  pilot_participant: "TBD"
+  research_dates: "2024-02-06 to 2024-03-19"
+  research_review_submission: "N/A"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Our people are empowered with the knowledge and resources they need to make sustained impact"
+    key_results: 
+      - "Increase editor satisfaction with Drupal editing environment"
+  - objective: "Increase Veteran satisfaction with VA.gov"
+    key_results:
+      - "Usage of digital, self-service tools"
+      - "Benefit use and enrollment, across all business lines"
+      
+veteran_journey_phases:
+  - "N/A - Editor-facing research"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/cms/research"
+    
+tags:
+  - "CMS"
+  - "facilities"
+  - "regional-offices"
+  - "editor-experience"
+  - "Drupal"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "task-observation"
+  - "training"
+  - "pilot"
+  - "VBA"
+---
+
 # Editor-facing research plan for Facilities, VBA regional offices, January 2024
 
 Publish final research plan in the [CMS research repo](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/cms/research) ~and add a link in the [UX research airtable]~

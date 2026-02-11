@@ -1,3 +1,142 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Pension Team, Pension Application Exploratory Research, April 2025"
+date: 2025-04-01
+last_updated: 2025-04-01
+team: "Pension and Burials Team"
+product: "Form 21P-527EZ Veterans Pension Application"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Since relaunching web-based version of VA Form 21P-527EZ in January 2024, opportunities exist to further improve the online filing experience. Previous research found majority of participants were likely not eligible for Veterans Pension. Pension-eligible Veterans are challenging to contact and recruit, as many are in later stages of life, may be in assisted living facilities, and are likely experiencing significant health challenges or financial hardship."
+  product_location: "Authenticated section on VA.gov - Form 21P-527EZ Veterans Pension application"
+  user_familiarity: "Iteration on existing product - Form relaunched January 2024, this research seeks to validate existing learnings and deepen understanding specifically with pension-eligible Veterans and advocates"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/Pension-Related%20Research%20Discovery%20Findings%20and%20Prioritization.md"
+
+# Research Design
+methodology: "semi-structured interviews - exploratory generative research"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Better understand end users and their experience learning about, applying for, maintaining, and receiving Veterans Pension benefits"
+  - goal_2: "Validate existing research findings or identify divergences in what we understand about the Veteran journey gathered so far, especially by proxy in the VSO study"
+
+research_questions:
+  - "How do users learn about the Veteran pension benefit? (Awareness)"
+  - "What is their experience applying for the Veteran pension benefit? (Application Usage and Completion)"
+  - "What is their experience receiving and maintaining the Veteran pension benefit? (Post-submission/Approval)"
+  - "What are the convergences and divergences in the Veteran and advocate experience in this study compared to existing research?"
+
+hypotheses:
+  - "Veterans tend to seek out pension benefits when they are already experiencing financial hardship or other adverse conditions"
+  - "Veterans learn about pension through word of mouth or communications from both trusted or predatory sources outside the VA (e.g. pension poachers)"
+  - "Veterans often need others to help support completion of the application, such as a VSO, family member, or other advocate"
+  - "Veterans experience challenges completing the application such as: large amount of information required for submission, unclear or missing information, and lack of direction on necessary follow-up steps"
+  - "Veterans experience high error rates post application submission that require additional action on their part or their advocate's part"
+
+expected_outcomes: "Deepen understanding of the perceptions and experiences of pension-eligible Veterans and their family members or caregivers. Validate and provide direction for the most impactful VA 21P-527EZ form changes that will increase accurate and efficient benefit dispersals. Create informal updates to existing journey maps to be used as internal resource. Reduce errors and boost efficiency for adjudicators by making the form easier to complete for end users."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Two sets of semi-structured interviews - pension-eligible Veterans and advocates. Meet with Perigean for kick-off to finalize recruitment strategy."
+  
+  primary_criteria:
+    - "Pension-eligible Veterans"
+    - "Applied for pension within the last 5 calendar years"
+    - "Veteran family members or other advocates who have helped Veterans apply for pension within last 2 years"
+    - "Heterogenous group demographically reflective of those who use the form day-to-day"
+    
+  secondary_criteria:
+    - "Veterans receiving Supplemental Security Income (SSI) preferred"
+    - "Mix of online form, paper form, and assisted application methods"
+    
+  screener_questions:
+    - question: "Are you currently receiving VA disability compensation VA benefits?"
+      qualifying_response: "No (exclude if Yes as highly unlikely to be eligible for pension)"
+    - question: "Are you currently or anticipating receiving a military retirement pension?"
+      qualifying_response: "No (exclude if Yes as highly unlikely to be eligible for VA pension)"
+    - question: "Are you receiving Supplemental Security Income (SSI)?"
+      qualifying_response: "Yes (preferred recruit)"
+    - question: "Have you attempted to apply for Veterans Pension using VA Form 21P-527EZ online, on paper, or with assistance from a third party in the last 5 years?"
+      qualifying_response: "Yes (must answer yes to qualify)"
+    - question: "For advocates: Have you attempted to help a Veteran family member or friend to apply for Veterans Pension using VA Form 21P-527EZ in the last two years?"
+      qualifying_response: "Yes"
+    - question: "For advocates: How far into the process did you provide support to the Veteran?"
+      qualifying_response: "Any stage (learning about benefit, starting/completing application, follow-up steps)"
+      
+participants:
+  veterans: 15
+  caregivers: 10
+  dependents: 0
+  total_recruited: 25
+  completed_sessions_goal: 14
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2025-04-02"
+  pilot_participant: "TBD"
+  research_dates: "2025-04-02 to 2025-05-16"
+  research_review_submission: "2025-03-05"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1: Our digital experiences are the best way to access VA health care and benefits"
+    key_results: 
+      - "Improve user experience and reduce application complexity"
+      - "Reduce errors and processing times"
+  - objective: "Objective 2: Our platforms are the best way to deliver products at VA (secondary)"
+    key_results:
+      - "Streamline backend workflows and reduce processing times"
+      
+veteran_journey_phases:
+  - "Taking care of self"
+  - "Putting down roots"
+  - "Retiring"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024-09%20527EZ%20VSO%20Research/research-findings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024-05%20527EZ%20VSR%20Shadowing/report.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024%2002%20Pension%20Usability%20Evaluation/research-findings.md"
+    - "https://app.mural.co/t/departmentofveteransaffairs9999/m/hcdveo2185/1650040181744/b41f183d67ce4e5ebb73d043835c9c1180bbd840?wid=0-1650056257256"
+    
+tags:
+  - "BNFT: Pension"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family members"
+  - "PRDT: Form 21P-527EZ"
+  - "PRDT: Pension"
+  - "DSC: Form"
+  - "authenticated"
+  - "remote"
+  - "moderated"
+  - "semi-structured-interviews"
+  - "exploratory-research"
+  - "generative-research"
+  - "journey-mapping"
+  - "pension-eligible"
+  - "financial-hardship"
+  - "seniors"
+  - "VSO"
+  - "advocates"
+---
+
 # Research Plan for Pension Application Generative Research, April 2025 [#675](https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/675)
 
 ## Background

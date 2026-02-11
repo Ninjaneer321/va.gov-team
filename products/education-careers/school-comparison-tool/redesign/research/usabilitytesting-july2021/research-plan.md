@@ -1,3 +1,122 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Education Service, GI Bill Comparison Tool Profile Pages, July 2021"
+date: 2021-07-21
+last_updated: 2026-02-10
+team: "Booz Allen / Education Service OIT"
+product: "GI Bill Comparison Tool"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "The GI Bill Comparison Tool underwent a redesign with updated content, layout, and new navigational functionality on school profile pages. Need to validate how users interact with the new profile page design and how it fits into the overall redesigned tool."
+  product_location: "VA.gov Education and Careers section - GI Bill Comparison Tool"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/school-comparison-tool/redesign/ct-redesign-discovery_product-outline.md"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Evaluate how users navigate and interact with the redesigned school profile pages"
+  - goal_2: "Assess the value and clarity of information presented on profile pages"
+  - goal_3: "Validate that the profile page design fits well with previously tested search and compare components"
+
+research_questions:
+  - "Do users notice the jump links on the right hand side?"
+  - "Do users utilize the jump links?"
+  - "How do users navigate the profile page (e.g. scrolling, jump links, Back to top button)?"
+  - "What value (if any) do users see in the school profile pages?"
+  - "Do users have any questions about the information they see on the profile pages?"
+  - "Is there any additional information users want to see on the school profile pages?"
+  - "Do users notice the specialized mission in the card headers on the profile page?"
+  - "Do users try to compare schools from the profile page?"
+
+hypotheses:
+  - "Users will be able to successfully navigate and find important information on the redesigned school profile pages"
+  - "The updated design will fit well with the redesigned search and compare components which have already been tested"
+
+expected_outcomes: "Findings will confirm the profile page redesign effectively supports user needs and integrates with the overall Comparison Tool experience."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation"
+  
+  primary_criteria:
+    - "Have started attending school in Fall 2020 or Spring 2021, OR be looking to start school in 2021"
+    - "3 non-Veteran beneficiaries (spouse or children), 9 Veterans"
+    - "50% using Chapter 33 Post-9/11 benefits, 50% using VR&E, Chapter 30 Montgomery Bill or Chapter 35"
+    - "All participants must access session from laptop or computer"
+    
+  secondary_criteria:
+    - "Age range: 16-65"
+    - "Gender: Mix"
+    - "Branch of service: Mix"
+    - "Geography: Geographically dispersed across USA"
+    
+  screener_questions:
+    - question: "Have you started attending school in Fall 2020 or Spring 2021, or are you looking to start school in 2021?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 9
+  caregivers: 0
+  dependents: 3
+  total_recruited: 12
+  completed_sessions_goal: 12
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-07-20"
+  pilot_participant: "Booz Allen design team member"
+  research_dates: "2021-07-21 to 2021-07-23"
+  research_review_submission: "2021-07-19"
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 15
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: "Enable Veterans to effectively access detailed school information when comparing educational institutions"
+      
+veteran_journey_phases:
+  - "Getting Out"
+  - "Starting Up"
+  - "Reinventing Myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/school-comparison-tool/redesign/research/usabilitytesting-july2021/CT%20Redesign_Profile.pdf"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/school-comparison-tool/redesign/research/usability-testing-may2021/research-plan.md"
+    
+tags:
+  - "PRDT: GI Bill Comparison Tool"
+  - "PRDT: Education"
+  - "AUD: Veterans"
+  - "AUD: Dependents"
+  - "AUD: Spouses"
+  - "BNFT: Education"
+  - "BNFT: GI Bill"
+  - "usability testing"
+  - "navigation"
+  - "profile pages"
+  - "information architecture"
+  - "DSC: Jump links"
+  - "DSP: Navigation"
+  - "remote"
+  - "moderated"
+  - "HDW: Desktop"
+---
+
 # Research Plan for GIBCT Profile Page
 As a designer I need to create a research plan to share with my team.	 	
 ## Goals	

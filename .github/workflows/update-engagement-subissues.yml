@@ -1,0 +1,78 @@
+name: Update Sub-Issue Titles
+
+on:
+  workflow_dispatch:
+    inputs:
+      parent_issue_number:
+        description: 'Parent issue number'
+        required: true
+        type: number
+      new_org_abbr:
+        description: 'New org abbreviation — leave blank to pull from parent issue title'
+        required: false
+        type: string
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  update-titles:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Update sub-issue titles
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const parentNumber = context.payload.inputs.parent_issue_number;
+
+            // Use provided org abbr, or pull it from the parent issue title
+            let newOrgAbbr = context.payload.inputs.new_org_abbr;
+
+            if (!newOrgAbbr) {
+              const parentIssue = await github.rest.issues.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: parentNumber
+              });
+              const orgMatch = parentIssue.data.title.match(/\[\s*([^\]]+)\s*\]/);
+              newOrgAbbr = orgMatch ? orgMatch[1].trim() : 'ORG';
+              console.log(`Pulled org abbreviation from parent title: ${newOrgAbbr}`);
+            }
+
+            // Fetch sub-issues for the parent
+            const subIssues = await github.request("GET /repos/{owner}/{repo}/issues/{issue_number}/sub_issues", {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: parentNumber
+            });
+
+            if (!subIssues.data.length) {
+              console.log(`No sub-issues found for parent #${parentNumber}`);
+              return;
+            }
+
+            console.log(`Found ${subIssues.data.length} sub-issues. Updating titles...`);
+
+            for (const issue of subIssues.data) {
+              // Replace whatever is in the brackets with the new org abbreviation
+              const updatedTitle = issue.title.replace(/\[\s*[^[\]]+\s*\]/, `[ ${newOrgAbbr} ]`);
+
+              if (updatedTitle === issue.title) {
+                console.log(`#${issue.number} - No change needed: ${issue.title}`);
+                continue;
+              }
+
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                title: updatedTitle
+              });
+
+              console.log(`#${issue.number} - Updated: "${issue.title}" → "${updatedTitle}"`);
+            }
+
+            console.log('Finito!');

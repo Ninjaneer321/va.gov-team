@@ -1,3 +1,115 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Dragons Team, HCA Duplicates Mitigation, March 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Dragons"
+product: "Health Care Application (10-10EZ)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "50% of health care applications submitted via VA.gov are duplicate applications. October 2018 research showed duplicates result from communication problems - applicants aren't aware of their application decision and don't know where to find that information. Need to detect previous applications and surface health care status information."
+  product_location: "VA.gov health care application section"
+  user_familiarity: "Iteration - adding duplicate detection and status information to existing application flow"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/hca-2.0/product/181023hcachanges.md"
+
+# Research Design
+methodology: "usability-testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Validate that the duplicate detection flow reduces frustration for Veterans"
+  - goal_2: "Ensure users understand why they're being asked for personal information and to sign in"
+  - goal_3: "Test comprehension of health care status messages for different enrollment states"
+
+research_questions:
+  - "For logged out users, do they understand why we are asking for personal information before they can go to the HCA?"
+  - "For logged out users who are found in the ESR, do they have any idea why we're asking them to sign in?"
+  - "If LOA1, do they understand why we are asking them to verify their identity?"
+  - "For LOA3, do they understand what we are communicating to them about their past HCA status?"
+  - "How frustrated do people get at each step in the flow?"
+  - "Is there any way to reduce their frustration?"
+  - "Do users understand the different messages we show them around different health care statuses (ineligible, enrolled, etc.)?"
+
+hypotheses:
+  - "Overall, users will not find the flow confusing, though they may find it frustrating"
+  - "Users will understand we need to tell them something, and that is why we are asking them to sign in"
+  - "Users will start to get frustrated when we ask them to verify their identity, and when we tell them they are ineligible"
+  - "However, they will find this option to be better than not knowing their health care status at all"
+  - "Users will understand the different messages we show them around different health care statuses"
+
+expected_outcomes: "Validate the duplicate detection flow and content before full build. Will conduct UAT after code implementation to test with live backend."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "maximum variation"
+  
+  primary_criteria:
+    - "Must have applied for VA health care at least once before"
+    - "Have computer that can support GoToMeeting"
+    
+  secondary_criteria:
+    - "Nice to have: People who have applied more than once for health care"
+    - "1-2 people under 40"
+    - "1-2 women"
+    - "1-2 people of color"
+      
+participants:
+  veterans: 7
+  caregivers: 0
+  dependents: 0
+  total_recruited: 7
+  completed_sessions_goal: 7
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2019-03-06 to 2019-03-12"
+  research_review_submission: "2019-02-25"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Reduce duplicate health care applications by 50%"
+      
+veteran_journey_phases:
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "October 2018 HCA duplicate applications research: https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/hca%202.0/research/oct-2018"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Form 10-10 EZ"
+  - "PRDT: Health-care-application"
+  - "usability-testing"
+  - "remote-moderated"
+  - "prototype-testing"
+  - "InVision"
+  - "duplicate-applications"
+  - "ESR"
+  - "identity-verification"
+  - "LOA1"
+  - "LOA3"
+---
+
 # Research Plan for Dragons: HCA duplicates, March 2019
 
 ## Goals

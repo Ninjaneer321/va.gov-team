@@ -1,3 +1,146 @@
+---
+# Research Plan Metadata
+title: "Research Plan for NOD Enhancement Validation, September 2023"
+date: 2023-08-29
+last_updated: 2023-08-29
+team: "Decision Reviews Team"
+product: "Notice of Disagreement (Board Appeal)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Following the April 2022 release of the Board Appeal form, a post-launch evaluative study identified several usability issues including unclear context-setting, confusing issue selection and disagreement explanation, and navigational challenges. This research validates proposed enhancements to improve form usability and effectiveness."
+  product_location: "VA.gov - Board Appeal Request Form (Notice of Disagreement)"
+  user_familiarity: "Iteration on existing product - validating post-launch enhancements"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/decision-reviews/Notice-of-Disagreement/Research/042023%20NoD%20Evaluative%20Research/research-findings.md"
+
+# Research Design
+methodology: "Moderated interview and concept evaluation"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Gather feedback surrounding the relevance, usability and comparative user value of proposed enhancements"
+  - goal_2: "Validate readiness of enhancements for development and release"
+  - goal_3: "Inform prioritization for development and release based on comparative user value and desirability"
+
+research_questions:
+  - "How well are Veterans able to orient and comprehend what's presented in the revised instructional pages?"
+  - "How well does content line up against Veteran expectations and support Veterans in validating their chosen decision pathway?"
+  - "To what extent is access to decision letters and details surrounding contention decisions valuable in facilitating the selection and entry of issues for disagreement?"
+  - "Are Veterans able to locate where to enter additional context and explanation for their reason for disagreement?"
+  - "How well are Veterans able to comprehend, orient, and operate enhanced form navigation controls?"
+  - "What value does the task list and enhanced submission review pages provide Veterans?"
+  - "Between the various enhancements proposed (revised instructional page, inclusion of issue details, enhanced navigation, and enhanced review page), which enhancements stand to have the greatest impact in bolstering Veteran confidence with their appeal submission? Why?"
+
+hypotheses:
+  - "Veterans have inconsistent and incomplete knowledge of decision review pathways prior to pursuing a specific pathway. There is value in providing additional context around decision pathways at the start of the appeals process. The revised instructional page will help facilitate the validation of the selected decision review pathway."
+  - "Not all Veterans know they are able to access decision letters through va.gov. Veterans may need help locating information surrounding specific contention decisions within their decision letters. Veterans will be able to identify where to provide additional information about their appeal and differentiate those fields from fields relating to reason for disagreement."
+  - "Veterans will find the enhanced navigation comprehensible and usable. Veterans will find the enhanced review page to be comprehensible and usable."
+  - "Providing Veterans information and access points about different DR options in the form instruction page will decrease early drop-offs (false starts). Providing Veterans access to decision letters and contention rating details within the form will increase Veteran's confidence and completion rate of submissions. Providing Veterans an area in the form to provide additional context surrounding their submission will decrease late form drop off % and increase digital form submission %."
+
+expected_outcomes: "Research findings will be used to validate the readiness of enhancements for development and release. Comparative user value and desirability of enhancements will be used to inform prioritization for development and release."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling strategy emphasizing underrepresented veterans in past research"
+  
+  primary_criteria:
+    - "All participants must be Veterans"
+    - "All participants must have a computer or tablet and be willing to complete their session using one of those devices"
+    - "All participants must have Zoom installed on their devices before the session and be able to share screen or view screen-shared content"
+    - "Must have received a claims decision within the last year"
+    - "Must be planning to appeal a claim/appeals decision"
+    - "Must be considering submitting appeal on va.gov"
+    - "Must be considering pursuing Board Appeal (Notice of Disagreement) as decision review option"
+    
+  secondary_criteria:
+    - "Underrepresented veterans from past research"
+    
+  screener_questions:
+    - question: "Did you receive a claims decision within the last year?"
+      qualifying_response: "Yes"
+    - question: "Are you planning to appeal a claim/appeals decision?"
+      qualifying_response: "Yes"
+    - question: "What options are you considering for submitting your appeal?"
+      qualifying_response: "Must include 'on va.gov'"
+    - question: "Which of the following decision review options are you considering to pursue?"
+      qualifying_response: "Must include 'Board Appeal (Notice of Disagreement)'"
+      
+participants:
+  veterans: 18
+  caregivers: 0
+  dependents: 0
+  total_recruited: 18
+  completed_sessions_goal: 12
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-08-29"
+  pilot_participant: "Dan Miller"
+  research_dates: "2023-09-05 to 2023-09-20"
+  research_review_submission: "2023-08-20"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Each Veteran's appeal is timely docketed and tracked throughout the appeals process"
+    key_results: 
+      - "Decrease early drop-offs and false starts"
+      - "Increase Veteran confidence and completion rate"
+  - objective: "Each Veteran receives a timely hearing by a Veterans Law Judge upon request"
+    key_results:
+      - "Improve clarity around hearing selection"
+  - objective: "Each Veteran receives a timely decision on his/her appeal"
+    key_results:
+      - "Decrease late form drop off %"
+      - "Increase digital form submission %"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+  - "Putting down roots"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/decision-reviews/Notice-of-Disagreement/Research/042023%20NoD%20Evaluative%20Research/research-findings.md"
+    - "https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/1326"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsp/teams/pst-forms-library/research/review-page-round-two/Review%20Page%20Research%20Round%202.pdf"
+    
+tags:
+  - "PRDT: Decision Reviews"
+  - "PRDT: Notice of Disagreement"
+  - "PRDT: Board Appeal"
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "BNFT: Appeals"
+  - "concept evaluation"
+  - "moderated"
+  - "remote"
+  - "usability testing"
+  - "authenticated"
+  - "form enhancements"
+  - "navigation"
+  - "content design"
+  - "evaluative research"
+  - "prototype testing"
+  - "decision letters"
+  - "issue selection"
+---
+
 VA BENEFITS · CE Decision Review # Research Plan for NOD Enhancement Validation
 # Research Plan for NOD Enhancement Validation, September 2023
 

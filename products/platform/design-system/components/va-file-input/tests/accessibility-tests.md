@@ -415,7 +415,7 @@ A file has already been uploaded.
 - And focus moves to the next logical interactive element
 
 #### Acceptance criteria
-- 🟢 Deleting a file results in the component returning to the empty/upload state and a status message is announced (e.g., “File deleted” / “No file selected”), and the user can continue by tabbing to the next logical control (often the upload control).
+- 🟢 The Delete button’s accessible name includes the file name (e.g., “Delete filename.ext”) so users can confirm the destructive action target. Deleting a file results in the component returning to the empty/upload state and a status message is announced (e.g., “File deleted” / “No file selected”), and the user can continue by tabbing to the next logical control (often the upload control).
 - 🟡 Focus may land on the browser window or the next focusable element, and announcement order may vary, as long as deletion is announced and the user can reliably re-enter the component via normal tabbing.
 - 🔴 After confirming deletion, focus is lost such that the user cannot re-enter the component, or deletion is not communicated, leaving the user unsure whether the action succeeded.
 
@@ -516,6 +516,7 @@ A valid file is already uploaded.
 - Then the new file replaces the old file in the UI.  
 - And screen readers announce the new file name.  
 - And focus behavior is consistent with initial upload.
+- The accessible name of the “Change file” button includes the file name.
 
 #### Acceptance criteria
 - 🟢 Replacing a file updates the UI to the new file and the new file name is announced at some point, and the Change/Delete actions reflect the new file.
@@ -801,6 +802,63 @@ Upload an encrypted file that requires a password to continue.
 **9. 🟢 Chrome + Talkback + Android** Focus goes back to the password field, and it announces "3 characters edit error Invaid password. Try again or delet"
 
 ---
+### Test ID: encrypted-multiple-files-unique-controls
+
+**Purpose:**
+Verify each encrypted file instance has uniquely identifiable controls when multiple encrypted files are present on the same page.
+
+**WCAG:**
+- 1.3.1 Info and Relationships
+- 2.4.6 Headings and Labels
+- 3.3.2 Labels or Instructions
+- 4.1.2 Name, Role, Value
+
+**Setup:**
+Navigate to a page containing two or more uploaded encrypted files. Each file displays:
+- file name
+- password field (“Password for this file”)
+- “Submit password” button
+- “Change file” button
+- “Delete” button
+
+**Steps:**
+- When the user navigates to the first password field and associated buttons using a screen reader.
+- And navigates to the next encrypted file’s password field and associated buttons.
+
+**Expected Result:**
+- Then each password field is announced with file-specific context (via accessible name or reliably announced description).
+- And each **Submit password** button includes file-specific context in its accessible name.
+- And **Change file** and **Delete buttons** include file-specific context in their accessible names.
+
+#### Acceptance criteria
+- 🟢 Each repeated control (password input + Submit password + Change file + Delete) includes file-specific context in its accessible name or reliably announced description.
+- 🟡 File context may be provided via aria-label or aria-describedby, as long as assistive technology consistently announces the association.
+- 🔴 One or more controls are announced without file context, making it unclear which file is being unlocked, changed, or deleted.
+- ⚫ Untested
+
+#### Actual behavior:
+
+**Screen readers:** 
+**1. 🟡 Chrome + VO:**  Password input and submit button announce as expected, however, VO browse mode can access the the `sr-only-text` and may announce the file name twice
+
+**2. 🟡 Safari + VO:** Password input and submit button announce as expected, however, VO browse mode can access the the `sr-only-text` and may announce the file name twice
+
+**3. 🟡 Safari + iOS + VO:**  Password input and submit button announce as expected, however, VO browse mode can access the the `sr-only-text` and may announce the file name twice
+
+**4. 🟡 Chrome + iOS + VO:** Password input and submit button announce as expected, however, VO browse mode can access the the `sr-only-text` and may announce the file name twice
+
+**5. 🟢 Edge + JAWS:** Each repeated control (password input + Submit password + Change file + Delete) includes file-specific context in its accessible name or reliably announced description.
+
+**6. 🟢 Edge + NVDA:** Each repeated control (password input + Submit password + Change file + Delete) includes file-specific context in its accessible name or reliably announced description.
+
+**7. 🟢 Chrome + JAWS:** Each repeated control (password input + Submit password + Change file + Delete) includes file-specific context in its accessible name or reliably announced description.
+
+**8. 🟢 Chrome + NVDA:** Each repeated control (password input + Submit password + Change file + Delete) includes file-specific context in its accessible name or reliably announced description.
+
+**9. 🟡 Chrome + Talkback + Android** Password input and submit button announce as expected, however, swiping through, users can access the the `sr-only-text` and may announce the file name twice
+
+
+---
 
 ## 🟡 Known AT Differences & “Good Enough” Decisions
 
@@ -876,6 +934,7 @@ We established our "Good Enough" criteria
 ## 📄 Version History
 | Date | Author | Change |
 |------|--------|--------|
+| 2026-02-10 | Jeana | Finishd tests for updated password input for encrypted files, [approved PR](https://github.com/department-of-veterans-affairs/component-library/pull/1952#pullrequestreview-3780275537) |
 | 2026-01-22 | Jeana | Started tests for updated password input for encrypted files |
 | 2026-01-13 | Jeana  | Completed talkback testing, and re-ran the tests here and identified no regressions |
 | 2025-12-25 | Jeana  | Added Android Talkback testing results + Chrome on Windows |

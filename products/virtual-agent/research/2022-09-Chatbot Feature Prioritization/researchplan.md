@@ -1,3 +1,108 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Virtual Agent, Chatbot Feature Prioritization, September 2022"
+date: 2022-09-06
+last_updated: 2022-09-06
+team: "Virtual Agent Team"
+product: "Virtual Agent (Chatbot)"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "The Chatbot is a self-service platform that provides value to Veterans by increasing awareness of existing VA self-service tools, decreasing the time Veterans spend waiting for an outcome, and allowing 24/7 access to anonymous or secure support. The chatbot needs to prioritize new features around sign-in related issues to better serve Veterans."
+  product_location: "VA.gov Contact Us page - Virtual Agent chatbot (https://dev.va.gov/contact-us/virtual-agent)"
+  user_familiarity: "New feature development - released February 2022"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/virtual-agent/research/2022-08-Chatbot%20Feature%20Prioritization/conversation-guide.md"
+
+# Research Design
+methodology: "usability testing with semi-structured interviews"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Take users through flows to gain insight on the expected experience of sign-in content surfacing, problem escalation, account identification assistance, password reset flow, and account creation"
+  - goal_2: "Understand the existing pain points for users around sign-in related issues"
+  - goal_3: "Understand how users currently handle their issues around sign-in related issues"
+
+research_questions:
+  - "What features would users like to see prioritized based upon: the ability to provide users with sign in related information, problem escalation, password reset, and account creation?"
+  - "What are the primary pain points that exist around sign in related issues with users?"
+  - "How are users currently addressing and navigating these tasks?"
+
+hypotheses:
+  - "Users will appreciate that chatbot is attempting to handle issues related to sign in and they will be happy with the flows that we propose to help address their issues"
+  - "Users currently go to a variety of sources to find information on and troubleshoot their issues"
+
+expected_outcomes: "This research will serve as a guide to better inform which features to prioritize for users, helping to bridge the gap for Veterans contending with sign-in related issues"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "diverse recruitment across demographics"
+  
+  primary_criteria:
+    - "12 Veterans recruited to achieve 8 completed sessions"
+    - "6 Male and 6 Female participants"
+    - "Diversity across age groups (18-24, 25-34, 35-44, 45-54, 55+)"
+    - "Diversity across race and ethnicity (Black, White, Latinx, Asian, Native)"
+    - "Access to desktop or laptop computer for prototype testing"
+    
+  secondary_criteria:
+    - "N/A"
+      
+participants:
+  veterans: 12
+  caregivers: 0
+  dependents: 0
+  total_recruited: 12
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2022-09-09"
+  pilot_participant: "TBD"
+  research_dates: "2022-09-12 to 2022-09-16"
+  research_review_submission: "N/A"
+  
+session_details:
+  duration_minutes: 75
+  buffer_minutes: 0
+  max_sessions_per_day: 2
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Logged-in users have a personalized experience"
+    key_results: 
+      - "Logged-in users have a personalized experience, with relevant and time-saving features"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Veterans and their families can find a single, authoritative source of information"
+      
+veteran_journey_phases:
+  - "Any phase - assistance and clarity can be needed at any time"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/virtual-agent/research/2022-08-Chatbot%20Feature%20Prioritization/conversation-guide.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Virtual-agent"
+  - "PRDT: Chatbot"
+  - "sign-in"
+  - "authentication"
+  - "account-management"
+  - "usability-testing"
+  - "feature-prioritization"
+  - "remote"
+  - "moderated"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+---
+
 # Research Plan for [Team, Product, Date]
 *Questions about how to set up your research study? Reach out in the #research-ops Slack channel.* 
 

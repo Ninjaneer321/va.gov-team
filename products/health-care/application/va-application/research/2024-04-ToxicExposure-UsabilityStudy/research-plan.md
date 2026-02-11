@@ -1,3 +1,133 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Health Enrollment Team, 10-10EZ, April 2024 - Toxic Exposure Questions Usability Study"
+date: 2024-03-20
+last_updated: 2024-03-20
+team: "Health Enrollment Team"
+product: "10-10EZ Health Care Application"
+product_area: "authenticated and unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Questions regarding toxic exposure were added to the online 10-10EZ form following the PACT act. This research will test the implementation of those questions to help Veterans who may not qualify for VA health care or those that have a low Priority Group (7 or 8) get into a Priority Group 6 and receive additional care."
+  product_location: "10-10EZ Health care application on VA.gov - Military service section"
+  user_familiarity: "Iteration - adding new toxic exposure questions to existing form"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/Toxic%20Exposure/Toxic%20Exposure%20(TERA)%20questions%20-%20Initiative%20Brief.md"
+
+# Research Design
+methodology: "Usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Discover areas where the content may not be clear or need additional explanation"
+  - goal_2: "Discover areas where their service history requires too much mental lift / recall on the Veterans behalf to answer"
+  - goal_3: "Discover unknown usability or accessibility issues"
+
+research_questions:
+  - "Are there any questions where the Veteran says additional info would be helpful?"
+  - "Do Veterans mention the dates missing or that they would be helpful?"
+  - "Is it preferred that questions are optional, can be skipped, or to be given an explicit I don't know option?"
+  - "Is something more than content needed to help Veterans answer these service questions? (A link or a map for example)"
+  - "Do Veterans feel they should be providing this information or is this information they feel the VA should already have?"
+  - "What types of information do Veterans expect the VA to have access to?"
+  - "Do Veterans want the option to upload digital documents or proof of their exposures?"
+  - "How difficult or easy will it be for Veterans to recall or look up specific service dates and/or find supporting documentation to upload?"
+  - "Are there any accessibility issues with the bulleted list format of some questions? We're curious specifically for the extensive list on the Gulf War locations page"
+  - "Do on-field error messages often occur? If so, are Veterans struggling with the messaging to get errors resolved?"
+
+hypotheses:
+  - "We assume some might have issues recalling the places/dates they served with how the questions are worded"
+  - "We assume Veterans expectations around the toxic exposure questions is that the VA should already have their service history information"
+  - "We assume some Veterans might want additional explanatory visuals such as maps or links to help them with quicker recall of these service location questions"
+
+expected_outcomes: "This research will help evaluate the content clarity and Veteran impressions around the newly added questions in the military service section for toxic exposure. This will guide us in determining what might need further clarification or edits, as well as provide data on what is working well."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation with era-specific combat zone service"
+  
+  primary_criteria:
+    - "Are you currently receiving VA health care benefits as your primary insurance? [answer should be no to qualify for all participants]"
+    - "Veterans who served in a combat zone (all)"
+    - "3 Veterans who served in Vietnam-era (1961-1980)"
+    - "3 Veterans who served between 1990 and 2001 (Gulf War era)"
+    - "3 Veterans who served after 2001 (Post 9-11 era)"
+    - "5 participants with identify-verified account on VA.gov"
+    
+  secondary_criteria:
+    - "Recruit at least 5 Veterans who identify as female"
+    - "Mixture of race, LGBTQ+, location, education, etc. as able within primary criteria"
+    - "1 completed session with screen reader user"
+    
+  screener_questions:
+    - question: "Are you currently receiving VA health care benefits as your primary insurance?"
+      qualifying_response: "No"
+      
+participants:
+  veterans: 9
+  caregivers: 0
+  dependents: 0
+  total_recruited: 9
+  completed_sessions_goal: 6
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-03-22"
+  pilot_participant: "TBD"
+  research_dates: "2024-03-28 to 2024-04-08"
+  research_review_submission: "2024-03-20"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Make our digital experiences the best way to access VA health care and benefits"
+    key_results: 
+      - "Enable Veterans to get the level of health care they are entitled to through simple and clear online methods"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/507"
+    
+tags:
+  - "10-10EZ"
+  - "health-care-application"
+  - "toxic-exposure"
+  - "PACT-act"
+  - "TERA"
+  - "military-service"
+  - "usability-testing"
+  - "combat-zone"
+  - "Gulf-War"
+  - "Vietnam-era"
+  - "post-9-11"
+  - "priority-group"
+  - "authenticated"
+  - "unauthenticated"
+  - "production-testing"
+  - "accessibility"
+  - "screen-reader"
+  - "veterans"
+---
+
 # Research Plan for [Health Enrollment Team, 10-10EZ, April 2024] - Toxic Exposure Questions Usability Study
 
 ## Background

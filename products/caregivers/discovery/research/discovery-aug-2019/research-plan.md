@@ -1,3 +1,116 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VSA Caregivers Team, Comprehensive Assistance for Family Caregivers Modernization, August 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "VSA Caregivers"
+product: "Comprehensive Assistance for Family Caregivers"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The VA's Caregiver program requires manual input of paper applications (form 1010-CG) into CARMA system. With Mission Act expansion to all eras of Veterans, the paper process will not scale. Need to digitize caregiver assistance application to meet June 2020 deadline."
+  product_location: "VA.gov benefits application section"
+  user_familiarity: "New product - digitizing existing paper form 1010-CG"
+  product_brief_url: "TBD"
+
+# Research Design
+methodology: "semi-structured-interviews"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand caregiver and Veteran needs around applying for the Caregiver benefit"
+  - goal_2: "Learn about current experiences with the paper application process"
+  - goal_3: "Inform comprehensive plan with prioritized recommendations for digitizing the application including multiple signature capability"
+
+research_questions:
+  - "How did current caregivers learn about the Caregiver program and what was their motivation to apply?"
+  - "What have caregivers and Veterans experienced when applying for the Caregiver Benefit using the current paper application process?"
+  - "How do caregivers and Veterans feel about the process from applying for the benefit to receiving it?"
+  - "Where do caregivers and Veterans expect to be able to apply for caregiver benefits online?"
+  - "How do caregivers and Veterans feel about needing everyone to fill out and sign the application?"
+  - "How do Veterans feel about potentially sharing personal information with their caregivers?"
+  - "What do caregivers and Veterans expect to happen after submitting an application?"
+  - "Do Veterans and caregivers prefer to complete the application process online or via the paper process and why?"
+
+hypotheses:
+  - "Veterans and caregivers will be interested in an online version of the form, but may have some reservations about how to get everyone necessary to sign the form"
+  - "Veterans and caregivers will want an easy way to see the status of their form, and an easy way to know the steps involved in getting benefits"
+  - "The paper form isn't that onerous, but the process afterwards (clinical assessments, training, and in-home assessments) are a lot to do and keep track of, and anything we can do to stream-line those would help"
+  - "The paper form may be harder to deal with if the veteran doesn't live with their caregiver"
+  - "Some Veterans may be unable to complete their part of the application. When this situation occurs, the path forward may be unclear to potential caregivers"
+
+expected_outcomes: "Findings will inform a comprehensive plan that includes prioritized recommendations, design, and technical solution for digitizing the caregiver assistance application"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation"
+  
+  primary_criteria:
+    - "8 caregivers: 4 receiving benefits, 4 applying or considering applying"
+    - "Include 1-2 secondary caregivers"
+    - "Focus on recruiting from remote areas"
+    - "8 Veterans who have caregivers: 4 post-911, 4 pre-911"
+    - "Mix of Veterans with disability rating 80% or higher"
+    - "Mix of Veterans who do not have the ability to type or write"
+    - "Mix of Veterans who live and do not live with caregivers"
+    
+  secondary_criteria:
+    - "Geographic diversity"
+    - "Disability rating variation"
+      
+participants:
+  veterans: 8
+  caregivers: 8
+  dependents: 0
+  total_recruited: 16
+  completed_sessions_goal: 16
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2019-08-23"
+  pilot_participant: "Emily Waggoner"
+  research_dates: "2019-08-27 to 2019-08-30"
+  research_review_submission: "2019-08-23"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Increase access to caregiver benefits for all eras"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "TBD"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family Member"
+  - "BNFT: Healthcare"
+  - "PRDT: Caregivers"
+  - "PRDT: Form 10-10 CG"
+  - "semi-structured-interviews"
+  - "discovery"
+  - "Mission Act"
+  - "paper-to-digital"
+  - "multi-signature"
+---
+
 # Research Plan: Comprehensive Assistance for Family Caregivers Modernization
 
 August 2019

@@ -1,3 +1,151 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV on VA.gov, Medications, May 2024"
+date: 2024-05-01
+last_updated: 2024-05-01
+team: "Digital Health Modernization - MHV on VA.gov"
+product: "Medications on My HealtheVet"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans need to effectively use the multi-fill feature and other Medications updates with assistive technology to successfully manage their prescriptions online."
+  product_location: "My HealtheVet on VA.gov - Medications section"
+  user_familiarity: "Iteration on existing MHV Medications MVP with new multi-fill feature and updates"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
+
+# Research Design
+methodology: "moderated usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand if Veterans can locate and fill/refill their medications"
+  - goal_2: "Identify any usability issues Veterans may experience with managing their medications"
+  - goal_3: "Understand Veterans' expectations and preferences for using Medications on Va.gov"
+
+research_questions:
+  - "Can Veterans refill individual or multiple medications?"
+  - "Do Veterans understand the steps to refill medications?"
+  - "Do Veterans understand what to do when a medication is not refillable?"
+  - "Do Veterans understand if a refill submission is successful?"
+  - "Can Veterans find information on their medications?"
+  - "Do Veterans understand the status of their medications?"
+  - "Can Veterans find information on how to renew medications?"
+  - "How do Veterans find a specific medication on their list?"
+  - "What information do Veterans seek?"
+  - "Can Veterans print/download their medication list or an individual medication?"
+  - "What medications-related tasks do Veterans wish to be able to do?"
+
+hypotheses:
+  - "Most Veterans will successfully refill individual and multiple medications"
+  - "Most Veterans will respond positively to the updated refill flow"
+  - "Most Veterans will successfully print or download individual and multiple medications"
+  - "Most Veterans will find information on medications"
+
+expected_outcomes: "The results will help determine if designs provide the best user experience for Veterans to manage and view their medications. This will inform later iterations of the design."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "maximum variation sampling with assistive technology focus"
+  
+  primary_criteria:
+    - "16 Veterans total: 10 sighted users (4 with screen magnification), 6 assistive technology users (5 screen reader, 1 voice command)"
+    - "All participants must regularly use MHV or be assistive technology users"
+    - "At least 6 sighted participants with cognitive disabilities (mild to severe)"
+    - "At least 5 sighted participants who are mobile users (iPhone users must use Safari)"
+    - "At least 5 sighted participants who are desktop users"
+    - "5 screen reader users (NVDA, JAWS, VoiceOver, TalkBack)"
+    - "1 voice command user"
+    
+  secondary_criteria:
+    - "Age distribution: 18-34 (2), 35-54 (3), 55-64 (3), 65-74 (5), 75+ (3)"
+    - "Education distribution: High school or less (6), Some college (3), Associate degree (2), Bachelor's degree (3), Master's or higher (2)"
+    - "Demographic distribution: Black/African American (3), Hispanic/Latino (2), White/Caucasian (11)"
+    - "Residence: Rural (5), Urban (11)"
+    
+  screener_questions:
+    - question: "Have you used My HealtheVet (MHV) for managing your prescriptions within the last 3 months?"
+      qualifying_response: "Yes (or No if MAG user)"
+    - question: "Are you fully dependent on screen magnification of at least 200%?"
+      qualifying_response: "Recruit 4 yes"
+    - question: "Do you rely on voice command for accessing ALL digital content?"
+      qualifying_response: "Recruit 1 yes"
+    - question: "Are you blind or visually impaired and rely on a screen reader for accessing ALL digital content?"
+      qualifying_response: "Recruit 5 yes"
+      
+participants:
+  veterans: 16
+  caregivers: 0
+  dependents: 0
+  total_recruited: 16
+  completed_sessions_goal: 12
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-05-22"
+  pilot_participant: "TBD - team will schedule own"
+  research_dates: "2024-05-22 to 2024-06-06"
+  research_review_submission: "2024-05-01"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Enable accessible medication management for all Veterans including assistive technology users"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Centralize accessible health information through MHV on VA.gov"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Multi-fill feature streamlines prescription refill process"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Previous rounds of MHV Medications usability testing"
+    - "Initial MVP testing on prototypes and live environments"
+    
+tags:
+  - "MHV"
+  - "My HealtheVet"
+  - "medications"
+  - "prescriptions"
+  - "health-care"
+  - "digital-health-modernization"
+  - "usability-testing"
+  - "assistive-technology"
+  - "screen-reader"
+  - "screen-magnification"
+  - "voice-command"
+  - "accessibility"
+  - "508-compliance"
+  - "veterans"
+  - "cognitive-disability"
+  - "authenticated-experience"
+  - "remote-research"
+  - "multi-fill"
+  - "CAIA"
+---
+
 # **Research Plan for MHV on VA.gov, Medications, May 2024**
 
 ## **Background**

@@ -1,3 +1,139 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Facility Locator Mobile Map Usability Testing, March 2025"
+date: 2025-03-01
+last_updated: 2025-03-01
+team: "Sitewide Facilities"
+product: "Facility Locator"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "The Sitewide team has updated the appearance and usability of the map feature on the facility locator tool on mobile devices. Because the facility locator is an unauthenticated experience that Veterans and their families use as a source of truth for accessing VA health care, services, and benefits, the team needs to ensure the new mobile map experience improves user satisfaction and is accessible."
+  product_location: "VA.gov/find-locations - Facility Locator mobile map"
+  user_familiarity: "Iteration - updated mobile map interface"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/product/facility-locator-product-outline.md"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Get user feedback on design and accessibility enhancements to the facility locator map feature on mobile"
+  - goal_2: "Ensure the new map experience is accessible"
+  - goal_3: "Test the segmented button group component as a new design pattern for VA.gov"
+
+research_questions:
+  - "What experience do Veterans and others expect from the location mapping tool on mobile?"
+  - "Do Veterans and others understand the distinction between map and list view on mobile, and how to switch between the two?"
+  - "Do Veterans and others understand how to interact with the map view on mobile?"
+  - "How do users of assistive technology on mobile devices interact with the facility locator?"
+
+hypotheses:
+  - "Veterans and others will understand how the list of results are organized and what options they have to refine or broaden their results"
+  - "Veterans and others will understand the relationship between search results and indicators on a map"
+  - "Veterans and others will understand the difference between map view and list view, and how to move from one to the other"
+  - "Veterans and others will understand which fields are required or optional for conducting a search"
+  - "Veterans and others will know how to get the information they need about a selected location"
+
+expected_outcomes: "At the conclusion of this research, the team will have a better understanding of how Veterans and their families use the facility locator map on mobile. The team will also bring the segmented button group component into the primary VA Design System."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation with accessibility focus"
+  
+  primary_criteria:
+    - "All must be Veterans, family members, or caregivers"
+    - "All must have a mobile device (phone or tablet) and be willing to complete sessions on this device"
+    - "All must be willing to share their screen on Zoom"
+    - "All must have working microphone and Zoom downloaded with screen share capability"
+    - "At least 2 should be people who use screen readers on their mobile device"
+    
+  secondary_criteria:
+    - "At least 2 people don't have any degree or vocational training after high school"
+    - "At least 2 people live in a rural or remote area"
+    - "At least 4 people have a cognitive disability (e.g., TBI)"
+    - "At least 2 people of color"
+    - "At least 1 woman"
+    - "At least 1 person is LGBTQ+"
+    
+  screener_questions:
+    - question: "What kind of mobile device will you be using?"
+      qualifying_response: "Smartphone or tablet"
+    - question: "What mobile operating system does your device use?"
+      qualifying_response: "Record for diversity"
+    - question: "Do you use a screen reader while using your mobile device?"
+      qualifying_response: "Yes (recruit 2) - must be willing to join Zoom using screen reader"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Yes (recruit 4 with cognitive disability)"
+      
+participants:
+  veterans: 5
+  caregivers: 2
+  dependents: 2
+  total_recruited: 9
+  completed_sessions_goal: 7
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2025-03-20"
+  pilot_participant: "TBD"
+  research_dates: "2025-03-24 to 2025-04-11"
+  research_review_submission: "2025-03-10"
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 30
+  max_sessions_per_day: 2
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Previous facility locator research"
+    
+tags:
+  - "PRDT: facility-locator"
+  - "PRDT: facilities"
+  - "AUD: veterans"
+  - "AUD: family-members"
+  - "AUD: caregivers"
+  - "RESRCH: usability"
+  - "RESRCH: remote"
+  - "RESRCH: moderated"
+  - "RESRCH: accessibility"
+  - "HDW: smartphone"
+  - "HDW: tablet"
+  - "DSC: map"
+  - "DSC: segmented-button"
+  - "DSP: design-system"
+  - "mobile"
+  - "screen-reader"
+  - "assistive-technology"
+  - "location-search"
+  - "map-view"
+  - "list-view"
+---
+
 # Research Plan for Facility locator mobile map
 
 ## Background

@@ -1,3 +1,122 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Pension Burial Benefits, Pension Form (527EZ), January 2026"
+date: 2025-12-01
+last_updated: 2025-12-05
+team: "Pension Benefits"
+product: "Veterans Pension Application (Form 527EZ)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Inform Veterans with a 100% Disability Rating of their potential compensation before they fill out a Pension application, helping save them wasted effort and reduce burden on VSRs processing claims that would likely not result in additional benefits."
+  product_location: "Introduction page of the Pension form (527EZ) for authenticated Veterans"
+  user_familiarity: "Iteration on existing product - adding disability rating alert to Pension application"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/"
+
+# Research Design
+methodology: "semi-structured-interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Ensure that the message is clear to Veterans and that they understand what it is trying to say"
+  - goal_2: "See if Veterans who understand the message and have a 100% rating will be encouraged or discouraged from filling out the Pension form"
+
+research_questions:
+  - "Do participants understand what the standard alert message is trying to tell them?"
+  - "After seeing the standard alert message, are Veterans more or less likely to fill out the pension form?"
+  - "What would Veterans do after seeing the standard alert message?"
+  - "Do participants understand what the API-failed alert message is trying to tell them?"
+  - "After seeing the API-failed alert message, are Veterans more or less likely to fill out the pension form?"
+  - "What would Veterans do after seeing the API-failed alert message?"
+
+hypotheses:
+  - "For the standard alert, the Veteran will recognize that because of their high Disability Rating, filling out the Pension application does not make sense for them"
+  - "For the API-failed version of the alert, the Veteran will recognize that Disability Rating might have an impact on whether or not they should fill out the Pension form"
+
+expected_outcomes: "We will iterate on the language or even the overall design if the messaging is shown to be confusing or if it has the opposite of the intended effect"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment of Veterans with 100% disability rating who would see this message in real scenarios"
+  
+  primary_criteria:
+    - "Has a 100% overall disability rating"
+    - "Has used VA.gov website to file a claim for disability or pension"
+    - "Is receiving disability compensation from the VA"
+    
+  secondary_criteria:
+    - "Experience applying for and receiving Veterans Pension"
+    - "30% people of color"
+    - "25% live in a rural area"
+    - "25% without a degree"
+    - "10% women"
+    
+  screener_questions:
+    - question: "Have you ever used the VA.gov website to file a claim for disability or pension?"
+      qualifying_response: "Yes (Include)"
+    - question: "Are you receiving disability compensation from the VA? If so, what is your overall disability rating?"
+      qualifying_response: "I have a service-connected disability, and my overall rating is 100% (Include)"
+      
+participants:
+  veterans: 10
+  caregivers: 0
+  dependents: 0
+  total_recruited: 10
+  completed_sessions_goal: 7
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2025-12-16"
+  pilot_participant: "Rocio Santiago"
+  research_dates: "2026-01-06 to 2026-01-12"
+  research_review_submission: "2025-12-05"
+  
+session_details:
+  duration_minutes: 30
+  buffer_minutes: 30
+  max_sessions_per_day: 5
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results: 
+      - "Key Result 1: Improve satisfaction with our web and mobile products by 5 points"
+      
+veteran_journey_phases:
+  - "Taking Care of Myself"
+  - "Retiring"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Pension"
+  - "BNFT: Pension"
+  - "BNFT: Disability"
+  - "DSC: Alert"
+  - "DSC: Form"
+  - "semi-structured-interviews"
+  - "usability-testing"
+  - "authenticated"
+  - "remote"
+  - "moderated"
+  - "HDW: Desktop"
+  - "disability-rating"
+  - "compensation"
+---
+
 
 	# Research Plan for Pension Burial Benefits, Pension Form (527EZ), Jan 2026
 

@@ -1,3 +1,130 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Your VA benefit letters and documents research study"
+date: 2025-06-01
+last_updated: 2025-06-01
+team: "Benefit Letters Team"
+product: "Your VA benefit letters and documents"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The 'Your VA letters and documents' page prioritizes editing mailing address, requiring Veterans to click 'View Letters' button at the bottom before accessing letters. This creates unnecessary friction and risks excluding Veterans without valid mailing addresses in their VA.gov profile."
+  product_location: "Authenticated experience - 'Your VA benefit letters and documents' page at staging.va.gov/records/download-va-letters/"
+  user_familiarity: "Iteration of existing 'Your VA benefit letters and documents' page to improve access and reduce barriers"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/benefit-letters/2025-06-design-intent.md"
+
+# Research Design
+methodology: "Mixed methods - semi-structured interviews and usability testing on production version"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Verify that the new design removes barriers for Veterans trying to find, understand, and use the benefit letters"
+  - goal_2: "Understand what motivates Veterans to get their benefit letters"
+  - goal_3: "Understand how the mailing address requirement affects different Veteran populations"
+
+research_questions:
+  - "Will Veterans feel they need to edit their address before downloading a letter?"
+  - "Do Veterans expand the accordions when looking for their letters?"
+  - "What do Veterans expect when they click on a link to a benefits letter?"
+  - "What challenges do Veterans encounter when generating a customized Benefit Summary and Service Verification Letter?"
+  - "Which letters do Veterans find valuable?"
+  - "Do Veterans understand the different types of letters and why they are needed before they come to the page?"
+  - "Do Veterans understand why they need to include or exclude certain information from their Benefit Summary and Service Verification Letter?"
+  - "What do Veterans do if they don't see the letter they're looking for?"
+  - "What problems can result from making letter access dependent on a required mailing address?"
+  - "What happens if a Veteran doesn't currently have a mailing address?"
+  - "Are we doing a good job communicating that this mailing address is the 'latest and greatest' that appears on the Veteran's VA.gov profile?"
+  - "Do Veterans expect their customized Benefit Summary and Service Verification Letter to include their current mailing address, too?"
+
+hypotheses:
+  - "Veterans are more likely to find the letter type they need when presented with clear, concise categorization and descriptions up front rather than hidden on a secondary screen"
+  - "Veterans who encounter the redesigned single-step page will complete the View Letters step at a rate higher than the current design (current: 60%)"
+  - "Making the mailing address change to the VA.gov profile optional and the reasoning clear will increase download rates (current: 55%)"
+
+expected_outcomes: "Use findings to improve Veterans' ability to access benefit letters. Success criteria: (1) Identify possible mailing address barriers for Veterans, (2) Enhance customizable Benefit Summary and Service Verification Letter interface based on real-world needs. Measure success through improved task completion rates, reduced time-on-task, and qualitative feedback."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Lean maximum variation sampling with separate cohorts for AT and non-AT users"
+  
+  primary_criteria:
+    - "10 assistive technology users: 5 screen readers, 3+ screen magnifiers, 2+ voice command/speech recognition"
+    - "8 non-AT users: 3+ desktop, 3+ smartphone, 2+ tablet"
+    - "All must be Veterans with VA.gov experience"
+    - "All must have received a Benefit Summary and Service Verification Letter"
+    - "All must have Zoom with screen sharing capability and working microphone"
+    
+  secondary_criteria:
+    - "6 aged 55 years or older"
+    - "6 mobile web users (phone and tablet)"
+    - "4 Hispanic, Black, Biracial, Asian, or Native"
+    - "3 rural"
+    - "3 women"
+    
+  screener_questions:
+    - question: "Have you received a Benefit Summary and Service Verification Letter from VA?"
+      qualifying_response: "Yes"
+    - question: "Do you use assistive technology (screen reader, screen magnifier, or voice command) every time you access the internet?"
+      qualifying_response: "Used to separate AT and non-AT cohorts"
+      
+participants:
+  veterans: 18
+  caregivers: 0
+  dependents: 0
+  total_recruited: 18
+  completed_sessions_goal: 12
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD - 3 pilot sessions required for screen reader, screen magnifier, and voice command"
+  pilot_participant: "TBD"
+  research_dates: "2025-08-04 to 2025-08-15"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 45
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results: 
+      - "Key Result 1: Improve satisfaction with our web and mobile products by 5 points"
+      
+veteran_journey_phases:
+  - "Across all phases: Veterans need to verify benefits eligibility and status"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Related to benefit letters redesign efforts"
+    
+tags:
+  - "benefit-letters"
+  - "authenticated-experience"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "veterans"
+  - "assistive-technology"
+  - "screen-reader"
+  - "mobile"
+  - "desktop"
+  - "accessibility"
+  - "mailing-address"
+  - "documents"
+  - "records"
+---
+
 # Research Plan for Your VA benefit letters and documents research study
 
 ## Background 🏗️

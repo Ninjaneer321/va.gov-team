@@ -1,3 +1,137 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Discovery Interviews, Income Limits App, October 2022"
+date: 2022-10-19
+last_updated: 2022-10-19
+team: "Public Websites"
+product: "Income Limits App"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "The existing income limits application lacks reliably accurate data, plain language, and clearly defined use cases, usability design, and testing to ensure it's aligned to Veteran needs and intuitive to use."
+  product_location: "VA.gov health benefits section"
+  user_familiarity: "Rebuild and modernization of existing application using clearly defined Veteran use cases"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/income-limits-app/readme.md"
+
+# Research Design
+methodology: "semi-structured interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand Veteran use cases for determining eligibility for VA National medical benefits and prescriptions"
+  - goal_2: "Identify events and context that drive Veterans to consider their eligibility"
+  - goal_3: "Learn about problems Veterans encounter when trying to determine eligibility"
+
+research_questions:
+  - "What events drive a Veteran to consider their eligibility for health care benefits and prescriptions?"
+  - "How do Veterans first determine eligibility for health care benefits and prescriptions?"
+  - "Do Veterans think about/consider their eligibility for health care benefits and prescriptions?"
+  - "If they do, when and how do they consider their eligibility?"
+  - "What problems do Veterans encounter when trying to determine eligibility?"
+  - "What do Veterans need to do after they understand their eligibility?"
+
+hypotheses:
+  - "Veterans will likely not know the current application exists, and VA.gov may not be Veterans' go-to source of information around benefit eligibility"
+  - "Veterans with benefits will have worked with someone in person or over the phone to get help determining eligibility and applying for benefits"
+  - "Veterans may not be aware of when or how their eligibility for benefits was determined"
+
+expected_outcomes: "Learnings will inform redesign of the application, taking into account context surrounding Veteran use cases to make the application experience as intuitive and seamless as possible"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation with three cohorts"
+  
+  primary_criteria:
+    - "Cohort 1: 5 Veterans who have recently (within the past 3 months) applied for VA health care benefits"
+    - "Cohort 2: 5 Veterans who are actively considering applying for VA health care benefits"
+    - "Cohort 3: 5 Veterans who have recently (within the past 3 months) experienced a change that may result in a change of eligibility"
+    - "10 Veterans currently receiving VA health care benefits"
+    - "5 Veterans not currently receiving VA health care benefits"
+    
+  secondary_criteria:
+    - "5 women Veterans"
+    - "2 LGBTQ+ Veterans"
+    - "Various race/ethnicity (15 participants)"
+    - "5 participants age 55+"
+    - "Various education levels (15 participants)"
+    - "5 participants who live in rural areas"
+    - "3 participants with cognitive impairment and/or functional disabilities"
+    
+  screener_questions:
+    - question: "How often do you go online to access VA benefits and services?"
+      qualifying_response: "Recruit a diversity of responses"
+    - question: "Are you currently receiving VA health care benefits?"
+      qualifying_response: "10 yes, 5 no for appropriate cohorts"
+    - question: "Which of the following best describes when you (most recently) applied for VA health care benefits?"
+      qualifying_response: "Within the past month or 3 months for Cohort 1"
+      
+participants:
+  veterans: 15
+  caregivers: 0
+  dependents: 0
+  total_recruited: 15
+  completed_sessions_goal: 12
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2022-10-14"
+  pilot_participant: "Christopher Keene"
+  research_dates: "2022-10-19 to 2022-11-21"
+  research_review_submission: ""
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: 
+      - "Increase usage of digital, self-service tools"
+      - "Increase benefit use and enrollment"
+  - objective: "Decrease the time Veterans spend waiting for an outcome"
+    key_results:
+      - "Decrease call center volume, wait time, and time to resolution"
+  - objective: "Increase the quality and reliability of VA services"
+    key_results:
+      - "Veterans and their families can find a single, authoritative source of information"
+      - "Veterans and their families trust the security, accuracy, and relevancy of VA.gov"
+      
+veteran_journey_phases:
+  - "Getting out"
+  - "Starting up"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/168"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/income-limits-app/initiatives/2023-launch/research/conversation-guide.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Income limits app"
+  - "PRDT: VA health care eligibility"
+  - "research-method: semi-structured-interviews"
+  - "research-method: moderated"
+  - "research-phase: discovery"
+  - "cognitive-disability"
+  - "rural"
+---
+
 # Research Plan for Discovery Interviews, Income Limits App, October 2022
 
 ## Background

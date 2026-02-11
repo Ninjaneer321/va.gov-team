@@ -1,3 +1,116 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Accessibility Feedback from Disabled Veterans, October 2022"
+date: 2022-10-10
+last_updated: 2022-10-10
+team: "Digital Experience - ADE"
+product: "Accessibility Feedback Process"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Disabled Veterans may find existing feedback methods inaccessible, limiting their ability to provide accessibility feedback on VA.gov. We need to establish a process to collect accessibility feedback from the public that centers and includes disabled Veterans, their caregivers, and family members."
+  product_location: "VA.gov sitewide - feedback mechanisms (Medallia, Section 508 page, contact center)"
+  user_familiarity: "New - establishing a new accessibility feedback process"
+  product_brief_url: "Not specified"
+
+# Research Design
+methodology: "Mixed methods - desk research, accessibility audits, semi-structured interviews, key informant interviews"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Determine whether disabled Veterans are providing feedback through existing feedback mechanisms and if not, why not"
+  - goal_2: "Gain preliminary insights into disabled Veterans' behaviors, feelings, perspectives, and expectations on providing accessibility feedback"
+  - goal_3: "Establish a process to collect accessibility feedback from the public"
+
+research_questions:
+  - "How accessible and usable are current feedback methods on VA.gov?"
+  - "Where do disabled Veterans currently provide or expect to provide accessibility feedback on VA.gov?"
+  - "What kind of accessibility feedback do disabled Veterans provide or want to provide on VA.gov?"
+  - "Do some subgroups among disabled Veterans have a greater need for providing and resolving accessibility feedback?"
+  - "How is accessibility feedback for VA.gov currently processed?"
+  - "What mental models do disabled Veterans have of the accessibility feedback process on VA.gov?"
+
+hypotheses:
+  - "Disabled Veterans have an interest in providing feedback in the first place"
+  - "Disabled Veterans are actively accessing and using VA.gov"
+  - "Some disabled Veteran subgroups may be more likely to provide or need a response from accessibility feedback"
+
+expected_outcomes: "Establish insights on accessibility feedback mechanisms and inform development of an accessible process for collecting and responding to accessibility feedback from disabled Veterans"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Not specified - appended to existing studies"
+  approach: "Convenience sampling - appended questions to existing disabled Veteran interviews"
+  
+  primary_criteria:
+    - "Disabled Veterans (Veterans who identify with or have been diagnosed with a disability)"
+    - "Participants include Veterans with various disability types (visual, auditory, motor, cognitive, temporary, permanent, congenital)"
+    - "Veterans actively using VA.gov"
+    
+  secondary_criteria:
+    - "Caregivers and family members of disabled Veterans"
+    - "Diversity across disability types and severity"
+    
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  total_recruited: 0
+  completed_sessions_goal: 0
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "Not specified"
+  pilot_participant: "Not specified"
+  research_dates: "October 2022 ongoing"
+  research_review_submission: "Not specified"
+  
+session_details:
+  duration_minutes: 0
+  buffer_minutes: 0
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Center and include disabled Veterans in the modernized VA.gov accessibility strategy"
+    key_results: "Establish accessible feedback mechanisms that disabled Veterans can use"
+      
+veteran_journey_phases:
+  - "Living civilian life"
+  - "Aging"
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Putting down roots"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Contact center surveys and analytics"
+    - "Section 508 office interviews"
+    - "Blinded Veterans Association SME interviews"
+    
+tags:
+  - "Accessibility"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "DSP: Ask users for feedback"
+  - "semi-structured-interviews"
+  - "mixed-methods"
+  - "screen-reader"
+  - "assistive-technology"
+  - "PRDT: VA-gov"
+  - "disability"
+  - "user-feedback"
+  - "508-compliance"
+  - "WCAG"
+---
+
 # Accessibility Feedback from Disabled Veterans, Family Members, and Caregivers
 - Drafted by Josh Kim on Oct 10, 2022
 - Reviewed by Cindy Merrill, Tiffany Pender, Laura Flannery, Robyn Singleton, Liz Lantz, Martha Wilkes

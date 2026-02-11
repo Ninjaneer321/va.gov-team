@@ -1,3 +1,132 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VSA Authenticated Experience, Profile 2.0 UAT, September 2020"
+date: 2020-09-01
+last_updated: 2026-02-10
+team: "VSA Authenticated Experience"
+product: "Profile"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Test that the new profile is working properly on production before launching it to all users. Verify all sections load correctly and functionality works as expected for LOA3 users."
+  product_location: "VA.gov Profile section (beta testing on production)"
+  user_familiarity: "Iteration - new redesigned Profile combining Profile and Account sections"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account"
+
+# Research Design
+methodology: "user acceptance testing (UAT)"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Verify the profile loads properly with user's name and military badge for LOA3 users"
+  - goal_2: "Confirm all profile sections load correctly and display appropriate information from the database"
+  - goal_3: "Test that all editable fields can be updated successfully across sections"
+  - goal_4: "Validate error states, messaging, and user flows work as designed"
+
+research_questions:
+  - "Is the profile loading properly with the users name and military badge (if applicable)?"
+  - "Is the profile loading all sections when it should be (LOA3) and NOT showing when it's NOT supposed to be (LOA1, can't match records)?"
+  - "Can a user get to the profile from other links on VA.gov (change address page, direct deposit page, account bookmark)?"
+  - "Is personal and contact information being pulled in correctly from the database?"
+  - "Can users successfully edit and update their contact information (addresses, phone numbers, contact email)?"
+  - "Do address validation, saving, error messaging, and cancel flows work properly?"
+  - "Is military information being pulled in correctly from the database?"
+  - "Is direct deposit showing/hiding appropriately based on eligibility?"
+  - "Can eligible users update their direct deposit information?"
+  - "Is identity verification, 2FA, and terms and conditions status displaying correctly in Account Security?"
+  - "Are connected apps displaying correctly and can users connect/disconnect apps?"
+  - "Do all FAQ dropdowns work properly and answer the questions users have?"
+
+hypotheses:
+  - "Profile will work as expected, but we will discover some bugs that we did not previously know about."
+
+expected_outcomes: "Identify and fix any bugs or issues before full launch to ensure a smooth experience for all users when the new profile is released."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "targeted recruitment for specific user scenarios"
+  
+  primary_criteria:
+    - "10 total participants"
+    - "5 participants who receive compensation & pensions payments from the VA (confirmed prior to sessions)"
+    - "5 participants who do NOT receive compensation & pensions payments from the VA (confirmed prior to sessions)"
+    - "All participants must be LOA3 (identity verified) on VA.gov"
+    - "Must be able to screenshare via Zoom and have Zoom downloaded"
+    
+  secondary_criteria:
+    - "Mix of users with different benefit types and profile configurations"
+    
+  screener_questions:
+    - question: "Are you LOA3 (identity verified) on VA.gov? Can you see your profile when you sign in?"
+      qualifying_response: "Yes, I can see my profile"
+    - question: "Do you receive compensation & pensions payments from the VA?"
+      qualifying_response: "Yes or No (split between groups)"
+      
+participants:
+  veterans: 10
+  caregivers: 0
+  dependents: 0
+  total_recruited: 10
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2020-08-28"
+  pilot_participant: "Cassandra Allen"
+  research_dates: "2020-09-01 to 2020-09-11"
+  research_review_submission: "2020-08-25"
+  
+session_details:
+  duration_minutes: 30
+  buffer_minutes: 30
+  max_sessions_per_day: 8
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Personalization 2.0"
+    key_results: 
+      - "Successfully launch combined Profile section on VA.gov"
+      - "Ensure profile functionality works properly for all LOA3 users"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account/Research"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account/Research/2020-03-profile-redesign/research-plan.md"
+    
+tags:
+  - "profile"
+  - "authenticated-experience"
+  - "UAT"
+  - "user-acceptance-testing"
+  - "quality-assurance"
+  - "personalization"
+  - "contact-information"
+  - "personal-information"
+  - "military-information"
+  - "direct-deposit"
+  - "account-security"
+  - "connected-apps"
+  - "LOA3"
+  - "veterans"
+  - "VSA"
+---
+
 # Research Plan for Profile UAT
 
 ## Goals

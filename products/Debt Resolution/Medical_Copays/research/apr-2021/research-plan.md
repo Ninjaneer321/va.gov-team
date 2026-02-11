@@ -1,3 +1,133 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Debt Portal Medical Copay Enhancement Discovery, April 2021"
+date: 2021-04-20
+last_updated: 2026-02-10
+team: "Debt Resolution Team"
+product: "Debt Portal Medical Copay Enhancement"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The Debt Portal currently includes Compensation, Pension, and some Education debts. Need to enhance the tool by including VHA copayments and Veteran Patient Statements. Currently, Veterans access last 6 months of statements through AccessVA or MyHealtheVet. Full discovery needed to validate assumptions about how benefit and health debts should interact."
+  product_location: "VA.gov Debt Portal - https://staging.va.gov/manage-va-debt/"
+  user_familiarity: "Enhancement to existing product - discovery phase"
+  product_brief_url: "TBD"
+
+# Research Design
+methodology: "Directed interviews and usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Inform how to present information from Veteran Patient Statements on VA.gov"
+  - goal_2: "Validate assumptions about how benefit and health debts should interact"
+  - goal_3: "Identify where Veterans struggle with current paper statements and what details matter most"
+
+research_questions:
+  - "Where do Veterans expect to find and interact with their VA copayments?"
+  - "If on MHV or eBenefits, what would they be looking for and where?"
+  - "If on VA.gov, what would they be looking for and where?"
+  - "Do Veterans expect to find all money owed to VA in a single tool?"
+  - "Does their expectation match their ideal?"
+  - "How do Veterans conceptualize the mailed Veteran Patient Statements? As debts, bills, something else?"
+  - "How can we improve Veteran Patient Statements?"
+  - "How do Veterans prioritize information on the statements?"
+
+hypotheses:
+  - "Based on prior research, Veterans will go to MHV or Google search by default to find copayment charges"
+  - "Once on VA.gov, Veterans will expect to find statements under Health care hub, but will resort to medical records or benefit letters when they don't see relevant link"
+  - "Veterans may expect to see benefit debts and copayment bills in separate places, but may prefer to see all money owed to VA together"
+  - "Veterans will struggle to interpret the Patient Statement in areas including: account summary, description line items, and payment options"
+  - "Veterans may conceptualize statements as either 'debts' or 'bills' or find them interchangeable"
+
+expected_outcomes: "Inform the design and information architecture for presenting copayment information on VA.gov and identify improvements to Veteran Patient Statements"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment for VA health care users with varied copayment scenarios"
+  
+  primary_criteria:
+    - "Must use VA health care (disqualify those that don't)"
+    - "Must be comfortable discussing past experiences with VA Health Care copayments"
+    - "Mix of participants who pay for copays and those who don't"
+    - "Must have Zoom downloaded and know how to screen share"
+    
+  secondary_criteria:
+    - "At least 1 woman"
+    - "At least 1 person of color"
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    - "At least one person without college degree"
+    - "At least one person with no college experience"
+    - "At least one person in rural or remote area"
+    - "At least one person in major metropolitan area"
+    - "At least one participant with cognitive impairments/functional disabilities"
+    - "At least one non-native English speaker"
+    - "At least one person who uses assistive technology"
+    
+  screener_questions:
+    - question: "Which of the following describes you?"
+      qualifying_response: "I use VA health care"
+    - question: "Do you pay for VA health care copays?"
+      qualifying_response: "Mix of yes and no responses"
+    - question: "If no, why do you not pay for copayment charges?"
+      qualifying_response: "Disability rating 50%+, secondary insurance, financial assistance, or other"
+      
+participants:
+  veterans: 15
+  caregivers: 0
+  dependents: 0
+  total_recruited: 15
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-04-20"
+  pilot_participant: "Craig Wheeler"
+  research_dates: "2021-04-22 to 2021-04-28"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: "Enhance Debt Portal to include medical copayments"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Consolidate all debt information including copayments in one location"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Managing primary care and chronic health issues"
+  - "Managing my declining health"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Debt Letters MVP research"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Medical Copays"
+  - "PRDT: Debt Portal"
+  - "BNFT: Healthcare"
+  - "discovery"
+  - "directed-interviews"
+  - "usability-testing"
+  - "remote-research"
+  - "authenticated-experience"
+  - "payment"
+  - "debt-resolution"
+  - "financial-management"
+  - "information-architecture"
+---
+
 # Research Plan for Debt Resolution Team, Debt Portal Medical Copay Enhancement Discovery
 
 As a designer I need to create a research plan to share with my team.

@@ -1,3 +1,136 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Public Websites, Outreach & Events, December 2021"
+date: 2021-12-01
+last_updated: 2026-02-10
+team: "Public Websites"
+product: "Outreach & Events"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "The Outreach & Events calendar provides a flat listing of upcoming national VA events. Users need better ways to filter events by date range and view recurring events together to find events that fit their schedules and register for all events they're interested in."
+  product_location: "VA.gov Outreach and Events section"
+  user_familiarity: "iteration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/outreach-events/product-outline.md"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Get user feedback on designs for filtering by date range"
+  - goal_2: "Get user feedback on designs for viewing recurring events together"
+  - goal_3: "Consider findings and recommendations to refine designs before launch"
+
+research_questions:
+  - "How intuitive is our design for filtering by date range?"
+  - "What do Veterans think about the options for date range?"
+  - "What do Veterans think about filtering by a specific date and a date range?"
+  - "How intuitive is our design for recurring events? Do Veterans understand that the event is repeating?"
+  - "Are Veterans able to register for individual events in the series of recurring events?"
+  - "How do Veterans expect to look for VA events?"
+  - "What kind of location information for events do Veterans want to see in the list of events? (e.g., virtual/in-person, city, address)"
+  - "For in-person events, what specific information is expected? (i.e., is city enough information, or also want street address?)"
+
+hypotheses:
+  - "Veterans will understand how to use date filters to find events they are interested in"
+  - "Filtering events by date will enable Veterans to find events that fit in their schedules"
+  - "Seeing which events are recurring will enable Veterans to register for all events they're interested in"
+
+expected_outcomes: "Findings will inform design refinements before launch to ensure Veterans can effectively filter and find VA events that fit their schedules."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation"
+  
+  primary_criteria:
+    - "All are Veterans"
+    - "At least 2 people 55 or older"
+    - "At least 2 people with a cognitive disability (e.g., TBI)"
+    - "All have a smartphone and are willing to join Zoom call from their phone"
+    - "All have working microphone and Zoom app downloaded, know how to share screen"
+    
+  secondary_criteria:
+    - "At least 1 person of color"
+    - "At least 1 woman"
+    - "At least 1 person 35 or under"
+    - "At least 2 people who don't have any degree or vocational training after high school"
+    - "At least 1 person that has a college degree"
+    - "At least 2 people who live in rural or remote area"
+    - "At least 1 person who lives in major metropolitan area"
+    - "At least 1 non-native English speaker"
+    
+  screener_questions:
+    - question: "Are you a Veteran?"
+      qualifying_response: "Yes"
+    - question: "Do you have a smartphone and are you willing to join our Zoom call from your phone?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 10
+  caregivers: 0
+  dependents: 0
+  total_recruited: 10
+  completed_sessions_goal: 5
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-11-29"
+  pilot_participant: "Keith Adkins, Dave Sukharan"
+  research_dates: "2021-12-01 to 2021-12-06"
+  research_review_submission: "2021-11-24"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 6
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: "Enable Veterans to more easily discover and register for VA events"
+  - objective: "Increase the quality and reliability of VA services"
+    key_results: "Provide better filtering and organization of events to improve user experience"
+      
+veteran_journey_phases:
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/products/outreach-events/initiatives/2021-filtering-recurring-events/initiative-briefing.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/outreach-events/research/2021-filtering-recurring-events/conversation-guide.md"
+    
+tags:
+  - "PRDT: Outreach and Events"
+  - "AUD: Veterans"
+  - "usability testing"
+  - "events"
+  - "calendar"
+  - "filtering"
+  - "recurring events"
+  - "date range"
+  - "DSC: Filters"
+  - "DSC: Calendar"
+  - "DSP: Filtering"
+  - "HDW: Mobile"
+  - "HDW: Smartphone"
+  - "accessibility"
+  - "cognitive disability"
+  - "remote"
+  - "moderated"
+---
+
 # Research Plan for Public Websites, Outreach & Events, Dec 2021
 
 ## Background

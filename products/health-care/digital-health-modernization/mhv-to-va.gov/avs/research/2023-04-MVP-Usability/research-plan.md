@@ -1,3 +1,131 @@
+---
+# Research Plan Metadata
+title: "Research Plan for AVS on VA.gov MVP, May 2023"
+date: 2023-06-06
+last_updated: 2023-06-06
+team: "Digital Health Modernization"
+product: "After Visit Summary (AVS) on VA.gov"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "After Visit Summaries (AVS) promote patient-centered outpatient care, summarize medical information, enhance communication, and engage patients in their care. Veterans currently receive printed AVS at clinics or view PDFs on My HealtheVet. We want to create an AVS experience on VA.gov that meets Veteran expectations and provides value."
+  product_location: "Appointments section and Care Summaries & Notes section on VA.gov"
+  user_familiarity: "New product - MVP testing"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/avs"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Get feedback from Veterans and caregivers on the After Visit Summary MVP about ease of use and how well it met expectations"
+  - goal_2: "Understand if Veteran/caregivers understand the information displayed within the AVS"
+  - goal_3: "Understand what notifications Veterans expect to get about AVS"
+
+research_questions:
+  - "Can Veterans/caregivers easily find the AVS within the Appointments section and/or the Care Summaries & Notes section?"
+  - "Are any sections or terms displayed within the AVS confusing to Veterans/caregivers?"
+  - "Is there any information missing that Veterans/caregivers expect to see in an AVS?"
+  - "Is there information displayed that Veterans/caregivers weren't expecting to see?"
+  - "What notifications about AVS are helpful to Veterans?"
+  - "What information do Veterans expect in an AVS notification?"
+  - "Do Veterans want to receive one notification for each AVS or one notification for all appointments in one day?"
+
+hypotheses:
+  - "Veterans and caregivers will be able to locate the AVS within the Appointments section and/or the Care Summaries & Notes section"
+  - "Some Veterans and Caregivers will use different terms than those displayed in the AVS for at least some of the medical terms"
+  - "Some Veterans and Caregivers will not understand all of the medical terms without support"
+  - "Some Veterans and Caregivers will have clear insights into what notifications and information within each notification would be beneficial to them"
+
+expected_outcomes: "We will apply insights from this research to improve and iterate on the VA.gov AVS experience."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "diverse sample across age, abilities, and ethnicities"
+  
+  primary_criteria:
+    - "Mix of Veterans and caregivers"
+    - "Diverse age distribution"
+    - "Diverse education levels"
+    - "Diverse racial and ethnic backgrounds"
+    
+  secondary_criteria:
+    - "Geographic diversity"
+    - "Mix of urban and rural"
+    
+  screener_questions:
+    - question: "Recruitment criteria details in recruitment ticket"
+      qualifying_response: "See recruitment request ticket"
+      
+participants:
+  veterans: 10
+  caregivers: 2
+  dependents: 0
+  total_recruited: 12
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-06-06"
+  pilot_participant: "Stephen Barrs"
+  research_dates: "2023-06-14 to 2023-06-22"
+  research_review_submission: "2023-06-06"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Veterans can access and understand their After Visit Summaries online"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Centralized health information access on VA.gov"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Personalized AVS experience with relevant appointment information"
+      
+veteran_journey_phases:
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/avs/research/AVS%20UT%20presentation%20%209-15-16%20final.pdf"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "MHV: After-Visit-Summary"
+  - "MHV: Medical-Records"
+  - "PRDT: MHV-on-VA.gov"
+  - "PRDT: Appointments"
+  - "RESRCH: Usability"
+  - "RESRCH: Remote"
+  - "RESRCH: Prototype"
+  - "HDW: Mobile"
+  - "authenticated"
+  - "care-summaries"
+  - "appointment-summary"
+  - "medical-documentation"
+  - "digital-health-modernization"
+---
+
 # Research Plan for AVS on VA.gov MVP May, 2023
 
 <br/>

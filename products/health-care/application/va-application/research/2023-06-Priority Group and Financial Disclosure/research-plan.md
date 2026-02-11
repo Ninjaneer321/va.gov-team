@@ -1,3 +1,137 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Health Enrollment Team, 10-10EZ, July 2023"
+date: 2023-07-19
+last_updated: 2023-07-24
+team: "Health Enrollment Team"
+product: "10-10EZ Health Care Application"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The online health care application (10-10EZ) and update form (10-10EZR) impact a Veteran's eligibility and placement in Priority Groups, especially for those who need income information considered for copays and travel reimbursement. Veterans need better understanding of their Priority Group placement and how to update financial information after enrollment."
+  product_location: "VA.gov health care application"
+  user_familiarity: "Iteration on existing product"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application"
+
+# Research Design
+methodology: "semi-structured interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Learn more about Veteran's mental model when applying for and managing their health care benefits including the terms they use and how they understand eligibility and their specific benefits"
+  - goal_2: "Learn more about Veteran's awareness and understanding of their Priority Group placement including how that impacts their benefits as it pertains to financial disclosure, copays and travel reimbursement"
+  - goal_3: "Learn more about how Veterans would like to go about providing updated information - such as financial information or dependents - that could impact their health care benefits after enrollment"
+
+research_questions:
+  - "What are Veteran's understanding of what benefits they will get and the cost to them when enrolling for health care benefits?"
+  - "What are Veteran's understanding of what benefits they will get and the cost to them after enrollment?"
+  - "What are the Veteran's current pain points with how the health care application impacts the overall health care journey?"
+  - "What is the Veterans mental model of eligibility and Priority Groups around their benefits and costs?"
+  - "Do Veterans seem confused by Priority Group transparency prior to applying for enrollment?"
+  - "Do Veterans know their Priority Group easily or do they just know they are enrolled?"
+  - "What is the communication and education process around Priority Groups like from the Veteran's perspective today?"
+  - "What information around PG/copays would the Veteran like to have easy access to and where?"
+  - "Where do Veterans call out as their preferred way to view their Priority Group information?"
+  - "Where do Veterans call out as the way to manage their health benefits information like financial updates and copays?"
+  - "Currently, how do Veterans prefer to provide updated financial information? Ideal state, how would Veteran's prefer to make these updates?"
+  - "Do income updates cross benefits in the Veteran's POV or do they associate them only with their health care benefits?"
+  - "Would Veterans prefer to be prompted to provide updated financials or do this proactively?"
+  - "Where would Veterans expect to find the ability to update their financial income and deductibles online?"
+
+hypotheses:
+  - "We assume the overall process of determining eligibility and being placed in a Priority Group is somewhat unclear to Veterans today"
+  - "We assume that Veterans want more information about Priority Groups and transparency about how that impacts their eligibility and benefits"
+  - "We assume not all Veterans go through the enrollment process in one go, there is often stops, such as an exam and other claims filed in between that could impact their enrollment and Priority Group placement"
+  - "We assume there is a desire from Veterans for the Priority Group placement to be more clear as it pertains to benefits, copays, costs and travel reimbursement"
+  - "We assume that Veterans would like to update their financial information online if it was available but need a clear way to be communicated to or notified that they have to do so"
+  - "We think that Veterans will go to the VA profile to update personal information like financial updates annually"
+
+expected_outcomes: "Develop insights into an ideal state for Priority Group navigation, personalized Priority Group and copay information display, and where Veterans would expect to update financial information online. Check assumptions and terminology to remain Veteran-centric."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "diverse recruitment targeting enrolled Veterans"
+  
+  primary_criteria:
+    - "Veterans who applied for VA health care benefits within the past 6 years and are now enrolled and using these benefits"
+    - "Mix of participant ages (no more than 2 each per age group)"
+    - "No more than 3 participants who identify as White"
+    - "At least 3 participants who are women"
+    - "At least 2 participants who identify as Asian"
+    - "At least 2 participants who identify as Hispanic"
+    
+  secondary_criteria:
+    - "At least 4 participants who find it difficult to remember or learn new things, focus on a task, or make decisions (cognitive disability)"
+    
+  screener_questions:
+    - question: "Have you applied for VA health care benefits within the past 6 years and are now enrolled and using these benefits?"
+      qualifying_response: "yes"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "yes for at least 4 participants"
+      
+participants:
+  veterans: 15
+  caregivers: 0
+  dependents: 0
+  total_recruited: 15
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-07-21"
+  pilot_participant: "Fletcher Bonds, Heather Justice"
+  research_dates: "2023-07-27 to 2023-08-08"
+  research_review_submission: "2023-07-19"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Enhance Veterans' personalized online experience"
+    key_results: 
+      - "Veterans can manage their health care enrollment and benefits information online"
+      
+veteran_journey_phases:
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/Priority%20Group"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/application/va-application/EZ(R)%20Update%20Capabilities"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VA-online-forms"
+  - "PRDT: Health-care-application"
+  - "RESRCH: Generative"
+  - "RESRCH: Interviews"
+  - "DSC: Form-patterns"
+  - "authenticated"
+  - "10-10EZ"
+  - "priority-groups"
+  - "financial-disclosure"
+  - "eligibility"
+  - "enrollment"
+---
+
 # Research Plan for health care application generative research study around Priority Groups and Financial Updates [Health Enrollment Team, 10-10EZ, July 2023]
 
 ## Background

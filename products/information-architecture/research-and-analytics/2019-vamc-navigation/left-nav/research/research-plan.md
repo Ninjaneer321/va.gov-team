@@ -1,3 +1,117 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Global UX, VAMC Local Navigation, November-December 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Global UX"
+product: "VAMC Local Navigation (Left Nav)"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Users need a better way to browse and understand the contents within a section and navigate to desired content within VA.gov without engaging in 'pogo-stick' behavior (clicking into pages and back out repeatedly)"
+  product_location: "VA.gov - all sections with local navigation, testing on Pittsburgh VAMC"
+  user_familiarity: "New design for existing navigation component"
+  product_brief_url: ""
+
+# Research Design
+methodology: "mixed-methods"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Determine if the new local navigation design is better than the current navigation design"
+  - goal_2: "Assess if users sufficiently understand the new navigation design to interact with it as the designer intended"
+  - goal_3: "Evaluate if the design helps users ascertain where they are in the information architecture"
+
+research_questions:
+  - "Do users currently have a hard time finding content in subsections on VA.gov?"
+  - "Does this approach to the design make it easier to find content in subsections on VA.gov?"
+  - "Do users of this design understand how to browse the children of a section without navigating to that section?"
+  - "Do users of VA.gov use the local navigation element as a method of ascertaining where they are in the information architecture?"
+  - "Does the new design do a good job of helping users ascertain where they are in the information architecture of VA.gov?"
+
+hypotheses:
+  - "Users of the current local navigation design cannot easily find content deeper within the site without engaging in 'pogo-stick' behavior"
+  - "Users of the current local navigation design cannot make deep lateral moves across parent level sections easily"
+  - "Users of the redesigned local navigation will find this design helpful in browsing a subsection without going to that subsection and reading the page"
+  - "Users of the redesigned local navigation will try to make deep lateral moves across parent-level sections without using the back button or breadcrumbs"
+  - "Users may or may not understand how to interact with navigation elements for 'parents' which requires the parent to be replicated as a 'child' heading beneath the parent upon expansion"
+
+expected_outcomes: "Determine whether the new approach is more effective than the current approach and whether users fully understand the design of the new approach"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Geographic targeting"
+  
+  primary_criteria:
+    - "Western PA residents that are Veterans"
+    - "Some familiarity with Pittsburgh area VA facilities (used at least once)"
+    
+  secondary_criteria:
+    - "Will accept caregivers, but only up to 4"
+    
+  screener_questions:
+    - question: "Are you a Western PA resident?"
+      qualifying_response: "Yes"
+    - question: "Are you a Veteran with familiarity with Pittsburgh area VA facilities?"
+      qualifying_response: "Yes, have used at least once"
+      
+participants:
+  veterans: 12
+  caregivers: 4
+  dependents: 0
+  total_recruited: 16
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2019-11-27"
+  pilot_participant: "Lauren Alexanderson, Ryan Thurwell, Andy Lewandowski, or Matt Self"
+  research_dates: "2019-12-02 to 2019-12-10"
+  research_review_submission: ""
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 0
+  max_sessions_per_day: 6
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can find what they need on VA.gov"
+    key_results: 
+      - "Improved navigation and findability within VA.gov sections"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Managing my declining health"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Previous VAMC navigation research"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: Facilities"
+  - "DSP: Navigation"
+  - "usability-testing"
+  - "ethnographic-interview"
+  - "remote-research"
+  - "VAMC"
+  - "information-architecture"
+  - "left-nav"
+---
+
 # Research Plan for Global UX, Local Navigation, November/December 2019
 ## Goals of the research
 

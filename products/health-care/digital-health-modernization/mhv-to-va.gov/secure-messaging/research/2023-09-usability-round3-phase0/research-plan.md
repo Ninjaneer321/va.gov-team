@@ -1,3 +1,131 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV on VA.gov Secure Messaging Usability Round 3, September 2023"
+date: 2023-09-05
+last_updated: 2023-09-05
+team: "Digital Health Modernization"
+product: "Secure Messaging on MHV on VA.gov"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Test updates to Secure Messaging in live environment based on November 2022 prototype feedback, including additional functionality and accessibility provisions"
+  product_location: "Secure Messaging within MHV on VA.gov"
+  user_familiarity: "Third round of usability testing with updates from previous rounds"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging"
+
+# Research Design
+methodology: "Remote moderated usability testing in live environment"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Identify major usability or content issues with current state of secure messaging in MHV on VA.gov"
+  - goal_2: "Identify major usability issues with messaging, message threads, filtering messages, and draft components"
+  - goal_3: "Identify any barriers that may prevent Veterans who use screen-readers and text-magnifiers from completing secure messaging goals"
+
+research_questions:
+  - "Do Veterans notice FAQs and menu bar on landing page?"
+  - "Can Veterans originate secure messages to communicate with providers?"
+  - "Do Veterans understand what it means to 'edit list' of contacts?"
+  - "What are Veterans' expectations about message threads?"
+  - "Can Veterans reply to secure messages and understand draft functionality?"
+  - "Do Veterans understand the filter box function?"
+  - "Can Veterans locate draft folder and continue a previously started message?"
+
+hypotheses:
+  - "Veterans will understand how to send messages to their healthcare providers"
+  - "Veterans will understand how to reply to messages and how to remove and attach documents"
+  - "Veterans will understand message threads and its functionality"
+  - "Veterans will understand how to search for a specific message and use the filter feature"
+  - "Veterans will understand how to access drafted items, continue, and delete them"
+
+expected_outcomes: "Results will inform final updates to secure messaging design including accessibility improvements for screen reader and magnification users"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Purposive sampling for accessibility and diverse device usage"
+  
+  primary_criteria:
+    - "Screen reader users (10 recruited for 6 completions)"
+    - "Sighted users including 7 screen magnification users (14 recruited for 10 completions)"
+    - "All must regularly use Secure Messaging (14 total)"
+    - "All must have cognitive disabilities (14 total)"
+    - "Mix of mobile (7) and desktop (7) users for sighted cohort"
+    
+  secondary_criteria:
+    - "Age distribution emphasizing older Veterans (65+)"
+    - "Education distribution across all levels"
+    - "Diverse racial and ethnic backgrounds"
+    - "Mix of rural and urban participants"
+    
+  screener_questions:
+    - question: "Do you have a My HealtheVet (MHV) account and have you used Secure Messaging within the last 12 months?"
+      qualifying_response: "Yes"
+    - question: "Are you a person who relies on screen reader technology to access the internet?"
+      qualifying_response: "Yes for 10 participants"
+    - question: "Have you been diagnosed with a cognitive disability?"
+      qualifying_response: "Yes for 14 participants"
+      
+participants:
+  veterans: 16
+  caregivers: 0
+  dependents: 0
+  total_recruited: 24
+  completed_sessions_goal: 16
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-09-05"
+  pilot_participant: "TBD"
+  research_dates: "2023-09-11 to 2023-09-28"
+  research_review_submission: "2023-09-01"
+  
+session_details:
+  duration_minutes: 90
+  buffer_minutes: 45
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research"
+    
+tags:
+  - "MHV"
+  - "secure-messaging"
+  - "usability-testing"
+  - "accessibility"
+  - "screen-reader"
+  - "screen-magnification"
+  - "cognitive-disability"
+  - "authenticated"
+  - "veterans"
+  - "health-care"
+---
+
 # **Research Plan for MHV on VA.gov, Secure Messaging, September 2023**
 
 **Background**

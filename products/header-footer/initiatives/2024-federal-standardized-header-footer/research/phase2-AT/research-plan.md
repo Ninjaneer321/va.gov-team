@@ -1,3 +1,148 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Usability Testing, Federal Standardized Header/Footer--Phase 2 (Assistive Tech users), January 2024"
+date: 2024-01-01
+last_updated: 2024-01-17
+team: "Sitewide"
+product: "Federal Standardized Header/Footer"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "OFCIO and GSA (USWDS) designed a new federal standardized header and footer to standardize across all federal agencies, including a new USA logomark. VA has volunteered to be the first high-impact service provider (HISP) to adopt this new header. This phase tests with assistive technology users to validate minimal to no negative impact."
+  product_location: "Sitewide header and footer across VA.gov"
+  user_familiarity: "Iteration on existing header/footer design"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/header-footer/initiatives/2024-federal-standardized-header-footer"
+
+# Research Design
+methodology: "Usability testing with assistive technology"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Determine wayfinding task success rate throughout header and footer menus for assistive technology users"
+  - goal_2: "Understand how Veterans using screen reader or screen magnifier technology navigate the proposed header and footer IA"
+  - goal_3: "Evaluate Veteran sentiment on USA logo and VA seal, with the dropping of the VA brand mark"
+
+research_questions:
+  - "Are Veterans (and others) able to navigate the newly organized footer with new column headings, link names, and separate VA and Federal footer sections?"
+  - "What tasks, if any, do participants struggle navigating to?"
+  - "How does the new font family and increased font size impact readability?"
+  - "Do Veterans (and others) using screen readers or other assistive technology have a positive experience with information wayfinding and task completion?"
+  - "What do Veterans (and others) think of the integration of both the authenticated menu and main menu on mobile into one menu?"
+  - "Do they provide a better, positive experience or create confusion? (i.e., how to sign in, sign out, locate auth menu items)"
+  - "What are Veterans' (and others') task success rates?"
+  - "What are Veterans' (and others') first impressions of the new header and footer?"
+  - "How do Veterans (and others) feel about the way VA is represented in the header without the letters VA?"
+  - "How do Veterans (and others) feel about the new USA logo?"
+
+hypotheses:
+  - "Veterans (and others) will be able to easily use the header and footer"
+  - "Veterans (and others) won't have any difficulty reading any of the text shown in the prototypes"
+  - "Veterans (and others) who use assistive technology (screen reader or screen magnification software) will be able to easily use the header and footer"
+  - "The new VA seal helps Veterans (and others) understand this is a VA website"
+  - "Veterans (and others) will be able to easily find the authenticated menu when it's integrated with the main menu in the mobile header"
+  - "The new USA logo mark helps Veterans (and others) understand this is a Federal government website"
+
+expected_outcomes: "The findings from this research will create an understanding of how the header and footer design impacts the Veteran wayfinding experience for assistive technology users"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling with assistive technology focus"
+  
+  primary_criteria:
+    - "ALL must use a screen reader or screen magnifier every time they access the Internet"
+    - "5 must use a screen reader"
+    - "5 must use a screen magnifier"
+    - "At least 5 have a computer and are willing to use it for the session"
+    - "At least 3 have a smartphone and are willing to use it for the session"
+    - "At least 8 are Veterans"
+    
+  secondary_criteria:
+    - "At least 2 people are age 55 or older"
+    - "At least 2 people 35 or under"
+    - "At least 2 people don't have any degree or vocational training after high school"
+    - "At least 2 people live in a rural or remote area"
+    - "At least 2 people have a cognitive disability (e.g., TBI)"
+    - "At least 3 people of color"
+    - "At least 2 women"
+    - "At least 2 people are LGBTQ+"
+    
+  screener_questions:
+    - question: "Do you use a screen reader or screen magnifier every time you use the Internet?"
+      qualifying_response: "Yes (disqualify if No)"
+      
+participants:
+  veterans: 8
+  caregivers: 3
+  dependents: 0
+  total_recruited: 11
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-01-23"
+  pilot_participant: "Sarah Koomson, Eli Mellen"
+  research_dates: "2024-01-29 to 2024-02-07"
+  research_review_submission: "2024-01-17"
+  
+session_details:
+  duration_minutes: 90
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Solidify the VA.gov platform"
+    key_results: 
+      - "Create consistent user experience across government websites"
+  - objective: "Refresh VA.gov homepage and IA"
+    key_results:
+      - "Standardized header/footer that contributes back to USWDS"
+      
+veteran_journey_phases:
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/465"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/header-footer/initiatives/2024-federal-standardized-header-footer/research/phase1-no-AT"
+    
+tags:
+  - "header"
+  - "footer"
+  - "sitewide"
+  - "navigation"
+  - "wayfinding"
+  - "information-architecture"
+  - "USWDS"
+  - "federal-standardization"
+  - "21st-Century-IDEA"
+  - "usability-testing"
+  - "assistive-technology"
+  - "screen-reader"
+  - "screen-magnifier"
+  - "accessibility"
+  - "mobile"
+  - "desktop"
+  - "CodePen"
+  - "veterans"
+  - "caregivers"
+  - "phase-2"
+---
+
 # Research Plan for Usability Testing, Federal Standardized Header/Footer--Phase 2 (Assistive Tech users), January 2024
 
 ## Background

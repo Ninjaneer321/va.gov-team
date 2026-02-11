@@ -1,3 +1,123 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Max CFIs (Employee Experience Team), June-July 2023"
+date: 2023-07-07
+last_updated: 2026-02-10
+team: "Employee Experience Team"
+product: "21-526EZ Disability Compensation Application - Claims for Increase"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The VA receives many claims for increase (CFIs) for conditions where a Veteran is already at the maximum rating for that condition. In most cases, the condition will be 'confirmed and continued' by a claims processor. We'd like to reduce the amount of time claims processors spend on these contentions by reducing the number of claims for increase Veterans file in this situation. First targeting Tinnitus claims which represent the largest category (nearly 25,000 claims filed in FY2022) of CFIs where the Veteran is already at the maximum disability rating."
+  product_location: "VA.gov 21-526EZ form, likely on the Rated Disabilities screen"
+  user_familiarity: "Iteration - small change to existing 526 application to educate Veterans during claim submission that they're already at the schedular maximum for Tinnitus"
+  product_brief_url: "https://docs.google.com/document/d/11-L6dbZ7Hah-e2PL3-nfcN5c5T8uAbn3EumLikrEhV4/edit#heading=h.v3g0dltmvazl"
+
+# Research Design
+methodology: "semi-structured interviews and concept test"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Learn how Veterans think and speak about CFIs and tinnitus"
+  - goal_2: "Assess whether our intervention could modify Veteran behavior as input to a go/no-go decision on the project"
+  - goal_3: "Evaluate early concept(s)"
+
+research_questions:
+  - "How do Veterans think about asking for an increase on a disability claim?"
+  - "How familiar are they with the rating percentages for conditions they have?"
+  - "What do they think about when deciding whether to file a claim for increase?"
+  - "How do they prepare to file a claim for increase?"
+  - "What will Veterans do when they try to file a claim for increase for Tinnitus but find out they're at the maximum rating?"
+  - "How will seeing messaging around Tinnitus being at the maximum rating affect how they think about their other rated conditions?"
+  - "How well does the concept communicate to Veterans what their choices are?"
+  - "Does the concept help Veterans feel more confident in their choice?"
+  - "Does the concept make Veterans feel the VA is on their side?"
+
+hypotheses:
+  - "We can use a relatively small intervention to reduce the number of claims that end up getting 'confirmed and continued' at the maximum rating for Tinnitus"
+  - "By providing just enough information, we can help Veterans understand whether they still might want to request the increase even if they're already at the maximum"
+  - "Some Veterans may be suspicious of the VA advising them not to request an increase"
+  - "Veterans are fairly well acquainted with rating %s and maximum ratings, but consider 'VA math' around maximum ratings, combined ratings, and IU to be opaque and somewhat untrustworthy"
+
+expected_outcomes: "If the research shows no influence on Veteran behavior from the intervention, we may decide not to proceed with the project. If the research does show a potential effect, we may proceed with the project. Information gathered will inform subsequent design of the intervention and potential expansion to other conditions."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation"
+  
+  primary_criteria:
+    - "All participants have used VA.gov to file a claim (disability, pension, or other)"
+    - "At least 2 but no more than 4 Veterans who identify as a gender other than male"
+    - "At least 2 but no more than 4 Veterans over 55 years old"
+    - "At least 3 Veterans have recently filed a claim for increase on an already rated condition (last 3 months)"
+    - "At least 2 Veterans have been granted a claim for Tinnitus (ringing in the ears)"
+    
+  secondary_criteria:
+    - "At least 2 Veterans under 35 years old"
+    - "At least 2 Veterans who are not White/Caucasian"
+    
+  screener_questions:
+    - question: "Have you ever used VA.gov to file a claim for disability, pension, or any other benefits?"
+      qualifying_response: "Yes"
+    - question: "Have you ever filed a claim for increase on a disability?"
+      qualifying_response: "Yes, within April-July 2023 (recruit 3) or Jan-March 2023 as fallback"
+    - question: "Are you currently receiving disability compensation for Tinnitus (ringing in the ears)?"
+      qualifying_response: "Recruit at least 2 who answer yes"
+      
+participants:
+  veterans: 6
+  caregivers: 0
+  dependents: 0
+  total_recruited: 6
+  completed_sessions_goal: 6
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-07-11"
+  pilot_participant: "Ilya Makedon"
+  research_dates: "2023-07-12 to 2023-07-20"
+  research_review_submission: "2023-07-01"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Fast-track disability claims"
+    key_results:
+      - "Reduce claims processor time on maximum rating contentions"
+      - "Reduce number of confirmed and continued claims"
+      
+veteran_journey_phases:
+  - "Living Civilian Life: Managing primary care and chronic health issues"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Form 526 usability research"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: 526EZ"
+  - "concept-test"
+  - "semi-structured-interviews"
+  - "authenticated"
+  - "remote"
+  - "HDW: Mobile"
+  - "claims-for-increase"
+  - "tinnitus"
+  - "maximum-rating"
+  - "discovery"
+---
+
 # Research Plan for Max CFIs (Employee Experience Team), June-July 2023
 
 

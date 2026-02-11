@@ -1,3 +1,137 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV on VA.gov, Medical Records, March 2024 - Sighted Participants"
+date: 2024-03-18
+last_updated: 2024-04-12
+team: "Digital Health Modernization"
+product: "Medical Records on MHV on VA.gov"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "As part of the Digital Health Modernization strategy, My HealtheVet (MHV) is being moved to VA.gov to create a centralized place for Veterans to access their health information. After initial prototype testing and feedback-informed iterations, this study assesses whether updates improve user experiences, tests new functionality, and includes Veterans with cognitive disabilities to explore further pain points."
+  product_location: "Figma prototypes for mobile and desktop"
+  user_familiarity: "Iteration on existing product - testing updated Medical Records prototype"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Identify any usability issues Veterans may experience in accessing their Care Summaries and Notes, Vaccines, Allergies, and Vitals records, including what information Veterans expect to see and whether they understand the information presented"
+  - goal_2: "Identify if Veterans know how to print/download both an individual record and list of records"
+  - goal_3: "Identify any barriers that may prevent Veterans with mild to severe Cognitive Disabilities from completing their Medical Records management goals"
+
+research_questions:
+  - "Can Veterans find the information they need to manage their health related to care summaries and notes, allergies, vaccines, and vitals?"
+  - "Can Veterans print/download a list and an individual record?"
+  - "What is Veterans' perception of the new experience in which they can view their records on screen?"
+
+hypotheses:
+  - "Most Veterans will be able to access and understand the information about their Vaccinations records to manage their health"
+  - "Most Veterans will be able to access and understand the information about their Allergies & reactions records to manage their health"
+  - "Most Veterans will be able to access and understand the information about their Care Summaries & Notes to manage their health"
+  - "Most Veterans will be able to access and understand the information about their Vitals to manage their health"
+  - "Most Veterans will find the information presented in their Medical Records adequate for managing their health"
+
+expected_outcomes: "Findings will identify usability issues and barriers for Veterans with cognitive disabilities, informing iterative improvements to Medical Records interface design."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "targeted recruitment with focus on cognitive disabilities and device diversity"
+  
+  primary_criteria:
+    - "15 participants must regularly use MHV"
+    - "10 participants with cognitive disabilities - mild to severe"
+    - "11 participants who are mobile users"
+    - "11 participants who are desktop users"
+    - "No current or previous (within the past 5 years) VA Employees"
+    
+  secondary_criteria:
+    - "Age distribution: 75+ (5), 65-74 (7), 55-64 (4), 35-54 (5), 18-34 (2)"
+    - "Education: High school or less (7), Some college (5), Associate (3), Bachelor's (4), Master's+ (3)"
+    - "Race/ethnicity: American Indian/Alaska Native (1), Asian (1), Black/African American (4), Hispanic/Latino (3), White/Caucasian (14)"
+    - "Rural (5) and Urban (17) mix"
+    
+  screener_questions:
+    - question: "Have you used My HealtheVet (MHV) for managing your Medical Records within the last 12 months?"
+      qualifying_response: "Yes - recruit 12"
+    - question: "Have you been diagnosed with (formally or informally) a cognitive disability?"
+      qualifying_response: "Yes - recruit 10"
+      
+participants:
+  veterans: 22
+  caregivers: 0
+  dependents: 0
+  total_recruited: 22
+  completed_sessions_goal: 15
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-03-18"
+  pilot_participant: "TBD"
+  research_dates: "2024-03-25 to 2024-04-12"
+  research_review_submission: "2024-03-18"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Enable Veterans to access and understand their medical records including Care Summaries and Notes, Vaccines, Allergies, and Vitals"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Centralize health information access through MHV on VA.gov"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Provide accessible print/download functionality for medical records"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research"
+    
+tags:
+  - "health-care"
+  - "medical-records"
+  - "my-healthevet"
+  - "mhv-on-vagov"
+  - "usability-testing"
+  - "cognitive-disability"
+  - "veterans"
+  - "authenticated-experience"
+  - "care-summaries-and-notes"
+  - "vaccines"
+  - "allergies"
+  - "vitals"
+  - "print-download"
+  - "remote-research"
+  - "moderated"
+  - "mobile"
+  - "desktop"
+  - "prototype-testing"
+  - "digital-health-modernization"
+---
+
 # **Research Plan for MHV on VA.gov, Medical Records, March 2024 - Sighted Participants**
 
 ## **Background**

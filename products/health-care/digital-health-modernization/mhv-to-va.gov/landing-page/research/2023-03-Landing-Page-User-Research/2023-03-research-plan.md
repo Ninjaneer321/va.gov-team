@@ -1,3 +1,127 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Core MHV on VA.gov Landing Page User Research, March/April 2023"
+date: 2023-03-09
+last_updated: 2023-03-09
+team: "Core MHV on VA.gov"
+product: "My HealtheVet Landing Page on VA.gov"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Understand how users are experiencing the new landing page after March 16, 2023 launch, whether they can find it from VA.gov home page, and identify UX opportunities for improvement"
+  product_location: "MHV landing page on VA.gov staging and production"
+  user_familiarity: "New landing page launched March 16, 2023, informed by previous prototype and IA research"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/product"
+
+# Research Design
+methodology: "Remote moderated interviews with wayfinding and usability tasks"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Assess users' reactions to and expectations of the new landing page for MHV on VA.gov"
+  - goal_2: "Determine if current wayfinding tactics are effective at guiding users through the page"
+  - goal_3: "Understand how users expect to update health-related preferences and receive timely statuses and notifications"
+
+research_questions:
+  - "What are users reactions to and expectations from the new landing page?"
+  - "How do they understand the new landing page in relation to VA.gov and the current version of MyHealtheVet?"
+  - "Are users able to navigate to the new landing page from an unauthenticated state?"
+  - "Can users navigate and use the tools available and achieve their goals using current wayfinding tactics?"
+  - "How do users expect to update their health-specific preferences in the new experience?"
+
+hypotheses:
+  - "Participants will sign in and then go to the My Health tab next to My VA in order to get to the new MHV on VA.gov landing page"
+  - "Participants will understand the landing page as a central location to perform common health-related tasks"
+
+expected_outcomes: "This research will inform updates to the MHV on VA.gov landing page currently in staging to be launched on March 16, 2023"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation with special requirements for Cerner facility exclusion and screenreader users"
+  
+  primary_criteria:
+    - "Must have a VA.gov account and be able to sign on during session"
+    - "Must use either login.gov or ID.me to sign in"
+    - "Must currently receive VA healthcare benefits"
+    - "Must NOT HAVE EVER received healthcare at any Cerner facilities (Spokane, Walla Walla, Columbus OH, Roseburg, White City)"
+    
+  secondary_criteria:
+    - "16 participants with MyHealtheVet account used in past 12 months"
+    - "12 participants requiring screenreader software"
+    - "12 participants willing to join from mobile device"
+    - "8 participants over age 55"
+    - "8 participants with cognitive disability"
+    - "6 participants identifying as other than Caucasian"
+    - "6 participants identifying as gender other than male"
+    
+  screener_questions:
+    - question: "Have you been to a VA healthcare facility for a medical appointment in the last 12 months?"
+      qualifying_response: "Yes"
+    - question: "Have you EVER received healthcare at any Cerner facilities?"
+      qualifying_response: "No"
+    - question: "Do you have an email and password for either Login.gov or ID.me that you use to sign into VA.gov?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 24
+  caregivers: 0
+  dependents: 0
+  total_recruited: 24
+  completed_sessions_goal: 24
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-03-13"
+  pilot_participant: "TBD"
+  research_dates: "2023-03-22 to 2023-04-04"
+  research_review_submission: "2023-03-09"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/initial-mhv-prototype"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA"
+    
+tags:
+  - "MHV"
+  - "landing-page"
+  - "health-care"
+  - "wayfinding"
+  - "usability-testing"
+  - "screen-reader"
+  - "authenticated"
+  - "veterans"
+---
+
 # Research Plan for Core MHV on VA.gov team, Landing Page User Research, March/April 2023
 
 ## Background

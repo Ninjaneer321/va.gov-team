@@ -1,6 +1,6 @@
 
 <!-- markdownlint-disable MD024 -->
-# Release Plan Template
+# 526 Sidenav Release Plan
 Copied from [Release Plan Template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/release-plan-template.md)
 
 ## Step 1: Development
@@ -19,12 +19,12 @@ Since we use a [continuous delivery](https://depo-platform-documentation.scrollh
 
 Before enabling your feature toggle in production, you'll need to:
 
-- [ ] Follow [best practices for QA](https://depo-platform-documentation.scrollhelp.site/developer-docs/qa-and-accessibility-testing).
-- [ ] Have your team perform as much validation in staging as possible. Validation may be challenging for some teams and systems due to downstream requirements, but the staging system should mimic the production system as much as possible.
-- [ ] Work any downstream or dependant systems proactively to ensure that the feature is ready for use once it hits production.
+- [x] Follow [best practices for QA](https://depo-platform-documentation.scrollhelp.site/developer-docs/qa-and-accessibility-testing).
+- [x] Have your team perform as much validation in staging as possible. Validation may be challenging for some teams and systems due to downstream requirements, but the staging system should mimic the production system as much as possible.
+- [x] Work any downstream or dependant systems proactively to ensure that the feature is ready for use once it hits production.
 - [ ] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
   - [ ] review the plan with your DEPO/OCTO representative.
-  - [ ] review the release plan with your team.
+  - [x] review the release plan with your team.
 
 ## Step 3: Production rollout
 
@@ -110,14 +110,14 @@ We recommend that the rollout plan has five stages, each increasing the number o
 #### Rollout Planning
 
 - Desired date range:
-  > 02/23 - 03/23
+  > Wednesday `02/25` for Stage A rollout, wrapping up with 100% within a few weeks 
 - How will you make the product available in production while limiting the number of users who can find/access it:
   > Flipper flags toggled on incrementally.
 - What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?: \[use your KPIs to help guide this. It could be things like *abandonment rate < 20%*, *reported contact center calls < 2 calls*, *error rate < 5%*, etc.\]
   - [Error tracking on frontend with Datadog RUM is coming shortly!](https://github.com/department-of-veterans-affairs/va.gov-team/issues/129505)
-  - 
-- Links to the dashboard(s) showing "success criteria" metrics: [FILL_IN] with link to dashboards (example: Google Analytics dashboard)
-- Who is monitoring the dashboard(s)?: [FILL_IN]
+
+- Links to the dashboard(s) showing "success criteria" metrics: [Error tracking on frontend with Datadog RUM is coming shortly!](https://github.com/department-of-veterans-affairs/va.gov-team/issues/129505) 
+- Who is monitoring the dashboard(s)?: Engineers who have access, and our PM
 
 *The KPIs and numbers are example values recommended by VSP but can be customized to your team's needs.*
 

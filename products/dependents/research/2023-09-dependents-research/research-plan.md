@@ -1,3 +1,118 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Benefits and Claims Dependent Experience Team, Dependent Verification, September 2023"
+date: 2023-10-06
+last_updated: 2026-02-10
+team: "Benefits and Claims Dependent Experience Team"
+product: "Dependent Verification"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The VA mails VA Form 21-0538, a mandatory paper form for dependent verification, to Veterans with dependents only every eight years. The burden is on the Veteran to notify the VA of any changes in dependent status in between these notifications. This results in significant over and underpayments, costing the VA ~ $250 million per year and burdening Veterans with debt."
+  product_location: "Email notification that would be sent annually to Veterans with dependents on file with VA. The email would include links to VA.gov for the Veteran to log in and view, add, or remove dependents."
+  user_familiarity: "The notification would be new, but the other tools already exist. Veterans would have varying levels of familiarity based on their past dependents and the number of changes they've had to report."
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/2023-09-dependents-research/conversation-guide-gen.md"
+
+# Research Design
+methodology: "usability testing and semi-structured interviews"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Learn how Veterans understand dependent benefits and risks as they relate to compensation, and how they navigate the process today"
+  - goal_2: "Evaluate the perceived trustworthiness and effectiveness of our proposed notification"
+  - goal_3: "Learn Veterans' device and notification preferences"
+
+research_questions:
+  - "Do Veterans know who qualifies as a dependent?"
+  - "Do Veterans understand that dependents can impact compensation benefits?"
+  - "Do Veterans understand the risk of debt / overpayment?"
+  - "What would Veterans like to know about dependent benefits?"
+  - "How do Veterans find their dependent information currently?"
+  - "Will Veterans quickly determine the purpose of notification and follow/complete the primary CTA?"
+  - "Are Veterans confident that the notification is coming from VA and is safe to engage with?"
+  - "What device would they use for various tasks?"
+  - "Text vs email vs mail — where do they expect to receive info and what would they prefer?"
+
+hypotheses:
+  - "Veterans will have some knowledge of the benefits and risks of claiming dependents through the VA but they may not be aware of the extent to which they can be liable for paying back benefit overpayments"
+  - "The majority of Veterans who need to make updates to their dependents will follow the call to action in the dependents verification notification"
+  - "The majority of Veterans will expect email notifications. A significant cohort who previously only used paper forms will expect mail notifications. A minority will prefer text notifications"
+
+expected_outcomes: "Evaluative findings will have direct implications for the design and content of our MVP email notification that is set to launch in Q1. More foundational insights will inform future enhancements (such as on-site notifications, changes to the Profile, View Dependents, and 686c pages, or additional notifications for other audiences) and help us prioritize where there is the greatest need and potential for impact."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation"
+  
+  primary_criteria:
+    - "Veterans with current dependents claimed on benefits"
+    - "See recruitment ticket for complete criteria"
+    
+  secondary_criteria:
+    - "See recruitment ticket for complete criteria"
+    
+  screener_questions:
+    - question: "Screener questions detailed in recruitment ticket"
+      qualifying_response: "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/415"
+      
+participants:
+  veterans: 16
+  caregivers: 0
+  dependents: 0
+  total_recruited: 16
+  completed_sessions_goal: 12
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-10-16"
+  pilot_participant: "Coforma team member (TBD)"
+  research_dates: "2023-10-30 to 2023-11-09"
+  research_review_submission: "2023-10-06"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Enhance Veterans' personalized online experience"
+    key_results: 
+      - "Reduce average amount of debt accrued by Veterans"
+      - "Reduce the $250 million that overpayments cost the VA every year"
+      
+veteran_journey_phases:
+  - "Getting out: Engaging VA to access benefits and services"
+  - "Putting down roots: Taking care of my family"
+  - "Retiring: Finding additional sources of income"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Profile team research showing dependents as top search term"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Dependents"
+  - "BNFT: Disability"
+  - "PRDT: Dependent-verification"
+  - "PRDT: Profile"
+  - "PRDT: 686c"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "authenticated"
+  - "remote"
+  - "HDW: Mobile"
+  - "HDW: Desktop"
+  - "notification"
+  - "email"
+---
+
 # Research Plan for Benefits and Claims Dependent Experience Team, Dependent Verification, September 2023
 *Questions about how to set up your research study? Reach out in the #research-ops Slack channel.* 
 

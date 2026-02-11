@@ -267,7 +267,7 @@ Revokes an active JWT token (logout functionality).
 
 ---
 
-### GET /vass/v0/appointment-availablity
+### GET /vass/v0/appointment-availability
 
 Retrieves available appointment time slots for an authenticated user.  Requires a Bearer Token received after successful authentication.
 

@@ -160,7 +160,7 @@ We conducted **remote moderated usability testing** to observe research particip
 Research sessions were conducted over Zoom during January 12-21, 2026. Sessions were 90 minutes long for Veterans using assistive technology (i.e., screen readers or screen magnifiers), and 60 minutes for Veterans not using any assistive technology (AT). 
 
 ## Participants
- Perigean recruited all **9 research participants** who were all Veterans. 7 participants were able to complete all the user tasks, and the other 2 participants were not able to because of technical issues.  
+ Perigean recruited all **9 research participants** who were all Veterans. 7 participants were able to complete all the user tasks, and the other 2 participants were not able to due to technical issues.  
  - **5 were full-time assistive technology users**:
    - 4 used a screen reader
    - 1 used a screen magnifier
@@ -207,13 +207,7 @@ For demographic details, see [Research participants](#user-content-research-part
 
 [Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
 
-1. The interstitial page was NOT effective in communicating about save in progress because when it came up, most users were focused on filling out form fields and anything other than that was ignored.
-1. Most users didn't understand that saving was happening all the time, as they assumed it would only happen after clicking the Finish later button or submitting the form.
-1. Most users would like their form data to be saved all the time, and they were pleasantly surprised when they heard that VA forms do this. 
-1. All 7 participants used the Finish later button to stop filling out the form, and successfully resumed by signing in and then using the My VA page. 
-1. All 6 participants who interacted with the accordions on the Review/Submit page were able to easily open and close them with the controls on the left side (instead of the right).
-1. Finding six
-1. Finding seven
+**1. PULL LIST FROM Details of Findings section below**
 
 ## Details of Findings 
 
@@ -223,43 +217,100 @@ For demographic details, see [Research participants](#user-content-research-part
 > **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
-### Finding 1. The interstitial page was NOT effective in communicating about save in progress because when it came up, most users were focused on filling out form fields and anything other than that was ignored.
+### Finding 1: The interstitial page was NOT effective in communicating about save in progress because most users were so focused on form fields that anything other than that was ignored.
 Half of the participants ignored the interstitial page when it came up because it was an **unwelcome interruption to their task of filling out a VA form and didn't seem relevant**. The wording on the page included "after every change", and two participants said that didn't apply to what they were doing, which was filling out the form for the first time. 
+
+  > *"I'm focused on the task, getting a job done. Trying to get to the form, and...I was kind of speed reading through it" (p7).*
+
+  > *"Where's my form? Let me fill it out...I read it and it didn't register, it didn't click" [that these were instructions to read] (p11).*
 
   > *"I was already beginning to input information on the previous page and then all of a sudden, it shows me what to expect in the form that I'm going to be filling out, which I basically was already doing, so that's probably why I did not focus on that" (p9).*
 
-  > *"I'm focused on the task, getting a job done. Trying to get to the form, and I'm missing all the fine print" (p7).*
+  > *"Bombarding somebody with the information in the beginning, if it's pertinent or not" (p8).*
 
-  > *p8 was surprised by seeing the page instead of more form fields, which he felt was "bombarding somebody with the information in the beginning, if it's pertinent or not" (p8).*
+Half of the participants did read the interstitial page but **most didn't remember that it said all of their work would be saved automatically**.  
 
-   > *"Where's my form? Let me fill it out...I read it and it didn't register, it didn't click" [that these were instructions to read] (p11).*
+While looking at the page again at the end of the research session, participants provided additional feedback on it: 
 
-Half of the participants did read the interstitial page but most didn't remember it saying that all of their work is saved automatically. When asked after filling out the form about when their information was saved, most participants said only after selecting the "Finish later" or "Submit" button. They skipped or forgot the message that their information gets saved automatically. When we talked with participants about automatic saving, they were pleasantly surprised. One participant pointed out that if we are actually saving form information all the time, why would they ever need to click "Finish later"? It seems like we're conflating two messages in the interstitial page: (1) your information is being automatically saved, and (2) how to get back to your in-progress form after selecting "Finish later".
+- Two participants didn't read the heading but only the text below it, and it was the heading that said "We'll save your information automatically after every change you make".
+  > *"The big bold up at the top is usually the title of the page or the document, and it's the little stuff down below that has the meat--the meaning" (p9).*
 
+- One participant didn't realize that "after every change you make"  applied to entering information the first time.
+
+  > *"I'm starting this, and I'm making entries. And it's talking about I'm making changes" (p7).*
+- Another participant said that if we are saving form information all the time, why would they ever need to click "Finish later"? 
+  - It seems like we're conflating two messages in the interstitial page: (1) your information is being automatically saved, and (2) how to get back to your in-progress form after selecting "Finish later".
+
+- Four participants didn't understand the "form introduction" link. Two clicked on it and were confused when it took them to the page they already saw. One participant thought it might open a new introduction, such as a video.
+
+- One participant didn't understand the "My VA" link. She has a VA account but didn't know what "My VA" means.
 
 - _Supporting data: ![description of the image (image)](link - add image to github folder and link here with .png)_  
 
 > **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
 
-### Finding 2  
-Brief description  
+### Finding 2: Most participants assumed that saving happened only after selecting "Finish later" or submitting the form.
+After participants finished filling out the form, we asked when they thought their information was saved. Most participants (6 of 7) said only after selecting the "Finish later" or "Submit" button. **Most skipped or forgot the interstitial page that said their information gets saved automatically.** When we told participants that VA form information is saved automatically, they were pleasantly surprised. Maybe it's OK if people don't know that saving is happening automatically, as long as they're glad to not be losing information they already entered.
+
 - _Supporting data: Quote [add context]_  
 
+### Finding 3: All participants used the "Finish later" button to stop filling out the form, and then they successfully resumed the form. 
+**All 7 participants found the "Finish later" button intuitive to save their work**, even if they didn't remember it from the interstitial page. Only one person said they knew that it would save from their past experience with VA forms. One participant said that he was leery of losing his work if he stops in the middle:
+
+> *"I'd just sit here and finish it until I was done...I hate doing work and then having to come back and redo the exact same thing.  Experience over time [with non-VA forms] has taught me to not trust what it's supposed to do...If it works like it should, everything up to the point where I stop should remain filled out, and when I log back in...it should take me right where I left off" (p9).*
+
+5 of 7 participants knew that they needed to sign in to resume their form. One participant didn't know that, and another participant didn't need to sign in because of a prototype malfunction. **6 of the 7 participants resumed their form from the My VA page**, and one did it from the form intro page.  
+
+> *"Right back to where I left off" (p11).*
+
+> *"That's nice that that's right there. I like that. I wouldn't have expected that for something that I was doing previously to pop up in my main page when I first sign in...That's a great feature because I forget easily, so I might not even remember what the form number was" (p9).*
+
+After resuming the form
+
+### Finding 4: All participants who interacted with the accordions on the Review/Submit page were able to easily open and close them with the controls on the left side (instead of the right).
+6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side (instead of on the left in the current VA Design System). This included the participant who was using a screen magnifier. In the [previous round of usability testing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#finding-6-va-forms-in-general-had-accessibility-issues-for-screen-readers-and-screen-magnifiers), a participant using a screen magnifier didn't understand how to interact with these accordions when the "+" control was on the right because it wasn't visible to him. 
+
+One participant interpreted the accordions as providing extra information to help the VA find their records, and he was surprised when he saw that it was only the information that he had already entered.
+
+Two participants didn't notice the "Expand all" link, one of whom said that the text was too small. That participant said that he would have clicked on "Expand all" if he had seen it, instead of opening each accordion one at a time. A third participant said that they never use "Expand all" because they get too overwhelmed by the length of what might expand, so it's easier for them to expand each accordion, one at a time.
+
+
+### Finding 5: XX had some accessibility issues ...
 ---
 
 ## Additional Insights
 *Include insights that do not represent patterns but are still valuable.*  
 > **TIP:** These could be powerful user comments or unexpected issues worth noting
 
+1. One participant expressed his appreciation for our taking the time to learn from Veterans...
+
+1. Participants had many positive comments on prototype features that worked well for them: 
+
+1. Three participants had technical issues with their assistive tech...
+
+1. Two participants said that they prefer to fill out forms on paper instead of online. One of them said it's easier and he likes to keep a copy. The other participant doesn't have a computer and said the following: 
+  > *"I'm thinking I could fill it out quicker if I had it in front of me in paper and pencil...Slow [on phone] because of my vision and I'm not the greatest typist. I have to look at the keys to type, that’s why I prefer to write it out" (p2).*
+
+  At the end of the session, this participant said that this session had helped her learn how to navigate back to an in-progress form. She had been planning to print out a paper form from an online form she already started because she needed to upload 15 documents, but at the end of the session, she said that she might try to upload them online, given that she already completed most of the online form and now knows that it's been saved. 
 
 ## Recommendations
 
 *Summarize actionable recommendations based on findings.*  
 
-1. **Recommendation:** Remove the interstitial page and instead consider adding something very short just above the Continue button on every page (e.g., "Your information is being saved automatically"). 
+1. **Remove the interstitial page and instead consider adding something very short just above the Continue button on every page** (e.g., "Your information is being saved automatically"). 
    - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
-2. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_
+1. **Don't put essential information in the heading that isn't repeated below because some people will ignore the text of the heading.**
+   - _Supporting evidence: Two participants didn't read the heading on the interstitial page but only the text below it._
+
+1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages.**
+   - _Supporting evidence: 4 of 8 participants didn't know what these phrases meant when seeing them as links on the interstitial page._
+
+1. **Move accordion controls to the left side of the item so as to increase visibility for screen magnifier users who may not see any controls on the right.** Discuss this finding to Chandra Carney from the US Web Design System team.
+   - _Supporting evidence: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier._
+
+1. **Consider keeping the "Expand all" link (ADD FROM SLACK DM CONVO W/JEANA)**
+
+1. **Learn how to advise participants who are struggling with their assistive tech, and incorporate a suggestion into future conversation guides.** Work with Martha to meet with a VA Blind Rehab Center to learn about how they help Veterans who are blind or low vision and whether/how we can get them in touch with research participants who could benefit from their services.
 
 ## Product User and Business Outcomes
 

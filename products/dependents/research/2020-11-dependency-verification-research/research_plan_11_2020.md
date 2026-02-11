@@ -1,3 +1,133 @@
+---
+# Research Plan Metadata
+title: "Research Plan for USDS, Dependency Verification Workflow, November 2020"
+date: 2020-12-01
+last_updated: 2026-02-10
+team: "USDS"
+product: "Dependency Verification"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans receive benefits based on number of dependents. When dependency status changes (divorce, aging, death), Veterans often don't update VA, resulting in overpayments and debt. Need to improve the ease of maintaining accurate dependent information."
+  product_location: "VA.gov - Form 21-686c and Form 21-0538 processes"
+  user_familiarity: "Iteration - exploring improvements to existing dependency verification workflow"
+  product_brief_url: ""
+
+# Research Design
+methodology: "ethnographic interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand whether Veterans remember to manage dependent benefits with the VA and how they keep information up-to-date"
+  - goal_2: "Identify ways Veterans do regular business with VA where reminders could be integrated to update dependent information"
+  - goal_3: "Determine best methods for reminding Veterans to make changes to dependent status"
+
+research_questions:
+  - "Do Veterans remember to manage dependent benefits with the VA? If so, how do they go about keeping their dependent information up-to-date? If not, why not?"
+  - "What are ways in which Veterans do regular business with the VA where we might remind them to update their information around dependents?"
+  - "How would Veterans like to be reminded to make a change?"
+  - "If reminding Veterans as part of logging in on VA.gov, would it be a better strategy to make it required or optional?"
+  - "If reminding Veterans as part of logging in on VA.gov, would it be a better strategy to include or not include current dependents?"
+  - "Are there unique aspects to Veterans that have been overpaid that would help us identify the best ways to update VA with accurate information on dependents?"
+  - "Are Veterans that use VA.gov regularly or semi-regularly a significant part of the population of Veterans that are being overpaid?"
+  - "Conversely, are Veterans that do not use VA.gov (either that can use but choose not to, or cannot for some reason) a significant part of the population of Veterans that are being overpaid?"
+
+hypotheses:
+  - "Veterans who regularly or semi-regularly use VA.gov for online self-service can be intercepted in smarter and more effective ways to encourage them to keep information about their dependents up-to-date"
+  - "Smarter targeting based on factors unique to the individual (that might make them more likely to have a change in dependents) will be more effective"
+  - "More effective interventions will create the behavior of making updates with VA as dependencies change"
+
+expected_outcomes: "Identify product improvements and intervention strategies that will reduce Veteran debt owed to VA from dependency-related overpayments"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Qualitative sample focused on Veterans with dependents who use VA benefits"
+  
+  primary_criteria:
+    - "Must use their VA benefits"
+    - "Must have dependents"
+    - "Must use their Veteran benefits for their dependents"
+    - "Must have access to a computer and be able to do a Zoom call and share screen"
+    
+  secondary_criteria:
+    - "May have had a change in the status of their dependents as the result of age, marital status, or other life change"
+    
+  screener_questions:
+    - question: "Do you use your VA benefits?"
+      qualifying_response: "Yes"
+    - question: "Do you have dependents?"
+      qualifying_response: "Yes"
+    - question: "Do you use your Veteran benefits for your dependents?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 15
+  caregivers: 0
+  dependents: 0
+  total_recruited: 15
+  completed_sessions_goal: 6
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2020-11-30"
+  pilot_participant: "Steve Kovacs and Martha Wilkes"
+  research_dates: "2020-12-01 to 2020-12-04"
+  research_review_submission: "2020-11-20"
+  
+session_details:
+  duration_minutes: 40
+  buffer_minutes: 20
+  max_sessions_per_day: 6
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Reduce Veteran debt from benefit overpayments"
+    key_results: 
+      - "Improve accuracy of dependent information in VA systems"
+      - "Reduce overpayments related to unreported dependency status changes"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Living Civilian Life"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Form 21-686c research"
+    - "Form 21-0538 process research"
+    
+tags:
+  - "PRDT: Dependents"
+  - "BNFT: Dependency"
+  - "AUD: Veterans"
+  - "AUD: Dependents"
+  - "ethnographic interviews"
+  - "remote"
+  - "authenticated"
+  - "21-686c"
+  - "21-0538"
+  - "debt"
+  - "overpayments"
+  - "dependency verification"
+  - "life events"
+  - "moderated"
+  - "discovery"
+  - "customer journey"
+  - "mental model"
+---
+
 
 # Research Plan for Dependency Verification Workflow to Reduce Veteran Debt Owed to VA 
 

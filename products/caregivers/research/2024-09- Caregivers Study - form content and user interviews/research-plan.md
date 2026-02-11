@@ -1,3 +1,148 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Health Enrollment, 10-10CG Caregiver Study, October 2024"
+date: 2024-09-11
+last_updated: 2024-09-11
+team: "Health Enrollment Team"
+product: "Application for Comprehensive Assistance for Family Caregivers Program (10-10CG)"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "It's been a few years since comprehensive research on the 10-10CG. Changes have been made including facility selection updates and content updates to match paper form, but haven't been tested with users. Need to determine if the form provides helpful and relevant content and if recent changes improved usability and content clarity."
+  product_location: "10-10CG Caregiver application on VA.gov"
+  user_familiarity: "Iteration - testing recent updates including facility selection and content matching paper form (Feb 2024)"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/10-10CG%20Caregiver%20application%20product-outline.md"
+
+# Research Design
+methodology: "moderated usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Learn more about a caregiver's understanding of the PCAFC program before filling out the 10-10CG to determine if recent content updates have improved comprehension"
+  - goal_2: "Learn more about the overall experience of multiple people completing one form"
+  - goal_3: "Evaluate the usability of the new location search functionality and confirmation screen content"
+
+research_questions:
+  - "What knowledge of the caregiver program do Veterans and caregivers typically have before filling out the 10-10CG?"
+  - "How do caregivers perceive the existing form content with regards to understanding eligibility and benefits?"
+  - "Do users struggle with completing any fields in particular, especially the new County field and social security number requirements?"
+  - "Is there a need or desire for applicants to have an authenticated experience that prefills personal information?"
+  - "Who typically completes the form online? Are Veterans and their caregivers signing the form together?"
+  - "For those who are enrolled, did they sign as a legal representative and what was that experience like?"
+  - "Are there places in the form where users get confused by the content switching point of view between the Veteran and various caregiver roles?"
+  - "Do users correctly notice when labels for form fields are asking for a specific person's information?"
+  - "Can sighted and assistive tech users easily use the search input and understand what choices are populated?"
+  - "Can users easily navigate a long list of search results?"
+  - "Can users easily do a second search or new search from the search results page?"
+  - "Is the new facility selection pattern easy for the participant to understand?"
+  - "How do users react to their facility selection on the confirmation page?"
+
+hypotheses:
+  - "There is missing helpful information for caregiver applicants around what they are eligible for and what benefits they get"
+  - "There are a variety of dyad applicant combos and those groups most often have pain points around the personal information and signing handoff process"
+  - "All applicants have multiple other VA touch points and forms completed which gives them a general understanding of the caregiver program before completing the 10-10CG"
+  - "It might be easier if each applicant could complete their own personal information and sign independently"
+
+expected_outcomes: "Based on findings, we will suggest any identified content needs and work with CAIA to improve clarification of the caregiver designation/change process, determine if any changes are needed for the facility selection process, and conduct a workshop with CG stakeholders to gather context about the caregiver journey and/or facilitate a feature prioritization exercise."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "maximum variation sampling with restrictive primary criteria"
+  
+  primary_criteria:
+    - "Cohort 1 (14 participants): Caregivers recently enrolled in caregiver program (as recent as possible), with or without Veteran pair"
+    - "At least 7 participants enrolled in Program of Comprehensive Assistance for Family Caregivers (PCAFC)"
+    - "Cohort 2 (7 participants): Veterans with disability rating of 70%+ who need assistance to complete daily activities"
+    - "Recruit 4 assistive tech users - at least 2 completed AT sessions needed"
+    - "At least 5 users using mobile device for the session (either cohort)"
+    
+  secondary_criteria:
+    - "Caregiver + Veteran pairs (nice-to-have, not required)"
+    - "Diversity across age groups"
+    - "Diversity across racial identities"
+    - "Diversity across education levels"
+    - "Diversity across sexual orientation"
+    - "Diversity across gender identity"
+    - "Diversity across rural and major metropolitan areas"
+    
+  screener_questions:
+    - question: "Are you enrolled as a caregiver in the Program of Comprehensive Assistance for Family Caregivers (PCAFC)?"
+      qualifying_response: "Yes (recruit at least 7)"
+    - question: "Does your disability require you to need help or assistance from someone else to complete daily activities?"
+      qualifying_response: "Yes (for Cohort 2)"
+    - question: "Do you need to use screen reader technology to use the internet?"
+      qualifying_response: "Yes (for AT users)"
+      
+participants:
+  veterans: 7
+  caregivers: 14
+  dependents: 0
+  total_recruited: 21
+  completed_sessions_goal: 21
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-09-23"
+  pilot_participant: "Perigean to recruit from Cohort 2"
+  research_dates: "2024-10-01 to 2024-10-18"
+  research_review_submission: "2024-09-11"
+  
+session_details:
+  duration_minutes: 60
+  duration_minutes_at: 90
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
+    key_results: 
+      - "Ensure the process of adding and changing caregivers can be done easily and seamlessly online"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+  - "Dying"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "2023-04 Facilities and Overall Usability Research"
+    - "Previous 10-10CG research studies"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/Improve%20Facility%20Selection/Improve%20Facility%20Selection%20-%20Initiative%20Brief.md"
+    
+tags:
+  - "caregivers"
+  - "10-10CG"
+  - "form-10-10CG"
+  - "PCAFC"
+  - "moderated-usability-testing"
+  - "facility-selection"
+  - "mobile"
+  - "assistive-technology"
+  - "screen-reader"
+  - "staging"
+  - "health-enrollment"
+  - "unauthenticated-experience"
+  - "dyad"
+  - "family-caregivers"
+  - "content-updates"
+  - "search-functionality"
+  - "evaluative"
+---
+
 # Research Plan for Health Enrollment, 10-10CG, October 2024
 
 ## Background

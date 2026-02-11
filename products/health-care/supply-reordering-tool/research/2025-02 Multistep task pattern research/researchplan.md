@@ -1,3 +1,128 @@
+---
+# Research Plan Metadata
+title: "Research Plan for MHV Portal Supply Reordering Tool - Multistep Task Pattern"
+date: 2025-02-01
+last_updated: 2025-02-01
+team: "MHV Portal - Medications and Medical Supplies Pod"
+product: "Medical Supplies Reordering Tool"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Lack of guidance around task design patterns in the design system leads to inconsistencies across VA.gov, making it harder for Veterans to complete routine tasks efficiently"
+  product_location: "MHV on VA.gov - Medical supplies reordering"
+  user_familiarity: "Iteration - testing new multistep task pattern vs existing form pattern"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/supply-reordering-tool"
+
+# Research Design
+methodology: "Unmoderated A/B prototype testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: false
+  platform: "Optimal Workshop prototype testing feature"
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Compare the old (form pattern) and new (task pattern) versions of the medical supplies tool to determine if multistep task pattern makes completing routine tasks faster and easier"
+  - goal_2: "Understand Veterans' expectations when completing routine tasks"
+
+research_questions:
+  - "Which pattern option enables Veterans to complete reordering medical supplies more quickly?"
+  - "Which pattern option do Veterans find to be more intuitive and less difficult to use?"
+  - "What are Veterans' expectations when completing routine tasks?"
+
+hypotheses:
+  - "The average time to complete tasks will be lower on the new pattern"
+  - "The task success rate will be greater on the new pattern"
+  - "A higher proportion of Veterans will find the new pattern to be more intuitive and satisfying than the old experience"
+  - "Veterans expect to complete routine tasks quickly and in one session, rather than expecting to leave and come back to the task"
+
+expected_outcomes: "Validate if a new pattern for routine tasks is a better process for simple task completion than a form pattern, informing future design system pattern development"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Diverse sample of Veterans with active MHV accounts"
+  
+  primary_criteria:
+    - "Must be Veterans"
+    - "Must currently receive VA healthcare benefits"
+    - "Must have an active MHV account that they have accessed at least once in the past 12 months"
+    
+  secondary_criteria: []
+    
+  screener_questions:
+    - question: "Do you have a My HealtheVet (MHV) account?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 766
+  caregivers: 0
+  dependents: 0
+  total_recruited: 766
+  completed_sessions_goal: 766
+  cohorts: "2 cohorts (383 per cohort): test A (form pattern) and test B (task pattern)"
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2025-02-19"
+  pilot_participant: "10 veterans total (5 per test version)"
+  research_dates: "2025-02-26 to 2025-03-28"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: "Self-paced unmoderated"
+  buffer_minutes: 0
+  max_sessions_per_day: "N/A - unmoderated"
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results: 
+      - "Key Result 1: Improve satisfaction with our web and mobile products"
+      - "Key Result 2: Reduce the total time Veterans spend waiting for a response from our digital experiences"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: []
+    
+tags:
+  - "medical-supplies"
+  - "reordering"
+  - "ab-testing"
+  - "unmoderated"
+  - "task-pattern"
+  - "form-pattern"
+  - "veterans"
+  - "mhv"
+
+# Team Roles
+team_roles:
+  moderator: "N/A - unmoderated"
+  research_guide_writer: "Jina Ryu and Jenny Wang"
+  recruiting_screening: "Jina Ryu"
+  project_poc: "Jina Ryu"
+  pilot_participant: "Kaitlin Fink"
+  analysis: "SPSS for statistical analysis"
+
+# Additional Materials
+task_script_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/supply-reordering-tool/research/2025-02%20Multistep%20task%20pattern%20research/taskscript.md"
+optimal_workshop_test_a_url: "https://ows.io/pt/khkny3yp"
+optimal_workshop_test_b_url: "https://ows.io/pt/u8orqbii"
+sample_size_calculation: "Based on population size of 70,000 medical supplies users, 95% confidence, and 5% margin of error = 383 per cohort"
+---
+
 
 	# Research Plan for [MHV portal, Supply reordering tool, 2025-02]
 *Questions about how to set up your research study? Reach out in the #research-ops Slack channel.* 

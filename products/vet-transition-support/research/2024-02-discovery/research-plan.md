@@ -1,3 +1,136 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Veteran Transition Support Initial Discovery Research, February 2024"
+date: 2024-02-16
+last_updated: 2024-02-22
+team: "Veteran Transition Support (VTS)"
+product: "Veteran Transition Support"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Help Veterans learn about available benefits, understand their eligibility, and begin the application process through an accessible, all-in-one prototype that clearly guides Veterans through the benefits discovery and eligibility check processes"
+  product_location: "New product to be integrated into VA.gov - location undecided"
+  user_familiarity: "New product - Initial generative research phase"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/vet-transition-support"
+
+# Research Design
+methodology: "semi-structured-interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand how our MVP can provide clear and consistent information about benefit discovery, application requirements, and the application process"
+  - goal_2: "Understand how benefit discovery fits into the larger universe of topics on a transitioning servicemember or Veteran's mind"
+  - goal_3: "Learn more about the role that Commanding Officers (COs) play in a servicemember's separation process"
+
+research_questions:
+  - "The transition experience can be highly emotional for TSMs and RSVs. What can VA do to support?"
+  - "Who is the target audience for our MVP?"
+  - "If Veterans didn't receive much help or information from their COs during separation, where did they turn?"
+  - "With a multitude of benefits and types of benefits, what resources are Veterans most interested in accessing? And how should benefits be grouped?"
+
+hypotheses:
+  - "Veterans need a solution that is easy to use, makes benefits clear and understandable, and provides emotional support during the process of connecting with the VA"
+  - "Veterans will need a product that is informative and helpful with the benefit discovery process, accounting for a Veteran's specific needs"
+
+expected_outcomes: "The findings from our research will first inform our MVP recommendations. We will recommend high-level functionality and features to include in the MVP, based on the comments from our interviewees. We will use these recommendations to develop journey maps, which will explain how we envision our MVP will ease the benefit discovery and application process. We will use our MVP recommendations and journey maps to inform the design and development of our MVP."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling across time since separation, age, race, gender, and service branches"
+  
+  primary_criteria:
+    - "16 Veterans: 8 separated within past 2 years, 8 separated more than 2 years ago"
+    - "Veterans age distribution: 5 age 35 or younger, 5 in their 40s or 50s, 6 age 65 or older"
+    - "6 Transitioning Servicemembers and Commanding Officers within 1 year of separation"
+    - "Mix of service branches across all participants"
+    - "50% Non-white, 50% White"
+    - "50% Male, 50% Female"
+    
+  secondary_criteria:
+    - "50% Veterans who have previously engaged with the VA"
+    - "50% Veterans who have not previously engaged with the VA"
+    
+  screener_questions:
+    - question: "Was your last military separation more or less than 2 years ago from today?"
+      qualifying_response: "Either response qualifies (for different cohorts)"
+    - question: "What is your current age?"
+      qualifying_response: "35 or younger, 40-59, or 65 or older"
+    - question: "Have you previously engaged with the VA or VA services?"
+      qualifying_response: "Either response qualifies (for secondary criteria)"
+    - question: "When do you expect to separate from active military service?"
+      qualifying_response: "Within the next year"
+    - question: "Are you currently a Commanding Officer?"
+      qualifying_response: "Yes (for CO recruitment)"
+      
+participants:
+  veterans: 16
+  caregivers: 0
+  dependents: 0
+  total_recruited: 22
+  completed_sessions_goal: 16
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-02-22"
+  pilot_participant: "Nicole Kontrabecki"
+  research_dates: "2024-03-04 to 2024-03-12"
+  research_review_submission: "2024-02-16"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 5
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Enhance Veterans' personalized online experience"
+    key_results: 
+      - "Support benefit discovery and eligibility determination"
+  - objective: "Drive OIT's Digital Transformation Strategy"
+    key_results:
+      - "Create accessible all-in-one prototype for Veteran benefit information"
+      
+veteran_journey_phases:
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Reinventing myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Research review of previous VA-funded projects that support benefit discovery and service member transition"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/research/2024-02-discovery/conversation-guide.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Healthcare"
+  - "BNFT: Housing"
+  - "BNFT: Employment"
+  - "BNFT: Pension"
+  - "BNFT: Life Insurance"
+  - "BNFT: Memorialization"
+  - "PRDT: Veteran-Transition-Support"
+  - "semi-structured-interviews"
+  - "generative-research"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+---
+
 # Research Plan for [Veteran Transition Support Initial Research, February 16, 2024]
 
 ## Background

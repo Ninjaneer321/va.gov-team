@@ -1,3 +1,130 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Debt Resolution Team, Combined VA Debt Portal, June 2022"
+date: 2022-06-01
+last_updated: 2022-06-01
+team: "Debt Resolution Team"
+product: "Combined VA Debt Portal"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans need to access benefit debt and medical copay bills in one place per Congressional legislation, and user research shows Veterans expect to find all VA finances together"
+  product_location: "Combined VA Debt Portal on VA.gov"
+  user_familiarity: "New combined experience - VBA Debt Portal and Medical Copay Tool integration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/product_outline.md"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Identify the entry points Veterans expect when accessing information about their debts or copays"
+  - goal_2: "Validate if it's intuitive to Veterans how to navigate between their debts and copay bills"
+  - goal_3: "Verify the labeling of 'debts', 'bills', and 'balances' as they relate to benefit debts and copay statements"
+
+research_questions:
+  - "Where do Veterans expect to find information about their benefit debts and copay bills while on VA.gov?"
+  - "How do the expected entry points differ between finding debts vs copay bills?"
+  - "Is there other financial information Veterans expect to find in the portal, such as payment history?"
+  - "How do Veterans interact with their copay bills and debts within the portal?"
+  - "How confident do Veterans feel about resolving their debts and bills with the information provided?"
+  - "How clear is the navigation between the 'debt overview' page, 'current VBA debts', and 'current copay balances'?"
+  - "Is it clear what a copay bill is vs a benefit debt?"
+
+hypotheses:
+  - "Most participants will search for a link to their debts and bills within one of the four quadrants on the VA.gov homepage"
+  - "Participants will expect to find their copay bills and benefit debts in one location"
+  - "Participants may want more real-time transaction data regarding their debts and bills"
+  - "Participants may want to view their debt and copay bill details before resolving them"
+  - "Participants will understand the difference between a copay bill and benefit debt"
+  - "Participants may be confused by the differences in payment and resolution options"
+
+expected_outcomes: "Study will inform where Veterans expect to find debt + bill information and how intuitive the combined portal experience is. Will recruit folks who use assistive technology by running in production behind feature flag."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling across debt and copay experience"
+  
+  primary_criteria:
+    - "All participants must be Veterans"
+    - "All must be LOA3 (identity verified) on VA.gov"
+    - "All must provide email address used to sign into VA.gov 2-3 days before study"
+    - "12 people enrolled in VA health care"
+    - "At least 8 who have received VA copay bill within past 6 months AND have had VA Debts"
+    - "Maximum 4 who have received VA copay bill within past 6 months AND never received VA debt"
+    - "Maximum 4 who haven't received VA copay bills within past 6 months AND have had VA debts"
+    
+  secondary_criteria:
+    - "At least 5 people who use a screen reader"
+    - "At least 8 people who identify as Black, Hispanic/Latina/Latinx, or Native"
+    - "At least 8 people with cognitive considerations"
+    - "At least 8 people who identify as other than male"
+    - "At least 8 people without a degree or professional certificate"
+    
+  screener_questions:
+    - question: "Which of the following describes you? (I use VA health care and have received a copay bill in past 6 months / I use VA health care and do not receive copays / I do not use VA health care)"
+      qualifying_response: "Group based responses"
+    - question: "Have you ever had a debt balance with VA, not including health care related debt (like co-pays)?"
+      qualifying_response: "Yes for at least 8; Maximum 3 No per group"
+      
+participants:
+  veterans: 16
+  caregivers: 0
+  dependents: 0
+  total_recruited: 16
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "2022-06-27 to 2022-07-05"
+  research_review_submission: "2022-05-03"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 5
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: "Enable online copay bill management"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Combine debt and copay information in one location"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Provide personalized debt and bill information"
+      
+veteran_journey_phases:
+  - "Taking Care of Myself"
+  - "Attending to health needs"
+  - "Managing my declining health"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "VBA Debt Portal launched early 2021"
+    - "Medical Copay Tool soft launched early 2022"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "PRDT: Debt-portal"
+  - "usability-testing"
+  - "authenticated"
+  - "Accessibility"
+  - "DSC: Table"
+  - "DSC: Link"
+  - "DSP: Ask users for direct deposit"
+---
+
 _First review at midpoint review - May 3rd, 2022_
 
 # Research Plan for The Debt Resolution Team, Combined VA Debt Portal, June 2022 

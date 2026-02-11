@@ -1,3 +1,121 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Health Apartment IA Tree Test Round 2, December 2022"
+date: 2022-12-01
+last_updated: 2022-12-01
+team: "Health Apartment Team"
+product: "Health Apartment IA"
+product_area: "authenticated and unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "This is a follow-up tree test to evaluate revised information architecture for the Health Apartment on VA.gov based on findings from Round 1 research. Aims to validate improvements to navigation and findability of health care content and tools."
+  product_location: "VA.gov - Health Apartment information architecture"
+  user_familiarity: "Iteration on Health Apartment IA based on previous research"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/product/product-brief.md"
+
+# Research Design
+methodology: "tree-test"
+research_format: 
+  location: remote
+  moderated: false
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Validate improvements to Health Apartment information architecture based on Round 1 findings"
+  - goal_2: "Assess navigation and findability of health care tasks across revised IA structure"
+  - goal_3: "Gather insights to inform final Health Apartment IA recommendations"
+
+research_questions:
+  - "Can users successfully navigate the revised IA to complete health care tasks?"
+  - "Have the changes from Round 1 improved success rates and directness scores?"
+  - "Do Veterans, family members, and caregivers find health care information and tools more easily in the revised structure?"
+
+hypotheses:
+  - "The revised IA based on Round 1 findings will improve task success rates"
+  - "Users will demonstrate higher directness scores (less backtracking) with the revised structure"
+  - "Veterans across different healthcare enrollment statuses will be able to find relevant information more easily"
+
+expected_outcomes: "Validation of IA improvements and final recommendations for Health Apartment information architecture on VA.gov"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Diverse sample with lean maximum variation strategy"
+  
+  primary_criteria:
+    - "Mix of Veterans, family members, and caregivers"
+    - "Mix of VA healthcare enrollment statuses"
+    - "Mix of MyHealtheVet usage levels"
+    
+  secondary_criteria:
+    - "Diverse demographics across sex, age, race, education, and residence"
+    - "Include participants with assistive technology needs"
+    - "Include participants with cognitive impairments or functional disabilities"
+    
+  screener_questions:
+    - question: "Have you used an online patient portal in the past 12 months?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 0
+  caregivers: 0
+  dependents: 0
+  total_recruited: 70
+  completed_sessions_goal: 50
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "December 2022"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 20
+  buffer_minutes: 0
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: "Improved navigation to health management tools"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Clear, validated information architecture for health care"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Intuitive health care navigation based on user needs"
+
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Health Hub Tree Test Round 1 (May 2022)"
+    - "First Click Test (August 2022)"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family-members"
+  - "BNFT: Healthcare"
+  - "PRDT: Health-hub"
+  - "MHV: MyHealth"
+  - "tree-test"
+  - "information-architecture"
+  - "navigation"
+  - "findability"
+  - "unmoderated"
+  - "health-apartment"
+  - "evaluative-research"
+  - "iteration"
+  - "authenticated-experience"
+  - "unauthenticated-experience"
+---
+
 # Research Plan for [Team, Product, Date]
 
 ## Background

@@ -1,3 +1,124 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Patient Check-In Travel Reimbursement Veteran Intercept at Wilkes-Barre, December 2022"
+date: 2022-12-01
+last_updated: 2022-12-22
+team: "Modernized Check-In Experience Team"
+product: "Patient Check-In (PCI) - Travel Reimbursement"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "In June 2022, the Beneficiary Travel Reimbursement Path Analysis Team recommended integrating travel reimbursement into the patient check-in ecosystem. We need to gather feedback from Veterans on the new travel reimbursement feature in eCheck-in on ease of use and whether expectations were met."
+  product_location: "VA.gov - Mobile check-in with travel reimbursement integration"
+  user_familiarity: "new"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin"
+
+# Research Design
+methodology: "intercept interviews"
+research_format: 
+  location: in-person
+  in_person_details:
+    facility: "Wilkes-Barre Health Care System"
+    point_of_contact: "Health Administration Services (HAS) staff"
+    equipment: "Mobile devices for Veterans to complete eCheck-in"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Get feedback from Veterans on the new travel reimbursement feature in eCheck-in on ease of use"
+  - goal_2: "Understand what expectations were unmet, specifically around travel reimbursement tasks"
+  - goal_3: "Identify improvements Veterans would like to see in the travel reimbursement filing process"
+
+research_questions:
+  - "How easy or difficult is it to file a travel reimbursement claim during check in?"
+  - "What is the cognitive load needed for Veterans to review and confirm their travel reimbursement claim eligibility?"
+  - "Is it clear or confusing to check in for an appointment and submit a travel reimbursement claim at the same time?"
+  - "How well does filing a travel reimbursement claim during check-in meet Veteran's expectations?"
+  - "How easy or difficult is it to understand the status and associated next steps of a travel reimbursement claim on the confirmation pages?"
+  - "What would Veterans change or add to improve filing a travel reimbursement claim during check in?"
+  - "What's most confusing or difficult about the mobile check in process (including pre-check-in)?"
+  - "Would Veterans be more likely to complete mobile check in by responding to 1 or 2 text messages versus the current experience?"
+
+hypotheses:
+  - "Veterans will think filing a travel reimbursement claim during check in is easy, but those that aren't eligible may think it's neither easy nor difficult"
+  - "Veterans will be able to review and answer each of the travel reimbursement claim eligibility questions in a short amount of time"
+  - "Veterans will think it's easy and convenient to file a travel reimbursement claim while checking in for their appointment"
+  - "Veterans will be pleasantly surprised at how few steps are required to file a travel reimbursement claim within the PCI application"
+  - "Veterans will think the status of their travel reimbursement claim and check-in on the confirmation pages are easy to understand"
+  - "Veterans will have suggestions for supporting other travel types and other travel reimbursement tasks"
+  - "Veterans will identify scanning the QR code and texting VA step as the most confusing or difficult part of mobile check in"
+
+expected_outcomes: "Understand Veterans' perspectives on the travel reimbursement feature to identify improvements and inform future iterations of the check-in experience."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Wilkes-Barre Health Care System Health Administration Services (HAS) staff"
+  approach: "Intercept recruitment at clinics during check-in"
+  
+  primary_criteria:
+    - "Veterans arriving for appointments at clinics with eCheck-in enabled"
+    - "Veterans willing to check in using eCheck-in"
+    - "Veterans interested in filing a travel reimbursement claim"
+    
+  secondary_criteria:
+    - "Diverse range of appointment types"
+    - "Mix of Veterans familiar and unfamiliar with eCheck-in"
+    
+  screener_questions:
+    - question: "Are you here for an appointment today and would you like to check in using eCheck-in?"
+      qualifying_response: "Yes"
+    - question: "Would you be interested in filing a travel reimbursement claim?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 25
+  caregivers: 0
+  dependents: 0
+  total_recruited: 25
+  completed_sessions_goal: 25
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "N/A"
+  pilot_participant: "N/A"
+  research_dates: "2023-02-01 to 2023-02-02"
+  research_review_submission: "2022-12-22"
+  
+session_details:
+  duration_minutes: 15
+  buffer_minutes: 5
+  max_sessions_per_day: 5
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: "Veterans can file travel reimbursement claims digitally during check-in"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Reduce time and effort for Veterans to file travel reimbursement claims"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://www.sketch.com/s/42a478e7-cb38-49e5-9500-9b21182873da/a/kaPaz5A"
+    - "https://app.mural.co/t/vfscie8528/m/vfscie8528/1658844568873/93ba988aed6312d43533b8feaed365529b836332"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/2022-12%20Patient%20Check%20In%20Travel%20Reimbursement%20Veteran%20Intercept%20at%20Wilkes-Barre/conversation-guide.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
+  - "PRDT: Travel-reimbursement"
+  - "semi-structured-interviews"
+  - "in-person-research"
+  - "intercept-study"
+  - "qualitative-research"
+  - "usability-testing"
+---
+
 # Research Plan for Patient Check-In Travel Reimbursement Veteran Intercept at Wilkes-Barre 2022-12
 
 Last modified: December 22, 2022

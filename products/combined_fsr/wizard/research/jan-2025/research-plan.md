@@ -1,3 +1,206 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Debt Resolution, Complete a Sub Task (Wizard) and content pages, January 2025"
+date: 2025-01-14
+last_updated: 2025-01-14
+team: "Debt Resolution"
+product: "Financial Status Report (FSR) - Complete a Subtask Wizard"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The Complete a Subtask release is focused on optional subtask experience at the beginning of the FSR that assists the user in determining the correct action to take based on their circumstances. The current form uses the deprecated Wizard design pattern. The new version will utilize the improved Complete a subtask design pattern, moving questions and answers to a one-thing-per-page format which is a better experience for screen reader users and reduces cognitive burden."
+  product_location: "VA.gov - Financial Status Report (FSR) entry point (authenticated)"
+  user_familiarity: "Iteration on existing FSR wizard using updated design pattern (Complete a subtask)"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_fsr/wizard/Wizard%20sub-task%20pattern%20product%20outline.md"
+
+# Research Design
+methodology: "Moderated usability testing with prototype"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+
+prototype_url: "https://n4hl2d.csb.app/"
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "First impression & comprehension: What do Veterans understand the Wizard is for when they first see it? Do they understand its purpose and the paths available to them?"
+  - goal_2: "Usability: How helpful is the information provided based on their prior knowledge and experiences?"
+  - goal_3: "Accessibility: How Veterans using screen reader or screen magnifier technology navigate through the Wizard"
+
+research_questions:
+  - "Understand baseline: What experience, if any, do Veterans have with seeking debt relief? What channels have they used to understand what they need to do?"
+  - "How easy is it for them to understand what they need to do through the information supplied in the Wizard in contrast to what they have done previously?"
+  - "Do Veterans understand the purpose of the Wizard?"
+  - "How easy is it for Veterans to navigate through the Wizard?"
+  - "How easy is it for Veterans using screen readers to navigate through the Wizard?"
+  - "For the paths they see, how understandable is the information on the last pages of the Wizard?"
+  - "For the corresponding links, how clear and understandable is the content?"
+
+hypotheses:
+  - "We hypothesize that the complete a sub task pattern will be easy to use by both sighted and blind/low vision Veterans alike"
+  - "We hypothesize that the information supplied through the different paths in the Wizard will be helpful and streamline the experience of information gathering"
+  - "We hypothesize that the recommended actions on the final page and subsequent pages may be a lot of information to digest"
+  - "We hypothesize that participants may not understand the selections, 'Committee of Waivers and Compromises' and 'Board of Veterans' Appeals'"
+
+expected_outcomes: "This evaluative usability study will allow us to make content structure and content refinements based on the level of comprehension. If the actions recommended to the Veteran in the Wizard are difficult to understand, we can make changes to the content in terms of copy, organization, and amount of content. If it is easy to understand, we can validate the experience."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Lean maximum variation with inclusion prioritized - 2 cohorts (non-AT and AT users)"
+  
+  primary_criteria:
+    - "All participants must be Veterans"
+    - "All have a computer, tablet, or smartphone and be willing to be complete their session on one of those devices"
+    - "During the session, be willing to share a web browser window on their device"
+    - "Have a working microphone on their device"
+    - "Have Zoom downloaded to their device prior to the session and know how to share their screen"
+    - "All participants must have either VA debt (overpayment from VA) OR a copay that was accrued within the last 3 years (paid or unpaid) OR Additional type of debt related to: Separation pay, Attorney fees, Rogers STEM program, VET TEC program"
+    - "50% of participants must have experience disputing a VA copay bill or VA overpayment debt, requested financial relief, or asked VA to reconsider a decision on debt relief"
+    - "75% of participants must have experienced financial hardship now or in the past"
+    
+  secondary_criteria:
+    - "At least 5 of 12 people must identify as Black, Hispanic/Latina/Latinx, Asian, or Native American"
+    - "At least 6 of 12 people must identify as having a cognitive consideration"
+    - "At least 5 of 12 people must identify as other than male"
+    - "At least 3 of 12 people are without a degree or professional certificate"
+    - "At least 2 of 12 people are under 35"
+    - "At least 5 of 12 people are over 55"
+    - "At least 4 of 12 people who identify as gay, lesbian, bisexual, or transgender"
+    - "At least 2 of 12 non-native English speakers"
+    - "At least 2 of 12 people who live in a rural or remote area"
+    - "At least 2 of 12 people who live in a major metropolitan area"
+    
+  screener_questions:
+    - question: "Do you currently have or have you had a VA medical copay debt or VA overpayment debt in the last 3 years?"
+      qualifying_response: "Yes qualifies; No disqualifies"
+    - question: "What was the amount of the highest VA overpayment debt or VA copay you have had in the last 3 years?"
+      qualifying_response: "Range from $1 to over $1,000 (all qualify)"
+    - question: "Have you taken steps to resolve this VA debt or copay?"
+      qualifying_response: "Scale 1-5 (all qualify, track for diversity)"
+    - question: "Have you experienced financial hardship?"
+      qualifying_response: "Currently or in the past qualifies; Never disqualifies (Quota: 75% with hardship)"
+    - question: "(For AT users) What assistive technology software do you use?"
+      qualifying_response: "Screen reader or screen magnifier (must have used for at least one year)"
+      
+participants:
+  veterans: 18
+  caregivers: 0
+  dependents: 0
+  cohort_1_non_at: 12
+  cohort_2_at: 6
+  total_recruited: 24
+  completed_sessions_goal: 14
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates_cohort_1: "2025-01-14 to 2025-01-21"
+  research_dates_cohort_2: "2025-01-23 to 2025-01-31"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Usage of digital, self-service tools"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Number of VA.gov users as a function of total Veteran population"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results:
+      - "Call center volume, wait time, and time to resolution"
+      
+veteran_journey_phases:
+  - "Getting Out"
+  - "Finding something to do"
+  - "Attending to health needs"
+  - "Taking care of myself"
+  - "Managing my declining health"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/combined_fsr"
+    
+conversation_guide: "TBD"
+
+tags:
+  # Audience
+  - "AUD: Veterans"
+  
+  # Benefit Area
+  - "BNFT: Finances"
+  - "BNFT: Healthcare"
+  
+  # Product
+  - "PRDT: Debt-portal"
+  - "PRDT: FSR"
+  
+  # Design System Patterns
+  - "DSP: Complete a sub-task"
+  - "DSP: Content Presentation"
+  
+  # Methodology
+  - "usability-testing"
+  - "remote"
+  - "moderated"
+  - "prototype"
+  
+  # Accessibility
+  - "Accessibility"
+  - "screen-reader"
+  - "screen-magnifier"
+  
+  # Keywords
+  - "debt"
+  - "copay"
+  - "financial-hardship"
+  - "wizard"
+  - "cognitive-disability"
+  
+# Team & Approvals
+team_roles:
+  moderator: "Charlotte Cesana"
+  research_guide_writing: 
+    - "Charlotte Cesana"
+    - "Megan Gayle"
+  participant_recruiting: 
+    - "Charlotte Cesana"
+    - "Megan Gayle"
+  project_point_of_contact: 
+    - "Charlotte Cesana"
+    - "Megan Gayle"
+  accessibility_specialist: "TBD"
+  note_takers:
+    - "Joseph Lee"
+    - "Megan Gayle"
+    - "Perigean"
+  observers:
+    - "Charlotte Cesana"
+    - "Megan Gayle"
+    - "Joseph Lee"
+    - "Derek Dyer"
+    - "Devi Hill"
+    - "Penny Lischer"
+    - "Denise Coveyduc"
+    - "Tom Davis"
+    - "Andrew Rodiek"
+    - "Brandyn Sullins"
+    - "Aaron Ponce"
+---
+
 # Research Plan for [Debt Resolution, Complete a Sub Task (Wizard) and content pages, January 2025]
 
 

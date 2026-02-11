@@ -1,3 +1,120 @@
+---
+# Research Plan Metadata
+title: "Research Plan for 10-10 Applications Team, Usability Research of Shortened Form Based on Disability Rating, Health Care Application 10-10EZ, June 2022"
+date: 2022-06-10
+last_updated: 2022-06-10
+team: "VSA 10-10 Team"
+product: "Health Care Application (10-10EZ)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Military Service and Household Information sections of the 10-10EZ cause applicants the most confusion, time, and show the highest drop-off rates. Shortened form flows eliminate these sections for Veterans with service-connected disability rating of 50% or higher."
+  product_location: "https://staging.va.gov/health-care/apply/application/introduction"
+  user_familiarity: "iteration"
+  product_brief_url: "https://www.sketch.com/s/da85cf44-4503-4e98-834e-ff068b242ef6/p/A71F1C96-FF98-42A2-9ADD-6D4B7A1DDB20"
+
+# Research Design
+methodology: "usability testing"
+research_format:
+  location: remote
+  moderated: true
+
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Determine whether or not the short form flow is usable and understandable when it is pre-populated at start of authenticated application"
+  - goal_2: "Determine whether or not the short form flow is usable and understandable when it is based on a self-reported, service-connected disability pay for a 50% or higher rating"
+  - goal_3: "Determine whether or not the flow and copy set proper expectations for the application experience"
+
+research_questions:
+  - "Are users able to navigate through the pre-populated short form easily and without confusion?"
+  - "Are users able to navigate through the short form based on self-reported information easily and without confusion?"
+  - "Does the green expandable alert cause annoyance or feel repetitive?"
+  - "Do users understand what the short form is?"
+  - "Do users understand why they can fill out a short form?"
+  - "What is the overall sentiment about this short form experience?"
+
+hypotheses:
+  - "Users will be able to navigate through the short form relatively easily"
+  - "Participants might miss the alert on authenticated initial alert screen"
+  - "Participants might just click through without reading on self-report confirmation screen"
+  - "Some users might overlook the green expandable alert or find it annoying that it's repetitive on every page"
+
+expected_outcomes: "Validate the short form flows in staging and reach participant populations unable to be reached during prototype testing, particularly screenreader users and those with cognitive disabilities"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "maximum variation sampling with focus on accessibility"
+  
+  primary_criteria:
+    - "At least 6 Veterans"
+    - "At least 2 Power of attorney (POA) but no more than 3"
+    - "At least 7 people with a disability rating of 50% or higher but no more than 8"
+    - "At least 3 people who use a screenreader (at least 1 new to assistive technology and 1 with 3+ years experience)"
+    - "At least 5 people with a cognitive disability"
+    - "At least 6 people who will use a mobile device during the research session (tablet is ok too)"
+    
+  secondary_criteria:
+    - "At least 50% that identify as women or nonbinary"
+    - "At least 50% age 55+"
+    - "At least 50% that live in a rural area"
+    - "At least 50% that don't have a bachelor degree or higher"
+    - "At least 2 participants each who identify as Black/African American, Hispanic, Asian, American Indian or Alaskan Native"
+    - "All participants must be able to use Zoom, locate and use the chat function, and share their screen"
+    
+participants:
+  veterans: 6
+  caregivers: 0
+  dependents: 0
+  total_recruited: 13
+  completed_sessions_goal: 9
+
+# Timeline & Sessions
+timeline:
+  pilot_date: "2022-06-10"
+  pilot_participant: "TBD"
+  research_dates: "2022-06-14 to 2022-06-17"
+  research_review_submission: "2022-06-10"
+
+session_details:
+  duration_minutes: 120
+  buffer_minutes: 15
+  max_sessions_per_day: 5
+
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can apply for all benefits online"
+    key_results: "Reduce confusion and drop-off rates in health care application process"
+
+veteran_journey_phases:
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking care of myself"
+
+# Research Repository Tracking
+related_research:
+  previous_studies:
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/10-10EZ/Research%20April-May%202021/End%20user%20discovery%20research/research%20findings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/10-10EZ/Short%20form%20flow%20research/Research%20findings.md"
+
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"  
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "PRDT: Form 10-10 EZ"
+  - "DSC: Form"
+  - "DSP: Ask users for addresses"
+  - "DSP: Ask users for a financial information"
+  - "Accessibility"
+  - "usability-testing"
+  - "screenreader"
+  - "cognitive-disability"
+  - "authenticated-experience"
+  - "mobile"
+---
+
 # Research Plan: 10-10 applications team, Usability research of shortened form based on disability rating, Health Care application 10-10EZ, June 2022
 
 ## Background

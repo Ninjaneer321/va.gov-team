@@ -1,3 +1,149 @@
+---
+# Research Plan Metadata
+title: "Research plan for logged-in IA and navigation, Account Experience, March 2023"
+date: 2023-03-01
+last_updated: 2026-02-10
+team: "Account Experience"
+product: "Logged-in Information Architecture and Navigation"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "While we've observed some high-level problems people have navigating VA.gov's logged-in experience (eg. people are reliant on homepage and My VA links), we've never conducted research that is solely dedicated to this topic. We need to clarify exactly what problems exist with the logged-in navigation, where we are not meeting users' expectations, and what we might do to improve the overall experience."
+  product_location: "VA.gov - logged-in experience including My VA, navigation, and overall site IA"
+  user_familiarity: "Generative research - exploring existing logged-in experience"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/research-and-analytics/2023-generative-logged-in-research/2023-logged-in-user-interviews/README.md"
+
+# Research Design
+methodology: "wayfinding-study"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Identify problems and expectations with navigating the logged-in experience on VA.gov"
+  - goal_2: "Understand how people navigate to tasks and personalized information"
+  - goal_3: "Clarify logged-in mental models and differentiation between authenticated and unauthenticated parts of the website"
+
+research_questions:
+  - "How do people navigate to tasks they came to VA.gov to complete?"
+  - "How do they navigate to those tasks without relying on homepage/My VA links?"
+  - "How do people navigate to personalized information?"
+  - "What do people do when they have trouble with the website?"
+  - "What do people do when they feel information is inaccurate?"
+  - "What do people do when they need help with something?"
+  - "What do people do when they can't find what they need?"
+  - "What do people do when they have questions in general?"
+  - "How can we make the site easier to navigate for logged-in users?"
+  - "What are people's expectations of the website experience after they've logged in?"
+  - "How do people differentiate logged in / authenticated parts of the website, and unauthenticated parts of the website?"
+  - "Does the current experience cause confusion?"
+  - "How do navigation needs and expectations differ between user types?"
+
+hypotheses:
+  - "People will struggle finding what they're looking for if they can't use the homepage or My VA."
+  - "People will give up or call VA if they can't find what they need on the VA.gov."
+  - "People's expectations of a logged-in VA.gov experience will not be much different than the current experience."
+  - "Navigation needs and expectations will be similar across user types."
+
+expected_outcomes: "The insights we learn from people during these interviews will guide meaningful improvements to the logged-in IA and navigation in the coming year."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling - mix of Veterans, caregivers, and family members"
+  
+  primary_criteria:
+    - "Must have a smartphone, desktop, laptop, or tablet and are willing to complete their interview with that device"
+    - "Have an identify-verified VA.gov account"
+    - "Be willing to log into their VA.gov account and share their screen over Zoom in a web browser window on their device"
+    - "Provide the email that they use to log in to VA.gov prior to the session"
+    - "Have a working microphone on their device"
+    - "Have Zoom downloaded to their device prior to the session"
+    
+  secondary_criteria:
+    - "All participants should receive at least 1 VA benefit or service"
+    - "7 participants should be Veterans"
+    - "4 participants should be Primary Caregivers for a Veteran"
+    - "4 participants should be family members of Veterans who receive a benefit through VA"
+    - "6 participants should be over 55"
+    - "10 participants should identify as other than Caucasian"
+    - "8 participants should identify as a gender other than male"
+    - "5 participants should have no college degree"
+    - "5 participants should identify as belonging to the LGBTQ+ community"
+    - "8 participants should identify as having a cognitive impairment"
+    - "8 participants should be able to join the session from a mobile device"
+    - "7 participants should be able to join the session from a desktop device"
+    - "6 participants should use a screenreader on a desktop or mobile device"
+    
+  screener_questions:
+    - question: "Do you have an identify-verified account on VA.gov?"
+      qualifying_response: "Yes"
+    - question: "Please provide the email address you use to log in with your VA.gov identity-verified account."
+      qualifying_response: "Text response"
+    - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
+      qualifying_response: "Yes for cognitive impairment criteria"
+    - question: "Do you need to use screen reader technology to use the internet such as VoiceOver on an iPhone, TalkBack on an Android device, or JAWS on a computer?"
+      qualifying_response: "Yes for screenreader criteria"
+      
+participants:
+  veterans: 7
+  caregivers: 4
+  family_members: 4
+  total_recruited: 15
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-03-24"
+  pilot_participant: "Mike.King@oddball.io"
+  research_dates: "2023-03-30 to 2023-04-04"
+  
+session_details:
+  duration_minutes: 45
+  screenreader_duration_minutes: 75
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase the usage and throughput of VA services"
+  - objective: "Decrease the time Veterans spend waiting for an outcome"
+  - objective: "Increase the quality and reliability of VA services"
+  - objective: "Enhance veterans' personalized online experience"
+  - objective: "Refresh the VA.gov homepage and information architecture"
+  - objective: "Integrate the health portal features into VA.gov"
+  - objective: "Improve the veteran login experience"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/research-and-analytics/2023-generative-logged-in-research/2023-logged-in-user-interviews/conversation-guide.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family Member"
+  - "PRDT: My-VA"
+  - "information-architecture"
+  - "navigation"
+  - "wayfinding-study"
+  - "authenticated"
+  - "remote"
+  - "generative-research"
+  - "Accessibility"
+  - "HDW: Desktop"
+  - "HDW: Mobile"
+  - "HDW: Smartphone"
+---
+
 # Research plan for logged-in IA and navigation, Account Experience, March 2023
 
 ## Background

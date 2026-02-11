@@ -1,3 +1,120 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Form 526 Toxic Exposure Subsection/New Questions, July 2023"
+date: 2023-08-21
+last_updated: 2026-02-10
+team: "Form 526 Team"
+product: "21-526EZ Disability Compensation Application"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The 21-526EZ form is confusing and stressful for veterans to apply for disability compensation as the process is opaque. Questions regarding toxic exposure were added to the paper 21-526EZ form following the PACT Act, and those questions now need to be added to the online form."
+  product_location: "VA.gov 21-526EZ form, one of the most used VA forms"
+  user_familiarity: "Iteration on existing form - adding new toxic exposure questions following PACT Act requirements"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/disability/526ez"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Validate form content clarity and comprehension for toxic exposure questions"
+  - goal_2: "Understand potential for screen fatigue within the sub-section"
+
+research_questions:
+  - "Do users understand the concept of toxic exposure?"
+  - "Can users understand the questions and accurately provide answers to those questions?"
+  - "Do users have trouble connecting location questions with date data input on following screens?"
+  - "Is summarizing the data collected in this subsection useful?"
+
+hypotheses:
+  - "Plain language content and reduced cognitive load will make it easy for Veterans to accurately fill out the toxic exposure questions"
+  - "Reducing the cognitive load on individual screens is a good trade-off for making the form longer"
+  - "Users may lose the thread between the locations they served and multiple dates needing to be entered when they are on separate screens"
+
+expected_outcomes: "Findings will inform whether the implementation of toxic exposure questions is clear and effective, allowing Veterans to successfully report toxic exposure so their conditions can be considered for presumptive and other types of service connection."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation"
+  
+  primary_criteria:
+    - "3 Veterans who served in Vietnam-era (1961-1980)"
+    - "3 Veterans who served between 1990 and 2001 (Gulf War era)"
+    - "3 Veterans who served after 2001 (Post 9-11 era)"
+    - "3 who served between 1975-1990"
+    - "Approximately 50% who have applied for disability benefits before and 50% who have never applied"
+    - "4 Black Veterans, 4 Caucasian Veterans, 4 other ethnicities"
+    - "4 participants with cognitive disabilities"
+    - "4-6 participants from rural geographies"
+    
+  secondary_criteria:
+    - "Even mix of education, gender, and military branch"
+    
+  screener_questions:
+    - question: "In which of these periods were you on active duty?"
+      qualifying_response: "Must select from: 1961-1980, 1990-2000, 2001-2023, or None of these"
+    - question: "Do you ever find it difficult to read or understand information because of a learning disability or other condition?"
+      qualifying_response: "Recruit 4-6 who answer yes"
+    - question: "Have you ever filed a claim for disability compensation with the VA before?"
+      qualifying_response: "Attempt to recruit 50% yes, 50% no"
+      
+participants:
+  veterans: 12
+  caregivers: 0
+  dependents: 0
+  total_recruited: 12
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-08-21"
+  pilot_participant: "Anneliese LaTempa"
+  research_dates: "2023-08-21 to 2023-08-31"
+  research_review_submission: "2023-08-01"
+  
+session_details:
+  duration_minutes: 75
+  buffer_minutes: 45
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Enhance Veterans' personalized online experience"
+  - objective: "Fast-track disability claims, starting with PACT Act claims"
+    key_results:
+      - "Reduce errors and ambiguity in submitted claims"
+      - "Reduce processing time"
+  - objective: "Build trust with Veterans"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Form 526 usability research"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: 526EZ"
+  - "PACT-Act"
+  - "toxic-exposure"
+  - "usability-testing"
+  - "authenticated"
+  - "remote"
+  - "HDW: Mobile"
+  - "HDW: Desktop"
+  - "Accessibility"
+  - "cognitive-disability"
+---
+
 # Research Plan for Form 526 Toxic Exposure Subsection/New Questions 
 
 ## Background on the product

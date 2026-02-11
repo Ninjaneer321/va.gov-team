@@ -67,7 +67,30 @@ This results in:
 - Routing logic can be reused across other forms.
 
 ---
+## Proof of Concept (POC)
 
+This phase of work is scoped as a **Proof of Concept (POC)** rather than a Minimum Viable Product (MVP). The primary objective of this POC is to demonstrate the *technical feasibility* of the core routing capability that enables a form to be:
+
+1. **Routed from Party A to Party B**,  
+2. **Completed and digitally signed by Party B**, and  
+3. **Submitted back to VA.gov** as a consolidated document.
+
+For this POC, the VA Form 2680 will be used only in **prototype form** as a mechanism to collect front-end data and generate a PDF version of the completed form. The 2680 form in this context is *not* a finalized form implementation but rather a representative artifact to validate data capture and PDF generation in the routing flow. [oai_citation:1‡GitHub](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Aquia-Bio-Multiparty-Routing/Product_Outline.md?utm_source=chatgpt.com)
+
+### Scope and Limitations
+
+- This POC **does not include notifications**, configurable routing options, user messaging, or other ancillary components.
+- It focuses strictly on *demonstrating the end-to-end routing mechanism* — from initial form entry by Party A, transfer to Party B, Party B interaction (complete/sign), and ultimate return submission.
+- The routing and consolidation logic developed in this phase is intended to be **form-agnostic** and *decoupled from specific VA forms*. That is, the code should be reusable across any form or document workflow in future use cases.
+- By isolating the routing capability in this POC, we aim to establish a **foundational building block** that can be extended into a productized MVP with additional features such as notifications, configuration, and UI refinements.
+
+### Rationale
+
+The reasoning for framing this work as a POC rather than an MVP is that the core technical challenge being validated — *the ability to route a document between parties, capture signatures, and consolidate responses* — must be proven independently of product features or form-specific logic. This approach ensures that:
+
+- The underlying routing capability can be designed as **reusable, form-independent code**,
+- We can assess technical risks early, and
+- Future work (e.g., notifications, configurable actors, UI enhancements) can build on a validated core routing engine.
 ## Solution Approach
 
 ### What We Will Build Now (Pilot Scope)

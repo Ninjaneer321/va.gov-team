@@ -1,3 +1,150 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Usability Testing, Income Limits App, April 2023"
+date: 2023-04-05
+last_updated: 2023-04-05
+team: "Public Websites"
+product: "Income Limits App"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "The existing income limits application lacks reliably accurate data, plain language, and clearly defined use cases. It has not been designed or tested with Veterans to ensure it's aligned to their needs and intuitive to use."
+  product_location: "VA.gov health benefits section"
+  user_familiarity: "Redesign and modernization of existing application"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/income-limits-app"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Get user feedback on the newly redesigned income limits application"
+  - goal_2: "Understand Veterans' expectations of income eligibility for VA health care"
+  - goal_3: "Assess comprehension of questions, income limits, and health care benefits presented in the app"
+
+research_questions:
+  - "What are Veterans' expectations of income eligibility for VA health care?"
+  - "Where do Veterans expect to find this app? (i.e., Costs of Care page, Eligibility page, etc.)"
+  - "Do Veterans understand the questions in the app? Is anything unclear or confusing?"
+  - "Do Veterans find a summary page helpful for verifying the information entered?"
+  - "Do Veterans understand the income limits presented in the app results page? Is anything unclear or confusing?"
+  - "Do Veterans understand the relevant year of income for their eligibility?"
+  - "Do Veterans understand the health care benefits shown in the app results page? Is anything unclear or confusing?"
+  - "How far do Veterans scroll down the app results page?"
+  - "Do Veterans understand deductions and how that affects their income?"
+  - "After seeing the information presented in the app results page, what do Veterans want to do next?"
+  - "Do Veterans understand that they can use this to find the income limits for a previous year (not 2023)?"
+
+hypotheses:
+  - "Veterans will be able to answer the questions in the app for themselves"
+  - "From the information presented in the app results page, Veterans will understand how the different income thresholds affect the health care benefits they might qualify for"
+  - "Zip code is sufficient/comfortable for Veterans to specify the location where they live"
+  - "After seeing the summary page with information entered, Veterans will have confidence in the accuracy of the results page"
+  - "Veterans understand the difference between the desired year for benefits and the year that they need to use for income (the previous year)"
+  - "Veterans understand that thresholds in the app are not final answers, and only by applying for VA health care can they learn what benefits they're eligible for"
+  - "Veterans don't need to see their answers to the questions while looking at the results page"
+  - "The results page is an intuitive place for Veterans to seek information about historical income limits"
+  - "The intro page communicates that income limits apply to only some Veterans"
+
+expected_outcomes: "Learnings will help refine the design of the application to better serve Veterans determining their eligibility for VA health care benefits"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation"
+  
+  primary_criteria:
+    - "ALL do NOT have VA health care"
+    - "ALL do NOT get VA disability compensation for a service-connected disability rating of 50% or higher"
+    - "ALL do NOT get a pension from the VA"
+    - "ALL have a smartphone to use for the session with Zoom downloaded and screen sharing capability"
+    - "At least 4 people with a cognitive disability (e.g., TBI)"
+    - "At least 4 people who are age 55 or older"
+    - "At least 2 people 35 or under"
+    
+  secondary_criteria:
+    - "At least 3 people of color"
+    - "At least 2 women"
+    - "At least 2 people who don't have any degree or vocational training after high school"
+    - "At least 2 people who live in a rural or remote area"
+    - "At least 2 people who are LGBTQ+"
+    
+  screener_questions:
+    - question: "Do you (or the Veteran that you're a caregiver for) have VA health care?"
+      qualifying_response: "No"
+    - question: "Do you (or the Veteran that you're a caregiver for) get VA disability compensation for a service-connected disability rating of 50% or higher?"
+      qualifying_response: "No"
+    - question: "Do you (or the Veteran that you're a caregiver for) get a pension from the VA?"
+      qualifying_response: "No"
+      
+participants:
+  veterans: 8
+  caregivers: 3
+  dependents: 0
+  total_recruited: 11
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-03-14"
+  pilot_participant: "Greg Monahan"
+  research_dates: "2023-04-05 to 2023-04-12"
+  research_review_submission: "2023-03-13"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: 
+      - "Increase usage of digital, self-service tools"
+      - "Increase benefit use and enrollment"
+  - objective: "Decrease the time Veterans spend waiting for an outcome"
+    key_results:
+      - "Decrease call center volume, wait time, and time to resolution"
+  - objective: "Increase the quality and reliability of VA services"
+    key_results:
+      - "Veterans and their families can find a single, authoritative source of information"
+      - "Veterans and their families trust the security, accuracy, and relevancy of VA.gov"
+      
+veteran_journey_phases:
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues/219"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/income-limits-app/initiatives/2023-launch/research/conversation-guide.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: Income limits app"
+  - "PRDT: VA health care eligibility"
+  - "research-method: usability-testing"
+  - "research-method: moderated"
+  - "device: mobile"
+  - "assistive-technology"
+  - "cognitive-disability"
+  - "rural"
+---
+
 # Research Plan for Usability Testing, Income Limits App, April 2023
 
 ## Background

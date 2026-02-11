@@ -1,3 +1,129 @@
+---
+# Research Plan Metadata
+title: "Research Plan: Direct deposit payment instruction consolidation UAT, April 2024"
+date: 2024-04-01
+last_updated: 2024-04-01
+team: "Authenticated Experience Profile"
+product: "VA.gov Profile - Direct Deposit"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "VBA is migrating Chapter 33 education benefits from legacy system to newer payment system. Veterans who receive both education and compensation/pension benefits currently have two separate payment options, but migration requires ONE set of identical payment instructions for both benefit types. Need to consolidate direct deposit information to prevent service disruptions."
+  product_location: "VA.gov Profile - Direct Deposit section"
+  user_familiarity: "Iteration on existing Profile direct deposit section for Chapter 33 BDN-CorpDB migration"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/direct-deposit/ch33-bdn-corpdb-migration"
+
+# Research Design
+methodology: "User Acceptance Testing (UAT)"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Confirm Direct Deposit section functions as intended for users who sign in with ID.me or Login.gov and have direct deposit set up"
+  - goal_2: "Validate three user scenarios: Veterans with both education and C&P benefits, Veterans with just education benefits, Veterans with just C&P benefits"
+  - goal_3: "Confirm API returns correct information and safeguards prevent invalid routing/account numbers from being saved"
+
+research_questions:
+  - "Is the API showing us the correct flags for direct deposit?"
+  - "Are eligible participants able to successfully view and save their bank information?"
+  - "Are users able to open the edit modal, click cancel, and see previously-saved direct deposit information still saved in their Profile?"
+  - "When participants update their direct deposit information, do they receive the correct confirmation email?"
+  - "Are participants prevented from submitting the direct deposit form with errors or invalid routing/account numbers?"
+
+hypotheses:
+  - "Direct Deposit will function as expected, answering affirmatively to all direct deposit research questions"
+
+expected_outcomes: "Based on outcome of this research study, we will correct any bugs or significant usability hurdles and launch this work to veterans"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment across three benefit scenarios"
+  
+  primary_criteria:
+    - "Must be able to screen share via Zoom"
+    - "Must have identity-verified account"
+    - "Roughly 50% must use ID.me credential, 50% must use Login.gov credential"
+    - "33% receive both Post-9/11 GI Bill (Chapter 33) education and C&P benefits"
+    - "33% receive only C&P benefits"
+    - "33% receive only Post-9/11 GI Bill (Chapter 33) education benefits"
+    
+  secondary_criteria:
+    - "Participants notified they will be looking at Direct Deposit section and need direct deposit information readily available"
+    
+  screener_questions:
+    - question: "Do you have an identity-verified account on VA.gov?"
+      qualifying_response: "Yes"
+    - question: "Do you have working login credentials for ID.me or Login.gov?"
+      qualifying_response: "ID.me or Login.gov (not MyHealtheVet or DS Logon)"
+    - question: "What email address do you use to login to VA.gov?"
+      qualifying_response: "Fill in the blank (for account access setup)"
+    - question: "Do you currently receive direct deposit payments for any of the following benefits?"
+      qualifying_response: "Both Post-9/11 GI Bill and C&P OR just C&P OR just Post-9/11 GI Bill"
+      
+participants:
+  veterans: 9
+  caregivers: 0
+  dependents: 0
+  total_recruited: 9
+  completed_sessions_goal: 6
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-04-29"
+  pilot_participant: "Shane Strassberg (first pilot) and Perigean recruit (second pilot)"
+  research_dates: "2024-04-29 to 2024-05-02"
+  research_review_submission: "2024-04-17"
+  
+session_details:
+  duration_minutes: 30
+  buffer_minutes: 60
+  max_sessions_per_day: 5
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Work collaboratively across the health and benefits portfolios on high-priority FY2024 initiatives"
+    key_results: 
+      - "At least 50% of our initiatives should support the major initiatives in the health and benefits portfolio"
+      
+veteran_journey_phases:
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/direct-deposit/ch33-bdn-corpdb-migration"
+    
+tags:
+  - "profile"
+  - "direct-deposit"
+  - "authenticated-experience"
+  - "veterans"
+  - "UAT"
+  - "user-acceptance-testing"
+  - "education-benefits"
+  - "chapter-33"
+  - "GI-Bill"
+  - "compensation-and-pension"
+  - "BDN-migration"
+  - "CorpDB-migration"
+  - "ID.me"
+  - "Login.gov"
+  - "remote"
+  - "moderated"
+---
+
 # Research Plan: Direct deposit payment instruction consolidation UAT, April 2024
 
 ## Background  

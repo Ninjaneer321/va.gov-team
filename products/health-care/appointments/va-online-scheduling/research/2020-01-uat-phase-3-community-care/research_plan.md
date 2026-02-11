@@ -1,3 +1,120 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VAOS Team, UAT Phase 3 Community Care, January 2020"
+date: 2020-01-01
+last_updated: 2026-02-10
+team: "VA Online Scheduling"
+product: "VA Online Scheduling (VAOS)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Validate that Veterans can successfully schedule community care requests and make direct appointments through the relaunched VAOS on VA.gov using real data in production."
+  product_location: "VA.gov VAOS application"
+  user_familiarity: "Relaunch - VAOS front end rebuilt from legacy mobile.va.gov application"
+  product_brief_url: ""
+
+# Research Design
+methodology: "user acceptance testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Validate that Veterans can successfully complete the scheduling flow in production"
+  - goal_2: "Verify that data is displaying correctly throughout the application"
+  - goal_3: "Test both community care requests and direct appointment scheduling functionality"
+
+research_questions:
+  - "Are users getting through the flow?"
+  - "Is the data showing up where it is supposed to show up?"
+
+hypotheses:
+  - "Veterans are able to schedule community care requests and make direct appointments in a way that is logical and intuitive to them."
+
+expected_outcomes: "Validation that VAOS functions correctly in production with real Veteran data before full launch"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Purposive sampling for UAT with specific eligibility requirements"
+  
+  primary_criteria:
+    - "Must be Veterans enrolled in VA healthcare"
+    - "Must have upcoming health appointments at VA"
+    - "Must know they are eligible for community care/CHOICE"
+    - "Must have MHV Premium account OR authenticated ID.me account"
+    - "Must want to submit or request an appointment"
+    - "Must have logged into VA.gov with their accounts prior to session"
+    
+  secondary_criteria:
+    - "Ideally Veterans who have used online scheduling before"
+    - "Ideally Veterans seen at VA healthcare facility within last 2 years"
+    
+  screener_questions:
+    - question: "Do you have upcoming health appointments at VA and are enrolled in VA healthcare?"
+      qualifying_response: "Yes"
+    - question: "Do you know if you are eligible for community care/CHOICE?"
+      qualifying_response: "Yes"
+    - question: "Do you have a MHV Premium account or authenticated ID.me account?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 30
+  caregivers: 0
+  dependents: 0
+  total_recruited: 30
+  completed_sessions_goal: 30
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: ""
+  pilot_participant: ""
+  research_dates: "2020-11-16 to 2020-11-23"
+  research_review_submission: ""
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 30
+  max_sessions_per_day: 8
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Increase online appointment scheduling adoption"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Managing my declining health"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "VAOS UAT Phase 1"
+    - "VAOS UAT Phase 2"
+    
+tags:
+  - "VAOS"
+  - "appointments"
+  - "user-acceptance-testing"
+  - "UAT"
+  - "veterans"
+  - "community-care"
+  - "healthcare"
+  - "scheduling"
+  - "authenticated-experience"
+  - "production-testing"
+  - "validation"
+  - "MHV"
+  - "direct-scheduling"
+---
+
 # Research plan for UAT - January 2020 
 
 

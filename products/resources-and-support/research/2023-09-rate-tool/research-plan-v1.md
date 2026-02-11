@@ -1,3 +1,132 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Veterans Support Team, Resources and Support, Rate your experience feedback mechanism"
+date: 2023-10-16
+last_updated: 2023-10-16
+team: "Veterans Support Team"
+product: "Resources and Support"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Users can rate R&S articles as 'good' or 'bad', but when rating as 'bad', there is no mechanism for users to report specific problems or reasons. Content owners need actionable feedback to improve articles."
+  product_location: "Resources and Support article pages on VA.gov"
+  user_familiarity: "Iteration on existing Rate your experience feedback mechanism"
+  product_brief_url: "https://app.zenhub.com/workspaces/contact-center-62cdd9546ec1530018209672/issues/gh/department-of-veterans-affairs/va.gov-team/65148"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Validate that users are able to easily use the Rate Feedback mechanism to provide feedback on article pages and report an appropriate problem"
+  - goal_2: "Assess whether users can easily navigate and discover the rate your experience feedback mechanism on article pages"
+  - goal_3: "Determine if the question 'How would you rate your experience' is a helpful title that tells users what they will find"
+
+research_questions:
+  - "Are users able to find where they can rate and report feedback?"
+  - "What do users expect to see after they submit feedback?"
+  - "In what situation would a user rate this page? Why would they rate it 'good', why would they rate it 'bad'?"
+  - "Does the wording make sense? If not, what should it say?"
+  - "Do the options under 'How would you rate your experience' make sense to users?"
+  - "What other types of problems would they expect to report?"
+  - "What do users think about the amount of issues presented to them? Is the amount overwhelming?"
+  - "What are their perceptions on the difference between this feedback tool and Medallia?"
+  - "Do users utilize rate your experience feedback mechanism on the article pages?"
+  - "Do users utilize the feedback button near the footer on the article pages?"
+  - "What do users think of the title, 'How would you rate your experience'?"
+
+hypotheses:
+  - "Users will not know the purpose of the rate your experience feedback mechanism"
+  - "The good/bad buttons that are currently used to track feedback are not helpful as the data is recorded in Google Analytics"
+  - "Users will be more likely to use the feedback button near the footer to leave feedback on the Article page"
+
+expected_outcomes: "Confirm whether updates allow users to provide actionable feedback for content editors to improve R&S articles, whether navigation and discoverability are improved, and whether the naming accurately informs users of content"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "lean maximum variation"
+  
+  primary_criteria:
+    - "50% of participants should be able to participate from a desktop device"
+    - "50% of participants should be able to participate from a mobile phone"
+    
+  secondary_criteria:
+    - "8 women, 8 men"
+    - "3 participants who use assistive technology (e.g. screen reader, magnification)"
+    - "10 participants who identify as other than white"
+    - "5 participants who identify as other than straight/heterosexual and cisgender"
+    - "8 participants age 55+"
+    - "8 participants who identify as having a cognitive disability"
+    - "5 participants who do not have a college degree"
+    - "5 participants who live in a rural area"
+    
+  screener_questions:
+    - question: ""
+      qualifying_response: ""
+      
+participants:
+  veterans: 10
+  caregivers: 0
+  dependents: 0
+  total_recruited: 10
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-10-15"
+  pilot_participant: "TBD"
+  research_dates: "2023-10-16 to 2023-10-23"
+  research_review_submission: ""
+  
+session_details:
+  duration_minutes: 45
+  buffer_minutes: 30
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: 
+      - "Improve Resources and Support to allow Veterans and their support system to find information on utilizing their VA.gov account"
+  - objective: "Veterans and their families trust the security, accuracy, and relevancy of VA.gov"
+    key_results:
+      - "Enable actionable feedback from users to improve content quality"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/resources-and-support/initiatives/2022-01-article-pages/discovery.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/69833737d9fe22b8990bb987e7c50de13205c5d5/products/content/tier-2-content-IA-and-design/learning-center-mvp/discovery-and-research"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/content/tier-2-content-IA-and-design/learning-center-mvp/discovery-and-research/learning-center-mvp-findings-summary.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Resources and support"
+  - "PRDT: Content"
+  - "DSP: Feedback mechanisms"
+  - "research-method: usability-testing"
+  - "research-method: moderated"
+  - "device: desktop"
+  - "device: mobile"
+  - "assistive-technology"
+  - "cognitive-disability"
+---
+
 #  Research Plan for Veterans Support Team, Resources and Support, Rate your experience feedback mechanism.
 
 ## Background

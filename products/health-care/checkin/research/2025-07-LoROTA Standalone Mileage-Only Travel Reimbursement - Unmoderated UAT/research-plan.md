@@ -1,3 +1,129 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Check-in Experience Team, LoROTA Standalone Mileage-Only Travel Reimbursement Application, July 2025"
+date: 2025-07-01
+last_updated: 2025-07-18
+team: "Check-in Experience Team"
+product: "LoROTA Standalone Mileage-Only Travel Reimbursement Application"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans who have medical appointments at VA health facilities that use Oracle Health EHR software need to be able to file a mileage-only travel reimbursement claim on the day of their appointment using Low Risk One Time Authentication (LoROTA) to streamline the sign-in process"
+  product_location: "Smartphone-based travel reimbursement feature piloted at VA health facilities with Oracle Health (Portland or Columbus)"
+  user_familiarity: "New iteration of the travel pay flow for Oracle Health facilities - Veterans who have used check-in, pre-check-in, or travel pay prior should have general familiarity"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/Initiatives/simple-mileage-only-travel-web.md"
+
+# Research Design
+methodology: "user acceptance testing (UAT) - unmoderated survey"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: false
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Gather feedback from Veterans on the LoROTA standalone mileage-only travel reimbursement application's ease of use"
+  - goal_2: "Collect open-ended feedback from Veterans about the updated experience of signing in and filing a travel reimbursement claim through the LoROTA standalone mileage-only travel reimbursement application"
+  - goal_3: "Identify any challenges Veterans experience when filing a claim via the LoROTA standalone mileage-only travel reimbursement application"
+
+research_questions:
+  - "How do Veterans find out about filing a travel reimbursement claim by texting travel to 54804?"
+  - "How confident do Veterans feel that their travel reimbursement claim was filed?"
+  - "How easy or difficult is it for Veterans to file a travel reimbursement claim?"
+  - "Do Veterans understand what happens next in the reimbursement process?"
+  - "How satisfied were Veterans with the experience of initiating and filing a claim?"
+  - "How likely are Veterans to use this tool to file for travel reimbursement in the future?"
+  - "Do Veterans have any open ended feedback related to signing in and/or filing a claim?"
+
+hypotheses:
+  - "Most Veterans will find out through a poster at the clinic or through an online resource"
+  - "Veterans will feel confident that their travel reimbursement claim was filed"
+  - "Veterans will find it extremely easy to file a claim from their smartphones"
+  - "Veterans will understand what comes next in the travel reimbursement process"
+  - "Veterans will be satisfied with the experience of using the LoROTA standalone mileage-only travel reimbursement application"
+  - "While initial adoption may provide a challenge, once Veterans use this application they will be very likely to use this tool in the future"
+  - "Veterans will occasionally provide open ended feedback related to signing in and/or filing a claim"
+
+expected_outcomes: "The learnings from this study will help us understand Veterans' experience with the LoROTA standalone mileage-only travel reimbursement application, identify opportunities for improvement, and make any necessary changes to the content, UI, or user flow"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Cohort-based recruitment across age ranges"
+  
+  primary_criteria:
+    - "Cohort A: 9 Veterans age 18-24"
+    - "Cohort B: 9 Veterans age 25-34"
+    - "Cohort C: 9 Veterans age 35-44"
+    - "Cohort D: 9 Veterans age 45-54"
+    - "Cohort E: 9 Veterans age 55-64"
+    - "Cohort F: 9 Veterans age 65-74"
+    - "Cohort G: 9 Veterans age 75+"
+    
+  secondary_criteria:
+    - "At least 25 women"
+    - "At least 25 participants with a cognitive disability"
+    - "At least 25 participants who are not Caucasian"
+    - "At least 12 LGBTQ+ Veterans"
+    - "At least 12 participants who don't have any degree or vocational training after high school (to include enlisted Veterans)"
+    
+  screener_questions:
+    - question: "Have you successfully filed a claim through the LoROTA standalone mileage-only travel reimbursement application?"
+      qualifying_response: "Yes - completed the 'happy path'"
+      
+participants:
+  veterans: 63
+  caregivers: 0
+  dependents: 0
+  total_recruited: 63
+  completed_sessions_goal: 35
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2025-07-29"
+  pilot_participant: "N/A - unmoderated survey"
+  research_dates: "2025-07-29 to 2025-08-15"
+  research_review_submission: "2025-07-18"
+  
+session_details:
+  duration_minutes: 20
+  buffer_minutes: 0
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+    key_results: 
+      - "Improve satisfaction with our web and mobile products by 5 points"
+      
+veteran_journey_phases:
+  - "Taking Care of Myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/product/Initiatives/simple-mileage-only-travel-web.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Check-in"
+  - "PRDT: Travel reimbursement"
+  - "HDW: Smartphone"
+  - "user-acceptance-testing"
+  - "unmoderated"
+  - "remote"
+  - "authenticated"
+  - "survey"
+  - "LoROTA"
+  - "Oracle Health"
+  - "mileage-reimbursement"
+---
+
 # Research Plan for [Check-in Experience Team, LoROTA Standalone Mileage-Only Travel Reimbursement Application, July, 2025]
 
 ## Background 🏗️

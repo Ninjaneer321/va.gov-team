@@ -1,3 +1,126 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Sitewide Family and Caregiver Benefits Hub, November 2023"
+date: 2023-11-01
+last_updated: 2023-11-01
+team: "Sitewide Content and IA"
+product: "Family Member Hub"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Family and caregiver benefit content, applications, and tasks are distributed across Veteran benefit hubs, making it difficult for family members and caregivers to find information relevant to them. Tools are mostly framed for Veterans but are often intended for family members and caregivers to use for their own benefits."
+  product_location: "VA.gov - Family member hub and related benefit content"
+  user_familiarity: "Iteration - consolidating content into family member hub"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/content/content-strategy-ia-collaboration/family-member-hub/initiative-brief.md"
+
+# Research Design
+methodology: "tree testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: false
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Determine if moving family and caregiver related content under a single benefit hub for that audience will improve the discoverability and findability of relevant benefit information"
+  - goal_2: "Determine if highlighting caregiver and survivor benefits helps improve discoverability and findability of those specific benefits"
+
+research_questions:
+  - "Will family members and caregivers navigate to the family member hub for information on benefits for themselves?"
+  - "Will family members and caregivers navigate to the family member hub to complete tasks related to managing and tracking their own benefits?"
+  - "Will survivors navigate to the section labeled 'Survivors' in the family member hub to find information on benefits?"
+  - "Will caregivers navigate to the section labeled 'Caregivers' in the family member hub to find information on benefits?"
+
+hypotheses:
+  - "Family members and caregivers will navigate to the family member hub for information on benefits for themselves"
+  - "Family members and caregivers will navigate to the family member hub to complete tasks related to managing and tracking their own benefits"
+  - "Survivors will navigate to the section labeled 'Survivors' in the family member hub to find information on benefits"
+  - "Caregivers will navigate to the section labeled 'Caregivers' in the family member hub to find information on benefits"
+
+expected_outcomes: "Learnings will help refine how we organize and group information within the new family and caregiver hub"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "cohort-based recruitment for tree testing"
+  
+  primary_criteria:
+    - "Veteran family member (spouse, dependent, parent)"
+    - "Surviving Veteran family member (surviving spouse, surviving child, surviving parent)"
+    - "Veteran caregiver (family caregiver, non-family caregiver)"
+    
+  secondary_criteria:
+    - "Mix of enrolled in at least 1 VA benefit vs not enrolled in any VA benefits"
+    - "Gender diversity"
+    
+  screener_questions:
+    - question: "Which option most accurately describes your relationship to the Veteran in your life?"
+      qualifying_response: "Spouse/child/parent of living Veteran, surviving family member, or caregiver"
+    - question: "Are you enrolled in at least 1 VA benefit?"
+      qualifying_response: "Yes or No (mix desired)"
+      
+participants:
+  veterans: 0
+  caregivers: 27
+  dependents: 27
+  total_recruited: 54
+  completed_sessions_goal: 40
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-11-08"
+  pilot_participant: "Internal team member"
+  research_dates: "2023-11-08 to 2023-11-15"
+  research_review_submission: "2023-10-31"
+  
+session_details:
+  duration_minutes: 20
+  buffer_minutes: 0
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Refresh VA.gov homepage and IA"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Survivor journey: Preparing - Caring for loved one"
+  - "Survivor journey: Adjusting - Loved one passes away"
+  - "Survivor journey: Memorializing - Prepares burial and funeral"
+  - "Survivor journey: Engaging - Becomes aware of benefits"
+  - "Survivor journey: Applying - Pursues and applies for benefits"
+  - "Caregiver journey: Becoming aware and adjusting - Identifies as caregiver"
+  - "Caregiver journey: Shifting priorities and seeking help - Contacts support"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "VEO veteran spouse research notes"
+    - "Existing data and research review"
+    
+tags:
+  - "PRDT: family-member-hub"
+  - "AUD: family-members"
+  - "AUD: caregivers"
+  - "AUD: survivors"
+  - "RESRCH: tree-test"
+  - "RESRCH: unmoderated"
+  - "RESRCH: remote"
+  - "information-architecture"
+  - "findability"
+  - "navigation"
+  - "content-strategy"
+  - "survivor-benefits"
+  - "caregiver-benefits"
+  - "BNFT: family-member-benefits"
+  - "BNFT: survivor-benefits"
+  - "BNFT: caregiver"
+---
+
 # Research Plan for Sitewide Family and Caregiver benefits hub - 11/2023
 *Questions about how to set up your research study? Reach out in the #research-ops Slack channel.* 
 

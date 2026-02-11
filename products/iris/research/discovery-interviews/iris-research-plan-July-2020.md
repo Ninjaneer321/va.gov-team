@@ -1,3 +1,125 @@
+---
+# Research Plan Metadata
+title: "Research Plan for VA CTO ThoughtWorks, IRIS Discovery, July 2020"
+date: 2020-07-21
+last_updated: 2026-02-10
+team: "VA CTO ThoughtWorks"
+product: "IRIS (Inquiry Routing & Information System)"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Evaluate the current user experience with IRIS to understand what can be improved, removed, added, or reorganized within the system. The hypothesis is that most veterans prefer to self-serve their needs on VA.gov digitally, and they call-in or submit a query only if online resources are not easy to find or cannot address their queries."
+  product_location: "https://iris.custhelp.va.gov/"
+  user_familiarity: "Existing product - exploring potential rebuild or replacement"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/iris/IRIS-product-brief.md"
+
+# Research Design
+methodology: "semi-structured interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Evaluate the current user experience with IRIS"
+  - goal_2: "Understand what can be improved, removed, added, or reorganized within the system"
+  - goal_3: "Understand why users submit queries through IRIS instead of self-serving on VA.gov"
+
+research_questions:
+  - "What challenges do users experience when using IRIS?"
+  - "Why do users choose to submit queries through IRIS rather than finding information on VA.gov?"
+  - "What improvements would make the IRIS experience better for users?"
+  - "What features or functionality should be added, removed, or reorganized?"
+  - "How can the user experience be streamlined to increase customer satisfaction?"
+
+hypotheses:
+  - "Most veterans prefer to self-serve their needs on VA.gov digitally."
+  - "Veterans call-in or submit a query only if online resources are not easy to find or cannot address their queries."
+  - "If we streamline the process of finding info on VA.gov via a better user experience than the one provided by the current IRIS interface, more queries will be addressed for veterans and we should see a corresponding increase in customer satisfaction scores."
+
+expected_outcomes: "Identify specific improvements to IRIS that will streamline the inquiry process, improve user experience, and increase customer satisfaction by making information easier to find on VA.gov."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "targeted recruitment based on recent IRIS usage"
+  
+  primary_criteria:
+    - "5 participants recruited"
+    - "Veterans, Service members, National Guard and Reserve, their family members and friends"
+    - "Participant has used IRIS (https://iris.custhelp.va.gov/app/ask) in the past 6 months"
+    - "Can speak to the challenges they may have experienced with IRIS"
+    
+  secondary_criteria:
+    - "Mix of genders"
+    - "Mix of ages"
+    - "Those with accessibility requirements (bonus)"
+    - "Overseas locations - either currently or recently stationed overseas (bonus)"
+    
+  screener_questions:
+    - question: "Have you used IRIS (https://iris.custhelp.va.gov/app/ask) in the past 6 months?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 5
+  caregivers: 0
+  dependents: 0
+  total_recruited: 5
+  completed_sessions_goal: 5
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2020-08-01"
+  pilot_participant: "TBD"
+  research_dates: "2020-08-03 to 2020-08-07"
+  research_review_submission: "2020-07-21"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Improve VA digital contact center experience"
+    key_results: 
+      - "Streamline inquiry routing and information access"
+      - "Increase customer satisfaction scores for contact center interactions"
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/iris/IRIS-product-brief.md"
+    
+tags:
+  - "IRIS"
+  - "inquiry-routing"
+  - "contact-center"
+  - "Ask-VA"
+  - "customer-service"
+  - "semi-structured-interviews"
+  - "discovery"
+  - "unauthenticated"
+  - "self-service"
+  - "information-architecture"
+  - "veterans"
+  - "service-members"
+  - "family-members"
+  - "customer-satisfaction"
+---
+
 # IRIS Research Plan  for July 2020
 **7/21/2020**
 

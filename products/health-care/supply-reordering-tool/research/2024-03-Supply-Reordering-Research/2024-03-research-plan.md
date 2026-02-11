@@ -1,3 +1,139 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Supply Reordering Usability Test, Health Portfolio, March 2024"
+date: 2024-02-28
+last_updated: 2024-02-28
+team: "Health Portfolio"
+product: "Medical Supply Reordering Tool"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The Supply Reordering tool seeks to relieve the burden on the Veteran of going to DLC for reordering devices and filling out a form via mail, or calling to reorder their devices. Due to this online tool functionality, DLC has seen a drastic reduction in the use of their contact centers for supply reorders."
+  product_location: "VA.gov - Health care - Order hearing aid batteries and CPAP supplies"
+  user_familiarity: "Existing product on VA.gov - evaluating current experience"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/supply-reordering-tool"
+
+# Research Design
+methodology: "remote usability testing and interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand how Veterans currently order and re-order medical supplies"
+  - goal_2: "Evaluate if the current digital form on VA.gov is user-friendly, easy to understand, and useful to Veterans"
+
+research_questions:
+  - "What are Veterans' reactions to and understanding of the current digital medical supplies ordering tool?"
+  - "Is it clear that the form may include hearing aid supplies and CPAP supplies?"
+  - "Is it clear to users why some supplies are available and some are not?"
+  - "Is the form clear on what Veterans need to do when supplies are not available?"
+  - "Do Veterans know what to do when they want to change supplies after submission?"
+  - "How are Veterans notified when their prescribed medical supplies are eligible to reorder?"
+  - "How is the process of reordering indicated to Veterans first time and subsequent times?"
+
+hypotheses:
+  - "Participants will get through the tasks of ordering the supplies relatively easily"
+  - "Participants may not know how to change supplies once orders are submitted"
+  - "Veterans probably look to see what shape their supplies are in to know when to reorder and/or are notified by their clinician"
+  - "Veterans probably find out about the reordering process from their VA provider"
+  - "Most Veterans would probably call DLC or try to call their VA Medical Center to discuss changing supplies, for example, if they want a different-sized CPAP supply after submitting a supply order"
+
+expected_outcomes: "Determine if the current digital ordering process is serving Veterans' needs and is as intuitive as possible for the future state of this product. The insights will help us improve the medical supplies ordering experience."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "maximum variation sampling across MHV usage, VA.gov usage, and medical supply types"
+  
+  primary_criteria:
+    - "Must currently receive VA healthcare benefits"
+    - "Must have an active MHV account that they have accessed at least once in the past 12 months"
+    - "15 total participants"
+    - "10 prescribed hearing aid batteries/accessories or CPAP supplies, 5 prescribed other supplies (glucose test strips, cleaning wipes, wound care supplies)"
+    - "8 have ordered supplies online or with paper forms, 7 have never ordered supplies"
+    - "7 mobile users, 8 desktop users"
+    
+  secondary_criteria:
+    - "At least 8 participants older than 55"
+    - "At least 7 participants with some college or less as their terminal degree"
+    - "8 active MHV users (at least once a month), 7 don't have or rarely use MHV"
+    - "8 VA.gov users (at least once a month in past 6 months), 7 never used VA.gov"
+    
+  screener_questions:
+    - question: "Have you seen a VA provider in the past 2 years?"
+      qualifying_response: "Yes"
+    - question: "Have you been prescribed hearing aid batteries/accessories, CPAP supplies, or other medical supplies?"
+      qualifying_response: "Mix of hearing aid/CPAP (10) and other supplies (5)"
+    - question: "Have you ordered supplies online on VA.gov or with paper forms?"
+      qualifying_response: "Mix of yes (8) and no (7)"
+    - question: "How often have you used VA.gov in the past 6 months?"
+      qualifying_response: "Mix of never (7) and at least once a month (8)"
+    - question: "How often do you use MyHealtheVet?"
+      qualifying_response: "Mix of never/once a year (7) and once a month or more (8)"
+      
+participants:
+  veterans: 15
+  caregivers: 0
+  dependents: 0
+  total_recruited: 15
+  completed_sessions_goal: 15
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-02-21"
+  pilot_participant: "TBD"
+  research_dates: "2024-02-28 to 2024-03-13"
+  research_review_submission: "2024-02-16"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/supply-reordering-tool/research/2024-03-Supply-Reordering-Research/2024-03-usability-test-conversation-guide.md"
+    
+tags:
+  - "medical-supplies"
+  - "supply-reordering"
+  - "hearing-aids"
+  - "CPAP"
+  - "DLC"
+  - "health-care"
+  - "usability-testing"
+  - "veterans"
+  - "authenticated-experience"
+  - "MHV"
+  - "mobile"
+  - "desktop"
+  - "staging-environment"
+  - "evaluative"
+---
+
 # Research Plan for Supply Reordering Usability Test, Health Portfolio, March 2024
 
 ## Background

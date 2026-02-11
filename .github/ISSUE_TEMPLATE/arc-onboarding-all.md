@@ -14,7 +14,7 @@ Welcome to the ARC team! Once you receive your PIV and can access your [VA.gov](
 
 - [ ] **Platform Orientation.** Watch [VA.gov](http://va.gov) Platform Orientation [video](https://depo-platform-documentation.scrollhelp.site/getting-started/platform-orientation). 
 
-  - [ ] Submit your [Platform Onboarding Ticket ](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=New-VFS-Team-Member.yml)and complete Platform Onboarding steps in the ticket. 
+  - [ ] Submit your [Platform Onboarding Ticket ](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=VA.gov-Platform-Orientation-Individual.yaml)and complete Platform Onboarding steps in the ticket. 
 
 - [ ] **Update GitHub.** Add [VA.gov](http://va.gov) Email to your GitHub Account. You will need to add your new [VA.gov](http://va.gov) email to your GitHub account, otherwise you will be removed from the VA organization. 
 

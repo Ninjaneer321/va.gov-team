@@ -1,3 +1,138 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Veteran Top Tasks MODERATED (Phase 1), Sitewide Home Page, May 2022"
+date: 2022-05-17
+last_updated: 2022-05-17
+team: "Sitewide Public Websites"
+product: "VA.gov Home Page"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "The current design of the VA.gov home page provides easy access to some Veteran tasks in four boxes near the top of the page. User research has shown that other tasks are more challenging to do when starting from the home page. We need to learn which VA-related tasks are most important to Veterans and caregivers so these tasks can be best supported from the home page."
+  product_location: "VA.gov home page"
+  user_familiarity: "Iteration - improving existing home page"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/public-websites/research/202104-baseline-wayfinding/research-readout-full-June8.pdf"
+
+# Research Design
+methodology: "Moderated usability testing with survey"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Get feedback from Veterans and others on a survey designed to identify Veteran top tasks"
+  - goal_2: "Test the survey with participants before launching unmoderated version to a large group"
+  - goal_3: "Identify which VA-related tasks are most important to Veterans and caregivers"
+
+research_questions:
+  - "When Veterans and others contact the VA, what tasks are most important to them?"
+  - "How many tasks do Veterans and others identify as important to themselves?"
+  - "What tasks are least important?"
+  - "Are there any tasks in the survey that are unclear or confusing?"
+  - "Are there any important tasks missing from the survey?"
+  - "Is there anything about the survey that is unclear or confusing?"
+
+hypotheses:
+  - "Veterans and others will find the survey intuitive to use from desktop or mobile"
+  - "Veterans and others will be able to select which VA-related tasks presented in the survey are most important to them"
+  - "Veterans and others won't find any important tasks missing from the survey"
+
+expected_outcomes: "The feedback we get on the survey will be used to refine it to better prepare for Veterans and others to complete it independently. Findings will inform home page design to better support top tasks."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling"
+  
+  primary_criteria:
+    - "5 are Veterans"
+    - "3 are Veterans' family members or caregivers, survivors, or service members"
+    - "5 have experience with one or more VA benefits or services (health care, education, disability, housing, pension, life insurance, burial)"
+    - "3 have NO experience with health care, but DO have experience with other VA benefits"
+    - "3 have NO experience with ANY VA benefits or services"
+    - "ALL have a computer, tablet, or smartphone and are willing to complete interview on one of those devices"
+    - "At least 3 people who plan to use desktop or laptop"
+    - "At least 2 people who plan to use smartphone"
+    
+  secondary_criteria:
+    - "At least 1 person who uses a screen reader"
+    - "At least 2 people 55 or older"
+    - "At least 2 people with a cognitive disability (e.g., TBI)"
+    - "At least 2 people of color"
+    - "At least 2 women"
+    - "At least 1 person 35 or under"
+    - "At least 2 people without degree or vocational training after high school"
+    - "At least 1 person that has a college degree"
+    - "At least 2 people who live in a rural or remote area"
+    - "At least 1 person who lives in a major metropolitan area"
+    - "At least 1 non-native English speaker"
+    
+  screener_questions:
+    - question: "How well do you speak English?"
+      qualifying_response: "Not at all or Not well (for non-native English speaker criteria)"
+      
+participants:
+  veterans: 5
+  caregivers: 3
+  dependents: 0
+  total_recruited: 10
+  completed_sessions_goal: 5
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2022-05-18 and 2022-05-19"
+  pilot_participant: "Keith Adkins and Angela Fowler"
+  research_dates: "2022-05-23 to 2022-05-25"
+  research_review_submission: "2022-05-16"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Increase the usage and throughput of VA services"
+    key_results: "Improve home page task completion and wayfinding"
+      
+veteran_journey_phases:
+  - "Getting out"
+  - "Starting up"
+  - "Living civilian life"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/public-websites/research/202104-baseline-wayfinding/research-readout-full-June8.pdf"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/public-websites/research/Veteran-tasks/moderated/Task%20List%20for%20Veteran%20Top%20Task%20Research.xlsx"
+    
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Service members"
+  - "PRDT: Public-websites"
+  - "PRDT: Home-page"
+  - "usability-testing"
+  - "moderated"
+  - "survey"
+  - "remote"
+  - "top-tasks"
+  - "wayfinding"
+  - "information-architecture"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "screen-reader"
+  - "mobile"
+  - "desktop"
+  - "cognitive-disability"
+  - "Optimal-Workshop"
+---
+
 # Research Plan for Veteran Top Tasks MODERATED (Phase 1 of 2) Interviews, Sitewide Home Page team, May 17, 2022
 
 ## Background

@@ -1,3 +1,161 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Board Appeals, April 2023"
+date: 2023-04-01
+last_updated: 2023-05-24
+team: "Decision Reviews Team"
+product: "Notice of Disagreement (Board Appeal)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The Request for Board Appeal online form was released in April 2022 and hasn't received a post-launch review. This qualitative study evaluates the usability of the form and seeks to understand what decision led veterans to choose the board appeal pathway over other decision review options."
+  product_location: "VA.gov - Board Appeal Request Form (Notice of Disagreement)"
+  user_familiarity: "Existing product - first post-launch evaluative study"
+  product_brief_url: "https://app.mural.co/t/coforma8350/m/coforma8350/1679600983883/c565af371b4772fe601b1ab9df7a4a8212b7f7e9"
+
+# Research Design
+methodology: "Moderated interview and usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand the Veteran's experience of the current digital form, identify possible usability and accessibility issues within the form"
+  - goal_2: "Understand the Veteran's reason for choosing to apply for a Board Appeal as opposed to the other two decision review pathways"
+  - goal_3: "Understand the Veteran's reason for choosing a hearing type"
+
+research_questions:
+  - "What are the high and low points for Veterans requesting a board appeal?"
+  - "Are Veterans able to submit a fully developed request for a board appeal online form?"
+  - "What are the areas of friction and pain points that exist within the current form?"
+  - "Are there unique pain points to disabled Veterans, including those using screen readers or ZoomText (magnification)?"
+  - "Is the content provided sufficient in helping them progress through the form?"
+  - "How confident are Veterans in filling out the form and understanding the process after submission?"
+  - "How helpful or unhelpful is the current content on VA.gov for Veterans choosing between decision reviews?"
+  - "What information are Veterans looking for when self-servicing?"
+  - "Do users understand the difference between a denial and disagreement, and how does it affect their confidence in choosing a decision review?"
+  - "Would giving veterans the ability to review and save a copy of their form provide any value for them?"
+  - "How easy/hard is it to understand where you are in the appeals process?"
+  - "How much confidence do you have that your appeal will be handled properly and in a timely manner?"
+  - "What kinds of self-service options would you like us to add?"
+  - "Does the current process seem too impersonal? What could we change to make a difference in that respect?"
+
+hypotheses:
+  - "Veterans do not understand what is needed from them to gain favorable judgment"
+  - "Veterans submitting a Request for Board Appeal have considered the other two disagreement pathways before moving forward with the application"
+  - "The content provided about the Request for Board Appeal before, during, and after the application sets reasonable expectations for Veterans about the timeline and process"
+  - "Veterans are unclear about the deadlines for submission, and issues they can request a board appeal for"
+  - "The updates to the paper form that are missing from the digital form may be preventing Veterans from successfully completing a Board Appeal request"
+  - "Veterans desire a copy of the form once it's submitted digitally"
+  - "Veterans are getting information from misleading sources outside of VA.gov when making a decision to file a Board Appeal"
+  - "Veterans are uncertain of which disagreement pathway is best for them, but have knowledge of all three before submitting a Board Appeal"
+  - "Veterans are able to submit a Board Appeal online successfully, but will not be confident that his/her submission will result in a favorable outcome"
+  - "The language about deadlines is unclear to Veterans and decreases confidence"
+  - "There are updates missing from the digital form that would require Veterans to file via paper form"
+  - "Veterans are more confident about their submission when they have a completed copy of the online form upon submission"
+
+expected_outcomes: "Research findings will establish a baseline for measuring the effectiveness of the Request a Board Appeal digital form experience, including identifying ways to increase usability, accessibility, and veterans' confidence; understanding why veterans select specific hearing types; and identifying opportunities to improve the content for Decision Reviews."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling strategy emphasizing underrepresented veterans in past research"
+  
+  primary_criteria:
+    - "All participants must be Veterans"
+    - "All participants must have a computer, tablet, or smartphone and be willing to complete their session using one of those devices"
+    - "Veterans must be willing to share a web browser window on their devices during the session"
+    - "All participants must have Zoom installed on their devices before the session and know how to share their screens"
+    - "Must have received a claims decision within the last year"
+    - "Must have attempted or submitted an appeal on va.gov (70% must include Board Appeal)"
+    - "Must be planning to appeal that claim decision"
+    - "Must be considering Board Appeal (Notice of Disagreement) as a decision review option"
+    - "Must be comfortable with sharing their screen as they walk through a va.gov appeal form (without submitting) on their va.gov account"
+    
+  secondary_criteria:
+    - "Underrepresented veterans from past research"
+    
+  screener_questions:
+    - question: "Did you receive a claims decision within the last year?"
+      qualifying_response: "Yes"
+    - question: "Have you attempted or submitted an appeal on va.gov?"
+      qualifying_response: "70% must include 'Yes - Board Appeal (Notice of Disagreement)'"
+    - question: "Are you planning to appeal that claim decision?"
+      qualifying_response: "Yes"
+    - question: "Which of the following decision review options are you considering?"
+      qualifying_response: "Must include 'Board Appeal (Notice of Disagreement)'"
+    - question: "Are you comfortable with sharing your screen as you walk through a va.gov appeal form (without submitting) on your va.gov account?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 18
+  caregivers: 0
+  dependents: 0
+  total_recruited: 18
+  completed_sessions_goal: 12
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-05-24"
+  pilot_participant: "Rocio de Santiago"
+  research_dates: "2023-05-31 to 2023-06-15"
+  research_review_submission: "2023-05-15"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Each Veteran's appeal is timely docketed and tracked throughout the appeals process"
+    key_results: 
+      - "Identify usability and accessibility improvements"
+  - objective: "Each Veteran receives a timely hearing by a Veterans Law Judge upon request"
+    key_results:
+      - "Understand hearing type selection reasoning"
+  - objective: "Each Veteran receives a timely decision on his/her appeal"
+    key_results:
+      - "Improve form completion and submission rates"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+  - "Putting down roots"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://app.mural.co/t/coforma8350/m/coforma8350/1679600983883/c565af371b4772fe601b1ab9df7a4a8212b7f7e9 (Decision Review Mural Board)"
+    
+tags:
+  - "PRDT: Decision Reviews"
+  - "PRDT: Notice of Disagreement"
+  - "PRDT: Board Appeal"
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "BNFT: Appeals"
+  - "usability testing"
+  - "moderated"
+  - "remote"
+  - "authenticated"
+  - "evaluative research"
+  - "post-launch"
+  - "baseline study"
+  - "accessibility"
+  - "screen reader"
+  - "form completion"
+  - "decision pathways"
+  - "hearing selection"
+---
+
 VA BENEFITS · CE Decision Review
 # Research Plan for Board Appeals
 

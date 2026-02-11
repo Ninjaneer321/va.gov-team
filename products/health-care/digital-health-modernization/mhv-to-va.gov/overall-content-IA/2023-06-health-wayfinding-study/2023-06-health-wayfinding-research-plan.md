@@ -1,3 +1,123 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Wayfinding Study, MHV on VA.gov, July/August 2023"
+date: 2023-06-23
+last_updated: 2023-06-23
+team: "Digital Health Modernization"
+product: "My HealtheVet on VA.gov"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Investigate the different wayfinding strategies users use when completing key health management tasks on MHV on VA.gov as part of the Digital Health Modernization strategy to create a centralized place for Veterans to access their health information"
+  product_location: "MHV on VA.gov portal and health tools navigation"
+  user_familiarity: "Iteration of existing MHV product being moved to VA.gov"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/1d786b3abb178f9ae326c821596729b896a65090/products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA"
+
+# Research Design
+methodology: "Remote moderated interviews with wayfinding tasks"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: null
+    point_of_contact: null
+    equipment: null
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Assess how closely the current organizing structures and wayfinding tools within the MHV on VA.gov experience align with users' expectations and mental models"
+  - goal_2: "Understand how users navigate across health tools to non-health tools and their understandings when linked to other VA.gov sections"
+  - goal_3: "Assess users' reactions to and expectations of the MHV on VA.gov experience and whether current wayfinding tactics are effective"
+
+research_questions:
+  - "When users are at the 'manage health' stage, where do they look for their health-related services and resources on VA.gov?"
+  - "How do users navigate from an unauthenticated state to the My HealtheVet portal?"
+  - "How easily can users navigate to various tasks within the My HealtheVet portal?"
+  - "Once deep within My HealtheVet portal tool navigation hierarchy, how do users navigate back out?"
+  - "How do users differentiate between My VA vs. My HealtheVet portal?"
+
+hypotheses:
+  - "Users will use multiple strategies to navigate health-related tasks on MHV on VA.gov"
+  - "Users may experience challenges differentiating between My VA and My HealtheVet portal"
+  - "Current wayfinding tools will meet some but not all user expectations"
+
+expected_outcomes: "This research will inform updates to the MHV on VA.gov wayfinding efforts to support users across different experiences"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling"
+  
+  primary_criteria:
+    - "Must currently receive VA healthcare benefits"
+    - "Must have an active MHV account accessed at least once in the past 12 months"
+    - "Must have self-reported infrequent usage of VA.gov"
+    
+  secondary_criteria:
+    - "Mix of frequent and infrequent MHV users"
+    - "At least 10 participants older than 55"
+    - "At least 10 participants with some college or less as terminal degree"
+    - "15 mobile users"
+    
+  screener_questions:
+    - question: "Have you been to a VA healthcare facility for a medical appointment in the last 12 months?"
+      qualifying_response: "Yes"
+    - question: "How often have you used VA.gov in the past 6 months?"
+      qualifying_response: "Never used it OR 1-2 times in the past 6 months"
+    - question: "How often do you use MyHealtheVet?"
+      qualifying_response: "Once a month or more frequently"
+      
+participants:
+  veterans: 30
+  caregivers: 0
+  dependents: 0
+  total_recruited: 30
+  completed_sessions_goal: 30
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2023-07-03"
+  pilot_participant: "TBD"
+  research_dates: "2023-07-10 to 2023-07-28"
+  research_review_submission: "2023-06-23"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 10
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: []
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: []
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Starting up"
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA"
+    
+tags:
+  - "MHV"
+  - "health-care"
+  - "information-architecture"
+  - "wayfinding"
+  - "navigation"
+  - "interviews"
+  - "authenticated"
+  - "veterans"
+---
+
 # Research Plan for Wayfinding study, July/August 2023
 
 ## Background

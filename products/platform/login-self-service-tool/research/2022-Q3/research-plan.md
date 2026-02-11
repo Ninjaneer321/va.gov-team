@@ -1,3 +1,134 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Platform Contact Center Team, Login Self-Service Tool, August 2022"
+date: 2022-07-21
+last_updated: 2022-08-05
+team: "Platform Contact Center Team"
+product: "Login Self-Service Tool"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "25% of VA411 calls and 28% of Tier 2 support tickets are related to login issues. Current login resources page has poor performance with 77% rating as 'Bad'. Veterans face 1-10+ day resolution times through VA411 and Ask VA, and need a self-service tool to diagnose and resolve basic login issues themselves."
+  product_location: "VA.gov login process - tool to help users diagnose and resolve login issues"
+  user_familiarity: "New product - preliminary prototype for validation"
+  product_brief_url: "url goes here"
+
+# Research Design
+methodology: "contextual inquiry and usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Understand the user response to encountering login issues"
+  - goal_2: "Understand the user login process"
+  - goal_3: "Gather preliminary usability information for the proposed login self-service tool"
+
+research_questions:
+  - "What are typical user responses to encountering a login issue?"
+  - "How frequently do users report login issues?"
+  - "If users report issues, do they use AVA, VA411, or other means of reporting?"
+  - "Do users use any help documentation on the VA.gov website, or the respective login provider websites?"
+  - "What primary pain points exist throughout the login process?"
+
+hypotheses:
+  - "Current login resources are insufficient for users to resolve login issues themselves based on VA411 inbox responses and Medallia feedback."
+  - "Most users will respond positively to a product that helps them quickly identify login problems and direct them to the appropriate resources in a timely manner."
+  - "Users are frustrated with the current issue reporting systems and turnaround times, namely Ask VA and the VA 411 Hotline."
+  - "Users will appreciate the efficiency of a self-service login tool, though they remain frustrated at continual login issues."
+  - "The login self-service product will not be a comprehensive solution; some user demographics will likely continue to prefer talking to an agent over the phone or submitting a ticket through Ask VA."
+
+expected_outcomes: "Determine where within the login process users are most likely to access this product. Determine if the prototype serves as a sufficient starting point for future iterations. Understand frequency of utilizing preexisting issue reporting resources and level of successful resolution achieved. Build more comprehensive prototype for future accessibility testing."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Inclusive recruitment with diverse representation"
+  
+  primary_criteria:
+    - "Has logged in to VA.gov within the past 6 months"
+    - "Has Login.gov, ID.me, DS Logon, or My HealtheVet credentials"
+    
+  secondary_criteria:
+    - "Eight participants from the 55-64+ age group"
+    - "Eight participants with cognitive disabilities"
+    - "Four participants from rural areas"
+    - "Four participants without a college degree"
+    - "At least 2 participants who identify as women"
+    - "At least 4 participants who identity as non-Caucasian"
+    - "At least 2 participants who use assistive technology (hearing aids and magnification/zoom)"
+    
+  screener_questions:
+    - question: "Have you logged in to VA.gov within the past 6 months?"
+      qualifying_response: "Yes"
+    - question: "Do you have Login.gov, ID.me, DS Logon, or My HealtheVet credentials?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 15
+  caregivers: 0
+  dependents: 0
+  total_recruited: 15
+  completed_sessions_goal: 12
+
+# Timeline & Sessions
+timeline:
+  pilot_date: "2022-07-21"
+  pilot_participant: "Platform Contact Center team member"
+  research_dates: "2022-07-21 to 2022-08-05"
+  research_review_submission: "2022-07-14"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 5
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: "Reduce login barriers to accessing health services"
+  - objective: "Logged-in users can easily track applications, claims, or appeals online"
+    key_results: "Improve login success rates"
+  - objective: "Logged-in users can update their personal information easily and instantly"
+    key_results: "Streamline authentication process"
+  - objective: "Logged-in users have a personalized experience, with relevant and time-saving features"
+    key_results: "Reduce time to resolve login issues"
+  - objective: "Veterans and their families trust the security, accuracy, and relevancy of VA.gov"
+    key_results: "Increase satisfaction with login process"
+      
+veteran_journey_phases:
+  - "Getting Out: Engaging VA to access benefits and services"
+  - "Taking Care of Myself: Managing primary care and chronic health issues"
+  - "Retiring: Finding additional sources of income"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Login Resources Page performance data (April-September 2021)"
+    - "VA411 call volume analysis (March 2021-March 2022)"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Login-self-service-tool"
+  - "DSP: Help users to sign in"
+  - "DSP: Help users to recover from an error"
+  - "usability-testing"
+  - "contextual-inquiry"
+  - "remote"
+  - "authentication"
+  - "Login.gov"
+  - "ID.me"
+  - "DS-Logon"
+  - "My-HealtheVet"
+  - "self-service"
+  - "contact-center"
+  - "accessibility"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+---
+
 # Research Plan for Contact Center Login Self-Service Tool, August 2022
 ## Background
 A large portion of VA 411 Call Center tickets and AskVA (AVA) inquiries pertain to issues logging in to VA.gov. Though there are resources available on VA.gov to assist Veterans with their login process, the primary login resource page has not historically performed well.

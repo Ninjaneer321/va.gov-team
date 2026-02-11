@@ -1,3 +1,126 @@
+---
+# Research Plan Metadata
+title: "Research Plan for IAM with eBenefits, Benefits & Memorials 1, April 2020"
+date: 2020-04-20
+last_updated: 2026-02-10
+team: "Benefits & Memorials 1"
+product: "eBenefits"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "eBenefits is implementing Identity Access Management protocols to allow Veterans, their dependents, and VSOs to use multiple credentials (DS Logon, ID.me, MHV) to log in to eBenefits and complete tasks."
+  product_location: "eBenefits platform"
+  user_familiarity: "Iteration on existing eBenefits sign-in functionality"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/benefit-letters/IAM%20conversation%20guide.md"
+
+# Research Design
+methodology: "User Acceptance Testing (UAT), remote moderated observation"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Verify that Identity Access Management (IAM) protocols work properly for eBenefits"
+  - goal_2: "Validate that users with different credential types (DS Logon, ID.me, MHV) can successfully log in to eBenefits"
+  - goal_3: "Confirm users can access benefit letters after logging in with various credentials"
+
+research_questions:
+  - "Can a user with DS Logon Premium successfully log in and access benefit letters?"
+  - "Can a user with ID.me credentials successfully log in and access benefit letters?"
+  - "Can a user with My HealtheVet (MHV) Premium successfully log in and access benefit letters?"
+  - "Can dependents with various credential types successfully log in and access information?"
+  - "Can users create new ID.me credentials and successfully complete tasks?"
+
+hypotheses:
+  - "Users will be able to successfully log in to eBenefits using DS Logon Premium, ID.me, or MHV Premium credentials"
+  - "The IAM implementation will allow Veterans and dependents to access benefit letters regardless of credential type used"
+  - "Users who create new ID.me credentials during the session will be able to immediately use them to access eBenefits"
+
+expected_outcomes: "Verification that the IAM code works properly and users can complete tasks with multiple credential types, informing deployment decisions for the authentication system."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment based on specific credential requirements"
+  
+  primary_criteria:
+    - "Veterans or dependents with existing DS Logon Premium accounts where Veteran is receiving disability payments"
+    - "Veterans or dependents with existing ID.me accounts where Veteran is receiving disability payments"
+    - "Veterans or dependents with existing My HealtheVet (MHV) Premium accounts where Veteran is receiving disability payments"
+    
+  secondary_criteria:
+    - "Veterans or dependents with DS Logon but willing to create new ID.me credentials during session"
+    - "Access to computer for testing"
+    - "No restrictions on age or geographic diversity"
+    
+  screener_questions:
+    - question: "Do you have an existing DS Logon Premium, ID.me, or My HealtheVet Premium account?"
+      qualifying_response: "Yes, with specified credential type"
+    - question: "Are you or the Veteran you're associated with currently receiving disability payments from the VA?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 12
+  caregivers: 0
+  dependents: 12
+  total_recruited: 24
+  completed_sessions_goal: 24
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2020-04-20"
+  pilot_participant: "No pilot planned - verification testing with specific steps"
+  research_dates: "2020-04-20 to 2020-04-24"
+  research_review_submission: "2020-04-10"
+  
+session_details:
+  duration_minutes: 30
+  buffer_minutes: 0
+  max_sessions_per_day: 8
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: 
+      - "Enable secure access to VA services"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results:
+      - "Streamline authentication across VA platforms"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Previous eBenefits authentication research"
+    
+tags:
+  - "PRDT: eBenefits"
+  - "PRDT: Benefit-letters"
+  - "BNFT: Disability"
+  - "AUD: Veterans"
+  - "AUD: Dependents"
+  - "DSP: Help users to sign in"
+  - "DSP: Identity"
+  - "DSC: Logged in homepage"
+  - "RESRCH: Remote"
+  - "RESRCH: Moderated"
+  - "RESRCH: UAT"
+  - "AUTH: Login"
+  - "AUTH: DS Logon"
+  - "AUTH: ID.me"
+  - "AUTH: MHV"
+---
+
 # Research Plan for IAM with eBenefits (which will verify access to Letters on eBenefits)
 As a product owner, I need to create a research plan to share with my team.	
 ## Goals	

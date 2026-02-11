@@ -1,3 +1,124 @@
+---
+# Research Plan Metadata
+title: "Research Plan: Claim Contextualization"
+date: 2023-12-01
+last_updated: 2023-12-01
+team: "Benefits Management Tools"
+product: "Claim Status Tool"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans find limited value in the claim process Overview tab in its current form and are dissatisfied with the representation of claim steps, particularly the 'Evidence Gathering, Review, and Decision' step which covers too broad a range of activity. Veterans' expectations about the claims process frequently clash with reality, causing frustration when claims stagnate or revert to previous phases."
+  product_location: "Claim Status Tool on VA.gov"
+  user_familiarity: "Iteration on existing Claim Status Tool to improve claims process understanding"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/CST%20Product/Improved%20Claims%20Process%20Understanding%20Initiative.md"
+
+# Research Design
+methodology: "semi-structured interviews"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Assess whether the new design provides more value to Veterans than the simpler 'process list' version of the Overview tab"
+  - goal_2: "Assess whether the new timeline design creates an accurate mental model for Veterans about how a claim moves through the claim adjudication process"
+  - goal_3: "Assess how well the design explains the overall claim process for Veterans who are less familiar with the process and CST"
+  - goal_4: "Assess whether the design better explains the details of the claim process for Veterans who experienced a claim getting 'stuck' in one step for a long time"
+
+research_questions:
+  - "How do Veterans react to this content? Do they find it useful?"
+  - "Does this new design set the right expectation for how the claim will move between claim steps?"
+  - "Do Veterans understand why and how the claim might move back and forth between certain claim steps?"
+  - "After seeing this design, do Veterans feel like they understand what is happening at each step of the process?"
+  - "How do Veterans feel after seeing this information?"
+
+hypotheses:
+  - "Veterans will find value in the information provided in the new Overview tab and will prefer it to the more basic 'process list' design"
+  - "Veterans will have a good understanding of generally what happens at each step of the process (they don't need to understand every little detail)"
+  - "Veterans will understand that it is normal for claims to go back and forth between steps"
+  - "Veterans will find that the new timeline provides a detailed picture of what is happening with a claim"
+
+expected_outcomes: "Learn how well our designs solve the comprehension problems that exist for Veterans around the claim process. Learn which aspects Veterans find useful (or not) to inform whether to proceed with this informational content."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment for two distinct groups: new filers and experienced filers with long claims"
+  
+  primary_criteria:
+    - "20 mobile users"
+    - "10 Veterans who filed their first disability compensation claim in the past 1 month (looking for Veterans not very familiar with the Claim Status Tool)"
+    - "10 Veterans who had a disability compensation claim recently closed, and that claim took longer than the average 125 days to be processed (looking for Veterans more familiar with the tool who felt their claim was 'stuck')"
+    - "5 Black Veterans"
+    - "5 Hispanic Veterans"
+    - "10 Veterans of any other race"
+    
+  secondary_criteria:
+    - "10 women Veterans"
+    
+  screener_questions:
+    - question: "Have you filed a disability compensation claim with the VA in the last 1 month?"
+      qualifying_response: "For appropriate cohorts"
+      
+participants:
+  veterans: 20
+  caregivers: 0
+  dependents: 0
+  total_recruited: 20
+  completed_sessions_goal: 16
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2024-01-11"
+  pilot_participant: "Rocio De Santiago"
+  research_dates: "2024-01-16 to 2024-01-26"
+  research_review_submission: ""
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 60
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Enhance Veterans' personalized online experience"
+    key_results: 
+      - "Improve Veterans' understanding of the claims process"
+      - "Reduce frustration caused by unclear process timeline"
+      
+veteran_journey_phases:
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+  - "Retiring"
+  - "Aging"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2023-05-Evidence-Submission/research-findings.md"
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/CST%20Product/Improved%20Claims%20Process%20Understanding%20Initiative.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Claim status tool"
+  - "PRDT: Disability compensation"
+  - "DSP: Timeline"
+  - "DSP: Process visualization"
+  - "research-method: semi-structured-interviews"
+  - "research-method: moderated"
+  - "device: mobile"
+  - "authenticated"
+---
+
 # Research Plan: Claim Contextualization
 
 Benefits Management Tools · December 2023

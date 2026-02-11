@@ -1,3 +1,132 @@
+---
+# Research Plan Metadata
+title: "Research Plan for CDSC, Medical Calculators, September 2025"
+date: 2025-09-09
+last_updated: 2025-09-09
+team: "Clinical Decision Support Collaborative (CDSC)"
+product: "Medical Calculators"
+product_area: "CDS Console"
+study_type: "clinician-facing"
+
+# Background Context
+background:
+  problem_statement: "Reduce cognitive burden created by context switching between the CDS Medical Calculator application and the EHR by bringing relevant patient data to support clinicians within their workflow of the calculator"
+  product_location: "CDS Console - Medical Calculators application"
+  user_familiarity: "Iteration - Adding line chart functionality to calculator detail pages"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/clinical-decision-support/medical-calculators"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  platform: "Microsoft Teams"
+  testing_tool: "Figma prototype"
+  
+# Research Goals & Questions
+research_goals:
+  - "Understand how helpful line charts are within the context of a calculator detail page to assist with answering questions we cannot auto-populate"
+  - "Identify other calculators or fields where clinicians think this pattern might be helpful"
+  - "Get feedback on the experience of opening and viewing the graph within the calculator detail page"
+
+research_questions:
+  - "How intuitive is it to see a call to action (CTA) to access lab history below the calculator input field?"
+  - "What are clinicians reactions to seeing graphs in this context?"
+  - "How intuitive is it to interact with the line chart and get the data they need?"
+
+hypotheses:
+  - "Clinicians will find that having the lab history data with a specific field will improve their workflow"
+  - "Clinicians will not immediately recognize the 'View Labile INR lab history' link and will first plan on getting the data from CPRS"
+  - "Clinicians will intuitively find the tool tips on the data points"
+
+expected_outcomes: "This research will help us learn the value of bringing in select patient health data to support clinical workflows. It will help guide product priorities and if we should continue moving forward with implementing this feature"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "CDSC research participant database"
+  approach: "Snowball recruitment, SSS office hours, recent support requests, feature deployment outreach"
+  
+  primary_criteria:
+    - "Minimum 5 clinicians"
+    - "2 clinicians with experience with HAS-BLED calculator"
+    
+  secondary_criteria:
+    - "1-2 nurse practitioners"
+    - "1-2 physicians"
+    - "1-2 clinical pharmacy specialists"
+    - "1 clinician familiar with Oracle Health (end user or transition team)"
+    
+  screener_questions: []
+      
+participants:
+  veterans: 0
+  caregivers: 0
+  clinicians: 5
+  va_staff: 0
+  total_recruited: 10
+  completed_sessions_goal: 5
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2025-09-17"
+  pilot_participant: "TBD"
+  research_dates: "2025-09-17 to 2025-10-01"
+  research_review_submission: "2025-09-09"
+  prototype_due: "2025-09-16"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 15
+  max_sessions_per_day: 3
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Improve clinical decision support workflows"
+    key_results: 
+      - "Reduce context switching between CDS applications and EHR"
+      - "Increase clinician efficiency in using medical calculators"
+
+veteran_journey_phases: []
+clinician_workflow_stages:
+  - "Setting context and patient review"
+  - "Using medical calculators for clinical decisions"
+  - "Reviewing lab data to inform calculator inputs"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Prior research on graphs and trend data on Patient Summary page"
+    
+study_materials:
+  conversation_guide: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing/conversation-guide.md"
+  prototype: "https://www.figma.com/proto/uRUcFMxuFOoNMJeMXJsI5w/Dashboard---Calculators-and-Patient-Summary-Tabs?node-id=19531-2916"
+    
+tags:
+  - "medical-calculators"
+  - "usability-testing"
+  - "clinician-facing"
+  - "line-charts"
+  - "HAS-BLED"
+  - "lab-history"
+  - "CDS-Console"
+  - "design-feedback"
+  
+team_roles:
+  moderator: "Rosemary Rogers"
+  research_lead: "Rosemary Rogers"
+  recruitment: "Rosemary Rogers"
+  notetakers: "Ben"
+  observers: "CDSC HCD peers"
+  
+approvals:
+  reviewed_by: "OCTO CDS HCD Peers (Natalie & Ben)"
+  review_date: "2025-09-09"
+---
+
 
 	# Research Plan for [CDSC, Medical Calculators, 09/15/2025]
 > [!NOTE]

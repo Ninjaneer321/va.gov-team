@@ -38,7 +38,7 @@
 **Date range for metrics**: December 1, 2026 - December 31, 2026
 
 - **Total downloads since launch (01/01/2020)**: 
-- **New monthly downloads**: 36,870(A) + 42,672(iOS) = 
+- **New monthly downloads**:
 - **Monthly active users**: 
 - **Monthly new users**: 
 - **Monthly appointment detail views**: 
@@ -61,7 +61,7 @@
 
 **Date range for metrics**: November 1, 2026 - November 30, 2026
 
-- **Total downloads since launch**: 
+- **Total downloads since launch (01/01/2020)**: 
 - **New monthly downloads**: 
 - **Monthly active users**: 
 - **Monthly new users**: 
@@ -86,7 +86,7 @@
 
 **Date range for metrics**: 
 
-- **Total downloads since launch**: 
+- **Total downloads since launch (01/01/2020)**: 
 - **New monthly downloads**: 
 - **Monthly active users**: 
 - **Monthly new users**: 
@@ -110,7 +110,7 @@
 
 **Date range for metrics**: September 1, 2026 - September 30, 2026
 
-- **Total downloads since launch**: 
+- **Total downloads since launch (01/01/2020)**: 
 - **New monthly downloads**: 
 - **Monthly active users**: 
 - **Monthly new users**: 
@@ -134,7 +134,7 @@
 
 **Date range for metrics**: August 1, 2026 - August 31, 2026
 
-- **Total downloads since launch**:  
+- **Total downloads since launch (01/01/2020)**: 
 - **New monthly downloads**: 
 - **Monthly active users**: 
 - **Monthly new users**: 
@@ -158,7 +158,7 @@
 
 **Date range for metrics**: July 1, 2026 - July 31, 2026
 
-- **Total downloads since launch**:  
+- **Total downloads since launch (01/01/2020)**:  
 - **New monthly downloads**: 
 - **Monthly active users**: 
 - **Monthly new users**: 
@@ -182,7 +182,7 @@
 
 **Date range for metrics**: June 1, 2026 - June 30, 2026
 
-- **Total downloads since launch**:  
+- **Total downloads since launch (01/01/2020)**: 
 - **New monthly downloads**: 
 - **Monthly active users**: 
 - **Monthly new users**: 
@@ -206,7 +206,7 @@
 
 **Date range for metrics**: May 1, 2026 - May 31, 2026
 
-- **Total downloads since launch**:  
+- **Total downloads since launch (01/01/2020)**: 
 - **New monthly downloads**: 
 - **Monthly active users**: 
 - **Monthly new users**: 
@@ -230,7 +230,7 @@
 
 **Date range for metrics**: April 1, 2026 - April 30, 2026
 
-- **Total downloads since launch**:  
+- **Total downloads since launch (01/01/2020)**: 
 - **New monthly downloads**: 
 - **Monthly active users**: 
 - **Monthly new users**: 
@@ -254,7 +254,7 @@
 
 **Date range for metrics**: March 1, 2026 - March 31, 2026
 
-- **Total downloads since launch**:  
+- **Total downloads since launch (01/01/2020)**: 
 - **New monthly downloads**: 
 - **Monthly active users**: 
 - **Monthly new users**: 
@@ -278,7 +278,7 @@
 
 **Date range for metrics**: February 1, 2026 - February 28, 2026
 
-- **Total downloads since launch**:  
+- **Total downloads since launch (01/01/2020)**: 
 - **New monthly downloads**: 
 - **Monthly active users**: 
 - **Monthly new users**: 
@@ -302,22 +302,23 @@
 
 **Date range for metrics**: January 1, 2026 - January 31, 2026
 
-- **Total downloads since launch**:  
-- **New monthly downloads**: 
-- **Monthly active users**: 
-- **Monthly new users**: 
-- **Monthly appointment detail views**: 
-- **Monthly Rx Refill**: 
-- **Monthly Letter Downloads**: 
-- **Monthly Secure Messages Sent**: 
-- **Monthly Veteran Status Views**: 
+- **Total downloads since launch (01/01/2020)**: 1,598,116(A) + 2,594,758(iOS) = 4,192,874
+- **New monthly downloads**: 35,963(A) + 46,803(iOS) = 82,766
+- **Monthly active users**: 1,702,990
+- **Monthly new users**: 186,545
+- **Monthly appointment detail views**: 8,584,358
+- **Monthly Rx Refill**: 667,024
+- **Monthly Letter Downloads**: 717,166
+- **Monthly Secure Messages Sent**: 807,172
+- **Monthly Veteran Status Views**: 651,213
 
 ### Android
 
-- **Android installs**: 
-- **Average Play Store Rating**: 
+- **Android installs**: 35,963
+- **Average Play Store Rating**: 4.7
 
 ### iOS
 
-- **iOS Installs**: 
-- **Average App Store Rating**: 
+- **iOS Installs**: 46,803
+- **Average App Store Rating**: 4.8
+  

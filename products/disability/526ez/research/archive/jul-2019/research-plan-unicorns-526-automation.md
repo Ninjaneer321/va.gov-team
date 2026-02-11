@@ -1,3 +1,118 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Unicorns 526 Contention Automation, July 2019"
+date: 2026-02-10
+last_updated: 2026-02-10
+team: "Unicorns"
+product: "Form 21-526EZ (Disability Compensation Application)"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "The 526 form uses a text box with fuzzy matching to match Veteran-entered conditions to a taxonomy. Veterans must manually select from dropdown matches, and unselected text is submitted as-is. The CTO's office developed a plain language parsing API that can analyze free text and match it to VA Contention IDs with high confidence."
+  product_location: "VA.gov authenticated benefits tools - Disability Compensation (Form 526EZ)"
+  user_familiarity: "Significant UX change to condition entry system"
+  product_brief_url: "products/disability/526ez/"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Test new automated contention matching system using plain language parsing API"
+  - goal_2: "Determine necessary feedback to make Veterans comfortable with automated matching"
+  - goal_3: "Identify guidance needed for Veterans to trust the automated process"
+
+research_questions:
+  - "What feedback is necessary to make the Veteran comfortable that they are doing the right thing?"
+  - "What guidance do we need to provide to make Veterans comfortable with the process?"
+
+hypotheses:
+  - "We don't need to ask Veterans to make a choice. We can take their language and assign a contention without further intervention"
+  - "Veterans will be comfortable with automated contention matching if proper feedback is provided"
+
+expected_outcomes: "Document approach for automated contention matching for evaluation by successor team, determining if automation can replace manual selection without requiring Veteran intervention"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment including accessibility"
+  
+  primary_criteria:
+    - "5-8 Veterans"
+    - "At least one assistive device user"
+    - "Mix of Veterans with experience applying for disability compensation and those considering it"
+    
+  secondary_criteria:
+    - "Good representation across age and gender"
+    
+  screener_questions:
+    - question: "Have you applied for disability compensation or are you thinking about it?"
+      qualifying_response: "Yes"
+    - question: "Do you use assistive technology to access websites?"
+      qualifying_response: "At least one participant should answer yes"
+      
+participants:
+  veterans: 8
+  caregivers: 0
+  dependents: 0
+  total_recruited: 8
+  completed_sessions_goal: 5
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2019-07-08"
+  pilot_participant: "Team member"
+  research_dates: "2019-07-10 to 2019-07-11"
+  research_review_submission: "2019-07-05"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can apply for benefits online"
+    key_results: 
+      - "Improve accuracy of disability condition matching"
+  - objective: "Reduce burden on Veterans during claims process"
+    key_results:
+      - "Automate contention matching to eliminate manual selection"
+      
+veteran_journey_phases:
+  - "Taking Care of Myself"
+  - "Putting Down Roots"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "products/disability/526ez/research/archive/feb-2019/research-plan.md"
+    
+tags:
+  - AUD: Veterans
+  - BNFT: Disability
+  - PRDT: Form 21-526EZ
+  - DSP: Forms-system
+  - DSC: Form-controls
+  - DSC: Text-input
+  - usability-testing
+  - remote-moderated
+  - accessibility
+  - automation
+  - natural-language-processing
+  - contention-matching
+  - disability-claims
+  - prototype-testing
+---
+
 # Research plan for Unicorns, 526 (automation), Jun 28–Jul 2
 
 

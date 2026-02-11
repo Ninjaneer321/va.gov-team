@@ -1,3 +1,137 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Debt Resolution Team, Medical Copayments Usability, June 2021"
+date: 2021-06-21
+last_updated: 2026-02-10
+team: "Debt Resolution Team"
+product: "Medical Copayments Tool"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "Veterans need access to their VA medical copay bills (Veteran Patient Statements) on VA.gov. Currently they can only access the last 6 months through AccessVA or MyHealtheVet, and Veterans expect all money owed to VA to be in a central location. The MVP is being scaled back to be a standalone tool similar to the existing Debt Portal."
+  product_location: "VA.gov authenticated experience - standalone medical copayments tool"
+  user_familiarity: "Iteration - testing scaled-back MVP after previous research"
+  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/Medical_Copays/research/apr-2021/readout.md"
+
+# Research Design
+methodology: "Usability testing"
+research_format: 
+  location: remote
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Test lower-fidelity mobile-view prototype to gauge how well Veterans use the tool on mobile devices"
+  - goal_2: "Validate design assumptions and uncover gaps in the medical copayments MVP"
+  - goal_3: "Understand if Veterans can find relevant information about their bills and resolution options"
+
+research_questions:
+  - "Is the online tool card effective at communicating the tool and its use to the Veteran?"
+  - "Do Veterans understand the concept of a referred charge and what to do about it?"
+  - "Do Veterans understand how their charges and payments contribute to a balance for each facility?"
+  - "How do Veterans expect to be able to interact with the charges and payments table, if at all?"
+  - "Are the charge details included in the table relevant and complete?"
+  - "Do Veterans understand how to view and resolve their bills?"
+  - "Are Veterans able to find all of the relevant information they need about their debt?"
+  - "Do Veterans understand their options for resolving their bills?"
+  - "Do Veterans understand who to call if they have questions?"
+  - "What do Veterans think about the wizard as a means to find resolution?"
+
+hypotheses:
+  - "Veterans will find and understand the tool available on the content page"
+  - "Veterans may not fully understand the referred charges and may want to know more about which charges had been referred and what it means for them"
+  - "Veterans may like seeing their charges separated by facility"
+  - "Veterans may be confused why they can't pay their charges for all their facilities at once"
+  - "Veterans may miss the simpler link for viewing their balance details, then be confused why the wizard doesn't show more information about their balance"
+  - "Veterans will be able to find the information they need about their bill balances"
+  - "Veterans will be able to find and understand their options, but Veterans may be frustrated with the wizard"
+
+expected_outcomes: "Validate design hypotheses and identify gaps to improve the Medical Copayments MVP before launch"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Targeted recruitment for mobile device users with VA health care experience"
+  
+  primary_criteria:
+    - "Must use VA health care (disqualify those that don't)"
+    - "Must visit VA.gov using their mobile devices"
+    - "Must be able to join Zoom call from mobile devices (app required)"
+    - "Must have Android or iPhone (not other devices)"
+    - "Must be comfortable discussing past experiences with VA Health Care copayments"
+    
+  secondary_criteria:
+    - "At least 1 woman"
+    - "At least 1 person of color"
+    - "At least 1 participant 35 or under and 1 participant over 55"
+    - "At least one person without college degree"
+    - "At least one person with no college experience"
+    - "At least one person in rural or remote area"
+    - "At least one person in major metropolitan area"
+    - "At least one participant with cognitive impairments/functional disabilities (TBI, PTSD, ADHD, autism, vertigo, etc.)"
+    - "At least one non-native English speaker"
+    
+  screener_questions:
+    - question: "Which of the following describes you?"
+      qualifying_response: "I use VA health care (copays or no copays)"
+    - question: "What kind of mobile device do you use?"
+      qualifying_response: "Android or iPhone"
+    - question: "Are you comfortable joining the research session from your phone using the Zoom app?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 15
+  caregivers: 0
+  dependents: 0
+  total_recruited: 15
+  completed_sessions_goal: 8
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2021-06-25"
+  pilot_participant: "Linda Li"
+  research_dates: "2021-07-01 to 2021-07-08"
+  research_review_submission: "TBD"
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 4
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans can manage their health services online"
+    key_results: "Provide access to medical copay information and payment options"
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: "Consolidate debt and copayment information in one location"
+      
+veteran_journey_phases:
+  - "Taking care of myself"
+  - "Managing primary care and chronic health issues"
+  - "Managing my declining health"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/Medical_Copays/research/apr-2021/readout.md"
+    
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Medical Copays"
+  - "PRDT: Debt Portal"
+  - "BNFT: Healthcare"
+  - "HDW: Mobile"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "remote-research"
+  - "mobile-research"
+  - "authenticated-experience"
+  - "payment"
+  - "debt-resolution"
+  - "financial-management"
+---
+
 # 
 
 # Research Plan for Debt Resolution Team, Medical Copayments Usability

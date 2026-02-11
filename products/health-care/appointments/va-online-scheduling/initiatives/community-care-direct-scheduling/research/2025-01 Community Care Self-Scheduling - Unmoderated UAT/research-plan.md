@@ -1,3 +1,98 @@
+---
+# Research Plan Metadata
+title: "Research Plan - Community Care Self-Scheduling - Unmoderated UAT"
+date: 2025-01-15
+last_updated: 2025-01-15
+team: "VA Online Scheduling - Appointments"
+product: "Community Care Direct Scheduling"
+product_area: "authenticated"
+
+# Background Context
+background:
+  problem_statement: "As a congressional mandate under the Cleland-Dole Act, VA must allow Veterans seeking primary care, specialty care, and mental health care under the Veteran's Community Care Program to self-schedule, modify, and cancel appointments directly online by end of 2024."
+  product_location: "VA.gov Appointments - Community Care Self-Scheduling pilot for optometry appointments"
+  user_familiarity: "New product - Pilot program MVP allowing Veterans at pilot sites to self-schedule optometry appointments once a referral is approved"
+  product_brief_url: "N/A"
+
+# Research Design
+methodology: "Unmoderated User Acceptance Testing (UAT) Survey"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: "N/A"
+    point_of_contact: "N/A"
+    equipment: "N/A"
+  moderated: false
+  
+# Research Goals & Questions
+research_goals:
+  - "Get Veteran feedback on the Community Care self-scheduling pilot process and ensure that Veterans were able to complete the process successfully"
+
+research_questions:
+  - "Will users be able to complete the Community Care Self-Scheduling process successfully?"
+
+hypotheses:
+  - "If users make an attempt to complete the self-scheduling process, then they should be able to successfully schedule without assistance"
+
+expected_outcomes: "This study will give us insight into if Veterans from pilot sites were able to successfully and easily complete the Community Care Self-Scheduling process, as well as capture any feedback they have about the process. These results will inform if future iterations are needed ahead of releasing to more sites."
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Intercept survey - Veterans directed from confirmation page to custom registration form"
+  
+  primary_criteria:
+    - "All must have a computer or mobile device and are willing to use it to complete the activity"
+    - "All must have opted in to participate in the Community Care self-scheduling pilot"
+    - "All must have used the unique registration form leading from the Community Care self-scheduling feature"
+    
+  secondary_criteria: []
+    
+  screener_questions:
+    - question: "Did you complete the Community Care self-scheduling process?"
+      qualifying_response: "Yes"
+      
+participants:
+  veterans: 5
+  caregivers: 0
+  dependents: 0
+  total_recruited: 5
+  completed_sessions_goal: 3
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "TBD"
+  pilot_participant: "TBD"
+  research_dates: "TBD (ongoing after pilot launch)"
+  research_review_submission: "2025-01-01"
+  
+session_details:
+  duration_minutes: 15
+  buffer_minutes: 0
+  max_sessions_per_day: 0
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Our digital experiences are the best way to access VA health care and benefits"
+    key_results: []
+      
+veteran_journey_phases:
+  - "Taking Care of Myself"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: []
+    
+tags:
+  - "appointments"
+  - "community-care"
+  - "self-scheduling"
+  - "unmoderated"
+  - "user-acceptance-testing"
+  - "cleland-dole-act"
+  - "optometry"
+---
+
 # Research Plan - Community Care Self-Scheduling - Unmoderated UAT
 
 ## Background

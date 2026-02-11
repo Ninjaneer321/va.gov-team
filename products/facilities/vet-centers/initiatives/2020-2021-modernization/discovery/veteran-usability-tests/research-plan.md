@@ -1,3 +1,127 @@
+---
+# Research Plan Metadata
+title: "Research Plan for Facilities Team, Vet Center Detail Page Usability Test, December 2020"
+date: 2020-12-09
+last_updated: 2026-02-10
+team: "Facilities"
+product: "Vet Center Facility Pages"
+product_area: "unauthenticated"
+
+# Background Context
+background:
+  problem_statement: "Get high-level Veteran feedback on Vet Center webpage designs to understand if they have enough information to choose care at a Vet Center."
+  product_location: "VA.gov Vet Center facility detail pages"
+  user_familiarity: "New product - first usability test of Vet Center facility page designs"
+  product_brief_url: "https://preview.uxpin.com/603da0b67ccefbbee74fcd8bb77a8fed12baabb5#/pages/134612636?mode=cvhidm"
+
+# Research Design
+methodology: "usability testing"
+research_format: 
+  location: remote
+  in_person_details:
+    facility: ""
+    point_of_contact: ""
+    equipment: ""
+  moderated: true
+  
+# Research Goals & Questions
+research_goals:
+  - goal_1: "Get high-level Veteran feedback on webpage designs to understand if they have enough information to choose care at a Vet Center"
+  - goal_2: "Assess Veterans' understanding of services available at Vet Centers"
+  - goal_3: "Evaluate Veterans' ability to navigate and find information on Vet Center facility pages"
+
+research_questions:
+  - "Will Veterans understand what type of care is available at Vet Centers?"
+  - "Will Veterans understand that they cannot get primary medical care at a Vet Center?"
+  - "Will Veterans be able to find the service they are looking for within the list of taxons?"
+  - "Will Veterans know how to expand a service accordion to get details about individual services?"
+  - "Will Veterans understand the relationship between Vet Center parent and child locations?"
+  - "Will Veterans understand that not all services are available at child locations?"
+  - "Will Veterans have enough information in order to visit or call a location?"
+
+hypotheses:
+  - "Veterans will understand the types of services offered/not offered."
+  - "Veterans will have enough information to visit a location."
+  - "Veterans will understand next steps for interacting with a Vet Center."
+  - "Veterans will understand that child locations may not have the same services as a parent location."
+
+expected_outcomes: "Identification of usability issues and content improvements needed for Vet Center facility pages before development"
+
+# Recruitment & Participants
+recruitment:
+  recruiting_partner: "Perigean"
+  approach: "Maximum variation sampling with focus on mental health counseling experience"
+  
+  primary_criteria:
+    - "Must be a Veteran, active duty service member, reservist, or national guard member"
+    - "Is currently or has participated in individual or group mental health counseling with the VA"
+    
+  secondary_criteria:
+    - "At least 4 participants living in a rural or remote area"
+    - "At least 2 participants without a college degree"
+    - "At least 2 females"
+    - "At least 1 participant of color"
+    - "Age diversity (35 or under, 36-45, 46-55, 56 or over)"
+    - "At least 1 participant with cognitive disabilities"
+    - "At least 1 participant living in a major metropolitan area"
+    - "At least 1 participant with a disability rating of 70% or greater"
+    
+  screener_questions:
+    - question: "Are you currently, or have you in the past, participated in individual counseling, group counseling, family counseling, or couples/marital counseling?"
+      qualifying_response: "Yes to at least one type"
+      
+participants:
+  veterans: 16
+  caregivers: 0
+  dependents: 0
+  total_recruited: 16
+  completed_sessions_goal: 10
+  
+# Timeline & Sessions
+timeline:
+  pilot_date: "2020-12-09"
+  pilot_participant: "michelle.middaugh@adhocteam.us"
+  research_dates: "2020-12-10 to 2020-12-18"
+  research_review_submission: ""
+  
+session_details:
+  duration_minutes: 60
+  buffer_minutes: 30
+  max_sessions_per_day: 7
+  
+# Strategic Alignment
+octo_priorities:
+  - objective: "Veterans and their families can find a single, authoritative source of information"
+    key_results: 
+      - "Improve Vet Center facility page usability"
+      
+veteran_journey_phases:
+  - "Getting out"
+  - "Starting up"
+  - "Taking care of myself"
+  - "Putting down roots"
+    
+# Research Repository Tracking
+related_research:
+  previous_studies: 
+    - "Vet Center Client Interviews - September-October 2020"
+    
+tags:
+  - "facilities"
+  - "vet-centers"
+  - "usability-testing"
+  - "veterans"
+  - "desktop"
+  - "mental-health"
+  - "counseling"
+  - "service-discovery"
+  - "unauthenticated-experience"
+  - "facility-locator"
+  - "discovery"
+  - "healthcare"
+  - "prototype-testing"
+---
+
 # Research Plan: Vet Centers Detail Page - Usability Test  
 
 **December 2020 Discovery**<br>

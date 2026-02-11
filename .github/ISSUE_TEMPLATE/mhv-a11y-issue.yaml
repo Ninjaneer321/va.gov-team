@@ -17,7 +17,7 @@ body:
       value: "# MHV Accessibility Issue Ticket"
   - type: markdown
     attributes:
-      value: >
+      value: |
         > [!TIP]
         > Use the following format for the issue title — [MHV [Product > Appts | MR | Meds | SM | Portal] / Accessibility] [Brief Issue description]
   - type: markdown
