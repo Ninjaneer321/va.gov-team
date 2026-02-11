@@ -2,7 +2,7 @@
 # Prompt File Metadata
 title: "GitHub Copilot Prompt: Complete Research Findings Frontmatter with Metadata"
 date: 2026-01-13
-last_updated: 2026-01-13
+last_updated: 2026-02-11
 prompt_type: "research-reporting"
 category: "Research Report & Synthesis"
 purpose: "Helps researchers complete the YAML frontmatter section of research findings reports using GitHub Copilot"
@@ -52,7 +52,7 @@ ai_capabilities_required:
   - "Demographic data parsing"
 
 # Maintenance
-version: "1.0"
+version: "2.0"
 status: "active"
 maintainer: "Platform Research Operations"
 
@@ -140,9 +140,89 @@ I need help completing the YAML frontmatter section at the top of my research fi
 1. A brief explanation of your tag selections and the reasoning behind each inference
 2. How the tags align with the key findings and participant demographics
 3. Any questions about unclear information that needs clarification
-4. A note about any tags you considered but didn't include, and why
-5. Recommendations for ensuring tags align with the corresponding research plan and conversation guide
-6. Suggestions for additional demographic details if the "Research participants" section was incomplete
+4. **A detailed list of any missing information that could not be extracted from the report** ← ADD THIS
+5. A note about any tags you considered but didn't include, and why
+6. Recommendations for ensuring tags align with the corresponding research plan and conversation guide
+7. Suggestions for additional demographic details if the "Research participants" section was incomplete
+8. **Verification that all numeric counts (demographics, devices, participants) match exactly what was stated in the report** ← ADD THIS
+
+**CRITICAL GUARDRAILS - DO NOT VIOLATE THESE RULES:**
+
+1. **DO NOT fabricate URLs or links to related research**
+   - ONLY include links to research plans, conversation guides, or related studies if explicitly mentioned in the findings report
+   - If no related research links are mentioned, leave the field empty or use "None mentioned"
+   - DO NOT construct URLs based on team names, product names, or repository paths
+   - DO NOT assume related research exists or infer links from background context
+
+2. **DO NOT truncate or summarize lists**
+   - Include ALL key findings found in the research findings report
+   - Include ALL recommendations listed in the report
+   - Include ALL research goals from the report
+   - Include ALL opportunity areas mentioned
+   - Include ALL further research needs listed
+   - Include ALL underserved groups mentioned
+   - If there are more than shown in the example, include them all anyway
+
+3. **DO NOT calculate or infer demographic counts**
+   - ONLY use exact numbers explicitly stated in the "Research participants" section
+   - DO NOT calculate totals, averages, or percentages not explicitly provided
+   - DO NOT infer demographic breakdowns not explicitly stated
+   - If a demographic category is not mentioned, use 0 or mark as "unknown"
+   - DO NOT make assumptions about demographic distributions based on research goals
+
+4. **DO NOT fabricate participant demographics**
+   - ONLY include demographic data explicitly stated in the findings report
+   - DO NOT assume demographic distributions based on typical research patterns
+   - DO NOT fill in missing demographic categories with estimates or typical values
+   - If demographic information is incomplete or missing, mark as "Not specified" or 0 and note this as a question needing clarification
+
+5. **DO NOT count or infer devices not explicitly mentioned**
+   - ONLY count device types (desktop, tablet, smartphone, assistive_technology) that are explicitly mentioned in participant demographics
+   - DO NOT assume device usage based on research type or methodology
+   - DO NOT infer device counts from participant recruitment criteria
+   - If devices are not specified, mark all counts as 0
+
+6. **DO NOT summarize or paraphrase key findings**
+   - Use exact wording from the findings report for each entry in the key_findings array
+   - DO NOT combine multiple findings into one for brevity
+   - DO NOT rewrite findings to be shorter or more concise unless they exceed reasonable length
+   - Preserve the researcher's original language and intent
+
+7. **DO NOT fabricate synthesis tools or methods**
+   - ONLY list synthesis tools (Mural, Dovetail, etc.) explicitly mentioned in the report
+   - ONLY list secondary research sources (analytics, SME interviews, etc.) explicitly mentioned
+   - DO NOT assume standard tools were used
+   - DO NOT infer secondary research sources not mentioned
+   - If synthesis methods are not described, use an empty list [] or ask for clarification
+
+8. **DO NOT infer research gaps or opportunity areas not stated**
+   - ONLY include opportunity areas explicitly mentioned in findings or recommendations
+   - ONLY include "underserved groups" that are explicitly called out as missing or not recruited
+   - DO NOT fabricate "further research needed" items not mentioned in the report
+   - DO NOT assume research gaps based on what wasn't studied
+
+9. **DO NOT fabricate KPI alignment**
+   - ONLY include KPIs explicitly mentioned or referenced in the findings report
+   - DO NOT assume KPIs based on product area, team, or research type
+   - DO NOT infer KPIs from OCTO priorities without explicit connection in the report
+   - If KPIs are not mentioned, use an empty list [] or ask for clarification
+
+10. **DO NOT infer outcomes not explicitly stated**
+    - ONLY include user outcomes and business outcomes explicitly mentioned in the findings
+    - DO NOT create outcomes based on research goals from the research plan
+    - DO NOT assume outcomes based on recommendations
+    - If outcomes are not described in the findings report, ask for clarification
+
+11. **DO NOT fabricate researcher names**
+    - ONLY include researcher names explicitly listed in the findings report
+    - If researcher names are not mentioned, use "Not specified" and ask for clarification
+    - DO NOT infer researcher names from research plan or conversation guide unless explicitly confirmed
+
+12. **DO NOT infer assistive technology types not mentioned**
+    - ONLY count specific AT types (screen_reader_desktop, magnification_zoom, etc.) explicitly mentioned in participant demographics
+    - DO NOT assume AT usage from general statements like "included AT users"
+    - DO NOT infer AT types from research goals about accessibility
+    - If specific AT types are not detailed, mark as 0 or note in the disability section with a general count
 
 Please analyze the content of my research findings report and generate a complete frontmatter section based on the following structure:
 
@@ -163,20 +243,22 @@ Please analyze the content of my research findings report and generate a complet
 **Demographics:**
 Extract from the "Research participants" section and structure as:
 - demographics: 
-  - veterans: (count)
-  - service_members: (count)
-  - caregivers: (count)
-  - dependents: (count)
-  - VA_staff: (count)
-  - age:  (object with age ranges and counts)
-  - education: (object with education levels and counts)
-  - location: (object with urban/rural/unknown counts)
-  - race: (object with race categories and counts)
-  - disability: (object with disability and AT types and counts)
+  - veterans: (EXACT count from report - use 0 if not mentioned)
+  - service_members: (EXACT count from report - use 0 if not mentioned)
+  - caregivers: (EXACT count from report - use 0 if not mentioned)
+  - dependents: (EXACT count from report - use 0 if not mentioned)
+  - VA_staff: (EXACT count from report - use 0 if not mentioned)
+  - age: (object with EXACT age range counts from report - DO NOT infer or calculate)
+  - education: (object with EXACT education level counts from report - DO NOT infer)
+  - location: (object with EXACT urban/rural/unknown counts from report)
+  - race: (object with EXACT race category counts from report)
+  - disability: (object with EXACT disability and AT type counts from report - DO NOT infer AT types)
+  
+**CRITICAL:** If demographic information is missing, incomplete, or unclear, mark fields as 0 or "Not specified" and note this in your clarification questions.
 
 **Key Results:**
-- key_findings: (Array of concise key findings - extract top-level findings)
-- recommendations: (Array of actionable recommendations)
+- key_findings: (Array of key findings - extract using EXACT wording from the report, include ALL findings, DO NOT summarize or combine)
+- recommendations: (Array of recommendations - use EXACT wording from the report, include ALL recommendations)
 
 **Strategic Alignment:**
 - kpi_alignment: (Array of KPIs this research supports)
@@ -185,9 +267,11 @@ Extract from the "Research participants" section and structure as:
   - business: (Desired business outcome)
 
 **Research Gaps:**
-- opportunity_areas: (Array of unmet needs or opportunity areas identified)
-- further_research_needed: (Array of areas needing additional research)
-- underserved_groups_missing: (Array of demographic groups not included)
+- opportunity_areas: (Array of unmet needs or opportunity areas - ONLY include if explicitly mentioned in findings or recommendations)
+- further_research_needed: (Array of areas needing additional research - ONLY include if explicitly stated in the report)
+- underserved_groups_missing: (Array of demographic groups not included - ONLY include groups explicitly called out as missing)
+
+**Note:** If research gaps are not mentioned in the findings report, use empty lists [] for these fields.
 
 **Synthesis Methods:**
 - secondary_research: (Array of secondary research sources used, e.g., "web analytics", "SME interviews")
