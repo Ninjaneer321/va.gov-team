@@ -15,7 +15,7 @@ jobs:
 
       - name: Generate sprint section and insert into file
         env:
-          GH_TOKEN: ${{ secrets.PROJECT_TOKEN }}
+          GH_TOKEN: ${{ secrets.ARC_PROJECT_TOKEN }}
         run: |
           FILE="products/accredited-representative-crew/arc-sprint-tracker-test.md"
           MARKER="<!-- NEW_SPRINT_HERE -->"
