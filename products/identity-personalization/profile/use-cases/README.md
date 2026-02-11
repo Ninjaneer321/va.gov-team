@@ -1,6 +1,6 @@
 # Profile use case documentation
 
-**Last updated: February 2026**: Added International phone number page. Minor content updates to Profile shared use cases, Blocked users, LOA1 users, and Profile hub.
+**Last updated February 2026** | Added International phone number page. Minor content updates to Profile shared use cases, Blocked users, LOA1 users, and Profile hub.
 
 These links go to the most recent use case documentation for each product in VA.gov Profile:
 
