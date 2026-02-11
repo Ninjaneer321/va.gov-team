@@ -1,34 +1,36 @@
-name: Governance collaboration cycle intake - create milestone
+name: Governance Collaboration Cycle intake
 
 on:
   # issues:
   #   types:
   #     - opened
   workflow_dispatch:
+    inputs:
+      issue-number:
+        description: "Issue number to run this workflow for. This is for testing manual runs only."
+        required: false
+        type: number
 
 permissions:
   id-token: write
   contents: read
 
-# TODO: add temp label to new issue template for testing/piloting
-
 jobs:
   create-milestone:
     name: Create collaboration cycle milestone
     runs-on: ubuntu-latest
+    # if: contains(github.event.issue.labels.*.name, 'collaboration-cycle-testing')
+
     steps:
-
-    # if: |
-    #   github.event_name == 'issues' && github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'collaboration-cycle-test')
-    # if: |
-    #   github.event_name == 'issues' && contains(github.event.issue.labels.*.name, 'collaboration-cycle-test')
-
-    # steps:
-      # - name: Checkout repository
-      #   uses: actions/checkout@v6
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          sparse-checkout: |
+            .github
+            scripts/github-actions/gov-team/cc-intake
 
       - name: Configure AWS Credentials with OIDC
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@v6
         with:
           aws-region: us-gov-west-1
           role-to-assume: ${{ vars.GOVERNANCE_AWS_ASSUME_ROLE }}
@@ -40,19 +42,32 @@ jobs:
           ssm_parameter: /devops/VA_VFS_BOT_GITHUB_TOKEN
           env_variable_name: VA_VFS_BOT_GITHUB_TOKEN
 
-      # - name: Setup Node
-      #   uses: actions/setup-node@v6
-      #   with:
-      #     node-version: "24"
-      #     cache: "yarn"
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: "./scripts/github-actions/gov-team/cc-intake/.nvmrc"
+          cache: "yarn"
+          cache-dependency-path: "./scripts/github-actions/gov-team/cc-intake/yarn.lock"
 
-      # - name: Install Node modules
-      #   run: yarn install --frozen-lockfile
+      - name: Install Node modules
+        run: yarn install --frozen-lockfile
+        working-directory: ./scripts/github-actions/gov-team/cc-intake
 
-      # - name: Run script
-      #   run: node ./scripts/github-actions/gov-team/create-milestone.js
-      #   env:
-      #     GITHUB_TOKEN: ${{ env.VA_VFS_BOT_GITHUB_TOKEN }}
+      - name: Run script
+        run: node cc-intake.js
+        working-directory: ./scripts/github-actions/gov-team/cc-intake
+        env:
+          GITHUB_TOKEN: ${{ env.VA_VFS_BOT_GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.inputs.issue-number }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+          # ISSUE_NUMBER: ${{ github.event.issue.number || github.event.inputs.issue-number }}
+          # GITHUB_TOKEN: ${{ env.VA_VFS_BOT_GITHUB_TOKEN }}
+
+      # TODO: Other scripts needed, or run this all in one script?
+      # Pull in Slack channel and GitHub labels from team manifest
+      # Code blocks script
+      # Needs to do a find/replace on the "Initiate (touchpoint)" links
 
 #   slack-notify:
 #     runs-on: ubuntu-latest
