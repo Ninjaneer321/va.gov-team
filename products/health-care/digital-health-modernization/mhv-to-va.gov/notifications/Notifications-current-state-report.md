@@ -8,6 +8,9 @@ This report documents what we know and understand about notifications that route
 
   ## On this page
 
+  ## Notification settings in Profile
+  To review, there are opt-in notification settings for each health tool in the VA Profile. Secure Messages, however, is automatic and users cannot opt-out, so it is not listed on this page. This is also consistent on the My VA Health portal.  
+
   ## Appointments
 
   ## Messages
