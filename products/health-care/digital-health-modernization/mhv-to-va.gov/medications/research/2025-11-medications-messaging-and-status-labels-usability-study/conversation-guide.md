@@ -3,12 +3,45 @@ title: "Conversation Guide for Medications Status & SM Renewal Flow – 2025-11 
 author: "Anneka Van Garza"
 date_created: "2025-11-18"
 last_modified: "2025-11-21"
+
+# Core research metadata
+team: "Digital Health Modernization"
+portfolio: "health"
+product: "My HealtheVet on VA.gov - Medications"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use VA medications and secure messaging features"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://tinyurl.com/4ewwp6f5"
+
 tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: MHV: Medications"
+  - "PRDT: MHV: Secure Messaging"
+  - "DSC: Status label"
+  - "DSC: Alert"
+  - "DSC: Modal"
+  - "DSC: Button"
+  - "DSP: Medications list"
+  - "METHOD: Usability testing"
+  - "METHOD: Remote moderated"
+  - "MHV: Medications"
+  - "MHV: Secure Messaging"
   - "health-care"
   - "digital-health-modernization"
-  - "medications"
-  - "usability-testing"
 description: "Conversation guide for remote moderated usability testing of medications status labels and Secure Messaging (SM) renewal flow for the My HealtheVet to VA.gov modernization effort."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 
 **CONVERSATION GUIDE**

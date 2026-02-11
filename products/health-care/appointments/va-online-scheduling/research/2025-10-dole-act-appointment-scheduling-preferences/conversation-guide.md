@@ -1,18 +1,47 @@
 ---
-title: "Conversation Guide for Health Care (Appointments), E.  Dole Act Section 145 Appointment Scheduling Preferences, December 2025"
+title: "Conversation Guide for Appointments Team, E. Dole Act Section 145 Appointment Scheduling Preferences, December 2025"
 author: "Tim Licitra, Nina Anusavice"
 date_created: "2025-11-26"
 last_modified: "2025-11-26"
+
+# Core research metadata
+team: "Appointments Team"
+portfolio: "health"
+product: "VA Online Scheduling (VAOS)"
+research_phase: "validation"
+research_method: "usability_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who schedule VA health care appointments and interact with VA staff schedulers"
+
+# Related documents
+related_research_plan: "products/health-care/appointments/va-online-scheduling/research/2025-10-dole-act-appointment-scheduling-preferences/research-plan.md"
+related_prototype: "https://www.figma.com/proto/NoK2Isx56zi0ZSSNA510Wd/Dole-Act--Concept-Testing-Prototypes"
+
 tags:
-  - "health-care"
-  - "appointments"
-  - "concept-testing"
-  - "veteran-preferences"
-  - "authenticated"
-  - "dole-act"
-  - "scheduling-preferences"
-  - "moderated-research"
-description: "A conversation guide for moderating remote concept testing sessions to evaluate Veterans' mental models and preferences for health care appointment scheduling settings, testing two prototype placements (My VA and Profile) with split-group design."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Appointments"
+  - "PRDT: VAOS"
+  - "PRDT: My VA"
+  - "PRDT: Profile"
+  - "MHV: Appointments"
+  - "DSP: Authenticated"
+  - "Initiative: Dole Act"
+  - "Concept Testing"
+  - "Scheduling Preferences"
+  - "Provider Preferences"
+  - "Contact Preferences"
+  - "Remote"
+  - "Split Testing"
+description: "Concept testing guide to evaluate Veterans' mental models and preferences for health care appointment scheduling settings, testing two prototype placements (My VA and Profile) with split-group design for E. Dole Act Section 145 implementation."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 
 # Conversation Guide for 2025 December, E. Dole Act, Section 145 Veteran's Health Care Scheduling Preferences VA.gov’s Authenticated Experience

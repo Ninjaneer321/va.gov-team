@@ -1,29 +1,36 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for IGA Team, iFAMS Discovery, July 2025"
+author: "IGA Team"
+date_created: "2025-05-01"
+last_modified: "2025-05-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Identity, Governance, and Access (IGA)"
+portfolio: "digital-experience"
+product: "iFAMS (Identity and Access Management System)"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Internal VA employees who work with iFAMS and FMS systems, including ASOS roles"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/iga/research/discovery/2025-07-ifams-discovery/research-plan.md"
+related_prototype: "https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1747414536975/b58ebe24f96ad634b08b63259f51e5f65a9711a3"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-VA-employees"
+  - "PRDT-iFAMS"
+  - "PRDT-Identity-management"
+  - "discovery"
+  - "moderated-interview"
+  - "requirements-gathering"
+  - "Saviynt"
+  - "card-sort"
+  - "RESRCH-Remote"
+description: "Discovery research with internal VA employees to understand iFAMS requirements and gather insights for Saviynt implementation through interviews and prioritization exercises."
 
 # NEW: Compliance flags
 recording_required: true

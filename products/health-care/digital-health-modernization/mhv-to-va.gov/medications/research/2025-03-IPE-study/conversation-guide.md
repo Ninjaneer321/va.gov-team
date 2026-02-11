@@ -1,29 +1,39 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for MHV on VA.gov, Medications IPE Study, March 2025"
+author: "Digital Health Modernization Team"
+date_created: "2025-03-01"
+last_modified: "2025-03-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Digital Health Modernization - MHV on VA.gov"
+portfolio: "health"
+product: "MHV on VA.gov Medications"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use assistive technology (screen readers) and manage medications"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "N/A"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-veterans"
+  - "AUD-assistive-technology"
+  - "BNFT-health-care"
+  - "PRDT-medications"
+  - "PRDT-medical-records"
+  - "DSC-in-product-education"
+  - "DSP-filters"
+  - "MHV"
+  - "accessibility"
+  - "usability-testing"
+  - "moderated-research"
+  - "screen-reader"
+description: "Usability study testing In-Product Education (IPE) messages for Medications filtering on MHV on VA.gov with assistive technology users, focusing on screen reader experience."
 
 # NEW: Compliance flags
 recording_required: true

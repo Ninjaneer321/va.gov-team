@@ -1,14 +1,42 @@
 ---
-title: "Conversation Guide for [CDS Platform, CDS Console, 2025-11-01]"
+title: "Conversation Guide for CDS Platform, Patient Details Testing, December 2025 - CPRS Users"
 author: "Liz Blasi"
 date_created: "2026-01-22"
 last_modified: "2026-01-22"
+
+# NEW: Core research metadata
+team: "Clinical Decision Support Collaborative (CDSC)"
+portfolio: "health"
+product: "CDS Console"
+research_phase: "usability"
+research_method: "moderated_usability_test"
+
+# NEW: Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VHA clinicians using VistA CPRS"
+
+# NEW: Related documents
+related_research_plan: "N/A"
+related_prototype: "https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2196%3A2&node-id=2293-3966"
+
 tags:
-  - "Patient Details"
-  - "CDS Console"
-  - "Oracle Health use cases"
-  - "VistA CPRS use cases"
-description: "Converstation guide for Console Patient Details Testing."
+  - "AUD-clinicians"
+  - "AUD-VHA-staff"
+  - "PRDT-cds-console"
+  - "PRDT-patient-details"
+  - "DSC-prototype"
+  - "MHV"
+  - "EHR-cprs"
+  - "EHR-vista"
+  - "usability-testing"
+  - "moderated-research"
+description: "Conversation guide for testing Patient Details enhancements in CDS Console with VistA CPRS users, focusing on clinical workflow integration and navigation patterns."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 # Conversation Guide for Patient Details User Testing - CPRS Users
 

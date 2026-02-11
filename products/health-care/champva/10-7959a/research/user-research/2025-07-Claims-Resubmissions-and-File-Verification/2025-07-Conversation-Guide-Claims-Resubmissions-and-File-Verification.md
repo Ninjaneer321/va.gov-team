@@ -1,29 +1,45 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for IVC Team, CHAMPVA Claims Form 10-7959a Resubmissions and File Verification, July-August 2025"
+author: "Rachel Pope, Renata Keck"
+date_created: "2025-07-01"
+last_modified: "2025-07-25"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "IVC (Integrated Veteran Care)"
+portfolio: "health"
+product: "CHAMPVA Claims Form 10-7959a"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes (90 minutes for AT users)"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with 100% service-connected disability whose spouses/dependents are enrolled in CHAMPVA; spouses and dependent children of Veterans enrolled in CHAMPVA; assistive technology users"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/champva/10-7959a/research/user-research/2025-07-Claims-Resubmissions-and-File-Verification/2025-07-Research-Plan-Claims-Resubmissions-and-File-Verification.md"
+related_prototype: "https://staging.va.gov/family-and-caregiver-benefits/health-and-disability/file-champva-claim-10-7959a/introduction"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Family Member"
+  - "AUD: Surviving Family"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: CHAMPVA"
+  - "PRDT: 10-7959a"
+  - "PRDT: Claims"
+  - "DSC: Form"
+  - "DSC: File upload"
+  - "DSC: Error message"
+  - "DSP: Ask users for files"
+  - "DSP: File verification"
+  - "DSP: OCR/LLM"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+  - "assistive-technology"
+  - "screen-reader"
+description: "Usability testing for CHAMPVA Claims form 10-7959a evaluating the resubmission flow for claims requiring additional documentation and file verification using OCR/LLM to reduce errors and sendbacks."
 
 # NEW: Compliance flags
 recording_required: true

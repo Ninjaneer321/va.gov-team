@@ -1,29 +1,45 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for IVC Team, CHAMPVA 10-10D/10-7959c OHI Merge Usability Study, June-July 2025"
+author: "Renata Keck, Jamie Fiore"
+date_created: "2025-06-13"
+last_modified: "2025-06-13"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "IVC (Integrated Veteran Care)"
+portfolio: "health"
+product: "CHAMPVA Application Form 10-10D with Other Health Insurance Form 10-7959c"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "90 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with 100% service-connected disability rating whose spouses/dependents may or may not be enrolled in CHAMPVA; spouses and dependent children of Veterans with 100% disability rating; assistive technology users"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/champva/1010D/research/users/2025-05-1010D-OHI-merge-usability/Research-plan.md"
+related_prototype: "https://staging.va.gov/ivc-champva/10-10d-extended/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Family Member"
+  - "AUD: Surviving Family"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: CHAMPVA"
+  - "PRDT: 10-10D"
+  - "PRDT: 10-7959c"
+  - "PRDT: Other Health Insurance"
+  - "DSC: Form"
+  - "DSC: File upload"
+  - "DSP: Ask users for files"
+  - "DSP: v3 file upload"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+  - "assistive-technology"
+  - "screen-reader"
+  - "screen-magnifier"
+description: "Usability testing for merged CHAMPVA benefits application (10-10D) and Other Health Insurance certification (10-7959c) forms to evaluate form placement, supporting documents process, and v3 file upload component."
 
 # NEW: Compliance flags
 recording_required: true

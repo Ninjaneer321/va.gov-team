@@ -1,31 +1,42 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Veterans Pension Exploratory Research, April 2025"
+author: "Pension Benefits Team"
+date_created: "2025-04-01"
+last_modified: "2025-04-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Pension Benefits"
+portfolio: "benefits"
+product: "Veterans Pension"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who applied for Veterans Pension (submitted or stopped) and their advocates/family members"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/pension/research/2025 04 Pension Exploratory Research/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "AUD: Caregivers & family members"
+  - "BNFT: Pension"
+  - "PRDT: Veterans Pension"
+  - "PRDT: 21P-527EZ"
+  - "discovery"
+  - "moderated-interview"
+  - "exploratory-research"
+  - "user-journey"
+  - "application-experience"
+  - "financial-benefits"
+  - "benefit-eligibility"
+  - "trauma-informed-research"
+description: "Exploratory conversation guide to understand Veterans' and advocates' experiences learning about, applying for, maintaining, and receiving Veterans Pension benefits. Uses trauma-informed approach throughout the research."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

@@ -1,15 +1,45 @@
 ---
-title: "Conversation Guide for 686c Fully Digital Form Viewer MVP Usability Testing, 11/6/25"
-author: Jessica Sutantio, Riley Orr, Kevin Shih
-date_created: 11/6/25
-last_modified: 11/6/25
+title: "Conversation Guide for 686c Fully Digital Form Viewer MVP Usability Testing Ver. B, November 2025"
+author: "Jessica Sutantio, Riley Orr, Kevin Shih"
+date_created: "2025-11-06"
+last_modified: "2025-11-06"
+
+# Core research metadata
+team: "DBEX-TREX (Disability Benefits Experience - Toxic Exposure)"
+portfolio: "benefits"
+product: "686c - Add or Remove Dependents"
+research_phase: "usability"
+research_method: "moderated_usability_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have or plan to add dependents to their VA benefits"
+
+# Related documents
+related_research_plan: "products/disability/526ez/research/2025-11-686c-Fully-Digital-Form-Viewer-MVP-Usability-Testing/research-plan.md"
+related_prototype: "https://www.figma.com/proto/EoYnokGp9aSgy5JrDVqp5L/686c---Form-data-viewer---Fully-Digital-Forms"
+
 tags:
-  - "research"
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: 686c"
+  - "PRDT: Form 21-686c"
+  - "DSC: Form controls"
+  - "DSC: Accordions"
+  - "DSP: Confirmation page"
+  - "DSP: Review page"
   - "usability-testing"
-  - "686c"
+  - "moderated-research"
   - "form-viewer"
   - "fully-digital-forms"
-description: "Conversation guide for usability testing of the 686c MVP Form Viewer concepts."
+  - "dependent-management"
+description: "Conversation guide Version B for usability testing of the 686c MVP Form Viewer concepts. Participants start with the VADS Minimal concept, then view BID Maximal and Apple variations."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 
 # Conversation Guide for 686c Fully Digital Form Viewer MVP Usability Testing Ver. B

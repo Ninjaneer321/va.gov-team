@@ -1,18 +1,39 @@
 
 ---
-title: "Conversation Guide for Dependents Management, Continuous Discovery Pilot, August 2025"
+title: "Conversation Guide for Dependents Management Team, Continuous Discovery Pilot Round 1, August 2025"
 author: "Megan Graham"
-date_created: "[2025-08-14]"
-last_modified: "[2025-08-14]"
+date_created: "2025-08-14"
+last_modified: "2025-08-14"
+
+# NEW: Core research metadata
+team: "Dependents Management Team"
+portfolio: "benefits"
+product: "Dependents Management Tools"
+research_phase: "discovery"
+research_method: "moderated_interview"
+
+# NEW: Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with dependents on disability compensation benefits"
+
+# NEW: Related documents
+related_research_plan: "products/dependents/research/2025-08-continuous-discovery-pilot/Round 1/research-plan.md"
+related_prototype: "N/A"
+
 tags:
   - "AUD: Veterans"
   - "BNFT: Disability"
-  - "PRDT: Content"
-  - "RESRCH: Interviews"
-  - "RESRCH: Unmoderated"
-  - "SFTW: Website"
-  - "Veteran Journeys: Putting Down Roots"
-description: "This research effort is part of the three-month pilot to test lightweight, recurring conversations with Veterans, focused exclusively on the Dependents Management Tools (DMT) team. This pilot introduces a fast, low-friction interview format to inform in-flight work, improve decision quality, and strengthen trust."
+  - "PRDT: Dependents"
+  - "PRDT: form-21-686c"
+  - "semi-structured-interviews"
+  - "continuous-discovery"
+description: "Round 1 of continuous discovery pilot exploring Veterans' understanding of dependent management, verification processes, and overpayments in disability compensation benefits."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
     # Conversation Guide for 10-10EZR Confirmation Flow
 

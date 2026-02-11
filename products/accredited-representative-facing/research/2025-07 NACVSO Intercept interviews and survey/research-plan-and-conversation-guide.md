@@ -1,124 +1,44 @@
 ---
-# Research Plan Metadata
-title: "Research Plan and Conversation Guide for National Association of County Veteran Service Officers (NACVSO)"
-date: 2025-07-14
-last_updated: 2025-07-14
-team: "Accredited Representative Facing (ARF) Team"
+title: "Research Plan and Conversation Guide for Accredited Representative Facing, Accredited Representative Portal, July 2025"
+author: "ARF Team"
+date_created: "2025-07-02"
+last_modified: "2025-07-14"
+
+# Core research metadata
+team: "Accredited Representative Facing (ARF)"
+portfolio: "benefits"
 product: "Accredited Representative Portal (ARP)"
-product_area: "representative-facing"
+research_phase: "discovery"
+research_method: "intercept_interviews"
 
-# Background Context
-background:
-  problem_statement: "ARF Team is building Accredited Representative Portal (ARP) for representatives to provide timely, accurate, and responsive support to Veterans and non-Veteran claimants. Need to grow awareness of ARP and learn about representatives' needs to inform future features."
-  product_location: "External portal for accredited representatives (separate from VA.gov) - enables digitally submitting claims, accepting POAs, helping Veterans manage claims/appeals, managing accreditation"
-  user_familiarity: "New product - attending NACVSO conference to introduce ARP and gather insights from Veteran Service Officers"
-  product_brief_url: "Related to ARP development efforts"
+# Session details
+session_duration: "5-15 minutes"
+session_type: "in_person"
+participant_criteria: "Accredited Veteran Service Officers, particularly County VSOs attending NACVSO conference"
 
-# Research Design
-methodology: "Mixed methods - brief intercept interviews (5-15 min) and open-ended survey"
-research_format: 
-  location: in-person
-  in_person_details:
-    facility: "National Association of County Veteran Service Officers (NACVSO) Conference"
-    point_of_contact: "All ARF team members at conference"
-    equipment: "Paper notes, online spreadsheet, Google survey via QR code, paper survey printouts"
-  moderated: true
-  
-# Research Goals & Questions
-research_goals:
-  - goal_1: "How do representatives typically learn about a tool like ARP?"
-  - goal_2: "What can we learn about representatives' case management, form signature workflow, their communication with ROs, and use of digital tools that will inform future solutions in ARP?"
-  - goal_3: "What can we learn about representatives' communication with OGC?"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
 
-research_questions:
-  - "How and where should we share news about ARP portal features?"
-  - "What would make ARP exciting for representatives?"
-  - "How are specific Veterans assigned to specific representatives within an organization?"
-  - "What tools do representatives use to track case assignments?"
-  - "How do representatives communicate with Regional Offices (ROs) and what pain points exist?"
-  - "How do representatives communicate with Office of General Counsel (OGC)?"
-  - "What email channels do representatives prefer for portal notifications?"
-  - "How do representatives handle form signatures on behalf of Veterans?"
-  - "What is representatives' familiarity with VA's online tools (Appoint a Rep, SHARE, SEP)?"
-
-hypotheses:
-  - "Representatives need clear communication channels to learn about new tools and features"
-  - "Case management and assignment workflows vary significantly across organizations"
-  - "Communication with ROs and OGC presents opportunities for portal solutions"
-  - "Representatives have specific preferences for notification channels and signature workflows"
-
-expected_outcomes: "Inform how to disseminate ARP and improve understanding of representatives' needs for future features. Data from brief intercepts provides context, general direction, and helps identify better questions for in-depth studies. Survey allows broad idea sharing and identifies opportunities for ARP."
-
-# Recruitment & Participants
-recruitment:
-  recruiting_partner: "Self-recruitment at conference"
-  approach: "Intercept at booth and conference floor - all representatives attending NACVSO are potential participants"
-  
-  primary_criteria:
-    - "Accredited Veteran Service Officers"
-    - "County Veteran Service Officers attending NACVSO conference"
-    - "All representative types welcome, no specific targeting"
-    
-  secondary_criteria:
-    - "Variety of organizations"
-    - "Different levels of experience"
-    - "Different geographic locations"
-    
-  screener_questions:
-    - question: "What organization do you work for? Are you accredited with them?"
-      qualifying_response: "All attending representatives qualify"
-      
-participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
-  representatives: "Variable based on conference attendance and availability"
-  
-# Timeline & Sessions
-timeline:
-  pilot_date: "N/A"
-  pilot_participant: "N/A"
-  research_dates: "2025-07-14 to 2025-07-17"
-  research_review_submission: "2025-07-02 (shared with enablement team), finalized 2025-07-10"
-  
-session_details:
-  duration_minutes: 10
-  buffer_minutes: 0
-  max_sessions_per_day: 0
-  
-# Strategic Alignment
-octo_priorities:
-  - objective: "VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
-    key_results: 
-      - "Build tools for accredited representatives to submit claims and supporting documentation more effectively and efficiently"
-      
-veteran_journey_phases:
-  - "All phases: Representatives support Veterans throughout their journey"
-    
-# Research Repository Tracking
-related_research:
-  previous_studies: 
-    - "Related to ARP development and representative research"
-  mural_board: "https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1748357580671/d290d6bff0bdb2adb4e51d898825def4f72fe262"
-    
 tags:
-  - "accredited-representatives"
-  - "ARP"
-  - "representative-portal"
+  - "AUD: Veteran Service Office (VSO)"
+  - "PRDT: Accredited-Reps"
+  - "BNFT: Disability"
+  - "BNFT: Pension"
+  - "PRDT: Form 21-22"
   - "intercept-interviews"
   - "survey"
-  - "in-person"
-  - "NACVSO"
-  - "veteran-service-officers"
-  - "county-VSO"
-  - "case-management"
-  - "POA"
-  - "form-21-22"
-  - "OGC"
-  - "regional-offices"
   - "discovery"
+  - "case-management"
+  - "power-of-attorney"
+  - "SEP"
+  - "QuickSubmit"
+description: "Mixed-methods research at NACVSO conference including brief intercept interviews and open-ended survey to grow awareness of ARP and learn about representatives' needs for future features."
+
+# Compliance flags
+recording_required: false
+observer_support: true
+consent_for_clips: false
 ---
 
 # Research Plan and Conversation Guide for National Association of County Veteran Service Officers (NACVSO)

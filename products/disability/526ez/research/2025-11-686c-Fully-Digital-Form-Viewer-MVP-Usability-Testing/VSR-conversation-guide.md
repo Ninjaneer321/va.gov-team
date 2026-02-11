@@ -1,15 +1,47 @@
 ---
-title: "VSR Conversation Guide for 686c Fully Digital Form Viewer MVP Usability Testing"
-author: Jessica Sutantio & Riley Orr
-date_created: 12/16/25
-last_modified: 12/22/25
+title: "VSR Conversation Guide for 686c Fully Digital Form Viewer MVP Usability Testing, December 2025"
+author: "Jessica Sutantio, Riley Orr"
+date_created: "2025-12-16"
+last_modified: "2025-12-22"
+
+# Core research metadata
+team: "DBEX-TREX (Disability Benefits Experience - Toxic Exposure)"
+portfolio: "benefits"
+product: "686c - Add or Remove Dependents"
+research_phase: "usability"
+research_method: "moderated_usability_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veteran Service Representatives (VSRs) and Claims Agents who adjudicate Form 21-686c"
+
+# Related documents
+related_research_plan: "products/disability/526ez/research/2025-11-686c-Fully-Digital-Form-Viewer-MVP-Usability-Testing/research-plan.md"
+related_prototype: "https://www.figma.com/proto/EoYnokGp9aSgy5JrDVqp5L/686c---Form-data-viewer---Fully-Digital-Forms?node-id=4670-16703"
+
 tags:
-  - "research"
+  - "AUD: VA Claims Processors"
+  - "AUD: VSR"
+  - "BNFT: Disability"
+  - "PRDT: 686c"
+  - "PRDT: Form 21-686c"
+  - "PRDT: VBMS"
+  - "DSC: Form controls"
+  - "DSC: Navigation"
+  - "DSP: Form viewer"
   - "usability-testing"
-  - "686c"
+  - "moderated-research"
+  - "internal-tools"
+  - "claims-processing"
   - "form-viewer"
   - "fully-digital-forms"
-description: "VSR conversation guide for usability testing of the 686c MVP Form Viewer concepts."
+description: "Conversation guide for VSR usability testing of the 686c MVP Form Viewer concepts in VBMS. Tests multiple design variations including minimal concepts and digital PDF formats."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 
 # VSR Conversation Guide for 686c Fully Digital Form Viewer MVP Usability Testing

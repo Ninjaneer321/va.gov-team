@@ -1,31 +1,50 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Oracle Health Labs and Tests Data Validation Study, September 2025"
+author: "Digital Health Modernization Team"
+date_created: "2025-09-01"
+last_modified: "2025-09-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Digital Health Modernization"
+portfolio: "health"
+product: "VA Health and Benefits Mobile App - Oracle Health Integration"
+research_phase: "validation"
+research_method: "data_validation"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans at Oracle Health facilities with medical records including appointments, secure messaging, labs, vitals, notes, conditions, allergies, vaccines, and medications"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VA Health and Benefits mobile app"
+  - "PRDT: MHV: Appointments"
+  - "PRDT: MHV: Secure Messaging"
+  - "PRDT: MHV: Personal Health Records/Medical Records"
+  - "PRDT: MHV: Lab and test results"
+  - "PRDT: MHV: Vitals"
+  - "PRDT: MHV: Medications"
+  - "DSP: Medical records"
+  - "METHOD: Data validation"
+  - "METHOD: Remote moderated"
+  - "MHV: Appointments"
+  - "MHV: Secure Messaging"
+  - "MHV: Personal Health Records/Medical Records"
+  - "MHV: Medications"
+  - "health-care"
+  - "digital-health-modernization"
+  - "oracle-health"
+  - "mobile"
+  - "VAHB-app"
+description: "Conversation guide for data validation testing of Oracle Health integration with VA Health and Benefits mobile app, verifying accuracy of appointments, secure messaging, medical records, and medications data."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

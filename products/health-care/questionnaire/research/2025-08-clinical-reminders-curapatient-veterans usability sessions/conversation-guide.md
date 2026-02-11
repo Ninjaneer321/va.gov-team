@@ -1,29 +1,49 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Healthcare Questionnaires Team, Clinical Reminders CuraPatient Platform Usability with Veterans, August 2025"
+author: "Nina Anusavice, Alyssa Li"
+date_created: "2025-07-28"
+last_modified: "2025-07-28"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Healthcare Questionnaires"
+portfolio: "health"
+product: "Clinical Reminders - CuraPatient Platform"
+research_phase: "evaluative"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans enrolled in VA healthcare who may use desktop, mobile, or tablet devices; includes Veterans with cognitive disabilities"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/questionnaire/research/2025-08-clinical-reminders-curapatient-veterans usability sessions/research-plan.md"
+related_prototype: "https://dev-va.fed.curapatient.com/login"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Clinical reminders"
+  - "PRDT: Health questionnaires"
+  - "PRDT: CuraPatient"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "DSC: Questionnaire"
+  - "DSC: Form"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "moderated"
+  - "remote"
+  - "authenticated"
+  - "COTS-evaluation"
+  - "clinical-decision-support"
+  - "preventive-care"
+  - "toxic-exposure"
+  - "homelessness"
+  - "food-insecurity"
+  - "tobacco-use"
+description: "Usability testing of CuraPatient platform prototype for VA clinical reminders to evaluate navigation, user experience, trust, and willingness to use the COTS tool for asynchronous health questionnaires including toxic exposure, homelessness, food insecurity, tobacco history, and sexual orientation."
 
 # NEW: Compliance flags
 recording_required: true

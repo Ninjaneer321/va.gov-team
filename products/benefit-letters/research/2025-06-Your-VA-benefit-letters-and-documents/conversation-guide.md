@@ -1,29 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Benefit Letters Team, Your VA Benefit Letters and Documents, June 2025"
+author: "Shawn Arnwine"
+date_created: "2025-06-01"
+last_modified: "2025-06-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Benefit Letters Team"
+portfolio: "benefits"
+product: "Your VA benefit letters and documents"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans, including those using assistive technology (screen readers, magnifiers, voice command)"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/benefit-letters/research/2025-06-Your-VA-benefit-letters-and-documents/research-plan.md"
+related_prototype: "https://staging.va.gov/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "PRDT: Benefit-Letters"
+  - "PRDT: Service-Verification-Letter"
+  - "PRDT: Proof-of-Service-Card"
+  - "usability-testing"
+  - "accessibility"
+  - "assistive-technology"
+  - "DSC: Card"
+  - "DSC: Accordion"
+description: "Usability testing of redesigned benefit letters page focusing on improved access, address management, letter customization, and accessibility for Veterans using assistive technology."
 
 # NEW: Compliance flags
 recording_required: true

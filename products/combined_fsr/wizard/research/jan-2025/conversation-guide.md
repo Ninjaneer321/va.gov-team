@@ -1,29 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Debt Resolution Team, Wizard Complete a Subtask Pattern, January 2025"
+author: "Charlotte Cesana"
+date_created: "2025-01-01"
+last_modified: "2025-01-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Debt Resolution Team"
+portfolio: "benefits"
+product: "Combined FSR Wizard"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with experience with VA debt or medical copays"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/combined_fsr/wizard/research/jan-2025/research-plan.md"
+related_prototype: "https://n4hl2d.csb.app/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-veterans"
+  - "PRDT-debt-resolution"
+  - "PRDT-fsr"
+  - "PRDT-medical-copays"
+  - "BNFT-health-care"
+  - "DSP-wizard"
+  - "DSP-form"
+  - "usability-testing"
+  - "moderated-interview"
+  - "VBA"
+  - "VHA"
+description: "Usability and comprehension study testing the wizard complete a subtask pattern for debt resolution, including VBA overpayment and VHA copay paths with mental model exploration."
 
 # NEW: Compliance flags
 recording_required: true

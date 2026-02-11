@@ -1,47 +1,45 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for BMT-1 Team, Evidence Requests, July 2025"
+author: "Kat Brinkley"
+date_created: "2025-07-29"
+last_modified: "2025-07-29"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Benefits Management Tools (BMT 1)"
+portfolio: "benefits"
+product: "Claim and Appeal Status Tool - Evidence Requests"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have submitted disability compensation claims and received evidence requests from VA"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "N/A"
+related_prototype: "staging.va.gov with test accounts"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-Veterans"
+  - "BNFT-Disability"
+  - "PRDT-Claim-Status-Tool"
+  - "PRDT-VA-Form-21-4138"
+  - "PRDT-VA-Form-21-2142"
+  - "usability-testing"
+  - "authenticated"
+  - "evidence-request"
+  - "direct-deposit"
+  - "third-party-evidence"
+  - "DSC-Form"
+  - "disability-compensation"
+description: "Usability testing of evidence request features in the Claim Status Tool, including authorization forms, direct deposit updates, and third-party evidence requests."
 
 # NEW: Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true
----
-
-```yaml
----
-title: "Conversation Guide for [BMT 1, Evidence Requests, 7/29/2025]"
-author: "[Kat Brinkley]"
-date_created: "[2025-07-29]"
-last_modified: "[2025-07-29]"
-tags:
-  - "[Usability testing]"
-  - "[Claims Status Tool]"
----
-```    
+---    
     # Conversation Guide for BMT-1 Evidence Requests
 
 # Moderator logistics

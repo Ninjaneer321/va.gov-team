@@ -1,29 +1,41 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "VSR Conversation Guide for Disability Benefits Core Form Team, Form 21-686c Fully Digital Form Viewer MVP Usability Testing, November 2025"
+author: "Disability Benefits Core Form Team"
+date_created: "2025-11-01"
+last_modified: "2025-11-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Disability Benefits Core Form Team"
+portfolio: "benefits"
+product: "Form 21-686c (Declaration of Status of Dependents)"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA VSRs (Veteran Service Representatives) and claims agents who adjudicate Form 686c in VBMS"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/disability/526ez/research/2025-11-686c-Fully-Digital-Form-Viewer-MVP-Usability-Testing/research-plan.md"
+related_prototype: "https://tinyurl.com/FDFVSR"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Claims Agents"
+  - "AUD: VSRs"
+  - "BNFT: Disability"
+  - "PRDT: 21-686c"
+  - "DSC: Navigation"
+  - "DSC: Accordions"
+  - "DSP: Form Pattern"
+  - "Research"
+  - "Usability Testing"
+  - "VBMS"
+  - "Fully Digital Forms"
+  - "Claims Processing"
+  - "Form Viewer"
+  - "Dependent Management"
+description: "Shorthand moderator guide for VSR usability testing of Form 21-686c fully digital form viewer MVP in VBMS, evaluating formatting, navigation, content organization, and comparison to current PDF workflow."
 
 # NEW: Compliance flags
 recording_required: true

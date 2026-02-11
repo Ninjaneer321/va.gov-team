@@ -1,29 +1,40 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for ADE Team, Save in Progress, May 2025"
+author: "Cindy Merrill"
+date_created: "2025-05-01"
+last_modified: "2025-04-28"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Authenticated Experience - ADE"
+portfolio: "digital-experience"
+product: "VA.gov Forms - Save in Progress"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60-90 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who fill out VA forms online, including assistive technology users (screen readers, magnifiers)"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "teams/digital-experience/ADE/research/2025-05-save-in-progress/research-plan.md"
+related_prototype: "https://bit.ly/4lXVLTV"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-Veterans"
+  - "PRDT-VA-forms"
+  - "DSC-Form-controls"
+  - "DSC-Progress-bar"
+  - "DSC-Alerts"
+  - "DSP-Save-in-progress"
+  - "usability-testing"
+  - "accessibility"
+  - "assistive-technology"
+  - "screen-reader"
+  - "RESRCH-Remote"
+  - "Form-20-10206"
+  - "VETJNY-Applying-for-benefits"
+description: "Usability testing of save in progress functionality on VA.gov forms (Form 20-10206) with Veterans using various devices and assistive technologies to evaluate automatic saving behavior."
 
 # NEW: Compliance flags
 recording_required: true
