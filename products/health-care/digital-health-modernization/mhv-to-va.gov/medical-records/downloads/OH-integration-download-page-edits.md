@@ -5,10 +5,10 @@ Download page edits to CCD & Blue Button for OH patients
 ## Overview
 As of January 2026, the Medical Records team had been working on templating versions of the "Download" page for all 3 user-types. 
 
-**Current state**
-* VistA only users - see VistA CCD & Blue Button link
-* Hybrid users (VistA & OH) - see VistA CCD, OH CCD, & Blue Button link
-* OH only users - see OH CCD 
+> **Current state**
+> * VistA only users - see VistA CCD & Blue Button link
+> * Hybrid users (VistA & OH) - see VistA CCD, OH CCD, & Blue Button link
+> * OH only users - see OH CCD 
 
 But per OCTO PO Marci McGuire on February 9, 2026 in a UX sync, there are issues with this approach, where specifically the way we are handling OH-only users is not accurate. Many of those users attended their current OH facilities from before those facilities cutover to the Oracle Health (OH) EHR system, and when they were previously on VistA. This means that they do most likely have VistA data in both a VistA CCD record and the Blue Button report. We have an obligation to ensure that all Veterans have access to ALL of their medical records per the CARES Act. There is a slight risk to users who may have only begun receiving care at these named OH facilities _after_ their cutover dates - when they were on Oracle Health, and they may download a file that has an empty section in any VistA report download. However, business is okay with this case - which is not a patient-safety risk, and avoids users _not_ having access to any records. We can iterate on the experience to provide a better and easier UX in the future. For now, we will: 
 * Fold the "OH only users" use case into the Hybrid user use case and treat these the same (remove the OH-only use case for now)
@@ -19,10 +19,10 @@ We will iterate on this page to include the OH facility name with specific date-
 
 This will bring us to the improved future-state that we want: 
 
-**Future state**
-* VistA only users - see VistA CCD & Blue Button link
-* Hybrid users (VistA & OH) - see VistA CCD (before cutover date), OH CCD (after cutover date), & Blue Button link
-* OH only users - _same as hybrid_
+> **Future state**
+> * VistA only users - see VistA CCD & Blue Button link
+> * Hybrid users (VistA & OH) - see VistA CCD (before cutover date), OH CCD (after cutover date), & Blue Button link
+> * OH only users - _same as hybrid_
 _
 ## Existing Oracle Health facilities and their cutover dates
 
