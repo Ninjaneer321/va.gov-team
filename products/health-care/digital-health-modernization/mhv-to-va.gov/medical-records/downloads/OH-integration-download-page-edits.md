@@ -3,7 +3,9 @@ Download page edits to CCD & Blue Button for OH patients
 * Needs to be in prod by February 13, 2026 at 12pm ET
 
 ## Overview
-As of January 2026, the Medical Records team had been working on templating versions of the "Download" page for all 3 user-types: 
+As of January 2026, the Medical Records team had been working on templating versions of the "Download" page for all 3 user-types. 
+
+**Current state**
 * VistA only users - see VistA CCD & Blue Button link
 * Hybrid users (VistA & OH) - see VistA CCD, OH CCD, & Blue Button link
 * OH only users - see OH CCD 
@@ -15,6 +17,12 @@ But per OCTO PO Marci McGuire on February 9, 2026 in a UX sync, there are issues
 
 We will iterate on this page to include the OH facility name with specific date-ranges that cover pre and post-cutover based on the [EHR deployment schedule](https://digital.va.gov/ehr-modernization/ehr-deployment-schedule/) published by the VA. 
 
+This will bring us to the improved future-state that we want: 
+**Future state**
+* VistA only users - see VistA CCD & Blue Button link
+* Hybrid users (VistA & OH) - see VistA CCD (before cutover date), OH CCD (after cutover date), & Blue Button link
+* OH only users - _same as hybrid_
+_
 ## Existing Oracle Health facilities and their cutover dates
 
 This table also includes the upcoming round of Southeast Michigan cutover facilities who are anticipated to move to Oracle Health on April 11, 2026.
