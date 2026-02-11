@@ -1,34 +1,44 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Disability Claims, 526 Add New Condition, November 2018"
+author: "Unknown"
+date_created: "2018-11-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Disability Claims Team"
+portfolio: "benefits"
+product: "Disability Compensation (Form 526EZ)"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with service background and interactions with VA"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "Staging form and prototype (URLs not specified)"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD:Veterans"
+  - "BNFT:Disability"
+  - "PRDT:Form 526ez"
+  - "DSC:Form"
+  - "DSC:Text input"
+  - "DSP:Form Templates"
+  - "DSP:Ask users for medical history"
+  - "HDW:Desktop"
+  - "usability-testing"
+  - "moderated-usability-testing"
+  - "remote-research"
+  - "comparative-testing"
+description: "Usability testing comparing two approaches for adding new conditions (text entry vs. answering questions) using staging form and prototype."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # 526 Add New Condition Conversation Guide

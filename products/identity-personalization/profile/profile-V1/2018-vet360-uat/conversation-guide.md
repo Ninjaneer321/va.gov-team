@@ -1,34 +1,42 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Vet360 Profile User Acceptance Testing (UAT), June 2018"
+author: "Samara"
+date_created: "2018-06-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Authenticated Experience Team"
+portfolio: "digital-experience"
+product: "Vet360 Profile Integration"
+research_phase: "evaluative"
+research_method: "user_acceptance_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "15-20 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with Vets.gov accounts who can edit contact information in their profile"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://vets.gov/profile360/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD:Veterans"
+  - "PRDT:Profile"
+  - "PRDT:Vet360"
+  - "PRDT:Vets.gov"
+  - "PRDT:Contact Information"
+  - "DSC:Text Input"
+  - "DSC:Form"
+  - "DSP:Ask users for contact information"
+  - "DSP:Ask users for addresses"
+  - "user-acceptance-testing"
+description: "User acceptance testing of Vet360 profile integration to ensure Veterans can view and update contact information, personal details, and military service history correctly."
 
-# NEW: Compliance flags
-recording_required: true
+# Compliance flags
+recording_required: false
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide: User Acceptance Testing

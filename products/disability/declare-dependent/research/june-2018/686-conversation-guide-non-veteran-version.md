@@ -1,34 +1,54 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Form 686c Dependents Benefits Usability Research (Non-Veteran Applicant Version), June 2018"
+author: "Emily"
+date_created: "2018-06-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Benefits and Disability"
+portfolio: "benefits"
+product: "Form 21-686c - Declaration of Status of Dependents"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Dependents and family members currently receiving or eligible for VA benefits through a Veteran's record, with DS logon dependent accounts or eBenefits access"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://staging.vets.gov/disability-benefits/apply/dependents/form-686c-dependents/introduction"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD:Dependents"
+  - "AUD:Family Member"
+  - "AUD:Caregivers"
+  - "BNFT:Disability"
+  - "BNFT:Education"
+  - "PRDT:Form 21-686c"
+  - "PRDT:Form 21-674"
+  - "PRDT:vets.gov"
+  - "PRDT:eBenefits"
+  - "DSC:Form"
+  - "DSC:Text Input"
+  - "DSC:Radio Button"
+  - "DSC:Checkbox"
+  - "DSP:Form Templates"
+  - "DSP:Ask users for names"
+  - "DSP:Ask users for dates"
+  - "DSP:Ask users for addresses"
+  - "HDW:Desktop"
+  - "HDW:Laptop"
+  - "usability-testing"
+  - "moderated-usability-testing"
+  - "semi-structured-interviews"
+description: "Usability test for Form 686c dependents benefits application focused on non-Veteran applicants (dependents/family members) applying on behalf of or through a Veteran's record, examining form understanding, information collection, and applicant/veteran distinction."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide: 686 Usability Research and 674 Discovery: Applicant is NOT the Veteran
