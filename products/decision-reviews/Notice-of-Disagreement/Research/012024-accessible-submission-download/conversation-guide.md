@@ -1,29 +1,45 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Decision Reviews Team, Accessible Submission Download, February 2024"
+author: "Eileen Chi, Ruben Sun"
+date_created: "2024-01-15"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Decision Reviews Team"
+portfolio: "benefits"
+product: "Notice of Disagreement (VA Form 10182)"
+research_phase: "evaluative"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use screen readers due to low vision or blindness and have submitted benefits claims or appeals"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "/products/decision-reviews/Notice-of-Disagreement/Research/012024-accessible-submission-download/research-plan.md"
+related_prototype: "https://staging.va.gov/decision-reviews/submitted-appeal/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - AUD-veterans
+  - BNFT-disability
+  - PRDT-notice-of-disagreement
+  - PRDT-decision-reviews
+  - PRDT-board-appeal
+  - accessibility
+  - screen-reader
+  - assistive-technology
+  - usability-testing
+  - moderated-research
+  - remote-research
+  - confirmation-page
+  - submission-download
+  - PDF-accessibility
+  - HTML-page
+  - form-10182
+  - record-keeping
+  - document-access
+description: "Accessibility testing conversation guide evaluating the effectiveness of an HTML submission page for screen reader users to review and save their completed Board Appeal (NOD) form, including confirmation page and download functionality."
 
 # NEW: Compliance flags
 recording_required: true

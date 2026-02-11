@@ -1,29 +1,37 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Integrated Veteran Care (IVC) Team, Form 10-7959f-1, March 2024"
+author: "Integrated Veteran Care (IVC) Team"
+date_created: "2024-03-01"
+last_modified: "2024-03-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Integrated Veteran Care (IVC)"
+portfolio: "health"
+product: "Foreign Medical Program (FMP) Form 10-7959f-1"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans living outside the United States who are enrolled or eligible for Foreign Medical Program benefits"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/foreign-medical-program/10-7959f-1/research/users/2024-03-research-plan.md"
+related_prototype: "Prototype for Form 10-7959f-1 registration"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "FMP"
+  - "Foreign Medical Program"
+  - "form 10-7959f-1"
+  - "registration"
+  - "international addresses"
+  - "reimbursement"
+  - "usability testing"
+  - "overseas Veterans"
+  - "claims"
+  - "service design"
+description: "Usability testing and user interview conversation guide for Foreign Medical Program (FMP) Form 10-7959f-1 registration, including prototype walkthrough, registration process feedback, claims submission, and reimbursement experiences for Veterans living abroad."
 
 # NEW: Compliance flags
 recording_required: true

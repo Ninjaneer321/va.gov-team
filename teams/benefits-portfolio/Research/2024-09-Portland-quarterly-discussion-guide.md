@@ -1,34 +1,57 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Benefits Portfolio, Veteran Benefits Experience, September 2024"
+author: "Julie Strothman"
+date_created: "2024-09-01"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Benefits Portfolio"
+portfolio: "benefits"
+product: "Benefits Portfolio (Disability Compensation, Veterans Pension, Decision Reviews, Claim Status Tool)"
+research_phase: "discovery"
+research_method: "semi-structured-interviews"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "45 minutes"
+session_type: "in_person"
+participant_criteria: "Veterans who applied for disability or pension benefits in the past 3 years, or planning to apply in the next year. 50% under age 44, 50% non-Caucasian, 50% worked with accredited representative"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "/teams/benefits-portfolio/Research/2024-09-Portland-quarterly-research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - AUD: Veterans
+  - AUD: VSO
+  - BNFT: Disability
+  - BNFT: Pension
+  - PRDT: Claim-status-tool
+  - PRDT: Decision-reviews
+  - PRDT: Disability-compensation
+  - PRDT: Pension
+  - RESRCH: Semi-structured-interviews
+  - RESRCH: Generative
+  - RESRCH: In-person
+  - RESRCH: Evaluative
+  - VETJNY: Getting out
+  - VETJNY: Starting up
+  - VETJNY: Taking care of myself
+  - VETJNY: Putting down roots
+  - VETJNY: Retiring
+  - VETJNY: Aging
+  - DSC: Trust
+  - DSC: Satisfaction
+  - DSC: Confidence
+  - DSP: Benefits-application-process
+  - DSP: Help-and-support
+  - DSP: Transparency
+  - DSP: Expectations
+description: "In-person interview guide for Portland quarterly research exploring Veterans' experiences with benefits application processes, focusing on high-impact moments that affect trust, confidence, and satisfaction with VA."
 
 # NEW: Compliance flags
-recording_required: true
+recording_required: false
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide 

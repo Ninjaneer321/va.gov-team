@@ -1,29 +1,49 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Accredited Representative Management, Find a Representative LIVE User Test, 03/2024"
+author: "Janelle Finnerty"
+date_created: "2024-03-27"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Accredited Representative Management (ARM)"
+portfolio: "benefits"
+product: "Find a Representative"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes (mobile), 90 minutes (assistive technology)"
+session_type: "remote_moderated"
+participant_criteria: "Veterans actively searching for a representative (VSO, attorney, or claims agent), split between mobile users and assistive technology users including screen readers, magnification, and alternative navigation"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "/products/accredited-representation-management/research/2024-03-ARM-findarep-live-usertest/research-plan.md"
+related_prototype: "https://www.va.gov/get-help-from-accredited-representative/find-rep"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-Veterans"
+  - "BNFT-Disability"
+  - "PRDT-accredited-reps"
+  - "PRDT-find-a-rep"
+  - "DSC-Button"
+  - "DSC-Links"
+  - "DSP-ask-users-for-addresses"
+  - "DSP-content-presentation"
+  - "HDW-Smartphone"
+  - "HDW-Desktop"
+  - "usability-testing"
+  - "live-site-testing"
+  - "accessibility"
+  - "assistive-technology"
+  - "screen-reader"
+  - "magnification"
+  - "alternative-navigation"
+  - "VSO"
+  - "attorney"
+  - "claims-agent"
+  - "representative-search"
+  - "navigation-testing"
+description: "Live site usability testing of Find a Representative tool on VA.gov with mobile and assistive technology users. Tests navigation to the tool, search functionality, representative information display, and accessibility with screen readers and other assistive technologies."
 
 # NEW: Compliance flags
 recording_required: true

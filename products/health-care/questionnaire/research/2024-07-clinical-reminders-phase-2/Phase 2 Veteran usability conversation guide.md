@@ -1,3 +1,53 @@
+---
+title: "Conversation Guide for Health Questionnaires Team, Clinical Reminders Phase 2 Veteran Usability Sessions, September 2024"
+author: "Nina Anusavice and Kristen McConnell"
+date_created: "2024-09-26"
+last_modified: "2024-09-26"
+
+# NEW: Core research metadata
+team: "Health Questionnaires"
+portfolio: "health"
+product: "Clinical Reminders - Toxic Exposure Screening"
+research_phase: "usability"
+research_method: "usability_test"
+
+# NEW: Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Two cohorts: 6 Veterans returning from Phase 1 usability sessions, and 6 new Veterans enrolled in VA healthcare with assigned primary care providers"
+
+# NEW: Related documents
+related_research_plan: " Phase 2 Veteran research-plan.md"
+related_prototype: "https://bhl.va.gov/bbybq9g?t=e"
+
+tags:
+  - "health-questionnaires"
+  - "clinical-reminders"
+  - "toxic-exposure-screening"
+  - "TES"
+  - "BHL-Touch"
+  - "usability-testing"
+  - "veterans"
+  - "authenticated-experience"
+  - "primary-care"
+  - "questionnaire-platform"
+  - "cognitive-disability"
+  - "accessibility"
+  - "notifications"
+  - "SMS"
+  - "email"
+  - "evaluative"
+  - "longitudinal"
+  - "PACT-Act"
+  - "population-based-care"
+description: "Phase 2 usability testing conversation guide for revised Toxic Exposure Screening health questionnaire using BHL Touch platform, comparing improvements from Phase 1 and gathering feedback on notification trust, question clarity, and appropriate cadence for digital questionnaires."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Phase 2 Veteran Conversation Guide
 
 

@@ -1,29 +1,48 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Performance Dashboard Team, Performance Dashboard Redesign Discovery, April 2024"
+author: "Raquel Eisele"
+date_created: "2024-03-12"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Performance Dashboard Team"
+portfolio: "digital-experience"
+product: "VA.gov Performance Dashboard"
+research_phase: "discovery"
+research_method: "semi_structured_interviews"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA employees (non-OCTO) who use internal VA.gov data and metrics for reporting and decision-making, internal product stakeholders, and VFS product managers who interact with dashboard metrics."
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "N/A"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-VA-employees"
+  - "AUD-Product-stakeholders"
+  - "AUD-OCTO"
+  - "PRDT-Performance-dashboard"
+  - "semi-structured-interviews"
+  - "remote"
+  - "moderated"
+  - "discovery"
+  - "internal-tools"
+  - "metrics"
+  - "analytics"
+  - "data-access"
+  - "data-visualization"
+  - "reporting"
+  - "OMB-reporting"
+  - "internal-VA"
+  - "product-metrics"
+  - "dashboard"
+  - "data-sharing"
+  - "stakeholder-research"
+  - "jobs-to-be-done"
+description: "Discovery research conversation guide for Performance Dashboard redesign. Explores how VA employees use internal VA.gov data and metrics, identifies pain points in accessing and interpreting data, assesses value of current dashboard metrics, and gathers requirements for improvement."
 
 # NEW: Compliance flags
 recording_required: true

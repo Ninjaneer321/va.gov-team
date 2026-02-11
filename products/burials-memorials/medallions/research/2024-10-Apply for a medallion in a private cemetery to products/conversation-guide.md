@@ -1,29 +1,36 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Burials & Memorials, Medallions Application, October 2024"
+author: "Carly Yamrus"
+date_created: "2024-10-01"
+last_modified: "2024-10-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Burials & Memorials"
+portfolio: "benefits"
+product: "Medallions for Private Cemeteries"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Funeral home employees, family members, and cemetery officials who may apply for medallions for deceased Veterans"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/burials-memorials/medallions/research/2024-10-Apply for a medallion in a private cemetery to products/research-plan.md"
+related_prototype: "https://www.figma.com/proto/QIMsAdHJjctTKDM1I34uXV/Medallions---Baseline-Prototype"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "burials-memorials"
+  - "medallions"
+  - "usability-testing"
+  - "form-flow"
+  - "prototype-testing"
+  - "private-cemetery"
+  - "address-validation"
+  - "multi-step-form"
+  - "secondary-form"
+description: "Usability testing conversation guide for the medallion application process for deceased Veterans in private cemeteries, testing two user roles (funeral home applicant and family member) and a secondary cemetery official verification form."
 
 # NEW: Compliance flags
 recording_required: true

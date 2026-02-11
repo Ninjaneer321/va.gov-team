@@ -1,29 +1,50 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for ARF Team, Accredited Representative Portal, Single Accredited VSO Testing, March 2024"
+author: "Renata Keck, Rebecca Blakiston, Kristen Faiferlick"
+date_created: "2024-03-20"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Accredited Representative Facing (ARF) Team"
+portfolio: "benefits"
+product: "Accredited Representative Portal (ARP)"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "75 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans Service Officers accredited with a single VSO whose primary role is working directly with Veterans and claimants, mixture of novice and experienced users"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "/products/accredited-representative-facing/research/2024-03 Single Accredited Testing/research-plan.md"
+related_prototype: "https://www.figma.com/proto/C3sdnDf8anVqXVdmiCWwq8/%F0%9F%9A%A7-Accredited-Rep-Facing?page-id=0%3A146&type=design&node-id=437-34553&viewport=104%2C1305%2C0.05&t=NPr6SMchXdOO5N4R-8&scaling=min-zoom&starting-point-node-id=437%3A34553&hotspot-hints=0&hide-ui=1"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - AUD-vso-representatives
+  - AUD-accredited-representatives
+  - PRDT-accredited-representative-portal
+  - PRDT-form-21-22
+  - power-of-attorney
+  - usability-testing
+  - semi-structured-interviews
+  - moderated-research
+  - remote-research
+  - prototype-testing
+  - single-accredited
+  - desktop
+  - authentication
+  - PIV-card
+  - search-functionality
+  - table-sort
+  - bulk-accept
+  - decline-request
+  - landing-page
+  - dashboard
+  - navigation
+  - find-a-rep
+  - SEP-replacement
+description: "Usability testing conversation guide for single-accredited Veterans Service Officers testing the ARP 21-22 accept/decline flow, including authentication, search/filter functionality, bulk actions, decline messaging, and navigation."
 
 # NEW: Compliance flags
 recording_required: true

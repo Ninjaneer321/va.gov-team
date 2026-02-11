@@ -1,29 +1,39 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Digital Health Modernization Team, Medical Records on MHV on VA.gov, March 2024"
+author: "MHV on VA.gov Research Team"
+date_created: "2024-03-01"
+last_modified: "2024-03-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Digital Health Modernization"
+portfolio: "health"
+product: "MHV on VA.gov Medical Records"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Sighted Veterans who use My HealtheVet to access medical records, including Veterans with cognitive disabilities"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-03-usability-testing-rd2-at/research-plan.md"
+related_prototype: "Prototype with vaccines, allergies, care summaries and notes, vitals"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "MHV"
+  - "My HealtheVet"
+  - "medical records"
+  - "usability testing"
+  - "vaccines"
+  - "allergies"
+  - "care summaries"
+  - "vitals"
+  - "Blue Button"
+  - "accessibility"
+  - "cognitive disabilities"
+  - "remote mouse sharing"
+description: "Usability testing conversation guide for sighted Veterans testing medical records features on MHV on VA.gov including vaccines, allergies and reactions, care summaries and notes, vitals, and print/download functionality."
 
 # NEW: Compliance flags
 recording_required: true

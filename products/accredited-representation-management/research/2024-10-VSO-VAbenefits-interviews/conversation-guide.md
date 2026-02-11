@@ -1,34 +1,51 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for AR Team, VSO - VA Benefits (526ez, 686c, 674) - Interviews, October 2024"
+author: "Janelle Finnerty"
+date_created: "2024-10-01"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Accredited Representative Facing (ARF)"
+portfolio: "benefits"
+product: "Accredited Representative Portal (ARP)"
+research_phase: "discovery"
+research_method: "semi-structured_interview"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans Service Organization Representatives (VSORs) who support Veterans with filing VA disability compensation claims, including AT users, SEP users, and non-SEP users"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/accredited-representation-management/research/2024-10-VSO-VAbenefits-interviews/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Accredited Representatives"
+  - "AUD: Veteran Service Organization (VSO)"
+  - "BNFT: Disability"
+  - "PRDT: Accredited-Representative-Portal"
+  - "PRDT: VA-Form-21-526ez"
+  - "PRDT: VA-Form-21-686c"
+  - "PRDT: VA-Form-21-674"
+  - "PRDT: VA-Form-21-22"
+  - "semi-structured-interviews"
+  - "discovery-research"
+  - "accredited-representative-facing"
+  - "SEP-replacement"
+  - "mvp-requirements"
+  - "assistive-technology"
+  - "accessibility"
+  - "AT: Screen Reader"
+  - "claims-process"
+  - "dependents"
+  - "power-of-attorney"
+description: "Discovery interviews with Veterans Service Organization Representatives to understand their processes for preparing and filing VA disability compensation claims and dependent forms, and to inform MVP requirements for the Accredited Representative Portal."
 
 # NEW: Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # **Conversation Guide for AR Team, VSO - VA Benefits (526ez, 686c, 674) - Interviews, 10/2024**

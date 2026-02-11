@@ -1,29 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Burials and Memorials, VSO Research on Burial Allowance, September 2024"
+author: "Burials and Memorials Team"
+date_created: "2024-09-01"
+last_modified: "2024-09-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Burials and Memorials Team"
+portfolio: "bam"
+product: "Burial Allowance Application (Form 21P-530EZ)"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Accredited Veterans Service Officers (VSOs) who regularly assist claimants with burial benefits applications"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/burials-memorials/burial-allowance/research/2024-09-VSO-Research/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "burial-benefits"
+  - "burial-allowance"
+  - "form-21p-530ez"
+  - "VSO-research"
+  - "accredited-representatives"
+  - "claimant-experience"
+  - "evidence-submission"
+  - "dd214"
+  - "death-certificate"
+  - "transportation-allowance"
+  - "trauma-informed"
+description: "Discovery research with VSOs to understand how they support claimants with burial benefits applications, challenges in the process, and barriers to successful claims."
 
 # NEW: Compliance flags
 recording_required: true

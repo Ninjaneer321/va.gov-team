@@ -1,29 +1,51 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Veteran Facing Forms, Review Edit by Page (Part B - AT Users), Fall 2024"
+author: "Jaci Clark, Beth Potts"
+date_created: "2024-09-15"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Veteran Facing Forms"
+portfolio: "benefits"
+product: "VA Forms - Review Page Hub and Spoke Model"
+research_phase: "usability"
+research_method: "usability-testing"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use assistive technology (screen readers) to navigate VA.gov, novice to advanced experience level"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/platform/design-system/templates/forms/Review page/research/2024-XX VFF Review Edit by Page/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "AUD: Assistive Technology Users"
+  - "PRDT: VA-Forms"
+  - "DSP: One thing per page"
+  - "DSP: Content Presentation"
+  - "DSP: Help users to check answers"
+  - "DSC: Form"
+  - "DSC: Button"
+  - "DSC: Link"
+  - "DSC: Alert Boxes"
+  - "DSC: Progress bar"
+  - "usability-testing"
+  - "evaluative-research"
+  - "accessibility"
+  - "screen-reader"
+  - "review-page"
+  - "form-editing"
+  - "hub-and-spoke"
+  - "list-and-loop"
+  - "file-upload"
+  - "508-compliance"
+  - "cognitive-load"
+  - "VA-Form-20-10206"
+  - "FOIA-request"
+description: "Part B of review page usability study focusing on assistive technology users testing the 'hub and spoke' model for editing form responses, allowing users to edit single pages and return to review page without navigating entire chapters."
 
 # NEW: Compliance flags
 recording_required: true

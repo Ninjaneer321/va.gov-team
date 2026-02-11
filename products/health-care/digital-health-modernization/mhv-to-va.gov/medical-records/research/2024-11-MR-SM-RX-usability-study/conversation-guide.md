@@ -1,29 +1,40 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for MHV on VA.gov Medical Records, Secure Messages, and Medications Usability Study, November 2024"
+author: "Medical Records Team"
+date_created: "2024-11-01"
+last_modified: "2024-11-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Digital Health Modernization"
+portfolio: "health"
+product: "MHV on VA.gov - Medical Records, Secure Messaging, Medications"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use My HealtheVet to manage health information, including those with cognitive disabilities"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-11-MR-SM-RX-usability-study/research-plan.md"
+related_prototype: "Prototype and Codespace"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "MHV"
+  - "medical-records"
+  - "medications"
+  - "secure-messaging"
+  - "usability-testing"
+  - "filters"
+  - "findability"
+  - "vaccines"
+  - "vitals"
+  - "care-summaries-notes"
+  - "lab-test-results"
+  - "cognitive-disability"
+  - "health-records"
+description: "Usability testing for filter functionality across Medications, Medical Records (Vaccines, Vitals, Care Summaries & Notes, Lab & Test Results), and Secure Messaging on MHV on VA.gov to evaluate how Veterans use filters to find health information."
 
 # NEW: Compliance flags
 recording_required: true

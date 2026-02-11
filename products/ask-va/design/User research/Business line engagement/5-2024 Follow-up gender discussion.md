@@ -1,3 +1,46 @@
+---
+title: "Ask VA Follow-up Gender Discussion Meeting Notes"
+author: "Becky Phung"
+date_created: "2024-05-06"
+last_modified: "2024-05-06"
+
+# Core research metadata
+team: "Ask VA VA.gov Team"
+portfolio: "digital-experience"
+product: "Ask VA"
+research_phase: "discovery"
+research_method: "stakeholder_interview"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Internal stakeholders from Ask VA CRM team, Center for Women Veterans, and LGBTQ+ Health Program to discuss gender identity data collection and reporting needs"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
+
+tags:
+  - "ask-va"
+  - "gender-identity"
+  - "SOGI"
+  - "data-collection"
+  - "reporting"
+  - "stakeholder-engagement"
+  - "business-line-engagement"
+  - "center-for-women-veterans"
+  - "LGBTQ-health"
+  - "MPI"
+  - "pronouns"
+  - "preferred-name"
+description: "Meeting notes from May 6, 2024 follow-up discussion with Ask VA CRM team, Center for Women Veterans, and LGBTQ+ Health Program regarding gender identity data collection needs. Key takeaways: birth sex not needed, gender identity data required for reporting, pronouns and preferred name sufficient for addressing people, MPI is authoritative source for SOGI traits."
+
+# Compliance flags
+recording_required: false
+observer_support: true
+consent_for_clips: false
+---
+
 # May 6, 2024:  Follow-up gender discussion  
 _Ask VA VA.gov Team_
 

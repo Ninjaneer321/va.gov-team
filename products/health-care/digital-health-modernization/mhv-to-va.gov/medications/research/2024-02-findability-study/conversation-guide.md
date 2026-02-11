@@ -1,29 +1,39 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for MHV on VA.gov, Medications Findability Study, February 2024"
+author: "MHV Medications Team"
+date_created: "2024-01-15"
+last_modified: "2024-02-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "MHV on VA.gov - Medications"
+portfolio: "health"
+product: "My HealtheVet Medications on VA.gov"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use MyHealtheVet to manage VA prescriptions, including some with cognitive disabilities"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-02-findability-study/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "MyHealtheVet"
+  - "MHV-on-VA.gov"
+  - "medications"
+  - "prescriptions"
+  - "card-sort"
+  - "findability"
+  - "information-architecture"
+  - "medication-list"
+  - "refill"
+  - "multi-refill"
+  - "cognitive-disability"
+  - "prescription-management"
+description: "Research study exploring how Veterans find and organize medications in MyHealtheVet, including card sorting exercise to understand mental models and expectations for prescription list organization."
 
 # NEW: Compliance flags
 recording_required: true

@@ -1,34 +1,44 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Cartography Team, My HealtheVet on VA.gov Adoption Study, November 2024"
+author: "Cartography Team"
+date_created: "2024-11-01"
+last_modified: "2024-11-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Cartography"
+portfolio: "health"
+product: "My HealtheVet on VA.gov"
+research_phase: "evaluative"
+research_method: "moderated_interview"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use My HealtheVet Classic and have experience with medications, appointments, or secure messaging"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/overall-content-IA/2024-11-adoption-study/research-plan.md"
+related_prototype: "Live My HealtheVet Classic and VA.gov"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "MHV"
+  - "My HealtheVet"
+  - "adoption study"
+  - "migration"
+  - "VA.gov"
+  - "try-me banner"
+  - "secure messaging"
+  - "medications"
+  - "appointments"
+  - "generative research"
+  - "transition"
+  - "navigation"
+description: "Generative adoption study conversation guide evaluating Veterans' understanding and use of the transition from My HealtheVet Classic to My HealtheVet on VA.gov, including try-me banners, navigation patterns, and user confidence in using the new platform."
 
 # NEW: Compliance flags
-recording_required: true
+recording_required: false
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation guide for Adoption of My HealtheVet on VA.gov Generative Study

@@ -1,29 +1,39 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for MHV on VA.gov Medical Records Round 3 Assistive Technology Users, August 2024"
+author: "Medical Records Team"
+date_created: "2024-08-01"
+last_modified: "2024-08-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Digital Health Modernization"
+portfolio: "health"
+product: "MHV on VA.gov - Medical Records"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "90 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use assistive technology (screen readers) to access My HealtheVet, including those with community care providers"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-08-usability-testing-rd3-at/research-plan.md"
+related_prototype: "Prototype"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "MHV"
+  - "medical-records"
+  - "assistive-technology"
+  - "screen-reader"
+  - "accessibility"
+  - "health-conditions"
+  - "care-summaries-notes"
+  - "lab-test-results"
+  - "usability-testing"
+  - "community-care"
+  - "print-download"
+  - "blue-button"
+description: "Usability testing for Medical Records on MHV on VA.gov with assistive technology users, evaluating Health Conditions, Care Summaries and Notes, Lab and Test Results, and comparing experience to community care portals and Blue Button reports."
 
 # NEW: Compliance flags
 recording_required: true

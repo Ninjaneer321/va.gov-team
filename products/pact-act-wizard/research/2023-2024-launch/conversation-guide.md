@@ -1,29 +1,47 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for PACT Act Wizard Usability Testing, September 2023"
+author: "Cindy Merrill"
+date_created: "2023-09-19"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "PACT Act Wizard"
+portfolio: "benefits"
+product: "PACT Act Wizard"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans and family members who have NOT applied for VA benefits under the PACT Act, with varied service years (pre-1990, post-1990, and spanning both periods), including people with cognitive disabilities and smartphone users"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/pact-act-wizard/research/2023-2024-launch/research-plan.md"
+related_prototype: "https://www.surveymonkey.com/r/KKVHSFV"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: veterans"
+  - "AUD: family-members"
+  - "PRDT: pact-act-wizard"
+  - "BNFT: disability"
+  - "BNFT: health-care"
+  - "usability-testing"
+  - "RESRCH: remote"
+  - "RESRCH: moderated"
+  - "HDW: smartphone"
+  - "pact-act"
+  - "toxic-exposure"
+  - "eligibility"
+  - "wizard"
+  - "presumptive-conditions"
+  - "burn-pit"
+  - "agent-orange"
+  - "camp-lejeune"
+  - "gulf-war"
+  - "cognitive-disability"
+  - "content-testing"
+description: "Usability testing of the PACT Act Wizard to validate that questions are clear and easy to understand, results are comprehensible, and Veterans can determine eligibility for disability or health care benefits related to toxic exposure during military service."
 
 # NEW: Compliance flags
 recording_required: true

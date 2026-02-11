@@ -1,29 +1,51 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Veteran Transition Support Initial Discovery Research, February 2024"
+author: "Victoria Sun Esparza, Cora Goldston"
+date_created: "2024-02-16"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Veteran Transition Support (VTS)"
+portfolio: "benefits"
+product: "Veteran Transition Support"
+research_phase: "discovery"
+research_method: "semi-structured-interviews"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans, transitioning servicemembers, Commanding Officers, and VA stakeholders with diverse separation timelines, age ranges, and VA engagement levels"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/vet-transition-support/research/2024-02-discovery/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "AUD: Commanding Officers"
+  - "AUD: VA Stakeholders"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Healthcare"
+  - "BNFT: Housing"
+  - "BNFT: Employment"
+  - "BNFT: Pension"
+  - "BNFT: Life Insurance"
+  - "BNFT: Memorialization"
+  - "PRDT: Veteran-Transition-Support"
+  - "semi-structured-interviews"
+  - "generative-research"
+  - "discovery"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "benefit-discovery"
+  - "separation-process"
+  - "transition-experience"
+  - "VSO"
+description: "Initial discovery research conversation guide exploring the separation process, benefit discovery challenges, and support needs of transitioning servicemembers and Veterans to inform MVP development of Veteran Transition Support tool."
 
 # NEW: Compliance flags
 recording_required: true

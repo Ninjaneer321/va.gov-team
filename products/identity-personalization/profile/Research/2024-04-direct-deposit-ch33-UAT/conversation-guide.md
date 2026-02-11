@@ -1,34 +1,53 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Authenticated Experience Profile, Direct Deposit Payment Instruction Consolidation UAT, 07/2024"
+author: "Matt Marino, Pam Drouin"
+date_created: "2024-04-01"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Authenticated Experience Profile"
+portfolio: "digital-experience"
+product: "VA.gov Profile - Direct Deposit"
+research_phase: "validation"
+research_method: "user_acceptance_testing"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans receiving direct deposit for education (Chapter 33) and/or compensation & pension benefits, using Login.gov or ID.me credentials, with bank information available"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "/products/identity-personalization/profile/Research/2024-04-direct-deposit-ch33-UAT/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-Veterans"
+  - "profile"
+  - "direct-deposit"
+  - "authenticated-experience"
+  - "UAT"
+  - "user-acceptance-testing"
+  - "BNFT-Education"
+  - "BNFT-Disability"
+  - "chapter-33"
+  - "GI-Bill"
+  - "Post-9-11-GI-Bill"
+  - "compensation-and-pension"
+  - "BDN-migration"
+  - "CorpDB-migration"
+  - "payment-information"
+  - "Login.gov"
+  - "ID.me"
+  - "form-validation"
+  - "email-confirmation"
+  - "API-testing"
+  - "error-handling"
+description: "User acceptance testing for direct deposit consolidation due to Chapter 33 education benefits migration from legacy to new payment system. Validates that veterans with education and/or C&P benefits can view, edit, and save payment information with proper form validation and email confirmations."
 
 # NEW: Compliance flags
-recording_required: true
+recording_required: false
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide: Direct deposit payment instruction consolidation UAT, July 2024

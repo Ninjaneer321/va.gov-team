@@ -1,31 +1,43 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Sitewide Header/Footer, Federal Standardized Header/Footer Phase 2, January 2024"
+author: "Cindy Merrill"
+date_created: "2024-01-01"
+last_modified: "2024-01-17"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Sitewide"
+portfolio: "digital-experience"
+product: "Federal Standardized Header/Footer"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "90 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans and beneficiaries who use assistive technology (screen reader or screen magnifier) every time they access the Internet. 5 must use screen readers, 5 must use screen magnifiers. At least 5 computer users, 3 smartphone users, 8 Veterans. At least 2 age 55+, 2 age 35 or under, 2 without post-secondary education, 2 in rural areas, 2 with cognitive disability, 3 people of color, 2 women, 2 LGBTQ+."
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/header-footer/initiatives/2024-federal-standardized-header-footer/research/phase2-AT/research-plan.md"
+related_prototype: "https://bit.ly/4aWOb6u"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "header"
+  - "footer"
+  - "navigation"
+  - "federal-standardization"
+  - "usability-testing"
+  - "wayfinding"
+  - "sitewide"
+  - "assistive-technology"
+  - "screen-reader"
+  - "screen-magnifier"
+  - "accessibility"
+  - "a11y"
+  - "USA-logo"
+  - "VA-seal"
+description: "Conversation guide for Phase 2 usability testing of the federal standardized header and footer with assistive technology users (screen readers and screen magnifiers). Tests wayfinding, navigation, task completion, and accessibility for users who rely on assistive technology to access VA.gov."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

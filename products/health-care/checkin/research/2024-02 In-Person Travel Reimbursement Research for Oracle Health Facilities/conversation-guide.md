@@ -1,34 +1,54 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Patient Check-In Team, Travel Reimbursement via Smartphone for Oracle Health Facilities, February 2024"
+author: "Christina Gednalske and Ben Brasso"
+date_created: "2024-02-16"
+last_modified: "2024-02-16"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Patient Check-In (PCI)"
+portfolio: "health"
+product: "Travel Reimbursement via Text for Oracle Health Facilities"
+research_phase: "evaluative"
+research_method: "in-person UAT and semi-structured interviews"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "varies by intercept (5-15 minutes for Veterans, longer for staff interviews)"
+session_type: "in_person"
+participant_criteria: "Veterans checking out of appointments at Oracle Health facilities who typically file for travel reimbursement, MSAs, Clinic Managers, and Travel Office staff"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "health-care"
+  - "patient-check-in"
+  - "travel-reimbursement"
+  - "BTSSS"
+  - "Oracle-Health"
+  - "Cerner"
+  - "in-person-research"
+  - "UAT"
+  - "intercepts"
+  - "semi-structured-interviews"
+  - "veterans"
+  - "MSA"
+  - "clinic-staff"
+  - "travel-office"
+  - "smartphone"
+  - "mobile"
+  - "LoROTA"
+  - "text-message"
+  - "mileage-reimbursement"
+  - "VTP"
+  - "facility-research"
+  - "evaluative"
+description: "In-person UAT and intercept conversation guide for travel reimbursement via smartphone at Oracle Health facilities, including questions for Veterans filing claims and staff interviews with MSAs and Travel Office personnel."
 
 # NEW: Compliance flags
-recording_required: true
-observer_support: true
-consent_for_clips: true
+recording_required: false
+observer_support: false
+consent_for_clips: false
 ---
 
 # Conversation guide - In-Person UAT for Travel Reimbursement via Smartphone - VA Oracle Health Facilities

@@ -1,3 +1,44 @@
+---
+title: "Conversation Guide for Contention Classification, Improved Autosuggest Component with Assistive Technology, March 2024"
+author: "CC Team Research"
+date_created: "2024-03-01"
+last_modified: "2024-03-01"
+
+# NEW: Core research metadata
+team: "Contention Classification Team"
+portfolio: "benefits"
+product: "Disability Compensation Application (Form 21-526EZ)"
+research_phase: "usability"
+research_method: "usability_test"
+
+# NEW: Session details
+session_duration: "60-90 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use assistive technology (screen readers or screen magnifiers) and have experience with disability benefits"
+
+# NEW: Related documents
+related_research_plan: "products/disability/526ez/research/CC-Team-Research/202403 Improved Autosuggest/research-plan.md"
+related_prototype: "https://staging.va.gov/disability/file-disability-claim-form-21-526ez/introduction"
+
+tags:
+  - "disability-compensation"
+  - "form-526ez"
+  - "assistive-technology"
+  - "accessibility"
+  - "screen-reader"
+  - "screen-magnifier"
+  - "autosuggest"
+  - "condition-selection"
+  - "usability-testing"
+  - "WCAG"
+description: "Usability testing of the improved autosuggest component for entering disability conditions with assistive technology users (screen readers and magnifiers)."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Moderator Logistics<a id="moderator-logistics"></a>
 
 ## 2-3 days before the session<a id="2-3-days-before-the-session"></a>
