@@ -8,9 +8,9 @@ This folder stores information architecture (IA) research to clean up our existi
 - [Quick cleanup audit for Github documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2025-07%20team%20documentation%20IA/github-documentation-audit-and-recomendations.md)
 
 ## Initial research
-The initial research produced three information architecture structures using items from the card sort exercise and additional items team members called out as “missing” in open response questions.
+The initial research was a card sort exercise and questionnaire with the Identity team. It collected what we currently working, who we work with, and what content we share to collaborate. The result was three information architecture structures that include items from the card sort exercise and additional items team members called out as “missing” in open response questions.
 
-A key finding is that our team supports platform-wide components **alongside** standalone services and strategic initiatives. These 3 structures present how we might evolve our current mental model of “frontend” and “backend” to clarify how we support the Veteran experience through everything we work on.
+A key finding is that our team supports platform-wide components **alongside** standalone services and strategic initiatives. These 3 structures present how we might evolve our current mental model of “frontend” and “backend” to clarify how we support the Veteran experience through everything we work on. In some cases we work closely with teams to build services or tools for their application. In others, we're supporting and maintaining our own infastructure so Platform teams don't have to worry about identity and authentication.
 
 [Link to full findings report](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2025-07%20team%20documentation%20IA/identity-team-documentation-index.pdf)
 
