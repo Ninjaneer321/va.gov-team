@@ -27,6 +27,7 @@
   - [ ] [Research] 10-10d v2 Close Out Tricare Study
   - [ ] [FE] 10-10D: Decouple 10-10D v2 front end from v1 to enable decommissioning
   - [ ] [FE] 10-10D: Redirect v2 URLs back to IA-approved v1 URLs
+  - [ ] [FE] 10-10d: Explain how contact information and addresses will be used so users are able to make informed choices on which information to provide.
 
 
   
