@@ -15,7 +15,7 @@ jobs:
 
       - name: Generate sprint section and insert into file
         env:
-          GH_TOKEN: ${{ secrets.PROJECT_TOKEN }}
+          GH_TOKEN: ${{ secrets.ARC_PROJECT_TOKEN }}
         run: |
           FILE="products/accredited-representative-crew/arc-sprint-tracker-test.md"
           MARKER="<!-- NEW_SPRINT_HERE -->"
@@ -93,17 +93,31 @@ jobs:
           )
 
           # Execute GraphQL query with error handling
+          set +e  # Don't exit on error
           RESPONSE=$(gh api graphql -f query="$QUERY" 2>&1)
+          API_EXIT_CODE=$?
+          set -e  # Re-enable exit on error
           
-          # Check if the response contains errors
-          if echo "$RESPONSE" | jq -e '.errors' > /dev/null 2>&1; then
+          echo "API Exit Code: $API_EXIT_CODE"
+          echo "API Response:"
+          echo "$RESPONSE"
+          
+          # Check for various failure conditions
+          if [ $API_EXIT_CODE -ne 0 ]; then
+            echo "ERROR: gh api command failed with exit code $API_EXIT_CODE"
+            echo "This usually means:"
+            echo "  - ARC_PROJECT_TOKEN secret is not set"
+            echo "  - TOKEN doesn't have required permissions (read:project, read:org)"
+            echo "  - Network/API connectivity issue"
+            echo "Falling back to default team structure."
+            GOALS_SECTION="\n### Team Benefits\n\n### Team Appoint\n\n### Engagement\n\n"
+          elif echo "$RESPONSE" | jq -e '.errors' > /dev/null 2>&1; then
             echo "GraphQL API returned errors:"
             echo "$RESPONSE" | jq '.errors'
             echo "Falling back to default team structure."
             GOALS_SECTION="\n### Team Benefits\n\n### Team Appoint\n\n### Engagement\n\n"
           elif ! echo "$RESPONSE" | jq -e '.data.organization.projectV2' > /dev/null 2>&1; then
-            echo "Could not access GitHub Project data. Response:"
-            echo "$RESPONSE"
+            echo "Could not access GitHub Project data."
             echo "Falling back to default team structure."
             GOALS_SECTION="\n### Team Benefits\n\n### Team Appoint\n\n### Engagement\n\n"
           else
