@@ -169,7 +169,9 @@ TBD
 4. **[Rep Onboarding] Batch Outreach Strategy for SEP VSOs:** Identifying IGA contact to connect with state org leadership for Batch 1 outreach
 5. **[Rep Communication] Coordinate with LEAF team to produce feature demo videos:** Map out where the demo videos will need to be implemented
 
-## Sprint 9 Demos
+## Sprint 9 Demo 
+
+([Recording Link](https://dvagov-my.sharepoint.com/:v:/r/personal/lindsay_li-smith_va_gov/Documents/Recordings/ARC%20Sprint%20Demo-20260210_130840-Meeting%20Recording.mp4?csf=1&web=1&e=bVijmE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
 
 **Team Benefits**:
 1. Delete ITF submission after 60 days
