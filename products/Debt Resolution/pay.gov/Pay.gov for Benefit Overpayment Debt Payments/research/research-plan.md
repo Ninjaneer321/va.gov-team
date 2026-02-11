@@ -61,11 +61,11 @@ As described above, this iterates and improves upon the existing payment journey
 <details><summary>Where does your product fit into the Veteran journey?
 Are there moments that matter?</summary>
 	
-Starting Up (Moment: Balancing Finances)
-Taking Care of Myself (Moment: Maintaining my health)
-Putting Down Roots (Moment: Maintaining my financial, social, and emotional health)
-Retiring (Moment: Taking care of my health)
-Aging (Moment that Matters: Managing my declining health)
+* `Starting Up (Moment: Balancing Finances)`  
+* `Taking Care of Myself (Moment: Maintaining my health)`  
+* `Putting Down Roots (Moment: Maintaining my financial, social, and emotional health)`  
+* `Retiring (Moment: Taking care of my health)`  
+* `Aging (Moment that Matters: Managing my declining health)`
 
 </details>
 
