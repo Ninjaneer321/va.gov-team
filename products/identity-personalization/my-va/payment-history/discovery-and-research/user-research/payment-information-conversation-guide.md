@@ -1,3 +1,36 @@
+---
+title: "Conversation Guide for [Team, Product, Date]"
+author: "[AUTHOR NAME]"
+date_created: "[YYYY-MM-DD]"
+last_modified: "[YYYY-MM-DD]"
+
+# NEW: Core research metadata
+team: "[TEAM NAME]"
+portfolio: "[benefits|health|digital-experience|bam]"
+product: "[PRODUCT NAME]"
+research_phase: "[discovery|validation|usability|evaluative]"
+research_method: "[moderated_interview|usability_test|card_sort|etc]"
+
+# NEW: Session details
+session_duration: "[X minutes]"
+session_type: "[remote_moderated|remote_unmoderated|in_person]"
+participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+
+# NEW: Related documents
+related_research_plan: "[path/to/research-plan.md]"
+related_prototype: "[URL or N/A]"
+
+tags:
+  - "[Tag1]"
+  - "[Tag2]"
+description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide for My VA Payment Information and Onsite Notifications
 
 - [ ] Have link to prototype ready: [desktop](https://preview.uxpin.com/45251888896c8dd47ef62aa20d3a89a334726ac1#/pages/145483168/simulate/no-panels?mode=i) and [mobile](https://preview.uxpin.com/45251888896c8dd47ef62aa20d3a89a334726ac1#/pages/145483175/simulate/no-panels?mode=i)

@@ -44,15 +44,15 @@
 ##
 ### Team PTO
 - Andrea: 2/27
-- 
+- Kyle: 2/23-2/26
 
 
 ---
-## 📆 Sprint 14 (Feb 11 - Feb 24) [PLANNED]
+## 📆 Sprint 14 (Feb 11 - Feb 24)
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 14 is to find a resolution to the EZ Intro page looping issue and set up connection with API for service history.**
+- **The goal for Sprint 14 is to find a resolution to the EZ Intro page looping issue and validate connection with API for service history.**
 
 #### List of Planned work
 - EZ BUG
@@ -96,7 +96,7 @@
 ## 
 ### 10-10CG
 #### Obj: CG [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
-- [#130858](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130858) - [ENG/QA] Review and align with the latest QA Standards updates
+- [#130858](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130858) - [FE/QA] Review and align with the latest QA Standards updates
 
 ##
 ### Team PTO
@@ -113,9 +113,9 @@
      - Renata
      - Steve
 
-- Kyle: 2/12
+- Kyle: 2/12, 2/23-2/26
 - Renata: Half-day 2/13, 2/17
-- Matt: 2/17-2/19
+- Matt: 2/17-2/18
 - Fara: 2/17-2/20
 - Jessica: 1/20
 
@@ -151,7 +151,7 @@
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
 - [x] [#130978](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130978) - [FE] Write unit tests and reconcile E2E testing
-- [ ] **SPRINT GOAL** [#131141](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131141) - [FE] Determine how to connect with existing VA Profile integration
+- [x] **SPRINT GOAL** [#131141](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131141) - [FE] Determine how to connect with existing VA Profile integration
 - [ ] **SPRINT GOAL** [#130846](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130846) - [FE] Connect to pull in service history for display
 - [x] [#131037](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131037) - [UX] Create content for error state (no data or no API response to display service history)
 - [x] [#131051](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131051) - [UX] Update content on File Upload page

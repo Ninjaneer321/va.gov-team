@@ -1,3 +1,36 @@
+---
+title: "Conversation Guide for [Team, Product, Date]"
+author: "[AUTHOR NAME]"
+date_created: "[YYYY-MM-DD]"
+last_modified: "[YYYY-MM-DD]"
+
+# NEW: Core research metadata
+team: "[TEAM NAME]"
+portfolio: "[benefits|health|digital-experience|bam]"
+product: "[PRODUCT NAME]"
+research_phase: "[discovery|validation|usability|evaluative]"
+research_method: "[moderated_interview|usability_test|card_sort|etc]"
+
+# NEW: Session details
+session_duration: "[X minutes]"
+session_type: "[remote_moderated|remote_unmoderated|in_person]"
+participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+
+# NEW: Related documents
+related_research_plan: "[path/to/research-plan.md]"
+related_prototype: "[URL or N/A]"
+
+tags:
+  - "[Tag1]"
+  - "[Tag2]"
+description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # TEMPORARY FILE: Conversation Guide: Medication management improvements study
 
 ## Moderator logistics
@@ -172,6 +205,17 @@ You have your first visit with your new PCP tomorrow. You want to bring a detail
 6. Looking at this, what questions do you have? What would you change?
 
 If they don’t go to print, ask them “do you think you can print?” and note their path.
+
+---
+
+## Task 5
+I'm actually going to have you navigate back to the landing screen for My HealtheVet by clicking the "My HealtheVet" link at the top of the screen. Now that you're here, I'm wondering if you can show me what you would do if you were trying to refill a couple of your medications? Where would you go?
+
+Now that you're on this page (the refill page), what would you do now that you're here?
+
+1. How confident do you feel that your refill was successfully submitted?
+2. What worked well for this refill experience?
+3. Was there any part that was confusing?
 
 ---
 

@@ -18,13 +18,14 @@ Expected Annual Submission: 1921
 | 01/20/26 | 14     | 33    | 1.7%      |
 | 01/27/26 | 16     | 49    | 2.6%      |
 | 02/03/26 | 11     | 60    | 3.1%      |
+| 02/10/26 | 9      | 69    | 3.6%      |
 
 ## Post-MVP Enhancements
 | Update Type | <div style="width: 300px;">Title / Description</div> | Category | Due Near-Term? | Layer | SME Discussion? | SME Testing? | Status | Story | Staging PR | Staging Merged Date | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Update | **Updates OMB expiration to match that provided on the PDF** | Form-Related Update | - | Front-end | N | N | Complete | [129971](https://github.com/department-of-veterans-affairs/va.gov-team/issues/129971) | [41417](https://github.com/department-of-veterans-affairs/vets-website/pull/41417) | 01/14/2026 |  |
 | Finding | **Use va-introtext class on description** <br> Non-functional styling change to meet platform style requirements (this was a non-blocking staging finding) | Staging Finding | - | Front-end | N | N | Complete | [121907](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121907) | [41541](https://github.com/department-of-veterans-affairs/vets-website/pull/41541) | 01/20/2026 |  |
-| Enhancement | **MMS/GCIO Integration** | Form-Related Update | - | Back-end | N | N | In Progress | [130768](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130768) |  |  |  |
+| Enhancement | **MMS/GCIO Integration** | Form-Related Update | - | Back-end | N | N | In Progress | [130768](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130768) | [26350](https://github.com/department-of-veterans-affairs/vets-api/pull/26350)  [42133](https://github.com/department-of-veterans-affairs/vets-website/pull/42133) |  |  |
 | Update | **Remove backend feature toggle check** | Vendor Team Suggestion | - | Back-end | N | N | In Progress | [131067](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131067) | [26158](https://github.com/department-of-veterans-affairs/vets-api/pull/26158) |  |  |
 | Enhancement | **Find a Form search results page content** <br> Include a link to the online tool and update the form name. | Vendor Team Suggestion | - | Front-end | Y | Y | Not Started | [130088](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130088) |  |  |  |
 | Enhancement | **Find a Form page content** <br> Include a link to the online tool and update the form name. | Vendor Team Suggestion | - | Front-end | Y | Y | Not Started | [130090](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130090) |  |  |  |

@@ -1,0 +1,231 @@
+name: Add New Sprint
+
+on:
+  workflow_dispatch:
+
+jobs:
+  add-sprint:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate sprint section and insert into file
+        env:
+          GH_TOKEN: ${{ secrets.ARC_PROJECT_TOKEN }}
+        run: |
+          FILE="products/accredited-representative-crew/arc-sprint-tracker-test.md"
+          MARKER="<!-- NEW_SPRINT_HERE -->"
+
+          # ── Find the last sprint number in the file ──────────────────────
+          LAST_SPRINT=$(grep -oP '(?<=# Sprint )\d+' "$FILE" | sort -n | tail -1)
+          if [ -z "$LAST_SPRINT" ]; then
+            LAST_SPRINT=0
+          fi
+          NEXT_SPRINT=$((LAST_SPRINT + 1))
+          AFTER_SPRINT=$((NEXT_SPRINT + 1))
+
+          # ── Calculate the next Tuesday start date ────────────────────────
+          TODAY=$(date +%u)          # 1=Mon ... 7=Sun
+          DAYS_UNTIL_TUE=$(( (2 - TODAY + 7) % 7 ))
+          START_DATE=$(date -d "+${DAYS_UNTIL_TUE} days")
+          END_DATE=$(date -d "$(date -d "+${DAYS_UNTIL_TUE} days" +%Y-%m-%d) +13 days")
+
+          # ── Format dates: "Dec 16-29, 2026" ─────────────────────────────
+          START_MONTH=$(date -d "$START_DATE" +%b)
+          START_DAY=$(date -d "$START_DATE" +%-d)
+          END_MONTH=$(date -d "$END_DATE" +%b)
+          END_DAY=$(date -d "$END_DATE" +%-d)
+          YEAR=$(date -d "$END_DATE" +%Y)
+
+          if [ "$START_MONTH" = "$END_MONTH" ]; then
+            DATE_RANGE="${START_MONTH} ${START_DAY}-${END_DAY}, ${YEAR}"
+          else
+            DATE_RANGE="${START_MONTH} ${START_DAY} - ${END_MONTH} ${END_DAY}, ${YEAR}"
+          fi
+
+          # ── Fetch issues from GitHub Project ─────────────────────────────
+          echo "Fetching issues for Sprint ${NEXT_SPRINT} from GitHub Project..."
+          
+          # GraphQL query to get project items with custom fields
+          QUERY=$(cat <<'GRAPHQL'
+          {
+            organization(login: "department-of-veterans-affairs") {
+              projectV2(number: 1809) {
+                items(first: 100) {
+                  nodes {
+                    content {
+                      ... on Issue {
+                        title
+                        number
+                        url
+                      }
+                    }
+                    fieldValues(first: 20) {
+                      nodes {
+                        ... on ProjectV2ItemFieldSingleSelectValue {
+                          name
+                          field {
+                            ... on ProjectV2SingleSelectField {
+                              name
+                            }
+                          }
+                        }
+                        ... on ProjectV2ItemFieldTextValue {
+                          text
+                          field {
+                            ... on ProjectV2Field {
+                              name
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          GRAPHQL
+          )
+
+          # Execute GraphQL query with error handling
+          set +e  # Don't exit on error
+          RESPONSE=$(gh api graphql -f query="$QUERY" 2>&1)
+          API_EXIT_CODE=$?
+          set -e  # Re-enable exit on error
+          
+          echo "API Exit Code: $API_EXIT_CODE"
+          echo "API Response:"
+          echo "$RESPONSE"
+          
+          # Check for various failure conditions
+          if [ $API_EXIT_CODE -ne 0 ]; then
+            echo "ERROR: gh api command failed with exit code $API_EXIT_CODE"
+            echo "This usually means:"
+            echo "  - ARC_PROJECT_TOKEN secret is not set"
+            echo "  - TOKEN doesn't have required permissions (read:project, read:org)"
+            echo "  - Network/API connectivity issue"
+            echo "Falling back to default team structure."
+            GOALS_SECTION="\n### Team Benefits\n\n### Team Appoint\n\n### Engagement\n\n"
+          elif echo "$RESPONSE" | jq -e '.errors' > /dev/null 2>&1; then
+            echo "GraphQL API returned errors:"
+            echo "$RESPONSE" | jq '.errors'
+            echo "Falling back to default team structure."
+            GOALS_SECTION="\n### Team Benefits\n\n### Team Appoint\n\n### Engagement\n\n"
+          elif ! echo "$RESPONSE" | jq -e '.data.organization.projectV2' > /dev/null 2>&1; then
+            echo "Could not access GitHub Project data."
+            echo "Falling back to default team structure."
+            GOALS_SECTION="\n### Team Benefits\n\n### Team Appoint\n\n### Engagement\n\n"
+          else
+            # Parse response and group by AR Team for current and next sprint
+            ISSUES_JSON=$(echo "$RESPONSE" | jq -c --arg sprint "Sprint ${NEXT_SPRINT}" --arg next_sprint "Sprint ${AFTER_SPRINT}" '
+              [.data.organization.projectV2.items.nodes[] |
+              select(.content != null) |
+              {
+                title: .content.title,
+                number: .content.number,
+                url: .content.url,
+                sprint: ([.fieldValues.nodes[] | select(.field.name == "Planned Sprint") | .name // .text // ""] | first),
+                team: ([.fieldValues.nodes[] | select(.field.name == "AR Team") | .name // .text // ""] | first)
+              } |
+              select(.sprint == $sprint or .sprint == $next_sprint) |
+              select(.team != null and .team != "")]
+            ')
+
+            echo "Found issues: $ISSUES_JSON"
+
+            # Get unique team names and build sections
+            if [ "$ISSUES_JSON" != "[]" ] && [ -n "$ISSUES_JSON" ]; then
+              GOALS_SECTION=""
+              
+              # Get all unique teams
+              TEAMS=$(echo "$ISSUES_JSON" | jq -r '.[].team' | sort -u)
+              
+              while IFS= read -r team; do
+                if [ -n "$team" ]; then
+                  GOALS_SECTION+="\n### ${team}\n\n"
+                  
+                  # Get issues for this team
+                  TEAM_ISSUES=$(echo "$ISSUES_JSON" | jq -r --arg team "$team" '.[] | select(.team == $team) | "1. [\(.title)](#\(.number))"')
+                  
+                  if [ -n "$TEAM_ISSUES" ]; then
+                    GOALS_SECTION+="${TEAM_ISSUES}\n"
+                  fi
+                  GOALS_SECTION+="\n"
+                fi
+              done <<< "$TEAMS"
+            else
+              echo "No issues found for Sprint ${NEXT_SPRINT} or ${AFTER_SPRINT}. Using default team structure."
+              GOALS_SECTION="\n### Team Benefits\n\n### Team Appoint\n\n### Engagement\n\n"
+            fi
+          fi
+
+          # ── Build the new sprint block ───────────────────────────────────
+          SPRINT_BLOCK="\
+          \n\
+          # Sprint ${NEXT_SPRINT} (${DATE_RANGE})\n\
+          \n\
+          ## Sprint ${NEXT_SPRINT} Goals\n\
+          \n\
+          - [ ] Sprint Goals Approved by Enablement\n\
+          ${GOALS_SECTION}\
+          ## Sprint ${NEXT_SPRINT} Demos\n\
+          \n\
+          ### Team Accreditation\n\
+          \n\
+          ### Team Benefits\n\
+          \n\
+          ### Team Appoint\n\
+          \n\
+          ### Engagement\n\
+          \n\
+          ## Sprint ${NEXT_SPRINT} Delivery\n\
+          \n\
+          - [ ] Sprint Delivery Approved by Enablement\n\
+          \n\
+          Total Completed in Sprint ${NEXT_SPRINT}:\n\
+          \n\
+          Crew Count in Sprint ${NEXT_SPRINT}:\n\
+          \n\
+          Average Teammate Velocity in Sprint ${NEXT_SPRINT}:\n\
+          \n\
+          Carrying into Sprint ${AFTER_SPRINT}:\n\
+          \n\
+          ## Sprint ${NEXT_SPRINT} Tickets\n\
+          \n\
+          ### Team Accreditation\n\
+          \n\
+          ### Team Benefits\n\
+          \n\
+          ### Team Appoint\n\
+          \n\
+          ### Engagement\n\
+          \n\
+          ### General Crew Support\n\
+          "
+
+          # ── Insert after the marker ──────────────────────────────────────
+          awk -v marker="$MARKER" -v block="$SPRINT_BLOCK" '
+            { print }
+            $0 == marker { printf "%s", block }
+          ' "$FILE" > "${FILE}.tmp" && mv "${FILE}.tmp" "$FILE"
+
+          echo "Inserted Sprint ${NEXT_SPRINT} (${DATE_RANGE}) into ${FILE}"
+
+      - name: Commit and push changes
+        run: |
+          FILE="products/accredited-representative-crew/arc-sprint-tracker-test.md"
+          NEXT_SPRINT=$(grep -oP '(?<=# Sprint )\d+' "$FILE" | sort -n | tail -1)
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "$FILE"
+          git commit -m "chore: add Sprint ${NEXT_SPRINT} section to arc-sprint-tracker-test.md"
+
+          # Pull any commits that landed since checkout, then push
+          git pull --rebase origin master
+          git push origin master

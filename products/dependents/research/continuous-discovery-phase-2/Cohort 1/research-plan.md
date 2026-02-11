@@ -277,6 +277,8 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - `02/23, Monday, 8:30 AM-3:30 PM EST`
 - `02/24, Tuesday, 11:00 AM-4:00 PM EST`
 - `02/25, Wednesday, 8:30 AM-2:30 PM EST`
+- `02/26, Thursday, 8:30 AM-11:00 PM EST`
+- `02/26, Thursday, 2:00 AM-4:30 PM EST`
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 

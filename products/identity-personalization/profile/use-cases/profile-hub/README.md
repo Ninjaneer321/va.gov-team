@@ -1,9 +1,9 @@
 # Profile hub use cases
 
-Last updated: December 2025  
+Last updated: February 2026  
+
 * [User flow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1753115099089/92e988a77435d7b4d90635dd97ed8ec54af5ee14?sender=u36b374887f74c9a3de2d0750)  
 * [Figma files](https://www.figma.com/design/21eaoKK107F3Nm1ofnMOO8/Profile---Hub-landing-page?node-id=526-8464&t=xMJXoKPJELHyWbSl-1)
-
 
 # Jump to
 
@@ -11,78 +11,92 @@ Last updated: December 2025
 
 [Use cases](#use-cases)
 
-- [User with a military branch](#user-with-a-military-branch)
+- [Health care settings content](#health-care-settings-content)
 
-- [User without a military branch](#user-without-a-military-branch)
+- [Veteran Status Card](#veteran-status-card)
 
 [Edge cases](#edge-cases)
 
-- [Flags](#flags)
+[Flags](#flags)
 
-   - [Profile shared flags](#profile-shared-flags)
+- [Contact information use cases](#contact-information-use-cases)
 
-   - [Contact information use cases](#contact-information-use-cases)
+- [Profile shared flags](#profile-shared-flags)
 
-- [Errors](#errors)
+[Errors](#errors)
 
-   - [Profile shared errors](#profile-shared-errors)
+- [Profile hub specific errors](#profile-hub-specific-errors)
 
-   - [Profile hub specific errors](#profile-hub-specific-errors)
-
-      - [Error loading Veteran Status Card](#error-loading-veteran-status-card)
-
+- [Profile shared errors](#profile-shared-errors)
 
 # Overview 
 
 The profile hub is the landing page for profile. The page includes the Veteran Status Card and links to sections of the profile. For all of the use cases, the user must be LOA3 (identity verified). If the user is not LOA3 verified, they will be directed to the **Sign-in information** page to verify their account.
 
-
 # Use cases 
 
-## User with a military branch 
+## Health care settings content 
+
+* **Description:** The Health care settings content is dynamic, and changes depending on what pages show for the user.  
+* [Link to design](https://www.figma.com/design/21eaoKK107F3Nm1ofnMOO8/Profile-hub-landing-page?node-id=978-26726&t=HXVmTAeEr7QOglNQ-1)
+
+| Health care contacts | Scheduling preferences | Description |
+| :---- | :---- | :---- |
+| NO | NO | Messages signature and other health care settings |
+| NO | YES | Messages signature and scheduling preferences |
+| YES | NO | Health care contacts and messages signature |
+| YES | YES | Health care contacts, messages signature, and scheduling preferences |
+
+## Veteran Status Card 
+
+### User with a military branch
 
 * **Description:** If an LOA3 user navigates to profile they see the landing page with the Veteran Status Card at the top. The Veteran Status Cards logo and branch update to reflect the users most recent military branch of service.  
 * **Status code:** 200  
 * **Format:** [Card component](https://design.va.gov/components/card)  
 * [Link to designs](https://www.figma.com/design/21eaoKK107F3Nm1ofnMOO8/Profile---Hub-landing-page?node-id=445-20071&t=5gNJl8nwBlsZFsSR-1)
 
-## User without a military branch 
+### User without a military branch
 
 * **Description:** If an LOA3 user navigates to profile they see the landing page with the Veteran Status Card at the top. The Veteran Status Card appears with the VA logo and no branch listed.  
 * **Status code:** 200  
 * **Format:** [Card component](https://design.va.gov/components/card)  
 * [Link to designs](https://www.figma.com/design/21eaoKK107F3Nm1ofnMOO8/Profile---Hub-landing-page?node-id=941-13306&t=5gNJl8nwBlsZFsSR-1)
 
-
 # Edge cases 
 
 ## Flags 
+
+### Contact information use cases 
+
+* [Address is marked as “bad” in VA Profile](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/contact-information/use-cases/address-marked-as-bad.md)
 
 ### Profile shared flags 
 
 * [User with a blocked account attempts to access any section of profile](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/blocked-account.md)  
 * [LOA1 user attempts to access any section of profile](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/loa1-user.md)
 
-### Contact information use cases 
-
-* [Address is marked as “bad” in VA Profile](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/contact-information/use-cases/address-marked-as-bad.md)
-
-
 ## Errors 
+
+### Profile hub specific errors 
+
+#### Error loading Veteran Status Card
+
+* **Description:** If the Veteran Status Card is unable to load due to a system error the card disappears.  
+* [Link to designs](https://www.figma.com/design/21eaoKK107F3Nm1ofnMOO8/Profile---Hub-landing-page?node-id=941-29490&t=5gNJl8nwBlsZFsSR-1)
 
 ### Profile shared errors 
 
 * [Full page, backend system down](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/profile-shared-use-cases.md#full-page-backend-system-down)
 
-### Profile hub specific errors 
 
-#### Error loading Veteran Status Card 
 
-* **Description:** If the Veteran Status Card is unable to load due to a system error the card disappears.  
-* [Link to designs](https://www.figma.com/design/21eaoKK107F3Nm1ofnMOO8/Profile---Hub-landing-page?node-id=941-29490&t=5gNJl8nwBlsZFsSR-1)
 
 
 ---
+
+
+
 
 
 <details><summary>Archive | Profile hub use cases, July 2025</summary>

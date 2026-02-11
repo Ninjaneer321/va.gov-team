@@ -102,22 +102,22 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 6. How old is this dependent?
 7. (If applicable) What was the process of notifying VA like?
 8. (If applicable) Did you let VA know that your dependent was (disabled OR going to be continuing their studies) before they turned 18?
-9. Do you have anything else you want to add?
+9. Do you have anything else you want to add about the process of adding or managing dependents?
        
 # Disabled dependent flow
 
 ## First Task: Sharing prototype & pre-form pages - 10 minutes
 
-- Now let's take a look at the prototype.
+- Let's start by opening up the prototype.
 - Share link
-- We don't put any of your personal information or anything about your personal situation in the prototype so the Veteran name you'll see in the prototype is Curtis. Curtis has his wife, his mother-in-law, and his son, and two of his daughters on the benefit. His third daughter was previously on the benefit but was removed after she decided to take a year off from school.
-- One of his daughters on the benefit, Jen, has a permanent disability that has been present from birth. Jen turns 18 in about 3 months and you receive a letter from VA saying that she will be removed from the benefit when she turns 18. You’ve heard that she can remain on your benefit as a disabled dependent so you log into VA.gov to find out how to take that step.
+- We don't put any of your personal information or anything about your personal situation in the prototype so the Veteran name you'll see in the prototype is Curtis. 
+- Curtis has his wife and two of his daughters on the benefit. His third daughter, Porshia, was previously on the benefit but was removed after she decided to take a year off from school. One of his daughters on the benefit, Jen, has a permanent disability that has been present from birth. Jen turns 18 in about 3 months and he receives a letter from VA saying that she will be removed from the benefit when she turns 18. He's heard that she can remain on your benefit as a disabled dependent so he logs into VA.gov to find out how to take that step.
+- We're going to ask you to imagine today that you are Curtis. I know that's a lot of details to remember so I'm going to copy the information about Curtis into the chat in case that is helpful. You can also ask me at any time and I'll be happy to repeat the information.
 - When you log into VA.gov, what would you be looking for? What information would you be expecting to see? What would be helpful to you?
-- Now I'm going to ask you to imagine that when you log into VA.gov, this is what you see. What would you do next?
+- Now let's take a look at the prototype. Imagine that when you log into VA.gov, this is what you see. What would you do next?
 
-- *Screen: Verify your dependents for disability benefits*
+- *Screen: Follow these steps to get started*
      - Can you talk about what you're thinking as you look at this page?
-     - What would you select here?
      - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
@@ -139,7 +139,6 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 
 - *Screen: Review your active VA dependents*
      - Can you talk about what you're thinking as you look at this page?
-     - What would you select here?
      - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
@@ -147,7 +146,6 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 
   - *Screen: Select dependents to remove*
      - Can you talk about what you're thinking as you look at this page?
-     - What would you select here?
      - How would you decide which option to select?
      - Do you have any other feedback on this page?
      - What would you do next?
