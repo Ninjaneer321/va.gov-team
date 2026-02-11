@@ -191,7 +191,7 @@ TBD
 
 ## Sprint 9 Delivery
 
-- [ ] Sprint Delivery Approved by Enablement
+- [x] Sprint Delivery Approved by Enablement - Jen Bertsch on February 11, 2026 ([Slack conversation](https://dsva.slack.com/archives/C06GE5N7QJ0/p1770832859141509?thread_ts=1770829029.019239&cid=C06GE5N7QJ0)) 
 
 Total Completed in Sprint 9: 51 tickets, 150 points + 2 spikes\
 Crew Count in Sprint 9: 20 active teammates (not including Principal Leads)\
