@@ -79,7 +79,7 @@ As we transition Veterans to our new MHV portal we want a way to introduce them 
 - The component disappears for the user in all future sessions if one of two conditions are met:
    1. The user "sees" the component 3 times
    2. The user dismisses the component
--  From Richard Davis, engineer on Meds team: "There is a database-backed model in vets-api called 'Tooltip'. The way the controller handles this functionality is that a user must dismiss the tooltip for three separate user sessions, and then marks it as hidden. When loading the page, vets-website retrieves the Tooltips for the user and checks if 'hidden' is true, if so hides the particular UI with the matching 'tooltip_name'."
+-  From Richard Davis, engineer on Meds team: "There is a database-backed model in vets-api called 'Tooltip'. [...] When loading the page, vets-website retrieves the Tooltips for the user and checks if 'hidden' is true, if so hides the particular UI with the matching 'tooltip_name'."
 - [Code for tootip controller here](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/my_health/app/controllers/my_health/v1/tooltips_controller.rb#L67-L74)
 - Q: What is the mechanism used to recognize the user in future sessions? A: "Backend session data. Specifically the timestamp of the session."
   
