@@ -41,10 +41,9 @@ The following documentation encompasses use of VADS [telephone](https://design.v
 ## Mobile phone number 
 
 * **Description:** The Mobile phone number sections allow a user to enter their phone number only. There is no extension option. Mobile phone numbers are used for text notifications.  
-  * [Link to designs](https://www.figma.com/design/bFdl7MEIda4ExZIQuot84r/Profile---Contact-Information?node-id=4605-13798&t=nIlo9IHij5CknAG0-1)  
-* **Warning messaging:** When a user enters an international phone number into the mobile field they receive a warning message informing them that they cannot receive text messages with an international phone number. If editing inline the message appears as a modal. If editing as part of a flow it appears as its own page.  
-  * [Link to modal designs](https://www.figma.com/design/bFdl7MEIda4ExZIQuot84r/Profile---Contact-Information?node-id=4598-32692&t=m4yKHGRokdocqFrz-1)  
-  * [Link to inline messaging designs](https://www.figma.com/design/Byfu9NRKXCtXN3DuMYguKI/Authenticated-Experience-Team-Symbols?node-id=1561-4628&t=frPd7jfzElneHmFo-1)  
+  * [Link to design](https://www.figma.com/design/bFdl7MEIda4ExZIQuot84r/Profile---Contact-Information?node-id=4605-13798&t=nIlo9IHij5CknAG0-1)  
+* **Warning messaging:** When a user enters an international phone number into the mobile field they receive a warning message informing them that they cannot receive text messages with an international phone number. The messaging always appears as a modal.  
+  * [Link to design](https://www.figma.com/design/bFdl7MEIda4ExZIQuot84r/Profile---Contact-Information?node-id=4598-32692&t=m4yKHGRokdocqFrz-1)  
 * **Inline validation:** There is no custom inline validation. All inline validation is default to the VADS component.  
 * **Email and text notification page:** When an international Mobile phone number is entered the Email and text notifications page hides text notification options. What displays depends on whether the user has an email address on file. For full functionality please refer to the [Email and text notification use cases](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/notification-preferences/use-cases#readme).  
   * [Link to missing email and US based phone number designs](https://www.figma.com/design/e6JEtrwZCInKk9SjZktx2T/Profile---Email-and-text-notifications?m=auto&node-id=5289-11969&t=G16JuLOlehedgAkc-1)  
@@ -73,7 +72,7 @@ There are several shared editing interactions that are used in profile. The link
 1. Sign in with any verified test account.  
 2. Navigate to **Profile** › **Contact information**  
 3. **Home**, **Mobile**, and **Work** phone numbers are all able to be edited and removed.  
-   1. Updating a **Mobile** phone number with an international number will trigger the text notification messaging.  
+   1. Updating a **Mobile** phone number with an international number will trigger the text notification warning modal.  
    2. System errors have to be tested locally.
 
 ## Email and text notifications page 
@@ -85,5 +84,5 @@ There are several shared editing interactions that are used in profile. The link
    1. You can now view the User doesn't have an email or US based mobile phone on file use case.  
 4. Select **Add an email address to your profile**, and add an email address.  
    1. Select **Add your mobile phone number to your profile**, and add an international phone number.  
-      1. Doing so will trigger the warning message page, and the dropdown alert on the Email and text notifications page for testing.  
+      1. Doing so will trigger the text notification warning modal, and the dropdown alert on the Email and text notifications page for testing.  
    2. System errors have to be tested locally.
