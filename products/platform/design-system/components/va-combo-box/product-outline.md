@@ -11,7 +11,7 @@
 - [Properties / architecture document](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/design-system-forms-library/products/components/va-combo-box/properties-architecture.md)
 - [Figma Designs](https://www.figma.com/design/Zzt8z60hCtdEzXx2GFWghH/branch/vzQ2rqkg0F5rHDxPmFLHFL/VA-Mobile---Component-Library?node-id=1414-454&p=f&t=D2Ya3DS9aVNc7UjP-0)
 - [Figma Comparison - mobile vs web](https://www.figma.com/design/Zzt8z60hCtdEzXx2GFWghH/branch/vzQ2rqkg0F5rHDxPmFLHFL/VA-Mobile---Component-Library?m=auto&node-id=8873-7889&t=D2Ya3DS9aVNc7UjP-1)
-- [Experimental Design request](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/3154#top}
+- [Experimental Design request](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/3154#top)
 - [PR that added the component](https://github.com/department-of-veterans-affairs/component-library/pull/1373)
 
 ## Summary
