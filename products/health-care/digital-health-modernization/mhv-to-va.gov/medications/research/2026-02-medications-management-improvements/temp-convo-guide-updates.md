@@ -175,6 +175,17 @@ If they don’t go to print, ask them “do you think you can print?” and note
 
 ---
 
+## Task 5
+I'm actually going to have you navigate back to the landing screen for My HealtheVet by clicking the "My HealtheVet" link at the top of the screen. Now that you're here, I'm wondering if you can show me what you would do if you were trying to refill a couple of your medications? Where would you go?
+
+Now that you're on this page (the refill page), what would you do now that you're here?
+
+1. How confident do you feel that your refill was successfully submitted?
+2. What worked well for this refill experience?
+3. Was there any part that was confusing?
+
+---
+
 ## Reflection questions
 1. Thinking about your entire session today, how easy or difficult was your overall experience?  
 2. Looking back at everything you did today, what would you change? Why?  
