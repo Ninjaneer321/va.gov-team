@@ -1,7 +1,6 @@
 # User with a blocked account attempts to access any section of profile
 
-Last updated: November 2025  
-
+Last updated: January 2026  
 
 # Jump to
 
@@ -13,7 +12,6 @@ Last updated: November 2025
 
 [How to reproduce](#how-to-reproduce)
 
-
 # Overview 
 
 Currently, we block access to profile pages other than **Sign-in information** if a person has one of the below flags on their account. We get these flags from the BGS endpoint. A flag could be present if a person:
@@ -24,15 +22,13 @@ Currently, we block access to profile pages other than **Sign-in information** i
 
 When an account is blocked, we show an alert on the **Sign-in information** page. The original implementation of this blocking started with direct deposit and was expanded to all of profile in November 2022\. Please read the [documentation from 2.24.20 in the sensitive repo](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Postmortems/2020/2020-02-21%20Direct%20Deposit%20Fiduciary%20Issue.md) for more background information.
 
-
 # Experience 
 
 * When a user with a blocked account navigates to profile, they’ll only see the **Sign-in information** page; no other pages in profile are available from the profile navigation menu.  
 * If they click a URL that leads directly to any specific page under **/profile/** they're redirected to **/profile/account-security/sign-in-information**.  
 * Uses the [warning alert component](https://design.va.gov/components/alert#warning-alert) from the VA design system.  
 * Phone numbers should be linked and include ARIA attributes ([Storybook docs for phone numbers](https://design.va.gov/storybook/?path=/docs/components-va-telephone--docs)).  
-* [Link to design](https://www.figma.com/design/05k2PTmuDVgBj2HnzUZayg/Profile---Account-Security?node-id=613-25563&t=vEzOY6Vc44fxJdc2-1)
-
+* [Link to design](https://www.figma.com/design/05k2PTmuDVgBj2HnzUZayg/Profile---Account-security?node-id=730-7331&t=8pSDdT6v2iDaWccx-1)
 
 # Codes 
 
@@ -41,7 +37,6 @@ When an account is blocked, we show an alert on the **Sign-in information** page
 | isCompetentIndicator | True if incompetentInd is not ‘Y’ | incompetentInd | incompetentInd – whether the Veteran is incompetent or not |
 | noFiduciaryAssignedIndicator | True if fiduciaryInd is not ‘Y’ | fiduciaryInd | fiduciaryInd – whether the record has a Fiduciary or not |
 | notDeceasedIndicator | True if deathDtInd is not ‘Y’ | deathDtInd | deathDtInd – a DEATH\_DT was found on the PERSON record |
-
 
 # How to reproduce 
 
