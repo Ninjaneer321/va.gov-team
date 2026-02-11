@@ -43,5 +43,5 @@ This solution will be handled within the Medical Records application itself (not
 2. There are no use cases in the My HealtheVet front-end experience right now that require the cutover date being named in front-end user-facing content outside of Medical Records at this time.
 
 This work will be divided into two tickets: 
-* Ticket 1 - remove the Blue Button download link suppression for users who only have an OH facility in their profile
+* [Ticket 1](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132755) - remove the Blue Button download link suppression for users who only have an OH facility in their profile
 * [Ticket 2](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132762) - update content on the "Download" page for the combined Hybrid users + OH-only users scenarios. The content should be different in the intro text, and also include a bulleted list of facilities with date-ranges specified for any OH facilities. 
