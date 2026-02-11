@@ -1,6 +1,7 @@
 # LOA1 user attempts to access any section of profile
 
-Last updated: November 2025  
+Last updated: January 2026  
+Last uploaded: February 2026
 
 # Jump to
 
@@ -18,7 +19,7 @@ A user is considered **LOA1** when they log in to VA.gov and they have not verif
 
 * When an **LOA1** user navigates to profile, they'll only see the **Sign-in information** page; no other pages in profile are available from the profile navigation menu.  
 * If they click a URL that leads directly to any specific page under **/profile/** they're redirected to **/profile/account-security/sign-in-information**.  
-* [Link to design](https://www.figma.com/design/05k2PTmuDVgBj2HnzUZayg/Profile---Account-Security?node-id=613-7987&t=vEzOY6Vc44fxJdc2-1)
+* [Link to design](https://www.figma.com/design/05k2PTmuDVgBj2HnzUZayg/Profile---Account-security?node-id=730-9507&t=8pSDdT6v2iDaWccx-1)
 
 # How to reproduce 
 
@@ -30,7 +31,11 @@ A user is considered **LOA1** when they log in to VA.gov and they have not verif
 2. Navigate to profile or update the URL in your browser to point to **/profile/contact-information** or any other section of profile aside from /**profile/account-security/sign-in-information**.
 
 
+
+
 ---
+
+
 
 
 <details><summary>Archive | Profile shared use cases, July 2025</summary>
