@@ -2,6 +2,97 @@
 
 - Current Sprint first
 
+## 📆 Sprint 14 (Feb 11 - Feb 24) 
+- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+
+### Sprint Goals
+- [ ] **SPRINT GOAL** 10-7959c: Add foundational support for OHI-VES submissions by enabling subforms and updating submission flow to handle dependent forms
+- [ ] **SPRINT GOAL** 10-10d: Document the CHAMPVA benefits card delivery process and evaluate policy and technical feasibility for digital delivery
+
+
+
+
+##
+### 10-10d
+- [ ] **SPRINT GOAL** 10-10d: Document the CHAMPVA benefits card delivery process and evaluate policy and technical feasibility for digital delivery
+  - [ ] [BE] 10-10d: Discovery - Assess engineering feasibility of requesting a CHAMPVA benefits card online
+  - [ ] [UX] VA Form 10-10D: Discovery - CHAMPVA Benefits Card delivery process
+
+  - [ ] Add subforms support to VesRequest
+  - [ ] Create VesOhiRequest skeleton
+  - [ ]  Add OHI methods to VesDataFormatter
+  - [ ] Update UploadsController for subform submission
+ 
+- [ ] **Other planned work** 
+  - [ ] [Research] 10-10d v2 Close Out Tricare Study
+  - [ ] [FE] 10-10D: Decouple 10-10D v2 front end from v1 to enable decommissioning
+  - [ ] [FE] 10-10D: Redirect v2 URLs back to IA-approved v1 URLs
+
+
+  
+
+
+##
+### 10-7959a
+- [ ] **Other planned work** 
+  - [ ] [UX]: 10-7959a CHAMPVA Multiple Claims Flow Revisions
+
+
+     
+
+## 
+### 10-7959c
+- [ ] **SPRINT GOAL** 10-7959c: Add foundational support for OHI-VES submissions by enabling subforms and updating submission flow to handle dependent forms.
+  - [ ] Add subforms support to VesRequest
+  - [ ] Create VesOhiRequest skeleton
+  - [ ]  Add OHI methods to VesDataFormatter
+  - [ ] Update UploadsController for subform submission
+- [ ] **Other Planned Work** 
+  - [ ] [FE] 10-7959C: Determine max field lengths for PDF + VES ingest and enforce limits in the UI
+
+ 
+## 
+### 10-7959f-1 FMP Enrollment
+- No work this sprint
+
+
+##
+### 10-7959f-2 FMP Claims
+- No work this sprint
+     
+
+
+##
+### All forms or Tech Debt
+- [ ] **Other Planned Work** 
+  - [ ] IVC Forms - [2025-10-28] Monitor incident - Error handling file uploads, parsing error
+  - [ ] IVC Forms: 12/16/2025 Monitor Incident - Failed to generate stamped file
+
+## 
+### Carried forward from previous sprint
+- [ ] 
+
+## 
+### STRETCH GOALS/UP NEXT
+- FE
+  - [ ] 
+- BE
+  - [ ] [BE] IVC All Forms: Investigate latency against 750 ms SLO target
+  - [ ] BE Spike - Plan to remove 10-10d v1
+  - [ ] 10-7959c - Mark "No" in PDF when user selects "No" to adding Medicare plans
+  - [ ] [BE] VES/OHI: Add request_json column and populate
+  - [ ] [BE] VES/OHI: Update VES Retry flow to use request_json
+- UX
+  - [ ] [UX]: 10-7959a: CHAMPVA claims resub fast-follows mocks
+  - [ ] [Research] 10-10d v2: Tricare Study Analysis & Findings Report
+  - [ ] [UX] 10-5345(a) - Design Discovery
+
+##
+### Team PTO
+- Federal Holiday - Monday, 2.16 (President's day)
+
+-- 
+
 ## 📆 Sprint 13 (Jan 28 – Feb 10) 
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
