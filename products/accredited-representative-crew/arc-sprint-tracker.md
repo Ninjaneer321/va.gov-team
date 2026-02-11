@@ -6,16 +6,36 @@ _Overview: This tracker is designed to track sprint goals with completed work, p
 
 ## Sprint 10 Goals
 
+- [ ] Sprint Goals Approved by Enablement
+
 **Team Accreditation**
 1. **Enable Individual Acceptance of Representation Requests**: Content development, continuing engineering, preparing artifacts
 2. **[Rep Data] Address Approximation**: Pending Mapbox API key, verify instrumentation and prepare for deployment
 3. **[Rep Data] GCLAWS SQL Server API Integration**: Handle the response (xlsx file) and create monitoring/reporting
  
 **Team Benefits**
+1. **[Discovery Research] Understanding how Reps manage the claims cycle across all clients**: Finalize report, process flow diagrams
+2. **[Rep-Facing Form] 526ez v2**: Desk review synthesis
+3. **[Claimant Details] MVP - Design**: Address open questions
+4. **[ITF] MVP - Development**: Address ADE findings and request 508 audit
+5. **Benefits Delivery at Discharge**: Engineering Discovery
+6. **[ARP Post-MVP] Cleanup Tasks**: Feature flag cleanup, job for setting delete_date field on claims submissions
+7. **[Claimant Details] MVP - Development**: Update breadcrumbs, create feature flag, Claimant Overview and Submissions History tabs for "Established POA" scenarios
+8. **[Measure Impact] ARP in Datadog**: Continue updating POA Rep Request Accept/Decline Counter Metrics for improved accuracy
 
 **Team Appoint**
+1. **[21-22a] Research: Understand the 21-22a representation relationship and supporting VA processes**: Complete desk research and synthesis, prepare for SME interviews, schedule and begin SME interviews
+2. **[Filter and Details] Find a Rep v3 - Development**: UI updates, prepare Architecture Intent artifacts / plan remaining development, create feature flag for the VSO filter addition
+3. **ARC Team Onboarding and Setup**: Complete developer onboarding, PM onboarding
+4. Address remaining bugs
 
 **Engagement**
+1. **Rep Communication**: Investigate shared support mailbox
+2. **Rep Onboarding**
+   1. Coordinate bulk contact info update for Colorado Division of Veteran Affairs
+   2. Generate missing email spreadsheet for American Legion, Catholic War Veterans of America, Fleet Reserve Association and single-accredited NACVSO representatives
+   3. Send second follow-up email to Arizona Department of Veterans' Services
+   4. Coordinate with VSO Liaison for Batch 1 outreach 
 
 ## Sprint 10 Demos
 TBD
@@ -45,10 +65,70 @@ TBD
 |Update 21-22 PDF generation to fill field 16A|https://github.com/department-of-veterans-affairs/va.gov-team/issues/132318|Sprint Backlog|3|
 
 **Team Benefits**
+|Title                                                                          |URL                                                                        |Status        |Estimate|
+|-------------------------------------------------------------------------------|---------------------------------------------------------------------------|--------------|--------|
+|Claimant Lifecycle - Create Stakeholder Presentation and Archive Materials     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/127486|Done          |        |
+|Explore potential uses of shared web component library                         |https://github.com/department-of-veterans-affairs/va.gov-team/issues/129883|QA            |SPIKE   |
+|Update breadcrumb for ARP Home                                                 |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132591|QA            |1       |
+|URL Update: Redirect `/representative-form-upload` to `/submissions`           |https://github.com/department-of-veterans-affairs/va.gov-team/issues/126266|External Review|3       |
+|ADE Finding: Hamburger menu obscures focusable elements at high zoom           |https://github.com/department-of-veterans-affairs/va.gov-team/issues/131714|External Review|5       |
+|ADE Finding: aria-label removal in "Start the submission"                      |https://github.com/department-of-veterans-affairs/va.gov-team/issues/131723|PR Review     |1       |
+|ADE Finding: Invisible "sort ordering" field accesible to iOS + VO users       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/131774|PR Review     |1       |
+|Remove Unused "UserAccountAccreditedIndividual"                                |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132131|PR Review     |3       |
+|Datadog: POA Rep Request Accept/Decline Counter Metrics                        |https://github.com/department-of-veterans-affairs/va.gov-team/issues/129484|Blocked       |3       |
+|Bug: Representatives are unable to accept a Representation Requests            |https://github.com/department-of-veterans-affairs/va.gov-team/issues/125608|In Progress   |SPIKE   |
+|Claimant Lifecycle - Finalize Report                                           |https://github.com/department-of-veterans-affairs/va.gov-team/issues/127485|In Progress   |8       |
+|Claimant Lifecycle - Process Flow Diagrams                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/128515|In Progress   |8       |
+|Fieldset updates for form(s)                                                   |https://github.com/department-of-veterans-affairs/va.gov-team/issues/131012|In Progress   |8       |
+|Feature Flag Cleanup: accredited_representative_portal_email_delivery_callback |https://github.com/department-of-veterans-affairs/va.gov-team/issues/121878|Sprint Backlog|2       |
+|Job for setting `delete_date` field on `AccreditedRepresentativePortal::SavedClaim::BenefitsIntake` Records|https://github.com/department-of-veterans-affairs/va.gov-team/issues/125805|Sprint Backlog|3       |
+|Draft content for email template for confirmation of a successful ITF          |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132036|Sprint Backlog|3       |
+|ADE Finding: Insufficient color contrast on menu button in active state        |https://github.com/department-of-veterans-affairs/va.gov-team/issues/131711|Sprint Backlog|1       |
+|ADE Finding: Menu options aren't selectable + improve keyboard interaction     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/131739|Sprint Backlog|5       |
+|ADE Finding: Announcements cut off / require multiple swipes on iOS + VoiceOver|https://github.com/department-of-veterans-affairs/va.gov-team/issues/131743|Sprint Backlog|3       |
+|Request post-launch 508 Office Audit Request for ITF                           |https://github.com/department-of-veterans-affairs/va.gov-team/issues/130637|Sprint Backlog|3       |
+|Create feature flag for Claimant Details MVP                                   |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132590|Sprint Backlog|2       |
+|Claimant Overview tab: Established POA                                         |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132594|Sprint Backlog|        |
+|Submissions History tab: No Submissions                                        |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132598|Sprint Backlog|        |
+|Benefits Delivery at Discharge &#124; Engineering Discovery                         |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132602|Sprint Backlog|SPIKE   |
+|Desk Research Review Synthesis                                                 |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132672|Sprint Backlog|2       |
+|Address open questions for Claimant Details MVP                                |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132600|~Ready for Refinement|        |
+
+
 
 **Team Appoint**
+|Title                                                                                                      |URL                                                                        |Status               |Estimate|
+|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------|--------|
+|Adjust Find a Rep v3 designs based on Midpoint Review feedback                                             |https://github.com/department-of-veterans-affairs/va.gov-team/issues/130490|Done                 |5       |
+|21-22a PDF generation error -- rep was missing zip code                                                    |https://github.com/department-of-veterans-affairs/va.gov-team/issues/113487|In Progress          |SPIKE   |
+|General Onboarding to VA [Tyler]                                                                           |https://github.com/department-of-veterans-affairs/va.gov-team/issues/129773|In Progress          |5       |
+|General Onboarding to VA [Mia]                                                                             |https://github.com/department-of-veterans-affairs/va.gov-team/issues/130611|In Progress          |5       |
+|21-22a desk research: Review past research for the 21-22a representation request process (Lena)            |https://github.com/department-of-veterans-affairs/va.gov-team/issues/131980|In Progress          |5       |
+|21-22a desk research: Synthesis and reporting (Lena)                                                       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/131983|In Progress          |3       |
+|Product Onboarding to ARC [Mia]                                                                            |https://github.com/department-of-veterans-affairs/va.gov-team/issues/130613|Sprint Backlog       |3       |
+|Create Architecture Intent artifacts for Find a Rep v3                                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/130497|Sprint Backlog       |5       |
+|Update rep definition content and "use my location" placement                                              |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132319|Sprint Backlog       |3       |
+|Update sort UI and behavior                                                                                |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132320|Sprint Backlog       |3       |
+|Search Results: Move distance below rep name and ensure accessibility                                      |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132321|Sprint Backlog       |2       |
+|Search Results: Add icons                                                                                  |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132322|Sprint Backlog       |2       |
+|Create a Feature Flag for Find v3 org filter addition                                                      |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132387|Sprint Backlog       |3       |
+|Bug &#124; Profile &#124; Accredited rep widget &#124; Incorrect data showing for Staging Test User                       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/118478|Sprint Backlog       |SPIKE   |
+|OGC Policy Review &#124; VA Subject matter expert interviews: 21-22a VA policies and processes                  |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132678|Sprint Backlog       |3       |
+|SME Research Plan & Convo Guide &#124; VA Subject matter expert interviews:  21-22a VA policies and processes   |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132680|Sprint Backlog       |3       |
+|VA Subject matter expert interviews:  21-22a VA policies and processes                                     |https://github.com/department-of-veterans-affairs/va.gov-team/issues/129731|Sprint Backlog       |8       |
+
 
 **Engagement**
+|Title                                                                          |URL                                                                        |Status        |Estimate|
+|-------------------------------------------------------------------------------|---------------------------------------------------------------------------|--------------|--------|
+|Coordinate with VSO Liaison for Batch 1 outreach                               |https://github.com/department-of-veterans-affairs/va.gov-team/issues/126514|Blocked       |1       |
+|[ Colorado Division of Veteran Affairs ] Coordinate bulk contact info update   |https://github.com/department-of-veterans-affairs/va.gov-team/issues/129150|Blocked       |2       |
+|[ NACVSO ] Generate spreadsheet with single accredited reps with missing emails|https://github.com/department-of-veterans-affairs/va.gov-team/issues/128282|In Progress   |2       |
+|Investigate shared support mailbox                                             |https://github.com/department-of-veterans-affairs/va.gov-team/issues/129595|Sprint Backlog|2       |
+|[ Arizona Department of Veterans' Services ] Send second follow-up email       |https://github.com/department-of-veterans-affairs/va.gov-team/issues/124870|Sprint Backlog|1       |
+|[ Fleet Reserve Association ] Generate spreadsheet with missing emails         |https://github.com/department-of-veterans-affairs/va.gov-team/issues/130969|Sprint Backlog|2       |
+|[ Catholic War Veterans of America ] Generate missing email spreadsheet        |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132616|Sprint Backlog|2       |
+|[ American Legion ] Generate missing email spreadsheet                         |https://github.com/department-of-veterans-affairs/va.gov-team/issues/132729|Sprint Backlog|3       |
 
 
 # Sprint 9 (Jan 27-Feb 09, 2026)
