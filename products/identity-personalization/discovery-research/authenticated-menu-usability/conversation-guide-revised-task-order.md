@@ -1,3 +1,36 @@
+---
+title: "Conversation Guide for [Team, Product, Date]"
+author: "[AUTHOR NAME]"
+date_created: "[YYYY-MM-DD]"
+last_modified: "[YYYY-MM-DD]"
+
+# NEW: Core research metadata
+team: "[TEAM NAME]"
+portfolio: "[benefits|health|digital-experience|bam]"
+product: "[PRODUCT NAME]"
+research_phase: "[discovery|validation|usability|evaluative]"
+research_method: "[moderated_interview|usability_test|card_sort|etc]"
+
+# NEW: Session details
+session_duration: "[X minutes]"
+session_type: "[remote_moderated|remote_unmoderated|in_person]"
+participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+
+# NEW: Related documents
+related_research_plan: "[path/to/research-plan.md]"
+related_prototype: "[URL or N/A]"
+
+tags:
+  - "[Tag1]"
+  - "[Tag2]"
+description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide (Revised) for Authenticated Experience, Authenticated Menu, January 2024
 
 **Note:** Midway through our study, we revised the order of tasks to try to determine if our research protocol is impacting people's ability to find the authenticated menu. The sessions for P7, P8, and P12 used this conversation guide.  We extended our study and decided to remove the task to find letters, since that could be in so many various parts of the site, and we wanted to focus remaining sessions on the auth menu. Sessions for P13-P16 used [this version](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/discovery-research/authenticated-menu-usability/conversation-guide-revised-removed-task.md) of the guide.

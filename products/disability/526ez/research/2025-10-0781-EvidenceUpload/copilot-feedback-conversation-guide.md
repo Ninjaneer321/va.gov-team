@@ -1,3 +1,36 @@
+---
+title: "Conversation Guide for [Team, Product, Date]"
+author: "[AUTHOR NAME]"
+date_created: "[YYYY-MM-DD]"
+last_modified: "[YYYY-MM-DD]"
+
+# NEW: Core research metadata
+team: "[TEAM NAME]"
+portfolio: "[benefits|health|digital-experience|bam]"
+product: "[PRODUCT NAME]"
+research_phase: "[discovery|validation|usability|evaluative]"
+research_method: "[moderated_interview|usability_test|card_sort|etc]"
+
+# NEW: Session details
+session_duration: "[X minutes]"
+session_type: "[remote_moderated|remote_unmoderated|in_person]"
+participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+
+# NEW: Related documents
+related_research_plan: "[path/to/research-plan.md]"
+related_prototype: "[URL or N/A]"
+
+tags:
+  - "[Tag1]"
+  - "[Tag2]"
+description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 Summary judgment
 - Short answer: The conversation guide mostly supports the research-plan goals and hypotheses, especially Goals 1 (instructional content), 2 (visual hierarchy) and 3 (navigation through upload sections). It has good task flow through orientation → upload → summary pages and built-in probes for many interaction areas.  
 - However, it needs targeted additions and tighter, measurable tasks and probes to reliably answer specific research questions and hypotheses (particularly to confirm "three steps" understanding, to evaluate the usefulness of external links, to measure mental models for categorization, and to surface accessibility issues and emotional/cognitive load). It also needs explicit accessibility and distress-handling steps and a few clearer tasks that force discovery of interactive elements (accordions, additional info, external links), mobile/assistive-technology scenarios, and post-task confidence ratings.

@@ -1,3 +1,36 @@
+---
+title: "Conversation Guide for [Team, Product, Date]"
+author: "[AUTHOR NAME]"
+date_created: "[YYYY-MM-DD]"
+last_modified: "[YYYY-MM-DD]"
+
+# NEW: Core research metadata
+team: "[TEAM NAME]"
+portfolio: "[benefits|health|digital-experience|bam]"
+product: "[PRODUCT NAME]"
+research_phase: "[discovery|validation|usability|evaluative]"
+research_method: "[moderated_interview|usability_test|card_sort|etc]"
+
+# NEW: Session details
+session_duration: "[X minutes]"
+session_type: "[remote_moderated|remote_unmoderated|in_person]"
+participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+
+# NEW: Related documents
+related_research_plan: "[path/to/research-plan.md]"
+related_prototype: "[URL or N/A]"
+
+tags:
+  - "[Tag1]"
+  - "[Tag2]"
+description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Discussion Guide for Mobile App MVP UAT
 ## Introduction & Logistics (5 minutes)
 Thank you for joining us today. My name is [Bridget/Jen/Melissa]. To give you some background, the VA has built a mobile app, and today we’d like to test it out with you. We're not looking to test you, but test the app we built to see if sign in works and that your information is displaying correctly. I will be your guide, and I also want to introduce [ENGINEER], who is one of the engineers on the project. They are going to follow along and may jump in if something doesn't work as expected and need to get some further details. I also have a few other colleagues on the line observing and taking notes. 
