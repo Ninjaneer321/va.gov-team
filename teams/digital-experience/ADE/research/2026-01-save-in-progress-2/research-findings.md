@@ -250,7 +250,7 @@ While looking at the page again at the end of the research session, participants
 > **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
 
 ### Finding 2: Most participants assumed that saving happened only after selecting "Finish later" or submitting the form.
-After participants finished filling out the form, we asked when they thought their information was saved. Most participants (6 of 7) said only after selecting the "Finish later" or "Submit" button. **Most skipped or forgot the interstitial page that said their information gets saved automatically.** When we told participants that VA form information is saved automatically, they were pleasantly surprised. Maybe it's OK if people don't know that saving is happening automatically, as long as they're glad to not be losing information they already entered.
+After participants finished filling out the form, we asked when they thought their information was saved. Most participants (6 of 7) said only after selecting the "Finish later" or "Submit" button. **Most skipped or forgot the interstitial page that said their information gets saved automatically.** When we told participants that VA form information is saved automatically, they were pleasantly surprised because they didn't want to lose their work. Maybe it's OK if people don't know that saving is happening automatically, as long as they're glad to not be losing information they entered.
 
 - _Supporting data: Quote [add context]_  
 
@@ -276,7 +276,12 @@ Two participants didn't notice the "Expand all" link, one of whom said that the 
 
 
 ### Finding 5: XX had some accessibility issues ...
----
+
+### Finding 6: Participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted. 
+
+Most participants (6 of 7) assumed that after 60 days, their saved form data would be deleted. **Almost everyone wanted to be notified before that via email and/or text**, with one participant mentioning a notification in the VA mobile app. Most people suggested the first notification should be within 1-7 days of having selected "Finish later", and then once a week after that. 
+
+Eight participants said they asked wanted to be able to delete a form they started but never finished. Reasons provided included finding out that you no longer need to submit that form, you already submitted it, or it was the wrong form. 
 
 ## Additional Insights
 *Include insights that do not represent patterns but are still valuable.*  
