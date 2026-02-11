@@ -52,7 +52,7 @@
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 14 is to find a resolution to the EZ Intro page looping issue and set up connection with API for service history.**
+- **The goal for Sprint 14 is to find a resolution to the EZ Intro page looping issue and validate connection with API for service history.**
 
 #### List of Planned work
 - EZ BUG
