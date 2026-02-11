@@ -14,6 +14,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate sprint section and insert into file
+        env:
+          GH_TOKEN: ${{ secrets.PROJECT_TOKEN }}
         run: |
           FILE="products/accredited-representative-crew/arc-sprint-tracker-test.md"
           MARKER="<!-- NEW_SPRINT_HERE -->"
@@ -45,6 +47,96 @@ jobs:
             DATE_RANGE="${START_MONTH} ${START_DAY} - ${END_MONTH} ${END_DAY}, ${YEAR}"
           fi
 
+          # ── Fetch issues from GitHub Project ─────────────────────────────
+          echo "Fetching issues for Sprint ${NEXT_SPRINT} from GitHub Project..."
+          
+          # GraphQL query to get project items with custom fields
+          QUERY=$(cat <<'GRAPHQL'
+          {
+            organization(login: "department-of-veterans-affairs") {
+              projectV2(number: 1809) {
+                items(first: 100) {
+                  nodes {
+                    content {
+                      ... on Issue {
+                        title
+                        number
+                        url
+                      }
+                    }
+                    fieldValues(first: 20) {
+                      nodes {
+                        ... on ProjectV2ItemFieldSingleSelectValue {
+                          name
+                          field {
+                            ... on ProjectV2SingleSelectField {
+                              name
+                            }
+                          }
+                        }
+                        ... on ProjectV2ItemFieldTextValue {
+                          text
+                          field {
+                            ... on ProjectV2Field {
+                              name
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          GRAPHQL
+          )
+
+          # Execute GraphQL query
+          RESPONSE=$(gh api graphql -f query="$QUERY" 2>/dev/null || echo '{"data":null}')
+          
+          # Parse response and group by AR Team for current and next sprint
+          ISSUES_JSON=$(echo "$RESPONSE" | jq -r --arg sprint "Sprint ${NEXT_SPRINT}" --arg next_sprint "Sprint ${AFTER_SPRINT}" '
+            .data.organization.projectV2.items.nodes[] |
+            select(.content != null) |
+            {
+              title: .content.title,
+              number: .content.number,
+              url: .content.url,
+              sprint: (.fieldValues.nodes[] | select(.field.name == "Sprint") | .name // .text // ""),
+              team: (.fieldValues.nodes[] | select(.field.name == "AR Team") | .name // .text // "")
+            } |
+            select(.sprint == $sprint or .sprint == $next_sprint) |
+            select(.team != "")
+          ')
+
+          # Get unique team names
+          TEAMS=$(echo "$ISSUES_JSON" | jq -r '.team' | sort -u)
+
+          # Build issue lists grouped by team
+          declare -A TEAM_ISSUES
+          while IFS= read -r team; do
+            if [ -n "$team" ]; then
+              TEAM_ISSUES["$team"]=$(echo "$ISSUES_JSON" | jq -r --arg team "$team" 'select(.team == $team) | "1. [\(.title)](#\(.number))"')
+            fi
+          done <<< "$TEAMS"
+
+          # ── Build team-specific goal sections ────────────────────────────
+          GOALS_SECTION=""
+          for team in "${!TEAM_ISSUES[@]}"; do
+            GOALS_SECTION+="\n### ${team}\n\n"
+            if [ -n "${TEAM_ISSUES[$team]}" ]; then
+              GOALS_SECTION+="${TEAM_ISSUES[$team]}\n"
+            fi
+            GOALS_SECTION+="\n"
+          done
+
+          # If no issues found or API failed, use default teams
+          if [ -z "$GOALS_SECTION" ]; then
+            echo "Warning: Could not fetch issues from GitHub Project. Using default team structure."
+            GOALS_SECTION="\n### Team Benefits\n\n### Team Appoint\n\n### Engagement\n\n"
+          fi
+
           # ── Build the new sprint block ───────────────────────────────────
           SPRINT_BLOCK="\
           \n\
@@ -53,14 +145,10 @@ jobs:
           ## Sprint ${NEXT_SPRINT} Goals\n\
           \n\
           - [ ] Sprint Goals Approved by Enablement\n\
-          \n\
-          ### Team Benefits\n\
-          \n\
-          ### Team Appoint\n\
-          \n\
-          ### Engagement\n\
-          \n\
+          ${GOALS_SECTION}\
           ## Sprint ${NEXT_SPRINT} Demos\n\
+          \n\
+          ### Team Accreditation\n\
           \n\
           ### Team Benefits\n\
           \n\
@@ -81,6 +169,8 @@ jobs:
           Carrying into Sprint ${AFTER_SPRINT}:\n\
           \n\
           ## Sprint ${NEXT_SPRINT} Tickets\n\
+          \n\
+          ### Team Accreditation\n\
           \n\
           ### Team Benefits\n\
           \n\
