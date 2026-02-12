@@ -11,11 +11,11 @@ Chapter 36 supports veterans, service members, and eligible dependents seeking *
   - Remain consistent with one another
   - Meet accessibility requirements
   - Align with VA Design System v3
-- Established that paper and online versions are not currently in sync**
+- Established that paper and online versions are not currently in sync
 
 ---
 
-#### 2. [Paper Form Analysis (VA Form 27-8832)](https://www.va.gov/forms/27-8832/))
+#### 2. [Paper Form Analysis (VA Form 27-8832)](https://www.va.gov/forms/27-8832/)
 - Reviewed the full paper form
 - Documented:
   - Benefit overview and eligibility requirements
@@ -28,7 +28,7 @@ Chapter 36 supports veterans, service members, and eligible dependents seeking *
 
 ---
 
-#### 3. [Current Online Experience Audit (Staging)](https://www.va.gov/careers-employment/education-and-career-counseling/apply-career-guidance-form-25-8832/introduction))
+#### 3. [Current Online Experience Audit (Staging)](https://www.va.gov/careers-employment/education-and-career-counseling/apply-career-guidance-form-25-8832/introduction)
 - Walked the end-to-end existing online flow on staging
 - Documented:
   - Entry point and navigation
