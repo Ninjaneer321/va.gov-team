@@ -1,4 +1,4 @@
-# Chapter 31 Handoff Doc - DRAFT
+# Chapter 31 Handoff Doc
 
 Created by: Core Veteran Experiences (CVE) Team
 
