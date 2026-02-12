@@ -1,23 +1,21 @@
 ---
+---
 title: "Research Plan for Financial Management, Pay.gov for Benefit Overpayment Debt Payments, 2026-02-12"
 author: "Risha Lee"
 date_created: "2026-02-12"
 last_modified: "2026-02-12"
 
-# NEW: Core research metadata
 team: "Financial Management"
 portfolio: "benefits"
 product: "Pay.gov for Benefit Overpayment Debt Payments"
 research_phase: "evaluative"
-research_method: "Mixed_methods" "interview" "moderated_usability_test"
+research_method: "mixed_methods|interview|moderated_usability_test"
 
-# NEW: Session details
 session_duration: "75 minutes"
 session_type: "remote_moderated"
 participant_criteria: "Veterans with a VA benefit overpayment debt balance in the last year, comfortable discussing personal finances, and willing to share their screen (including some assistive technology users)."
 
-# NEW: Related documents
-related_research_plan: "products/Debt Resolution/pay.gov/Pay.gov for Benefit Overpayment Debt Payments/research/research-plan.md"
+related_research_plan: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/research/research-plan.md"
 related_prototype: "N/A"
 
 tags:
@@ -44,16 +42,13 @@ tags:
   - "HDW: Desktop"
   - "HDW: Laptop"
   - "HDW: Smartphone"
-description: "A remote, moderated conversation guide to understand Veterans’ payment behaviors and evaluate the usability, comprehension, and trust of the VA.gov to Pay.gov hosted collection page flow for benefit overpayment debt payments (full vs partial payment, payment method selection, payment entry, review, and confirmation)."
 
-# NEW: Compliance flags
+description: "A remote, moderated research study to understand Veterans’ payment behaviors and evaluate the usability, comprehension, and trust of the VA.gov to Pay.gov hosted collection page flow for benefit overpayment debt payments (full vs partial payment, payment method selection, payment entry, review, and confirmation)."
+
 recording_required: true
 observer_support: true
 consent_for_clips: true
 ---
-	# Research Plan for Financial Management Team, Pay.gov for overpayment debt benefits, February 2026]
-> [!NOTE]
-> *Questions about how to set up your research study? Reach out in the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel.* 
 
 ## Background 🏗️
 <details><summary>Briefly describe the background of your product.</summary>
