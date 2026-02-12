@@ -296,7 +296,7 @@ Please select the statement(s) that apply to you: (Check all that apply)
 
 Quotas:
 
-* Aim for at least 5-6 of 10 participants to have been on payment plans
+* Aim for at least 5-6 of 10 participants to have experienced financial hardship
 
 
 Screener question 5
