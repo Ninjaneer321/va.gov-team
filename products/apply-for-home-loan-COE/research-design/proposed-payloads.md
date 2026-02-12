@@ -75,7 +75,8 @@ Suggested:
     "email": {
       "emailAddress": "test@user.com"
     },
-  }
+  },
+  version: 2
 ```
 
 ## Step 2: Military history
