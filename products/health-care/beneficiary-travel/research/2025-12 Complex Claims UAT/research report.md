@@ -342,7 +342,7 @@ The focus of our UAT was to specifically ensure that complex claims was function
 
 *Summarize actionable recommendations based on findings.*  
 
-1. **Recommendation:** Due to system limitations, there are some issues with routing we need to consider, but we will re-evaluate the breadcrumbs and work with Platform IA in order to improve the navigation. 
+1. **Recommendation:** Due to the different entry points into complex claims, there are some issues with routing we need to consider, but we will re-evaluate the breadcrumbs and work with Platform IA in order to improve the navigation. 
 
 2. **Recommendation:** Audit input fields and ensure that each has a concise and accurate label and hint text. Work with stakeholders to provide valuable hint text language for fields where it is missing.
 
