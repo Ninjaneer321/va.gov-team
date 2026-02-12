@@ -2,7 +2,7 @@
 
 ## Overview
 
-The VASS (Virtual Agent Scheduling System) module implements comprehensive metrics tracking using Datadog's StatsD client for performance monitoring, error analysis, and operational visibility.
+The VASS module implements comprehensive metrics tracking using Datadog's StatsD client for performance monitoring, error analysis, and operational visibility.
 
 **Total Metrics**: 24 (14 controller + 10 infrastructure)
 
