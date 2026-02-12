@@ -1,11 +1,16 @@
 # Testing with pre-release app version: iOS
 
 
+- _No preparation required from participants._
+- _The moderator will facilitate the full installation and configuration at the start of the session._
+- _Participants do not provide email addresses prior to the session._
+
+
 ## Preparation
 
 
 
-1. Request public TestFlight install link from mobile engineering ([sample one for practice](https://testflight.apple.com/join/peHBN4k9))
+1. Request public TestFlight install link from mobile engineering
 
 
 ## Install and set-up
