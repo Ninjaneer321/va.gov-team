@@ -16,7 +16,7 @@ If you do not have not have terminal access, you must first fill out the [vets-a
 
 1. You can use the syntax below to create a new record in the `maintenance_windows` table:
    ```ruby
-     maintenance_window = MaintenanceWindow.create!(start_time: Time.current, end_time: 15.minutes.from_now)
+     maintenance_window = MaintenanceWindow.create!(start_time: Time.current, end_time: 15.minutes.from_now, description: 'AskVA maintenance window')
    ```
 
 1. Confirm the record persists:
