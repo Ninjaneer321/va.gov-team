@@ -14,9 +14,9 @@ Existing test rail cases were tested
 ## Test Rail
 The following test rail test cases have been created to document how to test side nave functionality:
 
-Testing the New Conditions flow: https://dsvavsp.testrail.io/index.php?/cases/view/158933
-Testing CFI flow: https://dsvavsp.testrail.io/index.php?/cases/view/158934
-Testing Save in progress form and resumption: https://dsvavsp.testrail.io/index.php?/cases/view/158935
+- [Testing side nav with New Conditions flow](https://dsvavsp.testrail.io/index.php?/cases/view/158933)
+- [Testing side nav with CFI flow](https://dsvavsp.testrail.io/index.php?/cases/view/158934)
+- [Testing side nav with Save in progress form and resumption](https://dsvavsp.testrail.io/index.php?/cases/view/158935)
 
 
 ## Additional resources - Bug Bash
