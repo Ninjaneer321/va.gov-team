@@ -1,3 +1,4 @@
+
 ---
 title: "Conversation Guide for Financial Management, Pay.gov for Benefit Overpayment Debt Payments, 2026-02-12"
 author: "Risha Lee"
@@ -9,7 +10,7 @@ team: "Financial Management"
 portfolio: "benefits"
 product: "Pay.gov for Benefit Overpayment Debt Payments"
 research_phase: "evaluative"
-research_method: "usability_test"
+research_method: "moderated_interview"
 
 # NEW: Session details
 session_duration: "75 minutes"
@@ -21,20 +22,26 @@ related_research_plan: "products/Debt Resolution/pay.gov/Pay.gov for Benefit Ove
 related_prototype: "N/A"
 
 tags:
-  # Audience / benefit / product
   - "AUD: Veterans"
   - "BNFT: Finances"
   - "PRDT: Debt-portal"
-
-  # Methodology / themes inferred from the guide structure and question types
-  - "usability-testing"
   - "moderated-interview"
-
-  # Components & patterns implicitly tested by the tasks in the payment flow
+  - "usability-testing"
   - "DSC: Form"
   - "DSC: Form - Radio Button"
   - "DSC: Checkbox"
-  - "DSC:
+  - "DSC: Button"
+  - "DSC: Alert Boxes"
+  - "DSP: Form Templates"
+  - "DSP: Help users to check answers"
+  - "Accessibility"
+
+description: "Moderated remote interview with embedded usability tasks to understand Veterans’ payment behaviors and evaluate the VA.gov-to-Pay.gov benefit overpayment debt payment flow (including payment method selection, data entry, review, and confirmation)."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 
 
