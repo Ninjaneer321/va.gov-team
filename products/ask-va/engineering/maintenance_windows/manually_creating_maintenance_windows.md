@@ -10,7 +10,7 @@ If you do not have not have terminal access, you must first fill out the [vets-a
 
 1. Follow the steps outlined in the [VA Platform Developer Docs](https://depo-platform-documentation.scrollhelp.site/developer-docs/vets-api-on-eks#VetsAPIonEKS-Access) for accessing your target environment (e.g. vets-api-staging) and starting a rails console session.
 
-1. Use a standard `bundle exec rails c`. Do not pass the `--sandbox` flag as this will not save the record.
+1. Use a standard rails console `bundle exec rails c`. Do not pass the `--sandbox` flag as this will not save the record.
 
 ### Creating a maintenance window record
 
