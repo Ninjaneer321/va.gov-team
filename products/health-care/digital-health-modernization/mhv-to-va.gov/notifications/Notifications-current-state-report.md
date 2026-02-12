@@ -22,7 +22,9 @@ This report documents what we know and understand about notifications that route
 What notifications do users already get?
 * You have an upcoming VA appt
   * Email:
-  * Text message:  
+  * Text message:
+ 
+* Pre-check in and Check-in (VistA only) - when those facilities roll over to OH, these will go away & some other interim solution will kick-in. 
  
 Questions:
   * Community care notifications? 
@@ -35,25 +37,41 @@ Resources:
 * VeText has a nice sharepoint that we will look at next with more product documentation. Robyn is messaging the team right now for a link. 
 
 ## Messages
-What notifications do users already get?
-* Welcome to SM email notification: triggered when someone becomes eligible for SMs.
+What notifications do users already get? (AUTOMATIC)
+* Welcome to SM email notification: triggered when someone becomes eligible for SM (VistA)
   * Email:
   * Text message:
   * Not totally sure on the logic for that but SM BE team would know.
-* You have a new message - [triggered when have a new message]
+* You have a new message - [triggered when have a new message] (AUTOMATIC + cannot opt out)
   * Email:
   * Text message:
+ 
+Notes: 
+* notifications also get triggered when a Veteran becomes eligible for messages
 
 ## Medications
-* You have 1 medication shipped
+* You have 1 medication shipped (VistA + OH) 
   * Email:
   * Text message:
-* You have multiple medications shipped
+* You have multiple medications shipped (VistA + OH) 
+
+Notes: 
+* CBOC = central meds distribution center. some % of meds are sent from here, some from elsewhere.
+* Facilities themselves send others, but email notifications are only triggered for meds sent by CBOC
+* And text notifications are only for those triggered by facility, but only for those facilities that are turned on.
+* In this this venn diagram some folks get no notifications b/c they go to a facility that doesn't have notifications turned on. And if the medication is shipped by facility (not CBOC) they wouldn't get notified.
 
 ## Medical records 
-* Your medical image successfully downloaded. Go to look at it.
+* Your medical image successfully downloaded. Go to look at it. (VistA + OH)
+  * User-reaction notification (based on if a user requested the records to be downloaded from the MHV front-end)  
   * Your medical image did not successfully download. Try again.
-  * (OH only) Will have a "you have a L&T record - go there now". _Other clinical events are eligible but just starting with that one._
+* (OH only) Will have a "you have a L&T record - go there now". _Other clinical events are eligible but just starting with that one._
+
+Notes: 
+* Had to move fast, so avoided VA Profile and made it non-opt-outable
+* Cannot opt out of L&T result notification
+* Had to aggressively de-identify it, so the content is just "you have a thing, go here to see it" - super generic.
+* The only way it is helpful is to drop htem on specific details page for the actual thing. Mike Moyer figured it out & we are able to deep link users to their literal new thing. Want to repeat this for all other new events across MR domains. 
 
   ## Travel pay
 
