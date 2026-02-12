@@ -163,20 +163,20 @@ Are there moments that matter?</summary>
 
 ### Goals
 
-`1.` **[Understand Veterans’ needs, expectations, and preferences for making payments]**
+`1.` **Understand Veterans’ needs, expectations, and preferences for making payments, specifically a)financial management behaviors b)decision making around amounts and timelines c) interest and challenges in automatic/recurring payments**
 
-`2.` **[Test the usability of the Veteran’s overpayment debt experience in viewing and selecting full or partial payment]**
+`2.` **Test the usability of the Veteran’s overpayment debt experience in end to end flow testing (debt summary → details → resolve → choose payment option → Pay.gov HCP → confirmation)**
   
 ### Outcomes
 `How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
 
 ---
 * Determine how to iterate [VA.gov](http://VA.gov) pages to improve the payment experience for Veterans prior to build and release  
-* Advance user-centered digital strategy for delivering future payment features and functionality  
+* Advance user-centered digital strategy for delivering future payment features and functionality 
 * Gain foundational understanding of Veteran payment needs and preferred methods  
 * Decrease rate of drop off due to Veteran frustration with manual data entry   
 * Increase online payment transactions and decrease analog payment transactions  
-* Increase Veteran confidence that payment has been received
+* Evaluate trust/confidence during the VA.gov --> Pay.gov transition and at confirmation
 
 ---
 
@@ -190,19 +190,28 @@ Are there moments that matter?</summary>
   
 `Does this question serve the goals of my study?`
 
-**`1.`[What are Veterans’ current workflows and mental models for making payments on VA.gov?]**
+**`1.`What are Veterans’ current workflows and mental models for making payments on VA.gov?**
 
-**`2.`[What other comparable payment experiences do they prefer? Why?]**
+**`2.`What other comparable payment experiences do they prefer? Why?**
 
-**`3.`[What challenges or pain points do Veterans encounter in the current experience?]**
+**`3.`What challenges or pain points do Veterans encounter in the current experience?**
 
-**`4.`[How easy is it to read and comprehend the pages?]**
+**`4.`How easy is it to read and comprehend the pages?**
 
-**`5.`[Which aspects of the layout are most and least effective and why?]**
+**`5.`Which aspects of the layout are most and least effective and why?**
 
-**`6.`[How does the experience compare to what they expected?]**
+**`6.`How does the experience compare to what they expected?**
 
-**`7.`[How confident and secure do they feel in the payment process?]**
+**`7.`How confident and secure do they feel in the payment process? What creates confidence?**
+
+**`8.`What factors influence Veterans’ decisions on payment amount/timeline (full vs partial vs plan)?**
+
+**`9.`Do Veterans want recurring/auto-pay options? What trust/controls would they need?**
+
+**`10.`Do Veterans notice/understand the transition and does it impact trust?**
+
+**`11.`What parts of the flow are hardest to navigate with screen reader/magnifier and Zoom screen share?**
+
 
 > [!TIP]
 >Enter more questions as needed
@@ -223,10 +232,10 @@ Are there moments that matter?</summary>
 
 ---
 
-**[* Veterans will prefer the more streamlined experience of hosted collection pages, including pre-populated account details and staying within the same browser  
-* Veterans will not have difficulty deciding whether to make a partial or full payment  
+* Veterans will prefer the more streamlined experience of hosted collection pages, including pre-populated account details and staying within the same browser  
+* Veterans will be able to understand the difference between full and partial payment options and make a selection; if they hesitate or are unsure, we will identify what decision support (content, examples, explanations of consequences, or links to payment plans/financial help) is needed. 
 * Veterans will feel confident and secure that their payment has has been received in the new experience  
-* Veterans will want more diverse payment methods for submitting payments, including recurring payments]** 
+* Veterans will want more diverse payment methods for submitting payments, including interest in recurring payments and autopay 
 
 ---
   
