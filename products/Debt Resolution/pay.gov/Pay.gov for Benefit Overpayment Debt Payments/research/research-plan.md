@@ -184,11 +184,9 @@ The new experience spans VA.gov auth pages with Pay.gov Hosted Collection Pages 
   
 `What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
-**[Enter answer here]**
+**As described above, this iterates and improves upon the existing payment journey, to now include the ability to seamlessly process a payment for an overpayment debt directly from the va.gov experience without needing to navigate to a different site.**
 
-As described above, this iterates and improves upon the existing payment journey, to now include the ability to seamlessly process a payment for an overpayment debt directly from the va.gov experience without needing to navigate to a different site. 
-
-**[Link to product brief]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/product%20outline.md)).**
+**[Link to product brief]([(https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/product%20outline.md)]).**
 
 ### Related Research 🔍
 
@@ -205,11 +203,11 @@ As described above, this iterates and improves upon the existing payment journey
 > 4. Review the suggested studies and add the most relevant ones below
 
 **Previous Studies:**
-- [Mobile Feature Support, Debt Portal: Overpayments and Copayments (Mobile app), May 2025]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/research-plan.md))
-- [Mobile Feature Support, One VA Debt Letter in mobile app, Nov–Dec 2025]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/one_va_debt_letter/mobile/research-findings.md))
-- [Financial management, debt portal copays, October-November 2025]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability/research-plan.md))
-- [Financial management, debt portal copays, October 2024]([url goes here]((https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2024-9-copay-usability/research-plan.md)
-- [Financial management, debt portal overpayments, June-July 2024]([url goes here]([https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability/research-plan.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2024-6-overpayment-usability/research-plan.md)))
+- [Mobile Feature Support, Debt Portal: Overpayments and Copayments (Mobile app), May 2025](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/research-plan.md)
+- [Mobile Feature Support, One VA Debt Letter in mobile app, Nov–Dec 2025](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/one_va_debt_letter/mobile/research-findings.md)
+- [Financial management, debt portal copays, October-November 2025](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability/research-plan.md)
+- [Financial management, debt portal copays, October 2024](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2024-9-copay-usability/research-plan.md)
+- [Financial management, debt portal overpayments, June-July 2024](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2024-6-overpayment-usability/research-plan.md)
 
 **Key Takeaways from Previous Research:**
 - `Cross-site redirects create high risk for confusion and drop-off, especially when Veterans have to leave the “primary” experience (e.g., app or VA.gov) to complete actions on pay.va.gov / Pay.gov; prior mobile debt research anticipated that Veterans would find redirection confusing and feel friction when completing tasks outside the originating experience.
@@ -389,7 +387,7 @@ Where will you be holding the research sessions? Be sure to include whether this
 Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
 
 **For moderated usability tests:** 
-- [Link to conversation guide]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/research/conversation-guide.md))
+- [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/research/conversation-guide.md)
 - [Link to prototype](url goes here)
 
 	
