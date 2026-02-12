@@ -6,18 +6,35 @@ This report documents what we know and understand about notifications that route
 * What content or language do we use in those notifications today?
 * What hyperlinks, buttons, or CTAs are in those notifications? And where exactly do they route users?
 
-  ## On this page
+## On this page
 
   ## Notification settings in Profile
-  To review, there are opt-in notification settings for each health tool in the VA Profile. Secure Messages, however, is automatic and users cannot opt-out, so it is not listed on this page. This is also consistent on the My VA Health portal.  
+  To review, there are opt-in notification settings for each health tool in the VA Profile. Secure Messages, however, is automatic and users cannot opt-out, so it is not listed on this page.
+  
+  <img width="363" height="260" alt="Screenshot 2026-02-11 at 4 10 59 PM" src="https://github.com/user-attachments/assets/19361a2d-fdb8-4db3-b39a-37e2bb405dae" />
 
-  ## Appointments
+## Appointments
+  * You have an upcoming VA appt
+ 
+Questions:
+  * community care notifications? 
+
+Resources:
+  * [Appts notifications service blueprint](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/products/health-care/appointments/research/2021-10-appointment-notifications-service-map/research-findings.md)
 
   ## Messages
+  * Welcome to SM email notification: triggered when someone becomes eligible for SMs.
+    * Not totally sure on the logic for that but SM BE team would know.
+  * You have a new message - triggered when have a new message
 
   ## Medications
+  * You have 1 medication shipped
+  * You have multiple medications shipped
 
   ## Medical records
+  * Your medical image successfully downloaded. Go to look at it.
+  * Your medical image did not successfully download. Try again.
+  * (OH only) Will have a "you have a L&T record - go there now". _Other clinical events are eligible but just starting with that one._
 
   ## Travel pay
 
