@@ -46,12 +46,8 @@
     * On their other device, set microphone and speaker as normal.
 * Technical pre-requisites for participants (for both iOS and Android)
     * **VA Credentials:** You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
-    * **Email Access:** You can open your email directly on your mobile phone to click the test link.
+    * _[Android only]_ **Email Access:** You can open your email directly on your mobile phone to click the test link.
     * **Testing Tools:** You are willing to download TestFlight (iOS) or Firebase App Distribution (Android).
-    * **Storage:** You have at least 200MB of free space.
-    * **Phone operating system version:**
-        * **iPhone:** iOS 16 or newer.
-        * **Android:** Android 12 or newer.
     * **App Replacement:** If you have the standard VA app, the test version will temporarily replace it. (If you don't have the app, it will simply install as a new one). We will help you restore the original version at the end.
-    * **Android Permissions:** You are comfortable allowing your phone to "Install Unknown Apps" within your security settings for this session.
+    * _[Android only]_ **Permissions:** You are comfortable allowing your phone to "Install Unknown Apps" within your security settings for this session.
     * **Connection:** You will be connected to WiFi during our call for a stable download.
