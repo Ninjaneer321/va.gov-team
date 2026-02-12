@@ -5,7 +5,7 @@
 
 
 
-1. Request public Firebase install link from mobile engineering ([sample one for practice)](https://appdistribution.firebase.dev/i/b2288c54d279c68f)
+1. Request public Firebase install link from mobile engineering
 
 
 ## Install and set-up
