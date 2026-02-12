@@ -1,5 +1,5 @@
 # P10
-Participant: (Veteran or Family Member)
+Participant: Family Member, Pineapple First
 
 Notetaker: Tim Shundo @timshundo
 
@@ -22,10 +22,10 @@ Notetaker: Tim Shundo @timshundo
   - Clicks eligibility link, opens new tab
   -   a LOT of information
   -   I would have to see if I were eligible...
-  -   In the prior screen it said "certain critiria" but now I dont see...... *scrolls* oh found it.
-  -   Now it says here that: Youre the spouse... permanently... Your spouse has to be 100% disabled or passed away.
+  -   In the prior screen it said "certain criteria" but now I don't see...... *scrolls* oh found it.
+  -   Now it says here that: You're the spouse... permanently... Your spouse has to be 100% disabled or passed away.
 Back to prototype
-- I assume they're going to ask for my social security number to confirm our eligibilty. I know I'm in the system
+- I assume they're going to ask for my social security number to confirm our eligibility. I know I'm in the system
 - It's helpful to know they'll check our eligibility so I think they'll do that.
 - I personally don't know the whole process or how they know we're eligible
 - I know my partner needs to log into "Homestead" to get paper proof that they are 100% disabled
@@ -52,11 +52,11 @@ Back to prototype
    - Maybe this alert could be at the end of the application because it may make someone hesitant to continue...
    - It says "may not" so I'm just gonna hit continue.
    - I know partner is 100% disabled so I would probably stop and call to make sure everything is fine...
-   - Gonna question DEERS regarding eligibilty, make sure they know partner is 100% disable.
+   - Gonna question DEERS regarding eligibility, make sure they know partner is 100% disable.
    - This alert is not stopping me from applying. I will continue. In the end, there's still a button that says continue, so I will try to continue.
 - Page 4
 - Page 5
-  - Doesnt need additional information
+  - Does not need additional information
   - At this point in your lifetime you know what you are
 - Page 6
   - Yes
@@ -64,7 +64,7 @@ Back to prototype
   - The green check means yes. If you can say yes to the green check, this is saying you can hit continue
   - BUT you can exit the application if the vet isn't eligible for TRICARE.
   - Initially misreads eligibility box
-  - X means he's comfirmed to not be eligible for TRICARE, so they can continue
+  - X means spouse is confirmed to not be eligible for TRICARE, so they can continue
   - THE CONTINUE BUTTON IS STILL THERE SO I'M GONNA HIT CONTINUE
   - OR this page means I need ALL green checks and since there's a red X, I need to exit out.
   - Two routes of interpreting this page!
@@ -79,7 +79,7 @@ Back to prototype
 
 #### Fourth Task: [ELIGIBILITY] 
 - Page 1
-  - They just dont want me to bombard the system with false applications
+  - The VA just doesn't want me to bombard the system with false applications, okay
 - Page 2
   - I'm a spouse this is correct
 - Page 3
@@ -100,8 +100,8 @@ Back to prototype
   - This one I'm confident, no red X's, we're conditioned that Red = bad!
   - Ease of use score: 3/5 (rating both versions of pages)
     - Only because now I see that you can't have TRICARE with this. User error was made.
-    - For me they're both the same, maybe in the eligibility reqs in the beginning, it says you had to be a service member/spouse/dependent whos 100% disabled or passed away, but I dont remember anything that mentioned TRICARE, could be an oversight on my part but that should be plain and clear. You can't double dip with TRICARE and CHAMPVA.
-  - Preference between protoypes: between the two prototypes it was the same, it was just an a-ha moment with the TRICARE question. I got two different results only because of lack of understanding of TRICARE.
+    - For me they're both the same, maybe in the eligibility reqs in the beginning, it says you had to be a service member/spouse/dependent who's 100% disabled or passed away, but I don't remember anything that mentioned TRICARE, could be an oversight on my part but that should be plain and clear. You can't double dip with TRICARE and CHAMPVA.
+  - Preference between prototypes: between the two prototypes it was the same, it was just an a-ha moment with the TRICARE question. I got two different results only because of lack of understanding of TRICARE.
   - Would not feed confident in explaining this process to a friend.
     - READ ELIGIBILTY, THATS SO IMPORTANT!
 
@@ -110,7 +110,7 @@ Back to prototype
   - I'd continue because it could have been user error, I could have entered the wrong number.
  
 - Alert B
-  - I'd try again later! I wouldn't hit continue if they couldnt confirm his eligibility.
+  - I'd try again later! I wouldn't hit continue if they couldn't confirm his eligibility.
  
 - Alert C
   - I'd just go back and make sure the info I entered was correct
@@ -119,7 +119,7 @@ Back to prototype
 - Alert D
   - This is worded so confusing to me, had to break it down twice!
   - OKAY Partner is in DEERS so that's GOOD
-  - Even IF you AREN'T enrolled... does not AUTOMATICALLY? Make us eligible for CHAMPVA...? SO if you're eligible for TRICARE... you are NOT elgigile for TRICARE. I'd have to go back, pause, and deep dive for more information regarding the two, just to confirm just cuz he DOES get TRICARE he cannot get CHAMPVA...
+  - Even IF you AREN'T enrolled... does not AUTOMATICALLY? Make us eligible for CHAMPVA...? SO if you're eligible for TRICARE... you are NOT eligible for TRICARE. I'd have to go back, pause, and deep dive for more information regarding the two, just to confirm just cuz he DOES get TRICARE he cannot get CHAMPVA...
 - Confidence rating: 3/5
   - I understand the alerts but I'm still gonna go to the websites to make sure and confirm what I interpreted
 
@@ -131,7 +131,7 @@ Back to prototype
 - Even on second viewing, Card Style A is re-confusing participant all over again
 - The Xs and Checks... I don't even know what they mean anymore!
 - First Card: GREAT!
-- Second Card: Baeed on info, the applicant may NOT be eligible?? Why am I getting Xs here? It's confusing because we're conditioned on green/red colors. Second card means something is WRONG.
+- Second Card: Based on info, the applicant may NOT be eligible?? Why am I getting Xs here? It's confusing because we're conditioned on green/red colors. Second card means something is WRONG.
 
 - Card Style B
   - See's difference between these and Style A.
