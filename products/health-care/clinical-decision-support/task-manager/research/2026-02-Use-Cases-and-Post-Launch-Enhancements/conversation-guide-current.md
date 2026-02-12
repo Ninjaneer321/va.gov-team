@@ -29,6 +29,7 @@ description: "A template for moderating research sessions including logistics, i
 recording_required: true
 observer_support: true
 consent_for_clips: true
+
 ---
 
 | Study   | Use cases and Post Launch Enhancements Research |
@@ -47,15 +48,10 @@ The discussion will primarily be between you and me, however occasionally I’ll
 
 Before we start, a few things I want to mention:
 
-### Research Intent
-
-- The purpose of the conversation is to better understand how **task management and task coordination** applies to your role within VA health systems.
-- We want to hear your honest opinions. Anything you share with us will remain confidential. Insights you share helps us **improve task manager to ensure it meets your needs**.
-
 ### Expectation setting
 
-- This entire session should take about 50 minutes. To keep us on track I may occasionally prompt you with the next question or topic.
-- Over the course of the hour, we’ll cover, a general discussion of how tasks fit into your role, then we’ll take a look at task manager together to gather feedback about creating and revising tasks, and monitoring tasks, before we wrap-up with a few final questions.
+- This entire session should take about an hour. We’ll be discussing how tasks generally fit into your role, then gather more specific feedback about how task manager creates, displays and updates tasks, before wrapping up with a few final questions. 
+- The purpose of this conversation is to better understand what you're looking to accomplish needs as a user. Anything you share with us helps us understand ways to improve task manager to ensure it meets your needs.
 - Do you have any questions for me, at this point?
 
 ### Consent to Record
@@ -76,12 +72,14 @@ Great. To begin with. I’d like to learn a little bit about what you do within 
 
 > [!TIP]
 > Listen for: **Treatment environment**
+>
 > - **Modality** (Telehealth, On-site, In Home)
 > - **Setting** (Inpatient, Outpatient, ED)
 > - **Treatment goal** (Preventative, Ambulatory, Acute, Sub-Acute, Palliative / Long term)
 > - **Delivery Mechanism** (Site, Care Team, Float Pool)
 >
 > **Role emphasis**
+>
 > - **Patient care focus** (Direct care vs Operational Support)
 > - **Treatment process** (diagnosis vs treatment implementation)
 
@@ -95,12 +93,15 @@ What type of tasks are you managing?
 > [!TIP]
 > Probe:
 > **Individual vs Team Use**
+>
 > - Are you mostly using it to manage your own tasks? Or are you using it to coordinate with other team members?
-> 
+>
 > **Tool Use**
+>
 > - Anything you’re not using task manager for task coordination? Why?
-> 
+>
 > **Bright spots and Gaps**
+>
 > - What’s working well?
 > - What’s needs improvement?
 > - Any things you wish you were able to do, but can’t? What are they? Why is that important?
@@ -110,16 +111,19 @@ What type of tasks are you managing?
 Switching gears, I wanted to discuss your experiences using task manager. If it helps, we can also have you share your screen and turn off screen recording for this portion of the session.
 
 ### Use Case Workflows - Task List (10 mins)
+
 Let’s take a look at the task list together.
 You shared a little bit about the tasks you manage. At a high level, walk me through the lifecycle of a task from creation to assignment to task completion.
 
 > [!TIP]
 > Listen for: **Task management responsibilities**
+>
 > - Task collaboration
 > - Task oversight
 > - Task transfer / handoff
 >
 > **Organizing Model** 
+>
 > - Task relationship with patients (1:1 vs 1 to many)
 > - Task relationship with team member roles / workflow
 
@@ -146,9 +150,11 @@ What about the details in this view?
 - Any fields here that you don’t need?
 - Any fields that are missing?
 - What patient details would you hope to see when creating tasks?
- 
+
 ### Tracking / Monitoring Tasks – Task Grid / Task Detail (8 mins)
+
 Ok. That’s helpful. Let’s take a closer look at tracking and monitoring tasks. Go ahead and return to the task list.
+
 - Can you share a little bit about your overall experience with tracking and monitoring tasks?
 - What are you typically tracking?
 - What’s working? What can be improved?
@@ -156,18 +162,23 @@ Ok. That’s helpful. Let’s take a closer look at tracking and monitoring task
 - Any features relating to tracking / monitoring tasks that might be useful for you?
 
 ### Updates and Follow Through – Task Grid / Task Detail (5 mins)
+
 Finally, I wanted to get a sense of what your experience is with following up on tasks.
 What’s working? What can be improved?
 
 #### Task detail attributes
+
 What about the details in this view?
+
 - What here is useful and relevant? 
 - Any fields here that you don’t need?
 - Any fields that are missing?
 - What patient details would you hope to see when updating tasks?
 
 ## Use Context Validation (Optional - 5 mins)
+
 ### Tasks
+
 Ok. Great. Before we close, I wanted to quickly recap what we’d discussed today.
 What you’re looking at is an outline of where task tracking and coordination may appear in different working contexts.
 
@@ -179,6 +190,7 @@ It sounds like…
 
 > [!TIP]
 > Probe:
+>
 > - Start of shift
 > - Pre-Visit
 > - During-Visit
@@ -193,11 +205,13 @@ Who tends to be involved in those tasks? How do they tend to participate?
 
 > [!TIP]
 > Probe:
+>
 > - Collaboration
 > - Oversight
 > - Transfer / handoff
 
 # Wrap Up (5 mins)
+
 - Is there anything else you’d like to share about task management or task manager today? 
 - Reflecting on all that we discussed today, what feature or improvement stands to have the greatest impact to improve your workflow tracking and managing tasks?
 - Before we close do you have any questions for us?
