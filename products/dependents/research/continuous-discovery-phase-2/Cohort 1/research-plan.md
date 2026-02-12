@@ -110,8 +110,8 @@ related_research:
     
 tags:
   - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
+  - "usability testing"
+  - "Veterans"
   - "[research-phase]"
 ---
 
