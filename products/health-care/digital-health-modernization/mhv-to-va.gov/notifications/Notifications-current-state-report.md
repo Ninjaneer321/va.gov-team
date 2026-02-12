@@ -8,7 +8,12 @@ This report documents what we know and understand about notifications that route
 
 ## On this page
 
-  ## Notification settings in Profile
+## Tools
+* Email
+* VA Notify
+* VeText - right now it's only appointment reminders, but they do "open slot" management in VistA. Run by Shane Elliott. 
+
+## Notification settings in Profile
   To review, there are opt-in notification settings for each health tool in the VA Profile. Secure Messages, however, is automatic and users cannot opt-out, so it is not listed on this page.
   
   <img width="363" height="260" alt="Screenshot 2026-02-11 at 4 10 59 PM" src="https://github.com/user-attachments/assets/19361a2d-fdb8-4db3-b39a-37e2bb405dae" />
