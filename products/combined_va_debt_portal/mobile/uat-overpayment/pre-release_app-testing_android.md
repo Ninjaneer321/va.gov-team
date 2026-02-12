@@ -64,7 +64,7 @@
     * Some phones have another layer of protection that prevents users from downloading unknown apps
         * Phone Settings - Security and privacy - Auto blocker
         * Phone Settings - Apps - Special Access - Install unknown apps - Chrome - Allow from this source
-    * Problem with turning on developer mode
+    * Problem with turning on "Internal app sharing"
         * Clear cache: Phone Settings - Apps - Google Play Store - Storage and cache - Clear cache
 * Technical pre-requisites for participants (for both iOS and Android)
     * **VA Credentials:** You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
