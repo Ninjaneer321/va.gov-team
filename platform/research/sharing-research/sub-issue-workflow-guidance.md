@@ -36,7 +36,7 @@ This traceability helps:
 1. Open your finalized research findings report in GitHub
 2. Open GitHub Copilot Chat
 3. Attach your research findings report to the chat (click the Copilot icon twice)
-4. Copy and paste the prompt from [`create-issues-from-research-findings-prompt.md`](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/synthesis/create-issues-from-research-findings-prompt.md)
+4. Copy and paste the prompt from [`create-issues-from-research-findings-prompt.md`](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/create-issues-from-research-findings-prompt.md)
 5. Review Copilot's suggested issues and refine as needed
 6. Create each issue in the appropriate repository (usually `va.gov-team`)
 
