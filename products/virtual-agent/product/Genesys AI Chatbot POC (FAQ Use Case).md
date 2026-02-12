@@ -2,7 +2,7 @@
 ---
 ## Background
 
-Validate that Genesys can support LLM based intent detection and accurate informational responses for sign on troubleshooting and claims related questions (e.g., "How do I file a disability claim?",) while maintaining conversational context across multiple turns. This POC does not include authentiation or claims status retreival.
+Validate that Genesys can support LLM based intent detection and accurate informational responses for sign on troubleshooting and claims related questions (e.g., "How do I file a disability claim?",) while maintaining conversational context across multiple turns. This POC does not include authentication or claims status retrieval.
 
 ## Objective & Purpose:
 
@@ -14,6 +14,7 @@ Due to strategic consolidation into Genesys, we must validate that:
   - Multi topic switching is handled smoothly
   - Disambiguation can occur when needed 
   - Safety concerns are mitigated (crisis, violence, harassment, jailbreak/misuse)
+
 Without validation, migration risks degrading Chatbot effectiveness.
 
 ## Problem
@@ -29,7 +30,7 @@ Total messages decreased from:​​
 
 > Why do you think the problem is occurring?
 
-The chatbot struggled with synonyms which caused it to not understand the users intent with the question. This caused it to have to follow up to understand what topic to direct the user to leading to longer user journeys. It also had difficulty understanding complex user questions for example questions that are personalized. With GenAI sites that are able to not only understand the intent of the question, but also provide answers to questions by sourcing data from not only the VA site, but other sites across the internet. Veterans are more likely to use them instead of the VA Chatbot to ask questions that are more personalized to their needs.  
+The chatbot struggled with synonyms which caused it to not understand the user's intent with the question. This caused it to have to follow up to understand what topic to direct the user to leading to longer user journeys. It also had difficulty understanding complex user questions, for example questions that are personalized. With GenAI sites that can not only understand the intent of the question, but also provide answers to questions by sourcing data from not only the VA site, but other sites across the internet. Veterans are more likely to use them instead of the VA Chatbot to ask questions that are more personalized to their needs.  
 
 > Why was this topic prioritized?
 
@@ -57,7 +58,7 @@ As part of the One-Bot approach.
 | No blocking platform constraints discovered |  | Development Team | Identified & documented during investigations/POC build |
 
 > List project goals if criteria are not met.
-* Document limitation(s)
+* Document limitations
 * Identify mitigation options
 ---
 ## Deliverables
@@ -84,7 +85,7 @@ As part of the One-Bot approach.
 |---|---:|---|---|
 | Usability | Users will use Chatbot | Low adoption | Usage tracking & usability tests |
 | Value | Users may not find the Chatbot helpful | Users may prefer human support | Monitor survey responses & usability tests |
-| Feasability | Genesys supports LLM flexibility | Platform constraints | Dev Testing |
+| Feasibility | Genesys supports LLM flexibility | Platform constraints | Dev Testing |
 
 - **Value Risks**: 
   - **Risk:** Users may not perceive the chatbot as helpful or may prefer human support.
@@ -99,25 +100,25 @@ As part of the One-Bot approach.
   - **Validation:**
     -  Measure entry rate into Chatbot
     -  Conduct moderated usability testing sessions to observe:
-      - Do users choose the Chatbot first?
-      - Do they trust the response?
-      - Do they escalate anyway?
+       - Do users choose the Chatbot first?
+       - Do they trust the response?
+       - Do they escalate anyway?
 
   - **Assumption:** LLM responses are clear, structured, and actionable. 
   - **Risk:** Even accurate answers can feel vague, wordy, or confusing. 
   - **Validation:**
-    -  Human review of X number of responses for:
+    - Human review of X number of responses for:
       - Clarity
       - Actionability
       - Tone 
-    -  Measure follow up clarification rate:
+    - Measure follow up clarification rate:
       - High rate may indicate confusing responses
     - Collect qualitative user feedback during testing
 
   - **Assumption:** Multi turn context feels natural and stable. 
-  - **Risk:** Context switching may feel inconsistend or brittle, causing user frustration.  
+  - **Risk:** Context switching may feel inconsistent or brittle, causing user frustration.  
   - **Validation:**
-    -  Simulate conversation trees:
+    - Simulate conversation trees:
       - Topic switch
       - Follow up clarification
       - Ambiguous phrasing
@@ -126,26 +127,26 @@ As part of the One-Bot approach.
 
 - **[Technical] Feasibility Risks**:
 - **Assumption:** Genesys supports flexible LLM integration without major constraints.  
-  - **Risk:** Low-code enviornment restricts:
+  - **Risk:** Low code environment restricts:
     - Prompt control
     - Model choice
     - Guardrail enforcement
     - Iteration speed   
   - **Validation:**
-    -  Document integration architecture
-    -  Attempt prompt tuning iterations
-    -  Track time required to deploy model updates
-    -  Identify any vendor imposed constraints
+    - Document integration architecture
+    - Attempt prompt tuning iterations
+    - Track time required to deploy model updates
+    - Identify any vendor-imposed constraints
    
-- **Assumption:** Hallucination can be sufficiently mitigated in this enviornment.  
+- **Assumption:** Hallucination can be sufficiently mitigated in this environment.  
   - **Risk:** Platform abstraction layers may reduce the ability to constrain responses. 
   - **Validation:**
-    -  Create adversarial test set:
-      -  Out of domain questions
-      -  Ambiguous phrasing
-      -  Trick questions
-    -  Measure hallucination rate
-    -  Test response fallback logic
+    - Create adversarial test set:
+      - Out of domain questions
+      - Ambiguous phrasing
+      - Trick questions
+    - Measure hallucination rate
+    - Test response fallback logic
    
 - **Assumption:** Latency is acceptable.  
   - **Risk:** LLM + platform orchestration may introduce delays in responses. 
@@ -154,10 +155,10 @@ As part of the One-Bot approach.
     -  Compare to historical chatbot performance
     -  Define acceptable threshold 
 
-- **Organizational Viability Risks/Constraints: Will there be a positive organizational impact?**:
-- **Assumption:** 
-  - **Risk:** 
-  - **Validation:** 
+- **Organizational Viability Risks/Constraints: Will there be a positive organizational impact?**
+  - **Assumption:** 
+    - **Risk:** 
+    - **Validation:** 
 
 ## What're you building
 > *What's in scope for you to build with this initiative? (Describe key features/flows)
@@ -172,7 +173,7 @@ As part of the One-Bot approach.
   - Chatbot scans question for jailbreak/misuse attempt
     - If detected Chatbot provides curated response
   - If crisis or jailbreak is not detected, LLM identifies intent: sign on
-    - If LLM is unable to identify intent then the Chatbot asks a clarifying question   
+    - If LLM is unable to identify intent, then the Chatbot asks a clarifying question   
   - Chatbot provides structured response using VA.gov content as knowledge source:
     - Clear steps
     - Relevant links
