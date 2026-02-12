@@ -386,6 +386,37 @@ Provide a link to any materials you need to run your study, including any materi
 - `secondary criteria`
 - **`Add more criteria as needed`**
 
+## Screener Questions 📋
+
+> [!NOTE]
+> Perigean will use these screener questions **verbatim** to recruit and qualify participants. Write them as you want them asked.
+
+> [!TIP]
+> - Write questions in plain language that participants will easily understand. [**Examples of General and Assistive Tech Screener Questions**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/example-screener-questions.md) 
+> - Clearly indicate the **qualifying response** that will make someone eligible
+> - Include links to products or clear descriptions so participants understand what they're being asked about
+> - The more screener questions you have, the harder it will be to recruit - prioritize your must-haves
+
+### Screener Question Template
+
+**`[Number].` [Screener Question Text]**
+- **Qualifying response:** `[The answer that qualifies the participant]`
+- **Disqualifying response:** `[Optional: The answer that disqualifies]`
+
+### Your Study's Screener Questions
+
+**`1.` [Enter your first screener question]**
+- **Qualifying response:** 
+
+**`2.` [Enter your second screener question]**
+- **Qualifying response:** 
+
+**`3.` [Enter your third screener question]**
+- **Qualifying response:** 
+
+> [!TIP]
+> Add more screener questions as needed to address your primary and secondary recruitment criteria
+
 ## Timeline 🗓️
 > [!NOTE]
 > **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.** 
