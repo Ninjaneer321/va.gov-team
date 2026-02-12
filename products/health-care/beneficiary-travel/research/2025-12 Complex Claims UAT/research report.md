@@ -148,8 +148,7 @@ Travel Pay Complex Claims UAT tested whether Veterans can easily use the new tra
 
 ## Methodology 
 
-- Method 1: User acceptance testing (UAT) in production with live appointment and claims data
-- Method 2: Remote, moderated. Participants were observed and guided by researchers as they filed travel reimbursement claims
+- Method: Remote, moderated user acceptance testing (UAT) in production with live appointment and claims data. Participants were observed and guided by researchers as they filed travel reimbursement claims.   
 
 We conducted hour-long remote moderated research sessions via Zoom between January 20-23, 2026. Participants were asked to login to the VA.gov accounts and file travel claims for eligible past medical appointments. We used a series of pre-determined metrics to monitor success. Because the tests were live and we had no way of knowing what scenario each participant might have, our standards determined that we needed 1 successful instance of each metric to consider the UAT complete.
 
@@ -169,27 +168,27 @@ We also monitored additional scenarios, or subtasks, that were not considered cr
 2. User cancels the editing of an expense.
 3. User deletes an expense.
 4. User cancels the deletion of an expense.
-5. User exits the expense page before submitting.   
+5. User exits the expense page before submitting.
+
+
+Metric tracker [URL]
 
 
 ## Hypotheses and Conclusions
 
-*List hypotheses explored in the research and the conclusions drawn. If applicable, list the success or task completion rate.*
+- **Hypothesis Statement:** We hypothesize that a beneficiary will be able to complete a claim on VA.gov from start to finish. Beneficiaries may be confused by some of the nuances of complex claims, but our content and direction will allow them to successfully add expenses, edit expenses, leave a claim, re-enter, and submit a claim on VA.gov.
 
-> [!TIP]
-> Place true or false statements in bold for easier scanability
+- A beneficiary will be able to complete a claim on VA.gov from start to finish.
+  * **Definitely True**: We had 3 Veteran participants, as well as 1 Veteran stakeholder, start and submit claims on VA.gov. The 3 Veteran participants successfully submitted simple mileage-only claims and our Veteran stakeholder submitted a claim with an attachment.
 
-- **Hypothesis Statement:** We hypothesize that a beneficiary will be able to complete a claim on VA.gov from start to finish. Beneficiaries may be confused by some of the nuances of complex claims, but our content and direction will allow them to successfully add expenses, edit expenses, leave a claim, re-enter, and submit a claim on VA.gov.  
-  - A beneficiary will be able to complete a claim on VA.gov from start to finish.
-  - A beneficiary will be able to successfully add expenses.
-  - A beneficiary will be able to successfully edit expenses.
-  - A beneficiary will be able to leave a claim and re-enter a claim.
+- A beneficiary will be able to successfully add expenses.
+  * **Definitely True**: We had 6 Veteran participants successfully add expenses to their claims.
+  
+- A beneficiary will be able to successfully edit expenses.
+  * **Definitely True**: We had 3 Veteran participants who were able to either successfully edit or delete expenses on their claim.
 
-  - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**
-  - Supporting evidence  
-
-[Example Hypotheses and Conclusions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#hypotheses-and-conclusions)
-
+- A beneficiary will be able to leave a claim and re-enter a claim.
+   * **Likely True**: We had 1 Veteran participant exit the claim flow, then return to the claim through appointment details.     
 
 ## Key Findings
 
@@ -204,13 +203,18 @@ We also monitored additional scenarios, or subtasks, that were not considered cr
 
 [Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
 
-1. Finding one
-1. Finding two
-1. Finding three
-1. Finding four
-1. Finding five
-1. Finding six
-1. Finding seven
+1. **UI is intuitive and usable, but critical flow and navigation improvements will reduce friction.**
+   * Overall, testing proved that the interface is understandable - participants could add, edit, and delete expenses; upload receipts; and quickly learn patterns within the flow - but certain navigation elements caused friction and inefficiency.
+
+2. **Field labels and hint text are essential while missing or vague guidance causes user error.**
+   * Clear, contextual labels and hint text helped participants enter correct information while absent or vague help caused confusion.
+
+3. **Users weren’t completely confident that their claim progress was being saved.**
+   * Some participants assumed the system autosaves, based on previous VA experience, but some noted that the “Save in Progress” indicator was not present, which caused doubt.
+  
+4. **Users weren’t completely confident that their claim progress was being saved.**
+   * Participants struggled to understand deductible language and how it would affect their estimated reimbursement totals. Additionally, while users were able to add mileage, several of them did not understand how mileage was calculated or how gas costs factored into their trip.   
+
 
 ## Details of Findings 
 
@@ -220,22 +224,118 @@ We also monitored additional scenarios, or subtasks, that were not considered cr
 > **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
-### Finding 1
-Brief description  
-- _Supporting data: Quote [add context]_  
-- _Supporting data: ![description of the image (image)](link - add image to github folder and link here with .png)_  
+### Finding 1: UI is intuitive and usable, but critical flow and navigation improvements will reduce friction.   
+* Participants reliably added, edited, and deleted expenses and uploaded receipts with metadata.
 
-> **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
+     > “I see where it says ‘add more expenses’ here at the top, just under where it says ‘your unsubmitted expenses,’ so I would probably click that. - P6
 
-### Finding 2  
-Brief description  
-- _Supporting data: Quote [add context]_  
+     > P7: "I would just click the delete, and I’m sure it deletes it all together, but if, you know, it was that I needed to change the upload or description, you know one of the, excuse me, the cost, or date or whatever it is, any bit of that information, I’m… I would imagine the edit is the proper route, and it just takes you back to the previous page, and probably, you know, gives you the chance to do it all over again."   
+     > Moderator: “So if you wanted to change the date, what would you do?”   
+     > P7: “So I could click ‘edit.’ And then yeah, you can change any bit of the information [...] But if I just needed to change the date, that’s an easy fix.”   
+     > P7 [after clicking 'edit']: “Yeah, and this is, this is really great. It’s nice that, it’s nice that, you know, when you hit edit, it doesn’t, you know, it doesn’t put you back and delete everything [...] I like that it has all the information you’d already submitted, including the upload and it allows you to change, you know, just one piece of it if you need to, and you don’t have to start over.”
+
+     > “I would drag it [the file] into the… to the… the box here, which you know, works just fine. That actually uploaded very quickly, and I like that it shows a little preview, as well.” - P7
+
+* Participants understood that adding expenses did not submit the claim until they pressed the “Sign agreement” button.   
+
+  > “And I get that it’s unsubmitted, I haven’t, you know, done the final submission for it.” - P7
+
+  > "But when it says, ‘sign agreement,’ that was a little indicator to me, like, no, I don’t want to do that yet.” - P9
+
+* Several participants expressed a preference for selecting multiple expenses from a single screen rather than being routed into a separate “choose an expense” flow.
+
+  > “It might be confusing, more confusing to some. For me, I think it would be easier as, you know, what type of expenses and, you know, you could select multiple if needed, and it would walk you through, you know, one by one.” - P7
+
+  > “I can only select one at a time, so what if there’s… It’s kind of confusing because, yeah, so I might be submitting for mileage, but what if I have a parking thing at the same time for that exact same travel claim?” - P8
+
+  > [Participant trying to select mileage and tolls at the same time] “Oh. I guess I have to do them individually.” - P9
+
+* Breadcrumbs did not meet expectations and caused confusion about where users were in the flow and where they would return to. The breadcrumbs were designed to take the user to where they entered the flow, but most users believed they would step back to the previous page.
+
+  > Moderator: “Another question for you, without clicking on it, on this page at the top, we see a little ‘back’ with a little arrow. If you were to click on that, where do you think it would take you?”
+  > P2: “Previous page."
+
+  > Moderator: “If you scroll up a little bit to the top, we had a question about the breadcrumb there again, too, and where do you imagine that back button goes to?”
+  > P7: “Probably just to, as if I hadn’t, the previous page, I mean, as if I hadn’t selected to add any additional expenses.”
+
+  > Moderator: “The little back breadcrumb at the top, where do you think that takes you?”
+  > P8: "I have no idea."
+
+  > Moderator: ““Note that there is a little back arrow. If you were to tap it, where would that take you?”
+  > P9: "Good question. Uh, trying to remember what the page was before this one. I guess it takes me back to the, uh, it would take me back to the page where I’m saying, where am I leaving from?”
+
+### Finding 2: Field labels and hint text are essential; missing or vague guidance causes user error.     
+* When entering information into the expense pages, participants praised hint text that clarified expected input, but were uncertain how to use fields like “description” when no guidance was present. The ambiguous fields cause additional burden on the user.
+
+  > “You know, it’s nice that you have the clarification that even if it’s the same as the, you know, check-in or check-out, to go ahead and add the date on the receipt, and I’m sure that’s helpful on the backend to make sure that they’re looking at the right receipt.” - P7
+
+  > “Description. What am I putting there? I need more elaboration on that, though. What do they want us to put in regards to that?” - P5
+
+  > “The ‘where do you stay,’ that’s… you know, I think that could probably be refined, because honestly, I don’t know if you’re looking for city and state, or if you’re looking for, you know, the name of the facility itself.” - P7
+
+  > “The description’s a little vague, in my opinion [...] Because it seems like it’s doing, like, it’s asking, why did you choose this public transportation? It’s kind of the same thing as maybe the description? I don’t know, does it need to be both, you know what I’m saying?” - P8
+
+### Finding 3: Users weren’t completely confident that their claim progress was being saved.     
+* Although there is content on the intro page that informs users that claims in progress will be saved, participants did not express confidence that their work would be available if they left and returned.
+
+  > Moderator: “If you wanted to leave your claim and come back to it, do you imagine that your information would be saved?”
+  > P7: “No, it doesn’t appear that it would be, because I mean, it’s a, you know, it’s not like much would be lost. There’s only, you know, a couple of bits of information, but there is no, you know, save and exit, or save and continue later.”
+  > [Upon discovering it was saved] P7: “That’s nice. I mean, there was no, as I as I could tell, there was no indication, previously that it would, you know, save your progress.”
+
+### Finding 4: Users weren’t completely confident that their claim progress was being saved.     
+* Although information about the deductible is present in the estimated reimbursement section, no participants truly understood how the deductible affected their current payment.   
+
+  > “And that’s…and I’ve come across this as well, the deductible information, and I think it doesn’t mention it on the app, but it does online, so I’ve seen it before. And it is a bit confusing, it’s like, you know, what is the, the deductible? I-I-It just doesn’t make sense.” - P7
+
+  > Moderator: “Does that $21.13 take into account your deductible?”
+  > P6: “I don’t know. It’s a good question.”
+
+  > “You’ll pay no more than $18 total each month. What does that mean? I don’t know. That’s kind of…that’s kind of not. That doesn’t make a lot of sense to me.” - P8
+
+  > “I mean, it’s…it’s a computer, so it should be smart. But I suppose if this was my third or fourth travel claim for the month of January, then it would know that I’ve already satisfied the deductible on the first three. And I suppose it could calculate all that, but I would think that’s going to be done at the, I’ll call it, the other end.” - P9
+
+* Participants could file for mileage, and most did so without question, but when asked if they understood the calculations, they were unsure how mileage is calculated or how gas relates to mileage reimbursement.   
+
+  >  Moderator: “If you had questions on how VA calculates mileage or gives you money for mileage, how would you find out more about that?”
+  > P8: “I have no idea. I think it’s right by whatever the state comes up with, or IRS law? Or is it state law? I’m not sure, which, okay. No idea.”
+
+
+* Most participants did understand the high-level eligibility and direct deposit overview on the intro page, but that could be influenced by the sample group’s prior experience with travel pay.
+
+  > "So yes, I’m eligible for healthcare travel reimbursement. 100% disabled. You could be at 10% and still receive that. Your travel reimbursement direct deposit set up, yep [...] it’s self-explanatory.” - P5
+
 
 ---
 
 ## Additional Insights
-*Include insights that do not represent patterns but are still valuable.*  
-> **TIP:** These could be powerful user comments or unexpected issues worth noting
+The focus of our UAT was to specifically ensure that complex claims was functioning and usable, but during the course of testing we also noted other areas for improvement.   
+
+* **Participants noted that it was difficult to find travel pay on VA.gov and we witnessed users struggling a little to get to the appropriate place to start a claim.**
+
+  > “I don’t know if it matters because VA.gov is different than MyHealtheVet, but because I’m like in MyHealtheVet more than I am in VA.gov, I think there should be an easier option to submit instead of having to navigate to VA.gov for travel.” - P2
+
+
+* **One user could see their mobile clinic appointment in the past appointment list, but claims for this clinic were repeatedly rejected by the system when filed digitally or simply did not show up in their claims list when they filed with the paper form.**
+
+  > “I got new hearing aids [...]. I’ve not been able to file. I attempted to file a paper form for that, but never went through. And it’s kind of an unusual situation at my clinic because the hearing department is actually situated in a van. It’s parked outside the building.” - P10
+
+    We were able to view the appointment in the participant’s past appointment list, but just as they stated, it did not register when we attempted to file the claim. We believe this requires further investigation and are creating a Service Now ticket to assess if there is a possible bug around mobile clinics.   
+
+* **Some participants were not clear from the claim detail page if their claim was submitted or in-progress.** Several feared that the claim had already been submitted. This may be resolved by adjusting language and adding “days left to file” for unsubmitted claims.
+
+  > “I was afraid something like this might happen. This happened to me once before. So it just filed my travel claim.” - P9
+
+* **When viewing their list of past appointments on the web, participants struggled to know which appointment they had filed a travel claim for.** A few participants referenced and spoke highly of the appointments list on the VAHB app, which has a “days left of file” indicator on eligible appointments.
+
+  > “Yeah, so this looks a lot like the app when I go into the app. I go to the appointment and it automatically has the file for travel reimbursement claim, which I really like, because then it’s all on one page, so I can see my appointment stuff, what appointment it was, whether it was video or not. And then I can know that I can file or not. And then it tells me how many days I have left to file.” - P6
+
+  > “Well, remember when we first started and I showed you the VA app, and it, you know, I thought that was very useful when it showed that, you know, past appointments, you have one eligible for a travel claim. That was very useful. And I suppose if I had been in the app within 30 days of my appointment that I forgot to file, that would have served as a reminder for me.” - P9
+
+* **Participants expressed concern about filing past 30 days and were concerned there could be repercussions from VA.**
+
+  > “I don’t want it to look like I’m submitting also…Like, it’s, you know, like I’m lying or something, I don’t know. I mean, I did have the appointment, but it’s over the timeframe. I mean, I could submit it, I don’t know.” - P2
+
+  > “Yeah, I don’t want to do that. I don’t want to look bad in their system, and be flagged or something.” - P5   
 
 
 ## Recommendations
