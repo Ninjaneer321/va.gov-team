@@ -72,6 +72,12 @@ Source: [Amy Grace Wells, July 2025](https://dsva.slack.com/archives/C07RB9N9M6J
 
 </details>
 
+## Claim Creation
+<details>
+<summary>When a 686 and 674 are submitted at the same time, which is created first?</summary>
+   - The 686 is submitted to BGS first and then the 674.
+</details>
+
 ## Claim Processing
 <details>
 <summary>How long does it take to process a 686c claim?</summary>
