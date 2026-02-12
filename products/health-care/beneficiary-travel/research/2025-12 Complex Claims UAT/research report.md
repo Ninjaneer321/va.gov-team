@@ -225,7 +225,7 @@ Metric tracker [URL]
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
 ### Finding 1: UI is intuitive and usable, but critical flow and navigation improvements will reduce friction.   
-* Participants reliably added, edited, and deleted expenses and uploaded receipts with metadata.
+* **Participants reliably added, edited, and deleted expenses and uploaded receipts with metadata.**
 
      > “I see where it says ‘add more expenses’ here at the top, just under where it says ‘your unsubmitted expenses,’ so I would probably click that. - P6
 
@@ -236,7 +236,7 @@ Metric tracker [URL]
 
      > “I would drag it [the file] into the… to the… the box here, which you know, works just fine. That actually uploaded very quickly, and I like that it shows a little preview, as well.” - P7
 
-* Participants understood that adding expenses did not submit the claim until they pressed the “Sign agreement” button.   
+* **Participants understood that adding expenses did not submit the claim until they pressed the “Sign agreement” button.**   
 
   > “And I get that it’s unsubmitted, I haven’t, you know, done the final submission for it.” - P7
 
@@ -250,7 +250,7 @@ Metric tracker [URL]
 
   > [Participant trying to select mileage and tolls at the same time] “Oh. I guess I have to do them individually.” - P9
 
-* Breadcrumbs did not meet expectations and caused confusion about where users were in the flow and where they would return to. The breadcrumbs were designed to take the user to where they entered the flow, but most users believed they would step back to the previous page.
+* **Breadcrumbs did not meet expectations and caused confusion about where users were in the flow and where they would return to. The breadcrumbs were designed to take the user to where they entered the flow, but most users believed they would step back to the previous page.**
 
   > Moderator: “Another question for you, without clicking on it, on this page at the top, we see a little ‘back’ with a little arrow. If you were to click on that, where do you think it would take you?”
   > P2: “Previous page."
@@ -265,7 +265,7 @@ Metric tracker [URL]
   > P9: "Good question. Uh, trying to remember what the page was before this one. I guess it takes me back to the, uh, it would take me back to the page where I’m saying, where am I leaving from?”
 
 ### Finding 2: Field labels and hint text are essential; missing or vague guidance causes user error.     
-* When entering information into the expense pages, participants praised hint text that clarified expected input, but were uncertain how to use fields like “description” when no guidance was present. The ambiguous fields cause additional burden on the user.
+* **When entering information into the expense pages, participants praised hint text that clarified expected input, but were uncertain how to use fields like “description” when no guidance was present. The ambiguous fields cause additional burden on the user.**
 
   > “You know, it’s nice that you have the clarification that even if it’s the same as the, you know, check-in or check-out, to go ahead and add the date on the receipt, and I’m sure that’s helpful on the backend to make sure that they’re looking at the right receipt.” - P7
 
@@ -276,14 +276,14 @@ Metric tracker [URL]
   > “The description’s a little vague, in my opinion [...] Because it seems like it’s doing, like, it’s asking, why did you choose this public transportation? It’s kind of the same thing as maybe the description? I don’t know, does it need to be both, you know what I’m saying?” - P8
 
 ### Finding 3: Users weren’t completely confident that their claim progress was being saved.     
-* Although there is content on the intro page that informs users that claims in progress will be saved, participants did not express confidence that their work would be available if they left and returned.
+* **Although there is content on the intro page that informs users that claims in progress will be saved, participants did not express confidence that their work would be available if they left and returned.**
 
   > Moderator: “If you wanted to leave your claim and come back to it, do you imagine that your information would be saved?”
   > P7: “No, it doesn’t appear that it would be, because I mean, it’s a, you know, it’s not like much would be lost. There’s only, you know, a couple of bits of information, but there is no, you know, save and exit, or save and continue later.”
   > [Upon discovering it was saved] P7: “That’s nice. I mean, there was no, as I as I could tell, there was no indication, previously that it would, you know, save your progress.”
 
 ### Finding 4: Users weren’t completely confident that their claim progress was being saved.     
-* Although information about the deductible is present in the estimated reimbursement section, no participants truly understood how the deductible affected their current payment.   
+* **Although information about the deductible is present in the estimated reimbursement section, no participants truly understood how the deductible affected their current payment.**   
 
   > “And that’s…and I’ve come across this as well, the deductible information, and I think it doesn’t mention it on the app, but it does online, so I’ve seen it before. And it is a bit confusing, it’s like, you know, what is the, the deductible? I-I-It just doesn’t make sense.” - P7
 
@@ -294,13 +294,13 @@ Metric tracker [URL]
 
   > “I mean, it’s…it’s a computer, so it should be smart. But I suppose if this was my third or fourth travel claim for the month of January, then it would know that I’ve already satisfied the deductible on the first three. And I suppose it could calculate all that, but I would think that’s going to be done at the, I’ll call it, the other end.” - P9
 
-* Participants could file for mileage, and most did so without question, but when asked if they understood the calculations, they were unsure how mileage is calculated or how gas relates to mileage reimbursement.   
+* **Participants could file for mileage, and most did so without question, but when asked if they understood the calculations, they were unsure how mileage is calculated or how gas relates to mileage reimbursement.**   
 
   >  Moderator: “If you had questions on how VA calculates mileage or gives you money for mileage, how would you find out more about that?”
   > P8: “I have no idea. I think it’s right by whatever the state comes up with, or IRS law? Or is it state law? I’m not sure, which, okay. No idea.”
 
 
-* Most participants did understand the high-level eligibility and direct deposit overview on the intro page, but that could be influenced by the sample group’s prior experience with travel pay.
+* **Most participants did understand the high-level eligibility and direct deposit overview on the intro page, but that could be influenced by the sample group’s prior experience with travel pay.**
 
   > "So yes, I’m eligible for healthcare travel reimbursement. 100% disabled. You could be at 10% and still receive that. Your travel reimbursement direct deposit set up, yep [...] it’s self-explanatory.” - P5
 
@@ -342,12 +342,22 @@ The focus of our UAT was to specifically ensure that complex claims was function
 
 *Summarize actionable recommendations based on findings.*  
 
-1. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_  
-2. **Recommendation:** [Insert action]  
-   - _Supporting evidence: [Insert data]_
+1. **Recommendation:** Due to system limitations, there are some issues with routing we need to consider, but we will re-evaluate the breadcrumbs and work with Platform IA in order to improve the navigation. 
 
-## Product User and Business Outcomes
+2. **Recommendation:** Audit input fields and ensure that each has a concise and accurate label and hint text. Work with stakeholders to provide valuable hint text language for fields where it is missing.
+
+3. **Recommendation:** Build upon the existing language telling users their data will be saved, and explore ways of visually highlighting saved progress as the user navigates the flow.
+
+4. **Recommendation:** Rewrite deductible copy to explicitly state that the estimated amount may not take into account the deductible. 
+Blue sky goal: Investigate an interactive element that is tailored to each Veteran’s status and input.
+
+5. **Recommendation:** Update the appointment list and and claim detail page to add clarity about which appointments the user can file claims for and the state of the claim, if they've already started or submitted a claim.
+
+
+## UAT Summary   
+Complex claims met the metrics determined for a successful UAT. All participants who were able to either test a variety of screens or fully file (6 of 9) rated the process of filing a travel claim as “easy” or “extremely easy.” Any bugs that were uncovered during the course of UAT were addressed and fixed. The product was released to a portion of users starting on February 9, 2026. The Travel Pay team will continue to monitor feedback and analytics in order to ensure the product functions as users add more complex scenarios.
+
+<!-- ## Product User and Business Outcomes
 
 *Explain how findings and recommendations align with the product's goals.*
 
@@ -370,11 +380,15 @@ This research supports our desired business outcome by....
 
 ### KPI 1
 This research supports measurement of this KPI by....
-  
+
+-->
 
 ## Next Steps
 
-*Outline immediate actions based on findings, including owners if applicable.*  
+1. For the recommended enhancements, the travel pay team has created tickets to track and investigate.
+2. The travel pay team has plans to launch additional functionality for users filing for travel pay on community care appointments in Q2 of 2026. Ideally, we’d also like to gather additional data on the complex claims flow with a targeted survey.
+3. Certain scenarios around complex mileage were not included in the MVP launch. These scenarios were planned for part of a later iteration and the flow correctly routes users back to the BTSSS portal. The travel pay team has started investigation into complex mileage and has planned for further usability testing.
+
 
 > [!TIP]
 > Once your **Recommendations** and **Next Steps** are finalized, you can quickly turn them into GitHub issues using the reusable Copilot prompt in [`create-issues-from-research-findings-prompt.md`](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/create-issues-from-research-findings-prompt.md).  
@@ -384,34 +398,32 @@ This research supports measurement of this KPI by....
 
 ## Further research needed
 
-*Identify gaps in the current study and areas requiring additional investigation––such as demographics that were not included in this study.* 
-
+While we completed accessibility reviews and utilized existing design components, this product could benefit from further UAT focused on users with assistive tech.
 
 ## Appendix
 
 ### Research documents
-- [Product Outline](link here)
+- [Product Outline](products/health-care/beneficiary-travel/product)
 - [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/health-care/beneficiary-travel/research/2025-12%20Complex%20Claims%20UAT/UAT%20Plan.md)
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2025-12%20Complex%20Claims%20UAT/conversation%20guide.md)
-- [Interview transcripts](link here)
+- [Interview notes](products/health-care/beneficiary-travel/research/2025-12 Complex Claims UAT/UAT notes)
 
 ### Tools used for Synthesis
-
-*List tools or techniques used, e.g., Mural, affinity mapping.*  
+- Synthesis Mural
   
 ### Pages and applications used
+- Complex claims _Note: While we tested in production, this is a link to complex claims on staging. Travel claims are created from eligible past appointments._
+- Figma _Note: Because we tested in production, the Figma files are an easier way to see the flow._
 
-*Link to prototypes or pages tested during the study.*  
 
-
-### Other supporting documents created
+<!-- ### Other supporting documents created
 
 *Include links to additional materials, e.g., personas, user flows.*  
 
 
 ### Secondary research
 
-*Include any relevant secondary research, e.g., web analytics, SME interviews.*  
+*Include any relevant secondary research, e.g., web analytics, SME interviews.* -->
 
 > [!IMPORTANT]
 > **After completing the demographic information below and saving this file**, use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically populate the YAML frontmatter section at the top of this document with: 
