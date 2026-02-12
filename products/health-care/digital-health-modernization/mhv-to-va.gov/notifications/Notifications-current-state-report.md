@@ -11,7 +11,7 @@ This report documents what we know and understand about notifications that route
 ## Tools
 * Email
 * VA Notify
-* VeText - right now it's only appointment reminders, but they do "open slot" management in VistA. Run by Shane Elliott. 
+* VeText - right now it's only appointment reminders & Rx reminder (?), but they do "open slot" management in VistA. Run by Shane Elliott. It is not VA-wide, it's facility-dependent & reliant on specific facilities turning it on. So dependent on budgeting at facility-level. 
 
 ## Notification settings in Profile
   To review, there are opt-in notification settings for each health tool in the VA Profile. Secure Messages, however, is automatic and users cannot opt-out, so it is not listed on this page.
@@ -29,6 +29,10 @@ Questions:
 
 Resources:
   * [Appts notifications service blueprint](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/products/health-care/appointments/research/2021-10-appointment-notifications-service-map/research-findings.md)
+
+### Notes: 
+* VeText is both email/text - different than VA Notify (in some cases duplicative). Not at all facilities. Actual implementation is TEXT only, but they can integrate with VA Notify to do email someday.
+* VeText has a nice sharepoint that we will look at next with more product documentation. Robyn is messaging the team right now for a link. 
 
 ## Messages
 What notifications do users already get?
