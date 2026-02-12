@@ -19,7 +19,7 @@ Handoff Date: February 2026
 
   - Expired 8/31, a new one is coming
 
-- Link to Figma prod designs - coming soon
+- [Link to Figma prod designs](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/vocational-rehab/design/Chapter%2031%20Documentation.md)
 
 - [Test Users](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/mvi-staging-users.csv)
 
@@ -56,7 +56,7 @@ Handoff Date: February 2026
 
 - We updated the form to use new design components to meet [VA.gov](http://va.gov) standards
 
-  - Link to current prod designs - coming soon
+  - [Link to current prod designs](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/vocational-rehab/design/Chapter%2031%20Documentation.md)
 
 - We integrated with VFS Library to monitor failure emails being undeliverable
 
@@ -67,17 +67,19 @@ Handoff Date: February 2026
   - Added LOA 1 user alerts - users who were signed in but NOT verified didn’t see a link to the form or an alert telling them they need to verify.
 
   - Removed DRAFT cards on My VA and introduction page after submission (the cause for user-driven duplicate submission spike) - submitted forms were stuck in a queue that incorrectly told users their forms were still in draft when in reality they were submitted.
+    
+  - If a user didn’t have a middle name, prefill would break and the user wouldn’t be able to access the form - would see a “blank” page when clicking apply on the introduction page. We resolved the issue by changing where the prefill data was coming from. However, we identified some follow up investigation that should be done to look at profile data for some instances and SIP data in others: https://github.com/department-of-veterans-affairs/va-iir/issues/2369
 
+- Blank PDFs being saved in VBMS
+  
+  - There was a bug that was causing the old Chapter 31 form (2019 version) to be saved in VBMS. Because the structure of the data was mapped to the most recent form, the old form couldn’t be filled out and was saved. We resolved this and the old form is no longer being referenced. We went back and re-uploaded the current Chapter 31 form to VBMS for the applications that were blank - we didn’t replace blank forms, we added new ones.
 
 ### Initiatives in Flight: 
 
-- Resolving a bug where users with no middle names are seeing a blank page when they click the apply link on the `/introduction page`. Ticket here: <https://github.com/department-of-veterans-affairs/va-iir/issues/2367> 
+- Passing the ICN for submissions to RES
+This work is currently behind a feature flag. We have a ticket to QA in Staging and ensure RES is receiving it as expected next sprint: https://github.com/department-of-veterans-affairs/va-iir/issues/2271 
 
-  - Actively working on a resolution. Will want to keep a close eye on reports.
-
-  - Need to research if anything else could be causing this bug or if it truly is just the middle name culprit.
-
-- Refactoring the BE so it is easier to make future updates
+- [Refactoring the BE](https://github.com/department-of-veterans-affairs/va-iir/issues/2070) so it is easier to make future updates
 
   - As Rails applications grow, the conventions which make them easy to reason about become a hindrance
 
@@ -86,10 +88,12 @@ Handoff Date: February 2026
   - We refactored the BE code out of the Rails Monolith and into a [Rails Engine](https://github.com/department-of-veterans-affairs/vets-api/tree/master/modules/vre) in /modules
 
   - This makes the boundaries of the VRE application clearer
+    
+  - Estimating 1-2 more sprints of work to finish - **Does RES want CVE to finish this or hand off to them to finish?**
 
 - Updating logging & monitoring in Datadog to better identify issues and collect analytics
 
-  - Finishing the BE refactor will make reporting easier but we have added logging so we can see:
+  - Finishing the BE refactor will make reporting easier and we have added logging so we can see:
 
     - Submissions by service
 
@@ -99,15 +103,17 @@ Handoff Date: February 2026
 
     - VFS Library undeliverable logging
 
-    - We need to add all of these to the Datadog Dashboard for streamlined reporting. Also revisit current monitors and update as needed. Ticket here: <https://github.com/department-of-veterans-affairs/va-iir/issues/2366> 
+    - We are planning to add all of these to the Datadog Dashboard for streamlined reporting. Also revisit current monitors and update as needed. Ticket here: <https://github.com/department-of-veterans-affairs/va-iir/issues/2366>
+      
+    - Estimating 1 more sprint of work to finish - **Does RES want CVE to finish this or hand off to them to finish?**
 
-- Updates to prepare for new physical 31 form
+- UX updates to prepare for new physical 31 form
 
-  - Minimal updates to actual form pages but coordinating with the Content team to ensure they have their updates on informational pages ready to go.
+  - Minimal updates to actual form pages but coordinating with the Content Team to ensure they have their updates on informational pages ready to go.
 
-  - Link to designs - coming soon
+  - [Link to figma designs](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2608-14274&t=Yh6Ydlk9kueURf2p-1) 
 
-  - Link to Content ticket - coming soon
+  - [Link to closed Content ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/122016) 
 
   - No dev work has happened on this yet. UX only.
 
@@ -201,11 +207,11 @@ Handoff Date: February 2026
 
 - Data Analytics
 
-  - Usage |[ Domo](https://va-gov.domo.com/page/447193050) (filter by Form 28-1900)
+  - Usage |[Domo](https://va-gov.domo.com/page/447193050) (filter by Form 28-1900)
 
-  - Submissions, Latency & Error Rate |[ Datadog Dashboard](https://vagov.ddog-gov.com/dashboard/94e-cku-2aq/benefits-veteran-readiness-employment-claims?fromUser=true\&refresh_mode=sliding\&from_ts=1766620687999\&to_ts=1766621587999\&live=true)
+  - Submissions, Latency & Error Rate |[Datadog Dashboard](https://vagov.ddog-gov.com/dashboard/94e-cku-2aq/benefits-veteran-readiness-employment-claims?fromUser=true\&refresh_mode=sliding\&from_ts=1766620687999\&to_ts=1766621587999\&live=true)
 
-  - CSAT |[ Domo](https://va-gov.domo.com/page/1545882322?userId=1451339229) (filter by URL containing 28-1900)
+  - CSAT |[Domo](https://va-gov.domo.com/page/1545882322?userId=1451339229) (filter by URL containing 28-1900)
 
   - Can request qualitative data from feedback surveys or help desk calls via Contact Center Team [here](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=newworld2616%2C+ATMiddleton\&labels=VSP-contact-center%2Ccc-data-request\&projects=\&template=qualitative-data-request.yml\&title=Qualitative+Data+Request)
 
@@ -214,24 +220,82 @@ Handoff Date: February 2026
 
 #### Design
 
-- In production documentation/Figma - coming soon
+- [Link to production designs](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/vocational-rehab/design/Chapter%2031%20Documentation.md)
 
-- Updates for when new form drops - coming soon
+- [Updates for when new form drops](https://www.figma.com/design/gqBtkNOCslhEwes7TsBaQy/Ch31-VR-E--2024-Updates?node-id=2608-14274&p=f&t=NBCQWv8al4uV1oa7-0)
 
 
 #### Engineering
 
-- BE processes 
+- Backend Processes 
 
-  - More coming soon
+  - [Code Path Documentation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/vocational-rehab/engineering/backend_logic.md)
     
-  - Should we update [this mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1715981718612/f40f764f3e9675c932f49eed6c9644fdc5a71372)?
+  - [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1715981718612/f40f764f3e9675c932f49eed6c9644fdc5a71372) owned by Sanja Bajovic
+    
+  - A different [Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1727286761015/c720da157691aad3bd756fcd75f1e7ec6099cef7)
 
-  - Different mural: <https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1727286761015/c720da157691aad3bd756fcd75f1e7ec6099cef7> 
+- Frontend
 
-- FE Context
+    - Forms are constructed based upon the VA Forms Library (aka Forms System)
 
-  - Coming soon
+      - [Location within Platform](https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/platform/forms-system)
+
+      - Forms System [Documentation](https://depo-platform-documentation.scrollhelp.site/developer-docs/va-forms-library-overview)
+
+        - The documentation is still in the process of being edited, with a number of portions out-of-date (see note [here](https://depo-platform-documentation.scrollhelp.site/developer-docs/va-forms-library-getting-started-with-the-forms-li)). This can lead to confusion or misunderstanding of the potential of the framework given that it’s unclear which portions are still valid and which are not.
+
+        - Best to rely on examples with [Simple Forms](https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/applications/simple-forms) (particularly [20-10207](https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/applications/simple-forms/20-10207) and [20-10206](https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/applications/simple-forms/20-10206)), [Mock Simple Forms Patterns](https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/applications/simple-forms/mock-simple-forms-patterns) (staging [link](https://staging.va.gov/mock-simple-forms-patterns/introduction)), and [Patterns Demonstrations mock form](https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/applications/simple-forms/mock-simple-forms-patterns-v3) (staging [link](https://staging.va.gov/mock-form-patterns/introduction)).
+
+      - [Web Component Fields and Patterns](https://depo-platform-documentation.scrollhelp.site/developer-docs/va-forms-library-web-component-fields-and-patterns) are now essential to creating forms and they replace the old, direct vets-json-schema approach to building forms (it’s still involved but wrapped into the Web Component Fields and Patterns for you).
+
+        - Web Component [Fields](https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/platform/forms-system/src/js/web-component-fields)
+
+        - Web Component [Patterns](https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/platform/forms-system/src/js/web-component-patterns)
+
+      - [Personal Information Page Pattern](https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/platform/forms-system/src/js/components/PersonalInformation)
+
+        - Not in the directories above but essential, and updated for gathering/displaying contact information in a form.
+
+      - New [Array Builder Pattern](https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/platform/forms-system/src/js/patterns/array-builder)
+
+        - Also not included in the Web Component Fields and Patterns but essential and the current best approach for constructing a list and loop within a form
+
+        - [Example use](https://github.com/department-of-veterans-affairs/vets-website/blob/90a613769b9c9ba3cd1bf2ab79ec7bd268fe2132/src/applications/simple-forms/mock-simple-forms-patterns-v3/pages/treatmentRecords.js)
+
+      - [Prefill Pattern](https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/platform/forms-system/src/js/patterns/prefill)
+
+      - [ConfirmationView](https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/platform/forms-system/src/js/components/ConfirmationView)
+
+  - FE Context about the work we did to update the form to use new design components to meet [VA.gov](http://va.gov) standards
+
+    - The rebuild we focused on 1) bringing the form up-to-date with its paper analogue and 2) bringing the digital experience up-to-date with current VA technology including shifting from the legacy vets-json-schema pattern to using VA web components.
+
+    - We decided to develop the new version as a separate application based on the available information, tools, and recommendations of engineers who worked closely with the Forms System at the time of initial planning and development.
+
+    - Developing the new version as a separate application had several advantages.
+
+      - It had the benefit of isolating our work and avoiding any complexity in integrating new patterns into legacy code.
+
+      - To launch the new version, we swapped the old and new app contents. This allowed us to avoid timing issues and outages associated with changing both vets-website and content-build.
+
+      - We also avoided running two versions of the app at once, which meant we didn’t need to implement migrations, instead we gave users 60 days notice of the switch, at which point in-progress forms would be lost.
+
+    - There were downsides to the separate application approach as well.
+
+      - While swapping the code, we needed to be careful to retain some things from the old app, like its manifest.
+
+      - We also had difficulty with the FE and BE communicating correctly about which app version to associate save-in-progress data with.
+
+      - Another issue is that in version history, most of the app’s code is attributed to one engineer in one day, which doesn’t help in understanding how the app developed over time.
+
+    - Given the issues of the separate application approach and, more importantly, the recently improved and standardized incorporation of feature toggles in the Forms System, we recommend that major overhauls to forms be implemented inside the same app following the new feature toggle recommendations
+
+      - [Feature toggle documentation](https://depo-platform-documentation.scrollhelp.site/developer-docs/va-forms-library-how-to-replace-a-form-page-using-)
+
+      - Note: there are still limitations to this approach (e.g., toggles only wrap page modifications) and it can be a bit clunky, but it still provides more control over switching between form versions upon release.
+
+     - Feature flag support is implemented in the App.jsx file. It allows for inserting feature flag values into form data which can be accessed in form config and other places. Currently there is one active flag, vrePrefillName, which is accessed in the prefillTransformer.
 
 - [Endpoint Monitoring Playbook](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/benefits/playbooks/vre-form-28-1900.md)
 
