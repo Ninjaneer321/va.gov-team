@@ -528,9 +528,9 @@ Two simultaneous polling processes begin to monitor the appointment status:
 
 The dual approach provides:
 - **Immediate feedback**: User sees status updates in real-time for up to 30 seconds
-- **Email notification**: User receives a follow-up email with the final booking status
-- **Graceful degradation**: If the frontend times out, the user still gets notified via email
-- **Clear guidance**: Users know whether to refresh, wait for email, or call for assistance
+- **Email notification**: User receives a follow-up email if the process fails
+- **Graceful degradation**: If the frontend times out, the user still gets notified via email if it failed
+- **Clear guidance**: Users know whether to refresh, or call for assistance
 
 ```mermaid
 sequenceDiagram
