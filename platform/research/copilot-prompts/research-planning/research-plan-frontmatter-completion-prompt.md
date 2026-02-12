@@ -141,9 +141,9 @@ I need help completing the YAML frontmatter section at the top of my research pl
      ```yaml
      pilot_sessions:
        - date: "2025-05-05"
-         participant: "Sarah Koomson"
+         participant: "Jane Doe"
        - date: "2025-05-06"
-         participant: "Maria Mutia"
+         participant: "John Doe"
      ```
    - DO NOT merge them into a single date
 
