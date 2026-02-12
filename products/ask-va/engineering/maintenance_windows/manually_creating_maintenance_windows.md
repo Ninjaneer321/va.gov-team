@@ -29,4 +29,4 @@ If you do not have not have terminal access, you must first fill out the [vets-a
 
 > [!NOTE]
 > When manually inserting a record into the `maintenance_windows` tables, it will be cleared in 3 minutes or less. This
-[cronjob](https://github.com/department-of-veterans-affairs/vets-api/blob/1a460cf00c953d34670553dbc44ddea0907b60d6/lib/periodic_jobs.rb#L185) polls PagerDuty and refreshes maintenance window state. This means manually inserted records may be removed.
+[cronjob](https://github.com/department-of-veterans-affairs/vets-api/blob/1a460cf00c953d34670553dbc44ddea0907b60d6/lib/periodic_jobs.rb#L185) polls PagerDuty and refreshes maintenance window state. This means manually inserted records may be removed regardless of the provided end time.
