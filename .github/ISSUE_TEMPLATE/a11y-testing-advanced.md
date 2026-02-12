@@ -122,14 +122,13 @@ Complete all required checks and as many recommended checks as you can. If you c
   - [ ] Fail  
 
 #### Advanced
-
 - **Brief descriptions are provided for videos and audio files (WEB-111-005)**  
   Video and audio content have short descriptive text alternatives that identify the purpose of the content.
   [Testing WEB-111-005](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB%E2%80%91111%E2%80%91005-Briefdescriptionsareprovidedforvideosandaudiofiles(Advanced))
   - [ ] Pass  
   - [ ] Fail
  
- - **Audio descriptions are provided for videos with important visual information (WEB-125)**  
+- **Audio descriptions are provided for videos with important visual information (WEB-125)**  
   Multimedia content must supply an audio description, which accurately informs the user of any important visual information not already conveyed through audio.
   [Testing WEB-125](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB%E2%80%91125-Audiodescriptionsareprovidedforvideoswithimportantvisualinformation(Advanced))
   - [ ] Pass  
@@ -302,8 +301,8 @@ Complete all required checks and as many recommended checks as you can. If you c
   - [ ] Pass  
   - [ ] Fail
 
- #### Advanced
- - **All actions work with simple taps or clicks (WEB-251)**  
+#### Advanced
+- **All actions work with simple taps or clicks (WEB-251)**  
   Functions requiring multipoint or path-based gestures also work with single pointer actions. 
   [Testing WEB-251](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual#AccessibilityTestingManual-WEB%E2%80%91251-Allactionsworkwithsimpletapsorclicks(Advanced))
   - [ ] Pass  
