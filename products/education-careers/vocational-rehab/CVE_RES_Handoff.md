@@ -208,11 +208,11 @@ Handoff Date: February 2026
 
 - Data Analytics
 
-  - Usage |[Domo](https://va-gov.domo.com/page/447193050) (filter by Form 28-1900)
+  - Usage | [Domo](https://va-gov.domo.com/page/447193050) (filter by Form 28-1900)
 
-  - Submissions, Latency & Error Rate |[Datadog Dashboard](https://vagov.ddog-gov.com/dashboard/94e-cku-2aq/benefits-veteran-readiness-employment-claims?fromUser=true\&refresh_mode=sliding\&from_ts=1766620687999\&to_ts=1766621587999\&live=true)
+  - Submissions, Latency & Error Rate | [Datadog Dashboard](https://vagov.ddog-gov.com/dashboard/94e-cku-2aq/benefits-veteran-readiness-employment-claims?fromUser=true\&refresh_mode=sliding\&from_ts=1766620687999\&to_ts=1766621587999\&live=true)
 
-  - CSAT |[Domo](https://va-gov.domo.com/page/1545882322?userId=1451339229) (filter by URL containing 28-1900)
+  - CSAT | [Domo](https://va-gov.domo.com/page/1545882322?userId=1451339229) (filter by URL containing 28-1900)
 
   - Can request qualitative data from feedback surveys or help desk calls via Contact Center Team [here](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=newworld2616%2C+ATMiddleton\&labels=VSP-contact-center%2Ccc-data-request\&projects=\&template=qualitative-data-request.yml\&title=Qualitative+Data+Request)
 
