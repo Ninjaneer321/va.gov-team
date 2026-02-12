@@ -11,7 +11,8 @@ Last updated: 10 Feb 2026
 <img width="259" height="340" alt="Screenshot of alert at the top of the page following the page heading" src="../files/alert-static-page.png" />
 
 #### Resources
-- [Primary Alert — Tool/Page annotations (Figma)](https://www.figma.com/design/NI9ziF3FsJcU9SxoABc85v/%F0%9F%93%98-MHV---Accessibility-Explorations?node-id=6912-11642&t=EE024ZsypfinKXeu-1)
+- [Primary Alert — Tool/Page annotations (Figma)](https://www.figma.com/design/NI9ziF3FsJcU9SxoABc85v/%F0%9F%93%98-MHV---Accessibility-Explorations?node-id=6912-11642&t=EE024ZsypfinKXeu-1) — annotated pattern from MHV Accessibility includes details about positioning and accessibility attributes
+- [Alert](https://design.va.gov/components/alert/) — component documentation from VADS includes links to component in Figma and Storybook and usage guidance
 
 #### Guidance
 - Use for unprompted tool- or page-wide messages.
