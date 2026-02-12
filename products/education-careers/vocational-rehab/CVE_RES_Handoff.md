@@ -135,6 +135,12 @@ Handoff Date: February 2026
 
 ### Potential Future Initiatives:
 
+#### Efolder API replacement 
+
+- The efolder API is currently used to upload the completed PDF form to VBMS
+
+- Apparently the efolder API is being deprecated and this process needs to move over to the [Claims Evidence API](https://claimevidence-api-dev.dev.bip.va.gov/api/v1/rest/swagger-ui.html).
+
 #### Confirmation Page
 
 - Right now it doesn’t exactly match the VA design system template - we don’t link a PDF to the user to download. It could be good to figure out how to do that.
@@ -187,14 +193,6 @@ Handoff Date: February 2026
   - The simplest solution would be to hook applications made to RES into the aforementioned Benefits Intake API.  That way, Ch31 application statuses could be retrieved in the same way as current applications
 
   - Another possibility is to create a new endpoint on the API which is called by the RES service, in order to update application status
-
-
-#### Efolder API replacement 
-
-- The efolder API is currently used to upload the completed PDF form to VBMS
-
-- Apparently the efolder API is being deprecated and this process needs to move over to the [Claims Evidence API](https://claimevidence-api-dev.dev.bip.va.gov/api/v1/rest/swagger-ui.html).
-
 
 ### Resources/Documentation:
 
