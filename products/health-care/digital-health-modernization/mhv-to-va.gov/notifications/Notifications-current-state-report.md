@@ -14,25 +14,35 @@ This report documents what we know and understand about notifications that route
   <img width="363" height="260" alt="Screenshot 2026-02-11 at 4 10 59 PM" src="https://github.com/user-attachments/assets/19361a2d-fdb8-4db3-b39a-37e2bb405dae" />
 
 ## Appointments
-  * You have an upcoming VA appt
+What notifications do users already get?
+* You have an upcoming VA appt
+  * Email:
+  * Text message:  
  
 Questions:
-  * community care notifications? 
+  * Community care notifications? 
 
 Resources:
   * [Appts notifications service blueprint](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/products/health-care/appointments/research/2021-10-appointment-notifications-service-map/research-findings.md)
 
-  ## Messages
-  * Welcome to SM email notification: triggered when someone becomes eligible for SMs.
-    * Not totally sure on the logic for that but SM BE team would know.
-  * You have a new message - triggered when have a new message
+## Messages
+What notifications do users already get?
+* Welcome to SM email notification: triggered when someone becomes eligible for SMs.
+  * Email:
+  * Text message:
+  * Not totally sure on the logic for that but SM BE team would know.
+* You have a new message - [triggered when have a new message]
+  * Email:
+  * Text message:
 
-  ## Medications
-  * You have 1 medication shipped
-  * You have multiple medications shipped
+## Medications
+* You have 1 medication shipped
+  * Email:
+  * Text message:
+* You have multiple medications shipped
 
-  ## Medical records
-  * Your medical image successfully downloaded. Go to look at it.
+## Medical records 
+* Your medical image successfully downloaded. Go to look at it.
   * Your medical image did not successfully download. Try again.
   * (OH only) Will have a "you have a L&T record - go there now". _Other clinical events are eligible but just starting with that one._
 
