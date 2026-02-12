@@ -73,6 +73,7 @@ Main takeaway from the research sessions
 
 
 
+
 #### P6
 **UX Notetaker:**
 - Participant stated is was clear that if they were eligible for TRICARE they would not be eligible for CHAMVPA
@@ -91,11 +92,62 @@ Main takeaway from the research sessions
 
 #### P7
 
+**UX Notetaker:**
+- No strong preference for either prototype, but P7 did want to stop the application if she got an "ineligible" message to talk to her sponsor and a representative to make sure this wasn't a mistake or fix any problems before proceeding with the application
+- Had issues with the double negative in summary card style A, felt that card style B aligned more with her comprehension of TRICARE and CHAMPVA eligibility
+- Wanted slightly more bolding or green/red alerts to really let users know "green means go, red means no" for the eligibility information.
+
+**Observer 1:**
+- Participant seemed confident that is was clear that if you were eligible for Tricare you could not be eligible for CHAMPVA (noticed on the intro page and within the eligibility pattern)
+- The participant preferred eligibility card option B where the content was changed in context; the default wording with the red x was confusing and unclear to them
+- They seemed to view the alerts as informative and not blocking, but did mention wanting a person to talk to when a warning alert would appear if they were completing the form
+
+
 #### P8
+
+**UX Notetaker:**
+- It was clear to them if they qualify for TRICARE the are not eligible for CHAMPVA and they caught that on the intro page
+- The double negative statement on the default eligibility review box was confusing for them, they preferred alternate option B
+- For most alerts would follow the same process - double check inputted information then reach out. They did state they would schedule an appt with the VA eligibility and enrollment office
+
+**Observer 1:**
+- P8 had no prior knowledge of CHAMPVA, but was easily able to grasp the eligibility requirements for the program based on the intro and static pages. 
+- P8 had no preference for prototypes but did prefer Card Style B for clarity of language. 
+- Notable in P8's session was how often she wouldn't exit the application, but would prefer to save in progress to troubleshoot. This came up with regards to system errors as well as summaries of the eligibility.
+
+
 
 #### P9
 
+**UX Notetaker:**
+- Would like to know his eligibility at the front end so he does not have to waste his time with any additional processes.
+- Prefers multiple ‘vectors’ at blocking point (warning alerts) so he can reach out to the personnel to quickly confirm the situation or information
+- Commented on the naurnce of language, noting that many of the content uses the word “may” so if he was in a situation where he really wanted health care for his dependent, he we go through the form to have a “true determination” from an actual person.
+
+
+**Observer 1:**
+- Overall the participant was focused on efficiency and having information presented upfront and as early as possible. He did not want to waste his time.
+- Participant liked visual symbols to help relay information, such as checks and x, bullets, and call out boxes to increase scanability, readability, and call his attention. 
+- He wanted to have options for next steps and actions, he didn't want the experience to be a dead end. He wanted to know what to do next and have that information presented the first time an ineligibility alert was presented.
+
+**Observer 2:**
+- Participant was well aware of TRICARE, but understood yet was unaware that you couldn't be eligible for CHAMPVA too
+- Participant appreciated the alert and the check in DEERS but would like an action (links to check, phone number to call, facilities to visit) for those that need to resolve an incorrect data issue
+- Pineapple was preferred because they were informed earlier
+
+
 #### P10
+
+**UX Notetaker:**
+
+
+**Observer 1:**
+
+
+
+**Observer 2:**
+
+
 
 #### P11
 
