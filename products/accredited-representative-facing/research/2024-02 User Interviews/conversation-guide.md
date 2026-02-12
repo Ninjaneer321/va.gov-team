@@ -1,29 +1,51 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for ARF Team, Accredited Representative Portal User Interviews, February 2024"
+author: "Renata Keck, Rebecca Blakiston, Kara Sanchez"
+date_created: "2024-02-01"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Accredited Representative Facing (ARF) Team"
+portfolio: "benefits"
+product: "Accredited Representative Portal - SEP Replacement"
+research_phase: "discovery"
+research_method: "semi-structured-interviews"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Accredited representatives from big VSOs and small VSOs, mixture of novice and experienced users, urban and rural representatives, mixture of Veterans and non-Veterans"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "/products/accredited-representative-facing/research/2024-02 User Interviews/research-plan.md"
+related_prototype: "https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1706127153075/2a5b791fb4bcd9667d98daaa9586211ea2eab234?sender=u503219bf4e47eab9c75d3838"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - AUD-vso-representatives
+  - AUD-accredited-representatives
+  - PRDT-accredited-representative-portal
+  - PRDT-form-21-22
+  - power-of-attorney
+  - semi-structured-interviews
+  - participatory-design
+  - concept-testing
+  - moderated-research
+  - remote-research
+  - discovery
+  - mvp
+  - SEP-replacement
+  - big-vso
+  - small-vso
+  - dashboard
+  - navigation
+  - authentication
+  - landing-page
+  - permissions
+  - notifications
+  - workflow-analysis
+  - pain-points
+  - user-needs
+description: "Discovery conversation guide for initial user interviews with accredited representatives exploring current POA processes, pain points, tool usage (SEP/VBMS), workflow analysis, organizational permissions, and participatory design of MVP landing page and dashboard concepts."
 
 # NEW: Compliance flags
 recording_required: true

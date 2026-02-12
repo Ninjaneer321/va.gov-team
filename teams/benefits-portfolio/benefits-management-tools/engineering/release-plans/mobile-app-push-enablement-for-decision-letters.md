@@ -23,20 +23,22 @@ Before enabling your feature toggle in production, you'll need to:
 - [x] Testing of all permutations of the feature flags. Confirm no regression in the send_email endpoint as well as correct push notifications sent. Test results documented in [#122588](https://github.com/department-of-veterans-affairs/va.gov-team/issues/122588)
 - [x] Confirm that logging has not changed and that existing Dashboards are working
 - [x] Implement dashboard or add to existing dashboard to track push notifications
-- [ ] Previously the eventbus-gateway sign-on token was scoped only to the `send_email` endpoint.  Confirm that the identity team has updated the config in production to accept both the `send_email` and `send_notifications` endpoints
-- [ ] Similar to above the eventbus-gateway vsp-infra-application-manifests configuration for `tokenScope` must be updated to accept both `send_email` and `send_notifications`
+- [x] Previously the eventbus-gateway sign-on token was scoped only to the `send_email` endpoint.  Confirm that the identity team has updated the config in production to accept both the `send_email` and `send_notifications` endpoints (completed 2/6 [slack thread](https://dsva.slack.com/archives/CSFV4QTKN/p1770416385156409?thread_ts=1770332773.417629&cid=CSFV4QTKN))
+- [x] Similar to above the eventbus-gateway vsp-infra-application-manifests configuration for `tokenScope` must be updated to accept both `send_email` and `send_notifications` (completed 2/9)
 - [x] Confirm that VANotify has, in production, created the preferences for "Benefits Claims and Decision Reviews".
 - [x] Confirm that VANotify has populated the preference retroactively to all users ([slack thread](https://dsva.slack.com/archives/C018V2JCWRJ/p1770247934357449?thread_ts=1770049116.138369&cid=C018V2JCWRJ))
-- [ ] Confirm "What's new" content has been published (Planned for release 2/10)
-- [ ] Testing of progressive rollout of "What's new" and preference is complete
+- [x] Confirm "What's new" content has been published (Released 2/10)
+- [x] Testing of progressive rollout of "What's new" and preference is complete
 - [x] Confirm the Mobile App team has completed any desired testing
 - [x] Confirm the Mobile App team has deployed their analytics update (released on 1/13/26)
 - [x] Confirm VetText has completed a production deployment of push template ([slack thread](https://dsva.slack.com/archives/C018V2JCWRJ/p1770247919989499?thread_ts=1770049116.138369&cid=C018V2JCWRJ))
 - [x] Confirm push template text matches "Your VA benefit decision letter is available"
+- [x] Confirm production template is set in eventbus gateway config
+- [x] Confirm BMT VANotify push service id and token are set in production
 - [x] Gather details for single user test
-- [ ] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
-    - [ ] review the plan with your DEPO/OCTO representative.
-    - [ ] review the release plan with your team.
+- [x] Have a go/no go meeting with the team to ensure that the feature is ready for use and signed off by each discipline and your DEPO/OCTO contact. During this meeting, you'll need to:
+    - [x] review the plan with your DEPO/OCTO representative.
+    - [x] review the release plan with your team.
 
 ## Step 3: Production rollout
 
@@ -54,8 +56,9 @@ We will be performing a progressive rollout to be able to minimize the productio
 
 #### Results
 
-- Number of users: ___
-- Number of bugs identified / fixed: ___
+- Number of users: 1
+- Number of bugs identified / fixed: 
+    - Bug found with preference showing "Claim Status Updates" instead of "Benefits claims and decision reviews" - Fixed on 2/11
 - Was any downstream service affected by the change?: ___
 - Types of errors logged: ___
 - Any changes necessary based on the logs, feedback on user challenges, or VA challenges?: ___

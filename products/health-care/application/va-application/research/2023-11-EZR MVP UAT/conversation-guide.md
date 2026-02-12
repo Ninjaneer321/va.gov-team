@@ -1,31 +1,33 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "10-10EZR MVP UAT Conversation Guide"
+author: "Health Enrollment Team"
+date_created: "2023-11-01"
+last_modified: "2023-11-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Health Enrollment Team"
+portfolio: "health"
+product: "10-10EZR Health Benefits Update Form"
+research_phase: "evaluative"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans enrolled in VA health care needing to update their information"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/application/va-application/research/2023-11-EZR MVP UAT/research-plan.md"
+related_prototype: "https://va.gov/my-health/update-benefits-information-form-10-10ezr"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "10-10EZR"
+  - "UAT"
+  - "health-benefits-update"
+  - "MVP"
+description: "User Acceptance Testing for the 10-10EZR MVP, validating that Veterans can successfully update their health benefits information online."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

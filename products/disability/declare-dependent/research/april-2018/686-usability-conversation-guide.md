@@ -1,34 +1,54 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Form 686c Dependents Benefits Usability Research and Form 674 Discovery, April 2018"
+author: "Elissa"
+date_created: "2018-04-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Benefits and Disability"
+portfolio: "benefits"
+product: "Form 21-686c - Declaration of Status of Dependents"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with 30% or greater disability rating, representing all service branches, with at least half having dependents using VA benefits, plus one spouse of a Veteran"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://projects.invisionapp.com/share/M4H8VL3TY36"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD:Veterans"
+  - "AUD:Service Members"
+  - "AUD:Dependents"
+  - "AUD:Family Member"
+  - "BNFT:Disability"
+  - "BNFT:Education"
+  - "PRDT:Form 21-686c"
+  - "PRDT:Form 21-674"
+  - "PRDT:vets.gov"
+  - "DSC:Form"
+  - "DSC:Text Input"
+  - "DSC:Radio Button"
+  - "DSC:Checkbox"
+  - "DSP:Form Templates"
+  - "DSP:Ask users for names"
+  - "DSP:Ask users for dates"
+  - "DSP:Ask users for addresses"
+  - "HDW:Smartphone"
+  - "usability-testing"
+  - "moderated-usability-testing"
+  - "semi-structured-interviews"
+  - "discovery-research"
+description: "Usability test and discovery research for Form 686c dependents benefits application on mobile, examining form flow, eligibility understanding, marriage and spouse information collection, and integration with Form 674."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide: 686 Usability Research and 674 Discovery

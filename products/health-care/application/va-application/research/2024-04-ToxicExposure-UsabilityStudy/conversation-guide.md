@@ -1,29 +1,39 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Health Enrollment Team, 10-10EZ, April 2024 - Toxic Exposure Questions Usability Study"
+author: "Health Enrollment Team"
+date_created: "2024-04-01"
+last_modified: "2024-04-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Health Enrollment Team"
+portfolio: "health"
+product: "VA Health Care Application (10-10EZ)"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans without VA health care who have potential toxic exposure history and TERA eligibility"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/application/va-application/research/2024-04-ToxicExposure-UsabilityStudy/research-plan.md"
+related_prototype: "https://www.va.gov/health-care/apply/application/introduction"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "health-care-application"
+  - "10-10EZ"
+  - "toxic-exposure"
+  - "TERA"
+  - "PACT-Act"
+  - "usability-testing"
+  - "enhanced-eligibility"
+  - "DD-214"
+  - "document-upload"
+  - "service-history"
+  - "facility-selection"
+  - "household-financial-information"
+description: "Usability study for toxic exposure questions on the VA health care application (10-10EZ), testing TERA eligibility flow, service date collection, and document upload experience."
 
 # NEW: Compliance flags
 recording_required: true

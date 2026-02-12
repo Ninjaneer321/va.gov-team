@@ -1,31 +1,42 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for MHV to VA.gov Secure Messaging, September 2022"
+author: "Digital Health Modernization Team"
+date_created: "2022-09-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Digital Health Modernization"
+portfolio: "health"
+product: "My HealtheVet on VA.gov - Secure Messaging"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use My HealtheVet and send secure messages to their health care team"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2022-09-usability_testing_2/research-plan.md"
+related_prototype: "https://www.sketch.com/s/77fd8aec-67b1-446d-b64a-8b942865be82/prototype/a/0C5CF38D-3AAC-477B-A479-B14220AA3503"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My HealtheVet"
+  - "MHV: Secure Messaging"
+  - "usability-testing"
+  - "moderated-usability-test"
+  - "remote-research"
+  - "DSP: Help users to - communicate"
+  - "DSC: Form"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "MHV-to-VA.gov"
 
-# NEW: Compliance flags
+description: "Usability testing conversation guide for My HealtheVet Secure Messaging on VA.gov, testing message threads, replying, searching, organizing, and patient safety messaging."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

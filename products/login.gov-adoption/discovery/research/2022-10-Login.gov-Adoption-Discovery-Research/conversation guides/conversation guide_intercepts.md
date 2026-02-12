@@ -1,3 +1,50 @@
+---
+title: "Conversation Guide for Login.gov Adoption Discovery - Intercepts, November 2022"
+author: "[TBD - not specified in document]"
+date_created: "2022-11-01"
+last_modified: "2024-12-20"
+
+# Core research metadata
+team: "Login.gov Adoption Team"
+portfolio: "digital-experience"
+product: "Login.gov Adoption"
+research_phase: "discovery"
+research_method: "intercept_interviews"
+
+# Session details
+session_duration: "5-10 minutes"
+session_type: "in_person"
+participant_criteria: "Veterans visiting VA facilities, both users and non-users of My HealtheVet"
+
+# Related documents
+related_research_plan: "../../research-plan.md"
+related_prototype: "N/A"
+
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Login.gov"
+  - "PRDT: My-HealtheVet"
+  - "DSP: Ask users for... authentication"
+  - "authentication"
+  - "identity-proofing"
+  - "multi-factor-authentication"
+  - "MFA"
+  - "security-keys"
+  - "shared-access"
+  - "delegated-access"
+  - "intercept-interviews"
+  - "guerrilla-research"
+  - "in-person-research"
+  - "quick-feedback"
+
+description: "Brief intercept interviews at VA facilities gathering quick feedback on Login.gov adoption concepts including email communications, shared access features, security keys, and proactive account creation."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: false
+---
+
 # Conversation Guide: Intercepts
 Login.gov Adoption Discovery, November 2022
 

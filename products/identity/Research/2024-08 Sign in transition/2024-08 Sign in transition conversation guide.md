@@ -1,3 +1,55 @@
+---
+title: "Conversation Guide for Identity Experience, Sign-in Page Credential Deprecation, 08/2024"
+author: "Megan Driscoll, Charly Tran, Clayton Zook"
+date_created: "2024-08-01"
+last_modified: "2026-02-11"
+
+# NEW: Core research metadata
+team: "Identity Experience"
+portfolio: "digital-experience"
+product: "Sign-in Page and Sign-in Modal"
+research_phase: "usability"
+research_method: "usability_test"
+
+# NEW: Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who primarily use My HealtheVet credential to sign into VA.gov, with focus on mobile users and those with cognitive disabilities"
+
+# NEW: Related documents
+related_research_plan: "/products/identity/Research/2024-08 Sign in transition/2024-08 Sign in transition research plan.md"
+related_prototype: "https://www.figma.com/proto/skWgD0gHYGlKSoLdH097OX/Sign-in-changes"
+
+tags:
+  - "AUD-Veterans"
+  - "identity"
+  - "authentication"
+  - "sign-in"
+  - "credential-deprecation"
+  - "MHV"
+  - "MyHealtheVet"
+  - "DS-Logon"
+  - "Login.gov"
+  - "ID.me"
+  - "CSP-migration"
+  - "legacy-credentials"
+  - "modern-credentials"
+  - "usability-testing"
+  - "prototype-testing"
+  - "HDW-Smartphone"
+  - "HDW-Desktop"
+  - "cognitive-disability"
+  - "interstitial-page"
+  - "credential-transition"
+  - "unified-sign-in-page"
+description: "Usability testing of sign-in page and modal design changes to communicate deprecation of legacy credentials (MHV and DS Logon) and encourage transition to modern credentials (Login.gov and ID.me). Tests comprehension of deprecation messaging, interstitial content, and willingness to transition."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide for Identity Experience, sign-in page credential deprecation
 
 ## Moderator logistics

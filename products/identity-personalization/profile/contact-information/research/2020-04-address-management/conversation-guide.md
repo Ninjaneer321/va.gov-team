@@ -1,31 +1,40 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Address Management Research, April-May 2020"
+author: "Lauryl Zenobi"
+date_created: "2020-04-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Authenticated Experience"
+portfolio: "digital-experience"
+product: "Profile - Contact Information"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use VA websites and manage contact information with VA"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/identity-personalization/profile/contact-information/research/2020-04-address-management/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: Profile"
+  - "PRDT: Contact Information"
+  - "DSC: Address Input"
+  - "moderated-interview"
+  - "qualitative-research"
+  - "user-research"
+  - "discovery-research"
+  - "profile-management"
+  - "address-management"
 
-# NEW: Compliance flags
+description: "Conversation guide for research exploring how Veterans manage and update their address and contact information across VA, conducted April-May 2020."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

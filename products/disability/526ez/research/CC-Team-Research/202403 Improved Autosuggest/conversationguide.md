@@ -1,3 +1,44 @@
+---
+title: "Conversation Guide for Contention Classification, Improved Autosuggest Component, March 2024"
+author: "CC Team Research"
+date_created: "2024-03-26"
+last_modified: "2024-03-26"
+
+# NEW: Core research metadata
+team: "Contention Classification Team"
+portfolio: "benefits"
+product: "Disability Compensation Application (Form 21-526EZ)"
+research_phase: "usability"
+research_method: "usability_test"
+
+# NEW: Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have filed or are considering filing disability compensation claims"
+
+# NEW: Related documents
+related_research_plan: "products/disability/526ez/research/CC-Team-Research/202403 Improved Autosuggest/research-plan.md"
+related_prototype: "https://codepen.io/ccteam/live/poqxVpB"
+
+tags:
+  - "disability-compensation"
+  - "form-526ez"
+  - "autosuggest"
+  - "condition-selection"
+  - "comparative-testing"
+  - "prototype-testing"
+  - "usability-testing"
+  - "design-comparison"
+  - "owl-design"
+  - "fox-design"
+description: "Comparative usability testing of two autosuggest component designs (Owl and Fox) for entering disability conditions on Form 21-526EZ."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 Improved Autosuggest Component 
 
 Draft Conversation Guide (updated Mar 26, 2024)

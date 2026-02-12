@@ -1,29 +1,46 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Authenticated Experience Profile, Military Information Enhancement MVP, 02/2024"
+author: "Pam Drouin"
+date_created: "2024-02-01"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Authenticated Experience Profile"
+portfolio: "digital-experience"
+product: "VA.gov Profile - Military Information"
+research_phase: "evaluative"
+research_method: "moderated_interview"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans from all six military branches who have submitted disability claims (50% PACT Act claims, 50% deployed overseas), willing to share their military service history data"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "/products/identity-personalization/profile/Research/2024-01-military-info-enhancement-mvp/research-plan.md"
+related_prototype: "https://www.figma.com/file/zb5ecY9yMnupiLjaH9UmSc/Profile---Military-Information"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-Veterans"
+  - "profile"
+  - "military-information"
+  - "authenticated-experience"
+  - "BNFT-Disability"
+  - "PACT-Act"
+  - "MOS"
+  - "military-occupational-specialty"
+  - "duty-status"
+  - "service-history"
+  - "concept-testing"
+  - "generative-research"
+  - "evaluative-research"
+  - "mapping-exercise"
+  - "VADIR"
+  - "HDW-Desktop"
+  - "HDW-Laptop"
+  - "data-quality"
+  - "mental-models"
+description: "Generative interviews and concept testing to understand veteran mental models around military occupation specialties, review VADIR data accuracy with real veteran data, and gather feedback on enhanced military information section displaying duty status, MOS codes, and dates."
 
 # NEW: Compliance flags
 recording_required: true

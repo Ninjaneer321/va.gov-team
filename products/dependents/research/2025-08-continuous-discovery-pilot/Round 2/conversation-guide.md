@@ -1,13 +1,38 @@
 
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Dependents Management Team, Email Content Testing, August 2025"
+author: "Megan Graham"
+date_created: "2025-08-14"
+last_modified: "2025-08-14"
+
+# NEW: Core research metadata
+team: "Dependents Management Team"
+portfolio: "benefits"
+product: "Dependents Management Tools"
+research_phase: "evaluative"
+research_method: "moderated_interview"
+
+# NEW: Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with dependents on disability compensation benefits"
+
+# NEW: Related documents
+related_research_plan: "products/dependents/research/2025-08-continuous-discovery-pilot/Round 1/research-plan.md"
+related_prototype: "N/A"
+
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Dependents"
+  - "semi-structured-interviews"
+  - "content-testing"
+description: "Round 2 of continuous discovery pilot testing email content variations for dependent verification communications with Veterans receiving disability compensation."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 # Conversation Guide for [initiative]
 

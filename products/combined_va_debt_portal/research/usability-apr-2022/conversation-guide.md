@@ -1,31 +1,46 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Debt Resolution Team, Combined Debt Portal Usability, June 2022"
+author: "Debt Resolution Team"
+date_created: "2022-04-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Debt Resolution Team"
+portfolio: "benefits"
+product: "Combined VA Debt Portal"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans enrolled in VA healthcare with copays and/or Veterans with VA benefit debts"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://preview.uxpin.com/14f87574b6f025caa5d45944153e0003aa62fab4"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "PRDT: debt-portal"
+  - "HDW: Desktop"
+  - "usability-testing"
+  - "moderated-usability-test"
+  - "VA debt"
+  - "Copay bills"
+  - "Medical copays"
+  - "Financial assistance"
+  - "Payment"
+  - "DSP: Content Presentation"
+  - "Navigation"
+  - "Information architecture"
 
-# NEW: Compliance flags
+description: "Usability testing of the Combined VA Debt Portal to assess Veterans' ability to access and manage information about VA debts and copay bills in a single unified portal."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

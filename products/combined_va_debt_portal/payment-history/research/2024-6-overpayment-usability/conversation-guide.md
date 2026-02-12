@@ -1,29 +1,39 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Debt Resolution Team, Debt Portal Payment History, June 2024"
+author: "Charlotte Cesana"
+date_created: "2024-06-01"
+last_modified: "2024-07-18"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Debt Resolution Team"
+portfolio: "benefits"
+product: "Debt Portal Payment History"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with VA overpayment debt"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/combined_va_debt_portal/payment-history/research/2024-6-overpayment-usability/research-plan.md"
+related_prototype: "https://codepen.io/team/Debt-Team/live/rNgqxLY"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "overpayment"
+  - "debt"
+  - "debt portal"
+  - "payment history"
+  - "usability testing"
+  - "evaluative research"
+  - "VBA"
+  - "benefits"
+  - "debt letters"
+  - "financial help"
+  - "transaction history"
+  - "balance information"
+description: "Evaluative usability study for the Debt Portal Payment History, testing participants' ability to understand overpayment debt information, transaction details, payment history, and debt resolution options."
 
 # NEW: Compliance flags
 recording_required: true

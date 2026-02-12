@@ -1,31 +1,47 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for 10-10EZ Health Care Application, Short Form Usability, June 2022"
+author: "Dené Gabaldón"
+date_created: "2022-06-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "10-10 Applications Team"
+portfolio: "health"
+product: "10-10EZ Health Care Application"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes (120 minutes for screenreader users)"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with varying disability ratings (50%+, below 50%, and no rating) to test short form variations"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/application/va-application/research/Short form usability-June 2022/research-plan.md"
+related_prototype: "https://staging.va.gov/health-care/apply/application/introduction"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: 10-10EZ"
+  - "DSC: Form"
+  - "DSC: Alert Boxes"
+  - "DSP: Ask users for... Personal Information"
+  - "DSP: Ask users for... Military Service"
+  - "DSP: Help users to... Complete a Form"
+  - "moderated-usability-test"
+  - "authenticated-experience"
+  - "disability-rating"
+  - "short-form"
+  - "staging-environment"
+  - "accessibility"
+  - "screenreader"
+  - "self-reported-data"
+  - "VA-compensation"
 
-# NEW: Compliance flags
+description: "Usability research for the shortened 10-10EZ health care application form based on disability rating. Tests three variations: authenticated users with 50%+ rating known at sign-in, users self-reporting 50%+ rating, and users without qualifying disability rating."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

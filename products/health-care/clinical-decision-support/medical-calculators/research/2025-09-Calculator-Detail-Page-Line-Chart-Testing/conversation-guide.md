@@ -1,13 +1,43 @@
 ---
-title: "Conversation Guide for CDS Medical Calculators,09/16/2025"
+title: "Conversation Guide for CDS Medical Calculators, Calculator Detail Page Line Chart Testing, September 2025"
 author: "Rosemary Rogers"
-date_created: "09/10/2025"
-last_modified: "9/17/2025"
+date_created: "2025-09-10"
+last_modified: "2025-09-17"
+
+# NEW: Core research metadata
+team: "Clinical Decision Support (CDS)"
+portfolio: "health"
+product: "Medical Calculators"
+research_phase: "usability"
+research_method: "usability_test"
+
+# NEW: Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA healthcare providers (PCPs and emergency department clinicians) who use medical calculators"
+
+# NEW: Related documents
+related_research_plan: "products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing/research-plan.md"
+related_prototype: "N/A"
+
 tags:
-  - "line charts"
-  - "lab trends"
-  - "medical calculators"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-clinicians"
+  - "AUD-providers"
+  - "PRDT-medical-calculators"
+  - "PRDT-cds-console"
+  - "BNFT-health-care"
+  - "DSC-line-chart"
+  - "DSC-data-visualization"
+  - "usability-testing"
+  - "lab-results"
+  - "HAS-BLED"
+  - "clinical-workflows"
+description: "Usability testing of line charts displaying lab trend data within medical calculator fields (HAS-BLED calculator), evaluating clinician comprehension of ALT/AST/AP, Bilirubin, and INR lab history for clinical decision-making."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 # Conversation Guide for Testing Line Charts within Specific Calculator Fields
 

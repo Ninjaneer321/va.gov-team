@@ -1,34 +1,45 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for 10-10EZ Health Care Application UAT, Short Form, June 2022"
+author: "[TBD - not specified in document]"
+date_created: "2022-06-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "10-10 Health Apps Team"
+portfolio: "health"
+product: "10-10EZ Health Care Application"
+research_phase: "evaluative"
+research_method: "user_acceptance_testing"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with service-connected disability ratings (both 50%+ and below 50%) testing in production environment"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/health-care/application/va-application/research/short form UAT may.june 2022/research-plan.md"
+related_prototype: "https://www.va.gov/health-care/apply/application/introduction"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: 10-10EZ"
+  - "DSC: Form"
+  - "DSP: Ask users for... Personal Information"
+  - "DSP: Ask users for... Military Service"
+  - "DSP: Help users to... Complete a Form"
+  - "user-acceptance-testing"
+  - "authenticated-experience"
+  - "disability-rating"
+  - "short-form"
+  - "feature-validation"
 
-# NEW: Compliance flags
-recording_required: true
+description: "UAT conversation guide for testing the shortened 10-10EZ health care application form based on service-connected disability rating of 50% or greater, validating feature functionality for authenticated users in production."
+
+# Compliance flags
+recording_required: false
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # [DRAFT] Conversation Guide: Health Care application 10-10EZ, UAT of shortened form based on disability rating, October 2022

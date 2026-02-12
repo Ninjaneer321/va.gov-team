@@ -1,3 +1,50 @@
+---
+title: "Conversation Guide: Login.gov Adoption Discovery - Migration and Re-proofing (Scenario 1)"
+author: "Login.gov Adoption Team"
+date_created: "2022-10-01"
+last_modified: "2024-01-15"
+
+# Core research metadata
+team: "Login.gov Adoption Team"
+portfolio: "digital-experience"
+product: "Login.gov Adoption"
+research_phase: "discovery"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "90 minutes"
+session_type: "in_person"
+participant_criteria: "Veterans who use My HealtheVet and have upcoming VA medical appointments"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
+
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Login.gov"
+  - "PRDT: My HealtheVet"
+  - "authentication"
+  - "identity-proofing"
+  - "identity-verification"
+  - "multi-factor-authentication"
+  - "MFA"
+  - "security-keys"
+  - "account-migration"
+  - "in-person-research"
+  - "discovery-interviews"
+  - "shared-access"
+  - "BNFT: Healthcare"
+  - "DSP: Help users to... Sign in"
+
+description: "In-person discovery research conversation guide testing Login.gov account migration and identity re-proofing scenarios with Veterans at VA facilities, including email notifications, in-person setup, identity verification, multi-factor authentication options, and shared access features."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide: Migration and re-proofing (Scenario 1)
 Login.gov Adoption Discovery, November 2022
 

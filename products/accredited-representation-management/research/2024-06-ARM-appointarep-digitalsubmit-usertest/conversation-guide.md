@@ -1,29 +1,50 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for ARM Team, Appoint a Representative - Digital Submit - User Test, 06/2024"
+author: "Janelle Finnerty"
+date_created: "2024-06-05"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Accredited Representative Management (ARM)"
+portfolio: "benefits"
+product: "Appoint a Representative with Digital Submit"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans actively searching for a VSO representative to support with a VA claim, even split of desktop and mobile users"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "/products/accredited-representation-management/research/2024-06-ARM-appointarep-digitalsubmit-usertest/research-plan.md"
+related_prototype: "https://www.figma.com/proto/bzbwObT9hiItve0q3cQX9c/Find-and-Appoint-a-Representative"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-Veterans"
+  - "BNFT-Disability"
+  - "PRDT-accredited-reps"
+  - "PRDT-appoint-a-rep"
+  - "PRDT-find-a-rep"
+  - "DSC-Form"
+  - "DSC-Button"
+  - "DSC-Checkbox"
+  - "DSP-ask-users-for-single-response"
+  - "DSP-ask-users-for-addresses"
+  - "DSP-ask-users-for-names"
+  - "DSP-ask-users-for-phone-numbers"
+  - "DSP-ask-users-for-email-address"
+  - "DSP-ask-users-for-signature"
+  - "DSP-help-users-check-answers"
+  - "HDW-Desktop"
+  - "HDW-Smartphone"
+  - "usability-testing"
+  - "prototype-testing"
+  - "21-22-form"
+  - "VSO"
+  - "representative-search"
+  - "digital-submission"
+description: "Usability testing of Find and Appoint a Representative flows with digital submission capability for form 21-22. Tests representative search, selection, and digital form completion with Veterans actively seeking VSO support."
 
 # NEW: Compliance flags
 recording_required: true

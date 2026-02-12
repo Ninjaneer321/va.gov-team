@@ -1,31 +1,53 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VA.gov Home Page Redesign Round 2 Usability Testing, September 2022"
+author: "Cindy Merrill"
+date_created: "2022-09-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Public Websites"
+portfolio: "digital-experience"
+product: "VA.gov Home Page"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with various benefit experiences, including screen reader users, mobile users, and diverse demographics"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/home-page/research/2022-09-redesign-usability-round2/research-plan.md"
+related_prototype: "https://staging.va.gov/homepage-test/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: Home-page"
+  - "PRDT: VA.gov"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Records"
+  - "DSP: Help users to...find information"
+  - "DSP: Content Presentation"
+  - "DSC: Search"
+  - "DSC: Button"
+  - "HDW: Smartphone"
+  - "HDW: Desktop"
+  - "HDW: Tablet"
+  - "Accessibility"
+  - "usability-testing"
+  - "moderated-usability-test"
+  - "navigation"
+  - "information-architecture"
+  - "search"
+  - "sign-in"
+  - "screen-reader"
+  - "PACT-Act"
 
-# NEW: Compliance flags
+description: "Round 2 usability testing of the redesigned VA.gov home page, evaluating navigation, information findability, benefit hub access, sign-in flows, and promotional content effectiveness across multiple tasks and participant groups."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

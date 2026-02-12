@@ -1,29 +1,45 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Authenticated Experience, My VA Action Items Card Sort, August 2021"
+author: "Tressa Furner"
+date_created: "2021-08-01"
+last_modified: "2021-08-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Authenticated Experience (VSA)"
+portfolio: "digital-experience"
+product: "My VA - Action Items (Alerts)"
+research_phase: "discovery"
+research_method: "card_sort"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "20 minutes"
+session_type: "remote_moderated"
+participant_criteria: "LOA3 Veterans who receive VA health care or have active claims/appeals"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/identity-personalization/onsite-notifications/2021-action-items-discovery/research/alerts-discovery-research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: My VA"
+  - "PRDT: Alerts"
+  - "PRDT: Notifications"
+  - "BNFT: Claims"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "DSP: Task list"
+  - "DSP: Content presentation"
+  - "card-sort"
+  - "remote"
+  - "moderated"
+  - "authenticated-experience"
+  - "my-va"
+  - "action-items"
+  - "priority"
+  - "information-architecture"
+  - "discovery"
+description: "Card sort activity guide for My VA Action Items discovery research. Uses Optimal Sort to understand how Veterans prioritize different action items and notifications (high, medium, low priority) to inform the alerts feature design."
 
 # NEW: Compliance flags
 recording_required: true

@@ -1,29 +1,39 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Veteran Transition Experience, Discover Your Benefits Tool, July 2025"
+author: "Anna Higgins"
+date_created: "2025-07-01"
+last_modified: "2025-07-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Veteran Transition Experience"
+portfolio: "benefits"
+product: "Discover Your Benefits Tool"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Transitioning service members and recently separated Veterans navigating VA benefits during military transition"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/vet-transition-support/research/2025-07-generative-and-user-testing-study/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-Veteran"
+  - "AUD-Transitioning-Service-Member"
+  - "BNFT-Benefits-general"
+  - "PRDT-discover-your-benefits"
+  - "PRDT-benefits-recommendations"
+  - "semi-structured-interviews"
+  - "generative-research"
+  - "transition"
+  - "TAP"
+  - "DSP-questionnaire"
+  - "DSP-results-page"
+  - "DSP-filter"
+description: "Generative and evaluative research with transitioning service members and recently separated Veterans about the transition process and the Discover Your Benefits tool, including benefit awareness and next steps."
 
 # NEW: Compliance flags
 recording_required: true

@@ -1,29 +1,44 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Facility Locator, Mobile Experience Research, February 2021"
+author: "Laurel Lawrence"
+date_created: "2021-02-10"
+last_modified: "2021-02-10"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Facility Locator"
+portfolio: "health"
+product: "Facility Locator"
+research_phase: "usability"
+research_method: "usability-testing"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans, active duty service members, reservists, or national guard members with mobile devices"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/facilities/facility-locator/research/user-research/2021-mobile-experience-research/research-plan.md"
+related_prototype: "https://preview.uxpin.com/c60117d778b6116d11f6fc707a5ac6d953d91aa0#/pages/136040014/simulate/no-panels?mode=chidmf"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "AUD: Service members"
+  - "PRDT: Facility-locator"
+  - "PRDT: Find-a-VA-location"
+  - "HDW: Smartphone"
+  - "HDW: Mobile"
+  - "DSC: Map"
+  - "DSC: Search"
+  - "DSC: Geolocation"
+  - "DSP: Help users to...find a VA facility"
+  - "usability-testing"
+  - "mobile-experience"
+  - "remote-research"
+  - "geolocation"
+  - "map-view"
+  - "list-view"
+  - "unauthenticated"
+description: "Usability testing conversation guide for Facility Locator mobile experience focusing on geolocation, map view, and clear fields functionality on mobile devices."
 
 # NEW: Compliance flags
 recording_required: true

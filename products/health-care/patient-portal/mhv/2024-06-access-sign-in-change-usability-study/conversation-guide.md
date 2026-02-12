@@ -1,29 +1,47 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for My HealtheVet Access and Sign-in Changes, June 2024"
+author: "Anne Costello Kennedy"
+date_created: "2024-06-01"
+last_modified: "2024-06-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "MHV Access and Sign-in"
+portfolio: "health"
+product: "My HealtheVet Access and Sign-in"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with varying My HealtheVet usage levels (non-users to very frequent users), diverse age ranges (18-75+), including those with cognitive disabilities"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "research-plan.md"
+related_prototype: "https://xd.adobe.com/view/ad9d2a77-35b3-4431-a4a7-9f7193a19237-f8ce/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "MHV"
+  - "My HealtheVet"
+  - "sign-in"
+  - "authentication"
+  - "access"
+  - "identity"
+  - "Login.gov"
+  - "ID.me"
+  - "health-care"
+  - "patient-portal"
+  - "usability-testing"
+  - "veterans"
+  - "cognitive-disability"
+  - "authenticated-experience"
+  - "remote-research"
+  - "credential-migration"
+  - "security"
+  - "mobile"
+  - "desktop"
+  - "adobe-xd-prototype"
+description: "Usability testing conversation guide for My HealtheVet sign-in credential retirement process, helping Veterans transition from MHV user IDs to ID.me or Login.gov authentication before the January 2025 mandate."
 
 # NEW: Compliance flags
 recording_required: true

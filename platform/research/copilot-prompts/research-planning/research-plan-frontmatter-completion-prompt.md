@@ -118,6 +118,57 @@ I need help completing the YAML frontmatter section at the top of my research pl
 3. Suggestions for improving any weak areas in the plan
 4. A note about any tags you considered but didn't include, and why
 
+**CRITICAL GUARDRAILS - DO NOT VIOLATE THESE RULES:**
+
+1. **DO NOT fabricate URLs or links**
+   - ONLY include product_brief_url if an actual URL is explicitly mentioned in the research plan
+   - If no product brief URL is mentioned, leave the field empty or use "N/A"
+   - DO NOT construct URLs based on team names, product names, or repository paths
+   - DO NOT assume a product brief exists
+
+2. **DO NOT truncate or summarize lists**
+   - Include ALL screener questions found in the research plan
+   - Include ALL primary criteria listed in the plan
+   - Include ALL secondary criteria listed in the plan
+   - Include ALL research questions from the plan
+   - Include ALL hypotheses from the plan
+   - If there are more than shown in the example, include them all anyway
+
+3. **DO NOT combine or merge multiple dates**
+   - If multiple pilot dates are listed with different participants, preserve each one separately
+   - Use YAML list format for multiple pilot sessions
+   - Example: 
+     ```yaml
+     pilot_sessions:
+       - date: "2025-05-05"
+         participant: "Sarah Koomson"
+       - date: "2025-05-06"
+         participant: "Maria Mutia"
+     ```
+   - DO NOT merge them into a single date
+
+4. **DO NOT calculate averages or modify numeric values**
+   - If different session durations are mentioned (e.g., 90 min for AT users, 60 min for non-AT users), preserve both values
+   - Use YAML structure to show variations:
+     ```yaml
+     session_details:
+       duration_minutes_at_users: 90
+       duration_minutes_non_at_users: 60
+     ```
+   - DO NOT average numeric values
+   - DO NOT modify participant counts, buffer times, or any other numeric data
+
+5. **DO NOT fabricate previous research studies**
+   - ONLY include links to previous studies if they are explicitly mentioned in the research plan
+   - DO NOT create research study titles or links based on background text
+   - If no previous studies are mentioned, use an empty list or state "None mentioned"
+   - DO NOT infer research links from contextual phrases like "previous research on minimal header"
+
+6. **DO NOT infer information not explicitly present**
+   - If a field is not mentioned in the plan, use "TBD", "Not specified", or leave empty
+   - DO NOT fill in fields with assumed or typical values
+   - ASK for clarification if critical information is missing
+
 Please analyze the content of my research plan and generate a complete frontmatter section based on the following structure:
 
 **Research Plan Metadata:**
@@ -132,7 +183,7 @@ Please analyze the content of my research plan and generate a complete frontmatt
 - problem_statement: (Summarize what problem the product is solving)
 - product_location:   (Where on VA.gov, e.g., authenticated experience, benefits hub)
 - user_familiarity: (Is this a new product or iteration on existing?)
-- product_brief_url:  (Include if mentioned in plan)
+- product_brief_url:  (ONLY include if explicitly mentioned - DO NOT fabricate)
 
 **Research Design:**
 - methodology: (Extract from plan, e.g., usability testing, semi-structured interviews, card sort)
@@ -141,45 +192,43 @@ Please analyze the content of my research plan and generate a complete frontmatt
   - moderated: (true or false)
 
 **Research Goals & Questions:**
-- research_goals: (List up to 3 primary research goals from plan)
-- research_questions:   (List research questions from plan)
-- hypotheses:  (List hypotheses from plan)
+- research_goals: (List ALL primary research goals from plan - do not limit to 3 if more exist)
+- research_questions:   (List ALL research questions from plan)
+- hypotheses:  (List ALL hypotheses from plan)
 - expected_outcomes: (How findings will advance the product)
 
 **Recruitment & Participants:**
 - recruitment:  
   - recruiting_partner: (Usually "Perigean")
   - approach: (e.g., "lean maximum variation")
-  - primary_criteria: (Must-have criteria from plan)
-  - secondary_criteria: (Nice-to-have criteria from plan)
-  - screener_questions:   (List any screener questions)
+  - primary_criteria: (List ALL must-have criteria from plan)
+  - secondary_criteria: (List ALL nice-to-have criteria from plan)
+  - screener_questions:   (List ALL screener questions - do not truncate)
 - participants:  
-  - veterans: (Number)
-  - caregivers: (Number)
-  - dependents: (Number)
-  - total_recruited: (Total number)
-  - completed_sessions_goal: (Target completed sessions)
+  - veterans: (Exact number from plan)
+  - caregivers: (Exact number from plan)
+  - dependents: (Exact number from plan)
+  - total_recruited: (Exact total from plan)
+  - completed_sessions_goal: (Exact target from plan)
 
 **Timeline & Sessions:**
 - timeline:  
-  - pilot_date: (Date from plan or "TBD")
-  - pilot_participant: (Name or "TBD")
-  - research_dates: (Date range)
-  - research_review_submission: (Date or "TBD")
+  - pilot_sessions: (If multiple dates/participants, list each separately)
+  - research_dates: (Exact date range from plan)
+  - research_review_submission: (Date from plan or "TBD")
 - session_details: 
-  - duration_minutes: (Session length)
-  - buffer_minutes:   (Buffer between sessions)
-  - max_sessions_per_day: (Maximum daily sessions)
+  - duration_minutes: (Exact session length - if multiple durations exist, specify each)
+  - buffer_minutes:   (Exact buffer from plan)
+  - max_sessions_per_day: (Exact number from plan)
 
 **Strategic Alignment:**
 - octo_priorities:  (List relevant OCTO objectives from the plan with their key results)
-- veteran_journey_phases: (List relevant journey phases, e.g., Getting Out, Starting Up, Taking Care of Myself)
+- veteran_journey_phases: (List relevant journey phases from the plan)
 
 **Research Repository Tracking:**
 - related_research: 
-  - previous_studies: (List any previous related research links)
+  - previous_studies: (ONLY include if explicitly mentioned with links - DO NOT fabricate)
 - tags: (This is CRITICAL - use natural language processing to identify all relevant tags based on research content, context, and intent)
-
 ---
 
 **TAGS TAXONOMY**
@@ -339,7 +388,7 @@ background:
   problem_statement: "[Problem description]"
   product_location:  "[Location on VA.gov]"
   user_familiarity: "[New/iteration]"
-  product_brief_url: "[URL if available]"
+  product_brief_url: "[URL - ONLY if explicitly mentioned in plan, otherwise use 'Not specified']"
 
 # Research Design
 methodology: "[Methodology type]"
@@ -349,20 +398,23 @@ research_format:
   
 # Research Goals & Questions
 research_goals: 
-  - goal_1:   "[First goal]"
-  - goal_2:  "[Second goal]"
+  - goal_1: "[First goal]"
+  - goal_2: "[Second goal]"
   - goal_3: "[Third goal]"
+  # Include ALL goals from the plan, not just 3
 
 research_questions:
   - "[Question 1]"
   - "[Question 2]"
   - "[Question 3]"
+  # Include ALL research questions from the plan
 
 hypotheses:
   - "[Hypothesis 1]"
   - "[Hypothesis 2]"
+  # Include ALL hypotheses from the plan
 
-expected_outcomes:   "[Expected outcomes]"
+expected_outcomes: "[Expected outcomes]"
 
 # Recruitment & Participants
 recruitment:
@@ -372,13 +424,16 @@ recruitment:
   primary_criteria: 
     - "[Criterion 1]"
     - "[Criterion 2]"
+    # Include ALL primary criteria from the plan
     
   secondary_criteria: 
     - "[Criterion 1]"
+    # Include ALL secondary criteria from the plan
     
   screener_questions:
-    - question:  "[Question text]"
-      qualifying_response:  "[Expected answer]"
+    - question: "[Question text]"
+      qualifying_response: "[Expected answer]"
+    # Include ALL screener questions from the plan
       
 participants:
   veterans: 0
@@ -389,13 +444,30 @@ participants:
   
 # Timeline & Sessions
 timeline:
+  # If single pilot session:
   pilot_date: "YYYY-MM-DD"
   pilot_participant: "[Name or TBD]"
+  
+  # If multiple pilot sessions, use this format instead:
+  # pilot_sessions:
+  #   - date: "YYYY-MM-DD"
+  #     participant: "[Name]"
+  #   - date: "YYYY-MM-DD"
+  #     participant: "[Name]"
+  
   research_dates: "YYYY-MM-DD to YYYY-MM-DD"
   research_review_submission: "YYYY-MM-DD"
   
 session_details: 
+  # If single duration for all sessions:
   duration_minutes: 60
+  
+  # If different durations for different participant types, use this format instead:
+  # duration_minutes_at_users: 90
+  # duration_minutes_non_at_users: 60
+  # OR
+  # duration_minutes: "[Specify variations, e.g., '90 min for AT users, 60 min for non-AT users']"
+  
   buffer_minutes: 30
   max_sessions_per_day: 0
   
@@ -411,12 +483,14 @@ veteran_journey_phases:
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related research]"
+    - "[Link to related research - ONLY if explicitly mentioned in plan]"
+    # If no previous studies are mentioned, use empty list [] or "None mentioned"
     
 tags:
   - "[tag-from-taxonomy-above]"
   - "[tag-from-taxonomy-above]"
   - "[tag-from-taxonomy-above]"
+  # Include ALL relevant tags identified through NLP analysis
 ---
 ```
 
@@ -489,7 +563,7 @@ recruitment:
     - question: "Do you currently receive disability compensation payments from the VA?"
       qualifying_response: "Yes"
     - question: "Have you updated your direct deposit information with the VA in the past 2 years?"
-      qualifying_response:   "Yes"
+      qualifying_response: "Yes"
       
 participants:
   veterans: 15
@@ -500,7 +574,7 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date:   "2026-01-20"
+  pilot_date: "2026-01-20"
   pilot_participant: "Jane Smith"
   research_dates: "2026-01-22 to 2026-01-29"
   research_review_submission: "2026-01-15"

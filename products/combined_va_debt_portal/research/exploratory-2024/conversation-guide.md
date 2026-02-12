@@ -1,31 +1,42 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Debt Resolution Team, Combined VA Debt Portal Exploratory and Concept Study, February 2024"
+author: "Charlotte Cesana"
+date_created: "2024-02-01"
+last_modified: "2024-02-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Debt Resolution Team"
+portfolio: "benefits"
+product: "Combined VA Debt Portal"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "75 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have experience with VA debt (copay bills or VA benefits overpayment debt) or have used the VA.gov debt portal previously."
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/combined_va_debt_portal/research/exploratory-2024/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "debt"
+  - "copay"
+  - "overpayment"
+  - "financial-hub"
+  - "debt-portal"
+  - "benefits-debt"
+  - "medical-copay"
+  - "concept-testing"
+  - "reaction-cards"
+  - "information-architecture"
+  - "exploratory-research"
+  - "desirability"
+  - "authenticated"
+description: "Exploratory conversation guide for understanding Veteran needs and preferences for a holistic financial hub to manage VA copays and benefits debts. Part 1 uses reaction cards to explore desirability of features for an ideal financial hub. Part 2 gathers feedback on current debt portal information architecture and layout options."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

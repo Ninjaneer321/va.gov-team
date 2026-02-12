@@ -1,12 +1,50 @@
 ---
-title: "Conversation Guide for [Health Apps, 10-7959f-2, October 2025]"
-author: "[Health Apps UX Team]"
-date_created: "[2025-10-14]"
-last_modified: "[2025-10-15]"
+title: "Conversation Guide for Health Apps Team, FMP Claims Direct Deposit Content Study, October 2025"
+author: "Health Apps UX Team"
+date_created: "2025-10-14"
+last_modified: "2025-10-15"
+
+# Core research metadata
+team: "Health Apps Team"
+portfolio: "health"
+product: "Foreign Medical Program (FMP)"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with service-connected disabilities who are or may be eligible for Foreign Medical Program benefits"
+
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://www.figma.com/proto/WYZCqWcS2gJWIqLtmQlvl7/FMP-Claim-Cover-Sheet--10-7959f-2-"
+
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Foreign Medical Program"
+  - "PRDT: FMP"
+  - "PRDT: 10-7959f-2"
+  - "DSP: Authenticated"
+  - "DSC: Form"
+  - "DSC: Alert"
+  - "DSC: Additional Info"
+  - "DSC: Process Stepper"
+  - "Direct Deposit"
+  - "Claims"
+  - "Reimbursement"
+  - "Content Testing"
+  - "Usability Testing"
+  - "Remote"
+  - "Mobile"
+  - "Desktop"
+description: "Usability testing guide for Foreign Medical Program (FMP) claims direct deposit content, evaluating Veteran understanding of direct deposit setup requirements and process clarity using mobile and desktop prototypes."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 # Conversation Guide for [FMP Claims Direct Deposit Content Study]
 

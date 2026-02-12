@@ -1,34 +1,39 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Healthcare Application (HCA) Duplicate Submissions Research, October 2018"
+author: "Samara"
+date_created: "2018-10-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Healthcare Application Team"
+portfolio: "health"
+product: "Healthcare Application (Form 10-10EZ)"
+research_phase: "discovery"
+research_method: "semi_structured_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who submitted multiple healthcare applications according to VA records"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD:Veterans"
+  - "BNFT:Healthcare"
+  - "PRDT:Form 10-10EZ"
+  - "PRDT:Healthcare Application"
+  - "DSC:Form"
+  - "discovery-research"
+  - "semi-structured-interviews"
+description: "Discovery interviews investigating why Veterans submit duplicate healthcare applications, exploring reasons such as updating information, application rejection, or confusion about the process."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide for interviews investigating duplicate HCA submissions

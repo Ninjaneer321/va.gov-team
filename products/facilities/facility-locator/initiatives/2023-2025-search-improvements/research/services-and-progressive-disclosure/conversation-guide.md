@@ -1,29 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
+title: "Conversation Guide for Facilities Team, Progressive Disclosure and Autosuggest, 2025"
 author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+date_created: "2025-01-01"
+last_modified: "2025-01-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Facilities Team"
+portfolio: "health"
+product: "Facility Locator"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans, family members, and caregivers with experience seeking VA facilities; includes assistive technology users"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/services-and-progressive-disclosure/research-plan.md"
+related_prototype: "https://staging.va.gov/find-locations/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-veterans"
+  - "AUD-family-members"
+  - "AUD-caregivers"
+  - "PRDT-facility-locator"
+  - "BNFT-health-care"
+  - "DSP-search"
+  - "DSP-autosuggest"
+  - "DSP-progressive-disclosure"
+  - "DSC-combo-box"
+  - "usability-testing"
+  - "service-taxonomy"
+description: "Usability testing of progressive disclosure and autosuggest features in Facility Locator search, evaluating service type suggestions and search ease across VA health, cemetery, and community pharmacy searches."
 
 # NEW: Compliance flags
 recording_required: true

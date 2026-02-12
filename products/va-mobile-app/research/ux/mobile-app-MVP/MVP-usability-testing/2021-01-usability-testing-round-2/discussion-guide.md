@@ -1,29 +1,51 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VA Mobile App Team, MVP Usability Testing Round 2, January 2021"
+author: "Bridget Hapner"
+date_created: "2021-01-19"
+last_modified: "2021-02-05"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "VA Mobile App Team"
+portfolio: "health"
+product: "VA Mobile App MVP"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with Android devices, LOA3 accounts, active claims/appeals, and VA healthcare appointments"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/va-mobile-app/research/ux/mobile-app-MVP/MVP-usability-testing/2021-01-usability-testing-round-2/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "PRDT: VA-mobile-app"
+  - "MHV: Appointments"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "usability-testing"
+  - "authenticated"
+  - "mobile-app"
+  - "sign-in"
+  - "biometrics"
+  - "profile"
+  - "claims"
+  - "appeals"
+  - "appointments"
+  - "MVP"
+  - "DSC: Button"
+  - "DSC: Alert-boxes"
+  - "DSP: Help users to..."
+  - "DSP: Content Presentation"
+  - "HDW: Smartphone"
+  - "HDW: Android"
+  - "accessibility"
+  - "remote"
+  - "moderated"
+description: "Usability testing conversation guide for VA Mobile App MVP Round 2, testing sign-in flow, Profile, Claims, and Appointments features with Veterans on Android devices before launch."
 
 # NEW: Compliance flags
 recording_required: true

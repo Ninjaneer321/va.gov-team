@@ -1,31 +1,46 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Contact Center Login Self-Service Tool, August 2022"
+author: "Ian McCullough"
+date_created: "2022-08-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Contact Center"
+portfolio: "digital-experience"
+product: "Login Self-Service Tool"
+research_phase: "discovery"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who frequently experience login issues on VA.gov and have used help desk tickets or AskVA inquiries"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/platform/login-self-service-tool/research/2022-Q3/research-plan.md"
+related_prototype: "https://sketch.com/s/cbb5c762-39e4-47bb-af88-22e693a4cb51"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: Login-Self-Service"
+  - "DSP: Help users to..."
+  - "DSC: Form"
+  - "usability-testing"
+  - "moderated-usability-test"
+  - "prototype-testing"
+  - "discovery-interviews"
+  - "login-issues"
+  - "authentication"
+  - "troubleshooting"
+  - "self-service"
+  - "contact-center"
+  - "resources-and-support"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
 
-# NEW: Compliance flags
+description: "Discovery research for Login Self-Service Tool to understand Veterans' login issue experiences, evaluate existing resources, and test early prototype for self-service troubleshooting workflows."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

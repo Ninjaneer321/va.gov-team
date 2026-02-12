@@ -1,29 +1,44 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VSA Caregiver, Health Care Application 10-10EZ Short Form Usability, September 2021"
+author: "Dené Gabaldón"
+date_created: "2021-09-01"
+last_modified: "2021-09-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "VSA Caregiver"
+portfolio: "health"
+product: "Health Care Application (10-10EZ)"
+research_phase: "usability"
+research_method: "usability-testing"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans and Power of Attorneys with disability ratings, primarily those with 50% or higher ratings"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/application/va-application/research/2021-11-short-form-usability/0921-research-plan.md"
+related_prototype: "https://preview.uxpin.com/acda277e33e9629a7ab817f6c93c251b4a60ac56#/pages/141488399/simulate/no-panels?mode=i"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "PRDT: 10-10EZ"
+  - "PRDT: Health-care-application"
+  - "AUD: Veterans"
+  - "AUD: Power-of-Attorney"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "DSC: Form"
+  - "DSC: Alert-boxes"
+  - "DSP: Ask users for...disability information"
+  - "usability-testing"
+  - "task-analysis"
+  - "short-form"
+  - "disability-rating"
+  - "authenticated"
+  - "prototype-testing"
+  - "UXPin"
+  - "remote-research"
+description: "Usability testing conversation guide for shortened 10-10EZ health care application form flows based on service-connected disability rating of 50% or higher."
 
 # NEW: Compliance flags
 recording_required: true

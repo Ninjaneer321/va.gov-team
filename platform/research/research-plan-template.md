@@ -136,6 +136,35 @@ tags:
 
 </details>
 
+### Related Research 🔍
+
+<details><summary>What research has been done on this product or similar products in the past?</summary>
+
+`Link to relevant past research studies that inform this work. This helps build institutional knowledge and prevents duplicate efforts.`
+
+> [!TIP]
+> **Use the [Past Research Analysis Copilot Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-discovery/past-research-analysis-for-new-research-plan-prompt.md) to automatically find relevant research!**
+>
+> 1. Draft and commit your research plan
+> 2. Open GitHub Copilot for your research plan. Click the Copilot icon on your file toolbar.
+> 3. Copy and paste the prompt from the link above
+> 4. Review the suggested studies and add the most relevant ones below
+
+**Previous Studies:**
+- [Link to Study 1 - Brief description, Date](url goes here)
+- [Link to Study 2 - Brief description, Date](url goes here)
+- [Link to Study 3 - Brief description, Date](url goes here)
+
+**Key Takeaways from Previous Research:**
+- `[Major finding or insight that informs this study]`
+- `[Major finding or insight that informs this study]`
+- `[Major finding or insight that informs this study]`
+
+> [!NOTE]
+> If this is the first research study for this product, you can note that here. You may also want to reference research from similar products or features that could provide relevant insights.
+
+</details>
+
 ### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO%20FY26%20goals%20supported.md) 
 
 <details><summary>Which OCTO priorities does this research support? Work with your VA lead and product manager as needed. </summary>
@@ -385,6 +414,37 @@ Provide a link to any materials you need to run your study, including any materi
 - `secondary criteria`
 - `secondary criteria`
 - **`Add more criteria as needed`**
+
+## Screener Questions 📋
+
+> [!NOTE]
+> Perigean will use these screener questions **verbatim** to recruit and qualify participants. Write them as you want them asked.
+
+> [!TIP]
+> - Write questions in plain language that participants will easily understand. [**Examples of General and Assistive Tech Screener Questions**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/example-screener-questions.md) 
+> - Clearly indicate the **qualifying response** that will make someone eligible
+> - Include links to products or clear descriptions so participants understand what they're being asked about
+> - The more screener questions you have, the harder it will be to recruit - prioritize your must-haves
+
+### Screener Question Template
+
+**`[Number].` [Screener Question Text]**
+- **Qualifying response:** `[The answer that qualifies the participant]`
+- **Disqualifying response:** `[Optional: The answer that disqualifies]`
+
+### Your Study's Screener Questions
+
+**`1.` [Enter your first screener question]**
+- **Qualifying response:** 
+
+**`2.` [Enter your second screener question]**
+- **Qualifying response:** 
+
+**`3.` [Enter your third screener question]**
+- **Qualifying response:** 
+
+> [!TIP]
+> Add more screener questions as needed to address your primary and secondary recruitment criteria
 
 ## Timeline 🗓️
 > [!NOTE]

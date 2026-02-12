@@ -206,7 +206,8 @@ Are there moments that matter?</summary>
 
 **For moderated usability tests:** 
 - [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/continuous-discovery-phase-2/Cohort%201/conversation-guide.md)
-- [Link to prototype](https://www.figma.com/proto/s3wGkxbhHEKTcggOHenNlN/-%F0%9F%9A%A7----DMT-Usability-Prototypes?node-id=4067-15310&p=f&t=5Hufme7Qo2zwXMrR-0&scaling=min-zoom&content-scaling=fixed&page-id=4015%3A10652&starting-point-node-id=4067%3A15310)
+- [Link to Disabled Dependent prototype](https://www.figma.com/proto/s3wGkxbhHEKTcggOHenNlN/-%F0%9F%9A%A7----DMT-Usability-Prototypes?node-id=4321-18685&t=xdk899tTdjuhZu5i-0&scaling=min-zoom&content-scaling=fixed&page-id=4015%3A10652&starting-point-node-id=4321%3A18685)
+- [Link to Student Dependent prototype](https://www.figma.com/proto/s3wGkxbhHEKTcggOHenNlN/-%F0%9F%9A%A7----DMT-Usability-Prototypes?node-id=4330-53300&t=xdk899tTdjuhZu5i-0&scaling=min-zoom&content-scaling=fixed&page-id=4015%3A10652&starting-point-node-id=4330%3A53300)
 	
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
@@ -219,14 +220,17 @@ Are there moments that matter?</summary>
 
 ### Primary criteria (must-haves)
 
-*Please consider each of the following two groups as a separate recruitment effort*
+*Please consider the following two groups as separate recruitment efforts*
 
-- `At least 7 Veterans who have a disabled dependent on their disability compensation benefit (Do you have a disabled dependent on your disability compensation benefit?)`
-- `At least 7 Veterans who currently have a student dependent on their disability compensation benefit, have had a student dependent on their disability compensation benefit in the past 2 years, or have a dependent on their disability compensation benefit who will turn 18 in the next 2 years (Do you currently have a student dependent on your disability compensation benefit? OR In the past 2 years, have you had a student dependent on your disability compensation benefit? OR Do you have a dependent on your disability compensation benefit who will turn 18 in the next 2 years?)`
+- `At least 7 Veterans who have a disabled dependent on their disability compensation benefit`
+     - `Screener language: Do you have a disabled dependent on your disability compensation benefit?`
+- `At least 7 Veterans who currently have a student dependent on their disability compensation benefit, have had a student dependent on their disability compensation benefit in the past 2 years, or have a dependent on their disability compensation benefit who will turn 18 in the next 2 years`
+     - `Screener language: Do you currently have a student dependent on your disability compensation benefit? OR In the past 2 years, have you had a student dependent on your disability compensation benefit? OR Do you have a dependent on your disability compensation benefit who will turn 18 in the next 2 years?`
 
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
+Across all 14 participants:
 - `At least 7 Veterans who are age 55 or older`
 - `At least 7 Veterans with a cognitive disability`
 - `At least 7 Veterans who are mobile users`
@@ -250,7 +254,7 @@ Are there moments that matter?</summary>
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **02/11, Wednesday, 9 AM-1:30 PM EST**
+- `Suggested dates and times:` **02/13, Friday, 9 AM-3:00 PM EST; 02/17, Tuesday, 9:00 AM-11:00 AM and 1:00 PM-5:00 PM EST**
 
 ### Prepare
 
@@ -270,15 +274,13 @@ Are there moments that matter?</summary>
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
 
-- `02/18, Wednesday, 8:30 AM-2:30 PM EST`
-- `02/19, Thursday, 8:30 AM-10:00 AM EST`
-- `02/19, Thursday, 1:00 PM-3:30 PM EST`
 - `02/20, Friday, 8:30 AM-2:00 PM EST`
 - `02/23, Monday, 8:30 AM-3:30 PM EST`
 - `02/24, Tuesday, 11:00 AM-4:00 PM EST`
 - `02/25, Wednesday, 8:30 AM-2:30 PM EST`
-- `02/26, Thursday, 8:30 AM-11:00 PM EST`
-- `02/26, Thursday, 2:00 AM-4:30 PM EST`
+- `02/26, Thursday, 8:30 AM-11:00 AM EST`
+- `02/26, Thursday, 2:00 PM-4:30 PM EST`
+- `02/27, Friday, 8:30 AM-1:30 PM EST`
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 

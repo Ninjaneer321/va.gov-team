@@ -1,3 +1,47 @@
+---
+title: "Conversation Guide for MHV on VA.gov Team, After Visit Summary (AVS) MVP Usability Testing, June 2023"
+author: "TBD"
+date_created: "2023-04-01"
+last_modified: "2026-02-11"
+
+# Core research metadata
+team: "MHV on VA.gov"
+portfolio: "health"
+product: "After Visit Summary (AVS)"
+research_phase: "usability"
+research_method: "usability_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have had recent VA healthcare appointments"
+
+# Related documents
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/avs/research/2023-04-MVP-Usability/research-plan.md"
+related_prototype: "https://www.figma.com/proto/VHHxvo1QA1ndWc0TBhfkNq/Add-After-Visit-Summary?page-id=2%3A3&type=design&node-id=1233-16119&viewport=-892%2C210%2C0.4&scaling=scale-down&starting-point-node-id=1233%3A16119"
+
+tags:
+  - "AUD:Veterans"
+  - "PRDT:After-Visit-Summary"
+  - "MHV: MyHealth (Health Hub)"
+  - "MHV: Personal Health Records/Medical Records"
+  - "BNFT:Healthcare"
+  - "usability-testing"
+  - "health-records"
+  - "appointments"
+  - "treatment-plan"
+  - "navigation"
+  - "DSC: Accordions"
+  - "DSP: Content Presentation"
+
+description: "Usability testing of the After Visit Summary (AVS) MVP on VA.gov, testing Veterans' ability to find and understand appointment information, treatment plans, health information, and navigate between multiple AVS documents."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide: AVS MVP to VA.gov, June 2023
 -  [AVS MVP Research Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/avs/research/2023-04-MVP-Usability/research-plan.md)
 -  [AVS MVP Prototype](https://www.figma.com/proto/VHHxvo1QA1ndWc0TBhfkNq/Add-After-Visit-Summary?page-id=2%3A3&type=design&node-id=1233-16119&viewport=-892%2C210%2C0.4&scaling=scale-down&starting-point-node-id=1233%3A16119)

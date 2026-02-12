@@ -1,34 +1,42 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Identity Personalization, Direct Deposit, September 2019"
+author: "Arthur Green"
+date_created: "2019-09-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Identity & Personalization"
+portfolio: "benefits"
+product: "Direct Deposit"
+research_phase: "evaluative"
+research_method: "UAT"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "10 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who receive disability compensation or pension payments from VA, have DS Logon/MyHealtheVet/ID.me account, LOA3 verified"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://www.va.gov/profile-beta"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "BNFT: Pension"
+  - "BNFT: Finances"
+  - "PRDT: Direct-deposit"
+  - "DSP: Ask users for direct deposit"
+  - "DSC: Form"
+  - "DSC: Links"
+  - "UAT"
+  - "evaluative-research"
+description: "User acceptance testing guide for the new direct deposit feature in VA.gov profile, validating that Veterans can view and update their direct deposit information for compensation and pension benefits."
 
-# NEW: Compliance flags
-recording_required: true
+# Compliance flags
+recording_required: false
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide Template: Direct Deposit UAT

@@ -1,34 +1,53 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for ARM Team, Appoint a Representative - Cross-Accredited VSOR - User Test, August 2024"
+author: "Janelle Finnerty"
+date_created: "2024-08-12"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Accredited Representative Management (ARM)"
+portfolio: "benefits"
+product: "Appoint a Representative"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans Service Organization Representatives (VSORs) who are accredited with multiple VSOs and support Veterans with VA Form 21-22 power of attorney"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/accredited-representation-management/research/2024-08-ARM-appointarep-crossaccreditedVSOR-usertest/research-plan.md"
+related_prototype: "https://www.figma.com/proto/bzbwObT9hiItve0q3cQX9c/Find-and-Appoint-a-Representative?page-id=5138%3A420728&node-id=3717-80885&viewport=5767%2C-727%2C0.25&t=Fn7TVItVwho3bTQC-8&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=3717%3A80893&hide-ui=1"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Accredited Representatives"
+  - "AUD: Veteran Service Organization (VSO)"
+  - "BNFT: Disability"
+  - "DSC: Form"
+  - "DSC: Button"
+  - "DSC: Search"
+  - "DSP: Ask users for a single response"
+  - "DSP: Ask users for signature"
+  - "DSP: Help users to check answers"
+  - "PRDT: Accredited-Reps"
+  - "PRDT: VA-Form-21-22"
+  - "PRDT: Find-a-Representative"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "accredited-representative-facing"
+  - "cross-accreditation"
+  - "power-of-attorney"
+  - "representative-search"
+  - "contact-information-management"
+description: "Usability test and interviews with cross-accredited Veterans Service Organization Representatives to understand their unique power of attorney processes and test the digital VA Form 21-22 and Find a Representative tools on VA.gov."
 
 # NEW: Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide for ARM Team, Appoint a Representative - Cross-Accredited VSOR - User Test, 08/2024

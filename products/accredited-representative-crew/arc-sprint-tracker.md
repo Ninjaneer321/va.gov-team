@@ -14,9 +14,9 @@ _Overview: This tracker is designed to track sprint goals with completed work, p
 3. **[Rep Data] GCLAWS SQL Server API Integration**: Handle the response (xlsx file) and create monitoring/reporting
  
 **Team Benefits**
-1. **[Discovery Research] Understanding how Reps manage the claims cycle across all clients**: Finalize report, process flow diagrams
+1. **[Discovery Research] Understanding how Reps manage the claims cycle across all clients**: Finalize report and present the discovery readout, process flow diagrams
 2. **[Rep-Facing Form] 526ez v2**: Desk review synthesis
-3. **[Claimant Details] MVP - Design**: Address open questions
+3. **[Claimant Details] MVP - Design**: Address open questions regarding cross-product coexistence of Claimant Details and Submissions History
 4. **[ITF] MVP - Development**: Address ADE findings and request 508 audit
 5. **Benefits Delivery at Discharge**: Engineering Discovery
 6. **[ARP Post-MVP] Cleanup Tasks**: Feature flag cleanup, job for setting delete_date field on claims submissions
@@ -191,7 +191,7 @@ TBD
 
 ## Sprint 9 Delivery
 
-- [ ] Sprint Delivery Approved by Enablement
+- [x] Sprint Delivery Approved by Enablement - Jen Bertsch on February 11, 2026 ([Slack conversation](https://dsva.slack.com/archives/C06GE5N7QJ0/p1770832859141509?thread_ts=1770829029.019239&cid=C06GE5N7QJ0)) 
 
 Total Completed in Sprint 9: 51 tickets, 150 points + 2 spikes\
 Crew Count in Sprint 9: 20 active teammates (not including Principal Leads)\

@@ -1,29 +1,43 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for IVC Team, CHAMPVA 10-10D Supporting Documents Usability Test, April-May 2025"
+author: "IVC Research Team"
+date_created: "2025-04-01"
+last_modified: "2025-04-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "IVC (Integrated Veteran Care)"
+portfolio: "health"
+product: "CHAMPVA Application Form 10-10D"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans, caregivers, and dependents eligible for CHAMPVA benefits who may need to submit supporting documentation"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/champva/1010D/research/users/2025-05-1010d-supportingdocs-usability-test/research-plan.md"
+related_prototype: "Figma prototype (Rose and Donna flows)"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Family Member"
+  - "AUD: Surviving Family"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Dependents"
+  - "BNFT: Healthcare"
+  - "PRDT: CHAMPVA"
+  - "PRDT: 10-10D"
+  - "DSC: Form"
+  - "DSC: File upload"
+  - "DSP: Ask users for files"
+  - "DSP: v3 file upload"
+  - "usability-testing"
+  - "moderated"
+  - "remote"
+  - "unauthenticated"
+description: "Usability testing for CHAMPVA application form 10-10D to evaluate where and when users upload supporting documentation, comparing two prototype flows (Rose and Donna) for document submission timing and placement."
 
 # NEW: Compliance flags
 recording_required: true

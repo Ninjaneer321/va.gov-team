@@ -1,31 +1,46 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for MyHealtheVet Authenticated Landing Page Concept Test, January 2022"
+author: "[TBD - not specified in document]"
+date_created: "2022-01-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Health Apartment Team"
+portfolio: "health"
+product: "My HealtheVet"
+research_phase: "validation"
+research_method: "moderated_concept_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use web-based tools for VA health care benefits and regularly perform health management tasks online"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "[TBD - not specified in document]"
+related_prototype: "[Design concept shared via link]"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: My HealtheVet"
+  - "MHV: Appointments"
+  - "MHV: Secure Messaging"
+  - "MHV: Pharmacy"
+  - "MHV: Medical Records"
+  - "DSP: Help users to... Navigate"
+  - "DSP: Help users to... Find a Health Care Service"
+  - "DSP: Content Presentation"
+  - "moderated-concept-test"
+  - "authenticated-experience"
+  - "landing-page"
+  - "information-architecture"
+  - "task-based-testing"
+  - "health-care-benefits"
 
-# NEW: Compliance flags
+description: "Concept test for the authenticated MyHealtheVet landing page design, testing whether Veterans can successfully complete common health care tasks including scheduling appointments, refilling prescriptions, sending messages, accessing medical records, and managing health benefits."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

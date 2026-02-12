@@ -1,31 +1,43 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Disability Claims, 526 New Claims, March 2018"
+author: "Alex/Mike (moderators)"
+date_created: "2018-03-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Disability Claims Team"
+portfolio: "benefits"
+product: "Disability Compensation (Form 526EZ)"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who are disabled but have not filed a claim, and Veterans with experience with disability claims"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://adhoc.invisionapp.com/share/82GKT4PWVQJ"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD:Veterans"
+  - "BNFT:Disability"
+  - "PRDT:Form 526ez"
+  - "PRDT:Vets.gov"
+  - "DSC:Form"
+  - "DSC:Button"
+  - "DSP:Form Templates"
+  - "DSP:Ask users for medical history"
+  - "DSP:Body diagram"
+  - "HDW:Desktop"
+  - "usability-testing"
+  - "moderated-usability-testing"
+  - "remote-research"
+  - "prototype-testing"
+description: "Usability testing for new claims submission flow evaluating eligibility understanding, body diagram interface, multiple condition submission, and additional benefits process."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

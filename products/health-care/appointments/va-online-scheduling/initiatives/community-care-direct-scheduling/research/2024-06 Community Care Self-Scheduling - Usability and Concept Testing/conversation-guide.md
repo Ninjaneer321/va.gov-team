@@ -1,29 +1,39 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VA Online Scheduling Team, Community Care Self-Scheduling, June 2024"
+author: "VA Online Scheduling Team"
+date_created: "2024-06-01"
+last_modified: "2024-06-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "VA Online Scheduling"
+portfolio: "health"
+product: "VA Online Scheduling (VAOS)"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "75 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have received community care appointments, including those using assistive technology (screen readers, screen magnification)"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2024-06 Community Care Self-Scheduling - Usability and Concept Testing/research-plan.md"
+related_prototype: "https://codepen.io/team/va-cie/live/MWdaWeb"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "VAOS"
+  - "VA online scheduling"
+  - "community care"
+  - "referrals"
+  - "self-scheduling"
+  - "provider selection"
+  - "appointments"
+  - "usability testing"
+  - "concept testing"
+  - "filter and sort"
+  - "accessibility"
+  - "assistive technology"
+description: "Usability and concept testing conversation guide for community care self-scheduling including referral approvals, provider selection with filtering and sorting, online scheduling preferences, and referral management on pending appointments page."
 
 # NEW: Compliance flags
 recording_required: true

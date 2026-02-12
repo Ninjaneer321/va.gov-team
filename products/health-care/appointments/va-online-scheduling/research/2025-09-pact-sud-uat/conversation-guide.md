@@ -1,45 +1,50 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Appointments Team, PACT/SUD UAT, September 2025"
+author: "Jenny Wang, Lena Cardoso, Kristen Faiferlick"
+date_created: "2025-08-19"
+last_modified: "2025-09-03"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Appointments Team"
+portfolio: "health"
+product: "VA Online Scheduling (VAOS)"
+research_phase: "evaluative"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who schedule appointments online and have experience with primary care and mental health services"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Appointments"
+  - "PRDT: VAOS"
+  - "MHV: Appointments"
+  - "DSP: Authenticated"
+  - "Initiative: PACT Act"
+  - "UAT"
+  - "PACT"
+  - "Primary Care Team"
+  - "Mental Health"
+  - "Substance Use Disorder"
+  - "SUD"
+  - "Clinic Selection"
+  - "Social Work"
+  - "Pharmacy"
+  - "Remote"
+description: "User acceptance testing guide for PACT (Patient Aligned Care Team) and SUD (Substance Use Disorder) appointment scheduling, evaluating clinic selection, mental health appointment types, and primary care team integration."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true
----
-
-```yaml
----
-title: "Conversation Guide for PACT/SUD [UAE, Appointments, September, 2025]"
-author: "[Jenny Wang, Lena Cardoso, Kristen Faiferlick]"
-date_created: "[2025-08-19]"
-last_modified: "[2025-09-03]"
-description: "A conversation guide related to VA online scheduling."
----
-```    
+---    
     # Conversation Guide for PACT/SUD
 
 # Moderator logistics 📋✅

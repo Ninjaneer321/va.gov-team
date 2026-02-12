@@ -1,31 +1,44 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: Veterans' Experiences at VA Benefit Offices, August 2022"
+author: "Dave Conlon"
+date_created: "2022-08-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Facilities Team"
+portfolio: "benefits"
+product: "Regional Offices"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans, service members, and caregivers who visited a VA benefit office in the last 6 months"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/facilities/regional-offices/research/2022-8-veteran-facing/"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "AUD: Caregivers"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Records"
+  - "PRDT: Regional-Offices"
+  - "discovery-interviews"
+  - "semi-structured-interviews"
+  - "facilities"
+  - "in-person-services"
+  - "wayfinding"
+  - "service-access"
+  - "VSO"
 
-# NEW: Compliance flags
+description: "Discovery research to understand Veterans' experiences visiting VA Regional Benefit Offices, including preparation, wayfinding, service access, and office types."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

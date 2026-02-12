@@ -1,34 +1,40 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Veteran Claims Experience Discussion Guide - ABD/VRO Site Visit"
+author: "Zach Goldfine"
+date_created: "2023-04-01"
+last_modified: "2023-04-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Automated Benefits Delivery (ABD) / Veterans Rapid Onboarding (VRO) Team"
+portfolio: "benefits"
+product: "Disability Compensation Claims (Form 526EZ)"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who recently filed disability compensation claims using VA.gov within the past few months"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/disability/abd-vro/2023-04-site-visit/veteran-claims-exp-research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "disability-claims"
+  - "form-526"
+  - "claims-experience"
+  - "journey-mapping"
+  - "discovery"
+  - "ABD"
+  - "VRO"
+  - "end-to-end-experience"
+description: "Discovery research discussion guide for understanding Veterans' end-to-end experience filing disability compensation claims. Explores motivations, journey through the claims process, pain points, VA exams, decision letters, and overall reflections on the experience."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide 

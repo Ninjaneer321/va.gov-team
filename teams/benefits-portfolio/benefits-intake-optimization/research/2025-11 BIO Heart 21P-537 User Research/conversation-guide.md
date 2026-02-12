@@ -1,29 +1,40 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Benefits Intake Optimization, Form 21P-537, November 2025"
+author: "Andrea Merrill"
+date_created: "2025-11-01"
+last_modified: "2025-11-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Benefits Intake Optimization (BIO) Heart"
+portfolio: "benefits"
+product: "Form 21P-537 Marital Status Questionnaire"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Surviving spouses who have received or could receive Form 21P-537 for marital status verification"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "teams/benefits-portfolio/benefits-intake-optimization/research/2025-11 BIO Heart 21P-537 User Research/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-Survivors"
+  - "AUD-Family-members"
+  - "BNFT-Survivor-benefits"
+  - "PRDT-Form-21P-537"
+  - "DSC-Form-controls"
+  - "DSC-Accordion"
+  - "DSP-Conditional-logic"
+  - "usability-testing"
+  - "accessibility"
+  - "assistive-technology"
+  - "marital-status"
+  - "RESRCH-Remote"
+  - "VETJNY-Survivor-benefits"
+description: "Usability testing of Form 21P-537 (Marital Status Questionnaire) with surviving spouses to evaluate form clarity, conditional logic, and accessibility for maintaining survivor benefit eligibility."
 
 # NEW: Compliance flags
 recording_required: true

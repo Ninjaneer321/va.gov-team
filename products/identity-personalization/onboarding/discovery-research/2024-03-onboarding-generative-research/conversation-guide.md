@@ -1,29 +1,45 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Authenticated Experience, TSM Engage with VA Generative Research, March 2024"
+author: "Liz Lantz"
+date_created: "2024-03-11"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Authenticated Experience"
+portfolio: "digital-experience"
+product: "Onboarding to VA - Transitioning Service Members"
+research_phase: "discovery"
+research_method: "semi-structured-interviews"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Active duty service members separating by Dec 31, 2024 or Veterans who separated on or after June 1, 2023, with varying levels of VA and VA.gov experience"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/identity-personalization/onboarding/discovery-research/2024-03-onboarding-generative-research/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Service Members"
+  - "AUD: Veterans"
+  - "onboarding"
+  - "transitioning-service-members"
+  - "TSM"
+  - "authenticated-experience"
+  - "semi-structured-interviews"
+  - "generative-research"
+  - "discovery"
+  - "separation"
+  - "VA-benefits"
+  - "eligibility"
+  - "account-creation"
+  - "cognitive-impairment"
+  - "personalization"
+  - "My-VA"
+  - "user-profile"
+  - "identity-verification"
+description: "Generative research conversation guide to understand the transition process from active duty to Veteran status, exploring how VA.gov supports onboarding to VA and identifying problems that could be improved through the authenticated experience."
 
 # NEW: Compliance flags
 recording_required: true

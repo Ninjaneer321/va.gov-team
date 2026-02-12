@@ -1,29 +1,47 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Health Apartment, Homepage Concept Guerrilla Testing, December 2021"
+author: "Health Apartment Team"
+date_created: "2021-12-03"
+last_modified: "2021-12-03"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "VA Health Apartment"
+portfolio: "health"
+product: "Health Apartment Authenticated Homepage"
+research_phase: "discovery"
+research_method: "semi-structured-interviews"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have VA health care, mix of My HealtheVet users and non-users"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/health-apartment/research/2021/homepage-guerilla-test-12-2021/user-research-plan-12-2021.md"
+related_prototype: "https://app.mural.co/t/innovationboards1199/m/innovationboards1199/1639156727421/3e2edbbd94392a4c441f4e813d08c259193ca5be"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "PRDT: Health-apartment"
+  - "PRDT: My-HealtheVet"
+  - "MHV: Homepage"
+  - "MHV: Appointments"
+  - "MHV: Pharmacy"
+  - "MHV: Secure-messaging"
+  - "MHV: Medical-records"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "DSP: Content-presentation"
+  - "DSP: Help users to...manage health care"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "authenticated"
+  - "guerrilla-testing"
+  - "semi-structured-interviews"
+  - "concept-testing"
+  - "homepage-design"
+  - "information-architecture"
+  - "remote-research"
+description: "Guerrilla testing conversation guide for Health Apartment authenticated homepage concept to understand Veteran needs and preferences for a unified health experience on VA.gov."
 
 # NEW: Compliance flags
 recording_required: true

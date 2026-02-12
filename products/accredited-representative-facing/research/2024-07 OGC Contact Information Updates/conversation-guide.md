@@ -1,29 +1,47 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Accredited Representative Facing Team, OGC Contact Information Updates, July 2024"
+author: "Accredited Representative Facing Team"
+date_created: "2024-07-01"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Accredited Representative Facing (ARF)"
+portfolio: "benefits"
+product: "Accredited Representative Portal"
+research_phase: "validation"
+research_method: "semi-structured interview with concept testing"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VSO certifying officials (accredited and non-accredited), accredited attorneys, and accredited claims agents from state, tribal, Big 6 VSOs, law firms, and claims agent firms"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/accredited-representative-facing/research/2024-07 OGC Contact Information Updates/research-plan.md"
+related_prototype: "https://www.figma.com/design/RbVQnV4eBl2K1Z5xRpZi7H/Contact-Info-Updating?node-id=1-19"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: accredited-representatives"
+  - "AUD: vso-certifying-officials"
+  - "AUD: attorneys"
+  - "AUD: claims-agents"
+  - "PRDT: accredited-representative-portal"
+  - "PRDT: find-a-representative"
+  - "BNFT: accredited-representative-facing"
+  - "semi-structured-interviews"
+  - "concept-testing"
+  - "DSP: form-patterns"
+  - "DSP: profile-management"
+  - "contact-information"
+  - "self-service"
+  - "OGC"
+  - "permissions"
+  - "authentication"
+  - "RESRCH: remote"
+  - "RESRCH: moderated"
+  - "vso"
+  - "representative-directory"
+description: "Semi-structured interviews and concept testing with VSO certifying officials, attorneys, and claims agents to validate requirements for contact information self-service updates in the Accredited Representative Portal, including email and address field requirements, permission models, and workflow validation."
 
 # NEW: Compliance flags
 recording_required: true

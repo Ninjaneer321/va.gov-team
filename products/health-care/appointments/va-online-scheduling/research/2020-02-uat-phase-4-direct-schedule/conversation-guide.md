@@ -1,34 +1,45 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VAOS, UAT Phase 4 - Direct Schedule, January-February 2020"
+author: "To be determined"
+date_created: "2020-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VA Online Scheduling"
+portfolio: "health"
+product: "VA Online Scheduling (VAOS)"
+research_phase: "evaluative"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with MHV Premium or ID.me accounts, enrolled in VA healthcare, able to self-schedule VA appointments"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "www.va.gov/health-care/schedule-view-va-appointments/appointments"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Appointments"
+  - "PRDT: VAOS"
+  - "MHV: Appointments"
+  - "research"
+  - "usability-testing"
+  - "UAT"
+  - "direct-scheduling"
+  - "appointment-scheduling"
+  - "primary-care"
+  - "remote-moderated"
 
-# NEW: Compliance flags
-recording_required: true
+description: "User acceptance testing conversation guide for VAOS MVP Phase 4, focusing on self-scheduling VA primary care appointments on VA.gov."
+
+# Compliance flags
+recording_required: false
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide: User Acceptance Testing Phase 4 - Create self-scheduled appointment

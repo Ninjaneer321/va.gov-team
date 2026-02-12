@@ -1,12 +1,45 @@
 ---
-title: "Conversation Guide for Benefits Management Notifications Study"
+title: "Conversation Guide for Benefits Management Tools Team, Notifications Study, December 2025"
 author: "Naomi Howe"
 date_created: "2025-11-17"
 last_modified: "2025-12-02"
+
+# NEW: Core research metadata
+team: "Benefits Management Tools (BMT 3)"
+portfolio: "benefits"
+product: "Claim and Appeal Status Tool - Notifications"
+research_phase: "evaluative"
+research_method: "moderated_interview"
+
+# NEW: Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans and claimants who have received benefits-related notifications and use multiple devices"
+
+# NEW: Related documents
+related_research_plan: "N/A"
+related_prototype: "https://www.figma.com/proto/db26JCYXJtaakOdG4TiNXN/Notifications-BMT"
+
 tags:
-  - "Benefits Management Tools"
-  - "Notifications Research"
-description: "A guide for moderating research sessions focused on how Veterans receive and interpret benefits-related notifications across different channels (email, SMS, in-app)."
+  - "AUD-Veterans"
+  - "BNFT-Disability"
+  - "PRDT-Claim-Status-Tool"
+  - "semi-structured-interviews"
+  - "notifications"
+  - "multi-channel"
+  - "email"
+  - "SMS"
+  - "mobile-app"
+  - "decision-letter"
+  - "evidence-request"
+  - "HDW-Desktop"
+  - "HDW-Mobile"
+description: "Research study on how Veterans receive and interpret benefits-related notifications across different channels (email, text, mobile app) for decision letters and evidence requests."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 # Conversation Guide
 

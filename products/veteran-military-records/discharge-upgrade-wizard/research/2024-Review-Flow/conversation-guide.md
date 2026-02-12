@@ -1,29 +1,36 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Discharge Upgrade Wizard, October 2024"
+author: "Jordan Walker"
+date_created: "2024-10-08"
+last_modified: "2024-10-09"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Decision Reviews"
+portfolio: "benefits"
+product: "Discharge Upgrade Wizard"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who may be interested in or have experience with discharge upgrade process"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/veteran-military-records/discharge-upgrade-wizard/research/2024-Review-Flow/research-plan.md"
+related_prototype: "https://staging.va.gov/discharge-upgrade-instructions/introduction"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "discharge-upgrade"
+  - "usability-testing"
+  - "wizard"
+  - "review-flow"
+  - "edit-flow"
+  - "question-flow"
+  - "branching-logic"
+  - "alerts"
+  - "veteran-records"
+description: "Usability testing conversation guide for the Discharge Upgrade Wizard, testing question flow, review screen, edit functionality, alerts, and back navigation for Veterans seeking information about discharge upgrades."
 
 # NEW: Compliance flags
 recording_required: true

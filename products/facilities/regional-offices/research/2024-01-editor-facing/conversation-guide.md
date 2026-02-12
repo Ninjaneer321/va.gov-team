@@ -1,34 +1,43 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VBA RO pilot editor-facing research, January 2024"
+author: "Alexis Logsdon"
+date_created: "2024-01-01"
+last_modified: "2024-01-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Facilities Team"
+portfolio: "benefits"
+product: "Regional Offices CMS"
+research_phase: "evaluative"
+research_method: "moderated_interview"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA content editors who enter regional office information into Drupal CMS"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/facilities/regional-offices/research/2024-01-editor-facing/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "CMS"
+  - "Drupal"
+  - "editor experience"
+  - "regional offices"
+  - "content management"
+  - "VBA"
+  - "training"
+  - "knowledge base"
+  - "usability testing"
+  - "editor-facing"
+  - "facilities"
+description: "Editor-facing research study for VBA Regional Offices in Drupal CMS, evaluating content editors' experiences with training, support documentation, and the editing workflow for regional office information."
 
 # NEW: Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide for VBA RO pilot editor-facing research

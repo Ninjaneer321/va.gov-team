@@ -1,29 +1,41 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Disability Benefits Pathways Team, Form 0781 Evidence Upload, September 2025"
+author: "Disability Benefits Pathways Team"
+date_created: "2025-09-01"
+last_modified: "2025-09-30"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Disability Benefits Pathways Team"
+portfolio: "benefits"
+product: "Form 21-0781 (Statement in Support of Claim for PTSD)"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with service-connected disabilities claiming PTSD or mental health conditions"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/disability/526ez/research/2025-10-0781-EvidenceUpload/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: 21-0781"
+  - "PRDT: 21-526EZ"
+  - "DSC: File Upload"
+  - "DSC: Accordions"
+  - "DSP: Form Pattern"
+  - "Research"
+  - "Usability Testing"
+  - "Mental Health"
+  - "PTSD"
+  - "Evidence Upload"
+  - "Document Classification"
+  - "Trauma-Informed Design"
+description: "Usability testing for Form 0781 evidence upload supporting Veterans claiming PTSD and mental health conditions, with focus on instructional content, visual hierarchy, navigation, and mental models for document categorization."
 
 # NEW: Compliance flags
 recording_required: true

@@ -1,3 +1,54 @@
+---
+title: "Conversation Guide for Ask VA Team, Preferred Names and Pronouns Discussion, May 2024"
+author: "Becky Phung"
+date_created: "2024-05-21"
+last_modified: "2026-02-11"
+
+# NEW: Core research metadata
+team: "Ask VA"
+portfolio: "digital-experience"
+product: "Ask VA"
+research_phase: "discovery"
+research_method: "stakeholder_interview"
+
+# NEW: Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA stakeholders from Ask VA teams (VA.gov and CRM) and OIT Enterprise Architecture to discuss Sexual Orientation Gender Identity (SOGI) traits, pronouns, preferred names, and VA Profile integration strategy"
+
+# NEW: Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
+
+tags:
+  - "AUD: va-stakeholders"
+  - "PRDT: ask-va"
+  - "stakeholder-engagement"
+  - "semi-structured-interviews"
+  - "RESRCH: remote"
+  - "RESRCH: moderated"
+  - "pronouns"
+  - "preferred-name"
+  - "SOGI"
+  - "gender-identity"
+  - "demographics"
+  - "self-identified-data"
+  - "va-profile"
+  - "data-governance"
+  - "DDWG"
+  - "DGC"
+  - "DSC: form-components"
+  - "profile-integration"
+  - "business-line-engagement"
+  - "design-system"
+description: "Stakeholder discussion about implementing pronouns and preferred names in Ask VA, validating approved SOGI traits from Data Demographics Work Group, determining self-identified data collection approach, and planning VA Profile integration for permanent profile updates."
+
+# NEW: Compliance flags
+recording_required: false
+observer_support: true
+consent_for_clips: false
+---
+
 # May 21, 2024:  Preferred names and pronouns discussion  
 _Ask VA VA.gov Team_
 

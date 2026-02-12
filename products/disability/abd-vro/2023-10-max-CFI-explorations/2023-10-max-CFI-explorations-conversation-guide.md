@@ -1,31 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: Max CFI Explorations - Interventions for Maximum Ratings (October 2023)"
+author: "ABD-VRO Research Team"
+date_created: "2023-10-01"
+last_modified: "2023-10-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Automated Benefits Delivery - Virtual Regional Office (ABD-VRO)"
+portfolio: "benefits"
+product: "Disability Claims - Claims for Increase"
+research_phase: "evaluative"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans receiving disability benefits for multiple service-connected conditions"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://www.sketch.com/s/bf1a0cd3-1fae-4321-a081-82db48fa3d3a/p/E089E059-6A52-43B0-9D5D-8B3FE35E4667/canvas#About"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - disability-claims
+  - claims-for-increase
+  - max-rating
+  - tinnitus
+  - arthritis
+  - intervention-testing
+  - ABD-VRO
+  - CFI
+  - friction-design
+description: "Conversation guide testing three intervention variations for helping Veterans understand maximum possible ratings: reviewing rated disabilities, CFI selection with maximum rating indicators, and friction screens for conditions at maximum ratings."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

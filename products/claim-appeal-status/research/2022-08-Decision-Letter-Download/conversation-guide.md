@@ -1,31 +1,42 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Decision Letter Download Research, August 2022"
+author: "Skyler [TBD - full name not in document]"
+date_created: "2022-08-01"
+last_modified: "2024-12-20"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Claim Status Tool Team"
+portfolio: "benefits"
+product: "Claim Status Tool"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have filed disability compensation claims (Form 526EZ) with the VA"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "../research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Claim-status-tool"
+  - "DSP: Help users to... view documents"
+  - "DSP: Content Presentation"
+  - "usability-testing"
+  - "moderated-usability-test"
+  - "decision-letters"
+  - "notification-letters"
+  - "document-download"
+  - "claims-and-appeals"
+  - "HDW: Desktop"
 
-# NEW: Compliance flags
+description: "Usability test for the decision letter download feature in the Claim Status Tool, testing Veterans' ability to find and understand their disability claim decision letters through VA.gov."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

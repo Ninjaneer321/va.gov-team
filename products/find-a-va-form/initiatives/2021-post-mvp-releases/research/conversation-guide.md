@@ -1,29 +1,49 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Search & Discovery, Find a VA Form PDF Downloading, July 2021"
+author: "Cindy Merrill"
+date_created: "2021-07-22"
+last_modified: "2021-07-22"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Search & Discovery"
+portfolio: "digital-experience"
+product: "Find a VA Form"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with diverse technical abilities, ages 55+, cognitive disabilities, screen reader users"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-plan.md"
+related_prototype: "https://staging.va.gov/find-forms/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: Find a VA Form"
+  - "PRDT: Forms"
+  - "BNFT: Digitization"
+  - "DSC: Download"
+  - "DSC: PDF"
+  - "DSC: Form"
+  - "DSC: Button"
+  - "DSC: Links"
+  - "DSP: Help users to..."
+  - "HDW: Desktop"
+  - "HDW: Tablet"
+  - "HDW: Smartphone"
+  - "HDW: Screen reader"
+  - "usability-testing"
+  - "remote"
+  - "moderated"
+  - "accessibility"
+  - "assistive-technology"
+  - "cognitive-disability"
+  - "digital-signature"
+  - "download-instructions"
+description: "Usability testing conversation guide for Find a Form PDF downloading research. Tests download instructions with Veterans using various devices and assistive technologies to assess ability to download, save, and digitally sign VA PDF forms in Acrobat."
 
 # NEW: Compliance flags
 recording_required: true

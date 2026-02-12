@@ -1,29 +1,46 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Search & Discovery, Search Design Concepts, August 2021"
+author: "Cindy Merrill"
+date_created: "2021-08-01"
+last_modified: "2021-09-03"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Search & Discovery"
+portfolio: "digital-experience"
+product: "VA.gov Site Search"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans using desktop or smartphone, including those 55+ and with cognitive disabilities"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/on-site-search/research/user-research/2021-Aug-research-study/research-plan.md"
+related_prototype: "https://bit.ly/tasks-d and https://bit.ly/tasks-m"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: Search"
+  - "PRDT: Find-a-va-form"
+  - "PRDT: Resources and support"
+  - "PRDT: Facility-locator"
+  - "usability-testing"
+  - "search-tools"
+  - "wayfinding"
+  - "DSC: Links"
+  - "DSC: Search"
+  - "DSP: Navigation"
+  - "DSP: Search"
+  - "DSP: Help users to..."
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "accessibility"
+  - "cognitive-disability"
+  - "remote"
+  - "moderated"
+description: "Usability testing conversation guide for search design concepts, testing new search landing page and search tool links with Veterans to improve search discoverability and usage."
 
 # NEW: Compliance flags
 recording_required: true

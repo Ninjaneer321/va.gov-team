@@ -1,34 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VSP, Platform Documentation Site Discovery, December 2019"
+author: "Megan Kelley"
+date_created: "2019-12-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VSP Content & Information Architecture"
+portfolio: "digital-experience"
+product: "Platform"
+research_phase: "discovery"
+research_method: "semi-structured-interviews"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Documentation providers and users including backend/frontend engineers, product managers, and 18F staff with experience creating or managing documentation ecosystems"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: VA Staff"
+  - "AUD: Internal VA Stakeholders"
+  - "PRDT: Platform"
+  - "discovery-research"
+  - "semi-structured-interviews"
+  - "Internal Research: Platform Research"
+description: "Discovery research with internal stakeholders to understand documentation best practices, pain points, and requirements for a new VSP documentation site to support VFS teams."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Discussion Guides - Documentation Site Discovery Sprint 12/2019

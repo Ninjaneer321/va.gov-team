@@ -1,29 +1,46 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VSP Contact Center, Ask VA (AVA), July 2021"
+author: "Ian McCullough"
+date_created: "2021-07-16"
+last_modified: "2021-07-16"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "VSP Contact Center"
+portfolio: "digital-experience"
+product: "Ask VA (AVA)"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have visited and logged in to VA.gov within the past year"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/iris/research/ava/2021-07/research-plan.md"
+related_prototype: "https://dvagov-veft-qa.dynamics365portals.us/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "PRDT: Ask VA"
+  - "PRDT: IRIS"
+  - "PRDT: Contact Center"
+  - "AUD: Veterans"
+  - "usability-testing"
+  - "authenticated"
+  - "dashboard"
+  - "form-design"
+  - "customer-service"
+  - "iterative-design"
+  - "DSC: Form"
+  - "DSC: Button"
+  - "DSC: Modal"
+  - "DSP: Ask users for..."
+  - "DSP: Help users to..."
+  - "HDW: Mobile"
+  - "HDW: Desktop"
+  - "remote"
+  - "moderated"
+description: "Usability testing conversation guide for Ask VA (AVA) Round 2, testing inquiry submission and authenticated dashboard with Veterans to verify implementation of previous recommendations."
 
 # NEW: Compliance flags
 recording_required: true

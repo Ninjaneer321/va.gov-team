@@ -1,29 +1,41 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for MHV on VA.gov, Medications, May 2024 - Sighted Participants"
+author: "MHV Medications Team"
+date_created: "2024-05-01"
+last_modified: "2024-05-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "MHV on VA.gov - Medications"
+portfolio: "health"
+product: "My HealtheVet Medications on VA.gov"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who manage VA prescriptions, including sighted users and those using screen magnification, some with cognitive disabilities"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-05-medications-usability-testing-round3-AT/research-plan.md"
+related_prototype: "https://staging.va.gov/my-health/medications"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "MyHealtheVet"
+  - "MHV-on-VA.gov"
+  - "medications"
+  - "prescriptions"
+  - "usability-testing"
+  - "screen-magnification"
+  - "refill"
+  - "renew"
+  - "print-download"
+  - "medication-detail"
+  - "sort-filter"
+  - "medication-status"
+  - "cognitive-disability"
+  - "prototype-testing"
+description: "Usability testing for MHV Medications on VA.gov with sighted users and screen magnifier users, testing refill, renew, find, medication details, and print/download functionality with a prototype."
 
 # NEW: Compliance flags
 recording_required: true

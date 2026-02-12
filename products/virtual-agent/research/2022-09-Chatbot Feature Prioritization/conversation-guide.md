@@ -1,31 +1,47 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Virtual Agent Team - Chatbot Feature Prioritization, September 2022"
+author: "Kiera Morrissey"
+date_created: "2022-09-01"
+last_modified: "2024-12-19"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Virtual Agent"
+portfolio: "digital-experience"
+product: "Virtual Agent Chatbot"
+research_phase: "discovery"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "75 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans familiar with VA.gov who have or are interested in login credentials (Login.gov, ID.me, MyHealtheVet, DS Logon)"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/virtual-agent/research/2022-09-Chatbot Feature Prioritization/research-plan.md"
+related_prototype: "https://xd.adobe.com/view/97fc85e1-1c8e-4b91-beae-a5fdfef5838a-c2af/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: Virtual-Agent"
+  - "PRDT: Chatbot"
+  - "DSP: Help users to..."
+  - "usability-testing"
+  - "moderated-usability-test"
+  - "prototype-testing"
+  - "feature-prioritization"
+  - "sign-in"
+  - "authentication"
+  - "login-issues"
+  - "password-reset"
+  - "account-creation"
+  - "problem-escalation"
+  - "conversational-design"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
 
-# NEW: Compliance flags
+description: "Feature prioritization study for VA Virtual Agent chatbot to evaluate and prioritize sign-in assistance, problem escalation, account identification, password reset, and account creation flows."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

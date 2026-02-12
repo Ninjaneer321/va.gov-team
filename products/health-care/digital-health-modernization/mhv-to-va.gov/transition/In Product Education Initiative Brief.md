@@ -75,6 +75,15 @@ As we transition Veterans to our new MHV portal we want a way to introduce them 
 - The component should be used sparingly for changes that impact a lot of users or a critical function to use the tool effectively.  Ideally there should only be 1 IPE per page and not used on every page. It should not be used for important information needed to perform a task.  It should not be nested within a page or used for complex interactions.
    [Figma File](https://www.figma.com/design/5uTyxzQa92awJV0dcVEhM6/Z---Navigation%2C-IA-%2B-In-Product-Education?node-id=4127-92994&t=PjEFG7nzKv601LsX-0)
 
+### How it works
+- The component disappears for the user in all future sessions if one of two conditions are met:
+   1. The user "sees" the component 3 times
+   2. The user dismisses the component
+-  From Richard Davis, engineer on Meds team: "There is a database-backed model in vets-api called 'Tooltip'. [...] When loading the page, vets-website retrieves the Tooltips for the user and checks if 'hidden' is true, if so hides the particular UI with the matching 'tooltip_name'."
+- [Code for tooltip controller here](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/my_health/app/controllers/my_health/v1/tooltips_controller.rb#L67-L74)
+- Q: What is the mechanism used to recognize the user in future sessions? A: "Backend session data. Specifically the timestamp of the session."
+  
+
 #### Go-to-market 
 > *What marketing, outreach, or communications are necessary for this product to be successful? Which groups/orgs are necessary to make this happen?*
 

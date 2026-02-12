@@ -1,29 +1,43 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VAOS, Request Clarification, November 2021"
+author: "Peter Russo"
+date_created: "2021-11-05"
+last_modified: "2021-11-05"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "VA Online Scheduling (VAOS)"
+portfolio: "health"
+product: "VA Online Scheduling"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with established VA health care at facilities, desktop/laptop users only"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/appointments/va-online-scheduling/research/2021-11-request-clarification-research/research-plan.md"
+related_prototype: "https://va-scheduling.invisionapp.com/console/share/8B35XJ0ST3/823651604"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VAOS"
+  - "PRDT: Appointments"
+  - "MHV: Appointments"
+  - "DSC: Button"
+  - "DSC: Links"
+  - "DSP: Content presentation"
+  - "DSP: Help users to...understand a process"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "usability-testing"
+  - "remote-research"
+  - "authenticated"
+  - "appointment-requests"
+  - "scheduling"
+description: "Usability test for appointment requests clarification in VAOS, focusing on understanding confusion around requests vs. scheduled appointments and improving the scheduling flow and appointment list experience."
 
 # NEW: Compliance flags
 recording_required: true

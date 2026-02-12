@@ -1,31 +1,48 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: Profile Editing Evaluation - September 2022"
+author: "Liz Lantz, Authenticated Experience Team"
+date_created: "2022-09-01"
+last_modified: "2024-01-15"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Authenticated Experience"
+portfolio: "digital-experience"
+product: "VA.gov Profile"
+research_phase: "evaluative"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "35-40 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans using mobile devices or desktop with assistive technology (screen readers or magnification)"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2022-09-profile-editing-evaluation/research-plan.md"
+related_prototype: "bit.ly/vap917"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: VA.gov-profile"
+  - "profile"
+  - "contact-information"
+  - "notification-settings"
+  - "address-validation"
+  - "mobile-usability"
+  - "usability-testing"
+  - "moderated-usability-test"
+  - "Accessibility"
+  - "screen-reader"
+  - "magnification"
+  - "HDW: Smartphone"
+  - "HDW: Desktop"
+  - "DSC: Form"
+  - "DSC: Modal"
+  - "DSP: Ask users for... Contact information"
+  - "DSP: Help users to... Edit and update"
 
-# NEW: Compliance flags
+description: "Mobile-focused usability evaluation of VA.gov profile editing flows for contact information and notification settings, including address validation, modal interactions, and comparison with a single-page-per-field prototype approach."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

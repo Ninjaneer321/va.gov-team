@@ -1,29 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for ICAM SSOi, Pre-Migration User Interviews, July 2025"
+author: "Anne Costello Kennedy"
+date_created: "2025-07-01"
+last_modified: "2025-07-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "ICAM (Identity, Credential, and Access Management)"
+portfolio: "digital-experience"
+product: "Single Sign-On Internal (SSOi)"
+research_phase: "evaluative"
+research_method: "moderated_interview"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Application owners and technical staff who completed migration survey and have experience with SiteMinder implementation"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "N/A"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "SSO"
+  - "SSOi"
+  - "ICAM"
+  - "migration"
+  - "EntraID"
+  - "SiteMinder"
+  - "AUD-internal-users"
+  - "RESRCH-evaluative"
+  - "RESRCH-remote"
+  - "identity"
+  - "access-management"
+description: "Pre-migration interviews with application owners to understand SiteMinder implementation experience and concerns about migrating to EntraID."
 
 # NEW: Compliance flags
 recording_required: true

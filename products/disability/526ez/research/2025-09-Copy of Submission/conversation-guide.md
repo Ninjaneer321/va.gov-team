@@ -3,10 +3,41 @@ title: "Conversation Guide for Disability Benefits Core Form Team, 21-526ez, 202
 author: "Qian Chen, Irene Vailikit, Kevin Shih"
 date_created: "2025-09-11"
 last_modified: "2025-09-19"
+
+# NEW: Core research metadata
+team: "Disability Benefits Core Form Team"
+portfolio: "benefits"
+product: "Form 21-526EZ (Application for Disability Compensation)"
+research_phase: "usability"
+research_method: "moderated_usability_test"
+
+# NEW: Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have applied for VA disability benefits, tested on desktop and mobile devices"
+
+# NEW: Related documents
+related_research_plan: "products/disability/526ez/research/2025-09-Copy of Submission/research-plan.md"
+related_prototype: "https://tinyurl.com/y7j36kar"
+
 tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: 21-526EZ"
+  - "DSC: Accordions"
+  - "DSP: Confirmation Page"
+  - "Research"
+  - "Usability Testing"
   - "526ez"
-  - "research"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "Submission Confirmation"
+  - "Form Review"
+  - "Print Functionality"
+description: "Usability testing for Form 526EZ confirmation page focusing on content effectiveness, visual hierarchy, 'What happens next' information, and ability to save/print submission information."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 
 # Copy of Submission: Conversation Guide

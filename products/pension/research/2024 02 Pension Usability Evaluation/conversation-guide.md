@@ -1,29 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Pension Benefits, Form 21P-527EZ Usability Evaluation, February 2024"
+author: "Allexe Bubniak"
+date_created: "2024-02-01"
+last_modified: "2024-02-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Pension & Fiduciary"
+portfolio: "benefits"
+product: "Veterans Pension Benefits"
+research_phase: "evaluative"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who are potentially eligible for pension benefits or planning to apply in the future"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/pension/research/2024 02 Pension Usability Evaluation/research-plan.md"
+related_prototype: "https://staging.va.gov/pension/how-to-apply/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "pension"
+  - "form-527EZ"
+  - "usability-testing"
+  - "authenticated-experience"
+  - "multi-step-form"
+  - "financial-information"
+  - "military-history"
+  - "health-employment"
+  - "household-information"
+  - "document-upload"
+  - "special-monthly-pension"
+description: "Comprehensive usability evaluation of the digital Veterans Pension form 21P-527EZ, testing instruction clarity, form completion experience, pain points and pleasure points across all eight steps including review and confirmation."
 
 # NEW: Compliance flags
 recording_required: true

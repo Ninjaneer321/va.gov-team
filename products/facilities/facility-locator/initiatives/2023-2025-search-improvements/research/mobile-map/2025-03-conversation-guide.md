@@ -1,29 +1,40 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
+title: "Conversation Guide for Facilities Team, Mobile Map Usability, March 2025"
 author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+date_created: "2025-03-01"
+last_modified: "2025-03-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Facilities Team"
+portfolio: "health"
+product: "Facility Locator"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "45-75 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans, family members, and caregivers using mobile devices; includes assistive technology users"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/mobile-map/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-veterans"
+  - "AUD-family-members"
+  - "AUD-caregivers"
+  - "PRDT-facility-locator"
+  - "BNFT-health-care"
+  - "DSC-map"
+  - "DSP-search"
+  - "HW-mobile"
+  - "HW-smartphone"
+  - "HW-tablet"
+  - "usability-testing"
+  - "assistive-technology"
+  - "screen-reader"
+description: "Usability testing of mobile map view in the Facility Locator, evaluating map navigation, location selection, facility comparison, and overlapping locations on smartphones and tablets."
 
 # NEW: Compliance flags
 recording_required: true

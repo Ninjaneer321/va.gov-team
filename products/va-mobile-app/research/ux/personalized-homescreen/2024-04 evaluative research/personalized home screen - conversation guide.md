@@ -1,3 +1,49 @@
+---
+title: "VA Mobile App: Personalized Home Screen Evaluative Research - Conversation Guide"
+author: "Holly Collier"
+date_created: "2024-03-01"
+last_modified: "2024-03-01"
+
+# Core research metadata
+team: "VA Mobile UX Team"
+portfolio: "health"
+product: "VA Health and Benefits Mobile App"
+research_phase: "evaluative"
+research_method: "usability_test"
+
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "iPhone or iPad users who are active monthly users of VA Health and Benefits mobile app, willing to install Testflight and pre-release build. All must be able to independently log in with VA credentials. All should have active VA claim/appeal. At least 9 should be VA health care users, 9 in rural areas, 4 with 2+ years screenreader experience."
+
+# Related documents
+related_research_plan: "products/va-mobile-app/research/ux/personalized-homescreen/2024-04 evaluative research/personalized home screen - research plan.md"
+related_prototype: "Testflight pre-release build 2.28.1 (1728)"
+
+tags:
+  - "mobile-app"
+  - "personalized-home-screen"
+  - "usability-testing"
+  - "evaluative-research"
+  - "iOS"
+  - "authenticated"
+  - "activity-modules"
+  - "claims"
+  - "appointments"
+  - "prescriptions"
+  - "messages"
+  - "screenreader"
+  - "assistive-technology"
+  - "testflight"
+  - "veteran-letters"
+description: "Evaluative conversation guide for testing the personalized home screen in the VA Health and Benefits mobile app. Assesses participant comprehension of app capabilities, perception of value, and usability with task-based evaluation. Tests both screenreader and non-screenreader users to identify any accessibility barriers and evaluate the Activity section with personalized modules."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # VA Mobile App: Personalized Home Screen Evaluative Research - Conversation Guide
 March 2024  
 Holly Collier ([holly.collier@adhocteam.us](mailto:holly.collier@adhocteam.us)), VA Mobile UX Team

@@ -1,31 +1,46 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Oracle Health My VA Health Transition Nudge Research, October 2025"
+author: "Digital Health Modernization Team"
+date_created: "2025-10-01"
+last_modified: "2025-10-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Digital Health Modernization"
+portfolio: "health"
+product: "My HealtheVet on VA.gov - Oracle Health Transition"
+research_phase: "evaluative"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use My VA Health portal at Oracle Health facilities"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://tinyurl.com/healthytest1"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: MHV: Appointments"
+  - "PRDT: MHV: Medications"
+  - "PRDT: My VA Health"
+  - "DSC: Alert"
+  - "DSC: Card"
+  - "DSP: My VA page"
+  - "METHOD: Moderated interview"
+  - "METHOD: Remote moderated"
+  - "METHOD: Prototype testing"
+  - "MHV: Appointments"
+  - "MHV: Medications"
+  - "health-care"
+  - "digital-health-modernization"
+  - "oracle-health"
+  - "transition"
+description: "Conversation guide for evaluative research on Oracle Health patient transition from My VA Health to My HealtheVet on VA.gov, testing transition alerts and user comfort with new portal."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

@@ -1,34 +1,42 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for IIR, Performance Dashboard, April 2024"
+author: "Raquel Eisele"
+date_created: "2024-04-24"
+last_modified: "2026-02-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "IIR (Integrated Informatics Research)"
+portfolio: "digital-experience"
+product: "Performance Dashboard"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA employees (not OCTO) who communicate VA.gov statistics or internal product stakeholders whose products are represented on the dashboard"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/performance-dashboard/research/2024-04-Research-PerformanceDashboardRedesign/usability-research-plan.md"
+related_prototype: "https://www.figma.com/proto/2PtOg1H5h5obJUFg7DJpc8/Performance-Dashboard-Larger-Updates?page-id=512%3A55032&type=design&node-id=512-55033&viewport=779%2C532%2C0.11&t=yLUJLXgNFu8BdZro-1&scaling=scale-down&starting-point-node-id=512%3A55033&mode=design"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: VA Staff"
+  - "AUD: Internal VA Stakeholders"
+  - "PRDT: Performance-Dashboard"
+  - "usability-testing"
+  - "comparative-analysis"
+  - "evaluative-research"
+  - "analytics-analysis"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "unauthenticated-experience"
+description: "Usability testing conversation guide for comparing current and redesigned Performance Dashboard with VA employees to determine which design better tells the story of VA.gov's value and impact."
 
 # NEW: Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Performance Dashboard Conversation Guide 2 

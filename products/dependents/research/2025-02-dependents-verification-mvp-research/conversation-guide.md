@@ -1,29 +1,40 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Dependent Management Team, Dependent Verification MVP, February 2025"
+author: "Dependent Management Team"
+date_created: "2025-02-01"
+last_modified: "2025-02-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Dependent Management Team"
+portfolio: "benefits"
+product: "Dependent Verification MVP"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with claimed dependents on VA disability benefits who have received verification requests"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/dependents/research/2025-02-dependents-verification-mvp-research/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-Veteran"
+  - "BNFT-Disability"
+  - "BNFT-Dependents"
+  - "PRDT-dependent-verification"
+  - "PRDT-686c"
+  - "PRDT-674"
+  - "PRDT-form-21-686c"
+  - "PRDT-form-21-674"
+  - "PRDT-form-21P-0538"
+  - "usability-testing"
+  - "DSP-form-flow"
+  - "email-notification"
+  - "paper-forms"
+description: "Foundational research and usability testing for dependent verification MVP, exploring Veterans' experiences managing dependents, understanding verification processes, and interacting with online and paper form flows."
 
 # NEW: Compliance flags
 recording_required: true

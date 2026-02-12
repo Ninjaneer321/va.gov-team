@@ -1,31 +1,34 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide: VBA Facility Pages Veteran-Facing Usability Testing"
+author: "Cindy Merrill, Alexis Logsdon"
+date_created: "2023-06-01"
+last_modified: "2023-08-14"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Facilities Team"
+portfolio: "benefits"
+product: "VBA Regional Office Facility Pages"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans, Caregivers, or Family members with experience using VA benefits"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/facilities/regional-offices/research/2023-06-veteran-facing/research-plan.md"
+related_prototype: "bit.ly/3QwOn4F"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "facilities"
+  - "VBA"
+  - "regional-office"
+  - "usability"
+  - "wayfinding"
+description: "Usability testing for VBA regional office facility pages, evaluating how Veterans find information about benefits services and prepare for visits."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

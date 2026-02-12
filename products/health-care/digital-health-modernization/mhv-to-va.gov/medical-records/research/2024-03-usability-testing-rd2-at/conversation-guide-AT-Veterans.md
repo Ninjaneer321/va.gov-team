@@ -1,29 +1,43 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for MHV on VA.gov Medical Records Round 2 Assistive Technology Users, March 2024"
+author: "Medical Records Team"
+date_created: "2024-03-01"
+last_modified: "2024-03-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Digital Health Modernization"
+portfolio: "health"
+product: "MHV on VA.gov - Medical Records"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "90 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use assistive technology (screen readers, voice control, or screen magnification) to access My HealtheVet, including those with cognitive disabilities"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-03-usability-testing-rd2-at/research-plan.md"
+related_prototype: "Live staging environment"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "MHV"
+  - "medical-records"
+  - "assistive-technology"
+  - "screen-reader"
+  - "voice-control"
+  - "screen-magnification"
+  - "accessibility"
+  - "vaccines"
+  - "care-summaries-notes"
+  - "vitals"
+  - "allergies"
+  - "print-download"
+  - "blue-button"
+  - "PDF-accessibility"
+  - "cognitive-disability"
+  - "usability-testing"
+description: "Usability testing for Medical Records on MHV on VA.gov with assistive technology users, evaluating Vaccines, Care Summaries and Notes, Vitals, and Allergies, as well as PDF accessibility and print/download functionality compared to Blue Button reports."
 
 # NEW: Compliance flags
 recording_required: true

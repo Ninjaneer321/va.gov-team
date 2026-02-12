@@ -1,29 +1,37 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for 10-10EZR Confirmation Flow, May 2025 - Green Option First"
+author: "Health Enrollment Team"
+date_created: "2025-05-01"
+last_modified: "2025-05-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Health Enrollment Team"
+portfolio: "health"
+product: "10-10EZR Health Benefits Update Form"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with service-connected disabilities who have previously filled out health care forms"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "N/A"
+related_prototype: "https://www.figma.com/proto/tggcJk382w9yQ0ElwKfh3N/10-10EZR"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-veterans"
+  - "BNFT-health-care"
+  - "PRDT-10-10EZR"
+  - "PRDT-health-enrollment"
+  - "DSC-prototype"
+  - "DSP-form"
+  - "MHV"
+  - "usability-testing"
+  - "moderated-research"
+  - "A-B-testing"
+description: "Usability test for 10-10EZR confirmation flow comparing two design options, testing Green option first. Veterans update financial and dependent information with prefilled data."
 
 # NEW: Compliance flags
 recording_required: true

@@ -1,29 +1,36 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Medical Supply Reordering, March 2024"
+author: "Jenny Wang"
+date_created: "2024-03-01"
+last_modified: "2024-03-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Medical Supplies"
+portfolio: "health"
+product: "Medical Supply Reordering Tool"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use hearing aid batteries, prosthetic socks, or CPAP supplies from VA"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/supply-reordering-tool/research/2024-03-Supply-Reordering-Research/research-plan.md"
+related_prototype: "https://staging.va.gov/health-care/order-hearing-aid-batteries-and-accessories/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "medical-supplies"
+  - "hearing-aids"
+  - "usability-testing"
+  - "health-care"
+  - "supply-reorder"
+  - "assistive-devices"
+  - "form-experience"
+  - "veteran-information"
+  - "address-validation"
+description: "Usability testing for the medical supply reordering process on VA.gov, focusing on hearing aid batteries and accessories ordering experience."
 
 # NEW: Compliance flags
 recording_required: true

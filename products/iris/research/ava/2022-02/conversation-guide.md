@@ -1,31 +1,40 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for AVA Dashboard, IRIS, February 2022"
+author: "Michael (Platform Contact Center Team)"
+date_created: "2022-02-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Platform Contact Center Team"
+portfolio: "benefits"
+product: "IRIS AVA Dashboard"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "30-40 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA staff members who use the AVA Dashboard in their workflow to manage Veteran inquiries"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "Current AVA Dashboard with new Business/Personal tabs feature"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: VA Staff"
+  - "PRDT: IRIS"
+  - "PRDT: Contact-center-tools"
+  - "DSC: Form"
+  - "DSP: Help users to...organize information"
+  - "usability-testing"
+  - "moderated-usability-test"
+  - "internal-tools"
+  - "workflow-optimization"
+  - "feature-evaluation"
 
-# NEW: Compliance flags
+description: "Usability testing of the new Business and Personal tabs feature in the AVA Dashboard, evaluating how VA staff members use the tab system to organize and filter inquiries in their workflow."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

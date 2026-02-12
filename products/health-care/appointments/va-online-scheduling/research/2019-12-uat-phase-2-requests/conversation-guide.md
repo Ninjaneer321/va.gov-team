@@ -1,34 +1,44 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VAOS Team, UAT Phase 2 - Requests, December 2019"
+author: "Unknown"
+date_created: "2019-12-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VAOS"
+portfolio: "health"
+product: "VAOS (VA Online Scheduling)"
+research_phase: "evaluative"
+research_method: "UAT"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with MHV Premium or ID.me accounts enrolled in VA healthcare who need to schedule appointments"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "www.va.gov/health-care/schedule-view-va-appointments/appointments"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VAOS (VA Online Scheduling)"
+  - "MHV: Appointments"
+  - "UAT"
+  - "DSC: Form"
+  - "DSC: Form - Date Input"
+  - "DSC: Form - Radio Button"
+  - "DSC: Form - Text Area"
+  - "DSP: Ask users for dates"
+  - "DSP: Ask users for phone numbers"
+  - "DSP: Help users to check answers"
+description: "User acceptance testing for VAOS MVP Phase 2, validating appointment request creation, cancellation functionality, and confirmation page accuracy with real users on production system."
 
-# NEW: Compliance flags
-recording_required: true
+# Compliance flags
+recording_required: false
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide: User Acceptance Testing Phase 2 - Cancel appts / requests; create VA appointment request

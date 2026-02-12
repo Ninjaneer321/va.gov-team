@@ -1,31 +1,42 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Accredited Representative Facing, Claims Submission Usability Test, April 2025"
+author: "Laura Steele, Kate Hurley"
+date_created: "2025-03-15"
+last_modified: "2025-04-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Accredited Representative Facing (ARF)"
+portfolio: "benefits"
+product: "Accredited Representative Portal (ARP)"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Accredited representatives (VSOs, attorneys, claims agents) who submit Form 21-686c for dependents"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://tinyurl.com/5b7achc6"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veteran Service Office (VSO)"
+  - "AUD: Attorneys"
+  - "PRDT: Accredited-Reps"
+  - "PRDT: Form 21-686c"
+  - "BNFT: Disability"
+  - "usability-testing"
+  - "DSC: Form"
+  - "DSC: Alert"
+  - "DSP: Search"
+  - "claimant-search"
+  - "submissions-history"
+  - "QuickSubmit"
+  - "SEP"
+description: "Usability testing of v1 Claims Submission template focusing on claimant search, Form 21-686c submission workflow, and submissions history viewing functionality for accredited representatives."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

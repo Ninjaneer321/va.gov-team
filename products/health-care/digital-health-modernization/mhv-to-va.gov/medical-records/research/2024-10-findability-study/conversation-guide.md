@@ -1,29 +1,40 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for MHV on VA.gov Medical Records Findability Study, October 2024"
+author: "Medical Records Team"
+date_created: "2024-10-01"
+last_modified: "2024-10-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Digital Health Modernization"
+portfolio: "health"
+product: "MHV on VA.gov - Medical Records"
+research_phase: "evaluative"
+research_method: "moderated_interview"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "90 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with diabetes who use both My HealtheVet and MyChart for community care, willing to share personal health records"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-10-findability-study/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "MHV"
+  - "medical-records"
+  - "findability"
+  - "blue-button"
+  - "lab-test-results"
+  - "care-summaries-notes"
+  - "health-conditions"
+  - "community-care"
+  - "MyChart"
+  - "diabetes"
+  - "generative-research"
+  - "comparative-analysis"
+  - "cognitive-disability"
+description: "Findability study comparing how Veterans with diabetes locate and understand health information in both My HealtheVet and MyChart, using their own personal health records to evaluate Blue Button reports, lab results, care notes, and health conditions."
 
 # NEW: Compliance flags
 recording_required: true

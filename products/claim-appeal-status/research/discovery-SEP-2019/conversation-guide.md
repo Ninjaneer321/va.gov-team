@@ -1,31 +1,39 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Claim Status Tool Discovery Research, September 2019"
+author: "Unknown"
+date_created: "2019-09-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Benefits and Appeals"
+portfolio: "benefits"
+product: "Claim Status Tool"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have filed disability claims and/or appeals with the VA"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "./research-plan.md"
+related_prototype: "https://vsateams.invisionapp.com/share/S2U2NQZZ76A#/385489667_Intro-Page-2"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Claim-status-tool"
+  - "PRDT: Decision-reviews"
+  - "usability-testing"
+  - "moderated-interview"
+  - "DSC: Button"
+  - "DSC: Tabs"
+  - "DSC: Form - File Input"
+  - "DSP: Ask users for files"
+description: "Usability testing conversation guide for the Claim Status Tool prototype, testing file upload functionality and claim detail views for disability claims and appeals."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

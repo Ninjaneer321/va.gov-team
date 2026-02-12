@@ -1,23 +1,23 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Financial Management Team Pay.gov for Benefit Overpayment Debt Payments"
+author: "Risha Lee"
+date_created: "2026-11-02"
+last_modified: "2026-11-02"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
+team: "Financial Management"
 portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+product: "Pay.gov for benefit overpayment debt payments"
+research_phase: "evaluative"
+research_method: "moderated_interview|usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "75 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have experience making payments towards VA benefit overpayment debt"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
+related_research_plan: "[[path/to/research-plan.md]](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/research/research-plan.md)"
 related_prototype: "[URL or N/A]"
 
 tags:
@@ -32,7 +32,7 @@ consent_for_clips: true
 ---
 
 
-# Conversation Guide for [initiative]
+# Conversation Guide for Pay.gov benefit overpayment debt payments
 
 ## Moderator logistics 📋✅
 ### 2-3 days before the session
@@ -61,122 +61,366 @@ consent_for_clips: true
 > - Check your [screensharing setup] and share permissions for participants.
 > - When the participant is ready, begin the session with the following intro*
 
-# Intro - 5 minutes
+# Intro (7 minutes)
 
-Thanks for joining us today! My name is **[NAME]** and **[NOTETAKER NAME]** is taking notes.
-I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them... 
+* Thank you so much for joining today. My name is Risha, and \[NAME\] here will be taking notes. 
 
-Today we're going to talk about making updates to health care information.
+* Today, we’ll be discussing how people think about and manage payments. I’ll ask you some questions about your experiences making payments with the VA and other institutions. Then I’ll share a prototype of a part of the website we’re currently working on and ask for your feedback. How does that sound? 
 
+* I work for the VA. My goal today is to get a sense of how you want to manage your VA finances, and how our tools can support that. I want you to know up front that I won't be able to solve issues for you right now – I don't have any access to your records, nor any direct contact with billing and debt departments. I do want to know about your frustrations in case there are things we can improve in the future.
 
-Before we start, I have a few things that I want to go over with you:
+* I have \[number\] colleagues who are interested in observing this session to better understand the Veteran experience. Would you be okay with them observing?  
+  * *If no: Use Slack to kindly ask the observers to leave the Zoom.*  
+  * *If yes: Admit observers.*  
+* This interview will take about 75 minutes. Because I want to keep us on time, I may occasionally prompt you to the next topic.
 
-- **This entire session should take about 60 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
-  
-- **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
-  
-- **Your participation in this interview is completely voluntary.** You do not have to participate if you don't want to. Whether you choose to participate or not will not affect your benefits in any way with the VA. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Please let me know.
-  
-- I know the folks who invited you to participate in this interview asked if it was alright to allow people to observe this interview, but I want to double-check with you before we get going. **Are you okay with a couple of additional observers during this session?**
-   - <mark>**If no:** Use Slack to kindly ask the observers to leave the Zoom.</mark>
-   - **If yes:** Admit observers.
-     
-> [!TIP]
-> - Then, ask the notetaker and observers to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)
-> - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
-     
-- *(If applicable)* **You'll be interacting with a prototype today.** This is a demo tool that may not function exactly the way you expect. Some areas of the prototype will be clickable, and some will not. <mark>**Since it's a demo, none of your actions will affect your VA information or benefits.**</mark>
-  
-- **Are you comfortable if I record my screen and audio as we talk today?** We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will be attributed to you directly. We either report findings out in groups (i.e., 5 out of 10 participants said this), or if we want to quote you directly, we take away any identifying information and give you a participant ID, like P7.
-   - **Knowing that, are you comfortable if I record my screen and audio as we talk today?**
+* You are the expert, and we want your honest opinions. There are no right or wrong answers, and we’re not testing anything of you. I will not be offended by any opinions you share.
 
-   <mark>**[Record answer here]**</mark>
-     
-- **Would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veterans’ experiences?** One of the ways that we share findings with our partners across the VA is by showing short video clips of sessions with Veterans. In these video clips, we blur out any information that could possibly be used to identify you, like your onscreen image. Sharing these video clips can be a compelling way for our partners to better understand what Veterans go through when using VA.gov and our digital products. These clips will not be shared outside of the VA. We don't know at this point if we will or not, but we like to ask ahead of time. At the end of the interview, I'll also confirm that this is okay with you, so you will get a chance to veto this once you know what we've discussed.
-   - **Knowing this, would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veteran's experiences?**
- 
-   <mark>**[Record answer here]**</mark>
+* Your participation in this interview is completely voluntary. You do not have to participate if you don't want to. Whether you choose to participate or not will not affect your benefits in any way with the VA. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Just let me know.
 
-   - If yes: **Once I start recording, I am going to confirm that you are okay with me recording this session once more.**
+* Finally, I would like to confirm you are comfortable with my recording this session. We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will be attributed to you directly. **Are you comfortable if I record our session today?**
 
-➡️ **Start recording.**
+* *(If yes:)* Once I start recording, I am going to confirm once more that you are ok with me recording this session.
 
-> [!TIP]
-> After you start the recording, click the Show captions (CC) button to enable transcription for the recording.
+* If you would be okay with it, we would like to record this session today, but let me explain things first before you consent.
 
-- **I have started recording.** I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
+* And also, it can be helpful to share video clips from sessions to our VA partners so they can better understand the experiences of Veterans. In these clips, we blur out anything that could identify you – your profile photo for example – and they would only be shared among VA partners. Would you be comfortable with us potentially using a clip from this session?
 
- <mark>**[Record answer here]**</mark>
- 
-- **Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners if we remove any information that can be used to identify you?**
+* *(if yes)* I’m going to start the recording, and once I do I’m going to confirm once more that you’re okay with the recording.
 
- <mark>**[Record answer here]**</mark>
+⏺️ Start recording.
 
-# Warm-up Questions (Optional) - 5 minutes
+* I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?  
+* Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners if we remove any information that can be used to identify you?
 
-Before we look at the website, let’s start with a few warm-up questions.
+* Do you have any questions before we get started?
 
-1. Do you have a service-connected disability at VA?
-- If yes: what is your disability rating?
-- If no, skip to question 2.
-2. 
+*Moderator: In the bottom toolbar of the Zoom window, click the arrow next to SHOW CAPTIONS \> View Full Transcript \> Save (NEED TO DO THIS TO GET TRANSCRIPT)*
 
-## First Task: [TASK NAME] - X minutes
+*After checking that transcription is working, close the Transcript panel by clicking Close Full Transcript in the Show Captions menu.*
 
-- [ ] Step 1
-- [ ] Step 2
+# Screen sharing instructions (if needed)
 
-> [!NOTE]
-> ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Is the participant aware that they may be sharing personal information on their screen, and are they okay with that? - per question as needed]
-> - [Etc]
+* In the Zoom application on your computer, there's a row of buttons at the bottom. In the center is a button that says Share *(on phone, may need to scroll sideways or click More...)*  
+  * If you don't tap the screen for a while, all the buttons at the bottom will hide. To get them back, you can tap/click anywhere on the screen, and they'll show up again.  
+  * (If you have more than one screen, the row of buttons may be on the screen that's being shared)  
+* Now I'd like you to share your screen with me. Tap on the button that says Share. Then there will be options for what to share. Please choose "Screen" (phone) or your web browser.  
+* Great, now I can see your screen\! Thank you for your patience in figuring this out.
 
-## Second Task: [TASK NAME] - X minutes
+# Troubleshooting
 
-- [ ] Step 1
-- [ ] Step 2
+\[Avoid AI Companion, which is a new option next to “Share” in the Zoom buttons\]
 
-> [!NOTE]
-> ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
+\[If see unpredictable jumping around behavior and participant is using a browser other than Chrome, ask them to switch to Chrome (this helped with VoiceOver on an iPhone using Safari)\]
 
-## Third Task: [TASK NAME] - X minutes
+\[If having difficulty moving windows around or opening the prototype, you could request control of the participant’s screen and mouse in Zoom: `<Name>’s screen tab > Request remote control`. Then you can move/resize browser (but not zoom windows/buttons) and type into browser bar. The participant may need to minimize the zoom video view, and drag the zoom buttons to the bottom of the screen so out of the way.\]
 
-- [ ] Step 1
-- [ ] Step 2
+\[If can't see an iPhone's magnified screen, ask participant to go into their phone and do `Settings > Accessibility > Show while Mirroring`\]
 
-> [!NOTE]
-> ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
+\[If “Uncaught runtime errors”, close with “X” (label “dismiss”) in top right corner, leave site if prompted.
 
-# Post-Task Interview - X minutes
+Check my browser window to see if codespace shut down.
 
-- Question 1
-- Question 2
-- Any questions for me? 
+If so, restart it. Then have them click on the Apple button to resume/start over.\]
 
-## Consent to use video clips
+# Warm-up (3 minutes)
 
-- I want to circle back and re-confirm that **you are comfortable if we were to share a video clip of this session with our VA partners?** Just to remind you, we will remove all information that could be used to identify you before sharing and will only share the videos with VA partners with the purpose of improving VA.gov and other digital experiences.
-   - **If yes:** Is there any part of our discussion you would NOT want shared in a video clip?
- 
-   <mark>**[Record answer here]**</mark>
+* My first question is to get to know you a little.  What is a recent hobby or interest?
 
+## For only assistive tech users (5 minutes)
 
-## Thank-You and Closing - X minutes
+* **What assistive technology are you using right now? *(screen reader / magnifier \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_)***  
+  * *(If Dolphin screen reader, won't be able to share screen on Zoom)*  
+  * *(if no AT)* Do you sometimes use assistive technology while using VA.gov or filling out a form online?  
+    * If so, what do you use and when?  
+      * Would you be willing to start using it now in this session?  
+      * *(if not, run session w/o AT, or stop and ask Perigean for a replacement participant)*  
+* How would you rate your level of experience with using a screen *(reader / magnifier)*\--beginner, intermediate, advanced, or expert?  
+* How long have you been using a screen *(reader / magnifier)*?  
+* Have you ever shared your screen in Zoom while using a screen *(reader / magnifier)*? *(Yes / No)*  
+  * If not, we can help you do that.
 
-Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
+# Payment behaviors (25 minutes)
 
-Thanks! Lastly, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
+* Switching gears to talk about your experience with the VA. I’d like to ask you some questions about how you make payments. I want to make sure that you’re only sharing what you’re willing to share.
 
-Thank you so much again, and enjoy the rest of your day!
+* Tell me about the last time you paid a bill to the VA.   
+  * How did you do it?  
+  * What was easy? What was frustrating?
 
+* What would have made that experience easier?  
+  * \[PROBE: If veteran doesn’t mention recurring payments\] Have you ever considered setting up automatic payments for any of your debts?  
+    * \[IF YES\] What made you decide to set that up? How did you go about setting that up?  
+    * \[IF NO\] What made you decide against it?
+
+* Think about a recent payment you made that felt easier \- maybe a bill to your bank, credit card company, or another organization.  
+  * Tell me about that experience. What made it easier than the VA?
+
+* Let me ask you a bit about how you manage your finances in general. How do you track and manage your finances?  
+  * What information matters most for you when you’re paying bills?  
+  * Do you use any apps, spreadsheets, or tools?  
+  * How do you make sure you have enough money in your account when payments are due?  
+  * What information do you need to feel confident making a payment?
+
+* Have you ever been on a payment plan with the VA?  
+  * Tell me about that experience. How did you set it up?  
+  * How did you decide on the amount and timeline?  
+  * What was easy? What was difficult?  
+  * Would you do anything differently next time?
+
+* How did that compare to a payment plan outside the VA, if you’ve had one?
+
+\[Moderator’s note: ask if participant says they haven’t been on a VA payment plan\]
+
+* Have you ever been on a payment plan outside of the VA?  
+  * Tell me about that experience. How did you set it up?  
+  * How did you decide on the amount and timeline?  
+  * What was easy? What was difficult?  
+  * Would you do anything differently next time?
+
+# Prototype section (30 min)
+
+## Setup and Introduction (2 min)
+
+* Now we’ll switch gears and I’ll ask for your feedback on a part of the website we’re working on. 
+
+* You'll be interacting with a prototype that may not work exactly the way you expect. Some areas of the prototype will be clickable, and some will not.
+
+* None of your actions will affect your actual VA information or benefits.
+
+* We would like to hear your honest feedback. As much as possible please think out loud so that we can understand what is going through your mind when you use the prototype. That will help us to make improvements to it.
+
+## Task 0: Launch prototype (2 minutes)
+
+* I am going to drop a link in the Zoom chat. When you receive the link, please click it.
+
+\[Prototype Link:xxxx\]
+
+* Now I would like you to share your screen with me so that I can see what you do during this session. Before we start, I want to make sure you know that screen share will show me your own screen, so if you'd like to close anything that you don't want me to see, you could do that now.
+
+\[Moderator note: Participant shares screen and navigates to prototype\]
+
+## Task 1: Review overpayment balances (3 minutes)
+
+* Now that you’re in the prototype I’d like to hear your thoughts on a few elements of the page. Let’s say that you’re on [VA.gov](http://VA.gov) and would like to make a payment. Please keep in mind the information here is mocked up, and in reality would be associated with you.
+
+* What are your first impressions of this page?  
+  * What draws your attention the most?  
+* What can you do from here?
+
+Success:
+
+- [ ] Participant understands the page is an overpayment summary
+
+Watch for:  
+\- Does the participant understand this is an overpayment summary page?  
+\- Are they confused by any language or layout?
+
+## Task 2: Review overpayment details (3 min)
+
+* I’d like you to explore this page. What would you click on to learn more about the amount that is owed?  
+  * What information would you expect to see?
+
+\[Moderator note: participant clicks on “review details” CTA; if they don’t click prompt “Go ahead and click on “review details” to see what information is there\]
+
+* How does this compare to what you expected?
+
+* What information stands out to you?
+
+* Is there any information that is not useful on this page? Please explain.
+
+* Is there anything confusing about the layout?
+
+Success: 
+
+- [ ] Participant clicks on “Review details”  
+- [ ] Participant can articulate what information is shown
+
+## Task 3: Resolve this overpayment (3 min)
+
+* Let’s say you’ve reviewed the details and you want to move forward with making a payment. Walk me through what you would do next
+
+* What would you expect to see next?
+
+\[Moderator note: participant clicks on “resolve this overpayment” CTA\]
+
+* Is this what you expected to happen?
+
+* Describe what you’re seeing.   
+  * What options do you have?  
+  * What is the purpose of each section?  
+  * Is there anything else you’d want to see?
+
+Success: 
+
+- [ ] Participant selects “Resolve this overpayment” within the yellow alert.  
+- [ ] Participant can explain why they chose that action
+
+Watch for
+
+- Any confusion about terminology  
+- Confidence level in navigation
+
+## Task 4: Choose making a payment from resolution screen (3 minutes) 
+
+* Let’s say you want to pay. Walk me through what you would do.
+
+\[Moderator note: participant clicks on “pay $830 by March 1, 2026” button\]
+
+Success: 
+
+- [ ] Participant can articulate the three different options of making a payment, getting financial help, and disputing an overpayment  
+- [ ] Participant selects “Pay this debt” action link
+
+## Task 5: Select Full or partial payment (2 min)
+
+* What are your initial impressions of this page?
+
+* What can you do from here?
+
+* Walk me through how you would continue making a payment
+
+\[Moderator note: Participant selects either radio button “Pay full amount ($830)” or “Pay partial amount”\]
+
+Success: 
+
+- [ ] Participant either selects “Pay full amount” or “Pay partial amount” and selects the Continue button.
+
+## Task 6: Select payment type (4 min)
+
+* What are your initial impressions of this page?
+
+* Where is this site? \[Do participants notice they have been redirected?\]  
+  * Did you notice we’ve been moved to a different website? How does that feel?  
+  * Does anything about this transition concern you?
+
+* What can you do from here?
+
+* Would you change anything about this?
+
+\[Moderator note: we will randomly ask half of the participants to pay with credit card and the other half with ACH\]
+
+* Let’s say you wanted to pay with a credit card/ by bank account. How would you do that?
+
+\[Moderator note: Participant selects radio button “bank account (ACH)” or “debit or credit card” and clicks “Continue” button\]
+
+Success: 
+
+- [ ] Participant selects the radio buttons “Bank account (ACH)” or “debit or credit card”   
+- [ ] Participant clicks the “Continue” button.
+
+## Task 7a: Enter payment information \- Bank account ACH (3 min)
+
+* What are your initial impressions of this page?  
+* Walk me through what you would enter here? (You don’t need to enter real information just tell me what you would do)  
+* How comfortable do you feel entering this information here?  
+* How would you continue to make this payment?
+
+\[Moderator note: Participant clicks “continue” button\]
+
+Success:
+
+- [ ] Participant understands they would need to enter the account and routing number from their banking or checking account  
+- [ ] Participant clicks “Continue” button
+
+Participant understands they would enter the address associated with their Bank or Card.  Participant selects “Continue”.
+
+## Task 7b: Enter payment information \- Debit or credit card (3 min)
+
+* What are your initial impressions of this page?  
+* Walk me through what you would enter here? (You don’t need to enter real information just tell me what you would do)  
+* How comfortable do you feel entering this information here?  
+* How would you continue to make this payment?
+
+\[Moderator note: Participant clicks “continue” button\]
+
+Success
+
+- [ ] Participant understands they need to enter their personal address and card details  
+- [ ] Participant clicks “continue” button
+
+## Task 8a: Review information on [Pay.gov](http://Pay.gov) \- Bank ACH (3 min)
+
+* What is the purpose of this page?
+
+* How useful or not is this information to you?
+
+* Is there anything missing?
+
+* How confident do you feel at this point that your payment will be processed correctly?  
+  * What would make you more confident?
+
+* How would you continue to make this payment?
+
+* What would you expect to see next?
+
+\[Moderator note: Participant checks “I authorize a charge” box and clicks “continue” button\]
+
+Success: 
+
+- [ ] Participant checks “I authorize a charge” box   
+- [ ] Participant clicks “Continue” button  
+- [ ] Participant understands the page summarizes their payment information
+
+## Task 8b: Review information on [Pay.gov](http://Pay.gov) \- debit or credit (3 min)
+
+* What is the purpose of this page?
+
+* How useful or not is this information to you?
+
+* Is there anything missing?
+
+* How confident do you feel at this point that your payment will be processed correctly?  
+  * What would make you more confident?
+
+* How would you continue to make this payment?
+
+* What would you expect to see next?
+
+\[Moderator note: Participant checks “I authorize a charge” box and clicks “continue” button\]
+
+Success: 
+
+- [ ] Participant checks “I authorize a charge” box   
+- [ ] Participant clicks “Continue” button  
+- [ ] Participant understands the page summarizes their payment information
+
+## Task 9: Confirmation page (2 min)
+
+* How does this compare with what you expected?
+
+* What are your thoughts on the information presented here?
+
+* Is any information missing?
+
+* How useful or not is this to you?
+
+* How would you save a copy of this? 
+
+\[Moderator note: Participant clicks “download a copy of your payment confirmation (PDF)” or clicks “print this page for your records”\]
+
+Success: 
+
+- [ ] Participant either clicks “download a copy,” “print this page for your records” button, or both  
+- [ ] Participant understands they will receive a confirmation email.
+
+# Wrap up Questions and closing \- 10 minutes 
+
+\[Type into \#feedback-backchannel: "Any questions you want me to ask?"\]
+
+* What was your overall experience going through this payment flow?
+
+* How confident did you feel throughout this process on a scale of 1-10?
+
+* How does this compare to paying your VA debt right now?
+
+* Is there anything else you’d like to share about your payment needs that would help me understand opportunities to improve your experience?
+
+* Thank you very much for your time\!
+
+*Open the Transcript panel, click Save Transcript*
+
+*End meeting for all*
 
 # Emergency Exit 🚨
 

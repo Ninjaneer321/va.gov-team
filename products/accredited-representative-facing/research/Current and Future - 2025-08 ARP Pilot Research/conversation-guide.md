@@ -1,31 +1,42 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Accredited Representative Facing, ARP Pilot Research, August 2025"
+author: "Laura Steele, Kate Hurley"
+date_created: "2025-07-15"
+last_modified: "2025-08-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Accredited Representative Facing (ARF)"
+portfolio: "benefits"
+product: "Accredited Representative Portal (ARP)"
+research_phase: "evaluative"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Accredited representatives from Wounded Warrior Project and Montana DVA participating in ARP pilot program"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veteran Service Office (VSO)"
+  - "PRDT: Accredited-Reps"
+  - "BNFT: Disability"
+  - "PRDT: Form 21-22"
+  - "PRDT: Form 21-526EZ"
+  - "PRDT: Form 21-686c"
+  - "semi-structured-interviews"
+  - "evaluative"
+  - "pilot-research"
+  - "representation-requests"
+  - "power-of-attorney"
+  - "QuickSubmit"
+  - "SEP"
+description: "Evaluative research with pilot participants from Wounded Warrior Project and Montana DVA to learn about their experiences using the Accredited Representative Portal for representation requests, claimant search, and form submission features."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

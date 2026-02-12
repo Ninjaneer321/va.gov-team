@@ -1,31 +1,35 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Education Benefits Team, STEM Scholarship, May 2019"
+author: "Unknown"
+date_created: "2019-05-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Education Benefits"
+portfolio: "benefits"
+product: "STEM Scholarship"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45-60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans pursuing STEM degrees who may be eligible for the Edith Nourse Rogers STEM Scholarship"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://benefits.va.gov/gibill/fgib/stem.asp"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Education"
+  - "PRDT: STEM"
+  - "semi-structured-interviews"
+  - "discovery-research"
+  - "DSC: Form"
+description: "Discovery research conversation guide for the STEM Scholarship program, exploring Veterans' understanding of eligibility requirements, application process, and gathering feedback on the draft application form."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

@@ -1,31 +1,47 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Discussion Guide for Mobile App MVP Usability Testing Round 1 - August 2020"
+author: "Bridget Hapner"
+date_created: "2020-08-31"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VA Mobile App"
+portfolio: "health"
+product: "VA Mobile App MVP"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45-50 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans currently going through claims process, use VA healthcare, and access VA benefits via mobile devices"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/va-mobile-app/research/ux/mobile-app-MVP/MVP-usability-testing/2020-08-usability-testing-round-1/research-plan.md"
+related_prototype: "To be determined"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: VA Mobile App"
+  - "PRDT: Profile"
+  - "PRDT: Direct Deposit"
+  - "PRDT: Claims and Appeals"
+  - "PRDT: VA Letters"
+  - "BNFT: Disability"
+  - "BNFT: Healthcare"
+  - "HDW: Smartphone"
+  - "DSC: Biometric Login"
+  - "usability-testing"
+  - "mobile-app"
+  - "prototype-testing"
+  - "task-based-testing"
+  - "mobile-MVP"
+  - "claims-status"
+  - "file-upload"
 
-# NEW: Compliance flags
+description: "Usability testing guide for the first round of VA Mobile App MVP testing, evaluating task completion for profile management, claims tracking, file uploads, and VA letters download on a mobile prototype."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

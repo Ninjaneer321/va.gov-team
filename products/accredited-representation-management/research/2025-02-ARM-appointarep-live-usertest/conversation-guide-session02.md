@@ -1,29 +1,43 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for ARM Team, Appoint a Representative Digital Submit User Test Session 2, February 2025"
+author: "Marisa"
+date_created: "2025-02-01"
+last_modified: "2025-02-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Accredited Representation Management (ARM)"
+portfolio: "benefits"
+product: "Appoint a Representative (VA Form 21-22/21-22a)"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes (90 minutes for AT users)"
+session_type: "remote_moderated"
+participant_criteria: "Veterans searching for or working with VSO/attorney/claims agent, including assistive technology users"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "N/A"
+related_prototype: "https://www.va.gov/get-help-from-accredited-representative/appoint-rep/introduction/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-Veterans"
+  - "BNFT-Disability"
+  - "PRDT-Accredited-Representative"
+  - "PRDT-VA-Form-21-22"
+  - "PRDT-VA-Form-21-22a"
+  - "usability-testing"
+  - "authenticated"
+  - "accessibility"
+  - "screen-reader"
+  - "assistive-technology"
+  - "VSO"
+  - "attorney"
+  - "claims-agent"
+  - "DSC-Form"
+  - "DSC-Search"
+  - "representative-management"
+description: "Usability testing of the Appoint a Representative digital form for Veterans working with VSOs, attorneys, or claims agents, including accessibility testing with screen reader users."
 
 # NEW: Compliance flags
 recording_required: true

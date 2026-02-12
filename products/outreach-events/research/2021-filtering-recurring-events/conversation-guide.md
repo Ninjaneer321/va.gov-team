@@ -1,29 +1,46 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Public Websites, Outreach & Events, December 2021"
+author: "Cindy Merrill"
+date_created: "2021-12-01"
+last_modified: "2021-12-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Public Websites"
+portfolio: "digital-experience"
+product: "Outreach & Events"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with smartphones, including those 55+ and with cognitive disabilities"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/outreach-events/research/2021-filtering-recurring-events/research-plan.md"
+related_prototype: "https://preview.uxpin.com/18c7e081f0105ed7f34e1b597567279bf74ffc2d#/pages/144514555?mode=cvhidfm"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "PRDT: Outreach and Events"
+  - "AUD: Veterans"
+  - "usability-testing"
+  - "events"
+  - "calendar"
+  - "filtering"
+  - "recurring-events"
+  - "date-range"
+  - "DSC: Filter"
+  - "DSC: Calendar"
+  - "DSC: Button"
+  - "DSP: Filtering"
+  - "DSP: Content Presentation"
+  - "HDW: Mobile"
+  - "HDW: Smartphone"
+  - "accessibility"
+  - "cognitive-disability"
+  - "remote"
+  - "moderated"
+description: "Usability testing conversation guide for Outreach & Events filtering and recurring events, testing date range filters and recurring event designs with Veterans on mobile devices."
 
 # NEW: Compliance flags
 recording_required: true

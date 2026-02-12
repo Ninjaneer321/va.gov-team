@@ -1,29 +1,43 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Portals, Profile Sync, January 2024"
+author: "Anne Costello Kennedy"
+date_created: "2024-01-11"
+last_modified: "2024-01-11"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Portals"
+portfolio: "health"
+product: "My HealtheVet on VA.gov - Profile Sync"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who use or are familiar with My HealtheVet, with diverse age ranges (18-75+) and varying levels of MHV usage frequency"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "research-plan.md"
+related_prototype: "https://xd.adobe.com/view/bb4e69af-0a9e-438a-a29a-27144a60bad4-ee1d/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "MHV"
+  - "My HealtheVet"
+  - "health-portal"
+  - "profile"
+  - "contact-information"
+  - "usability-testing"
+  - "veterans"
+  - "authenticated-experience"
+  - "migration"
+  - "profile-sync"
+  - "mobile"
+  - "desktop"
+  - "cognitive-disability"
+  - "accessibility"
+  - "evaluative"
+  - "adobe-xd-prototype"
+description: "Usability testing conversation guide for My HealtheVet profile sync feature that allows Veterans to connect and sync their contact information between MHV and VA.gov profiles."
 
 # NEW: Compliance flags
 recording_required: true

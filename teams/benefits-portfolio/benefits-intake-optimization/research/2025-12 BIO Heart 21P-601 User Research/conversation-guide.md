@@ -1,29 +1,39 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Benefits Intake Optimization, Form 21P-601, December 2025"
+author: "Andrea Merrill"
+date_created: "2025-12-01"
+last_modified: "2025-12-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Benefits Intake Optimization (BIO) Heart"
+portfolio: "benefits"
+product: "Form 21P-601 Accrued Benefits"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Surviving family members (spouses, children, parents) and executors eligible to claim accrued benefits from deceased Veterans"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "teams/benefits-portfolio/benefits-intake-optimization/research/2025-12 BIO Heart 21P-601 User Research/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-Family-members"
+  - "AUD-Survivors"
+  - "BNFT-Accrued-benefits"
+  - "PRDT-Form-21P-601"
+  - "DSC-Form-controls"
+  - "DSP-Document-upload"
+  - "usability-testing"
+  - "survivor-benefits"
+  - "RESRCH-Remote"
+  - "VETJNY-Survivor-benefits"
+  - "death-benefits"
+  - "family-coordination"
+description: "Usability research for Form 21P-601 (Accrued Benefits Claim) testing with surviving family members and executors to assess form clarity, eligibility understanding, and family coordination challenges."
 
 # NEW: Compliance flags
 recording_required: true

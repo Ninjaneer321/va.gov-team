@@ -1,31 +1,45 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Digitizing Form 21P-0969 Usability Study, July 2025"
+author: "Pension Benefits Team"
+date_created: "2025-07-01"
+last_modified: "2025-07-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Pension Benefits"
+portfolio: "benefits"
+product: "Veterans Pension - Form 21P-0969"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60-90 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans applying for Veterans Pension benefits who need to report financial information"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/pension/research/2025-07 0969 Usability Study/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Pension"
+  - "PRDT: 21P-0969"
+  - "PRDT: Form 21P-0969"
+  - "PRDT: Income and Asset Statement"
+  - "DSC: Form controls"
+  - "DSC: Text input"
+  - "DSC: Document upload"
+  - "DSP: Form step"
+  - "DSP: Review page"
+  - "DSP: Confirmation page"
+  - "usability-testing"
+  - "moderated-research"
+  - "financial-information"
+  - "income-reporting"
+  - "asset-reporting"
+description: "Conversation guide for usability testing of the digitized VA Form 21P-0969 (Income and Asset Statement for Veterans Pension). Tests reporting recurring income, business assets, royalties, asset transfers, trusts, annuities, and document uploads."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

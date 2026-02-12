@@ -1,33 +1,48 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VA.gov Relaunch Study 7 - In-Person Usability Testing (Revised), November 2018"
+author: "Unknown"
+date_created: "2018-11-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VA.gov Relaunch"
+portfolio: "digital-experience"
+product: "VA.gov Homepage and Health Care Hub"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "15-20 minutes"
+session_type: "in_person"
+participant_criteria: "Veterans visiting VA medical centers, testing on both mobile and desktop devices"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://preview.va.gov"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD:Veterans"
+  - "PRDT:VA.gov"
+  - "PRDT:Content"
+  - "PRDT:Benefit Hubs"
+  - "BNFT:Healthcare"
+  - "PRDT:Health Care Hub"
+  - "PRDT:Crisis Line"
+  - "PRDT:Personalized Dashboard"
+  - "DSP:Help users to navigate"
+  - "DSP:Content Presentation"
+  - "DSC:Alert"
+  - "DSC:Banner"
+  - "usability-testing"
+  - "moderated-usability-testing"
+  - "content-testing"
+  - "HDW:Desktop"
+  - "HDW:Smartphone"
+description: "In-person usability testing at VA medical centers evaluating the new VA.gov homepage, health care hub, crisis line modal, sign-in experience, and personalized dashboard. Conducted with both mobile and desktop users in a flexible, interest-driven format."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
-observer_support: true
+observer_support: false
 consent_for_clips: true
 ---
 

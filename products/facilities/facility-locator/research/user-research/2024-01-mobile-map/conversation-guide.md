@@ -1,29 +1,40 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Facility Locator Mobile Map Research, January 2024"
+author: "Alexis Logsdon"
+date_created: "2024-01-01"
+last_modified: "2024-01-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Facilities Team"
+portfolio: "health"
+product: "Facility Locator"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60-90 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans, family members, or caregivers who use mobile devices to find VA facilities"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/facilities/facility-locator/research/user-research/2024-01-mobile-map/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "facility locator"
+  - "mobile"
+  - "map interface"
+  - "search results"
+  - "location search"
+  - "usability testing"
+  - "health care"
+  - "community care"
+  - "VA facilities"
+  - "wayfinding"
+  - "accessibility"
+  - "screen reader"
+  - "assistive technology"
+description: "Usability study for the Facility Locator mobile map interface on VA.gov, testing search functionality, map interactions, and result filtering for finding VA health care facilities, community providers, and benefits offices."
 
 # NEW: Compliance flags
 recording_required: true

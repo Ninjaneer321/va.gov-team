@@ -1,31 +1,39 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for ICAM SSOi Mid-Migration User Interviews, July 2025"
+author: "Anne"
+date_created: "2025-07-01"
+last_modified: "2025-07-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "ICAM (Identity, Credential, and Access Management)"
+portfolio: "digital-experience"
+product: "Single Sign-On Modernization (SSOi)"
+research_phase: "discovery"
+research_method: "semi-structured-interviews"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VA product teams and developers who completed the SiteMinder migration survey and are involved in the EntraID migration process"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: VA Internal Staff"
+  - "PRDT: Single Sign-On"
+  - "PRDT: SiteMinder"
+  - "PRDT: EntraID"
+  - "semi-structured-interviews"
+  - "discovery"
+  - "authentication"
+  - "migration"
+  - "ICAM"
 
-# NEW: Compliance flags
+description: "Discovery interviews with VA product teams to understand their experience implementing SiteMinder and gather insights on concerns, risks, and expectations regarding the migration to EntraID."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

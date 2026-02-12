@@ -1,14 +1,41 @@
 ---
-title: "Conversation Guide for [CDS Platform, CDS Console, 2025-11-01]"
+title: "Conversation Guide for CDS Platform, Patient Details Testing, December 2025 - Oracle Health Users"
 author: "Liz Blasi"
 date_created: "2026-01-22"
 last_modified: "2026-01-22"
+
+# NEW: Core research metadata
+team: "Clinical Decision Support Collaborative (CDSC)"
+portfolio: "health"
+product: "CDS Console"
+research_phase: "usability"
+research_method: "moderated_usability_test"
+
+# NEW: Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "VHA clinicians using Oracle Health PowerChart"
+
+# NEW: Related documents
+related_research_plan: "N/A"
+related_prototype: "https://www.figma.com/proto/YhERBZMWoqvwRgDUo6OgCx/User-Testing-Prototypes?page-id=2196%3A2&node-id=3004-21735"
+
 tags:
-  - "Patient Details"
-  - "CDS Console"
-  - "Oracle Health use cases"
-  - "Oracle Health PowerChart"
-description: "Converstation guide for Console Patient Details Testing."
+  - "AUD-clinicians"
+  - "AUD-VHA-staff"
+  - "PRDT-cds-console"
+  - "PRDT-patient-details"
+  - "DSC-prototype"
+  - "MHV"
+  - "EHR-oracle-health"
+  - "usability-testing"
+  - "moderated-research"
+description: "Conversation guide for testing Patient Details enhancements in CDS Console with Oracle Health PowerChart users, focusing on clinical workflow integration and data prioritization."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 # Conversation Guide for Patient Details User Testing - Oracle Health Users
 

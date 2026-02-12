@@ -1,29 +1,36 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Pension Team, Disability Rating Alert, December 2025"
+author: "Pension Team"
+date_created: "2025-12-01"
+last_modified: "2025-12-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Pension and Fiduciary Service"
+portfolio: "benefits"
+product: "Veterans Pension"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "30 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with 100% disability rating interested in Veterans Pension benefits"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/pension/research/2025-12 Pension Disability Alert/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-Veterans"
+  - "BNFT-Pension"
+  - "PRDT-Veterans-Pension"
+  - "DSC-Alert"
+  - "DSC-Information-alert"
+  - "usability-testing"
+  - "disability-rating"
+  - "RESRCH-Remote"
+  - "VETJNY-Applying-for-benefits"
+description: "Usability testing for Pension's Disability Rating Alert to assess message clarity and impact on Veterans with 100% disability ratings who may be considering Pension benefits."
 
 # NEW: Compliance flags
 recording_required: true

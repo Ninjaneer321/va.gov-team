@@ -1,29 +1,37 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Pension Benefits, Intent to File Comprehension, October 2024"
+author: "Pension Research Team"
+date_created: "2024-10-01"
+last_modified: "2024-10-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Pension & Fiduciary"
+portfolio: "benefits"
+product: "Veterans Pension Benefits"
+research_phase: "validation"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who may be interested in pension benefits, both those who have and have not filed claims on VA.gov before"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/pension/research/2024-10 Intent to File Comprehension/research-plan.md"
+related_prototype: "Mobile prototype URL"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "pension"
+  - "intent-to-file"
+  - "comprehension-testing"
+  - "benefits-start-date"
+  - "backpay"
+  - "mobile-prototype"
+  - "in-progress-application"
+  - "trauma-informed"
+  - "expiration-date"
+  - "effective-date"
+description: "Comprehension testing for intent to file messaging in pension benefits application, validating effectiveness of ITF messaging, understanding Veterans' mental model of ITF, and testing scenarios for starting new applications, ITF creation, and returning to in-progress applications."
 
 # NEW: Compliance flags
 recording_required: true

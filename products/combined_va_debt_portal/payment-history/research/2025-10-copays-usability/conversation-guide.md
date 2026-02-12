@@ -1,29 +1,39 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Combined VA Debt Portal, Copay Payment History Usability, October 2025"
+author: "Risha Pawar"
+date_created: "2025-10-01"
+last_modified: "2025-10-17"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Debt Resolution Team"
+portfolio: "health"
+product: "Combined VA Debt Portal - Copay Payment History"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "70-120 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have received VA copay bills in the past six months, including users of assistive technology"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "N/A"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "copay"
+  - "medical-bills"
+  - "payment-history"
+  - "debt-portal"
+  - "AUD-veterans"
+  - "BNFT-health-care"
+  - "RESRCH-usability"
+  - "RESRCH-remote"
+  - "accessibility"
+  - "screen-reader"
+  - "billing"
+  - "financial-management"
+description: "Usability testing of the VA.gov copay payment history portal with Veterans to evaluate clarity, comprehension, and task completion for viewing and resolving copay bills."
 
 # NEW: Compliance flags
 recording_required: true

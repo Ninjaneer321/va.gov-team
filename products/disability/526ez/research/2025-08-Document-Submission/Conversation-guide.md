@@ -1,29 +1,41 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Disability Benefits Core Form Team, Form 526EZ Document Submission, August 2025"
+author: "TBD"
+date_created: "2025-08-01"
+last_modified: "2025-09-25"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Disability Benefits Core Form Team"
+portfolio: "benefits"
+product: "Form 21-526EZ (Application for Disability Compensation)"
+research_phase: "usability"
+research_method: "moderated_usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans applying for disability compensation with new conditions including mental health conditions"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "N/A"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: 21-526EZ"
+  - "DSC: File Upload"
+  - "DSC: Accordions"
+  - "DSP: Form Pattern"
+  - "Research"
+  - "Usability Testing"
+  - "Document Upload"
+  - "Evidence Submission"
+  - "Medical Records"
+  - "Form 21-0781"
+  - "AI Assist"
+  - "Mental Health"
+description: "Usability testing for Form 526EZ evidence submission flow including medical evidence, personal/buddy statements, military service evidence, and AI-assisted document type classification."
 
 # NEW: Compliance flags
 recording_required: true

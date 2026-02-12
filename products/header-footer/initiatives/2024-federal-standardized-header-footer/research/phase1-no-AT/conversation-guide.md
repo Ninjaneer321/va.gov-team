@@ -1,31 +1,40 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Sitewide Header/Footer, Federal Standardized Header/Footer Phase 1, December 2023"
+author: "Cindy Merrill"
+date_created: "2023-12-01"
+last_modified: "2023-12-06"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Sitewide"
+portfolio: "digital-experience"
+product: "Federal Standardized Header/Footer"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans and beneficiaries who do not use assistive technology. Mix of smartphone users (5+) and computer/tablet users (5+). At least 4 with cognitive disability, 4 age 55+, 2 age 35 or under, 2 without post-secondary education, 2 in rural areas, 3 people of color, 2 women, 2 LGBTQ+."
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/header-footer/initiatives/2024-federal-standardized-header-footer/research/phase1-no-AT/research-plan.md"
+related_prototype: "https://bit.ly/3RJL5vb (smartphone), https://bit.ly/3t6rbRt (desktop/tablet)"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "header"
+  - "footer"
+  - "navigation"
+  - "federal-standardization"
+  - "usability-testing"
+  - "wayfinding"
+  - "sitewide"
+  - "USA-logo"
+  - "VA-seal"
+  - "mobile"
+  - "desktop"
+description: "Conversation guide for Phase 1 usability testing of the federal standardized header and footer with non-assistive technology users. Tests wayfinding, navigation, task completion, and user sentiment on the new USA logo and VA branding across mobile and desktop devices."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

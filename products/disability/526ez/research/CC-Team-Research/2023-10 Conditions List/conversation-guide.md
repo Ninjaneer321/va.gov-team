@@ -1,34 +1,38 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Form 526 Conditions List Entry Conversation Guide"
+author: "Contention Classification (CC) Team"
+date_created: "2023-10-01"
+last_modified: "2023-10-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Contention Classification (CC) Team"
+portfolio: "benefits"
+product: "Form 526EZ - Disability Compensation Application"
+research_phase: "usability"
+research_method: "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who have filed or are planning to file disability compensation claims on VA.gov"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/disability/526ez/research/CC-Team-Research/2023-10 Conditions List/research-plan.md"
+related_prototype: "https://codepen.io/ccteam/live/poqxVpB"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "form-526"
+  - "conditions-entry"
+  - "autosuggest"
+  - "usability-testing"
+  - "disability-claims"
+  - "contention-classification"
+description: "Usability test for autosuggest component on Form 526EZ conditions entry screen. Evaluates how Veterans search for, select, and enter medical conditions when filing disability claims, including interaction with suggested conditions and free-text entry."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
-consent_for_clips: true
+consent_for_clips: false
 ---
 
 # Conversation Guide 

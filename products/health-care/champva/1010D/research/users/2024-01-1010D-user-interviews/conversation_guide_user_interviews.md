@@ -1,29 +1,45 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for IVC Team, Form 10-10D, January 2024"
+author: "Rachael Penfil and Steven Straily"
+date_created: "2024-01-01"
+last_modified: "2024-01-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Integrated Veteran Care (IVC) Forms"
+portfolio: "health"
+product: "CHAMPVA Form 10-10D"
+research_phase: "discovery"
+research_method: "moderated_interview"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans, spouses, children, or caregivers who have applied for CHAMPVA benefits using Form 10-10D"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "user_interviews_research_plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "health-care"
+  - "CHAMPVA"
+  - "form-10-10d"
+  - "benefits-application"
+  - "user-interviews"
+  - "semi-structured-interviews"
+  - "moderated"
+  - "remote"
+  - "veterans"
+  - "caregivers"
+  - "family-members"
+  - "spouses"
+  - "dependents"
+  - "unauthenticated"
+  - "digitization"
+  - "IVC-forms"
+  - "generative"
+  - "discovery"
+description: "User interview conversation guide for understanding the CHAMPVA benefits application process and Form 10-10D experience to identify pain points and opportunities for digitization."
 
 # NEW: Compliance flags
 recording_required: true

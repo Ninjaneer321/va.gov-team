@@ -1,31 +1,41 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for VEText, MyHealtheVet Email Appointment Reminder Content Research, January 2025"
+author: "Jamie"
+date_created: "2025-01-01"
+last_modified: "2025-01-01"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "VEText"
+portfolio: "health"
+product: "VEText"
+research_phase: "evaluative"
+research_method: "semi-structured-interviews"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans who currently receive health appointment reminder emails from the VA"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "N/A"
+related_prototype: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vetext/product/research/2025-01-VEText-MyHealtheVet-email-appointment-reminder-content-research/"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "PRDT: VEText"
+  - "PRDT: MyHealtheVet"
+  - "semi-structured-interviews"
+  - "email-reminders"
+  - "notifications"
+  - "appointment-management"
+  - "PHI"
+  - "privacy"
 
-# NEW: Compliance flags
+description: "Research to understand Veteran preferences for health appointment reminder email content, including PHI vs. generic information preferences and privacy concerns."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true

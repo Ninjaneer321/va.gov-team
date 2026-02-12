@@ -1,3 +1,54 @@
+---
+title: "Conversation Guide for Login.gov Adoption Discovery - Scenario 2: Migration and Delayed Proofing, November 2022"
+author: "[TBD - not specified in document]"
+date_created: "2022-11-01"
+last_modified: "2024-12-20"
+
+# Core research metadata
+team: "Login.gov Adoption Team"
+portfolio: "digital-experience"
+product: "Login.gov Adoption"
+research_phase: "discovery"
+research_method: "moderated_interview"
+
+# Session details
+session_duration: "90 minutes"
+session_type: "in_person"
+participant_criteria: "Veterans who use My HealtheVet and other VA online services"
+
+# Related documents
+related_research_plan: "../../research-plan.md"
+related_prototype: "N/A"
+
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Login.gov"
+  - "PRDT: My-HealtheVet"
+  - "DSP: Ask users for... authentication"
+  - "DSP: Ask users for... identity verification"
+  - "authentication"
+  - "identity-proofing"
+  - "identity-verification"
+  - "multi-factor-authentication"
+  - "MFA"
+  - "security-keys"
+  - "credential-migration"
+  - "account-creation"
+  - "shared-access"
+  - "delegated-access"
+  - "moderated-usability-test"
+  - "in-person-research"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+
+description: "In-person discovery research testing Login.gov account migration and delayed identity proofing scenario where Veterans set up credentials remotely and complete identity verification later at a VA facility."
+
+# Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
+---
+
 # Conversation Guide: Migration and delayed proofing (Scenario 2)
 Login.gov Adoption Discovery, November 2022
 

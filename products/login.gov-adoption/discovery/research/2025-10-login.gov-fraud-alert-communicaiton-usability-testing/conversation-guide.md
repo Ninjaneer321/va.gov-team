@@ -1,29 +1,41 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Login.gov Team, Fraud Alert Communication Usability Testing, October 2025"
+author: "Ponja"
+date_created: "2025-10-01"
+last_modified: "2025-10-01"
 
 # NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+team: "Login.gov Adoption"
+portfolio: "digital-experience"
+product: "Login.gov - Fraud Alert Communication"
+research_phase: "usability"
+research_method: "usability_test"
 
 # NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+session_duration: "45-50 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans and members of the public who use Login.gov with varying technology comfort levels"
 
 # NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+related_research_plan: "N/A"
+related_prototype: "Figma prototype"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD-Veterans"
+  - "PRDT-Login-gov"
+  - "usability-testing"
+  - "security"
+  - "fraud-detection"
+  - "authentication"
+  - "password-reset"
+  - "email-communication"
+  - "SMS-communication"
+  - "phishing"
+  - "DSC-Banner"
+  - "DSC-Alert"
+  - "HDW-Desktop"
+  - "HDW-Mobile"
+description: "Usability testing of Login.gov fraud alert communications across multiple channels (email, SMS, banner) to evaluate clarity, trustworthiness, and effectiveness of security messaging."
 
 # NEW: Compliance flags
 recording_required: true

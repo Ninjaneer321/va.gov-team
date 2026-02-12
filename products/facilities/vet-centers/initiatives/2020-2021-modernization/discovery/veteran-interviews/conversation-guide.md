@@ -1,31 +1,43 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Vet Center - Client Interview, September-October 2020"
+author: "Leyda"
+date_created: "2020-09-01"
+last_modified: "2026-02-11"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Facilities Team"
+portfolio: "health"
+product: "Vet Centers"
+research_phase: "discovery"
+research_method: "semi_structured_interview"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "45 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans and service members who are current Vet Center clients with experience using Vet Center services"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/facilities/vet-centers/initiatives/2020-2021-modernization/discovery/veteran-interviews/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "PRDT: Vet Centers"
+  - "PRDT: Facilities"
+  - "BNFT: Healthcare"
+  - "semi-structured-interviews"
+  - "discovery-research"
+  - "remote-research"
+  - "Vet Center clients"
+  - "counseling-services"
+  - "mental-health"
+  - "eligibility"
+  - "services-critique"
+  - "Vet Center modernization"
 
-# NEW: Compliance flags
+description: "Discovery interviews with current Vet Center clients to understand their learning journey, service experiences, concept of Vet Centers, and feedback on existing facility locator website to inform improvements."
+
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true
