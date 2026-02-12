@@ -21,6 +21,8 @@ If you do not have not have terminal access, you must first fill out the [vets-a
 
 1. Confirm the record persists:
    ```ruby
+      MaintenanceWindow.last
+      =>
       id: 6,
       pagerduty_id: nil,
       external_service: nil,
