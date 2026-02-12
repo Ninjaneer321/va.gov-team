@@ -310,7 +310,7 @@ Metric tracker [URL]
 ## Additional Insights
 The focus of our UAT was to specifically ensure that complex claims was functioning and usable, but during the course of testing we also noted other areas for improvement.   
 
-* **Participants noted that it was difficult to find travel pay on VA.gov and we witnessed users struggling a little to get to the appropriate place to start a claim.**
+* **Participants noted that it was difficult to find travel pay on VA.gov and we witnessed users struggling to navigate to appropriate place to start a claim.**
 
   > “I don’t know if it matters because VA.gov is different than MyHealtheVet, but because I’m like in MyHealtheVet more than I am in VA.gov, I think there should be an easier option to submit instead of having to navigate to VA.gov for travel.” - P2
 
