@@ -406,14 +406,13 @@ While we completed accessibility reviews and utilized existing design components
 - [Product Outline](products/health-care/beneficiary-travel/product)
 - [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/health-care/beneficiary-travel/research/2025-12%20Complex%20Claims%20UAT/UAT%20Plan.md)
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2025-12%20Complex%20Claims%20UAT/conversation%20guide.md)
-- [Interview notes](products/health-care/beneficiary-travel/research/2025-12 Complex Claims UAT/UAT notes)
-
+- [Interview notes](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/research/2025-12%20Complex%20Claims%20UAT/UAT%20notes#readme)
 ### Tools used for Synthesis
-- Synthesis Mural
+- [Synthesis Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1769456573363/fa6b1547ac784ad32fea64ba6fcac991609a86ef)
   
 ### Pages and applications used
 - Complex claims _Note: While we tested in production, this is a link to complex claims on staging. Travel claims are created from eligible past appointments._
-- Figma _Note: Because we tested in production, the Figma files are an easier way to see the flow._
+- [Figma designs](https://www.figma.com/design/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=250-9661&t=WVfa2eUUYbz4thgK-1) _Note: Because we tested in production, the Figma files are an easier way to see the flow._
 
 
 <!-- ### Other supporting documents created
