@@ -1,194 +1,24 @@
 ---
-# Research Plan Metadata
-title: "Research Plan for Financial Management Team, Pay.gov for Benefit Overpayment Debt Payments, February 2026"
-date: 2026-02-12
-last_updated: 2026-02-12
+title: "Conversation Guide for Financial Management, Pay.gov for Benefit Overpayment Debt Payments, 2026-02-12"
+author: "Risha Lee"
+date_created: "2026-02-12"
+last_modified: "2026-02-12"
+
+# NEW: Core research metadata
 team: "Financial Management"
+portfolio: "benefits"
 product: "Pay.gov for Benefit Overpayment Debt Payments"
-product_area: "authenticated"
+research_phase: "evaluative"
+research_method: "moderated_usability_test"
 
-# Background Context
-background:
-  problem_statement: "Veterans currently experience a confusing and painful payment process when resolving overpayment debts. They are redirected from VA.gov to an external Pay.gov page where they must manually re-enter their account information. Monthly Medallia feedback consistently describes this experience as confusing and painful, increasing cognitive load and leading to drop-off. The integration of Pay.gov Hosted Collection Pages aims to streamline this experience by keeping users within a continuous flow and prepopulating their account information."
-  product_location: "VA.gov authenticated experience - Resolve Overpayment debt payment flows with Pay.gov Hosted Collection Pages integration"
-  user_familiarity: "Iteration on existing payment journey - Veterans are familiar with VA.gov debt resolution process but experience friction with manual data re-entry on external Pay.gov"
-  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/product%20outline.md"
+# NEW: Session details
+session_duration: "75 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans with a VA benefit overpayment debt balance in the last year, comfortable discussing personal finances, and willing to share their screen (including some assistive technology users)."
 
-# Research Design
-methodology: "Mixed methods - Semi-structured interviews and moderated usability testing"
-research_format:
-  location: remote
-  moderated: true
-
-# Research Goals & Questions
-research_goals:
-  - goal_1: "Understand Veterans' needs, expectations, and preferences for making payments"
-  - goal_2: "Test the usability of the Veteran's overpayment debt experience in viewing and selecting full or partial payment options"
-
-research_questions:
-  - "What are Veterans' current workflows and mental models for making payments on VA.gov?"
-  - "What other comparable payment experiences do they prefer? Why?"
-  - "What challenges or pain points do Veterans encounter in the current experience?"
-  - "How easy is it to read and comprehend the pages?"
-  - "Which aspects of the layout are most and least effective and why?"
-  - "How does the experience compare to what they expected?"
-  - "How confident and secure do they feel in the payment process?"
-
-hypotheses:
-  - "Veterans will prefer the more streamlined experience of hosted collection pages, including pre-populated account details and staying within the same browser"
-  - "Veterans will not have difficulty deciding whether to make a partial or full payment"
-  - "Veterans will feel confident and secure that their payment has been received in the new experience"
-  - "Veterans will want more diverse payment methods for submitting payments, including recurring payments"
-
-expected_outcomes: "Research will inform iterative improvements to VA.gov pages prior to build and release. Findings will advance user-centered digital strategy for future payment features, reduce drop-off from manual data entry frustration, increase online payment transactions, and improve Veteran confidence in the payment process. Specific focus on understanding payment behaviors, mental models, financial management practices, accessibility considerations, and reducing friction in the Pay.gov transition."
-
-# Recruitment & Participants
-recruitment:
-  recruiting_partner: "Perigean"
-  approach: "Lean maximum variation strategy"
-  
-  primary_criteria:
-    - "Have a debt balance from overpayments in the last year"
-    - "Are comfortable talking about their personal finances"
-    - "Be willing to share a web browser window on their device during the session"
-    - "Have a working microphone on their device"
-    - "Have Zoom downloaded to their device prior to the session and know how to share their screen"
-  
-  secondary_criteria:
-    - "At least 5 have had a debt repayment plan with the VA in the past year"
-    - "At least 6 ages 55+"
-    - "At least 6 with an annual household income of less than $50,000"
-    - "At least 6 participants must have experienced financial hardship now or in the past"
-    - "At least 3 with cognitive disabilities"
-    - "At least 3 who use screen readers or screen magnifiers"
-    - "At least 3 under age 35"
-    - "At least 4 people of color"
-    - "At least 3 in a rural area"
-    - "At least 3 without a degree"
-    - "At least 2 with immigrant origins"
-    - "At least 1 woman"
-    - "At least 1 from the LGBTQ+ community"
-  
-  screener_questions:
-    - question: "Do you currently owe any of the following types of VA debt? If so, please select all that apply."
-      options:
-        - "Medical debt [IF THEY ONLY SELECT THIS, DISQUALIFY]"
-        - "Post-9/11 GI Bill overpayment (books and supplies, housing, or tuition)"
-        - "Disability compensation and pension overpayment"
-        - "Education Ch 33-Ch1606/Ch30 Kickers"
-        - "Chapter 34 education overpayment"
-        - "Chapter 35 education overpayment"
-        - "I do not currently owe any of the above types of VA debt [DISQUALIFY]"
-      qualifying_response: "Any debt type EXCEPT medical debt alone AND not 'none of the above'"
-    
-    - question: "When you sign in to VA.gov and go to My VA (https://va.gov/my-va/), do you see details about 'overpayment debts' under the section 'Outstanding debts'? (This is different from copay bills)"
-      options:
-        - "Yes, I see a listing of 1 or more overpayment debts on VA.gov"
-        - "No, I don't see any overpayment debt details on VA.gov [DISQUALIFY]"
-        - "I don't have a VA.gov account / I can't sign in right now [DISQUALIFY]"
-      qualifying_response: "Yes, I see a listing of 1 or more overpayment debts on VA.gov"
-    
-    - question: "Have you been on a debt payment plan with the VA in the past year?"
-      options:
-        - "Yes"
-        - "No"
-      qualifying_response: "Both qualify; quota target: at least 5 of 10 with payment plan experience"
-    
-    - question: "Please select the statement(s) that apply to you (Check all that apply)"
-      options:
-        - "I am currently experiencing financial hardship"
-        - "I have experienced financial hardship in the past"
-        - "I have never experienced financial hardship"
-      qualifying_response: "Both qualify; quota target: at least 5-6 of 10 with current or past financial hardship experience"
-    
-    - question: "Do you identify as a member of the LGBTQ+ community? We ask this question because we want to make sure the feedback we get from these sessions represents all the people we serve."
-      options:
-        - "Yes"
-        - "No"
-        - "Decline to answer"
-      qualifying_response: "All options qualify; quota target: at least 1 of 10 identifies as LGBTQ+"
-    
-    - question: "Is your annual household income less than $50,000?"
-      options:
-        - "Yes"
-        - "No"
-      qualifying_response: "Both qualify; quota target: at least 6 of 10 with income < $50,000"
-    
-    - question: "Is it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these."
-      options:
-        - "Yes (mark as having a cognitive disability)"
-        - "No"
-        - "Decline to answer"
-      qualifying_response: "All options qualify; quota target: at least 3 of 10 with cognitive disabilities"
-    
-    - question: "[FOR ASSISTIVE TECHNOLOGY USERS] Do you need a screen reader or screen magnifier every time you use the Internet? We ask this question because we want to make sure that our website works for people who rely on these types of technologies."
-      options:
-        - "Yes"
-        - "No"
-      qualifying_response: "For AT users: Yes required; minimum 1 year of experience required [DISQUALIFY if less than 1 year]"
-    
-    - question: "[FOR ASSISTIVE TECHNOLOGY USERS] How long have you been using this screen reader or screen magnifier?"
-      options:
-        - "Less than 1 year [DISQUALIFY]"
-        - "At least one year"
-      qualifying_response: "At least one year"
-    
-    - question: "[FOR ASSISTIVE TECHNOLOGY USERS] Are you willing to join the Zoom session using this assistive technology?"
-      options:
-        - "Yes"
-        - "No"
-      qualifying_response: "Yes"
-    
-    - question: "[FOR ASSISTIVE TECHNOLOGY USERS] What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session?"
-      options:
-        - "Text response"
-      qualifying_response: "Specific AT technology name provided (e.g., NVDA, JAWS, ZoomText, magnifier, VoiceOver)"
-    
-    - question: "[FOR ASSISTIVE TECHNOLOGY USERS] What (if any) accommodations will you need to participate in this Zoom session?"
-      options:
-        - "Text response"
-      qualifying_response: "Any accommodations documented and noted"
-
-participants:
-  veterans: 15
-  caregivers: 0
-  dependents: 0
-  total_recruited: 15
-  completed_sessions_goal: 10
-
-# Timeline & Sessions
-timeline:
-  pilot_date: "TBD"
-  pilot_participant: "TBD"
-  research_dates: "TBD"
-  research_review_submission: "TBD"
-
-session_details:
-  duration_minutes_non_at_users: 75
-  duration_minutes_at_users: 140
-  buffer_minutes: 60
-  max_sessions_per_day: 2
-
-# Strategic Alignment
-octo_priorities:
-  - objective: "Objective 1: Optimize software delivery for Veteran impact"
-    key_results:
-      - "Key Result 1.1: Supports up to three Veteran-impacting Key Performance Indicators documented for this product on Product.VA.gov"
-      - "Key Result 1.2: Supports a production release that will measurably improve a product's Veteran-impacting KPIs"
-  - objective: "Objective 3: Relentlessly improve the user experience"
-    key_results:
-      - "Key Result 3.1: Supports this product's OIT portfolio in improving customer satisfaction of impactful systems by 3% or more"
-      - "Key Result 3.2: Supports maintaining the ranked list of user pain points for Veteran-facing Products and Services"
-      - "Key Result 3.3: Supports the delivery of at least one release that directly addresses a documented user pain point within this product"
-
-veteran_journey_phases:
-  - "Starting Up (Moment: Balancing Finances)"
-  - "Putting Down Roots (Moment: Maintaining my financial, social, and emotional health)"
-
-# Research Repository Tracking
-related_research:
-  previous_studies: []
-  # Note: No previous studies are explicitly mentioned in this research plan
+# NEW: Related documents
+related_research_plan: "products/Debt Resolution/pay.gov/Pay.gov for Benefit Overpayment Debt Payments/research/research-plan.md"
+related_prototype: "N/A"
 
 tags:
   - "AUD: Veterans"
@@ -197,17 +27,16 @@ tags:
   - "BNFT: Disability"
   - "PRDT: Debt-portal"
   - "PRDT: Pay.gov"
-  - "DSP: Ask users for payment information"
-  - "DSP: Ask users for contact preferences"
-  - "DSP: Ask users for addresses"
-  - "DSP: Contextual Help"
-  - "DSP: Help users to check answers"
   - "DSC: Form"
   - "DSC: Form - Radio Button"
-  - "DSC: Alert Boxes"
-  - "DSC: Button"
   - "DSC: Checkbox"
+  - "DSC: Button"
+  - "DSC: Alert Boxes"
+  - "DSP: Content Presentation"
+  - "DSP: Contextual Help"
+  - "DSP: Help users to check answers"
   - "usability-testing"
+  - "moderated-usability-testing"
   - "semi-structured-interviews"
   - "accessibility"
   - "accessibility: cognitive-disabilities"
@@ -215,6 +44,12 @@ tags:
   - "HDW: Desktop"
   - "HDW: Laptop"
   - "HDW: Smartphone"
+description: "A remote, moderated conversation guide to understand Veterans’ payment behaviors and evaluate the usability, comprehension, and trust of the VA.gov to Pay.gov hosted collection page flow for benefit overpayment debt payments (full vs partial payment, payment method selection, payment entry, review, and confirmation)."
+
+# NEW: Compliance flags
+recording_required: true
+observer_support: true
+consent_for_clips: true
 ---
 	# Research Plan for Financial Management Team, Pay.gov for overpayment debt benefits, February 2026]
 > [!NOTE]
