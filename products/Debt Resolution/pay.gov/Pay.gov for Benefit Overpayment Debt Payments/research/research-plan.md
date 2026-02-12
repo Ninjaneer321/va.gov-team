@@ -256,14 +256,19 @@ As described above, this iterates and improves upon the existing payment journey
 > 4. Review the suggested studies and add the most relevant ones below
 
 **Previous Studies:**
-- [Link to Study 1 - Brief description, Date](url goes here)
-- [Link to Study 2 - Brief description, Date](url goes here)
-- [Link to Study 3 - Brief description, Date](url goes here)
+- [Mobile Feature Support, Debt Portal: Overpayments and Copayments (Mobile app), May 2025]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/research-plan.md))
+- [Mobile Feature Support, One VA Debt Letter in mobile app, Nov–Dec 2025]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/one_va_debt_letter/mobile/research-findings.md))
+- [Financial management, debt portal copays, October-November 2025]([url goes here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability/research-plan.md))
+- [Financial management, debt portal copays, October 2024]([url goes here]((https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2024-9-copay-usability/research-plan.md)
+- [Financial management, debt portal overpayments, June-July 2024]([url goes here]([https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability/research-plan.md](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2024-6-overpayment-usability/research-plan.md)))
 
 **Key Takeaways from Previous Research:**
-- `[Major finding or insight that informs this study]`
-- `[Major finding or insight that informs this study]`
-- `[Major finding or insight that informs this study]`
+- `Cross-site redirects create high risk for confusion and drop-off, especially when Veterans have to leave the “primary” experience (e.g., app or VA.gov) to complete actions on pay.va.gov / Pay.gov; prior mobile debt research anticipated that Veterans would find redirection confusing and feel friction when completing tasks outside the originating experience.
+Relevant past study: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/research-plan.md`
+- `Veterans manage VA debt alongside other bills and prioritize actionability (due dates + next steps). Prior research indicates Veterans often think in terms of “what do I need to do next and by when,” rather than categorizing VA debt as a separate mental bucket—so this study should focus on whether the Pay.gov flow supports quick comprehension, clear next steps, and a strong sense of “payment completed successfully,” rather than only testing page usability in isolation.
+Relevant past study: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/one_va_debt_letter/mobile/research-findings.md`
+- `Trust and confidence come from transparency and specific details—not from format alone. Veterans’ trust is more closely tied to whether the experience provides clear, concrete information (what they owe, why they owe it, what will happen next, and proof/confirmation) than whether information is “combined” or presented in a different wrapper. This suggests the Pay.gov experience must clearly communicate amounts, attribution, and confirmation/receipt details.
+Relevant past study: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/one_va_debt_letter/mobile/research-findings.md`
 
 > [!NOTE]
 > If this is the first research study for this product, you can note that here. You may also want to reference research from similar products or features that could provide relevant insights.
