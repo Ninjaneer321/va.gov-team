@@ -77,7 +77,8 @@ Handoff Date: February 2026
 ### Initiatives in Flight: 
 
 - Passing the ICN for submissions to RES
-This work is currently behind a feature flag. We have a ticket to QA in Staging and ensure RES is receiving it as expected next sprint: https://github.com/department-of-veterans-affairs/va-iir/issues/2271 
+  
+  - This work is currently behind a feature flag. We have a ticket to QA in Staging and ensure RES is receiving it as expected next sprint: https://github.com/department-of-veterans-affairs/va-iir/issues/2271 
 
 - [Refactoring the BE](https://github.com/department-of-veterans-affairs/va-iir/issues/2070) so it is easier to make future updates
 
