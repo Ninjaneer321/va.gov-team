@@ -1,5 +1,5 @@
 ---
-title: "Conversation Guide for Financial Management, Pay.gov for Benefit Overpayment Debt Payments, 2026-02-12"
+title: "Research Plan for Financial Management, Pay.gov for Benefit Overpayment Debt Payments, 2026-02-12"
 author: "Risha Lee"
 date_created: "2026-02-12"
 last_modified: "2026-02-12"
@@ -9,7 +9,7 @@ team: "Financial Management"
 portfolio: "benefits"
 product: "Pay.gov for Benefit Overpayment Debt Payments"
 research_phase: "evaluative"
-research_method: "moderated_usability_test"
+research_method: "Mixed_methods" "interview" "moderated_usability_test"
 
 # NEW: Session details
 session_duration: "75 minutes"
