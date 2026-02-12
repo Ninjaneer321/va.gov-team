@@ -177,3 +177,4 @@
 | 175 | [How can I get my 1095-B tax form as a Veteran?](https://www.va.gov/resources/how-can-i-get-my-irs-1095-b-tax-form-as-a-veteran/) | Health care | 11/19/25 |
 | 176 | [How can I get my 1095-B tax form as a family member?](https://www.va.gov/resources/how-can-i-get-my-irs-1095-b-tax-form-as-a-family-member/) | Health care | 11/19/25 |
 | 177 | [What's an informal conference and how do I ask for one?](https://www.va.gov/resources/whats-an-informal-conference-and-how-do-i-ask-for-one/) | Decision reviews and appeals | 12/9/25 |
+| 178 | [How to set up direct deposit for Foreign Medical Program claims](https://www.va.gov/resources/how-to-set-up-direct-deposit-for-foreign-medical-program-claims/) | Health care | 2/11/26 |
