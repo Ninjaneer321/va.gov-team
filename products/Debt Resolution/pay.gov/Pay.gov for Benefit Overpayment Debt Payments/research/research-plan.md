@@ -254,6 +254,99 @@ Provide a link to any materials you need to run your study, including any materi
 - `At least 1 woman`
 - `At least 1 from the LGBTQ+ community`
 
+- ## Screener questions
+
+Screener question 1
+
+* Do you currently owe any of the following types of VA debt? If so, please select all that apply.  
+  * Medical debt \[IF THEY ONLY SELECT THIS, DISQUALIFY\]  
+  * Post-9/11 GI Bill overpayment (books and supplies, housing, or tuition)  
+  * Disability compensation and pension overpayment  
+  * Education Ch 33-Ch1606/Ch30 Kickers  
+  * Chapter 34 education overpayment  
+  * Chapter 35 education overpayment  
+  * I do not currently owe any of the above types of VA debt. \[DISQUALIFY\]
+
+Screener question 2
+
+* When you sign in to VA.gov and to go My VA ([https://va.gov/my-va/](https://va.gov/my-va/)), do you see details about "overpayment debts" under the section "Outstanding debts"? (this is different from copay bills)  
+  * Yes, I see a listing of 1 or more overpayment debts on [VA.gov](http://VA.gov).  
+  * No, I don’t see any overpayment debt details on VA.gov \[DISQUALIFY\]  
+  * I don’t have a VA.gov account / I can’t sign in right now \[DISQUALIFY\]  
+  * 
+
+Screener question 3
+
+* Have you been on a debt payment plan with the VA in the past year?  
+  * Yes  
+  * No
+
+Quotas: 
+
+* Please aim for at least 5 of 10 participants to have been on payment plans with the VA in the past year
+
+Screener question 4
+
+Please select the statement(s) that apply to you: (Check all that apply)
+
+* I am currently experiencing financial hardship.  
+* I have experienced financial hardship in the past.  
+* I have never experienced financial hardship.
+
+Quotas:
+
+* Aim for at least 5 of 10 participants to have been on payment plans
+
+
+Screener question 5
+
+* Do you identify as a member of the LGBTQ+ community? We ask this question because we want to make sure the feedback we get from these sessions represents all the people we serve.  
+  * Yes  
+  * No  
+  * Decline to answer
+
+Screener question 6
+
+* Is your annual household income less than $50,000?  
+  * Yes   
+  * No
+
+Screener question 7
+
+* Is it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these.  
+  * Yes (*mark as having a cognitive disability*)  
+  * No  
+  * Decline to answer
+
+For AT Users
+
+##### **For Screen reader or screen magnifier users**
+
+Screener question 8
+
+* Do you need a screen reader or screen magnifier every time you use the Internet? We ask this question because we want to make sure that our website works for people who rely on these types of technologies.  
+  * Yes  
+    * How long have you been using this screen reader or screen magnifier?  
+      * Less than 1 year \[DISQUALIFY\]  
+      * At least one year   
+  * No. 
+
+Screener question 9
+
+* Are you willing to join the Zoom session using this assistive technology?  
+  * Yes  
+  * No
+
+Screener question 10
+
+* What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session?  
+  * Response option: Text box
+
+Screener question 11
+
+* What (if any) accommodations will you need to participate in this Zoom session?  
+  * Response option: text box.
+
 ## Timeline 🗓️
 > [!NOTE]
 > **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.** 
