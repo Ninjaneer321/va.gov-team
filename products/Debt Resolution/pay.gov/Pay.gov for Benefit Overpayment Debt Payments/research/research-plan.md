@@ -241,11 +241,12 @@ Provide a link to any materials you need to run your study, including any materi
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- `At least 6 have had a debt repayment plan with the VA in the last year`
+- `At least 5 have had a debt repayment plan with the VA in the last year`
 - `At least 6 ages 55+`
 - `At least 6 with an annual household income of less than 50K`
 - `At least 6 participants must have experienced financial hardship now or in the past`
-- `At least 6 with cognitive disabilities`
+- `At least 3 with cognitive disabilities`
+- `At least 3 who use screener readers or screen magnifiers`
 - `At least 3 under age 35`
 - `At least 4 people of color`
 - `At least 3 in a rural area`
@@ -254,7 +255,7 @@ Provide a link to any materials you need to run your study, including any materi
 - `At least 1 woman`
 - `At least 1 from the LGBTQ+ community`
 
-- ## Screener questions
+## Screener questions
 
 Screener question 1
 
@@ -319,6 +320,10 @@ Screener question 7
   * Decline to answer
 
 For AT Users
+
+Quotas:
+
+*Aim for at least 3 participants to use screen readers or screen magnifiers
 
 ##### **For Screen reader or screen magnifier users**
 
