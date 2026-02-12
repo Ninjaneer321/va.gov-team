@@ -1,4 +1,4 @@
-# Key Open Questions for Future Teams
+# Open Questions for Future Teams
 
 1. **Signature & Certification**
    - The current staging experience uses a **privacy policy checkbox** as the attestation mechanism.
