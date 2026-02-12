@@ -1,3 +1,97 @@
+---
+title: "[Study] Research Findings"
+product: "Product Name"
+team: "Team Name"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "YYYY-MM-DD"
+researchers:
+  - "Researcher/Designer 1"
+  - "Researcher/Designer 2"
+research_goals:
+  - "Goal 1"
+  - "Goal 2"
+methodology:
+  - "Method 1"
+  - "Method 2"
+devices_used:
+    desktop: X
+    tablet: X
+    smartphone: X
+    assistive_technology: X
+participants_total: X
+demographics:
+  veterans: X
+  service_members: X
+  caregivers: X
+  dependents: X
+  VA_staff: X
+  age:
+    "25-34": X
+    "35-44": X
+    "45-54": X
+    "55-64": X
+    "65+": X
+    unknown: X
+  education:
+    high_school: X
+    some_college: X
+    associates: X
+    bachelors: X
+    masters: X
+    doctorate: X
+    unknown: X
+  location:
+    urban: X
+    rural: X
+    unknown: X
+  race:
+    white: X
+    black: X
+    hispanic: X
+    biracial: X
+    asian: X
+    native: X
+  disability:
+    cognitive: X
+    AT_beginner: X
+    AT_advanced: X
+    screen_reader_desktop: X
+    screen_reader_mobile: X
+    magnification_zoom: X
+    speech_input: X
+    hearing_aids: X
+    sighted_keyboard: X
+    captions: X
+key_findings:
+  - "Finding 1"
+  - "Finding 2"
+  # etc.
+recommendations:
+  - "Recommendation 1"
+  - "Recommendation 2"
+kpi_alignment:
+  - "KPI 1"
+  - "KPI 2"
+outcomes:
+  user: "Desired user outcome"
+  business: "Desired business outcome"
+opportunity_areas:
+  - "Unmet need 1"
+  - "Research gap 1"
+further_research_needed:
+  - "Area 1"
+  - "Area 2"
+underserved_groups_missing:
+  - "Group 1"
+  - "Group 2"
+secondary_research:
+  - "Web analytics"
+  - "SME interviews"
+synthesis_tools_used:
+  - "Mural"
+  - "Affinity Mapping"
+---
+
 ## 2024 Medallia findings summary
 Recent Medallia pulled and reviewed in preparation for Events 3.0 initiative. Medallia was pulled from root url for Outreach and Events and does not include VAMC event pages. 
 [Detailed synthesis](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1719869297920/91249490453460d0c938e96804ab880c634cc7db?sender=u727a8f87b62662f75a603248) in Mural. [Raw Medallia data](https://dvagov.sharepoint.com/:x:/r/sites/SitewidePublicWebsites/Shared%20Documents/UX%20Research/Medallia%20survey%20data/CODED_Events_Medallia_02132023-05172024.xlsx?d=wf04d787b0edb4c7e9c8ef83c767b2d2a&csf=1&web=1&e=2jttLd) in Excel Sharepoint.
