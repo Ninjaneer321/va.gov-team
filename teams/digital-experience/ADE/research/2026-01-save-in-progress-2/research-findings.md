@@ -288,13 +288,14 @@ Eight participants said they asked wanted to be able to delete a form they start
 *Include insights that do not represent patterns but are still valuable.*  
 > **TIP:** These could be powerful user comments or unexpected issues worth noting
 
-1. All participants who encountered an error while filling out the form (6 of 7) were able to fix it themselves. Some of the errors likely resulted because the participants were entering fake data (e.g., name, social security number) as instructed, in order to not share PII. Below are descriptions of some of the errors:
+1. All participants who encountered an error while filling out the form (6 of 7) were able to fix it themselves. Some of the errors likely resulted because the participants were entering fake data (e.g., name, social security number) as instructed, in order to not share PII. Below are descriptions of some of the issues.
 
      1. 
 
 1. One participant expressed his appreciation for our taking the time to learn from Veterans...
 
 1. Participants had many positive comments on prototype features that worked well for them: 
+
 
 1. Three participants had technical issues with their assistive tech...
 
