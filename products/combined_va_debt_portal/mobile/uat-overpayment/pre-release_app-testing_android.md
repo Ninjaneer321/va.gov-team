@@ -1,5 +1,9 @@
 # Testing with pre-release app version: Android
 
+- _No preparation required from participants._
+- _The moderator will facilitate the full installation and configuration at the start of the session._
+- _Participants do not provide email addresses prior to the session._
+
 
 ## Preparation
 
