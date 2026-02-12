@@ -16,21 +16,13 @@ If you do not have not have terminal access, you must first fill out the [vets-a
 
 1. You can use the syntax below to create a new record in the `maintenance_windows` table:
    ```ruby
-     MaintenanceWindow.create(start_time: Time.current, end_time: 15.minutes.from_now)
+     maintenance_window = MaintenanceWindow.create!(start_time: Time.current, end_time: 15.minutes.from_now)
    ```
 
 1. Confirm the record persists:
    ```ruby
-     MaintenanceWindow.last
-     =>
-     id: 6,
-     pagerduty_id: nil,
-     external_service: nil,
-     start_time: "2026-02-12 15:25:03.034362000 +0000",
-     end_time: "2026-02-12 15:40:03.034545000 +0000",
-     description: nil,
-     created_at: "2026-02-12 15:25:03.037906000 +0000",
-     updated_at: "2026-02-12 15:25:03.037906000 +0000">
+     MaintenanceWindow.exists?(maintenance_window.id)
+     => true
    ```
    
    This creates a maintenance window record that `vets-api` can expose to VA.gov for banner display.
