@@ -70,6 +70,10 @@
         * Phone Settings - Apps - Special Access - Install unknown apps - Chrome - Allow from this source
     * Problem with turning on "Internal app sharing"
         * Clear cache: Phone Settings - Apps - Google Play Store - Storage and cache - Clear cache
+* There is no simple "off" switch for turning on developer mode within Google Play Store
+    * The only way to hide it again is to Clear Storage/Data for the Google Play Store app. This resets the Play Store settings back to its original state, so it would wipe out custom settings.
+    * Having this mode on gives access to the developer options menu, but otherwise doesn’t change anything.
+    * Recommendation: It is safer to leave developer mode on rather than risk resetting a Veteran’s personalized Play Store settings.
 * Technical pre-requisites for participants (for both iOS and Android)
     * **VA Credentials:** You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
     * _[Android only]_ **Email Access:** You can open your email directly on your mobile phone to click the test link.
