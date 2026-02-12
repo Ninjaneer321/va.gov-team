@@ -358,8 +358,7 @@ Are there moments that matter?</summary>
 
 </details>
 
-**[- `Semi-structured interviews - appropriate for generative research`
-- `Usability testing - appropriate for evaluative research`]**
+**`Semi-structured interviews - appropriate for generative research`,`Usability testing - appropriate for evaluative research`**
 
 <details><summary>Additional resources</summary> 
 	
@@ -381,12 +380,6 @@ Where will you be holding the research sessions? Be sure to include whether this
 - [X] **Remote**
 - [ ] **In-person**
       
-> [!NOTE]
-> If in-person, include:
-
-- `Location:` **[Enter text]**
-- `Point of contact:` **[Enter text]**
-- `Equipment used for research:` **[Enter text]**
 
 ## Research materials 📔
 
@@ -480,7 +473,6 @@ Screener question 2
   * Yes, I see a listing of 1 or more overpayment debts on [VA.gov](http://VA.gov).  
   * No, I don’t see any overpayment debt details on VA.gov \[DISQUALIFY\]  
   * I don’t have a VA.gov account / I can’t sign in right now \[DISQUALIFY\]  
-  * 
 
 Screener question 3
 
