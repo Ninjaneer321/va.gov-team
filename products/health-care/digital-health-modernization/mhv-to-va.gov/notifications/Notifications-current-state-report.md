@@ -79,7 +79,7 @@ Notes:
   Nothing
 
   ## 10-10EZR
-  will check w/ Amanda Klausmeier
+ * user-action realted notification (Email) sent ONLY when a submission fails 
 
   ## Copays / owe us $$
   Is this a profile question?
