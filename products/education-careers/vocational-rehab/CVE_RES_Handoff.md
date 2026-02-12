@@ -72,13 +72,13 @@ Handoff Date: February 2026
 
 - Blank PDFs being saved in VBMS
   
-  - There was a bug that was causing the old Chapter 31 form (2019 version) to be saved in VBMS. Because the structure of the data was mapped to the most recent form, the old form couldn’t be filled out and was saved. We resolved this and the old form is no longer being referenced. We went back and re-uploaded the current Chapter 31 form to VBMS for the applications that were blank - we didn’t replace blank forms, we added new ones.
+  - There was a bug that was causing the old Chapter 31 form (2019 version) to be saved in VBMS. Because the structure of the data was mapped to the most recent form, the old form couldn’t be filled out and was saved. We resolved this and the old form is no longer being referenced. We went back and re-uploaded the current Chapter 31 form to VBMS for the applications that were blank - we didn’t replace blank forms, we added new ones. Still in remediation.
 
 ### Initiatives in Flight: 
 
 - Passing the ICN for submissions to RES
   
-  - This work is currently behind a feature flag. We have a ticket to QA in Staging and ensure RES is receiving it as expected next sprint: https://github.com/department-of-veterans-affairs/va-iir/issues/2271 
+  - This work is currently behind a feature flag. We have a ticket to QA in Staging and ensure RES is receiving it as expected next sprint: https://github.com/department-of-veterans-affairs/va-iir/issues/2271  
 
 - [Refactoring the BE](https://github.com/department-of-veterans-affairs/va-iir/issues/2070) so it is easier to make future updates
 
@@ -94,7 +94,7 @@ Handoff Date: February 2026
 
 - Updating logging & monitoring in Datadog to better identify issues and collect analytics
 
-  - Finishing the BE refactor will make reporting easier and we have added logging so we can see:
+  - We have added logging so we can see:
 
     - Submissions by service
 
@@ -104,9 +104,7 @@ Handoff Date: February 2026
 
     - VFS Library undeliverable logging
 
-    - We are planning to add all of these to the Datadog Dashboard for streamlined reporting. Also revisit current monitors and update as needed. Ticket here: <https://github.com/department-of-veterans-affairs/va-iir/issues/2366>
-      
-    - Estimating 1 more sprint of work to finish - **Does RES want CVE to finish this or hand off to them to finish?**
+    - We are planning to add all of these to the Datadog Dashboard for streamlined reporting next sprint. Also revisit current monitors and update as needed. Ticket here: <https://github.com/department-of-veterans-affairs/va-iir/issues/2366>
 
 - UX updates to prepare for new physical 31 form
 
@@ -120,32 +118,56 @@ Handoff Date: February 2026
 
 - RES Maintenance Windows
 
-  - February 28th is the first data migration RES is doing. Pager Duty will already be set up to not allow users to access the form during this time. The exact window is 7 am EST - 10 PM EST.
+  - February 28th is the first data migration RES is doing. Pager Duty will already be set up to not allow users to access the form during this time. The exact window is 7 am EST - 10 PM EST. Currently working on this: https://github.com/department-of-veterans-affairs/va-iir/issues/2150 
 
 - Operational Maintenance
 
   - Investigating failed jobs
 
-    - One ticket associated: <https://github.com/department-of-veterans-affairs/va-iir/issues/2242> 
+    - One ticket associated, do not have a plan to pick up: <https://github.com/department-of-veterans-affairs/va-iir/issues/2242> 
 
   - Increasing monitoring coverage for FE
 
-    - One ticket associated: <https://github.com/department-of-veterans-affairs/va-iir/issues/2324> 
+    - One ticket associated, do not have a plan to pick up: <https://github.com/department-of-veterans-affairs/va-iir/issues/2324> 
 
 
 ### Potential Future Initiatives:
+
+#### VBMS PDF Document ID
+
+- During the blank PDF issue, we learned that the `vbms_document_series_ref_id` that VA.gov gets from VBMS and sends to RES, is not actually the PDF document ID. A series ID can have multiple document versions associated to it. The version ID is what VBMS can use to search for a specific file in their database.
+
+- There should be an initiative to align with VBMS and RES to capture the correct unique identifier so when inevitable issues arise, there is a shared identifier to work with.
+  
+
+#### Storing RES submission ID within the VeteranReadinessEmploymentClaim Model
+
+- When a submission is made to RES from the API, we should be provided a unique identifier as a part of the response, which we save in our database.  This would assist in tracking the application as it crosses API boundaries
+  
+
+#### Storing VBMS Document ID in VeteranReadinessEmploymentClaim Model
+
+- We currently do save the document ID provided by VBMS, when we successfully submit an application there.  
+
+- That data is stored within the form attribute, which is an encrypted field
+
+- This makes it impossible to query on a VRE model with a given document id
+
+- Creating a new column for the VBMS document ID, outside of the encrypted form, could provide similar utility as storing the RES Submission ID
+
 
 #### Efolder API replacement 
 
 - The efolder API is currently used to upload the completed PDF form to VBMS
 
-- Apparently the efolder API is being deprecated and this process needs to move over to the [Claims Evidence API](https://claimevidence-api-dev.dev.bip.va.gov/api/v1/rest/swagger-ui.html).
+- The efolder API is being deprecated and this process needs to move over to the [Claims Evidence API](https://claimevidence-api-dev.dev.bip.va.gov/api/v1/rest/swagger-ui.html).
+  
 
 #### Confirmation Page
 
 - Right now it doesn’t exactly match the VA design system template - we don’t link a PDF to the user to download. It could be good to figure out how to do that.
 
-- One ticket associated: <https://github.com/department-of-veterans-affairs/va-iir/issues/2258> 
+- One ticket associated, do not have a plan to pick up: <https://github.com/department-of-veterans-affairs/va-iir/issues/2258> 
 
 - Update content on the confirmation page to better set post submission expectations for users - shouldn’t be funneling people to My VA if there isn’t a status there. How long will it take for users to hear back?
 
@@ -158,22 +180,6 @@ Handoff Date: February 2026
 #### Sending RES + VBMS applications
 
 - Why does VA.gov send applications to two different places? It’s proved difficult having two sources of truth. Is there a way to only send things to RES or only VBMS? 
-
-
-#### Storing RES submission ID within the VeteranReadinessEmploymentClaim Model
-
-- When a submission is made to RES from the API, we should be provided a unique identifier as a part of the response, which we save in our database.  This would assist in tracking the application as it crosses API boundaries
-
-
-#### Storing VBMS Document ID in VeteranReadinessEmploymentClaim Model
-
-- We currently do save the document ID provided by VBMS, when we successfully submit an application there.  
-
-- That data is stored within the form attribute, which is an encrypted field
-
-- This makes it impossible to query on a VRE model with a given document id
-
-- Creating a new column for the VBMS document ID, outside of the encrypted form, could provide similar utility as storing the RES Submission ID
 
 
 #### Application Status Messages 
