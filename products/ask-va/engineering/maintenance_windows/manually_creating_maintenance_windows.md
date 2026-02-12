@@ -33,7 +33,7 @@ If you do not have not have terminal access, you must first fill out the [vets-a
      updated_at: "2026-02-12 15:25:03.037906000 +0000">
    ```
    
-   This will creates maintenance window record that vets-api can expose to VA.gov for banner display.
+   This creates a maintenance window record that `vets-api` can expose to VA.gov for banner display.
 
 > [!NOTE]
 > When manually inserting a record into the `maintenance_windows` tables, it will be cleared in 3 minutes or less. This
