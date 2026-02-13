@@ -1,23 +1,26 @@
 ---
-title: "Find Help on Contact Us - Additional Research Findings"
-product: "Contact Us Page"
-team: "Veteran Support Crew & Content, Information Architecture, and Editor Experiences Crew"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-10-22"
+title: Find Help on Contact Us - Additional Research Findings
+product: Contact Us Page
+team: Veteran Support Crew & Content, Information Architecture, and Editor Experiences
+  Crew
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-10-22'
 researchers:
-  - "Becky Phung"
+- Becky Phung
 research_goals:
-  - "Document additional findings that don't represent patterns but may inform other teams"
-  - "Share insights across sign-in, account, travel pay, chatbot, facilities, accessibility, and Ask VA experiences"
+- Document additional findings that don't represent patterns but may inform other
+  teams
+- Share insights across sign-in, account, travel pay, chatbot, facilities, accessibility,
+  and Ask VA experiences
 methodology:
-  - "Remote moderated usability testing"
-  - "Observational research"
-  - "Qualitative analysis"
+- Remote moderated usability testing
+- Observational research
+- Qualitative analysis
 devices_used:
-    desktop: 6
-    tablet: 1
-    smartphone: 3
-    assistive_technology: 0
+  desktop: 6
+  tablet: 1
+  smartphone: 3
+  assistive_technology: 0
 participants_total: 10
 demographics:
   veterans: 10
@@ -26,11 +29,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 3
-    "55-64": 4
-    "65+": 3
+    25-34: 0
+    35-44: 0
+    45-54: 3
+    55-64: 4
+    65+: 3
     unknown: 0
   education:
     high_school: 1
@@ -63,66 +66,75 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Overseas Veterans experience challenges verifying identity at Military Operated Offices"
-  - "Veterans experience challenges with two-factor authentication including limited phone service and multiple devices"
-  - "One person had negative experience with Login.gov phone support"
-  - "One person thought Login.gov was more secure than ID.me"
-  - "One person couldn't find VA benefits letter using site search"
-  - "Travel pay: Veterans unable to file claims when facility not in system"
-  - "Chatbot: People deterred from using after reviewing what it cannot do"
-  - "One person wanted to save chatbot interaction transcripts"
-  - "Facility locator: Overseas Veteran thought tool couldn't help them"
-  - "Older Veterans primarily use their phones for digital access"
-  - "People don't notice dynamic changes on page if attention isn't called to it"
-  - "One participant skipped headers and focused on interactive elements like accordions"
-  - "Ask VA: Need for unauthenticated experience when can't sign in"
-  - "Category field on ask.va.gov looks like input field causing confusion"
-  - "Some Veterans don't think VA.gov is helpful - can't find information or understand purpose"
+- Overseas Veterans experience challenges verifying identity at Military Operated
+  Offices
+- Veterans experience challenges with two-factor authentication including limited
+  phone service and multiple devices
+- One person had negative experience with Login.gov phone support
+- One person thought Login.gov was more secure than ID.me
+- One person couldn't find VA benefits letter using site search
+- 'Travel pay: Veterans unable to file claims when facility not in system'
+- 'Chatbot: People deterred from using after reviewing what it cannot do'
+- One person wanted to save chatbot interaction transcripts
+- 'Facility locator: Overseas Veteran thought tool couldn''t help them'
+- Older Veterans primarily use their phones for digital access
+- People don't notice dynamic changes on page if attention isn't called to it
+- One participant skipped headers and focused on interactive elements like accordions
+- 'Ask VA: Need for unauthenticated experience when can''t sign in'
+- Category field on ask.va.gov looks like input field causing confusion
+- Some Veterans don't think VA.gov is helpful - can't find information or understand
+  purpose
 recommendations:
-  - "Share sign-in findings with sign-in experience team"
-  - "Share account experience findings with account experience team"
-  - "Share travel pay findings with travel pay team"
-  - "Share chatbot findings with VA chatbot team"
-  - "Share facilities findings with sitewide facilities team"
-  - "Share accessibility findings with accessibility champions"
-  - "Share Ask VA findings with Ask VA team"
-  - "Share general VA.gov findings with OCTO leadership"
+- Share sign-in findings with sign-in experience team
+- Share account experience findings with account experience team
+- Share travel pay findings with travel pay team
+- Share chatbot findings with VA chatbot team
+- Share facilities findings with sitewide facilities team
+- Share accessibility findings with accessibility champions
+- Share Ask VA findings with Ask VA team
+- Share general VA.gov findings with OCTO leadership
 kpi_alignment:
-  - "Cross-team collaboration and knowledge sharing"
-  - "Product improvement opportunities across VA.gov"
+- Cross-team collaboration and knowledge sharing
+- Product improvement opportunities across VA.gov
 outcomes:
-  user: "Veterans have better experiences across all VA.gov products informed by this research"
-  business: "Teams can address pain points discovered during Contact us research"
+  user: Veterans have better experiences across all VA.gov products informed by this
+    research
+  business: Teams can address pain points discovered during Contact us research
 opportunity_areas:
-  - "Identity verification for overseas Veterans"
-  - "MFA alternatives for Veterans with limited phone service"
-  - "Travel claim facility database completeness"
-  - "Chatbot capabilities and user expectations"
-  - "Facility locator international support"
-  - "Mobile-first design considerations"
-  - "Dynamic content change notifications"
-  - "Ask VA unauthenticated experience"
+- Identity verification for overseas Veterans
+- MFA alternatives for Veterans with limited phone service
+- Travel claim facility database completeness
+- Chatbot capabilities and user expectations
+- Facility locator international support
+- Mobile-first design considerations
+- Dynamic content change notifications
+- Ask VA unauthenticated experience
 further_research_needed:
-  - "Deep dive research on overseas Veteran identity verification challenges"
-  - "Study of MFA alternatives for Veterans with limited technology access"
-  - "Travel pay facility database audit and user testing"
-  - "Chatbot user expectations and capabilities research"
+- Deep dive research on overseas Veteran identity verification challenges
+- Study of MFA alternatives for Veterans with limited technology access
+- Travel pay facility database audit and user testing
+- Chatbot user expectations and capabilities research
 underserved_groups_missing:
-  - "Assistive technology users"
-  - "Veterans with other than honorable discharge"
-  - "Immigrant origin Veterans"
-  - "Asian Veterans"
-  - "Native Veterans"
-  - "Veterans aged 25-44"
+- Assistive technology users
+- Veterans with other than honorable discharge
+- Immigrant origin Veterans
+- Asian Veterans
+- Native Veterans
+- Veterans aged 25-44
 secondary_research:
-  - "Primary study: Find help on Contact us"
-  - "Observational data from Contact us usability testing"
+- 'Primary study: Find help on Contact us'
+- Observational data from Contact us usability testing
 synthesis_tools_used:
-  - "Mural"
-  - "Qualitative analysis"
-  - "Cross-product insights mapping"
+- Mural
+- Qualitative analysis
+- Cross-product insights mapping
+tags:
+- 'AUD: Veterans'
+- 'PRDT: Accredited-Reps'
+- usability-testing
+- moderated-research
+- remote-research
 ---
-
 # Additional findings for "Find help on Contact us" study
 This documentat has additional findings separate from the [primary findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/veteran%20support%20crew/Contact%20us%20page/User%20research/09-2024%20Find%20help%20on%20Contact%20us/Findings.md) of the "Find help on Contact us" study. 
 

@@ -1,25 +1,26 @@
 ---
-title: "CST Initial Decisions Research Findings"
-product: "Claim Status Tool"
-team: "VA Benefits Team 1"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2023-04-19"
+title: CST Initial Decisions Research Findings
+product: Claim Status Tool
+team: VA Benefits Team 1
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2023-04-19'
 researchers:
-  - "Ruben Sun"
-  - "Skyler Schain"
+- Ruben Sun
+- Skyler Schain
 research_goals:
-  - "Understand what information Veterans specifically want to know to stay informed as their claim goes through the initial decision process"
-  - "Understand the experience Veterans have with requests to provide additional evidence"
-  - "Understand the experience Veterans have with requests for C&P exams"
+- Understand what information Veterans specifically want to know to stay informed
+  as their claim goes through the initial decision process
+- Understand the experience Veterans have with requests to provide additional evidence
+- Understand the experience Veterans have with requests for C&P exams
 methodology:
-  - "Semi-structured interviews"
-  - "Contextual Inquiry"
-  - "Co-Creation"
+- Semi-structured interviews
+- Contextual Inquiry
+- Co-Creation
 devices_used:
-    desktop: 14
-    tablet: 0
-    smartphone: 2
-    assistive_technology: 1
+  desktop: 14
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 1
 participants_total: 16
 demographics:
   veterans: 16
@@ -28,11 +29,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 6
-    "45-54": 6
-    "55-64": 1
-    "65+": 1
+    25-34: 0
+    35-44: 6
+    45-54: 6
+    55-64: 1
+    65+: 1
     unknown: 1
   education:
     high_school: 1
@@ -69,37 +70,61 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Veterans find the claims process learning curve to be steep, with many potential areas of improvement for the claim status tool (CST)"
-  - "Keeping track of relevant claims is difficult for veterans who have more claims with greater claim complexity"
-  - "Veterans think about claim status in terms of what's currently being done to the claim, the outcome of the claim, and the items and actions standing in the way of gaining a favorable determination"
-  - "Duplicative, inconsistent, and out-of-date content forces Veterans to play detective in establishing a cohesive picture of their claim"
-  - "Veterans find information in the CST to be vague and lacking specificity leading them to feel uncertain"
-  - "Alarming and confusing UI lead Veterans to feel anxiety about their claim. Often, these items are most relevant for other actors in the claims process"
-  - "Veterans feel a lack of reciprocity in the claims process at times. Some of the language in the CST lead Veterans to feel they're on trial and viewed with suspicion"
-  - "Veterans wish for, and feel entitled to access the files and exam records within their benefit claims. Where necessary, access enables claimants to intervene earlier in the claims process"
+- Veterans find the claims process learning curve to be steep, with many potential
+  areas of improvement for the claim status tool (CST)
+- Keeping track of relevant claims is difficult for veterans who have more claims
+  with greater claim complexity
+- Veterans think about claim status in terms of what's currently being done to the
+  claim, the outcome of the claim, and the items and actions standing in the way of
+  gaining a favorable determination
+- Duplicative, inconsistent, and out-of-date content forces Veterans to play detective
+  in establishing a cohesive picture of their claim
+- Veterans find information in the CST to be vague and lacking specificity leading
+  them to feel uncertain
+- Alarming and confusing UI lead Veterans to feel anxiety about their claim. Often,
+  these items are most relevant for other actors in the claims process
+- Veterans feel a lack of reciprocity in the claims process at times. Some of the
+  language in the CST lead Veterans to feel they're on trial and viewed with suspicion
+- Veterans wish for, and feel entitled to access the files and exam records within
+  their benefit claims. Where necessary, access enables claimants to intervene earlier
+  in the claims process
 recommendations:
-  - "Restructure and consolidate content in claim detail pages to reduce the amount of redundant information presented"
-  - "Review and revise claim status content to ensure that information is presented with clarity and serves to inform, direct and set expectations for claimants"
-  - "Explore near-future-state concepts for the claim status detail page addressing the gaps identified in the research"
-  - "Explore alternate ways to organize the claim listing page and display claim items"
+- Restructure and consolidate content in claim detail pages to reduce the amount of
+  redundant information presented
+- Review and revise claim status content to ensure that information is presented with
+  clarity and serves to inform, direct and set expectations for claimants
+- Explore near-future-state concepts for the claim status detail page addressing the
+  gaps identified in the research
+- Explore alternate ways to organize the claim listing page and display claim items
 further_research_needed:
-  - "Further exploration, concept testing, and validation for near-future-state concepts"
-  - "Testing of revisions to display determination status for each contention"
-  - "Testing of revisions to provide review status for granular requests"
+- Further exploration, concept testing, and validation for near-future-state concepts
+- Testing of revisions to display determination status for each contention
+- Testing of revisions to provide review status for granular requests
 underserved_groups_missing:
-  - "Veterans aged 55-64+"
-  - "Other than honorable"
-  - "Immigrant origin"
-  - "Expat (living abroad)"
-  - "Biracial"
-  - "Asian"
-  - "Assistive tech users"
+- Veterans aged 55-64+
+- Other than honorable
+- Immigrant origin
+- Expat (living abroad)
+- Biracial
+- Asian
+- Assistive tech users
 secondary_research:
-  - "Decision reviews research from 2022-11"
+- Decision reviews research from 2022-11
 synthesis_tools_used:
-  - "Mural"
+- Mural
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: Claim-status-tool'
+- 'MHV: Appointments'
+- 'MHV: Personal Health Records/Medical Records'
+- semi-structured-interviews
+- remote-research
+- Accessibility
 ---
-
 # CST Initial Decisions Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Claim Status Tool, VA Benefits Team 1**

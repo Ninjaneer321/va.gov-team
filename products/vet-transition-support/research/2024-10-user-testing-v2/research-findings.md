@@ -1,26 +1,28 @@
 ---
-title: "Veteran Transition Support Version 2 User Testing Research Findings"
-product: "Veteran Transition Support (VTS)"
-team: "Transition Experience Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-12-12"
+title: Veteran Transition Support Version 2 User Testing Research Findings
+product: Veteran Transition Support (VTS)
+team: Transition Experience Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-12-12'
 researchers:
-  - "Cora Goldston"
-  - "Veronica Young"
+- Cora Goldston
+- Veronica Young
 research_goals:
-  - "Understand how Version 2 of the Veteran Transition Support product starts to meet the needs of Veterans and transitioning service members"
-  - "Test specific features in the Version 2 prototype including Skipping Questions, Review Answers Page, Sorting and Filtering"
-  - "Determine expectations of users for the product"
-  - "Find out additional features and systems that can be added to VTS in future versions"
+- Understand how Version 2 of the Veteran Transition Support product starts to meet
+  the needs of Veterans and transitioning service members
+- Test specific features in the Version 2 prototype including Skipping Questions,
+  Review Answers Page, Sorting and Filtering
+- Determine expectations of users for the product
+- Find out additional features and systems that can be added to VTS in future versions
 methodology:
-  - "Semi-structured remote interviews"
-  - "Clickable Figma prototype testing"
-  - "Follow-up questions about experience and expectations"
+- Semi-structured remote interviews
+- Clickable Figma prototype testing
+- Follow-up questions about experience and expectations
 devices_used:
-    desktop: 12
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 0
+  desktop: 12
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 12
 demographics:
   veterans: 6
@@ -30,11 +32,11 @@ demographics:
   VA_staff: 0
   commanding_officers: 2
   age:
-    "25-34": 4
-    "35-44": 4
-    "45-54": 3
-    "55-64": 0
-    "65+": 0
+    25-34: 4
+    35-44: 4
+    45-54: 3
+    55-64: 0
+    65+: 0
     unknown: 1
   education:
     high_school: 0
@@ -68,61 +70,84 @@ demographics:
     captions: 0
     unknown: 12
 key_findings:
-  - "Some participants were confused by the Figma prototype, particularly the limited Review, Results, and window-shopping page functionality"
-  - "More participants preferred the name Discover your benefits, but participants generally found Find your benefits to be a synonymous alternative"
-  - "Participants overwhelmingly said they expect this tools entry point to be on the VA.gov homepage"
-  - "Several participants were confused by the GI Bill question and the answer choices"
-  - "Participants recommended improvements for denoting time-sensitive benefits, including grouping them and differentiating pre-separation and post-separation benefits"
-  - "Most participants found the overall tool straightforward and easy to use"
-  - "Many participants said the tool would be helpful and relevant to their needs"
-  - "Several transitioning service members said that a timeline, task tracker, or checklist would be helpful for their transition"
-  - "Participants want to see state and local Veteran benefits in the tool, even though these benefits are not offered by any federal agency"
-  - "Some participants wanted this tool to be integrated with their authenticated VA.gov profiles"
+- Some participants were confused by the Figma prototype, particularly the limited
+  Review, Results, and window-shopping page functionality
+- More participants preferred the name Discover your benefits, but participants generally
+  found Find your benefits to be a synonymous alternative
+- Participants overwhelmingly said they expect this tools entry point to be on the
+  VA.gov homepage
+- Several participants were confused by the GI Bill question and the answer choices
+- Participants recommended improvements for denoting time-sensitive benefits, including
+  grouping them and differentiating pre-separation and post-separation benefits
+- Most participants found the overall tool straightforward and easy to use
+- Many participants said the tool would be helpful and relevant to their needs
+- Several transitioning service members said that a timeline, task tracker, or checklist
+  would be helpful for their transition
+- Participants want to see state and local Veteran benefits in the tool, even though
+  these benefits are not offered by any federal agency
+- Some participants wanted this tool to be integrated with their authenticated VA.gov
+  profiles
 recommendations:
-  - "Conduct future user testing on the staging site, once all planned updates have been incorporated"
-  - "Keep the name Discover your benefits for the tool"
-  - "Remove the GI Bill question due to participant confusion and no longer affecting benefit recommendations after SME feedback"
-  - "Place additional emphasis on the time-sensitive benefits, both on the Results page and the window-shopping page"
-  - "Clarify which time-sensitive benefits need to be applied for pre-separation or post-separation"
-  - "Add a timeline or task tracking mechanism to support transitioning service members"
-  - "Include state and local Veteran benefit information in the personalized benefit recommendations and the window-shopping page"
+- Conduct future user testing on the staging site, once all planned updates have been
+  incorporated
+- Keep the name Discover your benefits for the tool
+- Remove the GI Bill question due to participant confusion and no longer affecting
+  benefit recommendations after SME feedback
+- Place additional emphasis on the time-sensitive benefits, both on the Results page
+  and the window-shopping page
+- Clarify which time-sensitive benefits need to be applied for pre-separation or post-separation
+- Add a timeline or task tracking mechanism to support transitioning service members
+- Include state and local Veteran benefit information in the personalized benefit
+  recommendations and the window-shopping page
 kpi_alignment:
-  - "Enhance Veterans personalized online experience"
-  - "Drive OIT Digital Transformation Strategy"
-  - "Support transitioning servicemembers with comprehensive benefit discovery"
+- Enhance Veterans personalized online experience
+- Drive OIT Digital Transformation Strategy
+- Support transitioning servicemembers with comprehensive benefit discovery
 outcomes:
-  user: "Veterans and transitioning servicemembers can easily discover relevant benefits, understand time-sensitive requirements, and take action on their benefit applications"
-  business: "Improved benefit discovery and application initiation reduces support burden and increases benefit utilization"
+  user: Veterans and transitioning servicemembers can easily discover relevant benefits,
+    understand time-sensitive requirements, and take action on their benefit applications
+  business: Improved benefit discovery and application initiation reduces support
+    burden and increases benefit utilization
 opportunity_areas:
-  - "Timeline and task tracking for transition milestones"
-  - "State and local benefit integration"
-  - "Authenticated profile integration and pre-population"
-  - "Time-sensitive benefit grouping and pre/post-separation differentiation"
-  - "Window shopping mode for future benefit planning"
+- Timeline and task tracking for transition milestones
+- State and local benefit integration
+- Authenticated profile integration and pre-population
+- Time-sensitive benefit grouping and pre/post-separation differentiation
+- Window shopping mode for future benefit planning
 further_research_needed:
-  - "User testing on staging site with full functionality once planned updates are implemented"
-  - "Research with Assistive technology users"
-  - "Mobile device user testing"
-  - "Testing with LGBTQ+ Veterans and transitioning servicemembers"
-  - "Research with Veterans in rural areas"
+- User testing on staging site with full functionality once planned updates are implemented
+- Research with Assistive technology users
+- Mobile device user testing
+- Testing with LGBTQ+ Veterans and transitioning servicemembers
+- Research with Veterans in rural areas
 underserved_groups_missing:
-  - "Veterans over 55 years old"
-  - "Veterans with cognitive disabilities"
-  - "Veterans on mobile devices"
-  - "Veterans who live in rural areas"
-  - "Veterans with Other than Honorable discharges"
-  - "Veterans of immigrant origin"
-  - "LGBTQ+ Veterans and servicemembers"
+- Veterans over 55 years old
+- Veterans with cognitive disabilities
+- Veterans on mobile devices
+- Veterans who live in rural areas
+- Veterans with Other than Honorable discharges
+- Veterans of immigrant origin
+- LGBTQ+ Veterans and servicemembers
 secondary_research:
-  - "VA education subject matter expert feedback"
-  - "Version 1 user testing findings"
-  - "Previous benefit discovery tool research"
+- VA education subject matter expert feedback
+- Version 1 user testing findings
+- Previous benefit discovery tool research
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity mapping from user testing sessions"
-  - "Quote extraction and thematic analysis"
+- Mural
+- Affinity mapping from user testing sessions
+- Quote extraction and thematic analysis
+tags:
+- 'AUD: Veterans'
+- 'AUD: Service Members'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Housing'
+- usability-testing
+- semi-structured-interviews
+- remote-research
+- evaluative
 ---
-
 # Veteran Transition Support — Version 2 User Testing Research Findings
 **Office of the CTO - Digital Experience (OCTO-DE), Transition Experience v2, Transition Experience Team**
 

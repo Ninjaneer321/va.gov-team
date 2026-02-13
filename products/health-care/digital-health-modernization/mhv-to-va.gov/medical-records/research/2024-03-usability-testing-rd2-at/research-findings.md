@@ -1,28 +1,30 @@
 ---
-title: "Medical Records on VA.gov Usability Study Round 2 (AT) Research Findings"
-product: "My HealtheVet on VA.gov"
-team: "MHV on VA.gov Medical Records Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-06-10"
+title: Medical Records on VA.gov Usability Study Round 2 (AT) Research Findings
+product: My HealtheVet on VA.gov
+team: MHV on VA.gov Medical Records Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-06-10'
 researchers:
-  - "Anne Costello Kennedy"
+- Anne Costello Kennedy
 research_goals:
-  - "Identify usability issues Veterans experience accessing Care Summaries and Notes, Vaccines, Allergies, and Vitals records"
-  - "Identify what information Veterans expect to see within detail views"
-  - "Identify if Veterans understand information presented in list and detail views"
-  - "Identify if Veterans know how to print/download both individual records and lists of records"
-  - "Identify barriers for Veterans with mild to severe Cognitive Disabilities"
-  - "Identify barriers for Veterans who use Assistive Technologies"
+- Identify usability issues Veterans experience accessing Care Summaries and Notes,
+  Vaccines, Allergies, and Vitals records
+- Identify what information Veterans expect to see within detail views
+- Identify if Veterans understand information presented in list and detail views
+- Identify if Veterans know how to print/download both individual records and lists
+  of records
+- Identify barriers for Veterans with mild to severe Cognitive Disabilities
+- Identify barriers for Veterans who use Assistive Technologies
 methodology:
-  - "Moderated usability testing interviews"
-  - "Participants navigated staging environment and prototypes"
-  - "Observation of behavior with follow-up prompts"
-  - "Likert scale ratings for ease of use after each domain"
+- Moderated usability testing interviews
+- Participants navigated staging environment and prototypes
+- Observation of behavior with follow-up prompts
+- Likert scale ratings for ease of use after each domain
 devices_used:
-    desktop: 19
-    tablet: 0
-    smartphone: 6
-    assistive_technology: 11
+  desktop: 19
+  tablet: 0
+  smartphone: 6
+  assistive_technology: 11
 participants_total: 25
 demographics:
   veterans: 25
@@ -31,11 +33,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 3
-    "35-44": 5
-    "45-54": 3
-    "55-64": 7
-    "65+": 7
+    25-34: 3
+    35-44: 5
+    45-54: 3
+    55-64: 7
+    65+: 7
     unknown: 0
   education:
     high_school: 3
@@ -68,46 +70,72 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "All participants found a specific flu shot and most found the facility location for the shot"
-  - "Most participants understood where to find allergy information for vaccines and expected reactions in Provider notes"
-  - "Most AT-dependent and all non-AT-dependent participants found specific allergies in the list"
-  - "Most participants understood 'Signs and symptoms' and 'Observed' but fewer understood 'Historical'"
-  - "All participants found information on Vitals"
-  - "Many participants requested graph or chart display for vitals over time"
-  - "Most non-AT-dependent participants located records in Care summaries and notes easily"
-  - "Few AT-dependent participants found specific discharge summaries due to pagination issues"
-  - "Many participants requested plain language note titles"
-  - "Most participants understood how to print/download lists and individual records, preferring PDF format"
-  - "Most participants value direct access to medical records compared to Blue Button report"
-  - "Most participants rated Vaccines, Allergies, Vitals, and Print/download as easy or very easy"
-  - "Few AT-dependent participants rated Care summaries and notes as easy compared to most non-AT-dependent participants"
+- All participants found a specific flu shot and most found the facility location
+  for the shot
+- Most participants understood where to find allergy information for vaccines and
+  expected reactions in Provider notes
+- Most AT-dependent and all non-AT-dependent participants found specific allergies
+  in the list
+- Most participants understood 'Signs and symptoms' and 'Observed' but fewer understood
+  'Historical'
+- All participants found information on Vitals
+- Many participants requested graph or chart display for vitals over time
+- Most non-AT-dependent participants located records in Care summaries and notes easily
+- Few AT-dependent participants found specific discharge summaries due to pagination
+  issues
+- Many participants requested plain language note titles
+- Most participants understood how to print/download lists and individual records,
+  preferring PDF format
+- Most participants value direct access to medical records compared to Blue Button
+  report
+- Most participants rated Vaccines, Allergies, Vitals, and Print/download as easy
+  or very easy
+- Few AT-dependent participants rated Care summaries and notes as easy compared to
+  most non-AT-dependent participants
 recommendations:
-  - "Explore feasibility of providing data visualizations to supplement numeric data for vitals over time"
-  - "Update code on Vitals, Vaccines, and Allergies list pages to make 'Back to top' button visible at 320px viewport"
-  - "Explore solutions to increase visibility of pagination to screen reader users"
+- Explore feasibility of providing data visualizations to supplement numeric data
+  for vitals over time
+- Update code on Vitals, Vaccines, and Allergies list pages to make 'Back to top'
+  button visible at 320px viewport
+- Explore solutions to increase visibility of pagination to screen reader users
 kpi_alignment:
-  - "Improved access to medical records for Veterans with disabilities"
-  - "Increased satisfaction with direct record access versus Blue Button reports"
-  - "Enhanced usability for assistive technology users"
+- Improved access to medical records for Veterans with disabilities
+- Increased satisfaction with direct record access versus Blue Button reports
+- Enhanced usability for assistive technology users
 outcomes:
-  user: "Veterans can easily access and understand their medical records directly without generating large PDF reports"
-  business: "Medical Records on VA.gov provides accessible experience for Veterans with cognitive disabilities and AT users"
+  user: Veterans can easily access and understand their medical records directly without
+    generating large PDF reports
+  business: Medical Records on VA.gov provides accessible experience for Veterans
+    with cognitive disabilities and AT users
 opportunity_areas:
-  - "Data visualizations for vitals trends would benefit Veterans with cognitive disabilities"
-  - "Pagination visibility improvements needed for screen reader users"
-  - "Plain language note titles would improve findability"
+- Data visualizations for vitals trends would benefit Veterans with cognitive disabilities
+- Pagination visibility improvements needed for screen reader users
+- Plain language note titles would improve findability
 further_research_needed:
-  - "Retest usability of Care summaries and notes with more authentic data and dates"
-  - "Conduct discovery research on health literacy and medical terminology"
+- Retest usability of Care summaries and notes with more authentic data and dates
+- Conduct discovery research on health literacy and medical terminology
 underserved_groups_missing:
-  - "Additional voice control users beyond the 1 participant"
-  - "Screen reader users on mobile devices"
+- Additional voice control users beyond the 1 participant
+- Screen reader users on mobile devices
 secondary_research:
-  - "Medical Records Usability Round 1 from May 2023"
+- Medical Records Usability Round 1 from May 2023
 synthesis_tools_used:
-  - "Mural for affinity mapping"
+- Mural for affinity mapping
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: Caregivers'
+- 'MHV: Appointments'
+- 'MHV: Personal Health Records/Medical Records'
+- usability-testing
+- semi-structured-interviews
+- moderated-research
+- remote-research
+- Accessibility
 ---
-
 # Medical Records in VA.gov Usability Study Round 2 (AT) Research Findings
 
 Date: 06/10/2024

@@ -1,23 +1,23 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+title: '[Study] Research Findings'
+product: Product Name
+team: Team Name
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: YYYY-MM-DD
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+- Researcher/Designer 1
+- Researcher/Designer 2
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+- Goal 1
+- Goal 2
 methodology:
-  - "Method 1"
-  - "Method 2"
+- Method 1
+- Method 2
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
+  desktop: X
+  tablet: X
+  smartphone: X
+  assistive_technology: X
 participants_total: X
 Primary role:
   Clinical dietician: X
@@ -55,39 +55,43 @@ Care setting:
   Emergency Department: X
   Other: X
 EHR:
- CPRS: X
- Oracle: X 
-
+  CPRS: X
+  Oracle: X
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+- Finding 1
+- Finding 2
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+- Recommendation 1
+- Recommendation 2
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+- KPI 1
+- KPI 2
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: Desired user outcome
+  business: Desired business outcome
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+- Unmet need 1
+- Research gap 1
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+- Area 1
+- Area 2
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+- Group 1
+- Group 2
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+- Web analytics
+- SME interviews
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Affinity Mapping
+tags:
+- 'BNFT: Disability'
+- 'BNFT: Healthcare'
+- 'PRDT: Caregivers'
+- 'MHV: Pharmacy'
+- usability-testing
+- remote-research
 ---
-
 <br>**This is a template, PLEASE MAKE A COPY**
 
 ---

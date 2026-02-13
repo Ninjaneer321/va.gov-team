@@ -1,23 +1,26 @@
 ---
-title: "Decision Letter Download: Research Findings"
-product: "Claim Status Tool"
-team: "VA Benefits Team 1"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2022-09-29"
+title: 'Decision Letter Download: Research Findings'
+product: Claim Status Tool
+team: VA Benefits Team 1
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2022-09-29'
 researchers:
-  - "Skyler Schain"
+- Skyler Schain
 research_goals:
-  - "Understand more about the decision letter user journey"
-  - "Assess whether the design proposal is effective for solving the user problem (i.e. needing access to the digital decision letter)"
-  - "Understand Veterans' mental model for letters generally, including both benefit letters and claim letters (inbound communication from the VA pertaining to a Veterans' claims and appeals)"
+- Understand more about the decision letter user journey
+- Assess whether the design proposal is effective for solving the user problem (i.e.
+  needing access to the digital decision letter)
+- Understand Veterans' mental model for letters generally, including both benefit
+  letters and claim letters (inbound communication from the VA pertaining to a Veterans'
+  claims and appeals)
 methodology:
-  - "Remote moderated usability testing"
-  - "Zoom sessions"
+- Remote moderated usability testing
+- Zoom sessions
 devices_used:
-    desktop: 5
-    tablet: 0
-    smartphone: 5
-    assistive_technology: 0
+  desktop: 5
+  tablet: 0
+  smartphone: 5
+  assistive_technology: 0
 participants_total: 10
 demographics:
   veterans: 10
@@ -26,11 +29,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 2
-    "55-64": 2
-    "65+": 6
+    25-34: 0
+    35-44: 0
+    45-54: 2
+    55-64: 2
+    65+: 6
     unknown: 0
   education:
     high_school: 1
@@ -63,40 +66,59 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Core task of accessing Decision Letters via the Claim Status Tool was very successful."
-  - "The date and recency sorting in the Claim letters list was crucial for participants to understand which letter was their claim decision letter."
-  - "On the Download VA Letters page, the Claim Letters entrypoint was not discoverable enough."
-  - "Navigation from the Download VA letters page back to the claim letter page was tricky for some participants."
-  - "Participants mostly understood the use cases for benefit letters and claim letters, although some found it hard to articulate the difference between them."
+- Core task of accessing Decision Letters via the Claim Status Tool was very successful.
+- The date and recency sorting in the Claim letters list was crucial for participants
+  to understand which letter was their claim decision letter.
+- On the Download VA Letters page, the Claim Letters entrypoint was not discoverable
+  enough.
+- Navigation from the Download VA letters page back to the claim letter page was tricky
+  for some participants.
+- Participants mostly understood the use cases for benefit letters and claim letters,
+  although some found it hard to articulate the difference between them.
 recommendations:
-  - "For this MVF, house the Claim Letters URL within CST, since most users associated the page contents with claims and appeals information and most participants navigated to CST to find their decision letters. (There are also product and technical reasons for going this route)."
-  - "Beyond MVF, continue exploring how to pair decision letters with their specific claims, to further simplify the user journey."
-  - "Beyond MVF, consider how this user journey connects to the appeals journeys and try to construct an intuitive pathway for users to appeal claims once they see their decision letter."
-  - "Consider how this feature would work on the mobile app."
+- For this MVF, house the Claim Letters URL within CST, since most users associated
+  the page contents with claims and appeals information and most participants navigated
+  to CST to find their decision letters. (There are also product and technical reasons
+  for going this route).
+- Beyond MVF, continue exploring how to pair decision letters with their specific
+  claims, to further simplify the user journey.
+- Beyond MVF, consider how this user journey connects to the appeals journeys and
+  try to construct an intuitive pathway for users to appeal claims once they see their
+  decision letter.
+- Consider how this feature would work on the mobile app.
 kpi_alignment: []
 outcomes:
-  user: "Not specified"
-  business: "Not specified"
+  user: Not specified
+  business: Not specified
 opportunity_areas: []
 further_research_needed: []
 underserved_groups_missing:
-  - "Cognitive Disability"
-  - "Rural"
-  - "Other than honorable"
-  - "Immigrant origin"
-  - "Expat (living abroad)"
-  - "Hispanic"
-  - "Biracial"
-  - "Asian"
-  - "Native"
-  - "LGBTQ+"
-  - "Assistive tech users"
+- Cognitive Disability
+- Rural
+- Other than honorable
+- Immigrant origin
+- Expat (living abroad)
+- Hispanic
+- Biracial
+- Asian
+- Native
+- LGBTQ+
+- Assistive tech users
 secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Google Spreadsheet"
+- Mural
+- Google Spreadsheet
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Pension'
+- 'BNFT: Records'
+- 'PRDT: My VA'
+- usability-testing
+- moderated-research
+- remote-research
 ---
-
 # Decision Letter Download: Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), VA Benefits Team 1

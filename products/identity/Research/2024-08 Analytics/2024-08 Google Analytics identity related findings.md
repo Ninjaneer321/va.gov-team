@@ -1,108 +1,116 @@
 ---
-title: "Google Analytics Identity Related Findings"
-product: "Sign-in Experience"
-team: "Identity Experience Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-08-12"
+title: Google Analytics Identity Related Findings
+product: Sign-in Experience
+team: Identity Experience Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-08-12'
 researchers:
-  - "Clayton Zook"
+- Clayton Zook
 research_goals:
-  - "Uncover insights and identify areas for further qualitative analysis to improve sign-in for Veterans"
-  - "Analyze sign-in patterns and behaviors across VA.gov and MHV portals"
-  - "Understand Terms of Use acceptance rates and patterns"
+- Uncover insights and identify areas for further qualitative analysis to improve
+  sign-in for Veterans
+- Analyze sign-in patterns and behaviors across VA.gov and MHV portals
+- Understand Terms of Use acceptance rates and patterns
 methodology:
-  - "Google Analytics review"
-  - "DataDog metrics analysis"
-  - "Quantitative data analysis"
+- Google Analytics review
+- DataDog metrics analysis
+- Quantitative data analysis
 devices_used:
-    desktop: "Not tracked"
-    tablet: "Not tracked"
-    smartphone: "Not tracked"
-    assistive_technology: "Not tracked"
-participants_total: "31 million sessions analyzed"
+  desktop: Not tracked
+  tablet: Not tracked
+  smartphone: Not tracked
+  assistive_technology: Not tracked
+participants_total: 31 million sessions analyzed
 demographics:
-  veterans: "Not tracked"
-  service_members: "Not tracked"
-  caregivers: "Not tracked"
-  dependents: "Not tracked"
-  VA_staff: "Not tracked"
+  veterans: Not tracked
+  service_members: Not tracked
+  caregivers: Not tracked
+  dependents: Not tracked
+  VA_staff: Not tracked
   age:
-    "25-34": "Not tracked"
-    "35-44": "Not tracked"
-    "45-54": "Not tracked"
-    "55-64": "Not tracked"
-    "65+": "Not tracked"
-    unknown: "Not tracked"
+    25-34: Not tracked
+    35-44: Not tracked
+    45-54: Not tracked
+    55-64: Not tracked
+    65+: Not tracked
+    unknown: Not tracked
   education:
-    high_school: "Not tracked"
-    some_college: "Not tracked"
-    associates: "Not tracked"
-    bachelors: "Not tracked"
-    masters: "Not tracked"
-    doctorate: "Not tracked"
-    unknown: "Not tracked"
+    high_school: Not tracked
+    some_college: Not tracked
+    associates: Not tracked
+    bachelors: Not tracked
+    masters: Not tracked
+    doctorate: Not tracked
+    unknown: Not tracked
   location:
-    urban: "Not tracked"
-    rural: "Not tracked"
-    unknown: "Not tracked"
+    urban: Not tracked
+    rural: Not tracked
+    unknown: Not tracked
   race:
-    white: "Not tracked"
-    black: "Not tracked"
-    hispanic: "Not tracked"
-    biracial: "Not tracked"
-    asian: "Not tracked"
-    native: "Not tracked"
+    white: Not tracked
+    black: Not tracked
+    hispanic: Not tracked
+    biracial: Not tracked
+    asian: Not tracked
+    native: Not tracked
   disability:
-    cognitive: "Not tracked"
-    AT_beginner: "Not tracked"
-    AT_advanced: "Not tracked"
-    screen_reader_desktop: "Not tracked"
-    screen_reader_mobile: "Not tracked"
-    magnification_zoom: "Not tracked"
-    speech_input: "Not tracked"
-    hearing_aids: "Not tracked"
-    sighted_keyboard: "Not tracked"
-    captions: "Not tracked"
+    cognitive: Not tracked
+    AT_beginner: Not tracked
+    AT_advanced: Not tracked
+    screen_reader_desktop: Not tracked
+    screen_reader_mobile: Not tracked
+    magnification_zoom: Not tracked
+    speech_input: Not tracked
+    hearing_aids: Not tracked
+    sighted_keyboard: Not tracked
+    captions: Not tracked
 key_findings:
-  - "About 45% of sessions starting on VA.gov or MHV home pages move to sign in next"
-  - "Most MHV users are not using the VA.gov universal sign in page, presenting challenges for transition"
-  - "Over 70% of sessions starting on claim-or-appeal-status page sign in immediately, making it a major gateway"
-  - "About 10% of sessions begin on the sign in page, likely from bookmarks"
-  - "Only 2.25% of sessions went to Terms of Use page, with 98% having already accepted"
-  - "Only 0.13% of users declined Terms of Use"
+- About 45% of sessions starting on VA.gov or MHV home pages move to sign in next
+- Most MHV users are not using the VA.gov universal sign in page, presenting challenges
+  for transition
+- Over 70% of sessions starting on claim-or-appeal-status page sign in immediately,
+  making it a major gateway
+- About 10% of sessions begin on the sign in page, likely from bookmarks
+- Only 2.25% of sessions went to Terms of Use page, with 98% having already accepted
+- Only 0.13% of users declined Terms of Use
 recommendations:
-  - "Monitor MHV users' adaptation to universal sign in page as MHV credential reaches deprecation"
-  - "Prioritize updates to sign-in alert widget on claim-or-appeal-status page given high sign-in traffic"
-  - "Ensure easy sign-in access from claim-or-appeal-status page"
-  - "Watch for veterans having difficulty with unfamiliar sign-in pages during MHV transition"
-  - "Consider research with users who declined Terms of Use if they can be identified"
+- Monitor MHV users' adaptation to universal sign in page as MHV credential reaches
+  deprecation
+- Prioritize updates to sign-in alert widget on claim-or-appeal-status page given
+  high sign-in traffic
+- Ensure easy sign-in access from claim-or-appeal-status page
+- Watch for veterans having difficulty with unfamiliar sign-in pages during MHV transition
+- Consider research with users who declined Terms of Use if they can be identified
 kpi_alignment:
-  - "Sign-in authentication volumes"
-  - "Terms of Use acceptance rates"
-  - "Universal sign-in page adoption"
+- Sign-in authentication volumes
+- Terms of Use acceptance rates
+- Universal sign-in page adoption
 outcomes:
-  user: "Veterans can easily sign in from their preferred entry points"
-  business: "Improved understanding of sign-in patterns to inform transition strategy"
+  user: Veterans can easily sign in from their preferred entry points
+  business: Improved understanding of sign-in patterns to inform transition strategy
 opportunity_areas:
-  - "MHV credential deprecation and user transition support"
-  - "Sign-in alert widget optimization on high-traffic pages"
-  - "Terms of Use acceptance and decline patterns"
+- MHV credential deprecation and user transition support
+- Sign-in alert widget optimization on high-traffic pages
+- Terms of Use acceptance and decline patterns
 further_research_needed:
-  - "Qualitative research with veterans who declined Terms of Use"
-  - "User testing of sign-in widgets on high-traffic pages like claim-or-appeal-status"
-  - "Study of MHV users' transition experiences to universal sign-in page"
+- Qualitative research with veterans who declined Terms of Use
+- User testing of sign-in widgets on high-traffic pages like claim-or-appeal-status
+- Study of MHV users' transition experiences to universal sign-in page
 underserved_groups_missing:
-  - "All demographic groups - analytics data does not track demographics"
+- All demographic groups - analytics data does not track demographics
 secondary_research:
-  - "Google Analytics"
-  - "DataDog metrics"
-  - "Terms of Use Dashboard"
+- Google Analytics
+- DataDog metrics
+- Terms of Use Dashboard
 synthesis_tools_used:
-  - "Google Analytics"
-  - "DataDog"
-  - "Excel/spreadsheet analysis"
+- Google Analytics
+- DataDog
+- Excel/spreadsheet analysis
+tags:
+- 'BNFT: Disability'
+- 'BNFT: Healthcare'
+- 'MHV: Appointments'
 ---
-
 # Google Analytics identity related findings
 
 **Office of the CTO Digital Experience (OCTO-DE), Identity Experience Team**

@@ -1,23 +1,26 @@
 ---
-title: "ARM Team - Authenticated Appoint a Representative Form User Test Research Findings"
-product: "Accredited Representative Management (ARM)"
-team: "Accredited Representative Management Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-01-01"
+title: ARM Team - Authenticated Appoint a Representative Form User Test Research Findings
+product: Accredited Representative Management (ARM)
+team: Accredited Representative Management Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-01-01'
 researchers:
-  - "Janelle Finnerty"
+- Janelle Finnerty
 research_goals:
-  - "Understand Veterans' motivations for seeking representation, why they selected their representative, and their experiences with representation"
-  - "Understand usability of authenticated Appoint a Representative flow (21-22/21-22a forms) on both desktop and mobile devices"
-  - "Identify pain points and opportunities for improvement in representative appointment process"
+- Understand Veterans' motivations for seeking representation, why they selected their
+  representative, and their experiences with representation
+- Understand usability of authenticated Appoint a Representative flow (21-22/21-22a
+  forms) on both desktop and mobile devices
+- Identify pain points and opportunities for improvement in representative appointment
+  process
 methodology:
-  - "Semi-structured interview"
-  - "Usability testing"
+- Semi-structured interview
+- Usability testing
 devices_used:
-    desktop: 5
-    tablet: 0
-    smartphone: 3
-    assistive_technology: 0
+  desktop: 5
+  tablet: 0
+  smartphone: 3
+  assistive_technology: 0
 participants_total: 8
 demographics:
   veterans: 8
@@ -26,11 +29,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 2
-    "35-44": 2
-    "45-54": 1
-    "55-64": 1
-    "65+": 2
+    25-34: 2
+    35-44: 2
+    45-54: 1
+    55-64: 1
+    65+: 2
     unknown: 0
   education:
     high_school: 0
@@ -63,51 +66,75 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Veterans seek representatives for claims expertise, avoiding filing errors, peer recommendations, and time efficiency in navigating complex VA processes"
-  - "Peer referrals and online searches are primary discovery methods; paid representation options frequently considered for complex claims"
-  - "Communication preferences vary by Veteran; in-person meetings valued for trust-building while email preferred for off-hours accessibility"
-  - "Veterans lack awareness of different types of accredited representatives; confusion between VSOs and attorneys common; misconceptions about being 'assigned' representatives"
-  - "High desirability for Find a Representative feature but awareness and discoverability limitations exist on VA.gov"
-  - "Representative widget and permissions pages need clearer legal context and explanations"
-  - "Contact information gaps (missing email) in representative widgets reduce confidence in reaching representatives"
+- Veterans seek representatives for claims expertise, avoiding filing errors, peer
+  recommendations, and time efficiency in navigating complex VA processes
+- Peer referrals and online searches are primary discovery methods; paid representation
+  options frequently considered for complex claims
+- Communication preferences vary by Veteran; in-person meetings valued for trust-building
+  while email preferred for off-hours accessibility
+- Veterans lack awareness of different types of accredited representatives; confusion
+  between VSOs and attorneys common; misconceptions about being 'assigned' representatives
+- High desirability for Find a Representative feature but awareness and discoverability
+  limitations exist on VA.gov
+- Representative widget and permissions pages need clearer legal context and explanations
+- Contact information gaps (missing email) in representative widgets reduce confidence
+  in reaching representatives
 recommendations:
-  - "Include pre-landing FAQ step explaining representative types, accreditation, and appointment processes"
-  - "Add widget disclaimer addressing that VA does not assign representatives to Veterans"
-  - "Provide legal context for permissions pages through CAIA collaboration to clarify implications"
-  - "Reduce drop-off by setting clear expectations about non-digital submission requirements upfront"
-  - "Add email to representative widget and enable contact export functionality"
-  - "Clarify VSO as Veteran Service Officer in search results and throughout experience"
-  - "Improve findability of Find a Representative tool through better navigation and search optimization"
-  - "Consider authentication pathways that reduce barriers while maintaining security"
+- Include pre-landing FAQ step explaining representative types, accreditation, and
+  appointment processes
+- Add widget disclaimer addressing that VA does not assign representatives to Veterans
+- Provide legal context for permissions pages through CAIA collaboration to clarify
+  implications
+- Reduce drop-off by setting clear expectations about non-digital submission requirements
+  upfront
+- Add email to representative widget and enable contact export functionality
+- Clarify VSO as Veteran Service Officer in search results and throughout experience
+- Improve findability of Find a Representative tool through better navigation and
+  search optimization
+- Consider authentication pathways that reduce barriers while maintaining security
 kpi_alignment: []
 outcomes:
-  user: "Veterans understand different representative options and can confidently appoint appropriate representation that meets their needs"
-  business: "Increased adoption of digital representative management tools and improved Veteran satisfaction with representative services"
+  user: Veterans understand different representative options and can confidently appoint
+    appropriate representation that meets their needs
+  business: Increased adoption of digital representative management tools and improved
+    Veteran satisfaction with representative services
 opportunity_areas:
-  - "Education about representative types and accreditation standards"
-  - "Improved discoverability of representative services on VA.gov"
-  - "Streamlined appointment process with clear expectations"
-  - "Better integration between Find and Appoint representative experiences"
+- Education about representative types and accreditation standards
+- Improved discoverability of representative services on VA.gov
+- Streamlined appointment process with clear expectations
+- Better integration between Find and Appoint representative experiences
 further_research_needed:
-  - "Cognitive disability representation in user testing"
-  - "Other than honorable discharge status Veterans"
-  - "Immigrant origin Veterans"
-  - "Expat Veterans living abroad"
-  - "Hispanic Veterans"
-  - "Assistive technology users (all types)"
+- Cognitive disability representation in user testing
+- Other than honorable discharge status Veterans
+- Immigrant origin Veterans
+- Expat Veterans living abroad
+- Hispanic Veterans
+- Assistive technology users (all types)
 underserved_groups_missing:
-  - "Cognitive disability"
-  - "Other than honorable discharge"
-  - "Immigrant origin"
-  - "Expat (living abroad)"
-  - "Hispanic"
-  - "Assistive technology users (any)"
+- Cognitive disability
+- Other than honorable discharge
+- Immigrant origin
+- Expat (living abroad)
+- Hispanic
+- Assistive technology users (any)
 secondary_research: []
 synthesis_tools_used:
-  - "Enjoy HQ"
-  - "Team Ideation Mural"
+- Enjoy HQ
+- Team Ideation Mural
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: Accredited-Reps'
+- 'MHV: Appointments'
+- 'MHV: Secure Messaging'
+- 'MHV: Personal Health Records/Medical Records'
+- usability-testing
+- semi-structured-interviews
+- remote-research
 ---
-
 # Research Findings for ARM Team, Authenticated Appoint a Representative Form User Test, 01/2024
 
 **Office of the CTO - Digital Experience (OCTO-DE), Find a Representative, Accredited Representative Management Team**

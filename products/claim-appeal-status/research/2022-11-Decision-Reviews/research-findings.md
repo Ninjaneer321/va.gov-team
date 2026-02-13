@@ -1,24 +1,27 @@
 ---
-title: "Decision Reviews Research Findings"
-product: "Claim Status Tool"
-team: "Benefits Team 1, Squad 1"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2023-02"
+title: Decision Reviews Research Findings
+product: Claim Status Tool
+team: Benefits Team 1, Squad 1
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: 2023-02
 researchers:
-  - "Skyler Schain"
+- Skyler Schain
 research_goals:
-  - "Learn more about the pain points in the decision review user journey"
-  - "Understand more about which of these journeys can be fully self-service, given the complexity and high stakes nature of these reviews"
-  - "Understand more about the Veteran experience working with VSOs and third party legal reps, so that we can create an experience that guides Veterans to either self-service or VSO-supported options in the optimal way"
+- Learn more about the pain points in the decision review user journey
+- Understand more about which of these journeys can be fully self-service, given the
+  complexity and high stakes nature of these reviews
+- Understand more about the Veteran experience working with VSOs and third party legal
+  reps, so that we can create an experience that guides Veterans to either self-service
+  or VSO-supported options in the optimal way
 methodology:
-  - "Remote moderated discovery research"
-  - "Zoom sessions"
-  - "Concept prototype testing"
+- Remote moderated discovery research
+- Zoom sessions
+- Concept prototype testing
 devices_used:
-    desktop: 0
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 0
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 25
 demographics:
   veterans: 25
@@ -27,11 +30,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
     unknown: 25
   education:
     high_school: 0
@@ -64,30 +67,52 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "The most common pain point we heard in filing decision reviews (and initial claims) is knowing what documentation/evidence you will need and being able to track it down. This is often why Veterans turn to VSOs or even lawyers for guidance."
-  - "When faced with a decision review scenario, the Decision Review Options page showed mixed results in helping Veterans confidently choose a decision review option."
-  - "When faced with a decision review scenario, Veterans responded positively to the idea of connecting with a VSO or other representative via VA.gov."
-  - "Many Veterans we spoke to found VSOs to be crucial in getting to a satisfactory claim decision."
-  - "It's clear that not all VSOs are equal in quality, and a bad VSO can be detrimental to a Veteran's experience."
-  - "Many Veterans imagined an ideal experience that could be thought of as assisted self-service. They wanted to be able to complete the process themselves on VA.gov, but also wanted to be able to reach out to a VSO if they got stuck."
+- The most common pain point we heard in filing decision reviews (and initial claims)
+  is knowing what documentation/evidence you will need and being able to track it
+  down. This is often why Veterans turn to VSOs or even lawyers for guidance.
+- When faced with a decision review scenario, the Decision Review Options page showed
+  mixed results in helping Veterans confidently choose a decision review option.
+- When faced with a decision review scenario, Veterans responded positively to the
+  idea of connecting with a VSO or other representative via VA.gov.
+- Many Veterans we spoke to found VSOs to be crucial in getting to a satisfactory
+  claim decision.
+- It's clear that not all VSOs are equal in quality, and a bad VSO can be detrimental
+  to a Veteran's experience.
+- Many Veterans imagined an ideal experience that could be thought of as assisted
+  self-service. They wanted to be able to complete the process themselves on VA.gov,
+  but also wanted to be able to reach out to a VSO if they got stuck.
 recommendations:
-  - "Make it easier for Veterans to find and connect with an accredited VSO from the CST and other VA.gov decision review pages."
-  - "Consider updating the Decision Review Options page to be simpler and more personalized."
-  - "Help Veterans better understand what evidence they will need up-front when filing a claim or decision review."
+- Make it easier for Veterans to find and connect with an accredited VSO from the
+  CST and other VA.gov decision review pages.
+- Consider updating the Decision Review Options page to be simpler and more personalized.
+- Help Veterans better understand what evidence they will need up-front when filing
+  a claim or decision review.
 kpi_alignment: []
 outcomes:
-  user: "Not specified"
-  business: "Not specified"
+  user: Not specified
+  business: Not specified
 opportunity_areas: []
 further_research_needed:
-  - "If we are interested in further examining whether Veterans prefer using VSOs to the self-service model, we should conduct more research on that and recruit larger numbers of Veterans who did not use VSOs to file their claims and decision reviews."
-  - "As noted in the Hypotheses section, it would be interesting to test more automated claims and reviews scenarios with Veterans to see if that alleviates the need to use representation in filing claims and decision reviews."
+- If we are interested in further examining whether Veterans prefer using VSOs to
+  the self-service model, we should conduct more research on that and recruit larger
+  numbers of Veterans who did not use VSOs to file their claims and decision reviews.
+- As noted in the Hypotheses section, it would be interesting to test more automated
+  claims and reviews scenarios with Veterans to see if that alleviates the need to
+  use representation in filing claims and decision reviews.
 underserved_groups_missing: []
 secondary_research: []
 synthesis_tools_used:
-  - "Mural"
+- Mural
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: Accredited-Reps'
+- 'MHV: Personal Health Records/Medical Records'
+- moderated-research
+- remote-research
 ---
-
 # Decision Reviews Research Findings
 
 **Benefits Team 1, Squad 1**

@@ -1,24 +1,24 @@
 ---
-title: "Self-Service Login Tool Research Findings"
-product: "Self-Service Login Tool"
-team: "Contact Center"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2022-08-16"
+title: Self-Service Login Tool Research Findings
+product: Self-Service Login Tool
+team: Contact Center
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2022-08-16'
 researchers:
-  - "Ian McCullough"
+- Ian McCullough
 research_goals:
-  - "Understand the user response to encountering login issues"
-  - "Understand the user login process"
-  - "Gather preliminary usability information for the proposed login self-service tool"
+- Understand the user response to encountering login issues
+- Understand the user login process
+- Gather preliminary usability information for the proposed login self-service tool
 methodology:
-  - "Contextual inquiry"
-  - "Remote moderated usability testing"
-  - "Clickable prototype testing"
+- Contextual inquiry
+- Remote moderated usability testing
+- Clickable prototype testing
 devices_used:
-    desktop: 11
-    tablet: 1
-    smartphone: 0
-    assistive_technology: 0
+  desktop: 11
+  tablet: 1
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 12
 demographics:
   veterans: 12
@@ -27,11 +27,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 1
-    "45-54": 1
-    "55-64": 6
-    "65+": 4
+    25-34: 0
+    35-44: 1
+    45-54: 1
+    55-64: 6
+    65+: 4
     unknown: 0
   education:
     high_school: 0
@@ -64,45 +64,60 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "All participants were able to successfully use the prototype"
-  - "Most participants (8 out of 12) have experienced issues logging in to VA.gov"
-  - "Multiple participants (5 out of 12) raised concerns about the number of login services provided"
-  - "Multiple participants (5 out of 12) commented that the current Signing in to VA.gov page is busy or has too much content"
-  - "Multiple participants (5 out of 12) requested additional details on specific areas of the self-service login tool"
+- All participants were able to successfully use the prototype
+- Most participants (8 out of 12) have experienced issues logging in to VA.gov
+- Multiple participants (5 out of 12) raised concerns about the number of login services
+  provided
+- Multiple participants (5 out of 12) commented that the current Signing in to VA.gov
+  page is busy or has too much content
+- Multiple participants (5 out of 12) requested additional details on specific areas
+  of the self-service login tool
 recommendations:
-  - "Create opportunities to create clarity while not sacrificing simplicity through introductory content or contextual help"
-  - "Provide multiple options for users to engage with assistance (phone, chat bot, ticket)"
+- Create opportunities to create clarity while not sacrificing simplicity through
+  introductory content or contextual help
+- Provide multiple options for users to engage with assistance (phone, chat bot, ticket)
 kpi_alignment:
-  - "Reduce login-related support tickets"
-  - "Improve user self-service capabilities"
-  - "Decrease VA411 and Ask VA login inquiries"
+- Reduce login-related support tickets
+- Improve user self-service capabilities
+- Decrease VA411 and Ask VA login inquiries
 outcomes:
-  user: "Veterans can quickly identify login problems and access appropriate resources without waiting for support"
-  business: "Reduced call center volume and support ticket volume for login-related issues"
+  user: Veterans can quickly identify login problems and access appropriate resources
+    without waiting for support
+  business: Reduced call center volume and support ticket volume for login-related
+    issues
 opportunity_areas:
-  - "Integration of login wizard with chat bot"
-  - "Better explanation of multiple login credential providers"
-  - "Enhanced error message clarity"
+- Integration of login wizard with chat bot
+- Better explanation of multiple login credential providers
+- Enhanced error message clarity
 further_research_needed:
-  - "Further clarify different issue types so users can pick the issue that pertains to them"
-  - "Help users understand the purpose of the login wizard"
-  - "Anticipate potential 2FA user errors with login services"
-  - "Use error messages to resolve technical issues"
-  - "Make it more clear why there are 4 different login methods"
-  - "Associate issues/errors experienced with relevant support resources"
-  - "Make resource material more compact and plain language"
-  - "Testing with assistive technology users"
+- Further clarify different issue types so users can pick the issue that pertains
+  to them
+- Help users understand the purpose of the login wizard
+- Anticipate potential 2FA user errors with login services
+- Use error messages to resolve technical issues
+- Make it more clear why there are 4 different login methods
+- Associate issues/errors experienced with relevant support resources
+- Make resource material more compact and plain language
+- Testing with assistive technology users
 underserved_groups_missing:
-  - "LGBTQ+"
-  - "Assistive technology users"
-  - "Mobile users"
+- LGBTQ+
+- Assistive technology users
+- Mobile users
 secondary_research:
-  - "VA411 inbox responses"
-  - "Medallia feedback"
+- VA411 inbox responses
+- Medallia feedback
 synthesis_tools_used:
-  - "Mural"
+- Mural
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'MHV: Secure Messaging'
+- usability-testing
+- moderated-research
+- remote-research
+- Accessibility
 ---
-
 **Self-Service Login Tool, Contact Center**
 Date: 08/16/2022
 Ian McCullough, [ian.mccullough@oddball.io](mailto:ian.mccullough@oddball.io) 

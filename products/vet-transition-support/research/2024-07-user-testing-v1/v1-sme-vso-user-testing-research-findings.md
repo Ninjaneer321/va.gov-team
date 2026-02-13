@@ -1,25 +1,26 @@
 ---
-title: "Benefits Discovery Tool V1 SME and VSO User Testing Research Findings"
-product: "Veteran Transition Support (VTS)"
-team: "Transition Experience Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-10-31"
+title: Benefits Discovery Tool V1 SME and VSO User Testing Research Findings
+product: Veteran Transition Support (VTS)
+team: Transition Experience Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-10-31'
 researchers:
-  - "Cora Goldston"
-  - "Ronnie Young"
+- Cora Goldston
+- Ronnie Young
 research_goals:
-  - "Gather feedback from VA subject matter experts on how the tool displays information from their domain"
-  - "Understand how VSO representatives would work with Veterans in using this tool"
-  - "Test Version 1 product on staging.va.gov with expert users"
+- Gather feedback from VA subject matter experts on how the tool displays information
+  from their domain
+- Understand how VSO representatives would work with Veterans in using this tool
+- Test Version 1 product on staging.va.gov with expert users
 methodology:
-  - "Remote moderated user testing sessions"
-  - "Staging site testing"
-  - "Focus group sessions with VSO participants"
+- Remote moderated user testing sessions
+- Staging site testing
+- Focus group sessions with VSO participants
 devices_used:
-    desktop: 7
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 0
+  desktop: 7
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 7
 demographics:
   veterans: 0
@@ -28,11 +29,11 @@ demographics:
   dependents: 0
   VA_staff: 7
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
     unknown: 7
   education:
     high_school: 0
@@ -67,51 +68,70 @@ demographics:
     captions: 0
     unknown: 7
 key_findings:
-  - "All users were able to read and understand the Introduction page and questionnaire pages"
-  - "Goals question provides an easy entry point and helps users think holistically about transitioning"
-  - "Missing context for service members leaving active duty but continuing in National Guard or Reserves"
-  - "Time Sensitive benefits section was confusing - most users missed this box even after being told where it was"
-  - "Users echoed external user feedback about confusion on when to use Save your Results"
-  - "VSO participants wanted a Print button instead of save button to give physical copies to Veterans who lack computer/smartphone access"
-  - "Filter and sort options caused confusion when nothing changed due to limited results - need Apply Filters and Apply sort buttons"
-  - "Users confused by Employment and Careers & Employment filter options appearing redundant"
-  - "Several users wanted This is not an eligibility tool warning to be larger or more visible"
-  - "Users preferred philosophy of We would rather have someone apply and be denied for a GI bill than never apply"
+- All users were able to read and understand the Introduction page and questionnaire
+  pages
+- Goals question provides an easy entry point and helps users think holistically about
+  transitioning
+- Missing context for service members leaving active duty but continuing in National
+  Guard or Reserves
+- Time Sensitive benefits section was confusing - most users missed this box even
+  after being told where it was
+- Users echoed external user feedback about confusion on when to use Save your Results
+- VSO participants wanted a Print button instead of save button to give physical copies
+  to Veterans who lack computer/smartphone access
+- Filter and sort options caused confusion when nothing changed due to limited results
+  - need Apply Filters and Apply sort buttons
+- Users confused by Employment and Careers & Employment filter options appearing redundant
+- Several users wanted This is not an eligibility tool warning to be larger or more
+  visible
+- Users preferred philosophy of We would rather have someone apply and be denied for
+  a GI bill than never apply
 recommendations:
-  - "Add goal option for people leaving active-duty service but staying in Reserve or National Guard"
-  - "Change functionality of Time Sensitive benefits box for Version 2 to make it more visible"
-  - "Add Print button functionality for VSO use cases with Veterans lacking technology access"
-  - "Add back Apply Filters and Apply sort buttons for accessibility and clarity"
-  - "Remove one of the redundant employment filter options (Employment vs Careers & Employment)"
-  - "Make This is not an eligibility tool disclaimer larger and more prominent"
-  - "Consider adding helper text or question clarification for Reserve/National Guard service distinctions"
-  - "Review inconsistency in bolding of answers on Review page with VA Design team"
-  - "Improve update results workflow when editing multiple questions on Review page"
+- Add goal option for people leaving active-duty service but staying in Reserve or
+  National Guard
+- Change functionality of Time Sensitive benefits box for Version 2 to make it more
+  visible
+- Add Print button functionality for VSO use cases with Veterans lacking technology
+  access
+- Add back Apply Filters and Apply sort buttons for accessibility and clarity
+- Remove one of the redundant employment filter options (Employment vs Careers & Employment)
+- Make This is not an eligibility tool disclaimer larger and more prominent
+- Consider adding helper text or question clarification for Reserve/National Guard
+  service distinctions
+- Review inconsistency in bolding of answers on Review page with VA Design team
+- Improve update results workflow when editing multiple questions on Review page
 kpi_alignment:
-  - "Enhance Veterans personalized online experience"
-  - "Support VSO and VA staff workflows for assisting Veterans"
+- Enhance Veterans personalized online experience
+- Support VSO and VA staff workflows for assisting Veterans
 outcomes:
-  user: "VA staff and VSO representatives can effectively use the tool to help Veterans discover benefits"
-  business: "Tool meets VA domain expert requirements and supports assisted-use scenarios"
+  user: VA staff and VSO representatives can effectively use the tool to help Veterans
+    discover benefits
+  business: Tool meets VA domain expert requirements and supports assisted-use scenarios
 opportunity_areas:
-  - "Reserve and National Guard member transition support"
-  - "Offline and print-friendly versions for VSO use"
-  - "Improved eligibility communication to encourage benefit applications"
+- Reserve and National Guard member transition support
+- Offline and print-friendly versions for VSO use
+- Improved eligibility communication to encourage benefit applications
 further_research_needed:
-  - "Testing with Veterans who have Reserve/National Guard service"
-  - "Print workflow and offline functionality testing"
-  - "Additional accessibility review of VA Design System components"
+- Testing with Veterans who have Reserve/National Guard service
+- Print workflow and offline functionality testing
+- Additional accessibility review of VA Design System components
 underserved_groups_missing:
-  - "This was expert user testing with VA staff and VSO representatives, not end users"
+- This was expert user testing with VA staff and VSO representatives, not end users
 secondary_research:
-  - "VA Education SME interviews"
-  - "VR&E program expert consultations"
-  - "Loan Guaranty subject matter expert feedback"
+- VA Education SME interviews
+- VR&E program expert consultations
+- Loan Guaranty subject matter expert feedback
 synthesis_tools_used:
-  - "Mural"
-  - "Session notes and quote extraction"
+- Mural
+- Session notes and quote extraction
+tags:
+- 'AUD: VA Staff'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- moderated-research
+- remote-research
+- evaluative
 ---
-
 # Benefits Discovery Tool – V1 SME User Testing
 **October 2024**
 ## Overview

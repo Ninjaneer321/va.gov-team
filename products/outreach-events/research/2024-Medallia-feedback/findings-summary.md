@@ -1,107 +1,121 @@
 ---
-title: "2024 Medallia Feedback - Outreach and Events Findings Summary"
-product: "Outreach and Events"
-team: "Sitewide Public Websites"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-05-17"
+title: 2024 Medallia Feedback - Outreach and Events Findings Summary
+product: Outreach and Events
+team: Sitewide Public Websites
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-05-17'
 researchers:
-  - "Sitewide Public Websites UX Research Team"
+- Sitewide Public Websites UX Research Team
 research_goals:
-  - "Analyze Medallia feedback from Outreach and Events pages to identify pain points and opportunities"
-  - "Understand user satisfaction with current events functionality"
-  - "Identify improvements needed for Events 3.0 initiative"
+- Analyze Medallia feedback from Outreach and Events pages to identify pain points
+  and opportunities
+- Understand user satisfaction with current events functionality
+- Identify improvements needed for Events 3.0 initiative
 methodology:
-  - "Medallia feedback analysis"
-  - "Quantitative rating analysis"
-  - "Qualitative feedback coding and synthesis"
+- Medallia feedback analysis
+- Quantitative rating analysis
+- Qualitative feedback coding and synthesis
 devices_used:
-    desktop: "Unknown"
-    tablet: "Unknown"
-    smartphone: "Unknown"
-    assistive_technology: "Unknown"
+  desktop: Unknown
+  tablet: Unknown
+  smartphone: Unknown
+  assistive_technology: Unknown
 participants_total: 189
 demographics:
-  veterans: "Unknown"
-  service_members: "Unknown"
-  caregivers: "Unknown"
-  dependents: "Unknown"
-  VA_staff: "Unknown"
+  veterans: Unknown
+  service_members: Unknown
+  caregivers: Unknown
+  dependents: Unknown
+  VA_staff: Unknown
   age:
-    "25-34": "Unknown"
-    "35-44": "Unknown"
-    "45-54": "Unknown"
-    "55-64": "Unknown"
-    "65+": "Unknown"
+    25-34: Unknown
+    35-44: Unknown
+    45-54: Unknown
+    55-64: Unknown
+    65+: Unknown
     unknown: 189
   education:
-    high_school: "Unknown"
-    some_college: "Unknown"
-    associates: "Unknown"
-    bachelors: "Unknown"
-    masters: "Unknown"
-    doctorate: "Unknown"
+    high_school: Unknown
+    some_college: Unknown
+    associates: Unknown
+    bachelors: Unknown
+    masters: Unknown
+    doctorate: Unknown
     unknown: 189
   location:
-    urban: "Unknown"
-    rural: "Unknown"
+    urban: Unknown
+    rural: Unknown
     unknown: 189
   race:
-    white: "Unknown"
-    black: "Unknown"
-    hispanic: "Unknown"
-    biracial: "Unknown"
-    asian: "Unknown"
-    native: "Unknown"
+    white: Unknown
+    black: Unknown
+    hispanic: Unknown
+    biracial: Unknown
+    asian: Unknown
+    native: Unknown
   disability:
-    cognitive: "Unknown"
-    AT_beginner: "Unknown"
-    AT_advanced: "Unknown"
-    screen_reader_desktop: "Unknown"
-    screen_reader_mobile: "Unknown"
-    magnification_zoom: "Unknown"
-    speech_input: "Unknown"
-    hearing_aids: "Unknown"
-    sighted_keyboard: "Unknown"
-    captions: "Unknown"
+    cognitive: Unknown
+    AT_beginner: Unknown
+    AT_advanced: Unknown
+    screen_reader_desktop: Unknown
+    screen_reader_mobile: Unknown
+    magnification_zoom: Unknown
+    speech_input: Unknown
+    hearing_aids: Unknown
+    sighted_keyboard: Unknown
+    captions: Unknown
 key_findings:
-  - "The website provides valuable information, but navigation and event findability need improvement (33/189, 17%)"
-  - "Event registration and online seminar access are significant pain points for users (49/189, 25%)"
-  - "Users voiced a need to find relevant events based on their location (9/189, 5%)"
-  - "The site's technical issues are impacting user experience and trust such as broken links and registration errors (9/189, 5%)"
-  - "Overall satisfaction with the site (2.9/5) is lower than individual ratings for VA.gov experience (3.8/5) and understanding (3.9/5)"
-  - "Only 35% of users reported being able to complete their task"
+- The website provides valuable information, but navigation and event findability
+  need improvement (33/189, 17%)
+- Event registration and online seminar access are significant pain points for users
+  (49/189, 25%)
+- Users voiced a need to find relevant events based on their location (9/189, 5%)
+- The site's technical issues are impacting user experience and trust such as broken
+  links and registration errors (9/189, 5%)
+- Overall satisfaction with the site (2.9/5) is lower than individual ratings for
+  VA.gov experience (3.8/5) and understanding (3.9/5)
+- Only 35% of users reported being able to complete their task
 recommendations:
-  - "Implement a more robust filtering system for events, allowing users to sort by location, event type, and relevance"
-  - "Codify in-person events for findability for those that prefer in-person interactions. Include A11Y info for physical accommodations"
-  - "Provide clearer information about event eligibility and capacity to manage user expectations. Are there opportunities for overflow or waitlist? recordings? otherwise?"
-  - "Enhance the registration experience. These are currently done via third-party event host software linked from a listed event"
-  - "If registration continues to be completed at an external site, add help text in editor flow to provide a better Veteran experience"
-  - "Conduct user testing with a diverse group of veterans to identify and address specific accessibility needs"
+- Implement a more robust filtering system for events, allowing users to sort by location,
+  event type, and relevance
+- Codify in-person events for findability for those that prefer in-person interactions.
+  Include A11Y info for physical accommodations
+- Provide clearer information about event eligibility and capacity to manage user
+  expectations. Are there opportunities for overflow or waitlist? recordings? otherwise?
+- Enhance the registration experience. These are currently done via third-party event
+  host software linked from a listed event
+- If registration continues to be completed at an external site, add help text in
+  editor flow to provide a better Veteran experience
+- Conduct user testing with a diverse group of veterans to identify and address specific
+  accessibility needs
 kpi_alignment:
-  - "Increase task completion rate from 35% baseline"
-  - "Improve overall satisfaction rating from 2.9/5"
-  - "Reduce technical error reports related to registration and broken links"
+- Increase task completion rate from 35% baseline
+- Improve overall satisfaction rating from 2.9/5
+- Reduce technical error reports related to registration and broken links
 outcomes:
-  user: "Veterans can easily find, filter, and register for relevant events in their location"
-  business: "Increased event participation and user satisfaction with VA.gov events experience"
+  user: Veterans can easily find, filter, and register for relevant events in their
+    location
+  business: Increased event participation and user satisfaction with VA.gov events
+    experience
 opportunity_areas:
-  - "Location-based event filtering and discovery"
-  - "In-person vs online event distinction and accessibility information"
-  - "Third-party registration experience and integration"
-  - "Event capacity and waitlist management"
+- Location-based event filtering and discovery
+- In-person vs online event distinction and accessibility information
+- Third-party registration experience and integration
+- Event capacity and waitlist management
 further_research_needed:
-  - "User testing with diverse Veterans groups for accessibility needs"
-  - "Task-based usability testing for event discovery and registration flows"
+- User testing with diverse Veterans groups for accessibility needs
+- Task-based usability testing for event discovery and registration flows
 underserved_groups_missing:
-  - "Specific demographic data not captured in Medallia feedback"
+- Specific demographic data not captured in Medallia feedback
 secondary_research:
-  - "Medallia feedback from root url for Outreach and Events (02/13/2023-05/17/2024)"
-  - "Does not include VAMC event pages"
+- Medallia feedback from root url for Outreach and Events (02/13/2023-05/17/2024)
+- Does not include VAMC event pages
 synthesis_tools_used:
-  - "Mural board for detailed synthesis"
-  - "Excel for raw data coding"
+- Mural board for detailed synthesis
+- Excel for raw data coding
+tags:
+- remote-research
 ---
-
 ## 2024 Medallia findings summary
 Recent Medallia pulled and reviewed in preparation for Events 3.0 initiative. Medallia was pulled from root url for Outreach and Events and does not include VAMC event pages. 
 [Detailed synthesis](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1719869297920/91249490453460d0c938e96804ab880c634cc7db?sender=u727a8f87b62662f75a603248) in Mural. [Raw Medallia data](https://dvagov.sharepoint.com/:x:/r/sites/SitewidePublicWebsites/Shared%20Documents/UX%20Research/Medallia%20survey%20data/CODED_Events_Medallia_02132023-05172024.xlsx?d=wf04d787b0edb4c7e9c8ef83c767b2d2a&csf=1&web=1&e=2jttLd) in Excel Sharepoint.

@@ -1,24 +1,28 @@
 ---
-title: "My health on VA.gov IA – Research findings"
-product: "My HealtheVet on VA.gov - Information Architecture"
-team: "MHV on VA.gov Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2025-07-23"
+title: My health on VA.gov IA – Research findings
+product: My HealtheVet on VA.gov - Information Architecture
+team: MHV on VA.gov Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2025-07-23'
 researchers:
-  - "Athena Bozak"
+- Athena Bozak
 research_goals:
-  - "Learn where Veterans expect to find VA tools and information related to their benefits, health care, and service history"
-  - "Observe how Veterans approached common but sometimes ambiguous scenarios like managing dependents or tracking external care requests"
-  - "Identify moments of hesitation, missteps, or confidence in navigating VA.gov's current menu structure"
-  - "Use these insights to improve the way information is grouped and labeled on VA.gov so new Veterans can find what they need more easily"
+- Learn where Veterans expect to find VA tools and information related to their benefits,
+  health care, and service history
+- Observe how Veterans approached common but sometimes ambiguous scenarios like managing
+  dependents or tracking external care requests
+- Identify moments of hesitation, missteps, or confidence in navigating VA.gov's current
+  menu structure
+- Use these insights to improve the way information is grouped and labeled on VA.gov
+  so new Veterans can find what they need more easily
 methodology:
-  - "Unmoderated tree test"
-  - "Optimal Workshop Treejack tool"
+- Unmoderated tree test
+- Optimal Workshop Treejack tool
 devices_used:
-    desktop: 0
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 0
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 48
 demographics:
   veterans: 48
@@ -27,11 +31,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
     unknown: 48
   education:
     high_school: 0
@@ -64,43 +68,69 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Veterans explored broad benefit sections when trying to connect with a Solid Start representative"
-  - "To schedule a claim exam, Veterans often chose Claims and Appeals"
-  - "Veterans selected a wide range of paths when trying to check the status of a community care request"
-  - "Veterans looked in Education and Training, but missed the correct path to authorize college access"
-  - "Most Veterans successfully found where to check the status of a housing grant"
-  - "Veterans often looked in benefit applications and family support sections when trying to add a child for compensation"
-  - "Veterans looked in health and claims paths when trying to download their Individual Longitudinal Exposure Record (ILER)"
+- Veterans explored broad benefit sections when trying to connect with a Solid Start
+  representative
+- To schedule a claim exam, Veterans often chose Claims and Appeals
+- Veterans selected a wide range of paths when trying to check the status of a community
+  care request
+- Veterans looked in Education and Training, but missed the correct path to authorize
+  college access
+- Most Veterans successfully found where to check the status of a housing grant
+- Veterans often looked in benefit applications and family support sections when trying
+  to add a child for compensation
+- Veterans looked in health and claims paths when trying to download their Individual
+  Longitudinal Exposure Record (ILER)
 recommendations:
-  - "Clarify labels and pathways for tasks like adding dependents, checking non-VA care requests, and giving permission to share education benefits"
-  - "Reevaluate where tools like ILER or claim exam scheduling live, and/or when there is split or low signal for those correct destinations, consider additional cross-links to those resources"
-  - "Look at areas where users expected to find proof of something (like letters or records) but actually needed to take an action. This gap came up in more than one task"
-  - "Continue leaning into task based entry points especially for high-impact actions tied to compensation, housing, or post-military service support"
+- Clarify labels and pathways for tasks like adding dependents, checking non-VA care
+  requests, and giving permission to share education benefits
+- Reevaluate where tools like ILER or claim exam scheduling live, and/or when there
+  is split or low signal for those correct destinations, consider additional cross-links
+  to those resources
+- Look at areas where users expected to find proof of something (like letters or records)
+  but actually needed to take an action. This gap came up in more than one task
+- Continue leaning into task based entry points especially for high-impact actions
+  tied to compensation, housing, or post-military service support
 kpi_alignment:
-  - "Not specified"
+- Not specified
 outcomes:
-  user: "Transitioning service members and new Veterans can efficiently navigate VA.gov to find key information and tools during their first year after leaving the military"
-  business: "Improved information architecture that reduces navigation friction and increases task completion rates"
+  user: Transitioning service members and new Veterans can efficiently navigate VA.gov
+    to find key information and tools during their first year after leaving the military
+  business: Improved information architecture that reduces navigation friction and
+    increases task completion rates
 opportunity_areas:
-  - "Non-health appointments placement and management"
-  - "Community care denial letter location"
-  - "Military service records access"
-  - "Educational records release process"
-  - "Dependent management for disability payments"
-  - "Home improvement grant status tracking"
-  - "Individual Longitudinal Exposure Record (ILER) findability"
+- Non-health appointments placement and management
+- Community care denial letter location
+- Military service records access
+- Educational records release process
+- Dependent management for disability payments
+- Home improvement grant status tracking
+- Individual Longitudinal Exposure Record (ILER) findability
 further_research_needed:
-  - "A second round of research with a larger and more diverse group would help confirm what we saw and uncover anything we might have missed"
-  - "Work with the recruitment team at Perigean to strategize ways to reach more transitioning service members and Veterans who are not yet enrolled in VA health care or using VA.gov"
+- A second round of research with a larger and more diverse group would help confirm
+  what we saw and uncover anything we might have missed
+- Work with the recruitment team at Perigean to strategize ways to reach more transitioning
+  service members and Veterans who are not yet enrolled in VA health care or using
+  VA.gov
 underserved_groups_missing:
-  - "Not specified"
+- Not specified
 secondary_research: []
 synthesis_tools_used:
-  - "Optimal Workshop"
-  - "Excel"
-  - "VA Mural"
+- Optimal Workshop
+- Excel
+- VA Mural
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Housing'
+- 'BNFT: Records'
+- 'PRDT: My VA'
+- 'MHV: Appointments'
+- 'MHV: Secure Messaging'
+- 'MHV: Personal Health Records/Medical Records'
+- moderated-research
 ---
-
 # My health on VA.gov IA – Research findings
 
 **Date:** 7/23/2025  

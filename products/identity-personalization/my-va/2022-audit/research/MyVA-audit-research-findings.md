@@ -1,22 +1,24 @@
 ---
-title: "My VA 2023 Audit Usability Testing Research Findings"
-product: "My VA"
-team: "Authenticated Experience"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2023-03-03"
+title: My VA 2023 Audit Usability Testing Research Findings
+product: My VA
+team: Authenticated Experience
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2023-03-03'
 researchers:
-  - "Angela Agosto"
+- Angela Agosto
 research_goals:
-  - "Determine if the updated information architecture of My VA still aligns with Veterans mental model"
-  - "Determine if showing all sections all the time on My VA has made the page more less or equally usable compared to its current state"
+- Determine if the updated information architecture of My VA still aligns with Veterans
+  mental model
+- Determine if showing all sections all the time on My VA has made the page more less
+  or equally usable compared to its current state
 methodology:
-  - "Remote moderated usability testing"
-  - "Feature flag testing in production"
+- Remote moderated usability testing
+- Feature flag testing in production
 devices_used:
-    desktop: 9
-    tablet: 2
-    smartphone: 2
-    assistive_technology: 1
+  desktop: 9
+  tablet: 2
+  smartphone: 2
+  assistive_technology: 1
 participants_total: 13
 demographics:
   veterans: 13
@@ -25,11 +27,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 3
-    "35-44": 3
-    "45-54": 1
-    "55-64": 1
-    "65+": 5
+    25-34: 3
+    35-44: 3
+    45-54: 1
+    55-64: 1
+    65+: 5
     unknown: 0
   education:
     high_school: 0
@@ -62,45 +64,69 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "All participants had positive reactions to seeing My VA immediately upon login"
-  - "My VA encompasses all top tasks for Veterans"
-  - "Veterans generally dont mind seeing empty sections on My VA and some find them helpful to have on the page"
-  - "The Saved Applications section is confusing to Veterans"
-  - "The Education and Training section is positioned well on the page and important to have present on My VA but some of the terminology in the links is unfamiliar to Veterans"
-  - "My VA is highly accessible to disabled Veterans using assistive technology but the smallest font is still a little too small for some Veterans"
+- All participants had positive reactions to seeing My VA immediately upon login
+- My VA encompasses all top tasks for Veterans
+- Veterans generally dont mind seeing empty sections on My VA and some find them helpful
+  to have on the page
+- The Saved Applications section is confusing to Veterans
+- The Education and Training section is positioned well on the page and important
+  to have present on My VA but some of the terminology in the links is unfamiliar
+  to Veterans
+- My VA is highly accessible to disabled Veterans using assistive technology but the
+  smallest font is still a little too small for some Veterans
 recommendations:
-  - "Rethink the Saved Applications section to be more clear that only in-progress applications will show there and more clear what applications are"
-  - "Reconsider the link currently called Check your GI Bill Statement of Benefits in the Education and Training section as the term is not familiar to Veterans"
-  - "Do not recommend reordering sections on My VA or allowing additional customization at this time as simplifying code logic was a main goal"
-  - "Consider showing dynamic content in Education and Training section for remaining education benefits if it becomes feasible in the future"
+- Rethink the Saved Applications section to be more clear that only in-progress applications
+  will show there and more clear what applications are
+- Reconsider the link currently called Check your GI Bill Statement of Benefits in
+  the Education and Training section as the term is not familiar to Veterans
+- Do not recommend reordering sections on My VA or allowing additional customization
+  at this time as simplifying code logic was a main goal
+- Consider showing dynamic content in Education and Training section for remaining
+  education benefits if it becomes feasible in the future
 kpi_alignment:
-  - "Improved usability of My VA for authenticated users"
-  - "Simplified code and logic for My VA page"
-  - "Better alignment with Veterans mental models"
+- Improved usability of My VA for authenticated users
+- Simplified code and logic for My VA page
+- Better alignment with Veterans mental models
 outcomes:
-  user: "Veterans can quickly access and manage all their VA benefits from a single personalized page"
-  business: "Simplified My VA code and logic while maintaining or improving usability and user satisfaction"
+  user: Veterans can quickly access and manage all their VA benefits from a single
+    personalized page
+  business: Simplified My VA code and logic while maintaining or improving usability
+    and user satisfaction
 opportunity_areas:
-  - "Clarifying the Saved Applications section terminology and scope"
-  - "Improving Education and Training section with clearer terminology and dynamic content"
-  - "Adjusting font sizes for better readability for older Veterans and those with low vision"
-  - "Potential future customization features for section ordering"
+- Clarifying the Saved Applications section terminology and scope
+- Improving Education and Training section with clearer terminology and dynamic content
+- Adjusting font sizes for better readability for older Veterans and those with low
+  vision
+- Potential future customization features for section ordering
 further_research_needed:
-  - "After making changes to Saved Applications and Education and Training sections recommend testing these updates in UAT"
+- After making changes to Saved Applications and Education and Training sections recommend
+  testing these updates in UAT
 underserved_groups_missing:
-  - "No degree"
-  - "Expat"
-  - "Biracial"
-  - "Gay lesbian or bisexual"
-  - "Transgender"
-  - "Beginner AT users"
+- No degree
+- Expat
+- Biracial
+- Gay lesbian or bisexual
+- Transgender
+- Beginner AT users
 secondary_research:
-  - "2022 My VA audit in Mural"
+- 2022 My VA audit in Mural
 synthesis_tools_used:
-  - "Google Sheets"
-  - "Zoom transcription and recordings"
+- Google Sheets
+- Zoom transcription and recordings
+tags:
+- 'AUD: Veterans'
+- 'AUD: Caregivers'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: My VA'
+- 'MHV: Appointments'
+- usability-testing
+- moderated-research
+- remote-research
+- Accessibility
 ---
-
 # My VA 2023 Audit Usability Testing - Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Authenticated Experience, My VA**

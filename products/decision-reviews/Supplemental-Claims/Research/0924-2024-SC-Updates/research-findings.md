@@ -1,24 +1,25 @@
 ---
-title: "Supplemental Claims 2024 Updates Research Findings"
-product: "Supplemental Claims (20-0995)"
-team: "Benefits Decision Reviews"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-10-31"
+title: Supplemental Claims 2024 Updates Research Findings
+product: Supplemental Claims (20-0995)
+team: Benefits Decision Reviews
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-10-31'
 researchers:
-  - "Eileen Chi"
+- Eileen Chi
 research_goals:
-  - "Determine if Supplemental Claims updates create any new points of friction within the form"
-  - "Validate that users are able to complete the new Supplemental Claim flow"
-  - "Validate that AT-users are able to navigate through the entire form"
+- Determine if Supplemental Claims updates create any new points of friction within
+  the form
+- Validate that users are able to complete the new Supplemental Claim flow
+- Validate that AT-users are able to navigate through the entire form
 methodology:
-  - "Remote usability testing"
-  - "Code prototype testing"
-  - "Two cohorts: Veterans using assistive technology and Veterans with denied claims"
+- Remote usability testing
+- Code prototype testing
+- 'Two cohorts: Veterans using assistive technology and Veterans with denied claims'
 devices_used:
-    desktop: 8
-    tablet: 0
-    smartphone: 3
-    assistive_technology: 5
+  desktop: 8
+  tablet: 0
+  smartphone: 3
+  assistive_technology: 5
 participants_total: 11
 demographics:
   veterans: 11
@@ -27,11 +28,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
     unknown: 11
   education:
     high_school: 0
@@ -64,48 +65,69 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "JAWS users had difficulty operating form controls as checkboxes and radios were not being announced"
-  - "3 out of 4 Veterans with MST claim did not understand purpose of MST notification and either declined or revoked previous decision"
-  - "Veterans without MST understood initial question but some were concerned about emphasis on MST and PACT over other conditions"
-  - "Half of participants experienced friction with notice of evidence needed"
-  - "4 out of 11 Veterans were not familiar with names of certain facility types (Vet Center, DoD MTF)"
-  - "Most Veterans missed or did not act on hint about treatment dates"
-  - "All Veterans understood what submitting non-VA medical records means submitting authorization but some struggled with process"
-  - "Most participants struggled with going back and adding evidence from either evidence summary or review and submit page"
+- JAWS users had difficulty operating form controls as checkboxes and radios were
+  not being announced
+- 3 out of 4 Veterans with MST claim did not understand purpose of MST notification
+  and either declined or revoked previous decision
+- Veterans without MST understood initial question but some were concerned about emphasis
+  on MST and PACT over other conditions
+- Half of participants experienced friction with notice of evidence needed
+- 4 out of 11 Veterans were not familiar with names of certain facility types (Vet
+  Center, DoD MTF)
+- Most Veterans missed or did not act on hint about treatment dates
+- All Veterans understood what submitting non-VA medical records means submitting
+  authorization but some struggled with process
+- Most participants struggled with going back and adding evidence from either evidence
+  summary or review and submit page
 recommendations:
-  - "Determine if usability issues with JAWS is replicable and pervasive across forms"
-  - "Keep initial MST question and add language to clarify question is optional and does not impact Veterans claim"
-  - "Possibly remove presumptive conditions alert within form to reduce friction for screen reader users"
-  - "Clarify language around Notice of Evidence Needed for claims filed within year of decision"
-  - "Adjust wording around types of facilities to provide more information and clarity"
-  - "Adjust hint for optional memorable date"
-  - "Adjust limiting consent screen to make clearer that not providing input is an option"
-  - "Revisit list-and-loop pattern to create clearer editing flow"
+- Determine if usability issues with JAWS is replicable and pervasive across forms
+- Keep initial MST question and add language to clarify question is optional and does
+  not impact Veterans claim
+- Possibly remove presumptive conditions alert within form to reduce friction for
+  screen reader users
+- Clarify language around Notice of Evidence Needed for claims filed within year of
+  decision
+- Adjust wording around types of facilities to provide more information and clarity
+- Adjust hint for optional memorable date
+- Adjust limiting consent screen to make clearer that not providing input is an option
+- Revisit list-and-loop pattern to create clearer editing flow
 kpi_alignment:
-  - "Our digital experiences are the best way to access VA health care and benefits"
-  - "Our platforms are the best way to deliver products at VA"
+- Our digital experiences are the best way to access VA health care and benefits
+- Our platforms are the best way to deliver products at VA
 outcomes:
-  user: "Veterans can successfully complete Supplemental Claim form with new updates including homelessness questions, MST notifications, and non-VA evidence submission"
-  business: "Improved form completion rates and reduced abandonment through clearer navigation and evidence collection process"
+  user: Veterans can successfully complete Supplemental Claim form with new updates
+    including homelessness questions, MST notifications, and non-VA evidence submission
+  business: Improved form completion rates and reduced abandonment through clearer
+    navigation and evidence collection process
 opportunity_areas:
-  - "Evidence gathering and multiple response list-loop pattern improvement"
-  - "Evidence upload process simplification"
-  - "Help Veterans determine types of evidence accepted for Supplemental Claim"
-  - "Better MST notification communication"
+- Evidence gathering and multiple response list-loop pattern improvement
+- Evidence upload process simplification
+- Help Veterans determine types of evidence accepted for Supplemental Claim
+- Better MST notification communication
 further_research_needed:
-  - "Evidence gathering and new multiple response list+loop pattern"
-  - "Evidence upload process"
-  - "Help Veterans determine types of evidence accepted to file Supplemental Claim"
-  - "Veterans experiencing or at risk of homelessness"
+- Evidence gathering and new multiple response list+loop pattern
+- Evidence upload process
+- Help Veterans determine types of evidence accepted to file Supplemental Claim
+- Veterans experiencing or at risk of homelessness
 underserved_groups_missing:
-  - "Complete demographic data not provided in recruitment tracker"
+- Complete demographic data not provided in recruitment tracker
 secondary_research:
-  - "MVP Supplemental Claims Usability Research"
+- MVP Supplemental Claims Usability Research
 synthesis_tools_used:
-  - "Remote usability testing sessions"
-  - "Code prototype analysis"
+- Remote usability testing sessions
+- Code prototype analysis
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: Accredited-Reps'
+- 'MHV: Appointments'
+- 'MHV: Personal Health Records/Medical Records'
+- usability-testing
+- remote-research
+- evaluative
 ---
-
 # **Supplemental Claims \- 2024 Updates Findings**
 
 Office of the CTO \- Digital Experience (OCTO-DE), Benefits Decision Reviews

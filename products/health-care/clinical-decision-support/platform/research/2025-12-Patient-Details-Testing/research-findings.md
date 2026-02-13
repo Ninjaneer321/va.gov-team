@@ -1,24 +1,26 @@
 ---
-title: "Patient Details Research Findings"
-product: "CDS Console"
-team: "CDS Platform Team"
-office: "Office of Information and Technology & Veterans Health Administration"
-date: "2025-01-09"
+title: Patient Details Research Findings
+product: CDS Console
+team: CDS Platform Team
+office: Office of Information and Technology & Veterans Health Administration
+date: '2025-01-09'
 researchers:
-  - "Liz Blasi, UX Design & Research"
+- Liz Blasi, UX Design & Research
 research_goals:
-  - "Understand what data clinicians want to see in Console Patient Details to best support clinical decision making"
-  - "Identify where Patient Details provides the most value in clinician workflows"
-  - "Understand how Patient Details value and needs differ between Oracle Health's PowerChart and CPRS"
+- Understand what data clinicians want to see in Console Patient Details to best support
+  clinical decision making
+- Identify where Patient Details provides the most value in clinician workflows
+- Understand how Patient Details value and needs differ between Oracle Health's PowerChart
+  and CPRS
 methodology:
-  - "Usability testing with production Patient Details Beta (CPRS)"
-  - "Concept testing with prototypes (CPRS and Oracle Health)"
-  - "Contextual inquiry of typical workflows"
+- Usability testing with production Patient Details Beta (CPRS)
+- Concept testing with prototypes (CPRS and Oracle Health)
+- Contextual inquiry of typical workflows
 devices_used:
-    desktop: 8
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 0
+  desktop: 8
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 8
 Primary role:
   Clinical dietician: 0
@@ -56,55 +58,66 @@ Care setting:
   Emergency Department: 1
   Other: 0
 EHR:
- CPRS: 5
- Oracle: 3
-
+  CPRS: 5
+  Oracle: 3
 key_findings:
-  - "Clinicians want abnormal values visually flagged, not buried in long notes"
-  - "Trends enable shared decision making and help 'paint a picture' for patients"
-  - "Clinicians expect conditions to drive key medications in a problem-oriented view"
-  - "Medication adherence data serves as a clinical signal when tied to conditions"
-  - "Medical calculators support clinical reasoning and patient education"
-  - "Insight without ability to action breaks workflow momentum"
-  - "Having key information 'all in one place' organized by condition reduces cognitive load"
-  - "Future appointments are more valuable than past ones for care coordination"
+- Clinicians want abnormal values visually flagged, not buried in long notes
+- Trends enable shared decision making and help 'paint a picture' for patients
+- Clinicians expect conditions to drive key medications in a problem-oriented view
+- Medication adherence data serves as a clinical signal when tied to conditions
+- Medical calculators support clinical reasoning and patient education
+- Insight without ability to action breaks workflow momentum
+- Having key information 'all in one place' organized by condition reduces cognitive
+  load
+- Future appointments are more valuable than past ones for care coordination
 recommendations:
-  - "Improve findability of trend buttons and add normal range indicators to trended data"
-  - "Add hover details on trended data points showing exact values and dates"
-  - "Surface provider/clinic names with appointments to support care coordination"
-  - "Enable direct actions from Patient Details (order labs, refill meds, document reviews)"
-  - "Add medication refill status, expiration dates, and renewal information"
-  - "Allow clinicians to customize which calculators appear in Patient Details"
-  - "Implement ability to copy calculator results into clinical notes"
-  - "Add care team information to support coordination across providers"
+- Improve findability of trend buttons and add normal range indicators to trended
+  data
+- Add hover details on trended data points showing exact values and dates
+- Surface provider/clinic names with appointments to support care coordination
+- Enable direct actions from Patient Details (order labs, refill meds, document reviews)
+- Add medication refill status, expiration dates, and renewal information
+- Allow clinicians to customize which calculators appear in Patient Details
+- Implement ability to copy calculator results into clinical notes
+- Add care team information to support coordination across providers
 kpi_alignment:
-  - "Reduced time spent on pre-charting and chart preparation"
-  - "Increased clinician adoption of CDS Console as primary home for clinical decision support"
-  - "Improved care coordination across specialties"
+- Reduced time spent on pre-charting and chart preparation
+- Increased clinician adoption of CDS Console as primary home for clinical decision
+  support
+- Improved care coordination across specialties
 outcomes:
-  user: "Faster, more confident clinical decision-making with reduced cognitive load and fewer missed details"
-  business: "Higher CDS Console adoption rates and establishment as the primary home for clinical decision support across EHRs"
+  user: Faster, more confident clinical decision-making with reduced cognitive load
+    and fewer missed details
+  business: Higher CDS Console adoption rates and establishment as the primary home
+    for clinical decision support across EHRs
 opportunity_areas:
-  - "Pre-visit chart preparation and daily planning with nursing staff"
-  - "Clinical reasoning during patient visits with visual evidence"
-  - "Care coordination and follow-up planning across providers"
-  - "Shared decision-making with patients using trends and calculators"
+- Pre-visit chart preparation and daily planning with nursing staff
+- Clinical reasoning during patient visits with visual evidence
+- Care coordination and follow-up planning across providers
+- Shared decision-making with patients using trends and calculators
 further_research_needed:
-  - "Task workflows within Oracle Health's PowerChart"
-  - "Oracle Health workflows with additional participants across specialties"
-  - "Tasks/follow-up tracking within the context of Patient Details"
-  - "Use of ICN in clinician workflows"
+- Task workflows within Oracle Health's PowerChart
+- Oracle Health workflows with additional participants across specialties
+- Tasks/follow-up tracking within the context of Patient Details
+- Use of ICN in clinician workflows
 underserved_groups_missing:
-  - "Additional Oracle Health primary care providers"
-  - "Broader range of clinical specialties in Oracle Health"
-  - "More diverse geographic representation"
+- Additional Oracle Health primary care providers
+- Broader range of clinical specialties in Oracle Health
+- More diverse geographic representation
 secondary_research:
-  - "None conducted for this study"
+- None conducted for this study
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+- Mural
+- Affinity Mapping
+tags:
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'MHV: Appointments'
+- 'MHV: Pharmacy'
+- usability-testing
+- remote-research
 ---
-
 # Patient Details Research Findings 
 
 **Office of Information and Technology & Veterans Health Administration, CDS Console, CDS Platform Team**

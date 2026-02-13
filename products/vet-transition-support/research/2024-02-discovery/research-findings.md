@@ -1,25 +1,28 @@
 ---
-title: "Transition Experience Interview Research Findings"
-product: "Veteran Transition Support (VTS)"
-team: "Transition Experience Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-05-15"
+title: Transition Experience Interview Research Findings
+product: Veteran Transition Support (VTS)
+team: Transition Experience Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-05-15'
 researchers:
-  - "Victoria Sun Esparza"
-  - "Cora Goldston"
+- Victoria Sun Esparza
+- Cora Goldston
 research_goals:
-  - "Understand how our MVP can provide clear and consistent information about benefit discovery, application requirements, and the application process"
-  - "Understand how benefit discovery fits into the larger universe of topics on a transitioning servicemember or Veterans mind"
-  - "Learn more about the role that Commanding Officers play in a servicemember's separation process"
+- Understand how our MVP can provide clear and consistent information about benefit
+  discovery, application requirements, and the application process
+- Understand how benefit discovery fits into the larger universe of topics on a transitioning
+  servicemember or Veterans mind
+- Learn more about the role that Commanding Officers play in a servicemember's separation
+  process
 methodology:
-  - "Semi-structured remote interviews"
-  - "Generative research"
-  - "No product testing - exploratory research phase"
+- Semi-structured remote interviews
+- Generative research
+- No product testing - exploratory research phase
 devices_used:
-    desktop: 0
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 0
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 27
 demographics:
   veterans: 13
@@ -29,11 +32,11 @@ demographics:
   VA_staff: 7
   commanding_officers: 3
   age:
-    "25-34": 9
-    "35-44": 6
-    "45-54": 2
-    "55-64": 1
-    "65+": 2
+    25-34: 9
+    35-44: 6
+    45-54: 2
+    55-64: 1
+    65+: 2
     unknown: 7
   education:
     high_school: 1
@@ -69,63 +72,91 @@ demographics:
     captions: 0
     unknown: 27
 key_findings:
-  - "Different participants had different preferences for viewing benefit information - some want full list, others want curated recommendations"
-  - "Many participants had pre-conceived notions about whether the VA will help them, whether they are eligible, or whether they deserve benefits"
-  - "Participants sought benefits for a variety of reasons including saving money, self-motivation, family care, and career transitions"
-  - "Most participants wanted the ability to ask for help while exploring or applying for benefits through live agents, chatbots, or in-person support"
-  - "While participants wanted information about big benefits like disability and healthcare, many also wanted to learn about lesser-known benefits like travel reimbursement and retiree ID cards"
-  - "Participants wanted a system that helps them take action (start benefit applications), not just provide information"
-  - "Participants wanted their existing service records and data automatically pulled in to avoid re-entering information already on file"
+- Different participants had different preferences for viewing benefit information
+  - some want full list, others want curated recommendations
+- Many participants had pre-conceived notions about whether the VA will help them,
+  whether they are eligible, or whether they deserve benefits
+- Participants sought benefits for a variety of reasons including saving money, self-motivation,
+  family care, and career transitions
+- Most participants wanted the ability to ask for help while exploring or applying
+  for benefits through live agents, chatbots, or in-person support
+- While participants wanted information about big benefits like disability and healthcare,
+  many also wanted to learn about lesser-known benefits like travel reimbursement
+  and retiree ID cards
+- Participants wanted a system that helps them take action (start benefit applications),
+  not just provide information
+- Participants wanted their existing service records and data automatically pulled
+  in to avoid re-entering information already on file
 recommendations:
-  - "MVP should have multiple ways of viewing information to meet diverse user needs (full list and curated options)"
-  - "MVP needs to address misconceptions about utility of VA benefits, eligibility, and worthiness - Veterans have earned their benefits"
-  - "MVP needs to account for various reasons that Veterans seek benefits"
-  - "MVP should mimic the experience of someone helping the user and/or connect to someone who can help (live agent, chatbot, in-person)"
-  - "MVP needs to highlight lesser-known benefits (travel reimbursement) alongside more popular benefits like health care or education"
-  - "MVP needs to help users take action instead of simply presenting information"
-  - "MVP should pull in a servicemembers existing data as much as possible"
+- MVP should have multiple ways of viewing information to meet diverse user needs
+  (full list and curated options)
+- MVP needs to address misconceptions about utility of VA benefits, eligibility, and
+  worthiness - Veterans have earned their benefits
+- MVP needs to account for various reasons that Veterans seek benefits
+- MVP should mimic the experience of someone helping the user and/or connect to someone
+  who can help (live agent, chatbot, in-person)
+- MVP needs to highlight lesser-known benefits (travel reimbursement) alongside more
+  popular benefits like health care or education
+- MVP needs to help users take action instead of simply presenting information
+- MVP should pull in a servicemembers existing data as much as possible
 kpi_alignment:
-  - "Enhance Veterans personalized online experience"
-  - "Drive OIT Digital Transformation Strategy"
+- Enhance Veterans personalized online experience
+- Drive OIT Digital Transformation Strategy
 outcomes:
-  user: "Veterans and transitioning servicemembers can discover relevant benefits and successfully apply based on their individual circumstances and goals"
-  business: "Improved benefit discovery increases benefit utilization and reduces support burden while correcting misconceptions about VA services"
+  user: Veterans and transitioning servicemembers can discover relevant benefits and
+    successfully apply based on their individual circumstances and goals
+  business: Improved benefit discovery increases benefit utilization and reduces support
+    burden while correcting misconceptions about VA services
 opportunity_areas:
-  - "Personalized benefit recommendations based on service history and goals"
-  - "Integration of federal, state, and local benefits information"
-  - "Human support integration (chatbots, live agents, in-person help)"
-  - "Lesser-known benefit discovery and promotion"
-  - "Action-oriented benefit application support"
-  - "Service record integration to reduce data re-entry"
-  - "Addressing worthiness and eligibility misconceptions"
+- Personalized benefit recommendations based on service history and goals
+- Integration of federal, state, and local benefits information
+- Human support integration (chatbots, live agents, in-person help)
+- Lesser-known benefit discovery and promotion
+- Action-oriented benefit application support
+- Service record integration to reduce data re-entry
+- Addressing worthiness and eligibility misconceptions
 further_research_needed:
-  - "User testing with working prototype once MVP is created"
-  - "Research with Assistive Technology users"
-  - "Testing with members of other marginalized Veteran groups"
-  - "Research with Reservists and National Guard members on their unique transition experiences"
-  - "TAP class experience variation research"
+- User testing with working prototype once MVP is created
+- Research with Assistive Technology users
+- Testing with members of other marginalized Veteran groups
+- Research with Reservists and National Guard members on their unique transition experiences
+- TAP class experience variation research
 underserved_groups_missing:
-  - "LGBTQ+ Veterans"
-  - "Veterans with cognitive disabilities"
-  - "Veterans with an Other than honorable discharge"
-  - "Veterans who are also immigrants to the United States"
-  - "Expats living abroad"
-  - "Veterans 55 years old or older (underrepresented)"
-  - "Veterans who live in rural areas (underrepresented)"
-  - "Veterans who do not have any college degree (underrepresented)"
-  - "Assistive Technology users"
-  - "Mobile users"
+- LGBTQ+ Veterans
+- Veterans with cognitive disabilities
+- Veterans with an Other than honorable discharge
+- Veterans who are also immigrants to the United States
+- Expats living abroad
+- Veterans 55 years old or older (underrepresented)
+- Veterans who live in rural areas (underrepresented)
+- Veterans who do not have any college degree (underrepresented)
+- Assistive Technology users
+- Mobile users
 secondary_research:
-  - "Previous VA benefit discovery tool research (Benefits Navigator, ExploreVA)"
-  - "Literature review of VA transition support research"
-  - "VA stakeholder and SME interviews"
-  - "TAP (Transition Assistance Program) studies"
+- Previous VA benefit discovery tool research (Benefits Navigator, ExploreVA)
+- Literature review of VA transition support research
+- VA stakeholder and SME interviews
+- TAP (Transition Assistance Program) studies
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity mapping from interview transcripts"
-  - "User flow mockups"
+- Mural
+- Affinity mapping from interview transcripts
+- User flow mockups
+tags:
+- 'AUD: Veterans'
+- 'AUD: Service Members'
+- 'AUD: VA Staff'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Housing'
+- 'BNFT: Records'
+- 'PRDT: Caregivers'
+- 'MHV: Appointments'
+- 'MHV: Pharmacy'
+- semi-structured-interviews
+- remote-research
+- discovery
 ---
-
 #  Transition Experience Interview Research Findings 
  
 **Office of the CTO - Digital Experience (OCTO-DE), TBD, Transition Experience**

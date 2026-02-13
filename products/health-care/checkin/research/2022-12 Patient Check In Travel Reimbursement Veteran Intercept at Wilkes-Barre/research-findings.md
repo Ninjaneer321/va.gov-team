@@ -1,4 +1,114 @@
 ---
+title: "Patient Check In (PCI): Travel Reimbursement Research Findings"
+product: "Patient Check In"
+team: "Healthcare Products, Modernized Check-In Experience"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-08-08"
+researchers:
+  - "Christina Gednalske"
+  - "Ben Brasso"
+research_goals:
+  - "Get feedback from Veterans on the new travel reimbursement feature in eCheck-in on ease of use and what, if any, expectations were unmet, specifically around travel reimbursement tasks"
+  - "Understand how easy or difficult it is to file a travel reimbursement claim during check in"
+  - "Understand the cognitive load needed for Veterans to review and confirm their travel reimbursement claim eligibility"
+  - "Determine if it is clear or confusing to check in for an appointment and submit a travel reimbursement claim at the same time"
+  - "Evaluate how well or not so well does filing a travel reimbursement claim during check-in meet Veteran's expectations"
+  - "Understand how easy or difficult it is to understand the status (and associated next steps) of a travel reimbursement claim (whether filed or not) and check-in on the confirmation pages"
+methodology:
+  - "Veteran intercepts"
+  - "Interviews with clinic staff"
+  - "Interviews with travel office staff"
+  - "In-person observation"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 41
+demographics:
+  veterans: 32
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 9
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Veterans found the travel reimbursement feature 'awesome' and 'easy to use' and would not change anything about the process"
+  - "Staff and Veterans noted various benefits to travel reimbursement within eCheck-in compared to the other ways of filing for travel reimbursement (e.g., BTSSS, Form 10-3542, or in person)"
+  - "The inclusion of travel pay is an incentive for Veterans to use eCheck-in"
+  - "Some Veterans chose not to file for travel due to eligibility and distance when shown the travel screens"
+  - "MSAs described Veterans' lack of trust in technology and concerns with privacy as potential factors for not trying eCheck-in"
+  - "MSAs are seeing slow adoption of PCI, but have a positive outlook based on similar rollouts, including the BTSSS portal and VetLink kiosks"
+  - "It was difficult to find Veterans who wanted to use eCheck-in with their main reasons being they did not want to use their smartphone to check in or because they did not have smartphones"
+  - "Veterans faced a variety of hurdles that prevented them from reaching travel reimbursement"
+  - "It was not clear if the current poster information and locations within clinics were helpful in getting Veterans to and through eCheck-in"
+  - "MSAs don't always trust eCheck-in is working as intended, leading to some confusion with the process and significant improvisation when assisting Veterans"
+  - "MSAs spend time helping and educating Veterans on eCheck-in and travel reimbursement"
+  - "Some MSAs haven't seen their workloads increase, but other MSAs have seen a drastic increase in workload related to fielding questions around travel reimbursement and eligibility"
+  - "Travel office work has not increased, with few issues reported"
+  - "To reach Wilkes-Barre HAS leadership goals for the pilot, MSAs encouraged Veterans to try eCheck-in. However, eCheck-in isn't always right for everyone. E.g., Veterans who have a hard time using their phones, etc."
+recommendations:
+  - "Prioritize 45-min text for fewer steps and earlier check-in (in early stage discussions)"
+  - "Include more information on travel reimbursement screens to encourage Veterans to file who might not know they're eligible and prevent the perception that an error has occurred because they think they're not eligible (in early stage discussions)"
+  - "Update content on the low authentication (last name, DOB) page to clarify that Veterans are starting the check in process, not completing it (in early stage discussions)"
+  - "Adjust text message response indicating a successfully submitted travel reimbursement claim to ensure Veterans know they have finished the process and don't need to fill out the paper form"
+  - "Add information to demographics pages and confirmation pages to help Veterans understand how to update their information, even if it's correct at the time of check in"
+  - "Allow travel reimbursement in eCheck-in when a Veteran has multiple appointments on the same day (in early stage discussions)"
+  - "Discuss the need to educate MSAs on how to update smartphone numbers in VistA (in order to be eligible for eCheck-in) with product owners and IVC"
+  - "Discuss feedback received with product owners (and IVC) regarding the need for additional education around PCI and travel reimbursement for staff and Veterans and opportunities to encourage utilization – as well as how to identify, engage, or not engage Veterans who might not be an ideal candidate for using PCI"
+  - "Discuss the concern surrounding the VSE refresh rate that causes MSAs to think 'check in is not working' with PCI staff-facing team and IVC and determine how to better communicate with staff about how eCheck-in and VSE works together"
+  - "Continue to discuss with product owners (and IVC) the potential for including the ability for MSAs to file a travel reimbursement claim on behalf of Veterans (potentially, within VSE), while also sharing feedback received that MSAs wouldn't want to add to their workload"
+  - "Fix issue on the BTSSS API side to ensure the correct payment facility is appearing in claims from eCheck-in"
+  - "Confirm and resolve issue with not being able to use a special character in the text input component, which PCI uses for authentication"
+  - "Discuss with Platform Design and Accessibility the potential of making PCI more accessible by increasing mobile font sizes"
+  - "Pass along Veteran feedback to Appointments and VeText teams the issues and suggestions from Veterans and staff surrounding formatting of appointment text reminders, e.g., Y1."
+  - "Pass along feedback to Beneficiary Travel Office team related to challenges with using BTSSS shared by both Veterans and Travel Office staff"
+  - "Build and/or open access to a BTSSS database to check Veterans beneficiary travel eligibility to personalize the PCI experience to the Veteran"
+  - "Continue discussing the need and value  for a customer satisfaction survey at the end of check in to collect Veteran feedback (since a Veteran did mention it), especially knowing that VA: Health and Benefits app have implemented something similar recently"
+tags:
+  - "AUD: Veterans"
+  - "AUD: VA Staff"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "interviews"
+  - "in-person-research"
+---
 
 # Patient Check In (PCI): Travel Reimbursement Research Findings
 

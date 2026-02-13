@@ -1,27 +1,29 @@
 ---
-title: "Medical Records on VA.gov Usability Study Round 3 (AT) Research Findings"
-product: "My HealtheVet on VA.gov"
-team: "MHV on VA.gov Medical Records Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-09-01"
+title: Medical Records on VA.gov Usability Study Round 3 (AT) Research Findings
+product: My HealtheVet on VA.gov
+team: MHV on VA.gov Medical Records Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-09-01'
 researchers:
-  - "Anne Costello Kennedy"
-  - "Melissa Stern"
+- Anne Costello Kennedy
+- Melissa Stern
 research_goals:
-  - "Identify usability issues Veterans experience accessing Care Summaries and Notes, Lab and Test Results, and Health Conditions"
-  - "Understand Veterans' sensemaking of medical terminology in Medical Records"
-  - "Understand Veterans' needs and expectations within Medical Records"
-  - "Assess how goals, expectations, and experiences vary for Veterans who use assistive technologies"
+- Identify usability issues Veterans experience accessing Care Summaries and Notes,
+  Lab and Test Results, and Health Conditions
+- Understand Veterans' sensemaking of medical terminology in Medical Records
+- Understand Veterans' needs and expectations within Medical Records
+- Assess how goals, expectations, and experiences vary for Veterans who use assistive
+  technologies
 methodology:
-  - "Moderated usability testing sessions"
-  - "Participants navigated live staging environment"
-  - "Observation of behavior with follow-up prompts"
-  - "Comparison of AT-dependent and non-AT-dependent Veterans"
+- Moderated usability testing sessions
+- Participants navigated live staging environment
+- Observation of behavior with follow-up prompts
+- Comparison of AT-dependent and non-AT-dependent Veterans
 devices_used:
-    desktop: 13
-    tablet: 2
-    smartphone: 3
-    assistive_technology: 10
+  desktop: 13
+  tablet: 2
+  smartphone: 3
+  assistive_technology: 10
 participants_total: 18
 demographics:
   veterans: 18
@@ -30,11 +32,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 1
-    "35-44": 1
-    "45-54": 3
-    "55-64": 6
-    "65+": 7
+    25-34: 1
+    35-44: 1
+    45-54: 3
+    55-64: 6
+    65+: 7
     unknown: 0
   education:
     high_school: 5
@@ -67,52 +69,78 @@ demographics:
     sighted_keyboard: 0
     captions: 1
 key_findings:
-  - "Most participants found Health Conditions page starting from Medical Records landing page"
-  - "Most participants located informational paragraph about 36-hour time expectations for new health conditions"
-  - "Most participants found Care Summaries and Notes and Discharge Summaries"
-  - "Most participants failed to find Primary Care Nursing Triage Note on page 2 due to missed pagination"
-  - "All participants located Lab and Test Results without assistance"
-  - "Few participants identified Lipid Panel when searching for cholesterol test results"
-  - "Most participants located COVID test results but expressed low confidence understanding test names with medical jargon"
-  - "Medical jargon created barriers to finding and understanding information across domains"
-  - "Participants requested more clarity on abbreviations and medical terms, often turning to Google or providers for definitions"
-  - "Veterans' primary goal is reviewing record changes after health events like appointments or lab work"
-  - "Veterans often download records to have on file or print to bring to appointments"
-  - "Most participants provided positive feedback about new My HealtheVet experience"
-  - "Task success differences between AT and non-AT users were nominal except for one task where AT users outperformed"
-  - "Most AT-dependent participants do not regularly use My HealtheVet to access health records"
-  - "Screen readers detected and read print-only content on list view pages"
+- Most participants found Health Conditions page starting from Medical Records landing
+  page
+- Most participants located informational paragraph about 36-hour time expectations
+  for new health conditions
+- Most participants found Care Summaries and Notes and Discharge Summaries
+- Most participants failed to find Primary Care Nursing Triage Note on page 2 due
+  to missed pagination
+- All participants located Lab and Test Results without assistance
+- Few participants identified Lipid Panel when searching for cholesterol test results
+- Most participants located COVID test results but expressed low confidence understanding
+  test names with medical jargon
+- Medical jargon created barriers to finding and understanding information across
+  domains
+- Participants requested more clarity on abbreviations and medical terms, often turning
+  to Google or providers for definitions
+- Veterans' primary goal is reviewing record changes after health events like appointments
+  or lab work
+- Veterans often download records to have on file or print to bring to appointments
+- Most participants provided positive feedback about new My HealtheVet experience
+- Task success differences between AT and non-AT users were nominal except for one
+  task where AT users outperformed
+- Most AT-dependent participants do not regularly use My HealtheVet to access health
+  records
+- Screen readers detected and read print-only content on list view pages
 recommendations:
-  - "Explore providing definitions for medical jargon and abbreviations within detail pages"
-  - "Consider plain language alternatives for common medical terms"
-  - "Improve pagination visibility for screen reader users"
-  - "Address print-only content being read by screen readers on list pages"
-  - "Continue testing with Veterans who have varying levels of health literacy"
+- Explore providing definitions for medical jargon and abbreviations within detail
+  pages
+- Consider plain language alternatives for common medical terms
+- Improve pagination visibility for screen reader users
+- Address print-only content being read by screen readers on list pages
+- Continue testing with Veterans who have varying levels of health literacy
 kpi_alignment:
-  - "Improved access to medical information for Veterans with disabilities"
-  - "Increased understanding of medical terminology"
-  - "Enhanced satisfaction with Medical Records experience"
+- Improved access to medical information for Veterans with disabilities
+- Increased understanding of medical terminology
+- Enhanced satisfaction with Medical Records experience
 outcomes:
-  user: "Veterans can find and understand their medical records information to manage their healthcare"
-  business: "Medical Records on VA.gov provides accessible and understandable experience for all Veterans including AT users"
+  user: Veterans can find and understand their medical records information to manage
+    their healthcare
+  business: Medical Records on VA.gov provides accessible and understandable experience
+    for all Veterans including AT users
 opportunity_areas:
-  - "Medical terminology and abbreviation definitions would significantly improve comprehension"
-  - "Plain language alternatives for test names would improve findability"
-  - "Pagination improvements needed for AT users"
+- Medical terminology and abbreviation definitions would significantly improve comprehension
+- Plain language alternatives for test names would improve findability
+- Pagination improvements needed for AT users
 further_research_needed:
-  - "Continued testing on health literacy solutions"
-  - "Additional research on medical terminology comprehension"
+- Continued testing on health literacy solutions
+- Additional research on medical terminology comprehension
 underserved_groups_missing:
-  - "Additional screen reader users beyond the 4 participants"
-  - "Voice control/speech input technology users"
-  - "Veterans with more diverse educational backgrounds"
+- Additional screen reader users beyond the 4 participants
+- Voice control/speech input technology users
+- Veterans with more diverse educational backgrounds
 secondary_research:
-  - "Previous Medical Records usability studies Rounds 1 and 2"
-  - "Health literacy research"
+- Previous Medical Records usability studies Rounds 1 and 2
+- Health literacy research
 synthesis_tools_used:
-  - "Mural for affinity mapping and synthesis"
+- Mural for affinity mapping and synthesis
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: Caregivers'
+- 'MHV: Appointments'
+- 'MHV: Secure Messaging'
+- 'MHV: Personal Health Records/Medical Records'
+- usability-testing
+- moderated-research
+- remote-research
+- Accessibility
+- evaluative
 ---
-
 # Medical Records in VA.gov Usability Study Round 3 (AT) Research Findings
 
 August – September 2024

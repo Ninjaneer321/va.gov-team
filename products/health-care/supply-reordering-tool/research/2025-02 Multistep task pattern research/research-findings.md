@@ -1,25 +1,27 @@
 ---
-title: "Multistep task pattern Research Findings"
-product: "My HealtheVet Portal - Supply Reordering Tool"
-team: "MHV Portal - Supply Reordering Tool Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2025-04-22"
+title: Multistep task pattern Research Findings
+product: My HealtheVet Portal - Supply Reordering Tool
+team: MHV Portal - Supply Reordering Tool Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2025-04-22'
 researchers:
-  - "Jina Ryu"
-  - "Robyn Singleton"
+- Jina Ryu
+- Robyn Singleton
 research_goals:
-  - "Compare the old (form pattern, prototype A) and new (task pattern, prototype B) versions of the medical supplies tool"
-  - "Understand if the multistep task pattern will make completing routine and simple tasks faster and easier for Veterans"
-  - "Understand Veterans' expectations when completing routine tasks"
+- Compare the old (form pattern, prototype A) and new (task pattern, prototype B)
+  versions of the medical supplies tool
+- Understand if the multistep task pattern will make completing routine and simple
+  tasks faster and easier for Veterans
+- Understand Veterans' expectations when completing routine tasks
 methodology:
-  - "Unmoderated A/B prototype testing"
-  - "Optimal Workshop prototype testing feature"
-  - "SPSS statistical analysis"
+- Unmoderated A/B prototype testing
+- Optimal Workshop prototype testing feature
+- SPSS statistical analysis
 devices_used:
-    desktop: 0
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 0
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 766
 demographics:
   veterans: 766
@@ -28,11 +30,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
     unknown: 766
   education:
     high_school: 0
@@ -65,38 +67,61 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Veterans frequently clicked on the list view cards to initiate their tasks, rather than using the Start Order action link"
-  - "Most Veterans (95.3%) felt confident they successfully submitted their supply order, but some felt the confirmation alert lacked necessary details"
-  - "Around half of Veterans (55%) successfully canceled their in-progress orders using the cancel button, but many misunderstood the process or missed the button entirely, highlighting a gap between perceived and actual task completion"
-  - "While 70% of Veterans successfully located their unavailable supplies using the segmented bar control, only 50% of clicks were directed toward the Unavailable tab"
-  - "Veterans generally understood when to click out to other tools to complete their tasks, but some requested reducing steps by integrating direct links for smoother navigation"
+- Veterans frequently clicked on the list view cards to initiate their tasks, rather
+  than using the Start Order action link
+- Most Veterans (95.3%) felt confident they successfully submitted their supply order,
+  but some felt the confirmation alert lacked necessary details
+- Around half of Veterans (55%) successfully canceled their in-progress orders using
+  the cancel button, but many misunderstood the process or missed the button entirely,
+  highlighting a gap between perceived and actual task completion
+- While 70% of Veterans successfully located their unavailable supplies using the
+  segmented bar control, only 50% of clicks were directed toward the Unavailable tab
+- Veterans generally understood when to click out to other tools to complete their
+  tasks, but some requested reducing steps by integrating direct links for smoother
+  navigation
 recommendations:
-  - "Make List View Cards Clickable: Enable direct task initiation from list view cards to reduce unnecessary navigation steps"
-  - "Enhance Confirmation Alerts: Include detailed order confirmation information (e.g., item names, quantities, expected delivery dates) and a clear acknowledgment of successful submission"
-  - "Remove Cancel Button: Remove in-task cancel buttons, improve post-order cancel options, and use exit modals to warn user when they attempt to navigate away from a task"
-  - "Remove MHV secondary nav during at ask flow: Knowing most veterans finish a task in one session, consider removing this component during a task flow"
-  - "Unify Supply Lists: Combine available and unavailable supplies into a single list view with filtering and sorting options to align with user expectations"
-  - "Streamline Navigation Flows: Add direct links for unavailable supplies to reduce steps and improve cross-tool linking"
+- 'Make List View Cards Clickable: Enable direct task initiation from list view cards
+  to reduce unnecessary navigation steps'
+- 'Enhance Confirmation Alerts: Include detailed order confirmation information (e.g.,
+  item names, quantities, expected delivery dates) and a clear acknowledgment of successful
+  submission'
+- 'Remove Cancel Button: Remove in-task cancel buttons, improve post-order cancel
+  options, and use exit modals to warn user when they attempt to navigate away from
+  a task'
+- 'Remove MHV secondary nav during at ask flow: Knowing most veterans finish a task
+  in one session, consider removing this component during a task flow'
+- 'Unify Supply Lists: Combine available and unavailable supplies into a single list
+  view with filtering and sorting options to align with user expectations'
+- 'Streamline Navigation Flows: Add direct links for unavailable supplies to reduce
+  steps and improve cross-tool linking'
 kpi_alignment:
-  - "Not specified"
+- Not specified
 outcomes:
-  user: "Veterans can complete routine tasks like ordering medical supplies more quickly and efficiently using the multistep task pattern"
-  business: "Standardized task pattern across MHV tools that improves task completion rates and reduces completion time"
+  user: Veterans can complete routine tasks like ordering medical supplies more quickly
+    and efficiently using the multistep task pattern
+  business: Standardized task pattern across MHV tools that improves task completion
+    rates and reduces completion time
 opportunity_areas:
-  - "Refine design pattern guidance based on research findings and recommendations"
-  - "Share out findings with MHV portal teams as part of portal UX standardization work"
+- Refine design pattern guidance based on research findings and recommendations
+- Share out findings with MHV portal teams as part of portal UX standardization work
 further_research_needed:
-  - "Test how this pattern will work on other MHV tools"
+- Test how this pattern will work on other MHV tools
 underserved_groups_missing:
-  - "Not specified"
+- Not specified
 secondary_research:
-  - "Pre-study questionnaire data on Veterans' task completion habits"
+- Pre-study questionnaire data on Veterans' task completion habits
 synthesis_tools_used:
-  - "SPSS for statistical analysis"
-  - "Optimal Workshop for A/B testing"
-  - "Mural for affinity mapping"
+- SPSS for statistical analysis
+- Optimal Workshop for A/B testing
+- Mural for affinity mapping
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Healthcare'
+- 'MHV: Appointments'
+- 'MHV: Pharmacy'
+- 'MHV: Secure Messaging'
+- moderated-research
 ---
-
 # Multistep task pattern Research Findings
 
 **Office of the CTO - MHV Portal, Supply reordering tool**

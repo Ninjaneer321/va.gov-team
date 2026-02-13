@@ -1,27 +1,29 @@
 ---
-title: "Profile Editing Research Findings"
-product: "VA.gov Profile"
-team: "Authenticated Experience"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2022-10-17"
+title: Profile Editing Research Findings
+product: VA.gov Profile
+team: Authenticated Experience
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2022-10-17'
 researchers:
-  - "Liz Lantz"
+- Liz Lantz
 research_goals:
-  - "Learn whether edit-in-place pattern presents major usability problems for people with cognitive disabilities on mobile devices"
-  - "Identify any other usability hurdles in profile"
-  - "Evaluate challenges related to in-line editing, especially address information and notification preferences"
-  - "Assess how easily people understand and navigate address validation"
-  - "Identify usability hurdles with updating notification settings"
+- Learn whether edit-in-place pattern presents major usability problems for people
+  with cognitive disabilities on mobile devices
+- Identify any other usability hurdles in profile
+- Evaluate challenges related to in-line editing, especially address information and
+  notification preferences
+- Assess how easily people understand and navigate address validation
+- Identify usability hurdles with updating notification settings
 methodology:
-  - "Moderated usability testing"
-  - "Remote sessions via Zoom"
-  - "Live VA.gov profile testing with test accounts"
-  - "Bare-bones HTML prototype review in CodePen"
+- Moderated usability testing
+- Remote sessions via Zoom
+- Live VA.gov profile testing with test accounts
+- Bare-bones HTML prototype review in CodePen
 devices_used:
-    desktop: 4
-    tablet: 0
-    smartphone: 8
-    assistive_technology: 10
+  desktop: 4
+  tablet: 0
+  smartphone: 8
+  assistive_technology: 10
 participants_total: 11
 demographics:
   veterans: 11
@@ -30,11 +32,11 @@ demographics:
   dependents: 1
   VA_staff: 0
   age:
-    "25-34": 1
-    "35-44": 3
-    "45-54": 2
-    "55-64": 1
-    "65+": 4
+    25-34: 1
+    35-44: 3
+    45-54: 2
+    55-64: 1
+    65+: 4
     unknown: 0
   education:
     high_school: 1
@@ -67,65 +69,91 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "9 of 11 participants were able to update VA.gov profile with in-line editing with relative ease"
-  - "5 of 11 participants experienced minor confusion during address validation process"
-  - "Some usability hurdles in contact information section slowed multiple people down"
-  - "Participants not bothered by multiple alerts when updating contact information, though comprehension time varied"
-  - "6 of 11 participants were disrupted by having to leave notification settings page to add mobile number"
-  - "5 participants missed the notification name, leading to misunderstanding about notification purpose"
-  - "9 of 11 participants, including screenreader users, found in-line editing and one-thing-per-page equally usable"
-  - "Participants intuitively understood how to go from read-only to edit mode and save changes"
-  - "Alert followed by modal pattern did not cause confusion or prevent task completion"
-  - "Current address validation UX was not totally intuitive for 5 of 11 people"
+- 9 of 11 participants were able to update VA.gov profile with in-line editing with
+  relative ease
+- 5 of 11 participants experienced minor confusion during address validation process
+- Some usability hurdles in contact information section slowed multiple people down
+- Participants not bothered by multiple alerts when updating contact information,
+  though comprehension time varied
+- 6 of 11 participants were disrupted by having to leave notification settings page
+  to add mobile number
+- 5 participants missed the notification name, leading to misunderstanding about notification
+  purpose
+- 9 of 11 participants, including screenreader users, found in-line editing and one-thing-per-page
+  equally usable
+- Participants intuitively understood how to go from read-only to edit mode and save
+  changes
+- Alert followed by modal pattern did not cause confusion or prevent task completion
+- Current address validation UX was not totally intuitive for 5 of 11 people
 recommendations:
-  - "Continue using single page editing pattern that is in place today for primary editing functionality"
-  - "Improve user experience for buttons in profile - consider consistency and clarity"
-  - "Reevaluate 'update' vs 'save' button labeling based on user expectations"
-  - "Review button labels on cancel confirmation modal and remove modal"
-  - "Consult accessibility specialists to improve screenreader experience with remove button"
-  - "Review analytics around 'currently editing another section' alert to determine if intervention needed"
-  - "Explore simplifying address validation flow"
-  - "Leverage analytics to see if quantitative data support observed patterns"
-  - "Make edit buttons in address validation more discoverable"
-  - "Consider allowing mobile number to be added without leaving notification settings"
-  - "Improve visibility and emphasis of notification names"
+- Continue using single page editing pattern that is in place today for primary editing
+  functionality
+- Improve user experience for buttons in profile - consider consistency and clarity
+- Reevaluate 'update' vs 'save' button labeling based on user expectations
+- Review button labels on cancel confirmation modal and remove modal
+- Consult accessibility specialists to improve screenreader experience with remove
+  button
+- Review analytics around 'currently editing another section' alert to determine if
+  intervention needed
+- Explore simplifying address validation flow
+- Leverage analytics to see if quantitative data support observed patterns
+- Make edit buttons in address validation more discoverable
+- Consider allowing mobile number to be added without leaving notification settings
+- Improve visibility and emphasis of notification names
 kpi_alignment:
-  - "Improve usability for Veterans with cognitive disabilities"
-  - "Ensure accessibility compliance across profile functionality"
-  - "Reduce errors and confusion in profile editing workflows"
+- Improve usability for Veterans with cognitive disabilities
+- Ensure accessibility compliance across profile functionality
+- Reduce errors and confusion in profile editing workflows
 outcomes:
-  user: "Veterans with cognitive considerations and those using assistive technology can easily edit their profile information"
-  business: "Validate that current edit-in-place pattern meets accessibility standards and does not require costly one-thing-per-page refactor"
+  user: Veterans with cognitive considerations and those using assistive technology
+    can easily edit their profile information
+  business: Validate that current edit-in-place pattern meets accessibility standards
+    and does not require costly one-thing-per-page refactor
 opportunity_areas:
-  - "Address validation flow simplification"
-  - "Button language and placement consistency"
-  - "Notification settings workflow improvement"
-  - "Screenreader experience optimization"
+- Address validation flow simplification
+- Button language and placement consistency
+- Notification settings workflow improvement
+- Screenreader experience optimization
 further_research_needed:
-  - "Build more realistic one-thing-per-page prototype if future testing desired"
-  - "Address validation analytics analysis"
-  - "Study of alert triggering patterns for 'currently editing another section'"
+- Build more realistic one-thing-per-page prototype if future testing desired
+- Address validation analytics analysis
+- Study of alert triggering patterns for 'currently editing another section'
 underserved_groups_missing:
-  - "Expats"
-  - "LGBTQ+ community members"
-  - "Beginner AT users"
-  - "Speech Input Technology users"
-  - "Hearing aid users"
-  - "Sighted keyboard users"
-  - "Captions users"
-  - "Switch device users"
-  - "Braille reader users"
+- Expats
+- LGBTQ+ community members
+- Beginner AT users
+- Speech Input Technology users
+- Hearing aid users
+- Sighted keyboard users
+- Captions users
+- Switch device users
+- Braille reader users
 secondary_research:
-  - "Previous profile usability studies"
-  - "Accessibility specialist recommendations"
-  - "One-thing-per-page pattern research"
+- Previous profile usability studies
+- Accessibility specialist recommendations
+- One-thing-per-page pattern research
 synthesis_tools_used:
-  - "Session notes"
-  - "Video recordings"
-  - "Usability testing protocols"
-  - "Comparative analysis"
+- Session notes
+- Video recordings
+- Usability testing protocols
+- Comparative analysis
+tags:
+- 'AUD: Veterans'
+- 'AUD: Caregivers'
+- 'AUD: Dependents'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Pension'
+- 'PRDT: Decision-reviews'
+- 'MHV: Appointments'
+- 'MHV: Secure Messaging'
+- usability-testing
+- moderated-research
+- remote-research
+- Accessibility
+- evaluative
 ---
-
 # Profile Editing Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), VA.gov Profile, Authenticated Experience**

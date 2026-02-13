@@ -1,25 +1,27 @@
 ---
-title: "Document Status Research Findings"
-product: "Claim Status Tool"
-team: "Benefits Team 1"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-11-20"
+title: Document Status Research Findings
+product: Claim Status Tool
+team: Benefits Team 1
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-11-20'
 researchers:
-  - "Gary Homidas"
+- Gary Homidas
 research_goals:
-  - "Evaluate whether participants can use proposed design of alerts and statuses to understand different types of success and upload failures"
-  - "Identify whether Veterans recognize the connection between failure notification email and in-app alerts for failures"
-  - "Identify what a Veteran expects when they mail in documents"
-  - "Understand how upload status impacts trust in the claims process"
+- Evaluate whether participants can use proposed design of alerts and statuses to
+  understand different types of success and upload failures
+- Identify whether Veterans recognize the connection between failure notification
+  email and in-app alerts for failures
+- Identify what a Veteran expects when they mail in documents
+- Understand how upload status impacts trust in the claims process
 methodology:
-  - "Remote moderated semi-structured interviews"
-  - "Usability testing with prototype"
-  - "Scenario-based testing"
+- Remote moderated semi-structured interviews
+- Usability testing with prototype
+- Scenario-based testing
 devices_used:
-    desktop: 7
-    tablet: 0
-    smartphone: 1
-    assistive_technology: 0
+  desktop: 7
+  tablet: 0
+  smartphone: 1
+  assistive_technology: 0
 participants_total: 8
 demographics:
   veterans: 8
@@ -28,11 +30,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 1
-    "45-54": 2
-    "55-64": 4
-    "65+": 1
+    25-34: 0
+    35-44: 1
+    45-54: 2
+    55-64: 4
+    65+: 1
     unknown: 0
   education:
     high_school: 2
@@ -65,49 +67,74 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "All participants understood that recently submitted files were in progress and had not been added to their claim as long as the In Progress card remained visible"
-  - "Every participant recognized that the upload failure notification email directly corresponds to the failure alerts displayed in CST"
-  - "After reading email and in-app alerts, all seven participants acknowledged they must resubmit documents that failed to upload"
-  - "Most participants are confident that VA will properly manage Veterans' physical documents and add them to their claims (average rating 4.4 out of 5)"
-  - "Veterans reported average confidence level of 4.7 out of 5 in their ability to successfully submit documents based on instructions provided"
-  - "All 7 participants expected VA to send confirmation email or notification once submitted physical documents were received and added to claim"
-  - "Many participants were uncertain about inconsistency in file statuses under Documents Received - some files showed statuses while others had none"
+- All participants understood that recently submitted files were in progress and had
+  not been added to their claim as long as the In Progress card remained visible
+- Every participant recognized that the upload failure notification email directly
+  corresponds to the failure alerts displayed in CST
+- After reading email and in-app alerts, all seven participants acknowledged they
+  must resubmit documents that failed to upload
+- Most participants are confident that VA will properly manage Veterans' physical
+  documents and add them to their claims (average rating 4.4 out of 5)
+- Veterans reported average confidence level of 4.7 out of 5 in their ability to successfully
+  submit documents based on instructions provided
+- All 7 participants expected VA to send confirmation email or notification once submitted
+  physical documents were received and added to claim
+- Many participants were uncertain about inconsistency in file statuses under Documents
+  Received - some files showed statuses while others had none
 recommendations:
-  - "Continue using design approach to differentiate In Progress documents from Documents Received, but unify terms Submission Started On and Submitted On"
-  - "Update content to ensure important information is clearly communicated using iconography and visual emphasis"
-  - "Explore UI design for received file statuses to resolve lack of clarity around tracked items having status and unrequested files not having status"
-  - "Consider sending notifications to Veterans to confirm physical documents have been received and added to claims"
-  - "Provide Veterans with substantive explanation of why file upload failed and reassure them they are not at fault"
-  - "Provide alternative option for digitally re-submitting documents if initial upload fails"
-  - "Explore ways to associate files to correct Veterans and claims without requiring full SSN for mailed documents"
+- Continue using design approach to differentiate In Progress documents from Documents
+  Received, but unify terms Submission Started On and Submitted On
+- Update content to ensure important information is clearly communicated using iconography
+  and visual emphasis
+- Explore UI design for received file statuses to resolve lack of clarity around tracked
+  items having status and unrequested files not having status
+- Consider sending notifications to Veterans to confirm physical documents have been
+  received and added to claims
+- Provide Veterans with substantive explanation of why file upload failed and reassure
+  them they are not at fault
+- Provide alternative option for digitally re-submitting documents if initial upload
+  fails
+- Explore ways to associate files to correct Veterans and claims without requiring
+  full SSN for mailed documents
 kpi_alignment:
-  - "Decrease support inquiries through clear in-app status updates"
-  - "Reduce anxiety through real-time transparency"
-  - "Enable self-service resolution through actionable feedback"
+- Decrease support inquiries through clear in-app status updates
+- Reduce anxiety through real-time transparency
+- Enable self-service resolution through actionable feedback
 outcomes:
-  user: "Veterans can effectively understand document upload statuses and take appropriate action when uploads succeed or fail"
-  business: "Reduce support calls and increase trust in digital submission process by providing transparent document status information"
+  user: Veterans can effectively understand document upload statuses and take appropriate
+    action when uploads succeed or fail
+  business: Reduce support calls and increase trust in digital submission process
+    by providing transparent document status information
 opportunity_areas:
-  - "Digital re-submission option after upload failure"
-  - "Automated confirmation for physical document receipt"
-  - "Improved status tracking for all submitted documents"
+- Digital re-submission option after upload failure
+- Automated confirmation for physical document receipt
+- Improved status tracking for all submitted documents
 further_research_needed:
-  - "Validate designs with Veterans who have cognitive disabilities"
-  - "Test with Veterans using assistive technology"
+- Validate designs with Veterans who have cognitive disabilities
+- Test with Veterans using assistive technology
 underserved_groups_missing:
-  - "Veterans with cognitive disabilities"
-  - "Veterans with other-than-honorable discharge status"
-  - "Veterans of immigrant origin or living abroad"
-  - "Veterans of Hispanic, biracial, Asian, or Native descent"
-  - "Veterans who identify as LGBTQ+"
-  - "Veterans who use assistive technology"
+- Veterans with cognitive disabilities
+- Veterans with other-than-honorable discharge status
+- Veterans of immigrant origin or living abroad
+- Veterans of Hispanic, biracial, Asian, or Native descent
+- Veterans who identify as LGBTQ+
+- Veterans who use assistive technology
 secondary_research:
-  - "CST Silent Failures Journey Map"
+- CST Silent Failures Journey Map
 synthesis_tools_used:
-  - "Mural"
-  - "Google Sheet"
+- Mural
+- Google Sheet
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'PRDT: Claim-status-tool'
+- usability-testing
+- semi-structured-interviews
+- moderated-research
+- remote-research
+- evaluative
 ---
-
 # Document Status Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Product Name, Team Name**

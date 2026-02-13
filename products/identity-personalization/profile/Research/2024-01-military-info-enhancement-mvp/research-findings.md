@@ -1,25 +1,28 @@
 ---
-title: "Enhanced Military Information Research Findings"
-product: "Profile - Military Information"
-team: "Authenticated Experience Profile Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-03-08"
+title: Enhanced Military Information Research Findings
+product: Profile - Military Information
+team: Authenticated Experience Profile Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-03-08'
 researchers:
-  - "Pam Drouin (A1M Solutions)"
+- Pam Drouin (A1M Solutions)
 research_goals:
-  - "Gain a better understanding of veteran mental models regarding their service occupations to inform how we present military information data"
-  - "Review data pulled from VADIR with veterans to assess accuracy, completeness, and utility"
-  - "Gather feedback on proposed design mock-up for enhancing military information section with duty status, dates, and military occupation specialties"
+- Gain a better understanding of veteran mental models regarding their service occupations
+  to inform how we present military information data
+- Review data pulled from VADIR with veterans to assess accuracy, completeness, and
+  utility
+- Gather feedback on proposed design mock-up for enhancing military information section
+  with duty status, dates, and military occupation specialties
 methodology:
-  - "Semi-structured interviews"
-  - "Concept testing"
-  - "Data walk-through with VADIR database queries"
-  - "Mental model card sorting activity"
+- Semi-structured interviews
+- Concept testing
+- Data walk-through with VADIR database queries
+- Mental model card sorting activity
 devices_used:
-    desktop: 16
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 0
+  desktop: 16
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 16
 demographics:
   veterans: 16
@@ -28,11 +31,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 2
-    "35-44": 4
-    "45-54": 4
-    "55-64": 1
-    "65+": 5
+    25-34: 2
+    35-44: 4
+    45-54: 4
+    55-64: 1
+    65+: 5
     unknown: 0
   education:
     high_school: 1
@@ -65,49 +68,75 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Veterans use military records for promotions during service, vocational training, job applications after separation, and medical/disability benefits"
-  - "MOS is helpful for correlating medical issues to service, but location data is more helpful when providing context to healthcare providers and claims adjudicators"
-  - "Branch of service and service type (active/reserves) data from VADIR was highly accurate (15/15 participants confirmed)"
-  - "Service dates were mostly accurate but some were off by days or months (10/15 had correct dates)"
-  - "Military occupation data quality was inconsistent with inaccurate effective dates and incomplete occupation codes"
-  - "Deployment data had issues with dates and missing locations"
-  - "When conceptualizing military history, 7/9 veterans thought about location first rather than what they were doing (MOS)"
-  - "Veterans found value in displaying active duty and inactive reserves status in Profile"
-  - "Veterans suggested additional information be included: awards, dates, rank, locations, and unit assignments"
-  - "Only small number of veterans noticed additional information component for correcting data"
+- Veterans use military records for promotions during service, vocational training,
+  job applications after separation, and medical/disability benefits
+- MOS is helpful for correlating medical issues to service, but location data is more
+  helpful when providing context to healthcare providers and claims adjudicators
+- Branch of service and service type (active/reserves) data from VADIR was highly
+  accurate (15/15 participants confirmed)
+- Service dates were mostly accurate but some were off by days or months (10/15 had
+  correct dates)
+- Military occupation data quality was inconsistent with inaccurate effective dates
+  and incomplete occupation codes
+- Deployment data had issues with dates and missing locations
+- When conceptualizing military history, 7/9 veterans thought about location first
+  rather than what they were doing (MOS)
+- Veterans found value in displaying active duty and inactive reserves status in Profile
+- 'Veterans suggested additional information be included: awards, dates, rank, locations,
+  and unit assignments'
+- Only small number of veterans noticed additional information component for correcting
+  data
 recommendations:
-  - "Consider incorporating periodOfServiceTypeText (active/reserves) into veteran profiles as data was accurate and appreciated"
-  - "Consider incorporating characterOfDischargeText with explanation key for null values"
-  - "Discuss viability and utility of including narrativeReasonForSeparationText given accuracy concerns"
-  - "Do not pursue including militaryOccupations in veteran profiles given data inconsistencies and limited utility"
+- Consider incorporating periodOfServiceTypeText (active/reserves) into veteran profiles
+  as data was accurate and appreciated
+- Consider incorporating characterOfDischargeText with explanation key for null values
+- Discuss viability and utility of including narrativeReasonForSeparationText given
+  accuracy concerns
+- Do not pursue including militaryOccupations in veteran profiles given data inconsistencies
+  and limited utility
 kpi_alignment:
-  - "Improve accuracy and completeness of military history data in Profile"
-  - "Support veterans in applying for benefits, especially disability claims"
+- Improve accuracy and completeness of military history data in Profile
+- Support veterans in applying for benefits, especially disability claims
 outcomes:
-  user: "Veterans can access more complete military service information to support benefit applications and provide context to healthcare providers"
-  business: "Profile team has data-driven insights on which VADIR data elements are accurate and valuable enough to display to veterans"
+  user: Veterans can access more complete military service information to support
+    benefit applications and provide context to healthcare providers
+  business: Profile team has data-driven insights on which VADIR data elements are
+    accurate and valuable enough to display to veterans
 opportunity_areas:
-  - "Location data (duty stations, deployments, training) may be more valuable than MOS data for veterans"
-  - "Veterans want Profile to serve as one-stop shop for military records"
-  - "Data accuracy issues need resolution before deployment information can be displayed"
+- Location data (duty stations, deployments, training) may be more valuable than MOS
+  data for veterans
+- Veterans want Profile to serve as one-stop shop for military records
+- Data accuracy issues need resolution before deployment information can be displayed
 further_research_needed:
-  - "Investigate why service begin/end dates are sometimes off by days or months"
-  - "Monitor deployments and deployment locations data to see if coverage improves"
-  - "Investigate duty station location data since locations were organizing principle for 7 of 9 participants"
+- Investigate why service begin/end dates are sometimes off by days or months
+- Monitor deployments and deployment locations data to see if coverage improves
+- Investigate duty station location data since locations were organizing principle
+  for 7 of 9 participants
 underserved_groups_missing:
-  - "Other than honorable discharge"
-  - "Immigrant origin"
-  - "Expat (living abroad)"
-  - "LGBTQ+"
+- Other than honorable discharge
+- Immigrant origin
+- Expat (living abroad)
+- LGBTQ+
 secondary_research:
-  - "VADIR database queries"
-  - "DD214 validation"
+- VADIR database queries
+- DD214 validation
 synthesis_tools_used:
-  - "Interview transcripts"
-  - "Card sorting analysis"
-  - "Data accuracy tracking spreadsheet"
+- Interview transcripts
+- Card sorting analysis
+- Data accuracy tracking spreadsheet
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: My VA'
+- 'MHV: Appointments'
+- 'MHV: Personal Health Records/Medical Records'
+- semi-structured-interviews
+- remote-research
+- card-sort
 ---
-
 # Enhanced Military Information Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Profile: Military Information, Authenticated Experience Profile team**

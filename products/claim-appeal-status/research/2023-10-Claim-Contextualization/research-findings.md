@@ -1,23 +1,25 @@
 ---
-title: "Claim Contextualization Research Findings"
-product: "Claim Status Tool"
-team: "Benefits Management Tools"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-02-05"
+title: Claim Contextualization Research Findings
+product: Claim Status Tool
+team: Benefits Management Tools
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-02-05'
 researchers:
-  - "Gary Homidas"
-  - "Skyler Schain"
+- Gary Homidas
+- Skyler Schain
 research_goals:
-  - "Learn how well our designs solve the comprehension problems that exist for Veterans around the claim process"
-  - "Learn how useful this type of informational content would be for Veterans who are filing disability compensation claims on VA.gov"
-  - "Identify which aspects specifically Veterans find useful or not"
+- Learn how well our designs solve the comprehension problems that exist for Veterans
+  around the claim process
+- Learn how useful this type of informational content would be for Veterans who are
+  filing disability compensation claims on VA.gov
+- Identify which aspects specifically Veterans find useful or not
 methodology:
-  - "Remote moderated research sessions"
+- Remote moderated research sessions
 devices_used:
-    desktop: 0
-    tablet: 0
-    smartphone: 15
-    assistive_technology: 0
+  desktop: 0
+  tablet: 0
+  smartphone: 15
+  assistive_technology: 0
 participants_total: 15
 demographics:
   veterans: 15
@@ -26,11 +28,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 5
-    "45-54": 3
-    "55-64": 4
-    "65+": 1
+    25-34: 0
+    35-44: 5
+    45-54: 3
+    55-64: 4
+    65+: 1
     unknown: 2
   education:
     high_school: 0
@@ -70,34 +72,52 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Most participants said they prefer the new overview page design over the current design"
-  - "Most people understood that our graphics represented the process steps and that some steps may repeat"
-  - "Participants liked the estimated time feature, but there's confusion about timelines when claims repeat steps"
-  - "When claims repeat steps, they wanted to know why and who's responsible for resolving the issue"
-  - "Participants had different preferences regarding the level of detail in the overview page, with some favoring more information and others preferring less"
+- Most participants said they prefer the new overview page design over the current
+  design
+- Most people understood that our graphics represented the process steps and that
+  some steps may repeat
+- Participants liked the estimated time feature, but there's confusion about timelines
+  when claims repeat steps
+- When claims repeat steps, they wanted to know why and who's responsible for resolving
+  the issue
+- Participants had different preferences regarding the level of detail in the overview
+  page, with some favoring more information and others preferring less
 secondary_findings:
-  - "Veterans desired an interactive steps diagram or one that highlights the current step in their claim"
-  - "Most people found that the status page provided sufficient information about their claim"
-  - "A few participants were uncertain when they can add evidence"
+- Veterans desired an interactive steps diagram or one that highlights the current
+  step in their claim
+- Most people found that the status page provided sufficient information about their
+  claim
+- A few participants were uncertain when they can add evidence
 recommendations:
-  - "Continue the workstream of breaking out the steps and improve the beloved features of the new design while simplifying the content"
-  - "Ensure the accuracy of the timelines by using the data available and collaborating with VBA stakeholders to set realistic expectations for the process"
-  - "Provide Veterans more specific messages about their claim, particularly if it moves backward"
-  - "Collaborate with content strategists and SMEs (subject matter experts) to clarify confusing areas of the content"
+- Continue the workstream of breaking out the steps and improve the beloved features
+  of the new design while simplifying the content
+- Ensure the accuracy of the timelines by using the data available and collaborating
+  with VBA stakeholders to set realistic expectations for the process
+- Provide Veterans more specific messages about their claim, particularly if it moves
+  backward
+- Collaborate with content strategists and SMEs (subject matter experts) to clarify
+  confusing areas of the content
 further_research_needed:
-  - "Test with demographics that were not included in this study"
+- Test with demographics that were not included in this study
 underserved_groups_missing:
-  - "Cognitive Disability"
-  - "Other than honorable"
-  - "Immigrant origin"
-  - "Expat (living abroad)"
-  - "Live in rural areas or abroad"
-  - "Identify as Biracial, or LGBTQ+"
-  - "User relying on assistive technology"
+- Cognitive Disability
+- Other than honorable
+- Immigrant origin
+- Expat (living abroad)
+- Live in rural areas or abroad
+- Identify as Biracial, or LGBTQ+
+- User relying on assistive technology
 synthesis_tools_used:
-  - "Mural"
+- Mural
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'PRDT: Claim-status-tool'
+- 'MHV: Secure Messaging'
+- moderated-research
+- remote-research
 ---
-
 # Claim Contextualization Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Benefits Management Tools**

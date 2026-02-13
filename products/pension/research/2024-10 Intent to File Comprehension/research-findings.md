@@ -1,26 +1,28 @@
 ---
-title: "Intent to File Comprehension - Research Findings"
-product: "VA Form 21P-527EZ Veterans Pension Benefits - Intent to File"
-team: "Pension and Burial Benefits Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-12-02"
+title: Intent to File Comprehension - Research Findings
+product: VA Form 21P-527EZ Veterans Pension Benefits - Intent to File
+team: Pension and Burial Benefits Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-12-02'
 researchers:
-  - "Elisabeth Chin"
-  - "Daniela Jones"
+- Elisabeth Chin
+- Daniela Jones
 research_goals:
-  - "Validate when and how intent to file messaging might be effective for Veterans and evaluate usability of proposed content and experience"
-  - "Understand Veterans' expectations after an ITF is created"
-  - "Understand Veterans' existing mental model of ITF and barriers to taking action to start application"
+- Validate when and how intent to file messaging might be effective for Veterans and
+  evaluate usability of proposed content and experience
+- Understand Veterans' expectations after an ITF is created
+- Understand Veterans' existing mental model of ITF and barriers to taking action
+  to start application
 methodology:
-  - "Moderated interviews via Zoom"
-  - "Hour-long sessions with Figma prototypes"
-  - "Limited interactivity prototypes"
-  - "3 core scenarios: Success, Processing, Returning"
+- Moderated interviews via Zoom
+- Hour-long sessions with Figma prototypes
+- Limited interactivity prototypes
+- '3 core scenarios: Success, Processing, Returning'
 devices_used:
-    desktop: 5
-    tablet: 1
-    smartphone: 1
-    assistive_technology: 0
+  desktop: 5
+  tablet: 1
+  smartphone: 1
+  assistive_technology: 0
 participants_total: 7
 demographics:
   veterans: 7
@@ -37,11 +39,11 @@ demographics:
     female: 1
   lgbtq: 1
   age:
-    "25-34": 0
-    "35-44": 4
-    "45-54": 0
-    "55-64": 2
-    "65+": 1
+    25-34: 0
+    35-44: 4
+    45-54: 0
+    55-64: 2
+    65+: 1
     unknown: 0
   education:
     high_school: 0
@@ -75,73 +77,107 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Participants' familiarity with intent to file and learning sources varied widely - some used it before, others heard of it but uncertain what it meant"
-  - "On introduction page, participants did not engage with ITF content until prompted; they prioritized checking their eligibility first"
-  - "Participants didn't expect to be directed to ITF status page after clicking 'Start the pension application', but page was not disruptive to their application experience"
-  - "Participants confused by term 'potential start date' and had difficulty understanding why date wouldn't be guaranteed"
-  - "Participants understood consequences of their deadline when returning to in-progress application, but unclear whether they grasped financial impact"
-  - "Participant questions largely centered around application burden to get approved and how long it may take for VA to process their claim"
-  - "Participants would track ITF deadline on personal calendar; none expected VA to notify them through other means"
-  - "Participants hesitant to call VA due to unpleasant prior experiences; would seek VSOs, senior centers, email, Reddit instead"
-  - "None of participants used acronym 'ITF', instead referred to process as 'intent to file'"
-  - "Participants expected prefilled user information as part of application experience"
-  - "Learning sources for ITF varied: local Veteran centers, family/friends, retroactively after receiving backpay, proactive learning"
+- Participants' familiarity with intent to file and learning sources varied widely
+  - some used it before, others heard of it but uncertain what it meant
+- On introduction page, participants did not engage with ITF content until prompted;
+  they prioritized checking their eligibility first
+- Participants didn't expect to be directed to ITF status page after clicking 'Start
+  the pension application', but page was not disruptive to their application experience
+- Participants confused by term 'potential start date' and had difficulty understanding
+  why date wouldn't be guaranteed
+- Participants understood consequences of their deadline when returning to in-progress
+  application, but unclear whether they grasped financial impact
+- Participant questions largely centered around application burden to get approved
+  and how long it may take for VA to process their claim
+- Participants would track ITF deadline on personal calendar; none expected VA to
+  notify them through other means
+- Participants hesitant to call VA due to unpleasant prior experiences; would seek
+  VSOs, senior centers, email, Reddit instead
+- None of participants used acronym 'ITF', instead referred to process as 'intent
+  to file'
+- Participants expected prefilled user information as part of application experience
+- 'Learning sources for ITF varied: local Veteran centers, family/friends, retroactively
+  after receiving backpay, proactive learning'
 recommendations:
-  - "Reframe qualifying language such as 'potential start date' to provide reasoning around why VA cannot make guarantees (dependent on getting approved)"
-  - "Avoid displaying intent to file status page every time user returns to application to not disrupt Veterans from working on application"
-  - "Describe what happens after an application or intent to file expires to provide context around dates displayed"
-  - "Explore how to set expectations for how long claim might take to process so Veterans understand benefits of ITF process (more back payments over longer time)"
-  - "Re-evaluate time estimate under Step 3 on introduction page to avoid misleading expectations"
-  - "Clarify what channels Veterans can expect VA will communicate with them"
-  - "Provide more detailed estimate for claims processing timeline"
-  - "Consider notification strategy for ITF deadlines"
-  - "Better messaging on ITF benefits and financial impact"
-  - "Provide more context on claims timeline and what happens after applying"
-  - "Move ITF information more prominently if eligibility is clear to Veteran"
+- Reframe qualifying language such as 'potential start date' to provide reasoning
+  around why VA cannot make guarantees (dependent on getting approved)
+- Avoid displaying intent to file status page every time user returns to application
+  to not disrupt Veterans from working on application
+- Describe what happens after an application or intent to file expires to provide
+  context around dates displayed
+- Explore how to set expectations for how long claim might take to process so Veterans
+  understand benefits of ITF process (more back payments over longer time)
+- Re-evaluate time estimate under Step 3 on introduction page to avoid misleading
+  expectations
+- Clarify what channels Veterans can expect VA will communicate with them
+- Provide more detailed estimate for claims processing timeline
+- Consider notification strategy for ITF deadlines
+- Better messaging on ITF benefits and financial impact
+- Provide more context on claims timeline and what happens after applying
+- Move ITF information more prominently if eligibility is clear to Veteran
 kpi_alignment:
-  - "Veterans understand ITF benefits and file earlier to maximize backpay"
-  - "Reduce calls to VA about ITF questions"
-  - "Increase ITF submissions from eligible Veterans"
-  - "Veterans complete applications within ITF deadline"
+- Veterans understand ITF benefits and file earlier to maximize backpay
+- Reduce calls to VA about ITF questions
+- Increase ITF submissions from eligible Veterans
+- Veterans complete applications within ITF deadline
 outcomes:
-  user: "Veterans understand when and why to file intent to file, maximize their potential benefits through earlier filing, and complete application within deadline"
-  business: "Increase ITF usage, reduce support calls, ensure Veterans receive maximum benefits they're entitled to, reduce expired ITFs"
+  user: Veterans understand when and why to file intent to file, maximize their potential
+    benefits through earlier filing, and complete application within deadline
+  business: Increase ITF usage, reduce support calls, ensure Veterans receive maximum
+    benefits they're entitled to, reduce expired ITFs
 opportunity_areas:
-  - "Integration of ITF date with statement period Veterans should reference for accurate application completion"
-  - "Better communication of application burden and timeline to set realistic expectations"
-  - "Notification system for ITF deadline reminders"
-  - "Improved visibility of ITF information on VA mobile app"
-  - "Clearer connection between ITF and long claims processing timelines"
+- Integration of ITF date with statement period Veterans should reference for accurate
+  application completion
+- Better communication of application burden and timeline to set realistic expectations
+- Notification system for ITF deadline reminders
+- Improved visibility of ITF information on VA mobile app
+- Clearer connection between ITF and long claims processing timelines
 further_research_needed:
-  - "Evaluate effectiveness of introduction page and ITF status page with pension-eligible Veterans"
-  - "Test changes to user experience that ties intent to file with statement period for accurate application completion"
-  - "Evaluate identity verification errors that may impact intent to file"
-  - "Test Veterans' comprehension of verified accounts and relationship to intent to file"
-  - "Evaluate expired ITF scenarios"
-  - "Test with Veterans who have never filed claims before"
-  - "More testing with diverse audiences and underserved groups"
+- Evaluate effectiveness of introduction page and ITF status page with pension-eligible
+  Veterans
+- Test changes to user experience that ties intent to file with statement period for
+  accurate application completion
+- Evaluate identity verification errors that may impact intent to file
+- Test Veterans' comprehension of verified accounts and relationship to intent to
+  file
+- Evaluate expired ITF scenarios
+- Test with Veterans who have never filed claims before
+- More testing with diverse audiences and underserved groups
 underserved_groups_missing:
-  - "Veterans with no degree"
-  - "Immigrant origin"
-  - "Other than honorable discharge"
-  - "Expat (living abroad)"
-  - "Biracial or multiracial"
-  - "Asian"
-  - "Native"
-  - "Black Veterans"
-  - "Assistive technology users"
-  - "Caregivers and family members"
+- Veterans with no degree
+- Immigrant origin
+- Other than honorable discharge
+- Expat (living abroad)
+- Biracial or multiracial
+- Asian
+- Native
+- Black Veterans
+- Assistive technology users
+- Caregivers and family members
 secondary_research:
-  - "526 disability team extensive research on ITF pain points and technical blockers"
-  - "Baseline audit of Veteran's intent to file experience across VA.gov"
-  - "Review of ITF descriptions across VA.gov (found inconsistencies, hard to find, obfuscated by claims timeline complexity)"
-  - "38 CFR 3.110 policy review for ITF submission timing"
+- 526 disability team extensive research on ITF pain points and technical blockers
+- Baseline audit of Veteran's intent to file experience across VA.gov
+- Review of ITF descriptions across VA.gov (found inconsistencies, hard to find, obfuscated
+  by claims timeline complexity)
+- 38 CFR 3.110 policy review for ITF submission timing
 synthesis_tools_used:
-  - "Mural"
-  - "Figma prototypes"
-  - "Session recordings and transcripts"
+- Mural
+- Figma prototypes
+- Session recordings and transcripts
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Pension'
+- 'PRDT: Caregivers'
+- 'MHV: Appointments'
+- 'MHV: Pharmacy'
+- semi-structured-interviews
+- moderated-research
+- remote-research
+- evaluative
 ---
-
 # **Intent to File Comprehension: Research Findings**
 
 **Office of the CTO \- Digital Experience (OCTO-DE), Pension and Burial Benefits Team**

@@ -1,28 +1,30 @@
 ---
-title: "VA Mobile App Blind and Low Vision Usability Study Research Findings"
-product: "VA Mobile App - Accessibility"
-team: "VA Mobile App Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2023-01-11"
+title: VA Mobile App Blind and Low Vision Usability Study Research Findings
+product: VA Mobile App - Accessibility
+team: VA Mobile App Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2023-01-11'
 researchers:
-  - "Melissa Lefevre"
-  - "Liz Straghalis"
-  - "Brea Blackwelder"
-  - "Angela Fowler"
+- Melissa Lefevre
+- Liz Straghalis
+- Brea Blackwelder
+- Angela Fowler
 research_goals:
-  - "Identify pain points for Veterans using assistive tech navigating the app"
-  - "Surface new accessibility issues"
-  - "Establish foundational knowledge of patterns and differences in experience across a diversity of mobile assistive technology users"
-  - "Understand what value the mobile app provides blind users versus other products in the VA ecosystem"
+- Identify pain points for Veterans using assistive tech navigating the app
+- Surface new accessibility issues
+- Establish foundational knowledge of patterns and differences in experience across
+  a diversity of mobile assistive technology users
+- Understand what value the mobile app provides blind users versus other products
+  in the VA ecosystem
 methodology:
-  - "Remote moderated usability sessions via Zoom"
-  - "Wayfinding task-based exploration"
-  - "Live app testing with assistive technology"
+- Remote moderated usability sessions via Zoom
+- Wayfinding task-based exploration
+- Live app testing with assistive technology
 devices_used:
-    desktop: 0
-    tablet: 0
-    smartphone: 9
-    assistive_technology: 9
+  desktop: 0
+  tablet: 0
+  smartphone: 9
+  assistive_technology: 9
 participants_total: 8
 demographics:
   veterans: 8
@@ -31,11 +33,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 2
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 2
+    65+: 0
     unknown: 6
   education:
     high_school: 0
@@ -68,56 +70,73 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Veterans using assistive technology navigated through the app fairly well, although new issues surfaced and the experience wasn't always smooth"
-  - "The challenge of the in-between became clear; Veterans progressing in their VA journey or with in-flux or blurry health situations seemed to face additional pain points"
-  - "Veterans using assistive technology value independence, and the tools they use to realize their independence are critical"
-  - "Veterans using screen readers used shortcuts when navigating the app"
+- Veterans using assistive technology navigated through the app fairly well, although
+  new issues surfaced and the experience wasn't always smooth
+- The challenge of the in-between became clear; Veterans progressing in their VA journey
+  or with in-flux or blurry health situations seemed to face additional pain points
+- Veterans using assistive technology value independence, and the tools they use to
+  realize their independence are critical
+- Veterans using screen readers used shortcuts when navigating the app
 recommendations:
-  - "Action items higher up on the screen (compose a message)"
-  - "Fix login issues including error messaging and security question display"
-  - "Fix screen reader skipping alert notifications"
-  - "Ensure biometric components are working properly"
-  - "Better color differentiation"
-  - "Explore solutions for TalkBack issues"
-  - "Fix back button inconsistencies"
-  - "Custom picker should close after making selection instead of requiring 'done' button"
-  - "Provide minimal version of app for slow/spotty internet connections"
-  - "Use icons to help Veterans who are not native English speakers, have cognitive disabilities, or low vision users"
-  - "Integrate training on the app at blind rehab centers"
-  - "Use accessibility-first approach for new feature builds"
+- Action items higher up on the screen (compose a message)
+- Fix login issues including error messaging and security question display
+- Fix screen reader skipping alert notifications
+- Ensure biometric components are working properly
+- Better color differentiation
+- Explore solutions for TalkBack issues
+- Fix back button inconsistencies
+- Custom picker should close after making selection instead of requiring 'done' button
+- Provide minimal version of app for slow/spotty internet connections
+- Use icons to help Veterans who are not native English speakers, have cognitive disabilities,
+  or low vision users
+- Integrate training on the app at blind rehab centers
+- Use accessibility-first approach for new feature builds
 kpi_alignment:
-  - "Improve accessibility of digital services for Veterans with disabilities"
-  - "Increase usage of mobile app among Veterans using assistive technology"
-  - "Reduce accessibility-related support requests"
+- Improve accessibility of digital services for Veterans with disabilities
+- Increase usage of mobile app among Veterans using assistive technology
+- Reduce accessibility-related support requests
 outcomes:
-  user: "Veterans using assistive technology can independently navigate and complete tasks in the mobile app"
-  business: "Improved accessibility compliance and user satisfaction for Veterans with visual impairments"
+  user: Veterans using assistive technology can independently navigate and complete
+    tasks in the mobile app
+  business: Improved accessibility compliance and user satisfaction for Veterans with
+    visual impairments
 opportunity_areas:
-  - "In-app feedback mechanism"
-  - "Training and onboarding for assistive technology users"
-  - "Consolidation of VA mobile apps (MOVE, PTSD, Rx)"
-  - "Braille signage at VA medical centers"
-  - "Better support recognition for legally blind Veterans"
+- In-app feedback mechanism
+- Training and onboarding for assistive technology users
+- Consolidation of VA mobile apps (MOVE, PTSD, Rx)
+- Braille signage at VA medical centers
+- Better support recognition for legally blind Veterans
 further_research_needed:
-  - "Test solutions for identified accessibility issues"
-  - "Evaluate minimal/lightweight app version for connectivity issues"
-  - "Research icon usage for improved comprehension"
-  - "Explore in-person feedback sessions for assistive technology users"
+- Test solutions for identified accessibility issues
+- Evaluate minimal/lightweight app version for connectivity issues
+- Research icon usage for improved comprehension
+- Explore in-person feedback sessions for assistive technology users
 underserved_groups_missing:
-  - "Veterans who identify as LGBTQ+"
-  - "Veterans who identify as Hispanic, Biracial, or Native"
-  - "Veterans living in rural areas"
+- Veterans who identify as LGBTQ+
+- Veterans who identify as Hispanic, Biracial, or Native
+- Veterans living in rural areas
 secondary_research:
-  - "Participant feedback on Be My Eyes app usage"
-  - "VA Blind Rehab program insights"
-  - "BROS (Blind Rehab Occupational Specialists) consultation"
-  - "VIST (Visual Impairment Services Team) collaboration"
+- Participant feedback on Be My Eyes app usage
+- VA Blind Rehab program insights
+- BROS (Blind Rehab Occupational Specialists) consultation
+- VIST (Visual Impairment Services Team) collaboration
 synthesis_tools_used:
-  - "Accessibility-specific note coding"
-  - "Group synthesis sessions"
-  - "Accessibility specialist debriefs"
+- Accessibility-specific note coding
+- Group synthesis sessions
+- Accessibility specialist debriefs
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: Facilities'
+- 'MHV: Secure Messaging'
+- usability-testing
+- moderated-research
+- remote-research
+- Accessibility
 ---
-
 # VA Mobile App blind and low vision usability study
 
 

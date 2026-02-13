@@ -1,22 +1,24 @@
 ---
-title: "Find a Representative User Test Research Findings"
-product: "Find a Representative"
-team: "Accredited Representative Management"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2023-12-01"
+title: Find a Representative User Test Research Findings
+product: Find a Representative
+team: Accredited Representative Management
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2023-12-01'
 researchers:
-  - "Janelle Finnerty"
+- Janelle Finnerty
 research_goals:
-  - "Understand Veterans' motivations for seeking representation, why they selected their representative, and what that experience has been like"
-  - "Understand how users navigate to and use the Find a Representative tool on both desktop and mobile devices"
+- Understand Veterans' motivations for seeking representation, why they selected their
+  representative, and what that experience has been like
+- Understand how users navigate to and use the Find a Representative tool on both
+  desktop and mobile devices
 methodology:
-  - "Semi-structured interview"
-  - "Usability testing"
+- Semi-structured interview
+- Usability testing
 devices_used:
-    desktop: 5
-    tablet: 1
-    smartphone: 2
-    assistive_technology: 0
+  desktop: 5
+  tablet: 1
+  smartphone: 2
+  assistive_technology: 0
 participants_total: 8
 demographics:
   veterans: 8
@@ -25,11 +27,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 1
-    "55-64": 4
-    "65+": 3
+    25-34: 0
+    35-44: 0
+    45-54: 1
+    55-64: 4
+    65+: 3
     unknown: 0
   education:
     high_school: 1
@@ -69,41 +71,70 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Veterans main goal for getting a representative is to aid in fast, comprehensive, successful filing of their claims. When that goal is not met, Veterans look for alternative support"
-  - "Representatives can make or break a Veterans claims experience causing Veterans to rely heavily on peer / family referrals, and online research, when selecting a representative"
-  - "During the application process, and first meeting, most Veterans preferred in-person support from a representative to build trust and comfort with the process"
-  - "Veterans continuously struggled with understanding representative terms and roles"
-  - "While most Veterans had never considered VA.gov to find a representative, after seeing the experience every Veteran wanted to use it immediately"
+- Veterans main goal for getting a representative is to aid in fast, comprehensive,
+  successful filing of their claims. When that goal is not met, Veterans look for
+  alternative support
+- Representatives can make or break a Veterans claims experience causing Veterans
+  to rely heavily on peer / family referrals, and online research, when selecting
+  a representative
+- During the application process, and first meeting, most Veterans preferred in-person
+  support from a representative to build trust and comfort with the process
+- Veterans continuously struggled with understanding representative terms and roles
+- While most Veterans had never considered VA.gov to find a representative, after
+  seeing the experience every Veteran wanted to use it immediately
 recommendations:
-  - "Improve findability of the Find a Representative tool through homepage placement and keyword improvements"
-  - "Replace 'accredited representative' with more Veteran facing terms such as VSO, Veteran Service Officer, Veteran Service Organization, or attorney"
-  - "Improve representative data quality to increase adoption and trust in information"
-  - "Consider turning ON Veteran Service Officers to bring local VSO locations to search. While turning OFF Veteran Service Organizations and Claims Agents for MVP"
-  - "Make the 'How can each type of representative help me?' more prominent on the Find a Representative tool"
-  - "Provide a search radius option for Veterans in more rural areas"
-  - "Remove the sort option 'farthest to closest'"
-  - "Make the address clickable from the search results and open in the users native map application"
-  - "Provide inputs for representatives to mark and display if they are remote only, and to turn off private addresses"
-  - "Give Veterans a way to fill-out and sign the 21-22/21-22a and send to their representative to sign and submit in a secure manner"
-  - "Place assigned representative associated with the Veterans claim on MyVA, or under the Veterans profile"
-  - "Additional data points to consider for search results: Veteran reviews or ratings, websites, capacity, service area, or case specialization (attorneys only)"
+- Improve findability of the Find a Representative tool through homepage placement
+  and keyword improvements
+- Replace 'accredited representative' with more Veteran facing terms such as VSO,
+  Veteran Service Officer, Veteran Service Organization, or attorney
+- Improve representative data quality to increase adoption and trust in information
+- Consider turning ON Veteran Service Officers to bring local VSO locations to search.
+  While turning OFF Veteran Service Organizations and Claims Agents for MVP
+- Make the 'How can each type of representative help me?' more prominent on the Find
+  a Representative tool
+- Provide a search radius option for Veterans in more rural areas
+- Remove the sort option 'farthest to closest'
+- Make the address clickable from the search results and open in the users native
+  map application
+- Provide inputs for representatives to mark and display if they are remote only,
+  and to turn off private addresses
+- Give Veterans a way to fill-out and sign the 21-22/21-22a and send to their representative
+  to sign and submit in a secure manner
+- Place assigned representative associated with the Veterans claim on MyVA, or under
+  the Veterans profile
+- 'Additional data points to consider for search results: Veteran reviews or ratings,
+  websites, capacity, service area, or case specialization (attorneys only)'
 further_research_needed:
-  - "Continue with research with signed-in users on the 21-22/21-22a form flow"
+- Continue with research with signed-in users on the 21-22/21-22a form flow
 underserved_groups_missing:
-  - "Cognitive disability"
-  - "Other than honorable"
-  - "Immigrant origin"
-  - "Expat (living abroad)"
-  - "Black"
-  - "Native"
-  - "LGBTQ+ (any)"
-  - "Assistive technology (any)"
+- Cognitive disability
+- Other than honorable
+- Immigrant origin
+- Expat (living abroad)
+- Black
+- Native
+- LGBTQ+ (any)
+- Assistive technology (any)
 secondary_research:
-  - "09/2023 ARM Secondary Research"
+- 09/2023 ARM Secondary Research
 synthesis_tools_used:
-  - "Enjoy HQ"
+- Enjoy HQ
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Housing'
+- 'BNFT: Pension'
+- 'BNFT: Records'
+- 'PRDT: Accredited-Reps'
+- 'MHV: Appointments'
+- 'MHV: Pharmacy'
+- usability-testing
+- semi-structured-interviews
+- remote-research
+- Accessibility
 ---
-
 # Find a Representative User Test Research Findings, 12/2023<a id="find-a-representative-user-test-research-findings-122023"></a>
 
 **Office of the CTO - Digital Experience (OCTO-DE), Find a Representative, Accredited Representative Management Team**

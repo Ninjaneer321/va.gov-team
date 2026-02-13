@@ -1,24 +1,26 @@
 ---
-title: "Appointments List Research Findings"
-product: "VA Online Scheduling and MyHealtheVet appointments"
-team: "VAOS+MHV"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2022-02-28"
+title: Appointments List Research Findings
+product: VA Online Scheduling and MyHealtheVet appointments
+team: VAOS+MHV
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2022-02-28'
 researchers:
-  - "Peter Russo - peter.russo@adhocteam.us"
-  - "Ciera Maddox (VAOS)"
-  - "Andrea Perez (MHV)"
+- Peter Russo - peter.russo@adhocteam.us
+- Ciera Maddox (VAOS)
+- Andrea Perez (MHV)
 research_goals:
-  - "Identify anything participants find lacking or confusing in the VAOS appointment list, in comparison with the same list in MHV"
-  - "Determine what changes are needed to the VAOS list beyond what was identified in the gap analysis"
+- Identify anything participants find lacking or confusing in the VAOS appointment
+  list, in comparison with the same list in MHV
+- Determine what changes are needed to the VAOS list beyond what was identified in
+  the gap analysis
 methodology:
-  - "Concept testing"
-  - "Comparative analysis (MHV vs VAOS)"
+- Concept testing
+- Comparative analysis (MHV vs VAOS)
 devices_used:
-    desktop: 9
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 0
+  desktop: 9
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 9
 demographics:
   veterans: 9
@@ -27,11 +29,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 1
-    "35-44": 2
-    "45-54": 2
-    "55-64": 4
-    "65+": 0
+    25-34: 1
+    35-44: 2
+    45-54: 2
+    55-64: 4
+    65+: 0
     unknown: 0
   education:
     high_school: 0
@@ -64,46 +66,58 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Participants were most confused that two different sites list their appointments"
-  - "Clinic names confused participants"
-  - "Some participants were confused to see unfamiliar facilities when navigating from MHV to VAOS"
-  - "Participants wanted to be able to easily differentiate appointments in VAOS"
-  - "Participants wanted to easily understand how and where they would attend their appointments"
-  - "Participants wanted tools to help them contact their provider"
-  - "Almost all participants responded positively to the proposed concept"
-  - "Some participants found the word 'pending' confusing in the concept"
+- Participants were most confused that two different sites list their appointments
+- Clinic names confused participants
+- Some participants were confused to see unfamiliar facilities when navigating from
+  MHV to VAOS
+- Participants wanted to be able to easily differentiate appointments in VAOS
+- Participants wanted to easily understand how and where they would attend their appointments
+- Participants wanted tools to help them contact their provider
+- Almost all participants responded positively to the proposed concept
+- Some participants found the word 'pending' confusing in the concept
 recommendations:
-  - "Provide clear information that answers basic questions about appointments in the list"
-  - "Build on the proposed concept"
-  - "Review the Cerner offboarding interaction when navigating from MHV to VAOS"
-  - "Advocate for clear clinic names"
-  - "Consider providing a path to Secure Messenger from the appointment list"
+- Provide clear information that answers basic questions about appointments in the
+  list
+- Build on the proposed concept
+- Review the Cerner offboarding interaction when navigating from MHV to VAOS
+- Advocate for clear clinic names
+- Consider providing a path to Secure Messenger from the appointment list
 kpi_alignment: []
 outcomes:
-  user: "Veterans can easily understand and manage their health care appointments when transitioning from MHV to VAOS"
-  business: "Validate findings from concept study with usability research"
+  user: Veterans can easily understand and manage their health care appointments when
+    transitioning from MHV to VAOS
+  business: Validate findings from concept study with usability research
 opportunity_areas:
-  - "Technical discovery to surface clearer clinic name data"
-  - "Discovery with facilities to understand what value the codes provide schedulers"
-  - "Provide a simple path to the secure messaging tool from the appointments list"
+- Technical discovery to surface clearer clinic name data
+- Discovery with facilities to understand what value the codes provide schedulers
+- Provide a simple path to the secure messaging tool from the appointments list
 further_research_needed:
-  - "Usability testing on updated prototype"
-  - "Validation of situations where type of care can/can't be shown"
-  - "Discovery to see if it's possible to surface lab information, clearer clinic name and location information, and facility campus map or location pages"
+- Usability testing on updated prototype
+- Validation of situations where type of care can/can't be shown
+- Discovery to see if it's possible to surface lab information, clearer clinic name
+  and location information, and facility campus map or location pages
 underserved_groups_missing:
-  - "Cognitive Disability"
-  - "Other than honorable"
-  - "Expat"
-  - "LGBTQ+"
-  - "Assistive Tech users"
+- Cognitive Disability
+- Other than honorable
+- Expat
+- LGBTQ+
+- Assistive Tech users
 secondary_research:
-  - "Gap analysis (VA Network)"
-  - "Recommendations document (VA Network)"
+- Gap analysis (VA Network)
+- Recommendations document (VA Network)
 synthesis_tools_used:
-  - "Mural"
-  - "Spreadsheet"
+- Mural
+- Spreadsheet
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'PRDT: Facilities'
+- 'MHV: Appointments'
+- 'MHV: Secure Messaging'
+- usability-testing
 ---
-
 # Appointments List Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), VA Online Scheduling and MyHealtheVet appointments, VAOS+MHV**

@@ -1,25 +1,27 @@
 ---
-title: "Medical Records, Secure Messages, and Medications Filter Research Findings"
-product: "My HealtheVet on VA.gov"
-team: "MHV on VA.gov Medical Records, Secure Messaging, and Pharmacy Teams"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-12-09"
+title: Medical Records, Secure Messages, and Medications Filter Research Findings
+product: My HealtheVet on VA.gov
+team: MHV on VA.gov Medical Records, Secure Messaging, and Pharmacy Teams
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-12-09'
 researchers:
-  - "Anne Costello Kennedy"
-  - "Melissa Stern"
+- Anne Costello Kennedy
+- Melissa Stern
 research_goals:
-  - "Identify pain points Veterans experience using filter function to find messages, medications, and medical records"
-  - "Understand how Veterans use filters to find messages, medications, and medical records"
-  - "Understand Veterans' needs and expectations for using filters within Secure Messages, Medications, and Medical Records"
+- Identify pain points Veterans experience using filter function to find messages,
+  medications, and medical records
+- Understand how Veterans use filters to find messages, medications, and medical records
+- Understand Veterans' needs and expectations for using filters within Secure Messages,
+  Medications, and Medical Records
 methodology:
-  - "Moderated usability testing sessions"
-  - "Participants navigated both prototypes and live Codespace environment"
-  - "Observation of behavior with follow-up prompts"
+- Moderated usability testing sessions
+- Participants navigated both prototypes and live Codespace environment
+- Observation of behavior with follow-up prompts
 devices_used:
-    desktop: 8
-    tablet: 1
-    smartphone: 3
-    assistive_technology: 0
+  desktop: 8
+  tablet: 1
+  smartphone: 3
+  assistive_technology: 0
 participants_total: 12
 demographics:
   veterans: 12
@@ -28,11 +30,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 1
-    "35-44": 0
-    "45-54": 0
-    "55-64": 3
-    "65+": 7
+    25-34: 1
+    35-44: 0
+    45-54: 0
+    55-64: 3
+    65+: 7
     unknown: 1
   education:
     high_school: 1
@@ -65,42 +67,61 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Participants had mixed understanding of Medications filter options, especially 'Renewal needed before refill'"
-  - "All participants understood 'Recently requested' filter but few found expired medications needing renewal"
-  - "Most participants failed to clear filter in Medications, attempting invalid methods"
-  - "Many participants missed the filter button in Medications before scrolling to results"
-  - "Most participants successfully used date filter to find various medical records"
-  - "Most participants used filters to find secure messages, primarily by subject and doctor name"
-  - "Participants used filters when clearly visible, for records over a year old, or with long lists"
-  - "Most participants did not expect filter selections to carry over between domains or products"
-  - "Many participants requested ability to search, sort, or filter medications by name"
-  - "Half of participants wanted to search Lab and Test Results by keyword"
+- Participants had mixed understanding of Medications filter options, especially 'Renewal
+  needed before refill'
+- All participants understood 'Recently requested' filter but few found expired medications
+  needing renewal
+- Most participants failed to clear filter in Medications, attempting invalid methods
+- Many participants missed the filter button in Medications before scrolling to results
+- Most participants successfully used date filter to find various medical records
+- Most participants used filters to find secure messages, primarily by subject and
+  doctor name
+- Participants used filters when clearly visible, for records over a year old, or
+  with long lists
+- Most participants did not expect filter selections to carry over between domains
+  or products
+- Many participants requested ability to search, sort, or filter medications by name
+- Half of participants wanted to search Lab and Test Results by keyword
 recommendations:
-  - "Workshop alternative ideas for Medications filters to improve understanding"
-  - "Consider alternative ways to clear the medications filter beyond current implementation"
+- Workshop alternative ideas for Medications filters to improve understanding
+- Consider alternative ways to clear the medications filter beyond current implementation
 kpi_alignment:
-  - "Improved findability of medications, medical records, and secure messages"
-  - "Reduced time to locate specific health information"
-  - "Enhanced filter usability across health products"
+- Improved findability of medications, medical records, and secure messages
+- Reduced time to locate specific health information
+- Enhanced filter usability across health products
 outcomes:
-  user: "Veterans can efficiently find specific health information using filters across Medical Records, Secure Messages, and Medications"
-  business: "Filter functionality meets Veterans' needs and expectations for finding health information"
+  user: Veterans can efficiently find specific health information using filters across
+    Medical Records, Secure Messages, and Medications
+  business: Filter functionality meets Veterans' needs and expectations for finding
+    health information
 opportunity_areas:
-  - "Medications filter terminology and descriptions need clarification"
-  - "Filter clearing mechanism needs to be more intuitive"
-  - "Search by medication name would improve usability significantly"
-  - "Keyword search in Lab and Test Results would address Veteran needs"
+- Medications filter terminology and descriptions need clarification
+- Filter clearing mechanism needs to be more intuitive
+- Search by medication name would improve usability significantly
+- Keyword search in Lab and Test Results would address Veteran needs
 further_research_needed:
-  - "Usability testing on updated Medications filters with clearer terminology"
+- Usability testing on updated Medications filters with clearer terminology
 underserved_groups_missing:
-  - "Assistive technology users"
-  - "Veterans with additional cognitive disabilities beyond the 3 participants"
+- Assistive technology users
+- Veterans with additional cognitive disabilities beyond the 3 participants
 secondary_research:
-  - "Previous usability studies on Medical Records, Secure Messaging, and Medications"
+- Previous usability studies on Medical Records, Secure Messaging, and Medications
 synthesis_tools_used:
-  - "Mural for affinity mapping"
+- Mural for affinity mapping
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: Caregivers'
+- 'MHV: Pharmacy'
+- 'MHV: Secure Messaging'
+- 'MHV: Personal Health Records/Medical Records'
+- usability-testing
+- moderated-research
+- remote-research
 ---
-
 # Medical Records, Secure Messages, and Medications, Filter Research Findings
 
 Date: December 9, 2024

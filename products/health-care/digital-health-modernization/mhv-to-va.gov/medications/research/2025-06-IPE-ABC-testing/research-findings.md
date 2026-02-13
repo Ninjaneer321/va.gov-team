@@ -1,22 +1,23 @@
 ---
-title: "Medications In Product Education (IPE) A/B/C Study Research Findings"
-product: "Medications"
-team: "My HealtheVet on VA.gov"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2025-07-10"
+title: Medications In Product Education (IPE) A/B/C Study Research Findings
+product: Medications
+team: My HealtheVet on VA.gov
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2025-07-10'
 researchers:
-  - "Anne Costello Kennedy"
+- Anne Costello Kennedy
 research_goals:
-  - "Understand whether the IPE helps Veterans find their medications"
-  - "Understand whether the IPE encourages Veterans to use the filter component"
-  - "Understand where the IPE is most effective within the Medications on VA.gov IA (Information Architecture)"
+- Understand whether the IPE helps Veterans find their medications
+- Understand whether the IPE encourages Veterans to use the filter component
+- Understand where the IPE is most effective within the Medications on VA.gov IA (Information
+  Architecture)
 methodology:
-  - "Remote unmoderated ABC testing"
+- Remote unmoderated ABC testing
 devices_used:
-    desktop: 0
-    tablet: 0
-    smartphone: 227
-    assistive_technology: 0
+  desktop: 0
+  tablet: 0
+  smartphone: 227
+  assistive_technology: 0
 participants_total: 227
 demographics:
   veterans: 227
@@ -25,11 +26,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 12
-    "35-44": 0
-    "45-54": 76
-    "55-64": 53
-    "65+": 80
+    25-34: 12
+    35-44: 0
+    45-54: 76
+    55-64: 53
+    65+: 80
     unknown: 6
   education:
     high_school: 30
@@ -62,23 +63,36 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Time on task was very similar among the three designs"
-  - "On tasks 2 and 3 in which the medication was not on the first page, the open filter design showed 87% direct success compared to 70 - 73% in the IPE above and IPE below designs"
-  - "Participants attempted to use the disabled sort in all tasks at approximately the same rate regardless of design"
-  - "The frequency of feedback that included phrases about how the tasks were easy, that the filter helped, and that participants would not change the designs was markedly heavier with the open filter design"
-  - "The 'easy' and 'very easy' responses to the Likert scale questions assessing difficulty of each task and overall were higher for the design with the IPE above the filter"
+- Time on task was very similar among the three designs
+- On tasks 2 and 3 in which the medication was not on the first page, the open filter
+  design showed 87% direct success compared to 70 - 73% in the IPE above and IPE below
+  designs
+- Participants attempted to use the disabled sort in all tasks at approximately the
+  same rate regardless of design
+- The frequency of feedback that included phrases about how the tasks were easy, that
+  the filter helped, and that participants would not change the designs was markedly
+  heavier with the open filter design
+- The 'easy' and 'very easy' responses to the Likert scale questions assessing difficulty
+  of each task and overall were higher for the design with the IPE above the filter
 recommendations: []
 kpi_alignment: []
 outcomes:
-  user: "Not specified"
-  business: "Not specified"
+  user: Not specified
+  business: Not specified
 opportunity_areas: []
 further_research_needed: []
 underserved_groups_missing: []
 secondary_research: []
 synthesis_tools_used: []
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'PRDT: Caregivers'
+- 'MHV: Pharmacy'
+- moderated-research
+- remote-research
 ---
-
 # Medications In Product Education (IPE) A/B/C Study Research Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), Medications on VA.gov**

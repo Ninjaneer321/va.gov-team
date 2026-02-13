@@ -1,28 +1,32 @@
 ---
-title: "Development Letter Experience and 5103 Notice Improvements Research Findings"
-product: "Claim and Appeal Status"
-team: "Benefits Management Tools"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-09-10"
+title: Development Letter Experience and 5103 Notice Improvements Research Findings
+product: Claim and Appeal Status
+team: Benefits Management Tools
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-09-10'
 researchers:
-  - "Gary Homidas (gary.homidas@adhocteam.us)"
-  - "Skyler Schain (skyler.schain@coforma.io)"
+- Gary Homidas (gary.homidas@adhocteam.us)
+- Skyler Schain (skyler.schain@coforma.io)
 research_goals:
-  - "Understand Veterans' experience with development letters today, including pain points and things that seem to be working"
-  - "Evaluate the efficacy of the new 5103 Notice design"
-  - "Assess how well CST's tracked items content model for alerts works across different request types associated with development letters"
-  - "Identify pain points in current development letters experience that could be resolved with CST improvements"
-  - "Assess Veteran perception of the value and risks associated with electronic-only communications from VA"
+- Understand Veterans' experience with development letters today, including pain points
+  and things that seem to be working
+- Evaluate the efficacy of the new 5103 Notice design
+- Assess how well CST's tracked items content model for alerts works across different
+  request types associated with development letters
+- Identify pain points in current development letters experience that could be resolved
+  with CST improvements
+- Assess Veteran perception of the value and risks associated with electronic-only
+  communications from VA
 methodology:
-  - "Remote moderated usability testing via Zoom"
-  - "High-fidelity Figma prototype testing"
-  - "60 minute sessions"
-  - "Prototype walkthrough and feedback sessions"
+- Remote moderated usability testing via Zoom
+- High-fidelity Figma prototype testing
+- 60 minute sessions
+- Prototype walkthrough and feedback sessions
 devices_used:
-    desktop: 11
-    tablet: 1
-    smartphone: 1
-    assistive_technology: 0
+  desktop: 11
+  tablet: 1
+  smartphone: 1
+  assistive_technology: 0
 participants_total: 13
 demographics:
   veterans: 13
@@ -31,11 +35,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 1
-    "35-44": 2
-    "45-54": 4
-    "55-64": 4
-    "65+": 2
+    25-34: 1
+    35-44: 2
+    45-54: 4
+    55-64: 4
+    65+: 2
     unknown: 0
   education:
     high_school: 2
@@ -68,56 +72,82 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Veterans rated the notice information an average score of 4.5 out of 5 for helpfulness"
-  - "Most participants accurately summarized the 5103 notice page, but by the end of the flow, they were unclear about the purpose and implications of the waiver"
-  - "Confirmation messages appear on unexpected pages, and are missing where some participants expected them"
-  - "Most participants recalled valuing the thoroughness of decision letters but were frustrated by the lengthy wait and vague information about claim status"
-  - "Most participants (9 of 13) said they would prefer to receive electronic-only communication regarding their claims"
-  - "77% of participants preferred completing the VA Form 21-4142 online, while 33% opted for downloading the PDF version"
-  - "Participants wanted PDF forms to be fillable and to include an electronic signature option"
-  - "Participants wanted claims requiring action or containing new notifications to be prioritized visually"
+- Veterans rated the notice information an average score of 4.5 out of 5 for helpfulness
+- Most participants accurately summarized the 5103 notice page, but by the end of
+  the flow, they were unclear about the purpose and implications of the waiver
+- Confirmation messages appear on unexpected pages, and are missing where some participants
+  expected them
+- Most participants recalled valuing the thoroughness of decision letters but were
+  frustrated by the lengthy wait and vague information about claim status
+- Most participants (9 of 13) said they would prefer to receive electronic-only communication
+  regarding their claims
+- 77% of participants preferred completing the VA Form 21-4142 online, while 33% opted
+  for downloading the PDF version
+- Participants wanted PDF forms to be fillable and to include an electronic signature
+  option
+- Participants wanted claims requiring action or containing new notifications to be
+  prioritized visually
 recommendations:
-  - "Continue refining the flow and design of the notice page experience"
-  - "Clarify that submitting the evidence waiver doesn't prevent Veterans from adding evidence later"
-  - "Strengthen the flow to prompt Veterans to submit an evidence waiver after uploading evidence"
-  - "Add a homepage message confirming the submission of a waiver or evidence during the last session"
-  - "Reduce confusion by moving the 5103 waiver confirmation to the status page and deep-linking to Additional Evidence on the files tab"
-  - "Switch the order of form links to show online tool before PDF download option on the VA 21-4142 form page"
-  - "Ensure the online VA 21-4142 form closes the tracked item, not just the PDF version uploaded into CST"
-  - "Investigate whether more PDF forms need to be fillable and allow e-signatures"
-  - "Include future usability testing to test scenarios where Veterans upload multiple files"
+- Continue refining the flow and design of the notice page experience
+- Clarify that submitting the evidence waiver doesn't prevent Veterans from adding
+  evidence later
+- Strengthen the flow to prompt Veterans to submit an evidence waiver after uploading
+  evidence
+- Add a homepage message confirming the submission of a waiver or evidence during
+  the last session
+- Reduce confusion by moving the 5103 waiver confirmation to the status page and deep-linking
+  to Additional Evidence on the files tab
+- Switch the order of form links to show online tool before PDF download option on
+  the VA 21-4142 form page
+- Ensure the online VA 21-4142 form closes the tracked item, not just the PDF version
+  uploaded into CST
+- Investigate whether more PDF forms need to be fillable and allow e-signatures
+- Include future usability testing to test scenarios where Veterans upload multiple
+  files
 kpi_alignment:
-  - "Reduce confusion around development letter requirements"
-  - "Increase electronic communication adoption"
-  - "Improve Veteran satisfaction with claims status experience"
-  - "Reduce contact center calls about development letters"
+- Reduce confusion around development letter requirements
+- Increase electronic communication adoption
+- Improve Veteran satisfaction with claims status experience
+- Reduce contact center calls about development letters
 outcomes:
-  user: "Veterans clearly understand what actions are required in response to development letters and can easily complete those actions through CST"
-  business: "Reduced processing time for development requests and fewer incomplete responses, leading to faster claims decisions"
+  user: Veterans clearly understand what actions are required in response to development
+    letters and can easily complete those actions through CST
+  business: Reduced processing time for development requests and fewer incomplete
+    responses, leading to faster claims decisions
 opportunity_areas:
-  - "Electronic-only communication preferences for development letters"
-  - "Enhanced notification system for claim updates"
-  - "Two-way communication features like live chat or direct VSR contact"
-  - "Mobile app notification badges for claim actions"
+- Electronic-only communication preferences for development letters
+- Enhanced notification system for claim updates
+- Two-way communication features like live chat or direct VSR contact
+- Mobile app notification badges for claim actions
 further_research_needed:
-  - "Testing with assistive technology users"
-  - "Validation of electronic communication preferences with larger sample"
-  - "Research on optimal notification timing and frequency"
-  - "Testing of revised waiver language and flow"
+- Testing with assistive technology users
+- Validation of electronic communication preferences with larger sample
+- Research on optimal notification timing and frequency
+- Testing of revised waiver language and flow
 underserved_groups_missing:
-  - "Cognitive disability representation"
-  - "Other than honorable discharge Veterans"
-  - "Immigrant and expat Veterans"
-  - "Rural and urban location data"
-  - "Biracial and LGBTQ+ Veterans"
-  - "Assistive technology users"
+- Cognitive disability representation
+- Other than honorable discharge Veterans
+- Immigrant and expat Veterans
+- Rural and urban location data
+- Biracial and LGBTQ+ Veterans
+- Assistive technology users
 secondary_research:
-  - "None specified"
+- None specified
 synthesis_tools_used:
-  - "Mural"
-  - "Mural Synthesis"
+- Mural
+- Mural Synthesis
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Pension'
+- 'PRDT: Claim-status-tool'
+- 'MHV: Secure Messaging'
+- usability-testing
+- moderated-research
+- remote-research
+- evaluative
 ---
-
 # Evaluate development letter experience and improvements to 5103 notices
 
 **Office of the CTO - Digital Experience (OCTO-DE), Benefits Management Tools**

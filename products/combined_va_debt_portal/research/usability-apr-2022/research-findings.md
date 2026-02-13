@@ -1,23 +1,25 @@
 ---
-title: "Combined Debt Portal Research Findings"
-product: "Combined VA Debt Portal"
-team: "The Debt Resolution Team / Benefits Team 2"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2022-07-07"
+title: Combined Debt Portal Research Findings
+product: Combined VA Debt Portal
+team: The Debt Resolution Team / Benefits Team 2
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2022-07-07'
 researchers:
-  - "Megan Gayle"
+- Megan Gayle
 research_goals:
-  - "Identify the entry points Veterans expect when accessing information about their debts or copays"
-  - "Validate if it's intuitive to Veterans how to navigate between their debts and copay bills"
-  - "Verify the labeling of 'debt', 'copay', and 'bills'"
+- Identify the entry points Veterans expect when accessing information about their
+  debts or copays
+- Validate if it's intuitive to Veterans how to navigate between their debts and copay
+  bills
+- Verify the labeling of 'debt', 'copay', and 'bills'
 methodology:
-  - "Remote moderated usability testing"
-  - "Zoom sessions"
+- Remote moderated usability testing
+- Zoom sessions
 devices_used:
-    desktop: 8
-    tablet: 0
-    smartphone: 3
-    assistive_technology: 0
+  desktop: 8
+  tablet: 0
+  smartphone: 3
+  assistive_technology: 0
 participants_total: 11
 demographics:
   veterans: 11
@@ -26,11 +28,11 @@ demographics:
   dependents: 1
   VA_staff: 0
   age:
-    "25-34": 1
-    "35-44": 1
-    "45-54": 3
-    "55-64": 2
-    "65+": 4
+    25-34: 1
+    35-44: 1
+    45-54: 3
+    55-64: 2
+    65+: 4
     unknown: 0
   education:
     high_school: 1
@@ -63,41 +65,64 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "How participants defined copays, debt, and bills: Participants defined copays in relation to money owed for medical related expenses. Debt as money owed, usually through overpayment from VA. Most participants defined bills as similar to debt, as money owed."
-  - "Most participants looked on the 4 quadrants of the homepage for a link to handle their debt/copay"
-  - "Most participants did not have issues navigating from copays to debts and vice versa when starting from the summary page. We don't have enough data to know if this will be an issue if they start from a detail page."
-  - "Most participants were able to locate how to request financial help"
-  - "Most participants were able to locate how to view statements"
-  - "Most participants were able to locate how to pay their debt/copay"
-  - "Some participants felt there were too many pages and that important features were hidden"
+- 'How participants defined copays, debt, and bills: Participants defined copays in
+  relation to money owed for medical related expenses. Debt as money owed, usually
+  through overpayment from VA. Most participants defined bills as similar to debt,
+  as money owed.'
+- Most participants looked on the 4 quadrants of the homepage for a link to handle
+  their debt/copay
+- Most participants did not have issues navigating from copays to debts and vice versa
+  when starting from the summary page. We don't have enough data to know if this will
+  be an issue if they start from a detail page.
+- Most participants were able to locate how to request financial help
+- Most participants were able to locate how to view statements
+- Most participants were able to locate how to pay their debt/copay
+- Some participants felt there were too many pages and that important features were
+  hidden
 recommendations:
-  - "Look into ways of consolidating pages and surfacing important statement data and pay link sooner"
-  - "Look into ways to make 'View my other VA debts' link more prominent and consider using the term Copays instead of Your other VA bills when linking to the copay page"
-  - "Consider using the term overpayment when referring to debt caused by an overpayment. Several participants mentioned overpayment when defining debt. One participant stated he liked when it was mentioned, so it doesn't make you feel fraudulent and makes the dispute process easier."
-  - "Eliminate &nbsp; characters on the copay statement page"
+- Look into ways of consolidating pages and surfacing important statement data and
+  pay link sooner
+- Look into ways to make 'View my other VA debts' link more prominent and consider
+  using the term Copays instead of Your other VA bills when linking to the copay page
+- Consider using the term overpayment when referring to debt caused by an overpayment.
+  Several participants mentioned overpayment when defining debt. One participant stated
+  he liked when it was mentioned, so it doesn't make you feel fraudulent and makes
+  the dispute process easier.
+- Eliminate &nbsp; characters on the copay statement page
 kpi_alignment: []
 outcomes:
-  user: "Not specified"
-  business: "Not specified"
+  user: Not specified
+  business: Not specified
 opportunity_areas: []
 further_research_needed:
-  - "Further research should be conducted involving Veterans who have both debts and copays within the last 6 months."
+- Further research should be conducted involving Veterans who have both debts and
+  copays within the last 6 months.
 underserved_groups_missing:
-  - "Gender: Women"
-  - "Race: Asian"
-  - "LGBTQ+"
-  - "Other than honorable discharge"
-  - "Immigrant origin"
-  - "Expat (living abroad)"
-  - "Users of Assistive Technology other than hearing aids"
+- 'Gender: Women'
+- 'Race: Asian'
+- LGBTQ+
+- Other than honorable discharge
+- Immigrant origin
+- Expat (living abroad)
+- Users of Assistive Technology other than hearing aids
 secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Observer notes spreadsheet"
+- Mural
+- Observer notes spreadsheet
+tags:
+- 'AUD: Veterans'
+- 'AUD: Dependents'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: My VA'
+- usability-testing
+- moderated-research
+- remote-research
+- Accessibility
+- evaluative
 ---
-
-
-
 # Combined Debt Portal Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Combined Debt Portal,  The Debt Resolution Team / Benefits Team 2**

@@ -1,27 +1,29 @@
 ---
-title: "2022 VA Mobile Appointment Request Research Findings"
-product: "VA Mobile App - Appointment Scheduling"
-team: "VA Mobile App Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2022-05-31"
+title: 2022 VA Mobile Appointment Request Research Findings
+product: VA Mobile App - Appointment Scheduling
+team: VA Mobile App Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2022-05-31'
 researchers:
-  - "Lauren Russell"
-  - "Liz Straghalis"
+- Lauren Russell
+- Liz Straghalis
 research_goals:
-  - "Understand the Veteran user's perspective and experience making medical appointments"
-  - "Discover the Veteran's mental models surrounding their current appointment scheduling experience"
-  - "Assess the Appointment Request flow usability"
-  - "Investigate if users understand appointment statuses and how to cancel previous requests in the mobile context"
-  - "Gather feedback on how they interpret the information"
+- Understand the Veteran user's perspective and experience making medical appointments
+- Discover the Veteran's mental models surrounding their current appointment scheduling
+  experience
+- Assess the Appointment Request flow usability
+- Investigate if users understand appointment statuses and how to cancel previous
+  requests in the mobile context
+- Gather feedback on how they interpret the information
 methodology:
-  - "Remote moderated usability study via Zoom"
-  - "Semi-structured discovery interview"
-  - "High fidelity prototype testing"
+- Remote moderated usability study via Zoom
+- Semi-structured discovery interview
+- High fidelity prototype testing
 devices_used:
-    desktop: 0
-    tablet: 0
-    smartphone: 8
-    assistive_technology: 0
+  desktop: 0
+  tablet: 0
+  smartphone: 8
+  assistive_technology: 0
 participants_total: 8
 demographics:
   veterans: 8
@@ -30,11 +32,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
     unknown: 8
   education:
     high_school: 0
@@ -67,49 +69,65 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Participants were comfortable with the existing ways they scheduled appointments, especially secure messaging in MHV"
-  - "Almost all participants (7/8) had positive comments on appointment status label tags"
-  - "All participants noticed the Pending label tag right away; half of the participants (4/8) misunderstood the meaning"
-  - "Some participants (5/8) accurately predicted they would experience the flow before pressing Request an appointment"
-  - "Most participants (6/8) successfully completed the Request appointment flow in the prototype; it was easy to use, but it was unclear why they would use the tool"
-  - "Most participants experienced dissonance with the date and time selection screen"
-  - "Many participants easily located the Cancel button on the appointment detail view"
+- Participants were comfortable with the existing ways they scheduled appointments,
+  especially secure messaging in MHV
+- Almost all participants (7/8) had positive comments on appointment status label
+  tags
+- All participants noticed the Pending label tag right away; half of the participants
+  (4/8) misunderstood the meaning
+- Some participants (5/8) accurately predicted they would experience the flow before
+  pressing Request an appointment
+- Most participants (6/8) successfully completed the Request appointment flow in the
+  prototype; it was easy to use, but it was unclear why they would use the tool
+- Most participants experienced dissonance with the date and time selection screen
+- Many participants easily located the Cancel button on the appointment detail view
 recommendations:
-  - "Consider ways to streamline the Appointment Request workflow"
-  - "Consider providing all appointment statuses in the list for clarity"
-  - "Consider including appointment modality as icons in the list"
-  - "Look for places to provide Secure Messaging"
-  - "Release Request Appointment feature with Direct Scheduling feature to provide clear distinction"
-  - "Include a calendar to add context a date picker could not provide"
+- Consider ways to streamline the Appointment Request workflow
+- Consider providing all appointment statuses in the list for clarity
+- Consider including appointment modality as icons in the list
+- Look for places to provide Secure Messaging
+- Release Request Appointment feature with Direct Scheduling feature to provide clear
+  distinction
+- Include a calendar to add context a date picker could not provide
 kpi_alignment:
-  - "Veterans can manage their health services online"
-  - "Increased usage of digital self-service tools"
-  - "Improved completion rate of online transactions"
+- Veterans can manage their health services online
+- Increased usage of digital self-service tools
+- Improved completion rate of online transactions
 outcomes:
-  user: "Veterans can easily request medical appointments through the mobile app with clear expectations of the process"
-  business: "Reduced call center volume and increased digital appointment scheduling"
+  user: Veterans can easily request medical appointments through the mobile app with
+    clear expectations of the process
+  business: Reduced call center volume and increased digital appointment scheduling
 opportunity_areas:
-  - "Secure messaging integration for appointment requests"
-  - "Calendar implementation for better date selection context"
-  - "Appointment modality visibility (in-person, phone, video)"
+- Secure messaging integration for appointment requests
+- Calendar implementation for better date selection context
+- Appointment modality visibility (in-person, phone, video)
 further_research_needed:
-  - "Follow-up study with Assistive Technology users"
-  - "Date-time usability and sensemaking validation"
-  - "Test calendar implementation for accessibility"
-  - "Validate Direct Scheduling screens as part of entire experience"
+- Follow-up study with Assistive Technology users
+- Date-time usability and sensemaking validation
+- Test calendar implementation for accessibility
+- Validate Direct Scheduling screens as part of entire experience
 underserved_groups_missing:
-  - "Veterans who use Assistive Technology"
-  - "Veterans who identify as Asian, Latinx, or Native"
-  - "Veterans who identify as LGBTQ+"
+- Veterans who use Assistive Technology
+- Veterans who identify as Asian, Latinx, or Native
+- Veterans who identify as LGBTQ+
 secondary_research:
-  - "2022 MHV + VAOS study on appointment modality"
-  - "Office of Connected Care (OCC) collaboration"
-  - "VA Online Scheduling (VAOS) business requirements"
+- 2022 MHV + VAOS study on appointment modality
+- Office of Connected Care (OCC) collaboration
+- VA Online Scheduling (VAOS) business requirements
 synthesis_tools_used:
-  - "Session notes"
-  - "Team synthesis discussions"
+- Session notes
+- Team synthesis discussions
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Healthcare'
+- 'MHV: Appointments'
+- 'MHV: Secure Messaging'
+- usability-testing
+- moderated-research
+- remote-research
+- semi-structured-interviews
+- discovery
 ---
-
 # 2022 VA Mobile Appointment Request Research Findings
 
 Office of the CTO - Digital Experience (OCTO-DE)

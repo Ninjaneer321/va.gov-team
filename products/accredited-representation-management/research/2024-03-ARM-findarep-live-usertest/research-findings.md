@@ -1,24 +1,24 @@
 ---
-title: "ARM Team - Find a Representative LIVE User Test Research Findings"
-product: "Accredited Representative Management (ARM)"
-team: "Accredited Representative Management Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-04-01"
+title: ARM Team - Find a Representative LIVE User Test Research Findings
+product: Accredited Representative Management (ARM)
+team: Accredited Representative Management Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-04-01'
 researchers:
-  - "Janelle Finnerty"
+- Janelle Finnerty
 research_goals:
-  - "Understand how Veterans navigate to Find a Representative tool on VA.gov"
-  - "Understand usability of Find a Representative search feature on VA.gov"
-  - "Gather feedback from both mobile and assistive technology users on VA.gov"
-  - "Identify navigation challenges and opportunities to improve findability"
+- Understand how Veterans navigate to Find a Representative tool on VA.gov
+- Understand usability of Find a Representative search feature on VA.gov
+- Gather feedback from both mobile and assistive technology users on VA.gov
+- Identify navigation challenges and opportunities to improve findability
 methodology:
-  - "Warm-up questions"
-  - "Usability testing on live VA.gov"
+- Warm-up questions
+- Usability testing on live VA.gov
 devices_used:
-    desktop: 4
-    tablet: 2
-    smartphone: 5
-    assistive_technology: 6
+  desktop: 4
+  tablet: 2
+  smartphone: 5
+  assistive_technology: 6
 participants_total: 11
 demographics:
   veterans: 11
@@ -27,11 +27,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 1
-    "45-54": 3
-    "55-64": 2
-    "65+": 5
+    25-34: 0
+    35-44: 1
+    45-54: 3
+    55-64: 2
+    65+: 5
     unknown: 0
   education:
     high_school: 2
@@ -64,52 +64,76 @@ demographics:
     sighted_keyboard: 0
     captions: 1
 key_findings:
-  - "Navigation challenging: Unless searching 'VSO' or 'veteran service officer' users struggled to find tool (average 1 minute 48 seconds); effective search terms took average 23 seconds"
-  - "Search feature effective: All users understood search task; location filter most valued for finding representatives they can meet in person"
-  - "Information gaps: Users requested additional representative information including website, biography, remote availability, specialty areas, rating system, and business hours"
-  - "Contact info critical: Missing phone or email contact information decreased trust; some suggested representatives without contact information should not be listed"
-  - "Organizations impact trust: Large presence of one organization raised suspicion among some users; 'no longer recognized' status significantly lowered trust"
-  - "Report button mixed reception: Users evenly split on using outdated information button; some hesitant about causing problems for representatives"
-  - "Next steps clear: Most users indicated they would contact representative by phone or email to make appointments after finding them"
+- 'Navigation challenging: Unless searching ''VSO'' or ''veteran service officer''
+  users struggled to find tool (average 1 minute 48 seconds); effective search terms
+  took average 23 seconds'
+- 'Search feature effective: All users understood search task; location filter most
+  valued for finding representatives they can meet in person'
+- 'Information gaps: Users requested additional representative information including
+  website, biography, remote availability, specialty areas, rating system, and business
+  hours'
+- 'Contact info critical: Missing phone or email contact information decreased trust;
+  some suggested representatives without contact information should not be listed'
+- 'Organizations impact trust: Large presence of one organization raised suspicion
+  among some users; ''no longer recognized'' status significantly lowered trust'
+- 'Report button mixed reception: Users evenly split on using outdated information
+  button; some hesitant about causing problems for representatives'
+- 'Next steps clear: Most users indicated they would contact representative by phone
+  or email to make appointments after finding them'
 recommendations:
-  - "Standardize titles and call-outs across landing pages to include 'VSO' terminology"
-  - "Add 'vso rep' to search best bets for improved discoverability"
-  - "Update footer link to point to Find a Representative page instead of current destination"
-  - "Clearly mark paid versus free representatives in content and search results"
-  - "Provide comprehensive list of Veteran Service Organizations with contact information"
-  - "Remove 'no longer recognized' organizations from public listings"
-  - "Remove 'Insurance Card' mention on Appoint Representative page (causes confusion)"
-  - "Make 'print and fill' content more prominent for those who prefer paper forms"
-  - "Add requested representative information fields where available (specialty, availability, ratings)"
+- Standardize titles and call-outs across landing pages to include 'VSO' terminology
+- Add 'vso rep' to search best bets for improved discoverability
+- Update footer link to point to Find a Representative page instead of current destination
+- Clearly mark paid versus free representatives in content and search results
+- Provide comprehensive list of Veteran Service Organizations with contact information
+- Remove 'no longer recognized' organizations from public listings
+- Remove 'Insurance Card' mention on Appoint Representative page (causes confusion)
+- Make 'print and fill' content more prominent for those who prefer paper forms
+- Add requested representative information fields where available (specialty, availability,
+  ratings)
 kpi_alignment: []
 outcomes:
-  user: "Veterans can easily find and contact appropriate accredited representatives in their geographic area who meet their specific needs"
-  business: "Improved representative discovery rates, increased engagement with representative services, and higher Veteran satisfaction with finding help"
+  user: Veterans can easily find and contact appropriate accredited representatives
+    in their geographic area who meet their specific needs
+  business: Improved representative discovery rates, increased engagement with representative
+    services, and higher Veteran satisfaction with finding help
 opportunity_areas:
-  - "Enhanced representative profiles with more detailed information"
-  - "Rating or review system for representatives based on Veteran experiences"
-  - "Remote availability indicators for Veterans who cannot meet in person"
-  - "Specialty matching to connect Veterans with representatives experienced in specific claim types"
+- Enhanced representative profiles with more detailed information
+- Rating or review system for representatives based on Veteran experiences
+- Remote availability indicators for Veterans who cannot meet in person
+- Specialty matching to connect Veterans with representatives experienced in specific
+  claim types
 further_research_needed:
-  - "Other than honorable discharge Veterans"
-  - "Immigrant origin Veterans"
-  - "Expat Veterans living abroad"
-  - "Biracial, Asian, and Native Veterans"
-  - "LGBTQ+ Veterans"
-  - "Desktop and mobile screen reader users"
+- Other than honorable discharge Veterans
+- Immigrant origin Veterans
+- Expat Veterans living abroad
+- Biracial, Asian, and Native Veterans
+- LGBTQ+ Veterans
+- Desktop and mobile screen reader users
 underserved_groups_missing:
-  - "Other than honorable"
-  - "Immigrant origin"
-  - "Expat (living abroad)"
-  - "Biracial, Asian, Native"
-  - "LGBTQ+"
-  - "Screen reader users"
+- Other than honorable
+- Immigrant origin
+- Expat (living abroad)
+- Biracial, Asian, Native
+- LGBTQ+
+- Screen reader users
 secondary_research:
-  - "Google Analytics traffic analysis"
+- Google Analytics traffic analysis
 synthesis_tools_used:
-  - "EnjoyHQ"
+- EnjoyHQ
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Pension'
+- 'BNFT: Records'
+- 'PRDT: Accredited-Reps'
+- 'MHV: Appointments'
+- usability-testing
+- remote-research
+- Accessibility
 ---
-
 # Research Findings for Accredited Representative Management, Find a Representative LIVE User Test, 03/2024<a id="research-findings-for-accredited-representative-management-find-a-representative-live-user-test-032024"></a>
 
 **Office of the CTO - Digital Experience (OCTO-DE)**

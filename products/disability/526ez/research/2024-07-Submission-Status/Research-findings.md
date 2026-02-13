@@ -1,25 +1,26 @@
 ---
-title: "526 Submission Status Research Findings"
-product: "Disability Benefits - 526EZ"
-team: "DBEX 1"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-07-29"
+title: 526 Submission Status Research Findings
+product: Disability Benefits - 526EZ
+team: DBEX 1
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-07-29'
 researchers:
-  - "Evelyn Hilbrich Davis (evelyn@cityfriends.tech)"
+- Evelyn Hilbrich Davis (evelyn@cityfriends.tech)
 research_goals:
-  - "Evaluate how effectively the submission model sets clear expectations for claim submission timeline"
-  - "Evaluate if submission touchpoints are timely and useful for Veterans"
-  - "Generate ideas for the next design milestone to improve the claim record"
+- Evaluate how effectively the submission model sets clear expectations for claim
+  submission timeline
+- Evaluate if submission touchpoints are timely and useful for Veterans
+- Generate ideas for the next design milestone to improve the claim record
 methodology:
-  - "Usability testing"
-  - "Concept testing"
-  - "High-fidelity clickable Figma prototype"
-  - "Remote moderated sessions (60 minutes)"
+- Usability testing
+- Concept testing
+- High-fidelity clickable Figma prototype
+- Remote moderated sessions (60 minutes)
 devices_used:
-    desktop: 0
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 0
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 8
 demographics:
   veterans: 8
@@ -28,11 +29,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
     unknown: 8
   education:
     high_school: 0
@@ -65,48 +66,68 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Veterans' mental models for claims processing do not map onto the VA timeline for electronic submission"
-  - "Participants who conflated the submission and tracking timelines had mixed expectations for next steps"
-  - "Participants would likely download a full PDF of their claim at a later date, but stated they had all the claim information they needed on the confirmation page"
-  - "The submission received email clearly communicated the final submission status"
-  - "Most participants didn't feel a need to check the status of their submission online once it was received"
-  - "The happy and backup path scenarios were easy to understand and left participants feeling confident that their submission was complete"
-  - "Participants consider digital resubmission to be the safest and cheapest way to send their documents"
-  - "Missing touchpoints leads participants to worry that something went wrong with their submission"
+- Veterans' mental models for claims processing do not map onto the VA timeline for
+  electronic submission
+- Participants who conflated the submission and tracking timelines had mixed expectations
+  for next steps
+- Participants would likely download a full PDF of their claim at a later date, but
+  stated they had all the claim information they needed on the confirmation page
+- The submission received email clearly communicated the final submission status
+- Most participants didn't feel a need to check the status of their submission online
+  once it was received
+- The happy and backup path scenarios were easy to understand and left participants
+  feeling confident that their submission was complete
+- Participants consider digital resubmission to be the safest and cheapest way to
+  send their documents
+- Missing touchpoints leads participants to worry that something went wrong with their
+  submission
 recommendations:
-  - "Convey that submission is a 3 day electronic process, not immediate or human-controlled"
-  - "Change language from date initiated to date submitted to address mixed comprehension and align with MyVA language"
-  - "Feature only one timeline per touchpoint to avoid confusing Veteran expectations"
-  - "Explore strategies for making next steps clearer to Veterans, especially in the submission received email"
-  - "Introduce email touchpoints for significant milestones in the claims process, starting with a message for when claim tracking is available on VA.gov"
-  - "Remove the link to the Claim Status Tool before the claim is available"
-  - "Introduce a digital resubmission option for Veterans experiencing evidence failure"
-  - "Communicate to Veterans that their mailed evidence resubmission has been received or if it hasn't"
-  - "Continue to explore means of providing Veterans with a full record of their claim"
+- Convey that submission is a 3 day electronic process, not immediate or human-controlled
+- Change language from date initiated to date submitted to address mixed comprehension
+  and align with MyVA language
+- Feature only one timeline per touchpoint to avoid confusing Veteran expectations
+- Explore strategies for making next steps clearer to Veterans, especially in the
+  submission received email
+- Introduce email touchpoints for significant milestones in the claims process, starting
+  with a message for when claim tracking is available on VA.gov
+- Remove the link to the Claim Status Tool before the claim is available
+- Introduce a digital resubmission option for Veterans experiencing evidence failure
+- Communicate to Veterans that their mailed evidence resubmission has been received
+  or if it hasn't
+- Continue to explore means of providing Veterans with a full record of their claim
 kpi_alignment:
-  - "Improve submission accuracy and completion rates"
-  - "Reduce contact center calls related to submission status"
-  - "Increase Veteran confidence in claim submission process"
+- Improve submission accuracy and completion rates
+- Reduce contact center calls related to submission status
+- Increase Veteran confidence in claim submission process
 outcomes:
-  user: "Veterans have accurate expectations about their claim submission timeline and status, reducing anxiety and unnecessary contact center calls"
-  business: "Reduced contact center volume and improved Veteran satisfaction with the submission process"
+  user: Veterans have accurate expectations about their claim submission timeline
+    and status, reducing anxiety and unnecessary contact center calls
+  business: Reduced contact center volume and improved Veteran satisfaction with the
+    submission process
 opportunity_areas:
-  - "Digital evidence resubmission to replace mail-only process"
-  - "Full claim record PDF generation for Veteran records"
-  - "Enhanced email notifications for claims milestones"
+- Digital evidence resubmission to replace mail-only process
+- Full claim record PDF generation for Veteran records
+- Enhanced email notifications for claims milestones
 further_research_needed:
-  - "Test revised content addressing submission timeline confusion"
-  - "Validate digital resubmission flow for evidence failures"
-  - "Research optimal timing and content for email touchpoints throughout claims process"
+- Test revised content addressing submission timeline confusion
+- Validate digital resubmission flow for evidence failures
+- Research optimal timing and content for email touchpoints throughout claims process
 underserved_groups_missing:
-  - "Assistive technology users not represented"
-  - "Complete demographic data not collected"
+- Assistive technology users not represented
+- Complete demographic data not collected
 secondary_research:
-  - "Not specified"
+- Not specified
 synthesis_tools_used:
-  - "Not specified"
+- Not specified
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Records'
+- 'PRDT: My VA'
+- usability-testing
+- moderated-research
+- remote-research
+- evaluative
 ---
-
 # 526 Submission Status Findings Report
 
 Office of the CTO - Digital Experience (OCTO-DE), 526EZ, DBEX 1  

@@ -1,23 +1,25 @@
 ---
-title: "Evidence Request Study Research Findings"
-product: "My VA 3.0, Profile"
-team: "Auth Experience"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2025-08-28"
+title: Evidence Request Study Research Findings
+product: My VA 3.0, Profile
+team: Auth Experience
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2025-08-28'
 researchers:
-  - "Ashley Bush"
-  - "Janelle Finnerty"
+- Ashley Bush
+- Janelle Finnerty
 research_goals:
-  - "Empower Veterans by providing immediate attention to critical items and enabling direct action from the My VA page"
-  - "Validate a redesign for incorporating new components, new sections, and a notifications page into My VA"
+- Empower Veterans by providing immediate attention to critical items and enabling
+  direct action from the My VA page
+- Validate a redesign for incorporating new components, new sections, and a notifications
+  page into My VA
 methodology:
-  - "Moderated, structured, remote user interviews"
-  - "Zoom sessions"
+- Moderated, structured, remote user interviews
+- Zoom sessions
 devices_used:
-    desktop: 7
-    tablet: 0
-    smartphone: 3
-    assistive_technology: 0
+  desktop: 7
+  tablet: 0
+  smartphone: 3
+  assistive_technology: 0
 participants_total: 10
 demographics:
   veterans: 10
@@ -26,11 +28,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 2
-    "45-54": 2
-    "55-64": 0
-    "65+": 6
+    25-34: 0
+    35-44: 2
+    45-54: 2
+    55-64: 0
+    65+: 6
     unknown: 0
   education:
     high_school: 0
@@ -63,101 +65,142 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "5 of 5 participants who could share screens completed prescription refill task"
-  - "User feedback split on refills: some appreciated 'slick' and 'faster than expected' experience; others expected more comprehensive experience"
-  - "Refill positive: Streamlined process, confirmation feedback appreciated"
-  - "Refill negative: Unclear delivery method (pickup vs. mail), accidental refill concerns, insufficient medication details displayed"
-  - "Users validated relocation of disability rating from header to claims and appeals section"
-  - "Found logical placement when considering appeals/rating upgrades"
-  - "Users want visual distinction between in-progress and completed forms"
-  - "Strong preference for explicit terminology: 'Secure messaging' over 'messaging'"
-  - "Users want comprehensive appointment card details: building/clinic info, room number, provider name"
-  - "Yellow critical alerts appreciated for action clarity and deadlines"
-  - "Users expect 'at first glance' information for better segmentation"
-  - "Healthcare section preference: some participants want it positioned first on My VA"
-  - "Users validated new benefits section (dependents, Post-9/11 GI Bill, Learn more sections)"
-  - "High likelihood to use benefits sections (ratings 4-5)"
-  - "Unclear expectations about 'See all available VA benefits' link destination"
-  - "'My VA Dashboard' or 'My Dashboard' preferred over 'My VA' for clarity"
-  - "Dashboard terminology more descriptive and aligned with Veteran terminology"
-  - "3 of 5 participants who could share screens completed notifications navigation task"
-  - "Users found notification bell intuitive, aligning with industry standards"
-  - "Red dot indicator aligned with app/account conventions"
-  - "Users praised clean structure and details in notification flyout"
-  - "Expect chronological order (most recent at top)"
-  - "Desire notifications about: lab tests, X-rays, special tests, vaccinations, upcoming appointments, medical records, test results"
-  - "Healthcare notification topics most commonly mentioned"
-  - "100% (9/9) of participants vocalized positive feedback on centralized notifications"
-  - "Appreciate repository of past notifications for reference"
-  - "Like saved history (unlike phone notifications that disappear)"
-  - "Reduces 'menu navigation' and 'menu hell'"
-  - "'Notifications' strongly preferred over 'Activity Feed'"
-  - "Better matches Veteran mental models"
-  - "More direct and clear terminology"
-  - "'Notifications' recognized from other software"
-  - "Users appreciated filter options"
-  - "Desire for date range filtering capability"
-  - "Mixed feedback on sub-categories for Healthcare filter (2 participants suggested; 1 reconsidered due to complexity)"
-  - "Participants valued ability to see specific notification types"
-  - "4 of 5 participants who could share screens completed profile navigation task"
-  - "Users found navigation intuitive, aligned with industry standards"
-  - "Familiar pattern from other websites (name/username with dropdown)"
-  - "Overall neutral feedback on card treatment and content order"
-  - "Some interest in Service History positioned first as 'most important' personal profile information"
-  - "Confusion noted about 'contact information' terminology"
-  - "Option A preferred for profile for detailed descriptions"
-  - "Users want explanatory information for profile fields"
-  - "Clarity and simplicity emphasized"
-  - "Option B preferred for claims card for clear step-by-step process indication"
-  - "Users valued: step visualization (Step 3), action status clarity, yellow highlighting of urgent actions (submit evidence)"
-  - "Want more comprehensive details on what's missing and next steps"
+- 5 of 5 participants who could share screens completed prescription refill task
+- 'User feedback split on refills: some appreciated ''slick'' and ''faster than expected''
+  experience; others expected more comprehensive experience'
+- 'Refill positive: Streamlined process, confirmation feedback appreciated'
+- 'Refill negative: Unclear delivery method (pickup vs. mail), accidental refill concerns,
+  insufficient medication details displayed'
+- Users validated relocation of disability rating from header to claims and appeals
+  section
+- Found logical placement when considering appeals/rating upgrades
+- Users want visual distinction between in-progress and completed forms
+- 'Strong preference for explicit terminology: ''Secure messaging'' over ''messaging'''
+- 'Users want comprehensive appointment card details: building/clinic info, room number,
+  provider name'
+- Yellow critical alerts appreciated for action clarity and deadlines
+- Users expect 'at first glance' information for better segmentation
+- 'Healthcare section preference: some participants want it positioned first on My
+  VA'
+- Users validated new benefits section (dependents, Post-9/11 GI Bill, Learn more
+  sections)
+- High likelihood to use benefits sections (ratings 4-5)
+- Unclear expectations about 'See all available VA benefits' link destination
+- '''My VA Dashboard'' or ''My Dashboard'' preferred over ''My VA'' for clarity'
+- Dashboard terminology more descriptive and aligned with Veteran terminology
+- 3 of 5 participants who could share screens completed notifications navigation task
+- Users found notification bell intuitive, aligning with industry standards
+- Red dot indicator aligned with app/account conventions
+- Users praised clean structure and details in notification flyout
+- Expect chronological order (most recent at top)
+- 'Desire notifications about: lab tests, X-rays, special tests, vaccinations, upcoming
+  appointments, medical records, test results'
+- Healthcare notification topics most commonly mentioned
+- 100% (9/9) of participants vocalized positive feedback on centralized notifications
+- Appreciate repository of past notifications for reference
+- Like saved history (unlike phone notifications that disappear)
+- Reduces 'menu navigation' and 'menu hell'
+- '''Notifications'' strongly preferred over ''Activity Feed'''
+- Better matches Veteran mental models
+- More direct and clear terminology
+- '''Notifications'' recognized from other software'
+- Users appreciated filter options
+- Desire for date range filtering capability
+- Mixed feedback on sub-categories for Healthcare filter (2 participants suggested;
+  1 reconsidered due to complexity)
+- Participants valued ability to see specific notification types
+- 4 of 5 participants who could share screens completed profile navigation task
+- Users found navigation intuitive, aligned with industry standards
+- Familiar pattern from other websites (name/username with dropdown)
+- Overall neutral feedback on card treatment and content order
+- Some interest in Service History positioned first as 'most important' personal profile
+  information
+- Confusion noted about 'contact information' terminology
+- Option A preferred for profile for detailed descriptions
+- Users want explanatory information for profile fields
+- Clarity and simplicity emphasized
+- Option B preferred for claims card for clear step-by-step process indication
+- 'Users valued: step visualization (Step 3), action status clarity, yellow highlighting
+  of urgent actions (submit evidence)'
+- Want more comprehensive details on what's missing and next steps
 recommendations:
-  - "Rename My VA to 'My VA Dashboard' or 'My Dashboard' (may be fast-following post-launch)"
-  - "Rename 'Messages' to 'Secure messages' for clarity"
-  - "Proceed with 'Notifications' over 'Activity Feed'"
-  - "Update GI Bill card title from 'Post-9/11 GI Bill debt for tuition' to 'Post-9/11 GI Bill benefit'"
-  - "Include comprehensive health appointment card details: room number, physician's name, significant location information"
-  - "Move forward with one-click prescription refill feature research (coordinate with current prescriptions team)"
-  - "Move forward with new Benefits sections and cards (Dependents, Post-9/11 GI Bill, Learn more card/See all benefits link)"
-  - "Move forward with notifications dropdown, notifications page, and filter component"
-  - "Incorporate extended notification history for reference purposes"
-  - "Update notification drawer to align with current menu's dropdown behavior"
-  - "Add date picker to notification filter for date-based filtering"
-  - "Incorporate various types of notifications in notification dropdown"
-  - "Move forward with Option B of claims card"
-  - "Move forward with Option A of Profile"
+- Rename My VA to 'My VA Dashboard' or 'My Dashboard' (may be fast-following post-launch)
+- Rename 'Messages' to 'Secure messages' for clarity
+- Proceed with 'Notifications' over 'Activity Feed'
+- Update GI Bill card title from 'Post-9/11 GI Bill debt for tuition' to 'Post-9/11
+  GI Bill benefit'
+- 'Include comprehensive health appointment card details: room number, physician''s
+  name, significant location information'
+- Move forward with one-click prescription refill feature research (coordinate with
+  current prescriptions team)
+- Move forward with new Benefits sections and cards (Dependents, Post-9/11 GI Bill,
+  Learn more card/See all benefits link)
+- Move forward with notifications dropdown, notifications page, and filter component
+- Incorporate extended notification history for reference purposes
+- Update notification drawer to align with current menu's dropdown behavior
+- Add date picker to notification filter for date-based filtering
+- Incorporate various types of notifications in notification dropdown
+- Move forward with Option B of claims card
+- Move forward with Option A of Profile
 kpi_alignment:
-  - "FY25 OCTO-DE Goal O1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits. 1.1: Improve satisfaction with web and mobile products by 5 points."
+- 'FY25 OCTO-DE Goal O1: VA''s digital experiences are the easiest and most efficient
+  way to access VA health care and benefits. 1.1: Improve satisfaction with web and
+  mobile products by 5 points.'
 outcomes:
-  user: "Veterans are able to see what needs their attention right away (e.g., unread messages, pending document uploads, important deadlines, upcoming appointments); Veterans can take quick action on priority items navigating quickly to relevant onsite experience; Veterans can navigate to centralized hubs when actions are not required (claims tracker, recent payments, etc.)"
-  business: "Increase in completion rates for key workflows (e.g., uploading documents, attending appointments); Reduction in call center volume due to improved self-service; Improved Veteran trust and satisfaction with VA.gov as a digital platform"
+  user: Veterans are able to see what needs their attention right away (e.g., unread
+    messages, pending document uploads, important deadlines, upcoming appointments);
+    Veterans can take quick action on priority items navigating quickly to relevant
+    onsite experience; Veterans can navigate to centralized hubs when actions are
+    not required (claims tracker, recent payments, etc.)
+  business: Increase in completion rates for key workflows (e.g., uploading documents,
+    attending appointments); Reduction in call center volume due to improved self-service;
+    Improved Veteran trust and satisfaction with VA.gov as a digital platform
 opportunity_areas:
-  - "One-click prescription refill functionality"
-  - "Enhanced appointment details integration"
-  - "Centralized notification system with filtering"
-  - "Personalized dashboard naming and clarity"
-  - "Benefits section expansion"
+- One-click prescription refill functionality
+- Enhanced appointment details integration
+- Centralized notification system with filtering
+- Personalized dashboard naming and clarity
+- Benefits section expansion
 further_research_needed:
-  - "Further usability testing with specific focus on accessibility for the notification drawer and new notifications page"
-  - "Testing should ensure design decisions adhere to experimental design collaboration cycle standards"
-  - "Testing should address diverse needs of all Veterans"
+- Further usability testing with specific focus on accessibility for the notification
+  drawer and new notifications page
+- Testing should ensure design decisions adhere to experimental design collaboration
+  cycle standards
+- Testing should address diverse needs of all Veterans
 underserved_groups_missing:
-  - "Cognitive disability"
-  - "Mobile users"
-  - "Other than honorable status"
-  - "Immigrant origin"
-  - "Expat"
-  - "Black/African American"
-  - "Biracial"
-  - "Asian"
-  - "Native Hawaiian/Pacific Islander"
-  - "First Nations/Native/Alaskan Native"
-  - "LGBTQ+"
-  - "Assistive Technology users"
+- Cognitive disability
+- Mobile users
+- Other than honorable status
+- Immigrant origin
+- Expat
+- Black/African American
+- Biracial
+- Asian
+- Native Hawaiian/Pacific Islander
+- First Nations/Native/Alaskan Native
+- LGBTQ+
+- Assistive Technology users
 secondary_research:
-  - "My VA Desk Research for the Authenticated Experience Team, 03/2025"
+- My VA Desk Research for the Authenticated Experience Team, 03/2025
 synthesis_tools_used:
-  - "FigJam"
+- FigJam
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Housing'
+- 'BNFT: Records'
+- 'PRDT: My VA'
+- 'MHV: Appointments'
+- 'MHV: Pharmacy'
+- 'MHV: Secure Messaging'
+- 'MHV: Personal Health Records/Medical Records'
+- usability-testing
+- semi-structured-interviews
+- moderated-research
+- remote-research
+- evaluative
 ---
 ---
 

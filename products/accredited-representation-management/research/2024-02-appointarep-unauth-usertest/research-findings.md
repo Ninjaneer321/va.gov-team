@@ -1,23 +1,27 @@
 ---
-title: "ARM Team - Appoint a Representative Form User Test (Unauthenticated) Research Findings"
-product: "Accredited Representative Management (ARM)"
-team: "Accredited Representative Management Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-03-01"
+title: ARM Team - Appoint a Representative Form User Test (Unauthenticated) Research
+  Findings
+product: Accredited Representative Management (ARM)
+team: Accredited Representative Management Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-03-01'
 researchers:
-  - "Janelle Finnerty"
+- Janelle Finnerty
 research_goals:
-  - "Understand usability of signed-out Appoint a Representative flow (21-22/21-22a forms) on both desktop and mobile devices"
-  - "Identify pain points and usability issues in unauthenticated representative appointment experience"
-  - "Future study goal: Understand Veteran family and caregiver motivations for seeking representation"
+- Understand usability of signed-out Appoint a Representative flow (21-22/21-22a forms)
+  on both desktop and mobile devices
+- Identify pain points and usability issues in unauthenticated representative appointment
+  experience
+- 'Future study goal: Understand Veteran family and caregiver motivations for seeking
+  representation'
 methodology:
-  - "Usability testing"
-  - "Future: Semi-structured interview"
+- Usability testing
+- 'Future: Semi-structured interview'
 devices_used:
-    desktop: 5
-    tablet: 0
-    smartphone: 3
-    assistive_technology: 0
+  desktop: 5
+  tablet: 0
+  smartphone: 3
+  assistive_technology: 0
 participants_total: 8
 demographics:
   veterans: 4
@@ -26,11 +30,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 3
-    "45-54": 1
-    "55-64": 3
-    "65+": 1
+    25-34: 0
+    35-44: 3
+    45-54: 1
+    55-64: 3
+    65+: 1
     unknown: 0
   education:
     high_school: 2
@@ -63,51 +67,79 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Form start expectations: Users easily missed non-digital submission information; wanted clear upfront instructions and required information list before starting"
-  - "Representative search: Inconclusive findings; users requested additional representative information including ratings, photos, availability, specialties, and email contact"
-  - "Organization selection confusion: Most users unsure why organization selection exists and how to use it; unclear distinction between organizational versus individual representative support"
-  - "Contact representative: Mixed feedback; negative reactions due to prior difficulties reaching VSOs; positive from those who preferred meeting representatives in person first"
-  - "Permissions clarity: Medical record sharing well understood; address change permission caused hesitation and confusion about who changes what address"
-  - "Review page misdirection: Lack of button options failed to properly convey next steps; users assumed digital submission process was complete"
-  - "Non-digital submission frustration: Most participants frustrated form was not digitally submitted; some indicated they would abandon the experience entirely"
+- 'Form start expectations: Users easily missed non-digital submission information;
+  wanted clear upfront instructions and required information list before starting'
+- 'Representative search: Inconclusive findings; users requested additional representative
+  information including ratings, photos, availability, specialties, and email contact'
+- 'Organization selection confusion: Most users unsure why organization selection
+  exists and how to use it; unclear distinction between organizational versus individual
+  representative support'
+- 'Contact representative: Mixed feedback; negative reactions due to prior difficulties
+  reaching VSOs; positive from those who preferred meeting representatives in person
+  first'
+- 'Permissions clarity: Medical record sharing well understood; address change permission
+  caused hesitation and confusion about who changes what address'
+- 'Review page misdirection: Lack of button options failed to properly convey next
+  steps; users assumed digital submission process was complete'
+- 'Non-digital submission frustration: Most participants frustrated form was not digitally
+  submitted; some indicated they would abandon the experience entirely'
 recommendations:
-  - "Evaluate entire experience to set clear non-digital submission expectations at form start, review, and next steps pages"
-  - "Evaluate organization selection feature to improve user confidence and understanding of its purpose"
-  - "Create clear visual delineation between free and paid representatives on landing page"
-  - "Provide required information list on Form start page so users can gather materials before beginning"
-  - "Add 'Friend' option to Claimant information relationship choices"
-  - "Explain what a VA file number is and how claimants can find it"
-  - "Clarify that address change permission applies to claimant, not the Veteran"
-  - "Better explain that 21-22 form grants limited power of attorney, not full authority"
-  - "Provide representative email and phone contact on final confirmation page"
-  - "Consider making digital submission a priority to reduce abandonment"
+- Evaluate entire experience to set clear non-digital submission expectations at form
+  start, review, and next steps pages
+- Evaluate organization selection feature to improve user confidence and understanding
+  of its purpose
+- Create clear visual delineation between free and paid representatives on landing
+  page
+- Provide required information list on Form start page so users can gather materials
+  before beginning
+- Add 'Friend' option to Claimant information relationship choices
+- Explain what a VA file number is and how claimants can find it
+- Clarify that address change permission applies to claimant, not the Veteran
+- Better explain that 21-22 form grants limited power of attorney, not full authority
+- Provide representative email and phone contact on final confirmation page
+- Consider making digital submission a priority to reduce abandonment
 kpi_alignment: []
 outcomes:
-  user: "Family members and caregivers can confidently appoint appropriate representation on behalf of Veterans with clear understanding of process and requirements"
-  business: "Enable more Veterans to access representation support through family and caregiver pathways, reducing barriers to getting help"
+  user: Family members and caregivers can confidently appoint appropriate representation
+    on behalf of Veterans with clear understanding of process and requirements
+  business: Enable more Veterans to access representation support through family and
+    caregiver pathways, reducing barriers to getting help
 opportunity_areas:
-  - "Digital submission capability to reduce friction and abandonment"
-  - "Improved expectations setting throughout form experience"
-  - "Enhanced representative information to support confident selection"
-  - "Clearer permission language and legal context explanations"
+- Digital submission capability to reduce friction and abandonment
+- Improved expectations setting throughout form experience
+- Enhanced representative information to support confident selection
+- Clearer permission language and legal context explanations
 further_research_needed:
-  - "Validate identified patterns in next Find a Representative study"
-  - "Track drop-off rates at identified pain points on live experience"
-  - "Test improvements with family and caregiver participants"
+- Validate identified patterns in next Find a Representative study
+- Track drop-off rates at identified pain points on live experience
+- Test improvements with family and caregiver participants
 underserved_groups_missing:
-  - "Cognitive disability"
-  - "Other than honorable discharge"
-  - "Immigrant origin"
-  - "Expat (living abroad)"
-  - "Black, Hispanic, Biracial, Asian, Native Veterans"
-  - "LGBTQ+"
-  - "Assistive technology users (all types)"
+- Cognitive disability
+- Other than honorable discharge
+- Immigrant origin
+- Expat (living abroad)
+- Black, Hispanic, Biracial, Asian, Native Veterans
+- LGBTQ+
+- Assistive technology users (all types)
 secondary_research:
-  - "All ARM research repository"
+- All ARM research repository
 synthesis_tools_used:
-  - "EnjoyHQ"
+- EnjoyHQ
+tags:
+- 'AUD: Veterans'
+- 'AUD: Caregivers'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Housing'
+- 'BNFT: Records'
+- 'PRDT: Accredited-Reps'
+- 'MHV: Appointments'
+- 'MHV: Personal Health Records/Medical Records'
+- usability-testing
+- remote-research
+- semi-structured-interviews
 ---
-
 # Research Findings for ARM Team, Appoint a Representative Form User Test (Unauthenticated), 02/2024
 
 **Office of the CTO - Digital Experience (OCTO-DE), Appoint a Representative, Accredited Representative Management Team**

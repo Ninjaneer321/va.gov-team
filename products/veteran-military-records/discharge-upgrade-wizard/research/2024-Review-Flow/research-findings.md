@@ -1,25 +1,30 @@
 ---
-title: "Discharge Upgrade Wizard Usability Testing Research Findings"
-product: "Discharge Upgrade Wizard"
-team: "Sitewide Public Websites"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-11-14"
+title: Discharge Upgrade Wizard Usability Testing Research Findings
+product: Discharge Upgrade Wizard
+team: Sitewide Public Websites
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-11-14'
 researchers:
-  - "Jordan Wood"
+- Jordan Wood
 research_goals:
-  - "Determine if Veterans can understand how to edit an answer that introduces branching logic and navigate back to the review page"
-  - "Assess if Veterans understand why they may be asked additional questions when editing an answer"
-  - "Evaluate if updates to the review page after editing are clear and easy for Veterans to understand"
-  - "Test if Veterans can navigate through the entire flow using the subtask pattern with ease"
-  - "Verify that Veterans using assistive technology can navigate through user flows with ease"
+- Determine if Veterans can understand how to edit an answer that introduces branching
+  logic and navigate back to the review page
+- Assess if Veterans understand why they may be asked additional questions when editing
+  an answer
+- Evaluate if updates to the review page after editing are clear and easy for Veterans
+  to understand
+- Test if Veterans can navigate through the entire flow using the subtask pattern
+  with ease
+- Verify that Veterans using assistive technology can navigate through user flows
+  with ease
 methodology:
-  - "Remote moderated usability testing"
-  - "Live coded environment testing (staging)"
+- Remote moderated usability testing
+- Live coded environment testing (staging)
 devices_used:
-    desktop: 7
-    tablet: 0
-    smartphone: 3
-    assistive_technology: 3
+  desktop: 7
+  tablet: 0
+  smartphone: 3
+  assistive_technology: 3
 participants_total: 10
 demographics:
   veterans: 10
@@ -28,11 +33,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 4
-    "45-54": 1
-    "55-64": 5
-    "65+": 0
+    25-34: 0
+    35-44: 4
+    45-54: 1
+    55-64: 5
+    65+: 0
     unknown: 0
   education:
     high_school: 1
@@ -65,58 +70,77 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "All participants were able to navigate the edit flow with no difficulty"
-  - "Most participants understand that they may be asked to answer additional questions when editing"
-  - "Most participants understand the updated review page and how it relates to their answered questions"
-  - "Some participants found certain questions confusing or lacking information, particularly the prior service question and reason for discharge upgrade"
-  - "Some participants had feedback on results page content, noting too much information and wanting more details on buddy statements"
-  - "Some participants wanted alternative submission process, preferring online submission to mailing forms"
+- All participants were able to navigate the edit flow with no difficulty
+- Most participants understand that they may be asked to answer additional questions
+  when editing
+- Most participants understand the updated review page and how it relates to their
+  answered questions
+- Some participants found certain questions confusing or lacking information, particularly
+  the prior service question and reason for discharge upgrade
+- Some participants had feedback on results page content, noting too much information
+  and wanting more details on buddy statements
+- Some participants wanted alternative submission process, preferring online submission
+  to mailing forms
 recommendations:
-  - "Consider allowing users to select multiple reasons for changing their discharge paperwork"
-  - "Consider reorganizing content on the results page to reduce cognitive load"
-  - "Consider emphasizing the Get Started action link on the start page for assistive technology users"
-  - "Consider rewording the prior service question for clarity"
-  - "Consider adding Space Force to branch options or clarify selection"
-  - "Consider adding more information about buddy statements to the results page"
-  - "Consider making results page content more specific to the reason for discharge upgrade"
-  - "Consider alternative methods for submitting the discharge upgrade form online"
-  - "Consider how to update users on their status in the discharge upgrade process"
+- Consider allowing users to select multiple reasons for changing their discharge
+  paperwork
+- Consider reorganizing content on the results page to reduce cognitive load
+- Consider emphasizing the Get Started action link on the start page for assistive
+  technology users
+- Consider rewording the prior service question for clarity
+- Consider adding Space Force to branch options or clarify selection
+- Consider adding more information about buddy statements to the results page
+- Consider making results page content more specific to the reason for discharge upgrade
+- Consider alternative methods for submitting the discharge upgrade form online
+- Consider how to update users on their status in the discharge upgrade process
 kpi_alignment:
-  - "Veteran satisfaction with discharge upgrade application process"
-  - "Task completion rates for discharge upgrade wizard"
+- Veteran satisfaction with discharge upgrade application process
+- Task completion rates for discharge upgrade wizard
 outcomes:
-  user: "Veterans can successfully navigate the discharge upgrade wizard with edit flow functionality and understand the process for applying for discharge upgrade"
-  business: "Improved discharge upgrade wizard usability reduces support burden and increases successful form submissions"
+  user: Veterans can successfully navigate the discharge upgrade wizard with edit
+    flow functionality and understand the process for applying for discharge upgrade
+  business: Improved discharge upgrade wizard usability reduces support burden and
+    increases successful form submissions
 opportunity_areas:
-  - "Online form submission for discharge upgrade applications"
-  - "Enhanced guidance on buddy statements and supporting evidence"
-  - "Personalized results based on discharge upgrade reasons"
+- Online form submission for discharge upgrade applications
+- Enhanced guidance on buddy statements and supporting evidence
+- Personalized results based on discharge upgrade reasons
 further_research_needed:
-  - "Test with more assistive technology users including mobile screen readers"
-  - "Evaluate impact of content changes on prior service question"
-  - "Test revised results page with reduced content"
+- Test with more assistive technology users including mobile screen readers
+- Evaluate impact of content changes on prior service question
+- Test revised results page with reduced content
 underserved_groups_missing:
-  - "Other than honorable discharge recipients"
-  - "Immigrant origin Veterans"
-  - "Expat Veterans"
-  - "Hispanic, Latino, or Spanish origin Veterans"
-  - "Asian Veterans"
-  - "Beginner AT users"
-  - "Mobile screen reader users"
-  - "Speech input technology users"
-  - "Hearing aid users"
-  - "Sighted keyboard users"
-  - "Caption users"
-  - "Switch device users"
-  - "Braille reader users"
+- Other than honorable discharge recipients
+- Immigrant origin Veterans
+- Expat Veterans
+- Hispanic, Latino, or Spanish origin Veterans
+- Asian Veterans
+- Beginner AT users
+- Mobile screen reader users
+- Speech input technology users
+- Hearing aid users
+- Sighted keyboard users
+- Caption users
+- Switch device users
+- Braille reader users
 secondary_research:
-  - "Secondary research document on discharge upgrade processes"
+- Secondary research document on discharge upgrade processes
 synthesis_tools_used:
-  - "Mural board observer notes"
-  - "Mural board affinity mapping"
-  - "Synthesis spreadsheet"
+- Mural board observer notes
+- Mural board affinity mapping
+- Synthesis spreadsheet
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Records'
+- 'PRDT: Caregivers'
+- usability-testing
+- moderated-research
+- remote-research
+- Accessibility
+- evaluative
 ---
-
 # Research Findings: Discharge Upgrade Wizard Usability Testing 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Discharge Upgrade Wizard, Sitewide Public Websites**

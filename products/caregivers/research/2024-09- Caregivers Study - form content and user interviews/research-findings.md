@@ -1,26 +1,30 @@
 ---
-title: "2024-10 Caregiver Study Research Findings"
-product: "10-10CG"
-team: "Health Enrollment"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-11-01"
+title: 2024-10 Caregiver Study Research Findings
+product: 10-10CG
+team: Health Enrollment
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-11-01'
 researchers:
-  - "Angela Agosto (angela.agosto@adhocteam.us)"
-  - "Jessica Stump (jessica.stump@adhocteam.us)"
+- Angela Agosto (angela.agosto@adhocteam.us)
+- Jessica Stump (jessica.stump@adhocteam.us)
 research_goals:
-  - "Learn more about a caregiver's understanding of the PCAFC program before filling out the 10-10CG to determine if recent content updates have improved comprehension of the program and if additional content changes would be helpful at this stage in the caregiver journey"
-  - "Learn more about the overall experience of multiple people completing one form"
-  - "Evaluate the usability of the new facility search functionality and confirmation screen content"
+- Learn more about a caregiver's understanding of the PCAFC program before filling
+  out the 10-10CG to determine if recent content updates have improved comprehension
+  of the program and if additional content changes would be helpful at this stage
+  in the caregiver journey
+- Learn more about the overall experience of multiple people completing one form
+- Evaluate the usability of the new facility search functionality and confirmation
+  screen content
 methodology:
-  - "Remote moderated usability studies via Zoom"
-  - "VA.gov staging environment testing"
-  - "Two cohort recruitment approach (Caregivers and Veterans)"
-  - "Task-based testing with real form scenarios"
+- Remote moderated usability studies via Zoom
+- VA.gov staging environment testing
+- Two cohort recruitment approach (Caregivers and Veterans)
+- Task-based testing with real form scenarios
 devices_used:
-    desktop: 10
-    tablet: 2
-    smartphone: 9
-    assistive_technology: 2
+  desktop: 10
+  tablet: 2
+  smartphone: 9
+  assistive_technology: 2
 participants_total: 21
 demographics:
   veterans: 13
@@ -29,11 +33,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 3
-    "45-54": 4
-    "55-64": 6
-    "65+": 8
+    25-34: 0
+    35-44: 3
+    45-54: 4
+    55-64: 6
+    65+: 8
     unknown: 0
   education:
     high_school: 0
@@ -77,73 +81,97 @@ demographics:
     caregivers: 6
     veterans: 2
 key_findings:
-  - "Veterans and Caregivers want more clarity on eligibility and benefits before applying"
-  - "Veterans and Caregivers had mixed levels of comfort and ease when signing the form"
-  - "Users said content was 'just enough' but called out items that needed more clarification"
-  - "The facility search functionality was difficult and confusing for some users"
-  - "Veterans and Caregivers differ on facilities confirmation page content clarity"
+- Veterans and Caregivers want more clarity on eligibility and benefits before applying
+- Veterans and Caregivers had mixed levels of comfort and ease when signing the form
+- Users said content was 'just enough' but called out items that needed more clarification
+- The facility search functionality was difficult and confusing for some users
+- Veterans and Caregivers differ on facilities confirmation page content clarity
 recommendations:
-  - "Revisit content and resource link placement within the form around program definition, eligibility and application process"
-  - "Explore updating content to add in clarifying information around secondary caregivers and their benefits"
-  - "Make updates to facility search functionality and content to help alleviate search errors observed"
-  - "Explore auto-recommend options for facility selection flow"
-  - "Make updates to the statement of truth component of the form to alleviate usability issues with signing the form"
-  - "Discuss questions with stakeholders regarding multiple people signing the form"
-  - "Research and identify why we saw users have problems with autofill in the form and implement workarounds as directed by the design system team"
-  - "Revisit the 'County' field content and explore possible autofill functionality"
-  - "Make content updates to the Sign as Representative step/page to clarify that no form is required and explain why a Caregiver should upload one of the forms if they already have it on-hand"
+- Revisit content and resource link placement within the form around program definition,
+  eligibility and application process
+- Explore updating content to add in clarifying information around secondary caregivers
+  and their benefits
+- Make updates to facility search functionality and content to help alleviate search
+  errors observed
+- Explore auto-recommend options for facility selection flow
+- Make updates to the statement of truth component of the form to alleviate usability
+  issues with signing the form
+- Discuss questions with stakeholders regarding multiple people signing the form
+- Research and identify why we saw users have problems with autofill in the form and
+  implement workarounds as directed by the design system team
+- Revisit the 'County' field content and explore possible autofill functionality
+- Make content updates to the Sign as Representative step/page to clarify that no
+  form is required and explain why a Caregiver should upload one of the forms if they
+  already have it on-hand
 kpi_alignment:
-  - "Increase 10-10CG form completion rates"
-  - "Reduce form abandonment"
-  - "Improve user satisfaction with the application process"
-  - "Decrease support calls related to form confusion"
+- Increase 10-10CG form completion rates
+- Reduce form abandonment
+- Improve user satisfaction with the application process
+- Decrease support calls related to form confusion
 outcomes:
-  user: "Veterans and Caregivers can more easily understand PCAFC program eligibility and benefits, complete the 10-10CG form with less confusion about signing requirements and facility selection, and feel more confident throughout the application process"
-  business: "Reduce form errors and abandonment, improve data quality from facility selections, decrease processing time for applications with signature issues, and increase overall application completion rates"
+  user: Veterans and Caregivers can more easily understand PCAFC program eligibility
+    and benefits, complete the 10-10CG form with less confusion about signing requirements
+    and facility selection, and feel more confident throughout the application process
+  business: Reduce form errors and abandonment, improve data quality from facility
+    selections, decrease processing time for applications with signature issues, and
+    increase overall application completion rates
 opportunity_areas:
-  - "Need for clearer program eligibility information before form initiation"
-  - "Opportunity to improve multi-person form completion experience"
-  - "Need for better explanation of primary vs secondary caregiver benefits"
-  - "Opportunity to streamline facility search with auto-recommendations"
-  - "Need to address browser autofill compatibility issues"
-  - "Opportunity to clarify Sign as Representative requirements and reduce confusion"
+- Need for clearer program eligibility information before form initiation
+- Opportunity to improve multi-person form completion experience
+- Need for better explanation of primary vs secondary caregiver benefits
+- Opportunity to streamline facility search with auto-recommendations
+- Need to address browser autofill compatibility issues
+- Opportunity to clarify Sign as Representative requirements and reduce confusion
 further_research_needed:
-  - "Test with LGBTQ+ Veterans and Caregivers"
-  - "Conduct research in rural locations"
-  - "Test with Veterans with cognitive disabilities"
-  - "Include Veterans with other than honorable discharge"
-  - "Test with immigrants and expats"
-  - "Expand testing with Hispanic, Latino, or Spanish origin participants"
-  - "Expand testing with Native, American Indian or Alaskan Native participants"
-  - "Validate facility auto-recommendation approach"
-  - "Test revised statement of truth component with platform version"
-  - "Validate content changes around secondary caregiver benefits"
+- Test with LGBTQ+ Veterans and Caregivers
+- Conduct research in rural locations
+- Test with Veterans with cognitive disabilities
+- Include Veterans with other than honorable discharge
+- Test with immigrants and expats
+- Expand testing with Hispanic, Latino, or Spanish origin participants
+- Expand testing with Native, American Indian or Alaskan Native participants
+- Validate facility auto-recommendation approach
+- Test revised statement of truth component with platform version
+- Validate content changes around secondary caregiver benefits
 underserved_groups_missing:
-  - "LGBTQ+ community"
-  - "Rural residents"
-  - "Veterans with cognitive disabilities"
-  - "Veterans with other than honorable discharge"
-  - "Immigrant origin individuals"
-  - "Expats living abroad"
-  - "Hispanic, Latino, or Spanish origin (more representation needed)"
-  - "Native, American Indian or Alaskan Native"
+- LGBTQ+ community
+- Rural residents
+- Veterans with cognitive disabilities
+- Veterans with other than honorable discharge
+- Immigrant origin individuals
+- Expats living abroad
+- Hispanic, Latino, or Spanish origin (more representation needed)
+- Native, American Indian or Alaskan Native
 secondary_research:
-  - "Post-July 2024 UX Backlog: desk research and opportunity planning"
-  - "Traffic paths and sources prior to EZ intro page (Datadog analytics)"
-  - "VA Caregiver Support Program website analysis"
-  - "Program of Comprehensive Assistance for Family Caregivers (PCAFC) content review"
-  - "Caregiver Support Program Teams documentation"
-  - "Key findings in relation to PCAFC Journey Map"
-  - "Pre-research planning and desk research"
+- 'Post-July 2024 UX Backlog: desk research and opportunity planning'
+- Traffic paths and sources prior to EZ intro page (Datadog analytics)
+- VA Caregiver Support Program website analysis
+- Program of Comprehensive Assistance for Family Caregivers (PCAFC) content review
+- Caregiver Support Program Teams documentation
+- Key findings in relation to PCAFC Journey Map
+- Pre-research planning and desk research
 synthesis_tools_used:
-  - "Mural"
-  - "Zoom transcripts"
-  - "Session summaries by participant"
-  - "Research questions table view"
-  - "Tagging and thematic synthesis"
-  - "Key findings summary cards"
+- Mural
+- Zoom transcripts
+- Session summaries by participant
+- Research questions table view
+- Tagging and thematic synthesis
+- Key findings summary cards
+tags:
+- 'AUD: Veterans'
+- 'AUD: Caregivers'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'PRDT: Facilities'
+- 'MHV: Pharmacy'
+- 'MHV: Secure Messaging'
+- usability-testing
+- moderated-research
+- remote-research
+- Accessibility
+- evaluative
 ---
-
 # 2024-10 Caregiver Study Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 10-10CG, Health Enrollment**

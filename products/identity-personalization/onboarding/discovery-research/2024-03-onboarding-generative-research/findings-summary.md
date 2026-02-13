@@ -1,28 +1,33 @@
 ---
-title: "Transitioning Service Member Engagement with VA, Generative Research, Findings Summary"
-product: "Onboarding"
-team: "Authenticated Experience"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-04-08"
+title: Transitioning Service Member Engagement with VA, Generative Research, Findings
+  Summary
+product: Onboarding
+team: Authenticated Experience
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-04-08'
 researchers:
-  - "Liz Lantz"
+- Liz Lantz
 research_goals:
-  - "Identify any problems people experience when separating from the military that could be improved or resolved through VA.gov"
-  - "Understand what role VA.gov has in onboarding people to VA"
-  - "Understand where VA.gov fits within the mental model of people who are onboarding to VA"
-  - "Determine what changes, if any, could be made to improve the experience of onboarding to VA through VA.gov"
-  - "Understand what challenges people have using VA.gov when they're using it for the first time"
-  - "Learn what are the top questions transitioning service members have about VA"
+- Identify any problems people experience when separating from the military that could
+  be improved or resolved through VA.gov
+- Understand what role VA.gov has in onboarding people to VA
+- Understand where VA.gov fits within the mental model of people who are onboarding
+  to VA
+- Determine what changes, if any, could be made to improve the experience of onboarding
+  to VA through VA.gov
+- Understand what challenges people have using VA.gov when they're using it for the
+  first time
+- Learn what are the top questions transitioning service members have about VA
 methodology:
-  - "Generative research"
-  - "Remote interviews over Zoom"
-  - "User demonstrations of how they've used VA.gov"
-  - "Review of My VA, Profile, and Service member benefits hub"
+- Generative research
+- Remote interviews over Zoom
+- User demonstrations of how they've used VA.gov
+- Review of My VA, Profile, and Service member benefits hub
 devices_used:
-    desktop: null
-    tablet: null
-    smartphone: null
-    assistive_technology: null
+  desktop: null
+  tablet: null
+  smartphone: null
+  assistive_technology: null
 participants_total: 10
 demographics:
   veterans: 7
@@ -31,11 +36,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 3
-    "35-44": 5
-    "45-54": 2
-    "55-64": 0
-    "65+": 0
+    25-34: 3
+    35-44: 5
+    45-54: 2
+    55-64: 0
+    65+: 0
     unknown: 0
   education:
     high_school: 0
@@ -68,44 +73,67 @@ demographics:
     sighted_keyboard: null
     captions: null
 key_findings:
-  - "VA.gov is a critical self-service resource for transitioning service members to learn about VA, during and after active duty"
-  - "Multiple people had challenges with identity verification and extensive reading on VA.gov; we also heard about various isolated hurdles"
-  - "Most participants first used VA.gov in their TAP course and found the website easy to use"
-  - "Reducing the burden of researching benefit and eligibility information on VA.gov would improve the experience of onboarding to VA"
-  - "The service member benefit hub was new to our participants and they found the information to be useful"
-  - "The top question transitioning service members have is 'What benefits am I eligible for?'"
+- VA.gov is a critical self-service resource for transitioning service members to
+  learn about VA, during and after active duty
+- Multiple people had challenges with identity verification and extensive reading
+  on VA.gov; we also heard about various isolated hurdles
+- Most participants first used VA.gov in their TAP course and found the website easy
+  to use
+- Reducing the burden of researching benefit and eligibility information on VA.gov
+  would improve the experience of onboarding to VA
+- The service member benefit hub was new to our participants and they found the information
+  to be useful
+- The top question transitioning service members have is 'What benefits am I eligible
+  for?'
 recommendations:
-  - "Reduce the burden of research on people who are new to VA by providing personalized benefit information, more succinct content, incorporating TAP VA course content, and elevating the chatbot"
-  - "Consider how we do a better job fostering a 1:1 connection for people to learn about benefits and eligibility through elevating VSO content, counselors, VA Solid Start program, or exploring AI tools"
-  - "Engage cross-product teams (Sitewide Public Websites, Authenticated Experience, CAIA, VA Profile, flagship mobile team) to optimize this experience for service members and Veterans"
+- Reduce the burden of research on people who are new to VA by providing personalized
+  benefit information, more succinct content, incorporating TAP VA course content,
+  and elevating the chatbot
+- Consider how we do a better job fostering a 1:1 connection for people to learn about
+  benefits and eligibility through elevating VSO content, counselors, VA Solid Start
+  program, or exploring AI tools
+- Engage cross-product teams (Sitewide Public Websites, Authenticated Experience,
+  CAIA, VA Profile, flagship mobile team) to optimize this experience for service
+  members and Veterans
 kpi_alignment:
-  - "Our digital experiences are the best way to access VA health care and benefits"
+- Our digital experiences are the best way to access VA health care and benefits
 outcomes:
-  user: "Transitioning service members can easily learn about VA benefits and understand their eligibility through VA.gov"
-  business: "Improved onboarding experience reduces support burden and increases benefit uptake"
+  user: Transitioning service members can easily learn about VA benefits and understand
+    their eligibility through VA.gov
+  business: Improved onboarding experience reduces support burden and increases benefit
+    uptake
 opportunity_areas:
-  - "Personalized benefit eligibility information based on user profile"
-  - "Service member benefit hub discoverability"
-  - "1:1 connections with VSOs and counselors"
-  - "Proactive communication about time-sensitive benefits"
-  - "Identity verification process improvement"
+- Personalized benefit eligibility information based on user profile
+- Service member benefit hub discoverability
+- 1:1 connections with VSOs and counselors
+- Proactive communication about time-sensitive benefits
+- Identity verification process improvement
 further_research_needed:
-  - "Research with true first-time VA.gov users (not in TAP yet)"
-  - "Research with service members without post-secondary education"
-  - "Research with participants who haven't engaged with VA yet"
+- Research with true first-time VA.gov users (not in TAP yet)
+- Research with service members without post-secondary education
+- Research with participants who haven't engaged with VA yet
 underserved_groups_missing:
-  - "LGBTQ+ representation unknown"
-  - "Assistive technology users"
-  - "Urban/rural location data not captured"
-  - "More service members vs veterans needed"
-  - "People without cognitive considerations overrepresented"
+- LGBTQ+ representation unknown
+- Assistive technology users
+- Urban/rural location data not captured
+- More service members vs veterans needed
+- People without cognitive considerations overrepresented
 secondary_research:
-  - "Veteran Journey Map"
-  - "TAP course materials and feedback"
+- Veteran Journey Map
+- TAP course materials and feedback
 synthesis_tools_used:
-  - "EnjoyHQ"
+- EnjoyHQ
+tags:
+- 'AUD: Veterans'
+- 'AUD: Service Members'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Housing'
+- 'PRDT: My VA'
+- remote-research
+- semi-structured-interviews
 ---
-
 # Transitioning Service Member Engagement with VA, Generative Research, Findings Summary
 
 April 8, 2024

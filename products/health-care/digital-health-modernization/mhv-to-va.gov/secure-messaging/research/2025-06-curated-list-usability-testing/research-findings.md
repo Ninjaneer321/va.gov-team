@@ -1,23 +1,23 @@
 ---
-title: "Secure Messages Curated List Usability Research Findings"
-product: "My HealtheVet on VA.gov - Secure Messaging"
-team: "MHV on VA.gov - Secure Messaging Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2025-07-09"
+title: Secure Messages Curated List Usability Research Findings
+product: My HealtheVet on VA.gov - Secure Messaging
+team: MHV on VA.gov - Secure Messaging Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2025-07-09'
 researchers:
-  - "Anne Costello Kennedy"
+- Anne Costello Kennedy
 research_goals:
-  - "Assess Veterans' ability to find and select the correct care team for messaging"
-  - "Evaluate how Veterans understand and interact with contact list features"
-  - "Understand how Veterans respond when they can't find the contact they need"
+- Assess Veterans' ability to find and select the correct care team for messaging
+- Evaluate how Veterans understand and interact with contact list features
+- Understand how Veterans respond when they can't find the contact they need
 methodology:
-  - "Remote moderated usability testing"
-  - "Prototype navigation and observation"
+- Remote moderated usability testing
+- Prototype navigation and observation
 devices_used:
-    desktop: 8
-    tablet: 1
-    smartphone: 0
-    assistive_technology: 1
+  desktop: 8
+  tablet: 1
+  smartphone: 0
+  assistive_technology: 1
 participants_total: 9
 demographics:
   veterans: 9
@@ -26,11 +26,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 3
-    "45-54": 0
-    "55-64": 1
-    "65+": 5
+    25-34: 0
+    35-44: 3
+    45-54: 0
+    55-64: 1
+    65+: 5
     unknown: 0
   education:
     high_school: 3
@@ -63,39 +63,67 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "All participants (8 of 8) successfully found the intended care team on the Recent Care Teams list"
-  - "All participants (9 of 9) successfully identified and selected a contact that was not in the Recent Care Team list"
-  - "All participants (9 of 9) successfully selected Dr. Wallace and Dr. McDaniels using the combo box"
-  - "Most participants (7 of 9) used the dropdown to select the care team in both tasks involving the combo box"
-  - "Few participants (2 of 9) identified the additional function of the combo box after employing type or dropdown"
-  - "Most participants (5 of 9) selected What to do if you can't find your care team when Dr. McDaniels did not appear in the combo box"
-  - "All participants (8 of 8) successfully updated the contact list to include Dr. McDaniels"
-  - "Most participants (5 of 7) identified the checkbox when asked how they know their update was successful"
-  - "Most participants (8 of 9) found the Can't Find Your Care Team page when unable to find Dr. Diamond"
-  - "All participants (8 of 8) would contact their primary care provider, MHV coordinator, or VA facility if they needed a care team added to their contact list"
+- All participants (8 of 8) successfully found the intended care team on the Recent
+  Care Teams list
+- All participants (9 of 9) successfully identified and selected a contact that was
+  not in the Recent Care Team list
+- All participants (9 of 9) successfully selected Dr. Wallace and Dr. McDaniels using
+  the combo box
+- Most participants (7 of 9) used the dropdown to select the care team in both tasks
+  involving the combo box
+- Few participants (2 of 9) identified the additional function of the combo box after
+  employing type or dropdown
+- Most participants (5 of 9) selected What to do if you can't find your care team
+  when Dr. McDaniels did not appear in the combo box
+- All participants (8 of 8) successfully updated the contact list to include Dr. McDaniels
+- Most participants (5 of 7) identified the checkbox when asked how they know their
+  update was successful
+- Most participants (8 of 9) found the Can't Find Your Care Team page when unable
+  to find Dr. Diamond
+- All participants (8 of 8) would contact their primary care provider, MHV coordinator,
+  or VA facility if they needed a care team added to their contact list
 recommendations:
-  - "Explore ways to help Veterans distinguish the purpose of the What to do if you can't find your care team and Update your contact list. Consider having the What to do link take Veterans to the Contact List with an additional CTA to continue to Can't Find Your Care Team"
-  - "This will allow Veterans to check their available contacts before having to read the Can't Find Your Care Team content"
-  - "This is especially important for Veterans with cognitive disabilities and/or PTSD who can become overwhelmed by too much text/information"
-  - "Conduct Assistive Technology (AT) testing on the curated list flow, combo box, and update contact list features"
-  - "It is imperative that these features are tested by Veterans who are dependent upon screen readers, magnification (400%+), and voice command to ensure their usability"
+- Explore ways to help Veterans distinguish the purpose of the What to do if you can't
+  find your care team and Update your contact list. Consider having the What to do
+  link take Veterans to the Contact List with an additional CTA to continue to Can't
+  Find Your Care Team
+- This will allow Veterans to check their available contacts before having to read
+  the Can't Find Your Care Team content
+- This is especially important for Veterans with cognitive disabilities and/or PTSD
+  who can become overwhelmed by too much text/information
+- Conduct Assistive Technology (AT) testing on the curated list flow, combo box, and
+  update contact list features
+- It is imperative that these features are tested by Veterans who are dependent upon
+  screen readers, magnification (400%+), and voice command to ensure their usability
 kpi_alignment:
-  - "Not specified"
+- Not specified
 outcomes:
-  user: "Veterans can efficiently find and message the correct care team using the curated list flow"
-  business: "Improve secure messaging usability through curated care team selection"
+  user: Veterans can efficiently find and message the correct care team using the
+    curated list flow
+  business: Improve secure messaging usability through curated care team selection
 opportunity_areas:
-  - "Link clarity between What to do if you can't find your care team and Update your contact list"
-  - "Assistive technology compatibility and usability"
+- Link clarity between What to do if you can't find your care team and Update your
+  contact list
+- Assistive technology compatibility and usability
 further_research_needed:
-  - "AT testing needs to be completed"
+- AT testing needs to be completed
 underserved_groups_missing:
-  - "Not specified"
+- Not specified
 secondary_research: []
 synthesis_tools_used:
-  - "Mural"
+- Mural
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'PRDT: Caregivers'
+- 'MHV: Secure Messaging'
+- usability-testing
+- moderated-research
+- remote-research
+- Accessibility
+- evaluative
 ---
-
 # Secure Messages Curated List Usability Research Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), Secure Messages on VA.gov**

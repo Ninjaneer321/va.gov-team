@@ -1,25 +1,27 @@
 ---
-title: "Medical Records Discovery Research Findings"
-product: "Medical Records"
-team: "Health Apartment"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2022-10-03"
+title: Medical Records Discovery Research Findings
+product: Medical Records
+team: Health Apartment
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2022-10-03'
 researchers:
-  - "Coulton Bunney"
-  - "Jenny Wang"
+- Coulton Bunney
+- Jenny Wang
 research_goals:
-  - "Understand what data exists in MHV medical records and the technical constraints of that data"
-  - "Understand the policies, laws, and product history that influence MHV medical records"
-  - "Understand known usability issues with medical records and garner preliminary ideas for ways to improve them"
+- Understand what data exists in MHV medical records and the technical constraints
+  of that data
+- Understand the policies, laws, and product history that influence MHV medical records
+- Understand known usability issues with medical records and garner preliminary ideas
+  for ways to improve them
 methodology:
-  - "Informational interviews"
-  - "SME interviews"
-  - "Technical discovery"
+- Informational interviews
+- SME interviews
+- Technical discovery
 devices_used:
-    desktop: 0
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 0
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 16
 demographics:
   veterans: 0
@@ -28,11 +30,11 @@ demographics:
   dependents: 0
   VA_staff: 16
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
     unknown: 16
   education:
     high_school: 0
@@ -65,52 +67,78 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "There are roughly 13 categories of data included as part of medical records today, each pulled individually and possibly from different databases"
-  - "By VHA policy, some data is not released to patients as soon as it is available - data from six domains held for 36 hours after becoming available"
-  - "Further technical discovery needed into which sources of medical records data will best meet the needs of modernized medical records applications in VA.gov"
-  - "Unable to locate any laws that strictly define what is required to be included as part of a medical record"
-  - "Patients own data they have requested and been provided, so must ensure users retain access to all data in their MHV eVault during and after transition"
-  - "Only policy placing requirements on data display was VHA Directive 1164 outlining Essential Medication Information Standards"
-  - "Blue Button, VA Health Summary, and VA Medical Images and Reports were designed for very different purposes"
-  - "Blue Button is a government-wide initiative, not VA specific branding"
-  - "MHV does not provide an easy way to find or view individual pieces of medical records data"
-  - "Three ways to share medical records with outside provider each have significant usability issues"
-  - "Most frequently requested data from Blue Button are progress notes, followed by labs, appointments and prescriptions"
+- There are roughly 13 categories of data included as part of medical records today,
+  each pulled individually and possibly from different databases
+- By VHA policy, some data is not released to patients as soon as it is available
+  - data from six domains held for 36 hours after becoming available
+- Further technical discovery needed into which sources of medical records data will
+  best meet the needs of modernized medical records applications in VA.gov
+- Unable to locate any laws that strictly define what is required to be included as
+  part of a medical record
+- Patients own data they have requested and been provided, so must ensure users retain
+  access to all data in their MHV eVault during and after transition
+- Only policy placing requirements on data display was VHA Directive 1164 outlining
+  Essential Medication Information Standards
+- Blue Button, VA Health Summary, and VA Medical Images and Reports were designed
+  for very different purposes
+- Blue Button is a government-wide initiative, not VA specific branding
+- MHV does not provide an easy way to find or view individual pieces of medical records
+  data
+- Three ways to share medical records with outside provider each have significant
+  usability issues
+- Most frequently requested data from Blue Button are progress notes, followed by
+  labs, appointments and prescriptions
 recommendations:
-  - "Conduct further technical discovery into which sources of medical records data will best meet the needs of modernized medical records applications"
-  - "Ensure Veterans see the same content regardless of which interface they use (VA.gov web, flagship mobile, MHV, Apple Health, etc.)"
-  - "Ensure users retain access to all data in their MHV eVault during and after the transition from MHV to VA.gov"
-  - "Continue to evaluate how Veterans identify with Blue Button brand and make clear what it means"
-  - "Provide an easy way to find or view individual pieces of medical records data"
-  - "Improve usability of sharing medical records with outside providers"
+- Conduct further technical discovery into which sources of medical records data will
+  best meet the needs of modernized medical records applications
+- Ensure Veterans see the same content regardless of which interface they use (VA.gov
+  web, flagship mobile, MHV, Apple Health, etc.)
+- Ensure users retain access to all data in their MHV eVault during and after the
+  transition from MHV to VA.gov
+- Continue to evaluate how Veterans identify with Blue Button brand and make clear
+  what it means
+- Provide an easy way to find or view individual pieces of medical records data
+- Improve usability of sharing medical records with outside providers
 kpi_alignment:
-  - "Not applicable for discovery research"
+- Not applicable for discovery research
 outcomes:
-  user: "Veterans can easily access and understand their medical records data"
-  business: "Successfully migrate MHV medical records to VA.gov with improved functionality"
+  user: Veterans can easily access and understand their medical records data
+  business: Successfully migrate MHV medical records to VA.gov with improved functionality
 opportunity_areas:
-  - "Improving individual record viewing capabilities"
-  - "Simplifying sharing of medical records with outside providers"
-  - "Standardizing data across VistA and Cerner systems"
+- Improving individual record viewing capabilities
+- Simplifying sharing of medical records with outside providers
+- Standardizing data across VistA and Cerner systems
 further_research_needed:
-  - "Additional technical discovery on data sources (PHR Manager vs Lighthouse APIs vs Cerner)"
-  - "User research on medical records usability issues"
-  - "Veteran research on Blue Button branding recognition"
+- Additional technical discovery on data sources (PHR Manager vs Lighthouse APIs vs
+  Cerner)
+- User research on medical records usability issues
+- Veteran research on Blue Button branding recognition
 underserved_groups_missing:
-  - "Not applicable - SME interviews only"
+- Not applicable - SME interviews only
 secondary_research:
-  - "SME interviews with Bylight engineers, designers, and product managers"
-  - "SME interviews with OIT Lighthouse APIs technical experts"
-  - "SME interviews with OCC leaders and MHV Business Line Owners"
-  - "SME interviews with VHA Office of Information Access and Privacy experts"
-  - "SME interviews with pharmacy clinical experts"
-  - "Policy and law research"
-  - "Technical documentation review"
+- SME interviews with Bylight engineers, designers, and product managers
+- SME interviews with OIT Lighthouse APIs technical experts
+- SME interviews with OCC leaders and MHV Business Line Owners
+- SME interviews with VHA Office of Information Access and Privacy experts
+- SME interviews with pharmacy clinical experts
+- Policy and law research
+- Technical documentation review
 synthesis_tools_used:
-  - "Document analysis"
-  - "Interview synthesis"
+- Document analysis
+- Interview synthesis
+tags:
+- 'AUD: VA Staff'
+- 'BNFT: Disability'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: My VA'
+- 'MHV: Appointments'
+- 'MHV: Pharmacy'
+- 'MHV: Secure Messaging'
+- 'MHV: Personal Health Records/Medical Records'
+- usability-testing
+- semi-structured-interviews
 ---
-
 # Medical Records Discovery Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Health Apartment, Medical Records**

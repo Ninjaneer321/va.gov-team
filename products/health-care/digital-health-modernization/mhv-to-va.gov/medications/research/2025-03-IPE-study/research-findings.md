@@ -1,24 +1,25 @@
 ---
-title: "Medications on VA.gov IPE Study Research Findings"
-product: "Medications"
-team: "My HealtheVet on VA.gov"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2025-05-01"
+title: Medications on VA.gov IPE Study Research Findings
+product: Medications
+team: My HealtheVet on VA.gov
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2025-05-01'
 researchers:
-  - "Melissa Stern"
-  - "Dan Van Vleck"
+- Melissa Stern
+- Dan Van Vleck
 research_goals:
-  - "Understand if screen reader users notice the in-product education (IPE) components"
-  - "Understand how screen reader users interact with the IPE components"
-  - "Understand screen reader users' perception of the IPE components"
-  - "Identify any pain points screen reader users may experience in using the IPE components to help them understand Medications"
+- Understand if screen reader users notice the in-product education (IPE) components
+- Understand how screen reader users interact with the IPE components
+- Understand screen reader users' perception of the IPE components
+- Identify any pain points screen reader users may experience in using the IPE components
+  to help them understand Medications
 methodology:
-  - "Moderated usability testing"
+- Moderated usability testing
 devices_used:
-    desktop: 5
-    tablet: 1
-    smartphone: 0
-    assistive_technology: 6
+  desktop: 5
+  tablet: 1
+  smartphone: 0
+  assistive_technology: 6
 participants_total: 6
 demographics:
   veterans: 0
@@ -27,11 +28,11 @@ demographics:
   dependents: 0
   VA_staff: 6
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
     unknown: 6
   education:
     high_school: 0
@@ -64,31 +65,48 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "All participants (5 of 5) assumed the IPE was directing them to the sort feature"
-  - "2 of 5 participants expanded the filter on their own, but did not use it successfully"
-  - "About half of the participants (2 of 5) acknowledged the IPE while navigating through Medications for the first time"
-  - "The other 3 of 5 participants navigated past the IPE, but did not say anything"
-  - "Most participants (4 of 5) appreciated the ability to dismiss the hint"
-  - "All participants (5 of 5) expressed that the hint added audible clutter to their screen reader dictation, or that they wouldn't have encountered it in the first place due to their navigation methods"
-  - "About half of the participants (2 of 5) requested a different placement for the IPE once they learned that it was meant for the filter component"
-  - "About half of the participants (2 of 5) commented on the content of the IPE message"
-  - "Almost all participants found both discontinued medications when asked to search for them within the medications list. 4 of 5 found the discontinued Albuterol medication, and 3 of 3 found the discontinued Metformin medication"
+- All participants (5 of 5) assumed the IPE was directing them to the sort feature
+- 2 of 5 participants expanded the filter on their own, but did not use it successfully
+- About half of the participants (2 of 5) acknowledged the IPE while navigating through
+  Medications for the first time
+- The other 3 of 5 participants navigated past the IPE, but did not say anything
+- Most participants (4 of 5) appreciated the ability to dismiss the hint
+- All participants (5 of 5) expressed that the hint added audible clutter to their
+  screen reader dictation, or that they wouldn't have encountered it in the first
+  place due to their navigation methods
+- About half of the participants (2 of 5) requested a different placement for the
+  IPE once they learned that it was meant for the filter component
+- About half of the participants (2 of 5) commented on the content of the IPE message
+- Almost all participants found both discontinued medications when asked to search
+  for them within the medications list. 4 of 5 found the discontinued Albuterol medication,
+  and 3 of 3 found the discontinued Metformin medication
 recommendations:
-  - "Adjust the placement of the IPE so that it comes before the filter"
-  - "Consider the technical feasibility of adding a search component"
+- Adjust the placement of the IPE so that it comes before the filter
+- Consider the technical feasibility of adding a search component
 kpi_alignment: []
 outcomes:
-  user: "Not specified"
-  business: "Not specified"
+  user: Not specified
+  business: Not specified
 opportunity_areas: []
 further_research_needed:
-  - "Unmoderated testing on updated IPE: Melissa Stern and Anne Costello Kennedy"
+- 'Unmoderated testing on updated IPE: Melissa Stern and Anne Costello Kennedy'
 underserved_groups_missing: []
 secondary_research: []
 synthesis_tools_used:
-  - "Mural"
+- Mural
+tags:
+- 'AUD: VA Staff'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'MHV: Pharmacy'
+- 'MHV: Personal Health Records/Medical Records'
+- usability-testing
+- moderated-research
+- remote-research
+- Accessibility
 ---
-
 # Medications on VA.gov IPE Study Research Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), My HealtheVet, Medications**

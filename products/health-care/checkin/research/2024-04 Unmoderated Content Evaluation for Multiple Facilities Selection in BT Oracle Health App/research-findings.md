@@ -1,25 +1,28 @@
 ---
-title: "Unmoderated Content Evaluation for Multiple Facilities Selection in BT Oracle Health App Research Findings"
-product: "Health Care Check-in"
-team: "Check-in Experience"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-04-30"
+title: Unmoderated Content Evaluation for Multiple Facilities Selection in BT Oracle
+  Health App Research Findings
+product: Health Care Check-in
+team: Check-in Experience
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-04-30'
 researchers:
-  - "Unspecified Check-in Team Researcher"
+- Unspecified Check-in Team Researcher
 research_goals:
-  - "Evaluate Veterans' understanding of mileage-only travel reimbursement claims vs claims with receipts"
-  - "Assess Veterans' comprehension of tile checkbox design component for facility selection"
-  - "Determine if Veterans understand how to file separate claims for multiple facilities"
-  - "Identify if Veterans understand which appointments are eligible for claims through this tool"
+- Evaluate Veterans' understanding of mileage-only travel reimbursement claims vs
+  claims with receipts
+- Assess Veterans' comprehension of tile checkbox design component for facility selection
+- Determine if Veterans understand how to file separate claims for multiple facilities
+- Identify if Veterans understand which appointments are eligible for claims through
+  this tool
 methodology:
-  - "Unmoderated content evaluation"
-  - "Image-based comprehension assessment"
-  - "Multiple choice and open-ended questions"
+- Unmoderated content evaluation
+- Image-based comprehension assessment
+- Multiple choice and open-ended questions
 devices_used:
-    desktop: 60
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 0
+  desktop: 60
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 60
 demographics:
   veterans: 60
@@ -28,11 +31,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
     unknown: 60
   education:
     high_school: 0
@@ -69,34 +72,49 @@ demographics:
     have_filed_before: 43
     not_filed_before: 17
 key_findings:
-  - "90% of Veterans understood this tool is for mileage-only travel reimbursement claims and that BTSSS portal is needed for claims with receipts"
-  - "98% of Veterans understood how many and which claims they are filing when selecting facilities using the tile checkbox design"
-  - "88% of Veterans understood how to file a claim for facilities not selected on the facility selection page"
-  - "35% of Veterans did not understand they cannot use this tool to file claims for past appointments in the absence of explicit information"
+- 90% of Veterans understood this tool is for mileage-only travel reimbursement claims
+  and that BTSSS portal is needed for claims with receipts
+- 98% of Veterans understood how many and which claims they are filing when selecting
+  facilities using the tile checkbox design
+- 88% of Veterans understood how to file a claim for facilities not selected on the
+  facility selection page
+- 35% of Veterans did not understand they cannot use this tool to file claims for
+  past appointments in the absence of explicit information
 recommendations:
-  - "Ensure clear information is included for which appointments can be filed using this tool vs BTSSS"
-  - "Apply findings to modified version where Veterans choose between two appointments at the same facility"
-  - "Continue using tile checkbox design component as it demonstrated high comprehension rates"
+- Ensure clear information is included for which appointments can be filed using this
+  tool vs BTSSS
+- Apply findings to modified version where Veterans choose between two appointments
+  at the same facility
+- Continue using tile checkbox design component as it demonstrated high comprehension
+  rates
 kpi_alignment:
-  - "Improve Veterans' understanding of travel reimbursement claim filing process"
-  - "Reduce errors in claim submissions"
+- Improve Veterans' understanding of travel reimbursement claim filing process
+- Reduce errors in claim submissions
 outcomes:
-  user: "Veterans can confidently file travel reimbursement claims with clear understanding of tool capabilities and limitations"
-  business: "Reduced support calls and claim filing errors related to facility selection and eligibility"
+  user: Veterans can confidently file travel reimbursement claims with clear understanding
+    of tool capabilities and limitations
+  business: Reduced support calls and claim filing errors related to facility selection
+    and eligibility
 opportunity_areas:
-  - "Clarify appointment eligibility timeframes (past vs current day appointments)"
-  - "Provide better guidance on when to use this tool vs BTSSS portal"
+- Clarify appointment eligibility timeframes (past vs current day appointments)
+- Provide better guidance on when to use this tool vs BTSSS portal
 further_research_needed:
-  - "Test updated content with clearer appointment eligibility information"
-  - "Validate design changes made due to business rule changes"
+- Test updated content with clearer appointment eligibility information
+- Validate design changes made due to business rule changes
 underserved_groups_missing:
-  - "Demographic data not collected for this unmoderated study"
+- Demographic data not collected for this unmoderated study
 secondary_research:
-  - "None specified"
+- None specified
 synthesis_tools_used:
-  - "Mural"
+- Mural
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Healthcare'
+- 'PRDT: Facilities'
+- 'MHV: Appointments'
+- moderated-research
+- evaluative
 ---
-
 # Research Findings - Unmoderated Content Evaluation for Multiple Facilities Selection in BT Oracle Health App Research Study
 
 - [Research synthesis (Mural)](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1715965696451/66115023065835cadd05eeb75a64cb066975362e?showAddTemplatePopup=true)

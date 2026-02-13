@@ -1,24 +1,26 @@
 ---
-title: "2022 VA Mobile Rx Refill/Pharmacy Usability Test Research Findings - August 2022"
-product: "VA Mobile App - Rx Refill"
-team: "VA Mobile App Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2022-08-31"
+title: 2022 VA Mobile Rx Refill/Pharmacy Usability Test Research Findings - August
+  2022
+product: VA Mobile App - Rx Refill
+team: VA Mobile App Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2022-08-31'
 researchers:
-  - "Esther Kitavi"
-  - "Brenda Rocha"
-  - "Alex Taylor"
+- Esther Kitavi
+- Brenda Rocha
+- Alex Taylor
 research_goals:
-  - "Determine if users are able to navigate the IA, request prescription refills, and find prescriptions that they are looking for"
-  - "Identify major usability or content issues with the current designs"
+- Determine if users are able to navigate the IA, request prescription refills, and
+  find prescriptions that they are looking for
+- Identify major usability or content issues with the current designs
 methodology:
-  - "Remote moderated usability study"
-  - "High fidelity Figma prototype testing"
+- Remote moderated usability study
+- High fidelity Figma prototype testing
 devices_used:
-    desktop: 0
-    tablet: 0
-    smartphone: 13
-    assistive_technology: 0
+  desktop: 0
+  tablet: 0
+  smartphone: 13
+  assistive_technology: 0
 participants_total: 13
 demographics:
   veterans: 13
@@ -27,11 +29,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
     unknown: 13
   education:
     high_school: 0
@@ -64,47 +66,66 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Participants understood how to initiate refill requests from the list view"
-  - "Participants found the tabs useful for checking on the status of their refill requests"
-  - "Participants found the list view easy to navigate and not overwhelming"
-  - "Participants liked the amount of prescription information presented in the cards but had different ideas about what they considered important"
-  - "Participants mentioned the prescription statuses as one of the first things they noticed"
+- Participants understood how to initiate refill requests from the list view
+- Participants found the tabs useful for checking on the status of their refill requests
+- Participants found the list view easy to navigate and not overwhelming
+- Participants liked the amount of prescription information presented in the cards
+  but had different ideas about what they considered important
+- Participants mentioned the prescription statuses as one of the first things they
+  noticed
 recommendations:
-  - "Rethink the visual hierarchy of the prescription status tag"
-  - "Consider rephrasing the 'Review processing refills' button and potentially other areas that use the term 'Review'"
-  - "Retain the current card metadata"
-  - "Consider revisiting the card metadata fields by investigating how users use the information post-launch"
-  - "Consider adding a disclaimer on the profile page that changing the address there won't affect the Rx address"
-  - "Implement refill alerts to notify users when a prescription is eligible to be refilled"
-  - "Implement refill status alerts to notify users when there is a problem refilling a prescription"
-  - "Implement shipping alerts to notify users when a prescription has been shipped and delivered"
+- Rethink the visual hierarchy of the prescription status tag
+- Consider rephrasing the 'Review processing refills' button and potentially other
+  areas that use the term 'Review'
+- Retain the current card metadata
+- Consider revisiting the card metadata fields by investigating how users use the
+  information post-launch
+- Consider adding a disclaimer on the profile page that changing the address there
+  won't affect the Rx address
+- Implement refill alerts to notify users when a prescription is eligible to be refilled
+- Implement refill status alerts to notify users when there is a problem refilling
+  a prescription
+- Implement shipping alerts to notify users when a prescription has been shipped and
+  delivered
 kpi_alignment:
-  - "Veterans can manage their health services online (OCTO Objective 2)"
-  - "Veterans and their families can find a single, authoritative source of information (OCTO Objective 5)"
-  - "Logged-in users have a personalized experience, with relevant and time-saving features (OCTO Objective 6)"
-  - "Veterans and their families trust the security accuracy and relevancy of VA.gov (OCTO Objective 7)"
+- Veterans can manage their health services online (OCTO Objective 2)
+- Veterans and their families can find a single, authoritative source of information
+  (OCTO Objective 5)
+- Logged-in users have a personalized experience, with relevant and time-saving features
+  (OCTO Objective 6)
+- Veterans and their families trust the security accuracy and relevancy of VA.gov
+  (OCTO Objective 7)
 outcomes:
-  user: "Veterans can easily request prescription refills through the mobile app to manage their medications"
-  business: "Increased usage of digital self-service tools and completion rate of online transactions; decreased call center volume"
+  user: Veterans can easily request prescription refills through the mobile app to
+    manage their medications
+  business: Increased usage of digital self-service tools and completion rate of online
+    transactions; decreased call center volume
 opportunity_areas:
-  - "Address delivery confirmation and editing capabilities"
-  - "One-stop-shop integration for all VA needs"
-  - "Better coordination of care across different VA facilities"
+- Address delivery confirmation and editing capabilities
+- One-stop-shop integration for all VA needs
+- Better coordination of care across different VA facilities
 further_research_needed:
-  - "Revisit card metadata fields by investigating how users use the information post-launch"
-  - "Research address management for prescription delivery"
+- Revisit card metadata fields by investigating how users use the information post-launch
+- Research address management for prescription delivery
 underserved_groups_missing:
-  - "Veterans who live abroad"
-  - "Veterans of immigrant origin"
-  - "Veterans who identify as Asian or Latinx"
-  - "Veterans who identify as LGBTQ+"
+- Veterans who live abroad
+- Veterans of immigrant origin
+- Veterans who identify as Asian or Latinx
+- Veterans who identify as LGBTQ+
 secondary_research:
-  - "Participant demographics tracker"
+- Participant demographics tracker
 synthesis_tools_used:
-  - "Affinity Diagram"
-  - "Quantitative Synthesis spreadsheet"
+- Affinity Diagram
+- Quantitative Synthesis spreadsheet
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Healthcare'
+- 'PRDT: Facilities'
+- 'MHV: Pharmacy'
+- usability-testing
+- moderated-research
+- remote-research
 ---
-
 # Research Findings for 2022 VA Mobile Rx Refill/Pharmacy Usability Test
 
 

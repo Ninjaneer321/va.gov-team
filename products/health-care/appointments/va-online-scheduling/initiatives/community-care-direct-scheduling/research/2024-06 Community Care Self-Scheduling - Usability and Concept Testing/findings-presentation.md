@@ -1,21 +1,22 @@
 ---
-title: "Community Care Self-Scheduling Research Presentation"
-product: "VA Online Scheduling (VAOS)"
-team: "Appointments Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-10-03"
+title: Community Care Self-Scheduling Research Presentation
+product: VA Online Scheduling (VAOS)
+team: Appointments Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-10-03'
 researchers:
-  - "Appointments Research Team"
+- Appointments Research Team
 research_goals:
-  - "Present findings from Community Care Veteran Digital Self-Scheduling Usability and Concept Testing"
+- Present findings from Community Care Veteran Digital Self-Scheduling Usability and
+  Concept Testing
 methodology:
-  - "Research presentation"
-  - "Design sync presentation"
+- Research presentation
+- Design sync presentation
 devices_used:
-    desktop: 0
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 0
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
 participants_total: 0
 demographics:
   veterans: 0
@@ -24,11 +25,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
     unknown: 0
   education:
     high_school: 0
@@ -61,29 +62,33 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Research presentation documents for Community Care Veteran Self-Scheduling Usability and Concept Testing"
-  - "Detailed findings available in associated research-findings.md file"
+- Research presentation documents for Community Care Veteran Self-Scheduling Usability
+  and Concept Testing
+- Detailed findings available in associated research-findings.md file
 recommendations:
-  - "See associated research-findings.md file for complete recommendations"
+- See associated research-findings.md file for complete recommendations
 kpi_alignment:
-  - "Support team alignment on community care self-scheduling feature development"
+- Support team alignment on community care self-scheduling feature development
 outcomes:
-  user: "N/A - Presentation document"
-  business: "Share research findings with broader team and stakeholders through presentation format"
+  user: N/A - Presentation document
+  business: Share research findings with broader team and stakeholders through presentation
+    format
 opportunity_areas:
-  - "See associated research-findings.md file"
+- See associated research-findings.md file
 further_research_needed:
-  - "See associated research-findings.md file"
+- See associated research-findings.md file
 underserved_groups_missing:
-  - "N/A - Presentation document"
+- N/A - Presentation document
 secondary_research:
-  - "Research Report PDF - Community Care Veteran Self-Scheduling Usability and Concept Testing (September 16, 2024)"
-  - "Veteran Digital User Experience Weekly Design Sync Presentation (October 3, 2024)"
+- Research Report PDF - Community Care Veteran Self-Scheduling Usability and Concept
+  Testing (September 16, 2024)
+- Veteran Digital User Experience Weekly Design Sync Presentation (October 3, 2024)
 synthesis_tools_used:
-  - "Presentation slides"
-  - "Research report PDF"
+- Presentation slides
+- Research report PDF
+tags:
+- evaluative
 ---
-
 # Research Presentation - Community Care Digital Self-Scheduling
 
 [Download the Research Report - Community Care Veteran Self-Scheduling - Usability and Concept Testing](https://github.com/user-attachments/files/17013697/Research.Report.-.Community.Care.Veteran.Self-Scheduling.-.Usability.and.Concept.Testing.pdf)

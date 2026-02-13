@@ -1,22 +1,24 @@
 ---
-title: "Profile Hub Tree Test Research Findings"
-product: "VA.gov Profile"
-team: "Authenticated Experience Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2025-05-16"
+title: Profile Hub Tree Test Research Findings
+product: VA.gov Profile
+team: Authenticated Experience Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2025-05-16'
 researchers:
-  - "Janelle Finnerty"
+- Janelle Finnerty
 research_goals:
-  - "Validate if incorporating the ILER IES report into a new Letters and documents section in VA.gov Profile matches Veterans mental models"
-  - "Validate if updating VA.gov Profile Hub to reflect recommendations from prior research and analytics match Veteran mental models"
+- Validate if incorporating the ILER IES report into a new Letters and documents section
+  in VA.gov Profile matches Veterans mental models
+- Validate if updating VA.gov Profile Hub to reflect recommendations from prior research
+  and analytics match Veteran mental models
 methodology:
-  - "Unmoderated tree test"
-  - "Optimal Workshop"
+- Unmoderated tree test
+- Optimal Workshop
 devices_used:
-    desktop: 24
-    tablet: 0
-    smartphone: 21
-    assistive_technology: 0
+  desktop: 24
+  tablet: 0
+  smartphone: 21
+  assistive_technology: 0
 participants_total: 45
 demographics:
   veterans: 45
@@ -25,11 +27,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 1
-    "35-44": 8
-    "45-54": 7
-    "55-64": 7
-    "65+": 22
+    25-34: 1
+    35-44: 8
+    45-54: 7
+    55-64: 7
+    65+: 22
     unknown: 0
   education:
     high_school: 3
@@ -62,36 +64,68 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "7 of 10 tasks were a success, supporting recommendations based on prior research and analytics"
-  - "Accredited representatives had the lowest success rate, with only 9% of participants successfully navigating to Dependents and personal contacts"
-  - "The ILER IES report was more associated with Service history information (71%) than Letters and documents (29%)"
-  - "Veteran Status Card placement was almost an even split between Letters and documents (40%) and Personal information (44%)"
-  - "25 (56%) participants had no additional feedback on the proposed navigation. 12 (27%) requested a health care section, and 5 (11%) requested a disability information section"
-  - "'Dependents and contacts' received the most votes (40%) as the preferred section title for content related to dependents, health care contacts, and accredited representatives. The next most popular was 'Beneficiaries, dependents, and contacts,' which received 29% of votes"
-  - "84.4% of participants had a positive satisfaction rating for the proposed navigation. 10 participants provided written feedback, all of which was positive or neutral"
+- 7 of 10 tasks were a success, supporting recommendations based on prior research
+  and analytics
+- Accredited representatives had the lowest success rate, with only 9% of participants
+  successfully navigating to Dependents and personal contacts
+- The ILER IES report was more associated with Service history information (71%) than
+  Letters and documents (29%)
+- Veteran Status Card placement was almost an even split between Letters and documents
+  (40%) and Personal information (44%)
+- 25 (56%) participants had no additional feedback on the proposed navigation. 12
+  (27%) requested a health care section, and 5 (11%) requested a disability information
+  section
+- '''Dependents and contacts'' received the most votes (40%) as the preferred section
+  title for content related to dependents, health care contacts, and accredited representatives.
+  The next most popular was ''Beneficiaries, dependents, and contacts,'' which received
+  29% of votes'
+- 84.4% of participants had a positive satisfaction rating for the proposed navigation.
+  10 participants provided written feedback, all of which was positive or neutral
 recommendations:
-  - "Recommend moving forward with the following changes on VA.gov Profile: Change 'Direct deposit information' to 'Financial information', Change 'Military information' to 'Service history information', Add a 'Dependents and contacts' section, Change 'Notification settings' to 'Communication settings', Keep 'Disability rating' in 'Personal information section'"
-  - "Work with Accredited Representative Management (ARM) team to identify ideal location for Accredited representative card, and validate location with Veterans"
-  - "Continue with proposed ILER IES report designs. Have the report in Letters and documents and link from the Service history information page"
-  - "Decide as a team on the long term location of the Veteran Status Card. Options include Personal information or Letters and documents. Both options are viable"
-  - "In future research gather more information on how and why Veterans want health care information in their profile to see if it's a good future feature for VA.gov Profile"
+- 'Recommend moving forward with the following changes on VA.gov Profile: Change ''Direct
+  deposit information'' to ''Financial information'', Change ''Military information''
+  to ''Service history information'', Add a ''Dependents and contacts'' section, Change
+  ''Notification settings'' to ''Communication settings'', Keep ''Disability rating''
+  in ''Personal information section'''
+- Work with Accredited Representative Management (ARM) team to identify ideal location
+  for Accredited representative card, and validate location with Veterans
+- Continue with proposed ILER IES report designs. Have the report in Letters and documents
+  and link from the Service history information page
+- Decide as a team on the long term location of the Veteran Status Card. Options include
+  Personal information or Letters and documents. Both options are viable
+- In future research gather more information on how and why Veterans want health care
+  information in their profile to see if it's a good future feature for VA.gov Profile
 kpi_alignment:
-  - "Improve satisfaction with our web and mobile products by 5 points"
+- Improve satisfaction with our web and mobile products by 5 points
 outcomes:
-  user: "This research supports our desired user outcome by ensuring Veterans can successfully navigate VA.gov Profile. Including finding, downloading, and using their ILER IES report"
-  business: "This research supports our desired business outcomes by allowing Veterans to access their ILER IES report per congressional mandate, reducing support requests by ensuring the IES is available to all veteran users, and increasing user satisfaction and trust in VA.gov"
+  user: This research supports our desired user outcome by ensuring Veterans can successfully
+    navigate VA.gov Profile. Including finding, downloading, and using their ILER
+    IES report
+  business: This research supports our desired business outcomes by allowing Veterans
+    to access their ILER IES report per congressional mandate, reducing support requests
+    by ensuring the IES is available to all veteran users, and increasing user satisfaction
+    and trust in VA.gov
 opportunity_areas: []
 further_research_needed:
-  - "Further research is needed to place Accredited representatives within VA.gov Profile"
+- Further research is needed to place Accredited representatives within VA.gov Profile
 underserved_groups_missing:
-  - "Other than honorable"
-  - "Immigrant origin"
+- Other than honorable
+- Immigrant origin
 secondary_research:
-  - "03/2025, VA.gov Profile Desk Research"
+- 03/2025, VA.gov Profile Desk Research
 synthesis_tools_used:
-  - "Optimal Workshop"
+- Optimal Workshop
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: Accredited-Reps'
+- 'MHV: Pharmacy'
+- moderated-research
+- evaluative
 ---
-
 # **Research Findings for Profile Hub Tree Test, 05/2025**
 
 **Office of the CTO - Digital Experience (OCTO-DE), VA.gov Profile: Profile Hub, Authenticated Experience Team**

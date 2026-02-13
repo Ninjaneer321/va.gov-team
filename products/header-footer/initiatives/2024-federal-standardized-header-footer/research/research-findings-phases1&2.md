@@ -1,26 +1,28 @@
 ---
-title: "Federal Standardized Header/Footer Usability Testing - Phases 1 & 2 Research Findings"
-product: "Sitewide Header and Footer"
-team: "Sitewide Public Websites"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2024-03-06"
+title: Federal Standardized Header/Footer Usability Testing - Phases 1 & 2 Research
+  Findings
+product: Sitewide Header and Footer
+team: Sitewide Public Websites
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-03-06'
 researchers:
-  - "Cindy Merrill"
+- Cindy Merrill
 research_goals:
-  - "Determine wayfinding task success rate using proposed Federal header and footer"
-  - "Understand how Veterans using screen reader or screen magnifier technology navigate header and footer"
-  - "Assess Veteran sentiment on USA logo and VA seal with dropping of VA brand mark"
-  - "Test impact of new federal header and footer design on Veteran wayfinding experience"
+- Determine wayfinding task success rate using proposed Federal header and footer
+- Understand how Veterans using screen reader or screen magnifier technology navigate
+  header and footer
+- Assess Veteran sentiment on USA logo and VA seal with dropping of VA brand mark
+- Test impact of new federal header and footer design on Veteran wayfinding experience
 methodology:
-  - "Remote usability testing"
-  - "Prototype testing (Figma and CodePen)"
-  - "Evaluative research"
-  - "Task-based usability testing"
+- Remote usability testing
+- Prototype testing (Figma and CodePen)
+- Evaluative research
+- Task-based usability testing
 devices_used:
-    desktop: 11
-    tablet: 4
-    smartphone: 8
-    assistive_technology: 9
+  desktop: 11
+  tablet: 4
+  smartphone: 8
+  assistive_technology: 9
 participants_total: 19
 demographics:
   veterans: 18
@@ -29,11 +31,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 2
-    "35-44": 4
-    "45-54": 2
-    "55-64": 6
-    "65+": 4
+    25-34: 2
+    35-44: 4
+    45-54: 2
+    55-64: 6
+    65+: 4
     unknown: 1
   education:
     high_school: 3
@@ -66,60 +68,77 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "All 7 wayfinding tasks completed successfully without help by at least 60% of participants"
-  - "Accessibility problems affected task completion for screen reader users"
-  - "Half of participants had difficulty finding the Auth menu"
-  - "One third of participants didn't recognize they were signed in"
-  - "More than half who could see colored USA logo had negative impressions (looked fraudulent or fake)"
-  - "No participants mentioned missing the VA logo - VA seal and text were sufficient"
-  - "One third of participants didn't notice links in black federal footer"
-  - "Half of participants looked for FOIA in footer but used search instead"
-  - "Three participants said blue VA footer is too large with too many links"
-  - "5 of 9 AT users said they call VA rather than use website because it's easier"
+- All 7 wayfinding tasks completed successfully without help by at least 60% of participants
+- Accessibility problems affected task completion for screen reader users
+- Half of participants had difficulty finding the Auth menu
+- One third of participants didn't recognize they were signed in
+- More than half who could see colored USA logo had negative impressions (looked fraudulent
+  or fake)
+- No participants mentioned missing the VA logo - VA seal and text were sufficient
+- One third of participants didn't notice links in black federal footer
+- Half of participants looked for FOIA in footer but used search instead
+- Three participants said blue VA footer is too large with too many links
+- 5 of 9 AT users said they call VA rather than use website because it's easier
 recommendations:
-  - "For mobile, consider different placement for Auth menu because underneath Menu button wasn't intuitive"
-  - "Consider additional personalization after sign in to make it more obvious"
-  - "Revisit large blue footer in conjunction with small black footer due to confusion about page bottom"
-  - "Fix accessibility issues: search functionality for screen readers, sign-in button after authentication, skip navigation links"
-  - "Conduct accessibility testing before launch to ensure WCAG compliance"
-  - "Consider user feedback on USA logo design and placement"
-  - "Simplify footer structure to reduce confusion about where content ends"
+- For mobile, consider different placement for Auth menu because underneath Menu button
+  wasn't intuitive
+- Consider additional personalization after sign in to make it more obvious
+- Revisit large blue footer in conjunction with small black footer due to confusion
+  about page bottom
+- 'Fix accessibility issues: search functionality for screen readers, sign-in button
+  after authentication, skip navigation links'
+- Conduct accessibility testing before launch to ensure WCAG compliance
+- Consider user feedback on USA logo design and placement
+- Simplify footer structure to reduce confusion about where content ends
 kpi_alignment:
-  - "Wayfinding task success rates"
-  - "Accessibility compliance"
-  - "User satisfaction with header/footer design"
+- Wayfinding task success rates
+- Accessibility compliance
+- User satisfaction with header/footer design
 outcomes:
-  user: "Veterans can successfully navigate VA.gov with federal standardized header and footer"
-  business: "VA becomes first HISP to adopt federal header/footer standards with minimal negative impact"
+  user: Veterans can successfully navigate VA.gov with federal standardized header
+    and footer
+  business: VA becomes first HISP to adopt federal header/footer standards with minimal
+    negative impact
 opportunity_areas:
-  - "Improving authenticated menu discoverability and recognition"
-  - "Enhancing accessibility for screen reader and magnifier users"
-  - "Clarifying footer structure and content organization"
-  - "Refining USA logo design to reduce negative perceptions"
+- Improving authenticated menu discoverability and recognition
+- Enhancing accessibility for screen reader and magnifier users
+- Clarifying footer structure and content organization
+- Refining USA logo design to reduce negative perceptions
 further_research_needed:
-  - "Post-launch monitoring of actual task completion rates"
-  - "Follow-up research on accessibility improvements"
-  - "User testing with Asian and Native Veterans"
-  - "Research with beginner assistive technology users"
-  - "Testing with Veterans with other than honorable discharge"
+- Post-launch monitoring of actual task completion rates
+- Follow-up research on accessibility improvements
+- User testing with Asian and Native Veterans
+- Research with beginner assistive technology users
+- Testing with Veterans with other than honorable discharge
 underserved_groups_missing:
-  - "Asian Veterans"
-  - "Native Veterans"
-  - "Veterans with other than honorable discharge"
-  - "Immigrant origin Veterans"
-  - "Expat Veterans living abroad"
-  - "Beginner assistive technology users"
+- Asian Veterans
+- Native Veterans
+- Veterans with other than honorable discharge
+- Immigrant origin Veterans
+- Expat Veterans living abroad
+- Beginner assistive technology users
 secondary_research:
-  - "Design prototypes (Figma and CodePen)"
-  - "USWDS federal header/footer standards"
-  - "GSA guidance"
+- Design prototypes (Figma and CodePen)
+- USWDS federal header/footer standards
+- GSA guidance
 synthesis_tools_used:
-  - "Mural for affinity mapping"
-  - "Excel for data analysis"
-  - "Figma prototypes"
-  - "CodePen responsive prototypes"
+- Mural for affinity mapping
+- Excel for data analysis
+- Figma prototypes
+- CodePen responsive prototypes
+tags:
+- 'AUD: Veterans'
+- 'AUD: Caregivers'
+- 'AUD: Service Members'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'PRDT: My VA'
+- usability-testing
+- remote-research
+- Accessibility
+- evaluative
 ---
-
 # Federal Standardized Header/Footer Usability Testing -- Research Findings from Phases 1 & 2
 
 **Office of the CTO - Digital Experience (OCTO-DE), Sitewide Public Websites**
