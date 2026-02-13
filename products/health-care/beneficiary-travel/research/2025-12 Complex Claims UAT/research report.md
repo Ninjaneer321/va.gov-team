@@ -1,103 +1,126 @@
 ---
-title: Complex Claims UAT Research Findings
-product: Travel Pay
-team: Travel Pay
-office: Office of the CTO - Digital Experience (OCTO-DE)
+title: "Travel Pay Complex Claims UAT Research Findings"
+product: "Travel Pay"
+team: "Travel Pay"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
 date: "2026-01-29"
 researchers:
-  - Kristen Faiferlick
-  - Liza McRuer
+  - "Kristen Faiferlick"
+  - "Liza McRuer"
 research_goals:
-  - Goal 1: Ensure a beneficiary can file a complex claim on VA.gov from start to finish. We want to ensure a user can understand the steps and limitations, start a claim, add expenses to their claim, and file a claim.   
-  - Goal 2: Test that the content, including error messages and redirects, appear properly and are clear to users.
-  - Goal 3: Validate that users can leave, and re-enter, a claim in progress.     
+  - "Ensure a beneficiary can file a complex claim on VA.gov from start to finish. We want to ensure a user can understand the steps and limitations, start a claim, add expenses to their claim, and file a claim."
+  - "Test that the content, including error messages and redirects, appear properly and are clear to users."
+  - "Validate that users can leave, and re-enter, a claim in progress."
 methodology:
-  - User acceptance testing in production
-  - Remote, moderated sessions
+  - "User acceptance testing (UAT) in production"
+  - "Remote, moderated sessions"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 2
+  tablet: 1
+  smartphone: 6
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 5
+    "55-64": 0
+    "65+": 2
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 3
+    some_college: 0
+    associates: 3
+    bachelors: 1
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 3
+    rural: 4
+    unknown: 1
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 3
+    black: 1
+    hispanic: 1
+    biracial: 3
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 3
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 1
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "UI is intuitive and usable, but critical flow and navigation improvements will reduce friction. Overall, testing proved that the interface is understandable - participants could add, edit, and delete expenses; upload receipts; and quickly learn patterns within the flow - but certain navigation elements caused friction and inefficiency."
+  - "Field labels and hint text are essential while missing or vague guidance causes user error. Clear, contextual labels and hint text helped participants enter correct information while absent or vague help caused confusion."
+  - "Users weren't completely confident that their claim progress was being saved. Some participants assumed the system autosaves, based on previous VA experience, but some noted that the 'Save in Progress' indicator was not present, which caused doubt."
+  - "Participants struggled to understand deductible language and how it would affect their estimated reimbursement totals. Additionally, while users were able to add mileage, several of them did not understand how mileage was calculated or how gas costs factored into their trip."
+  - "Participants noted that it was difficult to find travel pay on VA.gov and witnessed users struggling to navigate to the appropriate location to start a claim."
+  - "One user could see their mobile clinic appointment in the past appointment list, but claims for this clinic were repeatedly rejected by the system when filed digitally or simply did not show up in their claims list when they filed with the paper form."
+  - "Some participants were not clear from the claim detail page if their claim was submitted or in-progress. Several feared that the claim had already been submitted."
+  - "When viewing their list of past appointments on the web, participants struggled to know which appointment they had filed a travel claim for."
+  - "Participants expressed concern about filing past 30 days and were concerned there could be repercussions from VA."
+  - "Breadcrumbs did not meet expectations and caused confusion about where users were in the flow and where they would return to. Most users believed breadcrumbs would step back to the previous page, but they were designed to take the user to where they entered the flow."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Due to the different entry points into complex claims, there are some issues with routing we need to consider, but we will re-evaluate the breadcrumbs and work with Platform IA in order to improve the navigation."
+  - "Audit input fields and ensure that each has a concise and accurate label and hint text. Work with stakeholders to provide valuable hint text language for fields where it is missing."
+  - "Build upon the existing language telling users their data will be saved, and explore ways of visually highlighting saved progress as the user navigates the flow."
+  - "Rewrite deductible copy to explicitly state that the estimated amount may not take into account the deductible. Blue sky goal: Investigate an interactive element that is tailored to each Veteran's status and input."
+  - "Update the appointment list and claim detail page to add clarity about which appointments the user can file claims for and the state of the claim, if they've already started or submitted a claim."
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Steady increase of overall claim submission quantity (YoY)"
+  - "Positive shift in claim submission volume from BTSSS to VA.go ecosystem (web + mobile)."
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can successfully file travel reimbursement claims with attachments on VA.gov, supporting the consolidation of travel claims systems."
+  business: "First step in consolidating systems in order to eventually sunset the Beneficiary Travel Self Service System (BTSSS) portal."
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Improved navigation and breadcrumb design to meet user expectations"
+  - "Clearer field labels and hint text across all input fields"
+  - "Enhanced visual indicators for save progress throughout the flow"
+  - "Improved deductible language and calculations"
+  - "Better discoverability of travel pay tool on VA.gov"
+  - "Integration or consistency indicators for mobile clinic appointments"
+  - "Clearer appointment list indicators showing whether claims have been filed"
+  - "Days-left-to-file indicator on appointment lists"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Further UAT focused on users with assistive technology"
+  - "Additional testing on complex mileage scenarios"
+  - "Targeted survey to gather additional data on the complex claims flow for community care appointments"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Age 55-64 (only 2 participated, target was 4)"
+  - "Assistive technology users (0 participated)"
+  - "Veterans with no degree (0 participated)"
+  - "Asian Veterans (0 participated)"
+  - "Native/American Indian or Alaska Native Veterans (0 participated)"
+  - "LGBTQ+ Veterans (0 participated)"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
----
-
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've finished and saved your research findings report below.**
-> 
-> Use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically generate structured metadata from this completed research findings report. The prompt uses natural language processing to extract key findings, participant demographics, recommendations, and apply appropriate research repository tags.
-
+tags:
+  - "PRDT: Travel Pay"
+  - "BNFT: Healthcare"
+  - "AUD: Veterans"
+  - "usability-testing"
+  - "user-acceptance-testing"
+  - "evaluative"
+  - "DSC: Form"
+  - "DSC: Form - File Input"
+  - "DSP: Ask users for files"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
 ---
 
 # Travel Pay Complex Claims UAT Research Findings 
@@ -108,11 +131,8 @@ synthesis_tools_used:
 
 **Contacts:** Kristen Faiferlick, Liza McRuer
 
-**[Research Readout (PDF)](link-here)**  
+**[Research Readout (PDF)](link-here)**  TBD
 *Add a link to your research readout deck, if available.*
-
-> [!TIP] 
-> Add "user-content-" in front of each link generated by Markdown in order to move the focus correctly for keyboard navigation.
 
 **Jump to:**
 - [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
@@ -171,7 +191,7 @@ We also monitored additional scenarios, or subtasks, that were not considered cr
 5. User exits the expense page before submitting.
 
 
-Metric tracker [URL]
+[Metric tracker](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2025-12%20Complex%20Claims%20UAT/Metric%20Tracker%20UAT.png)
 
 
 ## Hypotheses and Conclusions
@@ -192,13 +212,6 @@ Metric tracker [URL]
 
 ## Key Findings
 
-*Summarize the 5–10 most impactful findings from your study.* 
-
-> [!TIP] 
-> Write findings as stand-alone insights that are easy to scan. For example:  
-> - "Most participants used the search field to locate forms, often searching for 'veteran health.'"  
-> - "Participants struggled with the secondary caregiver section on the form."  
-> 
 > **After completing your detailed findings below, you'll add metadata labels using the [Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md).**  
 
 [Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
@@ -217,8 +230,6 @@ Metric tracker [URL]
 
 
 ## Details of Findings 
-
-*Provide detailed descriptions and supporting evidence for each key finding.*  
 
 > [!TIP]
 > **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
@@ -339,8 +350,6 @@ The focus of our UAT was to specifically ensure that complex claims was function
 
 
 ## Recommendations
-
-*Summarize actionable recommendations based on findings.*  
 
 1. **Recommendation:** Due to the different entry points into complex claims, there are some issues with routing we need to consider, but we will re-evaluate the breadcrumbs and work with Platform IA in order to improve the navigation. 
 
