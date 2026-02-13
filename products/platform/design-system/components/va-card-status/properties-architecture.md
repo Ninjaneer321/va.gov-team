@@ -1,4 +1,4 @@
-# Properties / Architecture Template for Button - Destructive component - DRAFT
+# Properties / Architecture Template for Card Component Status State
 
 
 ## Properties

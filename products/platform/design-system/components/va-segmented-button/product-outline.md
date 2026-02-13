@@ -3,7 +3,7 @@
 ## Design System Team
 - Product Managers: Carol Wong, Tricia Baker
 - Designer: Dan Brady
-- Web Dev: ???
+- Web Dev: Ryan Munsch and Kerry Powell
 - Mobile Dev: Tim Roettger 
 
 ## Artifacts

@@ -1,8 +1,10 @@
 # va-file-input Design Decisions
-Last updated: 11/20/2025
+Last updated: 11/20/2025 
 
 - [ADR 001 - Limiting the built-in functionality for encrypted and password-protected files](#ADR-001---Limiting-the-built-in-functionality-for-encrypted-and-password-protected-files)
 - [ADR 002 - Display static thumbnail for PDF files](#ADR-002---Display-static-thumbnail-for-PDF-files)
+- [ADR 003 - Password Encryption](#ADR-003---Password-Encryption)
+- [ADR 004 - File Type Validation](#ADR-004---File-Type-Validation)]
 
 
 ## ADR 001 - Limiting the built-in functionality for encrypted and password protected files
@@ -57,4 +59,105 @@ If there was any chance that users were hoping to verify they uploaded the right
 - https://github.com/department-of-veterans-affairs/component-library/pull/1874
 - https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4704
 - https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/5196
+
+## **ADR 003 \- Password Encryption**
+ 
+**Status**: Accepted
+
+Date: 09/2025
+
+**Context**
+
+Users occasionally need to upload password-protected files, particularly encrypted PDFs, as part of their applications. The `va-file-input` web component needed a mechanism to collect passwords for encrypted files without handling the actual decryption logic.
+
+**Key requirements include:**
+
+* Providing a user interface for password entry when encrypted files are uploaded  
+* Maintaining separation of concerns between the web component (presentation) and business logic (decryption/processing)  
+* Securely transmitting passwords to the backend for file decryption  
+* Supporting the forms library's file processing workflow
+
+The challenge was determining where password collection, transmission, and file decryption responsibilities should reside within the platform architecture.
+
+## **Decision**
+
+We have decided to implement a distributed approach to handling password-protected files:
+
+### **Web Component (va-file-input)**
+
+The `va-file-input` web component will support an `encrypted` property. When set to `true`:
+
+* A password input field will be displayed to the user  
+* The password is masked  
+* Password changes will be emitted through the `vaPasswordChange` event  
+* The component will NOT handle any decryption or password validation logic
+
+### **Forms Library**
+
+The forms library will be responsible for:
+
+* Capturing the password from the `vaPasswordChange` event  
+* Validating the password decrypts the PDF  
+* Transmitting the password securely to the backend along with the file
+
+
+### **Backend**
+
+The backend will handle:
+
+* Receiving the encrypted file and associated password  
+* Decrypting the file using the provided password  
+* Validating the decryption was successful  
+* Processing the decrypted file for submission
+
+### **PDF Encryption Specifically**
+
+For PDF files with encryption:
+
+* The forms library sends both the file and password to the backend  
+* The backend decrypts the PDF before final submission  
+* If decryption fails, the backend returns an appropriate error
+
+## ADR 004 - File Type Validation
+
+**Status**: Accepted
+
+Date: 09/2025
+
+**Context**
+
+The `va-file-input` component is designed as a presentation component and does not handle business logic such as file type validation. As applications using this component need to validate uploaded files for security and data integrity, a decision was needed on where to implement file type validation logic.
+
+Key validation requirements include:
+
+* Detecting mismatches between file extensions and actual MIME types (e.g., a PDF file renamed with a `.png` extension)  
+* Validating UTF encoding for text-based files  
+* Supporting both single and multi-file upload patterns
+
+Without centralized validation logic, each application would need to implement its own validation, leading to inconsistent error handling and duplicate code across the platform.
+
+**Decision**
+
+We have decided to implement file type validation logic in the forms library rather than in the `va-file-input` web component itself.
+
+The forms library will provide validation for:
+
+1. MIME type and file extension matching \- Ensures the file's actual format matches its declared extension  
+2. UTF encoding validation \- Verifies proper character encoding for text files
+
+This validation will be available for both:
+
+* [Single file input pattern](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/platform/forms-system/src/js/web-component-patterns/fileInputPattern.jsx)  
+* [Multi-file input pattern](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/platform/forms-system/src/js/web-component-patterns/fileInputMultiplePattern.jsx)
+
+**Standard Error Messages**
+
+The following standardized error messages will be displayed:
+
+* UTF encoding error: "The file's encoding is not valid"  
+* MIME type/extension mismatch: "The file extension doesn't match the file format. Please choose a different file."
+
+**Custom Error Handling outside of forms library**
+
+Applications requiring custom error handling outside the forms library can refer to the [implementation example in the DS v3 playground](https://github.com/department-of-veterans-affairs/vets-website/blob/main/src/applications/ds-v3-playground/pages/VaFileInputMultiple.jsx).
 
