@@ -120,19 +120,19 @@ tags:
 	
 `What problem is your product trying to solve?`
 
-**[Enter answer here]**
+**As VA.gov continues to expand in features and content related to benefits, we need to ensure visitors can navigate the site to find the right information.  This research will evaluate the effectiveness of the organization and labeling in the key navigation components usedin the VA.gov benefit experience - the primary navigation menu in the header (labeled VA benefits and health care) and the secondary navigation in the benefit hub space shown in the left rail on desktop and in a drop list on mobile.  This research effort will not evaluate the design or interactions of those components, only the organization and labeling.**
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
-**[Enter answer here]**
+**Primary navigation is available to all users across the entire site.  Secondary naviation is available to all users within the benefit hub experience.**
   
 `What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
-**[Enter answer here]**
+**From Jan 1, 2025 - Sept 30, 2025 there were 10.7M searches submitted and 12.7M clickson the "VA Benefits and Health care menu option.**
 
 `Product Brief`
 
-**[Link to product brief](url goes here).**
+**[VA.gov Information Architecture](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/information-architecture).**
 
 </details>
 
@@ -152,14 +152,6 @@ tags:
 > - Key Result 1.3:** OIT has avoided at least $5 million in cost via successful decommissioning of at least 10 systems.
   - ***Research Ops Plain Language:** Supports the decommissioning of a legacy system.*
 
-`Objective 2: Operate products with high reliability and security.`
-
-> - **Key Result 2.1:** All C100 systems have an incident free time of 99.8 or better.
-> - **Key Result 2.2:** All C100 systems are monitoring the 4 “golden signals” of latency, error rate, volume, and saturation.
-> - **Key Result 2.3:** All C100 systems have baselined cycle time from planning to production, and at least one C100 system in each DSD portfolio has reduced its cycle time from planning to production by more than 50% without increasing change failure rate.
-  - ***Research Ops Plain Language:** Supports reducing this product’s cycle time from planning to production by more than 50% without increasing change failure rate.*
-> - **Key Result 2.4:** By 31 March 2026, DSD has enhanced system security by moving or decommissioning 100% of existing of Systems or Applications leveraging SiteMinder integration for SSOi to Entra ID.
-
 `Objective 3: Relentlessly improve the user experience.`
 
 > - **Key Result 3.1:** Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.
@@ -169,11 +161,6 @@ tags:
 > - **Key Result 3.3:** 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system.
   - ***Research Ops Plain Language:** Supports the delivery of at least one release that directly addresses a documented user pain point within this product.*
 
-`Objective 4: OCTO teammates are empowered with the knowledge and resources they need to make sustained impact.`
-
-> - **Key Result 4.1:** More than 25% of VA employees report AI has helped them deliver better services to Veterans.
-> - **Key Result 4.2:** All “VA Way” delivery attributes have an adoption indicator established, baselined and communicated to product delivery staff.
-> - **Key Result 4.3:** 50% of product delivery staff report that a practice group (design) has helped them deliver better software.
 
 </details>
 
@@ -184,8 +171,9 @@ tags:
 
 <details><summary>Where does your product fit into the Veteran journey?
 Are there moments that matter?</summary>
-	
-- `Joining`
+
+The Informaiton Architecture of VA.gov must support Veterans and Veteran family members and caregiver at all stages of the Veteran journey beyond joining to ensure they can explore, apply for, manage, and track the benefits VA has to offer.
+
 - `Serving`
 - `Getting Out`
 - `Starting Up`
@@ -209,18 +197,18 @@ Are there moments that matter?</summary>
 
 ### Goals
 
-`1.` **[Enter answer here]**
+`1.` **Assess whether users can find key information related to top tasks on the site easily and with confidence**
 
-`2.` **[Enter answer here]**
+`2.` **Ensure the current navigation organziation and labels align with the mental models of our users**
 
-`3.` **[Enter answer here]** 
+
   
 ### Outcome
 `How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
 
 ---
 
-**[Enter outcome here]** 
+**Outcomes from this research will be used to inform and prioritize changes needed to menu labels, groupings, or broader site organization. ** 
 
 ---
 
@@ -234,9 +222,9 @@ Are there moments that matter?</summary>
   
 `Does this question serve the goals of my study?`
 
-**`1.`[Enter Q1]**
+**`1.` Do site users understand where to find information related to applying for core benefits?**
 
-**`2.`[Enter Q2]**
+**`2.`Do site users understand where to find tools that help them manage benefits they are already receiving?**
 
 **`3.`[Enter Q3]**
 
