@@ -527,8 +527,7 @@ This research does not include the perspectives of the following marginalized Ve
 * Assistive tech
 * Identify as Latinx, Asian, Native, or LGBTQ+
 
-![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](products/health-care/beneficiary-travel/research/2025-12 Complex Claims UAT/UAT demographics 2026.png)
-
+![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2025-12%20Complex%20Claims%20UAT/UAT%20demographics%202026.png)
 #### A more accessible version of the table in the above image   
 
 | Demographic Category | Type | Target % | Recruited | Participated | Met Goal |
@@ -567,6 +566,3 @@ This research does not include the perspectives of the following marginalized Ve
 | Switch Device | AT | n/a | 1 | 0 | no |
 | Braille Reader | AT | n/a | 1 | 0 | no |
 
-### Recruitment of underserved groups in [Study name]
-
-➡️ _[paste markdown table of completed recruitment checker from Github Copilot chat]_
