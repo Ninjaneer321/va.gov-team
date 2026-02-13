@@ -4,48 +4,7 @@
 **Feature flag**: `cst_claims_list_filter`
 **Test user**: vets.gov.user+50@gmail.com / 308SsNrLgPv5
 
----
-
-## Section 1: Feature Flag OFF (no changes from main)
-
-Log in and navigate to the claims landing page with the flag disabled. Verify the legacy experience is unchanged.
-
-### Filter area
-
-- [ ] No segmented filter (All / Active / Closed) is visible
-- [ ] "Find out why we sometimes combine claims" accordion is present below the "Your claims, decision reviews, or appeals" heading
-- [ ] Clicking the accordion expands to show combined claims explanation
-
-### Claims list
-
-- [ ] All claims, appeals, and STEM claims are displayed in a single unfiltered list
-- [ ] Sort order: claims with open evidence requests first, then other in-progress, then closed — each sorted by most recently updated
-- [ ] Claim cards, appeal cards, and STEM claim cards render correctly
-
-### Pagination
-
-- [ ] Pagination text uses an em dash with spaces (e.g., "Showing 1 ‒ 10 of 40 events")
-- [ ] Pagination text and controls only appear when there are more than 10 items
-- [ ] If 10 or fewer items, no pagination text or controls are shown
-- [ ] Page navigation works and URL updates with `?page=X`
-
-### Empty state
-
-- [ ] If the user has no claims, an info-style alert shows "You do not have any submitted claims" and "This page shows only completed claim applications."
-
-### System alert
-
-- [ ] If a service is unavailable, a warning alert appears above the claims list (e.g., "We can't access some of your claims or appeals right now")
-
-### "What if" section
-
-- [ ] "What if I can't find my claim, decision review, or appeal?" has a single paragraph about processing time
-- [ ] No "We combined your claims" subsection is present
-- [ ] No "We might still be processing it" subheading is present
-
----
-
-## Section 2: Feature Flag ON (new experience)
+## Section 1: Feature Flag ON (new experience)
 
 Log in and navigate to the claims landing page with the flag enabled. Verify all new behavior.
 
@@ -112,3 +71,44 @@ Log in and navigate to the claims landing page with the flag enabled. Verify all
 - [x] Scroll to "What if I can't find my claim, decision review, or appeal?"
 - [x] "We might still be processing it" subsection is present
 - [x] "We combined your claims" subsection is present "We might have combined your claims"
+
+---
+
+## Section 2: Feature Flag OFF (no changes from main)
+
+Log in and navigate to the claims landing page with the flag disabled. Verify the legacy experience is unchanged.
+
+### Filter area
+
+- [ ] No segmented filter (All / Active / Closed) is visible
+- [ ] "Find out why we sometimes combine claims" accordion is present below the "Your claims, decision reviews, or appeals" heading
+- [ ] Clicking the accordion expands to show combined claims explanation
+
+### Claims list
+
+- [ ] All claims, appeals, and STEM claims are displayed in a single unfiltered list
+- [ ] Sort order: claims with open evidence requests first, then other in-progress, then closed — each sorted by most recently updated
+- [ ] Claim cards, appeal cards, and STEM claim cards render correctly
+
+### Pagination
+
+- [ ] Pagination text uses an em dash with spaces (e.g., "Showing 1 ‒ 10 of 40 events")
+- [ ] Pagination text and controls only appear when there are more than 10 items
+- [ ] If 10 or fewer items, no pagination text or controls are shown
+- [ ] Page navigation works and URL updates with `?page=X`
+
+### Empty state
+
+- [ ] If the user has no claims, an info-style alert shows "You do not have any submitted claims" and "This page shows only completed claim applications."
+
+### System alert
+
+- [ ] If a service is unavailable, a warning alert appears above the claims list (e.g., "We can't access some of your claims or appeals right now")
+
+### "What if" section
+
+- [ ] "What if I can't find my claim, decision review, or appeal?" has a single paragraph about processing time
+- [ ] No "We combined your claims" subsection is present
+- [ ] No "We might still be processing it" subheading is present
+
+---
