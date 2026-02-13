@@ -49,22 +49,6 @@ recruitment:
   secondary_criteria:
     - "At least 7 Veterans who are age 55 or older"
     - "At least 7 Veterans with a cognitive disability"
-    - "At least 7 Veterans who are mobile users"
-    - "At least 4 Veterans who live in a rural area"
-    - "At least 4 Veterans who do not have a degree" 
-    - "At least 3 Veterans with an Other than honorable discharge"
-    - "At least 3 Veterans of immigrant origin"
-    - "At least 2 Veterans who are women"
-    - "At least 1 Veteran who is an expat"
-    - "At least 3 Veterans who are Black or African American"
-    - "At least 2 Veterans who are of Hispanic, Latino, or Spanish origin"
-    - "At least 1 Veteran who is Biracial"
-    - "At least 1 Veteran who is Asian"
-    - "At least 1 Veteran who is Native Hawaiian or other Pacific Islander"
-    - "At least 1 Veteran who is Native, American Indian or Alaska Native"
-    - "At least 1 Veteran who is Gay, lesbian, or bisexual"
-    - "At least 1 Veteran who is Transgender"
-    - "At least 1 Veteran who is Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman"
     
   screener_questions:
     - question: "Do you have a disabled dependent on your disability compensation benefit?"
