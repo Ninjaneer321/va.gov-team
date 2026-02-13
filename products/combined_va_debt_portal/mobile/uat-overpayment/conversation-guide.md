@@ -107,6 +107,9 @@ References:
 
 ### iOS set-up 🍎
 
+<details>
+<summary>iOS guidelines</summary>
+
 Would you like to turn off your notifications while we're going through everything? I can walk you through this if you'd like.
 
 _[pull down from upper right, select Focus]_
@@ -133,7 +136,12 @@ Great! I'm going to resume the recording now, and we'll get started with testing
 
 _[resume recording]_
 
+</details>
+
 ### Android set-up 🤖
+
+<details>
+<summary>Android guidelines</summary>
 
 Would you like to turn off your notifications while we're going through everything? I can walk you through this if you'd like.
 
@@ -184,6 +192,7 @@ Great! I'm going to resume the recording now, and we'll get started with testing
 
 _[resume recording]_
 
+</details>
 
 ## Test paths
 
