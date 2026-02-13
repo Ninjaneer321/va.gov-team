@@ -68,6 +68,10 @@ Handoff Date: February 2026
     
   - If a user didn’t have a middle name, prefill would break and the user wouldn’t be able to access the form - would see a “blank” page when clicking apply on the introduction page. We resolved the issue by changing where the prefill data was coming from. However, we identified some follow up investigation that should be done to look at profile data for some instances and SIP data in others. Link to ticket, do not have a plan to pick up: https://github.com/department-of-veterans-affairs/va-iir/issues/2369
 
+- RES Maintenance Windows
+
+  - February 28th is the first data migration RES is doing. PagerDuty is set up to not allow users to access the form during this time. The exact window is 7 am EST - 10 PM EST. No other maintenance windows have been set.
+ 
 - Blank PDFs being saved in VBMS
   
   - There was a bug that was causing the old Chapter 31 form (2019 version) to be saved in VBMS. Because the structure of the data was mapped to the most recent form, the old form couldn’t be filled out and was saved. We resolved this and the old form is no longer being referenced. We went back and re-uploaded the current Chapter 31 form to VBMS for the applications that were blank - we didn’t replace blank forms, we added new ones. Still in remediation.
@@ -113,10 +117,6 @@ Handoff Date: February 2026
   - [Link to closed Content ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/122016) 
 
   - No dev work has happened on this yet. UX only.
-
-- RES Maintenance Windows
-
-  - February 28th is the first data migration RES is doing. Pager Duty will already be set up to not allow users to access the form during this time. The exact window is 7 am EST - 10 PM EST. Currently working on this: https://github.com/department-of-veterans-affairs/va-iir/issues/2150 
 
 - Operational Maintenance
 
