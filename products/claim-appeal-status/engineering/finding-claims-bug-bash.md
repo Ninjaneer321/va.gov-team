@@ -1,6 +1,6 @@
 # Bug Bash Guide — Finding Claims
 
-**Staging URL**: https://staging.va.gov/track-claims/your-claims
+**Staging URL**: https://effective-engine-6vvv5gq4557hx5g9-3001.app.github.dev/track-claims/your-claims
 **Feature flag**: `cst_claims_list_filter`
 **Test user**: vets.gov.user+50@gmail.com / 308SsNrLgPv5
 
@@ -51,63 +51,64 @@ Log in and navigate to the claims landing page with the flag enabled. Verify all
 
 ### Filter component
 
-- [ ] A segmented button with All, Active, and Closed appears below the "Your claims, decision reviews, or appeals" heading
-- [ ] aria-label is "Claims status filter"
-- [ ] "All" is selected by default
-- [ ] The "Find out why we sometimes combine claims" accordion is no longer present
+- [x] A segmented button with All, Active, and Closed appears below the "Your claims, decision reviews, or appeals" heading - Did we ever check about making the segmented button full width on desktop?
+- [x] aria-label is "Claims status filter" - Tracey will be testing this with screen reader but its in the html
+- [x] "All" is selected by default
+- [x] The "Find out why we sometimes combine claims" accordion is no longer present
 
 ### Default sort order (should not change)
 
-- [ ] Claims with open evidence requests appear first
-- [ ] Other in-progress claims appear next
-- [ ] Closed claims appear last (STEM claims are always closed)
-- [ ] Within each group, items are sorted by most recently updated
+- [x] Claims with open evidence requests appear first - Should cards with "We need you to resubmit files for this claim." also be bumped to the top of their section?
+- [x] Other in-progress claims appear next
+- [x] Closed claims appear last (STEM claims are always closed) - Appeals do not have an in progress label
+- [x] Within each group, items are sorted by most recently updated - Impossible to determine from a claim card when a claim was updated!
+- RANDOM: Why did appeals list items and stem list items get "We need you to resubmit files for this claim." alerts
 
 ### Pagination text
 
-- [ ] Format is "Showing X-Y of Z records" (hyphen, no spaces)
-- [ ] Text is always shown, even with fewer than 10 items (e.g., "Showing 1-2 of 2 records")
-- [ ] Active filter shows "Showing X-Y of Z active records"
-- [ ] Closed filter shows "Showing X-Y of Z closed records"
+- [x] Format is "Showing X-Y of Z records" (hyphen, no spaces)
+- [x] Text is always shown, even with fewer than 10 items (e.g., "Showing 1-2 of 2 records")
+- [x] Active filter shows "Showing X-Y of Z active records"
+- [x] Closed filter shows "Showing X-Y of Z closed records"
 
 ### Active filter
 
-- [ ] Click "Active" — only in-progress claims and appeals are displayed
-- [ ] STEM claims do not appear (they are always closed)
-- [ ] Default sort order is retained
+- [x] Click "Active" — only in-progress claims and appeals are displayed
+- [x] STEM claims do not appear (they are always closed)
+- [x] Default sort order is retained
 
 ### Closed filter
 
-- [ ] Click "Closed" — only closed claims, appeals, and STEM claims are displayed
-- [ ] Closed appeals correctly appear here (previously they showed as active)
-- [ ] Default sort order is retained
+- [x] Click "Closed" — only closed claims, appeals, and STEM claims are displayed
+- [x] Closed appeals correctly appear here (previously they showed as active)
+- [x] Default sort order is retained
 
 ### Empty state and system alert
 
-- [ ] Open Chrome DevTools > Network tab
-- [ ] Right-click the `/benefits_claims` request > Block request URL
-- [ ] Right-click the `/appeals` request > Block request URL
-- [ ] Refresh the page
-- [ ] System alert ("We can't access some of your claims or appeals right now") appears above the filter
-- [ ] Filter still appears and functions below the alert
-- [ ] All filter: "We don't have any records for you in our system"
-- [ ] Active filter: "We don't have any active records for you in our system"
-- [ ] Closed filter: "We don't have any closed records for you in our system"
-- [ ] Unblock the requests in DevTools when done
+- [x] Open Chrome DevTools > Network tab
+- [x] Right-click the `/benefits_claims` request > Block request URL
+- [x] Right-click the `/appeals` request > Block request URL
+- [x] Refresh the page
+- [x] System alert ("We can't access some of your claims or appeals right now") appears above the filter
+- [x] Filter still appears and functions below the alert
+- [x] All filter: "We don't have any records for you in our system"
+- [x] Active filter: "We don't have any active records for you in our system"
+- [x] Closed filter: "We don't have any closed records for you in our system"
+- [x] Unblock the requests in DevTools when done
 
 ### Session memory
 
-- [ ] Select "Active" filter, click into a claim detail, then navigate back — "Active" is still selected
-- [ ] Log out and log back in — filter resets to "All"
+- [x] Select "Active" filter, click into a claim detail, then navigate back — "Active" is still selected
+- [x] Log out and log back in — filter resets to "All"
 
 ### Pagination reset
 
-- [ ] With "All" selected, navigate to page 2
-- [ ] Click "Active" — resets to page 1 of active records
-- [ ] Click "All" — resets to page 1 (not back to page 2)
+- [x] With "All" selected, navigate to page 2
+- [x] Click "Active" — resets to page 1 of active records
+- [x] Click "All" — resets to page 1 (not back to page 2) - could be nice if it stayed at page 2
 
 ### Updated "What if" section content
 
-- [ ] Scroll to "What if I can't find my claim, decision review, or appeal?"
-- [ ] "We might still be processing it" subsection is present
-- [ ] "We combined your claims" subsection is present
+- [x] Scroll to "What if I can't find my claim, decision review, or appeal?"
+- [x] "We might still be processing it" subsection is present
+- [x] "We combined your claims" subsection is present "We might have combined your claims"
