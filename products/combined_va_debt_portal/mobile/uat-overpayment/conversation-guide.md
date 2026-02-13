@@ -155,6 +155,8 @@ We'll need to use a few apps for this set-up process. First we're going to insta
 
 Enter your email address. You'll be opening an email on this phone momentarily which will get you to the app download.
 
+_[make note of email address to be removed from Firebase after the test]_
+
 Now switch to your email app and open an email from VA Health and Benefits.
 
 Tap "get started."
@@ -203,6 +205,41 @@ _Moderator will follow the test paths outlined in the spreadsheet. Both versions
 - Google Sheet: [Spreadsheet: Test paths and success criteria - Overpayment UAT](https://docs.google.com/spreadsheets/d/1xfHJGzPQJaIeO-uPp8D4aboEO-qSDvBVp0b5QABg_5Q/edit?gid=312390165#gid=312390165)
 - Excel Spreadsheet on VA network: [Spreadsheet: Test paths and success criteria - Overpayment UAT](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Test%20paths%20and%20success%20criteria%20-%20Overpayment%20UAT.xlsx?d=w1b926b3759974de4989a59acbded0343&csf=1&web=1&e=sqGrc5)
 
+
+## Phone clean-up
+
+That was it! Thank you so much for walking us through your app.
+
+I'm now going to help you return your phone to the way it was.
+
+<details>
+<summary>Android guidelines🤖</summary>
+- Uninstall the VA app
+    - _[option 1]_ Go to your home screen and fine the app icon. Long press and drag up to the top to Uninstall.
+    - _[option 2]_ Go to your home screen and fine the app icon. Long press and tap App info. Tap Uninstall.
+    - _[option 3]_ Open Google Play Store. Tap profile photo, tap "manage apps and device," tap "manage" and select VA app to delete.
+- Uninstall Firebase app
+- Install standard VA app
+- Toggle off "internal app sharing"
+    - Open Google Play Store, Tap profile photo, tap General, tap Developer options.
+- Reset any other security settings you changed
+- Log back into VA app (if they want help)
+- _[if relevant]_ Turn notifications back on
+    _[pull down from top, select Do Not Disturb]_
+
+</details>
+
+<details>
+<summary>iOS guidelines🍎</summary>
+- Reinstall public version of the VA app
+    - Open the app store to find the app. This will install over the beta version
+- Uninstall TestFlight
+    - Go to home screen to find app. Long hold, tap Remove App.
+- Log back into VA app (if they want help)
+- _[if relevant]_ Turn notifications back on
+    _[pull down from upper right, select Focus]_
+
+</details>
 
 ## Consent to use video clips
 
