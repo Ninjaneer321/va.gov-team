@@ -1,8 +1,11 @@
 .DS_Store
 scripts/node_modules
+node_modules/
 scripts/repo-replace-url.log.csv
 scripts/repo-deprecation.log.csv
 .idea
 */.obsidian/*
 .obsidian
 .claude/settings.local.json
+package-lock.json
+package.json

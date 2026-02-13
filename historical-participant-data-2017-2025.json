@@ -1,0 +1,1784 @@
+{
+  "extraction_date": "2026-02-13T15:01:22.789Z",
+  "report_period": "2017-2025",
+  "total_studies": 124,
+  "total_participants": 34945,
+  "participant_types": {
+    "veterans": 33797,
+    "service_members": 26,
+    "caregivers": 62,
+    "dependents": 43,
+    "VA_staff": 101
+  },
+  "devices": {
+    "desktop": 696,
+    "tablet": 55,
+    "smartphone": 505,
+    "assistive_technology": 117
+  },
+  "age": {
+    "25-34": 106,
+    "35-44": 191,
+    "45-54": 234,
+    "55-64": 282,
+    "65+": 319,
+    "unknown": 33706,
+    "65-74": 6,
+    "75+": 2
+  },
+  "education": {
+    "high_school": 134,
+    "some_college": 210,
+    "associates": 183,
+    "bachelors": 274,
+    "masters": 284,
+    "doctorate": 31,
+    "unknown": 33725
+  },
+  "location": {
+    "urban": 451,
+    "rural": 286,
+    "unknown": 34100
+  },
+  "race": {
+    "white": 681,
+    "black": 236,
+    "hispanic": 99,
+    "biracial": 42,
+    "asian": 54,
+    "native": 46,
+    "unknown": 137,
+    "prefer_not_to_answer": 3,
+    "other": 20
+  },
+  "disability": {
+    "cognitive": 203,
+    "AT_beginner": 8,
+    "AT_advanced": 97,
+    "screen_reader_desktop": 53,
+    "screen_reader_mobile": 28,
+    "magnification_zoom": 59,
+    "speech_input": 4,
+    "hearing_aids": 5,
+    "sighted_keyboard": 0,
+    "captions": 4,
+    "unknown": 58
+  },
+  "at_inclusion": {
+    "studies_with_at": 32,
+    "total_at_participants": 140
+  },
+  "studies": [
+    {
+      "title": "Historical Findings on 10-10CG Signatures and Save In-progress",
+      "file": "products/caregivers/research/11-2024 - Historical findings on Signature and Save In-progress.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/research/11-2024%20-%20Historical%20findings%20on%20Signature%20and%20Save%20In-progress.md",
+      "date": "2024-11-01",
+      "year": 2024,
+      "product": "10-10CG Caregiver Application",
+      "team": "Caregivers",
+      "participants": 0
+    },
+    {
+      "title": "My HealtheVet Email Appointment Reminder Content Research Findings",
+      "file": "products/vetext/research/2025-01-VEText-MyHealtheVet-email-appointment-reminder-content-research/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vetext/research/2025-01-VEText-MyHealtheVet-email-appointment-reminder-content-research/research-findings.md",
+      "date": "2025-02-05",
+      "year": 2025,
+      "product": "VEText",
+      "team": "VEText Team",
+      "participants": 11
+    },
+    {
+      "title": "Veteran Onboarding Modal Research Findings",
+      "file": "products/veteran-onboarding/research/2025-study/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-onboarding/research/2025-study/research-findings.md",
+      "date": "2025-11-24",
+      "year": 2025,
+      "product": "Welcome to VA. gov Onboarding",
+      "team": "Core Veteran Experience",
+      "participants": 16
+    },
+    {
+      "title": "Veteran Transition Support Version 2 User Testing Research Findings",
+      "file": "products/vet-transition-support/research/2024-10-user-testing-v2/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/research/2024-10-user-testing-v2/research-findings.md",
+      "date": "2024-12-12",
+      "year": 2024,
+      "product": "Veteran Transition Support (VTS)",
+      "team": "Transition Experience Team",
+      "participants": 12
+    },
+    {
+      "title": "Veteran Transition Experience Research Findings",
+      "file": "products/vet-transition-support/research/2025-07-generative-and-user-testing-study/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/research/2025-07-generative-and-user-testing-study/research-findings.md",
+      "date": "2025-08-15",
+      "year": 2025,
+      "product": "Discover Your Benefits",
+      "team": "VES Veteran Transition Experience Team",
+      "participants": 28
+    },
+    {
+      "title": "Benefits Discovery Tool V1 SME and VSO User Testing Research Findings",
+      "file": "products/vet-transition-support/research/2024-07-user-testing-v1/v1-sme-vso-user-testing-research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/research/2024-07-user-testing-v1/v1-sme-vso-user-testing-research-findings.md",
+      "date": "2024-10-31",
+      "year": 2024,
+      "product": "Veteran Transition Support (VTS)",
+      "team": "Transition Experience Team",
+      "participants": 7
+    },
+    {
+      "title": "Version 1 User Testing Research Findings",
+      "file": "products/vet-transition-support/research/2024-07-user-testing-v1/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/research/2024-07-user-testing-v1/research-findings.md",
+      "date": "2024-11-01",
+      "year": 2024,
+      "product": "Veteran Transition Support (VTS)",
+      "team": "Transition Experience Team",
+      "participants": 12
+    },
+    {
+      "title": "Transition Experience Interview Research Findings",
+      "file": "products/vet-transition-support/research/2024-02-discovery/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/research/2024-02-discovery/research-findings.md",
+      "date": "2024-05-15",
+      "year": 2024,
+      "product": "Veteran Transition Support (VTS)",
+      "team": "Transition Experience Team",
+      "participants": 27
+    },
+    {
+      "title": "Forms MVP Usability Study Research Findings",
+      "file": "products/va-mobile-app/research/Forms MVP Research/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/Forms%20MVP%20Research/research-findings.md",
+      "date": "2025-08-28",
+      "year": 2025,
+      "product": "VA Health & Benefits Mobile App",
+      "team": "Mobile App & Platform Team",
+      "participants": 11
+    },
+    {
+      "title": "Forms MVP Usability Study 2 - Assistive Technology Users - Research Findings",
+      "file": "products/va-mobile-app/research/Forms MVP Research/research-findings-AT-study2.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/Forms%20MVP%20Research/research-findings-AT-study2.md",
+      "date": "2025-10-22",
+      "year": 2025,
+      "product": "VA Health & Benefits Mobile App",
+      "team": "Mobile App & Platform Team",
+      "participants": 10
+    },
+    {
+      "title": "Intent to File Content Study Research Findings",
+      "file": "products/pension/research/2025-09 Intent to File Unmoderated Study/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2025-09%20Intent%20to%20File%20Unmoderated%20Study/research-findings.md",
+      "date": "2025-09-25",
+      "year": 2025,
+      "product": "Veterans Pension",
+      "team": "Pension and Burial Benefits Team",
+      "participants": 20
+    },
+    {
+      "title": "VA Form 21P-0969 Usability Study Research Findings",
+      "file": "products/pension/research/2025-07 0969 Usability Study/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2025-07%200969%20Usability%20Study/research-findings.md",
+      "date": "2025-08-15",
+      "year": 2025,
+      "product": "VA Form 21P-0969",
+      "team": "Pension and Burials Team",
+      "participants": 7
+    },
+    {
+      "title": "Intent to File Comprehension - Research Findings",
+      "file": "products/pension/research/2024-10 Intent to File Comprehension/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024-10%20Intent%20to%20File%20Comprehension/research-findings.md",
+      "date": "2024-12-02",
+      "year": 2024,
+      "product": "VA Form 21P-527EZ Veterans Pension Benefits - Intent to File",
+      "team": "Pension and Burial Benefits Team",
+      "participants": 7
+    },
+    {
+      "title": "VSO Research Findings",
+      "file": "products/pension/research/2024-09 527EZ VSO Research/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024-09%20527EZ%20VSO%20Research/research-findings.md",
+      "date": "2024-12-04",
+      "year": 2024,
+      "product": "Veterans Pension (VA Form 21P-527EZ)",
+      "team": "Pension & Burials Program (PBP), Benefits Portfolio",
+      "participants": 6
+    },
+    {
+      "title": "Usability Test of VA Pension Benefits (527EZ) with Veterans - Research Findings and Recommendations",
+      "file": "products/pension/research/2024 02 Pension Usability Evaluation/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pension/research/2024%2002%20Pension%20Usability%20Evaluation/research-findings.md",
+      "date": "2024-03-24",
+      "year": 2024,
+      "product": "VA Form 21P-527EZ Veterans Pension Benefits",
+      "team": "Pension Benefits Team",
+      "participants": 10
+    },
+    {
+      "title": "PACT Act Wizard Usability Testing - Research Findings",
+      "file": "products/pact-act-wizard/research/2023-2024-launch/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/pact-act-wizard/research/2023-2024-launch/research-findings.md",
+      "date": "2023-11-01",
+      "year": 2023,
+      "product": "PACT Act Wizard",
+      "team": "Sitewide Public Websites",
+      "participants": 9
+    },
+    {
+      "title": "2024 Medallia Feedback - Outreach and Events Findings Summary",
+      "file": "products/outreach-events/research/2024-Medallia-feedback/findings-summary.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/outreach-events/research/2024-Medallia-feedback/findings-summary.md",
+      "date": "2024-05-17",
+      "year": 2024,
+      "product": "Outreach and Events",
+      "team": "Sitewide Public Websites",
+      "participants": 189
+    },
+    {
+      "title": "Outreach & Events Usability Research Findings",
+      "file": "products/outreach-events/research/2021-filtering-recurring-events/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/outreach-events/research/2021-filtering-recurring-events/research-findings.md",
+      "date": "2021-12-16",
+      "year": 2021,
+      "product": "Outreach Events",
+      "team": "Public Websites",
+      "participants": 8
+    },
+    {
+      "title": "June 2024 Medallia Findings Summary",
+      "file": "products/home-page/research/2024-medallia-feedback/findings-summary.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/home-page/research/2024-medallia-feedback/findings-summary.md",
+      "date": "2024-06-30",
+      "year": 2024,
+      "product": "VA.gov Home Page",
+      "team": "Sitewide Public Websites",
+      "participants": 743
+    },
+    {
+      "title": "VA.gov Home Page Redesign Round 2 Usability Test Research Findings",
+      "file": "products/home-page/research/2022-09-redesign-usability-round2/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/home-page/research/2022-09-redesign-usability-round2/research-findings.md",
+      "date": "2022-11-16",
+      "year": 2022,
+      "product": "VA.gov Home Page",
+      "team": "Sitewide Home Page",
+      "participants": 11
+    },
+    {
+      "title": "Dependent Verification with Picklist Research Findings",
+      "file": "products/dependents/research/2025-08-dependent-verification-with-picklist/findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/2025-08-dependent-verification-with-picklist/findings.md",
+      "date": "2025-08-01",
+      "year": 2025,
+      "product": "Dependents",
+      "team": "Dependents Team",
+      "participants": 10
+    },
+    {
+      "title": "2025-02 Dependent Verification MVP Research Findings",
+      "file": "products/dependents/research/2025-02-dependents-verification-mvp-research/2025-02-dependents-verification-mvp-research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/2025-02-dependents-verification-mvp-research/2025-02-dependents-verification-mvp-research-findings.md",
+      "date": "2025-03-13",
+      "year": 2025,
+      "product": "Dependent Verification",
+      "team": "Dependents Experience",
+      "participants": 10
+    },
+    {
+      "title": "Combined Debt Portal Research Findings",
+      "file": "products/combined_va_debt_portal/research/usability-apr-2022/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/research/usability-apr-2022/research-findings.md",
+      "date": "2022-07-07",
+      "year": 2022,
+      "product": "Combined VA Debt Portal",
+      "team": "The Debt Resolution Team / Benefits Team 2",
+      "participants": 11
+    },
+    {
+      "title": "Combined VA Debt Portal Exploratory Research Findings",
+      "file": "products/combined_va_debt_portal/research/exploratory-2024/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/research/exploratory-2024/research-findings.md",
+      "date": "2024-02-28",
+      "year": 2024,
+      "product": "Combined VA Debt Portal",
+      "team": "Debt Resolution Team",
+      "participants": 9
+    },
+    {
+      "title": "Document Status Research Findings",
+      "file": "products/claim-appeal-status/research/2024-11-Document-Status/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2024-11-Document-Status/research-findings.md",
+      "date": "2024-11-20",
+      "year": 2024,
+      "product": "Claim Status Tool",
+      "team": "Benefits Team 1",
+      "participants": 8
+    },
+    {
+      "title": "Development Letter Experience and 5103 Notice Improvements Research Findings",
+      "file": "products/claim-appeal-status/research/2024-07-Development-Letters/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2024-07-Development-Letters/research-findings.md",
+      "date": "2024-09-10",
+      "year": 2024,
+      "product": "Claim and Appeal Status",
+      "team": "Benefits Management Tools",
+      "participants": 13
+    },
+    {
+      "title": "Claim Contextualization Research Findings",
+      "file": "products/claim-appeal-status/research/2023-10-Claim-Contextualization/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2023-10-Claim-Contextualization/research-findings.md",
+      "date": "2024-02-05",
+      "year": 2024,
+      "product": "Claim Status Tool",
+      "team": "Benefits Management Tools",
+      "participants": 15
+    },
+    {
+      "title": "Evidence Submission Usability Testing Research Findings",
+      "file": "products/claim-appeal-status/research/2023-05-Evidence-Submission/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2023-05-Evidence-Submission/research-findings.md",
+      "date": "2023-06-01",
+      "year": 2023,
+      "product": "Claim Status Tool",
+      "team": "Benefits Claimant Experience Management Tools",
+      "participants": 10
+    },
+    {
+      "title": "CST Initial Decisions Research Findings",
+      "file": "products/claim-appeal-status/research/2023-03-Initial-Decisions-CST/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2023-03-Initial-Decisions-CST/research-findings.md",
+      "date": "2023-04-19",
+      "year": 2023,
+      "product": "Claim Status Tool",
+      "team": "VA Benefits Team 1",
+      "participants": 16
+    },
+    {
+      "title": "Decision Reviews Research Findings",
+      "file": "products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-11-Decision-Reviews/research-findings.md",
+      "date": "2023-02-01",
+      "year": 2023,
+      "product": "Claim Status Tool",
+      "team": "Benefits Team 1, Squad 1",
+      "participants": 25
+    },
+    {
+      "title": "Decision Letter Download: Research Findings",
+      "file": "products/claim-appeal-status/research/2022-08-Decision-Letter-Download/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-08-Decision-Letter-Download/research-findings.md",
+      "date": "2022-09-29",
+      "year": 2022,
+      "product": "Claim Status Tool",
+      "team": "VA Benefits Team 1",
+      "participants": 10
+    },
+    {
+      "title": "2024-10 Caregiver Study Research Findings",
+      "file": "products/caregivers/research/2024-09- Caregivers Study - form content and user interviews/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/research/2024-09-%20Caregivers%20Study%20-%20form%20content%20and%20user%20interviews/research-findings.md",
+      "date": "2024-11-01",
+      "year": 2024,
+      "product": "10-10CG",
+      "team": "Health Enrollment",
+      "participants": 21
+    },
+    {
+      "title": "Your VA benefit letters and documents Research Findings",
+      "file": "products/benefit-letters/research/2025-06-Your-VA-benefit-letters-and-documents/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/benefit-letters/research/2025-06-Your-VA-benefit-letters-and-documents/research-findings.md",
+      "date": "2025-08-25",
+      "year": 2025,
+      "product": "Benefit Letters",
+      "team": "Benefit Management Team 2",
+      "participants": 11
+    },
+    {
+      "title": "SEP Audit Findings - Current State Analysis",
+      "file": "products/accredited-representative-facing/research/2024-01 Current State Analysis/SEP-audit-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/research/2024-01%20Current%20State%20Analysis/SEP-audit-findings.md",
+      "date": "2024-01-01",
+      "year": 2024,
+      "product": "Accredited Representative Portal (ARP)",
+      "team": "Accredited Representative Facing Team",
+      "participants": 0
+    },
+    {
+      "title": "Research Findings for AR Team, VSO - VA Benefits (526ez, 686c, 674) - Interviews",
+      "file": "products/accredited-representation-management/research/2024-10-VSO-VAbenefits-interviews/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/research/2024-10-VSO-VAbenefits-interviews/research-findings.md",
+      "date": "2024-10-01",
+      "year": 2024,
+      "product": "Accredited Representative Portal (ARP)",
+      "team": "Accredited Representation Management Team",
+      "participants": 9
+    },
+    {
+      "title": "ARM Team Appoint a Representative Cross-Accredited VSOR User Test Research Findings",
+      "file": "products/accredited-representation-management/research/2024-08-ARM-appointarep-crossaccreditedVSOR-usertest/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/research/2024-08-ARM-appointarep-crossaccreditedVSOR-usertest/research-findings.md",
+      "date": "2024-08-01",
+      "year": 2024,
+      "product": "Accredited Representative Management",
+      "team": "ARM Team",
+      "participants": 8
+    },
+    {
+      "title": "ARM Team Appoint a Representative Digital Submit User Test Research Findings",
+      "file": "products/accredited-representation-management/research/2024-06-ARM-appointarep-digitalsubmit-usertest/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/research/2024-06-ARM-appointarep-digitalsubmit-usertest/research-findings.md",
+      "date": "2024-06-01",
+      "year": 2024,
+      "product": "Accredited Representative Management",
+      "team": "ARM Team",
+      "participants": 7
+    },
+    {
+      "title": "Accredited Representative Management - Veteran and Caregiver Representative Experience Interviews Research Findings",
+      "file": "products/accredited-representation-management/research/2024-04-ARM-veteran-representative-experience-interviews/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/research/2024-04-ARM-veteran-representative-experience-interviews/research-findings.md",
+      "date": "2024-04-01",
+      "year": 2024,
+      "product": "Accredited Representative Management",
+      "team": "ARM Team",
+      "participants": 24
+    },
+    {
+      "title": "ARM Team - Find a Representative LIVE User Test Research Findings",
+      "file": "products/accredited-representation-management/research/2024-03-ARM-findarep-live-usertest/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/research/2024-03-ARM-findarep-live-usertest/research-findings.md",
+      "date": "2024-04-01",
+      "year": 2024,
+      "product": "Accredited Representative Management (ARM)",
+      "team": "Accredited Representative Management Team",
+      "participants": 11
+    },
+    {
+      "title": "ARM Team - Appoint a Representative Form User Test (Unauthenticated) Research Findings",
+      "file": "products/accredited-representation-management/research/2024-02-appointarep-unauth-usertest/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/research/2024-02-appointarep-unauth-usertest/research-findings.md",
+      "date": "2024-03-01",
+      "year": 2024,
+      "product": "Accredited Representative Management (ARM)",
+      "team": "Accredited Representative Management Team",
+      "participants": 8
+    },
+    {
+      "title": "ARM Team - Authenticated Appoint a Representative Form User Test Research Findings",
+      "file": "products/accredited-representation-management/research/2024-01-ARM-appointarep-usertest/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/research/2024-01-ARM-appointarep-usertest/research-findings.md",
+      "date": "2024-01-01",
+      "year": 2024,
+      "product": "Accredited Representative Management (ARM)",
+      "team": "Accredited Representative Management Team",
+      "participants": 8
+    },
+    {
+      "title": "Analytics Findings for ARM Team",
+      "file": "products/accredited-representation-management/research/2023-12-ARM-analytics/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/research/2023-12-ARM-analytics/research-findings.md",
+      "date": "2024-02-01",
+      "year": 2024,
+      "product": "Accredited Representative Management",
+      "team": "Accredited Representative Management",
+      "participants": 0
+    },
+    {
+      "title": "Find a Representative User Test Research Findings",
+      "file": "products/accredited-representation-management/research/2023-11-ARM-findarep-nav-usertest/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representation-management/research/2023-11-ARM-findarep-nav-usertest/research-findings.md",
+      "date": "2023-12-01",
+      "year": 2023,
+      "product": "Find a Representative",
+      "team": "Accredited Representative Management",
+      "participants": 8
+    },
+    {
+      "title": "Save in Progress Usability Research Findings",
+      "file": "teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md",
+      "date": "2025-09-15",
+      "year": 2025,
+      "product": "VA.gov Forms",
+      "team": "Accessibility Digital Experience (ADE)",
+      "participants": 11
+    },
+    {
+      "title": "How Disabled Veterans Provide Accessibility Feedback - Discovery Research Findings",
+      "file": "teams/digital-experience/ADE/research/2022-10-a11y-feedback/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2022-10-a11y-feedback/research-findings.md",
+      "date": "2022-10-31",
+      "year": 2022,
+      "product": "Accessibility Feedback Process",
+      "team": "CAIA (Content, Accessibility, and IA)",
+      "participants": 0
+    },
+    {
+      "title": "Discharge Upgrade Wizard Usability Testing Research Findings",
+      "file": "products/veteran-military-records/discharge-upgrade-wizard/research/2024-Review-Flow/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-military-records/discharge-upgrade-wizard/research/2024-Review-Flow/research-findings.md",
+      "date": "2024-11-14",
+      "year": 2024,
+      "product": "Discharge Upgrade Wizard",
+      "team": "Sitewide Public Websites",
+      "participants": 10
+    },
+    {
+      "title": "Self-Service Login Tool Research Findings",
+      "file": "products/platform/login-self-service-tool/research/2022-Q3/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/platform/login-self-service-tool/research/2022-Q3/research-findings.md",
+      "date": "2022-08-16",
+      "year": 2022,
+      "product": "Self-Service Login Tool",
+      "team": "Contact Center",
+      "participants": 12
+    },
+    {
+      "title": "VA.gov Search Research Findings",
+      "file": "products/on-site-search/research/user-research/research-study-jan-2021/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/research/user-research/research-study-jan-2021/research-findings.md",
+      "date": "2021-02-08",
+      "year": 2021,
+      "product": "On-Site Search",
+      "team": "Search & Discovery",
+      "participants": 10
+    },
+    {
+      "title": "Search Design Concepts Usability Research Findings",
+      "file": "products/on-site-search/research/user-research/2021-Aug-research-study/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/on-site-search/research/user-research/2021-Aug-research-study/research-findings.md",
+      "date": "2021-09-27",
+      "year": 2021,
+      "product": "On-site Search",
+      "team": "Search & Discovery",
+      "participants": 7
+    },
+    {
+      "title": "Login.gov Adoption Discovery Research Findings",
+      "file": "products/login.gov-adoption/discovery/research/2022-10-Login.gov-Adoption-Discovery-Research/login.gov adoption discovery research findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/login.gov-adoption/discovery/research/2022-10-Login.gov-Adoption-Discovery-Research/login.gov%20adoption%20discovery%20research%20findings.md",
+      "date": "2022-11-23",
+      "year": 2022,
+      "product": "Login.gov",
+      "team": "Identity",
+      "participants": 36
+    },
+    {
+      "title": "Evidence Request Study Research Findings",
+      "file": "products/identity-personalization/my-va/research/2025-08-myva3.0-phase1-usabilitytesting/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2025-08-myva3.0-phase1-usabilitytesting/research-findings.md",
+      "date": "2025-08-28",
+      "year": 2025,
+      "product": "My VA 3.0, Profile",
+      "team": "Auth Experience",
+      "participants": 10
+    },
+    {
+      "title": "Copilot findings for Auth Experience, My VA 3.0, 2025/08",
+      "file": "products/identity-personalization/my-va/research/2025-08-myva3.0-phase1-usabilitytesting/copilot-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2025-08-myva3.0-phase1-usabilitytesting/copilot-findings.md",
+      "date": "2025-08-28",
+      "year": 2025,
+      "product": "My VA 3.0",
+      "team": "Auth Experience",
+      "participants": 9
+    },
+    {
+      "title": "My VA Desk Research for the Authenticated Experience Team, 03/2025",
+      "file": "products/identity-personalization/my-va/research/2025-03-secondaryresearch/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/research/2025-03-secondaryresearch/research-findings.md",
+      "date": "2025-03-01",
+      "year": 2025,
+      "product": "My VA",
+      "team": "Authenticated Experience Team",
+      "participants": 0
+    },
+    {
+      "title": "My VA 2023 Audit Usability Testing Research Findings",
+      "file": "products/identity-personalization/my-va/2022-audit/research/MyVA-audit-research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/2022-audit/research/MyVA-audit-research-findings.md",
+      "date": "2023-03-03",
+      "year": 2023,
+      "product": "My VA",
+      "team": "Authenticated Experience",
+      "participants": 13
+    },
+    {
+      "title": "Multistep task pattern Research Findings",
+      "file": "products/health-care/supply-reordering-tool/research/2025-02 Multistep task pattern research/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/supply-reordering-tool/research/2025-02%20Multistep%20task%20pattern%20research/research-findings.md",
+      "date": "2025-04-22",
+      "year": 2025,
+      "product": "My HealtheVet Portal - Supply Reordering Tool",
+      "team": "MHV Portal - Supply Reordering Tool Team",
+      "participants": 766
+    },
+    {
+      "title": "Check-in Remote Discovery Research Findings",
+      "file": "products/health-care/checkin/research/remote-discovery/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/remote-discovery/research-findings.md",
+      "date": "2021-04-01",
+      "year": 2021,
+      "product": "Check-in",
+      "team": "Healthcare Experience - Check-in",
+      "participants": 11
+    },
+    {
+      "title": "Unmoderated Content Evaluation for Multiple Facilities Selection in BT Oracle Health App Research Findings",
+      "file": "products/health-care/checkin/research/2024-04 Unmoderated Content Evaluation for Multiple Facilities Selection in BT Oracle Health App/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/2024-04%20Unmoderated%20Content%20Evaluation%20for%20Multiple%20Facilities%20Selection%20in%20BT%20Oracle%20Health%20App/research-findings.md",
+      "date": "2024-04-30",
+      "year": 2024,
+      "product": "Health Care Check-in",
+      "team": "Check-in Experience",
+      "participants": 60
+    },
+    {
+      "title": "Patient Check In (PCI): Travel Reimbursement Research Findings",
+      "file": "products/health-care/checkin/research/2022-12 Patient Check In Travel Reimbursement Veteran Intercept at Wilkes-Barre/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/2022-12%20Patient%20Check%20In%20Travel%20Reimbursement%20Veteran%20Intercept%20at%20Wilkes-Barre/research-findings.md",
+      "date": "2023-08-08",
+      "year": 2023,
+      "product": "Patient Check In",
+      "team": "Healthcare Products, Modernized Check-In Experience",
+      "participants": 41
+    },
+    {
+      "title": "Patient Check In (PCI): Travel Reimbursement Research Findings",
+      "file": "products/health-care/checkin/research/2022-12 Patient Check In Travel Reimbursement Staff Interviews at Wilkes-Barre/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/2022-12%20Patient%20Check%20In%20Travel%20Reimbursement%20Staff%20Interviews%20at%20Wilkes-Barre/research-findings.md",
+      "date": "2023-08-08",
+      "year": 2023,
+      "product": "Patient Check In",
+      "team": "Healthcare Products, Modernized Check-In Experience",
+      "participants": 41
+    },
+    {
+      "title": "Patient Check In ID Verification - SSN4 Text Input vs. Date of Birth (DoB) Memorable Date Comparison",
+      "file": "products/health-care/checkin/research/2022-10 Patient Check In ID Verification - SSN4 Text Input vs. Date of Birth (DoB) Memorable Date Comparison/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/2022-10%20Patient%20Check%20In%20ID%20Verification%20-%20SSN4%20Text%20Input%20vs.%20Date%20of%20Birth%20(DoB)%20Memorable%20Date%20Comparison/research-findings.md",
+      "date": "2022-10-21",
+      "year": 2022,
+      "product": "Modernized Check-In Experience",
+      "team": "Healthcare Products, Modernized Check-In Experience",
+      "participants": 0
+    },
+    {
+      "title": "Federal Standardized Header/Footer Usability Testing - Phases 1 & 2 Research Findings",
+      "file": "products/header-footer/initiatives/2024-federal-standardized-header-footer/research/research-findings-phases1&2.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/header-footer/initiatives/2024-federal-standardized-header-footer/research/research-findings-phases1%262.md",
+      "date": "2024-03-06",
+      "year": 2024,
+      "product": "Sitewide Header and Footer",
+      "team": "Sitewide Public Websites",
+      "participants": 19
+    },
+    {
+      "title": "VBA Public Contact Staff Research Findings",
+      "file": "products/facilities/regional-offices/research/2022-9-public-contact/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/regional-offices/research/2022-9-public-contact/research-findings.md",
+      "date": "2022-12-23",
+      "year": 2022,
+      "product": "Facilities",
+      "team": "VBA Regional Office, Facilities",
+      "participants": 12
+    },
+    {
+      "title": "Veteran Facing VBA Research Findings",
+      "file": "products/facilities/regional-offices/research/2022-8-veteran-facing/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/regional-offices/research/2022-8-veteran-facing/research-findings.md",
+      "date": "2022-10-17",
+      "year": 2022,
+      "product": "Facilities",
+      "team": "Facilities",
+      "participants": 12
+    },
+    {
+      "title": "Voc Rehab Usability Testing, Round 2 Research Findings",
+      "file": "products/education-careers/vocational-rehab/research/mar-2018/march-2018-usability-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/vocational-rehab/research/mar-2018/march-2018-usability-findings.md",
+      "date": "2018-03-31",
+      "year": 2018,
+      "product": "Vocational Rehabilitation & Employment (VR&E)",
+      "team": "Not specified",
+      "participants": 4
+    },
+    {
+      "title": "526 Submission Status Research Findings",
+      "file": "products/disability/526ez/research/2024-07-Submission-Status/Research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/2024-07-Submission-Status/Research-findings.md",
+      "date": "2024-07-29",
+      "year": 2024,
+      "product": "Disability Benefits - 526EZ",
+      "team": "DBEX 1",
+      "participants": 8
+    },
+    {
+      "title": "Continuous Discovery Pilot - Round 1 Research Findings",
+      "file": "products/dependents/research/2025-08-continuous-discovery-pilot/Round 1/findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/research/2025-08-continuous-discovery-pilot/Round%201/findings.md",
+      "date": "2025-08-25",
+      "year": 2025,
+      "product": "Dependents",
+      "team": "Dependents Team",
+      "participants": 7
+    },
+    {
+      "title": "11-2023 Family benefit hub Research Findings",
+      "file": "products/content/audience-hubs/family-member-hub/research/11-2023-family-hub-research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/content/audience-hubs/family-member-hub/research/11-2023-family-hub-research-findings.md",
+      "date": "2023-11-30",
+      "year": 2023,
+      "product": "Family and Caregiver Benefits Hub",
+      "team": "Sitewide Content & IA",
+      "participants": 41
+    },
+    {
+      "title": "VHA Debt Portal Payment History Usability and Comprehension Research Findings",
+      "file": "products/combined_va_debt_portal/payment-history/research/2024-9-copay-usability/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2024-9-copay-usability/research-findings.md",
+      "date": "2024-10-11",
+      "year": 2024,
+      "product": "VHA Debt Portal Payment History",
+      "team": "Debt Resolution Team",
+      "participants": 10
+    },
+    {
+      "title": "VBA Debt Portal Payment History Study - Usability & Comprehension Research Findings",
+      "file": "products/combined_va_debt_portal/payment-history/research/2024-6-overpayment-usability/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2024-6-overpayment-usability/research-findings.md",
+      "date": "2024-07-16",
+      "year": 2024,
+      "product": "Debt Portal",
+      "team": "Debt Resolution Team",
+      "participants": 9
+    },
+    {
+      "title": "Burial VSOs Research Findings",
+      "file": "products/burials-memorials/burial-allowance/research/2024-09-VSO-Research/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/burials-memorials/burial-allowance/research/2024-09-VSO-Research/research-findings.md",
+      "date": "2024-12-09",
+      "year": 2024,
+      "product": "Burial Benefits",
+      "team": "Non-disability Benefits / Dependents",
+      "participants": 6
+    },
+    {
+      "title": "Veteran Top Tasks Unmoderated Survey Findings",
+      "file": "teams/digital-experience/public-websites-2020-2022/research/Veteran-tasks/unmoderated/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/public-websites-2020-2022/research/Veteran-tasks/unmoderated/research-findings.md",
+      "date": "2022-07-08",
+      "year": 2022,
+      "product": "Sitewide Home Page",
+      "team": "Sitewide Home Page team",
+      "participants": 55
+    },
+    {
+      "title": "Veteran Top Tasks Moderated Research Findings",
+      "file": "teams/digital-experience/public-websites-2020-2022/research/Veteran-tasks/moderated/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/public-websites-2020-2022/research/Veteran-tasks/moderated/research-findings.md",
+      "date": "2022-06-03",
+      "year": 2022,
+      "product": "Sitewide Home Page",
+      "team": "Sitewide Home Page team",
+      "participants": 7
+    },
+    {
+      "title": "How Disabled Veterans Provide Accessibility Feedback - Discovery Research Findings",
+      "file": "teams/_archive/shared-support/accessibility/research/2022-10-a11y-feedback/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/_archive/shared-support/accessibility/research/2022-10-a11y-feedback/research-findings.md",
+      "date": "2022-10-31",
+      "year": 2022,
+      "product": "Accessibility Feedback Process",
+      "team": "VSP Accessibility",
+      "participants": 0
+    },
+    {
+      "title": "VA Mobile App Personalized Home Screen Evaluative Research Findings",
+      "file": "products/va-mobile-app/research/ux/personalized-homescreen/2024-04 evaluative research/personalized home screen - findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/ux/personalized-homescreen/2024-04%20evaluative%20research/personalized%20home%20screen%20-%20findings.md",
+      "date": "2024-07-03",
+      "year": 2024,
+      "product": "VA Mobile App",
+      "team": "VA Mobile UX Team",
+      "participants": 13
+    },
+    {
+      "title": "VA Mobile App Blind and Low Vision Usability Study Research Findings",
+      "file": "products/va-mobile-app/research/ux/blind-low-vision/2022-11-Blind-Low-vision/Research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/ux/blind-low-vision/2022-11-Blind-Low-vision/Research-findings.md",
+      "date": "2023-01-11",
+      "year": 2023,
+      "product": "VA Mobile App - Accessibility",
+      "team": "VA Mobile App Team",
+      "participants": 8
+    },
+    {
+      "title": "2022 VA Mobile Appointment Request Research Findings",
+      "file": "products/va-mobile-app/research/ux/appointments/2022-04-Appointment-Scheduling/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-mobile-app/research/ux/appointments/2022-04-Appointment-Scheduling/research-findings.md",
+      "date": "2022-05-31",
+      "year": 2022,
+      "product": "VA Mobile App - Appointment Scheduling",
+      "team": "VA Mobile App Team",
+      "participants": 8
+    },
+    {
+      "title": "Local Nav Research Report - Research Findings",
+      "file": "products/information-architecture/research-and-analytics/2019-vamc-navigation/left-nav/research/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/research-and-analytics/2019-vamc-navigation/left-nav/research/research-findings.md",
+      "date": "2019-01-01",
+      "year": 2019,
+      "product": "VA.gov VAMC Website",
+      "team": "Information Architecture",
+      "participants": 5
+    },
+    {
+      "title": "Profile Your VA Health Facilities Internal Usability Study Research Findings",
+      "file": "products/identity-personalization/profile/preferred-facility/research/2021-05-preferred-facilities/internal-usability-study-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/preferred-facility/research/2021-05-preferred-facilities/internal-usability-study-findings.md",
+      "date": "2021-05-10",
+      "year": 2021,
+      "product": "VA.gov Profile",
+      "team": "Authenticated Experience",
+      "participants": 5
+    },
+    {
+      "title": "Address Management Veteran Feedback Research Findings",
+      "file": "products/identity-personalization/profile/contact-information/research/2020-04-address-management/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/contact-information/research/2020-04-address-management/research-findings.md",
+      "date": "2020-04-30",
+      "year": 2020,
+      "product": "VA Profile",
+      "team": "Not specified",
+      "participants": 8
+    },
+    {
+      "title": "MHV Account Creation Flow Research Findings",
+      "file": "products/identity/login/mhv/mhv-account-creation_2017/research/researchfindings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/login/mhv/mhv-account-creation_2017/research/researchfindings.md",
+      "date": "2017-04-17",
+      "year": 2017,
+      "product": "My HealtheVet Account Creation",
+      "team": "Identity",
+      "participants": 3
+    },
+    {
+      "title": "Rx Tracking and Account Creation Research Findings",
+      "file": "products/identity/login/mhv/mhv-account-creation_2017/research/research-findings2.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/login/mhv/mhv-account-creation_2017/research/research-findings2.md",
+      "date": "2017-05-15",
+      "year": 2017,
+      "product": "My HealtheVet Account Creation",
+      "team": "Identity",
+      "participants": 5
+    },
+    {
+      "title": "FMP Claims Content Comprehension Study Research Findings, VA Form 10-7959f-2, October 2025",
+      "file": "products/health-care/foreign-medical-program/10-7959f-2/research/2025-10-FMP-Claims-Direct-Deposit-Content-Study/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/foreign-medical-program/10-7959f-2/research/2025-10-FMP-Claims-Direct-Deposit-Content-Study/research-findings.md",
+      "date": "2025-12-04",
+      "year": 2025,
+      "product": "10-7959f-2 Foreign Medical Program Claim Cover Sheet",
+      "team": "Health Applications",
+      "participants": 8
+    },
+    {
+      "title": "Preliminary Form Improvements: Form 10-7959f-1 (FMP Registration)",
+      "file": "products/health-care/foreign-medical-program/10-7959f-1/research/users/2024-03-preliminary-research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/foreign-medical-program/10-7959f-1/research/users/2024-03-preliminary-research-findings.md",
+      "date": "2024-03-01",
+      "year": 2024,
+      "product": "Form 10-7959f-1 (FMP Registration)",
+      "team": "Foreign Medical Program Team",
+      "participants": 0
+    },
+    {
+      "title": "Urgent Care Usability Study - Research Findings",
+      "file": "products/health-care/community-care/urgent-care/research/jun-2019/findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/community-care/urgent-care/research/jun-2019/findings.md",
+      "date": "2019-06-01",
+      "year": 2019,
+      "product": "Community Care - Urgent Care",
+      "team": "Health Care",
+      "participants": 7
+    },
+    {
+      "title": "Patient Details Research Findings",
+      "file": "products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/platform/research/2025-12-Patient-Details-Testing/research-findings.md",
+      "date": "2025-01-09",
+      "year": 2025,
+      "product": "CDS Console",
+      "team": "CDS Platform Team",
+      "participants": 8
+    },
+    {
+      "title": "Calculator Detail Page Line Chart Testing Research Findings",
+      "file": "products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/clinical-decision-support/medical-calculators/research/2025-09-Calculator-Detail-Page-Line-Chart-Testing/research-findings.md",
+      "date": "2025-10-02",
+      "year": 2025,
+      "product": "Medical Calculators",
+      "team": "Clinical Decision Support Collaborative",
+      "participants": 5
+    },
+    {
+      "title": "Check-in MVP Usability Research Findings",
+      "file": "products/health-care/checkin/research/veteran-facing/mvp-usability/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/research/veteran-facing/mvp-usability/research-findings.md",
+      "date": "2021-07-01",
+      "year": 2021,
+      "product": "Check-in",
+      "team": "Healthcare Experience - Check-in",
+      "participants": 10
+    },
+    {
+      "title": "Appointments Details Card Sort Research Findings",
+      "file": "products/health-care/appointments/va-online-scheduling/research/2024-08-appointment-details-card-sort/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2024-08-appointment-details-card-sort/research-findings.md",
+      "date": "2024-12-18",
+      "year": 2024,
+      "product": "VA Online Scheduling",
+      "team": "Appointments",
+      "participants": 48
+    },
+    {
+      "title": "Appointments Oracle Health Integration and Scheduling Improvements Research Findings",
+      "file": "products/health-care/appointments/va-online-scheduling/research/2024-05-oh-scheduling/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2024-05-oh-scheduling/research-findings.md",
+      "date": "2024-08-12",
+      "year": 2024,
+      "product": "VA Online Scheduling (VAOS)",
+      "team": "Appointments Team",
+      "participants": 13
+    },
+    {
+      "title": "Appointment List Usability Research Findings",
+      "file": "products/health-care/appointments/va-online-scheduling/research/2022-09-appts-list-usability/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2022-09-appts-list-usability/research-findings.md",
+      "date": "2022-10-31",
+      "year": 2022,
+      "product": "VA Online Scheduling",
+      "team": "VAOS",
+      "participants": 10
+    },
+    {
+      "title": "Appointments List Research Findings",
+      "file": "products/health-care/appointments/va-online-scheduling/research/2022-01-mhv-and-vaos-appts-list-discovery/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2022-01-mhv-and-vaos-appts-list-discovery/research-findings.md",
+      "date": "2022-02-28",
+      "year": 2022,
+      "product": "VA Online Scheduling and MyHealtheVet appointments",
+      "team": "VAOS+MHV",
+      "participants": 9
+    },
+    {
+      "title": "Requests discovery - report Research Findings",
+      "file": "products/health-care/appointments/va-online-scheduling/research/2021-11-request-clarification-research/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2021-11-request-clarification-research/research-findings.md",
+      "date": "2021-11-01",
+      "year": 2021,
+      "product": "VA Online Scheduling (VAOS)",
+      "team": "VA Online Scheduling Team",
+      "participants": 8
+    },
+    {
+      "title": "Facility Selection Variant Test - Research Findings",
+      "file": "products/health-care/appointments/va-online-scheduling/research/2021-08-facilities-ab-test/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2021-08-facilities-ab-test/research-findings.md",
+      "date": "2021-08-23",
+      "year": 2021,
+      "product": "VA Online Scheduling (VAOS)",
+      "team": "Appointments Team",
+      "participants": 31572
+    },
+    {
+      "title": "January 2021 VAOS Appointments List Usability Study Research Findings",
+      "file": "products/health-care/appointments/va-online-scheduling/research/2021-01-appts-list-test/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2021-01-appts-list-test/research-findings.md",
+      "date": "2021-01-31",
+      "year": 2021,
+      "product": "VA Online Scheduling (VAOS)",
+      "team": "VAOS Team",
+      "participants": 5
+    },
+    {
+      "title": "CC Provider Selection Usability Study Research Findings",
+      "file": "products/health-care/appointments/va-online-scheduling/research/2020-10-cc-provider-selection-usability/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2020-10-cc-provider-selection-usability/research-findings.md",
+      "date": "2020-10-31",
+      "year": 2020,
+      "product": "VA Online Scheduling (VAOS)",
+      "team": "VAOS",
+      "participants": 11
+    },
+    {
+      "title": "VA Online Scheduling: VAOSR and Express Care Research Findings",
+      "file": "products/health-care/appointments/va-online-scheduling/research/2020-07-vaos-mvp-and-express-care-user-research/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2020-07-vaos-mvp-and-express-care-user-research/research-findings.md",
+      "date": "2020-07-31",
+      "year": 2020,
+      "product": "VA Online Scheduling (VAOS)",
+      "team": "VA Online Scheduling",
+      "participants": 15
+    },
+    {
+      "title": "VA Online Scheduling: Express Care Research Findings",
+      "file": "products/health-care/appointments/va-online-scheduling/research/2020-05-express-care-research/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2020-05-express-care-research/research-findings.md",
+      "date": "2020-05-31",
+      "year": 2020,
+      "product": "VA Online Scheduling (VAOS)",
+      "team": "DEPO",
+      "participants": 11
+    },
+    {
+      "title": "2025-07 - CYOA Task List Early Exploration - Unmoderated Prototype A/B Study Research Findings",
+      "file": "products/health-care/application/va-application/research/2025-06-Task List and Traditional Form Unmoderated/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/research/2025-06-Task%20List%20and%20Traditional%20Form%20Unmoderated/research-findings.md",
+      "date": "2025-07-01",
+      "year": 2025,
+      "product": "10-10EZ Health Care Application",
+      "team": "Health Enrollment Team",
+      "participants": 42
+    },
+    {
+      "title": "Research Findings for 10-10EZ Toxic Exposure Questions Usability Study",
+      "file": "products/health-care/application/va-application/research/2024-04-ToxicExposure-UsabilityStudy/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/research/2024-04-ToxicExposure-UsabilityStudy/research-findings.md",
+      "date": "2024-04-01",
+      "year": 2024,
+      "product": "10-10EZ Health Care Application",
+      "team": "Health Enrollment Team, 10-10EZ",
+      "participants": 7
+    },
+    {
+      "title": "10-10 applications team, Usability research of shortened form based on disability rating, Health Care application 10-10EZ, June 2022",
+      "file": "products/health-care/application/va-application/research/2022-06-Short form usability/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/research/2022-06-Short%20form%20usability/research-findings.md",
+      "date": "2022-06-23",
+      "year": 2022,
+      "product": "Health Care Application (10-10EZ)",
+      "team": "10-10 applications team",
+      "participants": 10
+    },
+    {
+      "title": "Usability research of shortened form based on disability rating, Health Care application 10-10EZ - Topline Summary Research Findings",
+      "file": "products/health-care/application/va-application/research/2021-11-short-form-usability/topline-summary-research findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/research/2021-11-short-form-usability/topline-summary-research%20findings.md",
+      "date": "2021-11-01",
+      "year": 2021,
+      "product": "Health Care Application (10-10EZ)",
+      "team": "Caregiver Team",
+      "participants": 0
+    },
+    {
+      "title": "Caregiver, Usability research of shortened form based on disability rating, Health Care application 10-10EZ Research Findings",
+      "file": "products/health-care/application/va-application/research/2021-09-Flow Research/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/research/2021-09-Flow%20Research/research-findings.md",
+      "date": "2021-09-17",
+      "year": 2021,
+      "product": "10-10EZ Health Care Application",
+      "team": "Caregiver Team",
+      "participants": 14
+    },
+    {
+      "title": "Facility Locator Search Expectations Research Findings",
+      "file": "products/facilities/facility-locator/research/user-research/FL-Search-march2020/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/research/user-research/FL-Search-march2020/research-findings.md",
+      "date": "2020-03-11",
+      "year": 2020,
+      "product": "Facility Locator",
+      "team": "VSA, Facility Locator",
+      "participants": 5
+    },
+    {
+      "title": "Mobile Experience Research Findings",
+      "file": "products/facilities/facility-locator/research/user-research/2021-mobile-experience-research/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/research/user-research/2021-mobile-experience-research/research-findings.md",
+      "date": "2021-02-23",
+      "year": 2021,
+      "product": "VA Facility Locator",
+      "team": "Facilities Team",
+      "participants": 10
+    },
+    {
+      "title": "GI Bill Comparison Tool Non-Veteran Discovery Interview - Preliminary Research Findings",
+      "file": "products/education-careers/school-comparison-tool/colmery-act-2019/research/apr-2019/ct-non-veteran-preliminary-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/education-careers/school-comparison-tool/colmery-act-2019/research/apr-2019/ct-non-veteran-preliminary-findings.md",
+      "date": "2019-04-01",
+      "year": 2019,
+      "product": "GI Bill Comparison Tool",
+      "team": "Education & Careers",
+      "participants": 4
+    },
+    {
+      "title": "2025-06 New/Increase at Condition Level: Topline Research Findings and Next Steps",
+      "file": "products/disability/526ez/research/CC-Team-Research/2025-06 New or Increase at Condition Level/Preliminary findings & Next Steps.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/disability/526ez/research/CC-Team-Research/2025-06%20New%20or%20Increase%20at%20Condition%20Level/Preliminary%20findings%20%26%20Next%20Steps.md",
+      "date": "2025-07-25",
+      "year": 2025,
+      "product": "Disability Compensation - Form 526EZ",
+      "team": "CC Team",
+      "participants": 7
+    },
+    {
+      "title": "Secure Messages Curated List Usability Research Findings",
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2025-06-curated-list-usability-testing/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2025-06-curated-list-usability-testing/research-findings.md",
+      "date": "2025-07-09",
+      "year": 2025,
+      "product": "My HealtheVet on VA.gov - Secure Messaging",
+      "team": "MHV on VA.gov - Secure Messaging Team",
+      "participants": 9
+    },
+    {
+      "title": "MHV Secure Messaging - Accessibility Research Findings",
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-09-usability-round3-phase0/2023-Sept-Oct-Secure-Messaging-accessibility-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-09-usability-round3-phase0/2023-Sept-Oct-Secure-Messaging-accessibility-findings.md",
+      "date": "2023-10-31",
+      "year": 2023,
+      "product": "My HealtheVet (MHV) on VA.gov",
+      "team": "MHV Secure Messaging Team",
+      "participants": 4
+    },
+    {
+      "title": "Secure Messaging Round 2 Usability Testing Research Findings",
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2022-09-usability_testing_2/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2022-09-usability_testing_2/research-findings.md",
+      "date": "2022-12-09",
+      "year": 2022,
+      "product": "Secure Messaging",
+      "team": "Health Apartment - UCD",
+      "participants": 17
+    },
+    {
+      "title": "Medications In Product Education (IPE) A/B/C Study Research Findings",
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-06-IPE-ABC-testing/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-06-IPE-ABC-testing/research-findings.md",
+      "date": "2025-07-10",
+      "year": 2025,
+      "product": "Medications",
+      "team": "My HealtheVet on VA.gov",
+      "participants": 227
+    },
+    {
+      "title": "Medications on VA.gov IPE Study Research Findings",
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-03-IPE-study/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-03-IPE-study/research-findings.md",
+      "date": "2025-05-01",
+      "year": 2025,
+      "product": "Medications",
+      "team": "My HealtheVet on VA.gov",
+      "participants": 6
+    },
+    {
+      "title": "MHV on VA.gov Medications Usability Testing Round 3 - Assistive Technology Research Findings",
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-05-medications-usability-testing-round3-AT/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-05-medications-usability-testing-round3-AT/research-findings.md",
+      "date": "2024-06-10",
+      "year": 2024,
+      "product": "My HealtheVet on VA.gov - Medications",
+      "team": "MHV on VA.gov",
+      "participants": 13
+    },
+    {
+      "title": "MHV on VA.gov Medications Findability Study Research Findings",
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-02-findability-study/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2024-02-findability-study/research-findings.md",
+      "date": "2024-03-04",
+      "year": 2024,
+      "product": "My HealtheVet on VA.gov - Medications",
+      "team": "MHV on VA.gov",
+      "participants": 18
+    },
+    {
+      "title": "Medical Records on VA.gov Usability Study Round 4 (AT) Research Findings",
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2025-01-usability-testing-rd4-at/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2025-01-usability-testing-rd4-at/research-findings.md",
+      "date": "2025-02-01",
+      "year": 2025,
+      "product": "Medical Records",
+      "team": "My HealtheVet on VA.gov",
+      "participants": 11
+    },
+    {
+      "title": "Medical Records, Secure Messages, and Medications Filter Research Findings",
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-11-MR-SM-RX-usability-study/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-11-MR-SM-RX-usability-study/research-findings.md",
+      "date": "2024-12-09",
+      "year": 2024,
+      "product": "My HealtheVet on VA.gov",
+      "team": "MHV on VA.gov Medical Records, Secure Messaging, and Pharmacy Teams",
+      "participants": 12
+    },
+    {
+      "title": "Medical Records on VA.gov Findability Study Research Findings",
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-10-findability-study/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-10-findability-study/research-findings.md",
+      "date": "2024-11-01",
+      "year": 2024,
+      "product": "My HealtheVet on VA.gov",
+      "team": "MHV on VA.gov Medical Records Team",
+      "participants": 12
+    },
+    {
+      "title": "Medical Records on VA.gov Usability Study Round 3 (AT) Research Findings",
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-08-usability-testing-rd3-at/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-08-usability-testing-rd3-at/research-findings.md",
+      "date": "2024-09-01",
+      "year": 2024,
+      "product": "My HealtheVet on VA.gov",
+      "team": "MHV on VA.gov Medical Records Team",
+      "participants": 18
+    },
+    {
+      "title": "Medical Records on VA.gov Usability Study Round 2 (AT) Research Findings",
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-03-usability-testing-rd2-at/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2024-03-usability-testing-rd2-at/research-findings.md",
+      "date": "2024-06-10",
+      "year": 2024,
+      "product": "My HealtheVet on VA.gov",
+      "team": "MHV on VA.gov Medical Records Team",
+      "participants": 25
+    },
+    {
+      "title": "Medical Records Discovery Research Findings",
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-09-informational-interviews/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-09-informational-interviews/research-findings.md",
+      "date": "2022-10-03",
+      "year": 2022,
+      "product": "Medical Records",
+      "team": "Health Apartment",
+      "participants": 16
+    },
+    {
+      "title": "Caregiver, 10-10EZ Discovery research findings",
+      "file": "products/health-care/application/va-application/research/april-may-2021/end-user-discovery/research findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/application/va-application/research/april-may-2021/end-user-discovery/research%20findings.md",
+      "date": "2021-05-20",
+      "year": 2021,
+      "product": "Health Care Application (10-10EZ)",
+      "team": "Caregiver Team",
+      "participants": 9
+    },
+    {
+      "title": "Facility Locator Mobile Map Research - Interim Findings",
+      "file": "products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/mobile-map/2025-03-interim-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/initiatives/2023-2025-search-improvements/research/mobile-map/2025-03-interim-findings.md",
+      "date": "2025-04-01",
+      "year": 2025,
+      "product": "Facility Locator",
+      "team": "Sitewide Facilities",
+      "participants": 5
+    },
+    {
+      "title": "Community Care Self-Scheduling - Usability and Concept Testing Research Findings",
+      "file": "products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2024-06 Community Care Self-Scheduling - Usability and Concept Testing/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2024-06%20Community%20Care%20Self-Scheduling%20-%20Usability%20and%20Concept%20Testing/research-findings.md",
+      "date": "2024-08-29",
+      "year": 2024,
+      "product": "VA Online Scheduling (VAOS)",
+      "team": "Appointments Team",
+      "participants": 15
+    },
+    {
+      "title": "Community Care Self-Scheduling Research Presentation",
+      "file": "products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2024-06 Community Care Self-Scheduling - Usability and Concept Testing/findings-presentation.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2024-06%20Community%20Care%20Self-Scheduling%20-%20Usability%20and%20Concept%20Testing/findings-presentation.md",
+      "date": "2024-10-03",
+      "year": 2024,
+      "product": "VA Online Scheduling (VAOS)",
+      "team": "Appointments Team",
+      "participants": 0
+    },
+    {
+      "title": "CC Provider Selection Usability Study Research Findings",
+      "file": "products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2020-10-cc-provider-selection-usability/research-findings.md",
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/initiatives/community-care-direct-scheduling/research/2020-10-cc-provider-selection-usability/research-findings.md",
+      "date": "2020-10-31",
+      "year": 2020,
+      "product": "VA Online Scheduling (VAOS)",
+      "team": "VAOS",
+      "participants": 11
+    }
+  ],
+  "skipped_files": [
+    {
+      "file": "products/veteran-onboarding/research/research findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/streamlined_waiver/research/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/resources-for-schools/research/sco collaborative workgroup findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/resources-for-schools/research/research findings summary.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/public-websites/research/VCL-analytics-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/education-careers/research/sco-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/caregivers/research/key-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "platform/research/sharing-research/research-findings-template.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/vetext/research/2025-01-VEText-MyHealtheVet-email-appointment-reminder-content-research/research-findings-presentation.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/va-mobile-app/research/Forms MVP Research/research-findings-AT-copilot.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/proactive-benefits/research/2023-11-Outreach Exploration/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/pension/research/2025-12 Pension Disability Alert/research-findings.md",
+      "reason": "Date outside 2017-2025 range"
+    },
+    {
+      "file": "products/live-agent/research/2023-07-Live Agent Chatbot_Interviews with Veterans/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/home-page/research/redesign-usability/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/covid-vaccine-trials/research/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/harassment-reporting/research/static-landing-page/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/education-careers/vocational-rehab/research/eligibility-wizard-and-ch-36-form-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/education-careers/stem/research/discovery-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/dependents/research/2025-02-dependents-verification-mvp-research/research-findings-read-out.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/dependents/research/2023-09-dependents-research/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/content-localization/development/research/sub-directory-discovery-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/combined_fsr/research/enhanced_fsr/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/claim-appeal-status/research/2025-06-Evidence-Request/evidence-requests-research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/Debt Resolution/digital-dispute/research/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "teams/digital-experience/accessibility/research/assistive-tech/accessibility-findings-example.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "teams/digital-experience/ADE/research/2026-01-save-in-progress-2/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "teams/cross-team-initiatives/_archive/mobile-month/research/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/vet-transition-support/results-page-2.0/research/UAT/results-page-2.0-UAT-findings-report.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/login.gov-adoption/discovery/research/2023-03-Deferred-Identity-Proofing-Round-1-Usability/research findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/questionnaire/research/veteran-prioritization/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/questionnaire/research/mvp-usability/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/questionnaire/research/health-record/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/questionnaire/research/all-mvp-workflows/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/digital-health-modernization/pre-mhv-prototype/research/mhv-accessibility-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/clinical-decision-support/research/research-templates/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/accessibility/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/2023-11 Past Appointments Travel Reimbursement Generative Usability Study/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/2023-11 Past Appointments Travel Reimbursement Generative Usability Study/findings-presentation.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/2023-08 Remove QR Code from Poster Pilot/findings-presentation.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/2023-04 Unified Check-In Experience Usability Study/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/2023-04 Unified Check-In Experience Usability Study/accessibility-findings-mhv-pci.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/application/vets-application/research/findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/application/va-application/research/key-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/find-a-yellow-ribbon-school/v1/yellow-ribbon-mvp/research/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/regional-offices/research/2023-06-veteran-facing/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/medical-centers/research/VA-health-chat/tree-test-research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/facility-locator/research/archive/keyfindings2.13.17.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/facility-locator/research/archive/9.29researchfindings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/facility-locator/research/archive/3.6findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/disability/526ez/research/2023-11-Shadowing-Research/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/disability/526ez/research/2023-07-Toxic-Exposure/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/dependents/research/2025-08-continuous-discovery-pilot/Rounds 5&6/Round 5- findings.md",
+      "reason": "Date outside 2017-2025 range"
+    },
+    {
+      "file": "products/dependents/research/2025-08-continuous-discovery-pilot/Round 7/findings.md",
+      "reason": "Date outside 2017-2025 range"
+    },
+    {
+      "file": "products/dependents/research/2025-08-continuous-discovery-pilot/Round 4/findings.md",
+      "reason": "Date outside 2017-2025 range"
+    },
+    {
+      "file": "products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "teams/digital-experience/_archive/pst-forms-library/research/review-page-round-two/round-2-research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "teams/digital-experience/_archive/pst-forms-library/research/review-page-round-one/Round 1 Research findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "teams/digital-experience/_archive/ebenefits/research/discovery/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/va-mobile-app/research/ux/navigation/new navigation usability/usability-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/income-limits-app/initiatives/2023-launch/research/2023-01-income-limits-usability/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/identity-personalization/profile/personal-information/personal-information-revision/research/findings-summary.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/identity-personalization/profile/contact-information/bad-address-indicator/research/findings-summary.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/prescription-refills/vets-prescriptions/research/vets.gov-prototype/rx-7.8.16-findingssummary.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/prescription-refills/vets-prescriptions/research/rx-tracking/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/foreign-medical-program/10-7959f-2/research/stakeholders/stakeholder-research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/foreign-medical-program/10-7959f-1/research/stakeholders/stakeholder-research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/digital-health-modernization/pre-mhv-prototype/research/generative-research-study-1/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/veteran-facing/telephone/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/veteran-facing/travel-reimbursement-mvp-remote-test/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/veteran-facing/pre-check-in-usability/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/veteran-facing/phase2-usability/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/veteran-facing/mvp-UAT/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/veteran-facing/bay-pines-in-person-uat/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/veteran-facing/StLouis-pilot-feedback/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/veteran-facing/StLouis-pilot-feedback/exec-team-findings-debrief.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/veteran-facing/Spanish/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/staff-facing/bay-pines-in-person/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/appointments/va-online-scheduling/research/2025-09-pact-sud-uat/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/appointments/va-online-scheduling/research/2023-11-mhv-on-va-gov-phase-2b-vaos-uat/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/appointments/va-online-scheduling/research/2023-10-appt-details-redesign/slide-deck-of-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/appointments/va-online-scheduling/research/2023-10-appt-details-redesign/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/appointments/va-online-scheduling/research/2023-02-appt-list-usability-screenreader/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/appointments/va-online-scheduling/research/2023-02-appt-list-usability-screenreader/accessibility-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/appointments/va-online-scheduling/research/2021-05-facilities-personalization-research/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/application/va-application/research/2023-11-Registration Reasons Tree Test/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/application/va-application/research/2023-06-Registration flow exploration/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/application/va-application/research/2023-06-Priority Group and Financial Disclosure/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/application/va-application/research/2023-04-Household information section usability/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/application/va-application/research/2023-01-Baseline Task Research/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/facility-locator/research/user-research/urgent-care-mashup/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/facility-locator/research/user-research/urgent-care-PDF/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/facility-locator/research/user-research/urgent-care/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/facility-locator/research/user-research/services-benefits-taxonomy-USERS/VBA-service-labels-usability-research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/facility-locator/research/user-research/screenreader-usability-study/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/facility-locator/research/user-research/screenreader-usability-study/research-findings-add-01.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/facility-locator/research/user-research/facility-status/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/facility-locator/research/user-research/emergency-care-mashup/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/facility-locator/research/user-research/benefits-taxonomy-research-SME/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/facility-locator/research/discovery-sprints/user-research/user-research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/disability/526ez/research/CC-Team-Research/2023-10 Conditions List/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/prior-research/mhv-accessibility-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-09-usability-round3-phase0/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-08-triage-group-generative-study/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/secure-messaging/research/2023-01-patient-safety-notice-usability-testing/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-11-medications-messaging-and-status-labels-usability-study/topline-findings.md",
+      "reason": "Date outside 2017-2025 range"
+    },
+    {
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2025-11-medications-messaging-and-status-labels-usability-study/findings.md",
+      "reason": "Date outside 2017-2025 range"
+    },
+    {
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2023-11-medications-usability-testing-round2-AT/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medications/research/2023-07-medications-usability-testing-round1/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2023-05-usability-testing-round-1/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/digital-health-modernization/mhv-to-va.gov/avs/research/2023-04-MVP-Usability/research findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/clinical-decision-support/VA-CDS-data-visualization-patterns/patterns/data-grid/research/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/staff-facing/st-louis/nov-site-visit/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/checkin/research/staff-facing/st-louis/pilot-feedback/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/champva/1010D/status-tool/research/CHAMPVA Dependents Management/findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/health-care/application/va-application/research/april-may-2021/end-user-discovery/topline summary_research findings.md",
+      "reason": "Incomplete or template frontmatter"
+    },
+    {
+      "file": "products/facilities/facility-locator/research/user-research/redesign/filter-categorization/research-findings.md",
+      "reason": "Incomplete or template frontmatter"
+    }
+  ],
+  "errors": []
+}
