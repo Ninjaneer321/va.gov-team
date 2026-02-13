@@ -1,95 +1,122 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "2023-04 Proactive CSP migration Research Findings"
+product: "Sign in"
+team: "Identity Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2023-05-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Clayton Zook"
+  - "Amanda Porter"
+  - "Charlye Tran"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Test the usability and success of a mobile modal prototype that encourages veterans to migrate to Login.gov credentials before it's mandatory"
+  - "Identify which terms are most understandable and resonate most when describing identity concepts like verified (ID proofed) account and authentication"
+  - "Find out ways to encourage more veterans to migrate CSPs before sunsetting of legacy account"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Remote usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 10
+  tablet: 1
+  smartphone: 3
+  assistive_technology: 0
+participants_total: 14
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 14
+  service_members: 0
+  caregivers: 2
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 6
+    "65+": 7
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 5
+    associates: 2
+    bachelors: 3
+    masters: 3
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 14
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 11
+    black: 1
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 6
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 1
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Modals are disruptive and annoying, and veterans don't want to be interrupted by a modal in the middle of a task, especially for something that's not required"
+  - "Participants want to be told or sold to change CSP, but the modal copy is only suggestive and not persuasive enough, leaving confusion about why they should change"
+  - "In considering migrating to Login.gov or ID.me, some veterans like options, but many just want to be told what to do"
+  - "Some participants have a Login.gov or ID.me account but still choose to use My HealtheVet (MHV) as their CSP"
+  - "Veterans unfamiliar with Login.gov thought it was either a VA service and/or understood it as a place to go, as opposed to a way to sign in"
+  - "Veterans want to keep their personal information secure but also want their information to easily port to other VA services"
+  - "Participants largely understand MFA, although several found SMS to be a hassle. A couple participants expressed extreme dislike of or anxiety around SMS MFA"
+  - "Some verbiage, terms, and phrasings caused confusion around identity, but this doesn't have to be a hurdle for or affect credential migration"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Set a clear sunset date before expecting veterans to widely change CSP"
+  - "Develop a comprehensive proactive migration strategy that doesn't rely on an interrupting modal"
+  - "Better educate veterans about MFA options other than SMS"
+  - "Better label Login.gov as a partner, not part of VA"
+  - "Update the approach used with some identity related terminology and verbiage usage"
+  - "Allow veterans to reuse their information from VA as they sign up for Login.gov or ID.me"
+  - "Work with MHV partners to help MHV users better understand the difference between MHV the CSP vs MHV as the place to go"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Researching why veterans who have successfully set up either an ID.me or Login.gov account revert back to using MHV or DSLogin as their CSP"
+  - "Understanding what veteran segments make the most sense for automating communications about migration"
+  - "Researching what language will be more persuasive to each veteran segment"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Why veterans who have successfully set up either an ID.me or Login.gov account revert back to using MHV or DSLogin as their CSP"
+  - "How many veterans have multiple CSP and which one do they actively use"
+  - "What veteran segments make the most sense for automating communications about migration"
+  - "What language will be more persuasive to each veteran segment"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Immigrant origin"
+  - "Black, biracial, or Asian"
+  - "Assistive tech users"
+  - "Transgender"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "DSC: Modal"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "HDW: Smartphone"
+  - "INTIVE: CX Executive Order"
+  - "PRDT: Content"
+  - "PRDT: Login"
+  - "PRDT: Login.gov"
+  - "RESRCH: Evaluative"
+  - "RESRCH: Interviews"
+  - "RESRCH: Remote"
+  - "usability-testing"
+  - "semi-structured-interviews"
 ---
 
 # 2023-04 Proactive CSP migration research findings

@@ -1,95 +1,114 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "MHV Secure Messaging - Accessibility Research Findings"
+product: "My HealtheVet (MHV) on VA.gov"
+team: "MHV Secure Messaging Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2023-10-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Ade Ajayi"
+  - "Anne Costello"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate the usability and accessibility of MHV Secure Messaging for assistive technology users"
+  - "Identify accessibility barriers for screen reader users navigating secure messaging features"
+  - "Test message composition, drafting, and attachment workflows with assistive technology"
+  - "Assess the effectiveness of crisis line disclaimers and liability pages for AT users"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability testing with screen reader users"
+  - "Remote sessions"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 3
+  tablet: 0
+  smartphone: 1
+  assistive_technology: 4
+participants_total: 4
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 4
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 4
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 4
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 4
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 2
+    screen_reader_desktop: 3
+    screen_reader_mobile: 1
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants had trouble determining if there were attachments"
+  - "Having a 'save draft' button and auto-saving lead to confusion. And some participants weren't sure where their draft saved."
+  - "The crisis line disclaimer was appreciated, but may be present in too many places across the app."
+  - "Only unread messages announce themselves as such. A message that's aleady been read doesn't have an auditary indicator, only a visual one."
+  - "Radio Buttons not announcing total number of radio buttons"
+  - "Message ID being read out incorrectly"
+  - "Success Alert was not called out"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Whether a message has attachments needs to be read aloud by assistive technology. The paper clip icon should come before the message title, not after, and have some accessible text that can be read aloud (think 'Has attachment')."
+  - "Users should be made aware right away that their messages will be auto-saved, and where those messages are saved to. And you may want to remove the 'save draft' button entirely to reduce confusion."
+  - "It can take a long time for screen reader users to have page content read to them, so redundant/repeated text can be cumbersome to get through. When it comes to the liability and crisis line messages: You might want to consider removing one instance of them. Wherever they end up, it should be clear to the user that by clicking on this link, you'll be taken to a disclaimer/liability/crisis line message first."
+  - "Have some sort of indicator that a screen reader will pick up that a message is unread. This could be screen reader-only text, for the sake of the visual design."
+  - "Category radio buttons in a new message need to announce 'x of y,' where x is the current position and y is the total number of radio buttons. Use a field set and legend <fieldset> and <legend>. Use proper labeling <label>. Use aria-describedby"
+  - "Message ID's may need aria labels to be read out correctly"
+  - "To provide a 'success alert' that is read out to screen reader users after they successfully send a message to their provider, you can use ARIA live regions or ARIA alerts."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Testing with beginning/novice screen reader users"
+  - "Testing with additional screen reader types beyond VoiceOver and JAWS"
+  - "Validation of recommended fixes with AT users"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Beginner assistive technology users"
+  - "NVDA users"
+  - "Users with cognitive disabilities"
+  - "Users with mobility disabilities"
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "GitHub documentation"
+tags:
+  - "Accessibility"
+  - "AUD: Veterans"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "MHV: Secure Messaging"
+  - "PRDT: Secure-messaging"
+  - "RESRCH: Evaluative"
+  - "RESRCH: Remote"
+  - "usability-testing"
+  - "assistive-technology"
+  - "screen-reader"
 ---
 
 # CAIA A11y Deliverable: Assistive Technology User Research
