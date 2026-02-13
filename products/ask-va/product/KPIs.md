@@ -20,8 +20,8 @@ These KPIs help us understand how Ask VA is meeting expected submitter outcomes 
 - This only includes a few primary CRM endpoints
 - Number in parenthesis represent the total (AKA the denominator for a percentage)
 
-|KPI|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|
-|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|KPI|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|Jan|
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |[Performance] Error rate, Submit inquiry (auth)|0.4% (16850)|0.3% (43517)|0.8% (49123)|.17% (57451)|.62% (62841)|.39% (69368)|.83% (52030)|1.31% (52559)|
 |[Performance] Error rate, Submit inquiry (unauth)|0.9% (248)|⚠️5.1% (574)|⚠️14.5% (556)|10.75% (584)|⚠️13.6% (578)|⚠️13.46% (630)|⚠️10.63% (494)|3.14% (500)|
 |[Performance] Error rate, Submit reply|0.2% (2462)|0.1% (6827)|0.5% (6870)|.13% (8601)|0.2% (9029)|.54% (10092)|.48% (9653)|.95% (8173)|
@@ -30,8 +30,8 @@ These KPIs help us understand how Ask VA is meeting expected submitter outcomes 
 |[Performance] AVG p95 Latency, Submit reply|3.1s|3.6s|⚠️4.3s|4.35s|3.4s|⚠️4.82s|⚠️5.3s|⚠️6.15s|
 |[Performance] Throughput, Successful Submit inquiry (auth + unauth) calls|14744|43887|49219|57842|62942|69589|52035|52303|
 |[Performance] Throughput, Successful Submit reply calls|2341|6819|4836|8593|9019|10042|9607|8095|
-|[Form/Dashboard] Satisfaction (Intercept)|13% (24)|31% (62)|39% (112)|30% (168)|32% (173)|26% (177)|34% (168)|31% (150)|
-|[Form/Dashboard] Satisfaction (Feedback button)|10% (80)|11% (200)|14% (217)|13% (212)|12% (204)|7% (253)|5% (308)|4% (423)|
+|[Form/Dashboard] Satisfaction (Intercept)|13% (24)|31% (62)|39% (112)|30% (168)|32% (173)|26% (177)|34% (168)|31% (150)|31%(207)|
+|[Form/Dashboard] Satisfaction (Feedback button)|10% (80)|11% (200)|14% (217)|13% (212)|12% (204)|7% (253)|5% (308)|4% (423)|5% (441)|
 |[Form] Completion rate|36%|39%|35%|27%|29%|31%|28%|27%
 |[Dashboard] Reply rate|21%|23%|20%|22%|21%|24%|24%|21%
 |[Form] Time to submit form|x|x|x|x|x|x|x|x|
