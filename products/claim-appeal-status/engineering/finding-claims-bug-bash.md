@@ -10,14 +10,17 @@ Log in and navigate to the claims landing page with the flag enabled. Verify all
 
 ### Filter component
 
-- [x] A segmented button with All, Active, and Closed appears below the "Your claims, decision reviews, or appeals" heading - Did we ever check about making the segmented button full width on desktop?
-- [x] aria-label is "Claims status filter" - Tracey will be testing this with screen reader but its in the html
+- [x] A segmented button with All, Active, and Closed appears below the "Your claims, decision reviews, or appeals" heading
+  - _Did we ever check about making the segmented button full width on desktop?_
+- [x] aria-label is "Claims status filter"
+  - _Tracey will be testing this with screen reader but its in the html_
 - [x] "All" is selected by default
 - [x] The "Find out why we sometimes combine claims" accordion is no longer present
 
 ### Default sort order (should not change)
 
-- [x] Claims with open evidence requests appear first - Should cards with "We need you to resubmit files for this claim." also be bumped to the top of their section?
+- [x] Claims with open evidence requests appear first
+  - _Should cards with "We need you to resubmit files for this claim." also be bumped to the top of their section?_
 - [x] Other in-progress claims appear next
 - [x] Closed claims appear last (STEM claims are always closed) - Appeals do not have an in progress label
 - [x] Within each group, items are sorted by most recently updated - Impossible to determine from a claim card when a claim was updated!
