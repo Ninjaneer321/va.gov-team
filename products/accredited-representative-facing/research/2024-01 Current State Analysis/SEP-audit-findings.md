@@ -1,95 +1,69 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "SEP Audit Findings - Current State Analysis"
+product: "Accredited Representative Portal (ARP)"
+team: "Accredited Representative Facing Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Accredited Representative Facing Team"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Audit Stakeholder Enterprise Portal (SEP) public-facing website and authenticated portal"
+  - "Document SEP audience, authentication methods, and scope of functionality"
+  - "Identify tasks available in SEP portal for accredited representatives"
+  - "Understand current state before designing replacement tool"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Content audit of public-facing SEP website"
+  - "Screen-by-screen walkthrough of authenticated SEP portal"
+  - "SEP demo analysis and documentation"
+  - "Expert review and heuristic evaluation"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: "Yes"
+    tablet: "Not evaluated"
+    smartphone: "Not evaluated"
+    assistive_technology: "Not evaluated"
+participants_total: 0
+participant_type: "Secondary research - no direct participants; audit of existing system"
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
-  race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
-  disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+  note: "This is a secondary research audit; no participant demographics apply"
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "SEP is intended for three user types: VSO representatives, attorneys, and claims agents (three additional portals were never built/launched)"
+  - "SEP users can authenticate via PIV card or ID.me; new PIV users must input OGC accreditation number"
+  - "Five task categories available: managing representation requests (accept/decline), finding a Veteran, supporting claims, reviewing Intents to File, and updating dependents"
+  - "Three unbuilt features were planned but never launched: SEP Education Service for schools, PC@HAC for healthcare providers, and VR&E for employers"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Build ARP to replace SEP with same core functionality: representation request management, Veteran search, claims support, ITF review, and dependent updates"
+  - "Maintain PIV card and ID.me authentication methods for continuity"
+  - "Focus on three core user types: VSO representatives, attorneys, and claims agents"
+  - "Consider whether unbuilt SEP features (Education, Healthcare, Employment) should be incorporated into future ARP roadmap"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Document baseline SEP functionality for feature parity planning"
+  - "Inform ARP MVP scope based on SEP capabilities"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Accredited representatives will transition from SEP to ARP with equivalent or improved functionality"
+  business: "Successful sunset of legacy SEP system and migration to modern ARP platform built on VA.gov"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Managing representation requests (accept/decline POA)"
+  - "Finding a Veteran in system"
+  - "Supporting claims submission and tracking"
+  - "Reviewing Intents to File"
+  - "Updating dependent information"
+  - "Improved authentication experience"
+  - "Modern user interface and accessibility compliance"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "User testing with SEP users to understand current workflows"
+  - "Pain point analysis of SEP from representative perspective"
+  - "Feature prioritization for ARP MVP based on SEP usage data"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "N/A - This is a system audit, not a user research study"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "SEP Content Audit - Public Site (PDF on SharePoint)"
+  - "Screen-by-screen SEP walkthrough (PDF on SharePoint)"
+  - "SEP Demos (video recordings on SharePoint)"
+  - "Accredited Representative Facing team SharePoint folder"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Content audit spreadsheet"
+  - "Screenshot documentation"
+  - "SharePoint document repository"
 ---
 
 # SEP Audit Findings

@@ -1,95 +1,93 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Preliminary Form Improvements: Form 10-7959f-1 (FMP Registration)"
+product: "Form 10-7959f-1 (FMP Registration)"
+team: "Foreign Medical Program Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
-research_goals:
-  - "Goal 1"
-  - "Goal 2"
+date: "2024-03"
+researchers: []
+research_goals: []
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "User research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
-key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings: []
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Most users expect to receive an email confirmation when they submit the registration. Let's send them an email."
+  - "Tell people approximately how long until they receive a response, and by what method (mail? email?)."
+  - "Consider providing contact details and next steps, if they don't hear from the VA by a certain date."
+  - "Consider providing instructions on how to retrieve the application at a later date."
+  - "Consider providing instructions on how to update their information after they've submitted their application."
+  - "Remove formatting requirements like dashes, parens, etc. whenever possible."
+  - "If possible, customize addresses for each country or include extra lines for foreign countries."
+  - "Explain what the VA will use phone number, address, and email address for so users are able choose the right ones for them; many Veterans overseas have more than one of each."
+  - "Provide brief explanations in the content about mailing vs. home address and its relevance to the FMP."
+  - "Add helper text to the VA file number explaining what it is and who has one."
+  - "Add country code to the phone number, and remove limits on the number of numbers and the format."
+  - "On the review page, expand all the accordions or just lay out all the information on one page with no accordions."
+  - "Consider leaving 'select' in the 'suffix' field when no suffix has been added."
+  - "Tell users the benefit of signing on on the page where they are prompted to do so."
+  - "Consider suggesting changes to the content page to outline the benefits more concisely."
+  - "Consider this when working on the claims form and consider what information users may need in that context."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans overseas can easily complete and submit FMP registration with clear expectations and minimal confusion"
+  business: "Improved completion rates and reduced support burden for FMP registration form"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Email confirmation and communication"
+  - "Address formatting for international locations"
+  - "Program coverage clarity"
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
 ---
 
 # Preliminary Form Improvements: Form 10-7959f-1 (FMP Registration)

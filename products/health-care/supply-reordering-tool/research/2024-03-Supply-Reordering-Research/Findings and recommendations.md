@@ -1,95 +1,124 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "2024-03-Supply Reordering Usability Testing Research Findings"
+product: "Medical Supply Reordering Tool"
+team: "Medications and Supplies Pod"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-03-22"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Jenny Wang (yizhen.wang@va.gov)"
+  - "Kristen McConnell (kristen.mcconnell@va.gov)"
+  - "Jasmine Yohannan (Jasmine.Yohannan@va.gov)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Better understand how Veterans currently order and re-order medical supplies"
+  - "Evaluate if current digital form on VA.gov is user-friendly and easy to understand for Veterans"
+  - "Understand Veterans' reactions to and understanding of current digital medical supplies ordering tool"
+  - "Identify how Veterans are notified when prescribed medical supplies are eligible to reorder"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote usability and interview sessions on Zoom"
+  - "One task and direct questions"
+  - "Testing in staging environment with test accounts"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 2
+    smartphone: 2
+    assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  gender:
+    male: 8
+    female: 1
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 4
+    "65+": 5
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 3
+    associates: 1
+    bachelors: 0
+    masters: 2
+    doctorate: 1
+    unknown: 1
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 9
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 1
+    unknown: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All participants mentioned having notes, doing mental checks, or checking inventories to track when they need to reorder supplies"
+  - "Most participants (6 out of 9) clicked on 'Order hearing aid batteries and accessories online' link quickly without reading other information on page"
+  - "Most participants (7 out of 9) skipped instructions and wanted to sign in right away"
+  - "Even though no one was confused about permanent address and temporary address meanings, some participants (5 out of 9) showed confusion when they realized they needed to fill in or edit permanent address"
+  - "All participants able to finish order of hearing aid task, and most participants (7 out of 9) gave score of 4 and 5 for overall experience with 1 being hardest and 5 being easiest"
+  - "All participants found it easy to select supplies but 5 out of 9 showed confusion about differences between batteries and did not know what some supplies were"
+  - "6 out of 9 participants wanted to see only what they had ordered previously"
+  - "2 participants missed 'finish this later' link and weren't sure how to save form"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Iterate form steps flow so Veterans can place order quickly and confidently"
+  - "Evaluate necessity of verifying personal information when already logged in"
+  - "Evaluate necessity of filling in addresses when information already stored on VA Profile"
+  - "Understand why Veterans need to edit permanent address when it only applies to current order"
+  - "Investigate if DLC has data on when it's time for Veterans to submit order and retake tests"
+  - "Evaluate why Veterans need to select battery type when they only have one hearing aid"
+  - "Investigate if auto-reorder is available"
+  - "Work with DLC and providers to understand feasibilities of adding ability to change or request change for size, quantity, and brand of supplies"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Evaluate and improve medical supply reordering tool before adding more supplies"
+  business: "Prepare to make more supplies available for Veterans to reorder and reduce use of DLC's contact centers"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Automated notifications for reorder timing"
+  - "Simplified address verification flow"
+  - "Supply change request feature"
+  - "Auto-reorder capability"
+  - "Clearer supply descriptions and differences"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Plan and conduct second research to understand how Veterans associate medical supplies reordering with medications refill"
+  - "Collaborate with medications team and Cartography team to figure out how medical supplies reordering fits into MHV on VA.gov"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Cognitive disability"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat"
+  - "Gay, lesbian, or bisexual"
+  - "Desktop screen reader user"
+  - "Speech input technology users"
+  - "Hearing Aids"
+  - "Sighted Keyboard"
+  - "Captions"
+  - "Switch Device"
+  - "Braille Reader"
+  - "Assistive Technology users"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "EnjoyHQ"
 ---
 
 # [2024-03-Supply Reordering Usability Testing] Research Findings 

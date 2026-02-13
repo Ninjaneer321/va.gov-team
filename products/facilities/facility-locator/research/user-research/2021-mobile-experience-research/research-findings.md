@@ -1,95 +1,110 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Mobile Experience Research Findings"
+product: "VA Facility Locator"
+team: "Facilities Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-02-23"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Laurel Lawrence"
+  - "Christian Valla"
+  - "Shawna Hein"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how Veterans expectations for Find a VA Location search results differ for mobile vs desktop users"
+  - "Understand how industry standards impact Veteran expectations for the Facility Locator search experience"
+  - "Evaluate new designs created for geolocation, map view, and clear fields"
+  - "Validate if veterans are interested in using the map view of the Facility Locator (validate findings in the mobile month study)"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote usability testing"
+  - "Moderated task-oriented study via Zoom"
+  - "Prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 10
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 2
+    "45-54": 0
+    "55-64": 0
+    "65+": 8
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 10
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 6
+    rural: 4
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants had a variety of past experiences with the VA facility locator, from '...it was a nightmare' to '...it was pretty easy'"
+  - "Most participants did not utilize the 'Use My Location' link. A few did not notice it but said they might use it if they noticed it, a few do not want to use location services at all, and a few participants noticed it and thought it could be useful, but found it irrelevant to the task/scenario given to them"
+  - "Most participants did not use the 'x' icon to clear their address and retype a new address"
+  - "Choosing Facility type and Service Type was easy for most participants when given the task to look for optometry"
+  - "Most participants found both the list and map view to be useful depending on their circumstance"
+  - "About half the participants did not notice the map view on their own without prompting"
+  - "Most participants understood that they could tap on a pin to view details in the map, however after that, they didn't seem to understand overall how to dismiss and view other locations. Overall there was awkwardness in the way participants interacted with the new map view designs and switched between map and list views"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "If the team is implementing the 'Use my location' and 'Clear address' features, pay attention to analytics and whether or not they are being used. Consider further testing in staging or production to determine whether the features are prominent enough for those that want to use them"
+  - "Do not implement the new 'pin and swipable card' design that was tested"
+  - "Instead, consider an iteration to the design that does away with the tabs and has the map and list views more integrated with each other, where a veteran could more seamlessly switch between the two views. See Airbnb's responsive mobile experience or Google maps responsive mobile experience for examples"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Need to make 'Use My Location' feature more prominent for users who want to use it"
+  - "Clear field 'x' icon is not being noticed by most users"
+  - "Map and list view integration needs improvement for seamless switching"
+  - "Hours of operation and 'is this open now?' information needed on cards"
+  - "More filter options needed before search (radius in miles, service type first)"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Further testing in staging or production to determine whether 'Use my location' and 'Clear address' features are prominent enough"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+related_research:
+  - "Research Plan: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/research/user-research/2021-mobile-experience-research/research-plan.md"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Facility Locator"
+  - "DSC: Search Input"
+  - "DSC: Card"
+  - "DSP: Help users to navigate a long list"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "evaluative"
 ---
 
 # Mobile Experience Research Findings 

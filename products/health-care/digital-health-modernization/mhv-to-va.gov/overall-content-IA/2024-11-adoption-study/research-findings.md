@@ -1,95 +1,111 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "MHV on VA.gov Adoption of My HealtheVet Research Findings"
+product: "My HealtheVet on VA.gov"
+team: "Cartography team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-12-02"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Jonathan Nelson (jonathan.nelson@adhocteam.us)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "What hinders our users from discovering and returning to MHV on VA.gov?"
+  - "What unintentional friction are our users encountering on MHV on VA.gov?"
+  - "What information about new features on VA.gov might counter-balance the challenges associated with switching to the new portal?"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote interviews with Zoom"
+  - "Screen sharing demonstrations"
+  - "Task-based navigation observations"
+  - "Statement rating exercises"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 7
+    tablet: 0
+    smartphone: 3
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 2
+    "45-54": 7
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 4
+    associates: 0
+    bachelors: 2
+    masters: 3
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 7
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 1
+    hispanic: 0
+    biracial: 0
+    asian: 2
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants ignored the 'Try Me' banners on the My HealtheVet National Portal, scrolling past them."
+  - "Most participants generally understood the concept of the My HealtheVet to VA.gov transition, however, significant uncertainty remained regarding its practical implications."
+  - "Even among those who could conceptualize the transition, participants often conflated the My HealtheVet National Portal with My HealtheVet on VA.gov."
+  - "While participants identified ways to access My HealtheVet on VA.gov in the future, such as using bookmarks, the study highlighted challenges in navigating back to My HealtheVet on VA.gov."
+  - "Participants identified My HealtheVet on VA.gov as a familiar portal for health care, with most participants expressing positive views on the updates."
+  - "The secondary navigation proved effective in supporting both participant orientation and navigation amongst the various tools within the health portal."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Tailor banner content to align with the Veterans' immediate needs, such as highlighting benefits."
+  - "Consider refining the language in the banners' call-to-action to better distinguish between the My HealtheVet National Portal and My HealtheVet on VA.gov."
+  - "When possible, reduce banner overload."
+  - "Continue using clear, concise language to explain what the transition means for users in practical terms, such as changes in navigation, login processes, or new features."
+  - "Consider revising the branding, naming conventions, and messaging to emphasize the distinctions between the My HealtheVet National Portal and My HealtheVet on VA.gov."
+  - "Consider standardizing the destination of links across the global header, authenticated menu, secondary navigation, and My VA to ensure consistency and reduce user confusion."
+  - "Continue to improve the findability of My Healthevet on VA.gov."
+  - "Continue to maintain and potentially enhance this feature to further support Veteran orientation and navigation within the portal."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily discover, access, and return to My HealtheVet on VA.gov with minimal friction"
+  business: "Successful transition of users from My HealtheVet National Portal to My HealtheVet on VA.gov"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Banner engagement and effectiveness"
+  - "Naming conventions and branding clarity"
+  - "Navigation consistency across platforms"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "No further research needed"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "AT users"
+  - "Desktop screen readers"
+  - "Mobile screen readers"
+  - "Expats"
+  - "Members of the LGBTQ+ community"
+  - "Hispanic, Biracial, Native Americans"
+  - "People who use Speech Input Tech (Siri, Dragon)"
+  - "Hearing Aids users"
+  - "Sighted Keyboard users"
+  - "Captions users"
+  - "Switch Device users"
+  - "Braille Reader users"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
 ---
 
 # MHV on VA.gov Adoption of My HealtheVet Research Findings 

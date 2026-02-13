@@ -1,95 +1,109 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Research Findings for 2024-03 Dot Indicator and Slim Alert Usability Study"
+product: "My VA"
+team: "Authenticated Experience"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-04-03"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Matt Marino"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Determine the effectiveness of dot and badge indicators to draw attention to important updates and when it's appropriate to use each kind of indicator"
+  - "Test with assistive tech users and colorblind participants in order to determine the accessibility implications of the dot or badge indicator"
+  - "Gain understanding of how slim alert banners embedded in claims cards are interpreted by users in order to assess how we might use/improve them for My VA"
+  - "Document any other possible notification types or information that are important for Veterans which we could surface as personalized content for authenticated users"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated remote user testing"
+  - "Zoom sessions"
+  - "Three different prototypes of My VA created in CodePen"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 8
+    tablet: 3
+    smartphone: 4
+    assistive_technology: 14
+participants_total: 15
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 15
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 1
+    "45-54": 1
+    "55-64": 5
+    "65+": 7
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 3
+    some_college: 4
+    associates: 1
+    bachelors: 5
+    masters: 2
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 8
+    rural: 7
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 9
+    black: 3
+    hispanic: 2
+    biracial: 2
+    asian: 2
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 14
+    screen_reader_desktop: 4
+    screen_reader_mobile: 2
+    magnification_zoom: 9
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "The badge indicator was the preferred method of communicating healthcare updates on My VA, as opposed to dot indicators (9 of 15 participants, but only 11 actually assessed them)"
+  - "Veterans want more proactive communication about what impacts them personally - healthcare, claims, benefits, and events (12 of 15 participants)"
+  - "The majority of participants cited the next appointment card in the Health Care section of My VA as the first thing that stands out to them, not the dot indicator nor the badge indicator (8 of 15 participants, of 11 actually assessing them)"
+  - "The majority of participants correctly identified the meaning of 'We need more information from you' as featured on claims card alerts in the research study (9 of 15 participants, but only 11 actually assessed them)"
+  - "The majority of participants expressed desire to know more key information before filing claims (11 of 15 participants)"
+  - "The majority of participants indicated they were interested in being informed of VA news, events, alerts, and info about related Veterans organizations (8 of 15 participants)"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Badge indicators should be considered as an option for a new notification type to use for health care messaging and updates, and in turn added to the VA Design System so it can be consumed by other teams"
+  - "The slim alert for evidence requests on claim cards should be introduced to My VA, for the sake of better informing Veterans of when they need to act and provide more evidence/details, as well as consistency with the Claim Status Tool"
+  - "Notifications that matter most for Veterans should be elevated more than just these methods - something high-level (top of page, alert banners, navigation, etc.) that is displayed immediately to users when they've been authenticated"
+  - "Investigate how Veterans could benefit from regional, location-specific, and personalized VA events, news, and alerts being shown on My VA"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Solidify the VA.gov platform"
+  - "Enhance Veterans' personalized online experiences"
+  - "Present most relevant updates as quickly and clearly as possible on My VA"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans receive clear, timely notifications about important updates that require their attention"
+  business: "Improved user engagement with critical healthcare and claims updates on My VA"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Proactive communication about healthcare, claims, benefits, and events"
+  - "Regional, location-specific, and personalized VA events and news"
+  - "High-level notification methods beyond badge indicators"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Screen reader usability not properly assessed - further testing needed"
+  - "Insight into how to best surface important notifications beyond badge indicator or claim status slim alerts"
+  - "Other kinds of assistive technology and specific demographics not accounted for"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Immigrants (unknown number of participants)"
+  - "LGBTQ+ (unknown number of participants)"
+  - "Native (0 participants recruited)"
+  - "Cognitive disability (0 participants recruited)"
+  - "Other than honorable discharge"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Previous My VA research on personalized updates"
+  - "Material Design system patterns"
 synthesis_tools_used:
   - "Mural"
   - "Affinity Mapping"
+  - "EnjoyHQ"
 ---
 
 

@@ -1,95 +1,101 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VAMC VHA Mobile Redesign Discovery Research Findings"
+product: "VAMC Facilities"
+team: "Facilities Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-07-28"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Leyda Hughes"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "To understand how mobile clinics are being used across the country, so that we accurately represent them on VA.gov facility web pages"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "1-hour moderated individual or group stakeholder interviews over Teamsite"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 16
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 16
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 16
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 16
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 16
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Mobile clinics, events and services will not be adequately represented by the current model of 1 webpage per vehicle"
+  - "PAOs are apprehensive or resistant to adopting upgraded websites"
+  - "The list of Mobile clinics in VAST is inaccurate"
+  - "Communicating MMU/MVC deployment after an emergency may not be done consistently on VA.gov, or at all"
+  - "Collaboration between VHA and Vet Centers is inconsistent at best and needs work"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Create the ability for facility locator to surface events"
+  - "Get an updated list of all Mobile Units from emergency management, OR send out a mandatory survey to PAOs having them confirm or correct the MMU inventory"
+  - "Prototype design options and solicit PAO feedback - Offer PAOs multiple solutions driven by the service being offered"
+  - "Increase empathy and understanding for our internal users - More discovery work to understand PAO tools, processes, needs and pain points"
+  - "Vet Center and VHA collaboration issue: Identify the entity most receptive to responding to this finding and share"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Offer multiple solutions driven by the service being offered (recurring scheduled primary care, temporary event or emergency response, specialty service)"
+  - "Improve relationships with PAOs and create solutions that take their needs into account"
+  - "Get accurate list of mobile units from emergency management system"
+  - "Improve VHA and Vet Center collaboration"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "More discovery work to understand PAO tools, processes, needs and pain points"
+  - "More research is needed to understand the VHA and Vet Center collaboration problem and additional downstream effects"
+  - "Prototype design options and solicit PAO feedback"
+  - "User test ideas with PAO and Veterans"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: VA Staff"
+  - "AUD: Internal VA Stakeholders"
+  - "BNFT: Healthcare"
+  - "semi-structured-interviews"
+  - "discovery"
+  - "MHV: National Portal/Access"
 ---
 
 # Research Findings - VAMC VHA Mobile Redesign - Discovery

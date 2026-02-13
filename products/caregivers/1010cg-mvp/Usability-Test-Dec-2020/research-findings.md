@@ -1,95 +1,97 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Caregiver, Primary Caregiver/Secondary Caregiver Flow Research Findings"
+product: "Caregiver 10-10CG"
+team: "VSA Caregiver"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-01-04"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Jonathan Nelson"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Determine whether or not the updated designs of the 10-10CG form are usable, understandable, and easy navigate for Veterans and caregivers."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "Task-based usability study"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 4
+  service_members: 0
+  caregivers: 10
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 6
+    "45-54": 1
+    "55-64": 4
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 13
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 13
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Though there was some confusion, most participants were able to get through the caregiver flows with the correct information filled in"
+  - "A few participants were confused by the wording of the Primary Family Caregiver question (i.e. Would you like to add a Primary Family Caregiver?)"
+  - "The placement and content of the additional info component confused some participants (i.e. What's a Primary Family Caregiver?/What's a Secondary Family Caregiver?)"
+  - "Those that wanted to apply with only a secondary caregiver struggled somewhat"
+  - "Some participants found who can become a Secondary Family Caregiver and their role unclear"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Consider changes to the placement and design of 'Would you like to add a Primary Family Caregiver?' page"
+  - "Add clear, plain language content explaining who can act as a Primary Family Caregiver and Secondary Family Caregiver"
+  - "Update content in 'Additional info' components to 'Learn more about Primary Family Caregiver' and 'Learn more about Secondary Family Caregiver'"
+  - "Iterate on medical facility page - Enable the user to enter the medical facility information confidently and correctly"
+  - "(Re)explore allowing resubmission when error is triggered"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Caregivers"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "DSC: Form"
+  - "DSP: Ask users for names"
+  - "DSP: Contextual Help"
+  - "DSP: Error Message Guide"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "evaluative"
 ---
 
 # Caregiver, Primary Caregiver/Secondary Caregiver Flow Research Findings

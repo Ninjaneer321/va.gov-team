@@ -1,95 +1,108 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Facility Locator Search Expectations Research Findings"
+product: "Facility Locator"
+team: "VSA, Facility Locator"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2020-03-11"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Aricka Lewis"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how many results users expect to be returned for a healthcare related search"
+  - "Understand how search results are impacted by geographic setting (urban/rural)"
+  - "Understand what geographic area users expect the map to show by default"
+  - "Understand how users expect to interact with the map to change their search results"
+  - "Understand how facility type impacts expectations"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 4
+  service_members: 0
+  caregivers: 1
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 2
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "The expected number of search results varies based on geographic location."
+  - "The most likely use-case for the Facility Locator is when a person is traveling or researching an unfamiliar area."
+  - "Participants did not refer to the Facility Locator when seeking help for a specific issue."
+  - "The map is a secondary source for users to find a location."
+  - "Participants are more likely to look for VA Medical Centers than non-VA locations."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Add 'search this area' functionality to map"
+  - "Show 5 results on first page"
+  - "If user moves map, require them to re-search"
+  - "Add filter for 'within x miles'"
+  - "Brainstorm new card labels"
+  - "Include a 'you are here' (similar to google maps) on map"
+  - "Update labels to distinguish VAMCs"
+  - "Include information on regional offices for benefits help"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Benefits help offices are often far away from a user's location"
+  - "There is a need for Caregiver specific information"
+  - "Participants depend on the name of a facility to inform their search"
+  - "Participants want to know what services are available at a facility"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Get a better understanding of how/when Veterans interact with and visit certain facilities and how they fit into the overall Veteran Health Journey"
+  - "Prepare for accessibility testing"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: Facility Locator"
+  - "DSC: Search Input"
+  - "HDW: Desktop"
+  - "usability-testing"
+  - "evaluative"
 ---
 
 # Facility Locator Search Expectations Research Findings 

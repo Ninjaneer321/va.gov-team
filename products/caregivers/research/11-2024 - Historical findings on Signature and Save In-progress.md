@@ -1,95 +1,107 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Historical Findings on 10-10CG Signatures and Save In-progress"
+product: "10-10CG Caregiver Application"
+team: "Caregivers"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-11-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Caregivers Team"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Document historical discovery and research findings from original 10-10CG form development"
+  - "Capture signature implementation decisions and considerations"
+  - "Document Save In-progress functionality exploration from 2019-2020"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Historical document review"
+  - "Discovery research synthesis"
+  - "Stakeholder meeting documentation review"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: "N/A - Desk research"
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "October 2019 discovery work explored signature requirements prior to form launch on VA.gov"
+  - "Checkbox signature solution considered for 526 form required both Veteran and Witness present when checking box"
+  - "Historical VA practice used checkbox signatures with re-authentication to verify identity but this is no longer used"
+  - "February 2020 stakeholder discussions addressed multiple signature requirements for 10-10CG form"
+  - "Multiple workflows were proposed for handling signatures from Veteran, Primary Caregiver, and Secondary Caregiver"
+  - "Workflow B for signature handling was discussed but never implemented"
+  - "Save In-progress functionality was explored during October 2019 discovery phase"
+  - "Form complexity with multiple signatories created unique challenges for Save In-progress implementation"
+  - "Historical documentation provides context for current signature and save functionality decisions"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Reference historical findings when considering changes to signature workflow"
+  - "Review October 2019 discovery documentation before implementing new signature features"
+  - "Consider lessons learned from Workflow B proposal that was not implemented"
+  - "Evaluate historical Save In-progress exploration when planning future enhancements"
+  - "Maintain documentation of signature implementation decisions for future reference"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Support informed decision-making for form improvements"
+  - "Preserve institutional knowledge about signature implementation"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Future form improvements benefit from understanding of historical signature and save functionality decisions"
+  business: "Institutional knowledge preservation enables better decision-making and avoids repeating past exploration work"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Leverage historical research to inform future signature workflow improvements"
+  - "Apply lessons learned to other multi-party signature scenarios"
+  - "Use historical context to evaluate new Save In-progress feature requests"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Current user research on signature workflow usability"
+  - "Evaluation of whether historical decisions still align with current user needs"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "No primary research conducted - historical documentation only"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "October 2019 Caregiver Discovery Sprint documentation"
+  - "Example checkbox solution from 526 form"
+  - "Carnetta Scruggs signature research"
+  - "February 2020 stakeholder check-in deck"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Document review"
+  - "Historical research synthesis"
 ---
 
 # Historical findings on 10-10CG Signatures & Save In-progress

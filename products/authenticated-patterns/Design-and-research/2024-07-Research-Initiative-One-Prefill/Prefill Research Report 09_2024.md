@@ -1,93 +1,114 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Research Findings for AEDP Prefill Study"
+product: "Authenticated Experience Design Patterns"
+team: "Authenticated Experience Design Patterns Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-09-25"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Christine Rose Steiffer"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand where and when users need the prefill alert to appear"
+  - "Understand how users expect the prefilled data to display"
+  - "Understand users' expectations around why certain data can be edited within their profile and other data cannot"
+  - "Understand how users expect the edit process to work, look like, where they expect their edits to get saved, and if they want to be asked where to save their data"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability study"
+  - "Remote sessions over Zoom"
+  - "Codespace prototype for enhanced interactivity"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 2
+    tablet: 0
+    smartphone: 8
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 1
+    "45-54": 1
+    "55-64": 1
+    "65+": 6
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 3
+    associates: 1
+    bachelors: 2
+    masters: 4
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 2
+    rural: 8
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 9
+    black: 1
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans don't understand what is meant by 'profile data' and some conflate VA.gov data with their method of authentication (Login.gov, ID.me or MHV)"
+  - "Veterans want to see the prefill alert at the top of the Intro page, on the prefill confirm page, and on the edit prefilled data page"
+  - "Bolding the word 'Note' at the beginning of an important text block draws more attention to the information"
+  - "There was a slight preference of the gray card style over the address component style, but the results are not conclusive"
+  - "Understanding why they can't update certain information on the site helps Veterans to build trust with the VA"
+  - "While most people expected their updates to save to their profile, many could think of examples of when they might want to choose whether the update saves to the just form or to their profile as well"
+  - "While some people wanted the ability to edit on the same page, most people expected the 'Edit' button to take them to a new page"
+  - "The option to edit 'old' data within the form field itself was widely preferred on the edit page"
+  - "It is not always clear to people the difference between the autosave feature and updates to their prefilled data"
+  - "The process of signing in is difficult and confusing"
+  - "Sharing a prototype on mobile is hard"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Add language to the alert that makes it clear where their information comes from and is saved"
+  - "Create guidance advising pattern users to include the alert at the top of the form intro page, as well as on Prefill check pages that show editable prefilled information"
+  - "Use the bolded word 'Note' only once on the page on the most important element"
+  - "Test a variation in the next research study that shows a gray card for locked data and a white card with a border for data that is editable on the Prefill check page"
+  - "Work with CAIA to improve the instructions around updating locked personal information"
+  - "Test variations (with non-AT and AT users) in upcoming Prefill Study: one that allows people to select where their updates get saved, one that includes edits from the Review page, one that includes a gray card with locked data and white with border for editable data"
+  - "Work with the Veteran Facing Forms team as they study the autosave feature and how people understand it in relation to editing their prefilled data"
+  - "Share findings around sign in difficulty with appropriate VA design teams"
+  - "Work with Perigean to improve instructions or method for working with users that will share on a mobile device"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Pattern: Know when their information is prefilled"
+  - "Pattern: Update their prefilled information"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily understand and manage their prefilled data in VA.gov forms"
+  business: "Consistent prefill pattern guidance across VA.gov forms"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Profile data source clarification and disambiguation from authentication services"
+  - "Sign-in process improvement"
+  - "Autosave feature clarity"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Continue Update Prefill pattern research study"
+  - "Test with assistive technology users"
+  - "Test gray card vs white card variations"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "LGBTQ+ representation unknown"
+  - "Assistive technology users not included"
+  - "More diverse racial representation needed"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Previous authenticated patterns research"
 synthesis_tools_used:
+  - "EnjoyHQ"
   - "Mural"
   - "Affinity Mapping"
 ---

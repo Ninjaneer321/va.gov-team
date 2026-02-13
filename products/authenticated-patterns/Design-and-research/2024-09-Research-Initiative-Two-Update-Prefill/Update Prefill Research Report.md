@@ -1,93 +1,117 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Research Findings for AEDP Update Prefill Study"
+product: "Authenticated Experience Design Patterns"
+team: "Authenticated Experience Design Patterns Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-12-12"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Christine Rose Steiffer"
+  - "Kristen Faiferlick"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how users expect their prefilled data to be displayed across a given form"
+  - "Understand user expectations around what the prefill alert should look like across different pages"
+  - "Understand how users expect the edit process to work and where they expect their edits to get saved"
+  - "Understand user expectations around why certain data can be edited within their profile and other data cannot"
+  - "Understand user expectations of a confirmation step before submitting forms with prefilled data"
+  - "Determine if the current unauthenticated prefill alert entices users to sign in"
+  - "Learn more about user understanding of the source of their prefilled data"
+  - "Determine the best way to display the last 4 digits of a user's SSN"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability study"
+  - "Remote sessions over Zoom"
+  - "Codespace prototype for enhanced interactivity"
+  - "3 different tasks across 3 different forms"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 3
+    tablet: 3
+    smartphone: 3
+    assistive_technology: 4
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 1
+    "55-64": 3
+    "65+": 4
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 1
+    associates: 0
+    bachelors: 4
+    masters: 2
+    doctorate: 0
+    unknown: 1
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 9
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 2
+    black: 1
+    hispanic: 0
+    biracial: 2
+    asian: 1
+    native: 1
+    unknown: 2
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 4
+    screen_reader_desktop: 1
+    screen_reader_mobile: 0
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "There was a slight preference for the gray card over the white card, but it was clear that users preferred the card style over the review style for prefilled data pages"
+  - "Users appear to experience alert fatigue from repeated alerts across multiple form pages, and they tended to only read text that was bolded in alerts"
+  - "Most users wanted to see updates saved to their profile, but some could name instances where they may want to save to the form only. Many liked the option to choose between the two"
+  - "When reviewing how to update their uneditable data, a slight majority of participants preferred seeing the text string over the Additional info component"
+  - "Users preferred seeing all their information on the review screen, regardless of whether it could be edited or not"
+  - "Most users read and understood the benefits explained in the unauthenticated prefill alert"
+  - "Most users understood that their data was coming from their VA profile, but there was still some confusion about the distinction between the VA profile and Login.gov or their ID.me accounts"
+  - "Users didn't organically notice the difference between how the Social Security number was displayed between tasks. When reviewed side-by-side, there was a slight preference for the 'Last 4 digits...' format"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Utilize the white card to display both uneditable and editable prefilled information"
+  - "Remove the prefill alert from pages with editable data in white cards"
+  - "Recommend changes save to profile in most cases, but provide an alternative UI for teams that want to allow the choice for changes to save only to the form"
+  - "On forms that save changes to profile, display a simplified alert with a clear header indicating the changes will save to both the form and their profile"
+  - "On forms that allow the user to choose where changes will save, display the question with a radio button under the card and do not display an alert"
+  - "Display instructions to update editable information as a text string"
+  - "Include both editable and uneditable information on the review page, along with an additional information component that, when expanded, explains why certain information is not editable on VA.gov"
+  - "Maintain the current unauthenticated intro page alert as-is and include it in our recommendations in the Prefill pattern"
+  - "Help solidify Veteran understanding of what their profile contains, and further disambiguate the various authentication platforms from VA.gov profile information"
+  - "Update guidance for SSN field text to display as 'Last 4 digits of Social Security number'"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Help users know how their information is updated"
+  - "Help users know when their info is prefilled"
+  - "Help users to check answers"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can efficiently update their prefilled information with clear understanding of where changes are saved"
+  business: "Consistent prefill pattern across VA.gov reducing user confusion and support requests"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Profile data source disambiguation between VA.gov and authentication providers"
+  - "Incomplete profile data requiring updates"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Use case where the user's profile has incomplete data and the cards showing prefilled data need to indicate that an update is required"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "More diverse gender representation needed"
+  - "Geographic location data not captured"
+  - "Screen reader users underrepresented"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Previous Prefill research study (July 2024)"
+  - "Previous Update Prefill research synthesis"
 synthesis_tools_used:
+  - "EnjoyHQ"
   - "Mural"
   - "Affinity Mapping"
 ---

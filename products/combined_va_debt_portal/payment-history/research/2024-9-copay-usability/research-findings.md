@@ -1,95 +1,111 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VHA Debt Portal Payment History Usability and Comprehension Research Findings"
+product: "VHA Debt Portal Payment History"
+team: "Debt Resolution Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-10-11"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Charlotte Cesana"
+  - "Megan Gayle"
+  - "Joseph Lee"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand usability (findability and navigation) and comprehension of revised information architecture of copay path of debt portal"
+  - "Understand comprehension of transaction detail additions including pending transactions"
+  - "Understand comprehension of medical copay detail additions surfaced sooner and whether information is helpful to Veterans"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Usability and comprehension testing"
+  - "Remote moderated interviews"
+  - "Evaluative research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 6
+    tablet: 0
+    smartphone: 4
+    assistive_technology: 1
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 3
+    "45-54": 0
+    "55-64": 1
+    "65+": 5
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 3
+    associates: 3
+    bachelors: 1
+    masters: 2
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 4
+    unknown: 1
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 2
+    hispanic: 1
+    biracial: 1
+    asian: 1
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 5
+    AT_beginner: 0
+    AT_advanced: 1
+    screen_reader_desktop: 0
+    screen_reader_mobile: 1
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Navigation and findability were excellent - Veterans could easily find information and knew which links to click for bill details and resolution"
+  - "Veterans correctly interpreted status differences between each facility copay bill (payable in portal, not payable since escalated to treasury, already paid)"
+  - "Copay detail page was overall well understood but could be improved - pending transactions described as unhelpful or confusing by 5 of 8 participants"
+  - "Prescription copay feedback was very positive - all information provided was described as helpful"
+  - "Outpatient care copay keeping section simple seems preferable - majority found department/clinic name, diagnosis name, and doctors name helpful"
+  - "Participants easily understood resolve page sections for pay online, by phone, by mail, in person, request financial help, and dispute bill"
+  - "Three participants who had not used debt portal before were not aware of all ways to resolve bill including requesting financial help"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Simplify copay details section or further differentiate information from current statement versus past statement (amount paid)"
+  - "Consider moving or removing pending transactions as majority of participants did not find them helpful especially without amounts"
+  - "Work with Lighthouse team and VHA stakeholders to further understand and refine data displayed for each type of copay transaction"
+  - "Add On this page component with anchor links to Pay, Request help, and Dispute the bill on Resolve page to address length concerns"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Veterans receive timely confirmation of payments made on debt portal"
+  - "Veterans can review payment history without waiting for next monthly statement"
+  - "Reduce confusion and frustration from inconsistent messaging about payments"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily understand their copay bills, view payment history, and take appropriate resolution actions with clear comprehension of transaction details"
+  business: "Reduced support calls and improved payment rates through clearer presentation of copay details, payment history, and resolution options"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Statement data surfacing and accessibility"
+  - "Pending transaction presentation and timing"
+  - "Copay description detail refinement"
+  - "Pay.gov integration improvement"
+  - "Financial help awareness for new users"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Validate how much variation is acceptable between online HTML statements and mailed/PDF statements"
+  - "Validate statement data from Lighthouse when more specific data available to test"
+  - "What copay description fields are helpful for inpatient copay details"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Beginner AT user"
+  - "Desktop screen reader users"
+  - "LGBTQ+ Veterans"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "VBA payment history study July 2024"
+  - "Medallia feedback data"
+  - "Previous debt portal usability studies"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Remote usability testing sessions"
 ---
 
 # VHA Debt Portal payment history: usability & comprehension study, September - October 2024

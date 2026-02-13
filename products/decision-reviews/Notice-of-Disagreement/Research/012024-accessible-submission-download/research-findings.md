@@ -1,95 +1,105 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Accessible Record of Appeal Submission Research Findings"
+product: "Notice of Disagreement"
+team: "Decision Reviews"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-01-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Eileen Chi"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate effectiveness and value of accessible submitted appeal page for Veterans using screen readers"
+  - "Understand how Veterans using screen readers are currently accessing and storing copy of appeal submission"
+  - "Understand where Veterans using screen readers expect to access and how they expect to use copy of submission"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Usability testing with assistive technology users"
+  - "Remote moderated interviews"
+  - "Two-version prototype testing on staging environment"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 9
+    tablet: 1
+    smartphone: 6
+    assistive_technology: 16
+participants_total: 16
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 16
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 4
+    "45-54": 2
+    "55-64": 2
+    "65+": 6
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 3
+    associates: 3
+    bachelors: 3
+    masters: 6
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 8
+    rural: 8
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 8
+    black: 6
+    hispanic: 2
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 5
+    AT_advanced: 7
+    screen_reader_desktop: 8
+    screen_reader_mobile: 6
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans found separate page for copy of submission redundant to confirmation page, and link language misled Veterans into believing form was not yet submitted"
+  - "Veterans prefer saving digital or physical copy of submission - if they saved a copy, they would not be inclined to return to page on VA.gov for that information"
+  - "Veterans found What to Expect Next section valuable and would want to highlight timeline for immediate expectations and rest of process"
+  - "Veterans using screen readers expect multiple methods of contact and prefer being notified by email"
+  - "Veterans use headings and search to navigate page, with mixed reaction to use of lower level headings"
+  - "Veterans using screen readers expect to receive PDFs from VA and rely on alternate methods to read them when inaccessible"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Give Veterans multiple options to save copy of submission including through email"
+  - "Set clearer expectations about process under What to Expect Next and move immediate time-related information higher on confirmation page"
+  - "Provide clear methods of communication and contact both to VA and from VA such as specific phone number or email VA would contact Veterans from"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Increase Veteran trust in reliability of VA digital products"
+  - "Improve accessibility of submission records for Veterans using assistive technology"
+  - "Enhance veterans personalized online experience"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily access and retain an accessible copy of their appeal submission for their personal records"
+  business: "Increased trust in digital appeal submission process and improved accessibility compliance for screen reader users"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Email delivery of accessible submission copies"
+  - "Improved PDF accessibility for screen reader users"
+  - "Multiple contact method preferences for blind and low-vision Veterans"
+  - "Digital evidence submission barriers for Veterans with vision impairment"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Additional research with blind Veterans who are not experienced with screen reader"
+  - "Research with blind Veterans and their family members or caretakers"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Immigrant origin Veterans"
+  - "Veterans with other than honorable discharge"
+  - "Transgender Veterans"
+  - "Nonbinary, gender fluid Veterans"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Reader mode accessibility testing"
+  - "PDF accessibility analysis"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Usability testing sessions"
+  - "Prototype iteration testing"
 ---
 
 # Accessible record of an appeal submission

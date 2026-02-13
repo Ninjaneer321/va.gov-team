@@ -1,95 +1,128 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Community Care Self-Scheduling - Usability and Concept Testing Research Findings"
+product: "VA Online Scheduling (VAOS)"
+team: "Appointments Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-08-29"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Appointments Research Team"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand what terms Veterans use to describe community care authorization process"
+  - "Identify where Veterans expect to find new and past referrals"
+  - "Evaluate ease of starting scheduling process from text message and task card"
+  - "Assess Veterans understanding of referral information and expiration dates"
+  - "Test ease of finding providers using filter and sort functionality"
+  - "Determine if Veterans expect to see providers that don't offer online scheduling"
+  - "Evaluate expectations around canceling community care appointments"
+  - "Assess expectations for VA staff follow-up if appointment not self-scheduled"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability testing"
+  - "Concept testing"
+  - "Contextual inquiry"
+  - "Remote sessions via Zoom with prototype"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 9
+    tablet: 0
+    smartphone: 4
+    assistive_technology: 6
+participants_total: 15
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 15
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 15
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 15
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 15
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 6
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 4
+    screen_reader_mobile: 0
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "One third of participants identified the community care authorization process as 'referral' while others used consult, request, authorization, or were unsure"
+  - "Before concept testing, participants expected to find new referrals in Appointments on va.gov or My HealtheVet, with more favoring My HealtheVet"
+  - "Participants weren't confident where to find past referrals but mentioned both Appointments and Medical Records"
+  - "Less than half of participants could find link to review all referrals in prototype, though majority could identify where to look for older referrals"
+  - "Majority of participants easily started scheduling from Appointments list task card, though 2 selected incorrect link"
+  - "Participants found expiration date helpful but many found the 310-day duration and wording confusing or misleading"
+  - "Participants navigated scheduling process easily overall but had challenges with filter tasks and screen reader navigation"
+  - "Participants understood referral introduction page but had questions about number of visits and additional information needed"
+  - "Filter pattern had no usability concerns but lacked conclusive evidence Veterans would use it without prompting"
+  - "All participants understood online scheduling filter was beneficial but expected to find all providers regardless of online scheduling availability"
+  - "Participants knew how to cancel appointments and understood no additional call was needed, though 1 would still call to confirm"
+  - "Majority said they'd expect VA to contact them if appointment not self-scheduled within 7 to 90 days via text, call, email, or push notification"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Continue using 'Referral' terminology as it had highest recognition among participants"
+  - "Consider changing Pending page title or adding dedicated Referrals tab if keeping referrals within Pending appointments"
+  - "Work with staff to create messaging/scripting to guide Veterans to correct location for referrals on VA.gov"
+  - "Consider including referrals access in Medical Records in addition to Appointments since past appointments disappear after 2 years"
+  - "Identify how omnipresent Start scheduling action and community care-specific action can coexist without confusion"
+  - "Consider new phrasing for expiration date in task card, possibly mirroring referral introduction page format"
+  - "Work with a11y experts to evaluate if benefit of next available appointment outweighs difficulty for screen reader users"
+  - "Determine content tweaks to help with questions about number of visits and simplify information about scheduling remaining appointments"
+  - "Consider if including filter and sort for MVP is worth engineering effort knowing not all Veterans would utilize this feature"
+  - "Continue to include providers that don't offer online scheduling in provider list"
+  - "Coordinate with VA Notify, IVC, VHA, and VA staff to schedule early follow-up reminders prior to existing 21-day text"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improve Veterans ability to self-schedule community care appointments"
+  - "Reduce time to appointment scheduling"
+  - "Reduce phone calls to scheduling staff"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily self-schedule community care appointments online with clear referral information and provider selection"
+  business: "Reduced burden on VA staff for community care appointment scheduling and improved Veteran satisfaction with scheduling process"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Veterans don't have strong mental model for finding referrals on VA.gov and will benefit from multiple access paths"
+  - "Additional provider information would help Veterans make informed choices (years of experience, languages, specialties)"
+  - "Notification and reminder preferences vary widely among Veterans"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Test updated filter pattern with real provider and patient data"
+  - "Further research on usability and content of notifications beyond appointment scheduling context"
+  - "Validate sort by recent locations feature with real user data"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Immigrant origin"
+  - "Asian Veterans"
+  - "Native Veterans"
+  - "Expat (living abroad)"
+  - "LGBTQ+"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "9 of 15 Veterans had used Appointments tool on va.gov"
+  - "13 of 15 Veterans had received community care"
+  - "14 of 15 Veterans used mobile devices, 1 used laptop"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Affinity mapping"
+  - "Moderator and observer notes synthesis"
 ---
 
 # Research Findings - Community Care Self-Scheduling

@@ -1,95 +1,97 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Ask VA: Assistive Tech – Form Research Findings"
+product: "Ask VA"
+team: "Ask VA VA.gov Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-08-29"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Tyler Gindraux"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Identify any barriers that could prevent Veterans who use assistive technology from asking a question through Ask VA"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability study"
+  - "Remote on Zoom"
+  - "Mocked sign in process"
+  - "Authenticated experience testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 6
+    tablet: 1
+    smartphone: 3
+    assistive_technology: 6
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 3
+    "55-64": 4
+    "65+": 2
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 4
+    associates: 0
+    bachelors: 2
+    masters: 3
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 4
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 2
+    hispanic: 1
+    biracial: 1
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 1
+    AT_beginner: 2
+    AT_advanced: 2
+    screen_reader_desktop: 2
+    screen_reader_mobile: 2
+    magnification_zoom: 1
+    speech_input: 1
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Most Veterans can easily complete the form without help, but struggle to imagine using Ask VA over another tool"
+  - "The progress bar can be useful as a consistent anchor on each page"
+  - "People seek a specific category and topic, and they would find it easier to choose from shorter lists"
+  - "Some people click continue instead of search or next (page of results) instead of continue"
+  - "Veterans consistently misinterpret the military postal code checkbox and the additional info doesn't help clarify"
+  - "It's not always clear to screen reader users when information is prefilled in the form"
+  - "The review and submit page is repetitive, particularly for screen reader users"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
-outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Remove postal code when we collect health facility"
+  - "Make it easier to distinguish between 'next' and 'continue'"
+  - "Remove US military postal code option if there's not impact on routing"
+  - "Move question to it's own accordion at the end of the review page"
+  - "Fix success message on the review page"
+  - "Add content to the confirmation page that explains signing back in if you're authenticated"
+  - "Add general time estimate before you start a new question"
+  - "Investigate error messages triggering early with keyboard navigation"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Test the dashboard with people who use assistive technology next"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "LGBTQ+ participants"
+  - "Native participants"
+  - "Participants who use hearing aids"
+  - "Participants who use sighted keyboard"
+  - "Participants who use captions"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Previous Ask VA research studies"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Mural - Research sessions"
+  - "Mural - Research synthesis"
 ---
 
 # Research findings for Ask VA: Assistive Tech – Form

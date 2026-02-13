@@ -1,95 +1,137 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Updating Contact Information, VSO Certifying Official and Attorney/Agent User Interviews, Research Findings"
+product: "Accredited Representative Portal"
+team: "Accredited Representative Facing Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "08/2024"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Rebecca Blakiston, rebecca.blakiston@adhocteam.us"
+  - "Ben Nguyen, ben@cityfriends.tech"
+  - "Danielle Oppendike, danielle.oppendike@adhocteam.us"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Determine the requirements of email address fields for both VSO Certifying Officials and Attorneys/Agents"
+  - "Determine the requirements of address fields for both VSO Certifying Officials and Attorneys/Agents"
+  - "Determine permissions for VSO Representatives and certifying officials"
+  - "Determine if public-facing VSO directories are a reliable source of truth"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Concept testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  accredited_representatives:
+    vso_certifying_officials: 3
+    attorneys: 3
+    claims_agents: 2
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 8
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 8
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 8
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Representatives use existing accreditation search tools but often encounter inaccurate data"
+  - "VSOs have different practices for updating contact information and the process is unclear to some"
+  - "Attorneys/agents find registration numbers useful but they call it their accreditation number"
+  - "Certifying officials want to easily search for their representatives"
+  - "VA email addresses mislead Veterans into thinking representatives work for VA. Some representatives use this email and some don't"
+  - "Representatives use multiple email addresses and want flexibility as to which are publicly visible"
+  - "Representatives use multiple addresses and want flexibility as to which are publicly visible"
+  - "Representatives don't understand why a home address is required and don't want it publicly visible"
+  - "Representatives use multiple phone numbers and want flexibility as to which are publicly visible"
+  - "Representatives may have other names they use that they want to be publicly visible"
+  - "Representatives have a variety of ways they serve Veterans not currently reflected on VA.gov"
+  - "Representatives are excited about the autonomy that this tool provides"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Communicate with representatives if/when the OGC accreditation search is sunset, and have a redirect strategy"
+  - "Continue to prioritize workflows that empower representatives to keep their information updated"
+  - "Before ARP goes live, ensure the permissions reflect both OGC policies and VSO practices"
+  - "In the My Dashboard, change the registration number label to accreditation number"
+  - "Allow certifying officials to see all representatives but allow them to filter to those who are singly accredited in the Manage Representatives screen"
+  - "Display VA email addresses automatically in the user's private profile as a non-editable field"
+  - "Require one primary email for OGC communications and allow users to select up to three email addresses to display publicly"
+  - "Allow users to select up to two addresses to display publicly while requiring one primary address for OGC communications and providing one additional optional address field"
+  - "Make the default setting for home addresses as hidden from public"
+  - "Require one primary phone number to be visible publicly while allowing users to input up to two phone numbers with the ability to elect which ones are displayed publicly"
+  - "Add a field for fax number"
+  - "Expand capacity in the names section and allow users to add a preferred name and any previous names used"
+  - "Allow users to indicate how services are offered: Fully remote, In person, or Hybrid"
+  - "Provide representatives with confirmation messaging when information is updated. For example, providing a preview of what their profile will look like on VA.gov"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Number of transactions processed during our products have increased by 25%"
+  - "All new products have a faster transaction time than those they replaced"
+  - "No transactions accepted by our products have a fatal error"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "User interviews will inform adjustments to setting required fields, and/or adding additional fields for physical, mailing, and/or email addresses in the Accredited Representative Portal. Insights from user interviews will inform design decisions for a self-service experience where representatives can update their own information in the Accredited Representative Portal."
+  business: "Feedback from representatives about public-facing VSO directories will reveal pain points (if any) around data accuracy and/or insufficient information. This will reduce errors, speed up the process, and save OGC time."
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Empower representatives to keep their information updated to reduce inaccurate data"
+  - "Provide autonomy to representatives which will reduce manual processes facilitated by OGC"
+  - "Improve flexibility for representatives to control which contact information is publicly visible"
+  - "Better reflect the variety of ways representatives serve Veterans on VA.gov"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Recruit and conduct further research on certifying officials. In this round of research, we were only able to speak with a few certifying officials. By interviewing more certifying officials, we can get a better idea of their pains and needs to develop a substantial user persona. We still have not spoken to any Tribal certifying officials."
+  - "Explore how certifying officials search for representatives and test current search fields and filters. The certifying officials we spoke to mentioned organizing representatives by county. Future research can discover which fields and filters are useful for searching for representatives."
+  - "Explore further ways to provide autonomy to representatives which will reduce manual processes facilitated by OGC. It is clear from our research that representatives enjoyed the autonomy that ARP could provide. We are only scratching the surface and further research with more certifying officials, attorneys, and agents can identify any room for growth."
+  - "Conduct research on cultural nuances. In our research, we discovered that representatives may use different names and sometimes have a preferred name. This can be because they have names in different languages. Some languages do not use a middle name so this label may not be inclusive. Exploring if and how this affects their public profile will promote inclusivity and accessibility."
+  - "Explore how the updating contact information workflow can intersect with other workflows such as Form 21-22 and Form 21a"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Non-Veteran accredited VSO Representatives"
+  - "Small- and midsize national VSO Organizations"
+  - "Regional accredited VSO Representatives"
+  - "Tribal accredited VSO Representatives"
+  - "Assistive technology users (any)"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Review of OGC accreditation search tool"
+  - "Review of Find a Representative page"
+  - "Stakeholder consultation with OGC"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "EnjoyHQ"
+  - "Mural - User interview notes and debrief for attorneys and claim agents"
+  - "Mural - User interview notes and debrief for VSO Certifying Officials"
+  - "Mural - Key Findings Brainstorm"
 ---
 
 # Research Findings for ARF Team, Updating Contact Information, VSO Certifying Official and Attorney/Agent User Interviews, 08/2024

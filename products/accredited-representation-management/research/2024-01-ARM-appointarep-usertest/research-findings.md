@@ -1,95 +1,111 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "ARM Team - Authenticated Appoint a Representative Form User Test Research Findings"
+product: "Accredited Representative Management (ARM)"
+team: "Accredited Representative Management Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-01-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Janelle Finnerty"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand Veterans' motivations for seeking representation, why they selected their representative, and their experiences with representation"
+  - "Understand usability of authenticated Appoint a Representative flow (21-22/21-22a forms) on both desktop and mobile devices"
+  - "Identify pain points and opportunities for improvement in representative appointment process"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interview"
+  - "Usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 0
+    smartphone: 3
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 2
+    "45-54": 1
+    "55-64": 1
+    "65+": 2
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 1
+    associates: 2
+    bachelors: 2
+    masters: 2
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 2
+    hispanic: 0
+    biracial: 1
+    asian: 0
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 1
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans seek representatives for claims expertise, avoiding filing errors, peer recommendations, and time efficiency in navigating complex VA processes"
+  - "Peer referrals and online searches are primary discovery methods; paid representation options frequently considered for complex claims"
+  - "Communication preferences vary by Veteran; in-person meetings valued for trust-building while email preferred for off-hours accessibility"
+  - "Veterans lack awareness of different types of accredited representatives; confusion between VSOs and attorneys common; misconceptions about being 'assigned' representatives"
+  - "High desirability for Find a Representative feature but awareness and discoverability limitations exist on VA.gov"
+  - "Representative widget and permissions pages need clearer legal context and explanations"
+  - "Contact information gaps (missing email) in representative widgets reduce confidence in reaching representatives"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Include pre-landing FAQ step explaining representative types, accreditation, and appointment processes"
+  - "Add widget disclaimer addressing that VA does not assign representatives to Veterans"
+  - "Provide legal context for permissions pages through CAIA collaboration to clarify implications"
+  - "Reduce drop-off by setting clear expectations about non-digital submission requirements upfront"
+  - "Add email to representative widget and enable contact export functionality"
+  - "Clarify VSO as Veteran Service Officer in search results and throughout experience"
+  - "Improve findability of Find a Representative tool through better navigation and search optimization"
+  - "Consider authentication pathways that reduce barriers while maintaining security"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans understand different representative options and can confidently appoint appropriate representation that meets their needs"
+  business: "Increased adoption of digital representative management tools and improved Veteran satisfaction with representative services"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Education about representative types and accreditation standards"
+  - "Improved discoverability of representative services on VA.gov"
+  - "Streamlined appointment process with clear expectations"
+  - "Better integration between Find and Appoint representative experiences"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Cognitive disability representation in user testing"
+  - "Other than honorable discharge status Veterans"
+  - "Immigrant origin Veterans"
+  - "Expat Veterans living abroad"
+  - "Hispanic Veterans"
+  - "Assistive technology users (all types)"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Cognitive disability"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Hispanic"
+  - "Assistive technology users (any)"
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Enjoy HQ"
+  - "Team Ideation Mural"
 ---
 
 # Research Findings for ARM Team, Authenticated Appoint a Representative Form User Test, 01/2024

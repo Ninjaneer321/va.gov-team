@@ -1,95 +1,106 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Caregiver Sign as a Representative Round 2 Usability Research Findings"
+product: "10-10CG Caregiver Application"
+team: "Caregiver Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-04-20"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Shawna Hein"
+  - "Dené Gabaldón"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Validate the usability of the updated representative workflow"
+  - "Test the usability of the upload a document content and understand what types of documents the user would upload"
+  - "Determine if the cognitive understanding of Primary Family Caregiver versus Secondary Family Caregivers is improved"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability sessions via Zoom"
+  - "Task-based usability test in staging"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 4
+    tablet: 0
+    smartphone: 1
+    assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 2
+  service_members: 0
+  caregivers: 4
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 1
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 2
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 1
+    associates: 0
+    bachelors: 0
+    masters: 3
+    doctorate: 0
+    unknown: 1
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 3
+    rural: 2
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "The redesigned question page where participants answer if they want to upload documentation overall worked well, participants were much more comfortable moving through it than in the previous round of testing"
+  - "On the document question page, participants wanted more guidance about what counted as a representative document, and would have liked more details and examples"
+  - "The upload document page was fairly self-explanatory to most users. Participants who said they were representatives said they would have their documentation readily available"
+  - "The redesigned signature page caused confusion and wrong information (name) input"
+  - "The questions to add a primary or secondary caregiver still caused confusion with participants - the new language did seem to help a little bit, but it wasn't perfect"
+  - "The medical facility page continues to cause confusion for participants. Specifically, the first question asking where the veteran most recently received medical care caused issues"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Implement upload documentation question into the workflow"
+  - "Add additional content/example to help users understand what qualifies as a legal representative document"
+  - "Explore more options for the signature page"
+  - "Keep the new language for Primary/Secondary Caregiver, but improve the user experience by rethinking both the structure and copy of the question pages, potentially combining them and adding additional information about what each role entails and what the benefits are for each"
+  - "Consider putting medical facilities question on their own page or clarifying language about what is required or optional"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Many Caregivers live with the Veteran and/or use their contact information in place of the Veteran's - consider having a checkbox to select the same address, phone, and email"
+  - "Learn more about who qualifies as a Primary/Secondary Caregiver content needs improvement"
+  - "Social Security number showing fully on the Review page is a concern for users who use public computers"
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Caregivers"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "DSC: Form"
+  - "DSC: Form - File Input"
+  - "DSP: Ask users for files"
+  - "DSP: Ask users for signature"
+  - "DSP: Help users to check answers"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "evaluative"
 ---
 
 # Caregiver, Sign as a Representative Research Findings

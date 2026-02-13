@@ -1,95 +1,91 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Analytics Findings for ARM Team"
+product: "Accredited Representative Management"
+team: "Accredited Representative Management"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-02-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Janelle Finnerty"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Holistic view of representative ecosystem encompassing Veteran/claimant demographics, claim submission analytics, and web performance"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "PA&I data requests"
+  - "Publicly available reports analysis"
+  - "VBA team data requests"
+  - "Google Analytics review"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Demographics of Veterans with a representative closely match the overall Veteran population, except in race, where Black Veterans are 67% of those with representatives, compared to 13% in the total population"
+  - "Non-Veteran claimants, forming just 0.1% of representative claims, tend to be younger, particularly in the 35-44 age group"
+  - "Veterans appear to be actively seeking representative support, with 78% of Veteran claims having a representative on file, while only 4% of non-Veteran claims have a representative"
+  - "Disability claims are the top claim filed with a representative on file. Other than attorneys, which are two times more likely to support decision reviews than other claims"
+  - "VSOs are the top representative type, with DAV, AL, and VFW being the most documented organizations. It is notable that attorneys make up 41% of available accredited representatives, and are in the top 10 of digital submissions on QuickSubmit"
+  - "We have a lot of opportunity to grow in digital submissions with 78% of all claims submitted having a representative on file, but only 12.5% of those were submitted online"
+  - "We have an opportunity to consider cross flow embedment of the 21-22/21-22a since many packets being submitted have the 21-22/21-22a attached. Including Intent to File and the 21-526EZ form"
+  - "Both in interviews and web analytics we see a promising desirability for finding representatives on VA.gov. With 21-22 being in the top 15 search terms, and VSO in the top 50. As well as the current landing pages having on par traffic with top navigation links under Disability"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
-outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Continue to connect qualitative findings with quantitative efforts"
+  - "Potential for team brainstorming as needed, but no major steps necessary at this time"
+data_sources:
+  - "PA&I Request 1 and 2 (FY 2023)"
+  - "National Center for Veterans Analysis and Statistics, Veteran Population"
+  - "2017 Benefits Received by Veterans and Their Survivors, Census.gov"
+  - "OGC Accreditation Search"
+  - "QuickSubmit Data"
+  - "VBA Requests"
+  - "Google Analytics (01/2023 - 11/2023)"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "None at this time"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
 ---
 
 # Analytics Findings for ARM Team, 02/2024<a id="analytics-findings-for-arm-team-022024"></a>

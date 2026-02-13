@@ -1,95 +1,128 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Find Help on Contact Us - Research Findings"
+product: "Contact Us Page"
+team: "Veteran Support Crew & Content, Information Architecture, and Editor Experiences Crew"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-10-22"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Becky Phung"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand whether people can find the right support (answers or channels) to resolve their issues"
+  - "Understand how people choose phone numbers"
+  - "Understand what people expect on the Contact us page"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "Task-based testing"
+  - "Scenario-based evaluation"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 6
+    tablet: 1
+    smartphone: 3
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 3
+    "55-64": 4
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 2
+    associates: 3
+    bachelors: 2
+    masters: 2
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 4
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 2
+    hispanic: 1
+    biracial: 1
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 5
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "7 of 10 people scan for words related to their issue to find help and contact info"
+  - "4 of 10 people expected jump links to direct them to another page"
+  - "3 of 10 people weren't sure about purpose of Helpful online tools section"
+  - "4 of 10 people related Contact us online through Ask VA to chat support"
+  - "4 of 10 people misinterpreted Resources and support but understood FAQs"
+  - "2 of 10 people weren't sure how VA benefits hotline and VA health benefits hotline differ"
+  - "5 of 10 people prefer more direct phone numbers over general lines"
+  - "4 of 10 people prefer using search but searches aren't always successful on VA.gov"
+  - "8 of 10 people prefer talking to real people and online messaging (chat or email)"
+  - "Most participants couldn't find answers in each scenario"
+  - "People overwhelmingly don't have high expectations for phone calls"
+  - "Many people had positive experiences with VA secure messaging"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Add descriptions to phone numbers to better explain purpose of each VA number"
+  - "Update Contact us online through Ask VA heading to clarify what Ask VA is"
+  - "Add VA secure messaging link to page"
+  - "Update Helpful online tools heading to better explain purpose"
+  - "Add description to Helpful online tools section"
+  - "Identify top-used online tools and add them to page"
+  - "Reconsider order of Contact us page to be more topic-driven"
+  - "Split Contact us page into multiple pages"
+  - "Add search directly on Contact us page"
+  - "Update Resources and support to something more recognizable like Help"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Clicks on phone number links"
+  - "Clicks on Ask VA link"
+  - "Clicks to VA secure messaging"
+  - "Clicks to online tools"
+  - "Task completion rates on Contact us page"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can quickly find the right support channel or answer for their specific needs"
+  business: "Reduced contact center volume through better self-service and appropriate channel routing"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Improving search functionality on VA.gov"
+  - "Better organization of contact information by topic"
+  - "Clearer distinction between different support channels"
+  - "Integration of VA secure messaging into Contact us experience"
+  - "Multi-page Contact us experience"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Testing of topic-driven Contact us page organization"
+  - "Multi-page Contact us experience design and testing"
+  - "Search integration directly on Contact us page"
+  - "Testing of Resources and support rename to Help"
+  - "Research with assistive technology users"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Assistive technology users"
+  - "Veterans with other than honorable discharge"
+  - "Immigrant origin Veterans"
+  - "Asian Veterans"
+  - "Native Veterans"
+  - "Veterans aged 25-44"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Input from other teams and previous research"
+  - "Medallia responses"
+  - "Secure messaging comparative analysis"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "VA.gov Contact us page in production"
+  - "Zoom recordings"
 ---
 
 # Reseach findings for "Find help on Contact us" study

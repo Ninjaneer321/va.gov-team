@@ -1,95 +1,113 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Combined VA Debt Portal Exploratory Research Findings"
+product: "Combined VA Debt Portal"
+team: "Debt Resolution Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-02-28"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Charlotte Cesana"
+  - "Megan Gayle"
+  - "Joseph Lee"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand desirability of holistic debt portal experience and what Veterans would like to see"
+  - "Understand if combined nature of debt portal with copayment statements and overpayment debt in one place is desirable and easy to understand"
+  - "Compare current flow with overview page versus revised flow with all debts listed on one page"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Concept study"
+  - "Reaction cards for exploratory research"
+  - "Remote moderated sessions"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 1
+    smartphone: 2
+    assistive_technology: 1
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 2
+    "45-54": 3
+    "55-64": 3
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 4
+    associates: 2
+    bachelors: 0
+    masters: 1
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 4
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 3
+    hispanic: 0
+    biracial: 2
+    asian: 2
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 6
+    AT_beginner: 0
+    AT_advanced: 1
+    screen_reader_desktop: 1
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans echoed desire for financial portal that is first and foremost easy to use and simple"
+  - "Participants all echoed that one stop shop includes convenience of doing most important actions in one place"
+  - "Feedback on personalization was mixed with some interest in having financial hub that surfaces content most important to participant"
+  - "Most participants thought Financial Resources and Financial Terms would be helpful"
+  - "All participants were excited about potential of mobile app and ability to manage VA bills and debt in mobile app"
+  - "When asked about Travel Pay many commented on difficulties both in person and online"
+  - "Almost even split between participants preferring different types of debt combined on one page versus having their own pages"
+  - "Participants highlighted importance of surfacing important information sooner to view, pay, track, understand bill and take follow-up action"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Continue to validate financial hub/portal feature ideas and test with prototypes"
+  - "Work with CAIA to update legacy financial literacy pages and incorporate them into financial hub"
+  - "Combine amount and place/type of debt on cards for screen reader users"
+  - "When link mentions specific type of debt it should take user to that specific place on Debt Portal not redirect to landing page"
+  - "Work with Pay.gov team to understand and improve user journey from Debt Portal to payment"
+  - "Deepen understanding of statement data available and explore ways to surface it in easier to locate manner"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Enhance Veterans personalized online experience"
+  - "Decrease Veteran confusion and time it takes to review, manage or resolve their debt"
+  - "Optimize Veteran experience and align to Veteran feedback"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily access and manage all VA debts and copays in one location with clear understanding of amounts owed and resolution options"
+  business: "Reduced support calls and improved payment rates through consolidated debt management experience that meets Congressional mandates"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Financial resources and educational content"
+  - "Mobile app functionality for debt management"
+  - "Travel pay integration"
+  - "Personalized financial hub experience"
+  - "Improved statement data accessibility"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Continue interviewing Veterans in different types of VA debt situations (benefits overpayments and medical debt)"
+  - "Test holistic financial hub features with prototypes"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Complete LGBTQ+ demographic information"
+  - "Hispanic Veterans"
+  - "Native American Veterans"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "2022 debt portal usability research study"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Reaction cards"
+  - "Semi-structured interviews"
+  - "Concept testing with two flow variations"
 ---
 
 

@@ -1,95 +1,140 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Login.gov Adoption Discovery Research Findings"
+product: "Login.gov"
+team: "Identity"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-11-23"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Tyler Gindraux"
+  - "Kit Casey"
+  - "Samara Watkiss"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Explore how VA can successfully migrate existing users to Login.gov"
+  - "Understand how to onboard new users to Login.gov"
+  - "Determine when proactive intervention should encourage Login.gov account creation"
+  - "Understand what in-person support will enable Veterans to create and use Login.gov"
+  - "Understand how greatest number of Veterans can use multi-factor authentication options including security keys"
+  - "Understand how setting up and maintaining shared access might work for Veterans and non-Veterans"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Scenario validation"
+  - "Service prototype testing"
+  - "Contextual intercepts"
+  - "Veteran interviews"
+  - "In-person research at VA facilities"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 4
+    tablet: 2
+    smartphone: 8
+    assistive_technology: 0
+participants_total: 36
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 34
+  service_members: 0
+  caregivers: 2
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 2
+    "45-54": 2
+    "55-64": 2
+    "65+": 4
+    unknown: 26
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 3
+    associates: 0
+    bachelors: 2
+    masters: 3
+    doctorate: 1
+    unknown: 26
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 7
+    rural: 3
+    unknown: 26
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 3
+    hispanic: 2
+    biracial: 3
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Setting up new credential is frustrating if made to seem like a choice when it's required"
+  - "Knowing humanized and dedicated support is available motivates Veterans to setup and use credential"
+  - "Being identity proofed at another appointment is more convenient as start or end to account setup"
+  - "Veterans see security as VA's responsibility but are motivated to be careful if it affects benefits access"
+  - "Perceived ease of use and complex views on security inform Veterans' MFA choices"
+  - "Veterans will choose whichever login credential is most familiar or seems more direct"
+  - "Veterans don't think to share access until life altering events make it necessary"
+  - "Veterans prefer to set up Login.gov proactively when getting VHIC"
+  - "MHV Coordinators should guide CSP selection toward Login.gov during in-person proofing"
+  - "Offering in-person proofing option will increase Login.gov adoption"
+  - "Veterans need reassurance there will be no gap in My HealtheVet access"
+  - "Access to services outside VA is not the biggest selling point for Login.gov"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Explain need for Login.gov setup through consistent, contextual reminders emphasizing help and ease"
+  - "Help Veterans understand their role in ensuring continued VA services access and protecting fellow Veterans"
+  - "Make it easy to bundle identity proofing with existing appointments"
+  - "Provide in-person support with account creation and use, including identity proofing"
+  - "Help Veterans become familiar with Login.gov by making it an obvious default"
+  - "Recommend MFA options that are appropriate and meet each Veteran's specific needs"
+  - "Encourage Veterans to set up shared access early and help them review it often"
+  - "Provide dedicated, supportive help at every step"
+  - "Reach out to those who struggle with setup or use"
+  - "Add deadline to set expectations that Login.gov setup is not optional"
+  - "Be transparent about reasons for Login.gov migration to build trust"
+  - "Avoid using metaphors like 'master key' or 'portal' which cause confusion"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Increase Login.gov adoption among Veterans"
+  - "Reduce credential-related support calls"
+  - "Meet security compliance requirements"
+  - "Improve Veteran satisfaction with login experience"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans successfully migrate to Login.gov and can easily access My HealtheVet and other VA services"
+  business: "Achieve compliant single sign-on credentialing platform adoption across VA digital services"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "In-person proofing integration with existing appointments"
+  - "MHV Coordinator training and workflow integration"
+  - "Security key distribution and support"
+  - "Shared access features for caregivers and family members"
+  - "MFA education and selection guidance"
+  - "Dedicated support channels for Login.gov assistance"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Roadmap and implementation plan development"
+  - "Security key usability studies with target populations"
+  - "Shared access workflow research"
+  - "Homeless Veteran security key access research"
+  - "Non-Veteran shared access understanding research"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans with cognitive disabilities"
+  - "Native American Veterans"
+  - "LGBTQ+ Veterans"
+  - "Unhoused Veterans"
+  - "Veterans of immigrant origin"
+  - "Veterans with other than honorable discharge"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Login.gov existing research"
+  - "My HealtheVet usage patterns"
+  - "VA facility workflows"
+  - "MHV Coordinator interviews"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Scenario validation analysis"
+  - "Service prototype feedback"
+  - "Intercept data synthesis"
+  - "Hypothesis testing matrix"
+  - "Thematic analysis"
 ---
 
 # Login.gov Adoption Discovery Research Findings

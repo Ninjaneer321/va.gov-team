@@ -1,95 +1,111 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Medical Records on VA.gov Usability Study Round 2 (AT) Research Findings"
+product: "My HealtheVet on VA.gov"
+team: "MHV on VA.gov Medical Records Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-06-10"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Anne Costello Kennedy"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Identify usability issues Veterans experience accessing Care Summaries and Notes, Vaccines, Allergies, and Vitals records"
+  - "Identify what information Veterans expect to see within detail views"
+  - "Identify if Veterans understand information presented in list and detail views"
+  - "Identify if Veterans know how to print/download both individual records and lists of records"
+  - "Identify barriers for Veterans with mild to severe Cognitive Disabilities"
+  - "Identify barriers for Veterans who use Assistive Technologies"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability testing interviews"
+  - "Participants navigated staging environment and prototypes"
+  - "Observation of behavior with follow-up prompts"
+  - "Likert scale ratings for ease of use after each domain"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 19
+    tablet: 0
+    smartphone: 6
+    assistive_technology: 11
+participants_total: 25
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 25
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 3
+    "35-44": 5
+    "45-54": 3
+    "55-64": 7
+    "65+": 7
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 3
+    some_college: 6
+    associates: 3
+    bachelors: 6
+    masters: 6
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 12
+    rural: 13
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 15
+    black: 5
+    hispanic: 3
+    biracial: 0
+    asian: 1
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 17
+    AT_beginner: 0
+    AT_advanced: 14
+    screen_reader_desktop: 5
+    screen_reader_mobile: 0
+    magnification_zoom: 5
+    speech_input: 1
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All participants found a specific flu shot and most found the facility location for the shot"
+  - "Most participants understood where to find allergy information for vaccines and expected reactions in Provider notes"
+  - "Most AT-dependent and all non-AT-dependent participants found specific allergies in the list"
+  - "Most participants understood 'Signs and symptoms' and 'Observed' but fewer understood 'Historical'"
+  - "All participants found information on Vitals"
+  - "Many participants requested graph or chart display for vitals over time"
+  - "Most non-AT-dependent participants located records in Care summaries and notes easily"
+  - "Few AT-dependent participants found specific discharge summaries due to pagination issues"
+  - "Many participants requested plain language note titles"
+  - "Most participants understood how to print/download lists and individual records, preferring PDF format"
+  - "Most participants value direct access to medical records compared to Blue Button report"
+  - "Most participants rated Vaccines, Allergies, Vitals, and Print/download as easy or very easy"
+  - "Few AT-dependent participants rated Care summaries and notes as easy compared to most non-AT-dependent participants"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Explore feasibility of providing data visualizations to supplement numeric data for vitals over time"
+  - "Update code on Vitals, Vaccines, and Allergies list pages to make 'Back to top' button visible at 320px viewport"
+  - "Explore solutions to increase visibility of pagination to screen reader users"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improved access to medical records for Veterans with disabilities"
+  - "Increased satisfaction with direct record access versus Blue Button reports"
+  - "Enhanced usability for assistive technology users"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily access and understand their medical records directly without generating large PDF reports"
+  business: "Medical Records on VA.gov provides accessible experience for Veterans with cognitive disabilities and AT users"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Data visualizations for vitals trends would benefit Veterans with cognitive disabilities"
+  - "Pagination visibility improvements needed for screen reader users"
+  - "Plain language note titles would improve findability"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Retest usability of Care summaries and notes with more authentic data and dates"
+  - "Conduct discovery research on health literacy and medical terminology"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Additional voice control users beyond the 1 participant"
+  - "Screen reader users on mobile devices"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Medical Records Usability Round 1 from May 2023"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Mural for affinity mapping"
 ---
 
 # Medical Records in VA.gov Usability Study Round 2 (AT) Research Findings

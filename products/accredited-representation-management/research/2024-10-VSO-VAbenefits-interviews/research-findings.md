@@ -1,95 +1,99 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Research Findings for AR Team, VSO - VA Benefits (526ez, 686c, 674) - Interviews"
+product: "Accredited Representative Portal (ARP)"
+team: "Accredited Representation Management Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-10"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Janelle Finnerty (janelle.finnerty@oddball.io)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how VSO representatives prepare and file VA compensation disabilities claims (VA Form 21-526EZ) and dependent forms (21-686c, 21-674)"
+  - "Understand desirability of SEP replacement and features required for MVP adoption"
+  - "Understand VSO representative assistive technology (AT) user needs"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews with open-ended questions"
+  - "Recruitment targeting 9 VSO representatives with recent VA benefits claim experience"
+  - "Mix of Blind Veterans of America (BVA) AT users, SEP users, and non-SEP users"
+  - "Synthesis via EnjoyHQ and Mural affinity mapping"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 9
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 2
+participants_total: 9
+participant_type: "VSO Representatives (not Veterans)"
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
-  race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
-  disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+  participant_roles:
+    directors: 2
+    managers: 2
+    officers: 5
+  years_of_experience:
+    "0-4_years": 4
+    "5-9_years": 2
+    "10+_years": 3
+  accreditation:
+    singularly_accredited: 6
+    cross_accredited: 3
+  location_type:
+    in_person: 4
+    hybrid: 3
+    remote: 2
+  geographic_regions:
+    northeast: 3
+    midwest: 1
+    southeast: 1
+    southwest: 1
+    west: 1
+    remote: 2
+    states_represented: 7
+  assistive_technology_users: 2
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "VSO representatives' NUMBER ONE PRIORITY is speed and accuracy when supporting Veterans; they rely heavily on tools to speed up their process; for blind VSO representatives, tools maintaining and promoting autonomy through AT use are critical"
+  - "Non-VA VSO digital tools have 50-70% market adoption; VSO representatives have HIGH EXPECTATIONS and minimum requirements when adopting tools; biggest expectation is forms pre-fill with VA data and present section-by-section digital flow"
+  - "BIGGEST DRAW to ARP MVP is INSTANT ACCEPTANCE of all forms into VBMS; other options take hours to days or get lost; VSO representatives were open to minimal forms (21-22, 21-686c, 21-674) but commonly requested 21-0966 (ITF)"
+  - "MOST MENTIONED PAIN POINT is PDFs frequently upload blank and lack accessibility; secondary pain points include outdated forms in digital tools and document upload challenges"
+  - "HYPOTHESIS VALIDATION: All tested hypotheses confirmed or likely true; most important finding is VSO representatives ARE open to ARP adoption without 21-526EZ due to promise of instant VBMS submission"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "INCORPORATE PRE-FILL into MVP (including 21-686c dependent information) to meet SEP parity"
+  - "INCORPORATE ITF (21-0966) into MVP - top used form, submitted with POA, very short"
+  - "PDF CONSIDERATIONS: Strong QA needed (download, upload, accessibility); consider providing Adobe Acrobat to pilot participants"
+  - "DIGITAL FORM CONSIDERATIONS: Do NOT follow VA.gov one-question-per-page standard; block out form section-by-section instead"
+  - "BOTH PDF & DIGITAL: Provide document upload capability for supporting documentation; clarify when not required"
+  - "BOTH PDF & DIGITAL: Provide confirmation message and number once completed to confirm submission success"
+  - "EVALUATE EXISTING 21-686c FLOW: Current SEP multi-spouse flow deemed challenging and unusable"
+  - "COMBINE 21-674 WITH 21-674b as in current SEP"
+  - "POA REQUEST NOTIFICATIONS: Representatives need to receive notifications when POA requests come in"
+  - "AT ACCESSIBILITY: All features must work with JAWS, Apple, VoiceOver; all usable WITHOUT vision (signatures, upload)"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "97.7% of claims submitted with representative on file in FY 2023"
+  - "SEP users: 14,272 per month (01-11/2024)"
+  - "50-70% market adoption of non-VA VSO digital tools"
+  - "VetraSpec market share: ~4,500 VSO representatives (57% of market)"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "VSO representatives can submit forms instantly to VBMS; reduced manual tracking burden; accessible tools for blind VSO representatives maintaining autonomy; improved Veteran experience through reduced delays"
+  business: "Increased adoption over SEP through parity features plus improvements; replacement pathway for legacy SEP system; support for blind VSO representatives and Veterans; faster claim processing through reliable submissions"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Instant form submission to VBMS (major draw vs. current 3-6 week delays)"
+  - "Claim status tracking (currently time-consuming manual VBMS review)"
+  - "Consolidated 21-686c and 21-674b flows"
+  - "Widow benefits (21P-530EZ, 21P-534EZ) platform"
+  - "Decision review forms (20-0995, 20-0996, 10182)"
+  - "Supporting document repository"
+  - "PDF reliability and accessibility improvements"
+  - "Dedicated support for blind VSO representatives"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "To be determined based on team next steps"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "None - study included diverse VSO representatives including AT users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "GitHub research folder (accredited-representation-management research)"
+  - "VBA form submission analytics (last 6 months)"
+  - "PDF accessibility laws research"
+  - "Comparative tool analysis (SEP, VetPro, VetraSpec, Tyler Tech)"
+  - "VBMS demo video and walkthrough notes"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "EnjoyHQ"
+  - "Mural (affinity mapping and synthesis board)"
 ---
 
 # **Research Findings for AR Team, VSO - VA Benefits (526ez, 686c, 674) - Interviews, 10/2024**

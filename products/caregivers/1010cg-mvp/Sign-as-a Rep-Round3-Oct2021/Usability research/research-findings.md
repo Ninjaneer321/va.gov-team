@@ -1,95 +1,108 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VSA Caregiver, Representative and Primary Caregiver/Secondary for the 10-10CG form Research Findings"
+product: "10-10CG Caregiver Application"
+team: "Caregiver Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-01-21"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Dené Gabaldón"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Validate the usability of the updated representative workflow"
+  - "Validate if the new design and copy is likely to improve the percentage of accepted documents (Participants are aware that a medical stipulation is necessary)"
+  - "Validate that this question will not cause applicants to drop-off"
+  - "Validate that the updated design/copy better connects the representative question to the signature"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Task-based usability study"
+  - "Remote moderated sessions via Zoom using Perigean contract"
+  - "UXPin prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 8
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 3
+  service_members: 0
+  caregivers: 5
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 1
+    "45-54": 2
+    "55-64": 2
+    "65+": 2
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 3
+    associates: 0
+    bachelors: 1
+    masters: 4
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 3
+    rural: 5
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 2
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 1
+    unknown: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All participants moved through the who will sign selection without friction, and didn't indicate a likelihood of abandonment"
+  - "Some participants thought it would help them make a selection if the types of documents accepted/not accepted were listed on the who will sign question page"
+  - "Participants that did choose to sign as a representative moved through the document upload page without friction, and didn't indicate a likelihood of abandonment"
+  - "The updated copy that appears after the document upload is well-received. Participants didn't indicate any negative feelings, but rather appreciated the reminder"
+  - "The majority of participants demonstrated an awareness that the requirement of a medical stipulation specifically would be necessary to prove that a representative has legal authority to sign on behalf of the Veteran"
+  - "All participants recognized that the who will sign question has direct relationship to the signature of the application"
+  - "Similar to the Mental model and Content-specific comprehension study findings some participants think that the proof documentation comes from the VA and would like further instruction on how to obtain this document if they don't have it and need to sign on behalf of the Veteran"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Add what documents can/can't be accepted on the who will sign selector page"
+  - "Explore ways to better prepare a representative with the knowledge of the requirements for showing proof of legal authority to make medical decisions on behalf of the Veteran before they start the application"
+  - "Provide a path for those who don't have the paperwork, but need to obtain it"
+  - "As a greater initiative to improve the introduction page, make it more clear what document shows proof and how it's obtained, layout other requirements, and clarify requirements and expectations of a Primary vs. Secondary Caregiver"
+  - "In the future further studies should be done on staging or prod to ensure usability for mobile users and those who use assistive tech"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Caregivers and representatives can complete the 10-10CG application confidently with proper documentation"
+  business: "Increase acceptance rates of uploaded representative documents and reduce application abandonment"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Representatives need clearer guidance on acceptable documentation before starting the application"
+  - "Introduction page needs to better prepare applicants with requirements"
+  - "Medical facility section continues to cause confusion"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Test on staging or production to ensure usability for mobile users and assistive technology users"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Caregivers"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "DSP: Ask users for files"
+  - "DSP: Ask users for signature"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "usability-testing"
+  - "10-10CG"
+  - "evaluative"
 ---
 
 # Research Findings: VSA Caregiver, Representative and Primary Caregiver/Secondary for the 10-10CG form, January 2022

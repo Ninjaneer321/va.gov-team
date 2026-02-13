@@ -1,95 +1,137 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Research Findings: ARP Single Accredited VSO Officers 21-22 Accept/Decline User Testing"
+product: "Accredited Representative Portal (ARP)"
+team: "Accredited Representative Facing Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-05"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Renata Keck (renata.keck@agile6.com)"
+  - "Rebecca Blakiston (rebecca.blakiston@adhocteam.us)"
+  - "Kristen Faiferlick (kristen.faiferlick@adhocteam.us)"
+  - "Courtney Stubbert (courtney.stubbert@adhocteam.us)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand usability of Accredited Representative Portal (ARP) 21-22 flow on desktop with singly accredited Veterans Service Organization Representatives"
+  - "Understand singly accredited Veterans Service Organization Representatives' current POA processes and caseloads"
+  - "Test clarity of unauthenticated ARP landing page purpose and audience"
+  - "Evaluate sign-in experience and whether it meets VSO Representative expectations"
+  - "Identify which information is most valuable to VSO Representatives on POA Requests page"
+  - "Understand navigation categories clarity (About, Resources, Accreditation)"
+  - "Evaluate challenges with finding and accepting specific Veteran 21-22 requests"
+  - "Determine if Veteran information provided is sufficient for POA decision making"
+  - "Identify missing functionality for ARP v1"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews about current 21-22 process and pain points"
+  - "Usability testing with ARP prototype on desktop"
+  - "Preference testing with 4 mockups of unauthenticated landing page"
+  - "Net Promoter Score (NPS) survey"
+  - "System Usability Scale (SUS)"
+  - "Single Ease Question (SEQ) for each task"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 9
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 9
+participants_completed_tasks: 8
+participant_type: "Singly accredited VSO Representatives"
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
-  race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
-  disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+  organization_type:
+    big_6_vsos: 7
+    state_vsos: 2
+  big_6_breakdown:
+    disabled_american_veterans: 4
+    veterans_of_foreign_wars: 1
+    wounded_warrior_project: 2
+  state_breakdown:
+    nevada_dvs: 1
+    georgia_dvs: 1
+  vso_role:
+    national_service_officer: 6
+    transitioning_service_officer: 1
+    state_veterans_service_officer: 2
+  experience_years:
+    "1-3": 1
+    "4-6": 2
+    "10+": 5
+  geography:
+    georgia: 1
+    maine: 1
+    missouri: 1
+    nevada: 1
+    pennsylvania: 3
+    washington_dc: 1
+    virginia: 1
+  support_type:
+    in_person: 3
+    hybrid: 4
+    online_only: 2
+  office_location:
+    urban: 6
+    suburban: 2
+    rural: 1
+  service_record:
+    veterans: 9
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Singly accredited VSO Representatives primarily work at state, regional, or national level with smaller caseloads (tens to few hundred active claims) compared to other VSOR subtypes; may not accept POA without communicating with Veteran first"
+  - "Perceived usability high (4.63/5) but observed usability mixed (SUS score 51, below average 68); attributed to uncommon sign-in flow and task not conforming to use case"
+  - "Bulk accepting POA requests is NOT a use case for singly accredited VSO Representatives; large VSOs prefer to review each request individually; bulk work prone to errors affecting Veterans"
+  - "Accreditation not associated with daily work; singly accredited representatives do not associate accreditation or OGC with their daily work; large VSOs handle accreditation through administrative staff"
+  - "File/claim number and SSN are most desired search functions (CONFIRMED from prior research); these unique identifiers eliminate need to review multiple requests, especially for common names or large Veteran populations"
+  - "Need for system visibility due to trust issues (CONFIRMED); VSO Representatives have history of unreliable VA tools; they need confirmation at each step: searching, viewing, accepting/declining, and accessing e-Folder"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "CRITICAL: Exclude third-party tool users from pilot; Tyler Technology users should be excluded; pilot with SEP users and ARP-new users only"
+  - "CRITICAL: Update global navigation and site structure; streamline About menu; move Resources to footer; add 21-22 links to Power of Attorney menu; confirm Accreditation content with OGC; remove Veteran resources from POA page"
+  - "CRITICAL: Refine content strategy and CTAs; remove Veteran-facing content entirely from unauthenticated homepage; clarify who can apply for accreditation; explain ARP-OGC relationship; decide on 'OGC number' vs 'Accreditation number' labeling"
+  - "CRITICAL: Make sign-in clearer for PIV users; clarify that PIV users should select login.gov; most ARP users will be PIV users"
+  - "CRITICAL: Provide system status visibility; show when POA requests populated; confirm acceptance/decline actions recorded; display full SSN/DOB after POA accepted for CMS entry; provide notification when POA acknowledged by VA"
+  - "Update POA search capability; make search persistent; add last-4 SSN and DOB fields; explore claim number search; auto-clear search after action"
+  - "Improve POA request list readability; consider card format; expand results from 10 to 25/50/100/all; display SSN, DOB, contact info; deprioritize complex filtering"
+  - "Populate non-PII Veteran data on detail page; add POA history, current POA code, DOB/last 4 SSN, export/copy capability, PDF download, form auto-population"
+  - "Develop accepted/declined POA history; track and display history as failsafe; confirm VA acceptance; allow CMS input"
+  - "Reduce decline flow from 3-step to 2-step; eliminate confusion over Accept/Decline buttons; test in future iterations"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "OCTO Objective 1 Key Result 2: Number of transactions processed increased by 25% (ARP will increase POA processing transactions)"
+  - "OCTO Objective 1 Key Result 3: All new products have faster transaction time than those they replaced (ARP aims to provide faster POA processing than SEP/eBenefits)"
+  - "OCTO Objective 1 Key Result 4: No fatal errors (system reliability and visibility measures to ensure zero fatal errors)"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Singly accredited VSO Representatives can efficiently find and accept/decline individual POA requests with full information; instant e-Folder access upon acceptance; clear system confirmations at each step; reduced tool-switching"
+  business: "Successful pilot with singly accredited users; establish usability baseline for future iterations; validate core ARP 21-22 flow before expanding to cross-accredited users; redirect traffic from SEP to ARP"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Enhanced search capabilities with last-4 SSN and DOB filters"
+  - "System visibility and confirmation at each workflow step"
+  - "POA history and current POA code display"
+  - "Export/copy capabilities for VSO CMS integration"
+  - "Standardized decline messaging with customization options"
+  - "Auto-population of Intent to File on POA acceptance"
+  - "Direct VBMS integration and linking"
+  - "Mobile/tablet readiness for field work"
+  - "Cross-accredited workflow accommodations"
+  - "Geographic search options (zip codes, regions, bases)"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Benchmark usability scores across iterations using SEQ, NPS, task prompts"
+  - "Validate whether accreditation-OGC association gap extends to other VSOR types"
+  - "Understand geographic search needs for cross-accredited VSORs"
+  - "Determine which VSOR types use bulk accept flow"
+  - "Understand when and why users sort POA requests"
+  - "Test mobile/tablet use cases with cross-accredited representatives"
+  - "Explore ARP-VBMS direct linking feasibility"
+  - "Understand adoption of standardized decline messages"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Non-Veteran accredited VSO Representatives"
+  - "Small- and midsize national VSO Organizations"
+  - "Regional accredited VSO Representatives"
+  - "Tribal accredited VSO Representatives"
+  - "Assistive technology users (any)"
+  - "Cross-accredited VSO Representatives (only 1 of 9 participants)"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "02/2024 VSO User Interviews"
+  - "01/2024 Listening Session"
+  - "09/2023 Secondary Research Findings"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "EnjoyHQ (qualitative data management)"
+  - "Mural (user testing notes, debrief, persona development, IA mapping)"
+  - "SharePoint (task success metrics, key takeaways)"
+  - "Figma (prototype and preference testing mockups)"
 ---
 
 # Research Findings for ARF Team, Accredited Representative Portal, Single Accredited VSOfficers, 21-22 Accept/Decline User Testing, 03/2024

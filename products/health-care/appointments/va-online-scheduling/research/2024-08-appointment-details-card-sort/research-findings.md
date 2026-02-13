@@ -1,95 +1,109 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Appointments Details Card Sort Research Findings"
+product: "VA Online Scheduling"
+team: "Appointments"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-12-18"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Christina Gednalske"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how Veterans mentally organize appointment information"
+  - "Identify category structures that align with Veterans' mental models"
+  - "Determine which categories and information types are most important to Veterans"
+  - "Identify information Veterans expect but may be missing from appointment details"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Unmoderated card sort"
+  - "Category importance ratings"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 48
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 48
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 48
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 48
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 14
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 34
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 28
+    rural: 20
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 28
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    other: 20
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 18
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  gender:
+    male: 33
+    female: 15
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Certain categories emerged as more common, with appointment information, scheduling, canceling/rescheduling, and post-appointment information included most often"
+  - "Participants created categories that separated tasks/statuses from static appointment information"
+  - "For both upcoming and past appointments, participants created clearly defined appointment sections with similar information types"
+  - "8 participants created canceling/rescheduling categories, often separate from other tasks/information"
+  - "A small number of participants created categories for provider details, clinic information, location/reason, and modify/manage appointment"
+  - "5 of 24 participants for upcoming and 6 of 27 for past appointments numbered their categories by importance, indicating appointment information section is most important"
+  - "3 participants mentioned missing information for upcoming appointments (parking, medication reminders, appointment modification notices)"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Use identified categories as guidelines for organizing page information to better fit Veterans' mental models"
+  - "Continue to use a separate section for travel reimbursement and consider combining with other payment-related items"
+  - "Consider creating different section/treatment for pre and post-appointment tasks using notifications pattern"
+  - "Create a dedicated Appointments section that includes appointment information in a clearly called-out component separate from other information"
+  - "Continue to use a dedicated cancel/reschedule/make changes section"
+  - "Include smaller categories such as clinic information and provider details within bigger categories or as sub-categories"
+  - "Determine if any of the submitted missing items could be added to the Appointment details page"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improve Veteran experience with appointment details organization"
+  - "Reduce confusion about appointment information hierarchy"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can quickly find and understand appointment information organized according to their mental models"
+  business: "Reduced support calls and increased self-service for appointment management"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Explore if a notifications pattern can help surface pre/post-appointment tasks"
+  - "Consider how to make travel reimbursement and payment actions more discoverable"
+  - "Evaluate addition of parking availability and medication reminders"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Test proposed information architecture with Veterans"
+  - "Research whether category importance ratings align with actual usage patterns"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "LGBTQ+"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Previous research on appointment information expectations (2022-01-mhv-vaos-appts-list-discovery)"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
 ---
 
 # Research findings - Appointments details card sort

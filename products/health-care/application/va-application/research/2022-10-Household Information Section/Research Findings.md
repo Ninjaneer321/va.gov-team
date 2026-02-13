@@ -1,95 +1,110 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "10-10EZ Healthcare Application household information - Research Findings"
+product: "Health Care Application (10-10EZ)"
+team: "Caregiver Team (10-10 Team)"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2023-01-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Jessica Stump (jessica.stump@adhocteam.us)"
+  - "Nick Osmanski (nick.osmanski@amida.com)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Determine if the questions and additional information within the household information section is clear and actionable"
+  - "Determine if the financial onboarding page content is helpful and understandable"
+  - "Optimize the order and flow of questions within the household information section"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability study"
+  - "Interactive prototype"
+  - "Remote"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 4
+    tablet: 1
+    smartphone: 5
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 3
+    "45-54": 2
+    "55-64": 2
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 5
+    some_college: 3
+    associates: 1
+    bachelors: 1
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 10
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 1
+    black: 3
+    hispanic: 1
+    biracial: 5
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 5
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "There were a some areas of the application where participants mentioned examples where more information would be helpful for them to understand what they were being asked"
+  - "Most participants mentioned the process of gathering documents, one example the DD214, and/or adding numbers correctly to complete the annual and deductibles section and that this process could be a potential reason to pause the application or for it to take extra time"
+  - "Most participants thought adding a dependent was clear overall with nothing they would change or add, overall participants were successful to complete adding dependents"
+  - "Most participants thought the initial page of questions about their spouse were clear and understandable, but some had to pause or had questions regarding if their spouse lived with them or had the same address, they felt the question was repetitive or a confusing order"
+  - "Most participants answered that areas of the form were worded in a way that was clear and easy to understand - such as the Veteran information questions and the VA benefits and military service questions"
+  - "Most participants felt the order of questions flowed in a logical order and there were only a couple of small recommendations for changes"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Content review - adding more context where needed"
+  - "Refinement to multiple response pattern when editing dependent information"
+  - "Method for inputting multiple service periods"
+  - "Consider combining pages with only one field/task on them"
+  - "Consider switching financial onboarding page & yes/no question: yes/no should come before onboarding"
+  - "Conduct additional research on scenarios where applicant does not need to provide financial information"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Veterans feel prepared when they begin the household section and understand what is being asked of them"
+  business: "Reduce drop-off rate in household information section"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Rural"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat"
+  - "LGBTQ+"
+  - "Assistive Technology"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Rural"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat"
+  - "LGBTQ+"
+  - "Assistive Technology"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "UX audit"
+  - "Page analytics (GA)"
+  - "Domo Dashboard"
+  - "Medalia feedback"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Spreadsheet"
 ---
 
 # 10-10EZ Healthcare Application household information - Research Findings 

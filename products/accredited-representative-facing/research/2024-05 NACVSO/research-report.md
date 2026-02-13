@@ -1,95 +1,160 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "County VSO Representatives, NACVSO Intercept Studies Research Findings"
+product: "Accredited Representative Portal"
+team: "Benefits Accredited Representative Facing Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-05"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Rebecca Blakiston, rebecca.blakiston@adhocteam.us"
+  - "Kristen Faiferlick, kristen.faiferlick@adhocteam.us"
+  - "Renata Keck, renata.keck@agile6.com"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Build awareness of our work and establish rapport and trust with our users"
+  - "Better understand the specific needs, behaviors, workflows and permissions of county and cross-accredited VSORs"
+  - "Evaluate ARP accept/decline functionality and UI elements that may be impacted by county or cross-accredited representative-specific use cases"
+  - "Shadow county VSORs conducting claims clinics with Veterans and non-Veteran claimants to understand the representation process fully"
+  - "Information about current POA process and caseload will help determine improvements to the authenticated landing page and POA views to decrease cognitive load and facilitate smoother decision making"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Preference testing"
+  - "Talk-back boards"
+  - "Mobile usability testing"
+  - "Observational research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 105
+    tablet: 1
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 105
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  accredited_representatives: 105
+  county_VSORs: 104
+  former_accredited_attorneys: 1
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 105
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 105
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 105
+  states_represented: 20
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 105
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    visually_impaired: 1
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "County VSO Representatives are accredited through their state's Department of Veterans Services or NACVSO, support large Veteran populations, assist with multiple benefit types and wraparound services, may be limited to which Veterans they can support, and have various work contexts including in-office, Regional Offices, VA hospitals, Vet Centers, claims clinics, hospices, and in-home care"
+  - "The county-to-state relationship influences a CVSOR's workflows and geographic service area. States with centralized Department of Veterans Services may require CVSORs to forward all POA and claims to the state for final approval. Some counties restrict VSORs to supporting Veterans within that county only, while others grant POA at the state level or task CVSORs with supporting larger geographic areas"
+  - "Some third-party CMS tools provide quick establishment of POA already. VetraSpec allows quick POA process using Direct Submit (fast) or D2D (instantaneous). VetPro offers a fast POA process and is planning to pilot auto-establishment this summer. Tyler Tech is using the Benefits Claims API and POA submissions through ETK Veterans' Benefits was 1439 in May 2024 and through VetraSpec was 256"
+  - "CVSO Representatives want familiar search functionality, including the ability to search by the last 4 digits of the Veteran's Social Security number. Representatives want links to relevant tools, forms and valuable resources within ARP including the 21-0845 form, Code of Federal Regulations Title 38, M21-1 Adjudication Procedures Manual, and Defense Personnel Records Image Retrieval System (DPRIS). The tool needs to be easy to use and understand, especially for CVSORs who are less tech savvy"
+  - "While CVSOs are eager to adopt digital tools and improve efficiencies with the VA, Veterans' preferred interactions could affect ARP adoption. Many Veterans don't have or want a VA.gov account or ID.me login. Veterans may prefer a paper process and physical copies of forms over using digital tools. CVSORs want an option for Veterans to validate their identity that does not require a computer or an account to log in"
+  - "Most county VSORs are cross-accredited with their state, NACVSO, and at least one national non-profit Veterans Service Organization. Some states have relationships with national VSOs for statewide cross-accreditation. There are barriers to obtaining and maintaining cross-accreditations. CVSORs tend to focus on supporting the Veteran regardless of whether the POA is with their county or one of several organizations through whom they are accredited"
+  - "Most CVSORs use PIV for logging into systems. Representatives have hesitations around requiring PIV for login due to time, cost, and the PIV cliff. CVSORs have challenges with setting up ID.me for themselves and for the Veterans they support"
+  - "CVSOs use a variety of tools to support their Veteran- and VA-facing work. Licenses for tools and software may be provided by the state or granted on a county-by-county basis. VetPro offers quick POA submission and efficient fuzzy search but has high cost per seat and file size limitations. VetraSpec offers quick or near-instantaneous POA submission through Direct Submit or D2D but has high cost and file size limitations. SEP is only used by a handful of CVSORs. VBMS was used by all CVSORs spoken with"
+  - "Veterans do not understand the letters and updates they receive about their claims. Many Veterans turn to Reddit and other online Veterans communities for support and advice. Some Veterans don't receive the rating they deserve because service connectedness is questioned. Some VSOs have poor reputations among some Veteran communities. There are challenges when a Veteran passes away"
+  - "CVSORs have many processes for submitting POAs, ITFs, and claims. CVSORs tend to set expectations with the Veterans they support at the time they establish POA. Knowing whether a Veteran has existing cases or POA through another representative prior to establishing POA is critical. Some CVSORs will always submit an ITF with the 21-22, while others do not. Some CVSORs might never decline a POA request because they don't have permissions or authority to do so"
+  - "VSORs are not allowed to sign the first claim, which is particularly a pain point when a Veteran is incapacitated or in hospice. The suspense date is sometimes inaccurate in VBMS, resulting in claims taking longer to review than expected. Claims can get stuck in the VA system for long periods of time. Contract examiners and community care appointments can be challenging"
+  - "For preference testing, Homepage 1 and 2 had the most positive feedback from 20 participants. Homepage 4 was created incorporating hero banner from H2 and content blocks from H2, shifting headings to black text to improve readability and removing poor color contrast"
+  - "For POA requests page, 27 participants gave feedback and version A2 had the most positive reception. Users overwhelmingly prefer search and filter functionality on the left side of the POA requests list due to functionality, visibility, and familiarity. Users did not prefer simplified filtering patterns over all filter fields displayed at once. Users want additional Veteran/claimant information such as file/claim/Social Security number or birthdate to distinguish between Veterans with common names"
+  - "For decline messaging, 5 users gave feedback. 3 preferred drop-down with standardized responses for simplicity and data collection, while 2 preferred free-form for ability to add context and customize details"
+  - "Participants found the navigation content titles to be helpful and clear, in particular the Accreditation and Profile titles. Many participants expressed that they do not rely on the footer for navigation with one exception for VA forms hyperlink"
+  - "No participants were interested in mobile testing, and none could name an instance where having a mobile-friendly version of a representative-facing tool would be needed"
+  - "CVSO Representatives expressed excitement for the work, calling POA auto-establishment a game changer"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Adjust the unauthenticated homepage to align with user feedback. Proceed with Homepage 4 with shifted headings to black text to improve readability and removed poor color contrast. Explore improvements to content strategy to make it more clear who the portal is for and that it is not intended for Veterans. Maintain VA branding and continue with clean, simple design that representatives prefer"
+  - "Refine the POA request list and search/filter UI. Proceed with A2 left sidebar search/filter fields, expanded and displayed, but with the presentation of POA requests in cards from E1. With ARF Engineering, explore the feasibility of adding SSN search functionality, or at least last 4 SSN search functionality, as well as the ability to show the last 4 of SSN in the POA list view and/or POA details page"
+  - "Continue to explore instant-access to VBMS. Instant access to VBMS remains a high priority for users in a future tool. ARF Design needs to think through how to indicate when results are ready, and where the accepted POA notification takes VSORs when they click to VBMS"
+  - "Proceed with standardized drop-down decline functionality. Explore a version of the drop-down that allows standardized decline messages, while also allowing the VSOR to customize the content when needed/wanted. Add a standard message to the list of options: Not accepting new clients. Modify the standardized messaging to remove negative language around declining and instead direct Veterans to contact the VSO to find out what steps they need to take to get their POA approved"
+  - "Give users the ability to find and refer back to their POA activity. With ARF Engineering, explore the feasibility of viewing previously accepted and declined POA requests"
+  - "Improve global navigation and information architecture around users' needs. Continue with drops-down labels and menu content as they are. Once we have content on these pages, ARF Design will test that the content matches what users expect to find on these pages. Continue to explore what resources should go under the External Resources link"
+  - "Document ARP Pilot design in Product Decision Review (PDR)"
+  - "Update mockups for Midpoint Review"
+  - "Update the VSO Representative persona to reflect new insights"
+  - "Plan usability testing with VSO Representatives on updated mockups and to address open research questions and unresolved hypotheses"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Objective 1: Our digital experiences are the best way to access VA health care and benefits - Key Result 2: Number of transactions processed during our products have increased by 25%"
+  - "Objective 1: Our digital experiences are the best way to access VA health care and benefits - Key Result 3: All new products have a faster transaction time than those they replaced"
+  - "Objective 1: Our digital experiences are the best way to access VA health care and benefits - Key Result 4: No transactions accepted by our products have a fatal error"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Expand our participant panel to include a diversity of accredited Veterans Service Organization Representatives (county organizations, cross-accredited, different experience levels, Veteran/non-Veteran, bulk accept users, admins, etc.). Identify representatives who are current SEP users who are interested in participating in the ARP Pilot (late summer). Observational activities and interview questions will allow us to refine our persona, improve our current state map, update user stories and validate ARP Pilot and ARP MVP functionality with under-represented user groups. Interview questions, observational activities and preference testing will determine how cross-accreditation workflows will impact authenticated and unauthenticated ARP UI elements, navigation, accept/decline permissions, and content strategy"
+  business: "After years of focusing exclusively on Veterans who want to interact directly with VA, we will build tools for Veterans who want to work with accredited representatives, and the reps who support those Veterans. In doing so, we will redirect to VA.gov traffic currently going through eBenefits and Stakeholder Enterprise Portal (SEP)"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Auto-establishment of POA as well as a more streamlined claims submission process could improve efficiencies and address concerns around the slowness of the claims submission process"
+  - "There are opportunities to improve efficiencies related to benefits for surviving spouses"
+  - "There is an opportunity to make summary of benefit letters digitally available to VSORs. CVSORs currently call the VA and have them create and email the VSO a letter"
+  - "There is an opportunity to improve the clarity, usefulness, and humanness of content in letters generated by VA"
+  - "VA should explore what the challenges are related to contract examiners, which are third-party medical professionals who provide C&P exams for Veterans seeking disability benefits"
+  - "Delay in accessing the Veteran's e-Folder in VBMS is one of the most common challenges in the POA process right now"
+  - "Some people, including VA employees, don't realize that the 21-22 gives POA to an organization rather than an individual representative. There is an opportunity to make this more clear in public-facing web content as well as in training for VA employees"
+  - "For accredited attorneys, fee agreements are a critical part of the 21-22 process. ARF will need to consider this as part of future work for this user group"
+  - "OGC data is often outdated, but some CVSOs take on the task of keeping OGC information up-to-date"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "ARP homepage: Updated written content that outlines who the portal is for and that it's not intended for Veterans. Completed pages available from global navigation"
+  - "POA requests page: Search fields expanded and displayed on the left, with the ability to search requests by last 4 of SSN. Cards for displaying results. Consider A/B testing POA information in cards versus a table. Ability to view previously accepted and declined POA requests"
+  - "POA request detail page: Ability to view the last four of SSN in the requester's information. Additional standardized decline message copy"
+  - "Mobile ARP: There is still insufficient data to support the need for a mobile version of ARP. While we are building ARP mobile-first, it remains to be seen whether mobile usability testing should be undertaken. We recommend including questions around potential mobile use cases in future testing with cross-accredited VSORs, who we theorize are more likely to work in the field and need mobile-first tools"
+  - "Users will want to customize elements of the decline message, such as contact information, rather than select from a list of pre-populated decline messages"
+  - "Users will feel the POA request card UI improves readability of search results over table list UI"
+  - "When asked to find a POA request for a non-Veteran claimant, such as a Dependency and Indemnity Compensation (DIC) case, users will search for the Veteran name or information, rather than the claimant's name or information"
+  - "On mobile, users will prefer designs that save space and prevent scrolling (E1)"
+  - "Users will prefer Results per page below the list of POA requests, rather than above"
+  - "Is the ability to filter by multiple zip codes a common use case?"
+  - "What is the current process for revoking POA, and is this something to put on the ARP roadmap for future development?"
+  - "Should we learn more about the 21-0845 form and make it available through ARP?"
+  - "How can we support digital submission of the 21-22 for Veterans who don't have (nor want) a VA.gov account?"
+  - "How do VSOs maintain accreditation for their representatives? Who does this at a VSO, and what is the process like? How can ARP support those users?"
+  - "How are VSOs updating their information with OGC?"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Singly-accredited VSO Representatives"
+  - "Non-county cross-accredited VSO Representatives"
+  - "Tribal VSO Representatives"
+  - "County VSO Representatives not accredited with NACVSO"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "09/2023 Secondary Research Findings"
+  - "11/2023 Find a Representative User Test"
+  - "03/2024 Find a Representative LIVE User Test"
+  - "01/2024 VSO Listening Session"
+  - "02/2024 VSO User Interviews"
+  - "04/2024 Veteran and Caregiver Representative Experience Interviews"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Google Forms for data collection during intercepts (105 rows of data)"
+  - "Affinity mapping in Mural"
+  - "EnjoyHQ project"
+  - "Figma for prototypes and mockups"
+  - "Raw data spreadsheets in SharePoint"
 ---
 
 # Research Findings for ARF Team, Accredited Representative Portal, County VSO Representatives, NACVSO Intercept Studies, 05/2024

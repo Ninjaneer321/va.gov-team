@@ -1,95 +1,120 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Veteran Top Tasks Unmoderated Survey Findings"
+product: "Sitewide Home Page"
+team: "Sitewide Home Page team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-07-08"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Cindy Merrill"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Learn which VA-related tasks are most important to Veterans and others, including Veterans' family members or caregivers, survivors, and service members, so that these tasks can be best supported from the home page"
+  - "Identify top tasks that could be used to inform the redesign of the VA.gov home page and measure the overall health of VA.gov"
+  - "Use the top tasks to run baseline usability tests and then regular tests at intervals to tell us whether Veterans can quickly and easily complete all top tasks"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Unmoderated online survey"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 55
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 47
+  service_members: 3
+  caregivers: 8
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 7
+    "35-44": 13
+    "45-54": 12
+    "55-64": 13
+    "65+": 10
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 3
+    some_college: 7
+    associates: 6
+    bachelors: 15
+    masters: 20
+    doctorate: 4
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 35
+    rural: 20
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 34
+    black: 10
+    hispanic: 7
+    biracial: 1
+    asian: 1
+    native: 2
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Across all survey participants, most top tasks were related to health care: Schedule or manage health appointments, Message your doctor or get a health care message, Check your lab or test results, Refill or track a prescription, Learn about or file for disability compensation (service-related), Get your VA medical records"
+  - "The most frequently done tasks were all related to health care and aligned closely with the overall top tasks. (The survey asked this in an open-text field, not by providing a list of tasks from which to choose.)"
+  - "For participants who don't use VA health care, top tasks were quite different, with the only overlap being disability compensation and VA medical records."
+  - "Top tasks varied by participant age, with older participants favoring health care and burial tasks, while younger participants more focused on education benefits and payment history."
+  - "Merging the top tasks from all of the above segments (all participants, different age groups, and VA health care users and non-users) results in a longer list of top tasks that can be categorized in various ways."
+  - "Here are the least important tasks overall: Verify your monthly school enrollment, Learn about or order hearing aid batteries, Get help with your rent, utility bills, or other housing-related expenses, Apply to receive benefits as a Veteran's caregiver, Get help with your VA debt"
+  - "Participants selected an average of 9.5 tasks as important, ranging from 1 to 26. This was interesting because we didn't include the 'select up to 10' wording that was originally in the survey question."
+  - "It was challenging to recruit people who don't use VA benefits because such people generally aren't interested in providing feedback to VA. We wanted 20% of such participants but instead got only 2% (1 participant of 55)."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "When choosing user tasks for use in designing the VA.gov home page or planning any user research or analytics, consider your intended audience: Where will they be in their journey using VA benefits? Will they be focused on learning about VA benefits and applying for them? Managing the benefits they already have? Both?"
+  - "Consider whether there will be people who use VA health care, people who don't use VA health care, or both"
+  - "Consider what age range(s) of people: Younger? Older? All ages?"
+  - "Select a range of tasks from the list of the top 25 to have at least some relevance to most people in your user base"
+  - "Since the unauthenticated VA.gov home page serves users of all ages and experience levels with VA (including with and without VA health care), we'd like the home page to support all 25 top tasks. Usability testing of the redesigned home page will provide valuable input to see whether all top tasks--including both learn/apply and manage benefits tasks--are easy to do from the home page."
+  - "Since all of the top health care tasks are so important to anyone using VA health care and irrelevant to those who are not, consider grouping them together into one navigation item (i.e., 'manage your health care') instead of listing them separately: Schedule or manage health appointments, Message your doctor or get a health care message, Check your lab or test results, Refill or track a prescription"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can quickly and easily complete top tasks from the VA.gov home page"
+  business: "Redesigned VA.gov home page better supports the tasks most important to Veterans and others"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Health care tasks dominate for users with VA health care"
+  - "Non-health care users have very different top tasks"
+  - "Age-based differences in task importance (burial, education, etc.)"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Present results to Sitewide Public Websites, Health Apartment, Authenticated Experience, and any other interested teams"
+  - "Use a variety of top tasks from this research as tasks for usability testing the home page redesign"
+  - "For tasks that prove difficult to do from usability testing, consider design changes to the redesigned home page to make them easier, and then do another round of usability testing"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Mobile users"
+  - "Identify as gay, lesbian, bisexual, transgender, or non-binary"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Use assistive technology"
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Synthesis spreadsheet"
+  - "Synthesis pictures for report"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family Member"
+  - "AUD: Service Members"
+  - "AUD: Surviving Family"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "MHV: Appointments"
+  - "MHV: Pharmacy"
+  - "MHV: Secure Messaging"
+  - "MHV: Personal Health Records/Medical Records"
+  - "survey"
+  - "evaluative"
 ---
 
 # Veteran Top Tasks UNMODERATED Survey Findings 

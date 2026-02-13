@@ -1,95 +1,102 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Ask VA: Submit an inquiry (Round 1) Research Findings"
+product: "Ask VA"
+team: "Ask VA VA.gov Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-02-15"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Tyler Gindraux"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Review whether Veterans understand when they need to authenticate and the benefits of authentication"
+  - "Review the experience of a Veteran asking a question about their own benefits"
+  - "Understand what Veterans expect to happen after they submit a question"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability study"
+  - "Remote over Zoom"
+  - "Figma prototype with limited interactivity"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 4
+    tablet: 0
+    smartphone: 4
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 3
+    "35-44": 0
+    "45-54": 1
+    "55-64": 4
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 1
+    associates: 2
+    bachelors: 1
+    masters: 4
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 2
+    hispanic: 0
+    biracial: 1
+    asian: 0
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 3
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans past experiences and trust in VA impacts how they perceive questions and what information they're comfortable sharing"
+  - "Many Veterans will choose to sign in so their information is pre-filled, but don't fully understand when sign in is required to use Ask VA"
+  - "As Veterans get further into the form, they become more unsure about what progress they've made and what to expect next"
+  - "Most Veterans considered what their benefits cover in order to answer, 'What's your question about?' – which is unrelated"
+  - "Veterans refer to their health facility by the location, like 'Atlanta VA', rather than the full name, 'Joseph Maxwell Cleland Atlanta VAMC'"
+  - "Most Veterans understand the purpose of reviewing their information before they submit a question, and can find the specific 'Edit' button they need"
+  - "Veterans who are familiar with other VA services expect Ask VA to work similarly – and it may be unclear when to use Ask VA or another service"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
-outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Design a progress bar that updates dynamically so it's always progressing forward"
+  - "Use a sub-task pattern to direct people to sign in based on the type of question they have"
+  - "Combine facility search by name and location"
+  - "Reorganize order of questions and chapters so it follows a more intuitive route"
+  - "Revisit pronouns and gender to see if they can be removed or at least made optional"
+  - "Add 'additional information' component to certain questions that raised flags"
+  - "Reorganize and edit content on the home page so it's more direct"
+  - "Remove US mail from contact preferences"
+  - "Default all accordions to open on review page"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Testing end-to-end experience of the form and dashboard"
+  - "Revisit progress component, clarity on when to sign in and why, and order of questions"
+  - "Testing with people who use assistive technology"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Asian participants"
+  - "Hispanic participants"
+  - "Veterans without degrees"
+  - "Veterans with cognitive disabilities"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Previous Ask VA research studies"
+  - "EnjoyHQ Analysis"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "EnjoyHQ - Analysis"
+  - "Mural - Research sessions"
+  - "Mural - Research synthesis"
 ---
 
 # Research findings for Ask VA: Submit an inquiry (Round 1)

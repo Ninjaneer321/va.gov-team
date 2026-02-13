@@ -1,95 +1,100 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Direct Deposit Payment Instruction Consolidation UAT Research Findings"
+product: "Profile - Direct Deposit"
+team: "Authenticated Experience Profile Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-07-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Profile Team Researcher"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Confirm that the Direct Deposit section of Profile functions as intended for users who sign in with ID.me or Login.gov and have direct deposit set up with bank information"
+  - "Validate that users can view and edit correct direct deposit information for compensation & pension and education benefits"
+  - "Verify that information returned from the API matches what is populated on screen"
+  - "Confirm safeguards for invalid routing/account numbers and character limits are working correctly"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "User Acceptance Testing (UAT)"
+  - "Remote moderated sessions via Zoom with screen sharing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 5
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 2
+    "45-54": 0
+    "55-64": 0
+    "65+": 2
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 5
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 3
+    black: 0
+    hispanic: 2
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All 5 participants successfully completed all 10 UAT tasks for direct deposit functionality"
+  - "Direct deposit information displayed correctly for users with compensation & pension benefits, education benefits, or both"
+  - "Email confirmations were successfully received after editing direct deposit information"
+  - "API data correctly matched information populated on screen"
+  - "Safeguards for invalid routing/account numbers and character limits functioned as expected"
+  - "Some confusion expressed about Account Security page naming and content clarity"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Consider more research on perception of Account Security page with larger participant pool"
+  - "Investigate whether 'Sign in security' might be clearer terminology than 'Account Security'"
+  - "Evaluate making Account Security content dynamic based on sign-in method"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Successful UAT validation of direct deposit consolidation feature"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can successfully view and manage their direct deposit information for both education and compensation & pension benefits in one consolidated Profile section"
+  business: "Direct deposit payment instruction consolidation functions as designed with proper validation and safeguards in place"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Account Security page naming and content presentation could be improved for clarity"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Conduct broader study on Account Security page perception with structured methodology and larger sample size"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Women Veterans"
+  - "LGBTQ+ Veterans"
+  - "Veterans with cognitive disabilities"
+  - "Veterans using assistive technology"
+  - "Rural Veterans"
+  - "Urban Veterans"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "UAT testing"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Remote Zoom sessions"
+  - "Task completion tracking"
 ---
 
 # Direct deposit payment instruction consolidation UAT Findings, July 2024

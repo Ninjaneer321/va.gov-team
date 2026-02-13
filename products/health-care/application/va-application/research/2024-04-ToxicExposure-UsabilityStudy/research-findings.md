@@ -1,95 +1,97 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Research Findings for 10-10EZ Toxic Exposure Questions Usability Study"
+product: "10-10EZ Health Care Application"
+team: "Health Enrollment Team, 10-10EZ"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-04"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Angela Agosto (angela.agosto@adhocteam.us)"
+  - "Jessica Stump (jessica.stump@adhocteam.us)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Discover areas where the content may not be clear or need additional explanation"
+  - "Discover areas where their service history requires too much mental lift / recall on the Veterans behalf to answer"
+  - "Discover unknown usability or accessibility issues"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated remote usability sessions"
+  - "10-10EZ Form in Production on VA.gov"
+  - "Unauthenticated or authenticated via the participants account and ability"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 0
+    smartphone: 2
+    assistive_technology: 1
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 2
+    "45-54": 1
+    "55-64": 0
+    "65+": 2
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 2
+    associates: 0
+    bachelors: 2
+    masters: 1
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 2
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 2
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 1
+    AT_advanced: 0
+    screen_reader_desktop: 1
+    screen_reader_mobile: 0
+    magnification_zoom: 1
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 1
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Most Veterans have been or believe they have been exposed to toxic materials in the military, but they don't know if it qualifies as 'toxic exposure.'"
+  - "Veterans would like more information about what time periods during their service are eligible to note any toxic exposure."
+  - "Veterans would like to see more customization in the toxic exposure questions based on what VA already knows about them or what they answered previously."
+  - "There is some confusion with how to identify exposure dates and why VA is asking for them."
+  - "We uncovered some usability issues that were missed since the TERA project timeline didn't allow for a full research study until post-launch."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Correct usability issues that were discovered during the study."
+  - "Make it more clear via content or placement that toxic exposure during training does count and should be reported in the TERA questions."
+  - "Gain a more detailed understanding of what types of potential toxic exposure on the 'Other toxic exposures' page would impact a Veteran's priority group from our stakeholders and make content recommendations based on these findings."
+  - "Incorporate more customization into the form so Veterans are only asked questions that are potentially relevant to them."
+  - "Get more information about VA's efforts to reach out to certain groups for toxic exposure and determine what opportunities (if any) exist to develop personalized notifications."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily report toxic exposure information to help qualify for VA health care or improve Priority Group placement"
+  business: "Accurate toxic exposure data collection to support Priority Group 6 placement for eligible Veterans"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Content clarity for toxic exposure definitions"
+  - "Form customization based on service history"
+  - "Training period exposure recognition"
+further_research_needed: []
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Cognitive Disability"
+  - "Hispanic, Biracial, Asian, or Native"
+  - "LGBTQ+"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
 ---
 
 # Research Findings for 10-10EZ Toxic Exposure Questions Usability Study 

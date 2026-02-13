@@ -1,95 +1,123 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Federal Standardized Header/Footer Usability Testing - Phases 1 & 2 Research Findings"
+product: "Sitewide Header and Footer"
+team: "Sitewide Public Websites"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-03-06"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Cindy Merrill"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Determine wayfinding task success rate using proposed Federal header and footer"
+  - "Understand how Veterans using screen reader or screen magnifier technology navigate header and footer"
+  - "Assess Veteran sentiment on USA logo and VA seal with dropping of VA brand mark"
+  - "Test impact of new federal header and footer design on Veteran wayfinding experience"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote usability testing"
+  - "Prototype testing (Figma and CodePen)"
+  - "Evaluative research"
+  - "Task-based usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 11
+    tablet: 4
+    smartphone: 8
+    assistive_technology: 9
+participants_total: 19
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 18
+  service_members: 1
+  caregivers: 2
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 4
+    "45-54": 2
+    "55-64": 6
+    "65+": 4
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 3
+    some_college: 5
+    associates: 1
+    bachelors: 4
+    masters: 6
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 12
+    rural: 7
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 8
+    hispanic: 4
+    biracial: 1
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 9
+    AT_beginner: 0
+    AT_advanced: 9
+    screen_reader_desktop: 5
+    screen_reader_mobile: 0
+    magnification_zoom: 5
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All 7 wayfinding tasks completed successfully without help by at least 60% of participants"
+  - "Accessibility problems affected task completion for screen reader users"
+  - "Half of participants had difficulty finding the Auth menu"
+  - "One third of participants didn't recognize they were signed in"
+  - "More than half who could see colored USA logo had negative impressions (looked fraudulent or fake)"
+  - "No participants mentioned missing the VA logo - VA seal and text were sufficient"
+  - "One third of participants didn't notice links in black federal footer"
+  - "Half of participants looked for FOIA in footer but used search instead"
+  - "Three participants said blue VA footer is too large with too many links"
+  - "5 of 9 AT users said they call VA rather than use website because it's easier"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "For mobile, consider different placement for Auth menu because underneath Menu button wasn't intuitive"
+  - "Consider additional personalization after sign in to make it more obvious"
+  - "Revisit large blue footer in conjunction with small black footer due to confusion about page bottom"
+  - "Fix accessibility issues: search functionality for screen readers, sign-in button after authentication, skip navigation links"
+  - "Conduct accessibility testing before launch to ensure WCAG compliance"
+  - "Consider user feedback on USA logo design and placement"
+  - "Simplify footer structure to reduce confusion about where content ends"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Wayfinding task success rates"
+  - "Accessibility compliance"
+  - "User satisfaction with header/footer design"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can successfully navigate VA.gov with federal standardized header and footer"
+  business: "VA becomes first HISP to adopt federal header/footer standards with minimal negative impact"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Improving authenticated menu discoverability and recognition"
+  - "Enhancing accessibility for screen reader and magnifier users"
+  - "Clarifying footer structure and content organization"
+  - "Refining USA logo design to reduce negative perceptions"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Post-launch monitoring of actual task completion rates"
+  - "Follow-up research on accessibility improvements"
+  - "User testing with Asian and Native Veterans"
+  - "Research with beginner assistive technology users"
+  - "Testing with Veterans with other than honorable discharge"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Asian Veterans"
+  - "Native Veterans"
+  - "Veterans with other than honorable discharge"
+  - "Immigrant origin Veterans"
+  - "Expat Veterans living abroad"
+  - "Beginner assistive technology users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Design prototypes (Figma and CodePen)"
+  - "USWDS federal header/footer standards"
+  - "GSA guidance"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Mural for affinity mapping"
+  - "Excel for data analysis"
+  - "Figma prototypes"
+  - "CodePen responsive prototypes"
 ---
 
 # Federal Standardized Header/Footer Usability Testing -- Research Findings from Phases 1 & 2

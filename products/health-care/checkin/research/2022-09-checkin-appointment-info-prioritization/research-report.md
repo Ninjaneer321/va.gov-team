@@ -1,95 +1,89 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Unmoderated Appointment Information Prioritization (Check-in)"
+product: "Modernized Check-In Experience"
+team: "Healthcare Products, Modernized Check-In Experience"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-10-18"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Kristen McConnell - kristen.mcconnell@adhocteam.us"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Identify what appointment data is most important within certain portions of the day of check-in experience"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Unmoderated study"
+  - "Online survey"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 32
+    assistive_technology: 0
+participants_total: 32
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 22
+  service_members: 0
+  caregivers: 5
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 5
+    "35-44": 5
+    "45-54": 0
+    "55-64": 5
+    "65+": 0
+    unknown: 17
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 32
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 32
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Over 80% of participants deemed a clear set of appointment information as 'extremely important' or 'very important': Type of care, Appointment time and timezone, Canceled status, Date of the appointment, Location, Patient's name, Visit type, Day of appointment, Provider's name"
+  - "A secondary group of appointment information received over 50% of participants stating they are 'extremely important' or 'very important': Clinic name, Clinic phone number, Facility phone number, Reason for visit, Conditions and symptoms"
+  - "Facility-based information is the lowest ranking grouping of information"
+  - "The caregiver cohort ranked the most pieces of information differently compared to the other cohorts"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Emphasize the top ranked group visually within any redesigns of check-in and pre-check-in"
+  - "Within check-in, explore creating a summary page with only the most important information as well as a details page with all of the appointment information"
+  - "Since the pre-check-in rankings was more split, emphasize visually the most important data, but all available appointment data should be displayed somewhere within the pre-check-in experience"
+  - "The team should meet to discuss how to address the caregiver persona"
+  - "In the future, explore updating the clinic names to something more Veteran-friendly"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can quickly identify the most important information when checking in for their appointment"
+  business: "Identify what appointment data is most important within check-in experience"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Explore creating a summary page with only the most valuable information"
+  - "Explore updating clinic names to be more Veteran-friendly"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Understand how big our caregiver audience is"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Spreadsheet"
 ---
 
 

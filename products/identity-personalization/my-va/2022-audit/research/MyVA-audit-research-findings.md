@@ -1,95 +1,104 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "My VA 2023 Audit Usability Testing Research Findings"
+product: "My VA"
+team: "Authenticated Experience"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2023-03-03"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Angela Agosto"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Determine if the updated information architecture of My VA still aligns with Veterans mental model"
+  - "Determine if showing all sections all the time on My VA has made the page more less or equally usable compared to its current state"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "Feature flag testing in production"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 9
+    tablet: 2
+    smartphone: 2
+    assistive_technology: 1
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 13
+  service_members: 0
+  caregivers: 1
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 3
+    "35-44": 3
+    "45-54": 1
+    "55-64": 1
+    "65+": 5
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 6
+    bachelors: 2
+    masters: 5
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 13
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 2
+    hispanic: 2
+    biracial: 0
+    asian: 2
+    native: 2
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 5
+    AT_beginner: 0
+    AT_advanced: 1
+    screen_reader_desktop: 1
+    screen_reader_mobile: 0
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All participants had positive reactions to seeing My VA immediately upon login"
+  - "My VA encompasses all top tasks for Veterans"
+  - "Veterans generally dont mind seeing empty sections on My VA and some find them helpful to have on the page"
+  - "The Saved Applications section is confusing to Veterans"
+  - "The Education and Training section is positioned well on the page and important to have present on My VA but some of the terminology in the links is unfamiliar to Veterans"
+  - "My VA is highly accessible to disabled Veterans using assistive technology but the smallest font is still a little too small for some Veterans"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Rethink the Saved Applications section to be more clear that only in-progress applications will show there and more clear what applications are"
+  - "Reconsider the link currently called Check your GI Bill Statement of Benefits in the Education and Training section as the term is not familiar to Veterans"
+  - "Do not recommend reordering sections on My VA or allowing additional customization at this time as simplifying code logic was a main goal"
+  - "Consider showing dynamic content in Education and Training section for remaining education benefits if it becomes feasible in the future"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improved usability of My VA for authenticated users"
+  - "Simplified code and logic for My VA page"
+  - "Better alignment with Veterans mental models"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can quickly access and manage all their VA benefits from a single personalized page"
+  business: "Simplified My VA code and logic while maintaining or improving usability and user satisfaction"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Clarifying the Saved Applications section terminology and scope"
+  - "Improving Education and Training section with clearer terminology and dynamic content"
+  - "Adjusting font sizes for better readability for older Veterans and those with low vision"
+  - "Potential future customization features for section ordering"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "After making changes to Saved Applications and Education and Training sections recommend testing these updates in UAT"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "No degree"
+  - "Expat"
+  - "Biracial"
+  - "Gay lesbian or bisexual"
+  - "Transgender"
+  - "Beginner AT users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "2022 My VA audit in Mural"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Google Sheets"
+  - "Zoom transcription and recordings"
 ---
 
 # My VA 2023 Audit Usability Testing - Research Findings 

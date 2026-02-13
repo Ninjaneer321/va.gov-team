@@ -1,95 +1,112 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VBA Debt Portal Payment History Study - Usability & Comprehension Research Findings"
+product: "Debt Portal"
+team: "Debt Resolution Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-07-16"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Charlotte Cesana - Senior UX Researcher & Moderator"
+  - "Megan Gayle - Lead UX Researcher/Designer"
+  - "Joseph Lee - Senior UX Designer"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate usability and comprehension of VBA payment history transactions additions to debt portal"
+  - "Assess comprehension of content distribution across overview page, debt details page, resolve debt page, and debt letters page"
+  - "Determine if participants can easily locate how to pay bills, request financial help, and dispute debt"
+  - "Evaluate participant understanding of bill due dates and current amounts owed"
+  - "Test understanding of payment history transactions and their impact on debt"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Usability and comprehension testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 3
+    tablet: 1
+    smartphone: 5
+    assistive_technology: 3
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 5
+    "35-44": 2
+    "45-54": 0
+    "55-64": 1
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 5
+    associates: 1
+    bachelors: 0
+    masters: 1
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 4
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 4
+    hispanic: 3
+    biracial: 2
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 6
+    AT_beginner: 0
+    AT_advanced: 3
+    screen_reader_desktop: 3
+    screen_reader_mobile: 0
+    magnification_zoom: 1
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Service Design & Digital Design: Participants noted issues outside the debt portal with inter-departmental communication gaps and initial notification problems"
+  - "Overall Comprehension & Language: Excellent comprehension with average clarity score of 4.22 out of 5; term 'overpayment' perceived as more specific and less stigmatizing than 'debt'"
+  - "One thing per page: Majority (6 of 9) had no issues with page structure distribution; noted easy navigation and good findability of information"
+  - "Overpayment Overview page: Tested well with minor improvements needed; participants requested separation of active and completed debt for clarity"
+  - "Debt Details page: Payment history was clear and appreciated; clarification needed on late fees and due date prominence"
+  - "Resolve page: Easily understood by all participants; multiple resolution options appreciated and understood"
+  - "Debt Letters page: Many participants understood letters as all communications from VA; desire for downloadable access directly from table view"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Work with stakeholders to improve initial debt notifications sent to Veterans"
+  - "Separate active and paid debts on overview page for improved clarity"
+  - "Display payment information only on Resolve page; add due date within Debt Details page"
+  - "Surface clearer, more actionable due date messaging throughout experience"
+  - "Discover SME guidance on late fees schedules and how payment progression impacts overall debt"
+  - "Add PDF download links within tables on debt letter page for easier access"
+  - "Consider placing grand total at top of page for screen reader users"
+  - "Improve inter-departmental communication to reduce confusion about debt origins"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans understand their debt obligations, payment history, and have clear actionable paths to resolve their debts with reduced confusion and anxiety"
+  business: "Improved debt resolution rates, reduced support inquiries, and increased Veteran satisfaction with debt management experience"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Service design integration between digital experience and initial notification communications"
+  - "Improved communication of debt escalation and late fee processes"
+  - "Digital dispute filing options to complement existing phone-based process"
+  - "Enhanced inter-departmental coordination to prevent debt notification confusion"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Additional screen reader user testing (only 1 participant successfully completed in this study)"
+  - "Testing with VHA copay payment history path when available"
+  - "Refinement and validation of VBA debt archetypes"
+  - "Impact testing of recommended changes on debt resolution rates"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Asian Veterans"
+  - "Native Hawaiian or Pacific Islander Veterans"
+  - "American Indian or Alaska Native Veterans"
+  - "First Nations Veterans"
+  - "Beginner assistive technology users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "SME feedback survey"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Note taking Spreadsheet"
 ---
 
 # VBA Debt Portal Payment History Study Research Findings

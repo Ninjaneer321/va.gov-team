@@ -1,95 +1,121 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Development Letter Experience and 5103 Notice Improvements Research Findings"
+product: "Claim and Appeal Status"
+team: "Benefits Management Tools"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-09-10"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Gary Homidas (gary.homidas@adhocteam.us)"
+  - "Skyler Schain (skyler.schain@coforma.io)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand Veterans' experience with development letters today, including pain points and things that seem to be working"
+  - "Evaluate the efficacy of the new 5103 Notice design"
+  - "Assess how well CST's tracked items content model for alerts works across different request types associated with development letters"
+  - "Identify pain points in current development letters experience that could be resolved with CST improvements"
+  - "Assess Veteran perception of the value and risks associated with electronic-only communications from VA"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing via Zoom"
+  - "High-fidelity Figma prototype testing"
+  - "60 minute sessions"
+  - "Prototype walkthrough and feedback sessions"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 11
+    tablet: 1
+    smartphone: 1
+    assistive_technology: 0
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 13
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 2
+    "45-54": 4
+    "55-64": 4
+    "65+": 2
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 2
+    some_college: 1
+    associates: 4
+    bachelors: 4
+    masters: 2
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 13
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 3
+    hispanic: 2
+    biracial: 0
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans rated the notice information an average score of 4.5 out of 5 for helpfulness"
+  - "Most participants accurately summarized the 5103 notice page, but by the end of the flow, they were unclear about the purpose and implications of the waiver"
+  - "Confirmation messages appear on unexpected pages, and are missing where some participants expected them"
+  - "Most participants recalled valuing the thoroughness of decision letters but were frustrated by the lengthy wait and vague information about claim status"
+  - "Most participants (9 of 13) said they would prefer to receive electronic-only communication regarding their claims"
+  - "77% of participants preferred completing the VA Form 21-4142 online, while 33% opted for downloading the PDF version"
+  - "Participants wanted PDF forms to be fillable and to include an electronic signature option"
+  - "Participants wanted claims requiring action or containing new notifications to be prioritized visually"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Continue refining the flow and design of the notice page experience"
+  - "Clarify that submitting the evidence waiver doesn't prevent Veterans from adding evidence later"
+  - "Strengthen the flow to prompt Veterans to submit an evidence waiver after uploading evidence"
+  - "Add a homepage message confirming the submission of a waiver or evidence during the last session"
+  - "Reduce confusion by moving the 5103 waiver confirmation to the status page and deep-linking to Additional Evidence on the files tab"
+  - "Switch the order of form links to show online tool before PDF download option on the VA 21-4142 form page"
+  - "Ensure the online VA 21-4142 form closes the tracked item, not just the PDF version uploaded into CST"
+  - "Investigate whether more PDF forms need to be fillable and allow e-signatures"
+  - "Include future usability testing to test scenarios where Veterans upload multiple files"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Reduce confusion around development letter requirements"
+  - "Increase electronic communication adoption"
+  - "Improve Veteran satisfaction with claims status experience"
+  - "Reduce contact center calls about development letters"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans clearly understand what actions are required in response to development letters and can easily complete those actions through CST"
+  business: "Reduced processing time for development requests and fewer incomplete responses, leading to faster claims decisions"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Electronic-only communication preferences for development letters"
+  - "Enhanced notification system for claim updates"
+  - "Two-way communication features like live chat or direct VSR contact"
+  - "Mobile app notification badges for claim actions"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Testing with assistive technology users"
+  - "Validation of electronic communication preferences with larger sample"
+  - "Research on optimal notification timing and frequency"
+  - "Testing of revised waiver language and flow"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Cognitive disability representation"
+  - "Other than honorable discharge Veterans"
+  - "Immigrant and expat Veterans"
+  - "Rural and urban location data"
+  - "Biracial and LGBTQ+ Veterans"
+  - "Assistive technology users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "None specified"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Mural Synthesis"
 ---
 
 # Evaluate development letter experience and improvements to 5103 notices

@@ -1,95 +1,106 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Medications and Medical Supplies Concept Testing Research Findings"
+product: "Medical Supplies Reorder"
+team: "Medications and Devices Pod"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-05-06"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Jenny Wang (yizhen.wang@va.gov)"
+  - "Kristen McConnell (kristen.mcconnell@va.gov)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how Veterans categorize medications and medical supplies"
+  - "Understand whether Veterans expect to view and order all medical supplies and medications as subsections within the same section, within a fully integrated list, or in separate sections"
+  - "Establish which I.A. is easier to use"
+  - "Gather insights into the advantages and disadvantages of each design option"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated research sessions via Zoom"
+  - "Concept testing with 3 Figma prototypes"
+  - "Task-based usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 2
+    smartphone: 13
+    assistive_technology: 0
+participants_total: 15
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 15
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  gender:
+    male: 9
+    female: 6
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 1
+    "45-54": 2
+    "55-64": 6
+    "65+": 5
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 2
+    associates: 1
+    bachelors: 5
+    masters: 6
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 8
+    rural: 7
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 4
+    hispanic: 0
+    biracial: 0
+    asian: 3
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Most participants (10 out of 15) found option 3 (medications and supplies combined) the easiest to find and order items, but wanted better organization within the combined list"
+  - "Some participants (7 out of 15) found it confusing to have both a list page and an order page because they didn't see much difference and value in having both pages"
+  - "Most participants (10 out of 15) struggled to find glucose testing strips using option 1 and option 2 because they thought testing strips were medical supplies, not medications"
+  - "Despite thinking medications and supplies are different, most participants preferred them in the same category for ease of access and fewer clicks"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Explore design and I.A. options for combining medications and medical supplies on MHV on VA.gov"
+  - "Conduct technical discovery with medications team and medical supply team developers to understand backend feasibility of combining medications and medical supplies"
+  - "Brainstorm and create sketches for possible options for combining medications and medical supplies"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily find and order both medications and medical supplies in one consolidated location with clear organization"
+  business: "Reduced confusion and support requests by providing intuitive information architecture for ordering"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Design solution for organizing medications and supplies on same page with filtering or sorting capabilities"
+  - "Eliminate confusion between list page and order page functionality"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Test design options that combine medications and supplies with different organizational approaches (tabs, filters, sorting)"
+  - "Validate shopping cart concept for ordering multiple items across medications and supplies"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans 80+ years old"
+  - "Veterans with other than honorable discharge"
+  - "Immigrant origin Veterans"
+  - "Expat Veterans"
+  - "LGBTQ+ Veterans"
+  - "Veterans with disabilities requiring assistive technology"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Previous MHV Classic usability testing"
+  - "Secondary navigation comparison study"
+  - "MHV landing page study"
+  - "I.A. tree test results"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Mural board"
+  - "Affinity mapping"
 ---
 
 # Medications and Medical Supplies Concept Testing Research Findings 

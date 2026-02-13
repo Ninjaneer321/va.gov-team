@@ -1,95 +1,112 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VA.gov Home Page Redesign Round 2 Usability Test Research Findings"
+product: "VA.gov Home Page"
+team: "Sitewide Home Page"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-11-16"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Cindy Merrill"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Get user feedback on the newly revised version of the redesigned VA.gov home page"
+  - "Assess whether the design changes have improved the usability of the home page"
+  - "Observe which areas of the home page were used and how well it supported Veterans VA beneficiaries those acting on behalf of Veterans and service members"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "Wayfinding tasks"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 3
+    tablet: 0
+    smartphone: 8
+    assistive_technology: 4
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 1
+  caregivers: 5
+  dependents: 5
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 3
+    "45-54": 4
+    "55-64": 2
+    "65+": 2
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 2
+    some_college: 4
+    associates: 0
+    bachelors: 4
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 7
+    rural: 4
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 1
+    hispanic: 3
+    biracial: 1
+    asian: 1
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Almost half of participants focused their attention on a specific part of the home page while the rest scrolled up and down more fluidly"
+  - "Many participants got stuck on some of the tasks and when that happened most didnt try to use search"
+  - "Compared to the previous round of usability testing 5 tasks performed better and 1 fared worse in successful completions"
+  - "Some participants didnt click on either of the promos"
+  - "There may be an accessibility issue for screen magnifier users with buttons on the far right side of web pages"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Monitor how the PACT Act and other benefit promos perform in analytics and iterate based on engagement data"
+  - "Consider making the More VA News link more prominent or repositioning it to increase visibility"
+  - "Continue to monitor search usage and task completion rates to inform future design decisions"
+  - "Conduct additional accessibility testing with screen magnifier users to address visibility issues with right-aligned buttons"
+  - "Consider suggestions and collaborate with Sitewide Content/IA teams on megamenu and search improvements"
+  - "Work with Health Apartment Authenticated Experience and VCL teams on cross-functional improvements"
+  - "Monitor analytics and Medallia feedback for the redesigned home page to inform future design iteration"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improved task success rates on home page"
+  - "Increased engagement with benefit information and news"
+  - "Better support for Veterans completing top tasks"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans and beneficiaries can quickly find and complete their top tasks from the VA.gov home page"
+  business: "Improved home page usability supports VA.gov modernization goals and reduces support burden"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Improving visibility and engagement with benefit and news promos"
+  - "Enhancing search discoverability and usage when users get stuck"
+  - "Addressing accessibility issues for screen magnifier users"
+  - "Better supporting health care task completion from home page"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "More usability testing with participants who dont have an account on VA.gov"
+  - "More testing with participants who always or frequently use smartphones when browsing the web"
+  - "More testing with participants who always or frequently use screen readers when browsing"
+  - "More testing with screen magnifier users to understand visibility issues with right-aligned buttons"
+  - "Research to see if dark blue VA news promo section creates a new false footer for some users"
+  - "More research that includes header and footer to learn about Veterans expectations"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "LGBTQ+"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Comparison with previous round of usability testing data"
+  - "Comparison with baseline wayfinding study data"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Synthesis spreadsheet"
+  - "Visualization slides"
+  - "Zoom recordings and notes"
 ---
 
 # VA.gov Home Page Redesign ROUND 2 Usability Test Findings

@@ -1,95 +1,126 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "CHAMPVA Claims 10-7959a Usability/Interviews Research Findings"
+product: "CHAMPVA Claims Form 10-7959a"
+team: "IVC Forms Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-09-27"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Rachael Penfil (rachael.penfil@adhocteam.us)"
+  - "Steven Straily (steven.straily@agile6.com)"
+  - "Jamie Fiore (jamie.fiore@adhocteam.us)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Test the usability of the current iteration of the 10-7959a prototype"
+  - "Test high-level accessibility for the current iteration of the 10-7959a prototype"
+  - "Extract insights about participants' experience with current CHAMPVA claims (10-7959a) process to inform artifacts and build evidence addressing stakeholder interview pain points"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Mixed-method combining usability study with user interviews"
+  - "30-45 minutes usability testing with think-out-loud protocol on working prototype"
+  - "15-30 minutes exit interview questions"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 7
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 1
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 5
+  service_members: 0
+  caregivers: 1
+  dependents: 1
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 3
+    "45-54": 1
+    "55-64": 2
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 2
+    associates: 1
+    bachelors: 0
+    masters: 3
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 4
+    rural: 2
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 1
+    black: 2
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 2
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 1
+    AT_advanced: 0
+    screen_reader_desktop: 1
+    screen_reader_mobile: 0
+    magnification_zoom: 1
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants had basic understanding of claim requirements but needed clarification on specific codes (DX, CPT, HCPCS) and document details"
+  - "Participants with prior VA benefits experience read instructions in depth, anticipating frequent requirement changes and complexities"
+  - "Participants understood single claim concept (one date of service) but desired workflow for submitting multiple claims in one session"
+  - "Participants had difficulty navigating as third-party representative or sponsor - Veterans felt redundant entering sponsor info after signer info, 3 of 7 not confident defining sponsor"
+  - "Participants worked through list-and-loop insurance pattern without friction but demonstrated low confidence with insurance details (policy numbers, types)"
+  - "After adding maximum two insurance policies, participants hesitated at alert box on review page - distracted from review task, seemed like error despite reading description"
+  - "Participants understood work/auto accident injury questions but expected to submit additional details (accident reports, incident descriptions) if answering yes"
+  - "Participants immediately understood file upload screen but 'additional notes' accordion behavior was unexpected - anticipated text field for claim context not guidelines"
+  - "All participants immediately noticed and understood change of address question, knew what address they used on last CHAMPVA form"
+  - "All participants thought confirmation page had enough information but wished for another way to save content (date, processing time, appeals process)"
+  - "Most participants unfamiliar with what CHAMPVA number is or their specific number"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Include common examples of where to find required codes (DX, CPT, HCPCS) on upload page for medical claims or in what format codes are found"
+  - "Include all claim requirements and supporting documents in introduction page as top-level hierarchy content"
+  - "Continue discovery and engineering of workflow allowing multiple claims submission in one form session, research optimal organization for claims processors"
+  - "Consider adding screener question after signer info asking if they're also sponsor to eliminate redundant questions; redefine 'sponsor' as 'the service member the beneficiary is connected to'"
+  - "Remove non-required fields (policy numbers, insurance phone numbers) to reduce burden on users"
+  - "Remove yellow alert on insurance review page or don't allow adding more insurances unless one is removed first; add context about two insurance maximum"
+  - "Consider adding conditional fields for work/auto accident details if user selects yes to provide expected additional information"
+  - "Rename 'additional notes' accordion to clarify it contains guidelines, or add separate field for beneficiary-added claim context"
+  - "Continue with current change of address approach as it's well understood"
+  - "Explore options for saving/printing confirmation page content, consider PDF download or confirmation email"
+  - "Add explanation of what CHAMPVA number is and how to find it, consider removing if not critical at submission time"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Reduce claim processing time from current 60-90 days to target 30-45 days"
+  - "Improve claim submission completion rate"
+  - "Reduce incomplete claims requiring send backs due to missing documentation"
+  - "Increase digital submission adoption over paper forms"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Beneficiaries can easily submit claims with clear understanding of requirements, documentation, and process timeline"
+  business: "Reduced incomplete claims, faster processing, fewer support calls, improved beneficiary satisfaction, reduced send back letters"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Multi-claim submission workflow to reduce form repetition"
+  - "Auto-populated insurance details from CHAMPVA records"
+  - "Clearer upfront documentation requirements with examples"
+  - "Better role definitions for third-party submissions"
+  - "Digital confirmation records (email, PDF)"
+  - "Integration with Claims Status Tool for tracking"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Further research with assistive technology users to fully assess accessibility"
+  - "Research beneficiary preferences for record-keeping after claim submission"
+  - "Study new drag-and-drop upload pattern to understand usage and any enhancements needed"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans with other than honorable discharge"
+  - "Veterans of immigrant origin"
+  - "Expats"
+  - "Transgender users"
+  - "Advanced assistive technology users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Stakeholder interview findings"
+  - "Preliminary form improvements"
+  - "CHAMPVA claims service blueprint"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
 ---
 
 # ​​2024-09 CHAMPVA Claims 10-7959a Usability/Interviews Research Findings

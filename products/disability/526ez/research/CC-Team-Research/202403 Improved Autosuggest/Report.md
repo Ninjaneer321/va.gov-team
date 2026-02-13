@@ -1,95 +1,116 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Improved Autosuggest Component Research Findings"
+product: "Disability Benefits - 526EZ"
+team: "Contention Classification"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-05-07"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Sudeepti Bhatnagar (sudeepti.bhatnagar@va.gov)"
+  - "Eva Heintzelman (eva.heintzelman@va.gov)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate the usability of the revised autosuggest component"
+  - "Evaluate the effectiveness of the explanatory content"
+  - "Assess overall confidence and satisfaction with the page"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "A/B testing with two prototypes (Apple and Cherry)"
+  - "High-fidelity Figma prototypes"
+  - "60-90 minute sessions"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 6
+    tablet: 0
+    smartphone: 1
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 2
+    "45-54": 1
+    "55-64": 2
+    "65+": 2
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 1
+    associates: 1
+    bachelors: 0
+    masters: 4
+    doctorate: 0
+    unknown: 1
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 3
+    black: 2
+    hispanic: 0
+    biracial: 2
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans prefer selecting from the autosuggest list when possible, perceiving these options as pre-approved or more likely to be accepted"
+  - "Veterans hesitate to use free-text entry, worrying it might lead to claim denials or misunderstandings"
+  - "The autosuggest component significantly reduced the time it took Veterans to add conditions compared to current state"
+  - "Veterans found the instructions clear and helpful, though some only read headers"
+  - "Veterans appreciated having examples of common conditions but found the list sometimes too long to review"
+  - "The ability to edit and remove conditions was intuitive for most Veterans"
+  - "Veterans became more comfortable with free-text entry after successfully submitting a free-text condition"
+  - "The save button's purpose was occasionally unclear, with some thinking it saved all conditions rather than just the current one"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Keep the general page layout of instructions plus autosuggest component, but optimize to minimize confusion and errors"
+  - "Provide clearer indication when Veterans are entering free-text versus selecting from suggestions"
+  - "Consider adding confirmation dialogs before removing conditions to prevent accidental deletions"
+  - "Refine the autosuggest algorithm to provide more relevant suggestions based on partial inputs"
+  - "Consider shorter examples list or add skip link to jump to autosuggest component"
+  - "Clarify the save button functionality with descriptive labels or tooltips"
+  - "Add guidance about when and how to use free-text entry for conditions not in the list"
+  - "Continue iterating on the component based on additional user feedback"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Reduce time to complete conditions entry"
+  - "Increase accuracy of condition classification"
+  - "Improve Veteran satisfaction with 526EZ form"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can quickly and confidently add their conditions using an intuitive autosuggest interface that provides relevant suggestions while allowing flexibility for free-text entry"
+  business: "Improved condition classification accuracy leads to faster claims processing and reduced need for follow-up requests"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Enhanced autosuggest algorithm with machine learning"
+  - "Integration with Veteran medical records for pre-population"
+  - "Mobile-optimized condition entry experience"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Testing with assistive technology users"
+  - "Validation of condition classification accuracy with VBA"
+  - "Long-term usability metrics after implementation"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Assistive technology users (screen readers, magnification)"
+  - "LGBTQ+ Veterans"
+  - "Hispanic Veterans"
+  - "Asian and Native Veterans"
+  - "Rural Veterans"
+  - "Cognitive disability representation"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Analytics on current condition entry patterns"
+  - "VBA subject matter expert consultations"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Google Sheets"
 ---
 
 Improved “autosuggest component” Research Report 

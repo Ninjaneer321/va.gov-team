@@ -1,95 +1,108 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Accredited Representative Management - Veteran and Caregiver Representative Experience Interviews Research Findings"
+product: "Accredited Representative Management"
+team: "ARM Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-04"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Janelle Finnerty"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Expand knowledge of tasks, motivations, and challenges Veterans and caregivers have when working with representatives"
+  - "Inform the Disability Claims Process journey map and future features"
+  - "Understand Veteran and caregiver motivations for seeking representation"
+  - "Document search habits and considerations when selecting representatives"
+  - "Capture experiences with representatives and identify differences between Veterans and caregivers"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote user interviews across three studies"
+  - "Series of questions about representative selection process and engagements"
+  - "Recruitment through Perigean from December 2023 to March 2024"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 14
+    tablet: 0
+    smartphone: 10
+    assistive_technology: 0
+participants_total: 24
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 20
+  service_members: 0
+  caregivers: 8
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 5
+    "45-54": 3
+    "55-64": 8
+    "65+": 6
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 3
+    some_college: 2
+    associates: 4
+    bachelors: 6
+    masters: 8
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 11
+    rural: 13
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 16
+    black: 3
+    hispanic: 2
+    biracial: 2
+    asian: 2
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants frequently lacked understanding of representatives, what they do, and how they fit into VA processes, directly impacting their ability to get timely support"
+  - "Veterans and claimants using representation need help understanding and navigating VA processes and do not feel equipped to handle tasks themselves"
+  - "Through the search process, Veterans and claimants weigh pros and cons to build confidence in their decision, looking to peers, online resources, and local VA and VSO facilities"
+  - "Largest challenges when searching for representatives were scattered or inconsistent information and unreturned calls or emails, causing frustration and delays"
+  - "Representative engagement varies immensely and can make or break a Veteran or claimant's experience, with positive experiences including help with complete claims, evidence gathering, and empathetic communication"
+  - "Largest challenge with representative engagement was lack of punctual task completion and long wait or travel times, often leading to delays or missed claim deadlines"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "See 'How might we' sections in detailed findings for specific recommendations"
+  - "Continue to investigate and grow Veteran representative engagement and update report"
+  - "Build awareness of research with other teams in and outside of OCTO"
+  - "Create executive summary highlighting in-progress and future features impacted by research"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improved Veteran satisfaction with representative selection process"
+  - "Reduced time to find and engage with accredited representatives"
+  - "Increased successful representative engagements and claim submissions"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans and caregivers can find, select, and work with accredited representatives who meet their needs and provide appropriate support throughout the benefits claims process"
+  business: "Comprehensive understanding of Veteran representative experience informs ARM product development and improves representative management tools on VA.gov"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Education about representative types, roles, and VA processes"
+  - "Improved accuracy and accessibility of representative contact information"
+  - "Enhanced communication channels between Veterans and representatives"
+  - "Better transparency about representative engagement expectations and timelines"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "None specified - this is a synthesis of three prior studies"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans with cognitive disabilities"
+  - "Other than honorable discharge recipients"
+  - "Immigrant origin Veterans"
+  - "Expat Veterans living abroad"
+  - "Assistive technology users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Compilation of 5 research reports by ARM team prior to March 2024"
+  - "ARM GitHub research folder documentation"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Cross-study synthesis and analysis"
+  - "Interview transcripts across three studies"
 ---
 
 # Research Findings, Accredited Representative Management, Veteran & Caregiver Representative Experience Interviews, 2023 - 2024

@@ -1,95 +1,114 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "R&S Search and Filtering - Research Findings"
+product: "Resources and Support"
+team: "Sitewide Public Websites"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-03-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Rodney Little"
+  - "Dave Pickett"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Utilize Figma prototype to get user feedback on new filter design and functionality to find information"
+  - "Understand which search, filtering, and browsing options users choose and in what order"
+  - "Learn if labels and groupings of filters align with user mental models"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "Figma prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 2
+    smartphone: 10
+    assistive_technology: 0
+participants_total: 12
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 3
+  dependents: 5
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 3
+    "45-54": 2
+    "55-64": 4
+    "65+": 2
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 1
+    associates: 2
+    bachelors: 4
+    masters: 5
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 8
+    rural: 3
+    unknown: 1
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 8
+    black: 2
+    hispanic: 2
+    biracial: 1
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Almost all participants found desired information via browsing or searching - 10 of 12 completed all tasks"
+  - "Only 3 of 12 participants opened filter modal without prompting from moderator"
+  - "Most participants were able to successfully use most aspects of filter functionality once prompted"
+  - "Majority of participants (7 of 12) expressed frustration or confusion related to tags"
+  - "Almost all participants (10 of 12) understood filters and filter group labels"
+  - "7 participants navigated primarily via browsing with search as secondary"
+  - "4 participants navigated primarily via searching with browsing as secondary"
+  - "1 participant navigated primarily via filtering with browsing as secondary"
+  - "11 of 12 participants understood Apply Filters button but majority did not interact with Clear All or X buttons"
+  - "8 of 12 participants successfully interacted with filter chips and tags"
+  - "6 of 12 participants demonstrated understanding of and/or logic of filter groups"
+  - "Many participants (6 of 12) made comments about limited screen size on mobile"
+  - "7 participants wanted to sign in to see personalized content relevant to them"
+  - "3 participants wanted to use header navigation menu"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Increase visibility of filters on landing page to improve engagement since only few participants clicked filter button without prompting"
+  - "Consider changing word tag to something more plain-language like Topic since this aligns with filter description"
+  - "Consider revising how tags are shown on mobile to reduce screen space taken"
+  - "In future state consider authenticated version that surfaces content specific to Veteran as most expected personalized experience"
+  - "Monitor Medallia after launching to production for additional Veteran feedback on usability of tags"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improve discoverability of Resources and Support content"
+  - "Increase user satisfaction with information finding experience"
+  - "Reduce time to find relevant benefit information"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans and beneficiaries can efficiently find relevant benefit information using search, filters, and browsing options that align with their mental models"
+  business: "Improved content discoverability supports VA goal of helping beneficiaries understand and access their benefits through self-service resources"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Increase filter visibility and engagement on landing page"
+  - "Improve tag terminology and mobile presentation"
+  - "Develop authenticated experience with personalized content"
+  - "Continue refining filter labels based on user mental models"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Monitor Medallia feedback after production launch"
+  - "Test with assistive technology users"
+  - "Evaluate performance with expanded filter options in production"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Asian"
+  - "Transgender"
+  - "Assistive technology users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Figma prototype testing"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Synthesis spreadsheet"
 ---
 
 # R&S Search and Filtering - Research Findings 

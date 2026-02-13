@@ -1,95 +1,116 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+title: "In-Person Proofing Pilot - Proofing Agent Usability Test Research Findings"
+product: "In-Person Identity Proofing"
+team: "Secure Sign In Transition (SSiT)"
+office: "Office of the CTO (OCTO)"
+date: "2024-02-28"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Sophia Philip"
+  - "Sofia Kirkman"
+  - "Carl Dickerson"
+  - "Josie Griffith"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate the usability of the Proofing Agent-facing side of the In-Person Proofing application to identify opportunities for improvement"
+  - "Test the In-Person Proofing application process with 10 Proofing Agent participants within a two-week timeframe"
+  - "Conduct the usability test and complete the analysis within one month to inform design changes before on-site testing"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing via Zoom"
+  - "Think Aloud protocol"
+  - "Custom application testing in Vercel Environment"
+  - "Follow-up interviews about anticipated proofing experience"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: "Unknown - varied by participant"
+    tablet: "Unknown"
+    smartphone: "Unknown"
+    assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 7
+  staff_role: "My HealtheVet (MHV) Coordinators at various VAMCs"
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": "Unknown"
+    "35-44": "Unknown"
+    "45-54": "Unknown"
+    "55-64": "Unknown"
+    "65+": "Unknown"
+    unknown: 7
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: "Unknown"
+    some_college: "Unknown"
+    associates: "Unknown"
+    bachelors: "Unknown"
+    masters: "Unknown"
+    doctorate: "Unknown"
+    unknown: 7
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: "Unknown"
+    rural: "Unknown"
+    unknown: 7
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: "Unknown"
+    black: "Unknown"
+    hispanic: "Unknown"
+    biracial: "Unknown"
+    asian: "Unknown"
+    native: "Unknown"
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: "Unknown"
+    AT_beginner: "Unknown"
+    AT_advanced: "Unknown"
+    screen_reader_desktop: "Unknown"
+    screen_reader_mobile: "Unknown"
+    magnification_zoom: "Unknown"
+    speech_input: "Unknown"
+    hearing_aids: "Unknown"
+    sighted_keyboard: "Unknown"
+    captions: "Unknown"
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "VA staff are concerned that email access/verification can be a barrier, especially for those requiring care or who have a caregiver with medical Power of Attorney"
+  - "VA staff want to make sure we have an inclusive and secure process for using physical IDs to verify Veteran identities"
+  - "Locating VA staff is situational and depends on many factors, including if the Veteran is new to a VA facility"
+  - "VA staff had moments of pause or confusion throughout the verification process that were directly attributed to content and design elements"
+  - "Proofing Agents need clarification and brief instructions for validating a Veteran's ID"
+  - "VA staff liked the application and made reference to its straightforward guidance but desire more guidance and instruction if problems arise"
+  - "VA staff see the value in the in-person proofing service and welcome any ways to reduce the amount of work required for both Veterans and VA staff to complete verification"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "When presenting Proofing Agents with information, ensure that all content is presented in a manner that is easy to read, hierarchy makes the steps clear, and information is not hidden"
+  - "Proofing Agents might experience a learning curve for adopting IPP as a service and need to be informed with instructional content before they begin the process"
+  - "A pathway should be designed for In-Person Identity Proofing for Veterans who depend on a caregiver with medical Power of Attorney to ensure access and reduce fraud"
+  - "Consider accepting more identification types for In-Person Identity Proofing, such as Veteran Health Identification Cards (VHICs), to ensure Veterans are not blocked by limited identification options"
+  - "Add context and instructional content to ensure that Veterans can access their email addresses during verification"
+  - "Include instructional content and pathways for in-person services on how to reschedule, set up a walk-in appointment with no prior digital setup, or schedule VA Transport"
+  - "The IPP application must provide guidance on standardized data entry and automated error checking to reduce the likelihood of incorrect data entry"
+  - "Reduce duplicative work or the need to work across several applications"
+  - "Veterans should be able to select the verification method that works best for them or an alternative should they not be able to complete the verification method they prefer"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improve remote identity verification success rates (currently less than 50%)"
+  - "Increase Login.gov adoption among Veterans"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "VA staff can confidently guide Veterans through in-person identity verification with clear, intuitive application guidance"
+  business: "Successful pilot implementation leads to scaled rollout of in-person identity verification at VA facilities"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Email verification process for Veterans with cognitive disabilities or those relying on caregivers"
+  - "Expanded ID acceptance including VHICs while maintaining security"
+  - "Standardized wayfinding and scheduling for in-person appointments"
+  - "Automated data entry and error checking to reduce staff burden"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "On-site pilot testing at Baltimore VAMC with real Veterans"
+  - "Testing with Veterans who have caregivers with medical POA"
+  - "Validation of VHIC acceptance procedures and fraud prevention"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans with cognitive disabilities requiring caregiver support"
+  - "Veterans without valid or current identification"
+  - "Veterans without reliable email access"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "NIST 800-53 version 4 guidelines for identity verification"
+  - "My HealtheVet coordinator current verification processes"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Figma for notes, analysis and synthesis"
+  - "Zoom recordings and transcripts"
 ---
 
 2024-12-in-person-proofing-pilot-Proofing Agent-usability-test 

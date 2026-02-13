@@ -1,95 +1,139 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Appointments Oracle Health Integration and Scheduling Improvements Research Findings"
+product: "VA Online Scheduling (VAOS)"
+team: "Appointments Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-08-12"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Melissa Lefevre"
+  - "Peter Russo"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate scheduling flow for booking appointments at Oracle Health facility, including provider selection during scheduling"
+  - "Test concepts for improving scheduling flow including scheduling from previous appointments, showing recent locations first, better timing for urgent care messages"
+  - "Test concept for sharing important messages and tasks with Veterans through notifications"
+  - "Determine what information Veterans want when deciding between providers"
+  - "Assess if Veterans find warnings about urgent medical needs helpful or frustrating"
+  - "Evaluate if scheduling from previous appointments makes process faster and easier"
+  - "Test if sort by recent locations feature adds value"
+  - "Evaluate notification bell functionality and content clarity"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability testing"
+  - "Remote sessions via Zoom with prototype"
+  - "Mobile and desktop testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 9
+    tablet: 0
+    smartphone: 4
+    assistive_technology: 0
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 12
+  service_members: 0
+  caregivers: 1
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 2
+    "45-54": 1
+    "55-64": 2
+    "65+": 8
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 1
+    associates: 2
+    bachelors: 6
+    masters: 1
+    doctorate: 1
+    unknown: 2
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 11
+    rural: 2
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 13
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants indicated need to know if providers listed were ones they've seen before and wanted to see provider experience, availability, and option to view provider details"
+  - "It wasn't clear to 8 participants that they had previous relationship with providers in list"
+  - "Only 1 participant understood that request meant going through different process rather than direct-scheduling"
+  - "In life-threatening situations, participants would not use appointments on VA.gov"
+  - "4 participants would try to direct-schedule same day appointment for non-emergency immediate medical care, indicating scheduling tool purpose not clear"
+  - "10 participants reacted positively to resource for how to choose between urgent and emergency medical care"
+  - "4 participants appreciated urgent medical needs alerts finding them useful and timely, while 4 others found them frustrating or unnecessary"
+  - "I need immediate care option as type of care in scheduling tool was ineffective overall"
+  - "10 participants found scheduling from previous appointments adds value and is faster and easier"
+  - "5 participants had difficult time finding and clicking I need a different appointment option"
+  - "Choose an appointment you've had in the past wording caused confusion for some participants"
+  - "5 participants found review available appointments wording misleading"
+  - "Sort by recent locations feature was clearly understood but effectiveness inconclusive without real user data"
+  - "Participants did not notice when notification bell became active and lit up red (except one person)"
+  - "12 participants understood bell was clickable and there was something to do or read if clicked"
+  - "Overall participants understood each notification but some content areas caused confusion"
+  - "A couple participants noted red background for notification CTA was alarming"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Clarify that providers listed are ones Veteran has seen in past"
+  - "Allow participants to select multiple providers or no preference option to show all available times"
+  - "Consider displaying details like full credentials, years of experience, and other valuable provider or clinic data"
+  - "Consider including date they last saw the provider"
+  - "Clarify what requesting appointment means and how it is different process entirely"
+  - "Consider where link to urgent and emergency care resource might live within appointments tool"
+  - "Consider reducing content around call 911 if this is emergency as participants aware of this"
+  - "Provide educational message that Appointments tool not meant for same day or urgent care appointments"
+  - "Consider making nurse hotline available on appointments scheduling tool"
+  - "Implement system that provides personalized alerts based on signs and symptoms entered"
+  - "Consider adding express scheduling feature to appointments tool with adjustments to content and layout"
+  - "Improve content and placement of option to choose type of care not listed from past appointments"
+  - "Consider iterating on choose appointment from past content and review available appointments verbiage"
+  - "Continue organizing appointments with primary care at top then by recency"
+  - "Test sort by recent locations in GA4 and DataDog RUM to see if users change default"
+  - "Conduct further research on notifications with focus on usability and content in broader context beyond just appointment scheduling"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Make scheduling process faster and easier for Veterans"
+  - "Reduce phone calls to scheduling staff"
+  - "Improve scheduling experience at Oracle Health facilities"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can more easily schedule appointments at Oracle Health facilities with better provider selection, express scheduling from past appointments, and helpful alerts and notifications"
+  business: "Improved user experience for Oracle Health scheduling and actionable insights on which scheduling improvements are most valuable for development implementation"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Notifications feature needs significant improvement in visibility and clarity"
+  - "Provider information and selection process needs enhancement with more details and clearer indicators of past relationships"
+  - "Immediate care messaging needs better placement and clarity to prevent misuse of scheduling tool"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Conduct further research on notifications with focus on usability and content beyond appointment scheduling"
+  - "Test with real user data for sort by recent locations and express scheduling features"
+  - "Evaluate if red color for notifications should be changed to less alarming color"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Black or African American Veterans"
+  - "Hispanic, Latino, or Spanish origin Veterans"
+  - "Biracial Veterans"
+  - "Asian Veterans"
+  - "Native Veterans"
+  - "LGBTQ+ Veterans"
+  - "Transgender Veterans"
+  - "Veterans using assistive technology"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Slide deck presentation"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Zoom sessions"
+  - "Usability testing notes"
+  - "Participant feedback tracking"
 ---
 
 # Appointments Oracle Health Integration and Scheduling Improvements Research Findings 

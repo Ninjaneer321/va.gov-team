@@ -1,95 +1,118 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VA Mobile App - IA & Navigation Research: Closed Card Sort Research Findings"
+product: "VA Mobile App"
+team: "VA Mobile App Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-03-10"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Holly Collier"
+  - "Melissa Lefevre"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how users think about the current and possible future content in the VA mobile app"
+  - "Confirm what the high-level information architecture categories should be in the VA mobile app"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Unmoderated closed card sort"
+  - "Optimal Workshop card sorting"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 45
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 45
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 45
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "18-24": 1
+    "25-34": 4
+    "35-44": 4
+    "45-54": 11
+    "55-64": 25
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 6
+    associates: 5
+    bachelors: 19
+    masters: 13
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 20
+    rural: 25
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 34
+    black: 6
+    hispanic: 2
+    biracial: 3
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  gender:
+    male: 24
+    female: 21
+  lgbtq:
+    transgender: 0
+    nonbinary: 2
+    gay_lesbian_bisexual: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Overall, participants grouped the cards provided in similar ways, and they included the same core groups of cards within the provided categories (Health, Benefits, Payments, Account, General VA Info)"
+  - "Overall, the categories participants created were in line with what we predicted"
+  - "Participants overwhelmingly agreed on which categories to place the majority of cards, with 20 out of 36 cards having very high agreement (33 had high agreement or greater)"
+  - "More than half of participants (25) reported that they felt uncertain about where to place one or more cards"
+  - "Only a few participants created new categories - the only category created by more than one person was Education (3)"
+  - "The new Payments category performed well despite not yet existing on VA.gov - the majority of participants sorted payment-related cards into the new Payments category"
+  - "Previous use of the VA Mobile app seemed to affect the way participants sorted cards - VA Mobile App users grouped cards in similar ways, whereas non-users grouped cards in a variety of different ways"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Keep Health category name and contents as proposed, explore adding subcategories in tree test taxonomy"
+  - "Keep Payments category name, could consider alternate label 'Money', move 'Manage direct deposit' into this category"
+  - "Keep Benefits category name, explore adding subcategories (Education and training, Disability claims and appeals) in taxonomy to address extensibility"
+  - "Rename Account to Profile to better distinguish from Benefits category and avoid being a 'catchall' category, explore adding subcategories, move 'VA letters & documents' into this category"
+  - "Consider renaming General VA Info category or dropping it altogether and having items live on Home as they do currently, consider moving 'Share this app' into this category"
+  - "As of 3/16/22, follow VA.gov's lead on whether to include COVID-19 updates on the homescreen"
+  - "Based on the difference in mental model between mobile vs non-mobile users, recommend considering onboarding or cross-references for some cards to address the gap"
+  - "Consider testing the findability of items in the current VA Mobile app's IA using TreeJack to set a benchmark before testing the findability of items in the proposed IA"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily navigate and find content in the VA Mobile app using intuitive information architecture"
+  business: "VA Mobile app information architecture is scalable and supports future growth in features and content"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Participants expressed uncertainty around Benefits and Payments categories, suggesting need for clearer differentiation or subcategories"
+  - "Some cards had lower agreement among participants, indicating potential for improved labeling or placement"
+  - "Account category served as catchall for some participants, suggesting need for clearer category definition"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Tree test to validate findability of items in proposed IA"
+  - "Test the findability of items in current VA Mobile app IA using TreeJack to set a benchmark"
+  - "Future research on onboarding or cross-references to address mental model gap between mobile and non-mobile users"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Cognitive Disability"
+  - "Participants without a degree"
+  - "Other than honorable discharge"
+  - "Identify as Asian, Latinx, Native"
+  - "Expat"
+  - "LGBTQ+"
+  - "Assistive Tech users"
+  - "Mobile-only users"
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Optimal Workshop OptimalSort"
+  - "Google Sheets for planning and analysis"
+  - "Mural for qualitative analysis"
 ---
 
 

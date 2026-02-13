@@ -1,95 +1,129 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "PACT Act Wizard Usability Testing - Research Findings"
+product: "PACT Act Wizard"
+team: "Sitewide Public Websites"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2023-11-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Cindy Merrill"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Questions drafted for PACT Act Wizard are clear and easy enough for Veterans to understand and confidently answer"
+  - "Veterans can understand from results if they might be eligible for disability or health care based on PACT Act"
+  - "Veterans can understand from results how to apply for benefits related to PACT Act based on their situation"
+  - "Veterans know enough about military service to answer questions"
+  - "Get feedback on results pages"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote usability testing via Zoom"
+  - "Online survey in Survey Monkey to test content/text/branching logic"
+  - "Prototype testing (not high-fidelity UI design)"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 8
+    tablet: 0
+    smartphone: 1
+    assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  service_era:
+    "1989_or_earlier": 4
+    "1990_or_later": 2
+    "both_periods": 3
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 9
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 9
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 9
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 9
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All 9 participants had positive experience with wizard and could understand eligibility and next steps"
+  - "Some questions confusing: service years question (3 of 9), C-123 planes (2 of 5), DMZ terminology (1 of 7)"
+  - "Some participants wanted maps/location information to help answer geographic questions (2 wanted maps)"
+  - "Some interaction challenges on 'You may be eligible' results pages"
+  - "Some participants had incorrect beliefs about PACT Act eligibility criteria"
+  - "Questions about how and when to apply for PACT Act benefits"
+  - "Average confidence rating 5.7 out of 7 for understanding next steps"
+  - "6 of 9 participants landed on 'You may be eligible' results page"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Clarify service years question and provide additional context"
+  - "Add explanation for C-123 planes terminology"
+  - "Define DMZ and neutral zone terms"
+  - "Consider adding maps or location lists for geographic questions"
+  - "Add link to full list of presumptive conditions"
+  - "Better support for currently disabled Veterans seeking additional compensation"
+  - "Create FAQ addressing CRSC and Supplemental Claim concerns"
+  - "Improve interaction design on 'You may be eligible' results pages"
+  - "Clarify when to apply for benefits vs when benefits become available"
+  - "Consider additional help text for complex terminology"
+  - "Test additional medical conditions questions with broader audience"
+  - "Add guidance for family members applying on behalf of Veterans"
+  - "Improve mobile experience based on limited mobile testing"
+  - "Test with screen reader users to ensure accessibility"
+  - "Consider how to surface PACT Act information to eligible Veterans who may not know about it"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Veterans can determine PACT Act eligibility through wizard"
+  - "Veterans understand next steps for applying for benefits"
+  - "Reduce calls to VA about PACT Act eligibility questions"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily determine if PACT Act applies to them and understand how to apply for benefits"
+  business: "Reduce support burden and increase PACT Act benefit applications from eligible Veterans"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Integration with VA disability claim form for seamless application"
+  - "Proactive outreach to eligible Veterans who may not know about PACT Act"
+  - "Better education about presumptive conditions and how they relate to service"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Test with additional medical conditions questions"
+  - "Test with people unfamiliar with presumptive conditions concept"
+  - "Test with family members (non-Veterans) answering on behalf of Veteran"
+  - "Test with more smartphone users"
+  - "Test with screen reader users for accessibility validation"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Screen reader users and other assistive technology users"
+  - "Family members applying on behalf of Veterans"
+  - "Mobile/smartphone users (only 1 of 9 participants)"
+  - "Veterans unfamiliar with presumptive conditions"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Review of existing PACT Act information on VA.gov"
+  - "Analysis of VA call center data about PACT Act questions"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Synthesis spreadsheet"
+  - "Survey Monkey for prototype delivery"
 ---
 
 # PACT Act Wizard Usability Testing -- Research Findings 

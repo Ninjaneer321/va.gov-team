@@ -1,95 +1,107 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Appointments List Research Findings"
+product: "VA Online Scheduling and MyHealtheVet appointments"
+team: "VAOS+MHV"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-02-28"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Peter Russo - peter.russo@adhocteam.us"
+  - "Ciera Maddox (VAOS)"
+  - "Andrea Perez (MHV)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Identify anything participants find lacking or confusing in the VAOS appointment list, in comparison with the same list in MHV"
+  - "Determine what changes are needed to the VAOS list beyond what was identified in the gap analysis"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Concept testing"
+  - "Comparative analysis (MHV vs VAOS)"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 9
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 2
+    "45-54": 2
+    "55-64": 4
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 1
+    associates: 1
+    bachelors: 2
+    masters: 3
+    doctorate: 2
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 7
+    rural: 2
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 2
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants were most confused that two different sites list their appointments"
+  - "Clinic names confused participants"
+  - "Some participants were confused to see unfamiliar facilities when navigating from MHV to VAOS"
+  - "Participants wanted to be able to easily differentiate appointments in VAOS"
+  - "Participants wanted to easily understand how and where they would attend their appointments"
+  - "Participants wanted tools to help them contact their provider"
+  - "Almost all participants responded positively to the proposed concept"
+  - "Some participants found the word 'pending' confusing in the concept"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Provide clear information that answers basic questions about appointments in the list"
+  - "Build on the proposed concept"
+  - "Review the Cerner offboarding interaction when navigating from MHV to VAOS"
+  - "Advocate for clear clinic names"
+  - "Consider providing a path to Secure Messenger from the appointment list"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily understand and manage their health care appointments when transitioning from MHV to VAOS"
+  business: "Validate findings from concept study with usability research"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Technical discovery to surface clearer clinic name data"
+  - "Discovery with facilities to understand what value the codes provide schedulers"
+  - "Provide a simple path to the secure messaging tool from the appointments list"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Usability testing on updated prototype"
+  - "Validation of situations where type of care can/can't be shown"
+  - "Discovery to see if it's possible to surface lab information, clearer clinic name and location information, and facility campus map or location pages"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Cognitive Disability"
+  - "Other than honorable"
+  - "Expat"
+  - "LGBTQ+"
+  - "Assistive Tech users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Gap analysis (VA Network)"
+  - "Recommendations document (VA Network)"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Spreadsheet"
 ---
 
 # Appointments List Research Findings 

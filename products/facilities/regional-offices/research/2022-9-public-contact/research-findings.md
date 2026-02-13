@@ -1,95 +1,96 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VBA Public Contact Staff Research Findings"
+product: "Facilities"
+team: "VBA Regional Office, Facilities"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-12-23"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Dave Pickett (dave.pickett@civicactions.com)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand service delivery model for the facility (or group of facilities) for a geographic area"
+  - "Understand common tasks Veterans attempt to complete during in-person visits"
+  - "Understand the typical Veteran experience (successes, expectations, frustrations, complaints) at these facilities"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Remote via Zoom"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 12
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 12
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 12
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 12
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 12
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Services at Public Contact Offices can be categorized in four distinct ways: benefits, tasks, documents, beneficiaries"
+  - "Public Contact staff are primarily equipped to assist with the benefit of disability compensation"
+  - "Public Contact staff primarily assist with the task of applying for benefits"
+  - "Providing beneficiaries official documents is a significant function of Public Contact Offices"
+  - "Few (if any) services require a Veteran to be physically present at a Public Contact Office"
+  - "Public Contact staff provide a consistent set of services at multiple VBA facility types"
+  - "A common source of Veteran frustration is a mismatch between services expected and services available at Public Contact Offices"
+  - "Veterans sometimes conflate the VBA with a centralized VA, VSOs, and other agencies"
+  - "There is little standardization in how Public Contact Offices handle appointments"
+  - "Wait times for walk-ins are primarily affected by facility location and staffing"
+  - "The documents and information needed to prepare for a visit varies by service"
+  - "Public Contact Offices may stop taking clients prior to the official closing time"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Update the VBA Service taxonomy to accurately reflect the services available at Regional Offices"
+  - "Clearly indicate the distinction between virtual and in-person appointments"
+  - "Ensure Veterans can easily tell if a facility allows walk-ins or not"
+  - "Consider involving stakeholders from VR&E so we can accurately route Veterans to those services"
+  - "Consider how co-located VSOs might be displayed on RO pages to clarify their relationship to the VA"
+  - "Consider use cases for Regional Offices, Satellite Offices, & Outreach sites"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 ---
 
 # VBA Public Contact Staff Research Findings 

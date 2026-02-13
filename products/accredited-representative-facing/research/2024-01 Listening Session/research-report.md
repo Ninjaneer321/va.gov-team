@@ -1,95 +1,130 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VSO Listening Session Findings"
+product: "Accredited Representative Portal (ARP)"
+team: "Accredited Representative Facing Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-02-02"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Kara Sanchez"
+  - "Rebecca Blakiston"
+  - "Renata Keck"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand current state of technological tools used by accredited representatives"
+  - "Identify updates needed as VA approaches sunsetting of Stakeholder Enterprise Portal (SEP)"
+  - "Document VSO, State, and private bar partners' dependency on SEP"
+  - "Identify critical SEP functions that need to be duplicated in new system"
+  - "Explore other tools organizations would like VA to consider for system and advocacy efficiency"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Listening session (1/23/24) with approximately 50 invited accredited representatives"
+  - "Poll Everywhere for demographic and behavioral questions (limited to 25 responses)"
+  - "Open-ended questions with upvote/downvote functionality"
+  - "Collaborative organization with VBA (Marty Caraway, Ray Tellez, Paul Shute)"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: "Primary device mentioned by participants"
+    tablet: "Not mentioned"
+    smartphone: "Not mentioned"
+    assistive_technology: "Not explicitly discussed"
+participants_total: 54
+participant_type: "Accredited representatives (VSO, State, private bar attorneys)"
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+  participants_breakdown:
+    accredited_representatives: 40
+    interested_va_staff_contractors: 14
+  organization_type:
+    national_vso: 70
+    state_vso: 13
+    county_local_regional_vso: 9
+    attorney: 4
   location:
-    urban: X
-    rural: X
-    unknown: X
-  race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
-  disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    colorado: 1
+    connecticut: 1
+    indiana: 1
+    maryland: 1
+    michigan: 1
+    minnesota: 1
+    nevada: 1
+    new_jersey: 1
+    north_carolina: 1
+    north_dakota: 1
+    ohio: 1
+    rhode_island: 1
+    texas: 1
+    virginia: 1
+    washington_dc: 1
+  tool_usage:
+    sep_daily_weekly: 41
+    sep_monthly: 18
+    sep_rarely_never: 32
+    sep_unsure: 9
+    vbms_daily_weekly: 90
+    vbms_monthly: 5
+    vbms_rarely_never: 5
+    third_party_cms_daily_weekly: 52
+    third_party_cms_monthly: 10
+    third_party_cms_rarely_never: 40
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Power of Attorney (POA) process top need: Immediate access to VBMS including Veteran's eFolder and files within it (13 votes)"
+  - "SEP has strong value proposition: Fast access to VBMS and fast submission of claims; participants love SEP speed for dependency claims during pandemic"
+  - "Top pain point: PDFs upload blank and lack accessibility; must use Adobe Acrobat (some pay out of pocket)"
+  - "Notification preferences vary significantly: Some want alerts for all claim status changes; others concerned about notification noise; caseload is major factor"
+  - "Distinction between VBMS, SEP, third-party tools, and new tool is unclear; all systems need to work well together"
+  - "SEP used 41% daily/weekly; VBMS used 90% daily/weekly; Third-party CMS used 52% daily/weekly"
+  - "Top desired features: Similar but upgraded SEP with updated forms (11), ability to submit dependency claims (10), education claims (7), better BVA case handling (7)"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Build on what SEP does well: fast access to VBMS and fast submission of claims"
+  - "Develop content strategy to keep tool content and forms up-to-date (coordinate with Lighthouse for digital submissions)"
+  - "Develop strong change management plan for sunsetting SEP and transitioning users to new system"
+  - "Ensure new tool works well with other tools not being sunsetted; clarify scope of what new tool does vs. other tools"
+  - "Investigate how to allow representatives to see Veteran information prior to accepting POA (pending claims, appeals, existing representation)"
+  - "Investigate if/how Veteran can request/select specific person from VSO (coordinate with ARM team)"
+  - "Investigate how to reduce need for Veterans to resubmit 21-22 form and/or notify when they might lose POA due to form updates"
+  - "Be very intentional in notification design to meet various representative preferences; allow customization of notification settings"
+  - "Investigate ability to tie claims to individual representatives as well as raters and their contact information"
+  - "Aim for high adoption of digital tool with strong change management while remembering some VSOs might never use it"
+  - "If/when working on claims submission process, consider: contact information or messaging for raters/reviewers and labeling options/workflows"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "VBMS access upon POA acceptance validates focus on immediate access feature for big VSO impact"
+  - "Focus on instant form acceptance to VBMS to meet user expectations"
+  - "Maintain or improve SEP submission speed (dependency claims in next Veteran check)"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "VSO representatives get immediate VBMS access upon accepting POA; faster claim submissions; ability to track claims; better labeling and documentation control; timely responses from raters"
+  business: "Successful SEP sunset; maintained or improved claim processing speed; reduced delays and lost submissions; strong user adoption through change management"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Immediate access to VBMS and eFolder upon POA acceptance"
+  - "Ability to check information prior to accepting POA (pending claims, appeals, representation status)"
+  - "Veteran ability to request/select specific VSO officer"
+  - "Reduce need for Veterans to resubmit 21-22 form; notify of potential POA loss"
+  - "Upload and access documents directly and instantly in VBMS"
+  - "Label, describe, and re-label evidence with accurate descriptions in VBMS"
+  - "Access to and responses from raters"
+  - "Notification/alert system for individual representatives when claim status changes"
+  - "Claims associated with individual representatives"
+  - "Accurate, real-time claims tracking system that Veterans can access"
+  - "Ability to submit dependency claims (with fast processing like SEP)"
+  - "Ability to submit education claims"
+  - "Better BVA case handling (improve or replace CaseFlow)"
+  - "Everything in one system (VBMS, SEP, SEHARES, CaseFlow integration)"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Validate if we can allow representatives to see information about Veteran prior to accepting POA"
+  - "Understand how to notify Veterans, VSOrgs, and VSOfficers when they might lose POA due to form updates"
+  - "Test notification preferences and customization options with representatives of varying caseloads"
+  - "Understand feasibility of tying claims to individual representatives"
+  - "Research rater contact information and messaging feature requirements"
+  - "Understand adoption barriers and change management needs for digital tool rollout"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "County VSOs without VBMS access (75% of NY counties have it; many nationwide lack access)"
+  - "Private attorneys and claims agents (4% representation in session)"
+  - "Representatives from smaller local/regional VSOs (only 9% representation)"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Poll Everywhere polling results"
+  - "Slide deck with presentation and polling results (Google Slides)"
+  - "Slide deck of just polling results (Google Slides)"
+  - "Spreadsheet of raw and summarized polling results (Google Sheets)"
+  - "Screenshots of Poll Everywhere results (embedded in document)"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Poll Everywhere (demographic and open-ended questions with voting)"
+  - "Google Slides (presentation materials)"
+  - "Google Sheets (results compilation)"
 ---
 
 # VSO Listening Session Findings

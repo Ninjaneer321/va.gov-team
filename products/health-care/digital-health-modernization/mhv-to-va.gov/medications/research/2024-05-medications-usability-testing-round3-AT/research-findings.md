@@ -1,95 +1,125 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "MHV on VA.gov Medications Usability Testing Round 3 - Assistive Technology Research Findings"
+product: "My HealtheVet on VA.gov - Medications"
+team: "MHV on VA.gov"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-06-10"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Anne Costello Kennedy"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand if Veterans can locate and fill/refill their medications"
+  - "Identify any usability issues Veterans may experience with managing their medications"
+  - "Understand Veterans' expectations and preferences for using Medications on VA.gov"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability testing"
+  - "Remote sessions"
+  - "Task-based evaluation"
+  - "Follow-up questions and observations"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 8
+    tablet: 2
+    smartphone: 3
+    assistive_technology: 9
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 13
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 0
+    "45-54": 1
+    "55-64": 7
+    "65+": 4
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 4
+    associates: 4
+    bachelors: 2
+    masters: 3
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 7
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 9
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 7
+    AT_beginner: 1
+    AT_advanced: 8
+    screen_reader_desktop: 2
+    screen_reader_mobile: 2
+    magnification_zoom: 4
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  gender:
+    male: 9
+    female: 4
+  lgbtq:
+    gay_lesbian_bisexual: 1
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "VoiceOver screen reader on iPad announced incorrect details not associated with the specific medication in focus"
+  - "All screen reader dependent participants expected to find all medications on 'Refill prescriptions' page and did not understand all medications are on 'Medications' page"
+  - "Most participants (11 of 12) were able to refill individual medications and all participants (12 of 12) refilled multiple medications successfully"
+  - "Most participants (10 of 12) were able to confirm successful submission of refill requests"
+  - "Most participants (7 of 11) accessed 'Learn to renew' link on medication cards or detail screens"
+  - "Most participants (9 of 11) could differentiate among Active, Expired, and Discontinued medications"
+  - "All participants (11 of 11) used scrolling to find medications; 4 of 11 AT users also used sort feature"
+  - "Few participants (3 of 11) recognized default sort order; participants split on sort preferences"
+  - "Most participants (7 of 9) seek medication side effects information; 5 of 9 seek dosage/instructions"
+  - "All participants (9 of 9) could print/download medication list; most (8 of 9) could print/download single medication"
+  - "Most participants (8 of 10) prefer downloading over printing; 8 of 10 felt reports were too long"
+  - "Most participants (8 of 10) reacted positively to 'Allergies and reactions' inclusion in reports, but only 4 of 12 knew where to find this in My HealtheVet"
+  - "Participants are most interested in refilling medications; finding medication information is secondary focus"
+  - "All screen reader dependent participants (4 of 4) were confused by H4 text 'Image' followed by hidden ARIA code"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Correct coding issue where each card container does not have unique ID for accurate screen reader announcements"
+  - "Fix issue where '-select-' can be a sort option to prevent confusion"
+  - "Strategize making sort button more noticeable to screen reader users; consider forcing focus to sort button after selection"
+  - "Hide 'Image' H4 from screen readers to remove confusion"
+  - "Strategize way to orient Veterans to intent of 'Refill prescriptions' page"
+  - "Place 'Go to medications list' link at top of page and make it more visible"
+  - "Add pagination to top of 'Medications' list page to save screen reader users from navigating entire 20-medication list"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improve medication refill success rates"
+  - "Enhance accessibility for Veterans using assistive technology"
+  - "Reduce time to complete medication management tasks"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can efficiently manage medications with improved accessibility and clear information hierarchy"
+  business: "Increased medication refill completion rates and reduced support calls"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Improve screen reader experience with unique card IDs and better focus management"
+  - "Enhance orientation to different medication pages and their purposes"
+  - "Optimize pagination placement for assistive technology users"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Retest sort usage with Veterans without sight impairment using environment with 40+ medications"
+  - "Test in later phases with Veterans using new refill flow to see if they would still sort by status"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Transgender Veterans"
+  - "Nonbinary, gender fluid, gender queer, Two-Spirit Veterans"
+  - "Hispanic Veterans"
+  - "Biracial Veterans"
+  - "Native Veterans"
+  - "Veterans using speech input technology"
+  - "Veterans using hearing aids"
+  - "Veterans using sighted keyboard"
+  - "Veterans requiring captions"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "None specified"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
 ---
 
 # MHV on VA.gov, Medications Usability Study 3 Research Findings

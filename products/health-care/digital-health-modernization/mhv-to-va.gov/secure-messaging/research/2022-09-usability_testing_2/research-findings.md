@@ -1,95 +1,118 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Secure Messaging Round 2 Usability Testing Research Findings"
+product: "Secure Messaging"
+team: "Health Apartment - UCD"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-12-09"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Anne Costello"
+  - "Lexi Wunder"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Identify major usability or content issues with the current prototype of Secure Messaging on VA.gov"
+  - "Determine usability of components that have not been inducted into the VA.gov Design Library"
+  - "Assess user experiences with updated content that aims to protect Veterans' safety"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "Prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 11
+    tablet: 1
+    smartphone: 5
+    assistive_technology: 0
+participants_total: 17
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 17
+  service_members: 0
+  caregivers: 0
+  dependents: 1
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 3
+    "35-44": 2
+    "45-54": 3
+    "55-64": 3
+    "65+": 6
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 3
+    associates: 3
+    bachelors: 3
+    masters: 7
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 11
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 12
+    black: 4
+    hispanic: 1
+    biracial: 1
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 12
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Most participants (11 of 17) looked for a Save Draft button when asked if their draft would be available later"
+  - "Many participants (8 of 17) did not notice the auto-saved message under the Send and Discard draft buttons"
+  - "Many participants (8 of 17) did not know which folder they searched in despite the folder name being under the Search Results header"
+  - "Some participants (3 of 17) requested a Search all option"
+  - "Many participants (8 of 17) expected the system to search in the body and/or attachments of messages"
+  - "Further research is needed on the Patient Safety warnings as the data collection method was unreliable"
+  - "Most participants (9 of 17) used their mental model of email to understand the product"
+  - "All participants (17 of 17) understood that a conversation could contain multiple messages"
+  - "Most participants (16 of 17) could differentiate between read and unread messages based on font weight and dot icon"
+  - "All participants (17 of 17) successfully replied to a message and attached and removed a document"
+  - "Most participants (16 of 17) successfully created a folder, changed a folder name, and deleted a folder without assistance"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Add a visible Save Draft button or make the auto-save notice more prominent and clear"
+  - "Make folder search scope more obvious to users by including it in a more prominent location"
+  - "Consider adding a Search all folders option for users who need to search across all messages"
+  - "Clarify which parts of messages are searched (subject line, body, attachments) in help text or documentation"
+  - "Conduct additional research on patient safety warnings using more reliable data collection methods like eye tracking"
+  - "Consider changing patient safety warning design to increase visibility and readability"
+  - "Redesign the patient safety notice as a modal that must be acknowledged before composing first message"
+  - "Change color of When to get help box to yellow and keep it collapsed to reduce screen space while maintaining visibility"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improved usability of Secure Messaging on VA.gov"
+  - "Reduced patient safety risks through better emergency information visibility"
+  - "Successful migration of MHV Secure Messaging to VA.gov"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily and safely communicate with their healthcare providers through Secure Messaging on VA.gov"
+  business: "Successfully migrate MHV Secure Messaging to VA.gov with improved usability and maintained patient safety"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Improving draft saving experience and user confidence in auto-save functionality"
+  - "Enhancing search functionality visibility and scope clarity"
+  - "Increasing awareness and effectiveness of patient safety warnings"
+  - "Leveraging email mental models to improve user experience"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Additional usability testing on the live site in Phase 0"
+  - "Assistive Technology (screen reader) testing"
+  - "Additional research on search function with full functionality"
+  - "Specific research study on patient safety notice effectiveness"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Other than honorable discharge"
+  - "Expats"
+  - "Asian Veterans"
+  - "Native Veterans"
+  - "LGBTQ+ Veterans (limited representation)"
+  - "Assistive Technology users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "None documented"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Zoom recordings and transcriptions"
+  - "Interview notes analysis"
 ---
 
 # Secure Messaging Round 2 Usability Testing November 2022 Research Findings

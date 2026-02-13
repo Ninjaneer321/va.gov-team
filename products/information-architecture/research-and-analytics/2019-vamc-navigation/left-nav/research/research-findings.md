@@ -1,95 +1,122 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Local Nav Research Report - Research Findings"
+product: "VA.gov VAMC Website"
+team: "Information Architecture"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2019"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Not specified"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate whether the new local navigation design is more effective at facilitating user navigation than the current navigation design"
+  - "Determine if users currently have a hard time finding content in subsections on VA.gov"
+  - "Assess whether the new design makes it easier to find content in subsections on VA.gov"
+  - "Understand if users of this design understand how to browse the children of a section without navigating to that section"
+  - "Determine if users of VA.gov use the local navigation element as a method of ascertaining where they are in the information architecture"
+  - "Assess whether the new design helps users ascertain where they are in the information architecture of VA.gov"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "Ethnographic interviews"
+  - "Two-stage usability observation (lightly moderated first stage, structured second stage)"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 5
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 1
+    unknown: 3
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 5
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Users of the current local navigation design cannot easily find content deeper within the site without engaging in pogo-sticking behavior"
+  - "Users of the current local navigation design cannot make deep lateral moves across parent level sections easily (partially true)"
+  - "Users of the redesigned local navigation find this design helpful in browsing a subsection of a site without going to that subsection and reading the page"
+  - "Users of the redesigned local navigation still frequently use the back button and breadcrumbs to move throughout the site rather than making deep lateral moves"
+  - "Users were confused by the difference in behavior between the carat button indicating children and clicking on the label itself"
+  - "Users expressed confusion or made false assumptions about parent-child relationships based on the design of the page"
+  - "The new design has increased support for satisficing behaviors and lateral movement across the site"
+  - "Users successfully moved across deeper levels of the site using breadcrumbs when the navigation element is removed"
+  - "The levels of hierarchy and ownership of pages were unclear to multiple users, with users mistakenly assuming sibling level pages were actually child level pages"
+  - "Breadcrumbs are rendered inconsistently, with the Home link displaying and disappearing throughout different levels of the Pittsburgh VAMC pages"
+  - "Breadcrumbs and primary navigation elements were confused when the Home breadcrumb is removed"
+  - "Users did not detect a change when opening and/or closing menus"
+  - "Double clicking on this menu design creates confusion for users who are likely to double click"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Create a more discernible difference between levels in the hierarchy with clearer containment of child items and more clearly distinguish a menu's open state"
+  - "Fix the breadcrumb inconsistency bug and either remove all occurrences of the Home breadcrumb or change the label to something more descriptive"
+  - "Consider more closely integrating breadcrumbs with the page title by moving it above the title and left aligning it within the title's container column"
+  - "Be cautious about labelling issues by ensuring labels used in breadcrumbs can be clearly distinguished from nearby global navigation labels"
+  - "Reset and animate movement of the page scroll setting to display anything that has been revealed when menus open or close"
+  - "Animate the opening and closing processes for a menu to make state changes more detectable"
+  - "Use javascript to detect a double-click and treat it as a single click"
+  - "If a user is browsing past events, See all events should take them back to the listing of all past events, not upcoming events"
+  - "Display all third level pages in the local navigation except when they are chronologically listed items such as Events, Stories, or News releases"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Clearer visual hierarchy between parent and child navigation items"
+  - "More consistent breadcrumb implementation across VAMC sites"
+  - "Better distinction between global navigation and local navigation elements"
+  - "More detectable state changes for interactive menu elements"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Testing with older Veterans to confirm unique challenges with this design"
+  - "Testing on mobile devices for navigation patterns"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Older Veterans with less computer savvy"
+  - "Veterans with varying levels of computer ability"
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "DSC: Accordions"
+  - "HDW: Desktop"
+  - "usability-testing"
+  - "evaluative"
+  - "VAMC"
+  - "navigation"
+  - "information-architecture"
 ---
 
 # Local Nav Research Report

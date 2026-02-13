@@ -1,95 +1,103 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VAMC VHA Mobile Redesign Discovery Round 2 Research Findings"
+product: "VA Medical Centers"
+team: "Facilities"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-10-11"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Leyda Hughes"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Validate or invalidate the MVP design of the new schedule section for use by mobile clinic/MMU facility types"
+  - "Identify problems with design"
+  - "Discover opportunities to consider for future iterations"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Video interviews over Teamsite"
+  - "Prototype screen sharing"
+  - "Design validation sessions with stakeholders"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Some MMUs travel hundreds of times in a calendar year making it inefficient to create a complete facility site for each stop"
+  - "Some MMUs travel to multiple addresses with a shared city and state"
+  - "Some MMU medical services are offered without an appointment"
+  - "Maintaining data accuracy for a fluctuating number of websites may be difficult, if not impossible, for some low-staffed locations"
+  - "Content editors liked the option of a flexible, rich text, content section"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Reconsider if MMU location stops need to be listed in the left nav of the page"
+  - "Include an On this page component for quicker access to Main locations, Health clinic locations, Other nearby VA locations, and a new Mobile clinic locations"
+  - "Consider how to make the creation and upkeep of mobile clinic websites, with their volatile schedules, easier on content editors"
+  - "Consider a different parent child relationship between a VAMCs MMU services and their location/schedule information"
+  - "Consider how Events pages can work with Mobile clinic facilities"
+  - "Begin work to address how an MMU communicates its services and availability during emergency response"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Content editors can effectively communicate mobile clinic location and services information to Veterans"
+  business: "Enable efficient management of mobile clinic facility pages without overwhelming content editors"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Need for more efficient ways to manage multiple mobile clinic locations"
+  - "Mobile clinic pages need to differentiate themselves from medical facilities to avoid primary care misconceptions"
+  - "Emergency response use cases need to be addressed for MMU communications"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Test live pages with Veterans who have used MMU services in the past"
+  - "Start recruiting efforts to learn from Cheyenne, WY Veterans who've used mobile clinic services"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Internal VA Stakeholders"
+  - "AUD: VA Staff"
+  - "BNFT: Healthcare"
+  - "PRDT: VA Medical Centers"
+  - "design-validation"
+  - "stakeholder-research"
+  - "mobile-clinics"
 ---
 
 # Research findings - Design validation (Mobile clinic design stakeholder feedback sessions) 

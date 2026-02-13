@@ -1,95 +1,99 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Appointment List Usability Research Findings"
+product: "VA Online Scheduling"
+team: "VAOS"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-10-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Ciera Maddox - ciera.maddox@adhocteam.us"
+  - "Peter Russo - Peter.russo@adhocteam.us"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate usability and value of the appointment list redesign"
+  - "Test a concept for changes to the appointments details page"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability test"
+  - "Remote testing over Zoom"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 0
+    smartphone: 5
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 3
+    "45-54": 1
+    "55-64": 2
+    "65+": 4
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 1
+    associates: 1
+    bachelors: 6
+    masters: 2
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 10
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 2
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 5
+    screen_reader_mobile: 5
+    magnification_zoom: 1
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All participants were able to scan through the appointment list by date, time, status, and type of care"
+  - "Several participants struggled to differentiate between modality icons - specifically the types of video appointments"
+  - "The majority of participants reported that they would not print their appointments from VAOS"
+  - "Most participants clicked on the past appointments link without assistance from the facilitator"
+  - "All participants found the details pages easy to navigate and the information easy to find"
+  - "Most participants used the back link to navigate to the previous page"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Simplify the usage of modality language"
+  - "Do not include 'print all' link on appointment list"
+  - "Include an 'add all to calendar' link to the appointment list"
+  - "Change past appointment list order"
+  - "Change Details page CTAs"
+  - "Replace breadcrumb with back button upon entry to VAOS"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans with diverse technical abilities, ages, and disabilities can easily navigate and scan the appointments list"
+  business: "Finalize designs and update the appointments list"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Access to secure messaging from the appointment list"
+  - "Ability to search or sort through past appointments"
+  - "Phone number extension information"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Screen-reader usability test using a low-code prototype"
+  - "Further testing on details page usability"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Cognitive Disability"
+  - "Native"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Spreadsheet"
 ---
 
 # Appointment List Usability Research Findings 

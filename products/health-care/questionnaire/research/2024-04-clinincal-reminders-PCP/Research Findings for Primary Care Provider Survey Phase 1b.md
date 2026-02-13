@@ -1,95 +1,87 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Research Findings for Health Questionnaire, Clinical Reminders Primary Care Provider Survey Phase 1b"
+product: "Health Questionnaire - Clinical Reminders"
+team: "Health Questionnaire Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2024-04"
+researchers: []
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Improved the quality of the time providers spend with patients during the healthcare appointments"
+  - "Reduced provider notification fatigue"
+  - "Reduced provider burnout"
+  - "Maintained an appropriate level of safety and clinical integrity"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Survey questionnaire"
+  - "Typeform platform survey"
+  - "Email and MS Teams distribution"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 5
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 5
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "1 out 5 participants observed a somewhat improvement in the quality of time spent with Veterans during the pilot dates. In addition, the participant did notice that their workflow was somewhat positively changed and believed the screener provided value for their clinic, upheld clinical integrity, and maintained a level of safety for Veterans."
+  - "Even though 4 out of 5 participants responded that they were not aware of the pilot occurring at their facility, or that they hadn't noticed a change in the quality of time spent with patients, we believe this evidences that the screeners did not cause a disruption or delay in the PCP's workflow; the insights gathered from this survey can serve as a bolster for evidence that the clinical reminder screeners will not add undue burden on staff and PCPs; however, additional research is needed."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "We recommend that phase 2 encompasses interviews with providers who participate in the pilot. The goal of the PCP interviews is to gather feedback on whether the questionnaire platform chosen for phase 2 decreased physician burnout and improved the quality of time spent with patient."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Providers experience reduced burden from clinical reminder data entry and notification fatigue"
+  business: "Digital questionnaires are perceived as safe and do not disrupt provider workflow"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Provider awareness of digital questionnaire pilots"
+  - "Quantifying workflow improvements"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Phase 2 interviews with providers who participate in the pilot"
+  - "Gather feedback on whether the questionnaire platform chosen for phase 2 decreased physician burnout and improved the quality of time spent with patient"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Not applicable - VA staff provider survey"
+secondary_research: []
+synthesis_tools_used: []
 ---
 
 # Research Findings for Health Questionnaire, Clinical Reminders Primary Care Provider Survey Phase 1b, April, 2024

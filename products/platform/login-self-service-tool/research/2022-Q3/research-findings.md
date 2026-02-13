@@ -1,95 +1,106 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Self-Service Login Tool Research Findings"
+product: "Self-Service Login Tool"
+team: "Contact Center"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-08-16"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Ian McCullough"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand the user response to encountering login issues"
+  - "Understand the user login process"
+  - "Gather preliminary usability information for the proposed login self-service tool"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Contextual inquiry"
+  - "Remote moderated usability testing"
+  - "Clickable prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 11
+    tablet: 1
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 12
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 12
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 1
+    "55-64": 6
+    "65+": 4
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 3
+    associates: 1
+    bachelors: 6
+    masters: 2
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 6
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 10
+    black: 1
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 6
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 2
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All participants were able to successfully use the prototype"
+  - "Most participants (8 out of 12) have experienced issues logging in to VA.gov"
+  - "Multiple participants (5 out of 12) raised concerns about the number of login services provided"
+  - "Multiple participants (5 out of 12) commented that the current Signing in to VA.gov page is busy or has too much content"
+  - "Multiple participants (5 out of 12) requested additional details on specific areas of the self-service login tool"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Create opportunities to create clarity while not sacrificing simplicity through introductory content or contextual help"
+  - "Provide multiple options for users to engage with assistance (phone, chat bot, ticket)"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Reduce login-related support tickets"
+  - "Improve user self-service capabilities"
+  - "Decrease VA411 and Ask VA login inquiries"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can quickly identify login problems and access appropriate resources without waiting for support"
+  business: "Reduced call center volume and support ticket volume for login-related issues"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Integration of login wizard with chat bot"
+  - "Better explanation of multiple login credential providers"
+  - "Enhanced error message clarity"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Further clarify different issue types so users can pick the issue that pertains to them"
+  - "Help users understand the purpose of the login wizard"
+  - "Anticipate potential 2FA user errors with login services"
+  - "Use error messages to resolve technical issues"
+  - "Make it more clear why there are 4 different login methods"
+  - "Associate issues/errors experienced with relevant support resources"
+  - "Make resource material more compact and plain language"
+  - "Testing with assistive technology users"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "LGBTQ+"
+  - "Assistive technology users"
+  - "Mobile users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "VA411 inbox responses"
+  - "Medallia feedback"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
 ---
 
 **Self-Service Login Tool, Contact Center**

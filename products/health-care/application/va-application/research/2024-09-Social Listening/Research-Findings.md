@@ -1,95 +1,115 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "10-10EZR | User Generated Content Analysis | Summary of Findings"
+product: "10-10EZR Health Care Benefit Update Form"
+team: "Health Enrollment Applications, 10-10EZR"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-09"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Hieu Vo"
+  - "Renata Keck"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how Veterans currently perceive their health care journey, especially in terms of financial eligibility"
+  - "Identify frustrations or gaps in VA-Veteran communication that could help us shape more effective notification strategies"
+  - "Determine patterns that may help us decide how to group Veterans for tailored notifications (e.g., by disability rating, health care needs, or personal preferences)"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "User generated content analysis"
+  - "Reddit social listening"
+  - "Thematic analysis"
+  - "Narrative analysis"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 159
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 159
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 159
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 159
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 159
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Few Veterans understand the role that income plays in their VA health care eligibility."
+  - "Veterans want to verify their eligibility for covered care prior to enrollment and updating their information to avoid surprises."
+  - "The current notification system does not meet Veterans' current mental models or information needs."
+  - "When Veterans are in a transitional period, such as a job change, a health change, or retirement, they are proactive in seeking guidance and support for their health care."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Increase awareness and understanding of income's role in VA health care eligibility"
+  - "Improve processes for updating financial information so that it is easier and more accessible"
+  - "Clarify the connection between income, service-connected disability ratings, and VA health care eligibility"
+  - "Provide proactive notifications to Veterans about eligibility changes when their income or employment status changes"
+  - "Help Veterans verify their eligibility for VA covered care before they enroll or update their information"
+  - "Simplify the connection between between a Veteran's Priority Group (PG#), service-connected conditions, and covered care"
+  - "Clarify the difference between VA health care and private health insurance and reduce the fear of unexpected medical bills from using VA health care"
+  - "Address misinformation and negative sentiment around health care eligibility and VA benefits"
+  - "Deliver notifications to Veterans when they're most relevant to life changes or health changes"
+  - "Improve Veterans' understanding of why they need to update their information and how it affects their health care"
+  - "Align different VA systems so that updating one profile (VA Profile) automatically updates other related profiles (VHA)"
+  - "Design the notification system to better meet Veterans' expectations and reduce the frustration associated with updating their health information"
+  - "Support Veterans in proactively setting up health care for themselves and their families before it's needed"
+  - "Ensure Veterans have continuous access to resources during a stable period of their health care journey"
+  - "Help Veterans manage benefits for their dependents during job transition, health changes, or retirement"
+  - "Provide tailored support and guidance to Veterans based on their current stage in the health care journey"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans understand when and why they need to update their health care information and can do so easily"
+  business: "Effective notification system that reaches Veterans at the right time with relevant information"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Priority Group awareness and understanding"
+  - "Income eligibility communication"
+  - "Health care vs. insurance differentiation"
+  - "Notification timing and personalization"
+  - "Dependent care benefits clarity"
+  - "Travel reimbursement accessibility"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Further validation is necessary to see if notification findings hold true within the broader Veteran population"
+  - "Continue to look at where Veterans are in their health care journey to see if any milestone/life event and action-based narrative findings hold true"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Not applicable - social listening study with anonymous user-generated content"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "2023-06 Priority Group & Financial Disclosure study"
+  - "EZR Notifications Discovery"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Thematic analysis"
+  - "Narrative analysis"
 ---
 
 # **10-10EZR | User Generated Content Analysis | Summary of Findings 09-2024**

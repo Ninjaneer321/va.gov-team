@@ -1,95 +1,111 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "ARM Team - Appoint a Representative Form User Test (Unauthenticated) Research Findings"
+product: "Accredited Representative Management (ARM)"
+team: "Accredited Representative Management Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-03-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Janelle Finnerty"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand usability of signed-out Appoint a Representative flow (21-22/21-22a forms) on both desktop and mobile devices"
+  - "Identify pain points and usability issues in unauthenticated representative appointment experience"
+  - "Future study goal: Understand Veteran family and caregiver motivations for seeking representation"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Usability testing"
+  - "Future: Semi-structured interview"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 0
+    smartphone: 3
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 4
+  service_members: 0
+  caregivers: 8
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 3
+    "45-54": 1
+    "55-64": 3
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 2
+    some_college: 0
+    associates: 0
+    bachelors: 2
+    masters: 4
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 4
+    rural: 4
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 1
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Form start expectations: Users easily missed non-digital submission information; wanted clear upfront instructions and required information list before starting"
+  - "Representative search: Inconclusive findings; users requested additional representative information including ratings, photos, availability, specialties, and email contact"
+  - "Organization selection confusion: Most users unsure why organization selection exists and how to use it; unclear distinction between organizational versus individual representative support"
+  - "Contact representative: Mixed feedback; negative reactions due to prior difficulties reaching VSOs; positive from those who preferred meeting representatives in person first"
+  - "Permissions clarity: Medical record sharing well understood; address change permission caused hesitation and confusion about who changes what address"
+  - "Review page misdirection: Lack of button options failed to properly convey next steps; users assumed digital submission process was complete"
+  - "Non-digital submission frustration: Most participants frustrated form was not digitally submitted; some indicated they would abandon the experience entirely"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Evaluate entire experience to set clear non-digital submission expectations at form start, review, and next steps pages"
+  - "Evaluate organization selection feature to improve user confidence and understanding of its purpose"
+  - "Create clear visual delineation between free and paid representatives on landing page"
+  - "Provide required information list on Form start page so users can gather materials before beginning"
+  - "Add 'Friend' option to Claimant information relationship choices"
+  - "Explain what a VA file number is and how claimants can find it"
+  - "Clarify that address change permission applies to claimant, not the Veteran"
+  - "Better explain that 21-22 form grants limited power of attorney, not full authority"
+  - "Provide representative email and phone contact on final confirmation page"
+  - "Consider making digital submission a priority to reduce abandonment"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Family members and caregivers can confidently appoint appropriate representation on behalf of Veterans with clear understanding of process and requirements"
+  business: "Enable more Veterans to access representation support through family and caregiver pathways, reducing barriers to getting help"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Digital submission capability to reduce friction and abandonment"
+  - "Improved expectations setting throughout form experience"
+  - "Enhanced representative information to support confident selection"
+  - "Clearer permission language and legal context explanations"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Validate identified patterns in next Find a Representative study"
+  - "Track drop-off rates at identified pain points on live experience"
+  - "Test improvements with family and caregiver participants"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Cognitive disability"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Black, Hispanic, Biracial, Asian, Native Veterans"
+  - "LGBTQ+"
+  - "Assistive technology users (all types)"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "All ARM research repository"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "EnjoyHQ"
 ---
 
 # Research Findings for ARM Team, Appoint a Representative Form User Test (Unauthenticated), 02/2024

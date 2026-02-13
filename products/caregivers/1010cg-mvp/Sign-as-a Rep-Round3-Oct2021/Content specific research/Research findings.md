@@ -1,95 +1,118 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VSA Caregiver, Mental model and Content-specific comprehension study for the 10-10CG document upload Research Findings"
+product: "10-10CG Caregiver Application"
+team: "Caregiver Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-11-23"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Dené Gabaldón"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Better understand Caregivers' mental model of the types of proof of legal representation they are accustomed to providing"
+  - "Better understand how Caregivers think about the nomenclatures of different types of legal representative documents"
+  - "Better understand Caregivers' familiarity of health care-specific legal documents"
+  - "Validate content comprehension of the list of documents to select from for document upload"
+  - "Validate that the new copy and flow leads to more accepted documents uploaded"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Mixed-method interview"
+  - "Mental model research"
+  - "Open-ended questions"
+  - "Directed storytelling"
+  - "Ratings on a scale"
+  - "Mockup walkthroughs"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 7
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 2
+    "45-54": 1
+    "55-64": 1
+    "65+": 0
+    unknown: 3
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 1
+    associates: 0
+    bachelors: 1
+    masters: 2
+    doctorate: 0
+    unknown: 3
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 2
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 2
+    black: 2
+    hispanic: 0
+    biracial: 1
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants think about legal representative documentation based on what it enables them to do (eg. make medical decisions) rather than the form name itself"
+  - "Some participants have paperwork on file with the VA that allows them to speak on behalf of the Veteran, their expectation is that they only need to provide proof of who they are (Eg. ID/ Driver's license), they referred to this as a 'Caregiver letter'"
+  - "Participants believe that the legal representative documentation comes from the VA and thus a form number or link to the form or how to get it and/or example should be provided"
+  - "Often the ability for the Veteran to sign for themself/ make medical decisions/or not depends on the day"
+  - "Participants wish that the text could be shorter and more precise. Participants do like that 'VA cannot accept these documents' list is provided"
+  - "Participants feel like the copy that states that there could be a delay/rejection due to wrong document upload is very negative"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Rewrite the question and titles to make it more clear that we are requesting for legal representation for medical decisions specifically"
+  - "Rewrite questions to be more direct"
+  - "Explore the possibility of including a link, form number, and/or explanation of the use for each document type"
+  - "Provide a path for those who don't have the paperwork, but need to obtain it"
+  - "Update flow/UX of current to an adjusted tested version"
+  - "Explore the possibility of making this section of the form visually distinct from the rest of the form so that it feels more cohesive with the signature page rather than the application pages"
+  - "Explore the possibility of breaking up the review section and signature section and having the document upload option between them"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Participants recognize that the name varies from state-to-state and federally"
+  - "Participants think in the categories of: legal, financial, and medical"
+  - "For some participants, the title 'Proof of legal authority to make decisions' was confusing because they were unsure if this is referring to legal or medical"
+  - "Participants believe that VA should be more proactive in patient planning in regards to programs and paperwork that should be considered in their future based on their current needs"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Look into ways of integrating these questions into the signature page"
+  - "Implement a 'wizard' like flow"
+  - "For those who do submit a document that can not be accepted, provide a recourse to just 'edit' the application rather than having to complete a whole new one"
+  - "Look into the possibility of tying a legal representative document that is already on file with VA to the application"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+related_research:
+  - "Research Plan: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/1010cg-mvp/Sign-as-a%20Rep-Round3-Oct2021/Content%20specific%20research/content-comprehension-research%20plan.md"
+tags:
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: 10-10CG"
+  - "DSC: Form"
+  - "DSC: Form - File Input"
+  - "DSP: Ask users for files"
+  - "DSP: Ask users for signature"
+  - "semi-structured-interviews"
+  - "evaluative"
 ---
 
 # Research Findings: VSA Caregiver, Mental model and Content-specific comprehension study for the 10-10CG document upload, November 2021

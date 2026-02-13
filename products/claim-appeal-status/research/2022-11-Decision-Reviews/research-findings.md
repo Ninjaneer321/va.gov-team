@@ -1,95 +1,91 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Decision Reviews Research Findings"
+product: "Claim Status Tool"
+team: "Benefits Team 1, Squad 1"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2023-02"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Skyler Schain"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Learn more about the pain points in the decision review user journey"
+  - "Understand more about which of these journeys can be fully self-service, given the complexity and high stakes nature of these reviews"
+  - "Understand more about the Veteran experience working with VSOs and third party legal reps, so that we can create an experience that guides Veterans to either self-service or VSO-supported options in the optimal way"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated discovery research"
+  - "Zoom sessions"
+  - "Concept prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 25
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 25
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 25
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 25
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 25
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "The most common pain point we heard in filing decision reviews (and initial claims) is knowing what documentation/evidence you will need and being able to track it down. This is often why Veterans turn to VSOs or even lawyers for guidance."
+  - "When faced with a decision review scenario, the Decision Review Options page showed mixed results in helping Veterans confidently choose a decision review option."
+  - "When faced with a decision review scenario, Veterans responded positively to the idea of connecting with a VSO or other representative via VA.gov."
+  - "Many Veterans we spoke to found VSOs to be crucial in getting to a satisfactory claim decision."
+  - "It's clear that not all VSOs are equal in quality, and a bad VSO can be detrimental to a Veteran's experience."
+  - "Many Veterans imagined an ideal experience that could be thought of as assisted self-service. They wanted to be able to complete the process themselves on VA.gov, but also wanted to be able to reach out to a VSO if they got stuck."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Make it easier for Veterans to find and connect with an accredited VSO from the CST and other VA.gov decision review pages."
+  - "Consider updating the Decision Review Options page to be simpler and more personalized."
+  - "Help Veterans better understand what evidence they will need up-front when filing a claim or decision review."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "If we are interested in further examining whether Veterans prefer using VSOs to the self-service model, we should conduct more research on that and recruit larger numbers of Veterans who did not use VSOs to file their claims and decision reviews."
+  - "As noted in the Hypotheses section, it would be interesting to test more automated claims and reviews scenarios with Veterans to see if that alleviates the need to use representation in filing claims and decision reviews."
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
 ---
 
 # Decision Reviews Research Findings

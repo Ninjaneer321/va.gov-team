@@ -1,95 +1,148 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "527EZ VSR Shadowing Research - Research Findings"
+product: "VA Form 21P-527EZ Veterans Pension Benefits"
+team: "Pension Benefits Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-05-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Allexe Law-Flood"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Build understanding of VSR experience of processing Veterans Pension claims"
+  - "Identify biggest pain points and opportunities for process improvements for VSRs when processing Veterans Pension claims submitted on VA.gov"
+  - "Understand challenges faced by Veterans from VSR perspective"
+  - "Understand what information is essential on form, what could be simplified, and what is superfluous or unnecessary"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Shadowing technique with VSRs"
+  - "Observational research of actual claims processing"
+  - "VSRs narrating thinking and process while working"
+  - "Remote sessions via Zoom"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 3
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 3
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 3
+  staff_role:
+    VSR_senior: 3
+    years_experience: "10+ years each"
+    processing_527EZ_currently: 2
+    processing_527EZ_past: 1
+  claims_reviewed: 3
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 3
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 3
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 3
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 3
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans losing time and money when they don't understand what information is needed on pension application and why"
+  - "Veterans not dating unreimbursed medical expenses back to Intent to File date, losing months of potential reimbursement"
+  - "Veterans leaving sections incomplete when they assume VA already has the information (income, medical history)"
+  - "Claims submitted without representative typically require significant development compared to those with VSO/attorney assistance"
+  - "Paper form sections regularly cause confusion: income reporting, marital status, nursing home information (21-0779)"
+  - "Some Veterans struggle with remembering exact dates for marriages and service, but month/year often sufficient per VSRs"
+  - "VSRs begin review looking for key information: signature, service connection percentage, military dates, income, DOB/SSN"
+  - "VSRs estimate 75% of applicants use accredited representatives, 60%+ are in facilities, 50-75% seeking Special Monthly Pension"
+  - "Paper form Income/Assets section misleading - no clear 'no income' option despite requiring at least one income entry"
+  - "Marital status options don't include 'divorced', causing confusion with 'not married' interpretation"
+  - "Medicaid nursing home question leads to missing VA Form 21-0779, requiring development letters"
+  - "Medical incapability question asked of all ages on paper form, should only be asked of applicants under 65"
+key_findings:
+  - "Veterans are losing time and money when they don't understand what information is needed on pension benefit application and why"
+  - "Veterans not dating unreimbursed recurring medical expenses back to their Intent to File date, losing several months of potential reimbursement (6-9 months lag time typical)"
+  - "Veterans choose not to complete sections asking for information they assume VA already knows (income from civil service/social security, medical history from VA facilities)"
+  - "Claims submitted without representative typically require extensive development compared to those submitted with VSO, Attorney or Claims Agent assistance"
+  - "Current paper version of 527EZ has sections that regularly cause confusion: income reporting, current marriage status, VA Form 21-0779 nursing home information"
+  - "Development letters frequently needed for incomplete applications, delaying award decisions"
+  - "Online web-based form has addressed several paper form issues (income question, marital status, conditional age-related questions)"
+  - "Some Veterans struggle with retrieving exact dates for marriages, divorces, military service and separation, yet VSRs often able to process with month and year only"
+  - "Two out of 3 VSRs indicated month and year sufficient for marriage and divorce dates when processing pension application"
+  - "VSRs begin review of applications looking for key pieces of information: accurate signature, high service connection (90-100%), military service number, at least one income source, DOB and SSN, correct compensation type checked"
+  - "VSRs look for indicators of further development needs: age under 65, over $25,000 in assets, seeking Special Monthly Pension"
+  - "VSR estimates based on experience: up to 75% use accredited representatives, 60%+ in assisted living facilities (10% nursing homes), over 50-75% seeking SMP"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Identify ITF design improvements for 527EZ form and apply ITF language changes to unreimbursed expenses section so Veterans aware they can back-date expenses to ITF date"
+  - "Speak with VBA SMEs to determine if 'no income' should be option in Income and Assets Section IX 9G"
+  - "Share challenges identified with paper version 527EZ Income and Assets section with appropriate VA team"
+  - "Determine if Veterans listing more than 4 income sources on 527EZ without using 0969 creates challenges for VSR or Veteran"
+  - "Clarify Section VIII 4D Medicaid question when Veteran has applied but Medicaid doesn't cover nursing home costs"
+  - "Identify if there is backlog of improvements to paper version of 527EZ where these findings should be included"
+  - "Provide clarity on what information is required, why, and how it is used to reduce incomplete sections"
+  - "Explore ways to gain access to information VA already has to streamline experience through pre-population"
+  - "Help Veterans avoid delays in receiving pension benefits by reducing cognitive load of completing 527EZ"
+  - "Consider whether Veterans should be encouraged to get assistance from VSO"
+  - "Address challenges Veterans experiencing with paper and online PDF version of pension benefit application"
+  - "Reduce burden for Veterans in remembering exact dates for marriages, divorces, military service"
+  - "Keep date requirements to minimum information actually needed by VSRs"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Reduce development letters sent to Veterans"
+  - "Reduce time from application submission to award decision"
+  - "Increase accurate completion of medical expense information"
+  - "Reduce application incompleteness rates"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can complete pension application accurately with less burden, receive maximum benefits from ITF date, and get faster decisions"
+  business: "Reduce VSR processing time, reduce development letters, improve application quality, faster claim decisions"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Pre-population of data VA already has to reduce Veteran burden"
+  - "Better education about Intent to File and expense dating for maximum benefits"
+  - "Simplified date entry allowing month/year when exact dates not available"
+  - "Clearer guidance on when VSO assistance recommended"
+  - "Paper form improvements to align with digital form clarity"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Triangulate findings with other data (Veteran research, analytics, desk research) to support prioritization"
+  - "Additional VSR shadowing with VSRs new to processing 527EZ applications"
+  - "Veteran testing of ITF messaging related to medical expenses"
+  - "Validation of 'no income' use case and frequency"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "New VSRs (less than 10 years experience)"
+  - "VSRs currently processing high volume of 527EZ applications"
+  - "Veterans' perspective on identified issues (this was VSR-focused research)"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "VSR process mapping"
+  - "Review of paper 527EZ form structure and instructions"
+  - "Comparison with digital 527EZ form implementation"
+  - "VBA SME consultation needed"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Mural board mapping VSR steps to process 527EZ applications"
+  - "Session notes and synthesis"
 ---
 
 # 05-2024_527EZ VSR Shadowing Research 

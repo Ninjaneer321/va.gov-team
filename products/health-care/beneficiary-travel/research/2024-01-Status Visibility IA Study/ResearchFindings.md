@@ -1,95 +1,116 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Travel Pay Status Visibility Study Research Findings"
+product: "Beneficiary Travel Pay"
+team: "Travel Pay"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-02-21"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Cara Frissell (cara.frissell@adhocteam.us)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Gauge if users' mental models about a travel claim changes over the lifespan of the claim"
+  - "Gauge if users associate a travel claim more strongly with the event that generated the claim or with other claim types supported by VA"
+  - "Identify where users expect to find information on status of their Travel claim on VA.gov"
+  - "Identify what labels or terminology for claim information resonates with users"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Tree test tasks in Optimal Workshop with 66 total Veteran participants"
+  - "Task 1: Recent claim - find update on January 12, 2024 travel reimbursement request"
+  - "Task 2: Historical claim - find information on multiple Spring 2023 travel reimbursement requests"
+  - "Post-task questions rating confidence and ease on 1 to 7 scale"
+  - "Labeling open ended question"
+  - "Forced ranking question of potential labels"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 38
+    tablet: 0
+    smartphone: 28
+    assistive_technology: 0
+participants_total: 66
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 66
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  gender:
+    male: 44
+    female: 22
+  lgbtq:
+    transgender: 0
+    nonbinary: 1
+    gay_lesbian_bisexual: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 4
+    "35-44": 15
+    "45-54": 15
+    "55-64": 20
+    "65+": 12
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 23
+    some_college: 5
+    associates: 8
+    bachelors: 17
+    masters: 13
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 21
+    unknown: 45
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 66
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "No single destination signaled particularly high as destination for travel claim status information - highest performer was 'File a claim for travel reimbursement' page at ~30% followed by 'Manage all claims and appeals' at ~12%"
+  - "Participants did not differentiate between where to look for recent claim versus historical claim indicating users expect to find both types in same general area"
+  - "Location signal was split between MyHealtheVet, My VA and VA Benefits and Health Care"
+  - "'Travel Reimbursement Status' was highest performing label echoing participants desire for simple and straightforward term"
+  - "Participants did not look for recent Travel Claims associated with Appointment that generated the claim"
+  - "Users did not look for information in My VA health benefits section of MyHealtheVet"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Consider 'Travel Reimbursement Status' or similar variation as name of this page"
+  - "Any destination for travel reimbursement status will require signal boost from design and interaction"
+  - "Consider building on to page where users submit for reimbursement: Home > MyHealtheVet > Payments > File a claim for travel reimbursement"
+  - "Consider elevating travel reimbursement status in space where users manage past claims: Home > My VA > Claims and appeals > Manage all claims and appeals"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Veterans can manage their health services online"
+  - "Logged-in users can easily track applications, claims, or appeals online"
+  - "Veterans and their families can find a single, authoritative source of information"
+  - "Logged-in users have a personalized experience with relevant and time-saving features"
+  - "Veterans and their families trust the security accuracy and relevancy of VA.gov"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Insight into where users expect to find information about specific claim in evaluation, Travel Claims submitted for evaluation, and what users expect page to be called"
+  business: "Inform where to put and how to group information/updates on post-submission Travel Claims on VA.gov"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Clear navigation path for travel reimbursement status"
+  - "Unified location for recent and historical travel claims"
+  - "Consistent labeling that resonates with user mental models"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Exploring concepts on Home > MyHealtheVet > Payments > File a claim for travel reimbursement route"
+  - "Look and feel study"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Those with a cognitive disability"
+  - "LGBTQ+ community"
+  - "Assistive Technology users"
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "OptimalWorkshop"
+  - "Tree testing analysis"
 ---
 
 # Travel Pay Status Visibility Study

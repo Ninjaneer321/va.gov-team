@@ -1,95 +1,121 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "CHAMPVA Claims (10-7959a) Stakeholder Research Findings"
+product: "CHAMPVA Claims Form 10-7959a"
+team: "IVC Forms Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-06-21"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Research team (names not specified in stakeholder findings)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand CHAMPVA claims processing workflow and pain points"
+  - "Identify opportunities to improve digital claims submission"
+  - "Document stakeholder KPIs and success metrics"
+  - "Understand beneficiary education gaps and needs"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Stakeholder interviews"
+  - "Process observation"
+  - "Workflow analysis"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 4
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 4
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 4
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 4
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 4
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 4
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "DCDM mailroom scanning into DAPER results in misordered/upside-down documents, creating additional work - can take up to 30 days plus 1 hour to reorganize vs 10 minutes for proper format"
+  - "CXM system switch from Vista/CP&E causing processing delays and employee burnout - workarounds needed, third-party Signature required for overrides causing week+ delays"
+  - "Program analysts blocked by other teams (Eligibility for address updates, OHI team for insurance updates) causing 2-3 day processing delays"
+  - "Send backs for missing information most common issue - missing codes/itemization (#1) and missing signatures (#2) add multi-week delays via mail turnaround"
+  - "Beneficiaries lack knowledge on proper claim submission or receive outdated information - handbook too long to read, outdated website, leading to incomplete submissions"
+  - "Shelf batches required for highlighted content (shows black in DAPER), missing signatures, or 40+ documents - slows processing requiring in-person work"
+  - "Biggest beneficiary frustration is processing time (60-90 days actual vs 30-45 day target) and lack of communication - only updates via calling or mail (check/EOB/rejection letter)"
+  - "Miscommunication between processors and CSRs leads to incorrect information passed to beneficiaries - CSRs not reading program analyst notes, different areas of expertise"
+  - "Success metrics difficult to define due to fluctuating PDI content - each PDI can have multiple claims/dates of service, processing time varies greatly (15 min to hours)"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Allow online document upload to eliminate mailroom scanning process and imaging errors, remove 30-day mailroom delay"
+  - "Pre-sort claims in PEGA for better tracking; explore automatic separation of multiple dates of service into individual claims"
+  - "Continue working with VA partners to facilitate successful CXM information delivery; maintain low digital form error rates through UX oversight; promote digital form as preferred method"
+  - "Develop workflow enabling claims to continue processing despite needed updates; research ways to reduce 2-3 day update times from other departments; explore OHI certification integration into claims submission"
+  - "Online submission will eliminate missing signature issue; clear upload instructions will reduce missing information; consider AskVA for quicker status updates; explore online resubmission for partial claims"
+  - "Create digital educational resources supplementing printed handbook for easier updates and consumption; use plain language on form pages; add strategic content about required documents; update handbook for digestibility"
+  - "Online submission eliminates highlighter blackout, improves document sorting, prevents missing signatures - significantly reducing shelf batches"
+  - "Research post-submission digital notifications to reduce mail communication; promote AskVA for faster question resolution; explore allowing CSRs to resolve issues via phone/email vs send backs; explore Claims Status Tool integration or similar tool in Family Member Hub; expand digitization/automation/outreach to minimize mail interactions"
+  - "Improve communication channels between teams; add CSR training on reading and understanding claim notations; consider standardized communications checklist for missing information with unambiguous definitions"
+  - "Explore metrics from Signature system; track by claims and claim types rather than PDIs for more consistent data and better KPI tracking"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Process claims within 30-45 day target (currently 60-90 days for teleworkers)"
+  - "Move claims from mailroom to processors within 30 days (currently taking up to 30 days)"
+  - "Process 100-150+ PDIs per day collectively with 35 processors"
+  - "Reduce send backs due to missing information"
+  - "Improve beneficiary education and reduce incomplete submissions"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Beneficiaries can submit complete claims with clear requirements, receive timely processing, and have visibility into claim status throughout process"
+  business: "Achieve 30-45 day processing target, reduce send backs, improve cross-team communication, reduce CSR workload, improve employee satisfaction by addressing CXM and workflow issues"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Digital submission eliminating mailroom bottleneck"
+  - "Automated claim pre-sorting and separation"
+  - "Integrated status tracking for beneficiaries"
+  - "Cross-department workflow optimization"
+  - "Beneficiary education and outreach"
+  - "Standardized communication protocols"
+  - "Better success metrics and KPI tracking"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Post-submission digital notification preferences"
+  - "AskVA adoption and effectiveness for CHAMPVA inquiries"
+  - "Integration possibilities with Claims Status Tool"
+  - "Metrics available from Signature system"
+  - "Optimal claim organization for processor efficiency"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Not applicable - stakeholder research"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "CHAMPVA claims service blueprint"
+  - "User research findings"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Not specified in stakeholder findings"
 ---
 
 # CHAMPVA Claims (10-7959a) Stakeholder Research

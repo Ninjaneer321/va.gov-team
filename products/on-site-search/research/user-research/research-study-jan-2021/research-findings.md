@@ -1,95 +1,112 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VA.gov Search Research Findings"
+product: "On-Site Search"
+team: "Search & Discovery"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-02-08"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Megan Gayle"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how users find information outside of VA.gov"
+  - "Understand when users utilize VA.gov search"
+  - "Identify pain points related to search"
+  - "Understand if users utilize more VA search tools and other search utilities"
+  - "Understand what advanced features users expect and utilize from search"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Task-based remote moderated usability study via Zoom and GoToMeeting"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 1
+    smartphone: 4
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 1
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 9
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 5
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 3
+    rural: 7
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 2
+    hispanic: 1
+    biracial: 2
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 6
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "When asked about their past experience looking for information, most began their journey on eBenefits and VA.gov"
+  - "When asked to look for information on VA.gov, most participants did not immediately utilize the search feature"
+  - "Most participants only looked at the first few results, focusing on the keywords in the titles. They were not always shown relevant results for their search terms"
+  - "Advanced search features: Most participants did not click on a typeahead suggestion. 6 out of 10 said they would like to filter results in some way"
+  - "Most participants did not see the right rail with More VA search tools because of browser width/mobile use. Participants were more likely to see Find a Facility than Find a Form because of its location on the header"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Include Caregivers, Family Members, and more Veterans who have been out of the military for 10+ years in future usability studies to find further pain points related to military jargon"
+  - "Investigate adding more information to acronyms in typeahead"
+  - "Increase visual hierarchy on search results page, emphasize link titles"
+  - "Update search results page based on style guide to improve legibility and consistency"
+  - "Improve search result descriptions to be more succinct and helpful. Talk to search.gov about metadata descriptions"
+  - "Improve More VA.gov Search Tools section - Remove right rail and place links elsewhere to ensure that users on all browser widths can see links - Audit links and text"
+  - "QA search features (global search, Find a Form, Find a Facility) on iOS to ensure the loading bug was only on staging"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Veterans who have been out of the military might have issues finding information on VA.gov due to military jargon"
+  - "Improve indexing and relevancy of search results"
+  - "Understand when users reach a point where they call for help"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Get a better understanding of how/when Veterans and Caregivers reach out for help outside of finding information on VA.gov"
+  - "Look into adding a step between search and a phone call to answer users questions"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Caregivers"
+  - "Family Members"
+  - "Veterans who have been out of the military for 10+ years"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Healthcare"
+  - "DSC: Search Input"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "usability-testing"
+  - "evaluative"
 ---
 
 # VA.gov Search Research Findings

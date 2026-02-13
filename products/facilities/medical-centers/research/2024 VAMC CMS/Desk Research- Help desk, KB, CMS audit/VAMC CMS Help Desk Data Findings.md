@@ -1,95 +1,135 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VAMC CMS Help Desk Data Findings - Research Findings"
+product: "VA Medical Centers (VAMC) CMS"
+team: "Sitewide Facilities"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-06-05"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "VAMC CMS Research Team"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Analyze four months of help desk data to identify recurring issues"
+  - "Understand common pain points experienced by CMS editors"
+  - "Provide actionable recommendations for improving user experience"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Help desk data analysis"
+  - "Desk research"
+  - "Issue pattern identification"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: "N/A - Desk research"
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Users find process of complex tasks like adding health services and staff members confusing due to unclear order of operations"
+  - "Process for archiving or replacing banners lacks clear instructions"
+  - "Multi-step process for adding videos and PDFs is unclear to users"
+  - "Users lack clear instructions on initiating facility setup, closure, or combined opening/closing procedures"
+  - "Users struggle to locate instructions for editing social media and spotlight content"
+  - "Managing menu links (adding, enabling, reordering, disabling) is difficult and highly requested"
+  - "Renaming a page often results in misalignment of URL, breadcrumbs, and menu name"
+  - "Users are unsure which phone numbers they can edit themselves, need CMS team assistance, or require VAST edits"
+  - "Users frequently encounter broken links and duplicate pages"
+  - "Uploading images requires workarounds due to known CMS issues"
+  - "Users lack clarity on access permissions and require training on content management process"
+  - "Users are unsure which team handles analytics and feedback/forms requests leading to misplaced inquiries"
+  - "Users are unsure about duration required for specific publishing processes"
+  - "Current organization of knowledge base makes it difficult to find specific areas of change"
+  - "Some articles highlight how to do things without tying them to specific action"
+  - "Unfamiliarity with technical terms like list causes confusion"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Develop comprehensive KB articles outlining step-by-step process for complex tasks with detailed screenshots highlighting order of operations"
+  - "Explore inline process improvements to allow addition of new staff/health services directly on relevant page without requiring separate node"
+  - "Update or create KB article with detailed instructions on archiving/removing banners and clarify removal process"
+  - "Consider implementing feature to automatically remove banners after set period (e.g. one week)"
+  - "Ensure users cannot launch more than one banner simultaneously by implementing system block"
+  - "Develop KB article outlining steps for uploading videos and PDFs with clear contact information for support"
+  - "Identify ways to simplify PDF upload process to reduce number of steps required"
+  - "Standardize facility change process and align on updated process to ensure CMS team is informed of incoming changes"
+  - "Provide checklist of required steps and documents for facility changes"
+  - "Designate CMS team to lead communications with VAST for facility changes"
+  - "Update existing KB or create new one specifically addressing social media and spotlight edit process"
+  - "Provide unique KB articles for each menu link management option including examples and clear instructions"
+  - "Consider allowing users to perform some adjustments such as reordering programs alphabetically"
+  - "Offer URL, breadcrumb, and menu link alignment as part of all name change requests"
+  - "Provide clear guidelines on phone number editing options and consider expanding editability based on feasibility and permissions"
+  - "Provide tools for identifying and fixing broken links and managing duplicates"
+  - "Consider automating link removal processes when facilities close and notify users when attempting to create duplicate links"
+  - "Implement user-friendly image upload process and address existing CMS issue"
+  - "Consider using third-party image tool template to streamline image processing"
+  - "Display permission level of editor directly on their profile page and include required permission levels in every KB article"
+  - "Provide instructions on how to request higher-level permissions"
+  - "Update internal documentation to direct website managers to appropriate team (VHA Digital Media) for analytics and forms requests"
+  - "Clearly state expected publishing times at beginning of all KB articles and provide immediate feedback on how long it will take for node to be live"
+  - "Organize KB with 1:1 information architecture such as VAMC system homepage, Services & Locations, News & Events, About or deeper"
+  - "Ensure all articles are centered around clear goal like adding staff profile to leadership page"
+  - "Use common terms like page instead of technical terms to make KB more accessible"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Reduce help desk ticket volume"
+  - "Decrease time to resolution for common issues"
+  - "Improve editor self-service success rate"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "CMS editors can complete tasks with less confusion and reduced need for help desk support"
+  business: "Reduced support burden, increased efficiency, and improved editor satisfaction leading to better content publishing outcomes"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Streamline complex multi-step processes in CMS workflow"
+  - "Improve knowledge base organization and content quality"
+  - "Enhance permission transparency and training resources"
+  - "Automate repetitive processes to reduce errors and support needs"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "User testing with CMS editors to validate proposed solutions"
+  - "Continued help desk data monitoring to track improvement trends"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Actual CMS editor user testing not yet conducted"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Four months of help desk ticket data"
+  - "Issue pattern analysis"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Data analysis"
+  - "Issue categorization and pattern identification"
 ---
 
 # VAMC CMS Help Desk Findings

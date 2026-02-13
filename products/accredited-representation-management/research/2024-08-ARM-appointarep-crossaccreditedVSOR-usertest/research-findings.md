@@ -1,95 +1,116 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "ARM Team Appoint a Representative Cross-Accredited VSOR User Test Research Findings"
+product: "Accredited Representative Management"
+team: "ARM Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-08"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Janelle Finnerty"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how cross-accredited Veterans Service Organization Representatives (VSORs) process power of attorney (POA)"
+  - "Understand usability, understandability, and desirability of Appoint a Representative (digital 21-22 form) with VSORs"
+  - "Gather feedback on Find a Representative from VSORs"
+  - "Understand how and why VSORs decide to become cross-accredited"
+  - "Document how cross-accreditation impacts VSOR Veteran interactions and day-to-day activities"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated interviews with VSORs"
+  - "Concept testing with Figma prototype"
+  - "Questions about cross-accreditation processes and POA workflows"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 8
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 8
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 8
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "VSOR workflows and policies change state to state and county to county, including which VSOs they can be accredited with, who they can support, engagement with VA and Veterans, and technology used"
+  - "Processes within and outside of VA are poorly documented and circulated, with some VSORs unaware of forms like VA Form 21-0972 that allow non-Veterans to sign on behalf of Veterans"
+  - "Unified processes like NACVSO Continuous Education Unit training and state affiliations with national VSOs were praised as time-savers that allow more efficient Veteran support"
+  - "VSORs had mostly positive feedback about ARM features except for two key needs: ability to show only VSOs they support POA with, and ability to organize representatives by office rather than individual"
+  - "VSORs saw value in instant POA submission from VA.gov but have continued need for ability to start POA from ARP, as 20-70% of their audience is willing and capable of filling out forms online while older or less tech-savvy Veterans need VSOR assistance"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Consider notifying representatives in ARP if a Veteran's POA changes"
+  - "Consider including Veteran's representative status with POA requests"
+  - "Consider providing direction to representatives on managing changing Veteran POA, especially for paid representation"
+  - "Consider including Veteran's claim status with POA requests if accepting will negatively impact the claim"
+  - "Change 'Your current accredited representative' to 'Your current VSO' or 'Your current accredited organization' in representative status widget"
+  - "Show VSOR closest to Veteran associated with organization they have POA with in widget (future idea)"
+  - "Group cards in Find and Appoint by location and provide office information for those locations (future idea)"
+  - "Provide VSOR specialties around mental health conditions like PTSD or MST (future idea)"
+  - "Discuss whether to address VSO regional and state limitations on who they can support or leave to representatives to manage"
+  - "Show 'Flag incorrect information' button for representatives with ARP account and notify them if information is flagged"
+  - "Provide information on what VA power of attorney does and doesn't do in representative FAQ"
+  - "Allow VSORs to select which organizations they will accept POA through in their ARP profile"
+  - "Allow VSORs to organize their information by office location rather than individual VSOR"
+  - "Provide information on how VSORs can update their contact information with OGC through ARP"
+  - "Provide POA status information to VSORs in ARP to reduce time spent verifying Veteran information"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improved VSOR efficiency in processing POA requests"
+  - "Reduced errors and confusion in representative selection and organization assignment"
+  - "Increased adoption of digital POA submission by appropriate Veteran segments"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Cross-accredited VSORs can efficiently manage POA requests across multiple organizations with clear understanding of their responsibilities and limitations, while Veterans can successfully submit POA requests to appropriate representatives"
+  business: "ARM and ARP tools support varied VSOR workflows across states and counties, enabling efficient POA processing and reducing manual verification steps"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Better documentation and distribution of VA and state processes for VSORs"
+  - "Unified training and accreditation processes to reduce redundant effort"
+  - "Office-level representative information and management"
+  - "Enhanced POA status tracking and notifications for representatives"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Testing of office-level representative organization features"
+  - "Validation of POA notification and status update features with VSORs"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Not applicable - study focused on VSOR staff rather than Veterans"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "ARM GitHub research folder"
+  - "VSOR recruitment at NACVSO conference"
+  - "Congressional Research Service report on Veterans Accredited Representatives"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Interview transcripts"
+  - "Cross-participant analysis of workflows and processes"
 ---
 
 # **Research Findings for ARM Team, Appoint a Representative - Cross-Accredited VSOR - User Test, 08/2024**

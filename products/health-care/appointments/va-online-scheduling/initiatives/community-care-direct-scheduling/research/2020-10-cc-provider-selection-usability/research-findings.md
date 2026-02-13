@@ -1,95 +1,99 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "CC Provider Selection Usability Study Research Findings"
+product: "VA Online Scheduling (VAOS)"
+team: "VAOS"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2020-10-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Not specified"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how Veterans value personalization, availability, and location when choosing a Community Care provider"
+  - "Evaluate whether the provider list shows sufficient personalization for Veterans who want to schedule with past providers or specific researched providers"
+  - "Understand Veterans' expectations around appointment availability and provider selection"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "Prototype evaluation"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 4
+    "45-54": 5
+    "55-64": 2
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 2
+    some_college: 4
+    associates: 3
+    bachelors: 1
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 11
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 8
+    black: 1
+    hispanic: 1
+    biracial: 0
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All participants wanted the list of providers to be more personalized. The top request was to be able to schedule with providers they have seen in the past, or a specific provider they had researched/heard about"
+  - "For both cases, appointment availability was top of mind. Most participants wanted to know how soon they could see the provider, or if the provider was available on specific dates"
+  - "Participants liked knowing a provider's distance, but some wanted to see the provider list in alphabetical order so they could find someone who they already knew - either an existing provider, or one they had researched"
+  - "Most participants said they would spend time researching providers before reaching this step, googling review sites to get a sense of the provider's reputation"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Consider researching a provider-first approach to the VAOS workflow that would support two paths for Veterans scheduling appointments; those who are returning to a provider, and those who want to find someone new"
+  - "Let Veterans choose to make appointments based on those they have scheduled in the past, using the same provider and type of care"
+  - "Validate that schedulers would be able to speed up the process of finding care if they had three provider options"
+  - "Consider moving the calendar to later in the request process, or removing it entirely for community care appointment requests"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans want to schedule with providers they have seen in the past"
+  - "Veterans need to know appointment availability before selecting a provider"
+  - "Veterans want provider reviews and reputation information"
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Facility team's research with Community Care scheduling staff"
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "usability-testing"
+  - "evaluative"
+  - "remote-moderated"
+  - "community-care"
+  - "appointments"
 ---
 
 # CC provider selection usability study research findings

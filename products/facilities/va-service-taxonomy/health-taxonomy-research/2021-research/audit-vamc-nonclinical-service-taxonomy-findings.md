@@ -1,95 +1,115 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Audit VAMC Non-Clinical Service Taxonomy Research Findings"
+product: "VA Medical Centers"
+team: "Facilities"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-10-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Not specified"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Audit non-clinical VHA services referenced on VAMC pages"
+  - "Identify services that should serve as hypotheses to be tested for plain language"
+  - "Identify services for wayfinding user tests (e.g. tree test, card sorts)"
+  - "Understand how Veterans might expect to find services"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Content audit"
+  - "Service taxonomy analysis"
+  - "Spreadsheet analysis"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Specialty care category is too long to be scannable or easily browsed"
+  - "Some services seem to exist for internal or data purposes, like outpatient surgery, surgery, Anesthesia"
+  - "Other services category doesn't provide any meaning. Services that don't fit neatly into existing categories should be recategorized under new meaningful labels"
+  - "Pharmacy is currently the official health service taxon for refilling a prescription on VAMC pages. However, the natural phrase Refill and track prescriptions found on VA.gov is a separate service that is only provided by MyHealtheVet"
+  - "Multiple service names have been flagged for further research including Registry exams, Social work, Advice nurse, Community engagement, HIV/hepatitis care, Hospital Medicine, Whole health, Women Veteran care, and COVID-19 vaccines"
+  - "Multiple services have been flagged for further research for recategorization"
+  - "Multiple services have been flagged for further research for plain language"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Consider sub-categorizing specialty services into more meaningful, human readable and plain language areas of care"
+  - "Consider building a simple search/filter feature that gets tested on a few pilot sites in different areas of the country"
+  - "Consider a tagging system of official words that can be paired more flexibly"
+  - "Conduct card sorts and tree test studies with Veterans to understand how they might group and find a broad variety of services"
+  - "Research how Patient advocates, Advice Nurse and Nurse line services differ and test names"
+  - "Address plain language issues with service names like Nephrology (use Kidney disease/dialysis instead)"
+  - "Add plain language actions to Pharmacy that have been co-opted by MyHealtheVet such as Refill and track your prescriptions"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can find and understand VAMC non-clinical services more easily"
+  business: "Improve service taxonomy organization and discoverability on VAMC pages"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Specialty care category needs sub-categorization for better scannability"
+  - "Need new meaningful category labels to replace Other services"
+  - "Many service names need plain language improvements"
+  - "Need to distinguish between VA.gov general services and MyHealtheVet-specific services"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Conduct card sorts with Veterans to understand service groupings"
+  - "Conduct tree test studies with Veterans"
+  - "Research to differentiate Patient advocates, Advice Nurse, and Nurse line services"
+  - "Test service names flagged for plain language issues"
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Review of VAMC pages"
+  - "VA.gov homepage top tasks"
+  - "Call center call topics"
+  - "Previous taxonomy research from 2021"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Audit spreadsheet"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VA Medical Centers"
+  - "content-audit"
+  - "taxonomy"
+  - "information architecture"
+  - "service-design"
 ---
 
 # Audit VAMC non-clinical service taxonomy

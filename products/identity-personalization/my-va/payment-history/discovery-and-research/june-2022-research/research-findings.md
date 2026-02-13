@@ -1,95 +1,111 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "My VA Benefit Payments and Debts 2022 Research Findings"
+product: "My VA"
+team: "Authenticated Experience"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-08-10"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Angela Agosto"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Determine if the redesigned notification style is clear and actionable"
+  - "Evaluate if Outstanding Debts and Benefit Payments section titles accurately convey content"
+  - "Identify most important pieces of information for debts"
+  - "Assess if logical next steps for debts are effectively presented"
+  - "Determine if most important payment information is being presented on My VA"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability testing"
+  - "Remote sessions via Zoom"
+  - "Prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 8
+    assistive_technology: 2
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 2
+    "55-64": 2
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 1
+    associates: 0
+    bachelors: 2
+    masters: 2
+    doctorate: 2
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 2
+    hispanic: 0
+    biracial: 0
+    asian: 1
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans prefer to see detailed information about debts on My VA rather than a total sum of all money owed"
+  - "Notification style is clear and actionable - all users noticed and understood it immediately"
+  - "Veterans found it clear to distinguish between amounts due and amounts paid to them"
+  - "Surfacing debt and payment details on My VA is important to Veterans"
+  - "Most veterans did not know they needed to manually dismiss notifications"
+  - "Red and green colors made it clear what was due and what was paid, but may trigger anxiety in some users"
+  - "Veterans prefer electronic communication and online debt management over mail and phone"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Continue to iterate on notification design/pattern since veterans did not know they would need to dismiss it themselves"
+  - "Explore whether to set a time limit on debt notifications so they disappear on their own"
+  - "Show debts and copays as two separate cards on My VA"
+  - "Additional research needed to determine if debts will stand out enough without red color when scanning the page"
+  - "Consider eliminating last updated date on debts or replacing with more useful information like debt type"
+  - "Be prepared to intuitively skip through certain testing parts for users triggered by subject matter"
+  - "Continue with new observer method asking participants permission before letting observers in from waiting room"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improve Veteran satisfaction with My VA"
+  - "Increase online debt management and payment"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily view, understand, and take action on their debts and payments from My VA"
+  business: "Increase self-service debt management and reduce support calls related to debt inquiries"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Integration of more detailed debt information showing what debt is for"
+  - "Improved notification management system"
+  - "Color accessibility considerations for financial information"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Test debt cards without red color to determine if they stand out enough during page scanning (recommend UAT testing)"
+  - "Evaluate notification dismissal patterns and timing"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Younger veterans (18-34)"
+  - "LGBTQ+ veterans"
+  - "Screenreader users"
+  - "Veterans with hearing aids"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Previous My VA research"
+  - "Debt management analytics"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Affinity mapping"
+  - "Topline summary analysis"
 ---
 
 # My VA Benefit Payments and Debts 2022 Topline Summary

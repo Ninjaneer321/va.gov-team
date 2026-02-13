@@ -1,95 +1,114 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VA Online Scheduling: Express Care Research Findings"
+product: "VA Online Scheduling (VAOS)"
+team: "DEPO"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2020-05-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Not specified"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand when Veterans seek 'urgent' 'immediate' 'same day' care"
+  - "Understand what types of care Veterans think to seek 'urgent' 'immediate' 'same day' care for / how Veterans define same day care"
+  - "Determine if Veterans would use an online method for same day care"
+  - "Determine if Veterans know what services are available to them for same day care through VA"
+  - "Learn if Veterans were aware of and would seek urgent, same-day, Telehealth care from VA for a COVID-19 screening"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability research"
+  - "Usability testing with mid-fidelity prototypes"
+  - "Generative questioning"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 8
+    tablet: 3
+    smartphone: 3
+    assistive_technology: 0
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 1
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 1
+    "45-54": 8
+    "55-64": 1
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 11
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 11
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All (100%) participants said they would use virtual medical appointments for both routine/pre-scheduled appointments as well as same-day or urgent visits, if they are given this option"
+  - "No (0%) participants were familiar with 'Express Care' as a means for connecting with a VA provider for a same-day, Telehealth visit"
+  - "Participants use a variety of methods to schedule their VA appointments: Phone (81%), Secure Messenger (45%), Legacy VAOS/MHV (36%), During in-office visit (27%), Reminder from VA (9%)"
+  - "No one mentioned using new VAOS"
+  - "Nearly all (91%) participants expected a response from a medical professional, either a nurse, LIP, or a doctor"
+  - "Participants had varying expectations about the VA's ability to meet or exceed the expectations of a 4-hour response window for 'Express Care'"
+  - "Most participants selected the 'Express Care screener' option to initiate a same-day virtual appointment, based on the content and context"
+  - "When presented with 'Express Care' or 'Telehealth screening' options, participants either could not tell the difference or thought 'Express Care' should include Telehealth in the name"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Incorporate 'Express Care' and/or Telehealth resources immediately accessible for Veterans when scheduling appointments"
+  - "If 'Express Care' is going to be offered, the experience must clear and consistent across the entire VA medical ecosystem"
+  - "If 'Express Care' is going to be offered, responses must be from medical professionals, not schedulers"
+  - "Timeliness is critical, especially for same-day and urgent types of care. Responses to 'Express Care' requests must be within the time promised"
+  - "Conduct a comprehensive audit of the ways to schedule VA appointments, not limited to official methods offered by VA"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans need tools to manage their health effectively, including during uncertain situations like coronavirus"
+  business: "Enable virtual access between Veteran patients and their medical providers to improve utilization of Express Care service"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "All (11, 100%) participants indicated that they would use 'Express Care' as a screener for coronavirus"
+  - "Telehealth should be clearly identified as an option where available when a user is scheduling appointments"
+  - "Provide, in plain language, clarification around types of care Veterans can receive through 'Express Care', who will be responding to their request, when they will get a response and how"
+  - "Participants were unsure how to schedule Telehealth visits, most stating that they were only given the option recently as a result of the novel coronavirus"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "A comprehensive audit will lead to a better understanding of Veterans' mental model of scheduling"
+  - "Understanding how Veterans think of Telehealth in the construct of appointments and scheduling is imperative"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "HDW: Desktop"
+  - "HDW: Tablet"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "generative"
+  - "remote-moderated"
+  - "telehealth"
+  - "appointments"
+  - "Initiative: Toxic Exposure"
 ---
 
 # VA Online Scheduling: "Express Care" Research Report

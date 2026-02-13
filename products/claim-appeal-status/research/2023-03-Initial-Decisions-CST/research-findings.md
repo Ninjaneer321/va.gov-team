@@ -1,95 +1,103 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "CST Initial Decisions Research Findings"
+product: "Claim Status Tool"
+team: "VA Benefits Team 1"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2023-04-19"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Ruben Sun"
+  - "Skyler Schain"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand what information Veterans specifically want to know to stay informed as their claim goes through the initial decision process"
+  - "Understand the experience Veterans have with requests to provide additional evidence"
+  - "Understand the experience Veterans have with requests for C&P exams"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Contextual Inquiry"
+  - "Co-Creation"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 14
+    tablet: 0
+    smartphone: 2
+    assistive_technology: 1
+participants_total: 16
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 16
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 6
+    "45-54": 6
+    "55-64": 1
+    "65+": 1
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 7
+    associates: 1
+    bachelors: 2
+    masters: 3
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 7
+    rural: 9
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 5
+    hispanic: 4
+    biracial: 0
+    asian: 0
+    native: 2
+  lgbtq:
+    transgender: 1
+    nonbinary: 0
+    gay_lesbian_bisexual: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 1
+    magnification_zoom: 1
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans find the claims process learning curve to be steep, with many potential areas of improvement for the claim status tool (CST)"
+  - "Keeping track of relevant claims is difficult for veterans who have more claims with greater claim complexity"
+  - "Veterans think about claim status in terms of what's currently being done to the claim, the outcome of the claim, and the items and actions standing in the way of gaining a favorable determination"
+  - "Duplicative, inconsistent, and out-of-date content forces Veterans to play detective in establishing a cohesive picture of their claim"
+  - "Veterans find information in the CST to be vague and lacking specificity leading them to feel uncertain"
+  - "Alarming and confusing UI lead Veterans to feel anxiety about their claim. Often, these items are most relevant for other actors in the claims process"
+  - "Veterans feel a lack of reciprocity in the claims process at times. Some of the language in the CST lead Veterans to feel they're on trial and viewed with suspicion"
+  - "Veterans wish for, and feel entitled to access the files and exam records within their benefit claims. Where necessary, access enables claimants to intervene earlier in the claims process"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
-outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Restructure and consolidate content in claim detail pages to reduce the amount of redundant information presented"
+  - "Review and revise claim status content to ensure that information is presented with clarity and serves to inform, direct and set expectations for claimants"
+  - "Explore near-future-state concepts for the claim status detail page addressing the gaps identified in the research"
+  - "Explore alternate ways to organize the claim listing page and display claim items"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Further exploration, concept testing, and validation for near-future-state concepts"
+  - "Testing of revisions to display determination status for each contention"
+  - "Testing of revisions to provide review status for granular requests"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans aged 55-64+"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Biracial"
+  - "Asian"
+  - "Assistive tech users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Decision reviews research from 2022-11"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
 ---
 
 # CST Initial Decisions Research Findings 

@@ -1,95 +1,111 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Document Status Research Findings"
+product: "Claim Status Tool"
+team: "Benefits Team 1"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-11-20"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Gary Homidas"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate whether participants can use proposed design of alerts and statuses to understand different types of success and upload failures"
+  - "Identify whether Veterans recognize the connection between failure notification email and in-app alerts for failures"
+  - "Identify what a Veteran expects when they mail in documents"
+  - "Understand how upload status impacts trust in the claims process"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated semi-structured interviews"
+  - "Usability testing with prototype"
+  - "Scenario-based testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 7
+    tablet: 0
+    smartphone: 1
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 2
+    "55-64": 4
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 2
+    some_college: 1
+    associates: 2
+    bachelors: 2
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 4
+    rural: 3
+    unknown: 1
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 2
+    black: 6
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All participants understood that recently submitted files were in progress and had not been added to their claim as long as the In Progress card remained visible"
+  - "Every participant recognized that the upload failure notification email directly corresponds to the failure alerts displayed in CST"
+  - "After reading email and in-app alerts, all seven participants acknowledged they must resubmit documents that failed to upload"
+  - "Most participants are confident that VA will properly manage Veterans' physical documents and add them to their claims (average rating 4.4 out of 5)"
+  - "Veterans reported average confidence level of 4.7 out of 5 in their ability to successfully submit documents based on instructions provided"
+  - "All 7 participants expected VA to send confirmation email or notification once submitted physical documents were received and added to claim"
+  - "Many participants were uncertain about inconsistency in file statuses under Documents Received - some files showed statuses while others had none"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Continue using design approach to differentiate In Progress documents from Documents Received, but unify terms Submission Started On and Submitted On"
+  - "Update content to ensure important information is clearly communicated using iconography and visual emphasis"
+  - "Explore UI design for received file statuses to resolve lack of clarity around tracked items having status and unrequested files not having status"
+  - "Consider sending notifications to Veterans to confirm physical documents have been received and added to claims"
+  - "Provide Veterans with substantive explanation of why file upload failed and reassure them they are not at fault"
+  - "Provide alternative option for digitally re-submitting documents if initial upload fails"
+  - "Explore ways to associate files to correct Veterans and claims without requiring full SSN for mailed documents"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Decrease support inquiries through clear in-app status updates"
+  - "Reduce anxiety through real-time transparency"
+  - "Enable self-service resolution through actionable feedback"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can effectively understand document upload statuses and take appropriate action when uploads succeed or fail"
+  business: "Reduce support calls and increase trust in digital submission process by providing transparent document status information"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Digital re-submission option after upload failure"
+  - "Automated confirmation for physical document receipt"
+  - "Improved status tracking for all submitted documents"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Validate designs with Veterans who have cognitive disabilities"
+  - "Test with Veterans using assistive technology"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans with cognitive disabilities"
+  - "Veterans with other-than-honorable discharge status"
+  - "Veterans of immigrant origin or living abroad"
+  - "Veterans of Hispanic, biracial, Asian, or Native descent"
+  - "Veterans who identify as LGBTQ+"
+  - "Veterans who use assistive technology"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "CST Silent Failures Journey Map"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Google Sheet"
 ---
 
 # Document Status Research Findings 

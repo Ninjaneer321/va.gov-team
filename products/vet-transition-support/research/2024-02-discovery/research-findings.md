@@ -1,95 +1,129 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Transition Experience Interview Research Findings"
+product: "Veteran Transition Support (VTS)"
+team: "Transition Experience Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-05-15"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Victoria Sun Esparza"
+  - "Cora Goldston"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how our MVP can provide clear and consistent information about benefit discovery, application requirements, and the application process"
+  - "Understand how benefit discovery fits into the larger universe of topics on a transitioning servicemember or Veterans mind"
+  - "Learn more about the role that Commanding Officers play in a servicemember's separation process"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured remote interviews"
+  - "Generative research"
+  - "No product testing - exploratory research phase"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 27
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 13
+  service_members: 4
+  caregivers: 0
+  dependents: 0
+  VA_staff: 7
+  commanding_officers: 3
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 9
+    "35-44": 6
+    "45-54": 2
+    "55-64": 1
+    "65+": 2
+    unknown: 7
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 0
+    associates: 1
+    bachelors: 10
+    masters: 8
+    doctorate: 0
+    unknown: 7
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 16
+    rural: 4
+    unknown: 7
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 12
+    black: 4
+    hispanic: 2
+    biracial: 0
+    asian: 0
+    native: 1
+    prefer_not_to_answer: 1
+    unknown: 7
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 27
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Different participants had different preferences for viewing benefit information - some want full list, others want curated recommendations"
+  - "Many participants had pre-conceived notions about whether the VA will help them, whether they are eligible, or whether they deserve benefits"
+  - "Participants sought benefits for a variety of reasons including saving money, self-motivation, family care, and career transitions"
+  - "Most participants wanted the ability to ask for help while exploring or applying for benefits through live agents, chatbots, or in-person support"
+  - "While participants wanted information about big benefits like disability and healthcare, many also wanted to learn about lesser-known benefits like travel reimbursement and retiree ID cards"
+  - "Participants wanted a system that helps them take action (start benefit applications), not just provide information"
+  - "Participants wanted their existing service records and data automatically pulled in to avoid re-entering information already on file"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "MVP should have multiple ways of viewing information to meet diverse user needs (full list and curated options)"
+  - "MVP needs to address misconceptions about utility of VA benefits, eligibility, and worthiness - Veterans have earned their benefits"
+  - "MVP needs to account for various reasons that Veterans seek benefits"
+  - "MVP should mimic the experience of someone helping the user and/or connect to someone who can help (live agent, chatbot, in-person)"
+  - "MVP needs to highlight lesser-known benefits (travel reimbursement) alongside more popular benefits like health care or education"
+  - "MVP needs to help users take action instead of simply presenting information"
+  - "MVP should pull in a servicemembers existing data as much as possible"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Enhance Veterans personalized online experience"
+  - "Drive OIT Digital Transformation Strategy"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans and transitioning servicemembers can discover relevant benefits and successfully apply based on their individual circumstances and goals"
+  business: "Improved benefit discovery increases benefit utilization and reduces support burden while correcting misconceptions about VA services"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Personalized benefit recommendations based on service history and goals"
+  - "Integration of federal, state, and local benefits information"
+  - "Human support integration (chatbots, live agents, in-person help)"
+  - "Lesser-known benefit discovery and promotion"
+  - "Action-oriented benefit application support"
+  - "Service record integration to reduce data re-entry"
+  - "Addressing worthiness and eligibility misconceptions"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "User testing with working prototype once MVP is created"
+  - "Research with Assistive Technology users"
+  - "Testing with members of other marginalized Veteran groups"
+  - "Research with Reservists and National Guard members on their unique transition experiences"
+  - "TAP class experience variation research"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "LGBTQ+ Veterans"
+  - "Veterans with cognitive disabilities"
+  - "Veterans with an Other than honorable discharge"
+  - "Veterans who are also immigrants to the United States"
+  - "Expats living abroad"
+  - "Veterans 55 years old or older (underrepresented)"
+  - "Veterans who live in rural areas (underrepresented)"
+  - "Veterans who do not have any college degree (underrepresented)"
+  - "Assistive Technology users"
+  - "Mobile users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Previous VA benefit discovery tool research (Benefits Navigator, ExploreVA)"
+  - "Literature review of VA transition support research"
+  - "VA stakeholder and SME interviews"
+  - "TAP (Transition Assistance Program) studies"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Affinity mapping from interview transcripts"
+  - "User flow mockups"
 ---
 
 #  Transition Experience Interview Research Findings 

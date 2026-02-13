@@ -1,95 +1,108 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Check-in with an MSA after eCheck-in Unmoderated Survey Research Findings"
+product: "Health Care Check-in"
+team: "Unified Appointment Experience (UAE)"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-01-06"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Steven Straily"
+  - "Christina Gednalske"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand if Veterans notice and understand information about seeing staff after completing eCheck-in"
+  - "Gauge Veterans' reactions to the new step of seeing staff after online check-in"
+  - "Identify what Veterans value most and least about online check-in"
+  - "Understand Veterans' overall experience with eCheck-in and staff interactions"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Unmoderated survey"
+  - "Likert scale questions"
+  - "Multiple choice questions"
+  - "Open-ended questions"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 44
+    assistive_technology: 0
+participants_total: 44
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 44
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 44
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 44
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 44
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 44
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  experience:
+    CSAT_score: 75
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "75% of participants found the content in both versions easy to understand and straightforward with overall favorable impression of eCheck-in experience"
+  - "When told to see staff after checking in, participants were frustrated and expressed preference to not talk to staff after completing eCheck-in"
+  - "50% of participants mentioned connectivity and staff interactions as the most challenging issues with eCheck-in"
+  - "85% for v1 and 75% for v2 of participants would continue to use eCheck-in if required to see staff, however comments were negative regarding perceived benefit"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Continue with streamlined flow for eCheck-in experience that makes it as easy as possible for Veterans"
+  - "Consider realigning content with additional reasoning to help alleviate negative impression of staff interaction"
+  - "Continue to work with VA facilities to improve WIFI infrastructure for easier eCheck-in access inside facilities"
+  - "Consider ways to provide updated or improved training materials for staff to more effectively assist Veterans with eCheck-in"
+  - "Explore how to better communicate the purpose and benefits of seeing staff after eCheck-in"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improve Veterans' eCheck-in experience and satisfaction"
+  - "Reduce friction in check-in process"
+  - "Improve staff understanding and utilization of eCheck-in"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can efficiently check in online with clear understanding of any required staff interactions"
+  business: "Increased eCheck-in adoption and reduced confusion about check-in procedures"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Improve facility WIFI infrastructure"
+  - "Enhance staff training and awareness of eCheck-in capabilities"
+  - "Better communicate value proposition of eCheck-in when staff interaction is required"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Explore what makes different facilities more successful than others with eCheck-in implementation"
+  - "Research how to better align Veterans' mental models with facility standard operating procedures"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Demographic data not collected for this unmoderated study"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "None specified"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Spreadsheets"
+  - "Digital whiteboard"
+  - "Word processor"
 ---
 
 # Check-in with an MSA after eCheck-in Unmoderated Survey Research Findings

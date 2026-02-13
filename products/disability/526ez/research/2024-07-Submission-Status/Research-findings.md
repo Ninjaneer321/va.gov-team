@@ -1,95 +1,110 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "526 Submission Status Research Findings"
+product: "Disability Benefits - 526EZ"
+team: "DBEX 1"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-07-29"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Evelyn Hilbrich Davis (evelyn@cityfriends.tech)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate how effectively the submission model sets clear expectations for claim submission timeline"
+  - "Evaluate if submission touchpoints are timely and useful for Veterans"
+  - "Generate ideas for the next design milestone to improve the claim record"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Usability testing"
+  - "Concept testing"
+  - "High-fidelity clickable Figma prototype"
+  - "Remote moderated sessions (60 minutes)"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 8
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans' mental models for claims processing do not map onto the VA timeline for electronic submission"
+  - "Participants who conflated the submission and tracking timelines had mixed expectations for next steps"
+  - "Participants would likely download a full PDF of their claim at a later date, but stated they had all the claim information they needed on the confirmation page"
+  - "The submission received email clearly communicated the final submission status"
+  - "Most participants didn't feel a need to check the status of their submission online once it was received"
+  - "The happy and backup path scenarios were easy to understand and left participants feeling confident that their submission was complete"
+  - "Participants consider digital resubmission to be the safest and cheapest way to send their documents"
+  - "Missing touchpoints leads participants to worry that something went wrong with their submission"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Convey that submission is a 3 day electronic process, not immediate or human-controlled"
+  - "Change language from date initiated to date submitted to address mixed comprehension and align with MyVA language"
+  - "Feature only one timeline per touchpoint to avoid confusing Veteran expectations"
+  - "Explore strategies for making next steps clearer to Veterans, especially in the submission received email"
+  - "Introduce email touchpoints for significant milestones in the claims process, starting with a message for when claim tracking is available on VA.gov"
+  - "Remove the link to the Claim Status Tool before the claim is available"
+  - "Introduce a digital resubmission option for Veterans experiencing evidence failure"
+  - "Communicate to Veterans that their mailed evidence resubmission has been received or if it hasn't"
+  - "Continue to explore means of providing Veterans with a full record of their claim"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improve submission accuracy and completion rates"
+  - "Reduce contact center calls related to submission status"
+  - "Increase Veteran confidence in claim submission process"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans have accurate expectations about their claim submission timeline and status, reducing anxiety and unnecessary contact center calls"
+  business: "Reduced contact center volume and improved Veteran satisfaction with the submission process"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Digital evidence resubmission to replace mail-only process"
+  - "Full claim record PDF generation for Veteran records"
+  - "Enhanced email notifications for claims milestones"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Test revised content addressing submission timeline confusion"
+  - "Validate digital resubmission flow for evidence failures"
+  - "Research optimal timing and content for email touchpoints throughout claims process"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Assistive technology users not represented"
+  - "Complete demographic data not collected"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Not specified"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Not specified"
 ---
 
 # 526 Submission Status Findings Report

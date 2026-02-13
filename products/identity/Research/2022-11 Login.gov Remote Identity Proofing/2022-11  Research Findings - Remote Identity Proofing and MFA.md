@@ -1,95 +1,139 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Login.gov Remote Identity Proofing and MFA Research Findings"
+product: "Login.gov"
+team: "Identity"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-12-20"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Alexander Hoover"
+  - "Carrie McGrath"
+  - "Shqiponja Hoxha Ocumarez"
+  - "Princess Ojiaku"
+  - "Annie Hirshman"
+  - "Kelli-Anne Ho"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Get baseline understanding of how users experience Login.gov unsupervised proofing flow"
+  - "Identify challenges users face during identity proofing"
+  - "Understand how users seek to overcome identity proofing challenges"
+  - "Evaluate multi-factor authentication selection and usage"
+  - "Assess accessibility of Login.gov for screenreader users"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability testing"
+  - "Remote sessions via Zoom"
+  - "Live Login.gov account creation and identity proofing"
+  - "Observational study"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 16
+    tablet: 0
+    smartphone: 10
+    assistive_technology: 5
+participants_total: 21
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 18
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 3
+    "35-44": 5
+    "45-54": 4
+    "55-64": 6
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 2
+    some_college: 5
+    associates: 2
+    bachelors: 6
+    masters: 4
+    doctorate: 2
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 14
+    rural: 7
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 8
+    black: 6
+    hispanic: 3
+    biracial: 2
+    asian: 2
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 5
+    screen_reader_desktop: 4
+    screen_reader_mobile: 2
+    magnification_zoom: 3
+    speech_input: 0
+    hearing_aids: 1
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Only 10 of 21 participants successfully created account and proved identity"
+  - "Photo ID upload was biggest issue frustrating or blocking completion"
+  - "Login.gov is not usable for screenreader participants - 3 of 5 were unsuccessful"
+  - "14 of 21 participants chose only one MFA option for convenience"
+  - "SMS and Face/Touch were primary MFA choices, backup codes distant third"
+  - "Users have no fallback options to verify personal details or phone number when blocked"
+  - "Puerto Rican address caused rate limiting after multiple verification attempts"
+  - "2 participants without state-issued ID abandoned at photo upload"
+  - "Auto-capture feature was difficult for many participants"
+  - "Manual photo upload challenging - participants struggled to meet quality requirements"
+  - "9 participants abandoned, were rate limited, or were blocked"
+  - "Participants generally did not read photo guidance, opting to jump into upload"
+  - "Participants preferred calling customer support over email"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Explore better auto-capture solutions that are more forgiving and accessible"
+  - "Implement remote identity proofing with supervision (RIPS) to help blocked users"
+  - "Consider human-in-the-loop (HITL) for photo upload flexibility"
+  - "Define personas for Login.gov users to better understand needs"
+  - "Improve accessibility for screenreader users at photo ID upload step"
+  - "Allow upload with desktop webcam"
+  - "Auto-detect front and back of ID to help blind users"
+  - "Provide visual examples of good photo ID pictures"
+  - "Make it clearer what to expect with desktop-to-phone handoff"
+  - "Clarify whether to include '#' symbol in SMS code"
+  - "Improve guidance for personal key storage and retrieval"
+  - "Address InstantVerify issues with Puerto Rico addresses"
+  - "Expand acceptable ID types beyond state-issued photo IDs"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Increase Login.gov identity proofing success rate"
+  - "Improve accessibility compliance"
+  - "Reduce abandonment rate during proofing"
+  - "Increase MFA adoption and security"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can successfully create Login.gov accounts and complete identity proofing without major barriers"
+  business: "Increase Login.gov adoption and reduce support burden from failed identity proofing attempts"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Screenreader accessibility for entire proofing flow"
+  - "Photo ID upload process simplification"
+  - "Alternative identity verification methods"
+  - "Puerto Rico address verification improvements"
+  - "Non-state-issued ID acceptance"
+  - "Fallback verification options"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "RIPS (Remote Identity Proofing with Supervision) pilot study"
+  - "Alternative auto-capture UI pattern testing"
+  - "Accessibility improvements validation with screenreader users"
+  - "Alternative fair evidence acceptance research"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Native Americans"
+  - "More non-binary participants"
+  - "Higher income Veterans"
+  - "Participants with other assistive technology types"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Previous Login.gov low/no vision study"
+  - "InstantVerify success rate data by geography"
+  - "Login.gov analytics on failure points"
+  - "RIPS Contingency Sprint Report"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Session notes with moderators and notetakers"
+  - "Video recordings"
+  - "Quantitative analysis of success/failure rates"
+  - "Comparative analysis by result type"
 ---
 
 # 2022-11 Login.gov Remote Identity Proofing Synthesis

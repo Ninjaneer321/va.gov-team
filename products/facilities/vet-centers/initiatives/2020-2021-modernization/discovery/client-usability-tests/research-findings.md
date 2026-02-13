@@ -1,95 +1,143 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Vet Centers Product - Usability Study - V2 Research Findings"
+product: "Vet Centers"
+team: "VSA Facility Locator"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-02-10"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Leyda Hughes"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand if Veterans would have enough information to choose care at a Vet Center"
+  - "Gain high level Veteran input on the understanding and usability of the Vet Center mobile prototype"
+  - "Test improvements from the first round of usability sessions conducted on a desktop prototype"
+  - "Understand Veterans comprehension of service taxons"
+  - "Understand Veterans comprehension of services and care available/not available"
+  - "Evaluate information architecture and navigation"
+  - "Assess logistical information sufficiency"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Combined directed interviewing and usability testing"
+  - "Task analysis"
+  - "High-fidelity mobile prototype testing (UXPin)"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 11
+    assistive_technology: 0
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 1
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 10
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 2
+    associates: 1
+    bachelors: 5
+    masters: 3
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 8
+    rural: 2
+    unknown: 1
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 4
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Most participants used the 'Counseling services' jump link to find individual or group counseling"
+  - "Veterans sought out symptoms over clinical diagnoses when looking for services"
+  - "Veterans like 'VA Connections' as a service but misunderstood the title"
+  - "Veterans like seeing affinity groups but quickly feel excluded if they can't identify with one"
+  - "Most Veterans thought they were looking at a medical facility's website"
+  - "Veterans liked the services and eligibility that Vet Centers offers"
+  - "Vet Center clients believed the prototype set inflated expectations compared with their experiences"
+  - "Many Veterans did not distinguish between grief and bereavement"
+  - "Participants navigated between pages easily"
+  - "Participants felt the prototype was well organized but mentioned page length and scrolling"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Refine intro copy to be easier to scan. Consider a bulleted list for the second sentence which may improve the likelihood that keywords get noticed instead of bypassing the entire block of copy"
+  - "Consider rewording 'How we're different than a clinic' to include keywords like 'Confidentiality' and 'Eligibility'"
+  - "Consider renaming 'Referral services' to actions that Veterans are trying to take like 'Getting Veteran services help'"
+  - "Give Veterans an option to email a Vet Center"
+  - "Change 'Main number' to 'Direct line'"
+  - "Consider adding an 'appointments' accordion to provide another opportunity for Vet Centers to differentiate themselves from VA medical centers and to set realistic expectations for getting seen"
+  - "Add phone and email contact options"
+  - "Revise 'same day' messaging to set a realistic expectation"
+  - "Consider explaining small office/staff, to highlight intimate environment and set expectations"
+  - "Reiterate 'no referral required' 'no VA enrollment required'"
+  - "Consider adding messaging about Telehealth, if available"
+  - "Continue highlighting groups and events but only those that are open to all Veterans"
+  - "Lead with symptoms and include more layman's terms in health services taxonomy"
+  - "Consider reordering services by priority vs alphabetization"
+  - "Add telehealth, phone, video modalities to the services that offer it"
+  - "'Hook' the broadest audience by starting with lowest common denominator symptoms and vocabulary and progressively disclose clinical terms"
+  - "Consider adding an 'entry level' mental health care service category like 'counseling'"
+  - "Keep evidence-based treatments but prioritize them lower within hierarchy of information"
+  - "Consider broadening VA Connections service and renaming it to match the Veteran's view of it as 'VA benefits' or 'Navigating VA benefits'"
+  - "Add a bullet that describes home loan assistance and housing benefits"
+  - "Add a bullet that describes connecting Veterans to VSOs, VFWs, etc."
+  - "Prioritize what a Veteran or family member wants and needs to know when experiencing grief and bereavement vs what the VA wants a Veteran to know about eligibility"
+  - "Consider adding map plotted with all area locations"
+  - "Add email addresses to all locations"
+  - "Add a way for users to traverse the length of pages more easily, such as a 'back to top' link"
+  - "Break up large bodies of copy to be more scannable"
+  - "Use more verbs that relate to what Veterans are wondering about and trying to accomplish vs nouns that reflect business speak or clinical terminology"
+  - "Continue to push the design system to add new design patterns that help to improve overall page scannability and navigability"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Veterans need online scheduling options, contact forms, or email to reduce barriers to making appointments"
+  - "Veterans want reviews or testimonials before choosing a facility"
+  - "Veterans want to see actual appointment availability and hours information"
+  - "Veterans need to understand that Vet Centers are not medical facilities"
+  - "Veterans need better expectation setting around same-day appointments and walk-ins"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Run a study testing revised services taxonomy"
+  - "Test taxonomy on and get input from Veterans and proxies (VSOs, Vet Center outreach specialists, call center workers)"
+  - "More research is needed to inform services - lead with symptoms and include more layman's terms"
+  - "Use data from pilot sites to inform future improvement"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
   - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Vet Centers"
+  - "DSC: Accordions"
+  - "DSP: Content Presentation"
+  - "DSP: Contextual Help"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "evaluative"
+  - "mobile"
 ---
 
 # Research Findings: Vet Centers Product - Usability Study - V2

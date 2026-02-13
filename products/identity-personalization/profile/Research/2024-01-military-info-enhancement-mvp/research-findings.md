@@ -1,95 +1,111 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Enhanced Military Information Research Findings"
+product: "Profile - Military Information"
+team: "Authenticated Experience Profile Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-03-08"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Pam Drouin (A1M Solutions)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Gain a better understanding of veteran mental models regarding their service occupations to inform how we present military information data"
+  - "Review data pulled from VADIR with veterans to assess accuracy, completeness, and utility"
+  - "Gather feedback on proposed design mock-up for enhancing military information section with duty status, dates, and military occupation specialties"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Concept testing"
+  - "Data walk-through with VADIR database queries"
+  - "Mental model card sorting activity"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 16
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 16
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 16
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 4
+    "45-54": 4
+    "55-64": 1
+    "65+": 5
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 4
+    associates: 2
+    bachelors: 4
+    masters: 4
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 11
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 10
+    black: 3
+    hispanic: 4
+    biracial: 0
+    asian: 3
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans use military records for promotions during service, vocational training, job applications after separation, and medical/disability benefits"
+  - "MOS is helpful for correlating medical issues to service, but location data is more helpful when providing context to healthcare providers and claims adjudicators"
+  - "Branch of service and service type (active/reserves) data from VADIR was highly accurate (15/15 participants confirmed)"
+  - "Service dates were mostly accurate but some were off by days or months (10/15 had correct dates)"
+  - "Military occupation data quality was inconsistent with inaccurate effective dates and incomplete occupation codes"
+  - "Deployment data had issues with dates and missing locations"
+  - "When conceptualizing military history, 7/9 veterans thought about location first rather than what they were doing (MOS)"
+  - "Veterans found value in displaying active duty and inactive reserves status in Profile"
+  - "Veterans suggested additional information be included: awards, dates, rank, locations, and unit assignments"
+  - "Only small number of veterans noticed additional information component for correcting data"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Consider incorporating periodOfServiceTypeText (active/reserves) into veteran profiles as data was accurate and appreciated"
+  - "Consider incorporating characterOfDischargeText with explanation key for null values"
+  - "Discuss viability and utility of including narrativeReasonForSeparationText given accuracy concerns"
+  - "Do not pursue including militaryOccupations in veteran profiles given data inconsistencies and limited utility"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improve accuracy and completeness of military history data in Profile"
+  - "Support veterans in applying for benefits, especially disability claims"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can access more complete military service information to support benefit applications and provide context to healthcare providers"
+  business: "Profile team has data-driven insights on which VADIR data elements are accurate and valuable enough to display to veterans"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Location data (duty stations, deployments, training) may be more valuable than MOS data for veterans"
+  - "Veterans want Profile to serve as one-stop shop for military records"
+  - "Data accuracy issues need resolution before deployment information can be displayed"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Investigate why service begin/end dates are sometimes off by days or months"
+  - "Monitor deployments and deployment locations data to see if coverage improves"
+  - "Investigate duty station location data since locations were organizing principle for 7 of 9 participants"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "LGBTQ+"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "VADIR database queries"
+  - "DD214 validation"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Interview transcripts"
+  - "Card sorting analysis"
+  - "Data accuracy tracking spreadsheet"
 ---
 
 # Enhanced Military Information Research Findings 

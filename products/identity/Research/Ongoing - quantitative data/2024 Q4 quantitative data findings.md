@@ -1,95 +1,120 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "2024 Q4 Quantitative Data Findings"
+product: "Sign-in Experience"
+team: "Identity Experience Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-12-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Clayton Zook"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Analyze Medallia feedback and intercept survey data related to identity and sign-in"
+  - "Review MyVA411 call center data for identity-related issues"
+  - "Identify trends and pain points in sign-in experience during credential transition period"
+  - "Compare Q4 2024 data to early 2024 to understand impact of credential deprecation"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Medallia feedback survey analysis"
+  - "Medallia intercept survey analysis"
+  - "MyVA411 call center data analysis"
+  - "Quantitative data analysis with researcher-applied tagging"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: "Not tracked"
+    tablet: "Not tracked"
+    smartphone: "Not tracked"
+    assistive_technology: "Not tracked"
+participants_total: "15,000+ data points analyzed"
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: "Not tracked"
+  service_members: "Not tracked"
+  caregivers: "Not tracked"
+  dependents: "Not tracked"
+  VA_staff: "Not tracked"
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": "Not tracked"
+    "35-44": "Not tracked"
+    "45-54": "Not tracked"
+    "55-64": "Not tracked"
+    "65+": "Not tracked"
+    unknown: "Not tracked"
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: "Not tracked"
+    some_college: "Not tracked"
+    associates: "Not tracked"
+    bachelors: "Not tracked"
+    masters: "Not tracked"
+    doctorate: "Not tracked"
+    unknown: "Not tracked"
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: "Not tracked"
+    rural: "Not tracked"
+    unknown: "Not tracked"
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: "Not tracked"
+    black: "Not tracked"
+    hispanic: "Not tracked"
+    biracial: "Not tracked"
+    asian: "Not tracked"
+    native: "Not tracked"
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: "Not tracked"
+    AT_beginner: "Not tracked"
+    AT_advanced: "Not tracked"
+    screen_reader_desktop: "Not tracked"
+    screen_reader_mobile: "Not tracked"
+    magnification_zoom: "Not tracked"
+    speech_input: "Not tracked"
+    hearing_aids: "Not tracked"
+    sighted_keyboard: "Not tracked"
+    captions: "Not tracked"
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "89% of Medallia feedback survey responses were negative, dominated by CSP transition issues"
+  - "86% of intercept survey responses showed negative site satisfaction"
+  - "91% of intercept survey respondents could not complete their task"
+  - "Identity verification was the top MyVA411 call category with over 6,000 calls"
+  - "Login.gov verification issues increased 41% while ID.me increased 23%"
+  - "Forgot password issues decreased for deprecated credentials but increased for modern credentials"
+  - "Inability to sign in calls decreased 18% while verification issues increased 20%"
+  - "Negative feedback increased 42% from early 2024, while positive decreased 40%"
+  - "Veterans struggle with identity verification, especially photo ID verification"
+  - "Many veterans lack smartphones or have difficulty with MFA methods"
+  - "Confusion about needing two accounts and differences between Login.gov and ID.me"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Monitor verification issues Category to see if it decreases after MHV mass migration"
+  - "Track confirmation email issues to understand if increase is temporary due to migration"
+  - "Continue monitoring forgot password data as potential success metric for deprecation"
+  - "Understand code changes that reduced EVSS errors between early and late 2024"
+  - "Make sign out button more clear and easier to find"
+  - "Push veterans towards MFA methods other than SMS by working with CSPs"
+  - "Press CSPs to offer barcode scan option for driver's license verification"
+  - "Revisit and improve content on page comparing Login.gov vs ID.me"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "CSAT improvement target"
+  - "Contact center call volume reduction"
+  - "Successful credential transition completion rate"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can successfully transition to modern credentials with reduced friction"
+  business: "Reduced support burden and improved satisfaction as credential transition completes"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Identity verification process simplification"
+  - "MFA method diversification beyond SMS"
+  - "Clearer guidance on choosing between Login.gov and ID.me"
+  - "Improved driver's license photo capture experience"
+  - "Better email confirmation process for account setup"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Continued monitoring of Q1 2025 data to see if trends stabilize post-migration"
+  - "Qualitative research on identity verification pain points"
+  - "User testing of improved Login.gov vs ID.me comparison content"
+  - "Research with veterans who lack smartphones or have limited technology access"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "All demographic groups - quantitative data does not track demographics"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Medallia feedback survey (192 entries)"
+  - "Medallia intercept survey (323 entries)"
+  - "MyVA411 call center data (14,480 entries)"
+  - "Early 2024 comparison data"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Excel/spreadsheet analysis"
+  - "Researcher-applied tagging system (39 tags)"
+  - "DataDog"
 ---
 
 # 2024 Q4 quantitative data findings

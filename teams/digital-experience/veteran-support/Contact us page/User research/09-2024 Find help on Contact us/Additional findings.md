@@ -1,95 +1,126 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Find Help on Contact Us - Additional Research Findings"
+product: "Contact Us Page"
+team: "Veteran Support Crew & Content, Information Architecture, and Editor Experiences Crew"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-10-22"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Becky Phung"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Document additional findings that don't represent patterns but may inform other teams"
+  - "Share insights across sign-in, account, travel pay, chatbot, facilities, accessibility, and Ask VA experiences"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "Observational research"
+  - "Qualitative analysis"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 6
+    tablet: 1
+    smartphone: 3
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 3
+    "55-64": 4
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 2
+    associates: 3
+    bachelors: 2
+    masters: 2
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 4
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 2
+    hispanic: 1
+    biracial: 1
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 5
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Overseas Veterans experience challenges verifying identity at Military Operated Offices"
+  - "Veterans experience challenges with two-factor authentication including limited phone service and multiple devices"
+  - "One person had negative experience with Login.gov phone support"
+  - "One person thought Login.gov was more secure than ID.me"
+  - "One person couldn't find VA benefits letter using site search"
+  - "Travel pay: Veterans unable to file claims when facility not in system"
+  - "Chatbot: People deterred from using after reviewing what it cannot do"
+  - "One person wanted to save chatbot interaction transcripts"
+  - "Facility locator: Overseas Veteran thought tool couldn't help them"
+  - "Older Veterans primarily use their phones for digital access"
+  - "People don't notice dynamic changes on page if attention isn't called to it"
+  - "One participant skipped headers and focused on interactive elements like accordions"
+  - "Ask VA: Need for unauthenticated experience when can't sign in"
+  - "Category field on ask.va.gov looks like input field causing confusion"
+  - "Some Veterans don't think VA.gov is helpful - can't find information or understand purpose"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Share sign-in findings with sign-in experience team"
+  - "Share account experience findings with account experience team"
+  - "Share travel pay findings with travel pay team"
+  - "Share chatbot findings with VA chatbot team"
+  - "Share facilities findings with sitewide facilities team"
+  - "Share accessibility findings with accessibility champions"
+  - "Share Ask VA findings with Ask VA team"
+  - "Share general VA.gov findings with OCTO leadership"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Cross-team collaboration and knowledge sharing"
+  - "Product improvement opportunities across VA.gov"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans have better experiences across all VA.gov products informed by this research"
+  business: "Teams can address pain points discovered during Contact us research"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Identity verification for overseas Veterans"
+  - "MFA alternatives for Veterans with limited phone service"
+  - "Travel claim facility database completeness"
+  - "Chatbot capabilities and user expectations"
+  - "Facility locator international support"
+  - "Mobile-first design considerations"
+  - "Dynamic content change notifications"
+  - "Ask VA unauthenticated experience"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Deep dive research on overseas Veteran identity verification challenges"
+  - "Study of MFA alternatives for Veterans with limited technology access"
+  - "Travel pay facility database audit and user testing"
+  - "Chatbot user expectations and capabilities research"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Assistive technology users"
+  - "Veterans with other than honorable discharge"
+  - "Immigrant origin Veterans"
+  - "Asian Veterans"
+  - "Native Veterans"
+  - "Veterans aged 25-44"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Primary study: Find help on Contact us"
+  - "Observational data from Contact us usability testing"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Qualitative analysis"
+  - "Cross-product insights mapping"
 ---
 
 # Additional findings for "Find help on Contact us" study

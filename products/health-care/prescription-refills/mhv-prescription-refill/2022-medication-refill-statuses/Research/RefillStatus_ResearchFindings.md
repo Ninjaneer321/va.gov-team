@@ -1,95 +1,97 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Refill Status Usability Testing Research Findings"
+product: "MHV Prescription Refill"
+team: "Prescription Refills"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-12-05"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Researcher not specified in document"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Determine if introduced tags are helpful and intuitive for Veterans"
+  - "Determine usability of tags and links"
+  - "Assess users habits when interacting with elements like tags and glossary"
+  - "Identify any pain points along the refill flow while completing tasks within the Details page and exploring the Refill Prescription Page"
+  - "Iterate designs to empower Veterans with the information they need and want"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "In-person moderated usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 11
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 11
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 11
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 11
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "5 out of 11 participants opened the Refill status tag while 7 referenced its contents indicating that content is helpful and users who need more information know what to interact with"
+  - "Very few participants (3 out of 11) knew of or used the glossary"
+  - "On the Medication Details page 4 out of 11 knew to click on the Active Submitted link to open the definition"
+  - "The Expiration Date was incorrectly defined by 7 of 11 participants who assumed it was the expiration of the medication not the prescription"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Implement tags in Refill VA Prescriptions page and Medication Details page as positive response and additional information was greatly appreciated"
+  - "Adjust chart on Refill VA Prescriptions page to help with information architecture and prioritize what Veterans need to know"
+  - "Update Medication Details page with proposed designs including Rx status hyperlink and Refill status tags"
+  - "Change definitions or number of dates as too many participants were confused especially with the Expiration date which could become a patient safety issue"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improved clarity of prescription refill statuses"
+  - "Reduced confusion about prescription information"
+  - "Enhanced patient safety through better date understanding"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily understand their prescription statuses and take appropriate action for refills"
+  business: "Reduce support calls and improve prescription management efficiency on My HealtheVet"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Improving glossary visibility and usability"
+  - "Clarifying date definitions to prevent patient safety issues"
+  - "Enhancing Medication Details page with more comprehensive information"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "No further research needed at this time"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Demographic data not fully captured in participant tracker image reference"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "None documented"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Miro board for synthetization"
 ---
 
 # **Refill Status Usability Testing December 2022 Findings Report**

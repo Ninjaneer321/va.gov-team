@@ -1,95 +1,140 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VSO Research Findings"
+product: "Veterans Pension (VA Form 21P-527EZ)"
+team: "Pension & Burials Program (PBP), Benefits Portfolio"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-12-04"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Daniela Jones"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand VSOs' experiences working with Veterans on Veterans Pension claims"
+  - "Understand VSOs' perception of the 527EZ, as well as the experience of applying for and receiving Veterans Pension"
+  - "Understand VSOs' perspectives on the challenges associated with the 527EZ and/or the process of applying for Veterans Pension generally"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated interviews via Zoom"
+  - "By proxy methodology (VSOs acting as proxies for pension-eligible Veterans)"
+  - "Trauma-informed approach"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 4
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 6
+  VSOs: 6
+  county_VSOs: 5
+  state_VSOs: 1
+  VSO_experience_years: "3-34 years"
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 6
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 6
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 1
+    rural: 5
+    unknown: 0
+  geographic_states: 4
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 6
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Pension-eligible Veterans typically contact VSOs when they are already in dire financial need, potentially missing out on benefits they could have accessed sooner"
+  - "While VSOs are effectively reaching some Veterans through a variety of channels, it remains challenging to proactively connect with some pension-eligible Veterans"
+  - "Many pension-eligible Veterans may not be self-sufficient and are almost always supported by a family member or caregiver when working with a VSO"
+  - "Due to the complexity of Veterans Pension, many VSOs prefer to work with applicants in person to address questions and concerns in real time and ensure application accuracy"
+  - "Citing Veterans Pension as one of the most complicated benefits to apply for, VSOs recommend Veterans seek help from an accredited representative to help avoid costly application errors and delays"
+  - "VSOs frequently named marriage history, financial information, and medical expenses as the most challenging sections of the application for Veterans to complete due to the complexity or volume of information required"
+  - "VSOs frequently report the presence of pension poachers—individuals or companies that exploit Veterans by offering fraudulent services or charging high fees for assistance"
+  - "In the face of recent increases in claim processing times, VSOs recommend waiting to gather all necessary evidence prior to submitting an application for a faster decision"
+  - "After submitting an application, Veterans often reach out to VSOs about claim status, development letters, and overpayments, underscoring the need for ongoing communication and support at every stage of the application process"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Explore opportunities to inform Veterans and their families of Veterans Pension before they are in dire straits, including those who may be on the cusp of eligibility"
+  - "Share this report with groups who can impact programming and messaging related to the relationship between Medicaid and VA benefits on VA.gov, such as CAIA"
+  - "Consider informing Veterans and families of the relationship between Medicaid and Veterans Pension on the online form"
+  - "Conduct research with family members of eligible Veterans to better understand their experience and needs as users of the 527EZ"
+  - "Consider designing an experience catered specifically toward family members or caregivers within the online form"
+  - "Consider if there are certain circumstances best suited to self service on VA.gov, and others where we may recommend working with an accredited representative to file a pension claim"
+  - "Revisit (with VBA partners) what information on the form is essential and clarify the 'why' behind the information needed within the form itself"
+  - "Integrate approaches utilized by VSOs into form content and design, such as guidance to minimize the reporting of medical expenses while maximizing the benefit"
+  - "Incorporate more dynamic user experiences into the form, such as a dynamic medical expenses calculator"
+  - "Continue to pursue opportunities to prefill information on the form where possible"
+  - "Explore the idea of a 'buddy statement' within the 527EZ for medical expenses"
+  - "Consider the prioritization of digitizing the Income and Asset Statement (21P-0969) relative to other PBP team initiatives, knowing that this supplemental form is used by upwards of 50% of pension applicants"
+  - "Consider providing information about pension poachers and/or making information about accredited representatives more visible on the 527EZ"
+  - "Share findings with relevant groups to inform content about accredited representatives on VA.gov"
+  - "Revisit whether we should include information about the Fully Developed Claim (FDC) program on our form"
+  - "Revisit the language in our form about supporting documentation to clarify how submitting all documentation at once may impact processing times"
+  - "Provide clear, accessible information to Veterans about how to maintain their benefits and avoid overpayments"
+  - "Work with VBA partners to simplify development letter content"
+  - "Consider what resources may be beneficial to share with Veterans after they've filed a pension claim, as well as how and where we might best communicate information about those resources"
+  - "Explore opportunities to better set expectations on the claims processing timeline and claims status for Veterans on the online form"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Not explicitly mentioned in document"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans and families can more easily learn about, apply for, receive, and maintain Veterans Pension benefits with reduced burden and clearer communication throughout the process"
+  business: "Reduce development letters, decrease processing times, minimize application errors, and improve claim completion rates through better form design and clearer guidance"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Inform Veterans of pension eligibility before dire financial need"
+  - "Simplify marriage history, financial information, and medical expense sections"
+  - "Better integrate information about accredited representatives to combat pension poachers"
+  - "Design for family members and caregivers as primary form users"
+  - "Reduce burden of supplemental forms (21P-0969 Income and Asset Statement, 21P-8416 Medical Expense Report)"
+  - "Improve post-submission experience (claim status, development letters, overpayments)"
+  - "Clarify relationship between Medicaid and Veterans Pension"
+  - "Better set processing time expectations"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Validate findings with pension-eligible Veterans and their families directly"
+  - "Validate whether marriage history, financial information, and medical expenses are the most challenging sections for Veterans filling out the online form"
+  - "Validate how pension-eligible Veterans who apply without accredited representative help typically learn about Veterans Pension"
+  - "Understand who the users of the 527EZ are and what challenges they face during their self-service experience"
+  - "Validate if Veterans filling out the 527EZ are commonly supported by a family member or caregiver"
+  - "Familiarize ourselves with VA Form 21-2680 (Aid & Attendance) to better understand the interactions between this form and the 527EZ"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Pension-eligible Veterans themselves (study used proxy methodology with VSOs)"
+  - "Family members and caregivers of pension-eligible Veterans"
+  - "Veterans in assisted living facilities"
+  - "Veterans with cognitive challenges or dementia"
+  - "Veterans who attempted to complete the form without VSO assistance"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Previous usability study of Veterans Pension form (January 2024)"
+  - "VSO software tools usage (VetPro, VetraSpec)"
+  - "VBMS (Veterans Benefits Management System) data access by VSOs"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Zoom for remote moderated interviews"
+  - "Trauma-informed research approach"
+  - "Thematic analysis of interview transcripts"
 ---
 
 # **VSO Research Findings**

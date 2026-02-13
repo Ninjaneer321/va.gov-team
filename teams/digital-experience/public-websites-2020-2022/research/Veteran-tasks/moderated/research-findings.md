@@ -1,95 +1,118 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Veteran Top Tasks Moderated Research Findings"
+product: "Sitewide Home Page"
+team: "Sitewide Home Page team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-06-03"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Cindy Merrill"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Get feedback from Veterans and others (including Veterans' family members or caregivers, survivors, and service members) on a survey designed to identify Veteran top tasks"
+  - "Identify which VA-related tasks are most important to Veterans and caregivers so that these tasks can be best supported from the VA.gov home page"
+  - "Test the survey tasks, questions, and instructions before launching the unmoderated survey to a large group"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "Survey testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 1
+    smartphone: 1
+    assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 4
+  service_members: 1
+  caregivers: 1
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 1
+    "45-54": 2
+    "55-64": 1
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 2
+    some_college: 0
+    associates: 1
+    bachelors: 3
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 4
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 2
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "The survey was well-received by research participants."
+  - "Three participants were unclear on the meaning of a few of the tasks."
+  - "Two participants didn't scroll on the task importance question and so didn't see the full task list."
+  - "Two people said that the long list of tasks was overwhelming and recommended breaking them down into categories. The other 5 participants thought the list was OK as is."
+  - "(Preliminary results) Top tasks: The tasks selected by the most people as important were Learn about or file for disability compensation and Schedule or manage health appointments."
+  - "(Preliminary results) Participants selected an average of 13 tasks as important (ranging from 3 to 26)."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Consider adding a few more tasks: See if my illness or condition might be service-connected (e.g., Agent Orange exposure), Find a rehab/nursing home, Get durable medical equipment, Volunteer at events to support the VA. (UPDATE: This recommendation was discussed by the team but then rejected.)"
+  - "Add brief descriptions to some tasks to explain these terms or tasks: disability; Update your VA health care information; travel reimbursement; Get help with your housing, rent or utilities; VA benefit letters; VA caregiver assistance program; Veteran events; VSO; pension; pre-needed determination"
+  - "Change wording of benefits experience question (#5): 'including' to 'for example', and put 'or' between the examples"
+  - "Clarify housing options in benefits experience question (#5): move 'home loans' into a new option and rename to 'home loan Certificate of Eligibility (COE)'"
+  - "Add new option to VA interaction question (#1): 'I don't contact the VA directly, but I hear about it while helping someone else'"
+  - "Add new question at the end about the respondent's role (Veteran, Veteran's family member, Veteran's caregiver, Service member, Survivor, Other)"
+  - "Add to task importance question (#2): 'you'll need to scroll' down to see all the options"
+  - "Add to task importance question (#2) options: 'None of the above'"
+  - "Add to the survey welcome about what we're doing (i.e., mention VA, want to learn more about what VA benefits and services are most important to you so we can help)"
+  - "Add to survey welcome: 'This is a short survey with a few short questions and one longer question'"
+  - "Add to the survey ending message about how to get info about any of the VA benefits mentioned in this survey (go to VA.gov)"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Some tasks were unclear to participants and need better descriptions"
+  - "Long task list needs better visual cues for scrolling"
+  - "Need to capture participants' roles more accurately"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Revise task list and get feedback"
+  - "Revise survey and get feedback"
+  - "Launch unmoderated research with revised survey"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Has a cognitive disability"
+  - "Identify as Hispanic, Biracial, Asian, or Native"
+  - "Identify as gay, lesbian, bisexual, transgender, or non-binary"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Use assistive technology"
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Synthesis spreadsheet"
+  - "Survey data analysis"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family Member"
+  - "AUD: Service Members"
+  - "usability-testing"
+  - "evaluative"
+  - "survey"
 ---
 
 # Veteran Top Tasks MODERATED Research Findings 

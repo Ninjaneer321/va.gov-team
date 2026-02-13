@@ -1,95 +1,123 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VA Online Scheduling: VAOSR and Express Care Research Findings"
+product: "VA Online Scheduling (VAOS)"
+team: "VA Online Scheduling"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2020-07-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Not specified"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Collect general feedback and requests from Veterans for additional feature considerations for VAOSR"
+  - "Validate current assumptions about DEPO's VAOSR product development backlog"
+  - "Iterate on Express Care concept based on May 2020 research"
+  - "Build and launch Express Care product on VA.gov incorporating feedback from users"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "Usability research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 15
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 14
+  service_members: 0
+  caregivers: 1
+  dependents: 0
+  VA_staff: 1
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 4
+    "45-54": 1
+    "55-64": 5
+    "65+": 4
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 5
+    associates: 0
+    bachelors: 2
+    masters: 8
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 15
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 11
+    black: 1
+    hispanic: 3
+    biracial: 0
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Overall, both VAOSR and Express Care were well received by most of the Veterans who interacted with each product, respectively."
+  - "Veterans expressly stated that had they not been participating in a research session, able to ask questions, and had someone to provide assistance and guidance through either a hypothetical task or a task they were interested in completing, that they would have given up attempting to use the respective tool, opting to call their provider to complete the task, or more realistically, given up entirely."
+  - "Most notably, Veterans stated a significant frustration upon initiating scheduling a request in VAOSR, only to learn and/or realize after interacting with VAOSR that the tool does not *actually* complete the scheduling request."
+  - "Content presented the biggest burden to all users."
+  - "Veterans indicated excessive trouble understanding, parsing through, and comprehending the information presented to them."
+  - "Veterans indicated not only was the amount of content a burden, but the variation throughout the content used to describe the same information difficult for them to manage."
+  - "All participants who were asked about appointment cancellations (60% total participants) said cancellations functioned as anticipated, were able to find this option, and were able cancel their appointment (if they chose to do so) with ease."
+  - "Participants said, much like the scheduling process, confusion when viewing a number of appointments in their account and attempting to discern which appointment was which."
+  - "Overall, Veterans navigated the 'scheduling an appointment' flow with ease."
+  - "The most difficult points in the process and the step that most participants said they would have given up with the task was choosing a location."
+  - "When performing tasks related to cancelling appointments, most Veterans testing VAOSR identified a need to be able to reschedule appointments more easily."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "VAOSR and Express Care content must be audited and tested with Veterans for consistency of voice, tone, and vocabulary throughout the products."
+  - "VAOSR and Express Care content must be audited and tested with Veterans for readability and comprehension."
+  - "VAOSR and Express Care content must be audited and tested with Veterans for understanding, accuracy, and consistency of information throughout their experience."
+  - "VAOSR and Express Care content must be updated to include critical information to allow Veterans the information they need to make informed decisions."
+  - "VAOSR content must accurately describe VAOSR and the actions the tool allows the Veteran to accomplish both in promotion and throughout app flow."
+  - "Express Care content must be updated to reflect process for requesting this appointment type."
+  - "Iterate on appointment card design to include additional details about each appointment, to include: date, provider, location, type of care, status, type of appointment."
+  - "Consider reducing the size of each appointment cards, displaying imperative information in list view, with more details displayed upon expansion."
+  - "Make indicators, such as color and icons more prominent and recognizable throughout the system."
+  - "Iterate on appointment page to include sorting and filtering options when viewing appointment lists, based on additional details incorporated into appointment cards (date, provider, location, type of care, status, type of appointment)."
+  - "Add additional details to appointment cards for cancelled appointments, to include: who cancelled the appointment, the reason for cancellation, and when the appointment was cancelled."
+  - "Incorporate vaccinations, preventative treatments, and other appointments and treatments covered by the VA (non-VA medical providers), into appointment lists."
+  - "Reevaluate process for the request an appointment flow to align with a user's mental model."
+  - "Conduct additional user research to validate changes made based on this round of user research."
+  - "Consider reordering types of care list and/or provide a definition of each type of care listed."
+  - "Iterate existing design for VA location-selection process in VAOSR."
+  - "On calendar selection page, add 'next' button at bottom of calendar. Consider dynamic content for 'next' button, replacing 'next' with the following month name, for additional context."
+  - "On calendar section page, provide content defining 'AM' and 'PM' to inform the decision a Veteran makes."
+  - "Iterate on design of reason for appointment request to include different/more specific options based on the type of care selected at start of request flow."
+  - "Create, test with Veterans, and implement the ability to reschedule and/or request a new appointment based on an appointment the Veteran already has scheduled/had in the past."
+  - "Redesign the request an appointment flow to allow for more flexibility and dynamic ways to schedule an appointment, including using upcoming and past appointments as templates for new appointments and to reschedule cancelled appointments."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Conduct additional user research to validate changes made based on this round of user research"
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Google Analytics"
+  - "User feedback from production"
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "DSC: Button"
+  - "DSC: Card"
+  - "DSP: Content Presentation"
+  - "usability-testing"
+  - "evaluative"
 ---
 
 # VA Online Scheduling: VAOSR and "Express Care" Research Report

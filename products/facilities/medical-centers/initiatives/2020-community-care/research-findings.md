@@ -1,95 +1,111 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Community Care Managers Study Research Findings"
+product: "VAOS, Facility Locator"
+team: "VAOS, Facility Locator"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2020-11-30"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Not specified"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand the current data & process that a community care request manager uses to process Veteran's community care requests"
+  - "Understand/gather feedback (where possible) about the VAOS requests for community care coming into Community Care request managers"
+  - "Understand how and where Community Care Request managers search for type of care/specialties and providers"
+  - "Understand the type of data Community Care Request managers get and use to process a community care request"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated generative interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 7
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 7
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 7
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 7
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "For most participants, sub-specialties are not something most Veterans understand."
+  - "One participant stated that they prefer to help them find the sub-specialty ('We'll do that.')."
+  - "One participant stated that the use of the Service Type text field by the Veteran is problematic due to spelling typos."
+  - "Most participants stated that they use Google to find complete and updated information about providers."
+  - "All participants stated that they call providers to validate information found on PPMS and seek information that is missing."
+  - "A few participants use a self-created spreadsheet of providers with validated provider information."
+  - "One participant would like Veterans to have a list of in-network providers who are currently available."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Remove the sub-specialties found under Service Type. Doing so will simplify the search for the Veteran, while moving the sub-specialty decision-making to the Community Care Manager, who understands the sub-specialties."
+  - "Refrain from using type-ahead boxes and use drop-down menus for selection instead. Type-ahead requires the Veteran to know the term they are searching for and the correct way to spell it, in order to see results."
+  - "Replace sub-specialties type-ahead box with a menu of clickable, plain-English terms that Veterans will recognize and use with confidence. These terms could map to specialties or sub-specialties that CCMs could then refine for the Veteran."
+  - "If there are certain sub-specialties that must be displayed, use layman's terms when possible to avoid confusion, or provide explanations for the terms."
+  - "Investigate how to improve the Facility Locator flow when a Veteran is seeking Urgent Care, to help prevent the Veteran from ever having to pay for Urgent Care out of pocket."
+  - "Improve the quality of existing provider data in PPMS such as updated phone numbers, addresses, in/out of network, and fax numbers."
+  - "Add provider data that will help CCMs minimize the use of search tools outside of the system. Provider data include gender, accepting new patients, and name of clinic."
+  - "Consider finding ways to automate the screening question process, which is completed by CCMs via phone call with the Veteran."
+  - "Improve the system used by CCMs to highlight which providers understand the process for urgent care, in order to prevent the Veteran from ever having to pay for Urgent Care out of pocket."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Sub-specialties are confusing to Veterans and need plain-language alternatives"
+  - "Provider data in PPMS has gaps and inaccuracies requiring CCMs to use external tools"
+  - "Type-ahead search creates spelling errors and poor results"
+  - "Need for clinic names in addition to provider names"
+  - "Need for indicators of providers accepting new patients"
+  - "Need for veteran-preferred provider attributes (gender, military status)"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Validate plain-language terms with Veterans, for use in the Facility Locator as a replacement for sub-specialty selection."
+  - "Investigate the level of impact of catchment zones in scheduling Veterans, as mentioned by a participant. As mentioned in Additional Insights above, these zones are not known to the Veteran and can cause frustration in selecting a provider. It wasn't clear from this research how broad the impact is, or how it could be mitigated."
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Interview notes spreadsheet"
+tags:
+  - "AUD: VA Staff"
+  - "BNFT: Healthcare"
+  - "PRDT: Facility Locator"
+  - "PRDT: VAOS"
+  - "semi-structured-interviews"
+  - "generative"
+  - "Internal Research: Platform Research"
 ---
 
 # Research Findings: Community Care Managers Study

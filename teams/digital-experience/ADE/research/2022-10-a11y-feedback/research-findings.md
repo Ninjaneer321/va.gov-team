@@ -1,95 +1,134 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "How Disabled Veterans Provide Accessibility Feedback - Discovery Research Findings"
+product: "Accessibility Feedback Process"
+team: "CAIA (Content, Accessibility, and IA)"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-10-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Josh Kim"
+  - "Sara Sterkenburg"
+  - "Angela Agosto"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Establish a process to collect accessibility feedback from the public"
+  - "Understand if and how Veterans provide feedback through existing feedback mechanisms"
+  - "Gain preliminary insights into disabled Veterans' behaviors, feelings, perspectives, and expectations on providing accessibility feedback"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Discovery research"
+  - "Semi-structured interviews with key informants"
+  - "Accessibility audits of feedback mechanisms"
+  - "Secondary research and data analysis"
+  - "Medallia survey data analysis"
+  - "Appended questions to existing user research studies"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Inaccessibility of online digital feedback mechanisms may be preventing some disabled Veterans from using them - 100% (5/5) of the digital methods of providing feedback to VA.gov that we audited had major accessibility issues"
+  - "Both screen magnification users in usability testing were unable to find the feedback button at the bottom right corner of the page"
+  - "Out of 4000+ responses from Medallia feedback surveys procured through over 50+ keywords, only 10 responses pertained to accessibility, and they were too broad and inspecific to take action on"
+  - "Some disabled Veterans using assistive technologies may prefer analog or service based methods to get support or provide feedback - some would default to calling the VA, going to a physical location, or finding support through the Blinded Veterans Association"
+  - "Others noted they preferred analog methods and felt excluded by tech-centered approaches"
+  - "Feedback may also be directed through caregivers and social care workers on behalf of disabled Veterans"
+  - "A mental model mismatch may exist between how Veterans think submitting accessibility feedback will work vs. how it is actually processed by the Section 508 office, which may discourage feedback from them in the long term"
+  - "Veterans feel like they complained but never heard anything back, leading to discouragement: 'So why should I mess with it'"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Conduct more open-ended qualitative research with disabled Veterans who use assistive technologies and their caregivers/family members"
+  - "Prioritize the resolution of open, unresolved accessibility issues"
+  - "Teams working on feedback mechanisms should prioritize including disabled Veterans using assistive technologies in their research"
+  - "Contact center team should include disabled Veterans using assistive technology in their research, leveraging recent improvements from research ops and Perigean"
+  - "Sitewide content team and accessibility practice should conduct iterative content usability testing (like highlighter test) on the new accessibility page with disabled Veterans"
+  - "Research on accessibility page should include triangulated perspectives between disabled Veterans, their caregivers, VSOs (like BVA), and the Section 508 office"
+  - "Ask VA team should collaborate with disabled Veterans groups as early and often as possible, connecting with Tim Hornik (BVA) or Chris Walker from 508 office"
+  - "Anticipate and explore more disabled communities who may use feedback features, consulting VSO groups and medical staff with MST and PTSD experience"
+  - "Create the modernized VA.gov accessibility statement to address accessibility issues on the Section 508 page"
+  - "Submit bug tickets directly to vendors (e.g. Microsoft, Medallia) for teams with blockers related to underlying technology"
+  - "Conduct regular maintenance audits and explore use of the accessibility dashboard to track issues"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Increase the usage and throughput of VA services"
+  - "Increase the quality and reliability of VA services"
+  - "Increase the accessibility, reliability, and security of Veterans digital services"
+  - "Reduce the time it takes for Veterans to find, use, and receive Veteran services"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Disabled Veterans can easily provide accessibility feedback through accessible channels and receive timely responses"
+  business: "VA establishes an effective and accessible process to collect and respond to accessibility feedback from disabled Veterans"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Many Veterans may be sitting with inaccessible products without providing the feedback needed to improve them"
+  - "Caregivers are facing barriers accessing VA digital tools often due to complexities or information not designed for their populations"
+  - "VEO may not have considered disabled Veterans who use assistive technologies in their research and generated artifacts"
+  - "Section 508 office has no guarantee that other agencies will provide response back confirming a fix, often taking 6+ weeks"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Collaborate with VEO to conduct more open ended qualitative research and output artifacts that more clearly identify disabled Veterans top accessibility issues and concerns"
+  - "Include caregivers and family members of disabled Veterans (who may have disabilities themselves) in future iterations of this research"
+  - "Research to unveil alternative methods for improving Medallia feedback for disabled Veterans"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Caregivers and family members of disabled Veterans"
+  - "Disabled Veterans not currently using assistive technologies"
+  - "Veterans with cognitive disabilities"
+  - "Veterans with disabilities other than vision impairments"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Medallia survey data (4000+ responses)"
+  - "411 call center data"
+  - "Key informant interviews with Tim Hornik (BVA Chief of Staff), Section 508 office, Contact Center and Medallia Team, Cindy Merrill (Researcher), VEO"
+  - "Page analytics for Accessibility link in footer"
+  - "Appended questions to existing studies by Cindy Merrill and Brea Blackwelder"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Qualitative data analysis of Medallia surveys"
+  - "Accessibility audit reports"
+  - "Key informant interview notes"
+  - "Member checking with research participants"
+tags:
+  - "accessibility"
+  - "a11y"
+  - "feedback"
+  - "assistive-technology"
+  - "discovery"
+  - "CAIA"
 ---
 
 # How disabled Veterans provide accessibility feedback

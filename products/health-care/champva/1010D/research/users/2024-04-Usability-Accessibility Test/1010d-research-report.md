@@ -1,95 +1,129 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "CHAMPVA 10-10d Usability/Interviews Research Findings"
+product: "CHAMPVA Application Form 10-10d"
+team: "IVC Forms Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-06-17"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Rachael Penfil (rachael.penfil@adhocteam.us)"
+  - "Steven Straily (steven.straily@agile6.com)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Test the usability of the current iteration of the 10-10d prototype"
+  - "Test high-level accessibility for the current iteration of the 10-10d prototype"
+  - "Extract insights about participants' experience with current 10-10d process and CHAMPVA"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Mixed-method study combining usability testing with user interviews"
+  - "Think-out-loud protocol on staging environment"
+  - "Open-ended interview questions"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 8
+    tablet: 0
+    smartphone: 5
+    assistive_technology: 1
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 6
+  service_members: 0
+  caregivers: 7
+  dependents: 7
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 4
+    "45-54": 1
+    "55-64": 2
+    "65+": 4
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 2
+    associates: 3
+    bachelors: 4
+    masters: 3
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 8
+    rural: 5
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 1
+    hispanic: 0
+    biracial: 3
+    asian: 0
+    native: 0
+    unknown: 2
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 6
+    AT_beginner: 1
+    AT_advanced: 0
+    screen_reader_desktop: 1
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Various usability issues found including 28 preliminary form improvements already prioritized"
+  - "OHI form (10-7959c) PDF and upload screen caused consistent frustration and confusion - 8 of 13 participants confused, some would abandon form"
+  - "File upload summary page well-received but confusion between optional vs required documents"
+  - "Participants want proof of submission via confirmation email with tracking number and estimated decision timeline"
+  - "Over half wanted information about required documents before starting form to reduce anxiety"
+  - "Half the participants wanted to check eligibility before starting - found eligibility language confusing"
+  - "Address selector worked well but wanted it earlier to reuse Sponsor's address for applicants"
+  - "Reasonable expectations for 4-8 week processing but desire more status communication via email"
+  - "Started pursuing CHAMPVA during insurance lapse, learned through VA or word-of-mouth, misconception it's health insurance vs cost-sharing plan"
+  - "Review page worked well but some overwhelmed by amount of information especially in Applicants section"
+  - "Frustrated entering same information multiple times (e.g., Medicare card image then re-entering data from card)"
+  - "List-and-loop pattern had confusing interactions - participants overlooked 'Add applicant' button, expected feedback after adding"
+  - "Upload pattern generally understood but issues with delete button placement and lack of upload confirmation"
+  - "Mixed reactions about ease of digital form"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Continue implementing prioritized preliminary form improvements"
+  - "Redesign OHI interaction - consider integrating into main form flow, make PDF fillable clearer, explain why VA needs this information again"
+  - "Clarify difference between optional and required documents, ensure confirmation checkbox motivates completing uploads"
+  - "Implement confirmation email with tracking number, submission details, and estimated decision date"
+  - "Add preparation page listing required documents and information before form starts, include FAQ"
+  - "Simplify eligibility language, consider allowing form start from eligibility page"
+  - "Enable address reuse for Sponsor address on first applicant, maintain current functionality for subsequent applicants"
+  - "Set processing time expectations upfront, explore email status updates integration"
+  - "Increase CHAMPVA outreach to potential beneficiaries, clarify that CHAMPVA is cost-sharing plan not health insurance"
+  - "Consider reducing information density on review page, ensure file upload bug is fixed"
+  - "Explore ways to reduce duplicate data entry, consider auto-populating from uploaded images where possible"
+  - "Improve list-and-loop pattern visibility with better button placement and confirmation feedback"
+  - "Add upload confirmation message, improve delete button placement for clarity"
+  - "Continue monitoring digital form feedback and iterate based on user pain points"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Reduce incomplete applications requiring send backs"
+  - "Improve application processing time from current 4-8 weeks"
+  - "Increase digital submission adoption"
+  - "Improve beneficiary understanding of CHAMPVA program"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans and dependents can easily apply for CHAMPVA benefits with clear understanding of requirements, eligibility, and timeline"
+  business: "Reduced incomplete applications, faster processing, fewer support calls, improved beneficiary satisfaction"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Digital status tracking for applications"
+  - "Integrated OHI certification process"
+  - "Pre-application eligibility checker"
+  - "Auto-population from uploaded documents"
+  - "Proactive beneficiary outreach and education"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Continue usability research with revised staging environment or live form"
+  - "Explore user behaviors, perceptions, and pain points to optimize service"
+  - "Conduct comprehensive accessibility testing with diverse assistive technology users"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans with other than honorable discharge"
+  - "Veterans of immigrant origin"
+  - "Expats"
+  - "Transgender users"
+  - "Advanced assistive technology users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Stakeholder interview findings"
+  - "Preliminary form improvements"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
 ---
 
 # **2024-04 CHAMPVA 10-10d Usability/Interviews Research Findings**

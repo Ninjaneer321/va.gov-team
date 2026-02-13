@@ -1,95 +1,115 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Medical Records on VA.gov Findability Study Research Findings"
+product: "My HealtheVet on VA.gov"
+team: "MHV on VA.gov Medical Records Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-11-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Anne Costello Kennedy"
+  - "Melissa Stern"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Identify pain points Veterans experience accessing their medical records"
+  - "Understand criteria Veterans use to find and identify medical records"
+  - "Understand Veterans' needs and expectations within Medical Records"
+  - "Compare findability between My HealtheVet Classic and MyChart"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Contextual inquiry sessions"
+  - "Participants navigated live My HealtheVet Classic and MyChart environments"
+  - "Observation of natural behavior with follow-up prompts"
+  - "Comparative analysis of two health portal experiences"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 12
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 12
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 12
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 3
+    "55-64": 3
+    "65+": 6
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 3
+    some_college: 3
+    associates: 1
+    bachelors: 2
+    masters: 2
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 8
+    rural: 4
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 1
+    hispanic: 1
+    biracial: 2
+    asian: 0
+    native: 2
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 5
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All participants selected VA Laboratory Results when generating diabetes report, but few selected VA Problem List or VA Notes"
+  - "Most participants did not understand what information could be found in 'VA Problem List'"
+  - "All participants understood what information could be found in 'VA Notes'"
+  - "Most participants relied on scrolling to navigate through Blue Button reports up to 2285 pages"
+  - "All participants relied on scrolling through MyChart Test Results"
+  - "Most participants mentioned wanting filters while looking for specific records in Blue Button"
+  - "Most participants mentioned wanting search function while looking for specific records"
+  - "Most participants mentioned benefits of jump links or table of contents for Blue Button PDF"
+  - "All participants used both test title and date to identify specific labs in both portals"
+  - "Most participants used provider name, note date, and keywords to identify notes about conditions"
+  - "Participants spent more time finding VA Problem List section than locating specific condition"
+  - "Most participants expressed negative emotions searching in Blue Button compared to neutral or positive emotions with MyChart"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Add search and filter capabilities to improve Blue Button report navigation"
+  - "Consider adding table of contents with page numbers to Blue Button reports"
+  - "Improve problem list naming and discoverability"
+  - "Continue development of direct record access to reduce reliance on Blue Button reports"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improved findability of medical records"
+  - "Reduced time to locate specific health information"
+  - "Increased satisfaction with medical records experience"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can quickly find specific health information without scrolling through hundreds of pages"
+  business: "Medical Records on VA.gov provides more efficient findability than Blue Button reports"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Direct access to records preferred over Blue Button report generation"
+  - "Search and filter functionality critical for large record sets"
+  - "Problem list concept unfamiliar to most Veterans"
+  - "Medical terminology continues to be a barrier"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Conduct unmoderated findability study within Medical Records on VA.gov"
+  - "Additional research on health literacy and medical terminology"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Assistive technology users"
+  - "Mobile device users"
+  - "Veterans with more diverse educational backgrounds"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Previous usability studies conducted by MHV on VA.gov UCD team"
+  - "Competitive analysis of MyChart, Labcorp, Athena Health, Healow for lab results"
+  - "Competitive analysis of MyChart, Healow, TRIARQ Health, Follow My Health for care notes"
+  - "Competitive analysis of health conditions modules across commercial providers"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Mural for affinity mapping"
 ---
 
 # Medical Records on VA.gov Findability Study Research Findings

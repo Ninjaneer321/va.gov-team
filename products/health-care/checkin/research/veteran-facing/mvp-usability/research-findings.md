@@ -1,95 +1,103 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Check-in MVP Usability Research Findings"
+product: "Check-in"
+team: "Healthcare Experience - Check-in"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-07"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Researcher name not specified in document"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Test the usability and design of the proposed check-in MVP"
+  - "Understand if Veterans can check-in via their mobile device"
+  - "Understand how Veterans feel about the proposed check-in solution, particularly the multiple modalities utilized (text, then website)"
+  - "Identify what appointment information Veterans are expecting to review to complete check-in"
+  - "Understand if Veterans know what will happen next or how to get help after check-in is complete"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability tests via Zoom"
+  - "Testing with poster, Twilio, and staging environment"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 10
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  gender:
+    male: 3
+    female: 7
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 4
+    "45-54": 1
+    "55-64": 2
+    "65-74": 1
+    "75+": 0
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 1
+    associates: 2
+    bachelors: 3
+    masters: 4
+    doctorate: 0
+    unknown: 0
+  mobile_device:
+    iphone: 8
+    android: 1
+    unknown: 1
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 10
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 10
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Current check-in pain points include: long lines or wait times to complete check-in, being redirected to staff when utilizing a kiosk, thinking you are checked in when you aren't"
+  - "The proposed MVP simplifies check-in, streamlines the experience, and helps with wait times"
+  - "Other non-digital check-in solutions still need to exist"
+  - "Fifty percent (5) of participants are concerned that only their phone number is used for identity verification"
+  - "Cell reception and WiFi's impact on this product is a concern for Veterans"
+  - "Participants used both the QR code and text options"
+  - "Participants want more clarification on who the text message is coming from"
+  - "The insurance and contact information question was unexpected after clicking the URL in the text, especially without the ability to actually update them online"
+  - "The appointment information shown was sufficient for participants to understand what appointment they were checking in for"
+  - "Participants were confused and wanted more information about what to do next after checking in"
+  - "Fifty percent (5) of participants assumed they would complete this check-in process at the clinic of their appointment"
+  - "Participants want travel mileage functionality added to the check-in workflow"
+  - "Participants used the term 'check-in' to describe this online experience"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
-outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Test with Android devices, since we only spoke with one Android user"
+  - "Check on the WiFi and cell connectivity at our pilot sites"
+  - "Add information about data charges to the poster"
+  - "Update the poster, so the contact and insurance wording is more visible"
+  - "Make the clinic name more visible on the appointment page"
+  - "Add content to the check-in confirmation screen to help clarify that the nurse will get them from the clinic waiting room"
+  - "Work with change management/facility onboarding group to educate the facilities to hang the posters near the actual clinics and not in the main lobbies (in the larger facilities)"
+  - "Add content to the text message stating it is from the VA"
+  - "Depending upon adoption rates, we could look into VHIC card scanning capabilities"
+  - "Look into adding: another identification data point, wait time and detailed way-finding information, travel mileage capabilities"
 ---
 
 # Check-in MVP Usability Research Findings

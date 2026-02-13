@@ -1,95 +1,114 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Medical Records Discovery Research Findings"
+product: "Medical Records"
+team: "Health Apartment"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-10-03"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Coulton Bunney"
+  - "Jenny Wang"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand what data exists in MHV medical records and the technical constraints of that data"
+  - "Understand the policies, laws, and product history that influence MHV medical records"
+  - "Understand known usability issues with medical records and garner preliminary ideas for ways to improve them"
 methodology:
-  - "Method 1"
-  - "Method 2"
-devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
-demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
-  race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
-  disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
-key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
-recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
-outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
+  - "Informational interviews"
   - "SME interviews"
+  - "Technical discovery"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 16
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 16
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 16
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 16
+  location:
+    urban: 0
+    rural: 0
+    unknown: 16
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "There are roughly 13 categories of data included as part of medical records today, each pulled individually and possibly from different databases"
+  - "By VHA policy, some data is not released to patients as soon as it is available - data from six domains held for 36 hours after becoming available"
+  - "Further technical discovery needed into which sources of medical records data will best meet the needs of modernized medical records applications in VA.gov"
+  - "Unable to locate any laws that strictly define what is required to be included as part of a medical record"
+  - "Patients own data they have requested and been provided, so must ensure users retain access to all data in their MHV eVault during and after transition"
+  - "Only policy placing requirements on data display was VHA Directive 1164 outlining Essential Medication Information Standards"
+  - "Blue Button, VA Health Summary, and VA Medical Images and Reports were designed for very different purposes"
+  - "Blue Button is a government-wide initiative, not VA specific branding"
+  - "MHV does not provide an easy way to find or view individual pieces of medical records data"
+  - "Three ways to share medical records with outside provider each have significant usability issues"
+  - "Most frequently requested data from Blue Button are progress notes, followed by labs, appointments and prescriptions"
+recommendations:
+  - "Conduct further technical discovery into which sources of medical records data will best meet the needs of modernized medical records applications"
+  - "Ensure Veterans see the same content regardless of which interface they use (VA.gov web, flagship mobile, MHV, Apple Health, etc.)"
+  - "Ensure users retain access to all data in their MHV eVault during and after the transition from MHV to VA.gov"
+  - "Continue to evaluate how Veterans identify with Blue Button brand and make clear what it means"
+  - "Provide an easy way to find or view individual pieces of medical records data"
+  - "Improve usability of sharing medical records with outside providers"
+kpi_alignment:
+  - "Not applicable for discovery research"
+outcomes:
+  user: "Veterans can easily access and understand their medical records data"
+  business: "Successfully migrate MHV medical records to VA.gov with improved functionality"
+opportunity_areas:
+  - "Improving individual record viewing capabilities"
+  - "Simplifying sharing of medical records with outside providers"
+  - "Standardizing data across VistA and Cerner systems"
+further_research_needed:
+  - "Additional technical discovery on data sources (PHR Manager vs Lighthouse APIs vs Cerner)"
+  - "User research on medical records usability issues"
+  - "Veteran research on Blue Button branding recognition"
+underserved_groups_missing:
+  - "Not applicable - SME interviews only"
+secondary_research:
+  - "SME interviews with Bylight engineers, designers, and product managers"
+  - "SME interviews with OIT Lighthouse APIs technical experts"
+  - "SME interviews with OCC leaders and MHV Business Line Owners"
+  - "SME interviews with VHA Office of Information Access and Privacy experts"
+  - "SME interviews with pharmacy clinical experts"
+  - "Policy and law research"
+  - "Technical documentation review"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Document analysis"
+  - "Interview synthesis"
 ---
 
 # Medical Records Discovery Research Findings 

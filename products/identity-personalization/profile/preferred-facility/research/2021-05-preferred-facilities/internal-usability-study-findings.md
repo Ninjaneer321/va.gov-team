@@ -1,95 +1,105 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Profile Your VA Health Facilities Internal Usability Study Research Findings"
+product: "VA.gov Profile"
+team: "Authenticated Experience"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-05-10"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Liz Lantz"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Validate the overall design for the Your VA Health Facilities section of profile"
+  - "Get insights into how Veterans understand this section of profile outside of the VAOS context"
+  - "Ensure the design is usable before conducting collaborative study with VAOS team"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing via Zoom"
+  - "Prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 5
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 5
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 5
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All participants understood the facility list to be places where a Veteran had received health care"
+  - "All participants expected that unchecking the checkbox would remove a facility from the list"
+  - "All participants understood the content that appeared after removing a facility from the list"
+  - "2 participants were initially unsure if edits to their list were limited to just their profile, or their broader VA record"
+  - "4 of 5 people assumed the facility list was sorted chronologically based on when they had gone to the facilities. One of those participants also commented that they expected to see facilities delineated by type"
+  - "There is a use case we hadn't previously considered: a user does not currently receive VA health care, but is registered at VA facilities because they had received medical care through the VA in the past"
+  - "We heard a few things worth digging into in future studies related to facility contact information, online scheduling, and new facility registrations"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Move forward with our overall design pattern for the study with VAOS - no major usability issues found"
+  - "Add text above the list to communicate how it is sorting to minimize the cognitive effort required to process long lists"
+  - "Explore making the impacts of editing the facility list more clear"
+  - "Update research questions and conversation guide for VAOS study to dig in to uncovered findings"
+  - "Understand the timeline between a person registering at a facility and it becoming a part of their MPI data"
+  - "Re-evaluate if the logic we planned to use to show/hide this section of profile still makes sense, given the new use case we uncovered"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Participant wondered what they could do if they had followed the steps to add a new facility but still didn't see it in their list"
+  - "Participant wanted to see facility contact information in the profile section"
+  - "Participants wanted to be able to add a new facility from this page in their profile"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Evaluate if people still have questions about the scope of the edits to their list after changes are made"
+  - "Evaluate expectations around the schedule an appointment online link"
+  - "See if there are additional data points around facilities that would make sense to include"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "DSC: Checkbox"
+  - "Internal Research: Platform Research"
+  - "usability-testing"
+  - "evaluative"
 ---
 
 # Profile "Your VA Health Facilities" Internal Research Study Findings 

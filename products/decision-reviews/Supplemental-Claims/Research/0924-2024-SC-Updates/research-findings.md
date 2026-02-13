@@ -1,95 +1,109 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Supplemental Claims 2024 Updates Research Findings"
+product: "Supplemental Claims (20-0995)"
+team: "Benefits Decision Reviews"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-10-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Eileen Chi"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Determine if Supplemental Claims updates create any new points of friction within the form"
+  - "Validate that users are able to complete the new Supplemental Claim flow"
+  - "Validate that AT-users are able to navigate through the entire form"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote usability testing"
+  - "Code prototype testing"
+  - "Two cohorts: Veterans using assistive technology and Veterans with denied claims"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 8
+    tablet: 0
+    smartphone: 3
+    assistive_technology: 5
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 11
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 11
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 11
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "JAWS users had difficulty operating form controls as checkboxes and radios were not being announced"
+  - "3 out of 4 Veterans with MST claim did not understand purpose of MST notification and either declined or revoked previous decision"
+  - "Veterans without MST understood initial question but some were concerned about emphasis on MST and PACT over other conditions"
+  - "Half of participants experienced friction with notice of evidence needed"
+  - "4 out of 11 Veterans were not familiar with names of certain facility types (Vet Center, DoD MTF)"
+  - "Most Veterans missed or did not act on hint about treatment dates"
+  - "All Veterans understood what submitting non-VA medical records means submitting authorization but some struggled with process"
+  - "Most participants struggled with going back and adding evidence from either evidence summary or review and submit page"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Determine if usability issues with JAWS is replicable and pervasive across forms"
+  - "Keep initial MST question and add language to clarify question is optional and does not impact Veterans claim"
+  - "Possibly remove presumptive conditions alert within form to reduce friction for screen reader users"
+  - "Clarify language around Notice of Evidence Needed for claims filed within year of decision"
+  - "Adjust wording around types of facilities to provide more information and clarity"
+  - "Adjust hint for optional memorable date"
+  - "Adjust limiting consent screen to make clearer that not providing input is an option"
+  - "Revisit list-and-loop pattern to create clearer editing flow"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Our digital experiences are the best way to access VA health care and benefits"
+  - "Our platforms are the best way to deliver products at VA"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can successfully complete Supplemental Claim form with new updates including homelessness questions, MST notifications, and non-VA evidence submission"
+  business: "Improved form completion rates and reduced abandonment through clearer navigation and evidence collection process"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Evidence gathering and multiple response list-loop pattern improvement"
+  - "Evidence upload process simplification"
+  - "Help Veterans determine types of evidence accepted for Supplemental Claim"
+  - "Better MST notification communication"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Evidence gathering and new multiple response list+loop pattern"
+  - "Evidence upload process"
+  - "Help Veterans determine types of evidence accepted to file Supplemental Claim"
+  - "Veterans experiencing or at risk of homelessness"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Complete demographic data not provided in recruitment tracker"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "MVP Supplemental Claims Usability Research"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Remote usability testing sessions"
+  - "Code prototype analysis"
 ---
 
 # **Supplemental Claims \- 2024 Updates Findings**

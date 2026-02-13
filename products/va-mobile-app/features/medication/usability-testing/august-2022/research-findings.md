@@ -1,95 +1,108 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "2022 VA Mobile Rx Refill/Pharmacy Usability Test Research Findings - August 2022"
+product: "VA Mobile App - Rx Refill"
+team: "VA Mobile App Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-08-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Esther Kitavi"
+  - "Brenda Rocha"
+  - "Alex Taylor"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Determine if users are able to navigate the IA, request prescription refills, and find prescriptions that they are looking for"
+  - "Identify major usability or content issues with the current designs"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability study"
+  - "High fidelity Figma prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 13
+    assistive_technology: 0
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 13
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 13
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 13
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 13
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants understood how to initiate refill requests from the list view"
+  - "Participants found the tabs useful for checking on the status of their refill requests"
+  - "Participants found the list view easy to navigate and not overwhelming"
+  - "Participants liked the amount of prescription information presented in the cards but had different ideas about what they considered important"
+  - "Participants mentioned the prescription statuses as one of the first things they noticed"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Rethink the visual hierarchy of the prescription status tag"
+  - "Consider rephrasing the 'Review processing refills' button and potentially other areas that use the term 'Review'"
+  - "Retain the current card metadata"
+  - "Consider revisiting the card metadata fields by investigating how users use the information post-launch"
+  - "Consider adding a disclaimer on the profile page that changing the address there won't affect the Rx address"
+  - "Implement refill alerts to notify users when a prescription is eligible to be refilled"
+  - "Implement refill status alerts to notify users when there is a problem refilling a prescription"
+  - "Implement shipping alerts to notify users when a prescription has been shipped and delivered"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Veterans can manage their health services online (OCTO Objective 2)"
+  - "Veterans and their families can find a single, authoritative source of information (OCTO Objective 5)"
+  - "Logged-in users have a personalized experience, with relevant and time-saving features (OCTO Objective 6)"
+  - "Veterans and their families trust the security accuracy and relevancy of VA.gov (OCTO Objective 7)"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily request prescription refills through the mobile app to manage their medications"
+  business: "Increased usage of digital self-service tools and completion rate of online transactions; decreased call center volume"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Address delivery confirmation and editing capabilities"
+  - "One-stop-shop integration for all VA needs"
+  - "Better coordination of care across different VA facilities"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Revisit card metadata fields by investigating how users use the information post-launch"
+  - "Research address management for prescription delivery"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans who live abroad"
+  - "Veterans of immigrant origin"
+  - "Veterans who identify as Asian or Latinx"
+  - "Veterans who identify as LGBTQ+"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Participant demographics tracker"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Affinity Diagram"
+  - "Quantitative Synthesis spreadsheet"
 ---
 
 # Research Findings for 2022 VA Mobile Rx Refill/Pharmacy Usability Test

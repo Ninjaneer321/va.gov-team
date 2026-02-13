@@ -1,95 +1,97 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Ask VA: Dashboard Research Findings"
+product: "Ask VA"
+team: "Ask VA VA.gov Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-07-03"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Tyler Gindraux"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how submitters find a question in their dashboard"
+  - "Understand what submitters need to learn when they review their question's details"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability study"
+  - "Remote over Zoom"
+  - "Figma prototypes with limited interactivity"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 7
+    tablet: 0
+    smartphone: 3
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 3
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 1
+    "45-54": 1
+    "55-64": 4
+    "65+": 0
+    unknown: 3
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 2
+    associates: 2
+    bachelors: 0
+    masters: 2
+    doctorate: 0
+    unknown: 3
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 1
+    rural: 6
+    unknown: 3
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 1
+    hispanic: 2
+    biracial: 1
+    asian: 0
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "People use date last updated and status to find items that have a reply or should have a reply soon"
+  - "Question and category provide keywords that help people skim and identify particular items"
+  - "Education business submitters organize their inquiries by student name"
+  - "It can be confusing deciphering between new and in progress, but reopened and solved are well understood"
+  - "There's an expectation that inquiries marked as solved by VA will not actually feel solved for Veterans"
+  - "It's more intuitive to read and save a conversation that's in chronological order"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
-outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Make it easier to compare last date updated with date submitted"
+  - "Help people find items based on category (now) or keyword search (in the future)"
+  - "Remove 'New' status and start with 'In progress' to lessen confusion"
+  - "Change 'Solved' status to 'Closed' or 'Replied' to clarify intent"
+  - "Recommend plain language overhaul of responses from VA"
+  - "Move 'Your question' to 'Your conversation' and 'Send a reply' to the last item on the page"
+  - "Add print button to question details page"
+  - "Reiterate that a question has been 'Reopened' on the reply confirmation page"
+  - "Add 7 day turnaround time to subtitle on unauthenticated and auth homepages"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Additional research on the dashboard with assistive technology users in August-September 2024"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Asian participants"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat"
+  - "AT users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Previous Ask VA research studies"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Mural - Research sessions"
+  - "Mural - Research synthesis"
 ---
 
 # Research findings for Ask VA: Dashboard

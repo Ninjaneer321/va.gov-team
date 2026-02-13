@@ -1,95 +1,121 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "ARM Team Appoint a Representative Digital Submit User Test Research Findings"
+product: "Accredited Representative Management"
+team: "ARM Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-06"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Janelle Finnerty"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how Veterans search, select, and expect to work with a representative"
+  - "Evaluate if changes to Find a Representative address previous research findings"
+  - "Evaluate if adding digital submit and design changes to Find and Appoint a Representative cause any usability challenges"
+  - "Assess Veteran adoption of Find and Appoint a Representative tools"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Warm-up questions about current status with finding a representative and VA.gov engagement"
+  - "Usability testing with Figma prototype"
+  - "Remote moderated sessions"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 4
+    tablet: 0
+    smartphone: 3
+    assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 1
+    "55-64": 1
+    "65+": 4
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 3
+    associates: 2
+    bachelors: 1
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 4
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 3
+    black: 1
+    hispanic: 2
+    biracial: 1
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants were split on whether they would adopt the tools, leading to definition of new audiences for ARM - 3 would use both, 2 would not use Find but would use Appoint, 2 would not use either tool"
+  - "Changes in content, addition of VSO filter, and digital submit caused participants new challenges not previously seen on Find a Representative"
+  - "The Appoint form tested well other than concepts of digital submit, organization selection, and missing context of VA forms and processes"
+  - "Participants who were comfortable with VA processes and digital healthcare tools were more likely to adopt the tools"
+  - "Participants not comfortable with VA processes and digital tools preferred in-person interactions and found the tools overwhelming"
+  - "Increase of content and new concepts led to lower participant understanding and interaction with Find a Representative"
+  - "Participants who were confidently incorrect in their understanding of VA processes and terms had increased confusion"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Use broad screener questions for Find a Representative testing"
+  - "Target Veterans capable and willing to fill out forms digitally for Appoint a Representative testing"
+  - "Provide specificity in plain language without removing mention of processes or actions"
+  - "Clarify that forms are required for representatives to support with VA benefits"
+  - "Be clear that representatives can be appointed online rather than just referencing forms"
+  - "Emphasize that PDF forms are only pre-filled, not digitally submitted, and explain submission process"
+  - "Spell out Veterans Service Organizations and Representatives in same sentence rather than using acronyms"
+  - "Move non-contact information for representatives into detail page on Find a Representative"
+  - "Place optional search filters under 'Additional filters' to avoid confusing users unfamiliar with processes"
+  - "Update digital accept form content to only discuss organization or representative, not both confusingly"
+  - "Remove 'Report Outdated Information' button from current experience and revisit with ARF profile update project"
+  - "Add additional information about 21-22/21-22a forms to form landing page"
+  - "Provide clearer content that VSOR is member of all listed organizations in Step 1"
+  - "Provide information that appointing new representative will replace current representative"
+  - "Update confirmation page to explain representative is responsible for next steps, not VA"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improved completion rate for appointing representatives digitally"
+  - "Reduced confusion and support requests related to representative selection"
+  - "Increased Veteran satisfaction with Find and Appoint tools"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can successfully find and digitally appoint accredited representatives through VA.gov with clear understanding of the process and next steps"
+  business: "Digital submission of 21-22 forms reduces processing time and manual effort while improving data accuracy and Veteran experience"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Enhanced education about VSO types, roles, and relationships"
+  - "Improved content strategy for Veterans unfamiliar with VA processes"
+  - "Better support for Veterans who prefer in-person assistance"
+  - "Organization-level representative information and contact details"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Research with cross-accredited VSOs to understand organization assignment"
+  - "Research with Veterans on Find a Representative content updates"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans with cognitive disabilities"
+  - "Other than honorable discharge recipients"
+  - "Immigrant origin Veterans"
+  - "Expat Veterans living abroad"
+  - "Asian Veterans"
+  - "Assistive technology users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "ARM GitHub research folder"
+  - "Previous Find a Representative user testing"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "EnjoyHQ"
+  - "Interview transcripts and notes"
 ---
 
 # Research Findings for ARM Team, Appoint a Representative - Digital Submit - User Test, 06/2024

@@ -1,95 +1,101 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "June 2024 Medallia Findings Summary"
+product: "VA.gov Home Page"
+team: "Sitewide Public Websites"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-06-30"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Sitewide Public Websites Team"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Analyze user verbatims from Medallia A11 intercept and VFS feedback surveys"
+  - "Understand pain points and positive sentiment from VA.gov users"
+  - "Identify opportunities for improvement based on user feedback"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Secondary research analysis"
+  - "Medallia survey data analysis"
+  - "Quantitative and qualitative synthesis"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: null
+    tablet: null
+    smartphone: null
+    assistive_technology: null
+participants_total: 743
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: null
+  service_members: null
+  caregivers: null
+  dependents: null
+  VA_staff: null
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": null
+    "35-44": null
+    "45-54": null
+    "55-64": null
+    "65+": null
+    unknown: 743
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: null
+    some_college: null
+    associates: null
+    bachelors: null
+    masters: null
+    doctorate: null
+    unknown: 743
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: null
+    rural: null
+    unknown: 743
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: null
+    black: null
+    hispanic: null
+    biracial: null
+    asian: null
+    native: null
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: null
+    AT_beginner: null
+    AT_advanced: null
+    screen_reader_desktop: null
+    screen_reader_mobile: null
+    magnification_zoom: null
+    speech_input: null
+    hearing_aids: null
+    sighted_keyboard: null
+    captions: null
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "The largest pain point was Sign In: 88 of 743 responses"
+  - "The largest positive sentiment was the IA / site was easy to navigate: 49 of 743 responses"
+  - "Additional various insights were not statistically relevant themes"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Continue monitoring sign in improvements by Login / Identity crew and MHV on VA.gov team"
+  - "Hypothesis is that next Medallia pull/review should show an improvement in sign in area"
+  - "No additional opportunities for improvement were identified"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Average VA.gov Experience Rating: 64.4%"
+  - "Average VA.gov Understanding Rating: 63.25%"
+  - "Average General VA Trust Rating: 41.95%"
+  - "Average Trust in the VA's Commitment to Veterans: 70.16%"
+  - "Percentage of users able to complete their task: 18.1%"
+  - "Average overall satisfaction with the site: 13.28%"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Improved sign-in experience and easier site navigation"
+  business: "Increased user satisfaction and task completion rates"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Sign in process improvements (actively being addressed)"
+  - "MHV integration causing multiple sign ins"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Review next Medallia pull to validate sign-in improvements"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Demographic data not captured in Medallia survey"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Medallia A11 intercept surveys"
+  - "VFS feedback surveys"
+  - "Raw data: Jan 01, 2024 - June 30, 2024"
+  - "Analysis period: June 1-30, 2024"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Excel"
+  - "SharePoint data analysis"
 ---
 
 ## June 2024 Medallia findings summary

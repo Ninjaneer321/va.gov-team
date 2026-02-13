@@ -1,95 +1,133 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+title: "In-Person Proofing Pilot - Comprehensive Research Report"
+product: "In-Person Identity Proofing"
+team: "Secure Sign In Transition (SSiT)"
+office: "Office of the CTO (OCTO)"
+date: "2024-06-14"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Sophia Philip"
+  - "Sofia Kirkman"
+  - "Gus Schissler"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Learn how Veterans and VA staff experience in-person proofing by simulating a real-world experience"
+  - "Prove that Veterans who elect in-person proofing can have an easy, streamlined, and secure experience when verifying their identity in person with a VA staff member"
+  - "Identify improvements for the application and service in preparation for a scaled service rollout to VA facilities"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "In-person moderated research sessions at Baltimore VAMC (June 10-14, 2024)"
+  - "Intercept interviews in VAMC waiting areas"
+  - "Observational studies"
+  - "Shadowing sessions with MHV coordinator"
+  - "Post-session surveys"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 5
+    assistive_technology: 0
+participants_total: 16
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 15
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 1
+  moderated_sessions: 5
+  intercept_interviews: 11
+  gender:
+    male: 7
+    female: 3
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 8
+    unknown: 8
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 7
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 9
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: "Unknown"
+    rural: "Unknown"
+    unknown: 16
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 5
+    hispanic: 0
+    biracial: 1
+    asian: 0
+    native: 1
+    other: 2
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 7
+    AT_beginner: "Unknown"
+    AT_advanced: "Unknown"
+    screen_reader_desktop: "Unknown"
+    screen_reader_mobile: "Unknown"
+    magnification_zoom: "Unknown"
+    speech_input: "Unknown"
+    hearing_aids: "Unknown"
+    sighted_keyboard: "Unknown"
+    captions: "Unknown"
+  additional_demographics:
+    experienced_homelessness: 3
+    heterosexual: 8
+    preferred_not_to_answer_orientation: 2
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "In-Person Identity Proofing is simple and straightforward - all participants and VA staff commented positively on ease of use"
+  - "IPP is so quick and easy (10-15 minutes), it's not worth doing as a standalone service - should be offered alongside other VA services"
+  - "Security is improved with human interaction but feels slow with technological steps like multi-factor authentication"
+  - "Last four SSN digits are ubiquitous, but ICN (Internal Control Number) is not - Identity Toolkit was not accessible to VA staff"
+  - "Veterans developed expectations for IPP based on interactions with analogous services - expected integration with enrollment, pharmacy, and benefits"
+  - "IPP is not for everyone, but providing it as an option ensures inclusion for less tech-savvy Veterans, older Veterans, and those without reliable technology access"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Given IPP was seen as too quick to be the sole reason to come onsite, IPP should be offered as a tag-on service that check-in staff can notify Veterans about"
+  - "Enable Veterans to reschedule, select an appointment or ten day window, or walk-in without a prior confirmation case number set up"
+  - "Simplify content across the application to reduce cognitive load for Veterans and provide links to resources"
+  - "Consider providing in-person identity verification and support for account creation as an option for helping Veterans with transitions and education with digital services"
+  - "Explore, research, and enable knowledge sharing of My HealtheVet Coordinators related to how they support Veterans creating accounts with Login.gov and ID.me"
+  - "Conduct research on Veteran and caregiver experience to better understand pathways and barriers to identity verification for Veterans who depend on caregivers"
+  - "Provide educational material, such as videos, on the changes to sign-in and its benefits on VA.gov and in high traffic areas at VAMCs"
+  - "Provide MHV Coordinators educational material and scripts to help support Veterans when they are trying to verify their identity"
+  - "Set up collaborative touch points with MHV coordinators to identify optimal methods to support Veterans during credential transition"
+  - "Provide more communication around what VA.gov is, how Veterans can sign up for it, and what services it can provide"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improve remote identity verification success rates (currently less than 50%)"
+  - "Increase Login.gov adoption and verified account creation"
+  - "Reduce friction in Veterans' access to VA benefits and services"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can verify their identity in person at VA facilities with a simple, secure, 10-15 minute process integrated with other services"
+  business: "Increased verified Login.gov accounts enabling full VA.gov benefits access, with scalable in-person verification service at VA facilities nationwide"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Integration with benefits enrollment, pharmacy, and identification services"
+  - "Universal ICN lookup solution beyond Identity Toolkit"
+  - "Walk-in and rescheduling capabilities without prior digital setup"
+  - "Multi-factor authentication simplification for older Veterans"
+  - "Caregiver pathways for Veterans with cognitive disabilities or POA situations"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Discovery research on alternative databases for verifying Veteran identification besides Identity Toolkit"
+  - "Research on Veteran and caregiver experience for identity verification pathways with medical POA"
+  - "Testing of future state flows for rescheduling and walk-in scenarios"
+  - "Scaled pilot at additional VAMC locations with diverse Veteran populations"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans with visual or hearing disabilities requiring assistive technology"
+  - "Veterans from diverse geographic locations beyond Baltimore"
+  - "Non-English speaking Veterans"
+  - "Veterans with various service-connected disability ratings"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "NIST Digital Identity Guidelines (800-63-3) for Identity Assurance Level 2"
+  - "Remote identity verification success rate data (less than 50%)"
+  - "My HealtheVet coordinator current verification processes"
+  - "Login.gov and ID.me adoption data"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Zoom recordings and transcripts"
+  - "Post-session surveys"
+  - "Observational field notes"
+  - "Intercept interview audio recordings"
 ---
 
 # Secure Sign In Transition Team-In Person Proofing Pilot

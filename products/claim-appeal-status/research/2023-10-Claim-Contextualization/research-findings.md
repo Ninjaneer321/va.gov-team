@@ -1,95 +1,101 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Claim Contextualization Research Findings"
+product: "Claim Status Tool"
+team: "Benefits Management Tools"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-02-05"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Gary Homidas"
+  - "Skyler Schain"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Learn how well our designs solve the comprehension problems that exist for Veterans around the claim process"
+  - "Learn how useful this type of informational content would be for Veterans who are filing disability compensation claims on VA.gov"
+  - "Identify which aspects specifically Veterans find useful or not"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated research sessions"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 15
+    assistive_technology: 0
+participants_total: 15
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 15
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 5
+    "45-54": 3
+    "55-64": 4
+    "65+": 1
+    unknown: 2
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 5
+    associates: 3
+    bachelors: 6
+    masters: 0
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 15
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 2
+    black: 8
+    hispanic: 4
+    biracial: 0
+    asian: 2
+    native: 1
+  gender:
+    male: 10
+    female: 5
+  lgbtq:
+    transgender: 0
+    nonbinary: 0
+    gay_lesbian_bisexual: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Most participants said they prefer the new overview page design over the current design"
+  - "Most people understood that our graphics represented the process steps and that some steps may repeat"
+  - "Participants liked the estimated time feature, but there's confusion about timelines when claims repeat steps"
+  - "When claims repeat steps, they wanted to know why and who's responsible for resolving the issue"
+  - "Participants had different preferences regarding the level of detail in the overview page, with some favoring more information and others preferring less"
+secondary_findings:
+  - "Veterans desired an interactive steps diagram or one that highlights the current step in their claim"
+  - "Most people found that the status page provided sufficient information about their claim"
+  - "A few participants were uncertain when they can add evidence"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
-outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Continue the workstream of breaking out the steps and improve the beloved features of the new design while simplifying the content"
+  - "Ensure the accuracy of the timelines by using the data available and collaborating with VBA stakeholders to set realistic expectations for the process"
+  - "Provide Veterans more specific messages about their claim, particularly if it moves backward"
+  - "Collaborate with content strategists and SMEs (subject matter experts) to clarify confusing areas of the content"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Test with demographics that were not included in this study"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Cognitive Disability"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Live in rural areas or abroad"
+  - "Identify as Biracial, or LGBTQ+"
+  - "User relying on assistive technology"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
 ---
 
 # Claim Contextualization Research Findings 

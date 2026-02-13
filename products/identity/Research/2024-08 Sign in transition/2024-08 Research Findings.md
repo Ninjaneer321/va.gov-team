@@ -1,95 +1,120 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Sign-in Transition Usability Testing Research Findings"
+product: "Sign-in Experience"
+team: "Identity Experience Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-08-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Megan Driscoll"
+  - "Charlye Tran"
+  - "Clayton Zook"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Test newly created sign in or create an account modal with updated language about CSP changes"
+  - "Test preliminary interstitial content about MHV deprecation as part of communications strategy"
+  - "Test usability of prototype for sign in page and sign in modal"
+  - "Explore veterans thinking around terms and phrases relating to sign in and credential migration"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote usability testing"
+  - "Prototype testing"
+  - "Evaluative research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 6
+    tablet: 0
+    smartphone: 4
+    assistive_technology: 1
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 0
+    "45-54": 0
+    "55-64": 9
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 2
+    associates: 1
+    bachelors: 4
+    masters: 2
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: "Not tracked"
+    rural: "Not tracked"
+    unknown: "Not tracked"
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 1
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Most participants were already prepared for the credential change"
+  - "Existing content and messaging is working effectively"
+  - "New content is clear but participants only scanned headings and CTAs, skipping help links"
+  - "Most will wait until the last minute to adopt new sign in option"
+  - "Most experienced technical issues setting up Login.gov or ID.me accounts"
+  - "Sign in page looked familiar to participants"
+  - "7 of 10 would continue using My HealtheVet credential despite new options being prioritized"
+  - "On interstitial page, 8 of 10 said they'd sign in with modern credentials or create account"
+  - "Perception that setting up modern account takes too much time"
+  - "Discomfort providing sensitive information like SSN to another website"
+  - "Veterans want easy access to support with preference for phone or in-person help"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Implement new sign-in page and interstitial page for MHV users"
+  - "Collect metrics on new designs to get reliable data on behavior"
+  - "Audit user flows on desktop and mobile for account creation on Login.gov and ID.me"
+  - "Collaborate with Login.gov and ID.me teams on content improvements"
+  - "Create or update service blueprints for MHV users transitioning to Login.gov and ID.me"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Reduce MHV credential users to less than 500K by Oct 31, 2024 and less than 100K by Jan 31, 2025"
+  - "Reduce sign-ins with MHV credential to less than 1M per month by Oct 31, 2024"
+  - "Improve CSAT score from roughly 1.7 to at least 2.2 by March 2025"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans successfully transition from MHV credential to modern credential with clear guidance"
+  business: "Successful deprecation of MHV credential with minimal user friction"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Simplifying identity verification process for Login.gov and ID.me"
+  - "Providing clearer guidance on choosing between Login.gov and ID.me"
+  - "Making account creation process less time-consuming"
+  - "Improving document scanning and upload experience"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Long-term monitoring of actual transition behavior post-implementation"
+  - "Research with assistive technology users on sign-in transition"
+  - "Study of support channel preferences and effectiveness"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "LGBTQ+ Veterans"
+  - "Black Veterans"
+  - "Latino Veterans"
+  - "Asian Veterans"
+  - "Biracial Veterans"
+  - "Veterans using assistive devices for vision impairment"
+  - "Veterans aged 35-54"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Prototype testing"
+  - "Conversation guides"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Figma prototype"
+  - "Zoom sessions"
+  - "Interview notes"
 ---
 
 # 2024-08 Sign-in Research Findings
