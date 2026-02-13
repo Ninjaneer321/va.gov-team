@@ -1,6 +1,6 @@
 # Creating an AskVA maintenance window
 
-> [!IMPORTANT]
+> ### Before you begin
 > The vets-api development, staging, sandbox, and production environments reside in EKS.
 If you do not have not have terminal access, you must first fill out the [vets-api ArgoCD terminal access request form](https://depo-platform-documentation.scrollhelp.site/developer-docs/vets-api-on-eks#VetsAPIonEKS-Access).
 
