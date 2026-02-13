@@ -518,17 +518,6 @@ Disability and Assistive Technology (AT):
 
 
 #### Underserved groups we haven’t talked to 
-> [!NOTE]
-_Complete the [VA recruitment checker for marginalized Veteran groups](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx):_
-> 1. Duplicate the ***Template*** worksheet
-> 1. Enter your participant information **(see the *Template Instructions* worksheet for details)**
-> 1. Make a screenshot of the cells that you want to share and paste it into this report below
-> 1. Generate an accessible version of those cells using Github Copilot Chat:
->    - Start a new Github Copilot chat
->    - Enter: "I want to convert these spreadsheet cells into a table in markdown:" 
->    - Copy and paste the cells from the recruitment checker spreadsheet that you've filled in
->    - Copy the resulting markdown table by clicking the copy icon in the Copilot chat, and paste it into this report below 
->    - (If Copilot returns an error, try using a different AI model, such as "Claude Sonnet 3.7 Thinking")
 
 This research does not include the perspectives of the following marginalized Veteran groups:
 
@@ -538,9 +527,7 @@ This research does not include the perspectives of the following marginalized Ve
 * Assistive tech
 * Identify as Latinx, Asian, Native, or LGBTQ+
 
-➡️ _[insert screenshot of completed recruitment checker in the format below]_
-
-![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](link - add image to github folder and link here with .png)
+![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](products/health-care/beneficiary-travel/research/2025-12 Complex Claims UAT/UAT demographics 2026.png)
 
 #### A more accessible version of the table in the above image   
 
