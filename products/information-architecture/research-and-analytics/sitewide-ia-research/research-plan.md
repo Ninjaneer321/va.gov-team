@@ -224,11 +224,11 @@ The Informaiton Architecture of VA.gov must support Veterans and Veteran family 
 
 **`1.` Do site users understand where to find information related to applying for core benefits?**
 
-**`2.`Do site users understand where to find tools that help them manage benefits they are already receiving?**
+**`2.` Do site users understand where to find tools that help them manage benefits they are already receiving?**
 
-**`3.`[Enter Q3]**
+**`3.` Can users find benefit tools that are not specific to a single benefit?**
 
-**`4.`[Enter Q4]**
+**`4.` Can users find information related to applying for benefits for a Veteran family member or caregiver?**
 
 **`5.`[Enter Q5]**
 
@@ -251,7 +251,7 @@ The Informaiton Architecture of VA.gov must support Veterans and Veteran family 
 
 ---
 
-**[Enter hypotheses here]** 
+**Users will be able to find key informaiton related to learning about and applying for key benefits.  However, the existing benefit-centric organization of our menus will create challenges for users looking for tools used to manage benefits that are not specific to a single benefit category.** 
 
 ---
   
