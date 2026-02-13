@@ -69,7 +69,7 @@ recruitment:
   screener_questions:
     - question: "Do you have a disabled dependent on your disability compensation benefit?"
       qualifying_response: "Yes"
-	- question: "Do you currently have a student dependent on your disability compensation benefit? OR In the past 2 years, have you had a student dependent on your disability compensation benefit? OR Do you have a dependent on your disability compensation benefit who will turn 18 in the next 2 years?"
+    - question: "Do you currently have a student dependent on your disability compensation benefit? OR In the past 2 years, have you had a student dependent on your disability compensation benefit? OR Do[...]"
       qualifying_response: "Yes"
       
 participants:
