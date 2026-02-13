@@ -24,7 +24,11 @@ const encodeFilePath = (filePath) => {
 };
 
 const isPlaceholder = (value) => {
-  if (!value || typeof value !== 'string') return true;
+  if (!value) return true;
+  // Date objects are not placeholders
+  if (value instanceof Date) return false;
+  // Non-string, non-Date values are considered placeholders
+  if (typeof value !== 'string') return true;
   const placeholders = [
     'YYYY-MM-DD', 'yyyy-mm-dd', '[Study]', '[study]', '[Team]', '[team]',
     '[Product]', '[product]', 'TBD', 'tbd', 'N/A', 'n/a',
@@ -44,19 +48,47 @@ const parseDate = (dateStr) => {
   if (!dateStr || dateStr === 'unknown' || isPlaceholder(dateStr)) {
     return null;
   }
-  const date = new Date(dateStr);
+  // If already a Date object, return it
+  if (dateStr instanceof Date) {
+    return isNaN(dateStr.getTime()) ? null : dateStr;
+  }
+  // Convert to string if needed
+  const dateString = typeof dateStr === 'string' ? dateStr : String(dateStr);
+  
+  const date = new Date(dateString);
   if (!isNaN(date.getTime())) {
     return date;
   }
-  // Handle MM-YYYY or YYYY-MM format
-  const mmYyyyMatch = dateStr.match(/^(\d{1,2})-(\d{4})$/);
+  // Handle MM/YYYY format (e.g., 08/2024)
+  const mmSlashYyyyMatch = dateString.match(/^(\d{1,2})\/(\d{4})$/);
+  if (mmSlashYyyyMatch) {
+    return new Date(`${mmSlashYyyyMatch[2]}-${mmSlashYyyyMatch[1].padStart(2, '0')}-01`);
+  }
+  // Handle MM-YYYY format
+  const mmYyyyMatch = dateString.match(/^(\d{1,2})-(\d{4})$/);
   if (mmYyyyMatch) {
     return new Date(`${mmYyyyMatch[2]}-${mmYyyyMatch[1].padStart(2, '0')}-01`);
   }
   // Handle YYYY-MM format (year-month only)
-  const yyyyMmMatch = dateStr.match(/^(\d{4})-(\d{1,2})$/);
+  const yyyyMmMatch = dateString.match(/^(\d{4})-(\d{1,2})$/);
   if (yyyyMmMatch) {
     return new Date(`${yyyyMmMatch[1]}-${yyyyMmMatch[2].padStart(2, '0')}-01`);
+  }
+  return null;
+};
+
+// Extract date from folder path when frontmatter date is invalid
+// e.g., "products/dependents/research/2025-08-continuous-discovery-pilot/..." -> 2025-08
+const extractDateFromPath = (filePath) => {
+  // Look for YYYY-MM pattern in path
+  const yyyyMmMatch = filePath.match(/\/(\d{4})-(\d{1,2})[^\/]*\//);
+  if (yyyyMmMatch) {
+    return `${yyyyMmMatch[1]}-${yyyyMmMatch[2].padStart(2, '0')}`;
+  }
+  // Look for YYYY-MM without trailing content
+  const yyyyMmMatch2 = filePath.match(/\/(\d{4})-(\d{1,2})\//);
+  if (yyyyMmMatch2) {
+    return `${yyyyMmMatch2[1]}-${yyyyMmMatch2[2].padStart(2, '0')}`;
   }
   return null;
 };
@@ -527,12 +559,47 @@ async function run(params) {
   
   console.log('Starting historical participant data extraction (2017-2025)...');
 
-  // Find all findings files
-  const files = await globModule.glob('**/research/**/*findings*.md', {
-    ignore: ['node_modules/**', '.git/**', 'research-repo/**', '**/*.doc', '**/*.docx', '**/*.pptx', '**/*.pdf']
-  });
+  // Find all research findings files with various naming conventions
+  // Search broadly for research documents with different naming patterns
+  // Focus on products/ and teams/ folders to ensure relevant content
+  const patterns = [
+    'products/**/*findings*.md',     // e.g., research-findings.md, findings.md, 2024-findings.md
+    'products/**/*report*.md',       // e.g., research-report.md, report.md, final-report.md
+    'products/**/*readout*.md',      // e.g., readout.md
+    'products/**/*summary*.md',      // e.g., topline-summary.md, findings-summary.md
+    'teams/**/*findings*.md',        // Same patterns in teams folder
+    'teams/**/*report*.md',
+    'teams/**/*readout*.md',
+    'teams/**/*summary*.md',
+  ];
+  
+  const allFiles = [];
+  for (const pattern of patterns) {
+    const matchedFiles = await globModule.glob(pattern, {
+      nocase: true,  // Case-insensitive matching for Findings.md vs findings.md
+      ignore: [
+        'node_modules/**',
+        '.git/**', 
+        'research-repo/**',
+        '**/*.doc',
+        '**/*.docx',
+        '**/*.pptx',
+        '**/*.pdf',
+        '**/template*.md',  // Exclude template files
+        '**/*template.md',  // Exclude template files
+      ]
+    });
+    allFiles.push(...matchedFiles);
+  }
+  
+  // Remove duplicates (in case a file matches multiple patterns)
+  const uniqueFiles = [...new Set(allFiles)];
+  
+  // Exclude specific file (large survey without demographic breakdown)
+  const excludedFile = 'products/health-care/appointments/va-online-scheduling/research/2021-08-facilities-ab-test/research-findings.md';
+  const files = uniqueFiles.filter(file => !file.endsWith(excludedFile) && file !== excludedFile);
 
-  console.log(`Found ${files.length} total research findings files`);
+  console.log(`Found ${allFiles.length} total research files (${uniqueFiles.length} unique, ${files.length} after exclusions)`);
 
   const allDemographics = [];
   const skippedFiles = [];
@@ -542,9 +609,10 @@ async function run(params) {
   const repoName = 'va.gov-team';
   const defaultBranch = 'master';
 
-  // Date range filter: 2017-01-01 to 2025-12-31
+  // Date range filter: 2017-01-01 to 2026-03-31
+  // Extended to include early 2026 to capture studies from late 2025
   const startDate = new Date('2017-01-01');
-  const endDate = new Date('2025-12-31T23:59:59.999Z');
+  const endDate = new Date('2026-03-31T23:59:59.999Z');
 
   for (const file of files) {
     try {
@@ -564,10 +632,24 @@ async function run(params) {
           continue;
         }
 
-        // Check date range
-        const studyDate = parseDate(frontMatter.date);
+        // Check date range - try frontmatter first, then extract from path
+        let studyDate = parseDate(frontMatter.date);
+        
+        // If date is invalid or "Not specified", try to extract from folder path
+        if (!studyDate && frontMatter.date) {
+          const dateStr = typeof frontMatter.date === 'string' ? frontMatter.date : String(frontMatter.date);
+          if (dateStr.toLowerCase().includes('not specified') || 
+              dateStr === 'TBD' || 
+              dateStr === 'N/A') {
+            const pathDate = extractDateFromPath(file);
+            if (pathDate) {
+              studyDate = parseDate(pathDate);
+            }
+          }
+        }
+        
         if (!studyDate || studyDate < startDate || studyDate > endDate) {
-          skippedFiles.push({ file, reason: 'Date outside 2017-2025 range' });
+          skippedFiles.push({ file, reason: 'Date outside 2017-2026 range' });
           continue;
         }
 
@@ -591,7 +673,7 @@ async function run(params) {
           file_modified: fileModDate ? fileModDate.toISOString() : null,
           date: frontMatter.date || 'unknown',
           date_parsed: studyDate,
-          date_formatted: formatDate(frontMatter.date),
+          date_formatted: studyDate ? studyDate.toISOString().split('T')[0] : null,
           product: frontMatter.product || 'unknown',
           team: frontMatter.team || 'unknown',
           title: title,

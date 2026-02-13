@@ -1,3 +1,79 @@
+---
+title: "686c Fully Digital Form Viewer MVP Usability Testing with Veterans - Research Findings"
+product: "VA Form 21-526EZ (Disability Compensation)"
+team: "Disability Benefits - Employee Experience Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-12-11"
+researchers:
+  - "Riley Orr"
+  - "Jessica Sutantio"
+  - "Kevin Shih"
+research_goals:
+  - "Understand current user processes/workflows with regards to accessing and using the form viewer"
+  - "Gauge users' expectations, reactions, and preferences for how the form sections, questions, and answers are laid out"
+  - "Evaluate whether users are able to navigate through the form viewer and identify their preferred methods"
+  - "Understand what information is most important and preferences for how it would be displayed"
+  - "Understand how the proposed concepts compare to the current solution and what would be ideal"
+methodology:
+  - "Moderated usability testing"
+  - "Prototype testing"
+  - "Remote sessions"
+devices_used:
+    desktop: 4
+    tablet: 0
+    smartphone: 4
+    assistive_technology: 0
+participants_total: 8
+demographics:
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 2
+    "45-54": 2
+    "55-64": 1
+    "65+": 3
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 2
+    associates: 1
+    bachelors: 2
+    masters: 2
+    doctorate: 0
+    professional: 1
+    unknown: 0
+  location:
+    urban: 5
+    rural: 3
+    unknown: 0
+  race:
+    white: 4
+    black: 2
+    hispanic: 0
+    biracial: 1
+    asian: 0
+    native: 0
+    prefer_not_to_answer: 1
+  disability:
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  gender:
+    male: 4
+    female: 4
+---
+
 # Research Report for 686c Fully Digital Form Viewer MVP Usability Testing with Veterans
 
 Office of the CTO - Digital Experience (OCTO-DE), 686c MVP Form Viewer, Disability Benefits - Employee Experience Team
