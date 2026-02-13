@@ -71,18 +71,20 @@ Use this prompt **when starting a new research plan** or **updating an existing 
 
 1. Open your research plan file in GitHub (use the [research plan template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/research-plan-template.md))
 2. Open GitHub Copilot Chat
-3. Attach your research plan file
+3. Attach your research plan file, if Copilot didn't already attach it automatically
 4. Copy and paste the prompt below (the prompt includes all available tags from the research repository)
-5. Review Copilot's suggestions and modify as needed
+5. Review Copilot's suggestions. If you see errors, you could ask Copilot to make changes
 6. Copy the completed frontmatter into your research plan
 
 ## Adding Frontmatter to Your Research Plan
 
 1. Copy the generated YAML frontmatter
 2. Paste it at the very beginning of your research plan file (before any markdown content)
-3. Ensure there are three dashes (`---`) at both the start and end of the YAML block
-4. Verify the formatting is correct (proper indentation, no extra spaces)
-5. Save your file
+3. Review the frontmatter and modify as needed to make it accurate
+4. Ensure there are three dashes (`---`) at both the start and end of the YAML block
+5. Verify the formatting is correct (proper indentation, no extra spaces)
+6. Save your file
+7. If you get a YAML error when you save the file, copy the YAML error into a Copilot chat, attach your research plan file, and ask it to fix the error. Copy the revised frontmatter and paste it into your research plan.
 
 ## Tips
 
