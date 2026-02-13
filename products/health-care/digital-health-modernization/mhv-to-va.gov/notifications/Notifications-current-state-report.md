@@ -8,10 +8,17 @@ This report documents what we know and understand about notifications that route
 
 ## On this page
 
-## Tools
-* Email
-* VA Notify - rely on this system as source of truth (not the Figma) 
-* VeText - right now it's only appointment reminders & Rx reminder (?), but they do "open slot" management in VistA. Run by Shane Elliott. It is not VA-wide, it's facility-dependent & reliant on specific facilities turning it on. So dependent on budgeting at facility-level. 
+## Notification tools and applications
+### Email
+### VA Notify
+
+**Resources:**
+* [VA Notify Playbook](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-notify#playbook) 
+rely on this system as source of truth (not the Figma)
+* VA Notify Slack channel: `#va-notify-public` 
+
+### VEText
+Right now it's only appointment reminders & Rx reminder (?), but they do "open slot" management in VistA. Run by Shane Elliott. It is not VA-wide, it's facility-dependent & reliant on specific facilities turning it on. So dependent on budgeting at facility-level. 
 
 ## Notification settings in Profile
   To review, there are opt-in notification settings for each health tool in the VA Profile. Secure Messages, however, is automatic and users cannot opt-out, so it is not listed on this page.
