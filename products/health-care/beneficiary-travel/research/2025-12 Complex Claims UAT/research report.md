@@ -357,31 +357,33 @@ Blue sky goal: Investigate an interactive element that is tailored to each Veter
 ## UAT Summary   
 Complex claims met the metrics determined for a successful UAT. All participants who were able to either test a variety of screens or fully file (6 of 9) rated the process of filing a travel claim as “easy” or “extremely easy.” Any bugs that were uncovered during the course of UAT were addressed and fixed. The product was released to a portion of users starting on February 9, 2026. The Travel Pay team will continue to monitor feedback and analytics in order to ensure the product functions as users add more complex scenarios.
 
-<!-- ## Product User and Business Outcomes
+## Product User and Business Outcomes
 
-*Explain how findings and recommendations align with the product's goals.*
-
-> [!NOTE] 
-> Refer back to your Product Outline. 
 
 ### Desired User Outcome 
-This research supports our desired user outcome by....
+This research supports our desired user outcome by:   
+* Creating a seamless and positive health-care travel related reimbursement claim creation, submission, and management experience for Veterans and caregivers on the VA.gov website and VAHB mobile app
+* Enjoy a simple and intuitive experience that meets all VA accessibility, design, and performance standards
+* Increase the number of claims filed successfully
+
  
 ### Desired Business Outcome
-This research supports our desired business outcome by....
+This research supports our desired business outcome by:   
+* Increasing the number of claims filed successfully through VA.gov vs BTSSS
+* Increased user satisfaction rating
+* Increased travel claims submission accuracy
+* Positive user survey feedback received   
 
 
 ## Key Performance Indicators
 
-*Explain how findings will support KPI measurement.*  
+### KPI 1: Steady increase of overall claim submission quantity (YoY)
+This research supports measurement of this KPI by:   
+* Providing users an efficient way to file complex claims on VA.gov, directly from their past appointment list
 
-> [!NOTE]
-> Refer back to your Product Outline. 
-
-### KPI 1
-This research supports measurement of this KPI by....
-
--->
+### KPI 2: Positive shift in claim submission volume from BTSSS to VA.go ecosystem (web + mobile)   
+This research supports measurement of this KPI by:   
+* Reducing reliance on BTSSS and directing more Veterans to file on VA.gov
 
 ## Next Steps
 
