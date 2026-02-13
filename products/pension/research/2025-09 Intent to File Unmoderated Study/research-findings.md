@@ -1,95 +1,95 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Intent to File Content Study Research Findings"
+product: "Veterans Pension"
+team: "Pension and Burial Benefits Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-09-25"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Elisabeth Chin"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Validate how intent to file messaging might be effective for Veterans in understanding intent to file and its impact on their application"
+  - "Evaluate the usability of the proposed pattern"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Unmoderated usability testing"
+  - "Optimal Workshop platform"
+  - "Figma prototype with limited interactivity"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 20
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 20
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 20
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 20
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 20
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants understand intent to file as an action, but most did not mention the financial benefit"
+  - "Most participants failed to recall the one-year completion timeframe"
+  - "Most participants have a partial understanding of the consequences if they failed to complete their application within their intent to file timeframe"
+  - "Several participants noted that they did not see the success and/or warning alerts at all"
+  - "Most participants engaged with links on the introduction page"
+  - "Although overlooking critical details, participants perceived the application flow positively"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Explore other touchpoints, such as email, notifications, and/or the Claims Status Tool to introduce intent to file incrementally and at moments when Veterans are more likely to notice and make more informed decisions"
+  - "Monitor completion times for forms that automate intent to file. In order to identify and mitigate the risk of Veterans missing out on benefits due to completing their application beyond 12 months, we should be aware of existing behavior and how widespread it might be"
+  - "Simplifying the intent to file process may also prevent further confusion, such as aligning the timelines of intent to file with the timelines of application expiry, so that Veterans do not have to track two dates, comprehend how our systems behave, and risk losing out on retroactive payments"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "0"
+  business: "0"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans need better visibility of intent to file alerts and critical dates"
+  - "Veterans need clearer communication about financial benefits of intent to file"
+  - "Veterans need multiple touchpoints to understand intent to file implications"
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "October 2024: 527 Intent to File Comprehension"
+  - "May 2024: 527 Intent to File Audit"
+  - "December 2023: 526 Intent to File Research"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Mural synthesis board"
+  - "Optimal Workshop"
 ---
 
 # **Research Plan for Pension Benefits, Intent to File Content Study, September 2025**

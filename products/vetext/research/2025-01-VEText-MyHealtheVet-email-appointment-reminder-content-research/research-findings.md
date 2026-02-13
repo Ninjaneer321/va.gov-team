@@ -1,95 +1,107 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "My HealtheVet Email Appointment Reminder Content Research Findings"
+product: "VEText"
+team: "VEText Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-02-05"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Jamie Ramsay"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Gauge Veteran satisfaction with current email appointment reminders"
+  - "Learn what content Veterans want/expect in email health appointment reminders"
+  - "Learn what schedule is most effective for receiving appointment reminders"
+  - "Identify what could make email reminders more useful if they are not currently"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated interviews"
+  - "Comparison of current non-PHI email with proposed PHI email format"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 10
+    tablet: 1
+    smartphone: 8
+    assistive_technology: 0
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 1
+  dependents: 1
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 2
+    "45-54": 1
+    "55-64": 3
+    "65+": 5
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 1
+    bachelors: 5
+    masters: 4
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 6
+    rural: 5
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 2
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants want more appointment details in email reminders, specifically provider, direct clinic phone numbers and a more precise location information like building number or floor"
+  - "Email reminders serve Veterans well as a reference and backup to confirming appointment information already recorded in Veterans' personal calendars"
+  - "Lack of detailed information in reminders forces Veterans to be detectives, infer information from clues, and create their own workarounds to retrieve appointment details"
+  - "Email appointment reminders need to be concise, and the instructions following the essential appointment information is often skimmed or skipped as 'filler' or 'boilerplate' information"
+  - "Participants were generally comfortable about PHI information being contained in their email reminders, and the usefulness of the additional information outweighs privacy concerns"
+  - "Many participants would like more control over how they receive reminders and what information is contained within them"
+  - "Notification Preferences section in the proposed, newly-formatted MHV email was mostly understood to be where Veterans can select the kind and amount of reminders they receive. However, participants noted that this section is located in the part of the email that they mostly skim or skip"
+  - "Punctuality fulfills Veterans in several ways including feeling prepared, being able to economize trips to distant VAs and demonstrating respect to fellow Veterans. Precise and updated content in reminders play a role in facilitating timeliness"
+  - "Format of emails, including font size and contrast, has a significant impact on usability"
+  - "Changes to the current MHV email format should be communicated to Veterans in advance of release and across multiple channels"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Approve the PHI version of email and offer it as an option as soon as possible"
+  - "For PHI email reminders include: facility address including floor/building information (if information is maintained up-to-date), clinic name, provider name, appointment status, modality, and direct phone numbers to clinics that have specialty schedulers (and times when they can be contacted)"
+  - "Continue sending MHV reminders as a list of all upcoming appointments, however consider moving cadence to 7 days and 1 day prior"
+  - "Move forward with a VADS-formatted email that includes headings, highlighted appointment information and consider ways to consolidate/link out some of the non-appointment detail information such as how to prepare or change an appointment"
+  - "Email formatting should be designed with shareability in mind (copy/paste, screen shots, link to share)"
+  - "Help Veterans prepare themselves better by including parking information and any procedural requirements like fasting or not wearing deodorant"
+  - "Hyperlink a map within the appointment information address for navigation"
+  - "Selecting communication preferences for all formats of reminders within VA Profile should clearly explain the result of each selection and be easily findable within the portal"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Increase recipient satisfaction"
+  - "Decrease oversaturation of reminders"
+  - "Improve care by getting Veterans to their appointments, prepared with necessary information"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans receive email appointment reminders with complete, accurate information that helps them prepare for and attend appointments on time"
+  business: "Increase appointment attendance rates and reduce no-shows through improved communication of appointment details"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Veterans need more detailed appointment information (provider, clinic name, precise location) in email reminders"
+  - "Veterans need better control over communication preferences for appointment reminders"
+  - "Veterans need parking and procedural preparation information to arrive on time and prepared"
+further_research_needed: []
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Veterans who are Asian and/or Native"
+  - "Veterans who identify as LGBTQ+"
+  - "Users of Assistive Technology"
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Mural board"
 ---
 
 

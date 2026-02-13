@@ -1,95 +1,105 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Facility Locator Mobile Map Research - Interim Findings"
+product: "Facility Locator"
+team: "Sitewide Facilities"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2025-04-01"
+researchers: []
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how Veterans and others expect the list of results to be organized and what options they have to refine or broaden results"
+  - "Evaluate understanding of the relationship between search results and indicators on a map"
+  - "Assess understanding of the difference between map view and list view, and how to move from one to the other"
+  - "Determine which fields are understood as required or optional for conducting a search"
+  - "Evaluate how to get the information needed about a selected location"
+  - "Understand what experience Veterans expect from the location mapping tool on mobile"
+  - "Assess how users of assistive technology on mobile devices interact with the facility locator"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated Interviews"
+  - "Remote Sessions"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 5
+    assistive_technology: 1
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 5
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 5
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 5
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 1
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
-recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Veterans and others will understand how the list of results are organized and what options they have to refine or broaden their results"
+  - "Veterans and others will understand the relationship between search results and indicators on a map"
+  - "Veterans and others will understand the difference between map view and list view, and how to move from one to the other"
+  - "Veterans and others will understand which fields are required or optional for conducting a search"
+  - "Veterans and others will understand how to get the information they need about a selected location"
+  - "Generally, users want to see feature parity with Google Maps"
+  - "Users are able to zoom in and out to refine results and resolve issues with facility results overlapping"
+  - "The map is not interactable for users with screen readers"
+recommendations: []
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can successfully find VA facilities on mobile devices using map and list views"
+  business: "Improved facility locator usability on mobile devices leading to increased Veteran engagement"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Users noticed that the facility locator can only resolve down to the ZIP code level, and not to an address"
+  - "Some users in rural areas would prefer to be able to increase their search radius to accommodate longer driving distances"
+  - "Some users wanted to click the result number to center the associated facility on the map, but were not able to"
+  - "Screen reader users using the map only hear the facility result number with no other data"
+  - "Users wish that situationally-relevant information was surfaced in certain searches"
+  - "The Mapbox widget and the numbered results on the map do not give enough information to screen readers for blind and low-vision users"
+  - "The length of some lists can make navigation slower for assistive technology users"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Study was suspended after 5 of 9 scheduled interviews due to Sitewide team contract not being extended"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD-Veterans"
+  - "PRDT-Facility-Locator"
+  - "HDW-Smartphone"
+  - "Accessibility"
+  - "METHOD-Interviews"
+  - "METHOD-Remote"
 ---
 
 Findings to date

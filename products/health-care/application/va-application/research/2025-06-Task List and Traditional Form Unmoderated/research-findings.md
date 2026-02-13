@@ -1,95 +1,115 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "2025-07 - CYOA Task List Early Exploration - Unmoderated Prototype A/B Study Research Findings"
+product: "10-10EZ Health Care Application"
+team: "Health Enrollment Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-07-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Jessica Stump"
+  - "Liza McRuer"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Gauge Veteran Interest: Understand Veterans' initial reactions to both patterns"
+  - "Evaluate Navigation & Perceived Intuitiveness: Determine how Veterans perceive ease of locating and initiating form sections in both prototypes"
+  - "Identify High-Level Points of Confusion: Spot any early usability issues in the task list structure and navigation"
+  - "Assess Initial Preference: Identify which pattern Veterans prefer and why"
+  - "Gather Initial Qualitative Feedback: Collect qualitative insights on both patterns' structure and clarity, with the focus on the non-linear pattern compared to the existing form"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Unmoderated A/B Study"
+  - "Usability Testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 42
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 42
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 42
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 12
+    "45-54": 0
+    "55-64": 25
+    "65+": 0
+    unknown: 3
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 3
+    some_college: 7
+    associates: 2
+    bachelors: 10
+    masters: 16
+    doctorate: 1
+    unknown: 3
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 30
+    rural: 12
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 28
+    black: 9
+    hispanic: 0
+    biracial: 1
+    asian: 3
+    native: 0
+    unknown: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Slight preference for the task list pattern over the traditional form flow was reported by participants"
+  - "Navigation preferences were mixed between the task list and traditional form flow patterns tested"
+  - "Clickable elements in task list were utilized but may have caused some confusion"
+  - "The organization and status of the groups of information was appreciated among participants"
+  - "Participants stated there was a lot of information to provide and gathering documents beforehand would be important"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Refine the task list prototype and conduct a moderated research study"
+  - "Test for a mix of use cases and Veterans with different disability ratings and eligibility criteria"
+  - "Refine task list functionality"
+  - "Future studies with AT users"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Application Completion Rate (percentage of users who start and successfully submit the application)"
+  - "Time to Complete Application (average duration from start to submission)"
+  - "Drop-off Rate (percentage of users who start but do not finish the application)"
+  - "User Satisfaction Score (from post-application surveys, e.g., CSAT)"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Improved Application Completion Rate, Increased User Satisfaction, Reduced Abandonment"
+  business: "Higher Application Volume, Faster Processing Times"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Interactivity of task list experience - participants frequently clicked on the status label to try and navigate"
+  - "Form user flows and disability rating impact - test did not account for short form vs full form differences"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Accessibility testing with assistive technology users"
+  - "Interactivity of task list experience"
+  - "Form user flows and disability rating impact"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Disability and Assistive Technology (AT)"
+  - "Mobile"
+  - "LGBTQ+"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Figma - Epic Working File"
+  - "Prior Competitive Pattern Research"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Optimal Workshop"
+tags:
+  - "AUD-Veterans"
+  - "PRDT-10-10EZ"
+  - "PRDT-Health-Enrollment"
+  - "DSP-Task-List"
+  - "HDW-Desktop"
+  - "METHOD-Unmoderated"
+  - "METHOD-A/B-Testing"
 ---
 
 

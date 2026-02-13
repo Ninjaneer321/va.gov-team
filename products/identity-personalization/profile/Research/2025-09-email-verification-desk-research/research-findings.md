@@ -1,44 +1,105 @@
 ---
-title: "[Email verification desk] Research Findings"
-product: "VA.gov Contact Email Verification"
-team: "Team Name"
+title: "Email verification desk research findings"
+product: "VA.gov Profile - Contact Email Verification"
 team: "Authenticated Experience Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
 date: "2025-09-15"
 researchers:
   - "Janelle Finnerty"
 research_goals:
-  - "Identify and evaluate existing research on email verification to inform the new contact email address verification feature on VA.gov."
+  - "Identify and evaluate existing research on email verification to inform the new contact email address verification feature on VA.gov"
 methodology:
   - "Desk research"
+  - "Review of existing VA research documentation"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Users need benefits and risks of opting in/out to be clearly and concisely provided, especially during policy changes."
-  - "Recommendation to swap from 'email verification' to 'email confirmation' for improved user perception and alignment with VA standards."
-  - "Users are quick to dismiss modals; modals should be user-triggered and not auto-displayed, aligning with USWDS standards."
-  - "Email confirmation is a common practice, especially during account setup, and users may swap devices during this process."
+  - "When implementing policy changes, teams have found that users need benefits and risks of opting in/out clearly and concisely provided. VA Notify also offers best practices for email content to support clear communication."
+  - "Identity recommends we swap from email verification to email confirmation. Which makes the experience seem easier to users, and matches existing VA standards."
+  - "VA.gov team findings align with USWDS guidance. Since users often dismiss modals, teams use multiple touchpoints such as emails, alerts, interstitials, and modals to reach them."
+  - "Email confirmation is common during account setup, and Veterans may switch devices during the process."
 recommendations:
-  - "Include clear deadlines, risks, or benefits of email verification in alerts and emails."
-  - "Switch from use of 'verification' to 'confirmation' for user clarity."
-  - "Only use modals for email confirmation when triggered by the user."
-  - "Consider a checkbox to confirm the user has read the modal before allowing it to close."
-  - "Use emails, alerts, and interstitials for launch and renewal communications."
-  - "Ensure users can easily swap between devices during the confirmation process."
+  - "Include clear deadlines, risks, or benefits of email verification in the alerts and emails to provide users clear direction on what needs to happen and why."
+  - "Swap from use of verification to confirmation to match identity standards."
+  - "Only use modals to communicate email verification when it is a user triggered action, such as adding or updating their email address."
+  - "Consider including a checkbox to confirm the user has read the modal prior to allowing them to close it."
+  - "For initial launch, or annual renewal, consider use of emails, alerts, and interstitials to communicate the action."
+  - "Ensure that the user can easily swap between devices to confirm their email address, and that there is no requirement to stay on a single device."
 kpi_alignment:
-  - "Objective 1, Key Result 3: 100% of transactions via digital experiences are processed correctly or users are notified of an error."
-  - "Objective 2, Key Result 2: Reduce total error rates in platforms by 50% compared to Q4 2024, toward a goal less than 1% per endpoint."
+  - "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits. Key Result 3: 100% of transactions received via our digital experiences are either processed correctly or we have notified the user of an error."
+  - "Objective 2: OCTO's platforms are the fastest, most efficient, and most secure way to deliver products at VA. Key Result 2: We have reduced the total error rates in our platforms by 50% compared to Q4 2024, towards a goal less than 1% per endpoint."
 outcomes:
-  user: "Reduce confusion and frustration by providing a clear, user-friendly email confirmation process that meets VA standards."
-  business: "Improve contact information accuracy and reduce silent failures by increasing user engagement with email confirmation."
+  user: "Ensure the content and process are not frustrating or confusing for our users, and match VA standards."
+  business: "Ensure more users interact with the email verification process to reduce silent failures."
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Multi-device support for email confirmation process"
+  - "Best practices for policy change communications to Veterans"
+  - "Modal interaction patterns for accessibility and user engagement"
 further_research_needed:
-  - "User testing on modal content and interaction patterns for accessibility and clarity."
+  - "User testing on modal content and interaction patterns for accessibility and clarity (if needed based on design updates)"
+underserved_groups_missing: []
 secondary_research:
-  - "Review of related VA.gov research findings and USWDS documentation"
+  - "U.S. Web Design System (USWDS) | Modals"
+  - "12/07/2023 Email Content Research Findings"
+  - "08/2023 [2023-04-Household Information Section Usability] Research Findings"
+  - "05/31/2023 Proactive CSP migration research findings"
+  - "04/12/2023 Deferred Identity Proofing Round 1: Usability - Research Findings"
+  - "10/17/2022 Profile Editing Research Findings"
+  - "9/29/22 Profile Editing Research - Topline Summary"
+  - "July 30, 2020 Disability Compensation Notifications Research Report"
+  - "Figma files: Existing ID.me and Login.gov designs"
+  - "Website documentation: Confirm your ID.me email address"
+  - "Product documentation: User flows for creating a new Login.gov and ID.me account on VA.gov and VA mobile app"
+  - "Slack Canvas: Identity Team's view on the use of 'verify'"
 synthesis_tools_used:
-  - "Word"
-
+  - "Microsoft Word"
 ---
 
 # Email verification desk research findings

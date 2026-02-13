@@ -1,95 +1,139 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Copilot findings for Auth Experience, My VA 3.0, 2025/08"
+product: "My VA 3.0"
+team: "Auth Experience"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-08-28"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Ashley Bush"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Review and analyze the scrubbed user research transcripts from the 08/2025 My VA 3.0 Usability Study"
+  - "Draft a list of key findings and recommendations using Copilot AI analysis"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "AI-assisted analysis"
+  - "Transcript review using Copilot"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 9
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 9
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 9
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Inline refill interactions that do not force a full page navigation were praised as fast and clear (high willingness to use, rated 4–5)"
+  - "Participants want more details on refill actions: remaining refills, whether request was mailed vs. pickup, and ship/expected delivery date"
+  - "Some participants worry about accidental taps on trackpads/phones and want a secondary confirmation or a safer multi-select workflow"
+  - "Participants who refill many meds want batch/refill-all flows and ability to check boxes for multiple meds"
+  - "Quick check-in from the homepage is valued; many use phone app/mobile for appointment tasks"
+  - "Inconsistent presentation/incomplete appointment data: participants asked for provider name, room number, and clearer clinic location"
+  - "Centralized notifications are highly valued. Participants prefer a notifications bell and chronological, filterable list"
+  - "The label 'Activity Feed' was confusing; participants strongly preferred 'Notifications' (virtually unanimous)"
+  - "Many want certain types of notifications highlighted/prominent: debts/payments (high anxiety), prescription shipped, appointment reminders, test results, and changes to personal information"
+  - "Desire for the ability to review notifications per a date range or pick a date (date picker) and to see more notifications per page"
+  - "Participants overwhelmingly expect healthcare (appointments, meds, messages) to be top priority on the dashboard — claims and appeals being above healthcare was a common complaint"
+  - "Desktop layout issues: perceived empty whitespace and wasted real estate; participants suggested using it for more above-the-fold content"
+  - "Confusion between 'My VA' vs 'Profile' and overlap with My HealtheVet — participants suggested renaming and clearer labels"
+  - "The 'step X of Y' indicator (option B style) and status bar were repeatedly singled out as very valuable — it reduces uncertainty about progress"
+  - "The 'green check' for in-progress items was confusing for some — participants expected a 'pending' or 'in progress' color/indicator rather than a completion check"
+  - "Profile that includes clear headings and short descriptions explaining what you can do in each section (option A for profile) helps comprehension"
+  - "The word 'debt' causes anxiety and anxiety-driven reactions"
+  - "Participants want payments/debts to be higher on the page and/or labeled in ways that are less alarming (e.g., 'Payments & balances' or 'Payment history' + a clear indicator for amounts due)"
+  - "Participants need easy access to letters for verification (e.g., income/disability letters) and expect a clear 'Letters & Documents' place"
+  - "Many participants primarily use phone/app; several mentioned features available in the browser or My HealtheVet app that are missing or awkward in the VA app"
+  - "Copy such as 'Messages' vs 'Secure Messaging,' 'Manage health appointments' vs 'Change/Cancel appointment' caused confusion"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Use the label 'Notifications' (not 'Activity Feed') on the bell/center"
+  - "Put healthcare (appointments, medications, secure messaging) higher on the My VA homepage — above claims & appeals"
+  - "Change 'Messages' → 'Secure messaging' where it's clinical; 'Manage health appointments' → 'Change or cancel appointment' or 'View & manage appointments'"
+  - "Change 'Payments & debts' copy to reduce alarm (e.g., 'Payments & balances' or split into 'Payments' and 'Outstanding balances' with clear context)"
+  - "Ensure Notifications list is newest→oldest and shows actionable links"
+  - "Add or surface these small but high-value data points on relevant cards: For medications: show remaining refills, last fill date, expected ship/ready date (or pickup location), and whether request was mailed vs pickup. For appointments: provider name and room number (or clear clinic location)"
+  - "Add 'refill all' and multi-select for batch refill; add a lightweight confirmation step (checkbox & 'Refill X meds' confirm) for accidental clicks"
+  - "Let users pick pickup vs mail and show expected ship/ready date"
+  - "Revise claims & appeals card to include: 'Step X of Y' progress indicator (option B), clear action buttons, and deadline/requested evidence call-outs. Avoid a green check for 'in progress'"
+  - "Keep category filters (claims, healthcare, payments, benefits, VA.gov updates)"
+  - "Add optional date picker and ability to set 'notifications per page' (10/20/50)"
+  - "Provide a dedicated 'Verification letters' subcategory (DD214/service dates, proof of service, benefit verification) and a 'Sent to you' archive for mailed/emailed notifications"
+  - "Push notifications to mobile app/device (opt-in) and sync notifications across web and app"
+  - "Allow users to reorder dashboard sections client-side (saved to cookie/local storage) as an experiment"
+  - "Integrate My HealtheVet content and critical app features (billing, device parts ordering) into My VA/VA app where feasible"
+  - "A/B test the 'My VA' name: Options to test: 'My VA,' 'My Dashboard,' 'My VA Dashboard'"
+  - "Rework copy around 'debt' and payment alerts: Rename UI elements to reduce panic (e.g., 'Outstanding balance' with a calm explanatory line and an obvious 'What this means' modal)"
+  - "Make secure messaging & notifications consistent: If a refill causes a message, consider optionally mirroring the confirmation into the messages inbox"
+  - "A brief 'What is My VA?' overlay or short guided tour for first-time users explaining where to find letters, payments, meds, and appointments"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Increase in percent of refills completed via the in-page flow"
+  - "Reduction in time-to-complete refill task"
+  - "Reduction in support calls about refills"
+  - "Increase in check-in completion rate"
+  - "Reduced missed appointments"
+  - "Fewer calls asking for provider/room info"
+  - "Increase in opt-ins for notifications"
+  - "Reduced time-to-find specific notifications"
+  - "Increased perception of timeliness/relevance (user survey)"
+  - "Decrease in 'Where am I in the process?' support requests"
+  - "Increase in user satisfaction with claims card"
+  - "Reduction in support requests for verification letters"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can quickly complete key tasks (refills, check-in, find notifications) with less confusion and anxiety, meeting their expectations for a personalized, action-oriented dashboard"
+  business: "Reduced support call volume, increased digital self-service completion rates, improved Veteran satisfaction with My VA as primary authenticated experience"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Better integration between My VA, My HealtheVet, and VA mobile app to reduce redundancy and confusion"
+  - "Personalization and customization options for dashboard section ordering"
+  - "Enhanced appointment and prescription data integration to show complete, actionable information"
+  - "Push notification system to increase mobile app adoption and reduce missed actions"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Run a focused unmoderated usability task for the top quick wins (change copy + reorder healthcare), measuring task success & time for refill, appointment check-in, and finding a letter"
+  - "A/B test the 'My VA Dashboard' label vs 'My VA' to confirm which reduces navigation confusion"
+  - "Prototype notification improvements (filters + date picker) and test with participants who have many notifications"
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "My VA 3.0 Usability Study research plan (08/2025)"
+  - "Nine scrubbed user research transcripts from 08/2025 study"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Copilot AI"
 ---
 
 # Copilot findings for Auth Experience, My VA 3.0, 2025/08

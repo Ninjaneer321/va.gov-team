@@ -1,95 +1,125 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Your VA benefit letters and documents Research Findings"
+product: "Benefit Letters"
+team: "Benefit Management Team 2"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-08-25"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Shawn Collins"
+  - "Rick Allen"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Verify that the new design removes barriers for Veterans trying to find, understand, and use the benefit letters"
+  - "Understand what motivates Veterans to get their benefit letters"
+  - "Understand how the mailing address requirement affects different Veteran populations"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated semi-structured interviews"
+  - "Task-based usability testing on desktop and mobile devices"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 8
+    tablet: 1
+    smartphone: 2
+    assistive_technology: 5
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 2
+    "45-54": 3
+    "55-64": 1
+    "65+": 3
+    unknown: 2
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 3
+    associates: 1
+    bachelors: 2
+    masters: 4
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 8
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 3
+    screen_reader_desktop: 2
+    screen_reader_mobile: 0
+    magnification_zoom: 2
+    speech_input: 1
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 1
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans successfully found benefit letters, but used different paths"
+  - "Similar letter names caused confusion"
+  - "Customization is highly valued"
+  - "Impact of address changes is unclear"
+  - "Access barriers result for Veterans without a mailing address"
+  - "Assistive technology missed critical information"
+  - "Veterans expect personalized and comprehensive digital access"
+  - "Address validation builds confidence"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Conduct an accessibility audit to ensure all interactive elements and critical alerts work with screen readers and commercial text-to-speech tools"
+  - "Clarify address update impact by clearly explaining that changing a mailing address on this page updates the address for other VA services"
+  - "Allow access without an address to provide a way for Veterans to download benefit letters even without a current mailing address"
+  - "Revise letter names and descriptions to use clearer naming and descriptive text to distinguish similarly titled documents"
+  - "Expand online letter availability by making all frequently requested letters available online, including DD214 and VA Rating Narrative Letter"
+  - "Clarify letter relevance by organizing or dynamically filtering letters into categories such as Employment and Retirement"
+  - "Reorder letters by usage frequency by moving the most commonly used letters to the top of the list"
+  - "Optimize search and navigation to improve keyword search so Veterans can find benefit letters through more intuitive pathways"
+  - "Provide state-specific benefit guidance by using mailing addresses to display relevant state and local benefit options"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Increase download rates for benefit letters"
+  - "Improve completion rate for View Letters step"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Remove barriers for Veterans trying to access benefit letters and understand Veteran motivations for obtaining benefit letters"
+  business: "Increase successful downloads and improve user satisfaction with benefit letters tool"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Veterans expect to find all relevant benefit letters online in one place, including documents that are often hard to locate"
+  - "Veterans want the experience to feel personalized, showing only the letters that apply to them"
+  - "Veterans desire state-specific benefits tied to mailing address"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Post-implementation testing with commercial text-to-speech tools like Speechify"
+  - "Testing with Veterans experiencing homelessness or unstable housing"
+  - "Research on optimal categorization and filtering of letters"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Hispanic Veterans"
+  - "Asian Veterans"
+  - "Native American Veterans"
+  - "Biracial Veterans"
+  - "Veterans experiencing homelessness"
+  - "Younger Veterans (25-34 age group)"
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Figma for prototype testing"
+  - "Affinity mapping"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Benefit-letters"
+  - "BNFT: Disability"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "Accessibility"
+  - "usability-testing"
+  - "interviews"
+  - "DSC: Accordion"
+  - "DSC: Alert"
+  - "DSP: Ask users for addresses"
 ---
 
 

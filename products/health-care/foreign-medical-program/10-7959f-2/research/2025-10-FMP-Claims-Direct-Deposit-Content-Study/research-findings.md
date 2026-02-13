@@ -7,10 +7,12 @@ date: "2025-12-04"
 researchers:
   - "Health Apps UX Team - Renata K, Jessica S, Hieu V"
 research_goals:
-  - "Understand perceived content comprehension for the topic of direct deposit specifically for FMP claims."
-  - "Gain insight into any improvements that could be made to increase clarity of the direct deposit process understanding for FMP claims for reimbursement."
+  - "Understand perceived content comprehension for the topic of direct deposit specifically for FMP claims"
+  - "Discover if any of the direct deposit content is confusing or misunderstood by the Veteran and could be a potential risk"
+  - "Gain insight into any improvements that could be made to increase clarity of the direct deposit process understanding for FMP claims for reimbursement"
 methodology:
-  - "Moderated User Interview with mid-fidelity prototype"
+  - "Semi-structured moderated interviews"
+  - "Mid-fidelity Figma prototype"
 devices_used:
     desktop: 6
     tablet: 0
@@ -50,27 +52,26 @@ demographics:
     asian: 1
     native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
   - "6 out of the 8 participants felt the introduction page content was clear with easy to understand instructions and they rated the page the highest with an average of 4.75 out of 5 for clarity"
-  - "7 participants mentioned document gathering more prominently than stating they would need to setup direct deposit first when on the introduction page."
-  - "Participants called out the content and language around the Financial Services Center (FSC), other Vendor File Form, or PIV as new terms to them that would need additional clarification or they suggested improvements."
-  - "The static page seemed to be the most confusing for participants, partly due to new terminology and processes they have not encountered at the VA before, and it also received the lowest rating for ease-of-use at an average of 4 out of 5."
-  - "Half of the participants (4/8) expressed or suggested that the direct deposit process for FMP was confusing in relation of their current direct deposit for monthly disability compensation payments."
-  # etc.
+  - "7 of 8 participants mentioned document gathering more prominently than stating they would need to setup direct deposit first when on the introduction page"
+  - "Participants called out the content and language around the Financial Services Center (FSC), other Vendor File Form, or PIV as new terms to them that would need additional clarification or they suggested improvements"
+  - "The static page seemed to be the most confusing for participants, partly due to new terminology and processes they have not encountered at the VA before, and it also received the lowest rating for ease-of-use at an average of 4 out of 5"
+  - "Half of the participants (4 of 8) expressed or suggested that the direct deposit process for FMP was confusing in relation of their current direct deposit for monthly disability compensation payments"
 recommendations:
-  - "Work with C+IA to adjust content to clarify confusion points of new terminology especially on the proposed static instructional resource page."
-  - "Work with C+IA partners to ensure it is clear that this process is separate from direct deposit for VBA payments by additional clarification."
-  - "Long-term: it would be ideal for Veterans to have secure visibility into what account the direct deposit would go to (last 4 of account, institution name) within the same flow as filing the claim."
+  - "Work with C+IA to adjust content to clarify confusion points of new terminology especially on the proposed static instructional resource page"
+  - "Work with C+IA partners to ensure it is clear that this process is separate from direct deposit for VBA payments by additional clarification"
+  - "Long-term: it would be ideal for Veterans to have secure visibility into what account the direct deposit would go to (last 4 of account, institution name) within the same flow as filing the claim"
 kpi_alignment:
   - "Objective: Veterans can easily file for FMP claims online. Removing blockers and confusion around direct deposit initial setup so Veterans feel confident about filing their FMP claim online"
 outcomes:
@@ -88,10 +89,10 @@ underserved_groups_missing:
   - "Assistive Technology Users"
   - "Other than honorable discharge"
   - "Hispanic, Latino, or Spanish origin"
-secondary_research:
-  - "na"
+secondary_research: []
 synthesis_tools_used:
   - "Spreadsheet with thematic tagging"
+  - "Copilot AI workflow"
 ---
 
 ---

@@ -1,95 +1,92 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Medications on VA.gov IPE Study Research Findings"
+product: "Medications"
+team: "My HealtheVet on VA.gov"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-05-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Melissa Stern"
+  - "Dan Van Vleck"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand if screen reader users notice the in-product education (IPE) components"
+  - "Understand how screen reader users interact with the IPE components"
+  - "Understand screen reader users' perception of the IPE components"
+  - "Identify any pain points screen reader users may experience in using the IPE components to help them understand Medications"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 1
+    smartphone: 0
+    assistive_technology: 6
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 6
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 6
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 6
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 6
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 6
+    screen_reader_desktop: 5
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All participants (5 of 5) assumed the IPE was directing them to the sort feature"
+  - "2 of 5 participants expanded the filter on their own, but did not use it successfully"
+  - "About half of the participants (2 of 5) acknowledged the IPE while navigating through Medications for the first time"
+  - "The other 3 of 5 participants navigated past the IPE, but did not say anything"
+  - "Most participants (4 of 5) appreciated the ability to dismiss the hint"
+  - "All participants (5 of 5) expressed that the hint added audible clutter to their screen reader dictation, or that they wouldn't have encountered it in the first place due to their navigation methods"
+  - "About half of the participants (2 of 5) requested a different placement for the IPE once they learned that it was meant for the filter component"
+  - "About half of the participants (2 of 5) commented on the content of the IPE message"
+  - "Almost all participants found both discontinued medications when asked to search for them within the medications list. 4 of 5 found the discontinued Albuterol medication, and 3 of 3 found the discontinued Metformin medication"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Adjust the placement of the IPE so that it comes before the filter"
+  - "Consider the technical feasibility of adding a search component"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Unmoderated testing on updated IPE: Melissa Stern and Anne Costello Kennedy"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
 ---
 
 # Medications on VA.gov IPE Study Research Findings

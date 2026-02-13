@@ -1,95 +1,104 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "My health on VA.gov IA – Research findings"
+product: "My HealtheVet on VA.gov - Information Architecture"
+team: "MHV on VA.gov Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-07-23"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Athena Bozak"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Learn where Veterans expect to find VA tools and information related to their benefits, health care, and service history"
+  - "Observe how Veterans approached common but sometimes ambiguous scenarios like managing dependents or tracking external care requests"
+  - "Identify moments of hesitation, missteps, or confidence in navigating VA.gov's current menu structure"
+  - "Use these insights to improve the way information is grouped and labeled on VA.gov so new Veterans can find what they need more easily"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Unmoderated tree test"
+  - "Optimal Workshop Treejack tool"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 48
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 48
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 48
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 48
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 48
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans explored broad benefit sections when trying to connect with a Solid Start representative"
+  - "To schedule a claim exam, Veterans often chose Claims and Appeals"
+  - "Veterans selected a wide range of paths when trying to check the status of a community care request"
+  - "Veterans looked in Education and Training, but missed the correct path to authorize college access"
+  - "Most Veterans successfully found where to check the status of a housing grant"
+  - "Veterans often looked in benefit applications and family support sections when trying to add a child for compensation"
+  - "Veterans looked in health and claims paths when trying to download their Individual Longitudinal Exposure Record (ILER)"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Clarify labels and pathways for tasks like adding dependents, checking non-VA care requests, and giving permission to share education benefits"
+  - "Reevaluate where tools like ILER or claim exam scheduling live, and/or when there is split or low signal for those correct destinations, consider additional cross-links to those resources"
+  - "Look at areas where users expected to find proof of something (like letters or records) but actually needed to take an action. This gap came up in more than one task"
+  - "Continue leaning into task based entry points especially for high-impact actions tied to compensation, housing, or post-military service support"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Not specified"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Transitioning service members and new Veterans can efficiently navigate VA.gov to find key information and tools during their first year after leaving the military"
+  business: "Improved information architecture that reduces navigation friction and increases task completion rates"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Non-health appointments placement and management"
+  - "Community care denial letter location"
+  - "Military service records access"
+  - "Educational records release process"
+  - "Dependent management for disability payments"
+  - "Home improvement grant status tracking"
+  - "Individual Longitudinal Exposure Record (ILER) findability"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "A second round of research with a larger and more diverse group would help confirm what we saw and uncover anything we might have missed"
+  - "Work with the recruitment team at Perigean to strategize ways to reach more transitioning service members and Veterans who are not yet enrolled in VA health care or using VA.gov"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Not specified"
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Optimal Workshop"
+  - "Excel"
+  - "VA Mural"
 ---
 
 # My health on VA.gov IA – Research findings

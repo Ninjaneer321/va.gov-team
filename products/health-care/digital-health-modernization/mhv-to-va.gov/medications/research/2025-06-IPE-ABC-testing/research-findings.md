@@ -1,95 +1,82 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Medications In Product Education (IPE) A/B/C Study Research Findings"
+product: "Medications"
+team: "My HealtheVet on VA.gov"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-07-10"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Anne Costello Kennedy"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand whether the IPE helps Veterans find their medications"
+  - "Understand whether the IPE encourages Veterans to use the filter component"
+  - "Understand where the IPE is most effective within the Medications on VA.gov IA (Information Architecture)"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote unmoderated ABC testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 227
+    assistive_technology: 0
+participants_total: 227
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 227
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 12
+    "35-44": 0
+    "45-54": 76
+    "55-64": 53
+    "65+": 80
+    unknown: 6
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 30
+    some_college: 38
+    associates: 39
+    bachelors: 60
+    masters: 57
+    doctorate: 0
+    unknown: 3
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 227
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 146
+    black: 36
+    hispanic: 7
+    biracial: 0
+    asian: 11
+    native: 15
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
-recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Time on task was very similar among the three designs"
+  - "On tasks 2 and 3 in which the medication was not on the first page, the open filter design showed 87% direct success compared to 70 - 73% in the IPE above and IPE below designs"
+  - "Participants attempted to use the disabled sort in all tasks at approximately the same rate regardless of design"
+  - "The frequency of feedback that included phrases about how the tasks were easy, that the filter helped, and that participants would not change the designs was markedly heavier with the open filter design"
+  - "The 'easy' and 'very easy' responses to the Likert scale questions assessing difficulty of each task and overall were higher for the design with the IPE above the filter"
+recommendations: []
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 ---
 
 # Medications In Product Education (IPE) A/B/C Study Research Findings

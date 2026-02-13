@@ -1,95 +1,111 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Save in Progress Usability Research Findings"
+product: "VA.gov Forms"
+team: "Accessibility Digital Experience (ADE)"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-09-15"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Cindy Merrill"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Learn about Veterans' expectations for saving information while filling out an online form before submitting it"
+  - "Get user feedback on design revisions for 'save in progress' and 'finish this request later' that reduce redundant messaging around saving"
+  - "Get user feedback on error messages and the progress bar while filling out online forms"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "GitHub Codespace prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 1
+    smartphone: 5
+    assistive_technology: 6
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 2
+    "45-54": 3
+    "55-64": 2
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 1
+    associates: 2
+    bachelors: 2
+    masters: 4
+    doctorate: 2
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 8
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 2
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 6
+    AT_beginner: 0
+    AT_advanced: 6
+    screen_reader_desktop: 2
+    screen_reader_mobile: 2
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Most participants (9 of 11) didn't know that their information was being saved automatically with every edit"
+  - "Most participants didn't see the informational alerts about saving, and the few who did, didn't remember what they said"
+  - "All participants tried the Finish later button and from that learned that their information was saved"
+  - "All participants were able to resume filling out the form after taking a short break and a long break"
+  - "My VA had accessibility issues for screen magnifiers"
+  - "VA forms in general had accessibility issues for screen readers and screen magnifiers"
+  - "The Request Personal Records form had many accessibility issues for screen readers and screen magnifiers"
+  - "Most participants who encountered form errors understood how to resolve them, but there were some exceptions"
+  - "Only half of the participants mentioned the progress bar"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Leave out the flashing 'save in progress' alert, and users will be OK (with the existing alerts about saving on the form intro and first pages)"
+  - "Keep the Finish later button, and make it look like a button (instead of a link)"
+  - "Users assume that data will be saved when they click Finish later and Continue"
+  - "Fix documented accessibility issues in My VA, VA forms in general, and the Request Personal Records form"
+  - "Put progress bar below H1 so that screen reader users can hear it"
+  - "Consider more explicit messaging about auto-save functionality"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improve accessibility of VA.gov forms for assistive technology users"
+  - "Reduce form abandonment by clarifying save functionality"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans filling out forms understand when and how their information is saved and can confidently return to complete forms later"
+  business: "Reduced form abandonment rates and increased accessibility compliance for VA.gov forms"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Veterans need clearer communication about automatic saving of form data"
+  - "Assistive technology users encounter barriers with current progress bar placement and My VA page accessibility"
+  - "Veterans need consistent save functionality across all VA.gov forms"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Test with authenticated users who are actually signed out during break in filling out form"
+  - "Validate revised designs with broader range of assistive technology users"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Hispanic, Biracial, or Native Veterans"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Beginner AT user"
+  - "LGBTQ+ Veterans"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Previous research on minimal header component"
+  - "Previous research on 'Save in progress' alert placement"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Usability testing sessions"
+  - "Screen reader and screen magnifier observation"
+  - "Error resolution tracking"
 ---
 
 

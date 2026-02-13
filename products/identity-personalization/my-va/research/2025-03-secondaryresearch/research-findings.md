@@ -1,95 +1,173 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "My VA Desk Research for the Authenticated Experience Team, 03/2025"
+product: "My VA"
+team: "Authenticated Experience Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-03"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Janelle Finnerty"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate existing research within the My VA GitHub repository to create a unified understanding of identified opportunities within the experience"
+  - "Compile Veterans' positive and negative feedback on My VA from prior studies"
+  - "Understand what tasks Veterans expect to accomplish on My VA"
+  - "Determine if Veterans can successfully navigate to My VA"
+  - "Identify open questions still needing answers about My VA"
+  - "Create guidelines from prior research that provide sustainable, expandable information structure"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Desk research"
+  - "Secondary research review"
+  - "Analysis of existing research in My VA repository and VA Research Repository"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Upon sign in, Veterans expect to see actionable tasks and notifications, that are relevant to them, in a centralized location. Failure to surface consistent, personalized information and actions on VA.gov can lead to Veteran frustration."
+  - "Veterans expect an experience that is tailored to their needs, while also being informative, and customizable."
+  - "Throughout several studies the use of 'notifications', 'alerts', and 'action items' are used interchangeably. This creates challenges when inferring meaning from the findings, but there is clear direction on how Veterans interpret the terms. 'Notifications' and 'alerts' are used interchangeably to mean information the Veteran should know, while 'action items' are tasks the Veteran has to do."
+  - "There are several instances of feedback on the current experience that the team can learn from to inform the new experience. There were also several instances of positive feedback of earlier designs that show a simpler, more action oriented experience better met Veteran needs than the experience that is on VA.gov currently."
+  - "The top topics Veterans expected to see on My VA were disability compensation benefits (including claims and decision reviews) and healthcare tasks (including prescriptions, upcoming appointments, messages from healthcare providers, and lab results). Close seconds were document management, education benefits, and payments."
+  - "Veterans do not expect to see all their information on My VA - they want to see any time-sensitive information or action items and all other details can live on a separate page."
+  - "Simple tasks that require only one click, such as refilling prescriptions, Veterans expect to be inline on My VA, rather than being directed to a separate page."
+  - "Veterans liked having empty sections on My VA to inform them of available benefits, or as reassurance of the current state, such as no debts. This can also be helpful for new VA.gov users, such as those transitioning from active military."
+  - "There is a frequent request for the ability to reorder, or collapse, sections of My VA that Veterans do not find relevant to them."
+  - "Depending on the study, Veterans expected the most time-sensitive 'action items' at the top of My VA, or in a central alerts page."
+  - "Veterans have expectations on 'action items' prioritization and content. Actions that are time-sensitive or are unexpected problems should be prioritized first. The best actions are succinct (brief and action-oriented), personal (applies to me and my life), reassuring (the things I set up to happen on a recurring schedule are happening), timely (shows up when I need the information), and consistent across all channels."
+  - "Veterans also expected updates from other sources such as a phone call, email, or physical mail, because that's what they're used to, or because it's the easiest way to reach them."
+  - "These expectations meet industry standards. Most competitors place 'action items' in permanent feature modules on their signed homepage. While 'notifications' or 'alerts' are included in a notification center/inbox as a feature in the primary or secondary navigation."
+  - "Additionally, Veterans feel 'in the dark' during their benefits journey, and frequently lack awareness of benefits available to them. They're looking for guidance from VA.gov, accredited representatives, and other VA service providers to navigate the VA ecosystem. This lack of awareness, or knowing who to turn to, can delay a Veteran's ability to obtain benefits."
+  - "There's a lack of understanding about the term My VA, but Veterans find My VA valuable once they understand what it is. The name My VA is not enough to clue new users into what it is, or distinguish it from the user profile."
+  - "Veterans find My VA helpful in navigating VA.gov."
+  - "Alerts at the top of My VA were effective at drawing participants' attention, but participants expected a headline to provide additional context."
+  - "Participants expected alerts to be present until they completed the action, at which point they'd auto dismiss. Participants expected to be able to see old or expired alerts on a dedicated 'Alerts' or 'Notifications' page."
+  - "Participants wanted the ability to customize what alerts they receive on My VA. Including ability to filter by category or date."
+  - "The badge indicator (a square with a number inside) was the preferred method of communicating updates on My VA, as opposed to dot indicators. This element also is easier to use for colorblind participants. Participants were drawn to the cards first, and indicators second."
+  - "The mobile team has an IA that could be leveraged for My VA 2.0."
+  - "Participants were frustrated that the 'Claims and appeals' section was separate from the 'Benefits applications and forms' section, and were confused on the difference between the two."
+  - "Participants did not have a set location they'd expect to find Travel Pay. It was either under benefits or healthcare."
+  - "Participants expected to find their payments and debts all in one place, rather than separate sections."
+  - "Participants who have education benefits, would like to see dynamic content on My VA about their remaining benefits."
+  - "Users want more information shown about their healthcare, not less, including: Type of healthcare they're enrolled in (vision, dental, etc.), and if it's a VA or private provider; The facility and doctor's name messages are from; Appointment details including location, medical practice, and doctor's name; Preferred facility/hospital, primary care physician, and primary care location."
+  - "The most important piece of information about participants' finances was the most recent amount paid or owed, payment/debt status, and number of outstanding payments/debts. Important secondary information that could live on a details page included: The reason for a payment/debt; The date a payment was deposited into their account, or the due date for a debt; How to pay a debt; Someone to contact if they had questions about their finances."
+  - "Participants prefer to see their debts separate from medical copays."
+  - "Veterans have shown confusion at the use of different terminology across their healthcare and benefits on VA.gov, such as statuses. Errors are particularly an issue, with Veterans believing they did something to cause downstream problems."
+  - "The current logged-in experience doesn't address the needs of different user types, or the needs of users at different points in their journey with VA. Such as those transitioning into civilian life."
+  - "Veterans easily understood what My VA was for and were able to complete all tasks and sections. Feedback was overall positive, and users commented that My VA met or exceeded their expectations."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Refocus My VA by removing generic links and focusing on content that is dynamic and personalized to the user, including: Actionable, time-sensitive tasks (such as due dates, missing information, or status changes); Benefits and account statuses (such as payment history or claim status); Two exceptions to the rule: (1) provide information on how to get help via phone, in-person locations, or accredited representation (2) a link to Getting started with VA to promote understanding of available benefits"
+  - "Links that direct to hubs (such as profile or MHV) should be placed in a sub navigation."
+  - "'Action items' should appear at the top of My VA, and should only reflect actions users have to complete. 'Notifications' should be directed to another page, and reflect informational updates."
+  - "'Action items' should be prioritized with the most time-sensitive action at the top, while 'Notifications' should appear in order received."
+  - "Both should be succinct, personalized, reassuring, timely, and consistent. The My VA team needs to find a good balance between too much and too little information."
+  - "For healthcare we know Veterans want more information such as facility location, doctors names, and medical practices."
+  - "Users should be given the option to opt into notifications to text or email for 'action items' and 'notifications' coming from My VA."
+  - "Indicators should include numbers, not just a dot, to improve accessibility."
+  - "Prioritize healthcare tasks, disability compensation benefits, and in progress benefits applications. With document management, education benefits, and finances as secondary information."
+  - "Sections should include an empty state for Veterans who do not have benefits."
+  - "As well as a no action required state for when there are no actions required from the Veteran."
+  - "For complex tasks, provide high level views to information on My VA, with links to hubs to complete tasks."
+  - "For simple tasks requiring one click, reveal tasks inline with My VA."
+  - "Provide users a way to reorder, or collapse, sections on My VA to allow users to tailor the experience to their needs."
+  - "Rename and test alternative options to My VA, such as My Dashboard or My Homepage."
+  - "Statuses should be standardized while on My VA. With careful consideration for error states that are of no fault of the Veteran."
+  - "Create different user types to determine what to show when on My VA."
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits."
+  - "Objective 2: OCTO's platforms are the fastest, most efficient, and most secure way to deliver products at VA."
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can easily understand and access personalized, relevant information on My VA; Veterans can quickly accomplish time-sensitive tasks; Veterans feel in control and informed about their benefits"
+  business: "VA.gov becomes the easiest and most efficient way to access VA health care and benefits; Improved Veteran satisfaction and engagement with authenticated experience; Efficient aggregation and elevation of personalized tasks and information"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Clarifying terminology (notifications vs. alerts vs. action items)"
+  - "Improving navigation to My VA"
+  - "Customizable and reorderable sections"
+  - "Standardized status terminology"
+  - "Support for different user types and life stages"
+  - "Addressing needs of transitioning service members"
+  - "Creating empty states and no-action-required states"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "User testing on alternative naming options (My Dashboard, My Homepage)"
+  - "Research on specific user type needs and life-stage journey mapping"
+  - "Testing of proposed My VA redesigns with diverse user populations"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Users transitioning from active military/civilian transition"
+  - "Users at different points in their Veteran journey"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "10/2020 Background (Find VA Benefits Research Summary)"
+  - "12/2020 MyVA Redesign Research Findings"
+  - "03/2021 My VA Redesign 2 Research Findings"
+  - "05/2021 My VA Usability Internal Research Study Findings"
+  - "05/2021 My VA action items: Comparative analysis"
+  - "09/2021 Action Items Research Findings (On-site Notifications)"
+  - "11/2021 Education benefits discovery synthesis (for My VA)"
+  - "11/2021 VA Mobile Comparative Analysis: Personalized App Homescreen"
+  - "11/2021 VA Mobile Research Review: Personalized App Homescreen"
+  - "12/2021 Personalization and Profile Competitive Analysis"
+  - "01/2022 My VA Payment Info and Onsite Notifications Research Findings"
+  - "05/2022 Review of Related User Research: VA Mobile App Personalization"
+  - "08/2022 My VA Redirect UAT Research Findings"
+  - "08/2022 My VA Benefit Payments and Debts 2022 Topline Summary"
+  - "12/2022 Payment Info v2 UAT Findings Summary"
+  - "03/2023 My VA 2023 Audit Usability Testing - Research Findings"
+  - "03/2023 Scaling Onsite Notifications: Action Items Discovery Takeaways"
+  - "04/2023 Logged-in IA and Nav Comprehensive Research Summary"
+  - "05/2023 Accessibility Findings (Logged-in Wayfinding Study Research Findings)"
+  - "06/2023 Opportunities to enhance the personalized experience on VA.gov"
+  - "07/2023 VA Mobile Comparative Analysis: Personalized & contextual Home screen content"
+  - "08/2023 VA Mobile App - Personalization - UX Discovery"
+  - "02/2024 Comparative analysis: Logged-in account models"
+  - "02/2024 Findings Summary for Federal Header Authenticated Menu"
+  - "03/2024 Onboarding comparative analysis"
+  - "04/2024 Research Findings for 2024-03 Dot Indicator and Slim Alert Usability Study"
+  - "05/2024 Research Findings for 2024-05 VFF and My VA Form Submission Research Study"
+  - "07/2024 VA Mobile App - Personalized Home Screen Evaluative Research - Findings"
+  - "02/2025 Desk Research Report (Help users to manage benefits and tools)"
+synthesis_tools_used: []
 ---
 
 # **My VA Desk Research for the Authenticated Experience Team, 03/2025**
