@@ -444,77 +444,77 @@ _If you had specific criteria that you recruited for, use this space to explain 
 
 #### Demographics 
 
-We talked to **x participants.**
+We talked to **8**. One participant cancelled midway through the session, and one did not show. 
 
 Audience segment:
-* Veterans: x 
-* Caregivers: x 
-* Family members of a Veteran: x  
+* Veterans: 8
+* Caregivers: 0
+* Family members of a Veteran: 0 
 
 
 Gender:
-* Male: x 
-* Female: x 
+* Male: 6
+* Female: 2
 
 
 LGBTQ+:
-* Transgender: x 
-* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: x
-* Gay, lesbian, or bisexual: x
+* Transgender: 0
+* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: 0
+* Gay, lesbian, or bisexual: Unknown
 
 
 Devices used during study: 
-* Desktop: x 
-* Tablet: x 
-* Smart phone: x 
-* Assistive Technology: x
+* Desktop: 2
+* Tablet: 1 (the partial session was on a tablet) 
+* Smart phone: 6 
+* Assistive Technology: 0
 
 
 Age:
-* 25-34: x
-* 35-44: x
-* 45-54: x
-* 55-64: x
-* 65+: x
+* 25-34: 0
+* 35-44: 1
+* 45-54: 5
+* 55-64: 0
+* 65+: 2
 * Unknown: x
 
 
 Education:
-* High school degree or equivalent: x
-* Some college (no degree): x
-* Associate's degree, trade certificate or vocational training: x
-* Bachelor's degree: x
-* Master's degree: x
-* Doctorate degree: x
-* Unknown: x
+* High school degree or equivalent: 3
+* Some college (no degree): 0
+* Associate's degree, trade certificate or vocational training: 3
+* Bachelor's degree: 1
+* Master's degree: 1
+* Doctorate degree: 0
+* Unknown: 0
 
 
 Geographic location:
-* Urban: x
-* Rural: x
-* Unknown: x
+* Urban: 3
+* Rural: 4
+* Unknown: 1
 
 
 Race:
-* White: x
-* Black: x
-* Hispanic: x
-* Biracial: x
-* Asian: x
-* Native: x
+* White: 3
+* Black: 1
+* Hispanic: 1
+* Biracial: 3
+* Asian: 0
+* Native: 0
 
 
 Disability and Assistive Technology (AT):
-* Cognitive: x
-* AT beginner: x
-* AT advanced user: x
-* Desktop screen reader: x
-* Mobile screen reader: x
-* Magnification/Zoom: x
-* [Speech Input Technology](https://www.w3.org/WAI/perspective-videos/voice/) like Siri/Dragon Naturally Speaking: x
-* Hearing aids: x
-* Sighted keyboard: x
-* Captions: x
+* Cognitive: 3
+* AT beginner: None
+* AT advanced user: None
+* Desktop screen reader: None
+* Mobile screen reader: None
+* Magnification/Zoom: None
+* [Speech Input Technology](https://www.w3.org/WAI/perspective-videos/voice/) like Siri/Dragon Naturally Speaking: None
+* Hearing aids: 1
+* Sighted keyboard: None
+* Captions: None
 
 
 #### Underserved groups we haven’t talked to 
@@ -531,16 +531,54 @@ _Complete the [VA recruitment checker for marginalized Veteran groups](https://g
 >    - (If Copilot returns an error, try using a different AI model, such as "Claude Sonnet 3.7 Thinking")
 
 This research does not include the perspectives of the following marginalized Veteran groups:
-_List all groups in red from the spreadsheet_
-* Group 1
-* Group 2
-* Group 3
+
+* Age 55-64+
+* Rural
+* No degree
+* Assistive tech
+* Identify as Latinx, Asian, Native, or LGBTQ+
 
 ➡️ _[insert screenshot of completed recruitment checker in the format below]_
 
 ![Table of underserved groups of Veterans showing how many of each were in this study as compared to target numbers. Data available in the table below this image](link - add image to github folder and link here with .png)
 
-#### A more accessible version of the table in the above image
+#### A more accessible version of the table in the above image   
+
+| Demographic Category | Type | Target % | Recruited | Participated | Met Goal |
+|---|---|---|---|---|---|
+| All participants | Total | n/a | 9 | 8 | n/a |
+| Assistive Tech (AT) users | Total | n/a | n/a | 0 | n/a |
+| No-show participants | Total | n/a | n/a | 2 | n/a |
+| Age 55-64+ | General | 50% | 4 | 2 | no |
+| Cognitive Disability | General | 50% | 4 | 3 | no |
+| Mobile user | General | 50% | 4 | 6 | yes |
+| Rural | General | 25% | 2 | 4 | yes |
+| No degree | General | 25% | 0 | 0 | no |
+| Other than honorable | General | 21% | 0 | 0 | no |
+| Immigrant origin | General | 17% | 0 | 0 | no |
+| Women | General | 10% | 1 | 2 | yes |
+| Expat (living abroad) | General | 0.40% | 0 | 0 | no |
+| Black or African American | Race | 15% | 1 | 1 | yes |
+| Hispanic, Latino, or Spanish origin | Race | 12% | 1 | 1 | yes |
+| Biracial | Race | 3.90% | 1 | 3 | yes |
+| Asian | Race | 2.70% | 1 | 0 | no |
+| Native Hawaiian or other Pacific Islander | Race | 0.30% | 1 | 0 | no |
+| First Nations (Canada) | Race | n/a | 1 | 0 | no |
+| Native, American Indian or Alaska Native | Race | 1.60% | 1 | 0 | no |
+| Gay, lesbian, or bisexual | LGBTQ+ | n/a | 1 | 0 | no |
+| Transgender | LGBTQ+ | n/a | 1 | 0 | no |
+| Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman | LGBTQ+ | n/a | 1 | 0 | no |
+| Beginner AT User | AT | 50% | 0 | 0 | no |
+| Experienced AT User | AT | 50% | 0 | 0 | no |
+| Desktop Screen Reader (SR) | AT | 20% | 0 | 0 | no |
+| Mobile Screen Reader (SR) | AT | 20% | 0 | 0 | no |
+| Magnification/Zoom | AT | 20% | 0 | 0 | no |
+| Speech Input Tech (Siri, Dragon) | AT | 20% | 0 | 0 | no |
+| Hearing Aids | AT | 20% | 0 | 0 | no |
+| Sighted Keyboard | AT | 10% | 0 | 0 | no |
+| Captions | AT | n/a | 1 | 0 | no |
+| Switch Device | AT | n/a | 1 | 0 | no |
+| Braille Reader | AT | n/a | 1 | 0 | no |
 
 ### Recruitment of underserved groups in [Study name]
 
