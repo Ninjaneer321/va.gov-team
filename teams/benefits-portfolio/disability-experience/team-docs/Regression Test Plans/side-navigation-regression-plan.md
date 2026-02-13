@@ -12,7 +12,7 @@ Existing test rail cases were tested
 - C107916 -	526 Submission Experience - BDD (Benefits Delivery at Discharge) - minimal -->
 
 ## Test Rail
-The following test rail test cases have been created to document how to test side nave functionality:
+The following test rail test cases have been created to document how to test side nav functionality and its interaction with existing form functionality:
 
 - [Testing side nav with New Conditions flow](https://dsvavsp.testrail.io/index.php?/cases/view/158933)
 - [Testing side nav with CFI flow](https://dsvavsp.testrail.io/index.php?/cases/view/158934)
