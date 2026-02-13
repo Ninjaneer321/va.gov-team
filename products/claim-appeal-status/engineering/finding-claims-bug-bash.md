@@ -22,9 +22,14 @@ Log in and navigate to the claims landing page with the flag enabled. Verify all
 - [x] Claims with open evidence requests appear first
   - _Should cards with "We need you to resubmit files for this claim." also be bumped to the top of their section?_
 - [x] Other in-progress claims appear next
-- [x] Closed claims appear last (STEM claims are always closed) - Appeals do not have an in progress label
-- [x] Within each group, items are sorted by most recently updated - Impossible to determine from a claim card when a claim was updated!
-- RANDOM: Why did appeals list items and stem list items get "We need you to resubmit files for this claim." alerts
+- [x] Closed claims appear last (STEM claims are always closed)
+  - _Appeals do not have an in progress label_ 
+- [x] Within each group, items are sorted by most recently updated
+  - Impossible to determine from a claim card when a claim was last updated - looked into this and we can determine based on "Last updated" for appeals OR "Moved to this step" for claims
+  - What does most recently updated mean?
+    - Appeals: last event listed date
+    - Claims: phaseChangeDate
+- RANDOM: Why did appeals list items and STEM list items get "We need you to resubmit files for this claim." alerts - Dina says this is upcoming work for HLR and supplemental claims
 
 ### Pagination text
 
@@ -67,13 +72,15 @@ Log in and navigate to the claims landing page with the flag enabled. Verify all
 
 - [x] With "All" selected, navigate to page 2
 - [x] Click "Active" — resets to page 1 of active records
-- [x] Click "All" — resets to page 1 (not back to page 2) - could be nice if it stayed at page 2
+- [x] Click "All" — resets to page 1 (not back to page 2)
+  - Could be nice if it stayed at page 2
 
 ### Updated "What if" section content
 
 - [x] Scroll to "What if I can't find my claim, decision review, or appeal?"
 - [x] "We might still be processing it" subsection is present
-- [x] "We combined your claims" subsection is present "We might have combined your claims"
+- [x] "We combined your claims" subsection is present
+  - _"We might have combined your claims"_
 
 ---
 
