@@ -6,8 +6,8 @@ List the feature toggles here.
 
 | Toggle name | Description |
 | ----- | ----- |
-| **Mobile:** `veteranStatusCardUpdate`| When enabled, Veterans will see their Veteran Status Card or ineligibility messages as to why they don’t have a Veteran Status Card on VA: Health and Benefits app. This work also enables the shared service populating the Veteran Status Card and the messages for both web and mobile. |
-| **Web:** “Insert name of Web” Feature Flag | When enabled, Veterans will see their Veteran Status Card or ineligibility messages as to why they don’t have a Veteran Status Card on VA.gov. This work also enables the shared service populating the Veteran Status Card and the messages for both web and mobile. |
+| **Mobile:** `veteranStatusCardUpdate`| When enabled, Veterans will see their Veteran Status Card or ineligibility messages as to why they don’t have a Veteran Status Card on VA: Health and Benefits app. This work also enables the shared service to populate the Veteran Status Card and the messages for both web and mobile. |
+| **Web:** “Insert name of Web” Feature Flag | When enabled, Veterans will see their Veteran Status Card or ineligibility messages as to why they don’t have a Veteran Status Card on VA.gov. This work also enables the shared service to populate the Veteran Status Card and the messages for both web and mobile. |
 
 
 ## Production rollout
@@ -16,8 +16,8 @@ List the feature toggles here.
 
 ## **Define the Rollback process** 
 
-* Developers and Product Managers will monitor analytics and logging at each rollout phase. The MFS team will coordinate with the VA Mobile App Tech Lead, Jon Bindbeutel, to move to the next release phase on VAHB app, as the Mobile App team is the only authorized team to make those adjustments. The CVE team will be responsible for the phase release on VA.gov. 
-* If there is a significant increase in API errors or unexpected behavior, the team will disable the feature flag for all users. 
+* Developers and Product Managers will monitor analytics and logging at each rollout phase. The MFS team will coordinate with the VA Mobile App Tech Lead, Jon Bindbeutel, to move to the next release phases on the VAHB app, as the Mobile App team is the only authorized team to make those adjustments. The CVE team will be responsible for the phase release of this feature on VA.gov. 
+* If there is a significant increase in API errors or unexpected behavior, the CVE team will disable the feature flag for all VA.gov users and Jon Bindbeutal will disable the feature flag on the VAHB app users.  
 
 #### **Rollout Planning**
 
