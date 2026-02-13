@@ -156,9 +156,13 @@ Handoff Date: February 2026
 
 #### Efolder API replacement 
 
-- The efolder API is currently used to upload the completed PDF form to VBMS
+- The efolder API is currently used to upload the completed PDF form to VBMS, using the [connect_vbms RubyGem](https://github.com/18F/connect_vbms) which has been deprecated since 2017.
 
 - The efolder API is being deprecated and this process needs to move over to the [Claims Evidence API](https://claimevidence-api-dev.dev.bip.va.gov/api/v1/rest/swagger-ui.html).
+
+- It is strongly recommended that, once developers have familiarized themselves with the codebase, they undertake this migration.  The new API is thoroughly documented, follows REST design patterns, offers expanded functionality.
+
+- It is possible that, after moving from VBMS eFolder API to the Claims Evidence API, the backend code could be cleaned up significantly by removing the need for a [fallback mechanism](https://github.com/department-of-veterans-affairs/vets-api/blob/2b8a20e589c5e7d730744d470c067293ad3dec81/app/models/saved_claim/veteran_readiness_employment_claim.rb#L193) to upload the claim to the BenefitsIntake Lighthouse API 
   
 
 #### Confirmation Page
