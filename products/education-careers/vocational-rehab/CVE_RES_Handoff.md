@@ -68,7 +68,7 @@ Handoff Date: February 2026
 
   - Removed DRAFT cards on My VA and introduction page after submission (the cause for user-driven duplicate submission spike) - submitted forms were stuck in a status that incorrectly told users their forms were still in draft when in reality they were submitted.
     
-  - If a user didn’t have a middle name, prefill would break and the user wouldn’t be able to access the form - would see a “blank” page when clicking apply on the introduction page. We resolved the issue by changing where the prefill data was coming from. However, we identified some follow up investigation that should be done to look at profile data for some instances and SIP data in others: https://github.com/department-of-veterans-affairs/va-iir/issues/2369
+  - If a user didn’t have a middle name, prefill would break and the user wouldn’t be able to access the form - would see a “blank” page when clicking apply on the introduction page. We resolved the issue by changing where the prefill data was coming from. However, we identified some follow up investigation that should be done to look at profile data for some instances and SIP data in others. Link to ticket, do not have a plan to pick up: https://github.com/department-of-veterans-affairs/va-iir/issues/2369
 
 - Blank PDFs being saved in VBMS
   
