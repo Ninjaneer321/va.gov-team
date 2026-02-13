@@ -220,10 +220,10 @@ Are there moments that matter?</summary>
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
-- `Veterans:` **14**
+- `Veterans:` **15**
 - `Caregivers:` **0**
 - `Dependents:` **0**
-- `Total:` **14**
+- `Total:` **15**
 - `Ideal completed sessions:` **10**
 
 ### Primary criteria (must-haves)
@@ -270,7 +270,7 @@ Across all 14 participants:
 - `Date and time of pilot session:` **TBD** 
 
 ### Research sessions
-- `Planned dates of research:` **02/19-02/27**
+- `Planned dates of research:` **02/20-02/27**
 
 ### Length of sessions
 - `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **1 hour**
