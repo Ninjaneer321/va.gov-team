@@ -6,8 +6,8 @@ List the feature toggles here.
 
 | Toggle name | Description |
 | ----- | ----- |
-| “Insert name of Mobile” Feature Flag | When enabled, Veterans will see their Veteran Status Card or ineligibility messages as to why they don’t have a Veteran Status Card on VA: Health and Benefits app. This work also enables the shared service populating the Veteran Status Card and the messages for both web and mobile. |
-| “Insert name of Web” Feature Flag | When enabled, Veterans will see their Veteran Status Card or ineligibility messages as to why they don’t have a Veteran Status Card on VA.gov. This work also enables the shared service populating the Veteran Status Card and the messages for both web and mobile. |
+| **Mobile:** `veteranStatusCardUpdate`| When enabled, Veterans will see their Veteran Status Card or ineligibility messages as to why they don’t have a Veteran Status Card on VA: Health and Benefits app. This work also enables the shared service populating the Veteran Status Card and the messages for both web and mobile. |
+| **Web:** “Insert name of Web” Feature Flag | When enabled, Veterans will see their Veteran Status Card or ineligibility messages as to why they don’t have a Veteran Status Card on VA.gov. This work also enables the shared service populating the Veteran Status Card and the messages for both web and mobile. |
 
 
 ## Production rollout
