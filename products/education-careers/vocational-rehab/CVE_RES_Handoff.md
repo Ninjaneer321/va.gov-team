@@ -26,16 +26,14 @@ Handoff Date: February 2026
   - Must be LOA 3 to access and fill out the form
 
 - BE code:
+  While the front-end developers were updating the form to newest standards and for parity with the paper form, the back end developers set about migrating the code housed within the `vets-api` monolith into a [New VRE Module](https://github.com/department-of-veterans-affairs/vets-api/tree/master/modules/vre).  This is a suggested best practice for benefits teams.  While most of the migration is complete, there are still a few things to be addressed:
 
-  - [New VRE Module](https://github.com/department-of-veterans-affairs/vets-api/tree/master/modules/vre)
+    - The [current controller](https://github.com/department-of-veterans-affairs/vets-api/blob/master/app/controllers/v0/veteran_readiness_employment_claims_controller.rb) lives within the monolith and should be replaced by [module controller](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/vre/app/controllers/vre/v0/claims_controller.rb).  These controllers are roughly identical, but should be double-checked.  The front-end client is currently pointed at the monolith API endpoint, so a change will need to be made in `vets-website` as well
 
-  - Still being migrated/cleaned up:
+    - The [RES service library](https://github.com/department-of-veterans-affairs/vets-api/tree/master/lib/res) should be replaced by [module services](https://github.com/department-of-veterans-affairs/vets-api/tree/master/modules/vre/app/services/vre).  It is being called [here](https://github.com/department-of-veterans-affairs/vets-api/blob/2b8a20e589c5e7d730744d470c067293ad3dec81/app/models/saved_claim/veteran_readiness_employment_claim.rb#L228).  Again, these service objects are roughly identical but should be double-checked
+ 
+    - The [Claim Model](https://github.com/department-of-veterans-affairs/vets-api/blob/master/app/models/saved_claim/veteran_readiness_employment_claim.rb) needs to be replaced with the [VREVeteranReadinessEmploymentClaim](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/vre/app/models/vre/vre_veteran_readiness_employment_claim.rb).  This could be somewhat tricky.  See [This spike](https://github.com/department-of-veterans-affairs/va-iir/issues/2011) and the [linked ticket](https://github.com/department-of-veterans-affairs/va-iir/issues/2391)
 
-    - [old controller](https://github.com/department-of-veterans-affairs/vets-api/blob/master/app/controllers/v0/veteran_readiness_employment_claims_controller.rb) will be replaced by [module controller](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/vre/app/controllers/vre/v0/claims_controller.rb)
-
-    - [old RES service library](https://github.com/department-of-veterans-affairs/vets-api/tree/master/lib/res) will be replaced by [module services](https://github.com/department-of-veterans-affairs/vets-api/tree/master/modules/vre/app/services/vre)
-
-    - [old monitor library](https://github.com/department-of-veterans-affairs/vets-api/tree/master/lib/vre) will be removed (already replaced by [module monitor](https://github.com/department-of-veterans-affairs/vets-api/blob/master/modules/vre/lib/vre/vre_monitor.rb))
 
 - [FE Code in vets-website](https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/applications/vre)
 
