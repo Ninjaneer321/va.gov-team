@@ -88,7 +88,7 @@ Handoff Date: February 2026
 
   - This makes the boundaries of the VRE application clearer
     
-  - Estimating 1-2 more sprints of work to finish - **Does RES want CVE to finish this or hand off to them to finish?**
+  - Because of the recent Ch. 31 issues, we have stopped development on this initiative to mitigate any risks. RES can prioritize as they see fit.
 
 - Updating logging & monitoring in Datadog to better identify issues and collect analytics
 
