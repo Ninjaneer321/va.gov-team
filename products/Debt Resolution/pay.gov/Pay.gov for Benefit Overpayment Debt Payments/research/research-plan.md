@@ -186,7 +186,7 @@ The new experience spans VA.gov auth pages with Pay.gov Hosted Collection Pages 
 
 **As described above, this iterates and improves upon the existing payment journey, to now include the ability to seamlessly process a payment for an overpayment debt directly from the va.gov experience without needing to navigate to a different site.**
 
-**[Link to product brief]([(https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/product%20outline.md)]).**
+**[Link to product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/product%20outline.md).**
 
 ### Related Research 🔍
 
