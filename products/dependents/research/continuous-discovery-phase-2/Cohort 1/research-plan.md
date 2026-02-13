@@ -250,13 +250,15 @@ Across all 14 participants:
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
 
-- `02/20, Friday, 8:30 AM-2:00 PM EST`
 - `02/23, Monday, 8:30 AM-3:30 PM EST`
 - `02/24, Tuesday, 11:00 AM-4:00 PM EST`
 - `02/25, Wednesday, 8:30 AM-2:30 PM EST`
 - `02/26, Thursday, 8:30 AM-11:00 AM EST`
 - `02/26, Thursday, 2:00 PM-4:30 PM EST`
 - `02/27, Friday, 8:30 AM-1:30 PM EST`
+- `03/02, Monday, 8:30 AM-12:00 PM EST`
+- `03/02, Monday, 1:00 PM-3:30 PM EST`
+- `03/03, Tuesday, 8:30 AM-3:30 PM EST`
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
