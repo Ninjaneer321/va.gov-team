@@ -5,7 +5,7 @@ date_created: "2025-05-01"
 last_modified: "2026-02-13"
 
 # NEW: Core research metadata
-team: "ADE"
+team: "Accessibility Digital Experience (ADE)"
 portfolio: "digital-experience"
 product: "VA.gov Forms - Save in Progress"
 research_phase: "usability"

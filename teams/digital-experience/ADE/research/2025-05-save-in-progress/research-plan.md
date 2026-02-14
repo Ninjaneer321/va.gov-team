@@ -2,8 +2,8 @@
 # Research Plan Metadata
 title: "Research Plan for ADE - Save in Progress, May 2025"
 date: 2025-04-22
-last_updated: 2025-04-30
-team: "Authenticated Digital Experience (ADE)"
+last_updated: 2026-02-13
+team: "Accessibility Digital Experience (ADE)"
 product: "Save in Progress - VA.gov Forms"
 product_area: "authenticated"
 
@@ -12,7 +12,7 @@ background:
   problem_statement: "Current save-in-progress implementation on VA.gov has two accessibility issues: (1) Save in progress alert flashes on and off with every field entry but isn't announced to screen readers, and (2) 'Finish this request later' button looks like a link instead of a button. Testing revised design to resolve these issues."
   product_location: "VA.gov online forms - uses VA Design System Header - Minimal component"
   user_familiarity: "Iteration on existing product - accessibility improvements to save in progress functionality"
-  product_brief_url: "https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/digital-experience/ADE"
+  product_brief_url: "N/A"
 
 # Research Design
 methodology: "usability-testing"
@@ -79,13 +79,20 @@ recruitment:
     
   screener_questions:
     - question: "Do you use a screen reader or screen magnifier every time you use the Internet?"
+      qualifying_response: "yes"
+    - question: "Are you willing to join the Zoom session using your screen reader or screen magnifier?"
+      qualifying_response: "yes"
+    - question: "How long have you been using this screen reader or screen magnifier?"
+      qualifying_response: "At least 1 year"
+    - question: "What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session?"
       qualifying_response: "4 screen reader users (JAWS, NVDA, VoiceOver, TalkBack, Narrator), 2 screen magnifier users (Magnifier, Zoom, ZoomText, or 200%+ browser zoom)"
-    - question: "What kind of device will you be using for the Zoom session?"
+    - question: "For this meeting, you'll need a device with Zoom installed that can screen share and has a working microphone. What kind of device will you be using for the Zoom session?"
       qualifying_response: "5 smartphone, 5 computer, max 2 tablet"
     - question: "Do you find it difficult to remember or learn new things, focus on a task, or make decisions?"
       qualifying_response: "At least 4 answer yes"
     - question: "Have you filled out a VA form online before?"
       qualifying_response: "4 yes, 4 no"
+
       
 participants:
   veterans: 12
@@ -120,8 +127,7 @@ veteran_journey_phases:
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "Previous research on minimal header component"
-    - "Research on save in progress alert locations"
+    - "N/A"
     
 tags:
   - "AUD: Veterans"
