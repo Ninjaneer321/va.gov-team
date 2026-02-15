@@ -99,11 +99,102 @@ Start recording.
 
 First, I'd like you share your screen.
 
-Now I'm going to send you a link to get started with the test version of the app.
+References:
 - Link for iOS 🚧
 - Link for TestFlight 🚧
 - [iOS directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md) for guiding them through the download and set-up
 - [Android directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_android.md) for guiding them through the download and set-up
+
+### iOS set-up 🍎
+
+<details>
+<summary>iOS guidelines</summary>
+
+Would you like to turn off your notifications while we're going through everything? I can walk you through this if you'd like.
+
+_[pull down from upper right, select Focus]_
+
+I'm going to send you a link through the Zoom chat. Please go ahead and open that.
+
+_[send install link]_
+
+We'll need to use a few apps for this set-up process. First we're going to install TestFlight. This is the app we'll go through to get the pre-release version of the VA app. Tap "view in app store" and then download the app.
+
+Now open it up, and I'll have you accept the terms and conditions.
+
+_[stop once they reach "ready to test" screen]_
+
+Now please return to your browser back to the screen we were at before. Install the VA app. This is going to install over the original VA app, and I'll make sure you reinstall it once we're done.
+
+Now I'll have you log in with your username and password. I'm going to pause the recording while you're doing that.
+
+_[pause recording]_
+
+_[after they reach authenticated home screen]_
+
+Great! I'm going to resume the recording now, and we'll get started with testing.
+
+_[resume recording]_
+
+</details>
+
+### Android set-up 🤖
+
+<details>
+<summary>Android guidelines</summary>
+
+Would you like to turn off your notifications while we're going through everything? I can walk you through this if you'd like.
+
+_[pull down from top, select Do Not Disturb]_
+
+I'm going to send you a link through the Zoom chat. Please go ahead and open that.
+
+_[send install link]_
+
+We'll need to use a few apps for this set-up process. First we're going to install Firebase. This is the app we'll go through to get the pre-release version of the VA app. 
+
+Enter your email address. You'll be opening an email on this phone momentarily which will get you to the app download.
+
+_[make note of email address to be removed from Firebase after the test]_
+
+Now switch to your email app and open an email from VA Health and Benefits.
+
+Tap "get started."
+
+_[confirm that email they selected is what is showing in the corner; if not have them switch accounts]_
+
+Download the app tester.
+
+Now we need to make some permission changes.
+- _[optional explanation]_ Google Play is the standard way apps are sent to Android phones. This app is safe, but because the version we’re testing today is still in development, it hasn't gone through Google’s final review yet, and therefore it’s blocked by default. We need to adjust some settings to allow you to download it, and we’ll make sure to get your phone back to the way it was once we’re finished.
+
+Open Google Play Store.
+- Tap on the profile on the upper right
+- Tap Settings
+- Tap About
+- Where is says "play store version" - tap that seven times until a notice comes up.
+    - _[confirm notice "you are now a developer"]_
+- Scroll back up and tap General
+- Tap Developer Options
+- Toggle on "internal app sharing"
+
+Now return to the email app. _[most likely browser within the email]_ Tap Done.
+
+Now I'll have you download the app. _[if standard version is already there, uninstall first]_
+
+Go ahead and install.
+
+Now I'll have you log in with your username and password. I'm going to pause the recording while you're doing that.
+
+_[pause recording]_
+
+_[after they reach authenticated home screen]_
+
+Great! I'm going to resume the recording now, and we'll get started with testing.
+
+_[resume recording]_
+
+</details>
 
 ## Test paths
 
@@ -114,6 +205,41 @@ _Moderator will follow the test paths outlined in the spreadsheet. Both versions
 - Google Sheet: [Spreadsheet: Test paths and success criteria - Overpayment UAT](https://docs.google.com/spreadsheets/d/1xfHJGzPQJaIeO-uPp8D4aboEO-qSDvBVp0b5QABg_5Q/edit?gid=312390165#gid=312390165)
 - Excel Spreadsheet on VA network: [Spreadsheet: Test paths and success criteria - Overpayment UAT](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Test%20paths%20and%20success%20criteria%20-%20Overpayment%20UAT.xlsx?d=w1b926b3759974de4989a59acbded0343&csf=1&web=1&e=sqGrc5)
 
+
+## Phone clean-up
+
+That was it! Thank you so much for walking us through your app.
+
+I'm now going to help you return your phone to the way it was.
+
+<details>
+<summary>Android guidelines🤖</summary>
+- Uninstall the VA app
+    - _[option 1]_ Go to your home screen and fine the app icon. Long press and drag up to the top to Uninstall.
+    - _[option 2]_ Go to your home screen and fine the app icon. Long press and tap App info. Tap Uninstall.
+    - _[option 3]_ Open Google Play Store. Tap profile photo, tap "manage apps and device," tap "manage" and select VA app to delete.
+- Uninstall Firebase app
+- Install standard VA app
+- Toggle off "internal app sharing"
+    - Open Google Play Store, Tap profile photo, tap General, tap Developer options.
+- Reset any other security settings you changed
+- Log back into VA app (if they want help)
+- _[if relevant]_ Turn notifications back on
+    _[pull down from top, select Do Not Disturb]_
+
+</details>
+
+<details>
+<summary>iOS guidelines🍎</summary>
+- Reinstall public version of the VA app
+    - Open the app store to find the app. This will install over the beta version
+- Uninstall TestFlight
+    - Go to home screen to find app. Long hold, tap Remove App.
+- Log back into VA app (if they want help)
+- _[if relevant]_ Turn notifications back on
+    _[pull down from upper right, select Focus]_
+
+</details>
 
 ## Consent to use video clips
 

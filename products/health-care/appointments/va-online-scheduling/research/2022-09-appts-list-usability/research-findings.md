@@ -1,3 +1,119 @@
+---
+title: Appointment List Usability Research Findings
+product: VA Online Scheduling
+team: VAOS
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2022-10-31'
+researchers:
+- Ciera Maddox - ciera.maddox@adhocteam.us
+- Peter Russo - Peter.russo@adhocteam.us
+research_goals:
+- Evaluate usability and value of the appointment list redesign
+- Test a concept for changes to the appointments details page
+methodology:
+- Moderated usability test
+- Remote testing over Zoom
+devices_used:
+  desktop: 5
+  tablet: 0
+  smartphone: 5
+  assistive_technology: 0
+participants_total: 10
+demographics:
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 0
+    35-44: 3
+    45-54: 1
+    55-64: 2
+    65+: 4
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 1
+    associates: 1
+    bachelors: 6
+    masters: 2
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 10
+  race:
+    white: 0
+    black: 2
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 5
+    screen_reader_mobile: 5
+    magnification_zoom: 1
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- All participants were able to scan through the appointment list by date, time, status,
+  and type of care
+- Several participants struggled to differentiate between modality icons - specifically
+  the types of video appointments
+- The majority of participants reported that they would not print their appointments
+  from VAOS
+- Most participants clicked on the past appointments link without assistance from
+  the facilitator
+- All participants found the details pages easy to navigate and the information easy
+  to find
+- Most participants used the back link to navigate to the previous page
+recommendations:
+- Simplify the usage of modality language
+- Do not include 'print all' link on appointment list
+- Include an 'add all to calendar' link to the appointment list
+- Change past appointment list order
+- Change Details page CTAs
+- Replace breadcrumb with back button upon entry to VAOS
+kpi_alignment: []
+outcomes:
+  user: Veterans with diverse technical abilities, ages, and disabilities can easily
+    navigate and scan the appointments list
+  business: Finalize designs and update the appointments list
+opportunity_areas:
+- Access to secure messaging from the appointment list
+- Ability to search or sort through past appointments
+- Phone number extension information
+further_research_needed:
+- Screen-reader usability test using a low-code prototype
+- Further testing on details page usability
+underserved_groups_missing:
+- Cognitive Disability
+- Native
+secondary_research: []
+synthesis_tools_used:
+- Mural
+- Spreadsheet
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'PRDT: Caregivers'
+- 'MHV: Appointments'
+- 'MHV: Secure Messaging'
+- usability-testing
+- moderated-research
+- remote-research
+- Accessibility
+- evaluative
+---
 # Appointment List Usability Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), VA Online Scheduling**

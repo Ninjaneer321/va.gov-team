@@ -1,3 +1,123 @@
+---
+title: "Caregiver, Usability research of shortened form based on disability rating, Health Care application 10-10EZ Research Findings"
+product: "10-10EZ Health Care Application"
+team: "Caregiver Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-09-17"
+researchers:
+  - "Dené Gabaldón"
+research_goals:
+  - "Determine whether or not the short form flow is usable and understandable when it is pre-populated at start of authenticated application"
+  - "Determine whether or not the short form flow is usable and understandable when it is based on a self-reported, service-connected disability pay for a 50% or higher rating"
+  - "Determine whether or not the flow and copy sets proper expectations for the application experience"
+  - "Take special note of any participant feedback to the Introduction page as this has recently been updated"
+methodology:
+  - "Task-based usability study"
+  - "Remote moderated sessions via Zoom using Perigean contract"
+  - "UXPin prototype testing with three variations"
+devices_used:
+    desktop: 11
+    tablet: 3
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 14
+demographics:
+  veterans: 14
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 4
+    "45-54": 6
+    "55-64": 0
+    "65+": 3
+    unknown: 1
+  education:
+    high_school: 1
+    some_college: 2
+    associates: 3
+    bachelors: 3
+    masters: 4
+    doctorate: 1
+    unknown: 0
+  location:
+    urban: 11
+    rural: 3
+    unknown: 0
+  race:
+    white: 0
+    black: 2
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Participants are able to navigate through the pre-populated short form easily and without confusion"
+  - "Participants are able to navigate through the short form based on self-reported information easily and without confusion"
+  - "Participants feel that these short form flows are much quicker and easier than they expected"
+  - "On the review page some participants were confused or had questions as to why they had not been asked for some of the documents listed on the Introduction Gather your information section, and some felt that they would have spent unnecessary time looking for those documents before starting"
+  - "Participants moved through the confirmation step (shown in V2.1 & V2.2 only) without question or confusion"
+  - "Some participants were confused about the step numbers and why the number changed upon entering into the short form (Version 2.1 specific)"
+  - "Only about half of participants interacted with the green accordion alert, and this resulted in some uncertainty as to what information was skipped (Version 2.1 specific)"
+  - "The majority of participants felt like the alert set proper expectations (Version 2.2 specific)"
+  - "The updated Introduction page prepared participants with what documents they will need during the application process well"
+  - "More than half of variation 2.1 and 2.2 participants had confusion around the current compensation question"
+  - "The Insurance information Other coverage question caused uncertainty for many participants, especially for those who have Tricare (through military retirement)"
+recommendations:
+  - "Implement the short form"
+  - "Design an alert for the Review page that reminds users what information they were able to skip and why"
+  - "Update the Current compensation question messaging"
+  - "Update the Insurance detail question messaging"
+  - "Consider ways to update the Introduction page so that Veterans who will receive the short form will not spend unnecessary time searching for documents that they won't need"
+  - "Update 10-10EZ question order flows in production"
+  - "Implement the short form for applicants with a disability rating of 50% or higher"
+  - "Explore alternatives of showing the repeated Introduction on sign in"
+  - "Explore ways to improve the progress bar so that it is more reflective of length and progress"
+  - "Explore other qualifying criteria (e.g. combat status) to expand the short flow experience to more Veterans"
+  - "Ask Preferred contact question, and implement email confirmation and notifications"
+kpi_alignment: []
+outcomes:
+  user: "Veterans with 50% or higher disability rating can complete the health care application faster and easier"
+  business: "Reduce application completion time and improve user satisfaction for qualifying Veterans"
+opportunity_areas:
+  - "Veterans need clearer guidance on which documents they'll actually need based on their disability rating"
+  - "Current compensation question causes confusion between disability pay and VA pension"
+  - "Insurance information questions need better clarity especially for Tricare users"
+further_research_needed: []
+underserved_groups_missing:
+  - "Mobile users - Prototype tool was not optimized for mobile"
+  - "Assistive tech users - Unable to include due to prototype tool limitations"
+  - "Expat (living abroad)"
+  - "People of color - Recruited for, but unfortunately had many no-shows"
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "DSC: Form"
+  - "DSC: Alert Boxes"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "HDW: Tablet"
+  - "usability-testing"
+  - "10-10EZ"
+  - "evaluative"
+  - "short-form"
+---
+
 # Caregiver, Usability research of shortened form based on disability rating, Health Care application 10-10EZ research findings
 **Digital Services Veterans Affairs (DSVA), VSA, Caregiver Team**<br>
 

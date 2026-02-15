@@ -1,4 +1,153 @@
-
+---
+title: VA Mobile App Personalized Home Screen Evaluative Research Findings
+product: VA Mobile App
+team: VA Mobile UX Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-07-03'
+researchers:
+- Holly Collier
+research_goals:
+- Understand if and how the personalized home screen design impacts participant comprehension
+  of what the VA mobile app can do
+- Understand if and how the personalized home screen design impacts participant perception
+  of the app's current and future value
+- Evaluate the usability of the personalized home screen and category screens using
+  high-level tasks
+- Determine if significant usability barriers exist for participants who use the app
+  with assistive technology versus without
+- Pilot conducting remote evaluative research using a live pre-release build of the
+  app on participants' mobile devices
+methodology:
+- Remote moderated think-aloud user interviews
+- Usability testing over Zoom
+- Pre-release production build testing on participants' own devices
+devices_used:
+  desktop: 0
+  tablet: 2
+  smartphone: 11
+  assistive_technology: 2
+participants_total: 13
+demographics:
+  veterans: 13
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 1
+    35-44: 2
+    45-54: 1
+    55-64: 8
+    65+: 0
+    unknown: 1
+  education:
+    high_school: 1
+    some_college: 3
+    associates: 1
+    bachelors: 5
+    masters: 2
+    doctorate: 1
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 13
+  race:
+    white: 4
+    black: 3
+    hispanic: 3
+    biracial: 1
+    asian: 2
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 2
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Participants understood what the VA mobile app can do based on the personalized
+  home screen content, describing it as having all important information in one place
+- All participants were able to describe a situation where they could use the VA mobile
+  app home screen to help them with tasks
+- All participants recognized that Activity modules displayed their personalized information
+  and understood in-flight tasks
+- Participants had varying mental models with 8 of 13 viewing modules as active/pending
+  items and 5 of 13 viewing them as most-used persistent items
+- Most participants found the module description text useful for Prescriptions and
+  Secure Messages but had suggestions for Appointments and Claims
+- Participants successfully used the home screen as a task starting point and were
+  able to accomplish tasks using the modules
+- No significant performance issues were reported that impacted perception of app
+  capabilities or value
+recommendations:
+- Extend the Appointments Activity module date range from 7 days to 30 days to better
+  match participant expectations
+- Explore how to address the gap in participant expectations between Prescriptions
+  module description text and destination
+- Consider exploring ways to increase the usefulness of the Claims module description
+  text
+- Explore how to ensure users eligible for Proof of Veteran status see it on their
+  homescreens
+- Monitor qualitative and quantitative data for indicators related to the usability
+  of the Activity section's conditional display logic
+- Monitor engagement metrics over time to assess impact of personalized home screen
+- Conduct future evaluative study with screen reader users
+- Consider conducting follow-up study with former app users to determine if personalized
+  home screen impacts their perception of value
+kpi_alignment:
+- Improve Veteran retention at 30, 60, and 90 day marks by 10%
+- Increase number of tasks completed and their success rate
+- Improve Veteran satisfaction
+outcomes:
+  user: Veterans can quickly understand what the app can do for them and access personalized,
+    in-flight tasks from the home screen to keep up with and manage their interactions
+    across VA
+  business: Improved app retention through personalized home screen that demonstrates
+    value and provides shortcuts to active tasks, reducing time to complete common
+    actions
+opportunity_areas:
+- Enhanced module description text to better indicate actionable information
+- Improved discoverability of Proof of Veteran status for eligible users
+- Optimized date ranges in Activity modules to match user expectations
+further_research_needed:
+- Evaluative research with screen reader users to assess accessibility
+- Follow-up study with former app users to measure impact on perceived value
+- Longitudinal study to monitor effectiveness of conditional display logic for Activity
+  modules
+underserved_groups_missing:
+- Individuals with cognitive disabilities
+- Veterans who identify as Native American
+- LGBTQ+ Veterans (gay, lesbian, bisexual, transgender, nonbinary, gender fluid, genderqueer,
+  Two-Spirit)
+secondary_research:
+- VA mobile app User Retention Discovery Research (2023)
+- VA mobile app Post-Launch Discovery Research (2022)
+- Desk research and discovery exploring personalization (2021-2023)
+synthesis_tools_used:
+- Mural notetaker and observer notes
+- Mural affinity mapping
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'PRDT: My VA'
+- 'MHV: Appointments'
+- 'MHV: Pharmacy'
+- 'MHV: Secure Messaging'
+- usability-testing
+- semi-structured-interviews
+- moderated-research
+- remote-research
+- Accessibility
+- evaluative
+---
 # VA Mobile App - Personalized Home Screen Evaluative Research - Findings
 
 Office of the CTO - Digital Experience (OCTO-DE), VA Mobile App

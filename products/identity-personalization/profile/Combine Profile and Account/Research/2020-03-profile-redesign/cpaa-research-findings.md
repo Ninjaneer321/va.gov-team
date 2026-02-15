@@ -1,3 +1,110 @@
+---
+title: "Combining Profile and Account Research Findings"
+product: "Profile"
+team: "VSA Authenticated Experience"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-04-20"
+researchers:
+  - "Tressa Furner"
+research_goals:
+  - "Understand user comprehension after combining current 'profile' and 'account' into one page as part of the personalization 2.0 effort"
+  - "Determine if the user feels like the design reflects them personally"
+  - "Evaluate if the user can find the information that they are looking for effectively"
+  - "Assess how the side navigation affects task efficiency"
+  - "Understand how easily the user can change information within the profile"
+methodology:
+  - "Remote moderated usability testing"
+  - "Prototype testing (Invision)"
+devices_used:
+    desktop: 5
+    tablet: 0
+    smartphone: 5
+    assistive_technology: 0
+participants_total: 5
+demographics:
+  veterans: 5
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 1
+    "45-54": 2
+    "55-64": 1
+    "65+": 1
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
+  location:
+    urban: 0
+    rural: 0
+    unknown: 5
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 5
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Participants preferred the new profile design to the old design, and easily found what they were looking for within the profile using the new navigation."
+  - "The side nav increased scanability of the overall profile, especially in the desktop view."
+  - "Specifically in mobile, participants had a difficult time finding the 'profile menu', and in general were confused about the mobile navigation."
+  - "Users expect to see their benefit information on their profile."
+  - "Users were unsure what email address was represented in the Personal and Contact Information section (contact vs log-in)."
+  - "Users easily found connected apps and understood what it was, but there was some confusion about how to connect apps."
+  - "Users liked the 'name-tag' area, but the military badge is taking up too much space in the mobile view."
+recommendations:
+  - "Make mobile subnavigation clearer for the logged in experience - this is possibly a two-tier solution. First, there should be a short term fix specific to the profile, followed by a more involved long term solution based on previous research and more comprehensive mobile navigation needs."
+  - "Add clarification around email address in Personal and Contact information and add email address to Account Security."
+  - "Further investigate what benefit information we should add to the profile."
+  - "Remove/shrink military badge in 'nametag' in mobile view."
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas:
+  - "Users expect to see their benefit information on their profile (current benefits available/used, education options, current disability, disability rating, current treatments, types of discharge)"
+  - "Mobile navigation and profile menu discoverability needs improvement"
+  - "Email address clarification (contact vs log-in) needed in Personal and Contact Information section"
+  - "Military badge size in mobile view takes up too much valuable space"
+further_research_needed:
+  - "Discover what research (if any) has been done around current mobile navigation/subnavigation"
+  - "Further explore the placement of benefit information in the logged-in homepage discovery"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+  - "Mural"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Profile"
+  - "usability-testing"
+  - "evaluative"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "DSP: Content Presentation"
+  - "DSC: Form"
+---
+
 # Combining Profile and Account Research Findings 
 **Digital Services Veterans Affairs (DSVA), VSA, Authenticated Experience**<br>
 

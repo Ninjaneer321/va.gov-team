@@ -1,3 +1,134 @@
+---
+title: Medical Records on VA.gov Usability Study Round 4 (AT) Research Findings
+product: Medical Records
+team: My HealtheVet on VA.gov
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2025-02-01'
+researchers:
+- Melissa Stern
+research_goals:
+- Identify any usability issues AT-dependent Veterans may experience in understanding
+  their Medical Records Settings, Microbiology, Pathology, and Radiology Results,
+  Vitals, Allergies, and Download your medical record
+- Understand AT-dependent Veterans' needs and expectations within Medical Records
+methodology:
+- Moderated usability testing
+devices_used:
+  desktop: 8
+  tablet: 0
+  smartphone: 3
+  assistive_technology: 11
+participants_total: 11
+demographics:
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 0
+    35-44: 1
+    45-54: 2
+    55-64: 4
+    65+: 4
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 1
+    associates: 3
+    bachelors: 1
+    masters: 5
+    doctorate: 1
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 11
+  race:
+    white: 10
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 11
+    screen_reader_desktop: 6
+    screen_reader_mobile: 0
+    magnification_zoom: 4
+    speech_input: 1
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Most participants struggled to understand information pertaining to Medical Records
+  Settings
+- About half of the participants (5 of 11) misunderstood how the test user's medical
+  records were currently being shared
+- Most participants (9 of 11) successfully opted the test user into sharing
+- All participants (11 of 11) expected additional steps to share their records with
+  individual recipients after opting into sharing
+- Most participants (10 of 11) misunderstood what medical information would be shared
+  with providers after opting in or preferred to select what medical information would
+  be shared
+- Many participants (4 of 11) tried to access their medical records settings by clicking
+  'Go to your profile on the My HealtheVet website'
+- Few participants confidently identified microbiology and pathology results, but
+  almost all participants easily located imaging results
+- About half of the participants (5 of 11) successfully identified a microbiology
+  test result when asked to find results from an E. coli test
+- About half of participants (6 of 11) successfully identified a pathology test result
+  when asked to find results from a biopsy
+- Most participants (10 of 11) successfully identified an X-Ray result
+- About half of the participants (6 of 11) felt it was useful to have direct access
+  to imaging results in their medical records
+- All participants (11 of 11) easily identified the test user's most recent blood
+  pressure, and most participants (10 of 11) found a blood pressure result from several
+  years ago
+- All participants (11 of 11) easily identified two notes when given only the note
+  titles
+- All participants (11 of 11) easily identified an allergy record
+- Few participants (3 of 11) independently found where to download the past three
+  months of lab and test results from the Medical Records landing page
+- Most participants (8 of 11) expected to access Blue Button functionality from within
+  the individual domains
+- Most participants (8 of 10) successfully made it through the download process after
+  they were directed to the correct page
+- Most participants on average rated the Medical Records Settings and Lab and Test
+  Results tasks as 'neither difficult nor easy,' but rated the Vitals, Care Summaries
+  and Notes, Allergies, and Download your Medical Records Reports tasks as 'easy'
+  or 'very easy'
+- Dropdown options are not announced by screen readers when navigated using only the
+  cursor
+recommendations:
+- Screen reader dictation for the 'Continue' button should say 'Continue to step _
+  of _' on the Download your Medical Records pages
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed:
+- 'Conduct quantitative research on MR metrics after launch: Anne Costello Kennedy'
+- 'Conduct a contextual inquiry study on MR users after launch: Anne Costello Kennedy
+  and Melissa Stern'
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: Caregivers'
+- 'MHV: Appointments'
+- 'MHV: Personal Health Records/Medical Records'
+- usability-testing
+- moderated-research
+- Accessibility
+---
 # Medical Records on VA.gov Usability Study Round 4 (AT) Research Findings
 
 January – February 2025

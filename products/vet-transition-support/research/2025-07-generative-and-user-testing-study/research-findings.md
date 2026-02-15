@@ -1,3 +1,171 @@
+---
+title: Veteran Transition Experience Research Findings
+product: Discover Your Benefits
+team: VES Veteran Transition Experience Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2025-08-15'
+researchers:
+- Anna Higgins
+- Jessica Woodin
+research_goals:
+- Understand how to support TSMs' need to keep track of their transition progress/deadlines/tasks/to
+  do list to reduce stress, minimize the possibility of missing deadlines, and improve
+  transition outcomes
+- Understand how to improve the tool to address TSMs' unmet needs of support to take
+  action and get help
+- Usability testing of the product in staging
+methodology:
+- Generative research interviews
+- Usability testing
+- Mixed methods analysis combining quantitative coding of behaviors and qualitative
+  analysis
+devices_used:
+  desktop: 28
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 28
+demographics:
+  veterans: 23
+  service_members: 5
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 6
+    35-44: 9
+    45-54: 8
+    55-64: 4
+    65+: 0
+    unknown: 1
+  education:
+    high_school: 1
+    some_college: 3
+    associates: 9
+    bachelors: 7
+    masters: 7
+    doctorate: 1
+    unknown: 0
+  location:
+    urban: 18
+    rural: 10
+    unknown: 0
+  race:
+    white: 15
+    black: 6
+    hispanic: 1
+    biracial: 4
+    asian: 2
+    native: 0
+  disability:
+    cognitive: 21
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- There is surprisingly little relationship between the goals participants chose and
+  the benefits they explored. Participants are not seeing or using filters in their
+  current form, with only 25% organically interacting with filters
+- Participants want to return to results to apply for benefits, but 68% thought they
+  would have to retake the questionnaire to see results again. The current 'save link'
+  option isn't visible, effective, or well understood
+- TSMs use diverse organizational strategies during transition (digital first, hybrid
+  paper/digital, paper first, and no organized strategy), but having any proactive
+  strategy correlates with easier transition experiences
+- The Discover Your Benefits tool fills a critical gap in VA benefits information
+  shared during TAP and is especially valuable to National Guard and Reserves TSMs
+  who receive less transition support
+- 'Content friction points create barriers: the length of service question topping
+  out at 3 years confused long-serving Veterans, and displaying disability compensation
+  to Veterans who already have ratings undermines personalization'
+- Participants want easy access to knowledgeable human support for benefits questions
+  (not just technical support), with strong preferences for phone contact and suggestions
+  for chatbot-to-human escalation
+- All participants found the tool valuable and would recommend it to others, with
+  quotes like 'If I would have had this as a transitioning member, I would have had
+  less doubt of transitioning'
+- Key transition knowledge gaps exist across all participant groups, with critical
+  information needs around timing of benefit applications, medical documentation requirements,
+  and understanding of available support resources
+recommendations:
+- 'Redesign Goals and Filtering Approach: Consider moving from having goals in the
+  questionnaire to having enhanced filters on the results page'
+- 'Improve Save Functionality: Short term: Make the ''save link'' button more visible
+  and add an email option. Long term: Pursue authentication integration with MyVA'
+- 'Support Multiple Organizational Styles: Provide multiple ways to save and review
+  benefits (email, print, SMS, PDF export) to accommodate different transition management
+  approaches'
+- 'Address Content Friction Points: Revisit length of service question options and
+  how disability compensation is displayed to Veterans with existing ratings'
+- 'Enhance Help and Support Access: Short term: Make existing help resources more
+  visible. Long term: Explore integration with AskVA'
+- 'Maintain Unauthenticated Access: Preserve the unauthenticated tool option while
+  developing authenticated features'
+- 'Develop Authenticated Integration Roadmap: Long term, prioritize integration with
+  MyVA for personalized data pull, persistent results, and enhanced functionality'
+- 'Address Critical Knowledge Gaps Through Proactive Outreach: Develop proactive communication
+  strategies to inform TSMs about time-sensitive benefits, medical documentation requirements,
+  and transition timelines'
+- 'Create Transition-Stage Specific Resources: Develop different information pathways
+  for various transition stages and experience levels, including dedicated resources
+  for newer veterans'
+kpi_alignment:
+- Benefit Discovery Rate
+- Application Completion Rate
+- User Satisfaction and Recommendation Rate
+outcomes:
+  user: TSMs can effectively discover relevant benefits, track their transition progress,
+    and successfully apply for benefits they're eligible for with appropriate support
+  business: Increased benefit discovery rates, reduced support burden through improved
+    self-service capabilities, and better transition outcomes leading to improved
+    long-term Veteran well-being
+opportunity_areas:
+- Personalized benefit recommendations based on profile data
+- Interconnected benefit discovery (e.g., disability rating unlocking healthcare)
+- Family/dependent benefit pathways
+- VA facility proximity checking before healthcare enrollment
+further_research_needed:
+- Usability testing with assistive technology users to ensure accessibility
+- Testing filter vs. goals approaches to validate recommended design changes
+- Research with underrepresented groups including Veterans with less than honorable
+  discharges, shorter service lengths, and younger TSMs
+- Further research needed on transition knowledge delivery methods to determine most
+  effective ways to provide time-sensitive information and proactive benefit awareness
+underserved_groups_missing:
+- Veterans with less than honorable discharges
+- TSMs and Veterans with shorter length of service (sample underrepresents 1-4 year
+  service members)
+- Marines and Coast Guard members
+- Assistive technology users
+- Veterans and TSMs under age 25 (sample skews older)
+secondary_research:
+- TAP program analysis and gap identification
+- MyVA integration requirements research
+- VA.gov help system review for improvement opportunities
+synthesis_tools_used:
+- Mural board for collaborative analysis
+- Coded data spreadsheet for quantitative and qualitative analysis
+- Affinity mapping for pattern identification
+- Mixed methods analysis combining behavioral data with qualitative insights
+tags:
+- 'AUD: Veterans'
+- 'AUD: Service Members'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: My VA'
+- usability-testing
+- semi-structured-interviews
+- remote-research
+- evaluative
+---
 # Veteran Transition Experience Research Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), Discover Your Benefits, VES Veteran Transition Experience Team**

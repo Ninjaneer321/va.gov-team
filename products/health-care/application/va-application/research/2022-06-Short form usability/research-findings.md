@@ -1,3 +1,134 @@
+---
+title: 10-10 applications team, Usability research of shortened form based on disability
+  rating, Health Care application 10-10EZ, June 2022
+product: Health Care Application (10-10EZ)
+team: 10-10 applications team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2022-06-23'
+researchers:
+- Dené Gabaldón (dene.gabaldon@adhocteam.us)
+research_goals:
+- Determine whether or not the short form flow is usable and understandable when it
+  is pre-populated at start of authenticated application
+- Determine whether or not the short form flow is usable and understandable when it
+  is based on a self-reported, service-connected disability pay for a 50% or higher
+  rating
+- Confirm that no changes were made to the full application due to out short form
+  updates
+- Determine whether or not the flow and copy sets proper expectations for the application
+  experience
+methodology:
+- Task analysis
+- Usability study
+- Remote
+devices_used:
+  desktop: 8
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 2
+participants_total: 10
+demographics:
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 1
+    35-44: 3
+    45-54: 1
+    55-64: 2
+    65+: 3
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 2
+    associates: 3
+    bachelors: 1
+    masters: 3
+    doctorate: 1
+    unknown: 0
+  location:
+    urban: 4
+    rural: 6
+    unknown: 0
+  race:
+    white: 0
+    black: 2
+    hispanic: 3
+    biracial: 0
+    asian: 0
+    native: 1
+  disability:
+    cognitive: 2
+    AT_beginner: 1
+    AT_advanced: 1
+    screen_reader_desktop: 1
+    screen_reader_mobile: 1
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- 100% of participants who received the short form (6) were able to move through the
+  application without indication of a block
+- All participants who received the short form expressed that it exceeded their expectations
+  of time (shorter than they expected)
+- Most participants who received the short form expressed that is was simple and easy
+- A couple of participants worried that if they filled out a shortened application
+  that they would later be asked to provide that information
+- Some participants think that there's no reason to tell the user that they are getting
+  a shorter application
+recommendations:
+- 'Remove the text on the authenticated immediate alert page (usually place of birth)
+  that says: ''You don''t have to fill in all of these fields. But we can review your
+  application faster if you provide more information.'''
+- Consider adding which sections are skipped (similar to the green alert)- military
+  and income
+- Check mobile for wrapping
+- Consider editing the more info component to be less vague
+- Update short form-specific content
+- Publish short form
+- Monitor comparative now vs. after completion and drop-off rates
+kpi_alignment: []
+outcomes:
+  user: Veterans can complete health care application more quickly when they have
+    a disability rating of 50% or higher
+  business: Reduce time to complete applications and increase completion rates
+opportunity_areas: []
+further_research_needed:
+- Update how compensation question can be edited from review page
+- Redesign the beginning 'screener' flow
+- Update Medicaid page- consider adding who is eligible
+- Update VA facility page
+- Consider adding more context to the other information page
+- Update household information section
+- Update intro page- especially the buttons/links to start
+- Check all fields with screen reader to ensure that the question is read properly
+- Check each page with screen reader to ensure that it moves people to expected region
+  on every page
+- Conduct more mobile testing
+underserved_groups_missing:
+- Expat (living abroad)
+- Mobile user
+- With no degree
+- With a cognitive disability
+- Asian Veterans
+- Black Veterans
+secondary_research: []
+synthesis_tools_used: []
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- moderated-research
+- remote-research
+- usability-testing
+- Accessibility
+---
 # 10-10 applications team, Usability research of shortened form based on disability rating, Health Care application 10-10EZ, June 2022
 
 Dené Gabaldón (dene.gabaldon@adhocteam.us), 06/23/2022

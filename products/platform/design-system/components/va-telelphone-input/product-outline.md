@@ -6,7 +6,7 @@
 - Product Managers: Carol Wong, Tricia Baker
 - Designer: Jeana Clark
 - Web Dev: Ian Harrison
-
+- Mobile Dev: Tim Roettger
 
 ## Artifacts
 - [Web Designs](https://www.figma.com/design/SzBiTsdFPDXHyuSJLqo5nm/WIP---International-Phone-Exploration?node-id=0-1&p=f&t=BZALaWdTj5dzJUuC-0)

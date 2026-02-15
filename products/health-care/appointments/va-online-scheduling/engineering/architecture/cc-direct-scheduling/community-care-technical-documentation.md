@@ -487,9 +487,101 @@ All endpoints may return error responses in the following format:
 - Expired referrals are referrals whose end date has expired, regardless of if an appointment exists or not
 
 ## Submit Asynchronous Process
-1. When confirming and submitting the final appointment, the async process will be dual
-2. The FE will submit the appointment and if successful poll the /appointments/{appointmentId} endpoint until a valid response or failure returns (up to 30 to 60 seconds)
-3. The BE will poll the same endpoint, but send a notification via VA Notify the user on success or failure
+
+This diagram illustrates the dual polling mechanism that occurs when a veteran submits an appointment booking:
+
+### 1. Initial Submission
+- User clicks submit to book the appointment through the frontend
+- **vets-website** calls `POST /vaos/v2/appointments/submit` to **vets-api**
+- **vets-api** forwards the booking request to **EPS**
+- **EPS** returns a preliminary success/failure response with an appointment ID
+- This initial response does **not** mean the appointment is fully booked yet
+
+### 2. EPS Async Validation
+- After returning the preliminary response, **EPS** begins its own asynchronous validation process
+- This process checks availability, eligibility, provider capacity, and other booking requirements
+- The appointment status will be updated once this validation completes
+
+### 3. Parallel Polling (Dual Process)
+
+Two simultaneous polling processes begin to monitor the appointment status:
+
+#### Frontend Polling (30 seconds)
+- **vets-website** repeatedly calls `GET /vaos/v2/eps_appointments/{appointmentId}` every few seconds
+- **vets-api** fetches the current appointment status from **EPS**
+- This continues for 30 seconds maximum
+- **Three possible outcomes:**
+  - **Status is "booked"**: Display success confirmation to the user
+  - **Status is error/rejected**: Display error alert instructing user to call for help
+  - **Timeout (30 seconds elapsed)**: Display timeout alert instructing user to refresh the page or call
+
+#### Backend Polling (4 attempts over ~3 minutes)
+- **vets-api** enqueues a **Sidekiq background job** immediately after the initial submission
+- The job polls the appointment status 4 times spread across approximately 3 minutes
+- This longer polling window ensures the backend captures the final status even if the frontend times out
+- **Three possible outcomes:**
+  - **Status is "booked"**: Send success email to veteran via **VA Notify**
+  - **Status is error/rejected**: Send failure email to veteran via **VA Notify**
+  - **Timeout (4 attempts completed without success)**: Send failure/timeout email to veteran via **VA Notify**
+
+### 4. User Experience
+
+The dual approach provides:
+- **Immediate feedback**: User sees status updates in real-time for up to 30 seconds
+- **Email notification**: User receives a follow-up email if the process fails
+- **Graceful degradation**: If the frontend times out, the user still gets notified via email if it failed
+- **Clear guidance**: Users know whether to refresh, or call for assistance
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant FE as vets-website
+    participant API as vets-api
+    participant Job as Sidekiq Job
+    participant EPS
+    participant VANotify as VA Notify
+
+    User->>FE: Click submit to book appointment
+    FE->>API: POST /vaos/v2/appointments/submit
+    API->>EPS: Book appointment
+    EPS-->>API: Return success/failure (preliminary)
+    API-->>FE: Return appointment ID
+    
+    Note over EPS: EPS async validation process begins<br/>(checks availability, eligibility, etc.)
+    
+    par Frontend Polling (30 seconds)
+        loop Every few seconds for 30 seconds
+            FE->>API: GET /vaos/v2/eps_appointments/{appointmentId}
+            API->>EPS: Fetch appointment details
+            EPS-->>API: Return appointment status
+            API-->>FE: Return appointment details
+            
+            alt Status is "booked"
+                FE->>User: Display success confirmation
+            else Status is error/rejected
+                FE->>User: Display error alert - call for help
+            else Timeout (30 seconds elapsed)
+                FE->>User: Display timeout alert - refresh or call
+            end
+        end
+    and Backend Polling (4 attempts)
+        API->>Job: Enqueue status check Sidekiq job
+        activate Job
+        loop 4 times for about 3 minutes
+            Job->>API: Check appointment status
+            API->>EPS: Fetch appointment details
+            EPS-->>API: Return appointment status
+            API-->>Job: Return status
+        end
+        
+        alt Status is error/rejected
+            Job->>VANotify: Send failure email to veteran
+        else Timeout (after 3 retries)
+            Job->>VANotify: Send failure/timeout email to veteran
+        end
+        deactivate Job
+    end
+```
 
 ## Integration Points
 1. CCRA: Source of referral data 

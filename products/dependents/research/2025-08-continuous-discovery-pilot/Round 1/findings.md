@@ -1,3 +1,149 @@
+---
+title: "Continuous Discovery Pilot - Round 1 Research Findings"
+product: "Dependents"
+team: "Dependents Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-08-25"
+researchers:
+  - "Not specified"
+research_goals:
+  - "Understand Veterans' knowledge about life changes that impact dependents"
+  - "Explore Veterans' mental models around dependency and VA benefits"
+  - "Understand Veterans' expectations for managing dependents in VA systems"
+  - "Gather insights on communication and notification preferences"
+  - "Understand Veterans' experiences with verification processes"
+  - "Explore Veterans' concerns about overpayments"
+  - "Understand challenges with managing children over 18"
+methodology:
+  - "interviews"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 7
+demographics:
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 7
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 7
+  location:
+    urban: 0
+    rural: 0
+    unknown: 7
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Veterans we spoke to correctly anticipated some life changes that might impact dependents, but had some holes in their knowledge. They knew about divorce and death, child's marriage, and that children would be removed at age 18. They did NOT consistently understand the rules for children with disabilities, aging parents, or children 18-24 in school"
+  - "Veterans expect to manage their dependents in the VA app, and on VA.gov in the profile"
+  - "Veterans do not see the artificial boundaries between dependents ON their benefits and benefits FOR dependents. For example, a veteran said that when his daughter was born, he had to get her added to his disability payments and CHAMPVA health insurance. He had to provide the same information twice to 2 different areas of the VA. He hoped that if he reported a change to dependents on the VA under the 'dependents' tab, it would make those changes to CHAMPVA too"
+  - "Veterans expect a grace period of 90 days after a death or divorce to report the event to the VA before their payments are changed"
+  - "Veterans generally understand how each dependent impacts their monthly payment"
+  - "Veterans expect that any change to dependents should take 2-4 weeks at most. For some veterans, this is how long it took, and they were happy. For others, it took months longer"
+  - "Veterans find it helpful to know the automated age-out date for their children (age 18). Multiple veterans mentioned that they get a letter every year telling them how much longer their children will be on their award"
+  - "Veterans expect consistent reminders of the life changes that impact benefits"
+  - "Veterans expect the VA to communicate with them leading up to and after an automated removal"
+  - "Veterans expect their payments to show a breakdown of how much is base pay, and how much is for their dependents or other exceptions"
+  - "No veterans we spoke to expressed difficulty finding the place to see or update their dependents online"
+  - "Veterans expressed that paper mail often arrives months after the date printed on the letter"
+  - "Veterans want to see what they've submitted to the VA, and have written record if possible. Multiple veterans mentioned that they get different answers on the phone, and can't hold the VA accountable for the different answers they get"
+  - "6/7 participants did not remember ever receiving a verification letter. The one who did threw it away"
+  - "All veterans assumed that 'verification' meant providing documents when adding a dependent, to prove they are eligible. Ex: birth/marriage certificate, adoption decree"
+  - "Veterans assume that if their dependents are correct, they don't need to do anything ever. One veteran said he got the verification letter, but his dependents were correct, so he threw it away"
+  - "Veterans expressed distress that their overpayments would accumulate with the months it takes the VA to process a change"
+  - "Veterans thought that in the case of overpayment, the full amount would be taken from their next check. They expressed that is what they have experienced in the past from other agencies/programs, like social security or the GI bill. And, they don't like it! It can cause abrupt problems to their cash flow"
+  - "Veterans don't understand the current 686/674 flow for reporting student status"
+  - "Veterans with children with disabilities were more aware that their children may be able to stay on their benefits, esp. if their children get SSI payments"
+recommendations:
+  - "Include all change options by dependent in the picklist, so edge cases are not ignored"
+  - "Add content to the website specifically about the edge cases people don't consistently understand"
+  - "We need to understand the dependents experience in the app and how our enhancements impact it (or dont)"
+  - "Provide off-ramps in the dependents management experience for users looking to make changes to these related benefits"
+  - "At the end of the 686 combo form, remind users how and where to make changes to these other benefits"
+  - "Advocate for a policy change, or see if there is room in the rulemaking to allow this grace period, and operationalize it"
+  - "While they do understand, I think we could better link between our manage-dependents experience and the various rates pages that have this information"
+  - "Explain which situations are quick (BPDS automated) vs which ones aren't, so veterans have accurate expectations for how long things will take (balance this with the cost of maintaining and updating this content)"
+  - "This might be a helpful attribute to include on dependent cards"
+  - "Do a targeted email campaign. Such an easy lift"
+  - "Add email communications for these situations, esp as a child approaches age 18"
+  - "Refer this idea to payments team"
+  - "Dont over-rotate on findability – the idea to move dependents into profile probably makes sense"
+  - "Ask David about this"
+  - "Allow users to download their forms after submitting"
+  - "Catalogue all paper letters veterans receive about dependents, and what info about the dependents is listed, so we can propose changes to those letters and/or to the dependent object in our application"
+  - "Re-write the content that explains 0538 verification to avoid confusion"
+  - "Add this as a FAQ somewhere – address it deliberately with veterans"
+  - "Make a procedural change to wait 3 months before charging overpayments 1x in a benefit's lifetime (like overdraft protection at a bank) This would increase trust in VA"
+  - "We should look into the overpayments letters to understand what the comms are, and how we can make them better"
+  - "I think referring to this internally as 'accidental overpayment' could go some way towards shifting the burden away from the veteran – they are pretty harshly penalized for misunderstanding the byzantine system"
+  - "Move forward with redesign of add/reactivate-student flow, and incorporate into our findings for the new team redoing the 674 paper form"
+  - "Make searchable content especially for parents of children with disabilities that speaks to: Dependency on their disability, pension, survivor benefits How disability might impact other VA benefits FOR dependents, like CHAMPVA health insurance and education benefits"
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas:
+  - "Edge cases for dependent life changes (children with disabilities, aging parents, children 18-24 in school)"
+  - "Integration between different VA systems for dependent information"
+  - "Grace period policy for reporting life changes"
+  - "Communication timing and frequency for dependent-related changes"
+  - "Payment breakdown transparency"
+  - "Form submission records and documentation"
+  - "Verification process clarity and communication"
+  - "Overpayment procedures and communications"
+  - "Student status reporting flow (686/674)"
+  - "Content for parents of children with disabilities"
+further_research_needed:
+  - "Understanding the dependents experience in the VA app"
+  - "Edge cases for life changes impacting dependents"
+  - "Overpayments letters and communications"
+  - "Paper letters veterans receive about dependents"
+underserved_groups_missing:
+  - "Veterans with children with disabilities"
+  - "Veterans with aging parents as dependents"
+secondary_research: []
+synthesis_tools_used:
+  - "Mural"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Dependents"
+  - "BNFT: Disability"
+  - "interviews"
+  - "continuous-discovery"
+---
+
 ## Continuous Discovery Research Findings- Cohort 1 + 2
 #### August 21-25 and September 2-5, 2025
 [Notes](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1755710375901/7fe0e8371ec0510fe19e184a6183e8cabf145f86?sender=ufed842b19edf8cbf42725332)

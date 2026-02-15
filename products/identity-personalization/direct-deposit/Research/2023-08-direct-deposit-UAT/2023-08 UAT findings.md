@@ -1,3 +1,105 @@
+---
+title: "Profile | Direct Deposit Migration UAT Findings"
+product: "Direct Deposit"
+team: "Authenticated Experience Profile team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-08-31"
+researchers:
+  - "Pam Drouin"
+research_goals:
+  - "Confirm that the Direct Deposit section of the Profile functions as intended for users who sign in with ID.me and/or Login.gov and who have direct deposit set up with their bank information"
+  - "Validate that MHV and DSLogon behavior has not changed"
+  - "Validate users can edit and save their bank info"
+  - "Validate users can cancel edits without losing saved information"
+  - "Validate form validation and error handling"
+  - "Validate users receive confirmation email after saving direct deposit information"
+methodology:
+  - "User Acceptance Testing (UAT)"
+devices_used:
+  desktop: 5
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 5
+demographics:
+  veterans: 5
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 1
+    "35-44": 0
+    "45-54": 4
+    "55-64": 0
+    "65+": 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 3
+    masters: 2
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 5
+  race:
+    white: 2
+    black: 1
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "UAT went smoothly and no changes are needed"
+  - "2 of 5 participants logged in with ID.me passed tasks 1-5"
+  - "2 of 5 participants logging in with Login.gov passed tasks 1-5"
+  - "3 of 5 participants logged in with MyHealtheVet passed task 7"
+  - "Direct deposit information was visible and correct for LOA3 users"
+  - "Cancel functionality preserved previously-saved direct deposit information"
+  - "Form validation prevented submission with errors"
+  - "Backend validation correctly rejected fake routing numbers"
+  - "Confirmation emails were received after saving direct deposit changes"
+  - "MHV users correctly saw prompt to sign in using ID.me or Login.gov"
+recommendations: []
+kpi_alignment: []
+outcomes:
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing:
+  - "Veterans Age 55-64+"
+  - "Assistive Tech users"
+  - "Mobile users"
+secondary_research: []
+synthesis_tools_used:
+  - "Google Sheets"
+tags:
+  - "AUD: Veterans"
+  - "HDW: Desktop"
+  - "PRDT: Direct-deposit"
+  - "PRDT: Profile"
+  - "PRDT: Login"
+  - "PRDT: Login.gov"
+  - "RESRCH: Evaluative"
+  - "uat"
+---
+
 # Profile | Direct Deposit Migration UAT Findings
 
 Pam Drouin, Authenticated Experience Profile team

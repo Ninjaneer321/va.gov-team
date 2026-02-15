@@ -1,3 +1,132 @@
+---
+title: "2025-02 Dependent Verification MVP Research Findings"
+product: "Dependent Verification"
+team: "Dependents Experience"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-03-13"
+researchers:
+  - "Ajia Wallace"
+  - "Ruben Sun"
+research_goals:
+  - "Understand the Veteran's mental model of dependent verification on VA.gov and their expectations for finding tools and completing tasks around dependent verification"
+  - "Validate the usability of our 0538 email notification and VA.gov designs and determine whether they provide a clear path to verify and update dependents"
+  - "Understand how the flow, designs, and copy impact the Veteran's understanding of the task"
+methodology:
+  - "Remote moderated research sessions via Zoom"
+  - "Foundational questions regarding experiences managing dependents"
+  - "Figma prototype engagement and usability testing"
+devices_used:
+    desktop: 7
+    tablet: 2
+    smartphone: 1
+    assistive_technology: 0
+participants_total: 10
+demographics:
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 1
+    "45-54": 5
+    "55-64": 2
+    "65+": 2
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 3
+    associates: 3
+    bachelors: 1
+    masters: 2
+    doctorate: 1
+    unknown: 0
+  location:
+    urban: 6
+    rural: 4
+    unknown: 0
+  race:
+    white: 7
+    black: 2
+    hispanic: 0
+    biracial: 1
+    asian: 1
+    native: 1
+  disability:
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Most participants (8 of 10) did not have a mental model of verification that aligned with the Mandatory Verification of Dependents (VA Form 21-0538), and this lack of familiarity shows a risk of abandonment on the verification ask in our designs"
+  - "There are opportunities to improve the findability of dependent verification specifically and dependent management in general, both in the short-term (MVP launch) and long-term"
+  - "Some participants were confused by the existing language on the Your VA Dependents page"
+  - "All participants expected to be able to correct identifying dependent information, such as SSN, DOB, etc., from within the form"
+  - "Most participants (6 of 9) were given pause or faced confusion when correcting personal or contact information"
+recommendations:
+  - "Provide adequate context around dependent verification's connection to the 8-year Mandatory Verification of Dependents at key touch points on VA.gov and in other VA communications"
+  - "Implement findability improvements suggested by the Content & IA team and validated by research"
+  - "Provide richer information for dependent cards on Your VA Dependents, including what benefits these dependents are (or have been) connected to"
+  - "Break up information on the page with the key decision point to improve readability and comprehension"
+  - "Update designs to improve readability and meet Veteran expectations"
+  - "Work with partners at VBA to align on notifications for dependent verification and continue to share findings"
+kpi_alignment:
+  - "Reduce the approximately $250 million per year burdening Veterans with debt due to outdated dependent information"
+  - "Increase completion rate of dependent verification tasks"
+  - "Reduce abandonment rate during verification flow"
+outcomes:
+  user: "Veterans can easily find, understand, and complete dependent verification on VA.gov with clarity about the 8-year mandate and implications of the task"
+  business: "Reduce overpayment debt by ensuring Veterans verify their dependents status and reduce burden on VA call centers"
+opportunity_areas:
+  - "Veterans mental model does not align with mandatory 8-year verification"
+  - "Findability of dependent management tools needs improvement across VA.gov"
+  - "Veterans expect ability to correct dependent information within the form"
+  - "Need for state-specific benefit information based on dependent status"
+  - "18-year-old to school-age transition is a common pain point"
+further_research_needed:
+  - "Assistive technology users - include AT users in post-launch research"
+  - "LGBTQ+ and non-traditional families - explicitly recruit for these perspectives in future studies"
+  - "Specific benefit types - recruit for disability and Pension benefits with specific minimums"
+  - "Younger Veterans - include minimums for younger Veterans (under 45) to ensure designs match expectations of more technologically literate groups"
+underserved_groups_missing:
+  - "LGBTQ+ members"
+  - "Assistive technology users"
+  - "Veterans with no degree"
+  - "Veterans of Hispanic, Latino, or Spanish origin"
+  - "Younger Veterans (25-34 age group)"
+secondary_research:
+  - "Information architecture analysis from CAIA"
+  - "2023-09 Dependents research"
+  - "2020-11 Dependency verification research"
+synthesis_tools_used:
+  - "Mural for session notes and synthesis"
+  - "Slack list for task analysis"
+  - "Affinity mapping"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Dependents"
+  - "PRDT: VA-Form-21-0538"
+  - "PRDT: VA-Form-21-686c"
+  - "PRDT: VA-Form-21-674"
+  - "BNFT: Disability"
+  - "BNFT: Pension"
+  - "HDW: Desktop"
+  - "HDW: Tablet"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "interviews"
+  - "DSC: Form"
+  - "DSC: Radio button"
+  - "DSP: Help users to check personal information"
+---
+
 # 2025-02 Dependent Verification MVP Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Dependent Verification, Dependents Experience**

@@ -14,6 +14,7 @@
 - [Experimental Design request](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/3154#top)
 - [PR that added the component](https://github.com/department-of-veterans-affairs/component-library/pull/1373)
 
+
 ## Summary
 A combo box helps users select an item from a large list of options. This component is useful in mobile apps for scenarios where users need to choose a single option from a list. 
 

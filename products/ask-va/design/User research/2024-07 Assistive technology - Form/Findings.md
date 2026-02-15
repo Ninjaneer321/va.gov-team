@@ -1,3 +1,99 @@
+---
+title: "Ask VA: Assistive Tech – Form Research Findings"
+product: "Ask VA"
+team: "Ask VA VA.gov Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-08-29"
+researchers:
+  - "Tyler Gindraux"
+research_goals:
+  - "Identify any barriers that could prevent Veterans who use assistive technology from asking a question through Ask VA"
+methodology:
+  - "Moderated usability study"
+  - "Remote on Zoom"
+  - "Mocked sign in process"
+  - "Authenticated experience testing"
+devices_used:
+    desktop: 6
+    tablet: 1
+    smartphone: 3
+    assistive_technology: 6
+participants_total: 10
+demographics:
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 3
+    "55-64": 4
+    "65+": 2
+    unknown: 1
+  education:
+    high_school: 1
+    some_college: 4
+    associates: 0
+    bachelors: 2
+    masters: 3
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 4
+    rural: 6
+    unknown: 0
+  race:
+    white: 7
+    black: 2
+    hispanic: 1
+    biracial: 1
+    asian: 1
+    native: 0
+  disability:
+    cognitive: 1
+    AT_beginner: 2
+    AT_advanced: 2
+    screen_reader_desktop: 2
+    screen_reader_mobile: 2
+    magnification_zoom: 1
+    speech_input: 1
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Most Veterans can easily complete the form without help, but struggle to imagine using Ask VA over another tool"
+  - "The progress bar can be useful as a consistent anchor on each page"
+  - "People seek a specific category and topic, and they would find it easier to choose from shorter lists"
+  - "Some people click continue instead of search or next (page of results) instead of continue"
+  - "Veterans consistently misinterpret the military postal code checkbox and the additional info doesn't help clarify"
+  - "It's not always clear to screen reader users when information is prefilled in the form"
+  - "The review and submit page is repetitive, particularly for screen reader users"
+recommendations:
+  - "Remove postal code when we collect health facility"
+  - "Make it easier to distinguish between 'next' and 'continue'"
+  - "Remove US military postal code option if there's not impact on routing"
+  - "Move question to it's own accordion at the end of the review page"
+  - "Fix success message on the review page"
+  - "Add content to the confirmation page that explains signing back in if you're authenticated"
+  - "Add general time estimate before you start a new question"
+  - "Investigate error messages triggering early with keyboard navigation"
+further_research_needed:
+  - "Test the dashboard with people who use assistive technology next"
+underserved_groups_missing:
+  - "LGBTQ+ participants"
+  - "Native participants"
+  - "Participants who use hearing aids"
+  - "Participants who use sighted keyboard"
+  - "Participants who use captions"
+secondary_research:
+  - "Previous Ask VA research studies"
+synthesis_tools_used:
+  - "Mural - Research sessions"
+  - "Mural - Research synthesis"
+---
+
 # Research findings for Ask VA: Assistive Tech – Form
 
 Ask VA VA.gov Team

@@ -1,0 +1,106 @@
+# Sample Patient — Design Reference
+**James R. Calloway** · Patient ID: V9001
+
+> Composite sample patient for design/wireframe purposes. All data is fictional and synthesized from sample/representative condition datasets. **Not a real patient/individual.**
+
+---
+
+## Demographics
+
+| Field | Value |
+|---|---|
+| Age / Sex | 54 M |
+| Date of Birth | September 14, 1971 |
+| Service Era | Desert Storm / OIF |
+| Branch | U.S. Army — 22 years, Honorable discharge |
+| VA Facility | VA Medical Center – Denver, CO |
+| Primary Care | Dr. M. Chen, MD |
+| Last Visit | January 14, 2026 |
+| Next Appointment | March 10, 2026 |
+
+---
+
+## Vitals & Labs
+
+| Measure | Value | Flag |
+|---|---|---|
+| Height / Weight | 5'10" / 210 lbs | |
+| BMI | 30.1 | ⚠️ Obese Class I |
+| Blood Pressure | 142 / 88 mmHg | ⚠️ Stage 2 HTN |
+| O₂ Saturation | 94% | ⚠️ Low-normal |
+| Smoking | Former — 20 pack-years | |
+| A1c | 8.1% | ⚠️ Uncontrolled |
+| LDL | 118 mg/dL | |
+| Uric Acid | 8.7 mg/dL | ⚠️ Elevated |
+| 10-yr ASCVD Risk | 21% | ⚠️ High |
+
+---
+
+## Active Conditions
+
+### Mental Health
+- **PTSD (chronic)** — PCL-5: 46, PHQ-9: 14, GAD-7: 8
+- Comorbid: Major depressive disorder, Alcohol use disorder
+- TBI: Yes · Suicide risk: Low
+- Treatment: Prolonged Exposure + CBT
+- Meds: sertraline 100 mg, prazosin 3 mg QHS, naltrexone 50 mg
+
+### Musculoskeletal
+- **Low back pain** (L4-L5 disc degeneration, mild stenosis) — Pain: 7/10
+- **Cervical radiculopathy C5-C6** — ROM limited
+- 10 PT visits in last 12 months; no surgery history
+- Meds: naproxen 500 mg BID, gabapentin 600 mg TID, cyclobenzaprine PRN
+
+### Chronic Disease
+- **Type 2 Diabetes** — A1c 8.1%
+- **Hypertension** — BP 142/88
+- **Hyperlipidemia** — LDL 118
+- Meds: metformin, glipizide, lisinopril, HCTZ, atorvastatin, aspirin 81 mg
+
+### Respiratory
+- **Chronic bronchitis** — FEV1: 60% predicted, FEV1/FVC: 62%
+- 3 exacerbations in last 12 months; enrolled in pulmonary rehab
+- Exposure history: burn pit, dust/smoke
+- Meds: umeclidinium/vilanterol daily, albuterol HFA PRN, roflumilast
+
+### Other
+- **Gout** — Uric acid 8.7, 2 flares/year; allopurinol + colchicine PRN
+- **Tinnitus** — bilateral, unmanaged
+
+---
+
+## Medications (17 total)
+
+| Medication | Dose | Frequency | Category |
+|---|---|---|---|
+| sertraline | 100 mg | Daily | Mental health |
+| prazosin | 3 mg | QHS | PTSD / nightmares |
+| naltrexone | 50 mg | Daily | Alcohol use disorder |
+| naproxen | 500 mg | BID | Pain / MSK |
+| gabapentin | 600 mg | TID | Neuropathic pain |
+| cyclobenzaprine | 5 mg | PRN | Muscle relaxant |
+| metformin | 1000 mg | BID | Diabetes |
+| glipizide | 5 mg | Daily | Diabetes |
+| lisinopril | 20 mg | Daily | Hypertension |
+| HCTZ | 12.5 mg | Daily | Hypertension |
+| atorvastatin | 40 mg | Daily | Hyperlipidemia |
+| aspirin | 81 mg | Daily | Cardiovascular |
+| umeclidinium/vilanterol | 62.5/25 mcg | Daily | Respiratory |
+| albuterol HFA | 90 mcg | PRN | Respiratory rescue |
+| roflumilast | 500 mcg | Daily | Chronic bronchitis |
+| allopurinol | 100 mg | Daily | Gout |
+| colchicine | 0.6 mg | PRN | Gout flare |
+
+---
+
+## Care Team
+
+| Role | Provider |
+|---|---|
+| Primary Care Physician | Dr. M. Chen, MD |
+| Psychiatrist | Dr. A. Okonkwo, MD |
+| Physical Therapist | T. Reyes, DPT |
+| Pulmonologist | Dr. S. Park, MD |
+| Pharmacist | K. Brandt, PharmD |
+
+---

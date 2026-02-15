@@ -1,3 +1,101 @@
+---
+title: "Personal information UAT Findings"
+product: "VA.gov Profile"
+team: "Profile"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-06-27"
+researchers:
+  - "Christina Gednalske"
+research_goals:
+  - "Confirm that the Personal information section functionality works as expected and Veterans can view and update their preferences for Preferred name and Gender identity"
+  - "Evaluate whether or not Veterans understood what this information is and why we are asking for it"
+  - "Validate that Veterans understood it is optional to provide this information"
+  - "Validate that no major usability hurdles were introduced during our recent iterations"
+methodology:
+  - "User acceptance testing"
+  - "Remote moderated interviews"
+devices_used:
+    desktop: 6
+    tablet: 0
+    smartphone: 1
+    assistive_technology: 1
+participants_total: 7
+demographics:
+  veterans: 6
+  service_members: 0
+  caregivers: 0
+  dependents: 1
+  VA_staff: 0
+  age:
+    "25-34": 1
+    "35-44": 2
+    "45-54": 1
+    "55-64": 2
+    "65+": 1
+    unknown: 0
+  education:
+    high_school: 1
+    some_college: 2
+    associates: 1
+    bachelors: 1
+    masters: 2
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 7
+  race:
+    white: 4
+    black: 1
+    hispanic: 0
+    biracial: 2
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 3
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 1
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Participants had positive responses to the new fields."
+  - "Participants felt VA asks for this information to make Veterans feel comfortable and to minimize confusion."
+  - "Participants had trouble noticing the hint text component but noticed the FAQ dropdown fairly easily."
+  - "6/7 participants understood that the fields were NOT required."
+  - "All participants decided to update their information for both Preferred name and Gender identity and were ok with not being able to remove information. However, 6/7 said it would be helpful to have the option to do so."
+  - "Preferred name: All participants had a positive response to the Preferred name field and found it to be clear, useful, and easy to use."
+  - "Preferred name: 2 participants mentioned that restrictions for how to enter Preferred name - such as character maximum and not allowing special characters or limiting capitalization to the first character - may cause issues for some Veterans."
+  - "Gender identity: Participants had a positive response to Gender identity and had no trouble updating their information, but a few had suggestions for how the field could be further improved."
+  - "Gender identity: Participants found the information included in the FAQ dropdowns relatively clear."
+  - "Gender identity: A Gender identity selection was already made for 2 participants who had not yet visited the page."
+  - "3 participants expressed a desire for the additional fields on the page: Pronouns and Sexual orientation."
+  - "Some participants did not notice the FAQs at the top of the page."
+  - "All participants who tested the latency issue (3) found it confusing, but said they would not normally refresh the page this way."
+recommendations:
+  - "Resolve bugs shown on Android mobile device."
+  - "Make phone number clickable."
+  - "Confirm that Preferred name hint text is sufficient and dropdown is not needed."
+  - "Remove button could be added to give Veterans more autonomy over selections, particularly because some participants already had their Gender identity information auto-filled."
+  - "Identify if character max or characters allowed for Preferred name can/should be changed."
+  - "Continue to work towards adding a text input field for Gender identity - reliant on API - and possibly consider revisiting order of terms listed and changing 'transgender' to 'trans.'"
+  - "Determine if any additional information is needed in Gender identity FAQ - return to discussion about Resources & Support article."
+  - "Determine how pre-filled data factors into the inability to fully remove information once entered."
+  - "Add Pronouns once approved"
+  - "Add Sexual orientation once approved - pending PRA approval."
+  - "Resolve latency issue (in progress)."
+tags:
+  - "AUD: Veterans"
+  - "LGBTQ"
+  - "profile"
+  - "usability-testing"
+---
+
 # Personal information UAT Findings
 
 06/27/2022

@@ -1,3 +1,101 @@
+---
+title: "Ask VA: Progress bar Research Findings"
+product: "Ask VA"
+team: "Ask VA VA.gov Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-05-13"
+researchers:
+  - "Tyler Gindraux"
+research_goals:
+  - "Compare whether it's more effective to describe percentage complete or not describe progress at all"
+  - "Review whether submitters understand when to sign in or not"
+  - "Review whether submitters are clear on when to use Ask VA and how to start"
+methodology:
+  - "Moderated usability study"
+  - "Remote over Zoom"
+  - "Figma prototypes with limited interactivity"
+  - "Education benefits scenario"
+devices_used:
+    desktop: 4
+    tablet: 0
+    smartphone: 4
+    assistive_technology: 0
+participants_total: 8
+demographics:
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 3
+    "35-44": 0
+    "45-54": 1
+    "55-64": 4
+    "65+": 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 1
+    associates: 2
+    bachelors: 1
+    masters: 4
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 5
+    rural: 3
+    unknown: 0
+  race:
+    white: 5
+    black: 2
+    hispanic: 0
+    biracial: 1
+    asian: 0
+    native: 1
+  disability:
+    cognitive: 3
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "It's not clear what you can ask about and how to start asking, until after you sign in"
+  - "People are motivated to sign in for a more personalized response, not necessarily because it's more secure"
+  - "Although the percentage is daunting at first, it's later motivating and helps you know when you're done"
+  - "School information fields are interpreted inconsistently without more details"
+  - "It's clear why information is pre-filled, but there's uncertainty about what's impacted if you edit pre-fill"
+  - "Most people notice their progress being saved and expect to find their unfinished question in their dashboard"
+recommendations:
+  - "Make the call-to-action on the home page more clear and focus on type of response"
+  - "Include the progress bar and set general expectations for length of time to complete the form"
+  - "Ask submitters to review non-editable personal information up front when authenticated"
+  - "Let people make temporary, local updates to their contact information"
+  - "Revisit saved progress feature in future"
+  - "Review school information fields to assess need and add clarifying content"
+  - "Move 'Your question' to be the last page and make it easy to review before you submit"
+further_research_needed:
+  - "Assistive technology users testing in the near future"
+  - "Reassess changes made to user experience"
+underserved_groups_missing:
+  - "Asian participants"
+  - "Hispanic participants"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat"
+  - "AT users"
+secondary_research:
+  - "Previous Ask VA research studies"
+synthesis_tools_used:
+  - "Mural - Research sessions"
+  - "Mural - Research synthesis"
+---
+
 # Research findings for Ask VA: Progress bar
 
 Ask VA VA.gov Team

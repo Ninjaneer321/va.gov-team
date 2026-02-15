@@ -1,24 +1,25 @@
 ---
-title: "One VA Debt Letter in mobile app Research Findings"
-product: "Mobile app One VA Debt Letter"
-team: "Mobile Feature Support"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2025-12-16"
+title: One VA Debt Letter in mobile app Research Findings
+product: Mobile app One VA Debt Letter
+team: Mobile Feature Support
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2025-12-16'
 researchers:
-  - "Emily DeWan"
-  - "Natasha Huckleberry"
+- Emily DeWan
+- Natasha Huckleberry
 research_goals:
-  - "Assess Veteran interest, value, and trust in a combined VA debt statement on mobile."
-  - "Identify Veteran needs, expectations, and preferences for interacting with a combined statement in the app."
+- Assess Veteran interest, value, and trust in a combined VA debt statement on mobile.
+- Identify Veteran needs, expectations, and preferences for interacting with a combined
+  statement in the app.
 methodology:
-  - "Moderated remote sessions"
-  - "Semi-structured interviews"
-  - "Concept testing with prototypes"
+- Moderated remote sessions
+- Semi-structured interviews
+- Concept testing with prototypes
 devices_used:
-    desktop: 0
-    tablet: 0
-    smartphone: 10
-    assistive_technology: 0
+  desktop: 0
+  tablet: 0
+  smartphone: 10
+  assistive_technology: 0
 participants_total: 10
 demographics:
   veterans: 10
@@ -27,11 +28,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 1
-    "35-44": 2
-    "45-54": 4
-    "55-64": 2
-    "65+": 1
+    25-34: 1
+    35-44: 2
+    45-54: 4
+    55-64: 2
+    65+: 1
     unknown: 0
   education:
     high_school: 0
@@ -64,45 +65,72 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "Participants manage VA debts alongside other bills, focusing on due dates rather than viewing VA debt as a distinct category."
-  - "Format preferences outweigh grouping; participants are more concerned with how information is presented than whether statements are individual or combined."
-  - "Most participants desire consistent features across all statements, regardless of grouping."
-  - "Most combined statement needs can be met with individual ones, as overpayments and copayments must be managed separately."
-  - "Trust is tied to details and transparency, not format."
+- Participants manage VA debts alongside other bills, focusing on due dates rather
+  than viewing VA debt as a distinct category.
+- Format preferences outweigh grouping; participants are more concerned with how information
+  is presented than whether statements are individual or combined.
+- Most participants desire consistent features across all statements, regardless of
+  grouping.
+- Most combined statement needs can be met with individual ones, as overpayments and
+  copayments must be managed separately.
+- Trust is tied to details and transparency, not format.
 recommendations:
-  - "Hold off on building a centralized combined debt view on mobile until strong user need is established in future research."
-  - "Hold off on adding a combined debt PDF to the mobile experience until future research identifies a strong user need for this feature."
-  - "Conduct user research on the existing combined statement on the website (both the HTML and PDF versions) to assess whether Veterans find it valuable in ways that differ from individual statements."
+- Hold off on building a centralized combined debt view on mobile until strong user
+  need is established in future research.
+- Hold off on adding a combined debt PDF to the mobile experience until future research
+  identifies a strong user need for this feature.
+- Conduct user research on the existing combined statement on the website (both the
+  HTML and PDF versions) to assess whether Veterans find it valuable in ways that
+  differ from individual statements.
 kpi_alignment:
-  - "Since we are not recommending development of the combined statement feature, we do not propose any new KPIs at this time."
+- Since we are not recommending development of the combined statement feature, we
+  do not propose any new KPIs at this time.
 outcomes:
-  user: "This research supports our desired user outcome by confirming limited need for a combined statement in the mobile app, allowing us to prioritize clear, transparent individual statements and features Veterans truly want."
-  business: "This research supports our desired business outcome by guiding us to focus developer resources on features that match Veteran needs and reducing risk from developing under-used features."
+  user: This research supports our desired user outcome by confirming limited need
+    for a combined statement in the mobile app, allowing us to prioritize clear, transparent
+    individual statements and features Veterans truly want.
+  business: This research supports our desired business outcome by guiding us to focus
+    developer resources on features that match Veteran needs and reducing risk from
+    developing under-used features.
 opportunity_areas:
-  - "More research on unique value of the combined statement compared to individual statements."
-  - "Better screening to recruit current VA mobile app users."
+- More research on unique value of the combined statement compared to individual statements.
+- Better screening to recruit current VA mobile app users.
 further_research_needed:
-  - "Refining screener questions to better identify Veterans with recent benefit overpayment debt."
-  - "Refining screener questions to better recruit Veterans who currently use the VA mobile app."
-  - "Exploring perspectives from Veterans who have not used the VA mobile app but have current VA debt or bills to see if there are needs that could be solved by the app."
-  - "Assessing the experiences of caregivers who assist Veterans in managing debt and bills."
+- Refining screener questions to better identify Veterans with recent benefit overpayment
+  debt.
+- Refining screener questions to better recruit Veterans who currently use the VA
+  mobile app.
+- Exploring perspectives from Veterans who have not used the VA mobile app but have
+  current VA debt or bills to see if there are needs that could be solved by the app.
+- Assessing the experiences of caregivers who assist Veterans in managing debt and
+  bills.
 underserved_groups_missing:
-  - "Cognitive Disability"
-  - "No degree"
-  - "Other than honorable"
-  - "Immigrant origin"
-  - "Expat (living abroad)"
-  - "Biracial"
-  - "Native Hawaiian or other Pacific Islander"
-  - "First Nations (Canada)"
-  - "Native, American Indian or Alaska Native"
+- Cognitive Disability
+- No degree
+- Other than honorable
+- Immigrant origin
+- Expat (living abroad)
+- Biracial
+- Native Hawaiian or other Pacific Islander
+- First Nations (Canada)
+- Native, American Indian or Alaska Native
 secondary_research:
-  - "n/a"
+- n/a
 synthesis_tools_used:
-  - "Mural"
-  - "Spreadsheets"
+- Mural
+- Spreadsheets
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: Caregivers'
+- 'MHV: Appointments'
+- moderated-research
+- remote-research
+- semi-structured-interviews
 ---
-
 # One VA Debt Letter in mobile app: Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Mobile app One VA Debt Letter, Mobile Feature Support Team**

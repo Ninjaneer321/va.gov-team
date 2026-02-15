@@ -1,3 +1,132 @@
+---
+title: Appointments Details Card Sort Research Findings
+product: VA Online Scheduling
+team: Appointments
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-12-18'
+researchers:
+- Christina Gednalske
+research_goals:
+- Understand how Veterans mentally organize appointment information
+- Identify category structures that align with Veterans' mental models
+- Determine which categories and information types are most important to Veterans
+- Identify information Veterans expect but may be missing from appointment details
+methodology:
+- Unmoderated card sort
+- Category importance ratings
+devices_used:
+  desktop: 48
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 48
+demographics:
+  veterans: 48
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
+    unknown: 48
+  education:
+    high_school: 14
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 34
+  location:
+    urban: 28
+    rural: 20
+    unknown: 0
+  race:
+    white: 28
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    other: 20
+  disability:
+    cognitive: 18
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  gender:
+    male: 33
+    female: 15
+key_findings:
+- Certain categories emerged as more common, with appointment information, scheduling,
+  canceling/rescheduling, and post-appointment information included most often
+- Participants created categories that separated tasks/statuses from static appointment
+  information
+- For both upcoming and past appointments, participants created clearly defined appointment
+  sections with similar information types
+- 8 participants created canceling/rescheduling categories, often separate from other
+  tasks/information
+- A small number of participants created categories for provider details, clinic information,
+  location/reason, and modify/manage appointment
+- 5 of 24 participants for upcoming and 6 of 27 for past appointments numbered their
+  categories by importance, indicating appointment information section is most important
+- 3 participants mentioned missing information for upcoming appointments (parking,
+  medication reminders, appointment modification notices)
+recommendations:
+- Use identified categories as guidelines for organizing page information to better
+  fit Veterans' mental models
+- Continue to use a separate section for travel reimbursement and consider combining
+  with other payment-related items
+- Consider creating different section/treatment for pre and post-appointment tasks
+  using notifications pattern
+- Create a dedicated Appointments section that includes appointment information in
+  a clearly called-out component separate from other information
+- Continue to use a dedicated cancel/reschedule/make changes section
+- Include smaller categories such as clinic information and provider details within
+  bigger categories or as sub-categories
+- Determine if any of the submitted missing items could be added to the Appointment
+  details page
+kpi_alignment:
+- Improve Veteran experience with appointment details organization
+- Reduce confusion about appointment information hierarchy
+outcomes:
+  user: Veterans can quickly find and understand appointment information organized
+    according to their mental models
+  business: Reduced support calls and increased self-service for appointment management
+opportunity_areas:
+- Explore if a notifications pattern can help surface pre/post-appointment tasks
+- Consider how to make travel reimbursement and payment actions more discoverable
+- Evaluate addition of parking availability and medication reminders
+further_research_needed:
+- Test proposed information architecture with Veterans
+- Research whether category importance ratings align with actual usage patterns
+underserved_groups_missing:
+- Immigrant origin
+- Expat (living abroad)
+- LGBTQ+
+secondary_research:
+- Previous research on appointment information expectations (2022-01-mhv-vaos-appts-list-discovery)
+synthesis_tools_used:
+- Mural
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Healthcare'
+- 'MHV: Appointments'
+- 'MHV: Pharmacy'
+- card-sort
+- moderated-research
+---
 # Research findings - Appointments details card sort
 
 Date: 12/18/2024

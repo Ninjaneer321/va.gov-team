@@ -1,3 +1,167 @@
+---
+title: Login.gov Adoption Discovery Research Findings
+product: Login.gov
+team: Identity
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2022-11-23'
+researchers:
+- Tyler Gindraux
+- Kit Casey
+- Samara Watkiss
+research_goals:
+- Explore how VA can successfully migrate existing users to Login.gov
+- Understand how to onboard new users to Login.gov
+- Determine when proactive intervention should encourage Login.gov account creation
+- Understand what in-person support will enable Veterans to create and use Login.gov
+- Understand how greatest number of Veterans can use multi-factor authentication options
+  including security keys
+- Understand how setting up and maintaining shared access might work for Veterans
+  and non-Veterans
+methodology:
+- Scenario validation
+- Service prototype testing
+- Contextual intercepts
+- Veteran interviews
+- In-person research at VA facilities
+devices_used:
+  desktop: 4
+  tablet: 2
+  smartphone: 8
+  assistive_technology: 0
+participants_total: 36
+demographics:
+  veterans: 34
+  service_members: 0
+  caregivers: 2
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 0
+    35-44: 2
+    45-54: 2
+    55-64: 2
+    65+: 4
+    unknown: 26
+  education:
+    high_school: 1
+    some_college: 3
+    associates: 0
+    bachelors: 2
+    masters: 3
+    doctorate: 1
+    unknown: 26
+  location:
+    urban: 7
+    rural: 3
+    unknown: 26
+  race:
+    white: 7
+    black: 3
+    hispanic: 2
+    biracial: 3
+    asian: 1
+    native: 0
+  disability:
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Setting up new credential is frustrating if made to seem like a choice when it's
+  required
+- Knowing humanized and dedicated support is available motivates Veterans to setup
+  and use credential
+- Being identity proofed at another appointment is more convenient as start or end
+  to account setup
+- Veterans see security as VA's responsibility but are motivated to be careful if
+  it affects benefits access
+- Perceived ease of use and complex views on security inform Veterans' MFA choices
+- Veterans will choose whichever login credential is most familiar or seems more direct
+- Veterans don't think to share access until life altering events make it necessary
+- Veterans prefer to set up Login.gov proactively when getting VHIC
+- MHV Coordinators should guide CSP selection toward Login.gov during in-person proofing
+- Offering in-person proofing option will increase Login.gov adoption
+- Veterans need reassurance there will be no gap in My HealtheVet access
+- Access to services outside VA is not the biggest selling point for Login.gov
+recommendations:
+- Explain need for Login.gov setup through consistent, contextual reminders emphasizing
+  help and ease
+- Help Veterans understand their role in ensuring continued VA services access and
+  protecting fellow Veterans
+- Make it easy to bundle identity proofing with existing appointments
+- Provide in-person support with account creation and use, including identity proofing
+- Help Veterans become familiar with Login.gov by making it an obvious default
+- Recommend MFA options that are appropriate and meet each Veteran's specific needs
+- Encourage Veterans to set up shared access early and help them review it often
+- Provide dedicated, supportive help at every step
+- Reach out to those who struggle with setup or use
+- Add deadline to set expectations that Login.gov setup is not optional
+- Be transparent about reasons for Login.gov migration to build trust
+- Avoid using metaphors like 'master key' or 'portal' which cause confusion
+kpi_alignment:
+- Increase Login.gov adoption among Veterans
+- Reduce credential-related support calls
+- Meet security compliance requirements
+- Improve Veteran satisfaction with login experience
+outcomes:
+  user: Veterans successfully migrate to Login.gov and can easily access My HealtheVet
+    and other VA services
+  business: Achieve compliant single sign-on credentialing platform adoption across
+    VA digital services
+opportunity_areas:
+- In-person proofing integration with existing appointments
+- MHV Coordinator training and workflow integration
+- Security key distribution and support
+- Shared access features for caregivers and family members
+- MFA education and selection guidance
+- Dedicated support channels for Login.gov assistance
+further_research_needed:
+- Roadmap and implementation plan development
+- Security key usability studies with target populations
+- Shared access workflow research
+- Homeless Veteran security key access research
+- Non-Veteran shared access understanding research
+underserved_groups_missing:
+- Veterans with cognitive disabilities
+- Native American Veterans
+- LGBTQ+ Veterans
+- Unhoused Veterans
+- Veterans of immigrant origin
+- Veterans with other than honorable discharge
+secondary_research:
+- Login.gov existing research
+- My HealtheVet usage patterns
+- VA facility workflows
+- MHV Coordinator interviews
+synthesis_tools_used:
+- Scenario validation analysis
+- Service prototype feedback
+- Intercept data synthesis
+- Hypothesis testing matrix
+- Thematic analysis
+tags:
+- 'AUD: Veterans'
+- 'AUD: Caregivers'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Housing'
+- 'BNFT: Pension'
+- 'BNFT: Records'
+- 'PRDT: Caregivers'
+- 'MHV: Appointments'
+- 'MHV: Pharmacy'
+- 'MHV: Personal Health Records/Medical Records'
+- semi-structured-interviews
+- discovery
+- evaluative
+---
 # Login.gov Adoption Discovery Research Findings
 
 Office of the CTO - Digital Experience (OCTO-DE), Identity Product Team

@@ -1,3 +1,221 @@
+---
+title: Usability Test of VA Pension Benefits (527EZ) with Veterans - Research Findings
+  and Recommendations
+product: VA Form 21P-527EZ Veterans Pension Benefits
+team: Pension Benefits Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-03-24'
+researchers:
+- Allexe Law-Flood
+research_goals:
+- Determine how Veterans respond to instructions for completing the 527EZ form
+- Understand Veteran's experience with applying for pension benefits
+- Determine pain points and pleasure points experienced with using the 527EZ digital
+  form
+methodology:
+- Semi-structured interviews via Zoom
+- Screen sharing with participants
+- Think-aloud protocol
+- Pre-populated fictional character data
+- Intention to file actual applications
+devices_used:
+  desktop: 8
+  tablet: 2
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 10
+demographics:
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  gender:
+    male: 8
+    female: 2
+  lgbtq: 1
+  age:
+    25-34: 0
+    35-44: 0
+    45-54: 1
+    55-64: 5
+    65+: 4
+    unknown: 0
+  education:
+    high_school: 1
+    some_college: 1
+    associates: 0
+    bachelors: 4
+    masters: 4
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 8
+    rural: 1
+    unknown: 1
+  race:
+    white: 9
+    black: 1
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  notes:
+    pension_confusion: 6 thought applying for military retirement pension (not eligible)
+    sessions_cut_short: 2 interviews ended early (15-30 minutes)
+key_findings:
+- 6 of 10 participants mistakenly thought 527EZ was for military retirement pension,
+  not aware form only for Veterans below certain income level
+- All participants chose to sign in rather than start without signing in; wanted to
+  save information or expected auto-population
+- Most participants (7 of 10) didn't notice alert stating need to provide medical
+  evidence; those who did didn't understand why needed
+- Several participants (6 of 10) uncertain how to respond to 'Have you ever filed
+  a claim with VA' question
+- Participants not clear what should be provided for VA file number; some would enter
+  SSN instead
+- Participants in reserves had difficulty determining what dates to use for 'final
+  release date of active duty'
+- Veterans who had multiple marriages surprised and annoyed by questions about previous
+  marriage dates and names; began estimating dates or not providing information
+- Participants who were married multiple times erroneously entered information about
+  current marriage when asked about first marriage
+- Few participants (3 of 10) who responded NO to dependents confused by follow-up
+  questions referencing 'your dependents'; incorrectly included adult children in
+  asset calculations
+- Several participants (6 of 10) not certain what was considered assets (e.g. primary
+  residence); did not see dropdown explaining assets; incorrectly reported assets
+- Several participants tried to click multiple radio buttons for different income
+  sources, confused why unable to select more than one; didn't see 'Add another income
+  source' button
+- Entering unreimbursed co-payments for medication and doctor visits not intuitive,
+  lengthy process; participants estimating dates and costs
+- Couple Veterans confused by messaging related to supporting documentation, uncertain
+  how to proceed
+- Two Veterans did not recognize or see calls to action (CTAs) on Review page; one
+  able to submit without saving updates
+- Without clarity on VA Facility information, Veterans entered inconsistent information
+  (name only, city/state, just city)
+- Majority (7 of 10) misunderstood meaning of non-VA federal medical facilities, did
+  not read example provided
+- Few participants erroneously entered their job title for question about what kind
+  of work they do
+- Participants surprised by level of detail required despite reviewing intro page
+- Participants expect follow-up email after submitting and decision within 30 days
+- Participants not clear what to do if change in financial situation after submission
+recommendations:
+- Improve form introduction content - clarify purpose of VA pension benefit and eligibility
+  criteria on How to Apply page and first page of application
+- Explore with SMEs introduction of criteria that validates eligibility at beginning
+  of form flow
+- Evaluate copy that clarifies what is meant by VA claim and VA file number
+- Clarify through VSR discussions whether active duty dates still necessary and if
+  month/day/year needed
+- Evaluate feasibility of populating military history for authenticated users when
+  available in profile
+- Introduce content informing Veterans where service date information may be found
+  and what is/isn't considered for active duty dates
+- Identify purpose for medical evidence when Veteran not collecting social security
+  disability through desk research/SME discussions/VSR shadowing
+- Explore what other benefit teams (especially 526-EZ) have done relative to alert
+  displays for additional documentation/evidence
+- Evaluate feasibility of other visual means for indicating additional information
+  needed
+- Evaluate use of VA APIs to provide facility information
+- Improve copy for non-VA federal medical facilities question and assess benefit of
+  providing example
+- Address job title vs. work type question confusion
+- Understand purpose and need for previous marriage information through VSR/SME discussions
+- Evaluate how to best communicate need for previous marriage information
+- Evaluate how to improve copy and/or ordering of requested information on current
+  and previous marriages to avoid errors
+- Evaluate feasibility of creating dynamic content to prevent confusion around dependents
+  and income
+- Provide greater clarity on definition of dependent at point questions are asked
+- Consider relocating or improving visibility of information on assets
+- Re-evaluate flow of questions for income section; clarify that only one income source
+  may be entered at a time and for one person at a time
+- Speak with SMEs to understand what information needed for income section; assess
+  need to include 'Both, Veteran and Spouse' option
+- Review language in unreimbursed expenses section; review 527-EZ PDF form and 21P-8416;
+  draft copy to reduce likelihood of erroneous information
+- Review past research and decisions by other benefit teams related to Fully Developed
+  Claims
+- Evaluate content in supporting documentation and confirmation page to identify discrepancies,
+  information gaps, challenges
+- Evaluate messaging and design of CTAs on Review page and make recommendations
+- Evaluate whether applications can be submitted without saving updates; make changes
+  to prevent it
+- Check with SMEs about whether and how Veterans notified of next steps and need to
+  tell VA if financial circumstances change
+kpi_alignment:
+- Increase accurate completion of pension applications
+- Reduce incomplete submissions
+- Reduce calls to VA about form questions
+- Improve Veteran understanding of eligibility
+- Reduce erroneous income and asset reporting
+outcomes:
+  user: Veterans can accurately complete pension application with clear understanding
+    of eligibility and requirements, submit complete applications, and understand
+    next steps
+  business: Reduce incomplete applications, reduce VSR processing time, reduce development
+    letters, improve application quality, faster decisions
+opportunity_areas:
+- Auto-population of military history and other VA-known data for authenticated users
+- Dynamic content based on user responses to prevent confusion
+- Better integration with VA APIs for facility information
+- Improved eligibility validation at form start
+- Better notification strategy for application receipt and decision timeline
+- Guidance for Veterans on updating information after submission
+further_research_needed:
+- VSR shadowing research to understand backend processing
+- Testing of redesigned sections with Veterans
+- Validation of eligibility criteria flow
+- Testing with underserved groups (mobile users, AT users, diverse racial backgrounds)
+underserved_groups_missing:
+- Cognitive disability
+- Mobile/smartphone users
+- Other than honorable discharge
+- Immigrant origin
+- Expat (living abroad)
+- Biracial
+- Asian
+- Native
+- Hispanic
+- Transgender
+- Assistive technology users (screen readers, magnification, etc.)
+secondary_research:
+- Weekly Pension Benefits team discussions with VBA SMEs
+- Review of paper 527EZ PDF form
+- Review of related forms (21P-8416, 21P-0969)
+synthesis_tools_used:
+- Mural board for pension benefit interviews
+- Session notes and analysis
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Pension'
+- 'PRDT: Facilities'
+- 'MHV: Appointments'
+- 'MHV: Pharmacy'
+- usability-testing
+- semi-structured-interviews
+- remote-research
+---
 # Usability Test of VA pension benefits (527EZ) with Veterans: Research Findings and Recommendations
 
 

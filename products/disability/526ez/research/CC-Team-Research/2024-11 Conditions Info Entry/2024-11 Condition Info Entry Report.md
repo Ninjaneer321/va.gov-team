@@ -1,3 +1,120 @@
+---
+title: "Condition Information Entry Assistive Technology Usability Testing Research Findings"
+product: "Disability Benefits - 526EZ"
+team: "Contention Classification"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-01-14"
+researchers:
+  - "Sudeepti Bhatnagar (sudeeptibhatnagar@navapbc.com)"
+  - "Kyra Berman-Gestring (kyra.berman-gestring@agile6.com)"
+  - "Bianca Rivera Alvelo (biancarivera@navapbc.com)"
+research_goals:
+  - "Evaluate the usability of the new multi-step conditions information entry flow (condition-by-condition approach)"
+  - "Assess how Veterans navigate through the different flows and if the condition-by-condition approach reduces cognitive load"
+  - "Evaluate the effectiveness of separating condition name entry from side of the body (laterality) selection for AT users"
+  - "Assess the clarity and usability of the new condition date and laterality questions for assistive technology users"
+methodology:
+  - "Remote moderated usability testing via Zoom"
+  - "A/B testing with Apple (condition-by-condition) and Cherry (conditions-first) approaches"
+  - "VA staging environment testing"
+  - "60-90 minute sessions"
+devices_used:
+    desktop: 5
+    tablet: 1
+    smartphone: 1
+    assistive_technology: 5
+participants_total: 7
+demographics:
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 2
+    "55-64": 1
+    "65+": 4
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 1
+    associates: 3
+    bachelors: 2
+    masters: 1
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 7
+  race:
+    white: 3
+    black: 2
+    hispanic: 1
+    biracial: 1
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 1
+    AT_advanced: 3
+    screen_reader_desktop: 3
+    screen_reader_mobile: 1
+    magnification_zoom: 3
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "The condition-by-condition approach (Apple) reduced cognitive load for AT users compared to conditions-first approach (Cherry)"
+  - "Screen reader users found the multi-step flow easier to navigate and complete without feeling overwhelmed"
+  - "Separating laterality selection from condition name entry improved clarity for AT users"
+  - "The new date question was generally clear but some participants struggled with the calendar widget using AT"
+  - "Focus management issues on iOS devices created significant barriers for screen reader users"
+  - "Screen magnifier users found the experience comparable to non-AT users with minimal AT-specific challenges"
+  - "The condition review page helped AT users verify their entries before submission"
+  - "Veterans preferred having confirmation at each step rather than completing all conditions at once"
+recommendations:
+  - "Implement the condition-by-condition (Apple) approach as it better serves AT users and reduces cognitive load"
+  - "Fix critical focus management bugs on iOS devices for screen reader users"
+  - "Improve calendar widget accessibility for date entry with AT devices"
+  - "Implement consistent and logical focus management across devices to maintain context"
+  - "Add clear announcements when moving between condition entry steps"
+  - "Provide skip links to bypass repetitive content for screen reader users"
+  - "Continue testing with diverse AT users before full deployment"
+  - "Add confirmation messages at key transition points in the flow"
+kpi_alignment:
+  - "Improve accessibility compliance for 526EZ form"
+  - "Reduce abandonment rates for AT users"
+  - "Increase successful completion rates for Veterans using assistive technology"
+outcomes:
+  user: "Veterans using assistive technology can confidently and independently complete the conditions entry process with reduced cognitive burden and fewer errors"
+  business: "Improved accessibility increases form completion rates and reduces need for alternative submission methods, ensuring compliance with Section 508"
+opportunity_areas:
+  - "Enhanced AT testing protocols for all form updates"
+  - "Proactive accessibility reviews during design phase"
+  - "Expanded support for diverse AT devices and configurations"
+further_research_needed:
+  - "Testing with additional AT types (speech input, hearing aids, captions)"
+  - "Validation with Veterans who have cognitive disabilities"
+  - "Long-term usage patterns and satisfaction metrics for AT users"
+  - "Testing on additional mobile platforms and browsers"
+underserved_groups_missing:
+  - "LGBTQ+ Veterans"
+  - "Asian and Native Veterans"
+  - "Rural and urban location data"
+  - "Cognitive disability representation"
+  - "Speech input and hearing aid users"
+secondary_research:
+  - "CAIA accessibility analysis and recommendations"
+  - "Platform accessibility best practices"
+synthesis_tools_used:
+  - "Mural"
+  - "Google Sheets"
+---
+
 2024-11 Condition Information Entry Assistive Technology Usability Testing Research Findings
 
 **Office of the CTO- Digital Experience (OCTO-DE), 526-EZ, Contention Classification**

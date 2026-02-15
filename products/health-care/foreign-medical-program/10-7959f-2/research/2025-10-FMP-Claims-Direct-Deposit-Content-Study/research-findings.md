@@ -1,21 +1,27 @@
 ---
-title: "FMP Claims Content Comprehension Study Research Findings, VA Form 10-7959f-2, October 2025"
-product: "10-7959f-2 Foreign Medical Program Claim Cover Sheet"
-team: "Health Applications"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2025-12-04"
+title: FMP Claims Content Comprehension Study Research Findings, VA Form 10-7959f-2,
+  October 2025
+product: 10-7959f-2 Foreign Medical Program Claim Cover Sheet
+team: Health Applications
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2025-12-04'
 researchers:
-  - "Health Apps UX Team - Renata K, Jessica S, Hieu V"
+- Health Apps UX Team - Renata K, Jessica S, Hieu V
 research_goals:
-  - "Understand perceived content comprehension for the topic of direct deposit specifically for FMP claims."
-  - "Gain insight into any improvements that could be made to increase clarity of the direct deposit process understanding for FMP claims for reimbursement."
+- Understand perceived content comprehension for the topic of direct deposit specifically
+  for FMP claims
+- Discover if any of the direct deposit content is confusing or misunderstood by the
+  Veteran and could be a potential risk
+- Gain insight into any improvements that could be made to increase clarity of the
+  direct deposit process understanding for FMP claims for reimbursement
 methodology:
-  - "Moderated User Interview with mid-fidelity prototype"
+- Semi-structured moderated interviews
+- Mid-fidelity Figma prototype
 devices_used:
-    desktop: 6
-    tablet: 0
-    smartphone: 2
-    assistive_technology: 0
+  desktop: 6
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 0
 participants_total: 8
 demographics:
   veterans: 8
@@ -24,11 +30,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 1
-    "35-44": 2
-    "45-54": 1
-    "55-64": 2
-    "65+": 1
+    25-34: 1
+    35-44: 2
+    45-54: 1
+    55-64: 2
+    65+: 1
     unknown: 1
   education:
     high_school: 0
@@ -50,50 +56,80 @@ demographics:
     asian: 1
     native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "6 out of the 8 participants felt the introduction page content was clear with easy to understand instructions and they rated the page the highest with an average of 4.75 out of 5 for clarity"
-  - "7 participants mentioned document gathering more prominently than stating they would need to setup direct deposit first when on the introduction page."
-  - "Participants called out the content and language around the Financial Services Center (FSC), other Vendor File Form, or PIV as new terms to them that would need additional clarification or they suggested improvements."
-  - "The static page seemed to be the most confusing for participants, partly due to new terminology and processes they have not encountered at the VA before, and it also received the lowest rating for ease-of-use at an average of 4 out of 5."
-  - "Half of the participants (4/8) expressed or suggested that the direct deposit process for FMP was confusing in relation of their current direct deposit for monthly disability compensation payments."
-  # etc.
+- 6 out of the 8 participants felt the introduction page content was clear with easy
+  to understand instructions and they rated the page the highest with an average of
+  4.75 out of 5 for clarity
+- 7 of 8 participants mentioned document gathering more prominently than stating they
+  would need to setup direct deposit first when on the introduction page
+- Participants called out the content and language around the Financial Services Center
+  (FSC), other Vendor File Form, or PIV as new terms to them that would need additional
+  clarification or they suggested improvements
+- The static page seemed to be the most confusing for participants, partly due to
+  new terminology and processes they have not encountered at the VA before, and it
+  also received the lowest rating for ease-of-use at an average of 4 out of 5
+- Half of the participants (4 of 8) expressed or suggested that the direct deposit
+  process for FMP was confusing in relation of their current direct deposit for monthly
+  disability compensation payments
 recommendations:
-  - "Work with C+IA to adjust content to clarify confusion points of new terminology especially on the proposed static instructional resource page."
-  - "Work with C+IA partners to ensure it is clear that this process is separate from direct deposit for VBA payments by additional clarification."
-  - "Long-term: it would be ideal for Veterans to have secure visibility into what account the direct deposit would go to (last 4 of account, institution name) within the same flow as filing the claim."
+- Work with C+IA to adjust content to clarify confusion points of new terminology
+  especially on the proposed static instructional resource page
+- Work with C+IA partners to ensure it is clear that this process is separate from
+  direct deposit for VBA payments by additional clarification
+- 'Long-term: it would be ideal for Veterans to have secure visibility into what account
+  the direct deposit would go to (last 4 of account, institution name) within the
+  same flow as filing the claim'
 kpi_alignment:
-  - "Objective: Veterans can easily file for FMP claims online. Removing blockers and confusion around direct deposit initial setup so Veterans feel confident about filing their FMP claim online"
+- 'Objective: Veterans can easily file for FMP claims online. Removing blockers and
+  confusion around direct deposit initial setup so Veterans feel confident about filing
+  their FMP claim online'
 outcomes:
-  user: "Reducing confusion around the process to set up direct deposit for FMP claims and exactly what actions need to take and how that is different for direct deposit they have set up for VBA disability compensation payments"
-  business: "Supporting the need to have direct deposit instructions for MVP launch of the form"
+  user: Reducing confusion around the process to set up direct deposit for FMP claims
+    and exactly what actions need to take and how that is different for direct deposit
+    they have set up for VBA disability compensation payments
+  business: Supporting the need to have direct deposit instructions for MVP launch
+    of the form
 opportunity_areas:
-  - "Work with sitewide C+IA team to incorporate research findings around participant confusion of process and terminology"
-  - "Incorporate updates into form for MVP"
+- Work with sitewide C+IA team to incorporate research findings around participant
+  confusion of process and terminology
+- Incorporate updates into form for MVP
 further_research_needed:
-  - "Accessibility testing with assistive tech users"
-  - "Usability testing with a coded form in staging"
+- Accessibility testing with assistive tech users
+- Usability testing with a coded form in staging
 underserved_groups_missing:
-  - "Cognitive Disability"
-  - "LGBTQ+"
-  - "Assistive Technology Users"
-  - "Other than honorable discharge"
-  - "Hispanic, Latino, or Spanish origin"
-secondary_research:
-  - "na"
+- Cognitive Disability
+- LGBTQ+
+- Assistive Technology Users
+- Other than honorable discharge
+- Hispanic, Latino, or Spanish origin
+secondary_research: []
 synthesis_tools_used:
-  - "Spreadsheet with thematic tagging"
+- Spreadsheet with thematic tagging
+- Copilot AI workflow
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'PRDT: Caregivers'
+- 'MHV: Pharmacy'
+- usability-testing
+- semi-structured-interviews
+- moderated-research
+- remote-research
+- Accessibility
+- discovery
 ---
-
 ---
 
 # [FMP Claims Content Comprehension Study, VA Form 10-7959f-2] Research Findings 

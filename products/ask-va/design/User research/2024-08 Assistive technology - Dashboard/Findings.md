@@ -1,3 +1,98 @@
+---
+title: "Ask VA: Assistive Tech – Dashboard Research Findings"
+product: "Ask VA"
+team: "Ask VA VA.gov Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-10-04"
+researchers:
+  - "Tyler Gindraux"
+research_goals:
+  - "Identify any barriers that could prevent Veterans who use assistive technology from reviewing past questions, reading a reply from VA or replying to VA through Ask VA"
+methodology:
+  - "Moderated usability study"
+  - "Remote on Zoom"
+  - "Mocked sign in process"
+  - "Authenticated experience testing"
+devices_used:
+    desktop: 4
+    tablet: 1
+    smartphone: 4
+    assistive_technology: 9
+participants_total: 9
+demographics:
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 1
+    "45-54": 3
+    "55-64": 3
+    "65+": 2
+    unknown: 0
+  education:
+    high_school: 1
+    some_college: 2
+    associates: 2
+    bachelors: 1
+    masters: 3
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 7
+    rural: 2
+    unknown: 0
+  race:
+    white: 5
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 1
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 3
+    AT_advanced: 6
+    screen_reader_desktop: 1
+    screen_reader_mobile: 4
+    magnification_zoom: 1
+    speech_input: 3
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "It's difficult for screen reader users to tell when one card ends and another begins"
+  - "Sorting by date is less useful than filtering by status or category"
+  - "It's clear who sent each part of the conversation, but it would be easier to skim if the bold text was the sender"
+  - "People understand what each status means, apart from Reopened which is confusing when it's not related to claims"
+  - "How to navigate to the next page of cards is clear for people using different assistive technology"
+  - "7 business days is too long for most people to wait, especially knowing there are more timely ways to get information"
+recommendations:
+  - "Make it easier for screen reader users to navigate cards by grouping dashboard cards in an LI element, changing 'Check details' link to 'Review conversation', and adding sr-only class to tags"
+  - "Make it simpler to filter by removing sorting menu and defaulting to newest to oldest, adding description of how many cards are on the dashboard, and moving filter by status to first"
+  - "Make the conversation easy to read by changing first, bold text on accordions to sender and second, unbolded text to date and time, defaulting all accordions closed, and adding accordion border"
+  - "Ensure statuses are clear by reconsidering what we name the 'reopened' status or consider that reopened just sends a question back to in progress"
+  - "Fix outstanding bugs including content not continuing after ellipsis in cards and removing anchor to footer when clicking to next page"
+further_research_needed:
+  - "Search feature"
+  - "How to better sync up statuses so agents are referencing the same statuses as submitters"
+  - "Ability for submitters to say when a question has been 'answered' and can be 'closed'"
+underserved_groups_missing:
+  - "LGBTQ+ participants"
+  - "Hispanic participants"
+  - "Native participants"
+  - "Participants who use hearing aids"
+  - "Participants who use sighted keyboard"
+  - "Participants who use captions"
+secondary_research:
+  - "Previous Ask VA research studies"
+synthesis_tools_used:
+  - "Mural - Research sessions"
+  - "Mural - Research synthesis"
+---
+
 # Research findings for Ask VA: Assistive Tech – Dashboard
 
 Ask VA VA.gov Team

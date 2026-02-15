@@ -1,3 +1,108 @@
+---
+title: "CHAMPVA Claims User Research Topline Summary"
+product: "CHAMPVA Claims Form 10-7959a"
+team: "IVC Forms Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-08-01"
+researchers:
+  - "Research team member (name not specified in topline)"
+research_goals:
+  - "Test usability of CHAMPVA claims form prototype"
+  - "Understand user experience with claims submission process"
+  - "Identify usability issues and areas for improvement"
+methodology:
+  - "Remote moderated usability testing"
+  - "Working prototype testing"
+  - "Think-aloud protocol"
+devices_used:
+    desktop: 7
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 7
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  note: "Full demographics not captured in topline summary - see full research report"
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 7
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 7
+  location:
+    urban: 0
+    rural: 0
+    unknown: 7
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 7
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Participants demonstrated difficulty navigating form as third party representative or sponsor - Veterans felt redundant entering sponsor info after signer info"
+  - "Participants had basic understanding of what they need to complete claim but needed further clarification on document requirements like DX/NCT codes"
+  - "Participants understood they needed two health insurance plans and could add them easily using list-and-loop pattern, but low confidence filling insurance details"
+  - "Participants hesitated when shown alert box after adding correct number of insurance policies - distracted from review task, seemed like error"
+  - "Participants had good understanding of what a claim is (single date of service) but desired different experience for submitting multiple claims"
+  - "Participants understood work/auto accident questions but expected to submit more details if they answered yes"
+  - "Participants knew how to use file upload screen immediately but unexpected behavior in 'additional notes' accordion - expected text field for context not guidelines"
+recommendations:
+  - "Clarify sponsor role definition and consider screener question to avoid redundant data entry"
+  - "Provide examples of where to find required codes on medical bills and documents"
+  - "Remove or simplify non-required insurance fields like policy numbers"
+  - "Reconsider alert box design on insurance review page - use less alarming styling or different approach"
+  - "Explore workflow for submitting multiple claims in single session"
+  - "Consider adding conditional fields for work/auto accident details if user selects yes"
+  - "Rename 'additional notes' to clarify it contains guidelines, or add separate field for beneficiary notes"
+kpi_alignment:
+  - "Reduce claim processing time"
+  - "Improve claim submission completion rate"
+  - "Reduce incomplete claims requiring send backs"
+outcomes:
+  user: "Beneficiaries can easily submit claims with clear understanding of requirements and process"
+  business: "Reduced incomplete claims, faster processing, fewer support calls"
+opportunity_areas:
+  - "Multi-claim submission workflow"
+  - "Auto-populated insurance details"
+  - "Clearer document requirements upfront"
+  - "Better role definitions for third-party submissions"
+further_research_needed:
+  - "See full research report for comprehensive findings and recommendations"
+underserved_groups_missing:
+  - "Full demographic data not captured in topline summary"
+secondary_research:
+  - "See research plan and conversation guide linked in document"
+synthesis_tools_used:
+  - "Not specified in topline summary"
+---
+
 
 # CHAMPVA Claims User Research Topline Summary
 [link research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/10-7959a/user-research/Research-Plan-for-Integrated-Veteran-Care-(IVC)-Team%2C-Form-10-7959a%2C-August-1st.md)

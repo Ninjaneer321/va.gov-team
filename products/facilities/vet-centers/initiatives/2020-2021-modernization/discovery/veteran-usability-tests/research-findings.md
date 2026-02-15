@@ -1,3 +1,126 @@
+---
+title: "Vet Center - non-client, Veteran - detail page usability study Research Findings"
+product: "Vet Centers"
+team: "VSA Facility Locator"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-01-04"
+researchers:
+  - "Leyda Hughes"
+research_goals:
+  - "Understand if Veterans would have enough information to choose care at a Vet Center"
+  - "Gain high level input on Veteran's understanding and usability of parent vs child location IA"
+  - "Gain high level input on Veteran's understanding and usability of service taxons"
+  - "Gain high level input on Veteran's understanding and usability of logistical information"
+methodology:
+  - "Remote moderated usability testing"
+  - "Directed interviewing"
+  - "Task analysis"
+devices_used:
+    desktop: 9
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 9
+demographics:
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 2
+    "45-54": 1
+    "55-64": 3
+    "65+": 3
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 9
+  location:
+    urban: 3
+    rural: 6
+    unknown: 0
+  race:
+    white: 6
+    black: 2
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Most Veterans thought they were looking at a medical facility's website."
+  - "Veterans who have been through counseling are comfortable with the term, 'Mental health care'."
+  - "Veterans expected to see more service information available within each service accordion."
+  - "COVID alert created usability issues for most participants."
+  - "A satellite's location influences the type of care assumed to be available there."
+  - "How a Veteran prepares for a visit varies widely depending on their context."
+  - "Placement and user experience of 'More locations' was unexpected."
+  - "Positioning Vet Centers as being for those 'transitioning', alienates some Veterans."
+  - "Women were more apt to look for all their care in Women Veteran Care."
+  - "A Veteran's mental state impacts their ability to cope with challenge."
+recommendations:
+  - "Increase information scent to allow Veterans to understand the page with only a scan."
+  - "Shorten or replace intro copy, try tags or more scannable descriptors instead"
+  - "reconsider 'readjustment counseling centers'"
+  - "Segment services into 'Mental health counseling' and 'social services' to give the page more context and make the facility's purpose more scannable"
+  - "consolidate list of services to be more focused and scannable"
+  - "Test 'Mental health care' vs 'Counseling' taxons on Veterans who have not gone engaged in either."
+  - "Make it more obvious that this is a small facility with one direct number to call."
+  - "Reduce height of COVID alert, progressively disclose details and/or reconsider placement."
+  - "Include more 'Prepare for your visit' details in next prototype."
+  - "Try 'Satellite locations' within 'Location and contact information', remove it from 'On this page'."
+  - "Downplay that VC's are for 'transitioning' Veterans."
+  - "Give more attention to 'Women Veteran Care' service as the likely place a women will explore first."
+  - "Move call center alert to the top of page for Veterans to see first during off hours."
+  - "Keep 'Satellite' as a way to describe community access points and outstations."
+  - "Consider increasing the fonts size of 'On this page'."
+  - "Reconsider 'Spotlight boxes' or enhance their design to be more interesting."
+  - "If used, 'Mobile Care Unit' should be decoupled from list of services. Try treating it as a modality or as a separate location type with 'Satellite office'."
+  - "Remove 'Psychology' as a Vet Center service."
+  - "Keep diverse Veteran population representation but reconsider design to keep service list short."
+  - "Consider 'Group counseling' as a new taxon and give as much information about who, what, where and how to engage in this service within the accordion."
+  - "Lose 'Peer' in 'Peer group counseling' but consider it in describing the concept of groups segmented by affinity that Veterans valued over group therapy that 'lumps' all Veterans in the same group."
+  - "Work with copywriter on 'Military sexual trauma care' and all other service taxons/descriptions."
+  - "Consider cross-promoting Vet Centers from main VA medical facility pages mental health sections."
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
+further_research_needed:
+  - "Test refined prototype with Vet Center client Veterans and service members"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+  - "Mural"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "DSC: Accordions"
+  - "DSP: Content Presentation"
+  - "DSP: Contextual Help"
+  - "Accessibility"
+  - "usability-testing"
+  - "evaluative"
+---
+
 # Research Findings: Vet Center - non-client, Veteran - detail page usability study
 **Digital Services Veterans Affairs (DSVA), VSA, Facility Locator**<br>
 

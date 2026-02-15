@@ -1,3 +1,110 @@
+---
+title: "Address Management Veteran Feedback Research Findings"
+product: "VA Profile"
+team: "Not specified"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-04-30"
+researchers:
+  - "Not specified"
+research_goals:
+  - "Understand how Veterans manage their addresses with the VA"
+  - "Learn about Veterans' experiences updating address information across VA systems"
+  - "Identify pain points in the address update process"
+  - "Understand Veterans' preferences for address management modalities"
+methodology:
+  - "Remote interviews"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 8
+demographics:
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 1
+    "35-44": 0
+    "45-54": 1
+    "55-64": 2
+    "65+": 2
+    unknown: 2
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
+  location:
+    urban: 0
+    rural: 0
+    unknown: 8
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Veterans have built manual processes to manage their addresses at the VA. In part this is due to a disparate awareness of new functionalities, such as the ability to update an address on VA.gov that is shared with an increasing proportion of the VA enterprise."
+  - "Address management is seen as a necessary evil to participation in VA benefit programs. Simultaneously, veterans desire a more modern approach that is flexible and trustworthy."
+  - "Most veterans prefer address management modalities with a human touch, as it gives them a sense of reliability and security."
+  - "Veterans recognize that having up to date address and contact information is directly tied to their ability to receive benefits from the VA."
+  - "Seven of our eight interviewees were not aware that they could update their address via their profile on VA.gov."
+  - "Veterans use four avenues to update or change their address information: online via myHealtheVet (MHV) or eBenefits, in person at a VA facility or pharmacy, or via phone calls to the VA 1800 national call line."
+  - "Veterans will use MHV and eBenefits to update addresses, but expect a manual process of verifying that the address change went through when done online."
+  - "Overall, there's a lack of clarity on whether an address change online translates across the VA or not."
+  - "The primary pain points that surfaced in the interviews we conducted were the manual nature of the process, the distributed and disjointed nature of the system, and outdated technology."
+  - "Veterans understand the high risk of mis-mailed prescriptions."
+  - "Veterans are highly aware of the impact missed mail can have on claims processing."
+  - "Veterans champion modernization and consolidation, asking for the ability to change their address online, as well as an increase in email notifications instead of mailings, or control over their communication preferences."
+recommendations:
+  - "Awareness campaigns to inform veterans and beneficiaries about the address change functionality on VA Profile"
+  - "Alongside this, institute 'trust-building' measures on VA Profile. For example, once an address change is done on VA Profile, provide email confirmation or similar 'receipt'"
+  - "Explore consolidating any address change functionality to VA.gov profile. i.e. MHV address changes either turned off or relegated solely to a 'pharmacy address'"
+kpi_alignment: []
+outcomes:
+  user: "Veterans can reliably update their address and trust that the change propagated across VA systems"
+  business: "Reduce address-related issues with mail delivery and benefit processing"
+opportunity_areas:
+  - "Little awareness of online address change options on VA.gov"
+  - "Desire for a consolidated and trustworthy address change process"
+  - "Need for confirmation and receipts for address changes"
+  - "Preference for 'one-stop-shop' for all address updates"
+  - "Need for transparency about which VA systems connect or don't connect"
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research:
+  - "Open source research from online forums"
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Personal Health Records/Medical Records"
+  - "MHV: Pharmacy"
+  - "PRDT: VA Profile"
+  - "DSP: Ask users for addresses"
+  - "semi-structured-interviews"
+  - "generative"
+---
+
 # Address Management Veteran Feedback
 
 ## Methodology

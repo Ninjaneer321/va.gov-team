@@ -1,3 +1,150 @@
+---
+title: Version 1 User Testing Research Findings
+product: Veteran Transition Support (VTS)
+team: Transition Experience Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-11-01'
+researchers:
+- Cora Goldston
+- Ronnie Young
+research_goals:
+- Understand how Version 1 of the Veterans Transition Assistant starts to meet the
+  needs of transitioning service-members and current Veterans
+- Test specific features in the Version 1 MVP including Skipping Questions, Review
+  Answers Page, Sorting and Filtering
+- Determine expectations of users given the baseline MVP of Version 1
+- Find out additional features and systems that can be added to VTS in future versions
+methodology:
+- Remote moderated user testing sessions
+- Clickable Figma prototype testing
+- Semi-structured interviews
+devices_used:
+  desktop: 12
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 12
+demographics:
+  veterans: 6
+  service_members: 6
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 6
+    35-44: 2
+    45-54: 0
+    55-64: 0
+    65+: 1
+    unknown: 3
+  education:
+    high_school: 0
+    some_college: 2
+    associates: 5
+    bachelors: 3
+    masters: 1
+    doctorate: 0
+    unknown: 1
+  location:
+    urban: 0
+    rural: 0
+    unknown: 12
+  race:
+    white: 5
+    black: 5
+    hispanic: 2
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 12
+key_findings:
+- Most participants wanted a name that's straightforward and describes the tool's
+  purpose
+- Some participants also valued a name that's catchy and easy to remember
+- Participants overwhelmingly said this tool would be useful for Veterans and servicemembers,
+  particularly those just starting their VA journeys
+- Several participants felt the Results page was logically organized and easy to use
+- Participants identified opportunities to make certain elements stand out more on
+  the Results page
+- Several participants said they would NOT use the Share my results button - instead
+  they would screenshot or download the page
+- Some participants did NOT see the Share my results button on the screen
+- Several participants thought they would find pre-discharge disability claim and
+  personalized career guidance info under VR&E and/or the GI Bill
+- Many participants did NOT explore the Show benefits that I may not qualify for section
+- Although the pre-discharge disability claim task mentioned a time window, some participants
+  did NOT look under Time-sensitive benefits
+- Mental health support would be useful as part of this tool
+- Tool should be cognizant of senior Veterans needs
+recommendations:
+- Address mental health in a non-confrontational way
+- Find another way to display the Time sensitive benefits - more than half the users
+  didn't see it
+- Find ways to emphasize the Share your results button through improved location and
+  wording
+- Make the Years of service question a standard stepping of time, not specific to
+  the benefits
+- Add response options for I've submitted but haven't gotten a rating and I've started
+  the process but haven't submitted to the disability rating question
+- Add response options for GI Bill question to cover all aspects of the application
+  process
+- Consider how to collect character of discharge information without making users
+  uncomfortable - add helper text about potential eligibility regardless of discharge
+  type
+- Review the mocks for accessibility with smaller helper text/subdued text formatting
+kpi_alignment:
+- Enhance Veterans personalized online experience
+- Drive OIT Digital Transformation Strategy
+outcomes:
+  user: Veterans and transitioning servicemembers can easily discover and understand
+    relevant benefits based on their individual circumstances
+  business: Improved benefit discovery process reduces support burden and increases
+    benefit utilization
+opportunity_areas:
+- Mental health support integration
+- Enhanced visibility of time-sensitive benefits
+- Senior Veteran specific features and considerations
+- Character of discharge handling improvements
+further_research_needed:
+- Research with Assistive technology users
+- Mobile device user testing
+- Testing with senior Veterans (65+)
+- Research with LGBTQ+ Veterans and transitioning servicemembers
+underserved_groups_missing:
+- Veterans with cognitive disabilities
+- Veterans on mobile devices
+- Veterans who live in rural areas
+- Veterans with Other than Honorable discharges
+- Veterans of immigrant origin
+- Senior Veterans (65+) - only recruited 1 of target 50%
+- LGBTQ+ Veterans and servicemembers
+secondary_research:
+- Previous VA benefit discovery tool research
+- TAP (Transition Assistance Program) effectiveness studies
+synthesis_tools_used:
+- Mural
+- Affinity mapping
+tags:
+- 'AUD: Veterans'
+- 'AUD: Service Members'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- moderated-research
+- remote-research
+- semi-structured-interviews
+- evaluative
+---
 # Version 1 User Testing — Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), V1 Transition Experience, Transition Experience Team**

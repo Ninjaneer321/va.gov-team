@@ -1,3 +1,126 @@
+---
+title: "VA Form 40-1330M Medallions Research Findings"
+product: "VA-Form 40-1330M Medallions"
+team: "Memorials Self Service"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-10-30"
+researchers:
+  - "Charles Barron (charles.barron@va.gov)"
+  - "Carly Yamrus (carly.yamrus@va.gov)"
+research_goals:
+  - "Design a form that is straightforward and inclusive of the information needed to determine eligibility for a medallion"
+  - "Test the usability of the medallions digital form and multiple signature solution to ensure that it is easily usable and accessible for applicants"
+  - "Identify pain points that may hinder user's ability to complete the form and multiple signature solution, confirming users understand the application process thoroughly from beginning to end"
+methodology:
+  - "Remote usability testing"
+  - "Clickable, interactive Figma prototype testing"
+  - "Moderated sessions via Zoom"
+  - "Scenario-based testing with two user personas (family member and funeral home representative)"
+devices_used:
+    desktop: 5
+    tablet: 0
+    smartphone: 2
+    assistive_technology: 0
+participants_total: 8
+demographics:
+  veterans: 7
+  service_members: 0
+  caregivers: 7
+  dependents: 0
+  VA_staff: 1
+  age:
+    "25-34": 2
+    "35-44": 2
+    "45-54": 0
+    "55-64": 0
+    "65+": 4
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 3
+    associates: 0
+    bachelors: 3
+    masters: 2
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 3
+    rural: 5
+    unknown: 0
+  race:
+    white: 3
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 1
+    native: 1
+  disability:
+    cognitive: 5
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  gender:
+    male: 3
+    female: 5
+  lgbtq:
+    total: 0
+  immigrant_origin: 2
+key_findings:
+  - "Nearly all participants felt reassured by the help links and additional info components"
+  - "Nearly all participants voluntarily opted in to Veteran demographics questions"
+  - "Some users were hesitant to enter Veteran information if they didn't know for sure"
+  - "Most participants generally understood questions regarding burial and claimed remains but made assumptions about eligibility requirements regarding cremation"
+  - "Some participants experienced confusion around medallion type and sizing"
+  - "All participants completed the two-part application process, saying it was quick and straightforward"
+  - "Address validation was familiar and easily understood by most participants"
+recommendations:
+  - "Add help text in the demographics section to further explain the 'prefer not to answer' option"
+  - "Explore content additions for additional help in finding important Veteran's information"
+  - "Explore content improvements to better explain 'unclaimed remains' with an additional info component instead of defining 'next of kin'"
+  - "Explore content improvements to better explain medallion sizing"
+  - "Provide hint text for medal of honor eligibility, citing documents that will be needed as evidence for this benefit"
+  - "Provide additional help with sizing requirements and possible cemetery restrictions"
+kpi_alignment:
+  - "Increase digital form completion rates for medallion applications"
+  - "Reduce errors and confusion during form completion"
+  - "Improve user satisfaction with VA digital forms"
+outcomes:
+  user: "Family members, VSO officers, funeral homes, cemeteries, and personal representatives can easily apply for a medallion for a Veteran buried in a private cemetery with less confusion and greater confidence in the process"
+  business: "Modernize the medallion application system, reduce processing time, decrease support calls, and improve overall user satisfaction with the digital form experience"
+opportunity_areas:
+  - "Need for clearer guidance on Veteran information requirements when applicant is unsure"
+  - "Opportunity to better explain cremation scenarios in burial location questions"
+  - "Need for visual representation of medallion sizes on actual headstones"
+  - "Opportunity to provide more context for Medal of Honor eligibility requirements"
+  - "Need to clarify cemetery restrictions related to medallion sizing"
+further_research_needed:
+  - "Test with Veterans Service Organizations to validate form usability from their perspective"
+  - "Conduct accessibility testing with assistive technology users"
+  - "Test on mobile devices more extensively"
+  - "Validate medal of honor eligibility content and document requirements"
+  - "Test visual representations of medallion sizing options"
+underserved_groups_missing:
+  - "Veterans with other than honorable discharge"
+  - "Expats living abroad"
+  - "LGBTQ+ community"
+  - "Assistive technology users (due to prototype limitations)"
+secondary_research:
+  - "Review of stakeholder requirements for medallion eligibility"
+  - "Analysis of current paper form process and pain points"
+  - "SME interviews about medallion types and sizing"
+  - "Review of multiple signatures process requirements"
+synthesis_tools_used:
+  - "Mural"
+  - "Affinity mapping"
+  - "Note synthesis from moderator, notetakers, and observers"
+---
+
 # [VA Form 40-1330M] Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), VA-Form 40-1330M Medallions, Memorials Self Service**

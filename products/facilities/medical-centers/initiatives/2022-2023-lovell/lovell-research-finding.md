@@ -1,3 +1,98 @@
+---
+title: "Lovell Federal Experience - Research Findings"
+product: "Medical Centers"
+team: "Facilities Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-07-11"
+researchers:
+  - "Valerie Runde"
+  - "Dave Pickett"
+research_goals:
+  - "Determine if Veterans and dual-eligible Veterans know where they can receive care at Lovell Federal Health Care Center"
+  - "Assess if participants notice and understand the informational alert"
+  - "Understand if dual-eligible Veterans understand when to use the VA health care experience vs. the TRICARE health care experience"
+methodology:
+  - "Remote moderated usability testing"
+  - "UXPin prototype testing"
+devices_used:
+    desktop: 11
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 11
+demographics:
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 2
+    "35-44": 0
+    "45-54": 4
+    "55-64": 0
+    "65+": 5
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 11
+  location:
+    urban: 8
+    rural: 3
+    unknown: 0
+  race:
+    white: 7
+    black: 4
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Across all participants and tasks, the informational alert was only noticed only 7/22 times = 32% success rate"
+  - "Many participants were attempting to utilize other navigational elements that they were already familiar with to get to their destination: Site search, Find a location, On this page, Health services"
+  - "Most participants began (or continued) their task by first scrolling through the page they were already on"
+  - "Top Task buttons are the primary call-to-action on the page and compete with the informational alert"
+  - "When asking VA beneficiaries whether they are familiar with TRICARE, most indicated they were aware of it, but didn't know much about it"
+  - "Most of our participants either use one or the other, almost exclusively. There are few instances of Veterans using both."
+  - "Why dual-eligible Veterans choose VA or TRICARE: Local facility convenience - 3/5, Familiarity with system - 2/5, Coverage for specific health services - 2/5, Different family members use different benefits - 1/5"
+  - "The actual journey to receive care and benefits isn't always clear to Veterans"
+  - "Most participants indicated they visit VA.gov weekly. Most common reasons include: Pay bills, secure messaging, appointments, MyHealtheVet, checking claims, finding forms, prescription refills."
+  - "Most Veterans are attempting to complete very specific tasks while on VA.gov, and don't browse very often"
+  - "Many of the Veterans we spoke to indicated the high number of other emails, phone calls, and other communications they receive"
+  - "When searching for a location, the majority of Veterans we spoke to would immediately start at Google."
+recommendations:
+  - "More refined understanding of shared vs. separate VA and DoD content"
+  - "Differing VA and DoD Services taxonomy"
+  - "Explore a single site architecture"
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing:
+  - "Veterans without a college degree"
+secondary_research: []
+synthesis_tools_used:
+  - "Mural"
+---
+
 # Lovell Federal Experience - Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Medical Centers, Facilities Team**

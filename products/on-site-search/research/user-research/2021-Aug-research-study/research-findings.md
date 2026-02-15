@@ -1,3 +1,116 @@
+---
+title: "Search Design Concepts Usability Research Findings"
+product: "On-site Search"
+team: "Search & Discovery"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-09-27"
+researchers:
+  - "Cindy Merrill"
+research_goals:
+  - "Get user feedback on new design concepts for surfacing site search and other search tools"
+  - "Assess utility and usability of a new search landing page with links to other search tools"
+  - "Evaluate usability of a new link on the VA.gov home page under the top 4 boxes that goes to the new search landing page"
+  - "Test search in the header as a link that goes to the new search landing page"
+  - "Evaluate new links at the bottom of the search results page that go to other search tools"
+methodology:
+  - "Remote moderated research sessions via Zoom"
+  - "UXPin prototypes"
+  - "Task-based usability testing"
+devices_used:
+    desktop: 5
+    tablet: 2
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 7
+demographics:
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 3
+    "35-44": 1
+    "45-54": 1
+    "55-64": 0
+    "65+": 1
+    unknown: 1
+  education:
+    high_school: 1
+    some_college: 1
+    associates: 2
+    bachelors: 2
+    masters: 1
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 5
+    rural: 2
+    unknown: 0
+  race:
+    white: 7
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 1
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "All of the new design concepts were used by multiple participants to complete tasks, though there were a few usability issues"
+  - "Despite the new design concepts, some participants still got stuck"
+  - "Using different search tools on different pages is confusing (i.e., VA.gov site search, Find a VA Form, Resources and Support)"
+  - "Most participants preferred to browse VA.gov web pages first, before searching"
+  - "Most participants said that they typically use Google to find VA information"
+recommendations:
+  - "Consider consolidating all the search tools into the main site search interface"
+  - "If we don't implement the previous recommendation, then consider implementing all 4 of the design concepts because each helped multiple participants to complete tasks and avoid getting stuck"
+  - "Work with the Search.gov team to try to get more relevant search results"
+  - "Since so many people get to VA.gov through Google, see if we can improve the Google search path by improving metadata on VA content pages"
+  - "Consider renaming Resources and Support to FAQs because this is a more widely used term that users understand"
+  - "Consider adding Resources to the header next to Find VA Location to enable more Veterans to find it"
+  - "Consider making the headers in the top 4 boxes into links because that's where many Veterans look first"
+kpi_alignment: []
+outcomes:
+  user: "Veterans can find VA information more easily using search tools and avoid getting stuck"
+  business: "Improve search task completion and reduce user frustration with search on VA.gov"
+opportunity_areas:
+  - "Search results quality needs improvement with too many irrelevant results"
+  - "Resources and Support name is too vague for Veterans to understand its purpose"
+  - "Veterans need better wayfinding to understand when to use different search tools"
+further_research_needed:
+  - "If any new design concepts get launched, look at the analytics and assess the actual usage of the new links"
+  - "Look especially at the usage of mobile users since they weren't included in this research"
+underserved_groups_missing:
+  - "Identify as Black, Hispanic, Biracial, Asian, Native, or LGBTQ+"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Users of Assistive Technology"
+secondary_research: []
+synthesis_tools_used:
+  - "Synthesis spreadsheet"
+  - "Notes and takeaways from the team"
+tags:
+  - "AUD: Veterans"
+  - "DSC: Search Input"
+  - "HDW: Desktop"
+  - "HDW: Tablet"
+  - "usability-testing"
+  - "search"
+  - "evaluative"
+  - "information architecture"
+---
+
 # Search Design Concepts Usability Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE) and VSA, Search & Discovery**

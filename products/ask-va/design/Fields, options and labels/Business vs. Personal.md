@@ -3,9 +3,13 @@ This doc explains when inquiries are categorized as Business or Personal. AKA wh
 
 ## Rules
 ### For questions for the “Education benefits and work study” category
-- These are all going to be “general questions” 
+- These questions will always be categorized as "general questions"
 - For What is your relationship to the Veteran?, select: 
    - I'm connected to the Veteran through my work (for example, as a School Certifying Official or fiduciary)
+
+When a 
+1. User selects Education benefits and work studay category 
+2. and answers "What is your relationship to the Veteran?" by selecting "I'm connected to the Veteran through my work (for example, as a SCO, or fiduciary)
 
 ### For all other questions 
 - For Who is your question about?

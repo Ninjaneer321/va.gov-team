@@ -1,3 +1,132 @@
+---
+title: "Requests discovery - report Research Findings"
+product: "VA Online Scheduling (VAOS)"
+team: "VA Online Scheduling Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-11"
+researchers:
+  - "Not specified"
+research_goals:
+  - "Understand if Veterans comprehend the transition from self-scheduled appointments to requests during the scheduling flow"
+  - "Evaluate alternative options to making a request and determine if they help Veterans make choices about how to schedule their appointment that better fit their needs"
+  - "Validate if Veterans expect to see requests listed with their existing appointments"
+  - "Test new designs for request calendar, best times to call, confirmation, and review pages with clarified 'request' language"
+methodology:
+  - "Remote prototype testing"
+  - "Task-based usability testing"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 8
+demographics:
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 3
+    "45-54": 1
+    "55-64": 3
+    "65+": 1
+    unknown: 0
+  education:
+    high_school: 1
+    some_college: 2
+    associates: 1
+    bachelors: 1
+    masters: 3
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 8
+  race:
+    white: 5
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "7/8 participants understood that they were requesting an appointment"
+  - "Most participants chose 'have the facility call me back' as their preferred option"
+  - "Participants need feedback that their request was received, and expect a call back within 1-2 days"
+  - "Most participants found their requested appointments in the status dropdown"
+  - "It generally took participants longer to read this page than other pages in the flow"
+  - "4/8 participants indicated frustration when they saw that the facility 'doesn't allow self-scheduling online.' After reading further, all realized they could still complete the process online. This reduced frustration for 3 of them"
+  - "By the end of the test, 4/8 participants said that, of the options presented, they would prefer requesting an appointment online"
+  - "No other participant indicated a preference for calling the facility to schedule. Participants reported the same pain points around wait times and navigating the phone tree that we've heard in other studies"
+  - "3/8 participants said they would prefer to schedule via a secure message"
+  - "3/8 said they had used secure messaging before but had to send multiple messages before they received a response, if they received one at all. None of them chose secure message as their preference"
+  - "3/8 expected to be able to send a message directly after selecting the option. The link to secure messaging was especially frustrating to P2"
+  - "3/8 participants indicated they would have preferred the option to self-schedule over all the other options presented"
+  - "2/8 wanted an indication that an appointment could only be requested earlier in the flow"
+  - "All participants expected that a scheduler would contact them within 24-48 hours of the request being made. If they heard nothing in a short time, they would call the facility"
+  - "2/8 participants had previously used VAOS and abandoned it for other scheduling methods after bad experiences with appointment requests"
+  - "5/8 clicked the dropdown when prompted to find information about the appointment they had just requested"
+  - "3/8 clicked the CTA to view requests. The others gave no indication that they saw this CTA"
+recommendations:
+  - "Add the new page that asks Veterans to choose scheduling options at points in the flow when an appointment can only be requested"
+  - "Remove the 'doesn't allow self-scheduling online' content from that page. It's confusing, too much information, and doesn't help Veterans the decision posed by this page"
+  - "Consider clarifying the content of the phone option to indicate what's coming next, i.e. 'I'll call this facility, show me their contact information'"
+  - "A clunky experience navigating to Secure Messaging will add frustration if it is encountered after reaching a dead end in online scheduling. The transition from VAOS to Secure Messaging needs to be smooth to keep frustration with the process at a minimum"
+  - "Consider adding helpful information about the facility to the 'call' page. Participants suggested: Hours of operation, so they know if someone will be there when they call; Direct clinic extension based on their chosen type of care"
+  - "Continue to explore ways to call out that an appointment can only be requested, vs. self-scheduled, earlier in the scheduling flow"
+  - "Requests currently represent the vast majority of appointments scheduled through VAOS. We believe that the lack of consistency in response time to requests is one of the biggest impediments to a positive experience with VAOS. Other than offering self-scheduling universally, we believe that one of the most impactful ways improve Veterans' experience with VAOS is for VA to ensure requests are responded to quickly and accurately"
+  - "The VAOS team should review the content and cadence of email notifications sent out after a request for clarity and accuracy"
+  - "Consider a solution that will expose all statuses at once, without an additional click"
+  - "Make the CTA for opening requests stronger than what was presented in the prototype, by putting it on the same visual hierarchy as a regular appointment card"
+  - "Separate best times to call and contact info into new pages"
+  - "Consider making contact info editable from the review page if we have contact info on file"
+  - "Update the contact info page content to clarify the difference between updating this information just for VAOS vs. in the profile"
+  - "Review content and UI of the review and submit page. Consider condensing the data on desktop views to increase the likelihood that the submit button will be within the viewport"
+kpi_alignment: []
+outcomes:
+  user: "Increase Veteran satisfaction with VA.gov"
+  business: "Decrease call center volume, wait time, time to resolution; Decrease time to successfully complete and submit online transactions"
+opportunity_areas:
+  - "Consistency in response time to appointment requests is one of the biggest impediments to a positive experience with VAOS"
+  - "Transition from VAOS to Secure Messaging needs improvement to avoid frustration"
+  - "Need clearer indication earlier in flow that appointment can only be requested vs. self-scheduled"
+  - "Need to improve visibility of requests CTA on home page"
+further_research_needed:
+  - "Testing the scheduling options page with and without the SM option and comparing abandonment rate, time on page, and next steps"
+  - "Working out the flow to Secure Messaging at a less critical point in the process (such as adding it as an option to the VAOS home page) before adding it to the request flow"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+  - "Affinity mapping"
+related_research:
+  - "Research plan: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2021-11-request-clarification-research/research-plan.md"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Family Member"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "DSC: Button"
+  - "DSC: Alert Boxes"
+  - "DSP: Ask users for a single response"
+  - "DSP: Help users to check answers"
+  - "usability-testing"
+  - "evaluative"
+---
+
 # Requests discovery - report
 
 ## Background

@@ -1,3 +1,158 @@
+---
+title: MHV on VA.gov Medications Findability Study Research Findings
+product: My HealtheVet on VA.gov - Medications
+team: MHV on VA.gov
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-03-04'
+researchers:
+- Anne Costello Kennedy
+research_goals:
+- Identify how Veterans find a medication in My HealtheVet or VAHB-Mobile
+- Identify how Veterans find information on their medications
+- Identify how Veterans make sense of their medication lists
+- Identify how Veterans' experiences with My HealtheVet/VAHB-Mobile and other websites/apps
+  inform their expectations
+methodology:
+- Moderated interviews
+- Closed card sort activity
+- Remote sessions
+- Visual anchors using VA medication refill applications
+devices_used:
+  desktop: 17
+  tablet: 0
+  smartphone: 1
+  assistive_technology: 0
+participants_total: 18
+demographics:
+  veterans: 18
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 2
+    35-44: 4
+    45-54: 1
+    55-64: 2
+    65+: 9
+    unknown: 0
+  education:
+    high_school: 5
+    some_college: 5
+    associates: 1
+    bachelors: 5
+    masters: 2
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 12
+    rural: 6
+    unknown: 0
+  race:
+    white: 8
+    black: 5
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 2
+    prefer_not_to_answer: 2
+  disability:
+    cognitive: 8
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  gender:
+    male: 16
+    female: 2
+key_findings:
+- Half the participants (9 of 18) stated they are looking for their medication names
+  when first logging into their medications platform
+- Many participants (6 of 18) stated they are first looking to see which medications
+  are due for refill when logging in
+- Many participants (7 of 18) included remaining refills as secondary to what they
+  look for
+- Most participants (14 of 18) placed the 3 active medications with refills available
+  at the top of their card sort, sorted by refills left then last fill date
+- Most participants (14 of 18) placed non-VA active medication after active medications,
+  followed by expired and discontinued medications
+- All participants (18 of 18) stated they want medications they no longer take or
+  need removed from their medication list
+- Many participants (6 of 18) reported looking for side effects associated with their
+  medications in the past
+- Most participants (12 of 18) reported looking to the internet for medication information
+  including Google, WebMD, Drugs.com, and Mayo Clinic
+- Most participants (16 of 18) did not report regularly referencing their medication
+  bottle for information
+- Most participants (12 of 18) stated they would look through their medication list
+  or medication history to find dosage of a medication they hadn't used in years
+- Most participants (14 of 18) reported relying on the name when looking for a medication
+  in their medication platform
+- Most participants (13 of 18) stated they would contact their provider or pharmacist
+  if they had trouble locating a medication
+- Participants were mixed in their responses when asked if they would add or change
+  anything about their current experience to help them find a medication quickly
+recommendations:
+- Veterans want to see their active refillable medications - designs should set Veterans
+  up to refill quickly and easily
+- Make 'refills left' prominent as Veterans worry about having medications on-hand
+  so no doses are missed
+- Make name prominent and include alphabetical order in sort options as Veterans rely
+  on names to identify medications
+- Consider archive or history page/tab for expired and discontinued medications
+kpi_alignment:
+- Improve medication findability efficiency
+- Reduce time to locate specific medications
+- Increase successful medication refills
+outcomes:
+  user: Veterans can quickly find medications they need to refill or review with clear
+    visual hierarchy
+  business: Reduced support calls about medication location and increased self-service
+opportunity_areas:
+- Implement archive/history functionality for expired and discontinued medications
+- Explore search functionality with autofill based on first few letters
+- Optimize sort and filter features based on Veteran preferences
+further_research_needed:
+- Test proposed medication list organization with Veterans
+- Validate archive/history page concept
+- Research search functionality preferences
+underserved_groups_missing:
+- Other than honorable
+- Immigrant origin
+- Expat
+- Biracial
+- Asian
+- LGBTQ+
+- Assistive technology users
+secondary_research:
+- Usability studies conducted by MHV on VA.gov UCD team and VAHB Mobile team - 37
+  of 38 participants scrolled to find medications
+- Medallia intercept and feedback surveys (N=7719, 06/4/20-10/31/23) - 17 Veterans
+  requested search function, 13 requested all medications on one list
+- Competitive analysis of commercial pharmacy products (Cigna, FollowMyHealth, MyChart,
+  Walgreens) - all provide option to remove/archive medications
+synthesis_tools_used:
+- Mural
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: Caregivers'
+- 'MHV: Pharmacy'
+- 'MHV: Secure Messaging'
+- 'MHV: Personal Health Records/Medical Records'
+- semi-structured-interviews
+- moderated-research
+- remote-research
+- card-sort
+---
 # MHV on VA.gov, Medications, Findability Study Research Findings
 
 Date: 03/04/2024

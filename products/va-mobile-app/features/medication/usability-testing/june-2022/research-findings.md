@@ -1,3 +1,137 @@
+---
+title: 2022 VA Mobile Rx Refill/Pharmacy Usability Test Research Findings - June 2022
+product: VA Mobile App - Rx Refill
+team: VA Mobile App Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2022-06-30'
+researchers:
+- Esther Kitavi
+- Brenda Rocha
+- Alex Taylor
+research_goals:
+- Determine if the current concept of refilling a prescription matches Veteran's expectations
+  and understanding
+- Identify major usability or content issues with the current concept of viewing prescription
+  history and tracking prescriptions
+methodology:
+- Remote moderated usability study
+- Low fidelity Figma prototype testing
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 10
+  assistive_technology: 0
+participants_total: 10
+demographics:
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
+    unknown: 10
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 10
+  location:
+    urban: 0
+    rural: 0
+    unknown: 10
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Participants enjoyed the clean, minimal style of the Pharmacy Landing Page
+- Participants liked how easy it was to find and refill their refillable prescriptions
+- Participants liked being able to filter and look for more detailed information as
+  needed
+- Participants wanted more of a confirmation when submitting their refill requests
+- Participants wanted a place to view all of the in process prescriptions
+- Participants have a lot of faith in VA prescription shipping
+- Participants didn't understand what the non-refillable tab was, and why it contained
+  a separate list of prescriptions
+- Participants stated they didn't need all of the metadata upfront in order to refill
+recommendations:
+- Create a refills-in-progress list or area for users to view their prescriptions
+  that are submitted, in process, on hold, or trackable
+- Add a confirmation summary screen once the user has submitted their refill requests
+- Replace the tracking section on the landing page with a section or button that links
+  to in-progress prescriptions
+- Change the concept of a non-refillable tab and put these prescriptions in the list
+  of prescriptions deemed in-progress
+- Consider removing unnecessary metadata from the Refill list modal
+- Incorporate the tracking list/index into another list or screen
+- Group the RX number with the prescription name
+- Remove additional prescription information from the tracking details view
+- Design and build the Renewal requests experience
+- Implement status update notifications and tracking notifications
+- Consider incorporating a history view for prescriptions to see how medications have
+  changed over time
+kpi_alignment:
+- Veterans can manage their health services online (OCTO Objective 2)
+- Veterans and their families can find a single, authoritative source of information
+  (OCTO Objective 5)
+- Logged-in users have a personalized experience, with relevant and time-saving features
+  (OCTO Objective 6)
+- Veterans and their families trust the security accuracy and relevancy of VA.gov
+  (OCTO Objective 7)
+outcomes:
+  user: Veterans can easily request prescription refills through the mobile app with
+    clear status tracking
+  business: Increased usage of digital self-service tools; decreased call center volume,
+    wait time, and time to resolution
+opportunity_areas:
+- Renewal requests through secure messaging
+- Prescription version history for dosage changes
+- Better status clarity and definitions
+further_research_needed:
+- Test refined refills-in-progress concept
+- Validate confirmation summary screen design
+- Test with assistive technology users
+underserved_groups_missing:
+- Veterans who live in rural areas or abroad
+- Veterans who identify as Black, Latinx, Native
+- Veterans who identify as LGBTQ+
+- Veterans of immigrant origin
+secondary_research:
+- Participant demographics tracker
+synthesis_tools_used:
+- Research synthesis document
+- Affinity mapping
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Healthcare'
+- 'MHV: Pharmacy'
+- 'MHV: Secure Messaging'
+- usability-testing
+- moderated-research
+- remote-research
+---
 # Research Findings for 2022 VA Mobile Rx Refill/Pharmacy Usability Test
 
 

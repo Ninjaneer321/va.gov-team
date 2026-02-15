@@ -1,3 +1,121 @@
+---
+title: 2025 Q1 Survey Data Findings
+product: Identity and Sign-in
+team: Identity Experience Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2025-04-30'
+researchers:
+- Clayton Zook
+research_goals:
+- Monitor quantitative data from Medallia surveys and MyVA411 call center regarding
+  sign-in and authentication experiences
+- Identify trends and themes in user feedback about identity verification, account
+  setup, and sign-in issues
+- Track sentiment changes and task completion rates for sign-in related activities
+methodology:
+- Quantitative analysis of Medallia feedback survey data
+- Quantitative analysis of Medallia intercept survey data
+- Analysis of MyVA411 call center data
+- Qualitative coding and thematic analysis of survey responses
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- '6,506 Medallia feedback survey entries reviewed with top tags: unable to sign in
+  (33.9%), set up account (19.8%), CSP transition (19.4%), verify (13.5%)'
+- '1,328 Medallia intercept survey entries reviewed with top tags: CSP transition
+  (29.3%), set up account (16.0%), unable to sign in (16.0%), verify (12.3%)'
+- 24,823 MyVA411 calls related to authentication, with Identity Verification Issues
+  (9,523 calls) and Inability to Sign In (5,670 calls) as top categories
+- Negative sentiment increased by over 240% from both prior periods during final weeks
+  of MHV account deprecation
+- Task completion percentage remained relatively stable despite increased response
+  volumes
+- 'Major themes include: account setup and verify issues, verify loop problems, technical
+  issues (timeouts, stay signed in not working), content and UI confusion'
+recommendations:
+- Consider additional research on account setup and verify issues
+- Collaborate with CSP partners on verification problems
+- Continue monitoring for perceived verify loops and spike to investigate technical
+  causes
+- Investigate timeout problems and Rx page behavior as transition completes
+- Share insights with platform content team to improve wayfinding to sign-in related
+  actions
+kpi_alignment: []
+outcomes:
+  user: '0'
+  business: '0'
+opportunity_areas:
+- Reduce verification loop issues causing users to repeatedly verify identity
+- Improve account setup process for Veterans with accessibility needs or digital access
+  limitations
+- Address technical issues including timeouts and sign-in loops
+- Clarify content and UI around account linking and verification process
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research:
+- Medallia feedback survey data (January-March 2025)
+- Medallia intercept survey data (January-March 2025)
+- MyVA411 call center data (January-March 2025)
+- DOMO dashboard data
+synthesis_tools_used:
+- 44 tag options for coding entries
+- Sentiment analysis based on survey ratings
+- Thematic analysis of qualitative responses
+tags:
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: My VA'
+- 'MHV: Appointments'
+- 'MHV: Pharmacy'
+- 'MHV: Secure Messaging'
+---
 # 2025 Q1 survey data findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), Sign-in Transition, Identity Experience Team**

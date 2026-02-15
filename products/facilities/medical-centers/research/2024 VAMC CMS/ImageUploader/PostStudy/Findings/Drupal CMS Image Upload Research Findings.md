@@ -1,3 +1,117 @@
+---
+title: "Drupal CMS Image Upload Research Findings"
+product: "VA.gov Drupal CMS"
+team: "VA Innovate, Iterate, and Run"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-09-26"
+researchers:
+  - "David Pearl"
+research_goals:
+  - "Get editor feedback on the new CMS media upload design"
+  - "Understand challenges and pain points of current image upload and management process"
+  - "Determine if editors understand how to use the new media upload tool"
+  - "Assess if editors understand how and what to enter as alt text"
+methodology:
+  - "Usability testing"
+  - "Contextual inquiry"
+devices_used:
+    desktop: 8
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 8
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 8
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 8
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
+  location:
+    urban: 0
+    rural: 0
+    unknown: 8
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Description Field Confusion: All participants found little distinction between image descriptions and alternative text fields, unclear about their purposes"
+  - "Description Removal Appreciated: All participants liked the removal of description"
+  - "Section Selection Issues: Many participants found selecting image sections time-consuming and confusing due to lengthy list of options"
+  - "Crop Option Confusion: Participants had diverse preferences and limited understanding of crop options, often finding them excessive and confusing"
+  - "Automatic Cropping Feature: All participants appreciated automatic cropping with preview before finalization"
+  - "Preference for Save and Insert: Most participants strongly preferred 'Save and Insert' option over 'Save and Select' due to perceived efficiency"
+  - "Image Size Display: Some participants wanted to see pixel size details of uploaded images"
+  - "Image Preview Experience: Many participants expressed frustration with current image preview process, citing slow loading speeds and time-consuming adjustments"
+  - "Separate Image Upload and Media Library Buttons: All participants confidently utilized distinct Upload Image and Media Library buttons without issue"
+  - "Limited Use for Media Library: Most participants infrequently used media library and rarely encounter scenarios where they would use images uploaded by others"
+recommendations:
+  - "Remove description fields to streamline the process and reduce confusion"
+  - "Increase flexibility in alt text requirements for complex images, particularly screenshots"
+  - "Display only sections that the editor has permission to edit, simplifying the selection process"
+  - "Implement a search function within the sections list to allow participants to quickly find their desired section"
+  - "Remove crop options for content types with a required crop (e.g., 7:2 for events)"
+  - "For pages without specific image size requirements, only include free-form cropping options"
+  - "Provide immediate preview of the cropped image to allow real-time adjustments"
+  - "Remove the Save and Select option to simplify the process"
+  - "Display image dimensions (width and height) in pixels directly within the image upload interface"
+  - "Remove GIF support from the Drupal CMS"
+  - "Consider limiting media library access to personal or section only"
+  - "Remove the Reusable checkbox on image uploads, and default to a global image reusability behavior"
+  - "Clarify image usage rights and permissions, providing guidance on when and how images can be reused"
+  - "Maintain description removal, automatic cropping, and split button design"
+  - "Provide clear, upfront information about recommended image sizes on content page within the image upload component"
+  - "Add an Edit Image button for readjusting images after uploading"
+kpi_alignment: []
+outcomes:
+  user: "VAMC editors can upload and manage images more efficiently with improved clarity and reduced confusion"
+  business: "Streamlined image upload process reduces editor support requests and improves content quality on VA.gov"
+opportunity_areas:
+  - "Standardized Photoshop templates for all content types as VA editors have Adobe Creative Cloud access"
+  - "AI-suggested cropping and alt text generation"
+  - "Multiple image uploads for all content types"
+  - "Flyer/PDF uploads with streamlined 508 compliance process"
+further_research_needed:
+  - "Validate changes with CMS editor survey responses"
+  - "Test implemented improvements with additional editors"
+underserved_groups_missing:
+  - "Not applicable - study focused on VA staff editors"
+secondary_research:
+  - "VAMC CMS Editor Experience survey, August 2024"
+synthesis_tools_used:
+  - "Dovetail for transcription and tagging"
+  - "Figma for affinity mapping"
+---
+
 # Drupal CMS Image Upload Research Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE)

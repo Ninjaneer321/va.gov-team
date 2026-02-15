@@ -1,3 +1,111 @@
+---
+title: "BDD Research Findings"
+product: "Benefits Delivery at Discharge (BDD)"
+team: "Benefits and Memorial Services"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-03-25"
+researchers:
+  - "Christian Valla"
+research_goals:
+  - "To understand the current user experience, when going through the current BDD process, using paper forms and a VSO."
+  - "How is the current process perceived by Service Members, including: the workload, the timelines/deadlines, the complexity of the process, the pain points, the need for support/info?"
+  - "To learn more about where users would look for info about BDD on VA.gov."
+  - "To understand if the initial BDD prototype/mockup works for users and matches their expectations, and to test such an early BDD prototype for usability errors."
+methodology:
+  - "Remote moderated usability testing"
+  - "Task-based usability study"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 10
+demographics:
+  veterans: 1
+  service_members: 9
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 10
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 10
+  location:
+    urban: 0
+    rural: 0
+    unknown: 10
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "All participants see a clear value in being able to file a BDD claim online."
+  - "Many participants had a hard time locating the BDD pages on VA.gov."
+  - "Overall, when participants start the BDD flow, they find it to be fast, simple and self-explanatory."
+  - "Several participants were unsure where to go on the Content page in order to start a claim."
+  - "Some steps of the form flow itself caused confusion, including: The CTA buttons on the introduction page, Several participants would prefer to add all their new conditions at the same time, and then be asked about details for each of these, Several participants found the pages 'Details about your condition' unnecessary, A couple of participants want to select & upload many documents at once (one-click) on the 'Upload evidence' page, A couple of participants have security concerns about uploading private medical records, Several participants think the option to upload Service treatment records is not necessary (as VA will access these automatically in claim cases), Several participants would like an email confirmation after completing the form, and a print button on the last (Submission) page."
+  - "Several participants expect few updates and a lack of visibility into the VA claim process."
+recommendations:
+  - "Consider how to make info about the BDD program more discoverable on VA.gov."
+  - "Fix the link 'Pre-discharge claim' on VA.gov."
+  - "Consider making the 'Can I file a claim online?' section and call-to-action button more prominent."
+  - "Remove the green sign-in button on the top of the BDD introduction page."
+  - "Allow users to add all their new conditions at once."
+  - "Expose info in drop down: 'What if I don't know the name of my condition' on the New conditions page."
+  - "Allow users to select and upload many documents simultanously with one click."
+  - "Remove the pages 'Details about your condition'."
+  - "Consider adding a note about the security level regarding: uploading medical records and providing Bank account info. Consider moving Bank account info to end of flow and add a note about why its important to provide this info."
+  - "Consider removing the Upload evidence page entirely."
+  - "Remove questions about Additional benefits and additional aid, or make these an option to check."
+  - "Consider an automated email confirmation after completion of the BDD form."
+  - "Consider adding a print button on the last (Submission) page."
+  - "Consider providing users with an approximate time estimation for BDD claims in general."
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
+further_research_needed:
+  - "Second round of usability testing in mid-April 2020"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Service Members"
+  - "BNFT: Disability"
+  - "DSC: Form"
+  - "DSC: Form - File Input"
+  - "DSP: Ask users for files"
+  - "DSP: Help users to check answers"
+  - "usability-testing"
+  - "evaluative"
+---
+
 # BDD Research Findings 
 **Benefits Delivery at Discharge (BDD)**<br>
 

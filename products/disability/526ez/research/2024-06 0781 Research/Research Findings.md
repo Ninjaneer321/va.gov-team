@@ -1,3 +1,171 @@
+---
+title: "Form 0781 Updates Concept Testing and User Research Findings"
+product: "Disability Benefits 526EZ"
+team: "Disability Benefits Experience Team 2"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-08-15"
+researchers:
+  - "Julie Pedtke (julie.pedtke@coforma.io)"
+  - "Ruben Sun (ruben.sun@coforma.io)"
+  - "Jina Ryu (jina.ryu@va.gov)"
+  - "Nichole Nicholas (nichole.nicholas@coforma.io)"
+research_goals:
+  - "Understand which placement of the new 0781 within the 526 works better, particularly as it relates to evidence"
+  - "Understand whether the event flow works for all Veteran experiences: reporting singular events, multiple related events, ongoing events, and so on"
+  - "Understand whether Veterans feel supported and heard through the claim process"
+methodology:
+  - "Concept testing"
+  - "User research interviews"
+  - "Trauma-informed research approach"
+  - "Figma prototype testing with two design concepts (Concept A and Concept B)"
+  - "90-minute moderated sessions"
+  - "Remote moderated usability testing"
+devices_used:
+    desktop: 12
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 12
+demographics:
+  veterans: 12
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 12
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 12
+  location:
+    urban: 0
+    rural: 3
+    unknown: 9
+  race:
+    white: 8
+    black: 2
+    hispanic: 2
+    biracial: 1
+    asian: 1
+    native: 1
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  gender:
+    male: 7
+    female: 2
+  lgbtq:
+    transgender: 0
+    nonbinary_or_other: 3
+    gay_lesbian_bisexual: 0
+key_findings:
+  - "Veterans were able to orient themselves to start and exit the 0781, but comprehension of the overall form flow remained vague"
+  - "The majority of participants could not clearly differentiate between evidence supporting mental health conditions and general evidence supporting their claim"
+  - "Concept A created perceived redundancy between 526 and 0781 evidence sections, with participants confused about treatment records, 4142, and supporting documents"
+  - "Blue alerts generally worked well to remind Veterans of previously uploaded documents"
+  - "Participants conflated medical records and supporting documents in the 0781 section"
+  - "Veterans expected all evidence to be provided at the same time or at least sequentially"
+  - "Concept B participants were unable to differentiate 0781 form evidence pages from other evidence sections in the 526, finding pages redundant"
+  - "Concept B created completion anxiety, with participants wanting to review what was included in previous evidence sections"
+  - "Concept B generated confirmation fatigue and anticipatory frustration from foreshadowing content and repeated confirmations"
+  - "New instructions and examples generally made it clearer how to describe experiences with appropriate level of detail"
+  - "Overall expectation of level of detail required was unclear, with half expecting great detail initially"
+  - "Veterans face a double bind regarding detail: specificity is seen as critical for adjudication, but recalling details creates emotional burden"
+  - "Several participants appreciated that official reports were explicitly optional, though two expressed skepticism"
+  - "Majority of participants were familiar with traumatic event categories, particularly those relevant to them"
+  - "Veterans were confused with the yes/no question to start adding traumatic experiences, seeing it as perfunctory"
+  - "Only half of participants explicitly understood being able to add multiple entries"
+  - "Resource page with mental health support at beginning of 0781 was well-received by approximately 10 Veterans"
+  - "Approximately 7 Veterans expressed positive sentiment towards blue support alerts throughout the form"
+  - "Veterans overwhelmingly identified the narrative portion of experiences as where they most need support"
+  - "Veterans were reassured by mentions of specialized claims processors for MST claims"
+recommendations:
+  - "Move to a hybrid approach where emotionally burdensome parts of 0781 stay together (narrative of experiences, behavior changes, official reports) while 0781 evidence is placed alongside evidence for other conditions"
+  - "Place decisional prompts screening for additional forms up-front in Step 2, followed by Additional Forms section in Step 3"
+  - "Consolidate all supporting evidence pages including 4142 opt-in in Step 4 to limit redundancy"
+  - "Promote clearer understanding of what evidence types are expected in each form section"
+  - "Draw more clear distinctions between form sections and highlight differences between sections that may be misconstrued"
+  - "Embed the 4142 into treatment records requests in context"
+  - "Strengthen association between evidence types and adjudication criteria"
+  - "Reduce confirmation fatigue by organizing 0781 opt-in, traumatic experiences, and behavior changes up front alongside conditions"
+  - "Acknowledge policy change that led to VA collecting less information than in previous versions"
+  - "Allow for more choice in supplying additional detail to event description through separate optional free text area"
+  - "Guide Veterans toward using narrative text to fill gaps not covered in other evidence"
+  - "Emphasize earlier in process what reporting and evidence is optional"
+  - "Explore ways to draw clearer distinctions between other claim evidence types"
+  - "Revise dropdown content to map more directly to checkboxes"
+  - "Confirm with VBA that experience information is critical to claim outcomes"
+  - "Explore removing the yes/no traumatic experience page and bringing users directly to add traumatic experience page"
+  - "Simplify foreshadowing content so Veterans receive right amount of information without feeling overwhelmed"
+  - "In most sensitive areas of form, consider including additional resources such as VSOs or VA-supported wellness resources"
+  - "Provide direction on technical support for file upload pages"
+  - "Point to more information about how to get healthcare for mental health conditions"
+  - "Offer more transparency into claim processing team credentials and training"
+  - "Clarify if links will open in new tab and not disrupt form flow"
+  - "Consider which phone lines will be most familiar to Veterans"
+  - "Add helper text that approximate dates are ok or check with VBA if month is needed in addition to year"
+  - "Explore placing dropdowns closer to top or bottom of page content"
+  - "Provide more information on what actions VA will take if there are problems collecting medical records"
+kpi_alignment:
+  - "Not explicitly mentioned in document"
+outcomes:
+  user: "Veterans can more easily navigate the 0781 form within the 526EZ with less confusion, better understanding of evidence requirements, and greater sense of support throughout the emotionally difficult process of reporting traumatic events"
+  business: "Reduce form abandonment, improve claim completion rates, and collect necessary information for successful PTSD and mental health condition adjudication while minimizing retraumatization"
+opportunity_areas:
+  - "Need to reduce perceived redundancy between 526 and 0781 evidence sections"
+  - "Opportunity to increase trust in process by providing more transparency about specialized claims processors"
+  - "Need to clarify level of detail required for traumatic experience descriptions"
+  - "Opportunity to better support Veterans during most emotionally burdensome sections of form"
+  - "Need to improve evidence flow comprehension and reduce completion anxiety"
+  - "Opportunity to provide more flexibility for Veterans with memory challenges (TBI) regarding dates"
+further_research_needed:
+  - "Test whether showing summary of Veteran's responses in Step 2 Conditions on traumatic experiences page helps reduce redundancy"
+  - "Explore how well evidence for physical conditions and mental health conditions gel together in one section"
+  - "Validate whether keeping emotionally burdensome sections together while splitting out evidence holds true and doesn't lead to retraumatization"
+  - "Test whether Additional Forms concept resonates when appearing earlier in flow"
+  - "Explore how introducing 0781 in Additional Forms step instead of Conditions step is received"
+  - "Determine whether to keep yes/no question for traumatic experiences page or direct Veterans directly to that page"
+  - "Need more data on whether helper text accounts for complex forms of trauma involving prolonged exposures"
+  - "Test revised hybrid approach (Concept C) with Veterans"
+underserved_groups_missing:
+  - "Veterans ages 55+"
+  - "Veterans with other than honorable discharge"
+  - "Veterans who identify as Hispanic (more representation needed)"
+  - "Veterans who identify as Biracial (more representation needed)"
+  - "Veterans who identify as Asian (more representation needed)"
+  - "Veterans who identify as Native (more representation needed)"
+  - "Veterans who identify as LGBTQ+ (more representation needed)"
+  - "Veterans using assistive technology"
+  - "Veterans using mobile or tablet devices"
+secondary_research:
+  - "Discovery research on new Form 21-0781"
+  - "Mapping to older form versions"
+  - "Collaboration with Rachael Dietkus (design researcher and licensed clinical social worker)"
+  - "Consultation with Trauma-Informed Design Community of Practice"
+  - "Coordination with Perigean for trauma-informed screening and recruitment"
+synthesis_tools_used:
+  - "Mural"
+  - "Figma prototypes"
+---
+
 # Form 0781 Updates Concept Testing and User Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 526EZ, Disability Benefits Experience Team 2**

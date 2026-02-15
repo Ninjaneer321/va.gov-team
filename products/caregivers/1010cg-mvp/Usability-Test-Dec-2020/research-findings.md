@@ -1,3 +1,99 @@
+---
+title: "Caregiver, Primary Caregiver/Secondary Caregiver Flow Research Findings"
+product: "Caregiver 10-10CG"
+team: "VSA Caregiver"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-01-04"
+researchers:
+  - "Jonathan Nelson"
+research_goals:
+  - "Determine whether or not the updated designs of the 10-10CG form are usable, understandable, and easy navigate for Veterans and caregivers."
+methodology:
+  - "Remote moderated usability testing"
+  - "Task-based usability study"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 13
+demographics:
+  veterans: 4
+  service_members: 0
+  caregivers: 10
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 1
+    "35-44": 6
+    "45-54": 1
+    "55-64": 4
+    "65+": 1
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 13
+  location:
+    urban: 0
+    rural: 0
+    unknown: 13
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Though there was some confusion, most participants were able to get through the caregiver flows with the correct information filled in"
+  - "A few participants were confused by the wording of the Primary Family Caregiver question (i.e. Would you like to add a Primary Family Caregiver?)"
+  - "The placement and content of the additional info component confused some participants (i.e. What's a Primary Family Caregiver?/What's a Secondary Family Caregiver?)"
+  - "Those that wanted to apply with only a secondary caregiver struggled somewhat"
+  - "Some participants found who can become a Secondary Family Caregiver and their role unclear"
+recommendations:
+  - "Consider changes to the placement and design of 'Would you like to add a Primary Family Caregiver?' page"
+  - "Add clear, plain language content explaining who can act as a Primary Family Caregiver and Secondary Family Caregiver"
+  - "Update content in 'Additional info' components to 'Learn more about Primary Family Caregiver' and 'Learn more about Secondary Family Caregiver'"
+  - "Iterate on medical facility page - Enable the user to enter the medical facility information confidently and correctly"
+  - "(Re)explore allowing resubmission when error is triggered"
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Caregivers"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "DSC: Form"
+  - "DSP: Ask users for names"
+  - "DSP: Contextual Help"
+  - "DSP: Error Message Guide"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "evaluative"
+---
+
 # Caregiver, Primary Caregiver/Secondary Caregiver Flow Research Findings
 
 Jonathan Nelson (jonathan.nelson@adhocteam.us), 1/4/2021

@@ -1,3 +1,106 @@
+---
+title: "MHV on VA.gov Secure Messaging Care Names Comparative Study Research Findings"
+product: "My HealtheVet on VA.gov"
+team: "MHV on VA.gov Secure Messaging Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-09-16"
+researchers:
+  - "Robyn Singleton"
+research_goals:
+  - "Compare old and new care team selection flows to assess ease of use, efficiency, and intuitiveness for Veterans"
+  - "Determine which care team selection option enables Veterans to find the correct provider more quickly"
+  - "Assess which option Veterans find more intuitive and less difficult to use"
+  - "Evaluate which option builds greater trust in VA digital services"
+  - "Measure which option increases satisfaction among Veterans"
+methodology:
+  - "Unmoderated first-click testing with post-test questions using Optimal Workshop"
+  - "Participants completed three tasks with different images of care group names"
+  - "Comparative study of Classic experience vs Provider and Location prototypes"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 208
+    assistive_technology: 0
+participants_total: 208
+demographics:
+  veterans: 208
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 208
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 208
+  location:
+    urban: 0
+    rural: 0
+    unknown: 208
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 208
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 208
+key_findings:
+  - "Provider and Location prototypes significantly outperformed Classic experience with 62-67% task completion vs 32% for Classic"
+  - "Time on task was significantly lower for new experiences with moderate effect size on Tasks 1 and 3"
+  - "Both new prototypes received significantly higher satisfaction ratings than Classic with moderate to high effect size"
+  - "No significant difference in trust ratings between old and new experiences"
+  - "No meaningful differences found between Provider and Location prototypes across all metrics"
+  - "Among those who stated a preference, 57% preferred Location prototype and 43% preferred Provider prototype"
+recommendations:
+  - "Move forward with either Location or Provider prototype based on UX best practices since no meaningful difference was found"
+  - "Implement revised prototype in pilot with MHV Coordinators"
+  - "Socialize research findings to teams and stakeholders working on secure messaging"
+kpi_alignment:
+  - "Improved task success rates for care team selection"
+  - "Reduced time to complete care team selection tasks"
+  - "Increased user satisfaction with secure messaging experience"
+outcomes:
+  user: "Veterans can more quickly and easily find the correct care team when sending secure messages"
+  business: "Improved secure messaging experience addresses known pain points with provider and care team naming"
+opportunity_areas:
+  - "Both Location and Provider prototypes show significant improvements over Classic experience"
+  - "Veterans showed preference split between Location and Provider approaches"
+further_research_needed:
+  - "No additional research needed for this specific decision as both prototypes performed equally well"
+underserved_groups_missing:
+  - "Demographic data not collected in unmoderated study"
+  - "Assistive technology users not specifically recruited or tracked"
+secondary_research:
+  - "Previous discovery research on triage group naming"
+  - "Feedback from MHV Coordinators quarterly surveys"
+synthesis_tools_used:
+  - "Optimal Workshop for first-click testing"
+  - "Statistical analysis including chi-square tests and Cramer's V"
+---
+
 # **MHV on VA.gov, Secure Messaging, September 2024 Research Findings**
 
 **Office of the CTO - Digital Experience (OCTO-DE)**

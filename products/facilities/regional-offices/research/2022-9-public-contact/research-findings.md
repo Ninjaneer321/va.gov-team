@@ -1,3 +1,122 @@
+---
+title: VBA Public Contact Staff Research Findings
+product: Facilities
+team: VBA Regional Office, Facilities
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2022-12-23'
+researchers:
+- Dave Pickett (dave.pickett@civicactions.com)
+research_goals:
+- Understand service delivery model for the facility (or group of facilities) for
+  a geographic area
+- Understand common tasks Veterans attempt to complete during in-person visits
+- Understand the typical Veteran experience (successes, expectations, frustrations,
+  complaints) at these facilities
+methodology:
+- Semi-structured interviews
+- Remote via Zoom
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 12
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 12
+  age:
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
+    unknown: 12
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 12
+  location:
+    urban: 0
+    rural: 0
+    unknown: 12
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- 'Services at Public Contact Offices can be categorized in four distinct ways: benefits,
+  tasks, documents, beneficiaries'
+- Public Contact staff are primarily equipped to assist with the benefit of disability
+  compensation
+- Public Contact staff primarily assist with the task of applying for benefits
+- Providing beneficiaries official documents is a significant function of Public Contact
+  Offices
+- Few (if any) services require a Veteran to be physically present at a Public Contact
+  Office
+- Public Contact staff provide a consistent set of services at multiple VBA facility
+  types
+- A common source of Veteran frustration is a mismatch between services expected and
+  services available at Public Contact Offices
+- Veterans sometimes conflate the VBA with a centralized VA, VSOs, and other agencies
+- There is little standardization in how Public Contact Offices handle appointments
+- Wait times for walk-ins are primarily affected by facility location and staffing
+- The documents and information needed to prepare for a visit varies by service
+- Public Contact Offices may stop taking clients prior to the official closing time
+recommendations:
+- Update the VBA Service taxonomy to accurately reflect the services available at
+  Regional Offices
+- Clearly indicate the distinction between virtual and in-person appointments
+- Ensure Veterans can easily tell if a facility allows walk-ins or not
+- Consider involving stakeholders from VR&E so we can accurately route Veterans to
+  those services
+- Consider how co-located VSOs might be displayed on RO pages to clarify their relationship
+  to the VA
+- Consider use cases for Regional Offices, Satellite Offices, & Outreach sites
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+- 'AUD: VA Staff'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Housing'
+- 'BNFT: Pension'
+- 'BNFT: Records'
+- 'PRDT: Claim-status-tool'
+- 'MHV: Appointments'
+- 'MHV: Personal Health Records/Medical Records'
+- usability-testing
+- semi-structured-interviews
+- remote-research
+---
 # VBA Public Contact Staff Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), VBA Regional Office, Facilities**

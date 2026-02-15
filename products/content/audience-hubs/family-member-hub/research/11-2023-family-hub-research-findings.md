@@ -1,3 +1,117 @@
+---
+title: "11-2023 Family benefit hub Research Findings"
+product: "Family and Caregiver Benefits Hub"
+team: "Sitewide Content & IA"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-11-30"
+researchers:
+  - "Mikki Northuis"
+  - "Danielle Thierry"
+research_goals:
+  - "Determine if moving family and caregiver related content under a single benefit hub for that audience will improve the discoverability and findability of relevant benefit information"
+  - "Determine if highlighting caregiver and survivor benefits helps improve discoverability and findability of those specific benefits"
+methodology:
+  - "IA Tree Test"
+  - "Remote unmoderated"
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 41
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 6
+  dependents: 35
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 19
+    unknown: 22
+  education:
+    high_school: 14
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 27
+  location:
+    urban: 0
+    rural: 0
+    unknown: 41
+  race:
+    white: 27
+    black: 5
+    hispanic: 2
+    biracial: 3
+    asian: 1
+    native: 3
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Participants primarily navigated to and selected answers in the family member hub when looking for benefits for themselves"
+  - "Participants utilized the family member hub for tasks related to managing their benefits, but not consistently or with high success"
+  - "The survivor and caregiver specific sections were a common destination for tasks related to getting benefits for those sub-audiences"
+  - "The 'common tasks' section of the family member hub was rarely utilized"
+  - "Most participants seemed unclear or unfamiliar with what accrued benefits and fiduciary services are or where they would be"
+recommendations:
+  - "Proceed with building a more robust family member and caregiver benefit hub focused on information related to applying for benefits"
+  - "Do not move manage benefits related content into the new family member hub, but heavily cross link to those options within the related benefit sections"
+  - "Keep the survivor and caregiver segments in the family member hub by either keeping the sub-sections or utilizing labels/tags to call those out – recommend A/B testing these options"
+  - "Consider relabeling the 'Common tasks to manage your health and benefits' if kept to make it more scannable for the key words 'manage health and benefits'"
+  - "Consider how manage health and benefits tasks can be best linked within the survivor and caregiver sections"
+  - "Accrued benefits should live within the new family member hub but be visibly cross-linked within the Veteran benefit hubs that involve regular payments. Do additional research on how to best label this in the experience to improve understanding and findability"
+  - "Ensure the Transferred GI Bill benefits content is visibly cross-linked so that Veterans access the right page and family members receiving the benefit access the correct page"
+  - "Fiduciary content should continue to be tested for placement within the IA, but should also be visibly cross-linked within any benefit area that involves payments"
+  - "Rename and move the 'Complete list of discharge documents' out of the records hub"
+  - "Ensure payment history is crosslinked with each benefit that involves regular payments"
+  - "Keep prescription refills link within the family member hub along with other health tasks, but ensure the entry points within the Veteran health care hub properly speak to family members as well as Veterans"
+  - "Fiduciary services should continue to be tested for placement within the VA.gov IA and planned to be crosslinked within any benefit that involves payments"
+kpi_alignment: []
+outcomes:
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing:
+  - "Assistive tech users"
+secondary_research:
+  - "Existing data and research review"
+synthesis_tools_used:
+  - "Optimal Workshop"
+tags:
+  - "AUD: Caregivers"
+  - "AUD: Dependents"
+  - "AUD: Family Member"
+  - "AUD: Surviving Family"
+  - "BNFT: Healthcare"
+  - "BNFT: Education"
+  - "BNFT: Disability"
+  - "BNFT: Pension"
+  - "PRDT: Benefit Hubs"
+  - "PRDT: Content"
+  - "RESRCH: Evaluative"
+  - "RESRCH: Remote"
+  - "tree-test"
+  - "information-architecture"
+  - "findability"
+  - "navigation"
+---
+
 # 11-2023 Family benefit hub research findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Benefit hubs, Sitewide Content & IA**

@@ -1,23 +1,25 @@
 ---
-title: "Veteran Onboarding Modal Research Findings"
-product: "Welcome to VA. gov Onboarding"
-team: "Core Veteran Experience"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2025-11-24"
+title: Veteran Onboarding Modal Research Findings
+product: Welcome to VA. gov Onboarding
+team: Core Veteran Experience
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2025-11-24'
 researchers:
-  - "David Pearl"
+- David Pearl
 research_goals:
-  - "Understand how new Veterans currently approach VA. gov and what causes decision paralysis"
-  - "Evaluate effectiveness and preference between modal design approaches (application-focused vs. exploration-focused)"
+- Understand how new Veterans currently approach VA. gov and what causes decision
+  paralysis
+- Evaluate effectiveness and preference between modal design approaches (application-focused
+  vs. exploration-focused)
 methodology:
-  - "Comparative usability testing with preference ranking"
-  - "Remote moderated sessions"
-  - "45-minute sessions combining semi-structured interviews and prototype testing"
+- Comparative usability testing with preference ranking
+- Remote moderated sessions
+- 45-minute sessions combining semi-structured interviews and prototype testing
 devices_used:
-    desktop: 7
-    tablet: 1
-    smartphone: 8
-    assistive_technology: 0
+  desktop: 7
+  tablet: 1
+  smartphone: 8
+  assistive_technology: 0
 participants_total: 16
 demographics:
   veterans: 16
@@ -26,11 +28,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 3
-    "35-44": 5
-    "45-54": 4
-    "55-64": 3
-    "65+": 1
+    25-34: 3
+    35-44: 5
+    45-54: 4
+    55-64: 3
+    65+: 1
     unknown: 0
   education:
     high_school: 0
@@ -63,53 +65,67 @@ demographics:
     sighted_keyboard: 0
     captions: 0
 key_findings:
-  - "14 of 16 participants (88%) preferred application-focused modal over action-focused"
-  - "Veterans want comprehensive benefit discovery but current tool falls short"
-  - "Eligibility is psychological prerequisite but dense pages overwhelm"
-  - "Veterans want personalized, status-based content using existing profile data"
-  - "Three core benefits (Healthcare, Disability, Education) validated universally"
-  - "Veterans reject 'most people' framing and want personalized guidance"
-  - "Show modal first time only but make re-accessible"
-  - "Product tours universally rejected"
-  - "Critical accessibility needs for TBI, PTSD, older Veterans"
+- 14 of 16 participants (88%) preferred application-focused modal over action-focused
+- Veterans want comprehensive benefit discovery but current tool falls short
+- Eligibility is psychological prerequisite but dense pages overwhelm
+- Veterans want personalized, status-based content using existing profile data
+- Three core benefits (Healthcare, Disability, Education) validated universally
+- Veterans reject 'most people' framing and want personalized guidance
+- Show modal first time only but make re-accessible
+- Product tours universally rejected
+- Critical accessibility needs for TBI, PTSD, older Veterans
 recommendations:
-  - "Implement application-focused modal as primary onboarding experience"
-  - "Design fourth 'Discover Your Benefits' option with true personalization"
-  - "Use About/How-to page formats with integrated eligibility context"
-  - "Implement dynamic content based on user enrollment status"
-  - "Ensure consistent structure across all benefit pages"
-  - "Use personal framing not crowd-sourced language"
-  - "Show modal on first login only with easy re-access method"
-  - "Avoid multi-step product tours entirely"
+- Implement application-focused modal as primary onboarding experience
+- Design fourth 'Discover Your Benefits' option with true personalization
+- Use About/How-to page formats with integrated eligibility context
+- Implement dynamic content based on user enrollment status
+- Ensure consistent structure across all benefit pages
+- Use personal framing not crowd-sourced language
+- Show modal on first login only with easy re-access method
+- Avoid multi-step product tours entirely
 kpi_alignment:
-  - "Improve satisfaction with web and mobile products by 5 points (OCTO Objective 1, KR 1)"
-  - "Increase successful benefit applications from new Veterans"
-  - "Reduce time to first benefit application"
+- Improve satisfaction with web and mobile products by 5 points (OCTO Objective 1,
+  KR 1)
+- Increase successful benefit applications from new Veterans
+- Reduce time to first benefit application
 outcomes:
-  user: "New Veterans can quickly navigate to and apply for the benefits they need during transition without confusion or overwhelm"
-  business: "Increased benefit application completion rates and reduced support burden through clearer onboarding"
+  user: New Veterans can quickly navigate to and apply for the benefits they need
+    during transition without confusion or overwhelm
+  business: Increased benefit application completion rates and reduced support burden
+    through clearer onboarding
 opportunity_areas:
-  - "Personalized benefit recommendations based on profile data"
-  - "Interconnected benefit discovery (e.g., disability rating unlocking healthcare)"
-  - "Family/dependent benefit pathways"
-  - "VA facility proximity checking before healthcare enrollment"
+- Personalized benefit recommendations based on profile data
+- Interconnected benefit discovery (e.g., disability rating unlocking healthcare)
+- Family/dependent benefit pathways
+- VA facility proximity checking before healthcare enrollment
 further_research_needed:
-  - "Test dynamic content implementation with enrolled vs non-enrolled users"
-  - "Validate fourth DYB option design with comprehensive benefit list"
-  - "Assistive technology testing with screen readers and magnification"
-  - "Non-English speaking Veterans"
+- Test dynamic content implementation with enrolled vs non-enrolled users
+- Validate fourth DYB option design with comprehensive benefit list
+- Assistive technology testing with screen readers and magnification
+- Non-English speaking Veterans
 underserved_groups_missing:
-  - "Veterans using assistive technology (screen readers, magnification)"
-  - "Veterans with documented cognitive disabilities"
-  - "Non-English speaking Veterans"
-secondary_research:
+- Veterans using assistive technology (screen readers, magnification)
+- Veterans with documented cognitive disabilities
+- Non-English speaking Veterans
+secondary_research: null
 synthesis_tools_used:
-  - "Mural"
-  - "Excel for session notes"
-  - "Affinity Mapping"
-  - "Figma for affinity mapping"
+- Mural
+- Excel for session notes
+- Affinity Mapping
+- Figma for affinity mapping
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'PRDT: My VA'
+- usability-testing
+- moderated-research
+- remote-research
+- semi-structured-interviews
+- Accessibility
+- evaluative
 ---
-
 # Welcome to VA.gov Onboarding Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Welcome to VA.gov Onboarding, Core Veteran Experience Team**

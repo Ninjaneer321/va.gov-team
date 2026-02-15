@@ -1,3 +1,128 @@
+---
+title: "Vet Center - Client Interviews Research Findings"
+product: "Vet Centers"
+team: "VSA Facility Locator"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-10-23"
+researchers:
+  - "Leyda Hughes"
+research_goals:
+  - "Understand a Vet Center client's experience, impression, and relationship with Vet Centers"
+  - "Understand how Veterans and service members first learn about Vet Centers"
+  - "Understand the client experience for different demographics"
+  - "Understand what services, resources or activities are most valuable to Veterans, service members and their families"
+  - "Understand how long clients typically engage with Vet Centers and does their engagement or opinion of Vet Centers change over time"
+  - "Understand what information Veterans and service members want or expect to see on a website"
+methodology:
+  - "Generative questioning interview sessions"
+  - "Review of current Vet Center facility detail page"
+  - "45 minute sessions conducted via Zoom"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 15
+demographics:
+  veterans: 14
+  service_members: 1
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 1
+    "35-44": 1
+    "45-54": 2
+    "55-64": 2
+    "65+": 7
+    unknown: 2
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 15
+  location:
+    urban: 7
+    rural: 1
+    unknown: 7
+  race:
+    white: 4
+    black: 1
+    hispanic: 2
+    biracial: 0
+    asian: 0
+    native: 1
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Vet Centers are not well known among Veterans"
+  - "8 of 8 Clients had a favorable view of Vet Centers"
+  - "7 of 8 Clients expressed being 'separate from VA' as a key benefit of Vet Centers"
+  - "Clients feel deeply understood at Vet Centers"
+  - "Clients value the Veteran to Veteran approach to counseling, outreach and staffing of Vet Centers"
+  - "Veterans often need help with VA benefits and want to know what help is available at a Vet Center"
+  - "Military culture can be especially difficult for clients dealing with MST"
+  - "Clients would like to know the name and background of VC staff before calling or visiting"
+  - "3 Clients were surprised to see employment referral as a Vet Center service"
+  - "2 Clients called out flexibility in scheduling as a benefit that should be highlighted on a website"
+recommendations:
+  - "Explore keyword search analytics, SEO, and search improvement opportunities to connect VC services to Vet needs, eg PTSD, MST"
+  - "Improve findability of Vet Center locations from Google"
+  - "Stress 100% confidential"
+  - "Leverage by Veterans for Veterans mission statement on website"
+  - "Mirror Vet language in content writing"
+  - "Give concrete examples of the types of benefit & employment help Veterans can expect"
+  - "Communicate Vet Centers' intimate, casual, non-intimidating environment on website"
+  - "Highlight client testimonial on website"
+  - "List accurate examples of affinity groups available at each Vet Center"
+  - "Give MST a dedicated section or page with tailored information and imagery"
+  - "Highlight flexibility in scheduling"
+  - "List key personnel with a brief background on website"
+  - "Simplify and clarify eligibility with an emphasis on 'just call, we'll help'"
+  - "Highlight Vet Center's inclusivity and broad ability to help Vets in need"
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas:
+  - "Non-clients confuse Vet Centers with any place you get medical care within the VA system"
+  - "Veterans need to understand that Vet Centers are separate from VA medical facilities"
+  - "Veterans need clarity on eligibility requirements and what help is available"
+  - "Women Veterans dealing with MST need environments free from military culture"
+  - "Veterans want to know staff names and backgrounds before visiting"
+further_research_needed:
+  - "Second pass language synthesis to inform any needed updates to health services taxonomy and copywriting for Vet Center website MVP"
+  - "Work with team to explore keyword, SEO, and search improvement opportunities to connect Veteran needs to Vet Center services"
+  - "Prototype Vet Center website MVP"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+  - "Mural"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "BNFT: Healthcare"
+  - "PRDT: Vet Centers"
+  - "semi-structured-interviews"
+  - "generative"
+  - "discovery"
+  - "mental-health"
+  - "MST"
+  - "PTSD"
+---
+
 # Research Findings: Vet Center - Client Interviews
 **Digital Services Veterans Affairs (DSVA), VSA, Facility Locator**<br>
 

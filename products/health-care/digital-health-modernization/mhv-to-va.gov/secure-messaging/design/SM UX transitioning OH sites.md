@@ -1,4 +1,8 @@
 # SM experience during data migration for transitioning OH sites
+Reference these Figma files for the most up to date information: 
+- [Wireframes in FigJam](https://www.figma.com/board/pVrtL3cCWzR85mrdYH5Lcv/bp-sandbox-for-oh-migration?node-id=0-1&p=f&t=oEcwnHsmktYm94xv-0)
+- [Hi-fi screens in Figma](https://www.figma.com/design/y5tp18oWQqWsOICbW1lkQ8/SM-Working-File?node-id=7513-3&p=f&t=CpiAi8nh1WFtj2CG-0)
+
 This doc explains patients' secure messaging experience during the data migration period when their facility transitions to OH. The migration period is when we'll block users from sending or replying to messages at transitioning facilities. This is to prevent data loss.
 
 In this doc: 

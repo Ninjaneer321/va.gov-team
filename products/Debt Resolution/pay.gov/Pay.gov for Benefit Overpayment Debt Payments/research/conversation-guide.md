@@ -1,29 +1,41 @@
 ---
-title: "Conversation Guide for Financial Management Team Pay.gov for Benefit Overpayment Debt Payments"
+title: "Conversation Guide for Financial Management, Pay.gov for Benefit Overpayment Debt Payments, 2026-02-12"
 author: "Risha Lee"
-date_created: "2026-11-02"
-last_modified: "2026-11-02"
+date_created: "2026-02-12"
+last_modified: "2026-02-12"
 
 # NEW: Core research metadata
 team: "Financial Management"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "Pay.gov for benefit overpayment debt payments"
+portfolio: "benefits"
+product: "Pay.gov for Benefit Overpayment Debt Payments"
 research_phase: "evaluative"
-research_method: "moderated_interview|usability_test"
+research_method: "moderated_interview"
 
 # NEW: Session details
 session_duration: "75 minutes"
 session_type: "remote_moderated"
-participant_criteria: "Veterans who have experience making payments towards VA benefit overpayment debt"
+participant_criteria: "Veterans who have experience making payments toward VA benefit overpayment debt"
 
 # NEW: Related documents
-related_research_plan: "[[path/to/research-plan.md]](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/research/research-plan.md)"
-related_prototype: "[URL or N/A]"
+related_research_plan: "products/Debt Resolution/pay.gov/Pay.gov for Benefit Overpayment Debt Payments/research/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "AUD: Veterans"
+  - "BNFT: Finances"
+  - "PRDT: Debt-portal"
+  - "moderated-interview"
+  - "usability-testing"
+  - "DSC: Form"
+  - "DSC: Form - Radio Button"
+  - "DSC: Checkbox"
+  - "DSC: Button"
+  - "DSC: Alert Boxes"
+  - "DSP: Form Templates"
+  - "DSP: Help users to check answers"
+  - "Accessibility"
+
+description: "Moderated remote interview with embedded usability tasks to understand Veterans’ payment behaviors and evaluate the VA.gov-to-Pay.gov benefit overpayment debt payment flow (including payment method selection, data entry, review, and confirmation)."
 
 # NEW: Compliance flags
 recording_required: true

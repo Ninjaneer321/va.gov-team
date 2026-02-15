@@ -1,3 +1,104 @@
+---
+title: "10-10CG Sign as Representative Round 2 Test - Topline Summary Research Findings"
+product: "10-10CG Caregiver Application"
+team: "Caregiver Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-04-30"
+researchers:
+  - "Not specified"
+research_goals:
+  - "Test redesigned Sign as Representative feature for improved usability"
+  - "Evaluate how participants react to the review page and new representative signature box"
+  - "Test improved Primary/Secondary Caregiver questions with tweaked language"
+  - "Assess continued issues with Veteran Medical Facility page"
+methodology:
+  - "Remote moderated usability sessions"
+  - "Prototype testing"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 5
+demographics:
+  veterans: 1
+  service_members: 0
+  caregivers: 4
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
+  location:
+    urban: 0
+    rural: 0
+    unknown: 5
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "The redesigned question page where participants answered if they wanted to upload documentation overall worked well, participants were much more comfortable moving through it than in the previous round of testing"
+  - "The upload page was fairly self-explanatory to most users. Participants who said they were representatives said they would have their documentation handy"
+  - "One participant who saw the representative box signed the veteran's name instead of her own when it asked for the representative's signature"
+  - "Primary/Secondary Caregiver questions still caused confusion with participants - the new language did seem to help a little bit but it wasn't perfect"
+  - "Several participants thought the question asking if they wanted to apply for benefits for a primary caregiver was repetitive and unnecessary"
+  - "The medical facility page continues to cause confusion for participants, as discovered in other usability studies. Specifically, the first question asking where the veteran most recently received medical care caused issues"
+recommendations:
+  - "Keep the current design on the question and upload pages, but add a little more information about what counts as representative documentation and tweak the copy on the upload page"
+  - "Consider running more sessions and/or thinking more about the review/signature page keeping in consideration that the prospective Caregiver might also be the POA"
+  - "Keep the new language for Primary/Secondary questions, but pick up ticket soon to rethink both the structure and copy of the question pages, potentially combining them"
+  - "Write a ticket to address the issues on medical facility page. See if there is a way to remove the first question from the form. If not, provide clarity into why we need it and better copy/options"
+kpi_alignment: []
+outcomes:
+  user: "Caregivers can complete the 10-10CG application more easily with improved Sign as Representative feature"
+  business: "Reduce confusion and form abandonment in the representative workflow"
+opportunity_areas:
+  - "Need clearer examples of what documentation counts for legal representative status"
+  - "Primary/Secondary Caregiver questions need structural redesign"
+  - "Medical facility section needs major improvements or removal"
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Caregivers"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "DSP: Ask users for files"
+  - "DSP: Ask users for signature"
+  - "usability-testing"
+  - "10-10CG"
+  - "evaluative"
+  - "topline-summary"
+---
+
 # **10-10CG Sign as Representative Round 2 Test - Topline Summary**
 
 We talked to 5 participants - 4 caregivers and 1 veteran. 

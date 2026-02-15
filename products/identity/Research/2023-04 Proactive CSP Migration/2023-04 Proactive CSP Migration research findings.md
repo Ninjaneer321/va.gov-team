@@ -1,3 +1,124 @@
+---
+title: "2023-04 Proactive CSP migration Research Findings"
+product: "Sign in"
+team: "Identity Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-05-31"
+researchers:
+  - "Clayton Zook"
+  - "Amanda Porter"
+  - "Charlye Tran"
+research_goals:
+  - "Test the usability and success of a mobile modal prototype that encourages veterans to migrate to Login.gov credentials before it's mandatory"
+  - "Identify which terms are most understandable and resonate most when describing identity concepts like verified (ID proofed) account and authentication"
+  - "Find out ways to encourage more veterans to migrate CSPs before sunsetting of legacy account"
+methodology:
+  - "Semi-structured interviews"
+  - "Remote usability testing"
+devices_used:
+  desktop: 10
+  tablet: 1
+  smartphone: 3
+  assistive_technology: 0
+participants_total: 14
+demographics:
+  veterans: 14
+  service_members: 0
+  caregivers: 2
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 6
+    "65+": 7
+    unknown: 1
+  education:
+    high_school: 1
+    some_college: 5
+    associates: 2
+    bachelors: 3
+    masters: 3
+    doctorate: 1
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 14
+  race:
+    white: 11
+    black: 1
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 1
+  disability:
+    cognitive: 6
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 1
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Modals are disruptive and annoying, and veterans don't want to be interrupted by a modal in the middle of a task, especially for something that's not required"
+  - "Participants want to be told or sold to change CSP, but the modal copy is only suggestive and not persuasive enough, leaving confusion about why they should change"
+  - "In considering migrating to Login.gov or ID.me, some veterans like options, but many just want to be told what to do"
+  - "Some participants have a Login.gov or ID.me account but still choose to use My HealtheVet (MHV) as their CSP"
+  - "Veterans unfamiliar with Login.gov thought it was either a VA service and/or understood it as a place to go, as opposed to a way to sign in"
+  - "Veterans want to keep their personal information secure but also want their information to easily port to other VA services"
+  - "Participants largely understand MFA, although several found SMS to be a hassle. A couple participants expressed extreme dislike of or anxiety around SMS MFA"
+  - "Some verbiage, terms, and phrasings caused confusion around identity, but this doesn't have to be a hurdle for or affect credential migration"
+recommendations:
+  - "Set a clear sunset date before expecting veterans to widely change CSP"
+  - "Develop a comprehensive proactive migration strategy that doesn't rely on an interrupting modal"
+  - "Better educate veterans about MFA options other than SMS"
+  - "Better label Login.gov as a partner, not part of VA"
+  - "Update the approach used with some identity related terminology and verbiage usage"
+  - "Allow veterans to reuse their information from VA as they sign up for Login.gov or ID.me"
+  - "Work with MHV partners to help MHV users better understand the difference between MHV the CSP vs MHV as the place to go"
+kpi_alignment: []
+outcomes:
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas:
+  - "Researching why veterans who have successfully set up either an ID.me or Login.gov account revert back to using MHV or DSLogin as their CSP"
+  - "Understanding what veteran segments make the most sense for automating communications about migration"
+  - "Researching what language will be more persuasive to each veteran segment"
+further_research_needed:
+  - "Why veterans who have successfully set up either an ID.me or Login.gov account revert back to using MHV or DSLogin as their CSP"
+  - "How many veterans have multiple CSP and which one do they actively use"
+  - "What veteran segments make the most sense for automating communications about migration"
+  - "What language will be more persuasive to each veteran segment"
+underserved_groups_missing:
+  - "Immigrant origin"
+  - "Black, biracial, or Asian"
+  - "Assistive tech users"
+  - "Transgender"
+secondary_research: []
+synthesis_tools_used:
+  - "Mural"
+tags:
+  - "AUD: Veterans"
+  - "DSC: Modal"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "HDW: Smartphone"
+  - "INTIVE: CX Executive Order"
+  - "PRDT: Content"
+  - "PRDT: Login"
+  - "PRDT: Login.gov"
+  - "RESRCH: Evaluative"
+  - "RESRCH: Interviews"
+  - "RESRCH: Remote"
+  - "usability-testing"
+  - "semi-structured-interviews"
+---
+
 # 2023-04 Proactive CSP migration research findings
 **Office of the CTO - Digital Experience (OCTO-DE), Sign in, Identity Team**
 - Date: May 31, 2023

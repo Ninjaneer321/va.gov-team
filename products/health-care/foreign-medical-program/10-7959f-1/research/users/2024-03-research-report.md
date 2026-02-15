@@ -1,3 +1,117 @@
+---
+title: "Form 10-7959f-1 Content and FMP Experience Research Findings"
+product: "Foreign Medical Program (FMP) Registration Form 10-7959f-1"
+team: "IVC Forms Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-05-09"
+researchers:
+  - "Rachael Penfil (rachael.penfil@adhocteam.us)"
+  - "Steven Straily (steven.straily@agile6.com)"
+research_goals:
+  - "Test content comprehension for the current iteration of the 10-7959f-1 form"
+  - "Gain insights related to participants' experience with the current 10-7959f-1 process and FMP"
+methodology:
+  - "Remote moderated usability testing"
+  - "Think-aloud protocol with Figma prototype"
+  - "Open-ended interviews about FMP experience"
+devices_used:
+    desktop: 9
+    tablet: 2
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 11
+demographics:
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 1
+    "45-54": 2
+    "55-64": 5
+    "65+": 3
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 4
+    associates: 0
+    bachelors: 2
+    masters: 3
+    doctorate: 1
+    unknown: 1
+  location:
+    urban: 4
+    rural: 2
+    overseas: 5
+  race:
+    white: 7
+    black: 2
+    hispanic: 0
+    biracial: 1
+    asian: 0
+    native: 0
+    prefer_not_answer: 1
+  disability:
+    cognitive: 6
+    AT_beginner: 1
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 1
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Various usability issues found: VA file number confusion, collapsed review page accordions, inline editing well-received, flexible phone/address inputs needed for overseas users"
+  - "Veterans want transparency into FMP registration and claims status - currently no visibility until 3-6 months later"
+  - "Veterans experience difficulties with reimbursement due to confusion over VA responsibility, stringent documentation requirements, and slow mailing times"
+  - "Veterans strongly prefer providers who bill FMP directly, but availability varies by location"
+  - "Many participants had misconceptions about FMP availability and coverage, often learning about program only through VA locations or word-of-mouth"
+  - "Veterans with multiple addresses/phone numbers lack way to inform FMP which to use without filing new form or calling"
+recommendations:
+  - "Add helper text for VA file number, expand review page accordions by default, add country code to phone fields, customize addresses for foreign countries"
+  - "Provide self-service outlets for status updates through MyHealtheVet, implement email/text notifications for claims and registration progress"
+  - "Continue exploring options to expedite processing, work with stakeholders to maximize digitization benefits, clarify claim requirements upfront"
+  - "Communicate findings with stakeholders about provider dynamics, continue moving form in Veteran-centric direction"
+  - "Move forward with content improvements to better inform users about FMP, create additional outlets in VA.gov ecosystem to share FMP information"
+  - "Provide clarification around what addresses and phone numbers will be used for, allow Veterans to manage multiple contact methods"
+kpi_alignment:
+  - "Reduce claim processing time from 3-6 months"
+  - "Improve Veteran understanding of FMP eligibility and coverage"
+  - "Increase digital submission adoption"
+outcomes:
+  user: "Veterans can easily register for FMP with clear understanding of benefits, process, and timelines, with ability to track status"
+  business: "Reduced processing delays, fewer incomplete submissions, improved Veteran satisfaction with FMP experience"
+opportunity_areas:
+  - "Digital status tracking for claims and registration"
+  - "Integration with MyHealtheVet for FMP information"
+  - "Better communication of FMP coverage and eligibility"
+  - "Streamlined provider network that bills FMP directly"
+further_research_needed:
+  - "Continue research with more robust prototype or live version of form"
+  - "Explore user behaviors, perceptions, and pain points to optimize service"
+  - "Research VR&E participants' experience with FMP coverage"
+underserved_groups_missing:
+  - "Assistive technology users"
+  - "Mobile users"
+  - "Users with no degree"
+  - "Users who are immigrants"
+  - "Hispanic users"
+  - "Asian users"
+  - "Native/Indigenous users"
+  - "Transgender users"
+  - "Nonbinary, gender fluid, gender queer, Two-Spirit users"
+secondary_research:
+  - "Preliminary findings for form improvements"
+  - "Stakeholder research findings"
+synthesis_tools_used:
+  - "EnjoyHQ"
+  - "Mural"
+---
+
 # **2024-03-Form 10-7959f-1 Content and FMP Experience Research Findings**
 
 Office of the CTO - Digital Experience (OCTO-DE), Form 10-7959f-1, IVC Forms Team

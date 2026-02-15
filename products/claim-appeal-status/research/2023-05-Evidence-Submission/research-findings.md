@@ -1,3 +1,127 @@
+---
+title: Evidence Submission Usability Testing Research Findings
+product: Claim Status Tool
+team: Benefits Claimant Experience Management Tools
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2023-06-01'
+researchers:
+- Skyler Schain
+research_goals:
+- Validate the usability of design concepts for Track 1 Evidence Submission work
+- Test near-term, concrete user experience and accessibility updates to CST
+methodology:
+- Remote usability testing
+devices_used:
+  desktop: 9
+  tablet: 1
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 10
+demographics:
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 1
+    35-44: 3
+    45-54: 1
+    55-64: 2
+    65+: 3
+    unknown: 0
+  education:
+    high_school: 1
+    some_college: 1
+    associates: 0
+    bachelors: 1
+    masters: 7
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 10
+  race:
+    white: 2
+    black: 8
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  gender:
+    male: 2
+    female: 8
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Most participants said they prefer the new CST design to the current design. In
+  particular, they prefer the layout and display of information
+- Participants were able to navigate the evidence request flow without much difficulty
+- Participants like seeing the Recent activity section because they like clearly seeing
+  that the VA is taking action to gather necessary information for the claim
+- Participants seemed neutral about Claim IDs. Without a clear reason for needing
+  it, the use value to these (sighted) users is not very clear
+- Participants responded well to the CST status page framing of What you need to do
+  and What we're doing
+secondary_findings:
+- More than anything, participants want to know how long it will take for the request
+  to be fulfilled. This is the question behind many of the other questions they have
+- Participants like the blurb associated with the evidence request that explains what
+  the request is and how to fulfill it
+- It's not always clear where files are coming from in the Document files section
+  of the Files tab
+- Participants responded well to the line This is the longest step in the process.
+  Transparent, self-aware language like this seems to set better expectations and
+  put Veterans at ease
+- After seeing the Status page, the Overview page with the claim stepper feels redundant
+  to most participants
+recommendations:
+- Stay the course of updating the Claims Status Tool based on these findings
+- Adopt the action-oriented design principle. Be proactive in reassuring Veterans
+  about what they do and don't have to do while a claim is in progress
+- Remove Claim IDs from the design proposal, given that they don't seem to provide
+  much value
+- Explore ways to ensure Veterans use the request widget to add evidence, rather than
+  the Files tab
+- Explore ways to make it clearer where Documents Filed items came from, and way to
+  clarify the relationship Documents Filed and Recent Activity
+- Beyond Track 1, consider ways to consolidate information even more between the three
+  tabs (Status, Files, and Overview), given that participants found some of the information
+  to be redundant
+further_research_needed:
+- Test the design with AT users once it has been implemented in code
+- Talk to the call center team about whether or not a unique Claim ID would be useful
+  to them as a reference object
+underserved_groups_missing:
+- Cognitive disability
+- Expat
+- Gay, lesbian, or bisexual
+- Transgender
+- Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another
+  gender beyond man or woman
+secondary_research:
+- CST Initial Decisions Research from 2023-03
+synthesis_tools_used:
+- Mural
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'PRDT: Claim-status-tool'
+- usability-testing
+- remote-research
+- evaluative
+---
 # Evidence Submission Usability Testing Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Benefits Claimant Experience Management Tools, Claim Status Tool**

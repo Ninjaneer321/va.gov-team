@@ -12,8 +12,11 @@ Existing test rail cases were tested
 - C107916 -	526 Submission Experience - BDD (Benefits Delivery at Discharge) - minimal -->
 
 ## Test Rail
+The following test rail test cases have been created to document how to test side nav functionality and its interaction with existing form functionality:
 
-See [526 Side Navigation - Test Plan](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/c5ed9f0f75709effc2b751e46c4d14244904c606/Administrative/vagov-users/staging-test-accounts-526EZ-side-navigation.md)
+- [Testing side nav with New Conditions flow](https://dsvavsp.testrail.io/index.php?/cases/view/158933)
+- [Testing side nav with CFI flow](https://dsvavsp.testrail.io/index.php?/cases/view/158934)
+- [Testing side nav with Save in progress form and resumption](https://dsvavsp.testrail.io/index.php?/cases/view/158935)
 
 
 ## Additional resources - Bug Bash

@@ -1,3 +1,121 @@
+---
+title: "Conditions Page Assistive Technology Usability Testing Research Findings"
+product: "Disability Benefits - 526EZ"
+team: "Contention Classification"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-08-20"
+researchers:
+  - "Sudeepti Bhatnagar (sudeepti.bhatnagar@va.gov)"
+  - "Eva Heintzelman (eva.heintzelman@va.gov)"
+research_goals:
+  - "Evaluate how easily Veterans can navigate and use the conditions page with various assistive technologies"
+  - "Test all features, particularly the autosuggest component, for compatibility with assistive devices"
+  - "Assess whether page instructions and information are clear and comprehensible when accessed through assistive technologies"
+  - "Assess overall confidence and satisfaction with the page for AT users"
+methodology:
+  - "Remote moderated usability testing via Zoom"
+  - "VA staging environment with test user accounts"
+  - "Screen reader (JAWS, VoiceOver) and screen magnification testing"
+  - "60-90 minute sessions"
+devices_used:
+    desktop: 5
+    tablet: 0
+    smartphone: 1
+    assistive_technology: 7
+participants_total: 7
+demographics:
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 2
+    "55-64": 1
+    "65+": 4
+    unknown: 0
+  education:
+    high_school: 1
+    some_college: 2
+    associates: 1
+    bachelors: 1
+    masters: 2
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 5
+    rural: 2
+    unknown: 0
+  race:
+    white: 4
+    black: 3
+    hispanic: 0
+    biracial: 2
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 4
+    screen_reader_desktop: 1
+    screen_reader_mobile: 2
+    magnification_zoom: 3
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Participants using assistive technologies demonstrated remarkable resilience and adaptability, successfully completing most tasks despite encountering various obstacles"
+  - "The experience for screen magnifier users was mainly comparable to non-screen magnifier users, with minimal AT-specific challenges"
+  - "Despite overall success, the form presented substantial usability issues and cognitive load for screen reader participants"
+  - "AT users demonstrated a range of navigation strategies when interacting with the conditions page"
+  - "Many participants successfully interacted with the page without thoroughly reading the instructions"
+  - "Participants generally preferred selecting from the autosuggest list when possible, perceiving these options as pre-approved"
+  - "Critical bugs appeared only for iOS screen reader users, including focus trap and illogical focus order issues"
+  - "Screen reader users struggled with cognitive load from reviewing long autosuggest lists and managing typos"
+recommendations:
+  - "Keep the general page layout of instructions plus autosuggest component, but optimize to minimize confusion and errors"
+  - "Explore ways to decrease the number of autosuggestions by separating out left/right/bilateral or refining the algorithm"
+  - "Address the critical focus issues in the autosuggest dropdown for screen reader users on iOS devices"
+  - "Introduce typo tolerance and spelling correction in the autosuggest function"
+  - "Provide immediate and clear announcements after each action (add, edit, remove)"
+  - "Add confirmation step before removing or overwriting conditions"
+  - "Clarify the save button functionality with descriptive labels and ensure it doesn't overlap with autosuggest dropdown"
+  - "Consider adding screen reader-only instructions to clarify the use of free-text in the dropdown"
+  - "Continue testing with assistive technology users before major releases"
+kpi_alignment:
+  - "Meet WCAG 2.1 AA accessibility standards"
+  - "Improve task completion rates for AT users"
+  - "Reduce time to complete conditions entry for AT users"
+  - "Increase satisfaction scores for AT users"
+outcomes:
+  user: "Veterans using assistive technology can successfully and independently add, edit, and remove conditions with confidence and reasonable efficiency"
+  business: "Improved accessibility ensures compliance with Section 508 and increases successful form submissions from AT users, reducing need for assisted digital support"
+opportunity_areas:
+  - "Enhanced autosuggest algorithm optimized for screen reader interactions"
+  - "Platform-wide AT testing protocols and standards"
+  - "Proactive accessibility reviews in design phase"
+further_research_needed:
+  - "Testing with additional AT types beyond screen readers and magnifiers"
+  - "Validation of improvements after bug fixes are implemented"
+  - "Testing on additional mobile platforms and device combinations"
+  - "Research on optimal announcement patterns for screen readers"
+underserved_groups_missing:
+  - "Other than honorable discharge Veterans"
+  - "Immigrant and expat Veterans"
+  - "Hispanic, Asian, and Native Veterans"
+  - "LGBTQ+ Veterans"
+  - "Cognitive disability representation"
+secondary_research:
+  - "CAIA accessibility analysis and Slack recommendations"
+  - "Platform accessibility best practices documentation"
+synthesis_tools_used:
+  - "Mural"
+  - "Google Sheets"
+---
+
 2024-07 Conditions Page Assistive Technology Usability Testing
 
  Research Report 

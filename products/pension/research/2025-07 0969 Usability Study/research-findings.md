@@ -1,24 +1,24 @@
 ---
-title: "VA Form 21P-0969 Usability Study Research Findings"
-product: "VA Form 21P-0969"
-team: "Pension and Burials Team"
-office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "2025-08-15"
+title: VA Form 21P-0969 Usability Study Research Findings
+product: VA Form 21P-0969
+team: Pension and Burials Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2025-08-15'
 researchers:
-  - "Chavie Cramer"
-  - "Skyler Schain"
+- Chavie Cramer
+- Skyler Schain
 research_goals:
-  - "Assess initial comprehension and mental load."
-  - "Evaluate interaction with the “List and Loop” design pattern for income and assets."
-  - "Test clarity of labels, categorization, and task completion across steps."
+- Assess initial comprehension and mental load.
+- Evaluate interaction with the “List and Loop” design pattern for income and assets.
+- Test clarity of labels, categorization, and task completion across steps.
 methodology:
-  - "semi-structured interviews"
-  - "high-fidelity prototype"
+- semi-structured interviews
+- high-fidelity prototype
 devices_used:
-    desktop: 3
-    tablet: 2
-    smartphone: 2
-    assistive_technology: 0
+  desktop: 3
+  tablet: 2
+  smartphone: 2
+  assistive_technology: 0
 participants_total: 7
 demographics:
   veterans: 7
@@ -27,11 +27,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 7
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 7
     unknown: 0
   education:
     high_school: 0
@@ -64,39 +64,85 @@ demographics:
     sighted_keyboard: unknown
     captions: unknown
 key_findings:
-  - "When asked what level of effort was required to complete the form (1 being lowest and 5 being highest) 6 out of 7 users rated the experience between 1 to 3. This is particularly encouraging given that only 1 out of 7 described themselves as high in technical literacy."
-  - "Users were able to successfully navigate the form and progress to completion without assistance in 12 out of 14 steps."
-  - "When asked to rephrase key concepts or terminology during particularly dense or complex sections of the form in their own words, 5 out of 7 users were able to do so accurately."
-  - "7 out of 7 users were able to identify next action steps if additional information was needed using contact information provided or personal research."
-  - "6 out of 7 users did not understand they needed to enter each income separately when entering list and loop, with high frustration or anxiety exhibited before first income entry. Once the first entry was completed, users expressed a strong understanding of the pattern."
-  - "6 out of 7 users were unclear about financial support rules based on existing content and were unable to recall the definition of a dependent without the additional info component."
-  - "5 out of 7 users were confused by mention of supporting “evidence” on the Introduction page, leading them to believe they had to provide additional documentation to what might be requested by the VA."
-  - "4 out of 7 users were confused when steps they were currently completing referenced previous steps by number rather than description."
-  - "6 of 7 users did not recognize or select the “Expand all” option to review information before it was submitted, leading some to experience frustration when progressing to the confirmation page."
-  - "7 of 7 users desired more transparency regarding when to expect a decision for their claim."
-
+- When asked what level of effort was required to complete the form (1 being lowest
+  and 5 being highest) 6 out of 7 users rated the experience between 1 to 3. This
+  is particularly encouraging given that only 1 out of 7 described themselves as high
+  in technical literacy.
+- Users were able to successfully navigate the form and progress to completion without
+  assistance in 12 out of 14 steps.
+- When asked to rephrase key concepts or terminology during particularly dense or
+  complex sections of the form in their own words, 5 out of 7 users were able to do
+  so accurately.
+- 7 out of 7 users were able to identify next action steps if additional information
+  was needed using contact information provided or personal research.
+- 6 out of 7 users did not understand they needed to enter each income separately
+  when entering list and loop, with high frustration or anxiety exhibited before first
+  income entry. Once the first entry was completed, users expressed a strong understanding
+  of the pattern.
+- 6 out of 7 users were unclear about financial support rules based on existing content
+  and were unable to recall the definition of a dependent without the additional info
+  component.
+- 5 out of 7 users were confused by mention of supporting “evidence” on the Introduction
+  page, leading them to believe they had to provide additional documentation to what
+  might be requested by the VA.
+- 4 out of 7 users were confused when steps they were currently completing referenced
+  previous steps by number rather than description.
+- 6 of 7 users did not recognize or select the “Expand all” option to review information
+  before it was submitted, leading some to experience frustration when progressing
+  to the confirmation page.
+- 7 of 7 users desired more transparency regarding when to expect a decision for their
+  claim.
 recommendations:
-  - "Clarify language at list and loop start so users understand they will need to submit each income type and recipient separately."
-  - "Adjust the definition of dependants to include emphasis on level of financial support provided to reduce confusion and help users determine what best applies in their situation."
-  - "Continue to provide a reminder of the definition of “dependent” on the pages where it is most relevant to reduce the amount of recall required and potential mental load."
-  - "Remove reference to supporting documents (or “evidence”) from the Introduction page to reduce anxiety and confusion for users."
-  - "Determine if it is necessary to reference previous steps within the form; and if so, provide written descriptions of what information was gathered in the previous step rather than just the number."
-  - "Set the accordion on the Review and Submit page to expand by default based on user inputs to better facilitate required action."
-  - "Provide more transparency about what to expect regarding application processing times and assist in providing a thruline back to Pension or DIC applications (as 0969 is often triggered by another application being completed."
+- Clarify language at list and loop start so users understand they will need to submit
+  each income type and recipient separately.
+- Adjust the definition of dependants to include emphasis on level of financial support
+  provided to reduce confusion and help users determine what best applies in their
+  situation.
+- Continue to provide a reminder of the definition of “dependent” on the pages where
+  it is most relevant to reduce the amount of recall required and potential mental
+  load.
+- Remove reference to supporting documents (or “evidence”) from the Introduction page
+  to reduce anxiety and confusion for users.
+- Determine if it is necessary to reference previous steps within the form; and if
+  so, provide written descriptions of what information was gathered in the previous
+  step rather than just the number.
+- Set the accordion on the Review and Submit page to expand by default based on user
+  inputs to better facilitate required action.
+- Provide more transparency about what to expect regarding application processing
+  times and assist in providing a thruline back to Pension or DIC applications (as
+  0969 is often triggered by another application being completed.
 outcomes:
-  user: "This research supports our desired user outcome by identifying areas of success and improvement that supports a positive experience for Veterans reporting complex financial information."
-  business: "This research supports our desired business outcome by assessing Veteran comprehension of form instructions and ability to complete necessary actions to submit in a logical way."
+  user: This research supports our desired user outcome by identifying areas of success
+    and improvement that supports a positive experience for Veterans reporting complex
+    financial information.
+  business: This research supports our desired business outcome by assessing Veteran
+    comprehension of form instructions and ability to complete necessary actions to
+    submit in a logical way.
 further_research_needed:
-  - "The team used scenario based testing of the 0969 form as a standalone experience following an ideal path. In order to test the true mental load that might be associated with the form, it may be necessary to test it as part of the full form flow with parent applications such as the Veteran’s Pension (527) and DIC (534) forms."
-  - "We also may wish to introduce more complex paths that include less than ideal conditions."
-  - "Based on the findings, additional research exploring Veteran mental models when applying for benefits as it related to financial reporting may also be beneficial in future."
-  - We did not include caregivers or survivors as part of our participant base. These account for a different use case that is important to consider but was out of scope for this study." 
+- The team used scenario based testing of the 0969 form as a standalone experience
+  following an ideal path. In order to test the true mental load that might be associated
+  with the form, it may be necessary to test it as part of the full form flow with
+  parent applications such as the Veteran’s Pension (527) and DIC (534) forms.
+- We also may wish to introduce more complex paths that include less than ideal conditions.
+- Based on the findings, additional research exploring Veteran mental models when
+  applying for benefits as it related to financial reporting may also be beneficial
+  in future.
+- We did not include caregivers or survivors as part of our participant base. These
+  account for a different use case that is important to consider but was out of scope
+  for this study."
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
-
+- Mural
+- Affinity Mapping
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Pension'
+- 'PRDT: Caregivers'
+- semi-structured-interviews
+- remote-research
+- evaluative
 ---
-
 # VA Form 21P-0969 Usability Study Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), VA Form 21P-0969, Pension and Burials Team**

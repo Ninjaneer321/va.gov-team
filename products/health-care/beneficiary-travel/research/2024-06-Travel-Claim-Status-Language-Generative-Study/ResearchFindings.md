@@ -1,3 +1,110 @@
+---
+title: "Travel Claims Status Language Generative Study Research Findings"
+product: "Beneficiary Travel Pay"
+team: "Beneficiary Travel Pay"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-09-26"
+researchers:
+  - "Cara Frissell (cara.frissell@adhocteam.us)"
+research_goals:
+  - "Understand what users see as the purpose of a Claim status"
+  - "Evaluate how strongly status labels align with status definitions in users' mental models"
+  - "Identify which Travel Claims statuses users conflate or see as duplicative"
+  - "Determine what statuses users see as unnecessary or missing"
+methodology:
+  - "60 minute user interviews with 16 Veterans"
+  - "Exercise 1: Labeling status definitions"
+  - "Exercise 2: Open card sort"
+devices_used:
+    desktop: 16
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 16
+demographics:
+  veterans: 16
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  gender:
+    male: 7
+    female: 9
+  lgbtq:
+    transgender: 0
+    nonbinary: 0
+    gay_lesbian_bisexual: 2
+  age:
+    "25-34": 4
+    "35-44": 2
+    "45-54": 3
+    "55-64": 3
+    "65+": 5
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 16
+  location:
+    urban: 0
+    rural: 0
+    unknown: 16
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 16
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Participants' mental model divided the imagined claim processing process into pre- and post-decision with emphasis on when they did or did not need to take action"
+  - "Participants did not clearly understand how individual claim statuses connected with each other in the larger process"
+  - "Participants wanted to be proactively made aware of critical phases of claim processing and when they needed to act to avoid denied claims"
+  - "Participants collapsed 'Claim Submitted' and 'In Process' as both confirmation of submitted claim"
+  - "'Roadblocks that Require Action' comprise the heart of the murky middle of claim review process"
+  - "Participants distinguished 'Denied' statuses based on reason for denial, especially error versus ineligibility"
+  - "Participants saw 'Claim Paid' as successful group and distinguished between payment 'en route' and payment complete"
+  - "Participants struggled to connect different claim statuses because they did not understand the process as a whole"
+  - "Participants wanted more prominent notifications of key moments and when claim is blocked"
+  - "When claim is denied, participants want to learn why the claim was denied"
+recommendations:
+  - "Consider alternative language that emphasizes when submitter needs to take action or provide additional information"
+  - "Manage users expectations of claim review process from the start with timeframes and process steps information"
+  - "Give users option to proactively keep themselves updated with key moments via notifications and emails"
+kpi_alignment: []
+outcomes:
+  user: "A generative, first version set of recommended changes to Veteran-facing Travel Claim statuses with alternative language sourced from users to supplement current BTSSS status system"
+  business: "Bridge gap between status language that aligns with users' mental models and language required for VA systems"
+opportunity_areas:
+  - "Status language that emphasizes action requirements"
+  - "Process expectation management and timeline communication"
+  - "Proactive notification system for critical claim moments"
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+  - "Mural"
+  - "Open card sort analysis"
+  - "Similarity matrix"
+  - "Dendrogram analysis"
+---
+
 
 # **Travel Claims Status Language Generative Study Research Findings**
 

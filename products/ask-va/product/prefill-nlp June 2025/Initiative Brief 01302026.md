@@ -90,7 +90,7 @@ It also includes these OKRs:
 ### Our team
 |Role|Assigned|Contact|
 |:---|:---|:---|
-|Product owner (OCTO), Designer|Becky Phung||
+|Product owner (OCTO), Designer|Becky Phung|becky.phung@va.gov|
 |Product manager|Stephanie Vargo|stephanie.vargo@va.gov|
 |Technical Lead|Jerek Shoemaker|jerek.shoemaker@va.gov|
 |AI Lead|Matt Floyd|matthew.floyd@va.gov|
@@ -103,6 +103,5 @@ It also includes these OKRs:
 |Product Owner (VES, AVA CRM)|Natalie Morales|natalie.morales@va.gov|
 |Project Executive Sponsor(VEO)|Kathleen Reavy|kathleen.reavy@va.gov|
 |Product Owner(VEO)|Jaime Rocha|jaime.rocha@va.gov|
-|AI lead (OCTO)|Alexander Kharbush|x|
-|Data/AI Digital Corps Fellow|Lylybell Teran|lylbell.teran@va.gov
+|Data/AI Digital Corps Fellow|Lylybell Teran|lylybell.teran@va.gov
 

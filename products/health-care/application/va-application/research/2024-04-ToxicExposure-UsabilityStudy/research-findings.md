@@ -1,3 +1,126 @@
+---
+title: Research Findings for 10-10EZ Toxic Exposure Questions Usability Study
+product: 10-10EZ Health Care Application
+team: Health Enrollment Team, 10-10EZ
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: 2024-04
+researchers:
+- Angela Agosto (angela.agosto@adhocteam.us)
+- Jessica Stump (jessica.stump@adhocteam.us)
+research_goals:
+- Discover areas where the content may not be clear or need additional explanation
+- Discover areas where their service history requires too much mental lift / recall
+  on the Veterans behalf to answer
+- Discover unknown usability or accessibility issues
+methodology:
+- Moderated remote usability sessions
+- 10-10EZ Form in Production on VA.gov
+- Unauthenticated or authenticated via the participants account and ability
+devices_used:
+  desktop: 5
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 1
+participants_total: 7
+demographics:
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 1
+    35-44: 2
+    45-54: 1
+    55-64: 0
+    65+: 2
+    unknown: 1
+  education:
+    high_school: 1
+    some_college: 2
+    associates: 0
+    bachelors: 2
+    masters: 1
+    doctorate: 1
+    unknown: 0
+  location:
+    urban: 5
+    rural: 2
+    unknown: 0
+  race:
+    white: 5
+    black: 2
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 1
+    AT_advanced: 0
+    screen_reader_desktop: 1
+    screen_reader_mobile: 0
+    magnification_zoom: 1
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 1
+key_findings:
+- Most Veterans have been or believe they have been exposed to toxic materials in
+  the military, but they don't know if it qualifies as 'toxic exposure.'
+- Veterans would like more information about what time periods during their service
+  are eligible to note any toxic exposure.
+- Veterans would like to see more customization in the toxic exposure questions based
+  on what VA already knows about them or what they answered previously.
+- There is some confusion with how to identify exposure dates and why VA is asking
+  for them.
+- We uncovered some usability issues that were missed since the TERA project timeline
+  didn't allow for a full research study until post-launch.
+recommendations:
+- Correct usability issues that were discovered during the study.
+- Make it more clear via content or placement that toxic exposure during training
+  does count and should be reported in the TERA questions.
+- Gain a more detailed understanding of what types of potential toxic exposure on
+  the 'Other toxic exposures' page would impact a Veteran's priority group from our
+  stakeholders and make content recommendations based on these findings.
+- Incorporate more customization into the form so Veterans are only asked questions
+  that are potentially relevant to them.
+- Get more information about VA's efforts to reach out to certain groups for toxic
+  exposure and determine what opportunities (if any) exist to develop personalized
+  notifications.
+kpi_alignment: []
+outcomes:
+  user: Veterans can easily report toxic exposure information to help qualify for
+    VA health care or improve Priority Group placement
+  business: Accurate toxic exposure data collection to support Priority Group 6 placement
+    for eligible Veterans
+opportunity_areas:
+- Content clarity for toxic exposure definitions
+- Form customization based on service history
+- Training period exposure recognition
+further_research_needed: []
+underserved_groups_missing:
+- Cognitive Disability
+- Hispanic, Biracial, Asian, or Native
+- LGBTQ+
+secondary_research: []
+synthesis_tools_used:
+- Mural
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: Facilities'
+- 'MHV: Secure Messaging'
+- 'MHV: Personal Health Records/Medical Records'
+- usability-testing
+- moderated-research
+- remote-research
+- Accessibility
+- discovery
+---
 # Research Findings for 10-10EZ Toxic Exposure Questions Usability Study 
 
 **Office of the CTO - Digital Experience, Health Enrollment Team, 10-10EZ**

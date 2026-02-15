@@ -1,3 +1,117 @@
+---
+title: "Board Appeals (Notice of Disagreement) Usability Test Research Findings"
+product: "Decision Reviews - Notice of Disagreement"
+team: "Claims & Appeals"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-03-31"
+researchers:
+  - "Christian Valla"
+research_goals:
+  - "Identify usability issues and pain points in the Board Appeals prototype"
+  - "Determine if users can go through the form with ease and no blockers"
+  - "Identify confusion with regards to language and terms used"
+  - "Assess if participants feel they have all the information they need to complete the form"
+methodology:
+  - "Remote moderated usability study via Zoom"
+  - "Task-oriented sessions with Invision prototype"
+  - "Screen sharing and observation"
+devices_used:
+    desktop: 7
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 7
+demographics:
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 7
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 7
+  location:
+    urban: 0
+    rural: 0
+    unknown: 7
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Several participants have submitted a board appeal before. Their experiences varied from pretty easy to a very frustrating experience that took several years"
+  - "Overall participants find the online form easy to navigate. The Veteran details-, Additional evidence-, and Review your request pages are intuitive/self-explanatory"
+  - "Participants are confused by the Opt-in information on the Board Appeals Info page and on the Issues Eligible for Review page"
+  - "A few participants would like to be asked why they are appealing"
+  - "Participants are appalled by the processing time for the Board Appeals"
+  - "Some key elements are not discoverable enough. A few participants needed prompting to locate the drop-down links (e.g. Why aren't all my issues listed here?)"
+  - "Participants would be confused and worried if they did only see some of their issues listed on the Issues Eligible for Review page. They would add their issues not shown, to make sure they were all in the system"
+  - "Inconsistent copy about the board review options between the Board Appeals Info page and the Board Review Options page"
+  - "Participants would like to upload several/all documents simultaneously"
+  - "Several participants want to be able to print (and save) the entire form when it is filled out"
+recommendations:
+  - "Change the copy about opting into the new process on the Board Appeals Info page: use plain language, simplify language, consider not using legacy appeals process, but instead old and new appeals process"
+  - "Consider if the Request a Board Appeal button is noticeable enough"
+  - "Change copy on button Track the status of your claim to ...appeals"
+  - "Add a definition (or infobox) for VA-accredited attorney or agent on the Veteran details page"
+  - "Make the representative's email address optional or remove the question"
+  - "Consider making the drop-down link Why aren't all my issues listed here more noticeable"
+  - "Change the copy of the Opt-in note from Legacy Appeals Process to plain language (e.g. new and old appeal process). Simplify and clarify the copy about the opt-in process"
+  - "Due to the incomplete list of issues eligible for Board Appeal, allow veterans to instead manually add the issues they want to appeal to the board"
+  - "Tech discovery - can additional data be pulled from VBS, to provide a complete list with all the veteran's issues, whether registered or just pending?"
+  - "Make the copy on the Board review option page consistent with the Board Appeals Info page. Simplify language if possible. Add the time estimates to both pages"
+  - "Tech discovery: can the time estimates be more granular?"
+  - "Consider allowing veterans to print (and save) the whole completed form"
+kpi_alignment: []
+outcomes:
+  user: "Veterans can successfully submit a Notice of Disagreement appeal without confusion or barriers"
+  business: "Reduce abandonment and confusion in the Board Appeals digital form process"
+opportunity_areas:
+  - "Veterans need clearer explanation of opt-in process and legacy vs. new appeals process"
+  - "Processing time estimates need to be more granular and realistic"
+  - "Issues eligible for review list is incomplete causing confusion and extra work"
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "DSC: Form"
+  - "DSP: Ask users for files"
+  - "HDW: Desktop"
+  - "usability-testing"
+  - "decision-reviews"
+  - "notice-of-disagreement"
+  - "evaluative"
+---
+
 Board Appeals (Notice of Disagreement) usability test
 =====================================================
 

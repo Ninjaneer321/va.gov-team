@@ -1,3 +1,193 @@
+---
+title: Burial VSOs Research Findings
+product: Burial Benefits
+team: Non-disability Benefits / Dependents
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-12-09'
+researchers:
+- Fiorella Geedi (fiorella.GeediCotrina@va.gov)
+research_goals:
+- Understand how VSOs support claimants through the application and post-submission
+  process
+- Understand VSOs' experiences working with claimants and the claimant's experience
+  by proxy
+- Understand what impedes claimants from continuing the Burial benefits form
+methodology:
+- Semi-structured interviews
+- VSO pilot program participation
+- Microsoft Teams remote interviews
+devices_used:
+  desktop: 6
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 6
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 6
+  age:
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
+    unknown: 6
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 6
+  location:
+    urban: 3
+    rural: 3
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  vso_roles:
+    VSO: 1
+    CVSO: 2
+    SVSO: 2
+    NSO: 2
+  states_represented:
+  - California
+  - Missouri
+  - Minnesota
+  - Nevada
+  - Pennsylvania
+key_findings:
+- The typical claimants are spouses and children of the deceased Veteran. VSOs rarely
+  work with extended family, friends, caregivers, funeral homes, state cemeteries
+  and executors
+- Claimants face emotional challenges, including grief and the stress of navigating
+  bureaucratic processes during a time of loss
+- VSOs support Veterans' end-of-life journey by preparing them and their families
+  for burial benefits
+- VSOs have indicated that application process delays are common, primarily due to
+  the need for supporting documents. These delays can range from 7 days to 90 days
+  and, in rare instances, may extend up to a year
+- VSOs help obtain supporting evidence during the Burial Benefits application process
+  and reduce delays
+- Many claimants mistakenly believe Burial Benefits will fully cover funeral expenses,
+  unaware it is a reimbursement for specific costs, not a full payment for services
+- Claimants find some of the terminology used in the form confusing and hard to understand
+- VSOs offer DIC benefits to surviving spouses and suggest streamlining the process
+  for service-connected Veterans
+recommendations:
+- HMW put less burden on claimants during the Burial Benefits application process
+- Consider automating and auto-populating as much information we can about the deceased
+  Veteran
+- Ensure that we are preparing Veterans and their families for the death of the Veteran
+- HMW leverage ways VSOs prepare Veteran and their families in our digital space
+- Clearly outline the expected time frames for obtaining supporting documents
+- Review the checklist one of the VSO participants shared to ensure claimants know
+  what supporting documents are needed
+- Identify if the claimant or the deceased Veteran is already receiving VA benefits
+- Ensure claimants have included all the necessary information and supporting documents
+  before they submit the form
+- Set the expectation that the VA will not cover all expenses but only a small portion
+- Incorporate additional information about how much reimbursement a claimant can get
+  when they apply for Burial Benefits
+- Include the maximum and minimum amounts someone might get depending on their eligibility
+  in the paper form
+- Change 'allowance' to 'reimbursement' so claimants understand that receipts are
+  needed to claim Burial Benefits
+- Explain each type of allowance, specifically transportation allowances, and various
+  scenarios where transportation expenses could be reimbursed
+- Consider using plain language throughout the form
+- 'Provide more explanations regarding these terms: service-connected, not service-connected,
+  file number, and place of interment'
+- Research the connection between DIC and Burial Benefits
+- Mention the importance of including when the Veteran passed away from a service-connected
+  implication in their death certificate
+- Ensure the Burial Benefits form is available in multiple languages, both paper and
+  online
+- Include bank information on the paper and online forms so claimants can get reimbursement
+  faster
+- Clearly outline the expected time frames for receiving Burial Benefits reimbursement
+- Ensure the award letter is straightforward and doesn't mention 'denied' when the
+  claimant has not applied for that benefit
+kpi_alignment:
+- Reduce form abandonment rates
+- Decrease processing time for burial benefits
+- Minimize development letters sent to claimants
+outcomes:
+  user: Claimants can more easily complete the Burial Benefits form with less confusion
+    about allowances, terminology, and required documentation, resulting in faster
+    processing times and reduced emotional burden during a difficult time
+  business: Reduce development letters, improve form completion rates, streamline
+    processing for service-connected Veterans, and increase successful submissions
+    through the Fully Developed Claim program
+opportunity_areas:
+- Opportunity to automate verification for Veterans already receiving VA benefits
+- Streamline DIC and Burial Benefits application process for surviving spouses
+- Improve education and outreach to Veterans and families about end-of-life planning
+- Better support for claimants with language barriers
+- Reduce misunderstanding about reimbursement amounts and covered expenses
+further_research_needed:
+- Conduct research with spouses, children, extended family, friends, caregivers, funeral
+  homes, state cemeteries, and executors to verify VSO findings
+- Research the connection between DIC and Burial Benefits for potential process streamlining
+- Investigate funeral home practices and their role in supporting or potentially taking
+  advantage of claimants
+- Study challenges faced when Veterans never tapped into VA benefits during their
+  lifetime
+- Explore issues with name changes and how they affect benefit disbursement
+- Research claimants' understanding of tribal contributions in relation to question
+  19A
+- Investigate supplemental claims process confusion and form rejection issues
+- Determine which languages the Burial Benefits form should be translated into
+- Research additional fees claimants incur to obtain supporting documentation
+underserved_groups_missing:
+- Direct input from surviving spouses and children who are primary claimants
+- Extended family members serving as claimants
+- Funeral home representatives
+- State cemetery personnel
+- Executors of Veterans' estates
+- Claimants with language barriers
+- Claimants in additional geographic areas beyond the 5 states represented
+secondary_research:
+- VSO pilot program led by Lesly Ropp and Dené Gabaldón
+- Review of VSO-provided checklists and documentation
+- Analysis of FDC program requirements
+- Review of development letter causes
+- Examination of award letter content and clarity
+synthesis_tools_used:
+- Mural
+- EnjoyHQ
+tags:
+- 'AUD: VA Staff'
+- 'BNFT: Disability'
+- 'BNFT: Healthcare'
+- 'BNFT: Pension'
+- 'BNFT: Records'
+- 'PRDT: Accredited-Reps'
+- 'MHV: Appointments'
+- 'MHV: Personal Health Records/Medical Records'
+- semi-structured-interviews
+- remote-research
+---
 # Burial VSOs Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Burial Benefits, Non-disability Benefits / Dependents**

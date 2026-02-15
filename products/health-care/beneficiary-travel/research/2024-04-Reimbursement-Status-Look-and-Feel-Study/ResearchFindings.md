@@ -1,3 +1,111 @@
+---
+title: "Reimbursement Status Look and Feel Study Research Findings"
+product: "Beneficiary Travel Pay"
+team: "Beneficiary Travel Pay"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-05-15"
+researchers:
+  - "Cara Frissell (cara.frissell@adhocteam.us)"
+research_goals:
+  - "Inform look and feel of Travel Claim Status page"
+  - "Determine where Travel Reimbursement Status page should live on VA.gov"
+  - "Identify what entry points should be enabled"
+  - "Determine what language should be used on page to inform users about claim(s) and status label language"
+  - "Identify what types of interaction should be prioritized for first launch"
+methodology:
+  - "Moderated usability / cognitive walkthrough with 9 Veteran participants"
+  - "Primary task: Find information on multiple Spring 2023 travel reimbursement requests using prototype"
+  - "Codepen prototype testing"
+devices_used:
+    desktop: 5
+    tablet: 0
+    smartphone: 4
+    assistive_technology: 0
+participants_total: 9
+demographics:
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 9
+  education:
+    high_school: 0
+    some_college: 1
+    associates: 5
+    bachelors: 2
+    masters: 1
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 9
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 9
+  disability:
+    cognitive: 3
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  travel_pay_experience:
+    never: 2
+    one_to_five_times: 2
+    six_plus_times: 5
+  amended_claim:
+    yes: 5
+    no: 4
+key_findings:
+  - "Participants satisfice - majority (6 of 9) don't think deeply from start but take first thing that looks available from unauth Top Pages section"
+  - "Expected entry locations scattered across multiple locations - primary locations are Top Pages, My VA: Manage all claims and appeals, My VA"
+  - "Of 4 participants who landed on MHV on VA.gov page, all found entry point quickly and confidently"
+  - "Desktop experience more successful than mobile - all 4 mobile participants but only 2 of 5 desktop participants required direction to find status page"
+  - "All participants understood overall purpose of page, its layout and how to navigate current design"
+  - "All participants understood contents of claim card conceptually"
+  - "All participants wanted way to see why claim was in its status, especially negative status (denied, on hold, etc)"
+  - "All participants wanted way to initiate appeal of negative claim from the page"
+  - "Some participants wanted to see how many miles were being covered for reimbursement"
+  - "Most participants wanted more options by which to sort their claims"
+recommendations:
+  - "Decide what capabilities to implement on status page"
+  - "Absent another way to start appeal, reconsider Help section"
+  - "Amplify entry point from unauth VA Travel Reimbursement page, especially on mobile"
+  - "Amplify visibility of entry point on Claims manager tool"
+kpi_alignment: []
+outcomes:
+  user: "Understand where Travel Reimbursement Status page should live and what interactions to prioritize"
+  business: "Inform first launch of Travel Claim Status page on VA.gov with design and interaction decisions"
+opportunity_areas:
+  - "Appeal initiation capability from status page"
+  - "Status reason explanations especially for negative statuses"
+  - "Claim sorting and filtering capabilities"
+  - "Miles covered visibility in reimbursement details"
+further_research_needed: []
+underserved_groups_missing:
+  - "Assistive Technology users"
+secondary_research: []
+synthesis_tools_used:
+  - "Mural"
+---
+
 # **Reimbursement Status Look and Feel Study**
 
 Office of the CTO - Digital Experience (OCTO-DE), Beneficiary Travel Pay, Beneficiary Travel Pay team

@@ -1,3 +1,135 @@
+---
+title: "Caregiver, 10-10EZ Discovery research findings"
+product: "Health Care Application (10-10EZ)"
+team: "Caregiver Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-05-20"
+researchers:
+  - "Dené Gabaldón"
+research_goals:
+  - "Better understand why some Veterans choose to not apply for health care benefits"
+  - "Better understand why Veterans start the application, but don't complete it"
+  - "Gain human understanding behind the sections that the analytics show high drop-off rates"
+  - "Better understand context, environmental factors, and user behaviors, and feelings about the Health care application"
+  - "Run a general check of the application's usability and the users' understanding of the content and why they must provide the information that it asks for"
+methodology:
+  - "Remote task-based usability testing"
+  - "Moderated sessions via Zoom"
+devices_used:
+    desktop: 7
+    tablet: 1
+    smartphone: 1
+    assistive_technology: 0
+participants_total: 9
+demographics:
+  veterans: 6
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 3
+    "35-44": 2
+    "45-54": 0
+    "55-64": 2
+    "65+": 1
+    unknown: 1
+  education:
+    high_school: 1
+    some_college: 1
+    associates: 2
+    bachelors: 1
+    masters: 1
+    doctorate: 1
+    unknown: 2
+  location:
+    urban: 6
+    rural: 2
+    unknown: 1
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 2
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Participants feel that the VA should already have much of the information that the VA health care application requests"
+  - "Participants want more transparency on why questions are asked and how that will affect their eligibility"
+  - "Participants were unsure how they will receive updates on their application status"
+  - "Participants noted that questions were hard to understand and they wanted plain language explanations"
+  - "Participants only want to answer questions that are relevant to them and their situation"
+  - "Participants didn't understand how the Service History section choices were organized, thus causing confusion when choosing answers and fear of ineligibility"
+  - "Participants felt the household information section (includes financial disclosure information) was the hardest part of the application. They were uncertain how to find the requested information, unclear what the questions were asking, and how their responses would impact their application"
+  - "It was difficult for participants that live in states with many facilities to find their preferred facility. Additionally, participants in this study only noticed the 'Find locations with the VA Facility Locator' after the participant had already looked through the drop-down menu, thus it was a delayed help for them"
+  - "Participants did not get enough information from the Medicaid and Medicare related questions to confidently provide answers"
+recommendations:
+  - "Clarify that each question is necessary and be able to answer how it is used to determine VA health care eligibility, providing explanations for questions that the research and analytics show to be the most troublesome for applicants"
+  - "Explore progress bar and heading title options to provide clearer progression"
+  - "Mitigate fear of being automatically disqualified"
+  - "Create an information architecture that naturally reflects Veteran heuristics, exploring the following options: Order of questions should be chunked according to Veterans' mental model; Headings on page should be properly labeled to reflect application progression; Explore automatic qualifiers (Veterans who have automatically qualifying factors will not have to fill out the entire form); Create dependencies based on input information (ie. only ask service related questions that are date dependent based on applicant's service dates)"
+  - "Rewrite confusing questions in plain language (also improves accessibility)"
+  - "Explore ways to better implement VA Facility locator"
+  - "Explore ways to automatically generate information (eg. from tax filing, other military databases, etc.)"
+  - "Find out if it is possible to eliminate repeated questions for the unauthenticated experience"
+  - "Simplify Introduction page"
+  - "Clarify how the Veteran will be notified with application status updates: Explore e-mail validation link; Explore e-mail confirmation on submission; Explore preferred contact option"
+  - "Provide security and privacy information within the Military Service and Household Information sections"
+  - "Explore 1 question per page (also reduces burden)"
+  - "Make sure that all button and link treatment and behavior is correct"
+  - "Headings on page should be properly labeled for screen reader accessibility"
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas:
+  - "Veterans don't complete the form because they are unclear as to what information to provide in specific sections (mainly sections related to finances)"
+  - "Veterans don't complete the form because they don't have information readily available (mainly sections related to finances)"
+  - "Veterans don't complete the form because they feel uncomfortable disclosing certain information"
+  - "Online forms innately create different obstacles/less flexibility than paper/in-person experiences"
+further_research_needed:
+  - "Conduct A/B testing with 1 question per page and current flow"
+underserved_groups_missing:
+  - "Age 55-64+"
+  - "Cognitive Disability"
+  - "Mobile user"
+  - "People of color"
+  - "Assistive tech user"
+  - "Transgender"
+  - "Veterans abroad"
+secondary_research:
+  - "Google Analytics"
+synthesis_tools_used: []
+related_research:
+  - "Research plan: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/caregivers/10-10EZ/Research%20April-May%202021/End%20user%20discovery%20research/research-plan.md"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Family Member"
+  - "BNFT: Healthcare"
+  - "PRDT: Health care application"
+  - "DSC: Form"
+  - "DSP: Ask users for addresses"
+  - "DSP: Ask users for dates"
+  - "DSP: Ask users for names"
+  - "DSP: Form Templates"
+  - "HDW: Desktop"
+  - "HDW: Tablet"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "discovery"
+---
+
 # Caregiver, 10-10EZ Discovery research findings
 **Digital Services Veterans Affairs (DSVA), VSA, Caregiver Team**<br>
 

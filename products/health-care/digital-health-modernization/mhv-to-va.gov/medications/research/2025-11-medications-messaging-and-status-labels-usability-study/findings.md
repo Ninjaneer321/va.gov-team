@@ -1,3 +1,142 @@
+---
+title: Medication renewal flow and prescription statuses study Findings
+product: Medications
+team: My HealtheVet on VA.gov
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2026-01-06'
+researchers:
+- Athena Bozak
+- Anneka VanGarza
+- Cara Frissell
+research_goals:
+- Evaluate whether Veterans understand the meaning of the new prescription statuses
+  and identify which statuses or label elements cause confusion or misinterpretation
+- Evaluate whether Veterans can successfully and efficiently use the Secure Messaging
+  renewal flow on VA.gov to request renewals, and identify where they struggle or
+  drop off
+- Identify pain points, uncertainties, and other usability issues that can reasonably
+  be addressed through design or content changes
+methodology:
+- Remote moderated usability sessions
+- Think-aloud approach using Figma prototype and staging test environment
+devices_used:
+  desktop: 12
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 12
+demographics:
+  veterans: 12
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 1
+    35-44: 3
+    45-54: 3
+    55-64: 3
+    65+: 2
+    unknown: 0
+  education:
+    high_school: 5
+    some_college: 4
+    associates: 2
+    bachelors: 3
+    masters: 1
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 11
+    rural: 4
+    unknown: 0
+  race:
+    white: 7
+    black: 3
+    hispanic: 3
+    biracial: 0
+    asian: 1
+    native: 1
+  disability:
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 5
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Prescription statuses were largely understood; refill vs. renewal understanding
+  varied
+- All 11 of 11 participants understood Active as a medication they are currently taking
+- 7 of 11 participants assumed Active implied refillability
+- 4 of 11 participants viewed Active as informational only
+- All 11 of 11 participants interpreted In Progress as a medication being actively
+  worked on
+- All 11 of 11 participants understood Inactive as no longer refillable
+- 9 participants associated Inactive with needing provider follow-up
+- 3 participants (P6, P8, P10) explicitly described the status labels as familiar
+  or unchanged
+- 8 of 12 participants clearly differentiated refill from renewal
+- 4 participants showed uncertainty or used the terms interchangeably
+- Renewal link discovery varied and often followed familiar paths
+- 7 of 12 participants noticed the renewal link organically once they reached the
+  correct medication card
+- 5 of 12 participants did not initially notice the renewal link and instead relied
+  on familiar, previously learned behaviors to request medications
+- Participants had questions about who would receive the renewal request
+- Most participants proceeded through provider selection, but several expressed questions
+  about who would receive the request
+- Prefilled messages supported completion, but missing information caused participants
+  to stumble
+- 10 of 12 participants explicitly noticed and valued the prefilled message
+- All 12 participants reviewed at least part of the prefilled content
+- 9 participants sent the message as-is
+- 3 participants wanted optional personalization
+- Confirmation cues were generally noticed and increased confidence, but did not fully
+  resolve uncertainty
+- 9 of 12 participants noticed the success alert and recognized it as confirmation
+  that their request was sent
+- 3 participants sought confirmation elsewhere, such as navigating to Secure Messaging
+  to verify the message had been sent
+recommendations:
+- Clarify when to use refill vs. renewal
+- Clarify where renewal requests are routed
+- Provide clearer guidance after submitting a renewal request
+- Set clearer expectations when additional information may be required
+- Continue leveraging prefilled medication details
+- Reduce cognitive load from inactive and historical medications
+kpi_alignment: []
+outcomes:
+  user: Faster, more confident renewal requests with reduced uncertainty and clearer
+    understanding of prescription statuses
+  business: Reduced phone calls for renewals and increased use of authenticated renewal
+    flow via Secure Messaging
+opportunity_areas:
+- Improved wayfinding for renewal link discovery
+- Clearer provider routing information throughout the flow
+- Better handling of missing medication information scenarios
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'PRDT: Caregivers'
+- 'MHV: Pharmacy'
+- 'MHV: Secure Messaging'
+- usability-testing
+- moderated-research
+- remote-research
+- Accessibility
+- evaluative
+---
 # Findings: Medication renewal flow and prescription statuses study
 
 **Authors:** Athena Bozak, Anneka VanGarza, Cara Frissell  

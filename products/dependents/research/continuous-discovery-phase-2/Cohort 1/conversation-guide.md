@@ -109,7 +109,7 @@ Before we look at the prototype, let’s start with a few warm-up questions.
 ## First Task: Sharing prototype & pre-form pages - 5 minutes
 
 - Let's start by opening up the prototype.
-- [Share link](https://www.figma.com/proto/s3wGkxbhHEKTcggOHenNlN/-%F0%9F%9A%A7----DMT-Usability-Prototypes?node-id=4321-18685&t=H6dHrmlGeuj1IKut-0&scaling=min-zoom&content-scaling=fixed&page-id=4015%3A10652&starting-point-node-id=4321%3A18685&show-proto-sidebar=1)
+- [Share link](https://www.figma.com/proto/s3wGkxbhHEKTcggOHenNlN/-%F0%9F%9A%A7----DMT-Usability-Prototypes?node-id=4321-18685&t=H6dHrmlGeuj1IKut-0&scaling=min-zoom&content-scaling=fixed&page-id=4015%3A10652&starting-point-node-id=4321%3A18685)
 - We don't put any of your personal information or anything about your personal situation in the prototype so the Veteran name you'll see in the prototype is Curtis. 
 - Curtis has his wife and two of his daughters on the benefit. His third daughter, Porshia, was previously on the benefit but was removed after she decided to take a year off from school. One of his daughters on the benefit, Jen, has a permanent disability that has been present from birth. Jen turns 18 in about 3 months and he receives a letter from VA saying that she will be removed from the benefit when she turns 18. He's heard that she can remain on your benefit as a disabled dependent so he logs into VA.gov to find out how to take that step.
 - We're going to ask you to imagine today that you are Curtis. I know that's a lot of details to remember so I'm going to copy the information about Curtis into the chat in case that is helpful. You can also ask me at any time and I'll be happy to repeat the information.

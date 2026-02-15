@@ -1,3 +1,134 @@
+---
+title: Accessible Record of Appeal Submission Research Findings
+product: Notice of Disagreement
+team: Decision Reviews
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2024-01-31'
+researchers:
+- Eileen Chi
+research_goals:
+- Evaluate effectiveness and value of accessible submitted appeal page for Veterans
+  using screen readers
+- Understand how Veterans using screen readers are currently accessing and storing
+  copy of appeal submission
+- Understand where Veterans using screen readers expect to access and how they expect
+  to use copy of submission
+methodology:
+- Usability testing with assistive technology users
+- Remote moderated interviews
+- Two-version prototype testing on staging environment
+devices_used:
+  desktop: 9
+  tablet: 1
+  smartphone: 6
+  assistive_technology: 16
+participants_total: 16
+demographics:
+  veterans: 16
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 1
+    35-44: 4
+    45-54: 2
+    55-64: 2
+    65+: 6
+    unknown: 1
+  education:
+    high_school: 0
+    some_college: 3
+    associates: 3
+    bachelors: 3
+    masters: 6
+    doctorate: 1
+    unknown: 0
+  location:
+    urban: 8
+    rural: 8
+    unknown: 0
+  race:
+    white: 8
+    black: 6
+    hispanic: 2
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 5
+    AT_advanced: 7
+    screen_reader_desktop: 8
+    screen_reader_mobile: 6
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Veterans found separate page for copy of submission redundant to confirmation page,
+  and link language misled Veterans into believing form was not yet submitted
+- Veterans prefer saving digital or physical copy of submission - if they saved a
+  copy, they would not be inclined to return to page on VA.gov for that information
+- Veterans found What to Expect Next section valuable and would want to highlight
+  timeline for immediate expectations and rest of process
+- Veterans using screen readers expect multiple methods of contact and prefer being
+  notified by email
+- Veterans use headings and search to navigate page, with mixed reaction to use of
+  lower level headings
+- Veterans using screen readers expect to receive PDFs from VA and rely on alternate
+  methods to read them when inaccessible
+recommendations:
+- Give Veterans multiple options to save copy of submission including through email
+- Set clearer expectations about process under What to Expect Next and move immediate
+  time-related information higher on confirmation page
+- Provide clear methods of communication and contact both to VA and from VA such as
+  specific phone number or email VA would contact Veterans from
+kpi_alignment:
+- Increase Veteran trust in reliability of VA digital products
+- Improve accessibility of submission records for Veterans using assistive technology
+- Enhance veterans personalized online experience
+outcomes:
+  user: Veterans can easily access and retain an accessible copy of their appeal submission
+    for their personal records
+  business: Increased trust in digital appeal submission process and improved accessibility
+    compliance for screen reader users
+opportunity_areas:
+- Email delivery of accessible submission copies
+- Improved PDF accessibility for screen reader users
+- Multiple contact method preferences for blind and low-vision Veterans
+- Digital evidence submission barriers for Veterans with vision impairment
+further_research_needed:
+- Additional research with blind Veterans who are not experienced with screen reader
+- Research with blind Veterans and their family members or caretakers
+underserved_groups_missing:
+- Immigrant origin Veterans
+- Veterans with other than honorable discharge
+- Transgender Veterans
+- Nonbinary, gender fluid Veterans
+secondary_research:
+- Reader mode accessibility testing
+- PDF accessibility analysis
+synthesis_tools_used:
+- Usability testing sessions
+- Prototype iteration testing
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: My VA'
+- 'MHV: Secure Messaging'
+- 'MHV: Personal Health Records/Medical Records'
+- usability-testing
+- remote-research
+- semi-structured-interviews
+- moderated-research
+- Accessibility
+- evaluative
+---
 # Accessible record of an appeal submission
 Research and Design: Eileen Chi
 

@@ -143,7 +143,7 @@ As we go through this prototype to accomplish the task I'll give you, I'd like y
 # Tasks
 
 ## Task 1
-Imagine a couple weeks ago you ordered a refill of Lipitor even though you won’t need it for a while. Show me how you would find the status of that refill request.
+Imagine a couple weeks ago you ordered a refill of Lipitor even though you won’t need it for a while. Show me how you would find the status of that refill request. *(in-progress meds link)*
 
 ### First impressions
 1. Tell me what you are looking at. How would you describe this page? What is this page telling you?  
@@ -156,7 +156,7 @@ Imagine a couple weeks ago you ordered a refill of Lipitor even though you won�
 ---
 
 ## Task 2
-Two years ago, you developed a rash and, since it was new, your doctor gave you a one-time prescription for cream that successfully cleared it. The rash has unexpectedly reappeared, and you have an appointment with your doctor tomorrow. You want to ask for a refill of the cream but cannot recall its name. Where would you look to find the name of the cream?
+Two years ago, you developed a rash and, since it was new, your doctor gave you a one-time prescription for cream that successfully cleared it. The rash has unexpectedly reappeared, and you have an appointment with your doctor tomorrow. You want to ask for a refill of the cream but cannot recall its name. Where would you look to find the name of the cream? *(Review and print list of meds -> Inactive)*
 
 1. What are you looking for?  
 2. Tell me what you are looking at.  
@@ -171,7 +171,7 @@ Two years ago, you developed a rash and, since it was new, your doctor gave you 
 ---
 
 ## Task 3
-In your annual physical a few months ago, your blood work showed that you were pre-diabetic and so your doctor started you on a Metformin to manage your blood sugar. You just realized that you are running low on your Metformin and need to get more ASAP. Do you think you can get more of your medication from here? Show me how.
+In your annual physical a few months ago, your blood work showed that you were pre-diabetic and so your doctor started you on a Metformin to manage your blood sugar. You just realized that you are running low on your Metformin and need to get more ASAP. Do you think you can get more of your medication from here? Show me how. *(Refill meds)* 
 
 ### Pre- flow start
 1. What are you looking for? Any words or terms you expect to see?  
@@ -195,7 +195,7 @@ In your annual physical a few months ago, your blood work showed that you were p
 ---
 
 ## Task 4
-You have your first visit with your new PCP tomorrow. You want to bring a detailed, accurate, up to date physical list of the medications you are currently taking regularly to discuss with them. Do you think you could do that from here? Show me how.
+You have your first visit with your new PCP tomorrow. You want to bring a detailed, accurate, up to date physical list of the medications you are currently taking regularly to discuss with them. Do you think you could do that from here? Show me how. *(review and print list of meds -> print at bottom)*
 
 1. What are you looking for?  
 2. Tell me what you are looking at.  
@@ -209,7 +209,7 @@ If they don’t go to print, ask them “do you think you can print?” and note
 ---
 
 ## Task 5
-I'm actually going to have you navigate back to the landing screen for My HealtheVet by clicking the "My HealtheVet" link at the top of the screen. Now that you're here, I'm wondering if you can show me what you would do if you were trying to refill a couple of your medications? Where would you go?
+I'm actually going to have you navigate back to the landing screen for My HealtheVet by clicking the "My HealtheVet" link at the top of the screen. Now that you're here, I'm wondering if you can show me what you would do if you were trying to refill a couple of your medications? Where would you go? *(Refill meds from MHV landing)*
 
 Now that you're on this page (the refill page), what would you do now that you're here?
 

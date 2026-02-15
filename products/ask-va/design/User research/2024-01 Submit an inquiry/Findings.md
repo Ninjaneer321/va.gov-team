@@ -1,3 +1,104 @@
+---
+title: "Ask VA: Submit an inquiry (Round 1) Research Findings"
+product: "Ask VA"
+team: "Ask VA VA.gov Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-02-15"
+researchers:
+  - "Tyler Gindraux"
+research_goals:
+  - "Review whether Veterans understand when they need to authenticate and the benefits of authentication"
+  - "Review the experience of a Veteran asking a question about their own benefits"
+  - "Understand what Veterans expect to happen after they submit a question"
+methodology:
+  - "Moderated usability study"
+  - "Remote over Zoom"
+  - "Figma prototype with limited interactivity"
+devices_used:
+    desktop: 4
+    tablet: 0
+    smartphone: 4
+    assistive_technology: 0
+participants_total: 8
+demographics:
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 3
+    "35-44": 0
+    "45-54": 1
+    "55-64": 4
+    "65+": 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 1
+    associates: 2
+    bachelors: 1
+    masters: 4
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 5
+    rural: 3
+    unknown: 0
+  race:
+    white: 5
+    black: 2
+    hispanic: 0
+    biracial: 1
+    asian: 0
+    native: 1
+  disability:
+    cognitive: 3
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Veterans past experiences and trust in VA impacts how they perceive questions and what information they're comfortable sharing"
+  - "Many Veterans will choose to sign in so their information is pre-filled, but don't fully understand when sign in is required to use Ask VA"
+  - "As Veterans get further into the form, they become more unsure about what progress they've made and what to expect next"
+  - "Most Veterans considered what their benefits cover in order to answer, 'What's your question about?' – which is unrelated"
+  - "Veterans refer to their health facility by the location, like 'Atlanta VA', rather than the full name, 'Joseph Maxwell Cleland Atlanta VAMC'"
+  - "Most Veterans understand the purpose of reviewing their information before they submit a question, and can find the specific 'Edit' button they need"
+  - "Veterans who are familiar with other VA services expect Ask VA to work similarly – and it may be unclear when to use Ask VA or another service"
+recommendations:
+  - "Design a progress bar that updates dynamically so it's always progressing forward"
+  - "Use a sub-task pattern to direct people to sign in based on the type of question they have"
+  - "Combine facility search by name and location"
+  - "Reorganize order of questions and chapters so it follows a more intuitive route"
+  - "Revisit pronouns and gender to see if they can be removed or at least made optional"
+  - "Add 'additional information' component to certain questions that raised flags"
+  - "Reorganize and edit content on the home page so it's more direct"
+  - "Remove US mail from contact preferences"
+  - "Default all accordions to open on review page"
+further_research_needed:
+  - "Testing end-to-end experience of the form and dashboard"
+  - "Revisit progress component, clarity on when to sign in and why, and order of questions"
+  - "Testing with people who use assistive technology"
+underserved_groups_missing:
+  - "Asian participants"
+  - "Hispanic participants"
+  - "Veterans without degrees"
+  - "Veterans with cognitive disabilities"
+secondary_research:
+  - "Previous Ask VA research studies"
+  - "EnjoyHQ Analysis"
+synthesis_tools_used:
+  - "EnjoyHQ - Analysis"
+  - "Mural - Research sessions"
+  - "Mural - Research synthesis"
+---
+
 # Research findings for Ask VA: Submit an inquiry (Round 1)
 
 Ask VA VA.gov Team

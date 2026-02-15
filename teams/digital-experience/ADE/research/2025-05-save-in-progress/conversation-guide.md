@@ -2,10 +2,10 @@
 title: "Conversation Guide for ADE Team, Save in Progress, May 2025"
 author: "Cindy Merrill"
 date_created: "2025-05-01"
-last_modified: "2025-04-28"
+last_modified: "2026-02-13"
 
 # NEW: Core research metadata
-team: "Authenticated Experience - ADE"
+team: "Accessibility Digital Experience (ADE)"
 portfolio: "digital-experience"
 product: "VA.gov Forms - Save in Progress"
 research_phase: "usability"
@@ -33,7 +33,6 @@ tags:
   - "screen-reader"
   - "RESRCH-Remote"
   - "Form-20-10206"
-  - "VETJNY-Applying-for-benefits"
 description: "Usability testing of save in progress functionality on VA.gov forms (Form 20-10206) with Veterans using various devices and assistive technologies to evaluate automatic saving behavior."
 
 # NEW: Compliance flags

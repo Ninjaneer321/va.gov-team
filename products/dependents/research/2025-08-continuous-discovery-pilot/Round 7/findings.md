@@ -1,3 +1,135 @@
+---
+title: "Continuous Discovery Pilot - Round 7 Research Findings"
+product: "Dependents"
+team: "Dependents Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "Not specified"
+researchers:
+  - "Not specified"
+research_goals:
+  - "Understand Veterans' experience with the 674 form for adding student dependents"
+  - "Identify confusion points in the current 674 form flow"
+  - "Gather feedback on specific form pages and content"
+  - "Test usability of form elements and information gathering"
+methodology:
+  - "usability-testing"
+  - "interviews"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 9
+demographics:
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 9
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 9
+  location:
+    urban: 0
+    rural: 0
+    unknown: 9
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "1 participant often gave answers that indicated that he thought that the form was for a different education benefit despite clarification being given"
+  - "1 participant had filled out the form and later became a VSR working on the 674 form"
+  - "4 of the participants had filled out the 674 form before"
+  - "5 of the participants had not filled out the 674 form before, but did have dependents in middle school or high school so they would quite possibly need to fill out the form in the future"
+  - "Participant 3: It took him about two weeks to do the paperwork but took VA 7 months to process it, called it 'Mountain of paperwork'"
+  - "Participant 9: Shared that she wasn't sure what to put on the form for her daughter's address because she lived in the dorms, put the college's address"
+  - "Participant 10: His son was removed while still in high school, filling out the form was confusing because it was the same form for students in high school and college, had the school guidance counselor write a letter saying his child was still in school and when they would graduate, getting this letter took a month which delayed the process"
+  - "Of the 4 participants who had filled out the 674, about half had been surprised when their dependents were removed on their 18th birthday and the other half were not surprised"
+  - "Of the 5 participants who had not filled out the 674, about half expected their dependents to be removed on their 18th birthday and the other half did not know when their dependent would be removed"
+  - "Filling out the 674 for high school students can be confusing - 4 participants, including the VSR, mentioned confusion resulting from filling out the form for high school students and/or it would nice if the form could be adjusted to better accomodate high school students"
+  - "5 participants expressed confusion about the 'Other education benefits' screen"
+  - "5 participants expressed confusion about the 'Federally funded schools or programs' screen"
+  - "4 participants stated that they would prefer to use a dropdown, list, or type-ahead field when adding federally funded program or school information"
+  - "5 participants stated that the date would be the first date of school or of the program for 'When did KAI start receiving federal education benefits?'"
+  - "3 participants believed that the date related to benefit payment dates"
+  - "7 participants stated that they liked the 'How to tell if a school is accredited' help option"
+  - "5 participants thought that the first question 'What is the official start date of the current or upcoming term?' and the second question 'When did the student start or expect to start their term?' were asking for the same date on the Current or future term page"
+  - "3 participants said that they understood the difference between the questions"
+  - "2 participants expressed confusion about the graduation date"
+  - "The majority of the participants expressed confusion about how to answer 'When did dependent stop attending school continuously?' question"
+  - "4 participants who saw financial pages: about half said that they understood the questions and half had additional questions"
+  - "2 partcipants didn't understand why financial questions were necessary"
+  - "Participants were confused or did not see the difference between 'Dependent's income for this school term', 'Dependent's expected income for next year', and 'Value of student assets' pages"
+  - "4 participants shared that they wanted or expected to upload receipts for school expenses"
+  - "3 participants would like a more structured way of entering expense amounts"
+recommendations:
+  - "Work with Design, Content, and Engineering to assess the feasability of clarifying and/or customizing the form experience for high school and college students"
+  - "Add content explaining what each of the education benefits options are on the 'Other education benefits' page"
+  - "Add content explaining what each of the schools or programs options are on the 'Federally funded schools or programs' page, especially the 'Another federally-funded school or program' option"
+  - "Work with engineers and David Reis to investigate if it would be possible to create a list of federally funded programs or schools"
+  - "Add content clarifying which date should be entered on the 'When did KAI start receiving federal education benefits?' page"
+  - "Add or edit content clarifying which dates should be entered on the 'Current or future term' page"
+  - "Add or edit content clarifying what cases need to be reported and which dates should be entered on the 'When did dependent stop attending school continuously?' page"
+  - "Consider adding content about why these questions are being asked, add or edit content clarifying what information needs to be provided on the 'Dependent's income for this school term' page, consider testing these pages with additional Veterans"
+  - "Add or edit content clarifying what information needs to be provided on the 'Dependent's expected income for next year' page, consider testing these pages with additional Veterans"
+  - "Add or edit content clarifying what information needs to be provided on the 'Value of student assets' page, consider testing these pages with additional Veterans"
+  - "Add or edit content clarifying which expenses should be entered on the 'Dependent's school expenses' page"
+  - "Work with design and engineering to assess the feasability of providing a more structured way of entering expense amounts on the 'Dependent's school expense amounts' page"
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas:
+  - "Form customization for high school vs college students"
+  - "Clarity around education benefits and federally funded programs"
+  - "Date entry clarity for various form fields"
+  - "Financial questions explanation and usability"
+  - "Structured data entry for expenses"
+further_research_needed:
+  - "Testing financial pages with additional Veterans"
+  - "Testing with pension recipients who complete financial sections"
+underserved_groups_missing:
+  - "Pension recipients"
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Dependents"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "DSC: Form"
+  - "usability-testing"
+  - "interviews"
+  - "continuous-discovery"
+---
+
 
 
 ## Participants

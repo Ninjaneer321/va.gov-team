@@ -1,3 +1,102 @@
+---
+title: "Direct Deposit Payment Instruction Consolidation UAT Research Findings"
+product: "Profile - Direct Deposit"
+team: "Authenticated Experience Profile Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-07-31"
+researchers:
+  - "Profile Team Researcher"
+research_goals:
+  - "Confirm that the Direct Deposit section of Profile functions as intended for users who sign in with ID.me or Login.gov and have direct deposit set up with bank information"
+  - "Validate that users can view and edit correct direct deposit information for compensation & pension and education benefits"
+  - "Verify that information returned from the API matches what is populated on screen"
+  - "Confirm safeguards for invalid routing/account numbers and character limits are working correctly"
+methodology:
+  - "User Acceptance Testing (UAT)"
+  - "Remote moderated sessions via Zoom with screen sharing"
+devices_used:
+    desktop: 5
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 5
+demographics:
+  veterans: 5
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 1
+    "35-44": 2
+    "45-54": 0
+    "55-64": 0
+    "65+": 2
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
+  location:
+    urban: 0
+    rural: 0
+    unknown: 5
+  race:
+    white: 3
+    black: 0
+    hispanic: 2
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "All 5 participants successfully completed all 10 UAT tasks for direct deposit functionality"
+  - "Direct deposit information displayed correctly for users with compensation & pension benefits, education benefits, or both"
+  - "Email confirmations were successfully received after editing direct deposit information"
+  - "API data correctly matched information populated on screen"
+  - "Safeguards for invalid routing/account numbers and character limits functioned as expected"
+  - "Some confusion expressed about Account Security page naming and content clarity"
+recommendations:
+  - "Consider more research on perception of Account Security page with larger participant pool"
+  - "Investigate whether 'Sign in security' might be clearer terminology than 'Account Security'"
+  - "Evaluate making Account Security content dynamic based on sign-in method"
+kpi_alignment:
+  - "Successful UAT validation of direct deposit consolidation feature"
+outcomes:
+  user: "Veterans can successfully view and manage their direct deposit information for both education and compensation & pension benefits in one consolidated Profile section"
+  business: "Direct deposit payment instruction consolidation functions as designed with proper validation and safeguards in place"
+opportunity_areas:
+  - "Account Security page naming and content presentation could be improved for clarity"
+further_research_needed:
+  - "Conduct broader study on Account Security page perception with structured methodology and larger sample size"
+underserved_groups_missing:
+  - "Women Veterans"
+  - "LGBTQ+ Veterans"
+  - "Veterans with cognitive disabilities"
+  - "Veterans using assistive technology"
+  - "Rural Veterans"
+  - "Urban Veterans"
+secondary_research:
+  - "UAT testing"
+synthesis_tools_used:
+  - "Remote Zoom sessions"
+  - "Task completion tracking"
+---
+
 # Direct deposit payment instruction consolidation UAT Findings, July 2024
 
 ## Who we talked to

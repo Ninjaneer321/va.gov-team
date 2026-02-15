@@ -1,3 +1,141 @@
+---
+title: "Login.gov Remote Identity Proofing and MFA Research Findings"
+product: "Login.gov"
+team: "Identity"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-12-20"
+researchers:
+  - "Alexander Hoover"
+  - "Carrie McGrath"
+  - "Shqiponja Hoxha Ocumarez"
+  - "Princess Ojiaku"
+  - "Annie Hirshman"
+  - "Kelli-Anne Ho"
+research_goals:
+  - "Get baseline understanding of how users experience Login.gov unsupervised proofing flow"
+  - "Identify challenges users face during identity proofing"
+  - "Understand how users seek to overcome identity proofing challenges"
+  - "Evaluate multi-factor authentication selection and usage"
+  - "Assess accessibility of Login.gov for screenreader users"
+methodology:
+  - "Moderated usability testing"
+  - "Remote sessions via Zoom"
+  - "Live Login.gov account creation and identity proofing"
+  - "Observational study"
+devices_used:
+    desktop: 16
+    tablet: 0
+    smartphone: 10
+    assistive_technology: 5
+participants_total: 21
+demographics:
+  veterans: 18
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 3
+    "35-44": 5
+    "45-54": 4
+    "55-64": 6
+    "65+": 3
+    unknown: 0
+  education:
+    high_school: 2
+    some_college: 5
+    associates: 2
+    bachelors: 6
+    masters: 4
+    doctorate: 2
+    unknown: 0
+  location:
+    urban: 14
+    rural: 7
+    unknown: 0
+  race:
+    white: 8
+    black: 6
+    hispanic: 3
+    biracial: 2
+    asian: 2
+    native: 0
+  disability:
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 5
+    screen_reader_desktop: 4
+    screen_reader_mobile: 2
+    magnification_zoom: 3
+    speech_input: 0
+    hearing_aids: 1
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Only 10 of 21 participants successfully created account and proved identity"
+  - "Photo ID upload was biggest issue frustrating or blocking completion"
+  - "Login.gov is not usable for screenreader participants - 3 of 5 were unsuccessful"
+  - "14 of 21 participants chose only one MFA option for convenience"
+  - "SMS and Face/Touch were primary MFA choices, backup codes distant third"
+  - "Users have no fallback options to verify personal details or phone number when blocked"
+  - "Puerto Rican address caused rate limiting after multiple verification attempts"
+  - "2 participants without state-issued ID abandoned at photo upload"
+  - "Auto-capture feature was difficult for many participants"
+  - "Manual photo upload challenging - participants struggled to meet quality requirements"
+  - "9 participants abandoned, were rate limited, or were blocked"
+  - "Participants generally did not read photo guidance, opting to jump into upload"
+  - "Participants preferred calling customer support over email"
+recommendations:
+  - "Explore better auto-capture solutions that are more forgiving and accessible"
+  - "Implement remote identity proofing with supervision (RIPS) to help blocked users"
+  - "Consider human-in-the-loop (HITL) for photo upload flexibility"
+  - "Define personas for Login.gov users to better understand needs"
+  - "Improve accessibility for screenreader users at photo ID upload step"
+  - "Allow upload with desktop webcam"
+  - "Auto-detect front and back of ID to help blind users"
+  - "Provide visual examples of good photo ID pictures"
+  - "Make it clearer what to expect with desktop-to-phone handoff"
+  - "Clarify whether to include '#' symbol in SMS code"
+  - "Improve guidance for personal key storage and retrieval"
+  - "Address InstantVerify issues with Puerto Rico addresses"
+  - "Expand acceptable ID types beyond state-issued photo IDs"
+kpi_alignment:
+  - "Increase Login.gov identity proofing success rate"
+  - "Improve accessibility compliance"
+  - "Reduce abandonment rate during proofing"
+  - "Increase MFA adoption and security"
+outcomes:
+  user: "Veterans can successfully create Login.gov accounts and complete identity proofing without major barriers"
+  business: "Increase Login.gov adoption and reduce support burden from failed identity proofing attempts"
+opportunity_areas:
+  - "Screenreader accessibility for entire proofing flow"
+  - "Photo ID upload process simplification"
+  - "Alternative identity verification methods"
+  - "Puerto Rico address verification improvements"
+  - "Non-state-issued ID acceptance"
+  - "Fallback verification options"
+further_research_needed:
+  - "RIPS (Remote Identity Proofing with Supervision) pilot study"
+  - "Alternative auto-capture UI pattern testing"
+  - "Accessibility improvements validation with screenreader users"
+  - "Alternative fair evidence acceptance research"
+underserved_groups_missing:
+  - "Native Americans"
+  - "More non-binary participants"
+  - "Higher income Veterans"
+  - "Participants with other assistive technology types"
+secondary_research:
+  - "Previous Login.gov low/no vision study"
+  - "InstantVerify success rate data by geography"
+  - "Login.gov analytics on failure points"
+  - "RIPS Contingency Sprint Report"
+synthesis_tools_used:
+  - "Session notes with moderators and notetakers"
+  - "Video recordings"
+  - "Quantitative analysis of success/failure rates"
+  - "Comparative analysis by result type"
+---
+
 # 2022-11 Login.gov Remote Identity Proofing Synthesis
 - Author: Alexander Hoover (Login.gov)
 - Date: December 20, 2022

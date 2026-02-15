@@ -1,3 +1,137 @@
+---
+title: Accredited Representative Management - Veteran and Caregiver Representative
+  Experience Interviews Research Findings
+product: Accredited Representative Management
+team: ARM Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: 2024-04
+researchers:
+- Janelle Finnerty
+research_goals:
+- Expand knowledge of tasks, motivations, and challenges Veterans and caregivers have
+  when working with representatives
+- Inform the Disability Claims Process journey map and future features
+- Understand Veteran and caregiver motivations for seeking representation
+- Document search habits and considerations when selecting representatives
+- Capture experiences with representatives and identify differences between Veterans
+  and caregivers
+methodology:
+- Remote user interviews across three studies
+- Series of questions about representative selection process and engagements
+- Recruitment through Perigean from December 2023 to March 2024
+devices_used:
+  desktop: 14
+  tablet: 0
+  smartphone: 10
+  assistive_technology: 0
+participants_total: 24
+demographics:
+  veterans: 20
+  service_members: 0
+  caregivers: 8
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 2
+    35-44: 5
+    45-54: 3
+    55-64: 8
+    65+: 6
+    unknown: 0
+  education:
+    high_school: 3
+    some_college: 2
+    associates: 4
+    bachelors: 6
+    masters: 8
+    doctorate: 1
+    unknown: 0
+  location:
+    urban: 11
+    rural: 13
+    unknown: 0
+  race:
+    white: 16
+    black: 3
+    hispanic: 2
+    biracial: 2
+    asian: 2
+    native: 1
+  disability:
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Participants frequently lacked understanding of representatives, what they do, and
+  how they fit into VA processes, directly impacting their ability to get timely support
+- Veterans and claimants using representation need help understanding and navigating
+  VA processes and do not feel equipped to handle tasks themselves
+- Through the search process, Veterans and claimants weigh pros and cons to build
+  confidence in their decision, looking to peers, online resources, and local VA and
+  VSO facilities
+- Largest challenges when searching for representatives were scattered or inconsistent
+  information and unreturned calls or emails, causing frustration and delays
+- Representative engagement varies immensely and can make or break a Veteran or claimant's
+  experience, with positive experiences including help with complete claims, evidence
+  gathering, and empathetic communication
+- Largest challenge with representative engagement was lack of punctual task completion
+  and long wait or travel times, often leading to delays or missed claim deadlines
+recommendations:
+- See 'How might we' sections in detailed findings for specific recommendations
+- Continue to investigate and grow Veteran representative engagement and update report
+- Build awareness of research with other teams in and outside of OCTO
+- Create executive summary highlighting in-progress and future features impacted by
+  research
+kpi_alignment:
+- Improved Veteran satisfaction with representative selection process
+- Reduced time to find and engage with accredited representatives
+- Increased successful representative engagements and claim submissions
+outcomes:
+  user: Veterans and caregivers can find, select, and work with accredited representatives
+    who meet their needs and provide appropriate support throughout the benefits claims
+    process
+  business: Comprehensive understanding of Veteran representative experience informs
+    ARM product development and improves representative management tools on VA.gov
+opportunity_areas:
+- Education about representative types, roles, and VA processes
+- Improved accuracy and accessibility of representative contact information
+- Enhanced communication channels between Veterans and representatives
+- Better transparency about representative engagement expectations and timelines
+further_research_needed:
+- None specified - this is a synthesis of three prior studies
+underserved_groups_missing:
+- Veterans with cognitive disabilities
+- Other than honorable discharge recipients
+- Immigrant origin Veterans
+- Expat Veterans living abroad
+- Assistive technology users
+secondary_research:
+- Compilation of 5 research reports by ARM team prior to March 2024
+- ARM GitHub research folder documentation
+synthesis_tools_used:
+- Cross-study synthesis and analysis
+- Interview transcripts across three studies
+tags:
+- 'AUD: Veterans'
+- 'AUD: Caregivers'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Records'
+- 'PRDT: Accredited-Reps'
+- 'MHV: Appointments'
+- 'MHV: Secure Messaging'
+- 'MHV: Personal Health Records/Medical Records'
+- semi-structured-interviews
+- remote-research
+---
 # Research Findings, Accredited Representative Management, Veteran & Caregiver Representative Experience Interviews, 2023 - 2024
 
 **Office of the CTO - Digital Experience (OCTO-DE), Product Name, Team Name**

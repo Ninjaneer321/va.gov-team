@@ -1,3 +1,121 @@
+---
+title: "Outreach & Events Usability Research Findings"
+product: "Outreach Events"
+team: "Public Websites"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-12-16"
+researchers:
+  - "Cindy Merrill"
+research_goals:
+  - "Get user feedback on 2 new design features for Outreach & Events: filtering by date and viewing recurring events together"
+  - "Understand how intuitive the design for filtering by date range is"
+  - "Assess how intuitive the design for recurring events is and if Veterans understand that the event is repeating"
+  - "Learn how Veterans expect to look for VA events"
+  - "Understand what kind of location information for events Veterans want to see in the list of events"
+methodology:
+  - "Remote moderated research sessions via Zoom"
+  - "Mobile design prototype in UXPin"
+  - "Task-based usability testing"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 8
+    assistive_technology: 0
+participants_total: 8
+demographics:
+  veterans: 7
+  service_members: 0
+  caregivers: 1
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 1
+    "35-44": 2
+    "45-54": 2
+    "55-64": 1
+    "65+": 1
+    unknown: 1
+  education:
+    high_school: 2
+    some_college: 1
+    associates: 1
+    bachelors: 1
+    masters: 1
+    doctorate: 0
+    unknown: 2
+  location:
+    urban: 5
+    rural: 3
+    unknown: 0
+  race:
+    white: 4
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 1
+  disability:
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "All participants understood the concept of recurring events in the prototype"
+  - "All participants appreciated the location information provided in the event list--city and state or online event"
+  - "All participants who used the date filter had no difficulty using the Apply filter button"
+  - "Date entry via dropdowns worked well for everyone"
+  - "There was some confusion about the meaning of the Next week and Next month options for the date filter"
+  - "There was some confusion about which occurrence(s) participants were registering for when signing up for recurring events"
+  - "Most participants had little patience for scrolling through a flat list of events"
+  - "Seven of 8 participants had strong negative reactions to finding events with only the date filter provided, which is not how they wanted to look for events"
+recommendations:
+  - "Remove the Next week and Next month options from the date filter because they were confusing for some participants"
+  - "Remove the Up to 12 months in advance text on the date entry screens because it doesn't seem to be needed"
+  - "Visually differentiate the navigation link See other outreach events from the event description on the event detail page"
+  - "Content editors should be encouraged to include more information about each event"
+  - "Consider enabling users to register for multiple occurrences of an event at once"
+  - "Add location information to each event in the event list"
+  - "Provide filtering by location (i.e., state), event type, and search to better support how participants wanted to look for events"
+  - "Consider making the event list more delightful to browse by incorporating more engaging visual elements"
+  - "Consider including a get directions link on event detail pages"
+  - "Consider displaying all event times in the user's time zone"
+kpi_alignment: []
+outcomes:
+  user: "Veterans can easily find and register for VA events that interest them"
+  business: "Increase event registration and attendance by improving event discovery and filtering"
+opportunity_areas:
+  - "Event discovery is difficult without location and event type filtering"
+  - "Event list is not visually engaging enough to encourage browsing"
+  - "Registration process for recurring events needs clarification"
+further_research_needed:
+  - "Test these design features with participants who use screen readers, which will have to wait until we have a working prototype on the Staging server or have launched to Production"
+underserved_groups_missing:
+  - "Identify as Hispanic, Biracial, Asian, Native, or LGBTQ+"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Users of Assistive Technology"
+secondary_research: []
+synthesis_tools_used:
+  - "Synthesis spreadsheet"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "DSC: Form - Date Input"
+  - "DSC: Button"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "events"
+  - "evaluative"
+---
+
 # Outreach & Events Usability Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE) and VSA, Public Websites**

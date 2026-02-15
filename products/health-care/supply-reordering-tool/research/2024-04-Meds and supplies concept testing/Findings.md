@@ -1,3 +1,108 @@
+---
+title: "Medications and Medical Supplies Concept Testing Research Findings"
+product: "Medical Supplies Reorder"
+team: "Medications and Devices Pod"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-05-06"
+researchers:
+  - "Jenny Wang (yizhen.wang@va.gov)"
+  - "Kristen McConnell (kristen.mcconnell@va.gov)"
+research_goals:
+  - "Understand how Veterans categorize medications and medical supplies"
+  - "Understand whether Veterans expect to view and order all medical supplies and medications as subsections within the same section, within a fully integrated list, or in separate sections"
+  - "Establish which I.A. is easier to use"
+  - "Gather insights into the advantages and disadvantages of each design option"
+methodology:
+  - "Remote moderated research sessions via Zoom"
+  - "Concept testing with 3 Figma prototypes"
+  - "Task-based usability testing"
+devices_used:
+    desktop: 0
+    tablet: 2
+    smartphone: 13
+    assistive_technology: 0
+participants_total: 15
+demographics:
+  veterans: 15
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  gender:
+    male: 9
+    female: 6
+  age:
+    "25-34": 1
+    "35-44": 1
+    "45-54": 2
+    "55-64": 6
+    "65+": 5
+    unknown: 0
+  education:
+    high_school: 1
+    some_college: 2
+    associates: 1
+    bachelors: 5
+    masters: 6
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 8
+    rural: 7
+    unknown: 0
+  race:
+    white: 7
+    black: 4
+    hispanic: 0
+    biracial: 0
+    asian: 3
+    native: 1
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Most participants (10 out of 15) found option 3 (medications and supplies combined) the easiest to find and order items, but wanted better organization within the combined list"
+  - "Some participants (7 out of 15) found it confusing to have both a list page and an order page because they didn't see much difference and value in having both pages"
+  - "Most participants (10 out of 15) struggled to find glucose testing strips using option 1 and option 2 because they thought testing strips were medical supplies, not medications"
+  - "Despite thinking medications and supplies are different, most participants preferred them in the same category for ease of access and fewer clicks"
+recommendations:
+  - "Explore design and I.A. options for combining medications and medical supplies on MHV on VA.gov"
+  - "Conduct technical discovery with medications team and medical supply team developers to understand backend feasibility of combining medications and medical supplies"
+  - "Brainstorm and create sketches for possible options for combining medications and medical supplies"
+outcomes:
+  user: "Veterans can easily find and order both medications and medical supplies in one consolidated location with clear organization"
+  business: "Reduced confusion and support requests by providing intuitive information architecture for ordering"
+opportunity_areas:
+  - "Design solution for organizing medications and supplies on same page with filtering or sorting capabilities"
+  - "Eliminate confusion between list page and order page functionality"
+further_research_needed:
+  - "Test design options that combine medications and supplies with different organizational approaches (tabs, filters, sorting)"
+  - "Validate shopping cart concept for ordering multiple items across medications and supplies"
+underserved_groups_missing:
+  - "Veterans 80+ years old"
+  - "Veterans with other than honorable discharge"
+  - "Immigrant origin Veterans"
+  - "Expat Veterans"
+  - "LGBTQ+ Veterans"
+  - "Veterans with disabilities requiring assistive technology"
+secondary_research:
+  - "Previous MHV Classic usability testing"
+  - "Secondary navigation comparison study"
+  - "MHV landing page study"
+  - "I.A. tree test results"
+synthesis_tools_used:
+  - "Mural board"
+  - "Affinity mapping"
+---
+
 # Medications and Medical Supplies Concept Testing Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Medications and Devices Pod, Medical Supplies Reorder**

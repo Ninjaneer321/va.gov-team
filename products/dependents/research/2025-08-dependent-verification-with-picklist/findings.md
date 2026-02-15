@@ -1,3 +1,123 @@
+---
+title: "Dependent Verification with Picklist Research Findings"
+product: "Dependents"
+team: "Dependents Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-08"
+researchers:
+  - "Not specified"
+research_goals:
+  - "Test verification flow with picklist design for dependent changes"
+  - "Understand Veterans' preferences for asking about dependent death"
+  - "Evaluate alert effectiveness for verification communications"
+  - "Gather feedback on dependent information display and verification process"
+  - "Test confirmation page and record-keeping preferences"
+methodology:
+  - "usability-testing"
+devices_used:
+    desktop: 7
+    tablet: 0
+    smartphone: 3
+    assistive_technology: 0
+participants_total: 10
+demographics:
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 10
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 10
+  location:
+    urban: 0
+    rural: 0
+    unknown: 10
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "9 of them had spouses as dependents"
+  - "7 of them had children as dependents (average of 2 child dependents for the 4 participants that shared how many children they had)"
+  - "3 joined the study from a phone"
+  - "7 joined the study from a laptop/desktop"
+  - "All participants used VA.gov. 2 shared that they had added dependents on VA.gov. Other activities that 2 or more Veterans mentioned included: managing benefits and/or claims, accessing MyHealtheVet, managing appointments, messaging providers, and requesting travel pay reimbursements"
+  - "2 Veterans said that they use the VA app more or prefer the app"
+  - "3 said that they don't review their dependents"
+  - "2 said that they don't look at their dependents often"
+  - "3 said that they go to look at their dependents when there is a specific reason (they need to make a change to a dependent, there is a change in amount of disability compensation that they receive, a dependent is about to age out, etc)"
+  - "Alert: 9 of the 10 participants read aloud or commented on the alert"
+  - "When it came time to act on the prompt: 5 used the link in the alert to move onto the next screen without direct prompting, 2 used the verification link farther down the page, 1 first tried to click on the 'Add or remove a dependent' link, 2 had to be directly prompted to click on the link, unclear if this was a due to not being used to using a prototype or the alert or link itself"
+  - "Changes to dependents Page - Design 1: Of the 4 participants who commented, 2 said that they would not need any additional information to answer the questions. 2 said that they would like additional information (but didn't say that they would not be able to complete the form without it), the information they mentioned was expiration date (both participants), date of birth, and SSN"
+  - "Changes to dependents Page - Design 2: Of the 4 participants who commented, 3 said that they would not need any additional information to answer the questions. 1 said that they would like information about how to answer if spouses were separated, but then changed his mind 'once you start opening up doors, you're probably in for a big harangue from the VA and the legal world'"
+  - "Death Question - 1 participant preferred Design 1 (where the question was asked first and on its own page)"
+  - "Death Question - 5 participants preferred Design 2 (where the question was an option for each dependent)"
+  - "Death Question - 2 participants had no preference between Designs 1 and 2"
+  - "Participants gave Design 1 an average of 3.8 points and Design 2 an average of 4.5 points. The features that participants mentioned most often that they preferred were the method of asking about dependent death in Design 2 and asking about all of the dependents on a single page in Design 2, as opposed to Design 1 where each dependent was on a separate page"
+  - "Design 2 was preferred because: 'I also like the second option [Design 2] because the questions are for each specific dependent instead of the first option where the first question was Has any of your dependents died? That can cause unwanted memories of having to remember people that died and what their relationship was to you even if they were not dependent on your specific disability'"
+  - "Concerns about Design 1: 'It seems kind of, kind of cold, you know? Kinda in your face, you know?', 'I think they're a little too direct . . . After your information's correct. Alright, next screen, anybody in your family died?', 'if you get that at the first. Now it's gonna go through all of your dependents to figure out who died. . . . I don't want to sit there and look at all of my dependents and say, well, nope, this one's still kicking, this one's dead, this one's still kicking. So, yeah, I find that page there [Design 1], that just seems out of character, out of place'"
+  - "Review reasons Page - Design 1: 3 of the 10 participants who saw Design 1 commented on 'Changes pending' tag"
+  - "Review reasons Page - Design 2: 2 of the 9 participants who saw Design 2 commented on the '(Changes pending)' text after the dependent's name"
+  - "Confirmation Page - Print this confirmation: 2 Veterans wanted to print a copy, 4 Veterans wanted to save as a PDF. About half of the participants who wanted a copy for their records, wanted the form and/or their responses documented"
+  - "Confirmation Page - Additional forms: When asked what would happen if they knew they needed to fill out another form but couldn't remember the name or number: 3 said they would go to VA.gov (one expected to get a notification about it, one said that they would go back to the verification page, and the last said that they would go to the documents page), 2 said that they would search on Google, 1 said they like to get a reminder via email (or letter for Veterans who prefer not to receive emails from VA)"
+recommendations:
+  - "Continue to refine the content of the alert box based on feedback from this and other studies to increase Veteran understanding of verification and verification completions"
+  - "Include the approach to asking about death from Design 2 (where the question was an option for each dependent) in future designs"
+  - "Update designs and test edge cases (ie 8 dependents) for including all dependents on a single page"
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas:
+  - "Alert design and effectiveness for verification prompts"
+  - "Sensitive information gathering (death) with appropriate tone"
+  - "Single-page vs multi-page dependent information display"
+  - "Record-keeping and form response documentation"
+  - "Reminder systems for additional required forms"
+further_research_needed:
+  - "Testing with edge cases (8+ dependents)"
+  - "Alert refinement and testing"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Dependents"
+  - "BNFT: Disability"
+  - "DSC: Form"
+  - "DSC: Alert"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "usability-testing"
+---
+
 ### Participant Demographics
 - 10 Veterans
     

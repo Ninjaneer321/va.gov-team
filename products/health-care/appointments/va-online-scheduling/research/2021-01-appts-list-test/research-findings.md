@@ -1,3 +1,116 @@
+---
+title: "January 2021 VAOS Appointments List Usability Study Research Findings"
+product: "VA Online Scheduling (VAOS)"
+team: "VAOS Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-01-31"
+researchers:
+  - "Peter Russo"
+research_goals:
+  - "Validate the usability of the appointments list redesign"
+  - "Understand how Veterans navigate and interact with appointment information"
+  - "Test comprehension of appointment requests, cancellations, and rescheduling"
+methodology:
+  - "Remote moderated usability testing"
+  - "Mobile prototype testing"
+devices_used:
+    desktop: 0
+    tablet: 1
+    smartphone: 4
+    assistive_technology: 0
+participants_total: 5
+demographics:
+  veterans: 5
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 1
+    "35-44": 1
+    "45-54": 1
+    "55-64": 2
+    "65+": 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
+  location:
+    urban: 0
+    rural: 0
+    unknown: 5
+  race:
+    white: 4
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "All participants easily navigated the prototype and were able to complete most tasks with ease"
+  - "Appointment requests continue to create confusion - most users had some level of difficulty understanding the appointment requests section"
+  - "Veterans plan future appointments by looking at past ones - most indicated that they often review dates of past appointments to plan and schedule future appointments"
+  - "The ability to reschedule and cancel appointments online empowers Veterans - participants were excited about the ability to easily cancel and reschedule appointments without an additional phone call"
+  - "Appointment reminders are inconsistent - most users reported some issue around the volume of notifications they receive from the VA"
+  - "Booking notes language wasn't clear - Veterans showed some confusion when looking at the information they would have entered"
+recommendations:
+  - "Make the Requested title more specific - Pending or Pending request might be better"
+  - "Add a note to the requests list explaining that they are in order, with the oldest requests at the top"
+  - "Add a confirmation screen before rescheduling is complete"
+  - "Add a temporary indicator to the appointment thumbnail showing that the appointment has been rescheduled"
+  - "Add instructions to canceled appointments explaining how to reschedule"
+  - "Rework the static landing page so there are fewer alerts, and the main CTA is closer to the top"
+  - "Move the questions into accordions, in their own section, to aid scannability"
+  - "Revisit the language around appointment requests and align language throughout the experience"
+  - "Revisit the language used to describe appointment information the Veteran provided. Separate this from the facility-provided appointment information"
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas:
+  - "Add clarity around the status of requests - Veterans are calling facilities to find out if their requests are being processed"
+  - "Consider allowing users to change a request to a video and phone appointment, as alternative options to canceling and rescheduling"
+  - "One step toward personalization might be to surface CTAs to schedule recurring appointments on the home page"
+  - "Consider providing a list of recent health care providers and allow Veterans to schedule new appointments with them"
+  - "Consider adding a reschedule option to canceled appointments"
+  - "Consider adding information about who canceled an appointment and when to the canceled appointment detail"
+  - "Explore ways to communicate that an appointment has been canceled or rescheduled, both in VAOS and notifications to the Veteran"
+  - "Look for ways to integrate travel pay reimbursement into appointments"
+  - "Research whether any facilities are using waitlists to successfully move people into appointments faster"
+  - "Consider options to catch if a Veteran's facility isn't available for online scheduling sooner in the scheduling process"
+further_research_needed:
+  - "Research scheduling notifications to understand how we can improve these in VAOS"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "DSC: Card"
+  - "DSP: Notifications"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "usability-testing"
+  - "evaluative"
+---
+
 # January 2021 VAOS appointments list usability study
 
 *Prepared by Peter Russo*

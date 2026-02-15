@@ -7,20 +7,98 @@ date: "2025-10-02"
 researchers:
   - "Rosemary Rogers"
 research_goals:
-  - Evaluate the value of line charts within a specific calculator
-  - Evaluate the usability and design of the line chart
+  - "Evaluate the value of line charts within a specific calculator"
+  - "Evaluate the usability and design of the line chart"
+  - "Understand how helpful line charts are within the context of a calculator detail page to assist with answering questions we cannot auto-populate"
+  - "Identify other calculators or fields where clinicians think this pattern might be helpful"
+  - "Get feedback on the experience of opening and viewing the graph within the calculator detail page"
+  - "Identify more insights related to clinician workflows when using the tools"
 methodology:
-  - Moderated Remote Interview
-  - "Method 2"
+  - "Moderated Remote Interview"
+  - "Usability Testing"
 devices_used:
     desktop: 5
-    assistive_technology: X
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
 participants_total: 5
-
-EHR:
- CPRS: 5
- Oracle: 0 
-
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 5
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
+  location:
+    urban: 0
+    rural: 0
+    unknown: 5
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 5
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Clinicians workflow regularly involves referencing the EHR to find patient data. Referencing the EHR first becomes their default behavior when tasked to find patient data"
+  - "Clinicians cognitive load increases when they are trying to understand terminology and criteria in a specific context to interpret the data shown"
+  - "Clinicians need a certain number of data points to interpret the trend. This doesn't always align with a particular time period"
+  - "Clinicians responded that having patient data within the calculator would improve their workflow, though some expressed a preference for table format"
+recommendations:
+  - "To communicate the benefit of opening the link consider adding copy to indicate the purpose which might help initiate action. For example: View lab history to answer question"
+  - "To support different cognitive processing styles and contextual needs, consider adding the patient data in both a table and graph format"
+  - "To reduce cognitive burden, add a definition for Labile INR as helper text below the field"
+  - "To reduce cognitive burden and eliminate extra clicks, explore how the input field question and criteria could display within the drawer for a clinician to easily see with the lab data"
+  - "To reduce cognitive burden, add normal ranges for clinicians to easily reference as they interpret the data. Consider adding the range with the key and/or as a line in the graph or a column in a table"
+  - "To support context specific data needs, consider adding ways to emphasize certain data points, adjust the time interval of the graph or select the number of points to display"
+kpi_alignment: []
+outcomes:
+  user: "Reduced cognitive burden created by context switching between the CDS Medical Calculator application and the EHR"
+  business: "Improved clinician efficiency and accuracy when using medical calculators"
+opportunity_areas:
+  - "Integration of medical calculators into established workflows and leveraging with AI (such as ambient scribe)"
+  - "Auto-populating answers when lab history data is available (e.g., for bilirubin 2x normal)"
+  - "Helping clinicians stay up to date on changing recommendations and society guidelines"
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used:
+  - "Mural"
+tags:
+  - "AUD-VA-Staff"
+  - "PRDT-Medical-Calculators"
+  - "PRDT-Clinical-Decision-Support"
+  - "HDW-Desktop"
+  - "METHOD-Interviews"
+  - "METHOD-Remote"
+  - "METHOD-Usability"
 ---
 
 # Calculator Detail Page Line Chart Testing Research Findings 

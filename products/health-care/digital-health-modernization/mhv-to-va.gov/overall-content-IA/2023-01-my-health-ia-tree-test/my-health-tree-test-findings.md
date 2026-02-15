@@ -1,3 +1,86 @@
+---
+title: "My health IA tree test - Research Findings"
+product: "My HealtheVet on VA.gov"
+team: "MHV on VA.gov / MHV Integration"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-01-31"
+researchers:
+  - "Mikki Northuis"
+research_goals:
+  - "Gather quantitative insights on the findability of more detailed and deeper tasks within the proposed IA of the My health patient portal experience"
+  - "Evaluate the findability of various information within the 'My Health' structure"
+  - "Evaluate where participants look for information related to their health records between 'Appointments', 'Health history', and 'Medical records'"
+methodology:
+  - "Tree testing"
+  - "Unmoderated sessions"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 45
+demographics:
+  veterans: 45
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "The different sections containing health and medical records information had some overlap in meaning, but were still successful tasks"
+  - "The 'Appointments' section was not the primary place Veterans looked for post-appointment tasks such as travel pay or after-visit summaries"
+  - "Veterans looked for both current and past prescription information within the 'Medications' section"
+  - "It is unknown if Veterans understand what to expect within the 'My health benefits' section"
+  - "The placement and labeling of 'vitals' is not entirely clear to Veterans"
+  - "While most Veterans successfully found vaccine information, Veterans who are current MHV users had slightly more success than those that are not current"
+recommendations:
+  - "Slot travel pay in a more prominent position within the IA, and continue to crosslink from past appointments"
+  - "Continue to refine the 'Care notes and summaries' section as we learn more about the types of clinical notes, and consider an approach similar to labs and tests which doesn't rely on Veterans to know the types and differences of various documents"
+  - "Continue to refine the options in 'Health history' to make them more clear and understandable"
+  - "Move to qualitative research to gain further insights and feedback"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "tree-testing"
+---
+
 # My health IA tree test - Research rindings 
 
 **Office of the CTO - Health portfolio, MHV on VA.gov / MHV Integration

@@ -1,13 +1,21 @@
-UUID,Lighthouse status,Lighthouse updated at,CMP status,CMP updated at,Packet ID
-a11bff52-b77b-4f08-875b-7629985845a1, vbms, 2/4/2026 5:18 PM,Complete, 2/4/26 4:19:00 PM, 68664898
-b8a5ae78-2939-4ad6-90e4-14cdbd621398, vbms, 2/5/26 ,Complete, 2/5/26 10:15:00 AM, 68683837
-c80b6b8a-e5c8-482b-8f88-633dd41441c6, vbms, 2/5/26 1:55 PM,Complete, 2/5/26 12:55:00 PM, 68698372
-ad35e2dd-56b1-4d6f-a451-b46cc09f94b6, vbms, 2/5/206, Complete, 2/5/26 1:05:00 PM, 68699200
-d948abc9-2c3c-472b-b57f-5290250fe8e6, vbms, 2/5/206, Complete, 2/5/26 2:40:00 PM, 68705125
-09652541-26d1-404a-ae35-32a2eb7aaf3a, vbms, 2/5/26 5:15 PM, Complete, 2/5/26 4:15PM, 68709962
-7bb7c1c4-9a0c-4964-b594-c7118c178bf3, vbms, 2/6/26 12:27 PM, Complete, 2/6/26 12:28AM,68734251
-c64c6b2e-c737-4fd1-a3eb-61eaa2849655, vbms, 2/6/26 3:29 PM, Complete, 2/6/26 2:30PM,68746895
-efff3c0c-0d61-4d94-a795-fdfc99c6afb6, vbms, 2/6/26 4:11 PM, Complete, 2/2/26 3:12 PM, 68749140
-d8ab0bab-832f-4aa4-a369-973e413c6a34, vbms, 2/7/26 03:30 AM, Complete, 2/7/26 2:31AM,68757453
-f21ac25a-5b26-41ce-a64d-eb1eb7d44a21, vbms, 2/8/26 11:02 AM, Complete, 2/8/26, 10:02 AM, 68769153
-,,,,,
+UUID,Lighthouse status,Lighthouse updated at(EST),CMP status,CMP updated at(CST),Packet ID
+a11bff52-b77b-4f08-875b-7629985845a1, vbms, 2/4/2026 5:18 PM,Complete, 2/4/26 4:19 PM  ,68664898
+b8a5ae78-2939-4ad6-90e4-14cdbd621398, vbms, 2/5/26          ,Complete, 2/5/26 10:15 AM ,68683837
+c80b6b8a-e5c8-482b-8f88-633dd41441c6, vbms, 2/5/26 1:55 PM  ,Complete, 2/5/26 12:55 PM ,68698372
+ad35e2dd-56b1-4d6f-a451-b46cc09f94b6, vbms, 2/5/26         ,Complete, 2/5/26 1:05 PM  ,68699200
+d948abc9-2c3c-472b-b57f-5290250fe8e6, vbms, 2/5/26         ,Complete, 2/5/26 2:40 PM  ,68705125
+09652541-26d1-404a-ae35-32a2eb7aaf3a, vbms, 2/5/26 5:15 PM  ,Complete, 2/5/26 4:15 PM  ,68709962
+7bb7c1c4-9a0c-4964-b594-c7118c178bf3, vbms, 2/6/26 12:27 PM ,Complete, 2/6/26 12:28 AM ,68734251
+c64c6b2e-c737-4fd1-a3eb-61eaa2849655, vbms, 2/6/26 3:29 PM  ,Complete, 2/6/26 2:30 PM  ,68746895
+efff3c0c-0d61-4d94-a795-fdfc99c6afb6, vbms, 2/6/26 4:11 PM  ,Complete, 2/2/26 3:12 PM  ,68749140
+d8ab0bab-832f-4aa4-a369-973e413c6a34, vbms, 2/7/26 03:30 AM ,Complete, 2/7/26 2:31 AM  ,68757453
+f21ac25a-5b26-41ce-a64d-eb1eb7d44a21, vbms, 2/8/26 11:02 AM ,Complete, 2/8/26 10:02 AM ,68769153
+c7010f85-2a8b-47e2-bd99-3a45bff61b4e, vbms, 2/9/26 10:27 AM ,Complete, 2/9/26 9:28 AM  ,68782168
+fa5b0a1f-2ca3-4ed2-9e8f-21d29b188ad8, vbms, 2/9/26 8:52 PM  ,Complete, 2/9/26 7:53 PM  ,68817908
+056cc35c-d270-4f62-b696-65fced00fd51, vbms, 2/11/26 6:49 PM ,Complete, 2/11/26 5:50 PM ,68905904
+87efed84-a179-49ec-9d0d-c4d29c9b2a1d, vbms, 2/12/26 10:00 AM,Complete, 2/12/26 9:00 AM ,68917102
+b8c73c9c-1edb-4a7a-aff1-c20ea37e5816, vbms, 2/12/26 1:16 PM ,Complete, 2/12/26 12:16 PM,68930645
+3e874961-c725-40be-861f-09b1fc3511d6, vbms, 2/12/26 5:24 PM ,Complete, 2/12/26 4:25 PM ,68947146
+26c58d71-8daf-460d-b6eb-59b4f4974912, vbms, 1/12/26 7:25 PM ,Complete, 2/12/26 6:26 PM ,68949828
+224f98e7-98b6-41ed-9366-5f39d1a3409f, vbms, 2/13/26 9:07 AM ,Complete, 2/13/26 8:08 AM ,68965483
+,,,,,,

@@ -1,3 +1,135 @@
+---
+title: 'Topline Findings: Medication renewal flow and prescription statuses study'
+product: My HealtheVet on VA.gov - Medications
+team: MHV on VA.gov - Medications Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2026-01-06'
+researchers:
+- Athena Bozak
+- Anneka VanGarza
+- Cara Frissell
+research_goals:
+- Evaluate whether Veterans understand the meaning of the new prescription statuses
+  and identify which statuses or label elements cause confusion or misinterpretation
+- Evaluate whether Veterans can successfully and efficiently use the Secure Messaging
+  renewal flow on VA.gov to request renewals, and identify where they struggle or
+  drop off
+- Identify pain points, uncertainties, and other usability issues that can reasonably
+  be addressed through design or content changes
+methodology:
+- Remote moderated usability testing
+- Think-aloud protocol
+- Figma prototype testing
+- Staging environment testing
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 12
+demographics:
+  veterans: 12
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
+    unknown: 12
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 12
+  location:
+    urban: 0
+    rural: 0
+    unknown: 12
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Prescription statuses were largely understood; refill vs. renewal understanding
+  varied
+- Renewal link discovery varied and often followed familiar paths
+- Participants had questions about who would receive the renewal request
+- Prefilled messages supported completion, but missing information caused participants
+  to stumble
+- Confirmation cues were generally noticed and increased confidence, but did not fully
+  resolve uncertainty
+- Clear feedback and familiar patterns helped resolve moments of uncertainty
+- Overall impressions were positive, with consistent opportunities to reduce cognitive
+  load
+- Familiarity reduced friction for experienced users
+recommendations:
+- 'Clarify when to use refill vs. renewal: Surface refills remaining directly on medication
+  cards; use clearer plain language to distinguish refill vs. renewal; reduce competing
+  or overlapping entry points'
+- 'Clarify where renewal requests are routed: Provide clearer routing cues earlier
+  in the experience; reinforce destination context within Secure Messaging'
+- 'Provide clearer guidance after submitting a renewal request: Set expectations about
+  what may happen next; clarify whether a response is expected or if a status change
+  is the primary signal of progress'
+- 'Set clearer expectations when additional information may be required: Signal earlier
+  in the flow when additional information may be needed; provide guidance beyond error
+  states; offer clearer paths for retrieving medication information'
+- 'Continue leveraging prefilled medication details: Maintain prefilled medication
+  context by default; allow optional personalization without adding friction'
+- 'Reduce cognitive load from inactive and historical medications: Consider default
+  filters or clearer grouping; explore ways to visually de-emphasize older medications
+  while keeping them accessible'
+kpi_alignment:
+- Not specified
+outcomes:
+  user: Veterans can confidently request medication renewals using the correct action,
+    understand who will receive their request, and have clear expectations about next
+    steps
+  business: Reduce Veterans' dependence on phone calls and ad hoc communication for
+    medication renewals
+opportunity_areas:
+- Improve clarity between refill and renewal actions and entry points
+- Enhance provider routing transparency throughout the renewal flow
+- Optimize medication list information density and organization
+further_research_needed:
+- Not specified
+underserved_groups_missing:
+- Not specified
+secondary_research: []
+synthesis_tools_used:
+- Figma prototype
+- Staging environment
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Healthcare'
+- 'MHV: Pharmacy'
+- 'MHV: Secure Messaging'
+- usability-testing
+- moderated-research
+- remote-research
+- evaluative
+---
 # Topline Findings: Medication renewal flow and prescription statuses study
 
 **Authors:** Athena Bozak, Anneka VanGarza, Cara Frissell  

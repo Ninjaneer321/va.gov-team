@@ -1,3 +1,112 @@
+---
+title: "Voc Rehab Usability Testing, Round 2 Research Findings"
+product: "Vocational Rehabilitation & Employment (VR&E)"
+team: "Not specified"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2018-03-31"
+researchers:
+  - "Not specified"
+research_goals:
+  - "Evaluate usability of the Chapter 31 and Chapter 36 Vocational Rehabilitation application forms"
+  - "Assess Veterans' understanding of the distinction between Chapter 31 and Chapter 36"
+  - "Test usability features including save in progress and form review functionality"
+  - "Identify confusing questions or areas needing clarification"
+methodology:
+  - "Usability testing"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 4
+demographics:
+  veterans: 4
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 4
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 4
+  location:
+    urban: 0
+    rural: 0
+    unknown: 4
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Distinction between chapter 36 and 31 is still unclear"
+  - "This is indicative of larger uncertainty around what education benefits are available to Veterans"
+  - "Participants have become used to having to sign in to websites before being able to fill out forms"
+  - "Past trust issues with the VA affect Veterans' comfort with sharing information about themselves on applications"
+  - "Nice work on usability features (screening process, save in progress, reviewing form fields)"
+  - "Some questions could use clarification (Are you working?, Education, Disability, Chapter 36 education question difficulties)"
+  - "Veterans are confused about where disability records are stored"
+  - "Branch of service should be a drop-down menu to limit variations"
+recommendations:
+  - "Discuss necessity and wording of Chapter 36 education checkboxes with stakeholder - these have caused confusion across two rounds of usability testing"
+  - "Review Chapter 31 education section: determine more effective wording of 'years of education' and whether that answer should be a drop-down number"
+  - "Consider adding tooltips on Chapter 31 pages about employment and education to clarify why this information is needed and reassure Veterans that the information won't be held against them"
+  - "Discuss viability of changing disability descriptions to a drop-down menu of conditions"
+  - "Discuss viability of integrating facility locator into 'where are your records stored?' answers"
+  - "Convert 'branch of service' answers to a drop-down menu to limit variations of answers"
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas:
+  - "Veterans need better explanation of what education benefits are available to them"
+  - "Veterans need clarification on Chapter 36 vs Chapter 31 eligibility and benefits"
+  - "Veterans need reassurance that sharing employment information won't be used against them"
+further_research_needed:
+  - "Speak with at least one more person who does not fit the pattern (different age range, different service branch, different geographic location)"
+  - "Evaluate whether Chapter 36 and Chapter 31 eligibility have to live on the same static content page"
+underserved_groups_missing:
+  - "Veterans from different age ranges (participants were in the same age range)"
+  - "Veterans from service branches other than Air Force (three of four participants served in Air Force)"
+  - "Veterans from geographic locations other than the east coast (four participants were on the east coast)"
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Education"
+  - "BNFT: Employment"
+  - "DSC: Form"
+  - "DSC: Checkbox"
+  - "DSP: Content Presentation"
+  - "DSP: Contextual Help"
+  - "usability-testing"
+  - "evaluative"
+---
+
 # Voc Rehab Usability Testing, Round 2
 
 ## Findings

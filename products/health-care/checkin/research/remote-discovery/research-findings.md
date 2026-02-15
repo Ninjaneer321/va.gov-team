@@ -1,3 +1,147 @@
+---
+title: Check-in Remote Discovery Research Findings
+product: Check-in
+team: Healthcare Experience - Check-in
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: 2021-04
+researchers:
+- Kristen McConnell
+research_goals:
+- Understand Veterans' feelings, pain points, and value-gained by using the current
+  ecosystem of check-in methods for medical appointments
+- Understand the current kiosk method, because it is being replaced by a digital check-in
+  solution on mobile and/or va.gov
+- Understand how Veterans feel when interacting with each check-in method (focus heavily
+  on kiosk workflows)
+- Identify Veteran-specified benefits and pain points for each method
+- Understand how non-sighted Veterans check-in
+methodology:
+- Remote moderated tests via Zoom
+- Interview questions about check-in experiences
+- Visual presentations to facilitate discussions on kiosk-based check-in workflows
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 11
+demographics:
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  gender:
+    male: 10
+    female: 1
+  age:
+    25-34: 3
+    35-44: 0
+    45-54: 0
+    55-64: 1
+    65-74: 5
+    75+: 2
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 4
+    associates: 2
+    bachelors: 3
+    masters: 0
+    doctorate: 0
+    unknown: 2
+  location:
+    urban: 0
+    rural: 0
+    unknown: 11
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 11
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Checking in with a VA staff member was the most preferred and used method among
+  the currently available methods for in-person appointments
+- Checking in with a VA staff member can offer valuable human interactions for Veterans,
+  but Veterans are sometimes made to feel unimportant or insulted during these interactions
+- Using a kiosk is quick and easy as long as the machine isn't turned off or broken
+- When verifying their identity at the kiosk, more Veterans utilized their VHIC card
+  and entered their date of birth than entered their SSN and date of birth
+- Most participants never updated their contact or next of kin information before
+- Updating contact or next of kin information was mostly completed by speaking with
+  staff members
+- More participants received their medications by mail and used the kiosk to check-in
+  for lab tests than other methods
+- Lab workflows vary from facility to facility
+- Pharmacy workflows vary greatly from facility to facility
+- At the lab and pharmacy, digital check-in solutions are preferred, wait time vary,
+  and sometimes orders are missing
+- Beneficiary travel mileage was most often filed via kiosks
+- 'Veterans have multiple options when filing for beneficiary travel mileage: kiosk,
+  travel office, online, and automatic reimbursement'
+- Veterans reported abandoning their attempts to file for travel mileage due to difficulties
+  with multiple filing methods
+- Overall, checking in for virtual appointments was described as a pleasant and very
+  quick experience
+- Veterans unanimously wished other health systems had check-in processes like the
+  VA
+- Digital (particularly mobile phone solutions) and in-person options are both extremely
+  valuable to different types of Veterans
+- Most Veterans were interested in a lightweight way of verifying their identity when
+  checking in, such as the last 4 digits of their social security number and/or date
+  of birth
+- Half of the participants were interested in receiving notifications letting them
+  know they could now check-in
+recommendations:
+- A variety of check-in methods need to be available to accommodate the variety of
+  Veteran types and reduce lines/wait times to check-in
+- A digital solution (mobile or web) will be welcomed by many Veterans, especially
+  those who are technologically savvy or don't like to talk to someone
+- Checking in with a staff member is important for some Veterans, those who don't
+  get a lot of human interaction and/or like the personal connection
+- A digital solution is required that is available at VA facilities but doesn't require
+  the Veteran to bring their own mobile phone
+- Keep authentication lightweight, such as last name, last 4 of SSN, and/or phone
+  number
+- Move the contact and next of kin workflows out of check-in on the day of the appointment
+  and into a pre-check in workflow that is completed a week to a few days prior to
+  the appointment
+- Show the Veteran confirmation they really are checked in, eliminating the Veteran's
+  concern that staff won't know they are sitting in the waiting room
+further_research_needed:
+- Present in-person observation research
+- Usability study of new check-in workflows
+- Wireframe the pre-check in workflow
+- Explore on-site solutions that don't require Veterans to use their own mobile phone,
+  but who still want to check-in digitally
+- Complete more discovery research on non-appointment workflows
+underserved_groups_missing:
+- Non-sighted Veterans (recruited but were no-shows)
+tags:
+- 'AUD: Veterans'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'PRDT: Facilities'
+- 'MHV: Appointments'
+- 'MHV: Pharmacy'
+- moderated-research
+- remote-research
+- semi-structured-interviews
+---
 # Check-in Remote Discovery Research, April 2021
 Discovery Readout <br/>
 Lead researcher: Kristen McConnell, kristen.mcconnell@adhocteam.us

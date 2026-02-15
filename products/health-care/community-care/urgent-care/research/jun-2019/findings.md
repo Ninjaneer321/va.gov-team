@@ -1,3 +1,138 @@
+---
+title: "Urgent Care Usability Study - Research Findings"
+product: "Community Care - Urgent Care"
+team: "Health Care"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2019-06"
+researchers:
+  - "Kevin M. Hoffman"
+research_goals:
+  - "Reveal pain points and identify possible short term improvements to the experience of learning about urgent care benefit eligibility"
+  - "Identify improvements to finding urgent care facilities covered under VA benefits"
+  - "Understand how people use the current site to assess their eligibility for urgent care"
+  - "Identify pathways and page elements in the home page, VA.gov, the facility locator, and the TriWest VA Urgent Care tool that best support understanding urgent care benefits and finding a facility"
+  - "Understand what natural language Veterans use to assess their eligibility for urgent care and find urgent care facilities"
+  - "Identify what design system elements are most likely to support these needs and in what pages those elements would be most effective"
+methodology:
+  - "Remote moderated usability testing"
+  - "Ethnographic interviews"
+  - "Two task sequences: find facility and confirm eligibility (order alternated between participants)"
+devices_used:
+    desktop: 7
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 7
+demographics:
+  veterans: 6
+  service_members: 0
+  caregivers: 1
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 1
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 1
+    unknown: 5
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 7
+  location:
+    urban: 0
+    rural: 0
+    unknown: 7
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Users cannot find an urgent care facility in an efficient fashion, if at all"
+  - "Users cannot successfully confirm what urgent care benefits are covered by the VA, but some users have methods for doing so that exist just beyond what our websites provide"
+  - "Users that explored eligibility before finding a facility were more likely to be successful, however this is the reverse sequence that most users believed they would execute these tasks"
+  - "The current implementation is confusing to users because users assume when using the TriWest facility locator that all results are covered when in actually they may not be"
+  - "Throughout the study users often sought out the terms urgent care in multiple places and were unable to find them"
+  - "More users have limited or no knowledge of the relationship between urgent care and the Mission Act"
+  - "Nearly all users stated a lack of confidence in their understanding of the Mission Act"
+  - "Most users could not find an urgent care location without assistance - failure points included MyHealtheVet, Site search results, VA Health Care benefits hub, Community Care landing page, VA.gov facility locator, and TriWest facility locator"
+  - "No user used the Find a VA Location link in the site header for the urgent care use case"
+  - "Users that used site search would repeatedly refine their search terms up to four times with no satisfactory results"
+  - "Users were frustrated, confused, or occasionally stuck on the text landing page for the TriWest location finder"
+  - "Nearly all users within the TriWest location finder immediately switched to the Zip Code interface from the nearest VA location interface"
+  - "More than half of users assumed that because they were able to find a location via the TriWest location finder, it was already covered under their VA Health Care benefits"
+  - "Most users did not distinguish between eligibility requirements for community care and eligibility requirements for urgent care"
+  - "Most users did not understand the eligibility requirements for community care - they did not understand only one of the six listed requirements needs to be met"
+  - "Around half of users incorrectly equated the label Get health care with finding a location for urgent care"
+  - "Users consider the VA home page to be the home page of their local VA hospital, not the national Veterans Affairs website"
+recommendations:
+  - "Create new visual and written language for the topic of urgent care and place it at key pages throughout VA and non-VA sites and related applications"
+  - "Establish within the design system a visual language (color, icon, button, etc.) and use appropriate labels for Urgent Care"
+  - "More clearly associate Find a VA Location link with user behaviors and mental models for searching and seeking assistance"
+  - "Re-architect the Mission Act landing page to more clearly delineate between the concepts of finding care and changes to services"
+  - "Eliminate page elements such as the location finder within the Community Care and Urgent Care pages in the left column that users do not either notice or use"
+  - "Add an explanation of how Community Care and Urgent Care are not the same type of care within each respective page"
+  - "Eliminate additional labels for these concepts wherever possible such as Retail Care in the TriWest location finder"
+  - "Redesign the transition between VA.gov and the TriWest location finder by addressing the landing page with a more appropriate pattern"
+  - "Present the copy as a modal that appears over the search tool, not as a separate page"
+  - "Reverse the default search interface on the TriWest location finder to Search by Zip Code from Search by VA Facility"
+  - "Address the TriWest location finder rendering errors in Microsoft Windows/Edge browsers"
+  - "Create a consolidated location search experience that emphasizes primary use cases including VA Facilities, approved community facilities, and approved urgent care facilities"
+  - "Integrate legacy health care benefits pages such as the Community Care section into the VA.gov architecture and design"
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas:
+  - "Consolidated location search experience integrating VA facilities, community care, and urgent care"
+  - "Clear differentiation between community care and urgent care eligibility"
+  - "Improved search functionality with urgent care terminology"
+  - "Better integration of TriWest facility locator with VA.gov experience"
+  - "Mission Act awareness and education"
+  - "Mobile-first facility finding experience"
+further_research_needed:
+  - "Testing on mobile devices for find a facility task (majority of users stated they would use their phone)"
+  - "Further research to assess whether or not Mission Act knowledge is pervasive among users"
+  - "Research to clarify the difference between Community Care and Urgent Care from the user perspective"
+  - "How Veterans prioritize urgent care facilities (proximity, trust, wait time, coverage confidence, existing conditions)"
+underserved_groups_missing:
+  - "More representation of users who identify as women (majority identified as male)"
+  - "Mobile device users"
+secondary_research: []
+synthesis_tools_used:
+  - "Mural"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "HDW: Desktop"
+  - "Initiative: Mission Act"
+  - "usability-testing"
+  - "evaluative"
+  - "community-care"
+  - "urgent-care"
+  - "facility-locator"
+---
+
 # Urgent Care Usability Study
 #### Digital Services Veterans Affairs (DSVA)
 Kevin M. Hoffman, June 2019

@@ -1,11 +1,15 @@
 # Testing with pre-release app version: Android
 
+- _No preparation required from participants._
+- _The moderator will facilitate the full installation and configuration at the start of the session._
+- _Participants do not provide email addresses prior to the session._
+
 
 ## Preparation
 
 
 
-1. Request public Firebase install link from mobile engineering ([sample one for practice)](https://appdistribution.firebase.dev/i/b2288c54d279c68f)
+1. Request public Firebase install link from mobile engineering
 
 
 ## Install and set-up
@@ -64,16 +68,16 @@
     * Some phones have another layer of protection that prevents users from downloading unknown apps
         * Phone Settings - Security and privacy - Auto blocker
         * Phone Settings - Apps - Special Access - Install unknown apps - Chrome - Allow from this source
-    * Problem with turning on developer mode
+    * Problem with turning on "Internal app sharing"
         * Clear cache: Phone Settings - Apps - Google Play Store - Storage and cache - Clear cache
+* There is no simple "off" switch for turning on developer mode within Google Play Store
+    * The only way to hide it again is to Clear Storage/Data for the Google Play Store app. This resets the Play Store settings back to its original state, so it would wipe out custom settings.
+    * Having this mode on gives access to the developer options menu, but otherwise doesn’t change anything.
+    * Recommendation: It is safer to leave developer mode on rather than risk resetting a Veteran’s personalized Play Store settings.
 * Technical pre-requisites for participants (for both iOS and Android)
     * **VA Credentials:** You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
-    * **Email Access:** You can open your email directly on your mobile phone to click the test link.
+    * _[Android only]_ **Email Access:** You can open your email directly on your mobile phone to click the test link.
     * **Testing Tools:** You are willing to download TestFlight (iOS) or Firebase App Distribution (Android).
-    * **Storage:** You have at least 200MB of free space.
-    * **Phone operating system version:**
-        * **iPhone:** iOS 16 or newer.
-        * **Android:** Android 12 or newer.
     * **App Replacement:** If you have the standard VA app, the test version will temporarily replace it. (If you don't have the app, it will simply install as a new one). We will help you restore the original version at the end.
-    * **Android Permissions:** You are comfortable allowing your phone to "Install Unknown Apps" within your security settings for this session.
+    * _[Android only]_ **Permissions:** You are comfortable allowing your phone to "Install Unknown Apps" within your security settings for this session.
     * **Connection:** You will be connected to WiFi during our call for a stable download.

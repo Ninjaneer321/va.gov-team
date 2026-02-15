@@ -1,3 +1,90 @@
+---
+title: "Veteran Facing Forms - Form Header Accessibility Findings"
+product: "Veteran Facing Forms"
+team: "Digital Experience - Content and Information Architecture"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-10-31"
+researchers:
+  - "Rachel Shearer"
+  - "Jeana Clark"
+research_goals:
+  - "Explore the usability of a simplified form header design for Veterans - particularly those using screen readers"
+methodology:
+  - "Usability testing"
+  - "Remote moderated sessions"
+devices_used:
+    desktop: 4
+    tablet: 3
+    smartphone: 2
+    assistive_technology: 9
+participants_total: 9
+demographics:
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 1
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Stepper confusion & stage in the process"
+  - "Form title and number helpful, when the user found it"
+  - "'Back' link wasn't easy to find; the 'Continue' button worked well"
+  - "Users expected to be able to save their progress upon exiting the form."
+  - "Users wanted to know if the form was being saved or not."
+  - "Some users ignored the 'Exit' link completely."
+  - "The date of birth and social security number fields were challenging for some users."
+recommendations:
+  - "Consider testing 'section' or 'part' for clarity. Consider using percentages as well."
+  - "To account for 'tabbers,' or people who only use tab to navigate through a page, you might want to give focus to the form title/number and the progress bar."
+  - "Consider going back to the two-button pattern."
+  - "Authenticated users are aware that a) the form can be saved b) can press X button to save it. If the form saves automatically, they need to be made aware of that on form exit."
+  - "Unauthenticated users are aware that their data won't be saved if they exit the form before completing/submitting."
+  - "We would like to confirm that this field group is optimal for assistive tech users via user testing. Please put this on your radar."
+  - "We would like to confirm that this field is optimal for assistive tech users via user testing. Please put this on your radar."
+tags:
+  - "AUD: Veterans"
+  - "accessibility"
+  - "screen-reader"
+  - "usability-testing"
+  - "assistive-technology"
+---
+
 # About this Research Study
 - **Study Name:** Veteran Facing Forms - Form Header
 - **Study Dates:** October 2023

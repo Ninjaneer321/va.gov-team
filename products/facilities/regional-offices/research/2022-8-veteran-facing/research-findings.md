@@ -1,3 +1,113 @@
+---
+title: Veteran Facing VBA Research Findings
+product: Facilities
+team: Facilities
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: '2022-10-17'
+researchers:
+- Aslan French (aslan.french@civicactions.com)
+- Dave Pickett (dave.pickett@civicactions.com)
+research_goals:
+- Understand a Veterans' experiences, impressions, and relationships with Benefit
+  Offices
+- Determine what benefit-related tasks Veterans complete at Benefit Offices
+- Understand the Veteran experience of visiting a Benefit Office
+- Identify what information Veterans need when preparing for a visit
+methodology:
+- Semi-structured interviews
+- Remote
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 12
+demographics:
+  veterans: 12
+  service_members: 0
+  caregivers: 1
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 1
+    35-44: 2
+    45-54: 2
+    55-64: 7
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 1
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 11
+  location:
+    urban: 0
+    rural: 0
+    unknown: 12
+  race:
+    white: 0
+    black: 4
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 1
+  disability:
+    cognitive: 3
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Veterans would like to use the website to complete tasks when the steps are clear
+- Veterans prefer to speak to a person on-site if they can't find clear information
+  online
+- Veterans expect Regional Benefit Offices to be 'one-stop shops' for services
+- Veterans aren't sure of what tasks they can complete at the various VA offices
+recommendations:
+- Create VBA Regional Office pages to follow existing facilities patterns
+- Implement clearer content when the steps to complete a task are complex or multi-step
+- Follow up with research into the types of services available at each facility
+kpi_alignment: []
+outcomes:
+  user: Not specified
+  business: Not specified
+opportunity_areas: []
+further_research_needed:
+- Deep dive into what Veterans are visiting facilities for
+- Additional research on how and when Veterans use their peer network for support
+- Forms usability and accessibility discovery
+- Content audit on accuracy and completeness of benefits processes listed on VA website
+underserved_groups_missing:
+- Asian
+- LGBTQ+
+- Continental District
+- Younger than 45
+- Rural
+secondary_research: []
+synthesis_tools_used:
+- Mural
+- Affinity Mapping
+tags:
+- 'AUD: Veterans'
+- 'AUD: Caregivers'
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Housing'
+- 'BNFT: Records'
+- 'PRDT: Facilities'
+- 'MHV: Appointments'
+- semi-structured-interviews
+- remote-research
+---
 # Veteran Facing VBA Research Findings
 
 Office of the CTO - Digital Experience (OCTO-DE), Facilities

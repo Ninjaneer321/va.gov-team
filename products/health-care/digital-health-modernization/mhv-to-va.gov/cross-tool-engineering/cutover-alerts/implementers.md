@@ -10,6 +10,32 @@ This guide explains how to use that data to decide when to disable features or s
 
 ## Quick Implementation
 
+### 0. Set params
+The param store keys are these:
+* /dsva-vagov/vets-api/dev/env_vars/mhv/oh_migrations_list
+* /dsva-vagov/vets-api/staging/env_vars/mhv/oh_migrations_list
+* /dsva-vagov/vets-api/prod/env_vars/mhv/oh_migrations_list
+
+#### Example values
+
+**Single facility migration: `2026-01-01:[123,Test]`**
+
+**3 facilities, same migration date: `2026-01-01:[123,Test][234, Test2][345, Test3]`**
+
+**2 migration dates, 1 facility on the first, 2 facilities on the second: `2026-01-01:[123,Test];2026-01-02:[234,Test2][345,Test3]`**
+
+Note: Spacing and extraneous commas in the facility name are handled gracefully by the parser
+
+```
+"Grammar":
+full_value     = migration_info(;migration_info)*
+migration_info = migration_date:(facility_info)+
+facility_info  = [facility_id,facility_name]
+migration_date = YYYY-mm-dd
+```
+
+
+
 ### 1. Access Migration Data
 
 ```javascript

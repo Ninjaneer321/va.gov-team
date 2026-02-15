@@ -1,3 +1,127 @@
+---
+title: "Research Findings: Accredited Representative User Interviews"
+product: "Accredited Representative Portal (ARP)"
+team: "Accredited Representative Facing Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-02"
+researchers:
+  - "Renata Keck (renata.keck@agile6.com)"
+  - "Kara Sanchez (kara.sanchez@adhocteam.us)"
+  - "Rebecca Blakiston (rebecca.blakiston@adhocteam.us)"
+  - "Kristen Faiferlick (kristen.faiferlick@adhocteam.us)"
+research_goals:
+  - "Understand accredited representatives' most pressing unmet needs, current pain points, and desires for new tool supporting their work with Veterans"
+  - "Identify user task flows, prioritize features, and gain insight into initial navigation for ARP MVP"
+  - "Understand how SEP and third party case management tools are used to support complete Veteran claims process"
+  - "Learn what task flows are essential to accepting or declining POA request"
+  - "Determine what information and calls to action representatives expect on ARP dashboard"
+  - "Understand what notifications representatives need to manage POA approval/rejection"
+  - "Understand how VSOrgs handle permissioning and access levels within organizations"
+methodology:
+  - "Semi-structured interviews with open-ended questions"
+  - "Participatory design sessions with low fidelity prototypes in Mural"
+  - "Qualitative analysis and affinity mapping"
+devices_used:
+    desktop: "Primary - participants want web-based tool with desktop shortcut"
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 11
+participant_type: "Accredited Representatives (VSO officers)"
+demographics:
+  organization_type:
+    big_six_vsos: 5
+    regional_state_county_vsos: 6
+  big_six_breakdown:
+    disabled_american_veterans: 3
+    american_legion: 1
+    veterans_of_foreign_wars: 1
+  regional_state_county_breakdown:
+    state: 2
+    county: 2
+  field_experience_years:
+    "4-6": 1
+    "7-9": 1
+    "10+": 7
+  service_area:
+    urban: 8
+    suburban: 1
+  service_record:
+    veterans: 9
+key_findings:
+  - "VSOfficers' power of attorney workflows require toggling between many tools (24+ applications mentioned in audit; most time spent in VBMS, CMS, and claims upload tools)"
+  - "Current power of attorney process is conversational and rarely done as singular task - often part of larger intake process"
+  - "VSOfficers need critical information about Veterans before accepting POA: service record, name/address confirmation, VBMS record confirmation"
+  - "After filing 21-22, VSOfficers spend significant time manually tracking access to e-Folders and claim status"
+  - "Digital tools available today don't satisfy VSOfficers' needs; 9/9 participants use/used SEP; tool deprecation and bugs make it less viable"
+  - "VSOfficers like doing as much as possible during Veteran meetings but face technical limitations preventing automatic CMS updates"
+  - "Representatives regularly do field visits and claims clinics away from office; current tools don't support these contexts well"
+  - "Establishing POA is prerequisite for work that is often part of larger interview and level-setting conversation, not transactional"
+  - "21-22 often filed with other forms (526 EZ, dependency forms) before POA established - risking duplicate submissions"
+  - "Delay between submission and access ranges from several hours to several weeks depending on method"
+  - "Some VSOrgs have dedicated staff whose job is to check SEP for incoming requests and VBMS for updates"
+  - "VSOfficers create own tracking tools due to lack of reliable automated tracking in existing systems"
+recommendations:
+  - "Match distinct and varied ways users prefer to work: design for individual-focused workflow (VSOfficer working with specific claimant) and request-focused workflow (staff scanning all new requests)"
+  - "Provide critical data points for informed POA decisions: claimant name, SSN, claim number, DOB, address, phone, email, current POA, link to e-Folder, date of request, requested VSOrg, status, medical records access consent"
+  - "Provide instant access to Veterans' data: once POA accepted, provide immediate e-Folder access; direct link to e-Folder considered 'gold plating' feature"
+  - "Design distinct look and feel communicating reliability and trust: clearly convey tool is for accredited representatives, not Veterans; tie into VA.gov branding while being clearly non-Veteran-facing"
+  - "Provide trained, dedicated technical support staff: multiple support channels (phone, email, chat); user-centered documentation and in-situ support (tooltips)"
+  - "Instill trust through informative system responses: clearly communicate action results, backend changes, and subsequent actions; provide immediate error feedback with resolution options"
+  - "Communicate long-term goal and encourage continued engagement: frame release as MVP with more features coming; provide transparency on upcoming features; create community of invested users"
+  - "Future: Design for end-to-end workflows enabling complete series of tasks within one system"
+  - "Future: Consider integrating as much functionality as feasible within single tool to reduce tool-switching burden"
+  - "Future: Consider non-standard contexts of use (non-accredited support staff, non-PIV card holders, field work contexts)"
+kpi_alignment:
+  - "Grow digital submissions"
+  - "Focus on needs of accredited representatives and Veterans who work with them"
+  - "Build tools for Veterans wanting to work with accredited representatives"
+  - "Redirect traffic from eBenefits and Stakeholder Enterprise Portal (SEP) to VA.gov"
+outcomes:
+  user: "VSOfficers can seamlessly and accurately help Veterans with VA interactions; can accept POA requests with full information in one location; gain instant e-Folder access; reduce tool-switching"
+  business: "Redirect traffic from eBenefits and SEP to VA.gov; grow digital submissions; build rep-facing tools supporting Veterans working with accredited representatives"
+opportunity_areas:
+  - "Centralized portal for verifying claimant information before POA acceptance (currently requires checking 4+ tools)"
+  - "Instant access to e-Folder after POA acceptance (currently 24 hours to several weeks)"
+  - "Automated integration between ARP and third-party case management systems"
+  - "Automated updates to CMS when actions taken in VA tools"
+  - "System notifications for POA request actions and claim updates (rather than manual checking)"
+  - "Support for field-based and mobile workflows"
+  - "Regional filtering and viewing options for case tracking"
+  - "Ability to upload and access documents without 24-48 hour delay"
+  - "Proactive notifications to Veterans about POA status and next steps"
+further_research_needed:
+  - "Include VSOfficers with less field experience (junior and mid-level; target <7 years experience)"
+  - "Recruit more diverse representation from Big 6 and smaller VSOrgs"
+  - "Include representation from state, county, and tribal VSOrgs"
+  - "Include assistive technology (AT) users"
+  - "Address role types: do 'super users' doing bulk approval/rejection need different workflow"
+  - "Clarify importance of non-accredited employee and volunteer login needs"
+  - "Understand multi-accreditation workflows: single VSOrg view vs. complete list with filters"
+  - "Test VSOfficer response to various VA look-and-feel modifications"
+  - "Identify specific design changes (color, imagery) to clearly differentiate from Veteran-facing tools"
+  - "Understand how third-party tools are meeting/not meeting identified needs"
+  - "Understand which forms most often filed in package with 21-22 prior to POA establishment"
+  - "Understand Veterans' and VSOrgs' actions in rejection and proactive communication process"
+  - "Explore various non-standard contexts of use and design accordingly"
+underserved_groups_missing:
+  - "Junior accredited representatives (< 3 years field experience)"
+  - "Mid-level representatives (3-7 years field experience)"
+  - "Non-Veteran accredited representatives"
+  - "Rural accredited representatives"
+  - "Regional accredited representatives"
+  - "Tribal accredited representatives"
+  - "Assistive technology users (any type)"
+secondary_research:
+  - "09/2023 Secondary Research Findings"
+  - "Comparative analysis of accredited representative tools"
+  - "01/2024 VSO Listening Session"
+synthesis_tools_used:
+  - "EnjoyHQ (interview coding and themes)"
+  - "Mural (participatory design synthesis, personas, process mapping, task flows)"
+  - "Google Docs (synthesis documents, top tasks, user stories)"
+---
+
 # Research Findings for ARF Team, Accredited Representative User Interviews, 02/2024
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accredited Representative Platform, Benefits Accredited Representative Facing Team**

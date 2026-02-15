@@ -1,3 +1,112 @@
+---
+title: "10-10EZ Healthcare Application household information - Research Findings"
+product: "Health Care Application (10-10EZ)"
+team: "Caregiver Team (10-10 Team)"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-01-31"
+researchers:
+  - "Jessica Stump (jessica.stump@adhocteam.us)"
+  - "Nick Osmanski (nick.osmanski@amida.com)"
+research_goals:
+  - "Determine if the questions and additional information within the household information section is clear and actionable"
+  - "Determine if the financial onboarding page content is helpful and understandable"
+  - "Optimize the order and flow of questions within the household information section"
+methodology:
+  - "Moderated usability study"
+  - "Interactive prototype"
+  - "Remote"
+devices_used:
+    desktop: 4
+    tablet: 1
+    smartphone: 5
+    assistive_technology: 0
+participants_total: 10
+demographics:
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 2
+    "35-44": 3
+    "45-54": 2
+    "55-64": 2
+    "65+": 1
+    unknown: 0
+  education:
+    high_school: 5
+    some_college: 3
+    associates: 1
+    bachelors: 1
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 10
+  race:
+    white: 1
+    black: 3
+    hispanic: 1
+    biracial: 5
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 5
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "There were a some areas of the application where participants mentioned examples where more information would be helpful for them to understand what they were being asked"
+  - "Most participants mentioned the process of gathering documents, one example the DD214, and/or adding numbers correctly to complete the annual and deductibles section and that this process could be a potential reason to pause the application or for it to take extra time"
+  - "Most participants thought adding a dependent was clear overall with nothing they would change or add, overall participants were successful to complete adding dependents"
+  - "Most participants thought the initial page of questions about their spouse were clear and understandable, but some had to pause or had questions regarding if their spouse lived with them or had the same address, they felt the question was repetitive or a confusing order"
+  - "Most participants answered that areas of the form were worded in a way that was clear and easy to understand - such as the Veteran information questions and the VA benefits and military service questions"
+  - "Most participants felt the order of questions flowed in a logical order and there were only a couple of small recommendations for changes"
+recommendations:
+  - "Content review - adding more context where needed"
+  - "Refinement to multiple response pattern when editing dependent information"
+  - "Method for inputting multiple service periods"
+  - "Consider combining pages with only one field/task on them"
+  - "Consider switching financial onboarding page & yes/no question: yes/no should come before onboarding"
+  - "Conduct additional research on scenarios where applicant does not need to provide financial information"
+kpi_alignment: []
+outcomes:
+  user: "Veterans feel prepared when they begin the household section and understand what is being asked of them"
+  business: "Reduce drop-off rate in household information section"
+opportunity_areas: []
+further_research_needed:
+  - "Rural"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat"
+  - "LGBTQ+"
+  - "Assistive Technology"
+underserved_groups_missing:
+  - "Rural"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat"
+  - "LGBTQ+"
+  - "Assistive Technology"
+secondary_research:
+  - "UX audit"
+  - "Page analytics (GA)"
+  - "Domo Dashboard"
+  - "Medalia feedback"
+synthesis_tools_used:
+  - "Mural"
+  - "Spreadsheet"
+---
+
 # 10-10EZ Healthcare Application household information - Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 10-10EZ Healthcare Application, Caregiver Team (10-10 Team)**

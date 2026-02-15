@@ -1,3 +1,138 @@
+---
+title: "GI Bill Comparison Tool Non-Veteran Discovery Interview - Preliminary Research Findings"
+product: "GI Bill Comparison Tool"
+team: "Education & Careers"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2019-04"
+researchers:
+  - "Not specified"
+research_goals:
+  - "Gather insights from School Certifying Officials about the GI Bill Comparison Tool"
+  - "Understand how SCOs use and perceive the Comparison Tool"
+  - "Identify data accuracy issues and missing features"
+  - "Explore Section 107 Zip Code functionality and Branch campus displays"
+  - "Understand Section 501 DOD/VA BAH rate usage and accuracy"
+  - "Gather feedback on Yellow Ribbon program display"
+  - "Assess the importance and accuracy of Basic Housing Allowance information"
+methodology:
+  - "Semi-structured discovery interviews"
+  - "Stakeholder interviews with School Certifying Officials"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 4
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 4
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 4
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 4
+  location:
+    urban: 0
+    rural: 0
+    unknown: 4
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "School Certifying Officials do not differentiate between main campus, branches and extensions - having a profile page for each would be useful"
+  - "BAH is among the top 3-4 questions veterans ask and students are most interested in the housing allowance rate"
+  - "A lot of veterans are looking to optimize their BAH rather than necessarily choosing the right school for them and many students make decisions based on BAH"
+  - "Having no data would be better than having inaccurate data - this has been brought to the attention of lawmakers in DC"
+  - "Data is skewed because students start at Community colleges and finish at other schools - neither school gets credit for the graduation"
+  - "Some SCOs tell Veterans to use the CT with caution as there is invalid information"
+  - "Veterans have misconceptions about the Yellow Ribbon program - they assume it's a supplemental scholarship when it's only relevant for private institutions and out of state waivers"
+  - "Having the ability to pick several schools and compare them side-by-side would be helpful"
+  - "Would like all cards for a school to appear adjacent to others on the Search Results page"
+  - "Would be nice to illustrate each school's military community by showing a break down of the population"
+  - "The average age of military connected students is going down as more dependents use benefits"
+  - "Out of State fees are a significant factor and incorporating them in the out of pocket cost area would be helpful"
+  - "It's already such a great tool, it's really life changing to be able to refer people to it"
+  - "Generally pretty easy for people to use and helpful for students to understand where they're going to get the most of their VA benefit"
+recommendations:
+  - "Seeing the BAH for all branches on one page would be helpful"
+  - "Investigate further to understand if UI adjustments are needed for overseas students entering 99999 ZIP code"
+  - "Would be good to see how many Veterans are certified in a year and how many graduate each year"
+  - "Having the ability to pick several schools and compare them side-by-side would be helpful"
+  - "Provide access to other branches on the profile page"
+  - "Show a break down of military connected population - Veterans, Active Duty, Guard/Reserves, Spouses, Dependents, ROTC"
+  - "Incorporate Out of State fees in the out of pocket cost area"
+  - "Provide access to external links that can provide data for actual housing costs"
+  - "Provide contact information for POCs - this information is available in WEAMS"
+  - "Improve the usability of the site as the average age of students is going down and expectations of usability are going up"
+  - "Having a map of campus locations would be helpful, especially in big metropolitan areas where traffic is a major concern"
+  - "Would be nice to see the content of the complaints so we can address issues"
+  - "Displaying the top 5 majors would be useful"
+  - "Display a list of all Certified, Pending and Unapproved programs - Data exists in WEAMS and is accurate"
+  - "Address display of BAH Based on 99999 ZIP Code for overseas schools"
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas:
+  - "Side-by-side school comparison functionality"
+  - "Branch campus comparison and display"
+  - "Military connected community visualization"
+  - "Accurate data display and validation"
+  - "Out of state fee integration"
+  - "Campus location mapping"
+  - "Program certification status display"
+  - "Point of contact information"
+further_research_needed:
+  - "Would you prefer 1 card or many for large schools with multiple campuses (follow-up question for Veterans)"
+  - "How to address display of BAH Based on 99999 ZIP Code for overseas schools (UI considerations)"
+  - "Validation of data accuracy with Veterans perspective"
+underserved_groups_missing:
+  - "Veterans using the tool (only SCOs interviewed)"
+  - "Dependents using benefits"
+  - "Spouses using benefits"
+secondary_research: []
+synthesis_tools_used:
+  - "Trello"
+tags:
+  - "AUD: School Certifying Officials (SCO)"
+  - "AUD: Veterans"
+  - "AUD: Dependents"
+  - "BNFT: Education"
+  - "semi-structured-interviews"
+  - "discovery"
+  - "stakeholder-research"
+  - "GI-Bill"
+  - "Colmery-Act"
+---
+
 ## GI Bill Comparison Tool Non-Veteran Discovery Interview Preliminary Findings
 
 The following preliminary findings for the GI Bill Comparison Tool were gathered during Discovery Interviews with School Certifiying Officials that were held April 8-9, 2019. Participants included 4 School Certifying Officials from institutions in CA, FL, MD, and AZ.

@@ -1,3 +1,327 @@
+---
+title: VA.gov Profile Desk Research for the Authenticated Experience Team, 03/2025
+product: VA.gov Profile
+team: Authenticated Experience Team
+office: Office of the CTO - Digital Experience (OCTO-DE)
+date: 2025-03
+researchers:
+- Janelle Finnerty
+research_goals:
+- Evaluate existing research within the Profile GitHub repository to create a unified
+  understanding of identified opportunities within the experience
+methodology:
+- Desk research
+- Review of existing research in Profile repository and VA Research Repository
+devices_used:
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
+demographics:
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 0
+    rural: 0
+    unknown: 0
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+- Veterans want VA.gov to be a 'one-stop shop' for all their personal information
+  and documents.
+- Veterans expect that VA has access to all the information and records, and updates
+  made to their VA.gov Profile will reflect across all VA entities.
+- Veterans lack awareness of the content available in the VA.gov Profile, which can
+  lead to navigational challenges on VA.gov.
+- Veterans want the ability to edit all information shown in the VA.gov Profile, but
+  understand written directions on how to edit their information if online editing
+  is not available.
+- System delays in updating information in the VA.gov Profile led to participants
+  missing messages or assuming the experience is broken.
+- 'There are several successfully tested design patterns in the VA.gov Profile that
+  the team should continue to follow, including: (1) Grouping uneditable information
+  separate from and editable information, (2) Making it clear what information is
+  optional or required, (3) Provide inline editing, which has had no participant challenges,
+  (4) Provide FAQs to answer common questions such as ''Why does the VA want that
+  information?'' or ''How does a VA process work?''.'
+- The top two features mentioned as missing from VA.gov Profile were Dependents and
+  Letters/Records. Veteran feedback is supported by analytics as 'dependents' and
+  'letters' are two of the top searches from the VA.gov Profile. Three notable mentions
+  are Financial information, Notifications hub, and additional Health care information.
+- For detailed feedback on individual sections of the VA.gov Profile, please navigate
+  to individual sections in Details of Findings linked above.
+- 'Dependents: Incorporating dependents into the Profile should include viewing and
+  editing current and past dependents.'
+- 'Letters: Veterans struggle to articulate the differences between VA letters, and
+  expect to find ''basically every letter the VA ever mailed to me'' in their accounts.'
+- 'Financial information: Veterans want to be able to see all of their financial information
+  in one place, whether it''s ''money-in'' or ''money-out''.'
+- 'Notifications hub: Whether in the Profile or My VA there is a distinct need for
+  a notifications hub.'
+- 'Health care information: There are several missing pieces of health care related
+  information Veterans expect within the Profile.'
+- Most participants navigated to the Profile using the authenticated menu, while some
+  used My VA.
+- 'The authenticated menu comes with several challenges, including: findability, unclear
+  labels, or not meeting user expectations.'
+- On mobile, participants had difficulty navigating the Profile using the sub menu.
+  While desktop participants had no challenges with the left navigation, and were
+  able to quickly scan and locate pages they were looking for.
+- Deep links, such as the 'Learn how to request your DD214' are useful on Profile.
+  None of the participants who returned to the Profile hub after clicking on the deep
+  link were confused.
+- Some participants were not confident that personal information would be used for
+  their benefit (specifically, pronouns, sexual orientation, sex assigned at birth,
+  and preferred name). Including concerns of being treated unfairly by staff, or alienating
+  certain individuals.
+- Participants expect the email address shown in their account to be their sign-in
+  email address. Having a separate email address causes confusion.
+- There is mixed feedback on address validation. Some participants had no challenges
+  updating and matching their address, and found the suggested addresses helpful even
+  though they didn't know (or care) where they came from.
+- Participants expected their Emergency contact and Next of kin information to be
+  in either the Personal information or Contact information section of the VA.gov
+  Profile.
+- Most participants associated Next of kin with family and initially did not differentiate
+  between Medical emergency contact and Next of kin contact.
+- All participants wanted at least two Medical emergency contacts and most participants
+  wanted multiple Next of kin contacts listed.
+- Participants considered 'name' and 'phone number(s)' as crucial information within
+  both the Medical emergency contact and Next of kin contact sections.
+- Participants clearly understood that both the Medical Emergency contact and Next
+  of kin contact were specifically associated with health care.
+- Participants expected 'Military information' to include their service history, as
+  well as their personal details, such as a social security number, demographics,
+  medical, disability, and medications. Participants' understanding of 'Service history'
+  better aligned with what is present on the page.
+- Veterans are not able to memorize all the service history information they need
+  to apply for common VA benefits.
+- 'There were several requests for additional information on the Military information
+  section, including: Battlefield/field promotion, DD214 direct download, Deployment
+  locations, Duty stations, Military awards and decorations, Military occupational
+  specialties (MOS), Military rank, Other names served under, Prisoner of War (PoW)
+  locations and dates, Service number, and Toxic Exposure Risk Activity (TERA) memorandum.'
+- Veterans believe that they need their DD214 (not just the information on it) to
+  apply for any VA benefit or service. It's not rare for Veterans to lack easy access
+  to their original DD214.
+- Participants are confused about the Service date range that shows in the Military
+  information section of the Profile.
+- Veterans also expected to find their Veteran ID Cards within a Letters and documents
+  section.
+- For ILER data quality review - see 03/2024 Enhanced Military Information Research
+  Findings.
+- Veterans use information from the ILER IES report to support disability compensation
+  claims and decision reviews, and to receive proper health care treatments.
+- Veterans expect to find their exposure record alongside related information, such
+  as their existing VA health records and through the Airborne Hazards and Open Burn
+  Pit Registry sites.
+- There is an expectation that the full ILER records will be interactive, and display
+  information longitudinally—across years, geographies and occupations—to aid in understanding.
+  Minimum, a search and/or filter feature will be a requirement for the experience.
+- 'The following eight data points are more useful to VBA to surface than the whole
+  ILER, because they''re what VBA looks at when processing PACT Act claims, or TERA
+  (Toxic Exposure Related Activity): (1) Dates and branches of service, (2) Units
+  with which the Veteran or Service member served, (3) Deployment locations and start
+  and end dates of deployments, (4) Military occupational specialties (MOS), (5) Training
+  courses, (6) Military awards and decorations, (7) Non-military deployment data,
+  (8) A registry that verifies participation in a TERA.'
+- Veterans and VA staff are used to using 'ILER' to refer to the report; in none of
+  the postings from Veterans, do they use 'IES'. In practical terms, this means the
+  report should be referenced as 'ILER IES'.
+- Participants missed the alert about bank fraud. Previous team recommended moving
+  the fraud messaging into the boxes.
+- Participants expected notifications to be available by both text and email. Many
+  didn't understand why categories didn't offer both options if they had a mobile
+  number or email on file.
+- Participants expected to update their phone and email inline with the Notification
+  settings page.
+- Participants wanted a way to not see sections that weren't relevant to them, such
+  has Board of Veteran's Appeals hearing reminders.
+- Some participants missed the content at the top of the page that explains where
+  their notifications will be sent, and were unsure where notifications would be delivered.
+- Participants wanted a way to update settings on all notifications with one click,
+  such as an 'subscribe to all' option.
+- Participants expressed interest in being updated about general VA news and alerts
+  that may be relevant to them personally.
+- Some participants wanted email reminders instead of mail, which they felt was 'redundant
+  and annoying'.
+- Participants expected sign-in information, including email, to live in Account security.
+- Participants easily found connected apps and understood what it was.
+- Participants had confusion on how to connect apps, even after reviewing the FAQ.
+- 'FEEDBACK (Fixed): One screen reader participant encountered difficulty with the
+  body and link text within the Profile hub cards due to repetitive word choices.'
+- 'FEEDBACK (Fixed): Participants were confused by the ''preferred name'' field, and
+  how it would be used.'
+- 'FEEDBACK (Fixed): ''Medical'' in Medical emergency contact caused confusion with
+  some participants. All participants understood the term Emergency contact.'
+- 'FEEDBACK (Fixed): Veterans expressed interest in digital Veteran ID Cards, even
+  though they all wanted a plastic card as well.'
+recommendations:
+- Evaluate existing and future information available to Veterans on VA.gov to create
+  a sustainable information architecture structure, and test options with Veterans.
+- 'Provide explanatory copy to Veterans when expected information or records are not
+  available, and how to engage with unavailable information or records. Example: accessing
+  the DD214.'
+- Inform users of new information and features in the Profile in some way. Such as
+  through My VA.
+- When possible, provide inline editing within the Profile. Edits should be accompanied
+  by an alert that the information was successfully updated.
+- Provide clear direction on the impacts of updating or removing information.
+- Group uneditable information separate from editable information.
+- Label what information is required versus optional, and give the option to remove
+  optional information.
+- When it is not possible to update information online, provide explanatory copy on
+  how to update information.
+- When content is too long, provide FAQs to cover more complex information.
+- Evaluate system load and save times. When save times are long provide feedback to
+  the user that the system is saving.
+- Evaluate incorporating new Dependents, Letters/Records, Notifications, and Health
+  care sections, and expand Direct deposit to encompass all Financial information.
+- Evaluate content of the authenticated menu through research to provide new direction
+  and goals for the authenticated menu.
+- Research the mobile secondary navigation on VA.gov for usability.
+- No updates. (Personal information)
+- Investigate if there are ways to better align sign-in and account emails on VA.gov.
+- Evaluate location of Emergency contact and Next of kin information. If they are
+  not in a dedicated section, make it clear they are for health care purposes only.
+- Evaluate if it's possible to add additional Emergency contacts and Next of kin contacts.
+- Rename Military information to Service information or Service history information.
+- IF Department of Defense (DoD) data quality improves, expand Military information
+  section to include Duty stations, all other new recommended data points are covered
+  by ILER IES.
+- Provide a clear way to access the DD214.
+- Provide an FAQ explaining the information shown in the Military information section.
+- Place labels on the information shown.
+- Move the Veteran ID Card to a dedicated Letter/Records section.
+- Evaluate long term location of ILER IES file. Consider location in a dedicated Letter/Records
+  section.
+- 'IF ILER IES information comes to VA.gov, make ILER IES data searchable and filterable,
+  and organize based on location or dates. The information should include: (1) Dates
+  and branches of service, (2) Units with which the Veteran or Service member served,
+  (3) Deployment locations and start and end dates of deployments, (4) Military occupational
+  specialties (MOS), (5) Training courses, (6) Military awards and decorations, (7)
+  Non-military deployment data, (8) A registry that verifies participation in a TERA.'
+- 'Refer to the PDF and documentation as ILER IES, and spell out the acronym upon
+  first mention on a page. As well as provide an FAQ outlining the following information:
+  (1) What ILER is (and isn''t), (2) What ILER can be used for, (3) How to read the
+  data contained in the ILER, with sample PDF or images, (4) How to correct/update
+  data errors.'
+- Provide a notification announcing the new document is available for download. Such
+  as through My VA.
+- Move fraud messaging inline with the bank account information.
+- When possible, provide all notifications by email and text.
+- Make notification email and phone number more visible, and allow inline editing.
+- Allow users to hide sections that are not relevant to them.
+- Provide users a 'subscribe to all' option.
+- Provide users with an option for paperless delivery.
+- Mention sign-in email in Account security.
+- Evaluate connect apps FAQ to refine content to improve understandability.
+kpi_alignment: []
+outcomes:
+  user: Report of user themes and opportunities for the Authenticated Experience team.
+  business: ''
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research:
+- 04/2020 Combining Profile and Account Research Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account/Research/2020-03-profile-redesign/cpaa-research-findings.md
+- 11/2021 Analytics review (Profile categories) - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/product/analytics-review.md
+- 09/2022 Profile 2.0 UAT Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Combine%20Profile%20and%20Account/Research/2020-09-UAT-profile-redesign/Profile%202.0%20Research%20Findings.md
+- 10/2022 Profile Editing Research Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2022-09-profile-editing-evaluation/findings-summary.md
+- '06/2023 Discovery summary: adding records and dependents to profile, June 2023
+  - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2023-06-add-dependents-records-discovery/summary.md'
+- 2018 Veteran ID Card User Experience Research - https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/veteran-id-cards/research
+- 12/2020 Dependency Verification Process - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/dependents/dependency_verification/research_plan_11_2020.md
+- '09/2022 Decision Letter Download: Research Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/claim-appeal-status/research/2022-08-Decision-Letter-Download/research-findings.md'
+- 11/2022 Medical Records Generative Research Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/medical-records/research/2022-10_Generative-research/2022-11-medical-records-readout.md
+- 04/2023 Logged-in IA and Nav Comprehensive Research Summary - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/research-and-analytics/2023-generative-logged-in-research/comprehensive-research-summary.md
+- 11/2023 Profile Hub Research Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2023-10-profile-hub-usability/research-findings.md
+- 01/2022 Profile Personal Information Research Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/personal-information/personal-information-revision/research/findings-summary.md
+- 06/2022 Personal information UAT Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/personal-information/personal-information-revision/uat/uat-findings.md
+- 07/2022 Findings Summary - Bad Address Indicator - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/contact-information/bad-address-indicator/research/findings-summary.md
+- '09/2022 Address Validation & Override: User Testing - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/contact-information/research/2019-11-address-validation-user-testing/Research%20Summary.md'
+- 09/2022 Address Management Veteran Feedback - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/contact-information/research/2020-04-address-management/research-findings.md
+- '10/2023 Profile: Multi-feature UAT and generative research findings summary - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2023-10-UAT-edit-as-subtask-default-send-checkbox-ui/findings-summary.md'
+- 12/2023 Personal Health Care Contacts Research Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/personal-health-care-contacts/discovery-research/2023-10-personal-health-care-contacts-usability/findings-report.md
+- 03/2023 Military Info, Profile Research Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/military-information/discovery-and-research/2023-military-info-discovery/findings-summary.md
+- '10/2023 Profile: Enhanced Military Information MVP - Stakeholder Interview Summary
+  - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/military-information/discovery-and-research/2023-09-enhanced-military-info-mvp/stakeholder-interviews/stakeholder-interview-summary.md'
+- 10/2023 Top 'military history' pages on VA.gov - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/military-information/discovery-and-research/2023-09-enhanced-military-info-mvp/analytics-review.md
+- 10/2023 Enhanced military information MVP, desk research summary - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/military-information/discovery-and-research/2023-09-enhanced-military-info-mvp/desk-research-summary.md
+- 03/2024 Enhanced Military Information Research Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2024-01-military-info-enhancement-mvp/research-findings.md
+- 08/2024 ILER IES Report, Desk Research Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/military-information/discovery-and-research/2024-ies/ILER%20Desk%20Research%202024.md
+- 06/2019 Direct Deposit Updates Usability - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/direct-deposit/Research/2019-06-direct-deposit-updates-usability/research-summary.md
+- 12/2020 Research analysis of usability testing of Direct Deposit for Educational
+  Payments (DD-EDU) feature - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/direct-deposit/edu-direct-deposit/design/usability-testing/dd-edu-synthesis.md
+- 11/2021 Payment/Financial Discovery Synthesis and MVP scope - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/payment-history/discovery-and-research/payment-discovery-synthesis.md
+- 11/2021 Payment history/financial information Discovery (WIP) - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/payment-history/discovery-and-research/payment-history-discovery.md
+- 01/2022 My VA Payment Info and Onsite Notifications Research Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/payment-history/discovery-and-research/user-research/findings.md
+- 08/2022 My VA Benefit Payments and Debts 2022 Topline Summary - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/payment-history/discovery-and-research/june-2022-research/research-findings.md
+- 2018 Notification best practices - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/onsite-notifications/2018-notifications-work/Discovery/Notification%20best%20practices.md
+- 2018 Notifications Comparative Analysis - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/onsite-notifications/2018-notifications-work/Notification%20Center/Discovery/Comparative%20Analysis.md
+- 07/2021 Profile Notification Settings Research Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/notification-preferences/discovery-and-research/usability-june-2021/notifications-research-findings.md
+- 08/2021 Profile Notification Settings Internal Research Study Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/notification-preferences/discovery-and-research/internal-study-august-2021/mvp-august-internal-study.md
+- 02/2023 Profile Notification Settings, Add Email Channel Research Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/notification-preferences/discovery-and-research/usability-study-add-email-jan-2023/findings-summary.md
+- 04/2024 Research Findings for 2024-03 Dot Indicator and Slim Alert Usability Study
+  - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/onsite-notifications/dot-indicator/research/2024-03%20Dot%20Indicator%20and%20Slim%20Alert%20Usability%20Study/Research%20Findings%20for%202024-03%20Dot%20Indicator%20and%20Slim%20Alert%20Research%20Study.md
+- 04/2022 My HealtheVet (MHV) Personal Information Discovery - User Interviews, Topline
+  Summary - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2022-05-MHV-profile-research/mhv-user-interviews/topline-summary.md
+- 05/2021 Profile 'Your VA Health Facilities' Internal Research Study Findings - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/preferred-facility/research/2021-05-preferred-facilities/internal-usability-study-findings.md
+- '03/2022 My HealtheVet (MHV) Personal Information: Stakeholder Interviews - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2022-05-MHV-profile-research/stakeholder-interviews.md'
+- 05/2022 My HealtheVet to VA.gov Profile Recommendations - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2022-05-MHV-profile-research/mhv-profile-recommendations.pdf
+- 09/2022 MHV and VA.gov profile evaluation and comparison - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2022-05-MHV-profile-research/comparison/findings.md
+- 09/2022 MyHealtheVet to VA.gov profile transition recommendations - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/Research/2022-05-MHV-profile-research/recommendations.md
+- 02/2024 Findings Summary for Federal Header Authenticated Menu - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/discovery-research/authenticated-menu-usability/summary.md
+- 06/2023 Opportunities to enhance the personalized experience on VA.gov - https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/personalization-enhancements/opportunities.md
+synthesis_tools_used: []
+tags:
+- 'BNFT: Disability'
+- 'BNFT: Education'
+- 'BNFT: Healthcare'
+- 'BNFT: Pension'
+- 'BNFT: Records'
+- 'PRDT: My VA'
+- 'MHV: Pharmacy'
+- 'MHV: Secure Messaging'
+- 'MHV: Personal Health Records/Medical Records'
+- usability-testing
+- evaluative
+---
 # **VA.gov Profile Desk Research for the Authenticated Experience Team, 03/2025**
 
 **Office of the CTO - Digital Experience (OCTO-DE)**

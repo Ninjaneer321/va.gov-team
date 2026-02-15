@@ -1,3 +1,116 @@
+---
+title: "Caregiver, Sign as a Representative Research Findings"
+product: "10-10CG Caregiver Application"
+team: "Caregiver Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-02-28"
+researchers:
+  - "Jonathan Nelson"
+research_goals:
+  - "Test desktop and mobile prototype versions of the two representative workflow options and understand the usability of the flows"
+  - "Determine if users are confused by any particular aspect of the representative workflow"
+  - "Assess if the representative workflow prevents users from completing the form"
+  - "Understand if a user would upload a document from their mobile phone or only from a desktop computer"
+  - "Identify which of the representative workflow options performs better with regards to understandability, usability, and ease of use"
+methodology:
+  - "Remote moderated usability sessions via Zoom"
+  - "High-fidelity wireframe prototype testing (mobile and desktop versions)"
+devices_used:
+    desktop: 5
+    tablet: 0
+    smartphone: 5
+    assistive_technology: 0
+participants_total: 10
+demographics:
+  veterans: 4
+  service_members: 0
+  caregivers: 6
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 5
+    "55-64": 0
+    "65+": 3
+    unknown: 2
+  education:
+    high_school: 1
+    some_college: 1
+    associates: 2
+    bachelors: 3
+    masters: 1
+    doctorate: 0
+    unknown: 2
+  location:
+    urban: 0
+    rural: 0
+    unknown: 10
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "The representative workflow stopped some Caregivers who did not have legal representative status from completing the application"
+  - "Most participants found the content on the legal representative page helpful in making a selection"
+  - "Some participants with legal representative status did not have documentation easily available and it was unclear if they could continue without it"
+  - "Asking the legal representative question as the first question in the form caused confusion with participants who associated applying for the program with designating a legal representative"
+  - "Veterans filling out the form for themselves and caregivers who regularly act as legal representatives understood the legal representative question and were able to complete the workflows easily"
+  - "All participants that entered the legal representative's name on behalf of the Veteran found the experience to meet their expectations and had no issue completing the Representative's statement of truth"
+recommendations:
+  - "Place the legal representative question towards the review page"
+  - "Make it clear that legal representative status does not impact eligibility to the Program of Comprehensive Assistance for Family Caregivers"
+  - "Present content in a less intimidating way while still keeping useful information such as power of attorney and the What documents can I submit to show legal status as a representative? additional info component"
+  - "Explain that a marriage certificate does not automatically give legal status as the Veteran's representative"
+  - "Clearly explain why the legal representative question is being asked"
+  - "Note that uploading supporting documentation for legal representatives is optional"
+  - "Explain why we are asking the Primary Family Caregiver question"
+  - "Iterate on Would you like to add a Primary Family Caregiver? question to ensure a consistent voice throughout the form"
+  - "Surface helpful content to make clear that the Primary Family Caregiver is the main caregiver"
+  - "Consider content that helps users make a confident selection for Secondary Family Caregiver"
+  - "Clearly explain that the user can enter community care as well as VA facility for the recent medical care fields"
+  - "Explain why the VA Medical facility question is being asked"
+kpi_alignment: []
+outcomes:
+  user: "Caregivers and Veterans can confidently complete the 10-10CG form with representative workflow without confusion or abandonment"
+  business: "Reduce form abandonment at the legal representative question step and ensure proper documentation is collected"
+opportunity_areas:
+  - "Caregivers without legal representative status need clarity that they can still apply to the program"
+  - "Representatives need clear guidance on acceptable documentation types before starting the form"
+  - "Form structure needs to better connect the representative question to the signature section"
+further_research_needed:
+  - "Test the revised placement of the legal representative question near the review page"
+  - "Validate that caregivers without legal representative status do not abandon the form"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Caregivers"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "DSP: Ask users for files"
+  - "DSP: Ask users for signature"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "10-10CG"
+  - "evaluative"
+---
+
 # Caregiver, “Sign as a Representative” Research Findings 
 
 **Prepared by:** Jonathan Nelson (jonathan.nelson@adhocteam.us)<br> 

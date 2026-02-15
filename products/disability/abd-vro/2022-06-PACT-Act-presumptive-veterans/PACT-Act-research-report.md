@@ -1,3 +1,114 @@
+---
+title: "PACT Act and presumptives Veteran discovery research findings"
+product: "Automated Benefits Delivery, Virtual Regional Office (ABD-VRO)"
+team: "ABD-VRO"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-07"
+researchers:
+  - "Carolyn Dew"
+  - "Shannon Ford"
+  - "Kim Ladin"
+research_goals:
+  - "Better understand how impacted Veterans decide on which conditions to list on their claim application (either 526 or 0995)"
+  - "Better understand how impacted Veterans decide whether to submit an original or supplemental claim for a PACT Act condition, or something else"
+  - "Better understand how aware Veterans are of the PACT Act and its implications"
+methodology:
+  - "Remote one-on-one interviews"
+  - "Zoom sessions"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 8
+demographics:
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 2
+    "35-44": 0
+    "45-54": 3
+    "55-64": 1
+    "65+": 2
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 3
+    associates: 0
+    bachelors: 2
+    masters: 4
+    doctorate: 0
+    unknown: 0
+  location:
+    urban: 6
+    rural: 2
+    unknown: 0
+  race:
+    white: 4
+    black: 1
+    hispanic: 1
+    biracial: 0
+    asian: 1
+    native: 0
+  disability:
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+key_findings:
+  - "Veterans are unfamiliar with the term 'PACT Act' and weren't sure if they would be impacted by its passage. Veterans are similarly unfamiliar with the term 'presumptive' in describing a claim. Most veterans do not understand what form to use and rely on other sources (such as va.gov or a third-party organization) to decide."
+  - "Veterans are somewhat more familiar with the terms 'open burn pit' and 'toxic exposure', although some who would qualify as having been presumptively exposed did not think they would. This may be due to the change to having presumed exposure for being 'in-country' versus having to prove proximity to a burn pit."
+  - "Veterans expected that signing up for the Burn Pit Registry would mean that the VA would reach out to them about claims they might be eligible for, and that data they shared would automatically be used by the VA to evaluate future claims. These assumptions could damage Veteran trust if not met."
+  - "Veterans who submitted claims on their own would describe their conditions using language from the VA, suggested by an online form, or used an official diagnoses from their doctors. Those who worked with VSOs and other third party organizations left wording decisions up to those organizations."
+  - "Most Veterans liked the idea of getting their rating without having to go to a C&P exam, although a few had concerns. Comfort with skipping an exam seems correlated to how well a Veteran thinks their condition is documented in their medical records."
+  - "Giving the Veteran a choice about going to a C&P exam could introduce more stress and uncertainty for the Veteran. Similarly, getting a preliminary rating in advance of an exam may carry more risks than benefits."
+  - "Veterans expressed strong support for getting notified of decisions as they're made for each condition on a multi-issue claim -- including for denials. Only one Veteran expressed a preference for getting notified only after all issues had been decided."
+  - "Guidance from the VA on how to submit a disability claim is lacking, confusing, or misleading. Veterans who submit claims on their own struggle to submit ones that are likely to be granted, simply because they don't understand the process."
+recommendations:
+  - "Outreach around the PACT Act should focus on the terms such as 'open burn pits' and 'toxic exposure', and not rely on terms such as 'PACT Act' or 'presumptive.'"
+  - "Allow Veterans to quickly determine if they are part of an eligible cohort for a presumptive claim. The change from requiring proof of toxic exposure to simply being 'in-country' is not well understood."
+  - "Veterans seem to be open to a Veteran-facing contention matching system for presumptive conditions -- concern about Veteran acceptance should not be a blocker should we decide to pursue it. We should ensure any system does not offer wildly incorrect suggestions."
+  - "Treat the original disability claim submission as an onboarding experience. Veterans are significantly confused by the claims process and don't receive much guidance. The first claim is an opportunity to educate Veterans on disability claims with just-in-time information and educational materials."
+  - "Consider changing VBA policy to notify the Veteran of decisions on conditions on multi-issue claims as they're decided, even for denials. This will need to be paired with thoughtful communications design and testing."
+  - "Automatically link Veteran information gathered through the Burn Pit Registry to support relevant claims, and use contact information from the registry to reach out to Veterans about newly presumptive claims. It is likely worth navigating whatever opt-in or permissions are needed from Veterans to do this, if any."
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
+further_research_needed:
+  - "What strategies do Veterans use to 'beat the odds' and how does this impact how claims are processed?"
+  - "How do Veterans decide what evidence to include with their claims?"
+  - "How would Veterans respond to receiving a preliminary rating of 0 percent in advance of a C&P exam to determine severity?"
+  - "What are the perspectives from LGBTQ+ Veterans?"
+underserved_groups_missing:
+  - "Cognitive disability"
+  - "Mobile user"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat"
+  - "Biracial"
+  - "Native"
+  - "LGBTQ+"
+  - "Captions, Switch device, Braille reader"
+secondary_research:
+  - "2022-May: PACT Act research:RVSRs"
+  - "2022 June: PACT Act VSO research report"
+  - "Supplemental Claims Research Top Level Summary"
+  - "Automating Claim ID type in 526 applications"
+synthesis_tools_used:
+  - "Mural"
+---
+
 # PACT Act and presumptives Veteran discovery research findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), Automated Benefits Delivery, Virtual Regional Office (ABD-VRO)**
