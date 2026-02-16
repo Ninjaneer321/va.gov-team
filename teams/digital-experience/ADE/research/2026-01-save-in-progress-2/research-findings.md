@@ -297,6 +297,9 @@ Eight participants said they asked wanted to be able to delete a form they start
 
 1. Participants encountered a number of usability issues when filling out the form:
 
+     1. **"Your full name**: One participant encountered an error when they entered a full name (first-name middle-name last-name) that didn't match what they previously entered on the form (first-name middle-*initial* last-name). This seemed to the participant to be a bug in the form, since it asked for middle initial earlier but then asks for your full name at the end.
+        > *"When you're doing government paperwork, when they want your full name, they want the full name...So, all your names written out" (p3).*
+
      1. **Additional records information**: Three of 7 participants said that they didn't know what kinds of information would be helpful to include. One participant said perhaps your parents' names or where you where stationed. Another participant said maybe a date range for your medical records.
      1. **Country**: One participant was using a scroll wheel to traverse the dropdown list but couldn't find "United States". When he scrolled to the top of list, the first option was "Afghanistan" (the second option), and when he scrolled to the bottom of the list where "United States" should be alphabetically, it wasn't there either. He kept on scrolling down then up, and eventually was able to see "United States" at the very top.
 
@@ -351,8 +354,8 @@ Eight participants said they asked wanted to be able to delete a form they start
 1. Consider adding more details in the helper text for types of information would be helpful in the "Additional records information" field".
    - _Supporting evidence_: Three of 7 participants said that they didn't know what kinds of information would be helpful to include.
 
-1. Consider revising the "Your full name" text on the "Review and submit" page to include a reference to what you entered before: "Your full name--Enter exactly what you entered earlier in this form".
-   - _Supporting evidence_: Participants didn't realize that the name that you enter here must exactly match what they entered as their name at the beginning of the form.
+1. Consider revising the "Your full name" text on the "Review and submit" page to include a reference to what you entered before: "Your name as entered previously", and also consider changing "Middle initial" to "Middle name".
+   - _Supporting evidence_: Participants didn't realize that the name that you enter here must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial.
 
 1. Consider adding a second "United States" option to the "Country" dropdown where it fits alphabetically near the bottom of the list.
    - _Supporting evidence_: One participant using a scroll wheel to traverse the dropdown list was unable to access "United States" at the top of the dropdown list, and he then looked near the bottom of the list where it would fit alphabetically, and it wasn't there either. 
