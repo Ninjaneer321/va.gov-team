@@ -64,7 +64,6 @@ Existing notifications
 
 ### Notification content/language & routing  
 
-
 ### Design
 
 ### Resources:
@@ -78,11 +77,19 @@ Existing notifications
 | Welcome to SM | VA Notify | When someone becomes eligible for SM (VistA) | Email, SMS | VistA | No (automatic) | Not totally sure on the logic for that but SM BE team would know |
 | You have a new message| VA Notify | When a new message is sent to the Veteran | Email, SMS | VistA, OH | No (automatic) | -- |
 
+### Notification content/language & routing  
+
+### Design
+
 ## <a name="meds"></a>Medications
-* You have 1 medication shipped (VistA + OH) 
-  * Email:
-  * Text message:
-* You have multiple medications shipped (VistA + OH) 
+
+Existing notifications
+| Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
+|--------------|---------|---------|----------|---------|-------|------|
+| 1 medication has shipped | CBOC | Tracking information added to in-progress medication | Email | VistA, OH | Yes | Notes |
+| Multiple medications have shipped | CBOC | Tracking information added to in-progress medication | Email | VistA, OH | Yes | Notes |
+| 1 medication has shipped | Facility-specific | Tracking information added to in-progress medication | SMS | VistA, OH | Yes | Some prescriptions are shipped by the facility (not CBOC), but not all facilities have capabilities to send SMS notifications|
+| Multiple medications have shipped | Facility-specific | Tracking information added to in-progress medication | SMS | VistA, OH | Yes | Some prescriptions are shipped by the facility (not CBOC), but not all facilities have capabilities to send SMS notifications |
 
 Notes: 
 * CBOC = central meds distribution center. some % of meds are sent from here, some from elsewhere.
@@ -90,17 +97,28 @@ Notes:
 * And text notifications are only for those triggered by facility, but only for those facilities that are turned on.
 * In this this venn diagram some folks get no notifications b/c they go to a facility that doesn't have notifications turned on. And if the medication is shipped by facility (not CBOC) they wouldn't get notified.
 
+### Notification content/language & routing  
+
+### Design
+
 ## <a name="records"></a>Medical Records
-* Your medical image successfully downloaded. Go to look at it. (VistA + OH)
-  * User-reaction notification (based on if a user requested the records to be downloaded from the MHV front-end)  
-  * Your medical image did not successfully download. Try again.
-* (OH only) Will have a "you have a L&T record - go there now". _Other clinical events are eligible but just starting with that one._
+Existing notifications
+| Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
+|--------------|---------|---------|----------|---------|-------|------|
+|Your medical image successfully downloaded [link] | VA Notify | User-generated request to download images, notification is triggered when that download is complete | VistA, OH | Yes | -- |
+|Your medical image did not download; try again | VA Notify | User-generated request to download images, notification is triggered when that request fails | VistA, OH | Yes | -- |
+| You have a new lab & test result [link to exact result] | VA Notify | New lab and test result | OH only | No (automatic) | _Coming soon_; not quite ready yet |
 
 Notes: 
+* More clinical events (beyond lab & test results only) are eligible, but we are starting with that one
 * Had to move fast, so avoided VA Profile and made it non-opt-outable
 * Cannot opt out of L&T result notification
 * Had to aggressively de-identify it, so the content is just "you have a thing, go here to see it" - super generic.
-* The only way it is helpful is to drop htem on specific details page for the actual thing. Mike Moyer figured it out & we are able to deep link users to their literal new thing. Want to repeat this for all other new events across MR domains. 
+* The only way it is helpful is to drop them on specific details page for the actual thing. Mike Moyer figured it out & we are able to deep link users to their literal new thing. Want to repeat this for all other new events across MR domains.
+
+### Notification content/language & routing  
+
+### Design
 
 ## <a name="travel-pay"></a>Travel Pay
 
