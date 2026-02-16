@@ -11,11 +11,17 @@ This report documents what we know and understand about notifications that route
 ## Notification tools and applications
 ### Email
 ### VA Notify
+VA Notify supports email, text messaging (SMS) and push notifications with the VAHB Mobile App. VA Notify is designed to be a passthrough system. We do not store Veteran information, but we do store your notification templates and settings. We partner with VA Profile and va.gov to provide communication preferences that the Veteran can see and manage. VA Notify checks these preferences before notifying a Veteran.
+
+To create a new notification using a VA Notify template, there are some requirements for a technical team member to get set up with an API key, as well as go through privacy review in order to get the notification set up in the staging environment. Email notifications are much faster to implement, whereas **SMS (text) notifications can take up to 12 weeks to implement**. More information is in the VA Notify playbook.
 
 **Resources:**
 * [VA Notify Playbook](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/va-notify#playbook) 
 rely on this system as source of truth (not the Figma)
-* VA Notify Slack channel: `#va-notify-public` 
+* [VA Standard operating procedures for SMS](https://github.com/department-of-Veterans-affairs/va.gov-team/blob/master/products/va-notify/VA%20SOP%20for%20Delivering%20SMS%20Messages%20v1.0.pdf)
+* [VA Notify REST API documentation](https://staging.notifications.va.gov/developer/api_docs)
+* VA Notify Slack channel: `#va-notify-public`
+
 
 ### VEText
 Right now it's only appointment reminders & Rx reminder (?), but they do "open slot" management in VistA. Run by Shane Elliott. It is not VA-wide, it's facility-dependent & reliant on specific facilities turning it on. So dependent on budgeting at facility-level. 
