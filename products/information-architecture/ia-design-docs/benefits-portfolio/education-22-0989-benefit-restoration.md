@@ -27,7 +27,7 @@
 
 
 ## <a name="map"></a>Page structure<br>
-<img width="167" height="725" alt="Screenshot 2026-01-14 130408" src="https://github.com/user-attachments/assets/491ecef9-b323-492b-8ed4-0e63d1eb28e7" />
+<img width="203" height="870" alt="Screenshot 2026-02-16 144548" src="https://github.com/user-attachments/assets/de4115ac-b251-4a65-bfe6-99601dce2a55" />
 
 
 ## <a name="url"></a>Page URLs and breadcrumbs
@@ -47,7 +47,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
     - Education Benefit Entitlement Restoration Request (VA Form 22-0989) | Veterans Affairs
 
 **2) Request education benefit entitlement restoration online - New (form)**
-- URL: va.gov/forms/22-0989/request-education-benefit-entitlement-restoration-online/
+- URL: va.gov/forms/22-0989/request-education-benefit-entitlement-restoration/
 - H1: Request education benefit entitlement restoration online
 - Sub-heading: Education Benefit Entitlement Restoration Request Due to School Closure, Program Suspension or Withdrawal (VA Form 22-0989)
 - Breadcrumb: VA.gov > VA forms > Education benefit entitlement restoration request (VA Form 22-0989) > Request education benefit entitlement restoration online
@@ -58,9 +58,9 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 **Structuring URLs for individual pages within the form flows**
 - All pages within form flows will exist as child pages of the core/canonical URL.
   - Examples:
-      - va.gov/forms/22-0989/request-education-benefit-entitlement-restoration-online/introduction/
-      - va.gov/forms/22-0989/request-education-benefit-entitlement-restoration-online/review-and-submit/
-      - va.gov/forms/22-0989/request-education-benefit-entitlement-restoration-online/confirmation/
+      - va.gov/forms/22-0989/request-education-benefit-entitlement-restoration/introduction/
+      - va.gov/forms/22-0989/request-education-benefit-entitlement-restoration/review-and-submit/
+      - va.gov/forms/22-0989/request-education-benefit-entitlement-restoration/confirmation/
   - Please refer to [URL standards for form flows](https://design.va.gov/components/url-standards/#guidelines-for-urls-in-form-flows) when defining the URLs for these pages.  Reach out to #content-ia-centralized-team with any questions.
 
 
@@ -77,7 +77,7 @@ Teams must launch with at least one entry point that allows site visitors to nav
   - Placement description: Add a link to the form as appropriate
   - Link details
     - Link label: TBD by content
-    - Link destination: va.gov/forms/22-0989/request-education-benefit-entitlement-restoration-online/
+    - Link destination: va.gov/forms/22-0989/request-education-benefit-entitlement-restoration/
   - Notes:
     - Who will update: Content will add the link
     - When will this entry point go live: at launch
