@@ -7,8 +7,19 @@ This report documents what we know and understand about notifications that route
 * What hyperlinks, buttons, or CTAs are in those notifications? And where exactly do they route users?
 
 ## On this page
+* [Notification tools and applications](#tools)
+* [Notification settings in Profile](#profile)
+* [VAHB health notifications](#vahb)
+* [Appointments](#appointments)
+* [Messages](#messages)
+* [Medications](#meds)
+* [Medical records](#records)
+* [Travel pay](#travel-pay)
+* [Medical supply re-ordering](#supplies)
+* [10-10EZR](#1010)
+* [Medical co-pays and billing](#co-pays)
 
-## Notification tools and applications
+## <a name="tools"</a>Notification tools and applications
 
 ### VA Notify
 VA Notify supports email, text messaging (SMS) and push notifications with the VAHB Mobile App. VA Notify is designed to be a passthrough system. We do not store Veteran information, but we do store your notification templates and settings. We partner with VA Profile and va.gov to provide communication preferences that the Veteran can see and manage. VA Notify checks these preferences before notifying a Veteran.
@@ -26,12 +37,17 @@ rely on this system as source of truth (not the Figma)
 ### VEText
 Right now it's only appointment reminders & Rx reminder (?), but they do "open slot" management in VistA. Run by Shane Elliott. It is not VA-wide, it's facility-dependent & reliant on specific facilities turning it on. So dependent on budgeting at facility-level. 
 
-## Notification settings in Profile
+## <a name="profile"></a>Notification settings in Profile
   To review, there are opt-in notification settings for each health tool in the VA Profile. Secure Messages, however, is automatic and users cannot opt-out, so it is not listed on this page.
   
   <img width="363" height="260" alt="Screenshot 2026-02-11 at 4 10 59 PM" src="https://github.com/user-attachments/assets/19361a2d-fdb8-4db3-b39a-37e2bb405dae" />
 
-## Appointments
+## <a name="vahb"></a>VAHB health notifications
+* what is in prod for the app?
+* What's in flight?
+* What's on deck? 
+
+## <a name="appointments"></a>Appointments
 What notifications do users already get?
 * You have an upcoming VA appt
   * Email:
@@ -49,7 +65,7 @@ Resources:
 * VeText is both email/text - different than VA Notify (in some cases duplicative). Not at all facilities. Actual implementation is TEXT only, but they can integrate with VA Notify to do email someday.
 * VeText has a nice sharepoint that we will look at next with more product documentation. Robyn is messaging the team right now for a link. 
 
-## Messages
+## <a name="messages"></a>Messages
 What notifications do users already get? (AUTOMATIC)
 * Welcome to SM email notification: triggered when someone becomes eligible for SM (VistA)
   * Email:
@@ -62,7 +78,7 @@ What notifications do users already get? (AUTOMATIC)
 Notes: 
 * notifications also get triggered when a Veteran becomes eligible for messages
 
-## Medications
+## <a name="meds"></a>Medications
 * You have 1 medication shipped (VistA + OH) 
   * Email:
   * Text message:
@@ -74,7 +90,7 @@ Notes:
 * And text notifications are only for those triggered by facility, but only for those facilities that are turned on.
 * In this this venn diagram some folks get no notifications b/c they go to a facility that doesn't have notifications turned on. And if the medication is shipped by facility (not CBOC) they wouldn't get notified.
 
-## Medical records 
+## <a name="records"></a>Medical Records
 * Your medical image successfully downloaded. Go to look at it. (VistA + OH)
   * User-reaction notification (based on if a user requested the records to be downloaded from the MHV front-end)  
   * Your medical image did not successfully download. Try again.
@@ -86,21 +102,15 @@ Notes:
 * Had to aggressively de-identify it, so the content is just "you have a thing, go here to see it" - super generic.
 * The only way it is helpful is to drop htem on specific details page for the actual thing. Mike Moyer figured it out & we are able to deep link users to their literal new thing. Want to repeat this for all other new events across MR domains. 
 
-  ## Travel pay
+## <a name="travel-pay"></a>Travel Pay
 
-  ## Supplies + Devices
+## <a name="supplies"></a>Medical supply re-ordering
   Nothing
 
-  ## 10-10EZR
+## <a name="1010"></a>10-10EZR Form
  * user-action realted notification (Email) sent ONLY when a submission fails 
 
-  ## Copays / owe us $$
-  Is this a profile question?
-  Maybe ask Ryan T. / VAHB  - interested in this too
-  Payments team - Robyn thinks they were working on putting payments information on VA.gov (Denise Cuveyduc)
-
-
-  ## VAHB
-  * what is in prod for the app?
-  * What's in flight?
-  * What's on deck? 
+## <a name="co-pay"></a>Medical co-pays and billing
+Is this a profile question?
+Maybe ask Ryan T. / VAHB  - interested in this too
+Payments team - Robyn thinks they were working on putting payments information on VA.gov (Denise Cuveyduc)
