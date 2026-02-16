@@ -302,6 +302,9 @@ Eight participants said they asked wanted to be able to delete a form they start
 
      1. **Additional records information**: Three of 7 participants said that they didn't know what kinds of information would be helpful to include. One participant said perhaps your parents' names or where you where stationed. Another participant said maybe a date range for your medical records.
      1. **Country**: One participant was using a scroll wheel to traverse the dropdown list but couldn't find "United States". When he scrolled to the top of list, the first option was "Afghanistan" (the second option), and when he scrolled to the bottom of the list where "United States" should be alphabetically, it wasn't there either. He kept on scrolling down then up, and eventually was able to see "United States" at the very top.
+     1. Confusion about **required vs. optional fields**: One participant didn't know that some fields (e.g., VA file number) were optional and tried to fill them all out. Another participant was confused by this same field because it didn't say "Required" or "Optional". They read the hint text that said you must enter *either* a Social Security number or VA File number. When they started typing in the "VA file number" field, the "Required" label switched to "VA file number", which surprised them.
+     1. **VA regional office name**: Two participants weren't sure what to enter. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other said that they wanted to select from a list of offices.
+     1. **Prefill**
 
 
 1. **All participants who encountered an error while filling out the form (6 of 7) were able to fix it themselves**. Some of the errors likely resulted because the participants were entering fake data (e.g., name, social security number) as instructed, in order to not share PII. Below are descriptions of some of the issues.
@@ -359,6 +362,12 @@ Eight participants said they asked wanted to be able to delete a form they start
 
 1. Consider adding a second "United States" option to the "Country" dropdown where it fits alphabetically near the bottom of the list.
    - _Supporting evidence_: One participant using a scroll wheel to traverse the dropdown list was unable to access "United States" at the top of the dropdown list, and he then looked near the bottom of the list where it would fit alphabetically, and it wasn't there either. 
+
+1. Standardize on whether Optional will be always or never be shown, and don't be inconsistent about sometimes showing it and other times not.
+   - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that don't say "Required" or "optional", such as "VA file number".
+
+1. Make capitalization consistent on the "SSN/VA file number" page: "VA file number" (field name) vs. "VA File number" (hint text).
+   - _Supporting evidence_:  The field name "VA file number" has only "VA" capitalized, whereas the hint text also capitilizes the word "File"o.  
 
 ## Product User and Business Outcomes
 
