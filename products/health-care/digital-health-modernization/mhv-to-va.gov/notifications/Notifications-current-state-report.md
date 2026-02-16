@@ -66,16 +66,16 @@ According to VEText documentation, all Veterans are opted into all VEText messag
 Existing notifications
 | Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
 |--------------|---------|---------|----------|---------|-------|------|
-| VA appointments - upcoming reminder| VEText | ? | SMS| VistA | Yes | --|
-| VA appointments - Veteran can auto cancel | VEText | ? | SMS| VistA | No | --|
-| VA appointments - clinic cancelled the appointment | VEText | ? | SMS | VistA | No | -- | 
-| VA appointments - attempt to schedule reminders| VEText | ? | SMS | VistA | ? | -- | 
+| VA appointments - upcoming reminder| VEText | ? | SMS| VistA | No (automatic) |Can opt out by replying to SMS|
+| VA appointments - Veteran can auto cancel | VEText | ? | SMS| VistA | No (automatic)|Can opt out by replying to SMS|
+| VA appointments - clinic cancelled the appointment | VEText | ? | SMS | VistA | No (automatic)|Can opt out by replying to SMS|
+| VA appointments - attempt to schedule reminders| VEText | ? | SMS | VistA | No (automatic)|Can opt out by replying to SMS|
 | VA appointments - Pre Check-in | VEText | ? | SMS | VistA | No | when those facilities roll over to OH, these will go away & some other interim solution will kick-in |
 | VA appointments - Check-in | VEText | ? | SMS | VistA | No | when those facilities roll over to OH, these will go away & some other interim solution will kick-in |
-| VA appointments - post-appointment reminders | VEText | ? | SMS | VistA | ? | -- |
-| Community care - attempt to schedule reminders | VEText | ? | SMS | VistA | ? | -- |
-| Community care - post-appointment reminders | VEText | ? | SMS | VistA | ? | -- |
-| Open Slot management | VEText | ? | SMS | VistA | ? | -- | 
+| VA appointments - post-appointment reminders | VEText | ? | SMS | VistA | No (automatic)|Can opt out by replying to SMS|
+| Community care - attempt to schedule reminders | VEText | ? | SMS | VistA | No (automatic)|Can opt out by replying to SMS|
+| Community care - post-appointment reminders | VEText | ? | SMS | VistA | No (automatic)|Can opt out by replying to SMS|
+| Open Slot management | VEText | ? | SMS | VistA | No (automatic)|Can opt out by replying to SMS|
 
 Notes: 
 * Open Slot Management (OSM) allows Veterans to claim earlier appointments as they become available. The Veteran is presented with 2 options over text message: `reschedule` or `keep`.
@@ -112,11 +112,14 @@ Existing notifications
 | Multiple medications have shipped | CBOC | Tracking information added to in-progress medication | Email | VistA, OH | Yes | Notes |
 | 1 medication has shipped | Facility-specific | Tracking information added to in-progress medication | SMS | VistA, OH | Yes | Some prescriptions are shipped by the facility (not CBOC), but not all facilities have capabilities to send SMS notifications|
 | Multiple medications have shipped | Facility-specific | Tracking information added to in-progress medication | SMS | VistA, OH | Yes | Some prescriptions are shipped by the facility (not CBOC), but not all facilities have capabilities to send SMS notifications |
+| Window pickup notifications | Facility-Specific | Once a prescription is verified in ScriptPro (fully automated) | SMS | Vista, OH | Not all facilities have this implemented |
+| Rx Refill available | Facility-specific | -- | SMS | --| -- | On VEText roadmap, with a planned 2027 release |
+| CMOP shipment notification | -- | -- | -- | -- | -- | On VEText roadmap, but no timeline is available |
 
 Notes: 
-* CBOC = central meds distribution center. some % of meds are sent from here, some from elsewhere.
-* Facilities themselves send others, but email notifications are only triggered for meds sent by CBOC
-* And text notifications are only for those triggered by facility, but only for those facilities that are turned on.
+* CBOC = central meds distribution center. some % of meds are sent from here, and users will get Email notifications (not SMS) regarding these meds if they opt-in via the Profile. 
+* Facilities themselves send other medications (or have window pickup). Facilities use VEText to notify Veterans via SMS, but only SOME facilities have VEText implemented.
+* Facilities with VEText implemented send out Rx tracking messages daily at 8:00 AM local time. 
 * In this this venn diagram some folks get no notifications b/c they go to a facility that doesn't have notifications turned on. And if the medication is shipped by facility (not CBOC) they wouldn't get notified.
 
 ### Notification content/language & routing  
