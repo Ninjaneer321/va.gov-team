@@ -343,14 +343,15 @@ Eight participants said they asked wanted to be able to delete a form they start
 1. **Consider keeping the "Expand all" link (ADD FROM SLACK DM CONVO W/JEANA)**
 
 1. **Learn how to advise participants who are struggling with their assistive tech, and incorporate a suggestion into future conversation guides.** Work with Martha to meet with a VA Blind Rehab Center to learn about how they help Veterans who are blind or low vision and whether/how we can get them in touch with research participants who could benefit from their services.
+   - _Supporting evidence_: Two participants were particularly frustrated with their current assistive technologies, and we wanted to help. 
 
 ### For the Request Personal Records form
 
 1. Consider adding more details in the helper text for types of information would be helpful in the "Additional records information" field".
-   - _Supporting evidence_: 
+   - _Supporting evidence_: Three of 7 participants said that they didn't know what kinds of information would be helpful to include.
 
 1. Consider revising the "Your full name" text on the "Review and submit" page to include a reference to what you entered before: "Your full name--Enter exactly what you entered earlier in this form".
-   - _Supporting evidence_: Participants didn't realize that the name verification here must exactly match what they entered for their name at the beginning of the form.
+   - _Supporting evidence_: Participants didn't realize that the name that you enter here must exactly match what they entered as their name at the beginning of the form.
 
 ## Product User and Business Outcomes
 
