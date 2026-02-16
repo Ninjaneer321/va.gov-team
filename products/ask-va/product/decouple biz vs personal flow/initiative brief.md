@@ -32,7 +32,7 @@ Current Figma designs, https://www.figma.com/design/YoeGJtWzHEH2bX2S4EGyBG/Ask-V
 
 Ask VA users are internally classified by two distinct personas, using Ask VA as a personal user or a business user/veteran liaison.  The current user experience does not promote an obvious distinction between these two users and offers categories and topics that are not relevant for the different user types.  The existing UI experience leads to user confusion on how to complete the form to submit a question.   Additionally, because the two user types are entangled throughout the existing experience there is back end code complexity that should be reduced.
 
-It is not clear to a business users the form options that should be selected to ensure their inquiry is categorized as "business" vs. "personal" so that it is routed property to AVA CRM agents
+It is not clear to a business user the form options that should be selected to ensure their inquiry is categorized as "business" vs. "personal" so that it is routed property to AVA CRM agents
 
 Current [business vs. personal rules](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/design/Fields,%20options%20and%20labels/Business%20vs.%20Personal.md) (unknown to the Ask VA user).
 
@@ -49,7 +49,7 @@ Decouple the existing form flow into two distinct personal and business user for
 ## Outcomes
 - **User Experience Outcomes**: Users have a more personalized experience to submit their questions and an easy interaction with the Ask VA application so that they can submit inquiries more effieciently.
 -  **Functional Outcomes**:  Ask VA application enhanced experience is easily adoptable to the different user types, personal user and business user.
-- **Business Outcomes**: Improved form usablility and increase of inquiry submission completion. `what are we tracking in DD now as it relates to users falling off the form and where?`
+- **Business Outcomes**: Improved form usablility and increase of inquiry submission completion. 
 
 ### User Experience Outcomes
 |Outcome|Description|
@@ -64,7 +64,7 @@ Decouple the existing form flow into two distinct personal and business user for
 ### Business Outcomes
 |Outcome|Description|
 |:---|:---|
-|Improved form usability|Decreased abandon rate while completing Ask VA question.|need to understand this better `what are we tracking in DD now as it relates to users falling off the form and where?`
+|Improved form usability|Decreased abandon rate while completing Ask VA question.|
 |Improved user satisfaction|Users are more satisfied with Ask VA.|
 |Improved trust in VA|Users trust VA and VA services more.|
 
@@ -78,10 +78,10 @@ This initiative aligns with the following 2025 OCTO OKRs:
 ## Quantitative Monitoring
 |Key result|Baseline (ask.va.gov)|After 6 months|
 |:---|:---|:---|
-|Satisfaction|Jun 2025: 31%|Dec 2025: 31%|
+|Satisfaction|Dec 25: 31%|x|
 
 ## Qualitative Monitoring
-|Key result|Baseline (ask.va.gov)|After X months|
+|Key result|Baseline (ask.va.gov)|After 6 months|
 |:---|:---|:---|
 |Increase of positive qualitative feedback|Dec 25 - 7% |x|
 
