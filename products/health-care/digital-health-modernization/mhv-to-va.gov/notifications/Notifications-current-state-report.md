@@ -76,7 +76,7 @@ Existing notifications
 | Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
 |--------------|---------|---------|----------|---------|-------|------|
 | Welcome to SM | VA Notify | When someone becomes eligible for SM (VistA) | Email, SMS | VistA | No (automatic) | Not totally sure on the logic for that but SM BE team would know |
-| You have a new message| VA Notify | When a new message is sent to the Veteran | VistA, OH | No (automatic) | -- |
+| You have a new message| VA Notify | When a new message is sent to the Veteran | Email, SMS | VistA, OH | No (automatic) | -- |
 
 ## <a name="meds"></a>Medications
 * You have 1 medication shipped (VistA + OH) 
