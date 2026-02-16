@@ -40,11 +40,11 @@ Welcome to the ARC team! Once you receive your PIV and can access your [VA.gov](
 
 - [ ] **Request Access to Other VA Tools.** Coordinate with your lead if you need access to any additional VA Tools. Check out the [Platform Tool Request Processes](https://depo-platform-documentation.scrollhelp.site/getting-started/request-access-to-tools) to request access to any other tools you might need. 
 
-  - [ ] Figma - Submit your view-only [Ticket Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=figma-access-request.yml). Only request editor access if you are a UX designer.
+  - [ ] [Request access to Figma](https://depo-platform-documentation.scrollhelp.site/getting-started/request-access-to-tools#Requestaccesstotools-Figma)
 
-  - [ ] Mural  - Submit [DOTS ticket ](https://jira.devops.va.gov/servicedesk/customer/portal/1)for view-only limited access to VA Mural. If you need to create murals, request Full Member access. 
+  - [ ] [Request access to Mural](https://depo-platform-documentation.scrollhelp.site/getting-started/request-access-to-tools#Requestaccesstotools-Mural) 
 
-  - [ ] DataDog - [ICAM service Desk Ticket](https://jira.devops.va.gov/servicedesk/customer/portal/89)
+  - [ ] [Get Access to DataDog](https://depo-platform-documentation.scrollhelp.site/developer-docs/get-access-to-datadog)
 
   - [ ] VBMS UAT (for testing purposes) - [Request Access here](https://dvagov.sharepoint.com/sites/PMDProductDeliveryTesting/Lists/VBMS%20test%20Access%20Requests/AllItems.aspx?web=1\&clickparams=eyAiWC1BcHBOYW1lIiA6ICJNaWNyb3NvZnQgT3V0bG9vayIsICJYLUFwcFZlcnNpb24iIDogIjE2LjAuMTczMjguMjA1ODgiLCAiT1MiIDogIldpbmRvd3MiIH0%3D).
      - Business Line: OIT
