@@ -5,7 +5,7 @@ To view **Ask VA's Product Outline** go here, [in this GitHub doc](https://githu
 
 | Initiative Start Date | Initiative Launch Date | CC Kick-off Submission Date |
 |----------|----------|----------|
-| 2025 | TBD | TBD/Feb2026 |
+| 2025 | TBD | 02/16/2026 |
 
 **Jump to:**
 - [Overview](#overview)
