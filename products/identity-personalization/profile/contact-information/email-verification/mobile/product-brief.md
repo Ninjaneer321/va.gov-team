@@ -50,9 +50,9 @@ The VA wants to ensure that important email communications reach Veterans from t
   * Annual reminder (this annual reminder is sent a year from when the user verified their email)
     * The Authenticated Experience team notes that the team is holding on the annual reminder until post launch.
   * When a user adds a new contact email
-* The VA Mobile App team is currently working on an initiative that prompts the Veteran to update or add an email in their profile for Veterans who haven't updated or confirmed their email since March 1, 2025. The MHV email confirmation is planned to be removed by the end of the year (2025), but the timeline could be impacted by the shutdown.
+* The VA Mobile App team is currently working on an initiative that prompts the Veteran to update or add an email in their profile for Veterans who haven't updated or confirmed their email since March 1, 2025. The MHV email confirmation is planned to be removed by April 1st, 2026.
 * Figma [file](https://www.figma.com/design/qe0ByBX1Ou5PFmVgeayzMG/Email-Verification?node-id=338-22740&t=xAGgVx41WfMhNxVP-0) for VA.gov email confirmation flow.
-* The Authenticated Experience team is looking to launch the Email Verification campaign on **April 1st, 2026**. TBD if the MFS team can also commit to a timeline that aligns with the Mobile App Release schedule.
+* The Authenticated Experience team is looking to launch the Email Verification campaign around May or June of 2026. 
 * If a Veteran does not have a contact email they will not see the alerts and will not be part of the verification flow.
 * Internally, this initiative is referred to as Email Verification, but to Veterans, this initiative is referred to as Email Confirmation. 
  
@@ -92,7 +92,8 @@ The VA wants to ensure that important email communications reach Veterans from t
 
 * We will not include the alert within the notification settings of the VAHB app.
 * Interstitials will not be included on the app.
-* Push notifications to a user. 
+* Push notifications to a user.
+* Deep link within the email to take a user back to the mobile. The Authenticated Experience Team decided that, since we cannot determine the user's device in real time, we should not include a deep link in the emails. 
 
 ## Solution Approach
  
