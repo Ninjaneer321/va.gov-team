@@ -291,18 +291,26 @@ Most participants (6 of 7) assumed that after 60 days, their saved form data wou
 
 Eight participants said they asked wanted to be able to delete a form they started but never finished. Reasons provided included finding out that you no longer need to submit that form, you already submitted it, or it was the wrong form. 
 
-## Additional Insights
+## Additional Insights -- REORDER, MV SOME INTO FINDINGS SECTION??
 *Include insights that do not represent patterns but are still valuable.*  
 > **TIP:** These could be powerful user comments or unexpected issues worth noting
 
+1. Participants encountered a number of usability issues when filling out the form:
+
+     1. **Additional records information**: Three of 7 participants said that they didn't know what kinds of information would be helpful to include. One participant said perhaps your parents' names or where you where stationed. Another participant said maybe a date range for your medical records.
+
+
 1. **All participants who encountered an error while filling out the form (6 of 7) were able to fix it themselves**. Some of the errors likely resulted because the participants were entering fake data (e.g., name, social security number) as instructed, in order to not share PII. Below are descriptions of some of the issues.
 
-     1. 6 of 7 participants didn't enter their name correctly in the verification field on the "Review and submit" page. 4 people corrected the name by using what the error message said, one of whom was glad to see that (see quote below); someone else was annoyed that he couldn't copy/paste the name from the error message and had to retype it (see quote below). 2 people didn't notice the name within the error text and instead expanded the "Your personal information" accordion to see what they entered before. 
+     1. Six of 7 participants didn't enter their name correctly in the verification field on the "Review and submit" page. 4 people corrected the name by using what the error message said, one of whom was glad to see that (see quote below); someone else was annoyed that he couldn't copy/paste the name from the error message and had to retype it (see quote below). 2 people didn't notice the name within the error text and instead expanded the "Your personal information" accordion to see what they entered before. 
 
         > p3 liked that the error told you what it the name was supposed to be: *"Great! Wish more forms did it that way" (p3).*
 
         > p8 wanted to copy/paste the name in the error: *"It won't let me even copy that" (p8).*
 
+    1. A screen reader user entered the postal code and then a space in order to hear JAWS read it. This triggered an error because there was a space entered into that field and so too many characters. The participant said that they encounter this same issue on many forms, so they realized what the problem was and how to correct it.
+     1. One participant entered "1-" at beginning of phone number, which resulted in an error because there were more than 10 digits.
+ 
 1. One participant expressed his appreciation for our taking the time to learn from Veterans...
 
 1. Participants had many positive comments on prototype features that worked well for them: 
@@ -315,7 +323,9 @@ Eight participants said they asked wanted to be able to delete a form they start
 
   At the end of the session, this participant said that this session had helped her learn how to navigate back to an in-progress form. She had been planning to print out a paper form from an online form she already started because she needed to upload 15 documents, but at the end of the session, she said that she might try to upload them online, given that she already completed most of the online form and now knows that it's been saved. 
 
-## Recommendations
+## Recommendations   
+
+   - _Supporting evidence_: 
 
 *Summarize actionable recommendations based on findings.*  
 
@@ -334,7 +344,13 @@ Eight participants said they asked wanted to be able to delete a form they start
 
 1. **Learn how to advise participants who are struggling with their assistive tech, and incorporate a suggestion into future conversation guides.** Work with Martha to meet with a VA Blind Rehab Center to learn about how they help Veterans who are blind or low vision and whether/how we can get them in touch with research participants who could benefit from their services.
 
+### For the Request Personal Records form
+
+1. Consider adding more details in the helper text for types of information would be helpful in the "Additional records information" field".
+   - _Supporting evidence_: 
+
 1. Consider revising the "Your full name" text on the "Review and submit" page to include a reference to what you entered before: "Your full name--Enter exactly what you entered earlier in this form".
+   - _Supporting evidence_: Participants didn't realize that the name verification here must exactly match what they entered for their name at the beginning of the form.
 
 ## Product User and Business Outcomes
 
