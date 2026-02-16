@@ -1,5 +1,5 @@
 # IA Design for State Application for Interment Allowance VA form 21p-530a
-**STATUS: In progress**
+**STATUS: Complete**
 
 **Team:** BIO Aquia
 
@@ -27,19 +27,19 @@
 ## <a name="map"></a>Page structure<br>
 *Illustration and/or description of where this product/feature will live within the overall IA of VA.gov (i.e. a site map). The placement of your product/feature determines the URL structure, breadcrumb, and navigational needs of the product/feature, and provides search engines with relationship information that impacts overall SEO and findability. Placement of a product/feature must follow established patterns and standards of the existing site.*
 
-<img width="169" height="875" alt="Screenshot 2026-02-10 161745" src="https://github.com/user-attachments/assets/066f1e19-d2b2-4c0b-9c7d-9f8cb1982804" />
+<img width="171" height="861" alt="Screenshot 2026-02-16 145256" src="https://github.com/user-attachments/assets/74cf3142-73fb-411b-84d8-223fa5972b10" />
 
 
 ## <a name="url"></a>Page URLs and breadcrumbs
 *URL and breadcrumb requirements for each modified or new page within the experience. URLs and breadcrumbs must follow established patterns and standards of the existing site. This section will also document form or tool flow URLs, titled sub-URLs.*
 
 
-**1) Submit a state or tribal organization request for interment allowance - (form; update to URL and H1)**
-- New URL: va.gov/forms/21p-530a/submit-state-interment-allowance-request-online/
-- New H1: Submit a state or tribal organization request for interment allowance
-- Sub-heading: State or Tribal Organization Application for Interment Allowance (Under 38 U.S.C. Chapter 23) (VA Form 21-530a)
-- Breadcrumb: VA forms > State Application for Interment Allowance (VA Form 21p-530a) > Submit a state or tribal organization request for interment allowance
-- Notes: The current page title and breadcrumbs match this H1, which was defined in the original IA spec. Per VADS standards, the H1 should match those elements. The form H1 needs to be update to match by using the H1 indicated above. 
+**1) Submit a state or tribal organization request for interment allowance online - (form; update to URL and H1)**
+- New URL: va.gov/forms/21p-530a/submit-state-interment-allowance-request/
+- New H1: Submit a state or tribal organization request for interment allowance online
+- Sub-heading: State or Tribal Organization Application for Interment Allowance (Under 38 U.S.C. Chapter 23) (VA Form 21p-530a)
+- Breadcrumb: VA forms > State Application for Interment Allowance (VA Form 21p-530a) > Submit a state or tribal organization request for interment allowance online
+- Notes: Please ensure that the page title and breadcrumbs match this H1. 
 
 
 ## <a name="nav"></a> Updated Entry points <br>
@@ -50,7 +50,7 @@
   - Placement description: Update the online form link once new URL is implemented
   - Link details
     - Link label: TBD by content
-    - Link destination: https://www.va.gov/forms/21p-530a/submit-state-interment-allowance-request-online/
+    - Link destination: https://www.va.gov/forms/21p-530a/submit-state-interment-allowance-request/
   - Notes:
     - The H1 and Sub-heading of this page needs to be updated by central content team
     - New H1: State Application for Interment Allowance (VA Form 21p-530a)
