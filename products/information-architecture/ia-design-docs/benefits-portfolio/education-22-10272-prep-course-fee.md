@@ -27,7 +27,7 @@
 
 
 ## <a name="map"></a>Page structure<br>
-<img width="131" height="610" alt="Screenshot 2025-12-18 141948" src="https://github.com/user-attachments/assets/ff253f3c-b580-41c1-845d-9f1b5349ac97" />
+<img width="166" height="868" alt="Screenshot 2026-02-16 151149" src="https://github.com/user-attachments/assets/1acd06fb-1cba-4e64-8a92-af9cb2c1352a" />
 
 
 ## <a name="url"></a>Page URLs and breadcrumbs
@@ -38,7 +38,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
 
 
-**1) Licensing or certification test prep course reimbursement (VA Form 22-10272) - Existing (Drupal page; former About form page; redirect to be done by content)**
+**1) Licensing or certification test prep course reimbursement (VA Form 22-10272) - Existing (Drupal page)**
 - URL: va.gov/forms/22-10272/
 - H1: Licensing or certification test prep course reimbursement (VA Form 22-10272)
 - Sub-heading: Request for Reimbursement of Preparatory Course for Licensing or Certification Test
@@ -47,7 +47,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
     - Licensing or Certification Test Prep Course Reimbursement (VA Form 22-10272) | Veterans Affairs
 
 **2) Request licensing or certification test prep course fees reimbursement online - New (form)**
-- URL:  va.gov/forms/22-10272/request-prep-course-reimbursement-online/
+- URL:  va.gov/forms/22-10272/request-prep-course-reimbursement/
 - H1: Request licensing or certification test prep course fees reimbursement online
 - Sub-heading: Request for Reimbursement of Preparatory Course for Licensing or Certification Test (VA Form 22-10272)
 - Breadcrumb: VA.gov > VA forms > Licensing or certification test prep course reimbursement (VA Form 22-10272) > Request licensing or certification test prep course fees reimbursement online
@@ -58,9 +58,9 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 **Structuring URLs for individual pages within the form flows**
 - All pages within form flows will exist as child pages of the core/canonical URL.
   - Examples:
-      - va.gov/forms/22-10272/request-prep-course-reimbursement-online/introduction/
-      - va.gov/forms/22-10272/request-prep-course-reimbursement-online/review-and-submit/
-      - va.gov/forms/22-10272/request-prep-course-reimbursement-online/confirmation/
+      - va.gov/forms/22-10272/request-prep-course-reimbursement/introduction/
+      - va.gov/forms/22-10272/request-prep-course-reimbursement/review-and-submit/
+      - va.gov/forms/22-10272/request-prep-course-reimbursement/confirmation/
   - Please refer to [URL standards for form flows](https://design.va.gov/components/url-standards/#guidelines-for-urls-in-form-flows) when defining the URLs for these pages.  Reach out to #content-ia-centralized-team with any questions.
 
 
@@ -77,7 +77,7 @@ Teams must launch with at least one entry point that allows site visitors to nav
   - Placement description: Add a link to the form as appropriate
   - Link details
     - Link label: TBD by content
-    - Link destination: va.gov/forms/22-10272/request-prep-course-reimbursement-online/
+    - Link destination: va.gov/forms/22-10272/request-prep-course-reimbursement/
   - Notes:
     - Who will update: Content will add the link
     - When will this entry point go live: at launch
