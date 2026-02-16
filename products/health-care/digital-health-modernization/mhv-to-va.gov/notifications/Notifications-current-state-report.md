@@ -35,6 +35,10 @@ rely on this system as source of truth (not the Figma)
 
 
 ### VEText
+
+* VeText is both email/text - different than VA Notify (in some cases duplicative). Not at all facilities. Actual implementation is TEXT only, but they can integrate with VA Notify to do email someday.
+* VeText has a nice sharepoint that we will look at next with more product documentation. Robyn is messaging the team right now for a link.
+
 Right now it's only appointment reminders & Rx reminder (?), but they do "open slot" management in VistA. Run by Shane Elliott. It is not VA-wide, it's facility-dependent & reliant on specific facilities turning it on. So dependent on budgeting at facility-level. 
 
 ## <a name="profile"></a>Notification settings in Profile
@@ -48,35 +52,31 @@ Right now it's only appointment reminders & Rx reminder (?), but they do "open s
 * What's on deck? 
 
 ## <a name="appointments"></a>Appointments
-What notifications do users already get?
-* You have an upcoming VA appt
-  * Email:
-  * Text message:
+Existing notifications
+| Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
+|--------------|---------|---------|----------|---------|-------|------|
+|You have an upcoming VA appointment| VEText | ? | Email, SMS| VistA, OH | Yes | --|
+|Pre Check-in | ? | ? | Email, SMS | VistA | ? | when those facilities roll over to OH, these will go away & some other interim solution will kick-in |
+|Check-in | ? | ? | Email, SMS | VistA | ? | when those facilities roll over to OH, these will go away & some other interim solution will kick-in |
  
-* Pre-check in and Check-in (VistA only) - when those facilities roll over to OH, these will go away & some other interim solution will kick-in. 
- 
-Questions:
-  * Community care notifications? 
+### Questions:
+  * Community care notifications?
 
-Resources:
+### Notification content/language & routing  
+
+
+### Design
+
+### Resources:
   * [Appts notifications service blueprint](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/products/health-care/appointments/research/2021-10-appointment-notifications-service-map/research-findings.md)
 
-### Notes: 
-* VeText is both email/text - different than VA Notify (in some cases duplicative). Not at all facilities. Actual implementation is TEXT only, but they can integrate with VA Notify to do email someday.
-* VeText has a nice sharepoint that we will look at next with more product documentation. Robyn is messaging the team right now for a link. 
-
 ## <a name="messages"></a>Messages
-What notifications do users already get? (AUTOMATIC)
-* Welcome to SM email notification: triggered when someone becomes eligible for SM (VistA)
-  * Email:
-  * Text message:
-  * Not totally sure on the logic for that but SM BE team would know.
-* You have a new message - [triggered when have a new message] (AUTOMATIC + cannot opt out)
-  * Email:
-  * Text message:
- 
-Notes: 
-* notifications also get triggered when a Veteran becomes eligible for messages
+
+Existing notifications
+| Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
+|--------------|---------|---------|----------|---------|-------|------|
+| Welcome to SM | VA Notify | When someone becomes eligible for SM (VistA) | Email, SMS | VistA | No (automatic) | Not totally sure on the logic for that but SM BE team would know |
+| You have a new message| VA Notify | When a new message is sent to the Veteran | VistA, OH | No (automatic) | -- |
 
 ## <a name="meds"></a>Medications
 * You have 1 medication shipped (VistA + OH) 
