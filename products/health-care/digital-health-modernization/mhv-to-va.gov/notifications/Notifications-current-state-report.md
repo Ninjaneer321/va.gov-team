@@ -126,7 +126,11 @@ Notes:
   Nothing
 
 ## <a name="1010"></a>10-10EZR Form
- * user-action realted notification (Email) sent ONLY when a submission fails 
+Existing notifications
+| Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
+|--------------|---------|---------|----------|---------|-------|------|
+|Your update (submission) failed| VA Notify | User tries to update their 10-10EZR form and the update fails | Email| N/A | No (automatic) | --|
+
 
 ## <a name="co-pay"></a>Medical co-pays and billing
 Is this a profile question?
