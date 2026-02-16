@@ -34,11 +34,12 @@ rely on this system as source of truth (not the Figma)
 
 
 ### VEText
+VEText is different than VA Notify (in some cases duplicative), and relies on data in the Computerized Patient Record System (CPRS). It is not VA-wide, instead it is facility-dependent and reliant on specific facilities budgeting for it and enabling its implementation. Each facility with VEText may have some variation (but not necessarily all) of the possible notifications that are supported. VEText is only SMS today, but in the future there is capability to integrate the service with VA Notify to also include Email notifications.
 
-* VeText is both email/text - different than VA Notify (in some cases duplicative). Not at all facilities. Actual implementation is TEXT only, but they can integrate with VA Notify to do email someday.
-* VeText has a nice sharepoint that we will look at next with more product documentation. Robyn is messaging the team right now for a link.
-
-Right now it's only appointment reminders & Rx reminder (?), but they do "open slot" management in VistA. Run by Shane Elliott. It is not VA-wide, it's facility-dependent & reliant on specific facilities turning it on. So dependent on budgeting at facility-level. 
+These notifications are primarily for VA appointments, community care appointemnts, and prescription tracking. 
+  
+**Resources:**
+* [VEText Sharepoint site](https://dvagov.sharepoint.com/sites/vhavetext/SitePages/VEText-Home-Page.aspx) (VA Network)
 
 ## <a name="profile"></a>Notification settings in Profile
   To review, there are opt-in notification settings for each health tool in the VA Profile. Secure Messages, however, is automatic and users cannot opt-out, so it is not listed on this page.
@@ -54,14 +55,39 @@ Right now it's only appointment reminders & Rx reminder (?), but they do "open s
 Existing notifications
 | Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
 |--------------|---------|---------|----------|---------|-------|------|
-|You have an upcoming VA appointment| VEText | ? | Email, SMS| VistA, OH | Yes | --|
-|Pre Check-in | ? | ? | Email, SMS | VistA | ? | when those facilities roll over to OH, these will go away & some other interim solution will kick-in |
-|Check-in | ? | ? | Email, SMS | VistA | ? | when those facilities roll over to OH, these will go away & some other interim solution will kick-in |
- 
+| Upcoming VA appointment| VEText | ? | SMS| VistA | Yes | --|
+| Auto cancel appointments | VEText | ? | SMS| VistA | Yes | --|
+| Attempt to schedule reminders | VEText | ? | SMS | VistA | ? | -- | 
+| Pre Check-in | VEText | ? | SMS | VistA | No | when those facilities roll over to OH, these will go away & some other interim solution will kick-in |
+| Check-in | VEText | ? | SMS | VistA | No | when those facilities roll over to OH, these will go away & some other interim solution will kick-in |
+| Post-appointment reminders | VEText | ? | SMS | VistA | ? | -- |
+| Open Slot management | VEText | ? | SMS | VistA | ? | -- | 
+
+  
 ### Questions:
   * Community care notifications?
 
-### Notification content/language & routing  
+### Notification message content & routing  
+
+**VEText Direct Care message templates:**
+* Non-PHI version
+  > Your VHA facility is trying to contact you to coordinate your appointment.
+  > <br>
+  > Please contact your facility as soon as possible at `%VA_PHONE%` so staff can begin to coordinate the scheduling of your appointment." 
+* PHI version
+  > Your VHA facility is trying to contact you to coordinate your `%CONSULT_NAME%` appointment.
+  > <br>
+  > Please contact your facility as soon as possible at `%VA_PHONE%` so staff can begin to coordinate the scheduling of your appointment."
+
+**VEText Community Care message templates:**
+* Non-PHI version
+  > Your VHA community care office is trying ot contact you to coordinate your medical appointment in the community.
+  > <br>
+  > Please contact your facility community care office as soon as possible at `%VA_PHONE%` so staff can begin to coordinate the scheduling of your community care appointment.
+* PHI version
+  > Your VHA community care office is trying ot contact you to coordinate your `%CONSULT_NAME%` appointment.
+  > <br>
+  > Please contact your facility community care office as soon as possible at `%VA_PHONE%` so staff can begin to coordinate the scheduling of your community care appointment.
 
 ### Design
 
