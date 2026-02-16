@@ -18,7 +18,7 @@ This report documents what we know and understand about notifications that route
 * [10-10EZR](#1010)
 * [Medical co-pays and billing](#co-pays)
 
-## <a name="tools"</a>Notification tools and applications
+## <a name="tools"></a>Notification tools and applications
 
 ### VA Notify
 VA Notify supports email, text messaging (SMS) and push notifications with the VAHB Mobile App. VA Notify is designed to be a passthrough system. We do not store Veteran information, but we do store your notification templates and settings. We partner with VA Profile and va.gov to provide communication preferences that the Veteran can see and manage. VA Notify checks these preferences before notifying a Veteran.
