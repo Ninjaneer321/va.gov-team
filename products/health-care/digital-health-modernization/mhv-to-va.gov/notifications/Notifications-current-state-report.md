@@ -38,7 +38,7 @@ VEText is different than VA Notify (in some cases duplicative), and relies on da
 
 These notifications are primarily for VA appointments, community care appointemnts, and prescription tracking. 
 
-According to VEText documentation, all Veterans are opted into all VEText messaging by default. If they wish to opt out, they can reply STOP to a message they received and they will be opted out of the use cases corresponding to the number they responded to. Replying STOP ALL will opt them out of all messaging regardless of which number they reply to. If Veterans would like to opt-into a use case, they must text START to the corresponding number shown in the table below: 
+According to VEText documentation, all Veterans are opted into all VEText messaging by default. If they wish to opt out, they can reply `STOP` to a message they received and they will be opted out of the use cases corresponding to the number they responded to. Replying `STOP ALL` will opt them out of all messaging regardless of which number they reply to. If Veterans would like to opt-into a use case, they must text `START` to the corresponding number shown in the table below: 
 
 | Number | Use case |
 |-----|-------|
