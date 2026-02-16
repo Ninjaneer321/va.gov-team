@@ -38,9 +38,11 @@ VEText is different than VA Notify (in some cases duplicative), and relies on da
 
 These notifications are primarily for VA appointments, community care appointemnts, and prescription tracking. 
 
-According to VEText documentation, all Veterans are opted into all VEText messaging by default. If they wish to opt out, they can reply `STOP` to a message they received and they will be opted out of the use cases corresponding to the number they responded to. Replying `STOP ALL` will opt them out of all messaging regardless of which number they reply to. If Veterans would like to opt-into a use case, they must text `START` to the corresponding number shown in the table below: 
+According to VEText documentation, all Veterans are opted into all VEText messaging by default. If they wish to opt out, they can reply `STOP` (or in some cases `PASS`) to a message they received and they will be opted out of the use cases corresponding to the number they responded to. Replying `STOP ALL` will opt them out of all messaging regardless of which number they reply to. If Veterans would like to opt-into a use case, they must text `START` to the corresponding number shown in the table below. Some notifications, such a prescription tracking, also have an "opt-in" select box option in the Profile. Opting out via SMS, and then re-selecting the checkbox in the Profile will not necessarily re-start the notifications. The user may need to reply `START` to the message itself to re-initiate these notifications. 
 
-| Number | Use case |
+Type of notifications and the number they come from via VEText are as follows: 
+
+| Sender Number (for opt-in/out) | Use case |
 |-----|-------|
 |53079 | Appointment reminders, Open Slot Management, Community Care, Clinic Cancellations |
 |214413 | Surgery notifications, ad-hoc notifications, and one-way vaccine outreach |
@@ -112,7 +114,7 @@ Existing notifications
 | Multiple medications have shipped | CBOC | Tracking information added to in-progress medication | Email | VistA, OH | Yes | Notes |
 | 1 medication has shipped | Facility-specific | Tracking information added to in-progress medication | SMS | VistA, OH | Yes | Some prescriptions are shipped by the facility (not CBOC), but not all facilities have capabilities to send SMS notifications|
 | Multiple medications have shipped | Facility-specific | Tracking information added to in-progress medication | SMS | VistA, OH | Yes | Some prescriptions are shipped by the facility (not CBOC), but not all facilities have capabilities to send SMS notifications |
-| Window pickup notifications | Facility-Specific | Once a prescription is verified in ScriptPro (fully automated) | SMS | Vista, OH | Not all facilities have this implemented |
+| Window pickup notifications | Facility-Specific | Once a prescription is verified in ScriptPro (fully automated) | SMS | Vista, OH | No (automatic) | Not all facilities have this implemented |
 | Rx Refill available | Facility-specific | -- | SMS | --| -- | On VEText roadmap, with a planned 2027 release |
 | CMOP shipment notification | -- | -- | -- | -- | -- | On VEText roadmap, but no timeline is available |
 
@@ -121,6 +123,8 @@ Notes:
 * Facilities themselves send other medications (or have window pickup). Facilities use VEText to notify Veterans via SMS, but only SOME facilities have VEText implemented.
 * Facilities with VEText implemented send out Rx tracking messages daily at 8:00 AM local time. 
 * In this this venn diagram some folks get no notifications b/c they go to a facility that doesn't have notifications turned on. And if the medication is shipped by facility (not CBOC) they wouldn't get notified.
+
+
 
 ### Notification content/language & routing  
 
