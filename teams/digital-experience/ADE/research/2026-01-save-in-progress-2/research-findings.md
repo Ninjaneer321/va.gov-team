@@ -298,6 +298,7 @@ Eight participants said they asked wanted to be able to delete a form they start
 1. Participants encountered a number of usability issues when filling out the form:
 
      1. **Additional records information**: Three of 7 participants said that they didn't know what kinds of information would be helpful to include. One participant said perhaps your parents' names or where you where stationed. Another participant said maybe a date range for your medical records.
+     1. **Country**: One participant was using a scroll wheel to traverse the dropdown list but couldn't find "United States". When he scrolled to the top of list, the first option was "Afghanistan" (the second option), and when he scrolled to the bottom of the list where "United States" should be alphabetically, it wasn't there either. He kept on scrolling down then up, and eventually was able to see "United States" at the very top.
 
 
 1. **All participants who encountered an error while filling out the form (6 of 7) were able to fix it themselves**. Some of the errors likely resulted because the participants were entering fake data (e.g., name, social security number) as instructed, in order to not share PII. Below are descriptions of some of the issues.
@@ -352,6 +353,9 @@ Eight participants said they asked wanted to be able to delete a form they start
 
 1. Consider revising the "Your full name" text on the "Review and submit" page to include a reference to what you entered before: "Your full name--Enter exactly what you entered earlier in this form".
    - _Supporting evidence_: Participants didn't realize that the name that you enter here must exactly match what they entered as their name at the beginning of the form.
+
+1. Consider adding a second "United States" option to the "Country" dropdown where it fits alphabetically near the bottom of the list.
+   - _Supporting evidence_: One participant using a scroll wheel to traverse the dropdown list was unable to access "United States" at the top of the dropdown list, and he then looked near the bottom of the list where it would fit alphabetically, and it wasn't there either. 
 
 ## Product User and Business Outcomes
 
