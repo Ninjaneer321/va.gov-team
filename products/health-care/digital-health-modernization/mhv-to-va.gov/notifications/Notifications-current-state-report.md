@@ -53,6 +53,7 @@ Type of notifications and the number they come from via VEText are as follows:
   
 **Resources:**
 * [VEText Sharepoint site](https://dvagov.sharepoint.com/sites/vhavetext/SitePages/VEText-Home-Page.aspx) (VA Network)
+* VEText Slack channel: `#
 
 ## <a name="profile"></a>Notification settings in Profile
   To review, there are opt-in notification settings for each health tool in the VA Profile. Secure Messages, however, is automatic and users cannot opt-out, so it is not listed on this page.
