@@ -41,6 +41,7 @@ List the feature toggles here.
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
+  * Percentage of API errors: 
   * Update once finalized  
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
@@ -57,6 +58,7 @@ List the feature toggles here.
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
+  * Percentage of API errors:
   * Update once finalized  
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
@@ -73,6 +75,7 @@ List the feature toggles here.
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
+  * Percentage of API errors:
   * Update once finalized  
 * Was any downstream service affected by the change?:   
 * Types of errors logged:  
@@ -89,6 +92,7 @@ List the feature toggles here.
 
 * Number of unique users: \[FILL\_IN\]  
 * Metrics at this stage (per your "success criteria"):  
+  * Percentage of API errors:
   * Update once finalized  
 * Was any downstream service affected by the change?:   
 * Types of errors logged:   
