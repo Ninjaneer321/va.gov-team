@@ -66,12 +66,11 @@ Main takeaway from the research sessions
 - Green means go. Orange means yelling.
 
 
+----
 
+#### P5 - no show
 
-#### P5
-
-
-
+----
 
 
 #### P6
@@ -139,25 +138,92 @@ Main takeaway from the research sessions
 #### P10
 
 **UX Notetaker:**
+- Wasn't clear to the participant that if they were eligible for TRICARE they couldn't get CHAMPVA until after the eligibility summary screen in the second prototype (Blueberry). They stated they may have missed that in the intro page content but it should be bold and called out more.
+- The gray eligibility summary card was confusing for them: double negative great quote: 
+> The second card, says may NOT be eligible, and the difference is the Veteran or applicant is not.. wait a second what? I’m so confused. (Re reads the last bullet) What in the trick-ness is going on here? What? The x’s and checks I don’t even know what they mean anymore
 
+- The alert mentioning that the Veteran information was found in DEERS was also re-read by the participant a few times, stated they wanted a link or more information here in addition to re-wording to be more clear
 
 **Observer 1:**
-
-
-
-**Observer 2:**
+- Initially, participant was unsure of why the start of the form gently informed them to not submit ineligible applications, then proceeded to say that despite alerts of ineligibility, that they'd just keep continuing with the application. "If the continue button is still there, I'm gonna click it just to see what happens!"
+- The form eligibility summary card in the first prototype (pineapple) was completely misinterpreted, at least initially. Participant didn't realize that their responses in the form so far was informing what the card was saying and telling them that they aren't eligible, so they found it confusing and felt like they were receiving mixed messages. The card was still up for interpretation for the participant and they said they'd just continue anyway.
+- Despite all the alerts and info provided, participant stated multiple times that they'd still probably go back though "the websites" and deep dive on more information on TRICARE and CHAMPVA and how they relate to get confirmation on their eligibility.
+- Bonus takeaway: I got the feeling that the way the final task with the Summary cards was laid out overwhelmed the participant and they were ready to dip. They were able to discern the differences between the two card styles, but ultimately seemed like they were unsure of what was being asked of them. "I feel like I'm in an escape room and I'm not figuring out the way out here." Though upon further questioning, and maybe abandoning all the other wording and green checkmarks and red Xs, they focused in on that extra sentence in the Card Style B and found clarity.
 
 
 
 #### P11
 
+**UX Notetaker:**
+
+- Participant felt the alert in Pineapple prototype and Alert D to be confusing when mentioning TRICARE/CHAMPVA eligibility. They wanted contact information provided in the alert to reach out in addition to changes to content or visual icons.
+- The participant didn't have any issues with the pattern eligibility summary cards, but did prefer Option B due to the extra sentence adding clarity of eligibility
+- Still the participant preferred the Pineapple prototype and appreciated being informed of eligibility earlier in the process, they just wanted it explained and more clear as to why and who they could contact
+
+**Observer 1:**
+- Iconography helped with understanding of eligibility
+- Desire to have a contact method for confirmation of eligibility - Phone or chat. *Less information on the page adds to quick comprehension and clarity * Users will still proceed even if eligibility is questionable.  Having capability to immediately inform users of their eligibility with minimal content and clear messaging with supporting iconography is desirable, and may prevent unnecessary contact with the VA
+
+
 #### P12
+
+**UX Notetaker:**
+- The wording and double negative in the gray eligibility patter was confusing for the participant, but they did rate the eligibility summary page as a 5 out 5 for understanding but they were interpreting backwards due to the double negative
+- The participant understood the intro page content and the concept that if you are eligible for TRICARE you can't also be eligible for CHAMPVA but would appricate a link to sign up with Tricare when those DEERS alerts were shown
+- the red "x"'s overall in the eligibility pattern seemed to be confusing for the participant, mentioning that is not their preference
+
+**Observer 1:**
+1 - double negatives were very confusing
+2 - wanted a hyperlink to tricare (either to check for availability or once they've determined they're ineligible for cva because they are eligible for tricare)
+3 - immediately knew the validation was checking deers, not surprised by any of that portion
+
+**Observer 2:**
+- Double negative Iconography was confusing for the user in understanding whether they were eligible or not * If not eligible for CHAMPVA, they would like direct linkage to TRICARE to be able to apply. * User mentioned having ability to contact the VA if their information wasn't correct. * Blueberry prototype, although preferred, still provided ambiguity around eligibility, but user would proceed
+- Statement at the top of Summary card B adds clarity
 
 #### P13
 
-#### P14
+**UX Notetaker:**
+- double negative is not good
+- previous experience with deers was helpful
+- very nervous about alerts saying she couldnt be found in system -  seemed to think that it may be shes not in system at all, would immediately call
+
+**Observer 1:**
+- Participant was confused by the eligibility review box and interpreted the red X and TRICARE eligibility as being the opposite of what they entered. At the end they noted they preferred the alternative card summary B as it clarify the confusion.
+- They called out that the prototypes were for different eligibility scenarios so it was difficult to pick a preference, but noted they would continue on in both scenarios to see what would happen next in the application
+- The participant found the alert options to be a mix of clear and confusing - most of the confusion was around wanting additional clarity of what system was being checked and what benefit eligibility was being referenced.
+
+**Observer 2:**
+- Participant like the eligibility checks up front as a way to save time and determine if they wanted to move forward.
+- She would seek out DEERs to get questions answered vs. going to the VA. But if there was information that didn't align with what she expected, she would seek out answers first many times before proceeding with the application.
+- The language around not being eligible due to TRICARE on the cards was really confusing. And she wanted clarification on what program the eligibility was in reference to.
+- Bonus: not being found in the VA system was such as terrible experience
+
 
 #### P14
+
+**UX Notetaker:**
+
+**Observer 1:**
+
+**Observer 2:**
+
+
+#### P15
+
+**UX Notetaker:**
+
+**Observer 1:**
+
+**Observer 2:**
+
 
 #### P16
+
+**UX Notetaker:**
+
+**Observer 1:**
+
+**Observer 2:**
+
 
