@@ -327,10 +327,6 @@ Eight participants said they asked wanted to be able to delete a form they start
 1. One participant expressed his appreciation for us taking the time to learn from Veterans:
     > *"I'm happy you guys are doing this because I go to other kinds of websites, and it's just a nightmare trying to get through--the way they've laid stuff out. So I'm very happy that you guys asked for feedback for the user experience. It's fantastic! Thanks" (p7).*
 
-1. Participants had many positive comments on prototype features that worked well for them: 
-     1. 
-
-
 1. Three participants had technical issues with their assistive tech...
 
 1. Two participants said that they prefer to fill out forms on paper instead of online. One of them said it's easier and he likes to keep a copy. The other participant doesn't have a computer and said the following: 
