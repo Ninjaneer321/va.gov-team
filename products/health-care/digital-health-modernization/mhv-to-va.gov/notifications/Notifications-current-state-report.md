@@ -61,9 +61,10 @@ Type of notifications and the number they come from via VEText are as follows:
   <img width="363" height="260" alt="Screenshot 2026-02-11 at 4 10 59 PM" src="https://github.com/user-attachments/assets/19361a2d-fdb8-4db3-b39a-37e2bb405dae" />
 
 ## <a name="vahb"></a>VAHB health notifications
-* what is in prod for the app?
-* What's in flight?
-* What's on deck? 
+
+### Resources
+* Documentation about push notifications enabled in the VAHB mobile app is [available here](https://department-of-veterans-affairs.github.io/va-mobile-app/development/FrontEnd/Push%20Notifications/).
+* [Push notifications architectural overview](https://department-of-veterans-affairs.github.io/va-mobile-app/development/BackEnd/Features/PushNotifications/)
 
 ## <a name="appointments"></a>Appointments
 Existing notifications
