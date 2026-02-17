@@ -1,10 +1,10 @@
 ---
 # Research Plan Metadata
 title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
+date: 2026-02
+last_updated: 2026-02-17
+team: "Aquia - Benefits Intake Optimization (BIO)"
+product: "VA Form 21-2680"
 product_area: "[e.g., authenticated/unauthenticated]"
 
 # Background Context
