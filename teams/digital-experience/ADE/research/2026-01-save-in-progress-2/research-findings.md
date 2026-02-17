@@ -276,8 +276,7 @@ After participants finished filling out the form, we asked when they thought the
 After resuming the form
 
 ### Finding 4: All participants who interacted with the accordions on the Review/Submit page were able to easily open and close them with the controls on the left side (instead of the right).
-6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side (instead of on the left in the current VA Design Syste
-m). This included the participant who was using a screen magnifier. In the [previous round of usability testing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#finding-6-va-forms-in-general-had-accessibility-issues-for-screen-readers-and-screen-magnifiers), a participant using a screen magnifier didn't understand how to interact with these accordions when the "+" control was on the right because it wasn't visible to him. 
+6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" and "-" controls being on the left side (instead of on the left in the current VA Design System). This included the participant who was using a screen magnifier. In the [previous round of usability testing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#finding-6-va-forms-in-general-had-accessibility-issues-for-screen-readers-and-screen-magnifiers), a participant using a screen magnifier didn't understand how to interact with these accordions when the "+" control was on the right because it wasn't visible to him. 
 
 One participant interpreted the accordions as providing extra information to help the VA find their records, and he was surprised when he saw that it was only the information that he had already entered.
 
@@ -352,7 +351,7 @@ Eight participants said they asked wanted to be able to delete a form they start
 1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages.**
    - _Supporting evidence: 4 of 8 participants didn't know what these phrases meant when seeing them as links on the interstitial page._
 
-1. **Move accordion controls to the left side of the item so as to increase visibility for screen magnifier users who may not see any controls on the right.** Discuss this finding to Chandra Carney from the US Web Design System team.
+1. **Consider moving the accordion controls to the left side of the item so as to increase visibility for screen magnifier users who may not see any controls on the right.** Shared this finding with Chandra Carney from the US Web Design System team.
    - _Supporting evidence: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier._
 
 1. **Consider keeping the "Expand all" link (ADD FROM SLACK DM CONVO W/JEANA)**
