@@ -62,7 +62,8 @@ This first task will involve the online AMPREDICT/PROPREDICT calculator.
 
 [Screen sharing begins.]
 
-- Before you begin entering data, please let me know so I can start the timer. And, please let me know when you have completed a calculation so I can stop the timer.
+- Before you begin entering data, please let me know so I can start the timer.
+- And, please let me know when you have completed a calculation so I can stop the timer.
 - Are you ready to begin? If so, I'll start the timer now.
 
 [Start timer upon verbal confirmation.]
