@@ -110,8 +110,8 @@ Next, we'll move on to the CDS Medical Calculators tool and perform the same cal
 - Please open a new patient in CPRS.
 - Next, please navigate to CDS Tools > CDS Console and click on the Medical Calculators tile on the console landing page.
 - Now, navigate to AMPREDICT/PROPREDICT in the calculators list, but don't click on it just yet.
-- When you are ready to begin, please let me know and I'll start the timer. Again, just move through the workflow as you normally would. This will be a new tool to you, but the inputs match the online calculator we just tested.
-- Please let me know when you are done completing the task so I can stop the timer.  
+- When you are ready to begin, please let me know and I'll start the timer. Again, just move through the workflow as you normally would.
+- And please let me know when you have completed a calculation so I can stop the timer.  
 
 [Start timer upon verbal confirmation.]
 
