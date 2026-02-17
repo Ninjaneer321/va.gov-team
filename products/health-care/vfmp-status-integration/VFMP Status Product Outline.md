@@ -44,23 +44,79 @@
 <details>
  <summary>Initial KPIs and OKRs (draft/in progress)</summary>
 
+## Veteran Pain Points
+
+- “Where is my application?”
+- “Did you lose my application? I’ll resubmit.”
+- “I got a letter but don’t know what to do.”
+- “My application is stuck.”
+- “I don’t know what to do next.”
+
+---
+
 ### Key Performance Indicators (KPIs)
-- Call center: % / volume of CHAMPVA calls that are status inquiries (baseline + post-launch)
-- Duplicates: rate of duplicate CHAMPVA applications (baseline + post-launch)
-- Tool usage: number of authenticated submitters viewing CHAMPVA status in CST
-- Follow-up completion: % of “need more information” requests completed via digital upload
-- Time in suspense: average time waiting on documentation after send-back request
-- UX signals: user feedback indicating increased confidence (“I know my application was received / I know what to do next”)
-- Accessibility: number/severity of 508 issues identified and remediated prior to launch
+
+- **Call center:** % / volume of CHAMPVA calls that are status inquiries (baseline + post-launch)  
+  - Target: Measurable reduction  
+  - Why it matters: Direct proxy for transparency improvement  
+
+- **Duplicates:** Rate of duplicate CHAMPVA applications (baseline + post-launch)  
+  - Target: Measurable reduction  
+  - Why it matters: Core backlog driver  
+
+- **Digital resolution rate:** % of “need more information” requests resolved via CST digital upload  
+  - Includes:
+    - % of users who begin upload after viewing send-back  
+    - % of users who upload documentation within 7 days of request  
+  - Target: Majority resolved digitally  
+  - Why it matters: Measures shift from paper to digital workflow  
+
+- **Time in suspense:** Average time waiting on documentation after send-back request  
+  - Target: Measurable reduction  
+  - Why it matters: Operational efficiency gain  
+
+- **Status tool adoption & engagement:**  
+  - % of CHAMPVA submitters who view status within X days  
+  - % of submitters who return to view status more than once  
+  - % of “need more information” users who click into the evidence request  
+  - % of users who do NOT navigate to “Contact Us” after viewing status  
+  - Why it matters: Early leading indicators of behavior change and trust  
+
+- **UX confidence signal (CSAT / micro-survey):**  
+  - “I understand the status of my application.”  
+  - “I know what to do next.”  
+  - Target: Establish baseline and demonstrate measurable improvement  
+  - Why it matters: Supports OKR 3.2 and 3.3  
+
+- **Reliability (Golden Signals):**  
+  - Latency  
+  - Error rate  
+  - Traffic volume  
+  - Saturation  
+  - % of status responses returned successfully (no fallback errors)  
+  - Why it matters: Supports Objective 2.1  
+
+- **Uptime:** ≥ 99.8% incident-free uptime; no Sev 1 incidents attributable to VFMP integration  
+
+- **Accessibility:** 0 Sev 1 / Sev 2 508 issues at launch; 100% of critical issues resolved pre-production  
+
+---
 
 #### Baseline KPI Values
-- TBD (requires alignment on data sources and reporting owners)
 
-### Objectives and Key results (OKRs)
-- Objective: Improve transparency and reduce avoidable follow-up burden for CHAMPVA applicants
-  - Key result: Status-related calls decrease
-  - Key result: Duplicate submissions decrease
-  - Key result: More “need more information” requests resolved digitally
+- TBD (requires alignment on data sources, instrumentation, and reporting owners)
+
+---
+
+### Objectives and Key Results (OKRs)
+
+- **Objective:** Improve transparency and reduce avoidable burden for CHAMPVA applicants  
+
+  - Key result: Status-related calls decrease  
+  - Key result: Duplicate CHAMPVA submissions decrease  
+  - Key result: Increase % of evidence requests resolved digitally  
+  - Key result: Establish CSAT baseline and demonstrate measurable improvement  
+  - Key result: Maintain ≥ 99.8% uptime and monitor golden signals  
 
  </details>
  
