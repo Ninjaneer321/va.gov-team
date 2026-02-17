@@ -289,7 +289,7 @@ One participant said that he liked the "Edit" buttons so you don't have to go ba
 
 1. P3 was using the JAWS screenreader on desktop with mouse echo (which announces whatever is under the mouse), and **JAWS didn't announce any "Country" select/dropdown options when the dropdown was open and the mouse was over an item**. He had to click to select an option before it was announced by the screen reader. This is a known issue that affects screen readers and mouse control of dropdown menus, which unfortunately is not fixable.
 
-1. 
+1. Another issue P3 encountered is that text that looked like one sentence was announced in small chunks instead of as a single sentence, resulting in awkward pauses and missed information. For example, here's how the "Finish later" message sounded (each ellipsis required a mouse movement): "Your personal records request has been saved...Jan 13, 2026 at 5:43 pm...Your saved...request...will expire on...March 14, 2026."
 
 
 ### Finding 6: Most participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted. 
@@ -342,6 +342,11 @@ Eight participants said they asked wanted to be able to delete a form they start
    - _Supporting evidence_: 
 
 *Summarize actionable recommendations based on findings.*  
+
+### For the Design System and Forms team
+1. Investigate why the "Finish later" message is read so haltingly in small segments when using JAWS with a mouse. --> *Jeana will investigate to see if each segment is wrapped in a span, and if so, why.*
+   - _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the informational alert.  
+
 
 1. **Remove the interstitial page and instead consider adding something very short just above the Continue button on every page** (e.g., "Your information is being saved automatically"). 
    - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
