@@ -58,7 +58,7 @@ Data persistence layer between CHIP and the database.
 ## Product Documentation
 
 ### Root Documentation
-[Product Documentation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin#metrics-and-veteran-feedback)
+[Product Documentation](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/checkin)
 
 ### Architecture
 - [Architecture Diagrams](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/checkin/engineering/architecture-diagrams/containerDiagram_checkInExp.png)
