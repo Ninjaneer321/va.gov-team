@@ -212,10 +212,6 @@ We also monitored additional scenarios, or subtasks, that were not considered cr
 
 ## Key Findings
 
-> **After completing your detailed findings below, you'll add metadata labels using the [Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md).**  
-
-[Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
-
 1. **UI is intuitive and usable, but critical flow and navigation improvements will reduce friction.**
    * Overall, testing proved that the interface is understandable - participants could add, edit, and delete expenses; upload receipts; and quickly learn patterns within the flow - but certain navigation elements caused friction and inefficiency.
 
@@ -230,10 +226,6 @@ We also monitored additional scenarios, or subtasks, that were not considered cr
 
 
 ## Details of Findings 
-
-> [!TIP]
-> **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
-> Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
 ### Finding 1: UI is intuitive and usable, but critical flow and navigation improvements will reduce friction.   
 
