@@ -14,14 +14,14 @@ This doc gives an overview of the **Prefill topic questions with NLP data model*
 - [Supporting Documentation](#supporting-documentation)
 
 ## Overview
-Submitters have to answer many questions in the Ask VA form than the typical contact form. There's opportunity to use an AI/NLP data model to accurate predict queue given question text and other variables that determine queue routing.
+Submitters have to answer many questions in the Ask VA form than the typical contact form. There's opportunity to use an AI/NLP data model to accurately predict queue given question text and other variables that determine queue routing.
 
 As a first step to test, if the model is successful, we could present predicted Category to the submitter. The submitter can then simply review the prefilled information rather than answer these questions. Answers to these questions currently determine routing of the inquiry.
 
 Originally, we thought this could also improve resolution time. After conducting an [analysis on queue and resolution time](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/prefill-nlp%20June%202025/Queue%20analysis.md), we determined that an AI model that returns an Ask VA queue given question text would likely only minimally impacts resolution time.
 
 ## Problem statement
-**Background**: Only 1/3 of Veterans, family members, and other people with questions for VA who visit the current Ask VA landing page (ask.va.gov) end up completing the support request. Ask VA's CSAT score is at 23%, compared to VA.gov's 29% CSAT score. User research has identified form burden as a barrier for Veterans to receiving answers to their inquiries. To expediently get Veterans the healthcare & benefits answers they deserve, VA is simplifying the process. 
+**Background**: Only 1/3 of Veterans, family members, and other people with questions for VA who visit the current Ask VA landing page (ask.va.gov) end up completing the support request. `Ask VA's CSAT score is at 23%, compared to VA.gov's 29% CSAT score`. User research has identified form burden as a barrier for Veterans to receiving answers to their inquiries. To expediently get Veterans the healthcare & benefits answers they deserve, VA is simplifying the process. 
 
 **Solution**: We'll reduce unnecessary Veteran inputs by auto-classifying the categories, topics, and subtopics needed to route Veteran inquiries to the right place. This is expected to improve satisfaction and reduce friction in the direct healthcare and benefits process.
 
@@ -67,8 +67,8 @@ It also includes these OKRs:
 	
 |Key result|Baseline (ask.va.gov)|After X months|
 |:---|:---|:---|
-|Satisfaction|January 2025: 23%|x|
-|Form completion rate|[May to October (6 months)](https://dvagov.sharepoint.com/:x:/s/AskVA/EZEzfaI8u3lJvPx3il1VOFIBEHvGZXQmDr7aZrCwQMeZyg?e=absywx): 35%|x|
+|Satisfaction|`January 2025: 23%`|x|
+|Form completion rate|[May to October (6 months)](https://dvagov.sharepoint.com/:x:/s/AskVA/EZEzfaI8u3lJvPx3il1VOFIBEHvGZXQmDr7aZrCwQMeZyg?e=absywx): `35%`|x|
 |Time to submit form|x|x|
 
 ## Release 
