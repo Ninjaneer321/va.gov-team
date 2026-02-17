@@ -35,31 +35,31 @@ Based on the current API calls, there is currently no field that distinguishes P
 ### Investigation into options for capturing that a document is for POA
 
 1. Request an API change
-  - We asked the API team to add a boolean field to explicitly flag POA documents. Link to the ticket where we requested this change [here](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133116).
-  - We explained that this would be the cleanest long-term solution architecturally, unfortunately they made it sound like it would take them several months to implement, delaying the community care feature.
-  - If they were able to add this change we would need to make frontend and backend changes to support the new POA field.
+    - We asked the API team to add a boolean field to explicitly flag POA documents. Link to the ticket where we requested this change [here](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133116).
+    - We explained that this would be the cleanest long-term solution architecturally, unfortunately they made it sound like it would take them several months to implement, delaying the community care feature.
+    - If they were able to add this change we would need to make frontend and backend changes to support the new POA field.
 
 2. Change the filename of the document uploaded to `proof-of-attendance.[extension]` for all POA documents
-  - We could change the filename that is uploaded in a structured way so that we could reliably identify it in the FE and determine that it is a POA document and not and unassociated.
-  - There are several ways that we could change the filename:
+    - We could change the filename that is uploaded in a structured way so that we could reliably identify it in the FE and determine that it is a POA document and not and unassociated.
+    - There are several ways that we could change the filename:
       1. Change the filename in the frontend when a user uploads the file
-        - This would be the easiest option. As soon as a document is uploaded for POA we could rename to the file to something like `proof-of-attendance.[extension]` and this is what the user would see.
-        - This approach would require no backend changes and could be implemented quickly. However, this would impact a users experience and we'll want Design and Stakeholders to provide input before moving forward.
-      2. Change the filename in the backend when a user clicks the 'Continnue' button
-        - In an effort to not confuse a user upon input of the file we could rename the filenmae in the backend when the user uploads a new file.
-        - This would require us to make a frontend change (would neeed to send to the backend that this document is for POA) and a backend change (that renames the filename to something like `proof-of-attendance.[extension]`).
-        - The filename wouldn't change immediately so it could reduce some confusion for users.
-        - Users will still see a new filename later in complex claims on the review page, claim details page, and document edit page; so it could still cause confusion, we'll want Design and Stakeholders to provide input before moving forward.
+          - This would be the easiest option. As soon as a document is uploaded for POA we could rename to the file to something like `proof-of-attendance.[extension]` and this is what the user would see.
+          - This approach would require no backend changes and could be implemented quickly. However, this would impact a users experience and we'll want Design and Stakeholders to provide input before moving forward.
+      2. Change the filename in the backend when a user clicks the 'Continue' button
+          - In an effort to not confuse a user upon input of the file we could rename the filenmae in the backend when the user uploads a new file.
+          - This would require us to make a frontend change (would neeed to send to the backend that this document is for POA) and a backend change (that renames the filename to something like `proof-of-attendance.[extension]`).
+          - The filename wouldn't change immediately so it could reduce some confusion for users.
+          - Users will still see a new filename later in complex claims on the review page, claim details page, and document edit page; so it could still cause confusion, we'll want Design and Stakeholders to provide input before moving forward.
       3. Change the filename to have `-poa` added to the end of it
-        - When a file is uploaded we would append a suffix like `-poa` to the end of the filename (e.g., `document-name-poa.[extension]`) in the backend and send this filename to the API. This would allow us to reliably identify POA documents internally without fully replacing the original filename.
-        - This approach would require frontend and backend changes. On the frontend, we would strip the `-poa` suffix before displaying the filename so that users would continue to see the original name they uploaded. this would required multiple frontend changes to remove the suffix when rendering the filename in the UI. We would also need to update the call that we make to the backend code to show that this is for a POA. In the backend we would append the `-poa` suffix upon upload.
-        - This option would preserve the original filename for the user and be less visually disruptive/confusing.
-        - It would introduce logic that we have to remember to strip whenever we want to use it and adds a risk of future bugs being introduced.
+          - When a file is uploaded we would append a suffix like `-poa` to the end of the filename (e.g., `document-name-poa.[extension]`) in the backend and send this filename to the API. This would allow us to reliably identify POA documents internally without fully replacing the original filename.
+          - This approach would require frontend and backend changes. On the frontend, we would strip the `-poa` suffix before displaying the filename so that users would continue to see the original name they uploaded. this would required multiple frontend changes to remove the suffix when rendering the filename in the UI. We would also need to update the call that we make to the backend code to show that this is for a POA. In the backend we would append the `-poa` suffix upon upload.
+          - This option would preserve the original filename for the user and be less visually disruptive/confusing.
+          - It would introduce logic that we have to remember to strip whenever we want to use it and adds a risk of future bugs being introduced.
    
 3. Add a database table in vets-api to track that the document is POA.
-  - We could create a new database table in `vets-api` to explicitly track whether an uploaded document is a Proof of Attendance (POA).
-  - This table would store a reference to the `document ID` along with a `flag indicating that it is a POA document`.
-  - Creating our own tracking layer would give us full control over how POA documents are identified and queried, but it would introduce ongoing maintenance costs, added complexity, and potential data consistency issues with the API.
+    - We could create a new database table in `vets-api` to explicitly track whether an uploaded document is a Proof of Attendance (POA).
+    - This table would store a reference to the `document ID` along with a `flag indicating that it is a POA document`.
+    - Creating our own tracking layer would give us full control over how POA documents are identified and queried, but it would introduce ongoing maintenance costs, added complexity, and potential data consistency issues with the API.
 
 ### Reccommendation
 
