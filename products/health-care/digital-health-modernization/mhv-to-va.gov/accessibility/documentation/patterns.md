@@ -9,6 +9,12 @@ Last updated: 12 Feb 2026
 - Jump to patterns:
   - [Tool/Page Alert](#toolpage-alert)
   - [Feature/Section Alert](#featuresection-alert)
+  - [Item Feedback Alert](#item-feedback-alert)
+
+### Shared rationale
+The following guidance applies to all Static Alert patterns.
+
+  - Static alert: No Role. If the alert is a static alert that exists on the page when the page gets loaded, it doesn’t need a role. — Excerpted from VADS [Alert aria-role guidance](https://design.va.gov/components/alert/#assign-an-appropriate-aria-role)
 
 ### Relevant standards
 The following accessibility standards are supported by the Static Alerts pattern guidance.
@@ -43,7 +49,6 @@ The following accessibility standards are supported by the Static Alerts pattern
   - In most cases, the standard Alert (in all of its variations) should be placed directly below the intro text, near the top of the page. — Excerpted from VADS [Alert placement guidance](https://design.va.gov/components/alert/#web-4)
   - Location: After page title. — Guidance from VADS content style guide for this type of [alert messages](https://design.va.gov/content-style-guide/error-messages/access#system-downtime).
   - Alert - Expandable is only to be used within the contents of a page, not as a page-level alert. — Excerpted from VADS [Expandable Alert usage guidance](https://design.va.gov/components/alert/alert-expandable/#when-to-use-alert---expandable)
-  - Static alert: No Role. If the alert is a static alert that exists on the page when the page gets loaded, it doesn’t need a role. — Excerpted from VADS [Alert aria-role guidance](https://design.va.gov/components/alert/#assign-an-appropriate-aria-role)
 
 #### Feature/Section Alert
 
@@ -51,11 +56,25 @@ The following accessibility standards are supported by the Static Alerts pattern
 
 - Guidance
   - Use for unprompted feature- or section-specific messages.
-  - Place directly below the  heading of the relevant section.
+  - Place directly below the heading of the relevant section.
   - Use a Standard or Expandable Alert component for this type of alert. Use a Slim Alert only on pages with more than one alert.
   - Focus management: If the alert is dismissible, move focus back to the section heading when the alert is dismissed (note that Expandable Alerts cannot be dismissible).
   - Role attribute: None
 - Rationale
   - Sub-alerts on the page. When your page has more than 1 alert and you are using the Standard and Slim alerts to create a hierarchy of alerts within the page. — Excerpted from VADS [Slim alerts usage guidance](https://design.va.gov/components/alert/#web-3)
   - When a standard Alert is applicable to a specific section of content on a page, it should be placed directly below the header of that section. — Excerpted from VADS [Alert placement guidance](https://design.va.gov/components/alert/#web-4)
-  - Slim alerts related to a form field or section should be placed below the label, legend, or section header. — Excerpted from VADS [Alert placement guidance](https://design.va.gov/components/alert/#web-4)
+ 
+#### Item Feedback Alert
+
+<img width="264" height="303" alt="Screenshot of alert in a medication card after the card content and before the call to action" src="../files/alert-static-item-feedback.png" />
+
+- Guidance
+  - Use for static feedback in response to user action related to a specific content item.
+  - Place directly below the relevant content and above the call to action.
+  - Use the Slim Alert variant.
+  - Focus management: If the alert is dismissible, move focus to the next relevant actionable item (or back to the item heading if the next actionable item is not related).
+  - Role attribute: None
+- Rationale
+  - **User feedback.** Use Alert for feedback messages that respond to an action a user has taken and to draw their attention to something that they need to correct or to confirm successful completion of a task. These messages use success and error variations. — Excerpted from VADS [Alerts usage guidance](https://design.va.gov/components/alert/#additional-uses-of-an-alert)
+  - **Sub-alerts on the page.** When your page has more than 1 alert and you are using the Standard and Slim alerts to create a hierarchy of alerts within the page. This does not mean stacking alerts on top of one another, this means placing them appropriately throughout the page. It can also be appropriate to convey multiple statuses using a combination of headers, text, and the Slim alert variation. An example of a sub-alert is the Autosave alert. — Excerpted from VADS [Slim alerts guidance](https://design.va.gov/components/alert/#web-3)
+  - W**ithin cards for information that is specific to that card.** Alerts within cards would be used in cases where an alert outside of the card would cause issues for hierarchy and clarity, especially if there are multiple cards within a collection. Excerpted from VADS [Slim alerts guidance](https://design.va.gov/components/alert/#web-3)
