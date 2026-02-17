@@ -366,14 +366,20 @@ Eight participants said they asked wanted to be able to delete a form they start
 1. Consider adding a second "United States" option to the "Country" dropdown where it fits alphabetically near the bottom of the list.
    - _Supporting evidence_: One participant using a scroll wheel to traverse the dropdown list was unable to access "United States" at the top of the dropdown list, and he then looked near the bottom of the list where it would fit alphabetically, and it wasn't there either. 
 
-1. Standardize on whether Optional will be always or never be shown, and don't be inconsistent about sometimes showing it and other times not.
-   - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that don't say "Required" or "optional", such as "VA file number".
+1. Standardize on whether the word "optional" will be always or never be shown, and don't be inconsistent about sometimes showing it and other times not.
+   - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "optional", such as "VA file number".
 
 1. Make capitalization consistent on the "SSN/VA file number" page: "VA file number" (field name) vs. "VA File number" (hint text).
    - _Supporting evidence_:  The field name "VA file number" has only "VA" capitalized, whereas the hint text also capitilizes the word "File".
 
 1. Consider separating the "Place of birth" field into separate "City" and "State" fields.
      - _Supporting evidence_: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. 
+
+1. Explore prefilling the Veteran's name, address, and other information, which we know once they've signed in. --> Jeana is working on this (**IS THIS STILL TRUE?**)
+     - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in.
+
+1. Explore providing a dropdown list of VA regional offices from which users can select.      
+     - _Supporting evidence_: Two participants weren't sure what to enter. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other said that they wanted to select from a list of offices. 
 
 ## Product User and Business Outcomes
 
