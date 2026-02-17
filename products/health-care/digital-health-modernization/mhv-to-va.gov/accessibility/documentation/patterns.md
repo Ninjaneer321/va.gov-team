@@ -6,6 +6,10 @@ Last updated: 12 Feb 2026
 
 ## Static Alerts
 
+- Jump to patterns:
+  - [Tool/Page Alert](#toolpage-alert)
+  - [Feature/Section Alert](#featuresection-alert)
+
 ### Relevant standards
 The following accessibility standards are supported by the Static Alerts pattern guidance.
 
