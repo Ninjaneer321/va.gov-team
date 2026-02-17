@@ -322,9 +322,11 @@ Eight participants said they asked wanted to be able to delete a form they start
     1. A screen reader user entered the postal code and then a space in order to hear JAWS read it. This triggered an error because there was a space entered into that field and so too many characters. The participant said that they encounter this same issue on many forms, so they realized what the problem was and how to correct it.
      1. One participant entered "1-" at beginning of phone number, which resulted in an error because there were more than 10 digits.
  
-1. One participant expressed his appreciation for our taking the time to learn from Veterans...
+1. One participant expressed his appreciation for us taking the time to learn from Veterans:
+    > *"I'm happy you guys are doing this because I go to other kinds of websites, and it's just a nightmare trying to get through--the way they've laid stuff out. So I'm very happy that you guys asked for feedback for the user experience. It's fantastic! Thanks" (p7).*
 
 1. Participants had many positive comments on prototype features that worked well for them: 
+     1. 
 
 
 1. Three participants had technical issues with their assistive tech...
