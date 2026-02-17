@@ -499,16 +499,16 @@ The focus of our UAT was to specifically ensure that complex claims was function
 
 ## Recommendations
 
-1. **Recommendation:** Due to the different entry points into complex claims, there are some issues with routing we need to consider, but we will re-evaluate the breadcrumbs and work with Platform IA in order to improve the navigation. 
+1. **Recommendation:** Due to the different entry points into complex claims, there are some issues with routing we need to consider, but we will re-evaluate the breadcrumbs and work with Platform IA in order to improve the navigation - [Ticket 132994](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132994)
 
-2. **Recommendation:** Audit input fields and ensure that each has a concise and accurate label and hint text. Work with stakeholders to provide valuable hint text language for fields where it is missing.
+2. **Recommendation:** Audit input fields and ensure that each has a concise and accurate label and hint text. Work with stakeholders to provide valuable hint text language for fields where it is missing - [Ticket 133000](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133000)
 
-3. **Recommendation:** Build upon the existing language telling users their data will be saved, and explore ways of visually highlighting saved progress as the user navigates the flow.
+3. **Recommendation:** Build upon the existing language telling users their data will be saved, and explore ways of visually highlighting saved progress as the user navigates the flow - [Ticket 133005](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133005)
 
-4. **Recommendation:** Rewrite deductible copy to explicitly state that the estimated amount may not take into account the deductible. 
+4. **Recommendation:** Rewrite deductible copy to explicitly state that the estimated amount may not take into account the deductible - [133007](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133007)    
 Blue sky goal: Investigate an interactive element that is tailored to each Veteran’s status and input.
 
-5. **Recommendation:** Update the appointment list and and claim detail page to add clarity about which appointments the user can file claims for and the state of the claim, if they've already started or submitted a claim.
+5. **Recommendation:** Update the appointment list and and claim detail page to add clarity about which appointments the user can file claims for and the state of the claim, if they've already started or submitted a claim - [Epic 129974](https://github.com/department-of-veterans-affairs/va.gov-team/issues/129974) and Ticket [121166](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121166).
 
 
 ## UAT Summary   
@@ -548,13 +548,6 @@ This research supports measurement of this KPI by:
 2. The travel pay team has plans to launch additional functionality for users filing for travel pay on community care appointments in Q2 of 2026. Ideally, we’d also like to gather additional data on the complex claims flow with a targeted survey.
 3. Certain scenarios around complex mileage were not included in the MVP launch. These scenarios were planned for part of a later iteration and the flow correctly routes users back to the BTSSS portal. The travel pay team has started investigation into complex mileage and has planned for further usability testing.
 
-
-> [!TIP]
-> Once your **Recommendations** and **Next Steps** are finalized, you can quickly turn them into GitHub issues using the reusable Copilot prompt in [`create-issues-from-research-findings-prompt.md`](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/create-issues-from-research-findings-prompt.md).  
-> **After creating issues, add their hyperlinks back here under their corresponding "Recommendation" or "Next Step."**
-> 
-> If you need Github Copilot Enterprise Access, please complete this [Issue](https://github.com/department-of-veterans-affairs/copilot-onboarding/issues/new?template=copilot-onboarding.yml).
-
 ## Further research needed
 
 While we completed accessibility reviews and utilized existing design components, this product could benefit from further UAT focused on users with assistive tech.
@@ -583,14 +576,6 @@ While we completed accessibility reviews and utilized existing design components
 
 *Include any relevant secondary research, e.g., web analytics, SME interviews.* -->
 
-> [!IMPORTANT]
-> **After completing the demographic information below and saving this file**, use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically populate the YAML frontmatter section at the top of this document with: 
-> - Participant demographics (counts, age ranges, education levels, etc.)
-> - Key findings and recommendations
-> - Research goals and methodology
-> - Appropriate research repository tags
->
-> The prompt will parse the demographic data from this section and structure it correctly for the frontmatter's nested YAML format. 
 
 ### Research participants 
 _Complete the demographic info below using information from the Perigean recruitment survey. For those items where you didn't have participants, please mark with "0". You can use "unknown" if you aren't sure if your participants had a characteristic._ 
