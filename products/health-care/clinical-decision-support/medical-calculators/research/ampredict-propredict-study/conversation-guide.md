@@ -11,21 +11,16 @@ description: "A template for moderating research sessions including logistics, i
 # Conversation Guide for Testing Time to Complete Calculation in AMPREDICT and PROPREDICT
 
 ## Moderator logistics 📋✅
-### 2-3 days before the session
+### Pre-test checklist
 
 `List and complete any project-specific setup tasks for this study below:`
 
 - [ ] Email with instructions to access CDS tools has been sent along with a link to the pre-task survey
 - [ ] Confirm CPRS is working
 - [ ] Share session schedule for notetaker/observers
-
-
-### Day of the session
-
-> [!TIP]
-> - Create a DM group in Slack for real-time feedback from observers.
-> - Mute your Slack notifications.
-> - Send out the Notetaker and Observer Guide
+- [ ] Create a DM group in Slack for real-time feedback from observers.
+- [ ] Mute your Slack notifications.
+- [ ] Send out the Notetaker and Observer Guide
 
 ### Starting the session
 
@@ -42,7 +37,9 @@ Thanks for joining us today! My name is Natalie and I'm a Senior Product Designe
 Today we're going to talk about AMPREDICT/PROPREDICT -- both the online tool and the new CDS calculator. Were you able to complete the pre-task questionnaire we sent via email recently?
 
 [If the survey hasn't been completed, share a link in the chat and ask participant to complete before test begins.]
+
 [AMPREDICT pre-task survey link: https://forms.office.com/g/5s0vbeTu10]
+
 [PROPREDICT pre-task survey link: https://forms.office.com/g/Mz84ZrsMKD]
 
 Before we start, I have a few things that I want to go over with you:
