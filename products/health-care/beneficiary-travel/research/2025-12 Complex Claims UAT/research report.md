@@ -406,7 +406,7 @@ pattern_triggers:
 
 * **Although there is content on the intro page that informs users that claims in progress will be saved, participants did not express confidence that their work would be available if they left and returned.**
 
-  > Moderator: “If you wanted to leave your claim and come back to it, do you imagine that your information would be saved?”
+  > Moderator: “If you wanted to leave your claim and come back to it, do you imagine that your information would be saved?”   
   > P7: “No, it doesn’t appear that it would be, because I mean, it’s a, you know, it’s not like much would be lost. There’s only, you know, a couple of bits of information, but there is no, you know, save and exit, or save and continue later.”
   > [Upon discovering it was saved] P7: “That’s nice. I mean, there was no, as I as I could tell, there was no indication, previously that it would, you know, save your progress.”
 
