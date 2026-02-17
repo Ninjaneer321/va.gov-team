@@ -4,9 +4,9 @@
 
 ### Sprint Goal summary
 
-- **SPRINT GOAL (Product):** Finalize and publish a delivery roadmap through the end of the Period of Performance (July), incorporating Sprint 2 learnings and updated sequencing.
-- **SPRINT GOAL (Eng):** Validate CHAMPVA submission-level status implementation in My VA in partnership with the My VA team and SME engineer, achieving alignment on integration approach and next steps.
-- **SPRINT GOAL (Eng):** Document the proposed technical approach for integrating CHAMPVA into the existing Claims Status Tool (CST), building on current CST documentation and identifying required extensions.
+- **SPRINT GOAL (Product):** Finalize and publish a delivery roadmap through the end of the Period of Performance (July)
+- **SPRINT GOAL (Eng):** Partner with My VA SME Engineer to test, validate, and deploy CHAMPVA submission-level status implementation in My VA 
+- **SPRINT GOAL (Eng):** Build on current CST documentation to begin proposing technical approach for integrating CHAMPVA into CST
 - **SPRINT GOAL (UX):** Explore and document the logged-in experience for CHAMPVA users (including non-Veterans) across My VA and the Status Tool, identifying access constraints and necessary user flow updates.
 
 
