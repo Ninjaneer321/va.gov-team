@@ -27,20 +27,6 @@ description: "A template for moderating research sessions including logistics, i
 > - Mute your Slack notifications.
 > - Send out the Notetaker and Observer Guide
 
-### Notetaker and Silent Obeserver Guide
-- Be a silent observer. If you have a question for the participant, ask the facilitator via a Slack DM and they'll accommodate it if appropriate.
-- If you can notetake, please do! It helps researchers a lot to see what you captured. There’s a note taking template in this Mural with screenshots. If you find it easier to write your notes or use a word doc, that's fine too! If you take running notes, please be sure to make a clear reference to the screen in question or the scenario being mentioned.
-- Write what you hear and see as much as possible. For some it can be easier to write in first person, as it is said, so that you don't need to paraphrase anything. Try to capture what they said without adding your own interpretation of what they meant. E.g. "I'm not sure about this checkbox" does not equal "Doesn't understand checkbox."
-- Share your notes back with the facilitator via Slack if taken outside of the mural. Do not include ANY PII in this chat.
-- For design testing, try to write down things that aren't said—for instance, when someone misunderstood some copy or clicked the wrong element. It helps us figure out what needs to be revisited.
-- Share a few raw impressions with the facilitator via Slack or in the notetaking document after the interview is done, if possible. It helps with synthesis!
-
-**Protecting PII**
-- It's important to protect the privacy of our VHA staff participants AND any Veterans. 
-- Do not include the participants name or other identifiers -- such as a very specific title that can be easy to identify them with in your notes. Instead, use a general role description, such as "primary care provider" and "also works in informatics"
-- In the event a participant needs to share their screen or a tool with an actual patient (since test patients don't always work to show how the tool functions), stop the recording before they share. DO NOT RECORD THE PARTICIPANT'S SCREEN IF THEY ARE SHOWING A REAL PATIENT.
-
-
 ### Starting the session
 
 > [!TIP]
@@ -51,14 +37,13 @@ description: "A template for moderating research sessions including logistics, i
 
 # Intro - 5 minutes
 
-Thanks for joining us today! My name is Natalie and I'm a Senior Product Designer for the CDS Medical Calculators team. Rosemary, our Principal Researcher, is here to help with note taking and observing the session. Is that OK?
-> [!TIP]
-> - Ask the notetaker to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)
-> - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
+Thanks for joining us today! My name is Natalie and I'm a Senior Product Designer for the CDS Medical Calculators team. Rosemary, our Principal Researcher, is here to help with note taking and observing the session. Is that OK? 
 
 Today we're going to talk about AMPREDICT/PROPREDICT -- both the online tool and the new CDS calculator. Were you able to complete the pre-task questionnaire we sent via email recently?
 
 [If the survey hasn't been completed, share a link in the chat and ask participant to complete before test begins.]
+[AMPREDICT pre-task survey link: https://forms.office.com/g/5s0vbeTu10]
+[PROPREDICT pre-task survey link: https://forms.office.com/g/Mz84ZrsMKD]
 
 Before we start, I have a few things that I want to go over with you:
 
