@@ -286,9 +286,14 @@ Two participants didn't notice the "Expand all" link, one of whom said that the 
 One participant said that he liked the "Edit" buttons so you don't have to go back to previous form pages to make changes.
 
 
-### Finding 5: XX had some accessibility issues ...
+### Finding 5: X participants encountered some accessibility issues while filling out the form
 
-### Finding 6: Participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted. 
+1. P3 was using the JAWS screenreader on desktop with mouse echo (which announces whatever is under the mouse), and **JAWS didn't announce any "Country" select/dropdown options when the dropdown was open and the mouse was over an item**. He had to click to select an option before it was announced by the screen reader. This is a known issue that affects screen readers and mouse control of dropdown menus, which unfortunately is not fixable.
+
+1. 
+
+
+### Finding 6: Most participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted. 
 
 Most participants (6 of 7) assumed that after 60 days, their saved form data would be deleted. **Almost everyone wanted to be notified before that via email and/or text**, with one participant mentioning a notification in the VA mobile app. Most people suggested the first notification should be within 1-7 days of having selected "Finish later", and then once a week after that. 
 
@@ -311,7 +316,6 @@ Eight participants said they asked wanted to be able to delete a form they start
 
         > *“Just your name and Social Security number--they should be able to find your records completely" (p3).*
      1. **Place of birth**: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. In the previous round of usability testing, we also heard this. 
-
 
 1. **All participants who encountered an error while filling out the form (6 of 7) were able to fix it themselves**. Some of the errors likely resulted because the participants were entering fake data (e.g., name, social security number) as instructed, in order to not share PII. Below are descriptions of some of the issues.
 
