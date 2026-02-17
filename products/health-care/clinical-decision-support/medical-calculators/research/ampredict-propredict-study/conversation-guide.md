@@ -46,17 +46,11 @@ Before we start, I have a few things that I want to go over with you:
 
 - **This entire session should take about 20 minutes.** For the session today, we want to capture the time it takes to complete a few tasks. I'll ask you to do something and then I'll want you to complete it as you normally would. Please don't feel rushed to complete the task. This is not a race, it's a way for us to gather benchmarking data on how long it realistically takes to complete a calculation.
     
-- **Your participation in this session is completely voluntary.** You do not have to participate if you don't want to. Your responses will remain confidential and your anonymity protected. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Please let me know.
+- **Your participation in this session is completely voluntary.** You do not have to participate if you don't want to. Your responses will remain confidential and your anonymity will be protected. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Please let me know.
 
 # Warm-up Questions (Optional) - 2 minutes
 
-Before we look at the calculator, I'd like to learn a little bit about you. 
-
-> [!TIP]
-> - These are placeholder questions, but work well across a lot of situations. Adjust as you need for your study.
-> - If it's a prior participant, consider skipping or modifying the intro questions or following up on something you previously learned from them.
-
-1. Can you tell me about your current role at the VA and how long have you been at the VA?
+Before we look at the calculator, I'd like to learn a little bit about you. Can you tell me about your current role at the VA and how long have you been at the VA?
 
 ## Timed Task 1 - 5-7 minutes
 
@@ -64,13 +58,12 @@ This first task will involve the online AMPREDICT/PROPREDICT calculator.
 
 - Please open a patient in CPRS.
 - Please navigate to: https://www.ampdecide.org/ampredict/risk-calculator OR https://prodecide.org/risk-calculator (share link in chat). Please don't enter any data yet.
-- When you are ready please begin sharing your screen so the online calculator is visible.
+- When you are ready, please begin sharing your screen so the online calculator is visible.
 
 [Screen sharing begins.]
 
-- Before you start entering data, please let me know so I can start the timer.
-- And please let me know when you have completed a calculation so I can stop the timer.
-- Are you ready to begin? 
+- Before you begin entering data, please let me know so I can start the timer. And, please let me know when you have completed a calculation so I can stop the timer.
+- Are you ready to begin? If so, I'll start the timer now.
 
 [Start timer upon verbal confirmation.]
 
