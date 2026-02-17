@@ -172,6 +172,7 @@ Research sessions were conducted over Zoom during January 12-21, 2026. Sessions 
    - 4 used a screen reader
    - 1 used a screen magnifier
   - 4 were on a computer, and 5 were on a smart phone
+  - 4 had never filled out a VA form online before
 
 The assistive technology used by the 5 participants is summarized in the table below. 
 
