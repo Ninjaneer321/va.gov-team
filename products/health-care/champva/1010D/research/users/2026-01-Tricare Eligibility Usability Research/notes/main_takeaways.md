@@ -203,11 +203,22 @@ Main takeaway from the research sessions
 #### P14
 
 **UX Notetaker:**
+- non-definitive language was a big hang up (wanted more clarity)
+- wanted more communication between dod and va (expressed desire for tricare to have the vet info already if they determined they were eligible for tricare as part of the cva enrollment)
+- knows that sometimes va has wrong information on their side, so if she got an answer that they weren't found and she's confident everything is correct, she'd continue
+
 
 **Observer 1:**
+- The double negative and the red X on the eligibility summary card was confusing (for another participant) 
+- The color coding and icons were appreciated throughout - both in the alerts and the icons as easy visuals when scanning - even if they were getting tripped up in the exact content. 
+- The non-definitive language around the eligibility outcomes was called out as a negative and they mentioned wanting a connection to TRICARE for those who are eligible but not enrolled making it easier for them to get health coverage somewhere
+
 
 **Observer 2:**
-
+- Speak in definitive statements removing ambiguity, and eliminate double negatives
+- * Be sensitive removing to the best of your knowledge.
+- * Ability to save and return to finish application is desirable. * Would like better connectivity between DOD and VA systems to facilitate smoother access to benefits.
+- * Statement on Card style B was helpful in understanding eligibility (user did initially miss the sentence though). Desires an actionable link to Tricare and a seamless departure from CHAMPVA to get enrolled in TRICARE if not CHAMPVA eligible
 
 #### P15
 
