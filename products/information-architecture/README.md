@@ -44,7 +44,7 @@ In addition, well-organized content that utilizes clear and relevant labeling al
 7. Focused navigation - Define a clear and simple purpose to navigation menus to ensure visitors understand the types of information it leads to.
 8. Growth - Design a flexible structure that allows for growth of new content and functionality over time.
 
-## IA Principles at VA (DRAFT)
+## IA Design Principles at VA 
 
 1. USER-CENTERED DESIGN
     - Conduct user research to understand how people categorize and search for information 
@@ -62,6 +62,18 @@ In addition, well-organized content that utilizes clear and relevant labeling al
     - Provide clear CTAs and focused pathways to and through information to reduce cogntive load, friction, and burden.
 7. SCALABILITY
     - Design a flexible IA and organizational system that allows content and information to grow and evolve over time
+  
+
+## When to think about IA
+IA shares many of the same principles as good design and content strategy. Think about IA throughout the planning and design process, including when you start on any of these efforts:
+
+- Launching a new feature or content on VA.gov or within the VA Health and Benefits app
+- Adding a new category or subsection to the VA Health and Benefits app
+- Adding a new subdomain or subdirectory to VA.gov
+- Rewriting or redesigning a feature or content and needing to split or merge pages or screens
+- Improving the findability of an existing feature, content, or screen
+- Removing a feature, content page or screen
+- Changing the UX of global navigational elements or on-page buttons or actions
 
 
 ## Key information
