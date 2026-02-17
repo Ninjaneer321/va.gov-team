@@ -1,5 +1,5 @@
 # Ask VA: Prefill topic questions with NLP data model	
-This doc gives an overview of the **Prefill topic questions with NLP data model** Ask VA initiative. View Ask VA's product outline [in this GitHub doc](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/Product%20outline.md).
+This doc gives an overview of the **Prefill topic questions with Natural Language Processing (NLP) data model** Ask VA initiative. View Ask VA's product outline [in this GitHub doc](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/Product%20outline.md).
 
 - Start date: July 2024
 - Phase 1 Launch date: May 2026
@@ -14,7 +14,7 @@ This doc gives an overview of the **Prefill topic questions with NLP data model*
 - [Supporting Documentation](#supporting-documentation)
 
 ## Overview
-Submitters have to answer many questions in the Ask VA form than the typical contact form. There's opportunity to use an AI/NLP data model to accurately predict queue given question text and other variables that determine queue routing.
+Submitters have to answer many more questions in the Ask VA form than the typical contact form. There's opportunity to use an AI/NLP data model to accurately predict queue given question text and other variables that determine queue routing.
 
 As a first step to test, if the model is successful, we could present predicted Category to the submitter. The submitter can then simply review the prefilled information rather than answer these questions. Answers to these questions currently determine routing of the inquiry.
 
@@ -90,8 +90,8 @@ It also includes these OKRs:
 ### Our team
 |Role|Assigned|Contact|
 |:---|:---|:---|
-|Product owner (OCTO), Designer|Becky Phung|becky.phung@va.gov|
-|Product manager|Stephanie Vargo|stephanie.vargo@va.gov|
+|Product Owner (OCTO), Designer|Becky Phung|becky.phung@va.gov|
+|Product Manager|Stephanie Vargo|stephanie.vargo@va.gov|
 |Technical Lead|Jerek Shoemaker|jerek.shoemaker@va.gov|
 |AI Lead|Matt Floyd|matthew.floyd@va.gov|
 |Design Lead|Danielle Oppendike|danielle.oppendike@va.gov|
@@ -101,7 +101,7 @@ It also includes these OKRs:
 |Role|Assigned|Contact|
 |:---|:---|:---|
 |Product Owner (VES, AVA CRM)|Natalie Morales|natalie.morales@va.gov|
-|Project Executive Sponsor(VEO)|Kathleen Reavy|kathleen.reavy@va.gov|
-|Product Owner(VEO)|Jaime Rocha|jaime.rocha@va.gov|
+|Project Executive Sponsor (VEO)|Kathleen Reavy|kathleen.reavy@va.gov|
+|Product Owner (VEO)|Jaime Rocha|jaime.rocha@va.gov|
 |Data/AI Digital Corps Fellow|Lylybell Teran|lylybell.teran@va.gov
 
