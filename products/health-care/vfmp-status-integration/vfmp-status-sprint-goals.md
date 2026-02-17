@@ -4,7 +4,7 @@
 
 ### Sprint Goal summary
 
-- **SPRINT GOAL (Product):** Create a delivery roadmap through the end of the Period of Performance (July).
+- **SPRINT GOAL (Product):** Create product documentation, including product outline and a delivery roadmap through the end of the Period of Performance (July).
 - **SPRINT GOAL (Eng):** Implement CHAMPVA submission-level statuses in My VA.
 - **SPRINT GOAL (UX):** Explore and document user experience for Status Tool User with a 10-10d submission rejected due to missing OHI.
 
