@@ -80,14 +80,13 @@ Before we look at the calculator, I'd like to learn a little bit about you.
 
 Next we’re going to look at the online AMPREDICT/PROPREDICT calculator.  
 
-- Please navigate to: https://www.ampdecide.org/ampredict/risk-calculator OR https://prodecide.org/risk-calculator (share link in chat)
-- For the session today, we want to capture the time it takes to complete a few tasks. I'll ask you to do something and then I'll want you to complete it as you normally would. Please don't feel rushed to complete the task, just move through the workflow as you normally would. This is not a race, it's a way for us to gather benchmarking data on how long it realistically takes to complete a calculation.
 - Now, please open a patient in CPRS so you can input their data into the calculator.
+- Please navigate to: https://www.ampdecide.org/ampredict/risk-calculator OR https://prodecide.org/risk-calculator (share link in chat). Please don't enter any data yet.
 - When you are ready please begin sharing your screen so the online calculator is visible.
 
 [Screen sharing begins.]
 
-- Next I will be timing how long it takes to complete a calculation.
+- For the session today, we want to capture the time it takes to complete a few tasks. I'll ask you to do something and then I'll want you to complete it as you normally would. Please don't feel rushed to complete the task. This is not a race, it's a way for us to gather benchmarking data on how long it realistically takes to complete a calculation.
 - Before you start entering data, please let me know so I can start the timer.
 - And please let me know when you have completed a calculation so I can stop the timer.
 - Are you ready to begin? 
