@@ -225,7 +225,7 @@ We also monitored additional scenarios, or subtasks, that were not considered cr
 3. **Users weren’t completely confident that their claim progress was being saved.**
    * Some participants assumed the system autosaves, based on previous VA experience, but some noted that the “Save in Progress” indicator was not present, which caused doubt.
   
-4. **Users weren’t completely confident that their claim progress was being saved.**
+4. **Content about travel pay complexities, especially deductibles, is confusing.**
    * Participants struggled to understand deductible language and how it would affect their estimated reimbursement totals. Additionally, while users were able to add mileage, several of them did not understand how mileage was calculated or how gas costs factored into their trip.   
 
 
@@ -236,6 +236,46 @@ We also monitored additional scenarios, or subtasks, that were not considered cr
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
 
 ### Finding 1: UI is intuitive and usable, but critical flow and navigation improvements will reduce friction.   
+
+```yaml key-finding-labels
+finding_id: 1
+finding_title: "UI is intuitive and usable, but critical flow and navigation improvements will reduce friction"
+labels:
+  finding_types:
+    - usability_issue
+    - positive_feedback
+    - process_inefficiency
+  severity_levels: medium
+  research_themes:
+    - navigation_wayfinding
+    - user_expectations
+    - mental_models
+    - task_completion
+    - user_satisfaction
+  product_areas:
+    - health_care
+    - claims_appeals
+  journey_stages:
+    - application
+    - ongoing_management
+  user_characteristics:
+    - experienced_user
+  emotional_states:
+    - empowered
+    - confident
+  design_system_patterns:
+    - breadcrumbs
+    - buttons_actions
+    - file_upload
+    - review_edit_patterns
+  temporal_patterns:
+    - emerging_trend
+service_journey_mapping:
+    - "Travel Claim Filing"
+pattern_triggers:
+    - "Journey Friction Patterns"
+```
+
 * **Participants reliably added, edited, and deleted expenses and uploaded receipts with metadata.**
 
      > “I see where it says ‘add more expenses’ here at the top, just under where it says ‘your unsubmitted expenses,’ so I would probably click that. - P6
@@ -275,7 +315,44 @@ We also monitored additional scenarios, or subtasks, that were not considered cr
   > Moderator: ““Note that there is a little back arrow. If you were to tap it, where would that take you?”
   > P9: "Good question. Uh, trying to remember what the page was before this one. I guess it takes me back to the, uh, it would take me back to the page where I’m saying, where am I leaving from?”
 
-### Finding 2: Field labels and hint text are essential; missing or vague guidance causes user error.     
+### Finding 2: Field labels and hint text are essential; missing or vague guidance causes user error.   
+
+```yaml key-finding-labels
+finding_id: 2
+finding_title: "Field labels and hint text are essential while missing or vague guidance causes user error"
+labels:
+  finding_types:
+    - content_confusion
+    - usability_issue
+  severity_levels: high
+  research_themes:
+    - content_comprehension
+    - form_completion
+    - user_expectations
+    - help_support
+  product_areas:
+    - health_care
+    - claims_appeals
+  journey_stages:
+    - application
+  user_characteristics:
+    - first_time_user
+  emotional_states:
+    - confused
+    - frustrated
+  design_system_patterns:
+    - form_fields
+    - help_text_tooltips
+    - form_validation
+    - labels
+  temporal_patterns:
+    - recurring_issue
+service_journey_mapping:
+    - "Travel Claim Filing"
+pattern_triggers:
+    - "Form Validation Cascade"
+```
+
 * **When entering information into the expense pages, participants praised hint text that clarified expected input, but were uncertain how to use fields like “description” when no guidance was present. The ambiguous fields cause additional burden on the user.**
 
   > “You know, it’s nice that you have the clarification that even if it’s the same as the, you know, check-in or check-out, to go ahead and add the date on the receipt, and I’m sure that’s helpful on the backend to make sure that they’re looking at the right receipt.” - P7
@@ -287,13 +364,92 @@ We also monitored additional scenarios, or subtasks, that were not considered cr
   > “The description’s a little vague, in my opinion [...] Because it seems like it’s doing, like, it’s asking, why did you choose this public transportation? It’s kind of the same thing as maybe the description? I don’t know, does it need to be both, you know what I’m saying?” - P8
 
 ### Finding 3: Users weren’t completely confident that their claim progress was being saved.     
+
+```yaml key-finding-labels
+finding_id: 3
+finding_title: "Users weren't completely confident that their claim progress was being saved"
+labels:
+  finding_types:
+    - usability_issue
+    - content_confusion
+  severity_levels: high
+  research_themes:
+    - trust_credibility
+    - user_expectations
+    - mental_models
+    - content_comprehension
+  product_areas:
+    - health_care
+    - claims_appeals
+  journey_stages:
+    - application
+    - ongoing_management
+  emotional_states:
+    - anxious
+    - uncertain
+  trust_factors:
+    - confirmation_needed
+    - status_uncertainty
+    - process_transparency
+  design_system_patterns:
+    - alerts_notifications
+    - save_in_progress
+    - success_messaging
+  temporal_patterns:
+    - recurring_issue
+service_journey_mapping:
+    - "Travel Claim Filing"
+pattern_triggers:
+    - "Waiting Period Anxiety"
+    - "Progress Indicator Confusion"
+```
+
 * **Although there is content on the intro page that informs users that claims in progress will be saved, participants did not express confidence that their work would be available if they left and returned.**
 
   > Moderator: “If you wanted to leave your claim and come back to it, do you imagine that your information would be saved?”
   > P7: “No, it doesn’t appear that it would be, because I mean, it’s a, you know, it’s not like much would be lost. There’s only, you know, a couple of bits of information, but there is no, you know, save and exit, or save and continue later.”
   > [Upon discovering it was saved] P7: “That’s nice. I mean, there was no, as I as I could tell, there was no indication, previously that it would, you know, save your progress.”
 
-### Finding 4: Users weren’t completely confident that their claim progress was being saved.     
+### Finding 4: Users weren’t completely confident that their claim progress was being saved.    
+
+```yaml key-finding-labels
+finding_id: 4
+finding_title: "Content about travel pay complexities, especially deductibles, is confusing"
+labels:
+  finding_types:
+    - content_confusion
+    - unmet_need
+  severity_levels: high
+  research_themes:
+    - content_comprehension
+    - user_expectations
+    - pain_points
+    - mental_models
+  product_areas:
+    - health_care
+    - claims_appeals
+  journey_stages:
+    - application
+  user_characteristics:
+    - first_time_user
+  emotional_states:
+    - confused
+    - overwhelmed
+  trust_factors:
+    - data_accuracy_concern
+    - process_transparency
+  design_system_patterns:
+    - form_fields
+    - help_text_tooltips
+    - typography_hierarchy
+  temporal_patterns:
+    - recurring_issue
+service_journey_mapping:
+    - "Travel Claim Filing"
+pattern_triggers:
+    - "Cognitive Overload"
+```
+
 * **Although information about the deductible is present in the estimated reimbursement section, no participants truly understood how the deductible affected their current payment.**   
 
   > “And that’s…and I’ve come across this as well, the deductible information, and I think it doesn’t mention it on the app, but it does online, so I’ve seen it before. And it is a bit confusing, it’s like, you know, what is the, the deductible? I-I-It just doesn’t make sense.” - P7
