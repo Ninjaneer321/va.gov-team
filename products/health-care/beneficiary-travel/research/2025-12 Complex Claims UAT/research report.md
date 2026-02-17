@@ -131,8 +131,7 @@ tags:
 
 **Contacts:** Kristen Faiferlick, Liza McRuer
 
-**[Research Readout (PDF)](link-here)**  TBD
-*Add a link to your research readout deck, if available.*
+**[Research Readout (PDF)](https://dvagov.sharepoint.com/:b:/r/sites/HealthApartment/Shared%20Documents/TravelPay/Research/Complex%20Claims%20UAT%20Research%20Deck%20-%20January%202026.pdf?csf=1&web=1&e=r3AVYt)**  
 
 **Jump to:**
 - [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
