@@ -118,7 +118,7 @@ Next, we'll move on to the CDS Medical Calculators tool and perform the same cal
 
 ## Task 2 debrief - 1 minute
 
-Great, thank you for completing that task. You can stop screen sharing now.
+Great, thank you for completing that task. You can stop screen sharing now. Do you have any questions or comments?
 
 [Screen sharing stops.]
 
