@@ -295,16 +295,19 @@ Eight participants said they asked wanted to be able to delete a form they start
 *Include insights that do not represent patterns but are still valuable.*  
 > **TIP:** These could be powerful user comments or unexpected issues worth noting
 
-1. Participants encountered a number of usability issues when filling out the form:
+1. Participants encountered a number of usability issues when filling out the Request Personal Records form:
 
      1. **"Your full name**: One participant encountered an error when they entered a full name (first-name middle-name last-name) that didn't match what they previously entered on the form (first-name middle-*initial* last-name). This seemed to the participant to be a bug in the form, since it asked for middle initial earlier but then asks for your full name at the end.
         > *"When you're doing government paperwork, when they want your full name, they want the full name...So, all your names written out" (p3).*
 
      1. **Additional records information**: Three of 7 participants said that they didn't know what kinds of information would be helpful to include. One participant said perhaps your parents' names or where you where stationed. Another participant said maybe a date range for your medical records.
      1. **Country**: One participant was using a scroll wheel to traverse the dropdown list but couldn't find "United States". When he scrolled to the top of list, the first option was "Afghanistan" (the second option), and when he scrolled to the bottom of the list where "United States" should be alphabetically, it wasn't there either. He kept on scrolling down then up, and eventually was able to see "United States" at the very top.
-     1. Confusion about **required vs. optional fields**: One participant didn't know that some fields (e.g., VA file number) were optional and tried to fill them all out. Another participant was confused by this same field because it didn't say "Required" or "Optional". They read the hint text that said you must enter *either* a Social Security number or VA File number. When they started typing in the "VA file number" field, the "Required" label switched to "VA file number", which surprised them.
-     1. **VA regional office name**: Two participants weren't sure what to enter. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other said that they wanted to select from a list of offices.
-     1. **Prefill**
+     1. Confusion about **required vs. optional fields**: One participant didn't know that some fields (e.g., VA file number) were optional and tried to fill them all out. Another participant was confused by this same field because it didn't say "Required" or "Optional". They read the hint text that said you must enter *either* a Social Security number or VA File number. When they started typing in the "VA file number" field, the "Required" label switched to "VA file number", which surprised them. In the previous round of usability testing, 4 participants were similarly confused by this field and whether you could continue without entering it.
+     1. **VA regional office name**: Two participants weren't sure what to enter. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other said that they wanted to select from a list of offices. In the previous round of usability testing, 3 participants were similarly confused by this field.
+     1. **Prefill**: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. In the previous round of usability testing, 1 participant similarly expected prefill.
+
+        > *“Just your name and Social Security number--they should be able to find your records completely" (p3).*
+     1. **Place of birth**: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. In the previous round of usability testing, we also heard this. 
 
 
 1. **All participants who encountered an error while filling out the form (6 of 7) were able to fix it themselves**. Some of the errors likely resulted because the participants were entering fake data (e.g., name, social security number) as instructed, in order to not share PII. Below are descriptions of some of the issues.
@@ -367,7 +370,10 @@ Eight participants said they asked wanted to be able to delete a form they start
    - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that don't say "Required" or "optional", such as "VA file number".
 
 1. Make capitalization consistent on the "SSN/VA file number" page: "VA file number" (field name) vs. "VA File number" (hint text).
-   - _Supporting evidence_:  The field name "VA file number" has only "VA" capitalized, whereas the hint text also capitilizes the word "File"o.  
+   - _Supporting evidence_:  The field name "VA file number" has only "VA" capitalized, whereas the hint text also capitilizes the word "File".
+
+1. Consider separating the "Place of birth" field into separate "City" and "State" fields.
+     - _Supporting evidence_: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. 
 
 ## Product User and Business Outcomes
 
