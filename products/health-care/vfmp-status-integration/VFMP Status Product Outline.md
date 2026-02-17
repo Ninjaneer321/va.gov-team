@@ -76,29 +76,29 @@
   - Why it matters: Operational efficiency gain  
 
 - **Status tool adoption & engagement:**  
-  - % of CHAMPVA submitters who view status within X days  
-  - % of submitters who return to view status more than once  
-  - % of “need more information” users who click into the evidence request  
-  - % of users who do NOT navigate to “Contact Us” after viewing status  
+  - Includes:
+   - % of CHAMPVA submitters who view status within X days  
+   - % of submitters who return to view status more than once  
+   - % of “need more information” users who click into the evidence request  
+   - % of users who do NOT navigate to “Contact Us” after viewing status  
   - Why it matters: Early leading indicators of behavior change and trust  
 
-- **UX confidence signal (CSAT / micro-survey):**  
-  - “I understand the status of my application.”  
-  - “I know what to do next.”  
+- **UX confidence signal (CSAT / micro-survey):** Responses LIKE: “I understand the status of my application.” or “I know what to do next.”  
   - Target: Establish baseline and demonstrate measurable improvement  
   - Why it matters: Supports OKR 3.2 and 3.3  
 
-- **Reliability (Golden Signals):**  
-  - Latency  
-  - Error rate  
-  - Traffic volume  
-  - Saturation  
-  - % of status responses returned successfully (no fallback errors)  
+- **Reliability:**  
+  - Includes:
+   - Latency  
+   - Error rate  
+   - Traffic volume  
+   - Saturation  
+   - % of status responses returned successfully (no fallback errors)  
   - Why it matters: Supports Objective 2.1  
 
-- **Uptime:** ≥ 99.8% incident-free uptime; no Sev 1 incidents attributable to VFMP integration  
+- **Uptime:** ≥ 99.8% incident-free uptime; no major incidents attributable to VFMP integration  
 
-- **Accessibility:** 0 Sev 1 / Sev 2 508 issues at launch; 100% of critical issues resolved pre-production  
+- **Accessibility:** 0 Accessibility issues at launch; 100% of critical issues resolved pre-production  
 
 ---
 
