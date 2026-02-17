@@ -78,9 +78,9 @@ Before we look at the calculator, I'd like to learn a little bit about you.
 
 ## Timed Task 1 - 5-7 minutes
 
-Next we’re going to look at the online AMPREDICT/PROPREDICT calculator.  
+This first task will involve the online AMPREDICT/PROPREDICT calculator.  
 
-- Now, please open a patient in CPRS so you can input their data into the calculator.
+- Please open a patient in CPRS so you can input their data into the calculator.
 - Please navigate to: https://www.ampdecide.org/ampredict/risk-calculator OR https://prodecide.org/risk-calculator (share link in chat). Please don't enter any data yet.
 - When you are ready please begin sharing your screen so the online calculator is visible.
 
