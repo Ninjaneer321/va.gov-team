@@ -291,6 +291,7 @@ One participant said that he liked the "Edit" buttons so you don't have to go ba
 
 1. Another issue P3 encountered is that text that looked like one sentence was announced in small chunks instead of as a single sentence, resulting in awkward pauses and missed information. For example, here's how the "Finish later" message sounded (each ellipsis required a mouse movement): "Your personal records request has been saved...Jan 13, 2026 at 5:43 pm...Your saved...request...will expire on...March 14, 2026."
 
+1. P8 (who infrequently uses the TalkBack screenreader on Android) didn't understand the word "va", which was how TalkBack announced "VA". He figured it out after listening to it a couple times. The general consensus is to leave this as is because AT users get used to it.
 
 ### Finding 6: Most participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted. 
 
@@ -345,7 +346,7 @@ Eight participants said they asked wanted to be able to delete a form they start
 
 ### For the Design System and Forms team
 1. Investigate why the "Finish later" message is read so haltingly in small segments when using JAWS with a mouse. --> *Jeana will investigate to see if each segment is wrapped in a span, and if so, why.*
-   - _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the informational alert.  
+   - _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the "Finish later" informational alert.  
 
 
 1. **Remove the interstitial page and instead consider adding something very short just above the Continue button on every page** (e.g., "Your information is being saved automatically"). 
