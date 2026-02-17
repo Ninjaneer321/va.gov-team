@@ -128,11 +128,11 @@ tags:
   
 `What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
-**From Jan 1, 2025 - Sept 30, 2025 there were 10.7M searches submitted and 12.7M clickson the "VA Benefits and Health care menu option.**
+**From Jan 1, 2025 - Sept 30, 2025 there were 10.7M searches submitted and 12.7M clicks on the "VA Benefits and Health care menu option.**
 
 `Product Brief`
 
-**[VA.gov Information Architecture](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/information-architecture).**
+**[VA.gov Information Architecture](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/README.md).**
 
 </details>
 
@@ -142,15 +142,6 @@ tags:
 
 > **NOTE:** If a Key Result does not have a ***Research Ops Plain Language*** equivalent, it does not map to research supporting it as a key result for the parent objective.
 
-
-`Objective 1:  Optimize software delivery for Veteran impact.`  
-
-> - **Key Result 1.1:** All C100 products have a documented Product Vision, including identifying up to three Veteran-impacting KPIs, published on Product.VA.gov.
-  - ***Research Ops Plain Language:** Supports up to three Veteran-impacting Key Performance Indicators documented for this on Product.VA.gov*
-> - **Key Result 1.2:** Delivered 25 or more releases that have measurably improved a product's Veteran-impacting KPIs.
-  - ***Research Ops Plain Language:** Supports a production release that will measurably improved a product's Veteran-impacting KPIs.*
-> - Key Result 1.3:** OIT has avoided at least $5 million in cost via successful decommissioning of at least 10 systems.
-  - ***Research Ops Plain Language:** Supports the decommissioning of a legacy system.*
 
 `Objective 3: Relentlessly improve the user experience.`
 
@@ -164,15 +155,13 @@ tags:
 
 </details>
 
-> [!TIP]
-> Delete priorities not supported by this research.
 
 ### [Veteran Journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
 
 <details><summary>Where does your product fit into the Veteran journey?
 Are there moments that matter?</summary>
 
-The Informaiton Architecture of VA.gov must support Veterans and Veteran family members and caregiver at all stages of the Veteran journey beyond joining to ensure they can explore, apply for, manage, and track the benefits VA has to offer.
+The Informaiton Architecture of VA.gov must support Veterans and Veteran family members and caregiver at all stages of the Veteran journey beyond "Joining" to ensure they can explore, apply for, manage, and track the benefits VA has to offer in the moments that matter.
 
 - `Serving`
 - `Getting Out`
@@ -186,9 +175,6 @@ The Informaiton Architecture of VA.gov must support Veterans and Veteran family 
 
 </details>
 
-> [!TIP]
-> Delete journeys not supported by this research.
-
 ## Research Goals 🥅	
 `What are you trying to learn from this research?` 
 
@@ -201,6 +187,8 @@ The Informaiton Architecture of VA.gov must support Veterans and Veteran family 
 
 `2.` **Ensure the current navigation organziation and labels align with the mental models of our users**
 
+`3.` **Determine if adding "My VA" and My HealtheVet" to the top level of navigation impacts findability of tools related to managing those benefits.**
+
 
   
 ### Outcome
@@ -208,7 +196,7 @@ The Informaiton Architecture of VA.gov must support Veterans and Veteran family 
 
 ---
 
-**Outcomes from this research will be used to inform and prioritize changes needed to menu labels, groupings, or broader site organization. ** 
+**Outcomes from this research will be used to inform and prioritize changes needed to menu labels, groupings, or broader site organization.** 
 
 ---
 
@@ -222,18 +210,20 @@ The Informaiton Architecture of VA.gov must support Veterans and Veteran family 
   
 `Does this question serve the goals of my study?`
 
-**`1.` Do site users understand where to find information related to applying for core benefits?**
+**`1.` Can users easily find information related to applying for key benefits?**
 
-**`2.` Do site users understand where to find tools that help them manage benefits they are already receiving?**
+**`2.` Can users easily find key tools that help them manage benefits they are already receiving?**
 
-**`3.` Can users find benefit tools that are not specific to a single benefit?**
+**`3.` Is there a difference in findability between tools that align with a single benefit versus those that support multiple benefits?**
 
-**`4.` Can users find information related to applying for benefits for a Veteran family member or caregiver?**
+**`4.` Where do users look for information related to benefits for a Veteran family member or caregiver?**
 
-**`5.`[Enter Q5]**
+**`5.` Is the Service member benefits hub a common destination for key tasks related to Veteran benefits?**
 
-> [!TIP]
->Enter more questions as needed
+**`6.` Is "My VA" a common pathway to tools related to managing benefits?**
+
+**`7.` Is "My HealtheVet" a common pathway to tools related to managing health care?**
+
 
 ### Hypotheses
 > [!NOTE]
@@ -251,25 +241,18 @@ The Informaiton Architecture of VA.gov must support Veterans and Veteran family 
 
 ---
 
-**Users will be able to find key informaiton related to learning about and applying for key benefits.  However, the existing benefit-centric organization of our menus will create challenges for users looking for tools used to manage benefits that are not specific to a single benefit category.** 
+**`1.` Users will be able to easily find key information related to learning about and applying for key Veteran benefits within their respective benefit hubs. 
+**`2.` Users will be able to easily find key information related to family member and caregiver benefts within the Family and Caregiver benefits hub.**
+**`3.` Users will not commonly utilize the Service member benefits hub as a destination for key Veteran benefit information and tools. 
+**`4.` Users will most commonly look in "My VA" and My HealtheVet" as ways to get to tools to manage their benefits. **
 
 ---
   
 ## Methodology  🛠️
 ***Describe the method you’re planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.*** 
 
-<details><summary>Examples of common research methods include</summary> 
-	
-- `Semi-structured interviews - appropriate for generative research`
-- `Contextual inquiry - appropriate for generative research`
-- `Card sorts - appropriate for generative and evaluative research; depending on the study design` 
-- `Tree tests - appropriate for evaluative research`
-- `Usability testing - appropriate for evaluative research`
-- `User acceptance testing (UAT) - required before product release`
 
-</details>
-
-**[Enter methodology here]**
+**A tree test will be used to evaluate the existing navigation component organization and labels. The tree used in the test will reflect the labels and organizational structure that visitors must navigate through to get to content and tools within the benefit experience.  Participants will be asked to completed 10 tasks based on the most commonly accessed information and tools on the site.**
 
 <details><summary>Additional resources</summary> 
 	
@@ -285,18 +268,10 @@ The Informaiton Architecture of VA.gov must support Veterans and Veteran family 
 ### Location
 Where will you be holding the research sessions? Be sure to include whether this is remote or in-person research. [Learn more about setting up in-person research.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/planning-in-person-research.md)
 
-> [!TIP]
-> Place [X] between brackets in edit mode to leave a checkmark in the correct box.
-
-- [ ] **Remote**
+- [x] **Remote - unmoderated**
 - [ ] **In-person**
       
-> [!NOTE]
-> If in-person, include:
 
-- `Location:` **[Enter text]**
-- `Point of contact:` **[Enter text]**
-- `Equipment used for research:` **[Enter text]**
 
 ## Research materials 📔
 
@@ -304,14 +279,6 @@ Where will you be holding the research sessions? Be sure to include whether this
 > **Your OCTO/VA lead must review and approve all research materials – including this plan –  prior to submitting a recruitment request.**
 
 Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
-
-**For moderated interviews:** 
-	
-- [Link to conversation guide](url goes here)
-
-**For moderated usability tests:** 
-- [Link to conversation guide](url goes here)
-- [Link to prototype](url goes here)
 
 **For [unmoderated testing:](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html)**
 - [Link to email with instructions](url goes here)
