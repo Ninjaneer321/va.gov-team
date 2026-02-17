@@ -563,7 +563,7 @@ While we completed accessibility reviews and utilized existing design components
 - [Synthesis Mural](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1769456573363/fa6b1547ac784ad32fea64ba6fcac991609a86ef)
   
 ### Pages and applications used
-- Complex claims _Note: While we tested in production, this is a link to complex claims on staging. Travel claims are created from eligible past appointments._
+- [Complex claims](https://staging.va.gov/my-health/appointments/past) _Note: While we tested in production, this is a link to complex claims on staging. Travel claims are created from eligible past appointments._
 - [Figma designs](https://www.figma.com/design/EM3ejHDOgnxaeOVRw6xnpf/Complex-travel-reimbursement-claims?node-id=250-9661&t=WVfa2eUUYbz4thgK-1) _Note: Because we tested in production, the Figma files are an easier way to see the flow._
 
 
