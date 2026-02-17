@@ -14,9 +14,9 @@ This doc gives an overview of the **Prefill topic questions with Natural Languag
 - [Supporting Documentation](#supporting-documentation)
 
 ## Overview
-Submitters have to answer many more questions in the Ask VA form than the typical contact form. There's opportunity to use an AI/NLP data model to accurately predict queue given question text and other variables that determine queue routing.
+Submitters have to answer many more questions in the Ask VA form than the typical contact form. We have identified an opportunity to use an AI/NLP data model to accurately predict the correct queue given question text and other variables that determine queue routing.
 
-As a first step to test, if the model is successful, we could present predicted Category to the submitter. The submitter can then simply review the prefilled information rather than answer these questions. Answers to these questions currently determine routing of the inquiry.
+As a first step to test if the model is successful, we could present predicted Category to the submitter. The submitter can then simply review the prefilled information rather than answer these questions. Answers to these questions currently determine routing of the inquiry.
 
 Originally, we thought this could also improve resolution time. After conducting an [analysis on queue and resolution time](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/prefill-nlp%20June%202025/Queue%20analysis.md), we determined that an AI model that returns an Ask VA queue given question text would likely only minimally impacts resolution time.
 
