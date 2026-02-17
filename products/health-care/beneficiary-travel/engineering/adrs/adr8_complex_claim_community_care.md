@@ -9,6 +9,10 @@ Proposed – 2026-02-17
 
 ### Context
 
+In the initial release of the complex claims flow, any file included in a claim should be a receipt that is associated with a specific expense. If we see a file that is unassociated with an expense (which could happen from the user making edits to the claim in BTSSS), we direct them to BTSSS to edit and/or submit the claim.
+
+However, we will soon be building the ability to file claims for community care appointments, which include a Proof of Attendence (POA) file. These files are not associated with any expense within the claim. As such, we need a way to differentiate POA files from other unassociated files.
+
 The current API call for documents does not have the ability to determine if a document is for POA.
 The POST document call expects the following fields:
 ```
