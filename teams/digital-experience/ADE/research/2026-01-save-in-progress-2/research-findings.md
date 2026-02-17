@@ -283,6 +283,8 @@ One participant interpreted the accordions as providing extra information to hel
 
 Two participants didn't notice the "Expand all" link, one of whom said that the text was too small. That participant said that he would have clicked on "Expand all" if he had seen it, instead of opening each accordion one at a time. A third participant said that they never use "Expand all" because they get too overwhelmed by the length of what might expand, so it's easier for them to expand each accordion, one at a time.
 
+One participant said that he liked the "Edit" buttons so you don't have to go back to previous form pages to make changes.
+
 
 ### Finding 5: XX had some accessibility issues ...
 
