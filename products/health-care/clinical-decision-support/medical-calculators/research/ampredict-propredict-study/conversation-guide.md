@@ -62,7 +62,7 @@ Today we're going to talk about AMPREDICT/PROPREDICT -- both the online tool and
 
 Before we start, I have a few things that I want to go over with you:
 
-- **This entire session should take about 20 minutes.** I want to make sure I leave some space for your questions too, so I may occasionally prompt you with the next question or topic.
+- **This entire session should take about 20 minutes.** For the session today, we want to capture the time it takes to complete a few tasks. I'll ask you to do something and then I'll want you to complete it as you normally would. Please don't feel rushed to complete the task. This is not a race, it's a way for us to gather benchmarking data on how long it realistically takes to complete a calculation.
     
 - **Your participation in this session is completely voluntary.** You do not have to participate if you don't want to. Your responses will remain confidential and your anonymity protected. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Please let me know.
 
@@ -86,7 +86,6 @@ This first task will involve the online AMPREDICT/PROPREDICT calculator.
 
 [Screen sharing begins.]
 
-- For the session today, we want to capture the time it takes to complete a few tasks. I'll ask you to do something and then I'll want you to complete it as you normally would. Please don't feel rushed to complete the task. This is not a race, it's a way for us to gather benchmarking data on how long it realistically takes to complete a calculation.
 - Before you start entering data, please let me know so I can start the timer.
 - And please let me know when you have completed a calculation so I can stop the timer.
 - Are you ready to begin? 
