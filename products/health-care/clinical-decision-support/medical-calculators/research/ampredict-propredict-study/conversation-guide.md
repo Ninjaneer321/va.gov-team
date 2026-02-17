@@ -124,7 +124,7 @@ Great, thank you for completing that task. You can stop screen sharing now. Do y
 
 # Post-Task Questionnaire - 3 minutes
 
-Next, I'll share a link in the chat to a brief post-task questionnaire. Since the tasks are fresh in your mind, do you mind completing the questionnaire while I hang on the meeting?
+Next, I'll share a link in the chat to a brief post-task questionnaire. Please complete that as the final task before we close out the meeting and let me know when you're finished.
 
 [Share post-task survey link in chat.]
 
