@@ -15,8 +15,9 @@ description: "A template for moderating research sessions including logistics, i
 
 `List and complete any project-specific setup tasks for this study below:`
 
-- [x] Confirm prototype is working 
-- [x] share session schedule for notetaker/observers
+- [ ] Email with instructions to access CDS tools has been sent along with a link to the pre-task survey
+- [ ] Confirm CPRS is working
+- [ ] Share session schedule for notetaker/observers
 
 
 ### Day of the session
