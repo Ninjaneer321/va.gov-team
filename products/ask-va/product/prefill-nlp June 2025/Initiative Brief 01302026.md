@@ -1,8 +1,8 @@
-# Ask VA: Prefill topic questions with NLP data model	
-This doc gives an overview of the **Prefill topic questions with Natural Language Processing (NLP) data model** Ask VA initiative. View Ask VA's product outline [in this GitHub doc](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/Product%20outline.md).
+# Ask VA: AI/ML Predictive Category Model Initiative	
+This doc gives an overview of the **AI/ML Predictive Category Model** Ask VA initiative. View Ask VA's product outline [in this GitHub doc](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/Product%20outline.md).
 
-- Start date: July 2024
-- Phase 1 Launch date: May 2026
+- Previous contract team ideation, discovery/research and findings start date: July 2024
+- Implement Category Model Phase 1 of 3, Launch date: May 2026
 
 **Jump to:**
 - [Overview](#overview)
