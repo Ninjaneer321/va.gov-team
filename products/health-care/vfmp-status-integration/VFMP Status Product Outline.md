@@ -42,7 +42,7 @@
 ## Measuring Success
 
 <details>
- <summary>Initial KPIs and OKRs (draft/in progress)</summary>
+ <summary>Initial KPIs and OKRs</summary>
 
 ## Veteran Pain Points
 
@@ -77,10 +77,10 @@
 
 - **Status tool adoption & engagement:**  
   - Includes:
-   - % of CHAMPVA submitters who view status within X days  
-   - % of submitters who return to view status more than once  
-   - % of “need more information” users who click into the evidence request  
-   - % of users who do NOT navigate to “Contact Us” after viewing status  
+    - % of CHAMPVA submitters who view status within X days  
+    - % of submitters who return to view status more than once  
+    - % of “need more information” users who click into the evidence request  
+    - % of users who do NOT navigate to “Contact Us” after viewing status  
   - Why it matters: Early leading indicators of behavior change and trust  
 
 - **UX confidence signal (CSAT / micro-survey):** Responses LIKE: “I understand the status of my application.” or “I know what to do next.”  
@@ -89,11 +89,11 @@
 
 - **Reliability:**  
   - Includes:
-   - Latency  
-   - Error rate  
-   - Traffic volume  
-   - Saturation  
-   - % of status responses returned successfully (no fallback errors)  
+    - Latency  
+    - Error rate  
+    - Traffic volume  
+    - Saturation  
+    - % of status responses returned successfully (no fallback errors)  
   - Why it matters: Supports Objective 2.1  
 
 - **Uptime:** ≥ 99.8% incident-free uptime; no major incidents attributable to VFMP integration  
