@@ -84,8 +84,9 @@ consent_for_clips: true
 
 * I have \[number\] colleagues who are interested in observing this session to better understand the Veteran experience. Would you be okay with them observing?  
   * *If no: Use Slack to kindly ask the observers to leave the Zoom.*  
-  * *If yes: Admit observers.*  
-* This interview will take about 75 minutes [For AT Users - 90 minutes]. Because I want to keep us on time, I may occasionally prompt you to the next topic.
+  * *If yes: Admit observers.*
+
+* This interview will take about 75 minutes. Because I want to keep us on time, I may occasionally prompt you to the next topic.
 
 * You are the expert, and we want your honest opinions. There are no right or wrong answers, and we’re not testing anything of you. I will not be offended by any opinions you share.
 
@@ -103,7 +104,8 @@ consent_for_clips: true
 
 ⏺️ Start recording.
 
-* I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?  
+* I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
+
 * Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners if we remove any information that can be used to identify you?
 
 * Do you have any questions before we get started?
@@ -191,8 +193,6 @@ If so, restart it. Then have them click on the Apple button to resume/start over
 * Have you ever considered setting up automatic payments for any of your debts?  
   * \[IF YES\] What made you decide to set that up? How did you go about setting that up?  
   * \[IF NO\] What made you decide against it?
- 
-*[For AT users only - move to closing and thank you]
 
 # Prototype section (30 min)
 
