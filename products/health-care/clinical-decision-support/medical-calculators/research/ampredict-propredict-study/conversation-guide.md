@@ -104,6 +104,10 @@ Next, I'll share a link in the chat to a brief post-task questionnaire. Please c
 
 [Share post-task survey link in chat.]
 
+[AMPREDICT post-task survey: https://forms.office.com/g/rEfwwc4GJK]
+
+[PROPREDICT post-task survey: https://forms.office.com/g/4ust9T7KDi]
+
 ## Thank-You and Closing - 1 minutes
 
 Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on these tools to better meet clinician needs.
