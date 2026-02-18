@@ -3,7 +3,7 @@ This doc gives an overview of the **AI/ML Predictive Category Model** Ask VA ini
 
 - Previous contract team ideation, discovery/research and findings start date: July 2024
 - Current contract team start date: December 2025
-- Implement Category Model Phase 1 of 3, Launch date: May 2026
+- AI/ML Predictive Category Model Initiative Phase (1/3), Launch date: May 2026
 
 **Jump to:**
 - [Overview](#overview)
