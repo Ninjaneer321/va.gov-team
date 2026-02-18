@@ -75,7 +75,9 @@ consent_for_clips: true
 
 # Intro (7 minutes)
 
-* Thank you so much for joining today. My name is Risha, and \[NAME\] here will be taking notes. 
+* Thank you so much for joining today. My name is Risha, and \[NAME\] here will be taking notes.
+
+* (if applicable) [accessibility specialist] is also in this meeting to help with any technical issues that may arise with your use of assistive technology during this session.
 
 * Today, we’ll be discussing how people think about and manage payments. I’ll ask you some questions about your experiences making payments with the VA and other institutions. Then I’ll share a prototype of a part of the website we’re currently working on and ask for your feedback. How does that sound? 
 
@@ -84,7 +86,7 @@ consent_for_clips: true
 * I have \[number\] colleagues who are interested in observing this session to better understand the Veteran experience. Would you be okay with them observing?  
   * *If no: Use Slack to kindly ask the observers to leave the Zoom.*  
   * *If yes: Admit observers.*  
-* This interview will take about 75 minutes. Because I want to keep us on time, I may occasionally prompt you to the next topic.
+* This interview will take about 75 minutes [For AT Users - 90 minutes]. Because I want to keep us on time, I may occasionally prompt you to the next topic.
 
 * You are the expert, and we want your honest opinions. There are no right or wrong answers, and we’re not testing anything of you. I will not be offended by any opinions you share.
 
@@ -161,9 +163,6 @@ If so, restart it. Then have them click on the Apple button to resume/start over
   * What was easy? What was frustrating?
 
 * What would have made that experience easier?  
-  * \[PROBE: If veteran doesn’t mention recurring payments\] Have you ever considered setting up automatic payments for any of your debts?  
-    * \[IF YES\] What made you decide to set that up? How did you go about setting that up?  
-    * \[IF NO\] What made you decide against it?
 
 * Think about a recent payment you made that felt easier \- maybe a bill to your bank, credit card company, or another organization.  
   * Tell me about that experience. What made it easier than the VA?
@@ -189,6 +188,10 @@ If so, restart it. Then have them click on the Apple button to resume/start over
   * How did you decide on the amount and timeline?  
   * What was easy? What was difficult?  
   * Would you do anything differently next time?
+
+* Have you ever considered setting up automatic payments for any of your debts?  
+  * \[IF YES\] What made you decide to set that up? How did you go about setting that up?  
+  * \[IF NO\] What made you decide against it?
 
 # Prototype section (30 min)
 
