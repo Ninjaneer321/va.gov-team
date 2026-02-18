@@ -13,7 +13,8 @@ Prior to the implementation of these questions on VA.gov, all 686c claims from V
 ### Pension-Related Questions
 
 #### Q0
-![image](https://github.com/user-attachments/assets/735d560d-1623-4045-a9c7-d1ed674bc112)
+![image](https://github.com/user-attachments/assets/dacec090-ba8e-4b5c-8a82-f145b4602c7d)
+
 - Veterans will be asked this question only if the benefits API fails to connect or if the API cannot determine if the Veteran receives pension benefits. If the API is working and can locate the Veteran, this question will not appear.
    - For the 686 add dependent flow:
       - If the Veteran answers "yes", BOTH of the following two questions (Q1 and Q2) will be conditionally revealed later in the form flow. The Veteran is required to answer those questions.
@@ -24,12 +25,12 @@ Prior to the implementation of these questions on VA.gov, all 686c claims from V
 
 -----
 #### Q1
-![image](https://github.com/user-attachments/assets/ba77b819-232d-4af7-aea1-22ed571a5170)
+![image](https://github.com/user-attachments/assets/4b22efdf-50bc-4568-9f6e-8fa0355feebc)
 - This question is asked when a dependent is being added via a 21-686c
 
 -----
 #### Q2
-![image](https://github.com/user-attachments/assets/11696ae6-df7c-43f1-9fe0-326148864f4b)
+![image](https://github.com/user-attachments/assets/6aed80c8-d502-415b-91d4-bd8299ba3512)
 - This question is asked at the end of all dependent addition branches in the 686 flow.
 - VA.gov will flip the answer before sending to RBPS for reasons outlined in [historical context section](https://github.com/department-of-veterans-affairs/va.gov-team/edit/master/products/dependents/pension_income_questions.md#historical-context). (If the user answered Y, VA.gov will send RBPS N, etc.)
 - The net worth limit is updated each year in October. VA.gov leverages an API to automatically update the limit within this question, but the pdf (overflow) and the backup quesiton if the API fails need to be manually updated each year.
