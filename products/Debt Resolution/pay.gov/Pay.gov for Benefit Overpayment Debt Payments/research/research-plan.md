@@ -406,9 +406,8 @@ Provide a link to any materials you need to run your study, including any materi
 
 ### Recruitment approach
 *Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
-- Perigean **CANNOT** recruit VA employees or VSOs. Work with your VA lead to recruit these groups. 
-- Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
-- Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
+- Veterans who have experience making payments towards VA benefit overpayment debt.
+- We would like for Perigean to recruit a total of 15 Veterans who use assistive technology (AT) and Veterans who do not use assistive technology. We are aiming for 10 sessions total.  
 - Note that AT users will not interact with the prototype in these sessions. Per VA guidance, the team will conduct an additional round of usability testing for accessible technology (assistive device, etc.) users once we have a coded prototype.
 
 ### Recruitment criteria
