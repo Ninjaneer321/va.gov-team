@@ -296,9 +296,9 @@ One participant said that he liked the "Edit" buttons so you don't have to go ba
 1. P8 (infrequently uses the TalkBack screenreader on Android) **didn't understand the word "va"**, which was how TalkBack announced "VA". He figured it out after listening to it a couple times. The general consensus is to leave this as is because AT users get used to it.
 
 ### Finding 6: Two participants struggled with their AT, perhaps because the tools weren't appropriate for their level of impaired vision
-Two Veteran participants were frustrated with their AT tools and didn't know that another tool might better meet their needs. 
+Two Veteran participants were frustrated with their AT tools and didn't know that another tool might meet their needs better. 
 
-If a Veteran doesn't go to the Blind Rehab Center, how could they find out about AT tools? 
+If a Veteran hasn't gone to the Blind Rehab Center, how could they find out about AT tools? 
 
 
 ### Finding 7: Most participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted. 
@@ -402,6 +402,14 @@ Eight participants said they asked wanted to be able to delete a form they start
 
 1. Explore providing a dropdown list of VA regional offices from which users can select.      
      - _Supporting evidence_: Two participants weren't sure what to enter. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other said that they wanted to select from a list of offices. 
+
+### For the ADE team
+1. Explore opportunities to encourage Veterans to use appropriate AT. Some ideas are listed below.
+
+     - _Supporting evidence_: Two Veteran participants were frustrated with their AT tools and didn't know that another tool might meet their needs better. 
+     1. Meet with Martha's Blind Rehab Center contacts to discuss eligibility and whether/how to mention their services to research participants who might benefit.
+     1. Consider adding messaging on VA.gov about how to better use AT 
+     improving the Accessibility at VA page 
 
 ## Product User and Business Outcomes
 
