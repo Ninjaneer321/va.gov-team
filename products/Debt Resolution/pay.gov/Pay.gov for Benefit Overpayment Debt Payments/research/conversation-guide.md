@@ -191,6 +191,8 @@ If so, restart it. Then have them click on the Apple button to resume/start over
 * Have you ever considered setting up automatic payments for any of your debts?  
   * \[IF YES\] What made you decide to set that up? How did you go about setting that up?  
   * \[IF NO\] What made you decide against it?
+ 
+*[For AT users only - move to closing and thank you]
 
 # Prototype section (30 min)
 
