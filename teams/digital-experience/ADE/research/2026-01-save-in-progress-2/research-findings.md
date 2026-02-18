@@ -293,9 +293,15 @@ One participant said that he liked the "Edit" buttons so you don't have to go ba
 
 1. P4 (VoiceOver screenreader on an iPhone in Safari browser) had **difficulty navigating while using Safari** because the form intro page loaded with focus on the footer, rather than the top of page where it was supposed to be. This is a known bug with VoiceOver and Safari with no known fix.
 
-1. P8 (infrequently uses the TalkBack screenreader on Android) didn't understand the word "va", which was how TalkBack announced "VA". He figured it out after listening to it a couple times. The general consensus is to leave this as is because AT users get used to it.
+1. P8 (infrequently uses the TalkBack screenreader on Android) **didn't understand the word "va"**, which was how TalkBack announced "VA". He figured it out after listening to it a couple times. The general consensus is to leave this as is because AT users get used to it.
 
-### Finding 6: Most participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted. 
+### Finding 6: Two participants struggled with their AT, perhaps because the tools weren't appropriate for their level of impaired vision
+Two Veteran participants were frustrated with their AT tools and didn't know that another tool might better meet their needs. 
+
+If a Veteran doesn't go to the Blind Rehab Center, how could they find out about AT tools? 
+
+
+### Finding 7: Most participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted. 
 
 Most participants (6 of 7) assumed that after 60 days, their saved form data would be deleted. **Almost everyone wanted to be notified before that via email and/or text**, with one participant mentioning a notification in the VA mobile app. Most people suggested the first notification should be within 1-7 days of having selected "Finish later", and then once a week after that. 
 
