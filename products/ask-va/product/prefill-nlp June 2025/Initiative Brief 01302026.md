@@ -78,8 +78,8 @@ It also includes these OKRs:
 
 |Phase|Phase Title|User Facing|Collaboration Cycle Kickoff Ticket|Launch Date|
 |:---|:---|:---|:---|:---|
-|Phase 1|[Implement the Category Model #2076](https://github.com/department-of-veterans-affairs/ask-va/issues/2076)|No||May 2026|
-|Phase 2|[Personal Inquiry Topic Classification Pilot #2090](https://github.com/department-of-veterans-affairs/ask-va/issues/2090)|Yes||TBD|
+|Phase 1|[AI/ML Predictive Category Model Initiative Phase (1/3) #2076](https://github.com/department-of-veterans-affairs/ask-va/issues/2076)|No||May 2026|
+|Phase 2|[AI/ML Predictive Category Model Initiative Phase (2/3) #2090](https://github.com/department-of-veterans-affairs/ask-va/issues/2090)|Yes||TBD|
 |Phase 3|Release to a percentage of users as an alternative flow and assess metrics - iterative|Yes|N/A|TBD|
 
 ### Completion Status
