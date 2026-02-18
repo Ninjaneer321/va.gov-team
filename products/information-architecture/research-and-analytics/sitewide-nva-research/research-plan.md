@@ -111,7 +111,7 @@ tags:
 > 
 > Use the [GitHub Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed research plan.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags. 
 
-# Research Plan for Sitewide IA, March 2026
+# Research Plan for Sitewide Navigation, March 2026
 
 
 ## Background 🏗️
