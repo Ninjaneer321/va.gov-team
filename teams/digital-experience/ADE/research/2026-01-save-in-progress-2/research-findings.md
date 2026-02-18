@@ -289,7 +289,7 @@ One participant said that he liked the "Edit" buttons so you don't have to go ba
 
 1. P3 was using the JAWS screenreader on desktop with mouse echo (which announces whatever is under the mouse), and **JAWS didn't announce any "Country" select/dropdown options when the dropdown was open and the mouse was over an item**. He had to click to select an option before it was announced by the screen reader. This is a known issue that affects screen readers and mouse control of dropdown menus, which unfortunately is not fixable.
 
-1. Another issue P3 encountered is that text that looked like one sentence was announced in small chunks instead of as a single sentence, resulting in awkward pauses and missed information. For example, here's how the "Finish later" message sounded (each ellipsis required a mouse movement): "Your personal records request has been saved...Jan 13, 2026 at 5:43 pm...Your saved...request...will expire on...March 14, 2026."
+1. Another issue P3 encountered (JAWS with mouse echo) is that text that looked like **one sentence was announced in small chunks** instead of as a single sentence, resulting in awkward pauses and missed information. For example, here's how the "Finish later" message sounded (each ellipsis required a mouse movement): "Your personal records request has been saved...Jan 13, 2026 at 5:43 pm...Your saved...request...will expire on...March 14, 2026."
 
 1. P8 (who infrequently uses the TalkBack screenreader on Android) didn't understand the word "va", which was how TalkBack announced "VA". He figured it out after listening to it a couple times. The general consensus is to leave this as is because AT users get used to it.
 
@@ -304,6 +304,8 @@ Eight participants said they asked wanted to be able to delete a form they start
 > **TIP:** These could be powerful user comments or unexpected issues worth noting
 
 1. Participants encountered a number of usability issues when filling out the Request Personal Records form:
+     
+     1. When P9 (no AT) opened the "Additional information" accordion, focus moved down to the "Statement of truth", which made it seem like it was a part of the accordion, which it's not. A similar focus problem happened to the third pilot participant (using a screen magnifier), but it was worse because the accordions scrolled out of view, which was disorienting. The extra scrolling is due to scrollToFocus in the accordions, which is supposed ensures that the currently focused element is not off-screen for sighted keyboard users, but it causes other issues. 
 
      1. **"Your full name**: One participant encountered an error when they entered a full name (first-name middle-name last-name) that didn't match what they previously entered on the form (first-name middle-*initial* last-name). This seemed to the participant to be a bug in the form, since it asked for middle initial earlier but then asks for your full name at the end.
         > *"When you're doing government paperwork, when they want your full name, they want the full name...So, all your names written out" (p3).*
@@ -353,6 +355,9 @@ Eight participants said they asked wanted to be able to delete a form they start
    - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
 1. **Don't put essential information in the heading that isn't repeated below because some people will ignore the text of the heading.**
    - _Supporting evidence: Two participants didn't read the heading on the interstitial page but only the text below it._
+
+1. Remove the automatic scrolling down when you open an accordion on the "Review and submit" page. --> *Remove scrollToFocus from all accordions on the page*
+   - _Supporting evidence: The scrolling is disorienting when focus lands on  content that isn't in the accordion (e.g., "Statement of truth" when you open the "Additional information" accordion) or scrolls so far that the accordion content is no longer in view (when using a screen magnifier).  
 
 1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages.**
    - _Supporting evidence: 4 of 8 participants didn't know what these phrases meant when seeing them as links on the interstitial page._
