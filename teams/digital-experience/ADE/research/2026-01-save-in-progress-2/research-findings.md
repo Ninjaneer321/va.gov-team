@@ -301,9 +301,9 @@ Two Veteran participants were frustrated with their AT tools and didn't know tha
 
 He didn't know that there are tools to read text for you without providing all the navigation announcing that he found irritating.
 
-1. P8 with low vision wasn't using a screenreader on his smartphone but instead a tool that reads aloud whatever text you highlight with your finger. He kept on wanting the tool to read aloud everything on the screen, but it skipped some text (including accordions) and read some text in small parts with breaks in between (e.g., on the "Records requested" page of the form, and the message that appears after you select "Finish later"). At the end of the session, we recommended to the participant that they try the VoiceOver screenreader.
+1. P8 with low vision wasn't using a screenreader on his smartphone but instead a tool that reads aloud whatever text you highlight with your finger. He kept on wanting the tool to read aloud everything on the screen, but it skipped some text (including accordions) and read some text in small parts with breaks in between (e.g., on the "Records requested" page of the form, and the message that appears after you select "Finish later"). At the end of the session, we recommended to the participant that he try the VoiceOver screenreader.
 
-   > *"It will only let me highlight the first item that appears…'3 of 6 records requested.' Okay, so there's way more information than what you just heard. it looks like it's gonna make me highlight every little bit. I like to do the whole page" (p6).*
+   > *"I'd like to read it all, but I don't know how to make it do that...It will only let me highlight the first item that appears…'3 of 6 records requested.' Okay, so there's way more information than what you just heard. it looks like it's gonna make me highlight every little bit. I like to do the whole page" (p6).*
 
 He didn't know that he could use a screenreader to read everything on the screen.
 
@@ -368,16 +368,18 @@ Eight participants said they asked wanted to be able to delete a form they start
 1. **Remove the interstitial page and instead consider adding something very short just above the Continue button on every page** (e.g., "Your information is being saved automatically"). 
    - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
 1. **Don't put essential information in the heading that isn't repeated below because some people will ignore the text of the heading.**
-   - _Supporting evidence: Two participants didn't read the heading on the interstitial page but only the text below it._
+   - _Supporting evidence_: Two participants didn't read the heading on the interstitial page but only the text below it.
+1. Investigate why P6 was unable to highlight past "3 of 6 records requested" on the page of record checkboxes. --> *Need to investigate* 
+   - _Supporting evidence_: P6 said that they were trying to highlight the entire page to read but could only select "3 of 6 records requested".
 
 1. Remove the automatic scrolling down when you open an accordion on the "Review and submit" page. --> *Remove scrollToFocus from all accordions on the page*
-   - _Supporting evidence: The scrolling is disorienting when focus lands on  content that isn't in the accordion (e.g., "Statement of truth" when you open the "Additional information" accordion) or scrolls so far that the accordion content is no longer in view (when using a screen magnifier).  
+   - _Supporting evidence_: The scrolling is disorienting when focus lands on  content that isn't in the accordion (e.g., "Statement of truth" when you open the "Additional information" accordion) or scrolls so far that the accordion content is no longer in view (when using a screen magnifier).  
 
 1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages.**
-   - _Supporting evidence: 4 of 8 participants didn't know what these phrases meant when seeing them as links on the interstitial page._
+   - _Supporting evidence:_ 4 of 8 participants didn't know what these phrases meant when seeing them as links on the interstitial page.
 
-1. **Consider moving the accordion controls to the left side of the item so as to increase visibility for screen magnifier users who may not see any controls on the right.** Shared this finding with Chandra Carney from the US Web Design System team.
-   - _Supporting evidence: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier._
+1. **Consider moving the accordion controls to the left side of the item so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026.*
+   - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
 
 1. **Consider keeping the "Expand all" link (ADD FROM SLACK DM CONVO W/JEANA)**
 
