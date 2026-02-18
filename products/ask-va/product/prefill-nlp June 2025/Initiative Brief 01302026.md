@@ -2,6 +2,7 @@
 This doc gives an overview of the **AI/ML Predictive Category Model** Ask VA initiative. View Ask VA's product outline [in this GitHub doc](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/Product%20outline.md).
 
 - Previous contract team ideation, discovery/research and findings start date: July 2024
+- Current contract team start date: December 2025
 - Implement Category Model Phase 1 of 3, Launch date: May 2026
 
 **Jump to:**
