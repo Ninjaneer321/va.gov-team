@@ -21,8 +21,10 @@ The product support rotation ensures continuous coverage for alert triage, issue
 ---
 
 ## 3. Responsibilities During Rotation
-- The support developer acts as **first responder** for alerts, user reports, and system anomalies.
+- The support developer acts as **first responder** for user reports and system anomalies.
 - The support developer is only expected to monitor product alerts during business hours.
+- The support developer should start their day by observing the alerts channels to see if any persistent or recurring alerts were triggered overnight.  If so, begin investigating the issue and pull in additional support if necessary.
+- The support developer should keep an eye on the alerts channels throught the workday.  One-off alerts are not uncommon and don't require immediate action.  But if an alert is persistent or recurring throughout the workday, then the developer should begin investigating the issue and pull in additional support if necessary.
 
 ### Primary Duties
 - Provide support to Candi if she gets notifications of issues from users.
@@ -45,10 +47,8 @@ The product support rotation ensures continuous coverage for alert triage, issue
 
 | Trigger | First Step | Escalate To | Communication |
 |----------|-------------|--------------|----------------|
-| Datadog alert | Acknowledge in Slack → Review dashboard + error search → Try to reproduce in staging/local | Tech lead (if prod access needed) | `#benefits-representative-facing-alerts` |
 | Email from ARC inbox | Validate, attempt reproduction in staging/local | Tech lead or Product | `#benefits-accredited-rep-crew` |
-| Major outage or persistent error | Summarize findings in `#benefits-representative-facing-alerts` or `#benefits-representation-management-notifications` | Tech + Product leads | `#benefits-accredited-rep-crew` |
-| Unknown alert or missing logs | Create GitHub Issue, note reproduction attempt | Tech lead | `#benefits-accredited-rep-crew` |
+| Major outage or persistent error | Acknowledge in Slack → Review dashboard + error search → Try to reproduce in staging/local → Summarize findings in `#benefits-representative-facing-alerts` or `#benefits-representation-management-notifications` | Tech + Product leads | `#benefits-accredited-rep-crew` |
 
 ---
 
@@ -68,13 +68,15 @@ Before your rotation, ensure you have:
 
 | Sprint | Dates | Developer (Full Stack) | Tech Lead (Escalation) |
 |---------|--------|--------------------------------|-------------------------|
-| Sprint 9 | Jan 27 – Feb 9 | Kevin | Holden |
 | Sprint 10 | Feb 10 – Feb 23 | Patrick B. | Kevin, Holden |
 | Sprint 11 | Feb 24 – Mar 9 | Josh | Kevin, Holden |
 | Sprint 12 | Mar 10 – Mar 23 | Holden | Kevin |
 | Sprint 13 | Mar 24 – Apr 6 | Alex | Kevin, Holden |
 | Sprint 14 | Apr 7 – Apr 20 | Patrick A. | Kevin, Holden |
 | Sprint 15 | Apr 21 – May 4 | Greg | Kevin, Holden |
+| Sprint 16 | May 5 – May 18 | Kristen | Kevin, Holden |
+| Sprint 17 | May 19 – June 1 | Tyler | Kevin, Holden |
+| Sprint 18 | June 2 – June 15 | Kevin | Holden |
 
 ---
 
