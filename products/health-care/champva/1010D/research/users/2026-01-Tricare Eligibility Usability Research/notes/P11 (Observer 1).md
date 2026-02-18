@@ -29,6 +29,7 @@ Notetaker: [Jessica]
 - If unsure, they would still continue with the application.
 - The icons make it appear they are eligible.
 - User is not confident on if they are eligible or not.
+  
 **Rating 2**
 - The user thinks they are eligible but they are not confident if they are eligible.
 
@@ -49,6 +50,7 @@ Notetaker: [Jessica]
 - Feels like the system is blocking them from proceeding.
 - The red x makes it clear they are not eligible and they would stop the application.
 - The second prototype was better. They told you that you weren't eligible right away , but there wasn't a way to contact someone to confirm.
+  
 **Rating 5**
 -  Compared to the first one, because it gave eligibility right away.
 -  Would prefer to use Pineapple prototype.
