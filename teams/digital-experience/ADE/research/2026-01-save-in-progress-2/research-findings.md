@@ -297,15 +297,24 @@ One participant said that he liked the "Edit" buttons so you don't have to go ba
 
 ### Finding 6: Two participants struggled with their AT, perhaps because the tools weren't appropriate for their level of impaired vision
 Two Veteran participants were frustrated with their AT tools and didn't know that another tool might meet their needs better. 
-1. P6 with low vision was using the TalkBack screenreader on his Android phone to qualify for the AT session but normally uses it only as a last resort because he hates it. 
-
-He didn't know that there are tools to read text for you without providing all the navigation announcing that he found irritating.
-
-1. P8 with low vision wasn't using a screenreader on his smartphone but instead a tool that reads aloud whatever text you highlight with your finger. He kept on wanting the tool to read aloud everything on the screen, but it skipped some text (including accordions) and read some text in small parts with breaks in between (e.g., on the "Records requested" page of the form, and the message that appears after you select "Finish later"). At the end of the session, we recommended to the participant that he try the VoiceOver screenreader.
+1. P6 with low vision wasn't using a screenreader on his smartphone but instead a tool that reads aloud whatever text you highlight with your finger. He kept on wanting the tool to read aloud everything on the screen, but it skipped some text (including accordions) and read some text in small parts with breaks in between (e.g., on the "Records requested" page of the form, and the message that appears after you select "Finish later"). At the end of the session, we recommended to the participant that he try the VoiceOver screenreader.
 
    > *"I'd like to read it all, but I don't know how to make it do that...It will only let me highlight the first item that appears…'3 of 6 records requested.' Okay, so there's way more information than what you just heard. it looks like it's gonna make me highlight every little bit. I like to do the whole page" (p6).*
 
-He didn't know that he could use a screenreader to read everything on the screen.
+    He didn't know that he could use a screenreader to read everything on the screen.
+
+1. P8 with low vision was using the TalkBack screenreader on his Android phone to qualify for the AT session but normally uses it only as a last resort because he hates it. He dislikes TalkBack because he says it talks too much, is difficult to get it to stop, and scrolling is different. He didn't know that there are tools to read text for you without announcing so much about the page and navigation, which he found irritating. 
+
+    Usually P8 gets by without reading most of the content and infers what's there or has memorized where to go and what to do from previous experiences. He can read black text on white but it's blurry. He can't read colored text or links on white, any text on non-white backgrounds, or in dim light. He prefers to use his PC instead of a smartphone since he can increase the brightness/contrast and zoom in. Sometimes he copies colored text into Word, where he can change the text to black. 
+
+    After the session, we recommended a tool that reads only text, rather than everything on the page: Select to Speak (https://support.google.com/accessibility/android/answer/7349565?hl=en&ref_topic=9079043&sjid=17578886789114503438-NC). This accessibility tool would enable him to select text on his phone screen and ask that it be read aloud.
+
+
+   > *"As you're trying to navigate, it's constantly yelling at you...Just backspace, please. I know it's a backspace. Just do it." (p8).*
+
+  > *"In order for me to scroll up and down, I can't use one finger. I have to use both fingers. If I use one, she [TalkBack] reads it" (p8).*
+
+  > *"I memorize it, and I make sure that if I go to click on something that's familiar, that I'm expecting this page...And if the word, the text, box shapes are different, or if it's a different set of colors, or if it's a different layout (like it was a year ago that the VA switched not only the login, because I was always using ID.me, but it switched the placement of where that was, and then it gave 3 new windows)...I'm gonna wait till I get home [where I can use the PC and make it bigger]" (p8).*
 
 
 ### Finding 7: Most participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted. 
@@ -415,7 +424,7 @@ Eight participants said they asked wanted to be able to delete a form they start
 ### For the ADE team
 1. Explore opportunities to encourage Veterans to use appropriate AT. 
 
-     - _Supporting evidence_: Two Veteran participants were frustrated with their AT tools and didn't know that another tool might meet their needs better. 
+     - _Supporting evidence_: Two Veteran participants were frustrated with their AT tools and didn't know that a different tool might meet their needs better. 
      
      Some ideas are as follows:
      1. Meet with Martha's Blind Rehab Center contacts to discuss eligibility and whether/how to mention their services to research participants who might benefit. --> *Martha will schedule a meeting*
