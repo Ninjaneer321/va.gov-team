@@ -115,7 +115,7 @@ timeline:
 
 session_details:
   duration_minutes_non_at_users: 75
-  duration_minutes_at_users: 140
+  duration_minutes_at_users: 90
   buffer_minutes: 60
   max_sessions_per_day: 2
 
@@ -409,6 +409,7 @@ Provide a link to any materials you need to run your study, including any materi
 - Perigean **CANNOT** recruit VA employees or VSOs. Work with your VA lead to recruit these groups. 
 - Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
 - Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
+- Note that AT users will not interact with the prototype in these sessions. Per VA guidance, the team will conduct an additional round of usability testing for accessible technology (assistive device, etc.) users once we have a coded prototype.
 
 ### Recruitment criteria
 
@@ -582,12 +583,12 @@ Screener question 12
 - `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **[75 minutes for non-AT users, 
-140 minutes for AT users]**
+- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **75 minutes for non-AT users, 
+90 minutes for AT users**
   
-- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **[60 mins]**
+- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **60 mins**
   
-- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **[2 per day]**
+- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **2 per day**
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
@@ -614,17 +615,17 @@ TBD, 12-5pm ET
 >
 > **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
 
-- `Moderator:` **[Risha Lee]**	
-- `Research guide writing and task development (usually but not always same as moderator):` **[Risha Lee]**		
-- `Participant recruiting & screening:`	**[Perigean]**	
-- `Project point of contact:` **[Risha Lee]**		
+- `Moderator:` **Risha Le]**	
+- `Research guide writing and task development (usually but not always same as moderator):` **Risha Lee**		
+- `Participant recruiting & screening:`	**Perigean**	
+- `Project point of contact:` **Risha Lee**		
 - `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[TBD]**	
-- `Note-takers:` **[Megan Gayle and Joseph Lee]**	
+- `Note-takers:` **Megan Gayle and Joseph Lee**	
 - `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
 
-- **[Denise Coveyduc]**
-- **[Heather Rienks]**
-- **[Tom Davis]**
+- **Denise Coveyduc**
+- **Heather Rienks**
+- **Tom Davis**
 
 ## Approvals ✅
 > [!NOTE]
