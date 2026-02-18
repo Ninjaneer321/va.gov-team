@@ -404,12 +404,14 @@ Eight participants said they asked wanted to be able to delete a form they start
      - _Supporting evidence_: Two participants weren't sure what to enter. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other said that they wanted to select from a list of offices. 
 
 ### For the ADE team
-1. Explore opportunities to encourage Veterans to use appropriate AT. Some ideas are listed below.
+1. Explore opportunities to encourage Veterans to use appropriate AT. 
 
      - _Supporting evidence_: Two Veteran participants were frustrated with their AT tools and didn't know that another tool might meet their needs better. 
-     1. Meet with Martha's Blind Rehab Center contacts to discuss eligibility and whether/how to mention their services to research participants who might benefit.
-     1. Consider adding messaging on VA.gov about how to better use AT 
-     improving the Accessibility at VA page 
+     
+     Some ideas are as follows:
+     1. Meet with Martha's Blind Rehab Center contacts to discuss eligibility and whether/how to mention their services to research participants who might benefit. --> *Martha will schedule a meeting*
+     1. Consider adding messaging on VA.gov about how to better use this website (see this page on [gov.uk](https://www.gov.uk/help/accessibility-statement#how-you-should-be-able-to-use-this-website)). Could perhaps add something to the [508 compliance (Accessibility) page](https://www.va.gov/accessibility-at-va/) --> *Create a ticket to discuss with Danielle.*
+     1. Learn more about Veteran needs by conducting a survey of Veterans who are blind or low vision about their AT tools and experiences with VA.gov. --> *Future work for Cindy*
 
 ## Product User and Business Outcomes
 
