@@ -54,7 +54,6 @@ recruitment:
   primary_criteria:
     - "Have a debt balance from overpayments in the last year"
     - "Are comfortable talking about their personal finances"
-    - "6 assistive technology users, including 3 Veterans who use screen magnifiers and 3 Veterans who use screen readers"
     - "Be willing to share a web browser window on their device during the session"
     - "Have a working microphone on their device"
     - "Have Zoom downloaded to their device prior to the session and know how to share their screen"
@@ -90,14 +89,6 @@ recruitment:
       qualifying_response: "Any response is acceptable; 'Yes' indicates cognitive disability."
     - question: "What device will you use to join the session?"
       qualifying_response: "Any response is acceptable."
-    - question: "Do you need a screen reader or screen magnifier every time you use the Internet? We ask this question because we want to make sure that our website works for people who rely on these types of technologies."
-      qualifying_response: "To qualify as an AT user cohort: 'Yes' AND screen reader/magnifier use for 'At least one year' (disqualify if 'Less than 1 year')."
-    - question: "Are you willing to join the Zoom session using this assistive technology?"
-      qualifying_response: "Yes (for AT user cohort)."
-    - question: "What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session?"
-      qualifying_response: "Text box response (collect tool name)."
-    - question: "What (if any) accommodations will you need to participate in this Zoom session?"
-      qualifying_response: "Text box response (collect accommodations)."
 
 participants:
   veterans: 15
@@ -147,31 +138,6 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability/research-plan.md"
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2024-9-copay-usability/research-plan.md"
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2024-6-overpayment-usability/research-plan.md"
-
-tags:
-  - "AUD: Veterans"
-  - "BNFT: Finances"
-  - "BNFT: Education"
-  - "BNFT: Disability"
-  - "PRDT: Debt-portal"
-  - "PRDT: Pay.gov"
-  - "DSC: Form"
-  - "DSC: Form - Radio Button"
-  - "DSC: Checkbox"
-  - "DSC: Button"
-  - "DSC: Alert Boxes"
-  - "DSP: Content Presentation"
-  - "DSP: Contextual Help"
-  - "DSP: Help users to check answers"
-  - "usability-testing"
-  - "moderated-usability-testing"
-  - "semi-structured-interviews"
-  - "accessibility"
-  - "accessibility: cognitive-disabilities"
-  - "accessibility: assistive-technology"
-  - "HDW: Desktop"
-  - "HDW: Laptop"
-  - "HDW: Smartphone"
 ---
 
 ## Background 🏗️
