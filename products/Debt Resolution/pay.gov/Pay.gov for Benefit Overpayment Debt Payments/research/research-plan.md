@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Research Plan for Financial Management, Pay.gov for Benefit Overpayment Debt Payments, 2026-02-12"
 date: 2026-02-12
-last_updated: 2026-02-12
+last_updated: 2026-02-18
 team: "Financial Management"
 product: "Pay.gov for Benefit Overpayment Debt Payments"
 product_area: "authenticated"
@@ -17,8 +17,8 @@ background:
 # Research Design
 methodology: "Mixed methods: semi-structured interviews + moderated usability testing"
 research_format:
-  location: remote # Options: remote, in-person, hybrid
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
 
 # Research Goals & Questions
 research_goals:
@@ -54,48 +54,50 @@ recruitment:
   primary_criteria:
     - "Have a debt balance from overpayments in the last year"
     - "Are comfortable talking about their personal finances"
+    - "6 assistive technology users, including 3 Veterans who use screen magnifiers and 3 Veterans who use screen readers"
     - "Be willing to share a web browser window on their device during the session"
     - "Have a working microphone on their device"
     - "Have Zoom downloaded to their device prior to the session and know how to share their screen"
 
   secondary_criteria:
-    - "At least 5 have had a debt repayment plan with the VA in the last year"
-    - "At least 6 ages 55+"
-    - "At least 6 with an annual household income of less than 50K"
+    - "At least 8 have had a debt repayment plan with the VA in the last year"
+    - "At least 8 ages 55+"
+    - "At least 8 with an annual household income of less than 50K"
     - "At least 6 participants must have experienced financial hardship now or in the past"
-    - "At least 3 with cognitive disabilities"
-    - "At least 3 who use screener readers or screen magnifiers"
-    - "At least 3 under age 35"
-    - "At least 4 people of color"
-    - "At least 3 in a rural area"
-    - "At least 3 without a degree"
-    - "At least 2 with immigrant origins"
-    - "At least 1 woman"
+    - "At least 5 with cognitive disabilities"
+    - "At least 5 under age 35"
+    - "At least 5 people of color"
+    - "At least 5 in a rural area"
+    - "At least 5 without a degree"
+    - "At least 3 with immigrant origins"
+    - "At least 2 women"
     - "At least 1 from the LGBTQ+ community"
 
   screener_questions:
     - question: "Do you currently owe any of the following types of VA debt? If so, please select all that apply."
-      qualifying_response: "Select at least one overpayment debt type (NOT 'Medical debt' only; NOT 'I do not currently owe any of the above'). Acceptable selections include: Post-9/11 GI Bill overpayment; Disability compensation and pension overpayment; Education Ch 33-Ch1606/Ch30 Kickers; Chapter 34 education overpayment; Chapter 35 education overpayment."
+      qualifying_response: "Select at least one overpayment debt type (NOT 'Medical debt' only; NOT 'I do not currently owe any of the above')."
     - question: "When you sign in to VA.gov and to go My VA (https://va.gov/my-va/), do you see details about \"overpayment debts\" under the section \"Outstanding debts\"? (this is different from copay bills)"
       qualifying_response: "Yes, I see a listing of 1 or more overpayment debts on VA.gov."
     - question: "Have you been on a debt payment plan with the VA in the past year?"
-      qualifying_response: "Either 'Yes' or 'No' (quota: aim for at least 5 of 10 participants to have been on payment plans with the VA in the past year)."
+      qualifying_response: "Either 'Yes' or 'No' (quota: aim for at least 8 participants to have been on payment plans with the VA in the past year)."
     - question: "Please select the statement(s) that apply to you: (Check all that apply)"
-      qualifying_response: "Any response is acceptable (quota: aim for at least 5-6 of 10 participants to have experienced financial hardship; includes 'currently experiencing' and/or 'experienced in the past')."
+      qualifying_response: "Any response is acceptable (quota: aim for at least 6 participants to have experienced financial hardship; includes 'currently experiencing' and/or 'experienced in the past')."
     - question: "Do you identify as a member of the LGBTQ+ community? We ask this question because we want to make sure the feedback we get from these sessions represents all the people we serve."
       qualifying_response: "Any response is acceptable ('Yes', 'No', or 'Decline to answer'); used for representation quota."
     - question: "Is your annual household income less than $50,000?"
-      qualifying_response: "Either 'Yes' or 'No' (used to meet representation quota; secondary criterion targets at least 6 under $50K)."
+      qualifying_response: "Either 'Yes' or 'No' (used to meet representation quota)."
     - question: "Is it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these."
-      qualifying_response: "Any response is acceptable; 'Yes' indicates cognitive disability (secondary criterion targets at least 3)."
+      qualifying_response: "Any response is acceptable; 'Yes' indicates cognitive disability."
+    - question: "What device will you use to join the session?"
+      qualifying_response: "Any response is acceptable."
     - question: "Do you need a screen reader or screen magnifier every time you use the Internet? We ask this question because we want to make sure that our website works for people who rely on these types of technologies."
       qualifying_response: "To qualify as an AT user cohort: 'Yes' AND screen reader/magnifier use for 'At least one year' (disqualify if 'Less than 1 year')."
     - question: "Are you willing to join the Zoom session using this assistive technology?"
       qualifying_response: "Yes (for AT user cohort)."
     - question: "What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session?"
-      qualifying_response: "Text box response (collect tool name; not specified as qualifying/disqualifying)."
+      qualifying_response: "Text box response (collect tool name)."
     - question: "What (if any) accommodations will you need to participate in this Zoom session?"
-      qualifying_response: "Text box response (collect accommodations; not specified as qualifying/disqualifying)."
+      qualifying_response: "Text box response (collect accommodations)."
 
 participants:
   veterans: 15
@@ -152,6 +154,7 @@ tags:
   - "BNFT: Education"
   - "BNFT: Disability"
   - "PRDT: Debt-portal"
+  - "PRDT: Pay.gov"
   - "DSC: Form"
   - "DSC: Form - Radio Button"
   - "DSC: Checkbox"
@@ -163,7 +166,9 @@ tags:
   - "usability-testing"
   - "moderated-usability-testing"
   - "semi-structured-interviews"
-  - "Accessibility"
+  - "accessibility"
+  - "accessibility: cognitive-disabilities"
+  - "accessibility: assistive-technology"
   - "HDW: Desktop"
   - "HDW: Laptop"
   - "HDW: Smartphone"
