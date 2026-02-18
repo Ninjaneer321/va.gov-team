@@ -312,9 +312,9 @@ Two Veteran participants were frustrated with their AT tools and didn't know tha
 
    > *"As you're trying to navigate, it's constantly yelling at you...Just backspace, please. I know it's a backspace. Just do it." (p8).*
 
-  > *"In order for me to scroll up and down, I can't use one finger. I have to use both fingers. If I use one, she [TalkBack] reads it" (p8).*
+   > *"In order for me to scroll up and down, I can't use one finger. I have to use both fingers. If I use one, she [TalkBack] reads it" (p8).*
 
-  > *"I memorize it, and I make sure that if I go to click on something that's familiar, that I'm expecting this page...And if the word, the text, box shapes are different, or if it's a different set of colors, or if it's a different layout (like it was a year ago that the VA switched not only the login, because I was always using ID.me, but it switched the placement of where that was, and then it gave 3 new windows)...I'm gonna wait till I get home [where I can use the PC and make it bigger]" (p8).*
+   > *"I memorize it, and I make sure that if I go to click on something that's familiar, that I'm expecting this page...And if the word, the text, box shapes are different, or if it's a different set of colors, or if it's a different layout (like it was a year ago that the VA switched not only the login, because I was always using ID.me, but it switched the placement of where that was, and then it gave 3 new windows)...I'm gonna wait till I get home [where I can use the PC and make it bigger]" (p8).*
 
 
 ### Finding 7: Most participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted. 
