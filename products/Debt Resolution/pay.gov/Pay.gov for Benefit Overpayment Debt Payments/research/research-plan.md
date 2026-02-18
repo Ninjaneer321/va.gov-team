@@ -424,7 +424,6 @@ Provide a link to any materials you need to run your study, including any materi
 > [!NOTE]
 > Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 10 ideal completed sessions, request 15 total participants)*
 
-
 - `Veterans:` **[15]**
 - `Caregivers:` **[0]**
 - `Dependents:` **[0]**
@@ -545,17 +544,6 @@ Screener question 9
   * No. 
 
 Screener question 10
-
-* Are you willing to join the Zoom session using this assistive technology?  
-  * Yes  
-  * No
-
-Screener question 11
-
-* What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session?  
-  * Response option: Text box
-
-Screener question 12
 
 * What (if any) accommodations will you need to participate in this Zoom session?  
   * Response option: text box.
