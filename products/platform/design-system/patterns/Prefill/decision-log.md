@@ -1,13 +1,15 @@
 # Prefill Pattern - Decision Log
 Last updated: 12/16/2025
 
-This document outlines the key design decisions made for implementing Prefill pattern. These Architecture Decision Records (ADRs) capture the context, decisions, and consequences of our design choices to ensure consistency and provide guidance for future development.
+This document outlines the key design decisions made for implementing [Prefill pattern](https://github.com/department-of-veterans-affairs/vets-website/tree/main/src/platform/forms-system/src/js/patterns/prefill). These Architecture Decision Records (ADRs) capture the context, decisions, and consequences of our design choices to ensure consistency and provide guidance for future development.
 
 
-- [ADR: 001 - Success alert messages](#ADR-001---Success-Alert-messages)
+- [ADR: 001 - Success Alert messages](#ADR-001---Success-Alert-messages)
 - [ADR: 002 - Optional vs Required label](#ADR-002---Optional-vs-Required-label)
 - [ADR: 003 - Minimal header back button](#ADR-003---Minimal-header-back-button)
 - [ADR: 004 - Option to update only mailing address to either form or profile](#ADR-004---Option-to-update-only-mailing-address-to-either-form-or-profile)
+- [ADR: 005 - Routing behavior](#ADR-005---Routing-behavior)
+- [ADR: 006 - Replace platform component ContactInfo component with Prefill ContactInfo](#ADR-006---Replace-platform-component-ContactInfo-component-with-Prefill-ContactInfo)
 
 
 
