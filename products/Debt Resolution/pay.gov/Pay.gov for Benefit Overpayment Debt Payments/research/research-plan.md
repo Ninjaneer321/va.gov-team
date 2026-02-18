@@ -407,8 +407,8 @@ Provide a link to any materials you need to run your study, including any materi
 ### Recruitment approach
 *Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
 - Veterans who have experience making payments towards VA benefit overpayment debt.
-- We would like for Perigean to recruit a total of 15 Veterans who use assistive technology (AT) and Veterans who do not use assistive technology. We are aiming for 10 sessions total.  
-- Note that AT users will not interact with the prototype in these sessions. Per VA guidance, the team will conduct an additional round of usability testing for accessible technology (assistive device, etc.) users once we have a coded prototype.
+- We would like for Perigean to recruit a total of 15 Veterans who do not use assistive technology. We are aiming for 10 sessions total.  
+- Per VA guidance, the team will conduct an additional round of usability testing for accessible technology (assistive device, etc.) users once we have a coded prototype.
 
 ### Recruitment criteria
 
@@ -435,7 +435,6 @@ Provide a link to any materials you need to run your study, including any materi
 
 - `Have a debt balance from overpayments in the last year`  
 - `Are comfortable talking about their personal finances`
-- `6 Assistive Technology users, including 3 Veterans who use screen magnifiers and 3 Veterans who use screen readers`
 - `Be willing to share a web browser window on their device during the session`
 - `Have a working microphone on their device`
 - `Have Zoom downloaded to their device prior to the session and know how to share their screen`
@@ -526,28 +525,6 @@ Screener question 8
   * Smartphone  
   * Tablet
 
-For AT Users
-
-Quotas:
-
-*Aim for at least 6 participants to use screen readers or screen magnifiers
-
-##### **For Screen reader or screen magnifier users**
-
-Screener question 9
-
-* Do you need a screen reader or screen magnifier every time you use the Internet? We ask this question because we want to make sure that our website works for people who rely on these types of technologies.  
-  * Yes  
-    * How long have you been using this screen reader or screen magnifier?  
-      * Less than 1 year \[DISQUALIFY\]  
-      * At least one year   
-  * No. 
-
-Screener question 10
-
-* What (if any) accommodations will you need to participate in this Zoom session?  
-  * Response option: text box.
-
 ## Timeline 🗓️
 > [!NOTE]
 > **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.** 
@@ -602,7 +579,7 @@ TBD, 12-5pm ET
 >
 > **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
 
-- `Moderator:` **Risha Le]**	
+- `Moderator:` **Risha Lee**	
 - `Research guide writing and task development (usually but not always same as moderator):` **Risha Lee**		
 - `Participant recruiting & screening:`	**Perigean**	
 - `Project point of contact:` **Risha Lee**		
