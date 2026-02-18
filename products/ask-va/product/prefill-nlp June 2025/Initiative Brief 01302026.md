@@ -15,16 +15,16 @@ This doc gives an overview of the **AI/ML Predictive Category Model** Ask VA ini
 - [Supporting Documentation](#supporting-documentation)
 
 ## Overview
-Submitters have to answer many more questions in the Ask VA form than the typical contact form. We have identified an opportunity to use an AI/NLP data model to accurately predict the correct queue given question text and other variables that determine queue routing.
-
-As a first step to test if the model is successful, we could present predicted Category to the submitter. The submitter can then simply review the prefilled information rather than answer these questions. Answers to these questions currently determine routing of the inquiry.
+Submitters have to answer many more questions in the Ask VA form than the typical contact form. As a first step to test if this AI/ML predctive categorymodel is successful, we could present predicted Category to the submitter. The submitter can then simply review the prefilled information rather than answer these questions. Answers to these questions currently determine routing of the inquiry.
 
 Originally, we thought this could also improve resolution time. After conducting an [analysis on queue and resolution time](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/product/prefill-nlp%20June%202025/Queue%20analysis.md), we determined that an AI model that returns an Ask VA queue given question text would likely only minimally impacts resolution time.
+
+As a future iteration, we could explore accurately predicting the correct queue given question text and other variables that determine queue routing.
 
 ## Problem statement
 **Background**: Only 1/3 of Veterans, family members, and other people with questions for VA who visit the current Ask VA landing page, [Ask VA](https://www.va.gov/contact-us/ask-va/introduction) end up completing the support request. User research has identified form burden as a barrier for Veterans to receiving answers to their inquiries. To expediently get Veterans the healthcare & benefits answers they deserve, VA is simplifying the process. 
 
-**Solution**: We'll reduce unnecessary Veteran inputs by auto-classifying the categories, topics, and subtopics needed to route Veteran inquiries to the right place. This is expected to improve satisfaction and reduce friction in the direct healthcare and benefits process.
+**Solution**: We'll reduce unnecessary Veteran inputs by auto-classifying the category. This is expected to improve satisfaction and reduce friction in the direct healthcare and benefits process. As an iteration, we could expand the model to predit topics, subtopics, and the actual queue.
 
 ## Outcomes
 - **User experience outcomes**: Ensure users have an easy and accessible interaction with Ask VA.
