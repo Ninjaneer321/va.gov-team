@@ -131,10 +131,10 @@ graph TB
     VAMF --> ExternalAPIs
     AppProviders --> SSOe
 
-    classDef newPage fill:#d4edda,stroke:#28a745,stroke-width:2px
-    classDef movedPage fill:#fff3cd,stroke:#ffc107,stroke-width:2px
-    classDef unchanged fill:#e2e3e5,stroke:#6c757d,stroke-width:1px
-    classDef flagNode fill:#cce5ff,stroke:#004085,stroke-width:2px
+    classDef newPage fill:#d4edda,stroke:#28a745,stroke-width:2px,color:#333
+    classDef movedPage fill:#fff3cd,stroke:#ffc107,stroke-width:2px,color:#333
+    classDef unchanged fill:#e2e3e5,stroke:#6c757d,stroke-width:1px,color:#333
+    classDef flagNode fill:#cce5ff,stroke:#004085,stroke-width:2px,color:#333
 
     class RefillV2 newPage
     class InProgress newPage
