@@ -109,6 +109,12 @@ Beyond documented regression and test cases, the team conducted manual validatio
 
 - **Contact Information Testing Scope:** Governance may add or remove contact information fields for testing purposes, with the exception of the Mailing Address field.
 
+- **Managing Contact Information for Test Scenarios:** If a use case requires contact information (home address, email address, or home/work/mobile phone) to be added or removed:
+  - Navigate to **Profile > Contact information**
+  - Select **Edit** to add or update information
+  - Select **Remove** to remove information
+  - Then begin testing the applicable scenario
+
 - **Scheduling Preferences Interstitial Behavior:** If contact information is removed after being used to set related Scheduling Preferences, the expected interstitial modal will trigger, prompting the user to review and update their preferences.
 
 - **Connected Apps Testing Limitation:** Connected Apps disconnect functionality test case ID Reg-AS-01 was validated in a single browser only. There are currently six remaining connected apps available in the test account, and we do not have a mechanism to add additional apps once disconnected. To preserve the limited test data set, we recommend limiting disconnect testing volume or leveraging a cross-browser testing tool where possible.
