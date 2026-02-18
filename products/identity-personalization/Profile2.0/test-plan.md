@@ -78,16 +78,17 @@ This report demonstrates that all user stories are mapped to at least one corres
 
 #### Test Execution Summary
 
-- **31 / 32 Regression Tests Passed**  
+- **30 / 32 Regression Tests Passed**  
 - **15 / 15 Test Cases Passed**
 
-One regression test is currently blocked due to a known external dependency issue.
 
-#### Blocked Test
+#### Blocked/Failed Tests
 
-| Test Case ID | Profile Section | Test Description | Status | Notes |
-|--------------|-----------------|-----------------|--------|-------|
-| Reg-HCC-01 | Health care contacts | View Health care contacts | Blocked | Known issue: the personal healthcare contacts endpoint is currently not functioning. The feature is temporarily turned off so contacts do not display. |
+| Test Case ID | Profile Section        | Test Description                 | Status  | Notes |
+|--------------|------------------------|----------------------------------|---------|-------|
+| Reg-HCC-01   | Health care contacts   | View Health care contacts        | Blocked | Known issue: currently the personal healthcare contacts endpoint is not working, so the page does not display contacts. |
+| Reg-PI-03    | Personal Information   | Add + edit preferred name        | Failed  | Adding or updating preferred name in the Personal Information section does not save in staging. Confirmed on 2/18 that this bug is not occurring in production. [[Bug Ticket]](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133575)  |
+
 
 ---
 
