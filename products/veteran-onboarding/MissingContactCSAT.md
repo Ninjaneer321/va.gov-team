@@ -299,7 +299,7 @@ Many responses express deep frustration not just with the technical failure but 
 | **P0** | Support international phone numbers with country code selection dropdown | International phone rejection | ~150–200+ blocked veterans in this dataset alone |
 | **P0** | Make mobile phone field optional (allow skip, landline, or "N/A") | No-mobile-phone users blocked | ~80–120+ blocked veterans |
 | **P1** | Add robust error handling, retry logic, and user-facing status page for the contact info update API | "Something went wrong" errors | ~5,000–6,000 impacted during outage |
-| **P1** | Pre-populate contact info from Login.gov/ID.me during account setup | Redundant data entry frustration | Reduces friction for all new users |
+| **P1** | [Pre-populate contact info from Login.gov/ID.me during account setup](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-onboarding/Pre-populate-deep-dive.md) | Redundant data entry frustration | Reduces friction for all new users |
 | **P1** | Implement monitoring/alerting for contact info API failures with automatic incident response | Future outage prevention | Prevents repeat of Feb–Mar catastrophe |
 | **P2** | Accept international mailing addresses beyond APO/FPO/DPO | Overseas veterans' full addresses | Subset of international users |
 | **P2** | Improve email validation to accept edge-case but valid email formats (periods, long TLDs, etc.) | Email rejection issues | ~50–75 mentions |
