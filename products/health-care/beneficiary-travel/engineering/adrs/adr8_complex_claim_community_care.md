@@ -64,6 +64,15 @@ Based on the current API calls, there is currently no field that distinguishes P
     - We could create a new database table in `vets-api` to explicitly track whether an uploaded document is a Proof of Attendance (POA).
     - This table would store a reference to the `document ID` along with a `flag indicating that it is a POA document`.
     - Creating our own tracking layer would give us full control over how POA documents are identified and queried, but it would introduce ongoing maintenance costs, added complexity, and potential data consistency issues with the API.
+  
+4. Cache the original filename in the user session.
+    - We could cache the original filename in the frontend during the user’s active claims session while renaming the stored file to a structured value such as `proof-of-attendance.[extension]` for identification purposes.
+    - The cached filename would be used only for display within the flow so that the user continues to see the original filename they uploaded.
+    - This approach would avoid introducing a new database table, would not require suffix-stripping logic across all frontend surfaces and whould not require any backend changes.
+    - This solution would rely on temporary session state and would not persist across page refreshes, navigation away from the flow, or returning to the claim at a later time.
+    - If the session were interrupted, the user would see the renamed filename instead of the original one, creating inconsistent behavior.
+    - Pages such as the Claim Detail page (which do not rely on session state) would display the renamed filename, resulting in a different user experience than what was shown during upload.
+    - While this approach reduces some immediate UX disruption within a single session, it introduces fragile, session-dependent behavior and increases frontend complexity without resolving the underlying limitation of the API.
 
 ### Reccommendation
 
