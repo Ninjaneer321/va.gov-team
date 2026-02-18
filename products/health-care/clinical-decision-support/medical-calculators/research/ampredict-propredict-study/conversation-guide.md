@@ -44,13 +44,13 @@ Today we're going to talk about AMPREDICT/PROPREDICT -- both the online tool and
 
 Before we start, I have a few things that I want to go over with you:
 
-- **This entire session should take about 20 minutes.** For the session today, we want to capture the time it takes to complete a few tasks. I'll ask you to do something and then I'll want you to complete it as you normally would. Please don't feel rushed to complete the task. This is not a race, it's a way for us to gather benchmarking data on how long it realistically takes to complete a calculation.
+- **This entire session should take about 20 minutes.** For the session today, we want to capture the time it takes to complete a few tasks using two different patients in CPRS. I'll ask you to do something and then I'll want you to complete it as you normally would. Please don't feel rushed to complete the task. This is not a race, it's a way for us to gather benchmarking data on how long it realistically takes to complete a calculation.
     
 - **Your participation in this session is completely voluntary.** You do not have to participate if you don't want to. Your responses will remain confidential and your anonymity will be protected. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Please let me know.
 
 # Warm-up Questions (Optional) - 2 minutes
 
-Before we look at the calculator, I'd like to learn a little bit about you. Can you tell me about your current role at the VA and how long have you been at the VA?
+Before we look at the calculator, I'd like to learn a little bit about you. Can you tell me about your current role at the VA and how long have you been here?
 
 ## Timed Task 1 - 5-7 minutes
 
@@ -80,11 +80,11 @@ Great, thank you for completing that calculation. Do you have any questions or c
 
 Next, we'll move on to the CDS Medical Calculators tool and perform the same calculation using a different patient in CPRS.
 
-- Please open a new patient in CPRS.
+- Please open a new patient in CPRS that has either diabetes or peripheral arterial disease. Our calculator will not generate a result without one of these conditions being present.
 - Next, please navigate to CDS Tools > CDS Console and click on the Medical Calculators tile on the console landing page.
-- Now, navigate to AMPREDICT/PROPREDICT in the calculators list, but don't click on it just yet.
-- When you are ready to begin, please let me know and I'll start the timer. Again, just move through the workflow as you normally would.
-- And please let me know when you have completed a calculation so I can stop the timer.  
+- Now, locate AMPREDICT/PROPREDICT in the calculators list, but don't click on it just yet.
+- When you are ready to begin, please let me know and I'll start the timer when you click on the calculator. Again, just move through the workflow as you normally would. You'll see the calculator generate a result after all fields are completed, but please let me know when you've reviewed everything and consider the calculation "complete".
+- When you've completed the calculation I will stop the timer.  
 
 [Start timer upon verbal confirmation.]
 
@@ -112,10 +112,9 @@ Next, I'll share a link in the chat to a brief post-task questionnaire. Please c
 
 Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on these tools to better meet clinician needs.
 
-Thanks! Lastly, would you be interested in participating in another study like this for [this product] or [another product on the CDS console]? And do you have other colleagues who you think might be interested in participating in sessions like this? Would you be willing to share a link for them to sign-up?
+Lastly, would you be interested in participating in another study like this for Medical Calculators or another product on the CDS console? And do you have other colleagues who you think might be interested in participating in sessions like this? Would you be willing to share a link for them to sign-up? If so, I will email you the sign up link so you can forward it to interested colleagues. 
 
 Thank you so much again, and enjoy the rest of your day!
-
 
 # Emergency Exit 🚨
 
