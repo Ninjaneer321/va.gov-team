@@ -273,7 +273,6 @@ After participants finished filling out the form, we asked when they thought the
 
 > *"That's nice that that's right there. I like that. I wouldn't have expected that for something that I was doing previously to pop up in my main page when I first sign in...That's a great feature because I forget easily, so I might not even remember what the form number was" (p9).*
 
-After resuming the form
 
 ### Finding 4: All participants who interacted with the accordions on the Review/Submit page were able to easily open and close them with the controls on the left side (instead of the right).
 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" and "-" controls being on the left side (instead of on the left in the current VA Design System). This included the participant who was using a screen magnifier. In the [previous round of usability testing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#finding-6-va-forms-in-general-had-accessibility-issues-for-screen-readers-and-screen-magnifiers), a participant using a screen magnifier didn't understand how to interact with these accordions when the "+" control was on the right because it wasn't visible to him. 
@@ -342,6 +341,7 @@ Eight participants said they asked wanted to be able to delete a form they start
 
         > *“Just your name and Social Security number--they should be able to find your records completely" (p3).*
      1. **Place of birth**: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. In the previous round of usability testing, we also heard this. 
+     1. **Back to previous page** link: One non-AT participant said that they didn't notice this link at the top of the page because it was so small. If he had seen that link, he said he would have used it because he avoids the browser back button since that often signs him out. He suggested adding a similar link to the bottom of the page, too, because you might be down there when you need it.
 
 1. **All participants who encountered an error while filling out the form (6 of 7) were able to fix it themselves**. Some of the errors likely resulted because the participants were entering fake data (e.g., name, social security number) as instructed, in order to not share PII. Below are descriptions of some of the issues.
 
@@ -358,6 +358,12 @@ Eight participants said they asked wanted to be able to delete a form they start
     > *"I'm happy you guys are doing this because I go to other kinds of websites, and it's just a nightmare trying to get through--the way they've laid stuff out. So I'm very happy that you guys asked for feedback for the user experience. It's fantastic! Thanks" (p7).*
 
 1. Three participants had technical issues with their assistive tech...
+
+1. Two participants noticed the stepper and didn't like that it said they were still on step 1 or 2, even though they had already filled out more than 1 or 2 form pages by then. This happens because step 1 has 3 form pages, and step 2 has 2 form pages.
+
+    > *"Still at step 1 of 6" (p6).*
+
+    > *Saw '2 of 6' and said "I thought we got beyond page 2. Wow. Alright...I was just sighing for the pain that we're about to...I was hoping we were on page 3 of 6 or 4 of 6, but no, we still have 4 more pages to go" (p8).*
 
 1. Two participants said that they prefer to fill out forms on paper instead of online. One of them said it's easier and he likes to keep a copy. The other participant doesn't have a computer and said the following: 
   > *"I'm thinking I could fill it out quicker if I had it in front of me in paper and pencil...Slow [on phone] because of my vision and I'm not the greatest typist. I have to look at the keys to type, that’s why I prefer to write it out" (p2).*
@@ -391,6 +397,9 @@ Eight participants said they asked wanted to be able to delete a form they start
    - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
 
 1. **Consider keeping the "Expand all" link (ADD FROM SLACK DM CONVO W/JEANA)**
+
+1. **Consider making the "Back to previous page" link easier to notice**. Perhaps check its font size and consider increasing it if it's smaller than other text on the page. Perhaps add a duplicate link to the bottom of the page.** 
+   - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
 
 1. **Learn how to advise participants who are struggling with their assistive tech, and incorporate a suggestion into future conversation guides.** Work with Martha to meet with a VA Blind Rehab Center to learn about how they help Veterans who are blind or low vision and whether/how we can get them in touch with research participants who could benefit from their services.
    - _Supporting evidence_: Two participants were particularly frustrated with their current assistive technologies, and we wanted to help. 
