@@ -111,9 +111,8 @@ tags:
 > 
 > Use the [GitHub Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed research plan.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags. 
 
-	# Research Plan for [Team, Product, Date]
-> [!NOTE]
-> *Questions about how to set up your research study? Reach out in the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel.* 
+# Research Plan for Sitewide IA, March 2026
+
 
 ## Background 🏗️
 <details><summary>Briefly describe the background of your product.</summary>
@@ -176,9 +175,9 @@ The Informaiton Architecture of VA.gov must support Veterans and Veteran family 
 
 ### Goals
 
-`1.` Assess whether users can find key information related to top tasks on the site easily and with confidence
-
-`2.` Determine if adding "My VA" and My HealtheVet" to the top level of navigation impacts findability of tools related to managing those benefits.
+- `1.` Assess whether users can find key information related to top tasks on the site easily and with confidence.
+- `2.` Determine if the labels used in navigation meet the mental model of our users.
+- `3.` Determine if adding "My VA" and My HealtheVet" to the top level of navigation impacts findability of tools related to managing those benefits.
 
 
   
@@ -188,26 +187,30 @@ The Informaiton Architecture of VA.gov must support Veterans and Veteran family 
 Outcomes from this research will be used to inform and prioritize changes needed to menu labels, groupings, or broader site organization.
 
 
+
 ### Research questions
 	
 #### Goal 1: Assess whether users can find key information related to top tasks on the site easily and with confidence
-`1.` Can users easily find information related to applying for key benefits?
-`2.` Can users easily find key tools that help them manage benefits they are already receiving?
-`3.` Is there a difference in findability between tools that align with a single benefit versus those that support multiple benefits?
-`4.` Where do users look for information related to benefits for a Veteran family member or caregiver?
-`5.` Is the Service member benefits hub a common destination for key tasks related to Veteran benefits?
+- `1.` Can users easily find information related to applying for key benefits?
+- `2.` Can users easily find key tools that help them manage benefits they are already receiving?
+- `3.` Is there a difference in findability between tools that align with a single benefit versus those that support multiple benefits?
 
-#### Goal 2: Determine if adding "My VA" and My HealtheVet" to the top level of navigation impacts findability of tools related to managing those benefits.
-`6.` Is "My VA" a common pathway to tools related to managing benefits?
-`7.` Is "My HealtheVet" a common pathway to tools related to managing health care?
+#### Goal 2: Determine if the labels used in navigation meet the mental model of our users.
+- `4.` Where do users look for information related to benefits for a Veteran family member or caregiver?
+- `5.` Is the Service member benefits hub a common destination for key tasks related to Veteran benefits?
+- `6.` Are Veterans able to determine which hub contains information related to the VR&E program?
+
+#### Goal 3: Determine if adding "My VA" and My HealtheVet" to the top level of navigation impacts findability of tools related to managing those benefits.
+- `7.` Is "My VA" a common pathway to tools related to managing benefits?
+- `8.` Is "My HealtheVet" a common pathway to tools related to managing health care?
 
 
 ### Hypotheses
 
-`1.` Users will be able to easily find key information related to learning about and applying for key Veteran benefits within their respective benefit hubs. 
-`2.` Users will be able to easily find key information related to family member and caregiver benefts within the Family and Caregiver benefits hub.
-`3.` Users will not commonly utilize the Service member benefits hub as a destination for key Veteran benefit information and tools. 
-`4.` Users will most commonly look in "My VA" and My HealtheVet" as ways to get to tools to manage their benefits.
+- `1.` Users will be able to easily find key information related to learning about and applying for key Veteran benefits within their respective benefit hubs. 
+- `2.` Users will be able to easily find key information related to family member and caregiver benefts within the Family and Caregiver benefits hub.-
+- `3.` Users will not commonly utilize the Service member benefits hub as a destination for key Veteran benefit information and tools. 
+- `4.` Users will most commonly look in "My VA" and My HealtheVet" as ways to get to tools to manage their benefits.
 
   
 ## Methodology  🛠️
@@ -260,7 +263,6 @@ Provide a link to any materials you need to run your study, including any materi
 
 ### Recruitment approach
 *Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
-- Perigean **CANNOT** recruit VA employees or VSOs. Work with your VA lead to recruit these groups. 
 - Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
 - Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
 
