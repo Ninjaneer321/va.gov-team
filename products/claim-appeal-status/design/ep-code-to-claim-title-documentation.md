@@ -81,7 +81,7 @@ Last updated: [September 15, 2025]
 
 | EP Code | Claim Label | Logic + Background | Last updated | Plain Language Title | Implemented |
 |---------|-------------|-----------|------------------|---------------------|:---:|
-| 040BDER | Board DTA Error Rating |  |  |  |  |
+| 040BDER | Board DTA Error Rating | (currently being reviewed) | Feb 18, 2026 | (pending) |  |
 
 ## EP 110 - Initial Disability Compensation Claims - Seven Issues or Less
 - Initial disability compensation claims containing seven issues or fewer.
