@@ -68,19 +68,19 @@ It also includes these OKRs:
 	
 |Key result|Ask VA Baseline|After X months|
 |:---|:---|:---|
-|Satisfaction|Jan 26: 31%|x|
-|Form completion rate Average|May 25 to Jan 26: 26% |x|
+|Satisfaction|Jan 26, 2025: 31%|x|
+|Form completion rate Average|May 25, 2025 to Jan 26, 2025: 26% |x|
 |Time to submit form|x|x|
 
 ## Release 
 
 ### Planned Milestones
 
-|Phase|Phase Title|User Facing|Collaboration Cycle Kickoff Ticket|Launch Date|
-|:---|:---|:---|:---|:---|
-|Phase 1|[AI/ML Predictive Category Model Initiative Phase (1/3) #2076](https://github.com/department-of-veterans-affairs/ask-va/issues/2076)|No||May 2026|
-|Phase 2|[AI/ML Predictive Category Model Initiative Phase (2/3) #2090](https://github.com/department-of-veterans-affairs/ask-va/issues/2090)|Yes||TBD|
-|Phase 3|Release to a percentage of users as an alternative flow and assess metrics - iterative|Yes|N/A|TBD|
+|Phase|Phase Title|Scope|User Facing|Collaboration Cycle Kickoff Ticket|Launch Date|
+|:---|:---|:---|:---|:---|:---|
+|Phase 1|[AI/ML Predictive Category Model Initiative Phase (1/3) #2076](https://github.com/department-of-veterans-affairs/ask-va/issues/2076)|Create a prediction service based on the existing category model|No||May 2026|
+|Phase 2|[AI/ML Predictive Category Model Initiative Phase (2/3) #2090](https://github.com/department-of-veterans-affairs/ask-va/issues/2090)|Connect the prediction service to Ask VA on VA.gov|Yes||TBD|
+|Phase 3|AI/ML Predictive Category Model Initiative Phase (3/3)|Release to a percentage of users as an alternative flow and assess metrics|Yes|N/A|TBD|
 
 ### Completion Status
 |Date|Release|Type|Description|
