@@ -7,10 +7,10 @@ Last updated: 18 Feb 2026
 ## Alerts
 
 - Jump to patterns:
-  - [Tool/Page Alert (Static)](#toolpage-alert)
-  - [Feature/Section Alert (Static)](#featuresection-alert)
-  - [Item Feedback Alert (Static)](#item-feedback-alert)
-  - [Item Message Alert (Static)](#item-message-alert)
+  - [Tool/Page Alert (Static)](#toolpage-alert-static)
+  - [Feature/Section Alert (Static)](#featuresection-alert-static)
+  - [Item Feedback Alert (Static)](#item-feedback-alert-static)
+  - [Item Message Alert (Static)](#item-message-alert-static)
 
 ### Shared rationale
 The following guidance applies to all Alert patterns.
