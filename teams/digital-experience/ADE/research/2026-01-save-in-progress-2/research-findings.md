@@ -297,8 +297,15 @@ One participant said that he liked the "Edit" buttons so you don't have to go ba
 
 ### Finding 6: Two participants struggled with their AT, perhaps because the tools weren't appropriate for their level of impaired vision
 Two Veteran participants were frustrated with their AT tools and didn't know that another tool might meet their needs better. 
+1. P6 with low vision was using the TalkBack screenreader on his Android phone to qualify for the AT session but normally uses it only as a last resort because he hates it. 
 
-If a Veteran hasn't gone to the Blind Rehab Center, how could they find out about AT tools? 
+He didn't know that there are tools to read text for you without providing all the navigation announcing that he found irritating.
+
+1. P8 with low vision wasn't using a screenreader on his smartphone but instead a tool that reads aloud whatever text you highlight with your finger. He kept on wanting the tool to read aloud everything on the screen, but it skipped some text (including accordions) and read some text in small parts with breaks in between (e.g., on the "Records requested" page of the form, and the message that appears after you select "Finish later"). At the end of the session, we recommended to the participant that they try the VoiceOver screenreader.
+
+   > *"It will only let me highlight the first item that appears…'3 of 6 records requested.' Okay, so there's way more information than what you just heard. it looks like it's gonna make me highlight every little bit. I like to do the whole page" (p6).*
+
+He didn't know that he could use a screenreader to read everything on the screen.
 
 
 ### Finding 7: Most participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted. 
