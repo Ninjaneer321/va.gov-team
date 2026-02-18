@@ -2,18 +2,18 @@
 
 Collection of patterns supporting accessibility, along with the rationale for the pattern and a list of standards or other factors supported by the pattern.
 
-Last updated: 12 Feb 2026
+Last updated: 18 Feb 2026
 
-## Static Alerts
+## Alerts
 
 - Jump to patterns:
-  - [Tool/Page Alert](#toolpage-alert)
-  - [Feature/Section Alert](#featuresection-alert)
-  - [Item Feedback Alert](#item-feedback-alert)
-  - [Item Message Alert](#item-message-alert)
+  - [Tool/Page Alert (Static)](#toolpage-alert)
+  - [Feature/Section Alert (Static)](#featuresection-alert)
+  - [Item Feedback Alert (Static)](#item-feedback-alert)
+  - [Item Message Alert (Static)](#item-message-alert)
 
 ### Shared rationale
-The following guidance applies to all Static Alert patterns.
+The following guidance applies to all Alert patterns.
 
   - **Static alert: No Role.** If the alert is a static alert that exists on the page when the page gets loaded, it doesn’t need a role. — Excerpted from VADS [Alert aria-role guidance](https://design.va.gov/components/alert/#assign-an-appropriate-aria-role)
 
@@ -26,15 +26,15 @@ The following accessibility standards are supported by the Static Alerts pattern
 
 ### Resources
 
-- [Static Alert annotations (Figma)](https://www.figma.com/design/NI9ziF3FsJcU9SxoABc85v/%F0%9F%93%98-MHV---Accessibility-Explorations?node-id=6912-11642&t=EE024ZsypfinKXeu-1) — annotated patterns from MHV Accessibility includes details about positioning and accessibility attributes
-- Static Alerts implementation (Storybook) — to come
+- [Alert patterns (Figma)](https://www.figma.com/design/NI9ziF3FsJcU9SxoABc85v/%F0%9F%93%98-MHV---Accessibility-Patterns?node-id=7048-12449) — annotated patterns from MHV Accessibility includes details about positioning and accessibility attributes
+- Alert implementation (Storybook) — to come
 - [Alert](https://design.va.gov/components/alert/) and [Alert - Expandable](https://design.va.gov/components/alert/alert-expandable/) — component documentation from VADS includes links to component in Figma and Storybook and usage guidance
 
 ---
 
 ### Patterns
 
-#### Tool/Page Alert
+#### Tool/Page Alert (Static)
 
 <img width="259" height="340" alt="Screenshot of alert at the top of the page following the page heading" src="../files/alert-static-page.png" />
 
@@ -51,7 +51,7 @@ The following accessibility standards are supported by the Static Alerts pattern
   - Location: After page title. — Guidance from VADS content style guide for this type of [alert messages](https://design.va.gov/content-style-guide/error-messages/access#system-downtime).
   - Alert - Expandable is only to be used within the contents of a page, not as a page-level alert. — Excerpted from VADS [Expandable Alert usage guidance](https://design.va.gov/components/alert/alert-expandable/#when-to-use-alert---expandable)
 
-#### Feature/Section Alert
+#### Feature/Section Alert (Static)
 
 <img width="268" height="480" alt="Screenshot of alert in a page section following the page heading" src="../files/alert-static-section.png" />
 
@@ -65,7 +65,7 @@ The following accessibility standards are supported by the Static Alerts pattern
   - **Sub-alerts on the page.** When your page has more than 1 alert and you are using the Standard and Slim alerts to create a hierarchy of alerts within the page. — Excerpted from VADS [Slim alerts usage guidance](https://design.va.gov/components/alert/#web-3)
   - When a standard Alert is applicable to a specific section of content on a page, it should be placed directly below the header of that section. — Excerpted from VADS [Alert placement guidance](https://design.va.gov/components/alert/#web-4)
  
-#### Item Feedback Alert
+#### Item Feedback Alert (Static)
 
 <img width="264" height="303" alt="Screenshot of alert in a medication card after the card content and before the call to action" src="../files/alert-static-item-feedback.png" />
 
@@ -80,7 +80,7 @@ The following accessibility standards are supported by the Static Alerts pattern
   - **Sub-alerts on the page.** When your page has more than 1 alert and you are using the Standard and Slim alerts to create a hierarchy of alerts within the page. This does not mean stacking alerts on top of one another, this means placing them appropriately throughout the page. It can also be appropriate to convey multiple statuses using a combination of headers, text, and the Slim alert variation. An example of a sub-alert is the Autosave alert. — Excerpted from VADS [Slim alerts guidance](https://design.va.gov/components/alert/#web-3)
   - **Within cards for information that is specific to that card.** Alerts within cards would be used in cases where an alert outside of the card would cause issues for hierarchy and clarity, especially if there are multiple cards within a collection. Excerpted from VADS [Slim alerts guidance](https://design.va.gov/components/alert/#web-3)
 
-#### Item Message Alert
+#### Item Message Alert (Static)
 
 <img width="277" height="333" alt="Screenshot of an expanded alert in a medication card after the card content" src="../files/alert-static-item-message.png" />
 
