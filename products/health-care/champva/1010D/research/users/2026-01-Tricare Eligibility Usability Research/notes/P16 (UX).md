@@ -84,5 +84,5 @@ Confidence rating: 3
 - More feedback: I want more context to keep from hogging up the phone lines. A Q&A section
 - What's more info about what the program's for, who can get it, etc. 
 
-#### Additional Notes**
+#### Additional Notes
 - Reconfirms video clip
