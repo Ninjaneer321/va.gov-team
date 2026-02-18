@@ -431,6 +431,7 @@ Provide a link to any materials you need to run your study, including any materi
 
 - `Have a debt balance from overpayments in the last year`  
 - `Are comfortable talking about their personal finances`
+- `6 Assistive Technology users, including 3 Veterans who use screen magnifiers and 3 Veterans who use screen readers`
 - `Be willing to share a web browser window on their device during the session`
 - `Have a working microphone on their device`
 - `Have Zoom downloaded to their device prior to the session and know how to share their screen`
@@ -438,18 +439,17 @@ Provide a link to any materials you need to run your study, including any materi
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- `At least 5 have had a debt repayment plan with the VA in the last year`
-- `At least 6 ages 55+`
-- `At least 6 with an annual household income of less than 50K`
+- `At least 8 have had a debt repayment plan with the VA in the last year`
+- `At least 8 ages 55+`
+- `At least 8 with an annual household income of less than 50K`
 - `At least 6 participants must have experienced financial hardship now or in the past`
-- `At least 3 with cognitive disabilities`
-- `At least 3 who use screener readers or screen magnifiers`
-- `At least 3 under age 35`
-- `At least 4 people of color`
-- `At least 3 in a rural area`
-- `At least 3 without a degree`
-- `At least 2 with immigrant origins`
-- `At least 1 woman`
+- `At least 5 with cognitive disabilities`
+- `At least 5 under age 35`
+- `At least 5 people of color`
+- `At least 5 in a rural area`
+- `At least 5 without a degree`
+- `At least 3 with immigrant origins`
+- `At least 2 women`
 - `At least 1 from the LGBTQ+ community`
 
 ## Screener questions
@@ -480,7 +480,7 @@ Screener question 3
 
 Quotas: 
 
-* Please aim for at least 5 of 10 participants to have been on payment plans with the VA in the past year
+* Please aim for at least 8 participants to have been on payment plans with the VA in the past year
 
 Screener question 4
 
@@ -492,7 +492,7 @@ Please select the statement(s) that apply to you: (Check all that apply)
 
 Quotas:
 
-* Aim for at least 5-6 of 10 participants to have experienced financial hardship
+* Aim for at least 6 participants to have experienced financial hardship
 
 
 Screener question 5
@@ -515,15 +515,22 @@ Screener question 7
   * No  
   * Decline to answer
 
+Screener question 8
+
+*What device will you use to join the session?
+  * Desktop or laptop computer  
+  * Smartphone  
+  * Tablet
+
 For AT Users
 
 Quotas:
 
-*Aim for at least 3 participants to use screen readers or screen magnifiers
+*Aim for at least 6 participants to use screen readers or screen magnifiers
 
 ##### **For Screen reader or screen magnifier users**
 
-Screener question 8
+Screener question 9
 
 * Do you need a screen reader or screen magnifier every time you use the Internet? We ask this question because we want to make sure that our website works for people who rely on these types of technologies.  
   * Yes  
@@ -532,18 +539,18 @@ Screener question 8
       * At least one year   
   * No. 
 
-Screener question 9
+Screener question 10
 
 * Are you willing to join the Zoom session using this assistive technology?  
   * Yes  
   * No
 
-Screener question 10
+Screener question 11
 
 * What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session?  
   * Response option: Text box
 
-Screener question 11
+Screener question 12
 
 * What (if any) accommodations will you need to participate in this Zoom session?  
   * Response option: text box.
