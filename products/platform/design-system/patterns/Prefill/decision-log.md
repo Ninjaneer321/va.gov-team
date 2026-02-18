@@ -14,7 +14,7 @@ This document outlines the key design decisions made for implementing Prefill pa
 
 ## ADR 001 - Success Alert messages
 
-### Status: Proposed
+### Status: Complete
 
 - Date issue raised:12/15/2025
 - Decision date:
@@ -33,7 +33,7 @@ N/A
 
 ## ADR 002 - Optional vs Required label
 
-### Status: Proposed
+### Status: Complete
 
 - Date issue raised:12/15/2025
 - Decision date:
@@ -52,7 +52,7 @@ N/A
 
 ## ADR 003 - Minimal header back button
 
-### Status: Proposed
+### Status: Complete
 
 - Date issue raised:12/15/2025
 - Decision date:
@@ -71,7 +71,7 @@ N/A
 
 ## ADR 004 - Option to update only mailing address to either form or profile
 
-### Status: Proposed
+### Status: Complete
 
 - Date issue raised:12/15/2025
 - Decision date:
@@ -87,3 +87,39 @@ N/A
 ### Open Questions
 N/A
 
+## ADR 005 - Routing behavior
+
+### Status: Complete
+
+- Date issue raised:1/15/2026
+- Decision date:
+
+### Context
+The API calls within the prefill pages require that a user follow the Happy Path (clicking the Continue buttons to proceed through the form). If the user enters the URL of a form page directly, or if they navigate to a form page and hit the refresh button, data from the SiP endpoint gets lost.
+
+### Decision
+Introduce logic that reroutes the user to the /intro page if they do either of the above to enforce the happy path.
+
+### Consequences
+
+
+### Open Questions
+N/A
+
+### ADR 006 - Replace platform component ContactInfo component with Prefill ContactInfo
+
+### Status: Proposed
+
+- Date issue raised:2/18/2026
+- Decision date:
+
+### Context
+
+### Decision
+
+
+### Consequences
+
+
+### Open Questions
+N/A
