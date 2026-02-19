@@ -1,73 +1,86 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
+title: "Research Plan for 21-2680 Provider Experience"
+date: 2026-02-19
+last_updated: 2026-02-19
 team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+product: "Form 21-2680 Provider Experience"
+product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+  problem_statement: "Form 21-2680 requires Veterans (claimants) to have their medical provider fill out and sign the provider section to verify eligibility for Aid and Attendance or Housebound benefits. The claimant portion is digitized, but once completed, the patient must print the provider section for a doctor's completion. We are in the initial design phase for allowing providers to complete, sign, and submit their portion digitally."
+  product_location: "Benefits & Claims section; authenticated experience on VA.gov"
+  user_familiarity: "Iteration - the claimant (patient-facing) portion is already online; we are newly digitizing the provider (doctor-facing) experience."
+  product_brief_url: "[Link to product brief]"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "Mixed-methods: semi-structured interviews, contextual inquiry, workflow mapping, and prototype usability testing"
 research_format: 
-  location: remote # Options: remote, in-person, hybrid
+  location: remote
   in_person_details:
     facility: "[Location name if applicable]"
     point_of_contact: "[Name if applicable]"
     equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  moderated: true
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+  - goal_1: "Identify real-world workflows for claimants and providers when completing Form 21-2680, including handoff processes, to understand how the digital experience should accommodate current practices."
+  - goal_2: "Uncover pain points and opportunities for improvement in the provider experience with digital completion and submission, including authentication, data entry, and notification challenges."
+  - goal_3: "Determine key constraints, privacy/PII handling requirements, and notification strategy considerations in a digital provider form flow to inform design and compliance requirements."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "How do providers today receive and complete the 21-2680 form (paper or digital), and what is the real-world handoff process between claimant and provider?"
+  - "Are synchronous (during appointment) vs. asynchronous (after appointment, via records) workflows common, and what are the pros and cons of each?"
+  - "What scenarios or frictions are most likely to cause delays or errors in provider completion, and what information or context would help providers complete the form more accurately?"
+  - "What are the authentication or identity verification pain points for providers in a digital flow (e.g., using ID.me), and how do providers prefer to be notified and onboarded?"
+  - "How do raters use provider-supplied answers, what information or format makes their work easiest, and what are the most common challenges in processing 21-2680 forms?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Providers often complete forms asynchronously and rely heavily on patient records, not always requiring an in-person visit, contrary to the assumed synchronous workflow."
+  - "Digital submission will reduce time-to-benefit for Veterans and processing burden for raters if handoff and authentication barriers are minimized."
+  - "Main bottlenecks in the digital flow will be authentication (ID.me account creation), unclear handoff instructions, and lack of direct provider email contact information from claimants."
+  - "Providers will prefer a digital solution if it saves them time, minimizes duplicate data entry, and clarifies which form questions are non-negotiable vs. flexible."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "This research will clarify existing and ideal workflows for digital provider form completion, inform design requirements for a seamless and compliant provider-facing portal, and reduce processing frictions for claimants, providers, and raters. Insights will directly support wireframes, technical requirements, and prompt iterative usability testing."
 
 # Recruitment & Participants
 recruitment:
-  recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  recruiting_partner: "Perigean and internal VA networks"
+  approach: "Blended recruitment: Perigean will recruit Veterans, caregivers, and private practice providers. Internal VA networks will recruit VHA providers, private providers, and VBA raters with 21-2680 experience."
   
   primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+    - "Provider: Has completed a Form 21-2680 or similar VA disability examination form"
+    - "Rater: Has evaluated claims involving Form 21-2680 in the past 12 months"
+    - "Veteran/Caregiver: Has filed or assisted with filing an Aid and Attendance or Housebound claim within the past 2 years"
+    - "Understanding of VA benefits claims workflows or disability examination processes"
     
   secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+    - "Provider: Experience in VHA (VA Health Administration) or private practice settings"
+    - "Provider: Familiarity with digital medical forms or electronic health records (EHR) systems"
+    - "Rater: Experience with evaluation 21-2680"
+    - "Veteran/Caregiver: Any Veteran or caregiver who might fill out a form on VA.gov"
     
   screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+    - question: "Are you currently practicing as a medical doctor (MD), doctor of osteopathy (DO), nurse practitioner (NP), or physician assistant (PA)?"
+      qualifying_response: "Yes"
+    - question: "Do you currently work in a VA facility (VHA), a private practice, or both?"
+      qualifying_response: "Any of the above"
+    - question: "Have you evaluated a disability claim or Form 21-2680 as a rater or adjudicator for the VA in the past 12 months?"
+      qualifying_response: "Yes (for rater cohort only)"
+	- question: "Are you a Veteran or the caregiver or dependent of a Veteran?"
+      qualifying_response: "Yes (for Veteran / caretaker cohort only)"
+	  
+	
       
 participants:
-  veterans: 0
-  caregivers: 0
-  dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  veterans: 2
+  caregivers: 1
+  providers: 5
+  raters: 2
+  total_recruited: 12
+  completed_sessions_goal: 8
   
 # Timeline & Sessions
 timeline:
@@ -79,39 +92,41 @@ timeline:
 session_details:
   duration_minutes: 60
   buffer_minutes: 30
-  max_sessions_per_day: 0
+  max_sessions_per_day: 4
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 1: Optimize software delivery for Veteran impact"
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
+      - "Supports reducing processing time and ensuring correct benefit distribution through improved provider form submission workflows"
+  - objective: "Objective 3: Relentlessly improve the user experience"
     key_results:
-      - "[Specific KR if applicable]"
+      - "Supports reducing burden for Veterans, providers, and raters through a digitized, streamlined provider form experience"
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Taking Care of Myself"
+  - "Reinventing Myself"
+  - "Aging"
     
 # Research Repository Tracking
 related_research:
   previous_studies: 
-    - "[Link to related past research]"
+    - "[Research on digital provider forms in VA or healthcare systems if available]"
+    - "[Previous studies on Aid and Attendance claims processes if available]"
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "benefits-claims"
+  - "provider-experience"
+  - "form-21-2680"
+  - "aid-and-attendance"
+  - "semi-structured-interviews"
+  - "workflow-mapping"
+  - "authenticated-experience"
+  - "generative-research"
 ---
 
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've filled out your research plan below.** 
-> 
-> Use the [GitHub Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed research plan.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags. 
+# Research Plan for 21-2680 Provider Experience
 
-	# Research Plan for [Team, Product, Date]
 > [!NOTE]
 > *Questions about how to set up your research study? Reach out in the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel.* 
 
@@ -120,15 +135,15 @@ tags:
 	
 `What problem is your product trying to solve?`
 
-**[Enter answer here]**
+Form 21-2680 requires Veterans (claimants) to have their medical provider fill out and sign the provider section to verify eligibility for Aid and Attendance or Housebound benefits. The claimant portion is digitized, but once completed, the patient must print the provider section for a doctor's completion. We are in the initial design phase for allowing providers to complete, sign, and submit their portion digitally. We aim to clarify real-world workflows around provider completion, identify opportunities for process improvement, and design a digital experience that may support both synchronous (during appointment) or asynchronous (post-appointment via records) workflows.
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
-**[Enter answer here]**
+Benefits & Claims section; authenticated experience. Providers will authenticate using ID.me.
   
-`What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?`
+`What is Veterans' familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
-**[Enter answer here]**
+This is an iteration. The claimant (patient-facing) portion of Form 21-2680 is already digitized on VA.gov. We are newly designing and implementing the provider (doctor-facing) experience for digital completion and submission.
 
 `Product Brief`
 
@@ -140,69 +155,37 @@ tags:
 
 <details><summary>What research has been done on this product or similar products in the past?</summary>
 
-`Link to relevant past research studies that inform this work. This helps build institutional knowledge and prevents duplicate efforts.`
-
-> [!TIP]
-> **Use the [Past Research Analysis Copilot Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-discovery/past-research-analysis-for-new-research-plan-prompt.md) to automatically find relevant research!**
->
-> 1. Draft and commit your research plan
-> 2. Open GitHub Copilot for your research plan. Click the Copilot icon on your file toolbar.
-> 3. Copy and paste the prompt from the link above
-> 4. Review the suggested studies and add the most relevant ones below
+`Link to relevant past research studies that inform this work.`
 
 **Previous Studies:**
-- [Link to Study 1 - Brief description, Date](url goes here)
-- [Link to Study 2 - Brief description, Date](url goes here)
-- [Link to Study 3 - Brief description, Date](url goes here)
+- [Link to Study 1 - Research on digital provider forms in VA or healthcare systems, if available]
+- [Link to Study 2 - Previous studies on Aid and Attendance claims processes, if available]
 
 **Key Takeaways from Previous Research:**
-- `[Major finding or insight that informs this study]`
-- `[Major finding or insight that informs this study]`
-- `[Major finding or insight that informs this study]`
+- Digital provider forms can reduce processing time and improve data quality if implemented with clear instructions and minimal friction.
+- Providers often prefer asynchronous workflows where they can reference patient records rather than synchronous appointment-based completion.
+- Authentication and identity verification are common pain points in multi-party digital workflows; clear communication about who needs to do what and when is critical.
 
 > [!NOTE]
-> If this is the first research study for this product, you can note that here. You may also want to reference research from similar products or features that could provide relevant insights.
+> If this is the first focused provider workflow study for this product, note that here. However, we have insights from stakeholder conversations with MDEO, VBA raters, and internal SMEs that inform this research.
 
 </details>
 
 ### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO%20FY26%20goals%20supported.md) 
 
-<details><summary>Which OCTO priorities does this research support? Work with your VA lead and product manager as needed. </summary>
+<details><summary>Which OCTO priorities does this research support?</summary>
 
-> **NOTE:** If a Key Result does not have a ***Research Ops Plain Language*** equivalent, it does not map to research supporting it as a key result for the parent objective.
+`Objective 1: Optimize software delivery for Veteran impact.`  
 
-
-`Objective 1:  Optimize software delivery for Veteran impact.`  
-
-> - **Key Result 1.1:** All C100 products have a documented Product Vision, including identifying up to three Veteran-impacting KPIs, published on Product.VA.gov.
-  - ***Research Ops Plain Language:** Supports up to three Veteran-impacting Key Performance Indicators documented for this on Product.VA.gov*
 > - **Key Result 1.2:** Delivered 25 or more releases that have measurably improved a product's Veteran-impacting KPIs.
-  - ***Research Ops Plain Language:** Supports a production release that will measurably improved a product's Veteran-impacting KPIs.*
-> - Key Result 1.3:** OIT has avoided at least $5 million in cost via successful decommissioning of at least 10 systems.
-  - ***Research Ops Plain Language:** Supports the decommissioning of a legacy system.*
-
-`Objective 2: Operate products with high reliability and security.`
-
-> - **Key Result 2.1:** All C100 systems have an incident free time of 99.8 or better.
-> - **Key Result 2.2:** All C100 systems are monitoring the 4 “golden signals” of latency, error rate, volume, and saturation.
-> - **Key Result 2.3:** All C100 systems have baselined cycle time from planning to production, and at least one C100 system in each DSD portfolio has reduced its cycle time from planning to production by more than 50% without increasing change failure rate.
-  - ***Research Ops Plain Language:** Supports reducing this product’s cycle time from planning to production by more than 50% without increasing change failure rate.*
-> - **Key Result 2.4:** By 31 March 2026, DSD has enhanced system security by moving or decommissioning 100% of existing of Systems or Applications leveraging SiteMinder integration for SSOi to Entra ID.
+  - ***Research Ops Plain Language:** Supports a production release that will measurably improve a product's Veteran-impacting KPIs (processing time, benefit accuracy).*
 
 `Objective 3: Relentlessly improve the user experience.`
 
 > - **Key Result 3.1:** Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.
-  - ***Research Ops Plain Language:** Supports this product’s OIT portfolio (Health, Benefits, etc) in improving customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.*
-> - **Key Result 3.2:** 100% of end-user facing C100 systems maintain a ranked list of user pain points.
-  - ***Research Ops Plain Language:** Supports maintaining the ranked list of user pain points for Veteran-facing Products and Services.*
+  - ***Research Ops Plain Language:** Supports this product's OIT portfolio in improving customer satisfaction and reducing friction for Veterans and providers.*
 > - **Key Result 3.3:** 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system.
-  - ***Research Ops Plain Language:** Supports the delivery of at least one release that directly addresses a documented user pain point within this product.*
-
-`Objective 4: OCTO teammates are empowered with the knowledge and resources they need to make sustained impact.`
-
-> - **Key Result 4.1:** More than 25% of VA employees report AI has helped them deliver better services to Veterans.
-> - **Key Result 4.2:** All “VA Way” delivery attributes have an adoption indicator established, baselined and communicated to product delivery staff.
-> - **Key Result 4.3:** 50% of product delivery staff report that a practice group (design) has helped them deliver better software.
+  - ***Research Ops Plain Language:** Supports the delivery of a digital provider form that directly addresses documented pain points in the current paper-based 21-2680 workflow.*
 
 </details>
 
@@ -211,19 +194,13 @@ tags:
 
 ### [Veteran Journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
 
-<details><summary>Where does your product fit into the Veteran journey?
-Are there moments that matter?</summary>
+<details><summary>Where does your product fit into the Veteran journey? Are there moments that matter?</summary>
+
+**This research supports the following Veteran journey phases:**
 	
-- `Joining`
-- `Serving`
-- `Getting Out`
-- `Starting Up`
-- `Taking Care of Myself`
-- `Reinventing Myself`
-- `Putting Down Roots`
-- `Retiring`
-- `Aging`
-- `Dying`
+- `Taking Care of Myself` - Veterans seeking healthcare and disability benefits for medical conditions
+- `Reinventing Myself` - Veterans re-evaluating work capacity and independence due to service-connected conditions
+- `Aging` - Veterans with progressive or age-related conditions requiring medical certification for support benefits
 
 </details>
 
@@ -238,106 +215,101 @@ Are there moments that matter?</summary>
 
 ### Goals
 
-`1.` **[Enter answer here]**
+`1.` **Identify real-world workflows for claimants and providers when completing Form 21-2680, including handoff processes, to understand how the digital experience should accommodate current practices.**
 
-`2.` **[Enter answer here]**
+`2.` **Uncover pain points and opportunities for improvement in the provider experience with digital completion and submission, including authentication, data entry, and notification challenges.**
 
-`3.` **[Enter answer here]** 
+`3.` **Determine key constraints, privacy/PII handling requirements, and notification strategy considerations in a digital provider form flow to inform design and compliance requirements.**
   
 ### Outcome
-`How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
 
----
-
-**[Enter outcome here]** 
+This research will clarify existing and ideal workflows for digital provider form completion, inform design requirements for a seamless and compliant provider-facing portal, and reduce processing frictions for claimants, providers, and raters. Insights will directly support wireframes, technical requirements, and iterative usability testing of the provider-facing interface.
 
 ---
 
 ### Research questions
-> [!NOTE]
-> Do not write out all questions you plan to ask participants -- that should go in the` [conversation guide.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/conversation-guide-template.md)
 
-***Consider bucketing research questions under research goals and think about:***
+***Consider bucketing research questions under research goals:***
+
+**Goal 1: Real-World Workflows & Handoff**
 	
-`What will I do with what I learn from this question?`
-  
-`Does this question serve the goals of my study?`
+**`1.`How do providers today receive and complete the 21-2680 form (paper or digital), and what is the real-world handoff process between claimant and provider?**
 
-**`1.`[Enter Q1]**
+**`2.`Are synchronous (during appointment) vs. asynchronous (after appointment, via records) workflows common, and what are the pros and cons of each?**
 
-**`2.`[Enter Q2]**
+**Goal 2: Pain Points & Opportunities**
 
-**`3.`[Enter Q3]**
+**`3.`What scenarios or frictions are most likely to cause delays or errors in provider completion, and what information or context would help providers complete the form more accurately?**
 
-**`4.`[Enter Q4]**
+**`4.`What are the authentication or identity verification pain points for providers in a digital flow (e.g., using ID.me), and how do providers prefer to be notified and onboarded?**
 
-**`5.`[Enter Q5]**
+**Goal 3: Constraints & Compliance**
+
+**`5.`How do raters use provider-supplied answers, what information or format makes their work easiest, and what are the most common challenges in processing 21-2680 forms?**
 
 > [!TIP]
->Enter more questions as needed
+> Enter more questions as needed
 
 ### Hypotheses
-> [!NOTE]
-> Remember to constrain the hypotheses to the goals of your study!
- 
+
 **Think through these prompts to develop strong hypotheses:**
 	
-`What do you intend to learn and measure from this study?` 
+`What do you intend to learn and measure from this study?` We intend to uncover the real workflows, pain points, and design constraints for a digital provider form experience.
 
-`What do you already know about this problem space?`
- 
-`What do you think users will do or think about this product? (Identifying our assumptions helps us be aware of biases we may unintentionally bring into the study, so don’t skip this step!)`
-  
-`Write a generalized statement that combines what you know + what you think will happen during the study.`
+`What do you already know about this problem space?` From stakeholder conversations, we know that:
+- Providers may not always conduct in-person exams; they often rely on patient health records.
+- The current paper handoff relies on patients to print and deliver forms; this is a friction point.
+- Providers often do not have direct email contact information from patients.
+- Raters have specific needs for form clarity and completeness.
+
+`What do you think users will do or think about this product?` We anticipate:
+- Providers will prefer a digital solution if it is faster and simpler than paper.
+- Providers may resist creating new accounts (ID.me) if the process is unclear.
+- Raters will value forms that are consistent, complete, and clear—regardless of digital vs. paper.
 
 ---
 
-**[Enter hypotheses here]** 
+**Key Hypotheses:**
+
+- Providers often complete forms asynchronously and rely heavily on patient records, not always requiring an in-person visit, contrary to the assumed synchronous workflow.
+- Digital submission will reduce time-to-benefit for Veterans and processing burden for raters if handoff and authentication barriers are minimized.
+- Main bottlenecks in the digital flow will be authentication (ID.me account creation), unclear handoff instructions, and lack of direct provider email contact information from claimants.
+- Providers will prefer a digital solution if it saves them time, minimizes duplicate data entry, and clarifies which form questions are non-negotiable vs. flexible.
 
 ---
   
 ## Methodology  🛠️
-***Describe the method you’re planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.*** 
 
-<details><summary>Examples of common research methods include</summary> 
-	
-- `Semi-structured interviews - appropriate for generative research`
-- `Contextual inquiry - appropriate for generative research`
-- `Card sorts - appropriate for generative and evaluative research; depending on the study design` 
-- `Tree tests - appropriate for evaluative research`
-- `Usability testing - appropriate for evaluative research`
-- `User acceptance testing (UAT) - required before product release`
+***Describe the method you're planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.*** 
 
-</details>
+**Mixed-methods research:**
 
-**[Enter methodology here]**
+1. **Semi-structured interviews** (with providers, raters, Veterans/caregivers) - Appropriate for generative research to understand current workflows, pain points, and decision-making processes.
+2. **Contextual inquiry** (observing or "riding along" with providers filling out forms, if feasible) - Allows us to see the real environment, constraints, and informal workflows that interviews alone might miss.
+3. **Workflow mapping sessions** - Collaboratively document the current and ideal state of the claimant-to-provider-to-rater handoff.
+4. **Prototype usability testing** (later iterations) - Test wireframes and prototypes to validate assumptions and iterate on design solutions.
+
+**Why these methods:** We are in the generative phase of design (very initial), and the problem involves multiple stakeholders with competing needs and complex workflows. Interviews and contextual inquiry allow us to capture rich, qualitative insights about how people currently work and what they need. Workflow mapping helps us visualize and align on process improvements across teams.
 
 <details><summary>Additional resources</summary> 
 	
-- Please review the [PRA primer](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/what-is-paperwork-reduction-act.md) to educate yourself on how PRA impacts the research we do as a government project. 
-- Review the [Perigean recruitment guidance](https://depo-platform-documentation.scrollhelp.site/research-design/Recruiting-Participants.1958773044.html) to understand how Perigean recruits, and what types of research they can support. 
-- If conducting testing on mobile, refer to the [mobile research guidelines.](https://depo-platform-documentation.scrollhelp.site/research-design/Conducting-Research-Sessions.1958773061.html#ConductingResearchSessions-Researchingwithmobileusers)
-- If conducting [unmoderated usability research, refer to the guidance here.](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html) 
-- If conducting [research with disabled Veterans, refer to this checklist](https://depo-platform-documentation.scrollhelp.site/research-design/research-with-assistive-technology-users) and [follow disability etiquette guidelines.](https://depo-platform-documentation.scrollhelp.site/research-design/disability-etiquette)
-- In the rare event of an emergency during research, be prepared by reviewing guidelines for [research safety and emergency exit strategies](https://depo-platform-documentation.scrollhelp.site/research-design/Research-Safety-and-Emergency-Exit-Strategies.2143649793.html).
+- Review the [Perigean recruitment guidance](https://depo-platform-documentation.scrollhelp.site/research-design/Recruiting-Participants.1958773044.html) to understand how Perigean recruits, screens, and prepares participants.
+- Review the [PRA primer](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/what-is-paperwork-reduction-act.md) to understand PRA requirements for multi-party forms and medical provider research.
+- If recruiting VHA employees or internal VA staff, coordinate with your VA lead, as Perigean cannot recruit VA employees directly.
 
 </details>
 
 ### Location
-Where will you be holding the research sessions? Be sure to include whether this is remote or in-person research. [Learn more about setting up in-person research.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/planning-in-person-research.md)
+Where will you be holding the research sessions? Be sure to include whether this is remote or in-person research.
 
 > [!TIP]
 > Place [X] between brackets in edit mode to leave a checkmark in the correct box.
 
-- [ ] **Remote**
+- [X] **Remote**
 - [ ] **In-person**
-      
-> [!NOTE]
-> If in-person, include:
 
-- `Location:` **[Enter text]**
-- `Point of contact:` **[Enter text]**
-- `Equipment used for research:` **[Enter text]**
+> [!NOTE]
+> We are planning remote research via video calls or phone interviews. This allows us to reach geographically dispersed providers and raters. If the team identifies an opportunity to conduct in-person contextual inquiry at a clinic or VA facility, we will add those details here.
 
 ## Research materials 📔
 
@@ -346,74 +318,66 @@ Where will you be holding the research sessions? Be sure to include whether this
 
 Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
 
-**For moderated interviews:** 
+**For semi-structured interviews (providers, raters):** 
 	
-- [Link to conversation guide](url goes here)
+- [Link to conversation guide for providers](url goes here)
+- [Link to conversation guide for raters](url goes here)
+- [Link to conversation guide for Veterans/caregivers](url goes here)
 
-**For moderated usability tests:** 
-- [Link to conversation guide](url goes here)
-- [Link to prototype](url goes here)
+**For workflow mapping sessions:** 
+- [Link to workflow mapping template or visual](url goes here)
 
-**For [unmoderated testing:](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html)**
-- [Link to email with instructions](url goes here)
-- [Link to prototype or OptimalSort session for group A](url goes here)
-- [Link to prototype or OptimalSort session for group B](url goes here)
+**For prototype testing (future iterations):** 
+- [Link to conversation guide for prototype testing](url goes here)
+- [Link to prototype or wireframes](url goes here)
 
+**Recruitment materials:**
+- [Link to screener questions](url goes here)
+- [Link to recruitment flyer or email (if using internal VA networks)](url goes here)
 
-
-**If recruiting outside of Perigean’s participant database:**
-- [Link to recruitment flyer](url goes here)
-	
 ## Recruitment 🎯	
-*OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
 
 > [!NOTE]
 > Before writing your recruitment criteria, be sure to review the following resources: 
-> - [Refer to the Perigean Recruitment Guidance](https://depo-platform-documentation.scrollhelp.site/research-design/recruiting-participants) to learn how Perigean recruits, screens, and prepares participants for research. 
-> - [Refer to the inclusive recruitment strategies](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md) to learn how to be inclusive of underserved Veteran communities.
+> - [Refer to the Perigean Recruitment Guidance](https://depo-platform-documentation.scrollhelp.site/research-design/recruiting-participants) to learn how Perigean recruits, screens, and prepares participants.
+> - [Refer to the inclusive recruitment strategies](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md) to learn how to be inclusive and avoid bias.
 
 ### Recruitment approach
-*Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
-- Perigean **CANNOT** recruit VA employees or VSOs. Work with your VA lead to recruit these groups. 
-- Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
-- Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
+
+**We will recruit participants using a blended approach:**
+- **Perigean** will recruit Veterans, caregivers, and private practice providers from their panel.
+- **Internal VA networks** will recruit VHA providers and VBA raters with direct 21-2680 experience.
+
+This approach is necessary because:
+- Perigean cannot recruit VA employees (raters, VHA providers), so internal networks are required for those cohorts.
+- Perigean specializes in recruiting Veterans and civilian populations, including private-sector healthcare providers.
+- We will use a **lean maximum variation approach** to ensure diversity across provider types (VHA vs. private, different specialties), practice settings, and experience levels with the form.
 
 ### Recruitment criteria
 
-- **Write any recruitment criteria for experience or scenarios as screener questions with qualifying responses. Perigean will use these verbatim to recruit participants.**
-- Consider providing links to products and/or clear descriptions to ensure participants understand the question.
-  Example: Have you been to a VA urgent care facility in the last 6 months? [answer should be yes to qualify.]
+**Primary criteria (must-haves):**
+- Provider cohort: Has completed Form 21-2680 or similar VA disability examination form in the past 2 years
+- Rater cohort: Has evaluated claims involving Form 21-2680 in the past 12 months
+- Veteran/Caregiver cohort: Has filed or assisted with filing an Aid and Attendance or Housebound claim within the past 2 years
+- All participants: Basic understanding of VA benefits claims workflows or disability examination processes
 
-- The more recruitment criteria you have, the less likely that a small sample of participants will be able to meet all criteria.
-- Consider how you could leverage the [lean maximum variation sampling (MVS) approach](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md#lean-mvs-strategy) by breaking up criteria for your study into multiple cohorts that each isolate one primary criteria.
-- Perigean will consider each cohort as a separate recruitment effort, increasing the chances of meeting all criteria for your study. [Review an example of the multiple cohort approach.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/pre-mhv-prototype/generative-research-study-1/2020-12.research-plan1.md)
+**Secondary criteria (nice-to-haves):**
+- Provider: Experience in both VHA (VA Health Administration) and private practice settings
+- Provider: Familiarity with digital medical forms or electronic health record (EHR) systems
+- Rater: Experience with both internal VHA exams and contracted vendor exams
+- Veteran/Caregiver: Has worked with a VSO (Veterans Service Officer) or VSA in the claims process
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
+
 > [!NOTE]
-> Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 10 ideal completed sessions, request 15 total participants)*
+> Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 8 ideal completed sessions, request 12 total participants)*
 
-
-- `Veterans:` **[n]**
-- `Caregivers:` **[n]**
-- `Dependents:` **[n]**
-- `Total:` **[n]**
-- `Ideal completed sessions:` **[n]**
-
-### Primary criteria (must-haves)
-*What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
-
-- `[Place primary criteria here between hash marks when in edit mode]`
-- `primary criteria`
-- `primary criteria`
-- **`Add more criteria as needed`**
-
-#### Secondary criteria (nice-to-haves)
-*What criteria would strengthen your results?* 
-
-- `[Place secondary criteria here between hash marks when in edit mode]`
-- `secondary criteria`
-- `secondary criteria`
-- **`Add more criteria as needed`**
+- `Veterans:` **2**
+- `Caregivers:` **1**
+- `Providers:` **5**
+- `Raters:` **2**
+- `Total:` **12**
+- `Ideal completed sessions:` **8**
 
 ## Screener Questions 📋
 
@@ -421,41 +385,41 @@ Provide a link to any materials you need to run your study, including any materi
 > Perigean will use these screener questions **verbatim** to recruit and qualify participants. Write them as you want them asked.
 
 > [!TIP]
-> - Write questions in plain language that participants will easily understand. [**Examples of General and Assistive Tech Screener Questions**](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/example-screener-questions.md) 
-> - Clearly indicate the **qualifying response** that will make someone eligible
-> - Include links to products or clear descriptions so participants understand what they're being asked about
-> - The more screener questions you have, the harder it will be to recruit - prioritize your must-haves
-
-### Screener Question Template
-
-**`[Number].` [Screener Question Text]**
-- **Qualifying response:** `[The answer that qualifies the participant]`
-- **Disqualifying response:** `[Optional: The answer that disqualifies]`
+> - Write questions in plain language that participants will easily understand.
+> - Clearly indicate the **qualifying response** that will make someone eligible.
+> - Include links to products or clear descriptions so participants understand what they're being asked about.
+> - The more screener questions you have, the harder it will be to recruit - prioritize your must-haves.
 
 ### Your Study's Screener Questions
 
-**`1.` [Enter your first screener question]**
-- **Qualifying response:** 
+**`1.` Have you completed a VA Form 21-2680 (Aid and Attendance or Housebound Examination Report) for a patient in the past 2 years?**
+- **Qualifying response:** Yes
 
-**`2.` [Enter your second screener question]**
-- **Qualifying response:** 
+**`2.` Are you currently licensed to practice as one of the following: Medical Doctor (MD), Doctor of Osteopathy (DO), Nurse Practitioner (NP), or Physician Assistant (PA)?**
+- **Qualifying response:** Yes to any of the above
 
-**`3.` [Enter your third screener question]**
-- **Qualifying response:** 
+**`3.` Do you currently work in a VA medical facility (VHA), a private medical practice, or both?**
+- **Qualifying response:** Any of the above
+
+**`4.` [For Rater Cohort] Have you evaluated or rated a disability claim that included Form 21-2680 in the past 12 months?**
+- **Qualifying response:** Yes
+
+**`5.` [For Veteran/Caregiver Cohort] Have you filed a claim for Aid and Attendance or Housebound benefits through the VA in the past 2 years, or helped a Veteran file one?**
+- **Qualifying response:** Yes
 
 > [!TIP]
-> Add more screener questions as needed to address your primary and secondary recruitment criteria
+> Add more screener questions as needed to address your primary and secondary recruitment criteria. For example, you may want to ask about familiarity with digital forms, experience with ID.me, or practice setting diversity.
 
 ## Timeline 🗓️
 > [!NOTE]
-> **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.** 
+> **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research session.**
 
 ### Optional Kick-off Call with Perigean
 
 - `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
 
 ### Prepare
-*When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
+*When will the thing you are testing be finalized?*
 
 **A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.** 
 > [!NOTE]
@@ -468,20 +432,20 @@ Provide a link to any materials you need to run your study, including any materi
 - `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **[Enter time length]**
+- `Session length:` **60 minutes**
   
-- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **[Enter buffer time]**
+- `Buffer time between sessions:` **30 minutes** (to debrief with team, reset, accommodate late arrivals or overruns)
   
-- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **[Enter NUM per day]**
+- `Maximum Sessions per day:` **4**
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
 
 > [!NOTE]
-> We recommend providing availability outside of work hours, as many Veterans are only available before and after working times, and live across the U.S. 
+> We recommend providing availability outside of work hours, as many Veterans are only available before and after working times, and providers have varying clinic schedules.
 
 > [!TIP]
-> Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
+> Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/5, Wednesday 9:00AM-1:00PM, 2:00-5:00PM EST; 3/6, Thursday 10:00AM-1:00PM, 3:00-5:00PM EST)**
 >
 > **Place time slots between `hash marks` when in edit mode.**
 
@@ -491,28 +455,21 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 - `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
 - `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
 - `Add more slots as needed`
-  
-## Team Roles  🕵️👩‍💻👩‍🔬
+
+## Team Roles 🕵️👩‍💻👩‍🔬
 
 > [!NOTE]
-> **Please do not include email addresses in this section.** We previously required email addresses. VA's GitHub policy ([see announcement](https://github.com/orgs/department-of-veterans-affairs/discussions/13)) has changed. VA.gov email addresses cannot be in public repositories.
->
-> **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
+> **Please do not include email addresses in this section.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker and any accessibility specialists.
 
-- `Moderator:` **[Enter full name]**	
-- `Research guide writing and task development (usually but not always same as moderator):` **[Enter full name]**		
-- `Participant recruiting & screening:`	**[Enter full name]**	
-- `Project point of contact:` **[Enter full name]**		
-- `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[Enter full name]**	
-- `Note-takers:` **[Enter full name]** ***or*** **[Designate Perigean]**	
-- `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
-
-- **[Enter full name]**
-- **[Enter full name]**
-- **[Enter full name]**
+- **Moderator/Interviewer:** [Enter full name]
+- **Note-taker:** [Enter full name or designate Perigean]
+- **Observers / Shadow Participants** (1–2 people):
+  - [Enter full name]
+  - [Enter full name]
 
 ## Approvals ✅
 > [!NOTE]
-> Before submitting for review, ensure you've completed the YAML frontmatter section at the top of this document using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md).
+> Before submitting for review, ensure you've completed the YAML frontmatter section at the top of this document using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md) (if needed).
+
 - `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
 - `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
