@@ -214,14 +214,7 @@ tags:
 <details><summary>Where does your product fit into the Veteran journey?
 Are there moments that matter?</summary>
 	
-- `Joining`
-- `Serving`
-- `Getting Out`
-- `Starting Up`
 - `Taking Care of Myself`
-- `Reinventing Myself`
-- `Putting Down Roots`
-- `Retiring`
 - `Aging`
 - `Dying`
 
