@@ -56,7 +56,7 @@ Type of notifications and the number they come from via VEText are as follows:
 * VEText Slack channel: `#notifications-vetext`
 
 ## <a name="profile"></a>Notification settings in Profile
-  To review, there are opt-in notification settings for each health tool in the VA Profile. Secure Messages, however, is automatic and users cannot opt-out, so it is not listed on this page.
+  To review, there are opt-in notification settings for each health tool in the VA Profile. Secure Messages, however, is automatic and users cannot opt-out, so it is not listed on this page. Review the full set of notification settings provided in the Profile in [this documentation here](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/profile/notification-preferences#currently-supported-notifications).  
   
   <img width="363" height="260" alt="Screenshot 2026-02-11 at 4 10 59 PM" src="https://github.com/user-attachments/assets/19361a2d-fdb8-4db3-b39a-37e2bb405dae" />
 
