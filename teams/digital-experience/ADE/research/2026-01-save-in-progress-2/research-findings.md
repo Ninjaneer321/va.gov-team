@@ -414,14 +414,13 @@ Eight participants said they asked wanted to be able to delete a form they start
 
 1. **Consider keeping the "Expand all" link (ADD FROM SLACK DM CONVO W/JEANA)**
 
-1. **Consider making the form number under the heading easier to notice. See if the form number shown under the heading could be forced to display on a single line.
+1. **On the form intro page, consider making the form number under the heading easier to notice. See if the form number shown under the heading could be forced to display on a single line.
    - _Supporting evidence_: One participant didn't notice the form number below the big "Request personal records" heading, perhaps because it was split across two vertical lines: (1) "(VA Form 20-" and (20) "10206)". 
 
 1. **Consider making the "Back to previous page" link easier to notice**. Perhaps check its font size and consider increasing it if it's smaller than other text on the page. Perhaps add a duplicate link to the bottom of the page.** 
    - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
 
-1. **Learn how to advise participants who are struggling with their assistive tech, and incorporate a suggestion into future conversation guides.** Work with Martha to meet with a VA Blind Rehab Center to learn about how they help Veterans who are blind or low vision and whether/how we can get them in touch with research participants who could benefit from their services.
-   - _Supporting evidence_: Two participants were particularly frustrated with their current assistive technologies, and we wanted to help. 
+
 
 ### For the Request Personal Records form
 
@@ -450,15 +449,16 @@ Eight participants said they asked wanted to be able to delete a form they start
      - _Supporting evidence_: Two participants weren't sure what to enter. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other said that they wanted to select from a list of offices. 
 
 ### For the ADE team
-1. Explore opportunities to encourage Veterans to use appropriate AT. 
+1. Explore opportunities to help Veterans who are struggling with their assistive tech or may not be using any. 
 
-     - _Supporting evidence_: Two Veteran participants were frustrated with their AT tools and didn't know that a different tool might meet their needs better. 
+     - _Supporting evidence_: Two participants mentioned frustrations with their assistive tech and didn't know that a different tool might meet their needs better. 
      
      Some ideas are as follows:
-     1. Meet with Martha's Blind Rehab Center contacts to discuss eligibility and whether/how to mention their services to research participants who might benefit. --> *Martha will schedule a meeting*
+     1. Meet with Martha's VA Blind Rehab Center contacts to learn how they help Veterans who are blind or low vision, eligibility, and whether/how to mention their services to research participants who might benefit from their services (and add to conversation guides). --> *Martha will schedule a meeting*
      1. Consider adding messaging on VA.gov about how to better use this website (see this page on [gov.uk](https://www.gov.uk/help/accessibility-statement#how-you-should-be-able-to-use-this-website)). Could perhaps add something to the [508 compliance (Accessibility) page](https://www.va.gov/accessibility-at-va/) --> *Create a ticket to discuss with Danielle.*
      1. Learn more about Veteran needs by conducting a survey of Veterans who are blind or low vision about their AT tools and experiences with VA.gov. --> *Future work for Cindy*
 
+  
 ## Product User and Business Outcomes
 
 *Explain how findings and recommendations align with the product's goals.*
