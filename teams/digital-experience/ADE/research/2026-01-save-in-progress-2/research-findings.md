@@ -275,23 +275,23 @@ After participants finished filling out the form, we asked when they thought the
 > *"That's nice that that's right there. I like that. I wouldn't have expected that for something that I was doing previously to pop up in my main page when I first sign in...That's a great feature because I forget easily, so I might not even remember what the form number was" (p9).*
 
 
-### Finding 4: All participants who interacted with the accordions on the Review/Submit page were able to easily open and close them with the controls on the left side (instead of the right).
-6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" and "-" controls being on the left side (instead of on the left in the current VA Design System). This included the participant who was using a screen magnifier. In the [previous round of usability testing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#finding-6-va-forms-in-general-had-accessibility-issues-for-screen-readers-and-screen-magnifiers), a participant using a screen magnifier didn't understand how to interact with these accordions when the "+" control was on the right because it wasn't visible to him. 
+### Finding 4: All participants who interacted with the accordions on the "Review and submit" page easily opened and closed them using the controls on the left side.
+6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" and "-" controls on the left side (instead of on the right in the current VA Design System). This included the participant who was using a screen magnifier. In the [previous round of usability testing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#finding-6-va-forms-in-general-had-accessibility-issues-for-screen-readers-and-screen-magnifiers), a participant using a screen magnifier didn't understand how to interact with these accordions when the "+" control was on the right because it wasn't visible to him. 
 
 One participant interpreted the accordions as providing extra information to help the VA find their records, and he was surprised when he saw that it was only the information that he had already entered.
 
-Two participants didn't notice the "Expand all" link, one of whom said that the text was too small. That participant said that he would have clicked on "Expand all" if he had seen it, instead of opening each accordion one at a time. A third participant said that they never use "Expand all" because they get too overwhelmed by the length of what might expand, so it's easier for them to expand each accordion, one at a time.
+Two participants didn't notice the "Expand all" link, one of whom said that the text was too small. That participant said that he would have clicked on "Expand all" if he had seen it, instead of opening each accordion one at a time. A third participant said that he never uses "Expand all" because he gets too overwhelmed by the length of what might expand, so it's better for him to expand each accordion, one at a time.
 
 One participant said that he liked the "Edit" buttons so you don't have to go back to previous form pages to make changes.
 
 
-### Finding 5: X participants encountered some accessibility issues while filling out the form
+### Finding 5: Three participants encountered accessibility issues while filling out the form while using a screenreader
 
 1. P3 was using the JAWS screenreader on desktop with mouse echo (which announces whatever is under the mouse), and **JAWS didn't announce any "Country" select/dropdown options when the dropdown was open and the mouse was over an item**. He had to click to select an option before it was announced by the screen reader. This is a known issue that affects screen readers and mouse control of dropdown menus, which unfortunately is not fixable.
 
 1. Another issue P3 encountered (JAWS with mouse echo) is that text that looked like **one sentence was announced in small chunks** instead of as a single sentence, resulting in awkward pauses and missed information. For example, here's how the "Finish later" message sounded (each ellipsis required a mouse movement): "Your personal records request has been saved...Jan 13, 2026 at 5:43 pm...Your saved...request...will expire on...March 14, 2026."
 
-1. P4 (VoiceOver screenreader on an iPhone in Safari browser) had **difficulty navigating while using Safari** because the form intro page loaded with focus on the footer, rather than the top of page where it was supposed to be. This is a known bug with VoiceOver and Safari with no known fix.
+1. P4 (VoiceOver screenreader on an iPhone in Safari browser) had **difficulty navigating while using Safari** because the form intro page loaded with focus on the footer, rather than the top of page where it was supposed to be. This is a known issue with VoiceOver and Safari that has no known fix.
 
 1. P8 (infrequently uses the TalkBack screenreader on Android) **didn't understand the word "va"**, which was how TalkBack announced "VA". He figured it out after listening to it a couple times. The general consensus is to leave this as is because AT users get used to it.
 
