@@ -10,6 +10,7 @@ This document outlines the key design decisions made for implementing [Prefill p
 - [ADR: 004 - Option to update only mailing address to either form or profile](#ADR-004---Option-to-update-only-mailing-address-to-either-form-or-profile)
 - [ADR: 005 - Routing behavior](#ADR-005---Routing-behavior)
 - [ADR: 006 - Replace platform component ContactInfo component with Prefill ContactInfo](#ADR-006---Replace-platform-component-ContactInfo-component-with-Prefill-ContactInfo)
+- [ADR: 007 - Error summary alert](#ADR-007---Error-summary-alert)
 
 
 
@@ -25,10 +26,9 @@ This document outlines the key design decisions made for implementing [Prefill p
 Currently the success alerts are within the card, the designs show the alerts on above the cards. 
 
 ### Decision
-
+Move success alerts outside of the card.
 
 ### Consequences
-
 
 ### Open Questions
 N/A
@@ -44,7 +44,7 @@ N/A
 Currently the cards show if a section is Optional, to keep with the design patterns, we are changing this to show required.
 
 ### Decision
-
+Show required next to required questions, and removed optional next to questions
 
 ### Consequences
 
@@ -63,7 +63,7 @@ N/A
 If the form is using minimal header and the user is editing a card from the edit page, the back link takes the user away from the form.  We are proposing to take the user back to the card page. 
 
 ### Decision
-
+Update breadcrumb on edit pages, so they return to the previous page.
 
 ### Consequences
 
@@ -79,15 +79,15 @@ N/A
 - Decision date:
 
 ### Context
+Give users the option to select if they want to update their mailing address for the form or their profile. Use cases for this is for temporary addresses when the user is away from their permanent home address but would want to get a prescription refill in their current mailing address.
 
 ### Decision
-
+Add radio that allows users to select whether they want changes on profile or form
 
 ### Consequences
 
-
 ### Open Questions
-N/A
+Do we want to implement this option for any other editable prefill sections?
 
 ## ADR 005 - Routing behavior
 
@@ -125,3 +125,17 @@ N/A
 
 ### Open Questions
 N/A
+
+### ADR 007 - Error summary Alert
+
+### Status: Proposed
+
+- Date issue raised:
+- Decision date
+
+### Context
+When discussing how multiple errors would be surfaced if there are several areas with required fields missing, the error summary experimental ticket was brought up to address possible focus issues. Currently the error only shows within the card itself, with the card state changed to error.
+
+### Decision
+
+
