@@ -326,7 +326,7 @@ Eight participants said they asked wanted to be able to delete a form they start
 *Include insights that do not represent patterns but are still valuable.*  
 > **TIP:** These could be powerful user comments or unexpected issues worth noting
 
-1. Participants had some usability issues on the form intro page:
+1. Participants had some **usability issues on the form intro page**:
     
      1. Two screenreader users expected to be able to click on one of the record types listed on the form intro page, but they weren't clickable. This also happened to one screenreader user in the previous round of usability research.
     > *"But these are only bullets, not checkmarks, so I know I have to go to the form" (p4).*
@@ -342,7 +342,7 @@ Eight participants said they asked wanted to be able to delete a form they start
      1. The form intro page was so long that two participants took a while before seeing the "Start this request" link. 
         > *"Trying to find the form was difficult. There was a lot of information on the page" (p7).*
 
-1. Participants encountered a number of usability issues when filling out the Request Personal Records form:
+1. Participants encountered a number of **usability issues when filling out the Request Personal Records form**:
      
      1. When P9 (no AT) opened the "Additional information" accordion, focus moved down to the "Statement of truth", which made it seem like it was a part of the accordion, which it's not. A similar focus problem happened to the third pilot participant (using a screen magnifier), but it was worse because the accordions scrolled out of view, which was disorienting. The extra scrolling is due to scrollToFocus in the accordions, which is supposed ensures that the currently focused element is not off-screen for sighted keyboard users, but it causes other issues. 
 
@@ -385,15 +385,17 @@ Eight participants said they asked wanted to be able to delete a form they start
           If Evan set MS Magnifier back to 100%, then the problem went away. There was no big shifting--only the slight shifting with each character. The big shifting issue also didn't happen when Evan tested with VA forms on Staging or with non-VA pages including google.com and yahoo.com--the field stays in view. Our conclusion is that the problem only happens with our Codespace, and so perhaps doesn't merit any further investigation.
 
           A second issue that happened with p11 was that the **mouse cursor that shows when he was sharing his screen over Zoom didn't reflect the position where his mouse actually was**. This didn't affect didn't affect p11's ability to navigate, but it was strange for the session observers. After the session, Evan did more testing, and we noticed TWO mouse cursors: 1 larger and 1 smaller. Evan didn't see that, but the observer on the screen share did. The spacing between the cursors and their positions relative to each other varied, depending on Evan's mouse position.
+
+          It's probably not worth researching these two issues further because they only affect Microsoft Magnifier and our Codespace when the user is using an external monitor to extend the desktop horizontally.  
         
      1. There were so **many technical problems with P12's session that we weren't able to get his screen shared or do any of the user tasks**. He was using the smartphone TCL K11 (model T432W), which is a low-end form that runs Android 13 (Go edition). Below is a summary of the issues:
 
-        1. The Zoom audio stopped whenever a camera was on
+        1. The Zoom audio stopped whenever a camera was on (this took a bit to figure out)
         1. The participant wanted to have his camera on, and he kept on switching it on (probably accidentally, but we couldn't confirm that because we lost the audio every time it happened)
         1. His phone was stuck in Zoom's Safe Driving Mode, which required him to press a button in order to say anything
         1. He was very non-technical and didn't really know how to use his phone, nor understand phrases like "screen share" and "switch apps"
 
-        Figuring out issue 1 was challenging, and then we were able to talk whenever all cameras stayed off. Unfortunately the combination of issues 1 and 2 happening repeatedly made it impossible for us to resolve issues 3 and 4, get his screen shared, and start the user tasks. It's possible that other Veterans are accessing VA.gov using a similarly low-end phone, but as long as they're not trying to have a Zoom meeting at the same time, these issues shouldn't come up.  
+        Figuring out issue 1 was challenging, and then we were able to talk whenever all cameras stayed off. Unfortunately the combination of issues 1 and 2 happening repeatedly made it impossible for us to resolve issues 3 and 4, get his screen shared, and start the user tasks. It's possible that other Veterans are accessing VA.gov using a similarly low-end phone, but as long as they're not trying to have a Zoom meeting at the same time, these issues shouldn't come up. One takeaway is that **if you encounter a major audio problem while Zoom cameras are on, you should see if the problem goes away after all cameras are turned off**. 
 
 1. Two participants noticed the stepper and didn't like that it said they were still on step 1 or 2, even though they had already filled out more than 1 or 2 form pages by then. This happens because step 1 has 3 form pages, and step 2 has 2 form pages.
 
