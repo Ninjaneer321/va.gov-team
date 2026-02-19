@@ -29,16 +29,13 @@ Building these AALs doesn't help in the ways we expect, and a consistent or incr
 
 ---
 ## Measuring Success
-Transform and build on the existing eligibility page on VA.gov into a more interactive and personalized experience for Veterans. Integrate secure RES data Application Programming Interfaces (APIs) to enable real-time interactions with VA.gov. Enhance user experience (UX) components, including case progress tracker, orientation tools and resources, scheduling assistance, career planning module, and other usability improvements to facilitate smoother navigation and better interaction. Develop and implement a user-friendly portal User Interface (UI) that integrates seamlessly with the existing VA.gov infrastructure. Utilize the Single Sign On (SSO) capabilities to streamline the login process and enhance security for users accessing the VR&E portal.
+We'll evaluate the traffic and usage on this page to better understand the demand for this feature over time, but will also monitor the count of helpdesk inquiries, call center volume, and messages sent related to this topic to track whether those numbers are decreasing.
 
 ### Key Performance Indicators (KPIs)
-* *What data (qual or quant) will you look at to understand if your initial set of functionality is meeting your desired user and business outcomes, and not bringing about the undesired outcomes?*
-* _What are the most important metrics that track with this product/initiative's success?_
+* One of our KPIs is just having this data on VA.gov instead of legacy portals, so that we can begin to baseline and track the access to and demand for this feature in a better way.
+* We will also monitor feedback on the page itself to understand if there are any user issues with the type of data availalbe in AALs and whether this is meeting user expectations, the traffic to the page itself, and the impact it has on other in-person channels such as helpdesk, messages, and call center incident or ticket volume. 
 
 #### Baseline KPI Values
-
-### Objectives and Key results (OKRs)
-Users navigate to the self-management portal and track and interact with their VR&E case journey.
 
 
 ## Solution Approach
