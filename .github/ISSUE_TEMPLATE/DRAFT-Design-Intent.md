@@ -39,7 +39,6 @@ Governance Team feedback is based on the artifacts provided here as well as info
 - [ ] Research plan
 
 ### Governance Team actions
-- [ ] Add link to Collaboration Cycle ticket
 - [ ] Add link to Slack thread
 - [ ] Add meeting date/time:
 
