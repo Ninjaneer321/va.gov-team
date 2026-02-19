@@ -3,6 +3,7 @@ Last updated: 4 Feb 2026
 
 - [ADR: 001 - Current page should be a link and look like a link](#ADR-001---Current-page-should-be-a-link-and-look-like-a-link)
 - [ADR: 002 - Make current page visually distinct with non-interactive styling](#ADR-002---Make-current-page-visually-distinct-with-non-interactive-styling)
+- [TODO - ADR: 003 - Focus state moves to](#ADR-003---Make-current-page-visually-distinct-with-non-interactive-styling)
 
 
 ## ADR 001 - Current page should be a link and look like a link
