@@ -223,18 +223,35 @@ Main takeaway from the research sessions
 #### P15
 
 **UX Notetaker:**
+- Participant could not define TRICARE or CHAMPVA benefits and eligibility at the start of the session, but was able to understand that eligibility for one program disqualifies you for the other
+- Understood green check marks vs. red Xs, but misunderstood the prototype pineapple / card style A - believed it said you were eligible for CHAMPVA but then was telling you not to proceed in the application
+- Preferred Card Style B because of the additional content, explaining how responses aligned with eligibility criteria
 
 **Observer 1:**
+- The participant cleared stated they understood it was an either or situation - the applicants can be eligible for TRICARE or CHAMPVA, but not both
+- The participant misinterpreted the Pineapple prototype summary card in that it was telling them that they were not eligible for TRICARE when the opposite was true - but they answered very confident in their understanding
+- The participant wanted more information or a link directed to TRICARE as a next step on that warning alert, but also wanted all warning alerts to have a resolution and would not proceed without fixing first
 
 **Observer 2:**
-
+- Loves the idea of everything being prepopulated in the form. * Prefers the Blueberry prototype as it is not confusing - * Like the ability to save a form and return later to complete the process
+- * Strong opposition to Alert B - Why select continue if giving you and icon warning. Don't care for "you can try again later". Questions if the app or system down and doesn't want to waste their time.
+- Preferred Card Style B - as it was easier to understand and reminds you this is for CHAMPVA - you either met or didn't meet the Eligibility, and the Veteran is eligible for TRICARE
 
 #### P16
 
 **UX Notetaker:**
+- Participant was able to understand the conflicting requirements for TRICARE vs. CHAMPVA, i.e. not being eligible for both at once. Had some specific content feedback around how eligibility information is communicated on the intro page
+- Liked that the API prototype (pineapple) checked DEERS and gave immediate eligibility feedback
+- Alerts were a point of frustration, a lot of feedback around contacting someone for help, after double-checking that info was correct
+
 
 **Observer 1:**
+- Participant was confused initially on what the eligibility review screen was for - CHAMPVA or TRICARE eligibility
+- Participant assumed that the content on the TRICARE question page and the additional info component meant that most people (9 of 10) would qualify for TRICARE and that is why that information and link is there
+- Participant preferred prototype Pineapple because it checked eligibility sooner and “did all the work for you” but they wanted a clearer action to take, would still continue in application to see what’s next
 
 **Observer 2:**
-
+- Participant was not clear on what the CHAMPVA is, and overall desired additional information to better understand if they were eligible.
+- * Participant was delighted with the Pineapple precheck of information with DEERS for eligibility and quickly informing them if they were eligible * Participant missed the clarifier statement on Card Style B - but on redirect acknowledged that the statement was helpful in conveying eligibility.
+- * Participant became confused using Blueberry prototype believing they were applying for TRICARE benefits, not CHAMPVA.
 
