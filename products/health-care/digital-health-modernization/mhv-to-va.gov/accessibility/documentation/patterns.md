@@ -12,18 +12,21 @@ Last updated: 18 Feb 2026
   - [Item Feedback Alert (Static)](#item-feedback-alert-static)
   - [Item Message Alert (Static)](#item-message-alert-static)
   - [Tool/Page Feedback Alert (Dynamic)](#toolpage-feedback-alert-dynamic)
+  - [Inline Feedback Alert (Dynamic)](#inline-feedback-alert-dynamic)
 
 ### VADS accessibility guidelines
 The following VADS accessibility guidelines are supported by the Alerts pattern guidance.
 
-- Focus management
+#### Focus management
   - Manage focus after the alert is dismissed. When a user dismisses the alert, it disappears from the page structure. If a keyboard or screen reader user closes the alert, they will lose focus and in some browsers, this can return the user to the top of the page. To prevent this, move focus to the next logical spot, such as the next heading after the alert or the main heading h1, depending on what the user needs to do next. — Excerpted from VADS [Dismissible Alert guidance](https://design.va.gov/components/alert/#dismissible)
-- Notification
+
+#### Notification
   - **Static alert: No Role.** If the alert is a static alert that exists on the page when the page gets loaded, it doesn’t need a role.
   - **Important, time-sensitive information: Use `role="alert"`.** Use this role on alert components that appear after a user interaction.
   - **Interactive alerts: Use `role="alertdialog"` instead.** For alerts that fit the criteria of `role="alert"`, but also contain content requiring user interaction, use `role="alertdialog"` instead of `role="alert"`.
   - **Advisory information, not important enough to have an alert role: Use `role="status"`.** Use this role on alert components that appear after a user interaction.
-  — Excerpted from VADS [Alert aria-role guidance](https://design.va.gov/components/alert/#assign-an-appropriate-aria-role)
+
+— Excerpted from VADS [Alert aria-role guidance](https://design.va.gov/components/alert/#assign-an-appropriate-aria-role)
 
 ### Relevant standards
 The following accessibility standards are supported by the Alerts pattern guidance.
@@ -118,4 +121,22 @@ The following accessibility standards are supported by the Alerts pattern guidan
     - Use `role="status"` for success or warning alerts.
     - Use `role="alert"` for error alerts.
 - Rationale
-  - Use the Slim alert variation for immediate feedback within forms and applications. Slim alerts are most often displayed immediately after the user has taken an action, and can also be used for save-in-progress success and error messaging. — Excerpted from VADS [Alerts variation guidance](https://design.va.gov/components/alert/#web-5))
+  - Use the Slim alert variation for immediate feedback within forms and applications. Slim alerts are most often displayed immediately after the user has taken an action, and can also be used for save-in-progress success and error messaging. — Excerpted from VADS [Alerts variation guidance](https://design.va.gov/components/alert/#web-5)
+
+#### Inline Feedback Alert (Dynamic)
+
+<img width="283" height="554" alt="Screenshot of dismissible error alert following a button pair" src="../files/alert-dynamic-page-feedback.png" />
+
+- Guidance
+  - Use for dynamic feedback provided in response to a user interaction.
+  - Inject the alert into the page below the triggering component.
+  - Use a dismissible Slim Alert component for this type of alert.
+  - Focus management:
+    - Leave focus on the triggering component when the alert is added.
+    - Move focus back to the triggering component when the alert is dismissed (with a button group, move focus to the non-destructive option regardless of which button triggered the alert).
+  - Notification:
+    - Use `role="status"` for success or warning alerts.
+    - Use `role="alert"` for error alerts.
+- Rationale
+  - Use the Slim alert variation for immediate feedback within forms and applications. Slim alerts are most often displayed immediately after the user has taken an action, and can also be used for save-in-progress success and error messaging. — Excerpted from VADS [Alerts variation guidance](https://design.va.gov/components/alert/#web-5)
+  - Save-in-progress success and error Slim alerts should be placed directly below the Back/Continue button pair. This placement allows for the page content to remain fixed in the same position when the alert updates dynamically. — Excerpted from VADS [Alerts placement guidance](https://design.va.gov/components/alert/#web-4 )
