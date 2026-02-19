@@ -28,6 +28,10 @@ Our team conducted a comprehensive bug bash of the side navigation feature acros
 
 ## Traceability Statement
 
+**Traceability Report**
+- See [526 Sidenav MVP - Coverage for References (Cases) 2/19/2026](https://dsvavsp.testrail.io/index.php?/reports/view/1820)
+
+## Additional testing references
 **Unit Tests:**
 
 -  17 test cases covering component behavior
@@ -39,4 +43,4 @@ Our team conducted a comprehensive bug bash of the side navigation feature acros
 
 **Summary (Defects) reports**
 
--  Additional testing and addressing know issues is still underway
+-  See [Summary for Cases (Defects) 2/19/2026](https://dsvavsp.testrail.io/index.php?/reports/view/1821)
