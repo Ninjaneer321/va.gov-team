@@ -69,7 +69,7 @@ The VA wants to ensure that important email communications reach Veterans from t
   * Contact email not confirmed
   * Contact email confirmed 
 * Alerts will follow the same pattern that the VA Mobile app team has established and be displayed within the following locations of the VAHB app:
-  * Home page
+  * Home screen
   * Profile
 * The following alerts will be included (**these alerts will need to align with mobile formatting and standards**):
   * Resend contact email confirmation link
