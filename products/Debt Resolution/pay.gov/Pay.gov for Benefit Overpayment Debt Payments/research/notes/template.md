@@ -1,4 +1,4 @@
-# P(number)
+# P(number)(your initials)
 
 Notetaker: [Insert Name Here]
 
