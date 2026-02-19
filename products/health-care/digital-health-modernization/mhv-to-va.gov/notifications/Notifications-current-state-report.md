@@ -117,8 +117,8 @@ Existing notifications
 | 1 medication has shipped | VEText | Tracking information added to in-progress medication | SMS | VistA, OH | Yes | Some prescriptions are shipped by the facility (not CBOC), but not all facilities have capabilities to send SMS notifications|
 | Multiple medications have shipped | VEText | Tracking information added to in-progress medication | SMS | VistA, OH | Yes | Some prescriptions are shipped by the facility (not CBOC), but not all facilities have capabilities to send SMS notifications |
 | Window pickup notifications | VEText | Once a prescription is verified in ScriptPro (fully automated) | SMS | Vista, OH | No (automatic) | Not all facilities have this implemented |
-| Rx Refill available | VEText | -- | SMS | --| -- | On VEText roadmap, with a planned 2027 release |
-| CMOP shipment notification | -- | -- | -- | -- | -- | On VEText roadmap, but no timeline is available |
+| [Coming soon!] Rx Refill available | VEText | -- | SMS | --| -- | On VEText roadmap, with a planned 2027 release |
+| [Coming soon!] CMOP shipment notification | -- | -- | -- | -- | -- | On VEText roadmap, but no timeline is available |
 
 Notes: 
 * CBOC = central meds distribution center. some % of meds are sent from here, and users will get Email notifications (not SMS) regarding these meds if they opt-in via the Profile. 
