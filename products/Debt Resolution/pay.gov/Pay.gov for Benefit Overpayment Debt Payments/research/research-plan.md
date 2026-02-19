@@ -359,7 +359,7 @@ Provide a link to any materials you need to run your study, including any materi
 
 **For moderated usability tests:** 
 - [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/research/conversation-guide.md)
-- [Link to prototype](url goes here)
+- [Link to prototype](https://www.figma.com/proto/Yzumw4ai6JjkgS6jmB1PB5/Pay.gov-Hosted-Collections?node-id=40002346-61020&viewport=3519%2C-4684%2C0.25&t=RskLNxhHqH7nHhYc-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=40002346%3A61020))
 
 	
 ## Recruitment 🎯	
@@ -497,7 +497,7 @@ Screener question 8
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **[TBD MM/DD HH:MM]**
+- `Suggested dates and times:` **2/20/26, 1-5pm ET**
 
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
@@ -510,11 +510,10 @@ Screener question 8
 - `Date and time of pilot session:` **[Enter time]** 
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **3/2/26-3/23/26**
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **75 minutes for non-AT users, 
-90 minutes for AT users**
+- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **75 minutes**
   
 - `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **60 mins**
   
@@ -531,12 +530,21 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 >
 > **Place time slots between `hash marks` when in edit mode.**
 TBD, 12-5pm ET
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `Add more slots as needed`
+- `3/2, Monday, 12:00PM-5:00PM EST`
+- `3/3, Tuesday, 12:00PM-5:00PM EST`
+- `3/4, Wednesday, 12:00PM-5:00PM EST`
+- `3/5, Thursday, 12:00PM-5:00PM EST`
+- `3/9, Monday, 12:00PM-5:00PM EST`
+- `3/10, Tuesday, 12:00PM-5:00PM EST`
+- `3/11, Wednesday, 12:00PM-5:00PM EST`
+- `3/12, Thursday, 12:00PM-5:00PM EST`
+- `3/13, Friday, 12:00PM-5:00PM EST`
+- `3/16, Monday, 12:00PM-5:00PM EST`
+- `3/17, Tuesday, 12:00PM-5:00PM EST`
+- `3/18, Wednesday, 12:00PM-5:00PM EST`
+- `3/19, Thursday, 12:00PM-5:00PM EST`
+- `3/20, Friday, 12:00PM-5:00PM EST`
+- `3/23, Monday, 12:00PM-5:00PM EST`
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
