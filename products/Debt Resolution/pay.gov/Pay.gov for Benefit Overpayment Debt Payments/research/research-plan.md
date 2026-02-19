@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Research Plan for Financial Management, Pay.gov for Benefit Overpayment Debt Payments, 2026-02-12"
 date: 2026-02-12
-last_updated: 2026-02-18
+last_updated: 2026-02-19
 team: "Financial Management"
 product: "Pay.gov for Benefit Overpayment Debt Payments"
 product_area: "authenticated"
@@ -84,7 +84,7 @@ recruitment:
     - question: "Do you identify as a member of the LGBTQ+ community? We ask this question because we want to make sure the feedback we get from these sessions represents all the people we serve."
       qualifying_response: "Any response is acceptable ('Yes', 'No', or 'Decline to answer'); used for representation quota."
     - question: "Is your annual household income less than $50,000?"
-      qualifying_response: "Either 'Yes' or 'No' (used to meet representation quota)."
+      qualifying_response: "Either 'Yes' or 'No' (used for representation quota)."
     - question: "Is it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these."
       qualifying_response: "Any response is acceptable; 'Yes' indicates cognitive disability."
     - question: "What device will you use to join the session?"
@@ -138,6 +138,28 @@ related_research:
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2025-10-copays-usability/research-plan.md"
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2024-9-copay-usability/research-plan.md"
     - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/payment-history/research/2024-6-overpayment-usability/research-plan.md"
+
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Finances"
+  - "BNFT: Education"
+  - "BNFT: Disability"
+  - "PRDT: Debt-portal"
+  - "PRDT: Pay.gov"
+  - "DSC: Form"
+  - "DSC: Form - Radio Button"
+  - "DSC: Checkbox"
+  - "DSC: Button"
+  - "DSC: Alert Boxes"
+  - "DSP: Content Presentation"
+  - "DSP: Contextual Help"
+  - "DSP: Help users to check answers"
+  - "usability-testing"
+  - "moderated-usability-testing"
+  - "semi-structured-interviews"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "HDW: Smartphone"
 ---
 
 ## Background 🏗️
