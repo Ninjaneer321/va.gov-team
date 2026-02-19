@@ -375,7 +375,18 @@ Eight participants said they asked wanted to be able to delete a form they start
 
 1. Three participants had technical issues with their assistive tech:
 
-     1. Zoom silently kicked p4 out of the session when he clicked the "Sign in" or "Continue" button in the codespace. This happened repeatedly with him. He was using VoiceOver on an iPhone 15 Pro running iOS 26.2, in Safari then Chrome--both with and without sharing his screen. Jeana and Darby tried to reproduce this on their own iPhones with the same iOS version (26.2) but were unable to. It might have been caused by a RAM issue with running Zoom and the codespace prototype at the same time, as the participant made it farther through the form when he wasn't screen sharing.
+     1. **Zoom silently kicked p4 out of the session when he clicked the "Sign in" or "Continue" button in the Codespace**. This happened repeatedly with him. He was using VoiceOver on an iPhone 15 Pro running iOS 26.2, in Safari then Chrome--both with and without sharing his screen. Jeana and Darby tried to reproduce this on their own iPhones with the same iOS version (26.2) but were unable to. It might have been caused by a RAM issue with running Zoom and the Codespace prototype at the same time, as the participant made it farther through the form when he wasn't screen sharing.
+     1. P11 was using Microsoft Magnifier (a screen magnifier) on an external monitor attached to his Windows computer, extending his display horizontally. **Every time he typed any character into a text field in the Codespace prototype, his viewport shifted way over to the right so he couldn't see what he was typing**. Focus remained in the input field, but p11 couldn't see it. This made filling out the form nearly impossible, so after some troubleshooting, p11 moved the prototype to his Windows laptop screen and then zoomed in.
+
+          > *"When I'm typing something in, it keeps jumping me around, which is not normally what happens when I'm working...don't understand why it's doing that to me" (p11).*
+                  
+          After the session, Evan reproduced this behavior by connecting his Windows GFE  to an external monitor, extending the desktop horizontally, and setting MS Magnifier to 200%. He showed me in a Slack huddle. We saw that Magnifier always shifts the viewport while you're entering text so that the entry point is the exact center of the screen. As you type each character, the viewport shifts a bit so that the new character remains at the center of the screen. If you're using an external monitor and extending the display horizontally (i.e., not mirroring/duplicating the display or arranging the two displays above/below each other), then the laptop + external monitor makes the entire screen much wider. And when MS Magnifier moves the viewport to the center of the screen, it's not the center of the monitor you're looking at but instead the center of both monitors together! When you've magnified the screen that you're looking at, the center of both of the screens may be on the other monitor--thus reproducing the participant's issue.  
+          
+          If Evan set MS Magnifier back to 100%, then the problem went away. There was no big shifting--only the slight shifting with each character. The big shifting issue also didn't happen when Evan tested with VA forms on Staging or with non-VA pages including google.com and yahoo.com--the field stays in view. Our conclusion is that the problem only happens with our Codespace.
+
+          A second issue that happened with p11 was that the **mouse cursor that shows when he was sharing his screen over Zoom didn't reflect the position where his mouse actually was**. This didn't affect didn't affect p11's ability to navigate, but it was strange for the session observers. After the session, Evan did more testing, and we noticed TWO mouse cursors: 1 larger and 1 smaller. Evan didn't see that, but the observer on the screen share did. The spacing between the cursors and their positions relative to each other varied, depending on Evan's mouse position.
+        
+     1. P12 
 
 1. Two participants noticed the stepper and didn't like that it said they were still on step 1 or 2, even though they had already filled out more than 1 or 2 form pages by then. This happens because step 1 has 3 form pages, and step 2 has 2 form pages.
 
@@ -418,8 +429,8 @@ Eight participants said they asked wanted to be able to delete a form they start
 1. **Consider making the "Back to previous page" link easier to notice**. Perhaps check its font size and consider increasing it if it's smaller than other text on the page. Perhaps add a duplicate link to the bottom of the page.** 
    - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
 
-1. Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production.  
-   - _Supporting evidence_: Zoom silently kicked p4 out of the session when he clicked the "Sign in" or "Continue" button in the codespace. 
+1. **Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user** (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production.  
+   - _Supporting evidence_: Zoom silently kicked p4 out of the session when he clicked the "Sign in" or "Continue" button in the Codespace. 
 
 
 ### For the Request Personal Records form
