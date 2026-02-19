@@ -63,13 +63,7 @@ recruitment:
     - "Veteran/Caregiver: Any Veteran or caregiver who might fill out a form on VA.gov"
     
   screener_questions:
-    - question: "Are you currently practicing as a medical doctor (MD), doctor of osteopathy (DO), nurse practitioner (NP), or physician assistant (PA)?"
-      qualifying_response: "Yes"
-    - question: "Do you currently work in a VA facility (VHA), a private practice, or both?"
-      qualifying_response: "Any of the above"
-    - question: "Have you evaluated a disability claim or Form 21-2680 as a rater or adjudicator for the VA in the past 12 months?"
-      qualifying_response: "Yes (for rater cohort only)"
-      
+
 participants:
   veterans: 2
   caregivers: 1
