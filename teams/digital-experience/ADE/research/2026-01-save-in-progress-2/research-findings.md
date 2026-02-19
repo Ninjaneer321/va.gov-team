@@ -159,16 +159,18 @@ Findings and recommendations from this research will **inform guidance and docum
 1. Do users realize that they have to sign in before resuming the form?
 
 #### Research goal 3: See if moving the accordion controls to the left side affects usability.
+1. Are Veterans able to open and close accordions with controls on the left side? (especially people using a screen magnifier)
+
 
 ## Methodology 
 
-We conducted **remote moderated usability testing** to observe research participants filling out an online form. The participants were logged in so that the information they entered was automatically saved before the form was submitted. We used a GitHub Codespace that was accessible to screen readers and screen magnifiers, which half of our participants were using.
+We conducted **remote moderated usability testing** to observe research participants filling out an online form. The participants were logged in so that the information they entered was automatically saved before the form was submitted. We used a GitHub Codespace that was accessible to screen readers and screen magnifiers.
 
 Research sessions were conducted over Zoom during January 12-21, 2026. Sessions were 90 minutes long for Veterans using assistive technology (i.e., screen readers or screen magnifiers), and 60 minutes for Veterans not using any assistive technology (AT). 
 
 ## Participants
- Perigean recruited all **9 research participants** who were all Veterans. 7 participants were able to complete all the user tasks, and the other 2 participants were not able to due to technical issues.  
- - **5 were full-time assistive technology users**:
+ Perigean recruited **9 research participants** who were Veterans. 7 participants were able to complete all the user tasks, and the other 2 participants were not because of technical issues.  
+ - **5 were assistive technology users**:
    - 4 used a screen reader
    - 1 used a screen magnifier
   - 4 were on a computer, and 5 were on a smart phone
