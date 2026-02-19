@@ -24,7 +24,6 @@ The [Design Intent touchpoint](https://depo-platform-documentation.scrollhelp.si
   - Add your name and email
   - Click "Add Guests" and enter the email addresses for VFS team attendees
   - Click "Schedule Event"
-- [ ] Add meeting date/time:
 
 ### :three: VFS team: add links to artifacts at least 2 days before the meeting
 Link all artifacts **at least two business days** before the scheduled Design Intent. Please don't add artifacts in the comments section. [See guidance on Design Intent artifacts.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent#DesignIntent-Whatartifactswillbeneeded?)
@@ -42,6 +41,7 @@ Governance Team feedback is based on the artifacts provided here as well as info
 ### Governance Team actions
 - [ ] Add link to Collaboration Cycle ticket
 - [ ] Add link to Slack thread
+- [ ] Add meeting date/time:
 
 ## During the meeting
 
