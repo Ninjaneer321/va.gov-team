@@ -12,13 +12,20 @@ Last updated: 18 Feb 2026
   - [Item Feedback Alert (Static)](#item-feedback-alert-static)
   - [Item Message Alert (Static)](#item-message-alert-static)
 
-### Shared rationale
-The following guidance applies to all Alert patterns.
+### VADS accessibility guidelines
+The following VADS accessibility guidelines are supported by the Alerts pattern guidance.
 
-  - **Static alert: No Role.** If the alert is a static alert that exists on the page when the page gets loaded, it doesn’t need a role. — Excerpted from VADS [Alert aria-role guidance](https://design.va.gov/components/alert/#assign-an-appropriate-aria-role)
+- Focus management
+  - Manage focus after the alert is dismissed. When a user dismisses the alert, it disappears from the page structure. If a keyboard or screen reader user closes the alert, they will lose focus and in some browsers, this can return the user to the top of the page. To prevent this, move focus to the next logical spot, such as the next heading after the alert or the main heading h1, depending on what the user needs to do next. — Excerpted from VADS [Dismissible Alert guidance](https://design.va.gov/components/alert/#dismissible)
+- Notification
+  - **Static alert: No Role.** If the alert is a static alert that exists on the page when the page gets loaded, it doesn’t need a role.
+  - **Important, time-sensitive information: Use `role="alert"`.** Use this role on alert components that appear after a user interaction.
+  - **Interactive alerts: Use `role="alertdialog"` instead.** For alerts that fit the criteria of `role="alert"`, but also contain content requiring user interaction, use `role="alertdialog"` instead of `role="alert"`.
+  - **Advisory information, not important enough to have an alert role: Use `role="status"`.** Use this role on alert components that appear after a user interaction.
+  — Excerpted from VADS [Alert aria-role guidance](https://design.va.gov/components/alert/#assign-an-appropriate-aria-role)
 
 ### Relevant standards
-The following accessibility standards are supported by the Static Alerts pattern guidance.
+The following accessibility standards are supported by the Alerts pattern guidance.
 
 - [SC 1.3.2 Meaningful Sequence (Level A)](https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence): When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.
 - [SC 2.4.3 Focus Order (Level A)](https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html): If a web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
@@ -43,9 +50,9 @@ The following accessibility standards are supported by the Static Alerts pattern
   - Place directly below the page heading.
   - Use only the Standard Alert component for this type of alert.
   - Focus management:
-    - Set focus to the page heading on page load (per [Focus Management on Page Load decision record](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/accessibility/documentation/decision-records.md#focus-management-on-page-load).
+    - Set focus to the page heading on page load (per [Focus Management on Page Load decision record](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/accessibility/documentation/decision-records.md#focus-management-on-page-load)).
     - If the alert is dismissible, move focus back to the page heading when the alert is dismissed.
-  - Role attribute: None
+  - Notification: None
 - Rationale
   - In most cases, the standard Alert (in all of its variations) should be placed directly below the intro text, near the top of the page. — Excerpted from VADS [Alert placement guidance](https://design.va.gov/components/alert/#web-4)
   - Location: After page title. — Guidance from VADS content style guide for this type of [alert messages](https://design.va.gov/content-style-guide/error-messages/access#system-downtime).
@@ -60,7 +67,7 @@ The following accessibility standards are supported by the Static Alerts pattern
   - Place directly below the heading of the relevant section.
   - Use a Standard or Expandable Alert component for this type of alert. Use a Slim Alert only on pages with more than one alert.
   - Focus management: If the alert is dismissible, move focus back to the section heading when the alert is dismissed (note that Expandable Alerts cannot be dismissible).
-  - Role attribute: None
+  - Notification: None
 - Rationale
   - **Sub-alerts on the page.** When your page has more than 1 alert and you are using the Standard and Slim alerts to create a hierarchy of alerts within the page. — Excerpted from VADS [Slim alerts usage guidance](https://design.va.gov/components/alert/#web-3)
   - When a standard Alert is applicable to a specific section of content on a page, it should be placed directly below the header of that section. — Excerpted from VADS [Alert placement guidance](https://design.va.gov/components/alert/#web-4)
@@ -74,7 +81,7 @@ The following accessibility standards are supported by the Static Alerts pattern
   - Place directly below the relevant content and above the call to action.
   - Use the Slim Alert variant.
   - Focus management: If the alert is dismissible, move focus to the next relevant actionable item (or back to the item heading if the next actionable item is not related).
-  - Role attribute: None
+  - Notification: None
 - Rationale
   - **User feedback.** Use Alert for feedback messages that respond to an action a user has taken and to draw their attention to something that they need to correct or to confirm successful completion of a task. These messages use success and error variations. — Excerpted from VADS [Alerts usage guidance](https://design.va.gov/components/alert/#additional-uses-of-an-alert)
   - **Sub-alerts on the page.** When your page has more than 1 alert and you are using the Standard and Slim alerts to create a hierarchy of alerts within the page. This does not mean stacking alerts on top of one another, this means placing them appropriately throughout the page. It can also be appropriate to convey multiple statuses using a combination of headers, text, and the Slim alert variation. An example of a sub-alert is the Autosave alert. — Excerpted from VADS [Slim alerts guidance](https://design.va.gov/components/alert/#web-3)
@@ -89,7 +96,7 @@ The following accessibility standards are supported by the Static Alerts pattern
   - Place directly below the relevant content.
   - Use an Expandable or Slim Alert component for this type of alert (or a Standard Alert if there is no other Standard Alert on the page).
   - Focus management: None
-  - Role attribute: None
+  - Notification: None
 - Rationale
   - **Unprompted and in-page alerts.** Consider the Alert - Expandable component to draw attention to important information on the page that is not a response to user feedback. — Excerpted from VADS [Alerts usage guidance](https://design.va.gov/components/alert/#additional-uses-of-an-alert)
   - **In-page alerts.** The more minimal style of the collapsed Alert - Expandable is intended to be less visually prominent than a standard Alert in order to not conflict with an Alert should it appear on the same page. It allows for providing more important information once expanded that can inform the user of an important situation. Excerpted from VADS [Alert - Expandable usage guidance](https://design.va.gov/components/alert/alert-expandable/#when-to-use-alert---expandable)
