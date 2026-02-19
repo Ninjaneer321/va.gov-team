@@ -326,6 +326,22 @@ Eight participants said they asked wanted to be able to delete a form they start
 *Include insights that do not represent patterns but are still valuable.*  
 > **TIP:** These could be powerful user comments or unexpected issues worth noting
 
+1. Participants had some usability issues on the form intro page:
+    
+     1. Two screenreader users expected to be able to click on one of the record types listed on the form intro page, but they weren't clickable. This also happened to one screenreader user in the previous round of usability research.
+    > *"But these are only bullets, not checkmarks, so I know I have to go to the form" (p4).*
+
+    1. Two non-AT participants were confused when they saw the form intro page because they were looking for fields to fill out. One of them always uses google to find VA forms and doesn't see the form intro page. The other didn't notice the form number below the big "Request personal records" heading, perhaps because it was split across two vertical lines: (1) "(VA Form 20-" and (20) "10206)". 
+
+    1. One participant didn't know what "fiduciary services" means and how it's different from "financial records". These were two of the items listed under "Types of information you can request". 
+
+    1. One non-AT participant found it confusing to not be taken to the form but instead for a signed-in version of the intro page, which looks the same. In the last round of usability testing, 3 participants said the same thing.
+
+       > *"I wanted to fill out a form, I signed in to fill out the form, and all of a sudden, it looks like I'm right back on the same page that I just started at, but actually signed in. I would expect it to take me to the form" (p9).*
+
+     1. The form intro page was so long that two participants took a while before seeing the "Start this request" link. 
+        > *"Trying to find the form was difficult. There was a lot of information on the page" (p7).*
+
 1. Participants encountered a number of usability issues when filling out the Request Personal Records form:
      
      1. When P9 (no AT) opened the "Additional information" accordion, focus moved down to the "Statement of truth", which made it seem like it was a part of the accordion, which it's not. A similar focus problem happened to the third pilot participant (using a screen magnifier), but it was worse because the accordions scrolled out of view, which was disorienting. The extra scrolling is due to scrollToFocus in the accordions, which is supposed ensures that the currently focused element is not off-screen for sighted keyboard users, but it causes other issues. 
@@ -363,7 +379,7 @@ Eight participants said they asked wanted to be able to delete a form they start
 
     > *"Still at step 1 of 6" (p6).*
 
-    > *Saw '2 of 6' and said "I thought we got beyond page 2. Wow. Alright...I was just sighing for the pain that we're about to...I was hoping we were on page 3 of 6 or 4 of 6, but no, we still have 4 more pages to go" (p8).*
+    > *Saw '2 of 6' and said "I thought we got beyond page 2. Wow. Alright...I was just sighing for the pain that we're about to...I was hoping we were on page 3 of 6, or 4 of 6, but no, we still have 4 more pages to go" (p8).*
 
 1. Two participants said that they prefer to fill out forms on paper instead of online. One of them said it's easier and he likes to keep a copy. The other participant doesn't have a computer and said the following: 
   > *"I'm thinking I could fill it out quicker if I had it in front of me in paper and pencil...Slow [on phone] because of my vision and I'm not the greatest typist. I have to look at the keys to type, that’s why I prefer to write it out" (p2).*
@@ -397,6 +413,9 @@ Eight participants said they asked wanted to be able to delete a form they start
    - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
 
 1. **Consider keeping the "Expand all" link (ADD FROM SLACK DM CONVO W/JEANA)**
+
+1. **Consider making the form number under the heading easier to notice. See if the form number shown under the heading could be forced to display on a single line.
+   - _Supporting evidence_: One participant didn't notice the form number below the big "Request personal records" heading, perhaps because it was split across two vertical lines: (1) "(VA Form 20-" and (20) "10206)". 
 
 1. **Consider making the "Back to previous page" link easier to notice**. Perhaps check its font size and consider increasing it if it's smaller than other text on the page. Perhaps add a duplicate link to the bottom of the page.** 
    - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
