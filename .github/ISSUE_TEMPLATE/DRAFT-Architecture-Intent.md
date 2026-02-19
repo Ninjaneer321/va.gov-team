@@ -19,7 +19,7 @@ The [Architecture Intent touchpoint](https://depo-platform-documentation.scrollh
 ### :two: VFS team: schedule the meeting
 - [ ] Review [Architecture Intent Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/architecture-intent) to understand what this touchpoint involves.
 - [ ] Schedule your Architecture Intent (with at least 2 business days lead time from now):
-  - Open the <a href="https://calendly.com/collaboration-cycle/architecture-intent" target="_blank">Calendly Architecture Intent calendar (opens in a new tab)</a>
+  - Open the [Calendly Architecture Intent calendar](https://calendly.com/collaboration-cycle/architecture-intent)
   - Select a date and time
   - Add your name and email
   - Add VFS team attendees as guests
