@@ -20,7 +20,7 @@ This document outlines the key design decisions made for implementing [Prefill p
 ### Status: Complete
 
 - Date issue raised:12/15/2025
-- Decision date:
+- Decision date: 12/17/2025
 
 ### Context
 Currently the success alerts are within the card, the designs show the alerts on above the cards. 
@@ -130,8 +130,8 @@ N/A
 
 ### Status: Proposed
 
-- Date issue raised:
-- Decision date
+- Date issue raised: 12/17/2025
+- Decision date: 12/17/2025
 
 ### Context
 When discussing how multiple errors would be surfaced if there are several areas with required fields missing, the error summary experimental ticket was brought up to address possible focus issues. Currently the error only shows within the card itself, with the card state changed to error.
