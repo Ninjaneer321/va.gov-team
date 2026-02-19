@@ -13,7 +13,7 @@ Dashboards and Monitoring
 
 #### Rollout Planning
 
-- Desired date range: _**Tentatively February 2026**_
+- Desired date range: _**February 2026**_
 - How will you make the product available in production while limiting the number of users who can find/access it:
   - We will leverage the existing feature toggle to control the percentage of users who will be able to access the new functionality.
 - What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?:
@@ -21,6 +21,7 @@ Dashboards and Monitoring
   - Low error rates <5% for `#files-we-couldnt-receive` endpoint (excluding 401/403 authentication issues)
 - Links to the dashboard(s) showing "success criteria" metrics:
   - [Datadog Dashboard](https://vagov.ddog-gov.com/dashboard/8me-h86-qmb/benefits-claim-status-tool-dashboard)
+  - [RUM Dashboard](https://vagov.ddog-gov.com/rum/performance-monitoring?query=%40application.id%3A75bb17aa-34f0-4366-b196-eb11eda75425%20%40session.type%3Auser&agg_m=%40view.loading_time&fromUser=true&from_ts=1770786000000&to_ts=1771390799999&live=false)
 - Who is monitoring the dashboard(s)?:
   - BMT2 Team
 
@@ -34,18 +35,40 @@ Dashboards and Monitoring
 - Percentage of Users: 25%
 
 #### Results
+- Release Date: 2/11/2026 at 11a EST
+- Estimated number of users:
 
-- Estimated number of users: [FILL_IN]
+  - Status Tab: `/track-claims/your-claims/*/status`
+    - total: 208,045
+    - estimated: ~52k
+  - Files Tab: `/track-claims/your-claims/*/files`
+    - total: 91,497
+    - estimated: ~23k
+  - Enabled by Feature (not estimated)
+    - /track-claims/your-claims/files-we-couldnt-receive
+      - total: 3
+
 - Metrics at this stage (per your "success criteria"):
-  - #index: [FILL_IN]
-  - #show: [FILL_IN]
-  - #files-we-couldnt-receive: [FILL_IN]
+  - Backend Metrics:
+    - No related errors logged for these endpoints
+    - #index:
+      - 4 week avg before launch: 0.336%
+      - Since launch: 0.11%
+    - #show:
+      - 4 week avg before launch: 1.2325%
+      - Since launch: 1.37%
+    - #files-we-couldnt-receive:
+      - No errors
+  - Frontend Metrics:
+    - No RUM issues (the increases in time also line up with our release of the content migration):
+      - Loading times are up 4.76%, but comparable to weeks prior and still < 3s goal
+      - LCP/FCP are up 1.56%, but that makes sense since we are adding content to the page
 - Was any downstream service affected by the change?:
-  - [FILL_IN]
+  - No
 - Types of errors logged:
-  - [FILL_IN]
+  - Non related to new functionality
 - What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges?
-  - [FILL_IN]
+  - None identified
 
 ### Stage B: 50% of users
 
