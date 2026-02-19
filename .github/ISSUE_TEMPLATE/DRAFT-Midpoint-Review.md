@@ -21,7 +21,7 @@ The [Midpoint Review touchpoint](https://depo-platform-documentation.scrollhelp.
 #### VFS Team actions
 - [ ] Review [Midpoint Review Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/midpoint-review) to understand what this touchpoint involves.
 - [ ] Schedule your Midpoint Review (with at least 2 business days lead time from now):
-  - Open the <a href="https://calendly.com/collaboration-cycle/design-intent-or-midpoint-review" target="_blank">Calendly Midpoint Review calendar (opens in a new tab)</a>
+  - Open the [Calendly Midpoint Review calendar](https://calendly.com/collaboration-cycle/design-intent-or-midpoint-review)
   - Select a date and time
   - Add your name and email
   - Add VFS team attendees as guests
