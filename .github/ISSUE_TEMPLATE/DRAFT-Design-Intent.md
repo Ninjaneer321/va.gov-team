@@ -21,7 +21,7 @@ The [Design Intent touchpoint](https://depo-platform-documentation.scrollhelp.si
 #### VFS team actions
 - [ ] Review the [Design Intent Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/design-intent) to understand what this touchpoint involves.
 - [ ] Schedule your Design Intent (with at least 2 business days lead time):
-  - Open the <a href="https://calendly.com/collaboration-cycle/design-intent-or-midpoint-review" target="_blank">Calendly Design intent calendar (opens in a new tab)</a>
+  - Open the <a href="https://calendly.com/collaboration-cycle/design-intent-or-midpoint-review" target="_blank">Calendly Design Intent calendar (opens in a new tab)</a>
   - Select a date and time
   - Add your name and email
   - Add VFS team attendees as guests
