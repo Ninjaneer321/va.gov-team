@@ -5,6 +5,15 @@
      - What is going to work to resolve these?
 - High Error rates on EZR and CG
 
+### General comments & questions
+- Is it suspect that some of our SLO metrics returning 100% uptime/availability?
+     - Not a usual occurrence
+- Utilization
+     - Percentage of requests vs total request capacity as gathered by our application web servers (puma).
+     - How should this be calculated?
+     - How would we calculate max capacity?
+     - Can we see CPUs in DD for the containers?
+
 ### EZ dashboard
 - No notes - looks healthy
 
@@ -48,12 +57,5 @@
                 - Theory - due to PDF generations?
                 - Need trace logs to confirm
 
-### General comments & questions
-- Is it suspect that some of our SLO metrics returning 100% uptime/availability?
-     - Not a usual occurrence
-- Utilization
-     - Percentage of requests vs total request capacity as gathered by our application web servers (puma).
-     - How should this be calculated?
-     - How would we calculate max capacity?
-     - Can we see CPUs in DD for the containers?
+
 
