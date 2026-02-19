@@ -1,4 +1,4 @@
-# P(16)
+# P16
 Participant: (Veteran)
 
 Notetaker: [Insert Name Here]
