@@ -19,7 +19,7 @@ The [PO Sync touchpoint](https://depo-platform-documentation.scrollhelp.site/col
 ### :two: OCTO Product Owner: schedule the meeting
 - [ ] Review [PO Sync Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/po-sync) to understand what this sync involves.
 - [ ] Schedule your PO Sync (with at least 2 business days lead time from now):
-  - Open the [Calendly PO Sync calendar](https://calendly.com/collaboration-cycle/po-sync)
+  - Open the <a href="https://calendly.com/collaboration-cycle/po-sync" target="_blank">Calendly PO Sync calendar (opens in a new tab)</a>
   - Select a date and time
   - Add your name and email
   - Schedule the event
