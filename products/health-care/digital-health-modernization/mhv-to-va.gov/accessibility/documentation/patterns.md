@@ -11,6 +11,7 @@ Last updated: 18 Feb 2026
   - [Feature/Section Alert (Static)](#featuresection-alert-static)
   - [Item Feedback Alert (Static)](#item-feedback-alert-static)
   - [Item Message Alert (Static)](#item-message-alert-static)
+  - [Tool/Page Feedback Alert (Dynamic)](#toolpage-feedback-alert-dynamic)
 
 ### VADS accessibility guidelines
 The following VADS accessibility guidelines are supported by the Alerts pattern guidance.
@@ -101,3 +102,20 @@ The following accessibility standards are supported by the Alerts pattern guidan
   - **Unprompted and in-page alerts.** Consider the Alert - Expandable component to draw attention to important information on the page that is not a response to user feedback. — Excerpted from VADS [Alerts usage guidance](https://design.va.gov/components/alert/#additional-uses-of-an-alert)
   - **In-page alerts.** The more minimal style of the collapsed Alert - Expandable is intended to be less visually prominent than a standard Alert in order to not conflict with an Alert should it appear on the same page. It allows for providing more important information once expanded that can inform the user of an important situation. Excerpted from VADS [Alert - Expandable usage guidance](https://design.va.gov/components/alert/alert-expandable/#when-to-use-alert---expandable)
   - **Placement.** Alert - Expandable must only appear within a section of a page, not at the top so as not to compete with the standard Alert placement. Excerpted from VADS [Alert - Expandable placement guidance](https://design.va.gov/components/alert/alert-expandable/#placement)
+
+#### Tool/Page Feedback Alert (Dynamic)
+
+<img width="324" height="265" alt="Screenshot of dismissible success alert following the page heading" src="../files/alert-dynamic-page-feedback.png" />
+
+- Guidance
+  - Use for feedback provided on page load in response to a user interaction (e.g., redirecting to the originating page after completing a task, such as sending a message).
+  - Place directly below the page heading.
+  - Use a dismissible Slim Alert component for this type of alert.
+  - Focus management:
+    - Set focus to the page heading on page load (per [Focus Management on Page Load decision record](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/mhv-to-va.gov/accessibility/documentation/decision-records.md#focus-management-on-page-load)).
+    - Move focus back to the page heading when the alert is dismissed.
+  - Notification:
+    - Use `role="status"` for success or warning alerts.
+    - Use `role="alert"` for error alerts.
+- Rationale
+  - Use the Slim alert variation for immediate feedback within forms and applications. Slim alerts are most often displayed immediately after the user has taken an action, and can also be used for save-in-progress success and error messaging. — Excerpted from VADS [Alerts variation guidance](https://design.va.gov/components/alert/#web-5))
