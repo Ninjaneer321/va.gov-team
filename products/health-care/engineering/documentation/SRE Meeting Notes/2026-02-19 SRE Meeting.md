@@ -14,14 +14,14 @@
      - How would we calculate max capacity?
      - Can we see CPUs in DD for the containers?
 
-### EZ dashboard
+### EZ 
 - No notes - looks healthy
 
-### CG dashboard
+### CG 
 - Check into 503s - should this return differently?
 - Check into Latency (1.35s)
 
-### EZR dashboard
+### EZR 
 - Check into submission error rate
 - Check into Upload errors 401s
 
