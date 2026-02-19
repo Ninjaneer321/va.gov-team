@@ -20,7 +20,7 @@ This report documents what we know and understand about notifications that route
 
 ## Background information
 
-Some SMS/push notifications in particular are subject to legally mandated "quiet hour" windows, and can only be sent from specific facilities during allowed hours, typically 8am-8pm in the time zone where the facility is located. Almost all notifications can be dismissed or opted out of, but this works differently based on whether they are managed in the VA.gov Profile or if the user opts in/out via SMS commands (more information on this below, based on specific notification tool). 
+SMS notifications in particular are subject to legally mandated "quiet hour" windows, and can only be sent from specific facilities during allowed hours, typically 8am-8pm in the time zone where the facility is located. Almost all notifications can be dismissed or opted out of, but this works differently based on whether they are managed in the VA.gov Profile or if the user opts in/out via SMS commands (more information on this below, based on specific notification tool). 
 
 In general, there are templates used to propogate both email and SMS messages for both VEText and VA Notify, but these content templates are not centrally managed and there is not one single source of truth for all notification template management. There are some gaps in the existing ecosystem where some notifications are ONLY available at the facility-level and/or are ONLY available via SMS or e-mail (but not both), which will cut out any users without a either a mobile device/e-mail or who are at a facility that has not implemented the VEText service. 
 
