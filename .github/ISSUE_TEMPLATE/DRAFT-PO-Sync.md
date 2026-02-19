@@ -9,6 +9,8 @@ labels: collaboration-cycle
 
 The [PO Sync touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/po-sync) is a synchronous half-hour discussion that provides OCTO-DE and Platform with an early understanding of the purpose and vision behind your team’s proposed work.
 
+[Link Text](http://google.com){:target="_blank"}
+
 **Note:** PO Sync is required only for OCTO and VES teams. 
 
 ## Before the meeting
