@@ -245,7 +245,7 @@ Half of the participants ignored the interstitial page when it came up because i
 
 Half of the participants did read the interstitial page but **most didn't remember that it said all of their work would be saved automatically**.  
 
-While looking at the page again at the end of the research session, participants provided additional feedback: 
+While looking at the interstitial page again at the end of the research session, participants provided some **additional feedback**: 
 
 - Two participants didn't read the heading but only the text below it, and it was the heading that said "We'll save your information automatically after every change you make."
   > *"The big bold up at the top is usually the title of the page or the document, and it's the little stuff down below that has the meat--the meaning" (p9).*
@@ -263,10 +263,8 @@ While looking at the page again at the end of the research session, participants
 ### Finding 2: Most participants assumed that saving happened only after selecting "Finish later" or submitting the form.
 After participants finished filling out the form, we asked when they thought their information was saved. Most participants (6 of 7) said only after selecting the "Finish later" or "Submit" button. **Most skipped or forgot the interstitial page that said their information gets saved automatically.** When we told participants that VA form information is saved automatically, they were pleasantly surprised because they didn't want to lose their work. Maybe it's OK if people don't know that saving is happening automatically, as long as they're glad to not be losing information they entered.
 
-- _Supporting data: Quote [add context]_  
-
-### Finding 3: All participants used the "Finish later" button to stop filling out the form, and then they successfully resumed the form. 
-**All 7 participants found the "Finish later" button intuitive to save their work**, even if they didn't remember it from the interstitial page. Only one person said they knew that it would save from their past experience with VA forms. One participant said that he was leery of losing his work if he stops in the middle:
+### Finding 3: All participants used the "Finish later" button to stop filling out the form, and then successfully resumed the form. 
+**All 7 participants found the "Finish later" button intuitive to save their work**, even if they didn't remember it from the interstitial page. Only one person said they knew that it would save from their past experience with VA forms. One participant said that he was leery of losing his work if he stopped in the middle:
 
 > *"I'd just sit here and finish it until I was done...I hate doing work and then having to come back and redo the exact same thing.  Experience over time [with non-VA forms] has taught me to not trust what it's supposed to do...If it works like it should, everything up to the point where I stop should remain filled out, and when I log back in...it should take me right where I left off" (p9).*
 
