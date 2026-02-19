@@ -551,7 +551,7 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 > Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
 >
 > **Place time slots between `hash marks` when in edit mode.**
-TBD, 12-5pm ET
+
 - `3/2, Monday, 12:00PM-5:00PM EST`
 - `3/3, Tuesday, 12:00PM-5:00PM EST`
 - `3/4, Wednesday, 12:00PM-5:00PM EST`
@@ -579,7 +579,6 @@ TBD, 12-5pm ET
 - `Research guide writing and task development (usually but not always same as moderator):` **Risha Lee**		
 - `Participant recruiting & screening:`	**Perigean**	
 - `Project point of contact:` **Risha Lee**		
-- `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[TBD]**	
 - `Note-takers:` **Megan Gayle and Joseph Lee**	
 - `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
 
