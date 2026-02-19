@@ -149,7 +149,7 @@ Findings and recommendations from this research will **inform guidance and docum
 ### Research goal 1: See if Veterans understand that their form data is being saved as they're filling out a form but haven't submitted it yet.
 1. What reactions/feedback do Veterans have upon encountering the interstitial page after clicking "Continue"?
 1. Do Veterans think that their form data is being saved? If so, how confident are they?
-1. Do Veterans click on either of the links on the interstitial page (that go to My VA or the form intro page)?
+1. Do Veterans click on either of the links on the interstitial page (that go to "My VA" or the form intro page)?
 1. Do Veterans remember later what the interstitial page said?
 
 #### Research goal 2: See if Veterans can stop filling out a form, get signed out, and then resume filling out a form.  
@@ -168,7 +168,7 @@ We conducted **remote moderated usability testing** to observe research particip
 
 Research sessions were conducted over Zoom during January 12-21, 2026. Sessions were 90 minutes long for Veterans using assistive technology (i.e., screen readers or screen magnifiers), and 60 minutes for Veterans not using any assistive technology (AT). 
 
-## Participants
+## Participants--Overview and AT
  Perigean recruited **9 research participants** who were Veterans. 7 participants were able to complete all the user tasks, and the other 2 participants were not because of technical issues.  
  - **5 were assistive technology users**:
    - 4 used a screen reader
@@ -196,11 +196,11 @@ For demographic details, see [Research participants](#user-content-research-part
 ## Hypotheses and Conclusions
 
 1. With the new design, Veterans are confident that their form data will be saved.
-    - **Definitely False** because most participants said they would lose the information they entered if they didn't click the Finish later button or submit the form. They didn't realize that the form was saving their information every time they moved onto the next field.
+    - **Definitely False** because most participants said they would lose the information they entered if they didn't click the "Finish later" button or submit the form. They didn't realize that the form was saving their information every time they moved onto the next field.
 1. Telling Veterans about auto saving after the first form page is a time when they are receptive and likely to remember.
     - **Definitely False** because most participants skipped past the interstitial page in their zeal to fill out the form. 
 1. With the new design, Veterans will be able to stop filling out a form, get signed out, and then resume filling out a form.
-    - **Likely True** because all participants used the Finish later button to stop filling out the form, and successfully resumed by signing in and then using the My VA page. 
+    - **Likely True** because all participants used the "Finish later" button to stop filling out the form, and successfully resumed by signing in and then using the "My VA" page. 
 1. All Veterans (including screen magnifier and screen reader users) will find the accordion controls on the left side easy to use.
     - **Likely True** because all 6 participants who interacted with the accordions on the Review/Submit page were able to easily open and close them, which included one person using a screen magnifier.
 
@@ -269,7 +269,7 @@ After participants finished filling out the form, we asked when they thought the
 
 > *"I'd just sit here and finish it until I was done...I hate doing work and then having to come back and redo the exact same thing.  Experience over time [with non-VA forms] has taught me to not trust what it's supposed to do...If it works like it should, everything up to the point where I stop should remain filled out, and when I log back in...it should take me right where I left off" (p9).*
 
-5 of 7 participants knew that they needed to sign in to resume their form. One participant didn't know that, and another participant didn't need to sign in because of a prototype malfunction. **6 of the 7 participants resumed their form from the My VA page**, and one did it from the form intro page.  
+5 of 7 participants knew that they needed to sign in to resume their form. One participant didn't know that, and another participant didn't need to sign in because of a prototype malfunction. **6 of the 7 participants resumed their form from the "My VA" page**, and one did it from the form intro page.  
 
 > *"Right back to where I left off" (p11).*
 
