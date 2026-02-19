@@ -114,10 +114,10 @@ Existing notifications
 |--------------|---------|---------|----------|---------|-------|------|
 | 1 medication has shipped | CBOC | Tracking information added to in-progress medication | Email | VistA, OH | Yes | Notes |
 | Multiple medications have shipped | CBOC | Tracking information added to in-progress medication | Email | VistA, OH | Yes | Notes |
-| 1 medication has shipped | Facility-specific | Tracking information added to in-progress medication | SMS | VistA, OH | Yes | Some prescriptions are shipped by the facility (not CBOC), but not all facilities have capabilities to send SMS notifications|
-| Multiple medications have shipped | Facility-specific | Tracking information added to in-progress medication | SMS | VistA, OH | Yes | Some prescriptions are shipped by the facility (not CBOC), but not all facilities have capabilities to send SMS notifications |
-| Window pickup notifications | Facility-Specific | Once a prescription is verified in ScriptPro (fully automated) | SMS | Vista, OH | No (automatic) | Not all facilities have this implemented |
-| Rx Refill available | Facility-specific | -- | SMS | --| -- | On VEText roadmap, with a planned 2027 release |
+| 1 medication has shipped | VEText | Tracking information added to in-progress medication | SMS | VistA, OH | Yes | Some prescriptions are shipped by the facility (not CBOC), but not all facilities have capabilities to send SMS notifications|
+| Multiple medications have shipped | VEText | Tracking information added to in-progress medication | SMS | VistA, OH | Yes | Some prescriptions are shipped by the facility (not CBOC), but not all facilities have capabilities to send SMS notifications |
+| Window pickup notifications | VEText | Once a prescription is verified in ScriptPro (fully automated) | SMS | Vista, OH | No (automatic) | Not all facilities have this implemented |
+| Rx Refill available | VEText | -- | SMS | --| -- | On VEText roadmap, with a planned 2027 release |
 | CMOP shipment notification | -- | -- | -- | -- | -- | On VEText roadmap, but no timeline is available |
 
 Notes: 
