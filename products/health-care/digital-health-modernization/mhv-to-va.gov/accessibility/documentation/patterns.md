@@ -125,7 +125,7 @@ The following accessibility standards are supported by the Alerts pattern guidan
 
 #### Inline Feedback Alert (Dynamic)
 
-<img width="283" height="554" alt="Screenshot of dismissible error alert following a button pair" src="../files/alert-dynamic-page-feedback.png" />
+<img width="283" height="554" alt="Screenshot of dismissible error alert following a button pair" src="../files/alert-dynamic-inline-feedback.png" />
 
 - Guidance
   - Use for dynamic feedback provided in response to a user interaction.
