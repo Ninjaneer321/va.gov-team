@@ -373,7 +373,9 @@ Eight participants said they asked wanted to be able to delete a form they start
 1. One participant expressed his appreciation for us taking the time to learn from Veterans:
     > *"I'm happy you guys are doing this because I go to other kinds of websites, and it's just a nightmare trying to get through--the way they've laid stuff out. So I'm very happy that you guys asked for feedback for the user experience. It's fantastic! Thanks" (p7).*
 
-1. Three participants had technical issues with their assistive tech...
+1. Three participants had technical issues with their assistive tech:
+
+     1. Zoom silently kicked p4 out of the session when he clicked the "Sign in" or "Continue" button in the codespace. This happened repeatedly with him. He was using VoiceOver on an iPhone 15 Pro running iOS 26.2, in Safari then Chrome--both with and without sharing his screen. Jeana and Darby tried to reproduce this on their own iPhones with the same iOS version (26.2) but were unable to. It might have been caused by a RAM issue with running Zoom and the codespace prototype at the same time, as the participant made it farther through the form when he wasn't screen sharing.
 
 1. Two participants noticed the stepper and didn't like that it said they were still on step 1 or 2, even though they had already filled out more than 1 or 2 form pages by then. This happens because step 1 has 3 form pages, and step 2 has 2 form pages.
 
@@ -387,10 +389,6 @@ Eight participants said they asked wanted to be able to delete a form they start
   At the end of the session, this participant said that this session had helped her learn how to navigate back to an in-progress form. She had been planning to print out a paper form from an online form she already started because she needed to upload 15 documents, but at the end of the session, she said that she might try to upload them online, given that she already completed most of the online form and now knows that it's been saved. 
 
 ## Recommendations   
-
-   - _Supporting evidence_: 
-
-*Summarize actionable recommendations based on findings.*  
 
 ### For the Design System and Forms team
 1. Investigate why the "Finish later" message is read so haltingly in small segments when using JAWS with a mouse. --> *Jeana will investigate to see if each segment is wrapped in a span, and if so, why.*
@@ -420,6 +418,8 @@ Eight participants said they asked wanted to be able to delete a form they start
 1. **Consider making the "Back to previous page" link easier to notice**. Perhaps check its font size and consider increasing it if it's smaller than other text on the page. Perhaps add a duplicate link to the bottom of the page.** 
    - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
 
+1. Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production.  
+   - _Supporting evidence_: Zoom silently kicked p4 out of the session when he clicked the "Sign in" or "Continue" button in the codespace. 
 
 
 ### For the Request Personal Records form
@@ -457,7 +457,6 @@ Eight participants said they asked wanted to be able to delete a form they start
      1. Meet with Martha's VA Blind Rehab Center contacts to learn how they help Veterans who are blind or low vision, eligibility, and whether/how to mention their services to research participants who might benefit from their services (and add to conversation guides). --> *Martha will schedule a meeting*
      1. Consider adding messaging on VA.gov about how to better use this website (see this page on [gov.uk](https://www.gov.uk/help/accessibility-statement#how-you-should-be-able-to-use-this-website)). Could perhaps add something to the [508 compliance (Accessibility) page](https://www.va.gov/accessibility-at-va/) --> *Create a ticket to discuss with Danielle.*
      1. Learn more about Veteran needs by conducting a survey of Veterans who are blind or low vision about their AT tools and experiences with VA.gov. --> *Future work for Cindy*
-
   
 ## Product User and Business Outcomes
 
