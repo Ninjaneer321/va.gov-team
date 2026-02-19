@@ -69,9 +69,8 @@ recruitment:
       qualifying_response: "Any of the above"
     - question: "Have you evaluated a disability claim or Form 21-2680 as a rater or adjudicator for the VA in the past 12 months?"
       qualifying_response: "Yes (for rater cohort only)"
-	- question: "Are you a Veteran or the caregiver or dependent of a Veteran?"
-      qualifying_response: "Yes (for Veteran / caretaker cohort only)"
-	  
+	- question: "Have you evaluated a disability claim or Form 21-2680 as a rater or adjudicator for the VA in the past 12 months?"
+      qualifying_response: "Yes (for rater cohort only)"
 	
       
 participants:
