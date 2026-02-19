@@ -46,34 +46,37 @@ We're still in a technical discovery phase, but our plan is:
  - We will move over the same data points currently collected in My HealtheVet Classic to VA.gov.
  - We will also need to ensure that consistent data is available and can be provided to Veterans from the Oracle Health EHR system
  - We need to develop a plan to continue identifying, storing, and providing these data points to users from the new UI on VA.gov.
- - We'll create a new page under /my-health that will store this functionality, and connect to it from various places within the health portal as deemed appropriate
- - We'll consider allowing users some level of control over how to filter their list to the types of logs or date ranges they're looking for. 
-
+- We are going to build this now because we need to move this feature over to VA.gov before September 2026 when we plan to sunset My HealtheVet Classic legacy patient portal completely.
+- We first started with an MVP approach to describe what AALs are in a "need help?" component on the My HealtheVet landing page, and point users to help desk to call if they need AALs for any reason. This approach has received some push-back and we are being asked to iterate beyond MVP to decrease the burden on help desks and clinicians to support AAL requests.
+- We will not add additional data fields beyond what is already being offered on My HealtheVet Class in this initial design effort - this will primarily be a lift + shift effort, with some design treatment to making it accessible, clear, and intuitive for users per the VA Design System.
+- We plan to build this feature under the `/my-health` domain space in a new page (TBD) and will provide cross-link entry points to that page from the My healtheVet landing page and potentially other tools within the health portal. 
+- We'll consider allowing users some level of control over how to filter their list to the types of logs or date ranges they're looking for.
+- Our solution does not include the VAHB mobile app - AALs will be a web-only feature. 
 
 ## Launch Strategy
-- We will first build the application and incrementally launch it to a percentage of users or to a specific facility for testing
-- We'll dial that up over time, and make iterations and fixes as we learn from users what is working. 
+- We are in early stages right now, and are taking on technical and design discovery to better understand the best way to port this information over from LifeRay (VistA) onto VA.gov, also integrate similar logs from Oracle Health EHR systems, and continue to fetch, store, and provide access to these logs moving forward from VA.gov itself. 
+- Once we have more discovery ready, we can answer more strategic questions about architectural plans and launch strategy
+- We will likely launch this work to a very small percentage of users or a specific facility, and slowly dial up the launch based on post-launch monitoring. 
 
 ## Launch Dates
-Target launch date: June 2026 
+- Target: June 2026
 
 #### Communications
 
 <details>
 
-- Team Name: My HealtheVet Horizon
+- Team Name: My HealtheVet Horizon team
 - GitHub Label: mhv-horizon
-- Slack channel: 
-- Stakeholders: Marci McGuire, Robyn Singleton
+- Slack channel: #mhv-horizon-team
+- Product POCs: Marci McGuire, Robyn Singleton
 
 </details>
 
 #### Team Members
-
 <details>
  
  - PM: David Koger
  - Engineering: Kevin Duensing
- - Research/Design: Sara Sterkenburg, Cara Frissell
+ - Research/Design: Cara Frissell / Sara Sterkenburg
  
 </details>
