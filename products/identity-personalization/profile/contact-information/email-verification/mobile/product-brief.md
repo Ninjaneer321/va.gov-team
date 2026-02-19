@@ -83,7 +83,7 @@ The VA wants to ensure that important email communications reach Veterans from t
 * VAHB will utilize the same emails that the Authenticated Experience team creates. This includes the initial launch and annual reminder
   * Confirm your email address (initial launch)
   * Email address confirmed (initial launch)
-* VAHB will direct users to the shared landing pages that are being built by the Authenticated Experience team. A user will get an email with a link, if they clink on the link from their email on their mobile device then it would take them to a landing page on VA.gov using their default browser. These landing pages include: 
+* VAHB will direct users to the shared landing pages that are being built by the Authenticated Experience team. A user will get an email with a link, if they click on the link from their email on their mobile device then it would take them to a landing page on VA.gov using their default browser. These landing pages include: 
   * Email confirmation success page
   * Email confirmation expired linking page
   * Email already confirmed web page  
