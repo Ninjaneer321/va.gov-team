@@ -1,5 +1,5 @@
 # IA Design for Time of need (lite) -- Schedule a burial in a VA national cemetery
-**STATUS: Complete**
+**STATUS: Complete -- Updated responsibilities for entry points 2/19/26**
 
 **Team:** BAH-MBS-SelfServ
 
@@ -47,15 +47,15 @@
 
 Teams must launch with at least one entry point that allows site visitors to navigate to the new content or feature. 
 
-### Required entry point(s)
+### Required entry point(s) -- Updated 2/19/26
 
 1. **[Schedule a burial for a Veteran or family member](https://www.va.gov/burials-memorials/schedule-a-burial/)**
-  - Placement description: Central content team should evaluate page content and add the online form as appropriate to instructions/information.
+  - Placement description: Add the online form as appropriate to page. Central content team can provide feedback on suggested text updates but request for update should be directed to NCA web services.  
   - Link details
-    - Link label: TBD by content
+    - Link label: Follow style guide for link label.
     - Link destination: https://www.va.gov/burials-memorials/schedule-a-burial/schedule-burial-va-national-cemetery/
   - Notes:
-    - Who will update: content
+    - Who will update: NCA web services
     - When will this entry point go live: Required for launch (preview of entry point required for staging review)
     - Please note: if the product team chooses to do an incremental rollout/launch (anything less than 100%), you must work with Content and IA to create and test the widget well ahead of staging review. 
 
@@ -63,12 +63,12 @@ Teams must launch with at least one entry point that allows site visitors to nav
 _Any additional key locations that the page should be navigable from. Although these are not required for launch, they are critical to the findability of your content/feature.  Examples of key entry points include "About a form" pages, additional navigation component (top, left) placements, additional static pages where its prominently linked from, etc._
 
 1. **Hub side navigation**
-  - Placement description: Add link to form in side navigation as the first option under Schedule a burial as a child page
+  - Placement description: Add link to form in side navigation as the first option under Schedule a burial as a child page. Request should be directed to NCA web services. 
   - Link details
-    - Link label: TBD
+    - Link label: Follow style guide. Central content or IA team can provide feedback on label text if needed.
     - Link destination: https://www.va.gov/burials-memorials/schedule-a-burial/schedule-burial-va-national-cemetery/
   - Notes:
-    - Who will update: IA
+    - Who will update: NCA web services
     - When will this entry point go live: post 100% launch
    
   **Please note: Because this form flow does not have a PDF version or official form number, an About form page will not be added at this time under the Find a form section due to template constraints. If an option becomes available at a future date, we will reconsider.**
