@@ -16,7 +16,7 @@ description: "A moderated UAT conversation guide for testing the VA mobile app�
 ---
 
 
-# Conversation Guide for UAT Overpayments in VA Mobile App
+# Conversation Guide for UAT Overpayments in the VA Mobile App
 
 ## Moderator logistics 📋✅
 
@@ -45,8 +45,8 @@ description: "A moderated UAT conversation guide for testing the VA mobile app�
 > [!TIP]
 > - In the Attendees section, make sure everyone except the participant is on mute.
 > - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked.
-> - Check your screensharing setup and share permissions for participants.
-> - When the participant is ready, begin the session with the following intro
+> - Check your screen sharing setup and share permissions for participants.
+> - When the participant is ready, begin the session with the following intro:
 
 </details>
 
@@ -63,12 +63,12 @@ I want to review a few things to make sure you're okay with what will happen in 
 
 _[NOTE] Potential ending spot if it's clear they do not have a current overpayment_
 
-* Today, we’re testing a pre-release version of the VA app specifically to check the Debt Portal before it's released to the public. We want to make sure that every button you press results in the correct information being shown on screens.
+* Today, we’re testing a pre-release version of the VA app specifically to check the Debt Portal before it's released to the public. We want to make sure that every button you press shows the correct information being shown on screens.
     * Are you okay with logging in with your real username and password for this test?
     * Nothing you do here will affect your VA benefits in any way. We're also not going to be doing anything that will affect your overpayments.
     * I'll be asking you to share your screen, which will show your personal debt records.
         * Are you okay with sharing your screen with us?
-    * If you would like to stop the session or do not want to show us something at any time, that's no problem. Please let me know.
+    * If you would like to stop the session or prefer not to show us something at any time, that's no problem. Please let me know.
 
 _[NOTE] Potential ending spot if they are not comfortable logging in with their credentials_
 
@@ -82,7 +82,7 @@ _[NOTE] Potential ending spot if they are not comfortable logging in with their 
 * I have [number] colleagues who are interested in observing this session to better understand the Veteran experience. Would you be okay with them observing?
     * If no: Use Slack to kindly ask the observers to leave the Zoom.
     * If yes: Admit observers.
-    * Then, ask the notetaker and observers to give a brief, camera-on introduction, like their first name and position with VA.gov. 
+    * Then, ask the notetaker and observers to give a brief, camera-on introduction, like their first name and position with VA.gov.
     * Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth.
 * If you would be okay with it, we would like to record this session today, but let me explain things first before you consent. 
     * Any reporting I do from this would not use your name or personal details.
@@ -104,7 +104,7 @@ _References_:
     - Swipe the moderator's video off to the side
 - [Screen sharing Android](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)
     - Swipe moderator's video off to the side
-    - Select Zoom from Permissions: “Display over other apps permission”, then go back to Zoom
+    - Select Zoom from Permissions: “Display over other apps permission,” then go back to Zoom
 - App install link for iOS (TestFlight) 🚧
 - App install link for Android (Firebase) 🚧
 - [iOS directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md) for guiding them through the download and set-up
@@ -174,7 +174,7 @@ Now we need to make some permission changes.
 - _[optional explanation]_ Google Play is the standard way apps are sent to Android phones. This app is safe, but because the version we’re testing today is still in development, it hasn't gone through Google’s final review yet, and therefore it’s blocked by default. We need to adjust some settings to allow you to download it, and we’ll make sure to get your phone back to the way it was once we’re finished.
 
 Open Google Play Store.
-- Tap the profile icon on the upper right
+- Tap the profile icon in the upper right
 - Tap Settings
 - Tap About
 - Where it says "Play Store version" — tap that seven times until a notice comes up.
@@ -221,7 +221,7 @@ I'm now going to help you return your phone to the way it was.
 <summary>Android guidelines 🤖</summary>
 
 - Uninstall the VA app
-    - _[option 1]_ Go to your home screen and find the app icon. Press and hold, drag up to the top to Uninstall.
+    - _[option 1]_ Go to your home screen and find the app icon. Press and hold, then drag up to the top to Uninstall.
     - _[option 2]_ Go to your home screen and find the app icon. Press and hold, tap App info. Tap Uninstall.
     - _[option 3]_ Open Google Play Store. Tap profile photo, tap "Manage apps and device," tap "Manage" and select "VA app" to delete.
 - Uninstall Firebase app
@@ -241,7 +241,7 @@ I'm now going to help you return your phone to the way it was.
 - Reinstall public version of the VA app
     - Open the app store to find the app. This will install over the beta version
 - Uninstall TestFlight
-    - Go to home screen to find app. Long hold, tap Remove App.
+    - Go to home screen to find app. Press and hold, then tap Remove App.
 - Log back into VA app (if they want help)
 - _[if relevant]_ Turn notifications back on
     _[pull down from upper right, select Focus]_
@@ -256,7 +256,7 @@ I'm now going to help you return your phone to the way it was.
 
 ## Thank-You and Closing
 
-We really appreciate you taking the time to help us test the app. This step is so crucial to getting this app ready for everyone to use.
+We really appreciate you taking the time to help us test the app. This step is crucial to getting this app ready for everyone to use.
 
 Perigean will be sending you a thank-you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
 
