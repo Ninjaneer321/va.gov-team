@@ -374,16 +374,13 @@ _[For Perigean's communication with participants]_ Pre-requisites for participan
 #### Secondary criteria (nice-to-haves)
 
 - `A variety of types of overpayment debt among participants`
-- `Having multiple types of overpayment debt`
+- `Participants who have multiple types of overpayment debt`
 
 ## Timeline 🗓️
 
 ### Kick-off Call with Perigean
 
-- `Suggested dates and times:`
-    - Wed 02/11 11:30AM - 1:00PM EST
-    - Thur 02/12 10:00AM - 1:00PM EST
-    - Fri 02/13 10:00AM - 1:00PM EST
+- `Already completed`
 
 ### Prepare
 
