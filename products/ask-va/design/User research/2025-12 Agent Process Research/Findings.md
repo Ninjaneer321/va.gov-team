@@ -178,8 +178,8 @@ See [presentation](https://dvagov.sharepoint.com/:p:/r/sites/AskVA/Shared%20Docu
 
 ## Next Steps
 
-Met with CRM team to discuss the findings and pain points in more detail.
-CRM team will assess priorities and meet with CRM VA PO.
+1. Met with CRM team to discuss the findings and pain points in more detail.
+2. CRM team will assess priorities and meet with CRM VA PO.
 
 ## Further research needed
 
