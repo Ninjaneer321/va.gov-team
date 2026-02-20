@@ -590,4 +590,4 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 > [!NOTE]
 > Before submitting for review, ensure you've completed the YAML frontmatter section at the top of this document using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md).
 - `Reviewed by Denise Coveyduc, Financial Management Team Lead on [02-11-2026]`
-- `Reviewed by Kevin M. Hoffman, OCTO Research-Ops Lead on [02-19-2026]`
+- `Reviewed by Kevin M. Hoffman for Shane Strassberg, OCTO Research-Ops Lead on [02-19-2026]`
