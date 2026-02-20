@@ -81,7 +81,7 @@ Notetaker: [@Andrea_Merrill]
 - The colors are helpful. Yellow for caution.
 - Some people may want to do eligibility screeners and and some are sure they are eligible and wouldnt want to be bothered in having to complete the task and just apply.
 
-#### KEy Take-aways**
+#### Key Take-aways**
 1. Speak in definitive statements removing ambiguity, and eliminate double negatives.
 2. Be sensitive removing to the best of your knowledge.
 3. Ability to save and return to finish application is desirable.
