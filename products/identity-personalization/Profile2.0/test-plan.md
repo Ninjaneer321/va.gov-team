@@ -47,16 +47,16 @@ Test cases focus on new or materially changed functionality.
 The Regression Test Plan verifies that existing Profile functionality continues to work as expected after the 2.0 updates.
 
 **Artifact:**  
-[Link to Regression Test Spreadsheet]
+[Link to Regression Test Spreadsheet](https://github.com/department-of-veterans-affairs/va.gov-team/raw/refs/heads/master/products/identity-personalization/Profile2.0/Profile%202.0%20QA_Reg-test.xlsx)
 
 ---
 
-## 5. Test Cases (New / Material Changes)
+## 5. Test Cases 
 
 The Test Plan verifies new and materially changed functionality, primarily focused on the Scheduling Preferences page.
 
 **Artifact:**  
-[Link to Test Case Spreadsheet]
+[Link to Test Case Spreadsheet](https://github.com/department-of-veterans-affairs/va.gov-team/raw/refs/heads/master/products/identity-personalization/Profile2.0/Profile%202.0%20QA_Test-Case.xlsx)
 
 ---
 
@@ -68,7 +68,7 @@ The Test Plan verifies new and materially changed functionality, primarily focus
 - **100% coverage**
 
 **Artifact:**  
-[Link to Coverage Report]
+[Link to Coverage Report](https://github.com/department-of-veterans-affairs/va.gov-team/raw/refs/heads/master/products/identity-personalization/Profile2.0/Profile%202.0%20QA_Coverage-Report.xlsx)
 
 This report demonstrates that all user stories are mapped to at least one corresponding test case.
 
