@@ -3,11 +3,12 @@
 
 ## Overview
 Account Activity Logs (AALs) are records of specific actions and interactions associated with a user's health care patient portal account. They serve as a transparent audit trail of everything that happens within the portal.
+
 ### What AALs include
-AALs usually capture events like logins and logouts (including the date, time, and device/IP address used), failed login attempts, password changes, profile or contact information updates, messages sent or received, records viewed or downloaded, prescription refill requests, appointment scheduling, and any changes made to account settings or privacy preferences.
+The account activity logs on VA.gov will differ from the logs that were displayed on MHV Classic because authentication and account activities like password changes are no longer managed by MHV and is now stored with Login.gov and ID.me.  The patient-facing UI on VA.gov will provide users with insight on activities conducted within My HealtheVet onVA.gov, including messages sent or received, health records viewed or downloaded, prescription refill requests, and appointment scheduling. 
 
 ### Who Can See Them
-Patients can typically view their own AALss to monitor for unauthorized access or suspicious behavior. Healthcare providers and administrators also have access to audit logs on the backend, both for security oversight and to comply with regulatory requirements.
+Patients can typically view their own AALs to monitor for unauthorized access or suspicious behavior. Healthcare providers and administrators also have access to audit logs on the backend, both for security oversight and to comply with regulatory requirements.
 
 ## Problem Statement
 The Health portal on VA.gov seeks to replace two independent patient portals: My HealtheVet Classic and My VA Health, but the long-pole in the tent includes this AAL feature that has not yet been moved over and built on VA.gov. This is a blocker for sunsetting the other patient portals, but also is critical and HIPAA required functionality that we should provide Veterans as part of their health care management online. AALs are especially important because they help protect sensitive health information. Under HIPAA, covered entities are required to maintain audit controls and track access to electronic protected health information (ePHI). These logs support that compliance obligation.
@@ -71,7 +72,8 @@ We're still in a technical discovery phase, but our plan is:
 
 #### Team Members
 <details>
- 
+ - OCTO PO: Marci McGuire
+ - OCTO UX Lead: Robyn Singleton
  - PM: David Koger
  - Engineering: Kevin Duensing
  - Research/Design: Cara Frissell / Sara Sterkenburg
