@@ -158,9 +158,10 @@ Notes:
 ### Design
 
 ## <a name="travel-pay"></a>Travel Pay
+Nothing at this time
 
 ## <a name="supplies"></a>Medical supply re-ordering
-  Nothing
+Nothing at this time
 
 ## <a name="1010"></a>10-10EZR Form
 Existing notifications
@@ -168,8 +169,9 @@ Existing notifications
 |--------------|---------|---------|----------|---------|-------|------|
 |Your update (submission) failed| VA Notify | User tries to update their 10-10EZR form and the update fails | Email| N/A | No (automatic) | --|
 
-
 ## <a name="co-pay"></a>Medical co-pays and billing
-Is this a profile question?
-Maybe ask Ryan T. / VAHB  - interested in this too
-Payments team - Robyn thinks they were working on putting payments information on VA.gov (Denise Cuveyduc)
+
+Existing notifications:
+| Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
+|--------------|---------|---------|----------|---------|-------|------|
+|[Currently DISABLED] New co-pay is established| VA Notify | ? | Email| N/A | No (automatic) | Per Denise Cuveyduc, this notification was causing problems & is currently disabled while the team works out issues with clear statuses. Timeline is currently unknown.|
