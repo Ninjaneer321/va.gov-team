@@ -129,7 +129,7 @@ tags:
 
 This study is a User Acceptance Test (UAT) for the VA mobile app’s Overpayments experience. The goal of this UAT is to confirm that the Overpayments feature is ready for production release by validating that the experience works as intended for Veterans using real account data in a pre-release build of the app.
 
-Benefit overpayment debt can occur when a Veteran receives more compensation than they are entitled to at a given time. The Veterans Benefits Administration (VBA) manages this debt. Examples include changes to dependent status (e.g. after a divorce a divorce) and receiving education benefits for a class and then dropping the class.
+Benefit overpayment debt can occur when a Veteran receives more compensation than they are entitled to at a given time. The Veterans Benefits Administration (VBA) manages this debt. Examples include changes to dependent status (e.g., after a divorce a divorce) and receiving education benefits for a class and then dropping the class.
 
 Veterans who have benefit overpayment debt can currently access overpayment information through the authenticated experience on VA.gov. The VA mobile app does not currently provide debt-related information or actions. This release introduces Overpayments as the first debt capability in the mobile app (Copays will be released separately at a later date).
 
@@ -139,7 +139,7 @@ The mobile app does not have any debt-related information for Veterans to access
   
 `Where is your product situated on the VA Mobile App?`
 
-In the authenticated section of VA Mobile App, added to the existing "Payments" tab.
+In the authenticated section of the VA Mobile App, added to the existing "Payments" tab.
   
 `What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
@@ -173,7 +173,7 @@ Are there moments that matter?
 
 The purpose of this User Acceptance Testing (UAT) study is to verify that all elements of the Overpayments functionality operate as intended for Veterans using real data. Unlike usability testing, UAT focuses on confirming that features work as expected, rather than on users’ ability to find or discover them.
 
-Specifically, this study will validate that end users can successfully view, manage, and resolve overpayments using the app, meeting all criteria outlined in the defined user paths.
+Specifically, this study will validate that Veterans can successfully view, manage, and resolve overpayments using the app, meeting all criteria outlined in the defined user paths.
 
   
 ### Outcome
@@ -300,9 +300,9 @@ Screener question 1
 
 * Do you currently owe any of the following types of VA debt? If so, please select all that apply.
     * Medical debt [DISQUALIFY IF THIS IS THE ONLY SELECTION]
-	* Post-9/11 GI Bill overpayment (books and supplies, housing, or tuition)
+    * Post-9/11 GI Bill overpayment (books and supplies, housing, or tuition)
     * Disability compensation and pension overpayment
-    * Education Ch 33-Ch1606/Ch30 Kickers
+    * Education Ch 33-Ch 1606/Ch30 Kickers
     * Chapter 34 education overpayment
     * Chapter 35 education overpayment
     * I do not currently owe any of the above types of VA debt. [DISQUALIFY]
@@ -314,7 +314,7 @@ Screener question 2
     * No, I don’t see any overpayment debt details on VA.gov [DISQUALIFY]
     * I don’t have a VA.gov account / I can’t sign in right now [DISQUALIFY]
 
-    _NOTE: please make sure the link in question 2 is included in the invitation_
+    _NOTE: Please make sure the link in question 2 is included in the invitation_
 
 Screener question 3
 
