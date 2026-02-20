@@ -102,7 +102,7 @@ First, I'd like you share your screen.
 _References_:
 - [Screen sharing iOS](https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share)
     - Swipe moderator's video off to the side
-- [Screen sharing Androi](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)
+- [Screen sharing Android](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)
     - Swipe moderator's video off to the side
     - Select Zoom from Permissions - “Display over other apps permission”, then go back to Zoom
 - App install link for iOS (TestFlight) 🚧
