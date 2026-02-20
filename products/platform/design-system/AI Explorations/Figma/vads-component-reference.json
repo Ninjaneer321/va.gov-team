@@ -1,0 +1,219 @@
+{
+  "generatedDate": "2026-02-19",
+  "totalComponents": 68,
+  "note": "Complete VA Design System web component reference with all props for Figma-to-code alignment. For live component data with full details, use: mcp_vads_get_component(tag)",
+  
+  "quickReference": {
+    "maturityLevels": {
+      "use": "Production-ready components with stable APIs",
+      "caution": "Available but may have breaking changes",
+      "dont_use": "Deprecated - do not use in new projects"
+    },
+    "propConventions": {
+      "attr": "HTML attribute name (kebab-case)",
+      "name": "JavaScript property name (camelCase)",  
+      "type": "TypeScript type definition",
+      "default": "Default value if not specified",
+      "required": "Boolean - whether prop is required"
+    }
+  },
+
+  "componentsByCategory": {
+    "Form Inputs": [
+      {"tag": "va-text-input", "name": "Text input", "maturity": "use", "requiredProps": ["label"], "keyProps": ["name", "value", "required", "error", "hint", "type", "inputmode"]},
+      {"tag": "va-select", "name": "Select", "maturity": "use", "requiredProps": ["label", "name"], "keyProps": ["value", "required", "error", "hint"]},
+      {"tag": "va-textarea", "name": "Textarea", "maturity": "use", "requiredProps": [], "keyProps": ["label", "name", "value", "required", "error", "hint", "maxlength", "charcount"]},
+      {"tag": "va-checkbox", "name": "Checkbox", "maturity": "use", "requiredProps": ["label"], "keyProps": ["name", "checked", "error", "hint", "required"]},
+      {"tag": "va-checkbox-group", "name": "Checkbox group", "maturity": "use", "requiredProps": ["label"], "keyProps": ["error", "hint", "required"]},
+      {"tag": "va-radio", "name": "Radio button", "maturity": "use", "requiredProps": ["label"], "keyProps": ["error", "hint", "required"]},
+      {"tag": "va-date", "name": "Date input", "maturity": "use", "requiredProps": ["label", "name"], "keyProps": ["value", "required", "error", "hint", "month-year-only"]},
+      {"tag": "va-memorable-date", "name": "Memorable date", "maturity": "use", "requiredProps": ["label", "name"], "keyProps": ["value", "required", "error", "hint", "month-select"]},
+      {"tag": "va-file-input", "name": "File input", "maturity": "caution", "requiredProps": [], "keyProps": ["label", "name", "accept", "required", "error", "hint"]},
+      {"tag": "va-search-input", "name": "Search input", "maturity": "use", "requiredProps": [], "keyProps": ["label", "value", "suggestions"]},
+      {"tag": "va-combo-box", "name": "Combo Box", "maturity": "caution", "requiredProps": ["label", "name"], "keyProps": ["value", "disabled", "error", "placeholder"]},
+      {"tag": "va-telephone-input", "name": "Telephone Input", "maturity": "caution", "requiredProps": [], "keyProps": ["contact", "country", "error", "hint", "label", "required"]}
+    ],
+
+    "Buttons & Actions": [
+      {"tag": "va-button", "name": "Button", "maturity": "use", "requiredProps": [], "keyProps": ["text", "secondary", "disabled", "submit", "continue", "back", "loading", "primary-alternate"]},
+      {"tag": "va-button-pair", "name": "Button pair", "maturity": "use", "requiredProps": [], "keyProps": ["continue", "update", "submit"]},
+      {"tag": "va-link", "name": "Link", "maturity": "use", "requiredProps": ["href", "text"], "keyProps": ["active", "channel", "download", "external", "back"]},
+      {"tag": "va-link-action", "name": "Link - Action", "maturity": "use", "requiredProps": ["href", "text"], "keyProps": ["type"]},
+      {"tag": "va-button-icon", "name": "Button - Icon", "maturity": "caution", "requiredProps": ["button-type", "label"], "keyProps": ["disable-analytics"]},
+      {"tag": "va-critical-action", "name": "Critical Action", "maturity": "caution", "requiredProps": ["text", "link"], "keyProps": []}
+    ],
+
+    "Alerts & Notifications": [
+      {"tag": "va-alert", "name": "Alert", "maturity": "use", "requiredProps": [], "keyProps": ["status", "visible", "closeable", "headline", "slim", "show-icon"]},
+      {"tag": "va-alert-expandable", "name": "Alert - expandable", "maturity": "use", "requiredProps": ["trigger"], "keyProps": ["status", "closeable"]},
+      {"tag": "va-banner", "name": "Banner", "maturity": "use", "requiredProps": [], "keyProps": ["headline", "type", "show-close", "visible"]},
+      {"tag": "va-maintenance-banner", "name": "Banner - Maintenance", "maturity": "use", "requiredProps": ["banner-id", "maintenance-start-date-time", "maintenance-end-date-time"], "keyProps": ["warn-start-date-time", "maintenance-title", "warn-title"]},
+      {"tag": "va-alert-sign-in", "name": "Alert - Sign-in", "maturity": "caution", "requiredProps": [], "keyProps": ["variant", "visible", "time-limit", "no-sign-in-link"]}
+    ],
+
+    "Layout & Navigation": [
+      {"tag": "va-breadcrumbs", "name": "Breadcrumbs", "maturity": "use", "requiredProps": [], "keyProps": ["breadcrumb-list", "label", "home-veterans-affairs", "wrapping"]},
+      {"tag": "va-accordion", "name": "Accordion", "maturity": "use", "requiredProps": [], "keyProps": ["bordered", "open-single", "uswds"]},
+      {"tag": "va-modal", "name": "Modal", "maturity": "use", "requiredProps": [], "keyProps": ["visible", "modal-title", "status", "large", "initial-focus-selector"]},
+      {"tag": "va-tabs", "name": "Tabs", "maturity": "caution", "requiredProps": [], "keyProps": ["initially-selected", "label"]},
+      {"tag": "va-sidenav", "name": "Side Navigation", "maturity": "caution", "requiredProps": [], "keyProps": ["header", "icon-name", "icon-background-color"]},
+      {"tag": "va-on-this-page", "name": "On this page", "maturity": "use", "requiredProps": [], "keyProps": ["header-level"]}
+    ],
+
+    "Progress & Loading": [
+      {"tag": "va-segmented-progress-bar", "name": "Progress bar - segmented", "maturity": "use", "requiredProps": ["current", "total"], "keyProps": ["label", "labels", "counters", "heading-text", "enable-analytics"]},
+      {"tag": "va-progress-bar", "name": "Progress bar - activity", "maturity": "use", "requiredProps": ["percent"], "keyProps": ["label", "no-percent-screen-reader", "enable-analytics"]},
+      {"tag": "va-loading-indicator", "name": "Loading indicator", "maturity": "use", "requiredProps": [], "keyProps": ["message", "label", "set-focus"]}
+    ],
+
+    "Lists & Tables": [
+      {"tag": "va-process-list", "name": "Process list", "maturity": "use", "requiredProps": [], "keyProps": []},
+      {"tag": "va-table", "name": "Table", "maturity": "caution", "requiredProps": [], "keyProps": ["sortable", "stacked", "striped", "scrollable", "full-width", "table-title"]},
+      {"tag": "va-table-inner", "name": "Table", "maturity": "use", "requiredProps": [], "keyProps": ["sortable", "stacked", "striped", "scrollable", "full-width", "table-title"]},
+      {"tag": "va-pagination", "name": "Pagination", "maturity": "use", "requiredProps": ["page", "pages"], "keyProps": ["max-page-list-length", "show-last-page", "unbounded"]}
+    ],
+
+    "Content Display": [
+      {"tag": "va-card", "name": "Card", "maturity": "use", "requiredProps": [], "keyProps": ["background", "icon-name", "show-shadow"]},
+      {"tag": "va-summary-box", "name": "Summary box", "maturity": "use", "requiredProps": [], "keyProps": []},
+      {"tag": "va-additional-info", "name": "Additional info", "maturity": "use", "requiredProps": ["trigger"], "keyProps": ["disable-border"]},
+      {"tag": "va-tag-status", "name": "Tag - Status", "maturity": "caution", "requiredProps": ["text"], "keyProps": ["status", "screen-reader-text"]},
+      {"tag": "va-icon", "name": "Icon", "maturity": "caution", "requiredProps": ["icon"], "keyProps": ["size", "srtext", "sprite-location"]}
+    ],
+
+    "Headers & Footers": [
+      {"tag": "va-header-minimal", "name": "Header - Minimal", "maturity": "caution", "requiredProps": ["header"], "keyProps": ["subheader"]},
+      {"tag": "va-minimal-footer", "name": "Minimal Footer", "maturity": "caution", "requiredProps": [], "keyProps": []},
+      {"tag": "va-official-gov-banner", "name": "Banner - Official Gov", "maturity": "use", "requiredProps": [], "keyProps": ["tld"]},
+      {"tag": "va-back-to-top", "name": "Back to top", "maturity": "use", "requiredProps": [], "keyProps": []},
+      {"tag": "va-need-help", "name": "Need help?", "maturity": "use", "requiredProps": [], "keyProps": []}
+    ],
+
+    "Form Specialty": [
+      {"tag": "va-omb-info", "name": "OMB info", "maturity": "use", "requiredProps": ["exp-date"], "keyProps": ["omb-number", "res-burden", "benefit-type"]},
+      {"tag": "va-statement-of-truth", "name": "Statement of truth", "maturity": "use", "requiredProps": [], "keyProps": ["checked", "checkbox-error", "input-error", "checkbox-label", "full-name-label"]},
+      {"tag": "va-privacy-agreement", "name": "Privacy agreement", "maturity": "use", "requiredProps": [], "keyProps": ["checked", "show-error"]},
+      {"tag": "va-telephone", "name": "Telephone", "maturity": "use", "requiredProps": ["contact"], "keyProps": ["extension", "international", "tty", "sms"]}
+    ],
+
+    "Sub-Components": [
+      {"tag": "va-accordion-item", "name": "accordion-item", "maturity": "", "requiredProps": [], "keyProps": ["header", "subheader", "level", "open", "bordered"]},
+      {"tag": "va-process-list-item", "name": "process-list-item", "maturity": "", "requiredProps": [], "keyProps": ["header", "level", "active", "checkmark", "pending"]},
+      {"tag": "va-radio-option", "name": "radio-option", "maturity": "", "requiredProps": ["label", "name", "value"], "keyProps": ["checked", "description", "disabled", "tile"]},
+      {"tag": "va-tab-item", "name": "tab-item", "maturity": "", "requiredProps": ["button-text", "target-id"], "keyProps": ["selected"]},
+      {"tag": "va-tab-panel", "name": "tab-panel", "maturity": "", "requiredProps": ["panel-id"], "keyProps": ["selected"]},
+      {"tag": "va-table-row", "name": "table-row", "maturity": "", "requiredProps": [], "keyProps": []},
+      {"tag": "va-sidenav-item", "name": "sidenav-item", "maturity": "", "requiredProps": ["href", "label"], "keyProps": ["current-page", "router-link"]},
+      {"tag": "va-sidenav-submenu", "name": "sidenav-submenu", "maturity": "", "requiredProps": ["label"], "keyProps": ["href", "current-page", "router-link"]}
+    ],
+
+    "Specialized/Advanced": [
+      {"tag": "va-file-input-multiple", "name": "File input multiple", "maturity": "caution", "requiredProps": [], "keyProps": ["label", "name", "accept", "required", "error", "errors", "uploaded-files"]},
+      {"tag": "va-button-segmented", "name": "Button Segmented", "maturity": "caution", "requiredProps": [], "keyProps": ["buttons", "selected"]},
+      {"tag": "va-card-status", "name": "Card Status", "maturity": "caution", "requiredProps": ["required"], "keyProps": ["header-text", "subheader-text", "link-href", "tag-status"]},
+      {"tag": "va-crisis-line-modal", "name": "Crisis Line Modal", "maturity": "caution", "requiredProps": [], "keyProps": ["phone-number", "tty-number", "text-number", "chat-url", "mode"]},
+      {"tag": "va-language-toggle", "name": "Language Toggle", "maturity": "caution", "requiredProps": ["en-href"], "keyProps": ["es-href", "tl-href", "language", "router-links"]},
+      {"tag": "va-search-filter", "name": "Search Filter", "maturity": "caution", "requiredProps": [], "keyProps": ["filter-options", "header"]},
+      {"tag": "va-service-list-item", "name": "Service List Item", "maturity": "caution", "requiredProps": [], "keyProps": ["service-name", "service-link", "service-details", "action", "icon"]}
+    ],
+
+    "Deprecated": [
+      {"tag": "va-notification", "name": "Notification", "maturity": "dont_use", "note": "Use va-alert instead"},
+      {"tag": "va-promo-banner", "name": "Banner - Promo", "maturity": "dont_use", "note": "Deprecated component"}
+    ]
+  },
+
+  "allComponentsAlphabetical": [
+    "va-accordion",
+    "va-accordion-item",
+    "va-additional-info",
+    "va-alert",
+    "va-alert-expandable",
+    "va-alert-sign-in",
+    "va-back-to-top",
+    "va-banner",
+    "va-breadcrumbs",
+    "va-button",
+    "va-button-icon",
+    "va-button-pair",
+    "va-button-segmented",
+    "va-card",
+    "va-card-status",
+    "va-checkbox",
+    "va-checkbox-group",
+    "va-combo-box",
+    "va-crisis-line-modal",
+    "va-critical-action",
+    "va-date",
+    "va-file-input",
+    "va-file-input-multiple",
+    "va-header-minimal",
+    "va-icon",
+    "va-language-toggle",
+    "va-link",
+    "va-link-action",
+    "va-loading-indicator",
+    "va-maintenance-banner",
+    "va-memorable-date",
+    "va-minimal-footer",
+    "va-modal",
+    "va-need-help",
+    "va-notification",
+    "va-official-gov-banner",
+    "va-omb-info",
+    "va-on-this-page",
+    "va-pagination",
+    "va-privacy-agreement",
+    "va-process-list",
+    "va-process-list-item",
+    "va-progress-bar",
+    "va-promo-banner",
+    "va-radio",
+    "va-radio-option",
+    "va-search-filter",
+    "va-search-input",
+    "va-segmented-progress-bar",
+    "va-select",
+    "va-service-list-item",
+    "va-sidenav",
+    "va-sidenav-item",
+    "va-sidenav-submenu",
+    "va-statement-of-truth",
+    "va-summary-box",
+    "va-tab-item",
+    "va-tab-panel",
+    "va-table",
+    "va-table-inner",
+    "va-table-row",
+    "va-tabs",
+    "va-tag-status",
+    "va-telephone",
+    "va-telephone-input",
+    "va-text-input",
+    "va-textarea"
+  ],
+
+  "figmaAlignmentGuide": {
+    "description": "Quick reference for mapping Figma components to VADS web components",
+    "commonMappings": {
+      "Input - Text": "va-text-input",
+      "Dropdown / Select": "va-select",
+      "Text Area": "va-textarea",
+      "Checkbox": "va-checkbox or va-checkbox-group",
+      "Radio Button": "va-radio",
+      "Date Picker": "va-date or va-memorable-date",
+      "Button - Primary": "va-button",
+      "Button - Secondary": "va-button with secondary prop",
+      "Button Pair (Continue/Back)": "va-button-pair",
+      "Link": "va-link",
+      "Alert / Notification": "va-alert",
+      "Modal / Dialog": "va-modal",
+      "Accordion": "va-accordion with va-accordion-item children",
+      "Progress Bar (Steps)": "va-segmented-progress-bar",
+      "Card": "va-card",
+      "Breadcrumb": "va-breadcrumbs",
+      "Table": "va-table or va-table-inner"
+    },
+    "lookupProcess": "1. Identify Figma component name, 2. Check commonMappings, 3. Use mcp_vads_get_component(tag) for full props"
+  }
+}
