@@ -219,6 +219,7 @@ I'm now going to help you return your phone to the way it was.
 
 <details>
 <summary>Android guidelines🤖</summary>
+
 - Uninstall the VA app
     - _[option 1]_ Go to your home screen and fine the app icon. Long press and drag up to the top to Uninstall.
     - _[option 2]_ Go to your home screen and fine the app icon. Long press and tap App info. Tap Uninstall.
@@ -236,6 +237,7 @@ I'm now going to help you return your phone to the way it was.
 
 <details>
 <summary>iOS guidelines🍎</summary>
+
 - Reinstall public version of the VA app
     - Open the app store to find the app. This will install over the beta version
 - Uninstall TestFlight
