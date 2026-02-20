@@ -7,7 +7,7 @@
 
 ### General comments & questions
 - Is it suspect that some of our SLO metrics returning 100% uptime/availability?
-     - Not a usual occurrence
+     - Per Steve M: This is not a usual occurrence
 - Utilization
      - Percentage of requests vs total request capacity as gathered by our application web servers (puma).
      - How should this be calculated?
