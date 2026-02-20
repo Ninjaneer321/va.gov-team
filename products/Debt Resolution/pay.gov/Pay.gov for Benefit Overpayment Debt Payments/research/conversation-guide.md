@@ -50,12 +50,6 @@ consent_for_clips: true
 > [!NOTE]
 > Review VA Platform's [Research Checklist](https://depo-platform-documentation.scrollhelp.site/research-design/research-checklist).
 
-`List and complete any project-specific setup tasks for this study below:`
-
-- [ ] Step 1
-- [ ] Step 2
-- [ ] Step 3
-
 ### Day of the session
 
 > [!TIP]
@@ -136,12 +130,6 @@ consent_for_clips: true
 * Think about a recent payment you made that felt easier \- maybe a bill to your bank, credit card company, or another organization.  
   * Tell me about that experience. What made it easier than the VA?
 
-* Let me ask you a bit about how you manage your finances in general. How do you track and manage your finances?  
-  * What information matters most for you when you’re paying bills?  
-  * Do you use any apps, spreadsheets, or tools?  
-  * How do you make sure you have enough money in your account when payments are due?  
-  * What information do you need to feel confident making a payment?
-
 * Have you ever been on a payment plan with the VA?  
   * Tell me about that experience. How did you set it up?  
   * How did you decide on the amount and timeline?  
@@ -161,6 +149,12 @@ consent_for_clips: true
 * Have you ever considered setting up automatic payments for any of your debts?  
   * \[IF YES\] What made you decide to set that up? How did you go about setting that up?  
   * \[IF NO\] What made you decide against it?
+ 
+* Let me ask you a bit about how you manage your finances in general. How do you track and manage your finances?  
+  * What information matters most for you when you’re paying bills?  
+  * Do you use any apps, spreadsheets, or tools?  
+  * How do you make sure you have enough money in your account when payments are due?  
+  * What information do you need to feel confident making a payment?
 
 # Prototype section (30 min)
 
