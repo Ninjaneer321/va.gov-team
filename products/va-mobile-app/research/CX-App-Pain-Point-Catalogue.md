@@ -9,7 +9,7 @@
 
 ---
 
-| Rank | Pain Point | Severity | Trending/Frequency | Users Impacted | Legal/Risk | Description | Evidence | Key Mitigation | Status |
+| Rank | Pain Point | Severity | Trending/Frequency | Users Impacted | Legal/Risk | Evidence | Key Mitigation | Status |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | As a Veteran, I want to sign on easily to the mobile app, but I am blocked by login and authentication issues. | High | Frequently reported by large number of users with negative feedback | All users | Potential disparity for Android users — higher instance of sign-in issues could be construed as discriminatory | | | Requires further investigation (engineering/data analytics) to identify root causes of latency and authentication failures; likely multiple mitigations needed | |
 | 2 | As a Veteran, I want to have detailed information about my appointments so I can adequately prepare for them, but I am blocked by not having enough appointment details such as provider name or the issue I am scheduled to be seen for. | Medium | | Majority of users (not all app users have appointments) | | | | | |
