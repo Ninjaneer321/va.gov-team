@@ -185,7 +185,9 @@ Findings from this research will confirm whether the Overpayments functionality 
 
 <details>
 <summary>Click to view UAT Success Criteria Table</summary>
-	
+
+Also available in [Excel spreadsheet](https://dvagov.sharepoint.com/:x:/s/vamobilefeaturesupport/IQB1m_Jp5sGuTKHALblAGsyPAVh-tVxfvvirz_dKytoIFT8?e=v9Wtbm)
+
 | Category | Screen | Activity | Success |
 | :--- | :--- | :--- | :--- |
 | Elements on home | Home | See the number of overpayments on home screen | Activity card "Overpayments" shows "n overpayments" where "n" is the quantity of current overpayment debts |
