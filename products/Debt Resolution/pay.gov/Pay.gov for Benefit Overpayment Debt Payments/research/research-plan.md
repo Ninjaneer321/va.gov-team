@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Research Plan for Financial Management, Pay.gov for Benefit Overpayment Debt Payments, 2026-02-12"
 date: 2026-02-12
-last_updated: 2026-02-19
+last_updated: 2026-02-20
 team: "Financial Management"
 product: "Pay.gov for Benefit Overpayment Debt Payments"
 product_area: "authenticated"
@@ -528,8 +528,8 @@ Screener question 8
 > [!NOTE]
 > **Send pilot participant email in study Slack channel**
 
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- `Pilot participant name:` **Robin Garrison**
+- `Date and time of pilot session:` **Tuesday, February 24, 12-1:15pm ET** 
 
 ### Research sessions
 - `Planned dates of research:` **3/2/26-3/23/26**
