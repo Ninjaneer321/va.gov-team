@@ -417,6 +417,12 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026.*
    - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
 
+1. **Consider prefilling the Veteran's name, address, and other information** after they've signed in. --> *Is this being worked on?*
+     - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing had the same expectation.
+
+1. **Standardize whether the word "optional" will be always or never be shown**, and be consistent about it.
+   - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "optional", such as "VA file number".
+
 1. **On the form intro page, consider making the form number under the heading easier to notice**. See if the form number shown under the heading could be forced to display on a single line.
    - _Supporting evidence_: One participant didn't notice the form number below the big "Request personal records" heading, perhaps because it was split across two vertical lines: (1) **(VA Form 20-**, and (2) **10206**. 
 
@@ -443,12 +449,6 @@ Eight participants said they wanted to be able to delete a form they started but
 
 
 ### For the Request Personal Records form
-
-1. **Consider prefilling the Veteran's name, address, and other information** after they've signed in. --> *Is this being worked on?*
-     - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing had the same expectation.
-
-1. **Standardize whether the word "optional" will be always or never be shown**, and be consistent about it.
-   - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "optional", such as "VA file number".
 
 1. **Consider revising the "Your full name" prompt on the "Review and submit" page** to include a reference to what you entered before: "Your name as entered previously", **and also consider changing the "Middle initial" prompt to "Middle name"**.
    - _Supporting evidence_: Participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as asked for earlier.
