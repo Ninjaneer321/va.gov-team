@@ -57,15 +57,15 @@ Thank you so much for joining today. My name is Emily, and [NAME] here will be t
 
 I want to review a few things to make sure you're okay with what will happen in this session
 
-* You indicated that you have a current overpayment debt. 
+* You indicated that you have a current overpayment debt. _[reference type of debt they selected in screener]_
     * Can you briefly tell me about it?
     * Are you able to see the details of this debt when you log in to your VA account on the website?
 
 _[NOTE] Potential ending spot if it's clear they do not have a current overpayment_
 
 * Today, we’re testing a pre-release version of the VA app specifically to check the Debt Portal before it's released to the public. We want to make sure that every button you press results in the correct information being shown on screens.
-    * This is why we need to see real account data from Veterans
-    * Nothing you do here will affect your VA benefits in any way. 
+    * Are you okay with logging in with your real username and password for this test?
+    * Nothing you do here will affect your VA benefits in any way. We also not going to be doing anythat that will affect your overpayments.
     * I'll be asking you to share your screen which will show your personal debt records. 
         * Are you okay with sharing your screen with us?
     * If you would like to stop the session or do not want to show us something at any time, that's no problem. Please let me know.
@@ -99,9 +99,14 @@ Start recording.
 
 First, I'd like you share your screen.
 
-References:
-- Link for iOS 🚧
-- Link for TestFlight 🚧
+_References_:
+- [Screen sharing iOS](https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share)
+    - Swipe moderator's video off to the side
+- [Screen sharing Androi](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)
+    - Swipe moderator's video off to the side
+    - Select Zoom from Permissions - “Display over other apps permission”, then go back to Zoom
+- App install link for iOS (TestFlight) 🚧
+- App install link for Android (Firebase) 🚧
 - [iOS directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md) for guiding them through the download and set-up
 - [Android directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_android.md) for guiding them through the download and set-up
 
