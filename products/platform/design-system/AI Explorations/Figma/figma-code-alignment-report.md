@@ -10,6 +10,7 @@
 - [Checkbox Group](#5-CheckboxGroup)
 - [Radio Group](#6-RadioGroup)
 - [Progress Bar Segmented](#7-ProgressBarSegmented)
+- [Icon](#8-Icon)
 
 ---
 
@@ -170,6 +171,49 @@
 
 ---
 
+## 8. Icon
+
+**Web Component:** `va-icon`  
+**Maturity:** ⚠️ Caution (may have breaking changes)
+
+### ⚠️ Figma Component Not Yet Extracted
+
+4. **Icon:** Not extracted from Figma yet - `icon` prop is required
+The Icon component has not been extracted from the Figma library yet. Below are the web component requirements:
+
+### 📋 Web Component Props (va-icon)
+
+**Required:**
+- `icon` **(required)** - Icon name from the icon library
+
+**Optional:**
+- `size` - Icon size (1-9, or specific pixel values)
+- `srtext` - Screen reader text for accessibility
+- `sprite-location` - Custom sprite sheet location
+
+### 🔍 What to Look For When Extracting from Figma
+
+When you extract the Icon component from Figma, check for these properties:
+
+1. **Icon name/type** - Should map to `icon` prop (required)
+2. **Size variants** - Should map to `size` prop
+3. **Accessibility text** - Should map to `srtext` prop
+4. **Color variants** - May need CSS custom properties
+5. **Decorative vs semantic** - Affects whether `srtext` is needed
+
+### 📝 Expected Alignment Issues
+
+- Icon names in Figma may not match web component icon names exactly
+- Figma may use visual variants where code uses different icon names
+- Screen reader text (`srtext`) likely won't be in Figma properties
+- Custom sprite locations won't be designer-specified
+
+### 💡 Recommendation
+
+See the detailed Icon analysis above. Icons require a name mapping table between Figma component names and va-icon icon names for effective Code Connect implementation.
+
+---
+
 ## Summary: Critical Gaps
 
 ### 🔴 High Priority - Missing Required Props in Figma
@@ -177,6 +221,7 @@
 1. **Link:** Missing `href` (required)
 2. **TextInput:** Missing `name` (needed for forms)
 3. **CheckboxGroup:** Missing `name` and `value` per checkbox (required)
+4. **Icon:** Architectural mismatch - requires icon name mapping table
 
 ### 🟡 Medium Priority - Missing Common Props
 
@@ -184,12 +229,17 @@
 2. **Button:** Missing `continue`, `back`, `submit` form navigation props
 3. **RadioGroup:** Missing `checked`, `description`, `disabled`, `tile`
 4. **TextInput:** Missing `type` and `inputmode`
+5. **Icon:** Missing `srtext` (accessibility text must be dev-specified)
 
 ### 🟢 Well Aligned
 
 - **ProgressBarSegmented:** 💯 Near perfect alignment (8/8 core props mapped)
 - **RadioGroup:** 90% aligned, just missing optional props
 - **CheckboxGroup:** 85% aligned, missing form-critical props
+
+### ⚠️ Architectural Challenge
+
+- **Icon:** Fundamental difference in approach - Figma uses discrete components per icon, code uses single parameterized component
 
 ---
 
@@ -347,11 +397,18 @@ Code Connect will auto-generate most props, but you'll need to:
 
 ### Phase 3: Needs Design System Work
 - **Link** - Add `href` to Figma library first (critical!)
+- **Icon** - Build icon name mapping table, create generic icon mapper Code Connect
 - Consider creating specialized variants (Button/Continue, Button/Back, etc.)
+
+### Phase 4: Architectural Solutions
+- **Icon Library** - Create and maintain canonical mapping between Figma icon component names and va-icon icon names
+- Consider Figma plugin to help designers see va-icon prop values for selected icons
+- Document icon name conventions for designers
 
 ### Long-term: Maintain Alignment
 - **Regular audits** when new component props are added to web components
 - **Update Code Connect mappings** when Figma properties change
+- **Update icon mapping table** when new icons are added to either system
 - **Version both systems together** to prevent drift
 
 ## Alignment Score by Component
@@ -365,5 +422,8 @@ Code Connect will auto-generate most props, but you'll need to:
 | TextInput | 75% | `name`, `type`, `inputmode` |
 | Accordion | 70% | Icon properties |
 | Link | 65% | `href` (required!) |
+| Icon | 40% ⚠️ | Architectural mismatch - requires name mapping table |
 
-**Overall Average:** 80% aligned
+**Overall Average:** 75% aligned across 8 components
+
+**Note:** Icon component scored lower due to fundamental architectural differences between Figma (discrete icon components) and code (single parameterized component). This requires a different Code Connect approach focused on icon name mapping rather than property translation.
