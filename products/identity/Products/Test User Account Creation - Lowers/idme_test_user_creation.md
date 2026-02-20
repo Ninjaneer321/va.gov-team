@@ -1,44 +1,56 @@
 # ID.me test account creation guide
 Follow these step-by-step instructions to create an ID.me account for development and testing in lower environments on VA.gov. For more details on ID.me user account creation functions and the ID.me sandbox environment see the [ID.me test credentials documentation](https://developers.id.me/documentation/deploy-and-monitor/quality-assurance-testing/best-practice).
 
-## Standard ID.me account creation flow
-1. Navigate to https://dev.va.gov or https://staging.va.gov and click the **Sign in button** to open the sign-in modal and select **ID.me**.
-2. On the ID.me sign in page click Create an ID.me account to be taken to the ID.me account registration page. Enter a [test email address](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/ask-va/testing/How%20to%20create%20test%20user%20accounts.md) you wish to use. ID.me will email that address with a link to confirm your account.
+### Step-by-Step Instructions
 
-   <img width="709" height="916" alt="enter_email" src="https://github.com/user-attachments/assets/46c98769-44fd-42f3-bff8-cb624685d7b4" />
-3. Click the link in the email ID.me sends or copy over the code contained in it to your original ID.me window to complete the email proofing process, then proceed to setting up your multifactor authentication (MFA). You also have the option of forgoing adding a MFA method at this point, but will be forced to add it if you wish to verify your account later.
+#### 1\. Start the Sign-Up Process
 
-> [!NOTE]  
-> Unlike Login.gov, ID.me mocks its MFA during authentication, meaning you won't need to actually use your MFA method. Therefore the easiest MFA method to add is a phone number. ID.me runs a basic validation to ensure it appears as a valid US-based phone number, but beyond that does not validate or attempt to contact it for lower environment MFA purposes.
+* Navigate to [https://staging.va.gov](https://staging.va.gov) or [https://dev.va.gov](https://dev.va.gov) in your web browser.  
+* Click the **Sign in** button in the top-right corner.  
+* From the pop-up modal, click the sign in with [**ID.me**](http://ID.me) button.
 
-   <img width="1086" height="811" alt="fake_phone_2fa" src="https://github.com/user-attachments/assets/5b1d20b0-7eb9-45f3-9a66-47823f8dd956" />
-    
-   <img width="1086" height="811" alt="confirm_2fa" src="https://github.com/user-attachments/assets/41d959af-7818-4302-a1e5-3edf74a50a40" />
+#### 2\. Create the Basic ID.me Account
 
-4. You will be directed back to VA.gov with an unverified account. Click the **Verify with ID.me button** to return back to ID.me to complete your account verification. You'll re-enter your email and password. If you have not already set up a MFA method, you'll create one now to continue.
+* On the "Sign in to ID.me" page, click the **Create an account** link.  
+* Enter your test email address, must be distinct from previously created test account email addresses, and a password.  
+* Check the box to accept the ID.me Terms of Service and Privacy Policy.  
+* Click **Create account**.  
+* On the "Confirm your email address" page, click the yellow "\!\!\! For testing purposes only \!\!\!" button labeled **Complete confirmation**. This bypasses the need to check your email.
 
-   <img width="1080" height="651" alt="verify_identity" src="https://github.com/user-attachments/assets/42c314b9-9f3b-43b8-9661-b161b08b5845" />
-    
-5. ID.me will then ask to verify your identity via identity documents - no analysis will be performed and you do not need to submit actual identification. Select option #2 **Upload photos (do not use a real ID)**. 
+#### 3\. Set Up Multi-Factor Authentication (MFA)
 
-    <img width="1077" height="894" alt="verify_identity_documents" src="https://github.com/user-attachments/assets/0bfd826f-ff44-4173-8a94-177d86810957" />
-6. ID.me will request to send a link to your phone to upload the documents from; accept this request then click on the **Upload form (testing only)** link at the bottom of the followup page to be taken to the ID.me lowers identify verification page.
+* On the "Secure Your Account" page, click **Set up multi-factor authentication**.  
+* Enter any valid-format 10-digit phone number (e.g., `123-222-5555`). The phone number does not need to be real.  
+* Click **Continue**.  
+* A 6-digit code will be pre-filled for you. Click **Continue**.  
+* On the "Your account is now secure" page, click **Continue**.
 
-    <img width="666" height="871" alt="identity_verification_confirmation" src="https://github.com/user-attachments/assets/754f78cf-ebdf-4dc4-8e4b-7a983cfd72bc" />
-7. ID.me will request you submit images of the front and back of your photo ID. It will accept any uploads, and it will not attempt to validate them.
+#### 4\. Begin Identity Verification
 
-   <img width="740" height="1138" alt="photo_ids" src="https://github.com/user-attachments/assets/2914dac4-c3c0-4fca-96ed-ea6e5b5bba68" />
-8. After accepting your document photos you will be asked to enter in a SSN for testing purposes only. 
+* You will be redirected back to `staging.va.gov`. Click the green **Verify with ID.me** button.  
+* You will be sent back to ID.me. On the "Verify Your Identity" page, select **Upload photos of your license or state ID**.  
+* On the "Consent" page, scroll down, check the acknowledgment box, and click **Continue**.
 
-> [!IMPORTANT]  
-> Create a fake SSN; do not enter real PII in this field. ID.me will present `"Veronica Persinger"` test account information to verify.
+#### 5\. Upload Test Documents & Selfie
 
-   <img width="666" height="871" alt="veronica_persinger" src="https://github.com/user-attachments/assets/3fa3122a-d14f-4290-a5a8-56c1c0b697b2" />
-   
-9. After accepting the personal information ID.me will again try to confirm your phone - click the **Verify phone (testing only)** link to open a new tab that will complete the phone verification for you. The original tab will then verify your identity.
+* You will be taken to a page that says "Waiting for your photos". Click the link that says **Upload form (testing only)**.  
+* Confirm your email address by clicking **Yes**.  
+* Click **Start document upload**.  
+* **For the ID Front:** Click **Take photo**, upload a test ID image ([example image that can be used](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/Test%20User%20Account%20Creation%20-%20Lowers/Resources/Ronaldinho-fake-passport-f932.jpg)), and click **Continue**.  
+* **For the ID Back:** Click **Take photo of your driver's license or state ID (BACK)**, upload the same test image ([example image that can be used](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Products/Test%20User%20Account%20Creation%20-%20Lowers/Resources/Ronaldinho-fake-passport-f932.jpg)) again, and click **Continue**.  
+* Click **Submit your photos**.  
+* **For the Selfie:** Click **I'm ready to take a selfie**, click **Take photo**, upload the same test image again, and click **Continue**.
 
-    <img width="666" height="871" alt="final_phone_verification" src="https://github.com/user-attachments/assets/3a44616e-3c3f-4363-bf5c-556b26ac06c7" />
-    
-    <img width="655" height="906" alt="successful_verification" src="https://github.com/user-attachments/assets/593a9ccd-be99-4bd8-b489-a91e8e553950" />
-    
-10. You should then be returned to VA.gov to accept the **VA Terms of Use** and be logged in as a verified LoA3 ID.me user.
+#### 6\. Enter Personal Information
+
+* The system will compare the images. You will then be prompted to enter your Social Security Number. A test SSN is pre-filled. Click **Continue**.  
+* A page will display pre-filled personal information (name, address, etc.). Scroll to the bottom, check the box to accept the Fair Credit Reporting Act terms, and click **Yes**.
+
+#### 7\. Finalize and Authorize
+
+* The system will check your information for authenticity.  
+* On the "Confirming your phone" page, click the link **Verify phone testing only\!**.  
+* Confirm your email address again by clicking **Yes**.  
+* You will be instructed to return to the original browser tab.  
+* On the `staging.va.gov` "Authorize" page, click **Allow**.  
+* You are now logged into `staging.va.gov` with a fully verified test account.
