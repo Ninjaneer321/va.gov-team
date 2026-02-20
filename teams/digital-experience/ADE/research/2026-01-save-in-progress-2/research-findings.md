@@ -319,9 +319,9 @@ Two Veteran participants were frustrated with their AT tools and didn't know tha
 
 ### Finding 7: Most participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted. 
 
-Most participants (6 of 7) assumed that after 60 days, their saved form data would be deleted. **Almost everyone wanted to be notified before that via email and/or text**, with one participant mentioning a notification in the VA mobile app. Most people suggested the first notification should be within 1-7 days of having selected "Finish later", and then once a week after that. 
+Most participants (6 of 7) assumed that after 60 days, their saved form data would be deleted. **Almost everyone wanted to be notified before that via email and/or text**, with one participant suggesting a notification in the VA mobile app. Most people wanted the first notification within 1-7 days of having selected "Finish later", and then once a week after that. 
 
-Eight participants said they asked wanted to be able to delete a form they started but never finished. Reasons provided included finding out that you no longer need to submit that form, you already submitted it, or it was the wrong form. 
+Eight participants said they wanted to be able to delete a form they started but never finished. Reasons provided included finding out that you no longer needed to submit that form, you already submitted it, or it was the wrong form. 
 
 ## Additional Insights -- REORDER, MV SOME INTO FINDINGS SECTION??
 *Include insights that do not represent patterns but are still valuable.*  
