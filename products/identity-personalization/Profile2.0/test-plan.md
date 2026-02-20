@@ -36,9 +36,9 @@ Test cases focus on new or materially changed functionality.
 
 | Email | Password |
 |-------|----------|
-| vets.gov.user+78@gmail.com | 476SsNrLgPv5 |
-| VANCE.IPOACEVEDA@id.me | Passwo1! |
-| judy.morrison@id.me | Password1234! |
+| vets.gov.user+78@gmail.com | redacted |
+| VANCE.IPOACEVEDA@id.me | redacted |
+| judy.morrison@id.me | redacted |
 
 ---
 
