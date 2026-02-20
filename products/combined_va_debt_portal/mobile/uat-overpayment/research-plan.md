@@ -282,7 +282,7 @@ Pre-release app builds
 - for iOS (TestFlight) 🚧
 - for Android (Firebase) 🚧
 
-Directions on using pre-release app build
+Directions on using pre-release app builds
 - [for iOS (TestFlight)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md)
 - [for Android (Firebase)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_android.md)
 
@@ -309,12 +309,12 @@ Screener question 1
 
 Screener question 2
 
-* When you sign in to VA.gov and go to My VA, do you see details about "overpayment debts" under the section "Outstanding debts"? (this is different from copay bills)
+* When you sign in to VA.gov and go to My VA, do you see details about "overpayment debts" under the section "Outstanding debts"? (This is different from copay bills.)
     * Yes, I see a listing of 1 or more overpayment debts on VA.gov.
     * No, I don’t see any overpayment debt details on VA.gov [DISQUALIFY]
     * I don’t have a VA.gov account / I can’t sign in right now [DISQUALIFY]
 
-    _NOTE: please make sure link in question 2 is included in the invitation_
+    _NOTE: please make sure the link in question 2 is included in the invitation_
 
 Screener question 3
 
@@ -346,9 +346,9 @@ Screener question 6
     * Other
     * Prefer not to say
 
-_[For Perigean's communication with participants]_ Pre-requisites for participants (for both iOS and Android)
+_[For Perigean's communication with participants]_ Prerequisites for participants (for both iOS and Android)
 
-- VA Credentials: You have a username & password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
+- VA Credentials: You have a username and password for ID.me or Login.gov and can access your two-factor authentication (text code or app).
 - You have a current benefit overpayment debt that is visible in your VA.gov account (https://va.gov/manage-va-debt/summary)
 - (Android only) Email Access: You can open your email directly on your mobile phone to click the test link.
 - (Android only) Permissions: You are comfortable allowing your phone to "Install Unknown Apps" within your security settings for this session.
@@ -386,7 +386,7 @@ _[For Perigean's communication with participants]_ Pre-requisites for participan
 
 ### Prepare
 
-_Note: as these tests need to be conducted with real user data, the pilot tests were to practice guiding participants through set-up of the pre-release app and returning their phones to the original states._
+_Note: as these tests need to be conducted with real user data, the pilot tests were to practice guiding participants through set-up of the pre-release app and returning their phones to the original state._
 - `Pilot participant name:` **Michael Harmer, Janelle Finnerty, Ian Hilton**
 - `Date and time of pilot session:` **already completed**
 
