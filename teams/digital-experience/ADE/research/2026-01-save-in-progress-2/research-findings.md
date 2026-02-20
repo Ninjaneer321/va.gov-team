@@ -335,7 +335,9 @@ Eight participants said they wanted to be able to delete a form they started but
 
 1. Participants had some **usability issues on the form intro page**:
     
-    1. Two non-AT participants were **confused when they saw the form intro page** because they were looking for fields to fill out. One of them always uses Google to find VA forms and never sees the form intro page. The other didn't notice the form number below the big "Request personal records" heading, in part because it was split across two vertical lines: (1) "(VA Form 20-", and (2) "10206)". **INSERT IMAGE BELOW**
+    1. Two non-AT participants were **confused when they saw the form intro page** because they were looking for fields to fill out. One of them always uses Google to find VA forms and never sees the form intro page. The other didn't notice the form number below the big "Request personal records" heading, in part because it was split across two vertical lines: (1) **(VA Form 20-**, and (2) **10206**". 
+    
+    **INSERT IMAGE**
 
      1. Two screenreader users **expected to be able to click on one of the record types listed on the form intro page**, but they weren't clickable. This also happened to one screenreader user in the previous round of usability research.
         > *"But these are only bullets, not checkmarks, so I know I have to go to the form" (p4).*
@@ -418,24 +420,25 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Don't put essential information in the heading that isn't repeated below because some people  ignore the text of the heading.**
    - _Supporting evidence_: Two participants didn't read the heading on the interstitial page but only the text below it.
 
+1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages because they're not intuitive.**
+   - _Supporting evidence:_ 4 of 8 participants didn't know what these phrases meant when seeing them in links on the interstitial page.
+
+1. **On the form intro page, consider making the form number under the heading easier to notice**. See if the form number shown under the heading could be forced to display on a single line.
+   - _Supporting evidence_: One participant didn't notice the form number below the big "Request personal records" heading, perhaps because it was split across two vertical lines: (1) **(VA Form 20-**, and (2) **10206**. 
+
+1. **Consider keeping the accordions in the "Review and submit" page.**
+  - _Supporting evidence:_ One participant said that he never uses "Expand all" because he gets too overwhelmed by the length of what might expand, so he prefers to expand each accordion, one at a time.
+
+1. **Consider making the "Back to previous page" link easier to notice**. Perhaps check its font size and consider increasing it if it's smaller than other text on the page. Perhaps add a duplicate link to the bottom of the page.
+   - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
+
 1. **Investigate why the "Finish later" message is read so haltingly in small segments when using JAWS with a mouse**. --> *Jeana will investigate to see if each segment is wrapped in a span, and if so, why.*
    - _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the "Finish later" informational alert.  
 
 1. **Investigate why P6 was unable to highlight past "3 of 6 records requested" on the page of record checkboxes**. 
    - _Supporting evidence_: P6 said that they were trying to highlight the entire page to read but could only select "3 of 6 records requested".
 
-1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages because they're not intuitive.**
-   - _Supporting evidence:_ 4 of 8 participants didn't know what these phrases meant when seeing them in links on the interstitial page.
-
-1. **Consider keeping the "Expand all" link (ADD FROM SLACK DM CONVO W/JEANA)**
-
-1. **On the form intro page, consider making the form number under the heading easier to notice. See if the form number shown under the heading could be forced to display on a single line.
-   - _Supporting evidence_: One participant didn't notice the form number below the big "Request personal records" heading, perhaps because it was split across two vertical lines: (1) "(VA Form 20-" and (20) "10206)". 
-
-1. **Consider making the "Back to previous page" link easier to notice**. Perhaps check its font size and consider increasing it if it's smaller than other text on the page. Perhaps add a duplicate link to the bottom of the page.** 
-   - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
-
-1. **Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user** (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production.  
+1. **Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user** (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production. Is it only an issue with the Codespace?  
    - _Supporting evidence_: Zoom silently kicked p4 out of the session when he clicked the "Sign in" or "Continue" button in the Codespace. 
 
 
