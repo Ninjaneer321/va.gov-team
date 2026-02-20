@@ -16,11 +16,11 @@ description: "A moderated UAT conversation guide for testing the VA mobile app�
 ---
 
 
-# Conversation Guide for UAT Overpayments on Mobile App
+# Conversation Guide for UAT Overpayments in VA Mobile App
 
 ## Moderator logistics 📋✅
 
-<details><summary>steps</summary>
+<details><summary>Steps</summary>
 
 ### 2-3 days before the session
 
@@ -44,16 +44,16 @@ description: "A moderated UAT conversation guide for testing the VA mobile app�
 
 > [!TIP]
 > - In the Attendees section, make sure everyone except the participant is on mute.
-> - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
-> - Check your [screensharing setup] and share permissions for participants.
-> - When the participant is ready, begin the session with the following intro*
+> - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked.
+> - Check your screensharing setup and share permissions for participants.
+> - When the participant is ready, begin the session with the following intro
 
 </details>
 
 
 ## Intro - 5 minutes
 
-Thank you so much for joining today. My name is Emily, and [NAME] here will be taking notes. I also have a couple other colleagues in the digital waiting room who would like to observe, but we’ll get to that momentarily.
+Thank you so much for joining today. My name is Emily, and [NAME] will be taking notes. I also have a couple of other colleagues in the digital waiting room who would like to observe, but we’ll get to that momentarily.
 
 I want to review a few things to make sure you're okay with what will happen in this session.
 
@@ -66,9 +66,9 @@ _[NOTE] Potential ending spot if it's clear they do not have a current overpayme
 * Today, we’re testing a pre-release version of the VA app specifically to check the Debt Portal before it's released to the public. We want to make sure that every button you press results in the correct information being shown on screens.
     * Are you okay with logging in with your real username and password for this test?
     * Nothing you do here will affect your VA benefits in any way. We're also not going to be doing anything that will affect your overpayments.
-    * I'll be asking you to share your screen, which will show your personal debt records. 
+    * I'll be asking you to share your screen, which will show your personal debt records.
         * Are you okay with sharing your screen with us?
-    * If you would like to stop the session, or do not want to show us something at any time, that's no problem. Please let me know.
+    * If you would like to stop the session or do not want to show us something at any time, that's no problem. Please let me know.
 
 _[NOTE] Potential ending spot if they are not comfortable logging in with their credentials_
 
@@ -101,10 +101,10 @@ First, I'd like you to share your screen.
 
 _References_:
 - [Screen sharing iOS](https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share)
-    - Swipe moderator's video off to the side
+    - Swipe the moderator's video off to the side
 - [Screen sharing Android](https://depo-platform-documentation.scrollhelp.site/research-design/android-start-screen-share)
     - Swipe moderator's video off to the side
-    - Select Zoom from Permissions - “Display over other apps permission”, then go back to Zoom
+    - Select Zoom from Permissions: “Display over other apps permission”, then go back to Zoom
 - App install link for iOS (TestFlight) 🚧
 - App install link for Android (Firebase) 🚧
 - [iOS directions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/pre-release_app-testing_iOS.md) for guiding them through the download and set-up
@@ -123,13 +123,13 @@ I'm going to send you a link through the Zoom chat. Please go ahead and open tha
 
 _[send install link]_
 
-We'll need to use a few apps for this set-up process. First we're going to install TestFlight. This is the app we'll go through to get the pre-release version of the VA app. Tap "view in app store" and then download the app.
+We'll need to use a few apps for this set-up process. First we're going to install TestFlight. This is the app we'll go through to get the pre-release version of the VA app. Tap "View in app store" and then download the app.
 
 Now open it up, and I'll have you accept the terms and conditions.
 
 _[stop once they reach "ready to test" screen]_
 
-Now please return to your browser back to the screen we were at before. Install the VA app. This is going to install over the original VA app, and I'll make sure you reinstall it once we're done.
+Now please return to your browser by going back to the screen we were at before. Install the VA app. This is going to install over the original VA app, and I'll make sure you reinstall it once we're done.
 
 Now I'll have you log in with your username and password. I'm going to pause the recording while you're doing that.
 
@@ -174,10 +174,10 @@ Now we need to make some permission changes.
 - _[optional explanation]_ Google Play is the standard way apps are sent to Android phones. This app is safe, but because the version we’re testing today is still in development, it hasn't gone through Google’s final review yet, and therefore it’s blocked by default. We need to adjust some settings to allow you to download it, and we’ll make sure to get your phone back to the way it was once we’re finished.
 
 Open Google Play Store.
-- Tap on the profile on the upper right
+- Tap the profile icon on the upper right
 - Tap Settings
 - Tap About
-- Where it says "Play Store version" - tap that seven times until a notice comes up.
+- Where it says "Play Store version" — tap that seven times until a notice comes up.
     - _[confirm notice "you are now a developer"]_
 - Scroll back up and tap General
 - Tap "Developer options"
@@ -218,15 +218,15 @@ That was it! Thank you so much for walking us through your app.
 I'm now going to help you return your phone to the way it was.
 
 <details>
-<summary>Android guidelines🤖</summary>
+<summary>Android guidelines 🤖</summary>
 
 - Uninstall the VA app
-    - _[option 1]_ Go to your home screen and find the app icon. Long press and drag up to the top to Uninstall.
-    - _[option 2]_ Go to your home screen and find the app icon. Long press and tap App info. Tap Uninstall.
+    - _[option 1]_ Go to your home screen and find the app icon. Press and hold, drag up to the top to Uninstall.
+    - _[option 2]_ Go to your home screen and find the app icon. Press and hold, tap App info. Tap Uninstall.
     - _[option 3]_ Open Google Play Store. Tap profile photo, tap "Manage apps and device," tap "Manage" and select "VA app" to delete.
 - Uninstall Firebase app
 - Install standard VA app
-- Toggle off "internal app sharing"
+- Toggle off "Internal app sharing"
     - Open Google Play Store, tap profile photo, tap General, tap Developer options.
 - Reset any other security settings you changed
 - Log back into VA app (if they want help)
@@ -236,7 +236,7 @@ I'm now going to help you return your phone to the way it was.
 </details>
 
 <details>
-<summary>iOS guidelines🍎</summary>
+<summary>iOS guidelines 🍎</summary>
 
 - Reinstall public version of the VA app
     - Open the app store to find the app. This will install over the beta version
@@ -254,11 +254,11 @@ I'm now going to help you return your phone to the way it was.
 - Is there any part of our conversation you would NOT want included?
 
 
-## Thank-You and Closing - X minutes
+## Thank-You and Closing
 
 We really appreciate you taking the time to help us test the app. This step is so crucial to getting this app ready for everyone to use.
 
-Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
+Perigean will be sending you a thank-you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
 
 Thank you so much again, and enjoy the rest of your day!
 
@@ -267,7 +267,7 @@ Thank you so much again, and enjoy the rest of your day!
 
 [Emergency guidance](https://depo-platform-documentation.scrollhelp.site/research-design/research-safety-and-emergency-exit-strategies#ResearchSafetyandEmergencyExitStrategies-Sampleexitstrategies)
 
-If needing to exit the session
+If needing to exit the session:
 
 1. "If for any reason and at any time you want to stop the session, please let me know. You will not lose your stipend or be penalized in any way if we need to stop."
 2. “I’ve just learned that the prototype we were planning on using today is having some technical issues, so we will have to end this session early.”
