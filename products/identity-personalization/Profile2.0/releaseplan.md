@@ -13,7 +13,7 @@ Primary communications are taking place in the [Authenticated Experience DSVA Sl
 - [Domo Dashboard](https://va-gov.domo.com/page/825663825?userId=932934509)
 - [Figma Designs](https://www.figma.com/design/5bxmQiCLaXdXrEfPhqMmdJ/Profile-2.0?node-id=52-19111&t=Gaz3RWoInFTeXIMX-1)
 - [Relevant Use Cases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/profile/use-cases/README.md)
-- [QA Test Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/Profile2.0/test-plan.md) - in progress
+- [QA Test Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/Profile2.0/test-plan.md)
 - [Staging Users](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/staging-test-accounts-profile2.0.md)
 
 ## Development & Test Plan
