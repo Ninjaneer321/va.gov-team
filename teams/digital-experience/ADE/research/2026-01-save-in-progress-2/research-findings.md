@@ -110,7 +110,7 @@ tags:
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 02/19/2026
+**Date:** 02/20/2026
 
 **Contacts:** Cindy Merrill
 
@@ -492,18 +492,6 @@ This research supports our desired user outcome by....
 ### Desired Business Outcome
 This research supports our desired business outcome by....
 
-
-## Key Performance Indicators
-
-*Explain how findings will support KPI measurement.*  
-
-> [!NOTE]
-> Refer back to your Product Outline. 
-
-### KPI 1
-This research supports measurement of this KPI by....
-  
-
 ## Next Steps
 
 *Outline immediate actions based on findings, including owners if applicable.*  
@@ -522,28 +510,111 @@ This research supports measurement of this KPI by....
 ## Appendix
 
 ### Research documents
-- [Product Outline](link here)
-- [Research plan](link here)
-- [Conversation guide](link here)
-- [Interview transcripts](link here)
+- [Research plan](./research-plan.md)
+- [Conversation guide](./conversation-guide.md)
+- [Interview notes](./notes)
 
 ### Tools used for Synthesis
 
-*List tools or techniques used, e.g., Mural, affinity mapping.*  
+[Synthesis spreadsheet](./analysis/TBD.xlsx) **NEED TO ADD THIS**
+
+[Mural board](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1767751338801/88ba6eb67d784bd724da7db997a67bfd0d1e14b5?sender=uff8fa85716c1796ccf022668)
   
 ### Pages and applications used
 
-*Link to prototypes or pages tested during the study.*  
+[Prototype in a GitHub Codespace that needs to be started manually--CONTACT CINDY](https://legendary-yodel-46rpq9g49pj37wv5-3002.app.github.dev)
 
+#### Screenshots of the prototype (Codespace) 
+**NEED TO UPDATE EVERYTHING BELOW...**
+<details>
+  <summary>Figure 9: Informational alert about saving</summary>
+   <img src="./images/intro-pg-alert.png" width="75%" height="75%" alt="We'll save your request on every change. You can stop anytime, and come back later to finish.">
 
-### Other supporting documents created
+</details>
 
-*Include links to additional materials, e.g., personas, user flows.*  
+<details>
+  <summary>Figure 10: Intro page--not signed in</summary>
 
+  Figure 10 explains about about the form, and prompts the user to sign in to start filling it out.
 
-### Secondary research
+  <img src="./images/Intro-pg-unauth-top.png" width="75%" height="75%" alt="The intro page explains what to know before you fill out the form and the types of information you can request">
+  <img src="./images/Intro-pg-unauth-bottom.png" width="75%" height="75%" alt="At the bottom of the intro page is a prompt to sign in to start filling out the form">
 
-*Include any relevant secondary research, e.g., web analytics, SME interviews.*  
+</details>
+
+<details>
+  <summary>Figure 11: Intro page--signed in</summary>
+
+  Figure 11 The signed-in version of the intro page has an informational alert about saving and a "Start your request" link.
+  
+   <img src="./images/Intro-pg-auth-top.png" width="75%" height="75%" alt="Most of the signed-in version of the intro page is the same as the not-signed-in version">
+   <img src="./images/Intro-pg-auth-bottom.png" width="75%" height="75%" alt="At the bottom of the signed-in version of the intro page, the sign-in prompt has been replaced by an informational alert about saving and a 'Start your request' link">
+
+</details>
+
+The form we tested has 9 pages of questions, and each page has at the bottom a *Finish later* button on the left side and a *Continue* button on the right side.
+
+<details>
+  <summary>Figure 12: Form page 1 asks whether you are a U.S. citizen</summary>
+   <img src="./images/form-pg1-alert&citizenship.png" width="75%" height="75%" alt="Radio button question with options to indicate whether you're a U.S. citizen">
+</details>
+
+<details>
+  <summary>Figure 13: Form page 2 asks for your first name, middle initial, last name, birthdate, and place of birth</summary>
+   <img src="./images/form-pg2-name&DOB.png" width="50%" height="50%" alt="first name, middle initial, last name, birth month dropdown, birth day, birth year, and place of birth">
+</details>
+
+<details>
+  <summary>Figure 14: Form page 3 asks for your social security number and VA file number</summary>
+   <img src="./images/form-pg3-SSN&VAfile.png" width="75%" height="75%" alt="social security number and VA file number--one of which must be entered">
+ </details>
+
+<details>
+  <summary>Figure 15: Form page 4 asks whether you live on a U.S. military base, and then for your country, street address, apartment or unit number, city, state/province/region, and postal code</summary>
+   <img src="./images/form-pg4-mailing-addr-top.png" width="75%" height="75%" alt="top of the page with a checkbox for whether you live on a U.S. military base, followed by a dropdown field for your country. Below that are fields for street address, apartment or unit number, and city">
+   <img src="./images/form-pg4-mailing-addr-bottom.png" width="75%" height="75%" alt="fields for state/province/region and postal code">
+</details>
+
+<details>
+  <summary>Figure 16: Form page 5 asks for your phone number and email</summary>
+   <img src="./images/form-pg5-phone&email.png" width="75%" height="75%" alt="fields to enter phone number and email, both of which are required">
+ </details>
+
+<details>
+  <summary>Figure 17: Form page 6 is a list of checkboxes for which  record(s) to request</summary>
+   <img src="./images/form-pg6-records.png" width="75%" height="75%" alt="a list of checkboxes, one for each type of record that can be requested">
+</details>
+
+<details>
+  <summary>Figure 18: Form page 7 is an Additional records information field</summary>
+   <img src="./images/form-pg7-additional-info.png" width="75%" height="75%" alt="optional Additional records information field">
+</details>
+
+<details>
+  <summary>Figure 19: Form page 8 asks if there is a VA regional office that you're associated with</summary>
+   <img src="./images/form-pg8-regional-office.png" width="75%" height="75%" alt="optional VA regional office name field">
+</details>
+
+<details>
+  <summary>Figure 20: Form page 9, which is the last page in the form, has expandable sections of form information at the top. Below is a notice about criminal penalties for withholding information, and a statement of truth that requires typing your full name and checking a box to certify the information</summary>
+   <img src="./images/form-pg9-review&submit.png" width="75%" height="75%" alt="the last page in the form, which has expandable sections of form information at the top">
+   <img src="./images/form-pg9-statement-of-truth.png" width="75%" height="75%" alt="Below the expandable sections is a note about criminal penalties for withholding information, and a statement of truth that requires typing your full name and checking a box that you certify the information">
+</details>
+
+<details>
+  <summary>Figure 21: After clicking the "Finish later" button, the user sees a blue informational alert that says your information has been saved".</summary>
+   <img src="./images/after-click-finish-later.png" width="75%" height="75%" alt="A blue informational alert that says 'Your Personal records request has been saved' and contains the date and time of the last save, and the date two months later that the incomplete request will expire. Below the text are two buttons: a blue 'Continue your request' button on the left, and a white 'Start a new request' button on the right.">
+
+</details>
+
+<details>
+  <summary>Figure 22: My VA page with various sections including Benefit applications and forms at the bottom</summary>
+   <img src="./images/MyVA-top.png" width="100%" height="100%" alt="top of the My VA page with a heading for Claims and appeals">
+   <img src="./images/MyVA-middle.png" width="100%" height="100%" alt="headings for Health care, Outstanding debts, and Benefit payments">
+   <img src="./images/MyVA-bottom.png" width="100%" height="100%" alt="headings for Education and training, and Benefit applications and forms">
+
+</details>
+
 
 > [!IMPORTANT]
 > **After completing the demographic information below and saving this file**, use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically populate the YAML frontmatter section at the top of this document with: 
