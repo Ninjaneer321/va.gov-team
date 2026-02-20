@@ -27,7 +27,8 @@
 
 
 ## <a name="map"></a>Page structure<br>
-<img width="145" height="623" alt="Screenshot 2025-12-18 141227" src="https://github.com/user-attachments/assets/75d162ac-e00f-4ec5-ba45-f98cf930c2ea" />
+<img width="163" height="861" alt="Screenshot 2026-02-16 150807" src="https://github.com/user-attachments/assets/84b3ba82-a4f0-45f6-8b74-a947a8e355dc" />
+
 
 
 ## <a name="url"></a>Page URLs and breadcrumbs
@@ -38,7 +39,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 - [Title tags](https://design.va.gov/content-style-guide/title-tags)
 
 
-**1) National exam fee reimbursement (VA Form 22-0810) - Existing (Drupal page; former About form page; redirect to be done by content)**
+**1) National exam fee reimbursement (VA Form 22-0810) - Existing (Drupal page)**
 - URL: va.gov/forms/22-0810/
 - H1: National exam fee reimbursement (VA Form 22-0810)
 - Sub-heading: Request for Reimbursement of National Exam Fee
@@ -47,7 +48,7 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
     - National Exam Fee Reimbursement (VA Form 22-0810) | Veterans Affairs
 
 **2) Request national exam fee reimbursement online - New (form)**
-- URL: va.gov/forms/22-0810/request-reimbursement-national-exam-fee-online/
+- URL: va.gov/forms/22-0810/request-reimbursement-national-exam-fee/
 - H1: Request national exam fee reimbursement online
 - Sub-heading: Request for Reimbursement of National Exam Fee (VA Form 22-0810)
 - Breadcrumb: VA.gov > VA forms > National exam fee reimbursement (VA Form 22-0810) > Request national exam fee reimbursement online
@@ -58,9 +59,9 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 **Structuring URLs for individual pages within the form flows**
 - All pages within form flows will exist as child pages of the core/canonical URL.
   - Examples:
-      - va.gov/forms/22-0810/request-reimbursement-national-exam-fee-online/introduction/
-      - va.gov/forms/22-0810/request-reimbursement-national-exam-fee-online/review-and-submit/
-      - va.gov/forms/22-0810/request-reimbursement-national-exam-fee-online/confirmation/
+      - va.gov/forms/22-0810/request-reimbursement-national-exam-fee/introduction/
+      - va.gov/forms/22-0810/request-reimbursement-national-exam-fee/review-and-submit/
+      - va.gov/forms/22-0810/request-reimbursement-national-exam-fee/confirmation/
   - Please refer to [URL standards for form flows](https://design.va.gov/components/url-standards/#guidelines-for-urls-in-form-flows) when defining the URLs for these pages.  Reach out to #content-ia-centralized-team with any questions.
 
 
@@ -77,7 +78,7 @@ Teams must launch with at least one entry point that allows site visitors to nav
   - Placement description: Add a link to the form as appropriate
   - Link details
     - Link label: TBD by content
-    - Link destination: va.gov/forms/22-0810/request-reimbursement-national-exam-fee-online/
+    - Link destination: va.gov/forms/22-0810/request-reimbursement-national-exam-fee/
   - Notes:
     - Who will update: Content will add the link
     - When will this entry point go live: at launch

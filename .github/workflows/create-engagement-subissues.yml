@@ -149,7 +149,7 @@ jobs:
                 ## Acceptance Criteria/Conditions of Satisfaction
                 - Veterans have the ability to submit online 21-22 requests in Appoint a Rep, for ${orgAbbr} and affiliated representatives.
                 - ${orgAbbr} representatives can receive and accept/decline online 21-22 requests in ARP.`,
-                labels: ['engagement', 'engineering', 'ar-crew']
+                labels: ['engagement', 'engineering', 'ar-crew', 'org-onboarding']
               },
               {
                 title: 'Confirm access',

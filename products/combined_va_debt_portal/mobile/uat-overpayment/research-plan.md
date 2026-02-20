@@ -129,17 +129,17 @@ tags:
 
 This study is a User Acceptance Test (UAT) for the VA mobile app’s Overpayments experience. The goal of this UAT is to confirm that the Overpayments feature is ready for production release by validating that the experience works as intended for Veterans using real account data in a pre-release build of the app.
 
-Benefit overpayment debt can occur when a Veteran receives more compensation than they are entitled to at that moment, and it is handled by the Veterans Benefits Administration (VBA). Examples of overpayments include a dependent change from a divorce, and receiving education benefits for a class but then dropping the class.
+Benefit overpayment debt can occur when a Veteran receives more compensation than they are entitled to at that moment, and it is handled by the Veterans Benefits Administration (VBA). Examples of overpayments include changes a dependent status (e.g. from a divorce) and receiving education benefits for a class and then dropping the class.
 
 Veterans who have benefit overpayment debt can currently access overpayment information through the authenticated experience on VA.gov. The VA mobile app does not currently provide debt-related information or actions. This release introduces Overpayments as the first debt capability in the mobile app (Copays will be released separately at a later date).
 
 `What problem is your product trying to solve?`
 
-The mobile app does not have any debt-related information for Veterans to access. The goal is to let Veterans see totals + details for overpayment debts in the app.
+The mobile app does not have any debt-related information for Veterans to access. The goal is to let Veterans see totals and details for overpayment debts in the app.
   
-`Where is your product situated on VA.gov? (ex: auth vs. unauth)`
+`Where is your product situated on the VA Mobile App?`
 
-Authenticated section of VA Mobile App, to be added to the existing "Payments" tab.
+In the authenticated section of VA Mobile App, added to the existing "Payments" tab.
   
 `What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
@@ -171,21 +171,23 @@ Are there moments that matter?
 
 ## Research Goals 🥅	
 
-The purpose of this User Acceptance Testing (UAT) study is to verify that all elements of the Overpayments functionality operate as intended for end users with real data. Unlike usability testing, UAT focuses on confirming that features work as expected, rather than on users’ ability to find or discover them.
+The purpose of this User Acceptance Testing (UAT) study is to verify that all elements of the Overpayments functionality operate as intended for Veterans using real data. Unlike usability testing, UAT focuses on confirming that features work as expected, rather than on users’ ability to find or discover them.
 
 Specifically, this study will validate that end users can successfully view, manage, and resolve overpayments using the app, meeting all criteria outlined in the defined user paths.
 
   
 ### Outcome
 
-Findings from this research will confirm whether the Overpayments functionality is fully ready for production release. If all success criteria are met, we will proceed with launch and communicate readiness to stakeholders. If any issues are identified, we will prioritize and resolve them before deployment. 
+Findings from this research will confirm whether the Overpayments functionality is fully ready for production release. If all success criteria are met, we will proceed with launch and communicate readiness to stakeholders. If any issues are identified, we will prioritize and resolve them before deployment.
 
 
 ### Test paths and success criteria
 
 <details>
 <summary>Click to view UAT Success Criteria Table</summary>
-	
+
+Also available in [Excel spreadsheet](https://dvagov.sharepoint.com/:x:/s/vamobilefeaturesupport/IQB1m_Jp5sGuTKHALblAGsyPAVh-tVxfvvirz_dKytoIFT8?e=v9Wtbm)
+
 | Category | Screen | Activity | Success |
 | :--- | :--- | :--- | :--- |
 | Elements on home | Home | See the number of overpayments on home screen | Activity card "Overpayments" shows "n overpayments" where "n" is the quantity of current overpayment debts |
@@ -274,7 +276,7 @@ This method is appropriate because the overpayments feature is in its final phas
 ## Research materials 📔
 
 - [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/combined_va_debt_portal/mobile/uat-overpayment/conversation-guide.md)
-- [Spreadsheet with test user flows and success criteria](https://dvagov.sharepoint.com/:x:/s/vamobilefeaturesupport/IQA3a5Ibl1nkTZiaWay97QNDAeh7lgw853voGUj6SB9rz-g?e=3PfKEz)
+- [Spreadsheet with test user flows and success criteria](https://dvagov.sharepoint.com/:x:/s/vamobilefeaturesupport/IQB1m_Jp5sGuTKHALblAGsyPAVh-tVxfvvirz_dKytoIFT8?e=v9Wtbm)
 
 Pre-release app builds
 - for iOS (TestFlight) 🚧
@@ -374,20 +376,17 @@ _[For Perigean's communication with participants]_ Pre-requisites for participan
 #### Secondary criteria (nice-to-haves)
 
 - `A variety of types of overpayment debt among participants`
-- `Having multiple types of overpayment debt`
+- `Participants who have multiple types of overpayment debt`
 
 ## Timeline 🗓️
 
 ### Kick-off Call with Perigean
 
-- `Suggested dates and times:`
-    - Wed 02/11 11:30AM - 1:00PM EST
-    - Thur 02/12 10:00AM - 1:00PM EST
-    - Fri 02/13 10:00AM - 1:00PM EST
+- `Already completed`
 
 ### Prepare
 
-_Note: as these tests needs to be conducted with real user data, the pilot tests were to practice guiding participants through set-up of the pre-release app and returning their phones to the original states._
+_Note: as these tests need to be conducted with real user data, the pilot tests were to practice guiding participants through set-up of the pre-release app and returning their phones to the original states._
 - `Pilot participant name:` **Michael Harmer, Janelle Finnerty, Ian Hilton**
 - `Date and time of pilot session:` **already completed**
 

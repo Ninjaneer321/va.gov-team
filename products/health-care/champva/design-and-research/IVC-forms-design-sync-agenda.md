@@ -1,8 +1,107 @@
 # Running Design and Research Agenda
 
+## February 19, 2026
+
+Attendees: Renata, Hieu, Jessica, Premal, Andrea, John, Chantale
+
+
+### Agenda - 
+- Preliminary findings for Tricare Research
+- Revisiting Multiple Claims
+
+
+Premal - to do’s 
+- Luke info about Duty to Assist / sendback letter - in a Mural and in Sharepoint
+- Premal has question around status tool for Amanda - will take offline 
 
 
 
+#### TRICARE Research
+- the introduction page mostly good reviews, easy to understand
+- API check, that was liked but they don’t have to waste time
+- Warning message to have an action item - directed to TRICARE or a number to call 
+- Platform pattern - the double negative is not liked by participants
+- Card style B was more dynamic and well received
+- Icons helpful in pattern 
+- X additional explanation 
+
+- Different flows 
+- 6 prefer Blueberry 
+- 5 prefer Pineapple
+- 4 similar options
+
+- Most thought that there was just enough information
+- they contradicted themselves, I would immediately look for someone to call 
+
+- Most participants would still continue with application even after seeing they were not eligible due to TRICARE status 
+- Meeting with Design System team about default pattern of Eligibility review 
+- Not definitive language was a reason for continuing 
+
+- Premal - learning that we don’t want to do this is also okay
+
+- mention of participant wanting to connect to Tricare and 
+- Some participants have understanding of TRICARE, folks who opt out of Tricare, they don’t realize they maintain that eligibility despite not being enrolled
+
+- Sticking point of doesn’t matter if enrolled, but if eligible 
+
+- What about those that are unique and cross-eligible (question from John) around Primary caregiver and overlap there. Wanting to make sure the isn’t an edge use case to keep an eye on to route. 
+
+- thinking that most routing from Caregiver Program to CHAMPVA applications (handled by the team in the backend)
+- Offer information about what each offers on the static pages
+
+- Andrea - we need to work with design system to update pattern before use. Need to know timelines of that for launching 
+
+- Really good show rate for this study
+
+
+#### MULTIPLE CLAIMS 
+- Set up to better prefill and switch to array builder 
+- Difference between autofill and prefilled issues with earlier array builder pattern 
+- Array builder would work well, need to dig into with Claims partners to group by beneficiary or provider. And need one for every date of service.
+
+- How big of a problem this is? (Numbers ?
+- Small percentage for massive shoebox. Medallia feedback for one date of service per form 
+- Improve user experience and setting up for prefill by array builder pattern 
+
+- Prefill from database, autofill is from user’s browser/device
+- Came up to pre-populate PMI number
+
+- CHAMPVA claims, prefill step 1, insurance step 2, step 3 update OHI
+- Cool but thinking through limitations 
+
+- Prefill concerns with past alignment of PEGA and MPI data, fix VES injest problems
+- Need to work through priorities list, Bene Card, EOBs need research?
+
+- array builder might be a step in the direction to setup for future multiple claims 
+- Premal in favor of changes to confirmation page updates to redirect to start of form
+
+- Premal experience with EOB and claim flows, commercial patterns are common like for FSA etc
+
+- Prefill and missing OHI as an edge case, prefill could impact other CHAMPVA work 
+
+
+ACTION ITEMS: 
+- Confirm deprioritize Multiple claims but look at confirmation multiple form pattern
+- OHI work around bigger priorities
+
+#### DUTY TO ASSIST: 
+- Back from Content, next claims call have Monica show to Duty to Assist folks, NOT for feedback but for what they described is useful 
+- Questions around very specific language
+- Premal - question on getting buy in and needing to show them, or talk through it
+- Renata - question if some screens can be removed, want’s to show what collecting everything looks like 
+- What we have to do and the reason why, not is this okay approach
+- This route recommended by Premal, what concerns business has and take back for review
+
+- Stakeholder calls have grown, can we work with Luke to reduce number of SMEs to consult with 
+
+- DTA team happy about looking into this work, but a small team 
+- Call with DTA team, put out there as long as claims flow not changed, Premal to chat with stakeholders 
+
+- Could be more of a phased launch, the checkbox on the letter (with additional steps)
+
+
+
+ -------
 
 
 ## February 5, 2026

@@ -33,6 +33,9 @@ This endpoint returns one of two payload types:
 
 ## Response shape (mobile)
 
+> Notes:
+> - The Latest Period of Service has been removed from the new VSC endpoint response and will no longer be displayed with the new Veteran Status card.
+
 ### Eligible response (`type: "veteran_status_card"`)
 ~~~json
 {
@@ -43,17 +46,12 @@ This endpoint returns one of two payload types:
   "attributes": {
     "full_name": "Jane Veteran",
     "disability_rating": 50,
-    "latest_service": {
-      "branch": "Army",
-      "begin_date": "YYYY-MM-DD",
-      "end_date": "YYYY-MM-DD"
-    },
     "edipi": "1234567890"
   }
 }
 ~~~
 
-**Ineligible/error response** (`type: "veteran_status_alert"`)
+### Ineligible/error response (`type: "veteran_status_alert"`)
 
 ~~~json
 {

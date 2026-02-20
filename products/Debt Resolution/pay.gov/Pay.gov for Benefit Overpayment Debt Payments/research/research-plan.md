@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Research Plan for Financial Management, Pay.gov for Benefit Overpayment Debt Payments, 2026-02-12"
 date: 2026-02-12
-last_updated: 2026-02-12
+last_updated: 2026-02-20
 team: "Financial Management"
 product: "Pay.gov for Benefit Overpayment Debt Payments"
 product_area: "authenticated"
@@ -17,8 +17,8 @@ background:
 # Research Design
 methodology: "Mixed methods: semi-structured interviews + moderated usability testing"
 research_format:
-  location: remote # Options: remote, in-person, hybrid
-  moderated: true # Options: true, false
+  location: remote
+  moderated: true
 
 # Research Goals & Questions
 research_goals:
@@ -59,43 +59,36 @@ recruitment:
     - "Have Zoom downloaded to their device prior to the session and know how to share their screen"
 
   secondary_criteria:
-    - "At least 5 have had a debt repayment plan with the VA in the last year"
-    - "At least 6 ages 55+"
-    - "At least 6 with an annual household income of less than 50K"
+    - "At least 8 have had a debt repayment plan with the VA in the last year"
+    - "At least 8 ages 55+"
+    - "At least 8 with an annual household income of less than 50K"
     - "At least 6 participants must have experienced financial hardship now or in the past"
-    - "At least 3 with cognitive disabilities"
-    - "At least 3 who use screener readers or screen magnifiers"
-    - "At least 3 under age 35"
-    - "At least 4 people of color"
-    - "At least 3 in a rural area"
-    - "At least 3 without a degree"
-    - "At least 2 with immigrant origins"
-    - "At least 1 woman"
+    - "At least 5 with cognitive disabilities"
+    - "At least 5 under age 35"
+    - "At least 5 people of color"
+    - "At least 5 in a rural area"
+    - "At least 5 without a degree"
+    - "At least 3 with immigrant origins"
+    - "At least 2 women"
     - "At least 1 from the LGBTQ+ community"
 
   screener_questions:
     - question: "Do you currently owe any of the following types of VA debt? If so, please select all that apply."
-      qualifying_response: "Select at least one overpayment debt type (NOT 'Medical debt' only; NOT 'I do not currently owe any of the above'). Acceptable selections include: Post-9/11 GI Bill overpayment; Disability compensation and pension overpayment; Education Ch 33-Ch1606/Ch30 Kickers; Chapter 34 education overpayment; Chapter 35 education overpayment."
+      qualifying_response: "Select at least one overpayment debt type (NOT 'Medical debt' only; NOT 'I do not currently owe any of the above')."
     - question: "When you sign in to VA.gov and to go My VA (https://va.gov/my-va/), do you see details about \"overpayment debts\" under the section \"Outstanding debts\"? (this is different from copay bills)"
       qualifying_response: "Yes, I see a listing of 1 or more overpayment debts on VA.gov."
     - question: "Have you been on a debt payment plan with the VA in the past year?"
-      qualifying_response: "Either 'Yes' or 'No' (quota: aim for at least 5 of 10 participants to have been on payment plans with the VA in the past year)."
+      qualifying_response: "Either 'Yes' or 'No' (quota: aim for at least 8 participants to have been on payment plans with the VA in the past year)."
     - question: "Please select the statement(s) that apply to you: (Check all that apply)"
-      qualifying_response: "Any response is acceptable (quota: aim for at least 5-6 of 10 participants to have experienced financial hardship; includes 'currently experiencing' and/or 'experienced in the past')."
+      qualifying_response: "Any response is acceptable (quota: aim for at least 6 participants to have experienced financial hardship; includes 'currently experiencing' and/or 'experienced in the past')."
     - question: "Do you identify as a member of the LGBTQ+ community? We ask this question because we want to make sure the feedback we get from these sessions represents all the people we serve."
       qualifying_response: "Any response is acceptable ('Yes', 'No', or 'Decline to answer'); used for representation quota."
     - question: "Is your annual household income less than $50,000?"
-      qualifying_response: "Either 'Yes' or 'No' (used to meet representation quota; secondary criterion targets at least 6 under $50K)."
+      qualifying_response: "Either 'Yes' or 'No' (used for representation quota)."
     - question: "Is it difficult to remember or learn new things, focus on a task, or make decisions? We ask this question because we want to make sure that our tools work for people who live with challenges like these."
-      qualifying_response: "Any response is acceptable; 'Yes' indicates cognitive disability (secondary criterion targets at least 3)."
-    - question: "Do you need a screen reader or screen magnifier every time you use the Internet? We ask this question because we want to make sure that our website works for people who rely on these types of technologies."
-      qualifying_response: "To qualify as an AT user cohort: 'Yes' AND screen reader/magnifier use for 'At least one year' (disqualify if 'Less than 1 year')."
-    - question: "Are you willing to join the Zoom session using this assistive technology?"
-      qualifying_response: "Yes (for AT user cohort)."
-    - question: "What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session?"
-      qualifying_response: "Text box response (collect tool name; not specified as qualifying/disqualifying)."
-    - question: "What (if any) accommodations will you need to participate in this Zoom session?"
-      qualifying_response: "Text box response (collect accommodations; not specified as qualifying/disqualifying)."
+      qualifying_response: "Any response is acceptable; 'Yes' indicates cognitive disability."
+    - question: "What device will you use to join the session?"
+      qualifying_response: "Any response is acceptable."
 
 participants:
   veterans: 15
@@ -113,7 +106,7 @@ timeline:
 
 session_details:
   duration_minutes_non_at_users: 75
-  duration_minutes_at_users: 140
+  duration_minutes_at_users: 90
   buffer_minutes: 60
   max_sessions_per_day: 2
 
@@ -152,6 +145,7 @@ tags:
   - "BNFT: Education"
   - "BNFT: Disability"
   - "PRDT: Debt-portal"
+  - "PRDT: Pay.gov"
   - "DSC: Form"
   - "DSC: Form - Radio Button"
   - "DSC: Checkbox"
@@ -163,7 +157,6 @@ tags:
   - "usability-testing"
   - "moderated-usability-testing"
   - "semi-structured-interviews"
-  - "Accessibility"
   - "HDW: Desktop"
   - "HDW: Laptop"
   - "HDW: Smartphone"
@@ -388,7 +381,7 @@ Provide a link to any materials you need to run your study, including any materi
 
 **For moderated usability tests:** 
 - [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/research/conversation-guide.md)
-- [Link to prototype](url goes here)
+- [Link to prototype](https://www.figma.com/proto/Yzumw4ai6JjkgS6jmB1PB5/Pay.gov-Hosted-Collections?node-id=40002346-61020&viewport=3519%2C-4684%2C0.25&t=RskLNxhHqH7nHhYc-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=40002346%3A61020)
 
 	
 ## Recruitment 🎯	
@@ -401,9 +394,9 @@ Provide a link to any materials you need to run your study, including any materi
 
 ### Recruitment approach
 *Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
-- Perigean **CANNOT** recruit VA employees or VSOs. Work with your VA lead to recruit these groups. 
-- Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
-- Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
+- Veterans who have experience making payments towards VA benefit overpayment debt.
+- We would like for Perigean to recruit a total of 15 Veterans who do not use assistive technology. We are aiming for 10 sessions total.  
+- Per VA guidance, the team will conduct an additional round of usability testing for accessible technology (assistive device, etc.) users once we have a coded prototype.
 
 ### Recruitment criteria
 
@@ -418,7 +411,6 @@ Provide a link to any materials you need to run your study, including any materi
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 > [!NOTE]
 > Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 10 ideal completed sessions, request 15 total participants)*
-
 
 - `Veterans:` **[15]**
 - `Caregivers:` **[0]**
@@ -438,18 +430,17 @@ Provide a link to any materials you need to run your study, including any materi
 #### Secondary criteria (nice-to-haves)
 *What criteria would strengthen your results?* 
 
-- `At least 5 have had a debt repayment plan with the VA in the last year`
-- `At least 6 ages 55+`
-- `At least 6 with an annual household income of less than 50K`
+- `At least 8 have had a debt repayment plan with the VA in the last year`
+- `At least 8 ages 55+`
+- `At least 8 with an annual household income of less than 50K`
 - `At least 6 participants must have experienced financial hardship now or in the past`
-- `At least 3 with cognitive disabilities`
-- `At least 3 who use screener readers or screen magnifiers`
-- `At least 3 under age 35`
-- `At least 4 people of color`
-- `At least 3 in a rural area`
-- `At least 3 without a degree`
-- `At least 2 with immigrant origins`
-- `At least 1 woman`
+- `At least 5 with cognitive disabilities`
+- `At least 5 under age 35`
+- `At least 5 people of color`
+- `At least 5 in a rural area`
+- `At least 5 without a degree`
+- `At least 3 with immigrant origins`
+- `At least 2 women`
 - `At least 1 from the LGBTQ+ community`
 
 ## Screener questions
@@ -480,7 +471,7 @@ Screener question 3
 
 Quotas: 
 
-* Please aim for at least 5 of 10 participants to have been on payment plans with the VA in the past year
+* Please aim for at least 8 participants to have been on payment plans with the VA in the past year
 
 Screener question 4
 
@@ -492,7 +483,7 @@ Please select the statement(s) that apply to you: (Check all that apply)
 
 Quotas:
 
-* Aim for at least 5-6 of 10 participants to have experienced financial hardship
+* Aim for at least 6 participants to have experienced financial hardship
 
 
 Screener question 5
@@ -515,38 +506,12 @@ Screener question 7
   * No  
   * Decline to answer
 
-For AT Users
-
-Quotas:
-
-*Aim for at least 3 participants to use screen readers or screen magnifiers
-
-##### **For Screen reader or screen magnifier users**
-
 Screener question 8
 
-* Do you need a screen reader or screen magnifier every time you use the Internet? We ask this question because we want to make sure that our website works for people who rely on these types of technologies.  
-  * Yes  
-    * How long have you been using this screen reader or screen magnifier?  
-      * Less than 1 year \[DISQUALIFY\]  
-      * At least one year   
-  * No. 
-
-Screener question 9
-
-* Are you willing to join the Zoom session using this assistive technology?  
-  * Yes  
-  * No
-
-Screener question 10
-
-* What is the name of the screen reader or screen magnifier technology that you will use during the Zoom session?  
-  * Response option: Text box
-
-Screener question 11
-
-* What (if any) accommodations will you need to participate in this Zoom session?  
-  * Response option: text box.
+*What device will you use to join the session?
+  * Desktop or laptop computer  
+  * Smartphone  
+  * Tablet
 
 ## Timeline 🗓️
 > [!NOTE]
@@ -554,7 +519,7 @@ Screener question 11
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **[TBD MM/DD HH:MM]**
+- `Suggested dates and times:` **2/20/26, 1-5pm ET**
 
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
@@ -563,19 +528,18 @@ Screener question 11
 > [!NOTE]
 > **Send pilot participant email in study Slack channel**
 
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- `Pilot participant name:` **Robin Garrison**
+- `Date and time of pilot session:` **Tuesday, February 24, 12-1:15pm ET** 
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **3/2/26-3/23/26**
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **[75 minutes for non-AT users, 
-140 minutes for AT users]**
+- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **75 minutes**
   
-- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **[60 mins]**
+- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **60 mins**
   
-- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **[2 per day]**
+- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **2 per day**
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
@@ -587,13 +551,22 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 > Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
 >
 > **Place time slots between `hash marks` when in edit mode.**
-TBD, 12-5pm ET
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `Add more slots as needed`
+
+- `3/2, Monday, 12:00PM-5:00PM EST`
+- `3/3, Tuesday, 12:00PM-5:00PM EST`
+- `3/4, Wednesday, 12:00PM-5:00PM EST`
+- `3/5, Thursday, 12:00PM-5:00PM EST`
+- `3/9, Monday, 12:00PM-5:00PM EST`
+- `3/10, Tuesday, 12:00PM-5:00PM EST`
+- `3/11, Wednesday, 12:00PM-5:00PM EST`
+- `3/12, Thursday, 12:00PM-5:00PM EST`
+- `3/13, Friday, 12:00PM-5:00PM EST`
+- `3/16, Monday, 12:00PM-5:00PM EST`
+- `3/17, Tuesday, 12:00PM-5:00PM EST`
+- `3/18, Wednesday, 12:00PM-5:00PM EST`
+- `3/19, Thursday, 12:00PM-5:00PM EST`
+- `3/20, Friday, 12:00PM-5:00PM EST`
+- `3/23, Monday, 12:00PM-5:00PM EST`
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
@@ -602,20 +575,19 @@ TBD, 12-5pm ET
 >
 > **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
 
-- `Moderator:` **[Risha Lee]**	
-- `Research guide writing and task development (usually but not always same as moderator):` **[Risha Lee]**		
-- `Participant recruiting & screening:`	**[Perigean]**	
-- `Project point of contact:` **[Risha Lee]**		
-- `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[TBD]**	
-- `Note-takers:` **[Megan Gayle and Joseph Lee]**	
+- `Moderator:` **Risha Lee**	
+- `Research guide writing and task development (usually but not always same as moderator):` **Risha Lee**		
+- `Participant recruiting & screening:`	**Perigean**	
+- `Project point of contact:` **Risha Lee**		
+- `Note-takers:` **Megan Gayle and Joseph Lee**	
 - `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
 
-- **[Denise Coveyduc]**
-- **[Heather Rienks]**
-- **[Tom Davis]**
+- **Denise Coveyduc**
+- **Heather Rienks**
+- **Tom Davis**
 
 ## Approvals ✅
 > [!NOTE]
 > Before submitting for review, ensure you've completed the YAML frontmatter section at the top of this document using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md).
-- `Reviewed by [Denise Coveyduc, Financial Management Team Lead] on [02-11-2026]`
-- `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
+- `Reviewed by Denise Coveyduc, Financial Management Team Lead on [02-11-2026]`
+- `Reviewed by Kevin M. Hoffman for Shane Strassberg, OCTO Research-Ops Lead on [02-19-2026]`

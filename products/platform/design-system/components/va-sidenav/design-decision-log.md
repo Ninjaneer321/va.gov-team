@@ -171,3 +171,12 @@ We will **automatically add <code>#content</code> to the URL** when routing or u
  This ensures consistency with VA.gov behavior and improves accessibility by: 
 
 * Maintaining a consistent experience across VA.gov applications 
+
+## **011 – Adding props for customizing mobile header, aria-label, and exposing accordion parts**
+
+**Context**
+
+- Add props for customizing header and aria-label. Additional props added for experimenting with the sidenav component as a stepper component. 
+- [This PR](https://github.com/department-of-veterans-affairs/component-library/pull/1955) includes discussion around exposing `va-accordion` parts for styling customization along with new props for the `nav` element aria-label and optional mobile header specific content
+
+

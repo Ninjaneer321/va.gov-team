@@ -46,14 +46,14 @@ The VA wants to ensure that important email communications reach Veterans from t
 
 * The Authenticated Experience team is creating an email verification process for [VA.gov](http://VA.gov). The Mobile Feature Support (MFS) team will be responsible for implementing the email verification process on the mobile app. TBD on when this will be implemented on [VA.gov](http://VA.gov).
 * The email confirmation enrty point include:
-  * Initial Launch (TBD on release, but Authenticated Experience is aiming for FY26Q1)
+  * Initial Launch (TBD on release, but Authenticated Experience is aiming for June 2026 or July 2026)
   * Annual reminder (this annual reminder is sent a year from when the user verified their email)
     * The Authenticated Experience team notes that the team is holding on the annual reminder until post launch.
   * When a user adds a new contact email
-* The VA Mobile App team is currently working on an initiative that prompts the Veteran to update or add an email in their profile for Veterans who haven't updated or confirmed their email since March 1, 2025. The MHV email confirmation is planned to be removed by the end of the year (2025), but the timeline could be impacted by the shutdown.
+* The VA Mobile App team is currently working on an initiative that prompts the Veteran to update or add an email in their profile for Veterans who haven't updated or confirmed their email since March 1, 2025. The MHV email confirmation is planned to be removed by April 1st, 2026.
 * Figma [file](https://www.figma.com/design/qe0ByBX1Ou5PFmVgeayzMG/Email-Verification?node-id=338-22740&t=xAGgVx41WfMhNxVP-0) for VA.gov email confirmation flow.
-* The Authenticated Experience team is looking to launch the Email Verification campaign on **April 1st, 2026**. TBD if the MFS team can also commit to a timeline that aligns with the Mobile App Release schedule.
-* If a Veteran does not have a contact email they will not see the alerts and will not be part of the verification flow.
+* The Authenticated Experience team is looking to launch the Email Verification campaign around June or July of 2026. 
+* If a Veteran does not have a contact email they will not see the alerts and will not be part of the verification flow. 
 * Internally, this initiative is referred to as Email Verification, but to Veterans, this initiative is referred to as Email Confirmation. 
  
 ## VAHB Email Confirmation Feature MVP
@@ -69,7 +69,7 @@ The VA wants to ensure that important email communications reach Veterans from t
   * Contact email not confirmed
   * Contact email confirmed 
 * Alerts will follow the same pattern that the VA Mobile app team has established and be displayed within the following locations of the VAHB app:
-  * Home page
+  * Home screen
   * Profile
 * The following alerts will be included (**these alerts will need to align with mobile formatting and standards**):
   * Resend contact email confirmation link
@@ -83,7 +83,7 @@ The VA wants to ensure that important email communications reach Veterans from t
 * VAHB will utilize the same emails that the Authenticated Experience team creates. This includes the initial launch and annual reminder
   * Confirm your email address (initial launch)
   * Email address confirmed (initial launch)
-* VAHB will direct users to the shared landing pages that are being built by the Authenticated Experience team. A user will get an email with a link, if they clink on the link from their email on their mobile device then it would take them to a landing page on VA.gov using their default browser. These landing pages include: 
+* VAHB will direct users to the shared landing pages that are being built by the Authenticated Experience team. A user will get an email with a link, if they click on the link from their email on their mobile device then it would take them to a landing page on VA.gov using their default browser. These landing pages include: 
   * Email confirmation success page
   * Email confirmation expired linking page
   * Email already confirmed web page  
@@ -92,7 +92,8 @@ The VA wants to ensure that important email communications reach Veterans from t
 
 * We will not include the alert within the notification settings of the VAHB app.
 * Interstitials will not be included on the app.
-* Push notifications to a user. 
+* Push notifications to a user.
+* Deep link within the email to take a user back to the mobile. The Authenticated Experience Team decided that, since we cannot determine the user's device in real time, we should not include a deep link in the emails. 
 
 ## Solution Approach
  

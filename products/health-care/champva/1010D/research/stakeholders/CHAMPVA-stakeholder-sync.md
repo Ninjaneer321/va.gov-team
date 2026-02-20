@@ -1,6 +1,56 @@
 ## CHAMPVA biweekly stakeholder sync
 Every other Tuesday at 10:35am ET
 
+# Meeting Notes
+
+## 02/017/26
+**Backlog Time Estimate – Decision Packet Mailing**
+
+- **Eligibility determination** is now being completed within **24 hours of receipt** (Luke L).
+- **Decision packets** are mailed after determination.
+  - Expected mail delivery timeframe: **7–10 days** (Luke L).
+
+**Contact Center Information**
+
+- **CHAMPVA Contact Center Number:** 800-733-8387  
+- **Hours:** 8:00 AM – 7:30 PM Eastern Time, Monday–Friday  
+- Confirmed by Luke L.
+
+**Sendback Letter Discussion**
+
+- Previously provided counts were for **enrollment only**, not claims.
+- It is possible to obtain numbers for **both enrollment and claims** — they are distinguishable.
+- Stakeholders are working on a **dashboard** to gather this information as needed.
+  - No specific timeline has been determined.
+
+
+**Communication Reporting & Data Tracking***
+
+- Gene is currently receiving daily emails from:
+  - Box.com  
+  - CP&E  
+  - Other communication channels  
+- Still working on obtaining communication numbers from **VES**.
+- Angela P was unsure whether contractors could be added to those daily emails.
+- Andrea clarified that **monthly numbers are sufficient** (no need for daily updates).
+- Luke, Angela P, and Andrea agreed to connect after the call to determine the best way to request monthly numbers.
+- Angela suggested a **Power BI report** could potentially be created to streamline reporting.
+
+**Action Item**
+- **Andrea** to reach out to Luke and Angela P to determine the process for requesting monthly numbers.
+
+
+**Sendback Letters – Additional Context**
+
+- Liz L explained that sendback letters may not always decrease with form improvements, as some letters are sent even when all correct information has been collected.
+- The VA.gov team noted that even letters sent for **ineligibility** are valuable data.
+  - This data could inform potential digital solutions (e.g., **TRICARE eligibility check** within the form).
+
+**Follow-Up Action**
+- Obtain more information on how sendback letters and other communications are categorized.
+- Explore whether trends can be identified within the broader dataset.
+
+
 ## 02/03/26
 **Attendees**
 Renata, Mike, Andrea, Hieu, Premal, Amanda, John, Steve, Rogelio, Angela C., Luke, Gina, Angela P. Scott, Tony

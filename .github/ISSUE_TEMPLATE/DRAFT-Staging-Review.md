@@ -9,26 +9,31 @@ assignees: ''
 
 ## About Staging Review 
 
-The [Staging Review touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/midpoint-review) is a synchronous half-hour discussion or an asynchronous review. The goal is to confirm your prototype or mockup aligns with existing VA.gov patterns and standards and to ensure your product is ready for successful research activities.
+The [Staging Review touchpoint](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/staging-review) is a synchronous half-hour meeting and the last opportunity to ensure your product is accessible, compliant, and consistent with VA.gov Experience Standards, QA Standards, and Engineering and Security Standards before releasing to VA.gov users.
 
 ## Before the meeting
+
+### :one: VFS team: create ticket
+- [ ] Open this ticket using the "Create" button.
   
-### :one: VFS team: schedule the meeting
-- [ ] Review [Staging Review Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/staging-review) to understand what this touchpoint involves.
+### :two: Schedule the meeting
+
+#### VFS team actions
+- [ ] Review [Staging Review guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/staging-review) to understand what this touchpoint involves.
 - [ ] Schedule your Staging Review (with at least 4 business days lead time from now):
-  - Open the <a href="https://calendly.com/collaboration-cycle/staging-review" target="_blank">Calendly Staging Review calendar (opens in a new tab)</a>
-  - Select a date and time and click "Confirm"
+  - Open the [Calendly Staging Review calendar](https://calendly.com/collaboration-cycle/staging-review)
+  - Select a date and time
   - Add your name and email
-  - Click "Add Guests" and enter the email addresses for VFS team attendees
-  - Click "Schedule Event"
-- [ ] Add meeting date/time:
+  - Add VFS team attendees as guests
+  - Schedule the event
 - [ ] If this product contains any [experimental design](https://design.va.gov/about/contributing-to-the-design-system/experimental-components-and-patterns), add the `experimental-design` label and schedule a meeting with Design System Council to present the research findings.
 
 #### Governance Team actions
 - [ ] Add link to Collaboration Cycle ticket
 - [ ] Add link to Slack thread
+- [ ] Add meeting date/time:
 
-### :two: VFS team: add links to artifacts at least 4 business days before the meeting
+### :three: VFS team: add links to artifacts at least 4 business days before the meeting
 Link all artifacts in this section of the ticket **at least four business days** before the scheduled Staging Review. Please don't add artifacts in the comments section. Please do not make changes to the product or artifacts during the 4-day review period. 
  [Review guidance on Staging Review artifacts.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Staging-review.1810137181.html#Stagingreview-Artifacts)
 
@@ -63,14 +68,13 @@ Link all artifacts in this section of the ticket **at least four business days**
   - [ ] Logging silent failures
   - [ ] PDF Form Version Validation
   - [ ] No Cross-App Dependencies
-- [ ] Link your completed **[Engineering and Security Checklist](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/platform/engineering/collaboration-cycle/architecture-intent/checklist/eng-sec-checklist.md)**
+- [ ] **Engineering and Security artifact:** Link your completed [Engineering and Security Checklist](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/platform/engineering/collaboration-cycle/architecture-intent/checklist/eng-sec-checklist.md)
 
-**If you skipped both Design Intent and Midpoint Review, additional required artifacts**
+##### If you skipped both Design Intent and Midpoint Review, additional required artifacts
 - [ ] Updated product outline
 - [ ] User flow for the current state of the product (currently in production)
 - [ ] User flow for the updated state of the product (reflects changes being reviewed)
-[Guidance on user flows](https://depo-platform-documentation.scrollhelp.site/research-design/guidance-for-creating-user-flows)
-
+  - [Guidance on user flows](https://depo-platform-documentation.scrollhelp.site/research-design/guidance-for-creating-user-flows)
 
 #### Not required, but nice to have artifacts
 - [ ] **Content source of truth:** link to Content and Information Architecture team Content feedback, such as a content source of truth.
@@ -78,16 +82,17 @@ Link all artifacts in this section of the ticket **at least four business days**
 
 ## During the meeting
 
-[What to expect during a Staging Review.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/midpoint-review#MidpointReview-WhathappensduringtheMidpointReview?)
+[What to expect during a Staging Review.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/staging-review#StagingReview-WhathappensduringtheStagingReview?)
 
 ## After the meeting
 
 ### VFS team actions
-- [ ] Review the findings tickets and comment on the ticket if there are any questions or concerns
+- [ ] Review the findings tickets (linked from this ticket's milestone)
+- [ ] Comment on tickets if there are any questions or concerns
 - [ ] Close individual findings tickets when the issue has been resolved or validated by your Product Owner. If a team has additional questions or needs Platform help validating the issue, please comment on the issue ticket.
 - [ ] After launch, [request an accessibility audit from the VA 508 Office](https://depo-platform-documentation.scrollhelp.site/developer-docs/request-support-from-the-va-508-office#RequestsupportfromtheVA508office-AuditRequest). This is required even if no accessibility issues were found during the Staging Review.
   - [ ] Share ServiceNow ticket number here: ______
-- [ ] Close ticket once Privacy, Security, Infrastructure Readiness Review has been completed, VA 508 Office audit is requested, and all other post-Staging actions are complete
+- [ ] Close ticket once VA 508 Office audit is requested, and all other post-Staging actions are complete
 
 ### Governance Team actions
 - [ ] Add link to recording

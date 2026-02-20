@@ -111,46 +111,33 @@ tags:
 > 
 > Use the [GitHub Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed research plan.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags. 
 
-	# Research Plan for [Team, Product, Date]
-> [!NOTE]
-> *Questions about how to set up your research study? Reach out in the [#research-ops](https://dsva.slack.com/archives/C0216PL32HJ) Slack channel.* 
+# Research Plan for Sitewide Navigation, March 2026
+
 
 ## Background 🏗️
 <details><summary>Briefly describe the background of your product.</summary>
 	
 `What problem is your product trying to solve?`
 
-**As VA.gov continues to expand in features and content related to benefits, we need to ensure visitors can navigate the site to find the right information.  This research will evaluate the effectiveness of the organization and labeling in the key navigation components usedin the VA.gov benefit experience - the primary navigation menu in the header (labeled VA benefits and health care) and the secondary navigation in the benefit hub space shown in the left rail on desktop and in a drop list on mobile.  This research effort will not evaluate the design or interactions of those components, only the organization and labeling.**
+As VA.gov continues to expand in features and content related to benefits, we need to ensure visitors can navigate the site to find the right information.  This research will evaluate the effectiveness of the organization and labeling in the key navigation components usedin the VA.gov benefit experience - the primary navigation menu in the header (labeled VA benefits and health care) and the secondary navigation in the benefit hub space shown in the left rail on desktop and in a drop list on mobile.  This research effort will not evaluate the design or interactions of those components, only the organization and labeling.
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
-**Primary navigation is available to all users across the entire site.  Secondary naviation is available to all users within the benefit hub experience.**
+Primary navigation is available to all users across the entire site.  Secondary naviation is available to all users within the benefit hub experience.
   
 `What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
-**From Jan 1, 2025 - Sept 30, 2025 there were 10.7M searches submitted and 12.7M clickson the "VA Benefits and Health care menu option.**
+From Jan 1, 2025 - Sept 30, 2025 there were 10.7M searches submitted and 12.7M clicks on the "VA Benefits and Health care menu option.
 
 `Product Brief`
 
-**[VA.gov Information Architecture](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/information-architecture).**
+[VA.gov Information Architecture](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/information-architecture/README.md).
 
 </details>
 
 ### [OCTO-DE Priorities](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/strategy/OCTO%20FY26%20goals%20supported.md) 
 
 <details><summary>Which OCTO priorities does this research support? Work with your VA lead and product manager as needed. </summary>
-
-> **NOTE:** If a Key Result does not have a ***Research Ops Plain Language*** equivalent, it does not map to research supporting it as a key result for the parent objective.
-
-
-`Objective 1:  Optimize software delivery for Veteran impact.`  
-
-> - **Key Result 1.1:** All C100 products have a documented Product Vision, including identifying up to three Veteran-impacting KPIs, published on Product.VA.gov.
-  - ***Research Ops Plain Language:** Supports up to three Veteran-impacting Key Performance Indicators documented for this on Product.VA.gov*
-> - **Key Result 1.2:** Delivered 25 or more releases that have measurably improved a product's Veteran-impacting KPIs.
-  - ***Research Ops Plain Language:** Supports a production release that will measurably improved a product's Veteran-impacting KPIs.*
-> - Key Result 1.3:** OIT has avoided at least $5 million in cost via successful decommissioning of at least 10 systems.
-  - ***Research Ops Plain Language:** Supports the decommissioning of a legacy system.*
 
 `Objective 3: Relentlessly improve the user experience.`
 
@@ -161,18 +148,15 @@ tags:
 > - **Key Result 3.3:** 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system.
   - ***Research Ops Plain Language:** Supports the delivery of at least one release that directly addresses a documented user pain point within this product.*
 
-
 </details>
 
-> [!TIP]
-> Delete priorities not supported by this research.
 
 ### [Veteran Journey](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/va-product-journey-maps/Veteran%20Journey%20Map.pdf)
 
 <details><summary>Where does your product fit into the Veteran journey?
 Are there moments that matter?</summary>
 
-The Informaiton Architecture of VA.gov must support Veterans and Veteran family members and caregiver at all stages of the Veteran journey beyond joining to ensure they can explore, apply for, manage, and track the benefits VA has to offer.
+The Informaiton Architecture of VA.gov must support Veterans and Veteran family members and caregiver at all stages of the Veteran journey beyond "Joining" to ensure they can explore, apply for, manage, and track the benefits VA has to offer in the moments that matter.
 
 - `Serving`
 - `Getting Out`
@@ -186,90 +170,53 @@ The Informaiton Architecture of VA.gov must support Veterans and Veteran family 
 
 </details>
 
-> [!TIP]
-> Delete journeys not supported by this research.
-
 ## Research Goals 🥅	
 `What are you trying to learn from this research?` 
 
-> [!NOTE]
-> Limit 3 goals per study. If you have more than 3 goals, consider how to break up your research into iterative studies.
-
 ### Goals
 
-`1.` **Assess whether users can find key information related to top tasks on the site easily and with confidence**
-
-`2.` **Ensure the current navigation organziation and labels align with the mental models of our users**
+- `1.` Assess whether users can find key information related to top tasks on the site easily and with confidence.
+- `2.` Determine if the labels used in navigation meet the mental model of our users.
+- `3.` Determine if adding "My VA" and My HealtheVet" to the top level of navigation impacts findability of tools related to managing those benefits.
 
 
   
 ### Outcome
 `How will this research advance your product to the next phase in the design process? What will you do with your learnings?`
 
----
+Outcomes from this research will be used to inform and prioritize changes needed to menu labels, groupings, or broader site organization.
 
-**Outcomes from this research will be used to inform and prioritize changes needed to menu labels, groupings, or broader site organization. ** 
 
----
 
 ### Research questions
-> [!NOTE]
-> Do not write out all questions you plan to ask participants -- that should go in the` [conversation guide.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/conversation-guide-template.md)
-
-***Consider bucketing research questions under research goals and think about:***
 	
-`What will I do with what I learn from this question?`
-  
-`Does this question serve the goals of my study?`
+#### Goal 1: Assess whether users can find key information related to top tasks on the site easily and with confidence
+- `1.` Can users easily find information related to applying for key benefits?
+- `2.` Can users easily find key tools that help them manage benefits they are already receiving?
+- `3.` Is there a difference in findability between tools that align with a single benefit versus those that support multiple benefits?
 
-**`1.` Do site users understand where to find information related to applying for core benefits?**
+#### Goal 2: Determine if the labels used in navigation meet the mental model of our users.
+- `4.` Where do users look for information related to benefits for a Veteran family member or caregiver?
+- `5.` Is the Service member benefits hub a common destination for key tasks related to Veteran benefits?
+- `6.` Are Veterans able to determine which hub contains information related to the VR&E program?
 
-**`2.` Do site users understand where to find tools that help them manage benefits they are already receiving?**
+#### Goal 3: Determine if adding "My VA" and My HealtheVet" to the top level of navigation impacts findability of tools related to managing those benefits.
+- `7.` Is "My VA" a common pathway to tools related to managing benefits?
+- `8.` Is "My HealtheVet" a common pathway to tools related to managing health care?
 
-**`3.` Can users find benefit tools that are not specific to a single benefit?**
-
-**`4.` Can users find information related to applying for benefits for a Veteran family member or caregiver?**
-
-**`5.`[Enter Q5]**
-
-> [!TIP]
->Enter more questions as needed
 
 ### Hypotheses
-> [!NOTE]
-> Remember to constrain the hypotheses to the goals of your study!
- 
-**Think through these prompts to develop strong hypotheses:**
-	
-`What do you intend to learn and measure from this study?` 
 
-`What do you already know about this problem space?`
- 
-`What do you think users will do or think about this product? (Identifying our assumptions helps us be aware of biases we may unintentionally bring into the study, so don’t skip this step!)`
-  
-`Write a generalized statement that combines what you know + what you think will happen during the study.`
+- `1.` Users will be able to easily find key information related to learning about and applying for key Veteran benefits within their respective benefit hubs. 
+- `2.` Users will be able to easily find key information related to family member and caregiver benefts within the Family and Caregiver benefits hub.-
+- `3.` Users will not commonly utilize the Service member benefits hub as a destination for key Veteran benefit information and tools. 
+- `4.` Users will most commonly look in "My VA" and My HealtheVet" as ways to get to tools to manage their benefits.
 
----
-
-**Users will be able to find key informaiton related to learning about and applying for key benefits.  However, the existing benefit-centric organization of our menus will create challenges for users looking for tools used to manage benefits that are not specific to a single benefit category.** 
-
----
   
 ## Methodology  🛠️
 ***Describe the method you’re planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.*** 
 
-<details><summary>Examples of common research methods include</summary> 
-	
-- `Semi-structured interviews - appropriate for generative research`
-- `Contextual inquiry - appropriate for generative research`
-- `Card sorts - appropriate for generative and evaluative research; depending on the study design` 
-- `Tree tests - appropriate for evaluative research`
-- `Usability testing - appropriate for evaluative research`
-- `User acceptance testing (UAT) - required before product release`
-
-</details>
-
-**[Enter methodology here]**
+A tree test will be used to evaluate the existing navigation component organization and labels. The tree used in the test will reflect the labels and organizational structure that visitors must navigate through to get to content and tools within the benefit experience.  Participants will be asked to completed 10 tasks based on the most commonly accessed information and tools on the site.
 
 <details><summary>Additional resources</summary> 
 	
@@ -285,18 +232,10 @@ The Informaiton Architecture of VA.gov must support Veterans and Veteran family 
 ### Location
 Where will you be holding the research sessions? Be sure to include whether this is remote or in-person research. [Learn more about setting up in-person research.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/planning-in-person-research.md)
 
-> [!TIP]
-> Place [X] between brackets in edit mode to leave a checkmark in the correct box.
-
-- [ ] **Remote**
+- [x] **Remote - unmoderated**
 - [ ] **In-person**
       
-> [!NOTE]
-> If in-person, include:
 
-- `Location:` **[Enter text]**
-- `Point of contact:` **[Enter text]**
-- `Equipment used for research:` **[Enter text]**
 
 ## Research materials 📔
 
@@ -305,19 +244,10 @@ Where will you be holding the research sessions? Be sure to include whether this
 
 Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
 
-**For moderated interviews:** 
-	
-- [Link to conversation guide](url goes here)
-
-**For moderated usability tests:** 
-- [Link to conversation guide](url goes here)
-- [Link to prototype](url goes here)
-
 **For [unmoderated testing:](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html)**
 - [Link to email with instructions](url goes here)
 - [Link to prototype or OptimalSort session for group A](url goes here)
 - [Link to prototype or OptimalSort session for group B](url goes here)
-
 
 
 **If recruiting outside of Perigean’s participant database:**
@@ -333,7 +263,6 @@ Provide a link to any materials you need to run your study, including any materi
 
 ### Recruitment approach
 *Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
-- Perigean **CANNOT** recruit VA employees or VSOs. Work with your VA lead to recruit these groups. 
 - Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
 - Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
 
@@ -396,48 +325,23 @@ Provide a link to any materials you need to run your study, including any materi
 - `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
 
 ### Length of sessions
-- `Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)` **[Enter time length]**
-  
-- `Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)` **[Enter buffer time]**
-  
-- `Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)` **[Enter NUM per day]**
+- N/A
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
 
-> [!NOTE]
-> We recommend providing availability outside of work hours, as many Veterans are only available before and after working times, and live across the U.S. 
-
-> [!TIP]
-> Please request enough dates and at ***least double the amount of time slots for the number of requested participants***. **(e.g. 3/17, Monday 9:00AM-1:00PM, 3:00PM-6:00PM EST; 3/18, Tuesday 9:00AM-6:00PM EST, etc.;** ***12 time slots for 6 participants***). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
->
-> **Place time slots between `hash marks` when in edit mode.**
-
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `[MM/DD, Day, TT:TT AM/PM-TT:TT AM/PM] EST`
-- `Add more slots as needed`
+- N/A
   
 ## Team Roles  🕵️👩‍💻👩‍🔬
 
-> [!NOTE]
-> **Please do not include email addresses in this section.** We previously required email addresses. VA's GitHub policy ([see announcement](https://github.com/orgs/department-of-veterans-affairs/discussions/13)) has changed. VA.gov email addresses cannot be in public repositories.
->
-> **Please list the names of people in each role.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker.
+- `Moderator:` N/A	
+- `Research guide writing and task development (usually but not always same as moderator):` Mikki Northuis		
+- `Participant recruiting & screening:`	Perigean	
+- `Project point of contact:` Mikki Northuis	
+- `Accessibility specialist (for sessions where support for assistive technology may be needed):` N/A
+- `Note-takers:` N/A
+- `Observers: N/A
 
-- `Moderator:` **[Enter full name]**	
-- `Research guide writing and task development (usually but not always same as moderator):` **[Enter full name]**		
-- `Participant recruiting & screening:`	**[Enter full name]**	
-- `Project point of contact:` **[Enter full name]**		
-- `Accessibility specialist (for sessions where support for assistive technology may be needed):` **[Enter full name]**	
-- `Note-takers:` **[Enter full name]** ***or*** **[Designate Perigean]**	
-- `Observers: List the names of people observing the sessions. This includes VA stakeholders, engineering team members, design team members, and any other people who might find this research relevant to their work. Spread observers across sessions. There should be no more than 5 to 6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side.`
-
-- **[Enter full name]**
-- **[Enter full name]**
-- **[Enter full name]**
 
 ## Approvals ✅
 > [!NOTE]

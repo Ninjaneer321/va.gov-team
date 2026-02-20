@@ -156,7 +156,7 @@ Imagine a couple weeks ago you ordered a refill of Lipitor even though you wonâ€
 ---
 
 ## Task 2
-Two years ago, you developed a rash and, since it was new, your doctor gave you a one-time prescription for cream that successfully cleared it. The rash has unexpectedly reappeared, and you have an appointment with your doctor tomorrow. You want to ask for a refill of the cream but cannot recall its name. Where would you look to find the name of the cream? *(Review and print list of meds -> Inactive)*
+Two years ago, you developed a rash and, since it was new, your doctor gave you a one-time prescription for cream that successfully cleared it. The rash has unexpectedly reappeared, and you have an appointment with your doctor tomorrow. You want to ask for a refill of the cream but cannot recall its name. Where would you look to find the name of the cream? *(Review and print list of meds -> Inactive OR All medications filter)*
 
 1. What are you looking for?  
 2. Tell me what you are looking at.  

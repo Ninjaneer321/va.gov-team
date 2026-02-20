@@ -1,6 +1,6 @@
 # Email verification use cases
 
-Last updated: December 2025
+Last updated: February 2026, Update to tag content
 
 * Product documentation  
 * [User flow](https://www.figma.com/design/qe0ByBX1Ou5PFmVgeayzMG/Email-Verification?node-id=426-3819&t=N30vgrQI9DxPBK5E-1)  
@@ -231,5 +231,5 @@ The alert shows if the confirmation email has a permanent send failure. This cou
 
 Within the **Contact email** card on the **Contact information** page, a tag appears informing the user if their email is confirmed or not.
 
-* Display **EMAIL NOT CONFIRMED** when the email is not verified.  
-* Display **EMAIL CONFIRMED** when the email is verified.
+* Display **NOT CONFIRMED** when the email is not verified.  
+* Display **CONFIRMED** when the email is verified.

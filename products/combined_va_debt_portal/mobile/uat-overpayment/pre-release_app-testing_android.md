@@ -11,6 +11,8 @@
 
 1. Request public Firebase install link from mobile engineering
 
+    _Reference:_ [Distribute Android apps to testers using the Firebase console](https://firebase.google.com/docs/app-distribution/android/distribute-console?apptype=aab)
+
 
 ## Install and set-up
 

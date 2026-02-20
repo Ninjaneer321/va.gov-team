@@ -19,6 +19,7 @@ Expected Annual Submission: 3790
 | 01/27/26 | 0      | 5     | 0.13%     |
 | 02/03/26 | 1      | 6     | 0.16%     |
 | 02/10/26 | 2      | 8     | 0.21%     |
+| 02/18/26 | 1      | 9     | 0.24%     |
 
 ## Post-MVP Enhancements
 | Update Type | <div style="width: 300px;">Title / Description</div> | Category | Due Near-Term? | Layer | SME Discussion? | SME Testing? | Status | Story | Staging PR | Staging Merged Date | Notes |
@@ -32,7 +33,7 @@ Expected Annual Submission: 3790
 | Update | **Spell out full form names in intro page** <br> Non-blocking staging finding. Rather than just referencing other form numbers, we needed to expand those designations to include full form names for clarity | Staging Finding | - | Front-end |  | N | Complete | [123815](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123815) | [41537](https://github.com/department-of-veterans-affairs/vets-website/pull/41537) | 01/20/2026 |  |
 | Update | **Updates OMB expiration to match that provided on the PDF** | Form-Related Update | - | Front-end |  | N | Complete | [127557](https://github.com/department-of-veterans-affairs/va.gov-team/issues/127557) | [41482](https://github.com/department-of-veterans-affairs/vets-website/pull/41482) | 01/20/2026 |  |
 | Update | **Fix apartment unit field in PDF mapper** <br> Update PDF mapper so that non-digit characters in the "apt number" field get stamped in the PDF | Form-Related Update | - | Back-end | N | N | Complete | [130195](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130195) | [26149](https://github.com/department-of-veterans-affairs/vets-api/pull/26149) | 01/28/2026 |  |
-| Enhancement | **MMS/GCIO Integration** | Form-Related Update | - | Back-end | N | N | In Progress | [130768](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130768) |  |  |  |
+| Enhancement | **MMS/GCIO Integration** | Form-Related Update | - | Back-end | N | N | In Progress | [130768](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130768) | [26569](https://github.com/department-of-veterans-affairs/vets-api/pull/26569) |  |  |
 | Finding | **Submitting button low contrast** | Staging Finding | - | Front-end | N | N | Complete | [123825](https://github.com/department-of-veterans-affairs/va.gov-team/issues/123825) | [41846](https://github.com/department-of-veterans-affairs/vets-website/pull/41846) | 02/02/2026 |  |
 | Enhancement | **Find a Form search results page content** <br> Include a link to the online tool and update the form name. | Vendor Team Suggestion | - | Front-end | Y | Y | Not Started | [130091](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130091) |  |  |  |
 | Enhancement | **Find a Form page content** <br> Include a link to the online tool and update the form name. | Vendor Team Suggestion | - | Front-end | Y | Y | Not Started | [130092](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130092) |  |  |  |

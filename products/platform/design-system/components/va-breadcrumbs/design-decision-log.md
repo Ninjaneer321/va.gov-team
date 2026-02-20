@@ -3,6 +3,7 @@ Last updated: 4 Feb 2026
 
 - [ADR: 001 - Current page should be a link and look like a link](#ADR-001---Current-page-should-be-a-link-and-look-like-a-link)
 - [ADR: 002 - Make current page visually distinct with non-interactive styling](#ADR-002---Make-current-page-visually-distinct-with-non-interactive-styling)
+- [ADR: 003 - Where should focus go](#ADR-003---Where-should-focus-go)
 
 
 ## ADR 001 - Current page should be a link and look like a link
@@ -103,5 +104,32 @@ For the currently active page/language in selection/state components (language t
 - **Unintended Refreshes:** Users may accidentally click the current page link and trigger an unwanted page reload
 - **Counter-intuitive Design:** Styling suggests "you are here" (static) while behavior allows clicking (dynamic)
 - **Cursor Inconsistency:** May need to decide whether to show pointer cursor (indicating clickability) or default cursor (matching visual non-interactive appearance)
+
+### Open Questions
+
+---
+
+## ADR 003 - Where should focus go
+
+References to guidance on focus for the current page breadcrumb link - 
+- [Recommending focus move to the H1 on the page](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4820)
+- [Accessibility specialist recommending focus go to #main or something similar](https://github.com/department-of-veterans-affairs/va.gov-team/issues/53331#issuecomment-1804741992)
+- [VA Guidance on managing focus in form flows](https://design.va.gov/templates/forms/accessibility-guidelines#managing-focus-in-form-flows)
+- Bug: Selecting current page link in breadcrumb moves focus to MHV nav [#123109](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4820)
+
+### Status: PENDING
+
+- Date issue raised: FEB 19 2026
+- Decision date: 
+
+### Context
+There are current issues open related to the focus state for breadcrumbs. VADS guidance does not explicitly dictate where focus should go after clicking the current page breadcrumb link, but it does require the element to be keyboard-focusable in the first place.
+
+[VADS guidance on current page breadcrumb links](https://design.va.gov/components/breadcrumbs?utm_source=chatgpt.com#all-segments-of-the-breadcrumb-should-be-interactive-and-link-to-their-corresponding-page)
+
+### Decision
+Decision still pending...
+
+### Consequences
 
 ### Open Questions

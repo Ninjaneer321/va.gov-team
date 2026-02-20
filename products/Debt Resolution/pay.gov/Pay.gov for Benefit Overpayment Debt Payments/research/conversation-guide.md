@@ -2,7 +2,7 @@
 title: "Conversation Guide for Financial Management, Pay.gov for Benefit Overpayment Debt Payments, 2026-02-12"
 author: "Risha Lee"
 date_created: "2026-02-12"
-last_modified: "2026-02-12"
+last_modified: "2026-02-18"
 
 # NEW: Core research metadata
 team: "Financial Management"
@@ -33,8 +33,6 @@ tags:
   - "DSC: Alert Boxes"
   - "DSP: Form Templates"
   - "DSP: Help users to check answers"
-  - "Accessibility"
-
 description: "Moderated remote interview with embedded usability tasks to understand Veterans’ payment behaviors and evaluate the VA.gov-to-Pay.gov benefit overpayment debt payment flow (including payment method selection, data entry, review, and confirmation)."
 
 # NEW: Compliance flags
@@ -51,12 +49,6 @@ consent_for_clips: true
 
 > [!NOTE]
 > Review VA Platform's [Research Checklist](https://depo-platform-documentation.scrollhelp.site/research-design/research-checklist).
-
-`List and complete any project-specific setup tasks for this study below:`
-
-- [ ] Step 1
-- [ ] Step 2
-- [ ] Step 3
 
 ### Day of the session
 
@@ -75,7 +67,7 @@ consent_for_clips: true
 
 # Intro (7 minutes)
 
-* Thank you so much for joining today. My name is Risha, and \[NAME\] here will be taking notes. 
+* Thank you so much for joining today. My name is Risha, and \[NAME\] here will be taking notes.
 
 * Today, we’ll be discussing how people think about and manage payments. I’ll ask you some questions about your experiences making payments with the VA and other institutions. Then I’ll share a prototype of a part of the website we’re currently working on and ask for your feedback. How does that sound? 
 
@@ -83,7 +75,8 @@ consent_for_clips: true
 
 * I have \[number\] colleagues who are interested in observing this session to better understand the Veteran experience. Would you be okay with them observing?  
   * *If no: Use Slack to kindly ask the observers to leave the Zoom.*  
-  * *If yes: Admit observers.*  
+  * *If yes: Admit observers.*
+
 * This interview will take about 75 minutes. Because I want to keep us on time, I may occasionally prompt you to the next topic.
 
 * You are the expert, and we want your honest opinions. There are no right or wrong answers, and we’re not testing anything of you. I will not be offended by any opinions you share.
@@ -102,7 +95,8 @@ consent_for_clips: true
 
 ⏺️ Start recording.
 
-* I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?  
+* I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
+
 * Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners if we remove any information that can be used to identify you?
 
 * Do you have any questions before we get started?
@@ -119,38 +113,9 @@ consent_for_clips: true
 * Now I'd like you to share your screen with me. Tap on the button that says Share. Then there will be options for what to share. Please choose "Screen" (phone) or your web browser.  
 * Great, now I can see your screen\! Thank you for your patience in figuring this out.
 
-# Troubleshooting
-
-\[Avoid AI Companion, which is a new option next to “Share” in the Zoom buttons\]
-
-\[If see unpredictable jumping around behavior and participant is using a browser other than Chrome, ask them to switch to Chrome (this helped with VoiceOver on an iPhone using Safari)\]
-
-\[If having difficulty moving windows around or opening the prototype, you could request control of the participant’s screen and mouse in Zoom: `<Name>’s screen tab > Request remote control`. Then you can move/resize browser (but not zoom windows/buttons) and type into browser bar. The participant may need to minimize the zoom video view, and drag the zoom buttons to the bottom of the screen so out of the way.\]
-
-\[If can't see an iPhone's magnified screen, ask participant to go into their phone and do `Settings > Accessibility > Show while Mirroring`\]
-
-\[If “Uncaught runtime errors”, close with “X” (label “dismiss”) in top right corner, leave site if prompted.
-
-Check my browser window to see if codespace shut down.
-
-If so, restart it. Then have them click on the Apple button to resume/start over.\]
-
 # Warm-up (3 minutes)
 
 * My first question is to get to know you a little.  What is a recent hobby or interest?
-
-## For only assistive tech users (5 minutes)
-
-* **What assistive technology are you using right now? *(screen reader / magnifier \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_)***  
-  * *(If Dolphin screen reader, won't be able to share screen on Zoom)*  
-  * *(if no AT)* Do you sometimes use assistive technology while using VA.gov or filling out a form online?  
-    * If so, what do you use and when?  
-      * Would you be willing to start using it now in this session?  
-      * *(if not, run session w/o AT, or stop and ask Perigean for a replacement participant)*  
-* How would you rate your level of experience with using a screen *(reader / magnifier)*\--beginner, intermediate, advanced, or expert?  
-* How long have you been using a screen *(reader / magnifier)*?  
-* Have you ever shared your screen in Zoom while using a screen *(reader / magnifier)*? *(Yes / No)*  
-  * If not, we can help you do that.
 
 # Payment behaviors (25 minutes)
 
@@ -161,18 +126,9 @@ If so, restart it. Then have them click on the Apple button to resume/start over
   * What was easy? What was frustrating?
 
 * What would have made that experience easier?  
-  * \[PROBE: If veteran doesn’t mention recurring payments\] Have you ever considered setting up automatic payments for any of your debts?  
-    * \[IF YES\] What made you decide to set that up? How did you go about setting that up?  
-    * \[IF NO\] What made you decide against it?
 
 * Think about a recent payment you made that felt easier \- maybe a bill to your bank, credit card company, or another organization.  
   * Tell me about that experience. What made it easier than the VA?
-
-* Let me ask you a bit about how you manage your finances in general. How do you track and manage your finances?  
-  * What information matters most for you when you’re paying bills?  
-  * Do you use any apps, spreadsheets, or tools?  
-  * How do you make sure you have enough money in your account when payments are due?  
-  * What information do you need to feel confident making a payment?
 
 * Have you ever been on a payment plan with the VA?  
   * Tell me about that experience. How did you set it up?  
@@ -189,6 +145,16 @@ If so, restart it. Then have them click on the Apple button to resume/start over
   * How did you decide on the amount and timeline?  
   * What was easy? What was difficult?  
   * Would you do anything differently next time?
+
+* Have you ever considered setting up automatic payments for any of your debts?  
+  * \[IF YES\] What made you decide to set that up? How did you go about setting that up?  
+  * \[IF NO\] What made you decide against it?
+ 
+* Let me ask you a bit about how you manage your finances in general. How do you track and manage your finances?  
+  * What information matters most for you when you’re paying bills?  
+  * Do you use any apps, spreadsheets, or tools?  
+  * How do you make sure you have enough money in your account when payments are due?  
+  * What information do you need to feel confident making a payment?
 
 # Prototype section (30 min)
 

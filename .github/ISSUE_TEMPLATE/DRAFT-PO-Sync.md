@@ -13,18 +13,19 @@ The [PO Sync touchpoint](https://depo-platform-documentation.scrollhelp.site/col
 
 ## Before the meeting
 
-### :one: OCTO Product Owner: Schedule the meeting
+### :one: OCTO Product Owner: create ticket
+- [ ] Open this ticket by using the "Create" button
+
+### :two: OCTO Product Owner: schedule the meeting
 - [ ] Review [PO Sync Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/po-sync) to understand what this sync involves.
 - [ ] Schedule your PO Sync (with at least 2 business days lead time from now):
   - Open the [Calendly PO Sync calendar](https://calendly.com/collaboration-cycle/po-sync)
-  - Select a date and time and click "Confirm"
+  - Select a date and time
   - Add your name and email
-  - Click "Schedule Event"
-- [ ]  Add meeting information
-  - Meeting date/time:
-- [ ] If you haven't yet, finish opening this GitHub issue.
+  - Schedule the event
+- [ ]  Add meeting date/time:
 
-### :two: Add links to artifacts at least 2 days before the meeting
+### :three: OCTO Product Owner: add links to artifacts at least 2 days before the meeting
 Link all artifacts here **at least two business days** before the scheduled PO Sync. Please don't add artifacts in the comments section. [See guidance on PO Sync artifacts.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/po-sync#POSync-Whatartifactswillbeneeded?) 
 
 Required:

@@ -1,22 +1,10 @@
 # Regression test plan
 
-A Regression Test Plan is a document that maps user stories to tests and which includes the results of executing those tests, thereby providing a strategy for verifying the functionality of your product prior to the work moving through the Collaboration Cycle.
+A Regression Test Plan is a document that maps user stories to tests and which includes the results of executing those tests, thereby providing a strategy for verifying the functionality of your product prior to the work moving through the Collaboration Cycle. The following test rail test cases have been created to document how to test side nav functionality and its interaction with existing form functionality:
 
-<!-- A new test case has been added in [Test Rail](https://dsvavsp.testrail.io/index.php?/suites/view/2552)
-
-- C152128 - 526 Submission Experience - With new copy of submission accordion
-
-Existing test rail cases were tested
-- C37806 - 526 Minimal Test
-- C107773 - 526 Submission Experience - Minimal Test
-- C107916 -	526 Submission Experience - BDD (Benefits Delivery at Discharge) - minimal -->
-
-## Test Rail
-The following test rail test cases have been created to document how to test side nav functionality and its interaction with existing form functionality:
-
-- [Testing side nav with New Conditions flow](https://dsvavsp.testrail.io/index.php?/cases/view/158933)
-- [Testing side nav with CFI flow](https://dsvavsp.testrail.io/index.php?/cases/view/158934)
-- [Testing side nav with Save in progress form and resumption](https://dsvavsp.testrail.io/index.php?/cases/view/158935)
+- [C158933](https://dsvavsp.testrail.io/index.php?/cases/view/158933) - Testing side nav with New Conditions flow
+- [C158934](https://dsvavsp.testrail.io/index.php?/cases/view/158934) - Testing side nav with CFI flow
+- [C158935](https://dsvavsp.testrail.io/index.php?/cases/view/158935) - Testing side nav with Save in progress form and resumption
 
 
 ## Additional resources - Bug Bash
@@ -28,6 +16,10 @@ Our team conducted a comprehensive bug bash of the side navigation feature acros
 
 ## Traceability Statement
 
+**Traceability Report**
+- See [526 Sidenav MVP - Coverage for References (Cases) 2/19/2026](https://dsvavsp.testrail.io/index.php?/reports/view/1820)
+
+## Additional testing references
 **Unit Tests:**
 
 -  17 test cases covering component behavior
@@ -39,4 +31,4 @@ Our team conducted a comprehensive bug bash of the side navigation feature acros
 
 **Summary (Defects) reports**
 
--  Additional testing and addressing know issues is still underway
+-  See [Summary for Cases (Defects) 2/19/2026](https://dsvavsp.testrail.io/index.php?/reports/view/1821)

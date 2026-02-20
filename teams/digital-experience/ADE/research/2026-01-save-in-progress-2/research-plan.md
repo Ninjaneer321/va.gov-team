@@ -245,7 +245,7 @@ We would like Perigean to recruit assistive tech (AT) users and non-AT users.
 
     - If they say something non-digital like "magnifying glass", *DISQUALIFY* 
     - If they say "JAWS", "NVDA", "VoiceOver", "TalkBack", or "Narrator", *RECORD as **screen reader user**, RECRUIT 4 and ask next question*
-    - If they say "Magnifier", "Zoom", "Magnification", "Magnifier", or "ZoomText", *RECORD as **screen magnifier user**, RECRUIT 3 and ask next question*
+    - If they say "Magnifier", "Zoom", "Magnification", or "ZoomText", *RECORD as **screen magnifier user**, RECRUIT 3 and ask next question*
     - If they say "increase font size" or "zoom in the browser", ask  what percentage they zoom to. 
       - If 200% or greater, *RECORD as **screen magnifier user**, RECRUIT 3, and ask next question*
     - *If unsure whether someone qualifies, please ask Cindy*

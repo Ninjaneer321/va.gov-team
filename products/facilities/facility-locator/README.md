@@ -11,9 +11,9 @@ The Facility Locator is an unauthenticated search tool which can be used to find
 Search results connect to modernized websites for VAMCs and Vet Centers or legacy detail pages which provide basic location and service information for VBA and cemeteries.
 
 ## Team
-- Product Owner: Michelle Middaugh (suzanne.middaugh@va.gov)
+- Product Owner: Jonathan Katora (jonathan.katora@va.gov)
 - Facility API/Lighthouse Product Owner: Dawn Pruitt 
-- Product Manager: Jane Xiong 
+- Product Manager: Renata Bartlett
 - Zenhub label: Facilities, Facility Locator
 - Slack channel: #sitewide-facilities
 
