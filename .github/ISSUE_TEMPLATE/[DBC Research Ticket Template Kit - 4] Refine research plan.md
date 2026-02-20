@@ -19,7 +19,7 @@ This ticket should take well under a single sprint.
 
 ### Tasks
 - [ ] Incorporate feedback from UX enablement partner
-- [ ] IF changes have been significant, run the plan through the [Copilot research review prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/copilot-research-prompts/research-review/research-plan-analysis-prompt.md#research-plan-analysis-prompt-template) again and update as needed. (See Further Information below)
+- [ ] IF changes have been significant, run the plan through the [Copilot research review prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/copilot-research-prompts/research-review/research-plan-analysis-prompt.md#research-plan-analysis-prompt-template) again and update as needed. (review Further Information below)
 - [ ] Moderator(s) identified if moderated research
 - [ ] Identify time slots for research sessions (twice as many slots as # of participants desired) if moderated research
 
