@@ -9,7 +9,7 @@
 - Is it suspect that some of our SLO metrics returning 100% uptime/availability?
      - Per Steve M: This is not a usual occurrence
 - Utilization
-     - Percentage of requests vs total request capacity as gathered by our application web servers (puma).
+     - Per Platform guidance: "Percentage of requests vs total request capacity as gathered by our application web servers (puma)."
      - How should this be calculated?
      - How would we calculate max capacity?
      - Can we see CPUs in DD for the containers?
