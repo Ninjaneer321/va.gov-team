@@ -250,7 +250,7 @@ I'm now going to help you return your phone to the way it was.
 
 ## Consent to use video clips
 
-- I want to circle back and re-confirm: Are you okay with us sharing anonymized video clips from today’s session with VA partners?
+- I want to re-confirm: Are you okay with us sharing anonymized video clips from today’s session with VA partners?
 - Is there any part of our conversation you would NOT want included?
 
 
