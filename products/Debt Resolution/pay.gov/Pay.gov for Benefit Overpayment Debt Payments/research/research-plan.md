@@ -381,7 +381,7 @@ Provide a link to any materials you need to run your study, including any materi
 
 **For moderated usability tests:** 
 - [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/research/conversation-guide.md)
-- [Link to prototype](https://www.figma.com/proto/Yzumw4ai6JjkgS6jmB1PB5/Pay.gov-Hosted-Collections?node-id=40002346-61020&viewport=3519%2C-4684%2C0.25&t=RskLNxhHqH7nHhYc-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=40002346%3A61020))
+- [Link to prototype](https://www.figma.com/proto/Yzumw4ai6JjkgS6jmB1PB5/Pay.gov-Hosted-Collections?node-id=40002346-61020&viewport=3519%2C-4684%2C0.25&t=RskLNxhHqH7nHhYc-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=40002346%3A61020)
 
 	
 ## Recruitment 🎯	
