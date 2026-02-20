@@ -221,13 +221,13 @@ I'm now going to help you return your phone to the way it was.
 <summary>Android guidelines🤖</summary>
 
 - Uninstall the VA app
-    - _[option 1]_ Go to your home screen and fine the app icon. Long press and drag up to the top to Uninstall.
-    - _[option 2]_ Go to your home screen and fine the app icon. Long press and tap App info. Tap Uninstall.
+    - _[option 1]_ Go to your home screen and find the app icon. Long press and drag up to the top to Uninstall.
+    - _[option 2]_ Go to your home screen and find the app icon. Long press and tap App info. Tap Uninstall.
     - _[option 3]_ Open Google Play Store. Tap profile photo, tap "manage apps and device," tap "manage" and select VA app to delete.
 - Uninstall Firebase app
 - Install standard VA app
 - Toggle off "internal app sharing"
-    - Open Google Play Store, Tap profile photo, tap General, tap Developer options.
+    - Open Google Play Store, tap profile photo, tap General, tap Developer options.
 - Reset any other security settings you changed
 - Log back into VA app (if they want help)
 - _[if relevant]_ Turn notifications back on
