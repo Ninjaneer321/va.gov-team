@@ -105,7 +105,6 @@ Contacts: **Sarah Baron**, **Jordan Wood**
 - [Key findings](#user-content-key-findings)
 - [Recommendations](#user-content-recommendations)
 - [Next Steps](#user-content-next-steps)
-- [Further research needed](#user-content-further-research-needed)
 - [Appendix](#user-content-appendix)
 - [Research participants](#user-content-research-participants)
 
@@ -221,30 +220,24 @@ We used remote, moderated usability testing to observe research participants usi
 
 ## Recommendations
 
-1. **Consider revising the text for the marriage end/death of veteran question**  
-  - Because participants were put off and even insulted by this question, revise the text so that it does not equate death with the end of a marriage. 
-
+1. **Consider revising the text for the marriage end/death of veteran question**
+    - Because participants were put off and even insulted by this question, revise the text so that it does not equate death with the end of a marriage. 
 2. **Consider revising the workflow in the marriage section.**
-  - Participants completing the form who were married to the veteran when they died  said they wanted to skip the question, “How did the marriage end?” 
-
-3. **People did not understand some of the questions clearly, and said they wanted to know the reasons for those questions.** 
-  - They said that they were concerned about 
-    - Why the information was relevant, and 
-    - The implications of their answers on their benefits. 
-
+    - Participants completing the form who were married to the veteran when they died  said they wanted to skip the question, “How did the marriage end?” 
+3. **People did not understand some of the questions clearly, and said they wanted to know the reasons for those questions.**
+    - They said that they were concerned about 
+      - Why the information was relevant, and 
+      - The implications of their answers on their benefits. 
 4. **Consider fewer required questions and/or adding an “I don’t know” option to the responses.** 
-
-5. **Consider displaying the list of documents and the upload function on the same page at the end of the form.** 
-  - Users found it awkward to have to flip back and forth, write down, print, or otherwise remember what documents they need.  
-
+5. **Consider displaying the list of documents and the upload function on the same page at the end of the form.**
+    - Users found it awkward to have to flip back and forth, write down, print, or otherwise remember what documents they need.  
 6. **Format fields to be consistent with user expectations.** 
-  - Users expected two-digit fields for the Day and Month (i.e., use “01” for January),
-    - Note this was also an issue for vision-impaired participants. 
-  - One subject said they would like to see comma separators for currency fields. 
-  - Consider a dropdown/location finder for VA medical centers, as found on other VA forms. 
-
+    - Users expected two-digit fields for the Day and Month (i.e., use “01” for January),
+      - Note this was also an issue for vision-impaired participants. 
+    - One subject said they would like to see comma separators for currency fields. 
+    - Consider a dropdown/location finder for VA medical centers, as found on other VA forms. 
 7. **Update the confirmation to reflect digital submission.**
-  - The current confirmation, “Your submission is in progress. It can take up to 30 days for us to receive your form” gives an impression of inefficiency and long wait times. Consider revising the text to reassure them their submission was received. 
+    - The current confirmation, “Your submission is in progress. It can take up to 30 days for us to receive your form” gives an impression of inefficiency and long wait times. Consider revising the text to reassure them their submission was received. 
 
 ## Next Steps
 
@@ -372,4 +365,40 @@ This research does not include the perspectives of the following marginalized Ve
 
 ### Recruitment of underserved groups in VA Form 21P-534EZ usability Study
 
-➡️ _[paste markdown table of completed recruitment checker from Github Copilot chat]_
+
+| Category                                                                                                                                   | Target Group | Target % | Target # | # in Study | Target Achieved? |
+|--------------------------------------------------------------------------------------------------------------------------------------------|--------------|----------|----------|------------|------------------|
+| All participants                                                                                                                           | Total        | n/a      | n/a      | 9         | n/a              
+| Assistive Tech (AT) users                                                                                                                  | Total        | n/a      | n/a      | 2          | n/a              
+| No-show participants                                                                                                                       | Total        | n/a      | n/a      | 6          | n/a              
+| Age 55-64+                                                                                                                                 | General      | 50%      | 5        | 5          | yes               
+| Cognitive Disability                                                                                                                       | General      | 50%      | 5        | 3          | no               
+| Mobile user                                                                                                                                | General      | 50%      | 5        | 1          | no               
+| Rural                                                                                                                                      | General      | 25%      | 3        | 6          | yes              
+| No degree                                                                                                                                  | General      | 25%      | 3        | 0          | no               
+| Other than honorable                                                                                                                       | General      | 21%      | 2        | 0          | no               
+| Immigrant origin                                                                                                                           | General      | 17%      | 2        | 0          | no               
+| Women                                                                                                                                      | General      | 10%      | 1        | 5          | yes              
+| Expat (living abroad)                                                                                                                      | General      | .4%      | 1        | 0          | no               
+| Black or African American                                                                                                                  | Race         | 15%      | 2        | 1          | no              
+| Hispanic, Latino, or Spanish origin                                                                                                        | Race         | 12%      | 2        | 1          | no               
+| Biracial                                                                                                                                   | Race         | 3.9%     | 1        | 0          | no               
+| Asian                                                                                                                                      | Race         | 2.7%     | 1        | 1          | yes              
+| Native Hawaiian or other Pacific Islander                                                                                                  | Race         | .3%      | 1        | 0          | no               
+| First Nations (Canada)                                                                                                                     | Race         | n/a      | 1        | 0          | no               
+| Native, American Indian or Alaska Native                                                                                                   | Race         | 1.6%     | 1        | 0          | no               
+| Gay, lesbian, or bisexual                                                                                                                  | LGBTQ+       | n/a      | 1        | 1          | yes              
+| Transgender                                                                                                                                | LGBTQ+       | n/a      | 1        | 0          | no               
+| Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman                                 | LGBTQ+       | n/a      | 1        | 0          | no               
+| Beginner AT User                                                                                                                           | AT           | 50%      | 1        | 0          | no               
+| Experienced AT User                                                                                                                        | AT           | 50%      | 1        | 2          | yes              
+| Desktop Screen Reader (SR)                                                                                                                 | AT           | 20%      | 1        | 1          | yes               
+| Mobile Screen Reader (SR)                                                                                                                  | AT           | 20%      | 1        | 0          | no               
+| Magnification/Zoom                                                                                                                         | AT           | 20%      | 1        | 1          | yes              
+| Speech Input Tech (Siri, Dragon)                                                                                                           | AT           | 20%      | 1        | 0          | no               
+| Hearing Aids                                                                                                                               | AT           | 20%      | 1        | 0          | no               
+| Sighted Keyboard                                                                                                                           | AT           | 10%      | 1        | 0          | no               
+| Captions                                                                                                                                   | AT           | n/a      | 1        | 0          | no              
+| Switch Device                                                                                                                              | AT           | n/a      | 1        | 0          | no               
+| Braille Reader                                                                                                                             | AT           | n/a      | 1        | 0          | no               
+
