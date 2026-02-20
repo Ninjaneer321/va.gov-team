@@ -17,9 +17,9 @@ This work should fit within one sprint.
 [Add link when it's ready. Note status (in progress/final).]
 
 ### Tasks
-- [ ] Create initial draft of research plan based on Platform's Veteran-facing Research Plan Template. (See Further Information below)
+- [ ] Create initial draft of research plan based on Platform's Veteran-facing Research Plan Template. (review Further Information below)
    - [ ] Consult DBC Recruitment Equity Checker for under-represented groups to include in recruiting (NOTE: this is just an idea! We don’t have a checker explicitly for DBC. Discuss with your team / research lead.)
-- [ ] Run Copilot prompt to review plan; incorporate feedback as appropriate.(See Further Information below)
+- [ ] Run Copilot prompt to review plan; incorporate feedback as appropriate.(review Further Information below)
 - [ ] Share with HCD lead for review
 - [ ] Incorporate feedback from HCD lead
 - [ ] Share with UX enablement partner for review
