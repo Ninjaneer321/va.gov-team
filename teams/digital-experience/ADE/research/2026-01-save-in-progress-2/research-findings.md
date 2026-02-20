@@ -444,19 +444,19 @@ Eight participants said they wanted to be able to delete a form they started but
 
 ### For the Request Personal Records form
 
-1. Consider adding more details in the helper text for types of information would be helpful in the "Additional records information" field".
-   - _Supporting evidence_: Three of 7 participants said that they didn't know what kinds of information would be helpful to include.
+1. **Consider adding details in the helper text about what types of information would be helpful to enter in the "Additional records information"** field.
+   - _Supporting evidence_: Three of 7 participants said that they didn't know what kind of information would be helpful to include.
 
-1. Consider revising the "Your full name" text on the "Review and submit" page to include a reference to what you entered before: "Your name as entered previously", and also consider changing "Middle initial" to "Middle name".
-   - _Supporting evidence_: Participants didn't realize that the name that you enter here must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial.
+1. **Consider revising the "Your full name" prompt on the "Review and submit" page** to include a reference to what you entered before: "Your name as entered previously", **and also consider changing the "Middle initial" prompt to "Middle name"**.
+   - _Supporting evidence_: Participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as asked for earlier.
 
-1. Consider adding a second "United States" option to the "Country" dropdown where it fits alphabetically near the bottom of the list.
-   - _Supporting evidence_: One participant using a scroll wheel to traverse the dropdown list was unable to access "United States" at the top of the dropdown list, and he then looked near the bottom of the list where it would fit alphabetically, and it wasn't there either. 
+1. **Consider adding a second "United States" option to the "Country" dropdown where it fits alphabetically** near the bottom of the list.
+   - _Supporting evidence_: One participant using a scroll wheel to traverse the dropdown list was unable to see "United States" at the top of the dropdown list, and he then looked near the bottom of the list where it would fit alphabetically, and it wasn't there either. 
 
-1. Standardize on whether the word "optional" will be always or never be shown, and don't be inconsistent about sometimes showing it and other times not.
+1. **Standardize whether the word "optional" will be always or never be shown**, and be consistent about it.
    - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "optional", such as "VA file number".
 
-1. Make capitalization consistent on the "SSN/VA file number" page: "VA file number" (field name) vs. "VA File number" (hint text).
+1. **Make capitalization consistent on the "SSN/VA file number" page**: "VA file number" (field name) *vs.* "VA File number" (hint text).
    - _Supporting evidence_:  The field name "VA file number" has only "VA" capitalized, whereas the hint text also capitilizes the word "File".
 
 1. Consider separating the "Place of birth" field into separate "City" and "State" fields.
