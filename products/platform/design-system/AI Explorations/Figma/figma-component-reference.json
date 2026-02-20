@@ -1,0 +1,441 @@
+{
+  "generatedDate": "2026-02-19",
+  "source": "VA Design System Figma Library",
+  "note": "Figma component properties extracted for alignment with VADS web components. Use this to map Figma designs to va-* web component implementations.",
+  
+  "components": {
+    "Accordion": {
+      "figmaNodeId": "15:238",
+      "variants": [
+        "State=Closed, Body Border=Off, Content Type=Simple",
+        "State=Open, Body Border=Off, Content Type=Simple",
+        "State=Open, Body Border=Off, Content Type=Custom",
+        "State=Open, Body Border=On, Content Type=Simple",
+        "State=Open, Body Border=On, Content Type=Custom"
+      ],
+      "properties": {
+        "state": {
+          "type": "boolean",
+          "values": ["true (open)", "false (closed)"],
+          "mapsTo": "va-accordion-item.open"
+        },
+        "bodyBorder": {
+          "type": "boolean",
+          "values": ["true", "false"],
+          "mapsTo": "va-accordion.bordered or va-accordion-item.bordered"
+        },
+        "contentType": {
+          "type": "string",
+          "values": ["Simple", "Custom"],
+          "mapsTo": "Slot content in va-accordion-item"
+        },
+        "headingText": {
+          "type": "string",
+          "default": "Heading",
+          "mapsTo": "va-accordion-item.header"
+        },
+        "subheadingText": {
+          "type": "string",
+          "default": "Subheading",
+          "mapsTo": "va-accordion-item.subheader"
+        },
+        "showHeadingIcon": {
+          "type": "boolean",
+          "mapsTo": "Custom implementation - not directly supported"
+        },
+        "showSubheadingIcon": {
+          "type": "boolean",
+          "mapsTo": "Custom implementation - not directly supported"
+        },
+        "showSubheadingSection": {
+          "type": "boolean",
+          "mapsTo": "Conditionally include subheader attribute"
+        },
+        "showToggleButtons": {
+          "type": "boolean",
+          "note": "Expand/collapse all buttons",
+          "mapsTo": "Custom implementation outside accordion"
+        }
+      },
+      "documentation": "https://design.va.gov/components/accordion",
+      "webComponent": "va-accordion",
+      "notes": "Multi-selectable and borderless by default. Use va-accordion-item for individual items."
+    },
+    
+    "Button": {
+      "figmaNodeId": "614:2658",
+      "totalVariants": 48,
+      "properties": {
+        "type": {
+          "type": "string",
+          "values": ["Primary", "Secondary", "Alternate", "Destructive"],
+          "mapsTo": {
+            "Primary": "va-button (default)",
+            "Secondary": "va-button[secondary]",
+            "Alternate": "va-button[primary-alternate]",
+            "Destructive": "Custom styling - use status='error' on surrounding context"
+          }
+        },
+        "size": {
+          "type": "string",
+          "values": ["Default", "Large"],
+          "mapsTo": {
+            "Default": "va-button (default)",
+            "Large": "va-button[big]"
+          }
+        },
+        "state": {
+          "type": "string",
+          "values": ["Default", "Hover", "Focus", "Active", "Loading", "Disabled"],
+          "mapsTo": {
+            "Default": "Normal state",
+            "Hover": "CSS :hover pseudo-class",
+            "Focus": "CSS :focus pseudo-class",
+            "Active": "CSS :active pseudo-class",
+            "Loading": "va-button[loading]",
+            "Disabled": "va-button[disabled]"
+          }
+        },
+        "text": {
+          "type": "string",
+          "default": "Default",
+          "mapsTo": "va-button[text] attribute or slot content"
+        },
+        "showLeadingIcon": {
+          "type": "boolean",
+          "default": false,
+          "mapsTo": "Custom implementation - add icon in slot before text"
+        },
+        "showTrailingIcon": {
+          "type": "boolean",
+          "default": false,
+          "mapsTo": "Custom implementation - add icon in slot after text"
+        }
+      },
+      "documentation": "https://design.va.gov/components/button/",
+      "webComponent": "va-button",
+      "commonUsage": "<va-button text=\"Default\" secondary big loading disabled></va-button>",
+      "notes": "Button states (hover, focus, active) are handled by CSS. Use 'back' or 'continue' props for special form navigation buttons."
+    },
+    
+    "Link": {
+      "figmaNodeId": "15:2260",
+      "totalVariants": 80,
+      "properties": {
+        "type": {
+          "type": "string",
+          "values": ["Default", "Strong", "Active", "Back", "Calendar", "Channel", "Download", "Video"],
+          "mapsTo": {
+            "Default": "va-link (standard)",
+            "Strong": "va-link with bold text styling",
+            "Active": "va-link[active] - highlights current page",
+            "Back": "va-link[back] - adds back arrow icon",
+            "Calendar": "va-link with calendar icon (custom)",
+            "Channel": "va-link[channel] - external links",
+            "Download": "va-link[download]",
+            "Video": "va-link with video icon (custom)"
+          }
+        },
+        "state": {
+          "type": "string",
+          "values": ["Default", "Hover", "Focus", "Active", "Visited"],
+          "mapsTo": {
+            "Default": "Normal state",
+            "Hover": "CSS :hover pseudo-class",
+            "Focus": "CSS :focus pseudo-class",
+            "Active": "CSS :active pseudo-class",
+            "Visited": "CSS :visited pseudo-class"
+          }
+        },
+        "ofLines": {
+          "type": "string",
+          "values": ["1", "2"],
+          "note": "Number of lines the link text wraps to",
+          "mapsTo": "Text content - handled by CSS text wrapping"
+        },
+        "mode": {
+          "type": "string",
+          "values": ["Light", "Dark"],
+          "note": "Background context color mode",
+          "mapsTo": "CSS styling based on parent background"
+        },
+        "line1Text": {
+          "type": "string",
+          "default": "Link",
+          "mapsTo": "va-link[text] or slot content (first line)"
+        },
+        "line2Text": {
+          "type": "string",
+          "default": "Link",
+          "mapsTo": "Slot content (second line if multi-line)"
+        }
+      },
+      "documentation": "https://design.va.gov/components/link/",
+      "webComponent": "va-link",
+      "commonUsage": "<va-link href=\"/page\" text=\"Link text\" active back download channel></va-link>",
+      "notes": "Links can appear alone, inline, or in groups. Use va-link-action for action links. States are CSS-driven. Icons (calendar, video) may need custom implementation."
+    },
+    
+    "TextInput": {
+      "figmaNodeId": "1629:1567",
+      "variants": [
+        "State=Default",
+        "State=Error",
+        "State=Success"
+      ],
+      "properties": {
+        "state": {
+          "type": "string",
+          "values": ["Default", "Error", "Success"],
+          "mapsTo": {
+            "Default": "va-text-input (no error attribute)",
+            "Error": "va-text-input[error=\"Error message\"]",
+            "Success": "va-text-input[success] (custom implementation)"
+          }
+        },
+        "showHintText": {
+          "type": "boolean",
+          "default": false,
+          "mapsTo": "va-text-input[hint]"
+        },
+        "showAdditionalInfo": {
+          "type": "boolean",
+          "default": false,
+          "note": "Expandable additional info section",
+          "mapsTo": "Use va-additional-info component below the input"
+        },
+        "showCharacterCountHintText": {
+          "type": "boolean",
+          "default": false,
+          "mapsTo": "Custom implementation or use va-textarea with charcount"
+        },
+        "labelText": {
+          "type": "string",
+          "default": "Label",
+          "mapsTo": "va-text-input[label] (required)"
+        },
+        "labelState": {
+          "type": "string",
+          "values": ["Default", "Default + Required", "Error", "Error + Required"],
+          "mapsTo": {
+            "Required": "va-text-input[required]",
+            "Error": "va-text-input[error]"
+          }
+        },
+        "showPrefix": {
+          "type": "boolean",
+          "note": "Icon or text prefix inside input",
+          "mapsTo": "Custom implementation - not directly supported"
+        },
+        "showSuffix": {
+          "type": "boolean",
+          "note": "Text suffix (e.g., 'lbs.')",
+          "mapsTo": "Custom implementation - not directly supported"
+        },
+        "size": {
+          "type": "string",
+          "values": ["2XS", "XS", "SM", "MD", "LG", "XL", "2XL", "Custom"],
+          "note": "Width of input field",
+          "mapsTo": "CSS width styling or custom class"
+        },
+        "inputValue": {
+          "type": "string",
+          "mapsTo": "va-text-input[value]"
+        }
+      },
+      "documentation": "https://design.va.gov/components/form/text-input",
+      "webComponent": "va-text-input",
+      "commonUsage": "<va-text-input label=\"Label\" name=\"fieldName\" required error=\"Error message\" hint=\"Hint text\" value=\"\"></va-text-input>",
+      "notes": "Text input allows any text unless restricted. Use 'type' attribute for email, tel, url, etc. Use 'inputmode' for mobile keyboard optimization. Prefix/suffix not natively supported - requires custom wrapper."
+    },
+    
+    "CheckboxGroup": {
+      "figmaNodeId": "457:13307",
+      "variants": [
+        "State=Default",
+        "State=Error"
+      ],
+      "properties": {
+        "state": {
+          "type": "string",
+          "values": ["Default", "Error"],
+          "mapsTo": {
+            "Default": "va-checkbox-group (no error attribute)",
+            "Error": "va-checkbox-group[error=\"Error message\"]"
+          }
+        },
+        "labelHeader": {
+          "type": "string",
+          "default": "Label Header",
+          "mapsTo": "va-checkbox-group[label] (required)"
+        },
+        "showGroupHint": {
+          "type": "boolean",
+          "default": true,
+          "mapsTo": "va-checkbox-group[hint]"
+        },
+        "groupHintText": {
+          "type": "string",
+          "default": "Group hint text",
+          "mapsTo": "va-checkbox-group[hint]"
+        },
+        "checkboxes": {
+          "type": "array",
+          "note": "Variable number of checkboxes (1-10 in Figma)",
+          "mapsTo": "Child va-checkbox elements"
+        },
+        "checkboxLabel": {
+          "type": "string",
+          "perCheckbox": true,
+          "default": "Label",
+          "mapsTo": "va-checkbox[label]"
+        },
+        "checkboxChecked": {
+          "type": "boolean",
+          "perCheckbox": true,
+          "mapsTo": "va-checkbox[checked]"
+        }
+      },
+      "structure": {
+        "parent": "va-checkbox-group",
+        "children": "Multiple va-checkbox components",
+        "note": "Each va-checkbox must be a direct child of va-checkbox-group"
+      },
+      "documentation": "https://design.va.gov/components/form/checkbox",
+      "webComponent": "va-checkbox-group",
+      "commonUsage": "<va-checkbox-group label=\"Label Header\" hint=\"Group hint text\" error=\"Error message\" required>\n  <va-checkbox label=\"Option 1\" name=\"options\" value=\"1\" checked />\n  <va-checkbox label=\"Option 2\" name=\"options\" value=\"2\" />\n  <va-checkbox label=\"Option 3\" name=\"options\" value=\"3\" />\n</va-checkbox-group>",
+      "notes": "Groups checkboxes with shared label and validation. Each checkbox is an individual va-checkbox component. Use 'required' to make at least one selection mandatory."
+    },
+    
+    "RadioGroup": {
+      "figmaNodeId": "495:11388",
+      "variants": [
+        "State=Default",
+        "State=Error"
+      ],
+      "properties": {
+        "state": {
+          "type": "string",
+          "values": ["Default", "Error"],
+          "mapsTo": {
+            "Default": "va-radio (no error attribute)",
+            "Error": "va-radio[error=\"Error message\"]"
+          }
+        },
+        "labelHeader": {
+          "type": "string",
+          "default": "Label Header",
+          "mapsTo": "va-radio[label] (required)"
+        },
+        "showHint": {
+          "type": "boolean",
+          "default": false,
+          "mapsTo": "va-radio[hint]"
+        },
+        "hintText": {
+          "type": "string",
+          "default": "Hint Text",
+          "mapsTo": "va-radio[hint]"
+        },
+        "inlineErrorMessage": {
+          "type": "string",
+          "default": "Group Error Message",
+          "note": "Only appears in Error state",
+          "mapsTo": "va-radio[error]"
+        },
+        "radioButtons": {
+          "type": "array",
+          "note": "Variable number of radio buttons (1-12 in Figma)",
+          "mapsTo": "Child va-radio-option elements"
+        },
+        "radioLabel": {
+          "type": "string",
+          "perRadio": true,
+          "default": "Label",
+          "mapsTo": "va-radio-option[label] (required)"
+        },
+        "radioValue": {
+          "type": "string",
+          "perRadio": true,
+          "mapsTo": "va-radio-option[value] (required)"
+        },
+        "radioName": {
+          "type": "string",
+          "perRadio": true,
+          "note": "All options in a group share the same name",
+          "mapsTo": "va-radio-option[name] (required)"
+        }
+      },
+      "structure": {
+        "parent": "va-radio",
+        "children": "Multiple va-radio-option components",
+        "note": "Each va-radio-option must be a direct child of va-radio. Only one option can be selected at a time."
+      },
+      "documentation": "https://design.va.gov/components/form/radio-button",
+      "webComponent": "va-radio",
+      "commonUsage": "<va-radio label=\"Label Header\" hint=\"Hint Text\" error=\"Error message\" required>\n  <va-radio-option label=\"Option 1\" name=\"group-name\" value=\"1\" />\n  <va-radio-option label=\"Option 2\" name=\"group-name\" value=\"2\" checked />\n  <va-radio-option label=\"Option 3\" name=\"group-name\" value=\"3\" />\n</va-radio>",
+      "notes": "Radio buttons allow users to select exactly one choice from a group. All va-radio-option elements must share the same 'name' attribute. Use 'checked' on one option to set default selection. Use 'required' to make selection mandatory."
+    },
+    
+    "ProgressBarSegmented": {
+      "figmaNodeId": "1758:4429",
+      "figmaName": "Progress Bar - Segmented",
+      "alsoKnownAs": "Step Indicator",
+      "properties": {
+        "totalSteps": {
+          "type": "number",
+          "note": "Number of steps in the progress bar (3 in the example)",
+          "mapsTo": "va-segmented-progress-bar[total] (required)"
+        },
+        "currentStep": {
+          "type": "number",
+          "note": "The current step the user is on (1-based index)",
+          "mapsTo": "va-segmented-progress-bar[current] (required)"
+        },
+        "stepLabels": {
+          "type": "array of strings",
+          "example": ["Step 1 Label", "Step 2 Label", "Step 3 Label"],
+          "mapsTo": "va-segmented-progress-bar[labels] (semicolon-delimited string: \"Step 1;Step 2;Step 3\")"
+        },
+        "headingText": {
+          "type": "string",
+          "default": "Title",
+          "note": "The heading text displayed with the current step indicator",
+          "mapsTo": "va-segmented-progress-bar[heading-text]"
+        },
+        "counterStyle": {
+          "type": "string",
+          "values": ["default", "small"],
+          "note": "Whether to show number counters for each step",
+          "mapsTo": "va-segmented-progress-bar[counters]"
+        },
+        "centeredLabels": {
+          "type": "boolean",
+          "note": "Whether to center the step labels below counters",
+          "mapsTo": "va-segmented-progress-bar[centered-labels]"
+        },
+        "progressTerm": {
+          "type": "string",
+          "default": "Step",
+          "note": "The term used for screen readers (e.g., 'Step 2 of 5')",
+          "mapsTo": "va-segmented-progress-bar[progress-term]"
+        },
+        "headerLevel": {
+          "type": "number",
+          "values": [1, 2, 3, 4, 5, 6],
+          "default": 4,
+          "note": "Heading level for the progress bar heading",
+          "mapsTo": "va-segmented-progress-bar[header-level]"
+        }
+      },
+      "structure": {
+        "description": "Self-contained component with no children",
+        "note": "All steps, labels, and counters are configured via attributes"
+      },
+      "documentation": "https://design.va.gov/components/form/progress-bar-segmented",
+      "webComponent": "va-segmented-progress-bar",
+      "commonUsage": "<va-segmented-progress-bar\n  current=\"2\"\n  total=\"5\"\n  labels=\"Personal information;Household information;Financial information;Insurance information;Review application\"\n  heading-text=\"Household information\"\n  counters=\"default\"\n  centered-labels\n></va-segmented-progress-bar>",
+      "notes": "Updates users on their progress through a multi-step process. The component automatically styles completed steps (before current), the current step, and upcoming steps. Use in form flows to show progress across multiple pages."
+    }
+  }
+}
