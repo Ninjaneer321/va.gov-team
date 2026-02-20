@@ -2,7 +2,7 @@
 
 Collection of patterns supporting accessibility, along with the rationale for the pattern and a list of standards or other factors supported by the pattern.
 
-Last updated: 18 Feb 2026
+Last updated: 20 Feb 2026
 
 ## Alerts
 
