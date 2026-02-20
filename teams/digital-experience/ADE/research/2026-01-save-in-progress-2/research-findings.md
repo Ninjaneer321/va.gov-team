@@ -335,10 +335,10 @@ Eight participants said they wanted to be able to delete a form they started but
 
 1. Participants had some **usability issues on the form intro page**:
     
+    1. Two non-AT participants were **confused when they saw the form intro page** because they were looking for fields to fill out. One of them always uses Google to find VA forms and never sees the form intro page. The other didn't notice the form number below the big "Request personal records" heading, in part because it was split across two vertical lines: (1) "(VA Form 20-", and (2) "10206)". **INSERT IMAGE BELOW**
+
      1. Two screenreader users **expected to be able to click on one of the record types listed on the form intro page**, but they weren't clickable. This also happened to one screenreader user in the previous round of usability research.
         > *"But these are only bullets, not checkmarks, so I know I have to go to the form" (p4).*
-
-    1. Two non-AT participants were **confused when they saw the form intro page** because they were looking for fields to fill out. One of them always uses Google to find VA forms and never sees the form intro page. The other didn't notice the form number below the big "Request personal records" heading, in part because it was split across two vertical lines: (1) "(VA Form 20-", and (2) "10206)". **INSERT IMAGE BELOW**
 
     1. One participant **didn't know what "Fiduciary services" means** and how it's different from "Financial records". These were two of the items listed under "Types of information you can request". 
 
@@ -350,7 +350,10 @@ Eight participants said they wanted to be able to delete a form they started but
         > *"Trying to find the form was difficult. There was a lot of information on the page" (p7).*
 
 1. Participants encountered a number of **usability issues when filling out the Request Personal Records form**:
-     
+      1. **Prefill**: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. In the previous round of usability testing, one participant similarly expected prefill.
+
+        > *“Just your name and Social Security number--they should be able to find your records completely" (p3).*
+    
      1. When P9 (no AT) opened the "Additional information" accordion, focus moved down to the "Statement of truth", which made it seem like it was a part of the accordion, which it's not. A similar focus problem happened to the third pilot participant (using a screen magnifier), but it was worse because the accordion scrolled completely out of view, which was disorienting. The **extra scrolling is caused by scrollToFocus in the accordions**, which is supposed to ensure that the currently focused element is not off-screen for sighted keyboard users, but it causes other issues. 
 
      1. **Your full name**: One participant encountered an error when they entered a full name **(first-name middle-name last-name) that didn't match what they previously entered on the form (first-name middle-*initial* last-name)**. This seemed to the participant to be a bug in the form, since it asked for middle initial earlier but then asks for your full name at the end.
@@ -360,16 +363,14 @@ Eight participants said they wanted to be able to delete a form they started but
      1. **Country**: One participant was using a scroll wheel to traverse the dropdown list but **couldn't find "United States". When he scrolled to the top of list**, the first option was "Afghanistan" (the second option), and when he scrolled to the bottom of the list where "United States" should be alphabetically, it wasn't there either. He kept on scrolling down then up, and eventually was able to see "United States" at the very top.
      1. Confusion about **required *vs.* optional fields**: One participant didn't know that some fields (e.g., VA file number) were optional and tried to fill them all out. Another participant was confused by this same field because it didn't say "Required" or "Optional". He read the hint text that said you must enter *either* a Social Security number or VA File number. When he started typing in the "VA file number" field, the "Required" label moved to "VA file number", which surprised him. In the previous round of usability testing, 4 participants were similarly confused by the VA file number field and whether you could continue without entering it.
      1. **VA regional office name**: Two participants **weren't sure what to enter**. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other said that he wanted to select from a list of offices. In the previous round of usability testing, 3 participants were similarly confused by this field.
-     1. **Prefill**: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. In the previous round of usability testing, one participant similarly expected prefill.
-
-        > *“Just your name and Social Security number--they should be able to find your records completely" (p3).*
      1. **Place of birth**: One participant was **unsure how to enter both city and state** into the "Place of birth" field because it's a single text box. In the previous round of usability testing, we also heard this from participants. 
      1. **Back to previous page** link: One non-AT participant said  they didn't notice this link at the top of the page because it was so small. If he had seen that link, he said he would have used it because he avoids the browser back button since that often signs him out. He suggested adding a similar link to the bottom of the page, too, because you might be down there when you need it.
 
 
-1. Three participants had technical issues with their assistive tech:
+1. Three participants had technical issues with Zoom and their assistive tech:
 
      1. **Zoom silently kicked p4 out of the session when he clicked the "Sign in" or "Continue" button in the Codespace**. This happened repeatedly with him, and then he would rejoin the Zoom meeting. The participant was using VoiceOver on an iPhone 15 Pro running iOS 26.2, in Safari then Chrome--and tried both with and without sharing his screen. Jeana and Darby tried to reproduce this on their own iPhones with the same iOS version (26.2) but were unable to. It might have been caused by a RAM issue with running Zoom and the Codespace prototype at the same time, as the participant made it farther through the form when he wasn't screen sharing.
+     
      1. P11 was using Microsoft Magnifier (a screen magnifier) on an external monitor attached to his Windows computer, extending his display horizontally. **Every time he typed any character into a text field in the Codespace prototype, his viewport shifted way over to the right so he couldn't see what he was typing**. Focus remained in the input field, but p11 couldn't see it. This made filling out the form nearly impossible, so after some troubleshooting, p11 moved the prototype to his Windows laptop screen and then zoomed in.
 
           > *"When I'm typing something in, it keeps jumping me around, which is not normally what happens when I'm working...don't understand why it's doing that to me" (p11).*
@@ -382,7 +383,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
           It's probably not worth researching these two issues further because they only affect Microsoft Magnifier and our Codespace when the user is using an external monitor to extend the desktop horizontally.  
         
-     1. There were so **many technical problems with P12's session that we weren't able to get his screen shared or do *any* of the user tasks**. He was using the smartphone TCL K11 (model T432W), which is a low-end phone that runs Android 13 (Go edition). Below is a summary of the issues:
+     1. There were **so many technical problems with P12's session that we weren't able to get his screen shared or do *any* of the user tasks**. He was using the smartphone TCL K11 (model T432W), which is a low-end phone that runs Android 13 (Go edition), plus a physical jeweler's lens worn around his head that magnifies. Below is a summary of the technical issues:
 
         1. The Zoom audio stopped whenever any camera was on (this took a bit to figure out)
         1. The participant wanted to have his camera on, and he kept on switching it on (probably accidentally, but we couldn't confirm that because we lost the audio every time it happened)
