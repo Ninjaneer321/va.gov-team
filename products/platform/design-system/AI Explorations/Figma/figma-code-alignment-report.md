@@ -176,10 +176,12 @@
 **Web Component:** `va-icon`  
 **Maturity:** ⚠️ Caution (may have breaking changes)
 
-### ⚠️ Figma Component Not Yet Extracted
+### ⚠️ Architectural Difference - Discrete vs Parameterized
 
-4. **Icon:** Not extracted from Figma yet - `icon` prop is required
-The Icon component has not been extracted from the Figma library yet. Below are the web component requirements:
+**Figma Approach:** 100+ individual icon symbol components (e.g., `account_circle`, `add`, `arrow_back`)  
+**Code Approach:** Single `va-icon` component with `icon` prop specifying which icon to display
+
+This is a **fundamental architectural mismatch**. Designers select from a library of discrete icon components visually; developers use a single web component with an icon name string.
 
 ### 📋 Web Component Props (va-icon)
 
@@ -191,26 +193,34 @@ The Icon component has not been extracted from the Figma library yet. Below are 
 - `srtext` - Screen reader text for accessibility
 - `sprite-location` - Custom sprite sheet location
 
-### 🔍 What to Look For When Extracting from Figma
+### 🔄 How Figma Maps to Code
 
-When you extract the Icon component from Figma, check for these properties:
+| Figma | Code Equivalent | Alignment |
+|-------|-----------------|-----------|
+| Designer selects `account_circle` icon component | `<va-icon icon="account_circle">` | ⚠️ Requires name mapping |
+| Designer resizes icon instance (e.g., 24px → 48px) | `<va-icon size="3">` | ❌ Manual calculation needed |
+| Designer applies fill color | CSS styling or inherit from parent | ⚠️ CSS-based |
+| (Not available in Figma) | `<va-icon srtext="User account">` | ❌ Developer must add |
 
-1. **Icon name/type** - Should map to `icon` prop (required)
-2. **Size variants** - Should map to `size` prop
-3. **Accessibility text** - Should map to `srtext` prop
-4. **Color variants** - May need CSS custom properties
-5. **Decorative vs semantic** - Affects whether `srtext` is needed
+### ❌ Missing in Figma
 
-### 📝 Expected Alignment Issues
+- **Icon name as property** - Figma uses component selection, not a property
+- **Size property** - Designers manually resize; no standardized size prop
+- **Screen reader text (`srtext`)** - Accessibility text must be added by developers
+- **Sprite location** - Advanced feature not represented in design
 
-- Icon names in Figma may not match web component icon names exactly
-- Figma may use visual variants where code uses different icon names
-- Screen reader text (`srtext`) likely won't be in Figma properties
-- Custom sprite locations won't be designer-specified
+### 💡 Code Connect Implications
 
-### 💡 Recommendation
+**Traditional Code Connect won't work** for icons because:
 
-See the detailed Icon analysis above. Icons require a name mapping table between Figma component names and va-icon icon names for effective Code Connect implementation.
+1. There's no single Icon component in Figma to attach Code Connect to
+2. Each icon is a separate symbol with no properties to map
+3. Icon selection happens through component swap, not property change
+
+**Required Solution:**
+- Create a **name mapping table** between Figma icon component names and `va-icon` icon prop values
+- Consider a **custom Figma plugin** to help designers see the corresponding `icon` prop value for selected icons
+- Document **icon naming conventions** so designers know which Figma icons map to which code names
 
 ---
 
