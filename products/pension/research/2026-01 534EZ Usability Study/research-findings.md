@@ -149,7 +149,7 @@ We used remote, moderated usability testing to observe research participants usi
     - Participants often found the questions provided insufficient detail for them to answer confidently. 
 
 2. Family members won't find the number and content of the questions to be overly burdensome.
-    - **Likely False”**  
+    - **Likely False**  
     - Participants would express frustration and try skipping questions or said they would have given up and made an appointment with the VA to complete the form. 
 
 3. Family members will understand what supporting documents are needed to support their claim.
@@ -164,7 +164,7 @@ We used remote, moderated usability testing to observe research participants usi
 
 1. 7 out of 9 participants and two pilot participants struggled with the logic and found the workflow hard to follow, especially in the Household information / Marriage section.
 
-2. 5 out of 9 participants and one pilot participant reacted negatively to the way the form uses language about death and family relationships
+2. 5 out of 9 participants and one pilot participant reacted negatively to the way the form uses language about death and family relationships.
 
 3. For 3 of 9 participants and one pilot participant, audience ambiguity was a significant problem.
 
@@ -181,6 +181,7 @@ We used remote, moderated usability testing to observe research participants usi
     - Participants asked for clarification for terms like “claimant” and living “continuously” with the veteran.
 
 > “What if your veteran was deployed? What if he was in a nursing home?” - P6
+
 > “It's important for the form to be clear and concise, especially if it's a sudden passing.” - P3  
 
 #### 2. Participants reacted negatively to language about death and family relationships. 
@@ -198,7 +199,7 @@ We used remote, moderated usability testing to observe research participants usi
 
 > “And the [assets accordion tab], do you and your dependent have 25k in assets? Again, who is the “you”? The beginning part of the form was straightforward and made me feel like I was the surviving dependent, but towards the middle and end it was confusing as to who was doing what and the roles changed. [scrolls down] This doesn't make any sense at all. Who's the you??? Who is this you? (frustration). Is it a custodian? A caregiver? What? There's a lot of different roles there. I would get lost, I wouldn't know how to fill it out.” - P5
 
-> “Does selecting ‘spouse’ mean they were married or divorced? Maybe they could select ‘ex-spouse’ or ‘current spouse’. The start of the marriage section was confusing at first. - Pilot 1
+> “Does selecting ‘spouse’ mean they were married or divorced? Maybe they could select ‘ex-spouse’ or ‘current spouse’. The start of the marriage section was confusing at first." - Pilot 1
 
 > “But what if I was filling out for a child under 18? Whose role am I filling out? Confusing.” - P6
 
@@ -238,7 +239,7 @@ We used remote, moderated usability testing to observe research participants usi
 
 ## Recommendations
 
-1. Consider revising the text for the marriage end/death of veteran question
+1. Consider revising the text for the marriage end/death of veteran question.
     - Because participants were put off and even insulted by this question, revise the text so that it does not equate death with the end of a marriage. 
 2. Consider revising the workflow in the marriage section.
     - Participants completing the form who were married to the veteran when they died  said they wanted to skip the question, “How did the marriage end?” 
