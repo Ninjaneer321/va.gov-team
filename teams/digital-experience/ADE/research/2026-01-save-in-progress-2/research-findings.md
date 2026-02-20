@@ -456,17 +456,17 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Standardize whether the word "optional" will be always or never be shown**, and be consistent about it.
    - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "optional", such as "VA file number".
 
-1. **Make capitalization consistent on the "SSN/VA file number" page**: "VA file number" (field name) *vs.* "VA File number" (hint text).
-   - _Supporting evidence_:  The field name "VA file number" has only "VA" capitalized, whereas the hint text also capitilizes the word "File".
+1. **Make the capitalization for "VA file number" consistent on the "SSN/VA file number" page**.
+   - _Supporting evidence_:  The prompt "VA file number" has only "VA" capitalized, but the hint text also capitalizes the word "File".
 
-1. Consider separating the "Place of birth" field into separate "City" and "State" fields.
-     - _Supporting evidence_: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. 
+1. **Consider separating the "Place of birth" field into separate "City" and "State" fields** (and "Country"?).
+     - _Supporting evidence_: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. A participant in the previous round of usability testing expressed the same concern.
 
-1. Explore prefilling the Veteran's name, address, and other information, which we know once they've signed in. --> Jeana is working on this (**IS THIS STILL TRUE?**)
-     - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in.
+1. **Consider prefilling the Veteran's name, address, and other information** after they've signed in. --> *Is this being worked on?*
+     - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing had the same expectation.
 
-1. Explore providing a dropdown list of VA regional offices from which users can select.      
-     - _Supporting evidence_: Two participants weren't sure what to enter. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other said that they wanted to select from a list of offices. 
+1. **Consider providing a dropdown list of VA regional offices from which users can select.**      
+     - _Supporting evidence_: Two participants weren't sure what to enter. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other wanted to select from a list of offices. 
 
 ### For the ADE team
 1. Explore opportunities to help Veterans who are struggling with their assistive tech or may not be using any. 
