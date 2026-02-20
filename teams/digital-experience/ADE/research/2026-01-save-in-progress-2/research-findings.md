@@ -401,29 +401,31 @@ Eight participants said they wanted to be able to delete a form they started but
 1. Two participants said that they **prefer to fill out forms on paper instead of online**. One of them said it's easier and he likes to keep a copy. The other participant doesn't have a computer and said the following: 
    > *"I'm thinking I could fill it out quicker if I had it in front of me in paper and pencil...Slow [on phone] because of my vision and I'm not the greatest typist. I have to look at the keys to type, that’s why I prefer to write it out" (p2).*
 
-   At the end of the session, this participant said that this session had helped her learn how to navigate back to an in-progress form. She had been planning to print out a paper form from an online form she already started because she needed to upload 15 documents, but at the end of the session, she said that she might try to upload them online, given that she already completed most of the form online and now has learned that it's been saved. 
+   At the end of the session, this participant said that **this session had helped her learn how to navigate back to an in-progress form**. She had been planning to print out a paper form from an online form she already started because she needed to upload 15 documents, but at the end of the session, she said that she might try to upload them online, given that she already completed most of the form online and now has learned that it's been saved. 
 
 ## Recommendations   
 
 ### For the Design System and Forms team
-1. Investigate why the "Finish later" message is read so haltingly in small segments when using JAWS with a mouse. --> *Jeana will investigate to see if each segment is wrapped in a span, and if so, why.*
+1. **Remove the interstitial page and consider adding something very short just above the Continue button on every page** (e.g., "Your information is being saved automatically"). 
+   - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
+
+1. **Stop the automatic scrolling down when you open an accordion on the "Review and submit" page**. --> *Remove scrollToFocus from all accordions on the page*
+   - _Supporting evidence_: The scrolling is disorienting when focus lands on  content that isn't in the accordion (e.g., "Statement of truth" when you open the "Additional information" accordion) or scrolls so far that the accordion content is no longer in view when using a screen magnifier.  
+
+1. **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026.*
+   - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
+
+1. **Don't put essential information in the heading that isn't repeated below because some people  ignore the text of the heading.**
+   - _Supporting evidence_: Two participants didn't read the heading on the interstitial page but only the text below it.
+
+1. **Investigate why the "Finish later" message is read so haltingly in small segments when using JAWS with a mouse**. --> *Jeana will investigate to see if each segment is wrapped in a span, and if so, why.*
    - _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the "Finish later" informational alert.  
 
-1. **Remove the interstitial page and instead consider adding something very short just above the Continue button on every page** (e.g., "Your information is being saved automatically"). 
-   - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
-1. **Don't put essential information in the heading that isn't repeated below because some people will ignore the text of the heading.**
-   - _Supporting evidence_: Two participants didn't read the heading on the interstitial page but only the text below it.
-1. Investigate why P6 was unable to highlight past "3 of 6 records requested" on the page of record checkboxes. --> *Need to investigate* 
+1. **Investigate why P6 was unable to highlight past "3 of 6 records requested" on the page of record checkboxes**. 
    - _Supporting evidence_: P6 said that they were trying to highlight the entire page to read but could only select "3 of 6 records requested".
 
-1. Remove the automatic scrolling down when you open an accordion on the "Review and submit" page. --> *Remove scrollToFocus from all accordions on the page*
-   - _Supporting evidence_: The scrolling is disorienting when focus lands on  content that isn't in the accordion (e.g., "Statement of truth" when you open the "Additional information" accordion) or scrolls so far that the accordion content is no longer in view (when using a screen magnifier).  
-
-1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages.**
-   - _Supporting evidence:_ 4 of 8 participants didn't know what these phrases meant when seeing them as links on the interstitial page.
-
-1. **Consider moving the accordion controls to the left side of the item so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026.*
-   - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
+1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages because they're not intuitive.**
+   - _Supporting evidence:_ 4 of 8 participants didn't know what these phrases meant when seeing them in links on the interstitial page.
 
 1. **Consider keeping the "Expand all" link (ADD FROM SLACK DM CONVO W/JEANA)**
 
