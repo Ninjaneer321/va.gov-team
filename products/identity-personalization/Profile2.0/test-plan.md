@@ -34,11 +34,7 @@ Test cases focus on new or materially changed functionality.
 
 ## 3. Test Users
 
-| Email | Password |
-|-------|----------|
-| vets.gov.user+78@gmail.com | redacted |
-| VANCE.IPOACEVEDA@id.me | redacted |
-| judy.morrison@id.me | redacted |
+[Staging Test Accounts](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/vagov-users/staging-test-accounts-profile2.0.md)
 
 ---
 
