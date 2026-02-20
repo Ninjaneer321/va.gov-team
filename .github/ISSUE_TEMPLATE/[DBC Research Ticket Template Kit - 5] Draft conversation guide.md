@@ -20,9 +20,9 @@ This work should fit within one sprint.
 ### Tasks
 - [ ] Brainstorm potential task flow and prototype setup
    - [ ] (Optional, but helpful) Document the task flow along with needed prototype screens; this could be in Mural, Figma, or at the bottom of the conversation guide
-- [ ] Create initial draft of research plan based on Platform's Veteran-facing Conversation Guide Template (See Further Information below)
+- [ ] Create initial draft of research plan based on Platform's Veteran-facing Conversation Guide Template (review Further Information below)
 - [ ] Test prototype(s) with conversation guide and align
-- [ ] Run CoPilot prompt to review conversation guide; incorporate feedback as appropriate (See Further Information below)
+- [ ] Run CoPilot prompt to review conversation guide; incorporate feedback as appropriate (review Further Information below)
 - [ ] Share with HCD lead for review
 - [ ] Incorporate feedback from HCD lead
 - [ ] Share with UX enablement partner for review
