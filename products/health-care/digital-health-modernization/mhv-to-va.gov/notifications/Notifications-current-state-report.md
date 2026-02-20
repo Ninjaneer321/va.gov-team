@@ -1,4 +1,6 @@
 # My HealtheVet Notifications: Current State Report
+**Last updated: February 2026**
+
 This report documents what we know and understand about notifications that route users to the My HealtheVet on VA.gov health portal from outside sources (email, push-notifications on mobile devices). This report DOES NOT document passive in-app notifications that are generated on VA.gov itself, but seeks to inform a future-state where we build out an in-app notification ecosystem that will hopefully scaffold on top of the existing external notifications that already exist. Understanding the current state will help us determine several things that are crucial for scaling a system that makes sense to Veterans and is consistent with other types of communication they already receive. This report covers questions such as: 
 * What notifications do users already get via email & SMS for each health tool?
 * Are they enabled for both VistA & OH EHR systems? 
