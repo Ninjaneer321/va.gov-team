@@ -384,7 +384,7 @@ _[For Perigean's communication with participants]_ Pre-requisites for participan
 
 ### Prepare
 
-_Note: as these tests needs to be conducted with real user data, the pilot tests were to practice guiding participants through set-up of the pre-release app and returning their phones to the original states._
+_Note: as these tests need to be conducted with real user data, the pilot tests were to practice guiding participants through set-up of the pre-release app and returning their phones to the original states._
 - `Pilot participant name:` **Michael Harmer, Janelle Finnerty, Ian Hilton**
 - `Date and time of pilot session:` **already completed**
 
