@@ -32,7 +32,7 @@ This phase typically lasts 1-2 weeks. Depending on the number of sessions and th
 - [ ] Moderator, notetaker, and observers meet to discuss sessions, note highlights in Mural
 
 ### Optional task
-- [ ] Do follow-up [after-session cleanup tasks](link to After-session cleanup ticket) while conducting sessions
+- [ ] Do follow-up [after-session cleanup tasks](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/.github/ISSUE_TEMPLATE/%5BDBC%20Research%20Ticket%20Template%20Kit%20-%2015%5D%20After-session%20cleanup.md) while conducting sessions
 
 ### Acceptance criteria
 - [ ] Sessions have been conducted
