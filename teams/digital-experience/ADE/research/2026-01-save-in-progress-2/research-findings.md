@@ -257,7 +257,6 @@ While looking at the interstitial page again at the end of the research session,
 
 - One participant didn't understand the "My VA" link. She has a VA account but wasn't familiar with the term "My VA".
 
-
 ### Finding 2: Most participants assumed that saving happened only after selecting "Finish later" or submitting the form.
 After participants finished filling out the form, we asked when they thought their information was saved. Most participants (6 of 7) said only after selecting the "Finish later" or "Submit" button. **Most skipped or forgot the interstitial page that said their information gets saved automatically.** When we told participants that VA form information is saved automatically, they were pleasantly surprised because they didn't want to lose their work. Maybe it's OK if people don't know that saving is happening automatically, as long as they're glad to not be losing information they entered.
 
@@ -272,7 +271,6 @@ After participants finished filling out the form, we asked when they thought the
 
 > *"That's nice that that's right there. I like that. I wouldn't have expected that for something that I was doing previously to pop up in my main page when I first sign in...That's a great feature because I forget easily, so I might not even remember what the form number was" (p9).*
 
-
 ### Finding 4: All participants who interacted with the accordions on the "Review and submit" page easily opened and closed them using the controls on the left side.
 6 of 7 people who reached the "Review and submit" page used the accordions, and **none had any issues interacting with the "+" and "-" controls on the left side (instead of on the right in the current VA Design System)**. This included the participant who was using a screen magnifier. In the [previous round of usability testing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#finding-6-va-forms-in-general-had-accessibility-issues-for-screen-readers-and-screen-magnifiers), a participant using a screen magnifier didn't understand how to interact with these accordions when the "+" control was on the right because it wasn't visible to him. 
 
@@ -282,48 +280,58 @@ Two participants didn't notice the "Expand all" link, one of whom said that the 
 
 One participant said that he liked the "Edit" buttons so you don't have to go back to previous form pages to make changes.
 
-
-### Finding 5: Three participants encountered accessibility issues while filling out the form while using a screenreader
-
-1. P3 was using the JAWS screenreader on desktop with mouse echo (which announces whatever is under the mouse), and **JAWS didn't announce any "Country" select/dropdown options when the dropdown was open and the mouse was over an item**. He had to click to select an option before it was announced by the screen reader. This is a known issue that affects screen readers and mouse control of dropdown menus, which unfortunately is not fixable.
-
-1. Another issue P3 encountered (JAWS with mouse echo) is that text that looked like **one sentence was announced in small chunks** instead of as a single sentence, resulting in awkward pauses and missed information. For example, here's how the "Finish later" message sounded (each ellipsis required a mouse movement): "Your personal records request has been saved...Jan 13, 2026 at 5:43 pm...Your saved...request...will expire on...March 14, 2026."
-
-1. P4 (VoiceOver screenreader on an iPhone in Safari browser) had **difficulty navigating while using Safari** because the form intro page loaded with focus on the footer, rather than the top of page where it was supposed to be. This is a known issue with VoiceOver and Safari that has no known fix.
-
-1. P8 (infrequently uses the TalkBack screenreader on Android) **didn't understand the word "va"**, which was how TalkBack announced "VA". He figured it out after listening to it a couple times. The general consensus is to leave this as is because AT users get used to it.
-
-### Finding 6: Two participants struggled with their AT, perhaps because the tools weren't appropriate for their level of impaired vision
-Two Veteran participants were frustrated with their AT tools and didn't know that another tool might meet their needs better. 
-1. P6 with low vision wasn't using a screenreader on his smartphone but instead a **tool that reads aloud whatever text you highlight with your finger. He kept wanting the tool to read aloud everything on the screen**, but it skipped some text (including accordions) and read some text in small parts with breaks in between (e.g., on the "Records requested" page of the form, as well as the message that appears after you select "Finish later"). At the end of the session, we recommended that the participant try the VoiceOver screenreader.
-
-   > *"I'd like to read it all, but I don't know how to make it do that...It will only let me highlight the first item that appears…'3 of 6 records requested.' Okay, so there's way more information than what you just heard. It looks like it's gonna make me highlight every little bit. I like to do the whole page" (p6).*
-
-    He didn't know that a screenreader would read everything on the page for him.
-
-1. P8 with low vision was using the TalkBack screenreader on his Android phone to qualify for the AT session, but normally he uses it only as a last resort. He **dislikes TalkBack because it talks too much, is difficult to stop, and scrolling is different**. He didn't know that there were tools that can read text for you without announcing so much about the page and navigation. 
-
-    Usually P8 gets by without reading most of the content and infers what's there or has memorized where to go and what to do from previous experiences. He can read black text on white but it's blurry. He can't read colored text or links, any text on non-white backgrounds, or in dim light. He prefers to use his PC instead of a smartphone since he can increase the brightness/contrast and zoom in. Sometimes he copies colored text into Word, where he can change the text to black. 
-
-    After the session, we recommended a tool that reads only text that he selects, rather than everything on the page: [Select to Speak](https://support.google.com/accessibility/android/answer/7349565?hl=en&ref_topic=9079043&sjid=17578886789114503438-NC).
-
-
-   > *"As you're trying to navigate, it's constantly yelling at you...Just backspace, please. I know it's a backspace. Just do it." (p8).*
-
-   > *"In order for me to scroll up and down, I can't use one finger. I have to use both fingers. If I use one, she [TalkBack] reads it" (p8).*
-
-   > *"I memorize it, and I make sure that if I go to click on something that's familiar, that I'm expecting this page...And if the word, the text, box shapes are different, or if it's a different set of colors, or if it's a different layout (like it was a year ago that the VA switched not only the login, because I was always using ID.me, but it switched the placement of where that was, and then it gave 3 new windows)...I'm gonna wait till I get home [where I can use the PC and make it bigger]" (p8).*
-
-
-### Finding 7: Most participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted. 
+### Finding 5: Most participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted. 
 
 Most participants (6 of 7) assumed that after 60 days, their saved form data would be deleted. **Almost everyone wanted to be notified before that via email and/or text**, with one participant suggesting a notification in the VA mobile app. Most people wanted the first notification within 1-7 days of having selected "Finish later", and then once a week after that. 
 
 Eight participants said they wanted to be able to delete a form they started but never finished. Reasons provided included finding out that you no longer needed to submit that form, you already submitted it, or it was the wrong form. 
 
+### Finding 6: All participants who encountered an error while filling out the form were able to fix it themselves.
+6 of 7 participants encountered errors, some of which likely resulted because the participants were entering fake data (e.g., name, social security number) as instructed, in order to not share PII. Below are descriptions of some of the issues.
+
+1. Six of 7 participants didn't enter their name correctly in the **name field on the "Review and submit" page**. 4 people corrected the name by using what the error message said, one of whom was glad to see that (see quote below); someone else was annoyed that he couldn't copy/paste the name from the error message and had to retype it (see quote below). 2 people didn't notice the name within the error text and instead expanded the "Your personal information" accordion to see what they entered before. 
+
+    > p3 liked that the error told you what it the name was supposed to be: *"Great! Wish more forms did it that way" (p3).*
+
+    > p8 wanted to copy/paste the name in the error: *"It won't let me even copy that" (p8).*
+1. A screen reader user entered the postal code and then a space in order to hear JAWS read it. This triggered an error because there was a space entered into that field and so too many characters. The participant said that they encounter this same issue on many forms, so they realized what the problem was and how to correct it.
+1. One participant entered "1-" at beginning of phone number, which resulted in an error because there were more than 10 digits.
+ 
+
+
 ## Additional Insights -- REORDER, MV SOME INTO FINDINGS SECTION??
-*Include insights that do not represent patterns but are still valuable.*  
-> **TIP:** These could be powerful user comments or unexpected issues worth noting
+1. One participant expressed his appreciation for us taking the time to learn from Veterans:
+    > *"I'm happy you guys are doing this because I go to other kinds of websites, and it's just a nightmare trying to get through--the way they've laid stuff out. So I'm very happy that you guys asked for feedback for the user experience. It's fantastic! Thanks" (p7).*
+
+1. Three participants encountered **accessibility issues while filling out the form while using a screenreader**
+
+     1. P3 was using the JAWS screenreader on desktop with mouse echo (which announces whatever is under the mouse), and **JAWS didn't announce any "Country" select/dropdown options when the dropdown was open and the mouse was over an item**. He had to click to select an option before it was announced by the screen reader. This is a known issue that affects screen readers and mouse control of dropdown menus, which unfortunately is not fixable.
+
+     1. Another issue P3 encountered (JAWS with mouse echo) is that text that looked like **one sentence was announced in small chunks** instead of as a single sentence, resulting in awkward pauses and missed information. For example, here's how the "Finish later" message sounded (each ellipsis required a mouse movement): "Your personal records request has been saved...Jan 13, 2026 at 5:43 pm...Your saved...request...will expire on...March 14, 2026."
+
+     1. P4 (VoiceOver screenreader on an iPhone in Safari browser) had **difficulty navigating while using Safari** because the form intro page loaded with focus on the footer, rather than the top of page where it was supposed to be. This is a known issue with VoiceOver and Safari that has no known fix.
+
+     1. P8 (infrequently uses the TalkBack screenreader on Android) **didn't understand the word "va"**, which was how TalkBack announced "VA". He figured it out after listening to it a couple times. The general consensus is to leave this as is because AT users get used to it.
+
+1. Two participants were **frustrated with their AT, perhaps because the tools weren't appropriate for their level of impaired vision**, and they didn't know that another tool might meet their needs better. 
+     1. P6 with low vision wasn't using a screenreader on his smartphone but instead a **tool that reads aloud whatever text you highlight with your finger. He kept wanting the tool to read aloud everything on the screen**, but it skipped some text (including accordions) and read some text in small parts with breaks in between (e.g., on the "Records requested" page of the form, as well as the message that appears after you select "Finish later"). At the end of the session, we recommended that the participant try the VoiceOver screenreader.
+
+        > *"I'd like to read it all, but I don't know how to make it do that...It will only let me highlight the first item that appears…'3 of 6 records requested.' Okay, so there's way more information than what you just heard. It looks like it's gonna make me highlight every little bit. I like to do the whole page" (p6).*
+
+        He didn't know that a screenreader would read everything on the page for him.
+
+     1. P8 with low vision was using the TalkBack screenreader on his Android phone to qualify for the AT session, but normally he uses it only as a last resort. He **dislikes TalkBack because it talks too much, is difficult to stop, and scrolling is different**. He didn't know that there were tools that can read text for you without announcing so much about the page and navigation. 
+
+        Usually P8 gets by without reading most of the content and infers what's there or has memorized where to go and what to do from previous experiences. He can read black text on white but it's blurry. He can't read colored text or links, any text on non-white backgrounds, or in dim light. He prefers to use his PC instead of a smartphone since he can increase the brightness/contrast and zoom in. Sometimes he copies colored text into Word, where he can change the text to black. 
+
+        After the session, we recommended a tool that reads only text that he selects, rather than everything on the page: [Select to Speak](https://support.google.com/accessibility/android/answer/7349565?hl=en&ref_topic=9079043&sjid=17578886789114503438-NC).
+
+
+        > *"As you're trying to navigate, it's constantly yelling at you...Just backspace, please. I know it's a backspace. Just do it." (p8).*
+
+        > *"In order for me to scroll up and down, I can't use one finger. I have to use both fingers. If I use one, she [TalkBack] reads it" (p8).*
+
+        > *"I memorize it, and I make sure that if I go to click on something that's familiar, that I'm expecting this page...And if the word, the text, box shapes are different, or if it's a different set of colors, or if it's a different layout (like it was a year ago that the VA switched not only the login, because I was always using ID.me, but it switched the placement of where that was, and then it gave 3 new windows)...I'm gonna wait till I get home [where I can use the PC and make it bigger]" (p8).*
 
 1. Participants had some **usability issues on the form intro page**:
     
@@ -358,19 +366,6 @@ Eight participants said they wanted to be able to delete a form they started but
      1. **Place of birth**: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. In the previous round of usability testing, we also heard this. 
      1. **Back to previous page** link: One non-AT participant said that they didn't notice this link at the top of the page because it was so small. If he had seen that link, he said he would have used it because he avoids the browser back button since that often signs him out. He suggested adding a similar link to the bottom of the page, too, because you might be down there when you need it.
 
-1. **All participants who encountered an error while filling out the form (6 of 7) were able to fix it themselves**. Some of the errors likely resulted because the participants were entering fake data (e.g., name, social security number) as instructed, in order to not share PII. Below are descriptions of some of the issues.
-
-     1. Six of 7 participants didn't enter their name correctly in the verification field on the "Review and submit" page. 4 people corrected the name by using what the error message said, one of whom was glad to see that (see quote below); someone else was annoyed that he couldn't copy/paste the name from the error message and had to retype it (see quote below). 2 people didn't notice the name within the error text and instead expanded the "Your personal information" accordion to see what they entered before. 
-
-        > p3 liked that the error told you what it the name was supposed to be: *"Great! Wish more forms did it that way" (p3).*
-
-        > p8 wanted to copy/paste the name in the error: *"It won't let me even copy that" (p8).*
-
-    1. A screen reader user entered the postal code and then a space in order to hear JAWS read it. This triggered an error because there was a space entered into that field and so too many characters. The participant said that they encounter this same issue on many forms, so they realized what the problem was and how to correct it.
-     1. One participant entered "1-" at beginning of phone number, which resulted in an error because there were more than 10 digits.
- 
-1. One participant expressed his appreciation for us taking the time to learn from Veterans:
-    > *"I'm happy you guys are doing this because I go to other kinds of websites, and it's just a nightmare trying to get through--the way they've laid stuff out. So I'm very happy that you guys asked for feedback for the user experience. It's fantastic! Thanks" (p7).*
 
 1. Three participants had technical issues with their assistive tech:
 
