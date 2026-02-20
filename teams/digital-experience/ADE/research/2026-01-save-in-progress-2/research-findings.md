@@ -417,17 +417,17 @@ Eight participants said they wanted to be able to delete a form they started but
 1. **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026.*
    - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
 
+1. **On the form intro page, consider making the form number under the heading easier to notice**. See if the form number shown under the heading could be forced to display on a single line.
+   - _Supporting evidence_: One participant didn't notice the form number below the big "Request personal records" heading, perhaps because it was split across two vertical lines: (1) **(VA Form 20-**, and (2) **10206**. 
+
 1. **Don't put essential information in the heading that isn't repeated below because some people  ignore the text of the heading.**
    - _Supporting evidence_: Two participants didn't read the heading on the interstitial page but only the text below it.
 
 1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages because they're not intuitive.**
    - _Supporting evidence:_ 4 of 8 participants didn't know what these phrases meant when seeing them in links on the interstitial page.
 
-1. **On the form intro page, consider making the form number under the heading easier to notice**. See if the form number shown under the heading could be forced to display on a single line.
-   - _Supporting evidence_: One participant didn't notice the form number below the big "Request personal records" heading, perhaps because it was split across two vertical lines: (1) **(VA Form 20-**, and (2) **10206**. 
-
 1. **Consider keeping the accordions in the "Review and submit" page.**
-  - _Supporting evidence:_ One participant said that he never uses "Expand all" because he gets too overwhelmed by the length of what might expand, so he prefers to expand each accordion, one at a time.
+   - _Supporting evidence:_ One participant said that he never uses "Expand all" because he gets too overwhelmed by the length of what might expand, so he prefers to expand each accordion, one at a time.
 
 1. **Consider making the "Back to previous page" link easier to notice**. Perhaps check its font size and consider increasing it if it's smaller than other text on the page. Perhaps add a duplicate link to the bottom of the page.
    - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
