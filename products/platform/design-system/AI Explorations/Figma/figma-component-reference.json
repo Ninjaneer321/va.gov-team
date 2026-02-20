@@ -436,6 +436,76 @@
       "webComponent": "va-segmented-progress-bar",
       "commonUsage": "<va-segmented-progress-bar\n  current=\"2\"\n  total=\"5\"\n  labels=\"Personal information;Household information;Financial information;Insurance information;Review application\"\n  heading-text=\"Household information\"\n  counters=\"default\"\n  centered-labels\n></va-segmented-progress-bar>",
       "notes": "Updates users on their progress through a multi-step process. The component automatically styles completed steps (before current), the current step, and upcoming steps. Use in form flows to show progress across multiple pages."
+    },
+    
+    "Icon": {
+      "figmaNodeId": "25751:504",
+      "figmaName": "Icons (Library Page)",
+      "note": "Icons in Figma are individual symbols, not a component with variants",
+      "structure": {
+        "figmaApproach": "Each icon is a separate symbol component (e.g., 'account_circle', 'add', 'arrow_back')",
+        "codeApproach": "Single va-icon component with 'icon' prop specifying which icon to display",
+        "architecturalDifference": "Figma uses discrete components per icon; code uses one component with dynamic icon loading"
+      },
+      "iconExamples": [
+        "account_circle",
+        "acute", 
+        "add",
+        "add_circle",
+        "adjust",
+        "app_store",
+        "arrow_back",
+        "arrow_circle_right",
+        "arrow_downward",
+        "arrow_upward",
+        "assignment",
+        "assignment_turned_in",
+        "attach_file",
+        "attach_money",
+        "autorenew",
+        "calendar_today",
+        "campaign"
+      ],
+      "totalIconsInLibrary": "100+ icons available",
+      "commonProperties": {
+        "iconName": {
+          "type": "string",
+          "figmaImplementation": "Each icon has its own component name",
+          "codeImplementation": "va-icon[icon='icon-name']",
+          "mapsTo": "Designer selects icon component → Developer uses icon name as prop value",
+          "note": "Must maintain mapping between Figma component names and va-icon icon names"
+        },
+        "size": {
+          "type": "number",
+          "figmaImplementation": "Fixed at 24x24px per icon symbol, designer resizes instance",
+          "codeImplementation": "va-icon[size='1-9'] or specific pixel values",
+          "mapsTo": "Figma instance width/height → va-icon size prop",
+          "note": "Figma users manually resize; code uses size prop"
+        },
+        "color": {
+          "type": "color",
+          "figmaImplementation": "Applied to icon instance",
+          "codeImplementation": "CSS custom property or inherit from parent",
+          "mapsTo": "Figma fill color → CSS styling",
+          "note": "Icons inherit color from parent by default"
+        },
+        "accessibility": {
+          "figmaImplementation": "Not defined in Figma",
+          "codeImplementation": "va-icon[srtext='Description for screen readers']",
+          "mapsTo": "Developer must add based on context",
+          "note": "Screen reader text is implementation detail, not in design"
+        }
+      },
+      "alignmentChallenges": {
+        "iconNameMapping": "Figma component names may differ from va-icon icon library names. Requires mapping table.",
+        "noProperties": "Figma icons don't have properties/variants, so Code Connect mapping is limited",
+        "accessibilityGap": "Designers can't specify screen reader text (srtext prop)",
+        "customSpriteLocation": "Advanced sprite-location prop not represented in Figma"
+      },
+      "documentation": "https://design.va.gov/foundation/icons",
+      "webComponent": "va-icon",
+      "commonUsage": "<va-icon icon=\"account_circle\" size=\"3\" srtext=\"User account\"></va-icon>",
+      "notes": "Fundamental architectural difference: Figma uses discrete icon components, code uses single parameterized component. Icon name mapping between Figma and code is critical for Code Connect. Designers select from icon library visually; developers reference by icon name string."
     }
   }
 }
