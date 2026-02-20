@@ -469,14 +469,15 @@ Eight participants said they wanted to be able to delete a form they started but
      - _Supporting evidence_: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. A participant in the previous round of usability testing expressed the same concern.
 
 ### For the ADE team
-1. Explore opportunities to help Veterans who are struggling with their assistive tech or may not be using any. 
+1. **Explore opportunities to help Veterans who are struggling with their assistive tech and may be unaware of other options**. 
 
      - _Supporting evidence_: Two participants mentioned frustrations with their assistive tech and didn't know that a different tool might meet their needs better. 
      
      Some ideas are as follows:
-     1. Meet with Martha's VA Blind Rehab Center contacts to learn how they help Veterans who are blind or low vision, eligibility, and whether/how to mention their services to research participants who might benefit from their services (and add to conversation guides). --> *Martha will schedule a meeting*
-     1. Consider adding messaging on VA.gov about how to better use this website (see this page on [gov.uk](https://www.gov.uk/help/accessibility-statement#how-you-should-be-able-to-use-this-website)). Could perhaps add something to the [508 compliance (Accessibility) page](https://www.va.gov/accessibility-at-va/) --> *Create a ticket to discuss with Danielle.*
-     1. Learn more about Veteran needs by conducting a survey of Veterans who are blind or low vision about their AT tools and experiences with VA.gov. --> *Future work for Cindy*
+     1. Meet with Martha's VA Blind Rehab Center contacts to learn how they help Veterans who are blind or low vision, how to assess eligibility, and how to mention their services to research participants who could benefit from their services. --> *Martha will schedule a meeting*
+     1. Add an optional blurb to conversation guides that could be shared with participants who might benefit from AT assistance
+     1. Consider adding messaging on VA.gov about how to better use the website (i.e., see this page on [gov.uk](https://www.gov.uk/help/accessibility-statement#how-you-should-be-able-to-use-this-website)). Could maybe add to the [508 compliance (Accessibility) page](https://www.va.gov/accessibility-at-va/) --> *Create a ticket to discuss with Danielle.*
+     1. Learn more about Veterans' needs by conducting a survey of Veterans who are blind or low vision about their AT tools and experiences with VA.gov. --> *Future work for Cindy*
   
 ## Product User and Business Outcomes
 
