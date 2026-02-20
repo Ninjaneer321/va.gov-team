@@ -67,6 +67,7 @@ Type of notifications and the number they come from via VEText are as follows:
   <img width="363" height="260" alt="Screenshot 2026-02-11 at 4 10 59 PM" src="https://github.com/user-attachments/assets/19361a2d-fdb8-4db3-b39a-37e2bb405dae" />
 
 ## <a name="vahb"></a>VAHB health notifications
+---
 
 ### Resources
 * Documentation about push notifications enabled in the VAHB mobile app is [available here](https://department-of-veterans-affairs.github.io/va-mobile-app/development/FrontEnd/Push%20Notifications/).
@@ -93,28 +94,20 @@ Notes:
   * If the Veteran chooses to `keep`, the original appointment is kept. The Veteran will not get additional offers for earlier appointments. 
   * If there is no response from the Veteran, the original appointment is kept. and they will continue to receive offers for earlier appointments. 
 
-### Notification message content & routing  
-
-
-### Design
-
 ### Resources:
   * [Appts notifications service blueprint](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/products/health-care/appointments/research/2021-10-appointment-notifications-service-map/research-findings.md)
 
 ## <a name="messages"></a>Messages
-
+---
 Existing notifications
 | Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
 |--------------|---------|---------|----------|---------|-------|------|
 | Welcome to SM | VA Notify | When someone becomes eligible for SM (VistA) | Email, SMS | VistA | No (automatic) | Not totally sure on the logic for that but SM BE team would know |
 | You have a new message| VA Notify | When a new message is sent to the Veteran | Email, SMS | VistA, OH | No (automatic) | -- |
 
-### Notification content/language & routing  
-
-### Design
 
 ## <a name="meds"></a>Medications
-
+---
 Existing notifications
 | Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
 |--------------|---------|---------|----------|---------|-------|------|
@@ -132,13 +125,8 @@ Notes:
 * Facilities with VEText implemented send out Rx tracking messages daily at 8:00 AM local time. 
 * In this this venn diagram some folks get no notifications b/c they go to a facility that doesn't have notifications turned on. And if the medication is shipped by facility (not CBOC) they wouldn't get notified.
 
-
-
-### Notification content/language & routing  
-
-### Design
-
 ## <a name="records"></a>Medical Records
+---
 Existing notifications
 | Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
 |--------------|---------|---------|----------|---------|-------|------|
@@ -153,24 +141,24 @@ Notes:
 * Had to aggressively de-identify it, so the content is just "you have a thing, go here to see it" - super generic.
 * The only way it is helpful is to drop them on specific details page for the actual thing. Mike Moyer figured it out & we are able to deep link users to their literal new thing. Want to repeat this for all other new events across MR domains.
 
-### Notification content/language & routing  
-
-### Design
 
 ## <a name="travel-pay"></a>Travel Pay
+---
 Nothing at this time
 
 ## <a name="supplies"></a>Medical supply re-ordering
+---
 Nothing at this time
 
 ## <a name="1010"></a>10-10EZR Form
+---
 Existing notifications
 | Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
 |--------------|---------|---------|----------|---------|-------|------|
 |Your update (submission) failed| VA Notify | User tries to update their 10-10EZR form and the update fails | Email| N/A | No (automatic) | --|
 
 ## <a name="co-pay"></a>Medical co-pays and billing
-
+---
 Existing notifications:
 | Notification | Service | Trigger | Modalities offered | EHRs supported | Opt-in? | Notes |
 |--------------|---------|---------|----------|---------|-------|------|
