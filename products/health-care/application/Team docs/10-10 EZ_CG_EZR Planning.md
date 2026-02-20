@@ -18,7 +18,7 @@
 ### 10-10EZR
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
-- [ ] [#121775](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121775) [PM] Update and submit Product Guide for review
+- [ ] [#121775](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121775) - [PM] Update and submit Product Guide for review
 - [ ] [#121778](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121778) - [PM] Update DOMO URL funnels and add GA metrics
 - [ ] [#121766](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121766) - [PM] Prep release plan
 - [ ] [#121767](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121767) - [PM] Review release plan
