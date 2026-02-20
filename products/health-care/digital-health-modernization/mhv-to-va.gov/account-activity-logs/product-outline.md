@@ -5,7 +5,7 @@
 Account Activity Logs (AALs) are records of specific actions and interactions associated with a user's health care patient portal account. They serve as a transparent audit trail of everything that happens within the portal.
 
 ### What AALs include
-The account activity logs on VA.gov will differ from the logs that were displayed on MHV Classic because authentication and account activities like password changes are no longer managed by MHV and is now stored with Login.gov and ID.me.  The patient-facing UI on VA.gov will provide users with insight on activities conducted within My HealtheVet onVA.gov, including messages sent or received, health records viewed or downloaded, prescription refill requests, and appointment scheduling. 
+The account activity logs on VA.gov will differ from the logs that were displayed on MHV Classic because authentication and account activities like password changes are no longer managed by MHV and is now stored with Login.gov and ID.me.  The patient-facing UI on VA.gov will provide users with insight on activities conducted within My HealtheVet on VA.gov, including messages sent or received, health records viewed or downloaded, prescription refill requests, and appointment scheduling. 
 
 ### Who Can See Them
 Patients can typically view their own AALs to monitor for unauthorized access or suspicious behavior. Healthcare providers and administrators also have access to audit logs on the backend, both for security oversight and to comply with regulatory requirements.
