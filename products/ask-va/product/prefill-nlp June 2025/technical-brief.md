@@ -1,5 +1,3 @@
-## This is a DRAFT for INTERNAL review prior to Collaboration Cycle Kickoff
-
 # Overview
 
 AskVA plans to utilize AI predictions to auto-categorize questions which will reduce the form length.
@@ -8,20 +6,21 @@ AskVA plans to utilize AI predictions to auto-categorize questions which will re
 
 **Background**: Only 1/3 of Veterans, family members, and other people with questions for VA who visit the current Ask VA landing page, [Ask VA](https://www.va.gov/contact-us/ask-va/introduction) end up completing the support request. User research has identified form burden as a barrier for Veterans to receiving answers to their inquiries. To expediently get Veterans the healthcare & benefits answers they deserve, VA is simplifying the process. 
 
-## Solution
+## Solution - AI ML Predictive Category Model Initiative
 
 We'll reduce unnecessary Veteran inputs by auto-classifying the categories needed to route Veteran inquiries to the right place. **Multiple phases** will be required to build the infrastructure and integrate it into VA.gov AskVA.  The infrastructure created through this process will enable new auto-classifications in future iterations. 
 
-The solution will be
+The AI ML Predictive Category Model Initiative will be
 - [Machine learning models](#model) used to predict the category based on a question
 - [Prediction Service](#prediction-service) hosted on AWS that receive user questions from VA.gov and provide Kubernetes cluster that loads a quantized ONNX model from a secured S3 bucket on node start
 - Ask VA on VA.gov will utilize [VETS-API](#vets-api) to pass-through authenticated requests to the [Prediction Service](#prediction-service)
 - Evaluating [model predictions](#model-predictions) to assess accuracy and continously improve the model
 
-The solution will be implemented across phases:
+The AI ML Predictive Category Model Initiative will be implemented across phases:
 - **Phase 0** - Completed June 2025 - Creation of the [ML model](#model) the classifies category
-- **Phase 1** - Implement the Category Model - creating the [Prediction Service](#prediction-service) in AWS
-- **Phase 2** - Personal Inquiry Topic Classification Pilot - connecting the [Prediction Service](#prediction-service) to VETS-API and VA.gov Ask VA form, generating [model predictions](#model-predictions) for continously learning
+- **Phase 1** - Create the AskVA Prediction Service in AWS - creating the [Prediction Service](#prediction-service) in AWS
+- **Phase 2** - Connect the AskVA Prediction Service to VETS-API and VA.gov - connecting the [Prediction Service](#prediction-service) to [VETS-API](#vets-api) and VA.gov Ask VA form, generating [model predictions](#model-predictions) for continously learning
+- **Phase 3** - Release to a percentage of users through a trigger and evaluate performance
 
 ### Architecture Diagram
 
@@ -29,6 +28,16 @@ The solution will be implemented across phases:
 2. [User Data Flow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1768512459038/ffc445de20b4b6fbe9bf5160c87b9208906b004c?wid=0-1769570240202)
 3. [Sequence Diagram](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1768512459038/ffc445de20b4b6fbe9bf5160c87b9208906b004c?wid=3-1769572346104)
 4. [API Documentation](#api-documentation)
+
+## Security Overview
+
+The [Prediction Service](#prediction-service) will follow a similar security model as the [Disability Contention Classifier](https://github.com/department-of-veterans-affairs/vagov-claim-classification/wiki/ML-classifier:-deployment-configuration) with specific service accounts for the Kubernetes cluster and access to the buckets limited to the Kubernetes service and specific AskVA individuals that will upload the ONNX model to the bucket.  Additionally, the hash value of the current model will be an environment variable within the Kubernetes cluster as an additional security measure and a versioning pipeline for implementing new models.  The buckets and permissions to access them are administered by VFS Platform, generally through infrastructure-as-code with ArgoCD and Helm.
+
+This service utilizes the same libraries found in the [Disability Contention Classifier implementation](https://github.com/department-of-veterans-affairs/contention-classification-api).
+
+The sensitive data in the process is the user's question that is entered as free-text.  The existing data shows that users enter their own PII into their question.
+
+In Phase 2, we will be transmitting the sensitive data from VA.gov to [VETS-API](#vets-api) to [Ask-VA Prediction Service](#prediction-service).  We plan to implement the VA best practices on the new integration between [VETS-API](#vets-api) and the [AWS Ask-VA Prediction Service](#prediction-service) and will solicit those practices.  With each integration, will will continue to not log the user's question as it may contain PII/PHI.
 
 ## Model
 ### Overview
@@ -45,6 +54,10 @@ The model uses **DistilBERT** (distilled BERT) for text classification:
 - **Architecture**: DistilBERT + Classification Head
 - **Input**: Text sequences (max 512 tokens)
 - **Output**: Category probabilities
+
+### Security
+
+AskVA models will be generated using the Pickle format but will be converted to ONNX.  The Pickle format has the ability to run python scripts and is considered insecure.  The industry has moved to other formats as a result and we've found the quantized ONNX is both performant and secure.
 
 ### Training
 
@@ -93,6 +106,8 @@ Once the model is in use, [model predictions](#model-predictions) will be utiliz
 
 - Goal: Create a service that can generate predictions and be integrated with VA.gov via VETS-API
 - Repository: TODO
+
+This application will borrow heavily from the [Disability Contention Classifier](https://github.com/department-of-veterans-affairs/contention-classification-api) with some minor changes.  
 
 ### Components
 
@@ -238,10 +253,13 @@ Response
 |-----------------|-------------|
 | 200 | OK - Request successful, predictions returned |
 | 400 | Bad Request - Invalid request format or missing required fields |
+| 401 | Unauthorized - Authentication credentials missing or invalid |
+| 500 | Internal Server Error - Server encountered an unexpected error |
+| 502 | Bad Gateway - Invalid response or a timeout from Prediction Service |
 
 The intention is that most of the HTTP status codes should originate from VETS-API where there is integrated Datadog logging.  AWS access should not be required unless in depth debugging is required.
 
-### Security
+### Security Overview
 
 The Prediction Service will exist within the VA's AWS infrastructure
 - AWS Kubernetes Cluster
@@ -249,6 +267,24 @@ The Prediction Service will exist within the VA's AWS infrastructure
 - S3 Bucket
     - Kubernetes service needs access
     - Ask VA team - Matt Floyd - needs access to upload model files
+
+### AWS S3 and IAM Roles
+| VFS environment | S3 bucket | IAM roles |
+| :--- | :--- | :--- |
+| dev | dsva-vagov-dev-askva-prediction-api | dsva-vagov-vets-api-nonprod-askva-prediction-api-ro, dsva-vagov-vets-api-nonprod-askva-prediction-api-rw |
+| staging | dsva-vagov-staging-askva-prediction-api | dsva-vagov-vets-api-nonprod-askva-prediction-api-ro, dsva-vagov-vets-api-nonprod-askva-prediction-api-rw |
+| sandbox | dsva-vagov-staging-askva-prediction-api | dsva-vagov-vets-api-prod-askva-prediction-api-ro, dsva-vagov-vets-api-prod-askva-prediction-api-rw |
+| production | dsva-vagov-prod-askva-prediction-api | dsva-vagov-vets-api-nonprod-askva-prediction-api-rw, dsva-vagov-vets-api-prod-askva-prediction-api-rw |
+
+### K8s service accounts
+
+The AskVA Prediction Service is deployed via VFS ArgoCD into a kubernetes (k8s) environment. To allow access from the deployment environment to S3, k8s service accounts must know which IAM role to use, and the IAM roles must know which k8s cluster to trust.
+
+Future Phase: Will update this further once we build the AWS application to reference the Helm configuration.
+
+### Abuse Scenarios
+
+See the VETS-API section which is exposed to end-users.
 
 ### Release Plan
 
@@ -311,19 +347,94 @@ Standard response logging via Rails into DataDog will indicate:
 - HTTP Status
 - Error message when applicable
 
+### Security - Abuse Scenarios
+
+The model uses a distilled NLP model (Distilbert) that takes a single input and provides the top 3 predicted categories (out of a list of 18)
+
+Adversarial Evasion - trying to forc
+| inquiry_id | Lookup | - | Yes | Reference to related inquiry record - rirsiis_inquiry i, iris_inquirynumber |e a categorization
+- Thntegere use- r continues to control the routing of their request, the prediction is a suggestion
+
+Downstream Injection - sending malicious code in the question
+- Inputs to the model will be sanitized to remove HTML prio000r to use
+- Inputs will not be saved by the prediction process
+
+Resource Exhaustion - Denial of Service
+- The text length is limited to 10,000 characters - we will stress test the model to ensure that it will not overload the service
+- VA.gov's CSRF token is effective at preventing multiple API0 calls with a single token
+
 
 ## Model predictions
 ### Overview
 
-As the model makes predictions and provide them to the user, we will need to capture and evaluate these predictions to determine their ultimate accuracy.  These predictions can only be stored for up to 60 days.
+As the model makes predictions and provide them to the user, we will need to capture and evaluate these predictions to determine their ultimate accuracy.
 
 ### Capture
 
-AskVA has an existing API that captures inquiries in MS Dynamics.  The data is captured using the AskVA React application and the Form Library.  We will reuse the existing application and integrations with a new endpoint to send the predictions to MS Dynamics.
+AskVA has an existing API that captures inquiries in MS Dynamics.  0The data is captured using the AskVA React application and the Form Library.  We will reuse the existing application and integrations with a new endpoint to send the predictions to MS Dynamics.
+
+### Entity Design - Non Normalized Option
+
+
+| Field Name | Data Type | Length | Required | Description |
+|-----------|-----------|--------|----------|-------------|
+| inquiry_id | Lookup | - | Yes | Reference to related inquiry record - iris_inquiry, iris_inquirynumber |
+| model_version | Whole Number | - | Yes | Version identifier of the model used for prediction |
+| user_adoption | Whole Number | - | No | The prediction the user accepted - 1,2,or 3 - 0 if they didn't accept it|
+| prediction_rank_1_confidence | Decimal | - | Yes | Confidence level (0-1) for top prediction |
+| prediction_rank_1_category_name | Text | 1000 | Yes | Category name for top prediction |
+| prediction_rank_1_category_model_id | Whole Number | - | Yes | Model ID for top prediction category |
+| prediction_rank_2_confidence | Decimal | - | Yes | Confidence level (0-1) for second prediction |
+| prediction_rank_2_category_name | Text | 1000 | Yes | Category name for second prediction |
+| prediction_rank_2_category_model_id | Whole Number | - | Yes | Model ID for second prediction category |
+| prediction_rank_3_confidence | Decimal | - | Yes | Confidence level (0-1) for third prediction |
+| prediction_rank_3_category_name | Text | 1000 | Yes | Category name for third prediction |
+| prediction_rank_3_category_model_id | Whole Number | - | Yes | Model ID for third prediction category |
+| created_on | Date Time | - | Yes | Timestamp when prediction was captured |
+
+
+### Entity Design - Normalized Option
+
+
+**AskVA Model Prediction (Parent Entity)**
+
+| Field Name | Data Type | Length | Required | Description |
+|-----------|-----------|--------|----------|-------------|
+| prediction_id | Primary Key | - | Yes | Unique identifier for prediction record |
+| inquiry_id | Lookup | - | Yes | Reference to related inquiry record - iris_inquiry, iris_inquirynumber |
+| model_version | Whole Number | - | Yes | Version identifier of the model used for prediction |
+| user_adoption | Whole Number | - | No | The prediction the user accepted - 1,2,or 3 - 0 if they didn't accept it|
+| created_on | Date Time | - | Yes | Timestamp when prediction was captured |
+
+**AskVA Model Prediction Rank (Child Entity)**
+
+| Field Name | Data Type | Length | Required | Description |
+|-----------|-----------|--------|----------|-------------|
+| prediction_rank_id | Primary Key | - | Yes | Unique identifier for prediction rank record |
+| prediction_id | Lookup | - | Yes | Reference to parent AskVA Model Prediction record |
+| rank | Whole Number | - | Yes | Ranking position (1, 2, or 3) |
+| confidence_level | Decimal | - | Yes | Confidence level (0-1) for prediction |
+| category_name | Text | 1000 | Yes | Category name for prediction |
+| category_model_id | Whole Number | - | Yes | Model ID for prediction category |
+
+
+### Power BI Reporting
+
+See the [Continuous Evaluation Metrics](#continuous-evaluation) to see how the model is evaluated.
+
+To evaluate accuracy, the category prediction would be compared to the ultimate category of the completed inquiry when the user accepts the prediction (user_adoption <> 0)
+- Assumption: that the re-assignment of the queue would change the category
+- Otherwise: we would need to detect if the queue was reassigned
+
+To evaluation user adoption, we'd count the predictions where user_adoption is 1,2,or 3 divided by the total number of predictions
+
+The Top 1 and Top 3 metrics are useful for model re-training but don't need to appear in the report.
 
 ### Storage
 
-Model predictions will be stored in an entity in MS Dynamics for 60 days.  The existing integration with CX Insights will be used to expose these predictions to Databricks where the model lives to enable a continuously improving model.
+Model predictions will be stored in an entity in MS Dynamics.  The existing integration with CX Insights will be used to expose these predictions to Databricks where the model lives to enable a continuously improving model.
+
+The initial discussions with the engineering lead mentioned a polciy where we could only keep these predictions for up to 60 days.  We will revisit this in Phase 2 as we would be storing the data in an existing MS Dynamics and inquiries that don't complete within 60 days would have their success metrics lost.
 
 ### Ongoing Evaluation
 
@@ -333,6 +444,14 @@ Model re-training can also be run monthly and evaluated for accuracy through the
 
 # Change log
 All notable changes to this project will be documented in this file.
+
+## [0.0.3] - 2026-02-20
+Description: Draft of Model Entity design for Intake Request
+User: @mfloyd-iat
+
+## [0.0.2] - 2026-02-20
+Description: Updates based on internal review
+User: @mfloyd-iat
 
 ## [0.0.1] - 2026-02-11
 Description: Initial Draft for Internal Review
