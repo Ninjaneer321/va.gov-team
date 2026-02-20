@@ -55,7 +55,7 @@ description: "A moderated UAT conversation guide for testing the VA mobile app�
 
 Thank you so much for joining today. My name is Emily, and [NAME] here will be taking notes. I also have a couple other colleagues in the digital waiting room who would like to observe, but we’ll get to that momentarily.
 
-I want to review a few things to make sure you're okay with what will happen in this session
+I want to review a few things to make sure you're okay with what will happen in this session.
 
 * You indicated that you have a current overpayment debt. _[reference type of debt they selected in screener]_
     * Can you briefly tell me about it?
@@ -65,10 +65,10 @@ _[NOTE] Potential ending spot if it's clear they do not have a current overpayme
 
 * Today, we’re testing a pre-release version of the VA app specifically to check the Debt Portal before it's released to the public. We want to make sure that every button you press results in the correct information being shown on screens.
     * Are you okay with logging in with your real username and password for this test?
-    * Nothing you do here will affect your VA benefits in any way. We also not going to be doing anythat that will affect your overpayments.
-    * I'll be asking you to share your screen which will show your personal debt records. 
+    * Nothing you do here will affect your VA benefits in any way. We're also not going to be doing anything that will affect your overpayments.
+    * I'll be asking you to share your screen, which will show your personal debt records. 
         * Are you okay with sharing your screen with us?
-    * If you would like to stop the session or do not want to show us something at any time, that's no problem. Please let me know.
+    * If you would like to stop the session, or do not want to show us something at any time, that's no problem. Please let me know.
 
 _[NOTE] Potential ending spot if they are not comfortable logging in with their credentials_
 
@@ -83,12 +83,12 @@ _[NOTE] Potential ending spot if they are not comfortable logging in with their 
     * If no: Use Slack to kindly ask the observers to leave the Zoom.
     * If yes: Admit observers.
     * Then, ask the notetaker and observers to give a brief, camera-on introduction, like their first name and position with VA.gov. 
-    * Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
+    * Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth.
 * If you would be okay with it, we would like to record this session today, but let me explain things first before you consent. 
     * Any reporting I do from this would not use your name or personal details.
     * I will pause the recording when you are entering your password so that your login details are not captured.
     * Knowing this, are you comfortable with me recording the session?
-    * Once we record I'm going to ask again just so it's on the record.
+    * Once we record, I'm going to ask again just so it's on the record.
 
 Start recording.
 
@@ -97,7 +97,7 @@ Start recording.
 
 ## Set-up
 
-First, I'd like you share your screen.
+First, I'd like you to share your screen.
 
 _References_:
 - [Screen sharing iOS](https://depo-platform-documentation.scrollhelp.site/research-design/iphone-start-screen-share)
@@ -164,7 +164,7 @@ _[make note of email address to be removed from Firebase after the test]_
 
 Now switch to your email app and open an email from VA Health and Benefits.
 
-Tap "get started."
+Tap "Get started."
 
 _[confirm that email they selected is what is showing in the corner; if not have them switch accounts]_
 
@@ -177,11 +177,11 @@ Open Google Play Store.
 - Tap on the profile on the upper right
 - Tap Settings
 - Tap About
-- Where is says "play store version" - tap that seven times until a notice comes up.
+- Where it says "Play Store version" - tap that seven times until a notice comes up.
     - _[confirm notice "you are now a developer"]_
 - Scroll back up and tap General
-- Tap Developer Options
-- Toggle on "internal app sharing"
+- Tap "Developer options"
+- Toggle on "Internal app sharing"
 
 Now return to the email app. _[most likely browser within the email]_ Tap Done.
 
@@ -223,7 +223,7 @@ I'm now going to help you return your phone to the way it was.
 - Uninstall the VA app
     - _[option 1]_ Go to your home screen and find the app icon. Long press and drag up to the top to Uninstall.
     - _[option 2]_ Go to your home screen and find the app icon. Long press and tap App info. Tap Uninstall.
-    - _[option 3]_ Open Google Play Store. Tap profile photo, tap "manage apps and device," tap "manage" and select VA app to delete.
+    - _[option 3]_ Open Google Play Store. Tap profile photo, tap "Manage apps and device," tap "Manage" and select "VA app" to delete.
 - Uninstall Firebase app
 - Install standard VA app
 - Toggle off "internal app sharing"
