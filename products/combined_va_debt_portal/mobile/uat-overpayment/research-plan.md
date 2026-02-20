@@ -129,7 +129,7 @@ tags:
 
 This study is a User Acceptance Test (UAT) for the VA mobile app’s Overpayments experience. The goal of this UAT is to confirm that the Overpayments feature is ready for production release by validating that the experience works as intended for Veterans using real account data in a pre-release build of the app.
 
-Benefit overpayment debt can occur when a Veteran receives more compensation than they are entitled to at that moment, and it is handled by the Veterans Benefits Administration (VBA). Examples of overpayments include changes a dependent status (e.g. from a divorce) and receiving education benefits for a class and then dropping the class.
+Benefit overpayment debt can occur when a Veteran receives more compensation than they are entitled to at a given time. The Veterans Benefits Administration (VBA) manages this debt. Examples include changes to dependent status (e.g. after a divorce a divorce) and receiving education benefits for a class and then dropping the class.
 
 Veterans who have benefit overpayment debt can currently access overpayment information through the authenticated experience on VA.gov. The VA mobile app does not currently provide debt-related information or actions. This release introduces Overpayments as the first debt capability in the mobile app (Copays will be released separately at a later date).
 
