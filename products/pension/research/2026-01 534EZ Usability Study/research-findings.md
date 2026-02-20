@@ -1,5 +1,5 @@
 ---
-title: "Research Plan for Bio-Huntridgelabs, VA Form 21P-534EZ (Application for DIC, Survivors Pension, and/or Accrued Benefits), Jan 2026 Research Findings"
+title: "VA Form 21P-534EZ (Application for DIC, Survivors Pension, and/or Accrued Benefits) Research Findings"
 product: "VA Form 21P-534EZ"
 team: "Bio-Huntridgelabs"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
