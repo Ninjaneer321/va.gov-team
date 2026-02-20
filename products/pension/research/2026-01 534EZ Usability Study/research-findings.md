@@ -1,77 +1,84 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Research Plan for Bio-Huntridgelabs, VA Form 21P-534EZ (Application for DIC, Survivors Pension, and/or Accrued Benefits), Jan 2026 Research Findings"
+product: "VA Form 21P-534EZ"
+team: "Bio-Huntridgelabs"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
 date: "2026-02-18"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Sarah Baron"
+  - "Jordan Wood"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "The questions are clear and easy enough for surviving spouses and children to understand and confidently answer."
+  - "The flow aligns with the mental model and expected information-gathering process of surviving family members."
+  - "Surviving spouses and children can understand which supporting documents they should upload and how to successfully upload them for their claim to be processed faster."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "usability testing"
+  - "moderated study"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 8
+    tablet: 0
+    smartphone: 1
+    assistive_technology: 2
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 1
+  service_members: 0
+  caregivers: 0
+  dependents: 8
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 1
+    "45-54": 0
+    "55-64": 5
+    "65+": 2
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 4
+    some_college: 0
+    associates: 1
+    bachelors: 2
+    masters: 1
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 3
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 1
+    hispanic: 1
+    biracial: 0
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 3
+    AT_beginner: 0
+    AT_advanced: 1
+    screen_reader_desktop: 1
+    screen_reader_mobile: 0
+    magnification_zoom: 1
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "7 out of 9 participants and two pilot participants struggled with the logic and found the workflow hard to follow, especially in the Household information / Marriage section."
+  - "5 out of 9 participants and one pilot participant reacted negatively to the way the form uses language about death and family relationships"
+  - "For 3 of 9 participants and one pilot participant, audience ambiguity was a significant problem."
+  - "3 of 9 participants and one pilot participant felt like having to figure out what benefits they are entitled to places an unnecessary burden on them at a stressful time."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Consider revising the text for the marriage end/death of veteran question"
+  - "Consider revising the workflow in the marriage section."
+  - "People did not understand some of the questions clearly, and said they wanted to know the reasons for those questions."
+  - "Consider fewer required questions and/or adding an “I don’t know” option to the responses."
+  - "Consider displaying the list of documents and the upload function on the same page at the end of the form."
+  - "Format fields to be consistent with user expectations."
+  - "Update the confirmation to reflect digital submission."
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "What are the key moments this tool supports in the Veteran’s journey?"
+  - "What outcomes are we aiming to achieve for Veterans and stakeholders?"
 outcomes:
   user: "Desired user outcome"
   business: "Desired business outcome"
@@ -82,14 +89,25 @@ further_research_needed:
   - "Area 1"
   - "Area 2"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Group 1 - no degree"
+  - "Group 2 - expat origin"
+  - "Group 3 - immigrant origin"
+  - "Group 5 - biracial"
+  - "Group 6 - Native Hawaiian or other Pacific Islander"
+  - "Group 7 - First Nations (Canada)"
+  - "Group 8 - Native, American Indian or Alaska Native"
+  - "Group 9 - Transgender"
+  - "Group 10 - Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman"
+  - "Group 11 - Beginner AT User"
+  - "Group 12 - Mobile Screen Reader (SR)"
+  - "Group 13 - Speech Input Tech (Siri, Dragon)"
+  - "Group 14 - Hearing Aids"
+  - "Group 15 - Sighted Keyboard"
+  - "Group 16 - Captions"
+  - "Group 17 - Switch Device"
+  - "Group 18 - Braille Reader"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
 ---
 
 # VA Form 21P-534EZ (Application for DIC, Survivors Pension, and/or Accrued Benefits) Research Findings 
@@ -146,7 +164,7 @@ We used remote, moderated usability testing to observe research participants usi
 
 1. 7 out of 9 participants and two pilot participants struggled with the logic and found the workflow hard to follow, especially in the Household information / Marriage section.
 
-2. 5 out of 9 participants and one pilot participant reacted negatively to the way the form uses language about death and family relationships**
+2. 5 out of 9 participants and one pilot participant reacted negatively to the way the form uses language about death and family relationships
 
 3. For 3 of 9 participants and one pilot participant, audience ambiguity was a significant problem.
 
@@ -220,23 +238,23 @@ We used remote, moderated usability testing to observe research participants usi
 
 ## Recommendations
 
-1. **Consider revising the text for the marriage end/death of veteran question**
+1. Consider revising the text for the marriage end/death of veteran question
     - Because participants were put off and even insulted by this question, revise the text so that it does not equate death with the end of a marriage. 
-2. **Consider revising the workflow in the marriage section.**
+2. Consider revising the workflow in the marriage section.
     - Participants completing the form who were married to the veteran when they died  said they wanted to skip the question, “How did the marriage end?” 
-3. **People did not understand some of the questions clearly, and said they wanted to know the reasons for those questions.**
+3. People did not understand some of the questions clearly, and said they wanted to know the reasons for those questions.
     - They said that they were concerned about 
       - Why the information was relevant, and 
       - The implications of their answers on their benefits. 
-4. **Consider fewer required questions and/or adding an “I don’t know” option to the responses.** 
-5. **Consider displaying the list of documents and the upload function on the same page at the end of the form.**
+4. Consider fewer required questions and/or adding an “I don’t know” option to the responses.
+5. Consider displaying the list of documents and the upload function on the same page at the end of the form.
     - Users found it awkward to have to flip back and forth, write down, print, or otherwise remember what documents they need.  
-6. **Format fields to be consistent with user expectations.** 
+6. Format fields to be consistent with user expectations.
     - Users expected two-digit fields for the Day and Month (i.e., use “01” for January),
       - Note this was also an issue for vision-impaired participants. 
     - One subject said they would like to see comma separators for currency fields. 
     - Consider a dropdown/location finder for VA medical centers, as found on other VA forms. 
-7. **Update the confirmation to reflect digital submission.**
+7. Update the confirmation to reflect digital submission.
     - The current confirmation, “Your submission is in progress. It can take up to 30 days for us to receive your form” gives an impression of inefficiency and long wait times. Consider revising the text to reassure them their submission was received. 
 
 ## Next Steps
@@ -277,7 +295,7 @@ We talked to **9 participants.**
 
 Audience segment:
 * Veterans: 1
-* Caregivers: x 
+* Caregivers: 0 
 * Family members of a Veteran: 8  
 
 Gender:
@@ -285,13 +303,13 @@ Gender:
 * Female: 5 
 
 LGBTQ+:
-* Transgender: x 
-* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: x
+* Transgender: 0 
+* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: 0
 * Gay, lesbian, or bisexual: 1
 
 Devices used during study: 
 * Desktop/laptop:  8
-* Tablet: x 
+* Tablet: 0 
 * Smart phone: 1 
 * Assistive Technology: 2
 
@@ -305,7 +323,7 @@ Age:
 
 Education:
 * High school degree or equivalent: 4
-* Some college (no degree): x
+* Some college (no degree): 0
 * Associate's degree, trade certificate or vocational training: 1
 * Bachelor's degree: 2
 * Master's degree: 1
