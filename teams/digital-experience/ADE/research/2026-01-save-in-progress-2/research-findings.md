@@ -393,7 +393,7 @@ Eight participants said they wanted to be able to delete a form they started but
         1. His phone was stuck in Zoom's Safe Driving Mode, which required him to press a button in order to say anything
         1. He was very non-technical and didn't really know how to use his phone, nor understand phrases like "screen share" and "switch apps"
 
-        Figuring out issue "a" was challenging, and then we were able to talk whenever all cameras stayed off. Unfortunately the combination of issues "a" and "b" happening repeatedly made it impossible for us to resolve issues "c" and "d", get his screen shared, and start the user tasks. It's possible that other Veterans are accessing VA.gov using a similarly low-end phone, but as long as they're not trying to have a Zoom meeting at the same time, these issues shouldn't come up. One takeaway is that **if you encounter a major audio problem while any Zoom cameras are on, you should try turning off all cameras and see if the problem goes away**. 
+        Figuring out issue "a" was challenging, and then we were able to talk whenever all cameras stayed off. Unfortunately the combination of issues "a" and "b" happening repeatedly made it impossible for us to resolve issues "c" and "d", get his screen shared, and start the user tasks. It's possible that other Veterans access VA.gov using a similarly low-end phone, but as long as they're not trying to have a Zoom meeting at the same time, these issues shouldn't come up. One takeaway is that **if you encounter a major audio problem while any Zoom cameras are on, you should try turning off all cameras and see if the problem disappears**. 
 
 1. Two participants noticed the stepper and **didn't like that it said they were still on step 1 or 2, even though they had already filled out more than 1 or 2 form pages** by then. This happens because step 1 has 3 different form pages, and step 2 has 2 form pages.
 
@@ -474,7 +474,7 @@ Eight participants said they wanted to be able to delete a form they started but
 
      - _Supporting evidence_: Two participants mentioned frustrations with their assistive tech and didn't know that a different tool might meet their needs better. 
      
-     Some ideas are as follows:
+     Some ideas are listed below:
      1. Meet with Martha's VA Blind Rehab Center contacts to learn how they help Veterans who are blind or low vision, how to assess eligibility, and how to mention their services to research participants who could benefit from their services. --> *Martha will schedule a meeting*
      1. Add an optional blurb to conversation guides that could be shared with participants who might benefit from AT assistance
      1. Consider adding messaging on VA.gov about how to better use the website (i.e., see this page on [gov.uk](https://www.gov.uk/help/accessibility-statement#how-you-should-be-able-to-use-this-website)). Could maybe add to the [508 compliance (Accessibility) page](https://www.va.gov/accessibility-at-va/) --> *Create a ticket to discuss with Danielle.*
