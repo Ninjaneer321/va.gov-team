@@ -115,7 +115,7 @@ tags:
 **Contacts:** Cindy Merrill
 
 **[Research Readout (PDF)](link-here)**  
-*Add a link to your research readout deck, if available.*
+*Add a link to your research readout deck, if available.* **TBD**
 
 **Jump to:**
 - [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
@@ -206,18 +206,15 @@ For demographic details, see [Research participants](#user-content-research-part
 
 ## Key Findings
 
-*Summarize the 5–10 most impactful findings from your study.* 
-
-> [!TIP] 
-> Write findings as stand-alone insights that are easy to scan. For example:  
-> - "Most participants used the search field to locate forms, often searching for 'veteran health.'"  
-> - "Participants struggled with the secondary caregiver section on the form."  
-> 
 > **After completing your detailed findings below, you'll add metadata labels using the [Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md).**  
 
-[Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
+1. The interstitial page was NOT effective in communicating about save in progress because most users were so focused on form fields that anything else was ignored.
+1. Most participants assumed that saving happened only after selecting "Finish later" or submitting the form.
+1. All participants used the "Finish later" button to stop filling out the form, and then successfully resumed the form.
+1. All participants who interacted with the accordions on the "Review and submit" page easily opened and closed them using the controls on the left side.
+1. Most participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted.
+1. All participants who encountered an error while filling out the form were able to fix it themselves.
 
-**1. PULL LIST FROM Details of Findings section below**
 
 ## Details of Findings 
 
@@ -296,8 +293,6 @@ Eight participants said they wanted to be able to delete a form they started but
     > p8 wanted to copy/paste the name in the error: *"It won't let me even copy that" (p8).*
 1. A screen reader user entered the postal code and then a space in order to hear JAWS read it. This triggered an error because there was a space entered into that field and so too many characters. The participant said that they encounter this same issue on many forms, so they realized what the problem was and how to correct it.
 1. One participant entered "1-" at beginning of phone number, which resulted in an error because there were more than 10 digits.
- 
-
 
 ## Additional Insights
 1. One participant expressed his **appreciation for us taking the time to learn from Veterans**:
@@ -337,7 +332,13 @@ Eight participants said they wanted to be able to delete a form they started but
     
     1. Two non-AT participants were **confused when they saw the form intro page** because they were looking for fields to fill out. One of them always uses Google to find VA forms and never sees the form intro page. The other didn't notice the form number below the big "Request personal records" heading, in part because it was split across two vertical lines: (1) **(VA Form 20-**, and (2) **10206**". 
     
-    **INSERT IMAGE**
+      <details><summary>Screenshot of the form number split across two lines in Figure 2</summary>
+
+      Figure 2 shows the VA form number "20-10206" split across two lines.
+
+      <img src="./images/p7-intro-page-form#broken.png" width="50%" height="50%" alt="The VA form number is below the Heading and split across two lines with '20' on the first line and '10206' on the second line">
+      </details>
+
 
      1. Two screenreader users **expected to be able to click on one of the record types listed on the form intro page**, but they weren't clickable. This also happened to one screenreader user in the previous round of usability research.
         > *"But these are only bullets, not checkmarks, so I know I have to go to the form" (p4).*
