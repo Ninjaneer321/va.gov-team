@@ -355,7 +355,7 @@ Eight participants said they wanted to be able to delete a form they started but
 1. Participants encountered a number of **usability issues when filling out the Request Personal Records form**:
       1. **Prefill**: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. In the previous round of usability testing, one participant similarly expected prefill.
 
-        > *“Just your name and Social Security number--they should be able to find your records completely" (p3).*
+         > *“Just your name and Social Security number--they should be able to find your records completely" (p3).*
     
      1. When P9 (no AT) opened the "Additional information" accordion, focus moved down to the "Statement of truth", which made it seem like it was a part of the accordion, which it's not. A similar focus problem happened to the third pilot participant (using a screen magnifier), but it was worse because the accordion scrolled completely out of view, which was disorienting. The **extra scrolling is caused by scrollToFocus in the accordions**, which is supposed to ensure that the currently focused element is not off-screen for sighted keyboard users, but it causes other issues. 
 
