@@ -330,13 +330,13 @@ Eight participants said they wanted to be able to delete a form they started but
 
 1. Participants had some **usability issues on the form intro page**:
     
-    1. Two non-AT participants were **confused when they saw the form intro page** because they were looking for fields to fill out. One of them always uses Google to find VA forms and never sees the form intro page. The other didn't notice the form number below the big "Request personal records" heading, in part because it was split across two vertical lines: (1) **(VA Form 20-**, and (2) **10206**". 
+    1. Two non-AT participants were **confused when they saw the form intro page** because they were looking for fields to fill out. One of them always uses Google to find VA forms and never sees the form intro page. The other didn't notice the form number below the big "Request personal records" heading, in part because it was split across two vertical lines: (1) **VA Form 20-**, and (2) **10206**". 
     
         <details><summary>Screenshot of the form number split across two lines in Figure 2</summary>
 
         Figure 2 shows the VA form number "20-10206" split across two lines.
 
-        <img src="./images/p7-intro-page-form#broken.PNG" width="50%" height="50%" alt="The VA form number is below the Heading and split across two lines with '20' on the first line and '10206' on the second line">
+        <img src="./images/p7-intro-page-form-num-broken.PNG" width="50%" height="50%" alt="The VA form number is directly below the Heading and split across two lines with '20' on the first line and '10206' on the second line">
         </details>
 
 
