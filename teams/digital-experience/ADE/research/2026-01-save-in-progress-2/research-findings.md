@@ -451,8 +451,8 @@ Eight participants said they wanted to be able to delete a form they started but
 
 ### For the Request Personal Records form
 
-1. **Consider revising the "Your full name" prompt on the "Review and submit" page** to include a reference to what you entered before: "Your name as entered previously", **and also consider changing the "Middle initial" prompt to "Middle name"**.
-   - _Supporting evidence_: Participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as asked for earlier.
+14. **Consider revising the "Your full name" prompt on the "Review and submit" page** to include a reference to what you entered before: "Your name as entered previously", **and also consider changing the "Middle initial" prompt to "Middle name"**.
+    - _Supporting evidence_: Participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as asked for earlier.
 
 1. **Consider adding details in the helper text about what types of information would be helpful to enter in the "Additional records information"** field.
    - _Supporting evidence_: Three of 7 participants said that they didn't know what kind of information would be helpful to include.
@@ -470,7 +470,7 @@ Eight participants said they wanted to be able to delete a form they started but
      - _Supporting evidence_: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. A participant in the previous round of usability testing expressed the same concern.
 
 ### For the ADE team
-1. **Explore opportunities to help Veterans who are struggling with their assistive tech and may be unaware of other options**. 
+20. **Explore opportunities to help Veterans who are struggling with their assistive tech and may be unaware of other options**. 
 
      - _Supporting evidence_: Two participants mentioned frustrations with their assistive tech and didn't know that a different tool might meet their needs better. 
      
