@@ -517,7 +517,7 @@ This research supports our desired business outcome by....
 
 ### Tools used for Synthesis
 
-[Synthesis spreadsheet](./analysis/TBD.xlsx) **NEED TO ADD THIS**
+[Synthesis spreadsheet](./analysis/TBD.xlsx) ***NEED TO ADD THIS***
 
 [Mural board](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1767751338801/88ba6eb67d784bd724da7db997a67bfd0d1e14b5?sender=uff8fa85716c1796ccf022668)
   
@@ -526,7 +526,7 @@ This research supports our desired business outcome by....
 [Prototype in a GitHub Codespace that needs to be started manually--CONTACT CINDY](https://legendary-yodel-46rpq9g49pj37wv5-3002.app.github.dev)
 
 #### Screenshots of the prototype (Codespace) 
-**NEED TO UPDATE EVERYTHING BELOW...**
+***NEED TO UPDATE EVERYTHING BELOW*...**
 <details>
   <summary>Figure 9: Informational alert about saving</summary>
    <img src="./images/intro-pg-alert.png" width="75%" height="75%" alt="We'll save your request on every change. You can stop anytime, and come back later to finish.">
@@ -629,85 +629,85 @@ The form we tested has 9 pages of questions, and each page has at the bottom a *
 ### Research participants 
 _Complete the demographic info below using information from the Perigean recruitment survey. For those items where you didn't have participants, please mark with "0". You can use "unknown" if you aren't sure if your participants had a characteristic._ 
 
-[Example Research participants](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#research-participants)
-
 #### Recruitment criteria
 
-_If you had specific criteria that you recruited for, use this space to explain what those were along with other information you feel would be important to understanding your participants._
+We asked Perigean to recruit a mix of AT users and non-AT users, some of whom had filled out a VA form online before and some of whom had not.
 
 #### Demographics 
 
-We talked to **x participants.**
+We talked to **9 participants.**
 
 Audience segment:
-* Veterans: x 
-* Caregivers: x 
-* Family members of a Veteran: x  
+* Veterans: 9 
+* Caregivers: 0 
+* Family members of a Veteran: 0  
 
 
 Gender:
-* Male: x 
-* Female: x 
+* Male: 7 
+* Female: 1 
+* Unknown: 1
 
 
 LGBTQ+:
-* Transgender: x 
-* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: x
-* Gay, lesbian, or bisexual: x
+* Transgender: unknown 
+* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: unknown
+* Gay, lesbian, or bisexual: unknown
 
 
 Devices used during study: 
-* Desktop: x 
-* Tablet: x 
-* Smart phone: x 
-* Assistive Technology: x
+* Desktop: 4 
+* Tablet: 0 
+* Smart phone: 5 
+* Assistive Technology: 5
 
 
 Age:
-* 25-34: x
-* 35-44: x
-* 45-54: x
-* 55-64: x
-* 65+: x
-* Unknown: x
+* 25-34: 0
+* 35-44: 0
+* 45-54: 1
+* 55-64: 5
+* 65+: 3
+* Unknown: 0
 
 
 Education:
-* High school degree or equivalent: x
-* Some college (no degree): x
-* Associate's degree, trade certificate or vocational training: x
-* Bachelor's degree: x
-* Master's degree: x
-* Doctorate degree: x
-* Unknown: x
+* High school degree or equivalent: 1
+* Some college (no degree): 1
+* Associate's degree, trade certificate or vocational training: 1
+* Bachelor's degree: 2
+* Master's degree: 3
+* Doctorate degree: 0
+* Unknown: 1
 
 
 Geographic location:
-* Urban: x
-* Rural: x
-* Unknown: x
+* Urban: 4
+* Rural: 5
+* Unknown: 0
 
 
 Race:
-* White: x
-* Black: x
-* Hispanic: x
-* Biracial: x
-* Asian: x
-* Native: x
+* White: 5
+* Black: 2
+* Hispanic: 0
+* Biracial: 0
+* Asian: 0
+* Native: 1
+* Unknown: 1
 
 
 Disability and Assistive Technology (AT):
-* Cognitive: x
-* AT beginner: x
-* AT advanced user: x
-* Desktop screen reader: x
-* Mobile screen reader: x
-* Magnification/Zoom: x
-* [Speech Input Technology](https://www.w3.org/WAI/perspective-videos/voice/) like Siri/Dragon Naturally Speaking: x
-* Hearing aids: x
-* Sighted keyboard: x
-* Captions: x
+* Cognitive: 5
+* AT beginner: 0
+* AT advanced user: 5
+* Desktop screen reader: 1
+* Mobile screen reader: 3
+* Magnification/Zoom: 1
+* [Speech Input Technology](https://www.w3.org/WAI/perspective-videos/voice/) like Siri/Dragon Naturally Speaking: 0
+* Hearing aids: unknown
+* Sighted keyboard: 0
+* Captions: 0
 
 
 #### Underserved groups we haven’t talked to 
