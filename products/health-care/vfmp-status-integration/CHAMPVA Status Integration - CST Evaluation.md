@@ -1,3 +1,6 @@
+<details open>
+<summary><strong>CHAMPVA Status Integration – CST Frontend Evaluation</strong></summary>
+
 # CHAMPVA Status Integration – CST Frontend Evaluation  
 *(With Code Evidence References)*
 
@@ -14,7 +17,7 @@
 - [6. Role-Based Visibility](#6-role-based-visibility)
 - [7. Frontend Constraints Summary](#7-frontend-constraints-summary)
 - [8. Reuse Opportunities](#8-reuse-opportunities)
-- [9. Open Questions for Product/UX](#9-open-questions-for-productux)
+- [9. Open Questions for Product and UX](#9-open-questions-for-product-and-ux)
 - [10. Preliminary Conclusion](#10-preliminary-conclusion)
 
 # Purpose
@@ -363,3 +366,4 @@ However, there are UX risks around:
 - Role-based differences
 
 Final validation should occur after reviewing Figma designs.
+</details>
