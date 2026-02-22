@@ -345,7 +345,7 @@ Frontend changes required for role-based display.
 
 ---
 
-# 9. Open Questions for Product / UX
+# 9. Open Questions for Product and UX
 
 1. Should Draft claims appear in CST?
 2. Should Complete Denied have stronger visual treatment?
