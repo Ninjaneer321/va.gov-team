@@ -7,14 +7,14 @@
 
 - [Purpose](#purpose)
 - [1. How CST Currently Displays a Claim](#1-how-cst-currently-displays-a-claim)
-- [2. What is “Status”?](#2-what-is-"status")
+- [2. What is “Status”?](#2-what-is-status)
 - [3. What is a “Bucket”?](#3-what-is-a-bucket)
 - [4. CHAMPVA Status Model](#4-champva-status-model)
-- [5. Compatibility Review (With Code Context)](#5-compatibility-review-(with-code-context))
+- [5. Compatibility Review (With Code Context)](#5-compatibility-review-with-code-context)
 - [6. Role-Based Visibility](#6-role-based-visibility)
 - [7. Frontend Constraints Summary](#7-frontend-constraints-summary)
 - [8. Reuse Opportunities](#8-reuse-opportunities)
-- [9. Open Questions for Product/UX](#9-open-questions-for-product/ux)
+- [9. Open Questions for Product/UX](#9-open-questions-for-productux)
 - [10. Preliminary Conclusion](#10-preliminary-conclusion)
 
 # Purpose
