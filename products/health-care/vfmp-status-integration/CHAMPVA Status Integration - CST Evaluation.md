@@ -1,7 +1,8 @@
+# CHAMPVA Status Integration – CST Evaluation
 <details open>
-<summary><strong>CHAMPVA Status Integration – CST Frontend Evaluation</strong></summary>
+<summary><strong>CST Frontend Evaluation</strong></summary>
 
-# CHAMPVA Status Integration – CST Frontend Evaluation  
+# Frontend Evaluation  
 *(With Code Evidence References)*
 
 ---
