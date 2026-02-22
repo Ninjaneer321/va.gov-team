@@ -3,6 +3,11 @@
 
 ---
 
+## Table of Contents
+
+- [Purpose](#purpose)
+- [1. How CST Currently Displays a Claim](#1-how-cst-currently-displays-a-claim)
+
 # Purpose
 
 This document evaluates whether CHAMPVA claim statuses can be displayed clearly and accurately within the existing Claim Status Tool (CST) frontend.
