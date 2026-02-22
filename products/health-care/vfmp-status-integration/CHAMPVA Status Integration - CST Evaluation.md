@@ -1,4 +1,4 @@
-# CHAMPVA Status Integration – CST (Case Status Tool) Evaluation
+# CHAMPVA Status Integration – CST Evaluation
 <details>
 <summary><strong>CST Frontend Evaluation</strong></summary>
 
