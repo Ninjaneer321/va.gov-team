@@ -370,6 +370,18 @@ Final validation should occur after reviewing Figma designs.
 </details>
 
 <details open>
-<summary><strong>CST Frontend Evaluation</strong></summary>
+<summary><strong>CST Backend Evaluation</strong></summary>
+# Backend Evaluation  
+*(With Code Evidence References)*
+
+---
 Backend findings goes here...
+</details>
+
+<details open>
+<summary><strong>Integration Alignment Analysis</strong></summary>
+# Integration Analysis 
+
+---
+End-to-End compatibility assessment goes here...
 </details>
