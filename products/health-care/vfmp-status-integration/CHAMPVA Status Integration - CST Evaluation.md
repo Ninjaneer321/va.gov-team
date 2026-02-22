@@ -1,4 +1,4 @@
-# CHAMPVA Status Integration – CST Evaluation
+# CHAMPVA Status Integration – CST (Case Status Tool) Evaluation
 <details open>
 <summary><strong>CST Frontend Evaluation</strong></summary>
 
@@ -367,4 +367,9 @@ However, there are UX risks around:
 - Role-based differences
 
 Final validation should occur after reviewing Figma designs.
+</details>
+
+<details open>
+<summary><strong>CST Frontend Evaluation</strong></summary>
+Backend findings goes here...
 </details>
