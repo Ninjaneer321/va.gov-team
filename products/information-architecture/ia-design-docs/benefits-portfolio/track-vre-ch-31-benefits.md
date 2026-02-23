@@ -19,7 +19,7 @@
 
 
 ## <a name="flows"></a>User/page flows
-<img width="1367" height="543" alt="Screenshot 2026-02-23 133941" src="https://github.com/user-attachments/assets/d77eacd8-add8-43bc-b5d0-49bfb5d40493" />
+<img width="1362" height="539" alt="Screenshot 2026-02-23 134819" src="https://github.com/user-attachments/assets/c8d8d8cc-250d-4a50-8287-78c670b50580" />
 
 
 ## <a name="map"></a>Placement within the VA.gov IA
