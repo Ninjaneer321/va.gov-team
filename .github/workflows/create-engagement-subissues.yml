@@ -68,7 +68,9 @@ jobs:
               - [ ] identify number of shared emails
               - [ ] check for valid email addresses
               - [ ] resolve any other data issues
-            - [ ] Share with OGC and confirm when org reps will be updated`,
+            - [ ] Obtain approval from org certifying official
+            - [ ] Obtain approval from OGC rep
+            - [ ] Send to GCLAWS team to process`,
                 labels: ['engagement','org-onboarding','ar-crew']
               },
               {
