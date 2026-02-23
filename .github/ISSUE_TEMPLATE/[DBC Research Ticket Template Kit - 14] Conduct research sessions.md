@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Conduct research sessions"
+name: "DBC Research Ticket Template Kit - 14: Conduct research sessions"
 about: To guide the running of a study's research sessions. 
 labels: "disability-benenfits,research" 
 assignees: ''
