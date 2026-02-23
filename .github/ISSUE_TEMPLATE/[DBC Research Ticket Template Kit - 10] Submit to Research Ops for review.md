@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Submit to Research Ops for review"
+name: "DBC Research Ticket Template Kit - 10: Submit to Research Ops for review"
 about: To guide the submission of the study to the Platform's Research Ops for review and approval. 
 labels: "disability-benenfits,research" 
 assignees: ''
