@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Refine research plan"
+name: "DBC Research Ticket Template Kit - 04: Refine research plan"
 about: To guide the refinement of the final, detailed research plan. 
 labels: "disability-benenfits,research" 
 assignees: ''
