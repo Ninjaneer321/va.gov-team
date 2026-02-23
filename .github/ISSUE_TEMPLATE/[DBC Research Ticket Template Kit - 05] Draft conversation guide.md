@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Draft conversation guide"
+name: "DBC Research Ticket Template Kit - 05: Draft conversation guide"
 about: To guide the creation of a research study's conversation guide. 
 labels: "disability-benenfits,research" 
 assignees: ''
