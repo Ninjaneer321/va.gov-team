@@ -18,17 +18,17 @@
 
 # Jump to
 
-[Phase-1,-3.0-experience-overview](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#phase-1-30-experience-overview)
+[Phase-1, 3.0-experience-overview](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#phase-1-30-experience-overview)
 
-[Use cases](#Common-use-cases)
+[Common use cases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#common-use-cases)
 
-[Edge cases](#edge-cases)
+[Edge cases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#edge-cases)
 
-- [Validation](#validation)
+- [Validation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#validation)
 
-- [Flags](#flags)
+- [Flags](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#flags)
 
-- [Errors](#errors)
+- [Errors](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#errors)
 
 # Phase 1, 3.0 experience overview 
 - LOA1 and LOA3 (identify verified) users can see all use cases.
