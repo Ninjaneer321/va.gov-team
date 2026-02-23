@@ -118,7 +118,7 @@ Before we start, I have a few things that I want to go over with you:
 
  <mark>**[Record answer here]**</mark>
 
-# Warm-up Questions (Optional) - 5 minutes
+# Warm-up Questions - 5 minutes
 
 Before we look at the website, let’s start with a few warm-up questions.
 
@@ -128,10 +128,10 @@ Before we look at the website, let’s start with a few warm-up questions.
 2. Do you receive a pention from VA?
 
 We'd like to ask you a few questions about your relationship with your medical provider.
-3. Do you have a medical provider (for example your doctor) through VA? Do you have a private doctor?
-4. Imagine you need your doctor's help to fill out a VA form. Can you talk us through your workflow to do that?
-5. Is that something you've ever done before? If so, can you tell us about that experience?
-6. What are some of the major challenges you encounter in communicating with your doctor?
+1. Do you have a medical provider (for example your doctor) through VA? Do you have a private doctor?
+2. Imagine you need your doctor's help to fill out a VA form. Can you talk us through your workflow to do that?
+3. Is that something you've ever done before? If so, can you tell us about that experience?
+4. What are some of the major challenges you encounter in communicating with your doctor?
 
 ## First Task: Understand eligibility - 5 minutes
 
