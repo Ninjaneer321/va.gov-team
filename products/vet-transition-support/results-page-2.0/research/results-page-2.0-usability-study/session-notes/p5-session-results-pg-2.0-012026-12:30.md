@@ -1,4 +1,4 @@
-# Usability Study Results Page 2.0: Participant 5 January 20 2026 12:30 TIME
+# Usability Study Results Page 2.0: Participant 5 01/20/2026 12:30
 ## Interview Notes
 
 | Participant ID | 5 |
