@@ -6,6 +6,9 @@ assignees: ''
 
 ---
 
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
+
 ### Description
 This ticket covers incorporating stakeholder feedback and finalizing the research report for the [study name] study. The study focuses on [brief description of study]. 
 
