@@ -138,4 +138,7 @@ When discussing how multiple errors would be surfaced if there are several areas
 
 ### Decision
 
+### Open Questions
+Are we implementing the error summary pattern(currently an experimental design) into the first release of prefill?
+
 
