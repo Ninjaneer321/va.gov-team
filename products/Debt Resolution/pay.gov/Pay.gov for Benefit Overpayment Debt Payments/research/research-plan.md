@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Research Plan for Financial Management, Pay.gov for Benefit Overpayment Debt Payments, 2026-02-12"
 date: 2026-02-12
-last_updated: 2026-02-20
+last_updated: 2026-02-23
 team: "Financial Management"
 product: "Pay.gov for Benefit Overpayment Debt Payments"
 product_area: "authenticated"
@@ -381,7 +381,8 @@ Provide a link to any materials you need to run your study, including any materi
 
 **For moderated usability tests:** 
 - [Link to conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/Debt%20Resolution/pay.gov/Pay.gov%20for%20Benefit%20Overpayment%20Debt%20Payments/research/conversation-guide.md)
-- [Link to prototype](https://www.figma.com/proto/Yzumw4ai6JjkgS6jmB1PB5/Pay.gov-Hosted-Collections?node-id=40002346-61020&viewport=3519%2C-4684%2C0.25&t=RskLNxhHqH7nHhYc-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=40002346%3A61020)
+- [Link to desktop prototype](https://www.figma.com/proto/Yzumw4ai6JjkgS6jmB1PB5/Pay.gov-Hosted-Collections?node-id=40002346-61020&viewport=3519%2C-4684%2C0.25&t=RskLNxhHqH7nHhYc-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=40002346%3A61020)
+- [Link to mobile prototype](figma.com/proto/Yzumw4ai6JjkgS6jmB1PB5/Pay.gov-Hosted-Collections?node-id=40002322-9464&p=f&viewport=4558%2C-1206%2C0.25&t=dk9rrMq6UveJPVx4-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=40002553%3A19582)
 
 	
 ## Recruitment 🎯	
