@@ -134,7 +134,7 @@ Start recording.
 <details>
 <summary>validate on va.gov</summary>
 
-_[NOTE] Use this step if they did not validate prior to the session_
+_[NOTE] Use this step if they did NOT validate prior to the session_
 
 Before we start on the app, I'd like to have you log in to your acccount on va.gov so that we can confirm that the information lines up to what you’ll be seeing in the app.
 
@@ -270,7 +270,10 @@ _[NOTE] Record the name of debt(s), quantity of debt(s), and total amount(s) for
 
 ## Validate overpayments on va.gov (option 2)
 
-_[NOTE] Use this step if they did validate prior to the session_
+<details>
+<summary>validate on va.gov</summary>
+
+_[NOTE] Use this step if they DID validate prior to the session_
 
 If you’re able, I’d like to now have you log in to VA.gov where we’ll confirm that the information lines up in your account to what you’re seeing in the app.
 This could either be on another device, in case you have a computer nearby where you regularly log in, or this could be on your phone here.
@@ -286,6 +289,7 @@ We want to make sure that the information is the same:
 - confirm correct name(s) of debt(s)
 - confirm current balance(s) of debt(s)
 
+</details>
 
 ## Phone clean-up
 
