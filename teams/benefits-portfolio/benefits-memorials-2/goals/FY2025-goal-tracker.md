@@ -34,11 +34,6 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 |ENG: If the shutdown happens: Be fully ready to launch One Thing Per Page in production. If the shutdown is averted the goal will be to release this work.| QP2 |See below|--|Incomplete|
 |ENG: Complete Payment History implementation work.| QP3 |See below|--|Incomplete|
 
-**Sprint rollover tickets**
-| Aditional work that was pulled in mid sprint | Scope of work changed after work started | Work became blocked mid sprint |  Work was underestimated and not comleted |
-|---------------|---------------|---------------|---------------|
-|Ticket #|Ticket #|Ticket #|Ticket #|
-
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (09/30/25)
  - [X] VA PO & COR sent the Sprint Goals (09/30/25)
