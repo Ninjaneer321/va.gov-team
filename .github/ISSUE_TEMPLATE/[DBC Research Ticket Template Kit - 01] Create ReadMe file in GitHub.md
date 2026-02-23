@@ -7,6 +7,9 @@ assignees: ''
 
 ---
 
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
+
 ### Description
 Create a Github folder and Read Me file for the [study name here] study. The study focuses on [brief description of study].
 
