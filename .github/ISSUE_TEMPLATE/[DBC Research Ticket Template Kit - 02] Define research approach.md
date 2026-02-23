@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Define research approach"
+name: "DBC Research Ticket Template Kit - 02: Define research approach"
 about: To guide the creation of a high-level approach to an upcoming research study. 
 labels: "disability-benenfits,research" 
 assignees: ''
