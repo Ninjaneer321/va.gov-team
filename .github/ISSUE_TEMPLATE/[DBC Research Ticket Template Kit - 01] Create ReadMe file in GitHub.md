@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Create ReadMe file in GitHub"
+name: "DBC Research Ticket Template Kit - 01: Create ReadMe file in GitHub"
 about: To guide the creation of a ReadMe file which will will serve as a quick reference for the files and folders related to a DBC research study.
 title: Create ReadMe file in GitHub
 labels: "disability-benenfits,research" 
