@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Draft research plan"
+name: "DBC Research Ticket Template Kit - 03: Draft research plan"
 about: To guide the creation of a detailed research plan. 
 labels: "disability-benenfits,research" 
 assignees: ''
