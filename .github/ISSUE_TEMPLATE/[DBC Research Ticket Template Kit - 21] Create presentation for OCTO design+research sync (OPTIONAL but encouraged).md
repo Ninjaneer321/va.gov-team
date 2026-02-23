@@ -6,6 +6,9 @@ assignees: ''
 
 ---
 
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
+
 ### Description
 This ticket covers creating a presentation to share the [study name] study in the Digital User Experience Weekly Design Sync. The study focuses on [brief description of study]. 
 
