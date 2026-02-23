@@ -365,7 +365,7 @@ This approach allows us to reach a diverse group of veterans and caregivers acro
 **`1.` Are you a Veteran, or the caregiver or dependent of a Veteran?**
 - **Qualifying response:** Yes
 
-**`2.` Do you receive a VA pension or have a service-related disability?**
+**`2.` Do you receive a VA pension OR do you have a service-related disability?**
 - **Qualifying response:** Yes
 
 **`3.` Are you comfortable participating in a 60-minute remote interview about your experience with healthcare and benefits?**
