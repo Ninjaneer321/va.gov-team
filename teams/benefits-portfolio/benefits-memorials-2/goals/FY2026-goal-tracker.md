@@ -36,6 +36,11 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 |ENG: Complete back end ENG transition tickets to prepare for Benefit Payment Tool support.| P3 |--|--|--|
 |ENG: Audit existing benefit payment tool monitors, and map out any cloning into the debt space if necessary.| P3 |--|--|--|
 
+**Sprint rollover tickets**
+| Aditional work that was pulled in mid sprint | Scope of work changed after work started | Work became blocked mid sprint |  Work was underestimated and not comleted |
+|---------------|---------------|---------------|---------------|
+|Ticket #|Ticket #|Ticket #|Ticket #|
+
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (02/10/26)
  - [X] VA PO & COR sent the Sprint Goals (02/10/26)
