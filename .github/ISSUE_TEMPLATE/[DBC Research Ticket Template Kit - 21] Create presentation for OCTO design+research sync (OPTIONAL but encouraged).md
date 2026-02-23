@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Create presentation for OCTO design+research sync (OPTIONAL but encouraged)"
+name: "DBC Research Ticket Template Kit - 21: Create presentation for OCTO design+research sync (OPTIONAL but encouraged)"
 about: To cover creating a presentation to share the study's findings in the Digital User Experience Weekly Design Sync. 
 labels: "disability-benenfits,research" 
 assignees: ''
