@@ -131,7 +131,8 @@ Start recording.
 
 ## Validate overpayments on va.gov (option 1)
 
-<detail><summary>validate on va.gov</summary>
+<details>
+<summary>validate on va.gov</summary>
 _[NOTE] Use this step if they did not validate prior to the session_
 
 Before we start on the app, I'd like to have you log in to your acccount on va.gov so that we can confirm that the information lines up to what you’ll be seeing in the app.
@@ -146,7 +147,7 @@ Please head to your overpayments section
 
 _[NOTE] Record the name of debt(s), quantity of debt(s), and total amount(s) for comparison against their account on va.gov._
 
-</detail>
+</details>
 
 ## Set-up
 
