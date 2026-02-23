@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Document field observations (OPTIONAL but encouraged)"
+name: "DBC Research Ticket Template Kit - 16: Document field observations (OPTIONAL but encouraged)"
 about: To guide the documentation of field observations for the study. 
 labels: "disability-benenfits,research" 
 assignees: ''
