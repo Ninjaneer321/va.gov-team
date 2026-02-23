@@ -121,8 +121,6 @@ tags:
 - [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
 - [Key findings](#user-content-key-findings)
 - [Recommendations](#user-content-recommendations)
-- [Product User and Business Outcomes](#user-content-product-user-and-business-outcomes)
-- [Key Performance Indicators](#user-content-key-performance-indicators)
 - [Next Steps](#user-content-next-steps)
 - [Further research needed](#user-content-further-research-needed)
 - [Appendix](#user-content-appendix)
