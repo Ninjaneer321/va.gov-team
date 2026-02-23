@@ -110,12 +110,12 @@ tags:
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 02/19/2026
+**Date:** 02/20/2026
 
 **Contacts:** Cindy Merrill
 
 **[Research Readout (PDF)](link-here)**  
-*Add a link to your research readout deck, if available.*
+*Add a link to your research readout deck, if available.* **TBD**
 
 **Jump to:**
 - [Hypotheses and conclusions](#user-content-hypotheses-and-conclusions)
@@ -206,18 +206,15 @@ For demographic details, see [Research participants](#user-content-research-part
 
 ## Key Findings
 
-*Summarize the 5–10 most impactful findings from your study.* 
-
-> [!TIP] 
-> Write findings as stand-alone insights that are easy to scan. For example:  
-> - "Most participants used the search field to locate forms, often searching for 'veteran health.'"  
-> - "Participants struggled with the secondary caregiver section on the form."  
-> 
 > **After completing your detailed findings below, you'll add metadata labels using the [Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md).**  
 
-[Example Key Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/find-a-va-form/initiatives/2021-post-mvp-releases/research/research-findings.md#key-findings)
+1. The interstitial page was NOT effective in communicating about save in progress because most users were so focused on form fields that anything else was ignored.
+1. Most participants assumed that saving happened only after selecting "Finish later" or submitting the form.
+1. All participants used the "Finish later" button to stop filling out the form, and then successfully resumed the form.
+1. All participants who interacted with the accordions on the "Review and submit" page easily opened and closed them using the controls on the left side.
+1. Most participants wanted to be notified by email or text after selecting "Finish later" and before their information gets deleted.
+1. All participants who encountered an error while filling out the form were able to fix it themselves.
 
-**1. PULL LIST FROM Details of Findings section below**
 
 ## Details of Findings 
 
@@ -296,8 +293,6 @@ Eight participants said they wanted to be able to delete a form they started but
     > p8 wanted to copy/paste the name in the error: *"It won't let me even copy that" (p8).*
 1. A screen reader user entered the postal code and then a space in order to hear JAWS read it. This triggered an error because there was a space entered into that field and so too many characters. The participant said that they encounter this same issue on many forms, so they realized what the problem was and how to correct it.
 1. One participant entered "1-" at beginning of phone number, which resulted in an error because there were more than 10 digits.
- 
-
 
 ## Additional Insights
 1. One participant expressed his **appreciation for us taking the time to learn from Veterans**:
@@ -335,10 +330,18 @@ Eight participants said they wanted to be able to delete a form they started but
 
 1. Participants had some **usability issues on the form intro page**:
     
+    1. Two non-AT participants were **confused when they saw the form intro page** because they were looking for fields to fill out. One of them always uses Google to find VA forms and never sees the form intro page. The other didn't notice the form number below the big "Request personal records" heading, in part because it was split across two vertical lines: (1) **VA Form 20-**, and (2) **10206**". 
+    
+        <details><summary>Screenshot of the form number split across two lines in Figure 2</summary>
+
+        Figure 2 shows the VA form number "20-10206" split across two lines.
+
+        <img src="./images/p7-intro-page-form-num-broken.PNG" width="50%" height="50%" alt="The VA form number is directly below the Heading and split across two lines with '20' on the first line and '10206' on the second line">
+        </details>
+
+
      1. Two screenreader users **expected to be able to click on one of the record types listed on the form intro page**, but they weren't clickable. This also happened to one screenreader user in the previous round of usability research.
         > *"But these are only bullets, not checkmarks, so I know I have to go to the form" (p4).*
-
-    1. Two non-AT participants were **confused when they saw the form intro page** because they were looking for fields to fill out. One of them always uses Google to find VA forms and never sees the form intro page. The other didn't notice the form number below the big "Request personal records" heading, in part because it was split across two vertical lines: (1) "(VA Form 20-", and (2) "10206)". **INSERT IMAGE BELOW**
 
     1. One participant **didn't know what "Fiduciary services" means** and how it's different from "Financial records". These were two of the items listed under "Types of information you can request". 
 
@@ -350,127 +353,132 @@ Eight participants said they wanted to be able to delete a form they started but
         > *"Trying to find the form was difficult. There was a lot of information on the page" (p7).*
 
 1. Participants encountered a number of **usability issues when filling out the Request Personal Records form**:
+      1. **Prefill**: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. In the previous round of usability testing, one participant similarly expected prefill.
+
+         > *“Just your name and Social Security number--they should be able to find your records completely" (p3).*
+    
+     1. When P9 (no AT) opened the "Additional information" accordion, focus moved down to the "Statement of truth", which made it seem like it was a part of the accordion, which it's not. A similar focus problem happened to the third pilot participant (using a screen magnifier), but it was worse because the accordion scrolled completely out of view, which was disorienting. The **extra scrolling is caused by scrollToFocus in the accordions**, which is supposed to ensure that the currently focused element is not off-screen for sighted keyboard users, but it causes other issues. 
+
+     1. **Your full name**: One participant encountered an error when they entered a full name **(first-name middle-name last-name) that didn't match what they previously entered on the form (first-name middle-*initial* last-name)**. This seemed to the participant to be a bug in the form, since it asked for middle initial earlier but then asks for your full name at the end.
+        > *"When you're doing government paperwork, when they want your full name, they want the full name---so, all your names written out" (p3).*
+
+     1. **Additional records information**: Three of 7 participants said that they **didn't know what kinds of information would be helpful** to include. One participant thought maybe your parents' names or where you where stationed. Another participant thought maybe a date range for your medical records.
+     1. **Country**: One participant was using a scroll wheel to traverse the dropdown list but **couldn't find "United States". When he scrolled to the top of list**, the first option was "Afghanistan" (the second option), and when he scrolled to the bottom of the list where "United States" should be alphabetically, it wasn't there either. He kept on scrolling down then up, and eventually was able to see "United States" at the very top.
+     1. Confusion about **required *vs.* optional fields**: One participant didn't know that some fields (e.g., VA file number) were optional and tried to fill them all out. Another participant was confused by this same field because it didn't say "Required" or "Optional". He read the hint text that said you must enter *either* a Social Security number or VA File number. When he started typing in the "VA file number" field, the "Required" label moved to "VA file number", which surprised him. In the previous round of usability testing, 4 participants were similarly confused by the VA file number field and whether you could continue without entering it.
+     1. **VA regional office name**: Two participants **weren't sure what to enter**. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other said that he wanted to select from a list of offices. In the previous round of usability testing, 3 participants were similarly confused by this field.
+     1. **Place of birth**: One participant was **unsure how to enter both city and state** into the "Place of birth" field because it's a single text box. In the previous round of usability testing, we also heard this from participants. 
+     1. **Back to previous page** link: One non-AT participant said  they didn't notice this link at the top of the page because it was so small. If he had seen that link, he said he would have used it because he avoids the browser back button since that often signs him out. He suggested adding a similar link to the bottom of the page, too, because you might be down there when you need it.
+
+
+1. Three participants had technical issues with Zoom and their assistive tech:
+
+     1. **Zoom silently kicked p4 out of the session when he clicked the "Sign in" or "Continue" button in the Codespace**. This happened repeatedly with him, and then he would rejoin the Zoom meeting. The participant was using VoiceOver on an iPhone 15 Pro running iOS 26.2, in Safari then Chrome--and tried both with and without sharing his screen. Jeana and Darby tried to reproduce this on their own iPhones with the same iOS version (26.2) but were unable to. It might have been caused by a RAM issue with running Zoom and the Codespace prototype at the same time, as the participant made it farther through the form when he wasn't screen sharing.
      
-     1. When P9 (no AT) opened the "Additional information" accordion, focus moved down to the "Statement of truth", which made it seem like it was a part of the accordion, which it's not. A similar focus problem happened to the third pilot participant (using a screen magnifier), but it was worse because the accordions scrolled out of view, which was disorienting. The extra scrolling is due to scrollToFocus in the accordions, which is supposed ensures that the currently focused element is not off-screen for sighted keyboard users, but it causes other issues. 
-
-     1. **"Your full name**: One participant encountered an error when they entered a full name (first-name middle-name last-name) that didn't match what they previously entered on the form (first-name middle-*initial* last-name). This seemed to the participant to be a bug in the form, since it asked for middle initial earlier but then asks for your full name at the end.
-        > *"When you're doing government paperwork, when they want your full name, they want the full name...So, all your names written out" (p3).*
-
-     1. **Additional records information**: Three of 7 participants said that they didn't know what kinds of information would be helpful to include. One participant said perhaps your parents' names or where you where stationed. Another participant said maybe a date range for your medical records.
-     1. **Country**: One participant was using a scroll wheel to traverse the dropdown list but couldn't find "United States". When he scrolled to the top of list, the first option was "Afghanistan" (the second option), and when he scrolled to the bottom of the list where "United States" should be alphabetically, it wasn't there either. He kept on scrolling down then up, and eventually was able to see "United States" at the very top.
-     1. Confusion about **required vs. optional fields**: One participant didn't know that some fields (e.g., VA file number) were optional and tried to fill them all out. Another participant was confused by this same field because it didn't say "Required" or "Optional". They read the hint text that said you must enter *either* a Social Security number or VA File number. When they started typing in the "VA file number" field, the "Required" label switched to "VA file number", which surprised them. In the previous round of usability testing, 4 participants were similarly confused by this field and whether you could continue without entering it.
-     1. **VA regional office name**: Two participants weren't sure what to enter. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other said that they wanted to select from a list of offices. In the previous round of usability testing, 3 participants were similarly confused by this field.
-     1. **Prefill**: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. In the previous round of usability testing, 1 participant similarly expected prefill.
-
-        > *“Just your name and Social Security number--they should be able to find your records completely" (p3).*
-     1. **Place of birth**: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. In the previous round of usability testing, we also heard this. 
-     1. **Back to previous page** link: One non-AT participant said that they didn't notice this link at the top of the page because it was so small. If he had seen that link, he said he would have used it because he avoids the browser back button since that often signs him out. He suggested adding a similar link to the bottom of the page, too, because you might be down there when you need it.
-
-
-1. Three participants had technical issues with their assistive tech:
-
-     1. **Zoom silently kicked p4 out of the session when he clicked the "Sign in" or "Continue" button in the Codespace**. This happened repeatedly with him. He was using VoiceOver on an iPhone 15 Pro running iOS 26.2, in Safari then Chrome--both with and without sharing his screen. Jeana and Darby tried to reproduce this on their own iPhones with the same iOS version (26.2) but were unable to. It might have been caused by a RAM issue with running Zoom and the Codespace prototype at the same time, as the participant made it farther through the form when he wasn't screen sharing.
      1. P11 was using Microsoft Magnifier (a screen magnifier) on an external monitor attached to his Windows computer, extending his display horizontally. **Every time he typed any character into a text field in the Codespace prototype, his viewport shifted way over to the right so he couldn't see what he was typing**. Focus remained in the input field, but p11 couldn't see it. This made filling out the form nearly impossible, so after some troubleshooting, p11 moved the prototype to his Windows laptop screen and then zoomed in.
 
           > *"When I'm typing something in, it keeps jumping me around, which is not normally what happens when I'm working...don't understand why it's doing that to me" (p11).*
                   
-          After the session, Evan reproduced this behavior by connecting his Windows GFE  to an external monitor, extending the desktop horizontally, and setting MS Magnifier to 200%. He showed me in a Slack huddle. We saw that Magnifier always shifts the viewport while you're entering text so that the entry point is the exact center of the screen. As you type each character, the viewport shifts a bit so that the new character remains at the center of the screen. If you're using an external monitor and extending the display horizontally (i.e., not mirroring/duplicating the display or arranging the two displays above/below each other), then the laptop + external monitor makes the entire screen much wider. And when MS Magnifier moves the viewport to the center of the screen, it's not the center of the monitor you're looking at but instead the center of both monitors together! When you've magnified the screen that you're looking at, the center of both of the screens may be on the other monitor--thus reproducing the participant's issue.  
+          After the session, Evan reproduced this behavior by connecting his Windows GFE  to an external monitor, extending the desktop horizontally, and setting MS Magnifier to 200%. He showed me in a Slack huddle. We saw that Magnifier always shifts the viewport while you're entering text so that the entry point is the exact center of the screen. As you type each character, the viewport shifts a bit so that the new character remains at the center of the screen. If you're using an external monitor and extending the display horizontally (i.e., not mirroring/duplicating the display or extending the display but arranging the two displays above/below each other), then the laptop + external monitor makes the entire screen much wider. And when MS Magnifier moves the viewport to the center of the screen, it's not the center of the monitor you're looking at but instead the center of both monitors together! When you've magnified the screen that you're looking at, the center of both of the screens may be on the other monitor--thus reproducing the participant's issue.  
           
-          If Evan set MS Magnifier back to 100%, then the problem went away. There was no big shifting--only the slight shifting with each character. The big shifting issue also didn't happen when Evan tested with VA forms on Staging or with non-VA pages including google.com and yahoo.com--the field stays in view. Our conclusion is that the problem only happens with our Codespace, and so perhaps doesn't merit any further investigation.
+          When Evan set MS Magnifier back to 100%, the problem went away. There was no big shifting--only the slight shifting with each character. The big shifting issue also didn't happen when Evan tested with VA forms on Staging or with non-VA pages including google.com and yahoo.com--the field stays in view. Our conclusion is that the problem only happens with our Codespace, and so perhaps doesn't merit any further investigation.
 
-          A second issue that happened with p11 was that the **mouse cursor that shows when he was sharing his screen over Zoom didn't reflect the position where his mouse actually was**. This didn't affect didn't affect p11's ability to navigate, but it was strange for the session observers. After the session, Evan did more testing, and we noticed TWO mouse cursors: 1 larger and 1 smaller. Evan didn't see that, but the observer on the screen share did. The spacing between the cursors and their positions relative to each other varied, depending on Evan's mouse position.
+          A second issue that happened with p11 was that the **mouse cursor displayed while he was sharing his screen over Zoom didn't reflect the actual position of his mouse**. This didn't affect p11's ability to navigate, but it was strange for the session observers. After the session, Evan did more testing, and I noticed TWO mouse cursors when he extended his screen and shared it over Zoom: 1 larger and 1 smaller. Evan didn't see that, but the observer on the screen share did. The spacing between the cursors and their positions relative to each other varied, depending on Evan's mouse position.
 
           It's probably not worth researching these two issues further because they only affect Microsoft Magnifier and our Codespace when the user is using an external monitor to extend the desktop horizontally.  
         
-     1. There were so **many technical problems with P12's session that we weren't able to get his screen shared or do any of the user tasks**. He was using the smartphone TCL K11 (model T432W), which is a low-end form that runs Android 13 (Go edition). Below is a summary of the issues:
+     1. There were **so many technical problems with P12's session that we weren't able to get his screen shared or do *any* of the user tasks**. He was using the smartphone TCL K11 (model T432W), which is a low-end phone that runs Android 13 (Go edition), plus a physical jeweler's lens worn around his head that magnifies. Below is a summary of the technical issues:
 
-        1. The Zoom audio stopped whenever a camera was on (this took a bit to figure out)
+        1. The Zoom audio stopped whenever any camera was on (this took a bit to figure out)
         1. The participant wanted to have his camera on, and he kept on switching it on (probably accidentally, but we couldn't confirm that because we lost the audio every time it happened)
         1. His phone was stuck in Zoom's Safe Driving Mode, which required him to press a button in order to say anything
         1. He was very non-technical and didn't really know how to use his phone, nor understand phrases like "screen share" and "switch apps"
 
-        Figuring out issue 1 was challenging, and then we were able to talk whenever all cameras stayed off. Unfortunately the combination of issues 1 and 2 happening repeatedly made it impossible for us to resolve issues 3 and 4, get his screen shared, and start the user tasks. It's possible that other Veterans are accessing VA.gov using a similarly low-end phone, but as long as they're not trying to have a Zoom meeting at the same time, these issues shouldn't come up. One takeaway is that **if you encounter a major audio problem while Zoom cameras are on, you should see if the problem goes away after all cameras are turned off**. 
+        Figuring out issue "a" was challenging, and then we were able to talk whenever all cameras stayed off. Unfortunately the combination of issues "a" and "b" happening repeatedly made it impossible for us to resolve issues "c" and "d", get his screen shared, and start the user tasks. It's possible that other Veterans access VA.gov using a similarly low-end phone, but as long as they're not trying to have a Zoom meeting at the same time, these issues shouldn't come up. One takeaway is that **if you encounter a major audio problem while any Zoom cameras are on, you should try turning off all cameras and see if the problem disappears**. 
 
-1. Two participants noticed the stepper and didn't like that it said they were still on step 1 or 2, even though they had already filled out more than 1 or 2 form pages by then. This happens because step 1 has 3 form pages, and step 2 has 2 form pages.
+1. Two participants noticed the stepper and **didn't like that it said they were still on step 1 or 2, even though they had already filled out more than 1 or 2 form pages** by then. This happens because step 1 has 3 different form pages, and step 2 has 2 form pages.
 
     > *"Still at step 1 of 6" (p6).*
 
     > *Saw '2 of 6' and said "I thought we got beyond page 2. Wow. Alright...I was just sighing for the pain that we're about to...I was hoping we were on page 3 of 6, or 4 of 6, but no, we still have 4 more pages to go" (p8).*
 
-1. Two participants said that they prefer to fill out forms on paper instead of online. One of them said it's easier and he likes to keep a copy. The other participant doesn't have a computer and said the following: 
+1. Two participants said that they **prefer to fill out forms on paper instead of online**. One of them said it's easier and he likes to keep a copy. The other participant doesn't have a computer and said the following: 
    > *"I'm thinking I could fill it out quicker if I had it in front of me in paper and pencil...Slow [on phone] because of my vision and I'm not the greatest typist. I have to look at the keys to type, that’s why I prefer to write it out" (p2).*
 
-   At the end of the session, this participant said that this session had helped her learn how to navigate back to an in-progress form. She had been planning to print out a paper form from an online form she already started because she needed to upload 15 documents, but at the end of the session, she said that she might try to upload them online, given that she already completed most of the online form and now knows that it's been saved. 
+   At the end of the session, this participant said that **this session had helped her learn how to navigate back to an in-progress form**. She had been planning to print out a paper form from an online form she already started because she needed to upload 15 documents, but at the end of the session, she said that she might try to upload them online, given that she already completed most of the form online and now has learned that it's been saved. 
 
 ## Recommendations   
 
 ### For the Design System and Forms team
-1. Investigate why the "Finish later" message is read so haltingly in small segments when using JAWS with a mouse. --> *Jeana will investigate to see if each segment is wrapped in a span, and if so, why.*
-   - _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the "Finish later" informational alert.  
-
-1. **Remove the interstitial page and instead consider adding something very short just above the Continue button on every page** (e.g., "Your information is being saved automatically"). 
+1. **Remove the interstitial page and consider adding something very short just above the Continue button on every page** (e.g., "Your information is being saved automatically"). 
    - _Supporting evidence_: Most participants ignored the interstitial page when it came up or forgot what it said because it appeared as an interruption to their task of filling out a VA form and didn't seem relevant.  
-1. **Don't put essential information in the heading that isn't repeated below because some people will ignore the text of the heading.**
-   - _Supporting evidence_: Two participants didn't read the heading on the interstitial page but only the text below it.
-1. Investigate why P6 was unable to highlight past "3 of 6 records requested" on the page of record checkboxes. --> *Need to investigate* 
-   - _Supporting evidence_: P6 said that they were trying to highlight the entire page to read but could only select "3 of 6 records requested".
 
-1. Remove the automatic scrolling down when you open an accordion on the "Review and submit" page. --> *Remove scrollToFocus from all accordions on the page*
-   - _Supporting evidence_: The scrolling is disorienting when focus lands on  content that isn't in the accordion (e.g., "Statement of truth" when you open the "Additional information" accordion) or scrolls so far that the accordion content is no longer in view (when using a screen magnifier).  
+1. **Stop the automatic scrolling down when you open an accordion on the "Review and submit" page**. --> *Remove scrollToFocus from all accordions on the page*
+   - _Supporting evidence_: The scrolling is disorienting when focus lands on  content that isn't in the accordion (e.g., "Statement of truth" when you open the "Additional information" accordion) or scrolls so far that the accordion content is no longer in view when using a screen magnifier.  
 
-1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages.**
-   - _Supporting evidence:_ 4 of 8 participants didn't know what these phrases meant when seeing them as links on the interstitial page.
-
-1. **Consider moving the accordion controls to the left side of the item so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026.*
+1. **Consider moving the accordion controls to the left side so as to increase visibility for screen magnifier users who may not see any controls on the right.** --> *Cindy shared this finding with Chandra Carney from the US Web Design System team on 2/17/2026.*
    - _Supporting evidence_: 6 of 7 people who reached the "Review and submit" page used the accordions, and none had any issues interacting with the "+" control being on the left side, including the participant who was using a screen magnifier.
 
-1. **Consider keeping the "Expand all" link (ADD FROM SLACK DM CONVO W/JEANA)**
+1. **Consider prefilling the Veteran's name, address, and other information** after they've signed in. --> *Is this being worked on?*
+     - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in. A participant in the previous round of usability testing had the same expectation.
 
-1. **On the form intro page, consider making the form number under the heading easier to notice. See if the form number shown under the heading could be forced to display on a single line.
-   - _Supporting evidence_: One participant didn't notice the form number below the big "Request personal records" heading, perhaps because it was split across two vertical lines: (1) "(VA Form 20-" and (20) "10206)". 
+1. **Standardize whether the word "optional" will be always or never be shown**, and be consistent about it.
+   - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "optional", such as "VA file number".
 
-1. **Consider making the "Back to previous page" link easier to notice**. Perhaps check its font size and consider increasing it if it's smaller than other text on the page. Perhaps add a duplicate link to the bottom of the page.** 
+1. **On the form intro page, consider making the form number under the heading easier to notice**. See if the form number shown under the heading could be forced to display on a single line.
+   - _Supporting evidence_: One participant didn't notice the form number below the big "Request personal records" heading, perhaps because it was split across two vertical lines: (1) **(VA Form 20-**, and (2) **10206**. 
+
+1. **Don't put essential information in the heading that isn't repeated below because some people  ignore the text of the heading.**
+   - _Supporting evidence_: Two participants didn't read the heading on the interstitial page but only the text below it.
+
+1. **Avoid using the phrases "My VA" and "form introduction" in Veteran-facing web pages because they're not intuitive.**
+   - _Supporting evidence:_ 4 of 8 participants didn't know what these phrases meant when seeing them in links on the interstitial page.
+
+1. **Consider keeping the accordions in the "Review and submit" page.**
+   - _Supporting evidence:_ One participant said that he never uses "Expand all" because he gets too overwhelmed by the length of what might expand, so he prefers to expand each accordion, one at a time.
+
+1. **Consider making the "Back to previous page" link easier to notice**. Perhaps check its font size and consider increasing it if it's smaller than other text on the page. Perhaps add a duplicate link to the bottom of the page.
    - _Supporting evidence_: One non-AT participant said that they didn't notice this link at the top of the page because it was so small.  
 
-1. **Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user** (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production.  
+1. **Investigate why the "Finish later" message is read so haltingly in small segments when using JAWS with a mouse**. --> *Jeana will investigate to see if each segment is wrapped in a span, and if so, why.*
+   - _Supporting evidence_: P3 had to keep moving his mouse in order to hear each of the 6 small segments of text in the "Finish later" informational alert.  
+
+1. **Investigate why P6 was unable to highlight past "3 of 6 records requested" on the page of record checkboxes**. 
+   - _Supporting evidence_: P6 said that they were trying to highlight the entire page to read but could only select "3 of 6 records requested".
+
+1. **Consider researching the issue with Zoom silently kicking out an iPhone VoiceOver user** (iPhone 15 Pro running iOS 26.2 with both Safari and Chrome) to make sure this doesn't happen in Production. Is it only an issue with the Codespace?  
    - _Supporting evidence_: Zoom silently kicked p4 out of the session when he clicked the "Sign in" or "Continue" button in the Codespace. 
 
 
 ### For the Request Personal Records form
 
-1. Consider adding more details in the helper text for types of information would be helpful in the "Additional records information" field".
-   - _Supporting evidence_: Three of 7 participants said that they didn't know what kinds of information would be helpful to include.
+14. **Consider revising the "Your full name" prompt on the "Review and submit" page** to include a reference to what you entered before: "Your name as entered previously", **and also consider changing the "Middle initial" prompt to "Middle name"**.
+    - _Supporting evidence_: Participants didn't realize that the name that you enter for "Your full name" must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial, as asked for earlier.
 
-1. Consider revising the "Your full name" text on the "Review and submit" page to include a reference to what you entered before: "Your name as entered previously", and also consider changing "Middle initial" to "Middle name".
-   - _Supporting evidence_: Participants didn't realize that the name that you enter here must exactly match what they entered as their name at the beginning of the form. One participant called out that "Full name" requires your full middle name, not just your middle initial.
+1. **Consider adding details in the helper text about what types of information would be helpful to enter in the "Additional records information"** field.
+   - _Supporting evidence_: Three of 7 participants said that they didn't know what kind of information would be helpful to include.
 
-1. Consider adding a second "United States" option to the "Country" dropdown where it fits alphabetically near the bottom of the list.
-   - _Supporting evidence_: One participant using a scroll wheel to traverse the dropdown list was unable to access "United States" at the top of the dropdown list, and he then looked near the bottom of the list where it would fit alphabetically, and it wasn't there either. 
+1. **Consider adding a second "United States" option to the "Country" dropdown where it fits alphabetically** near the bottom of the list.
+   - _Supporting evidence_: One participant using a scroll wheel to traverse the dropdown list was unable to see "United States" at the top of the dropdown list, and he then looked near the bottom of the list where it would fit alphabetically, and it wasn't there either. 
 
-1. Standardize on whether the word "optional" will be always or never be shown, and don't be inconsistent about sometimes showing it and other times not.
-   - _Supporting evidence_: Some participants were confused about whether they needed to fill out fields that say neither "Required" nor "optional", such as "VA file number".
+1. **Make the capitalization for "VA file number" consistent on the "SSN/VA file number" page**.
+   - _Supporting evidence_:  The prompt "VA file number" has only "VA" capitalized, but the hint text also capitalizes the word "File".
 
-1. Make capitalization consistent on the "SSN/VA file number" page: "VA file number" (field name) vs. "VA File number" (hint text).
-   - _Supporting evidence_:  The field name "VA file number" has only "VA" capitalized, whereas the hint text also capitilizes the word "File".
+1. **Consider providing a dropdown list of VA regional offices from which users can select.**      
+     - _Supporting evidence_: Two participants weren't sure what to enter. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other wanted to select from a list of offices. 
 
-1. Consider separating the "Place of birth" field into separate "City" and "State" fields.
-     - _Supporting evidence_: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. 
-
-1. Explore prefilling the Veteran's name, address, and other information, which we know once they've signed in. --> Jeana is working on this (**IS THIS STILL TRUE?**)
-     - _Supporting evidence_: Three participants expected to have their name, address, phone number, and VA regional office prefilled because they were signed in.
-
-1. Explore providing a dropdown list of VA regional offices from which users can select.      
-     - _Supporting evidence_: Two participants weren't sure what to enter. One said that he only interacts with VA hospitals and didn't know the name of the regional office. The other said that they wanted to select from a list of offices. 
+1. **Consider separating the "Place of birth" field into separate "City" and "State" fields** (and "Country"?).
+     - _Supporting evidence_: One participant was unsure how to enter both city and state into the "Place of birth" field because it's a single text box. A participant in the previous round of usability testing expressed the same concern.
 
 ### For the ADE team
-1. Explore opportunities to help Veterans who are struggling with their assistive tech or may not be using any. 
+20. **Explore opportunities to help Veterans who are struggling with their assistive tech and may be unaware of other options**. 
 
      - _Supporting evidence_: Two participants mentioned frustrations with their assistive tech and didn't know that a different tool might meet their needs better. 
      
-     Some ideas are as follows:
-     1. Meet with Martha's VA Blind Rehab Center contacts to learn how they help Veterans who are blind or low vision, eligibility, and whether/how to mention their services to research participants who might benefit from their services (and add to conversation guides). --> *Martha will schedule a meeting*
-     1. Consider adding messaging on VA.gov about how to better use this website (see this page on [gov.uk](https://www.gov.uk/help/accessibility-statement#how-you-should-be-able-to-use-this-website)). Could perhaps add something to the [508 compliance (Accessibility) page](https://www.va.gov/accessibility-at-va/) --> *Create a ticket to discuss with Danielle.*
-     1. Learn more about Veteran needs by conducting a survey of Veterans who are blind or low vision about their AT tools and experiences with VA.gov. --> *Future work for Cindy*
+     Some ideas are listed below:
+     1. Meet with Martha's VA Blind Rehab Center contacts to learn how they help Veterans who are blind or low vision, how to assess eligibility, and how to mention their services to research participants who could benefit from their services. --> *Martha will schedule a meeting*
+     1. Add an optional blurb to conversation guides that could be shared with participants who might benefit from AT assistance
+     1. Consider adding messaging on VA.gov about how to better use the website (i.e., see this page on [gov.uk](https://www.gov.uk/help/accessibility-statement#how-you-should-be-able-to-use-this-website)). Could maybe add to the [508 compliance (Accessibility) page](https://www.va.gov/accessibility-at-va/) --> *Create a ticket to discuss with Danielle.*
+     1. Learn more about Veterans' needs by conducting a survey of Veterans who are blind or low vision about their AT tools and experiences with VA.gov. --> *Future work for Cindy*
   
 ## Product User and Business Outcomes
 
@@ -484,18 +492,6 @@ This research supports our desired user outcome by....
  
 ### Desired Business Outcome
 This research supports our desired business outcome by....
-
-
-## Key Performance Indicators
-
-*Explain how findings will support KPI measurement.*  
-
-> [!NOTE]
-> Refer back to your Product Outline. 
-
-### KPI 1
-This research supports measurement of this KPI by....
-  
 
 ## Next Steps
 
@@ -515,28 +511,111 @@ This research supports measurement of this KPI by....
 ## Appendix
 
 ### Research documents
-- [Product Outline](link here)
-- [Research plan](link here)
-- [Conversation guide](link here)
-- [Interview transcripts](link here)
+- [Research plan](./research-plan.md)
+- [Conversation guide](./conversation-guide.md)
+- [Interview notes](./notes)
 
 ### Tools used for Synthesis
 
-*List tools or techniques used, e.g., Mural, affinity mapping.*  
+[Synthesis spreadsheet](./analysis/TBD.xlsx) ***NEED TO ADD THIS***
+
+[Mural board](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1767751338801/88ba6eb67d784bd724da7db997a67bfd0d1e14b5?sender=uff8fa85716c1796ccf022668)
   
 ### Pages and applications used
 
-*Link to prototypes or pages tested during the study.*  
+[Prototype in a GitHub Codespace that needs to be started manually--CONTACT CINDY](https://legendary-yodel-46rpq9g49pj37wv5-3002.app.github.dev)
 
+#### Screenshots of the prototype (Codespace) 
+***NEED TO UPDATE EVERYTHING BELOW*...**
+<details>
+  <summary>Figure 9: Informational alert about saving</summary>
+   <img src="./images/intro-pg-alert.png" width="75%" height="75%" alt="We'll save your request on every change. You can stop anytime, and come back later to finish.">
 
-### Other supporting documents created
+</details>
 
-*Include links to additional materials, e.g., personas, user flows.*  
+<details>
+  <summary>Figure 10: Intro page--not signed in</summary>
 
+  Figure 10 explains about about the form, and prompts the user to sign in to start filling it out.
 
-### Secondary research
+  <img src="./images/Intro-pg-unauth-top.png" width="75%" height="75%" alt="The intro page explains what to know before you fill out the form and the types of information you can request">
+  <img src="./images/Intro-pg-unauth-bottom.png" width="75%" height="75%" alt="At the bottom of the intro page is a prompt to sign in to start filling out the form">
 
-*Include any relevant secondary research, e.g., web analytics, SME interviews.*  
+</details>
+
+<details>
+  <summary>Figure 11: Intro page--signed in</summary>
+
+  Figure 11 The signed-in version of the intro page has an informational alert about saving and a "Start your request" link.
+  
+   <img src="./images/Intro-pg-auth-top.png" width="75%" height="75%" alt="Most of the signed-in version of the intro page is the same as the not-signed-in version">
+   <img src="./images/Intro-pg-auth-bottom.png" width="75%" height="75%" alt="At the bottom of the signed-in version of the intro page, the sign-in prompt has been replaced by an informational alert about saving and a 'Start your request' link">
+
+</details>
+
+The form we tested has 9 pages of questions, and each page has at the bottom a *Finish later* button on the left side and a *Continue* button on the right side.
+
+<details>
+  <summary>Figure 12: Form page 1 asks whether you are a U.S. citizen</summary>
+   <img src="./images/form-pg1-alert&citizenship.png" width="75%" height="75%" alt="Radio button question with options to indicate whether you're a U.S. citizen">
+</details>
+
+<details>
+  <summary>Figure 13: Form page 2 asks for your first name, middle initial, last name, birthdate, and place of birth</summary>
+   <img src="./images/form-pg2-name&DOB.png" width="50%" height="50%" alt="first name, middle initial, last name, birth month dropdown, birth day, birth year, and place of birth">
+</details>
+
+<details>
+  <summary>Figure 14: Form page 3 asks for your social security number and VA file number</summary>
+   <img src="./images/form-pg3-SSN&VAfile.png" width="75%" height="75%" alt="social security number and VA file number--one of which must be entered">
+ </details>
+
+<details>
+  <summary>Figure 15: Form page 4 asks whether you live on a U.S. military base, and then for your country, street address, apartment or unit number, city, state/province/region, and postal code</summary>
+   <img src="./images/form-pg4-mailing-addr-top.png" width="75%" height="75%" alt="top of the page with a checkbox for whether you live on a U.S. military base, followed by a dropdown field for your country. Below that are fields for street address, apartment or unit number, and city">
+   <img src="./images/form-pg4-mailing-addr-bottom.png" width="75%" height="75%" alt="fields for state/province/region and postal code">
+</details>
+
+<details>
+  <summary>Figure 16: Form page 5 asks for your phone number and email</summary>
+   <img src="./images/form-pg5-phone&email.png" width="75%" height="75%" alt="fields to enter phone number and email, both of which are required">
+ </details>
+
+<details>
+  <summary>Figure 17: Form page 6 is a list of checkboxes for which  record(s) to request</summary>
+   <img src="./images/form-pg6-records.png" width="75%" height="75%" alt="a list of checkboxes, one for each type of record that can be requested">
+</details>
+
+<details>
+  <summary>Figure 18: Form page 7 is an Additional records information field</summary>
+   <img src="./images/form-pg7-additional-info.png" width="75%" height="75%" alt="optional Additional records information field">
+</details>
+
+<details>
+  <summary>Figure 19: Form page 8 asks if there is a VA regional office that you're associated with</summary>
+   <img src="./images/form-pg8-regional-office.png" width="75%" height="75%" alt="optional VA regional office name field">
+</details>
+
+<details>
+  <summary>Figure 20: Form page 9, which is the last page in the form, has expandable sections of form information at the top. Below is a notice about criminal penalties for withholding information, and a statement of truth that requires typing your full name and checking a box to certify the information</summary>
+   <img src="./images/form-pg9-review&submit.png" width="75%" height="75%" alt="the last page in the form, which has expandable sections of form information at the top">
+   <img src="./images/form-pg9-statement-of-truth.png" width="75%" height="75%" alt="Below the expandable sections is a note about criminal penalties for withholding information, and a statement of truth that requires typing your full name and checking a box that you certify the information">
+</details>
+
+<details>
+  <summary>Figure 21: After clicking the "Finish later" button, the user sees a blue informational alert that says your information has been saved".</summary>
+   <img src="./images/after-click-finish-later.png" width="75%" height="75%" alt="A blue informational alert that says 'Your Personal records request has been saved' and contains the date and time of the last save, and the date two months later that the incomplete request will expire. Below the text are two buttons: a blue 'Continue your request' button on the left, and a white 'Start a new request' button on the right.">
+
+</details>
+
+<details>
+  <summary>Figure 22: My VA page with various sections including Benefit applications and forms at the bottom</summary>
+   <img src="./images/MyVA-top.png" width="100%" height="100%" alt="top of the My VA page with a heading for Claims and appeals">
+   <img src="./images/MyVA-middle.png" width="100%" height="100%" alt="headings for Health care, Outstanding debts, and Benefit payments">
+   <img src="./images/MyVA-bottom.png" width="100%" height="100%" alt="headings for Education and training, and Benefit applications and forms">
+
+</details>
+
 
 > [!IMPORTANT]
 > **After completing the demographic information below and saving this file**, use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically populate the YAML frontmatter section at the top of this document with: 
@@ -550,85 +629,85 @@ This research supports measurement of this KPI by....
 ### Research participants 
 _Complete the demographic info below using information from the Perigean recruitment survey. For those items where you didn't have participants, please mark with "0". You can use "unknown" if you aren't sure if your participants had a characteristic._ 
 
-[Example Research participants](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/ADE/research/2025-05-save-in-progress/research-findings.md#research-participants)
-
 #### Recruitment criteria
 
-_If you had specific criteria that you recruited for, use this space to explain what those were along with other information you feel would be important to understanding your participants._
+We asked Perigean to recruit a mix of AT users and non-AT users, some of whom had filled out a VA form online before and some of whom had not.
 
 #### Demographics 
 
-We talked to **x participants.**
+We talked to **9 participants.**
 
 Audience segment:
-* Veterans: x 
-* Caregivers: x 
-* Family members of a Veteran: x  
+* Veterans: 9 
+* Caregivers: 0 
+* Family members of a Veteran: 0  
 
 
 Gender:
-* Male: x 
-* Female: x 
+* Male: 7 
+* Female: 1 
+* Unknown: 1
 
 
 LGBTQ+:
-* Transgender: x 
-* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: x
-* Gay, lesbian, or bisexual: x
+* Transgender: unknown 
+* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: unknown
+* Gay, lesbian, or bisexual: unknown
 
 
 Devices used during study: 
-* Desktop: x 
-* Tablet: x 
-* Smart phone: x 
-* Assistive Technology: x
+* Desktop: 4 
+* Tablet: 0 
+* Smart phone: 5 
+* Assistive Technology: 5
 
 
 Age:
-* 25-34: x
-* 35-44: x
-* 45-54: x
-* 55-64: x
-* 65+: x
-* Unknown: x
+* 25-34: 0
+* 35-44: 0
+* 45-54: 1
+* 55-64: 5
+* 65+: 3
+* Unknown: 0
 
 
 Education:
-* High school degree or equivalent: x
-* Some college (no degree): x
-* Associate's degree, trade certificate or vocational training: x
-* Bachelor's degree: x
-* Master's degree: x
-* Doctorate degree: x
-* Unknown: x
+* High school degree or equivalent: 1
+* Some college (no degree): 1
+* Associate's degree, trade certificate or vocational training: 1
+* Bachelor's degree: 2
+* Master's degree: 3
+* Doctorate degree: 0
+* Unknown: 1
 
 
 Geographic location:
-* Urban: x
-* Rural: x
-* Unknown: x
+* Urban: 4
+* Rural: 5
+* Unknown: 0
 
 
 Race:
-* White: x
-* Black: x
-* Hispanic: x
-* Biracial: x
-* Asian: x
-* Native: x
+* White: 5
+* Black: 2
+* Hispanic: 0
+* Biracial: 0
+* Asian: 0
+* Native: 1
+* Unknown: 1
 
 
 Disability and Assistive Technology (AT):
-* Cognitive: x
-* AT beginner: x
-* AT advanced user: x
-* Desktop screen reader: x
-* Mobile screen reader: x
-* Magnification/Zoom: x
-* [Speech Input Technology](https://www.w3.org/WAI/perspective-videos/voice/) like Siri/Dragon Naturally Speaking: x
-* Hearing aids: x
-* Sighted keyboard: x
-* Captions: x
+* Cognitive: 5
+* AT beginner: 0
+* AT advanced user: 5
+* Desktop screen reader: 1
+* Mobile screen reader: 3
+* Magnification/Zoom: 1
+* [Speech Input Technology](https://www.w3.org/WAI/perspective-videos/voice/) like Siri/Dragon Naturally Speaking: 0
+* Hearing aids: unknown
+* Sighted keyboard: 0
+* Captions: 0
 
 
 #### Underserved groups we haven’t talked to 

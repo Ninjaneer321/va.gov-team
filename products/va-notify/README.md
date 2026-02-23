@@ -82,6 +82,8 @@ Please note: to access a lower environment with PIV, i.e. Staging, your user mus
 ## Timeframe
 The exact timing depends on your team’s schedule and the type of notification.
 
+_Please allow ample time between intake submission and planned launch, as we may be supporting other clients and kickoff discussions are scheduled during Office Hours on Tuesdays and Thursdays at 2:30 pm ET, so availability may be limited and advance planning is strongly recommended._
+
 Email is much quicker to launch than SMS because there are less steps. SMS requires us to acquire sender phone number(s) for your use case (short codes or 10DLCs), which can take up to 12 weeks. If communication preferences are needed, we must account for scheduling with the VA Profile and Authenticated Experience teams to add this. Outside of these tasks, the timeline really comes down to your engineering effort and how quickly a Privacy Officer can do a content review. Please note we collaborate with all of our users on their content to ensure it meets VA standards. For SMS, please review our [standard operating procedures](https://github.com/department-of-Veterans-affairs/va.gov-team/blob/master/products/va-notify/VA%20SOP%20for%20Delivering%20SMS%20Messages%20v1.0.pdf).
 
 If your notification requires VA Notify engineering work, we will review and provide a schedule.

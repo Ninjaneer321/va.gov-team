@@ -54,3 +54,4 @@ assignees: davidconlon, GitSamJennings, kbelikova-oddball
 13.  **What is the anticipated volume of notifications per day, week, month?**
 ​
 14.  **When does this notification need to be in production?**
+    (Please allow ample time between intake submission and planned launch, as we may be supporting other clients and kickoff discussions are scheduled during Office Hours on Tuesdays and Thursdays at 2:30 pm ET, so availability may be limited and advance planning is strongly recommended.)
