@@ -1,5 +1,5 @@
 # IA Design for Track your VR&E Chapter 31 benefits tool
-**STATUS: In progress**
+**STATUS: In review**
 
 **Team:** Reapers (GovCIO)
 - Slack: #reapers-team
@@ -16,14 +16,14 @@
 - [IA placement](#map)
 - [URL, H1, title tag and breadcrumb guidance](#urls)
 - [Entry points](#nav)
-- [Redirects](#redirects)
 
 
 ## <a name="flows"></a>User/page flows
+<img width="1367" height="543" alt="Screenshot 2026-02-23 133941" src="https://github.com/user-attachments/assets/d77eacd8-add8-43bc-b5d0-49bfb5d40493" />
 
 
 ## <a name="map"></a>Placement within the VA.gov IA
-
+<img width="193" height="730" alt="Screenshot 2026-02-23 134007" src="https://github.com/user-attachments/assets/9b319df7-326c-4b36-9a69-6275c242de60" />
 
 
 ## <a name="urls"></a>URL, breadcrumb, and title guidance
@@ -36,12 +36,13 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 
 Also review [Capitalization](https://design.va.gov/content-style-guide/capitalization) for standards for headings vs.title tags
 
-**Track your VR&E Chapter 31 benefits**
+**Track your VR&E benefits**
   - URL:  va.gov/careers-employment/track-your-vre-benefits/
-  - Breadcrumb:  VA.gov home > Careers and employment > Track your VR&E Chapter 31 benefits 
+  - Breadcrumb:  VA.gov home > Careers and employment > Track your VR&E benefits 
     - Per the standard breadcrumb component, the last segment of the breadcrumb must match the H1 of the page exactly
   - Browser title: [H1 of introduction page in title case] | Veterans Affairs
-    - Track Your VR&E Chapter 31 Benefits | Veterans Affairs
+    - Track Your VR&E Benefits | Veterans Affairs
+  - **Note: Use "Veteran Readiness and Employment (Chapter 31)" on first mention in intro body text instead of VR&E**
 
 
 **Structuring URLs for individual pages within the tool flows**
@@ -64,4 +65,8 @@ Also review [Capitalization](https://design.va.gov/content-style-guide/capitaliz
 **2) Main navigation -- Post launch**
 - Link to be placed in Careers and employment mega-menu under "Manage your career" column   
 
+**3) Side navigation -- Post launch**
+- Link to be placed in Careers and employment side navigation under "Manage your career" column 
 
+**4) Cross link on [main VR&E page](https://www.va.gov/careers-employment/vocational-rehabilitation/) -- Post launch**
+- Link to be placed at the end of the "For service members and Veterans with service-connected disabilities section" of content
