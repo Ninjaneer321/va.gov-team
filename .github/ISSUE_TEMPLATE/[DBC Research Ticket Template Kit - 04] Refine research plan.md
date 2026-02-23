@@ -6,6 +6,9 @@ assignees: ''
 
 ---
 
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
+
 ### Description
 The output of this ticket will be the final, detailed research plan for the [study name] study. The study focuses on [brief description of study].
 
