@@ -8,21 +8,21 @@
 ## 2025
 
 **[Complex claims User Acceptance Testing (UAT) - December](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/research/2025-12%20Complex%20Claims%20UAT)**
-- Moderated sessions in the production environment to ensure users could use the product. Note that planning for this study began in 2025, but was actually implemented in Jan 2026.
+- Moderated sessions in the production environment to ensure users could use the complex claims flow. Note that planning for this study began in 2025, but was actually implemented in Jan 2026.
 
 **[Travel complex claims concept study - August](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/research/08-2025--Travel%20Complex%20Claims%20Concept%20Study)**
-- [add content]
+- A moderated test of a low-fidelity prototype aimed to understand how our users organize and approach filing travel claims with different expense types. 
 
 **[Travel Claim Management Usability - May](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/research/2025-05-Travel%20Claim%20Management%20Usability)**
-- [add content]
+- A moderated test of a clickable prototype to understand how users respond to information about a rejected or partial payment claim decision, how to obtain a claim decision letter, and how to initiate to the appeal process. 
 
 **[SMOC UAT Beta - March](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/research/2025-03-SMOC-UAT-Beta)**
-- [add content]
+- Moderated sessions in the production environment to ensure users could use the SMOC flow. 
 
 ## 2024
 
 **[Travel Claim Status Language Generative Study - July](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/research/2024-06-Travel-Claim-Status-Language-Generative-Study)**
-- User interviews and moderated card sort to better understand how participants think about the language of Claim statuses associated with Travel claims (In progress) 
+- User interviews and moderated card sort to better understand how participants think about the language of Claim statuses associated with Travel claims.
 
 **[Reimbursement status look and feel study - May](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/beneficiary-travel/research/2024-04-Reimbursement-Status-Look-and-Feel-Study)** 
 - Moderated usability study with 9 participants testing the look and fool of the prototype of the Travel Reimbursement Status page.  Main path tested was Status page entry off of the MHV on VA.gov page.
