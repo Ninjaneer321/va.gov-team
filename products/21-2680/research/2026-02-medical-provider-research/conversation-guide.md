@@ -46,9 +46,11 @@ consent_for_clips: true
 
 `List and complete any project-specific setup tasks for this study below:`
 
-- [ ] Step 1
-- [ ] Step 2
-- [ ] Step 3
+- [ ] Assign note taker and facilitator
+- [ ] Determine any other participants (to shadow)
+- [ ] Prep prototype for sharing
+- [ ] Set up notes doc
+- [ ] Set up debrief time
 
 ### Day of the session
 
@@ -123,12 +125,18 @@ Before we look at the website, let’s start with a few warm-up questions.
 1. Do you have a service-connected disability at VA?
 - If yes: what is your disability rating?
 - If no, skip to question 2.
-2. 
+2. Do you receive a pention from VA?
 
-## First Task: [TASK NAME] - X minutes
+We'd like to ask you a few questions about your relationship with your medical provider.
+3. Do you have a medical provider (for example your doctor) through VA? Do you have a private doctor?
+4. Imagine you need your doctor's help to fill out a VA form. Can you talk us through your workflow to do that?
+5. Is that something you've ever done before? If so, can you tell us about that experience?
+6. What are some of the major challenges you encounter in communicating with your doctor?
 
-- [ ] Step 1
-- [ ] Step 2
+## First Task: Understand eligibility - 5 minutes
+
+- [ ] Read through intro screen
+- [ ] Determine if they are eligible for thisbenefit
 
 > [!NOTE]
 > ### Things to watch for:
@@ -137,10 +145,10 @@ Before we look at the website, let’s start with a few warm-up questions.
 > - [Is the participant aware that they may be sharing personal information on their screen, and are they okay with that? - per question as needed]
 > - [Etc]
 
-## Second Task: [TASK NAME] - X minutes
+## Second Task: General form walkthroguh - 5 minutes
 
-- [ ] Step 1
-- [ ] Step 2
+- [ ] Step through each page of the form 
+- [ ] Ask questions wheever the participant may be confused
 
 > [!NOTE]
 > ### Things to watch for:
@@ -148,10 +156,10 @@ Before we look at the website, let’s start with a few warm-up questions.
 > - [Does the participant notice xyz?]
 > - [Etc]
 
-## Third Task: [TASK NAME] - X minutes
+## Third Task: Understand doctor hand off - X minutes
 
-- [ ] Step 1
-- [ ] Step 2
+- [ ] Read through medical closure consent and make a selection
+- [ ] Read through follow up steps 
 
 > [!NOTE]
 > ### Things to watch for:
