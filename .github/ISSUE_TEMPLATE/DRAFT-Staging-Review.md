@@ -2,7 +2,7 @@
 name: DRAFT Collaboration Cycle / Staging Review
 about: DRAFT - do not use - Template for Staging Review
 title: 'Staging Review for [Team Name, Product Name, Feature Name]'
-labels: collaboration-cycle
+labels: collaboration-cycle, CC-touchpoint, staging-review
 assignees: ''
 
 ---
