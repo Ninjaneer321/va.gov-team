@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Research wrap-up tasks"
+name: "DBC Research Ticket Template Kit - 20: Research wrap-up tasks"
 about: To guide the variety of tasks for wrapping up a study. 
 labels: "disability-benenfits,research" 
 assignees: ''
