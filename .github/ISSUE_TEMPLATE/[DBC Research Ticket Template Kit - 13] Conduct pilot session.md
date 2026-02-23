@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Conduct pilot session"
+name: "DBC Research Ticket Template Kit - 13: Conduct pilot session"
 about: To guide the running of a pilot session for a study. 
 labels: "disability-benenfits,research" 
 assignees: ''
