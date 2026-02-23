@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Synthesize research"
+name: "DBC Research Ticket Template Kit - 17: Synthesize research"
 about: To guide the synthesis of data collected from the study. 
 labels: "disability-benenfits,research" 
 assignees: ''
