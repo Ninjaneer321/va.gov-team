@@ -6,6 +6,9 @@ assignees: ''
 
 ---
 
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
+
 ### Description
 This ticket covers running a pilot session for the [study name] study. The study focuses on [brief description of study]. Schedule as many pilots as necessary for the number of moderators. 
 
