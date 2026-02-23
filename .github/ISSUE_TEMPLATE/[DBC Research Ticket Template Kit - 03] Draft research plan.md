@@ -6,6 +6,9 @@ assignees: ''
 
 ---
 
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
+
 ### Description
 The output of this ticket will be a detailed research plan for the [study name] study. The study focuses on [brief description of study].
 We'll create a detailed research plan using [Platform's Veteran-facing Research Plan Template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/research-plan-template.md). The plan will be based on the [Research Approach outline - add link].
