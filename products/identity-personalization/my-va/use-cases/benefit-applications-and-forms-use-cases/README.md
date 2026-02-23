@@ -99,7 +99,7 @@ This feature has no validation use cases.
 
 ## Errors
 
-## The API that shows forms is down
+### The API that shows forms is down
   
 * **Description:** If an LOA3 user logs in and there is an error with the API that displays forms and applications, then we show an alert informing the user the information is currently unavailable. No other information shows in the section.
 * **Status code:** TBD
