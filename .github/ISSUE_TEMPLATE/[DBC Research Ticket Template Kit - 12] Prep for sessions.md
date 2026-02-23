@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Prep for sessions"
+name: "DBC Research Ticket Template Kit - 12: Prep for sessions"
 about: To guide the logistical tasks in preparation for conducting the study. 
 labels: "disability-benenfits,research" 
 assignees: ''
