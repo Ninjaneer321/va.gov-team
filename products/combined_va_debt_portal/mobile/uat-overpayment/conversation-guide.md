@@ -93,7 +93,7 @@ I want to review a few things to make sure you're okay with what will happen in 
     * Can you briefly tell me about it?
     * Are you able to see the details of this debt when you log in to your VA account on the website?
         * _[if yes] use section "Validate overpayments on My VA (option 2)"_
-        * _[if they did not check]  use section "Validate overpayments on My VA (option 2)"_
+        * _[if they did not check]  use section "Validate overpayments on My VA (option 1)"_
             * Okay, we'll check that shortly.
 
 _[NOTE] Potential ending spot if it's clear they do not have a current overpayment_
