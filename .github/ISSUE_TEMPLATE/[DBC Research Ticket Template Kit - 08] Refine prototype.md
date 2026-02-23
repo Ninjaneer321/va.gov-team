@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Refine prototype"
+name: "DBC Research Ticket Template Kit - 08: Refine prototype"
 about: To guide the refinement of the study's prototype. 
 labels: "disability-benenfits,research" 
 assignees: ''
