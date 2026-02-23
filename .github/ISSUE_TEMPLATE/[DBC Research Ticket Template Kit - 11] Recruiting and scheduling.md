@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Recruiting and scheduling"
+name: "DBC Research Ticket Template Kit - 11: Recruiting and scheduling"
 about: To guide working with Research Ops and Perigean to recruit and schedule Veterans for the study. 
 labels: "disability-benenfits,research" 
 assignees: ''
