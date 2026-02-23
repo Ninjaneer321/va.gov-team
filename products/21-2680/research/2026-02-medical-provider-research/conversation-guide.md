@@ -251,7 +251,7 @@ Before we look at the form, let's start with a few questions to get to know you 
 
 **Things to watch for:**
 
-- [ ] **Do they understand what "consent to disclose to provider" means?** (That they're allowing VA to share their form with the doctor, or that the doctor will have access to their medical info?)
+- [ ] **Do they understand what "consent to disclose to provider" means?** (That they're allowing VA to share their name and DOB only with the doctor.)
 - [ ] **Do they understand their options for HOW to get the form to their provider?** (Email, print it themselves, VA sends it, etc.)
 - [ ] **Do they feel confident they can get their provider to complete this?** (Any concerns about the process?)
 - [ ] **Do they understand what happens after the doctor fills it out?** (Does it go back to VA automatically or do they need to follow up?)
@@ -277,21 +277,17 @@ Before we look at the form, let's start with a few questions to get to know you 
 1. **Overall, what was your biggest takeaway or concern about this form?**
    - *[Listen for: main pain points, emotional reactions, barriers to completion]*
 
-2. **If you were to describe this form to a friend, what would you say?**
-   - *[Listen for: complexity, clarity, user-friendliness]*
-
-3. **Is there anything about this form or process that you would change?** 
+2. **Is there anything about this form or process that you would change?** 
    - If yes: What would you change and why?
-   - If no: What worked well for you?
 
-4. **How would you rank your confidence in being able to complete this form on your own at home?**
+3. **How would you rank your confidence in being able to complete this form on your own at home?**
    - Scale: 1 (not confident at all) to 5 (very confident)
    - Follow-up: Why did you choose that number?
 
-5. **Do you have any questions or concerns that we haven't covered yet?**
+4. **Do you have any questions or concerns that we haven't covered yet?**
    - *[Listen for: anything they bring up organically]*
 
-6. **Is there anything specific about working with your doctor on this process that worries you?**
+5. **Is there anything specific about working with your doctor on this process that worries you?**
    - *[Listen for: concerns about provider response time, clarity on next steps, communication barriers]*
 
 ---
@@ -322,6 +318,7 @@ After the participant leaves, spend 30 minutes debriefing with note taker and ob
 - How does this compare to previous sessions?
 - What should we prioritize for design changes?
 - Any quotes or moments we want to pull for stakeholder communication?
+- How did the doctor handoff feel to the participant? Any service design changes we can make here?
 
 **Next Steps:**
 - [ ] Compile notes from session
