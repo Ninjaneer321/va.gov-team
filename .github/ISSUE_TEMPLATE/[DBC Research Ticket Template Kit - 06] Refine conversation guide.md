@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Refine conversation guide"
+name: "DBC Research Ticket Template Kit - 06: Refine conversation guide"
 about: To guide the refinement of the conversation guide. 
 labels: "disability-benenfits,research" 
 assignees: ''
