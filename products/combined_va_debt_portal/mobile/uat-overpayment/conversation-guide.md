@@ -92,8 +92,8 @@ I want to review a few things to make sure you're okay with what will happen in 
 * You indicated that you have a current overpayment debt. _[reference type of debt they selected in screener]_
     * Can you briefly tell me about it?
     * Are you able to see the details of this debt when you log in to your VA account on the website?
-        * _[if yes] continue with guide as written_
-        * _[if they did not check] have them log in at va.gov to confirm after this intro_
+        * _[if yes] use section "Validate overpayments on My VA (option 2)"_
+        * _[if they did not check]  use section "Validate overpayments on My VA (option 2)"_
             * Okay, we'll check that shortly.
 
 _[NOTE] Potential ending spot if it's clear they do not have a current overpayment_
@@ -129,7 +129,7 @@ Start recording.
 
 * I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
 
-## Validate overpayments on va.gov (option 1)
+## Validate overpayments on My VA (option 1)
 
 <details>
 <summary>validate on va.gov</summary>
@@ -268,7 +268,7 @@ _Moderator will follow the test paths outlined in the spreadsheet. Both versions
 _[NOTE] Record the name of debt(s), quantity of debt(s), and total amount(s) for comparison against their account on va.gov._
 
 
-## Validate overpayments on va.gov (option 2)
+## Validate overpayments on My VA (option 2)
 
 <details>
 <summary>validate on va.gov</summary>
