@@ -133,6 +133,7 @@ Start recording.
 
 <details>
 <summary>validate on va.gov</summary>
+
 _[NOTE] Use this step if they did not validate prior to the session_
 
 Before we start on the app, I'd like to have you log in to your acccount on va.gov so that we can confirm that the information lines up to what you’ll be seeing in the app.
