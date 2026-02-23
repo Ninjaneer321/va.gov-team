@@ -2,7 +2,7 @@
 name: DRAFT Collaboration Cycle / Midpoint Review
 about: DRAFT - do not use - Template for Midpoint Review
 title: 'Midpoint Review for [Team Name, Product Name, Feature Name]'
-labels: collaboration-cycle
+labels: collaboration-cycle, CC-touchpoint, midpoint-review
 assignees: ''
 
 ---
