@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: Finalize research report"
+name: "DBC Research Ticket Template Kit - 19: Finalize research report"
 about: To account for incorporating stakeholder feedback into the study's research report. 
 labels: "disability-benenfits,research" 
 assignees: ''
