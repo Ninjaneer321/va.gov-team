@@ -6,6 +6,9 @@ assignees: ''
 
 ---
 
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
+
 ### Description
 This ticket covers submitting the [study name] study to the Platform’s Research Ops for review and approval. The study focuses on [brief description of study]. 
 
