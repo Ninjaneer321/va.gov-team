@@ -1,5 +1,5 @@
 ---
-name: "DBC Research Runbook: After-session cleanup"
+name: "DBC Research Ticket Template Kit - 15: After-session cleanup"
 about: To guide post-research session logistical tasks. 
 labels: "disability-benenfits,research" 
 assignees: ''
