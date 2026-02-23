@@ -1,44 +1,45 @@
 ---
-title: "Conversation Guide for [Team, Product, Date]"
-author: "[AUTHOR NAME]"
-date_created: "[YYYY-MM-DD]"
-last_modified: "[YYYY-MM-DD]"
+title: "Conversation Guide for Form 21-2680 Claimant & Provider Handoff Experience"
+author: "Elyse V"
+date_created: "2026-02-23"
+last_modified: "2026-02-23"
 
-# NEW: Core research metadata
-team: "[TEAM NAME]"
-portfolio: "[benefits|health|digital-experience|bam]"
-product: "[PRODUCT NAME]"
-research_phase: "[discovery|validation|usability|evaluative]"
-research_method: "[moderated_interview|usability_test|card_sort|etc]"
+# Core research metadata
+team: "Aquia BIO"
+portfolio: "benefits"
+product: "Form 21-2680 Provider Experience"
+research_phase: "generative"
+research_method: 
+  - "moderated_interview"
+  - "usability_test"
 
-# NEW: Session details
-session_duration: "[X minutes]"
-session_type: "[remote_moderated|remote_unmoderated|in_person]"
-participant_criteria: "[Brief description, e.g., 'Veterans with service-connected disabilities']"
+# Session details
+session_duration: "60 minutes"
+session_type: "remote_moderated"
+participant_criteria: "Veterans or caregivers with service-connected disabilities or VA pensions who have experience with healthcare coordination and VA benefits"
 
-# NEW: Related documents
-related_research_plan: "[path/to/research-plan.md]"
-related_prototype: "[URL or N/A]"
+# Related documents
+related_research_plan: "products/21-2680/research/2026-02-medical-provider-research/research-plan.md"
+related_prototype: "N/A"
 
 tags:
-  - "[Tag1]"
-  - "[Tag2]"
-description: "A template for moderating research sessions including logistics, intro script, task outlines, and consent steps."
+  - "form-21-2680"
+  - "aid-and-attendance"
+  - "benefits-claims"
+  - "veteran-experience"
+  - "caregiver-experience"
+  - "provider-handoff"
+  - "authenticated-experience"
+description: "A moderated interview guide for understanding veteran and caregiver experience with Form 21-2680, focusing on the claimant-side completion and coordination with medical providers for the provider section."
 
-# NEW: Compliance flags
+# Compliance flags
 recording_required: true
 observer_support: true
 consent_for_clips: true
 ---
 
-> [!TIP]
-> **Complete the frontmatter section above AFTER you've filled out your conversation guide below.**
-> 
-> Use the [GitHub Copilot Conversation Guide Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed conversation guide.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags based on your tasks and research objectives. This ensures consistency and completeness across all research documentation.
+## 2. Moderator Logistics 📋✅
 
-# Conversation Guide for [initiative]
-
-## Moderator logistics 📋✅
 ### 2-3 days before the session
 
 > [!NOTE]
@@ -47,162 +48,283 @@ consent_for_clips: true
 `List and complete any project-specific setup tasks for this study below:`
 
 - [ ] Assign note taker and facilitator
-- [ ] Determine any other participants (to shadow)
-- [ ] Prep prototype for sharing
-- [ ] Set up notes doc
-- [ ] Set up debrief time
+- [ ] Determine any other participants (to shadow) – 1-2 observers recommended
+- [ ] Prep 2680 prototype for screen sharing
+- [ ] Set up notes doc in shared research folder
+- [ ] Set up 30-minute debrief time after each session
+- [ ] Review VA's [Research Checklist](https://depo-platform-documentation.scrollhelp.site/research-design/research-checklist)
+- [ ] Confirm participant's accessibility needs and preferred contact method
 
 ### Day of the session
 
 > [!TIP]
 > - Use [#feedback-backchannel](https://dsva.slack.com/messages/C40B45NJK/details/) in Slack for real-time feedback from observers.
 > - Mute your Slack notifications.
-> - Send out the [observer instructions](https://depo-platform-documentation.scrollhelp.site/research-design/Observer-guidelines.1622311177.html) to your observers (Slackbot will do this for you if you type "observer instructions" into [#feedback-backchannel](https://dsva.slack.com/channels/feedback-backchannel)).
+> - Send out the [observer instructions](https://depo-platform-documentation.scrollhelp.site/research-design/Observer-guidelines.1622311177.html) to your observers (Slackbot will do this for you if you use the study Slack channel).
 
 ### Starting the session
 
 > [!TIP]
 > - In the Attendees section, make sure everyone except the participant is on mute.
 > - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
-> - Check your [screensharing setup] and share permissions for participants.
-> - When the participant is ready, begin the session with the following intro*
+> - Check your screensharing setup and share permissions for participants.
+> - When the participant is ready, begin the session with the following intro.
 
-# Intro - 5 minutes
+---
 
-Thanks for joining us today! My name is **[NAME]** and **[NOTETAKER NAME]** is taking notes.
-I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them... 
+## 3. Intro - 5 minutes
 
-Today we're going to talk about making updates to health care information.
+Thanks for joining us today! My name is **[NAME]** and **[NOTETAKER NAME]** is taking notes. I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them, I want to tell you what we're doing today.
 
+Today we're going to talk about your experience with VA benefits and healthcare, specifically around a form called 2680 — which is used for Aid and Attendance or Housebound allowance. We're interested in learning how veterans and caregivers like you experience filling out this form and working with your doctor to complete it. It's ok if you have never filled out this form or if it doesn't directly apply to you. We're still interested in your experience and feedback.
 
-Before we start, I have a few things that I want to go over with you:
+Before we start, I have a few things I want to go over with you:
 
 - **This entire session should take about 60 minutes.** I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
-  
-- **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any opinions you express.
-  
-- **Your participation in this interview is completely voluntary.** You do not have to participate if you don't want to. Whether you choose to participate or not will not affect your benefits in any way with the VA. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Please let me know.
-  
-- I know the folks who invited you to participate in this interview asked if it was alright to allow people to observe this interview, but I want to double-check with you before we get going. **Are you okay with a couple of additional observers during this session?**
-   - <mark>**If no:** Use Slack to kindly ask the observers to leave the Zoom.</mark>
-   - **If yes:** Admit observers.
-     
-> [!TIP]
-> - Then, ask the notetaker and observers to **give a brief, camera-on introduction, like their first name and position with VA.gov.** (This is meant to humanize the interaction of observation for the participant.)
-> - Once complete, ask the notetaker and observers to turn off their cameras for the remainder of the session to save bandwidth
-     
-- *(If applicable)* **You'll be interacting with a prototype today.** This is a demo tool that may not function exactly the way you expect. Some areas of the prototype will be clickable, and some will not. <mark>**Since it's a demo, none of your actions will affect your VA information or benefits.**</mark>
-  
-- **Are you comfortable if I record my screen and audio as we talk today?** We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will be attributed to you directly. We either report findings out in groups (i.e., 5 out of 10 participants said this), or if we want to quote you directly, we take away any identifying information and give you a participant ID, like P7.
-   - **Knowing that, are you comfortable if I record my screen and audio as we talk today?**
-
-   <mark>**[Record answer here]**</mark>
-     
-- **Would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veterans’ experiences?** One of the ways that we share findings with our partners across the VA is by showing short video clips of sessions with Veterans. In these video clips, we blur out any information that could possibly be used to identify you, like your onscreen image. Sharing these video clips can be a compelling way for our partners to better understand what Veterans go through when using VA.gov and our digital products. These clips will not be shared outside of the VA. We don't know at this point if we will or not, but we like to ask ahead of time. At the end of the interview, I'll also confirm that this is okay with you, so you will get a chance to veto this once you know what we've discussed.
-   - **Knowing this, would you be comfortable if we decided to use a clip of our session with you to help our partners understand Veteran's experiences?**
  
-   <mark>**[Record answer here]**</mark>
-
-   - If yes: **Once I start recording, I am going to confirm that you are okay with me recording this session once more.**
+- **In this session, we want to hear your honest opinions.** There are no right or wrong answers; we are not testing your knowledge or abilities. I welcome any and all of your feedback, and I won't be offended by any of it.
+  
+- **Your participation in this interview is completely voluntary.** You do not have to participate if you don't want to. Whether you choose to participate or not will not affect your benefits in any way. You can also stop at any time if you need a break or decide you don't want to continue.
+  
+- I know Perigean (the folks who recruited you) asked if it was alright to allow people to observe this interview, but I want to double-check with you before we get going. **Are you comfortable with observers joining us?**
+   - **If no:** Use Slack to kindly ask the observers to leave the Zoom.
+   - **If yes:** Admit observers.
+   
+- **[Ask observers to give brief introductions]** I'm going to ask my colleagues to give a quick introduction — just their first name and their role with VA.gov. This helps make this more of a human conversation. 
+   - Once complete, ask them to **turn off their cameras to save bandwidth** for the rest of the session.
+    
+- **You'll be looking at a form today** — the digital version of 2680 as it appears on VA.gov. This is a real form that Veterans use, and we want to understand your experience with it. We may ask you to walk through it, or we may just discuss your experience with similar forms.
+ 
+- **Are you comfortable if I record my screen and audio as we talk today?** We use the recordings to make sure we've captured your thoughts accurately. After we complete our research, the recording is deleted — we only keep what we learn from talking with people like you. 
+   - **Knowing that, are you comfortable if I record my screen and audio as we talk today?**
+   
+   **[Record answer here: ☐ Yes  ☐ No]**
+    
+- **One more thing:** Would you be comfortable if we used a short video clip from our conversation with you — maybe 30 seconds to a minute — to help our partners at VA understand what it's like to be a Veteran or caregiver working through these benefits processes? We would remove any information that could identify you, like your name or personal health details.
+   - **Knowing this, would you be comfortable if we decided to use a short clip from our session?**
+   
+   **[Record answer here: ☐ Yes  ☐ No]**
+   
+   - **If yes:** Once I start recording, I'm going to confirm one more time that you're okay with me recording. Just want to make sure we're clear!
 
 ➡️ **Start recording.**
 
 > [!TIP]
-> After you start the recording, click the Show captions (CC) button to enable transcription for the recording.
+> After you start the recording, click the **Show captions (CC)** button to enable live transcription.
 
-- **I have started recording.** I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
+- **I have started recording.** Before we dive in, I want to confirm one more time: **Are you comfortable with me recording my screen and the audio as we talk today?**
 
- <mark>**[Record answer here]**</mark>
- 
-- **Are you comfortable if we decide to use a recorded clip from our discussion today to share with other VA partners if we remove any information that can be used to identify you?**
+ **[Record answer here: ☐ Yes  ☐ No]**
 
- <mark>**[Record answer here]**</mark>
+- **And are you comfortable if we use a short recorded clip from today to share with VA partners if we remove any information that could identify you?**
 
-# Warm-up Questions - 5 minutes
-
-Before we look at the website, let’s start with a few warm-up questions.
-
-1. Do you have a service-connected disability at VA?
-- If yes: what is your disability rating?
-- If no, skip to question 2.
-2. Do you receive a pention from VA?
-
-We'd like to ask you a few questions about your relationship with your medical provider.
-1. Do you have a medical provider (for example your doctor) through VA? Do you have a private doctor?
-2. Imagine you need your doctor's help to fill out a VA form. Can you talk us through your workflow to do that?
-3. Is that something you've ever done before? If so, can you tell us about that experience?
-4. What are some of the major challenges you encounter in communicating with your doctor?
-
-## First Task: Understand eligibility - 5 minutes
-
-- [ ] Read through intro screen
-- [ ] Determine if they are eligible for thisbenefit
-
-> [!NOTE]
-> ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Is the participant aware that they may be sharing personal information on their screen, and are they okay with that? - per question as needed]
-> - [Etc]
-
-## Second Task: General form walkthroguh - 5 minutes
-
-- [ ] Step through each page of the form 
-- [ ] Ask questions wheever the participant may be confused
-
-> [!NOTE]
-> ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
-
-## Third Task: Understand doctor hand off - X minutes
-
-- [ ] Read through medical closure consent and make a selection
-- [ ] Read through follow up steps 
-
-> [!NOTE]
-> ### Things to watch for:
-> - [Does the participant understand meaning of xyz?]
-> - [Does the participant notice xyz?]
-> - [Etc]
-
-# Post-Task Interview - X minutes
-
-- Question 1
-- Question 2
-- Any questions for me? 
-
-## Consent to use video clips
-
-- I want to circle back and re-confirm that **you are comfortable if we were to share a video clip of this session with our VA partners?** Just to remind you, we will remove all information that could be used to identify you before sharing and will only share the videos with VA partners with the purpose of improving VA.gov and other digital experiences.
-   - **If yes:** Is there any part of our discussion you would NOT want shared in a video clip?
- 
-   <mark>**[Record answer here]**</mark>
-
-
-## Thank-You and Closing - X minutes
-
-Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
-
-Thanks! Lastly, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
-
-Thank you so much again, and enjoy the rest of your day!
-
-
-# Emergency Exit 🚨
-
-In the rare case of an emergency during a session, be prepared with an [emergency exit strategy](https://depo-platform-documentation.scrollhelp.site/research-design/Research-Safety-and-Emergency-Exit-Strategies.2143649793.html#ResearchSafetyandEmergencyExitStrategies-Sampleexitstrategies). <mark>**Plan to include here at least one option, so its easy to find during a session. Take some time to practice so it feels more comfortable.**</mark>
+ **[Record answer here: ☐ Yes  ☐ No]**
 
 ---
 
-## After You Save This Convo Guide ✅
+## 4. Warm-up Questions - 5 minutes
 
-- [ ] Complete the YAML frontmatter at the top of this file using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/conversation-guide-frontmatter-completion-prompt.md)
-- [ ] Review alignment with your research plan tags
-- [ ] Update the last_modified date
+Before we look at the form, let's start with a few questions to get to know you a bit better.
 
-### Sample Conversation Guide _(note: this link points to resources in the va.gov-team GitHub repo)_
+**Background & Eligibility:**
 
-- [Veteran ID Card Discovery Interview](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/veteran-id-cards/research/discovery/discovery-conversation-guide.md)
+1. **Are you a Veteran, or are you a caregiver or family member of a Veteran?** 
+   - *[Listen for: their relationship to VA, if applicable]*
 
+2. **Do you currently receive any VA benefits?** 
+   - If yes: What type? (Disability compensation, pension, Aid and Attendance, etc. If you prefer not to share, that's ok!)
+   - If no: Have you applied for any in the past?
+
+3. **Do you have a service-related disability with VA? (Again, if they prefer not to share, that is ok)** 
+   - If yes: What's your rating? 
+   - If yes: What was the process like to get that rating?
+
+4. **Do you receive a VA pension?**
+   - If yes: What was the process like to apply for that?
+
+**Provider & Healthcare Coordination:**
+
+5. **Do you currently have a medical provider through VA? Do you also have a private doctor outside of VA?**
+   - *[Listen for: who they see, how often, comfort level with coordination]*
+
+6. **Let's talk about your typical healthcare experience. When you need help from a doctor — whether it's at VA or somewhere else — how do you usually contact them or set up an appointment?**
+   - *[Listen for: phone, patient portal, in-person, etc.]*
+
+7. **Have you ever had to work with a doctor to fill out a VA form — like getting them to sign something or provide medical information for a benefits claim?**
+   - **If yes:** Can you walk me through that experience? What was that process like? 
+   - **If no:** That's okay — we'll talk about what you'd imagine that might be like.
+
+8. **What are some of the biggest challenges you face when trying to communicate with your doctor or get them to help with paperwork?**
+   - *[Listen for: delays, confusion, unclear instructions, busy providers, etc.]*
+
+---
+
+## 5. First Task - Understand Eligibility - 5 minutes
+
+**Goal:** Understand how participants interpret the eligibility information on the 2680 landing page, and the information they need to complete the form.
+
+> Okay, now I want to move on to looking at the actual form. I'm going to share my screen, and I'd like you to talk through what you see and what it means to you.
+
+**Checklist & Observations:**
+
+- [ ] Participant reviews the landing page
+- [ ] Participant reads through the eligibility information
+- [ ] Ask clarifying questions based on confusion or hesitation
+
+**Things to watch for:**
+
+- [ ] **Does the participant understand what this form is for?** (Aid and Attendance or Housebound allowance)
+- [ ] **Do they understand if they're eligible?** (Can they determine if this applies to them?)
+- [ ] **Is the eligibility criteria clear?** (What does "Aid and Attendance" mean? What does "Housebound" mean?)
+- [ ] **Any confusing language or terms?** (What's unclear?)
+- [ ] **Do they understand what information they need to fill out this form?**
+- [ ] **Do they know what to do next?** (In particular, is it clear that the next step of this form will involve their medical provider?)
+
+**Sample Probing Questions:**
+- "Based on what you're reading, do you think this form applies to you?"
+- "Is there anything confusing on this page?"
+- "What would you do next after reading this?"
+
+---
+
+## 6. Second Task - General Form Walkthrough & Usability - 15 minutes
+
+**Goal:** Understand the overall usability of the 2680 form, including navigation and flow, field clarity and labels, and instructions and help text.
+
+> Now I'd like you to walk all the way through this form, from the beginning to the end. You can use fake or placeholder information — we're not collecting real data, we just want to see how you interact with the form and where you might run into confusion. As you go, please talk through what you're doing and what you're thinking. If something doesn't make sense, just let me know.
+
+**Checklist & Observations:**
+
+- [ ] Participant starts at the beginning of the form
+- [ ] Participant steps through each section, entering fake/placeholder data
+- [ ] Participant reaches the end of the form
+- [ ] Ask clarifying questions whenever the participant hesitates or seems confused
+
+**Things to watch for:**
+
+**Form Navigation & Flow:**
+- [ ] **Is it clear how to navigate the form?** (Can they find buttons to continue, go back, etc.?)
+- [ ] **Does the form flow logically?** (Does the order of questions make sense?)
+- [ ] **Are there any unexpected jumps or confusing transitions between sections?**
+- [ ] **Do they understand where they are in the form?** (Is progress clear? Step indicators helpful?)
+
+**Field Clarity & Labels:**
+- [ ] **Are the form field labels clear?** (Do they understand what information is being asked for?)
+- [ ] **Do they understand what type of information to enter?** (Is it obvious if it's text, numbers, dates, etc.?)
+- [ ] **Are there any fields they skip or are unsure about?**
+- [ ] **Do optional vs. required fields feel clear?**
+
+**Instructions & Help Text:**
+- [ ] **Is there helpful guidance on the form?** (Tooltips, hints, explanations?)
+- [ ] **If they get stuck, do they know where to find help?**
+- [ ] **Are the instructions easy to understand?** (Clear language? Not too wordy?)
+- [ ] **Do they use the help text, or do they prefer to figure it out on their own?**
+
+**General Experience:**
+- [ ] **What's their overall impression of the form and ease of use?**
+- [ ] **Any frustrations or moments where they felt lost?**
+- [ ] **Did any of the fields prompt unexpected reactions? (Especially, was there any emotional component to the fields that we should account for.)**
+- [ ] **Were there any accessibility issues the user ran into?**
+
+**Sample Probing Questions:**
+- "What does this field mean to you?"
+- "How did you know what to do there?"
+- "Was that instruction helpful?"
+- "If you got stuck here, what would you do?"
+- "How are you feeling about the form so far?"
+- "Is there anything on this page that confused you?"
+- "What's been the easiest part so far? What's been the hardest?"
+
+---
+
+## 7. Third Task - Understanding the Handoff & Provider Section - 10 minutes
+
+**Goal:** Understand how Veterans/caregivers think about the provider handoff and what happens after they submit their portion.
+
+> Now that we've looked at the eligibility and information you'd need to provide, let's talk about what happens next.
+
+**Checklist & Observations:**
+
+- [ ] Participant reviews the consent/disclosure section (what permission they're giving to share info with provider)
+- [ ] Participant reviews the handoff instructions (how to send to provider, what to expect)
+- [ ] Participant reviews options for how the provider can return the form (digital, print, fax, etc.)
+
+**Things to watch for:**
+
+- [ ] **Do they understand what "consent to disclose to provider" means?** (That they're allowing VA to share their form with the doctor, or that the doctor will have access to their medical info?)
+- [ ] **Do they understand their options for HOW to get the form to their provider?** (Email, print it themselves, VA sends it, etc.)
+- [ ] **Do they feel confident they can get their provider to complete this?** (Any concerns about the process?)
+- [ ] **Do they understand what happens after the doctor fills it out?** (Does it go back to VA automatically or do they need to follow up?)
+- [ ] **Do they have any questions or concerns about this process?**
+
+**Sample Probing Questions:**
+- "Based on what you're reading here, how would you actually get this form to your doctor?"
+- "What if your doctor is slow to respond? What would you do?"
+- "What does this consent statement mean in your own words?"
+- "Looking at these options, which way would you prefer to send the form to your provider?"
+- "How confident do you feel that you could get your doctor to fill this out?"
+
+---
+
+## 8. Post-Task Interview - 10 minutes
+
+**Goal:** Understand participants' overall impressions, identify any remaining pain points, and gather recommendations.
+
+> Now that we've walked through the form together, I'd like to ask you some final questions about your overall experience.
+
+**Sample Questions:**
+
+1. **Overall, what was your biggest takeaway or concern about this form?**
+   - *[Listen for: main pain points, emotional reactions, barriers to completion]*
+
+2. **If you were to describe this form to a friend, what would you say?**
+   - *[Listen for: complexity, clarity, user-friendliness]*
+
+3. **Is there anything about this form or process that you would change?** 
+   - If yes: What would you change and why?
+   - If no: What worked well for you?
+
+4. **How would you rank your confidence in being able to complete this form on your own at home?**
+   - Scale: 1 (not confident at all) to 5 (very confident)
+   - Follow-up: Why did you choose that number?
+
+5. **Do you have any questions or concerns that we haven't covered yet?**
+   - *[Listen for: anything they bring up organically]*
+
+6. **Is there anything specific about working with your doctor on this process that worries you?**
+   - *[Listen for: concerns about provider response time, clarity on next steps, communication barriers]*
+
+---
+
+## 9. Closing & Thank You - 2 minutes
+
+> Thank you so much for taking the time to talk with us today. Your feedback is incredibly valuable and will help us make this form better for Veterans and caregivers. 
+
+- Remind them that all information will be kept confidential.
+- Confirm next steps if applicable (payment, follow-up contact, etc.)
+- Wish them well.
+
+---
+
+## 10. Debrief - 30 minutes
+
+> [!IMPORTANT]
+> **Internal team only — participant has left.**
+
+After the participant leaves, spend 30 minutes debriefing with note taker and observers.
+
+**Debrief Questions:**
+
+- What were the biggest pain points or confusion points?
+- Were there any unexpected insights or reactions?
+- What did participants do well? What was easy for them?
+- Any accessibility issues we need to flag?
+- How does this compare to previous sessions?
+- What should we prioritize for design changes?
+- Any quotes or moments we want to pull for stakeholder communication?
+
+**Next Steps:**
+- [ ] Compile notes from session
+- [ ] Record key quotes and observations
+- [ ] Flag any urgent UX issues
+- [ ] Update research tracker with session summary
