@@ -92,7 +92,7 @@
   "22006": {
     "team_id": 22006,
     "team_name": "Mobile Feature Support",
-    "short_name": null,
+    "short_name": "`mobile-feature-support`",
     "portfolio": "Digital Experience",
     "crew_or_pod": "Core Veteran Experiences",
     "readme_path": "teams/digital-experience/mobile-feature-support/README.md",
@@ -487,8 +487,8 @@
   },
   "33001": {
     "team_id": 33001,
-    "team_name": "1010 Health Apps",
-    "short_name": "1010-health-apps",
+    "team_name": "Health Apps",
+    "short_name": "health-apps-team",
     "portfolio": "Health Portfolio",
     "crew_or_pod": "VA Health Applications",
     "readme_path": "teams/health-portfolio/1010-health-apps/README.md",
