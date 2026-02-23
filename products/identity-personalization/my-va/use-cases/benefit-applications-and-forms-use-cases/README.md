@@ -44,7 +44,7 @@
 
 ## User does not have any drafts or completed forms</summary>
 
-* **Description::** When a user does not have any form or application drafts or completed forms they will see information informing them of such, and an additional information component on what to do if they think there are missing forms.
+* **Description:** When a user does not have any form or application drafts or completed forms they will see information informing them of such, and an additional information component on what to do if they think there are missing forms.
 * **Status code:** TBD
 * **Format:** See designs
 * [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16410&t=KhCgIDPMpZ6FClDG-1)
@@ -64,7 +64,7 @@
 
 ## User has submitted a benefit application and/or form not on LH BI API
 
-* **Description::** When a user has submitted a supported application or form **not** on Lighthouse Benefits Intake API they will see a card.
+* **Description:** When a user has submitted a supported application or form **not** on Lighthouse Benefits Intake API they will see a card.
    - Submission in progress and Received statuses appear in the Completed forms section.
    - Action needed statuses appear in the In-progress section.
 * **Status code:** TBD
