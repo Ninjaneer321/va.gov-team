@@ -177,7 +177,7 @@ The Informaiton Architecture of VA.gov must support Veterans and Veteran family 
 
 - `1.` Assess whether users can find key information related to top tasks on the site easily and with confidence.
 - `2.` Determine if the labels used in navigation meet the mental model of our users.
-- `3.` Determine if adding "My VA" and My HealtheVet" to the top level of navigation impacts findability of tools related to managing those benefits.
+- `3.` Determine if adding "My VA" and My HealtheVet" to the top level of navigation impacts findability of tools related to managing benefits.
 
 
   
@@ -208,8 +208,8 @@ Outcomes from this research will be used to inform and prioritize changes needed
 ### Hypotheses
 
 - `1.` Users will be able to easily find key information related to learning about and applying for key Veteran benefits within their respective benefit hubs. 
-- `2.` Users will be able to easily find key information related to family member and caregiver benefts within the Family and Caregiver benefits hub.-
-- `3.` Users will not commonly utilize the Service member benefits hub as a destination for key Veteran benefit information and tools. 
+- `2.` Users will look to the family member and caregiver benefit hub to find key information related to benefits for family members.
+- `3.` Users will not commonly look to the Service member benefits hub as a destination for key Veteran benefit information and tools. 
 - `4.` Users will most commonly look in "My VA" and My HealtheVet" as ways to get to tools to manage their benefits.
 
   
@@ -239,20 +239,13 @@ Where will you be holding the research sessions? Be sure to include whether this
 
 ## Research materials 📔
 
-> [!NOTE]
-> **Your OCTO/VA lead must review and approve all research materials – including this plan –  prior to submitting a recruitment request.**
-
 Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
 
 **For [unmoderated testing:](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html)**
 - [Link to email with instructions](url goes here)
-- [Link to prototype or OptimalSort session for group A](url goes here)
-- [Link to prototype or OptimalSort session for group B](url goes here)
+- [Optimal Workshop tree test study](url goes here)
 
 
-**If recruiting outside of Perigean’s participant database:**
-- [Link to recruitment flyer](url goes here)
-	
 ## Recruitment 🎯	
 *OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
 
@@ -263,7 +256,8 @@ Provide a link to any materials you need to run your study, including any materi
 
 ### Recruitment approach
 *Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
-- Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
+- Recruitment through Perigean for remote, [unmoderated study](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
+- Recruiting Veterarns only for this test.
 - Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
 
 ### Recruitment criteria
@@ -281,27 +275,23 @@ Provide a link to any materials you need to run your study, including any materi
 > Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 10 ideal completed sessions, request 15 total participants)*
 
 
-- `Veterans:` **[n]**
-- `Caregivers:` **[n]**
-- `Dependents:` **[n]**
-- `Total:` **[n]**
-- `Ideal completed sessions:` **[n]**
+- `Veterans:` **578**
+- `Caregivers:` **0**
+- `Dependents:` **0**
+- `Total:` **578**
+- `Ideal completed sessions:` **385**
+
+Sample size calculated based on achieving a 95% confidence level with a total audience of approx 15M living Veterans in the US. 
 
 ### Primary criteria (must-haves)
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
 
-- `[Place primary criteria here between hash marks when in edit mode]`
+- `All participants are Veterans`
 - `primary criteria`
 - `primary criteria`
 - **`Add more criteria as needed`**
 
-#### Secondary criteria (nice-to-haves)
-*What criteria would strengthen your results?* 
 
-- `[Place secondary criteria here between hash marks when in edit mode]`
-- `secondary criteria`
-- `secondary criteria`
-- **`Add more criteria as needed`**
 
 ## Timeline 🗓️
 > [!NOTE]
