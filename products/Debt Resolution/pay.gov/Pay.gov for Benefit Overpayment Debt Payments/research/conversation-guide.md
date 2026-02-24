@@ -77,8 +77,6 @@ consent_for_clips: true
 * You are the expert, and we want your honest opinions. There are no right or wrong answers, and we’re not testing anything of you. I will not be offended by any opinions you share.  
 * Your participation in this interview is completely voluntary. You do not have to participate if you don't want to. Whether you choose to participate or not will not affect your benefits in any way with the VA. If you would like to stop the session or do not want to answer a question for any reason at any time, that's no problem. Just let me know.  
 * Finally, I would like to confirm you are comfortable with my recording this session. We use the recordings to confirm that we have captured your opinions accurately. After we complete the analysis, the recordings are destroyed, and none of your comments will be attributed to you directly. Are you comfortable if I record our session today?  
-* *(If yes:)* Once I start recording, I am going to confirm once more that you are ok with me recording this session.  
-* If you would be okay with it, we would like to record this session today, but let me explain things first before you consent.  
 * And also, it can be helpful to share video clips from sessions to our VA partners so they can better understand the experiences of Veterans. In these clips, we blur out anything that could identify you – your profile photo for example – and they would only be shared among VA partners. Would you be comfortable with us potentially using a clip from this session?  
 * *(if yes)* I’m going to start the recording, and once I do I’m going to confirm once more that you’re okay with the recording.
 
