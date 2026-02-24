@@ -4,7 +4,7 @@
 
 - **Severity:** High (user cannot accomplish main task or would do it wrong), Medium (can accomplish but with some confusion/workarounds/minor errors), Low (would be better user experience if pain point resolved)
 - **Trending/Frequency:** First time issue vs. found in multiple research reports/sources
-- **Number of Users Impacted:** Edge case/1 team, all team members/majority of users, impacts majority of both team members and users
+- **Number of Users Impacted:** Edge case/1 team, some platform users, majority of users, impacts all platform users
 - **Legal/Risk Obligation:** e.g., accessibility issue or data privacy issue
 
 ---
