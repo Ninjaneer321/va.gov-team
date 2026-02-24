@@ -377,6 +377,15 @@
     "readme_path": "teams/benefits-portfolio/disability-core-526/README.md",
     "manifest_url": "https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/benefits-portfolio/disability-core-526/README.md"
   },
+  "12004": {
+    "team_id": 12004,
+    "team_name": "Disability Benefits Crew Team 5",
+    "short_name": "disability-benefits-5",
+    "portfolio": "Benefits Portfolio",
+    "crew_or_pod": "Disability Benefits Crew",
+    "readme_path": "teams/benefits-portfolio/disability-benefits-5/README.md",
+    "manifest_url": "https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/benefits-portfolio/disability-benefits-5/README.md"
+  },
   "12003": {
     "team_id": 12003,
     "team_name": "Disability Pathways",
