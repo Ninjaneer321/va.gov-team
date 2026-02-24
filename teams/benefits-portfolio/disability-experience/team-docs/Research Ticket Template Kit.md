@@ -22,6 +22,10 @@ The master versions of these templates can be found in the [ISSUE_TEMPLATE folde
 ### :pencil: How to use the templates
 The templates themselves serve as suggestions and reminders, but not mandates. E.g. if you're using a different process than the one outlined, feel free to adapt the templates as needed. But they exist to make sure you don't forget specific steps, even if you have to adapt them to your use case.
 
+ - When “Timeframe for this ticket” says “should fit within one sprint," this does not mean "take the whole sprint" but rather "this is doable within a sprint."
+ - These tickets are set up for a particular type of testing (primarily qualitative interviews or usability tests). If you’re doing something different, some tasks may not apply.
+
+
 ### :brain: Good to know
 As you start using these templates and have any questions or recommendations, please share your thoughts with a DBC designer and we'll discuss potential changes during one of our weekly syncs and communicate any changes made. Thank you!
 
