@@ -345,8 +345,9 @@ This approach allows us to reach a diverse group of veterans and caregivers acro
 > Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 8 ideal completed sessions, request 10-12 total participants)*
 
 - `Veterans:` **5**
-- `Caregivers:` **3**
-- `Total:` **8-10**
+- `Caregivers:` **2**
+- `Dependents:` **3**
+- `Total:` **10**
 - `Ideal completed sessions:` **8**
 
 ## Screener Questions 📋
@@ -363,13 +364,28 @@ This approach allows us to reach a diverse group of veterans and caregivers acro
 ### Your Study's Screener Questions
 
 **`1.` Are you a Veteran, or the caregiver or dependent of a Veteran?**
-- **Qualifying response:** Yes
+- Yes I am a Veteran (recruit 5)
+- Yes I am the caregiver of a Veteran (recruit 2)
+- Yes I am the dependent (spouse, child, parent) of a Veteran (recruit 3)
+- No, I am none of the above (exclude)
 
-**`2.` Do you receive a VA pension OR do you have a service-related disability?**
-- **Qualifying response:** Yes
+**`2.` Do you or the Veteran you care for receive a VA pension? OR do you have a service-related disability?**
+- Yes (recruit 5)
+- No
 
-**`3.` Are you comfortable participating in a 60-minute remote interview about your experience with healthcare and benefits?**
-- **Qualifying response:** Yes
+**`3.` Do you or the Veteran you care for have a service-related disability? Do you currently receive any form of disability benefits?**
+- Yes I have a service-related disability and receive disability benefits (recruit 5)
+- Yes I have a service-related disability but do not currently receive disability benefits (exclude)
+- No (exclude)
+
+**`4.` Does your doctor or medical provider work at a VHA facility or through a private practice?**
+- My medical provider works at a VHA facility (recruit 3 - 5)
+- My medical provider works at a private practice (recruit 3 - 5)
+- I do not know where my medical provider works (recruit 2 - 3)
+- I do not currently have a medical provider (recruit 2 - 3)
+
+**`5.` Are you comfortable participating in a 60-minute remote interview about your experience with healthcare and benefits?**
+- Yes
 
 ## Timeline 🗓️
 > [!NOTE]
