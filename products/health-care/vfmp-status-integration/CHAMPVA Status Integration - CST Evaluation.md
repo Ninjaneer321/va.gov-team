@@ -202,7 +202,7 @@ Relevant backend files:
 
 ### Technical Explanation
 
-The phase displayed in CST ultimately originates from provider state values normalized into `claimPhaseDates.phaseType`.
+The phase shown in CST is derived from normalized provider state values returned by PEGA/DOCMP and VES and mapped into `claimPhaseDates.phaseType` on the backend.
 
 ---
 
