@@ -9,19 +9,19 @@
 
 #### List of Planned work
 - EZR Service History
-     - [ ] 
-- EZ Form status
-     - [ ] 
-- [ ] EZ QA Standards alignment
+     - [ ] Launch Service History
+- EZR Improvements/Bugs
+     - [ ] EZR Update file upload pattern
+     - [ ] EC/NOK work on Profile
+- EZR Form status
+     - [ ] Display on MyVA
+     - [ ] EZR QA Standards alignment
 
 ## 
 ### 10-10EZR
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
-- [ ] [#121775](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121775) - [PM] Update and submit Product Guide for review
-- [ ] [#121778](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121778) - [PM] Update DOMO URL funnels and add GA metrics
-- [ ] [#121766](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121766) - [PM] Prep release plan
-- [ ] [#121767](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121767) - [PM] Review release plan
+
 - [ ] [#121764](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121764) - [UX] Update SOT to include new Service history section
 
 #### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
@@ -29,6 +29,7 @@
 
 #### Obj: EZR [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
 - [ ] **SPRINT GOAL** [#130857](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130857) - [FE/QA] Review and align with the latest QA Standards updates
+- [ ] [#119890](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119890) - [FE/QA] Update file upload pattern
 
 ##
 ### 10-10EZ
@@ -53,7 +54,7 @@
 #### List of Planned work
 - EZR Service History
      - [ ] QA
-     - [ ] Prep release plan
+     - [ ] Prep & review release plan
      - [ ] Update & submit product guide
      - [ ] Submit for metrics updates
 - EZR Form status
@@ -73,6 +74,7 @@
 - [ ] [#121775](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121775) - [PM] Update and submit Product Guide for review
 - [ ] [#121778](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121778) - [PM] Update DOMO URL funnels and add GA metrics
 - [ ] [#121766](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121766) - [PM] Prep release plan
+- [ ] [#121767](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121767) - [PM] Review release plan
 
 #### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
 - [ ] [#118642](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118642) - [Eng] Tech discovery on EZR form statuses on MyVA
@@ -94,7 +96,7 @@
 ## 
 ### 10-10CG
 #### Obj: CG [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40165)
-- [ ] [#119892](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119892) - [FE] Update file upload pattern
+- [ ] [#119892](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119892) - [FE/QA] Update file upload pattern
 
 ##
 ### Team PTO
@@ -106,7 +108,7 @@
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 15 is...**
+- **The goal for Sprint 15 is to prepare EZR Service history for QA and start EZ form status development**
 
 #### List of Planned work
 - EZR Service History
