@@ -1,105 +1,121 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "COE Usability Study Round 2 Research Findings"
+product: "Certificate of Eligibility (COE)"
+team: "eBenefits Migration"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-03-24"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Jim Adams"
+  - "Candy Clark"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Assess the usability of the Request a Certificate of Eligibility form"
+  - "Explore users' understanding of the View Your COE tool and statuses they could encounter"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Task-based testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 4
+  tablet: 1
+  smartphone: 1
+  assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 6
+  service_members: 0
+  caregivers: 1
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 2
+    "55-64": 3
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 0
+    associates: 0
+    bachelors: 4
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 6
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 1
+    black: 1
+    hispanic: 1
+    biracial: 1
+    asian: 1
+    native: 2
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - '"Find out about your VA home loan COE" was not the language participants were looking for, instead they used the side bar nav "Request a COE now".'
+  - "The options on \"Your service history\" caused confusion for some participants."
+  - "The participants that saw the \"How will you use your Certificate of Eligibility?\" screen had some confusion around what the options meant, particularly if they might fit into multiple categories."
+  - "The `(*Required)` label on the document uploader led participants to believe they could not continue without uploading more documents. This is the one area where users stopped to call for help."
+  - "Participants understood when and how to follow up."
+  - "When status is \"Pending with documents needed\", participants were able to discern that they needed to upload documents and that the list should have been mailed to them. They also found the list of documents in the letters screen."
+  - "Some participants expected a confirmation page after uploading documents on \"Pending\" task."
+  - "Participants were able to find the \"Download your COE\" link quickly."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Remove `(*Required)` label from document uploader when required documents have been uploaded - in both the request form and the `Pending` uploaders"
+  - "Include a list of required documents on required screen"
+  - "Increase visibility of confirmation and/or direct to a separate confirmation screen for `Pending` uploads"
+  - "Provide additional information about loan intent options."
+  - "Make service selection choice options shorter and more distinct."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Test with mobile users (in a mobile prototype layout or in staging)"
+  - "Test with assistive technology users (in staging or code-based prototype)"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Rural"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Transgender"
+  - "Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Spreadsheet"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Housing'
-- 'BNFT: Records'
-- 'PRDT: Caregivers'
-- 'MHV: Secure Messaging'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family Member"
+  - "BNFT: Housing"
+  - "DSC: Action link"
+  - "DSC: Form controls"
+  - "DSC: Form - File Input"
+  - "DSC: Links"
+  - "DSP: Ask users for files"
+  - "DSP: Content presentation"
+  - "DSP: Help users to check answers"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "PRDT: 26-1880 COE Certificate of Eligibility"
+  - "PRDT: eBenefits"
+  - "moderated-research"
+  - "remote-research"
+  - "usability-testing"
 ---
+
 # COE Usability Study Round 2 Research Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), Certificate of Eligibility, eBenefits Migration**
