@@ -167,9 +167,9 @@
 - EZ BUG
      - [x] EZ Investigate Intro page looping
 - EZR Service History
-     - [ ] Complete testing connection call to pull service history data
+     - [ ] Complete testing connection call to pull service history data - 🛑 _BLOCKED due to RI issues, resolved morning of 2/24_
      - [x] Update flow logic for file upload page
-     - [ ] Content feedback review for error state & file upload
+     - [ ] Content feedback review for error state & file upload - _expecting by end of day 2/24_
 - EZR ECNOK On VA.gov Profile
      - [x] Review existing Profile ECNOK designs for updates needed
 - [x] EZR Update Source of Truth designs for Household sections
