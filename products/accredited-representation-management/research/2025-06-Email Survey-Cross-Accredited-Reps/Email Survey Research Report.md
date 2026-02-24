@@ -1,95 +1,110 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Email Survey > VSO Representative Contact Details Research Findings"
+product: "Accredited Representative Management"
+team: "Not specified in report"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2025-06-17"
+researchers: 
+  - "Marisa Dominguez"
+  - "Michael Tri"
+  - "Lindsay Li-Smith"
+  - "Allison Nuttall"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate the level of understanding among Veteran Service Organization (VSO) representatives regarding the procedures for updating their contact information with the Office of General Counsel (OGC)"
+  - "Determine how many VSO representatives are aware of who selected their primary organization, whether it was a personal choice or assigned by a director"
+  - "Investigate the email preferences of VSO representatives, focusing on which email they use for communication and whether it aligns with the email used by OGC"
+  - "Provide insights into how ARP can help representatives identify their primary email, ensuring effective communication and account access"
+  - "Collect data that can inform future training and resource development aimed at improving VSO representatives' understanding of organizational processes and communication methods"
+  - "Use the findings to recommend strategies for enhancing communication between VSO representatives and the ARP, ultimately improving service delivery to Veterans"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Unmoderated survey"
+  - "Online survey via browser"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Limited Understanding of Contact Update Processes"
+  - "Automatic Organizational Selection Predominates"
+  - "Preference for Localized Communication"
+  - "Recommendations Based on Primary Affiliations"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Enhance Training on Contact Update Processes"
+  - "Promote Awareness of Organizational Selection"
+  - "Investigate 'Other' Email Preferences"
+  - "Regular Communication Audits"
+  - "User-Friendly Contact Management Tools"
+  - "Feedback Mechanism"
+  - "Resource Library"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Adoption Rates of New Tools"
+  - "Feedback and Satisfaction Scores"
+  - "Resource Utilization"
+  - "Impact on Service Delivery"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Not explicitly stated in report"
+  business: "Not explicitly stated in report"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Investigate 'Other' Email Preferences"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Optimal Workshop"
+  - "Microsoft Excel"
+  - "VAChatgpt"
+tags:
+  - "AUD: Veteran Service Office (VSO)"
+  - "PRDT: Accredited-Reps"
+  - "survey"
+  - "evaluative"
+  - "communication"
+  - "training"
 ---
 
 
