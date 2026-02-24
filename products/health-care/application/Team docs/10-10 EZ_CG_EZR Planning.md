@@ -28,7 +28,7 @@
 - [ ] [#133885](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133885) - [FE] Display EZR form statuses on MyVA
 
 #### Obj: EZR [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
-- [ ] **SPRINT GOAL** [#130857](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130857) - [FE/QA] Review and align with the latest QA Standards updates
+- [ ] [#130857](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130857) - [FE/QA] Review and align with the latest QA Standards updates
 - [ ] [#119890](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119890) - [FE/QA] Update file upload pattern
 
 ##
@@ -139,13 +139,13 @@
 ### 10-10EZ
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
 - [ ] **SPRINT GOAL** [#105829](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105829) - [Eng] Tech discovery on additional EZ form statuses on MyVA
-- [ ] **SPRINT GOAL** [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [FE] Display submission statuses on MyVA
+- [ ] [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [FE] Display submission statuses on MyVA
 - [ ] **SPRINT GOAL** [#132749](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132749) - [UX] Review Content feedback for Intro page alerts (March 3rd)
 - [ ] **SPRINT GOAL** [#130693](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130693) - [FE] Update Intro page alert for "PendingMT"
 - [ ] **SPRINT GOAL** [#130694](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130694) - [FE] Update Intro page alert for "PendingOther"
 
 #### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
-- [ ] **SPRINT GOAL** [#133089](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133089) - [FE] Update Mexico province code in schema
+- [ ] [#133089](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133089) - [FE] Update Mexico province code in schema
 
 ## 
 ### 10-10CG
