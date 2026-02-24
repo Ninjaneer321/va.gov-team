@@ -1,95 +1,150 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "ARP pilot (POA request management) Research Findings"
+product: "Accredited Representative Portal (ARP)"
+team: "Accredited Representative Facing Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-05-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Jen Seipel"
+  - "Eva Heintzelman"
+  - "Marisa Dominguez"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate the usability of ARP, finding, reviewing, and accepting/declining a POA request"
+  - "Understand accredited representative workflows more fully, especially related to POA"
+  - "Understand high-level organizational procedures of a small NE state VSO, in this case, CT DVA"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Usability testing"
+  - "Concept testing"
+  - "Semi-structured interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 8
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 8
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 8
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Representatives with 'instant submission' of the 21-22 in their current process have limited reason to adopt the new method for POA establishment"
+  - "Compared to the new method of POA establishment, current processes are better suited to establish POA in an in-person setting and with Veterans who do not have VA.gov accounts"
+  - "Concerns that stem from a lack of familiarity with the new ARP method can be overcome with improved marketing materials and onboarding methods"
+  - "Managing POA requests in the portal and the portal design overall received positive feedback. Participants found the design straightforward and clear, and it was easy to complete tasks"
+  - "Participants favored concepts that gave them granular, yet flexible options for searching, sorting, and filtering POA requests. They expect to be able to search the portal using the same information they use in other VA systems"
+  - "Representatives would benefit from notifications of key POA activity in the portal, but have concerns about notifications becoming noise"
+  - "Cross-accredited representatives do not care what organization has POA"
+  - "We should design the ARP Portal with desktop users in mind, because representatives do their work on a laptop, often with one or more external monitors"
+  - "Contacting their regional office (RO) was the most frequently mentioned help channel for resolving issues"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Conduct research with pilot organizations to better understand the feature set of popular tools like VetPro and VetraSpec and determine whether and how our product can provide incremental value beyond these tools"
+  - "Ask our pilot organization, CT DVA, to give us a demo of 21-22 submission using VetraSpec, including the in-person and all electronic methods"
+  - "Consider piloting with a VetPro organization to learn more about this tool. Confirm whether and how VetPro is leveraging Lighthouse APIs"
+  - "Continue with the current strategy of targeting organizations that do not use third-party tools and instead rely on QuickSubmit or SEP for establishing POA"
+  - "Compile intel on what tools organizations use for 21-22 submission"
+  - "Compile a list of resources that representatives can share with Veterans for help with setting up VA.gov accounts"
+  - "When onboarding a new pilot organization, talk to organization leadership (including at least one experienced representative) early to understand their current process and talk through how the new ARP method fits into their workflow"
+  - "Create a new ARP portal 101 document that explains in plain language how the portal works, addresses fraud concerns, and explains the authentication process on VA.gov"
+  - "Have all pilot participants go through the Appoint a Rep flow during an onboarding session"
+  - "Remind participants that they can associate multiple emails with their login.gov accounts and that at least one of them should be their professional email"
+  - "Add a filter above the list of POA requests to narrow to just the logged in individual's requests"
+  - "Add more detail to POA request cards: requested organization name and requested individual rep name"
+  - "Adjust sort options to best work with the new designs"
+  - "Explore the technical feasibility of allowing users to filter POA request list by typing a first name or last name into a search bar"
+  - "Explore if 'Power of Attorney' is the desired terminology when referring to VA Form 21-22"
+  - "Consider adding content that explains the implications of authorizations on the POA details page"
+  - "Add radio button to decline form: Decline, because claimant is outside the organization's territory"
+  - "Add content explaining that submitting a new POA request will replace the existing request, or option to nudge Veteran to update and resubmit"
+  - "Consider replacing the term 'decision' with something more fitting on the submit button and blue progress alert"
+  - "Show declination reason on the page after a request is declined"
+  - "We recommend not implementing the VSO switch, as reps would ideally like more robust filtering options"
+  - "We recommend moving forward with a long-term search and filter design that aligns closely with the granular search/filter concept"
+  - "We recommend that engineering explore the feasibility of searching by fewer required fields for claimant search"
+  - "As the default setting, explore the technical feasibility of limiting notifications to just those that are specific to the individual representative"
+  - "Explore the feasibility of notifying representatives of changes in POA"
+  - "Explore configuration options for notifications: ability to turn on/off overall, ability to select organizations, ability to select geographical area, ability to specify if you want to receive notifications for individual requests or all requests"
+  - "Consider prioritizing a method for POA establishment that can be completed in person by the representative and the Veteran together and that does not require the Veteran to have a VA.gov account"
+  - "Add more robust side filter options to narrow by organization, individual representative, and location"
+  - "Explore feasibility of global design adjustments to the ARP Portal to accommodate desktop users with multiple monitors"
+  - "Explore adjusting size of the viewport (max width) to accommodate design elements like tables and multi-column layouts"
+  - "Explore adjusting the font size (smaller headings and/or smaller font for body text) to achieve greater density of information for expert users"
+  - "If adjustments are feasible, test adjusted designs against the current state with representatives"
+  - "Work internally to determine the most appropriate channel to direct representative technical questions about the ARP Portal"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Method for POA establishment that can be completed in-person without requiring Veteran to have VA.gov account"
+  - "Resources and support for Veterans to set up VA.gov accounts"
+  - "Understanding of third-party tool feature sets (VetPro, VetraSpec) to provide incremental value"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Research with pilot organizations to understand VetPro and VetraSpec capabilities"
+  - "Pilot with a VetPro organization to learn more about this tool"
+  - "Demo of VetraSpec 21-22 submission process from CT DVA"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: Veteran Service Office (VSO)"
+  - "AUD: VA Staff"
+  - "PRDT: Accredited-Reps"
+  - "PRDT: VA-21-22-POA"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "DSP: Notifications"
+  - "DSP: Help users to navigate a long list"
+  - "DSP: Form Templates"
+  - "DSC: Form"
+  - "DSC: Card"
+  - "DSC: Search Input"
+  - "DSC: Button"
+  - "DSC: Alert Boxes"
+  - "usability-testing"
+  - "concept-testing"
+  - "semi-structured-interviews"
+  - "evaluative"
 ---
 
 # Research Report: ARP pilot (POA request management) research
