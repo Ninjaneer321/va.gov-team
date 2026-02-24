@@ -3,13 +3,18 @@ In 2025, we found that our research ticket templates did not accurately reflect 
 
 The revised templates were reviewed by our HCD lead and our Research and Design VA Enablement lead, and then shared with all DBC designers and researchers for additional feedback.
 
-All research tickets have now been standardized and templatized, and they are ready to be used (and reused) across our Kanban boards. To access and use the templates, simply create a new issue.
+All research tickets have now been standardized and templatized, and they are ready to be used (and reused) across our Kanban boards. 
+  
+### :mag: How to find the templates
+All tickets have **`[DBC Research Ticket Template Kit - ##]`** at the start of their name. There are 21 templates in total, spanning the full course of a research initiative. 
+
+To access and use the templates, simply create a new issue.
 
 |<img width="1721" height="916" alt="Screenshot 2026-02-24 at 09 06 39" src="https://github.com/user-attachments/assets/0ce96e55-305d-4074-8414-bc28e03f64ec" />|
 |---|
-  
-### :mag: How to find the templates
-All tickets have **`[DBC Research Ticket Template Kit - ##]`** at the start of their name. There are 21 templates in total, spanning the full course of a research initiative. The master versions of these templates can be found in the [ISSUE_TEMPLATE folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/.github/ISSUE_TEMPLATE) within va.gov's GitHub repo.
+
+The master versions of these templates can be found in the [ISSUE_TEMPLATE folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/.github/ISSUE_TEMPLATE) within va.gov's GitHub repo. \
+<mark>**Do not modify the templates without first consulting a DBC designer or researcher.**</mark>
 
 |<img width="1722" height="901" alt="Screenshot 2026-02-24 at 09 06 17" src="https://github.com/user-attachments/assets/7ab571e6-9e54-47cc-b19b-1d9b31affc43" />|
 |---|  
