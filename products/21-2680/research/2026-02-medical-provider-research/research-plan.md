@@ -51,7 +51,7 @@ expected_outcomes: "This research will clarify how veterans and caregivers exper
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "Perigean will recruit 8-10 veterans and caregivers to understand their experience with healthcare and benefits processes, and to gather feedback on the Form 21-2680 digital experience."
+  approach: "Perigean will recruit 10 - 16 veterans and caregivers to understand their experience with healthcare and benefits processes, and to gather feedback on the Form 21-2680 digital experience."
   
   primary_criteria:
     - "Veteran or caregiver/dependent of a Veteran"
