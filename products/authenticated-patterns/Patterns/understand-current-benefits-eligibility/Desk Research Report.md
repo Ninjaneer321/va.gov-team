@@ -1,95 +1,150 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Service List Pattern Desk Research Report"
+product: "Authenticated Experience Design Patterns"
+team: "Authenticated Experience Design Patterns Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-02-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Christine Steiffer"
+  - "Kristen Faiferlick"
+  - "Lynn Stahl"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Identify relevant research insights related to Service List pattern components across VA.gov products"
+  - "Validate the effectiveness of lists for displaying benefits and tools to Veterans"
+  - "Understand how Veterans interact with status indicators, action items, and list components"
+  - "Identify research gaps and future research needs for the Service List pattern"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Desk research"
+  - "Secondary research analysis"
+  - "GitHub research repository review"
+  - "EnjoyHQ database search"
+  - "Cross-product research synthesis"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans liked seeing lists of relevant information in one place"
+  - "Centralizing data in a list comes with the risk of confusing users with too much information"
+  - "Veterans responded positively to unbordered list items (in contrast to cards with four borders) as they were easier to scan"
+  - "The Service List pattern with a header link, concise information, and clear status helps Veterans manage their benefits efficiently"
+  - "Statuses were helpful for comprehension, but could cause confusion if Veterans did not understand their meaning"
+  - "Status tags that are visually striking (using the tag component) make a difference in whether that status is seen and understood"
+  - "Short, one-word statuses and complex, detailed statuses both appeared in products, with varying levels of Veteran comprehension"
+  - "Veterans were easily able to understand when a list item needed action and how to resolve it"
+  - "Call to action (CTA) links within list items tested well with Veterans and helped them initiate required actions"
+  - "The Critical information component needs clear content guidance to ensure Veterans understand who needs to act, what action is needed, and by when"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Service lists should have only 1 card per benefit to ensure Veterans are not overwhelmed"
+  - "Move away from a bordered card style for list items to improve scannability"
+  - "Provide a header link that allows the Veteran to drill down into more detail on a separate page"
+  - "Include an informative status within a tag component that is visually striking"
+  - "Ensure status content matches Veteran mental models and is easily understood"
+  - "Include clear calls to action when Veterans need to take action on a list item"
+  - "Test wayfinding tools (filter, sorting, toggle, dot/unread notification) with the service list pattern"
+  - "Study the order of items in service lists to ensure they match Veteran expectations and mental models"
+  - "Investigate recommended status content (short vs. long, descriptive statuses) to determine what works best"
+  - "Research the use of colors in status tags and their effectiveness in communicating status meaning"
+  - "Create clear content guidance for the Critical information component that addresses who needs to act, what action is needed, and by when"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Wayfinding tools interaction with service list pattern (filter, sorting, toggle, unread notifications)"
+  - "Optimal ordering of items in service lists to match Veteran mental models"
+  - "Status content clarity and comprehension (short vs. detailed statuses)"
+  - "Color usage in status tags for meaning communication"
+  - "Content guidance for Critical information component"
+  - "Research needed for Icon, Links, and Tag components (no studies currently tagged)"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Wayfinding tools used in lists (such as filter, sorting, toggle, and the dot/unread notification components) need further exploration with how they interact with the service list pattern"
+  - "The order of the items in the service list pattern should be studied to ensure they match Veteran expectations and mental models"
+  - "The recommended status content should be investigated to ensure it matches Veteran mental models (short, succinct statuses vs. longer, descriptive statuses)"
+  - "Additional insight is needed around the use of colors in status tags and their effectiveness in communicating the status meaning"
+  - "The team who creates the new Critical information component should ensure that the content of the component addresses who needs to act, what action is needed, and by when the action is required"
+  - "Research needed for DSC: Icon component (no linked studies in repository)"
+  - "Research needed for DSC: Links component (no linked studies in repository)"
+  - "Research needed for DSC: Tag component (no linked studies in repository)"
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "GitHub research repository review (va.gov-research-repository)"
+  - "EnjoyHQ database search"
+  - "Previous research studies from My HealtheVet team"
+  - "Previous research studies from Appointments/VAOS team"
+  - "Previous research studies from Benefits Tools team"
+  - "Previous research studies from Claims Status Tool team"
+  - "Previous research studies from VA Mobile App team"
+  - "Previous research studies from Decision Reviews team"
+  - "Studies tagged with DSC: Card (16 linked studies)"
+  - "Studies tagged with DSC: Label (3 linked studies)"
+  - "Studies tagged with DSC: Link - Action (13 linked studies)"
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "DSC: Card"
+  - "DSC: Label"
+  - "DSC: Link - Action"
+  - "DSC: Links"
+  - "DSC: Tag"
+  - "DSC: Icon"
+  - "DSP: Content Presentation"
+  - "DSP: Help users to navigate a long list"
+  - "PRDT: Claim-status-tool"
+  - "PRDT: VA-mobile-app"
+  - "MHV: Appointments"
+  - "MHV: MyHealth (Health Hub)"
+  - "MHV: Pharmacy"
+  - "desk-research"
+  - "secondary-research"
+  - "Authenticated-Experience"
+  - "Design-Patterns"
+  - "discovery"
 ---
 
 # Desk Research Report 
