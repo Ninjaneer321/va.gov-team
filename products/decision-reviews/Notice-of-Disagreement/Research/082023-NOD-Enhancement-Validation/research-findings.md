@@ -1,103 +1,117 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Request a Board Appeal Enhancement Validation Research Findings"
+product: "Decision Reviews - Notice of Disagreement"
+team: "Benefits Decision Reviews"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-10-01"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Ruben Sun"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Gather feedback surrounding the relevance, usability and comparative user value of proposed enhancements"
+  - "Validate the readiness of enhancements for development and release"
+  - "Assess how well Veterans are able to orient and comprehend what's presented in revised instructional pages"
+  - "Evaluate how well content supports Veterans in validating their chosen decision pathway"
+  - "Determine the value of access to decision letters and contention details in facilitating issue selection and entry"
+  - "Assess Veterans' ability to locate where to enter additional context and explanation for disagreement"
+  - "Evaluate Veterans' comprehension and use of enhanced form navigation controls"
+  - "Determine the value of task list and enhanced submission review pages"
+  - "Compare user value and desirability of various proposed enhancements"
 methodology:
-- Method 1
-- Method 2
+  - "Moderated interviews"
+  - "Concept evaluation"
+  - "Prototype testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 13
+  tablet: 1
+  smartphone: 3
+  assistive_technology: 0
+participants_total: 15
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 15
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 3
+    "35-44": 2
+    "45-54": 3
+    "55-64": 4
+    "65+": 2
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 6
+    associates: 3
+    bachelors: 2
+    masters: 2
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 15
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 3
+    black: 5
+    hispanic: 4
+    biracial: 2
+    asian: 2
+    native: 2
+    prefer_not_to_answer: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 1
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Veterans seem to sort cleanly into two groups — learners and doers. For some, more information is more. For others, the opposite is true."
+  - "Veteran comprehension of decision reviews and appeals vary. Many do not know what is most relevant for their claim."
+  - "Veterans are unconfident in what they can submit to support their claim."
+  - "Veterans demonstrated confusion between reason for disagreement, additional information and additional evidence (where relevant)."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Consider revisiting the task flow of the appeals process to allow for greater logical separation across steps the flow (particularly around reasons for disagreement, additional information, and additional evidence)."
+  - "Consider exploring ways to dynamically address appeal requirements around eligibility, deadlines, and extension requests based on information in the Veteran claim file."
+  - "Consider developing a universal entry point for filing decision reviews / appeals"
+  - "Consider cultivating a more robust set of information disclosure patterns to enable learning in place"
+  - "Consider simplifying information pathways between learning about appeals and decision reviews and submitting them."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not explicitly specified in findings report"
+  business: "Not explicitly specified in findings report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Further research may be needed for a separate accessibility study with this form"
+  - "Further research may be needed for with Veterans who are homeless"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Immigrant origin"
+  - "Other than honorable"
+  - "Gay, lesbian, or bisexual"
+  - "Transgender"
+  - "Nonbinary, gender fluid"
+  - "Rural"
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: Decision-reviews'
-- 'MHV: Personal Health Records/Medical Records'
-- moderated-research
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "DSP: Form Templates"
+  - "DSP: Help users to check answers"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "PRDT: Decision-reviews"
+  - "evaluative"
+  - "moderated-research"
+  - "usability-testing"
 ---
+
 # Request a Board Appeal Enhancement Validation
 
 **Office of the CTO - Digital Experience (OCTO-DE), Decision Reviews, Benefits Decision Reviews**
