@@ -1,99 +1,137 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Claim Status Tool Research Findings - Frog, EVSS & User Interviews"
+product: "Claim Status Tool"
+team: "Not specified"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "Not specified"
+researchers: 
+  - "Not specified"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand what veterans want to know about their claim status"
+  - "Identify pain points and confusion in the current eBenefits claim status experience"
+  - "Determine opportunities for improvement in claim status tracking"
 methodology:
-- Method 1
-- Method 2
+  - "Stakeholder interviews"
+  - "SME interviews"
+  - "Veteran user interviews"
+  - "Analysis of eBenefits user feedback"
+  - "Review of EVSS release history and previous research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-34": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Veterans want to know three primary things: what's happening now, how long it will take, and what happens next"
+  - "Veterans are comfortable with average or estimated times, and much prefer that to nothing at all"
+  - "Timeline for decision is not explained - Veterans don't know why the estimated rating date is set as it is; they get anxious when the date changes without explanation"
+  - "Back and forth status is confusing - Veterans do not know where they are in the claims process or why a claim may appear to move backwards in eBenefits"
+  - "Decision letter is difficult to understand - written in VA jargon and don't explain in straightforward language why some issues are determined service-connected and others are not"
+  - "Post-decision options are unclear - when Veterans receive a claim decision they don't agree with, they are unsure what next steps they can take"
+  - "Status is not descriptive - Veterans want meaningful descriptions and more specific details about what is happening at each stage"
+  - "Veterans have to ask staff for more detail - Veterans check the status of their claims frequently and through multiple channels, often still call VA or VSO staff or visit in person"
+  - "Veterans don't know what VA is doing - Veterans don't understand what VSRs are looking for during claims development or additional evidence gathering"
+  - "Veterans don't know what to do next - Veterans wonder if they need to take follow-up action to move their claim forward"
+  - "Staff are concerned about 'right' level of eBenefits status detail - some staff are concerned that displaying detailed claims status information would be too much and increase phone call inquiries"
+  - "Staff rely on VBMS for more detail - additional status detail is available in VBMS to VSOs and VA Staff"
+  - "Status doesn't change - hasn't changed in 4 months, 15 months, 2 years; just says pending or in progress forever"
+  - "Lack of information - a lot of information but not a lot of value, can't find the real status of claim; no idea how long the claim process is expected to take"
+  - "Conflicting information - new information takes 2 weeks to show up in eBenefits; conflicting information from screen to screen"
+  - "Dead end - says complete since September but no payment"
+  - "Making things predictable was more important than immediately fixing the problem"
+  - "The most used features in eBenefits are Claim Status and Uploading Documents"
+  - "Many will call the contact center even if they've looked at eBenefits - don't trust the information"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Provide contextually relevant communications based on the claim type, conditions claimed, etc."
+  - "Veterans understand what VA is doing and any actions that can be taken to move their individual application forward more swiftly (expectations set for claim processing)"
+  - "Veterans receive personalized context for claims status about VA or Vet actions either from system or staff-generated content (individual status details & actions)"
+  - "Veterans understand status, actions, and decisions from 'layman's terms' descriptions rather than trying to decipher 'VA-Speak' (understand claims terminology)"
+  - "Veterans understand post-decision options and view Appeals status at the same level of detail as claims processing status (transparent post-decision process)"
+  - "Make the process transparent at a pretty small level - Veterans would be fine if they could see their file moving"
+  - "Provide accurate and useful information"
+  - "Help Veterans know if there is opportunity to help their case - what they need to do, what they need to NOT do"
+  - "Clarify what VA is doing during each stage (Know VA's actions)"
+  - "Clarify what actions Veterans need to take to move their claim forward (Know own actions to take)"
+  - "Provide clear timeline estimates with explanation of factors involved (Understand timeline estimate)"
+  - "Explain why Veterans received a particular rating with breakdown for each issue (Understand decision reasoning)"
+  - "Clarify post-decision options to reopen or appeal a decision (Understand post-decision options)"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Provide meaningful status descriptions with specific details about what is happening at each stage"
+  - "Explain timeline estimates and why dates change"
+  - "Clarify when and why claims appear to move backwards in the process"
+  - "Improve decision letter clarity and explain ratings in plain language"
+  - "Make post-decision options clear and actionable"
+  - "Reduce need for Veterans to contact VA staff for status updates"
+  - "Help Veterans understand what VA is looking for during evidence gathering"
+  - "Clarify what actions Veterans need to take versus what VA is doing"
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Stakeholder interviews"
+  - "SME interviews"
+  - "eBenefits user feedback analysis"
+  - "EVSS release history review"
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Healthcare'
-- 'PRDT: Claim-status-tool'
+  - "AUD: Veterans"
+  - "AUD: VA Staff"
+  - "AUD: Veteran Service Office (VSO)"
+  - "BNFT: Disability"
+  - "PRDT: Claim-status-tool"
+  - "PRDT: eBenefits"
+  - "discovery"
+  - "evaluative"
+  - "semi-structured-interviews"
 ---
+
 # Summary from Frog, EVSS & User Interviews
 
 ## Frog Research & Analysis
