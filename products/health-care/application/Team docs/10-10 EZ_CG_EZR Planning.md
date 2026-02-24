@@ -53,19 +53,26 @@
 #### List of Planned work
 - EZR Service History
      - [ ] QA
+     - [ ] Prep release plan
+     - [ ] Update & submit product guide
+     - [ ] Submit for metrics updates
 - EZR Form status
      - [ ] MyVA discovery and begin development
 - EZR ECNOK on Profile
      - [ ] TBD
+- [ ] CG Update file upload pattern
 - [ ] EZ QA Standards alignment
 
 ## 
 ### 10-10EZR
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
-- [ ] #121748 - [QA] Functional QA
-- [ ] #121749 - [QA] Formatting QA
-- [ ] #121750 - [QA] Accessibility QA
+- [ ] [#121748](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121748) - [QA] Functional QA
+- [ ] [#121749](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121749) - [QA] Formatting QA
+- [ ] [#121750](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121750) - [QA] Accessibility QA
+- [ ] [#121775](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121775) - [PM] Update and submit Product Guide for review
+- [ ] [#121778](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121778) - [PM] Update DOMO URL funnels and add GA metrics
+- [ ] [#121766](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121766) - [PM] Prep release plan
 
 #### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
 - [ ] [#118642](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118642) - [Eng] Tech discovery on EZR form statuses on MyVA
@@ -86,7 +93,8 @@
 
 ## 
 ### 10-10CG
-- There are no tickets scheduled
+#### Obj: CG [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40165)
+- [ ] [#119892](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119892) - [FE] Update file upload pattern
 
 ##
 ### Team PTO
@@ -102,8 +110,8 @@
 
 #### List of Planned work
 - EZR Service History
-     - [ ] Update file upload page logic & content
-     - [ ] Add error state to Yes/No page
+     - [ ] Testing of API in RI
+     - [ ] Review and Update file upload page logic & content
      - [ ] Update Frontend Schema
 - EZ Form status
      - [ ] Tech discovery on additional form statuses on MyVA
@@ -116,6 +124,8 @@
 ### 10-10EZR
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
+- [ ] **SPRINT GOAL** [#134211](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134211) - [BE] API testing in RI
+- [ ] **SPRINT GOAL** [#132636](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132636) - [FE] Review Content feedback on File Upload page
 - [ ] **SPRINT GOAL** [#114031](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114031) - [FE] Update content on File Upload page
 - [ ] **SPRINT GOAL** [#125472](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125472) - [FE] Update schema
 
