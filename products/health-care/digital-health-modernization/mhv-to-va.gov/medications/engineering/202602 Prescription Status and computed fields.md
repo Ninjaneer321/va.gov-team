@@ -1,5 +1,19 @@
 # Prescription Status & Computed Fields: Input → Output Use Cases
 
+## Table of Contents
+
+- [Purpose](#purpose)
+- [Architecture](#architecture)
+- [Controller-Level Status Constants](#controller-level-status-constants)
+- [VistA Use Cases (All Pass-Through)](#vista-use-cases-all-pass-through)
+- [Oracle Health Use Cases (All Computed from FHIR R4)](#oracle-health-use-cases-all-computed-from-fhir-r4)
+- [Use Cases OH Cannot Produce (VistA-only)](#use-cases-oh-cannot-produce-vista-only)
+- [Refill Remaining: OH Computation Detail](#refill-remaining-oh-computation-detail)
+- [OH Gate Check Reference](#oh-gate-check-reference)
+- [Consolidated Open Questions (Backend)](#consolidated-open-questions)
+- [Frontend (vets-website) Status Handling](#frontend-vets-website-status-handling)
+- [Consolidated Frontend Open Questions](#consolidated-frontend-open-questions)
+
 ## Date
 Feb 24, 2026
 
