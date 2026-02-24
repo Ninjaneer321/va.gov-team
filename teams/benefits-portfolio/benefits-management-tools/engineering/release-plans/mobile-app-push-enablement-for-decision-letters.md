@@ -92,8 +92,8 @@ We will be performing a progressive rollout to be able to minimize the productio
 #### Results
 
 - Number of users: 894 push notifications sent
-    - Turned on 2/12 2:34p PT - 3:00p PT
-    - Turned on 2/13 8:25a PT - 2/18 8:51a PT
+    - Turned on 2/12 2:34p - 3:00p PT
+    - Turned on 2/13 8:25a - 2/18 8:51a PT 
 - Metrics at this stage (per your "success criteria"):
     - [x] DataDog errors < 5% (3.97% observed)
     - [x] 5.90% click through rate 
@@ -143,7 +143,7 @@ We will be performing a progressive rollout to be able to minimize the productio
             - Push job: 44 error logs (503s mentioned above)
         - vets-api:
             - Expected number of MPI profile not found (957 errors)
-            - 61 other errors (MPI Service errors, missing ssn field )
+            - 61 other errors (MPI Service errors, missing ssn field)
     - 23140 notifications requested
 - What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? None
 
@@ -153,20 +153,28 @@ We will be performing a progressive rollout to be able to minimize the productio
 
 #### Planning
 
-- Length of time: 8 hours (one day)
 - Percentage of Users (and roughly how many users do you expect this to be): 25% of ICNs
 
 #### Results
 
-- Ran on ____ from 8am - 4pm ET and again from ___
-- Number of unique users: ___
+- Turned on 2/19 9:30a - 2/23 3:00p PT
+- Number of users: 13,5700 push notifications
 - Metrics at this stage (per your "success criteria"):
-    - [ ] DataDog errors < 5%
-    - [ ] xx.x% click through rate overall
-    - [ ] No increase in email sending errors
-- Was any downstream service affected by the change?: ___
-- Types of errors logged: ___
-- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? ___
+    - [x] DataDog errors < 5% (4.6% observed)
+    - [x] 12.6% click through rate overall (estimated x clicks, 9840 sent)
+    - [x] No increase in email sending errors
+        - Initial email error percentage rate: 7.83%
+    - [x] Push notification error rate < 5% (0% observed)
+- Was any downstream service affected by the change?: _NO_
+- Types of errors logged: 
+    - Error counts:
+        - EventBus:
+            - Email job: 1 error logs
+            - Push job: 1 error logs
+        - vets-api:
+            - Expected number of MPI profile not found (2116 errors)
+            - 49 other errors (503s, MPI Service Errors, missing ssn)
+- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? None
 
 ### Stage D: 50% of users
 
@@ -174,11 +182,11 @@ We will be performing a progressive rollout to be able to minimize the productio
 
 #### Planning
 
-- Length of time: 8 hours (one day)
 - Percentage of Users (and roughly how many users do you expect this to be): 50%
 
 #### Results
 
+- Turned on 2/23 3:00p PT - 
 - Number of unique users: ___
 - Metrics at this stage (per your "success criteria"):
     - [ ] DataDog errors < 5%
