@@ -337,18 +337,23 @@ This approach allows us to reach a diverse group of veterans and caregivers acro
 - Veteran or caregiver/dependent of a Veteran
 
 **Secondary criteria (nice-to-haves):**
-- Receives a pension or has a service-related disability
+- Receives a pension (3 - 5 participants)
+- Has a service-related disability (5 - 8 participants)
+- Currently receives SMP, SMC, or other benefit for aid and attendance / housebound allowance (4- 8)
+- Thinks they are eligible for aid and attendance / housebound allowance (2 - 3)
+- Has a VHA medical provider (2-3)
+- Has a private medical provider (2-3)
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
 > [!NOTE]
 > Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 8 ideal completed sessions, request 10-12 total participants)*
 
-- `Veterans:` **5**
-- `Caregivers:` **2**
-- `Dependents:` **3**
-- `Total:` **10**
-- `Ideal completed sessions:` **8**
+- `Veterans:` **5 - 8**
+- `Caregivers:` **2 - 3**
+- `Dependents:` **3 - 5**
+- `Total:` **10 - 16**
+- `Ideal completed sessions:` **10**
 
 ## Screener Questions 📋
 
@@ -364,27 +369,36 @@ This approach allows us to reach a diverse group of veterans and caregivers acro
 ### Your Study's Screener Questions
 
 **`1.` Are you a Veteran, or the caregiver or dependent of a Veteran?**
-- Yes I am a Veteran (recruit 5)
-- Yes I am the caregiver of a Veteran (recruit 2)
-- Yes I am the dependent (spouse, child, parent) of a Veteran (recruit 3)
+- Yes I am a Veteran (recruit 5-8)
+- Yes I am the caregiver of a Veteran (recruit 2-3)
+- Yes I am the dependent (spouse, child, parent) of a Veteran (recruit3- 5)
 - No, I am none of the above (exclude)
 
-**`2.` Do you or the Veteran you care for receive a VA pension? OR do you have a service-related disability?**
-- Yes (recruit 5)
+**`2.` Do you (or the Veteran you care for) receive a VA pension?**
+- Yes (recruit 3-5)
+- No, but I think I am eligible to receive a VA pension (recruit 1)
 - No
 
-**`3.` Do you or the Veteran you care for have a service-related disability? Do you currently receive any form of disability benefits?**
-- Yes I have a service-related disability and receive disability benefits (recruit 5)
+**`3.` Do you (or the Veteran you care for) have a service-related disability? Do you currently receive any form of disability benefits?**
+- Yes I have a service-related disability and receive disability benefits (recruit 5 - 8)
 - Yes I have a service-related disability but do not currently receive disability benefits (exclude)
-- No (exclude)
+- No 
 
-**`4.` Does your doctor or medical provider work at a VHA facility or through a private practice?**
+**`4.` Does your (or the Veteran you care for) doctor or medical provider work at a VHA facility or through a private practice?**
 - My medical provider works at a VHA facility (recruit 3 - 5)
 - My medical provider works at a private practice (recruit 3 - 5)
 - I do not know where my medical provider works (recruit 2 - 3)
 - I do not currently have a medical provider (recruit 2 - 3)
 
-**`5.` Are you comfortable participating in a 60-minute remote interview about your experience with healthcare and benefits?**
+**`5.` Do you (or the Veteran you care for) currently receive a VA benefit for Aid and Attendance or Housebound Allowance? Sometimes referred to as Special Monthly Pension (SMP) or Special Monthly Compensation (SMC).**
+- Yes, I currently receive SMC (recruit 1-2)
+- Yes, I currently receive SMP (recruit 1-2)
+- Yes, I currently receive a different benefit for Aid and Attendance or Housebound Allowance (recruit 1 - 2)
+- I am not sure (recruit 1-2)
+- No, but I think I am eligible to receive SMC, SMP or another benefit for Aid and Attendance or Housebound Allowance (recruit 2 - 3)
+- No, and I do not think I am eligible for this benefit (exclude)
+
+**`6.` Are you comfortable participating in a 60-minute remote interview about your experience with healthcare and benefits?**
 - Yes
 
 ## Timeline 🗓️
