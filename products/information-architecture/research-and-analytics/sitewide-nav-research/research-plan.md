@@ -1,109 +1,124 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for OCTO IA, Sitewide IA and Navigation, 2026-03"
+date: 2026-02-24
+last_updated: 2026-02-24
+team: "OCTO IA"
+product: "Sitewide IA and Navigation (Primary & Secondary navigation)"
+product_area: "unauthenticated"
 
 # Background Context
-background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+background:  
+  problem_statement: "As VA.gov expands in features and benefits-related content, visitors need to be able to navigate the site efficiently to find the right information and tools; this research evaluates the effectiveness of the current navigation labels and organization for key tasks and whether proposed top-level changes improve findability."
+  product_location: "VA.gov sitewide primary navigation (available across the entire site) and secondary navigation within the benefit hub experience."
+  user_familiarity: "Iteration on an existing navigation experience (evaluating existing navigation; considering updates such as adding 'My VA' and 'My HealtheVet' to top-level navigation)."
+  product_brief_url: "Not specified"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "tree test (unmoderated)"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  moderated: false # Options: true, false
   
 # Research Goals & Questions
-research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+research_goals: 
+  - goal_1: "Assess whether users can find key information related to top tasks on the site easily and with confidence."
+  - goal_2: "Determine if the labels used in navigation meet the mental model of our users."
+  - goal_3: "Determine if adding 'My VA' and 'My HealtheVet' to the top level of navigation impacts findability of tools related to managing benefits."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can users easily find information related to applying for key benefits?"
+  - "Can users easily find key tools that help them manage benefits they are already receiving?"
+  - "Is there a difference in findability between tools that align with a single benefit versus those that support multiple benefits?"
+  - "Where do users look for information related to benefits for a Veteran family member or caregiver?"
+  - "Is the Service member benefits hub a common destination for key tasks related to Veteran benefits?"
+  - "Are Veterans able to determine which hub contains information related to the VR&E program?"
+  - "Is 'My VA' a common pathway to tools related to managing benefits?"
+  - "Is 'My HealtheVet' a common pathway to tools related to managing health care?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will be able to easily find key information related to learning about and applying for key Veteran benefits within their respective benefit hubs."
+  - "Users will look to the family member and caregiver benefit hub to find key information related to benefits for family members."
+  - "Users will not commonly look to the Service member benefits hub as a destination for key Veteran benefit information and tools."
+  - "Users will most commonly look in 'My VA' and 'My HealtheVet' as ways to get to tools to manage their benefits."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform and help prioritize changes to navigation/menu labels, groupings, and/or broader site organization to improve findability of key tasks, benefits information, and benefit-management tools."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Not specified"
   
-  primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+  primary_criteria: 
+    - "All participants are Veterans."
+    - "All Veterans are fully separated from service."
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+  secondary_criteria: []
     
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+  screener_questions: []
       
 participants:
-  veterans: 0
+  veterans: 385
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 385
+  completed_sessions_goal: 385
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "Internal colleagues (names not specified)"
+  research_dates: "2026-03-09 to 2026-03-20"
+  research_review_submission: "TBD"
   
-session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+session_details: 
+  duration_minutes: "Not specified (unmoderated tree test; 'Length of sessions: N/A')"
+  buffer_minutes: "Not specified"
+  max_sessions_per_day: "Not specified"
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 3: Relentlessly improve the user experience."
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Key Result 3.1: Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more."
+      - "Key Result 3.2: 100% of end-user facing C100 systems maintain a ranked list of user pain points."
+      - "Key Result 3.3: 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system."
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Serving"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Reinventing Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+  - "Dying"
     
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
+  previous_studies: []
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Family Member"
+  - "AUD: Caregivers"
+  - "AUD: Service Members"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Employment"
+  - "BNFT: Healthcare"
+  - "BNFT: Housing"
+  - "BNFT: Records"
+  - "PRDT: Benefit Hubs"
+  - "PRDT: Information Architecture (IA)"
+  - "Internal Research:  Platform Research"
+  - "tree-test"
+  - "unmoderated"
+  - "information-architecture"
+  - "sitewide-navigation"
+  - "findability"
+  - "labeling"
 ---
 
 > [!TIP]
