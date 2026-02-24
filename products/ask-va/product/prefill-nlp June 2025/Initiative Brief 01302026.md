@@ -68,8 +68,8 @@ It also includes these OKRs:
 	
 |Key result|Ask VA Baseline|After X months|
 |:---|:---|:---|
-|Satisfaction|Jan 26, 2025: 31%|x|
-|Form completion rate Average|May 25, 2024 to Jan 26, 2025: 26% |x|
+|Satisfaction|Jan 2026: 31%|x|
+|Form completion rate Average|May 2025 to Jan 2026: 26% |x|
 |Time to submit form|x|x|
 
 ## Release 
