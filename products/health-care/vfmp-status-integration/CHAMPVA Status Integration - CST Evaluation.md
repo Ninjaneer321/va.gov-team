@@ -175,7 +175,7 @@ MyVA shows early states. CST shows processing states. They align conceptually bu
 
 Status data originates from external systems, including:
 
-- DOCMP
+- PEGA/DOCMP
 - VES
 - Health Apps
 
@@ -305,6 +305,20 @@ Removed risks:
 # 12. Final Conclusion
 
 CHAMPVA applications can integrate into CST without structural frontend changes.
+
+We may have:
+- Minor CSS adjustments
+- Small Storybook updates for new status examples
+- New or updated Redux thunk to fetch CHAMPVA data
+- Slight mapping logic adjustments in helpers
+
+But no:
+- New layout architecture
+- New stepper component
+- New decision rendering system
+- Major state model rewrite
+
+So it’s data alignment and plumbing work, not structural UI redesign.
 
 Primary alignment tasks:
 
