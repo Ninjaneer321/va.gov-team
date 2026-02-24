@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Veteran & Caregiver Research Plan for 21-2680 Provider Experience"
 date: 2026-02-19
-last_updated: 2026-02-20
+last_updated: 2026-02-24
 team: "Aquia BIO"
 product: "Form 21-2680 Provider Experience"
 product_area: "authenticated"
@@ -42,9 +42,9 @@ research_questions:
   - "Do they understand their options for handoff?"
 
 hypotheses:
-  - "Veterans, dependents, and caregivers may experience confusion or delay in the provider handoff process."
+  - "Veterans, dependents, and caregivers often experience confusion or delay in the provider handoff process."
   - "Asynchronous workflows (completing the form outside an appointment) may be more common, contrary to assumptions about synchronous provider involvement."
-  - "Additional or clearer support resources would increase success and satisfaction for veterans/caregivers completing the process."
+  - "Additional or clearer support resources would increase success and satisfaction for veterans, dependents, and caregivers completing the process."
 
 expected_outcomes: "This research will clarify how veterans, dependents, and caregivers experience the digital claimant portion of Form 21-2680, identify barriers and facilitators in the provider handoff process, and inform design improvements to reduce friction and increase successful claim submissions."
 
@@ -57,21 +57,31 @@ recruitment:
     - "Veteran, dependent of a Veteran (spouse, child, or parent) or caregiver of a Veteran"
     
   secondary_criteria:
-    - "Receives a pension or has a service-related disability"
+    - "Receives a pension (3 - 5 participants)"
+    - "Has a service-related disability (5 - 8 participants)"
+    - "Currently receives SMP, SMC, or other benefit for aid and attendance / housebound allowance (4 - 8)"
+    - "Thinks they are eligible for aid and attendance / housebound allowance (2 - 3)"
+    - "Has a VHA medical provider (2 - 3)"
+    - "Has a private medical provider (2 - 3)"
     
   screener_questions:
     - question: "Are you a Veteran, or the caregiver or dependent of a Veteran?"
+      qualifying_response: "Yes (Veteran, caregiver, or dependent)"
+    - question: "Do you (or the Veteran you care for) receive a VA pension?"
       qualifying_response: "Yes"
-    - question: "Do you receive a VA pension or have a service-related disability?"
-      qualifying_response: "Yes"
-    - question: "Are you comfortable participating in a 60-minute remote interview about your experience with healthcare and benefits?"
-      qualifying_response: "Yes"
+    - question: "Do you (or the Veteran you care for) have a service-related disability? Do you currently receive any form of disability benefits?"
+      qualifying_response: "Yes, I have a service-related disability and receive disability benefits"
+    - question: "Does your (or the Veteran you care for) doctor or medical provider work at a VHA facility or through a private practice?"
+      qualifying_response: "VHA facility or private practice"
+    - question: "Do you (or the Veteran you care for) currently receive a VA benefit for Aid and Attendance or Housebound Allowance? Sometimes referred to as Special Monthly Pension (SMP) or Special Monthly Compensation (SMC)."
+      qualifying_response: "Yes (SMC, SMP, or other Aid and Attendance benefit) or eligible"
       
 participants:
-  veterans: 5
-  caregivers: 3
-  total_recruited: 8-10
-  completed_sessions_goal: 8
+  veterans: 5-8
+  caregivers: 2-3
+  dependents: 3-5
+  total_recruited: 10-16
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
@@ -109,6 +119,7 @@ tags:
   - "benefits-claims"
   - "veteran-experience"
   - "caregiver-experience"
+  - "dependent-experience"
   - "form-21-2680"
   - "aid-and-attendance"
   - "semi-structured-interviews"
