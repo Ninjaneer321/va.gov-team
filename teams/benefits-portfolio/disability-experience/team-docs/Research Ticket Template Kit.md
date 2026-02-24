@@ -3,7 +3,7 @@ In 2025, we found that our research ticket templates did not accurately reflect 
 
 The revised templates were reviewed by our HCD lead and our Research and Design VA Enablement lead, and then shared with all DBC designers and researchers for additional feedback.
 
-All research tickets have now been standardized and templatized, and they are ready to be used (and reused) across our Kanban boards.
+All research tickets have now been standardized and templatized, and they are ready to be used (and reused) across our Kanban boards. To access and use the templates, simply create a new issue.
 
 |<img width="1721" height="916" alt="Screenshot 2026-02-24 at 09 06 39" src="https://github.com/user-attachments/assets/0ce96e55-305d-4074-8414-bc28e03f64ec" />|
 |---|
