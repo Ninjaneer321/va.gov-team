@@ -8,93 +8,119 @@ researchers:
   - "Carly Yamrus"
   - "Brian Campbell"
 research_goals:
-- 1. Evaluate the usability and accessibility of the Time of Need Lite digital form for scheduling a burial.
-
-- 2. Identify pain points and barriers that Veterans' family members, personal representatives, and funeral home staff experience when using the form.
-
-- 3. Gauge user satisfaction with the digital experience compared to the current phone-based process.
-
+  - "Evaluate the usability and accessibility of the Time of Need Lite digital form for scheduling a burial"
+  - "Identify pain points and barriers that Veterans' family members, personal representatives, and funeral home staff experience when using the form"
+  - "Gauge user satisfaction with the digital experience compared to the current phone-based process"
 methodology:
-  - Moderated usability testing via Microsoft Teams. Participants will be asked to schedule a burial for a Veteran, spouse, or dependent child using the Time of Need Lite prototype. This method is appropriate as it allows observation of user interactions, collection of real-time feedback, and facilitates accessibility accommodations.
-  
+  - "Moderated usability testing"
+  - "Remote sessions via Microsoft Teams"
 devices_used:
-    desktop: X
-    tablet: 
-    smartphone: X
-    assistive_technology: X
+    desktop: 11
+    tablet: 0
+    smartphone: 3
+    assistive_technology: 0
 participants_total: 14
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: 
-  dependents: 
-  VA_staff: X
+  veterans: 14
+  service_members: 0
+  caregivers: 4
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": 
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 4
+    "55-64": 3
+    "65+": 5
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 3
+    associates: 2
+    bachelors: 3
+    masters: 5
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 11
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 2
+    hispanic: 2
+    biracial: 5
+    asian: 2
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Users had difficulty interpreting the terminology used in the question, 'What is your relationship to the Veteran (deceased)?'"
+  - "Some users were familiar with the concept of the pre-need decision letter but didn't recognize terminology. Others were unaware of what the letter was and have never done it before"
+  - "Most users understood the definition of personal representative, but few understood its relation to their specific scenario"
+  - "Users were wanting better context and more functionality when selecting a preferred cemetery. Some users were unsure of all the options and resources available to them"
+  - "Users expressed confusion regarding burial terminology, notably 'cremains green', 'intact green', and 'cremains'"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Review and clarify the 'Relationship to Deceased' question. Offer more specific options or enable multiple selections to accommodate diverse relationships"
+  - "Optimize the placement of the personal representative question. Assess where this question best fits within the user flow for clarity and effectiveness"
+  - "Enhance supporting text for the pre-need decision letter. Collaborate to add clear descriptions explaining the letter's role and relevance to the Time of Need burial scheduling process"
+  - "Streamline cemetery selection guidance. Work together on solutions to better assist users when their preferred cemetery is unavailable"
+  - "Clarify terminology and context for cemetery options. Add explanations about each choice, including any cemetery-specific restrictions"
+  - "Evaluate the relevance of the emblem of belief screen. Consider whether to keep this screen if there are no additional questions on headstones or markers"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Percentage of ToN Requests Submitted via Self-Service (target: increase from 50% to over 70%)"
+  - "Reduction in Call Center Volume for ToN Submissions (target: 40% decrease)"
+  - "User Satisfaction Rating (target: 4+ out of 5)"
+  - "Successful Form Submission Rate (target: 95%)"
+  - "Average Submission Time (target: under 15 minutes)"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Organizations can submit requests more effectively and efficiently, providing better service to their clients in a difficult time. Family members and personal representatives can easily request a burial through VA.gov – streamlining the process. Users can easily schedule a burial via computer or mobile phone, instead of calling in"
+  business: "The NCSO can provide the best possible experience for Veteran's family members and representatives in a difficult time. Increased efficiency and accuracy with data input and processing. In compliance with the Paperwork Reduction Act (PRA). Free up more time for NCSO agents by reducing need for manual entry of information. Build on VA.gov's efforts to enhance digitization and convenience"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Research with users of assistive technology to ensure form accessibility"
+  - "Research with minority or intersectional demographic groups to ensure the form meets diverse user needs"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Cognitive Disability"
+  - "Other than Honorable"
+  - "Immigrant Origin"
+  - "Expat"
+  - "Native Hawaiian or Pacific Islander"
+  - "First Nations (Canada)"
+  - "LGBTQ+"
+  - "Transgender"
+  - "Non-Binary"
+  - "Assistive Tech users"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
-
+  - "FigJam"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family Member"
+  - "AUD: Surviving Family"
+  - "BNFT: Memorialization"
+  - "DSC: Form"
+  - "DSC: Form - Select"
+  - "DSC: Form - File Input"
+  - "DSP: Ask users for a single response"
+  - "DSP: Form Templates"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "PRDT: Burials-memorials"
+  - "usability-testing"
+  - "evaluative"
+  - "Accessibility"
 ---
 
 # Time of Need Lite Research Findings 
