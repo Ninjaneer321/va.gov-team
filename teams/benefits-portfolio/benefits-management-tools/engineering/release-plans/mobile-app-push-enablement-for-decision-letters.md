@@ -93,7 +93,7 @@ We will be performing a progressive rollout to be able to minimize the productio
 
 - Number of users: 894 push notifications sent
     - Turned on 2/12 2:34p PT - 3:00p PT
-    - Turned on 2/13 8:25a
+    - Turned on 2/13 8:25a PT - 2/18 8:51a PT
 - Metrics at this stage (per your "success criteria"):
     - [x] DataDog errors < 5% (3.97% observed)
     - [x] 5.90% click through rate 
@@ -126,15 +126,26 @@ We will be performing a progressive rollout to be able to minimize the productio
 
 #### Results
 
-- Turned on 2/18 8:51a PT
-- Number of users: ___
+- Turned on 2/18 8:51a - 2/19 9:31a PT
+- Number of users: 2270 push notifications
 - Metrics at this stage (per your "success criteria"):
-    - [ ] DataDog errors < 5%
-    - [ ] xx.x% click through rate overall
-    - [ ] No increase in email sending errors
-- Was any downstream service affected by the change?: ___
-- Types of errors logged: ___
-- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? ___
+    - [x] DataDog errors < 5% (4.4% observed)
+    - [x] 7.56% click through rate overall (estimated 164 clicks, 2168 sent)
+    - [x] No increase in email sending errors
+        - Email error percentage rate: 6.67%
+    - [x] Push notification error rate < 5%  (0.96% observed)
+- Was any downstream service affected by the change?: _NO__
+- Types of errors logged:
+    - There was a spike in errors 2/18 7:10p-7:28p PT in both emails and push notifications. These appear to be due to 503 errors downstream and unrelated to our changes.  The errors resolved on it's own.
+    - Error counts:
+        - EventBus:
+            - Email job: 60 error logs (503s mentioned above)
+            - Push job: 44 error logs (503s mentioned above)
+        - vets-api:
+            - Expected number of MPI profile not found (957 errors)
+            - 61 other errors (MPI Service errors, missing ssn field )
+    - 23140 notifications requested
+- What changes (if any) are necessarily based on the logs, feedback on user challenges, or VA challenges? None
 
 ### Stage C: 25% of users
 
