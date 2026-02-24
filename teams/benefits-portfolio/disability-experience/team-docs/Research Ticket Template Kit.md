@@ -23,7 +23,7 @@ The master versions of these templates can be found in the [ISSUE_TEMPLATE folde
 The templates themselves serve as suggestions and reminders, but not mandates. E.g. if you're using a different process than the one outlined, feel free to adapt the templates as needed. But they exist to make sure you don't forget specific steps, even if you have to adapt them to your use case.
 
  - When “Timeframe for this ticket” says “should fit within one sprint," this does not mean "take the whole sprint" but rather "this is doable within a sprint."
- - These tickets are set up for a particular type of testing (primarily qualitative interviews or usability tests). If you’re doing something different, some tasks may not apply.
+ - These tickets are set up for a particular type of testing (primarily qualitative interviews or usability tests with Veterans). If you’re doing something different, some tasks may not apply.
 
 
 ### :brain: Good to know
