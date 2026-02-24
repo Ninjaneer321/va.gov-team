@@ -139,6 +139,7 @@ The frontend consumes normalized backend fields but renders only:
 # 5. Buckets and Display Locations
 
 Bucket = 'what state group this belongs to'
+
 Pill = 'how we visually show that state in label'
 
 PEGA may provide the underlying status,
