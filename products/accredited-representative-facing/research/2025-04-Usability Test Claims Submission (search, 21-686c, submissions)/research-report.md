@@ -1,97 +1,158 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Usability Test of Claims Submission (Search, 686c Submission, Submission page) April 2025 Research Findings"
+product: "Accredited Representative Portal (ARP)"
+team: "Accredited Representative Facing Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-02-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Laura Paradis"
+  - "Kate Albee"
+  - "Eva Heintzelman"
+  - "Marisa Dominguez"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate usability and value of ARP's 686c claim submission. Is it intuitive, clear, and easy to use? What could be improved?"
+  - "Evaluate the usability and value of a submissions history view. What is valuable for a representative to reference at a glance? What could be improved?"
+  - "Understand how representatives, including cross-accredited ones, typically submit 686c and other forms. How could this impact future designs?"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Usability testing"
+  - "User interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  VSO_representatives: 5
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 5
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 5
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  VSO_characteristics:
+    supervisory_role: 4
+    non_supervisory: 1
+    cross_accredited: 2
+    single_accredited: 3
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "The 21-686 submission flow is not intuitive, but is accepted"
+  - "On 'Find Claimant' page, 3/5 representatives did not expect, but accepted, what they saw in the search results"
+  - "4/5 participants would ignore the prompt to download the form because downloading the form at this point does not align with their workflow"
+  - "When representatives complete a pdf, they prefer to have the Veteran sign the form to confirm the information"
+  - "3/5 participants noticed the form mismatch alert while two others did not notice it"
+  - "3/5 participants expected the success message; the other 2/5 participants looked for the confirmation number in the success message"
+  - "In general, participants felt that this process of submitting a 686c was worse or the same as their current solution, with 3/5 participants stating that it was worse, and 2/5 noting it felt about the same"
+  - "4/5 participants felt that this process was slower than their current solution, and one stated it felt about the same"
+  - "The Submissions page can fulfill its goal as a quick reference after applying content improvements"
+  - "Representatives wanted greater clarity that they were only seeing Veterans they submitted claims for, not what their whole organization submitted"
+  - "4/5 participants wanted to see submissions prior to 60 days, especially when systems like Vetraspec and QuickSubmit allow them to view submissions across years"
+  - "The term 'claim submission status' shown on the card confused representatives"
+  - "When the claim submission status was 'in progress,' 2/5 representatives believed that the submission was received by VBMS"
+  - "When the claim submission status was 'Received,' 3/5 participants wanted more specificity on what this meant"
+  - "When the claim submission status was 'Action needed,' 5/5 participants believed they needed to supply the claim with additional evidence. This however, refers to a system or processing error"
+  - "Overall, this approach to referencing a past submission felt slower than their current solution for users of QuickSubmit and SEP"
+  - "Cross-accreditation did not change the claim submission process"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Move the descriptor text and increase size to highlight 'Find claimants who have designated you as their representative…' to increase visibility"
+  - "Emphasize the value of showing only those they have POA with, to differentiate this tool from QuickSubmit"
+  - "Change 'Submit' to 'Start' 21-686c as 'Submit' indicates that the next screen will be the 21-686c form"
+  - "Conduct internal research to see if we can only use SSN as the search field"
+  - "Improve messaging on homepage and on the 'Find Claimant' page to clarify what functionality currently exists in ARP"
+  - "Adding examples of what additional evidence constitutes does not add value for representatives"
+  - "Identify ways for the 'Download form' feature to exist on its own, decoupled from this submission flow"
+  - "Further investigate needs around signature completion and whether or not this would be a high-value feature to pursue"
+  - "Change copy of alert to focus on form number rather than whether or not the form is the most up-to-date"
+  - "Potentially change alert to red for more prominence"
+  - "Update the success message to include the confirmation code and information about how this is processed to set expectations on time it takes for the claim to reach VBMS"
+  - "Reevaluate places where we can combine two pages into one or remove steps from the flow"
+  - "For rollout of this tool, focus on those who do not use third-party tools and rely on SEP and QuickSubmit, or other manual claims submission processes"
+  - "Continue to aim for a solution where pdf information is pre-filled"
+  - "Utilize the RBPS API for auto-establishing the 21-686c"
+  - "Change the subheading to 'This list shows only your submissions sent through this portal from the past 60 days'"
+  - "Consider what permissions and functions a VSO representative manager role might need, and how to design for this persona"
+  - "Emphasize that this is a limited view by changing the heading from 'Submissions History' to 'Recent Submissions'"
+  - "Provide context for the purpose of this page, and note that if they want to see more detailed information about submissions, they can access claimant page through the search"
+  - "Provide a more robust sort, filter and/or search option"
+  - "Clarify the statuses so that 'status' refers to status in VBMS or the specific system and phase that the claim is in"
+  - "Include, as part of the 'Status in VBMS,' the date received in VBMS"
+  - "Change 'Action needed' to a phrase that reflects the status and offer the representative next step option"
+  - "Remove 'Print confirmation' feature"
+  - "Investigate more fully if a representative can view their submission while also meeting security standards"
+  - "Show the date received by VBMS on the submissions page"
+  - "Include more information about the timeline of the claim (e.g. similar to claim status tool)"
+  - "Continue to ask questions about cross-accreditation impact on the POA acceptance and claim submission process"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Being able to sign for the Veteran was valued and should be explored for future iterations"
+  - "PDF pre-fill functionality to improve efficiency"
+  - "Auto-establishing claims in VBMS to add value over current tools"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Conduct internal research to see if we can only use SSN as the search field"
+  - "Further investigate needs around signature completion"
+  - "Investigate more fully if a representative can view their submission while also meeting security standards"
+  - "Continue to ask questions about cross-accreditation impact on the POA acceptance and claim submission process"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: Veteran Service Office (VSO)"
+  - "PRDT: Accredited-Reps"
+  - "PRDT: Form 21-686c"
+  - "DSC: Alert Boxes"
+  - "DSC: Card"
+  - "DSC: Form"
+  - "DSC: Form - File Input"
+  - "DSC: Search Input"
+  - "DSP: Ask users for files"
+  - "DSP: Help users to check answers"
+  - "usability-testing"
+  - "evaluative"
+  - "claims-submission"
+  - "POA"
+  - "form-submission"
 ---
-
 # Research Findings for Usability Test of Claims Submission (Search, 686c Submission, Submission page) April 2025
 
 Office of the CTO - Digital Experience (OCTO-DE), Accredited Representative Facing Team
