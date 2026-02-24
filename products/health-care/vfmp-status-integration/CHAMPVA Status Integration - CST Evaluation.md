@@ -30,7 +30,7 @@
 This document evaluates whether CHAMPVA **applications** can be displayed correctly within the existing Claim Status Tool (CST) frontend.
 
 ### Simple Explanation
-We are confirming that CHAMPVA application processing states align with CST’s progress bar and decision display model without requiring structural frontend changes.
+We are confirming that CHAMPVA application processing states align with CST’s progress stepper and decision display model without requiring structural frontend changes.
 
 ### Technical Explanation
 We are validating that CHAMPVA provider statuses can be normalized into `ClaimResponse` and mapped to CST’s existing `claimPhaseDates.phaseType` structure and decision rendering components.
@@ -57,7 +57,7 @@ CST only handles formal processing and final decisions. Early lifecycle states b
 When a user opens an application in CST, they see:
 
 1. A decision or status summary near the top  
-2. A horizontal progress bar (timeline)  
+2. A progress stepper (timeline) displayed on the Overview tab. [Ex. in staging](https://staging.va.gov/track-claims/your-claims/600204769/overview)
 3. A Recent Activity section  
 4. Decision cards for eligibility outcomes  
 
@@ -73,7 +73,7 @@ These UI elements are driven by:
 
 # 3. Timeline and Phases
 
-The timeline is the horizontal progress bar displayed at the top of the CST application detail page.
+The timeline is the progress stepper displayed at the top of the CST application detail page.
 
 Under current Content review, CHAMPVA phases are:
 
@@ -82,7 +82,7 @@ Under current Content review, CHAMPVA phases are:
 3. Evidence Review  
 4. Complete  
 
-These labels will appear in the progress bar.
+These labels will appear in the progress stepper.
 
 ---
 
@@ -102,7 +102,7 @@ This value is mapped via:
 
 ### Simple Explanation
 
-The timeline is the progress bar showing where the application is in processing.
+The timeline is the progress stepper showing where the application is in processing.
 
 ---
 
@@ -138,6 +138,13 @@ The frontend consumes normalized backend fields but renders only:
 
 # 5. Buckets and Display Locations
 
+Bucket = 'what state group this belongs to'
+Pill = 'how we visually show that state in label'
+
+PEGA may provide the underlying status,
+MyVA maps that into a bucket,
+and the UI renders it inside a pill
+
 There are two display contexts in the overall experience:
 
 ### MyVA
@@ -151,7 +158,7 @@ Displays early lifecycle states such as:
 ### CST
 Displays processing lifecycle via:
 
-- Progress bar phases
+- Progress stepper phases
 - Final decision messaging
 
 These are not identical lists.
@@ -182,7 +189,7 @@ Backend status flow:
    - `claimPhaseDates.phaseType`
    - `trackedItems`
    - Decision data
-5. The frontend maps `claimPhaseDates.phaseType` to the progress bar.
+5. The frontend maps `claimPhaseDates.phaseType` to the progress stepper.
 
 Relevant backend files:
 
