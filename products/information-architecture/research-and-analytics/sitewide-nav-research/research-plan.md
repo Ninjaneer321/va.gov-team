@@ -275,10 +275,10 @@ Provide a link to any materials you need to run your study, including any materi
 > Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 10 ideal completed sessions, request 15 total participants)*
 
 
-- `Veterans:` **578**
+- `Veterans:` **385**
 - `Caregivers:` **0**
 - `Dependents:` **0**
-- `Total:` **578**
+- `Total:` **385**
 - `Ideal completed sessions:` **385**
 
 Sample size calculated based on achieving a 95% confidence level with a total audience of approx 15M living Veterans in the US. 
@@ -287,9 +287,6 @@ Sample size calculated based on achieving a 95% confidence level with a total au
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
 
 - `All participants are Veterans`
-- `primary criteria`
-- `primary criteria`
-- **`Add more criteria as needed`**
 
 
 
@@ -299,7 +296,7 @@ Sample size calculated based on achieving a 95% confidence level with a total au
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
+- `Suggested dates and times:` **2/27 9-11 ET or 11:30-1 ET;  2/2 9-10ET or 2-3ET, **
 
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
@@ -312,7 +309,7 @@ Sample size calculated based on achieving a 95% confidence level with a total au
 - `Date and time of pilot session:` **[Enter time]** 
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **3/9-3/20**
 
 ### Length of sessions
 - N/A
