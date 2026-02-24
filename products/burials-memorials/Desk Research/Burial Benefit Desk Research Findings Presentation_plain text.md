@@ -1,95 +1,143 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Burial Benefit Desk Research Findings"
+product: "VA Form 21P-530EZ, Application for Burial Benefits"
+team: "Non-Disability Benefits Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-02-28"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Megan Graham"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Better understand the current Survivor experience"
+  - "Avoid duplicating previous efforts"
+  - "Discover resources that inform and support our work"
+  - "Form the basis for future research efforts"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Desk research"
+  - "Secondary research synthesis"
+  - "Affinity mapping"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Simple language changes could reduce Survivor confusion"
+  - "Taking advantage of the digital format could improve the burial benefit application process"
+  - "Acknowledge Survivors' experiences"
+  - "VSOs recommended changes to the benefit form and application process to reduce the burden on Survivors"
+  - "Whether or not a Veteran used VA benefits before they passed can impact the application process"
+  - "Survivors are often filling out the application during a time of immense grief"
+  - "Some Survivor groups may be less comfortable engaging with VA"
+  - "The burial benefits application process is difficult for Survivors"
+  - "VSOs provide a wide variety of support to Survivors"
+  - "Benefit outreach, especially before the Veteran passes, is important"
+  - "Survivors benefit from, and should have access to, many types of support"
+  - "If VSO and Survivor advocates are not adequately informed, the claims they submit are of lower quality"
+  - "VA processes for after a Survivor passes could be improved by making them more proactive and automated"
+  - "When Survivors are minors there are additional factors to be considered"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
-outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Incorporate findings into the form design to reflect Survivors' experiences"
+  - "Implement simple language changes to reduce Survivor confusion (define allowances, clarify terminology, set timeline expectations, clarify reimbursement amounts)"
+  - "Test digital format enhancements with potential users (short videos, direct links, auto-population, mobile optimization)"
+  - "Test VSO-recommended changes with potential users (verify information before submission, streamline DIC and burial benefits applications, facilitate advocate contact, add bank information)"
+  - "Confirm with VSOs and VA whether prior use of VA benefits impacts the application process"
+  - "Acknowledge the wide variety of Survivors (male Survivors, siblings) and their sacrifices in form design"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Burial VSOs Research Findings (2024) - 6 VSOs"
+  - "Human-Centered Design Findings and Opportunities: Revisiting the Survivor Experience (2024) - 21 Survivors and 21 Veterans"
+  - "NCA Funeral Home Engagement Discover Project: Final Presentation (2023) - 19 end-of-life professionals and 2 funeral directors"
+  - "Review Page - Round 1 Usability Research Findings (2022) - 6 Veterans"
+  - "Medium-Fidelity Prototyping Report (2020) - 11 Veterans, 10 Survivors, and 3 VA outreach professionals"
+  - "Survivor Outreach Ecosystem Map (2020) - 11 Veterans, 10 Survivors, and 3 VA outreach professionals"
+  - "Survivors Experience Research Findings Report (2019) - 32 Survivors, 35 VA Staff, and 11 VSO Staff"
 synthesis_tools_used:
   - "Mural"
   - "Affinity Mapping"
+  - "EnjoyHQ"
+kpi_alignment: []
+outcomes:
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas:
+  - "Survivors with limited awareness of benefits"
+  - "Survivors who don't understand benefit details"
+  - "Male Survivors and Siblings who have historically had fewer resources"
+  - "Survivors with language or cultural barriers"
+  - "Survivors who don't have access to technology or aren't comfortable using it"
+  - "Survivors who live farther from VA facilities"
+  - "Survivors who aren't connected to the military, VA, VSOs, or other Survivors"
+further_research_needed:
+  - "Test digital format enhancements with potential users"
+  - "Test VSO-recommended form changes with potential users"
+  - "Confirm whether prior VA benefit usage impacts the application process"
+underserved_groups_missing:
+  - "Male Survivors"
+  - "Siblings of Veterans"
+  - "Survivors with language or cultural barriers"
+  - "Survivors without technology access"
+  - "Survivors living far from VA facilities"
+  - "Survivors not connected to military/VA/VSO networks"
+  - "Minor Survivors (children)"
+tags:
+  - "AUD: Surviving Family"
+  - "AUD: Veterans"
+  - "AUD: Veteran Service Office (VSO)"
+  - "AUD: VA Staff"
+  - "AUD: Dependents"
+  - "BNFT: Memorialization"
+  - "PRDT: Burials-memorials"
+  - "DSC: Form"
+  - "DSP: Form Templates"
+  - "desk-research"
+  - "secondary-research"
+  - "discovery"
+  - "evaluative"
+  - "plain-language"
+  - "form-design"
 ---
 
 **Burial Benefit Desk Research Findings**  
