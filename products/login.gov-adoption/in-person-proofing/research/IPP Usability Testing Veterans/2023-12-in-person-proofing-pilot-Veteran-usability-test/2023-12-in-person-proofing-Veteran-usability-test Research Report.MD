@@ -1,3 +1,130 @@
+---
+title: "2023-12 In-Person Proofing Veteran Usability Test Research Findings"
+product: "In-Person Identity Proofing (IPP)"
+team: "Secure Sign In Transition"
+office: "OCTO"
+date: "2024-02-28"
+researchers: 
+  - "Sophia Philip"
+  - "Sofia Kirkman"
+  - "Carl Dickerson"
+  - "Josie Griffith"
+research_goals:
+  - "Evaluate the usability of the Veteran-facing side of the In-Person Identity Proofing application to identify opportunities for improvement and enhance the user experience"
+  - "Test the in-person proofing application process with 10 Veteran participants within a two-week timeframe"
+  - "Conduct the usability test and complete the analysis within one month to inform design changes before on-site testing"
+methodology:
+  - "Usability testing"
+  - "Think aloud protocol"
+  - "Semi-structured interviews"
+  - "Prototype testing"
+devices_used:
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 13
+demographics:
+  veterans: 13
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "18-24": 0
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 8
+    "65+": 0
+    unknown: 5
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 13
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 13
+  race:
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 13
+  disability:
+    cognitive: 6
+    AT_beginner: 0
+    AT_advanced: 1
+    screen_reader_desktop: 1
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    visual_impairment: 2
+key_findings:
+  - "Verification, without context, can be misunderstood and undesired but is appreciated when set up as a simple service"
+  - "Veterans consider more than just proximity when selecting a VA for appointments: they take into account transportation, traffic, parking, available services, and site recommendations"
+  - "The Veteran intake application cannot provide the assurance that another human can"
+  - "Veterans desire alternate pathways should their plans change"
+  - "Veterans have different levels of digital literacy, which directly impacts how they interact with modernized UI elements that are featured in our IPP application. These elements are not yet part of the VA design system"
+  - "Familiar experiences instilled confidence in completing tasks, but led to assumptions around functionality"
+  - "Veterans are careful when preparing for appointments. Repetition, hierarchy, and the ability to save information to refer to it later are reassuring and allow Veterans to catch details that can make or break successful appointment attendance"
+recommendations:
+  - "When prompting a Veteran to verify their account, communicate why verification is important and list all of the options"
+  - "When creating in person services, consider how to incorporate that service within existing infrastructure"
+  - "When providing information about a site for an in person service, include a phone number that the Veteran may call for follow up questions"
+  - "Anticipate questions or issues a Veteran may have, and offer information or self service options that can save them a phone call"
+  - "When introducing digital elements to a Veteran, provide instructions on how to use the tool and refer to analogous use cases"
+  - "Write out content so Veterans can scan, save, and correctly recall information"
+  - "Make sure services are accessible to Veterans with assistive technology by using inclusive content and testing with the appropriate populations"
+kpi_alignment: []
+outcomes:
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas:
+  - "Better informing Veterans on why they need to verify their accounts both in upcoming messaging and in verification services"
+  - "Provide options for verification that enables Veterans to choose from options (in person versus remote for either ID.me or Login.gov)"
+  - "Enable IPP as a service that can be bundled in with other appointment types at the VA"
+  - "Include information that will prepare all Veterans for any in person interaction, especially populations with disabilities and caretakers"
+  - "Provide reschedule and cancellation pathways for walk-in appointments"
+further_research_needed:
+  - "Continue testing the screen reader prototype with CodePen which is more likely to simulate a realistic interactive experience for non sighted users"
+  - "Continue testing with screen reader users and other assistive technology users"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+related_research: "Link to Prototype: https://docs.google.com/document/d/1L5sfv0LrxtDJlQCEgjQGv14dXFuKE1Kh_7DCMTtS2E4/edit"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Login.gov-adoption"
+  - "BNFT: Healthcare"
+  - "usability-testing"
+  - "Accessibility"
+  - "evaluative"
+  - "identity-verification"
+  - "in-person-services"
+  - "Login.gov"
+  - "screen-reader"
+  - "cognitive-disability"
+  - "DSC: Accordions"
+  - "DSC: Button"
+  - "DSC: Form"
+  - "maps"
+  - "walk-in-appointments"
+  - "digital-literacy"
+  - "content-design"
+  - "plain-language"
+---
+
 ## 2023-12-in-person-proofing-Veteran-usability-test 
 
 ### OCTO
