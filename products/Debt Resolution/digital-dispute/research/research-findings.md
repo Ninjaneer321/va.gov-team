@@ -1,103 +1,127 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Financial Management Team, Resources & Support page (R&S page) and Digital Dispute Form Research Findings"
+product: "Digital Dispute Form"
+team: "Financial Management Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-06-02"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Charlotte Cesana"
+  - "Megan Gayle"
+  - "Marcela Rojas"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand how Veterans navigate and find information from intro pages to the digital dispute form and how preexisting mental models inform their experience"
+  - "Evaluate usability and comprehension of the Wizard/intro page, R&S page, and Digital Dispute form"
+  - "Assess how helpful the information provided is based on Veterans' prior knowledge and experiences with debt relief"
+  - "Understand navigation and accessibility for Veterans using screen readers"
 methodology:
-- Method 1
-- Method 2
+  - "Usability testing"
+  - "Remote moderated research sessions"
+  - "Semi-structured interviews"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 7
+  tablet: 1
+  smartphone: 6
+  assistive_technology: 3
+participants_total: 14
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 14
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 2
+    "35-44": 3
+    "45-54": 4
+    "55-64": 3
+    "65+": 1
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 2
+    some_college: 3
+    associates: 3
+    bachelors: 3
+    masters: 3
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 8
+    rural: 5
+    unknown: 1
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 7
+    hispanic: 2
+    biracial: 1
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 5
+    AT_beginner: 2
+    AT_advanced: 1
+    screen_reader_desktop: 1
+    screen_reader_mobile: 2
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Overall, navigation and findability in the debt portal were excellent, regardless of prior familiarity with the debt portal interface. Participants understood the design elements on each page and rated the experience between 4 and 5 out of 5"
+  - "Overall, participants found the Resources & Support page easy to navigate, and they liked that all of the information needed to seek resolution was on one page. The overall page hierarchy was intuitive with clear section headers and accordion functionality"
+  - "Overall, the 'Disability compensation, pension, and GI Bill benefits' section received mixed feedback. Some sections were described as clear and helpful, while others were described as too vague to be useful or actionable"
+  - "The sections for Rogers STEM Scholarship, VET TEC program, Separation pay, and Attorney fees were confusing to participants who had not experienced these types of debt, causing them to question if these were actions they could take for their own debt situation"
+  - "The Dispute Form was easy and straightforward overall. Participants found it self-explanatory with clear steps and logical flow, though they had suggestions for improvements like examples of what to include in statements and the ability to upload documents"
+  - "Most participants (10 of 14) described long, frustrating experiences in attempting to resolve overpayments, including repeated phone calls, not knowing who to contact, waiting months, and feeling dismissed or not heard by VA staff"
 recommendations:
-- Recommendation 1
-- Recommendation 2
+  - "Add additional context to clarify whether 'more than 5 years' and 'less than 5 years' refers to when the overpayment occurred or the length of the repayment plan"
+  - "Add more context under section titles for clarity, such as adding the word 'debt' next to appropriate section titles (example: Rogers STEM Scholarship Debt)"
+  - "Add additional context and examples on the 'Tell us why you're disputing this debt' page to help Veterans understand what information should be shared"
+  - "Implement a way to upload supporting documents in the dispute form"
+  - "Add edit buttons that take users back into the form on the Review page (note: these will be available in production)"
+  - "Highlight crucial information in bold, such as 'You'll need to continue making payments on your debt while we review your dispute'"
 kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Total number of digital debt disputes submitted"
+  - "Total number of submission confirmations sent"
+  - "Error rate and total number of errors/failures"
+  - "Customer Satisfaction (CSAT) scores from Medallia reports"
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Veterans can easily dispute the existence or amount of a VA debt through a user-friendly digital process with clear instructions, understand timelines and next steps, submit written statements about their situation, and receive email confirmation"
+  business: "Simplified and streamlined process for receiving debt disputes from Veterans, achieving faster resolution, reducing processing times, decreasing disputes processed through debt management center and HRC, improving customer satisfaction and Veteran experience, and standardizing the debt dispute process"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Review of external pages linked from the Resources & Support page"
+  - "Research with Veterans who have copay debt"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Native Hawaiian or other Pacific Islander Veterans"
+  - "First Nations (Canada) Veterans"
+  - "Native American Indian or Alaska Native Veterans"
+  - "Transgender Veterans"
+  - "Nonbinary, gender fluid, gender queer, Two-Spirit, or another gender beyond man or woman Veterans"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Google Sheets (notetaking)"
+  - "Copilot AI (transcript analysis)"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Housing'
-- 'BNFT: Pension'
-- 'PRDT: Caregivers'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "PRDT: Debt-portal"
+  - "DSC: Accordions"
+  - "DSC: Form"
+  - "DSP: Ask users for a single response"
+  - "DSP: Form Templates"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "Accessibility"
+  - "usability-testing"
+  - "remote-research"
+  - "moderated-research"
+  - "evaluative"
 ---
+
 # Financial Management Team, Resources & Support page (R&S page) and Digital Dispute Form, May 2025
 
 ### Research Findings
