@@ -118,7 +118,10 @@
      - [ ] Content feedback review for Intro page alerts
      - [ ] Update Intro Page alerts on "pending" statuses
      - [ ] EZ Display submission statuses on MyVA
-- [ ] CG QA Standards alignment
+ - EZ Bug fix
+     - [ ] Update Mexico province code
+- CG Improvements
+     - [ ] CG QA Standards alignment
 
 ## 
 ### 10-10EZR
