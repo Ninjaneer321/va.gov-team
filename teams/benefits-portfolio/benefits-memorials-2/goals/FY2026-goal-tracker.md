@@ -25,7 +25,35 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
 
-## Sprint: 2 [02/11/26 - 02/24/26]  
+## Sprint: 3 [02/25/26 - 03/10/26]  
+| Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
+|--|--|--|--|--|
+|UX: Complete the prototypes and preparation for the Pay.gov Overpayments Usability Study| P2 |--|--|--|
+|UX: Field the Usability Study for the Pay.gov Overpayments project| P2 |--|--|--|
+|ENG: Update the back end code to accommodate data and routing for both Cerner and Vista Payment History records.| P1 |--|--|--|
+|ENG: Complete Front End ENG transition tickets to prepare for Benefit Payment Tool support.| P3 |--|--|--|
+|ENG: Create and assign mock copays based off of new copay structure to any users +80 thru +98| P4 |--|--|--|
+|ENG: Complete the 3 planned maintenance/bug tickets.| P6 |--|--|--|
+
+**Sprint rollover tickets**
+| Aditional work that was pulled in mid sprint | Scope of work changed after ticket started | Work became blocked mid sprint |  Work was underestimated and not completed |
+|---------------|---------------|---------------|---------------|
+|Ticket #|Ticket #|Ticket #|Ticket #|
+
+**_Approvals:_** _(sent via email but approvals tracked here)_
+ - [ ] Ready to be sent for approvals (02/24/26)
+ - [ ] VA PO & COR sent the Sprint Goals (02/24/26)
+ - [ ] VA PO approved the Sprint Goals (02/00/26)
+ - [ ] VA COR approved the Sprint Goals (02/00/26)
+
+**_Delivery + Notes:_**
+- [ ] All goals have been updated in the sprint chart
+- [ ] Any Additional details about goals **not** completed will be documented here
+
+
+## Sprint: 2 [02/11/26 - 02/24/26]
+<details>
+    
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
 |UX: Complete Payment History QC implementation review with Engineering and begin accessibility testing.| P1 |--|--|--|
@@ -50,6 +78,8 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **_Delivery + Notes:_**
 - [ ] All goals have been updated in the sprint chart
 - [ ] Any Additional details about goals **not** completed will be documented here
+
+</details>
 
 ## Sprint: 1 [01/28/26 - 02/10/26]  
 <details>
