@@ -111,7 +111,7 @@ tags:
 > 
 > Use the [GitHub Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed research plan.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags. 
 
-# Research Plan for Sitewide Navigation, March 2026
+# Research Plan for OCTO IA, Sitewide IA and Navigation, March 2026
 
 
 ## Background 🏗️
@@ -256,19 +256,10 @@ Provide a link to any materials you need to run your study, including any materi
 
 ### Recruitment approach
 *Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
-- Recruitment through Perigean for remote, [unmoderated study](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
-- Recruiting Veterarns only for this test.
-- Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
+- All Veterans, fully separated from service. 
 
 ### Recruitment criteria
 
-- **Write any recruitment criteria for experience or scenarios as screener questions with qualifying responses. Perigean will use these verbatim to recruit participants.**
-- Consider providing links to products and/or clear descriptions to ensure participants understand the question.
-  Example: Have you been to a VA urgent care facility in the last 6 months? [answer should be yes to qualify.]
-
-- The more recruitment criteria you have, the less likely that a small sample of participants will be able to meet all criteria.
-- Consider how you could leverage the [lean maximum variation sampling (MVS) approach](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md#lean-mvs-strategy) by breaking up criteria for your study into multiple cohorts that each isolate one primary criteria.
-- Perigean will consider each cohort as a separate recruitment effort, increasing the chances of meeting all criteria for your study. [Review an example of the multiple cohort approach.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/pre-mhv-prototype/generative-research-study-1/2020-12.research-plan1.md)
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 > [!NOTE]
@@ -296,7 +287,7 @@ Sample size calculated based on achieving a 95% confidence level with a total au
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **2/27 9-11 ET or 11:30-1 ET;  2/2 9-10ET or 2-3ET, **
+- `Suggested dates and times:` **2/27 9-11 ET or 11:30-1 ET;  3/2 9-10ET or 2-3ET, **
 
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
@@ -305,8 +296,7 @@ Sample size calculated based on achieving a 95% confidence level with a total au
 > [!NOTE]
 > **Send pilot participant email in study Slack channel**
 
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- Will pilot study with internal colleauges prior to launching study.
 
 ### Research sessions
 - `Planned dates of research:` **3/9-3/20**
@@ -333,5 +323,5 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 ## Approvals ✅
 > [!NOTE]
 > Before submitting for review, ensure you've completed the YAML frontmatter section at the top of this document using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md).
-- `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
+- `Reviewed by Mikki Northuis on 02/24/2026`
 - `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`
