@@ -1,108 +1,117 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Request a Board Appeal Post-Launch Evaluative Research Findings"
+product: "Notice of Disagreement / Request for Board Appeal"
+team: "Benefits Decision Reviews"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-07-01"
+researchers: 
+  - "Eileen Chi"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand the Veteran's experience of the current digital form, identify possible usability and accessibility issues within the form."
+  - "Understand the Veteran's reason for choosing to apply for a Board Appeal as opposed to the other two decision review pathways."
+  - "Understand the Veteran's reason for choosing a hearing type."
 methodology:
-- Method 1
-- Method 2
+  - "Moderated interview"
+  - "Usability testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 9
+    tablet: 0
+    smartphone: 1
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 1
+    "35-44": 2
+    "45-54": 2
+    "55-64": 2
+    "65+": 3
+    unknown: 0
+  education: 
+    high_school: 1
+    some_college: 3
+    associates: 2
+    bachelors: 2
+    masters: 2
+    doctorate: 0
+    unknown: 0
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 10
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 2
+    hispanic: 1
+    biracial: 2
+    asian: 2
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 1
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "There are multiple entry points to the Request a Board Appeal form, but no clear path to it from MyVA, which lowers Veteran confidence in filing themselves."
+  - "There is no indicator or clear path back to the in-progress form. The participant had to follow a path to start the form over before seeing their in-progress form."
+  - "Veterans don't see the difference between a Higher Level Review and Board Appeal apart from having different reviewers and the time that it takes to go through each process."
+  - "Veterans choose a review option based on whether they have evidence to submit, and how long each process takes."
+  - "Language about 'contested claims' within the form lacks clarity, and causes unease and hesitation for Veterans looking to request a Board Appeal."
+  - "For the few Veterans considering a hearing, they expressed interest in doing it virtually, because of distance reasons."
+  - "The ambiguous language on a text field within the disagreement screen created a misconception about the purpose of the field and participant frustration when attempting to use it."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Create an indicator for the in-progress forms on myVA. Also, address the opportunity to notify Veterans that they have an in-progress form at a certain drop-off point."
+  - "Reconsider the objective of the deadline screen, and clarify the definition of contested claims."
+  - "Add in a deadline extension option to the digital form (already available on the paper form), and remove the limitation of showing contentions with a decision date within the year."
+  - "Provide a space on the form for Veterans to explain the reason for their disagreement (available as an optional attachment on the paper form)."
+  - "Work with IA to provide more accessible points to the Decision Review pathways, with the consideration that there are Veterans who want to learn more about the forms vs Veterans who know exactly which form they need and just want to complete it quickly."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Further research may be needed for Veterans who are appealing issues outside of disability"
+  - "Further research may be needed for a separate accessibility study with this form"
+  - "Further research may be needed for with Veterans who are homeless"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Immigrant origin"
+  - "Other than honorable"
+  - "Gay, lesbian, or bisexual"
+  - "Transgender"
+  - "Nonbinary, gender fluid"
+  - "Rural"
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Housing'
-- 'BNFT: Pension'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Decision-reviews"
+  - "PRDT: Claim-status-tool"
+  - "PRDT: My VA"
+  - "DSC: Form"
+  - "DSC: Form - Text Area"
+  - "DSP: Ask users for multiple responses"
+  - "DSP: Help users to check answers"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "evaluative"
 ---
+
 # Request a Board Appeal Post-Launch Evaluative
 
 **Office of the CTO - Digital Experience (OCTO-DE), Decision Reviews, Benefits Decision Reviews**
