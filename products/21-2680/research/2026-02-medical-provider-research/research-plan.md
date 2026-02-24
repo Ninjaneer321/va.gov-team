@@ -398,9 +398,6 @@ This approach allows us to reach a diverse group of veterans and caregivers acro
 - No, but I think I am eligible to receive SMC, SMP or another benefit for Aid and Attendance or Housebound Allowance (recruit 2 - 3)
 - No, and I do not think I am eligible for this benefit (exclude)
 
-**`6.` Are you comfortable participating in a 60-minute remote interview about your experience with healthcare and benefits?**
-- Yes
-
 ## Timeline 🗓️
 > [!NOTE]
 > **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research session.**
