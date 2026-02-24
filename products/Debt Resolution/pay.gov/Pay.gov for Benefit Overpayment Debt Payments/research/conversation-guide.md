@@ -18,22 +18,26 @@ participant_criteria: "Veterans who have experience making payments toward VA be
 
 # NEW: Related documents
 related_research_plan: "products/Debt Resolution/pay.gov/Pay.gov for Benefit Overpayment Debt Payments/research/research-plan.md"
-related_prototype: "N/A"
+related_prototype: "https://www.figma.com/proto/Yzumw4ai6JjkgS6jmB1PB5/Pay.gov-Hosted-Collections"
 
 tags:
   - "AUD: Veterans"
   - "BNFT: Finances"
+  - "BNFT: Education"
   - "PRDT: Debt-portal"
   - "moderated-interview"
   - "usability-testing"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
   - "DSC: Form"
   - "DSC: Form - Radio Button"
   - "DSC: Checkbox"
   - "DSC: Button"
   - "DSC: Alert Boxes"
+  - "DSC: Links"
   - "DSP: Form Templates"
   - "DSP: Help users to check answers"
-description: "Moderated remote interview with embedded usability tasks to understand Veterans’ payment behaviors and evaluate the VA.gov-to-Pay.gov benefit overpayment debt payment flow (including payment method selection, data entry, review, and confirmation)."
+description: "Moderated remote interview with embedded usability tasks to understand Veterans’ payment behaviors and evaluate the VA.gov-to-Pay.gov benefit overpayment debt payment flow, including comprehension of overpayment information, decision-making, and form completion through Pay.gov."
 
 # NEW: Compliance flags
 recording_required: true
