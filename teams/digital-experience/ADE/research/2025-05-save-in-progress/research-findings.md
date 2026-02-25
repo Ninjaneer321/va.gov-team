@@ -98,22 +98,7 @@ kpi_alignment: []
 outcomes:
   user: "Not specified"
   business: "Not specified"
-opportunity_areas:
-  - "Revise the Save in Progress messaging to communicate more effectively that we're saving the user's form information as it's being entered/updated."
-  - "Consider differentiating the unauth and auth versions of the form intro page so they don't look exactly the same except for the very bottom. --> *Consider skipping the auth version of the form intro page*"
-  - "After you click *Finish later*, you should be able to sign out in the Minimal header format, which is currently not possible. We should revert to the full VA.gov header for the authenticated intro page."
-  - "On the forms Review/Submit page, consider moving the \"+\" from the right margin to the left margin. --> *Test this in the next round of usability testing, and work with USWDS on a potential change*"
-  - "On the Review/Submit page, consider shortening the text to be less redundant and less repetitive for screen reader users. --> ***Needs more investigation to reproduce** and find the cause of the repeated announcements*"
-  - "Streamline error handling on the Review/Submit page for the ***Your full name* field so that (1) focus goes to the name field (*vs*. the top of the component), and (2) the error message is announced more clearly."
-  - "Fix the postal code field so it will accept a valid autofill suggestion without returning an error (\"Enter a ZIP code\")."
-  - "Consider adding some **help text that says what the \"VA file number\" is**. --> ***Consider** doing*"
-  - "Consider the design suggestion: The **error message for SSN validation could provide more information**. Instead of saying that it needs 9 digits, it could also say how many digits you entered."
-  - "Explore **prefilling the Veteran's name and address**, which we know once they've signed in. --> *Jeana is working on this*"
-  - "Consider adding a **description of what a \"VA regional office\" is**. --> ***Consider** doing*"
-  - "Consider adding an **explanation or disclaimer about how the VA can provide military records**. --> ***Consider** and work with Content team*"
-  - "In the draft cards under \"Benefit applications and forms\", **make the \"Continue your application\" link scale up with magnification** like everything else on the card already does."
-  - "Consider **renaming the header \"Benefit applications and forms\" to** \"Applications and forms\" or **something else similarly short** so that it will be more accessible to screen magnifier users."
-  - "Consider whether having many short pages in a form is preferable to a smaller number of longer pages. Be aware of the feedback that some Veterans dislike VA forms having so many short pages."
+opportunity_areas: []
 further_research_needed:
   - "After the Save in Progress messaging gets revised as a result of this research, conduct another round of usability testing to see if it works better than the version tested in this study."
   - "Check the newly added analytics for the existing \"Finish this request later\" link on VA forms to see how much it's being used. Then see if changing this link to a button (as tested in this study) r"

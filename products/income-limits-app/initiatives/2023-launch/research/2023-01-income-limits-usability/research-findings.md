@@ -1,5 +1,5 @@
 ---
-title: "Income Limits App Usability Testing -- Research Findings Research Findings"
+title: "Income Limits App Usability Testing"
 product: "Income Limits application (VA health care income limits look-up tool)"
 team: "Not specified"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
