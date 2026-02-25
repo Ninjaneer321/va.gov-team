@@ -5,14 +5,14 @@
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 17 is...**
+- **The goal for Sprint 17 is launch EZR Service history, wrap up form status work, update EZ File upload pattern**
 
 #### List of Planned work
 - EZR Service History
      - [ ] Launch Service History
+     - [ ] Update SOT
 - EZR Improvements/Bugs
      - [ ] EZR Update file upload pattern
-     - [ ] EC/NOK work on Profile
 - EZR Form status
      - [ ] Display on MyVA
      - [ ] EZR QA Standards alignment
@@ -22,6 +22,11 @@
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
 
+- [ ] [#121770](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121770) - [FE, PM] Launch at 5%
+- [ ] [#121771](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121771) - [FE, PM] Launch at 25%
+- [ ] [#121772](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121772) - [FE, PM] Launch at 50%
+- [ ] [#121773](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121773) - [FE, PM] Launch at 75%
+- [ ] [#121774](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121774) - [FE, PM] Launch at 100%
 - [ ] [#121764](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121764) - [UX] Update SOT to include new Service history section
 
 #### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
@@ -49,7 +54,7 @@
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
-- **The goal for Sprint 16 is...**
+- **The goal for Sprint 16 is complete EZR Service history QA and address findings, Update CG File upload pattern**
 
 #### List of Planned work
 - EZR Service History
@@ -75,6 +80,7 @@
 - [ ] [#121778](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121778) - [PM] Update DOMO URL funnels and add GA metrics
 - [ ] [#121766](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121766) - [PM] Prep release plan
 - [ ] [#121767](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121767) - [PM] Review release plan
+- [ ] [#113984](https://github.com/department-of-veterans-affairs/va.gov-team/issues/113984) - [FE, BE] Update/Create engineering documentation
 
 #### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
 - [ ] [#118642](https://github.com/department-of-veterans-affairs/va.gov-team/issues/118642) - [Eng] Tech discovery on EZR form statuses on MyVA
@@ -104,7 +110,7 @@
 - 
 
 ---
-## 📆 Sprint 15 (Feb 25 - Mar 10) (PREPLANNED)
+## 📆 Sprint 15 (Feb 25 - Mar 10) 
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
@@ -160,7 +166,7 @@
 
 ---
 ## 📆 Sprint 14 (Feb 11 - Feb 24)
-- [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
+- [x] 🧱 **Sprint Goals not completed** 
 
 ### Sprint Goal summary
 - **The goal for Sprint 14 is to find a resolution to the EZ Intro page looping issue and validate connection with API for service history.**
