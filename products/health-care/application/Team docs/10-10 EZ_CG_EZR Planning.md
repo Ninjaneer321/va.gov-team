@@ -22,19 +22,19 @@
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
 
-- [ ] [#121770](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121770) - [FE, PM] Launch at 5%
-- [ ] [#121771](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121771) - [FE, PM] Launch at 25%
-- [ ] [#121772](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121772) - [FE, PM] Launch at 50%
-- [ ] [#121773](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121773) - [FE, PM] Launch at 75%
-- [ ] [#121774](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121774) - [FE, PM] Launch at 100%
+- [ ] **SPRINT GOAL** [#121770](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121770) - [FE, PM] Launch at 5%
+- [ ] **SPRINT GOAL** [#121771](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121771) - [FE, PM] Launch at 25%
+- [ ] **SPRINT GOAL** [#121772](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121772) - [FE, PM] Launch at 50%
+- [ ] **SPRINT GOAL** [#121773](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121773) - [FE, PM] Launch at 75%
+- [ ] **SPRINT GOAL** [#121774](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121774) - [FE, PM] Launch at 100%
 - [ ] [#121764](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121764) - [UX] Update SOT to include new Service history section
 
 #### Obj: EZR [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/117626)
-- [ ] [#133885](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133885) - [FE] Display EZR form statuses on MyVA
+- [ ] **SPRINT GOAL** [#133885](https://github.com/department-of-veterans-affairs/va.gov-team/issues/133885) - [FE] Display EZR form statuses on MyVA
 
 #### Obj: EZR [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
 - [ ] [#130857](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130857) - [FE/QA] Review and align with the latest QA Standards updates
-- [ ] [#119890](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119890) - [FE/QA] Update file upload pattern
+- [ ] **SPRINT GOAL** [#119890](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119890) - [FE/QA] Update file upload pattern
 
 ##
 ### 10-10EZ
@@ -73,9 +73,9 @@
 ### 10-10EZR
 
 #### Obj: EZR [Add Service History section](https://github.com/department-of-veterans-affairs/va.gov-team/issues/77527)
-- [ ] [#121748](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121748) - [QA] Functional QA
-- [ ] [#121749](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121749) - [QA] Formatting QA
-- [ ] [#121750](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121750) - [QA] Accessibility QA
+- [ ] **SPRINT GOAL** [#121748](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121748) - [QA] Functional QA
+- [ ] **SPRINT GOAL** [#121749](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121749) - [QA] Formatting QA
+- [ ] **SPRINT GOAL** [#121750](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121750) - [QA] Accessibility QA
 - [ ] [#121775](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121775) - [PM] Update and submit Product Guide for review
 - [ ] [#121778](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121778) - [PM] Update DOMO URL funnels and add GA metrics
 - [ ] [#121766](https://github.com/department-of-veterans-affairs/va.gov-team/issues/121766) - [PM] Prep release plan
@@ -94,7 +94,7 @@
 - [ ] ...
 
 #### Obj: EZ [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
-- [ ] **SPRINT GOAL** [#130856](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130856) - [FE/QA] Review and align with the latest QA Standards updates
+- [ ] [#130856](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130856) - [FE/QA] Review and align with the latest QA Standards updates
 
 #### Obj: EZ [Improvements/BUGS](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40162)
 - [ ] ...
@@ -102,7 +102,7 @@
 ## 
 ### 10-10CG
 #### Obj: CG [Improvements/BUGs](https://github.com/department-of-veterans-affairs/va.gov-team/issues/40165)
-- [ ] [#119892](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119892) - [FE/QA] Update file upload pattern
+- [ ] **SPRINT GOAL** [#119892](https://github.com/department-of-veterans-affairs/va.gov-team/issues/119892) - [FE/QA] Update file upload pattern
 
 ##
 ### Team PTO
@@ -156,7 +156,7 @@
 ## 
 ### 10-10CG
 #### Obj: CG [Improvements shared across forms and/or Platform](https://github.com/department-of-veterans-affairs/va.gov-team/issues/116451)
-- [#130858](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130858) - [FE/QA] Review and align with the latest QA Standards updates
+- [ ] [#130858](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130858) - [FE/QA] Review and align with the latest QA Standards updates
 
 ##
 ### Team PTO
