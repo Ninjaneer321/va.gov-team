@@ -21,7 +21,7 @@
 | dependents_benefits_error_email_notification                       | 686c, 674 | Yes                | No                    | David Becker        | Toggles sending of the Error email notification.                    |
 | dependents_benefits_persistent_attachment_error_email_notification | 686c, 674 | No                 | No                    | David Becker        | Toggles sending of the Persistent Attachment Error email.           |
 | va_dependents_browser_monitoring_enabled                           | 686c, 674 | Yes                | Yes                   | Robin Garrison       | Toggles Datadog RUM/LOG monitoring for 686C-674.                    |
-| va_dependents_view_browser_monitoring_enabled                      | 686c, 674 | No                 | No                    | Robin Garrison       | Toggles Datadog RUM/LOG monitoring for the view dependents app.     |
+| va_dependents_view_browser_monitoring_enabled                      | 686c, 674 | No                 | Yes                    | Robin Garrison       | Toggles Datadog RUM/LOG monitoring for the view dependents app.     |
 | va_dependents_bgs_extra_error_logging                              | 686c, 674 | No                 | No                    | David Becker        | Toggles extra error logging for BGS in 686C-674.                    |
 | dependents_log_vbms_errors                                         | 686c, 674 | Yes                | Yes                   | Tai Wilkin-Corraggio | Log VBMS errors when submitting 686c and 674.                       |
 | **Dependents Verification**                                         | 21-0538   |                    |                       |                     |                                                                     |
