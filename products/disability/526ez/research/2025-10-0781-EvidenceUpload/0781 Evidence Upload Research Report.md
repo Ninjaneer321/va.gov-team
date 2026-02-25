@@ -1,95 +1,134 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "0781 Evidence Upload Research Findings"
+product: "Disability 526EZ"
+team: "Pathways"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-10-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Momo Miyazaki"
+  - "Brent Schneider"
+  - "Amy Goldman"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Gather feedback on the instructional content on each page"
+  - "Evaluate the effectiveness of the formatting and visual hierarchy of the information presented"
+  - "Evaluate whether users are able to navigate through the document upload sections"
+  - "Understand how users think through uploading evidence in support of their condition(s)"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured user interviews"
+  - "Observations"
+  - "Usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 2
+    tablet: 1
+    smartphone: 7
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 3
+    "35-44": 2
+    "45-54": 0
+    "55-64": 6
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 5
+    some_college: 0
+    associates: 1
+    bachelors: 5
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 5
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 2
+    hispanic: 0
+    biracial: 2
+    asian: 0
+    native: 0
+    prefer_not_to_answer: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 6
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Most participants struggled to understand the differences between the three sections of the supporting evidence upload experience"
+  - "7 out of 8 participants could navigate the document upload process"
+  - "8 out of 10 participants wanted more information up front about the evidence they could submit to support their claim"
+  - "2 out of 10 participants were drawn to the 'Notice of evidence needed' alert but only skimmed the instructional content above"
+  - "6 out of 10 participants didn't understand they would be asked for information about the medical centers they visited. They had inaccurate expectations for what would happen next"
+  - "6 out of 10 participants found the detailed list of document types helpful"
+  - "5 out of 8 participants didn't find the 'How to scan a file' instructions helpful"
+  - "4 out of 8 participants appreciated that the 'Examples of supporting documents' accordion repeated content from the previous page. Others felt the accordion should provide more information or examples"
+  - "4 out of 5 participants successfully completed or predicted how to delete a document"
+  - "6 out of 8 participants expected a summary page to confirm which documents they uploaded"
+  - "3 out of 5 participants found it confusing that the two upload pages looked identical and didn't know what to upload"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Maintain the current process of having one page for uploading supporting documents with three specific changes: 1) Make changes to instructional content, 2) Add accordions and additional information design components to support the hierarchy of instructional content, 3) Update the upload component to V3"
+  - "Keep the progression of screens for uploading documents"
+  - "Provide more detailed information about acceptable supporting documents as part of the introduction to the section, with more detail about each document type"
+  - "Keep the 'Notice of evidence' content but review its positioning on the page to help it attract more attention"
+  - "Reframe content to specify that the Veteran will be providing information about where they received treatment so the VA can request treatment records on their behalf"
+  - "Continue to provide the detailed list of document types and include as much detail as possible about each document type"
+  - "Change the 'How to scan a file' content to be less specific about applications and focus on the general process. Add details about naming conventions, file size, and upload limits"
+  - "Keep the accordion content that repeats examples of supporting documents to support those who will use it as a reference when selecting document type. Review the placement of this information"
+  - "Keep the summary pages as a way for people to confirm their uploads"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Native Hawaiian or other Pacific Islander"
+  - "Asian"
+  - "Native, American Indian or Alaska Native"
+  - "Transgender"
+  - "Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman"
+  - "Gay, lesbian, or bisexual"
+  - "Assistive technology users"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "DSC: Accordions"
+  - "DSC: Alert Boxes"
+  - "DSC: Form - File Input"
+  - "DSP: Ask users for files"
+  - "DSP: Help users to check answers"
+  - "DSP: Content Presentation"
+  - "DSP: Contextual Help"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "PRDT: Disability-526EZ"
+  - "Form 0781"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "evaluative"
+  - "cognitive-disability"
+  - "mental-health"
+  - "PTSD"
+  - "evidence-upload"
+  - "document-upload"
 ---
 
 # **0781 Evidence Upload Research Report**
