@@ -138,7 +138,6 @@
 - [ ] **SPRINT GOAL** [#134211](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134211) - [BE] API testing in RI
 - [ ] **SPRINT GOAL** [#132636](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132636) - [FE] Review Content feedback on File Upload page
 - [ ] **SPRINT GOAL** [#114031](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114031) - [FE] Update content on File Upload page
-- [ ] **SPRINT GOAL** [#125472](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125472) - [FE] Update schema
 
 
 ##
