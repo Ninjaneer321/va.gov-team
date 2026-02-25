@@ -1,8 +1,8 @@
 # va-button Design Decisions
-Last updated: 06-05-2025
+Last updated: 02-25-2026
 
 - [ADR: 001 - Destructive button](#adr-001---destructive-button)
-
+- [ADR:002 - Remove radio as buttons guidance](#adr-001---Remove-radio-as-buttons-guidance)
 
 ## ADR 001 - Destructive button
 
@@ -144,10 +144,39 @@ To ensure a destructive button conforms to accessibility requirements defined by
 ```css
 .usa-button--destructive {
   color: #ffffff; /* white text */
-  background-color: #D83933; /* contrast checked red */
-}
-```
 
-#### Conclusion:
+---
+
+## ADR 002 - Remove radio as buttons guidance
+
+### Status: ACCEPTED
+
+- Date issue raised: Dec 17, 2025
+- Decision date: Feb 25, 2026
+
+### Context
+
+- Button Documentation Updates - Radio buttons as buttons guidance updates [#5341](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/5341)
+- Button: Remove 'button as radio' section from docs(Github branch) [#5801](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/pull/5801)
+
+The VA design system documentation includes guidance on choosing components for UI patterns. During a recent review of the guidance for button and radio components, the team identified existing documentation that describes using button elements as radio button options. This guidance appears to have been introduced for a special use case that is now archived, and there is uncertainty about whether this exception should remain in the guidance.
+
+Additionally, the mobile team indicated that the use case could be better served by a radio tile pattern instead of button elements acting as radio options.
+
+This led to the need to evaluate whether to retain, update, or remove the guidance on buttons as radio options.
+
+### Decision
+We will remove the guidance since there is no longer a valid use case. There is not a team using this pattern and it was more of a special use case. If teams do need this in the future, they can reference it here.
+
+#### Guidance removed from the documentation
+This variation substitutes the large tap target of a button where a radio button would traditionally be used. This serves a similar purpose to the USWDS Tile variation of a Radio button.
+
+- Limit to Yes/No. This variation should be limited to Yes/No questions rather than used as a substitute for radio buttons which can more readily handle 3 or more responses.
+= Reflect selections. The response of the user must change the button from a secondary button to a $vads-color-primary-dark background in order to reflect the state of the user’s response.
+
+### Consequences
+If teams do decide to use Radio's as buttons it will be more challenging for teams to revive guidance that has been deprecated. 
+
+### Open Questions
 
 An accessible destructive button ensures clarity, user awareness, and supports careful decision-making through clearly indicated consequences, well-defined semantic elements, sufficient contrast, and confirmation of potentially irreversible actions, adhering closely to WCAG and Section 508 compliance.
