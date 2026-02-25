@@ -131,7 +131,7 @@ tags:
   - "DSP: Ask users for email address"
   - "DSP: Ask users for names"
   - "DSP: Ask users for phone numbers"
- - "DSP: Error Message Guide"
+  - "DSP: Error Message Guide"
   - "DSP: Help users to check answers"
   - "DSP: Notifications"
   - "HDW: Desktop"
