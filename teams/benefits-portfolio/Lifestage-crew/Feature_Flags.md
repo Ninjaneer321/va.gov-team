@@ -42,7 +42,7 @@
 | event_bus_gateway_pension_email_template                           | 527       | Yes                | Yes                   | Liana Fleming       | Toggle to enable pension email template in eventbus-gateway.        |
 | pension_browser_monitoring_enabled                                 | 527       | Yes                 | Yes                   | Wayne Weibel        | Pension Datadog RUM monitoring.                                     |
 | pension_itf_validate_data_logger                                   | 527       | No                 | Yes                    | Bryan Alexander     | Toggle sending of the ITF Validate Data to Rails Logger.            |
-| pension_rating_alert_logging_enabled                               | 527       | No                 | No                    | Robin Garrison       | Enable Datadog logging for disability rating alert in pension form. |
+| pension_rating_alert_logging_enabled                               | 527       | Yes                 | Yes                    | Robin Garrison       | Enable Datadog logging for disability rating alert in pension form. |
 | **Burial Benefits**                                                | 530       |                    |                       |                     |                                                                     |
 | burial_form_enabled                                                | 530       | Yes                | Yes                   |                     | Master toggle for the burial form.                                  |
 | burial_bpds_service_enabled                                        | 530       | No                 | No                    | Bryan Alexander     | Enables the BPDS service for Burial.                                |
