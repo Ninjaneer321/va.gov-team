@@ -10,16 +10,17 @@ A medication is **refillable** only if **ALL** of the following conditions are m
 
 ### Gate 1: Medication Classification
 
-**Condition:** Must be classified as a **VA Prescription**
+**Condition:** Must be classified as a **VA Prescription** AND must NOT be a DoD (Department of Defense) medication
 
 See [Oracle Health Medications - Categorization and Filtering Specification](oracle_health_categorization_spec.md) for complete categorization rules.
 
 | Classification     | Refillable?           |
 | ------------------ | --------------------- |
 | VA Prescription    | Continue to next gate |
+| DoD Medication     | **NOT REFILLABLE**    |
 | Any other category | **NOT REFILLABLE**    |
 
-_Rationale: Only VA Prescriptions (VA-dispensed prescriptions for home use) can be refilled through the VA pharmacy system._
+_Rationale: Only VA Prescriptions (VA-dispensed prescriptions for home use) can be refilled through the VA pharmacy system. DoD medications are managed by Department of Defense pharmacies and cannot be refilled through VA._
 
 ---
 
@@ -77,7 +78,24 @@ _Rationale: If no refills remain, the patient must request a renewal instead of 
 
 ---
 
-### Gate 5: Dispense History
+### Gate 5: Prescription Number (Rx#)
+
+**Condition:** The prescription must have been processed by pharmacy and assigned a prescription number (Rx#)
+
+A prescription receives an Rx# when the order (OrderID) is processed by the pharmacy in the Medication Management Record (MMR). Without an Rx#, the prescription has not yet been verified/processed by pharmacy and is not eligible for refill.
+
+| Rx# State                  | Refillable?           |
+| -------------------------- | --------------------- |
+| Rx# assigned               | Continue to next gate |
+| No Rx# assigned            | **NOT REFILLABLE**    |
+
+_Rationale: A prescription that has not been processed by the pharmacy and assigned an Rx# is not yet ready to be refilled. The pharmacy must first verify and process the order._
+
+> **Note:** In practice, a prescription cannot have an initial fill without first being assigned an Rx#, so this gate will typically be satisfied before Gate 6 (Dispense History) is evaluated. However, it is listed explicitly because it represents the fundamental pharmacy-processing prerequisite.
+
+---
+
+### Gate 6: Dispense History
 
 **Condition:** Must have at least one `MedicationDispense` resource associated with the `MedicationRequest`
 
@@ -88,9 +106,11 @@ _Rationale: If no refills remain, the patient must request a renewal instead of 
 
 _Rationale: A medication that has never been dispensed cannot be refilled. The initial fill must be processed first._
 
+> **Future Enhancement:** Prescriptions that are "on file" (i.e., have been assigned an Rx# by pharmacy but have not yet had an initial fill) should eventually be presented as refillable. This is analogous to the `ACTIVE: PARKED` status in VistA. Currently, however, the refill request mechanism requires at least one completed dispense, so this gate remains in effect. This gate will be updated when the system supports refill requests for "on file" prescriptions.
+
 ---
 
-### Gate 6: No In-Progress Dispense
+### Gate 7: No In-Progress Dispense
 
 **Condition:** Most recent `MedicationDispense` must NOT have an in-progress status
 
@@ -118,7 +138,7 @@ _Rationale: Cannot request a new refill while a previous dispense is still being
 
 ---
 
-### Gate 7: No Pending Refill Request
+### Gate 8: No Pending Refill Request
 
 **Condition:** Must NOT have a pending refill request (refill_status != 'submitted')
 
@@ -131,7 +151,7 @@ A pending refill request exists if:
 | ----------------- | -------------------------- |
 | `active`          | **REFILLABLE ✓**           |
 | `expired`         | Already failed Gate 3 or 4 |
-| `refillinprocess` | Already failed Gate 6      |
+| `refillinprocess` | Already failed Gate 7      |
 | `submitted`       | **NOT REFILLABLE**         |
 | Other statuses    | **REFILLABLE ✓**           |
 
@@ -146,7 +166,8 @@ flowchart TD
     Start([Is Medication Refillable?]) --> Gate1
 
     Gate1{Gate 1:<br/>Medication Classification?}
-    Gate1 -->|Documented/Non-VA Medication| NotRefillable1[NOT REFILLABLE<br/>Non-VA Medication]
+    Gate1 -->|DoD Medication| NotRefillable1[NOT REFILLABLE<br/>DoD/Non-VA Medication]
+    Gate1 -->|Documented/Non-VA Medication| NotRefillable1
     Gate1 -->|Clinic Administered/Inpatient/Pharmacy Charges/Other| NotRefillable1
     Gate1 -->|VA Prescription| Gate2
 
@@ -163,17 +184,21 @@ flowchart TD
     Gate4 -->|No| NotRefillable4[NOT REFILLABLE<br/>Use renewal process]
     Gate4 -->|Yes| Gate5
 
-    Gate5{Gate 5:<br/>MedicationDispense count > 0?}
-    Gate5 -->|No| NotRefillable5[NOT REFILLABLE]
+    Gate5{Gate 5:<br/>Rx# assigned?}
+    Gate5 -->|No| NotRefillable5[NOT REFILLABLE<br/>Not yet processed by pharmacy]
     Gate5 -->|Yes| Gate6
 
-    Gate6{Gate 6:<br/>Most recent dispense<br/>NOT in-progress?<br/>- Not preparation<br/>- Not in-progress<br/>- Not on-hold}
-    Gate6 -->|No, has in-progress dispense| NotRefillable6[NOT REFILLABLE]
+    Gate6{Gate 6:<br/>MedicationDispense count > 0?}
+    Gate6 -->|No| NotRefillable6[NOT REFILLABLE]
     Gate6 -->|Yes| Gate7
 
-    Gate7{Gate 7:<br/>No pending refill request?<br/>refill_status != 'submitted'}
-    Gate7 -->|No, has pending request| NotRefillable7[NOT REFILLABLE]
-    Gate7 -->|Yes| Refillable[REFILLABLE ✓]
+    Gate7{Gate 7:<br/>Most recent dispense<br/>NOT in-progress?<br/>- Not preparation<br/>- Not in-progress<br/>- Not on-hold}
+    Gate7 -->|No, has in-progress dispense| NotRefillable7[NOT REFILLABLE]
+    Gate7 -->|Yes| Gate8
+
+    Gate8{Gate 8:<br/>No pending refill request?<br/>refill_status != 'submitted'}
+    Gate8 -->|No, has pending request| NotRefillable8[NOT REFILLABLE]
+    Gate8 -->|Yes| Refillable[REFILLABLE ✓]
 
     style Refillable fill:#28a745,color:#fff
     style NotRefillable1 fill:#dc3545,color:#fff
@@ -184,6 +209,7 @@ flowchart TD
     style NotRefillable5 fill:#dc3545,color:#fff
     style NotRefillable6 fill:#dc3545,color:#fff
     style NotRefillable7 fill:#dc3545,color:#fff
+    style NotRefillable8 fill:#dc3545,color:#fff
 ```
 
 ---
@@ -192,13 +218,14 @@ flowchart TD
 
 | Gate | Condition (must be TRUE to pass)                                                                                  | Fail Result    |
 | ---- | ----------------------------------------------------------------------------------------------------------------- | -------------- |
-| 1    | Medication is classified as **VA Prescription** (see [categorization spec](oracle_health_categorization_spec.md)) | NOT REFILLABLE |
+| 1    | Medication is classified as **VA Prescription** AND is NOT a DoD medication (see [categorization spec](oracle_health_categorization_spec.md)) | NOT REFILLABLE |
 | 2    | `MedicationRequest.status == 'active'`                                                                            | NOT REFILLABLE |
 | 3    | `MedicationRequest.dispenseRequest.validityPeriod.end` exists AND current date ≤ `validityPeriod.end`             | NOT REFILLABLE |
 | 4    | Refills remaining > 0                                                                                             | NOT REFILLABLE |
-| 5    | `MedicationDispense` count > 0                                                                                    | NOT REFILLABLE |
-| 6    | Most recent `MedicationDispense.status` is NOT `preparation`, `in-progress`, or `on-hold`                         | NOT REFILLABLE |
-| 7    | No pending refill request (refill_status != 'submitted')                                                          | NOT REFILLABLE |
+| 5    | Prescription has been assigned an Rx# by pharmacy                                                                 | NOT REFILLABLE |
+| 6    | `MedicationDispense` count > 0 _(see future enhancement note for "on file" prescriptions)_                        | NOT REFILLABLE |
+| 7    | Most recent `MedicationDispense.status` is NOT `preparation`, `in-progress`, or `on-hold`                         | NOT REFILLABLE |
+| 8    | No pending refill request (refill_status != 'submitted')                                                          | NOT REFILLABLE |
 
 **If all gates pass → REFILLABLE ✓**
 
