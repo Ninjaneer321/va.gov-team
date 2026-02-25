@@ -1,102 +1,119 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Urgent Care Mashup Study Research Findings"
+product: "Facility Locator"
+team: "VSA, Facility Locator"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-07-20"
+researchers: 
+  - "Leyda Hughes"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand how an 'All urgent care' option might influence the way a user searches for urgent care"
+  - "Determine whether or not the new design supports users in understanding all of the urgent care options available to them"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Generative questioning"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 6
+  service_members: 0
+  caregivers: 2
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 1
+    "55-64": 5
+    "65-74": 1
+    "65+": 0
+    unknown: 1
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
+  location: 
+    urban: 3
+    rural: 4
+    unknown: 1
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 8
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 3
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "7 out of 8 Participants did not know about the Community urgent care benefit."
+  - "½ of all participants filtered urgent care options by 'VA health' or 'VA urgent care'."
+  - "Participants understood 'Urgent care benefit information' is something they should click."
+  - "Facilities with statuses stating 'Limited services and hours' were interpreted as being less available or having fewer services than those with 'Call for services and hours'."
+  - "Veterans use 'in network', 'outside' and 'civilian' to describe VA and community providers."
+  - "Veterans don't believe it's up to them to decide where to go for urgent care."
+  - "Close proximity is a crucial factor when choosing urgent care."
+  - "Lack of visual affordances impacts how users perceive page data and functionality."
+  - "Service type is one of many factors that drives the urgent care selection process."
+  - "Two Veterans specifically asked for wait times to be surfaced in search results."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Don't preselect 'VA health' under 'Choose a VA facility type' which appears to influence the more common path of 'VA health' / 'Urgent care' which in turn limits the total choices available to them."
+  - "Do not style 'Call for services and hours' as a status - use a more subtle treatment."
+  - "Proceed with the linkable info status styling to communicate Community urgent care benefits information."
+  - "Use language that mirrors how Veterans understand and communicate benefit and facility terminology and highlight 'what's in it for them'."
+  - "On Community care listings, use words that Veterans use like 'in-network' to communicate that a location will be covered by VA health benefits."
+  - "On the Community Care urgent care information page, lead with the benefit that is new or differentiate how it differs from other programs with a similar name."
+  - "Add more visual affordances to page functionality."
+  - "Be more efficient with the use of space and words wherever possible."
+  - "Add the number of listings to the search results line of text that appears above the listings and map."
+  - "Use consistent typographic styling for results between VA and Community location listings so that important differences appear more salient."
+  - "Look for ways to improve scrolling functionality."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "A/B test the recommended change to defaulted facility and service type menus"
+  - "Conduct baseline usability tests on live Facility Locator to gather more data on user's actual experience with browsers, load times and search experiences"
+  - "Include a subset of usability tests on mobile or create a separate study with a mobile first focus"
+  - "Continue research on usability issues such as scrolling"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Synthesis spreadsheet"
 tags:
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Caregivers"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Facilities"
+  - "DSC: Search Input"
+  - "DSP: Help users to navigate a long list"
+  - "Accessibility"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "evaluative"
 ---
+
 # Research Findings: Urgent Care Mashup Study
 **Digital Services Veterans Affairs (DSVA), VSA, Facility Locator**<br>
 
