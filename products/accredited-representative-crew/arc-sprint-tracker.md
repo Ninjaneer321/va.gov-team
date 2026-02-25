@@ -2,6 +2,98 @@
 
 _Overview: This tracker is designed to track sprint goals with completed work, providing a comprehensive view of goals achieved._
 
+<!-- 
+TEMPLATE - Copy/adjust content below for a new sprint
+
+# Sprint 10 (Feb 10-23, 2026)
+
+## Sprint 10 Goals
+
+- [ ] Sprint Goals Approved by Enablement
+
+**Team Accreditation**  
+**Team Benefits**
+**Team Appoint**
+**Engagement**
+**General Crew**
+
+## Sprint 10 Demos
+Recording Link TBD
+
+## Sprint 10 Delivery
+
+- [ ] Sprint Delivery Approved by Enablement
+
+Total Completed in Sprint 9: 51 tickets, 150 points + 2 spikes\
+Crew Count in Sprint 9: 20 active teammates (not including Principal Leads)\
+Average Teammate Velocity in Sprint 9: 150 points / 20 teammates = 7.5 points / teammate (not including Principal Leads)\
+Carrying into Sprint 10: 17 tickets, 63 points + 3 spikes
+
+## Sprint 10 Tickets
+
+**Team Accreditation**
+**Team Benefits**
+**Team Appoint**
+**Engagement**
+**General Crew**
+-->
+
+
+# Sprint 11 (Feb 24 - March 9, 2026)
+
+## Sprint 11 Goals
+
+- [ ] Sprint Goals Approved by Enablement
+
+**Team Accreditation**
+
+1. [ARP Post-MVP] Enable individual acceptance of representation requests: Continue engineering work, on track for dev-complete by early Sprint 12
+2. [Rep Data] GCLAWS SQL Server API integration:
+    Conclude development, launch -- back-end-only feature, no user impact
+3. [Rep Data] Stability and Maintenance / Address Approximation:
+    If unblocked, can complete development and launch
+4. [21a] Research:
+    Preparing for resumption of new work with GCLAWS team
+
+**Team Benefits**
+
+1. [ITF] MVP — Development: Finishing up remaining a11y findings and completing ITF email notification via VA Notify.
+2. [Claimant Details] MVP - Development: Create Architecture Intent artifacts, build various scenarios for Claimant Overview tab related to established POA vs. no POA, create endpoint for rep info & submissions history, & update Search results to match POA scenarios.
+3. [ARP Post-MVP] Accessibility Testing & Cleanup: Addressing accessibility testing in ARP while addressing high priority findings prior to requesting an audit from 508 office. 
+4. [ARP Post-MVP] Cleanup Tasks: Adding capability to disable ARP and reviewing benefits intake records before enabling the deletion of expired records. 
+5. [Discovery Research] Understanding how Reps manage the claims cycle across all clients: Present and archive materials
+6. [Rep-Facing Form] 526ez v2 — Research: Representative 526ez / 686c Research Plan & Convo Guide
+7. [Super Epic TBD] Improve ARP Help page content: Enhance content/help page 
+
+**Team Appoint**
+
+1. [Filter and Details] Find a Rep v3 - Development: Continue development to add the VSO organization filter.
+2. [21-22a] Research: Understand the 21-22a representation relationship and supporting VA processes - Wrap up SME interviews + analysis, create research plan & convo guide for 21-22a user research & recruit users.
+3. [Improve Error UX] Representative Status: Representative Status Error Rate Discovery Work
+4. Bug | Profile | Accredited rep widget | Incorrect data showing for Staging Test User
+
+**Engagement**
+
+1. Determine how to utilize the representative research panel, with recruitment in mind
+2. Rep Onboarding
+    1. Follow up emails to: Colorado Division of Veterans Affairs and Fleet Reserve Association
+    2. Generate missing email spreadsheet for: American Veterans, Veterans Voice of America, Vietnam Veterans of America
+
+
+## Sprint 11 Demos
+TBD
+
+## Sprint 11 Delivery
+TBD
+
+## Sprint 11 Tickets
+
+**Team Accreditation**
+**Team Benefits**
+**Team Appoint**
+**Engagement**
+**General Crew**
+
 # Sprint 10 (Feb 10-23, 2026)
 
 ## Sprint 10 Goals
@@ -39,11 +131,67 @@ _Overview: This tracker is designed to track sprint goals with completed work, p
    4. Coordinate with VSO Liaison for Batch 1 outreach 
 
 ## Sprint 10 Demos
-TBD
+
+**Team Accreditation**
+
+1. Individual Accept Join Model
+
+**Team Benefits**
+
+1. ADE Finding: Hamburger menu obscures focusable elements at high zoom
+2. ADE Finding: Menu options aren't selectable + improve keyboard interaction + fixing color contrast
+3. ADE Finding: Announcements cut off / require multiple swipes on iOS + VoiceOver 
+4. ADE Finding: Invisible "sort ordering" field accesible to iOS + VO users 
+5. ADE Finding: Header elements are affected at 400% zoom & 768px width
+6. Submissions History tab: No Submissions
+
+**Team Appoint**
+
+1. Find a Representative updates
+    1. Updated rep definition content, sort behavior, and moved distance below rep name in the search results 
+    2. Adding icons to the search results
+
+**Engagement**
+
+* Onboarding
+    * Veterans of Foreign Wars (2323 reps) - Updated remaining 14 reps contact info
+    * Colorado (153) - Waiting to get approval from director to use ARP
+    * Arizona - Approved to enable Representation Requests; which will be enabled next sprint
+    * American Legion - Pending agreement to start bulk contact update for onboarding
+    * Catholic War Veterans - Working on approvals for bulk contact update with CO and OGC
+    * Fleet Reserve Association - Org currently retrieving missing contact info for reps
+    * NACVSO - Org currently retrieving missing contact info for reps
+    * Connected with IGA contact to facilitate introductions with state org leadership for Batch 1; we prioritized orgs who had higher activity in SEP and/or had multiple requests from reps to utilize the portal
+        * Texas Veterans Commission
+        * North Carolina Dept Military and Veteran Affairs
+        * Minnesota Department of Veteran Affairs
+        * Wisconsin Department of Veterans Affairs
+        * Pennsylvania Department of Military and Veterans Affairs
+* February Support report
+    * Number of emails: 63, as of Feb 23rd
+        * 3 more than Jan
+    * Common topics
+        * Unable to verify their accreditation
+            * Requires 15-20min delay during initial login
+            * Missing email address
+            * FAR not in sync with OGC
+        * Unable to access vet's file in VBMS 
+        * 21-22a/Representation Requests - 2 
+    * Feedback
+        * Attorneys and claims agents relied on viewing this info in SEP for veterans:
+            * Overall ratings
+            * Status of current claims
+            * Payment logs
+
 
 ## Sprint 10 Delivery
 
-TBD
+- [ ] Sprint Delivery Approved by Enablement
+
+Total Completed in Sprint 9: 51 tickets, 150 points + 2 spikes\
+Crew Count in Sprint 9: 20 active teammates (not including Principal Leads)\
+Average Teammate Velocity in Sprint 9: 150 points / 20 teammates = 7.5 points / teammate (not including Principal Leads)\
+Carrying into Sprint 10: 17 tickets, 63 points + 3 spikes
 
 ## Sprint 10 Tickets
 
