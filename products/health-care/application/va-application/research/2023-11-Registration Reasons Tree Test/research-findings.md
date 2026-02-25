@@ -1,103 +1,119 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "10-10EZ Registration Reasons Tree Test - Research Findings"
+product: "10-10EZ Health Enrollment Application"
+team: "Not specified in report"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-12-01"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Angela Agosto"
+  - "Hieu Vo"
+  - "Jessica Stump"
+  - "Katelyn Caillouet"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Learn more about WHERE on VA.gov do Veterans expect to complete tasks related to registration reasons"
+  - "Discover WHAT actions Veterans take prior to seeking care for registration reasons"
+  - "Learn more about the Veteran's mental model of what they are getting when they sign up for their registration reason vs enrolling in VA health care"
 methodology:
-- Method 1
-- Method 2
+  - "Unmoderated tree test"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 35
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 35
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 6
+    "35-44": 12
+    "45-54": 5
+    "55-64": 2
+    "65+": 3
+    unknown: 2
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 4
+    some_college: 9
+    associates: 6
+    bachelors: 12
+    masters: 4
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 35
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 21
+    black: 4
+    hispanic: 7
+    biracial: 2
+    asian: 3
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 9
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Veterans are not navigating to the 10-10EZ form for registration reasons"
+  - "Confusion around registration and enrollment terminology within the health care benefits space"
+  - "Veterans reported a preference to sign up online but wanted additional benefits in-person"
+  - "For some of the registration reasons, scheduling the appointment while signing up was a preference"
+  - "Wanting the VA to recommend and inform of more benefits"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Align with Veteran's mental model around the registration and enrollment terms, process and eligibility prioritization to create a more streamlined process for Veterans when signing up for health care benefits"
+  - "Allow for more links to sign up for health care from the perspective of the Veteran - what care or health service are they seeking to sign up for, with focus on locations hub and disability hub as prominent areas"
+  - "Ensure there is a simplified path online where the Veteran can learn about more health care benefits if they want to move from registration only to enrollment in medical benefits package"
+  - "More visibility into health services and care available that are personalized based on eligibility through personalized recommendations via email or in-person at appointments"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Veterans perceive disability and health care benefits as a package deal rather than separate systems"
+  - "Multiple entry points needed across VA.gov for health care registration aligned with specific care types"
+  - "Need for personalized benefit recommendations based on eligibility"
 further_research_needed:
-- Area 1
-- Area 2
+  - "Research including perspectives of Veterans with other than honorable discharge"
+  - "Research including perspectives of rural Veterans"
+  - "Research including perspectives of Veterans of immigrant origin"
+  - "Research including perspectives of Veterans living abroad"
+  - "Research including perspectives of Native Veterans"
+  - "Research including perspectives of LGBTQ+ Veterans"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Other than honorable discharge"
+  - "Rural"
+  - "Immigrant Origin"
+  - "Living Abroad"
+  - "Native"
+  - "LGBTQ+"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Optimal Workshop Tree Test"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: health-care-application"
+  - "PRDT: Benefit hubs"
+  - "PRDT: Facilities"
+  - "tree-test"
+  - "unmoderated-research"
+  - "VETJNY: Taking care of themselves"
+  - "DSP: Help users to navigate a long list"
+  - "usability"
 ---
+
 # 10-10EZ Registration Reasons Tree Test - Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 10-10EZ, Health Enrollment**
