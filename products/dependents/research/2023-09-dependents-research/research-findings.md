@@ -1,105 +1,129 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Dependents Research, September 2023, Research Findings"
+product: "Dependent Verification"
+team: "Benefits and Claims - Dependent Experience"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-11-24"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Julie Pedtke"
+  - "Ajia Wallace"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Learn how Veterans understand dependent benefits and risks as they relate to compensation, and how they navigate the process today"
+  - "Evaluate the perceived trustworthiness and effectiveness of our proposed notification"
+  - "Learn Veterans' device and notification preferences"
 methodology:
-- Method 1
-- Method 2
+  - "Semi-structured interviews"
+  - "Usability testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 5
+  tablet: 0
+  smartphone: 3
+  assistive_technology: 0
+participants_total: 15
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 24
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 4
+    "65+": 0
+    unknown: 20
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 24
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 14
+    unknown: 10
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 14
+    black: 6
+    hispanic: 1
+    biracial: 3
+    asian: 2
+    native: 3
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 12
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Upon receiving our reminder email, the majority of Veterans said they would review their dependents—despite not expecting a need to update"
+  - "Most Veterans felt they could trust the prototype email"
+  - "Veterans had mixed feelings about the focus on overpayments in the subject and body of the email"
+  - "Veterans are looking for a 'one-stop-shop' on VA.gov that would allow them to review, manage, and stay informed on eligibility opportunities"
+  - "Veterans expressed a preference for an email reminder, with mail as a second popular choice"
+  - "The Veterans we spoke to were aligned that an annual reminder would be appropriate for dependent benefits"
+  - "Veterans shared several scenarios where challenges arose with privacy, communication with dependents, and managing access to information"
+  - "Not everyone was clear on who might qualify as a dependent. Spouses and children were well understood, but stepchildren and parents were mentioned less frequently. There was also confusion around the eligibility criteria for children"
+  - "Veterans were familiar with common reasons to add and remove dependents, but also brought their own motivations and concerns"
+  - "Veterans described the time-sensitive nature of benefits for children turning 18 or enrolled in school, and stressed the importance of learning about these benefits at the right time to avoid missing out"
+  - "There was a strong interest in proactive communications tailored to the Veteran with information about eligibility and benefits based on dependents' life stages"
+  - "Veterans had some awareness of overpayments, but not a high level of confidence that they understood how to prevent them"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Consider more positive language about not missing out on benefits"
+  - "Add context on the risk of benefit overpayments for those who are unfamiliar, and emphasize the connection between updating info and preventing overpayments"
+  - "Explore adding language that makes it clear this is a new ask to review annually"
+  - "Expand the list of examples in the email to raise awareness on eligibility (eg, for parents and stepchildren)"
+  - "Send the notification early in the year when folks are on the lookout for documents"
+  - "Align with other benefits teams (Pension, 10-10, Profile) on how we add/remove dependents"
+  - "Combine the ability to review current and add/remove dependents onto a single page"
+  - "Consider a fast-follow notification ahead of minor children turning 18"
+  - "Explore a picklist feature that includes upcoming dates and other programs dependents might be eligible for"
+  - "Break down information on static pages around specific dependents and life stages"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Research with Veterans who have experienced overpayments due to dependents"
+  - "Research with Veterans who had to remove a spouse as a dependent due to death or divorce"
+  - "Research with Veterans who claimed a parent or permanently disabled child as a dependent"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Veterans who don't have a degree"
+  - "Veterans with other than honorable discharge"
+  - "Veterans of immigrant origin"
+  - "Veterans who are expats (living abroad)"
+  - "Veterans who identify as Transgender or Nonbinary"
+  - "Assistive Tech Users"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Pension'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- usability-testing
-- remote-research
+  - "AUD: Veterans"
+  - "AUD: Dependents"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Healthcare"
+  - "BNFT: Pension"
+  - "PRDT: VA-notify"
+  - "PRDT: Form 21-686c"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "RESRCH: Evaluative"
+  - "RESRCH: Generative"
+  - "VETJNY: Getting out"
+  - "VETJNY: Putting down roots"
+  - "VETJNY: Retiring"
 ---
+
 # Dependents Research, September 2023, Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Dependent Verification, Benefits and Claims - Dependent Experience**
