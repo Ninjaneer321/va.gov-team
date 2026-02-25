@@ -9,7 +9,7 @@
 | dependents_pension_check                                           | 686c, 674 | Yes                | No                    |                      | Manages whether the Pension check is enabled for 686/674.           |
 | dependents_removal_check                                           | 686c, 674 | Yes                | Yes                   |                      | Manages if dependent removal claim codes are enabled for 686.       |
 | dependents_bypass_schema_validation                                | 686c, 674 | No                 | No                    | Evan Smith          | Bypasses vets_json_schema validation for dependency claims.         |
-| va_dependents_no_ssn                                               | 686c, 674 | Yes                | Yes                   | Asha Misra          | Toggles the no SSN flow for adding dependents.                      |
+| va_dependents_no_ssn                                               | 686c, 674 | Yes                | No                   | Asha Misra          | Toggles the no SSN flow for adding dependents.                      |
 | va_dependents_net_worth_and_pension                                | 686c, 674 | Yes                | Yes                   | David Becker        | Toggles net worth and pension questions.                            |
 | va_dependents_new_fields_for_pdf                                   | 686c, 674 | No                 | No                    | Evan Smith          | Toggles new front-end fields for the PDF.                           |
 | va_dependents_duplicate_modals                                     | 686c, 674 | Yes                | No                    | Robin Garrison       | Toggles duplicate modals for 686C-674.                              |
