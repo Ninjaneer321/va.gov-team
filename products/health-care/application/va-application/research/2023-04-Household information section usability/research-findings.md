@@ -1,102 +1,117 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "2023-04-Household Information Section Usability Research Findings"
+product: "Form 10-10EZ (Health Care Application)"
+team: "1010 Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-08-01"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "David Kennedy"
+  - "Katelyn Caillouet"
+  - "Hieu Vo"
+  - "Jessica Stump"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Test the usability of the experimental pattern for adding multiple dependents to the household financial information section"
+  - "Determine if there are any issues for assistive tech users when they add multiple dependents to the application"
+  - "Determine if the updated content for the household information section is clear and understandable or if any points of confusion remain"
 methodology:
-- Method 1
-- Method 2
+  - "Moderated usability testing"
+  - "Remote research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 5
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 3
+    "55-64": 2
+    "65+": 2
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 5
+    associates: 1
+    bachelors: 0
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 4
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 2
+    black: 2
+    hispanic: 2
+    biracial: 1
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Veterans were able to edit and remove dependents with relative ease using the new experimental pattern"
+  - "Finding dependents from review page can be a challenge"
+  - "Veterans take their time and are careful when completing form fields"
+  - "It's unclear to Veterans why they need to submit data that IRS later verifies"
+  - "Veterans want transparency into lengthy, messy VA processes"
+  - "Login is still a frustration for Veterans who want the benefit of an authenticated experience"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Continue using and monitoring the usability of the experimental pattern for adding, editing, and removing dependents"
+  - "Explore ways to lessen the burden of submitting information that the IRS has available already"
+  - "Explore ways to make information more findable when it's in its expanded form on the review page"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
 underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Cognitive disability"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Veterans who are Native, Asian"
+  - "Veterans who are LGBTQ+"
+  - "Veterans who use assistive tech"
 secondary_research:
-- Web analytics
-- SME interviews
+  - "Household Section research, October 2022"
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Affinity Mapping"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'PRDT: Caregivers'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Form 10-10 EZ"
+  - "DSP: Ask users for multiple responses"
+  - "DSP: Help users to check answers"
+  - "DSP: Form Templates"
+  - "DSC: Form"
+  - "DSC: Modal"
+  - "DSC: Card"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "evaluative"
 ---
+
 # [2023-04-Household Information Section Usability] Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 10-10EZ, 1010 Team**
