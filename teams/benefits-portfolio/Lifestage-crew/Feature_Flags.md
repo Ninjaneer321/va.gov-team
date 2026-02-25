@@ -34,7 +34,7 @@
 | pension_multiple_page_response                                     | 527       | 2 Actors                 | No                    | Todd Rizzolo        | Implement multiple page response pattern.                           |
 | pension_pdf_form_alignment                                         | 527       | No                 | No                    | Bryan Alexander     | Toggle for the new PDF form alignment update.                       |
 | pension_extras_redesign_enabled                                    | 527       | Yes                 | Yes                    | Bryan Alexander     | Enable the new overflow design.                                     |
-| pension_kafka_event_bus_submission_enabled                         | 527       | Yes                | No                    | Bryan Alexander     | Enable the EventBusSubmissionJob for Kafka.                         |
+| pension_kafka_event_bus_submission_enabled                         | 527       | Yes                | Yes                    | Bryan Alexander     | Enable the EventBusSubmissionJob for Kafka.                         |
 | pension_submitted_email_notification                               | 527       | Yes                | No                    | Tai Wilkin-Corraggio | Toggles sending of the Submission in Progress email.                |
 | pension_received_email_notification                                | 527       | No                 | Yes                   | Wayne Weibel        | Toggles sending of the Received email notification.                |
 | pension_error_email_notification                                   | 527       | No                 | Yes                   | Wayne Weibel        | Toggles sending of the Action Needed email notification.            |
