@@ -56,10 +56,10 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
     
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
-|UX: Complete Payment History QC implementation review with Engineering and begin accessibility testing.| P1 |--|--|--|
+|UX: Complete Payment History QC implementation review with Engineering and begin accessibility testing.| P1 | Cerner VistA data discovery|2/25/26|Incomplete|
 |UX: Complete the final Pay.gov usability preparation before initiating the kickoff & recruiting with Perigean.| P2 |--|--|Complete|
-|ENG: Complete 6 of the 9 remaining Payment History Staging review artifacts| P1 |--|--|--|
-|ENG: Complete additional Payment History tasks identified during Front End implementation.| P1 |--|--|--|
+|ENG: Complete 6 of the 9 remaining Payment History Staging review artifacts| P1 | Cerner VistA data discovery|2/25/26|Incomplete|
+|ENG: Complete additional Payment History tasks identified during Front End implementation.| P1 | Cerner VistA data discovery|2/25/26|Incomplete|
 |ENG: Complete and clean up Payment History back end code that was used for development only tasks.| P1 |--|--|Complete|
 |ENG: Complete back end ENG transition tickets to prepare for Benefit Payment Tool support.| P3 |--|--|Complete|
 |ENG: Audit existing benefit payment tool monitors, and map out any cloning into the debt space if necessary.| P3 |--|--|Complete|
@@ -84,8 +84,9 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
  - [X] VA COR approved the Sprint Goals (02/12/26)
 
 **_Delivery + Notes:_**
-- [ ] All goals have been updated in the sprint chart
-- [ ] Any Additional details about goals **not** completed will be documented here
+- [X] All goals have been updated in the sprint chart
+- [X] Any Additional details about goals **not** completed will be documented here
+- Due to the discovery that some records will be from Cerner and others from Vista until all stations finish migrating in 2031, the team has had to alter the solution to account for the multiple data sources. This pivot will take additional work and that had impeeded teh team from QC, staging review artifacts and final work until this multiu data source mapping is complete.
 
 </details>
 
