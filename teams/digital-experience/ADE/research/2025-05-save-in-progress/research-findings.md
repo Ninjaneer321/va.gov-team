@@ -1,4 +1,167 @@
 ---
+title: "Save in Progress Usability Research Findings"
+product: "Request Personal Records form (VA Form 20-10206) / Save in Progress (authenticated VA.gov forms)"
+team: "Accessibility Digital Experience (ADE)"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2025-09-15"
+researchers:
+  - "Cindy Merrill"
+research_goals:
+  - "(primary) Learn about Veterans' expectations for saving information while filling out an online form before submitting it."
+  - "(primary) Get user feedback on design revisions for \"save in progress\" and \"finish this request later\" that reduce redundant messaging around saving."
+  - "(secondary) Get user feedback on error messages and the progress bar while filling out online forms."
+methodology:
+  - "remote moderated usability testing"
+devices_used:
+  desktop: 5
+  tablet: 1
+  smartphone: 5
+  assistive_technology: 6
+participants_total: 11
+demographics:
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age:
+    "25-34": 1
+    "35-44": 2
+    "45-54": 3
+    "55-64": 2
+    "65+": 3
+    unknown: 0
+  education:
+    high_school: 0
+    some_college: 1
+    associates: 2
+    bachelors: 2
+    masters: 4
+    doctorate: 2
+    unknown: 0
+  location:
+    urban: 8
+    rural: 3
+    unknown: 0
+  race:
+    white: 6
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 2
+    native: 0
+  disability:
+    cognitive: 6
+    AT_beginner: 0
+    AT_advanced: 6
+    screen_reader_desktop: 2
+    screen_reader_mobile: 2
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: "unknown"
+    sighted_keyboard: "unknown"
+    captions: "unknown"
+key_findings:
+  - "Most participants didn't know that their information was being saved automatically with every edit."
+  - "Most participants didn't see the informational alerts about saving, and the few who did, didn't remember what they said."
+  - "All participants tried the *Finish later* button and from that learned that their information was saved."
+  - "All participants were able to resume filling out the form after taking a short break and a long break."
+  - "My VA had accessibility issues for screen magnifiers."
+  - "VA forms in general had accessibility issues for screen readers and screen magnifiers."
+  - "The Request Personal Records form had many accessibility issues for screen readers and screen magnifiers."
+  - "Most participants who encountered form errors understood how to resolve them, but there were some exceptions."
+  - "Only half of the participants mentioned the progress bar."
+recommendations:
+  - "Revise the Save in Progress messaging to communicate more effectively that we're saving the user's form information as it's being entered/updated."
+  - "Consider differentiating the unauth and auth versions of the form intro page so they don't look exactly the same except for the very bottom. --> *Consider skipping the auth version of the form intro page*"
+  - "After you click *Finish later*, you should be able to sign out in the Minimal header format, which is currently not possible. We should revert to the full VA.gov header for the authenticated intro page."
+  - "On the forms Review/Submit page, consider moving the \"+\" from the right margin to the left margin. --> *Test this in the next round of usability testing, and work with USWDS on a potential change*"
+  - "On the Review/Submit page, consider shortening the text to be less redundant and less repetitive for screen reader users. --> ***Needs more investigation to reproduce** and find the cause of the repeated announcements*"
+  - "Streamline error handling on the Review/Submit page for the ***Your full name* field so that (1) focus goes to the name field (*vs*. the top of the component), and (2) the error message is announced more clearly."
+  - "Try to **fix announcing issues with JAWS where it says \"has popup\" for the State/Province/Region and Postal code text fields**. --> ***Not possible to fix** because it's the browser-based autofill behavior*"
+  - "Fix the postal code field so it will accept a valid autofill suggestion without returning an error (\"Enter a ZIP code\")."
+  - "Consider adding some **help text that says what the \"VA file number\" is**. --> ***Consider** doing*"
+  - "Consider the design suggestion: The **error message for SSN validation could provide more information**. Instead of saying that it needs 9 digits, it could also say how many digits you entered."
+  - "Explore **prefilling the Veteran's name and address**, which we know once they've signed in. --> *Jeana is working on this*"
+  - "Consider adding a **description of what a \"VA regional office\" is**. --> ***Consider** doing*"
+  - "Consider adding an **explanation or disclaimer about how the VA can provide military records**. --> ***Consider** and work with Content team*"
+  - "In the draft cards under \"Benefit applications and forms\", **make the \"Continue your application\" link scale up with magnification** like everything else on the card already does."
+  - "Consider **renaming the header \"Benefit applications and forms\" to** \"Applications and forms\" or **something else similarly short** so that it will be more accessible to screen magnifier users."
+  - "Investigate the **form navigation/focus issues that 2 screen reader users had while using VoiceOver on iPhones with the Safari** web browser in which focus kept jumping to the top of the page or to the Safari controls below the page. --> ***Not possible to fix***"
+  - "See if **field type announcing by screen readers can happen sooner**, perhaps *before* the field name, to set the user's expectations for  the type of interaction expected. --> ***Not possible to fix***"
+  - "Change the VoiceOver announcement text for dropdown fields from \"Double tap to activate the picker\" to use plain language."
+  - "Try to **fix announcing issues with VoiceOver for the citizenship question, which said it was a checkbox instead of a radio button**. --> ***Not possible to fix** because it's an iOS bug*"
+  - "See if the **duplicate messaging from JAWS for the records checkboxes and mailing address fields can be removed**. --> ***Not possible to fix** because it's a known JAWS bug*"
+  - "At the **top of the form's intro page, consider simplifying the text directly under the H1**: \"Freedom of Information Act (FOIA) or Privacy Act (PA) Request (VA Form 20-10206)\" --> ***Not possible to fix** because this is the legal name of the form*"
+  - "Consider whether having many short pages in a form is preferable to a smaller number of longer pages. Be aware of the feedback that some Veterans dislike VA forms having so many short pages."
+kpi_alignment: []
+outcomes:
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas:
+  - "Revise the Save in Progress messaging to communicate more effectively that we're saving the user's form information as it's being entered/updated."
+  - "Consider differentiating the unauth and auth versions of the form intro page so they don't look exactly the same except for the very bottom. --> *Consider skipping the auth version of the form intro page*"
+  - "After you click *Finish later*, you should be able to sign out in the Minimal header format, which is currently not possible. We should revert to the full VA.gov header for the authenticated intro page."
+  - "On the forms Review/Submit page, consider moving the \"+\" from the right margin to the left margin. --> *Test this in the next round of usability testing, and work with USWDS on a potential change*"
+  - "On the Review/Submit page, consider shortening the text to be less redundant and less repetitive for screen reader users. --> ***Needs more investigation to reproduce** and find the cause of the repeated announcements*"
+  - "Streamline error handling on the Review/Submit page for the ***Your full name* field so that (1) focus goes to the name field (*vs*. the top of the component), and (2) the error message is announced more clearly."
+  - "Fix the postal code field so it will accept a valid autofill suggestion without returning an error (\"Enter a ZIP code\")."
+  - "Consider adding some **help text that says what the \"VA file number\" is**. --> ***Consider** doing*"
+  - "Consider the design suggestion: The **error message for SSN validation could provide more information**. Instead of saying that it needs 9 digits, it could also say how many digits you entered."
+  - "Explore **prefilling the Veteran's name and address**, which we know once they've signed in. --> *Jeana is working on this*"
+  - "Consider adding a **description of what a \"VA regional office\" is**. --> ***Consider** doing*"
+  - "Consider adding an **explanation or disclaimer about how the VA can provide military records**. --> ***Consider** and work with Content team*"
+  - "In the draft cards under \"Benefit applications and forms\", **make the \"Continue your application\" link scale up with magnification** like everything else on the card already does."
+  - "Consider **renaming the header \"Benefit applications and forms\" to** \"Applications and forms\" or **something else similarly short** so that it will be more accessible to screen magnifier users."
+  - "Consider whether having many short pages in a form is preferable to a smaller number of longer pages. Be aware of the feedback that some Veterans dislike VA forms having so many short pages."
+further_research_needed:
+  - "After the Save in Progress messaging gets revised as a result of this research, conduct another round of usability testing to see if it works better than the version tested in this study."
+  - "Check the newly added analytics for the existing \"Finish this request later\" link on VA forms to see how much it's being used. Then see if changing this link to a button (as tested in this study) r"
+underserved_groups_missing:
+  - "Identify as Hispanic, Biracial, or Native"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Beginner AT user"
+secondary_research: []
+synthesis_tools_used:
+  - "Synthesis spreadsheet"
+  - "Mural board"
+tags:
+  - "Accessibility"
+  - "Internal Research:  Platform Research"
+  - "usability-testing"
+  - "evaluative"
+  - "AUD: Veterans"
+  - "BNFT: Records"
+  - "DSC: Accordions"
+  - "DSC: Alert Boxes"
+  - "DSC: Button"
+  - "DSC: Card"
+  - "DSC: Checkbox"
+  - "DSC: Form"
+  - "DSC: Form - Date Input"
+  - "DSC: Form - Radio Button"
+  - "DSC: Form - Select"
+  - "DSC: Form - Text Area"
+  - "DSC: Links"
+  - "DSP: Ask users for a single response"
+  - "DSP: Ask users for addresses"
+  - "DSP: Ask users for dates"
+  - "DSP: Ask users for email address"
+  - "DSP: Ask users for multiple responses"
+  - "DSP: Ask users for names"
+  - "DSP: Ask users for phone numbers"
+  - "DSP: Content Presentation"
+  - "DSP: Contextual Help"
+  - "DSP: Error Message Guide"
+  - "DSP: Help users to check answers"
+  - "DSP: Help users to sign in"
+  - "DSP: Notifications"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+---
 title: Save in Progress Usability Research Findings
 product: VA.gov Forms
 team: Accessibility Digital Experience (ADE)
