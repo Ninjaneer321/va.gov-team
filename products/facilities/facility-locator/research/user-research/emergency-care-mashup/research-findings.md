@@ -1,101 +1,112 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Facility Locator - Emergency Care Mashup Research Findings"
+product: "Facility Locator"
+team: "VSA, Facilities"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-06-03"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Nicholas Osmanski"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Validate the usability and design of the new facility locator emergency care search options and results"
+  - "Enable participants to understand all of the emergency care facility options available to them"
+  - "Validate that the design sufficiently informs participants about community care emergency benefits"
+  - "Enable participants to understand what 'in-network' means in terms of VA and non-VA community partners"
 methodology:
-- Method 1
-- Method 2
+  - "moderated usability testing"
+  - "remote research"
+  - "task-based testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 1
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 4
+    "45-54": 0
+    "55-64": 3
+    "65+": 1
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 9
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 3
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 0
+    hispanic: 2
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 1
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "When seeking emergency care, participants wanted information about services offered, to see the closest available facilities, and clearer information about their benefits"
+  - "When seeking emergency care at community partners, participants wanted clearer and more easily accessible benefits information"
+  - "It was unclear if most participants were able to quickly distinguish between VA locations and community partners in the results list"
+  - "Most participants understood that search results only included in-network locations"
+  - "Most participants did not click to learn more about community care benefits"
+  - "When preparing to go to an emergency facility, participants wanted a clear understanding of services offered, clearer information about benefits, and distance to the closest location"
+  - "Most (8/9) participants wanted to search for a single list containing both VA and community emergency care options"
+  - "Most participants either didn't notice or did not feel the need to point out the yellow emergency alert"
+  - "The facility type label 'In-network emergency care' introduced confusion when juxtaposed with other facility type dropdown options"
+  - "Most participants did not intuitively recognize the blue info alert as access to additional information about benefits"
+  - "Rural participants were particularly conscious of distance and willing to visit whichever location was closest, even if out-of-network"
+  - "Nearly all participants expressed frustration with the process of validating their benefits at community partners"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Change 'In-network emergency care' under Facility type to 'Emergency care'"
+  - "Consider revising the language of the benefits info alert to use more explicit language that makes it more recognizable as a call to action"
+  - "Consider changing the color and style of the emergency alert to increase engagement"
+  - "Collaborate with Content team to determine best language for benefits alert"
+  - "Update content of benefits alert for both Emergency and Urgent care search results"
+  - "Use Design System to choose more effective emergency alert component style"
+  - "Initiate collab cycle and Platform Team review for any changes that will be reflected at component level"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "PRDT: Facilities"
+  - "DSC: Alert Boxes"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "evaluative"
 ---
+
 # Facility Locator - Emergency Care Mashup Research Findings 
 **Digital Services Veterans Affairs (DSVA), VSA, Facilities**<br>
 
