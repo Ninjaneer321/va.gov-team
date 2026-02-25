@@ -1,17 +1,15 @@
 ---
 title: "Income Limits App Usability Testing"
 product: "Income Limits application (VA health care income limits look-up tool)"
-team: "Not specified"
+team: "Sitewide"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
 date: "2023-05-25"
 researchers:
   - "Cindy Merrill"
 research_goals:
   - "get user feedback on the newly designed income limits application"
-  - "refine the design of the application before launch"
 methodology:
-  - "usability testing"
-  - "click-through prototype testing over Zoom"
+  - "remote moderated usability testing"
 devices_used:
   desktop: 2
   tablet: 0
@@ -106,11 +104,6 @@ tags:
   - "AUD: Family Member"
   - "BNFT: Healthcare"
   - "BNFT: Finances"
-  - "DSC: Accordions"
-  - "DSC: Button"
-  - "DSC: Links"
-  - "DSP: Ask users for a single response"
-  - "DSP: Help users to check answers"
   - "HDW: Desktop"
   - "HDW: Smartphone"
   - "usability-testing"
