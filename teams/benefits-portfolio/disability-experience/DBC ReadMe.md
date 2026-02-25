@@ -14,7 +14,7 @@ The Disability Benefits Crew (DBC) is composed of several teams:
 The disability crew maintains and improves the application for disability compensation on VA.gov (Form 21-526EZ). Through this benefit, Veterans can receive monthly pay for injuries and illnesses that are a result of their service. We also are responsible for features nested within the disability form, including:
 - Auto-setting an Intent to File, locking in a potential backpay date
 - A slightly different version of the form for applicants transitioning out of the military who are eligible for the Benefits Disability at Discharge program (BDD)
-- Suggesting a set of conditions Veterans can claim, and then applying a topical classification to each condition (this team organizes primarily in [#benefits-disability-conditions channel](https://dsva.slack.com/archives/C04AZ8T7XN1))
+- Suggesting a set of conditions Veterans can claim, and then applying a topical classification to each condition (this team organizes primarily in [#benefits-disability-conditions](https://dsva.slack.com/archives/C04AZ8T7XN1) channel)
 - Uploading files/evidence provided by the Veteran along with the application form
 
 
