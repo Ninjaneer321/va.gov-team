@@ -3,104 +3,140 @@ title: "Facility Locator Autosuggest and Progressive Disclosure Research Finding
 product: "Facility Locator"
 team: "Facilities"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "10/30/2025"
+date: "2025-10-30"
 researchers:
   - "Tina Kambil, Agile6"
 
 research_goals:
-  - "Evaluate autosuggest combobox component for Facility Locator"
-  - "Confirm progressive disclosure is not hindering users"
+  - "Confirm that Veterans and their families (incl. assistive tech users) are able to find VA Health services using the AutoSuggest feature and measure ease of use (SEQ) for desktop and mobile."
+  - "Confirm that the progressive disclosure pattern does not interfere with finding the right facility"
+  - "Identify barriers Veterans might face when using the facility locator services search to find a particular service at VA Health facilities nearest to them including confusing language, interaction patterns, and more."
+
 methodology:
-  - Task-based usability interview
-  
+  - "Remote moderated usability testing"
+  - "Task-based usability interview"
+
 devices_used:
-    desktop: 5
+    desktop: 4
     tablet: 1
     smartphone: 2
     assistive_technology: 0
+
 participants_total: 8
+
 demographics:
   veterans: 7
-  service_members: X
+  service_members: 0
   caregivers: 1
-  dependents: X
-  VA_staff: X
+  dependents: 0
+  VA_staff: 0
   age:
     "25-34": 2
     "35-44": 1
     "45-54": 1
     "55-64": 2
     "65+": 2
-    unknown: X
+    unknown: 0
   education:
     high_school: 3
     some_college: 1
     associates: 1
     bachelors: 1
     masters: 2
-    doctorate: X
-    unknown: X
+    doctorate: 0
+    unknown: 0
   location:
     urban: 4
     rural: 4
-    unknown: X
+    unknown: 0
   race:
     white: 3
     black: 3
     hispanic: 0
     biracial: 1
-    asian: X
+    asian: 0
     native: 1
   disability:
     cognitive: 1
     AT_beginner: 1
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
     magnification_zoom: 1
-    speech_input: X
+    speech_input: 0
     hearing_aids: 1
-    sighted_keyboard: X
-    captions: X
+    sighted_keyboard: 0
+    captions: 0
+
 key_findings:
-  - "1. Most participants successfully located desired services using the service-type field."
-  - "2. Task failure was often due to lack of visible system feedback that created false confidence and unnoticed selection errors."
-  - "3. Participants did not always notice that they could type and scroll in the service-type dropdown."
-  - "4. Some common search terms returned incomplete or unexpected results.  "
-  - "5. Most participants understood why the service type field was conditionally revealed and changed depending on facility type. "
-  - "6. Veterans expressed strong trust in the facility locator and valued the ability to see & choose specific service types."
+  - "Most participants successfully located desired services using the service-type field."
+  - "Task failure was often due to lack of visible system feedback that created false confidence and unnoticed selection errors."
+  - "Participants did not always notice that they could type and scroll in the service-type dropdown."
+  - "Some common search terms returned incomplete or unexpected results."
+  - "Most participants understood why the service type field was conditionally revealed and changed depending on facility type."
+  - "Veterans expressed strong trust in the facility locator and valued the ability to see & choose specific service types."
+
 recommendations:
   - "Increase visibility into what the system is searching and what has been selected to prevent errors"
   - "Improve content matching"
   - "Provide helpful next steps when no results are found in the service-type dropdown"
-  - Clarify how to use the service-type field.
-  - Address mobile-specific usability barriers 
+  - "Clarify how to use the service-type field."
+  - "Address mobile-specific usability barriers"
+  - "Test with VA Staff who currently help Veterans find specific locations over the phone to verify result coverage/accuracy and AT users after some changes are made. Possibly run a diary study."
+
 kpi_alignment:
   - "Task success"
   - "Efficiency"
   - "Quality"
   - "Conversion"
-    
+
 outcomes:
   user: "Help Veterans identify the services they need and find a facility that provides specified services within a given location"
-  business: "Reduce phone calls, increase knowedge of services, increase visits to correct facility type"
+  business: "Reduce phone calls, increase knowledge of services, increase visits to correct facility type"
+
 opportunity_areas:
   - "Understanding what services VA offers"
   - "VA Staff usage of this tool"
+
 further_research_needed:
   - "User mental model"
   - "Taxonomy coverage"
   - "Evaluate map interactions"
+  - "Testing with AT Users"
+  - "Testing with super-users at various facilities who have a role involving letting veterans know where they can receive different services"
+  - "Explore how Veterans learn about VA services"
+  - "Validate service taxonomy and terminology for the facility locator and across other VA digital products"
+  - "Evaluate map interactivity patterns and alternative map service provider options"
+
 underserved_groups_missing:
   - "AT users"
+  - "People of Latino, Asian, or Native Hawaiian descent"
 
 secondary_research:
   - "Web analytics"
+  - "Mobile map usability study"
+  - "Prior studies"
+  - "Form dropdown study"
+
 synthesis_tools_used:
   - "Mural"
   - "Excel"
----
 
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "DSC: Form - Select"
+  - "DSC: Search Input"
+  - "DSP: Content Presentation"
+  - "DSP: Help users to navigate a long list"
+  - "HDW: Desktop"
+  - "HDW: Tablet"
+  - "HDW: Smartphone"
+  - "PRDT: Facilities"
+  - "Accessibility"
+  - "usability-testing"
+  - "evaluative"
 ---
 
 # Facility Locator Autosuggest and Progressive Disclosure Research Findings 

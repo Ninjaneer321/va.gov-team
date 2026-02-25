@@ -1,106 +1,178 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "526ez Shadowing Veteran Research Findings"
+product: "Disability Compensation (Form 526EZ)"
+team: "DBEX 1 & 2"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-01-11"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Evelyn Hilbrich Davis"
+  - "Julie Pedtke"
+  - "Nichole Nicholas"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Assess the current user experience of applying for disability benefits"
+  - "Identify the pain points that lead to uncertainty, distrust, form exits, multiple sessions, and abandonment"
+  - "Learn how Veterans plan for and adapt to the length and complexity of the 526"
 methodology:
-- Method 1
-- Method 2
+  - "Semi-structured interviews"
+  - "Shadowing/observation"
+  - "Remote usability testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 9
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 0
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 1
+    "35-44": 1
+    "45-54": 3
+    "55-64": 1
+    "65+": 5
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 2
+    some_college: 4
+    associates: 0
+    bachelors: 2
+    masters: 3
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 11
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 3
+    black: 3
+    hispanic: 1
+    biracial: 3
+    asian: 1
+    native: 1
+    unknown: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Participant's existing level of trust in VA informed how they reacted to uncertainty throughout the filing experience"
+  - "Questions designed to connect Veterans with more or better services were confusing and unhelpful to some participants"
+  - "Form navigation does not allow participants to move easily around the form, making it harder to review their work and set expectations"
+  - "Participants had trouble navigating to the 526ez online form on VA.gov—even after login"
+  - "ITF errors lead participants to form exits–and potential abandonment"
+  - "When faced with an error that blocked their progress, participants rarely expressed interest in seeking help from the Contact Center"
+  - "All Veterans who served in the Reserves or National Guard found this section of service history confusing for different reasons"
+  - "One Veteran shared that their discharge was not determined 'honorable'—making it difficult to complete the Veteran Detail section when they filed previously"
+  - "Usability challenges slowed Veterans down as they were adding their conditions"
+  - "A participant expressed interest in additional support to identify conditions they could apply for"
+  - "The process of filing for PTSD is long and can be confusing"
+  - "The types of records Veterans have and how they want them collected impact their filing burden"
+  - "Having only VA records streamlines the filing process for Veterans and reduces cognitive load"
+  - "Private Medical Record [PMR] collection is burdensome for participants who decide to collect it themselves, which leads to form exits"
+  - "Lay statements add emotional and logistical complexity to the filing process"
+  - "A majority of participants did not know to prepare their documentation in advance of filing—but wished they would have"
+  - "All participants questioned why they were asked for their bank account information"
+  - "A majority of participants who submitted their claim expected to receive a confirmation email with a copy of the claim from VA"
+  - "The participants who submitted their claims did so in under an hour"
+  - "Worsening symptoms motivated participants to file for benefits"
+  - "The opportunity to file online is welcome to Veterans with health or privacy concerns"
+  - "Participants filed using computers rather than mobile devices"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "The best way to rebuild trust is to continue improving the filing experience, which will gradually increase Veteran confidence in VA's ability to execute complex tasks quickly and transparently"
+  - "Review content throughout the form to ensure plain language, add helper text and examples where possible, and explain how information is used by VA. Start with sensitive questions such as POW, terminally ill, and homelessness"
+  - "Good content hinges on good communication between designers and the business lines. Continue to collaborate closely with VBA and look for opportunities to engage claims processors directly"
+  - "Explore an alternative navigation structure that doesn't rely on the back button, such as replacing the 'stepper' with an indexed sidebar navigation that shows what's complete and what's coming"
+  - "Offer task lists so that Veterans can create their own time estimates based on their situation"
+  - "Look beyond the introduction and review pages for ways to set expectations. Important content should be delivered 'just in time' at each step throughout the form"
+  - "Evaluate the message that tells Veterans their application has been saved to see if it could be more prominent"
+  - "Build on the summary pages to provide opportunities to review and edit throughout the form, not just at the end"
+  - "Increase consistency of language across entry points, and use words that tie to Veterans' expectations. Change instances of 'Start an application' to 'File a claim'"
+  - "Increase the prominence of entry points through visual design and hierarchy on the page"
+  - "Explore the journey from login to filing and work across teams (such as Authenticated Experience) to reduce the number of clicks needed to find the form and assure Veterans that they're in the right place"
+  - "Allow participants to continue to file even if the ITF system is down"
+  - "Rethink how we introduce the concept of ITF to clarify how it relates to past claims and conditions"
+  - "Reinforce understanding of ITF by making it accessible in other places, such as the confirmation page after submission, the Veteran's profile, or the Claim Status Tool"
+  - "Add conditional logic to streamline the flow. For example, if a Veteran says they are retired, skip the question about active or inactive duty pay"
+  - "Add helper text that clarifies obligation dates may not apply to some Veterans, such as officers"
+  - "Add helper text that clarifies the level of detail required for unit names"
+  - "Do further discovery on the journey for Veterans with less than honorable discharges"
+  - "Consider allowing Veterans to select multiple service-connected disabilities per secondary condition"
+  - "Help Veterans discover conditions they might be experiencing, but did not know they could claim"
+  - "Address data loss that results from conditional logic for condition causes"
+  - "Meet and collaborate with the team working to digitize the PTSD form"
+  - "Address the experience of entering and leaving the PTSD flow to reduce confusion"
+  - "Reduce uncertainty by providing examples for what 'complete' data fields look like"
+  - "Consult VBA partners to determine whether records from Community Providers are VA or PMR"
+  - "Explore redesign of ancillary form 4142"
+  - "Explain how PMR is collected by the VA– especially for Veterans with older records"
+  - "Identify how the Claims Status Tool can help Veterans understand and track documentation collection"
+  - "Allow Veterans to continue past required fields (but block them from submitting before the application is complete)"
+  - "Provide a printable claimed condition list to Veterans who opt to collect their records"
+  - "Explore ways for Veterans with paper records to submit via the mail rather than digital upload"
+  - "Plan for form exits by allowing Veterans to download populated PDF forms at any stage in the online process"
+  - "Review the Lay Statement form in order to assess ways to reduce Veteran burden"
+  - "Help Veterans plan for documentation requirements before filing to reduce form exits"
+  - "Add content that explains why the sensitive information is being collected and how it will be used"
+  - "Confirm the claim submission quickly and clearly across channels"
+  - "Provide an opportunity for Veterans to download a full copy of their completed form post-submission"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Veterans need support to identify conditions they could apply for but don't know about"
+  - "PTSD and MST filing experience requires specialized support due to complexity and sensitivity"
+  - "Veterans with less than honorable discharges face unique barriers in the filing process"
+  - "Medical record collection process creates burden and leads to form abandonment"
 further_research_needed:
-- Area 1
-- Area 2
+  - "Further discovery on the journey for Veterans with less than honorable discharges"
+  - "Research with Veterans who use assistive technology (not included in this study)"
+  - "Research with cognitive disability population (recruited 0 despite targeting 3-4)"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Users of Assistive Technology"
+  - "Veterans with cognitive disabilities"
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- 'MHV: Personal Health Records/Medical Records'
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Disability-526EZ"
+  - "PRDT: Claim-status-tool"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "DSC: Form"
+  - "DSC: Form - Radio Button"
+  - "DSC: Checkbox"
+  - "DSC: Form - File Input"
+  - "DSC: Alert Boxes"
+  - "DSP: Form Templates"
+  - "DSP: Ask users for files"
+  - "DSP: Help users to check answers"
+  - "DSP: Ask users for dates"
+  - "DSP: Ask users for direct deposit"
+  - "DSP: Error Message Guide"
+  - "DSP: Help users to navigate a long list"
+  - "DSP: Contextual Help"
+  - "remote-research"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "evaluative"
 ---
+
 # 526ez Shadowing Veteran Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), 526EZ, DBEX 1 & 2**

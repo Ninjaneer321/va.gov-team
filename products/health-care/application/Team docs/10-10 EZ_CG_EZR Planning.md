@@ -138,14 +138,13 @@
 - [ ] **SPRINT GOAL** [#134211](https://github.com/department-of-veterans-affairs/va.gov-team/issues/134211) - [BE] API testing in RI
 - [ ] **SPRINT GOAL** [#132636](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132636) - [FE] Review Content feedback on File Upload page
 - [ ] **SPRINT GOAL** [#114031](https://github.com/department-of-veterans-affairs/va.gov-team/issues/114031) - [FE] Update content on File Upload page
-- [ ] **SPRINT GOAL** [#125472](https://github.com/department-of-veterans-affairs/va.gov-team/issues/125472) - [FE] Update schema
 
 
 ##
 ### 10-10EZ
 #### Obj: EZ [Form Statuses](https://github.com/department-of-veterans-affairs/va.gov-team/issues/95313)
 - [ ] **SPRINT GOAL** [#105829](https://github.com/department-of-veterans-affairs/va.gov-team/issues/105829) - [Eng] Tech discovery on additional EZ form statuses on MyVA
-- [ ] [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [FE] Display submission statuses on MyVA
+- [ ] **STRETCH** [#130010](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130010) - [FE] Display submission statuses on MyVA
 - [ ] **SPRINT GOAL** [#132749](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132749) - [UX] Review Content feedback for Intro page alerts (March 3rd)
 - [ ] **SPRINT GOAL** [#130693](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130693) - [FE] Update Intro page alert for "PendingMT"
 - [ ] **SPRINT GOAL** [#130694](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130694) - [FE] Update Intro page alert for "PendingOther"
@@ -160,8 +159,11 @@
 
 ##
 ### Team PTO
-- Andrea: 2/27
 - Kyle: 2/23-2/27
+- Andrea: 2/27
+- Matt: 2/27
+- Derrick: 2/27 half-day
+- Fara: 2/27 half-day
 
 
 ---

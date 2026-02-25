@@ -1,95 +1,149 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "2025-10 Explore disability claim decision review options Research Findings"
+product: "Decision Reviews"
+team: "Decision Reviews Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2025-11-18"
+researchers: 
+  - "Kyra Berman-Gestring"
+  - "Lauren Dawson"
+related_research:
+  - title: "Research Plan"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/decision-reviews/research/decision-reviews-onramp-2025/2025-08%20Decision%20review%20options%20tool%20usability%20evaluation%20Research%20Plan.md"
+  - title: "Conversation Guide"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/decision-reviews/research/decision-reviews-onramp-2025/2025-10%20_Explore%20disability%20claim%20decision%20review%20options_%20Conversation_Notetakers%20Guide.md"
+  - title: "Topline Summary"
+    url: "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/decision-reviews/research/decision-reviews-onramp-2025/2025-10%20Research%20Topline%20Summary.md"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Usability of flow: To evaluate the usability of the guide, 'Explore disability claim decision review options' screen flow"
+  - "Clarity of content: To evaluate participant's comprehension of the questions and helpfulness of the explanatory content"
+  - "Effectiveness of guide: To assess participant's satisfaction with the guide and their confidence in selecting a decision review pathway"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Usability testing"
+  - "Prototype testing"
+  - "Think-aloud protocol"
+  - "Task-based testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 3
+    tablet: 1
+    smartphone: 3
+    assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 2
+    "35-44": 1
+    "45-54": 1
+    "55-64": 0
+    "65+": 3
+    unknown: 0
+  education: 
+    high_school: 2
+    some_college: 3
+    associates: 1
+    bachelors: 1
+    masters: 0
+    doctorate: 0
+    unknown: 0
+  location: 
+    urban: 4
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 3
+    black: 3
+    hispanic: 0
+    biracial: 1
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Launching the guide is not intuitive"
+  - "Accordions are drawing focus on the landing page"
+  - "Veterans would seek support at some point in their DR filing process"
+  - "Veterans are uncertain about VA vernacular and requirements"
+  - "Most participants would not take immediate action at the summary screen despite high confidence scores in choosing an option and reported trust of information"
+  - "Participants often selected an option from the 'may be a good fit' options on the summary screen, those who did not expressed preference for human interaction"
+  - "Participants value timeframes when evaluating their Decision Review options, and when they have a choice between options, participants choose the pathway with the shorter timeframe"
+  - "Participants were confused with specific content and pathway requirements when reviewing options on the summary screen"
+  - "Participants believe there is a specific order and hierarchy among DR pathways"
+  - "Participants feel a need to know which decision review pathway they want to pursue before using the guide"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Make starting the guide the clear call to action"
+  - "Deprioritize the accordions on the landing page and streamline the content within"
+  - "Optimize discoverability of the tool"
+  - "Re-design the introduction page to make the purpose of the guide clear and reduce distraction from main call-to-action (CTA)"
+  - "Clarify VA Terminology and use more plain language"
+  - "Revise the phrasing of the question and separate options into individual radio buttons on screen 2.0"
+  - "Clarify content to help Veterans understand the questions in the context of multiple prior conditions/claims"
+  - "Update specific screen content to clarify confusing elements and better align with established VA processes"
+  - "Clearly state the purpose of the summary screen and provide information in the order in which option(s) appear on the page"
+  - "Make options on the summary screen(s) easier to compare and understand"
+  - "Support Veterans who wish to return to the summary screen information for next-steps at a later time"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "OCTO-DE Objective 1: VA's digital experiences are the easiest and most efficient way to access VA health care and benefits"
+  - "OCTO-DE Key Result 1: Improve satisfaction with our web and mobile products by 5 points"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can confidently select the appropriate decision review pathway for their situation"
+  business: "Reduce time and support needed for Veterans to understand and initiate decision reviews"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Improve plain language communication of VA terminology and requirements"
+  - "Provide decision support tools that guide Veterans through complex benefit processes"
+  - "Design pathways that accommodate Veterans with multiple prior claims"
+  - "Create resources that support both self-service and assisted filing experiences"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Assistive Technology users"
+  - "Veterans who are currently eligible for and are considering a decision review option"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Asian"
+  - "Native"
+  - "LGBTQ+"
+  - "AT users (Beginner, Experienced, all AT)"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
   - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Decision-reviews"
+  - "DSC: Accordions"
+  - "DSC: Button"
+  - "DSC: Card"
+  - "DSC: Form - Radio Button"
+  - "DSC: Links"
+  - "DSP: Ask users for a single response"
+  - "DSP: Content Presentation"
+  - "DSP: Contextual Help"
+  - "DSP: Help users to check answers"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "usability-testing"
+  - "evaluative"
+  - "cognitive"
+  - "plain-language"
+  - "findability"
+  - "information-architecture"
+  - "content-strategy"
 ---
 
 # 2025-10 Explore disability claim decision review options Research Findings

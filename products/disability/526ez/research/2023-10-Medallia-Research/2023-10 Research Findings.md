@@ -1,95 +1,123 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Medallia Research Share Out Research Findings"
+product: "Disability Compensation Application (Form 21-526EZ)"
+team: "Benefits Disability Experience Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2023-10-31"
+researchers: 
+  - "Nichole Nicholas"
+  - "Julie Pedtke"
+  - "Evelyn Hilbrich-Davis"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Identify and understand pain points and areas of improvement in the current user experience"
+  - "Determine where users are getting stuck in the application submission process"
+  - "Identify if there is a specific task in the application section where users get stuck"
+  - "Understand if users understand the next steps when error messages occur in their application process"
+  - "Evaluate how Medallia survey data can support/extend research practice"
+  - "Determine what can be learned from feedback and intercept responses and understand limitations and strengths of the data"
+  - "Determine on what occasions and how frequently to analyze Medallia data"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Medallia survey data analysis"
+  - "Contact Center feedback analysis"
+  - "Qualitative content analysis"
+  - "Thematic categorization"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 150
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 150
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 150
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 150
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 150
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 150
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans face blockers that require external support—but sometimes find that help difficult to get"
+  - "Certain error messages can lead Veterans to frustrating encounters with the Contact Center"
+  - "Error messages block Veterans from filing"
+  - "Veterans are finding themselves misrouted to or stuck on the Reserves National Guard (RNG) page"
+  - "Veterans reported evidence-related challenges throughout the application"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Update error message tracker with findings in order to determine where fixes have been successful or still require attention"
+  - "Investigate RNG misroutings"
+  - "Conduct SME interviews with the Contact Center in order to better understand the situations/barriers that prevent them from resolving Veteran concerns"
+  - "Consider other means (chatbot, which is in beta) for Veterans to receive live help to unblock and reduce uncertainty"
+  - "Clarify how Veterans can provide more evidence in the 4142 redesign (existing language of 'supporting [lay] statements or other evidence' is seemingly not clear)"
+  - "Assess the holistic experience of evidence management in the Veteran shadowing research"
+  - "Account for different experiences for Veterans using desktop vs. mobile when applying for benefits"
+  - "Convert smaller observations into tickets for potential future work"
+  - "Expand UX analytics capabilities; learn about existing tools and how to best utilize them starting with DOMO"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Veterans need better support when encountering blockers in the application process"
+  - "Error messages need improvement to prevent frustrating Contact Center encounters"
+  - "Reserves National Guard page routing needs correction"
+  - "Evidence submission process needs clarification and improvement"
+  - "Help and support mechanisms need enhancement"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "SME interviews with Contact Center to understand barriers preventing resolution of Veteran concerns"
+  - "Veteran shadowing research to assess holistic evidence management experience"
+  - "Research on different experiences for Veterans using desktop vs. mobile when applying for benefits"
+  - "Expansion of UX analytics capabilities including tools like DOMO"
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Medallia survey feedback data"
+  - "Contact Center data"
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: VA-526ez"
+  - "DSP: Error Message Guide"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "Evaluative"
+  - "Secondary-research"
+  - "Contact-Center"
+  - "Medallia"
 ---
 
 # Medallia Research Share Out Findings 
