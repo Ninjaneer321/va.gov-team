@@ -36,7 +36,7 @@
 | pension_extras_redesign_enabled                                    | 527       | Yes                 | Yes                    | Bryan Alexander     | Enable the new overflow design.                                     |
 | pension_kafka_event_bus_submission_enabled                         | 527       | Yes                | Yes                    | Bryan Alexander     | Enable the EventBusSubmissionJob for Kafka.                         |
 | pension_submitted_email_notification                               | 527       | Yes                | Yes                    | Tai Wilkin-Corraggio | Toggles sending of the Submission in Progress email.                |
-| pension_received_email_notification                                | 527       | No                 | Yes                   | Wayne Weibel        | Toggles sending of the Received email notification.                |
+| pension_received_email_notification                                | 527       | Yes                 | Yes                   | Wayne Weibel        | Toggles sending of the Received email notification.                |
 | pension_error_email_notification                                   | 527       | No                 | Yes                   | Wayne Weibel        | Toggles sending of the Action Needed email notification.            |
 | pension_persistent_attachment_error_email_notification             | 527       | No                 | No                    | Bryan Alexander     | Toggles sending of the Persistent Attachment Error email.           |
 | event_bus_gateway_pension_email_template                           | 527       | Yes                | Yes                   | Liana Fleming       | Toggle to enable pension email template in eventbus-gateway.        |
