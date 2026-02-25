@@ -41,7 +41,7 @@
 | pension_persistent_attachment_error_email_notification             | 527       | No                 | No                    | Bryan Alexander     | Toggles sending of the Persistent Attachment Error email.           |
 | event_bus_gateway_pension_email_template                           | 527       | Yes                | Yes                   | Liana Fleming       | Toggle to enable pension email template in eventbus-gateway.        |
 | pension_browser_monitoring_enabled                                 | 527       | Yes                 | Yes                   | Wayne Weibel        | Pension Datadog RUM monitoring.                                     |
-| pension_itf_validate_data_logger                                   | 527       | No                 | No                    | Bryan Alexander     | Toggle sending of the ITF Validate Data to Rails Logger.            |
+| pension_itf_validate_data_logger                                   | 527       | No                 | Yes                    | Bryan Alexander     | Toggle sending of the ITF Validate Data to Rails Logger.            |
 | pension_rating_alert_logging_enabled                               | 527       | No                 | No                    | Robin Garrison       | Enable Datadog logging for disability rating alert in pension form. |
 | **Burial Benefits**                                                | 530       |                    |                       |                     |                                                                     |
 | burial_form_enabled                                                | 530       | Yes                | Yes                   |                     | Master toggle for the burial form.                                  |
