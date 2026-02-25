@@ -182,7 +182,7 @@ synthesis_tools_used:
 
  
 - **Hypothesis Statement:** [We assume that participants may find both approaches similarly confusing/helpful, suggesting content improvements are more important than flow differences.]  
-  - **"Maybe True", “Likely True”, “Definitely True”, “Likely False”, “Definitely False” or “Not enough information”**  
+  - **Likely True**  
   - Supporting evidence
   - 
 ## Key Findings
