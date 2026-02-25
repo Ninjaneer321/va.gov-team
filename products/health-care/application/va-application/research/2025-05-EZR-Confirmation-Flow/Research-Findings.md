@@ -1,98 +1,130 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "EZR Confirmation Flow Research Findings"
+product: "10-10EZR Health Benefit Update Form"
+team: "Health Enrollment Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-07-24"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Hieu Vo"
+  - "Renata Keck"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Assess the usability of the spouse information section to see if the Veterans follow the conditional logic, understand what information can be updated, and whether the information presented is clear"
+  - "Validate that Veterans prefer the confirmation flow (Option Red), using the List&Loop component, because it is more efficient than the existing MVP approach (Option Green)"
+  - "Understand how the Veterans expect the previous year's financial data to be prefilled, and whether they understand the hierarchy of the information on financial reporting"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Moderated usability testing"
+  - "Think-aloud protocol"
+  - "A/B testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 8
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 2
+    "45-54": 1
+    "55-64": 2
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 2
+    associates: 2
+    bachelors: 2
+    masters: 3
+    doctorate: 0
+    unknown: 1
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 9
+    rural: 1
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 1
+    hispanic: 1
+    biracial: 1
+    asian: 0
+    native: 0
+    no_answer: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants expressed a clear understanding of the spouse and financial information List&Loop component."
+  - "There is a slightly higher preference for Optional Red (Confirmation Flow) over Option Green (existing MVP flow)."
+  - "Many participants expected VA.gov to operate in ways consistent with their mental models."
+  - "Participants generally understood the List & Loop component for the spouse and financial information, but want more contextual guidance and content consolidation around the List & Loop's review screens"
+  - "Participants showed a slight preference for Option Red (Confirmation Flow) over Option Green (existing MVP flow) due to the perceived speed and helpful reference information"
+  - "Participants expected VA.gov to align with their mental models around progress tracking, data handling, and form behavior. Any mismatch in these areas led to confusion and frustration"
+  - "Participants found the flow easy to use, reinforcing patterns from previous studies around clarity and supportive UI elements"
+  - "Participants prefer the online experience over the phone for making updates"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Improve the List & Loop clarity"
+  - "Optimize the health care flow to be more aligned with the Veteran's mental model"
+  - "Optimize Confirmation Flow (Option Red)"
+  - "Improve Accessibility for unhoused veterans"
+  - "Explore ways for Va.gov to be in better alignment with the Veteran's mental model"
+  - "Prototype Testing considerations"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Reduced time on Household section"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Veterans experience a faster, more efficient application process by being able to review and edit their Household information in a consolidated view, rather than navigating through page-by-page updates"
+  business: "The VHA receives more accurate and up-to-date household data from Veterans, as the streamlined review and edit approach encourages thorough review and correction of information"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Accessibility testing with assistive technology users"
+  - "UAT for Assistive Tech users to supplement Figma prototype testing"
+  - "Explore Stepper Progress Bar component alternative"
+  - "Explore VA Profile integration"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Veterans with other than honorable discharge"
+  - "Veterans with immigrant origin"
+  - "Expat (living abroad) veteran"
+  - "Asian Veterans"
+  - "Native American Veterans"
+  - "Gay, lesbian, or bisexual Veterans"
+  - "Transgender Veterans"
+  - "Veterans that use assistive tech"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "DSC: Accordions"
+  - "DSC: Form"
+  - "DSC: Form - Radio Button"
+  - "DSC: Alert Boxes"
+  - "DSP: Ask users for addresses"
+  - "DSP: Help users to check answers"
+  - "DSP: Form Templates"
+  - "DSP: Ask users for contact information"
+  - "DSP: Content Presentation"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "PRDT: Form 10-10 EZ"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "evaluative"
+  - "A/B-testing"
 ---
-
-
 
 # EZR Confirmation Flow Research Findings 
 
