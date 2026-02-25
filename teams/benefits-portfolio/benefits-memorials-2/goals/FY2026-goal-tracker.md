@@ -36,7 +36,7 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 |ENG: Complete the 3 planned maintenance/bug tickets.| P6 |--|--|--|
 
 **Sprint rollover tickets**
-| Aditional work that was pulled in mid sprint | Scope of work changed after ticket started | Work became blocked mid sprint |  Work was underestimated and not completed |
+| Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
 |---------------|---------------|---------------|---------------|
 |Ticket #|Ticket #|Ticket #|Ticket #|
 
@@ -57,17 +57,25 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 | Sprint Goal | Priority  | Reason if Not Complete | Update Date | End of Sprint Status |
 |--|--|--|--|--|
 |UX: Complete Payment History QC implementation review with Engineering and begin accessibility testing.| P1 |--|--|--|
-|UX: Complete the final Pay.gov usability preparation before initiating the kickoff & recruiting with Perigean.| P2 |--|--|--|
+|UX: Complete the final Pay.gov usability preparation before initiating the kickoff & recruiting with Perigean.| P2 |--|--|Complete|
 |ENG: Complete 6 of the 9 remaining Payment History Staging review artifacts| P1 |--|--|--|
 |ENG: Complete additional Payment History tasks identified during Front End implementation.| P1 |--|--|--|
-|ENG: Complete and clean up Payment History back end code that was used for development only tasks.| P1 |--|--|--|
-|ENG: Complete back end ENG transition tickets to prepare for Benefit Payment Tool support.| P3 |--|--|--|
-|ENG: Audit existing benefit payment tool monitors, and map out any cloning into the debt space if necessary.| P3 |--|--|--|
+|ENG: Complete and clean up Payment History back end code that was used for development only tasks.| P1 |--|--|Complete|
+|ENG: Complete back end ENG transition tickets to prepare for Benefit Payment Tool support.| P3 |--|--|Complete|
+|ENG: Audit existing benefit payment tool monitors, and map out any cloning into the debt space if necessary.| P3 |--|--|Complete|
 
 **Sprint rollover tickets**
-| Aditional work that was pulled in mid sprint | Scope of work changed after ticket started | Work became blocked mid sprint |  Work was underestimated and not completed |
+| Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
 |---------------|---------------|---------------|---------------|
-|Ticket #|Ticket #|Ticket #|Ticket #|
+|Ticket #|Ticket #131383|Ticket #131033|Ticket #|
+|Ticket #|Ticket #116143|Ticket #|Ticket #|
+|Ticket #|Ticket #102622|Ticket #|Ticket #|
+|Ticket #|Ticket #132368|Ticket #|Ticket #|
+|Ticket #|Ticket #132369|Ticket #|Ticket #|
+|Ticket #|Ticket #132406|Ticket #|Ticket #|
+|Ticket #|Ticket #132524|Ticket #|Ticket #|
+|Ticket #|Ticket #132607|Ticket #|Ticket #|
+|Ticket #|Ticket #130082|Ticket #|Ticket #|
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (02/10/26)
