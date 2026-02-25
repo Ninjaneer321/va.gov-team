@@ -2,7 +2,7 @@
 # Research Plan Metadata
 title: "Veteran & Caregiver Research Plan for 21-2680 Provider Experience"
 date: 2026-02-19
-last_updated: 2026-02-24
+last_updated: 2026-02-25
 team: "Aquia BIO"
 product: "Form 21-2680 Provider Experience"
 product_area: "authenticated"
@@ -51,15 +51,15 @@ expected_outcomes: "This research will clarify how veterans, dependents, and car
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "Perigean will recruit 10 - 16 veterans, dependents, and caregivers to understand their experience with healthcare and benefits processes, and to gather feedback on the Form 21-2680 digital experience."
+  approach: "Perigean will recruit 12 - 18 veterans, dependents, and caregivers to understand their experience with healthcare and benefits processes, and to gather feedback on the Form 21-2680 digital experience."
   
   primary_criteria:
     - "Veteran, dependent of a Veteran (spouse, child, or parent) or caregiver of a Veteran"
     
-  secondary_criteria (these criteria will be overlapping):
-    - "Receives a pension (3 - 5 participants)"
-    - "Has a service-related disability (5 - 8 participants)"
-    - "Currently receives SMP, SMC, or other benefit for aid and attendance / housebound allowance (4 - 8)"
+  secondary_criteria:
+    - "Receives a pension (6 - 9 participants)"
+    - "Has a service-related disability (6 - 9 participants)"
+    - "Currently receives SMP, SMC, or other benefit for aid and attendance / housebound allowance (3 - 6)"
     - "Thinks they are eligible for aid and attendance / housebound allowance (2 - 3)"
     - "Has a VHA medical provider (2 - 3)"
     - "Has a private medical provider (2 - 3)"
@@ -77,18 +77,18 @@ recruitment:
       qualifying_response: "Yes (SMC, SMP, or other Aid and Attendance benefit) or eligible"
       
 participants:
-  veterans: 5-8
-  caregivers: 2-3
-  dependents: 3-5
-  total_recruited: 10-16
-  completed_sessions_goal: 10
+  veterans: 6-9
+  caregivers: 4-6
+  dependents: 4-6
+  total_recruited: 12-18
+  completed_sessions_goal: 12
   
 # Timeline & Sessions
 timeline:
   pilot_date: "2026-03-06"
-  pilot_participant: "[Name]"
+  pilot_participant: "TBD - Aquia teammate"
   research_dates: "2026-03-09 to 2026-03-20"
-  research_review_submission: "YYYY-MM-DD"
+  research_review_submission: "2026-02-28"
   
 session_details:
   duration_minutes: 60
@@ -344,16 +344,16 @@ This approach allows us to reach a diverse group of veterans,dependents, and car
 
 ### Recruitment criteria
 
-**Primary criteria (must-haves):**
+**Primary criteria (must-haves; these are the key criteria we need to meet for participation):**
 - Veteran or caregiver or dependent of a Veteran (child, spouse, parent)
 
-**Secondary criteria (nice-to-haves; these criteria will be overlapping):**
+**Secondary criteria (nice-to-haves; these criteria will be overlapping, but it does not matter how they overlap. we might not meet some of these criteria in this phase of the study which is ok.):**
 - Receives a pension (6 - 9 participants)
 - Has a service-related disability (6 - 9 participants)
 - Currently receives SMP, SMC, or other benefit for aid and attendance / housebound allowance (3 - 6)
 - Thinks they are eligible for aid and attendance / housebound allowance (2 - 3)
-- Has a VHA medical provider 
-- Has a private medical provider 
+- Has a VHA medical provider (4 - 5)
+- Has a private medical provider (4 - 5)
 
 It would additionally strengthen our sample to include:
 - LGBTQ+ Veterans and caregivers
