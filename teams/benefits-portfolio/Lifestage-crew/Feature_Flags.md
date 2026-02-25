@@ -27,7 +27,7 @@
 | dependents_log_vbms_errors                                         | 686c, 674 | Yes                | Yes                   | Tai Wilkin-Corraggio | Log VBMS errors when submitting 686c and 674.                       |
 | **Dependents Verification**                                         | 21-0538   |                    |                       |                     |                                                                     |
 | va_dependents_verification                                         | 21-0538   | Yes                | 25% (1,247 actors)    | Sean Midgley        | Toggles new features for the dependents verification form.          |
-| dependency_verification_browser_monitoring_enabled                 | 21-0538   | No                 | No                    | Robin Garrison| Enable Datadog RUM/LOG monitoring for form 21-0538.                 |
+| dependency_verification_browser_monitoring_enabled                 | 21-0538   | No                 | Yes                    | Robin Garrison| Enable Datadog RUM/LOG monitoring for form 21-0538.                 |
 | **Pension Benefits**                                               | 527       |                    |                       |                     |                                                                     |
 | pension_form_enabled                                               | 527       | Yes                | Yes                   |                     | Master toggle for the pension form.                                 |
 | pension_form_profile_module_enabled                                | 527       | No                 | No                    | Bryan Alexander     | Use the module version of the FormProfile.                          |
