@@ -12,7 +12,7 @@
 | va_dependents_no_ssn                                               | 686c, 674 | Yes                | No                   | Asha Misra          | Toggles the no SSN flow for adding dependents.                      |
 | va_dependents_net_worth_and_pension                                | 686c, 674 | Yes                | Yes                   | David Becker        | Toggles net worth and pension questions.                            |
 | va_dependents_new_fields_for_pdf                                   | 686c, 674 | No                 | No                    | Evan Smith          | Toggles new front-end fields for the PDF.                           |
-| va_dependents_duplicate_modals                                     | 686c, 674 | Yes                | No                    | Robin Garrison       | Toggles duplicate modals for 686C-674.                              |
+| va_dependents_duplicate_modals                                     | 686c, 674 | Yes                | Yes                    | Robin Garrison       | Toggles duplicate modals for 686C-674.                              |
 | va_dependents_fully_digital_form_project                           | 686c, 674 | No                 | No                    | Evan Smith          | Toggles the fully digital form project.                             |
 | dependents_enable_form_viewer_mfe                                  | 686c, 674 | Yes                | Yes                   |                      | Enables form viewer microfrontend on 686 post-submission page.      |
 | dependents_benefits_confirmation_email_notification                | 686c, 674 | No                 | No                    | David Becker        | Toggles sending of the Confirmation email notification.             |
