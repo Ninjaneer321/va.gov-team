@@ -159,8 +159,11 @@
 
 ##
 ### Team PTO
-- Andrea: 2/27
 - Kyle: 2/23-2/27
+- Andrea: 2/27
+- Matt: 2/27
+- Derrick: 2/27 half-day
+- Fara: 2/27 half-day
 
 
 ---
