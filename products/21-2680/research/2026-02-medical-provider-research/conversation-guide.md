@@ -191,7 +191,7 @@ Before we look at the form, let's start with a few questions to get to know you 
 
 **Goal:** Understand the overall usability of the 2680 form, including navigation and flow, field clarity and labels, and instructions and help text.
 
-> Now I'd like you to walk all the way through this form, from the beginning to the end. You can use fake or placeholder information — we're not collecting real data, we just want to see how you interact with the form and where you might run into confusion. As you go, please talk through what you're doing and what you're thinking. If something doesn't make sense, just let me know.
+> Now I'd like you to walk all the way through this form, from the beginning to the end. I'll keep sharing my screen, and you tell me what to do or enter into each field.  You can use fake or placeholder information — we're not collecting real data, we just want to see how you interact with the form and where you might run into confusion. As you go, please talk through what you're doing and what you're thinking. If something doesn't make sense, just let me know.
 
 **Checklist & Observations:**
 
