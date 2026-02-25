@@ -1,95 +1,134 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "1095-B Tax Document Research Findings – Round 1"
+product: "1095-B Tax Form"
+team: "Team MOVE"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2022-02-22"
+researchers: 
+  - "James Lewis (james.lewis@frogdesign.com)"
+  - "Grace Hong (grace.hong@frogdesign.com)"
+  - "Carl Dickerson (carl@themostudio.com)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Better understand how Veterans might find, use, and edit a digital copy of the 1095b form"
+  - "Discover needs, pain points and preferences for physical or digital delivery of the form"
+  - "Test usability of proposed solution"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Usability testing"
+  - "Wayfinding testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 6
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 2
+    unknown: 4
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 6
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 6
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 6
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Design and content was well received, clear and easy to use"
+  - "The main flow from sign-in to download was well understood, participants found the download CTA quickly"
+  - "Method to fix errors with the 1095-B PDF was clear"
+  - "5/6 participants recalled getting the 1095-B form in the mail from the VA when explained in the context of it being 'proof of health insurance' or 'health coverage' form"
+  - "4/6 participants preferred digital delivery over physical mail, citing ease of use, efficiency, ability to organize, and environmental benefits"
+  - "Two participants over 65 years old preferred paper due to a sense of security and ease, though comfortable with digital"
+  - "Participants generally liked the ability to sign up for paperless delivery"
+  - "5/6 participants were negative towards calling a customer service phone number to update incorrect information on the form"
+  - "2/6 participants said they wouldn't bother calling the customer service number if their address was wrong on the document"
+  - "4/6 participants were unclear if they actually needed the 1095-B to submit with their taxes"
+  - "All participants reported keeping the 1095-B document with their other files in preparation for filing taxes or sending to a tax preparer"
+  - "4/6 participants went to the Records panel first when looking for the 1095-B form on VA.gov homepage, with remaining 2/6 going to Health care panel first"
+  - "Only one participant said they would try 'search' unprompted, and only 2 went to the main navigation in the header unprompted"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "The design for downloading the 1095-B is clear and well understood, with all participants easily completing the task of viewing the document. No major design changes needed"
+  - "Reduced some written content to be more direct and less redundant; Clarified content on state requirements and included the affordable care act link in body copy"
+  - "Improved visual hierarchy in high fidelity designs"
+  - "For next round of user testing with high fidelity designs, further explore preferences around updating the form (if information is incorrect) and how the participants understand the requirements of the form"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Digital method for updating incorrect information on 1095-B form to avoid phone calls"
+  - "Better clarity on when Veterans actually need the 1095-B form for tax filing"
+  - "Improved findability and information architecture for the 1095-B document on VA.gov"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Explore preferences around updating the form when information is incorrect"
+  - "Explore how participants understand the legal requirements of the 1095-B form"
+  - "Conduct research with participants who have cognitive disabilities"
+  - "Conduct research with rural Veterans"
+  - "Include participants without bachelor's degree or above"
+  - "Include participants with other than honorable discharge status"
+  - "Include participants of immigrant origin"
+  - "Include women Veterans"
+  - "Include Black, Latinx, Biracial, Asian, and Native Veterans"
+  - "Confirm LGBTQ+ status representation in future research"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Veterans with cognitive disabilities"
+  - "Rural Veterans"
+  - "Veterans without bachelor's degree or higher education"
+  - "Veterans with other than honorable discharge"
+  - "Veterans of immigrant origin"
+  - "Women Veterans"
+  - "Black Veterans"
+  - "Latinx Veterans"
+  - "Biracial Veterans"
+  - "Asian Veterans"
+  - "Native Veterans"
+  - "LGBTQ+ Veterans"
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Personal Health Records/Medical Records"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "evaluative"
+  - "DSC: Links"
+  - "DSP: Content Presentation"
+  - "DSP: Help users to check answers"
 ---
 
 # 1095-B Tax Document Research Findings – Round 1
