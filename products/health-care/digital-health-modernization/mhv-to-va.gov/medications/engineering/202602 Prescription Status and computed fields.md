@@ -107,7 +107,7 @@ All OH fields are computed from FHIR R4 `MedicationRequest` + contained resource
 | # | Use Case | FHIR Input | → `disp_status` | → `refill_status` | → `refill_remaining` | → `is_refillable` | → `is_renewable` | → `is_trackable` | Notes / Questions |
 |---|---|---|---|---|---|---|---|---|---|
 | OH7 | Non-VA medication | `status: "active"`, `reportedBoolean: true`, `intent: "plan"`, `category[].coding[].code: "patientspecified"` | `Active: Non-VA` | `active` (then source `NV` triggers Non-VA disp_status) | `0` (hard-coded for Non-VA) | `false` (gate 1: Non-VA) | `false` (gate 2: Non-VA) | `false` | — |
-| OH8 | Active, original fill not yet dispensed | `status: "active"`, `numberOfRepeatsAllowed: 3`, **0 dispenses** | `Active` | `active` | `3` (3 - max(0-1,0) = 3) | `false` (gate 5: no dispenses) | `false` (gate 3: no dispenses) | `false` | User sees "Active" with 3 refills but cannot refill or renew. User-facing image describes this as "Active — the original fill has not begun to be filled yet." **Q10:** Can a patient request a fill through vets-api before any dispense exists? |
+| OH8 | Active, original fill not yet dispensed | `status: "active"`, `numberOfRepeatsAllowed: 3`, **0 dispenses** | `Active` | `active` | `3` (3 - max(0-1,0) = 3) | `false` (gate 5: no dispenses) | `false` (gate 3: no dispenses) | `false` | User sees "Active" with 3 refills but cannot refill or renew. User-facing image describes this as "Active — the original fill has not begun to be filled yet." **Q10:** Can a patient request a fill through vets-api before any dispense exists? **Answer** No- Veterans can only request a refill of a medication on VA.gov and VAHB. The medication has to have at least one fill. |
 
 ### Refill In-Flight States
 
