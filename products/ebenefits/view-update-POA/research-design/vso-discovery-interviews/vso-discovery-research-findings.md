@@ -1,101 +1,116 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "VSO Discovery Interviews for Search and Appoint Representative Research Findings"
+product: "eBenefits - Power of Attorney (Search and Appoint Representative)"
+team: "VSA, eBenefits"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-08-24"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Candy Clark"
+  - "James Adams"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand how the process of finding and appointing representatives works from the VSO perspective"
+  - "Learn how an organization or individual becomes a VSO"
+  - "Understand how Veterans or Service Members find a VSO"
+  - "Determine if veterans search for individual representatives or organizations, and how they get connected to an individual"
+  - "Identify at what point in the claims process Veterans begin looking for a representative"
+  - "Understand the limits of what a VSO can help with"
+  - "Learn if VSOs specialize in particular types of benefits or disabilities"
 methodology:
-- Method 1
-- Method 2
+  - "Discovery interviews"
+  - "Remote interviews"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 5
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 5
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 5
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 5
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "VSOs are largely found through word of mouth and outreach efforts."
+  - "VSOs want to position claims for the best chance of success and want to talk to Veterans/Service Members prior to a VA 21-22 being filed."
+  - "VSOs still rely on in person communication and paper forms, however, COVID-19 procedures forced a move to more electronic submissions."
+  - "VSOs use a mix of VA tools and tools internal to their organization."
+  - "Representatives reported problems with out of date information and submissions in eBenefits that were not reflected in SEP."
+  - "Ending representation is not as clear as beginning representation."
+  - "VSOs really care about Veterans and work to stay up to date on details that will affect claims."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Determine best end point for process, including whether we have information to allow user to send an email to the VSO."
+  - "Revise content to direct users to contact VSO directly before making a selection."
+  - "Conduct further inquiry into: What functions are available in SEP and how it fits into day-to-day usage for VSOs; What is the system of record for VSO contact information and current POA status; How might we connect Veteran > Organization > Individual Rep more consistently; How might we help Veterans find and understand an organization or representative's specialty (type of disability, location, other demographic)."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Understanding what functions are available in SEP and how it fits into day-to-day usage for VSOs"
+  - "Identifying the system of record for VSO contact information and current POA status"
+  - "Connecting Veteran > Organization > Individual Rep more consistently"
+  - "Helping Veterans find and understand an organization or representative's specialty (type of disability, location, other demographic)"
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "What functions are available in SEP and how it fits into the day-to-day usage for VSOs?"
+  - "What is the system of record for VSO contact information and current POA status?"
+  - "How might we connect Veteran > Organization > Individual Rep more consistently?"
+  - "How might we help Veterans find and understand an organization or representative's specialty (type of disability, location, other demographic)?"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Notes Matrix"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'MHV: Appointments'
-- remote-research
+  - "AUD: Veteran Service Office (VSO)"
+  - "AUD: Veterans"
+  - "AUD: Service Members"
+  - "BNFT: Disability"
+  - "PRDT: eBenefits"
+  - "PRDT: Accredited-Reps"
+  - "discovery"
+  - "remote-research"
+  - "semi-structured-interviews"
 ---
+
 # VSO Discovery Interviews for Search and Appoint Representative Research Findings
 **Digital Services Veterans Affairs (DSVA), VSA, eBenefits**<br>
 
