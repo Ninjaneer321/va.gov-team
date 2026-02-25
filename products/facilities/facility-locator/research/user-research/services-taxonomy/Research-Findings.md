@@ -1,95 +1,111 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Non-Clinical Services Taxonomy - Research Findings"
+product: "Facility Locator"
+team: "Facilities Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2021-12-14"
+researchers: 
+  - "Nick Osmanski"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Determine how Veterans expect services to be categorized on VAMC pages"
+  - "Validate existing service categories for Veteran expectations"
+  - "Identify if Veterans will create additional categories for existing services"
+  - "Identify if Veterans will create additional categories for new services"
+  - "Determine if services need plainer language descriptions"
+  - "Determine if category names need plainer language"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated card sort"
+  - "Hybrid card sort"
+  - "Optimal Workshop remote research"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 12
+    tablet: 0
+    smartphone: 2
+    assistive_technology: 0
+participants_total: 14
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 14
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 1
+    "35-44": 2
+    "45-54": 1
+    "55-64": 2
+    "65+": 4
+    unknown: 4
+  education: 
+    high_school: 1
+    some_college: 3
+    associates: 0
+    bachelors: 4
+    masters: 2
+    doctorate: 0
+    unknown: 4
+  location: 
+    urban: 7
+    rural: 5
+    unknown: 2
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 11
+    black: 2
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Most participants found the pre-determined categories adequate."
+  - "All participants utilized the new 'Administrative' category."
+  - "Some participants suggested new categories for existing services."
+  - "Almost no participants suggested new categories for new services."
+  - "There were services that needed plainer description, and/or additional explanation."
+  - "How service categorization was distributed across participants:"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Add the 'Administrative' category to system-level and facility-level pages"
+  - "Adding relevant patient-friendly name to services requiring explanation"
+  - "Consider creating a category heading that calls out returning Veterans"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Need for onboarding/transition category for Veterans leaving active service"
+  - "Need for clearer service descriptions using patient-friendly language"
+  - "Administrative services were not previously categorized but clearly needed by Veterans"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "More participants needed in general (at least 30 for robust statistical analysis)"
+  - "LGBTQ+ participants needed"
+  - "More participants who identify as minority Veterans and/or people of color"
+  - "Additional tree testing based on card sort results"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "LGBTQ+ Veterans"
+  - "Minority Veterans and people of color"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Optimal Workshop"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Facilities"
+  - "PRDT: Facility-locator"
+  - "DSP: Pages"
+  - "card-sort"
+  - "evaluative"
+  - "information-architecture"
 ---
 
 # Non-Clinical Services Taxonomy - Research Findings 
