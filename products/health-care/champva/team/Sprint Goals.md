@@ -32,7 +32,7 @@
 ##
 ### 10-10d
 - [ ] **SPRINT GOAL** 10-10d: Document the CHAMPVA benefits card delivery process and evaluate policy and technical feasibility for digital delivery
-  - [ ] [[BE] 10-10d: Discovery - Assess engineering feasibility of requesting a CHAMPVA benefits card online](
+  - [ ] [[BE] 10-10d: Discovery - Assess engineering feasibility of requesting a CHAMPVA benefits card online](https://github.com/department-of-veterans-affairs/va.gov-team/issues/131800)
 - [ ] **SPRINT GOAL** 10-10d: Complete and deliver the Tricare study report and share actionable findings and recommendations to the Design System team.
   - [ ] [[Research] 10-10d v2: Tricare Study Analysis & Findings Report](https://github.com/department-of-veterans-affairs/va.gov-team/issues/130962)
 - [ ] **Other planned work** 
@@ -109,6 +109,7 @@
 ##
 ### Team PTO
 - Kyle 2.25 - 2.27
+- Matt 2.27
 
 
 ## 📆 Sprint 14 (Feb 11 - Feb 24) 
