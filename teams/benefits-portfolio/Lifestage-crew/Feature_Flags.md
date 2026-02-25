@@ -31,7 +31,7 @@
 | **Pension Benefits**                                               | 527       |                    |                       |                     |                                                                     |
 | pension_form_enabled                                               | 527       | Yes                | Yes                   |                     | Master toggle for the pension form.                                 |
 | pension_form_profile_module_enabled                                | 527       | No                 | No                    | Bryan Alexander     | Use the module version of the FormProfile.                          |
-| pension_multiple_page_response                                     | 527       | No                 | No                    | Todd Rizzolo        | Implement multiple page response pattern.                           |
+| pension_multiple_page_response                                     | 527       | 2 Actors                 | No                    | Todd Rizzolo        | Implement multiple page response pattern.                           |
 | pension_pdf_form_alignment                                         | 527       | No                 | No                    | Bryan Alexander     | Toggle for the new PDF form alignment update.                       |
 | pension_extras_redesign_enabled                                    | 527       | No                 | No                    | Bryan Alexander     | Enable the new overflow design.                                     |
 | pension_kafka_event_bus_submission_enabled                         | 527       | Yes                | No                    | Bryan Alexander     | Enable the EventBusSubmissionJob for Kafka.                         |
