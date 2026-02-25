@@ -106,11 +106,13 @@ FY 26 O3: Relentlessly improve the user experience**  
  
 - [Segmented Button Epic](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4291) | Launch: July  2025  
 - [Experimental Design: Bring sidenav into the Design System](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/485#top)  |  Launch: July  2025  
--[Experimental Design \[New tabs design\]](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/2346) |  Launch: Aug  2025  
+- [Experimental Design \[New tabs design\]](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/2346) |  Launch: Aug  2025  
 - [Epic: Monospace font](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4481) | Launch: Sept 2025  
 - [Experimental Design \[Search filter pattern\]](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/3423) | Launch: Oct  2025  
 - [Experimental Design \[Colored tags\]](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/2993) | Launch: Feb 2026  
 - [Experimental Design \- Card component error state](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4276) | Launch: Feb 2026
+- [Experimental Design \- Design Filter and Sort](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/3584) | Launch: Feb 2026
+- [Experimental Design \- Update Additional Info and Expandable Alert (va-details)](https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues/4817) | Launch: March 2026
 
 
 ## Problem Statements
