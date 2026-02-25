@@ -28,4 +28,4 @@ The disability crew maintains and improves the application for disability compen
 - [Project Board](https://github.com/orgs/department-of-veterans-affairs/projects/1660/views/1)
 - [Figma VA.gov Platform](https://www.figma.com/files/team/1278375444205744118/recents-and-sharing?fuid=1127219626551318446)
 - [VA Mural- Disability](https://app.mural.co/t/departmentofveteransaffairs9999/r/1613770853903?folderUuid=7ada32d9-9e43-4a8a-9bc9-7ec760992ec5)
-- [Product Prioritizaion Mural](https://app.mural.co/t/nava4113/m/nava4113/1748904136573/6cc118924290977700e9a4ecd1e7a1b0e7c2e6c9)
+- [Product Prioritization Mural](https://app.mural.co/t/nava4113/m/nava4113/1748904136573/6cc118924290977700e9a4ecd1e7a1b0e7c2e6c9)
