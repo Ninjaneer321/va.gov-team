@@ -1,3 +1,18 @@
+<style>
+table th:first-of-type {
+    width: 10%;
+}
+table th:nth-of-type(2) {
+    width: 10%;
+}
+table th:nth-of-type(3) {
+    width: 50%;
+}
+table th:nth-of-type(4) {
+    width: 30%;
+}
+</style>
+
 | Flipper Name                                                       | Form ID   | Enabled on Staging | Enabled on Production | Engineer             | Description                                                         |
 | :----------------------------------------------------------------- | :-------- | :----------------- | :-------------------- | :------------------- | :------------------------------------------------------------------ |
 | Dependents Management                                              | 686c, 674 |                    |                       |                      |                                                                     |
