@@ -1,5 +1,6 @@
 | Flipper Name                                                       | Form ID   | Enabled on Staging | Enabled on Production | Engineer             | Description                                                         |
 | :----------------------------------------------------------------- | :-------- | :----------------- | :-------------------- | :------------------- | :------------------------------------------------------------------ |
+
 | dependents_module_enabled                                          | 686c, 674 | Yes                | No                    | Tai Wilkin-Corraggio | Enables new Dependents module.                                      |
 | va_dependents_v3                                                   | 686c, 674 | Yes                | Yes                   | Dakota Larson       | Toggles v3 of the 686c-674 form.                                    |
 | dependents_management                                              | 686c, 674 | Yes                | Yes                   |                     | Manage dependent removal from view dependent page.                  |
@@ -33,11 +34,11 @@
 | pension_extras_redesign_enabled                                    | 527       | No                 | No                    | Bryan Alexander     | Enable the new overflow design.                                     |
 | pension_kafka_event_bus_submission_enabled                         | 527       | Yes                | No                    | Bryan Alexander     | Enable the EventBusSubmissionJob for Kafka.                         |
 | pension_submitted_email_notification                               | 527       | Yes                | No                    | Tai Wilkin-Corraggio | Toggles sending of the Submission in Progress email.                |
-| pension_received_email_notification                                | 527       | No                 | No                    | Wayne Weibel        | Toggles sending of the Received email notification.                |
-| pension_error_email_notification                                   | 527       | No                 | No                    | Wayne Weibel        | Toggles sending of the Action Needed email notification.            |
+| pension_received_email_notification                                | 527       | No                 | Yes                   | Wayne Weibel        | Toggles sending of the Received email notification.                |
+| pension_error_email_notification                                   | 527       | No                 | Yes                   | Wayne Weibel        | Toggles sending of the Action Needed email notification.            |
 | pension_persistent_attachment_error_email_notification             | 527       | No                 | No                    | Bryan Alexander     | Toggles sending of the Persistent Attachment Error email.           |
-| event_bus_gateway_pension_email_template                           | 527       | Yes                | No                    | Liana Fleming       | Toggle to enable pension email template in eventbus-gateway.        |
-| pension_browser_monitoring_enabled                                 | 527       | No                 | No                    | Wayne Weibel        | Pension Datadog RUM monitoring.                                     |
+| event_bus_gateway_pension_email_template                           | 527       | Yes                | Yes                   | Liana Fleming       | Toggle to enable pension email template in eventbus-gateway.        |
+| pension_browser_monitoring_enabled                                 | 527       | No                 | Yes                   | Wayne Weibel        | Pension Datadog RUM monitoring.                                     |
 | pension_itf_validate_data_logger                                   | 527       | No                 | No                    | Bryan Alexander     | Toggle sending of the ITF Validate Data to Rails Logger.            |
 | pension_rating_alert_logging_enabled                               | 527       | No                 | No                    | Robin Garrison        | Enable Datadog logging for disability rating alert in pension form. |
 | **Burial Benefits**                                                | 530       |                    |                       |                     |                                                                     |
@@ -47,7 +48,7 @@
 | burial_pdf_form_alignment                                          | 530       | No                 | No                    | Todd Rizzolo        | Align digital form with PDF form.                                   |
 | burial_extras_redesign_enabled                                     | 530       | No                 | No                    |                     | Enable the new overflow design.                                     |
 | burial_submitted_email_notification                                | 530       | No                 | No                    | Tai Wilkin-Corraggio | Toggles sending of the Burial Submission in Progress email.         |
-| burial_received_email_notification                                 | 530       | No                 | No                    | Wayne Weibel        | Toggles sending of the Received email notification.                |
-| burial_error_email_notification                                    | 530       | No                 | No                    | Wayne Weibel        | Toggles sending of the Action Needed email notification.            |
+| burial_received_email_notification                                 | 530       | No                 | Yes                   | Wayne Weibel        | Toggles sending of the Received email notification.                |
+| burial_error_email_notification                                    | 530       | No                 | Yes                   | Wayne Weibel        | Toggles sending of the Action Needed email notification.            |
 | burial_persistent_attachment_error_email_notification              | 530       | No                 | No                    | Bryan Alexander     | Toggles sending of the Persistent Attachment Error email.           |
-| burial_browser_monitoring_enabled                                  | 530       | No                 | No                    |                     | Burial Datadog RUM monitoring.                                      |
+| burial_browser_monitoring_enabled                                  | 530       | No                 | Yes                   |                     | Burial Datadog RUM monitoring.                                      |
