@@ -64,6 +64,9 @@ These constants are used in the V2 controller for three purposes:
 
 All VistA fields are pass-through — vets-api performs no computation. The upstream MHV API determines every value.
 
+> [!TIP]
+> Use the horizontal scrollbar at the bottom of the table to see all columns.
+
 | # | Use Case | Input (`medication[]` from upstream) | Output (`disp_status`) | Output (`refill_status`) | Output (`refill_remaining`) | Output (`is_refillable`) | Output (`is_renewable`) | Output (`is_trackable`) | Notes / Questions |
 |---|---|---|---|---|---|---|---|---|---|
 | V1 | Active with refills available | `dispStatus: "Active"`, `refillStatus: "active"`, `refillRemaining: 3`, `isRefillable: true`, `isRenewable: false`, `isTrackable: false` | `Active` | `active` | `3` | `true` | `false` | `false` | — |
@@ -415,6 +418,9 @@ The constant `dispStatusForRefillsLeft` lists `['Active', 'Active: Parked', 'Act
 ## Findings from Review of Sample Statuses
 
 Possible issues about what the user sees, evaluated against current backend + frontend logic.
+
+> [!TIP]
+> Use the horizontal scrollbar at the bottom of the table to see all columns.
 
 | # | Reported by |Possible Issue | Current Logic | Possible Change | Action |
 |---|---|---|---|---|---|
