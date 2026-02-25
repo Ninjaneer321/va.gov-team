@@ -34,6 +34,7 @@ research_questions:
   - "Where do coordinators observe Veterans getting stuck (steps, requirements, terminology, device/accessibility barriers, etc.)?"
   - "What workarounds do coordinators use today, and what do they wish they could do but cannot (permissions, systems, policy)?"
   - "What escalation paths exist (to ID.me, VA help desks, internal channels), and where do escalations break down or slow down?"
+  - "What improvements would MHV coordinators like to see from ID.me in order better support Veterans during the verification process?"
   - "What content, tools, or process changes would most reduce time-to-resolution and improve Veteran experience?"
 
   # Questions for consideration (add/keep as needed)
