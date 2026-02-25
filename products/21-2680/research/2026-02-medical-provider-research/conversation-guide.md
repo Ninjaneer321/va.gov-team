@@ -151,8 +151,8 @@ Before we look at the form, let's start with a few questions to get to know you 
    - *[Listen for: phone, patient portal, in-person, etc.]*
 
 7. **Have you ever had to work with a doctor to fill out a VA form — like getting them to sign something or provide medical information for a benefits claim?**
-   - **If yes:** Can you walk me through that experience? What was that process like? 
-   - **If no:** That's okay — we'll talk about what you'd imagine that might be like.
+   - **If yes:** Think about the last time you did this. Can you walk me through that experience? What was that process like? 
+   - **If no:** That's okay — imagine you need to have a doctor fill out a form for you. Can you walk me through the process? What would you do first? .
 
 8. **What are some of the biggest challenges you face when trying to communicate with your doctor or get them to help with paperwork?**
    - *[Listen for: delays, confusion, unclear instructions, busy providers, etc.]*
