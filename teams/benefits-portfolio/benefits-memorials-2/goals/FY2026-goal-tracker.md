@@ -67,15 +67,15 @@ Current/prior sprint tickets & completion rates can be seen [here](https://githu
 **Sprint rollover tickets**
 | Additional work that was pulled in mid-sprint | Scope of work changed after ticket started | Work became blocked mid-sprint |  Work was underestimated and not completed |
 |---------------|---------------|---------------|---------------|
-|Ticket #|Ticket #131383|Ticket #131033|Ticket #|
-|Ticket #|Ticket #116143|Ticket #|Ticket #|
-|Ticket #|Ticket #102622|Ticket #|Ticket #|
-|Ticket #|Ticket #132368|Ticket #|Ticket #|
-|Ticket #|Ticket #132369|Ticket #|Ticket #|
-|Ticket #|Ticket #132406|Ticket #|Ticket #|
-|Ticket #|Ticket #132524|Ticket #|Ticket #|
-|Ticket #|Ticket #132607|Ticket #|Ticket #|
-|Ticket #|Ticket #130082|Ticket #|Ticket #|
+|  |Ticket #131383|Ticket #131033|  |
+|  |Ticket #116143|  |  |
+|  |Ticket #102622|  |  |
+|  |Ticket #132368|  |  |
+|  |Ticket #132369|  |  |
+|  |Ticket #132406|  |  |
+|  |Ticket #132524|  |  |
+|  |Ticket #132607|  |  |
+|  |Ticket #130082|  |  |
 
 **_Approvals:_** _(sent via email but approvals tracked here)_
  - [X] Ready to be sent for approvals (02/10/26)
