@@ -1,107 +1,134 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Facility Locator - Assistive Technology Discovery and Usability Study: Homepage Research Findings"
+product: "Facility Locator"
+team: "Not specified in findings report"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "Not specified in findings report"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Not specified in findings report"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Evaluate homepage usability for assistive technology users"
+  - "Identify barriers to finding Facility Locator from VA.gov homepage"
+  - "Understand navigation patterns of screen reader and low vision users on VA.gov"
 methodology:
-- Method 1
-- Method 2
+  - "Usability testing"
+  - "Remote moderated sessions"
+  - "Task-based evaluation"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 6
+  tablet: 0
+  smartphone: 1
+  assistive_technology: 7
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 7
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 7
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 7
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 7
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 1
+    AT_advanced: 6
+    screen_reader_desktop: 4
+    screen_reader_mobile: 1
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    blind: 1
+    low_vision: 2
 key_findings:
-- Finding 1
-- Finding 2
+  - "The homepage is difficult to use with screen readers - Different navigation methods produce inconsistent user experiences, page hierarchy and content perceptions of the VA.gov homepage"
+  - "Browsing by heading - A lack of heading level hierarchy creates an inaccurate and confusing representation of the content available on the homepage"
+  - "Skip to content - using this method drops a user at the Service member benefits link, bypassing the Top 4 boxes, which confused users"
+  - "Regions - the lack of delineated regions means users perceive all footer links as part of the page content links forcing them to hear all 46 of them each time they navigate"
+  - "Using global navigation menu - desktop JAWS users who size down their browser viewports experience a hybrid desktop/mobile experience that creates confusion"
+  - "Find - this method was more successful for users in this study, with some users easily finding Find a VA Location when using keywords"
+  - "Edit box - when arriving at the homepage, JAWS announces that there is no edit box on this page, though the expectation is that a search box would appear as an edit box"
+  - "4/7 Veterans had difficulty finding Facility Locator from VA.gov"
+  - "4/7 Veterans used global search to find a location or dermatologist"
+  - "For many Veterans, MyHealtheVet is their effective VA homepage - some participants who had never been to VA.gov were very familiar with MyHealtheVet"
+  - "ZoomText magnification software challenges - when screen is magnified enough to read content, users cannot see other elements until moving the cursor, making login and navigation difficult"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Establish a page hierarchy for pages and ensure that top navigation methods follow it - Group links and content with logically ordered heading levels to create an understandable hierarchy"
+  - "Create regions on every page so that users navigate quickly between areas - footer links should be grouped into a footer region"
+  - "Make sure skip to content takes users to the main content on the page - currently it goes to Service member benefits H2 and bypasses the Top 4 boxes section"
+  - "Consider expanding or exposing global search as its default state, making it more prominent so that screen reader users can find it more easily as an edit box"
+  - "Consider updating the global nav menu to give mobile and desktop users the same access to the links within it - the mobile layout is problematic for screen reader users"
+  - "Assess keyword searches and ensure that buttons and links include the keywords that users are likely to search for like menu and locations"
+  - "Assess the naming of component states, consider more descriptive and expected language like menu open"
+  - "Work with Facilities team to assess and incorporate facility related keywords - Veterans didn't think to look for a facility locator and are likely to use global search when looking for a facility"
+  - "Assess keyword searches for top facility types on VA.gov and incorporate those terms into global search best bets"
+  - "Experiment with patterns that exist within popular search tools like hospitals near me, urgent care near me that could appear in type ahead global searches"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Improve homepage navigation hierarchy and semantic structure for assistive technology users"
+  - "Better integrate facility search into expected user mental models and search patterns"
+  - "Enhance discoverability of Facility Locator tool from VA.gov homepage"
 further_research_needed:
-- Area 1
-- Area 2
+  - "Testing with dictation software users"
+  - "Testing with magnification software (ZoomText) users with working software"
+  - "Research on Veterans use of MyHealtheVet as primary VA.gov entry point"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Dictation/speech input users"
+  - "Full magnification software testing (ZoomText users experienced technical difficulties)"
+secondary_research: []
+synthesis_tools_used: []
+related_research:
+  - "[Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/research/user-research/screenreader-usability-study/research-plan.md)"
+  - "[Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/research/user-research/screenreader-usability-study/conversation-guide.md)"
+  - "[Main Research Findings Report](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/research/user-research/screenreader-usability-study/research-findings.md)"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Housing'
-- 'BNFT: Pension'
-- 'BNFT: Records'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- remote-research
+  - "PRDT: Facilities"
+  - "AUD: Veterans"
+  - "Accessibility"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "DSC: Search Input"
+  - "DSP: Help users to navigate a long list"
+  - "Screen-reader"
+  - "JAWS"
+  - "Low-vision"
+  - "Assistive-tech"
+  - "Usability-testing"
+  - "Homepage"
+  - "Navigation"
+  - "Semantic-HTML"
+  - "ARIA"
 ---
+
 # Homepage research findings from [Facility Locator - Assistive Technology Discovery and Usability Study](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/facilities/facility-locator/research/user-research/screenreader-usability-study/research-findings.md)
 
 ## Table of Contents
