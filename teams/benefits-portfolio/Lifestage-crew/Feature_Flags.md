@@ -1,5 +1,6 @@
 | Flipper Name                                                       | Form ID   | Enabled on Staging | Enabled on Production | Engineer             | Description                                                         |
 | :----------------------------------------------------------------- | :-------- | :----------------- | :-------------------- | :------------------- | :------------------------------------------------------------------ |
+| **Dependents Management**                                          | 686c, 674 |                    |                       |                     |                                                                     |
 | dependents_module_enabled                                          | 686c, 674 | Yes                | No                    | Tai Wilkin-Corraggio | Enables new Dependents module.                                      |
 | va_dependents_v2                                                   | 686c, 674 | Yes                 | Yes                    | Evan Smith           | Allows us to toggle between V1 and V2 of the 686c-674 forms.       |
 | va_dependents_v2_banner                                             | 686c, 674 | No                 | No                    | Sean Midgley         | Allows us to toggle a form maintenance banner on the V1 form for pre-launch. |
