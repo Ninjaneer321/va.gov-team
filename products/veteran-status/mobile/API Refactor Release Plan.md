@@ -7,7 +7,7 @@ List the feature toggles here.
 | Toggle name | Description |
 | ----- | ----- |
 | **Mobile:** `veteranStatusCardUpdate`| When enabled, Veterans will see their Veteran Status Card or ineligibility messages as to why they don’t have a Veteran Status Card on VA: Health and Benefits app. This work also enables the shared service to populate the Veteran Status Card and the messages for both web and mobile. |
-| **Web:** “Insert name of Web” Feature Flag | When enabled, Veterans will see their Veteran Status Card or ineligibility messages as to why they don’t have a Veteran Status Card on VA.gov. This work also enables the shared service to populate the Veteran Status Card and the messages for both web and mobile. |
+| **Web:** `cve_veteran_status_new_service`| When enabled, Veterans will see their Veteran Status Card or ineligibility messages as to why they don’t have a Veteran Status Card on VA.gov. This work also enables the shared service to populate the Veteran Status Card and the messages for both web and mobile. |
 
 
 ## Production rollout
@@ -25,10 +25,10 @@ List the feature toggles here.
   * **Note**: For the mobile release to occur on March  24, 2026 all work needs to be finalized by the release branch of **March 11, 2026\.**  
 * How will you make the product available in production while limiting the number of users who can find/access it:   
   * We will be turning on the feature flag for a small percentage of users and increasing every few days as long if metrics meet our success criteria.   
-  * We will plan to check the metrics around 10:00am ET and then determine to increase at that time, so that the MFS and CVE team can immediately identify any issues.   
+  * We will plan to check the metrics around 11:00am ET and then determine to increase at that time, so that the MFS and CVE team can immediately identify any issues.   
 * What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")**?: **Work in Progress**  
   * Percentage of API errors: <1%
-* Who is monitoring the dashboard(s)?: Natalie Gibbons, Dave Formanek, Megan Commons, Janet Van, and “insert engineer from CVE”.  
+* Who is monitoring the dashboard: Natalie Gibbons, Matt Guest, Michael Harmer, Megan Commons, Janet Van, and Jesse Berman.  
 
 ### **Stage A: Canary**
 
