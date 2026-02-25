@@ -1,102 +1,130 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Veteran Preferred Facilities Research Findings"
+product: "VA Online Scheduling (VAOS) and Profile"
+team: "VAOS team and VSA Authenticated Experience team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-07-01"
+researchers: 
+  - "Peter Russo"
+  - "Liz Lantz"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Learn more about the Veteran mental model around scheduling and their registered health facilities"
+  - "Evaluate the usability of a prototype that would allow Veterans to save facilities to refine scheduling options"
+  - "Improve completion of the VA facility selection step and reduce abandonment rate"
 methodology:
-- Method 1
-- Method 2
+  - "Usability testing"
+  - "Semi-structured interviews"
+  - "Prototype testing"
+  - "Moderated research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 1
+    "35-44": 2
+    "45-54": 2
+    "55-64": 1
+    "65+": 2
+    unknown: 0
+  education: 
+    high_school: 0
+    some_college: 2
+    associates: 2
+    bachelors: 0
+    masters: 4
+    doctorate: 0
+    unknown: 0
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 0
+    hispanic: 3
+    biracial: 1
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "When choosing care, participants wanted to know what was nearby, more than where they were registered."
+  - "Participants saw registration as a step in the process to receiving care; not a tool for finding facilities."
+  - "Participants expected that all VA clinics should be able to easily access their VA medical information."
+  - "Half of the participants preferred to schedule appointments through a combination of secure messenger and in person."
+  - "7 of 8 participants shared a negative perception of calling the VA."
+  - "Participants easily completed most tasks, but it was not intuitive that they needed to go between VAOS and profile to do so."
+  - "No participant was able to find the list of facilities in the profile when starting from the VA.gov homepage without guidance."
+  - "In the VAOS facility list view, the content and functionality for the 'How do I remove a facility from my list' additional info component didn't align with participant expectations."
+  - "Participants clearly understood that they couldn't schedule online at every facility, but they weren't confident as to why."
+  - "6 of 8 participants had a hard time using the profile mobile menu."
+  - "Participants shared other points of feedback for consideration around the UI and content."
+  - "Most participants saw value in being able to save facilities to refine scheduling options, send secure messages to their provider, or for travel purposes."
+  - "Some participants explained it would be better if the process required less work for the Veteran."
+  - "Seeing recently visited facilities was useful for recognizing the facilities, not for speeding up the scheduling process."
 recommendations:
-- Recommendation 1
-- Recommendation 2
+  - "We recommend surfacing helpful facility information for the Veteran based on their data, instead of asking them to manually manage facilities in the scheduling flow or their profile."
+  - "Learn more about how we can support Veterans who have moved or travel regularly."
+  - "Consider ways to reduce Veteran frustration when calling to schedule."
+  - "Revisit the design of the profile mobile menu."
 kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Reduce abandonment rate at the VA facility selection step in VAOS"
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Supporting Veterans who travel or have moved to multiple locations"
+  - "Reducing friction in the appointment scheduling process"
+  - "Improving wayfinding between VAOS and profile sections"
+  - "Clarifying why some facilities don't offer online scheduling"
 further_research_needed:
-- Area 1
-- Area 2
+  - "How current tools support Veterans who have moved or travel regularly"
+  - "Understanding use cases for Veterans who split time between two locations"
+  - "Evaluating the profile mobile menu design with analytics data and potentially unmoderated studies"
+  - "Understanding patterns between facilities that don't offer online scheduling"
 underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Age 55-64+"
+  - "Mobile users"
+  - "Native American"
+  - "Transgender"
+  - "Veterans Abroad"
 secondary_research:
-- Web analytics
-- SME interviews
+  - "VAOS analytics data (abandonment rates)"
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Affinity Mapping"
 tags:
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- moderated-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VA-online-scheduling"
+  - "PRDT: My VA"
+  - "PRDT: Profile"
+  - "MHV: Appointments"
+  - "MHV: Secure Messaging"
+  - "DSC: Accordions"
+  - "DSP: Help users to navigate a long list"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "moderated-research"
+  - "evaluative"
 ---
 # Veteran preferred facilities research report
 
