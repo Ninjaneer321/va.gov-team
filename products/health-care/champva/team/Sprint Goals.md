@@ -2,9 +2,7 @@
 
 - Current Sprint first
 
- # Sprint Planning for 10-10d, 10-7959c, 10-7959a, 10-7959f-1, 10-7959f-2
 
-- Current Sprint first
 
 ## 📆 Sprint 14 (Feb 25 - Mar 10) 
 - [ ] 🎉 **Sprint Goals completed** or 🧱 **Sprint Goals not completed** 
