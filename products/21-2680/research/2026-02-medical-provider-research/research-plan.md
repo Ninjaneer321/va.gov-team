@@ -85,9 +85,9 @@ participants:
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
+  pilot_date: "2026-03-06"
   pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
+  research_dates: "2026-03-09 to 2026-03-20"
   research_review_submission: "YYYY-MM-DD"
   
 session_details:
@@ -424,11 +424,11 @@ This approach allows us to reach a diverse group of veterans,dependents, and car
 > [!NOTE]
 > **Send pilot participant email in study Slack channel**
 
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- `Pilot participant name:` **TBD- an Aquia teammate**
+- `Date and time of pilot session:` **Friday, March 6, 2026** 
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **March 9 - March 20, 2026 (some flexibility if recruiting takes longer past this)**
 
 ### Length of sessions
 - `Session length:` **60 minutes**
@@ -439,6 +439,7 @@ This approach allows us to reach a diverse group of veterans,dependents, and car
 
 ### Availability
 When would you like sessions scheduled? Please list exact dates and times in **EASTERN Standard Time**. 
+Any weekday between 12ET and ending before 6ET.
 
 > [!NOTE]
 > We recommend providing availability outside of work hours, as many Veterans are only available before and after working times.
