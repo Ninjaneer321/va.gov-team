@@ -1,97 +1,137 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Pre-Need Burial Research Findings"
+product: "VA Health and Benefits App - Pre-Need Burial Eligibility"
+team: "Mobile Feature Support"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-05-05"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Emily DeWan"
+  - "Natasha Huckleberry"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand what prompts Veterans to think about their burial details so that we consider what information to provide to them."
+  - "Understand how Veterans are learning about their burial benefits so we can consider where to provide information to them."
+  - "Test the clarity of pre-need burial information on VA.gov."
+  - "Understand the goals of Veterans for pre-need burial so we can determine what will be useful."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated research sessions"
+  - "Semi-structured interviews"
+  - "Usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 13
+  assistive_technology: 2
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 13
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 1
+    "55-64": 8
+    "65+": 4
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 5
+    some_college: 3
+    associates: 1
+    bachelors: 2
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 8
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 1
+    hispanic: 3
+    biracial: 2
+    asian: 1
+    native: 1
+    unknown: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 9
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  gender:
+    male: 7
+    female: 6
+  LGBTQ: 2
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Planning ahead for death is seen as a practical way to care for loved ones."
+  - "Personal experiences of loss are a strong prompt for planning, but urgency is often missing."
+  - "Most participants learn about their benefits through word of mouth, rather than VA.gov."
+  - "Awareness of pre-need eligibility is low, and is often confused with more comprehensive funeral planning services."
+  - "Existing burial content on VA.gov is generally understandable, but there is desire for clearer and simple communication."
+  - "Participants prefer phones for quick tasks, but turn to computers or tablets for anything more involved"
+  - "Participants desire transparency from VA, and generally have low expectations for communication."
+  - "Everyone wants a digital copy of their pre-needs eligibility letter."
+  - "Participants have a strong desire to ensure their loved ones can access important documents after they die."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Provide timeline for the process of pre-need eligibility determination"
+  - "Add status updates to My VA and the app"
+  - "Add decision letter to MyVA and the app"
+  - "Provide a method for family members and other designated people of Veterans to access their pre-need eligibility decision. Possibly allow Next of Kin to be added?"
+  - "Develop a strategy to share burial information proactively"
+  - "Clarify purpose of pre-need form"
+  - "Revise eligibility copy for clarity"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not explicitly specified in report"
+  business: "Not explicitly specified in report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Proactive outreach about burial benefits to Veterans before personal loss experience"
+  - "Comprehensive funeral planning services beyond eligibility determination"
+  - "Family member access to Veteran documents after death"
+  - "Clearer communication about pre-need form purpose and benefits"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Assistive technology users"
+  - "Younger Veterans and family members"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Transgender, Nonbinary, gender fluid, genderqueer, Two-Spirit (Indigenous only), or another gender beyond man or woman"
+  - "AT users (screen readers, advanced assistive technology)"
+  - "Veterans aged 25-44"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "2023-08 Integration research"
+  - "2023-05 Pre-integration research"
+  - "Mobile team SME research"
+  - "Mobile team claim status tool research"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Google Sheet for tagging"
+  - "Notta for transcript analysis"
+  - "Mural for user flows"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Memorialization"
+  - "PRDT: Burials-memorials"
+  - "PRDT: VA-mobile-app"
+  - "HDW: Smartphone"
+  - "DSC: Form"
+  - "DSP: Help users to check answers"
+  - "DSP: Notifications"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "discovery"
+  - "evaluative"
+  - "mobile"
+  - "remote-research"
 ---
-
 # Pre-Need Burial Research Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), VA Health and Benefits App, Mobile Feature Support**

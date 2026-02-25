@@ -2,7 +2,7 @@
 name: DRAFT Collaboration Cycle / Staging Review
 about: DRAFT - do not use - Template for Staging Review
 title: 'Staging Review for [Team Name, Product Name, Feature Name]'
-labels: collaboration-cycle
+labels: collaboration-cycle, CC-touchpoint, staging-review
 assignees: ''
 
 ---
@@ -35,7 +35,7 @@ The [Staging Review touchpoint](https://depo-platform-documentation.scrollhelp.s
 
 ### :three: VFS team: add links to artifacts at least 4 business days before the meeting
 Link all artifacts in this section of the ticket **at least four business days** before the scheduled Staging Review. Please don't add artifacts in the comments section. Please do not make changes to the product or artifacts during the 4-day review period. 
- [Review guidance on Staging Review artifacts.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Staging-review.1810137181.html#Stagingreview-Artifacts)
+ [Review guidance on Staging Review artifacts.](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/staging-review#StagingReview-Whatartifactsdoyouneedtoprovide?)
 
 #### Required artifacts
 - [ ] **Direct link or instructions on how to access the product**

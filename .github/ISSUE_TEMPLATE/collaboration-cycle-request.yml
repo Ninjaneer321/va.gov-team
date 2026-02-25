@@ -40,7 +40,6 @@ body:
     description: Select your team from the list (sorted alphabetically). Not seeing
       your team here? [Add your team to the manifest](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/teams-manifest-user-guide.md)
     options:
-    - 1010 Health Apps (33001)
     - Accelerate Cybersecurity Excellence (ACE) (24001)
     - Accessibility Digital Experience (ADE) (23001)
     - Accredited Reps. - Accreditation (10001)
@@ -66,6 +65,7 @@ body:
     - Dependents Management Tools (13001)
     - Design & Forms Systems (23003)
     - Disability Benefits Crew - Core 526 (12002)
+    - Disability Benefits Crew Team 5 (12004)
     - Disability Pathways (12003)
     - Employee Experience (11005)
     - Faceted Search (21004)
@@ -73,6 +73,7 @@ body:
     - Financial Management (22003)
     - GovCIO VEBT (40002)
     - Governance (23004)
+    - Health Apps (33001)
     - Horizon (31001)
     - Hydra (32001)
     - Identity (20001)

@@ -1,95 +1,72 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Veterans Service Organization Landscape Summary Research Findings"
+product: "Accredited Representative Portal"
+team: "Accredited Representative Facing Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-01-31"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Laura Paradis"
+  - "Eva Heintzelman (Reviewer)"
+  - "Janelle Finnerty (Reviewer)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand the landscape of VSOs and Accredited Representatives"
+  - "Inform the ARF team of our primary user audience"
+  - "Understand what the landscape of VSOs looks like at a high-level"
+  - "Understand primary types of VSOs in terms of structure"
+  - "Understand how VSOs differentiate themselves in terms of services, delivery model, or other factors"
 methodology:
-  - "Method 1"
-  - "Method 2"
-devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
-demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
-  race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
-  disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+  - "Secondary research"
+  - "Data analysis"
+  - "Document review"
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "There are about 80 VSOs, with 23 of those being National VSO, 55 being State/Territory/Tribe."
+  - "There are about 8,000 VSO representatives, with nearly 50% being cross-accredited with at least two VSOs."
+  - "VSOs each have their own policy and procedures regarding claimant representation, and no clear standard exists across any one organization type, or any one role."
+  - "VSOs can either follow a centralized or decentralized model for approving POA requests and submitting claims. VSO representatives either forward POA requests and claims submissions to a central office or they accept and process them themselves."
+  - "About 53% of VSO representatives hold a single accreditation, while about 47% of VSO representatives are cross-accredited with at least two VSOs."
+  - "Representatives seek cross-accreditation to more quickly access Veterans files in VBMS; the more accreditations they have the more likely the Veteran will have POA with one of their organizations."
+  - "State/County VSOs appear to have the highest workloads; one State/County VSO representative can have 5,000 - 10,000 claimants."
+  - "VSO representatives can hold positions across different types of organizations. A part-time County Veterans Service Officer (CVSO) could also be a part-time DAV Veterans Service Officer and/or part-time VFW Veterans Service Officer."
+  - "Representation of a claim can take years, and so representatives typically do not work alone."
+  - "Veterans experience difficulty when navigating this process of appointing a VSO; they are often not aware that they are appointing an organization, not an individual person."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "We will conduct more specific research around permissions so that the new accredited representative portal will be designed for improved workflows for all types of VSOs and representatives."
+  - "Design for flexible workflows, organizational structures and roles."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "VSO representatives will have portal workflows that accommodate centralized and decentralized organizational structures"
+  business: "Inform the ARF team of primary user audience to support successful portal rollout"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Need to design for flexible workflows, organizational structures and roles"
+  - "Veterans experience difficulty navigating the process of appointing a VSO"
+  - "No clear standard exists across VSO organization types or roles"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "What VSO classifications matter and why, when it comes to the design of this portal?"
+  - "What is the difference between local and state, or state and county, if any? Should there be different national classifications?"
+  - "What are the organization types we should be considering? What nuances within the centralized and decentralized organization structure should we be aware of?"
+  - "What do we need to account for regarding state-level differences in how they provide claimant representation?"
+  - "Does having a primary VSO impact a representative's workflow? Should it? How and why?"
+  - "Based on all the nuances of policies and cross accreditations, should we design to allow for people to set permission rules for their own orgs?"
+  - "More specific research around permissions for improved workflows for all types of VSOs and representatives"
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "OGC list of accredited representatives (November 2024)"
+  - "VSO organizational data analysis"
+  - "Document review (VFW National Veterans Service Policy and Procedure document)"
+  - "Prior research review"
+  - "ARM Study references"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Spreadsheet analysis"
+tags:
+  - "AUD: Veteran Service Office (VSO)"
+  - "AUD: Attorneys"
+  - "AUD: Claims Agents"
+  - "AUD: Veterans"
+  - "PRDT: Accredited-Reps"
+  - "secondary-research"
+  - "landscape-analysis"
+  - "discovery"
+  - "BNFT: Disability"
 ---
 
 # **Veterans Service Organization Landscape Summary**

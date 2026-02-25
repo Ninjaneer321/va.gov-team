@@ -92,6 +92,9 @@ I want to review a few things to make sure you're okay with what will happen in 
 * You indicated that you have a current overpayment debt. _[reference type of debt they selected in screener]_
     * Can you briefly tell me about it?
     * Are you able to see the details of this debt when you log in to your VA account on the website?
+        * _[if yes] use section "Validate overpayments on My VA (option 2)"_
+        * _[if they did not check]  use section "Validate overpayments on My VA (option 1)"_
+            * Okay, we'll check that shortly.
 
 _[NOTE] Potential ending spot if it's clear they do not have a current overpayment_
 
@@ -126,6 +129,26 @@ Start recording.
 
 * I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
 
+## Validate overpayments on My VA (option 1)
+
+<details>
+<summary>validate on va.gov</summary>
+
+_[NOTE] Use this step if they did NOT validate prior to the session_
+
+Before we start on the app, I'd like to have you log in to your acccount on va.gov so that we can confirm that the information lines up to what you’ll be seeing in the app.
+
+This could either be on another device, in case you have a computer nearby where you regularly log in, or this could be on your phone here.
+
+[after they log in]
+
+Please head to your overpayments section
+
+(My VA - Outstanding debt)
+
+_[NOTE] Record the name of debt(s), quantity of debt(s), and total amount(s) for comparison against their account on va.gov._
+
+</details>
 
 ## Set-up
 
@@ -242,6 +265,31 @@ _Moderator will follow the test paths outlined in the spreadsheet. Both versions
 - Google Sheet: [Spreadsheet: Test paths and success criteria - Overpayment UAT](https://docs.google.com/spreadsheets/d/1xfHJGzPQJaIeO-uPp8D4aboEO-qSDvBVp0b5QABg_5Q/edit?gid=312390165#gid=312390165)
 - Excel Spreadsheet on VA network: [Spreadsheet: Test paths and success criteria - Overpayment UAT](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Test%20paths%20and%20success%20criteria%20-%20Overpayment%20UAT.xlsx?d=w1b926b3759974de4989a59acbded0343&csf=1&web=1&e=sqGrc5)
 
+_[NOTE] Record the name of debt(s), quantity of debt(s), and total amount(s) for comparison against their account on va.gov._
+
+
+## Validate overpayments on My VA (option 2)
+
+<details>
+<summary>validate on va.gov</summary>
+
+_[NOTE] Use this step if they DID validate prior to the session_
+
+If you’re able, I’d like to now have you log in to VA.gov where we’ll confirm that the information lines up in your account to what you’re seeing in the app.
+This could either be on another device, in case you have a computer nearby where you regularly log in, or this could be on your phone here.
+
+[after they log in]
+
+Please head to your overpayments section
+
+(My VA - Outstanding debt)
+
+We want to make sure that the information is the same:
+- confirm same quantity of overpayment
+- confirm correct name(s) of debt(s)
+- confirm current balance(s) of debt(s)
+
+</details>
 
 ## Phone clean-up
 

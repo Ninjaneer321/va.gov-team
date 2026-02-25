@@ -2,16 +2,16 @@
 # Research Plan Metadata
 title: "Veteran & Caregiver Research Plan for 21-2680 Provider Experience"
 date: 2026-02-19
-last_updated: 2026-02-20
-team: "[Team Name]"
+last_updated: 2026-02-24
+team: "Aquia BIO"
 product: "Form 21-2680 Provider Experience"
 product_area: "authenticated"
 
 # Background Context
 background:
-  problem_statement: "Form 21-2680 requires Veterans (claimants) or their caregivers to have a medical provider fill out and sign a section verifying eligibility for Aid and Attendance or Housebound benefits. The claimant portion is already digitized on VA.gov; this research focuses on the experience veterans and caregivers have completing their part of the form and navigating the handoff to their provider."
+  problem_statement: "Form 21-2680 requires claimants (Veterans or their qualifying dependents) or their caregivers to have a medical provider fill out and sign a section verifying eligibility for Aid and Attendance or Housebound benefits. The claimant portion is already digitized on VA.gov; this research focuses on the experience veterans, dependents and caregivers have completing their part of the form and navigating the handoff to their provider."
   product_location: "Benefits & Claims section; authenticated experience on VA.gov"
-  user_familiarity: "Iteration - the claimant (patient-facing) portion is already online. This research focuses on the veteran and caregiver experience in completing their section and coordinating with their provider."
+  user_familiarity: "Iteration - the claimant (patient-facing) portion is already online. This research focuses on the veteran, dependent, and caregiver experience in completing their section and coordinating with their provider."
   product_brief_url: "[Link to product brief]"
 
 # Research Design
@@ -22,19 +22,19 @@ research_format:
   
 # Research Goals & Questions
 research_goals:
-  - goal_1: "Understand how veterans and caregivers experience the claimant side of Form 21-2680."
-  - goal_2: "Understand how veterans and caregivers navigate getting their provider to complete the provider section, including challenges and facilitators in the handoff process."
+  - goal_1: "Understand how veterans, dependents, and caregivers experience the claimant side of Form 21-2680."
+  - goal_2: "Understand how veterans, dependents, and caregivers navigate getting their provider to complete the provider section, including challenges and facilitators in the handoff process."
   - goal_3: "Understand the usability of Form 21-2680 as it exists in its digital form."
-  - goal_4: "Discover how veterans and caregivers currently interact with their providers and what pain points exist."
+  - goal_4: "Discover how veterans, dependents, and caregivers currently interact with their providers and what pain points exist."
   - goal_5: "Usability test how well people understand the new digital handoff between claimant and provider."
 
 research_questions:
   - "How clear are the instructions and form fields?"
   - "What is the timeline and effort required to complete the claimant side?"
-  - "How do veterans and caregivers feel about their experience completing Form 21-2680?"
+  - "How do veterans, dependents, and caregivers feel about their experience completing Form 21-2680?"
   - "How easy is it to navigate and complete the form?"
   - "Are form fields and questions clear and understandable?"
-  - "How do veterans and caregivers handle errors or unclear sections?"
+  - "How do veterans, dependents, and caregivers handle errors or unclear sections?"
   - "Is the form accessible?"
   - "How do they typically contact or coordinate with providers?"
   - "What challenges arise with follow-up and tracking?"
@@ -42,36 +42,46 @@ research_questions:
   - "Do they understand their options for handoff?"
 
 hypotheses:
-  - "Veterans and caregivers often experience confusion or delay in the provider handoff process."
+  - "Veterans, dependents, and caregivers often experience confusion or delay in the provider handoff process."
   - "Asynchronous workflows (completing the form outside an appointment) may be more common, contrary to assumptions about synchronous provider involvement."
-  - "Additional or clearer support resources would increase success and satisfaction for veterans/caregivers completing the process."
+  - "Additional or clearer support resources would increase success and satisfaction for veterans, dependents, and caregivers completing the process."
 
-expected_outcomes: "This research will clarify how veterans and caregivers experience the digital claimant portion of Form 21-2680, identify barriers and facilitators in the provider handoff process, and inform design improvements to reduce friction and increase successful claim submissions."
+expected_outcomes: "This research will clarify how veterans, dependents, and caregivers experience the digital claimant portion of Form 21-2680, identify barriers and facilitators in the provider handoff process, and inform design improvements to reduce friction and increase successful claim submissions."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "Perigean will recruit 8-10 veterans and caregivers to understand their experience with healthcare and benefits processes, and to gather feedback on the Form 21-2680 digital experience."
+  approach: "Perigean will recruit 10 - 16 veterans, dependents, and caregivers to understand their experience with healthcare and benefits processes, and to gather feedback on the Form 21-2680 digital experience."
   
   primary_criteria:
-    - "Veteran or caregiver/dependent of a Veteran"
+    - "Veteran, dependent of a Veteran (spouse, child, or parent) or caregiver of a Veteran"
     
   secondary_criteria:
-    - "Receives a pension or has a service-related disability"
+    - "Receives a pension (3 - 5 participants)"
+    - "Has a service-related disability (5 - 8 participants)"
+    - "Currently receives SMP, SMC, or other benefit for aid and attendance / housebound allowance (4 - 8)"
+    - "Thinks they are eligible for aid and attendance / housebound allowance (2 - 3)"
+    - "Has a VHA medical provider (2 - 3)"
+    - "Has a private medical provider (2 - 3)"
     
   screener_questions:
     - question: "Are you a Veteran, or the caregiver or dependent of a Veteran?"
+      qualifying_response: "Yes (Veteran, caregiver, or dependent)"
+    - question: "Do you (or the Veteran you care for) receive a VA pension?"
       qualifying_response: "Yes"
-    - question: "Do you receive a VA pension or have a service-related disability?"
-      qualifying_response: "Yes"
-    - question: "Are you comfortable participating in a 60-minute remote interview about your experience with healthcare and benefits?"
-      qualifying_response: "Yes"
+    - question: "Do you (or the Veteran you care for) have a service-related disability? Do you currently receive any form of disability benefits?"
+      qualifying_response: "Yes, I have a service-related disability and receive disability benefits"
+    - question: "Does your (or the Veteran you care for) doctor or medical provider work at a VHA facility or through a private practice?"
+      qualifying_response: "VHA facility or private practice"
+    - question: "Do you (or the Veteran you care for) currently receive a VA benefit for Aid and Attendance or Housebound Allowance? Sometimes referred to as Special Monthly Pension (SMP) or Special Monthly Compensation (SMC)."
+      qualifying_response: "Yes (SMC, SMP, or other Aid and Attendance benefit) or eligible"
       
 participants:
-  veterans: 5
-  caregivers: 3
-  total_recruited: 8-10
-  completed_sessions_goal: 8
+  veterans: 5-8
+  caregivers: 2-3
+  dependents: 3-5
+  total_recruited: 10-16
+  completed_sessions_goal: 10
   
 # Timeline & Sessions
 timeline:
@@ -92,7 +102,7 @@ octo_priorities:
       - "Supports reducing processing time and ensuring correct benefit distribution through improved claimant form submission workflows"
   - objective: "Objective 3: Relentlessly improve the user experience"
     key_results:
-      - "Supports reducing burden for Veterans and caregivers through a streamlined, user-friendly claimant form experience"
+      - "Supports reducing burden for Veterans, dependents, and caregivers through a streamlined, user-friendly claimant form experience"
       
 veteran_journey_phases:
   - "Taking Care of Myself"
@@ -109,6 +119,7 @@ tags:
   - "benefits-claims"
   - "veteran-experience"
   - "caregiver-experience"
+  - "dependent-experience"
   - "form-21-2680"
   - "aid-and-attendance"
   - "semi-structured-interviews"
@@ -126,7 +137,7 @@ tags:
 	
 `What problem is your product trying to solve?`
 
-Form 21-2680 requires Veterans (claimants) or their caregivers to have a medical provider fill out and sign a section verifying eligibility for Aid and Attendance or Housebound benefits. The claimant portion is already digitized on VA.gov; this research focuses on the experience veterans and caregivers have completing their part of the form and navigating the handoff to their provider.
+Form 21-2680 requires claimants (Veterans or their qualifying dependents) or their caregivers to have a medical provider fill out and sign a section verifying eligibility for Aid and Attendance or Housebound benefits. The claimant portion is already digitized on VA.gov; this research focuses on the experience veterans, dependents and caregivers have completing their part of the form and navigating the handoff to their provider.
   
 `Where is your product situated on VA.gov? (ex: auth vs. unauth)`
 
@@ -134,7 +145,7 @@ Benefits & Claims section; authenticated experience.
   
 `What is Veterans' familiarity with this tool? Is this a new product or an iteration on an existing one?`
 
-This is an iteration. The claimant (patient-facing) portion of Form 21-2680 is already digitized on VA.gov. This research explores the veteran and caregiver experience in completing their section and coordinating with their provider for the provider section.
+This is an iteration. The claimant (patient-facing) portion of Form 21-2680 is already digitized on VA.gov. This research explores the veteran, dependent, and caregiver experience in completing their section and coordinating with their provider for the provider section.
 
 `Product Brief`
 
@@ -173,7 +184,7 @@ This is an iteration. The claimant (patient-facing) portion of Form 21-2680 is a
 `Objective 3: Relentlessly improve the user experience.`
 
 > - **Key Result 3.1:** Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more.
-  - ***Research Ops Plain Language:** Supports this product's OIT portfolio in improving customer satisfaction and reducing friction for Veterans and caregivers.*
+  - ***Research Ops Plain Language:** Supports this product's OIT portfolio in improving customer satisfaction and reducing friction for claimants and caregivers.*
 > - **Key Result 3.3:** 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system.
   - ***Research Ops Plain Language:** Supports the delivery of an improved claimant form experience that directly addresses documented pain points in the current 21-2680 workflow.*
 
@@ -196,19 +207,19 @@ This is an iteration. The claimant (patient-facing) portion of Form 21-2680 is a
 
 ### Goals
 
-`1.` **Understand how veterans and caregivers experience the claimant side of Form 21-2680.**
+`1.` **Understand how veterans, dependents, and caregivers experience the claimant side of Form 21-2680.**
 
-`2.` **Understand how veterans and caregivers navigate getting their provider to complete the provider section, including challenges and facilitators in the handoff process.**
+`2.` **Understand how veterans, dependents, and caregivers navigate getting their provider to complete the provider section, including challenges and facilitators in the handoff process.**
 
 `3.` **Understand the usability of Form 21-2680 as it exists in its digital form.**
 
-`4.` **Discover how veterans and caregivers currently interact with their providers and what pain points exist.**
+`4.` **Discover how veterans, dependents, and caregivers currently interact with their providers and what pain points exist.**
 
 `5.` **Usability test how well people understand the new digital handoff between claimant and provider.**
   
 ### Outcome
 
-This research will clarify how veterans and caregivers experience the digital claimant portion of Form 21-2680, identify barriers and facilitators in the provider handoff process, and inform design improvements to reduce friction and increase successful claim submissions.
+This research will clarify how veterans, dependents, and caregivers experience the digital claimant portion of Form 21-2680, identify barriers and facilitators in the provider handoff process, and inform design improvements to reduce friction and increase successful claim submissions.
 
 ---
 
@@ -220,7 +231,7 @@ This research will clarify how veterans and caregivers experience the digital cl
 
 **`2.` What is the timeline and effort required to complete the claimant side?**
 
-**`3.` How do veterans and caregivers feel about their experience completing Form 21-2680?**
+**`3.` How do veterans, dependents, and caregivers feel about their experience completing Form 21-2680?**
 
 **Goal 3: Usability of digital form**
 
@@ -228,7 +239,7 @@ This research will clarify how veterans and caregivers experience the digital cl
 
 **`5.` Are form fields and questions clear and understandable?**
 
-**`6.` How do veterans and caregivers handle errors or unclear sections?**
+**`6.` How do veterans, dependents, and caregivers handle errors or unclear sections?**
 
 **`7.` Is the form accessible?**
 
@@ -254,11 +265,11 @@ This research will clarify how veterans and caregivers experience the digital cl
 
 `What do you already know about this problem space?` From stakeholder conversations, we know that:
 - The handoff to providers is a frequent pain point.
-- Veterans and caregivers value clear instructions and simplicity.
+- Veterans, dependents, and caregivers value clear instructions and simplicity.
 - Some veterans may not fully understand what their provider needs to do.
 
 `What do you think users will do or think about this product?` We anticipate:
-- Veterans and caregivers want a straightforward digital process.
+- Veterans, dependents, and caregivers want a straightforward digital process.
 - They may struggle with coordinating the handoff to their provider.
 - Clear, contextual guidance could improve success rates.
 
@@ -266,9 +277,9 @@ This research will clarify how veterans and caregivers experience the digital cl
 
 **Key Hypotheses:**
 
-- Veterans and caregivers often experience confusion or delay in the provider handoff process.
+- Veterans, dependents, and caregivers often experience confusion or delay in the provider handoff process.
 - Asynchronous workflows (completing the form outside an appointment) may be more common, contrary to assumptions about synchronous provider involvement.
-- Additional or clearer support resources would increase success and satisfaction for veterans/caregivers completing the process.
+- Additional or clearer support resources would increase success and satisfaction for veterans, dependents, and caregivers completing the process.
 
 ---
   
@@ -278,10 +289,10 @@ This research will clarify how veterans and caregivers experience the digital cl
 
 **Research approach:**
 
-1. **Semi-structured interviews** (with veterans and caregivers) - Appropriate for generative research to understand real workflows, pain points, and decision-making processes around the claimant-side experience and provider handoff.
+1. **Semi-structured interviews** (with veterans, dependents, and caregivers) - Appropriate for generative research to understand real workflows, pain points, and decision-making processes around the claimant-side experience and provider handoff.
 2. **Desktop research** - Review existing literature, forum posts, VA.gov analytics (if available), and any documented feedback on the claimant experience to supplement interview findings and identify patterns.
 
-**Why these methods:** We are in the generative phase of understanding the veteran and caregiver experience with Form 21-2680. Semi-structured interviews allow us to deeply explore real workflows, frustrations, and needs. Desktop research provides context and validates interview insights without additional participant burden.
+**Why these methods:** We are in the generative phase of understanding the veteran, dependent, and caregiver experience with Form 21-2680. Semi-structured interviews allow us to deeply explore real workflows, frustrations, and needs. Desktop research provides context and validates interview insights without additional participant burden.
 
 <details><summary>Additional resources</summary> 
 	
@@ -299,7 +310,7 @@ Where will you be holding the research sessions? Be sure to include whether this
 - [ ] **In-person**
 
 > [!NOTE]
-> We are planning remote research via video calls or phone interviews. This allows us to reach geographically dispersed veterans and caregivers, and accommodates varying schedules and accessibility needs.
+> We are planning remote research via video calls or phone interviews. This allows us to reach geographically dispersed veterans, dependents, and caregivers, and accommodates varying schedules and accessibility needs.
 
 ## Research materials 📔
 
@@ -308,9 +319,9 @@ Where will you be holding the research sessions? Be sure to include whether this
 
 Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
 
-**For semi-structured interviews (veterans, caregivers):** 
+**For semi-structured interviews (veterans, dependents, caregivers):** 
 	
-- [Link to conversation guide for veterans/caregivers](url goes here)
+- [Link to conversation guide for claimants/caregivers](url goes here)
 - [Link to screener questions](url goes here)
 - [Link to recruitment flyer or email](url goes here)
 
@@ -327,27 +338,33 @@ Provide a link to any materials you need to run your study, including any materi
 ### Recruitment approach
 
 **We will recruit participants using Perigean:**
-- Perigean will recruit 8-10 veterans and caregivers to understand their experience with healthcare and benefits processes, and to gather feedback on the Form 21-2680 digital experience.
+- Perigean will recruit 10 - 16 veterans, caregivers, and dependents to understand their experience with healthcare and benefits processes, and to gather feedback on the Form 21-2680 digital experience.
 
-This approach allows us to reach a diverse group of veterans and caregivers across the country.
+This approach allows us to reach a diverse group of veterans,dependents, and caregivers across the country.
 
 ### Recruitment criteria
 
 **Primary criteria (must-haves):**
-- Veteran or caregiver/dependent of a Veteran
+- Veteran or caregiver or dependent of a Veteran (child, spouse, parent)
 
 **Secondary criteria (nice-to-haves):**
-- Receives a pension or has a service-related disability
+- Receives a pension (3 - 5 participants)
+- Has a service-related disability (5 - 8 participants)
+- Currently receives SMP, SMC, or other benefit for aid and attendance / housebound allowance (4- 8)
+- Thinks they are eligible for aid and attendance / housebound allowance (2 - 3)
+- Has a VHA medical provider (2-3)
+- Has a private medical provider (2-3)
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 
 > [!NOTE]
 > Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 8 ideal completed sessions, request 10-12 total participants)*
 
-- `Veterans:` **5**
-- `Caregivers:` **3**
-- `Total:` **8-10**
-- `Ideal completed sessions:` **8**
+- `Veterans:` **5 - 8**
+- `Caregivers:` **2 - 3**
+- `Dependents:` **3 - 5**
+- `Total:` **10 - 16**
+- `Ideal completed sessions:` **10**
 
 ## Screener Questions 📋
 
@@ -363,13 +380,34 @@ This approach allows us to reach a diverse group of veterans and caregivers acro
 ### Your Study's Screener Questions
 
 **`1.` Are you a Veteran, or the caregiver or dependent of a Veteran?**
-- **Qualifying response:** Yes
+- Yes I am a Veteran (recruit 5-8)
+- Yes I am the caregiver of a Veteran (recruit 2-3)
+- Yes I am the dependent (spouse, child, parent) of a Veteran (recruit3- 5)
+- No, I am none of the above (exclude)
 
-**`2.` Do you receive a VA pension or have a service-related disability?**
-- **Qualifying response:** Yes
+**`2.` Do you (or the Veteran you care for) receive a VA pension?**
+- Yes (recruit 3-5)
+- No, but I think I am eligible to receive a VA pension (recruit 1)
+- No
 
-**`3.` Are you comfortable participating in a 60-minute remote interview about your experience with healthcare and benefits?**
-- **Qualifying response:** Yes
+**`3.` Do you (or the Veteran you care for) have a service-related disability? Do you currently receive any form of disability benefits?**
+- Yes I have a service-related disability and receive disability benefits (recruit 5 - 8)
+- Yes I have a service-related disability but do not currently receive disability benefits (exclude)
+- No 
+
+**`4.` Does your (or the Veteran you care for) doctor or medical provider work at a VHA facility or through a private practice?**
+- My medical provider works at a VHA facility (recruit 3 - 5)
+- My medical provider works at a private practice (recruit 3 - 5)
+- I do not know where my medical provider works (recruit 2 - 3)
+- I do not currently have a medical provider (recruit 2 - 3)
+
+**`5.` Do you (or the Veteran you care for) currently receive a VA benefit for Aid and Attendance or Housebound Allowance? Sometimes referred to as Special Monthly Pension (SMP) or Special Monthly Compensation (SMC).**
+- Yes, I currently receive SMC (recruit 1-2)
+- Yes, I currently receive SMP (recruit 1-2)
+- Yes, I currently receive a different benefit for Aid and Attendance or Housebound Allowance (recruit 1 - 2)
+- I am not sure (recruit 1-2)
+- No, but I think I am eligible to receive SMC, SMP or another benefit for Aid and Attendance or Housebound Allowance (recruit 2 - 3)
+- No, and I do not think I am eligible for this benefit (exclude)
 
 ## Timeline 🗓️
 > [!NOTE]

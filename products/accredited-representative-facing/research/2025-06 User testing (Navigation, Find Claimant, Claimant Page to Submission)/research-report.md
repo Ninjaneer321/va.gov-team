@@ -1,95 +1,144 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "User Testing of Find Claimant, Claimant page and Navigation Research Findings"
+product: "Accredited Representative Portal (ARP)"
+team: "Accredited Representative Facing Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2025-06-01"
+researchers: 
+  - "Laura Paradis"
+  - "Kate Albee"
+  - "Eva Heintzelman"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate the navigation. Are the sections and their purpose clear?"
+  - "Evaluate the usability of the search. Is it clear and intuitive? What could be improved?"
+  - "Evaluate the value of the Claimant Page overview. Is the information useful? What could improve its value?"
+  - "Evaluate the clarity and value of the claim submission flow, starting from Claimant Page. What could be improved?"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Usability testing"
+  - "Semi-structured interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  VSO_representatives: 5
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 5
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 5
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "ARP navigation is intuitive enough - Each participant completed 3/4 or 4/4 navigation tasks successfully and felt very confident in their ability to navigate this site"
+  - "Representatives expect a dashboard and search fields they can complete - 4/5 did not expect, but accepted landing on the find claimant page after log in; 3/5 expected a dashboard of activity and to-dos"
+  - "Representatives appreciated the clear simple claimant page as is currently designed - 5/5 participants found the page useful with clear intent-to-file information and representation status"
+  - "Enable multiple options for submission when available - Participants preferred different submission options based on their situation and context, with no one path meeting all their needs"
+  - "Representatives held a more positive perception of this submission solution than the prior design shown - More participants felt this solution was about the same or better than their current tools, compared to previous study results"
+  - "Representatives interpret 'General POA' as having full access to all Veterans' files in VBMS and 'Limited POA' as having limited access to these files"
+  - "Representatives appreciated the clear intent-to-file (ITF) section on the claimant page, with all participants finding it useful"
+  - "Representatives noted that more context about the Veteran on the claimant page would improve usefulness, such as service-connected disability ratings or flags for expedited handling"
+  - "Representatives prefer Veterans to sign forms to ensure they are fully informed, though they are legally allowed to sign on Veterans' behalf for certain form types"
+  - "Representatives take multiple approaches for adding evidence to existing claims, including using form 4138 or resubmitting the entire claim"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Add a note in Submission History to state that 'We are working to add more submissions in this view'"
+  - "Remove sentence 'Results do not include limited POAs' and conduct desk research on what we want reps to understand when it comes to the definition of limited POAs"
+  - "Follow up with SSN ticket to understand possibilities around search and selecting a more optimal solution over the current one, based on representative preferences"
+  - "Conduct design discovery on what a landing page might be, including high-level view of pending/completed items, organizations the representative is accredited with, and status of submissions"
+  - "Consider a more holistic alert design for portal for immediate scenarios: pending POA request, POA failed, claims submission processing error"
+  - "Change 'General POA information' to 'Current representation' and remove the note on general POA"
+  - "Change copy from 'Recent representation requests' to 'Your organizations' requests'"
+  - "Add information in Recent representation requests to identify that these requests only include requests submitted digitally through va.gov from the past 60 days"
+  - "Consider a longer-term content strategy for helping representatives understand that representation requests are digital from 60 days only, while other parts of the portal show historical data"
+  - "Conduct desk research to understand ITF scenarios for non-Veteran claimants and design for this scenario"
+  - "Identify if we could add other Veteran characteristics to the claimant page that representatives continuously refer to, such as the Veteran's disability rating or flags for expedited handling"
+  - "When both synchronous establishment and form upload options exist, offer both options"
+  - "Consider using word like 'Submit' or 'Complete' ITF online instead of 'Fill out'"
+  - "Change 'Start submission through form upload tool' to 'Upload completed form'"
+  - "On step 1/2 under 'Upload files' change 'Upload VA Form' to 'Upload VA Form 21-686c'"
+  - "On step 1/2, clarify whether or not any characters are acceptable in the file name"
+  - "On confirmation page, provide a link to 'Submissions History (under claimant)'"
+  - "Discuss with engineering on how to coordinate messaging to Veteran and to representative"
+  - "Discuss with engineering and other relevant parties on what preview capability is and should be possible given data privacy"
+  - "Optimize the signature workflow so that it is both efficient and ensures that Veterans understand what is being signed"
+  - "Conduct desk research to direct representatives to the best possible route for adding one more piece of evidence to existing claims"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not explicitly stated in findings report"
+  business: "Not explicitly stated in findings report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Dashboard functionality with high-level view of pending and completed activity"
+  - "More flexible search capabilities that don't require SSN when representatives don't have it readily available"
+  - "Additional Veteran context on claimant page (disability rating, flags for expedited handling, claim status)"
+  - "One-stop shop functionality to reduce need to access multiple systems like VBMS"
+  - "Optimized signature workflow that balances efficiency with Veteran informed consent"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Design discovery for landing page dashboard"
+  - "Desk research on limited POA definitions and representative understanding"
+  - "Search optimization based on representative preferences and how they search in other systems"
+  - "ITF scenarios for non-Veteran claimants"
+  - "Holistic alert design strategy for various submission and POA states"
+  - "Form signature workflow optimization"
+  - "Best practices for adding additional evidence to existing claims"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: Veteran Service Office (VSO)"
+  - "PRDT: Accredited-Reps"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "evaluative"
+  - "DSC: Search Input"
+  - "DSC: Form"
+  - "DSC: Alert Boxes"
+  - "DSP: Help users to navigate a long list"
+  - "DSP: Help users to sign in"
+  - "DSP: Ask users for signature"
+  - "DSP: Ask users for files"
+  - "navigation"
+  - "content"
+  - "information-architecture"
+  - "BNFT: Disability"
 ---
 
 # Research Findings for User Testing of Find Claimant, Claimant page and Navigation June 2025

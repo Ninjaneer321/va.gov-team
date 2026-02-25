@@ -1,7 +1,7 @@
 # Accredited Representative Portal - Form 21-22 / Manage Power of Attorney Requests - Product Outline
 
-### February 2026 update
-We are adding a more granular permission set to this feature to better reflect the needs and workflows of VSOs. Although Form 21-22 grants POA to an organization, not an individual, field 16A allows the claimant to name an accredited representative representing that organization (who countersigns the paper form in field 23A). The initial release of this feature gave a portal user either access to all 21-22s for an organization or none of them -- the new permission level will show 21-22s *that name the user* in 16A. The sections below will be updated accordingly.
+### *February 2026 update*
+*We are adding a more granular permission set to this feature to better reflect the needs and workflows of VSOs. Although Form 21-22 grants POA to an organization, not an individual, field 16A allows the claimant to name an accredited representative representing that organization (who countersigns the paper form in field 23A). The initial release of this feature gave a portal user either access to all 21-22s for an organization or none of them -- the new permission level will show 21-22s *that name the user* in 16A. The sections below will be updated accordingly.*
 
 ## Overview
 We will create a site for accredited representatives hosted on VA.gov yet visually distinct where VSOs are able to accept or decline representation requests from Form 21-22.
@@ -9,6 +9,7 @@ We will create a site for accredited representatives hosted on VA.gov yet visual
 Objectives:
 - Develop a user-friendly website that enables Veteran Service Organizations (VSOs) to manage power of attorney (POA) requests from veterans efficiently.
 - Ensure the site's design accommodates future expansions for additional tasks accredited representatives perform.
+- *Accommodate VSOs with different procedures and preferences for POA request acceptance -- an organization can either choose to allow all accredited reps to accept/decline any POA request or only to allow the preferred rep named in Field 16A of Form 21-22 to accept/decline the request.*
 
 ## Problem Statement
 The current systems for accepting or denying representation requests by Form 21-22 are either hosted on a deprecated site (SEP) or are entirely on paper. It is very slow process and does not provide a method for notifying the Veteran if the request has been accepted or rejected.
@@ -29,6 +30,7 @@ This project asks how might we digitize the acceptance of Form 21-22 and host it
 ## Desired Business Outcomes
  - Increased use of digital forms which is a current OCTO priority
  - Decrease in forms that are unanswered or unresponded to
+ - *Increase VSO / accredited rep participation in the portal for POA requests*
 
 ## Measuring Success
 
@@ -61,6 +63,8 @@ We will collaborate with Office of General Counsel and VBA VSO liaison (Marty Ca
 ## Launch Dates
 Target Launch Date: Mar 11, 2025
 
+*Permissions feature: Mar 19, 2026*
+
 ## Supporting Documentation
 - [Product Playbook/Incident Response Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/manage-poa-requests/launch-materials/product-playbook-incident-response-plan.md)
 - [Release Plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/accredited-representative-facing/product-info/manage-poa-requests/release-plan-manage-poa-requests-v0.md)
@@ -74,10 +78,10 @@ Target Launch Date: Mar 11, 2025
 #### Team Leads
  
  - DEPO Lead: Jennifer Bertsch
- - PM: Candi Lemoine
- - Technical Architect: Alex Prokop
- - Engineering: Oren Mittman
- - Research/Design: Eva Heintzelman 
+ - PM: Lindsay Li-Smith
+ - Technical Architect for launch release: Alex Prokop
+ - Engineering: Jeff Wallace
+ - Research/Design: Ian McCullough
  
 #### Stakeholders
 

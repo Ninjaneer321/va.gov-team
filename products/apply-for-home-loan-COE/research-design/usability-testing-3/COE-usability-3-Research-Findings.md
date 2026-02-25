@@ -1,95 +1,112 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Certificate of Eligibility (C.O.E.) Usability Testing 3 Research Findings"
+product: "Certificate of Eligibility (COE)"
+team: "IIR"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-07-10"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Ian Hilton"
+  - "Mike King"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Learn if the new additional questions about name change, disability, home damage, etc. make sense to Veterans"
+  - "Validate that making the form as short as possible using conditional logic to expose only the screens and content the Veteran needs to see lowers cognitive load for Veterans"
+  - "Understand if offering additional context after the question is posed rather than before will increase usability by decreasing cognitive load (Tucking additional contextual information into accordions)"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "Prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 9
+    tablet: 0
+    smartphone: 2
+    assistive_technology: 1
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 3
+    "35-44": 1
+    "45-54": 1
+    "55-64": 4
+    "65+": 2
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 1
+    associates: 2
+    bachelors: 3
+    masters: 4
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 6
+    rural: 5
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 4
+    hispanic: 0
+    biracial: 1
+    asian: 0
+    native: 0
+    prefer_to_self_describe: 2
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 1
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All participants (11 of 11) were able to complete the form without getting stuck"
+  - "All participants (11 of 11) understood the 'Has your name changed' question"
+  - "Almost all (10 of 11) understood that the additional information was available in the 'Understanding your COE options' accordion"
+  - "Almost all (10 of 11) understood the 'Were you discharged because of a disability' question"
+  - "Most participants had nothing but compliments for how clean, clear, and easy the form was"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "If it exists, add a link to a new page that provides details on the COE options"
+  - "Ship the form in its current state (after it's cleared by content review)"
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Average time to approval"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Veterans having a positive experience when completing the online form"
+  business: "Online form submissions that can successfully be processed by downstream systems and reducing additional information cycles between the Veteran and form processors"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Whether or not 'VA File number' is still a useful data point to ask for or if it just slows down the completion time"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Cognitive disability"
+  - "Identify as LGBTQ+"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat"
+  - "Hispanic"
+  - "Native"
+  - "Users of Assistive Technology other than screen readers"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Two VSO SME interviews"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Dovetail"
+tags:
+  - "PRDT: 26-1880 COE Certificate of Eligibility"
+  - "AUD: Veterans"
+  - "BNFT: Housing"
+  - "usability-testing"
+  - "evaluative"
+  - "remote"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "DSC: Form"
+  - "DSC: Accordions"
+  - "DSP: Form Templates"
+  - "conditional-logic"
 ---
 
 # Certificate of Eligibility (C.O.E.) Research Findings 

@@ -1,10 +1,13 @@
 ---
-name: "DBC Research Runbook: Refine conversation guide"
+name: "DBC Research Ticket Template Kit - 06: Refine conversation guide"
 about: To guide the refinement of the conversation guide. 
 labels: "disability-benenfits,research" 
 assignees: ''
 
 ---
+
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
 
 ### Description
 The output of this ticket will be the final conversation guide for the [study name] study. The study focuses on [brief description of study].

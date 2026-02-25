@@ -1,109 +1,124 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for [Team, Product, Date]"
-date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-team: "[Team Name]"
-product: "[Product Name]"
-product_area: "[e.g., authenticated/unauthenticated]"
+title: "Research Plan for OCTO IA, Sitewide IA and Navigation, 2026-03"
+date: 2026-02-24
+last_updated: 2026-02-24
+team: "OCTO IA"
+product: "Sitewide IA and Navigation (Primary & Secondary navigation)"
+product_area: "unauthenticated"
 
 # Background Context
-background:
-  problem_statement: "[What problem is your product trying to solve?]"
-  product_location: "[Where is this situated on VA.gov?]"
-  user_familiarity: "[New product or iteration?]"
-  product_brief_url: "[URL]"
+background:  
+  problem_statement: "As VA.gov expands in features and benefits-related content, visitors need to be able to navigate the site efficiently to find the right information and tools; this research evaluates the effectiveness of the current navigation labels and organization for key tasks and whether proposed top-level changes improve findability."
+  product_location: "VA.gov sitewide primary navigation (available across the entire site) and secondary navigation within the benefit hub experience."
+  user_familiarity: "Iteration on an existing navigation experience (evaluating existing navigation; considering updates such as adding 'My VA' and 'My HealtheVet' to top-level navigation)."
+  product_brief_url: "Not specified"
 
 # Research Design
-methodology: "[e.g., usability testing, semi-structured interviews, card sort]"
+methodology: "tree test (unmoderated)"
 research_format: 
   location: remote # Options: remote, in-person, hybrid
-  in_person_details:
-    facility: "[Location name if applicable]"
-    point_of_contact: "[Name if applicable]"
-    equipment: "[Equipment details if applicable]"
-  moderated: true # Options: true, false
+  moderated: false # Options: true, false
   
 # Research Goals & Questions
-research_goals:
-  - goal_1: "[First research goal]"
-  - goal_2: "[Second research goal]"
-  - goal_3: "[Third research goal]"
+research_goals: 
+  - goal_1: "Assess whether users can find key information related to top tasks on the site easily and with confidence."
+  - goal_2: "Determine if the labels used in navigation meet the mental model of our users."
+  - goal_3: "Determine if adding 'My VA' and 'My HealtheVet' to the top level of navigation impacts findability of tools related to managing benefits."
 
 research_questions:
-  - "[Research question 1]"
-  - "[Research question 2]"
-  - "[Research question 3]"
-  - "[Research question 4]"
-  - "[Research question 5]"
+  - "Can users easily find information related to applying for key benefits?"
+  - "Can users easily find key tools that help them manage benefits they are already receiving?"
+  - "Is there a difference in findability between tools that align with a single benefit versus those that support multiple benefits?"
+  - "Where do users look for information related to benefits for a Veteran family member or caregiver?"
+  - "Is the Service member benefits hub a common destination for key tasks related to Veteran benefits?"
+  - "Are Veterans able to determine which hub contains information related to the VR&E program?"
+  - "Is 'My VA' a common pathway to tools related to managing benefits?"
+  - "Is 'My HealtheVet' a common pathway to tools related to managing health care?"
 
 hypotheses:
-  - "[Hypothesis 1]"
-  - "[Hypothesis 2]"
-  - "[Hypothesis 3]"
+  - "Users will be able to easily find key information related to learning about and applying for key Veteran benefits within their respective benefit hubs."
+  - "Users will look to the family member and caregiver benefit hub to find key information related to benefits for family members."
+  - "Users will not commonly look to the Service member benefits hub as a destination for key Veteran benefit information and tools."
+  - "Users will most commonly look in 'My VA' and 'My HealtheVet' as ways to get to tools to manage their benefits."
 
-expected_outcomes: "[How will findings advance the product?]"
+expected_outcomes: "Findings will inform and help prioritize changes to navigation/menu labels, groupings, and/or broader site organization to improve findability of key tasks, benefits information, and benefit-management tools."
 
 # Recruitment & Participants
 recruitment:
   recruiting_partner: "Perigean"
-  approach: "[e.g., lean maximum variation]"
+  approach: "Not specified"
   
-  primary_criteria:
-    - "[Must-have criterion 1]"
-    - "[Must-have criterion 2]"
-    - "[Must-have criterion 3]"
+  primary_criteria: 
+    - "All participants are Veterans."
+    - "All Veterans are fully separated from service."
     
-  secondary_criteria:
-    - "[Nice-to-have criterion 1]"
-    - "[Nice-to-have criterion 2]"
+  secondary_criteria: []
     
-  screener_questions:
-    - question: "[Screener question text]"
-      qualifying_response: "[Expected answer]"
+  screener_questions: []
       
 participants:
-  veterans: 0
+  veterans: 385
   caregivers: 0
   dependents: 0
-  total_recruited: 0
-  completed_sessions_goal: 0
+  total_recruited: 385
+  completed_sessions_goal: 385
   
 # Timeline & Sessions
 timeline:
-  pilot_date: "YYYY-MM-DD"
-  pilot_participant: "[Name]"
-  research_dates: "YYYY-MM-DD to YYYY-MM-DD"
-  research_review_submission: "YYYY-MM-DD"
+  pilot_date: "TBD"
+  pilot_participant: "Internal colleagues (names not specified)"
+  research_dates: "2026-03-09 to 2026-03-20"
+  research_review_submission: "TBD"
   
-session_details:
-  duration_minutes: 60
-  buffer_minutes: 30
-  max_sessions_per_day: 0
+session_details: 
+  duration_minutes: "Not specified (unmoderated tree test; 'Length of sessions: N/A')"
+  buffer_minutes: "Not specified"
+  max_sessions_per_day: "Not specified"
   
 # Strategic Alignment
 octo_priorities:
-  - objective: "Objective 1"
+  - objective: "Objective 3: Relentlessly improve the user experience."
     key_results: 
-      - "[Specific KR if applicable]"
-  - objective: "Objective 2"
-    key_results:
-      - "[Specific KR if applicable]"
+      - "Key Result 3.1: Each OIT portfolio will improve customer satisfaction (or similar measure of user experience quality) of impactful systems by 3% or more."
+      - "Key Result 3.2: 100% of end-user facing C100 systems maintain a ranked list of user pain points."
+      - "Key Result 3.3: 100% of C-100 systems have delivered at least one release that directly addresses a documented user pain point with that system."
       
 veteran_journey_phases:
-  - "[e.g., Getting Out]"
-  - "[e.g., Starting Up]"
+  - "Serving"
+  - "Getting Out"
+  - "Starting Up"
+  - "Taking Care of Myself"
+  - "Reinventing Myself"
+  - "Putting Down Roots"
+  - "Retiring"
+  - "Aging"
+  - "Dying"
     
 # Research Repository Tracking
 related_research:
-  previous_studies: 
-    - "[Link to related past research]"
+  previous_studies: []
     
 tags:
-  - "[product-area]"
-  - "[methodology]"
-  - "[participant-type]"
-  - "[research-phase]"
+  - "AUD: Veterans"
+  - "AUD: Family Member"
+  - "AUD: Caregivers"
+  - "AUD: Service Members"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "BNFT: Employment"
+  - "BNFT: Healthcare"
+  - "BNFT: Housing"
+  - "BNFT: Records"
+  - "PRDT: Benefit Hubs"
+  - "PRDT: Information Architecture (IA)"
+  - "Internal Research:  Platform Research"
+  - "tree-test"
+  - "unmoderated"
+  - "information-architecture"
+  - "sitewide-navigation"
+  - "findability"
+  - "labeling"
 ---
 
 > [!TIP]
@@ -111,7 +126,7 @@ tags:
 > 
 > Use the [GitHub Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md) to automatically generate structured metadata from your completed research plan.  The prompt uses natural language processing to extract key information and apply appropriate research repository tags. 
 
-# Research Plan for Sitewide Navigation, March 2026
+# Research Plan for OCTO IA, Sitewide IA and Navigation, March 2026
 
 
 ## Background 🏗️
@@ -177,7 +192,7 @@ The Informaiton Architecture of VA.gov must support Veterans and Veteran family 
 
 - `1.` Assess whether users can find key information related to top tasks on the site easily and with confidence.
 - `2.` Determine if the labels used in navigation meet the mental model of our users.
-- `3.` Determine if adding "My VA" and My HealtheVet" to the top level of navigation impacts findability of tools related to managing those benefits.
+- `3.` Determine if adding "My VA" and My HealtheVet" to the top level of navigation impacts findability of tools related to managing benefits.
 
 
   
@@ -208,8 +223,8 @@ Outcomes from this research will be used to inform and prioritize changes needed
 ### Hypotheses
 
 - `1.` Users will be able to easily find key information related to learning about and applying for key Veteran benefits within their respective benefit hubs. 
-- `2.` Users will be able to easily find key information related to family member and caregiver benefts within the Family and Caregiver benefits hub.-
-- `3.` Users will not commonly utilize the Service member benefits hub as a destination for key Veteran benefit information and tools. 
+- `2.` Users will look to the family member and caregiver benefit hub to find key information related to benefits for family members.
+- `3.` Users will not commonly look to the Service member benefits hub as a destination for key Veteran benefit information and tools. 
 - `4.` Users will most commonly look in "My VA" and My HealtheVet" as ways to get to tools to manage their benefits.
 
   
@@ -239,20 +254,13 @@ Where will you be holding the research sessions? Be sure to include whether this
 
 ## Research materials 📔
 
-> [!NOTE]
-> **Your OCTO/VA lead must review and approve all research materials – including this plan –  prior to submitting a recruitment request.**
-
 Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.  
 
 **For [unmoderated testing:](https://depo-platform-documentation.scrollhelp.site/research-design/Planning-Unmoderated-Studies.1904738369.html)**
 - [Link to email with instructions](url goes here)
-- [Link to prototype or OptimalSort session for group A](url goes here)
-- [Link to prototype or OptimalSort session for group B](url goes here)
+- [Optimal Workshop tree test study](url goes here)
 
 
-**If recruiting outside of Perigean’s participant database:**
-- [Link to recruitment flyer](url goes here)
-	
 ## Recruitment 🎯	
 *OCTO works with Perigean, a small business, to handle the [recruitment](https://veteranusability.us/), scheduling, and compensation of Veterans and caregivers.*
 
@@ -263,45 +271,30 @@ Provide a link to any materials you need to run your study, including any materi
 
 ### Recruitment approach
 *Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?* 
-- Perigean can also support remote, [unmoderated studies](https://depo-platform-documentation.scrollhelp.site/research-design/perigean-recruiting-process-for-unmoderated-studie), however, these studies require strict recruitment requirements. 
-- Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Read this [introduction to inclusive research](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md) and download the [recruitment checker (Excel)](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/digital-experience/accessibility/research/RecruitmentCheckerSpreadsheet.xlsx) to understand OCTO's targets for inclusivity and use it to plan your participant demographics for this study.
+- All Veterans, fully separated from service. 
 
 ### Recruitment criteria
 
-- **Write any recruitment criteria for experience or scenarios as screener questions with qualifying responses. Perigean will use these verbatim to recruit participants.**
-- Consider providing links to products and/or clear descriptions to ensure participants understand the question.
-  Example: Have you been to a VA urgent care facility in the last 6 months? [answer should be yes to qualify.]
-
-- The more recruitment criteria you have, the less likely that a small sample of participants will be able to meet all criteria.
-- Consider how you could leverage the [lean maximum variation sampling (MVS) approach](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md#lean-mvs-strategy) by breaking up criteria for your study into multiple cohorts that each isolate one primary criteria.
-- Perigean will consider each cohort as a separate recruitment effort, increasing the chances of meeting all criteria for your study. [Review an example of the multiple cohort approach.](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/digital-health-modernization/pre-mhv-prototype/generative-research-study-1/2020-12.research-plan1.md)
 
 ### List the ideal completed sessions and total number and type (Veterans, caregivers, etc.) of participants for this study:
 > [!NOTE]
 > Your total number should equal **1.5x** your ideal completed sessions number *(e.g. for 10 ideal completed sessions, request 15 total participants)*
 
 
-- `Veterans:` **[n]**
-- `Caregivers:` **[n]**
-- `Dependents:` **[n]**
-- `Total:` **[n]**
-- `Ideal completed sessions:` **[n]**
+- `Veterans:` **385**
+- `Caregivers:` **0**
+- `Dependents:` **0**
+- `Total:` **385**
+- `Ideal completed sessions:` **385**
+
+Sample size calculated based on achieving a 95% confidence level with a total audience of approx 15M living Veterans in the US. 
 
 ### Primary criteria (must-haves)
 *What demographics, experience, and scenarios do you need participants to meet to effectively run your study?* 
 
-- `[Place primary criteria here between hash marks when in edit mode]`
-- `primary criteria`
-- `primary criteria`
-- **`Add more criteria as needed`**
+- `All participants are Veterans`
 
-#### Secondary criteria (nice-to-haves)
-*What criteria would strengthen your results?* 
 
-- `[Place secondary criteria here between hash marks when in edit mode]`
-- `secondary criteria`
-- `secondary criteria`
-- **`Add more criteria as needed`**
 
 ## Timeline 🗓️
 > [!NOTE]
@@ -309,7 +302,7 @@ Provide a link to any materials you need to run your study, including any materi
 
 ### Optional Kick-off Call with Perigean
 
-- `Suggested dates and times:` **[Enter dates and times MM/DD HH:MM]**
+- `Suggested dates and times:` **2/27 9-11 ET or 11:30-1 ET;  3/2 9-10ET or 2-3ET, **
 
 ### Prepare
 *When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a [Midpoint review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Midpoint-review.1781039167.html).*
@@ -318,11 +311,10 @@ Provide a link to any materials you need to run your study, including any materi
 > [!NOTE]
 > **Send pilot participant email in study Slack channel**
 
-- `Pilot participant name:` **[Enter name]**
-- `Date and time of pilot session:` **[Enter time]** 
+- Will pilot study with internal colleauges prior to launching study.
 
 ### Research sessions
-- `Planned dates of research:` **[Enter dates MM/DD-MM/DD]**
+- `Planned dates of research:` **3/9-3/20**
 
 ### Length of sessions
 - N/A
@@ -346,5 +338,5 @@ When would you like sessions scheduled? Please list exact dates and times in **E
 ## Approvals ✅
 > [!NOTE]
 > Before submitting for review, ensure you've completed the YAML frontmatter section at the top of this document using the [Copilot Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-planning/research-plan-frontmatter-completion-prompt.md).
-- `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
+- `Reviewed by Mikki Northuis on 02/24/2026`
 - `Reviewed by OCTO Research-Ops Lead on [MM-DD-YYYY]`

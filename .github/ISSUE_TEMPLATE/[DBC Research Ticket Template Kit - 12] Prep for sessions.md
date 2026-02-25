@@ -1,10 +1,13 @@
 ---
-name: "DBC Research Runbook: Prep for sessions"
+name: "DBC Research Ticket Template Kit - 12: Prep for sessions"
 about: To guide the logistical tasks in preparation for conducting the study. 
 labels: "disability-benenfits,research" 
 assignees: ''
 
 ---
+
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
 
 ### Description
 This ticket covers logistical tasks to prepare for conducting the [study name] study. The study focuses on [brief description of study]. 

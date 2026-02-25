@@ -1,10 +1,13 @@
 ---
-name: "DBC Research Runbook: Finalize research report"
+name: "DBC Research Ticket Template Kit - 19: Finalize research report"
 about: To account for incorporating stakeholder feedback into the study's research report. 
 labels: "disability-benenfits,research" 
 assignees: ''
 
 ---
+
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
 
 ### Description
 This ticket covers incorporating stakeholder feedback and finalizing the research report for the [study name] study. The study focuses on [brief description of study]. 

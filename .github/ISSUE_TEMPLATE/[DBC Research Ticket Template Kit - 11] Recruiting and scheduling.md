@@ -1,10 +1,13 @@
 ---
-name: "DBC Research Runbook: Recruiting and scheduling"
+name: "DBC Research Ticket Template Kit - 11: Recruiting and scheduling"
 about: To guide working with Research Ops and Perigean to recruit and schedule Veterans for the study. 
 labels: "disability-benenfits,research" 
 assignees: ''
 
 ---
+
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
 
 ### Description
 This ticket covers working with Research Ops and Perigean to recruit and schedule Veterans for the [study name] study. The study focuses on [brief description of study]. 

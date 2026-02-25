@@ -4,7 +4,6 @@
 
 - [User flow](https://app.mural.co/t/departmentofveteransaffairs9999/m/departmentofveteransaffairs9999/1746474542228/c397457f63aa34d09dee9f34d785af90cd3b8b96?wid=36-1746474575795&outline=open)
 - [Figma files](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5307-57763&t=KhCgIDPMpZ6FClDG-1)
-- Test Rail QA
 - Product documentation
    - [How to add a form](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/forms-status-on-My-VA/adding-a-form.md)
 
@@ -16,8 +15,21 @@
 
 </details>
 
+# Jump to
 
-## Phase 1, 3.0 experience
+[Phase-1, 3.0-experience-overview](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#phase-1-30-experience-overview)
+
+[Common use cases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#common-use-cases)
+
+[Edge cases](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#edge-cases)
+
+- [Validation](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#validation)
+
+- [Flags](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#flags)
+
+- [Errors](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/use-cases/benefit-applications-and-forms-use-cases/README.md#errors)
+
+# Phase 1, 3.0 experience overview 
 - LOA1 and LOA3 (identify verified) users can see all use cases.
 - This feature shows a card for any applications or forms that a user has started or completed.
    - Conditions in [Platform documentation](https://depo-platform-documentation.scrollhelp.site/developer-docs/va-forms-library-how-to-set-up-save-in-progress-si#VAFormsLibrary-HowtosetupSaveInProgress(SiP)-MyVAPage) for saving forms in progress and changes in User Profile code must be met in order for a form that is saved to show up in this section of My VA.
@@ -27,81 +39,74 @@
 - An additional information component with information pertaining to tracking benefit applications and forms statuses is always visible at the bottom of this section unless an error is preventing the displaying of forms.
 
 
-## Common use cases
+# Common use cases
 
-<details><summary>User does not have any drafts or completed forms</summary>
+## User does not have any drafts or completed forms</summary>
 
-- **Use case:** When a user does not have any form or application drafts or completed forms they will see information informing them of such, and an additional information component on what to do if they think there are missing forms.
-- **Status code:** TBD
-- **Format:** See designs
-- [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16410&t=KhCgIDPMpZ6FClDG-1)
-- [Link to code]
-- **Content:** See designs.
-
-</details>
+* **Description:** When a user does not have any form or application drafts or completed forms they will see information informing them of such, and an additional information component on what to do if they think there are missing forms.
+* **Status code:** TBD
+* **Format:** See designs
+* [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16410&t=KhCgIDPMpZ6FClDG-1)
+* [Link to code]
+* **Content:** See designs.
 
 
-<details><summary>User has a benefit application or form draft saved but not yet submitted</summary>
+## User has a benefit application or form draft saved but not yet submitted
 
-- **Use case:** When a user has a benefit application draft saved in progress, the card appears in the in-progress section.
-- **Status code:** TBD
-- **Format:** [Card component](https://design.va.gov/components/card)
-- [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16011&t=KhCgIDPMpZ6FClDG-1)
-- [Link to code](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/engineering-docs/frontend/benefit-applications-and-forms.md)
-- **Content:** See designs
-
-</details>
+* **Description:** When a user has a benefit application draft saved in progress, the card appears in the in-progress section.
+* **Status code:** TBD
+* **Format:** [Card component](https://design.va.gov/components/card)
+* [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16011&t=KhCgIDPMpZ6FClDG-1)
+* [Link to code](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/engineering-docs/frontend/benefit-applications-and-forms.md)
+* **Content:** See designs
 
 
-<details><summary>User has submitted a benefit application and/or form not on LH BI API</summary>
+## User has submitted a benefit application and/or form not on LH BI API
 
-- **Use case:** When a user has submitted a supported application or form **not** on Lighthouse Benefits Intake API they will see a card.
+* **Description:** When a user has submitted a supported application or form **not** on Lighthouse Benefits Intake API they will see a card.
    - Submission in progress and Received statuses appear in the Completed forms section.
    - Action needed statuses appear in the In-progress section.
-- **Status code:** TBD
-- **Format:** [Card component](https://design.va.gov/components/card)
-- [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16246&t=KhCgIDPMpZ6FClDG-1)
-- [Link to code](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/engineering-docs/frontend/benefit-applications-and-forms.md)
-- **Content:** See designs
+* **Status code:** TBD
+* **Format:** [Card component](https://design.va.gov/components/card)
+* [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16246&t=KhCgIDPMpZ6FClDG-1)
+* [Link to code](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/engineering-docs/frontend/benefit-applications-and-forms.md)
+* **Content:** See designs
 
 </details>
 
 
-<details><summary>User has submitted a benefit application and/or form on LH BI API</summary>
+## User has submitted a benefit application and/or form on LH BI API
 
-- **Use case:** When a user has submitted a supported application or form on the Lighthouse Benefits Intake API, they will see a card.
+* **Use case:** When a user has submitted a supported application or form on the Lighthouse Benefits Intake API, they will see a card.
    - Submission in progress and Received statuses appear in the Completed forms section.
    - Action needed statuses appear in the In-progress section.
-- **Status code:** TBD
-- **Format:** [Card component](https://design.va.gov/components/card)
-- [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16327&t=vSC00tzVjcFZ2rHY-1)
-- [Link to code](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/engineering-docs/frontend/benefit-applications-and-forms.md)
-- **Content:** See designs
-
-</details>
+* **Status code:** TBD
+* **Format:** [Card component](https://design.va.gov/components/card)
+* [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5077-16327&t=vSC00tzVjcFZ2rHY-1)
+* [Link to code](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity-personalization/my-va/engineering-docs/frontend/benefit-applications-and-forms.md)
+* **Content:** See designs
 
 
-## Edge cases
+# Edge cases
 
-### Validation
+## Validation
 This feature has no validation use cases.
 
-### Flags
+## Flags
 
 - `myVaFormPdfLink`: Allows the render of the PDF download UI button
 
-### Errors
+## Errors
 
-<details><summary>The API that shows forms is down</summary>
+### The API that shows forms is down
   
-- **Use case:** If an LOA3 user logs in and there is an error with the API that displays forms and applications, then we show an alert informing the user the information is currently unavailable. No other information shows in the section.
-- **Status code:** TBD
-- **Format:** [Warning slim alert](https://design.va.gov/components/alert/#warning-alert)
-- [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5350-14507&t=vSC00tzVjcFZ2rHY-1)
-- [Link to code]
-- **Content:** See designs 
+* **Description:** If an LOA3 user logs in and there is an error with the API that displays forms and applications, then we show an alert informing the user the information is currently unavailable. No other information shows in the section.
+* **Status code:** TBD
+* **Format:** [Warning slim alert](https://design.va.gov/components/alert/#warning-alert)
+* [Link to designs](https://www.figma.com/design/15yOY4VEzitxm5tRMDiAzz/My-VA?node-id=5350-14507&t=vSC00tzVjcFZ2rHY-1)
+* [Link to code]
+* **Content:** See designs 
 
-</details>
 
 ---
 

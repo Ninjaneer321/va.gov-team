@@ -2,7 +2,7 @@
 name: DRAFT Collaboration Cycle / Design Intent
 about: DRAFT - do not use - Template for Design Intent
 title: 'Design Intent for [Team Name, Product Name, Feature Name]'
-labels: collaboration-cycle
+labels: collaboration-cycle, CC-touchpoint, design-intent
 assignees: ''
 
 ---

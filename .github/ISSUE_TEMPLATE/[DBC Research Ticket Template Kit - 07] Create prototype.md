@@ -1,10 +1,13 @@
 ---
-name: "DBC Research Runbook: Create prototype"
+name: "DBC Research Ticket Template Kit - 07: Create prototype"
 about: To guide the creation of a draft prototype for a research study. 
 labels: "disability-benenfits,research" 
 assignees: ''
 
 ---
+
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
 
 ### Description
 The output of this ticket will be a draft of the prototype for the [study name] study. The study focuses on [brief description of study]. 

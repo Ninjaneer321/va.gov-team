@@ -1,10 +1,13 @@
 ---
-name: "DBC Research Runbook: Conduct research sessions"
+name: "DBC Research Ticket Template Kit - 14: Conduct research sessions"
 about: To guide the running of a study's research sessions. 
 labels: "disability-benenfits,research" 
 assignees: ''
 
 ---
+
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
 
 ### Description
 This ticket covers conducting the research sessions for the [study name] study. The study focuses on [brief description of study]. The study will include:

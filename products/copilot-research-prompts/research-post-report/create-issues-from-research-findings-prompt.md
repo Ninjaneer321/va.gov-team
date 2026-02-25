@@ -1,98 +1,30 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
+title: 'Create GitHub Issues from Research Findings - Prompt Guide'
+product: Copilot Research Prompts
+team: Platform Research
 office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
-research_goals:
-- Goal 1
-- Goal 2
-methodology:
-- Method 1
-- Method 2
-devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
-demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
-  race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
-  disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
-key_findings:
-- Finding 1
-- Finding 2
-recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
-outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+date: 2025-12-08
+document_type: prompt_guide
+purpose: Guide for researchers to convert research recommendations into actionable GitHub issues using Copilot
+target_audience:
+  - UX Researchers
+  - Product Designers
+  - Research Operations
+tools_required:
+  - GitHub Copilot
+  - Claude models (Sonnet/Haiku/Opus)
+related_templates:
+  - research-findings-template.md
+workflow_stage: post-research
+automation_type: issue_creation
 tags:
-- 'PRDT: Caregivers'
-- usability-testing
+  - research-operations
+  - github-copilot
+  - automation
+  - issue-management
+  - claude-ai
 ---
+
 # Create GitHub Issues from Research Findings Prompt
 
 This prompt is designed to help researchers convert recommendations and next steps from completed research findings into actionable GitHub issues.  By automating the creation of well-structured issues, you can ensure research insights lead to measurable product improvements.

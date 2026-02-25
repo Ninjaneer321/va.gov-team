@@ -1,95 +1,114 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Critical Action Component Desk Research Findings"
+product: "Authenticated Experience Design Patterns"
+team: "Authenticated Experience Design Patterns Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-03-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Christine Steiffer"
+  - "Kristen Faiferlick"
+  - "Lynn Stahl"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Identify real use cases for a Critical Action component across the VA.gov ecosystem"
+  - "Understand how time-sensitive tasks and important information are currently communicated to users"
+  - "Synthesize findings from existing research studies related to alerts, notifications, and action-oriented components"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Desk research"
+  - "Secondary research synthesis"
+  - "Review of existing research studies in GitHub research repository"
+  - "Content analysis of EnjoyHQ insights"
+  - "Comparative analysis of 'In the Wild' product examples"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans want to see the most important information surfaced to them, including due dates and actions needed"
+  - "Action links do better when tied to real actions, rather than passive ones"
+  - "Error messages make Veterans unclear on if there is a system error or something they need to correct"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Create a unique component to notify users of urgent, time-sensitive information to help them to understand what they need to do to take action on their account"
+  - "The language used in this new component should describe an active task that takes the user to a detail page when they click it"
+  - "Ensure that this component always describes actions that the user must take rather than any kind of task that will be resolved by VA or the site itself"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  user: "Not specified in desk research report"
+  business: "Not specified in desk research report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "GitHub research repository studies review"
+  - "EnjoyHQ insights analysis"
+  - "Cross-product comparative analysis"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "GitHub"
+  - "EnjoyHQ"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "BNFT: Healthcare"
+  - "DSC: Alert Boxes"
+  - "DSC: Link - Action"
+  - "DSC: Card"
+  - "DSC: Accordions"
+  - "DSC: Button"
+  - "DSP: Notifications"
+  - "PRDT: Claim-status-tool"
+  - "PRDT: Debt-portal"
+  - "PRDT: MyHealth (Health Hub)"
+  - "MHV: Appointments"
+  - "MHV: Pharmacy"
+  - "desk-research"
+  - "secondary-research-synthesis"
+  - "design-system"
+  - "authenticated-experience"
 ---
 
 # Desk Research Report 

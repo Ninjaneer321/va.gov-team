@@ -3,370 +3,334 @@
 <summary><strong>CST Frontend Evaluation</strong></summary>
 
 # Frontend Evaluation  
-*(With Code Evidence References)*
+*(Frontend Evaluation – Final Clean Version)*
 
 ---
 
 ## Table of Contents
 
 - [Purpose](#purpose)
-- [1. How CST Currently Displays a Claim](#1-how-cst-currently-displays-a-claim)
-- [2. What is “Status”?](#2-what-is-status)
-- [3. What is a “Bucket”?](#3-what-is-a-bucket)
-- [4. CHAMPVA Status Model](#4-champva-status-model)
-- [5. Compatibility Review (With Code Context)](#5-compatibility-review-with-code-context)
-- [6. Role-Based Visibility](#6-role-based-visibility)
-- [7. Frontend Constraints Summary](#7-frontend-constraints-summary)
-- [8. Reuse Opportunities](#8-reuse-opportunities)
-- [9. Open Questions for Product and UX](#9-open-questions-for-product-and-ux)
-- [10. Preliminary Conclusion](#10-preliminary-conclusion)
+- [1. Scope Clarification](#1-scope-clarification)
+- [2. How CST Currently Displays an Application](#2-how-cst-currently-displays-an-application)
+- [3. Timeline and Phases](#3-timeline-and-phases)
+- [4. Status vs What Users See](#4-status-vs-what-users-see)
+- [5. Buckets and Display Locations](#5-buckets-and-display-locations)
+- [6. Backend Status Source](#6-backend-status-source)
+- [7. CHAMPVA Lifecycle Within CST](#7-champva-lifecycle-within-cst)
+- [8. Complete / Denied / Ineligible Handling](#8-complete--denied--ineligible-handling)
+- [9. Role-Based Visibility](#9-role-based-visibility)
+- [10. Frontend Constraints Identified](#10-frontend-constraints-identified)
+- [11. Reuse Opportunities](#11-reuse-opportunities)
+- [12. Final Conclusion](#12-final-conclusion)
+
+---
 
 # Purpose
 
-This document evaluates whether CHAMPVA claim statuses can be displayed clearly and accurately within the existing Claim Status Tool (CST) frontend.
+This document evaluates whether CHAMPVA **applications** can be displayed correctly within the existing Claim Status Tool (CST) frontend.
 
-Simple explanation:  
-We are checking if CHAMPVA claims will “fit” into CST without confusing users or breaking how CST currently works.
+### Simple Explanation
+We are confirming that CHAMPVA application processing states align with CST’s progress stepper and decision display model without requiring structural frontend changes.
 
-This document includes direct references to CST frontend files identified during code review.
-
----
-
-# 1. How CST Currently Displays a Claim
-
-When a user opens a claim in CST, they see:
-
-1. A status label near the top
-2. A horizontal progress bar (timeline)
-3. A “Recent Activity” section
-4. Alerts such as “We need more information from you”
-
-These UI elements are driven by specific frontend files.
+### Technical Explanation
+We are validating that CHAMPVA provider statuses can be normalized into `ClaimResponse` and mapped to CST’s existing `claimPhaseDates.phaseType` structure and decision rendering components.
 
 ---
 
-## What is the “Timeline”?
+# 1. Scope Clarification
 
-The timeline is the horizontal progress bar at the top of the claim page.
+The following scope has been confirmed:
 
-Example:
+- Draft, Submission in Progress, Action Needed, and early Received states belong to MyVA and do not appear in CST.
+- CST begins once the application is formally received and enters processing.
+- This effort applies to CHAMPVA applications only (not CHAMPVA claims).
+- Role-based UI variations are not required.
+- Denied applications already have a defined visual treatment.
 
-Initial Review → Evidence Gathering → Review → Preparation for Decision → Complete
-
-Technical definition:  
-The timeline step is determined using `claimPhaseDates.phaseType` from the API response.
-
-Code Evidence:
-- `src/applications/claims-status/utils/claimPhase.jsx`  
-  (Defines phase step arrays for compensation-style claims)
-- `src/applications/claims-status/components/ClaimPhaseStepper.jsx`  
-  (Renders the progress bar using the phase array)
-- `src/applications/claims-status/utils/helpers.js`  
-  (Maps backend phaseType values to UI steps)
-
-Simple explanation:  
-The timeline is the progress bar that shows where the claim is in its journey.
+### Simple Explanation
+CST only handles formal processing and final decisions. Early lifecycle states belong to MyVA.
 
 ---
 
-## What is a “Phase”?
+# 2. How CST Currently Displays an Application
 
-A phase is one of the steps in the progress bar.
+When a user opens an application in CST, they see:
 
-Examples in compensation claims:
-- Initial Review
-- Evidence Gathering
-- Review
-- Preparation for Decision
-- Complete
+1. A decision or status summary near the top  
+2. A progress stepper (timeline) displayed on the Overview tab. [Ex. in staging](https://staging.va.gov/track-claims/your-claims/600204769/overview)
+3. A Recent Activity section  
+4. Decision cards for eligibility outcomes  
 
-Technical meaning:  
-The backend provides `claimPhaseDates.phaseType`, which is mapped in `helpers.js` and displayed through `ClaimPhaseStepper.jsx`.
+These UI elements are driven by:
 
-Code Evidence:
-- `claimPhase.jsx` → Static milestone definitions  
-- `helpers.js` → Phase mapping logic  
-- `ClaimPhaseStepper.jsx` → Visual rendering
-
-Simple meaning:  
-A phase is one step in the claim journey.
+- `src/applications/claims-status/utils/claimPhase.jsx`
+- `src/applications/claims-status/components/ClaimPhaseStepper.jsx`
+- `src/applications/claims-status/utils/helpers.js`
+- `ClaimOverview.jsx`
+- `ClaimStatus.jsx`
 
 ---
 
-## What is a “Compensation-Style Lifecycle”?
+# 3. Timeline and Phases
 
-CST was originally built for VA Compensation claims.
+The timeline is the progress stepper displayed at the top of the CST application detail page.
 
-Compensation claims typically move forward in predictable steps:
-1. Received
-2. Evidence Gathering
-3. Review
-4. Preparation for Decision
-5. Complete
+Under current Content review, CHAMPVA phases are:
 
-Technical meaning:  
-The static phase arrays in `claimPhase.jsx` assume this forward-moving structure.
+1. Application Received  
+2. Evidence Gathering  
+3. Evidence Review  
+4. Complete  
 
-Code Evidence:
-- `utils/claimPhase.jsx` → Fixed step arrays  
-- `helpers.js` → Phase ordering logic  
-
-Simple meaning:  
-CST expects claims to follow a structured step-by-step path.
-
-This assumption matters because CHAMPVA may not follow the same exact path.
+These labels will appear in the progress stepper.
 
 ---
 
-# 2. What is “Status”?
+### Technical Explanation
 
-Status is the overall state of the claim.
+The active progress step is determined by:
 
-Examples:
-- PENDING
-- COMPLETE
+`claimPhaseDates.phaseType`
 
-Technical meaning:  
-Frontend reads `status` from claim attributes and may conditionally render UI states.
+This value is mapped via:
 
-Code Evidence:
-- `helpers.js` → Status mapping utilities  
-- `ClaimOverview.jsx` → Displays status label
-
-Simple meaning:  
-Status is the high-level state, separate from the progress bar step.
+- `helpers.js`
+- `claimPhase.jsx`
+- Rendered in `ClaimPhaseStepper.jsx`
 
 ---
 
-# 3. What is a “Bucket”?
+### Simple Explanation
 
-In this document, “bucket” means a user-facing status label.
-
-Example CHAMPVA buckets:
-- Action Needed
-- In Progress
-- Complete Denied
-
-Technical meaning:  
-Multiple backend states may map into one visible UI label.
-
-Simple meaning:  
-A bucket is just the label the user sees.
+The timeline is the progress stepper showing where the application is in processing.
 
 ---
 
-# 4. CHAMPVA Status Model
+# 4. Status vs What Users See
 
-CHAMPVA user-facing buckets:
+Backend responses may include a `status` field (for example COMPLETE or PENDING).
+
+However, users do not see raw backend status values.
+
+In CST, users see:
+
+- The progress step (phase)
+- Decision messaging (approved, denied, ineligible)
+- Eligibility decision cards
+
+---
+
+### Technical Explanation
+
+The frontend consumes normalized backend fields but renders only:
+
+- Phase labels
+- Decision components
+- Activity entries
+
+---
+
+### Simple Explanation
+
+“Status” is internal system language. Users see progress steps and decision results.
+
+---
+
+# 5. Buckets and Display Locations
+
+Bucket = 'what state group this belongs to'
+
+Pill = 'how we visually show that state in label'
+
+PEGA may provide the underlying status,
+MyVA maps that into a bucket,
+and the UI renders it inside a pill
+
+There are two display contexts in the overall experience:
+
+### MyVA
+Displays early lifecycle states such as:
 
 - Draft
 - Submission in Progress
 - Action Needed
-- In Progress
-- Complete
-- Complete Denied
+- Received
 
-CHAMPVA status data comes from:
-- Health Apps
-- DOCMP / PEGA
+### CST
+Displays processing lifecycle via:
+
+- Progress stepper phases
+- Final decision messaging
+
+These are not identical lists.
+
+---
+
+### Simple Explanation
+
+MyVA shows early states. CST shows processing states. They align conceptually but are not the same list.
+
+---
+
+# 6. Backend Status Source
+
+Status data originates from external systems, including:
+
+- PEGA/DOCMP
 - VES
+- Health Apps
 
-Code Context for Multi-Provider:
+Backend status flow:
+
+1. External systems return raw state values.
+2. `provider_registry.rb` selects the correct provider adapter.
+3. The provider normalizes external data into `ClaimResponse`.
+4. `ClaimResponse` includes:
+   - `status`
+   - `claimPhaseDates.phaseType`
+   - `trackedItems`
+   - Decision data
+5. The frontend maps `claimPhaseDates.phaseType` to the progress stepper.
+
+Relevant backend files:
+
 - `lib/benefits_claims/providers/provider_registry.rb`
 - `app/controllers/v0/concerns/multi_provider_support.rb`
 - `lib/benefits_claims/responses/claim_response.rb`
 
-(Simple meaning: Backend merges multiple sources and sends unified claim data to frontend.)
+---
+
+### Technical Explanation
+
+The phase shown in CST is derived from normalized provider state values returned by PEGA/DOCMP and VES and mapped into `claimPhaseDates.phaseType` on the backend.
 
 ---
 
-# 5. Compatibility Review (With Code Context)
+### Simple Explanation
+
+Different systems send different statuses. Backend converts them into one consistent structure before frontend displays them.
 
 ---
 
-## Draft
+# 7. CHAMPVA Lifecycle Within CST
 
-Meaning:
-User started but did not submit.
+CST-visible lifecycle begins once the application enters formal processing.
 
-CST today:
-CST primarily renders submitted claims.
+Processing phases:
 
-Code Evidence:
-- `BenefitsClaimsController#index`
-- No draft-specific logic in `claims-status` frontend components.
+1. Application Received  
+2. Evidence Gathering  
+3. Evidence Review  
+4. Complete  
 
-Risk:
-Draft may not belong in CST without special handling.
-
-Risk Level: Medium
+The first visible phase label (Application Received vs In Progress) will follow final Content approval.
 
 ---
 
-## Submission in Progress
+### Simple Explanation
 
-Meaning:
-Submitted but intake processing not complete.
-
-CST Handling:
-Would likely map to earliest phase in `claimPhase.jsx`.
-
-Code Evidence:
-- `claimPhase.jsx` → Defines first milestone
-- `helpers.js` → Determines active phase
-
-Risk:
-May look identical to compensation “Received.”
-
-Risk Level: Medium
+CST starts after submission, once processing begins. Exact wording of the first step depends on Content approval.
 
 ---
 
-## Action Needed
+# 8. Complete / Denied / Ineligible Handling
 
-Meaning:
-User must upload something.
+Final user-facing terminology (Denied vs Ineligible) will follow Content approval.
 
-CST Support:
-Uses:
-- `documentsNeeded`
-- `developmentLetterSent`
-- `trackedItems`
+Denied applications:
 
-Code Evidence:
-- `helpers.js` → documentsNeeded logic
-- `ClaimOverview.jsx`
-- `ClaimStatus.jsx` → TrackedItems rendering
+- Display a closure state in the final phase
+- Render eligibility decision cards
+- May display denial reasons as copy in Phase 2 implementation
 
-Compatibility:
-Strong fit.
-
-Risk Level: Low
+Structural rendering in CST does not change.
 
 ---
 
-## In Progress
+### Technical Explanation
 
-Meaning:
-Claim under review.
+Decision rendering occurs in:
 
-CST Mapping:
-Maps to middle phase steps.
-
-Code Evidence:
-- `claimPhase.jsx`
-- `helpers.js` phase mapping
-- `ClaimPhaseStepper.jsx`
-
-Risk:
-CHAMPVA step semantics may differ from compensation semantics.
-
-Risk Level: Low to Medium
-
----
-
-## Complete
-
-Meaning:
-Claim finished.
-
-CST Mapping:
-- `status = COMPLETE`
-- `closeDate` displayed
-
-Code Evidence:
-- `ClaimOverview.jsx`
-- `helpers.js` → Final phase logic
-
-Compatibility:
-Strong fit.
-
-Risk Level: Low
-
----
-
-## Complete Denied
-
-Meaning:
-Claim closed with denial or ineligibility.
-
-CST today:
-Displays Complete.
-Does not prominently highlight denial reason at claim header.
-
-Reason data would likely be shown through `trackedItems`.
-
-Code Evidence:
-- `ClaimStatus.jsx` → Activity rendering
-- `helpers.js` → Status label mapping
-
-Constraint:
-No strong UI pattern for denial reasoning at top of page.
-
-Risk Level: High
-
----
-
-# 6. Role-Based Visibility
-
-CHAMPVA may require:
-- Sponsor vs dependent view differences
-
-CST today:
-No role-based conditional rendering found in:
 - `ClaimOverview.jsx`
 - `ClaimStatus.jsx`
-- `ClaimPhaseStepper.jsx`
 
-Simple:
-CST assumes a single user view.
-
-Risk:
-Frontend changes required for role-based display.
+The final phase is activated and decision components are rendered.
 
 ---
 
-# 7. Frontend Constraints Summary
+### Simple Explanation
 
-1. Static compensation-style progress steps (`claimPhase.jsx`)
-2. Phase mapping tightly coupled to compensation semantics (`helpers.js`)
-3. No native Draft support
-4. Denial reasons not first-class at claim header
-5. No role-based UI logic
+Denied applications show decision cards with eligibility results. Exact wording depends on Content.
 
 ---
 
-# 8. Reuse Opportunities
+# 9. Role-Based Visibility
 
-1. Timeline component reusable (`ClaimPhaseStepper.jsx`)
-2. Status badge reusable
-3. TrackedItems model flexible
-4. Multi-provider backend architecture supports data expansion
+Role-based UI variations are not required.
 
----
-
-# 9. Open Questions for Product and UX
-
-1. Should Draft claims appear in CST?
-2. Should Complete Denied have stronger visual treatment?
-3. Should denial reasons appear near page header?
-4. Does CHAMPVA require role-specific UI views?
+Authentication context may affect access permissions, but the UI layout does not change based on sponsor or dependent role.
 
 ---
 
-# 10. Preliminary Conclusion
+### Simple Explanation
 
-Technically:
-CHAMPVA claims can be integrated into CST.
+All users see the same interface.
 
-However, there are UX risks around:
+---
 
-- Early lifecycle states
-- Denial clarity
-- Progress bar semantics
-- Role-based differences
+# 10. Frontend Constraints Identified
 
-Final validation should occur after reviewing Figma designs.
+1. CST uses predefined milestone arrays.
+2. Phase mapping assumes forward progression.
+3. Backend normalization must align CHAMPVA states to approved phase labels.
+4. Content-approved labels must match frontend labels exactly.
+
+Removed risks:
+
+- Draft visibility in CST
+- Submission in Progress in CST
+- Role-based UI differences
+- Denial header placement redesign
+
+---
+
+# 11. Reuse Opportunities
+
+1. Timeline component is reusable.
+2. Decision card component is reusable.
+3. Status summary structure is reusable.
+4. Backend provider normalization supports integration without frontend redesign.
+
+---
+
+# 12. Final Conclusion
+
+CHAMPVA applications can integrate into CST without structural frontend changes.
+
+We may have:
+- Minor CSS adjustments
+- Small Storybook updates for new status examples
+- New or updated Redux thunk to fetch CHAMPVA data
+- Slight mapping logic adjustments in helpers
+
+But no:
+- New layout architecture
+- New stepper component
+- New decision rendering system
+- Major state model rewrite
+
+So it’s data alignment and plumbing work, not structural UI redesign.
+
+Primary alignment tasks:
+
+- Confirm Content-approved phase labels.
+- Confirm Denied vs Ineligible terminology.
+- Ensure backend `claimPhaseDates.phaseType` aligns with approved phases.
+
+With scope clarified and UX feedback incorporated, integration risk is low.
+
+---
+
 </details>
 
 <details>

@@ -2,7 +2,7 @@
 name: DRAFT Collaboration Cycle / Architecture Intent
 about: DRAFT - do not use - Template for Architecture Intent
 title: 'Architecture Intent for [Team Name, Product Name, Feature Name]'
-labels: collaboration-cycle
+labels: collaboration-cycle, CC-touchpoint, architecture-intent
 assignees: ''
 
 ---

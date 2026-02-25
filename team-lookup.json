@@ -92,7 +92,7 @@
   "22006": {
     "team_id": 22006,
     "team_name": "Mobile Feature Support",
-    "short_name": null,
+    "short_name": "`mobile-feature-support`",
     "portfolio": "Digital Experience",
     "crew_or_pod": "Core Veteran Experiences",
     "readme_path": "teams/digital-experience/mobile-feature-support/README.md",
@@ -377,6 +377,15 @@
     "readme_path": "teams/benefits-portfolio/disability-core-526/README.md",
     "manifest_url": "https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/benefits-portfolio/disability-core-526/README.md"
   },
+  "12004": {
+    "team_id": 12004,
+    "team_name": "Disability Benefits Crew Team 5",
+    "short_name": "disability-benefits-5",
+    "portfolio": "Benefits Portfolio",
+    "crew_or_pod": "Disability Benefits Crew",
+    "readme_path": "teams/benefits-portfolio/disability-benefits-5/README.md",
+    "manifest_url": "https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/benefits-portfolio/disability-benefits-5/README.md"
+  },
   "12003": {
     "team_id": 12003,
     "team_name": "Disability Pathways",
@@ -487,8 +496,8 @@
   },
   "33001": {
     "team_id": 33001,
-    "team_name": "1010 Health Apps",
-    "short_name": "1010-health-apps",
+    "team_name": "Health Apps",
+    "short_name": "health-apps-team",
     "portfolio": "Health Portfolio",
     "crew_or_pod": "VA Health Applications",
     "readme_path": "teams/health-portfolio/1010-health-apps/README.md",

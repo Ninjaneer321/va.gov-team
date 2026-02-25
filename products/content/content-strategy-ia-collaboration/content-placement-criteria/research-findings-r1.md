@@ -1,98 +1,104 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Sitewide Content and IA - Benefit Content Placement Criteria Research Findings"
+product: "Content"
+team: "Sitewide Content and IA"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "Not specified"
+researchers: 
+  - "Danielle Thierry"
+  - "Mikki Northuis"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand if the content placement criteria helps content authors feel confident in making quicker decisions of where to place content in the modernized VA.gov environment"
 methodology:
-- Method 1
-- Method 2
+  - "moderated group session"
+  - "individual activity followed by group discussion"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 5
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 5
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Content authors found the criteria to be helpful and easy to use, and helped decision making confidence. After the activity, the participants were asked to rate the criteria on helpfulness, ease of understanding, and decision confidence on a scale of 1-5, with ease of use averaging 4.4, helpfulness of criteria averaging 4.2, and confidence in decisions averaging 4.4. The group indicated that having the criteria would be useful in supporting and explaining decisions to stakeholders. For baseline purposes, the group was able to evaluate 5 pages of varying length within 30-35 minutes."
+  - "Placement decisions, although consistent within the group, did not generally match our SME placement decisions. Only 2 of the 5 pages evaluated had a majority placement decision that matched the SME results. The group heavily leaned towards benefit hub placement, while the SME decision only placed 1 page entirely in the benefit hubs. Placement decisions within the group were relatively consistent, and provided some good insight into how they interpreted the criteria and looked at the content they were given."
+  - "The language used in criteria 3 around 'unique application or application process' and 'core or supplemental benefit' was not clear to the group. There was not agreement on what the difference between 'core' and 'supplemental' meant. Participants also noted that when content referenced any application or form, they often answered 'yes' to this criteria, and the word 'unique' didn't seem to play a part. In addition, there was uncertainty around what was included in 'application process'."
+  - "Even though they made a single placement decision for each page, they often identified sections of content in a page they considered for separate placement. Although most pages resulted in an overall placement in the benefit hubs, everyone in the group identified some piece of content that they considered a better fit for Resources and Support."
+  - "Individual biases and experience of the person doing the evaluation played a part in making the decision. Existing knowledge and biases of what is considered a benefit, and where benefit content should be placed, played a part in decision making. Many members of the group cited times where they would revise a heading, restructure the content, or elaborate on content in order to build out a better page."
+  - "The layout and format of the worksheet could use some minor improvements. Not everyone was clear that if you answered 'yes' to criteria 4, the decision was made and you did not need to go on to the last criteria."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Revise the language used in criteria 3 to be more understandable: Clarify what is included in 'application process'; The terms 'core' versus 'supplemental' need to be defined, as well as indicate how they impact the placement decision; Consider splitting this criteria to clarify the dependency between the two scenarios"
+  - "Revise how the criteria is presented to make them easier to scan and read: The group liked how criteria #5 used bullets to list out the individual scenarios and suggested the same formatting be followed for criteria 2 and 3; Make it very clear that criteria 5 is only used for content planned for placement within Resources and Support"
+  - "Include guidance on how to evaluate content with the criteria: Providing guidance on how to evaluate content against the criteria could help authors in making better placement decisions. This guidance could include examples of content and how it meets or does not meet criteria, and assistance on how to evaluate sections of content versus the whole page/document"
+  - "Establish governance process to help catch placement decisions that may not be correct prior to publishing: Having an overall governance process would not only help catch incorrect placement decisions, but also create an opportunity to continue to educate authors on the placement criteria"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Update criteria 3 based on feedback"
+  - "Create instructions and guidance for content authors on how to use the criteria"
+  - "Utilize the revised criteria in the Resources and Support pilot with the Community Care working group to further validate"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Session notes"
+  - "research-criteria-worksheet-combined-answers.xlsx"
+  - "research-test-content.docx"
 tags:
-- 'BNFT: Disability'
-- moderated-research
+  - "PRDT: Content"
+  - "AUD: VA Staff"
+  - "AUD: Internal VA Stakeholders"
+  - "Internal Research: Platform Research"
+  - "moderated-research"
+  - "evaluative"
+  - "content-strategy"
+  - "information-architecture"
 ---
+
 # Research findings for Sitewide Content and IA - Benefit content placement criteria
 
 **Danielle Thierry, Mikki Northuis**

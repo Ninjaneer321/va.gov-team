@@ -1,5 +1,5 @@
 # IA Design for Hosted Collections page on Pay.gov
-**STATUS: Needs review
+**STATUS: Complete
 
 **Team:** Financial Management
 

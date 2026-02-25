@@ -1,104 +1,147 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Enhanced Financial Status Report (VA Form 5655) Research Findings"
+product: "Combined FSR / Enhanced Financial Status Report"
+team: "Debt Resolution Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-06-01"
+researchers: 
+  - "Charlotte Cesana - UX Researcher & Moderator"
+  - "Megan Gayle - UX Researcher/Designer"
+  - "Joseph Lee - UX Designer"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Confirm that Veterans are able to easily edit their contact information on FSR"
+  - "Confirm that Veterans are able to easily select a debt/copay bill"
+  - "Confirm that Veterans are able to update their VA Benefits information"
+  - "Confirm that Veterans understand the resolution options"
+  - "Confirm that the new list & loop design is easy for Veterans to utilize"
+  - "Understand Veterans subjective experience with the form and the amount of effort (satisfaction)"
+  - "Understand if Veterans feel confident and comfortable with the form (subjective experience)"
 methodology:
-- Method 1
-- Method 2
+  - "moderated-research"
+  - "usability-testing"
+  - "remote-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 3
+  tablet: 1
+  smartphone: 3
+  assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 7
+  service_members: 0
+  caregivers: 1
+  dependents: 0
+  VA_staff: 0
+  family_members: 1
+  age: 
+    "25-34": 1
+    "35-44": 2
+    "45-54": 4
+    "55-64": 0
+    "65+": 0
+    unknown: 0
+  education: 
+    high_school: 1
+    some_college: 2
+    associates: 1
+    bachelors: 1
+    masters: 2
+    doctorate: 0
+    unknown: 0
+  location: 
+    urban: 7
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Participants found the enhanced FSR design patterns (including new list loops) easy to use."
+  - "Participants who understand the form's purpose (to help with debt) had an easier time filling it out and were more motivated to fill it out and supply all of the information, particularly if required."
+  - "Some participants wanted more specific guidance with the form: specificity to understand what is meant by 'dependent', specific guidance on how to calculate monthly income and deductions, and more 'additional information' sections."
+  - "Resolution options could be more refined to increase understanding."
+  - "Participants in this sample who had negative experiences with VA services felt a sense of distrust with the VA, hopelessness, and were skeptical about the debt resolution process. Participants experiencing homelessness or other financial hardship felt that the form would not help them and that the VA is 'not on their side'."
+  - "Some participants felt like the VA should know the answers to questions that were being asked. This was based on either information they had previously given to the VA (MyVA profile) or their SSN."
+  - "Overall participants felt the form was too long. Some participants thought the form was invasive."
 recommendations:
-- Recommendation 1
-- Recommendation 2
+  - "Add more 'additional information' sections. When a participant was unsure about a question, they looked for this component."
+  - "Provide reassurance and create a cohesive explanation throughout the FSR form that clearly states why the VA asks for this information, what will be done with it, and the limits."
+  - "Provide more instruction on what the VA is looking for on the 'Personal statement' section"
+  - "Remove 'overdue' input field on Credit Card section if possible. Many fields have been removed from the Credit Card section since the last study but it was still confusing to see an input field for amount overdue when the credit card was already paid off."
+  - "Pull information from user's MyVA Profile. (example: Spouse's name)"
+  - "Refine wording for Resolution options. Include 'Debt forgiveness' with the term 'waiver'"
+  - "Adding the word 'average' to monthly deductions (and other sections)"
+  - "The Streamlined Waiver (shorter form and automatic approval) will help with Veterans experiencing financial hardship with copay debt. However, as copay debt tends to be smaller and benefit overpayments tend to be greater, benefit overpayment debt might warrant another study."
 kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Veterans can manage their health services online"
+  - "Veterans and their families can find a single, authoritative source of information"
+  - "Logged-in users have a personalized experience, with relevant and time-saving features"
+  - "Usage of digital, self-service tools"
+  - "Number of VA.gov users as a function of total Veteran population"
+  - "Decrease call center volume, wait time, and time to resolution"
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not explicitly stated in report"
+  business: "Not explicitly stated in report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Card sorting study for common lists of expenses and assets"
 further_research_needed:
-- Area 1
-- Area 2
+  - "Recruit specifically for underserved groups not included in this study (Age 55-64+, Rural, Other than honorable discharge, Immigrant origin, Expat, Hispanic, Biracial, Asian, Native, Veterans who use assistive technology)"
+  - "Card sorting study for common lists of expenses and assets"
+  - "Additional study for benefit overpayment debt (as it tends to be greater than copay debt)"
 underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Age 55-64+"
+  - "Rural Veterans"
+  - "Other than honorable discharge"
+  - "Immigrant origin"
+  - "Expat"
+  - "Hispanic"
+  - "Biracial"
+  - "Asian"
+  - "Native"
+  - "Veterans who use assistive technology"
 secondary_research:
-- Web analytics
-- SME interviews
+  - "Financial Status Report MVP Usability Test Readout - March 2021"
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Note taking spreadsheet"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- 'MHV: Pharmacy'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family Member"
+  - "BNFT: Disability"
+  - "BNFT: Healthcare"
+  - "BNFT: Finances"
+  - "PRDT: Debt-portal"
+  - "DSC: Form"
+  - "DSC: Card"
+  - "DSP: Ask users for addresses"
+  - "DSP: Ask users for phone numbers"
+  - "DSP: Content Presentation"
+  - "DSP: Help users to check answers"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "HDW: Tablet"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "evaluative"
 ---
+
 # Enhanced Financial Status Report (VA Form 5655) Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Enhanced Financial Status Report, Debt Resolution Team**

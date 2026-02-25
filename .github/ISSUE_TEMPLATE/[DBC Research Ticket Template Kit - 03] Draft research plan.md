@@ -1,10 +1,13 @@
 ---
-name: "DBC Research Runbook: Draft research plan"
+name: "DBC Research Ticket Template Kit - 03: Draft research plan"
 about: To guide the creation of a detailed research plan. 
 labels: "disability-benenfits,research" 
 assignees: ''
 
 ---
+
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
 
 ### Description
 The output of this ticket will be a detailed research plan for the [study name] study. The study focuses on [brief description of study].

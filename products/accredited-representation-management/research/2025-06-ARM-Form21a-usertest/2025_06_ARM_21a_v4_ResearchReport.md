@@ -1,95 +1,117 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Form 21a v4 User Test Research Findings"
+product: "Accredited Representative Management - Form 21a"
+team: "Accredited Representative Management"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2025-06-17"
+researchers: 
+  - "Marisa Dominguez, UX Lead"
+  - "Michael Tri, Sr. Product Designer"
+  - "Lindsay Li-Smith, Product Manager"
+  - "Allison Nuttall, Program Manager"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Uncover assumptions, rumors, and myths about the accreditation process for attorneys and claims agents"
+  - "Understand the applicant's expectations upon completing the Form 21a v4, with emphasis on communication expectations and preferences while completing the application and post-submission"
+  - "Understand the usability of Form 21a v4 for prospective claim agents and attorneys"
+  - "Validate previously learned findings about applicant motivations and challenges"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 6
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 6
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 6
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 6
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Applicants are requesting additional clarification and background information for military-related questions on the forms"
+  - "There is a need for examples to be provided for more complex questions to assist applicants in correctly filling out the forms"
+  - "Personal information is currently being used in a manner visible to the public, raising privacy concerns"
+  - "There is a demand for an additional response option in the yes/no questions within the background section to better capture applicants' situations"
+  - "There is a notable absence of communication from the OGC (Office of General Counsel) after application submissions, leading to applicant frustration"
+  - "The use of a general inbox by the OGC has led to distrust among applicants regarding the handling of their queries"
+  - "Several cases have been reported where the OGC sent the incorrect applicant information in response to inquiries, indicating a breach in information management"
+  - "One applicant experienced a significant issue where her application was reported lost, highlighting concerns with the application handling process"
+  - "Applicants are confused about the submission process, particularly whether applications should be sent by mail or email"
+  - "There is a strong preference for in-application support, with applicants requesting access to human support specialists to assist them"
+  - "The timeline for processing applications is highly inconsistent, leading to uncertainty and frustration among applicants"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Focus on directive language by auditing the content on the questions and areas of concern. Language and tone should consider the user and the additional clarification required for specific questions"
+  - "Explore possible tools to help support OGC staff with support-level communications. By streamlining the incoming queries with a digital tool or service, we will effectively distribute the inquiries"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "It is necessary to communicate with the other side of the funnel, specifically with OGC, to better understand their tools, processes, and workflows"
+  - "Ongoing research with Attorneys and Claims Agents is recommended to continue to uncover pain points and recommendations for improving their workflows with VA tools"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "EnjoyHQ"
+tags:
+  - "AUD: Attorneys"
+  - "AUD: Claims Agents"
+  - "PRDT: Accredited-Reps"
+  - "HDW: Desktop"
+  - "DSC: Form"
+  - "DSC: Form - Radio Button"
+  - "DSC: Form - File Input"
+  - "DSP: Ask users for contact preferences"
+  - "DSP: Ask users for phone numbers"
+  - "DSP: Ask users for addresses"
+  - "DSP: Ask users for files"
+  - "DSP: Help users to check answers"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "evaluative"
 ---
 
 **06/17/2025**

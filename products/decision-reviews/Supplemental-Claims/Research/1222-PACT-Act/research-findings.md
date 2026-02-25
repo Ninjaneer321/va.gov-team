@@ -1,105 +1,129 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Supplemental Claims MVP - PACT Research Findings"
+product: "Decision Reviews - Supplemental Claims"
+team: "Benefits Decision Reviews"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-03-01"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Eileen Chi"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Determine if the process of filing a PACT-eligible Supplemental Claim is clear and actionable"
+  - "Determine if the user can understand what presumptive conditions are, and what happens when they submit a claim without evidence"
+  - "Validate that users can successfully and confidently submit a claim with or without adding evidence"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Mobile prototype testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 5
+  tablet: 0
+  smartphone: 5
+  assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 1
+    "35-44": 1
+    "45-54": 3
+    "55-64": 5
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 4
+    some_college: 2
+    associates: 2
+    bachelors: 2
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 7
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 5
+    hispanic: 1
+    biracial: 4
+    asian: 2
+    native: 3
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Most participants had a clear understanding of the requirements for filing Supplemental Claims and what presumptive conditions are"
+  - "A few participants were not able to locate the action link to file a Supplemental Claim on the unauthorized site-wide introduction page"
+  - "Most participants tried to add evidence to their Supplemental Claims, despite understanding that they don't need evidence to prove service connection for presumptive conditions"
+  - "Most participants thought the 'Edit' link on the issue summary page and evidence summary page would let them perform an action different from what they actually do"
+  - "Half of the participants were confused by the Appeals Modernization Act because they didn't know about the old appeals process, but still continued with the form"
+  - "Participants understood what the notice of evidence needed is, and more than half clicked the link to view the required external page before certifying"
+  - "A few participants experienced confusion when they reached the warning alert on the evidence summary page"
+  - "Half of the participants struggled with going back and uploading evidence from the evidence summary page"
+  - "Most of the participants misunderstood the action for the 'print this page' button"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Increase visibility of start claim CTA on the site wide introduction (and possibly change language to fit Veteran's mental models)"
+  - "Add clarifying language for worsening conditions to decrease the chances of Veterans confusing Supplemental Claim form with a 526 Claims for Increase"
+  - "Remove redundant edit link from evidence summary page, and associate the edit link to the header, so it's associated to the right task"
+  - "Either meet veteran expectations of the 'print this page' button on the confirmation page, or clarify the language"
+  - "Provide more explanation about the old appeals process on the new decision reviews process page"
+  - "Provide more clarity for those applying for presumptive conditions on the evidence summary language"
+  - "Explore into other possible wayfinding solutions for the form system, and non-linear form experiences. The progress bar does not help Veterans track where they are in the process when navigating back and forth"
+  - "Simplify the document upload functionality, which affects all forms with uploads"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Future usability with assistive technology, especially magnification/zoom, desktop and mobile screen readers, as well as Veterans who experience arthritis or other dexterity issues"
+  - "Further research needed with veterans who aren't familiar with the decision review process, and veterans who are not as comfortable with technology"
+  - "Possible research needed on the document upload functionality when form is in staging or production"
 underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Immigrant origin"
+  - "Other than honorable"
+  - "Gay, lesbian, or bisexual"
+  - "Transgender"
+  - "Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman"
 secondary_research:
-- Web analytics
-- SME interviews
+  - "Initial Supplemental Claims MVP Prototype Research"
+  - "Supplemental Claims PACT Desk Research"
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Affinity Mapping"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: Claim-status-tool'
-- 'MHV: Secure Messaging'
-- 'MHV: Personal Health Records/Medical Records'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: Decision-reviews"
+  - "DSC: Alert boxes"
+  - "DSC: Buttons"
+  - "DSC: Action Link"
+  - "DSC: Links"
+  - "DSC: Progress bars"
+  - "DSC: Form controls"
+  - "DSP: Ask users for files"
+  - "DSP: Content Presentation"
+  - "DSP: Contextual help"
+  - "DSP: Help users to check answers"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "INTIVE: PACT Act"
+  - "usability-testing"
+  - "remote-research"
+  - "moderated-research"
 ---
+
 # Supplemental Claims MVP - PACT
 
 **Office of the CTO - Digital Experience (OCTO-DE), Decision Reviews, Benefits Decision Reviews**

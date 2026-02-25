@@ -2,7 +2,7 @@
 name: DRAFT - Collaboration Cycle / PO Sync
 about: ⚠️ Draft - don't use this template yet.
 title: 'PO Sync for [Team Name, Product Name, Feature Name]'
-labels: collaboration-cycle
+labels: collaboration-cycle, CC-touchpoint, PO-sync
 ---
 
 ## About PO Sync

@@ -1,10 +1,13 @@
 ---
-name: "DBC Research Runbook: Research wrap-up tasks"
+name: "DBC Research Ticket Template Kit - 20: Research wrap-up tasks"
 about: To guide the variety of tasks for wrapping up a study. 
 labels: "disability-benenfits,research" 
 assignees: ''
 
 ---
+
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
 
 ### Description
 This ticket covers a variety of tasks for wrapping up the [study name] study. The study focuses on [brief description of study]. 

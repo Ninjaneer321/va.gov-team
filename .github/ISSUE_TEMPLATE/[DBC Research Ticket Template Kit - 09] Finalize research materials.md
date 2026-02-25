@@ -1,10 +1,13 @@
 ---
-name: "DBC Research Runbook: Finalize research materials"
+name: "DBC Research Ticket Template Kit - 09: Finalize research materials"
 about: To guide the finalization of the research plan, conversation guide, prototype, or other materials for the study. 
 labels: "disability-benenfits,research" 
 assignees: ''
 
 ---
+
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
 
 ### Description
 This ticket covers final updates to the research plan, conversation guide, prototype, or other materials for the [study name] study. The study focuses on [brief description of study]. 

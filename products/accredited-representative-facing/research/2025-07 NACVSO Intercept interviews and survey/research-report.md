@@ -1,97 +1,121 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "NACVSO Conference Intercept Interviews and Surveys Research Findings"
+product: "Accredited Representative Portal (ARP)"
+team: "Accredited Representative Facing Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-07-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Kate Albee"
+  - "Eva Heintzelman"
+  - "Maria Lemoine"
+  - "Laura Paradis"
+  - "Jennifer Seipel"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "How do representatives typically learn about a tool like ARP?"
+  - "What can we learn about representatives' case management, form signature workflow, their communication with ROs, and use of digital tools that will inform future solutions in ARP?"
+  - "What can we learn about representatives' communication with OGC?"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Intercept interviews"
+  - "Surveys"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 125
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "For updates on tools, CVSOs pay more attention to news from state associations and Regional Offices (RO) over other channels."
+  - "Accessing Veteran's information in general, was the most frequently noted pain point in the survey"
+  - "While we still see a variety of workflows related to permissions, we gained a little more confidence in our decision to deprioritize permissions-related features."
+  - "When cross-accredited, CVSOs decide which organization should hold POA based on needs of Veterans and whether or not their organization needs this information. There does not appear to be an established practice."
+  - "Claims agents communicate the most with OGC, followed by attorneys and then CVSOs. CVSOs generally had no reason to contact OGC."
+  - "CVSOs preferred using their county email over all others."
+  - "CVSOs prefer (and many appear to) have a good relationship with the regional office to raise concerns."
+  - "CVSOs seek to optimize the signature workflow part of the claim filing process through third party tools they use (VetPro, TylerTech solutions)."
+  - "SHARE provides unique information related to payment history."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Plan for communication of ARP with state associations as well as Regional Offices. If possible, include any known expectations of when 21-686c would be auto-established and discuss priority of additional forms to be added to the functionality."
+  - "Understand POA access problem space for claims agents and attorneys and ensure that the solution meets their needs. Continue to improve login access for all accredited representatives."
+  - "While we still see a variety of workflows related to permissions, we gained a little more confidence in our decision to deprioritize permissions-related features."
+  - "When cross-accredited, CVSOs decide which organization should hold POA based on needs of Veterans and whether or not their organization needs this information. There does not appear to be an established practice."
+  - "Provide a clear transparent path towards updating contact information across all representatives, that would 1) provide confirmation of the changes and where they will show (e.g. to show Veterans) and 2) inform representatives when their changes are made and where they will be visible."
+  - "Conduct research to understand claims agents and attorneys' journeys with OGC so that future features for these types of representatives can be prioritized, designed and implemented."
+  - "For CVSOs, we should ensure that notifications can be sent to their county email. Make sure potential representatives understand how their contact information will be used when entering it on the accreditation application. ARP can also include on the Help page how representatives can currently update their contact information."
+  - "Share learnings about CVSOs and RO with the Employee Experience team or other relevant teams, as they are not within our immediate scope. Constructive communication between representatives and RO appears to improve quality review and relationships."
+  - "We can still expect that a signature workflow solution would benefit representatives to easily complete their submissions, and we should confirm what policies exist that would prevent sending Veterans to complete forms."
+  - "For our longer-term roadmap, we should consider whether or not we want to show payment history. Not all representatives needed this to support Veterans during the claims process, but representatives appreciate seeing when the Veteran is first receiving benefits after filing the first claim."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "How do representatives review forms, digital and paper, with Veterans? Are their viewing constraints and why?"
+  - "What does your organization report? Who do they report to? How do they do this? Why?"
+  - "How do representatives support older Veterans who find it challenging to use va.gov and ID.me?"
+  - "How do representatives support Veterans who are very hard to reach (e.g. housing insecurity, no simple means of contact)?"
+  - "Conduct research to understand claims agents and attorneys' journeys with OGC"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: Veteran Service Office (VSO)"
+  - "AUD: Attorneys"
+  - "AUD: Claims Agents"
+  - "AUD: Veterans"
+  - "PRDT: Accredited-Reps"
+  - "PRDT: Form 21-686c"
+  - "BNFT: Disability"
+  - "DSP: Ask users for signature"
+  - "intercept-interviews"
+  - "surveys"
+  - "discovery"
+  - "generative"
 ---
-
 # Research Findings from Intercept Interviews and Surveys at 2025 NACVSO Conference
 
 Office of the CTO - Digital Experience (OCTO-DE), Accredited Representative Facing Team

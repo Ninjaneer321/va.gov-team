@@ -1,10 +1,13 @@
 ---
-name: "DBC Research Runbook: After-session cleanup"
+name: "DBC Research Ticket Template Kit - 15: After-session cleanup"
 about: To guide post-research session logistical tasks. 
 labels: "disability-benenfits,research" 
 assignees: ''
 
 ---
+
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
 
 ### Description
 This ticket covers post-research session logistical tasks to be completed for the [study name] study. The study focuses on [brief description of study]. 

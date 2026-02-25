@@ -1,95 +1,131 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Marital Status Pattern Discovery Research Report"
+product: "Authenticated Experience Design Patterns"
+team: "Authenticated Experience Design Patterns Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-04-01"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Christine Steiffer (Design and Research Lead)"
+  - "Kristen Faiferlick (Senior UX Designer)"
+  - "Lynn Stahl (Former Product Manager)"
+  - "Fran Cross (Current Product Manager)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Create a consistent pattern for collecting marital status information across VA forms"
+  - "Understand how VA currently collects marital status information across all forms"
+  - "Identify variations in how marital status questions are asked and answered"
+  - "Review previous research insights related to marital status"
+  - "Establish trauma-informed approach to asking about marital status and relationships"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Secondary research review"
+  - "Form audit and analysis"
+  - "Comparative analysis (design systems)"
+  - "Research repository review"
+  - "Discovery"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
-recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "23 total VA forms ask questions related to marriage or spouses (10 digital, 13 PDFs)"
+  - "There is significant variation in how the initial marital status question is asked across forms (some use 'What is your current marital status' with multiple options, others use 'Are you married' with Yes/No)"
+  - "The most common response options are: Married, separated, divorced, widowed, or never married, appearing in 5 forms"
+  - "Previous research on form 21-686c revealed that discussing past marriages and ex-spouses can be traumatic, with one participant stating they would 'rather shoot their ex than mention their names'"
+  - "Forms 21-686c and 21p-527EZ ask the most complex set of marriage-related questions, including spouse details, living arrangements, marriage logistics, and former marriages"
+  - "17 forms collect spouse personal information, 13 ask about marital date/place, 11 ask about living arrangements, 8 ask about marriage termination, and 6 ask about termination reason"
+  - "A trauma-informed approach is necessary when creating this pattern, particularly in the language used to explain why VA asks for marital status information"
+  - "US Census Bureau and Gov.UK design system guidance informed pattern development to ensure alignment with best practices"
+key_recommendations:
+  - "Don't ask for more information than needed - only include questions required by the specific form to reduce trauma associated with discussing past marriages and deceased spouses"
+  - "Use a primary question format: 'What is your current marital status?' with options: Married, Separated, Divorced or annulled, Widowed, Never married"
+  - "Include hint text to help define how to best answer the question"
+  - "Include a trauma-informed additional info component explaining why VA asks this information"
+  - "Categorize optional follow-up questions into: spouse personal/contact information, living situation, marriage/termination details, document upload, and spouse's former marriage information"
+  - "Update content and questions according to the user's specific situation (e.g., use past tense when discussing deceased former spouse)"
+  - "Teams should only include the optional question categories required by their specific form"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in this discovery report"
+  business: "Not specified in this discovery report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Need for consistent approach to collecting marital status information across VA forms"
+  - "Opportunity to reduce trauma by limiting questions to only what is required"
+  - "Need for trauma-informed language explaining why VA collects marital status information"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Do users understand why VA asks for marital status information after reviewing the additional info component"
+  - "Do users with less common or more complex marital status (e.g. domestic partnerships) understand how to answer the question"
+  - "Do they open the Additional info component to find guidance"
+  - "Do they understand the content on the page we link to in the guidance"
+  - "Do users who have experienced relationship trauma understand why we need to ask this question"
+  - "Do they read the text about why we need to ask this question"
+  - "When asking about a current spouse's former marriages, is it clear who we are asking about"
+  - "What parts are clear"
+  - "What parts are harder to understand"
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "VA research repository keyword search"
+  - "Previous research study review (form 21-686c usability research)"
+  - "US Census Bureau guidance review"
+  - "Gov.UK design system review"
+  - "Form audit (23 VA forms - 10 digital, 13 PDFs)"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Authenticated-patterns"
+  - "PRDT: Form 21-686c"
+  - "PRDT: Form 21p-527EZ"
+  - "DSP: Form Templates"
+  - "DSC: Form - Radio Button"
+  - "DSC: Form - Select"
+  - "discovery"
+  - "design-system"
+  - "content-strategy"
+  - "trauma-informed-design"
 ---
 
 # Discovery Research Report 

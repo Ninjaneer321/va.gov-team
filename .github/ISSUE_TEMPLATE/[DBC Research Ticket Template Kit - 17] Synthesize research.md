@@ -1,10 +1,13 @@
 ---
-name: "DBC Research Runbook: Synthesize research"
+name: "DBC Research Ticket Template Kit - 17: Synthesize research"
 about: To guide the synthesis of data collected from the study. 
 labels: "disability-benenfits,research" 
 assignees: ''
 
 ---
+
+> [!NOTE] 
+> If you have any recommended changes to this ticket template, contact a DBC designer. Otherwise, remove this notice when creating your ticket.
 
 ### Description
 This ticket covers synthesizing data from the [study name] study. The study focuses on [brief description of study]. 

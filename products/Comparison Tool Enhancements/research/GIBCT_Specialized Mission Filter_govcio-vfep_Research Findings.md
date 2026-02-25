@@ -1,95 +1,106 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "GI Bill Comparison Tool, Specialized Mission Filter Research Findings"
+product: "GI Bill Comparison Tool"
+team: "govcio-vfep"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2023-09-29"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Garry Forbes (garry.forbes@va.gov)"
+  - "Ariana Adili (ariana.adili@va.gov)"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate usability: Assess the usability of the Comparison Tool interface by analyzing how easily participants can navigate, apply filters, and retrieve relevant information"
+  - "User feedback: Gather feedback from participants regarding their experience with the comparison tool, including any challenges encountered or suggestions for improvement"
+  - "Effectiveness of filters: Evaluate the effectiveness of various filters in refining search results to meet participants' specific criteria"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote usability testing"
+  - "Moderated sessions"
+  - "Task-based testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 7
+    tablet: 1
+    smartphone: 0
+    assistive_technology: 1
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 2
+    "35-44": 0
+    "45-54": 3
+    "55-64": 3
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 3
+    associates: 3
+    bachelors: 2
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 9
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 2
+    black: 5
+    hispanic: 1
+    biracial: 0
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    general_assistive_technology: 1
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All nine respondents indicated that they were interested in exploring educational opportunities"
+  - "All had some degree of difficulty finding what they wanted, and many pressed filtering options that appeared to be at cross-purposes with their initial search string (on either the Search by name or Search by location tabs)"
+  - "Three users recognized the value of the Specialized Mission Filter group, but felt using it might limit their results"
+  - "The SMF descriptions component (which required pressing a link below the SMF filter group) was found and reviewed without prompting by several users"
+  - "One user selected the 'Hispanic-serving institutions' filter and pressed the 'Apply filters' button; the user was expecting all matches (country-wide) for the selected filter, but none were returned (the user had previously performed a name search for 'Rutgers')"
+  - "After conducting searches that produced acceptable results, eight of nine users tapped the result card heading link to move away from the home results page and open the institution details page, requiring them to use the browser back button or return to the homepage"
+  - "One user entered a school acronym in the Search field, which produced no results, then corrected the search by entering a partial school name and making a selection from the autocomplete dropdown list"
+  - "One user found, unprompted, that a word or phrase can be entered in the Search field instead of an institution name; the user entered 'forensic', which produced five unsatisfactory results, then entered 'veterinarian', which produced two"
+  - "A small number of users failed to use the 'Apply filters' button after modifying filters, assuming filter selection was enough to refresh the results"
+  - "The 'Search by location' (map) option was at least as popular as the default name search; most users entered a zip code or municipality name on entry, though results were more often than not cleared to modify filters"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Investigate methods that would allow users to search with an empty search field"
+  - "Search tips above search tabs and accordion drop-down"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "None at this time"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Education"
+  - "PRDT: GI-Bill-Comparison-Tool"
+  - "HDW: Desktop"
+  - "HDW: Tablet"
+  - "DSC: Search Input"
+  - "DSC: Button"
+  - "DSC: Accordions"
+  - "usability-testing"
+  - "remote-sessions"
+  - "Accessibility"
 ---
 
 # GI Bill Comparison Tool, Specialized Mission Filter Research Findings 
