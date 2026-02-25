@@ -24,8 +24,8 @@ Recording Link TBD
 - [ ] Sprint Delivery Approved by Enablement
 
 Total Completed in Sprint 9: 51 tickets, 150 points + 2 spikes\
-Crew Count in Sprint 9: 20 active teammates (not including Principal Leads)\
-Average Teammate Velocity in Sprint 9: 150 points / 20 teammates = 7.5 points / teammate (not including Principal Leads)\
+Crew Count in Sprint 9: 20 active teammates \
+Average Teammate Velocity in Sprint 9: 150 points / 20 teammates = 7.5 points / teammate \
 Carrying into Sprint 10: 17 tickets, 63 points + 3 spikes
 
 ## Sprint 10 Tickets
@@ -46,13 +46,14 @@ Carrying into Sprint 10: 17 tickets, 63 points + 3 spikes
 
 **Team Accreditation**
 
-1. [ARP Post-MVP] Enable individual acceptance of representation requests: Continue engineering work, on track for dev-complete by early Sprint 12
+1. [ARP Post-MVP] Enable individual acceptance of representation requests: Complete content work, continue engineering work
 2. [Rep Data] GCLAWS SQL Server API integration:
     Conclude development, launch -- back-end-only feature, no user impact
 3. [Rep Data] Stability and Maintenance / Address Approximation:
     If unblocked, can complete development and launch
 4. [21a] Research:
     Preparing for resumption of new work with GCLAWS team
+5. ARP Permissions Diagram
 
 **Team Benefits**
 
@@ -60,9 +61,12 @@ Carrying into Sprint 10: 17 tickets, 63 points + 3 spikes
 2. [Claimant Details] MVP - Development: Create Architecture Intent artifacts, build various scenarios for Claimant Overview tab related to established POA vs. no POA, create endpoint for rep info & submissions history, & update Search results to match POA scenarios.
 3. [ARP Post-MVP] Accessibility Testing & Cleanup: Addressing accessibility testing in ARP while addressing high priority findings prior to requesting an audit from 508 office. 
 4. [ARP Post-MVP] Cleanup Tasks: Adding capability to disable ARP and reviewing benefits intake records before enabling the deletion of expired records. 
-5. [Discovery Research] Understanding how Reps manage the claims cycle across all clients: Present and archive materials
-6. [Rep-Facing Form] 526ez v2 — Research: Representative 526ez / 686c Research Plan & Convo Guide
-7. [Super Epic TBD] Improve ARP Help page content: Enhance content/help page 
+5. [Discovery Research] Understanding how Reps manage the claims cycle across all clients: Present and archive materials, process diagrams for claimant lifecycle and caseload management
+6. [Rep-Facing Form] 526ez - Benefits Delivery at Discharge: Finalize design and content
+7. [Rep-Facing Form] 526ez v2 — Research: Representative 526ez / 686c Research Plan & Convo Guide
+8. [Super Epic TBD] Improve ARP Help page content: Enhance content/help page
+9. Design discovery for Claims Status Notifications on Dashboard
+10. Research Plan & Conversation Guide for either 526ez v2 or 686c v2 (TBD)
 
 **Team Appoint**
 
