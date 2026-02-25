@@ -56,7 +56,7 @@ recruitment:
   primary_criteria:
     - "Veteran, dependent of a Veteran (spouse, child, or parent) or caregiver of a Veteran"
     
-  secondary_criteria:
+  secondary_criteria (these criteria will be overlapping):
     - "Receives a pension (3 - 5 participants)"
     - "Has a service-related disability (5 - 8 participants)"
     - "Currently receives SMP, SMC, or other benefit for aid and attendance / housebound allowance (4 - 8)"
@@ -347,13 +347,13 @@ This approach allows us to reach a diverse group of veterans,dependents, and car
 **Primary criteria (must-haves):**
 - Veteran or caregiver or dependent of a Veteran (child, spouse, parent)
 
-**Secondary criteria (nice-to-haves):**
-- Receives a pension (3 - 5 participants)
-- Has a service-related disability (5 - 8 participants)
-- Currently receives SMP, SMC, or other benefit for aid and attendance / housebound allowance (4- 8)
+**Secondary criteria (nice-to-haves; these criteria will be overlapping):**
+- Receives a pension (6 - 9 participants)
+- Has a service-related disability (6 - 9 participants)
+- Currently receives SMP, SMC, or other benefit for aid and attendance / housebound allowance (3 - 6)
 - Thinks they are eligible for aid and attendance / housebound allowance (2 - 3)
-- Has a VHA medical provider (2-3)
-- Has a private medical provider (2-3)
+- Has a VHA medical provider 
+- Has a private medical provider 
 
 It would additionally strengthen our sample to include:
 - LGBTQ+ Veterans and caregivers
@@ -410,11 +410,11 @@ It would additionally strengthen our sample to include:
 - I do not currently have a medical provider (recruit approx 10%)
 
 **`5.` Do you (or the Veteran you care for) currently receive a VA benefit for Aid and Attendance or Housebound Allowance? Sometimes referred to as Special Monthly Pension (SMP) or Special Monthly Compensation (SMC).**
-- Yes, I currently receive SMC (recruit some)
-- Yes, I currently receive SMP (recruit some)
-- Yes, I currently receive a different benefit for Aid and Attendance or Housebound Allowance (recruit some)
-- I am not sure (recruit some)
-- No, but I think I am eligible to receive SMC, SMP or another benefit for Aid and Attendance or Housebound Allowance (recruit more)
+- Yes, I currently receive SMC (recruit  1 - 2)
+- Yes, I currently receive SMP (recruit 1 - 2 )
+- Yes, I currently receive a different benefit for Aid and Attendance or Housebound Allowance (recruit 1 - 2)
+- I am not sure (recruit 2 - 3)
+- No, but I think I am eligible to receive SMC, SMP or another benefit for Aid and Attendance or Housebound Allowance (recruit 2 - 3 )
 - No, and I do not think I am eligible for this benefit (exclude)
 
 **`6.` Have you ever started or completed VA Form 21-2680?
