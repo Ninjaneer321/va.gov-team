@@ -144,6 +144,7 @@ To ensure a destructive button conforms to accessibility requirements defined by
 ```css
 .usa-button--destructive {
   color: #ffffff; /* white text */
+```
 
 ---
 
