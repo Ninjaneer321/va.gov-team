@@ -1,6 +1,6 @@
 ---
 title: "VA.gov Home Page Redesign Usability Test Findings Research Findings"
-product: "VA.gov Home page (redesign)"
+product: "VA.gov Home page"
 team: "Sitewide Home Page team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
 date: "2022-08-31"
@@ -50,7 +50,7 @@ demographics:
     asian: 0
     native: 1
   disability:
-    cognitive: 0
+    cognitive: 4
     AT_beginner: 0
     AT_advanced: 0
     screen_reader_desktop: 0
@@ -106,18 +106,10 @@ tags:
   - "AUD: Veterans"
   - "AUD: Service Members"
   - "AUD: Caregivers"
-  - "BNFT: Disability"
-  - "BNFT: Education"
-  - "BNFT: Healthcare"
-  - "BNFT: Housing"
-  - "BNFT: Memorialization"
-  - "BNFT: Records"
   - "DSC: Search Input"
   - "DSC: Links"
   - "DSC: Button"
   - "DSP: Help users to sign in"
-  - "DSP: Help users to navigate a long list"
-  - "Accessibility"
   - "HDW: Desktop"
   - "HDW: Tablet"
   - "HDW: Smartphone"
