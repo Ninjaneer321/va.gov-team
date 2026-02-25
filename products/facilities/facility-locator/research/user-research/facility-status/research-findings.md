@@ -1,102 +1,109 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Facility Operating Status Study - Research Findings"
+product: "Facility Locator"
+team: "VSA, Facility Locator"
+office: "Digital Services Veterans Affairs (DSVA)"
+date: "2020-06-23"
+researchers: 
+  - "Leyda Hughes"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Validate or invalidate the usefulness and understandability of operating statuses"
+  - "Identify gaps between an operating statuses' application and how they are interpreted"
+  - "Determine how Veterans categorize events that affect a facility's operating status"
 methodology:
-- Method 1
-- Method 2
+  - "remote moderated research"
+  - "generative questioning"
+  - "card sorting"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 6
+  service_members: 0
+  caregivers: 1
+  dependents: 1
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 8
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 8
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "When presented with 'Facility Closed' participants believed that no services would be available to them."
+  - "5 out of 8 participants classified a facility as 'Limited Services' if virtual/telehealth services were available."
+  - "'Facility Notice' was generally understood as information that a user might need to know about a facility but interpretations varied widely from mask-wearing requirements to permanent closure."
+  - "Users understood that the terms 'virtual services' and 'telehealth' are sometimes used interchangeably and that they mean that some level of service might still be available to them."
+  - "Veterans want to know from the website what services will be available to them."
+  - "Participants expected to be contacted by phone, text or email if something about their appointment changed. Unprompted, they would not think to go to the website to assume something might have changed."
+  - "Participants trust information on the website more when they see a recent date associated with the update."
+  - "Participants don't want to 'dig' or 'click too many times' for important information."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Reserve 'Facility Closed' for temporary or permanent facility closures where no services are available to Veterans."
+  - "Use 'Limited Hours and Services' as the status for COVID related operating changes if virtual and telehealth services are available."
+  - "Do not use 'Facility Notice' as a status for use in search results. It is too broad to communicate anything effectively."
+  - "Replace or extend the 'Facility Notice' category with more specific categories. Participants used words like 'Health Notice', 'Weather Notice', 'Emergency Notice', 'Holiday Schedule', 'Emergency Closure', 'Upcoming Building Closure'."
+  - "Specify which services at facilities are available on detail pages, where available."
+  - "Add timestamps or timeranges wherever temporary changes affect a facility."
+  - "Consider the red styling from detail page instead of pink styling to communicate the severity of 'Facility Closed'. Some users missed the alert entirely and pointed out that the red styling matches expectations of high severity."
+  - "Communicate changes in appointments and visiting requirements to Veterans via phone, text or email. Let them choose how they get notified."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- moderated-research
-- remote-research
+  - "PRDT: Facilities"
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family Member"
+  - "BNFT: Healthcare"
+  - "moderated-research"
+  - "remote-research"
+  - "card-sort"
+  - "generative-research"
+  - "evaluative"
 ---
+
 # Facility Operating Status Study - Research Findings
 **Digital Services Veterans Affairs (DSVA), VSA, Facility Locator**<br>
 
