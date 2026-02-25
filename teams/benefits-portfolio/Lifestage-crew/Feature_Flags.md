@@ -2,7 +2,7 @@
 | Flipper Name                                                       | Form ID   | Enabled on Staging | Enabled on Production | Engineer             | Description                                                         |
 | :----------------------------------------------------------------- | :-------- | :----------------- | :-------------------- | :------------------- | :------------------------------------------------------------------ |
 | Dependents Management                                              | 686c, 674 |                    |                       |                      |                                                                     |
-| dependents_module_enabled                                          | 686c, 674 | Yes                | Yes                   | Tai Wilkin-Corraggio | Enables new Dependents module.                                      |
+| dependents_module_enabled                                          | 686c, 674 | Yes                | No                   | Tai Wilkin-Corraggio | Enables new Dependents module.                                      |
 | va_dependents_v3                                                   | 686c, 674 | Yes                | Yes                   | Dakota Larson        | Toggles v3 of the 686c-674 form.                                    |
 | dependents_management                                              | 686c, 674 | 1 actor            | Yes                   |  | Manage dependent removal from view dependent page.                  |
 | dependents_enqueue_with_user_struct                                | 686c, 674 | Yes                | Yes                   | Evan Smith           | Enqueues job for 686c/674 with User struct instead of User model.   |
