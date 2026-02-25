@@ -1,104 +1,127 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "2023 Appointments List Screen Reader Usability Research Findings"
+product: "VA Online Scheduling (VAOS)"
+team: "Appointments"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-05-31"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Ciera Maddox"
+  - "Peter Russo"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Evaluate screen reader usability and value of the appointment list redesign"
+  - "Improve navigation of the newly updated appointments lists for screenreader users"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Feature testing on production with feature flag"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 7
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 4
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 1
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 1
+    "35-44": 3
+    "45-54": 1
+    "55-64": 3
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 2
+    associates: 3
+    bachelors: 2
+    masters: 2
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 9
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 4
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 1
+    AT_advanced: 3
+    screen_reader_desktop: 3
+    screen_reader_mobile: 1
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Recruiting and technical challenges made it difficult to test with screen reader users"
+  - "Participants easily navigated to and understood the upcoming and past appointment lists"
+  - "Participants struggled to navigate to and understand appointment requests"
+  - "Missing, confusing appointment information makes the lists difficult to use"
+  - "Logging in was the biggest navigation challenge for participants"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Work with Virtual Care Manager team to fix video care appointments"
+  - "Investigate and fix the issue with staff-entered data in 'You shared these details about your concern' field"
+  - "Display type of care for all appointments"
+  - "Use the word 'requests' as the noun, and 'pending' or 'canceled' as modifiers when describing appointment requests"
+  - "Improve how we communicate appointment requests to Veterans who haven't requested appointments"
+  - "Continue to improve the semantic layout of the appointments lists"
+  - "Consider connecting appointments that are requested in Secure Messaging with requests in Appointments"
+  - "During recruitment, don't prompt specific assistive technology in screener questions or when confirming with participants that they use AT"
+  - "Continue testing on production with Veterans"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Beginner screen reader users need better support navigating appointments"
+  - "Login experience creates significant barriers for assistive technology users"
+  - "Appointment request terminology and visibility needs improvement"
+  - "Video care appointments missing critical information"
+  - "Type of care information needed for appointment identification"
 further_research_needed:
-- Area 1
-- Area 2
+  - "In future studies, test features with beginner screen reader users"
+  - "In future studies, test with assistive technology that wasn't used during this study (magnification, speech input, etc.)"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Beginner screen reader users"
+  - "Users of magnification/zoom assistive technology"
+  - "Users of speech input technology"
+  - "Native participants"
+  - "Other than honorable discharge Veterans"
+  - "Expats living abroad"
+  - "Veterans with cognitive disabilities"
+  - "Rural Veterans"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Task tracker spreadsheet"
+  - "Equity checker"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VAOS"
+  - "MHV: Appointments"
+  - "PRDT: Login"
+  - "PRDT: My VA"
+  - "Accessibility"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "HDW: Desktop"
+  - "HDW: Laptop"
+  - "HDW: Smartphone"
+  - "screen-reader"
+  - "evaluative"
 ---
+
 # 2023 Appointments List Screen Reader Usability Research Findings
 
 Office of the CTO - Digital Experience (OCTO-DE), Appointments
