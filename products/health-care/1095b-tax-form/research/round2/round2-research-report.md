@@ -1,95 +1,115 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "1095-B Tax Document Research Findings – Round 2"
+product: "1095-B Tax Form"
+team: "Team MOVE"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2022-03-08"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "James Lewis"
+  - "Grace Hong"
+  - "Carl Dickerson"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Better understand how Veterans might find, use, and edit a digital copy of the 1095b form"
+  - "Discover needs, pain points and preferences for physical or digital delivery of the form"
+  - "Test usability of proposed solution"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Usability testing"
+  - "Semi-structured interviews"
+  - "Remote testing"
+  - "Prototype testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 8
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 2
+    "55-64": 3
+    "65+": 2
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 6
+    some_college: 0
+    associates: 0
+    bachelors: 1
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 3
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "8/8 Participants successfully completed the task: Sign in, View 1095-B Form, then Download or Print"
+  - "7/8 Participants would prefer updating incorrect information on the website rather than calling the enrollment line"
+  - "6/7 Participants thought the 1095-B landing page made sense as part of the Records section of the VA website"
+  - "6/8 Participants would prefer receiving the 1095-B form on the VA website rather than getting a paper copy in the mail (1/8 would prefer both, 1/8 would prefer paper)"
+  - "Veterans were unclear about whether the 1095-B form was required for filing taxes, with varying understanding across participants"
+  - "6/8 Participants found the Help sections and said they would call the enrollment phone number to fix mistakes on the form"
+  - "3/8 Participants would first try selecting 'Change Your Address' before calling the enrollment center to fix form errors"
+  - "7/8 Participants said they would prefer to correct any mistakes on the form digitally, either by filling in a form or sending a secure message"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Design is strong and ready to launch"
+  - "Add additional content on 'Change Your Address' landing page directing user to call enrollment center, should they follow that path to update the form"
+  - "Consider adding online form on authenticated 1095-B page to easily update address or other incorrect information, preventing the user from following other paths or making a phone call (Post MVP)"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Veterans need clearer information about whether the 1095-B form is required for filing taxes"
+  - "Veterans prefer digital methods to correct form errors rather than phone calls"
+further_research_needed: []
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Non-sighted users/users with vision disabilities (could not be accommodated due to prototype technology)"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Excel"
+related_research:
+  - "[Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/1095b-tax-form/research/round2/researchplan.md)"
+  - "[Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/1095b-tax-form/research/round2/conversation-guide.md)"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "BNFT: Records"
+  - "PRDT: Medical-records"
+  - "HDW: Desktop"
+  - "DSP: Help users to check answers"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "remote-testing"
+  - "evaluative"
+  - "authentication"
+  - "digital-forms"
+  - "tax-documents"
 ---
 
 # 1095-B Tax Document Research Findings – Round 2
