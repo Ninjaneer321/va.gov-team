@@ -2,7 +2,7 @@
 Last updated: 02-25-2026
 
 - [ADR: 001 - Destructive button](#adr-001---destructive-button)
-- [ADR:002 - Remove radio as buttons guidance](#adr-001---Remove-radio-as-buttons-guidance)
+- [ADR:002 - Remove radio as buttons guidance](#adr-002---Remove-radio-as-buttons-guidance)
 
 ## ADR 001 - Destructive button
 
