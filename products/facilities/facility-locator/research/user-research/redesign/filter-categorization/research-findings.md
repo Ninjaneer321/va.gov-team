@@ -1,99 +1,101 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Facility Locator Filter Card Sorting Research Findings"
+product: "Facility Locator"
+team: "Not specified"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-05-31"
+researchers: 
+  - "Not specified"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Not explicitly stated in findings report"
 methodology:
-- Method 1
-- Method 2
+  - "Unmoderated card sort"
+  - "Self-guided card sort exercise"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 44
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 44
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 44
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 44
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 44
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 44
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Cemetery and burial cards were most often grouped together and usually had the most category names. The most popular category names contained the terms 'after-life' 'burial' or 'death'"
+  - "Veterans grouped all medical services together and often created a 'medical specialty' or similar category. Participants usually included primary, urgent, emergency, and women's health care together"
+  - "Cards were often grouped together by similar name, terms, or context (Surgery, Education/Employment, Counseling)"
+  - "Participants had difficulty classifying some services and created new categories for them or listed them as 'other'. This could be due to the name of the service being ambiguous"
+  - "Participants sorted cards by services that are classified under separate facility types in our current taxonomy"
+  - "Participants created a total of 277 unique categories with a median of 5 categories created per participant"
+  - "65.9% of participants have used the Facility Locator; 34.1% have not"
+  - "Multiple categories included VA/Veteran specific descriptions (e.g. VA Care, VA Personal, VA Counseling, Veteran Services)"
+  - "Some cards were difficult for participants to comprehend, resulting in multiple 'other' or 'i don't know' or 'unimportant' categories"
+  - "Average time to complete was 16 minutes 33 seconds"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Not explicitly stated in findings report"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Optimal Sort"
 tags:
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- moderated-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "BNFT: Memorialization"
+  - "BNFT: Education"
+  - "BNFT: Employment"
+  - "PRDT: Facilities"
+  - "card-sort"
+  - "unmoderated-research"
+  - "evaluative"
 ---
+
 # Facility Locator Filter Card Sorting
 May 2020
 
