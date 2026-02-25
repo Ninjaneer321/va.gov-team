@@ -1,100 +1,112 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Facility Locator Urgent Care PDF Research Findings"
+product: "Facility Locator"
+team: "VSA, Facility Locator"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-01-27"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Aricka Lewis"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Gain insight on how Veterans receive content from the Urgent Care PDF and Facility Locator to provide feedback to the Office of Community Care"
+  - "Understand how Veterans interpret the content in the PDF"
+  - "Determine how to make the need for the PDF clear to Veterans through language in the UI"
+  - "Assess whether Veterans can distinguish between VA Health and Non-VA Health locations using Facility Locator"
+  - "Evaluate if card labels provide enough context"
+  - "Determine if listings in the facility type dropdown are clear"
+  - "Understand how Veterans would present the PDF when visiting a facility (print/mobile)"
+  - "Determine if Veterans know they need to bring the PDF with them to a community care facility"
+  - "Understand how Veterans currently fill prescriptions"
+  - "Determine if Veterans will use the facility locator to find pharmacies"
 methodology:
-- Method 1
-- Method 2
+  - "Moderated usability testing"
+  - "Remote sessions via GoToMeeting"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 5
+  service_members: 0
+  caregivers: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 5
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 5
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Veterans want to know *why* they need a PDF."
+  - "The term 'Community Care' is confusing to Veterans"
+  - "Veterans want to view a list of available urgent care providers."
+  - "Veterans want to clearly and quickly understand their eligibility for Community Care."
+  - "Veterans will visit pharmacies they are familiar with."
+  - "A PDF is a solution, but not the right solution."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Refine language around Community Care to be more in line with natural language (non-VA)"
+  - "Instead of a PDF, show the information as a webpage that can be referenced instead of printed out"
+  - "Provide a link to Community Care page on VA"
+  - "Bring back quick link to Urgent Care locations"
+  - "Change button to VIEW PDF"
+  - "Show all Urgent care results together instead of classifying by type (VA or Non VA)"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Test how Veterans would relate Community Care to their other benefits"
+  - "Understand what Veterans consider urgent (multiple participants expected to get care via the Community Care dropdown instead of Urgent Care)"
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Align on approach for urgent care since PDF content will now be a webpage provided by OCC"
+  - "Explore 'service first' based search experience"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Pharmacy'
-- moderated-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Facilities"
+  - "moderated-research"
+  - "usability-testing"
+  - "evaluative"
 ---
+
 # Facility Locator Urgent Care PDF Research Findings (WIP)
 **Digital Services Veterans Affairs (DSVA), VSA, Facility Locator**<br>
 
