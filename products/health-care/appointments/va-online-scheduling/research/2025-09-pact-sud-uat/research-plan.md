@@ -268,12 +268,10 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 > **Please submit artifacts for [Research Review](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Research-review.1781891143.html) 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.** 
 
 
-### Optional Kick-off Call with Perigean
+### Kick-off Call with Perigean
 
 - `Available timeslots for a kick off call are below:`
-	- **Tuesday, Sept 9, 3-5pm EST**
-	- **Thursday, Sept 11, 2-4pm EST**
-	- **Friday, Sept 12, 11am-1pm EST**
+	- **TBD - Early or mid March**
 
 
 ### Prepare
@@ -287,7 +285,7 @@ We will partner with Perigean to recruit Veterans. All efforts will be made to r
 
 
 ### Research sessions
-- `Planned dates of research:` **09/DD-09/DD**
+- `Planned dates of research:` **03/DD-03/DD**
 
 
 ### Length of sessions
