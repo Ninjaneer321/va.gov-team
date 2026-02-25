@@ -199,7 +199,7 @@ As part of expanding online self-scheduling, we’re adding two new features to 
 ## Methodology  🛠️
 
 **The interviews will combine tasks and direct questions, focusing on users’ ability to navigate the initial screens of the scheduling flow, their reactions to and understanding of these screens, and their preferences and expectations around clinic selection, PACT, and how they view SUD in relation to mental health.**
-- There are 5 total sections. Tasks 1-3 that involve navigating to schedule a visit with a primary care provider, social worker, and pharmacist. Task 4 is questions specifically around PACT and Task 5 involves navigating to select a mental health appointment. Tasks 1-3 are similar, just changing the type of care a user is navigating. Therefore, every participant will do Task 1 (primary care) and then either Task 2 (social work) or Task 3 (pharmacist) and then continue to complete sections 4 and 5. 
+- There are 5 total sections. Sections 1-3 are tasks that involve navigating to schedule a visit with a primary care provider, social worker, and pharmacist. Section 4 includes questions specifically around PACT and section 5 involves navigating to select a mental health appointment. Tasks 1-3 are similar, just changing the type of care a user is navigating. Therefore, every participant will do Task 1 (primary care) and then either Task 2 (social work) or Task 3 (pharmacist) and then continue to complete sections 4 and 5. 
 
 ### Location
 
