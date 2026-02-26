@@ -80,7 +80,7 @@ On February 13, 2026, Design, Product, and Engineering met to review the availab
 
 The preferred solution is **Option #1: Request an API change to add an explicit POA field** to the documents model and related API calls. This is the cleanest and most maintainable long-term solution, as it avoids encoding business logic in filenames or duplicating state.
 
-However, because this solution depends on external prioritization and may not be delivered before the Community Care release date, **Option #2 (Filename-based identification)** will be prepared as a fallback strategy.
+However, because this solution depends on external prioritization and may not be delivered before the Community Care release date, **Option #2 (Filename-based identification)** will be prepared as a fallback strategy/techincal work around.
 
 If the API change cannot be delivered in time, we will implement a filename-based approach and finalize the specific variant (2.1, 2.2, or 2.3) in collaboration with Stakeholders, Product and Design.
 
