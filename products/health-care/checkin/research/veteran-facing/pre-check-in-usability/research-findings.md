@@ -1,104 +1,116 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Pre-Checkin Usability Testing Research Findings"
+product: "Check-in Experience"
+team: "Check-in Experience"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-11-24"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Nira Datta"
+  - "Ya-ching Tsao"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Identify the type of information and how to deliver that information in the pre-check-in user flow to better meet Veterans and Caregivers expectations"
+  - "Identify how to improve the content and user flow to make it easier for Veterans and Caregivers to complete pre-check-in"
 methodology:
-- Method 1
-- Method 2
+  - "Usability testing"
+  - "Remote research"
+  - "Prototype testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 9
+  tablet: 0
+  smartphone: 2
+  assistive_technology: 0
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 3
+    "35-44": 1
+    "45-54": 2
+    "55-64": 1
+    "65+": 3
+    unknown: 1
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 4
+    associates: 1
+    bachelors: 2
+    masters: 3
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 4
+    rural: 7
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 7
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Majority of Veterans seem to value the ability to complete pre-checkin, if they don't have to complete it for every appointment"
+  - "Majority of Veterans linked the value of completing pre-checkin questions with the staff and providers ability to use the information"
+  - "All Veterans were able to complete the tasks without experiencing usability issues; however some were unclear on what exactly they were being asked to complete."
+  - "Majority of Veterans didn't mind reviewing Next of Kin and expected to review Emergency Contact; few Veterans were negatively triggered by being asked to review Next of Kin"
+  - "Some Veterans value completing pre- checkin tasks on desktops, particularly for those who who prefer larger screens."
+  - "Majority of Veterans seem to mistrust whether information gets updated across VA."
+  - "The need to fully authenticate was either a blocker or a motivator to completing pre check-in"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Clarify content to better set up expectations related to next of kin, authentication, and that they are completing 'pre checkin'."
+  - "Add emergency contact (review and eventually edit) into the pre-checkin experience"
+  - "Develop guidelines for how often we would like veterans to complete pre-checkin updates"
+  - "Evaluate staff-facing pre-checkin workflow, which may affect pre-checkin engagement in the long term"
+  - "Clearly explain where information gets updated across VA to better set up expectations for veteran, which may also help build trust"
+  - "Re-evaluate pre checkin being dependent upon confirmation and where it fits within the holistic appointment flow"
+  - "Better understand the authenticated experience and use cases to identify how best to set up expectations to fully authenticate when editing info."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
+opportunity_areas: []
+further_research_needed: []
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Veterans without a degree"
+  - "Veterans who identify as Latinx"
+  - "Veterans who identify as Biracial"
+  - "Veterans who identify as Asian"
+  - "Veterans who identify as Native"
+  - "Veterans who use assistive technology (AT)"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Miro"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- usability-testing
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: health-care-check-in"
+  - "MHV: Appointments"
+  - "usability-testing"
+  - "remote-research"
+  - "PRDT: login"
+  - "DSC: Modal"
+  - "HDW: Desktop"
+  - "DSP: Form Templates"
 ---
+
 # Pre-Checkin Usability Testing Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Check-in Experience**
