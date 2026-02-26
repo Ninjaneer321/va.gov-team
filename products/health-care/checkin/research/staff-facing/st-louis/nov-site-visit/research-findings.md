@@ -1,100 +1,121 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "St. Louis Research Visit Findings Nov. 2021 Research Findings"
+product: "Check-in Experience"
+team: "Check-in Experience"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-11-23"
+researchers: 
+  - "Kristen McConnell"
+  - "Julie Adair"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand the current check-in workflows at the Franklin County VA Clinic in Washington, Missouri"
+  - "Get feedback on pre-check-in, pre-registration, and staff indicators/alerts"
+  - "Evaluate St. Charles County VA Clinic in O'Fallon, Missouri as a potential pilot site"
 methodology:
-- Method 1
-- Method 2
+  - "Staff interviews"
+  - "Observational research"
+  - "Site visits"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 10
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 10
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 10
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 10
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Franklin utilizes VetLink and Teams messages to notify clinical staff that Veterans have arrived. St. Charles mostly used VetLink for these notifications and sent Teams messages as an extreme back-up."
+  - "St. Charles utilizes VetLink statuses throughout the entire appointment."
+  - "MSAs requested visual alerts be added to the new check-in solution. They want the alerts to remain on the screen until they are acknowledged."
+  - "Clinic managers are interested in understanding how long it takes a Veteran to go through each stage of an appointment."
+  - "Franklin and St. Charles MSAs don't update permanent addresses for Veterans. Phone, email, next of kin and emergency contact changes are most often made if the Veteran requests them."
+  - "MSAs do not have a way to determine a Veteran's preferred phone number."
+  - "Pre-check-in may occur at the same time as other appointment notifications, such as phone calls from LPNs. Staff commented that Veterans already receive too many appointment notifications, thus they ignore them."
+  - "All staff found it valuable to know when a Veteran completed pre-check-in, started check-in, and completed check-in via mobile check-in. They also wanted to know if they needed to review demographic or insurance information with the Veteran."
+  - "A routing sheet/cover sheet and medication list automatically print when a Veteran checks in. The MSA's workload greatly increases when this printing capability isn't working. The routing sheet serves multiple purposes for both the Veteran and provider."
+  - "The MSA Supervisor and Clinic Manager suggested that St. Charles might be a better pilot site due to better cell reception and a younger/more tech-savvy patient population."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Implement visual alerts for MSAs that require acknowledgement, so the messages aren't missed due to complex and busy environments."
+  - "Implement alerting for clinical staff, so they know a Veteran has checked in."
+  - "Explore ways to report on each phase of the appointment for clinic managers and administrators."
+  - "Create guidelines on the frequency that pre-registration information should be reviewed by Veterans."
+  - "Look into medication reconciliation and clinical reminders within the pre-check-in experience."
+  - "Look further into the rules and protocols around updating permanent addresses."
+  - "Add preferred phone capabilities for Veteran and staff."
+  - "Look into the current landscape of appointment notifications. - Look into notification preferences for pre-check-in data and appointment notifications."
+  - "For the short-term, review when pre-check-in links are sent compared to LPN phone calls. Make sure the two methods don't result in duplicate questions being asked to the Veteran."
+  - "Add \"pre-check-in complete,\" \"check-in started,\" \"check-in complete,\" \"demographics needs to be reviewed,\" and \"insurance needs to be reviewed\" statuses for MSA. Further evaluate the need for the \"pre-check-in started\" status."
+  - "Explore alternative solutions to automatic printing that meet the same needs as current printing."
+  - "Share co-pay information and number of weekly phone calls about lost medications with va.gov and mobile app teams working in those areas."
+  - "After visiting both locations, we agree that St. Charles might be the better pilot site. However, an alternative solution to printing and staff alerts are needed before either can become a pilot site."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Look into medication reconciliation and clinical reminders within the pre-check-in experience"
+  - "Look further into the rules and protocols around updating permanent addresses"
+  - "Look into the current landscape of appointment notifications"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Healthcare'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
+  - "AUD: VA Staff"
+  - "AUD: Clinicians"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "HDW: Kiosk"
+  - "HDW: Smartphone"
+  - "AUD: Internal VA Stakeholders"
+  - "semi-structured-interviews"
+  - "observational-research"
+  - "staff-facing-research"
 ---
+
 # St. Louis Research Visit Findings Nov. 2021
 **Office of the CTO- Digital Experience (OCTO-DE), Check-in Experience**
 
