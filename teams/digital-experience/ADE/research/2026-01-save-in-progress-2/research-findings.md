@@ -110,7 +110,7 @@ tags:
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 02/23/2026
+**Date:** 02/26/2026
 
 **Contacts:** Cindy Merrill
 
@@ -491,7 +491,11 @@ Eight participants said they wanted to be able to delete a form they started but
 
 ## Further research needed
 
-*Identify gaps in the current study and areas requiring additional investigation––such as demographics that were not included in this study.* 
+1. Any additional research should **include some participants who are 35 years old or younger**. The two such participants recruited for this study didn't show up.
+
+1. Any additional research should **include more participants who use screen magnification**. We would have had two more such participants if p2 had used her magnifier during the session, and if p12 had not had so many technical issues. 
+
+1. Consider checking analytics for the existing "Finish this request later" link on VA forms to see how much it's being used. Then see if changing this link to a button (as tested in this study) results in more clicks.
 
 
 ## Appendix
