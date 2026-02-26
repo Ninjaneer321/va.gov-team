@@ -4,15 +4,15 @@
 ## Test Case Documentation
 QA was performed manually by team members.
 * Test cases (Github - sensitive repo)
-* Test cases xls
+* _Test cases xls TK_
 
 
 ## Defect report
-- _TK -- will be ntoted in the findings table below and in the attached spreadsheet above._
+- _TK -- will be noted in the findings table below and in the attached spreadsheet above._
 
 ## Accessibility Staging Review Prep
 - [A11y Staging review prep doc](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/launch-materials/results-pg-2.0-a11y-staging-review-prep.md)
-- A11y ticket: TK
+- _A11y ticket: TK_
 
 ## Test URL
 The application can be accessed directly at https://staging.va.gov/discover-your-benefits/goals
@@ -22,7 +22,7 @@ For QA of the Discover Your Benefits (DYB) results page we will be performing QA
 
 ### Overview of Devices, Operating Systems & Browser
 
-We need to test all _n_ test cases across the devices, operating systems, and browsers outlined below. 
+We need to test all 8 test cases across the devices, operating systems, and browsers outlined below. 
 
 #### General Version-coverage Strategy
 - **Operating Systems:** Windows 2nd-latest; MacOS/iOS latest
