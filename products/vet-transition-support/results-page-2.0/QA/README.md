@@ -41,7 +41,7 @@ We need to test all _n_ test cases across the devices, operating systems, and br
 
 
 ### How We Will Test and Track
-1. Use the spreadsheet in Test Scenario section to document test cases, browser/os/device combos and pass/fail
+1. Use the spreadsheet in Test Case Documentation section to document test cases, browser/os/device combos and pass/fail
 2. Leverage browserstack (or similar) for browser/os/device combos we don't have access to as needed
 3. For any findings, team member will fill in a row for each item in the table below. 
 4. PM will create the needed ticket(s) to resolve finding, mark it in the Findings table below, and link it in the spreadsheet where the corresponding failure occurred.
