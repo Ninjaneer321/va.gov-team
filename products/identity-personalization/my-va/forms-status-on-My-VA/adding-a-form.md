@@ -1,56 +1,85 @@
-# Display Form Status for a non-Lighthouse Benefits Intake API Form
+# How to Add Form Submission Status to My VA (Any Form API)
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Form Status Card](#form-status-card)
-3. [Form Status Workflow](#form-status-workflow)
+2. [Start Here: Identify Your Scenario](#start-here-identify-your-scenario)
+3. [Form Status Card](#form-status-card)
+4. [Form Status Workflow](#form-status-workflow)
     - [High-Level Workflow](#high-level-workflow)
     - [`vets-api` Workflow](#vets-api-workflow)
-4. [Existing Pattern: Lighthouse Benefits Intake API Forms](#existing-pattern-lighthouse-benefits-intake-api-forms)
+5. [Existing Pattern: Lighthouse Benefits Intake API Forms](#existing-pattern-lighthouse-benefits-intake-api-forms)
+    - [How to Add a New Lighthouse Benefits Intake Form](#how-to-add-a-new-lighthouse-benefits-intake-form)
     - [Feature Toggle](#feature-toggle)
     - [List of Known Forms](#list-of-known-forms)
-5. [Begin Implementation for Non-Benefits Intake API Forms](#begin-implementation-for-non-benefits-intake-api-forms)
-    - [Initial Decisions](#initial-decisions)
-    - [Using `restricted_list_of_forms`](#using-restricted_list_of_forms)
-    - [Continue with the restricted approach](#continue-with-the-restricted-approach)    
-    - [Brand New Form API Connection](#brand-new-form-api-connection)
-    - [Restricted vs Unrestricted](#restricted-vs-unrestricted)
+6. [Implementing Form Status for a New Form API](#implementing-form-status-for-a-new-form-api)
+    - [Step 1 — Security Review](#step-1--security-review)
+    - [Step 2 — Determine if a Gateway & Formatter Already Exist](#step-2--determine-if-a-gateway--formatter-already-exist)
+    - [Step 3 — Existing Gateway Path (Restricted List)](#step-3--existing-gateway-path-restricted-list)
+    - [Step 4 — First Team for This Form API](#step-4--first-team-for-this-form-api)
+    - [Step 5 — Restricted vs Unrestricted](#step-5---restricted-vs-unrestricted)
     - [Unrestricted Implementation](#unrestricted-implementation)
-6. [Team Implementations Tracker](#team-implementations-tracker)
-7. [Other References](#other-references)
+7. [Team Implementations Tracker](#team-implementations-tracker)
+8. [Quick Implementation Checklist](#quick-implementation-checklist)
+9. [Other References](#other-references)
 
 
 ## Introduction
-Currently, we have two types of forms that are already able to show the Form Status:
+My VA currently supports showing the status of two categories of forms:
 - Online forms
 - Uploadable forms
 
-Forms can display **four statuses**:
+Forms display _only_ **four statuses**:
 
 1. **DRAFT**  
 2. **SUBMISSION IN PROGRESS**  
 3. **RECEIVED**  
 4. **ACTION NEEDED**
 
-> This guide covers statuses **2–4**, as **DRAFT** is handled by the Save-in-Progress (SiP) implementation.  
-> For more details, see the [SiP guide](https://depo-platform-documentation.scrollhelp.site/developer-docs/va-forms-library-how-to-set-up-save-in-progress-si).
+> This guide focuses on statuses **2–4**, as **DRAFT** is handled entirely by the Save-in-Progress (SiP) implementation.  
+> More details: [SiP guide](https://depo-platform-documentation.scrollhelp.site/developer-docs/va-forms-library-how-to-set-up-save-in-progress-si).
 
+
+### Start Here: Identify Your Scenario
+Use this guide to follow the correct implementation path for your form.
+If unsure which path to follow, please reach out to our team channel in OCTO Slack [#accountexp-authexp](https://dsva.slack.com/archives/C909ZG2BB).
+
+**Scenario A - Your form already uses Lighthouse Benefits Intake API**
+- Go to Section 5: [Existing Pattern: Lighthouse Benefits Intake API Forms](#existing-pattern-lighthouse-benefits-intake-api-forms)
+- You may only need to:
+  - Add the form ID
+  - Confirm FE includes it
+  - Check feature toggle behavior
+ 
+**Scenario B - Your Form API already has a Gateway & Formatter**
+- Go to Section 6: [Implementing Form Status for a New Form API](#implementing-form-status-for-a-new-form-api) -> [Step 3 — Existing Gateway Path (Restricted List)](#step-3--existing-gateway-path-restricted-list)
+- You likely only need to:
+  - Add your form ID
+  - Update/add tests
+  - Validate status mapping
+
+ **Scenario C - Your form is the first to use a brand-new Form API**
+ - Go to Section 6: [Implementing Form Status for a New Form API](#implementing-form-status-for-a-new-form-api) -> [Step 4 — First Team for This Form API](#step-4--first-team-for-this-form-api)
+ - You will need to:
+   - Create a Gateway
+   - Create a Formatter
+   - Register both in Report
+   - Decide restricted vs unrestricted 
 
 ### Form Status Card
-There are two title/heading display options for the status card, depending on whether the form is uploadable or has the SiP feature:
+Two card title options appear depending on whether the form is uploadable or uses SiP:
 
 | Uploadable Form | Form with SiP |
 |-----------------|---------------|
 | <img width="421" height="256" alt="Screenshot 2025-07-24 at 10 26 45" src="https://github.com/user-attachments/assets/712288b1-641e-4688-a392-e8379e35ccc0" /> | <img width="417" height="280" alt="Screenshot 2025-07-16 at 14 24 44" src="https://github.com/user-attachments/assets/cd963ee3-35ad-4c8a-9145-351555e73cd6" /> |
 
-- **Uploadable forms** use a fallback title: `"VA Form XX-XXXX"`  
-- **SiP forms** use the title defined in `vets-website` with a subheading: `"VA Form XX-XXXX"` (for details see [Instructions for teams, step 3](https://depo-platform-documentation.scrollhelp.site/developer-docs/va-forms-library-how-to-set-up-save-in-progress-si))  
+- **Uploadable forms** use a fallback header: `"VA Form XX-XXXX"`  
+- **SiP forms** use the form title defined in `vets-website` with a subheading containing the form number: `"VA Form XX-XXXX"` (for details see [Instructions for teams, step 3](https://depo-platform-documentation.scrollhelp.site/developer-docs/va-forms-library-how-to-set-up-save-in-progress-si))  
 
 
 ## Form Status Workflow
 
 ### High-Level Workflow
 
-> Refer to the [original diagram](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/7693b23eafaabac7c52a288ce89ae04d45972170/products/identity-personalization/my-va/form-status/backend_documentation.md#form-status-workflow) for a visual overview.
+> See the [original workflow diagram](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/7693b23eafaabac7c52a288ce89ae04d45972170/products/identity-personalization/my-va/form-status/backend_documentation.md#form-status-workflow) for a visual overview.
 
 
 ### `vets-api` Workflow
@@ -88,6 +117,40 @@ sequenceDiagram
 ----------------------------------------
 
 ## Existing Pattern: Lighthouse Benefits Intake API Forms
+
+These forms already follow a known backend pattern using:
+  - BenefitsIntakeGateway
+  - BenefitsIntakeFormatter
+  - FormSubmission
+
+### How to Add a New Lighthouse Benefits Intake Form
+
+If your form submits through the Lighthouse Benefits Intake API:
+
+#### Step 1 — Confirm submission is creating a FormSubmission
+
+It must include:
+- `benefits_intake_uuid`
+- `form_type`
+
+#### Step 2 — Ensure form ID is allowed
+
+If following restricted approach, add form ID to `restricted_list_of_forms`.
+
+If feature toggle `my_va_display_all_lighthouse_benefits_intake_forms` is enabled, nothing is required.
+
+#### Step 3 — Confirm FE includes the form ID
+
+Ensure the form ID exists in `VA_FORM_IDS`
+
+#### Step 4 - Test locally
+
+Check that:
+- The form card appears
+- Status is correctly mapped
+- The 60-day filter works
+
+Please reach out to our team in OCTO Slack [#accountexp-authexp](https://dsva.slack.com/archives/C909ZG2BB) if your form card requires different content than what automatically shows.
 
 ### Feature Toggle
 
@@ -137,71 +200,42 @@ sequenceDiagram
 
 > ⚠️ These forms need further investigation on why they're not showing a status card upon successful submission (https://github.com/department-of-veterans-affairs/va.gov-team/issues/117244)
 
-## Begin Implementation for Non-Benefits Intake API Forms
+## Implementing Form Status for a New Form API
 
-### Initial Decisions
+This section applies to any form that is not Lighthouse Benefits Intake or any team introducing a completely new Form API.
 
-Before implementation, discuss and answer the following:
+### Step 1 — Security Review
 
-- Show status for **all forms** in the new Form API or a restricted list?  
-- Use a **Flipper toggle**?  
-- Are you the **first form** for this Form API?  
-  - Existing Gateway & Formatter available?  
-  - Example: `BenefitsIntakeGateway` + `BenefitsIntakeFormatter`  
-- Do your form statuses **match the standard statuses**?  
-  - Map any different statuses in `vets-website/src/applications/personalization/dashboard/helpers.jsx` under `SUBMISSION_STATUS_MAP`.
+Platform Security requires teams to consult with them when adding a new API connection:
+  - If the new gateway is **inside vets-api**, attend office hours or request a PR review
+  - If the gateway pulls from **outside vets-api**, a full security checklist may be required. Contact Platform Security early
 
-> Depending on your answers, you will fall into one of two categories:
-> 1. **First form team for this API** (e.g., Form 21-0781 → Lighthouse Documents Intake API)  
-> 2. **Not the first form team** (follow existing restrictions or patterns)  
+> To contact Platform Security, use the `#vfs-platform-support` Slack channel.
 
----
+### Step 2 — Determine if a Gateway & Formatter Already Exist
 
-### Using `restricted_list_of_forms`
+If your Form API already has a Gateway and a Formatter -> Skip to Step 3
 
-To use this path, ensure the following exist:
-  ```
-       ✔️ Gateway matching your Form API
-    
-       ✔️ Formatter matching your Gateway
-   ```
+If not, you are the first team -> go to Step 4
 
-If your form status **does not appear** upon successful submission, the first team likely used the restricted approach.
+### Step 3 — Existing Gateway Path (Restricted List)
 
-You can continue with the same approach or discuss removing restrictions and allowing all forms for your Form API to show a status.
+If following restricted mode, add your form to `restricted_list_of_forms`
 
-### Continue with the restricted approach
+**Steps:**
+1. Add your form ID (e.g., 21-4138).
+2. Update/add Formatter/Gateway tests.
+3. Verify FE status mapping.
+4. Test locally to confirm the card displays.
 
-ℹ️ In our `app/controllers/v0/my_va/submission_statuses_controller.rb` we have a list of Allowed Forms.
 
-```ruby
-      def restricted_list_of_forms
-        %w[
-          20-10206
-          20-10207
-          21-0845
-          21-0972
-          21-10210
-          21-4142
-          21-4142a
-          21P-0847
-        ] + uploadable_forms
-      end
-```
-
-Implementation Steps:
-
-1.	Add your form ID (e.g., 21-4138) or ensure it’s in uploadable_forms.
-2.	Update or add tests in the respective Formatter/Gateway spec.
-3.	Test locally to confirm the form status card appears.
-
-### Brand New Form API Connection
+### Step 4 — First Team for This Form API
 
 ℹ️ Please refer to the diagram focused on the [`vets-api` Workflow](#vets-api-workflow) for a refresher on the flow/pattern you will be adding to.
 
 If no Gateway/Formatter exists for your Form API, congratulations! You get to be the first 🎉:
 
-1.	Create a Gateway to fetch status from your Form API.
+1.	Create a Gateway to fetch status
 2.	Add the newly created Gateway to `lib/forms/submission_statuses/report.rb`:
    - determine a service name, this will make sure the correct formatter is used for your data
 
@@ -221,7 +255,7 @@ If no Gateway/Formatter exists for your Form API, congratulations! You get to be
 Example input in `BenefitsIntakeFormatter`:
 
   ```ruby
-    # Submissions data froms from the FormSubmission query
+    # Submissions data from the FormSubmission query
     submissions = [
       {
         benefits_intake_uuid: "123",
@@ -244,7 +278,7 @@ Example input in `BenefitsIntakeFormatter`:
     ]
   ```
 
-Output format must match the following example structure:
+Output format _must_ match the following example structure:
 
 ```ruby
     [
@@ -271,18 +305,18 @@ Output format must match the following example structure:
       }.freeze
 ```
 
-5. Update/add tests and test locally to confirm the status card displays correctly.
-6. Test locally to confirm the form status card appears
+5. Update/add tests
+6. Test locally to confirm the form status card appears correctly
 
-### Restricted vs Unrestricted
+### Step 5 - Restricted vs Unrestricted
 
-You will still need to decide if you want to follow the [restricted (add to the list)](#using-restricted_list_of_forms) vs unrestricted (show all forms) approach.
+You can:
+- Continue with `restricted_list_of_forms`
+- Allow all forms by setting `allowed_forms: nil`
 
 #### Unrestricted Implementation
 
-If you have made the connection to your Forms API and don't use the restricted path, then the default will be to show all status for the forms of your Form API.
-
-This is possible by passing `nil` for `allowed_forms` in `app/controllers/v0/my_va/submission_statuses_controller.rb`:
+Set `return nil if display_all_forms?` in `forms_based_on_feature_toggle`
 
 ```ruby
       def show
@@ -323,6 +357,38 @@ If you are unable to edit this document to add your team's decisions, please let
 
 
 ----------------------------------------
+
+## Quick Implementation Checklist
+
+Lighthouse Benefits Intake Form
+- [ ] FormSubmission created with UUID + form_type
+- [ ] Form ID added to restricted list (if needed)
+- [ ] Form ID added to FE
+- [ ] Feature toggle verified
+- [ ] Tested locally
+- [ ] Any issues/unexpected results discussed with Authenticated Experience team (if applicable)
+
+⸻
+
+Existing Gateway Form API
+- [ ] Form ID added to restricted list
+- [ ] Status mapping checked in FE
+- [ ] Tests updated
+- [ ] Verified locally
+- [ ] Any issues/unexpected results discussed with Authenticated Experience team (if applicable)
+
+⸻
+
+New Gateway & Formatter
+- [ ] Platform Security consulted
+- [ ] Gateway created
+- [ ] Formatter created
+- [ ] Gateway registered in Report
+- [ ] Formatter registered in `FORMATTERS`
+- [ ] Restricted vs unrestricted decided
+- [ ] Full test coverage added
+- [ ] Verified locally
+- [ ] Any issues/unexpected results discussed with Authenticated Experience team (if applicable)
 
 
 ## Other References:
