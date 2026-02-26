@@ -9,6 +9,25 @@ In oracle_health_prescription_adapter.rb, this logic determines inactive status:
 
 We think/assume that VistA meds follow the same logic.
 
+## Logic for v2 statuses
+
+| Expired? | Expiration Window | Refills Remaining | V2 Status 
+|----------|-------------------|-------------------|-----------
+| No       | N/A               | Any               | **Active** 
+| Yes      | ≤120 days ago     | >0                | **Active** 
+| Yes      | ≤120 days ago     | 0                 | Inactive 
+| Yes      | >120 days ago     | Any               | Inactive[1:00 PM]### Additional Triggers to Inactive
+
+Even if expiration and refills would keep a medication Active, these MR.status values always force **Inactive**:
+
+| MR.status | Pre-V2 Status | V2 Status | Reason |
+|-----------|---------------|-----------|--------|
+| `on-hold` | `providerHold` | **Inactive** | Provider placed medication on hold |
+| `cancelled` | `discontinued` | **Inactive** | Prescription was cancelled |
+| `stopped` | `discontinued` | **Inactive** | Prescription was stopped |
+| `entered-in-error` | `discontinued` | **Inactive** | Data entry error |
+| `completed` | `expired` or `discontinued` | **Inactive** | Prescription completed (stop date reached) |
+
 ### Application to designs
 This indicates that a renewable med still falls under the active med status
 
