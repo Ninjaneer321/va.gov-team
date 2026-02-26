@@ -1,104 +1,125 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Profile Hub Research Findings"
+product: "VA.gov Profile"
+team: "Authenticated Experience Profile"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-11-06"
+researchers: 
+  - "Pam Drouin"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Evaluating the effectiveness of the Profile Hub page in helping people complete common tasks"
+  - "Evaluating how well the proposed navigation changes perform across participant types (sighted and AT) and screen sizes (desktop and mobile)"
+  - "Determining what additional information might be helpful to add to veterans' military information section"
+  - "Understanding to what extent veterans look in their authenticated menu for links to dependents and letters"
+  - "Identifying where within their profile veterans would expect to find emergency contact and next of kin information"
 methodology:
-- Method 1
-- Method 2
+  - "Remote usability testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 7
+    tablet: 0
+    smartphone: 2
+    assistive_technology: 2
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 1
+    "35-44": 2
+    "45-54": 3
+    "55-64": 3
+    "65+": 0
+    unknown: 0
+  education: 
+    high_school: 1
+    some_college: 1
+    associates: 1
+    bachelors: 3
+    masters: 3
+    doctorate: 0
+    unknown: 0
+  location: 
+    urban: 4
+    rural: 5
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 5
+    black: 2
+    hispanic: 2
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 3
+    AT_beginner: 1
+    AT_advanced: 1
+    screen_reader_desktop: 2
+    screen_reader_mobile: 0
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Nearly all participants were able to complete tasks effectively using the Profile Hub."
+  - "Participants were effectively split in how they navigated to their Profile. 4/9 participants used the authenticated menu, and 5/9 participants used the profile link on My VA."
+  - "Participants used a variety of methods for switching from one Profile section to another and navigating back to the Profile hub page."
+  - "Deep links such as the DD214 link are useful."
+  - "Participants also mentioned a few things that would be helpful in enhancing their Military information: duty stations, duty status (active, reserves), and deployment locations – ultimately anything that would help them apply for benefits or services."
+  - "Participants that used their authenticated menu for navigation had more success in finding links to dependents and/or letters than participants who weren't aware of their authenticated menu until prompted by the moderator."
+  - "Participants associated dependents and letters with their profile. 5/9 participants thought letters belonged in their profile, since letters are associated with them, and while not all participants had dependents, they thought their dependents information should be in their profile."
+  - "One screen reader participant encountered difficulty with the body and link text within the cards, the result of a combination of screen reader issues and repetitive word choices."
+  - "Participants expected their emergency contact and next of kin information to be in their profile."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - |
+    Iterate on the Profile hub's card content to make it easier for screen reader users to identify what is actionable/clickable. Given that 1/2 screen reader participants encountered difficulty with the same words being used for both the card description and the link, they should be iterated upon so it's more clear to screen reader users what is clickable and what is not.
+  - |
+    Given that all participants who were asked about where they'd expect to find their next of kin and emergency contact information specified their profile, it is logical to move that information into veterans' profiles. 8/9 participants (the session ran out of time for the lone participant) expected their information to be in their profile.
+  - |
+    Do further research into incorporating dependents and letters in some fashion into veteran profiles beyond the existing links to those pages. 5/9 participants thought letters belonged in their profile, and of the participants we were able to ask about dependents, one participant thought that information should be in their profile.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Veterans with no degrees"
+  - "Veterans with discharge that's other than honorable"
+  - "Veterans of immigrant origin"
+  - "Expat veterans"
+  - "Biracial veterans"
+  - "Asian veterans"
+  - "Native veterans"
+  - "LGBTQ+ veterans"
+  - "Mobile screen reader users"
+  - "Speech input technology users"
+  - "Hearing aids users"
+  - "Sighted keyboard users"
+  - "Captions users"
+  - "Switch device users"
+  - "Braille reader users"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "EnjoyHQ"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- remote-research
+  - "AUD: Veterans"
+  - "PRDT: VA.gov Profile"
+  - "PRDT: My VA"
+  - "usability-testing"
+  - "remote-research"
+  - "Accessibility"
+  - "AST: Screen readers"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "evaluative"
 ---
+
 # Profile Hub Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Profile Hub, Authenticated Experience Profile**
