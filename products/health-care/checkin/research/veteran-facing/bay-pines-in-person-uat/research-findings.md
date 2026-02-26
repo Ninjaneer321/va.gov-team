@@ -17,10 +17,10 @@ methodology:
   - "Observational research"
   - "Remote interviews"
 devices_used:
-    desktop: 0
-    tablet: 0
-    smartphone: 17
-    assistive_technology: 0
+  desktop: 0
+  tablet: 0
+  smartphone: 17
+  assistive_technology: 0
 participants_total: 17
 demographics:
   veterans: 17
@@ -30,11 +30,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age: 
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
     unknown: 17
   education: 
     high_school: 0
@@ -55,7 +55,6 @@ demographics:
     biracial: 0
     asian: 0
     native: 0
-    unknown: 17
   disability:
     cognitive: 0
     AT_beginner: 0
@@ -67,7 +66,6 @@ demographics:
     hearing_aids: 0
     sighted_keyboard: 0
     captions: 0
-    unknown: 0
 key_findings:
   - "A few clinics were not fully ready to use PCI due to conflicting communication or unresolved clinic-specific needs, e.g., routing slips."
   - "The kiosks were affecting the check-in experience for Veterans, e.g., using them, ignoring the check-in poster and thinking they're checked in. Additionally, too many choices at the point of check-in are creating confusion."
