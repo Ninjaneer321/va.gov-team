@@ -1,106 +1,178 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "MHV on VA.gov, Medical Records, May 2023 Research Findings"
+product: "MHV on VA.gov Medical Records"
+team: "MHV on VA.gov Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-06-13"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Anne Costello"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand if Veterans can locate their medical records"
+  - "Identify any usability issues Veterans may experience with accessing different parts of their medical records"
+  - "Identify what information is helpful to Veterans in finding different parts of their medical records"
+  - "Evaluate the usability of the print and download functions"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Prototype testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 10
+  tablet: 0
+  smartphone: 11
+  assistive_technology: 0
+participants_total: 21
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 19
+  service_members: 0
+  caregivers: 2
+  family_members: 1
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 2
+    "35-44": 3
+    "45-54": 2
+    "55-64": 5
+    "65+": 9
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 4
+    some_college: 8
+    associates: 2
+    bachelors: 3
+    masters: 3
+    doctorate: 1
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 21
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 14
+    black: 5
+    hispanic: 1
+    biracial: 1
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - |
+    Most participants (15 of 21) were able to find health information in more than 60% of the tasks without assistance.
+      a. Most participants were able to find health records in 'Lab and test results.'
+        1. Most participants (17 of 21) found the newest EKG record in 'Lab and test results.'
+        2. Most participants (13 of 21) identified the EKG as the newest based on the reverse chronological order of the records in 'Lab and test results.'
+        3. Most participants (15 of 20) found an x-ray result record from March 2022 in 'Lab and test results.'
+        4. Most participants (20 of 21) found their Complete Blood Count results from October 3, 2021 in 'Lab and test results.'
+      b. Most participants (11 of 20) were able to locate an admission and discharge summary in 'Care and summary notes.'
+      c. Most participants (16 of 17) were able to find the Allergies list.
+      d. All participants (20 of 20) found the date of the fall 2022 flu vaccine.
+      e. Most participants (14 of 20) found blood pressure readings in 'Vitals.'
+      f. Many participants (9 of 21) found the high blood pressure diagnosis date in 'Health conditions.'
+  - |
+    Most participants did not notice or expand the various informational dropdowns within the prototype.
+      a. Most participants (19 of 21) did not notice or expand the "What to know about [domain name]" informational dropdowns within the 7 domains. The two participants who did notice and/or click on it did so after completing multiple tasks.
+      b. Most participants (15 of 20) did not notice or expand the 'Need help understanding your results?' informational dropdown on the 'Complete blood count' results page. Among the 5 that did notice or expand the link, 2 completed multiple tasks prior to noticing or expanding the link.
+        1. Many (7 of 20) participants stated they use Google or other sources to understand their results.
+      c. Most participants (17 of 20) did not notice or expand the 'What to know about downloading records' informational dropdown within the 7 domains plus 'Share your medical record.' Among the 3 who did notice or expand the link, 1 completed multiple tasks prior to noticing or expanding the link.
+      d. Most participants (11 of 14) did not notice or expand the 'What your Blue Button report includes' informational dropdown on the 'Share your medical records' page. Among the 3 who did notice or expand the link, 1 completed multiple tasks prior to noticing or expanding the link.
+      e. Most participants (11 of 19) did not notice or expand the 'What we share through VHIE' informational dropdown and most participants (11 of 18) did not notice or attempt to select the 'Learn more about VHIE' link on the 'Share your medical records' page.
+  - |
+    Most participants understood how to download or print an individual record, a list, and their entire medical record.
+      a. Most participants (18 of 21) successfully downloaded the 'Complete blood count' results without assistance.
+        1. Most participants (19 of 21) chose PDF as the file format. One participant chose TXT and one did not answer the question.
+      b. All participants (20 of 20) successfully printed the list of vaccines without assistance.
+      c. Most participants (16 of 19) successfully printed the Penicillin record on the Allergies page without assistance.
+      d. Most participants (12 of 17) successfully downloaded the Blue Button report of all medical records on the 'Share your medical records' page without assistance.
+        1. All participants (5 of 5) who failed the task are current My HealtheVet users.
+  - |
+    Most participants (12 of 18) are unfamiliar with the term "Blue Button Report."
+      a. Most of those participants (8 of 12) who are unfamiliar with Blue Button are frequent MHV users.
+  - |
+    Most participants (12 of 16) were unable to find out how to add a new allergy to their list.
+      a. Most participants (9 of 16) expected to be able to share the new allergy with the VA on the 'Share your medical records' page.
+  - |
+    Most participants (13 of 21) listed blood pressure as one of the most important measures in 'Vitals.'
+      a. Many participants (6 of 17) listed blood pressure first in their suggested order of vitals.
+  - "Most participants (10 of 16) who successfully found the x-ray results stated access to images is helpful."
+  - "Most participants (11 of 21) accessed the \"Questions about this medical records tool\" to help them complete a task."
+  - |
+    Some participants (7 of 21) looked for medical records while in the Medical Records prototype.
+      a. Among those seven, 3 looked in 'Share your medical records' and 2 attempted to click on the 'Go back to medical records on My HealtheVet website.'
+  - |
+    Most participants (10 of 12) who were asked what they were trying to learn while viewing the 'Complete blood count' results stated they were checking to see if each result was within the standard range.
+      a. Most participants (12 of 21) wanted an explanation of the non-standard results.
+      b. Some participants (4 of 21) were interested in information on how they could get the out-of-range results back into range.
+  - "Most participants (13 of 21) stated they wanted the acronyms spelled out in the 'Complete blood count' results."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - |
+    Add "from newest to oldest" to the end of the pagination bar text in the list pages for all domains.
+      - This will help users quickly understand the sort order of their records so they can find them more quickly and easily.
+  - |
+    Remove the term 'Health history' and flatten the navigation so that all domains are visible on the left on desktop/laptop and in the 'In this section' menu on mobile.
+      - Veterans will be able to employ the principle of 'recognition rather than recall' thus reducing their cognitive load in searching for their medical records.
+  - |
+    Make the 'About VA medical records' a permanent landing page with 'Medical records' as the H1. Include links to all domains with content about what they contain with a layout similar to the Health History landing page.
+      - Veterans will be able to quickly find their records among the many options and be more likely to explore the new experience.
+      - Removing the term 'Share' from H1 will correct the confusion users may have about the functionality of the experience.
+  - |
+    Change the 'Download Blue Button report' button text to 'Download all records.' Place Blue Button branding in the introductory paragraph.
+      - This will help those who are not familiar with the term understand the button's function without confusing current My HealtheVet users.
+  - |
+    Remove 'What to know about [domain name]' additional information dropdowns from each domain page. Revise the content of the dropdown and placing it (expanded) at the top of the page. Place the general paragraph above the What to know about section.
+      - Making the domain-specific information more visible at the top of the page will assist Veterans in using each tool.
+  - |
+    Take 'Need help understanding your results' content out of the dropdown and make it a static alert.
+      - Veterans will be more likely to notice the information prior to reviewing their results and may be less likely to become alarmed about out-of-range results.
+  - |
+    Add an info icon next to the 'What to know about downloading records' informational dropdowns.
+      - The addition of the familiar icon will improve visibility.
+  - |
+    Replace 'Share your medical records' with two separate pages called 'Download all your medical records' and 'Medical records settings.'
+      - Separation will relieve any confusion about their functions and displaying all informational text will make it easier for Veterans to understand them.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Feasibility of adding full test name to the acronyms on chemistry and hematology"
+  - "Additional usability testing in Phase 0 - Assistive Technology"
+  - "Additional usability testing in Phase 0 - Content"
+  - "Desk research on search function"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Cognitive Disability"
+  - "Rural"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat"
+  - "Native American"
+  - "LGBTQ+"
+  - "Assistive Technology users"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: Caregivers'
-- 'MHV: Pharmacy'
-- 'MHV: Personal Health Records/Medical Records'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "MHV: Personal Health Records/Medical Records"
+  - "usability-testing"
+  - "remote-research"
+  - "moderated-research"
+  - "DSC: Button"
+  - "DSC: Additional info"
+  - "HDW: Smartphone"
 ---
+
   # **MHV on VA.gov, Medical Records, May 2023 Research Findings**
 
 **Office of the CTO - Digital Experience (OCTO-DE), MHV on VA.gov Team**
