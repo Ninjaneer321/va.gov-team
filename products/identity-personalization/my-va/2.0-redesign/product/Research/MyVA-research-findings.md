@@ -1,106 +1,121 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "MyVA Redesign Research Findings"
+product: "My VA"
+team: "VSA, Authenticated experience"
+office: "Digital Services Veterans Affairs (DSVA)"
+date: "2020-12-07"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Tressa Furner"
+  - "Cassandra Allen"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Determine if there is enough relevant information on the dashboard to be valuable"
+  - "Assess if users can quickly find the information they are looking for"
+  - "Evaluate if page structure (scrolling vs navigation) affects ease of visibility"
+  - "Test if users can easily access and understand personal updates (claims, health care, or forms)"
+  - "Determine how easily users can navigate to the sections they are looking for"
+  - "Compare if the new dashboard layout is more effective than the current MyVA page"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Preference test"
+  - "High-fidelity wireframe prototype testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 8
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 8
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 8
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 1
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    general_disability: 7
 key_findings:
-- Finding 1
-- Finding 2
+  - "Users preferred the prototype they saw first. As far as completing tasks efficiently - there was no clear 'winner'. Users were easily able to complete tasks/find information in both versions."
+  - "Users do not expect to see *all* their information on an overview page - they want to see any time-sensitive information or action items and all other details can live on a separate page."
+  - "Users found the information provided in the updates and other sections of the prototypes to be redundant."
+  - "Users did not understand the hierarchy of the information shown in the updates."
+  - "Overall, users said they would use the overview page and would find it useful."
+  - "Users easily understood the placement and link of the disability rating."
+  - "Users are looking to see any status changes to their claims."
+  - "Users would like to see what type of healthcare they are enrolled in (vision, dental, etc.)."
+  - "Participants wanted to see the facility that new messages were from, as well as the doctor's name."
+  - "Users wanted to see additional details concerning their appointments - specifically location details (i.e. address, telehealth etc) and type of medical practice (i.e. dermatology, primary care etc)."
+  - "Users were confused by the verbiage used in the prescriptions section."
+  - "Users did not know if the benefits shown in the 'Benefit applications' section were suggestions from the VA, forms they had already started, or forms they needed to fill out."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Pursue a direction that shows users set information about their benefits/health care each time they come to the site to reduce the redundancy of information shown."
+  - "Compile all 'updates' into each specific subcategory instead of having a dedicated 'updates' section."
+  - |
+    Add some more information in each section where possible. The minimum is outlined below.
+    - Claims needs title, date and status
+    - Messages needs sent from (name), sent from (clinic), date, subject
+    - Appointments needs appointment type, medical practice type, location, location details date, time, contact information
+  - "Work with copy to update verbiage around prescriptions and 'Go to all' links."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Excel"
+  - "Mural"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "PRDT: My VA"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "MHV: Appointments"
+  - "MHV: Secure Messaging"
+  - "MHV: Pharmacy"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
 ---
+
 # MyVA Redesign Research Findings 
 **Digital Services Veterans Affairs (DSVA), VSA, Authenticated experience**<br>
 
