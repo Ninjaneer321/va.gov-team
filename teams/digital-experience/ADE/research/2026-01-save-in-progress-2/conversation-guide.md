@@ -45,7 +45,7 @@ tags:
   - "DSC: Alert Boxes"
 
   # Design system patterns being evaluated (save/resume, auth, contact fields)
-   - "DSP: Ask users for names"
+  - "DSP: Ask users for names"
   - "DSP: Ask users for phone numbers"
   - "DSP: Ask users for email address"
   - "DSP: Notifications"
