@@ -1,102 +1,140 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Pre-Checkin Usability Testing Research Findings"
+product: "Check-in Experience"
+team: "Check-in Experience"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-08-01"
+researchers: 
+  - "Nira Datta"
+  - "Ya-ching Tsao"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Gather feedback on the pilot release of Spanish content and the language toggle from Veterans through remote usability testing"
+  - "Understand Spanish-speaking Veterans' perception of pre-check-in and check-in experience"
+  - "Validate if the translated Spanish content meets plain language standards"
+  - "Review the current toggle design pattern and test the new toggle design"
+  - "Ensure the translated experience meets plain language standards for Spanish-speaking Veterans"
+  - "Understand the current check-in experience of Spanish-English bilingual veterans and their family members"
+  - "Identify suitable toggle design for partially translated content (not site-wide)"
+  - "Gather user feedback about simplified header and footer"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated sessions"
+  - "Semi-structured interviews"
+  - "User feedback on translated Spanish content"
+  - "Impression testing"
+  - "Usability testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 11
+    assistive_technology: 0
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 11
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 11
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 11
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 11
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 11
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Most bilingual Veterans do not have a preference for Spanish or English content. However, some mentioned they prefer English because it is more precise and easy."
+  - "There are even differences between the cultures and languages in the Spanish regions."
+  - "The needs for Spanish content/service are not met."
+  - "Less assistance checking in with Spanish with MSA or kiosk."
+  - "The possible background of LEP Veterans. (second hand story)"
+  - "Good care is less accessible because of the language gap. (second hand story)"
+  - "Tech using habits of bilingual Veterans."
+  - "High satisfaction rating on check-in / pre-check-in experience. However, some interaction issues were found."
+  - "Interaction Design issues that could also happen for general users"
+  - "Bilingual Veterans have concerns about the consistency of Spanish and English when navigating the website."
+  - "High rating on overall clarity, but translation issues identified."
+  - "The translation of check-in and pre-check-in seems to be confusing."
+  - "There are some possible translation issues to look into because of Spanish difference."
+  - "For those who need the language switch, they prefer to have it on top because it's is easier to notice."
+  - "If a new language function is available on the VA website, Veterans want to have additional marketing methods, such as emails or texts."
+  - "Current version - a toggle above H1: clear and takes less clicking"
+  - "The design with a notification on the top and a language switch at the bottom least preferred because it is confusing."
+  - "The language switch as the subheader: noticeable, big, and takes less clicks."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Different VA facilities should have different Spanish prioritization based on the demographic."
+  - "Provide more Spanish content and services in the future and keep improving the Spanish experience."
+  - "Enable Veterans to edit their information when doing mobile check-in or pre-check-in."
+  - "Remove the refresh button on the check-in appointment list, and make the page refresh automatically."
+  - "Document user feedback and review them with a translator."
+  - "Share with the Sitewide Content team what roles are interested in translation and multilingual Veterans."
+  - "Improve the hierarchy and visual of the current language switch design to make it noticeable."
+  - "Explore where to place the language switch (on the top, or both on the top and at the bottom of the page) with the user groups that are not representative in this study, such as monolingual Veterans"
+  - "Explore a further simplified header to reduce Veterans leaving workflows like check-in."
+  - "Reimagine the 'Need help' portion and the footer to provide essential information for Veterans."
+  - "Provide marketing materials about the language switch."
+  - "Explore the content needs in other languages."
+  - "Share all findings and information with the Platform Design System team."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Need for Spanish content and services not being met"
+  - "Less assistance available for Spanish speakers when checking in with MSA or kiosk"
+  - "Language gap affecting accessibility of good care for LEP Veterans"
 further_research_needed:
-- Area 1
-- Area 2
+  - "Explore language switch placement with monolingual Veterans and other user groups not represented in this study"
+  - "Explore content needs in other languages"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Monolingual Spanish-speaking Veterans"
+  - "Veterans who speak languages other than Spanish and English"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "HDW: Smartphone"
+  - "DSP: Content Presentation"
+  - "PRDT: Content"
+  - "evaluative"
 ---
+
 # Pre-Checkin Usability Testing Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Check-in Experience**
