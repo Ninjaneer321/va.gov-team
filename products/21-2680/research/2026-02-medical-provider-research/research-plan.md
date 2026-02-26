@@ -482,7 +482,7 @@ Any weekday between 12ET and ending before 6ET.
 > [!NOTE]
 > **Please do not include email addresses in this section.** In the Slack study channel, send an email and primary phone number for the moderator. Also send emails for the notetaker and any accessibility accommodations needed.
 
-- **Moderator/Interviewer:** [Enter full name]
+- **Moderator/Interviewer:** Elyse Voegeli, Dave Luetger
 - **Note-taker:** [Enter full name or designate Perigean]
 - **Observers / Shadow Participants** (1–2 people):
   - [Enter full name]
