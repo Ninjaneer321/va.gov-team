@@ -240,6 +240,44 @@ I need help completing the YAML frontmatter section at the top of my research fi
     - If accessibility was a major focus with specific findings, include accessibility tags
     - Explain in your rationale why you selected these 10 over others
 
+14. **PROPERLY ESCAPE QUOTES IN YAML STRINGS**
+    - When a finding or recommendation contains quotation marks (e.g., participant quotes, phrases in quotes, or apostrophes), you MUST properly escape them for YAML
+    - Use ONE of these three methods:
+      
+      **Method 1: Use literal block scalar (|) for multi-line or complex strings with quotes**
+      ```yaml
+      key_findings:
+        - |
+          Veterans said "I don't trust entering my bank info online" when asked about security concerns
+      ```
+      
+      **Method 2: Escape double quotes with backslash when using double-quoted strings**
+      ```yaml
+      key_findings:
+        - "Veterans said \"I don't trust entering my bank info online\" when asked about security concerns"
+      ```
+      
+      **Method 3: Use single quotes and double any internal single quotes**
+      ```yaml
+      key_findings:
+        - 'Veterans said "I don''t trust entering my bank info online" when asked about security concerns'
+      ```
+    
+    - **CRITICAL: Choose the appropriate method based on the content:**
+      - Use **Method 1 (literal block scalar |)** for findings/recommendations with multiple quotes, subpoints, or complex formatting
+      - Use **Method 2 (escaped double quotes)** for simple single-line strings with quotes
+      - Use **Method 3 (single quotes)** for strings with participant quotes but no apostrophes
+    
+    - **Common quote scenarios to watch for:**
+      - Participant quotes: "One Veteran said, 'I can't find the form'"
+      - Phrases in quotes: The term "routing number" confused participants
+      - Apostrophes: Veterans can't, don't, won't
+      - Contractions: We're, it's, they've
+      - Possessives: Veteran's account, users' feedback
+    
+    - **Test your YAML:** Ensure the output is valid YAML that can be parsed without errors
+    - **When in doubt:** Use literal block scalar (|) - it handles all quote types safely
+
 Please analyze the content of my research findings report and generate a complete frontmatter section based on the following structure:
 
 **Research Findings Metadata:**
