@@ -73,15 +73,15 @@ key_findings:
   - "Confusion exists, for various reasons, among Veterans and MSAs on the difference between pre-check-in and check-in."
   - "MSAs from a few clinics and one Veteran thought that adding travel reimbursement to check-in would be valuable."
   - "The current travel reimbursement process for Veterans is complex due to nuances in how BTSSS works, eligibility criteria (e.g., community care vs. VA clinic appointments), claim review process, etc."
-  - "Travel assistants recommend avoiding the inclusion of options in the travel reimbursement experience for Veterans that likely lead to a denial of reimbursement, such as "Other" fields, VTS and carpool."
+  - 'Travel assistants recommend avoiding the inclusion of options in the travel reimbursement experience for Veterans that likely lead to a denial of reimbursement, such as "Other" fields, VTS and carpool.'
   - "Many Veterans prefer checking in with MSAs, and that's okay, while others preferred the kiosks because they're a larger screen and easier to see."
   - "MSAs and one clinician confirmed feedback we've previously heard about the staff-facing applications; many of which are being addressed. E.g., adding last four, too much of a delay, etc."
   - "MSAs pointed out new feedback about the staff-facing applications. E.g., no shows not working, walk-ins not working, sort within each clinic/group, etc."
 recommendations:
-  - "Add a "check in now" message from VeText/CHIP delivered 30 minutes before the appointment."
+  - 'Add a "check in now" message from VeText/CHIP delivered 30 minutes before the appointment.'
   - "Test a stepped form design for check-in with Veterans as a way to better communicate the remaining steps."
   - "Add a link on the pre-check-in confirmation page for Veterans to learn about how to check in on the day of their appointment."
-  - "Explore new naming convention for "pre-check-in" that doesn't include "check-in." Specifically, draft new ideas and document usage across Veteran and staff-facing applications. Consider having stakeholders and Veterans review and react to top ideas for new naming conventions."
+  - 'Explore new naming convention for "pre-check-in" that doesn''t include "check-in." Specifically, draft new ideas and document usage across Veteran and staff-facing applications. Consider having stakeholders and Veterans review and react to top ideas for new naming conventions.'
   - "Explore creating a test to send a pre-check-in reminder text (via VeText/CHIP), if not completed."
   - "As kiosks are removed, migrate remaining functionality into PCI, to the extent possible, especially as a way to improve the value of pre-check-in for Veterans, which will also help distinguish it from check-in."
   - "Introduce travel reimbursement into PCI for Veterans to quickly file a claim during check-in."
@@ -94,7 +94,7 @@ recommendations:
   - "Evaluate and prioritize all new feedback mentioned by MSAs about staff-facing applications. E.g., no shows not working, multiple windows in VSE, walk-ins not working and sort within each clinic/group, etc."
   - "Explore adding appointment time to CHIP response when Veteran is too early for check-in."
   - "Explore adding information related to being too late for check-in to CHIP response when Veteran is too late for check-in."
-  - "Explore removing, "We're sorry," from CHIP response when a Veteran needs their health insurance reviewed to avoid possible Veteran concern or frustration."
+  - 'Explore removing, "We''re sorry," from CHIP response when a Veteran needs their health insurance reviewed to avoid possible Veteran concern or frustration.'
 kpi_alignment: []
 outcomes:
   user: "Not specified in report"
