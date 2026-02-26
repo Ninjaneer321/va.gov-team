@@ -21,6 +21,7 @@ demographics:
   veterans: 16
   service_members: 2
   caregivers: 1
+  family_members: 2
   dependents: 0
   VA_staff: 0
   age:
