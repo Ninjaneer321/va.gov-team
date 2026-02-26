@@ -73,7 +73,9 @@ Before we start, I have a few quick things to go over:
 - **We want your honest opinions.** There are no right or wrong answers, and we’re not evaluating you or your performance.
 - **Participation is voluntary.** You can skip any question or stop at any time.
 
+
 - **Are you comfortable if I record audio (and my screen if needed) as we talk today?** We use recordings to confirm we captured your feedback accurately. We’ll summarize learnings without attributing them to you personally.
+- **I'll also ask that during today's session, please do not share any Veteran PII.** We will be sharing this recording with people external to the VA and need to ensure we protect Veteran's information.
 
   <mark>**[Record answer here]**</mark>
 
@@ -198,6 +200,11 @@ Think of a recent situation you remember well (no personal details needed). A Ve
 > - Lack of status visibility after handoff
 > - Inconsistent paths or “it depends” rules
 > - Missing info that causes rework
+
+---
+# ID.me: Questions from ID.me folks - 5-10 minutes
+
+I'd like to pause here to see if any of the ID.me folks that are on the call today would like to ask any questions.
 
 ---
 
