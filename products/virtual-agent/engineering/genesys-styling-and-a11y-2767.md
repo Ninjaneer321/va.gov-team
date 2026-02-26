@@ -229,10 +229,11 @@ TYPING INDICATOR ACTIVE
 TYPING INDICATOR TOGGLE
 
 <img width="350" height="148" alt="Image" src="https://github.com/user-attachments/assets/411c1da4-42f1-4003-a127-ce6feb94a2fe" />
+
 ## Diacritics
 
 - Diacritics are enabled. Is there any way to disable them? Not sure if they can impact anything during logging etc.
-- <img width="393" height="201" alt="image" src="https://github.com/user-attachments/assets/87cf42d4-fe79-48ef-809a-877c0dc75792" />
+<img width="393" height="201" alt="image" src="https://github.com/user-attachments/assets/87cf42d4-fe79-48ef-809a-877c0dc75792" />
 
 ## Other notes and issues
 
