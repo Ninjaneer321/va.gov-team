@@ -1,100 +1,119 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Healthcare Experience Initiative Prioritization Research Findings"
+product: "Healthcare Experience - Questionnaires"
+team: "Not specified"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-08-01"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Aricka Lewis"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Gain Veteran input on which healthcare questionnaires to prioritize for our team"
 methodology:
-- Method 1
-- Method 2
+  - "Moderated card sort sessions"
+  - "Mockup feedback sessions"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 0
+    "55-64": 0
+    "65+": 1
+    unknown: 6
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 8
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "We are heading in the right direction with the \"Reason for visit\" questionnaire."
+  - "7 out of 8 Veterans sorted the \"Top concerns/goal for visit\" card into the \"fill out ahead of time\" category."
+  - "Veterans used the \"unsure/not applicable\" category when questions didn't apply to them or when they assumed the VA would already have the information."
+  - "Veterans assume that the VA has their background information."
+  - "Veterans assumed that the text fields on the mockup were related."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - |
+    Continue forward with Reason for visit questionnaire
+    - Prioritize questionnaires for topics that were sorted highly in the "fill out ahead of time" category
+    - E.g. Medications, Allergies
+  - |
+    Consider pre-populating known background information on forms
+    Examples:
+    - Family medical history
+    - Tobacco and alcohol use
+    - Veteran bio
+  - |
+    Explore a logged-in medical profile experience
+    - How might we centralize all known Veteran health information?
+    - Editable information that gets sent to provider
+  - |
+    Consider time-sensitive experiences for sensitive questions
+    - Day of updates for suicide/depression
+  - "Create visual separation between the reason for visit text fields"
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Understanding which questions are time sensitive or should be asked each visit (e.g. suicide/depression or physical activity)"
+  - "Explore the idea of a health profile with the option to edit background information"
+  - "Create visual separation between the two boxes to better illustrate their intention"
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Card sort results (Optimal Workshop)"
+  - "Session analysis spreadsheet"
 tags:
-- 'BNFT: Healthcare'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- moderated-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "DSC: Form"
+  - "DSC: Form - Text Area"
+  - "DSP: Content Presentation"
+  - "card-sort"
+  - "moderated-research"
+  - "evaluative"
+  - "discovery"
 ---
+
 # Healthcare Experience Initiative Prioritization Research Findings
 
 **Prepared by:** Aricka Lewis (aricka@adhocteam.us)<br>
