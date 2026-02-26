@@ -1,104 +1,124 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "MHV on VA.gov, Secure Messaging, September 2023 Research Findings"
+product: "Secure Messaging (My HealtheVet on VA.gov)"
+team: "Not specified"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-10-06"
+researchers: 
+  - "Anne Costello"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Identify major usability or content issues with the current state of Secure Messaging in MHV on VA.gov."
+  - "Identify major usability issues with messaging, message threads, filtering messages, and draft components."
+  - "Identify any barriers that may prevent Veterans who use screen-readers and text-magnifiers from completing their secure messaging goals."
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Live staging website navigation"
+  - "Behavioral observation"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 7
+  tablet: 1
+  smartphone: 9
+  assistive_technology: 7
+participants_total: 17
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 17
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 1
+    "35-44": 5
+    "45-54": 6
+    "55-64": 3
+    "65+": 2
+    unknown: 0
+  education: 
+    high_school: 0
+    some_college: 3
+    associates: 3
+    bachelors: 6
+    masters: 4
+    doctorate: 0
+    unknown: 1
+  location: 
+    urban: 11
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 11
+    black: 4
+    hispanic: 2
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 8
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 2
+    screen_reader_mobile: 2
+    magnification_zoom: 3
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Most participants (14 of 17) expressed positive feedback about the Landing page."
+  - |
+    All participants (17 of 17) composed and sent a Secure Message to a specific provider.
+      a. Most participants (13 of 15) recognized that the message was sent successfully.
+      b. Most participants (6 of 11) correctly identified where sent messages could be found.
+  - |
+    Many participants (7 of 15) did not recall the content of the patient safety interstitial.
+      a. Most participants (10 of 13) expressed either a positive or neutral attitude toward the interstitial.
+  - |
+    Most participants (15 of 17) understood the concept of a message thread and could identify the number of messages it contained.
+      a. Most participants (12 of 15) were able to distinguish between read and unread messages within a thread.
+      b. All participants (10 of 10) who were tasked with finding a message with an attachment within a thread were successful.
+  - "All participants (16 of 16) successfully located the 'reply' button."
+  - |
+    Most participants (14 of 16) successfully attached and removed a document within a secure message.
+      a. Some participants (6 of 16) could not confirm that the document was successfully attached.
+  - |
+    Half the participants (7 of 14) immediately used the filter feature when asked to find a specific message.
+      a. Many participants (6 of 14) expected to use multiple search terms.
+      b. Many participants (6 of 14) used the advanced filter feature.
+  - "All participants (11 of 11) who were asked to open a draft of a previous message were successful."
+  - |
+    Most participants (14 of 16) stated they would select the 'Save draft' button when asked about saving their message for later.
+      a. Most participants (8 of 15) did not identify the 'Autosave' feature.
+      b. Most participants (9 of 15) would still use the 'Save draft' button even after being informed of the autosave feature.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Add a dismissible success banner above the file name in the attachments section of new messages/replies. This will provide Veterans with the type of visual cue they are accustomed to across MHV."
+  - "Keep the 'Save draft' button and modify the autosave message to include 'saved to drafts.' The button gives Veterans who are unfamiliar with or untrusting of the autosave feature the confidence that their draft has been saved. By adding 'saved to drafts,' they will know in what folder to look if they return to continue the draft later."
+  - "Consider improving the accessibility of the 'categories' on the 'Send a Secure Message' page by implementing a labeling system that indicates them as \"button 1 of 6\" or a similar identifier for better navigation."
+  - "Consider keeping focus on success message until screen reader/voiceover has read it in its entirety to enhance accessibility."
+  - "Consider investigating methods to provide screen-readers with a more distinct and effective means of detecting unread messages."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Patient Safety Interstitial"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Caregivers'
-- 'MHV: Secure Messaging'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Secure Messaging"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "Accessibility"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "evaluative"
 ---
+
 # **MHV on VA.gov, Secure Messaging, September 2023 Research Findings**
 
 **Office of the CTO - Digital Experience (OCTO-DE)**
