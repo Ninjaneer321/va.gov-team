@@ -91,10 +91,7 @@ kpi_alignment: []
 outcomes:
   user: "Not specified in report"
   business: "Not specified in report"
-opportunity_areas:
-  - "Replace fillable PDF forms with HTML/web forms for better accessibility across all platforms and devices"
-  - "Improve cross-platform compatibility for form filling and digital signatures"
-  - "Enhance discoverability and comprehension of PDF download instructions"
+opportunity_areas: [] 
 further_research_needed: []
 underserved_groups_missing:
   - "Identify as Hispanic, Asian, or LGBTQ+"
@@ -106,15 +103,13 @@ secondary_research:
   - "Web analytics"
 synthesis_tools_used:
   - "Mural"
-  - "Spreadsheet analysis"
-  - "Quantitative analysis"
+  - "Synthesis spreadsheet"
+  - "Quantitative analysis with analytics data"
 tags:
   - "AUD: Veterans"
   - "AUD: Family Member"
   - "PRDT: Find-a-va-form"
   - "DSC: Alert Boxes"
-  - "DSC: Links"
-  - "DSC: Form"
   - "DSP: Ask users for signature"
   - "HDW: Desktop"
   - "HDW: Tablet"
@@ -123,8 +118,6 @@ tags:
   - "usability-testing"
   - "remote-research"
   - "moderated-research"
-  - "BNFT: Healthcare"
-  - "BNFT: Disability"
 ---
 
 # Find a Form PDF Downloading Usability Research Findings 
