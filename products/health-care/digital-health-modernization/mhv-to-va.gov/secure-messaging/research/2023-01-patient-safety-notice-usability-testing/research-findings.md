@@ -1,104 +1,142 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "2023-01 Patient Safety Notice Usability Testing Research Findings"
+product: "Secure Messaging (MHV integration to VA.gov)"
+team: "HMI Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-02-14"
+researchers: 
+  - "Anne Costello"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Identify Veterans' tolerance for the interstitial screen"
+  - "Identify any usability issues with the patient safety message flow"
+  - "Measure Veterans' understanding of when using Secure Messaging is appropriate"
+  - "Measure Veterans' understanding of the mental health help available"
 methodology:
-- Method 1
-- Method 2
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 12
+  tablet: 1
+  smartphone: 6
+  assistive_technology: 0
+participants_total: 19
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 19
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 3
+    "45-54": 3
+    "55-64": 6
+    "65+": 7
+    unknown: 0
+  education: 
+    high_school: 0
+    some_college: 4
+    associates: 3
+    bachelors: 3
+    masters: 6
+    doctorate: 3
+    unknown: 0
+  location: 
+    urban: 15
+    rural: 4
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 14
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    prefer_not_to_answer: 1
+    prefer_to_self_describe: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 7
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - |
+    All participants (19 of 19) were able to accurately describe the purpose of the interstitial page when they reached the Compose message screen.
+    - Most participants (13 of 19) read aloud and/or hovered their cursor over the text on the interstitial.
+  - |
+    All participants (19 of 19) were able to identify when secure messaging would be the most appropriate means of communication.
+    - Most participants (16 of 18) pointed out the statement, "Your care team may take up to 3 days to reply."
+    - All participants (18 of 18) expected that response times would be at least one to two business days while citing their own positive experiences in receiving responses in much less time.
+  - |
+    Participant responses to the statement "If you think your life or health is in danger," and the link to 911 were divided.
+    - Many participants (9 of 19) said they feel the statement and link are helpful.
+    - Many participants (9 of 19) said they feel the statement and link are not helpful, stating that it is common knowledge and that they hear it too often.
+      - 7 of those 9 said the statement is an insult to their intelligence.
+      - 2 of 9 did not understand how the link to call would function on a laptop/desktop and based its helpfulness on that.
+      - One participant was unsure if the statement and link were helpful.
+  - |
+    All participants (19 of 19) said they felt the statement, "If you're in crisis or having thoughts of suicide" and the VCL link are helpful.
+    - Some participants (6 of 19) requested access to a non-crisis mental health line for Veterans.
+  - "Many participants (10 of 18) tolerated the interrupted flow."
+  - "Most participants (13 of 19) preferred 'Only use messages for non-urgent needs' to 'Don't use messages for urgent needs.'"
+  - |
+    Many participants (10 of 19) cited text and action link sizes as pain points.
+    - Several participants (6 of 19) felt the action link for "Continue to message" was too small and difficult to find on the page.
+    - Several participants (7 of 19) stated that the H2 header text was too large. 4 of those 7 were viewing it on mobile and complained of the need to scroll.
+  - "Most participants (13 of 16) stated that keeping the banner with the full safety message dropdown on the 'Compose message' screen is helpful."
 recommendations:
-- Recommendation 1
-- Recommendation 2
+  - |
+    Keep the interstitial as part of the secure messaging flow with the following requirements and or changes:
+    Interstitial page:
+    - Use "Only use messages for non-urgent needs" as H1 header.
+    - Remove H2 headers and redesign for better hierarchy and usability.
+    - Place "If you are in crisis..." link before the "If you think your life..." link on the page.
+    - Change "Continue to start a message" to a primary button.
+    Start a new message screen:
+    - Keep the "Only use for non-urgent needs" banner and informational dropdown.
+    - Place "If you are in crisis..." link before the "If you think your life..." link on the informational dropdown.
+  - "Include the word 'secure' on the Messaging landing page and in the success banner that follows a sent message."
 kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Veterans can manage their health services online"
+  - "Veterans and their families can find a single, authoritative source of information"
+  - "Logged-in users have a personalized experience, with relevant and time-saving features"
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not explicitly specified in findings report"
+  business: "Not explicitly specified in findings report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Test the new designs during Phase 0"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Other than honorable"
+  - "Expat (living abroad)"
+  - "Identify as Latinx"
+  - "Identify as Biracial"
+  - "Identify as Asian"
+  - "Identify as Native"
+  - "Identify as Transgender"
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Caregivers'
-- 'MHV: Secure Messaging'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Secure Messaging"
+  - "usability-testing"
+  - "moderated-research"
+  - "remote-research"
+  - "DSC: Alert Boxes"
+  - "DSP: Contextual Help"
+  - "DSP: Content Presentation"
+  - "Accessibility"
 ---
+
 # 2023-01 Patient Safety Notice Usability Testing
 
 ## **Research Findings**
