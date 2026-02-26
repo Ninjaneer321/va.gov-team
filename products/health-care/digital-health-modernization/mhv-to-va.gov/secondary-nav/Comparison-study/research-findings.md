@@ -1,105 +1,127 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "My Healthevet Secondary Navigation Comparison Study Research Findings"
+product: "My HealtheVet on VA.gov"
+team: "Cartography Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2024-02-12"
+researchers: 
+  - "Jonathan Nelson"
+  - "Sara Sterkenburg"
+  - "Florence McCafferty"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Evaluate a new navigation strategy that prioritizes easy access to the four primary health tools only. Determine whether this strategy is successful in helping users find and complete most health-related tasks within the My HealtheVet portal."
+  - "Design the navigation to deliver a dual purpose of offering users a strong 'sense of place' for My HealtheVet, to clarify that it is a comprehensive health portal within VA.gov."
+  - "Determine whether we have solved known issues with VA.gov's collapsed navigation on mobile (the 'in this section' component), or if Veterans require persistent, visible options to understand navigation."
 methodology:
-- Method 1
-- Method 2
+  - "Remote usability testing"
+  - "Prototype testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 8
+    tablet: 0
+    smartphone: 8
+    assistive_technology: 1
+participants_total: 16
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 16
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 1
+    "35-44": 0
+    "45-54": 5
+    "55-64": 4
+    "65+": 6
+    unknown: 0
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 16
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 16
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 11
+    black: 4
+    hispanic: 1
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 5
+    AT_beginner: 1
+    AT_advanced: 2
+    screen_reader_desktop: 1
+    screen_reader_mobile: 1
+    magnification_zoom: 2
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "The persistent link navigation was found to be successful in creating an improved UX"
+  - "The navigation bar helps participants quickly understand where they are and what they can do there"
+  - "Even with improvements, collapsed secondary nav elements continue to fail our mobile users"
+  - "8/8 mobile participants found the persistent link nav to be \"easier\" and/or more \"direct\" than the collapsed menu"
+  - "Tools at the bottom of the landing page are not easy enough to find"
+  - "Entering My HealtheVet through a side door was surprising to some participants"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - |
+    Implement a persistent link secondary nav bar on My HealtheVet including needed changes that were surfaced as part of this research
+    
+    This is easy to do (or even a given) on desktop. The place where it is not a given or less expected is mobile, which is where it is also more necessary.
+    
+    Problems to address with the persistent link nav:
+    - My HealtheVet link text did not appear clickable to participants
+    - Screen reader pronounced abbreviations phonetically (already addressed through improved A11y coding)
+    - During the study, participants could not use the nav bar to know where they currently are within My HealtheVet (this affordance or feature was not added to the prototypes)
+  - |
+    Enable Veterans to more easily and quickly come across the harder-to-find health management tools
+    - The landing page needs to surface hard-to-find content much higher on the page and de-prioritize tools that are repetitive to the links within the new secondary nav.
+    - Other tool landing pages may need to offer cross-link references to those tools as well to make them easier to find when a Veteran is most likely to be looking for them.
+    
+    We need to do some discovery work around:
+    - How best to surface tools / affordances that do not fit into the 4 primary tools
+    - Identifying opportunities to cross-link tools/tasks that are not named in the navigation bar
+    - Uncovering tasks that are more difficult to find using this secondary nav strategy, and conducting research to understand where users would expect to find them
+  - |
+    When it does not damage expectations and UX, help Veterans orient themselves by guiding them through a front door (such as a landing page)
+    - Explore routing users through the My HealtheVet landing page or individual tool landing pages instead of deep-linking them into details pages as we did in this study
+    - Reimagine tool landing pages as important entry points into each experience
+    - Conduct additional research to understand the pros and cons of sending users to the MHV landing page instead of specific tool pages
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Conduct additional research to understand the pros and cons of sending users to the MHV landing page instead of specific tool pages"
+  - "Discovery work on how best to surface tools/affordances that do not fit into the 4 primary tools"
+  - "Uncovering tasks that are more difficult to find using this secondary nav strategy, and conducting research to understand where users would expect to find them"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- 'MHV: Personal Health Records/Medical Records'
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: MyHealth (Health Hub)"
+  - "MHV: Appointments"
+  - "MHV: Pharmacy"
+  - "MHV: Secure Messaging"
+  - "MHV: Personal Health Records/Medical Records"
+  - "usability-testing"
+  - "remote-research"
+  - "Accessibility"
 ---
+
 # My Healthevet Secondary Navigation Comparison Study
 
 **Office of the CTO - Digital Experience (OCTO-DE), My HealtheVet on VA.gov, Cartography Team**
