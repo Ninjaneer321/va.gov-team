@@ -1,101 +1,116 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "My VA Usability Internal Research Study Findings"
+product: "My VA"
+team: "VSA, Authenticated Experience"
+office: "Digital Services Veterans Affairs (DSVA)"
+date: "2021-05-18"
+researchers: 
+  - "Tressa Furner"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Does our solution present any usability hurdles?"
+  - "Does the overall layout we are launching with make sense to users?"
+  - "How can we better elevate action items on a user dashboard?"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Zoom sessions with real user data"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 5
+    tablet: 0
+    smartphone: 1
+    assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 6
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 6
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 6
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 6
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 6
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 6
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Users easily understood how to use the page and what the page was for."
+  - "Users were easily able to complete tasks in all sections. (Tasks can be seen in the research plan)"
+  - "Users who had a disability rating easily understood how to use it and thought it was useful on the page."
+  - "All users stated that they would expect to see notifications on this page."
+  - "Users who were both enrolled in health care and were actively using VA health care found My VA to be useful (even if they did not have any claims)."
+  - "Users who were NOT enrolled in health care and had NO claims, did not find the page to be especially useful. Many of these users expressed they would not use My VA. A few of these users felt that the page would be more useful if they had claims."
+  - "Users are interested in learning more about what benefits are available to them, most wanted to see what they were eligible for. Interestingly, almost all users interacted heavily with the 'What benefits does the VA offer' link on My VA."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "We know from previous studies that this is something users want on their dashboard. We plan to start working on figuring out the notification functionality next. This study definitely validated that need."
+  - "We need to explore ways to make the dashboard more valuable to users who do NOT have claims or health care. We may also need to do additonal research around this to understand what people without claims and health care would need from a dashboard."
+  - "We may want to explore ways to elevate benefits that the VA offers on the dashboard - this work might simultaneously add more value to a user who does NOT have claims or health care."
+  - "Launch My VA to all users!"
+  - "We need to explore how to implement notifications - this was validated in this study."
+  - "Continue iterating on the dashboard and exploring ways to make it more useful for Veterans - we may need more research to determine what the appropriate next steps are."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Making the dashboard more valuable to users without claims or health care"
+  - "Understanding what users without claims and health care need from a dashboard"
+  - "Elevating benefits information on the dashboard to help users learn about available benefits"
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Do users want to see sections that have no updates for them? Is the 'no update' update important?"
+  - "Would it be useful to think through how to help people who are onboarding from eBenefits vs a person who is completely new to the VA? Do those need to be different experiences?"
+  - "Do we fully understand all of the health care and claims use cases?"
+  - "How do we make a dashboard more useful to people who don't have health care or claims? What would they use a dashboard for?"
+  - "Do we actually need a customizeable dashboard? Or will that resolve once we can provide a more personalized experience?"
+  - "How do we test with real data earlier on in a project?"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "AUD: VA Staff"
+  - "PRDT: My VA"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "usability-testing"
+  - "remote-research"
+  - "moderated-research"
+  - "HDW: Desktop"
+  - "evaluative"
 ---
+
 # My VA Usability Internal Research Study Findings
 
 **Digital Services Veterans Affairs (DSVA), VSA, Authenticated Experience**<br>
