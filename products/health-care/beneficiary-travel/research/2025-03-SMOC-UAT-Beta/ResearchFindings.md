@@ -1,95 +1,109 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "SMOC UAT Beta Research Findings"
+product: "Beneficiary Travel Pay"
+team: "Beneficiary Travel Pay team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2025-05-08"
+researchers: 
+  - "Cara Frissell"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Test key flows a Veteran user would use when submitting a simple mileage-only claim for travel for VA medical care on VA.gov"
+  - "Determine if participants find the entry point to submission from past Appointments"
+  - "Assess if participants understand they can only submit for simple mileage reimbursement on VA.gov and understand redirections to BTSSS"
+  - "Evaluate if participants know if, when, and where to submit their complex claims"
+  - "Verify participants are accurately redirected if trying to submit a complex claim"
+  - "Test if participants can complete a simple mileage-only claim submission"
+  - "Assess if participants can differentiate between starting a claim and confirming a claim has already been submitted"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "User acceptance testing (UAT)"
+  - "Usability testing with live site"
+  - "60-minute moderated interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 12
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 12
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 12
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 12
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 12
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 12
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 12
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Participants did not find the entry point to simple mileage-only claim submission from Past Appointments easily. Once on the Past Appointments page, participants easily found the entry point to claim submission"
+  - "Participants focused what they wanted to be reimbursed for. Those who wanted to reimbursed for more than mileage were successfully redirected to BTSSS"
+  - "Multiple participants successfully completed and understood the simple mileage-only claim submission flow on VA.gov. Those who ran into errors were successfully redirected to BTSSS"
+  - "Those who receive disability payments believed their deposit information was set up and did not know to check BTSSS"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Streamline entry points from My VA, the Claim Status tool and other common routes observed"
+  - "Recommend in future building on the 'what I can be reimbursed for' mindset in complex claims"
+  - "Recommend in future clarifying content around the need to set up Travel Pay specific direct deposit at or prior to submission"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Excel workbook analysis"
+  - "SharePoint presentation with video clips"
+related_research:
+  - "Research Plan: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2025-03-SMOC-UAT-Beta/ResearchPlan.md"
+  - "Conversation Guide: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/beneficiary-travel/research/2025-03-SMOC-UAT-Beta/ConversationGuide.md"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Appointments"
+  - "PRDT: Claim-status-tool"
+  - "DSP: Ask users for direct deposit"
+  - "DSP: Form Templates"
+  - "DSP: Help users to check answers"
+  - "usability-testing"
+  - "evaluative"
+  - "user-acceptance-testing"
 ---
 
 # SMOC UAT Beta Research Findings
