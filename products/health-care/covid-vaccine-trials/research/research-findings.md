@@ -1,101 +1,129 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "COVID Vaccine Trial Enrollment Form Prototype Study 1 - Aug 2020 Research Findings"
+product: "COVID-19 Vaccine Trial Enrollment"
+team: "Not specified in report"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-08-17"
+researchers: 
+  - "Ryan Thurlwell"
 research_goals:
-- Goal 1
-- Goal 2
+  - "What are users' (Veterans') expectations for intake for a clinical trial?"
+  - "Can users effectively find and complete the intake form?"
+  - "How does COVID-19 affect user's perception of participation in clinical trials?"
+  - "What are users' expectations after completing the intake form?"
 methodology:
-- Method 1
-- Method 2
+  - "Usability testing"
+  - "Semi-structured interviews"
+  - "Prototype testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 6
+    assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 6
+  service_members: 0
+  caregivers: 0
+  family_members: 1
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 2
+    "45-54": 1
+    "55-64": 2
+    "65+": 0
+    unknown: 1
+  education: 
+    high_school: 0
+    some_college: 1
+    associates: 2
+    bachelors: 2
+    masters: 1
+    doctorate: 0
+    unknown: 0
+  gender:
+    male: 3
+    female: 3
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 6
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 1
+    hispanic: 0
+    biracial: 0
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "5 of 6 Veterans said their motivation for volunteering in a clinical trial is to help other people."
+  - "All participants had individual thresholds or limits for what would make them NOT participate in a trial."
+  - "All participants assumed the VA is looking for volunteers for research in order to develop a vaccine, or some other medical treatment."
+  - "2 participants wanted to know more detailed information about the folks doing the research, and their competency."
+  - "COVID-19 had not drastically changed any participants relationship to VA, but expressed concern regarding the logistics of volunteering for a trial during the pandemic."
+  - "Participants found the information on the landing page helpful."
+  - "No participant had a problem with the length of the form. Some of them quickly scanned the entirety of the form first to get a sense of form length. Only 2 participants noticed the sentence about form length."
+  - "All participants expected questions regarding health, and assumed the purpose of the questions were to help VA decide if they were a fit for a trial."
+  - "All participants were willing to hand over personal information, and assumed VA already had it."
+  - |
+    The question "In the past 6 months, have you been hospitalized at any time?" confused a user.
+  - |
+    One participant noted the questions "Current gender identity" and "Race, ethnicity, and origin" seemed moot and unnecessary.
+  - "Most participants thought the form was easy and simple to use. They generally completed the questions in about 3 minutes."
+  - "Zero participants noticed they did not sign-in to fill out the form until it was brought to their attention. However, once it was mentioned, there were polar opposite opinions."
+  - "2 of 6 participants mentioned being cautious / aware of phony websites and spam, and liked that VA branding made it feel more secure and trusted."
+  - |
+    There was confusion around whether or not participants were signing up for a single trial or getting on a list for multiple trials. Because of this confusion, some initial expectations surrounding specifics about the trial varied. If they thought they were signing up for a single trial, they expected to see exactly what information they would need for that trial. If they thought they were signing up for multiple trials (a list), they expected they would receive specific information regarding each trial. Regardless of this confusion, all participants expected as much transparency and information from the VA as possible.
+  - "All participants expected to be contacted at some point, but the expectation of this ranged wildly from a few days to a few years."
+  - "When the VA contacted folks regarding trials, no one knew what method the VA would use to contact."
+  - "One person noted there was no way to opt out of the volunteer list."
+  - "Participants were indifferent about VA accepting or rejecting them for a study."
+  - "2 of 6 participants wanted to know if they were qualified one way or another."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "There was discussion of dividing the form into sections—a single page worked well with all participants. It was helpful for some folks to be able to scan the page before beginning."
+  - "Do not require sign in. No one batted an eye until it was mentioned."
+  - |
+    The only question on the form that was problematic for anyone was the ambiguity around the question "In the past 6 months, have you been hospitalized at any time?" Recommend clarifying exactly what this means.
+  - "Make it abundantly clear that people are signing up for a list or group that could be asked to participate in multiple trials or studies, not just one."
+  - |
+    Provide clear, decisive, and accurate information about the trial(s) that folks could be invited to participate. Timelines, side effects, travel, compensation, how invasive it could be, everything. All communications (websites, emails, texts) coming from VA should reinforce next steps with plain language that helps Veterans completely understand how they will be involved, what happens before, during, and after their participation. All communications from the VA should be timely. All participants anticipated mediocre communication at best from the VA. We can do better! Recommend upon form submission, sending an email confirmation letting volunteers know: Confirming what they signed up for, Timeline information (if available), Set expectations / next steps, Provide a means to opt out.
+  - "After a Veteran signs up, always provide a means to opt out of the group."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'MHV: Personal Health Records/Medical Records'
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: COVID-vaccine-distribution"
+  - "usability-testing"
+  - "remote-research"
+  - "DSC: Form"
+  - "evaluative"
+  - "HDW: Smartphone"
+  - "DSP: Form Templates"
+  - "DSP: Help users to sign in"
 ---
+
 # Enrollment form Prototype Study 1 - Aug, 2020 MVP Research Findings 
 
 Ryan Thurlwell, ryan.thurlwell@va.gov, 08/17/2020
