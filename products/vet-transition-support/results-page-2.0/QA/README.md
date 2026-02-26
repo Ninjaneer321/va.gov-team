@@ -52,3 +52,18 @@ We need to test all 8 test cases across the devices, operating systems, and brow
 | _In which test case was this problem found?_ | _Describe finding/problem_ | _On what device type was the problem found?_  | _On what operating system was the problem found?_  | _On what browser was the problem found?_  | _Who identified the problem?_  | _Link to resolving ticket(s)_ | _What is the status of the issue?_   |
 
 
+## Platform QA Standards
+| Standard Area | ID | Standard Description | Discover Your Benefits / Results Pg 2.0 Validation |
+|---------------|-----|-----------------------|---------------------------------------------------|
+| Regression Test Plan | QA1  | The product must have a regression test plan that proves the new changes don't break previously-integrated functionality. | |
+| Test Plan            | QA2  |The product must have a test plan that describes the method(s) that will be used to verify product changes.|   |
+| Traceability Reports | QA3  | The product must have a Coverage for References report that demonstrates user stories are verified by test cases in the test plan. The product must also have a Summary (Defects) report that demonstrates that defects found during QA testing were identified through test case execution. |    |
+| E2E Test Participation | QA4 | The product must have 1 or more end-to-end (E2E) tests. |    | 
+| E2E Tests - Best Practice Adherence | QA9 | E2E tests must follow Platform best practices for writing tests.|    |
+| E2E Test Execution Time | QA10 | All E2E test files for the product must complete execution in under 1 minute.|   |
+| Unit Test Coverage      | QA5 | The overall product must have 80% or higher unit test coverage in each category: Lines, Functions, Statements, and Branches.|  |
+| Unit Tests - Best Practice Adherence| QA11 | Unit tests must follow Platform best practices for writing tests. |     |
+| Endpoint Monitoring     | QA6 | All endpoints that the product accesses must be monitored in Datadog. The team must complete a playbook that specifies how the team will handle any errors that fire.|  |
+| Logging Silent Failures| QA7 | Product teams must verify that they have taken steps to prevent all silent failures in asynchronous form submissions or state why this standard is not applicable. |  |
+|PDF Form Validation| QA8 | Updated digital forms must use the most current, officially-approved PDF submission version to ensure accuracy, compliance, and uninterrupted processing.|  |
+| No Cross-App Dependencies| QA12 | Applications must be built in isolation with no cross-app dependencies, excluding static pages and platform components.|    |
