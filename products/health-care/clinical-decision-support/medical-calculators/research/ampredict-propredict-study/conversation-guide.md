@@ -58,7 +58,7 @@ This first task will involve the online AMPREDICT/PROPREDICT calculator.
 
 - Please open a patient in CPRS that you would use this calculator for. Please make sure this patient has an available weight and height on the cover sheet.
 - Please navigate to: https://www.ampdecide.org/ampredict/risk-calculator OR https://prodecide.org/risk-calculator (share link in chat). Please don't enter any data yet.
-- When you are ready, please begin sharing your screen so the online calculator is visible.
+- When you are ready, please begin sharing your screen so the online calculator and CPRS are visible. We're not recording this session, and I'm credentialed to view PHI.
 
 [Screen sharing begins.]
 
@@ -94,13 +94,13 @@ Next, we'll move on to the CDS Medical Calculators tool and perform the same cal
 
 ## Task 2 debrief - 1 minute
 
-Great, thank you for completing that task. You can stop screen sharing now. Do you have any questions or comments?
+Great, thank you for completing that task. Do you have any questions or comments?
 
 [Screen sharing stops.]
 
 # Post-Task Questionnaire - 3 minutes
 
-Next, I'll share a link in the chat to a brief post-task questionnaire. Please complete that as the final task before we close out the meeting and let me know when you're finished.
+Next, I'll share a link in the chat to a brief post-task questionnaire. You can stop screen sharing now. Please complete the survey as the final task before we close out the meeting and let me know when you're finished.
 
 [Share post-task survey link in chat.]
 
