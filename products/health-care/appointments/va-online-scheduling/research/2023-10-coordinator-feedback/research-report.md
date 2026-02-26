@@ -1,95 +1,100 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "MHV Coordinator Feedback Research Findings"
+product: "VA Online Scheduling"
+team: "VA Online Scheduling (VAOS)"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2023-11-30"
+researchers: 
+  - "Not specified"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Learn what scope of the appointments process MHV and My VA Health Coordinators help Veterans with"
+  - "Learn about common issues they face when helping Veterans schedule appointments and find new health care providers"
+  - "Build connections with Coordinators to get future feedback"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated interviews"
+  - "Semi-structured interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 3
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 3
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 3
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 3
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 3
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Login and navigation pose the biggest challenges to helping Veterans schedule online. The three My HealtheVet Coordinators agreed that most of their time and focus is getting people logged in and not so much individual features on VA.gov/MHV. They don't field a lot of calls around online scheduling, and it's rare that they refer folks to the VA Online Scheduling tool. One of the primary reasons is that Veterans are avoiding the sign in process. The new login process can take an hour to get through, for either setting up a new account or logging in. If the Veteran does have the time and patience to get through that, the Coordinators direct them to schedule online. One Coordinator told us that, if they're doing the new sign-in process they start the Veteran at VA.gov because the Veteran has to do the verification process there, so it's an easier starting point than MHV. Once they login, Veterans and MHV Coordinators struggle with navigating across the different health portals. Some things like verification and scheduling can only be done on VA.gov, others on My HealtheVet. Many pages have too much content, and Veterans struggle with information overload when trying to understand and navigate between the two sites. The Coordinators create training and marketing materials, but it's hard to keep these up-to-date with the changes to MHV and the move over to VA.gov."
+  - "It's easier to help Veterans schedule with other tools. The Coordinators expressed confusion in understanding and explaining the different ways Veterans can schedule and manage an appointment, like mobile app, web, VA Health Chat. They all agreed that they prefer to help Veterans schedule over Secure Messaging instead. This is the path of least resistance because it exists in My HealtheVet and is more flexible than VA Online Scheduling - since it's a message, any care can be requested. One Coordinator likes to refer Veterans to the VA Health Chat app. 'It's so much easier'. (Not all coordinators on the call had access to that tool.) They also avoid sending Veterans on the other side of the digital divide, like elderly Veterans with flip phones, through the online scheduling process. Some don't want to learn the new process, either due to lack of patience or lack of interest. They direct them to call instead."
+  - "It's unclear what types of care can be scheduled online. The Coordinators said it's confusing to Veterans that only certain specialty care types can be scheduled online. For at least one coordinator, since all specialty care requires a consult (aside from Mental Health, which has its own process) it doesn't make sense to schedule these online. They understand that the types of care are not standardized and what's available is specific to the site - this makes it more confusing. Allowing more specialty care to be direct-scheduled would be the biggest improvement, according to two coordinators. One reported that it's not clear what appointments are available to schedule online vs. request. Veterans assume they can direct schedule online. When they can only request an appointment, it catches them by surprise, and the Veteran could have just sent a Secure Message instead of completing a request. One Coordinator reported that they asked a Veteran to schedule online, but it was for a clinic that wasn't set up for online scheduling, so the request didn't go anywhere. It was awhile ago, they couldn't offer many details. But situations like that add to the lack of trust in the online scheduling process."
+  - "The facility list in the scheduling process is confusing. MHVCs and Veterans are confused by the long list of facilities they can choose from when scheduling. They are worried that there are facilities in the list that the Veteran couldn't actually schedule into. They mentioned that they have seen locations that the Veteran doesn't recall ever going to. They had asked what would happen if Veterans schedule at a location that isn't their current main location. They were concerned the request would be ignored. Two agreed that streamlining the facility list would be the biggest improvement."
+  - "The process of choosing or changing a provider. MHVCs get questions about how to transfer providers. Veterans primarily want to change providers if they're changing locations. Veterans have to go to patient advocates to do that. MHVCs hand off the Veteran to the patient advocate at that point. There has to be a good reason for a Veteran to change, because provider's schedules must be balanced. If the Veteran is new to VA, the Eligibility and Enrollment Office handles assignment to the Primary Care Provider at the time of registration. They know that Veterans ask for certain providers (word of mouth referrals happen a lot, especially with older Veterans) or characteristics (gender) at that time. Two of the locations have a new patient orientation class to help Veterans with online scheduling and understanding all the features of MHV. One location didn't, but the eligibility office refer Veterans to MHVCs. They also discuss how each location is different, so if Veterans transfer locations, they might need orientation again. New patients get overwhelmed with the size of VA Health care and trying to understand what resources are available. They're often trying to square what they've heard from other Veterans with the actual process. All VAs run different, so knowledge about how one VA facility doesn't necessarily translate to another. This adds confusion to the process for staff and Veterans. It takes new staff at least a month to get comfortable with the processes at the facility they're in."
+  - "Coordinators mostly support scheduling, not travel pay, check in, etc. They don't support staff with the scheduling process. They were confused as to why the list says 'VA Appointments' and doesn't list the type of care. MHVCs get questions about how to get authorized for community care. MHVCs help with outreach and marketing. They run events at VA locations and outside VA. They do targeted emails, mailings, run trainings, and more. MHVCs want a flyer to walk Veterans through online scheduling. They don't know if what they have is up-to-date. They asked why AVS isn't on VA.gov yet (we confirmed that it is being added.)"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Not specified in findings report"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+related_research:
+  - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2023-10-coordinator-feedback/research-plan.md"
+  - "https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/research/2023-10-coordinator-feedback/conversation-guide.md"
+tags:
+  - "AUD: VA Staff"
+  - "BNFT: Healthcare"
+  - "PRDT: VA-online-scheduling"
+  - "MHV: Appointments"
+  - "semi-structured-interviews"
+  - "generative"
+  - "stakeholder-research"
+  - "login"
+  - "navigation"
+  - "facility-selection"
 ---
 
 # MHV Coordinator Feedback - November 2023
