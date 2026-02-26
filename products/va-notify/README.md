@@ -10,13 +10,11 @@ To be the core VA notification platform that helps increase utilization and visi
 Provide Veterans with actionable, timely notifications in the manner that is most convenient for them.
 
 # Contact Us!
-Please read the Playbook below to get started if you're interested in onboarding to VA Notify.
+**Slack us** [#va-notify-public](https://dsva.slack.com/archives/C010R6AUPHT)
 
-Find us on DSVA slack in [#va-notify-public](https://dsva.slack.com/archives/C010R6AUPHT)
+**Email us** [VA Notify](oitoctovanotify@va.gov)
 
-Email us at **VA Notify** (oitoctovanotify@va.gov)
-
-Reserve a spot at our **Office Hours** - Tuesdays and Thursdays at 2:30 PM ET (30 minutes each) - contact Ksenia Belikova and/or Evan Parish.
+**Meet us** at our **Office Hours** - Tuesdays and Thursdays at 2:30 PM ET (30 minutes each) - contact Ksenia Belikova and/or Evan Parish.
 Sign-ups close 24 hours before each session. If no one signs up, that slot will be skipped and the next available time can be booked.
 
 Office hours are a chance to:
@@ -29,13 +27,13 @@ Office hours are a chance to:
 # Points of Contact
 **Product**
 - Dave Conlon, VA PO - VA Notify, Platform & Experience
-- Samantha Jennings, Product Manager - Notify Experience Team
-- Ksenia Belikova, Product Manager - Notify Platform Team
+- Samantha Jennings, Experience Team Product Manager
+- Ksenia Belikova, Platform Team Product Manager
 
 
 **Engineering**
-- Evan Parish, Tech Lead - Notify Platform Team
-- Nathan Wright, Tech Lead - Notify Experience Team
+- Nathan Wright, Experience Team Tech Lead
+- Evan Parish, Platform Team Tech Lead
 
 # Overview
 
@@ -47,7 +45,6 @@ VA Notify is designed to be a passthrough system. We do not store Veteran inform
 VA Notify is located within the VAEC. We provide a REST OpenAPI, which your system can call each time a notification is needed. We also provide a self-service web application, which is behind the network (PIV or GFE required) so you can directly create and maintain your notification templates. Aggregated message metrics are provided. Google Analytics (UTM trackers) can and should be used for all message links that point to va.gov, so clicks can be captured. 
 
 ## What we aren’t
-
 VA Notify does not…
 - Pull data to trigger notification events
 - Provide notification scheduling services, though we may throttle or queue notifications based on volume concerns
