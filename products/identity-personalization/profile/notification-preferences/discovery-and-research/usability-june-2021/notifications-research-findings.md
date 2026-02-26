@@ -1,106 +1,110 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Profile Notification Settings Research Findings"
+product: "VA.gov Profile - Notification Settings"
+team: "VSA, Authenticated Experience"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2021-07-02"
+researchers: 
+  - "Liz Lantz"
 research_goals:
-- Goal 1
-- Goal 2
+  - "What expectations do Veterans have about discovering, receiving, and managing notifications?"
+  - "Does our solution enable Veterans to manage notifications without encountering UX hurdles, especially when their profile is missing contact information?"
+  - "What kind of static content support might make sense for this section of profile?"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "Semi-structured interviews"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 1
+    "35-44": 3
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
+  education: 
+    high_school: 0
+    some_college: 3
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 6
+  location: 
+    urban: 4
+    rural: 5
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 4
+    black: 3
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 2
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "It was not intuitive for participants to look in profile to manage notification settings, and most don't actively manage settings for notifications they currently receive."
+  - "Overall, our design provides a good solution for Veterans to manage notifications, but status messages and available notification channels were not clear to all participants."
+  - "Notification groups were clear to participants for the most part, but some wanted to see groups in a different order."
+  - "Some individual notification names would benefit from additional context."
+  - "Many participants expected they'd be able to get all notifications by email and text."
+  - "Leaving notification settings to add missing contact information caused confusion for participants."
+  - "5 of 9 participants experienced concerns and confusion about their sign-in vs contact email address."
+  - "All participants easily understood how to remove contact information, but some wanted more information about the impacts of doing so."
+  - "Participants see value in notifications related to health care, claim status updates, applications-in-progress, and education benefits."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Make it easy for Veterans to manage notifications throughout their VA journey."
+  - "Provide a way for Veterans to update their contact information without having to go to a new page."
+  - "Consider making all notifications available by text and email."
+  - "Revisit the design for status messages and surfacing the channels through which Veterans can receive notifications."
+  - "Revisit the page IA to explore how we might better align with Veteran priorities."
+  - "Update profile content to improve clarity and comprehension."
+  - "Revisit the design and content around login and contact email addresses."
+  - "Move forward with moving remove functionality to the read mode of personal and contact information page."
+  - "Consider adding notifications participants mentioned to future versions of our notification engine."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "PRDT: Profile"
+  - "PRDT: My VA"
+  - "MHV: Appointments"
+  - "MHV: Pharmacy"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "usability-testing"
+  - "moderated-research"
 ---
+
 # Profile Notification Settings Research Findings
 
 VSA, Authenticated Experience
