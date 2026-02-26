@@ -1,95 +1,114 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Travel Claims Management Usability Study Research Findings"
+product: "Beneficiary Travel Pay"
+team: "Beneficiary Travel Pay team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2024-06-26"
+researchers: 
+  - "Cara Frissell"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand if users can find the Status page"
+  - "Understand if users can find the Claim Details page and if they expect it will tell them what has happened to their claim and why"
+  - "Identify what information users find most valuable and least valuable on the Claim Details page"
+  - "Determine if users understand what actions they can take or when they need to do something to unblock or advance processing or payment of a claim based on Claim Details page information"
+  - "Assess if users can find their decision letter on a Claim Details page and what information they expect to find when they see 'decision letter'"
+  - "Evaluate if users can identify when they need to take action to unblock or advance processing or payment of a claim, what that action is, and how to take it"
+  - "Understand if users comprehend they can appeal a denied or partially approved claim and how to initiate an appeal"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Usability testing"
+  - "Task-based testing"
+  - "Prototype testing"
+  - "60-minute moderated interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 10
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 10
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 10
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 10
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 10
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "All participants struggled to identify partial payment decisions on the Status page"
+  - "Participants prioritized claim amount, status, the decision letter and appeal options"
+  - "Regardless of decision, amount was most important. Most participants noticed the gap between submitted for and reimbursed amounts. Some knew the gap was the deductible."
+  - "Claim Status section provides critical context"
+  - "Users identified the 'rejection reasons' section as the explanation of what the claim decision is"
+  - "The full decision letter is key to users"
+  - "Participants understood when and how to appeal a denied claim, gravitating to the decision letter"
+  - "Participants deprioritized information that they did not see as critical to the future of the claim"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Expose the status description on the Claim Details page"
+  - "On Denied and Partial Pay decision claims, show users the decision reasons (listed in the decision letter) on the Claim Details page, allowing the user to bypass download"
+  - "Explain the difference between submitted/reimbursed amounts (i.e. deductible)"
+  - "Clarify and restructure the Appeals option section of the Claim Details page so as to streamline the intended path"
+  - "Consider reorganizing the hierarchy of the Claim Details page to emphasize the pieces of information most relevant to future action"
+  - "Consider giving users a way to distinguish between full payment decisions and partial payment decisions from the Claim Status page"
+  - "Enable users to view and download their Decision Letter regardless of platform"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Excel workbook"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Travel-pay"
+  - "usability-testing"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "DSP: Content Presentation"
+  - "DSP: Notifications"
+  - "evaluative"
+  - "claim-status"
 ---
 
 # **Travel Claims Management Usability Study**
