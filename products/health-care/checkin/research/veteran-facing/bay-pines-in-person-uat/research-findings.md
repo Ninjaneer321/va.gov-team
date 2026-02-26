@@ -29,14 +29,14 @@ demographics:
   family_members: 0
   dependents: 0
   VA_staff: 0
-  age: 
-    25-34: 0
-    35-44: 0
-    45-54: 0
-    55-64: 0
-    65+: 0
-    unknown: 17
-  education: 
+  age:
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    "unknown": 17
+  education:
     high_school: 0
     some_college: 0
     associates: 0
@@ -44,7 +44,7 @@ demographics:
     masters: 0
     doctorate: 0
     unknown: 17
-  location: 
+  location:
     urban: 0
     rural: 0
     unknown: 17
@@ -66,7 +66,7 @@ demographics:
     hearing_aids: 0
     sighted_keyboard: 0
     captions: 0
-  key_findings:
+key_findings:
   - "A few clinics were not fully ready to use PCI due to conflicting communication or unresolved clinic-specific needs, e.g., routing slips."
   - "The kiosks were affecting the check-in experience for Veterans, e.g., using them, ignoring the check-in poster and thinking they're checked in. Additionally, too many choices at the point of check-in are creating confusion."
   - "Confusion exists, for various reasons, among Veterans and MSAs on the difference between pre-check-in and check-in."
