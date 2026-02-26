@@ -16,7 +16,9 @@ We think/assume that VistA meds follow the same logic.
 | No       | N/A               | Any               | **Active** 
 | Yes      | ≤120 days ago     | >0                | **Active** 
 | Yes      | ≤120 days ago     | 0                 | Inactive 
-| Yes      | >120 days ago     | Any               | Inactive[1:00 PM]### Additional Triggers to Inactive
+| Yes      | >120 days ago     | Any               | Inactive
+
+### Additional Triggers to Inactive
 
 Even if expiration and refills would keep a medication Active, these MR.status values always force **Inactive**:
 
