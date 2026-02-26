@@ -229,9 +229,14 @@ TYPING INDICATOR ACTIVE
 TYPING INDICATOR TOGGLE
 
 <img width="350" height="148" alt="Image" src="https://github.com/user-attachments/assets/411c1da4-42f1-4003-a127-ce6feb94a2fe" />
+## Diacritics
+
+- Diacritics are enabled. Is there any way to disable them? Not sure if they can impact anything during logging etc.
+- <img width="393" height="201" alt="image" src="https://github.com/user-attachments/assets/87cf42d4-fe79-48ef-809a-877c0dc75792" />
 
 ## Other notes and issues
 
 - There does not appear to be a way to customize the heading of the chatbot header that says "Message Us"
 - The trash icon for clearing the conversation is a toggle, so we can turn that off if we want.
 - There is an idle message that will display if the user has not interacted with the bot for some amount of time. The current setting is 1 minute and is set within the bot flow -> settings -> user input. There are also settings for Max number of no input retries, No input apology message, and handling of no input maximum retries exceeded handling. We should discuss how we want to handle this. For instance we could set this to just show once, and make the timeout much larger so its not so annoying.
+
