@@ -107,7 +107,7 @@ All OH fields are computed from FHIR R4 `MedicationRequest` + contained resource
 | # | Use Case | FHIR Input | → `disp_status` | → `refill_status` | → `refill_remaining` | → `is_refillable` | → `is_renewable` | → `is_trackable` | Notes / Questions |
 |---|---|---|---|---|---|---|---|---|---|
 | OH7 | Non-VA medication | `status: "active"`, `reportedBoolean: true`, `intent: "plan"`, `category[].coding[].code: "patientspecified"` | `Active: Non-VA` | `active` (then source `NV` triggers Non-VA disp_status) | `0` (hard-coded for Non-VA) | `false` (gate 1: Non-VA) | `false` (gate 2: Non-VA) | `false` | — |
-| OH8 | Active, original fill not yet dispensed | `status: "active"`, `numberOfRepeatsAllowed: 3`, **0 dispenses** | `Active` | `active` | `3` (3 - max(0-1,0) = 3) | `false` (gate 5: no dispenses) | `false` (gate 3: no dispenses) | `false` | User sees "Active" with 3 refills but cannot refill or renew. User-facing image describes this as "Active — the original fill has not begun to be filled yet." **Q10:** Can a patient request a fill through vets-api before any dispense exists? **Answer** No- Veterans can only request a refill of a medication on VA.gov and VAHB. The medication has to have at least one fill. |
+| OH8 | Active, original fill not yet dispensed | `status: "active"`, `numberOfRepeatsAllowed: 3`, **0 dispenses** | `Active` | `active` | `3` (3 - max(0-1,0) = 3) | `false` (gate 5: no dispenses) | `false` (gate 3: no dispenses) | `false` | User sees "Active" with 3 refills but cannot refill or renew. User-facing image describes this as "Active — the original fill has not begun to be filled yet." **Q10:** Can a patient request a fill through vets-api before any dispense exists? **Answer** No. [See Q10 below](#q10). |
 
 ### Refill In-Flight States
 
@@ -210,22 +210,22 @@ All OH fields are computed from FHIR R4 `MedicationRequest` + contained resource
 
 | # | Topic | Question | Affected Use Cases |
 |---|---|---|---|
-| Q1 | Pending Renewal in OH | When an OH renewal is in progress, what FHIR status does the upstream API return? Should the user see `Pending Renewal` instead of `Active`? | OH3, OH4, G2 |
-| Q2 | Pending New Rx in OH | For new OH prescriptions pending approval, should FHIR `draft` map to `Pending New Prescription` instead of `Unknown`? | OH21, G3 |
-| Q3 | Active: Parked in OH | Does OH have an equivalent concept? If so, how does it appear in FHIR? | G1 |
-| Q4 | FHIR status coverage | Are `on-hold`, `cancelled`, `entered-in-error`, `stopped`, `draft`, `unknown` expected in production? VCR cassettes only show `active` and `completed`. | OH14, OH18–OH22 |
-| Q5 | Suspended | What is the intended user-facing display for VistA `Suspended`? Not in the status definitions image. | V14, G5 |
-| Q6 | NewOrder raw value | VistA sends raw `"NewOrder"` as `dispStatus`. Does the frontend handle this string, or only `"Pending New Prescription"`? | V10 |
-| Q7 | Task failed | When a refill Task fails, should the user see an error state? Currently silently ignored, falls through to `Active`. | OH13 |
-| Q8 | numberOfRepeatsAllowed semantics | Does OH define this as "refills after initial fill" (code assumption) or "total fills including initial"? If the latter, `refill_remaining` is off by 1. | R1–R7, all OH refill_remaining |
-| Q9 | Refillable without expiration | Can OH prescriptions be legitimately refillable with missing `validityPeriod.end`? Gate 3 rejects them. | OH8 |
-| Q10 | Refillable before first dispense | Can a patient request a fill through vets-api before any dispense exists? Gate 5 rejects. | OH8 |
-| Q11 | Renewable requires FHIR `active` | OH FHIR `completed` blocks renewability (gate 1). VistA allows renewal of recently expired Rx (V11). Is this divergence intentional? | OH15 vs V11 |
-| Q12 | Trackability timing | Could OH prescriptions be "trackable" before the shipping extension is attached? VistA computes upstream (may include CMOP knowledge). | OH2 |
-| Q13 | notRefillableDisplayMessage | Not mapped from VistA to UHD model. Serializer returns `nil`. Does the frontend need this for the UHD path? | All non-refillable |
-| Q14 | notRenewableReason | Same gap — not mapped. Impact on frontend? | All non-renewable |
-| Q15 | Active but expired with refills | OH6: `disp_status: Active`, `is_refillable: false` because expired. Should `disp_status` be `Expired` when past expiration regardless of refill count? | OH6 |
-| Q16 | OH transfers | Does OH transfer prescriptions between facilities? If so, what FHIR data would that produce? | G4 |
+| <a name="q1"></a>Q1 | Pending Renewal in OH | When an OH renewal is in progress, what FHIR status does the upstream API return? Should the user see `Pending Renewal` instead of `Active`? | OH3, OH4, G2 |
+| <a name="q2"></a>Q2 | Pending New Rx in OH | For new OH prescriptions pending approval, should FHIR `draft` map to `Pending New Prescription` instead of `Unknown`? | OH21, G3 |
+| <a name="q3"></a>Q3 | Active: Parked in OH | Does OH have an equivalent concept? If so, how does it appear in FHIR? | G1 |
+| <a name="q4"></a>Q4 | FHIR status coverage | Are `on-hold`, `cancelled`, `entered-in-error`, `stopped`, `draft`, `unknown` expected in production? VCR cassettes only show `active` and `completed`. | OH14, OH18–OH22 |
+| <a name="q5"></a>Q5 | Suspended | What is the intended user-facing display for VistA `Suspended`? Not in the status definitions image. | V14, G5 |
+| <a name="q6"></a>Q6 | NewOrder raw value | VistA sends raw `"NewOrder"` as `dispStatus`. Does the frontend handle this string, or only `"Pending New Prescription"`? | V10 |
+| <a name="q7"></a>Q7 | Task failed | When a refill Task fails, should the user see an error state? Currently silently ignored, falls through to `Active`. | OH13 |
+| <a name="q8"></a>Q8 | numberOfRepeatsAllowed semantics | Does OH define this as "refills after initial fill" (code assumption) or "total fills including initial"? If the latter, `refill_remaining` is off by 1. | R1–R7, all OH refill_remaining |
+| <a name="q9"></a>Q9 | Refillable without expiration | Can OH prescriptions be legitimately refillable with missing `validityPeriod.end`? Gate 3 rejects them. | OH8 |
+| <a name="q10"></a>Q10 | Refillable before first dispense | Can a patient request a fill through vets-api before any dispense exists? Gate 5 rejects. <br> **ANSWER**: No. Veterans can only request a refill of a medication on VA.gov and VAHB. The medication has to have at least one fill. | OH8 |
+| <a name="q11"></a>Q11 | Renewable requires FHIR `active` | OH FHIR `completed` blocks renewability (gate 1). VistA allows renewal of recently expired Rx (V11). Is this divergence intentional? | OH15 vs V11 |
+| <a name="q12"></a>Q12 | Trackability timing | Could OH prescriptions be "trackable" before the shipping extension is attached? VistA computes upstream (may include CMOP knowledge). | OH2 |
+| <a name="q13"></a>Q13 | notRefillableDisplayMessage | Not mapped from VistA to UHD model. Serializer returns `nil`. Does the frontend need this for the UHD path? | All non-refillable |
+| <a name="q14"></a>Q14 | notRenewableReason | Same gap — not mapped. Impact on frontend? | All non-renewable |
+| <a name="q15"></a>Q15 | Active but expired with refills | OH6: `disp_status: Active`, `is_refillable: false` because expired. Should `disp_status` be `Expired` when past expiration regardless of refill count? | OH6 |
+| <a name="q16"></a>Q16 | OH transfers | Does OH transfer prescriptions between facilities? If so, what FHIR data would that produce? | G4 |
 
 ## Frontend (vets-website) Status Handling
 
