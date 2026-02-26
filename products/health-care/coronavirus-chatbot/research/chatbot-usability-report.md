@@ -1,95 +1,139 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "COVID-19 Chatbot Usability Research Findings"
+product: "COVID-19 Chatbot"
+team: "Not specified"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2020-04-21"
+researchers: 
+  - "Todd Stanich"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Validate the content the chatbot provides is relevant, helpful, and categorized as expected."
+  - "Validate users are able to successfully interact with the chatbot to find desired information."
+  - "Identify usability shortcomings and potential improvements for interacting with the chatbot."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 8
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 8
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    How quickly information can be located is a primary motivator when choosing a tool to answer a question.
+    
+    Key Takeaways:
+    1. Participants who said they were likely to use the chatbot often cited long wait times and the hassle of calling as their motivation for considering the chatbot.
+    2. Participants who said they were not likely to use the chatbot believed they could find their answers quicker without the use of a chatbot. During our study, these were the youngest (under 45) participants.
+    3. If participants would call the VA, they generally looked for a direct number for their need as opposed to a general number.
+  - |
+    Expectations of functionality for "chatbots" widely vary.
+    
+    Key Takeaways:
+    1. Participants who have not interacted with a chatbot quickly understood the concept and how to interact with the tool.
+    2. Some participants expected to be able to type questions to the chatbot. When probed, these participants said if they could type free text they might use it in conjunction with the predefined selections.
+    3. Some participants did not consider this a chatbot since they were clicking prompts and not truly conversing.
+    4. Some participants expected the chatbot to be in a "chat window".
+  - |
+    Topics covered by the chatbot met Veteran's expectations for COVID-19 information.
+    
+    Key Takeaways:
+    1. Most participants correctly identified what topics would be covered under the top level categories.
+    2. Some participants looked for non-COVID information.
+    3. All participants found answers to be reasonable based on the selection they made.
+    4. Two participants expected more self help resources (tips and ideas) under the anxiety topic.
+  - "Some participants appreciated the brevity of some responses."
+  - "Some participants were confused by the initial 911 message. Some thought the symptoms listed were the list of COVID-19 symptoms."
+  - "Some participants wanted the 911 message to be styled differently or called out separately."
+  - "One participant did not notice information was loading at the bottom of the screen after clicking a button. Another user (when we were on a version that did scroll to the bottom) missed that there was new information at the bottom because they were not expecting to scroll."
+  - "Looking and feeling like a trusted VA website is important. Our test was done on a prototype with the a minimal header and one participant wasn't comfortable with it until he saw the full VA logo in the footer."
+  - "Several participants mentioned reading VA email newsletters coming in their email and using that as an entry point to the website."
+  - "Some participants wanted to be able to scroll back through the conversation and click a different button, but the previous buttons were disabled."
+  - "Having external links within the answers was received well."
+  - "The CDC is viewed as a trusted source and we did not experience any negative reaction to the CDC being referenced during the symptom checking flow."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "There is an opportunity to conduct research around the discoverability of the chatbot on va.gov to inform link placement and calls to action."
+  - "Throughout our testing, some participants have expressed a desire to input free text. Further research should be conducted to better understand users' expectations for free text entry."
+  - "Our decision to put the chatbot on a standalone page vs some type of overlay or chat window was driven by the need to link from a variety of sources, timeline, technical considerations, and accessibility, but further research on whether an overlay or window would improve user experience should be conducted."
+  - "After launch, monitoring analytics will help identify opportunities to use user research to better understand behaviors we are observing."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Discoverability of the chatbot on va.gov"
+  - "Free text entry expectations and functionality"
+  - "Chatbot presentation format (standalone page vs overlay vs chat window)"
+  - "911 message styling and clarity"
+  - "Visual feedback for loading states and new content"
+  - "Navigation within chatbot conversation history"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Research around the discoverability of the chatbot on va.gov to inform link placement and calls to action"
+  - "Further research to better understand users' expectations for free text entry"
+  - "Further research on whether an overlay or window would improve user experience"
+  - "Monitoring analytics after launch to identify opportunities for additional user research"
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "First round of COVID-19 chatbot research (referenced but not detailed)"
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "evaluative"
+  - "Content"
+  - "DSC: Links"
+  - "DSP: Contextual Help"
+  - "information-architecture"
+  - "Accessibility"
 ---
 
 # COVID-19 Chatbot Research Report
