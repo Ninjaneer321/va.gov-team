@@ -3,20 +3,20 @@
 
 ---
 
-Purpose: Define the technical requirements for creating a new va-details component
+Purpose: Define technical requirements and implementation details for the `va-details` component.
 
 ---
 
 ## **Component architecture**
 
-* Common name  
-  * details  
-* Element name  
+* Common name
+  * Details
+* Element name
   * `<va-details>`
 
 ## **Architecture overview**
 
-Additional info makes content easier to scan by hiding secondary, contextual information that may not be applicable to all users or situations. It is used to surface plain-language help at the point in the experience where it is most relevant.
+Details makes content easier to scan by hiding secondary, contextual information that may not be applicable to all users or situations. It is used to surface plain-language help at the point in the experience where it is most relevant.
 
 This component is **implemented using native HTML `<details>` and `<summary>` elements**, with expand/collapse behavior fully handled by the browser.
 
@@ -47,7 +47,7 @@ This approach intentionally reduces custom logic, improves reliability across as
     * Is part of a series  
     * Is long or structurally complex  
 * Alert – Expandable  
-  * Preferred over Additional info when the content communicates important or time-sensitive information  
+  * Preferred over Details when the content communicates important or time-sensitive information  
  
 
 ### Related patterns/template
@@ -63,23 +63,23 @@ This approach intentionally reduces custom logic, improves reliability across as
 ### Existing implementations with similar functionality
 
 * Widespread usage across VA.gov forms for inline contextual help  
-* Often appears immediately after labels, legends, or short instructional text  
-  
+* Often appears immediately after labels, legends, or short instructional text
 
 
 ## **Text content**
 
 | Element | Default value | Notes |
 | :---- | :---- | :---- |
-| Trigger text (rendered as the summary text that open/closes the disclosure) | None | Provided via the `trigger` prop. Must be short, descriptive, and written as a statement (not a question), with no ending punctuation. |
-| Expanded content | None | Slotted content inside `<va-additional-info>`. guidance recommends keeping it brief and scannable (lists as needed), and linking out if the content is long/complex.  |
+| Label text (rendered as the summary text that open/closes the disclosure) | None | Provided via the `label` prop. Must be short, descriptive, and written as a statement (not a question), with no ending punctuation. |
+| Expanded content | None | Slotted content inside `<va-details>`. guidance recommends keeping it brief and scannable (lists as needed), and linking out if the content is long/complex.  |
 
 ## **Properties**
 
 | Prop name | Description  | Expected values | Default value |
 | :---- | :---- | :---- | :---- |
-| trigger | The text to trigger the expansion | String | None |
-| ~~`disable-border`~~ | ~~If `true`, left blue border and padding is removed.~~ | ~~boolean~~ | ~~false~~ |
+| `label` | The text for the summary element that triggers the details to expand | String | None |
+| `open` | Value to control whether the details element is open or not | boolean | false |
+| `width` | Displays the component at a specific width | `xl` or `2xl` | None |
 | `disable-analytics` | If `true`, doesn’t fire the analytics CustomEvent used for tracking usage | boolean | false |
 
 
@@ -93,8 +93,7 @@ This approach intentionally reduces custom logic, improves reliability across as
 
 | Event name | Description |
 | :---- | :---- |
-| component-library-analytics | Analytics event emitted when the trigger anchor is clicked and `disable-analytics` is not true. |
-| resize | Custom event emitted for resize behavior (listed as a component event).  |
+| component-library-analytics | Analytics event emitted when the `<summary>` element is clicked and `disable-analytics` is not true. |
 
 
 **Note:** Expand/collapse state is managed by the browser via the \<details\> element. No custom open/close events are introduced.
@@ -115,30 +114,26 @@ This approach intentionally reduces custom logic, improves reliability across as
 ## **Example implementation code:**
 
 ```html
-<va-additional-info trigger="Why we ask for this information">
+<va-details label="Learn more about military addresses">
   <p>
-    We use this information to help verify your eligibility.
+    The United States is automatically chosen as your country if you live on a
+    military base outside of the country.
   </p>
-  <p>
-    You can still continue if you don’t have it right now.
-  </p>
-</va-additional-info>
+</va-details>
 ```
 
 ## **Example rendered code**
 
 ```html
- <details>
-  <summary>
-    <va-icon class="va-additional-info-icon hydrated"></va-icon>
-    <span class="va-additional-info-summary">Why we ask you for this information</span>
+<details class="va-details">
+  <summary class="va-details__summary">
+    <va-icon class="va-details__icon hydrated" icon="chevron_right" size="2"></va-icon>
+    Learn more about military addresses
   </summary>
-  <div class="va-additional-info__text">
+  <div class="va-details__content va-details__content--element-child">
     <p>
-      We use this information to help verify your eligibility.
-    </p>
-    <p>
-      You can still continue if you don’t have it right now.
+      The United States is automatically chosen as your country if you live on a
+      military base outside of the country.
     </p>
   </div>
 </details>
@@ -146,7 +141,10 @@ This approach intentionally reduces custom logic, improves reliability across as
 
 ## **Storybook stories**
 
-* Default  
+* [Default](https://design.va.gov/storybook/?path=/story/components-va-details--default)
+* [Open](https://design.va.gov/storybook/?path=/story/components-va-details--open)
+* [WithContentComponent](https://design.va.gov/storybook/?path=/story/components-va-details--with-content-component)
+* [Widths](https://design.va.gov/storybook/?path=/story/components-va-details--widths)
 
 
 ## **Focus management**
