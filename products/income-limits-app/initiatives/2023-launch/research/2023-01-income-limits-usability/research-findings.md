@@ -1,7 +1,7 @@
 ---
 title: "Income Limits App Usability Testing"
 product: "Income Limits application (VA health care income limits look-up tool)"
-team: "Sitewide"
+team: "Sitewide Public Websites"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
 date: "2023-05-25"
 researchers:
@@ -20,6 +20,7 @@ demographics:
   veterans: 8
   service_members: 0
   caregivers: 0
+  family_members: 1
   dependents: 0
   VA_staff: 0
   age:
