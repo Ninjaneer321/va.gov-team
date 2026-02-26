@@ -3,7 +3,7 @@
 
 **Team:** Reapers (GovCIO)
 - Slack: #reapers-team
-- 
+
 **Related tickets/docs/files**
 - [Content and IA epic](https://github.com/department-of-veterans-affairs/va.gov-team/issues/129170)
   - [IA tracker](https://github.com/department-of-veterans-affairs/va.gov-team/issues/132879)
@@ -19,7 +19,7 @@
 
 
 ## <a name="flows"></a>User/page flows
-<img width="1362" height="539" alt="Screenshot 2026-02-23 134819" src="https://github.com/user-attachments/assets/c8d8d8cc-250d-4a50-8287-78c670b50580" />
+<img width="1352" height="445" alt="Screenshot 2026-02-26 110529" src="https://github.com/user-attachments/assets/5ffce678-158a-47f3-aaaa-f90ba3ba518f" />
 
 
 ## <a name="map"></a>Placement within the VA.gov IA
@@ -67,6 +67,3 @@ Also review [Capitalization](https://design.va.gov/content-style-guide/capitaliz
 
 **3) Side navigation -- Post launch**
 - Link to be placed in Careers and employment side navigation under "Manage your career" column 
-
-**4) Cross link on [main VR&E page](https://www.va.gov/careers-employment/vocational-rehabilitation/) -- Post launch**
-- Link to be placed at the end of the "For service members and Veterans with service-connected disabilities section" of content
