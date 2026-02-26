@@ -1,105 +1,105 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "My VA 2023 Scaling On-site Notifications - Stakeholder Research Findings"
+product: "My VA"
+team: "Authenticated Experience"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-05-05"
+researchers: 
+  - "Angela Agosto"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Gather insights about action items from product owners and identify trends."
+  - "Determine if there's a clear consensus on the vision for notifications on VA.gov."
+  - "Identify any challenges or things to consider that we were not already aware of on the Authenticated Experience team."
 methodology:
-- Method 1
-- Method 2
+  - "Stakeholder interviews"
+  - "Semi-structured interviews"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 15
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 15
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 15
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 15
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 15
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 15
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "OCTO product owners have trust in the Authenticated Experience team to scale this feature and had only very high-level thoughts about how notifications might appear on VA.gov."
+  - "Product owners for VFS teams have already thought about what types of notifications are most important to surface."
+  - "We heard some common themes about challenges to consider with scaling notifications, like giving users some control so notifications don't become noise, and the need for notifications to talk to each other across channels."
+  - "A notification center on VA.gov may need to support messages as well as notifications in the future."
+  - "There will be special accessibility considerations for scaling notifications on VA.gov."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Schedule a regular touchpoint for all teams working on notifications (like how we used to have one for teams working on debt)."
+  - "Since we heard most OCTO product owners mention needing to give users some control over this feature, we need to put some thought into how to design onsite notification preferences in conjunction with VA Notify."
+  - "Start creating a list or backlog of notifications that may be potential candidates for VA.gov and include any information we have about when they will be available and what the limitations are."
+  - "A notification on VA.gov will need to exist and it will need to consider how it can also include a record of messages/all digital interactions with VA. Where it lives on the website and how those notifications are surfaced should be tested with users."
+  - "Notifications should have a hierarchy of importance and we should determine how to surface actionable notifications of the most high importance differently than informational notifications."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "We may want to test a couple different options of how to present notifications on VA.gov with users."
+  - "We will need to test the notifications feature with assistive tech users before moving forward with any solution."
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- 'MHV: Personal Health Records/Medical Records'
-- remote-research
+  - "AUD: Internal VA Stakeholders"
+  - "PRDT: My VA"
+  - "DSP: Notifications"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "MHV: Appointments"
+  - "MHV: Secure Messaging"
+  - "Accessibility"
+  - "semi-structured-interviews"
+  - "discovery"
 ---
+
 # My VA 2023 Scaling On-site Notifications - Stakeholder Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Authenticated Experience, My VA**
