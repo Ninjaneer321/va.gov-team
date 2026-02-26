@@ -1,101 +1,143 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Healthcare Experience Discovery Interviews Research Findings"
+product: "Healthcare Questionnaire"
+team: "VSA Healthcare Experience"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-07-01"
+researchers: 
+  - "Aricka Lewis"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand the current pre-appointment process for Veterans"
+  - "Identify areas to improve the current pre-appointment process"
+  - "Identify what forms Veterans are used to filling out before, during, and after an appointment"
+  - "Learn what data Veterans are currently providing to providers"
 methodology:
-- Method 1
-- Method 2
+  - "semi-structured interviews"
+  - "remote research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 7
+  service_members: 0
+  caregivers: 1
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 8
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Filling out forms is not a pain point if Veterans believe the information will benefit the care they receive."
+  - "Veterans believe that filling out digital forms would decrease wait times and optimize time with care providers."
+  - "The biggest pain point for Veterans is the handoff of information."
+  - "Currently, Veterans are not asked to fill out many forms aside from initial intake and specialty care."
+  - "Veterans who receive care from civilian and Non-VA providers are used to digitally filling out pre-visit forms."
+  - "Participants want a way to connect digital forms with their information in MyHealtheVet."
+  - "Veterans want a way to review previous answers and update when needed"
+  - "Veterans would want to fill out digital forms 2-3 days ahead of their visit."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - |
+    Observe clinicians
+    - With COVID-19 as a blocker, how can we shadow clinics?
+    - Is it possible to sit in on tele-health visits?
+  - |
+    Identify new patient forms for primary care
+    - As a new patient, you fill out your full health history
+    - How can we get physical copies of these forms?
+  - |
+    Talk with nurses and providers to walk through social history questions
+    - What is the provider "note" that is created for a primary care visit?
+    - Get a view of the actual form that nurses are filling out or asking questions from
+  - |
+    Investigate other avenues of care
+    - Is primary care the right focus area?
+    - What other VA specialty forms exist?
+    - What is the inpatient or ED experience like?
+  - |
+    Research digital forms from civilian providers
+    - Participants had good experiences with these forms for digital providers
+    - How can we create something similar that might improve the hand-off process?
+  - |
+    Draft a proposed problem statement
+    - We drafted a proposed problem statement based on these research findings
+    - Proposed problem statement: There is not currently an avenue for Veterans to consistently share and update current health status and medical history that is leveraged in their care across the VA and community providers
+  - |
+    Create personas
+    - Veteran new to using VA healthcare
+    - Veteran who uses VA healthcare and civilian care
+    - Veteran who has visited the same providers for 10+ years
+  - |
+    Create journey map
+    - Create a hybrid assumption/research-based journey map using these findings to understand where our solution may fit into the overall Veteran health journey
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Improving handoff of information from VA nurse to VA provider and from VA provider to Non-VA provider"
+  - "Enabling Veterans to consistently share and update current health status and medical history that is leveraged in their care across the VA and community providers"
+  - "Connecting digital forms with MyHealtheVet prescription information"
+  - "Pre-populating forms with previous answers and allowing Veterans to update when needed"
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Observing clinicians and shadowing clinics"
+  - "Identifying and obtaining physical copies of new patient forms for primary care"
+  - "Talking with nurses and providers to understand social history questions process"
+  - "Investigating other avenues of care beyond primary care (specialty forms, inpatient, ED)"
+  - "Researching digital forms from civilian providers"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Healthcare'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- remote-research
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "BNFT: Healthcare"
+  - "MHV: MyHealth (Health Hub)"
+  - "PRDT: Health care questionnaire"
+  - "discovery"
+  - "semi-structured-interviews"
+  - "generative"
+  - "remote-research"
+  - "DSC: Form"
 ---
+
 # Healthcare Experience Discovery Interviews - Research Findings
 **Digital Services Veterans Affairs (DSVA), VSA, Healthcare Experience**
 
