@@ -1,103 +1,130 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Modernized Check-In Experience: Bay Pines In-Person Visit Staff Interviews Research Findings"
+product: "Modernized Check-In Experience"
+team: "Healthcare Products, Modernized Check-In Experience"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2022-07-12"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Ben Brasso"
+  - "Lori Pusey"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Evaluate the effectiveness of pre-check-in and check-in with MSAs"
+  - "Identify strengths, pain points and opportunities for improvement within the check-in ecosystem"
+  - "Understand how, if at all, MSAs are using VSE-CS"
+  - "Gain insights on understanding the optimal experience for incorporating travel reimbursement into the check-in experience for Veterans"
 methodology:
-- Method 1
-- Method 2
+  - "Intercept interviews"
+  - "Observational research"
+  - "Semi-structured interviews"
+  - "Prototype testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "A few clinics were not fully ready to use PCI due to conflicting communication or unresolved clinic-specific needs, e.g., routing slips."
+  - "The kiosks were affecting the check-in experience for Veterans, e.g., using them, ignoring the check-in poster and thinking they're checked in. Additionally, too many choices at the point of check-in creates confusion for Veterans."
+  - "Confusion exists, for various reasons, among Veterans and MSAs on the difference between pre-check-in and check-in."
+  - "MSAs from a few clinics and one Veteran thought that adding travel reimbursement to check-in would be valuable."
+  - "The current travel reimbursement process for Veterans is complex due to nuances in how BTSSS works, eligibility criteria (e.g., community care vs. VA clinic appointments), claim review process, etc."
+  - "Travel assistants recommend avoiding the inclusion of options in the travel reimbursement experience for Veterans that likely lead to a denial of reimbursement, such as 'Other' fields, VTS and carpool."
+  - "Many Veterans prefer checking in with MSAs, and that's okay, while others preferred the kiosks because they're a larger screen and easier to see."
+  - "MSAs and one clinician confirmed feedback we've previously heard about the staff-facing applications; many of which are being addressed. E.g., adding last four, too much of a delay, etc."
+  - "MSAs pointed out new feedback about the staff-facing applications. E.g., no shows not working, walk-ins not working, sort within each clinic/group, etc."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Add a 'check in now' message from VeText/CHIP delivered 30 minutes before the appointment."
+  - "Test a stepped form design for check-in with Veterans as a way to better communicate the remaining steps."
+  - "Add a link on the pre-check-in confirmation page for Veterans to learn about how to check in on the day of their appointment."
+  - "Explore new naming convention for 'pre-check-in' that doesn't include 'check-in.' Specifically, draft new ideas and document usage across Veteran and staff-facing applications. Consider how names could better distinguish the steps of the check-in experience."
+  - "Explore creating a test to send a pre-check-in reminder text (via VeText/CHIP), if not completed."
+  - "As kiosks are removed, migrate remaining functionality into PCI, to the extent possible, especially as a way to improve the value of pre-check-in for Veterans, which will also help distinguish it from check-in."
+  - "Introduce travel reimbursement into PCI for Veterans to quickly file a claim during check-in."
+  - "Talk to more travel assistants at Bay Pines and Corpus Christi to better understand what information in claims they're reviewing, why it's important and how they're making decisions as a means to refine and prioritize the travel reimbursement experience within PCI."
+  - "Explore reintroducing a VA-owned check-in device in clinics – once kiosks are removed and remaining functionality has been migrated into PCI or elsewhere – to better serve the needs of Veterans that prefer a larger screen and/or have difficulty using their smartphone."
+  - "Research if there's any known QR code bugs associated with text messages not populating."
+  - "Research how a Veteran may have received both a system not operational message from CHIP and a second message with a link to start their check-in."
+  - "Revisit adding the ability to print routing slips, which is something we've heard from clinics in previous discovery sessions."
+  - "Evaluate and prioritize all feedback mentioned by MSAs and one clinician about staff-facing applications that has been previously reported. E.g., adding last four, too much of a delay, update Veteran's address, etc."
+  - "Evaluate and prioritize all new feedback mentioned by MSAs about staff-facing applications. E.g., no shows not working, multiple windows in VSE, walk-ins not working and sort within each clinic/group."
+  - "Explore adding appointment time to CHIP response when Veteran is too early for check-in."
+  - "Explore adding information related to being too late for check-in to CHIP response when Veteran is too late for check-in."
+  - "Explore removing, 'We're sorry,' from CHIP response when a Veteran needs their health insurance reviewed to avoid possible Veteran concern or frustration."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Integration of travel reimbursement into check-in experience"
+  - "Replacement of kiosks with improved VA-owned check-in devices"
+  - "Better distinction between pre-check-in and check-in processes"
+  - "Staff-facing application improvements to reduce MSA workload"
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Talk to more travel assistants at Bay Pines and Corpus Christi to better understand claim review process and decision-making"
+  - "Test stepped form design for check-in with Veterans"
+  - "Research QR code bugs associated with text messages not populating"
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Records'
-- 'PRDT: Facilities'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
+  - "AUD: Veterans"
+  - "AUD: VA Staff"
+  - "BNFT: Healthcare"
+  - "PRDT: health-care-check-in"
+  - "MHV: Appointments"
+  - "RESRCH: Interviews"
+  - "HDW: Smartphone"
+  - "HDW: Kiosk"
+  - "PRDT: Facilities"
+  - "VETSJNY: Taking care of themselves"
 ---
+
 # Modernized Check-In Experience: Bay Pines In-Person Visit Staff Interviews Research Findings 
 
 **Office of the CTO - Digital Experience (OCTO-DE), Healthcare Products, Modernized Check-In Experience**
