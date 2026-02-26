@@ -1,108 +1,126 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "My VA Redesign 2 Research Findings"
+product: "My VA"
+team: "Authenticated Experience"
+office: "Digital Services Veterans Affairs (DSVA), VSA"
+date: "2021-03-03"
+researchers: 
+  - "Tressa Furner"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand user comprehension of the My VA page after a full re-structure and re-design"
+  - "Determine if there is enough relevant information on the dashboard to be valuable"
+  - "Assess if users can find the tools and tasks they are looking for effectively"
+  - "Evaluate if users can easily access and understand personal updates related to claims, health care, or forms"
+  - "Compare if the new dashboard layout is more effective than the current My VA page"
 methodology:
-- Method 1
-- Method 2
+  - "Remote moderated usability testing"
+  - "High-fidelity prototype testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 8
+    assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 8
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 8
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 4
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Users easily found the information that they were looking for and completed tasks. Overall, the information we have on My VA seems helpful."
+  - "All users stated that My VA met or exceeded their expectations."
+  - "There was a tie on preferring the homepage to My VA (4 to 4), but many participants mentioned how much they appreciated the personalization of My VA."
+  - "People generally understood the difference between the My VA dashboard and the Profile, and they were able to accurately describe the profile in their own words."
+  - "All users easily found and understood the disability rating and how to get more information on their disability ratings."
+  - "Users found the grey boxes in appointments and claims & appeals to be useful."
+  - "Users easily understood the applications in progress section and how to complete and submit an application."
+  - "Users wanted My VA to be more 'actionable'."
+  - "No participants had a firm understanding of the 'totals' displayed on the page in all sections."
+  - "Many users mentioned that they did not need the grey boxes in messages and prescriptions, they found it confusing and redundant."
+  - "All users were confused with the verbiage and information shown in the prescriptions sections."
+  - "No users were able to find My VA in the Menu dropdown on their own."
+  - "Users generally understood the 'Apply for benefits' section, but were confused about why we were showing the benefit in 'Benefits you might be interested in'."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Remove grey boxes in messages and prescriptions."
+  - "Keep totals for messages, but remove totals for appointments, claims and prescriptions. Replace with a 'Manage all X' CTA."
+  - "Update CTA verbiage to be more actionable (i.e. Manage all prescriptions) in all sections."
+  - "Make the 'What benefits does the VA offer' dropdown more visible, or move to the top of section."
+  - "Eventually add in payment history and a notification hub when time/functionality allows."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Payment history (mentioned by 6 participants)"
+  - "Personal notifications (mentioned by 4 participants)"
+  - "GI Bill information - specifically how much money and time is left (mentioned by 3 participants)"
+  - "Information about home loans (mentioned by 3 participants)"
+  - "Direct deposit (mentioned by 2 participants)"
+  - "Contact information for the VA for each section (mentioned by 2 participants)"
+  - "Specific CTAs for healthcare - schedule/cancel appointments, send a message (mentioned by 4 participants)"
+  - "Doctor appointments and appointment type in appointment boxes (mentioned by 4 participants)"
+  - "When prescriptions are going to be arriving (mentioned by 2 participants)"
+  - "Move 'What benefits does the VA offer' to top of page or make more visible (mentioned by 4 participants)"
+  - "Eligibility requirements (mentioned by 2 participants)"
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Test My VA navigation in the Menu dropdown with real website implementation to assess findability outside of prototype constraints"
+  - "Test with real user data on staging environment to validate design decisions"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'BNFT: Housing'
-- 'BNFT: Records'
-- 'PRDT: My VA'
-- 'MHV: Appointments'
-- 'MHV: Pharmacy'
-- 'MHV: Secure Messaging'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "PRDT: My VA"
+  - "MHV: Appointments"
+  - "MHV: Secure Messaging"
+  - "MHV: Pharmacy"
+  - "PRDT: Claim-status-tool"
+  - "BNFT: Disability"
+  - "usability-testing"
+  - "moderated-research"
+  - "HDW: Smartphone"
 ---
+
 # My VA Redesign 2 Research Findings 
 **Digital Services Veterans Affairs (DSVA), VSA, Authenticated experience**<br>
 
