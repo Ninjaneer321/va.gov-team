@@ -3,8 +3,8 @@
 
 ## Test Case Documentation
 QA was performed manually by team members.
-* Test cases (Github - sensitive repo)
-* _Test cases xls TK_
+* TK _Test cases (Github - sensitive repo)_
+* TK _Test cases xls_
 
 
 ## Defect report
