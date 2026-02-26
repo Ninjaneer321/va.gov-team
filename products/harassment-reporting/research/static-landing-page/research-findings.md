@@ -1,7 +1,7 @@
 ---
 title: "Harassment Reporting Landing Page & Poster Research Findings"
-product: "Harassment Reporting"
-team: "VSA, Public Websites"
+product: "Harassment Reporting Landing Page"
+team: "Public Websites"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
 date: "2022-04-05"
 researchers:
@@ -95,13 +95,7 @@ kpi_alignment: []
 outcomes:
   user: "Not specified in findings report"
   business: "Not specified in findings report"
-opportunity_areas:
-  - "Need for simplified harassment reporting process that reduces burden on reporters"
-  - "Need for online reporting capability"
-  - "Need for 24-hour phone support for reporting"
-  - "Need for comprehensive communication plan across VA facilities"
-  - "Need for trauma-informed training for VA staff receiving harassment reports"
-  - "Need to address underlying skepticism about whether VA will take meaningful action on reports"
+opportunity_areas: []
 further_research_needed:
   - "Additional user research on the landing page and poster once they have been revised"
   - "Research with more screen reader users (this study had only one but planned for three)"
@@ -115,12 +109,7 @@ synthesis_tools_used:
   - "Synthesis spreadsheet"
 tags:
   - "AUD: Veterans"
-  - "BNFT: Healthcare"
   - "PRDT: Content"
-  - "PRDT: Facilities"
-  - "DSC: Alert Boxes"
-  - "DSC: Button"
-  - "DSC: Links"
   - "DSP: Content Presentation"
   - "usability-testing"
   - "moderated-research"
