@@ -66,7 +66,7 @@ demographics:
     hearing_aids: 0
     sighted_keyboard: 0
     captions: 0
-key_findings:
+  key_findings:
   - "A few clinics were not fully ready to use PCI due to conflicting communication or unresolved clinic-specific needs, e.g., routing slips."
   - "The kiosks were affecting the check-in experience for Veterans, e.g., using them, ignoring the check-in poster and thinking they're checked in. Additionally, too many choices at the point of check-in are creating confusion."
   - "Confusion exists, for various reasons, among Veterans and MSAs on the difference between pre-check-in and check-in."
