@@ -1,97 +1,126 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "10-7959f-1 (FMP Registration) Stakeholder Research Findings"
+product: "Foreign Medical Program (FMP) - Form 10-7959f-1"
+team: "Not specified"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "Not specified"
+researchers: 
+  - "Not specified"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Not specified in report"
 methodology:
-- Method 1
-- Method 2
+  - "Stakeholder interviews"
+  - "SME interviews"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 4
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 4
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 4
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 4
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 4
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 4
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - |
+    Documents often come in by mail but can be sent by email (especially from the Philippines), fax, and AskVA. Emails sometimes take longer than mailing things because the email must be printed and scanned into the system. Many emails must be translated, which adds time (especially if it's not a common language). Many emails come from the Philippines, and often in large batches.
+  - |
+    The lack of electronic funds transfers (EFTs) is a significant pain point. One of the biggest complaints FMP hears is that they don't do EFT - they only pay by paper check, specifically US Treasury Checks. This is a significant bottleneck because the Treasury takes 7-15 days to cut a check. Then, the check has to be mailed, which takes additional time and might be misdelivered if foreign addresses are complex. The system limits address lines to 30 characters, so sometimes FMP has to guess how to abbreviate things. After a long wait, progress is finally being made on implementing EFT.
+  - |
+    Automation and digitization would significantly decrease processing time and errors. Handwriting can be hard to read. Scan quality might be poor. All received mail is routed with bubble sheets, and there are errors all the time - they might be mismarked or misread by the machine and routed inappropriately. Sometimes, it takes days to discover the error. Data has to be manually entered from the scan of the paper form into VISTA, which leaves room for typos. You have to abbreviate the service-connected conditions because of character count limitations. Not everyone abbreviates the same way. Data has to be manually transferred and checked between VIS, VBMS, and VISTA. Service-connected conditions have to be manually grouped by date and type - this adds extra burden. The only way to know what the Veteran will see is by printing out the letter - you can't see a preview in any VA systems. There are concerns over lost documents in the process, leading to failed claims or applications.
+  - |
+    The VA already has all the information a Veteran needs to complete an application - it's just located in disparate systems that don't talk to each other. In an ideal world, FMP wouldn't need a registration form at all because the systems (VIS, VBMS, and VISTA) could talk to each other. Veterans would be automatically registered as soon as they have a service-connected condition - the Veteran wouldn't have to do anything at all. Much of the stakeholder sentiment aligned with what was expressed in previous stakeholder research around ensuring that current in-development systems are being designed to work together and in a way that reduces manual burden.
+  - |
+    Stakeholders want more transparency around the program, both in terms of awareness and decision-making. Some Veterans feel like FMP is a black hole - specifically, whether they choose to reimburse or not. However, FMP says they'll pay for any claim related to a service-connected condition. Leaders have done a podcast, and there are also existing YouTube videos. They want to do more videos for the SITREP YouTube channel. A few stakeholders mentioned they wished they had a portal or dashboard so veterans could see the status of their claims. This would cut down claims to the call center and Congressional inquiries.
+  - |
+    Stakeholders are concerned about fraud, particularly from providers. Some participants expressed concern about fraud committed by providers since FMP is known for their generous reimbursement policy.
 recommendations:
-- Recommendation 1
-- Recommendation 2
+  - "Publicize and redirect to the digitized registration form. This may reduce the volume of emails and decrease processing time and burden."
+  - "Consider exploring existing automation for translation through VA.Gov services and how that can be used through our form (and potentially the claims form in the future?) to avoid this situation entirely or reduce the burden."
+  - "Continue to research existing products or services through our collaborations at OCTO to help facilitate better communication and outreach. VA Notify is still an excellent example of how we may be able to automatically communicate with Veterans about the status of their registration or claims."
+  - "Continue to collaborate with the stakeholders on their vision and execution for enabling EFT capabilities. Look for opportunities where the form digitization effort or service insights can help as well."
+  - "To reduce error rates and processing time, look for more opportunities to eliminate or work around swivel chair interactions or paper processes. Based on the research, these are the areas in which the most errors and time are lost."
+  - "An excellent example of the type of potential opportunities we are looking for lies in the character limits for VISTA. In the future, we should recommend that the information we push from the form to VISTA has no character limits or that we pass the information in a different way that doesn't result in a need to abbreviate."
+  - "In the future, consider how we can assist in the effort to auto-enroll Veterans in the FMP and eliminate the need for the registration form."
+  - "An example of how this could work moving forward is by identifying the plans and gaps through continued investigation and passing on recommendations to teams working on projects that can facilitate auto-enrollment."
+  - "Consider adding the Veteran's email to the form, emailing Veterans when their registration has been added or claim has been processed."
+  - "Both the business and design should look for opportunities to limit the risk of fraud, especially when expanding into the digital space where exposure is likely to grow. Moving forward, this will be increasingly important to consider during our design process."
+  - "An example of where this may come into play is working with the business to establish warning signs of potential fraud (medication over a certain dollar amount) and flagging those in the metadata so the correct personnel can be notified or the claim can be automatically flagged for additional review."
 kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Reduce claims adjudication time from 125 days to 45 days target"
+  - "Process 90% of claims within 45 days (currently averaging 120 days)"
+  - "Process 90% of applications within 30 days"
+  - "Increase registrations complete to 3 to 3.5 per hour"
+  - "Achieve backlog burndown target of 403 daily"
+  - "Eliminate backlog by end of fiscal year"
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not explicitly specified in report"
+  business: "Not explicitly specified in report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Auto-enrollment of Veterans in FMP to eliminate registration form requirement"
+  - "Electronic funds transfer (EFT) implementation to replace paper checks"
+  - "System integration between VIS, VBMS, and VISTA to reduce manual data entry"
+  - "Translation automation for foreign language documents"
+  - "Veteran-facing portal or dashboard for claims status transparency"
+  - "Fraud detection and prevention in digital claims processing"
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "FMP OKRs and KPIs analysis"
+  - "SME interviews with FMP staff"
+synthesis_tools_used: []
 tags:
-- 'BNFT: Healthcare'
-- 'MHV: Pharmacy'
+  - "AUD: VA Staff"
+  - "AUD: Internal VA Stakeholders"
+  - "BNFT: Healthcare"
+  - "PRDT: CHAMPVA"
+  - "Internal Research: Platform Research"
+  - "DSC: Form"
+  - "Discovery"
+  - "Stakeholder interviews"
+  - "Claims processing"
+  - "Service design"
 ---
 # 10-7959f-1 (FMP Registration) Stakeholder Research Findings
 
