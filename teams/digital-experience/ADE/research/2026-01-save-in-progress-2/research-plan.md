@@ -1,10 +1,10 @@
 ---
 # Research Plan Metadata
-title: "Research Plan for ADE, Save in Progress (2nd round), 2026-01"
+title: "Research Plan for Save in Progress (2nd round of usability testing), 2026-01"
 date: 2026-02-26
 last_updated: 2026-02-26
 team: "ADE (Accessibility Digital Experience)"
-product: "Save in Progress (VA.gov forms save-in-progress / autosave pattern)"
+product: "Save in Progress for online VA.gov forms"
 product_area: "authenticated"
 
 # Background Context
