@@ -1,95 +1,117 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "MHV Drug Image Display Usability Research Findings"
+product: "My HealtheVet (MHV) Pharmacy"
+team: "MHV Pharmacy"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2023-03-10"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Not specified in document"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate drug image ease of use and navigability: Determine if the location of the image makes sense to Veterans and discover when/if Veterans need a drug image"
+  - "Determine if the proposed design changes on the Medication Details page are helpful to the Veteran's needs: Evaluate Veteran's ease of navigability and ability to accomplish tasks in new designs"
+  - "Determine the purpose of Veteran's visiting the Medication Details page, and what can be done to facilitate those needs"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "Task-based testing"
+  - "Semi-structured interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 19
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 19
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 19
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 0
+    "45-54": 1
+    "55-64": 1
+    "65+": 16
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 2
+    some_college: 7
+    associates: 4
+    bachelors: 2
+    masters: 4
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 6
+    rural: 13
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 16
+    black: 0
+    hispanic: 2
+    biracial: 0
+    asian: 0
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 5
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 4
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "10 out of 19 participants had no other reason to visit the Refill VA Prescriptions page"
+  - "7 out of 19 didn't know the Medication Details page existed"
+  - "For those that visit the Medication Details page, most (8 out of 12) do so to check updated information about the medication they are taking; prescription number, reason for taking, etc."
+  - "Almost nobody interviewed (1 out of 19) have ever needed or referenced needing an image of their drug"
+  - |
+    18 out of 19 have experienced drug color and/or shape changing randomly
+      - 6 out of 18 'trust the VA'
+      - 3 call the pharmacy, 3 search on Google, 3 use Secure Messaging to confirm they are taking the right medication
+  - "4 out of 19 didn't open any dropdowns when exploring the new Details page"
+  - |
+    16 out of 19 found the Prescriber name under the Prescription Label Information accordion
+      - 16 out of 19 expected what was found in the Prescription Label Information
+  - "6 out of 19 recognized the Prescription Label Information is what is found on a prescription bottle"
+  - |
+    3 out of 19 found the drug image in response to the prompt given
+      - 11 out of 19 responded positively to the drug image location after being guided to the image
+      - 3 opened the Fill/Refill accordion and didn't see 'View Image'
+  - "9 out of 19 suggested a description higher on the page for easier access"
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Leave drug image in Fill/Refill History, but change wording to 'Fill/Refill History, Drug Images'. Our data shows that Veterans don't need images very often, and don't rely on images to confirm accuracy of their medication. Giving Veterans immediate access to drug images may give the wrong impression of what the tool is meant for and exacerbate concerns about medication accuracy. Furthermore, the Fill/Refill History accordion is not used by Veterans often, which creates an environment for Veterans to discover the drug image feature rather than having it be the first thing they see."
+  - "Add a 'Description' indication field in the Prescription Information section at the top of the page. Having a description was suggested by several Veterans and would not only help Veterans recognize their prescriptions, but it also gives Veterans a clear place to search for a drug image if they need one."
+  - "Due to the success and positive response to the new design systems tested on the Medication Details page, we recommend implementing the tested changes such as the Prescription Information field and accordion menus to the Medication Details page"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  user: "Not specified in document"
+  business: "Not specified in document"
+opportunity_areas: []
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Does the redesigned Medication Details page provide all the information Veterans need to see? Is there any data missing?"
+  - "Can Veterans easily understand the different informational fields and the data in them?"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Gay, lesbian, or bisexual"
+  - "Black, Asian"
+  - "Veterans with a cognitive disability"
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Pharmacy"
+  - "MHV: MyHealth (Health Hub)"
+  - "DSC: Accordions"
+  - "DSP: Content Presentation"
+  - "HDW: Desktop"
+  - "usability-testing"
+  - "evaluative"
+  - "DSC: Links"
 ---
 
 # **MHV Drug Image Display Usability Findings Report**
