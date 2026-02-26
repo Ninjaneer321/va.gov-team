@@ -58,8 +58,6 @@ _The following steps are performed by the **Platform Support Tier 1** team. Deta
 ### Support Tier 2 - DevOps 🌷
 _The following steps are performed by **Platform Support Tier 2 DevOps**. Detailed instructions found [here](https://vfs.atlassian.net/wiki/spaces/OT/pages/2097545323/Offboard+Team+Member)_
 
-- [ ] SOCKS access removed (if applicable. Search their email in [config.yml](https://github.com/department-of-veterans-affairs/devops/blob/master/ansible/global/config.yml))
-   > Use the [Remove SOCKS and AWS access Github Workflow](https://github.com/department-of-veterans-affairs/devops/actions/workflows/offboarding.yml). You'll need the user's email address associated with their public key (found in `config.yml`). Merge the PR.
 - [ ] AWS access removed (if applicable. Search their name in [AWS IAM](https://console.amazonaws-us-gov.com/iamv2/home#/home))
    > Use the same [SOCKS and AWS access Workflow](https://github.com/department-of-veterans-affairs/devops/actions/workflows/offboarding.yml) to remove user's entry from [iam_users.tf](https://github.com/department-of-veterans-affairs/devops/blob/master/terraform/environments/global/iam_users.tf). You'll need the user's AWS username (typically `First.Last`). Merge the PR and apply Terraform.
 - [ ] Datadog (if applicable. Check [Datadog users](https://vagov.ddog-gov.com/organization-settings/users))
