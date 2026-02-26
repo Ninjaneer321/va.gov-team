@@ -9,7 +9,7 @@ In oracle_health_prescription_adapter.rb, this logic determines inactive status:
 
 We think/assume that VistA meds follow the same logic.
 
-## Logic for v2 statuses
+### Logic for v2 statuses
 
 | Expired? | Expiration Window | Refills Remaining | V2 Status 
 |----------|-------------------|-------------------|-----------
