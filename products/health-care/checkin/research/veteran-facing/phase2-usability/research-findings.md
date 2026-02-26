@@ -18,10 +18,10 @@ methodology:
   - "Usability testing"
   - "Remote moderated research"
 devices_used:
-  desktop: 0
-  tablet: 0
-  smartphone: 9
-  assistive_technology: 0
+    desktop: 0
+    tablet: 0
+    smartphone: 9
+    assistive_technology: 0
 participants_total: 9
 demographics:
   veterans: 9
@@ -31,11 +31,11 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
-    "65+": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
+    65+: 0
     unknown: 9
   education:
     high_school: 0
