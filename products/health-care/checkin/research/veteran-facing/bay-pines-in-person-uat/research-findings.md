@@ -35,7 +35,7 @@ demographics:
     "45-54": 0
     "55-64": 0
     "65+": 0
-    "unknown": 17
+    unknown: 17
   education:
     high_school: 0
     some_college: 0
@@ -55,6 +55,7 @@ demographics:
     biracial: 0
     asian: 0
     native: 0
+    unknown: 17
   disability:
     cognitive: 0
     AT_beginner: 0
