@@ -7,7 +7,7 @@
 1. **The filter "Update list" button causes silent failures** - Users select filters but don't click "Update list," believing the list has changed when it hasn't
 2. **Wayfinding between pages is fragile** - Users frequently struggled to find the right page for their task, and the cross-links designed to connect pages were often overlooked or misunderstood
 
-**The central tension:** The new design separates medications across three distinct pages, but users don't arrive with a mental model of this three-page structure. They expect "Medications" or "Refill VA medications" to show them everything. When it doesn't, they need to find their way to another page—and the mechanisms for doing so are not working reliably.
+**The central tension:** The new design separates medications across three distinct pages, but users don't arrive with a mental model of this three-page structure. They expect "Medications" or "Refill VA medications" to show them everything. When it doesn't, they need to find their way to another page and the mechanisms for doing so are not working reliably.
 
 ---
 
