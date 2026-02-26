@@ -1,4 +1,4 @@
-See below for each acceptance criteria details and notes.
+# Styling and Accessibility Notes for Genesys Chatbot Widget
 
 ## Widget primary color matches approved brand color
 
