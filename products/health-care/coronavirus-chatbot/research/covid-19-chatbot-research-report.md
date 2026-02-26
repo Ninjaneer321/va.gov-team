@@ -1,95 +1,116 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "COVID-19 Chatbot Research Findings"
+product: "COVID-19 Chatbot"
+team: "Not specified"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2020-04-07"
+researchers: 
+  - "Todd Stanich"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how Veterans seek out information about COVID-19."
+  - "Validate if a chatbot provides satisfactory information and a positive experience."
+  - "Identify the preferred experience to interact with a chatbot (through guided prompts, free text, or hybrid)."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 5
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 5
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 5
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
-recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    There is an overwhelming amount of information available about COVID-19 making reputable and "official" sources highly valued.
+    Veterans have no lack of information about COVID-19. Some described the amount of information as, "overwhelming". Sources referenced include the news, facebook, government agencies, healthcare providers, and friends and family. 
+    Key Takeaways:
+    1. The source of information is important. Most participants mentioned specific sources of information they avoided or considered to not be reputable. Participants placed value on information from "official" sources such as the CDC and local government.
+    2. The VA is not always considered for COVID-19 information, but when it is, it is viewed as a reputable source. Some participants had significant interaction with the VA and looked to the organization for COVID-19 information while other participants did not consider the VA as a resource for COVID-19 information.
+  - |
+    Chatbots provide an effective method of navigating and communicating a broad range of COVID-19 topics Veterans are seeking.
+    The chatbot prototypes tested well with all participants finding some value. Participants who regularly interact with the VA found the most value in the chatbot prototypes.
+    Key Takeaways:
+    1. Each Veteran has specific topics about COVID-19 that they find more important and relevant. Participants were looking for information such as symptoms, precautions to take when leaving the house, VA facility closures, and the latest treatment options.
+    2. Most participants said if they were aware of this tool, they would consider using it before calling the VA with a question. The most common reason for considering the chatbot over calling was being able to obtain information more quickly.
+    3. Some participants responded favorably to the chatbot directing them to other VA services, such as secure messaging and telehealth.
+  - |
+    Click through decision tree interaction is favored over strictly free text entry.
+    Participants were more successful obtaining a suitable answer using the decision tree prototype over the free text prototype. Participants were also less likely to encounter undesired or confusing results.
+    Key Takeaways:
+    1. When the free text entry prototype responded with a relevant answer, participants responded positively. When it failed to understand the question or returned an answer that was only somewhat relevant, participants were frustrated or confused.
+    2. The click through decision tree prototype was more likely to lead to the desired information without a mismatch in expectations between the chatbot and user.
+    3. Some participants identified use cases for both free text and the decision tree interaction model. When the free text chatbot responded with an appropriate answer it was reached more quickly by entering text than using the decision tree which requires more clicks.
+  - "Some participants entered single keywords in the free text prototype instead of fully formed questions."
+  - "One participant entered proper names of stores instead of generic names (CVS instead of pharmacy) in the free text prototype which caused the chatbot to not understand the question."
+  - "Some participants expected to be able to scroll back through the conversation and click on any button in the previous conversation."
+  - "Some participants missed that they needed to type \"yes\" or \"no\" to be able to ask another question."
+  - "Some participants expected to be able to ask follow up questions that were in context of the original question."
+recommendations: []
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  user: "Not specified"
+  business: "Not specified"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Content"
+  - "PRDT: COVID-vaccine-distribution"
+  - "usability-testing"
+  - "semi-structured-interviews"
+  - "evaluative"
+  - "DSP: Help users to navigate a long list"
+  - "DSP: Contextual Help"
+  - "information-architecture"
 ---
 
 # COVID-19 Chatbot Research Report
