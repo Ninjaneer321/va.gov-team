@@ -146,6 +146,10 @@ To ensure a destructive button conforms to accessibility requirements defined by
   color: #ffffff; /* white text */
 ```
 
+### Open Questions
+
+An accessible destructive button ensures clarity, user awareness, and supports careful decision-making through clearly indicated consequences, well-defined semantic elements, sufficient contrast, and confirmation of potentially irreversible actions, adhering closely to WCAG and Section 508 compliance.
+
 ---
 
 ## ADR 002 - Remove radio as buttons guidance
@@ -179,5 +183,3 @@ This variation substitutes the large tap target of a button where a radio button
 If teams do decide to use Radio's as buttons it will be more challenging for teams to revive guidance that has been deprecated. 
 
 ### Open Questions
-
-An accessible destructive button ensures clarity, user awareness, and supports careful decision-making through clearly indicated consequences, well-defined semantic elements, sufficient contrast, and confirmation of potentially irreversible actions, adhering closely to WCAG and Section 508 compliance.
