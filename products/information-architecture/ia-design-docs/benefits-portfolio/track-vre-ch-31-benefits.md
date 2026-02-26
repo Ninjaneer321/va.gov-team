@@ -19,11 +19,11 @@
 
 
 ## <a name="flows"></a>User/page flows
-<img width="1352" height="445" alt="Screenshot 2026-02-26 110529" src="https://github.com/user-attachments/assets/5ffce678-158a-47f3-aaaa-f90ba3ba518f" />
+<img width="1420" height="486" alt="Screenshot 2026-02-26 163728" src="https://github.com/user-attachments/assets/a3e7f418-5eb1-438a-ac4b-36b7fe0fc487" />
 
 
 ## <a name="map"></a>Placement within the VA.gov IA
-<img width="193" height="730" alt="Screenshot 2026-02-23 134007" src="https://github.com/user-attachments/assets/9b319df7-326c-4b36-9a69-6275c242de60" />
+<img width="156" height="827" alt="Screenshot 2026-02-26 164002" src="https://github.com/user-attachments/assets/e86629ca-72f0-439f-892d-eea08743f0d0" />
 
 
 ## <a name="urls"></a>URL, breadcrumb, and title guidance
@@ -36,21 +36,25 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 
 Also review [Capitalization](https://design.va.gov/content-style-guide/capitalization) for standards for headings vs.title tags
 
-**Track your VR&E benefits**
-  - URL:  va.gov/careers-employment/track-your-vre-benefits/
-  - Breadcrumb:  VA.gov home > Careers and employment > Track your VR&E benefits 
+**Manage your VR&E benefit enrollment -- new (Drupal entry page, created by content team)**
+  - URL:  va.gov/careers-employment/manage-vre-enrollment/
+  - Breadcrumb:  VA.gov home > Careers and employment > Manage your VR&E benefit enrollment
+  - **Note: The log in component for the tool will be placed on this page**
+
+**Track your VR&E benefits -- new (tool managed by Reapers team)**
+  - URL:  va.gov/careers-employment/manage-vre-enrollment/track-your-vre-benefits/
+  - Breadcrumb:  VA.gov home > Careers and employment > Manage your VR&E benefit enrollment > Track your VR&E benefits 
     - Per the standard breadcrumb component, the last segment of the breadcrumb must match the H1 of the page exactly
   - Browser title: [H1 of introduction page in title case] | Veterans Affairs
     - Track Your VR&E Benefits | Veterans Affairs
   - **Note: Use "Veteran Readiness and Employment (Chapter 31)" on first mention in intro body text instead of VR&E**
 
-
 **Structuring URLs for individual pages within the tool flows**
 - All pages within form flows will exist as child pages of the core/canonical URL.
   - Examples:
-      - va.gov/careers-employment/track-your-vre-benefits/application-received/
-      - va.gov/careers-employment/track-your-vre-benefits/orientation-video/
-      - va.gov/careers-employment/track-your-vre-benefits/counselor-appointment/
+      - va.gov/careers-employment/manage-vre-enrollment/track-your-vre-benefits/application-received/
+      - va.gov/careers-employment/manage-vre-enrollment/track-your-vre-benefits/orientation-video/
+      - va.gov/careers-employment/manage-vre-enrollment/track-your-vre-benefits/counselor-appointment/
   - Please refer to [URL standards for form flows](https://design.va.gov/components/url-standards/#guidelines-for-urls-in-form-flows) when defining the URLs for these pages. This is not a form but follows many of the same principles. Reach out to #content-ia-centralized-team with any questions.
 
 
@@ -59,11 +63,13 @@ Also review [Capitalization](https://design.va.gov/content-style-guide/capitaliz
 
 **Please note:** The Governance Team requires a preview link of the primary entry point as a part of staging review in the Collaboration Cycle. It may be a launch-blocking issue. Please work with Content and IA team in advance for these updates.
 
-**1) Careers and employment hub page - va.gov/careers-employment/ -- Required for launch**
-  - Link will be placed under "Manage your career and employment benefits" section
+**1) Manage your VR&E benefit enrollment -- new (Drupal entry page, created by content team) -- Required for launch**
+  - URL:  va.gov/careers-employment/manage-vre-enrollment/
+  - Breadcrumb:  VA.gov home > Careers and employment > Manage your VR&E benefit enrollment
+  - **Note: The log in component for the tool will be placed on this page. This page will be added to the Careers and employment hub page under the "Manage..." section**
 
 **2) Main navigation -- Post launch**
-- Link to be placed in Careers and employment mega-menu under "Manage your career" column   
+- Link to be placed in Careers and employment mega-menu under "Manage your career" column to primary entry page   
 
 **3) Side navigation -- Post launch**
-- Link to be placed in Careers and employment side navigation under "Manage your career" column 
+- Link to be placed in Careers and employment side navigation under "Manage your career" column to primary entry page
