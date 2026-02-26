@@ -1,95 +1,128 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Health Questionnaire Clinical Reminders Staff Interviews Phase 1b Research Findings"
+product: "Health Questionnaire - Clinical Reminders"
+team: "Not specified"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2024-04-25"
+researchers: 
+  - "Not specified"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Compare and contrast the BHL screening to with the eScreening tool"
+  - "Assess how easy it was to learn to use the tool"
+  - "Assess how easy the configuration/set up process was for the tool"
+  - "Determine how long it took to learn to use the tool"
+  - "Understand if providers would change anything about the training they received"
+  - "Assess how easy the tool is to utilize"
+  - "Determine if data entry was simplified"
+  - "Determine if notification fatigue was reduced"
+  - "Determine if overall clinic reminder burden was reduced"
+  - "Assess if the quality of the time providers spend with patients improved"
+  - "Identify which tool is preferred to reduce overall clinical reminder burden for providers, including data entry and notification fatigue"
+  - "Understand if providers perceive digital questionnaires to be a safe way to gather this information from Veterans"
+  - "Identify areas to improve the ease of use for both tools"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Crossover trial"
+  - "Semi-structured interviews"
+  - "Moderated remote sessions"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 6
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 6
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 6
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 6
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 6
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    Onboarding included a Teams meeting, a channel for follow-up questions, weekly touch point for questions, and "additional" training materials. This structure seemed adequate for staff.
+  - "The eScreening tool had technical issues during onboarding which caused delays in the roll-out; this resulted in an unnecessarily long onboarding process and created stress for staff. [Note: Finding appears truncated in source document]"
+  - "When staff was asked to rate the ease of learning and the use of the tool, BHL averaged 1 (very easy) and eScreening averaged 4 (difficult); however, the challenges in learning eScreening were attributed to technical problems rather than the tool's design. [Note: Finding appears truncated in source document]"
+  - "eScreening had substantial technical problems during the entire course of Phase 1b; eScreening caused so much disruptions to staff's workflow that Minneapolis was forced to abandon the tool. [Note: Finding appears truncated in source document]"
+  - "At least 3 participants found BHL to integrate well into existing tools and processes; and had a positive impact on staff's workflow. On the other hand, the eScreening staff had difficulties integrating the tool into their workflow. [Note: Finding appears truncated in source document]"
+  - "Almost every eScreening participant stated the tool complicated their data entry. For example, eScreening's processes for sending and receiving notifications were unnecessarily laborious. [Note: Finding appears truncated in source document]"
+  - |
+    Some participants noted that neither tool made difference in alleviating their clinical reminder burden when rooming patients. However, some BHL staff said their workload was improved, while most eScreening staff said their burden increased:
+    - BHL Users:
+      - 1 saw no change
+      - 1 noted a reduction
+      - 1 was delighted
+    - eScreening Users:
+      - 1 saw no change
+      - 2 said burden increased
+  - "Even though most staff liked the idea of having the screeners sent out to Veterans, they wished for digitizing more screeners to save staff time and increase the quality of time spent with patients. [Note: Finding appears truncated in source document]"
+  - "Overall, 4 out 5 participants believed BHL and eScreening maintained a level of safety and clinical integrity."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Keep the training process the same."
+  - "Make sure the tool set up is complete before training staff."
+  - "Explore automating as many steps/processes as possible in the screener software to simplify staff's data entry."
+  - "Do further research to determine whether more questions added to screeners would make a difference in time savings during rooming. In addition, since the pilot screeners were not fully integrated, conduct research on fully integrated screeners. [Note: Recommendation appears truncated in source document]"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Digitizing additional screeners beyond pilot scope to reduce staff burden"
+  - "Automating workflow steps to reduce data entry complexity"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Determine whether adding more questions to screeners would improve time savings during patient rooming"
+  - "Test fully integrated screeners in clinical workflow"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: VA Staff"
+  - "AUD: Clinicians"
+  - "BNFT: Healthcare"
+  - "Initiative: PACT Act"
+  - "MHV: MyHealth (Health Hub)"
+  - "semi-structured-interviews"
+  - "evaluative"
+  - "usability-testing"
+  - "Internal Research: Platform Research"
+  - "PRDT: Health-Questionnaire"
 ---
 
 # Research Findings for Health Questionnaire, Clinical Reminders Veteran Interviews pilot 1b staff interviews, November 2023
