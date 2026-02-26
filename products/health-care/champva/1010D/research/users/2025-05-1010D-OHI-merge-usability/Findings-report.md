@@ -1,95 +1,134 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "10-10d/10-7959c Merge Usability Research Findings"
+product: "VA Forms 10-10d/10-7959c Application for CHAMPVA Benefits (with Other Health Insurance Certification)"
+team: "IVC Forms Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "2025-08-25"
+researchers: 
+  - "Renata Keck"
+  - "Jamie Fiore"
+  - "Rachel Pope"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand whether the placement of the 10-7959c within the 10-10d application for CHAMPVA benefits works better than the standalone forms, as it relates to form submission and time on task."
+  - "Understand if the placement of the 10-7959c within the 10-10d form works better for users, specifically as it relates to providing all necessary and required supporting evidence."
+  - "Get user feedback on the V3 file upload component."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated usability testing"
+  - "Semi-structured interviews"
+  - "Content comprehension testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 12
+    tablet: 1
+    smartphone: 5
+    assistive_technology: 5
+participants_total: 18
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 14
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 4
+  VA_staff: 0
+  age: 
+    "25-34": 1
+    "35-44": 0
+    "45-54": 5
+    "55-64": 4
+    "65+": 8
+    unknown: 0
+  education: 
+    high_school: 2
+    some_college: 4
+    associates: 3
+    bachelors: 3
+    masters: 5
+    doctorate: 0
+    unknown: 1
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 18
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 10
+    black: 2
+    hispanic: 4
+    biracial: 1
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 1
+    AT_beginner: 2
+    AT_advanced: 3
+    screen_reader_desktop: 1
+    screen_reader_mobile: 1
+    magnification_zoom: 5
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Most participants (14 of 18) self-reported that the 10-10d/10-7959c form was 'easy' or 'very easy.'"
+  - "Participants had mixed understanding about the supporting documentation required to submit their 10-10d/10-7959c application, based on the content on the Introduction page of the form."
+  - "Participants struggled with terms used to designate the person filling out the application ('Signer'), the Veteran ('Sponsor'), and their dependents ('Applicants'). This confusion resulted in difficulty completing the Signer, Sponsor, and Applicant sections of the form."
+  - "While users had no trouble navigating into and out of the 10-7959c subform, there were specific usability concerns with the Medicare and Health Insurance multiple responses (list and loop)."
+  - "While users did not struggle with the length of the merged form, 4 users reported that the form felt 'tedious,' and 6 of 18 reported that the questions were repetitive to the point of confusion."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - "Inform the users about the CHAMPVA program: Include more information on the form introduction page about who qualifies for the program and what it is used for. Adding the form names to the header helps orient users to which form they are currently filling out."
+  - "Help users feel more prepared to complete the form: Add more details about the types of supporting documents needed before entering the form. Include explicit information about submitting school enrollment letters for school-aged dependents."
+  - "Reduce confusion of each role type involved in the form: Update the form content to clarify in plain language who the signer, sponsor and applicant is. Users were more likely to understand the role types when referenced in plain language rather than VA terminology."
+  - "Remove unnecessary burden and confusion related to roles: Ask for contact info for each one of the roles (signer, sponsor and applicant(s)) involved in the form. Consider updating Signer section to allow users to select who they are applying for upfront."
+  - "Reduce tediousness stemming from users having to submit the same health insurance and Medicare information multiple times: Currently, users have to input information on their health insurance and Medicare plan details for each applicant on their coverage. Consider creating a user flow that allows users to enter their insurance information once and tag which applicants are on that coverage."
+  - "Reduce Medicare and health insurance flow confusion: Consider using similar user flows for both of these sections, as opposed to diverging flows."
+  - "Add more context about health insurance details: We recommend altering the UI to separate the health insurance termination date from the policy start date. Add additional context about the termination date to reduce confusion around when a termination date should be provided and what this means for their application."
+  - "Reduce the number of screens users see when multiple applicants live together: Consider hiding mailing address screens if a user selected that they have the same address as another person listed on the form."
+  - "Streamline the Signer/Sponsor/Applicant repetitive screens: Consider hiding name and contact information fields if the user has already completed that information in the Signer section."
+  - "Ease the burden involved with obtaining a school certification letter: Many other VA benefits (Education benefits) require proof of school enrollment but from the perspective of the participants on this research study, this information is not easy to obtain quickly, and is not a document they would typically have on hand. Consider accepting other documents, such as a school schedule or providing an automated way of verifying school enrollment through a digital integration with schools."
+  - "Update the confirmation screen to match users' mental models: Allow users to print or save a PDF copy of the form for their records using this pattern. Provide a confirmation number and send a confirmation email upon submission."
+  - "Consider implementing a user experience on va.gov that allows a user to manage their health benefits enrollments, submit new or missing documents, and check their applications and claims statuses for CHAMPVA benefits in one place."
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Increase % of Veterans and families who apply for health care benefits online"
+  - "Increase number of beneficiaries who apply for CHAMPVA & submit OHI online"
+  - "Applicant satisfaction increases due to digital form"
+  - "Measure number of applications completed in single session"
+  - "Lower average session length than submitting CHAMPVA & OHI separately"
+  - "Low dropoff when users encounter OHI part of merged solution"
+  - "Increase number of people who obtain approvals for claims filed"
+  - "Reduce processing and approval time"
+  - "Reduce the number of resubmissions"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Veterans can complete and submit both the CHAMPVA benefits application and OHI certification through a unified digital interface, spending less time and effort filling out the forms, with increased satisfaction with application experience"
+  business: "Reduce error rates or rejections by removing the dependence on handwritten forms, faster delivery of benefits for Veterans and their families, reduce processing and approval time, and reduce the number of resubmissions"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "School-aged CHAMPVA beneficiaries may be required to re-submit school verification documents in between semesters to retain CHAMPVA benefits, which is a tedious task and may result in a lapse of coverage"
+  - "Participants had expectations about the submission and post-submission application process that would make them feel more confident their application was received and being processed"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Conducting additional research with the CHAMPVA partners to gain a better understanding of their school certification process, and how to better align business requirements with users' mental models"
+  - "Future research should include groups we did not speak to or who were underrepresented in this study, including Veterans with cognitive abilities, and mobile users"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Veterans ages 35-44"
+  - "Rural users"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat living abroad"
+  - "LGBTQ+ users"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "CHAMPVA service blueprint"
+  - "CHAMPVA stakeholder calls"
+  - "Supporting documents inventory"
 synthesis_tools_used:
   - "Mural"
   - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Dependents"
+  - "BNFT: Healthcare"
+  - "PRDT: CHAMPVA"
+  - "usability-testing"
+  - "DSP: Form Templates"
+  - "DSP: Ask users for files"
+  - "DSP: Ask users for multiple responses"
+  - "Accessibility"
+  - "DSC: Form - File Input"
 ---
 
 # 10-10d/10-7959c Merge Usability Research Findings 
