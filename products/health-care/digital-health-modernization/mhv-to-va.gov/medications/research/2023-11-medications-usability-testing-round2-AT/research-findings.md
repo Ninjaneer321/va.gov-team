@@ -1,103 +1,154 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "MHV on VA.gov, Medications, November 2023 Research Findings (w/AT)"
+product: "MHV on VA.gov - Medications"
+team: "MHV on VA.gov Team"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-12-07"
+researchers: 
+  - "Ade Ajayi"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand if design updates made to the following areas improves Veterans' experience with managing their medications: Fill/refill medications, Status of medications, Medication management, Other content updates"
+  - "Identify any usability issues Veterans may experience with managing their medications"
+  - "Identify any barriers that may prevent Veterans who use screen-readers and text-magnifiers from completing their Medication management goals"
+  - "Identify any barriers that may prevent Veterans who have mild to severe Cognitive Disabilities from completing their Medication management goals"
 methodology:
-- Method 1
-- Method 2
+  - "Moderated usability testing"
+  - "Observational research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 10
+  tablet: 0
+  smartphone: 3
+  assistive_technology: 4
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 13
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "18-30": 1
+    "31-40": 1
+    "41-50": 2
+    "51-60": 4
+    "61-70": 3
+    "71-80": 2
+    "80+": 0
+    unknown: 0
+  education: 
+    high_school: 2
+    some_college: 4
+    associates: 2
+    bachelors: 3
+    masters: 1
+    doctorate: 1
+    unknown: 0
+  location: 
+    urban: 7
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 4
+    hispanic: 1
+    biracial: 2
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 6
+    AT_beginner: 0
+    AT_advanced: 1
+    screen_reader_desktop: 3
+    screen_reader_mobile: 1
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Most of the participants (9 of 13) correctly acknowledged the purpose of the medications landing page."
+  - "One participant using JAWS, who also self-identified as having a CD, assumed the \"Go to your medication now\" heading on the 'about page' was the link."
+  - |
+    Two participants, who self-identified as having a cognitive disability, indicated dissatisfaction with the word "tool(s)" used to describe the platform.
+    - One participant who indicated having severe cognitive disability expressed frustration with the landing page.
+  - "Most of the participants (11 of 13) successfully identified the \"go to your medications\" link in the landing page, when asked to refill a medication."
+  - "Some participants (3 of 13) expected a refill option within the landing page. These were Screen reader users."
+  - |
+    All of the participants (13 of 13) successfully refilled the targeted prescription.
+    - 1 JAWS user refilled targeted prescription within the details view.
+  - "Some participants (5 of 13) expressed uncertainty when asked about their prescription submission. Four of these 5 participants self-identified as having a cognitive disability."
+  - "A11Y - JAWS screen reader (SR) transitioned to heading 1 (H1) immediately upon submitting a refill request, without first providing confirmation information."
+  - "Most of the participants indicated that they currently receive notifications regarding the status of their refill requests. The prevailing update commonly reported was related to the shipment of their medications."
+  - "Some participants (3 of 13) provided favorable feedback regarding the functionality of the existing user interface (UI) or similar to confirm a submission was successful - Active: Submitted."
+  - |
+    Most participants (9 of 12) correctly defined 'expired' as a status.
+    - 2 participants seemed to have separated the status 'expired' from the information presented on the card. Notably, one participant with a cognitive disability accurately defined 'too old to refill' but did not categorize it as expired.
+  - "Most participants (9 of 12) did not correctly interpret \"discontinued\" as a status."
+  - |
+    Most participants (6 of 10) were able to identify and call out the "request the first fill" button when instructed to find "active + never-filled prescription"
+    - No participants indicated, either directly or by observed behavior, ever having the need to identify a never-filled medication using a designated refill button.
+  - |
+    Most participants (10 of 11) presented favorable feedback toward the detail page.
+    - Some participants (5 of 11) expressed a desire for additional information regarding their medication, with a particular emphasis on the medication's side effects
+  - |
+    Some of participants (6 of 13) either utilized or expressed an intention to use the sorting feature to locate a medication on their list.
+    - Scrolling was the most utilized method to find a prescription on the list.
+  - |
+    A11Y – Some screen-reader participants (2 of 4) relied on the 'Ctrl + F' function to locate medications within the list, while the remaining users navigated by scrolling.
+    - Interestingly, none of the screen reader participants utilized the sorting feature or expressed an inclination to do so.
+    - One sighted participant used ctrl + f to find a medication.
+  - "Some participants (4 of 13) indicated the need for a search bar to find their medication by name."
+  - "Some participants (2 of 13) indicated a preference for sorting medications in both ascending and descending alphabetical order. These were phone users."
+  - "Some participants (2 of 13) indicated a preference for having all medications on one page."
+  - |
+    Most participants (7 of 11) expressed positive feedback toward the current method of refilling multiple prescriptions.
+    - Most Screen-Reader participants (3 of 4) and some of participants with Cognitive Disability (3 of 6) expressed positive feedback towards the current design.
+    - All infrequent and non-users of MHV for prescription refill favored the current design.
+    - Of all 5 participants who are current users of the classic design, 2 preferred the select-method, 2 participants favored the current design, and 1 participant expressed indifference.
+  - "Some participants (2 of 13) suggested having a confirmation option as an extra step when refilling multiple prescriptions."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - |
+    About Page: Change the "Go to your medications" Heading level 2 to "Go to your medications now."
+    - Rephrasing H2 "Go to your medications" and the link to "Go to your medications now" can enhance the user experience for Veterans using Assistive Technologies, making it easier for them to identify and navigate to their medications.
+  - |
+    Submission confirmation: Replace submission confirmation with the more familiar success message. Consider an icon to show that submission was successfully completed.
+    - This content update will allow Veterans to confirm that the refill was indeed submitted successfully, while still informing them that it is in review. A success icon will also promote Veterans' confidence in their submission.
+  - |
+    Statuses: Consider removing status of medications from the cards in the list view.
+    - This will help alleviate cognitive overload for Veterans, who do not know or appear to be affected by the information's significance.
+  - |
+    Detail page: Consider adding a link to prescription literature from detail page.
+    - This will allow Veterans to quickly access medication information. It will also lead them to accurate information that has been approved by VA clinicians rather than potentially harmful information found online.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
 further_research_needed:
-- Area 1
-- Area 2
+  - "Consider further secondary study on multiple refills"
 underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "80+ users"
+  - "Other than honorable, Immigrant origin, Expat"
+  - "Native American"
+  - "LGBTQ+"
+  - "Assistive Technology (specific types not tested)"
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'MHV: Pharmacy'
-- usability-testing
-- moderated-research
-- remote-research
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "MHV: Pharmacy"
+  - "usability-testing"
+  - "moderated-research"
+  - "Accessibility"
+  - "remote-research"
+  - "DSC: Card"
+  - "DSC: Button"
+  - "DSC: Links"
 ---
+
   # **MHV on VA.gov, Medications, November 2023 Research Findings (w/AT)**
 
 ## **Office of the CTO - Digital Experience (OCTO-DE), MHV on VA.gov Team**
