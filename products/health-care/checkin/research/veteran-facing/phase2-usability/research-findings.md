@@ -31,10 +31,10 @@ demographics:
   dependents: 0
   VA_staff: 0
   age:
-    "25-34": 0
-    "35-44": 0
-    "45-54": 0
-    "55-64": 0
+    25-34: 0
+    35-44: 0
+    45-54: 0
+    55-64: 0
     "65+": 0
     unknown: 9
   education:
@@ -73,7 +73,7 @@ key_findings:
   - "Seven out of nine participants had trouble creating the text message after reviewing the poster."
   - "Making sure the wording and link looked like it came from VA helped Veterans to trust it and be more prone to click on it."
   - "Adding last name and last four digits of Social Security alleviated Veteran security concerns."
-  - "Veterans want to be able to update their contact information with this check-in workflow; however, they accept the current workflow with the question "Do you need to update any information?" and the next step of referring them to staff."
+  - "Veterans want to be able to update their contact information with this check-in workflow; however, they accept the current workflow with the question 'Do you need to update any information?' and the next step of referring them to staff."
   - "Seeing a list of all the day's appointments is valuable to Veterans."
   - "Seeing check-in statuses for each appointment is valuable to Veterans."
   - "More research is needed to determine if telemedicine appointments should be included or connected to the online check-in experience."
@@ -85,11 +85,11 @@ recommendations:
   - "Explore ways to make it easier for Veterans to start the online check-in process, in order to address the current usability issues with the QR code. Look into ways to help Veterans understand how to scan QR codes, such as a list of recommended scanners with instructions. Possibly change the first step completely, such as not starting with a poster or QR code. If we do, look into more accessible options than a poster."
   - "Keep the SMS wording and link address as go.usa.gov, since Veterans found it trustworthy."
   - "Keep the addition of last name and last four of Social Security as the way to verify identity. If the removal of Social Security numbers is mandated, replace it with date of birth."
-  - "Keep the current "Do you need to update any information?" page, because the functionality to review and update their contact information is coming soon. This also helps staff capture information updates, which is an important metric for staff performance."
+  - "Keep the current 'Do you need to update any information?' page, because the functionality to review and update their contact information is coming soon. This also helps staff capture information updates, which is an important metric for staff performance."
   - "Keep the daily itinerary of all appointments, but complete future research into how to provide a reference appointment list to Veterans (connection to VAOS), and wayfinding (room and floor numbers)."
-  - "Implement all check-in statuses on the appointment list, but remove the term "ineligible" from the wording within the one status."
+  - "Implement all check-in statuses on the appointment list, but remove the term 'ineligible' from the wording within the one status."
   - "Conduct more research to understand all the telemedicine use cases and how they connect to online check-in."
-  - "Remove the phone numbers from the "Need help" section, since most Veterans would go to a staff member with questions anyway and clinic phones are transitioning to the call center."
+  - "Remove the phone numbers from the 'Need help' section, since most Veterans would go to a staff member with questions anyway and clinic phones are transitioning to the call center."
   - "Add the facility name to the appointment list to address the scenario of appointments at different facilities within one day."
   - "Work with engineering on behaviors when a Veteran attempts to check-in for their second appointment of the day."
 kpi_alignment: []
