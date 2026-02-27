@@ -429,12 +429,16 @@ When would you like sessions scheduled? Please list exact dates and times in **E
   - **Emily Goodrich**
   - **Parker Baranowski**
   - **Michelle Middaugh**
-  - **Dave Formanek**
   - **Kim McCaskill**
   - **Matthew Guest**
   - **Michael Harmer**
   - **Kayley Bogemann**
-
+  - **Denise Coveyduc**
+  - **Megan Gayle**
+  - **Risha Lee**
+  - **Joseph Lee**
+  - **Heather Rienks**
+  - **Tom Davis**
 
 ## Approvals ✅
 - `Reviewed by [OCTO Product Owner, Team Lead] on [MM-DD-YYYY]`
