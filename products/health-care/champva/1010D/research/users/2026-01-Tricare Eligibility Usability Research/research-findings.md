@@ -309,26 +309,27 @@ One participant (P14) commented on language used around Veteran living question 
 2. **Recommendation:** [Insert action]  
    - _Supporting evidence: [Insert data]_
 
+
+
 ## Product User and Business Outcomes
-
-*Explain how findings and recommendations align with the product's goals.*
-
-> [!NOTE] 
-> Refer back to your Product Outline. 
 
 ### Desired User Outcome 
 This research supports our desired user outcome by....
- 
+- Users understand whether Tricare eligibility may impact their ability to receive CHAMPVA benefits.
+- Users avoid spending time on applications that are likely to be denied.
+- Users feel informed, respected, and supported—even when guided away from applying.
+- Users can confidently decide whether to proceed with or stop the application.
+
 ### Desired Business Outcome
 This research supports our desired business outcome by....
-
+- Reduce the percentage of CHAMPVA applications rejected due to Tricare eligibility.
+- Reduce processing backlog caused by clearly ineligible submissions.
+- Improve efficiency for CHAMPVA processing teams.
+- Increase overall satisfaction with the CHAMPVA application experience.
 
 ## Key Performance Indicators
 
 *Explain how findings will support KPI measurement.*  
-
-> [!NOTE]
-> Refer back to your Product Outline. 
 
 ### KPI 1
 This research supports measurement of this KPI by....
@@ -344,15 +345,15 @@ This research supports measurement of this KPI by....
 > 
 > If you need Github Copilot Enterprise Access, please complete this [Issue](https://github.com/department-of-veterans-affairs/copilot-onboarding/issues/new?template=copilot-onboarding.yml).
 
-## Further research needed
 
-*Identify gaps in the current study and areas requiring additional investigation––such as demographics that were not included in this study.* 
+## Further research needed
+- Testing with in a working staging environment - this was a study usign Figma prototypes and focused on content comprehension. We did not conduct any research sessions with assistive technology participants. 
 
 
 ## Appendix
 
 ### Research documents
-- [Product Outline](link here)
+- [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/Product/Tricare-Eligibilty/Tricare-Eligibility-Product-Outline.md)
 - [Research plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/champva/1010D/research/users/2026-01-Tricare%20Eligibility%20Usability%20Research/research_plan.md)
 
 **Conversation Guides**
