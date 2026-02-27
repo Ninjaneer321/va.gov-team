@@ -40,7 +40,7 @@ Attended a Community of Practice meeting or Practice Circle? Lurk on our Slack c
 -->
 
 **Cindy Merrill**, Researcher, Sitewide Public Websites
-- cindy.merrill@adhocteam.us, [LinkedIn](https://www.linkedin.com/in/cindymerrill/)
+- cmerrill@pluribusdigital.com, [LinkedIn](https://www.linkedin.com/in/cindymerrill/)
 - I enjoy connecting with research participants, and I want research to be as comfortable of an experience as possible for participants and researchers, even when potentially traumatic topics or experiences may come up.
 
 **Clayton Zook**, Researcher, Identity Core/Surge Team
