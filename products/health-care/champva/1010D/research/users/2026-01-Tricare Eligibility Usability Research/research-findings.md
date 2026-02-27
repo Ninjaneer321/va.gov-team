@@ -294,6 +294,7 @@ The majority of participants responded to Alerts B (11 of 15) and E (15 of 15) a
 ---
 
 ## Additional Insights
+
 #### Secondary 1
 Participants were split in their previous knowledge of CHAMPVA, 9 were aware of it and 6 had never heard of it before at all. However all participants were familiar with TRICARE and 4 participants even stated they were currently enrolled. 
 
@@ -396,10 +397,10 @@ This research supports measurement of this KPI by....
 
 *Include links to additional materials, e.g., personas, user flows.*  
 
-
 ### Secondary research
 
 *Include any relevant secondary research, e.g., web analytics, SME interviews.*  
+
 
 > [!IMPORTANT]
 > **After completing the demographic information below and saving this file**, use the [GitHub Copilot Research Findings Frontmatter Completion Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/research-findings-frontmatter-completion-prompt.md) to automatically populate the YAML frontmatter section at the top of this document with: 
@@ -417,7 +418,13 @@ _Complete the demographic info below using information from the Perigean recruit
 
 #### Recruitment criteria
 
-_If you had specific criteria that you recruited for, use this space to explain what those were along with other information you feel would be important to understanding your participants._
+**Cohort 1:**
+- Veteran with a service-connected disability rating of 100%
+- Have a spouse and/or dependent children who are not currently enrolled in the CHAMPVA program
+
+**Cohort 2:**
+- Identify as a spouse or dependent child of a Veteran with a service-connected disability rating of 100%
+- Are not currently enrolled in CHAMPVA
 
 #### Demographics 
 
