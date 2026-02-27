@@ -1,12 +1,9 @@
 # CRM Payload Investigation: Missing `SubmitterProfile`
 
 ## Objective - What do we intend to accomplish?
-
 * We need to confirm whether the `SubmitterProfile` field is ever missing in payload sent from `vets-api` to AVA CRM
 
 ## Current understanding of the flow
-
-
 * `InquiryPayload` invokes `SubmitterProfile#call`, which sets the `SubmitterProfile` field
   [here](https://github.com/department-of-veterans-affairs/vets-api/blob/b3730f91e6c701a76f52327bcd8827e334a26b9b/modules/ask_va_api/app/lib/ask_va_api/inquiries/payload_builder/inquiry_payload.rb#L105).
   This method builds a hash by calling [SubmitterProfile#base_profile](https://github.com/department-of-veterans-affairs/vets-api/blob/b3730f91e6c701a76f52327bcd8827e334a26b9b/modules/ask_va_api/app/lib/ask_va_api/inquiries/payload_builder/submitter_profile.rb#L27-L39),
@@ -17,7 +14,6 @@
 
 
 ## Resolution(s) discussed
-
 * Instead of telemetry to log existence of the field, a more favorable approach may be to temporarily store the outbound payload in Postgres for investigation
 * This requires understanding and alignment with any data retention policies (e.g., 30 or 60 days).
 * As such we may want/need to:
@@ -27,7 +23,6 @@
 * Other teams within `vets-api` already follow similar procecure for storing data temporarily
 
 ## Desired outcome
-
-* If the CRM team reports missing `SubmitterProfile` wen can:
+* If the CRM team reports missing `SubmitterProfile` we can:
   * Identify or narrow down the possibility of a downstream issue
   * Whether the payload is missing the `SubmitterProfile`
