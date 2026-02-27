@@ -1,5 +1,5 @@
 ---
-title: "Chatbot Research Findings"
+title: "Chatbot User Testing Research Findings"
 product: "VA Chatbot"
 team: "Chatbot Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
@@ -9,19 +9,20 @@ researchers:
 research_goals:
   - "Increase the accuracy of the answers provided by the VA chatbot."
   - "Present these answers in an easy to read, easy to follow format so Veterans can get the answers they need to complete the tasks they need to on VA.gov."
-  - "Improve the design by finding painpoints in the current proof of concept designs to accomidate any/all level of users." 
+  - "Improve the design by finding painpoints in the current proof of concept designs to accommodate any/all level of users."
 methodology:
-  - "We conducted moderated usability testing to determine which proof of concept will be most accurate and which design will return the most appropriate answers."
+  - "Moderated usability testing"
 devices_used:
-    desktop: 14
-    tablet: 0
-    smartphone: 0
-    assistive_technology: 1
+  desktop: 14
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 1
 participants_total: 14
 demographics:
   veterans: 14
   service_members: 0
   caregivers: 0
+  family_members: 0
   dependents: 0
   VA_staff: 0
   age:
@@ -40,29 +41,42 @@ demographics:
     doctorate: 1
     unknown: 0
   location:
-    urban: X
-    rural: X
+    urban: 0
+    rural: 0
     unknown: 14
   race:
     white: 9
     black: 2
     hispanic: 1
-    biracial: 0
-    asian: 1
+    biracial: 1
+    asian: 0
     native: 0
-    unknown: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
     screen_reader_desktop: 1
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
     hearing_aids: 1
-    sighted_keyboard: X
-    captions: X
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
+  - |
+    Confusion About Login Options: Several users were confused about the task they were asked to complete and thought they had to login to use the VA Chatbot. "I'm not sure which one I'm supposed to pick. I just want to talk to someone." — Participant 4. "Why do I need to log in if I just have a simple question?" — Participant 7
+  - |
+    Desire for Clearer Language and Guidance: Users were confused by the responses that the chatbot gave and repeatedly commented that they just wanted short, simple responses with a link to take them exactly where they needed to go. "It says sign in, but I don't know if I need to. There's no explanation." — Participant 2. "Is there a way to skip this? The chatbot should tell me what each option does." — Participant 9
+  - |
+    Positive Feedback on Quick Access: Some users liked the simplicity with which they were able to use the chatbots, without having to login to use them. "I like that I can ask a question without signing in." — Participant 5. "Letting me skip sign in is great for basic info." — Participant 3
+  - |
+    Preference for Human Support: Numerous users voiced their preference for human agents instead of using an automated chatbot without being asked or prompted. "I'd rather talk to a real person for complicated stuff." — Participant 13. "The chatbot is okay for simple things, but I want an option for live help." — Participant 2
+  - |
+    Mixed Reactions to Chatbot Personality: The voice or tone of the chatbot may need to be tweaked as numerous participants commented on the casual demeanor of the chatbot and also many noted that clarity needed to be a top priority. "It's friendly, but maybe too casual for government stuff." — Participant 6. "I like that it tries to help, but sometimes it's not clear." — Participant 3
+  - |
+    Desire for Clearer Language and Guidance (repeated finding): Confusion about lengthy answers and whether the user needed to sign in were common themes, so there is a need for clarity in instructions for the users. "It says sign in, but I don't know if I need to. There's no explanation." — Participant 2. "Is there a way to skip this? The chatbot should tell me what each option does." — Participant 9
+  - |
+    Answers Are Too Long and Cause Confusion: The AI version of the chatbot gave answers that most users pointed out were just way too long and unnecessary. There is a common theme to just "hit the user in the face" with what they need to do. "That was a lot of extra info that I didn't need that made a little more confusing." — Participant 10. "Be direct in what you're asking and make it short. Not a long 10 sentence thing." — Participant 6
   - "Most users valued clear, concise answers tailored to their exact questions"
   - "Users wanted chatbots to remember and reference earlier parts of a conversation for seamless multi-turn interactions."
   - "Users preferred responses that included clear next steps, recommendations, or direct answers rather than generic summaries."
@@ -71,28 +85,33 @@ key_findings:
   - "Several users pointed out that chatbots sometimes failed to reference previous parts of the conversation, leading to repetitive or disconnected replies."
   - "Of the 3 different components tested, 88% of users preferred Chatbot 3, which integrated AI."
 recommendations:
+  - |
+    Context Retention & Multi-Turn Dialogue: Implement advanced conversation tracking to reference earlier user queries and provide more connected, relevant responses. Test with multi-part and follow-up scenarios to ensure robust context handling.
+  - |
+    Conciseness & Actionability: Train chatbots to deliver succinct answers, focusing on clear next steps or direct solutions when possible. Provide options for users to request more detail if needed.
+  - |
+    Performance Optimization & Formatting: Audit and reduce response latency, especially for simple or frequently asked questions. Standardize response structure with bullet points, clear headings, and consistent markdown for all outputs.
+  - |
+    Improve Query Interpretation & Consistency: Use refined NLP models and user intent detection to minimize misunderstandings and irrelevant answers. Ensure reliable quality regardless of the complexity or subject matter by extensive scenario-based testing.
+  - |
+    Follow-Up Capability: Develop mechanisms for the chatbot to proactively offer clarifications, follow-up questions, or acknowledge multi-part inquiries.
   - "Users recommended better tracking of conversation history and more responsive follow-ups"
   - "Many suggested that chatbots should prioritize brevity without sacrificing completeness."
   - "Requests included more use of bullet points, headings, tables, and consistent markdown for easy scanning."
   - "Recommendations were made for chatbots to more effectively address complex, sequential, or multi-part queries while being able to answer simpler queries faster."
 kpi_alignment:
-  - KPI 1. User Satisfaction:
-    Research Alignment: "The study’s focus on clarity, brevity, helpfulness, and formatting matches the KPI goal of maximizing user satisfaction. User feedback and recommendations target pain points (irrelevance, verbosity, poor formatting) that can lower satisfaction scores."
-    Improvement Actions: "Adopting the report’s recommendations—such as improved context awareness and actionable answers—will raise satisfaction metrics."
-  - KPI 2. Average Response Time:
-    Research Alignment: "Slow response times were a major user complaint. The recommendation to optimize performance and reduce latency aligns with the KPI of minimizing average response time."
-    Improvement Actions: "Technical enhancements suggested in the report will help meet response time targets."
-  - KPI 3. Resolution Rate (First-Contact Resolution):
-    Research Alignment: "Users want direct, complete, and actionable answers. Improving query interpretation and multi-turn handling will increase the percentage of user queries resolved without escalation or further follow-up."
-    Improvement Actions: "Better context retention and multi-part question handling are likely to boost first-contact resolution rates."
-  - KPI 4. Escalation Rate to Human Agents:
-    Research Alignment: "The research calls for better handling of complex or multi-step queries and a smoother transition to human support when needed. Reducing unnecessary escalations aligns with this KPI."
-    Improvement Actions: "Strengthening the chatbot’s capabilities will decrease the escalation rate, while ensuring seamless hand-off for cases that require human assistance."
-  - KPI 5. User Engagement and Retention:
-    Research Alignment: "Recommendations for improved tone, personality, and adaptability support increased user engagement. Consistency and clarity encourage users to return and use the chatbot for more tasks."
-    Improvement Actions: "Personalization and clearer responses will drive higher engagement and repeat usage."
-  - KPI 6. Accessibility & Inclusivity (Emerging KPI):
-    Research Gap: "The research identifies a gap in accessibility and inclusivity testing. Addressing this will support KPIs related to equitable access and user experience for all segments."
+  - |
+    KPI 1. User Satisfaction: The study's focus on clarity, brevity, helpfulness, and formatting matches the KPI goal of maximizing user satisfaction. User feedback and recommendations target pain points. Adopting the report's recommendations—such as improved context awareness and actionable answers—will raise satisfaction metrics.
+  - |
+    KPI 2. Average Response Time: Slow response times were a major user complaint. The recommendation to optimize performance and reduce latency aligns with the KPI of minimizing average response time. Technical enhancements suggested in the report will help meet response time targets.
+  - |
+    KPI 3. Resolution Rate (First-Contact Resolution): Users want direct, complete, and actionable answers. Improving query interpretation and multi-turn handling will increase the percentage of user queries resolved without escalation. Better context retention and multi-part question handling are likely to boost first-contact resolution rates.
+  - |
+    KPI 4. Escalation Rate to Human Agents: The research calls for better handling of complex or multi-step queries and a smoother transition to human support when needed. Reducing unnecessary escalations aligns with this KPI. Strengthening the chatbot's capabilities will decrease the escalation rate, while ensuring seamless hand-off for cases that require human assistance.
+  - |
+    KPI 5. User Engagement and Retention: Recommendations for improved tone, personality, and adaptability support increased user engagement. Consistency and clarity encourage users to return and use the chatbot for more queries. Personalization and clearer responses will drive higher engagement and repeat usage.
+  - |
+    KPI 6. Accessibility & Inclusivity (Emerging KPI): The research identifies a gap in accessibility and inclusivity testing. Addressing this will support KPIs related to equitable access and user experience for all segments.
 outcomes:
   user: "Use a chatbot with the best UI, best message, best features, easiest to understand and easiest to navigate"
   business: "Users will determine the best version of the chatbot and convey that choice to UX researcher with reasons why they made those choices"
@@ -102,18 +121,34 @@ opportunity_areas:
   - "Limited Accessibility Testing"
   - "Only one of the 14 users tested used assistive tech"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Accessibility and Inclusivity: This round of user testing was limited to users with disabilities, language barriers, or other accessibility needs. Research is needed to evaluate chatbot usability for these groups."
+  - "Long-Term Use Patterns: The study is based on single-session transcripts. Further research should explore user satisfaction and effectiveness over repeated, longer-term interactions."
+  - "Other Use Cases and Complex Queries: The transcripts primarily focus on only one use case of logging in. Future studies should examine chatbot performance on ambiguous, rare, or highly complex queries."
+  - "Integration with Human Agents: The study does not evaluate the transition between chatbot and human support. Further research could examine seamlessness and user satisfaction in hand-off scenarios."
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Immigrant origin"
+  - "No Degree"
+  - "Expat"
+  - "Latino"
+  - "Biracial"
+  - "Native"
+  - "Nonbinary, gender fluid, gender queer"
 secondary_research:
-  - "Previous research on Chabot/Virgual Agent"
+  - "Previous research on Chatbot/Virtual Agent"
 synthesis_tools_used:
   - "Mural"
   - "Copilot"
----
-
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Virtual-agent"
+  - "DSP: Help users to sign in"
+  - "HDW: Desktop"
+  - "usability-testing"
+  - "evaluative"
+  - "Accessibility"
+  - "PRDT: Contact us"
+  - "AUD: Contact Center"
+  - "DSP: Contextual Help"
 ---
 
 # Chatbot Research Findings 
