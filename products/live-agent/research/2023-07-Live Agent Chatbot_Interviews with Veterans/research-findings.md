@@ -1,102 +1,118 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "Live Agent - Veteran Interview Research Findings"
+product: "Live Agent Chatbot"
+team: "Thoughtworks (in partnership with VES, Seamless CX, VA Call Center stakeholders)"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2023-07-27"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Emma Pinkerton"
+  - "Taylor Haigler"
 research_goals:
-- Goal 1
-- Goal 2
+  - |
+    Understand how Veterans and their families would want to leverage a chat experience, how it works for them today (in the VA and outside of the VA), and in what instances they would not want to use a chat experience
+  - |
+    Map out what a Veteran's experience journey would look like if they were to leverage a live chat experience; considering the different archetypes and variance in the problems to be solved, what does the ideal experience look like
 methodology:
-- Method 1
-- Method 2
+  - "Semi-structured interviews"
+  - "Jobs to be Done (JTBD) methodology"
+  - "Lean qualitative study"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 5
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 1
+    "55-64": 0
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 1
+    some_college: 0
+    associates: 0
+    bachelors: 2
+    masters: 2
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 2
+    unknown: 3
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 1
+    black: 1
+    hispanic: 0
+    biracial: 2
+    asian: 0
+    native: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Veterans prefer Live Chat to calling in the majority of scenarios"
+  - "All Veterans raised concerns about privacy and security"
+  - "Veterans wish for fast access to support"
+  - "Veterans and Live Agents desire a more connected experience"
+  - "Authenticating Live Chat interactions builds trust"
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - |
+    Given the research performed and the insights gleaned, stronger integration across Contact Centers would greatly aid the Veteran experience across the entire VA landscape.
+  - |
+    Enabling this is a matter of creating a platform that provides strong connections to consumers of the data, and allows Contact Centers to independently, and through self-service, create more enriching experiences for their users.
+  - |
+    Similarly, a closer integration of Live Chat between Channels is something Veterans have told us they desire. This aligns with the goals of the Seamless CX program.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - "Stronger integration across Contact Centers to aid the Veteran experience"
+  - "A platform providing strong connections to consumers of the data with self-service capabilities for Contact Centers"
+  - "Closer integration of Live Chat between Channels, aligned with Seamless CX program goals"
+  - "Universal VA Live Chat experience with standard log-in process, transfer capability, and automatic user identification"
+  - "More streamlined, integrated workflow for Live Agents who currently juggle multiple systems"
 further_research_needed:
-- Area 1
-- Area 2
+  - "Talk with Veterans who live overseas"
+  - "Additional interviews with Veterans"
 underserved_groups_missing:
-- Group 1
-- Group 2
+  - "Expat (living abroad)"
+  - "Immigrant origin"
+  - "Cognitive disability"
 secondary_research:
-- Web analytics
-- SME interviews
+  - "Desk Research"
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Caregivers'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
+  - "AUD: Veterans"
+  - "AUD: Contact Center"
+  - "PRDT: Contact us"
+  - "Initiative: CX Executive Order"
+  - "BNFT: Healthcare"
+  - "DSP: Help users to sign in"
+  - "DSP: Ask users for feedback"
+  - "semi-structured-interviews"
+  - "generative"
+  - "discovery"
 ---
+
 # Live Agent - Veteran Interview Research Findings 
 
 Date: 07/27/2023
