@@ -347,7 +347,8 @@ One participant (P14) commented on language used around Veteran living question 
 
 ## Recommendations
 
-*Summarize actionable recommendations based on findings.*  
+Design recommendations are broken down by proposed v1 (VADS only design) and v2 (hybrid API) releases:
+
 
 1. **Recommendation:** [Insert action]  
    - _Supporting evidence: [Insert data]_  
@@ -467,17 +468,19 @@ _Complete the demographic info below using information from the Perigean recruit
 We talked to **15 participants.**
 
 Audience segment:
-* Veterans: x 
-* Caregivers: x 
-* Family members of a Veteran: x  
+* Veterans: 5
+* Family members of a Veteran: 10
+Subsets of Family Members
+* Veteran: 2
+* Veteran's Caregivers: 7
 
 
 Gender:
-* Male: x 
-* Female: x 
+* Male: 6 
+* Female: 9 
 
 
-LGBTQ+:
+LGBTQ+: Unknown
 * Transgender: x 
 * Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: x
 * Gay, lesbian, or bisexual: x
