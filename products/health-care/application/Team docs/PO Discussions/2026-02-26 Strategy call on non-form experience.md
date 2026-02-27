@@ -42,3 +42,18 @@
             * Name
             * DOB?
             * Other info?
+* **Thoughts from the team to consider**
+    * A few things to consider and add to the conversation:
+        * The kin/family member profile would be an amazing add and would be useful to so many other benefits, including Champva.
+        * The kin/family member info collected in EZR is not standalone, it is meant for the Household Financial.
+        * I think all of the EZR can be broken down (and given to Profile) except for the Household Financial. Because it is related to how copay and travel reimbursement works, a form appoarch may still be required. This is not to say that the task-base or putting it in Profile is impossible, it just requires more thoughts then the other section.
+            * Say we put financials in Profile somehow.  
+                 * I wonder if Veterans report financials differently to different benefits programs, and how having a single data-point entry would impact that
+                      * should it be different? 
+                      * what reasons are there that the data reported would be different?
+            * And then yeah, how would integration with Travel pay and copays work? 
+            * Are we expanding va.gov profile too much?  
+                 * What should live there?  
+                 * What shouldn't?  
+                 * Is there a separate space it should live? 
+            * How does this compare/work with My-health dashboards & stuff?
