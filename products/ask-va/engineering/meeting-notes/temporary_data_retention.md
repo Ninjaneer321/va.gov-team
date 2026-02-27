@@ -35,5 +35,8 @@
 * Implementation
   * Define high level implementation and what done looks like
 
+## Helpful links
+* [What is PII?](https://depo-platform-documentation.scrollhelp.site/research-design/what-is-pii)
+
 > [!Note]
 > Notably, this implementation can serve as the foundation for a more robust retention and auditing solution of our data flow
