@@ -4,64 +4,61 @@
 
 ## Overview
 
-Streamlining the Veteran experience by creating a simple and accessible tool for Veterans, impacted by legislation changes, to maximize their education benefits.
+Streamlining the Veteran experience by expanding the capability of the My Education Benefits VA 22-1990 online education application to allow beneficiaries who may be eligible for multiple benefits to be informed of their eligibility details in real time and apply for them online. 
 
 ## Problem Statement
 
-Education benefits can be hard to navigate for our Veteran population due to the variation of their circumstances; this can become more complicated when legislation changes impact eligibility criteria. To support Veterans with the impact of Rudisill, clear guidance and a streamlined, accessible tool should be developed to help Veterans maximize the education benefits they are entitled to. 
+Education benefits can be hard to navigate for the Veteran population due to the variation of their circumstances; this can become more complicated when legislation changes impact eligibility criteria. Veterans who may be eligible for multiple benefits due to the Rudisill court decision, should be able to apply for the benefits they are entited to in a streamlined and accessible way. 
+
+and may bthe existing 22-1990 online application will be updated to calculate a beneficiaries eligibility (using their profile and service data) to inform them of their potential eligibility options and apply for them within the same application flow. developed to help Veterans maximize the education benefits they are entitled to. 
  
 ## Desired User Outcomes
 
-- Veterans should be able to allocate their remaining qualifying service to maximize their benefit outcomes according to their education goals.
-    - For example: a Veteran who relinquished their MGIB benefit (to use their PGIB benefits) and now qualifies for both MGIB and PGIB under Rudisill; should be able to distribute their qualifying service to gain entitlement under both.
-- Veterans should easily understand the outcome and impact of the allocation made within the Dual Benefit Eligibility Tool, and that it will impact their existing benefits. 
+- Veterans eligible for multiple benefits will have the same application options as Veterans who are eligible for a single benefit, by expanding the existing claims application approval process and UI application.
+- Veterans will be able to maximize the benefits they are entitled to through this application.
 
 
 ## Undesired User Outcomes
 
-- Use cases for Veterans impacted by Rudisill are complex and nuanced, the copy and organization must be carefully considered to ensure Veterans are not further confused when using this tool.
-- Veterans may not understand that updates to their allocation will change their existing benefits. 
+- Veterans may have a maximum of 6 eligibility options to choose from which has the potential to cause fatigue and the wrong decision when applying for benefits.
 
 ## Desired Business Outcomes
 
-- The Dual Benefit Eligibility Tool aims to help Veterans understand their existing benefits, provide a recommended allocation to help Veterans maximize their education benefits, and easily make updates to them based on their education goals streamlining the Veteran education application experience  
+- The updated application flow aims to help Veterans understand their eligibility options, provide a recommendation to help Veterans maximize their education benefits, and give them an immediate decision streamlining the Veteran education application experience. 
 
    
 ## Undesired Business Outcomes
 
-- Users accept the recommendation or customize their allocation in a way that does not meet their education goals.
-  - Business logic will be well considered to ensure we providing the best recommendation for users and provide users with a simple way to make their own allocation, when the recommendation is not the best fit for them.
+- Users may choose an eligibility option that does not meet their education goals.
+  - Business logic will be well considered to ensure we providing the best recommendation for users. We will provide clear instruction and descriptions such that users have the neccessary to choose the best eligibility option for themselves.
 
 ---
 
 ## Assumptions
 
 The following assumptions have been made when creating our solution:
+- Users have some understanding of the education application they are using and the benefits they are intending to apply for
+- Users have an existing VA.gov or Login.gov account and have authenticated, allowing us to calculcate their eligibilty options from their service history.
 
-- Veterans have some familiarity with terms related to education eligibility and entitlment (e.g. months of entitlment, qualifying service, benefit level, kicker).
-- Some Veterans who use the tool may not have an in-depth understanding of their benefits 
-   - Veterans, will understand by using the tool, the relationship between their qualifying service and their benefit outcome.
-- Some Veterans who use the tool may have an in-depth understanding of their benefits (considered super users).
 
 ## Solution Approach
 
-- We've developed our solution as a tool that will live on the 'Manage your benefits' section of VA.gov's 'Education and training' page since the tool is meant to help Veterans make changes to their benefits.
+- We've updated the functionality for an existing application to account for Veterans who may be eligible for multiple benefits. By iterating on an existing flow, we can leverage:
+- the existing UI to reduce the development time
+- the existing entry points to the form, reducing fatigue for users
+- the existing claim adjudication logic to give users an instant decision, when applicable, reducing wait times and ultimately streamlining the application process
 
 - We have developed a solution that:
   - Presents information we have on file for the user to them, to build their trust in the tool
+  - Prefills their contact information and direct deposit information, if it is in their VA profile to reduce fatigue
+  - Asks questions about their education goals, that will inform the recommended eligibility option we'll provide to them
+  - Provide them with a recommended eligibility option, to help guide users in their decision making and reduce mental fatigue
+  - Clearly displays eligibility options and provides a comparison table in another window to help digest and understand the trade-offs between options
   - Asks questions to gather further information about the user's goals, to better inform the recommendation we'll provide
-  - Provides a recommendation up front for users who may need more assistance when making their allocation
-  - Provide an alternative 'Customizable allocation' for users who want further personalization to their allocation
- 
-- This is a first draft solution and we are noting, for further iterations, that this solution should be flexible to legislation changes and court decisions/reversals
 
 ### Supporting research
    
-- We plan to do user testing with Veterans to validate that the solution's
-    - Information heirarchy and organization helps simplify the allocation process
-    - Language is clear for users 
-    - Recommendation is easily understood by users
-    - Alternative paths (customized allocation) is intuitive and easy for users to find and use 
+- Not planning to do user research
 
 --- 
 
@@ -105,8 +102,8 @@ The following assumptions have been made when creating our solution:
 - Slack channel: #my-education-benefits
 - Product POCs:
   - Joanna Yu (joanna.yu@afs.com)
-  - Alexander Ferzola (alexander.ferzola@afs.com)
   - Allison Nguyen (allison.nguyen@afs.com)
   - Ryan Grueninger (ryan.grueninger@afs.com)
+  - Alex Douglas (alexandra.douglas@afs.com)
 
 </details>
