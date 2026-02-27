@@ -1,11 +1,14 @@
 # Identity Research
 
 ## Select topics
-- The need for fewer sign-in options
+- Many sign-in options creates confusion
    - [2019 sign-in research breif](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/login/ds-logon/research/research_brief.md#veterans-and-caregivers-desire-a-single-better-system) - Conclusion 3
    - [2021.03 Veteran Health Experience and Patient Portal Study](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/login.gov-adoption/discovery/research/Pre-Discovery%20Research/2021.03%20%E2%80%93%C2%A0Veteran%20Health%20Experience%20and%20Patient%20Portal%20Study.pdf) - Insight 4.2
    - [2023-03 Deferred Identity Proofing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/login.gov-adoption/discovery/research/2023-03-Deferred-Identity-Proofing-Round-1-Usability/research%20findings.md#confusion-between-credentials-and-applications) - Theme 3
    - [2023-04 Proactive CSP Migration](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2023-04%20Proactive%20CSP%20Migration/2023-04%20Proactive%20CSP%20Migration%20research%20findings.md#details-of-findings) - Finding 3
+- Sign-in accessibility
+   - [2022-02 Sign-in Accessibility Research Findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/login.gov/Sign-In%20Accessibility/Sign-in_Accessibilty_Research_Findings.md)
+   - [2023-08 Terms of use research findings](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/identity/Research/2023-07%20Terms%20of%20Use/2023-08%20Terms%20of%20use%20research%20findings.md)
 
 
 ## CY 2026
