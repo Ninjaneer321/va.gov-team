@@ -260,7 +260,15 @@ Two participants mentioned that the icons and wording around that bullet item wa
 
 In Task 3, participants were shown 5 alerts that may appear in the hybrid (VADS pattern + API call) eligibility flow. These alerts map to errors or outages with the 2 APIs called in the flow, or to eligibility decisions. 
 
-[INSERT TABLE]
+| Alert | Trigger                                                                                | Desired User Outcome                                                       | Participant Reported Action                                                                                                                                                    |
+| ----- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| A     | Veteran not found in MPI                                                               | User checks accuracy of Veteran information before continuing              | *   Continue after checking info (5) *   Continue but contact VA later (2) *   Stop form and contact VA (8)                                                          |
+| B     | Error calling EDS API                                                                  | User saves the form in progress or continues without the eligibility check | *   Continue form (8) *   Stop and contact VA (4) *   Stop and try again later (3)                                                                                   |
+| C     | Veteran not found in EDS                                                               | User checks the accuracy of Veteran information before continuing          | *   Continue form (9) *   Continue form and contact VA after (3) *   Stop and contact VA (4)                                                                         |
+| D     | User was found in MPI and DEERS and is eligible for TRICARE / not eligible for CHAMPVA | User exits the application, optionally may continue                        | *   Continue form (1) *   Stop, but want contact information for TRICARE (5) *   Stop, but contact VA (2) *   Exit form (5) *   Confused on next steps (3) |
+| E     | User was found in MPI and DEERS and is not eligible for TRICARE / eligible for CHAMPVA | User continues in the application                                          | *   Continue form (15)                                                                                                                                                         |
+
+
 
 The majority of participants responded to Alerts B (11 of 15) and E (15 of 15) as intended. With more than half of participants wanting to contact VA or a TRICARE representative for Alerts A (10 of 15), Alert C (7 of 15) and D (7 of 15), we believe additional content and resources are necessary to reduce friction and user burden, and increase call volume. 
 
