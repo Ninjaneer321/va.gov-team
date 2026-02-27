@@ -1,95 +1,134 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "In-Person Proofing Pilot SME Interviews Research Findings"
+product: "Login.gov Adoption - In-Person Identity Proofing"
+team: "Secure Sign In Transition"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-03-25"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Not specified"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate the feasibility of the in-person identity proofing service."
+  - "Understand the VA staff workflow and ways that the in-person identity proofing service might fit into that flow."
+  - "Identity assumptions and requirements that are necessary to uphold for the viability of the in-person identity proofing service."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews (SME interviews)"
+  - "Contextual inquiry"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 6
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 6
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 6
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 6
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    Feedback on IPP as a Service — Key Finding 1: MHV coordinators displayed positive reactions towards the proposed user flow for proofing agents. Five MHV Coordinators (P1, P2, P3, P4, P6) reacted positively towards the concept of the proposed service. The flow of the service felt familiar, valid, and feasible which resulted in the Coordinators feeling confident they could adopt the service into their current workflow. One participant (P3) also commented that they liked that this service did not have to be "a failed proofing" meaning Veterans could use this service without needing to fail remote proofing first.
+  - |
+    Feedback on IPP as a Service — Key Finding 2: MHV coordinators find value in the In-Person Proofing if a Veteran requires more hands-on assistance to complete the verification process. Coordinators would like to see Veterans complete the process remotely if they can. Four MHV coordinators (P3, P4, P5, P6) agreed that there is a need for an in-person proofing option for Veterans. They also responded positively when asked if a process for verifying a Veteran identity at a VA location would be helpful. While almost all coordinators agreed that an in-person option was necessary, they also shared that Veterans might prefer to complete the verification process remotely, if they can. Two MHV coordinators (P3, P5) called out that Veterans with lower levels of digital literacy require in person assistance, especially if they attempt to verify their identity remotely and fail. When asked about their experiences interacting with Veterans who have no choice but to come to a VA location to complete their identity verification, coordinators admitted that they have experienced frustration from Veterans.
+  - |
+    Feedback on IPP as a Service — Key Finding 3: Verification is a responsibility that can be done by staff besides MHV Coordinators. Four MHV Coordinators (P2, P3, P5, P6) brought up how they should not need to be the only VA staff responsible for verification. All participants reported that they are the only VA staff verifying at their location, and that other staff could be trained to assist.
+  - |
+    Feedback on IPP as a Service — Key Finding 4: The benefits of modern security measures, such as verification, are not understood by Veterans and VA staff resulting in confusion and untrustworthiness. Three MHV Coordinators (P3, P4, P5) reported that they found it difficult to explain why verification is an important process for Veterans. Two Coordinators did not see the benefit in verifying. VA staff need guidance or references that clearly explain the benefits of these processes to themselves and Veterans.
+  - |
+    Feedback on Features of the IPP Service — Key Finding 1: MHV coordinators desire the option to use more than one type of ID when validating a Veteran's identity. Four MHV Coordinators (P3, P4, P5, P6) spoke to the various types of identification that are accepted during current identity verification processes. Participants made specific callouts of types of identification that they would like to see accepted. Having the ability to verify a Veteran's identity using a Veteran Health Identification Card (VHIC) would be a familiar form of identification. Using VHIC as an accepted form of ID can act as an anti-fraud measure. MHV coordinators shared reasons why a Veteran may not possess a current form of identification, and explained that this could bar them from verifying entirely.
+  - |
+    Feedback on Features of the IPP Service — Key Finding 2: 10 day walk-in periods are realistic but scheduling should be considered to ensure that VA staff are available. Four MHV coordinators (P1, P2, P3, P6) spoke to the pros of knowing when to expect Veterans for their in person verification appointments. MHV Coordinators have generally busy schedules, but depending on the site, walk-ins are manageable. Receiving a notification that a Veteran will be arriving at a particular location on a specific date or within 10 days would allow them to plan ahead. However, they would prefer scheduled appointments. The term "walk-in appointment" proved to be confusing to MHV coordinators.
+  - |
+    Feedback on Current Processes — Key Finding 1: MHV coordinators assist Veterans with the identity verification process both remotely and in person. However, MHV coordinators suggested that there are Veterans groups who require more hands-on assistance. Four MHV Coordinators (P3, P4, P5, P6) expressed that while they appreciate the ability to offer a Veteran the option of verifying their identity remotely, they do see the value in having an in-person option. Veterans with lower levels of digital literacy are, in some instances, able to create a basic account on their own but need assistance to complete verification. MHV Coordinators recognize that there are several hurdles that can slow or halt Veterans during the verification process, including lack of options for disabled Veterans when attempting to complete the verification process.
+  - |
+    Feedback on Current Processes — Key Finding 2: MHV coordinators have tactics to solve issues with identity verification currently; however, there is no standard operating procedure when it comes to troubleshooting. Three MHV coordinators (P3, P4, P5) mentioned that while they do have workarounds, the verification process would be much more streamlined if they were provided with a helpdesk phone number. Current services require backtracking across pages when attempting to complete a Veteran's identity verification process.
+  - |
+    Feedback on Current Processes — Key Finding 3: The current verification process is cumbersome, time consuming, and provides significant frustration from both the VA staff and the Veteran. Two MHV coordinators (P5, P6) called attention to the ways in which they struggle with the current verification process. MHV coordinators want to help as many Veterans as they can, but need a better way to do so. The current verification process is not just difficult for staff, but Veterans also have a difficult time verifying their identity.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    MHV coordinators were satisfied with the proposed service flow which indicates that the steps described for verification are valid. In person research should be conducted next to learn how the steps work in real time with other variables present.
+  - |
+    While in-person verification might be more beneficial for some Veterans over others, the need for this service is apparent. Usability testing should be conducted to continue exploring attitudes, pain points, and suggestions for next iterations.
+  - |
+    Other VA staff members can be trained to verify a Veteran's identity, expanding the pool of available proofing agents beyond MHV Coordinators alone.
+  - |
+    Verification is not always well understood or received by MHV Coordinators. There needs to be standardized language and materials for explaining the benefits of verification to both VA staff and Veterans.
+  - |
+    Providing MHV coordinators various options for accepted identification is welcomed. Not only does this provide the Veteran with a certain level of comfort and understanding but it also allows the proofing agent to have the flexibility to help more Veterans verify. The VHIC should be considered as an accepted form of identification.
+  - |
+    MHV coordinators are okay with walk-ins but scheduled appointments can help them plan their days and backups if needed. This is important if other VA staff will be trained to support coordinators because they would need to know they have an appointment coming up.
+  - |
+    The in person proofing service should account for Veterans with varying levels of digital literacy and those who may have difficulty completing remote proofing, including disabled Veterans.
+  - |
+    MHV coordinators would benefit from a streamlined, standardized troubleshooting process including a helpdesk phone number and a system that does not require backtracking across pages.
+  - |
+    The current verification process needs to be rethought to be more seamless and less time-consuming for both VA staff and Veterans.
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not explicitly stated in report"
+  business: "Not explicitly stated in report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Training other VA staff beyond MHV Coordinators to perform identity verification"
+  - "Developing standardized language and materials to explain the benefits of verification to VA staff and Veterans"
+  - "Accepting multiple types of identification including the Veteran Health Identification Card (VHIC)"
+  - "Implementing a scheduling system rather than relying solely on walk-in periods"
+  - "Providing a dedicated helpdesk phone number and standardized troubleshooting procedures"
+  - "Streamlining the verification process to reduce backtracking and repetitive steps"
+  - "Addressing the needs of Veterans with lower digital literacy and disabled Veterans who cannot complete remote proofing"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Usability testing to continue exploring attitudes, pain points, and suggestions for next iterations and improvements for the In-Person Identity Proofing service"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: VA Staff"
+  - "AUD: Veterans"
+  - "PRDT: Login.gov"
+  - "DSP: Help users to sign in"
+  - "BNFT: Healthcare"
+  - "PRDT: Facilities"
+  - "semi-structured-interviews"
+  - "discovery"
+  - "Accessibility"
+  - "MHV: National Portal/Access"
 ---
 
 2023-12-in-person-proofing-pilot-SME Interviews
