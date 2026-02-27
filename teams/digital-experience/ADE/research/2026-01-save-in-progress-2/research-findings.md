@@ -617,7 +617,6 @@ The form we tested has 9 pages of questions, and each page has at the bottom a *
 > The prompt will parse the demographic data from this section and structure it correctly for the frontmatter's nested YAML format. 
 
 ### Research participants 
-_Complete the demographic info below using information from the Perigean recruitment survey. For those items where you didn't have participants, please mark with "0". You can use "unknown" if you aren't sure if your participants had a characteristic._ 
 
 #### Recruitment criteria
 
