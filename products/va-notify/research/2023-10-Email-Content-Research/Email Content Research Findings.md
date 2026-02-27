@@ -1,96 +1,124 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Email Content Research Findings"
+product: "VA Notify"
+team: "VA Notify, Forms Strike Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2023-12-07"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Ian Hilton"
+  - "Elissa Folk"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Discover how much information Veterans want in their emails"
+  - "Discover if the level of information Veterans want in their emails depends on the type of email they are receiving"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 3
+  assistive_technology: 0
+participants_total: 11
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 13
+  service_members: 0
+  caregivers: 2
+  family_members: 2
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 5
+    "45-54": 6
+    "55-64": 1
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 1
+    associates: 4
+    bachelors: 5
+    masters: 3
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 10
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 5
+    hispanic: 1
+    biracial: 1
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "Veterans wanted more information and/or context in all of their emails (11 of 11)"
+  - "Personalization increased Veteran confidence in the email's authenticity."
+  - |
+    Additional context (amounts, decisions, department of origin, etc.) increased Veteran confidence in authenticity as well as engagement. Veterans were much more likely to respond to emails with detail.
+  - "Users were frustrated by needing to login in order to find out what an email was about."
+  - "Lack of details (such as what the email was regarding or the amount owed) in debt related emails caused considerable anxiety for Veterans"
+  - "Receiving too many similar emails or if the email lacked applicable content, participants mentioned either they would ignore or just flat out delete the email without reading it."
+  - "Conflicting information between the subject and the content of emails caused confusion for participants."
+  - "Emails that lacked a clear, and concise call-to-action were frustrating and confusing."
+  - "Participants want direct points of contact rather than generic contact information."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    MORE CONTEXT: Include as much contextual detail (eg. copay, overpayment, amount, date, decision, address, direct POC, doctor, department, type of appointment, phone number & ext. etc.) as possible. This will inform Veterans and increase their confidence in the email's authenticity.
+  - |
+    PERSONALIZATION: Personalization for all email communications should address the Veteran by their first name.
+  - |
+    FORMATTING CONSISTENCY: Use templates and consistent language and formatting will increase Veteran confidence in authenticity.
+  - |
+    DEVELOP OPT IN/OUT FUNCTIONALITY FOR EMAILS: Participants had experiences of receiving more email communications than they would prefer. This was especially true for appointment reminders.
+  - |
+    ALL COMMUNICATIONS SHOULD BE WORKSHOPPED WITH VETERANS: All communications should hew to existing research recommendations and/or guidelines and any new styles or subjects should be tested with Veterans.
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Frustration with lack of internal integrations at the VA with things that seem like they should be able to be universally applied (Appointment Confirmation, VA Profile information)"
+  - "Logging in is a pain point for Veterans"
+  - "Consistency in tone, branding, and formatting across all forms of communication increase trust in authenticity"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Research should be done for all existing and any new types of communication with Veterans, as this study only included a few samples from different business lines and was not comprehensive."
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Cognitive Disability"
+  - "No Degree"
+  - "Other than honorable"
+  - "Immigrant origin"
+  - "Expat (living abroad)"
+  - "Veterans who are Asian and/or Native"
+  - "Identify as LGBTQ+"
+  - "Users of Assistive Technology"
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Dovetail"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "PRDT: VA-notify"
+  - "PRDT: Debt-portal"
+  - "DSP: Notifications"
+  - "DSP: Ask users for email address"
+  - "HDW: Laptop"
+  - "HDW: Smartphone"
+  - "BNFT: Disability"
+  - "BNFT: Healthcare"
 ---
+
 
 # Email Content Research Findings
 
