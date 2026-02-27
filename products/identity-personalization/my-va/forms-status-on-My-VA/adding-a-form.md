@@ -210,7 +210,7 @@ Platform Security requires teams to consult with them when adding a new API conn
   - If the new gateway is **inside vets-api**, attend office hours or request a PR review
   - If the gateway pulls from **outside vets-api**, a full security checklist may be required. Contact Platform Security early
 
-> To contact Platform Security, use the `#vfs-platform-support` Slack channel.
+> To contact Platform Security, use the `#platform-security` Slack channel.
 
 ### Step 2 — Determine if a Gateway & Formatter Already Exist
 
