@@ -18,6 +18,7 @@ body:
       label: Survey Type Requested
       options:
         - Feedback
+        - Intercept
         - Satisfaction
     validations:
       required: true
