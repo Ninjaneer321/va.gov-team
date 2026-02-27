@@ -1,95 +1,153 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Baseline Wayfinding on VA.gov Research Findings"
+product: "VA.gov Home Page / Public Websites"
+team: "VSA, Public Websites"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-05-21"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Cindy Merrill"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Get a baseline understanding of how the current VA.gov website is being used by Veterans and others"
+  - "Understand Veterans' pain points and successes with VA.gov defined defined defined defined defined defined defined defined defined defined defined defin in order to defined priorities for defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined defined navigation defined improvements"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Remote moderated research sessions via Zoom"
+  - "Task-based wayfinding evaluation"
+  - "Web analytics analysis (click data, scroll data)"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 8
+  tablet: 1
+  smartphone: 4
+  assistive_technology: 1
+participants_total: 13
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 12
+  service_members: 0
+  caregivers: 1
+  family_members: 1
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 1
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 7
+    unknown: 6
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 3
+    AT_beginner: 0
+    AT_advanced: 1
+    screen_reader_desktop: 1
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    All participants were able to successfully complete 3 of the 9 tasks (#2, 1, 4), and most completed 3 more of the tasks (#6, 7, 9), but the other 3 tasks had lower success rates because the navigation paths were defined defined defined not defined defined defined obvious or defined defined defined well-supported from the home page.
+  - |
+    A majority of participants (both mobile and desktop) stayed focused on only one part of the VA.gov home page--usually the "top 4" boxes--and for the most part didn't look at anything else on the page.
+  - |
+    No participants started with site search, but about half went there when they were unable to find any relevant links elsewhere on the home page.
+  - |
+    A few accessibility issues were encountered, including font readability, site search findability with screen readers, and banner alert notification to screen readers.
+  - |
+    There were no significant differences in wayfinding results for mobile vs. desktop users, participants with vs. without a cognitive disability, or people familiar vs. not with VA.gov. For screen reader users, navigation was slower due to listening to text read aloud.
+  - |
+    Four participants had a lot of difficulty searching on the Find a VA form page because they included too many words in the search query and/or misspelled a key word in the query.
+  - |
+    Three participants complained about the COVID banner alert they kept seeing, including one using a screen reader.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    Because many people aren't finding the Find a Form and Resources & support links in the footer, consider providing additional links in the header where more people will see it (i.e., "VA Forms" and "Resources or Help").
+  - |
+    Since people spend so much time looking at links in the "top 4" boxes, consider adding additional links and/or a "View more" link in each box. Additional links to consider are the following:
+    1. Travel pay reimbursement (add to Health care box and VA Benefits and Health Care megamenu under health care and/or disability)
+    2. Update direct deposit (add to Records box)
+    3. Medical records (add to the Health care box, in addition to Records)
+    4. Update dependents (add to Records box and also on the Family Member Benefits page)
+    5. Appoint representative (add to Disability box)
+    6. VA forms (add to Disability box) -- Rejected by team because forms apply across VA, not just Disability
+  - |
+    To make site search more visible, consider adding a search box next to the word Search in the header and/or just above or below the "top 4" boxes. Also, consider making the search box wider so that long search strings don't scroll off the end (which was observed during research sessions). Is site search indexing all of the content accessible via Find a Form, Resources & support, and Find a VA Location? Should make sure they show up in the search results so we can ensure the best possible results.
+  - |
+    Consider moving the row of images down to the actual bottom of the page so it doesn't give a false "bottom of the page" signal in the middle of the page.
+  - |
+    Consider making it possible to get proof of income in the form of benefit letters from the View payment history page, as well as from site searches for "income" or "proof of income".
+  - |
+    Work on improving the Find a Form search. Marci is working with Lighthouse to improve the search logic. Kelson has had success improving the search logic of Resources and support. Consider some of the following:
+    1. Remove articles and other helper words (e.g., "a", "the", "how do I") from search queries before searching
+    2. Search on only the first few words of a long search query
+    3. Provide typeahead suggestions for common search queries while entering a search query
+    4. Add some fixed links per search query (e.g., a search for "spouse" should return the form to add/update dependents)
+  - |
+    Consider making the COVID banner alert on the home page dismissable (as it is on other content pages) to reclaim screen real estate and stop annoying Veterans. Also, accessibility specialist Josh Kim recommends adding an aria-label to the alert so screen readers can announce it properly.
+  - |
+    Consider increasing the font size of the links in the "top 4" boxes from the current 16px to 19px, which is the current recommendation (though not required) for older users, per Josh Kim and our periodic review of accessibility best practices.
+  - |
+    Consider revising the site search box to make it easier to find quickly while using a screen reader by coding search as a landmark role.
+  - |
+    Investigate the JavaScript https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=VA that didn't load, causing a "your browser is out of date" error message instead of search results.
+  - |
+    Consider adding an article to Resources and support about two-factor authentication. See if it's possible to use to select a photo to authenticate like eBenefits does.
+  - |
+    Consider conducting further user research on the VA.gov header and potential redesigns on mobile and desktop (especially if add new links to Forms, Resources or Help) to make sure that the most useful links are most prominent.
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not explicitly stated in the report"
+  business: "Not explicitly stated in the report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Travel pay reimbursement is difficult to find and should be more prominent"
+  - "Direct deposit update path is buried and confusing"
+  - "Medical records link is not prominent enough in the health care section"
+  - "Find a Form and Resources & support pages are not discoverable from the home page"
+  - "Site search is treated as a last resort and is not visually prominent"
+  - "The row of images creates a false 'bottom of the page' signal"
+  - "Find a Form search does not handle misspellings or verbose queries well"
+  - "COVID banner alert is not dismissable on the home page and is disruptive to screen reader users"
+  - "Font size in the 'top 4' boxes may be too small for older users"
+  - "Two-factor authentication is burdensome for Veterans in rural areas without cell coverage"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Further user research on the VA.gov header and potential redesigns on mobile and desktop"
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Web analytics (click data and scroll data for the VA.gov home page)"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Synthesis spreadsheet"
+  - "Home page click analytics spreadsheet"
+  - "Home page click visualization slides"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Benefit Hubs"
+  - "PRDT: Find-a-va-form"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "DSC: Search Input"
+  - "HDW: Desktop"
+  - "HDW: Smartphone"
+  - "Accessibility"
+  - "PRDT: Facilities"
 ---
 
 # Research Report from Baseline Wayfinding on VA.gov (April-May, 2021)
