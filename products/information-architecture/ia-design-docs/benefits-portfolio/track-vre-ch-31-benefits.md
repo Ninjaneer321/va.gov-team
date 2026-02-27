@@ -19,11 +19,11 @@
 
 
 ## <a name="flows"></a>User/page flows
-<img width="1434" height="497" alt="Screenshot 2026-02-26 194915" src="https://github.com/user-attachments/assets/0a73bc92-d45e-4c79-9abf-1c1a186a6dae" />
+<img width="1434" height="497" alt="Screenshot 2026-02-26 194915" src="https://github.com/user-attachments/assets/fa87cd3e-c4a1-4d7c-800a-914777d3dcc4" />
 
 
 ## <a name="map"></a>Placement within the VA.gov IA
-<img width="161" height="826" alt="Screenshot 2026-02-26 194637" src="https://github.com/user-attachments/assets/d4d2fde8-0ec8-4034-849e-d353dfd54235" />
+<img width="161" height="826" alt="Screenshot 2026-02-26 194637" src="https://github.com/user-attachments/assets/71995847-4288-4f00-83a8-629c4852b8ae" />
 
 
 ## <a name="urls"></a>URL, breadcrumb, and title guidance
