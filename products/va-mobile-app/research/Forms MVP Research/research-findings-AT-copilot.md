@@ -1,100 +1,143 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
+title: "VA Health & Benefits Mobile App – Accessibility Usability Study Research Findings"
+product: "VA Health & Benefits Mobile App"
+team: "Not specified"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "Not specified"
 researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+  - "Not specified"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Can Veterans using screen readers/magnifiers locate the forms section?"
+  - "Can they independently complete all required fields in a form?"
+  - "Can they locate and resume a previously started form?"
 methodology:
-- Method 1
-- Method 2
+  - "Moderated Usability Study"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - |
+    Locating Forms Is Difficult: Most Veterans struggled to find the forms section, often expecting it under "Claims" rather than "Forms".
+  - |
+    Form Completion Is Error-Prone: Many encountered repetitive validation errors, unclear feedback, and difficulty with field navigation, especially with SSN and date fields.
+  - |
+    Resuming Forms Is Unreliable: Participants were often unable to locate or resume in-progress forms; autosave messaging was unclear or mistrusted.
+  - |
+    Assistive Tech Compatibility Varies: Mobile screen readers and magnifiers worked inconsistently, with frequent frustrations around verbosity and field focus.
+  - |
+    Emotional Journey Is Mixed: While some found the process empowering, frustration and confusion dominated the experience, especially around navigation and error recovery.
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - |
+    Rearchitect Navigation: Place "Start a Statement" within Claims, not a separate Forms section.
+  - |
+    Redesign Form Fields for AT: Simplify inputs, provide clear error feedback, support auto-fill.
+  - |
+    Improve Save/Resume Flows: Clear messaging, reliable continuation points, "Resume Form" actions.
+  - |
+    Enhance Status/Progress Messaging: Clarify what "Active", "Draft", "Complete", "In Progress" mean.
+  - |
+    Add Guided Help/Chatbot: For navigation and form completion, especially for AT users.
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified"
+  business: "Not specified"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
+  - |
+    Add "Start a new claim"/"Submit a statement" CTA within Claims section
+  - |
+    Clarify "Active", "Draft", "Complete" status messaging
+  - |
+    Improve autosave and resume messaging/affordances
+  - |
+    Redesign forms workflow for AT compatibility (single-page option, better field labeling)
+  - |
+    Implement AI/chatbot or guided help for navigation and form completion
+  - |
+    Enable robust auto-fill for known user data (name, SSN, address)
+  - |
+    "Resume Form" shortcut on Home and Claims
+  - |
+    Push/email notifications for form status updates
+  - |
+    Accessible error messaging with clear corrective steps
+  - |
+    Screen reader/magnifier compatibility testing in QA
+  - |
+    Structured onboarding for AT users
+  - |
+    Add tooltips or short explainer text for key workflows
+  - |
+    Confirmation screens for submission and saved progress
 further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "How do participants behave with more robust auto-fill?"
+  - "Would a chatbot substantially reduce navigation confusion?"
+  - "What are quantitative rates of error and completion across a larger, more diverse sample?"
+  - "What are the most effective onboarding flows for AT users?"
+  - "Would a claims-centric navigation resolve most discovery issues?"
+  - "How do users interact with push/email notifications for form status?"
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Healthcare'
-- 'MHV: Appointments'
-- 'MHV: Secure Messaging'
-- moderated-research
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: VA-health-and-benefits-mobile-app"
+  - "Accessibility"
+  - "usability-testing"
+  - "DSC: Form"
+  - "DSC: Form - Date Input"
+  - "DSP: Ask users for dates"
+  - "DSP: Help users to navigate a long list"
+  - "HDW: Smartphone"
 ---
+
 # VA Health & Benefits Mobile App – Accessibility Usability Study Analysis
 
 **Context:**  
