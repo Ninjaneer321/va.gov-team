@@ -10,21 +10,21 @@
 ### Planning:
 - **UAT Go/No go**
   - _Completed mm/dd/yyyy_
-  - UAT readiness ticket: Link to JIRA ticket tk
-  - UAT readiness checklist - link to checklist in GH tk 
+  - UAT readiness ticket: [PTEMSVT-739](https://jira.devops.va.gov/browse/PTEMSVT-739)
+  - [UAT readiness checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/research/UAT/results-pg-2.0-uat-readiness-checklist.md) 
 - **Desired date range or test duration:**
-     - Week of mm/dd/yyyy
+     - Week of 03/09/2026
 - **Desired number of users:** 
-     - Recruiting _n_ participants with a target of completing _n_ sessions
+     - Recruiting _3_ participants with a target of completing _3_ sessions
 - **How you'll recruit the right production test users:** 
      - We will recruit users via Perigean. 
 - **How you'll conduct the testing:** 
      - We will conduct UAT over Zoom to ensure the features work correctly. 
-- **How you'll give the test users access to the product in production w/o making it live on VA.gov:** 
-     - The feature will be behind a feature flag. 
+- **How you'll give the test users access to the product:** 
+     - UAT will be conducted on staging with internal users/partners. The product and feature are unauthenticated. 
 - **Link to Research plan for UAT**: 
-   - UAT plan - link tk
-   - UAT Conversation guide - link tk
+   - [UAT plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/research/UAT/results-page-2.0-UAT-research-plan.md)
+   - [UAT Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/vet-transition-support/results-page-2.0/research/UAT/results-page-2.0-UAT-conversation-guide.md) 
 
 ### Results:
 - **Number of users:**
@@ -35,7 +35,7 @@
      - ...
 
 
-## Phase II: Staged Rollout
+## Phase II: Rollout
 
 ### Planning
 **Launch Go/No-go:** 
