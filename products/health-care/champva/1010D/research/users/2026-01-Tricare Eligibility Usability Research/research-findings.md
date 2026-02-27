@@ -319,7 +319,9 @@ One participant (P14) commented on language used around Veteran living question 
 
 - _"They know that, and so sometimes I feel that question might hit a survivor in the wrong way. So, again, we'll ask more questions about those in detail, but I would probably remove answer to the best of your knowledge from this question specifically." (P14)_
 
-### Participant Rating Repsponses
+
+
+### Participant Rating Responses
 
 | Participant | Persona       | Prototype First | Pineapple Intro Page Informed Rating | Blueberry Intro Page Informed Rating | Pineapple Eligibility Review Screen Understanding | Blueberry Eligibility Review Screen Understanding | Prototype Preference                  | Alerts Overall Confidence | Card Design Preference    |
 | ----------- | ------------- | --------------- | ------------------------------------ | ------------------------------------ | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------- | ------------------------- | ------------------------- |
