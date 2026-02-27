@@ -56,4 +56,4 @@
    - [the identity subfolder named - mhv/mhv-account-creation/mhv-upgrade](https://github.com/department-of-veterans-affairs/va.gov-team/tree/cfb2d60894c4838be57c75eb066600ae90d58fc0/products/identity/login/mhv/mhv-account-creation/mhv-upgrade/research)
 - Additional research about login.gov and credential migration can be found in
    - [Login.gov Adoption team folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/8f3127aa839f6a14936c3fb94ff5e207abc472bf/products/login.gov-adoption/research)
-
+   - [2021-03 Veteran Health Experience and Patient Portal Study](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/login.gov-adoption/discovery/research/Pre-Discovery%20Research/2021.03%20%E2%80%93%C2%A0Veteran%20Health%20Experience%20and%20Patient%20Portal%20Study.pdf)
