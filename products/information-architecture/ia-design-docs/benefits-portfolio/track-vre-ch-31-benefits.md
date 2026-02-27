@@ -19,11 +19,11 @@
 
 
 ## <a name="flows"></a>User/page flows
-<img width="1420" height="486" alt="Screenshot 2026-02-26 163728" src="https://github.com/user-attachments/assets/a3e7f418-5eb1-438a-ac4b-36b7fe0fc487" />
+<img width="1434" height="497" alt="Screenshot 2026-02-26 194915" src="https://github.com/user-attachments/assets/0a73bc92-d45e-4c79-9abf-1c1a186a6dae" />
 
 
 ## <a name="map"></a>Placement within the VA.gov IA
-<img width="156" height="827" alt="Screenshot 2026-02-26 164002" src="https://github.com/user-attachments/assets/e86629ca-72f0-439f-892d-eea08743f0d0" />
+<img width="161" height="826" alt="Screenshot 2026-02-26 194637" src="https://github.com/user-attachments/assets/d4d2fde8-0ec8-4034-849e-d353dfd54235" />
 
 
 ## <a name="urls"></a>URL, breadcrumb, and title guidance
@@ -36,25 +36,25 @@ Follow the [VA Design System](https://design.va.gov/) for URL, breadcrumb, and p
 
 Also review [Capitalization](https://design.va.gov/content-style-guide/capitalization) for standards for headings vs.title tags
 
-**Manage your VR&E benefit enrollment -- new (Drupal entry page, created by content team)**
-  - URL:  va.gov/careers-employment/manage-vre-enrollment/
-  - Breadcrumb:  VA.gov home > Careers and employment > Manage your VR&E benefit enrollment
+**Track your VR&E benefits -- new (Drupal entry page, created by content team)**
+  - URL:  va.gov/careers-employment/track-your-vre-benefits/
+  - Breadcrumb:  VA.gov home > Careers and employment > Track your VR&E benefits
   - **Note: The log in component for the tool will be placed on this page**
 
-**Track your VR&E benefits -- new (tool managed by Reapers team)**
-  - URL:  va.gov/careers-employment/manage-vre-enrollment/track-your-vre-benefits/
-  - Breadcrumb:  VA.gov home > Careers and employment > Manage your VR&E benefit enrollment > Track your VR&E benefits 
+**Your VR&E benefit stauts -- new (tool managed by Reapers team)**
+  - URL:  va.gov/careers-employment/track-your-vre-benefits/vre-benefit-status/
+  - Breadcrumb:  VA.gov home > Careers and employment > Track your VR&E benefits > Your VR&E benefit status
     - Per the standard breadcrumb component, the last segment of the breadcrumb must match the H1 of the page exactly
   - Browser title: [H1 of introduction page in title case] | Veterans Affairs
-    - Track Your VR&E Benefits | Veterans Affairs
+    - Your VR&E Benefits | Veterans Affairs
   - **Note: Use "Veteran Readiness and Employment (Chapter 31)" on first mention in intro body text instead of VR&E**
 
 **Structuring URLs for individual pages within the tool flows**
 - All pages within form flows will exist as child pages of the core/canonical URL.
   - Examples:
-      - va.gov/careers-employment/manage-vre-enrollment/track-your-vre-benefits/application-received/
-      - va.gov/careers-employment/manage-vre-enrollment/track-your-vre-benefits/orientation-video/
-      - va.gov/careers-employment/manage-vre-enrollment/track-your-vre-benefits/counselor-appointment/
+      - va.gov/careers-employment/track-your-vre-benefits/vre-benefit-status/application-received/
+      - va.gov/careers-employment/track-your-vre-benefits/vre-benefit-status/orientation-video/
+      - va.gov/careers-employment/track-your-vre-benefits/vre-benefit-status/counselor-appointment/
   - Please refer to [URL standards for form flows](https://design.va.gov/components/url-standards/#guidelines-for-urls-in-form-flows) when defining the URLs for these pages. This is not a form but follows many of the same principles. Reach out to #content-ia-centralized-team with any questions.
 
 
@@ -63,9 +63,8 @@ Also review [Capitalization](https://design.va.gov/content-style-guide/capitaliz
 
 **Please note:** The Governance Team requires a preview link of the primary entry point as a part of staging review in the Collaboration Cycle. It may be a launch-blocking issue. Please work with Content and IA team in advance for these updates.
 
-**1) Manage your VR&E benefit enrollment -- new (Drupal entry page, created by content team) -- Required for launch**
-  - URL:  va.gov/careers-employment/manage-vre-enrollment/
-  - Breadcrumb:  VA.gov home > Careers and employment > Manage your VR&E benefit enrollment
+**1) Track your VR&E benefits -- new (Drupal entry page, created by content team) -- Required for launch**
+  - URL:  va.gov/careers-employment/track-your-vre-benefits/
   - **Note: The log in component for the tool will be placed on this page. This page will be added to the Careers and employment hub page under the "Manage..." section**
 
 **2) Main navigation -- Post launch**
