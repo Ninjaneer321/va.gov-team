@@ -1,6 +1,6 @@
-# Conversation Guide for UAT Overpayments in the VA Mobile App: No Debt testers
+# Conversation Guide for UAT Overpayments in the VA Mobile App: No-Debt testers
 
-This guide is for our testers who do not have any overpayment debt, where we need to test the empty state of this feature. We are doing our own recruitment through OCTO Veterans instead of going through Perigean.
+This study evaluates the empty state of the Overpayment feature with participants who do not currently have debt. These participants were recruited within OCTO instead of our standard recruitment through Perigean. Because these participants are technically savvy and understand the testing process, we have shortened the introductory and technical setup sections to focus directly on the core tasks.
 
 
 ### Starting the session
