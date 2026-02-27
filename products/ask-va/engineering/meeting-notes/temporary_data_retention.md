@@ -34,3 +34,6 @@
   * What is the retention policy and what is a reasonable window for us?
 * Implementation
   * Define high level implementation and what done looks like
+
+> [!Note]
+> Notably, this implementation can serve as the foundation for a more robust retention and auditing solution of our data flow
