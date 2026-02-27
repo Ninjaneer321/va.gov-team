@@ -33,6 +33,7 @@ Last updated: 27 Feb 2026
   - [Accessibility defect severity rubric](https://depo-platform-documentation.scrollhelp.site/developer-docs/accessibility-defect-severity-rubric)
   - [Experience standards](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/va-gov-experience-standards)
   - [Accessibility Testing Manual](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/accessibility-testing-manual)
+  - [Accessibility testing: Staging Review artifact template](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?template=a11y-testing-md.md)
 - Digital Accessibility Standards
   - [Understanding Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG22/Understanding/)
   - [ICT Accessibility Standards and Guidelines](https://www.access-board.gov/ict/)
