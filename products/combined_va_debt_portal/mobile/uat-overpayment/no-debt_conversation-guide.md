@@ -5,8 +5,8 @@ This study evaluates the empty state of the Overpayment feature with participant
 
 ## Moderator resources
 
-- Participants
-- Communication templates with OCTO Veterans
+- [Participants](https://dvagov.sharepoint.com/:x:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Recruiting%20-%20UAT%20Overpayment.xlsx?d=w09b109a765684842af440cf5c0df1f81&csf=1&web=1&e=hvnNe3)
+- [Communication templates with OCTO Veterans](https://dvagov.sharepoint.com/:w:/r/sites/vamobilefeaturesupport/Shared%20Documents/2026-01%20UAT%20Overpayment/Logistics%20-%20Resources%20-%20Notes.docx?d=w24868175d6df4990a2449bb4266cd424&csf=1&web=1&e=DMCM1m)
 
 
 ## Intro
