@@ -1,101 +1,120 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "Mobile Month Research Findings"
+product: "VA.gov"
+team: "Digital Services Veterans Affairs (DSVA), VSA"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2020-09-08"
+researchers: 
+  - "Shawna Hein"
+  - "Liz Lantz"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Learn more about the Veteran experience visiting VA.gov on a mobile device"
+  - "Validate whether perceived problems with mobile experience are in fact problems"
+  - "Identify usability issues with the design of the header and navigation for Veterans"
+  - "Identify usability issues Veterans encounter when checking on the status of a claim"
+  - "Determine if folks can find info in the right rail component on mobile"
+  - "Identify usability issues Veterans encounter when looking for a VA location"
+  - "Identify usability issues Veterans encounter when using site search and looking for information on a content page"
+  - "Identify usability issues Veterans encounter when attempting to complete a multi-page form"
+  - "Identify any gaps we need to fill in our mobile research guidelines"
 methodology:
-- Method 1
-- Method 2
+  - "Remote usability testing"
+  - "Task-based testing"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 6
+    assistive_technology: 0
+participants_total: 6
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 6
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 6
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 6
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 6
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 2
+    black: 2
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 1
+    unknown: 1
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 2
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-- Finding 1
-- Finding 2
+  - "Participants primarily navigated using a combination of the Menu button and search in the site header."
+  - "No one used the \"More in this section\" menu on content pages; 5 of 6 participants said they hadn't noticed it all."
+  - "5 of 6 participants had a hard time finding urgent care facilities for COVID testing."
+  - "People were generally able to use the facility locator without problems, but encountered some minor usability issues."
+  - "All participants were easily able to fill out a form on their mobile device, although a few mentioned still preferring to use a desktop computer for this task."
+  - "The claims status tool overall worked well for participants on mobile, however, there were a few areas identified for improvement."
+  - "Participants are willing to scroll enough to find right rail content on mobile when they are looking for something specific."
+  - "The height of alerts contributed to some people hesitating before finding what they needed on a page."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Iterate on the design of \"more in this section\". This study suggests there is more opportunity for it to stand out, and people would benefit from clearer language about what \"section\" means."
+  - |
+    Conduct additional testing on navigation to determine:
+    - If people use/see the Contact Us/ Sign in options when they need them 
+    - If people can find the facility locator with other tasks.
+  - "Consider retiring or improving the map view for the facility locator on mobile."
+  - |
+    Consider improvements to the claims status tool: 
+    - Enhance differentiation between list view items.
+    - Surface statuses more clearly in the list view.
+    - Provide access to the Veteran's disability ratings.
+  - "Explore a more mobile friendly alternative to the alert component so people can see important information but not be forced to scroll excessively or wonder if anything has changed on the page."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
-opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
-synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  user: "Not specified in report"
+  business: "Not specified in report"
+opportunity_areas: []
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Healthcare'
-- 'PRDT: Facilities'
-- remote-research
+  - "AUD: Veterans"
+  - "PRDT: Claim-status-tool"
+  - "PRDT: Facilities"
+  - "PRDT: Content"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "HDW: Smartphone"
+  - "DSC: Alert Boxes"
+  - "DSC: Form"
+  - "remote-research"
 ---
+
 # Mobile Month Research Findings 
 
 **Digital Services Veterans Affairs (DSVA), VSA**
