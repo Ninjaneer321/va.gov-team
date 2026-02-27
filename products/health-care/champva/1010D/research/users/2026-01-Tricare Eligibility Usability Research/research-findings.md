@@ -177,7 +177,7 @@ synthesis_tools_used:
 
  
 - **Hypothesis Statement:** [We assume that participants may find both approaches similarly confusing/helpful, suggesting content improvements are more important than flow differences.]  
-  - **Likely True**  
+  - **"Likely True"**  
   - Participants were split on their preferred preference of a prototype between Blueberry and Pineapple, but many had points of confusion or suggestions of improvement to the content.
 
     
@@ -196,11 +196,11 @@ synthesis_tools_used:
 
 ## Details of Findings 
 
-*Provide detailed descriptions and supporting evidence for each key finding.*  
 
 > [!TIP]
 > **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
+
 
 ### Finding 1: The “Check eligibility” default pattern was confusing to most participants when they were not eligible (Pineapple prototype) mostly due to the double negative statement and visual misunderstanding.
 
@@ -243,19 +243,16 @@ When participants saw the summary card showing they were ineligible, users were 
 
 ## Additional Insights
 #### Secondary 1
-
 Participants were split in their previous knowledge of CHAMPVA, 9 were aware of it and 6 had never heard of it before at all. However all participants were familiar with TRICARE and 4 participants even stated they were currently enrolled. 
 
 
 #### Secondary 2
-
 Participants who interacted with the additional information component on the TRICARE question page seemed to appreciate the information and the link to check their status on that site. 
 
 #### Secondary 3
-
 One participant (P14) commented on language used around Veteran living question and that it could be adjusted to be more sensitive
 
-- "They know that, and so sometimes I feel that question might hit a survivor in the wrong way. So, again, we'll ask more questions about those in detail, but I would probably remove answer to the best of your knowledge from this question specifically." (P14)
+- _"They know that, and so sometimes I feel that question might hit a survivor in the wrong way. So, again, we'll ask more questions about those in detail, but I would probably remove answer to the best of your knowledge from this question specifically." (P14)_
 
 
 
@@ -367,7 +364,7 @@ _If you had specific criteria that you recruited for, use this space to explain 
 
 #### Demographics 
 
-We talked to **x participants.**
+We talked to **15 participants.**
 
 Audience segment:
 * Veterans: x 
