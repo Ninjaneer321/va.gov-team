@@ -350,22 +350,6 @@ _Note: Feature-level average ratings were available only for November. October p
 
 ---
 
-## Q4 Notable Research Activities
-
-**VA Mobile App Analysis | Q4 2025**
-
-### Research Activities Conducted During Q4
-
-Based on the Q3 research roadmap, the following activities were planned for Q4:
-
-| Month | Planned Activities |
-|---|---|
-| October 2025 | Monthly app review analysis, Platform research process documentation |
-| November 2025 | Monthly app review analysis, Quarterly app review analysis, Notification workshops |
-| December 2025 | Monthly app review analysis, Login feedback survey collection |
-
----
-
 ## Q4 Comparison to Previous Quarters
 
 **VA Mobile App Analysis | Q4 2025**
@@ -407,9 +391,3 @@ Per the Q3 research roadmap, the following were planned for Q1 FY26 (January–M
 2. **Appointment Detail Enhancement:** Prioritize surfacing provider name and department as highest-impact additions based on consistent Q3 and Q4 feedback.
 3. **Prescription Status Clarity:** Differentiate between "shipped," "pending," and "available for refill" to reduce confusion reported throughout Q4.
 4. **Messaging Search/Connect:** Allow users to search or manually connect to needed providers to address persistent post-MHV list change issues.
-
----
-
-## Questions?
-
-Thank you!
