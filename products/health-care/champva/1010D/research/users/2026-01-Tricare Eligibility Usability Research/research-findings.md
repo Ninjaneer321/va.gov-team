@@ -287,8 +287,18 @@ The majority of participants responded to Alerts B (11 of 15) and E (15 of 15) a
 - _Quote [P01, Alert C: P1: Yeah, it's the same, I take it's the same as the first one, Alert A. Basically, it just asks me to verify the information that I put in. And, you know, because it's saying it cannot verify me because of the… potentially because of the information I entered, so I'm gonna go back and check, and if it is correct, then, you know, you have the option to continue, or…Me, personally, I would just reach out to, either CHAMPVA or TRICARE, depending upon, you know, which one led me to believe may have caused the inability to, apply.]_
 
 
-### Finding 5: 
+### Finding 5: One flow was not preferred more than the other and some participants stated they were too similar to choose however in both participants provided feedback similar content and pattern feedback.
 
+Participants were evenly split on ease of the two flows, with 6 preferring the VADS pattern, 5 preferring the hybrid VADS pattern/API option, and 4 stating they had no preference. The study used an A/B protocol to randomize prototype order and reduce recency bias; findings show no strong correlation between prototype order and participant preference. Feedback on the flow options emphasized content changes to the alerts and eligibility summary to improve decision-making and reduce the need to stop the form to contact a VA or TRICARE representative (see: Recommendations). 
+
+- About half of participants (8 of 15) preferred the second prototype that they saw.
+
+
+**Participant quotes**
+
+- _Quote [P15: “To me, the system is time saving here. Instead of applying and finding out at the end that I'm not eligible. I like that it comes almost immediately after checking your personal information (name, DOB and social)” (Pineapple Prototype)]_
+- _Quote [P11: "I don’t think it’s intrusive - it’s just off. Right away (warning alert Pineapple Prototype). It tells you right up front instead of going further - I feel like they should explain why. Maybe like a chat service (wants contact information)]_
+- _Quote [P16: Pineapple preferred - "it does all the , it does the work for you (liked system check)"]_
 
 
 ---
