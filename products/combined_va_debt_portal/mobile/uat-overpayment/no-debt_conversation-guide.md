@@ -3,15 +3,11 @@
 This study evaluates the empty state of the Overpayment feature with participants who do not currently have debt. These participants were recruited within OCTO instead of our standard recruitment through Perigean. Because these participants are technically savvy and understand the testing process, we have shortened the introductory and technical setup sections to focus directly on the core tasks.
 
 
-### Starting the session
+## Moderator resources
 
-> [!TIP]
-> - In the Attendees section, make sure everyone except the participant is on mute.
-> - In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked.
-> - Check your screen sharing setup and share permissions for participants.
-> - When the participant is ready, begin the session with the following intro:
+- Participants
+- Communication templates with OCTO Veterans
 
-</details>
 
 ## Intro
 
