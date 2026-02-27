@@ -1,95 +1,160 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Form 21P-537 Marital Status Questionnaire Research Findings"
+product: "Form 21P-537"
+team: "Benefits Intake Optimization"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-11-26"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Andrea Chappelear"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand the current experience with Form 21P-537"
+  - "Identify knowledge gaps about marital status requirements"
+  - "Evaluate the value of an online version"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Usability testing"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 8
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 1
+  service_members: 0
+  caregivers: 0
+  family_members: 8
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 2
+    "55-64": 2
+    "65+": 3
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 2
+    associates: 1
+    bachelors: 3
+    masters: 2
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 5
+    rural: 3
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 1
+    hispanic: 0
+    biracial: 0
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "The online form was clear and straightforward, with all participants successfully completing it without assistance. Participants frequently described it as 'simple,' 'easy to follow,' and 'self-explanatory.'"
+  - "Participants strongly preferred the online version over paper, citing convenience, speed, and immediate confirmation as key benefits."
+  - "The introduction page effectively set expectations, with participants noting it clearly explained why they were receiving the form and what would happen next."
+  - "Remarriage questions were generally understood, though some participants requested clarification about what constitutes a 'state-recognized marriage.'"
+  - "The review page with accordion sections worked well, allowing participants to easily verify their information before submission."
+  - "Confusion arose around the deceased Veteran identification fields asking for either SSN or VA file number. All participants defaulted to SSN, and several expressed confusion about being asked for 'the same information' again or about VA file numbers being outdated."
+  - "Participants expected clear confirmation after submission and wanted the ability to download or save a copy of their completed form."
+  - "Several participants serving as proxies for older parents emphasized the critical need to maintain paper and phone options alongside the online form."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - |
+    Launch the online form as designed (Priority: High)
+    
+    The usability testing strongly validates the form design. All participants successfully completed the form, and feedback was overwhelmingly positive about clarity, organization, and ease of use.
+  - |
+    Revise deceased Veteran identification fields to reduce confusion (Priority: High)
+    
+    The either/or requirement for SSN or VA file number created significant confusion. Participants defaulted to SSN and were confused about being asked for identification information that seemed redundant.
+    
+    Recommended changes:
+    
+    **Option 1 (Preferred): Simplify to SSN-only with VA file number as truly optional**
+    - Make SSN the primary field with clear labeling
+    - Move VA file number to an "optional" expandable section with explanation: "If you have a VA file number and prefer to use it instead of Social Security number"
+    - Clarify in help text that most surviving spouses only need to provide SSN
+    
+    **Option 2: Improve clarity of current either/or structure**
+    - Change hint text from "You must enter either..." to "Please provide one of the following:"
+    - Add help text explaining: "Most people use Social Security number. VA file number is an older identification number that may appear on some VA documents."
+    - Add example: "VA file numbers are typically 8 or 9 digits and start with 'C' or a number"
+    - Consider adding "Where can I find this?" link for VA file number
+    
+    **Option 3: Pre-fill from authentication**
+    - If the user is authenticated and the deceased Veteran's information is in the system, pre-populate known identifiers
+    - Allow user to verify rather than manually enter
+  - |
+    Add clarifying help text about marriage recognition (Priority: Medium)
+    
+    Expand the help text or add examples explaining what "state-recognized marriage" means to reduce confusion and potential errors.
+    
+    Suggested additions:
+    - Examples of recognized marriages (ceremonial, common-law where applicable)
+    - Clarification that marriages performed in other countries are recognized
+    - Note that recognition is based on state of residence at time of marriage
+  - |
+    Implement post-submission confirmation and download features (Priority: High)
+    
+    Add ability to download/print a PDF copy of the completed form and provide immediate email confirmation with submission details.
+    
+    Features to include:
+    - Confirmation page with submission details
+    - Email confirmation sent immediately
+    - PDF download option
+    - Confirmation/tracking number
+    - Expected timeline for VA response
+  - |
+    Ensure multi-channel communication strategy (Priority: High)
+    
+    When communicating about the new online option, clearly emphasize that paper and phone submission remain available. Target communications to help proxies understand options for those they're assisting.
+    
+    Communication considerations:
+    - Letters should mention all submission methods equally
+    - Include language specifically for proxies/caregivers
+    - Provide clear instructions for obtaining paper forms or phone assistance
+    - Do not present online as the default or expected method
+  - |
+    Expand help text about deadline implications (Priority: Low)
+    
+    While the 60-day deadline is clear, consider adding brief information about what happens if the deadline is missed.
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Improved satisfaction with web and mobile products"
+  - "100% of transactions received via digital experiences are processed correctly"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
-opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  user: "This research supports the desired user outcome by validating that the online form successfully: (1) reduces confusion and anxiety through clear language and step-by-step approach; (2) provides faster, more convenient submission preferred over mailing paper forms; (3) increases confidence through confirmation of receipt; and (4) maintains accessibility through multi-channel options."
+  business: "This research supports the desired business outcome by showing that the online form will: (1) increase digital adoption through strong user preference for online submission; (2) reduce paper processing delays; (3) prevent benefit terminations through clear communication about purpose, requirements, and deadlines; and (4) reduce support burden through intuitive design."
+opportunity_areas: []
+further_research_needed: []
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Assistive technology users"
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Surviving Family"
+  - "BNFT: Pension"
+  - "DSC: Form"
+  - "DSC: Accordions"
+  - "DSP: Form Templates"
+  - "DSP: Ask users for marital information"
+  - "DSP: SSN or VA File Number"
+  - "DSP: Help users to check answers"
+  - "HDW: Desktop"
+  - "RESRCH: Usability Testing"
 ---
 
 # **Form 21P-537 Marital Status Questionnaire Research Findings**
