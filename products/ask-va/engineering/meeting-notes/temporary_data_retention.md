@@ -37,6 +37,7 @@
 
 ## Helpful links
 * [What is PII?](https://depo-platform-documentation.scrollhelp.site/research-design/what-is-pii)
+* [Structuring Migrations and Adding Database Tables](https://depo-platform-documentation.scrollhelp.site/developer-docs/vets-api-database-migrations#vets-apidatabasemigrations-StructuringSchemaMigrations)
 
 > [!Note]
 > Notably, this implementation can serve as the foundation for a more robust retention and auditing solution of our data flow
