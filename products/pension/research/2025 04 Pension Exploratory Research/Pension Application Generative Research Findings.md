@@ -1,95 +1,119 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Pension Application Generative Research Findings"
+product: "Form 21P-527EZ Veterans Pension Application"
+team: "Pension and Burials Program (PBP)"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-05-20"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Chavie Cramer"
+  - "Skyler Schain"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - |
+    Better understand our end users and their experience learning about, applying for, maintaining, and receiving Veterans Pension benefits.
+  - |
+    Validate existing research findings or identify divergences in what we understand about the Veteran journey that have been gathered during previous research.
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 5
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 2
+  service_members: 0
+  caregivers: 0
+  family_members: 1
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 5
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 5
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 5
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    All Veteran participants were already experiencing adverse financial or medical conditions when they began to seek out pension. This aligns with the VSO report and is aligned to the hypothesis: Veterans tend to seek out pension benefits when they are already experiencing financial hardship or other adverse conditions.
+  - |
+    All participants learned about the pension program through other Veterans or newsletters distributed by third party organizations; rather than the VA directly. This aligns with the VSO report and partially supports the hypothesis: Veterans learn about pension through word of mouth or communications from both trusted or predatory sources outside the VA (e.g. pension poachers). In our study predatory sources were not discussed.
+  - |
+    Some participants felt adequate instruction was provided as they completed the form, but all still felt additional information would be beneficial; especially on what to expect before starting the application and what documentation to prepare in advance.
+  - |
+    Length of time to complete the form varied, but seemed to correlate with level of comfort with technology and navigating system complexity (e.g. responding to prompts, gathering documentation, understanding questions).
+  - |
+    Veteran participants reported a high level of expectation and responsibility to gather documentation and coordinate communications; leading to more burden when compared to other applications.
+  - |
+    All participants discussed having others help the Veteran complete the form due to the high amount of information needed or difficulty navigating required actions. This aligns with findings from the VSO report and supports the hypothesis: Veterans often need others to help support completion of the application, such as a VSO, family member, or other advocate. In all instances help was provided or desired for application completion.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    As we continue to improve the pension form experience, further studies with pension-eligible Veterans may require alternate recruitment methods, in order to address challenges with sign up and cancellations in order to achieve adequate sample sizes. Alternative strategies that could be considered include: Partnering with VSOs to observe as they conduct their work and conduct interviews with Veterans and their loved ones post activity to gain insights on early stages of the journey such as trigger moments, awareness, and understanding. Partnering with Veteran organizations or community hubs to conduct relational recruiting through case managers or other representatives, who have existing relationships with the Veteran population we are aiming to study. This may also require in person interviews or activities rather than virtual, or alternately could be administered asynchronously through these trusted sources to Veterans, if in person research were not possible, and compensation was available for all parties. Exploring quantitative approaches to assessing the effectiveness of the pension form and related experiences. One known challenge is administering compensation for study participation. In discussion with Perigean, there is some precedent to have the study researchers conduct recruiting directly and partner with Perigean for compensation only.
+  - |
+    Learnings gathered so far can provide a foundation for future research, expanding on themes identified to develop insights and guide design recommendations. These findings will be shared with relevant team members.
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not explicitly stated in findings report"
+  business: "Not explicitly stated in findings report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Need for pre-application education or tutorial about what to expect and what documentation to prepare"
+  - "Need for improved awareness of pension program through VA channels rather than relying on word of mouth"
+  - "Need to reduce documentation burden on Veterans by leveraging information VA already has on file"
+  - "Need for alternate recruitment methods to reach pension-eligible Veterans for research"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Further studies with pension-eligible Veterans using alternate recruitment methods such as partnering with VSOs or Veteran community organizations"
+  - "Exploring quantitative approaches to assessing the effectiveness of the pension form and related experiences"
+  - "In-person research with pension-eligible Veterans through community hubs or trusted intermediaries"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Very elderly Veterans in later stages of life"
+  - "Veterans in assisted living facilities"
+  - "Veterans with lower tech literacy"
+  - "Veterans experiencing significant health challenges"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "VSO report (previous study findings used for hypothesis validation)"
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "AUD: Family Member"
+  - "BNFT: Pension"
+  - "PRDT: Pension"
+  - "DSC: Form"
+  - "DSP: Form Templates"
+  - "generative-research"
+  - "semi-structured-interviews"
+  - "remote"
+  - "moderated"
 ---
 
 # Pension Application Generative Research Findings 
