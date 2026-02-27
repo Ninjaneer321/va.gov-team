@@ -481,63 +481,63 @@ Gender:
 
 
 LGBTQ+: Unknown
-* Transgender: x 
-* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: x
-* Gay, lesbian, or bisexual: x
+* Transgender: 0 
+* Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman: 0
+* Gay, lesbian, or bisexual: 0
 
 
 Devices used during study: 
-* Desktop: x 
-* Tablet: x 
-* Smart phone: x 
-* Assistive Technology: x
+* Desktop: 10 
+* Tablet: 0 
+* Smart phone: 5 
+* Assistive Technology: 0
 
 
 Age:
-* 25-34: x
-* 35-44: x
-* 45-54: x
-* 55-64: x
-* 65+: x
-* Unknown: x
+* 25-34: 1
+* 35-44: 3
+* 45-54: 8
+* 55-64: 1
+* 65+: 2
+* Unknown: 0
 
 
 Education:
-* High school degree or equivalent: x
-* Some college (no degree): x
-* Associate's degree, trade certificate or vocational training: x
-* Bachelor's degree: x
-* Master's degree: x
-* Doctorate degree: x
+* High school degree or equivalent: 1
+* Some college (no degree): 2
+* Associate's degree, trade certificate or vocational training: 0
+* Bachelor's degree: 5
+* Master's degree: 7
+* Doctorate degree: 0
 * Unknown: x
 
 
 Geographic location:
-* Urban: x
-* Rural: x
-* Unknown: x
+* Urban: 8
+* Rural: 7
+* Unknown: 0
 
 
 Race:
-* White: x
-* Black: x
-* Hispanic: x
-* Biracial: x
-* Asian: x
-* Native: x
+* White: 5
+* Black: 6
+* Hispanic: 4
+* Biracial: 0
+* Asian: 1
+* Native: 1
 
 
-Disability and Assistive Technology (AT):
-* Cognitive: x
-* AT beginner: x
-* AT advanced user: x
-* Desktop screen reader: x
-* Mobile screen reader: x
-* Magnification/Zoom: x
-* [Speech Input Technology](https://www.w3.org/WAI/perspective-videos/voice/) like Siri/Dragon Naturally Speaking: x
-* Hearing aids: x
-* Sighted keyboard: x
-* Captions: x
+Disability and Assistive Technology (AT): 0
+* Cognitive: 0
+* AT beginner: 0
+* AT advanced user: 0
+* Desktop screen reader: 0
+* Mobile screen reader: 0
+* Magnification/Zoom: 0
+* [Speech Input Technology](https://www.w3.org/WAI/perspective-videos/voice/) like Siri/Dragon Naturally Speaking: 0
+* Hearing aids: 0
+* Sighted keyboard: 0
+* Captions: 0
 
 
 #### Underserved groups we haven’t talked to 
@@ -554,10 +554,12 @@ _Complete the [VA recruitment checker for marginalized Veteran groups](https://g
 >    - (If Copilot returns an error, try using a different AI model, such as "Claude Sonnet 3.7 Thinking")
 
 This research does not include the perspectives of the following marginalized Veteran groups:
-_List all groups in red from the spreadsheet_
-* Group 1
-* Group 2
-* Group 3
+* Ages 55-64+
+* Cognitive Disability
+* Mobile Users
+* No degree
+* Other than honorable discharge
+* Expat (living abroad)
 
 ➡️ _[insert screenshot of completed recruitment checker in the format below]_
 
@@ -567,4 +569,38 @@ _List all groups in red from the spreadsheet_
 
 ### Recruitment of underserved groups in [Study name]
 
-➡️ _[paste markdown table of completed recruitment checker from Github Copilot chat]_
+| **Demographic**                                                                                            | **Category** | **Target %** | **Target #** | **\# in Study** | **Target Achieved?** | **p1** | **p2** | **p3** | **p4** | **p5** | **p6** | **p7** | **p8** | **p9** | **p10** | **p11** | **p12** | **p13** | **p14** | **p15** | **p16** |
+| ---------------------------------------------------------------------------------------------------------- | ------------ | ------------ | ------------ | --------------- | -------------------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| All participants                                                                                           | Total        | n/a          | 16           | **15**          |                      | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a     | n/a     | n/a     | n/a     | n/a     | n/a     | n/a     |
+| Assistive Tech (AT) users                                                                                  | Total        | n/a          | 0            |                 | 0                    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a     | n/a     | n/a     | n/a     | n/a     | n/a     | n/a     |
+| No-show participants                                                                                       | Total        | n/a          | n/a          |                 | 1                    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a    | n/a     | n/a     | n/a     | n/a     | n/a     | n/a     | n/a     |
+| Age 55-64+                                                                                                 | General      | 50%          | 8            | 3               | no                   | 0      | 0      | 1      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 1       | 0       | 0       | 0       | 1       | 0       |
+| Cognitive Disability                                                                                       | General      | 50%          | n/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Mobile user                                                                                                | General      | 50%          | 8            | 5               | no                   | 0      | 0      | 1      | 1      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 1       | 1       | 0       | 1       | 0       |
+| Rural                                                                                                      | General      | 25%          | 4            | 6               | yes                  | 1      | 0      | 0      | 0      | N      | 1      | 1      | 0      | 1      | 0       | 1       | 0       | 0       | 0       | 0       | 1       |
+| No degree                                                                                                  | General      | 25%          | 4            | 3               | no                   | 0      | 0      | 0      | 0      | N      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 1       | 0       | 1       | 1       |
+| Other than honorable                                                                                       | General      | 21%          | 4            | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Immigrant origin                                                                                           | General      | 17%          | 3            | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Women                                                                                                      | General      | 10%          | 2            | 9               | yes                  | 0      | 0      | 1      | 0      | N      | 1      | 1      | 1      | 0      | 1       | 1       | 0       | 1       | 1       | 1       | 0       |
+| Expat (living abroad)                                                                                      | General      | 0.4%         | 1            | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Black or African American                                                                                  | Race         | 15%          | 3            | 6               | yes                  | 1      | 0      | 0      | 1      | N      | 0      | 0      | 1      | 0      | 1       | 0       | 1       | 0       | 0       | 0       | 1       |
+| Hispanic, Latino, or Spanish origin                                                                        | Race         | 12%          | 2            | 4               | yes                  | 0      | 1      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 1       | 1       | 0       | 0       | 0       | 1       | 0       |
+| Biracial                                                                                                   | Race         | 3.9%         | 1            | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Asian                                                                                                      | Race         | 2.7%         | 1            | 1               | yes                  | 0      | 0      | 0      | 0      | N      | 0      | 0      | 0      | 0      | 0       | 1       | 0       | 0       | 0       | 0       | 0       |
+| Native Hawaiian or other Pacific Islander                                                                  | Race         | 0.3%         | 1            | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| First Nations (Canada)                                                                                     | Race         | n/a          | 1            | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Native, American Indian or Alaska Native                                                                   | Race         | 1.6%         | 1            | 1               | yes                  | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 1       | 0       | 0       | 0       |
+| Gay, lesbian, or bisexual                                                                                  | LGBTQ+       | n/a          | n/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Transgender                                                                                                | LGBTQ+       | n/a          | n/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Nonbinary, gender fluid, gender queer, Two-Spirit (Indigenous only), or another gender beyond man or woman | LGBTQ+       | n/a          | N/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Beginner AT User                                                                                           | AT           | n/a          | N/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Experienced AT User                                                                                        | AT           | n/a          | N/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Desktop Screen Reader (SR)                                                                                 | AT           | n/a          | N/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Mobile Screen Reader (SR)                                                                                  | AT           | n/a          | N/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Magnification/Zoom                                                                                         | AT           | n/a          | N/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Speech Input Tech (Siri, Dragon)                                                                           | AT           | n/a          | N/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Hearing Aids                                                                                               | AT           | n/a          | N/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Sighted Keyboard                                                                                           | AT           | n/a          | N/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Captions                                                                                                   | AT           | n/a          | n/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Switch Device                                                                                              | AT           | n/a          | n/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
+| Braille Reader                                                                                             | AT           | n/a          | n/a          | 0               | no                   | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0      | 0       | 0       | 0       | 0       | 0       | 0       | 0       |
