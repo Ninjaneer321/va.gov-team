@@ -1,95 +1,130 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "VA Health and Benefits Information Architecture Open Card Sort Research Findings"
+product: "VA: Health and Benefits Mobile App"
+team: "VA: Health and Benefits (Mobile App)"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-11-02"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Melissa Lefevre"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "To understand Veterans mental models for VA health and benefits services and how they would logically group them so we can tailor an information architecture that supports those mental models."
+  - "To understand how Veterans would group items that are on our road map but not yet in the App to future proof the Information Architecture."
+  - "To understand where Veterans would expect to find vaccine records in an app within the current information architecture."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated open card sort (Optimal Workshop)"
+  - "Qualitative interview using a prototype in Balsamiq (moderator driven)"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 8
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 3
+    "35-44": 1
+    "45-54": 2
+    "55-64": 2
+    "65+": 1
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 9
+    some_college: 3
+    associates: 2
+    bachelors: 3
+    masters: 1
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 3
+    rural: 6
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 2
+    hispanic: 0
+    biracial: 0
+    asian: 1
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    Depending on where the Veteran is in the Veteran journey, they find different services important. While Heath care, payments, Veteran information and disability are all of high importance to all participants, some items were of varying importance to each participant. For example, GI Bill is only important if it applies to the Veteran.
+  - |
+    7/9 Participants did not find Vaccines in the prototype on their first try. When asked where they would go in the app to find their last COVID-19 Vaccine, 7/9 Veterans clicked the card labeled "COVID-19 Vaccine." After some prompting and explaining that the card takes them to va.gov COVID-19 information, participants were able to find their vaccine records under Health Care.
+  - |
+    GI Bill related items were a clear grouping. 8/9 participants grouped all of the GI Balance and Payments together and 6/9 included GI Bill dependents and education payments in the GI grouping.
+  - |
+    Participants grouped health care items together. Overall Health care related items were grouped together including: Appointments, Secure Messaging, Health records, and prescriptions. While there was not 100% a grouping here, there was a clear pattern.
+  - |
+    4/9 Participants created a payment category. Participants prioritized anything payment related as very important to them. They also expected it to be in the same area with the exception of GI Bill related items. 2 Participants explicitly grouped disability payments and direct deposit together.
+  - |
+    All cards in sort were not clear to the Veterans. Items that required explaining: Contact the VA, Military Information, Biometric Sign-in, Patient check-in, Join an video appointment, and Disability versus pension payments.
+  - |
+    Contact the VA was grouped in various locations. The Contact the VA card was omnipresent throughout the card sort, not belonging to any one group. The reasoning behind this is that Veterans contact the VA for various reasons.
+  - |
+    Secure messaging was not grouped into one clear category. Participants did not have one clear category where they put Secure Messaging. Interestingly, most participants grouped Secure Messaging with the services they use it for.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    Consider a new information architecture that takes a layered approach for various use cases. Some items in the card sort are items on the road map but not yet in the app and require us to consider where they might live as we add them. Veterans find value in grouping features and information to support accomplishing tasks. However, these groups may not be mutually exclusive. We think that any IA will be more successful when backed by thoughtful cross-linking and bubbling of information, and possibly a search feature.
+  - |
+    Use personalization to better surface relevant information and cut across silos. The IA needs to address the high priority use cases we know about by thoughtfully grouping information to increase accessibility depending on each Veteran's needs. This probably means that data will need to be surfaced in multiple places.
+  - |
+    Remove the "COVID-19 Vaccine" card from the top of the home screen. Since Veterans found it confusing and misleading, we recommend changing the name to "VA COVID-19 information" and reducing the visual hierarchy.
+  - |
+    In order to add a level of clarity and understanding to some of the items, consider rewording/redefining items. The following items were unclear to participants: Biometrics, Contact the VA, patient check-in, Military Information, Join an video appointment, and Disability versus pension payments. Participants needed an explanation of what these items were and expressed confusion around them.
+  - |
+    Bring disability to the surface. Consider bringing the Veteran's name and disability rating to the homescreen to make completing the task of checking disability rating easier and make the app feel more personable. Disability rating and claim status was of high importance for participants. Checking the status of a claim was a major pain point across the research.
+  - |
+    Create a way for "Benefits" to be easily accessible and consider an IA where they are grouped together. Being able to check benefit balances and payment information was highly important. Veterans also grouped payment related items together.
+  - |
+    Consider changing the name of "Profile" to something that more accurately represents the section of all of the Veteran's personal and military information along with VA letters. None of the participants created a category titled "Profile." However, participants grouped most of the items that are currently in the profile together.
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not explicitly stated in report"
+  business: "Not explicitly stated in report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Veterans need a focused way to complete relevant tasks in the app"
+  - "There is general anxiety around Disability — Veterans need their disability status to be reliable and do not trust that what they see on va.gov is accurate"
+  - "Veterans primarily schedule over the phone or through secure messaging because they trust the process and know how to do it"
+  - "Cross-linking and bubbling of information across IA categories to support tasks that span multiple groups"
+  - "Possible search feature to help Veterans find information across categories"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Test the recommended IA using a treejack test with 30-50 Veterans to validate the new IA"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Not specified — report states 'List all groups in red from the spreadsheet' but does not enumerate the specific groups"
+secondary_research: []
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+  - "Optimal Workshop"
+  - "Balsamiq (prototype)"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "PRDT: VA-Mobile-App"
+  - "PRDT: COVID-vaccine-distribution"
+  - "HDW: Desktop"
+  - "MHV: Secure Messaging"
+  - "card-sort"
+  - "generative"
 ---
 
 <!-- Output copied to clipboard! -->
