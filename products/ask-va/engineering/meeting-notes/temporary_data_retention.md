@@ -37,6 +37,7 @@
 
 ## Helpful links
 * [What is PII?](https://depo-platform-documentation.scrollhelp.site/research-design/what-is-pii)
+* [How to encrypt PII in Vets API](https://depo-platform-documentation.scrollhelp.site/developer-docs/data-encryption-in-vets-api#DataEncryptioninVetsAPI-Howtosetupencryptioninyourmodel)
 * [Structuring Migrations and Adding Database Tables](https://depo-platform-documentation.scrollhelp.site/developer-docs/vets-api-database-migrations#vets-apidatabasemigrations-StructuringSchemaMigrations)
 
 > [!Note]
