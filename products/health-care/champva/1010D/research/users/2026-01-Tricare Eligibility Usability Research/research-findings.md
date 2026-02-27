@@ -205,11 +205,11 @@ synthesis_tools_used:
 ### Finding 1: The “Check eligibility” default pattern was confusing to most participants when they were not eligible (Pineapple prototype) mostly due to the double negative statement and visual misunderstanding.
 
 
-**Double negative confusion:**
+**Double negative confusion**
 - 14 of 15 participants saw that they did not meet the CHAMPVA program requirements, but noticed that one of the bullet points outlining eligibility said “the Veteran and applicant is not eligible for TRICARE.” The double negative would result in participants having initial confusion and needing to re-read that line item. (Goal 3, research question 1).
 - Participants did not seem to understand the mutually exclusive eligibility for TRICARE and CHAMPVA when interpreting the eligibility review screen, despite high confidence in understanding that content earlier when on the 10-10d introduction page. 
 
-**Visual system misunderstanding:**
+**Visual system misunderstanding**
 - 13 of 15 participants went on to explain that a part of their confusion about the eligibility summary was the red “X” next to “the Veteran and applicant is not eligible for TRICARE,” compounding issues with the semantic double negative outlined. 
 
 **Participant quotes**
@@ -227,14 +227,12 @@ When participants saw the summary card showing they were ineligible, users were 
 - Out of the 7 participants who did say they would stop on the eligibility screen, 5 stated they would call somebody at the VA or TRICARE next.
 - 2 stated they would check their TRICARE status on their own as a next step.
 
-**Clear resolution and next steps:**
-
+**Clear resolution and next steps**
 When also reviewing the alert options at the end of the session, contacting somebody was a common response to the various warning alerts shown
 - Participants suggested a link or contact information to talk to somebody when reviewing the eligibility summary pages (5 for Pineapple and 1 for Blueberry). It was more often suggested in the Alert review task. (Goal 1, research question 3).
 
 
 **Participant quotes**
-
 - _Quote [P1: I would try to find some sort of, like, help desk number, or you said TRICARE, but this is referring to CHAMPVA benefits, right?
 [Moderator: Yes.]
 P1: Okay, then I would try to find some sort of…contact number for CHAMPVA, or, you know, a…email address or something along those lines where I could reach out and basically communicate that I've attempted to apply. I believe I'm eligible, but…you know, it says that I may not be eligible, could I… how would I find out additional information?]_  
@@ -243,11 +241,37 @@ P1: Okay, then I would try to find some sort of…contact number for CHAMPVA, or
 
 ### Finding 3: Most participants commented that more definitive language around eligibility would be helpful in understanding the review summary card and almost all preferred the alternate card option B with additional dynamic content explaining their eligibility.
 
+**Lack of definitive language**
+The eligibility summary screen lets users know that they “may not be eligible” for CHAMPVA. For 12 of 15 participants, the lack of definitive eligibility language at this point in the form made it difficult to make the decision whether or not to abandon the form, or continue with the application.
+
+**Alternate card design for “Check eligibility” pattern**
+When shown an alternative eligibility summary card design (Card Style B) in a follow-up task, the majority of participants (12 of 15) preferred it to the option they saw in both form flows. Reasons why included:
+The subheader sentence was easy for participants to understand and they stated that extra clarity helped determine their preference (12)
+Two participants mentioned that the icons and wording around that bullet item was their deciding factor
+
+**Participant quotes**
+- _Quote [P14: But I do feel like this is helping you, you know, you might, but again, because it's not a definitive statement, you might still keep going.]_
+- _Quote [P14: So, again, I know, VA benefits are rather nuanced, but anytime you say, may not be eligible instead of you are not eligible, people might still try to continue because they think perhaps there's an error. Or, again, because they say it says.]_
 
 
 
-### Finding 4: 
 
+### Finding 4: Participants stated actions on the various warning alerts overall were to continue on with the application or they wanted contact information to talk to somebody.
+
+In Task 3, participants were shown 5 alerts that may appear in the hybrid (VADS pattern + API call) eligibility flow. These alerts map to errors or outages with the 2 APIs called in the flow, or to eligibility decisions. 
+
+[INSERT TABLE]
+
+The majority of participants responded to Alerts B (11 of 15) and E (15 of 15) as intended. With more than half of participants wanting to contact VA or a TRICARE representative for Alerts A (10 of 15), Alert C (7 of 15) and D (7 of 15), we believe additional content and resources are necessary to reduce friction and user burden, and increase call volume. 
+
+**Participant quotes**
+
+- _Quote [P15, Alert D: It's telling me the Veteran is enrolled in TRICARE and you can't have both. I would like a link for TRICARE benefits, and I'd click on that.]_
+- _Quote [P10, Alert D this is so confusing to me, I had to read it twice just to break it down in my head. Found this information in DEERS that is good, so yes he is eligible for TRICARE. Just because we he whatever is eligible for TRICARE , does not automatically makes us eligible… I don't really like the wording. It's very confusing. I have to read it, like, twice in my head.]_
+- _Quote [P01, Alert C: P1: Yeah, it's the same, I take it's the same as the first one, Alert A. Basically, it just asks me to verify the information that I put in. And, you know, because it's saying it cannot verify me because of the… potentially because of the information I entered, so I'm gonna go back and check, and if it is correct, then, you know, you have the option to continue, or…Me, personally, I would just reach out to, either CHAMPVA or TRICARE, depending upon, you know, which one led me to believe may have caused the inability to, apply.]_
+
+
+### Finding 5: 
 
 
 
