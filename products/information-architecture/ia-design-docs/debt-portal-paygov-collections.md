@@ -41,7 +41,7 @@
 - Breadcrumb: VA.gov > [Summary H1] > [Pay H1] > [H1 of payment confirmation page]
 
 **3) Payment cancellation - New**
-- URL: https://www.va.gov/manage-va-debt/pay/cancelled
+- URL: https://www.va.gov/manage-va-debt/pay/canceled
 - Breadcrumb:  VA.gov > [Summary H1] > [Pay H1] > [H1 of payment cancellation page]
 
 ## <a name="nav"></a>Entry points <br>
