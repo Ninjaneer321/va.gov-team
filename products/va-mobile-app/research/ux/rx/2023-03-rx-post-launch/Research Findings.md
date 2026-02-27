@@ -1,95 +1,120 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Rx Post Launch Research Findings"
+product: "VA Flagship Health + Benefits Mobile App - Prescriptions (Rx)"
+team: "VA Mobile App"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2023-04-13"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Lauren Russell"
+  - "Liz Straghalis"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Evaluate how Veterans interpret the meaning of prescription dates and statuses on the mobile app, and how they use them in order to manage and refill their prescriptions."
+  - "Observe Veterans refilling a prescription on the mobile app in order to surface any usability or content issues."
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Moderated usability testing"
+  - "Direct observation of prescription refill task"
+  - "Trauma-informed design approach"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 9
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 9
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 9
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    All participants were able to successfully refill a prescription during the session. However, participants struggled to review their full list of prescriptions in order to identify the correct prescription they were looking to refill.
+  - "Participants recognized and understood their prescriptions based on the names and dosage. Most participants used this information as the main cue for which medications were available to refill."
+  - "Some participants noticed they could not tap the entire card to go to the detail screen, only the [ Get prescription details ] button."
+  - "Participants did not use any other prescription status besides Active to determine what to refill."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
+  - |
+    Provide a default list view that surfaces Active prescriptions without having to select additional options. This would support the observed usability patterns. Possible solution: Default the list to show Active prescriptions, and provide All prescriptions as a filter option.
+  - |
+    Improve the experience when selecting a prescription from the list. Possible solution: Increase the size of the touch target on the prescription card, or replace the component to match other areas in the app.
+  - "Examine ways to keep Filter options enabled until they are cleared, regardless of where Veterans navigate within the feature."
+  - |
+    Reorganize content to meet the mental models of what's needed to fill a prescription. Possible solution: Move fill date to the prescription detail screen, it's more of a granular description and less important information to get the task done.
+  - "Investigate a plain language approach to prescription statuses that can stand without definitions."
+  - |
+    Consider ways to incorporate "send message" functionality in the Prescriptions feature. This would support the Veteran's journey to renew a prescription by sending the details directly to the prescribing team.
 kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Increase the use of digital, self-service tools"
+  - "Increase the completion rate of online transactions"
+  - "Decrease call center volume, wait time, and time to resolution"
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not explicitly stated in findings report"
+  business: "Not explicitly stated in findings report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Default filtering to Active prescriptions to reduce cognitive load from full prescription lists"
+  - "Larger touch targets on prescription cards to match interaction patterns elsewhere in the app"
+  - "Persistent filter state across navigation within the feature"
+  - "Plain language prescription statuses that do not require separate definitions"
+  - "Integrated messaging functionality within the Prescriptions feature for refill requests to prescribers"
+  - "Content reorganization to prioritize information needed for the refill task"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Incorporate a data-informed approach by using a monitoring phase to understand more about user behavior within the feature"
+  - "Investigate cross-team coordination and technical lift for some of the more long term changes"
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Mobile app analytics (February 1 - March 31 usage data for Rx feature)"
 synthesis_tools_used:
   - "Mural"
-  - "Affinity Mapping"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: VA-Health-and-Benefits-Mobile-App"
+  - "MHV: Pharmacy"
+  - "DSC: Card"
+  - "DSP: Help users to navigate a long list"
+  - "HDW: Smartphone"
+  - "Accessibility"
+  - "usability-testing"
+  - "evaluative"
 ---
 
 ## Rx Post Launch Research Findings
