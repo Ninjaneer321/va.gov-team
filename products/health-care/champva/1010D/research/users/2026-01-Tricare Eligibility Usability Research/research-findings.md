@@ -232,7 +232,8 @@ When participants saw the summary card showing they were ineligible, users were 
 
 **Clear resolution and next steps**
 
-When also reviewing the alert options at the end of the session, contacting somebody was a common response to the various warning alerts shown
+When also reviewing the alert options at the end of the session, contacting somebody was a common response to the various warning alerts shown.
+
 - Participants suggested a link or contact information to talk to somebody when reviewing the eligibility summary pages (5 for Pineapple and 1 for Blueberry). It was more often suggested in the Alert review task. (Goal 1, research question 3).
 
 
@@ -253,8 +254,9 @@ The eligibility summary screen lets users know that they “may not be eligible�
 **Alternate card design for “Check eligibility” pattern**
 
 When shown an alternative eligibility summary card design (Card Style B) in a follow-up task, the majority of participants (12 of 15) preferred it to the option they saw in both form flows. Reasons why included:
-The subheader sentence was easy for participants to understand and they stated that extra clarity helped determine their preference (12)
-Two participants mentioned that the icons and wording around that bullet item was their deciding factor
+
+- The subheader sentence was easy for participants to understand and they stated that extra clarity helped determine their preference (12 of 15 participants)
+- Two participants mentioned that the icons and wording around that bullet item was their deciding factor
 
 **Participant quotes**
 
@@ -338,9 +340,7 @@ One participant (P14) commented on language used around Veteran living question 
 | 16          | Veteran       | Blueberry       |                                      | 2                                    | 5                                                 | 4                                                 | Pineapple becuase it checked DEERS    | 3                         | B                         |
 |             |               |                 |                                      |                                      |                                                   |                                                   |                                       |                           |                           |
 |             |               |                 | 4.5 (avg)                            | 4.2 (avg)                            | 3.7 (avg)                                         | 4.3 (avg)                                         |                                       | 4.2 (avg)                 |                           |
-|             |               |                 |                                      |                                      |                                                   |                                                   | 6 prefer Blueberry                    |                           | 1 prefers A               |
-|             |               |                 |                                      |                                      |                                                   |                                                   | 5 prefer Pineapply (2 noting similar) |                           | 12 prefer B               |
-|             |               |                 |                                      |                                      |                                                   |                                                   | 4 - none / similar                    |                           | 2 - initialy same, then B |
+|             |               |                 |                                      |                                      |                                                   |                                                   | 6 prefer Blueberry, 5 prefer Pineapply (2 noting similar), 4 - none / similar                    |                           | 1 prefers A, 12 prefer B, 2 - initialy same, then B               |
 
 
 
