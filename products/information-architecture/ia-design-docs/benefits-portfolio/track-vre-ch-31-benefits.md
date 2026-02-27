@@ -46,7 +46,7 @@ Also review [Capitalization](https://design.va.gov/content-style-guide/capitaliz
   - Breadcrumb:  VA.gov home > Careers and employment > Track your VR&E benefits > Your VR&E benefit status
     - Per the standard breadcrumb component, the last segment of the breadcrumb must match the H1 of the page exactly
   - Browser title: [H1 of introduction page in title case] | Veterans Affairs
-    - Your VR&E Benefits | Veterans Affairs
+    - Your VR&E Benefit Status | Veterans Affairs
   - **Note: Use "Veteran Readiness and Employment (Chapter 31)" on first mention in intro body text instead of VR&E**
 
 **Structuring URLs for individual pages within the tool flows**
