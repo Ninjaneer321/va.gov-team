@@ -1,99 +1,111 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Virtual Agent Claims and Automated Content Study Research Findings"
+product: "Virtual Agent (Chatbot)"
+team: "Virtual Agent Team"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2021-11-08"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Shane Strassberg"
+  - "Luciana Morais"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Veteran preference for Drupal content responses"
+  - "Claims feature feedback"
+  - "Learn other topics Veterans would be interested to engage with the chatbot"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Moderated usability testing"
+  - "Prototype testing on staging environment"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 7
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 7
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 7
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 1
+    "45-54": 2
+    "55-64": 0
+    "65+": 4
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 1
+    associates: 2
+    bachelors: 0
+    masters: 4
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 7
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 6
+    black: 1
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 1
+    hearing_aids: 1
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    Vets consistently preferred the preview response for Drupal content because it provided just enough context to make them confident that the webpage link would set them down the right path. They appreciated a short description with a link rather than the full Drupal page content displayed inside the chatbot.
+  - |
+    When Vets were allowed to ask any general topic question, the results for a correct response were mixed.
+  - |
+    The Claims feature was viewed very impressively. Vets felt that they understood the information provided, really liked that the representative was included, and really appreciated the loading text when the bot was retrieving their claims data.
+  - |
+    There was some confusion for the "Speak to Agent" button. Some thought it would provide contact info or connect them to their claim representative, others thought it would make a phone call to the VA help desk/contact center.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Deploy preview Drupal responses to minimize cognitive load and potential 508 issues with links in chatbox"
+  - "Deploy LUIS to replace QNAmaker as the foundation for natural language processing"
+  - "Include type of claim in response for easier recognition of each claim"
+  - |
+    Display multiple claims as buttons to allow Vets to choose the claim they are looking for, rather than hitting "See Next Claim" button
+  - |
+    Change button descriptor for "Speak with Agent" to "Chat with Live Agent" or "Connect to Live Agent" to minimize any confusion of what this button will do
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Improve natural language processing for niche or low-traffic health topics (e.g., chronic lymphomatic leukemia studies)"
+  - "Improve specificity of responses for family/spouse-related benefit questions"
+  - "Allow Veterans to navigate directly to a specific claim rather than cycling through claims sequentially"
+  - "Provide live agent connectivity when the chatbot cannot answer a question"
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
----
-
-
-
+  - "Excel"
+tags:
+  - "AUD: Veterans"
+  - "PRDT: Virtual-agent"
+  - "BNFT: Disability"
+  - "BNFT: Healthcare"
+  - "PRDT: Claim-status-tool"
+  - "PRDT: Content"
+  - "HDW: Desktop"
+  - "DSC: Button"
+  - "usability-testing"
+  - "evaluative"
 ---
 
 # Virtual Agent Claims and Automated Contnet Study Research Findings 
@@ -102,7 +114,7 @@ synthesis_tools_used:
 
 Date: 11/08/2021
 
-Shane Strassberg [shane.strassberg@va.gov], Luciana Morais [luciana.morais@va.gov]
+Shane Strassberg, Luciana Morais
 
 [Research Report PDF] (link here)
 
