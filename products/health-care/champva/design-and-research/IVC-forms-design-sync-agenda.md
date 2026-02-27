@@ -15,6 +15,7 @@ Attendees: Renata, Hieu, Jessica, Andrea, John, Chantale, Mike, Alyssa
 - Copilot not perfect, but useful for high level findings and searching for quotes
 - The VA Research Synthesis Tool is a beta new tool to use for annotating, download spreadsheet/csv files, uploading for affinity mapping or whiteboard tool
 - ** See [Slack Canvas](https://dsva.slack.com/docs/T03FECE8V/F0AEKUJ5BD4) for gathering known issues
+- [Folder on Github for Tricare eligibilty study for an example](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/champva/1010D/research/users/2026-01-Tricare%20Eligibility%20Usability%20Research)
 
 - Notes in Github with a template based on the convo guide
 - Helps to prep and have them ready for observers
