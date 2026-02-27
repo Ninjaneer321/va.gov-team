@@ -12,7 +12,7 @@
 **Anna: Do you have supporting artifacts and notetakers lined up for UAT sessions?**
 - Answer:
 
-- **Anna: Are you prepared to run UAT sessions?**
+**Anna: Are you prepared to run UAT sessions?**
 - Answer: 
 
 **Anna: Do you have a backup to run UAT sessions should something come up and you are unable to facilitate?**
