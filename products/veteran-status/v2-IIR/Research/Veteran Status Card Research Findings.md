@@ -1,97 +1,129 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Veteran Status Card Research Findings"
+product: "Veteran Status Card"
+team: "VA Innovate, Iterate, and Run (IIR)"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2024-12-18"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "David Pearl"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Get Veteran feedback on the new Veteran status card designs on VA.gov and the VA Health and Benefits app"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
+  - "Usability testing"
+  - "Contextual inquiry"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 9
+  assistive_technology: 0
+participants_total: 9
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 9
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 9
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 9
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 9
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 9
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+  gender:
+    male: 3
+    female: 6
+  audience_segment:
+    app_user: 5
+    mobile_web_user: 3
+    both: 1
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    RQ1: Veterans commonly need to verify status for medical, financial, and retail benefits. Veterans frequently verify their status to access healthcare services at VA clinics, claim tax exemptions at the state and federal levels, and secure discounts at businesses or restaurants. Other common scenarios include applying for home loans, traveling through airports with TSA PreCheck, and accessing military base facilities.
+  - |
+    RQ2: Veterans use physical IDs but see potential in digital alternatives. Most Veterans rely on physical IDs, such as state-issued Veteran designations, military IDs, or VA health identification cards (VHIC), to verify their status. While these methods are effective in formal settings, Veterans expressed interest in digital alternatives for convenience, particularly in informal settings like retail stores and restaurants.
+  - |
+    RQ3: Veterans face challenges with inconsistent requirements and privacy concerns. Veterans often struggle with inconsistent verification requirements across institutions, leading to confusion about which documents or IDs are needed in different situations. Privacy concerns are another significant barrier, as Veterans are wary of sharing sensitive personal information during the verification process.
+  - |
+    RQ4: Current Veteran Status Card faces criticism for design and usability. The existing VSC (both web and app versions), is widely criticized for lacking professionalism, practicality, and feel of legitimacy. Veterans find the paper cut-out cards unprofessional and easily damaged, while the app version's full-page layout was seen as lacking the appearance of an official ID.
+  - |
+    RQ5: Redesigned Veteran Status Card earns praise but room for improvement remains. The redesigned VSC is highly regarded for its professional appearance, ease of use, and modern features like explicit labeling and VA branding. Veterans appreciated the streamlined design and the removal of sensitive details but suggested improvements such as including full service dates and a photo for enhanced credibility.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    Consider integrating a photo upload feature into the Veteran Status Card platform. This optional feature would allow Veterans to include a photo on their card, enhancing its security and acceptance as a valid form of identification.
+  - |
+    Eliminate the paper cut-out version of the VSC entirely and instead provide a credible alternative, such as a letter of benefits summary. This official document would serve as a more professional and durable option for Veterans who need a physical form of proof.
+  - |
+    Provide multiple customer support channels, including email, chat, and clearly defined phone support hours, to accommodate diverse communication preferences and improve accessibility.
+  - |
+    Many Veterans prefer full service dates to enhance credibility. Consider including full service dates on the card rather than just the year.
+  - |
+    Many Veterans prefer not to display their disability rating. Consider a toggle feature that would allow them to display or hide the rating.
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not explicitly stated in the report"
+  business: "Not explicitly stated in the report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
-further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Photo inclusion to enhance authenticity and prevent misuse"
+  - "Toggle feature for disability rating display to address privacy concerns"
+  - "Elimination of paper cut-out version in favor of credible physical alternatives"
+  - "Expanded contact options (email, chat) beyond phone support"
+  - "Full service dates inclusion for enhanced credibility"
+  - "Compatibility with VA clinics and military bases"
+  - "Barcode or scannable features for verification scenarios"
+further_research_needed: []
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Verification Methods for Veteran Discounts"
+  - "ID.me Verification for U.S. Veterans"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "EnjoyHQ (transcription)"
+  - "Figma (affinity mapping)"
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Records"
+  - "PRDT: Veteran-ID-Card"
+  - "DSC: Card"
+  - "HDW: Smartphone"
+  - "usability-testing"
+  - "evaluative"
+  - "semi-structured-interviews"
+  - "contextual-inquiry"
+  - "PRDT: VA-Mobile-App"
 ---
-
 # Veteran Status Card Research Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE) Veteran Status Card, VA Innovate, Iterate, and Run**
