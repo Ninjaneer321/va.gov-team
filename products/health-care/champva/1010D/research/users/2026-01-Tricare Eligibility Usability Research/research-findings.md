@@ -206,13 +206,16 @@ synthesis_tools_used:
 
 
 **Double negative confusion**
+
 - 14 of 15 participants saw that they did not meet the CHAMPVA program requirements, but noticed that one of the bullet points outlining eligibility said “the Veteran and applicant is not eligible for TRICARE.” The double negative would result in participants having initial confusion and needing to re-read that line item. (Goal 3, research question 1).
 - Participants did not seem to understand the mutually exclusive eligibility for TRICARE and CHAMPVA when interpreting the eligibility review screen, despite high confidence in understanding that content earlier when on the 10-10d introduction page. 
 
 **Visual system misunderstanding**
+
 - 13 of 15 participants went on to explain that a part of their confusion about the eligibility summary was the red “X” next to “the Veteran and applicant is not eligible for TRICARE,” compounding issues with the semantic double negative outlined. 
 
 **Participant quotes**
+
 - _Quote [P1: Yes, if I'm not mistaken, the previous page, asked about TRICARE, and it says, are you or any applicants eligible or enrolled in TRICARE? It says yes, but when you continue here, it says the veteran applicant is not eligible for TRICARE, so…That would stand out to me, because…in the previous page, I'm telling the system that I am eligible or enrolled. And then it's saying, basically, that, I may not be eligible, as a Veteran because, you know, for TRICARE, but… It's…the previous page, I selected that I, you know, that either had or was eligible, so…I guess I would still reach out to CHAMPVA. Being that that's what I'm applying for, and as a backup, maybe reach out to TRICARE and see if there's some sort of…you know, connection between the two that may disqualify you from using the benefits.]_  
 - _Quote [P10: “The second card says may NOT be eligible, and the difference is the Veteran or applicant is not.. wait a second what? I’m so confused. (Re reads the last bullet) What in the trick-ness is going on here? What? The x’s and checks I don’t even know what they mean anymore”]_
 - _Quote P14: “I read that as, we're not eligible (for TRICARE) because of this X.” …”It just doesn't make sense. How can it be a green over here, but it's a red over here? It's the same sentence.”]_
@@ -228,11 +231,13 @@ When participants saw the summary card showing they were ineligible, users were 
 - 2 stated they would check their TRICARE status on their own as a next step.
 
 **Clear resolution and next steps**
+
 When also reviewing the alert options at the end of the session, contacting somebody was a common response to the various warning alerts shown
 - Participants suggested a link or contact information to talk to somebody when reviewing the eligibility summary pages (5 for Pineapple and 1 for Blueberry). It was more often suggested in the Alert review task. (Goal 1, research question 3).
 
 
 **Participant quotes**
+
 - _Quote [P1: I would try to find some sort of, like, help desk number, or you said TRICARE, but this is referring to CHAMPVA benefits, right?
 [Moderator: Yes.]
 P1: Okay, then I would try to find some sort of…contact number for CHAMPVA, or, you know, a…email address or something along those lines where I could reach out and basically communicate that I've attempted to apply. I believe I'm eligible, but…you know, it says that I may not be eligible, could I… how would I find out additional information?]_  
@@ -242,14 +247,17 @@ P1: Okay, then I would try to find some sort of…contact number for CHAMPVA, or
 ### Finding 3: Most participants commented that more definitive language around eligibility would be helpful in understanding the review summary card and almost all preferred the alternate card option B with additional dynamic content explaining their eligibility.
 
 **Lack of definitive language**
+
 The eligibility summary screen lets users know that they “may not be eligible” for CHAMPVA. For 12 of 15 participants, the lack of definitive eligibility language at this point in the form made it difficult to make the decision whether or not to abandon the form, or continue with the application.
 
 **Alternate card design for “Check eligibility” pattern**
+
 When shown an alternative eligibility summary card design (Card Style B) in a follow-up task, the majority of participants (12 of 15) preferred it to the option they saw in both form flows. Reasons why included:
 The subheader sentence was easy for participants to understand and they stated that extra clarity helped determine their preference (12)
 Two participants mentioned that the icons and wording around that bullet item was their deciding factor
 
 **Participant quotes**
+
 - _Quote [P14: But I do feel like this is helping you, you know, you might, but again, because it's not a definitive statement, you might still keep going.]_
 - _Quote [P14: So, again, I know, VA benefits are rather nuanced, but anytime you say, may not be eligible instead of you are not eligible, people might still try to continue because they think perhaps there's an error. Or, again, because they say it says.]_
 
@@ -329,10 +337,14 @@ This research supports our desired business outcome by....
 
 ## Key Performance Indicators
 
-*Explain how findings will support KPI measurement.*  
 
 ### KPI 1
 This research supports measurement of this KPI by....
+- Percentage of CHAMPVA applications denied due to Tricare eligibility
+- Total number of CHAMPVA applications submitted
+- Average processing time per application
+- User drop-off rates early in the application flow
+
   
 
 ## Next Steps
