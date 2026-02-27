@@ -131,7 +131,7 @@ synthesis_tools_used:
 3. Learn if there are any usability issues with the new VADS eligibility pattern and/or hybrid option.
 
 
-## Research questions
+## Research Questions
 
 `Goal 1: Learn where there are content comprehension issues within the eligibility questions and error messages options tested.`
 
@@ -212,7 +212,7 @@ synthesis_tools_used:
 **Visual system misunderstanding:**
 - 13 of 15 participants went on to explain that a part of their confusion about the eligibility summary was the red “X” next to “the Veteran and applicant is not eligible for TRICARE,” compounding issues with the semantic double negative outlined. 
 
-
+**Participant quotes**
 - _Quote [P1: Yes, if I'm not mistaken, the previous page, asked about TRICARE, and it says, are you or any applicants eligible or enrolled in TRICARE? It says yes, but when you continue here, it says the veteran applicant is not eligible for TRICARE, so…That would stand out to me, because…in the previous page, I'm telling the system that I am eligible or enrolled. And then it's saying, basically, that, I may not be eligible, as a Veteran because, you know, for TRICARE, but… It's…the previous page, I selected that I, you know, that either had or was eligible, so…I guess I would still reach out to CHAMPVA. Being that that's what I'm applying for, and as a backup, maybe reach out to TRICARE and see if there's some sort of…you know, connection between the two that may disqualify you from using the benefits.]_  
 - _Quote [P10: “The second card says may NOT be eligible, and the difference is the Veteran or applicant is not.. wait a second what? I’m so confused. (Re reads the last bullet) What in the trick-ness is going on here? What? The x’s and checks I don’t even know what they mean anymore”]_
 - _Quote P14: “I read that as, we're not eligible (for TRICARE) because of this X.” …”It just doesn't make sense. How can it be a green over here, but it's a red over here? It's the same sentence.”]_
@@ -227,10 +227,22 @@ When participants saw the summary card showing they were ineligible, users were 
 - Out of the 7 participants who did say they would stop on the eligibility screen, 5 stated they would call somebody at the VA or TRICARE next.
 - 2 stated they would check their TRICARE status on their own as a next step.
 
-- _Supporting data: Quote [add context]_  
+**Clear resolution and next steps:**
+
+When also reviewing the alert options at the end of the session, contacting somebody was a common response to the various warning alerts shown
+- Participants suggested a link or contact information to talk to somebody when reviewing the eligibility summary pages (5 for Pineapple and 1 for Blueberry). It was more often suggested in the Alert review task. (Goal 1, research question 3).
 
 
-### Finding 3: 
+**Participant quotes**
+
+- _Quote [P1: I would try to find some sort of, like, help desk number, or you said TRICARE, but this is referring to CHAMPVA benefits, right?
+[Moderator: Yes.]
+P1: Okay, then I would try to find some sort of…contact number for CHAMPVA, or, you know, a…email address or something along those lines where I could reach out and basically communicate that I've attempted to apply. I believe I'm eligible, but…you know, it says that I may not be eligible, could I… how would I find out additional information?]_  
+- _Quote [P4: Need some guidance and an exit path. For disagreement. This isn’t explaining why or contact someone to find out what my next step would be.]
+
+
+### Finding 3: Most participants commented that more definitive language around eligibility would be helpful in understanding the review summary card and almost all preferred the alternate card option B with additional dynamic content explaining their eligibility.
+
 
 
 
