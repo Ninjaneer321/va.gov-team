@@ -26,3 +26,11 @@
 * If the CRM team reports missing `SubmitterProfile` we can:
   * Identify or narrow down the possibility of a downstream issue
   * Whether the payload is missing the `SubmitterProfile`
+
+## TDB
+* What data should be captured?
+  * Full payload vs a compact record
+* Retention duration
+  * What is the retention policy and what is a reasonable window for us?
+* Implementation
+  * Define high level implementation and what done looks like
