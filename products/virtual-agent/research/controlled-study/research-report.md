@@ -1,95 +1,118 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Chatbot Controlled Study Research Findings"
+product: "Virtual Agent"
+team: "Not specified in report"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
-researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+date: "Not specified in report"
+researchers: 
+  - "Shane Strassberg"
+  - "Rachel M. Murray"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand how well the chatbot performed (accuracy) - answered questions accurately, understood what participants were trying to ask, and if participants had information needed to take the next step to complete their task"
+  - "Understand if and how poor performance affected participants"
+  - "Understand if people preferred to sign in (get answers to personal questions) or not to sign in and if they trusted the chatbot"
+  - "Understand how participants felt about the voice and tone of the chatbot (personality)"
+  - "Understand how often participants speak with a VA help desk/contact center, reasons why and how a chatbot can reduce how often they call the VA"
+  - "Understand if participants are willing to use the chatbot again"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Unmoderated controlled study"
+  - "Chatbot interaction on Staging.va.gov"
+  - "Quantitative and qualitative questionnaire via Optimal Workshop"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+    desktop: 0
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 44
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 14
+  service_members: 0
+  caregivers: 7
+  family_members: 7
+  dependents: 7
+  VA_staff: 0
+  age: 
+    "18-24": 1
+    "25-34": 6
+    "35-44": 8
+    "45-54": 12
+    "55-64": 6
+    "65+": 8
+    unknown: 3
+  education: 
+    high_school: 2
+    some_college: 16
+    associates: 6
+    bachelors: 12
+    masters: 7
+    doctorate: 0
+    unknown: 1
+  location: 
+    urban: 1
+    rural: 0
+    unknown: 43
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 31
+    black: 3
+    hispanic: 2
+    biracial: 0
+    asian: 2
+    native: 1
+    other: 1
+    unknown: 4
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - "The chatbot was rated as being fairly accurate, although the level of accuracy left some participants feeling frustrated."
+  - "Participants understood the chatbot wasn't a human but still felt they could trust it."
+  - "Participation from marginalized populations was low and understanding their needs will be key to ensuring trust is built into the heart of the product."
+  - "Participants reacted positively to the personality of the chatbot in terms of voice and tone."
+  - "Participants experience challenges with current VA customer support channels, and a VA chatbot was viewed as an opportunity to avoid those challenges."
+  - "Overall users indicated a willingness to not only try the chatbot, but to use it again, and seemed excited about the product, how it could evolve and how it might help them and the VA."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "See final report for Virtual Agent project for next steps, including actions to be taken for the product roadmap and additional research areas"
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Understanding needs of marginalized populations (LGBTQ+ Veterans, Veterans experiencing economic insecurity)"
+  - "Understanding needs of rural and suburban Veterans"
+  - "Building trust with underserved populations"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
+  - "Research with LGBTQ+ Veterans to understand their specific needs and trust factors"
+  - "Research with Veterans experiencing economic insecurity (housing insecurity, food insecurity, mental health crisis)"
+  - "Research with rural and suburban Veterans"
 underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "LGBTQ+ Veterans (only 1 out of 10 recruited)"
+  - "Veterans experiencing economic insecurity (0 out of 10 recruited)"
+  - "Suburban/rural Veterans (0 out of 10 recruited for rural segment)"
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
+  - "Chatbot log transcripts from Power Virtual Agents"
+  - "Earlier April 2020 branding study with 16 participants (Veterans and caregivers)"
 synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Optimal Workshop"
+  - "Power Virtual Agents (PVA) chat logs"
+tags:
+  - "AUD: Veterans"
+  - "AUD: Caregivers"
+  - "AUD: Family Member"
+  - "PRDT: Contact us"
+  - "PRDT: Ask VA (AVA)"
+  - "BNFT: Healthcare"
+  - "BNFT: Disability"
+  - "evaluative"
+  - "unmoderated"
+  - "Accessibility"
 ---
 
 # Chatbot Controlled Study Research Report
