@@ -1,0 +1,33 @@
+# CRM Payload Investigation: Missing `SubmitterProfile`
+
+## Objective - What do we intend to accomplish?
+
+* We need to confirm whether the `SubmitterProfile` field is ever missing in payload sent from `vets-api` to AVA CRM
+
+## Current understanding of the flow
+
+
+* `InquiryPayload` invokes `SubmitterProfile#call`, which sets the `SubmitterProfile` field
+  [here](https://github.com/department-of-veterans-affairs/vets-api/blob/b3730f91e6c701a76f52327bcd8827e334a26b9b/modules/ask_va_api/app/lib/ask_va_api/inquiries/payload_builder/inquiry_payload.rb#L105).
+  This method builds a hash by calling [SubmitterProfile#base_profile](https://github.com/department-of-veterans-affairs/vets-api/blob/b3730f91e6c701a76f52327bcd8827e334a26b9b/modules/ask_va_api/app/lib/ask_va_api/inquiries/payload_builder/submitter_profile.rb#L27-L39),
+  which then has other hashes merged into it. It may be possible for the values for a given key to be `nil` but the `SubmitterProfile` object itself should not be `nil`
+* No obvious drop off was identified in the payload builder/submission path within `ask_va_api`
+* Could not reproduce missing `SubmitterProfile` field in payload when manipulating sample inquiry payloads locally
+* However, it is possible for some fields within `SubmitterProfile` to be incomplete or `null`.  Further investigation is required to determine if a drop off is occurring downstream
+
+
+## Resolution(s) discussed
+
+* Instead of telemetry to log existence of the field, a more favorable approach may be to temporarily store the outbound payload in Postgres for investigation
+* This requires understanding and alignment with any data retention policies (e.g., 30 or 60 days).
+* As such we may want/need to:
+  * Redact any PHI/PII
+  * Encrypt sensitive data
+  * Create and run an Ask VA owned scheudled job via Sidekiq to cleanup records in compliance with retention policy
+* Other teams within `vets-api` already follow similar procecure for storing data temporarily
+
+## Desired outcome
+
+* If the CRM team reports missing `SubmitterProfile` wen can:
+  * Identify or narrow down the possibility of a downstream issue
+  * Whether the payload is missing the `SubmitterProfile`
