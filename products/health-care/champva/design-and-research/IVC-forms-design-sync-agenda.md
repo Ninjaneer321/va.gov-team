@@ -1,5 +1,36 @@
 # Running Design and Research Agenda
 
+
+
+## February 26, 2026
+
+Attendees: Renata, Hieu, Jessica, Andrea, John, Chantale, Mike, Alyssa 
+
+### Agenda - 
+	•	Quick Health Apps UX overview of using GitHub for research
+	•	VFMP Status Tool study conversation guide deep-dive
+
+**Github**
+- Last 2 - using Github as a tool/aid
+- Copilot not perfect, but useful for high level findings and searching for quotes
+- The VA Research Synthesis Tool is a beta new tool to use for annotating, download spreadsheet/csv files, uploading for affinity mapping or whiteboard tool
+- ** See [Slack Canvas](https://dsva.slack.com/docs/T03FECE8V/F0AEKUJ5BD4) for gathering known issues
+
+- Notes in Github with a template based on the convo guide
+- Helps to prep and have them ready for observers
+- John - suggestion to work ratings and other known data points into the template easier
+  
+
+**VFMP Status Tool Study**
+- Walking through Figma overview
+- Utilize task sub-buffer screens in prototype to pause and reset between screens
+- Asking where to expect to go at points, instead of fully navigable prototype 
+- Meeting next week to go over Figma animations and another convo guide review
+
+
+
+-----
+
 ## February 19, 2026
 
 Attendees: Renata, Hieu, Jessica, Premal, Andrea, John, Chantale
