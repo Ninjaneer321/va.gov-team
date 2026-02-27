@@ -1,97 +1,123 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Healthcare Representative Research Findings"
+product: "Delegate Access"
+team: "Core Identity"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2025-05-14"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Charlye Tran"
+  - "Clayton Zook"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Discover how caregivers are able to access Veteran services on behalf of Veterans"
+  - "Explore how caregivers interact with VA.gov or other digital services"
+  - "Better understand and empathize with the caregiver journey and uncover any potential pain points as they navigate the VA"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 0
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 0
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 0
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 0
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 0
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    The burden of being a caregiver is heavy. Caregivers who work with their loved ones seemed overwhelmed. Some are able to find support, but others are really struggling.
+  - |
+    Caregiver designation doesn't equal authorization and/or access. Although the caregiver support programs can designate a caregiver status, the caregiver is unable to officially complete actions on behalf of a Veteran. POA & consent forms are used inconsistently & often need to be resubmitted or carried physically. The designations don't translate to digital access or systemic permissions. Expectations for the caregiver programs were often not met. Many caregivers conflate program enrollment with access or ability to act on behalf of the veteran. Some caregivers reported that community support groups were more helpful than the caregiver support programs.
+  - |
+    Caregivers are adept at working around the system to get things done. Caregivers are able to act on Veteran's behalf thru the phone, in-person & online. Caregivers who used a Veterans' credentials did not seem concerned with security.
+  - |
+    VA systems are fragmented and hard to navigate. The process of applying for benefits and healthcare can be daunting and overwhelming. Many caregivers expressed that they had difficulty navigating the VA. Documentation and resources were hard to find on va.gov. Since the VBA and VHA are separate entities, caregivers were frustrated with having to navigate both systems separately which felt redundant and unnecessary.
+  - |
+    Some interactions are smooth but not consistent across the board. Prescription refills, medical devices, and provider comms were described as simple and positive. Suggests that once access is established, the tasks are straightforward.
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - |
+    Dive deeper into consent/POA pain points. Desired outcome: Improve the access and/or authorization of caregivers to complete actions.
+  - |
+    Update documentation. Desired outcome: Caregivers should be able to easily navigate resources and documentation to find what they need. They should also be able to clearly understand what benefits not only the Veteran but also the caregiver qualify for.
+  - |
+    Obtain behavioral data and observational data from Google Analytics, Facebook community groups, VSignals survey, and etc. Desired outcome: Obtain a clearer picture of where caregivers are struggling the most, what information they are searching for and develop an understanding of any potential for digital access.
+  - |
+    Speak to staff who have interacted with Veterans and their caregivers. Desired outcome: Staff / front-line people see first hand the issues caregivers are experiencing. How can we better understand what these pain points are and how staff are supporting caregivers.
+  - |
+    Understand technical implementation of CARMA, MPI and Veteran profiles. Desired outcome: From a technical perspective, data is flowing from "somewhere" to MPI and to a Veteran's profile. How does this work in reality? Can our team leverage any of what's been built.
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Learn about the process of how caregivers are able to complete various tasks and functions on behalf of Veterans, from the point of being designated by the Veteran all the way through completing actions."
+  business: "Not specified"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Improve access and/or authorization of caregivers to complete actions on behalf of Veterans"
+  - "Update documentation so caregivers can easily navigate resources and understand benefits"
+  - "Obtain behavioral and observational data to understand where caregivers struggle most"
+  - "Understand technical implementation of CARMA, MPI, and Veteran profiles to leverage existing infrastructure"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
+  - "Dive deeper into consent/POA pain points"
+  - "Obtain behavioral data and observational data from Google Analytics, Facebook community groups, VSignals survey"
+  - "Speak to staff who have interacted with Veterans and their caregivers"
+  - "Understand technical implementation of CARMA, MPI and Veteran profiles"
+underserved_groups_missing: []
 secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "2024-10 Caregiver study (Mural board)"
+  - "Liz Lantz non-veteran user roles discovery research"
+  - "Digital Health Modernization Team generative research"
+  - "Stakeholder calls"
+synthesis_tools_used: []
+tags:
+  - "AUD: Caregivers"
+  - "AUD: Veterans"
+  - "BNFT: Healthcare"
+  - "PRDT: Caregivers"
+  - "PRDT: Login"
+  - "PRDT: Content"
+  - "DSP: Help users to sign in"
+  - "Accessibility"
+  - "RESRCH: Interviews"
+  - "RESRCH: Remote"
 ---
-
 # 2025-05-Healthcare Representative Research Findings
 
 **Office of the CTO - Digital Experience (OCTO-DE), Terms of Use, Core Identity team**
