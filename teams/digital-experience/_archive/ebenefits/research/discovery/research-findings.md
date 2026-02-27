@@ -1,100 +1,113 @@
 ---
-title: '[Study] Research Findings'
-product: Product Name
-team: Team Name
-office: Office of the CTO - Digital Experience (OCTO-DE)
-date: YYYY-MM-DD
-researchers:
-- Researcher/Designer 1
-- Researcher/Designer 2
+title: "eBenefits Discovery Research Findings"
+product: "eBenefits"
+team: "Digital Experience (eBenefits)"
+office: "Office of the CTO - Digital Experience (OCTO-DE)"
+date: "2019-10-31"
+researchers: 
+  - "Aricka Lewis"
+  - "James Adams"
 research_goals:
-- Goal 1
-- Goal 2
+  - "Understand generally how and why Veterans use the eBenefits site"
+  - "Identify overall priorities and goals Veterans have for using eBenefits"
+  - "Understand how users navigate to and interact with the eBenefits site"
+  - "Determine what users expect to do on eBenefits versus VA.gov"
+  - "Identify user priorities and interactions with key eBenefits features"
+  - "Understand the different user roles for eBenefits"
 methodology:
-- Method 1
-- Method 2
+  - "Semi-structured interviews"
+  - "User interviews (30-50 minutes)"
+  - "Discovery research"
 devices_used:
-  desktop: X
-  tablet: X
-  smartphone: X
-  assistive_technology: X
-participants_total: X
+    desktop: 10
+    tablet: 0
+    smartphone: 0
+    assistive_technology: 0
+participants_total: 10
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
-  age:
-    25-34: X
-    35-44: X
-    45-54: X
-    55-64: X
-    65+: X
-    unknown: X
-  education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
-  location:
-    urban: X
-    rural: X
-    unknown: X
+  veterans: 10
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
+  age: 
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 10
+  education: 
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 10
+  location: 
+    urban: 0
+    rural: 0
+    unknown: 10
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 10
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
+    unknown: 10
 key_findings:
-- Finding 1
-- Finding 2
+  - "There are at least three eBenefits user-types: Power User (spends time browsing and learning about new opportunities, often serves as a Facilitator, refers to eBenefits often for documentation and self-service tools, has the site bookmarked, may have considerable VA benefits to manage); Occasional/Convenience User (has a specific goal or task in mind, referred to tools from someone else or through email, has specific URLs saved, primarily uses dashboard for actions, accesses eBenefits only occasionally); and Facilitator (familiar with eBenefits but guides others, may be professional VA/VSO employee or informal peer, shares knowledge verbally or via social media, has solid general knowledge of VA benefits and eBenefits)."
+  - "eBenefits is a trusted educational/informational resource for Veterans. Veterans who visit eBenefits often use the 'learn' tab to discover helpful information (education & home loan benefits were top mentioned). Veterans are usually referred to specific tools or documents within eBenefits. Useful information on eBenefits is 'stumbled upon' as a result of browsing the site. Facilitator user-types will recommend eBenefits to Veterans."
+  - "There is a need for benefit eligibility information to be more immediately available. Veterans often rely on word-of-mouth and accidental discovery to find benefits they are entitled to. Some participants cited a need to have a 'one-stop' list or accounting of benefits a Veteran is entitled to. The feeling is the VA has all the info needed to determine a Veteran's benefits."
+  - "The current user paths around authorization and login are potential barriers to Veteran access to eBenefits. Users were uniformly dismayed by the login experience; most found it difficult or impossible to access their profiles. Some users considered logging-in a barrier to accessing eBenefits."
 recommendations:
-- Recommendation 1
-- Recommendation 2
-kpi_alignment:
-- KPI 1
-- KPI 2
+  - "Investigate ways to streamline authorization/login: Far and away, login is the most prevalent and frustrating pain point discussed in the interviews; it was nearly unanimous. Minimize linking back and forth between eBenefits and VA.gov. Migrate features in a way to reduce or eliminate linking across sites."
+  - "Create a more cohesive transition plan in migrating eBenefits features to VA.gov: May include 'inbound' visitor messaging on VA.gov. Consideration given to alerting users when a link will cross domains."
+  - "Better tier information to support users' tendencies: Surface general view-only information earlier in user paths. Consider the value of (truncated) high-level info as tiles in a dashboard arrangement. Preserve profile/dashboard screen layout to consolidate benefits info into single hub/view. Allow drill-down points to detailed info for power users. Create natural 'off-ramp' links to action items from informational views. Understand the value of eBenefits' educational component and preserve links to up-to-date, accurate information."
+  - "Consider data sources during migration: Consolidate viewable and editable data around a single 'source of truth' that's consistent across VA.gov. Pre-fill forms and data by default. Offer opportunities to correct/add to/edit info where it is presented. Document multiple varying data sources; consider consolidation or syncing data across sources."
+kpi_alignment: []
 outcomes:
-  user: Desired user outcome
-  business: Desired business outcome
+  user: "Not specified in findings report"
+  business: "Not specified in findings report"
 opportunity_areas:
-- Unmet need 1
-- Research gap 1
-further_research_needed:
-- Area 1
-- Area 2
-underserved_groups_missing:
-- Group 1
-- Group 2
-secondary_research:
-- Web analytics
-- SME interviews
+  - "Accidental feature discovery - useful information is 'stumbled upon' rather than surfaced intentionally"
+  - "Need for a 'one-stop' benefit eligibility list showing what Veterans are entitled to"
+  - "Login and authorization barriers preventing access to eBenefits"
+  - "Cross-site navigation confusion between eBenefits and VA.gov"
+further_research_needed: []
+underserved_groups_missing: []
+secondary_research: []
 synthesis_tools_used:
-- Mural
-- Affinity Mapping
+  - "Mural"
+  - "Affinity mapping"
 tags:
-- 'BNFT: Disability'
-- 'BNFT: Education'
-- 'BNFT: Housing'
-- 'PRDT: Claim-status-tool'
+  - "AUD: Veterans"
+  - "PRDT: eBenefits"
+  - "BNFT: Disability"
+  - "BNFT: Education"
+  - "PRDT: Claim-status-tool"
+  - "DSP: Help users to sign in"
+  - "HDW: Desktop"
+  - "Discovery"
+  - "Generative"
+  - "MHV: MyHealth"
 ---
+
 # eBenefits Discovery Findings
 `Aricka Lewis & James Adams, October 2019`
 
