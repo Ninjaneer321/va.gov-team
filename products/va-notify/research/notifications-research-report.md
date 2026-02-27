@@ -1,95 +1,123 @@
 ---
-title: "[Study] Research Findings"
-product: "Product Name"
-team: "Team Name"
+title: "Disability Compensation Notifications Research Findings"
+product: "VA Notify"
+team: "VA Notify"
 office: "Office of the CTO - Digital Experience (OCTO-DE)"
-date: "YYYY-MM-DD"
+date: "2020-07-30"
 researchers:
-  - "Researcher/Designer 1"
-  - "Researcher/Designer 2"
+  - "Todd Stanich"
 research_goals:
-  - "Goal 1"
-  - "Goal 2"
+  - "Understand what information Veterans expect and value in a notification"
+  - "Determine when email vs text message vs paper letter notifications are most appropriate"
+  - "Understand when Veterans expect to receive notifications"
 methodology:
-  - "Method 1"
-  - "Method 2"
+  - "Semi-structured interviews"
 devices_used:
-    desktop: X
-    tablet: X
-    smartphone: X
-    assistive_technology: X
-participants_total: X
+  desktop: 0
+  tablet: 0
+  smartphone: 0
+  assistive_technology: 0
+participants_total: 8
 demographics:
-  veterans: X
-  service_members: X
-  caregivers: X
-  dependents: X
-  VA_staff: X
+  veterans: 8
+  service_members: 0
+  caregivers: 0
+  family_members: 0
+  dependents: 0
+  VA_staff: 0
   age:
-    "25-34": X
-    "35-44": X
-    "45-54": X
-    "55-64": X
-    "65+": X
-    unknown: X
+    "18-24": 0
+    "25-34": 0
+    "35-44": 0
+    "45-54": 0
+    "55-64": 0
+    "65+": 0
+    unknown: 8
   education:
-    high_school: X
-    some_college: X
-    associates: X
-    bachelors: X
-    masters: X
-    doctorate: X
-    unknown: X
+    high_school: 0
+    some_college: 0
+    associates: 0
+    bachelors: 0
+    masters: 0
+    doctorate: 0
+    unknown: 8
   location:
-    urban: X
-    rural: X
-    unknown: X
+    urban: 0
+    rural: 0
+    unknown: 8
   race:
-    white: X
-    black: X
-    hispanic: X
-    biracial: X
-    asian: X
-    native: X
+    white: 0
+    black: 0
+    hispanic: 0
+    biracial: 0
+    asian: 0
+    native: 0
+    unknown: 8
+  gender:
+    female: 3
+    male: 5
   disability:
-    cognitive: X
-    AT_beginner: X
-    AT_advanced: X
-    screen_reader_desktop: X
-    screen_reader_mobile: X
-    magnification_zoom: X
-    speech_input: X
-    hearing_aids: X
-    sighted_keyboard: X
-    captions: X
+    cognitive: 0
+    AT_beginner: 0
+    AT_advanced: 0
+    screen_reader_desktop: 0
+    screen_reader_mobile: 0
+    magnification_zoom: 0
+    speech_input: 0
+    hearing_aids: 0
+    sighted_keyboard: 0
+    captions: 0
 key_findings:
-  - "Finding 1"
-  - "Finding 2"
-  # etc.
+  - |
+    Paper letter notifications are not meeting all Veterans' needs. Paper letters are the main method of notifications today for Veterans working through the disability compensation application process. These paper notifications sometimes do not arrive in a timely manner. Key takeaways: Several participants mentioned paper letters not arriving in a timely manner. Letters sometimes arrived after a Veteran was aware of their decision, already received a deposit, or after an important deadline. One participant described how access to their mailbox and paper letters is a burden compared to the ease of email. Some participants mentioned not receiving certain expected paper letters.
+  - |
+    Email notifications are expected and the preferred method of receiving information. All participants were interested in receiving email notifications throughout the disability compensation process. Some participants would prefer to only receive emails and not paper letters while others would like to receive both. Most participants expected email notifications based on interactions with other services. Some participants wanted all content of the paper letters in emails while others only wanted a subset of information without sensitive personal details.
+  - |
+    Certain text messages may enhance the Veteran experience, but should not replace paper or email notifications. All participants viewed text message notifications as something in addition to email or paper letters and not a replacement. Some participants were not interested in receiving text messages at all. Participants interested in text message notifications mentioned small messages or updates as the ideal use case such as appointment reminders and claim status updates. Participants viewed text messages as point-in-time communications and not something easily saved or referenced again at a later date.
+  - "Some participants do not trust or know how to check if a text message is from a legitimate source."
+  - "Some participants called or visited the VA when they were not clear about the status of their claim."
+  - |
+    Participants have different levels of comfort with personal information being communicated through email and text messages. Some participants want everything in an email. Others only want basic information without sensitive personal details.
+  - "None of the participants found the need for notifications about when their payment has been processed. Several participants mentioned already being notified by their bank when the payment was pending or deposited."
+  - "Phone calls are often not picked up and some participants are unsure if phone calls they receive about medical exam scheduling are legitimate."
+  - "All participants found the sample confirmation email to be valuable and something they would be interested in receiving after submitting a claim. Some would have preferred more information to be included."
+  - "Several participants mentioned wanting to go paperless or cited environmental concerns about receiving paper mail."
+  - "Several participants mentioned wanting to be able to download letters from va.gov to save for their records in lieu of receiving paper copies."
 recommendations:
-  - "Recommendation 1"
-  - "Recommendation 2"
-kpi_alignment:
-  - "KPI 1"
-  - "KPI 2"
+  - "Email notifications should be considered for all communication with Veterans throughout the disability compensation process in addition to existing written communication."
+  - "Text message notifications may enhance certain aspects of the application experience and should be considered for point-in-time communications and updates."
+  - "Veterans should have the ability to share their communication preferences for receiving notifications and these preferences should be respected by individual applications."
+  - "Create guidelines for when opt-in vs opt-out approach to notifications is most appropriate. Not all participants found all notification types valuable. For example, none of our participants found money deposited notifications valuable."
+  - "Define what is an appropriate level of information to include in an email communication while respecting privacy."
+  - "Define what makes a successful handoff between a notification and va.gov."
+kpi_alignment: []
 outcomes:
-  user: "Desired user outcome"
-  business: "Desired business outcome"
+  user: "Not specified in report"
+  business: "Not specified in report"
 opportunity_areas:
-  - "Unmet need 1"
-  - "Research gap 1"
+  - "Following the Veteran experience after receiving a notification and transitioning to va.gov to perform an action"
+  - "The role of push notifications as an additional method of communication"
+  - "Understanding the percentage of Veterans with regular email and text message access"
+  - "Veterans want the ability to download letters from va.gov to save for their records"
+  - "Veterans want to share and manage their communication preferences"
 further_research_needed:
-  - "Area 1"
-  - "Area 2"
-underserved_groups_missing:
-  - "Group 1"
-  - "Group 2"
-secondary_research:
-  - "Web analytics"
-  - "SME interviews"
-synthesis_tools_used:
-  - "Mural"
-  - "Affinity Mapping"
+  - "Several notification types will direct users to perform an action on va.gov. Further research opportunities exist for following the Veteran experience after receiving a notification and transitioning to va.gov."
+  - "Consider the role of push notifications as an additional method of communication."
+  - "Understand the percentage of Veterans with regular email and text message access."
+underserved_groups_missing: []
+secondary_research: []
+synthesis_tools_used: []
+tags:
+  - "AUD: Veterans"
+  - "BNFT: Disability"
+  - "PRDT: VA-notify"
+  - "DSP: Notifications"
+  - "DSP: Ask users for contact preferences"
+  - "semi-structured-interviews"
+  - "generative"
+  - "PRDT: Claim-status-tool"
+  - "PRDT: Benefit-letters"
+  - "discovery"
 ---
 
 # Disability Compensation Notifications Research Report
