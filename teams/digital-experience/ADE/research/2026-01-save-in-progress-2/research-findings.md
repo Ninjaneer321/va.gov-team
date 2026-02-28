@@ -551,7 +551,7 @@ The form we tested has 9 pages of questions, and each page has at the bottom a *
 
 <details>
   <summary>Figure 12: Form page 1 asks whether you are a U.S. citizen</summary>
-   <img src="./images/form-pg1-alert&citizenship.png" width="75%" height="75%" alt="Radio button question with options to indicate whether you're a U.S. citizen">
+   <img src="./images/form-pg1-citizenship.png" width="75%" height="75%" alt="Radio button question with options to indicate whether you're a U.S. citizen">
 </details>
 
 <details>
@@ -598,7 +598,7 @@ The form we tested has 9 pages of questions, and each page has at the bottom a *
 
 <details>
   <summary>Figure 20: Form page 9, which is the last page in the form, has expandable sections of form information at the top. Below is a notice about criminal penalties for withholding information, and a statement of truth that requires typing your full name and checking a box to certify the information</summary>
-   <img src="./images/form-pg9-review&submit.png" width="75%" height="75%" alt="the last page in the form, which has expandable sections of form information at the top">
+   <img src="./images/form-pg9-review&submit.png" width="100%" height="100%" alt="the last page in the form, which has expandable sections of form information at the top">
    <img src="./images/form-pg9-statement-of-truth.png" width="75%" height="75%" alt="Below the expandable sections is a note about criminal penalties for withholding information, and a statement of truth that requires typing your full name and checking a box that you certify the information">
 </details>
 
