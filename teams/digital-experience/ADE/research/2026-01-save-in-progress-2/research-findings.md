@@ -110,7 +110,7 @@ tags:
 
 **Office of the CTO - Digital Experience (OCTO-DE), Accessibility Digital Experience (ADE)**
 
-**Date:** 02/26/2026
+**Date:** 02/27/2026
 
 **Contacts:** Cindy Merrill
 
@@ -219,10 +219,6 @@ For demographic details, see [Research participants](#user-content-research-part
 > [!TIP]
 > **After drafting your detailed findings, apply OCTO metadata labels to enable automated pattern detection and cross-study aggregation.**
 > Use the [GitHub Copilot Key Findings Metadata Labels Prompt](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/copilot-prompts/research-report/add-metadata-labels-to-findings-prompt.md) to generate structured YAML label blocks for each finding below.
-
-- _Supporting data: ![description of the image (image)](link - add image to github folder and link here with .png)_  
-
-> **TIP:** For details on how to write descriptive links that are accessible to assistive technology users, see Platform documentation on [How to create accessible GitHub Markdown files](https://depo-platform-documentation.scrollhelp.site/research-design/how-to-create-accessible-github-markdown-files).
 
 
 ### Finding 1: The interstitial page was NOT effective in communicating about save in progress because most users were so focused on form fields that anything else was ignored.
@@ -497,6 +493,8 @@ Eight participants said they wanted to be able to delete a form they started but
 > 
 > If you need Github Copilot Enterprise Access, please complete this [Issue](https://github.com/department-of-veterans-affairs/copilot-onboarding/issues/new?template=copilot-onboarding.yml).
 
+1. **DISCUSS WITH JEANA!**
+
 ## Further research needed
 
 1. Any additional research should **include some participants who are 35 years old or younger**. The two such participants recruited for this study didn't show up.
@@ -524,7 +522,6 @@ Eight participants said they wanted to be able to delete a form they started but
 [Prototype in a GitHub Codespace that needs to be started manually--CONTACT CINDY](https://legendary-yodel-46rpq9g49pj37wv5-3002.app.github.dev)
 
 #### Screenshots of the prototype (Codespace) 
-***NEED TO UPDATE EVERYTHING BELOW, including the Figure numbering*...**
 
 <details>
   <summary>Figure 4: VA.gov home page--not signed in</summary>
