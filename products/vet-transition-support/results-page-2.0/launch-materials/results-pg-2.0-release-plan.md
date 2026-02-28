@@ -1,5 +1,5 @@
 # Release Plan: Results Page 2.0
-**Last updated: October 14, 2025 - published** 
+**Last updated: February 2025 - updated procedure for launch and linked JIRA tickets** 
 
 ### Table of Contents
 - [Phase I: UAT](#Phase-i-uat)
