@@ -311,10 +311,10 @@ Eight participants said they wanted to be able to delete a form they started but
 
          <details><summary>Screenshot of the menu that P6 used to ask his phone to "Speak" aloud the text that he highlighted with his finger in Figure 2</summary>
 
-        Figure 2 shows the VA form number "20-10206" split across two lines.
+         Figure 2 shows the VA form number "20-10206" split across two lines.
 
-        <img src="./images/p6-highlight-then-menu-to-read-aloud.PNG" width="50%" height="50%" alt="The text '3 of 6 Records requested' is highlighted, and there's a menu popped up that has 6 options, the last of which says 'Speak'">
-        </details>
+         <img src="./images/p6-highlight-then-menu-to-read-aloud.PNG" width="50%" height="50%" alt="The text '3 of 6 Records requested' is highlighted, and there's a menu popped up that has 6 options, the last of which says 'Speak'">
+         </details>
 
 
         > *"I'd like to read it all, but I don't know how to make it do that...It will only let me highlight the first item that appears…'3 of 6 records requested.' Okay, so there's way more information than what you just heard. It looks like it's gonna make me highlight every little bit. I like to do the whole page" (p6).*
